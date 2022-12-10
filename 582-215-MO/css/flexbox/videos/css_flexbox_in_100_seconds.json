@@ -5,7 +5,7 @@
 "url": "https://mediaarea.net/MediaInfo"
 },
 "media": {
-"@ref": "D:\\Programmation\\zmotrin.github.io\\cours\\css\\flexbox\\videos\\css_flexbox_in_100_seconds.mp4",
+"@ref": "D:\\Programmation\\tim-montmorency\\cours\\582-215-MO\\css\\flexbox\\videos\\css_flexbox_in_100_seconds.mp4",
 "track": [
 {
 "@type": "General",
@@ -30,8 +30,8 @@
 "Movie": "CSS Flexbox in 100 Seconds",
 "Performer": "Fireship",
 "Recorded_Date": "2020",
-"File_Created_Date": "UTC 2022-12-08 12:52:58.174",
-"File_Created_Date_Local": "2022-12-08 07:52:58.174",
+"File_Created_Date": "UTC 2022-12-10 09:47:04.474",
+"File_Created_Date_Local": "2022-12-10 04:47:04.474",
 "File_Modified_Date": "UTC 2022-12-08 12:52:58.503",
 "File_Modified_Date_Local": "2022-12-08 07:52:58.503",
 "Encoded_Application": "Lavf58.39.101",
