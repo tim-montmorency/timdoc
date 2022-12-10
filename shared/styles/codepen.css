@@ -1,0 +1,287 @@
+@charset "UTF-8";
+
+@font-face {
+  src: url("https://smnarnold.com/public/fonts/SFMono-Regular.ttf") format("truetype");
+  font-family: "SFMono-Regular";
+  font-display: fallback;
+}
+
+:root {
+	--primary: #fff;
+	--primary--15: hsla(0, 0%, 100%, 0.15);
+	--secondary: #000;
+	--secondary--15: rgba(0, 0, 0, 0.15);
+	--green: #00c774;
+	--green-dark: #009e24;
+	--blue: #3c38ba;
+	--blue-dark: #08067c;
+	--red: #ff8487;
+	--red-dark: #ff262b;
+	--cyan: #7cfef0;
+	--cyan-dark: #02cfb9;
+	--yellow: #f7ce5b;
+	--yellow-dark: #d19d0a;
+	--purple: #e2a0ff;
+	--purple-dark: #b918ff;
+  --gutter: 25px;
+}
+
+html {
+	background-color: var(--primary);
+	color: var(--secondary);
+}
+
+body {
+	margin: 0;
+  font-size: 16px;
+}
+
+.interactive-demo {
+  height: 100%; 
+  overflow: hidden;
+}
+
+.interactive-demo body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+  overflow: hidden;
+}
+
+.interactive-demo .sandbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: var(--gutter);
+  width: 100%;
+  max-width: 720px;
+  box-sizing: border-box;
+  padding: 0 var(--gutter);
+}
+
+.interactive-demo .sandbox > * {
+  min-width: 140px;
+  position: relative;
+}
+
+.interactive-demo .options { 
+  flex: 0 0 auto;
+  margin: 1em 0; 
+}
+
+.interactive-demo .content { flex: 1 1 auto; }
+
+.layout {
+	display: flex;
+	width: 100%;
+	max-width: 806px;
+	margin: 0 auto;
+	justify-content: center
+}
+
+.layout>* {
+	display: flex;
+	flex: 0 0 50%;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 1% 0
+}
+
+.frame {
+	font-size: calc(5px + 3.5vw);
+	border-radius: 1em;
+	background: var(--secondary);
+	width: 64%;
+	padding: 15% 0 13%;
+	color: var(--primary);
+	margin: 0 auto;
+	position: relative
+}
+
+.frame>* {
+	position: absolute;
+	top: 23.5%;
+	left: 0;
+	width: 100%;
+	height: 56%;
+	background: var(--primary);
+	font-size: 3vw;
+	overflow: visible
+}
+
+.frame>* * {
+	box-sizing: border-box
+}
+
+.frame:before {
+	content: "…";
+	font-family: serif;
+	position: absolute;
+	top: 0;
+	left: .3em;
+	opacity: .4;
+	font-size: 1.4em;
+	font-weight: 700;
+	line-height: .65
+}
+
+.frame:after {
+	content: "";
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 54.5%;
+	pointer-events: none
+}
+
+.element {
+	padding: 4%;
+	text-align: center
+}
+
+.element#no1,
+.element.no1 {
+	background-color: var(--green);
+	color: var(--green-dark)
+}
+
+.element#no2,
+.element.no2 {
+	background-color: var(--blue);
+	color: var(--blue-dark)
+}
+
+.element#no3,
+.element.no3 {
+	background-color: var(--red);
+	color: var(--red-dark)
+}
+
+.element#no4,
+.element.no4 {
+	background-color: var(--cyan);
+	color: var(--cyan-dark)
+}
+
+.element#no5,
+.element.no5 {
+	background-color: var(--yellow);
+	color: var(--yellow-dark)
+}
+
+.element#no6,
+.element.no6 {
+	background-color: var(--purple);
+	color: var(--purple-dark)
+}
+
+video {
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover
+}
+
+button,
+select {
+	width: 64%;
+	margin: 0 auto;
+	border-radius: 6px;
+	border: none;
+	padding: 1em;
+	font-size: 3vw;
+	font-weight: 900;
+	background: var(--secondary);
+	color: var(--primary);
+	transition: border-width .3s;
+	border: 0 solid var(--secondary)
+}
+
+button:hover {
+	border-top-width: 4px;
+	border-bottom-width: 4px
+}
+
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: var(--secondary--15);
+	background-image: url(https://i.smnarnold.com/codepen/img/select-arrow-dark.png);
+	background-position: right .5em top 50%;
+	background-repeat: no-repeat;
+	color: var(--secondary);
+	padding-right: 1em 1.25em 1em 1em
+}
+
+code,
+pre { 
+  font-size: 0.8em;
+  font-family: SFMono-Regular, monospace; 
+}
+
+pre {
+	margin: 0;
+}
+
+pre select {
+	box-sizing: border-box;
+	width: auto;
+	font-size: .9em;
+	font-weight: 400;
+	line-height: 1.1;
+	padding: .3em 1.25em .3em .5em
+}
+
+.txt {
+	font-size: 4vw
+}
+
+/* embbed sm */
+@media screen and (min-width:526px) {
+  .interactive-demo .sandbox { padding: 0; }
+  .interactive-demo .content { max-width: 45%; }
+}
+
+@media (max-aspect-ratio:3/2) and (max-width:400px) {
+	.layout>:only-child {
+		flex: 0 0 95%
+	}
+	.layout>:only-child .frame {
+		font-size: calc(10px + 7vw)
+	}
+	.layout>:only-child .frame>* {
+		font-size: 6vw
+	}
+}
+
+@media screen and (min-width:720px) {
+  body { font-size: 19px; }
+
+	.frame {
+		font-size: 40px
+	}
+	.frame>* {
+		font-size: 21px
+	}
+	button,
+	select {
+		font-size: 16px
+	}
+}
+
+@media (prefers-color-scheme:dark) {
+	:root {
+		--primary: #111;
+		--secondary: #fefefe;
+		--primary--15: rgba(17, 17, 17, 0.15);
+		--secondary--15: hsla(0, 0%, 99.6%, 0.15)
+	}
+	select {
+		background-image: url(https://i.smnarnold.com/codepen/img/select-arrow-light.png)
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "emeraldwalk.runonsave": {
+    
+
+
+        "autoClearConsole": true,
+        "commands": [
+            {
+                "match": ".*\\.php$",
+                "cmd": "pxpros \"${file}\""
+            }
+        ]
+    },
+}

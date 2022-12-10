@@ -1,0 +1,6 @@
+{
+    "list": [
+        "Ajustez les différents groupes de lettres (.group) afin qu'ils affichent de la bonne façon.",
+        "Ajustez le plateau de jeu (.board) afin que tous les groupes de lettres se déplace au bon endroit."
+    ]
+}

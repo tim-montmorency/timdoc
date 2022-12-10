@@ -1,0 +1,74 @@
+{
+    "creatingLibrary": {
+        "name": "MediaInfoLib",
+        "version": "22.09",
+        "url": "https://mediaarea.net/MediaInfo"
+    },
+    "media": {
+        "@ref": "D:\\Programmation\\zmotrin.github.io\\cours\\css\\flexbox\\videos\\flex-inspecteur.mp4",
+        "track": [
+            {
+                "@type": "General",
+                "VideoCount": "1",
+                "FileExtension": "mp4",
+                "Format": "MPEG-4",
+                "Format_Profile": "Base Media",
+                "CodecID": "isom",
+                "CodecID_Compatible": "isom/iso2/avc1/mp41",
+                "FileSize": "248371",
+                "Duration": "22.867",
+                "OverallBitRate": "86892",
+                "FrameRate": "30.000",
+                "FrameCount": "686",
+                "StreamSize": "9016",
+                "HeaderSize": "40",
+                "DataSize": "239363",
+                "FooterSize": "8968",
+                "IsStreamable": "No",
+                "File_Created_Date": "UTC 2022-12-08 03:21:01.490",
+                "File_Created_Date_Local": "2022-12-07 22:21:01.490",
+                "File_Modified_Date": "UTC 2022-12-08 03:20:30.107",
+                "File_Modified_Date_Local": "2022-12-07 22:20:30.107",
+                "Encoded_Application": "Lavf58.45.100"
+            },
+            {
+                "@type": "Video",
+                "StreamOrder": "0",
+                "ID": "1",
+                "Format": "AVC",
+                "Format_Profile": "High",
+                "Format_Level": "3.1",
+                "Format_Settings_CABAC": "Yes",
+                "Format_Settings_RefFrames": "4",
+                "CodecID": "avc1",
+                "Duration": "22.867",
+                "BitRate": "83739",
+                "Width": "920",
+                "Height": "490",
+                "Stored_Width": "928",
+                "Stored_Height": "496",
+                "Sampled_Width": "920",
+                "Sampled_Height": "490",
+                "PixelAspectRatio": "1.000",
+                "DisplayAspectRatio": "1.878",
+                "Rotation": "0.000",
+                "FrameRate_Mode": "CFR",
+                "FrameRate_Mode_Original": "VFR",
+                "FrameRate": "30.000",
+                "FrameCount": "686",
+                "ColorSpace": "YUV",
+                "ChromaSubsampling": "4:2:0",
+                "BitDepth": "8",
+                "ScanType": "Progressive",
+                "StreamSize": "239355",
+                "Encoded_Library": "x264 - core 161 r3018 db0d417",
+                "Encoded_Library_Name": "x264",
+                "Encoded_Library_Version": "core 161 r3018 db0d417",
+                "Encoded_Library_Settings": "cabac=1 / ref=3 / deblock=1:0:0 / analyse=0x3:0x113 / me=hex / subme=7 / psy=1 / psy_rd=1.00:0.00 / mixed_ref=1 / me_range=16 / chroma_me=1 / trellis=1 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=1 / chroma_qp_offset=-2 / threads=8 / lookahead_threads=1 / sliced_threads=0 / nr=0 / decimate=1 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / bframes=3 / b_pyramid=2 / b_adapt=1 / b_bias=0 / direct=1 / weightb=1 / open_gop=0 / weightp=2 / keyint=250 / keyint_min=25 / scenecut=40 / intra_refresh=0 / rc_lookahead=40 / rc=crf / mbtree=1 / crf=23.0 / qcomp=0.60 / qpmin=0 / qpmax=69 / qpstep=4 / ip_ratio=1.40 / aq=1:1.00",
+                "extra": {
+                    "CodecConfigurationBox": "avcC"
+                }
+            }
+        ]
+    }
+}

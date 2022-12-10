@@ -1,6 +1,12 @@
 <?php
 
 
+function get_shared($file){
+    $backwards = count(explode('\\',str_replace($PAGE->root, '', pathinfo($file,PATHINFO_DIRNAME))));
+    return join('/', array_fill(0, $backwards, '..')).'/shared/';
+}
+
+
 function print_breadcrumb() {
     $root = realpath($PAGE->root);
     $parent = pathinfo(pathinfo($PAGE->file, PATHINFO_DIRNAME), PATHINFO_DIRNAME);
@@ -16,6 +22,9 @@ function print_breadcrumb() {
 
 
 function print_header() {
+    $parent = current(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS,1))['file'];
+    $PAGE->shared = get_shared($parent);
+
     switch($PAGE->type) {
         case 'article': print_article_header(); break;
         case 'exercice': print_exercice_header(); break;

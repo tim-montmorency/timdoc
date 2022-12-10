@@ -2,4 +2,4 @@
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
             </article>
-            <script src="/cours/shared/jscripts/article.js"></script>
+            <script src="<?php echo $PAGE->shared; ?>jscripts/article.js"></script>
