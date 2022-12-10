@@ -1,8 +1,5 @@
 {
     "emeraldwalk.runonsave": {
-    
-
-
         "autoClearConsole": true,
         "commands": [
             {
