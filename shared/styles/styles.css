@@ -270,6 +270,7 @@ footer #copyright {
   margin-top: auto;
   margin-bottom: auto;
   padding-left: 25px;
+  padding-right: 25px;
 }
 #contents a.exercice div.exercice-container div.exercice-abstract em {
   background-color: skyblue;

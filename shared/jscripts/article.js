@@ -125,7 +125,6 @@ app.component('doclink', {
     props: ['href', 'spacer'],
     data() {
         let site = '';
-        
         try {
             let url = new URL(this.href);
             switch(url.hostname) {
@@ -134,10 +133,7 @@ app.component('doclink', {
                 case 'codepen.io': site = 'codepen'; break;
             }
         } catch(e) { site = ''; }
-        
-        if(this.spacer == 'true') {
-            site += ' spacer';
-        }
+        if(this.spacer == 'true')  site += ' spacer';
         return { class: site }
     },
     template: `
