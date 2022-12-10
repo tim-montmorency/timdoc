@@ -211,7 +211,7 @@ select {
 	-moz-appearance: none;
 	appearance: none;
 	background-color: var(--secondary--15);
-	background-image: url(https://tim-montmorency.com/cours/shared/images/select-arrow-dark.png);
+	background-image: url('https://tim-montmorency.com/cours/shared/images/select-arrow-dark.png');
 	background-position: right .5em top 50%;
 	background-repeat: no-repeat;
 	color: var(--secondary);
@@ -282,6 +282,6 @@ pre select {
 		--secondary--15: hsla(0, 0%, 99.6%, 0.15)
 	}
 	select {
-		background-image: url(https://tim-montmorency.com/cours/shared/images/select-arrow-light.png)
+		background-image: url('https://tim-montmorency.com/cours/shared/images/select-arrow-light.png')
 	}
 }
