@@ -1,14 +1,8 @@
 <?php print_header(); ?>
 
-
-<code>asdf</code>
-
-
-
 <p>Contrairement aux autres valeurs de display qui influencent uniquement l'affichage des éléments par rapport aux autres dans la page, la propriété <span class="inline-code">display: flex;</span> ou <span class="inline-code">display: inline-flex;</span> influence aussi l'affichage de ses enfants en les positionnant dans un corridor sur l'axe des X ou Y, en modifiant leur dimension, leur ordre, etc. afin de remplir l'espace disponible le plus adéquatement possible.</p>
 
 <grostitre id="flex-direction">flex-direction</grostitre>
-
 
 <p>Comme son nom l'indique, la valeur de cette propriété définit la direction qu'auront ses enfants.<br><br>Valeurs possibles:</p>
 <ul>
