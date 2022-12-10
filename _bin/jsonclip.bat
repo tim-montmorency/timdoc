@@ -6,8 +6,7 @@ set jpegoutput=%~d1%~p1%~n1.jpg
 set jsonoutput=%~d1%~p1%~n1.json
 
 %mediainfo% %1 --output=JSON > %jsonoutput%
+echo Output JSON: %jsonoutput%
 
 %ffmpeg% -hide_banner -loglevel error -ss 1 -y -i %1 -an -vframes 1 %jpegoutput% 
-
-echo Output JSON: %jsonoutput%
 echo Output JPEG: %jpegoutput%

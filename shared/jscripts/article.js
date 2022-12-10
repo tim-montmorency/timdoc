@@ -202,40 +202,62 @@ app.component('clip', {
 
 
 /******************************************************
+ *                Composante Highlight                *
+ ******************************************************/
+ app.component('highlight', {
+    props: ['lang'],
+    template: `
+        <pre class="highlight">
+            <code :class="'language-' + this.lang"><slot /></code>
+        </pre>`
+});
+
+
+/******************************************************
  *                Composante Checklist                *
  ******************************************************/
-app.component('checklist', {
-    props: ['id'],
-    data() {
-        let listdata = syncjson(this.id + '.json');
-        if(!listdata) return {};
-        let cookieValue = localStorage.getItem(this.cookiename());
+ app.component('checklist', {
+    data(){
+        var text = '';
+        this.$slots.default().forEach(elm => {
+            if(typeof elm.type == "string"){
+                var props = '';
+                for(i in elm.props) props += ' ' + i + '="' + elm.props[i] + '"';
+                text += '<' + elm.type + props + '>' + elm.children + '</' + elm.type + '>';
+            }else {
+                text += elm.children;
+            }
+        });
+        var lines = [];
+        text.trim().split('\n').map(v => { lines.push(v.trim()); });
+        var hash = this.getHash(lines.join());
+        let cookieValue = localStorage.getItem('checklist-' + hash);
         if(typeof cookieValue == 'string') {
             var checks = cookieValue.split(',').map((val) => { return parseInt(val); });
-            if(checks.length != listdata.list.length){
+            if(checks.length != lines.length){
                 checks = [];
-                listdata.list.forEach(() => { checks.push(0); });
+                lines.forEach(() => { checks.push(0); });
             }
         } else {
             var checks = [];
-            listdata.list.forEach(() => { checks.push(0); });
+            lines.forEach(() => { checks.push(0); });
         }
         return {
-            list: listdata.list,
+            hash: hash,
+            list: lines,
             checks: checks,
             progressbar: null
-         }
+        }
     },
     created() {
         this.$nextTick(() => {
-            this.progressbar = document.getElementById(this.id + '-progressbar');
+            this.progressbar = document.getElementById(this.hash + '-progressbar');
             this.updateProgressBar();
         });
     },
     methods: {
-        cookiename() {
-            let hash = cyrb53(window.location.pathname);
-            return 'exercice-' + this.id + '-' + hash;
+        getHash(str) {
+            return cyrb53(window.location.pathname + str);
         },
         click(event,i) {
             let target = event.currentTarget;
@@ -247,7 +269,7 @@ app.component('checklist', {
                 target.classList.add('checked');
             }
             this.updateProgressBar();
-            localStorage.setItem(this.cookiename(), this.checks.join(','));
+            localStorage.setItem('checklist-' + this.hash, this.checks.join(','));
         },
         updateProgressBar() {
             let total = 0;
@@ -258,7 +280,7 @@ app.component('checklist', {
     },
     template: `
         <div class="checklist">
-            <div :id="this.id + '-progressbar'" class="progressbar"></div>
+            <div :id="this.hash + '-progressbar'" class="progressbar"></div>
             <ol>
                 <li v-for="(line, i) in this.list" :class="this.checks[i]?'checked':''" @click="click($event,i)" v-html="line"></li>
             </ol>
@@ -266,8 +288,9 @@ app.component('checklist', {
 });
 
 
-
 /******************************************************
  *                     Mount App                      *
  ******************************************************/
+app.config.compilerOptions.whitespace = 'preserve';
 app.mount('body');
+hljs.highlightAll();

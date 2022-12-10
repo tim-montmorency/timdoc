@@ -301,6 +301,9 @@ footer #copyright {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+#contents pre.highlight {
+  font-size: 14px;
+}
 #contents div.checklist ol {
   margin-left: 25px;
   margin-bottom: 25px;
