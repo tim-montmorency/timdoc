@@ -1,6 +1,4 @@
 {
     "type": "list",
-    "title": "CSS",
-    "abstract": "flex-direction, justify-content, align-items, align-self",
-    "icon": "images/icon.png"
+    "title": "CSS"
 }
