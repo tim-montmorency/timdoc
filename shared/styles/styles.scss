@@ -480,8 +480,61 @@ footer {
         }
     }
 
+
 }
 
 
 
+#listing {
+    width: 100%;
 
+    .list-grid {
+        margin-left: auto;
+        margin-right: auto;
+        width: 720px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+        &__item {
+            display: flex;
+            height: 60px;
+            
+            &__icon {
+                display: inline-block;
+                height: 48px;
+                width: 48px;
+                background-size: 48px 48px;
+                border-radius: 50%;
+            }
+
+            &__description {
+                height: 48px;
+                display: inline-block;
+                padding-top: 2px;
+                padding-left: 10px;
+                vertical-align: middle;
+            }
+            
+            &__title {
+                display: block;
+                font-size: 24px;
+            }
+
+            &__abstract {
+                display: block;
+                font-size: 11px;
+                margin-top: 2px;
+            }
+    
+    
+        }
+
+
+
+    }
+
+
+
+
+
+}

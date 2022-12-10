@@ -42,9 +42,10 @@ function print_header() {
     $parent = current(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS,1))['file'];
     $PAGE->shared = get_shared($parent);
     switch($PAGE->type) {
-        case 'article': print_article_header(); break;
+        case 'article':  print_article_header(); break;
         case 'exercice': print_exercice_header(); break;
-        default: print_main_header();
+        case 'list':     print_list_header(); break;
+        default:         print_main_header();
     }
 }
 
@@ -56,9 +57,10 @@ function print_header() {
  */
 function print_footer() {
     switch($PAGE->type) {
-        case 'article': print_article_footer(); break;
+        case 'article':  print_article_footer(); break;
         case 'exercice': print_exercice_footer(); break;
-        default: print_main_footer();
+        case 'list':     print_list_footer(); break;
+        default:         print_main_footer();
     }
 }
 
@@ -123,5 +125,27 @@ function print_exercice_header() {
  */
 function print_exercice_footer() {
     include('exercice_footer.php');
+    print_main_footer();
+}
+
+
+/**
+ * List header printing
+ *
+ * @return void
+ */
+function print_list_header() {
+    print_main_header(); 
+    include('list_header.php');
+}
+
+
+/**
+ * List footer printing
+ *
+ * @return void
+ */
+function print_list_footer() {
+    include('list_footer.php');
     print_main_footer();
 }

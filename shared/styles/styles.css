@@ -353,4 +353,42 @@ footer #copyright {
   margin-top: 10px;
   list-style-type: none;
   font-size: 16px;
+}
+
+#listing {
+  width: 100%;
+}
+#listing .list-grid {
+  margin-left: auto;
+  margin-right: auto;
+  width: 720px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#listing .list-grid__item {
+  display: flex;
+  height: 60px;
+}
+#listing .list-grid__item__icon {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  background-size: 48px 48px;
+  border-radius: 50%;
+}
+#listing .list-grid__item__description {
+  height: 48px;
+  display: inline-block;
+  padding-top: 2px;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+#listing .list-grid__item__title {
+  display: block;
+  font-size: 24px;
+}
+#listing .list-grid__item__abstract {
+  display: block;
+  font-size: 11px;
+  margin-top: 2px;
 }/*# sourceMappingURL=styles.css.map */
