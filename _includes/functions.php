@@ -38,7 +38,10 @@ function print_breadcrumb() {
         if(!$data = json_decode(file_get_contents($jsonfile))) break;
         if($data->type != 'list') break;
         $link = str_replace([$root, '\\'], ['', '/'], $parent)."/";
-        $nodes[] = '<a href="'.$link.'">'.$data->title.'</a>';
+        $page = str_replace([$root, '\\'], ['', '/'], pathinfo($PAGE->file, PATHINFO_DIRNAME));
+        $backwards = count(explode('/',str_replace($link, '', $page)));
+        $href = join('/', array_fill(0, $backwards, '..')).'/';
+        $nodes[] = '<a href="'.$href.'">'.$data->title.'</a>';
         $parent = pathinfo($parent, PATHINFO_DIRNAME);
     }
     if(!empty($nodes)) echo join(' > ', array_reverse($nodes)).' >';
