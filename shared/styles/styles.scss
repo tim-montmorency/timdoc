@@ -179,6 +179,97 @@ footer {
     }
 
 
+    .mediafile {
+// background-color: red;
+        display: flex;
+
+        &__icon {
+            display: inline-block;
+            width: 22px;
+            height: 22px;
+            background-color: black;
+            background-size: 16px 16px;
+            background-position: center;
+            background-repeat: no-repeat;
+            // border: 1px solid #000000;
+
+
+        }
+
+        &__text {
+            display: inline-block;
+            // background-color: tomato;
+            padding-left: 6px;
+
+        }
+
+        &__link {
+            display: block;
+            width: 100%;
+
+            margin-bottom: 25px;
+
+        }
+
+
+        &__link-text {
+            margin-top: 4px;
+            display: block;
+            width: 100%;
+            background-color: rgb(228, 227, 227);
+            font-size: 16px;
+            padding: 4px;
+            border: 0px;
+        }
+
+
+
+        &__linkcopied {
+            // line-height: 36px;
+            font-size: 14px;
+            margin-left: 10px;
+            opacity: 0%;
+        }
+
+        &__chain {
+            transition-duration: 200ms;
+            height: 22px;
+            width: 22px;
+            padding: 2px;
+            text-align: center;
+            vertical-align: center;
+            border-radius: 50%;
+            display:inline;
+            background-color: #ffc5c5;
+            margin-left: 6px;
+
+            &:hover {
+                cursor: pointer;
+                transform: rotate(-180deg);
+                transition-duration: 200ms;
+                background-color: #fa6b6b;
+            }
+
+            &.copied {
+                background-color: #83ff73;
+                transform: rotate(-360deg);
+
+                & + div {
+                    opacity: 100%;
+                    transition-duration: 200ms;
+                }
+
+            }
+        }
+
+
+    }
+
+
+
+
+
+
     div.spacer {
         width: 100px;
         color: #aaaaaa;

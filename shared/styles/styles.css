@@ -117,6 +117,67 @@ footer #copyright {
   margin-left: 25px;
   margin-bottom: 25px;
 }
+#contents .mediafile {
+  display: flex;
+}
+#contents .mediafile__icon {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-color: black;
+  background-size: 16px 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#contents .mediafile__text {
+  display: inline-block;
+  padding-left: 6px;
+}
+#contents .mediafile__link {
+  display: block;
+  width: 100%;
+  margin-bottom: 25px;
+}
+#contents .mediafile__link-text {
+  margin-top: 4px;
+  display: block;
+  width: 100%;
+  background-color: rgb(228, 227, 227);
+  font-size: 16px;
+  padding: 4px;
+  border: 0px;
+}
+#contents .mediafile__linkcopied {
+  font-size: 14px;
+  margin-left: 10px;
+  opacity: 0%;
+}
+#contents .mediafile__chain {
+  transition-duration: 200ms;
+  height: 22px;
+  width: 22px;
+  padding: 2px;
+  text-align: center;
+  vertical-align: center;
+  border-radius: 50%;
+  display: inline;
+  background-color: #ffc5c5;
+  margin-left: 6px;
+}
+#contents .mediafile__chain:hover {
+  cursor: pointer;
+  transform: rotate(-180deg);
+  transition-duration: 200ms;
+  background-color: #fa6b6b;
+}
+#contents .mediafile__chain.copied {
+  background-color: #83ff73;
+  transform: rotate(-360deg);
+}
+#contents .mediafile__chain.copied + div {
+  opacity: 100%;
+  transition-duration: 200ms;
+}
 #contents div.spacer {
   width: 100px;
   color: #aaaaaa;
