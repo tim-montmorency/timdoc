@@ -149,3 +149,10 @@ function print_list_footer() {
     include('list_footer.php');
     print_main_footer();
 }
+
+
+function get_children() {
+    $parent = current(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS,1))['file'];
+
+
+}
