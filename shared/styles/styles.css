@@ -195,7 +195,7 @@ footer #copyright {
 #contents div.title h1 {
   font-size: 36px;
   vertical-align: middle;
-  margin-right: 25px;
+  margin-right: 15px;
 }
 #contents div.title div.linkcopied {
   line-height: 36px;
@@ -383,7 +383,7 @@ footer #copyright {
   margin-top: 10px;
   margin-bottom: 20px;
   font-size: 18px;
-  line-height: 18px;
+  line-height: 24px;
   transition-duration: 200ms;
 }
 #contents div.checklist ol li:hover {
