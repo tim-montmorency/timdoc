@@ -2,7 +2,7 @@
 
 <p>Contrairement aux autres valeurs de display qui influencent uniquement l'affichage des éléments par rapport aux autres dans la page, la propriété <span class="inline-code">display: flex;</span> ou <span class="inline-code">display: inline-flex;</span> influence aussi l'affichage de ses enfants en les positionnant dans un corridor sur l'axe des X ou Y, en modifiant leur dimension, leur ordre, etc. afin de remplir l'espace disponible le plus adéquatement possible.</p>
 
-<grostitre id="flex-direction">flex-direction</grostitre>
+<grostitre>flex-direction</grostitre>
 
 <p>Comme son nom l'indique, la valeur de cette propriété définit la direction qu'auront ses enfants.<br><br>Valeurs possibles:</p>
 <ul>
@@ -25,7 +25,7 @@
 
 <dots></dots>
 
-<grostitre id="justify-content">justify-content</grostitre>
+<grostitre>justify-content</grostitre>
 <p>Un peu comme Word ou Google Doc, flexbox vous permet de justifier votre contenu horizontalement ↔️ afin atteindre l'affichage désiré.<br><br>Possibilités:<br></p>
 <ul>
     <li><span class="inline-code">flex-start</span> <em>(défaut)</em></li>
@@ -55,7 +55,7 @@
 
 <dots></dots>
 
-<grostitre id="align-items">align-items</grostitre>
+<grostitre>align-items</grostitre>
 
 <p>Dans la même lignée que <a href="#justify-content">justify-content</a>, mais cette fois à la verticale ↕️.<br><br>Possibilités:</p>
 <ul>
@@ -81,7 +81,7 @@
 
 <dots></dots>
 
-<grostitre id="align-self">align-self</grostitre>
+<grostitre>align-self</grostitre>
 
 <p>La propriété <span class="inline-code">align-self</span> est pratiquement identique à la propriété <a href="#align-items">align-items</a> à la différence qu'elle s'applique sur un élément en particulier, <strong>et non le parent</strong>, afin de l'aligner de façon différente aux autres.<br><br>Elle accepte aussi les valeurs:</p>
 <ul>
@@ -102,7 +102,7 @@
 
 <dots></dots>
 
-<grostitre id="inspecteur">Inspecteur</grostitre>
+<grostitre>Inspecteur</grostitre>
 
 <p>L'inspecteur est d'une aide précieuse lorsque l'on manipule les éléments flexbox. Dans le DOM tree, les éléments en <span class="inline-code">display: flex;</span> ou <span class="inline-code">display: inline-flex;</span> sont mis en évidence grâce à un badge contenant le mot "flex". Lorsque cliqué, ce badge met en évidence la zone prise dans la page par le flexbox en question.</p>
 <p>Lorsque l'on examine les propriétés CSS appliquées à cet élément on remarque à la droite de la propriété <span class="inline-code">display</span> un icône rappelant une grille. Lorsque cliqué, cet icône affiche différentes propriétés en lien avec flexbox, par exemple: <span class="inline-code">flex-direction</span>, <span class="inline-code">justify-content</span>, <span class="inline-code">align-items</span>, etc. Les valeurs disponibles pour ces propriétés sont illustrées avec des icônes permettant d'identifier ou de tester rapidement la valeur souhaitée.</p>
@@ -116,7 +116,7 @@
 
 <dots></dots>
 
-<grostitre id="resume-video">Résumé vidéo</grostitre>
+<grostitre>Résumé vidéo</grostitre>
 <clip src="videos/css_flexbox_in_100_seconds.mp4"></clip>
 
 <dots></dots>

@@ -42,9 +42,7 @@ app.component('tabledesmatieres', {
 app.component('grostitre', {
     data() {
         let slug = lowslug(this.$slots.default()[0].children);
-        return {
-            id: slug
-        }
+        return { id: slug }
     },
     created() {
         this.$root.addToTableOfContents(this.id, this.$slots.default()[0].children);

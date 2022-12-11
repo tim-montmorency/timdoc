@@ -6,7 +6,7 @@
 
 <dots></dots>
 
-<grostitre id="materiel">Matériel</grostitre>
+<grostitre>Matériel</grostitre>
 
 <doclink spacer="true" href="https://codepen.io/ZmotriN/pen/vYrPaYr?editors=1100">Pen de départ</doclink>
 
@@ -29,7 +29,7 @@
 
 <dots></dots>
 
-<grostitre id="requis">Requis</grostitre>
+<grostitre>Requis</grostitre>
 
 <checklist>
     Ajustez les différents groupes de lettres <span class="inline-code">(.group)</span> afin qu'ils affichent de la bonne façon.
@@ -50,7 +50,7 @@
 
 <dots></dots>
 
-<grostitre id="notes-de-cours">Notes de cours</grostitre>
+<grostitre>Notes de cours</grostitre>
 
 <doclink spacer="true" href="../../">Flexbox</doclink>
 
