@@ -1,6 +1,5 @@
 <?php print_header(); ?>
 
-
 <p>Une parallaxe consiste à créer un effet de profondeur en déplaçant des éléments à des vitesses différentes. Ainsi, les éléments se déplaçant plus rapidement sont perçus comme étant plus près, alors que ceux se déplaçant plus lentement sont perçus comme étant plus loin.</p>
 <p>Walt Disney fut l'un des pionniers à ce niveau grâce à son invention le MultiPlane. Cette technologie permet de déplacer à des vitesses différentes plusieurs éléments d'un dessin animé recréant ainsi l'aspect de profondeur perçu dans la vie réelle.</p>
 
@@ -9,7 +8,6 @@
 <p>Le même principe est applicable en CSS.</p>
 
 <codepen id="LYroEPB"></codepen>
-
 
 <grostitre id="exemples-de-sites">Exemples de sites</grostitre>
 
@@ -49,5 +47,39 @@
 
 <codepen id="mdKYymb">Remarquez comment l’élément en arrière-plan est plus loin, donc parait plus petit.</codepen>
 
+<dots></dots>
+
+<grostitre id="correction_de_la_profondeur">Correction de la profondeur</grostitre>
+
+<p>Les éléments plus éloignés paraissent logiquement plus petits. Cependant, cette particularité est nuisible dans le cadre d'une parallaxe. Pour y remédier, il est nécessaire d'agrandir les éléments proportionnellement à l'aide d'un <span class="inline-code">scale()</span> afin de leur redonner leur taille d'origine.
+<p>Pour calculer le <span class="inline-code">scale()</span> adéquat, il faut utiliser la formule suivante:</p>
+
+<highlight lang="css">translateZ * -1 / perspective + 1</highlight>
+
+<p>Par exemple, pour l'élément <span class="inline-code">.back</span> avec un translateZ de -100px:</p>
+
+<highlight lang="css">-100 * -1 / 100 + 1; // 2</highlight>
+
+<highlight lang="css">.back {
+  transform: translateZ(-100px) scale(2);
+}</highlight>
+
+<p>Ainsi l'élément retrouvera sa taille de base.</p>
+
+<codepen id="RwJmNMw"></codepen>
+
+<dots></dots>
+
+<grostitre id="vitesse_de_defilement">Vitesse de défilement</grostitre>
+
+<p>Plus un élément est loin du point de départ sur l'axe des Z (0), plus celui-ci se déplacera lentement.</p>
+
+<p>Shout out à Keith Clark qui a grandement inspiré cet article avec son billet <a target="_blank" href="https://keithclark.co.uk/articles/pure-css-parallax-websites/">Pure CSS Parallax Website</a>.</p>
+
+<dots></dots>
+
+<exercice id="parallaxe-jupiter"></exercice>
+
+<dots></dots>
 
 <?php print_footer(); ?>

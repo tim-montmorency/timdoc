@@ -40,7 +40,12 @@ app.component('tabledesmatieres', {
  *               Composante Gros Titre                *
  ******************************************************/
 app.component('grostitre', {
-    props: ['id'],
+    data() {
+        let slug = lowslug(this.$slots.default()[0].children);
+        return {
+            id: slug
+        }
+    },
     created() {
         this.$root.addToTableOfContents(this.id, this.$slots.default()[0].children);
     },
@@ -71,14 +76,10 @@ app.component('grostitre', {
 app.component('codepen', {
     props: ['id', 'title'],
     data() {
-        // let remark = this.$slots;
-        // console.log();
         let remark = '';
         if(typeof this.$slots.default != 'undefined') {
             remark = this.$slots.default()[0].children;
         }
-
-
         return {
             user: 'ZmotriN',
             theme: '39618',

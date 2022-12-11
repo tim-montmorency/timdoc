@@ -8,9 +8,9 @@
         <link rel="stylesheet" href="<?php echo $PAGE->shared; ?>styles/styles.css">
         <link rel="stylesheet" href="<?php echo $PAGE->shared; ?>styles/highlight.min.css">
         <link rel="stylesheet" href="https://vjs.zencdn.net/7.20.3/video-js.css">
-        <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
-        <script src="<?php echo $PAGE->shared; ?>jscripts/highlight.min.js"></script>
         <script src="<?php echo $PAGE->shared; ?>jscripts/commons.js"></script>
+        <script src="<?php echo $PAGE->shared; ?>jscripts/highlight.min.js"></script>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
         <title><?php echo $PAGE->title; ?></title>
     </head>
     <body>

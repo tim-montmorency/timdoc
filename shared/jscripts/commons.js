@@ -38,3 +38,18 @@ const cyrb53 = (str, seed = 0) => {
 	h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
 	return decimalToHexString(4294967296 * (2097151 & h2) + (h1 >>> 0));
 };
+
+
+/******************************************************
+ *             Slug Diacritical Removing              *
+ ******************************************************/
+const lowslug = (str) => {
+	return str
+		.trim()
+		.normalize("NFD")
+		.replace(/[\u0300-\u036f]/g, "")
+		.toLowerCase()
+		.replace(/[^a-z0-9\s]/g,"")
+		.replace(/[\s\t]+/g,"-")
+	;
+}
