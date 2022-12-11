@@ -1,5 +1,6 @@
 
             <div id="subhead">
+                <div id="breadcrumb"><?php print_breadcrumb(); ?></div>
                 <div id="title"><?php echo $PAGE->title; ?></div>
             </div>
             <article>

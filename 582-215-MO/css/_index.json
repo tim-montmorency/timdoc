@@ -1,4 +1,6 @@
 {
     "type": "list",
-    "title": "CSS"
+    "title": "CSS",
+    "abstract": "Feuilles de style en cascade",
+    "icon": "images/icon.png"
 }
