@@ -4,4 +4,5 @@
             </div>
             <article>
                 <div id="listing">
-                    <!-- LIST HEADER EOF -->
+                    <div class="list-grid">
+                        <!-- LIST HEADER EOF -->

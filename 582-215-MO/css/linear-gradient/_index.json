@@ -1,0 +1,6 @@
+{
+    "type": "article",
+    "title": "Linear-gradient",
+    "abstract": "background-image: linear-gradient(#00c774, #3c38ba);",
+    "icon": "images/icon.png"
+}
