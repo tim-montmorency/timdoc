@@ -96,7 +96,7 @@ footer #copyright {
   margin-bottom: 25px;
 }
 #contents ul li {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 #contents p {
   padding-left: 25px;
@@ -169,6 +169,13 @@ footer #copyright {
 #contents iframe.codepen {
   width: 100%;
   height: 400px;
+  margin-bottom: 25px;
+}
+#contents span.codepen-remark {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  margin-top: -50px;
   margin-bottom: 25px;
 }
 #contents .doclink {
@@ -303,7 +310,8 @@ footer #copyright {
   transform: translate(-50%, -50%);
 }
 #contents pre.highlight {
-  font-size: 14px;
+  font-size: 16px;
+  padding-bottom: 25px;
 }
 #contents div.checklist ol {
   margin-left: 25px;

@@ -8,4 +8,46 @@
 
 <p>Le même principe est applicable en CSS.</p>
 
+<codepen id="LYroEPB"></codepen>
+
+
+<grostitre id="exemples-de-sites">Exemples de sites</grostitre>
+
+<ul>
+    <li><a target="_blank" href="https://the-goonies.webflow.io/">The Story of the Goonies</a> <em>(axe des Z)</em></li>
+    <li><a target="_blank" href="https://drinkcann.com/">CANN</a> <em>(axe des Y)</em></li>
+    <li><a target="_blank" href="https://longshotfeatures.com/">Longshot</a> <em>(axe des X)</em></li>
+    <li><a target="_blank" href="http://www.firewatchgame.com/">Firewatch</a></li>
+    <li><a target="_blank" href="http://www.mdmoch.com/index.php">Marcin Dmoch</a></li>
+</ul>
+
+<dots></dots>
+
+<grostitre id="perspective_et_axe_des_z">Perspective & axe des Z</grostitre>
+
+<p>Pour créer un effet similaire en CSS, il est nécessaire de configurer une perspective. Cette perspective est l'équivalent de spécifier à quelle distance en pixels se trouve le point de vue de l'utilisateur de ce qui est affiché.</p>
+<p>Par exemple:</p>
+
+<highlight lang="css">.parallax {
+    perspective: 100px;
+}
+</highlight>
+
+<p>Ce code indique que le point de vue de l'utilisateur se trouve à une distance équivalente à 100px de ce qui est affiché dans .parallax.</p>
+<p>Une fois cette perspective configurée, le positionnement des éléments sur l'axe des Z peut être utilisé afin de rapprocher ou d'éloigner un élément de l'utilisateur.</p>
+
+<highlight lang="css">.back {
+    transform: translateZ(-100px);
+}
+
+.front {
+    transform: translateZ(0);
+}
+</highlight>
+
+<p>Par exemple:</p>
+
+<codepen id="mdKYymb">Remarquez comment l’élément en arrière-plan est plus loin, donc parait plus petit.</codepen>
+
+
 <?php print_footer(); ?>

@@ -71,9 +71,18 @@ app.component('grostitre', {
 app.component('codepen', {
     props: ['id', 'title'],
     data() {
+        // let remark = this.$slots;
+        // console.log();
+        let remark = '';
+        if(typeof this.$slots.default != 'undefined') {
+            remark = this.$slots.default()[0].children;
+        }
+
+
         return {
             user: 'ZmotriN',
             theme: '39618',
+            remark: remark
         }
     },
     template: `
@@ -85,7 +94,7 @@ app.component('codepen', {
             loading="lazy"
             allowtransparency="true"
             allowfullscreen="true"
-        ></iframe>`
+        ></iframe><span class="codepen-remark" v-if="this.remark != ''">{{ remark }}</span>`
 });
 
 
@@ -202,10 +211,7 @@ app.component('clip', {
  ******************************************************/
  app.component('highlight', {
     props: ['lang'],
-    template: `
-        <pre class="highlight">
-            <code :class="'language-' + this.lang"><slot /></code>
-        </pre>`
+    template: `<pre class="highlight"><code :class="'language-' + this.lang"><slot /></code></pre>`
 });
 
 
