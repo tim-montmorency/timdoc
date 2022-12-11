@@ -1,3 +1,6 @@
+/******************************************************
+ *                Get a sync json file                *
+ ******************************************************/
 const syncjson = (url) => {
 	try {
 		const request = new XMLHttpRequest();
@@ -10,12 +13,19 @@ const syncjson = (url) => {
 	}
 }
 
+
+/******************************************************
+ *           Convert decinal to hex string            *
+ ******************************************************/
 const decimalToHexString = (number) => {
 	if (number < 0) number = 0xFFFFFFFF + number + 1;
 	return number.toString(16).toUpperCase();
 }
 
 
+/******************************************************
+ *                   CYRB53 Hashing                   *
+ ******************************************************/
 const cyrb53 = (str, seed = 0) => {
 	let h1 = 0xdeadbeef ^ seed,
 	h2 = 0x41c6ce57 ^ seed;
