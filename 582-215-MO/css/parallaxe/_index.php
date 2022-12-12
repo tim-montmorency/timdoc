@@ -3,7 +3,7 @@
  * @type     article
  * @title    Parallaxe
  * @icon     images/icon.png
- * @abstract Effet de profondeucr
+ * @abstract Créer un effet de profondeur
  */
 ?>
 
