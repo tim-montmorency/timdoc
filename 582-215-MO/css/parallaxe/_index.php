@@ -16,7 +16,7 @@
 
 <codepen id="LYroEPB"></codepen>
 
-<grostitre id="exemples-de-sites">Exemples de sites</grostitre>
+<grostitre>Exemples de sites</grostitre>
 
 <ul>
     <li><a target="_blank" href="https://the-goonies.webflow.io/">The Story of the Goonies</a> <em>(axe des Z)</em></li>
@@ -28,7 +28,7 @@
 
 <dots></dots>
 
-<grostitre id="perspective_et_axe_des_z">Perspective & axe des Z</grostitre>
+<grostitre>Perspective & axe des Z</grostitre>
 
 <p>Pour créer un effet similaire en CSS, il est nécessaire de configurer une perspective. Cette perspective est l'équivalent de spécifier à quelle distance en pixels se trouve le point de vue de l'utilisateur de ce qui est affiché.</p>
 <p>Par exemple:</p>
