@@ -1,8 +1,10 @@
 {
+    "data": {
+        "project": "TIM Montmorency - Documentation"
+    },
     "includes": [
         "_includes/functions.php"
     ],
-    "data": {
-        "project": "TIM Montmorency - Documentation"
-    }
+    "before": "_includes/header.php",
+    "after": "_includes/footer.php"
 }

@@ -1,5 +1,8 @@
-<?php print_header(); ?>
-
-<?php print_children() ?>
-
-<?php print_footer(); ?>
+<?php 
+/**
+ * @type     list
+ * @title    CSS
+ * @icon     images/icon.png
+ * @abstract Feuilles de style en cascade
+ */
+ print_children();

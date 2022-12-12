@@ -1,4 +1,9 @@
-<?php print_header(); ?>
+<?php 
+/**
+ * @type  exercice
+ * @title Flexbox - Scrabble Potter
+ */
+?>
 
 <p>Pour cet exercice, vous devez déplacer les lettres d’un jeu de <a target="_blank" href="https://fr.wikipedia.org/wiki/Scrabble">Scrabble</a> afin d’afficher correctement le nom de cinq des personnages de la fameuse série littéraire <a target="_blank" href="https://fr.wikipedia.org/wiki/Harry_Potter">Harry Potter</a>. Pour ce faire vous devrez avoir recours à flexbox.<br><br>Aperçu du résultat 👇</p>
 
@@ -55,5 +60,3 @@
 <doclink spacer="true" href="../../">Flexbox</doclink>
 
 <dots></dots>
-
-<?php print_footer(); ?>

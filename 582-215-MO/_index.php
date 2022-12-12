@@ -1,5 +1,9 @@
-<?php print_header(); ?>
+<?php
+/**
+ * @type     list
+ * @title    582-215-MO
+ * @icon     images/icon.png
+ * @abstract Intégration Web
+ */
 
-<?php print_children() ?>
-
-<?php print_footer(); ?>
+ print_children();

@@ -1,4 +1,11 @@
-<?php print_header(); ?>
+<?php 
+/**
+ * @type     article
+ * @title    Parallaxe
+ * @icon     images/icon.png
+ * @abstract Effet de profondeucr
+ */
+?>
 
 <p>Une parallaxe consiste à créer un effet de profondeur en déplaçant des éléments à des vitesses différentes. Ainsi, les éléments se déplaçant plus rapidement sont perçus comme étant plus près, alors que ceux se déplaçant plus lentement sont perçus comme étant plus loin.</p>
 <p>Walt Disney fut l'un des pionniers à ce niveau grâce à son invention le MultiPlane. Cette technologie permet de déplacer à des vitesses différentes plusieurs éléments d'un dessin animé recréant ainsi l'aspect de profondeur perçu dans la vie réelle.</p>
@@ -81,5 +88,3 @@
 <exercice id="parallaxe-jupiter"></exercice>
 
 <dots></dots>
-
-<?php print_footer(); ?>

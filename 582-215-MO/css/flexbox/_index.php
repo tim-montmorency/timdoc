@@ -1,4 +1,11 @@
-<?php print_header(); ?>
+<?php 
+/**
+ * @type     article
+ * @title    Flexbox
+ * @icon     images/icon.png
+ * @abstract flex-direction, justify-content, align-items, align-self
+ */
+?>
 
 <p>Contrairement aux autres valeurs de display qui influencent uniquement l'affichage des éléments par rapport aux autres dans la page, la propriété <span class="inline-code">display: flex;</span> ou <span class="inline-code">display: inline-flex;</span> influence aussi l'affichage de ses enfants en les positionnant dans un corridor sur l'axe des X ou Y, en modifiant leur dimension, leur ordre, etc. afin de remplir l'espace disponible le plus adéquatement possible.</p>
 
@@ -120,5 +127,3 @@
 <clip src="videos/css_flexbox_in_100_seconds.mp4"></clip>
 
 <dots></dots>
-
-<?php print_footer(); ?>

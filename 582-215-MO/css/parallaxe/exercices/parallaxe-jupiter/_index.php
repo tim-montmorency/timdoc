@@ -1,4 +1,9 @@
-<?php print_header(); ?>
+<?php 
+/**
+ * @type  exercice
+ * @title Parallaxe - Jupiter
+ */
+?>
 
 <p>Pour cet exercice, vous devrez reconstituer un effet parallaxe dans l’espace de sorte que les éléments derrière la planète Jupiter se déplaçant moins rapidement que celle-ci, mais que ceux devant se déplacent plus rapidement.<br><br>Aperçu du résultat 👇</p>
 
@@ -32,5 +37,3 @@
 <doclink spacer="true" href="../../">Parallaxe</doclink>
 
 <dots></dots>
-
-<?php print_footer(); ?>

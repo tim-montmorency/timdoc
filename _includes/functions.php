@@ -34,8 +34,8 @@ function print_breadcrumb() {
     $root = realpath($PAGE->root);
     $parent = pathinfo(pathinfo($PAGE->file, PATHINFO_DIRNAME), PATHINFO_DIRNAME);
     while($parent != $root) {
-        if(!is_file(($jsonfile = $parent.'\\'.'_index.json'))) break;
-        if(!$data = json_decode(file_get_contents($jsonfile))) break;
+        if(!is_file(($file = $parent.'\_index.php'))) break;
+        if(!$data = php_file_info($file)) break;
         if($data->type != 'list') break;
         $link = str_replace([$root, '\\'], ['', '/'], $parent)."/";
         $page = str_replace([$root, '\\'], ['', '/'], pathinfo($PAGE->file, PATHINFO_DIRNAME));
@@ -54,8 +54,7 @@ function print_breadcrumb() {
  * @return void
  */
 function print_header() {
-    $parent = current(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS,1))['file'];
-    $PAGE->shared = get_shared($parent);
+    $PAGE->shared = get_shared($PAGE->file);
     switch($PAGE->type) {
         case 'article':  print_article_header(); break;
         case 'exercice': print_exercice_header(); break;
@@ -176,9 +175,9 @@ function get_children($parent = null) {
     if(!$parent) $parent = current(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS,1))['file'];
     $folder = pathinfo($parent, PATHINFO_DIRNAME).'\\';
     foreach(glob($folder.'*', GLOB_ONLYDIR) as $dir) {
-        if(!is_file(($config = $dir.'\_index.json'))) continue;
-        if(!$contents = file_get_contents($config)) continue;
-        if(!$data = json_decode($contents)) continue;
+        if(!is_file(($file = $dir.'\_index.php'))) continue;
+        if(!$data = php_file_info($file)) continue;
+        if(empty($data)) continue;
         $data->href = pathinfo($dir, PATHINFO_BASENAME).'/';
         $children[] = $data;
     }
@@ -205,3 +204,7 @@ function print_children() {
         <?php
     }
 }
+
+
+
+if(!function_exists('php_file_info')) { function php_file_info($file){} }
