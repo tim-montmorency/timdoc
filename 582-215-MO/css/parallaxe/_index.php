@@ -14,7 +14,7 @@
 
 <p>Le même principe est applicable en CSS.</p>
 
-<codepen id="LYroEPB"></codepen>
+<codepen id="LYroEPB" tab="result"></codepen>
 
 <grostitre>Exemples de sites</grostitre>
 

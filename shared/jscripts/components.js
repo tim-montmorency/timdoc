@@ -115,8 +115,13 @@ app.component('grostitre', {
  *                 Composante Codepen                 *
  ******************************************************/
 app.component('codepen', {
-    props: ['id', 'title'],
+    props: ['id', 'title', 'tab'],
     data() {
+        var defaulttab = 'html,result';
+        console.log(typeof this.tab);
+        if(typeof this.tab != 'undefined') defaulttab = this.tab;
+        defaulttab = encodeURIComponent(defaulttab);
+        
         let remark = '';
         if(typeof this.$slots.default != 'undefined') {
             remark = this.$slots.default()[0].children;
@@ -124,12 +129,13 @@ app.component('codepen', {
         return {
             user: 'ZmotriN',
             theme: '39618',
+            defaulttab: defaulttab,
             remark: remark
         }
     },
     template: `
         <iframe
-            :src="'https://codepen.io/' + user + '/embed/' + id + '?default-tab=html%2Cresult&theme-id=' + theme"    
+            :src="'https://codepen.io/' + user + '/embed/' + id + '?default-tab=' + defaulttab + '&theme-id=' + theme"    
             class="codepen"
             scrolling="no"
             frameborder="no"
