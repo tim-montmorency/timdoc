@@ -193,7 +193,7 @@ function get_children($parent = null) {
 function print_children() {
     $parent = current(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS,1))['file'];
     foreach(get_children($parent) as $child) {
-        ?>
+?>
                         <div class="list-grid__item">
                             <div class="list-grid__item__icon" style="background-image: url('<?php echo $child->href . $child->icon; ?>');"></div>
                             <div class="list-grid__item__description">
@@ -201,7 +201,7 @@ function print_children() {
                                 <span class="list-grid__item__abstract"><?php echo $child->abstract; ?></span>
                             </div>
                         </div>
-        <?php
+<?php
     }
 }
 
