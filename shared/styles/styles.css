@@ -90,11 +90,11 @@ footer #copyright {
 #contents {
   width: 770px;
 }
-#contents ul {
+#contents ul, #contents ol {
   margin-left: 25px;
   margin-bottom: 25px;
 }
-#contents ul li {
+#contents ul li, #contents ol li {
   margin-top: 15px;
 }
 #contents p {

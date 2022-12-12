@@ -77,7 +77,7 @@ header {
     margin-left: 60px;
     position: fixed;
     height: 200px;
-    
+
     #logo {
         position: relative;
         top: 60px;
@@ -85,7 +85,7 @@ header {
         height: 80px;
         background-image: url("../images/tim-logo.png");
     }
-        
+
 }
 
 
@@ -105,7 +105,7 @@ header {
     #title {
         font-size: 60px;
     }
-    
+
 }
 
 article {
@@ -139,8 +139,8 @@ footer {
     // z-index: 999;
     // background-color: green;
     width: 770px;
-    
-    ul {
+
+    ul, ol {
         margin-left: 25px;
         margin-bottom: 25px;
 
@@ -174,7 +174,6 @@ footer {
 
 
     .mediafile {
-// background-color: red;
         display: flex;
 
         &__icon {
@@ -185,24 +184,17 @@ footer {
             background-size: 16px 16px;
             background-position: center;
             background-repeat: no-repeat;
-            // border: 1px solid #000000;
-
-
         }
 
         &__text {
             display: inline-block;
-            // background-color: tomato;
             padding-left: 6px;
-
         }
 
         &__link {
             display: block;
             width: 100%;
-
             margin-bottom: 25px;
-
         }
 
         &__link-text {
@@ -249,13 +241,9 @@ footer {
                     opacity: 100%;
                     transition-duration: 200ms;
                 }
-
             }
         }
-
-
     }
-
 
 
     div.spacer {
@@ -341,11 +329,11 @@ footer {
         &::before {
             content: "";
             position: absolute;
-            top: 0; 
+            top: 0;
             left: 0;
-            width: 100%; 
-            height: 100%;  
-            opacity: .3; 
+            width: 100%;
+            height: 100%;
+            opacity: .3;
             z-index: -1;
             background-color: #ff0000;
             border-radius: 24px;
@@ -354,7 +342,7 @@ footer {
           &:hover {
             color: white;
             &::before {
-                opacity: 8; 
+                opacity: 8;
             }
           }
 
@@ -364,7 +352,7 @@ footer {
             top: -4px;
             margin-left: 8px;
             margin-right: 10px;
-            
+
             font-size: 16px;
             line-height: 24px;
             font-family: Consolas, Inconsolas;
@@ -443,12 +431,12 @@ footer {
             width: 100%;
             height: 100%;
             display: flex;
-            
+
             div.exercice-thumb {
                 width: 186px;
                 height: 100%;
             }
-    
+
             div.exercice-abstract {
                 width: calc(100% - 186px);
                 margin-top: auto;
@@ -503,7 +491,7 @@ footer {
         ol {
             margin-left: 25px;
             margin-bottom: 25px;
-    
+
             li {
                 cursor: pointer;
                 margin-top: 10px;
@@ -515,7 +503,7 @@ footer {
                 &:hover {
                     background-color: #fde8ed;
                 }
-            
+
                 &.checked {
                     text-decoration: line-through;
                     text-decoration-color: #ff003a;
@@ -524,7 +512,7 @@ footer {
                         content: '\2713   '
                     }
                 }
-            
+
             }
         }
 
@@ -567,7 +555,6 @@ footer {
 }
 
 
-
 #listing {
     width: 100%;
 
@@ -581,7 +568,7 @@ footer {
         &__item {
             display: flex;
             height: 60px;
-            
+
             &__icon {
                 display: inline-block;
                 height: 48px;
@@ -597,7 +584,7 @@ footer {
                 padding-left: 10px;
                 vertical-align: middle;
             }
-            
+
             &__title {
                 display: block;
                 font-size: 24px;
@@ -608,16 +595,7 @@ footer {
                 font-size: 11px;
                 margin-top: 2px;
             }
-    
-    
         }
-
-
-
     }
-
-
-
-
 
 }
