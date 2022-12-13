@@ -1,7 +1,9 @@
 <?php 
 /**
- * @type  exercice
- * @title Flexbox - Scrabble Potter
+ * @type     exercice
+ * @title    Flexbox - Scrabble Potter
+ * @icon     images/thumb.jpg
+ * @abstract Déplacer les lettres d’un jeu de Scrabble afin d’afficher correctement le nom de cinq des personnages de la fameuse série littéraire Harry Potter.
  */
 ?>
 

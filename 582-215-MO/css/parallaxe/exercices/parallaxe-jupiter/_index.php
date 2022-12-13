@@ -1,7 +1,9 @@
 <?php 
 /**
- * @type  exercice
- * @title Parallaxe - Jupiter
+ * @type     exercice
+ * @title    Parallaxe - Jupiter
+ * @icon     images/thumb.jpg
+ * @abstract Reconstituer un effet parallaxe dans l’espace de sorte que les éléments derrière la planète Jupiter.
  */
 ?>
 

@@ -28,7 +28,7 @@
 <doclink href="https://www.w3schools.com/cssref/css3_pr_flex-direction.php">flex-direction</doclink>
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/flex-direction">flex-direction</doclink>
 
-<exercice id="flexbox-zombie-part-1"></exercice>
+<exercice href="exercices/flexbox-zombie-part-1"></exercice>
 
 <dots></dots>
 
@@ -58,7 +58,7 @@
 <p>Tandis qu'en <span class="inline-code">justify-content: space-evenly;</span> l'espace n'est pas additionné, mais plutôt jumelé afin de créer des espaces identiques entre chaque élément.</p>
 <img src="images/justify-content-space-evenly.png">
 
-<exercice id="flexbox-zombie-part-2"></exercice>
+<exercice href="exercices/flexbox-zombie-part-2"></exercice>
 
 <dots></dots>
 
@@ -82,7 +82,7 @@
 <doclink href="https://www.w3schools.com/cssref/css3_pr_align-items.php">align-items</doclink>
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/align-items">align-items</doclink>
 
-<exercice id="flexbox-zombie-part-3"></exercice>
+<exercice href="exercices/flexbox-zombie-part-3"></exercice>
 
 <p><span class="inline-code">justify-content</span> et <span class="inline-code">align-items</span> sont l'équivalent de brancher une clé USB en CSS. Deux ou trois tentatives sont souvent requises avant d’obtenir le résultat espéré.</p>
 
@@ -105,7 +105,7 @@
 <doclink href="https://www.w3schools.com/cssref/css3_pr_align-self.php">align-self</doclink>
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/align-self">align-self</doclink>
 
-<exercice id="flexbox-zombie-part-4"></exercice>
+<exercice href="exercices/flexbox-zombie-part-4"></exercice>
 
 <dots></dots>
 
@@ -117,9 +117,9 @@
 
 <dots></dots>
 
-<exercice id="flexbox-scrabble-potter"></exercice>
-<exercice id="flexbox-froggy"></exercice>
-<exercice id="flexbox-defense"></exercice>
+<exercice href="exercices/flexbox-scrabble-potter"></exercice>
+<exercice href="exercices/flexbox-froggy"></exercice>
+<exercice href="exercices/flexbox-defense"></exercice>
 
 <dots></dots>
 

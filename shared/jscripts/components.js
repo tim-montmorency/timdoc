@@ -118,10 +118,8 @@ app.component('codepen', {
     props: ['id', 'title', 'tab'],
     data() {
         var defaulttab = 'html,result';
-        console.log(typeof this.tab);
         if(typeof this.tab != 'undefined') defaulttab = this.tab;
         defaulttab = encodeURIComponent(defaulttab);
-        
         let remark = '';
         if(typeof this.$slots.default != 'undefined') {
             remark = this.$slots.default()[0].children;
@@ -150,21 +148,23 @@ app.component('codepen', {
  *                Composante Exercice                 *
  ******************************************************/
 app.component('exercice', {
-    props: ['id'],
+    props: ['href'],
     data() {
-        let exroot = 'exercices/' + this.id + '/';
-        let exdetails = syncjson(exroot + 'details.json');
+        let exroot = this.href.replace(/\/+$/, '') + '/';
+        let exdetails = syncjson(exroot + 'exercice.json');
+        let thumb = exroot + exdetails.icon;
         let url = typeof exdetails.url == 'undefined' ? exroot : exdetails.url;
         return {
-            name: exdetails.name,
-            description: exdetails.description,
+            name: exdetails.title,
+            description: exdetails.abstract,
+            thumb: thumb,
             url: url
         }
     },
     template: `
         <a class="exercice" target="_blank" :href="this.url">
             <div class="exercice-container">
-                <div class="exercice-thumb" :style="'background-image: url(\\'exercices/' + this.id + '/images/thumb.jpg\\')'"></div>
+                <div class="exercice-thumb" :style="'background-image: url(\\'' + this.thumb + '\\')'"></div>
                 <div class="exercice-abstract">
                     <em>EXERCICE</em><br>
                     <span class="exercice-title">{{ name }}</span><br>

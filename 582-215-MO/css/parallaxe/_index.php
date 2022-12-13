@@ -85,6 +85,6 @@
 
 <dots></dots>
 
-<exercice id="parallaxe-jupiter"></exercice>
+<exercice href="exercices/parallaxe-jupiter"></exercice>
 
 <dots></dots>
