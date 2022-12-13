@@ -208,6 +208,19 @@ app.component('tool', {
 
 
 /******************************************************
+ *                Composante Knowmore                 *
+ ******************************************************/
+ app.component('knowmore', {
+    props: ['href'],
+    template: `
+        <a class="knowmore" target="_blank" :href="this.href">
+            <div class="knowmore__title">&#128214; EN SAVOIR PLUS</div>
+            <div class="knowmore__abstract"><slot/></div>
+        </a>`
+});
+
+
+/******************************************************
  *                Composante Doclink                  *
  ******************************************************/
 app.component('doclink', {

@@ -589,6 +589,28 @@ footer {
     }
 
 
+    .knowmore {
+        display: block;
+        border: 1px solid #bebebe;
+        padding: 25px;
+
+        background-image: linear-gradient(0deg, #e9e9e9, 20%, #ffffff);
+        background-color: #ffffff;
+
+        &__title {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        &__abstract {
+            text-decoration: underline;
+        }
+
+        &:hover {
+            border: 1px solid #585858;
+        }
+    }
+
 
 }
 
