@@ -73,8 +73,9 @@ app.component('grostitre', {
  *                Composante Mediafile                *
  ******************************************************/
  app.component('mediafile', {
-    props: ['src'],
+    props: ['src', 'spacer'],
     data() {
+        let space = this.spacer == 'true' ? ' spacerr' : '';
         try { var url = new URL(this.src); }
         catch(e){ var url = new URL(this.src, document.baseURI); }
         switch(url.href.split('.').pop().toLocaleLowerCase()) {
@@ -85,6 +86,7 @@ app.component('grostitre', {
             default:    var icon = 'type-file.png';
         }
         return {
+            space: space,
             link: url.href,
             icon: shared + 'images/' + icon
         }
@@ -100,13 +102,13 @@ app.component('grostitre', {
         },
     },
     template: `
-        <div class="mediafile">
+        <div :class="'mediafile' + this.space">
             <div class="mediafile__icon" :style="'background-image: url(\\'' + this.icon + '\\')'">&nbsp;</div>
             <div class="mediafile__text"><slot/></div>
             <div class="mediafile__chain" @click="click($event)"><svg viewBox="0 0 24 24"><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path></svg></div>
             <div class="mediafile__linkcopied">Lien copié &#x2713;</div>
         </div>
-        <div class="mediafile__link"><input readonly type="text" class="mediafile__link-text" :value="this.link"></div>`
+        <div :class="'mediafile__link' + this.space"><input readonly type="text" class="mediafile__link-text" :value="this.link"></div>`
 });
 
 
@@ -261,6 +263,42 @@ app.component('dots', {
                 <circle cx="192" cy="128" r="6"/>
             </svg>
         </div>`
+});
+
+
+/******************************************************
+ *                  Composante Color                  *
+ ******************************************************/
+ app.component('color', {
+    props: ['spacer'],
+    data() {
+        let color = this.$slots.default()[0].children;
+        let invert = invertColor(color);
+        let space = this.spacer == 'true' ? ' spacer' : '';
+        return {
+            color: color,
+            invert: invert,
+            text: color,
+            space: space,
+            clicked: ''
+        };
+    },
+    methods: {
+        click() {
+            navigator.clipboard.writeText(this.color);
+            this.clicked = ' clicked';
+            this.text = 'Copié!';
+            setTimeout(() => {
+                this.clicked = '';
+                this.text = this.color;
+            }, 2000);
+        }
+
+    },
+    template: `
+        <span :class="'color' + this.space + this.clicked" :style="'color: ' + this.invert + '; background-color: ' + this.color + ';'" @click="click()">
+            {{ text }}
+        </span>`
 });
 
 

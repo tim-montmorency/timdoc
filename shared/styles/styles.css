@@ -119,6 +119,9 @@ footer #copyright {
 #contents .mediafile {
   display: flex;
 }
+#contents .mediafile.spacerr {
+  margin-left: 25px;
+}
 #contents .mediafile__icon {
   display: inline-block;
   width: 22px;
@@ -136,6 +139,9 @@ footer #copyright {
   display: block;
   width: 100%;
   margin-bottom: 25px;
+}
+#contents .mediafile__link.spacerr {
+  margin-left: 25px;
 }
 #contents .mediafile__link-text {
   margin-top: 4px;
@@ -473,6 +479,34 @@ footer #copyright {
 }
 #contents .knowmore:hover {
   border: 1px solid #585858;
+}
+#contents .color {
+  display: inline-block;
+  position: relative;
+  width: 140px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 32px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+#contents .color.spacer {
+  margin-left: 25px;
+}
+#contents .color:hover {
+  box-shadow: 0px 0px 5px;
+}
+#contents .color.clicked {
+  filter: hue-rotate(360deg);
+  transition-duration: 1s;
 }
 
 #contents_table {
