@@ -76,6 +76,8 @@
 
 <dots></dots>
 
+<grostitre>Compléments</grostitre>
+
 <tool href="tools/uigradients"></tool>
 <tool href="tools/css-gradient"></tool>
 

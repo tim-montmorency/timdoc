@@ -197,7 +197,6 @@ app.component('tool', {
     template: `
         <a class="tool" target="_blank" :href="this.url">
             <div class="tool-container">
-                
                 <div class="tool-abstract">
                     <em>OUTIL</em><br>
                     <span class="tool-title">{{ name }}</span><br>
