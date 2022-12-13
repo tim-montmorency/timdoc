@@ -73,3 +73,5 @@
 
 <doclink href="https://www.w3schools.com/cssref/func_linear-gradient.php">linear-gradient()</doclink>
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/gradient/linear-gradient">linear-gradient()</doclink>
+
+<tool href="tools/uigradients"></tool>

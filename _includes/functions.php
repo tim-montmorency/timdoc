@@ -58,6 +58,7 @@ function print_header() {
     switch($PAGE->type) {
         case 'article':  print_article_header(); break;
         case 'exercice': print_exercice_header(); break;
+        case 'tool':     print_tool_header(); break;
         case 'list':     print_list_header(); break;
         default:         print_main_header();
     }
@@ -73,6 +74,7 @@ function print_footer() {
     switch($PAGE->type) {
         case 'article':  print_article_footer(); break;
         case 'exercice': print_exercice_footer(); break;
+        case 'tool':     print_tool_footer(); break;
         case 'list':     print_list_footer(); break;
         default:         print_main_footer();
     }
@@ -161,6 +163,28 @@ function print_list_header() {
  */
 function print_list_footer() {
     include('list_footer.php');
+    print_main_footer();
+}
+
+
+/**
+ * Tool header printing
+ *
+ * @return void
+ */
+function print_tool_header() {
+    print_main_header(); 
+    include('tool_header.php');
+}
+
+
+/**
+ * Tool footer printing
+ *
+ * @return void
+ */
+function print_tool_footer() {
+    include('tool_footer.php');
     print_main_footer();
 }
 

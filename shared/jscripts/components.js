@@ -147,7 +147,7 @@ app.component('codepen', {
 /******************************************************
  *                Composante Exercice                 *
  ******************************************************/
-app.component('exercice', {
+ app.component('exercice', {
     props: ['href'],
     data() {
         let exroot = this.href.replace(/\/+$/, '') + '/';
@@ -170,6 +170,38 @@ app.component('exercice', {
                     <span class="exercice-title">{{ name }}</span><br>
                     <span class="exercice-description">{{ description }}</span>
                 </div>
+            </div>
+        </a>`
+});
+
+
+/******************************************************
+ *                  Composante Tool                   *
+ ******************************************************/
+app.component('tool', {
+    props: ['href'],
+    data() {
+        let exroot = this.href.replace(/\/+$/, '') + '/';
+        let exdetails = syncjson(exroot + 'tool.json');
+        let thumb = exroot + exdetails.icon;
+        let url = typeof exdetails.url == 'undefined' ? exroot : exdetails.url;
+        return {
+            name: exdetails.title,
+            description: exdetails.abstract,
+            thumb: thumb,
+            url: url
+        }
+    },
+    template: `
+        <a class="tool" target="_blank" :href="this.url">
+            <div class="tool-container">
+                
+                <div class="tool-abstract">
+                    <em>OUTIL</em><br>
+                    <span class="tool-title">{{ name }}</span><br>
+                    <span class="tool-description">{{ description }}</span>
+                </div>
+                <div class="tool-thumb" :style="'background-image: url(\\'' + this.thumb + '\\')'"></div>
             </div>
         </a>`
 });
