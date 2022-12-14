@@ -42,6 +42,10 @@
     Au survole de la carte, inversez son dégradé de sorte qu'il parte de bleu à rose avant de redevenir bleu.
 </checklist>
 
+<dots></dots>
+
 <grostitre>Notes de cours</grostitre>
 
 <doclink spacer="true" href="../../">Linear-gradient</doclink>
+
+<dots></dots>
