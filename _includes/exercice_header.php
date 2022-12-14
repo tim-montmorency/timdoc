@@ -6,6 +6,5 @@ file_put_contents($target, json_encode(php_file_info($PAGE->file), JSON_PRETTY_P
                 <div id="title"><?php echo $PAGE->title; ?></div>
             </div>
             <article>
-                <tabledesmatieres></tabledesmatieres>
                 <div id="contents">
                     <!-- EXERCICE HEADER EOF -->

@@ -32,7 +32,8 @@ app.component('tabledesmatieres', {
                 <a href="#top"><strong>Table des matières</strong></a>
                 <ul v-html="list"></ul>
             </div>
-        </div>`
+        </div>
+        `
 });
 
 
