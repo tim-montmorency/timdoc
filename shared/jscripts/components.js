@@ -69,6 +69,41 @@ app.component('grostitre', {
 });
 
 
+/******************************************************
+ *                  Composante Info                   *
+ ******************************************************/
+ app.component('info', {
+    template: `
+        <div class="info">
+            <div class="info__bubble"></div>
+            <slot/>
+        </div>`
+});
+
+
+/******************************************************
+ *                 Composante Warning                 *
+ ******************************************************/
+ app.component('warning', {
+    template: `
+        <div class="warning">
+            <div class="warning__bubble"></div>
+            <slot/>
+        </div>`
+});
+
+
+/******************************************************
+ *                  Composante Alert                  *
+ ******************************************************/
+ app.component('alert', {
+    template: `
+        <div class="alert">
+            <div class="alert__bubble"></div>
+            <slot/>
+        </div>`
+});
+
 
 /******************************************************
  *                Composante Mediafile                *

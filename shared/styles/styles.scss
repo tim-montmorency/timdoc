@@ -672,6 +672,108 @@ footer {
 
 
 
+    .info {
+        position: relative;
+        background-color: #d8d7f1;
+        border-left: 4px solid #3c38ba;
+        width: 100%;
+        padding: 25px;
+        margin-bottom: 25px;
+    
+        &__bubble {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            top: -25px;
+            left: -25px;
+
+            &::before {
+                content: '❗';
+                display: inline-block;
+                text-align: center;
+                background-color: #d8d7f1;
+                border: 4px solid #3c38ba;
+                box-shadow: 0px 0px 0px 8px white;
+                width: 36px;
+                height: 36px;
+                line-height: 36px;
+                border-radius: 50%;
+                font-size: 24px;
+            }
+
+        }
+    }
+
+
+    .warning {
+        position: relative;
+        background-color: #fcfcdd;
+        border-left: 4px solid #f1f255;
+        width: 100%;
+        padding: 25px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    
+        &__bubble {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            top: -25px;
+            left: -25px;
+
+            &::before {
+                content: '⚠';
+                display: inline-block;
+                text-align: center;
+                background-color: #fcfcdd;
+                border: 4px solid #f1f255;
+                box-shadow: 0px 0px 0px 8px white;
+                width: 36px;
+                height: 36px;
+                line-height: 36px;
+                border-radius: 50%;
+                font-size: 24px;
+            }
+
+        }
+    }
+
+
+    
+    .alert {
+        position: relative;
+        background-color: #fcdddd;
+        border-left: 4px solid #f25555;
+        width: 100%;
+        padding: 25px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    
+        &__bubble {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            top: -25px;
+            left: -25px;
+
+            &::before {
+                content: '☠';
+                display: inline-block;
+                text-align: center;
+                background-color: #fcdddd;
+                border: 4px solid #f25555;
+                box-shadow: 0px 0px 0px 8px white;
+                width: 36px;
+                height: 36px;
+                line-height: 36px;
+                border-radius: 50%;
+                font-size: 24px;
+            }
+
+        }
+    }
+
+
 }
 
 
@@ -744,4 +846,16 @@ footer {
     article {
         width: 770px;
    }
+}
+
+@media only screen and (max-width: 830px) {
+    .info__bubble {
+        display: none;
+    }
+    .warning__bubble {
+        display: none;
+    }
+    .alert__bubble {
+        display: none;
+    }
 }
