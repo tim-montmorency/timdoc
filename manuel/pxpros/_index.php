@@ -76,7 +76,7 @@
  * @icon     images/icon.png
  * @abstract PHP Preprocessor
  */
- ?&gt;
+?&gt;
 </highlight>
 
 <highlight lang="php">echo $PAGE->icon;</highlight>
