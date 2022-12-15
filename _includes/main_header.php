@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="https://vjs.zencdn.net/7.20.3/video-js.css">
         <script src="<?php echo $PAGE->shared; ?>jscripts/commons.js"></script>
         <script src="<?php echo $PAGE->shared; ?>jscripts/highlight.min.js"></script>
+        <script src="<?php echo $PAGE->shared; ?>jscripts/howler.min.js"></script>
         <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
         <script>const shared = '<?php echo $PAGE->shared; ?>';</script>
         <title><?php echo $PAGE->title; ?></title>
