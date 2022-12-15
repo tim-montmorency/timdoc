@@ -160,9 +160,6 @@ footer {
 
 
 #contents {
-    
-    // z-index: 999;
-    // background-color: green;
     width: 770px;
 
     ul, ol {
@@ -222,7 +219,6 @@ footer {
 
         &__link {
             display: block;
-            // width: 100%;
             margin-bottom: 25px;
             
             &.spacerr {
@@ -233,7 +229,6 @@ footer {
         &__link-text {
             margin-top: 4px;
             display: block;
-            // width: calc(100% - 50px);
             width: 100%;
             background-color: #e4e3e3;
             font-size: 16px;
