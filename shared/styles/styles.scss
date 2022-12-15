@@ -778,22 +778,41 @@ footer {
     .audioplayer {
         width: 770;
         height: 100px;
-        // background-color: tomato;
-        border: 1px solid #000000;
+        background-color: #eeeeee;
+        border: 1px solid #919191;
         display: flex;
 
         &__button {
+            cursor: pointer;
             width: 100px;
             height: 98px;
-            // background-color: #004ce8;
-            border-right: 1px solid #000000;
+            background-image: url('../images/audioplayer-play.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            opacity: 60%;
+
+            &:hover {
+                opacity: 100%;
+            }
+
+            &.pause {
+                background-image: url('../images/audioplayer-pause.png');
+            }
+
         }
         
         &__waveform {
+            cursor: crosshair;
             height: 98px;
             width: 668px;
-            // background-color: #009a68;
+            background-color: #eeeeee;
+        }
 
+        &__progress {
+            width: 50%;
+            height: 100%;
+            background-color: #000000;
+            opacity: 20%;
         }
     }
 
