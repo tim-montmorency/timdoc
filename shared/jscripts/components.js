@@ -344,7 +344,8 @@ app.component('dots', {
 app.component('clip', {
     props: ['src'],
     data() {
-        let name = this.src.split('.').shift();
+        var url = new URL(this.src, document.baseURI);
+        let name = url.pathname.split('.').shift();
         let id = name.split('/').pop();
         let details = syncjson(name + '.json');
         let track = undefined;
