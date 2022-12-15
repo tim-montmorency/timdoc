@@ -49,6 +49,47 @@ function print_breadcrumb() {
 
 
 /**
+ * Get children pages
+ *
+ * @param  string $parent (optional) Parent page
+ * @return array Array of children page informations
+ */
+function get_children($parent = null) {
+    if(!$parent) $parent = current(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS,1))['file'];
+    $folder = pathinfo($parent, PATHINFO_DIRNAME).'\\';
+    foreach(glob($folder.'*', GLOB_ONLYDIR) as $dir) {
+        if(!is_file(($file = $dir.'\_index.php'))) continue;
+        if(!$data = php_file_info($file)) continue;
+        if(empty($data)) continue;
+        $data->href = pathinfo($dir, PATHINFO_BASENAME).'/';
+        $children[] = $data;
+    }
+    return isset($children) ? $children : [];
+}
+
+
+/**
+ * Print children page grid for list pages
+ *
+ * @return void
+ */
+function print_children() {
+    $parent = current(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS,1))['file'];
+    foreach(get_children($parent) as $child) {
+?>
+                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url('<?php echo $child->href . $child->icon; ?>');"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="<?php echo $child->href; ?>"><?php echo $child->title; ?></a></span>
+                                <span class="list-grid__item__abstract"><?php echo $child->abstract; ?></span>
+                            </div>
+                        </div>
+<?php
+    }
+}
+
+
+/**
  * Specific header printing
  *
  * @return void
@@ -187,48 +228,6 @@ function print_tool_footer() {
     include('tool_footer.php');
     print_main_footer();
 }
-
-
-/**
- * Get children pages
- *
- * @param  string $parent (optional) Parent page
- * @return array Array of children page informations
- */
-function get_children($parent = null) {
-    if(!$parent) $parent = current(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS,1))['file'];
-    $folder = pathinfo($parent, PATHINFO_DIRNAME).'\\';
-    foreach(glob($folder.'*', GLOB_ONLYDIR) as $dir) {
-        if(!is_file(($file = $dir.'\_index.php'))) continue;
-        if(!$data = php_file_info($file)) continue;
-        if(empty($data)) continue;
-        $data->href = pathinfo($dir, PATHINFO_BASENAME).'/';
-        $children[] = $data;
-    }
-    return isset($children) ? $children : [];
-}
-
-
-/**
- * Print children page grid for list pages
- *
- * @return void
- */
-function print_children() {
-    $parent = current(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS,1))['file'];
-    foreach(get_children($parent) as $child) {
-?>
-                        <div class="list-grid__item">
-                            <div class="list-grid__item__icon" style="background-image: url('<?php echo $child->href . $child->icon; ?>');"></div>
-                            <div class="list-grid__item__description">
-                                <span class="list-grid__item__title"><a href="<?php echo $child->href; ?>"><?php echo $child->title; ?></a></span>
-                                <span class="list-grid__item__abstract"><?php echo $child->abstract; ?></span>
-                            </div>
-                        </div>
-<?php
-    }
-}
-
 
 
 if(!function_exists('php_file_info')) { function php_file_info($file){} }
