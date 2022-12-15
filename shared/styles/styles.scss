@@ -778,21 +778,22 @@ footer {
     .audioplayer {
         width: 770;
         height: 100px;
-        background-color: tomato;
+        // background-color: tomato;
         border: 1px solid #000000;
         display: flex;
 
         &__button {
             width: 100px;
             height: 98px;
-            background-color: #004ce8;
+            // background-color: #004ce8;
+            border-right: 1px solid #000000;
         }
         
         &__waveform {
             height: 98px;
             width: 668px;
-            background-color: #009a68;
-            
+            // background-color: #009a68;
+
         }
     }
 
