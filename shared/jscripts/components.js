@@ -459,6 +459,50 @@ app.component('clip', {
 
 
 /******************************************************
+ *              Composante Audioplayer                *
+ ******************************************************/
+ app.component('audioplayer', {
+    props: ['src'],
+    data() {
+        var url = new URL(this.src, document.baseURI);
+        let name = url.pathname.split('.').shift();
+        let id = name.split('/').pop();
+        let details = syncjson(name + '.json');
+        let track = undefined;
+        details.media.track.forEach(elm => { if(elm['@type'] == 'Audio') { track = elm; }});
+        if(track == undefined) return {};
+        
+        var sound = new Howl({
+            src: [name + '.mp3', name + '.webm']
+        });
+
+        // sound.play();
+
+
+        return {
+            id: id,
+            name: name,
+            duration: track.Duration,
+            sound: sound
+        }
+    },
+    methods: {
+        click() {
+            this.sound.play();
+        }
+    },
+    template: `
+        <div class="audioplayer">
+            <div class="audioplayer__button" @click="click()"></div>
+            <div class="audioplayer__waveform" :style="'background-image: url(\\'' + this.name + '.png\\')'">
+                <div class="audioplayer__progress"></div>
+            </div>
+        </div>`
+});
+
+
+
+/******************************************************
  *                     Mount App                      *
  ******************************************************/
 app.config.compilerOptions.whitespace = 'preserve';
