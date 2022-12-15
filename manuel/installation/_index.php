@@ -14,3 +14,5 @@
 
 <tool href="tools/live-server"></tool>
 <tool href="tools/run-on-save"></tool>
+<tool href="tools/live-sass-compiler"></tool>
+<tool href="tools/minify"></tool>
