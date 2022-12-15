@@ -1,6 +1,11 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Rubik");
 @import url("https://fonts.googleapis.com/css?family=Inconsolata");
+@font-face {
+  src: url("../fonts/consolas.ttf") format("truetype");
+  font-family: "Consolas";
+  font-display: fallback;
+}
 * {
   margin: 0;
   padding: 0;

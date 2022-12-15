@@ -25,6 +25,13 @@ $article_padding: 40px;
 //**************************************************************
 //*                         Google Font                        *
 //**************************************************************
+
+@font-face {
+    src: url("../fonts/consolas.ttf") format("truetype");
+    font-family: "Consolas";
+    font-display: fallback;
+}
+
 @import url("https://fonts.googleapis.com/css?family="+str-replace($font, ' ', '%20'));
 @import url("https://fonts.googleapis.com/css?family=Inconsolata");
 
@@ -110,14 +117,10 @@ header {
 
 
 article {
-    // background-color: rgb(0, 0, 255);
     display: flex;
     width: 1070px;
-    // padding-left: 25px;
-    // padding-right: 25px;
     margin-left: auto;
     margin-right: auto;
-    // min-height: 100%;
     min-height: calc(100vh - $subhead_height - $footer_height - $article_padding);
     margin-top: $article_padding;
 }
