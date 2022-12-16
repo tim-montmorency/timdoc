@@ -778,6 +778,7 @@ footer {
     .audioplayer {
         width: 770;
         height: 100px;
+        margin-bottom: 25px;
         background-color: #eeeeee;
         border: 1px solid #919191;
         display: flex;
@@ -809,7 +810,7 @@ footer {
         }
 
         &__progress {
-            width: 50%;
+            width: 0%;
             height: 100%;
             background-color: #000000;
             opacity: 20%;

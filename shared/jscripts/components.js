@@ -473,29 +473,54 @@ app.component('clip', {
         if(track == undefined) return {};
         
         var sound = new Howl({
-            src: [name + '.mp3', name + '.webm']
+            src: [name + '.mp3', name + '.webm'],
+            onend: this.onend,
+            preload: true
         });
-
-        // sound.play();
-
 
         return {
             id: id,
             name: name,
             duration: track.Duration,
-            sound: sound
+            sound: sound,
+            playing: false,
+            progress: 0,
+            playInt: null
         }
     },
+    created() {
+        this.playInt = setInterval(this.pos, 250);
+    },
     methods: {
+        onend() {
+            this.playing = false;
+        },
         click() {
-            this.sound.play();
+            if(this.playing) {
+                this.sound.pause();
+                this.playing = false;
+            } else {
+                this.sound.play();
+                this.playing = true;
+            }
+        },
+        pos() {
+            this.progress = (this.sound.seek() / this.duration * 100).toFixed(2);
+        },
+        seek(e){
+            let newpos = ((e.clientX - e.currentTarget.offsetLeft) / e.currentTarget.offsetWidth) * this.duration;
+            this.sound.seek(newpos);
+            if(!this.playing) {
+                this.sound.play();
+                this.playing = true;
+            }
         }
     },
     template: `
         <div class="audioplayer">
-            <div class="audioplayer__button" @click="click()"></div>
-            <div class="audioplayer__waveform" :style="'background-image: url(\\'' + this.name + '.png\\')'">
-                <div class="audioplayer__progress"></div>
+            <div :class="'audioplayer__button' + (this.playing ? ' pause' : '')" @click="click()"></div>
+            <div class="audioplayer__waveform" :style="'background-image: url(\\'' + this.name + '.png\\')'" @click="seek($event)">
+                <div class="audioplayer__progress" :style="'width: ' + this.progress + '%;'"></div>
             </div>
         </div>`
 });

@@ -2,8 +2,7 @@
 
 set width=668
 set height=98
-set color=ff003aff
-
+set color=ff003abb
 
 set ffmpeg="%~dp0ffmpeg.exe"
 set audiowaveform="%~dp0audiowaveform.exe"
