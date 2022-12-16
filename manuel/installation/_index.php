@@ -7,7 +7,7 @@
  */
 ?>
 
-<p>Une fois le projet cloné (<span class="inline-code">gh repo clone tim-montmorency/cours</span>), <strong><em>Timdoc</em></strong> est très simple à installer. Il suffit d'ajouter le dossier <em>_bin/</em> dans vos paths d'environnement. Voir <a href="../pxpros/">PXPros</a>.</p>
+<p>Une fois le projet cloné (<span class="inline-code">gh repo clone tim-montmorency/timdoc</span>), <strong><em>Timdoc</em></strong> est très simple à installer. Il suffit d'ajouter le dossier <em>_bin/</em> dans vos paths d'environnement. Voir <a href="../pxpros/">PXPros</a>.</p>
 
 <dots></dots>
 
