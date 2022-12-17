@@ -626,16 +626,16 @@ footer #copyright {
   cursor: pointer;
   width: 100px;
   height: 98px;
-  background-image: url("../images/audioplayer-play.png");
+  background-image: url("../images/audioplayer-btn.png");
+  background-position: 0px 0px;
   background-repeat: no-repeat;
-  background-position: center;
   opacity: 60%;
 }
 #contents .audioplayer__button:hover {
   opacity: 100%;
 }
 #contents .audioplayer__button.pause {
-  background-image: url("../images/audioplayer-pause.png");
+  background-position: -100px 0px;
 }
 #contents .audioplayer__waveform {
   cursor: crosshair;
@@ -648,6 +648,9 @@ footer #copyright {
   height: 100%;
   background-color: #000000;
   opacity: 20%;
+}
+#contents .audioplayer__progress:hover {
+  background-color: #004ce8;
 }
 
 #listing {

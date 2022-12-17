@@ -787,9 +787,9 @@ footer {
             cursor: pointer;
             width: 100px;
             height: 98px;
-            background-image: url('../images/audioplayer-play.png');
+            background-image: url('../images/audioplayer-btn.png');
+            background-position: 0px 0px;
             background-repeat: no-repeat;
-            background-position: center;
             opacity: 60%;
 
             &:hover {
@@ -797,7 +797,7 @@ footer {
             }
 
             &.pause {
-                background-image: url('../images/audioplayer-pause.png');
+                background-position: -100px 0px;
             }
 
         }
@@ -814,7 +814,10 @@ footer {
             height: 100%;
             background-color: #000000;
             opacity: 20%;
-            // transition-duration: 100ms;
+
+            &:hover {
+                background-color: #004ce8;
+            }
         }
     }
 
