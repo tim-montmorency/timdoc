@@ -80,11 +80,13 @@
 <grostitre>clip</grostitre>
 <highlight lang="html">&lt;clip src="videos/le-boson-de-higgs.mp4"&gt;&lt;/clip&gt;</highlight>
 <clip src="videos/le-boson-de-higgs.mp4"></clip>
+<doclink href="../videos">Manuel / Vidéos</doclink>
 <dots></dots>
 
 <grostitre>audioplayer</grostitre>
 <highlight lang="html">&lt;audioplayer src="audios/careless-whisper.mp3"&gt;&lt;/audioplayer&gt;</highlight>
 <audioplayer src="audios/careless-whisper.mp3"></audioplayer>
+<doclink href="../audios">Manuel / Audios</doclink>
 <dots></dots>
 
 <grostitre>highlight</grostitre>
