@@ -1,0 +1,49 @@
+.grostitre {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    h1 {
+        font-size: 36px;
+        vertical-align: middle;
+        margin-right: 15px;
+    }
+
+    &__linkcopied {
+        line-height: 36px;
+        margin-left: 20px;
+        opacity: 0%;
+    }
+
+    &__chain {
+        transition-duration: 200ms;
+        height: 36px;
+        width: 36px;
+        padding: 4px;
+        text-align: center;
+        vertical-align: center;
+        border-radius: 50%;
+        display:inline;
+        background-color: #ffc5c5;
+
+        &:hover {
+            cursor: pointer;
+            transform: rotate(-180deg);
+            transition-duration: 200ms;
+            background-color: #fa6b6b;
+        }
+
+        &.copied {
+            background-color: #83ff73;
+            transform: rotate(-360deg);
+
+            & + div {
+                opacity: 100%;
+                transition-duration: 200ms;
+            }
+
+        }
+    }
+}
