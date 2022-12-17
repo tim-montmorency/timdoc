@@ -1,0 +1,59 @@
+{
+"creatingLibrary": {
+"name": "MediaInfoLib",
+"version": "22.09",
+"url": "https://mediaarea.net/MediaInfo"
+},
+"media": {
+"@ref": "D:\\Programmation\\tim-montmorency\\cours\\manuel\\audios\\audios\\careless-whisper.mp3",
+"track": [
+{
+"@type": "General",
+"AudioCount": "1",
+"FileExtension": "mp3",
+"Format": "MPEG Audio",
+"FileSize": "4814192",
+"Duration": "300.773",
+"OverallBitRate_Mode": "CBR",
+"OverallBitRate": "128000",
+"StreamSize": "1393",
+"Title": "George Michael - Careless Whisper (Official Video)",
+"Track": "George Michael - Careless Whisper (Official Video)",
+"Performer": "georgemichaelVEVO",
+"Recorded_Date": "2009",
+"File_Created_Date": "UTC 2022-12-16 00:30:42.569",
+"File_Created_Date_Local": "2022-12-15 19:30:42.569",
+"File_Modified_Date": "UTC 2022-12-16 00:30:49.660",
+"File_Modified_Date_Local": "2022-12-15 19:30:49.660",
+"Encoded_Library": "LAME3.99r",
+"Comment": "https://www.youtube.com/watch?v=izGwDsrQ1eQ",
+"extra": {
+"Encoding_Tool": "Lavf58.39.101"
+}
+},
+{
+"@type": "Audio",
+"Format": "MPEG Audio",
+"Format_Version": "1",
+"Format_Profile": "Layer 3",
+"Format_Settings_Mode": "Joint stereo",
+"Format_Settings_ModeExtension": "MS Stereo",
+"Duration": "300.774",
+"BitRate_Mode": "CBR",
+"BitRate": "128000",
+"Channels": "2",
+"SamplesPerFrame": "1152",
+"SamplingRate": "44100",
+"SamplingCount": "13264128",
+"FrameRate": "38.281",
+"FrameCount": "11514",
+"Compression_Mode": "Lossy",
+"StreamSize": "4812382",
+"StreamSize_Proportion": "0.99962",
+"Encoded_Library": "LAME3.99r",
+"Encoded_Library_Settings": "-m j -V 4 -q 3 -lowpass 17 -b 128"
+}
+]
+}
+}
+
