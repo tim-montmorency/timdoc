@@ -23,7 +23,6 @@
     <li>nom-du-fichier-audio.<strong>json</strong> <em>(informations)</em></li>
     <li>nom-du-fichier-audio.<strong>webp</strong> <em>(audio fallback)</em></li>
     <li>nom-du-fichier-audio.<strong>png</strong> <em>(waveform)</em></li>
-
 </ul>
 
 <p>Ne vous inquiétez pas, vous n'avez pas à créer ces fichiers manuellement. Ils sont générés automatiquement. Pour ce faire, dans le dossier <em>_bin/</em> se trouve un batchfile nommé <em>audioinfo.bat</em>. Il suffit de l'appeller suivi du chemin de votre fichier audio ou encore glisser votre fichier audio sur le fichier <em>audioinfo.bat</em>.</p>
