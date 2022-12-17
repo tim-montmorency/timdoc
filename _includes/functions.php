@@ -20,6 +20,7 @@ function __print_r($elm) {
  * @return string The relative shared path
  */
 function get_shared($file){
+    if(pathinfo($file,PATHINFO_DIRNAME) == realpath($PAGE->root)) return 'shared/';
     $backwards = count(explode('\\',str_replace($PAGE->root, '', pathinfo($file,PATHINFO_DIRNAME))));
     return join('/', array_fill(0, $backwards, '..')).'/shared/';
 }
