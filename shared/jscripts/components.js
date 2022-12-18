@@ -489,7 +489,7 @@ app.component('clip', {
         }
     },
     created() {
-        this.playInt = setInterval(this.pos, 250);
+        this.playInt = setInterval(this.pos, 100);
     },
     methods: {
         onend() {

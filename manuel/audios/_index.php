@@ -36,8 +36,11 @@
 <grostitre>Exemple</grostitre>
 
 <highlight lang="html">&lt;audioplayer src="audios/careless-whisper.mp3"&gt;&lt;/audioplayer&gt;</highlight>
-
 <audioplayer src="audios/careless-whisper.mp3"></audioplayer>
+<br><br>
+
+<highlight lang="html">&lt;audioplayer src="audios/pas-tellement.mp3"&gt;&lt;/audioplayer&gt;</highlight>
+<audioplayer src="audios/pas-tellement.mp3"></audioplayer>
 
 <dots></dots>
 
