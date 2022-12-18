@@ -17,15 +17,14 @@
         z-index: -1;
         background-color: #ff0000;
         border-radius: 24px;
-        }
+    }
 
-        &:hover {
+    &:hover {
         color: white;
         &::before {
             opacity: 8;
         }
-        }
-
+    }
 
     .doclink-title {
         position: relative;
