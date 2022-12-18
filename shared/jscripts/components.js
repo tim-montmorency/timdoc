@@ -505,7 +505,8 @@ app.component('clip', {
             }
         },
         pos() {
-            this.progress = (this.sound.seek() / this.duration * 100).toFixed(2);
+            let prog = (this.sound.seek() / this.duration * 100).toFixed(2);
+            if(prog !== this.progress) this.progress = prog;
         },
         seek(e){
             let newpos = ((e.clientX - e.currentTarget.offsetLeft) / e.currentTarget.offsetWidth) * this.duration;
