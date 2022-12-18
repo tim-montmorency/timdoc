@@ -272,7 +272,10 @@ app.component('doclink', {
                 case 'developer.mozilla.org': site = 'mozilla'; break;
                 case 'codepen.io': site = 'codepen'; break;
             }
-        } catch(e) { site = ''; }
+        } catch(e) {
+            if(this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
+            else site = '';
+        }
         if(this.spacer == 'true')  site += ' spacer';
         return { class: site }
     },

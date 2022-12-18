@@ -90,3 +90,11 @@
     }
 }
 
+.doclink.zipfile {
+    .doclink-icon {
+        background-image: url('../images/zip-icon.png');
+    }
+    &::before {
+        background-color: #242526;
+    }
+}

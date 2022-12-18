@@ -347,6 +347,13 @@ span.codepen-remark {
   background-color: #000000;
 }
 
+.doclink.zipfile .doclink-icon {
+  background-image: url("../images/zip-icon.png");
+}
+.doclink.zipfile::before {
+  background-color: #242526;
+}
+
 a.exercice {
   display: block;
   background-image: linear-gradient(0deg, #87ceeb, 20%, #f0f8fc);
