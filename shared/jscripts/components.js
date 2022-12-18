@@ -488,20 +488,21 @@ app.component('clip', {
             playInt: null
         }
     },
-    created() {
-        this.playInt = setInterval(this.pos, 100);
-    },
     methods: {
         onend() {
             this.playing = false;
+            clearInterval(this.playInt);
+            this.progress = 0;
         },
         click() {
             if(this.playing) {
                 this.sound.pause();
                 this.playing = false;
+                clearInterval(this.playInt);
             } else {
                 this.sound.play();
                 this.playing = true;
+                this.playInt = setInterval(this.pos, 50);
             }
         },
         pos() {
@@ -514,6 +515,7 @@ app.component('clip', {
             if(!this.playing) {
                 this.sound.play();
                 this.playing = true;
+                this.playInt = setInterval(this.pos, 50);
             }
         }
     },
