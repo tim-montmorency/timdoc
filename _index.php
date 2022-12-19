@@ -37,7 +37,7 @@
 <ul>
     <li>Simon Arnold <em>(inspiration)</em></li>
     <li>Maxime Larrivée-Roy <em>(concepteur et développeur principal)</em></li>
-    <li>Marie-Michelle Oullet <em>(support émotionnel)</em></li>
+    <li>Marie-Michelle Ouellet <em>(support émotionnel)</em></li>
 </ul>
 
 <dots></dots>
