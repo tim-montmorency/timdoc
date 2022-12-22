@@ -24,10 +24,12 @@ const app = Vue.createApp({
         lightswitch(){
             if(this.$refs.lightswitch.className == 'lightswitch--on') {
                 this.$refs.lightswitch.className = 'lightswitch--off';
+                this.lightswitchon.stop();
                 this.lightswitchoff.play();
                 document.body.className = 'dark';
             } else {
                 this.$refs.lightswitch.className = 'lightswitch--on';
+                this.lightswitchoff.stop();
                 this.lightswitchon.play();
                 document.body.className = 'light';
             }
