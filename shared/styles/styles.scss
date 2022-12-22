@@ -2,6 +2,7 @@
 @use 'partials/functions';
 @use 'partials/fonts';
 
+@use 'components/darkmode';
 @use 'components/grostitre';
 @use 'components/dots';
 @use 'components/info';
@@ -29,12 +30,16 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(to bottom, #ffc5c5, 20%, #ffffff);
+    // background: linear-gradient(to bottom, #ffc5c5, 20%, #ffffff);
     background-repeat: repeat-x;
     padding-bottom: variables.$footer_height;
     font-family: Rubik;
     font-size: 18px;
 }
+
+
+
+
 
 
 span.inline-code {
@@ -69,12 +74,46 @@ header {
     height: 200px;
 
     #logo {
+        // background-color: blue;
         position: relative;
         top: 60px;
-        width: 250px;
+        width: 202px;
         height: 80px;
         background-image: url("../images/tim-logo.png");
+        background-repeat: no-repeat;
     }
+
+    #lightswitch {
+        background-color: #ffffff;
+
+        background-size: 34px 34px;
+
+        background-repeat: no-repeat;
+        position: relative;
+        width: 34px;
+        height: 34px;
+        left: 210px;
+        border-radius: 50%;
+        cursor: pointer;
+
+        &.lightswitch--on {
+            background-image: linear-gradient(0deg, #ff003a, #ff003a);
+            background-position: 0px 0px;
+            transition-duration: 0.4s;
+        }
+
+        &.lightswitch--off {
+            background-image: linear-gradient(0deg, #ff003a, #ff003a);
+            background-position: 0px 34px;
+            transition-duration: 0.4s;
+        }
+
+
+
+    }
+
+
+
 
 }
 
@@ -98,6 +137,21 @@ header {
 
 }
 
+main {
+    // background-color: blue;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom, #ffc5c5, 20%, #ffffff);
+        
+        z-index: -1;
+    }
+}
+
 
 article {
     display: flex;
@@ -105,8 +159,13 @@ article {
     margin-left: auto;
     margin-right: auto;
     min-height: calc(100vh - variables.$subhead_height - variables.$footer_height - variables.$article_padding);
+    // min-height: calc(100vh - variables.$subhead_height - variables.$footer_height - variables.$article_padding);
+    // min-height: 100vh;
+    // background-color: red;
     margin-top: variables.$article_padding;
 }
+
+
 
 
 footer {

@@ -2,8 +2,36 @@
  *                     Main App                       *
  ******************************************************/
 const app = Vue.createApp({
-    data() { return { tableOfContents: [] } },
+    data() {
+        return {
+            tableOfContents: [],
+            lightswitchon: null,
+            lightswitchoff: null
+        }
+    },
+    mounted() {
+        this.lightswitchoff = new Howl({
+            src: [shared + 'sounds/lightswitch-off.webm', shared + 'sounds/lightswitch-off.mp3'],
+            preload: true
+        });
+        this.lightswitchon = new Howl({
+            src: [shared + 'sounds/lightswitch-on.webm', shared + 'sounds/lightswitch-on.mp3'],
+            preload: true
+        });
+
+    },
     methods: {
+        lightswitch(){
+            if(this.$refs.lightswitch.className == 'lightswitch--on') {
+                this.$refs.lightswitch.className = 'lightswitch--off';
+                this.lightswitchoff.play();
+                document.body.className = 'dark';
+            } else {
+                this.$refs.lightswitch.className = 'lightswitch--on';
+                this.lightswitchon.play();
+                document.body.className = 'light';
+            }
+        },
         addToTableOfContents(id, name) {
             this.tableOfContents.push({
                 id: id,
