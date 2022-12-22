@@ -20,5 +20,8 @@
     album/guy-behind-tree-coccinelle.jpg
     album/iggypop-citrouille.jpg
     album/steven-guilbault-arnold-cop15.jpg
+    album/pierre-yves-mcsween-fete-party-noel.jpg
+    album/manon-massee-forced-wok-noel.jpg
+    album/eric-duhaime-pere-noel.jpg
 </swiper>
 
