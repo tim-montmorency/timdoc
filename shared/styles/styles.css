@@ -581,6 +581,26 @@ div.checklist div.progressbar {
   z-index: -1;
   filter: blur(25px);
 }
+.swiper.swiper-main .swiper-fullscreen {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+}
+.swiper.swiper-main .swiper-fullscreen::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 25px;
+  height: 25px;
+  background-image: url("../images/fullscreen-icon.png");
+  filter: drop-shadow(0px 0px 1px #222);
+  background-size: contain;
+  cursor: pointer;
+}
 
 .swiper.swiper-thumbs {
   width: 100%;
@@ -600,6 +620,7 @@ div.checklist div.progressbar {
   width: 100px;
   height: 100%;
   opacity: 0.4;
+  cursor: pointer;
 }
 .swiper.swiper-thumbs .swiper-slide img {
   width: 100%;
@@ -609,6 +630,26 @@ div.checklist div.progressbar {
 }
 .swiper.swiper-thumbs .swiper-slide-thumb-active {
   opacity: 1;
+}
+
+.swiper-modal {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999999;
+  background-color: black;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  visibility: hidden;
+  opacity: 0;
+}
+.swiper-modal--show {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.2s;
 }
 
 * {

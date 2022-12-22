@@ -390,27 +390,35 @@ app.component('clip', {
  *                  Composante Swiper                 *
  ******************************************************/
  app.component('swiper', {
-    // props: [],
     data() {
         let slides = [];
+        let images = [];
         this.$slots.default()[0].children.trim().split('\n').forEach(elm => {
             let img = (new URL(elm.trim(), document.baseURI)).href;
             slides.push('<div class="swiper-slide" style="background-image: url(\'' + img + '\')"><img src="' + img + '"></div>');
+            images.push(img);
         });
         let hash = cyrb53(slides.join(''));
         return {
             hash: hash,
             slides: slides.join(''),
+            images: images,
             swiper: null,
-            thumbs: null
+            thumbs: null,
+            modal: null,
         }
     },
     created() {
         this.$nextTick(() => {
+            document.addEventListener('keydown', (event) => {
+                if (event.key === 'Escape' && !(event.ctrlKey || event.altKey || event.shiftKey)) {
+                    this.close();
+                }
+            });
+            this.modal = document.getElementById('swiper-modal-' + this.hash);
             this.thumbs = new Swiper("#swiper-thumbs-" + this.hash, {
                 spaceBetween: 10,
                 slidesPerView: 'auto',
-                // centeredSlides: true,
                 freeMode: true,
                 watchSlidesProgress: true,
             });
@@ -426,11 +434,24 @@ app.component('clip', {
             });
         });
     },
+    methods: {
+        fullscreen(){
+            document.body.style.overflow = 'hidden';
+            this.modal.style.backgroundImage = "url('" + this.images[this.swiper.activeIndex] + "')";
+            this.modal.classList.add("swiper-modal--show");
+        },
+        close(){
+            document.body.style.overflow = 'auto';
+            this.modal.classList.remove("swiper-modal--show");
+        }
+    },
     template: `
+        <div class="swiper-modal" :id="'swiper-modal-' + this.hash" @click="close()"></div>
         <div :id="'swiper-' + this.hash" style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper swiper-main">
             <div class="swiper-wrapper" v-html="slides"></div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
+            <div class="swiper-fullscreen" @click="fullscreen()"></div>
         </div>
         <div :id="'swiper-thumbs-' + this.hash" thumbsSlider="" class="swiper swiper-thumbs">
             <div class="swiper-wrapper" v-html="slides"></div>
