@@ -394,7 +394,6 @@ app.component('clip', {
         let images = [];
         let slides = [];
         let thslides = [];
-        
         this.$slots.default()[0].children.trim().split('\n').forEach(elm => {
             let img = (new URL(elm.trim(), document.baseURI)).href;
             thslides.push('<div class="swiper-slide"><img src="' + img + '"></div>');
@@ -402,7 +401,7 @@ app.component('clip', {
             images.push(img);
         });
         return {
-            hash: cyrb53(slides.join('')),
+            hash: cyrb53(images.join('')),
             thslides: thslides.join(''),
             slides: slides.join(''),
             images: images,
@@ -472,7 +471,7 @@ app.component('clip', {
             <div :id="'swiper-button-next-' + this.hash" class="swiper-button-next"></div>
             <div :id="'swiper-button-prev-' + this.hash" class="swiper-button-prev"></div>
             <div :id="'swiper-pagination-' + this.hash" class="swiper-pagination"></div>
-            <div class="swiper-fullscreen" @click="fullscreen()"></div>
+            <div title="Navigue avec les flèches de ton clavier en plein écran" class="swiper-fullscreen" @click="fullscreen()"></div>
         </div>
         <div :id="'swiper-thumbs-' + this.hash" thumbsSlider="" class="swiper swiper-thumbs">
             <div class="swiper-wrapper" v-html="thslides"></div>
