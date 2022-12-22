@@ -401,20 +401,20 @@ app.component('clip', {
             slides.push('<div class="swiper-slide" style="background-image: url(\'' + img + '\')"><img src="' + img + '"></div>');
             images.push(img);
         });
-        let hash = cyrb53(slides.join(''));
         return {
-            hash: hash,
+            hash: cyrb53(slides.join('')),
             thslides: thslides.join(''),
             slides: slides.join(''),
             images: images,
             swiper: null,
             thumbs: null,
             modal: null,
+            show: false
         }
     },
     created() {
         this.$nextTick(() => {
-            document.addEventListener('keydown', this.escape);
+            document.addEventListener('keydown', this.hotkeys);
             this.modal = document.getElementById('swiper-modal-' + this.hash);
             this.thumbs = new Swiper("#swiper-thumbs-" + this.hash, {
                 spaceBetween: 10,
@@ -439,16 +439,29 @@ app.component('clip', {
         });
     },
     methods: {
-        fullscreen(){
+        modalimage(){
             this.modal.style.backgroundImage = "url('" + this.images[this.swiper.activeIndex] + "')";
+        },
+        fullscreen(){
+            this.modalimage();
             this.modal.classList.add("swiper-modal--show");
+            this.show = true;
         },
         close(){
             this.modal.classList.remove("swiper-modal--show");
+            this.show = false;
         },
-        escape(event){
-            if (event.key === 'Escape' && !(event.ctrlKey || event.altKey || event.shiftKey)) {
-                this.close();
+        hotkeys(event){
+            if(this.show) {
+                if (event.key === 'Escape' && !(event.ctrlKey || event.altKey || event.shiftKey)) {
+                    this.close();
+                } else if(event.key === 'ArrowRight') {
+                    this.swiper.slideNext();
+                    this.modalimage();
+                } else if(event.key === 'ArrowLeft') {
+                    this.swiper.slidePrev();
+                    this.modalimage();
+                }
             }
         }
     },
