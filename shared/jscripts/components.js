@@ -473,7 +473,7 @@ app.component('clip', {
             <div :id="'swiper-pagination-' + this.hash" class="swiper-pagination"></div>
             <div title="Navigue avec les flèches de ton clavier en plein écran" class="swiper-fullscreen" @click="fullscreen()"></div>
         </div>
-        <div :id="'swiper-thumbs-' + this.hash" thumbsSlider="" class="swiper swiper-thumbs">
+        <div :id="'swiper-thumbs-' + this.hash" class="swiper swiper-thumbs">
             <div class="swiper-wrapper" v-html="thslides"></div>
         </div>`
 });
