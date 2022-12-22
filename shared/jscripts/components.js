@@ -387,6 +387,58 @@ app.component('clip', {
 
 
 /******************************************************
+ *                  Composante Swiper                 *
+ ******************************************************/
+ app.component('swiper', {
+    // props: [],
+    data() {
+        let slides = [];
+        this.$slots.default()[0].children.trim().split('\n').forEach(elm => {
+            let img = (new URL(elm.trim(), document.baseURI)).href;
+            slides.push('<div class="swiper-slide" style="background-image: url(\'' + img + '\')"><img src="' + img + '"></div>');
+        });
+        let hash = cyrb53(slides.join(''));
+        return {
+            hash: hash,
+            slides: slides.join(''),
+            swiper: null,
+            thumbs: null
+        }
+    },
+    created() {
+        this.$nextTick(() => {
+            this.thumbs = new Swiper("#swiper-thumbs-" + this.hash, {
+                spaceBetween: 10,
+                slidesPerView: 'auto',
+                // centeredSlides: true,
+                freeMode: true,
+                watchSlidesProgress: true,
+            });
+            this.swiper = new Swiper("#swiper-" + this.hash, {
+                spaceBetween: 10,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                thumbs: {
+                    swiper: this.thumbs,
+                },
+            });
+        });
+    },
+    template: `
+        <div :id="'swiper-' + this.hash" style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper swiper-main">
+            <div class="swiper-wrapper" v-html="slides"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <div :id="'swiper-thumbs-' + this.hash" thumbsSlider="" class="swiper swiper-thumbs">
+            <div class="swiper-wrapper" v-html="slides"></div>
+        </div>`
+});
+
+
+/******************************************************
  *                Composante Checklist                *
  ******************************************************/
  app.component('checklist', {

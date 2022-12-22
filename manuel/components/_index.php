@@ -114,3 +114,31 @@
     Fatback sausage andouille, tenderloin ribeye ham short loin swine burgdoggen kielbasa capicola chuck spare ribs.
 </checklist>
 <dots></dots>
+
+
+<grostitre>swiper</grostitre>
+<highlight lang="html">&lt;swiper&gt;
+    photos/01.jpg
+    photos/02.jpg
+    photos/03.jpg
+    photos/04.jpg
+    photos/05.jpg
+    photos/06.jpg
+    photos/07.jpg
+    photos/08.jpg
+    photos/09.jpg
+    photos/10.jpg
+&lt;/swiper&gt;</highlight>
+<swiper>
+    photos/01.jpg
+    photos/02.jpg
+    photos/03.jpg
+    photos/04.jpg
+    photos/05.jpg
+    photos/06.jpg
+    photos/07.jpg
+    photos/08.jpg
+    photos/09.jpg
+    photos/10.jpg
+</swiper>
+<dots></dots>
