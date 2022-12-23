@@ -3,17 +3,21 @@
  ******************************************************/
 const app = Vue.createApp({
     data() {
+        let darkmode = localStorage.getItem('darkmode') === 'true';
         return {
             sounds: true,
+            codepens: [],
             tableOfContents: [],
             lightswitchon: null,
-            lightswitchoff: null
+            lightswitchoff: null,
+            darkmode: darkmode,
+            theme: null
         }
     },
     mounted() {
-        let darkmode = localStorage.getItem('darkmode') === 'true';
-        document.body.className = darkmode ? 'dark' : 'light';
-        this.$refs.lightswitch.className = darkmode ? 'lightswitch--off' : 'lightswitch--on';
+        this.theme = this.darkmode ? 'dark' : 'light';
+        document.body.className = this.darkmode ? 'dark' : 'light';
+        this.$refs.lightswitch.className = this.darkmode ? 'lightswitch--off' : 'lightswitch--on';
         if(this.sounds) {
             this.lightswitchoff = new Howl({ src: [shared + 'sounds/lightswitch-off.webm', shared + 'sounds/lightswitch-off.mp3'], preload: true });
             this.lightswitchon = new Howl({src: [shared + 'sounds/lightswitch-on.webm', shared + 'sounds/lightswitch-on.mp3'], preload: true });
@@ -25,6 +29,8 @@ const app = Vue.createApp({
                 this.$refs.lightswitch.className = 'lightswitch--off';
                 localStorage.setItem('darkmode', 'true');
                 document.body.className = 'dark';
+                this.theme = 'dark';
+                this.codepens.forEach((cp) => { cp.lightSwitchOff(); });
                 if(this.sounds) {
                     this.lightswitchon.stop();
                     this.lightswitchoff.play();
@@ -33,6 +39,8 @@ const app = Vue.createApp({
                 this.$refs.lightswitch.className = 'lightswitch--on';
                 localStorage.setItem('darkmode', 'false');
                 document.body.className = 'light';
+                this.theme = 'light';
+                this.codepens.forEach((cp) => { cp.lightSwitchOn(); });
                 if(this.sounds) {
                     this.lightswitchoff.stop();
                     this.lightswitchon.play();
@@ -44,6 +52,9 @@ const app = Vue.createApp({
                 id: id,
                 name: name,
             });
+        },
+        addToCodePens(comp) {
+            this.codepens.push(comp);
         },
     }
 });
@@ -177,7 +188,7 @@ app.component('grostitre', {
         <div :class="'mediafile' + this.space">
             <div class="mediafile__icon" :style="'background-image: url(\\'' + this.icon + '\\')'">&nbsp;</div>
             <div class="mediafile__text"><slot/></div>
-            <div class="mediafile__chain" @click="click($event)"><svg viewBox="0 0 24 24"><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path></svg></div>
+            <div class="mediafile__chain" @click="click($event)"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path></svg></div>
             <div class="mediafile__linkcopied">Lien copié &#x2713;</div>
         </div>
         <div :class="'mediafile__link' + this.space"><input readonly type="text" class="mediafile__link-text" :value="this.link"></div>`
@@ -198,12 +209,23 @@ app.component('codepen', {
         if(typeof this.$slots.default != 'undefined') {
             remark = this.$slots.default()[0].children;
         }
+        this.$root.addToCodePens(this);
+        let theme = this.$root.darkmode ? 'dark' : '39618';
         return {
             user: 'ZmotriN',
-            theme: '39618',
+            // theme: '39618',
+            theme: theme,
             defaulttab: defaulttab,
             remark: remark
         }
+    },
+    methods: {
+        lightSwitchOn() {
+            this.theme = '39618';
+        },
+        lightSwitchOff() {
+            this.theme = 'dark';
+        },
     },
     template: `
         <iframe

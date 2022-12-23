@@ -131,6 +131,25 @@ body.dark .audioplayer__waveform {
 body.dark .audioplayer__progress:hover {
   background-color: #2f4674;
 }
+body.dark .mediafile__link-text {
+  background-color: #1c1d21;
+  color: #ffffff;
+}
+body.dark .mediafile__chain {
+  background-color: #ff003a;
+}
+body.dark .mediafile__chain:hover {
+  background-color: #004ca3;
+}
+body.dark .mediafile__chain.copied {
+  background-color: #34ad24;
+}
+body.dark .knowmore {
+  display: block;
+  border: 1px solid #4c4e57;
+  background-color: #1c1d21;
+  background-image: linear-gradient(0deg, #4c4e57, 20%, #1c1d21);
+}
 
 .grostitre {
   display: flex;
