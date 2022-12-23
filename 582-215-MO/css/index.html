@@ -20,7 +20,7 @@
     <body>
         <a id="top"></a>
         <header>
-            <div id="logo"></div>
+            <div id="logo" @click="goToTop()"></div>
             <div id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
         </header>
         <main>

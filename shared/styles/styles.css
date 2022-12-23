@@ -891,6 +891,7 @@ header #logo {
   height: 80px;
   background-image: url("../images/tim-logo.png");
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 header #lightswitch {
   background-color: #ffffff;

@@ -5,7 +5,7 @@ const app = Vue.createApp({
     data() {
         let darkmode = localStorage.getItem('darkmode') === 'true';
         return {
-            sounds: true,
+            sounds: false,
             codepens: [],
             tableOfContents: [],
             lightswitchon: null,
@@ -24,6 +24,9 @@ const app = Vue.createApp({
         }
     },
     methods: {
+        goToTop(){
+            document.location.href = "#top";
+        },
         lightswitch(){
             if(this.$refs.lightswitch.className == 'lightswitch--on') {
                 this.$refs.lightswitch.className = 'lightswitch--off';
@@ -213,7 +216,6 @@ app.component('codepen', {
         let theme = this.$root.darkmode ? 'dark' : '39618';
         return {
             user: 'ZmotriN',
-            // theme: '39618',
             theme: theme,
             defaulttab: defaulttab,
             remark: remark
