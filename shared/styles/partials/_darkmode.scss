@@ -2,31 +2,14 @@ body.dark {
     color: white;
     background-color: #000000;
 
-    main {
-        &::before {
-            background: linear-gradient(to bottom, #3a2d2d, 20%, #000000);
-        }
-    }
-
-    a {
-        color: white;
-    }
-
-    span.inline-code {
-        background-color: #1c1d21;
-    }
-
-    footer {
-        background: linear-gradient(to top, #3a2d2d, 50%, #000000);
-    }
-
-    #subhead {
-        background-color: rgba(255, 255, 255, 0.1);
-    }
+    main::before { background: linear-gradient(to bottom, #3a2d2d, 20%, #000000); }
+    a { color: white; }
+    span.inline-code { background-color: #1c1d21; }
+    footer { background: linear-gradient(to top, #3a2d2d, 50%, #000000); }
+    #subhead { background-color: rgba(255, 255, 255, 0.1); }
 
     // highlight.js
     .hljs{background:#1c1d21;color:#c0c5ce}.hljs-comment,.hljs-quote{color:#b6b18b}.hljs-deletion,.hljs-name,.hljs-regexp,.hljs-selector-class,.hljs-selector-id,.hljs-tag,.hljs-template-variable,.hljs-variable{color:#eb3c54}.hljs-built_in,.hljs-link,.hljs-literal,.hljs-meta,.hljs-number,.hljs-params,.hljs-type{color:#e7ce56}.hljs-attribute{color:#ee7c2b}.hljs-addition,.hljs-bullet,.hljs-string,.hljs-symbol{color:#4fb4d7}.hljs-section,.hljs-title{color:#78bb65}.hljs-keyword,.hljs-selector-tag{color:#b45ea4}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}
-
 
     .grostitre {
         &__chain {
@@ -35,7 +18,6 @@ body.dark {
             &.copied { background-color: #34ad24; }
         }
     }
-
 
     .info {
         background-color: #3b3a42;
@@ -123,5 +105,20 @@ body.dark {
         background-color: #1c1d21;
         background-image: linear-gradient(0deg, #4c4e57, 20%, #1c1d21);
     }
+
+    span.codepen-remark {
+        margin-top: -25px;
+    }
+
+
+    .doclink.zipfile::before {
+        background-color: #627b94;
+    }
+
+    .doclink.codepen::before {
+        background-color: #5b5e6b;
+
+    }
+
 
 }

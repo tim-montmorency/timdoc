@@ -150,6 +150,15 @@ body.dark .knowmore {
   background-color: #1c1d21;
   background-image: linear-gradient(0deg, #4c4e57, 20%, #1c1d21);
 }
+body.dark span.codepen-remark {
+  margin-top: -25px;
+}
+body.dark .doclink.zipfile::before {
+  background-color: #627b94;
+}
+body.dark .doclink.codepen::before {
+  background-color: #5b5e6b;
+}
 
 .grostitre {
   display: flex;
