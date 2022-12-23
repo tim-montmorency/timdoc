@@ -16,6 +16,9 @@ body.dark main::before {
 body.dark a {
   color: white;
 }
+body.dark span.inline-code {
+  background-color: #1c1d21;
+}
 body.dark footer {
   background: linear-gradient(to top, #3a2d2d, 50%, #000000);
 }
@@ -53,6 +56,42 @@ body.dark .hljs-emphasis {
 body.dark .hljs-strong {
   font-weight: 700;
 }
+body.dark .grostitre__chain {
+  background-color: #ff003a;
+}
+body.dark .grostitre__chain:hover {
+  background-color: #004ca3;
+}
+body.dark .grostitre__chain.copied {
+  background-color: #34ad24;
+}
+body.dark .info {
+  background-color: #3b3a42;
+  border-left: 4px solid #3c38ba;
+}
+body.dark .info__bubble::before {
+  background-color: #3b3a42;
+  border: 4px solid #3c38ba;
+  box-shadow: 0px 0px 0px 8px #1c1d21;
+}
+body.dark .warning {
+  background-color: #3d3d34;
+  border-left: 4px solid #f1f255;
+}
+body.dark .warning__bubble::before {
+  background-color: #3d3d34;
+  border: 4px solid #f1f255;
+  box-shadow: 0px 0px 0px 8px #1c1d21;
+}
+body.dark .alert {
+  background-color: #3a2c2c;
+  border-left: 4px solid #f25555;
+}
+body.dark .alert__bubble::before {
+  background-color: #3a2c2c;
+  border: 4px solid #f25555;
+  box-shadow: 0px 0px 0px 8px #1c1d21;
+}
 body.dark a.tool {
   background-color: #1c1d21;
   background-image: linear-gradient(0deg, #508d5d, 20%, #1c1d21);
@@ -78,6 +117,19 @@ body.dark div.checklist ol li:hover {
 }
 body.dark div.checklist div.progressbar {
   background-color: #1c1d21;
+}
+body.dark .audioplayer {
+  background-color: #1c1d21;
+  border: 1px solid #1c1d21;
+}
+body.dark .audioplayer__button {
+  filter: invert(100%);
+}
+body.dark .audioplayer__waveform {
+  background-color: #1c1d21;
+}
+body.dark .audioplayer__progress:hover {
+  background-color: #2f4674;
 }
 
 .grostitre {
@@ -787,7 +839,7 @@ body {
 
 span.inline-code {
   font-family: Consolas, Inconsolata;
-  background-color: rgb(209, 204, 204);
+  background-color: #d1cccc;
   padding-left: 6px;
   padding-right: 6px;
   padding-top: 4px;

@@ -12,6 +12,10 @@ body.dark {
         color: white;
     }
 
+    span.inline-code {
+        background-color: #1c1d21;
+    }
+
     footer {
         background: linear-gradient(to top, #3a2d2d, 50%, #000000);
     }
@@ -24,43 +28,82 @@ body.dark {
     .hljs{background:#1c1d21;color:#c0c5ce}.hljs-comment,.hljs-quote{color:#b6b18b}.hljs-deletion,.hljs-name,.hljs-regexp,.hljs-selector-class,.hljs-selector-id,.hljs-tag,.hljs-template-variable,.hljs-variable{color:#eb3c54}.hljs-built_in,.hljs-link,.hljs-literal,.hljs-meta,.hljs-number,.hljs-params,.hljs-type{color:#e7ce56}.hljs-attribute{color:#ee7c2b}.hljs-addition,.hljs-bullet,.hljs-string,.hljs-symbol{color:#4fb4d7}.hljs-section,.hljs-title{color:#78bb65}.hljs-keyword,.hljs-selector-tag{color:#b45ea4}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}
 
 
+    .grostitre {
+        &__chain {
+            background-color: #ff003a;
+            &:hover { background-color: #004ca3; }
+            &.copied { background-color: #34ad24; }
+        }
+    }
+
+
+    .info {
+        background-color: #3b3a42;
+        border-left: 4px solid #3c38ba;
+        &__bubble {
+            &::before {
+                background-color: #3b3a42;
+                border: 4px solid #3c38ba;
+                box-shadow: 0px 0px 0px 8px #1c1d21;
+            }
+        }
+    }
+
+    .warning {
+        background-color: #3d3d34;
+        border-left: 4px solid #f1f255;
+        &__bubble {
+            &::before {
+                background-color: #3d3d34;
+                border: 4px solid #f1f255;
+                box-shadow: 0px 0px 0px 8px #1c1d21;
+            }
+        }
+    }
+
+    .alert {
+        background-color: #3a2c2c;
+        border-left: 4px solid #f25555;
+        &__bubble {
+            &::before {
+                background-color: #3a2c2c;
+                border: 4px solid #f25555;
+                box-shadow: 0px 0px 0px 8px #1c1d21;
+            }
+        }
+    }
+
+
     a.tool {
         background-color: #1c1d21;
         background-image: linear-gradient(0deg, #508d5d, 20%, #1c1d21);
-    
-        &:hover {
-            color: #ffffff;
-        }
-
+        &:hover { color: #ffffff; }
         div.tool-container div.tool-abstract em {
             background-color: #508d5d;
         }
     }
 
-
     a.exercice {
         background-color: #1c1d21;
         background-image: linear-gradient(0deg, #50728d, 20%, #1c1d21);
-    
-        &:hover {
-            color: #ffffff;
-        }
-
+        &:hover { color: #ffffff; }
         div.exercice-container div.exercice-abstract em {
             background-color: #50728d;
         }
     }
 
-
     div.checklist {
-
-        ol li:hover {
-            background-color: #1c1d21;
-        }
-
-        div.progressbar {
-            background-color: #1c1d21;
-        }
+        ol li:hover { background-color: #1c1d21; }
+        div.progressbar { background-color: #1c1d21; }
     }
+
+    .audioplayer {
+        background-color: #1c1d21;
+        border: 1px solid #1c1d21;
+        &__button { filter: invert(100%); }
+        &__waveform { background-color: #1c1d21; }
+        &__progress:hover { background-color: #2f4674; }
+    }
+
 
 }
