@@ -1,8 +1,8 @@
 @use 'partials/variables';
 @use 'partials/functions';
 @use 'partials/fonts';
+@use 'partials/darkmode';
 
-@use 'components/darkmode';
 @use 'components/grostitre';
 @use 'components/dots';
 @use 'components/info';
@@ -74,7 +74,6 @@ header {
     height: 200px;
 
     #logo {
-        // background-color: blue;
         position: relative;
         top: 60px;
         width: 202px;
@@ -85,9 +84,7 @@ header {
 
     #lightswitch {
         background-color: #ffffff;
-
         background-size: 34px 34px;
-
         background-repeat: no-repeat;
         position: relative;
         width: 34px;

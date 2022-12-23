@@ -4,34 +4,45 @@
 const app = Vue.createApp({
     data() {
         return {
+            sounds: true,
             tableOfContents: [],
             lightswitchon: null,
             lightswitchoff: null
         }
     },
     mounted() {
-        this.lightswitchoff = new Howl({
-            src: [shared + 'sounds/lightswitch-off.webm', shared + 'sounds/lightswitch-off.mp3'],
-            preload: true
-        });
-        this.lightswitchon = new Howl({
-            src: [shared + 'sounds/lightswitch-on.webm', shared + 'sounds/lightswitch-on.mp3'],
-            preload: true
-        });
-
+        let darkmode = localStorage.getItem('darkmode') === 'true';
+        document.body.className = darkmode ? 'dark' : 'light';
+        this.$refs.lightswitch.className = darkmode ? 'lightswitch--off' : 'lightswitch--on';
+        if(this.sounds) {
+            this.lightswitchoff = new Howl({
+                src: [shared + 'sounds/lightswitch-off.webm', shared + 'sounds/lightswitch-off.mp3'],
+                preload: true
+            });
+            this.lightswitchon = new Howl({
+                src: [shared + 'sounds/lightswitch-on.webm', shared + 'sounds/lightswitch-on.mp3'],
+                preload: true
+            });
+        }
     },
     methods: {
         lightswitch(){
             if(this.$refs.lightswitch.className == 'lightswitch--on') {
                 this.$refs.lightswitch.className = 'lightswitch--off';
-                this.lightswitchon.stop();
-                this.lightswitchoff.play();
+                localStorage.setItem('darkmode', 'true');
                 document.body.className = 'dark';
+                if(this.sounds) {
+                    this.lightswitchon.stop();
+                    this.lightswitchoff.play();
+                }
             } else {
                 this.$refs.lightswitch.className = 'lightswitch--on';
-                this.lightswitchoff.stop();
-                this.lightswitchon.play();
+                localStorage.setItem('darkmode', 'false');
                 document.body.className = 'light';
+                if(this.sounds) {
+                    this.lightswitchoff.stop();
+                    this.lightswitchon.play();
+                }
             }
         },
         addToTableOfContents(id, name) {
@@ -202,7 +213,7 @@ app.component('codepen', {
     },
     template: `
         <iframe
-            :src="'https://codepen.io/' + user + '/embed/' + id + '?default-tab=' + defaulttab + '&theme-id=' + theme"    
+            :src="'https://codepen.io/' + user + '/embed/' + id + '?default-tab=' + defaulttab + '&theme-id=' + theme"
             class="codepen"
             scrolling="no"
             frameborder="no"
@@ -597,13 +608,11 @@ app.component('clip', {
         let track = undefined;
         details.media.track.forEach(elm => { if(elm['@type'] == 'Audio') { track = elm; }});
         if(track == undefined) return {};
-        
         var sound = new Howl({
             src: [name + '.mp3', name + '.webm'],
             onend: this.onend,
             preload: true
         });
-
         return {
             id: id,
             name: name,
