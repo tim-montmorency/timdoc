@@ -21,7 +21,7 @@
         <a id="top"></a>
         <header>
             <div id="logo" @click="goToTop()"></div>
-            <div id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
         </header>
         <main>
             <!-- MAIN HEADER EOF -->
