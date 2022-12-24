@@ -19,6 +19,7 @@ div.checklist {
             &.checked {
                 text-decoration: line-through;
                 text-decoration-color: #ff003a;
+                text-decoration-thickness: 3px;
                 transition-duration: 200ms;
                 &::marker {
                     content: '\2713   '
