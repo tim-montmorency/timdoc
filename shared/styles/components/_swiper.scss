@@ -8,6 +8,7 @@
         background-position: -200vw -200vh;
         background-repeat: no-repeat;
         background-color: black;
+        overflow: hidden;
 
         &::before {
             content: '';
