@@ -68,3 +68,9 @@ const invertColor = (hexTripletColor) => {
 	color = "#" + color;
 	return color;
 }
+
+
+/******************************************************
+ *                     Load theme                     *
+ ******************************************************/
+setTimeout(() => { document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light'; }, 1);
