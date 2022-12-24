@@ -660,6 +660,13 @@ app.component('clip', {
         },
         pos() {
             let prog = (this.sound.seek() / this.duration * 100).toFixed(2);
+            // let prog = (this.sound.seek() / this.duration * 10000).toFixed(0);
+            // if(!isEven(prog)) prog++;
+            // prog = (prog / 100).toFixed(1);
+
+            // console.log(prog);
+
+            // let prog = (this.sound.seek() / this.duration * 668).toFixed(0);
             if(prog !== this.progress) this.progress = prog;
         },
         seek(e){

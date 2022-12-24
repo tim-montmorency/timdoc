@@ -133,7 +133,7 @@ body.dark .audioplayer__waveform {
   background-color: #1c1d21;
 }
 body.dark .audioplayer__progress:hover {
-  background-color: #1b2a46;
+  background-color: #192842;
 }
 body.dark .mediafile__link-text {
   background-color: #1c1d21;
@@ -329,10 +329,20 @@ body.dark .doclink.codepen::before {
   background-position: -100px 0px;
 }
 .audioplayer__waveform {
+  position: relative;
   cursor: crosshair;
   height: 98px;
   width: 668px;
   background-color: #eeeeee;
+  background-size: 0px 0px;
+}
+.audioplayer__waveform::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: inherit;
+  opacity: 80%;
 }
 .audioplayer__progress {
   width: 0%;
