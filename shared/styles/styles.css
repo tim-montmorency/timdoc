@@ -922,16 +922,24 @@ header #lightswitch {
   left: 210px;
   border-radius: 50%;
   cursor: pointer;
+  overflow: hidden;
 }
-header #lightswitch.lightswitch--on {
+header #lightswitch::before {
+  content: "";
+  position: absolute;
   background-image: linear-gradient(0deg, #ff003a, #ff003a);
-  background-position: 0px 0px;
+  width: 34px;
+  height: 34px;
+  left: 0px;
+  top: 0px;
+  border-radius: 50%;
   transition-duration: 0.4s;
 }
-header #lightswitch.lightswitch--off {
-  background-image: linear-gradient(0deg, #ff003a, #ff003a);
-  background-position: 0px 34px;
-  transition-duration: 0.4s;
+header #lightswitch.lightswitch--on::before {
+  top: 0px;
+}
+header #lightswitch.lightswitch--off::before {
+  top: 34px;
 }
 
 #subhead {
