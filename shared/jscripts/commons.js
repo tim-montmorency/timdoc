@@ -15,7 +15,7 @@ const syncjson = (url) => {
 
 
 /******************************************************
- *           Convert decinal to hex string            *
+ *           Convert decimal to hex string            *
  ******************************************************/
 const decimalToHexString = (number) => {
 	if (number < 0) number = 0xFFFFFFFF + number + 1;
