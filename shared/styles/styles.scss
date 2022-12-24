@@ -27,6 +27,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    // scrollbar-face-color: #646464;
+    // scrollbar-base-color: #646464;
+    // scrollbar-3dlight-color: #646464;
+    // scrollbar-highlight-color: #646464;
+    // scrollbar-track-color: #000;
+    // scrollbar-arrow-color: #000;
+    // scrollbar-shadow-color: #646464;
+    // scrollbar-dark-shadow-color: #646464;
+    scrollbar-color: dark;  
+}
+
 
 body {
     height: 100vh;
@@ -35,7 +47,9 @@ body {
     padding-bottom: variables.$footer_height;
     font-family: Rubik;
     font-size: 18px;
+    scrollbar-color: dark;  
 }
+
 
 
 
@@ -102,14 +116,7 @@ header {
             background-position: 0px 34px;
             transition-duration: 0.4s;
         }
-
-
-
     }
-
-
-
-
 }
 
 

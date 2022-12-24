@@ -1,3 +1,7 @@
+:root:has(body.dark) {
+    color-scheme: dark;
+}
+
 body.dark {
     color: white;
     background-color: #000000;

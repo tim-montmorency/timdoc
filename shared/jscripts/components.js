@@ -5,7 +5,7 @@ const app = Vue.createApp({
     data() {
         let darkmode = localStorage.getItem('darkmode') === 'true';
         return {
-            sounds: true,
+            sounds: false,
             codepens: [],
             tableOfContents: [],
             lightswitchon: null,
