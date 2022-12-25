@@ -162,6 +162,10 @@ body.dark .video-js button.vjs-big-play-button {
 body.dark .video-js .vjs-slider-bar {
   background-color: #ff003a;
 }
+body.dark .video-js .vjs-control-bar {
+  background-color: rgb(28, 29, 33);
+  opacity: 80%;
+}
 body.dark .knowmore {
   display: block;
   border: 1px solid #4c4e57;
