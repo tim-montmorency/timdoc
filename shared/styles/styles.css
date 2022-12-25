@@ -905,10 +905,6 @@ body:has(.swiper-modal--show) {
   box-sizing: border-box;
 }
 
-html {
-  scrollbar-color: dark;
-}
-
 body {
   height: 100vh;
   background-repeat: repeat-x;
