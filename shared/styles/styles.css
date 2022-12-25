@@ -1117,7 +1117,18 @@ footer #copyright {
 }
 @media only screen and (max-width: 1340px) {
   header {
+    position: absolute;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-right: 44px;
+    width: 100vw;
+  }
+  header #logo {
     display: none;
+  }
+  header #lightswitch {
+    margin-left: auto;
+    left: auto;
   }
 }
 @media only screen and (max-width: 1070px) {
