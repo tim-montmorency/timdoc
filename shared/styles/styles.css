@@ -60,6 +60,9 @@ body.dark .hljs-emphasis {
 body.dark .hljs-strong {
   font-weight: 700;
 }
+body.dark .dots {
+  color: #74011b;
+}
 body.dark .grostitre__chain {
   background-color: #ff003a;
 }
