@@ -101,7 +101,6 @@ body.dark {
         &__button { filter: invert(100%); }
         &__waveform { background-color: #1c1d21; }
         &__progress { mix-blend-mode: overlay; opacity: 35%; }
-        // &__progress:hover { background-color: #920123; }
     }
 
     .mediafile {
