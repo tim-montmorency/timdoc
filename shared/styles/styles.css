@@ -132,8 +132,9 @@ body.dark .audioplayer__button {
 body.dark .audioplayer__waveform {
   background-color: #1c1d21;
 }
-body.dark .audioplayer__progress:hover {
-  background-color: #192842;
+body.dark .audioplayer__progress {
+  mix-blend-mode: overlay;
+  opacity: 35%;
 }
 body.dark .mediafile__link-text {
   background-color: #1c1d21;
@@ -348,10 +349,11 @@ body.dark .doclink.codepen::before {
   width: 0%;
   height: 100%;
   background-color: #000000;
+  mix-blend-mode: multiply;
   opacity: 20%;
 }
 .audioplayer__progress:hover {
-  background-color: #004ce8;
+  background-color: #920123;
 }
 
 .mediafile {
