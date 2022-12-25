@@ -116,6 +116,17 @@ body.dark {
         }
     }
 
+    .video-js {
+        color: #ff003a;
+        button.vjs-big-play-button {
+            color: #ff003a;
+            border-color: #ff003a;
+        }
+        .vjs-slider-bar {
+            background-color: #ff003a;
+        }
+    }
+    
     .knowmore {
         display: block;
         border: 1px solid #4c4e57;

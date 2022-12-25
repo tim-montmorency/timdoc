@@ -152,6 +152,16 @@ body.dark .mediafile__chain:hover {
 body.dark .mediafile__chain.copied {
   background-color: #34ad24;
 }
+body.dark .video-js {
+  color: #ff003a;
+}
+body.dark .video-js button.vjs-big-play-button {
+  color: #ff003a;
+  border-color: #ff003a;
+}
+body.dark .video-js .vjs-slider-bar {
+  background-color: #ff003a;
+}
 body.dark .knowmore {
   display: block;
   border: 1px solid #4c4e57;
