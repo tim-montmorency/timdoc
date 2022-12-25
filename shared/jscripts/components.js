@@ -571,7 +571,8 @@ app.component('clip', {
             hash: hash,
             list: lines,
             checks: checks,
-            progressbar: null
+            progressbar: null,
+            progress: 0
         }
     },
     created() {
@@ -599,13 +600,13 @@ app.component('clip', {
         updateProgressBar() {
             let total = 0;
             this.checks.forEach(val => { total += val; });
-            let progress = (total / this.checks.length * 100).toFixed(0);
-            this.progressbar.style.backgroundSize = progress + '% 100%';
+            this.progress = (total / this.checks.length * 100).toFixed(0);
         }
     },
     template: `
         <div class="checklist">
-            <div :id="this.hash + '-progressbar'" class="progressbar"></div>
+            <div class="pourcentage">{{ progress }}%</div>
+            <div :id="this.hash + '-progressbar'" class="progressbar" :style="'background-size: ' + this.progress + '% 100%;'"></div>
             <ol>
                 <li v-for="(line, i) in this.list" :class="this.checks[i]?'checked':''" @click="click($event,i)" v-html="line"></li>
             </ol>
