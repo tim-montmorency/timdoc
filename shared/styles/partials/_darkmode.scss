@@ -6,15 +6,15 @@ body.dark {
     color: white;
     background-color: #000000;
 
-    main::before { background: linear-gradient(to bottom, #3a2d2d, 20%, #000000); }
     a { color: white; }
     span.inline-code { background-color: #1c1d21; }
     footer { background: linear-gradient(to top, #3a2d2d, 50%, #000000); }
     #subhead { background-color: rgba(255, 255, 255, 0.1); }
+    main::before { background: linear-gradient(to bottom, #3a2d2d, 20%, #000000); }
 
     .hljs {
-        background: #1c1d21;
         color: #c0c5ce;
+        background: #1c1d21;
         &-comment, &-quote { color: #b6b18b; }
         &-deletion, &-name, &-regexp, &-selector-class, &-selector-id, &-tag, &-template-variable, &-variable { color: #eb3c54; }
         &-built_in, &-link, &-literal, &-meta, &-number, &-params, &-type { color: #e7ce56; }
@@ -25,7 +25,7 @@ body.dark {
         &-attribute { color: #ee7c2b; }
         &-strong { font-weight: 700; }
     }
-    
+
     .dots { color: #74011b; }
 
     .grostitre {
@@ -129,7 +129,7 @@ body.dark {
             opacity: 80%;
         }
     }
-    
+
     .knowmore {
         display: block;
         border: 1px solid #4c4e57;

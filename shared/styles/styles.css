@@ -14,9 +14,6 @@ body.dark {
   color: white;
   background-color: #000000;
 }
-body.dark main::before {
-  background: linear-gradient(to bottom, #3a2d2d, 20%, #000000);
-}
 body.dark a {
   color: white;
 }
@@ -29,9 +26,12 @@ body.dark footer {
 body.dark #subhead {
   background-color: rgba(255, 255, 255, 0.1);
 }
+body.dark main::before {
+  background: linear-gradient(to bottom, #3a2d2d, 20%, #000000);
+}
 body.dark .hljs {
-  background: #1c1d21;
   color: #c0c5ce;
+  background: #1c1d21;
 }
 body.dark .hljs-comment, body.dark .hljs-quote {
   color: #b6b18b;
