@@ -263,18 +263,16 @@ footer {
 
 
 @media only screen and (max-width: 1700px) {
-    header { position: absolute; }
-}
-
-@media only screen and (max-width: 1340px) {
     header {
         position: absolute;
-        margin-left: 0px;
-        padding-top: 10px;
-        padding-right: 44px;
-        width: 100vw;
         #logo { display: none; }
-        #lightswitch { margin-left: auto; left: auto; }
+        #lightswitch { 
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            left: auto;
+            z-index: 99999;
+        }
     }
 }
 
