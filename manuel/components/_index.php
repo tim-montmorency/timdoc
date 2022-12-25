@@ -33,8 +33,8 @@
 <dots></dots>
 
 <grostitre>codepen</grostitre>
-<highlight lang="html">&lt;codepen id="WNyYBpN"&gt;&lt;/codepen&gt;</highlight>
-<codepen id="WNyYBpN"></codepen>
+<highlight lang="html">&lt;codepen id="WNyYBpN"&gt;Voici une remarque pertinente.&lt;/codepen&gt;</highlight>
+<codepen id="WNyYBpN">Voici une remarque pertinente.</codepen>
 <dots></dots>
 
 <grostitre>exercice</grostitre>
