@@ -42,20 +42,20 @@ body.dark .hljs-deletion, body.dark .hljs-name, body.dark .hljs-regexp, body.dar
 body.dark .hljs-built_in, body.dark .hljs-link, body.dark .hljs-literal, body.dark .hljs-meta, body.dark .hljs-number, body.dark .hljs-params, body.dark .hljs-type {
   color: #e7ce56;
 }
-body.dark .hljs-attribute {
-  color: #ee7c2b;
-}
 body.dark .hljs-addition, body.dark .hljs-bullet, body.dark .hljs-string, body.dark .hljs-symbol {
   color: #4fb4d7;
-}
-body.dark .hljs-section, body.dark .hljs-title {
-  color: #78bb65;
 }
 body.dark .hljs-keyword, body.dark .hljs-selector-tag {
   color: #b45ea4;
 }
+body.dark .hljs-section, body.dark .hljs-title {
+  color: #78bb65;
+}
 body.dark .hljs-emphasis {
   font-style: italic;
+}
+body.dark .hljs-attribute {
+  color: #ee7c2b;
 }
 body.dark .hljs-strong {
   font-weight: 700;
