@@ -408,6 +408,7 @@ body.dark .doclink.codepen::before {
   padding: 8px;
   border: 0px;
   font-family: Consolas, Inconsolata;
+  outline: none;
 }
 .mediafile__linkcopied {
   font-size: 14px;
