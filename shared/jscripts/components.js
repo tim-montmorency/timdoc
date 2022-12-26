@@ -76,7 +76,7 @@ app.component('tabledesmatieres', {
         });
     },
     template: `
-        <div id="contents_table">
+        <div id="contents_table" v-if="this.list != ''">
             <div class="contents_table__table">
                 <a href="#top"><strong>Table des matières</strong></a>
                 <ul v-html="list"></ul>
