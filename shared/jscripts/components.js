@@ -631,7 +631,7 @@ app.component('clip', {
         details.media.track.forEach(elm => { if(elm['@type'] == 'Audio') { track = elm; }});
         if(track == undefined) return {};
         var sound = new Howl({
-            src: [name + '.mp3', name + '.webm'],
+            src: [url.pathname, name + '.webm'],
             onend: this.onend,
             preload: true
         });
@@ -641,8 +641,8 @@ app.component('clip', {
             duration: track.Duration,
             sound: sound,
             playing: false,
-            progress: 0,
-            playInt: null
+            playInt: null,
+            progress: 0
         }
     },
     methods: {
