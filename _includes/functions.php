@@ -20,8 +20,11 @@ function __print_r($elm) {
  * @return string The relative shared path
  */
 function get_shared($file){
-    if(pathinfo($file,PATHINFO_DIRNAME) == realpath($PAGE->root)) return 'shared/';
-    $backwards = count(explode('\\',str_replace($PAGE->root, '', pathinfo($file,PATHINFO_DIRNAME))));
+    global $PAGE;
+    $root = str_replace('\\', '/', realpath($PAGE->root));
+    $target = str_replace('\\', '/', pathinfo($file,PATHINFO_DIRNAME));
+    if(realpath(pathinfo($target, PATHINFO_DIRNAME)) == realpath($file)) return 'shared/';
+    $backwards = count(explode('/', ltrim(str_replace($root, '', $target), '/')));
     return join('/', array_fill(0, $backwards, '..')).'/shared/';
 }
 
@@ -32,6 +35,7 @@ function get_shared($file){
  * @return void
  */
 function print_breadcrumb() {
+    global $PAGE;
     $root = realpath($PAGE->root);
     $parent = pathinfo(pathinfo($PAGE->file, PATHINFO_DIRNAME), PATHINFO_DIRNAME);
     while($parent != $root) {
@@ -96,6 +100,7 @@ function print_children() {
  * @return void
  */
 function print_header() {
+    global $PAGE;
     $PAGE->shared = get_shared($PAGE->file);
     switch($PAGE->type) {
         case 'article':  print_article_header(); break;
@@ -113,6 +118,7 @@ function print_header() {
  * @return void
  */
 function print_footer() {
+    global $PAGE;
     switch($PAGE->type) {
         case 'article':  print_article_footer(); break;
         case 'exercice': print_exercice_footer(); break;
@@ -129,6 +135,7 @@ function print_footer() {
  * @return void
  */
 function print_main_header() {
+    global $PAGE;
     include('main_header.php');
 }
 
@@ -139,6 +146,7 @@ function print_main_header() {
  * @return void
  */
 function print_main_footer() {
+    global $PAGE;
     include('main_footer.php');
 }
 
@@ -149,6 +157,7 @@ function print_main_footer() {
  * @return void
  */
 function print_article_header() {
+    global $PAGE;
     print_main_header(); 
     include('article_header.php');
 }
@@ -160,6 +169,7 @@ function print_article_header() {
  * @return void
  */
 function print_article_footer() {
+    global $PAGE;
     include('article_footer.php');
     print_main_footer();
 }
@@ -171,6 +181,7 @@ function print_article_footer() {
  * @return void
  */
 function print_exercice_header() {
+    global $PAGE;
     print_main_header(); 
     include('exercice_header.php');
 }
@@ -182,6 +193,7 @@ function print_exercice_header() {
  * @return void
  */
 function print_exercice_footer() {
+    global $PAGE;
     include('exercice_footer.php');
     print_main_footer();
 }
@@ -193,6 +205,7 @@ function print_exercice_footer() {
  * @return void
  */
 function print_list_header() {
+    global $PAGE;
     print_main_header(); 
     include('list_header.php');
 }
@@ -204,6 +217,7 @@ function print_list_header() {
  * @return void
  */
 function print_list_footer() {
+    global $PAGE;
     include('list_footer.php');
     print_main_footer();
 }
@@ -215,6 +229,7 @@ function print_list_footer() {
  * @return void
  */
 function print_tool_header() {
+    global $PAGE;
     print_main_header(); 
     include('tool_header.php');
 }
@@ -226,6 +241,7 @@ function print_tool_header() {
  * @return void
  */
 function print_tool_footer() {
+    global $PAGE;
     include('tool_footer.php');
     print_main_footer();
 }
