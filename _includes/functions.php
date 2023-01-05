@@ -23,7 +23,7 @@ function get_shared($file){
     global $PAGE;
     $root = str_replace('\\', '/', realpath($PAGE->root));
     $target = str_replace('\\', '/', pathinfo($file,PATHINFO_DIRNAME));
-    if(realpath(pathinfo($target, PATHINFO_DIRNAME)) == realpath($file)) return 'shared/';
+    if(realpath($root) == realpath(pathinfo($file, PATHINFO_DIRNAME)))  return 'shared/';
     $backwards = count(explode('/', ltrim(str_replace($root, '', $target), '/')));
     return join('/', array_fill(0, $backwards, '..')).'/shared/';
 }
