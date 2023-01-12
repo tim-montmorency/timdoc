@@ -6,6 +6,4 @@
  * @abstract Optimisation Web - Techniques d'intégration multimédia - Collège Montmorency
  */
 
- echo "super";
-
  print_children();

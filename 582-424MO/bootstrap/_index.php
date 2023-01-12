@@ -6,5 +6,3 @@
  * @abstract Un cadriel qui vous sauve du temps!
  */
 ?>
-
-abc
