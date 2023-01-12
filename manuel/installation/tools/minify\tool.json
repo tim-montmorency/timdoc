@@ -1,7 +1,0 @@
-{
-    "type": "tool",
-    "title": "JS & CSS Minifier (Minify)",
-    "icon": "images\/thumb.jpg",
-    "url": "https:\/\/marketplace.visualstudio.com\/items?itemName=olback.es6-css-minify",
-    "abstract": "Minifier votre javascript ES5\/ES6\/ES7\/ES8 and CSS. Supporte minify on save et minify selection."
-}
