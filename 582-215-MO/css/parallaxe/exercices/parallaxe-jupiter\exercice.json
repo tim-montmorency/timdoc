@@ -1,0 +1,6 @@
+{
+    "type": "exercice",
+    "title": "Parallaxe - Jupiter",
+    "icon": "images\/thumb.jpg",
+    "abstract": "Reconstituer un effet parallaxe dans l\u2019espace de sorte que les \u00e9l\u00e9ments derri\u00e8re la plan\u00e8te Jupiter."
+}

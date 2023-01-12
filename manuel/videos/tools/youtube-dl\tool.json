@@ -1,0 +1,7 @@
+{
+    "type": "tool",
+    "title": "Youtube-DL",
+    "icon": "images\/thumb.jpg",
+    "url": "https:\/\/youtube-dl.org\/",
+    "abstract": "Outil en ligne de commande pour t\u00e9l\u00e9charger les vid\u00e9os d'une grande vari\u00e9t\u00e9 de sources diff\u00e9rentes."
+}
