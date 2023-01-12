@@ -39,7 +39,7 @@ function print_breadcrumb() {
     $root = realpath($PAGE->root);
     $parent = pathinfo(pathinfo($PAGE->file, PATHINFO_DIRNAME), PATHINFO_DIRNAME);
     while($parent != $root) {
-        if(!is_file(($file = $parent.'\_index.php'))) break;
+        if(!is_file(($file = $parent.S.'_index.php'))) break;
         if(!$data = php_file_info($file)) break;
         if($data->type != 'list') break;
         $link = str_replace([$root, '\\'], ['', '/'], $parent)."/";
@@ -63,7 +63,7 @@ function get_children($parent = null) {
     if(!$parent) $parent = current(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS,1))['file'];
     $folder = pathinfo($parent, PATHINFO_DIRNAME).'\\';
     foreach(glob($folder.'*', GLOB_ONLYDIR) as $dir) {
-        if(!is_file(($file = $dir.'\_index.php'))) continue;
+        if(!is_file(($file = $dir.S.'_index.php'))) continue;
         if(!$data = php_file_info($file)) continue;
         if(empty($data)) continue;
         $data->href = pathinfo($dir, PATHINFO_BASENAME).'/';
