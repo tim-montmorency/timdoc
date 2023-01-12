@@ -1,5 +1,5 @@
 <?php
-$target = pathinfo($PAGE->file, PATHINFO_DIRNAME).'\\tool.json';
+$target = pathinfo($PAGE->file, PATHINFO_DIRNAME).S.'tool.json';
 file_put_contents($target, json_encode(php_file_info($PAGE->file), JSON_PRETTY_PRINT));
 ?>
             <div id="subhead">
