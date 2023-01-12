@@ -61,7 +61,7 @@ function print_breadcrumb() {
  */
 function get_children($parent = null) {
     if(!$parent) $parent = current(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS,1))['file'];
-    $folder = pathinfo($parent, PATHINFO_DIRNAME).'\\';
+    $folder = pathinfo($parent, PATHINFO_DIRNAME).S;
     foreach(glob($folder.'*', GLOB_ONLYDIR) as $dir) {
         if(!is_file(($file = $dir.S.'_index.php'))) continue;
         if(!$data = php_file_info($file)) continue;
