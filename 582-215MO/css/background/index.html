@@ -55,7 +55,7 @@
 
 <info>Tous les exemples ci-dessus ☝️ correspondent à la couleur verte, mais écrit dans des formats différents.</info>
 
-<codepen id="vYadMOe" height="340"></codepen>
+<codepen id="vYadMOe" tab="css,result" height="340"></codepen>
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/background-color">Background-color</doclink>
 <doclink href="https://www.w3schools.com/cssref/pr_background-color.php">Background-color</doclink>
@@ -72,6 +72,38 @@
 <img src="../../../shared/images/square.png">
 
 <h2>Image</h2>
+
+<p>L'option la plus simple consiste à afficher une image.</p>
+
+<codepen id="jOpZRmj" tab="css,result" height="340"></codepen>
+
+<info>Remarquez comment l’image se répête par défaut</info>
+
+<br>
+
+<h2>Dégradé</h2>
+
+<p>Il est possible de générer un dégradé à titre d'image d'arrière-plan en utilisant les fonctions CSS <span class="inline-code">linear-gradient()</span> et <span class="inline-code">radial-gradient()</span>. La première fonction génère un dégradé linéaire, tandis que la deuxième génère un dégradé circulaire.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="css">background-image: linear-gradient(#3FC774, #3C38BA);</highlight>
+
+<codepen id="jOpZRag" tab="result" height="340">À gauche, un dégradé linéaire. À droite, un dégradé radial.</codepen>
+
+<br>
+
+<knowmore href="#">Billet à propos de Linear-gradient</knowmore>
+
+<br>
+
+<h2>Combinaison</h2>
+
+<p>Il est possible de donner plus d'une valeur d'image d'arrière-plan. Pour ce faire, il est nécessaire de séparer chaque valeur avec une virgule.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="css">background-image: url('dessus.jpg'), url('dessous.jpg');</highlight>
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>
