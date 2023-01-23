@@ -112,8 +112,9 @@ body.dark a.tool {
 body.dark a.tool:hover {
   color: #ffffff;
 }
-body.dark a.tool div.tool-container div.tool-abstract em {
+body.dark a.tool div.tool-container div.tool-abstract em.tool-label {
   background-color: #508d5d;
+  color: white !important;
 }
 body.dark a.exercice {
   background-color: #1c1d21;
@@ -124,6 +125,7 @@ body.dark a.exercice:hover {
 }
 body.dark a.exercice div.exercice-container div.exercice-abstract em {
   background-color: #50728d;
+  color: white !important;
 }
 body.dark div.checklist ol li:hover {
   background-color: #1c1d21;
@@ -584,7 +586,7 @@ a.exercice div.exercice-container div.exercice-abstract em {
   border-radius: 4px;
   font-style: normal;
   font-size: 12px;
-  color: white;
+  color: black !important;
   line-height: 24px;
 }
 a.exercice div.exercice-container div.exercice-abstract span.exercice-title {
@@ -633,7 +635,7 @@ a.tool div.tool-container div.tool-abstract em {
   border-radius: 4px;
   font-style: normal;
   font-size: 12px;
-  color: white;
+  color: black !important;
   line-height: 24px;
 }
 a.tool div.tool-container div.tool-abstract span.tool-title {

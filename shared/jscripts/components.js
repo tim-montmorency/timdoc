@@ -206,20 +206,24 @@ app.component('grostitre', {
  *                 Composante Codepen                 *
  ******************************************************/
 app.component('codepen', {
-    props: ['id', 'title', 'tab'],
+    props: ['id', 'title', 'tab', 'height'],
     data() {
         var defaulttab = 'html,result';
+        var height = 400;
         if(typeof this.tab != 'undefined') defaulttab = this.tab;
+        if(typeof this.height != 'undefined') height = this.height;
+        
         defaulttab = encodeURIComponent(defaulttab);
         let remark = '';
         if(typeof this.$slots.default != 'undefined') {
             remark = this.$slots.default()[0].children;
         }
         this.$root.addToCodePens(this);
-        let theme = this.$root.darkmode ? '39621' : '39618';
+        let theme = this.$root.darkmode ? '43847' : '39618';
         return {
-            user: 'ZmotriN',
+            user: 'tim-momo',
             theme: theme,
+            bheight: height,
             defaulttab: defaulttab,
             remark: remark
         }
@@ -229,7 +233,7 @@ app.component('codepen', {
             this.theme = '39618';
         },
         lightSwitchOff() {
-            this.theme = '39621';
+            this.theme = '43847';
         },
     },
     template: `
@@ -241,7 +245,8 @@ app.component('codepen', {
             loading="lazy"
             allowtransparency="true"
             allowfullscreen="true"
-        ></iframe><span class="codepen-remark" v-if="this.remark != ''">{{ remark }}</span>`
+            :style="'height: ' + bheight + 'px;'"
+         ></iframe><span class="codepen-remark" v-if="this.remark != ''">{{ remark }}</span>`
 });
 
 
@@ -267,7 +272,7 @@ app.component('codepen', {
             <div class="exercice-container">
                 <div class="exercice-thumb" :style="'background-image: url(\\'' + this.thumb + '\\')'"></div>
                 <div class="exercice-abstract">
-                    <em>EXERCICE</em><br>
+                    <em class="exercice-label">EXERCICE</em><br>
                     <span class="exercice-title">{{ name }}</span><br>
                     <span class="exercice-description">{{ description }}</span>
                 </div>
@@ -297,7 +302,7 @@ app.component('tool', {
         <a class="tool" target="_blank" :href="this.url">
             <div class="tool-container">
                 <div class="tool-abstract">
-                    <em>OUTIL</em><br>
+                    <em class="tool-label">OUTIL</em><br>
                     <span class="tool-title">{{ name }}</span><br>
                     <span class="tool-description">{{ description }}</span>
                 </div>
