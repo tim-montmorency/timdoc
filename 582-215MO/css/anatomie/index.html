@@ -73,7 +73,7 @@
 
 <p>Le groupe de sélecteurs dans l'exemple ci-dessus ☝️ est <span class="inline-code">.article p</span> indiquant que tous les paragraphes se trouvant à l'intérieur d'une balise ayant la classe <span class="inline-code">.article</span> doivent utiliser les styles entres définis entre accolades.</p>
 
-<info>Dans un groupe de sélecteurs, les sélecteurs sont lus de droite à gauche ⬅️.<br></br>Autrement dit, dans l’exemple précédent, le navigateur sélectionnerait en premier temps tous les paragraphes de la page. Ensuite, il ne garderait que ceux ayant un ancêtre possédant la classe <span class="inline-code">.article</span>.</info>
+<info>Dans un groupe de sélecteurs, les sélecteurs sont lus de droite à gauche ⬅️.<br><br>Autrement dit, dans l’exemple précédent, le navigateur sélectionnerait en premier temps tous les paragraphes de la page. Ensuite, il ne garderait que ceux ayant un ancêtre possédant la classe <span class="inline-code">.article</span>.</info>
 <br>
 <h2>Ancêtre</h2>
 
@@ -98,6 +98,25 @@
         &lt;p&gt;Lorem ipsum&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;</highlight>
+
+<p>Un sélecteur peut aussi être un <strong>arrière-grands-parents</strong> si <strong>deux éléments HTML les séparent</strong> et ainsi de suite.</p>
+
+
+<info>
+    Puisque les règles CSS sont lues de droite à gauche ⬅️, il n’est pas nécessaire de nommer tous les sélecteurs disponibles dans une règle CSS.
+    <br><br>
+    <span class="inline-code">.article p { ... }</span>
+    sélectionenra tous les paragraphes à l’intérieur de l’élément avec la classe <span class="inline-code">.article</span>, même si <span class="inline-code">.intro</span> est omis.
+</info>
+
+<dots></dots>
+
+
+<grostitre>Déclaration</grostitre>
+
+<p>À l'intérieur des accolades se trouvent les instructions concernant l'apparence des éléments référencés par le sélecteur. Ces instructions portent le nom de <em>déclarations</em>.</p>
+
+
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>

@@ -198,8 +198,6 @@ footer {
         padding-right: 25px;
         margin-bottom: 25px;
         line-height: 28px;
-
-    
         &.spacer {
             &:before {
                 content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
@@ -207,8 +205,6 @@ footer {
         }
 
     }
-
-
 
     img {
         display: block;
@@ -220,6 +216,10 @@ footer {
     h2 {
         margin-left: 25px;
         margin-bottom: 25px;
+    }
+
+    em {
+        color: #b98304;
     }
 
 }
