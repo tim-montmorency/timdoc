@@ -54,7 +54,7 @@ body.dark .hljs-section, body.dark .hljs-title {
 body.dark .hljs-emphasis {
   font-style: italic;
 }
-body.dark .hljs-attribute {
+body.dark .hljs-attribute, body.dark .hljs-attr {
   color: #ee7c2b;
 }
 body.dark .hljs-strong {
@@ -1051,7 +1051,7 @@ footer #copyright {
   margin-bottom: 25px;
   line-height: 28px;
 }
-#contents p:before {
+#contents p.spacer:before {
   content: "        ";
 }
 #contents img {

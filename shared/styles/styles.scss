@@ -198,10 +198,17 @@ footer {
         padding-right: 25px;
         margin-bottom: 25px;
         line-height: 28px;
-        &:before {
-            content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+
+    
+        &.spacer {
+            &:before {
+                content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+            }
         }
+
     }
+
+
 
     img {
         display: block;

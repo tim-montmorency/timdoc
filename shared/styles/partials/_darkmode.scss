@@ -22,7 +22,7 @@ body.dark {
         &-keyword, &-selector-tag { color: #b45ea4; }
         &-section, &-title { color: #78bb65; }
         &-emphasis { font-style: italic; }
-        &-attribute { color: #ee7c2b; }
+        &-attribute, &-attr { color: #ee7c2b; }
         &-strong { font-weight: 700; }
     }
 
