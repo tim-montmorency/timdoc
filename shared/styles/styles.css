@@ -402,10 +402,13 @@ body.dark .doclink.codepen::before {
 }
 .mediafile__link {
   display: block;
-  margin-bottom: 25px;
 }
 .mediafile__link.spacerr {
   margin-left: 25px;
+}
+.mediafile__spacer {
+  display: block;
+  margin-bottom: 25px;
 }
 .mediafile__link-text {
   margin-top: 4px;
@@ -533,6 +536,13 @@ a.doclink .doclink-icon {
 }
 .doclink.mozilla::before {
   background-color: #ff1a00;
+}
+
+.doclink.csstricks .doclink-icon {
+  background-image: url("../images/csstricks-icon.png");
+}
+.doclink.csstricks::before {
+  background-color: #36acb4;
 }
 
 .doclink.codepen .doclink-icon {
@@ -676,7 +686,7 @@ div.checklist ol li {
   margin-top: 10px;
   margin-bottom: 20px;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 28px;
   transition-duration: 200ms;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -1067,6 +1077,7 @@ footer #copyright {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
+  max-width: 770px;
 }
 #contents h2 {
   margin-left: 25px;

@@ -79,6 +79,15 @@ a.doclink {
     }
 }
 
+.doclink.csstricks {
+    .doclink-icon {
+        background-image: url('../images/csstricks-icon.png');
+    }
+    &::before {
+        background-color: #36acb4;
+    }
+}
+
 .doclink.codepen {
     .doclink-icon {
         background-image: url('../images/codepen-icon.png');

@@ -159,7 +159,7 @@ app.component('grostitre', {
  *                Composante Mediafile                *
  ******************************************************/
  app.component('mediafile', {
-    props: ['src', 'spacer'],
+    props: ['src', 'spacer', 'addr'],
     data() {
         let space = this.spacer == 'true' ? ' spacerr' : '';
         try { var url = new URL(this.src); }
@@ -171,7 +171,12 @@ app.component('grostitre', {
             case 'zip': var icon = 'type-zip.png'; break;
             default:    var icon = 'type-file.png';
         }
+        
+        let addr = true;
+        if(typeof this.addr != 'undefined' && this.addr == 'false') addr = false;
+
         return {
+            isaddr: addr,
             space: space,
             link: url.href,
             icon: shared + 'images/' + icon
@@ -197,7 +202,9 @@ app.component('grostitre', {
             <div class="mediafile__chain" @click="click($event)"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path></svg></div>
             <div class="mediafile__linkcopied">Lien copié &#x2713;</div>
         </div>
-        <div :class="'mediafile__link' + this.space"><input readonly type="text" class="mediafile__link-text" :value="this.link" @focus="focus($event)"></div>`
+        <div v-if="this.isaddr" :class="'mediafile__link' + this.space"><input readonly type="text" class="mediafile__link-text" :value="this.link" @focus="focus($event)"></div>
+        <div class="mediafile__spacer"></div>`
+
 });
 
 
@@ -338,6 +345,7 @@ app.component('doclink', {
                 case 'www.w3schools.com': site = 'w3schools'; break;
                 case 'developer.mozilla.org': site = 'mozilla'; break;
                 case 'codepen.io': site = 'codepen'; break;
+                case 'css-tricks.com': site = 'csstricks'; break;
             }
         } catch(e) {
             if(this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';

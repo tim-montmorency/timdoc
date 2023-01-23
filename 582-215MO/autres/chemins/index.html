@@ -34,17 +34,64 @@
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
+<p class="spacer">Peu importe le langage utilisé <em>(HTML, CSS, JavaScript)</em>, la façon d'écrire un chemin vers un fichier externe <em>(image, police, stylesheet ou JS)</em> reste la même.</p>
 
-<p class="spacer">Les sélecteurs CSS permettent de cibler des éléments dans une page afin de leur appliquer des styles. Ainsi il est possible d'améliorer leur lisibilité ou de leur donner une personnalité.</p>
+<dots></dots>
+
+<grostitre>Absolu</grostitre>
+
+<p>Un chemin est absolu lorsqu'il commence par un protocole <em>(ex: https://)</em>.</p>
+
+<highlight lang="html">&lt;img src="https://site.com/image.png"&gt;</highlight>
+
+<dots></dots>
 
 
+<grostitre>Relatif</grostitre>
 
-<grostitre>Type</grostitre>
+<p>À l'opposé, un chemin est considéré comme étant relatif lorsqu'il <strong>ne commence pas</strong> par un protocol <em>(ex: https://)</em>.</p>
 
-<p>Les sélecteurs de type ciblent les éléments en fonction d'une balise.<br><br>Par exemple, la règle suivante:</p>
+<p>Afin d'illustrer les différentes possibilités de chemin relatif, imaginons que nous sommes actuellement dans le fichier <span class="inline-code">index.html</span> dans l'arborescence ci-dessous 👇</p>
 
-<highlight lang="css">em { ... }</highlight>
-<p>Permet de sélectionner les éléments utilisant la balise <span class="inline-code">&lt;em&gt;</span>.</p>
+<img src="images/chemin-fichiers.png">
+
+<h2>Même dossier</h2>
+
+<p>Il est possible d'accéder à un fichier au même niveau que le fichier dans lequel nous sommes, simplement en spécifiant son nom.</p>
+
+<p>Par exemple, pour accéder à l'image <span class="inline-code">b.png</span> 🌄 à partir du fichier <span class="inline-code">index.html</span> il est possible de faire:</p>
+
+<highlight lang="html">&lt;img src="b.png"&gt;</highlight>
+
+<h2>Sous-dossier</h2>
+
+<p>Il est possible d'accéder à un fichier dans un sous-dossier en spécifiant le nom du sous-dossier en question suivi du nom du fichier.</p>
+
+<p>Par exemple, pour accéder à l'image <span class="inline-code">c.png</span> 🌄 à partir du fichier <span class="inline-code">index.html</span>, il est possible de faire:</p>
+
+<highlight lang="html">&lt;img src="dossier-1.1/c.png"&gt;</highlight>
+
+<h2>Dossier parent</h2>
+
+<p>Il est possible d'accéder à un fichier dans un dossier parent en indiquant qu'il faut remonter d'un dossier via la mention <span class="inline-code">../</span> suivi du nom du fichier.</p>
+
+<p>Par exemple, pour accéder à l'image <span class="inline-code">a.png</span> 🌄 à partir du fichier <span class="inline-code">index.html</span> il est possible de faire:</p>
+
+<highlight lang="html">&lt;img src="../a.png"&gt;</highlight>
+
+<p>Il est possible de remonter de plusieurs dossiers en enchainant les mentions <span class="inline-code">../</span>.</p>
+
+<p>Par exemple, pour remonter de deux dossiers:</p>
+
+<highlight lang="html">&lt;img src="../../a.png"&gt;</highlight>
+
+<doclink href="https://css-tricks.com/quick-reminder-about-file-paths/">File paths</doclink>
+
+<dots></dots>
+
+<exercice href="exercices/pokemon"></exercice>
+
+<dots></dots>
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>

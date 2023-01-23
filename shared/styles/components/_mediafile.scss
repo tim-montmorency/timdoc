@@ -22,11 +22,16 @@
 
     &__link {
         display: block;
-        margin-bottom: 25px;
+        // margin-bottom: 25px;
         
         &.spacerr {
             margin-left: 25px;
         }
+    }
+
+    &__spacer {
+        display: block;
+        margin-bottom: 25px;
     }
 
     &__link-text {
