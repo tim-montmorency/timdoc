@@ -1,0 +1,29 @@
+* { box-sizing: border-box; }
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  padding: 5px;
+}
+
+.group {
+  display: flex;
+  width: 66.66%;
+}
+
+.element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 20px);
+  width: calc(33.33% - 10px);
+  margin: 5px;
+}
+
+.group .element {
+  flex: 1 1 0;
+}

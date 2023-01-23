@@ -216,7 +216,7 @@ app.component('codepen', {
             remark = this.$slots.default()[0].children;
         }
         this.$root.addToCodePens(this);
-        let theme = this.$root.darkmode ? 'dark' : '39618';
+        let theme = this.$root.darkmode ? '39621' : '39618';
         return {
             user: 'ZmotriN',
             theme: theme,
@@ -229,7 +229,7 @@ app.component('codepen', {
             this.theme = '39618';
         },
         lightSwitchOff() {
-            this.theme = 'dark';
+            this.theme = '39621';
         },
     },
     template: `
