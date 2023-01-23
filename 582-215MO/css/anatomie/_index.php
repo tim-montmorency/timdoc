@@ -59,7 +59,7 @@
 <p>Par exemple:</p>
 
 <highlight lang="html">&lt;div class="article"&gt;
-  &lt;p&gt;Lorem ipsum&lt;/p&gt;
+    &lt;p&gt;Lorem ipsum&lt;/p&gt;
 &lt;/div&gt;</highlight>
 
 <p>Dans la même lignée, un ancêtre peut être <strong>grands-parents si un seul élément les sépares</strong>.</p>
@@ -68,6 +68,6 @@
 
 <highlight lang="html">&lt;div class="article"&gt;
     &lt;div class="intro"&gt;
-      &lt;p&gt;Lorem ipsum&lt;/p&gt;
+        &lt;p&gt;Lorem ipsum&lt;/p&gt;
     &lt;/div&gt;
-  &lt;/div&gt;</highlight>
+&lt;/div&gt;</highlight>

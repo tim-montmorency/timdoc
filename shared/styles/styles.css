@@ -57,6 +57,9 @@ body.dark .hljs-emphasis {
 body.dark .hljs-attribute, body.dark .hljs-attr {
   color: #ee7c2b;
 }
+body.dark .hljs-punctuation {
+  color: #60644d;
+}
 body.dark .hljs-strong {
   font-weight: 700;
 }
