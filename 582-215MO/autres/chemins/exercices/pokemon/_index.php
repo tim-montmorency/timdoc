@@ -31,5 +31,6 @@
 <grostitre>Notes de cours</grostitre>
 
 <doclink href="../../">Chemin de fichiers</doclink>
+<doclink href="../../../../css/background/">Background</doclink>
 
 <dots></dots>
