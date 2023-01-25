@@ -19,3 +19,25 @@
 <grostitre>Matériel</grostitre>
 
 <doclink href="https://codepen.io/tim-momo/pen/WNKzamo?editors=1100">Pen de départ</doclink>
+
+<info>Une feuille de styles externe est utilisée afin d’attribuer de légers styles de bases aux différents éléments de la page afin de faciliter leur visualisation.</info>
+
+<dots></dots>
+
+
+<grostitre>Requis</grostitre>
+
+<checklist>
+  Ciblez les différents éléments de la carte en CSS afin de changer leur affichage dans le flux de la page et ainsi recréer l'aperçu visible plus haut ☝️. Pour ce faire, il faudra modifier leur propriété <span class="inline-code">display</span>.
+  Utilisez la propriété <span class="inline-code">vertical-align</span> lorsque nécessaire afin de respecter l'affichage demandé.
+</checklist>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours</grostitre>
+
+<doclink href="../../../display/">Display</doclink>
+<doclink href="../../../vertical-align/">Vertical-align</doclink>
+
+<dots></dots>
