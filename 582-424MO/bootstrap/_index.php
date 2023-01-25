@@ -1,6 +1,6 @@
 <?php 
 /**
- * @type     article
+ * @type     list
  * @title    Bootstrap
  * @icon     images/icon.png
  * @abstract Un cadriel qui vous sauve du temps!
