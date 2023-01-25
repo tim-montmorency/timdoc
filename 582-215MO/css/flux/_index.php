@@ -20,4 +20,19 @@
 
 <p>Par exemple, voici 3 éléments numérotés de 1 à 3. Tous les éléments affichés respectent l’ordre établi dans le code:</p>
 
-<codepen id="ZEjxqKe"></codepen>
+<codepen id="ZEjxqKe" height="340"></codepen>
+
+<dots></dots>
+
+
+<grostitre>Ordre d’empilage</grostitre>
+
+<p>Un élément HTML peut contenir d’autres éléments. Lorsqu’un élément est enfant d’un autre, celui-ci s’affiche par-dessus son parent. Ainsi, si plusieurs éléments sont emboîtés, celui à la fin de la chaîne se retrouvera sur le dessus, alors que celui au début se retrouvera en dessous.</p>
+
+<p>Par exemple:</p>
+
+<codepen id="QWBmZqy" height="340"></codepen>
+
+<knowmore href="https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Flow_Layout">Article MDN à propos du flux</knowmore>
+
+<dots></dots>
