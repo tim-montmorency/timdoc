@@ -270,17 +270,29 @@ footer {
 
 #listing {
     width: 100%;
+    padding: 0 10px;
 
     .list-grid {
         margin-left: auto;
         margin-right: auto;
-        width: 720px;
+        max-width: 720px;
+        width: 100%;
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 100%;
+
+        @media (min-width: 576px)  {
+            grid-template-columns: 50% 50%;
+        }
 
         &__item {
             display: flex;
-            height: 60px;
+            height: auto;
+            margin-bottom: 20px;
+            @media (min-width: 576px)  {
+                height: 60px;
+                margin-bottom: 0;
+            }
+        
 
             &__icon {
                 display: inline-block;
@@ -291,11 +303,15 @@ footer {
             }
 
             &__description {
-                height: 48px;
                 display: inline-block;
                 padding-top: 2px;
                 padding-left: 10px;
                 vertical-align: middle;
+                height: auto;
+                @media (min-width: 576px)  {
+                    height: 48px;
+                }
+        
             }
 
             &__title {
