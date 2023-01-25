@@ -1,8 +1,8 @@
 <?php 
 /**
  * @type     list
- * @title    GreenSock Animation Platform
+ * @title    GSAP
  * @icon     images/icon.png
- * @abstract GSAP
+ * @abstract GreenSock Animation Platform
  */
 ?>
