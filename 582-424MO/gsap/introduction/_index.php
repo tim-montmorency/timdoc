@@ -15,21 +15,23 @@
 
 CODEPEN
 
+<dots></dots>
+
 <grostitre>Précédentes versions</grostitre>
 
 <p>Vous avez peut-être déjà utilisé ou entendu parler&nbsp;de:</p>
 <ul>
     <li>
-        <p>TweenLite</p>
+        TweenLite
     </li>
     <li>
-        <p>TweenMax</p>
+        TweenMax
     </li>
     <li>
-        <p>TimelineLite</p>
+        TimelineLite
     </li>
     <li>
-        <p>TimelineMax</p>
+        TimelineMax
     </li>
 </ul>
 <p>ou vous tomberez peut-être sur des articles mentionnant ces outils en lisant sur le web. Ce qui est normal,
@@ -38,6 +40,6 @@ CODEPEN
 <p>Dans ce cours, nous, nous consacrerons à cette plus récente version&nbsp;<em>(3)</em>. Faites attention, si une
     documentation mentionne ces précédents outils, elle traite donc la version 2 et non&nbsp;3.</p>
 
-
+<dots></dots>
 
 <grostitre> Installation</grostitre>

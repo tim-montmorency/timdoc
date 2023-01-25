@@ -10,6 +10,9 @@
 
 <p>Bootstrap est le cadriciel&nbsp;<em>(framework)</em>&nbsp;de mise en page le plus populaire au monde. Il permet de
     simplifier et d'accélérer la réalisation de sites web&nbsp;responsives.</p>
+
+<dots></dots>
+
 <grostitre>Histoire</grostitre>
 
 <p>Ce projet doit son origine à&nbsp;<a href="https://twitter.com/">Twitter 🐦</a>&nbsp;qui, dans le but de simplifier
@@ -20,6 +23,8 @@
     faites attention de bien valider la version dont l'article traite. Au moment d'écrire ces lignes, la version 5 est
     la plus récente et est celle qui sera enseignée en classe.</p>
 
+
+<dots></dots>
 <grostitre>Installation</grostitre>
 
 <p>Comme pour tout cadriciel&nbsp;<em>(framework)</em>, afin d'avoir accès à ses fonctionnalités, il est nécessaire de
@@ -30,18 +35,21 @@
 <p>Pour importer Bootstrap, il est possible:</p>
 <ul>
     <li>
-        <p>De&nbsp;<a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">télécharger
+        De&nbsp;<a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">télécharger
                 Bootstrap</a>&nbsp;à partir du site web officiel ou encore via&nbsp;<a
                 href="https://github.com/twbs/bootstrap">GitHub</a>. Afin d'avoir une copie locale des fichiers. Cette
             approche offre l'avantage d'avoir accès aux fichiers sources et donc de pouvoir modifier certains paramètres
-            de base de Bootstrap si&nbsp;désiré.</p>
+            de base de Bootstrap si&nbsp;désiré.
     </li>
     <li>
-        <p>D'utiliser un service de CDN, permettant simplement de&nbsp;<a
+        D'utiliser un service de CDN, permettant simplement de&nbsp;<a
                 href="https://getbootstrap.com/docs/5.0/getting-started/introduction/#css">pointer vers une URL</a>.
-            Cette approche est probablement la plus simple et plus rapide et offre d'excellentes&nbsp;performances.</p>
+            Cette approche est probablement la plus simple et plus rapide et offre d'excellentes&nbsp;performances.
     </li>
 </ul>
+
+<dots></dots>
+
 <grostitre>Particularités</grostitre>
 
 

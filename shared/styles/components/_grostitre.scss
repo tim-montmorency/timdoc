@@ -1,32 +1,48 @@
 .grostitre {
     display: flex;
+    align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 25px;
-    padding-right: 25px;
 
     h1 {
-        font-size: 36px;
+        font-size: 7vw;
         vertical-align: middle;
         margin-right: 15px;
+
+        @media (min-width: 576px)  {
+            font-size: 36px;
+        }
     }
 
     &__linkcopied {
-        line-height: 36px;
+        line-height: 7vw;
         margin-left: 20px;
         opacity: 0%;
+        display: none;
+
+        @media (min-width: 576px)  {
+            line-height: 36px;
+            display: block;
+        }
     }
 
     &__chain {
         transition-duration: 200ms;
-        height: 36px;
-        width: 36px;
-        padding: 4px;
+        height: 24px;
+        width: 24px;
+        padding: 2px;
+        
         text-align: center;
         vertical-align: center;
         border-radius: 50%;
         display:inline;
         background-color: #ffc5c5;
+
+        @media (min-width: 576px)  {
+            height: 36px;
+            width: 36px;
+            padding: 4px;
+        }
 
         &:hover {
             cursor: pointer;

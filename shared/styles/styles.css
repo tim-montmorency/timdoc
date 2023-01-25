@@ -192,31 +192,49 @@ body.dark .doclink.codepen::before {
 
 .grostitre {
   display: flex;
+  align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 25px;
-  padding-right: 25px;
 }
 .grostitre h1 {
-  font-size: 36px;
+  font-size: 7vw;
   vertical-align: middle;
   margin-right: 15px;
 }
+@media (min-width: 576px) {
+  .grostitre h1 {
+    font-size: 36px;
+  }
+}
 .grostitre__linkcopied {
-  line-height: 36px;
+  line-height: 7vw;
   margin-left: 20px;
   opacity: 0%;
+  display: none;
+}
+@media (min-width: 576px) {
+  .grostitre__linkcopied {
+    line-height: 36px;
+    display: block;
+  }
 }
 .grostitre__chain {
   transition-duration: 200ms;
-  height: 36px;
-  width: 36px;
-  padding: 4px;
+  height: 24px;
+  width: 24px;
+  padding: 2px;
   text-align: center;
   vertical-align: center;
   border-radius: 50%;
   display: inline;
   background-color: #ffc5c5;
+}
+@media (min-width: 576px) {
+  .grostitre__chain {
+    height: 36px;
+    width: 36px;
+    padding: 4px;
+  }
 }
 .grostitre__chain:hover {
   cursor: pointer;
@@ -234,21 +252,28 @@ body.dark .doclink.codepen::before {
 }
 
 .dots {
-  width: 100px;
+  width: 30px;
   color: #aaaaaa;
-  display: block;
+  display: none;
   margin-left: auto;
   margin-right: auto;
+}
+@media (min-width: 576px) {
+  .dots {
+    width: 100px;
+    display: block;
+  }
 }
 
 .info {
   position: relative;
   background-color: #d8d7f1;
   border-left: 4px solid #3c38ba;
-  width: 100%;
   padding: 25px;
   margin-top: 50px;
   margin-bottom: 25px;
+  margin-left: -25px;
+  margin-right: -25px;
 }
 .info__bubble {
   position: absolute;
@@ -275,10 +300,11 @@ body.dark .doclink.codepen::before {
   position: relative;
   background-color: #fcfcdd;
   border-left: 4px solid #f1f255;
-  width: 100%;
   padding: 25px;
   margin-top: 50px;
   margin-bottom: 25px;
+  margin-left: -25px;
+  margin-right: -25px;
 }
 .warning__bubble {
   position: absolute;
@@ -305,10 +331,11 @@ body.dark .doclink.codepen::before {
   position: relative;
   background-color: #fcdddd;
   border-left: 4px solid #f25555;
-  width: 100%;
   padding: 25px;
   margin-top: 50px;
   margin-bottom: 25px;
+  margin-left: -25px;
+  margin-right: -25px;
 }
 .alert__bubble {
   position: absolute;
@@ -332,7 +359,8 @@ body.dark .doclink.codepen::before {
 }
 
 .audioplayer {
-  width: 770;
+  width: 100%;
+  max-width: 770px;
   height: 100px;
   margin-bottom: 25px;
   background-color: #eeeeee;
@@ -383,6 +411,9 @@ body.dark .doclink.codepen::before {
 
 .mediafile {
   display: flex;
+  align-items: center;
+  margin-left: -25px;
+  margin-right: -25px;
 }
 .mediafile.spacerr {
   margin-left: 25px;
@@ -402,6 +433,8 @@ body.dark .doclink.codepen::before {
 }
 .mediafile__link {
   display: block;
+  margin-left: -25px;
+  margin-right: -25px;
 }
 .mediafile__link.spacerr {
   margin-left: 25px;
@@ -425,6 +458,13 @@ body.dark .doclink.codepen::before {
   font-size: 14px;
   margin-left: 10px;
   opacity: 0%;
+  display: none;
+}
+@media (min-width: 576px) {
+  .mediafile__linkcopied {
+    line-height: 36px;
+    display: block;
+  }
 }
 .mediafile__chain {
   transition-duration: 200ms;
@@ -467,6 +507,11 @@ span.codepen-remark {
   margin-bottom: 25px;
 }
 
+.codepen-container {
+  margin-left: -25px;
+  margin-right: -25px;
+}
+
 a.doclink {
   display: inline-block;
   position: relative;
@@ -497,9 +542,14 @@ a.doclink .doclink-title {
   top: -4px;
   margin-left: 8px;
   margin-right: 10px;
-  font-size: 16px;
   line-height: 24px;
   font-family: Consolas, Inconsolas;
+  font-size: 10px;
+}
+@media (min-width: 576px) {
+  a.doclink .doclink-title {
+    font-size: 16px;
+  }
 }
 a.doclink .doclink-icon {
   background-image: url("../images/doclink-icon.png");
@@ -562,11 +612,12 @@ a.doclink .doclink-icon {
 a.exercice {
   display: block;
   background-image: linear-gradient(0deg, #87ceeb, 20%, #f0f8fc);
-  width: 100%;
   height: 140px;
   background-color: #f0f8fc;
   margin-bottom: 25px;
   color: #555555;
+  margin-left: -25px;
+  margin-right: -25px;
 }
 a.exercice:hover {
   color: #000000;
@@ -577,15 +628,19 @@ a.exercice div.exercice-container {
   display: flex;
 }
 a.exercice div.exercice-container div.exercice-thumb {
-  width: 186px;
-  height: 100%;
+  flex-basis: 186px;
+  height: auto;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 a.exercice div.exercice-container div.exercice-abstract {
-  width: calc(100% - 186px);
-  margin-top: auto;
-  margin-bottom: auto;
+  flex-grow: 2;
   padding-left: 25px;
   padding-right: 25px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
 }
 a.exercice div.exercice-container div.exercice-abstract em {
   background-color: skyblue;
@@ -595,27 +650,45 @@ a.exercice div.exercice-container div.exercice-abstract em {
   padding-right: 6px;
   border-radius: 4px;
   font-style: normal;
-  font-size: 12px;
   color: black !important;
-  line-height: 24px;
+  margin: 0 0 5px 0;
+  font-size: 8px;
 }
-a.exercice div.exercice-container div.exercice-abstract span.exercice-title {
-  line-height: 36px;
-  font-size: 24px;
+@media (min-width: 480px) {
+  a.exercice div.exercice-container div.exercice-abstract em {
+    font-size: 12px;
+  }
+}
+a.exercice div.exercice-container div.exercice-abstract .exercice-title {
+  line-height: 1;
   font-weight: bold;
+  margin: 5px 0 3px 0;
+  font-size: 6vw;
 }
-a.exercice div.exercice-container div.exercice-abstract span.exercice-description {
-  font-size: 14px;
+@media (min-width: 480px) {
+  a.exercice div.exercice-container div.exercice-abstract .exercice-title {
+    font-size: 24px;
+  }
+}
+a.exercice div.exercice-container div.exercice-abstract .exercice-description {
+  margin: 3px 0 0 0;
+  font-size: 4vw;
+}
+@media (min-width: 480px) {
+  a.exercice div.exercice-container div.exercice-abstract .exercice-description {
+    font-size: 14px;
+  }
 }
 
 a.tool {
   display: block;
   background-image: linear-gradient(0deg, #87eb9d, 20%, #f0fcf0);
-  width: 100%;
   height: 140px;
   background-color: #f0fcf0;
   margin-bottom: 25px;
   color: #555555;
+  margin-left: -25px;
+  margin-right: -25px;
 }
 a.tool:hover {
   color: #000000;
@@ -626,15 +699,21 @@ a.tool div.tool-container {
   display: flex;
 }
 a.tool div.tool-container div.tool-thumb {
-  width: 186px;
-  height: 100%;
+  flex-basis: 186px;
+  height: auto;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 a.tool div.tool-container div.tool-abstract {
-  width: calc(100% - 186px);
+  flex-grow: 2;
   margin-top: auto;
   margin-bottom: auto;
   padding-left: 25px;
   padding-right: 25px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
 }
 a.tool div.tool-container div.tool-abstract em {
   background-color: #87eb9d;
@@ -646,15 +725,33 @@ a.tool div.tool-container div.tool-abstract em {
   font-style: normal;
   font-size: 12px;
   color: black !important;
-  line-height: 24px;
+  margin: 0 0 5px 0;
+  font-size: 8px;
 }
-a.tool div.tool-container div.tool-abstract span.tool-title {
-  line-height: 36px;
-  font-size: 24px;
+@media (min-width: 480px) {
+  a.tool div.tool-container div.tool-abstract em {
+    font-size: 12px;
+  }
+}
+a.tool div.tool-container div.tool-abstract .tool-title {
+  line-height: 1;
   font-weight: bold;
+  margin: 5px 0 3px 0;
+  font-size: 6vw;
 }
-a.tool div.tool-container div.tool-abstract span.tool-description {
-  font-size: 14px;
+@media (min-width: 480px) {
+  a.tool div.tool-container div.tool-abstract .tool-title {
+    font-size: 24px;
+  }
+}
+a.tool div.tool-container div.tool-abstract .tool-description {
+  margin: 3px 0 0 0;
+  font-size: 4vw;
+}
+@media (min-width: 480px) {
+  a.tool div.tool-container div.tool-abstract .tool-description {
+    font-size: 14px;
+  }
 }
 
 .video-js {
@@ -671,11 +768,22 @@ a.tool div.tool-container div.tool-abstract span.tool-description {
 pre.highlight {
   font-size: 16px;
   padding-bottom: 25px;
+  white-space: pre-wrap;
+  margin-left: -25px;
+  margin-right: -25px;
+}
+
+pre code.hljs {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 div.checklist {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -25px;
+  margin-right: -25px;
 }
 div.checklist ol {
   margin-left: 25px;
@@ -688,18 +796,14 @@ div.checklist ol li {
   font-size: 18px;
   line-height: 28px;
   transition-duration: 200ms;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 div.checklist ol li:hover {
   background-color: #fde8ed;
 }
 div.checklist ol li.checked {
   text-decoration: line-through;
-  -webkit-text-decoration-color: #ff003a;
-          text-decoration-color: #ff003a;
+  text-decoration-color: #ff003a;
   text-decoration-thickness: 3px;
   transition-duration: 200ms;
 }
@@ -727,6 +831,8 @@ div.checklist div.progressbar {
   border: 1px solid #bebebe;
   padding: 25px;
   margin-bottom: 25px;
+  margin-left: -25px;
+  margin-right: -25px;
   background-image: linear-gradient(0deg, #e9e9e9, 20%, #ffffff);
   background-color: #ffffff;
 }
@@ -754,10 +860,7 @@ div.checklist div.progressbar {
   margin-bottom: 25px;
   text-align: center;
   cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 .color.spacer {
   margin-left: 25px;
@@ -775,10 +878,7 @@ div.checklist div.progressbar {
   height: 600px;
 }
 .swiper.swiper-main .swiper-slide {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   background-size: 0px 0px;
   background-repeat: no-repeat;
   background-color: black;
@@ -799,8 +899,7 @@ div.checklist div.progressbar {
 .swiper.swiper-main .swiper-slide img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 .swiper.swiper-main .swiper-button-next, .swiper.swiper-main .swiper-button-prev {
   filter: drop-shadow(0px 0px 1px black);
@@ -809,10 +908,7 @@ div.checklist div.progressbar {
   color: white;
   font-family: Consolas, Inconsolata;
   filter: drop-shadow(0px 0px 2px black);
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 .swiper.swiper-main .swiper-fullscreen {
   position: absolute;
@@ -842,10 +938,7 @@ div.checklist div.progressbar {
 }
 .swiper.swiper-thumbs .swiper-slide {
   display: flex;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   width: 100px;
   height: 100%;
   opacity: 0.4;
@@ -854,8 +947,7 @@ div.checklist div.progressbar {
 .swiper.swiper-thumbs .swiper-slide img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .swiper.swiper-thumbs .swiper-slide-thumb-active {
   opacity: 1;
@@ -904,6 +996,11 @@ div.checklist div.progressbar {
   transition: opacity 0.2s;
 }
 
+.swiper-container {
+  margin-left: -25px;
+  margin-right: -25px;
+}
+
 body:has(.swiper-modal--show) {
   overflow: hidden;
 }
@@ -919,8 +1016,13 @@ body {
   background-repeat: repeat-x;
   padding-bottom: 100px;
   font-family: Rubik;
-  font-size: 18px;
   scrollbar-color: dark;
+  font-size: 4vw;
+}
+@media (min-width: 576px) {
+  body {
+    font-size: 18px;
+  }
 }
 
 span.inline-code {
@@ -954,9 +1056,8 @@ header {
 header #logo {
   position: relative;
   top: 60px;
-  width: 202px;
-  height: 80px;
-  background-image: url("../images/tim-logo.png");
+  width: 276px;
+  fill: #ff003a;
   background-repeat: no-repeat;
   cursor: pointer;
 }
@@ -967,7 +1068,7 @@ header #lightswitch {
   position: relative;
   width: 34px;
   height: 34px;
-  left: 210px;
+  left: 240px;
   border-radius: 50%;
   cursor: pointer;
   overflow: hidden;
@@ -993,17 +1094,32 @@ header #lightswitch.lightswitch--off::before {
 #subhead {
   background-color: rgba(0, 0, 0, 0.1);
   width: 100%;
-  height: 200px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding-top: 56px;
+  padding: 56px 0 30px 0;
+}
+@media (min-width: 576px) {
+  #subhead {
+    height: 200px;
+    padding-bottom: 0;
+  }
 }
 #subhead #breadcrumb {
-  font-size: 24px;
+  font-size: 4vw;
+}
+@media (min-width: 576px) {
+  #subhead #breadcrumb {
+    font-size: 24px;
+  }
 }
 #subhead #title {
-  font-size: 60px;
+  font-size: 10vw;
+}
+@media (min-width: 576px) {
+  #subhead #title {
+    font-size: 60px;
+  }
 }
 
 main::before {
@@ -1019,7 +1135,8 @@ main::before {
 
 article {
   display: flex;
-  width: 1070px;
+  width: 100%;
+  max-width: 1070px;
   margin-left: auto;
   margin-right: auto;
   min-height: calc(100vh - 200px - 100px - 40px);
@@ -1034,11 +1151,15 @@ footer {
 }
 footer #copyright {
   padding-top: 40px;
-  font-size: 16px;
+  font-size: 4vw;
+}
+@media (min-width: 576px) {
+  footer #copyright {
+    font-size: 16px;
+  }
 }
 
 #contents_table {
-  position: -webkit-sticky;
   position: sticky;
   align-self: flex-start;
   top: 70px;
@@ -1052,22 +1173,33 @@ footer #copyright {
 }
 
 #contents {
-  width: 770px;
+  width: 100%;
+  max-width: 770px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 25px;
 }
 #contents ul, #contents ol {
   margin-left: 25px;
   margin-bottom: 25px;
+  line-height: 1.4;
 }
 #contents ul li, #contents ol li {
   margin-top: 15px;
 }
+@media (min-width: 576px) {
+  #contents ul, #contents ol {
+    line-height: 28px;
+  }
+}
 #contents p {
-  padding-left: 25px;
-  padding-right: 25px;
   margin-bottom: 25px;
-  line-height: 28px;
+  line-height: 1.4;
+}
+@media (min-width: 576px) {
+  #contents p {
+    line-height: 28px;
+  }
 }
 #contents p.spacer:before {
   content: "        ";
@@ -1077,12 +1209,18 @@ footer #copyright {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
-  max-width: 770px;
+  width: auto;
+  max-width: 100%;
 }
 #contents h2 {
-  margin-left: 25px;
   margin-bottom: 25px;
   margin-top: 50px;
+  font-size: 6vw;
+}
+@media (min-width: 576px) {
+  #contents h2 {
+    font-size: 28px;
+  }
 }
 #contents em {
   color: #b98304;
@@ -1146,7 +1284,8 @@ footer #copyright {
     display: none;
   }
   article {
-    width: 770px;
+    width: 100%;
+    max-width: 770px;
   }
 }
 @media only screen and (max-width: 830px) {
@@ -1159,4 +1298,8 @@ footer #copyright {
   .alert__bubble {
     display: none;
   }
+}
+.video-container {
+  margin-left: -25px;
+  margin-right: -25px;
 }/*# sourceMappingURL=styles.css.map */

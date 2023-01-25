@@ -141,6 +141,11 @@
 
 }
 
+.swiper-container{
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
 
 body:has(.swiper-modal--show){
     overflow: hidden;

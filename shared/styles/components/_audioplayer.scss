@@ -1,10 +1,12 @@
 .audioplayer {
-    width: 770;
+    width: 100%;
+    max-width: 770px;
     height: 100px;
     margin-bottom: 25px;
     background-color: #eeeeee;
     border: 1px solid #919191;
     display: flex;
+
 
     &__button {
         cursor: pointer;

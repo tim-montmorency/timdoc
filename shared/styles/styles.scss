@@ -33,8 +33,12 @@ body {
     background-repeat: repeat-x;
     padding-bottom: variables.$footer_height;
     font-family: Rubik;
-    font-size: 18px;
     scrollbar-color: dark;
+
+    font-size: 4vw;
+    @media (min-width: 576px)  {
+        font-size: 18px;
+    }
 }
 
 span.inline-code {
@@ -71,9 +75,10 @@ header {
     #logo {
         position: relative;
         top: 60px;
-        width: 202px;
-        height: 80px;
-        background-image: url("../images/tim-logo.png");
+        width: 276px;
+
+       // background-image: url("../images/tim-logo.png");
+       fill:#ff003a;
         background-repeat: no-repeat;
         cursor: pointer;
     }
@@ -85,7 +90,7 @@ header {
         position: relative;
         width: 34px;
         height: 34px;
-        left: 210px;
+        left: 240px;
         border-radius: 50%;
         cursor: pointer;
         overflow: hidden;
@@ -111,19 +116,33 @@ header {
 #subhead {
     background-color: rgba(0, 0, 0, 10%);
     width: 100%;
-    height: variables.$subhead_height;
+    
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding-top: 56px;
+    padding: 56px 0 30px 0;
+
+    @media (min-width: 576px)  {
+        height: variables.$subhead_height;
+        padding-bottom: 0;
+    }
+
+    
 
     #breadcrumb {
-        font-size: 24px;
+        font-size: 4vw;
+        @media (min-width: 576px)  {
+            font-size: 24px;
+        }
     }
 
     #title {
-        font-size: 60px;
-    }
+        font-size: 10vw;
+       
+        @media (min-width: 576px)  {
+            font-size: 60px;
+        }
+    }  
 
 }
 
@@ -142,7 +161,8 @@ main {
 
 article {
     display: flex;
-    width: 1070px;
+    width: 100%;
+    max-width: 1070px;
     margin-left: auto;
     margin-right: auto;
     min-height: calc(100vh - variables.$subhead_height - variables.$footer_height - variables.$article_padding);
@@ -157,7 +177,11 @@ footer {
 
     #copyright {
         padding-top: 40px;
-        font-size: 16px;
+        font-size: 4vw;
+
+        @media (min-width: 576px)  {
+           font-size: 16px;
+        }
     }
 
 }
@@ -181,9 +205,11 @@ footer {
 
 
 #contents {
-    width: 770px;
+    width: 100%;
+    max-width: 770px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 25px;
 
     ul, ol {
         margin-left: 25px;
@@ -191,13 +217,22 @@ footer {
         li {
             margin-top: 15px;
         }
+
+        line-height: 1.4;
+        @media (min-width: 576px)  {
+            line-height: 28px;
+        }
     }
 
     p {
-        padding-left: 25px;
-        padding-right: 25px;
+
         margin-bottom: 25px;
-        line-height: 28px;
+        line-height: 1.4;
+        @media (min-width: 576px)  {
+            line-height: 28px;
+        }
+
+
         &.spacer {
             &:before {
                 content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
@@ -211,13 +246,19 @@ footer {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 50px;
-        max-width: 770px;
+        width: auto;
+        
+        max-width: 100%;
     }
 
     h2 {
-        margin-left: 25px;
+  
         margin-bottom: 25px;
         margin-top: 50px;
+        font-size: 6vw;
+        @media (min-width: 576px)  {
+            font-size: 28px;
+        }
     }
 
     em {
@@ -289,11 +330,17 @@ footer {
 
 @media only screen and (max-width: 1070px) {
     #contents_table { display: none; }
-    article { width: 770px; }
+    article { width: 100%; max-width:770px; }
 }
 
 @media only screen and (max-width: 830px) {
     .info__bubble { display: none; }
     .warning__bubble { display: none; }
     .alert__bubble { display: none; }
+}
+
+
+.video-container{
+    margin-left: -25px;
+    margin-right: -25px;
 }

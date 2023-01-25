@@ -244,6 +244,7 @@ app.component('codepen', {
         },
     },
     template: `
+    <div class="codepen-container">
         <iframe
             :src="'https://codepen.io/' + user + '/embed/' + id + '?default-tab=' + defaulttab + '&theme-id=' + theme"
             class="codepen"
@@ -253,7 +254,8 @@ app.component('codepen', {
             allowtransparency="true"
             allowfullscreen="true"
             :style="'height: ' + bheight + 'px;'"
-         ></iframe><span class="codepen-remark" v-if="this.remark != ''">{{ remark }}</span>`
+         ></iframe><span class="codepen-remark" v-if="this.remark != ''">{{ remark }}</span>
+    </div>`
 });
 
 
@@ -279,8 +281,8 @@ app.component('codepen', {
             <div class="exercice-container">
                 <div class="exercice-thumb" :style="'background-image: url(\\'' + this.thumb + '\\')'"></div>
                 <div class="exercice-abstract">
-                    <em class="exercice-label">EXERCICE</em><br>
-                    <span class="exercice-title">{{ name }}</span><br>
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">{{ name }}</span>
                     <span class="exercice-description">{{ description }}</span>
                 </div>
             </div>
@@ -309,8 +311,8 @@ app.component('tool', {
         <a class="tool" target="_blank" :href="this.url">
             <div class="tool-container">
                 <div class="tool-abstract">
-                    <em class="tool-label">OUTIL</em><br>
-                    <span class="tool-title">{{ name }}</span><br>
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">{{ name }}</span>
                     <span class="tool-description">{{ description }}</span>
                 </div>
                 <div class="tool-thumb" :style="'background-image: url(\\'' + this.thumb + '\\')'"></div>
@@ -437,6 +439,7 @@ app.component('clip', {
         }
     },
     template: `
+    <div class="video-container">
         <video
             :id="this.id"
             :width="this.width"
@@ -448,7 +451,8 @@ app.component('clip', {
             preload="auto"
         >
             <source :src="this.src" type="video/mp4" />
-        </video>`
+        </video>
+    </div>`
 });
 
 
@@ -540,16 +544,18 @@ app.component('clip', {
         }
     },
     template: `
-        <div class="swiper-modal" :id="'swiper-modal-' + this.hash" @click="close()"></div>
-        <div :id="'swiper-' + this.hash" style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper swiper-main">
-            <div class="swiper-wrapper" v-html="slides"></div>
-            <div :id="'swiper-button-next-' + this.hash" class="swiper-button-next"></div>
-            <div :id="'swiper-button-prev-' + this.hash" class="swiper-button-prev"></div>
-            <div :id="'swiper-pagination-' + this.hash" class="swiper-pagination"></div>
-            <div title="Navigue avec les flèches de ton clavier en plein écran" class="swiper-fullscreen" @click="fullscreen()"></div>
-        </div>
-        <div :id="'swiper-thumbs-' + this.hash" class="swiper swiper-thumbs">
-            <div class="swiper-wrapper" v-html="thslides"></div>
+        <div class="swiper-container">
+            <div class="swiper-modal" :id="'swiper-modal-' + this.hash" @click="close()"></div>
+            <div :id="'swiper-' + this.hash" style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper swiper-main">
+                <div class="swiper-wrapper" v-html="slides"></div>
+                <div :id="'swiper-button-next-' + this.hash" class="swiper-button-next"></div>
+                <div :id="'swiper-button-prev-' + this.hash" class="swiper-button-prev"></div>
+                <div :id="'swiper-pagination-' + this.hash" class="swiper-pagination"></div>
+                <div title="Navigue avec les flèches de ton clavier en plein écran" class="swiper-fullscreen" @click="fullscreen()"></div>
+            </div>
+            <div :id="'swiper-thumbs-' + this.hash" class="swiper swiper-thumbs">
+                <div class="swiper-wrapper" v-html="thslides"></div>
+            </div>
         </div>`
 });
 

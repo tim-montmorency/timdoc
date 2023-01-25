@@ -2,10 +2,12 @@
     position: relative;
     background-color: #d8d7f1;
     border-left: 4px solid #3c38ba;
-    width: 100%;
+
     padding: 25px;
     margin-top: 50px;
     margin-bottom: 25px;
+    margin-left: -25px;
+    margin-right: -25px;
 
     &__bubble {
         position: absolute;

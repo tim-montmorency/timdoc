@@ -1,4 +1,13 @@
 pre.highlight {
     font-size: 16px;
     padding-bottom: 25px;
+    white-space: pre-wrap;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+pre code.hljs {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
 }
