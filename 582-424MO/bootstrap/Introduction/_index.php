@@ -1,9 +1,9 @@
 <?php 
 /**
  * @type     article
- * @title    Introduction à Bootstrap
+ * @title    Introduction
  * @icon     images/icon.png
- * @abstract abc
+ * @abstract Le cadriciel de mise en page le plus populaire au monde
  */
 ?>
 

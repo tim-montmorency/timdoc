@@ -1,9 +1,9 @@
 <?php 
 /**
  * @type     article
- * @title    Introduction à GSAP
+ * @title    Introduction
  * @icon     images/icon.png
- * @abstract abc
+ * @abstract GreenSock Animation Platform
  */
 ?>
 
