@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/commons.js"></script>
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Introduction à GSAP</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()"></div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../../">Optimisation Web 582-424MO</a> > <a href="../">GreenSock Animation Platform</a> ></div>
+                <div id="title">Introduction à GSAP</div>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p><a href="https://greensock.com/gsap/">GSAP</a>&nbsp;est une libraire permettant d'animer tout ce que JavaScript est
+    en mesure de manipuler. Elle permet de changer la valeur de certaines propriétés plusieurs fois par secondes, ce qui
+    permet de simuler le mouvement et bien d'autres&nbsp;effets.</p>
+<p>Pour vous donner une idée, voici une animation GSAP de&nbsp;<a
+        href="https://gannon.tv/interactive">Chris&nbsp;Gannon</a>:</p>
+
+CODEPEN
+
+<grostitre>Précédentes versions</grostitre>
+
+<p>Vous avez peut-être déjà utilisé ou entendu parler&nbsp;de:</p>
+<ul>
+    <li>
+        <p>TweenLite</p>
+    </li>
+    <li>
+        <p>TweenMax</p>
+    </li>
+    <li>
+        <p>TimelineLite</p>
+    </li>
+    <li>
+        <p>TimelineMax</p>
+    </li>
+</ul>
+<p>ou vous tomberez peut-être sur des articles mentionnant ces outils en lisant sur le web. Ce qui est normal,
+    puisqu'ils ont étés des parties importantes de GSAP durant de nombreuses années. Cependant, vers la fin de 2019, ils
+    furent remplacés par l'objet GSAP lors de la sortie de&nbsp;GSAP&nbsp;3.</p>
+<p>Dans ce cours, nous, nous consacrerons à cette plus récente version&nbsp;<em>(3)</em>. Faites attention, si une
+    documentation mentionne ces précédents outils, elle traite donc la version 2 et non&nbsp;3.</p>
+
+
+
+<grostitre> Installation</grostitre>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>
