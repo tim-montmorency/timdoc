@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Introduction
- * @icon     images/icon.png
+ * @icon     images/icon.svg
  * @abstract GreenSock Animation Platform
  */
 ?>
