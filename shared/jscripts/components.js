@@ -348,6 +348,7 @@ app.component('doclink', {
                 case 'developer.mozilla.org': site = 'mozilla'; break;
                 case 'codepen.io': site = 'codepen'; break;
                 case 'css-tricks.com': site = 'csstricks'; break;
+                case 'getbootstrap.com': site = 'bootstrap'; break;
             }
         } catch(e) {
             if(this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';

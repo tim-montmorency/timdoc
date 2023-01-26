@@ -113,3 +113,12 @@ a.doclink {
         background-color: #242526;
     }
 }
+
+.doclink.bootstrap {
+    .doclink-icon {
+        background-image: url('../images/bootstrap.png');
+    }
+    &::before {
+        background-color: #ff1a00;
+    }
+}

@@ -189,8 +189,12 @@ body.dark .doclink.zipfile::before {
 body.dark .doclink.codepen::before {
   background-color: #5b5e6b;
 }
-body.dark #contents code {
-  background-color: rgba(255, 255, 255, 0.2);
+body.dark #contents p code,
+body.dark #contents ul code {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+body.dark table tr:nth-child(even) td {
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 .grostitre {
@@ -643,6 +647,13 @@ a.doclink .doclink-icon {
 }
 .doclink.zipfile::before {
   background-color: #242526;
+}
+
+.doclink.bootstrap .doclink-icon {
+  background-image: url("../images/bootstrap.png");
+}
+.doclink.bootstrap::before {
+  background-color: #ff1a00;
 }
 
 a.exercice {
@@ -1264,8 +1275,9 @@ footer #copyright {
 #contents em {
   color: #b98304;
 }
-#contents code {
-  background-color: rgba(0, 0, 0, 0.2);
+#contents p code,
+#contents ul code {
+  background-color: rgba(0, 0, 0, 0.05);
   padding: 0.25em 0.4em 0.4em 0.4em;
 }
 
@@ -1303,6 +1315,12 @@ footer #copyright {
   width: 48px;
   background-size: 48px 48px;
   border-radius: 50%;
+  background-repeat: no-repeat;
+  /*
+  background-color: white;
+  background-size: 38px 38px;
+  background-position: 50% 50%;
+  */
 }
 #listing .list-grid__item__description {
   display: inline-block;
@@ -1341,6 +1359,23 @@ footer #copyright {
     z-index: 99999;
   }
 }
+table {
+  width: 100%;
+  font-size: 80%;
+  font-weight: 300;
+  margin: 10px 0 50px 0;
+}
+table td, table th {
+  padding: 5px;
+  text-align: left;
+}
+table th {
+  background-color: #ff003a;
+}
+table tr:nth-child(even) td {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
 @media only screen and (max-width: 1070px) {
   #contents_table {
     display: none;

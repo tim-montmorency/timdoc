@@ -154,9 +154,18 @@ body.dark {
     }
 
     #contents {
-        code {
-            background-color: rgba(255,255,255,0.2);
+        p code,
+        ul code {
+            background-color: rgba(255,255,255,0.05);
         }
+    }
+
+
+    table{
+        tr:nth-child(even) td{
+            background-color: rgba(255,255,255,0.05)
+        }
+        
     }
 
 }
