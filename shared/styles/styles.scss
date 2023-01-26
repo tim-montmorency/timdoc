@@ -64,7 +64,13 @@ a {
         background-size: 100% 100%;
         transition-duration: 200ms;
     }
+
+    &.no-underline{
+        background-image: none;
+    }
 }
+
+
 
 
 header {
@@ -263,6 +269,11 @@ footer {
 
     em {
         color: #b98304;
+    }
+
+    code {
+        background-color: rgba(0,0,0,0.1);
+        padding: 0.25em 0.4em 0.4em 0.4em;
     }
 
 }
