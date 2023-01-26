@@ -190,7 +190,7 @@ body.dark .doclink.codepen::before {
   background-color: #5b5e6b;
 }
 body.dark #contents code {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .grostitre {
@@ -1232,7 +1232,7 @@ footer #copyright {
   color: #b98304;
 }
 #contents code {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.2);
   padding: 0.25em 0.4em 0.4em 0.4em;
 }
 
