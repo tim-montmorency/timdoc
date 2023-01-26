@@ -273,10 +273,14 @@ body.dark #contents code {
   background-color: #d8d7f1;
   border-left: 4px solid #3c38ba;
   padding: 25px;
-  margin-top: 50px;
   margin-bottom: 25px;
   margin-left: -25px;
   margin-right: -25px;
+}
+@media (min-width: 576px) {
+  .info {
+    margin-top: 50px;
+  }
 }
 .info__bubble {
   position: absolute;
@@ -304,10 +308,14 @@ body.dark #contents code {
   background-color: #fcfcdd;
   border-left: 4px solid #f1f255;
   padding: 25px;
-  margin-top: 50px;
   margin-bottom: 25px;
   margin-left: -25px;
   margin-right: -25px;
+}
+@media (min-width: 576px) {
+  .warning {
+    margin-top: 50px;
+  }
 }
 .warning__bubble {
   position: absolute;
@@ -335,10 +343,14 @@ body.dark #contents code {
   background-color: #fcdddd;
   border-left: 4px solid #f25555;
   padding: 25px;
-  margin-top: 50px;
   margin-bottom: 25px;
   margin-left: -25px;
   margin-right: -25px;
+}
+@media (min-width: 576px) {
+  .alert {
+    margin-top: 50px;
+  }
 }
 .alert__bubble {
   position: absolute;
@@ -369,21 +381,37 @@ body.dark #contents code {
   background-color: #eeeeee;
   border: 1px solid #919191;
   display: flex;
+  position: relative;
 }
 .audioplayer__button {
   cursor: pointer;
-  width: 100px;
-  height: 98px;
   background-image: url("../images/audioplayer-btn.png");
   background-position: 0px 0px;
   background-repeat: no-repeat;
   opacity: 60%;
+  background-size: cover;
+  width: 50px;
+  height: 49px;
+  position: absolute;
+  z-index: 3;
+}
+@media (min-width: 576px) {
+  .audioplayer__button {
+    width: 100px;
+    height: 98px;
+    position: static;
+  }
 }
 .audioplayer__button:hover {
   opacity: 100%;
 }
 .audioplayer__button.pause {
-  background-position: -100px 0px;
+  background-position: -50px 0px;
+}
+@media (min-width: 576px) {
+  .audioplayer__button.pause {
+    background-position: -100px 0px;
+  }
 }
 .audioplayer__waveform {
   position: relative;
@@ -410,6 +438,11 @@ body.dark #contents code {
 }
 .audioplayer__progress:hover {
   background-color: #920123;
+}
+
+.audioplayer-container {
+  margin-left: -25px;
+  margin-right: -25px;
 }
 
 .mediafile {

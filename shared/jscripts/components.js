@@ -696,12 +696,14 @@ app.component('clip', {
         }
     },
     template: `
+    <div class="audioplayer-container">
         <div class="audioplayer">
             <div :class="'audioplayer__button' + (this.playing ? ' pause' : '')" @click="click()"></div>
             <div class="audioplayer__waveform" :style="'background-image: url(\\'' + this.name + '.png\\')'" @click="seek($event)">
                 <div class="audioplayer__progress" :style="'width: ' + this.progress + '%;'"></div>
             </div>
-        </div>`
+        </div>
+    </div>`
 });
 
 

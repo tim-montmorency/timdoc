@@ -3,10 +3,13 @@
     background-color: #fcfcdd;
     border-left: 4px solid #f1f255;
     padding: 25px;
-    margin-top: 50px;
     margin-bottom: 25px;
     margin-left: -25px;
     margin-right: -25px;
+
+    @media (min-width: 576px)  {
+        margin-top: 50px;
+    }
 
     &__bubble {
         position: absolute;
