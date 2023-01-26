@@ -26,7 +26,8 @@
         @media (min-width: 576px)  {
             width: 100px;
             height: 98px;
-            position: static
+            position: static;
+            flex-shrink: 0;
         }
 
         &:hover {

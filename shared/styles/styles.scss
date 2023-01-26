@@ -275,6 +275,7 @@ footer {
     ul code {
         background-color: rgba(0,0,0,0.05);
         padding: 0.25em 0.4em 0.4em 0.4em;
+        font-size: 90%;
     }
 
 }
@@ -313,6 +314,7 @@ footer {
                 background-size: 48px 48px;
                 border-radius: 50%;
                 background-repeat: no-repeat;
+                flex-shrink: 0;
                 
                 /*
                 background-color: white;

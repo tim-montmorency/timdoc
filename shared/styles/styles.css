@@ -191,10 +191,10 @@ body.dark .doclink.codepen::before {
 }
 body.dark #contents p code,
 body.dark #contents ul code {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: #1c1d21;
 }
 body.dark table tr:nth-child(even) td {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: #1c1d21;
 }
 
 .grostitre {
@@ -235,6 +235,7 @@ body.dark table tr:nth-child(even) td {
   border-radius: 50%;
   display: inline;
   background-color: #ffc5c5;
+  flex-shrink: 0;
 }
 @media (min-width: 576px) {
   .grostitre__chain {
@@ -404,6 +405,7 @@ body.dark table tr:nth-child(even) td {
     width: 100px;
     height: 98px;
     position: static;
+    flex-shrink: 0;
   }
 }
 .audioplayer__button:hover {
@@ -679,6 +681,7 @@ a.exercice div.exercice-container div.exercice-thumb {
   height: auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 a.exercice div.exercice-container div.exercice-abstract {
   flex-grow: 2;
@@ -750,6 +753,7 @@ a.tool div.tool-container div.tool-thumb {
   height: auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 a.tool div.tool-container div.tool-abstract {
   flex-grow: 2;
@@ -1279,6 +1283,7 @@ footer #copyright {
 #contents ul code {
   background-color: rgba(0, 0, 0, 0.05);
   padding: 0.25em 0.4em 0.4em 0.4em;
+  font-size: 90%;
 }
 
 #listing {
@@ -1316,6 +1321,7 @@ footer #copyright {
   background-size: 48px 48px;
   border-radius: 50%;
   background-repeat: no-repeat;
+  flex-shrink: 0;
   /*
   background-color: white;
   background-size: 38px 38px;

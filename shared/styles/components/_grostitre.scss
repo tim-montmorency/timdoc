@@ -38,6 +38,8 @@
         display:inline;
         background-color: #ffc5c5;
 
+        flex-shrink: 0;
+
         @media (min-width: 576px)  {
             height: 36px;
             width: 36px;

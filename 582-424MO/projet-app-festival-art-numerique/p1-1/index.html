@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/commons.js"></script>
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>P1.1 - Design et styles</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                  
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../../">Optimisation Web 582-424MO</a> > <a href="../">Projet: Air Flight</a> ></div>
+                <div id="title">P1.1 - Design et styles</div>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+  <p>Pour ce projet, nous allons créer une interface web d'une appli mobile et une page de destination <em>(landing page)</em> qui servira de promotion de l'appli.</p>
+
+ <p>Ce sera l'appli d'un événement d'art numérique. Vous pourrez soi imaginer l'appli d'un des événements de la liste suivante, soi en trouver un autre événement qui existe ne faisant pas partie de cette liste, tant que ce soit autour de l'art numérique.</p>
+
+ <p>Pour les contenus, vous allez devoir choisir des oeuvres et des artistes réels. Vous pouvez aller sélectionner des oeuvres et des artistes parmi celles et ceux qui sont présentés dans les différents festivals listés ci-dessous, peu importe l'édition. Il faudra choisir au moins 6 oeuvres d'artistes différents.</p>
+
+ <div id="listing">
+     <ul class="list-grid">
+        <li><a href="https://file.org.br/" target="_blank">File festival</a></li>
+         <li><a href="https://mutek.org/fr" target="_blank">Mutek</a></li>
+         <li><a href="https://www.elektramontreal.ca/biennale2022?lang=fr" target="_blank">BIAN Elektra</a></li>
+         <li><a href="https://j-mediaarts.jp/en/festival/" target="_blank">Japan Media Arts Festival</a></li>
+         <li><a href="https://ars.electronica.art/festival/en/" target="_blank">Ars electronica</a></li>
+         <li><a href="https://www.2022.adaf.gr/program/" target="_blank">Athens Digital Arts Festival</a></li>
+         <li><a href="https://ix.sat.qc.ca/" target="_blank">IX Symposium</a></li>
+         <li><a href="https://www.cynetart.org/2022/" target="_blank">Cynetart</a></li>
+         <li><a href="https://www.isea-international.org/" target="_blank">ISEA</a></li>
+         <li><a href="https://fivars.net/" target="_blank">Fivars</a></li>
+         <li><a href="https://deaf.nl/news/" target="_blank">DEAF</a></li>
+         <li><a href="https://fulldome-festival.de/info" target="_blank">Fulldome</a></li>
+
+         <li><a href="https://www.artfutura.org/v3/en/artfutura-2022/" target="_blank">Art Futura </a></li>
+         <li><a href="https://www.emaf.de/en/" target="_blank">EMAF</a></li>
+         <li><a href="http://www.microwavefest.net/festival2022/index.html" target="_blank">Microwave New Media Arts Festival</a></li>
+         <li><a href="https://www.artechouse.com/" target="_blank">Artec</a></li>
+         <li><a href="https://en.wikipedia.org/wiki/List_of_new_media_art_festivals" target="_blank">AUTRES: Liste des festivals d'art numérique</a></li>
+
+     </ul> 
+ </div>
+
+
+ <grostitre>Création des équipes</grostitre>
+ <checklist>
+    Deux personnes par équipe.
+    Attribution des rôles: une personne en charge de la landing page et une personne en charge de l'interface de l'appli.
+    Ajouter vos noms dans le fichier <em>EXCEL</em> <small>(lien fourni dans le Wiki du cours)</small> 
+ </checklist>
+ <grostitre>Choix du sujet</grostitre>
+ <checklist>
+    Explorer la liste d'événements ci-haut et même aller à la page wikipedia <a href="https://en.wikipedia.org/wiki/List_of_new_media_art_festivals" target="_blank">AUTRES: Liste des festivals d'art numérique</a> pour en voir d'avantage
+    Choisir l'événement d'art numérique qui vous inspire le plus
+    Ajouter l'événement au fichier <em>EXCEL</em> <small>(lien fourni dans le Wiki du cours)</small> en incluant le lien vers le site réel du festival.
+    Explorez tous les sites des festivals ou autres pour sélecitonner 6 oeuvres d'artistes différents (art numérique). Choisissez des oeuvres qui vous inspirent.
+    Ajouter les oeuvres et les artistes au fichier <em>EXCEL</em> <small>(lien fourni dans le Wiki du cours)</small> en incluant le lien vers la page de l'oeuvre ou de l'artiste.
+ </checklist>
+ <br> <br> <br> <br> <br>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>
