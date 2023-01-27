@@ -77,5 +77,6 @@
 <dots></dots>
 
 <exercice href="exercices/system32"></exercice>
+<exercice href="exercices/prevert"></exercice>
 
 <dots></dots>
