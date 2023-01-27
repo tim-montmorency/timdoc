@@ -156,6 +156,14 @@ app.component('grostitre', {
 
 
 /******************************************************
+ *                  Composante Incode                 *
+ ******************************************************/
+ app.component('incode', {
+    template: `<span class="inline-code"><slot/></span>`
+});
+
+
+/******************************************************
  *                Composante Mediafile                *
  ******************************************************/
  app.component('mediafile', {
@@ -168,6 +176,7 @@ app.component('grostitre', {
             case 'svg': var icon = 'type-svg.png'; break;
             case 'jpg': var icon = 'type-jpg.png'; break;
             case 'png': var icon = 'type-png.png'; break;
+            case 'webp': var icon = 'type-png.png'; break;
             case 'zip': var icon = 'type-zip.png'; break;
             default:    var icon = 'type-file.png';
         }
