@@ -97,6 +97,11 @@ body.dark {
     div.checklist {
         ol li:hover { background-color: #1c1d21; }
         div.progressbar { background-color: #1c1d21; }
+
+        code {
+            background-color: #1c1d21;
+        }
+        
     }
 
     .audioplayer {

@@ -133,6 +133,9 @@ body.dark div.checklist ol li:hover {
 body.dark div.checklist div.progressbar {
   background-color: #1c1d21;
 }
+body.dark div.checklist code {
+  background-color: #1c1d21;
+}
 body.dark .audioplayer {
   background-color: #1c1d21;
   border: 1px solid #1c1d21;
@@ -851,18 +854,14 @@ div.checklist ol li {
   font-size: 18px;
   line-height: 28px;
   transition-duration: 200ms;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 div.checklist ol li:hover {
   background-color: #fde8ed;
 }
 div.checklist ol li.checked {
   text-decoration: line-through;
-  -webkit-text-decoration-color: #ff003a;
-          text-decoration-color: #ff003a;
+  text-decoration-color: #ff003a;
   text-decoration-thickness: 3px;
   transition-duration: 200ms;
 }
@@ -883,6 +882,11 @@ div.checklist div.progressbar {
   background-repeat: no-repeat;
   background-size: 0% 4px;
   transition-duration: 250ms;
+}
+div.checklist code {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 0.25em 0.4em 0.4em 0.4em;
+  font-size: 90%;
 }
 
 .knowmore {
@@ -919,10 +923,7 @@ div.checklist div.progressbar {
   margin-bottom: 25px;
   text-align: center;
   cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 .color.spacer {
   margin-left: 25px;
@@ -940,10 +941,7 @@ div.checklist div.progressbar {
   height: 600px;
 }
 .swiper.swiper-main .swiper-slide {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   background-size: 0px 0px;
   background-repeat: no-repeat;
   background-color: black;
@@ -964,8 +962,7 @@ div.checklist div.progressbar {
 .swiper.swiper-main .swiper-slide img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 .swiper.swiper-main .swiper-button-next, .swiper.swiper-main .swiper-button-prev {
   filter: drop-shadow(0px 0px 1px black);
@@ -974,10 +971,7 @@ div.checklist div.progressbar {
   color: white;
   font-family: Consolas, Inconsolata;
   filter: drop-shadow(0px 0px 2px black);
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 .swiper.swiper-main .swiper-fullscreen {
   position: absolute;
@@ -1007,10 +1001,7 @@ div.checklist div.progressbar {
 }
 .swiper.swiper-thumbs .swiper-slide {
   display: flex;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   width: 100px;
   height: 100%;
   opacity: 0.4;
@@ -1019,8 +1010,7 @@ div.checklist div.progressbar {
 .swiper.swiper-thumbs .swiper-slide img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .swiper.swiper-thumbs .swiper-slide-thumb-active {
   opacity: 1;
@@ -1243,7 +1233,6 @@ footer #copyright {
 }
 
 #contents_table {
-  position: -webkit-sticky;
   position: sticky;
   align-self: flex-start;
   top: 70px;

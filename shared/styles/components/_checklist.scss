@@ -51,4 +51,10 @@ div.checklist {
         transition-duration: 250ms;
     }
 
+    code {
+        background-color: rgba(0,0,0,0.05);
+        padding: 0.25em 0.4em 0.4em 0.4em;
+        font-size: 90%;
+    }
+
 }
