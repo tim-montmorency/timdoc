@@ -1324,6 +1324,14 @@ footer #copyright {
   padding: 0.25em 0.4em 0.4em 0.4em;
   font-size: 90%;
 }
+#contents span.remark {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  margin-top: -25px;
+  margin-bottom: 25px;
+  color: rgb(177, 176, 176);
+}
 
 #listing {
   width: 100%;
