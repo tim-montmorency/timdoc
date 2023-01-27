@@ -1,0 +1,10 @@
+<?php 
+/**
+ * @type     tool
+ * @title    Gabarits XD
+ * @icon     images/grid_bootstrap_xd.png
+ * @url      https://www.danrodney.com/downloads/adobe-xd-bootstrap4-template.zip
+ * @abstract Afin de simplifier la transition des maquettes vers le web, plusieurs gabarits XD incluant la grille Bootstrap exisent. Notamment, celui-...
+ */
+?>
+<script>location.href = '<?php echo $PAGE->url; ?>';</script>

@@ -48,7 +48,7 @@
 
  <grostitre>Choix du sujet</grostitre>
  <checklist>
-    Explorer la liste d'événements ci-haut et même aller à la page wikipedia <a href="https://en.wikipedia.org/wiki/List_of_new_media_art_festivals" target="_blank">AUTRES: Liste des festivals d'art numérique</a> pour en voir d'avantage
+    Explorer la liste d'événements ci-haut et même aller à la page wikipedia <a href="https://en.wikipedia.org/wiki/List_of_new_media_art_festivals" target="_blank" onclick="event.stopPropagation()">AUTRES: Liste des festivals d'art numérique</a> pour en voir d'avantage
     Choisir l'événement d'art numérique qui vous inspire le plus
     Ajouter l'événement au fichier <em>EXCEL</em> <small>(lien fourni dans le Wiki du cours)</small> en incluant le lien vers le site réel du festival.
     Explorez tous les sites des festivals ou autres pour sélecitonner 6 oeuvres d'artistes différents (art numérique). Choisissez des oeuvres qui vous inspirent.
