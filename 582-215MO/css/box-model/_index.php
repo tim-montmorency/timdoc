@@ -61,3 +61,6 @@
 <dots></dots>
 
 <exercice href="exercices/marc-seguin"></exercice>
+<exercice href="exercices/broforce"></exercice>
+
+<dots></dots>
