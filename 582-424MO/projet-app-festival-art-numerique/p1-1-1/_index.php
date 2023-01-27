@@ -4,14 +4,14 @@
     * @type     article
     * @title    P1.1.1 - Équipes et sujet
     * @icon     images/icon.svg
-    * @abstract Création des équipes et choix du sujet (événement, oeuvres, artistes)
+    * @abstract Création des équipes et choix du sujet (événement, œuvres, artistes)
     */
    ?>
  <p>Pour ce projet, nous allons créer une interface web d'une appli mobile et une page de destination <em>(landing page)</em> qui servira de promotion de l'appli.</p>
 
- <p>Ce sera l'appli d'un événement d'art numérique. Vous pourrez soi imaginer l'appli d'un des événements de la liste suivante, soi en trouver un autre événement qui existe ne faisant pas partie de cette liste, tant que ce soit autour de l'art numérique.</p>
+ <p>Ce sera l'appli d'un événement d'art numérique. Vous pourrez soi imaginer l'appli d'un des événements de la liste suivante, soit en trouver un autre événement qui existe ne faisant pas partie de cette liste, tant que ce soit autour de l'art numérique.</p>
 
- <p>Pour les contenus, vous allez devoir choisir des oeuvres et des artistes réels. Vous pouvez aller sélectionner des oeuvres et des artistes parmi celles et ceux qui sont présentés dans les différents festivals listés ci-dessous, peu importe l'édition. Il faudra choisir au moins 6 oeuvres d'artistes différents.</p>
+ <p>Pour les contenus, vous allez devoir choisir des œuvres et des artistes réels. Vous pouvez aller sélectionner des œuvres et des artistes parmi celles et ceux qui sont présentés dans les différents festivals listés ci-dessous, peu importe l'édition. Il faudra choisir au moins 6 œuvres d'artistes différents.</p>
 
  <div id="listing">
     <ul class="list-grid">
@@ -48,11 +48,11 @@
 
  <grostitre>Choix du sujet</grostitre>
  <checklist>
-    Explorer la liste d'événements ci-haut et même aller à la page wikipedia <a href="https://en.wikipedia.org/wiki/List_of_new_media_art_festivals" target="_blank" onclick="event.stopPropagation()">AUTRES: Liste des festivals d'art numérique</a> pour en voir d'avantage
+    Explorer la liste d'événements ci-haut et même aller à la page wikipedia <a href="https://en.wikipedia.org/wiki/List_of_new_media_art_festivals" target="_blank" onclick="event.stopPropagation()">AUTRES: Liste des festivals d'art numérique</a> pour en voir davantage
     Choisir l'événement d'art numérique qui vous inspire le plus
     Ajouter l'événement au fichier <em>EXCEL</em> <small>(lien fourni dans le Wiki du cours)</small> en incluant le lien vers le site réel du festival.
-    Explorez tous les sites des festivals ou autres pour sélecitonner 6 oeuvres d'artistes différents (art numérique). Choisissez des oeuvres qui vous inspirent.
-    Ajouter les oeuvres et les artistes au fichier <em>EXCEL</em> <small>(lien fourni dans le Wiki du cours)</small> en incluant le lien vers la page de l'oeuvre ou de l'artiste.
+    Explorez tous les sites des festivals ou autres pour sélecitonner 6 œuvres d'artistes différents (art numérique). Choisissez des œuvres qui vous inspirent.
+    Ajouter les œuvres et les artistes au fichier <em>EXCEL</em> <small>(lien fourni dans le Wiki du cours)</small> en incluant le lien vers la page de l'oeuvre ou de l'artiste.
  </checklist>
  <dots></dots>
 
