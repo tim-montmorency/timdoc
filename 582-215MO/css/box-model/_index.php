@@ -57,3 +57,7 @@
 
 <doclink href="https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/The_box_model">box-model</doclink>
 <doclink href="https://www.w3schools.com/css/css_boxmodel.asp">box-model</doclink>
+
+<dots></dots>
+
+<exercice href="exercices/marc-seguin"></exercice>
