@@ -816,6 +816,10 @@ a.tool div.tool-container div.tool-abstract .tool-description {
   transform: translate(-50%, -50%);
 }
 
+.video-asset {
+  max-width: 770px;
+}
+
 pre.highlight {
   font-size: 16px;
   padding-bottom: 25px;
@@ -1292,13 +1296,13 @@ footer #copyright {
   width: auto;
   max-width: 100%;
 }
-#contents h2 {
+#contents h2, #contents h3 { /* les h2 devront devenir des h3 */
   margin-bottom: 25px;
   margin-top: 50px;
   font-size: 6vw;
 }
 @media (min-width: 576px) {
-  #contents h2 {
+  #contents h2, #contents h3 {
     font-size: 28px;
   }
 }
