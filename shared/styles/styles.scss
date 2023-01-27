@@ -143,10 +143,19 @@ header {
     }
 
     #title {
+        // background-color: red;;
         font-size: 10vw;
-       
         @media (min-width: 576px)  {
             font-size: 60px;
+        }
+
+        img {
+            position: relative;
+            border-radius: 50%;
+            width: 48px;
+            height: 48px;
+            top: 4px;
+            // vertical-align: middle;
         }
     }  
 
@@ -257,7 +266,7 @@ footer {
         max-width: 100%;
     }
 
-    h2 {
+    h2, h3 { /* les h2 devront devenir des h3 */
   
         margin-bottom: 25px;
         margin-top: 50px;
