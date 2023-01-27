@@ -571,7 +571,8 @@ app.component('clip', {
             if(typeof elm.type == "string"){
                 var props = '';
                 for(i in elm.props) props += ' ' + i + '="' + elm.props[i] + '"';
-                text += '<' + elm.type + props + '>' + elm.children + '</' + elm.type + '>';
+                if(elm.type == 'br' || elm.type == 'img') text += '<' + elm.type + props + '>';
+                else text += '<' + elm.type + props + '>' + elm.children + '</' + elm.type + '>';
             }else {
                 text += elm.children;
             }
