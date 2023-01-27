@@ -440,20 +440,20 @@ app.component('clip', {
         }
     },
     template: `
-    <div class="video-container">
-        <video
-            :id="this.id"
-            :width="this.width"
-            :height="this.height"
-            :poster="this.name + '.jpg'"
-            data-setup='{"fluid": true}'
-            class="video-js"
-            controls
-            preload="auto"
-        >
-            <source :src="this.src" type="video/mp4" />
-        </video>
-    </div>`
+        <div class="video-container">
+            <video
+                :id="this.id"
+                :width="this.width"
+                :height="this.height"
+                :poster="this.name + '.jpg'"
+                data-setup='{"fluid": true}'
+                class="video-js"
+                controls
+                preload="auto"
+            >
+                <source :src="this.src" type="video/mp4" />
+            </video>
+        </div>`
 });
 
 
