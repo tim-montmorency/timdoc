@@ -820,9 +820,15 @@ a.tool div.tool-container div.tool-abstract .tool-description {
   transform: translate(-50%, -50%);
 }
 
-.video-asset {
-  max-width: 770px;
+.video-asset-container {
   margin-left: -25px;
+  width: 770px;
+  text-align: center;
+}
+
+.video-asset {
+  position: relative;
+  max-width: 770px;
 }
 
 pre.highlight {

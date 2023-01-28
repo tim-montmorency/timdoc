@@ -58,7 +58,7 @@
 
 <h3>Relatives vs Absolues</h3>
 
-<video src="videos/relatives-vs-absolues.mp4" autoplay="true" muted="true" loop="true" class="video-asset"></video>
+<clipasset src="videos/relatives-vs-absolues.mp4"></clipasset>
 
 <dots></dots>
 

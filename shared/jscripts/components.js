@@ -466,6 +466,16 @@ app.component('clip', {
 });
 
 
+
+/******************************************************
+ *                Composante Clipasset                *
+ ******************************************************/
+ app.component('clipasset', {
+    props: ['src'],
+    template: `<div class="video-asset-container"><video :src="this.src" autoplay="true" muted="true" loop="true" class="video-asset"></video></div`
+});
+
+
 /******************************************************
  *                Composante Highlight                *
  ******************************************************/
