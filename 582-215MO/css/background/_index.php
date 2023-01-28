@@ -184,3 +184,9 @@
 <doclink href="https://www.w3schools.com/css/css_background.asp">background</doclink>
 
 <dots></dots>
+
+
+<tool href="tools/css3-patterns-gallery/"></tool>
+<exercice href="exercices/candy-crush/"></exercice>
+
+<dots></dots>
