@@ -88,7 +88,9 @@
 <tool href="tools/css-gradient/"></tool>
 <exercice href="exercices/igloofest/"></exercice>
 
+<knowmore href="https://www.joshwcomeau.com/css/make-beautiful-gradients/">Make Beautiful Gradients est un excellent billet de Josh W Comeau expliquant comme créer de superbes dégradés CSS.</knowmore>
 
+<dots></dots>
 
 
 
