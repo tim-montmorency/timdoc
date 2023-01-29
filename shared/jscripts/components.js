@@ -358,6 +358,7 @@ app.component('doclink', {
                 case 'codepen.io': site = 'codepen'; break;
                 case 'css-tricks.com': site = 'csstricks'; break;
                 case 'getbootstrap.com': site = 'bootstrap'; break;
+                case 'fonts.google.com': site = 'googlefonts'; break;
             }
         } catch(e) {
             if(this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
