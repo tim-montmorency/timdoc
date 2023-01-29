@@ -71,11 +71,11 @@
     "after": "_includes/footer.php"
 }</highlight>
 
-<h2>data</h2>
+<h3>data</h3>
 <p>La propriété <em>data</em> est un objet où vous pouvez y mettre tout ce que vous voulez. Ces données seront accessibles via la variable superglobale <em>$PAGE</em>.<br><br>Exemple:</p>
 <highlight lang="php">echo $PAGE->project;</highlight>
 
-<h2>includes</h2>
+<h3>includes</h3>
 <p>La propriété <em>includes</em> est un tableau contenant les chemins des fichiers que vous voulez inclure à l'initialisation. Ils contiennent généralement toutes les fonctions et les classes que vous utilisez. Si vous utilisez des classes, il est recommandé d'utiliser le loader dynamique <em>spl_autoload_register</em>.<br><br>Exemple:</p>
 
 <highlight lang="php">spl_autoload_register(function($class) {
@@ -86,7 +86,7 @@
 }, true, true);</highlight>
 
 
-<h2>before & after</h2>
+<h3>before & after</h3>
 
 <p>Les propriétés <em>before</em> et <em>after</em> servent à définir les fichiers d'entête et de pied de page afin que les templates PHP ne contiennent que ce qui sera exécuté dans le corps de la page.</p>
 
@@ -99,7 +99,7 @@
 </p>
 
 
-<h2>Entête d'un template PHP</h2>
+<h3>Entête d'un template PHP</h3>
 
 <p>Pour créer les propriétés, il suffit de créer un DOCBLOCK PHP en entête du template. Ces propriétés seront ajoutées à la variable superglobale <em>$PAGE</em>.<br><br>Exemple:</p>
 
@@ -125,7 +125,7 @@
     La variable superglobale <em>$PAGE</em> contient les informations contenues dans la propriété <em>data</em> du fichier de configuration <em>_pxpros.json</em> situé à la racine du projet ainsi que les propriétés définies par le DOCBLOCK en entête du template PHP en cours de rendu.
 </p>
 
-<h2>root & file</h2>
+<h3>root & file</h3>
 
 <p>Elle contient aussi les propriétés <em>root</em> et <em>file</em> afin de pouvoir se situer tant de manière absolue que relative face à la racine du projet.<br><br>Exemple:</p>
 
@@ -155,7 +155,7 @@ Render: /manuel/pxpros/_index.php
 Render: /manuel/test/_index.php</highlight>
 
 
-<h2>En temps réel avec VS Code</h2>
+<h3>En temps réel avec VS Code</h3>
 
 <p>Il est aussi possible de créer des rendus avec PXPros en temps réel comme du SASS/SCSS grâce à l'extension <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave">Run On Save</a>.<br><br>Configuration VS Code:</p>
 

@@ -35,7 +35,7 @@
 
 <p>Dans l'exemple précédent, <span class="inline-code">p</span> est le sélecteur indiquant que tous les paragraphes de la page devraient avoir une taille de police de 16px et utiliser la police Arial.</p>
 
-<h2>Groupe de sélecteurs</h2>
+<h3>Groupe de sélecteurs</h3>
 
 <p>Un groupe de sélecteurs est le nom donné lorsque plusieurs sélecteurs sont présents avant une accolade.</p>
 
@@ -50,7 +50,7 @@
 
 <info>Dans un groupe de sélecteurs, les sélecteurs sont lus de droite à gauche ⬅️.<br><br>Autrement dit, dans l’exemple précédent, le navigateur sélectionnerait en premier temps tous les paragraphes de la page. Ensuite, il ne garderait que ceux ayant un ancêtre possédant la classe <span class="inline-code">.article</span>.</info>
 <br>
-<h2>Ancêtre</h2>
+<h3>Ancêtre</h3>
 
 <p>Le ou les ancêtres sont les sélecteurs séparés par un espace se trouvant à gauche du dernier sélecteur.</p>
 
