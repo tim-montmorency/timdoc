@@ -1,0 +1,66 @@
+{
+"creatingLibrary": {
+"name": "MediaInfoLib",
+"version": "22.09",
+"url": "https://mediaarea.net/MediaInfo"
+},
+"media": {
+"@ref": "D:\\Programmation\\tim-montmorency\\timdoc\\582-215MO\\css\\exercices\\moby-i-like-to-score\\audios\\moby-new-dawn-fades.mp3",
+"track": [
+{
+"@type": "General",
+"AudioCount": "1",
+"FileExtension": "mp3",
+"Format": "MPEG Audio",
+"FileSize": "6688191",
+"Duration": "334.262",
+"OverallBitRate_Mode": "CBR",
+"OverallBitRate": "160000",
+"StreamSize": "2412",
+"Title": "New Dawn Fades",
+"Album": "I Like To Score",
+"Album_Performer": "Moby",
+"Part_Position": "1",
+"Part_Position_Total": "1",
+"Track": "New Dawn Fades",
+"Track_Position": "7",
+"Track_Position_Total": "12",
+"Performer": "Moby",
+"Genre": "Electronica",
+"Released_Date": "1997",
+"Recorded_Date": "1997",
+"File_Created_Date": "UTC 2023-01-29 00:55:41.182",
+"File_Created_Date_Local": "2023-01-28 19:55:41.182",
+"File_Modified_Date": "UTC 2023-01-29 00:59:08.500",
+"File_Modified_Date_Local": "2023-01-28 19:59:08.500",
+"Encoded_Library": "LAME3.99r",
+"Comment": "[A]nalog [A]nts [A]ttack",
+"extra": {
+"RELEASETYPE": "2"
+}
+},
+{
+"@type": "Audio",
+"Format": "MPEG Audio",
+"Format_Version": "1",
+"Format_Profile": "Layer 3",
+"Format_Settings_Mode": "Joint stereo",
+"Duration": "334.263",
+"BitRate_Mode": "CBR",
+"BitRate": "160000",
+"Channels": "2",
+"SamplesPerFrame": "1152",
+"SamplingRate": "44100",
+"SamplingCount": "14740992",
+"FrameRate": "38.281",
+"FrameCount": "12796",
+"Compression_Mode": "Lossy",
+"StreamSize": "6685257",
+"StreamSize_Proportion": "0.99956",
+"Encoded_Library": "LAME3.99r",
+"Encoded_Library_Settings": "-m j -V 4 -q 3 -lowpass 17.5 -b 160"
+}
+]
+}
+}
+

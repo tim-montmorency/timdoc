@@ -382,45 +382,27 @@ body.dark table tr:nth-child(even) td {
 }
 
 .audioplayer {
-  width: 100%;
-  max-width: 770px;
+  width: 770;
   height: 100px;
   margin-bottom: 25px;
   background-color: #eeeeee;
   border: 1px solid #919191;
   display: flex;
-  position: relative;
 }
 .audioplayer__button {
   cursor: pointer;
+  width: 100px;
+  height: 98px;
   background-image: url("../images/audioplayer-btn.png");
   background-position: 0px 0px;
   background-repeat: no-repeat;
   opacity: 60%;
-  background-size: cover;
-  width: 50px;
-  height: 49px;
-  position: absolute;
-  z-index: 3;
-}
-@media (min-width: 576px) {
-  .audioplayer__button {
-    width: 100px;
-    height: 98px;
-    position: static;
-    flex-shrink: 0;
-  }
 }
 .audioplayer__button:hover {
   opacity: 100%;
 }
 .audioplayer__button.pause {
-  background-position: -50px 0px;
-}
-@media (min-width: 576px) {
-  .audioplayer__button.pause {
-    background-position: -100px 0px;
-  }
+  background-position: -100px 0px;
 }
 .audioplayer__waveform {
   position: relative;
@@ -447,11 +429,6 @@ body.dark table tr:nth-child(even) td {
 }
 .audioplayer__progress:hover {
   background-color: #920123;
-}
-
-.audioplayer-container {
-  margin-left: -25px;
-  margin-right: -25px;
 }
 
 .mediafile {
