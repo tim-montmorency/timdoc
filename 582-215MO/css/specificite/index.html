@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/commons.js"></script>
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Spécificité</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                  
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../../">Intégration Web</a> > <a href="../">CSS</a> ></div>
+                <div id="title"><img src="images/icon.png">&nbsp;Spécificité</div>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Chaque sélecteur en CSS se voit attribuer un pointage. Lorsque deux sélecteurs ciblent les mêmes propriétés d’un même élément, le sélecteur avec le plus haut pointage l’emporte. Le style de sa propriété est donc attribué à l’élément ciblé au détriment de celui du sélecteur plus faible.</p>
+
+<p>En règle générale, il est conseillé de garder le pointage de ses sélecteurs le plus faible possible. Ainsi, si l’apparence d’un élément doit changer dans un contexte spécifique, il sera facilement possible d’écraser ses styles de bases avec un sélecteur doté d’un plus grand pointage.</p>
+
+<dots></dots>
+
+
+<grostitre>Pointage par sélecteurs</grostitre>
+
+<h3>Universel *</h3>
+
+<p>Le sélecteur universel <incode>*</incode> est le plus faible des sélecteurs avec une valeur de <strong><em>0 point</em></strong>. Il peut donc être écrasé par tout autre sélecteur.</p>
+
+<highlight lang="css">* { ... }</highlight>
+
+<h3>Balise</h3>
+
+<p>Un sélecteur avec une balise à une valeur de <strong><em>1 point</em></strong>.</p>
+
+<highlight lang="css">div { ... }</highlight>
+
+<h3>Classe, pseudo-classe et attribut</h3>
+
+<p>Ont tous une valeur de <strong><em>10 points de spécificité</em></strong>.</p>
+
+<highlight lang="css">.element { ... }
+.element:hover { ... }
+.element[title="demo"] { ... }</highlight>
+
+<info>Normalement, une pseudo-classe est combinée à un autre sélecteur et n’est pas utilisé seul.</info>
+
+<h3>ID</h3>
+
+<p>Un sélecteur avec un ID à une valeur de <strong><em>100 points</em></strong>.</p>
+
+<highlight lang="css">#no1 { ... }</highlight>
+
+<h3>Style en ligne</h3>
+
+<p>Les styles en ligne ont une valeur de <strong><em>1 000 points</em></strong>, ils sont donc extrêmement difficiles à écraser en cas de besoin, d’où pourquoi leur usage est à éviter autant que possible.</p>
+
+<highlight lang="html">&lt;div style="color: blue;"&gt;...&lt;/div&gt;</highlight>
+
+<h3>!important</h3>
+
+<p>En dernier recours, il est possible d’ajouter la mention <incode>!important</incode> à la fin d’une déclaration CSS afin de lui attribuer <strong><em>10 000 points</em></strong> de spécificité et ainsi s’assurer d’écraser tout autre style. </p>
+
+<highlight lang="css">.element {
+  color: blue !important; /* 10 000 points */
+  background: red; /* 10 points */
+}</highlight>
+
+<p>Puisque <incode>!important</incode> est ajouté à une propriété directement, sa présence n’impacte que la valeur de cette propriété et non celle de l'ensemble de la règle CSS.</p>
+
+<warning>La présence d’un <incode>!important</incode> dans un code est généralement mal perçu et synonyme de problème de structure de code.</warning>
+
+<dots></dots>
+
+
+<grostitre>Combinaison de sélecteurs</grostitre>
+
+<p>La valeur de chaque sélecteur s'additionne dans un groupe de sélecteurs.</p>
+
+<p>Par exemple l’élément HTML suivant:</p>
+
+<highlight lang="html">&lt;div class=”element no1”&gt;</highlight>
+
+<h3>Balise seule</h3>
+
+<p>Ciblé avec uniquement sa balise</p>
+
+<highlight lang="css">div { … }</highlight>
+
+<p>La balise ne vaut que <strong><em>1 point</em></strong>.</p>
+
+<highlight lang="css">.item { … }</highlight>
+
+<p>La classe seule ne vaut que <strong><em>10 points</em></strong>.</p>
+
+<h3>Balise & Classe</h3>
+
+<p>Combiné la balise et une classe</p>
+
+<highlight lang="css">div.item { … }</highlight>
+
+<p>donne au groupe de sélecteur une valeur de <strong><em>11 points</em></strong>.</p>
+
+<h3>Classe & Classe</h3>
+
+<p>Combiner les 2 classes</p>
+
+<highlight lang="css">.item.no1 { … }</highlight>
+
+<p>donne une valeur de <strong><em>20 points</em></strong>.</p>
+
+<h3>Balise & Classe & Classe</h3>
+
+<p>Et finalement combiner la balise aux deux classes</p>
+
+<highlight lang="css">div.item.no1 { … }</highlight>
+
+<p>donne <strong><em>21 points</em></strong>.</p>
+
+<dots></dots>
+
+
+<grostitre>Égalité de pointage</grostitre>
+
+<p>Lorsque deux sélecteurs ont un pointage identique.</p>
+
+<p>Par exemple pour l’élément HTML suivant:</p>
+
+<highlight lang="html">&lt;div class=”element no1”&gt;</highlight>
+
+<p>Les sélecteurs ci-dessous auront tous deux une valeur de spécificité équivalente à <strong><em>10 points</em></strong>.</p>
+
+<highlight lang="css">.element { … }
+.no1 { … }</highlight>
+
+<p>Cependant, les styles du sélecteur <incode>.no1</incode> auront priorité sur ceux de <incode>.element</incode> puisque <incode>.no1</incode> est écrit en dernier et est donc considéré comme étant la définition la plus récente, donc celle prioritaire en cas d’égalité.</p>
+
+<p>Le simple fait d’inverser ces sélecteurs dans le code CSS donnerait priorité aux styles de <incode>.element</incode> au détriment de ceux de <incode>.no1</incode>.</p>
+
+<doclink href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity">Spécificité</doclink>
+<doclink href="https://www.w3schools.com/css/css_specificity.asp">Spécificité</doclink>
+
+<dots></dots>
+
+<exercice href="exercices/specificite-css/"></exercice>
+
+<dots></dots>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>
