@@ -814,6 +814,7 @@ a.tool div.tool-container div.tool-abstract .tool-description {
 .video-asset {
   position: relative;
   max-width: 770px;
+  margin-bottom: 25px;
 }
 
 pre.highlight {
