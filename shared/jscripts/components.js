@@ -156,6 +156,18 @@ app.component('grostitre', {
 
 
 /******************************************************
+ *                  Composante Bravo                  *
+ ******************************************************/
+ app.component('bravo', {
+    template: `
+        <div class="bravo">
+            <div class="bravo__bubble"></div>
+            <slot/>
+        </div>`
+});
+
+
+/******************************************************
  *                  Composante Incode                 *
  ******************************************************/
  app.component('incode', {

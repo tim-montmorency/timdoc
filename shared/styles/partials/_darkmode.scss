@@ -74,6 +74,18 @@ body.dark {
         }
     }
 
+    .bravo {
+        background-color: #2e3a2c;
+        border-left: 4px solid #74f255;
+        &__bubble {
+            &::before {
+                background-color: #2e3a2c;
+                border: 4px solid #74f255;
+                box-shadow: 0px 0px 0px 8px #1c1d21;
+            }
+        }
+    }
+
     a.tool {
         background-color: #1c1d21;
         background-image: linear-gradient(0deg, #508d5d, 20%, #1c1d21);
