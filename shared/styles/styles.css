@@ -22,6 +22,7 @@ body.dark em {
 }
 body.dark span.inline-code {
   background-color: #1c1d21;
+  color: white;
 }
 body.dark footer {
   background: linear-gradient(to top, #3a2d2d, 50%, #000000);
@@ -1200,6 +1201,8 @@ span.inline-code {
   padding-top: 4px;
   padding-bottom: 4px;
   font-size: 16px;
+  font-style: normal;
+  color: black;
 }
 
 a {
