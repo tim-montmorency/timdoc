@@ -124,4 +124,7 @@
 <dots></dots>
 
 <exercice href="exercices/minions/"></exercice>
+<exercice href="exercices/ou-est-charlie/"></exercice>
+
+<dots></dots>
 
