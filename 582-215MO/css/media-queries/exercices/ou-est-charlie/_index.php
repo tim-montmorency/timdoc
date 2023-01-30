@@ -18,17 +18,30 @@
 
 <grostitre>Matériel</grostitre>
 
+<doclink href="https://codepen.io/tim-momo/pen/qByMEWL?editors=1100">Pen de départ</doclink>
+
+<dots></dots>
 
 
+<grostitre>Requis</grostitre>
+
+<checklist>
+  Jusqu'à 599px, le Charlie #1 doit être visible.
+  De 600px à 900px le Charlie #2 doit être visible.
+  À partir de 901px et + le Charlie #3 doit être visible.
+  Le némésis de Charlie, Odlaw, doit être visible uniquement lorsque la fenêtre est plus haute que large.
+</checklist>
+
+<info>N’hésitez pas à modifier le CSS déjà présent au besoin.</info>
+
+<dots></dots>
 
 
+<grostitre>Notes de cours 📚</grostitre>
 
+<doclink href="../../../media-queries/">Media queries</doclink>
 
-
-
-
-
-
+<dots></dots>
 
 
 
