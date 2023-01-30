@@ -60,5 +60,6 @@
 <grostitre>Notes de cours</grostitre>
 
 <doclink href="../../position/">Position</doclink>
+<doclink href="../../display/">Display</doclink>
 
 <dots></dots>
