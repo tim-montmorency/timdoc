@@ -1,0 +1,54 @@
+div.quote {
+    position: relative;
+    width: 100%;
+    padding: 25px 25px 40px 25px;
+    margin-top: 50px;
+    
+    
+    &::before {
+        content: '❝';
+        position: absolute;
+        font-size: 64px;
+        top: -30px;
+        color: #b98304;
+    }
+
+    blockquote {
+        font-size: 22px;
+        font-style: italic;
+        color: #b98304;
+    }
+
+    &__author {
+        margin-top: 36px;
+        text-align: right;
+        
+    }
+
+    &__who {
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: 10px;
+    }
+
+    &__photo {
+        display: inline-block;
+        height: 50px;
+        vertical-align: middle;
+        
+        img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    &__name {
+        font-weight: bold;
+    }
+
+    &__title {
+        font-size: 14px;
+    }
+
+}

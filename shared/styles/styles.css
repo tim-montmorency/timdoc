@@ -1079,6 +1079,50 @@ body:has(.swiper-modal--show) {
   overflow: hidden;
 }
 
+div.quote {
+  position: relative;
+  width: 100%;
+  padding: 25px 25px 40px 25px;
+  margin-top: 50px;
+}
+div.quote::before {
+  content: "❝";
+  position: absolute;
+  font-size: 64px;
+  top: -30px;
+  color: #b98304;
+}
+div.quote blockquote {
+  font-size: 22px;
+  font-style: italic;
+  color: #b98304;
+}
+div.quote__author {
+  margin-top: 36px;
+  text-align: right;
+}
+div.quote__who {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+div.quote__photo {
+  display: inline-block;
+  height: 50px;
+  vertical-align: middle;
+}
+div.quote__photo img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+div.quote__name {
+  font-weight: bold;
+}
+div.quote__title {
+  font-size: 14px;
+}
+
 * {
   margin: 0;
   padding: 0;

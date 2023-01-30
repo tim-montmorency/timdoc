@@ -21,6 +21,11 @@
 
 <p>Si à l'opposé ces classes étaient nommées: <incode>.grille</incode>, <incode>.carte</incode> et <incode>.titre</incode> leurs rôles et relation, serait soudainement plus évident. D'où l'importance de donner des noms représentatifs.</p>
 
+<quote author="Phil Karlton" title="Développeur chez Netscape et solide moustachu" photo="images/phil-karlton.jpg">
+  There are only two hard things in Computer Science: cache invalidation and naming things
+</quote>
+
+
 <dots></dots>
 
 
