@@ -1394,6 +1394,9 @@ footer #copyright {
     font-size: 28px;
   }
 }
+#contents .grostitre + h3 {
+  margin-top: 20px;
+}
 #contents em {
   color: #b98304;
 }
