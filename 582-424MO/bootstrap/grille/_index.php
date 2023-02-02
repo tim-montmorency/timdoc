@@ -167,7 +167,7 @@
 
 <highlight lang="html">&lt;div class=&quot;container&quot;&gt;
     &lt;div class=&quot;row&quot;&gt;...&lt;/div&gt;
-    &lt;/div&gt;</highlight>
+&lt;/div&gt;</highlight>
 
 
 
