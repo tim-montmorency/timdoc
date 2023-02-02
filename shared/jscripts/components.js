@@ -156,6 +156,18 @@ app.component('grostitre', {
 
 
 /******************************************************
+ *                  Composante Bravo                  *
+ ******************************************************/
+ app.component('bravo', {
+    template: `
+        <div class="bravo">
+            <div class="bravo__bubble"></div>
+            <slot/>
+        </div>`
+});
+
+
+/******************************************************
  *                  Composante Incode                 *
  ******************************************************/
  app.component('incode', {
@@ -358,6 +370,9 @@ app.component('doclink', {
                 case 'codepen.io': site = 'codepen'; break;
                 case 'css-tricks.com': site = 'csstricks'; break;
                 case 'getbootstrap.com': site = 'bootstrap'; break;
+                case 'fonts.google.com': site = 'googlefonts'; break;
+                case 'fr.wikipedia.org': site = 'wikipedia'; break;
+                
             }
         } catch(e) {
             if(this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
@@ -463,6 +478,16 @@ app.component('clip', {
                 <source :src="this.src" type="video/mp4" />
             </video>
         </div>`
+});
+
+
+
+/******************************************************
+ *                Composante Clipasset                *
+ ******************************************************/
+ app.component('clipasset', {
+    props: ['src'],
+    template: `<div class="video-asset-container"><video :src="this.src" autoplay="true" muted="true" loop="true" class="video-asset"></video></div`
 });
 
 
@@ -717,6 +742,29 @@ app.component('clip', {
     </div>`
 });
 
+
+/******************************************************
+ *                  Composante Quote                  *
+ ******************************************************/
+ app.component('quote', {
+    props: ['author', 'title', 'photo'],
+    data() {
+        return {}
+    },
+    template: `
+        <div class="quote">
+            <blockquote><slot/></blockquote>
+            <div class="quote__author">
+                <div class="quote__who">
+                    <div class="quote__name">— {{ author }}</div>
+                    <div class="quote__title">{{ title }}</div>
+                </div>
+                <div class="quote__photo">
+                    <img :src="this.photo">
+                </div>
+            </div>
+        </div>`
+});
 
 
 /******************************************************

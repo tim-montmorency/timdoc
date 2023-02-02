@@ -8,6 +8,7 @@
 @use 'components/info';
 @use 'components/warning';
 @use 'components/alert';
+@use 'components/bravo';
 @use 'components/audioplayer';
 @use 'components/mediafile';
 @use 'components/codepen';
@@ -20,6 +21,7 @@
 @use 'components/knowmore';
 @use 'components/color';
 @use 'components/swiper';
+@use 'components/quote';
 
 
 * {
@@ -49,6 +51,10 @@ span.inline-code {
     padding-top: 4px;
     padding-bottom: 4px;
     font-size: 16px;
+    font-style: normal;
+    color: black;
+
+
 }
 
 
@@ -288,6 +294,15 @@ footer {
         font-size: 90%;
     }
 
+    span.remark {
+        display: block;
+        text-align: center;
+        font-size: 14px;
+        margin-top: -25px;
+        margin-bottom: 25px;
+        color: rgb(177, 176, 176);
+    }
+
 }
 
 
@@ -347,7 +362,7 @@ footer {
 
             &__title {
                 display: block;
-                font-size: 24px;
+                font-size: 20px;
             }
 
             &__abstract {

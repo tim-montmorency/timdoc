@@ -122,3 +122,21 @@ a.doclink {
         background-color: #ff1a00;
     }
 }
+
+.doclink.googlefonts {
+    .doclink-icon {
+        background-image: url('../images/googlefonts-icon.png');
+    }
+    &::before {
+        background-color: #1a73e8;
+    }
+}
+
+.doclink.wikipedia {
+    .doclink-icon {
+        background-image: url('../images/wikipedia-icon.png');
+    }
+    &::before {
+        background-color: #6a7077;
+    }
+}

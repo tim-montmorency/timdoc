@@ -3,7 +3,7 @@
  * @type     article
  * @title    Box-model
  * @icon     images/icon.png
- * @abstract En CSS, chaque élément constituant une page est une boîte rectangulaire.
+ * @abstract Chaque élément d'une page est une boîte rectangulaire
  */
 ?>
 

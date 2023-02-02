@@ -9,7 +9,7 @@
 
 <p class="spacer">Lorsque deux éléments sont affichés un à côté de l’autre dans le flux de la page, autrement dit lorsque deux éléments <span class="inline-code">inline</span> ou <span class="inline-code">inline-block</span> se suivent, il est possible d’utiliser la propriété CSS <span class="inline-code">vertical-align</span> afin de spécifier comment ces éléments doivent s’afficher l’un par rapport à l’autre.</p>
 
-<h2>Valeurs disponibles:</h2>
+<h3>Valeurs disponibles:</h3>
 
 <ul>
 	<li><span class="inline-code">baseline</span> aligne avec la ligne de base</li>
