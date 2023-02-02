@@ -131,3 +131,12 @@ a.doclink {
         background-color: #1a73e8;
     }
 }
+
+.doclink.wikipedia {
+    .doclink-icon {
+        background-image: url('../images/wikipedia-icon.png');
+    }
+    &::before {
+        background-color: #6a7077;
+    }
+}
