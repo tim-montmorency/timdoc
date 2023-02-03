@@ -68,13 +68,47 @@
 
 <grostitre>filter</grostitre>
 
+<p>La propriété <incode>filter</incode> permet d’ajouter des effets visuels à un élément. Ce filtre impactera non seulement l'élément, mais aussi tout son contenu.</p>
+
+<p>Pour définir un nouveau filtre, il suffit de passer à un des filtres mentionnés ci-dessus ☝️ avec une valeur entre parenthèses.</p>
+
+<codepen id="mdjaQpB" tab="result" height="540"></codepen>
+
+<span class="remark">Remarquez comment l’extrait de code devient flou lorsque l’option blur() est sélectionnée. Ceci est du au fait que l’extrait de code est à l’intérieur de l’élément auquel le filtre est appliqué.</span>
+
+<h3>Combinaison</h3>
+
+<p>Il est possible de combiner plusieurs filtres ensemble simplement en les séparant par un espace.</p>
+
+<p>Par exemple, pour obtenir un élément flou en noir et blanc, il est possible de faire:</p>
+
+<highlight lang="css">.element {
+  filter: blur(5px) grayscale(100%);
+}</highlight>
+
+<warning>Attention, si un filtre est mal défini, tous les autres filtres appliqués à un élément cesseront de fonctionner.</warning>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/filter">filter</doclink>
+<doclink href="https://www.w3schools.com/cssref/css3_pr_filter.asp">filter</doclink>
+
+<dots></dots>
 
 
+<grostitre>backdrop-filter</grostitre>
 
+<p>La propriété <incode>backdrop-filter</incode> permet elle aussi d'ajouter des effets visuels, mais uniquement entre un élément et son arrière-plan. Il est donc nécessaire que l'élément en question soit ne soit pas entièrement opaque afin de pouvoir voir une partie de l'élément arrière-plan.</p>
 
+<p>Par exemple, un carré blanc ⚪️ avec une opacité de 30% afin de voir une partie de l'image en arrière-plan, soit <incode>background-color: rgba(255, 255, 255, 0.3);</incode>.</p>
 
+<codepen id="ZEjVmog" tab="result" height="540"></codepen>
 
+<warning>Au moment d’écrire ces lignes, cette propriété n’est pas encore supportée dans le navigateur Firefox. Il est donc préférable pour l’instant de séparer ses éléments et d’utiliser la propriété <incode>filter</incode>.</warning>
 
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/backdrop-filter">backdrop-filter</doclink>
+
+<dots></dots>
+
+<exercice href="exercices/anonymat/"></exercice>
 
 
 
