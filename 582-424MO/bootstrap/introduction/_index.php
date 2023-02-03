@@ -48,7 +48,7 @@
     </li>
 </ul>
 
-<h2>HTML5 doctype</h2>
+<h3>HTML5 doctype</h3>
 <p>Bootstrap exige l'utilisation du doctype HTML5. Sans lui, vous verrez un style incomplet et funky, mais l'inclure ne devrait pas causer de problèmes considérables.</p>
 <highlight lang="html">&lt;!doctype html&gt;
 &lt;html lang="fr"&gt;
@@ -56,7 +56,7 @@
 &lt;/html&gt;
 </highlight>
 
-<h2>Balises &lt;meta&gt; pour des pages web réactives</h2>
+<h3>Balises &lt;meta&gt; pour des pages web réactives</h3>
 <p>Bootstrap est développé mobile first, une stratégie dans laquelle nous optimisons d'abord le code pour les appareils mobiles, puis nous mettons à l'échelle les composants si nécessaire en utilisant les media queries CSS. Pour garantir un rendu correct et un zoom tactile pour tous les appareils, ajoutez la métabalise responsive viewport à votre <head>.</p>
 <highlight lang="html">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;</highlight>
 
