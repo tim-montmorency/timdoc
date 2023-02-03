@@ -77,7 +77,9 @@
 <dots></dots>
 
 <exercice href="exercices/anonymat/"></exercice>
+<exercice href="exercices/instagram/"></exercice>
 
+<dots></dots>
 
 
 

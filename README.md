@@ -3,6 +3,8 @@
 ## Manuel
 [https://tim-montmorency.com/timdoc/manuel/](https://tim-montmorency.com/timdoc/manuel/)
 
-## Cours Démo
-[https://tim-montmorency.com/timdoc/582-215MO/css/](https://tim-montmorency.com/timdoc/582-215MO/css/)
+## 582-215MO Intégration web
+[https://tim-montmorency.com/timdoc/582-215MO/](https://tim-montmorency.com/timdoc/582-215MO/)
 
+## 582-424MO Optimisation web
+[https://tim-montmorency.com/timdoc/582-424MO/](https://tim-montmorency.com/timdoc/582-424MO/)
