@@ -80,11 +80,15 @@
   background-image: url('paysage.jpg');
 }</highlight>
 
+<codepen id="OJwrBGm" tab="result" height="540"></codepen>
 
+<span class="remark">Crédits photo 📷: <a target="_blank" href="https://unsplash.com/photos/twukN12EN7c">Simon Berger</a></span>
 
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/background-blend-mode">background-blend-mode</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_background-blend-mode.asp">background-blend-mode</doclink>
 
+<dots></dots>
 
+<exercice href="exercices/emotion/"></exercice>
 
-
-
-
+<dots></dots>
