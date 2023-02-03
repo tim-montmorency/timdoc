@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/commons.js"></script>
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Actions Photoshop</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                  
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../../">Intégration Web</a> > <a href="../">Autres</a> ></div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Actions Photoshop</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Il est parfois nécessaire d'effectuer un traitement identiques sur plusieurs images 🖼️. Par exemple, les redimensionner ou encore les optimiser afin de diminuer leur poids. Heureusement, il est possible de créer un script appelé <em>action</em> via Photoshop et de lui indiquer un groupe de fichiers sur lesquels s'appliquer.</p>
+
+<dots></dots>
+
+
+<grostitre>Création</grostitre>
+
+<p>Pour ce faire, dans Photoshop, il faut allez dans l'onglet <em>Fenêtre</em> et sélectionner l'option <em>Actions</em>. La fenêtre d'actions suivante devrait s'afficher.</p>
+
+<img src="images/actions-photoshop-window.jpg">
+
+<p>Il est possible de créer des actions en cliquant sur l'icône +, de les supprimer avec la poubelle 🗑️ ou de les organiser/grouper avec le dossier 📁.</p>
+
+<img src="images/actions-photoshop-create.jpg">
+
+<p>Lorsqu'une action est créée, il faut lui attribuer:</p>
+
+<ul>
+    <li>Un nom <em>(Action 1)</em></li>
+    <li>Un dossier <em>(Dossier par défaut)</em><br>Il est aussi possible, mais optionnel, de lui attribuer</li>
+    <li>Un raccourcis clavier</li>
+    <li>Une couleur</li>
+</ul>
+
+<dots></dots>
+
+
+<grostitre>Enregistrement</grostitre>
+
+<p>Il est possible de démarrer l'enregistrement en cliquant sur l'icône 🔴. Dès lors, toutes les manipulations effectuées sur le fichier de référence ouvert seront sauvegardés jusqu'à ce que l'enregistrement soit arrêté.</p>
+
+<p>À tout moment, il est possible d'arrêter l'enregistrement via le bouton ⏹️</p>
+
+<p>Si désiré, une action peut être déclenchée sur le fichier ouvert via le bouton ▶️</p>
+
+<dots></dots>
+
+
+<grostitre>Appliquer aux fichiers</grostitre>
+
+<p>Une fois l'action enregistrée, il faut l'appliquer aux fichiers désirés. Pour ce faire, il faut allez dans l'onglet <em>Fichier</em>, sélectionner l'option <em>Automatisation</em> et choisir <em>Traitement par lots…</em>. La fenêtre suivante devrait alors s'afficher.</p>
+
+<img src="images/actions-photoshop-batch.jpg">
+
+<p>Il faut maintenant indiquer dans quel dossier se trouve l'action <em>(Ensemble)</em>. Spécifier le nom de l'action désirée <em>(Action)</em>. Indiquer où se trouve les fichiers devant être traités <em>(Source)</em> et optionnellement, donner un dossier de destinations où la nouvelle versions des fichiers pourra être sauvegardée <em>(Destination)</em>.</p>
+
+<dots></dots>
+
+
+<grostitre>Démo vidéo</grostitre>
+
+<clip src="videos/actions-photoshop.mp4"></clip>
+
+<dots></dots>
+
+<exercice href="exercices/kirby/"></exercice>
+
+<dots></dots>
+
+
+
+
+
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>
