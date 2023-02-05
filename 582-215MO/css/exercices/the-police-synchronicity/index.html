@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../../shared/jscripts/commons.js"></script>
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>The Police - Synchronicity</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                  
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->            <div id="subhead">
+                <div id="title">The Police - Synchronicity</div>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p class="spacer">Pour cet exercice, vous devez écrire du HTML et du CSS afin de recréer l’une des 36 pochettes de l’album <a target="_blank" href="https://open.spotify.com/album/5W9OT0a5iZlBr83a9WMKFY?si=N7PTFjtrTiqbhO2wM3K3ew">Synchronicity du groupe The Police</a>. L’album devra être responsive en tirant profit des propriétés adéquates.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<clipasset src="videos/the-police-synchronicity-apercu.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>Matériel</grostitre>
+
+<h3>Fonts</h3>
+
+<doclink href="https://fonts.google.com/specimen/Permanent+Marker">Permanent Marker</doclink>
+
+<h3>Couleurs 🎨</h3>
+
+<color>#26C485</color>
+<color>#ce292f</color>
+<color>#2b5f8f</color>
+
+<h3>Médias</h3>
+
+<mediafile src="images/1.webp">Collage #1</mediafile>
+<mediafile src="images/2.webp">Collage #2</mediafile>
+<mediafile src="images/3.webp">Collage #3</mediafile>
+<mediafile src="images/red.webp">Rouge</mediafile>
+<mediafile src="images/yellow.webp">Jaune</mediafile>
+<mediafile src="images/blue.webp">Bleu</mediafile>
+
+<warning>Aucun dossier de départ ne vous est fourni. Vous devez écrire l’ensemble du code.</warning>
+
+<dots></dots>
+
+
+<grostitre>Requis</grostitre>
+
+<checklist>
+  La page doit avoir un fond vert 🟢, tandis que l'album doit avoir une largeur équivalente à la moitié de la page, être centré horizontalement ↔️ et avoir un fond blanc ⚪️.
+  Chaque bloc de texte doit être noir, utiliser la Goole font <em>Permanent Marker</em>, avoir une taille de police équivalente à 2% de la largeur totale de la fenêtre et une marge intérieure de tous les côtés correspondant à une demi-lettre.
+  Le nom du groupe <em>(The Police)</em> doit avoir une ombre bleue 🔵 de 2px vers le bas et la droite ↘️ alors que le titre de l'album <em>(Synchronicity)</em> doit avoir une ombre identique, mais rouge 🔴.
+  Créez trois <span class="inline-code">div</span> correspondant aux trois bandes de collage photo de l'album. Ces <span class="inline-code">div</span> doivent prendre toute la largeur de l'album et avoir un ratio de 10 de largeur par 3 de hauteur <em>(10/3)</em>.<br><br>Le simple fait d'ajouter ces <span class="inline-code">div</span> dans le flux <em>(flow)</em> de l'album devrait lui donner sa hauteur.
+  Ajoutez ensuite dans ces <span class="inline-code">div</span> une balise image contenant l'image du collage adéquat. Cette image doit prendre toute la largeur et la hauteur de sa bande.<br><br>Attention, certaines de ces images contiennent des icônes de policiers 👮‍♂️sur fond vert 🟢. Ces icônes ne doivent pas être visibles. Il faut donc ajuster les images afin que ceux-ci ne soient pas visibles et que les images ne soient pas déformées.<br><br><img src="images/the-police-icon.png">
+  Une fois vos collages affichés correctement, ajoutez dans chacune des bandes le splash de couleur qui lui est associé et faites en sorte que le collage photo soit visible au travers de celui-ci.
+</checklist>
+
+<dots></dots>
+
+
+<grostitre>Ambiance</grostitre>
+
+<clip src="videos/the-police-every-breath-you-take.mp4"></clip>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+<div class="intlink__item">
+    <div class="intlink__item__icon" style="background-image: url('../../google-fonts/images/icon.png');"></div>
+    <div class="intlink__item__description">
+        <span class="intlink__item__title"><a target="_blank" href="../../google-fonts/">Google fonts</a></span>
+        <span class="intlink__item__abstract">+ de 850 polices gratuites</span>
+    </div>
+</div>
+    <div class="intlink__item">
+    <div class="intlink__item__icon" style="background-image: url('../../unites-de-mesure-avancees/images/icon.png');"></div>
+    <div class="intlink__item__description">
+        <span class="intlink__item__title"><a target="_blank" href="../../unites-de-mesure-avancees/">Unités de mesure avancées</a></span>
+        <span class="intlink__item__abstract">vw, vh, vmin, vmax, calc, min, max, clamp</span>
+    </div>
+</div>
+    <div class="intlink__item">
+    <div class="intlink__item__icon" style="background-image: url('../../text/images/icon.png');"></div>
+    <div class="intlink__item__description">
+        <span class="intlink__item__title"><a target="_blank" href="../../text/">Text</a></span>
+        <span class="intlink__item__abstract">align, decoration, transform, stroke, shadow</span>
+    </div>
+</div>
+    <div class="intlink__item">
+    <div class="intlink__item__icon" style="background-image: url('../../aspect-ratio/images/icon.png');"></div>
+    <div class="intlink__item__description">
+        <span class="intlink__item__title"><a target="_blank" href="../../aspect-ratio/">Aspect-ratio</a></span>
+        <span class="intlink__item__abstract">Créer un élément dont la dimension reste proportionnelle.</span>
+    </div>
+</div>
+    <div class="intlink__item">
+    <div class="intlink__item__icon" style="background-image: url('../../object-fit/images/icon.png');"></div>
+    <div class="intlink__item__description">
+        <span class="intlink__item__title"><a target="_blank" href="../../object-fit/">Object-fit</a></span>
+        <span class="intlink__item__abstract">contain, cover, fill</span>
+    </div>
+</div>
+    <div class="intlink__item">
+    <div class="intlink__item__icon" style="background-image: url('../../modes-de-fusion/images/icon.png');"></div>
+    <div class="intlink__item__description">
+        <span class="intlink__item__title"><a target="_blank" href="../../modes-de-fusion/">Modes de fusion</a></span>
+        <span class="intlink__item__abstract">multiply, screen, overlay, etc.</span>
+    </div>
+</div>
+    
+<dots></dots>
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>
