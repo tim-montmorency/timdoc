@@ -1,0 +1,51 @@
+
+.intlink__item {
+    // background-color: red;
+    display: flex;
+    height: auto;
+    margin-bottom: 20px;
+    @media (min-width: 576px)  {
+        height: 60px;
+        margin-bottom: 0;
+    }
+
+
+    &__icon {
+        display: inline-block;
+        height: 48px;
+        width: 48px;
+        background-size: 48px 48px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        flex-shrink: 0;
+        
+        /*
+        background-color: white;
+        background-size: 38px 38px;
+        background-position: 50% 50%;
+        */
+    }
+
+    &__description {
+        display: inline-block;
+        padding-top: 2px;
+        padding-left: 10px;
+        vertical-align: middle;
+        height: auto;
+        @media (min-width: 576px)  {
+            height: 48px;
+        }
+
+    }
+
+    &__title {
+        display: block;
+        font-size: 20px;
+    }
+
+    &__abstract {
+        display: block;
+        font-size: 11px;
+        margin-top: 2px;
+    }
+}

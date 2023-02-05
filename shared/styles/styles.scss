@@ -1,6 +1,7 @@
 @use 'partials/variables';
 @use 'partials/functions';
 @use 'partials/fonts';
+@use 'partials/intlink';
 @use 'partials/darkmode';
 
 @use 'components/grostitre';
@@ -307,6 +308,9 @@ footer {
     }
 
 }
+
+
+
 
 
 #listing {

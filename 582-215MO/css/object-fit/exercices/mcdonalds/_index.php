@@ -42,18 +42,29 @@
 
 <grostitre>Étapes</grostitre>
 
+<checklist>
+    Étape 1<br><a onclick="event.stopPropagation()" target="_blank" href="https://codepen.io/tim-momo/pen/zYLbozp?editors=1100">Pen de départ</a><br><img src="images/mcdo-1.jpg">
+    Étape 2<br><a onclick="event.stopPropagation()" target="_blank" href="https://codepen.io/tim-momo/pen/KKBENXN?editors=1100">Pen de départ</a><br><img src="images/mcdo-2.jpg">
+    Étape 3<br><a onclick="event.stopPropagation()" target="_blank" href="https://codepen.io/tim-momo/pen/VwBRmMg?editors=1100">Pen de départ</a><br><img src="images/mcdo-3.jpg">
+</checklist>
+
+<info>N'hésitez pas à ajouter du HTML au besoin à partir de cette étape afin de regrouper des éléments.</info>
+
+<dots></dots>
 
 
+<grostitre>Bonus</grostitre>
 
+<checklist>
+    Bonus 1<br><a onclick="event.stopPropagation()" target="_blank" href="https://codepen.io/tim-momo/pen/WNKmodx?editors=1100">Pen de départ</a><br><img src="images/mcdo-4.jpg">
+</checklist>
 
+<info>Le petit espace sous l'image du café est normal.</info>
 
+<dots></dots>
 
+<grostitre>Notes de cours 📚</grostitre>
 
+<?php intlink("../../../object-fit/") ?>
 
-
-
-
-
-
-
-
+<dots></dots>

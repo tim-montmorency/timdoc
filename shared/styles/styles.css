@@ -6,6 +6,53 @@
   font-family: "Consolas";
   font-display: swap;
 }
+.intlink__item {
+  display: flex;
+  height: auto;
+  margin-bottom: 20px;
+}
+@media (min-width: 576px) {
+  .intlink__item {
+    height: 60px;
+    margin-bottom: 0;
+  }
+}
+.intlink__item__icon {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  background-size: 48px 48px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  /*
+  background-color: white;
+  background-size: 38px 38px;
+  background-position: 50% 50%;
+  */
+}
+.intlink__item__description {
+  display: inline-block;
+  padding-top: 2px;
+  padding-left: 10px;
+  vertical-align: middle;
+  height: auto;
+}
+@media (min-width: 576px) {
+  .intlink__item__description {
+    height: 48px;
+  }
+}
+.intlink__item__title {
+  display: block;
+  font-size: 20px;
+}
+.intlink__item__abstract {
+  display: block;
+  font-size: 11px;
+  margin-top: 2px;
+}
+
 :root:has(body.dark) {
   color-scheme: dark;
 }
@@ -906,14 +953,18 @@ div.checklist ol li {
   font-size: 18px;
   line-height: 28px;
   transition-duration: 200ms;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 div.checklist ol li:hover {
   background-color: #fde8ed;
 }
 div.checklist ol li.checked {
   text-decoration: line-through;
-  text-decoration-color: #ff003a;
+  -webkit-text-decoration-color: #ff003a;
+          text-decoration-color: #ff003a;
   text-decoration-thickness: 3px;
   transition-duration: 200ms;
 }
@@ -975,7 +1026,10 @@ div.checklist code {
   margin-bottom: 25px;
   text-align: center;
   cursor: pointer;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .color.spacer {
   margin-left: 25px;
@@ -993,7 +1047,10 @@ div.checklist code {
   height: 600px;
 }
 .swiper.swiper-main .swiper-slide {
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   background-size: 0px 0px;
   background-repeat: no-repeat;
   background-color: black;
@@ -1014,7 +1071,8 @@ div.checklist code {
 .swiper.swiper-main .swiper-slide img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .swiper.swiper-main .swiper-button-next, .swiper.swiper-main .swiper-button-prev {
   filter: drop-shadow(0px 0px 1px black);
@@ -1023,7 +1081,10 @@ div.checklist code {
   color: white;
   font-family: Consolas, Inconsolata;
   filter: drop-shadow(0px 0px 2px black);
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .swiper.swiper-main .swiper-fullscreen {
   position: absolute;
@@ -1053,7 +1114,10 @@ div.checklist code {
 }
 .swiper.swiper-thumbs .swiper-slide {
   display: flex;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   width: 100px;
   height: 100%;
   opacity: 0.4;
@@ -1062,7 +1126,8 @@ div.checklist code {
 .swiper.swiper-thumbs .swiper-slide img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .swiper.swiper-thumbs .swiper-slide-thumb-active {
   opacity: 1;
@@ -1332,6 +1397,7 @@ footer #copyright {
 }
 
 #contents_table {
+  position: -webkit-sticky;
   position: sticky;
   align-self: flex-start;
   top: 70px;
