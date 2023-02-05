@@ -64,7 +64,7 @@ body {
 body {
     background-position: 50% calc(50% - 60px);
     background-repeat: no-repeat;
-    background-image: url(https://i.smnarnold.com/exercices/transform/maison/maison.png);
+    background-image: url(https://tim-montmorency.com/timdoc/582-215MO/css/transformation/exercices/formes/images/maison.png);
 }
 .slide {
     width: 200px;
