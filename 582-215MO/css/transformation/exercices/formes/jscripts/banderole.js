@@ -1,8 +1,8 @@
 var popup = new AppendPopup({
     title: "Exercice réussi!",
-    text: "Félicitation, vous maîtrisez les translates",
-    color: "#aeff8b",
-    background: "https://media3.giphy.com/media/k5WmfuVGSkgNy/giphy.gif?cid=790b7611b6850fde0b59952ad2d8a9c09fc203057bbc3520&rid=giphy.gif",
+    text: "Félicitation, vous maîtrisez les rotates avec une perspective 3D",
+    color: "#fbb63e",
+    background: "https://media0.giphy.com/media/5xtDarqiAfN6mqPwdyw/giphy.gif?cid=790b7611935536855e34c4c6c6f96d1bcb250ed098d76740&rid=giphy.gif",
     ascii:`MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNXXXXNWWMMMMMMMMMMMMMMMMMMMMMMMMM
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWX00000000KNWMMMMMMMMMMMMMMMMMMMMMMM
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWKO0KKKKKK0OOXWMMMMMMMMMMMMMMMMMMMMMM
@@ -60,11 +60,12 @@ html,
 body {
   margin: 0;
   height: 100%;
+  overflow: hidden;
 }
 body {
-    background-position: 50% 50%;
+    background-position: calc(50% - 20px) 50%;
     background-repeat: no-repeat;
-    background-image: url(https://ex.smnarnold.com/transform/pyramide/pyramide.png);
+    background-image: url(https://tim-montmorency.com/timdoc/582-215MO/css/transformation/exercices/formes/images/banderole.png);
 }
 .slide {
     width: 200px;
@@ -105,11 +106,11 @@ const callback = function (mutationsList, observer) {
 };
 
 var validate = debounce(function () {
-    var s1 = validateSlide(red, '-200', '0', 0, '1.0');
+    var s1 = validateSlide(red, [-240, -242], '-100', -45, '0.8', '1.1');
     if(s1) {
-        var s2 = validateSlide(blue, '0', '0', 0, '1.0');
+        var s2 = validateSlide(blue, '-100', '-100', 45, '0.7', '1.1');
         if(s2) {
-            var s3 = validateSlide(green, '-100', '-200', 0, '1.0');
+            var s3 = validateSlide(green, [42, 40], '-100', -45, '0.6', '1.1');
             if(s3) {
                 // observer1.disconnect();
                 popup.open();
@@ -124,14 +125,16 @@ var validate = debounce(function () {
     }
 }, 100);
 
-var validateSlide = function(el, x, y, angle, scale) {
+var validateSlide = function(el, x, y, angle, scaleX, scaleY) {
     var styles = window.getComputedStyle(el, null);
     var matrix = getMatrix(styles);
 
-    if (!isCenteredByTransform(el)) return false;
+    console.log(matrix)
+
     if (!validateTranslate(matrix, x, y, styles)) return false;
-    if (!validateRotate(matrix, angle)) return false;
-    if (!validateScale(el, scale)) return false;
+    if (!validateRotateX(matrix, 0)) return false;
+    if (!validateRotateY(matrix, angle)) return false;
+    if (!validateSkew(el, scaleX, scaleY)) return false;
 
     return true;
 }
@@ -139,7 +142,7 @@ var validateSlide = function(el, x, y, angle, scale) {
 var validateTranslate = function(matrix, desiredX, desiredY, styles) {
     if (desiredX === '0' && desiredY === '0') {
         if (matrix) {
-            if (matrix[4] !== 0 && matrix[5] !== 0) return false;
+            if (matrix[12] !== 0 && matrix[13] !== 0) return false;
         } 
     } else {
         if (desiredX === '-100' && desiredY === '-100') { // centré
@@ -147,27 +150,38 @@ var validateTranslate = function(matrix, desiredX, desiredY, styles) {
                 if (styles.top === '0px' || styles.bottom === '0px' || styles.left === '0px' || styles.right === '0px') {
                     if (parseFloat(matrix[4]) !== 0 && parseFloat(matrix[5]) !== 0) return false;
                 } else {
-                    if(matrix[4] !== desiredX) return false;
-                    if(matrix[5] !== desiredY) return false;
+                    if(matrix[12] !== desiredX) return false;
+                    if(matrix[13] !== desiredY) return false;
                 }
             } else {
                 if (styles.top !== '0px' || styles.bottom !== '0px' || styles.left !== '0px' || styles.right !== '0px') return false;
             }
         } else {
+
             if (!matrix) return false;
-            if(matrix[4] !== desiredX) return false;
-            if(matrix[5] !== desiredY) return false;
+            if (!valueMatch(matrix[12], desiredX)) return false;
+            if (!valueMatch(matrix[13], desiredY)) return false;
         }
     }
 
     return true;
 }
 
-var validateRotate = function(matrix, desiredAngle) {
+var valueMatch = function(value, target) { 
+    if (Array.isArray(target)) {
+        if (value > target[0]) return false;
+        if (value < target[1]) return false;
+    } else {
+        if (value !== target) return false;
+    }
+    return true;
+}
+
+var validateRotateX = function(matrix, desiredAngle) {
     var angle = 0;
 
     if(matrix) {
-        var rawAngle = Math.round(Math.atan2(matrix[1], matrix[0]) * (180/Math.PI));
+        var rawAngle = Math.round(Math.atan2(matrix[6], matrix[6]) * (180/Math.PI));
         angle = (rawAngle < 0) ? rawAngle + 360 : rawAngle;
         angle = angle % 90;
     } 
@@ -182,23 +196,40 @@ var validateRotate = function(matrix, desiredAngle) {
     return true;
 }
 
-var validateScale = function(el, desiredScale) {
-    var scale = (el.getBoundingClientRect().width / el.offsetWidth).toFixed(1);
-    if (scale !== desiredScale) return false;
+var validateRotateY = function(matrix, desiredAngle) {
+    var angle = 0;
+
+    if(matrix) {
+        var rawAngle = Math.round(Math.atan2(matrix[2], matrix[2]) * (180/Math.PI));
+        angle = (rawAngle < 0) ? rawAngle + 360 : rawAngle;
+        angle = angle % 90;
+        angle = matrix[2] < 0 ? angle*-1 : angle;
+    } 
+
+    if(typeof desiredAngle == 'number') {
+        if (angle !== desiredAngle) return false;
+    } else if (Array.isArray(desiredAngle)) {
+        if (angle < desiredAngle[0]) return false;
+        if (angle > desiredAngle[1]) return false;
+    }
+
+    return true;
+}
+
+var validateSkew = function(el, ratioX, ratioY) {
+    var scaleX = (el.getBoundingClientRect().width / el.offsetWidth).toFixed(1);
+    var scaleY = (el.getBoundingClientRect().height / el.offsetHeight).toFixed(1);
+
+    if (scaleX !== ratioX) return false;
+    if (scaleY !== ratioY) return false;
     return true;
 }
 
 var getMatrix = function(styles) {
-    var matrix = styles.getPropertyValue('transform').replace('matrix(', '').replace(')', '').split(', ');
+    var matrix = styles.getPropertyValue('transform').replace('matrix3d(', '').replace(')', '').split(', ');
     
     matrix = matrix.length === 1 ? false : matrix;
     return matrix;
-}
-
-var isCenteredByTransform = function(el) {
-    var pos = window.getComputedStyle(el, null);
-    var status = window.innerWidth/2 === parseFloat(pos.left) && window.innerHeight/2 === parseFloat(pos.top);
-    return status;
 }
 
 // Create an observer instance linked to the callback function
