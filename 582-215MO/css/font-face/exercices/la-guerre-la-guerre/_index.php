@@ -48,9 +48,9 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<doclink href="../../../font-face/">@font-face</doclink>
-<doclink href="../../../text/">Text</doclink>
-<doclink href="../../../position/">Position</doclink>
+<?php intlink("../../../font-face/"); ?>
+<?php intlink("../../../text/"); ?>
+<?php intlink("../../../position/"); ?>
 
 <dots></dots>
 

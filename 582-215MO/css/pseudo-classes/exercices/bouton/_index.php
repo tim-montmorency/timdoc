@@ -43,7 +43,7 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<doclink href="../../">Pseudo-classes</doclink>
+<?php intlink("../../../pseudo-classes/"); ?>
 
 <dots></dots>
 

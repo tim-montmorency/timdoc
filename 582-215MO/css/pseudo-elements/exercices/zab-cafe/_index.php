@@ -50,9 +50,9 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<doclink href="../../../pseudo-elements/">Pseudo-éléments</doclink>
-<doclink href="../../../selecteurs-avances/">Sélecteurs avancés</doclink>
-<doclink href="../../../background/">Background</doclink>
+<?php intlink("../../../pseudo-elements/"); ?>
+<?php intlink("../../../selecteurs-avances/"); ?>
+<?php intlink("../../../background/"); ?>
 
 <dots></dots>
 

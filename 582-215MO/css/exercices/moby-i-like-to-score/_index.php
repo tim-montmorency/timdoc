@@ -59,14 +59,8 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<doclink href="../../pseudo-classes-intermediaires/">Pseudo-classes intermédiaires</doclink>
-<doclink href="../../border/">Border</doclink>
+<?php intlink('../../pseudo-classes-intermediaires/'); ?>
+<?php intlink('../../border/'); ?>
 
 <dots></dots>
-
-
-
-
-
-
 

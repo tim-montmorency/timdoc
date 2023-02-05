@@ -66,6 +66,6 @@ Les images des Minions doivent avoir une largeur de 150px, affichant maintenant 
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<doclink href="../../../media-queries/">Media queries</doclink>
+<?php intlink("../../../media-queries/"); ?>
 
 <dots></dots>

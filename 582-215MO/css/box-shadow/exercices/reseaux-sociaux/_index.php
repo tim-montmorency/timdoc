@@ -52,10 +52,6 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<doclink href="../../../box-shadow/">Box-shadow</doclink>
+<?php intlink("../../../box-shadow/"); ?>
 
 <dots></dots>
-
-
-
-
