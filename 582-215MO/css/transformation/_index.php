@@ -168,4 +168,6 @@
 
 <dots></dots>
 
+<exercice href="exercices/formes/"></exercice>
 
+<dots></dots>
