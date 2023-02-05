@@ -1480,6 +1480,9 @@ footer #copyright {
   margin-bottom: 25px;
   color: rgb(177, 176, 176);
 }
+#contents span.remark .inline-code {
+  font-size: 12px;
+}
 
 #listing {
   width: 100%;
