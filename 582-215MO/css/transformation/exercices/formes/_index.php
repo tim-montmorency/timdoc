@@ -37,26 +37,15 @@
 
 <checklist>
     <a onclick="event.stopPropagation()" target="_blank" href="https://codepen.io/tim-momo/pen/yLqwzvb?editors=1100">Le damier</a>&nbsp;
+    <a onclick="event.stopPropagation()" target="_blank" href="https://codepen.io/tim-momo/pen/ZEjPXxJ?editors=1100">La maison</a> 🏠<br>Utilise des rotations 3D.
+    <a onclick="event.stopPropagation()" target="_blank" href="https://codepen.io/tim-momo/pen/YzjgrOb?editors=1100">Le grand V</a>&nbsp;
 </checklist>
 
+<dots></dots>
 
 
+<grostitre>Notes de cours 📚</grostitre>
 
+<?php intlink('../../../transformation/'); ?>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<dots></dots>
