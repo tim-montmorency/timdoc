@@ -10,6 +10,7 @@
 @use 'components/warning';
 @use 'components/alert';
 @use 'components/bravo';
+@use 'components/thumbsup';
 @use 'components/audioplayer';
 @use 'components/mediafile';
 @use 'components/codepen';
@@ -311,6 +312,14 @@ footer {
         }
 
     }
+
+    .demo-inspecteur {
+        display: inline-block;
+        border: dotted 1px #00c774;
+        padding: 1em;
+        z-index: 1;
+    }
+
 
 }
 

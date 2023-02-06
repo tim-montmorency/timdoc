@@ -168,6 +168,18 @@ app.component('grostitre', {
 
 
 /******************************************************
+ *                 Composante Thumbs Up               *
+ ******************************************************/
+ app.component('thumbsup', {
+    template: `
+        <div class="thumbsup">
+            <div class="thumbsup__bubble"></div>
+            <slot/>
+        </div>`
+});
+
+
+/******************************************************
  *                  Composante Incode                 *
  ******************************************************/
  app.component('incode', {
