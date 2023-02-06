@@ -18,29 +18,27 @@
 
 <grostitre>Matériel</grostitre>
 
+<doclink href="https://codepen.io/tim-momo/pen/oNMVmoP?editors=0100">Pen de départ</doclink>
+
+<warning>Vous n’avez qu’à ajouter du CSS <em>(nul besoin de modifier le HTML ou le JavaScript)</em>.</warning>
+
+<dots></dots>
 
 
+<grostitre>Requis</grostitre>
+
+<checklist>
+    Au survole du paquet, les cartes doivent s'ouvrir en portefeuille à partir du coin inférieur gauche ↙️ en l'espace d'une demi-seconde.
+    La carte survolée spécifiquement doit s'afficher par-dessus les autres et grossir de 20% en l'espace d'une demi-seconde.
+</checklist>
+
+<dots></dots>
 
 
+<grostitre>Notes de cours 📚</grostitre>
 
+<?php intlink("../../../transition/"); ?>
+<?php intlink("../../../transformation/"); ?>
+<?php intlink("../../../z-index/"); ?>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<dots></dots>

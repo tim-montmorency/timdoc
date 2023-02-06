@@ -134,15 +134,18 @@ transition-duration: 1s;</highlight>
 
 <exercice href="exercices/bojack-horseman/"></exercice>
 
+<dots></dots>
 
 
+<grostitre>Où définir sa transition</grostitre>
 
+<p>Si les propriétés d'une transition sont définies sur un état en particulier, par exemple <incode>:hover</incode>, et non à sa base, cette propriété ne s'appliquera que lorsque cet état sera activé. Par exemple, à gauche la durée de la transition est appliquée sur l'élément de base. Le navigateur applique donc le <incode>transition-duration</incode> en tout temps sur l'élément, qu'il soit survolé ou non. Tandis qu'à droite, le <incode>transition-duration</incode> est défini sur le <incode>:hover</incode> uniquement, donc la transition ne s'effectue qu'au survole. Dès que l'élément n'est plus survolé, il retourne abruptement à sa position de départ.</p>
 
+<codepen id="WNKmPLG" tab="result" height="340"></codepen>
 
+<span class="remark">À gauche, transition sur l’élément de base.<br>À droite, transition sur l’élément survolé seulement.</span>
 
+<exercice href="exercices/boutons/"></exercice>
+<exercice href="exercices/fantome-mario/"></exercice>
 
-
-
-
-
-
+<dots></dots>

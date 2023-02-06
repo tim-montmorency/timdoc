@@ -15,7 +15,7 @@
         <script src="../../../../../shared/jscripts/swiper-bundle.min.js"></script>
         <script src="../../../../../shared/jscripts/vue.global.prod.js"></script>
         <script>const shared = '../../../../../shared/';</script>
-        <title>Transition - BoJack Horseman</title>
+        <title>Transition - Boutons</title>
     </head>
     <body>
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
@@ -31,24 +31,24 @@
         </header>
         <main>
             <!-- MAIN HEADER EOF -->            <div id="subhead">
-                <div id="title">Transition - BoJack Horseman</div>
+                <div id="title">Transition - Boutons</div>
             </div>
             <article>
                 <div id="contents">
                     <!-- EXERCICE HEADER EOF -->
 
-<p class="spacer">Pour cet exercice nous allons animer les cartes présentant les personnages principaux de la <a target="_blank" href="https://www.imdb.com/title/tt3398228/">série animée BoJack Horseman</a> 🐴.</p>
+<p class="spacer">Pour cet exercice nous allons indiquer quel bouton a le focus à l’aide de l’émoji ☝️.</p>
 
 <p>Aperçu du résultat 👇</p>
 
-<clipasset src="videos/transition-bojackhorseman.mp4"></clipasset>
+<clipasset src="videos/transition-boutons-resultat.mp4"></clipasset>
 
 <dots></dots>
 
 
 <grostitre>Matériel</grostitre>
 
-<doclink href="https://codepen.io/tim-momo/pen/oNMVmoP?editors=0100">Pen de départ</doclink>
+<doclink href="https://codepen.io/tim-momo/pen/oNMVmOm?editors=0100">Pen de départ</doclink>
 
 <warning>Vous n’avez qu’à ajouter du CSS <em>(nul besoin de modifier le HTML ou le JavaScript)</em>.</warning>
 
@@ -58,9 +58,23 @@
 <grostitre>Requis</grostitre>
 
 <checklist>
-    Au survole du paquet, les cartes doivent s'ouvrir en portefeuille à partir du coin inférieur gauche ↙️ en l'espace d'une demi-seconde.
-    La carte survolée spécifiquement doit s'afficher par-dessus les autres et grossir de 20% en l'espace d'une demi-seconde.
+    Utilisez un pseudo-élément afin d'ajouter l'émoji ☝️ dans chaque bouton.
+    Déplacez ensuite cet émoji en plein centre sous chaque bouton.
+    Chaque émoji doit-être invisible par défaut.
+    Lorsqu'un bouton reçoit le focus, son émoji doit apparaitre en fondu en l'espace d'une demi-seconde ⏱.
 </checklist>
+
+<dots></dots>
+
+
+<grostitre>Bonus</grostitre>
+
+<checklist>
+    Ajoutez une animation CSS faisant rebondir de haut en bas les émojis du quart de leur hauteur afin d'attirer l'attention de l'usager.
+    Retirez le outline ajouté par défaut aux boutons par le navigateur, puisque les émojis permettent maintenant d'indiquer lequel parmi ceux-ci a le focus.
+</checklist>
+
+<clipasset src="videos/transition-boutons-partie-2.mp4"></clipasset>
 
 <dots></dots>
 
@@ -68,10 +82,17 @@
 <grostitre>Notes de cours 📚</grostitre>
 
 <div class="intlink__item">
-    <div class="intlink__item__icon" style="background-image: url('../../../transition/images/icon.png');"></div>
+    <div class="intlink__item__icon" style="background-image: url('../../../pseudo-elements/images/icon.png');"></div>
     <div class="intlink__item__description">
-        <span class="intlink__item__title"><a target="_blank" href="../../../transition/">Transition</a></span>
-        <span class="intlink__item__abstract">passer d'un état A à un état B</span>
+        <span class="intlink__item__title"><a target="_blank" href="../../../pseudo-elements/">Pseudo-éléments</a></span>
+        <span class="intlink__item__abstract">::before, ::after</span>
+    </div>
+</div>
+    <div class="intlink__item">
+    <div class="intlink__item__icon" style="background-image: url('../../../opacite/images/icon.png');"></div>
+    <div class="intlink__item__description">
+        <span class="intlink__item__title"><a target="_blank" href="../../../opacite/">Opacity</a></span>
+        <span class="intlink__item__abstract">Gérer l'opacité d'un élément.</span>
     </div>
 </div>
     <div class="intlink__item">
@@ -82,10 +103,10 @@
     </div>
 </div>
     <div class="intlink__item">
-    <div class="intlink__item__icon" style="background-image: url('../../../z-index/images/icon.png');"></div>
+    <div class="intlink__item__icon" style="background-image: url('../../../transition/images/icon.png');"></div>
     <div class="intlink__item__description">
-        <span class="intlink__item__title"><a target="_blank" href="../../../z-index/">Z-index</a></span>
-        <span class="intlink__item__abstract">Order d'apparition des éléments dans le flux</span>
+        <span class="intlink__item__title"><a target="_blank" href="../../../transition/">Transition</a></span>
+        <span class="intlink__item__abstract">passer d'un état A à un état B</span>
     </div>
 </div>
     
