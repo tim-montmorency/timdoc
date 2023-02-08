@@ -65,6 +65,12 @@
 
 <span class="remark">Cette pièce est une reprise du célèbre groupe <a target="_blank" href="https://en.wikipedia.org/wiki/Joy_Division">Joy Division</a>.</span>
 
+
+<h3>Moby - James Bond Theme</h3>
+
+<clip src="videos/moby-james-bond-theme.mp4"></clip>
+
+
 <dots></dots>
 
 
