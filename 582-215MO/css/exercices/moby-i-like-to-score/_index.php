@@ -50,7 +50,10 @@
 
 <checklist>
   Renommez votre dossier <em>"queen_[nom]_[prenom].zip"</em>.
+  Joignez votre fichier au devoir <em>"TP03: Moby - I Like to Score"</em>.
 </checklist>
+
+<dots></dots>
 
 
 <grostitre>Ambiance</grostitre>
