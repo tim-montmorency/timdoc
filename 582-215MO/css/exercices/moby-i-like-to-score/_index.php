@@ -26,7 +26,7 @@
 <color>#D33812</color>
 <color>#CC2769</color>
 
-<warning>Il est <strong>interdit</strong> de modifier le HTML & d’utiliser la propriété <incode>position</incode> pour cet exercice.</warning>
+<alert>Il est <strong>interdit</strong> de modifier le HTML & d’utiliser la propriété <incode>position</incode> pour cet exercice.</alert>
 
 <dots></dots>
 
