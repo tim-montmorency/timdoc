@@ -60,3 +60,5 @@ Chaque carte doit prendre toute la largeur disponible par défaut.
        
     </div>
 </div>
+
+<?php //intlink("../../cartes/") ?>
