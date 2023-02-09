@@ -1,7 +1,7 @@
 <?php 
 /**
  * @type     exercice
- * @title    Les Gardiens de la Galaxie
+ * @title    Examen - Les Gardiens de la Galaxie
  * @icon     images/thumb.jpg
  * @abstract Pour cet examen, nous allons recréer une affiche minimaliste du film Les Gardiens de la Galaxie.
  */

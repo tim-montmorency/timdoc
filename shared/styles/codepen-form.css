@@ -1,0 +1,15 @@
+body { 
+  font-size: clamp(16px, 3vw, 22px);
+  padding: 1em; 
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+  width: 1em;
+  height: 1em;
+  vertical-align: top;
+}
+
+input[type='range'] {
+  width: 8.25em;
+}

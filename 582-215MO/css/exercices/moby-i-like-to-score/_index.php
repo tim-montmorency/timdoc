@@ -26,7 +26,7 @@
 <color>#D33812</color>
 <color>#CC2769</color>
 
-<warning>Il est <strong>interdit</strong> de modifier le HTML & d’utiliser la propriété <incode>position</incode> pour cet exercice.</warning>
+<alert>Il est <strong>interdit</strong> de modifier le HTML & d’utiliser la propriété <incode>position</incode> pour cet exercice.</alert>
 
 <dots></dots>
 
@@ -46,6 +46,17 @@
 <dots></dots>
 
 
+<grostitre>Remise</grostitre>
+
+<checklist>
+  Renommez votre dossier <em>"moby_[nom]_[prenom]"</em>.
+  Zippez votre dossier <em>"moby_[nom]_[prenom]"</em>.
+  Joignez votre fichier <em>.zip</em> au devoir <em>"TP03: Moby - I Like to Score"</em>.
+</checklist>
+
+<dots></dots>
+
+
 <grostitre>Ambiance</grostitre>
 
 <h3>Moby - New Dawn Fades</h3>
@@ -54,19 +65,19 @@
 
 <span class="remark">Cette pièce est une reprise du célèbre groupe <a target="_blank" href="https://en.wikipedia.org/wiki/Joy_Division">Joy Division</a>.</span>
 
+
+<h3>Moby - James Bond Theme</h3>
+
+<clip src="videos/moby-james-bond-theme.mp4"></clip>
+
+
 <dots></dots>
 
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<doclink href="../../pseudo-classes-intermediaires/">Pseudo-classes intermédiaires</doclink>
-<doclink href="../../border/">Border</doclink>
+<?php intlink('../../pseudo-classes-intermediaires/'); ?>
+<?php intlink('../../border/'); ?>
 
 <dots></dots>
-
-
-
-
-
-
 

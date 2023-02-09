@@ -52,12 +52,12 @@
 
 
 <grostitre>Notes de cours 📚</grostitre>
-<doclink href="../../../display/">Display</doclink>
-<doclink href="../../../width-height/">Width & Height</doclink>
-<doclink href="../../../margin/">Margin</doclink>
-<br>
-<doclink href="../../../padding/">Padding</doclink>
-<doclink href="../../../border/">Border</doclink>
-<doclink href="../../../vertical-align/">Vertical-align</doclink>
+
+<?php intlink("../../../display/"); ?>
+<?php intlink("../../../width-height/"); ?>
+<?php intlink("../../../margin/"); ?>
+<?php intlink("../../../padding/"); ?>
+<?php intlink("../../../border/"); ?>
+<?php intlink("../../../vertical-align/"); ?>
 
 <dots></dots>

@@ -42,8 +42,8 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<doclink href="../../">Float</doclink>
-<doclink href="../../../margin/">Margin</doclink>
+<?php intlink("../../../float/"); ?>
+<?php intlink("../../../margin/"); ?>
 
 <dots></dots>
 

@@ -7,14 +7,14 @@
  */
 ?>
 
-<p class="spacer">La propriété <span class="inline-code">background</span> est ses différentes sous-propriétés permettent de contrôler l'apparence de l'arrière-plan d'un élément.</p>
+<p class="spacer">La propriété <span class="inline-code">background</span> et ses différentes sous-propriétés permettent de contrôler l'apparence de l'arrière-plan d'un élément.</p>
 
 <dots></dots>
 
 
 <grostitre>background-color</grostitre>
 
-<p>La propriété <span class="inline-code">background-color</span> permet de définir la couleur d'arrière-plan d'un élément. Cette propriété accepte <a href="#">différentes unités de couleur</a>.</p>
+<p>La propriété <span class="inline-code">background-color</span> permet de définir la couleur d'arrière-plan d'un élément. Cette propriété accepte <a href="../unites-de-couleur/">différentes unités de couleur</a>.</p>
 
 <p>Par exemple:</p>
 
@@ -64,7 +64,7 @@
 
 <br>
 
-<knowmore href="#">Billet à propos de Linear-gradient</knowmore>
+<knowmore href="../linear-gradient/">Billet à propos de Linear-gradient</knowmore>
 
 <h3>Combinaison</h3>
 

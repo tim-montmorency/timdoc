@@ -1,6 +1,7 @@
 @use 'partials/variables';
 @use 'partials/functions';
 @use 'partials/fonts';
+@use 'partials/intlink';
 @use 'partials/darkmode';
 
 @use 'components/grostitre';
@@ -9,6 +10,7 @@
 @use 'components/warning';
 @use 'components/alert';
 @use 'components/bravo';
+@use 'components/thumbsup';
 @use 'components/audioplayer';
 @use 'components/mediafile';
 @use 'components/codepen';
@@ -304,9 +306,25 @@ footer {
         margin-top: -25px;
         margin-bottom: 25px;
         color: rgb(177, 176, 176);
+
+        .inline-code {
+            font-size: 12px;
+        }
+
     }
 
+    .demo-inspecteur {
+        display: inline-block;
+        border: dotted 1px #00c774;
+        padding: 1em;
+        z-index: 1;
+    }
+
+
 }
+
+
+
 
 
 #listing {

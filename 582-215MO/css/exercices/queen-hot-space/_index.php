@@ -67,8 +67,8 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<doclink href="../../position/">Position</doclink>
-<doclink href="../../margin/">Margin</doclink>
+<?php intlink('../../position/'); ?>
+<?php intlink('../../margin/'); ?>
 
 <dots></dots>
 

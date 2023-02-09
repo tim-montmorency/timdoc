@@ -6,7 +6,7 @@
  * @abstract Générer un dégradé.
  */
 ?>
-<p>La propriété <incode>background-image</incode> accepte la fonction <incode>linear-gradient()</incode>. Comme son nom l'indique, celle-ci permet de définir un dégradé. Pour générer un dégradé, il faut minimalement attribuer deux couleurs en paramètre à la fonction.</p>
+<p class="spacer">La propriété <incode>background-image</incode> accepte la fonction <incode>linear-gradient()</incode>. Comme son nom l'indique, celle-ci permet de définir un dégradé. Pour générer un dégradé, il faut minimalement attribuer deux couleurs en paramètre à la fonction.</p>
 
 <p>Par exemple, pour définir un dégradé de vert à bleu:</p>
 

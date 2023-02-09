@@ -44,6 +44,6 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<doclink href="../../../modes-de-fusion/">Modes de fusion</doclink>
+<?php intlink("../../../modes-de-fusion/"); ?>
 
 <dots></dots>

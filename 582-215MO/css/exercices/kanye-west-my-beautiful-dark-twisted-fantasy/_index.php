@@ -60,9 +60,9 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<doclink href="../../linear-gradient/">Linear-gradient</doclink>
-<doclink href="../../box-shadow/">Box-shadow</doclink>
-<doclink href="../../../html/picture/">Picture</doclink>
+<?php intlink('../../linear-gradient/'); ?>
+<?php intlink('../../box-shadow/'); ?>
+<?php intlink('../../../html/picture/'); ?>
 
 <dots></dots>
 

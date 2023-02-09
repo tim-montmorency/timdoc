@@ -37,6 +37,7 @@
 
 <grostitre>Notes de cours</grostitre>
 
-<doclink href="../../">Border</doclink>
+
+<?php intlink("../../../border/"); ?>
 
 <dots></dots>

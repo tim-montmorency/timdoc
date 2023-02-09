@@ -39,7 +39,7 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<doclink href="../../../media-queries/">Media queries</doclink>
+<?php intlink("../../../media-queries/"); ?>
 
 <dots></dots>
 

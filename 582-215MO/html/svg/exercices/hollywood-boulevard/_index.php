@@ -64,9 +64,6 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<doclink href="../../../svg/">SVG</doclink>
+<?php intlink("../../../svg/"); ?>
 
 <dots></dots>
-
-
-

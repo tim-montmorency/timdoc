@@ -50,6 +50,6 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<doclink href="../../">Pseudo-classes intermédiaires</doclink>
+<?php intlink("../../../pseudo-classes-intermediaires/"); ?>
 
 <dots></dots>

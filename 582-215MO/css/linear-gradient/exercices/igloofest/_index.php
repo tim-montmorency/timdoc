@@ -20,6 +20,12 @@
 
 <doclink href="https://codepen.io/tim-momo/pen/poZZgQQ?editors=1100">Pen de départ</doclink>
 
+<h3>Couleurs 🎨</h3>
+
+<color>#e8b9ff</color>
+<color>#e2a6f8</color>
+<color>#5638f9</color>
+
 <h3>Médias</h3>
 
 <mediafile src="images/logo.png"></mediafile>
@@ -51,7 +57,7 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<doclink href="../../../background/">Background</doclink>
-<doclink href="../../../linear-gradient/">Linear-gradient</doclink>
+<?php intlink("../../../background/"); ?>
+<?php intlink("../../../linear-gradient/"); ?>
 
 <dots></dots>

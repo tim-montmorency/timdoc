@@ -50,7 +50,7 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<doclink href="../../../filtres/">Filtres</doclink>
+<?php intlink("../../../filtres/"); ?>
 
 <dots></dots>
 

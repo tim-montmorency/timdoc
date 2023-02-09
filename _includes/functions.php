@@ -95,6 +95,32 @@ function print_children() {
 
 
 /**
+ * Print internal link like listing
+ *
+ * @param  mixed $path Internal relative path
+ * @return void
+ */
+function intlink($path){
+    $path = rtrim($path,'/\\');
+    $parent = pathinfo(current(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS,1))['file'], PATHINFO_DIRNAME);
+    if(!$target = realpath($parent.'/'.$path)) return;
+    if(!$info = php_file_info($target.'/_index.php')) return;
+    ?>
+<div class="intlink__item">
+    <div class="intlink__item__icon" style="background-image: url('<?php echo $path; ?>/<?php echo $info->icon; ?>');"></div>
+    <div class="intlink__item__description">
+        <span class="intlink__item__title"><a target="_blank" href="<?php echo $path; ?>/"><?php echo $info->title; ?></a></span>
+        <span class="intlink__item__abstract"><?php echo $info->abstract; ?></span>
+    </div>
+</div>
+    <?php
+    return true;
+}
+
+
+
+
+/**
  * Specific header printing
  *
  * @return void
