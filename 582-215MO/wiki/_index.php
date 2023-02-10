@@ -73,3 +73,15 @@
     <h2>TP03 <em>(5%)</em></h2>
     <?php intlink("../css/exercices/moby-i-like-to-score/"); ?>
 </wiki-page>
+
+
+<wiki-page name="Cours 04A" date="2023-02-14">
+    <?php intlink("../css/nommage-et-formatage/"); ?>
+    <?php intlink("../css/fonte/"); ?>
+    <?php intlink("../css/text/"); ?>
+    <?php intlink("../css/text/exercices/focus/"); ?>
+    <?php intlink("../css/google-fonts/"); ?>
+    <?php intlink("../css/google-fonts/exercices/bart/"); ?>
+    <?php intlink("../css/font-face/"); ?>
+    <?php intlink("../css/font-face/exercices/la-guerre-la-guerre/"); ?>
+</wiki-page>
