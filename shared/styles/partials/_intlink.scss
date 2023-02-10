@@ -14,9 +14,12 @@
         display: inline-block;
         height: 48px;
         width: 48px;
-        background-size: 48px 48px;
+        // background-size: 48px 48px;
+        background-size: cover;
+        background-position: center center;
         border-radius: 50%;
         background-repeat: no-repeat;
+
         flex-shrink: 0;
         
         /*

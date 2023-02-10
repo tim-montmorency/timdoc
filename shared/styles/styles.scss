@@ -447,42 +447,39 @@ table{
 
 
 #wiki {
-
     display: flex;
     min-height: 100%;
     
-
     &__list {
-        // position: sticky;
-        top: 0;
-        // align-self: flex-start;
         min-width: 200px;
         min-height: 100%;
-        // background-color: rgba(255, 255, 255, 0.9);
         background-image: linear-gradient(to right, #111111, #000000);
         
         ul {
             position: sticky;
             top: 0;
             padding: 25px 25px;
+            
             li {
                 margin-bottom: 20px;
                 list-style-type: none;
                 font-size: 16px;
+                line-height: 18px;
+                a + span {
+                    display: none;
+                }
+                a.active + span {
+                    display: inline-block;
+                }
+
             }
-
         }
-
-
     }
 
     &__pages {
-        // background-color: rgba(255, 192, 203, 0.075);
         width: 100%;
-        // margin-left: 200px;
         max-width: 100%;
         padding: 25px 25px;
-    
     
         h3 {
             margin-top: 0;
@@ -490,10 +487,16 @@ table{
     
     }
 
+    .wiki__page {
+        display: none;
 
+        &.active {
+            display: block;
+        }
+    }
 
 }
 
-body:has(div#wiki) {
-    padding-bottom: 0;
-}
+// body:has(div#wiki) {
+//     padding-bottom: 0;
+// }

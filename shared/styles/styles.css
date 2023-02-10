@@ -21,7 +21,8 @@
   display: inline-block;
   height: 48px;
   width: 48px;
-  background-size: 48px 48px;
+  background-size: cover;
+  background-position: center center;
   border-radius: 50%;
   background-repeat: no-repeat;
   flex-shrink: 0;
@@ -1662,7 +1663,6 @@ table tr:nth-child(even) td {
   min-height: 100%;
 }
 #wiki__list {
-  top: 0;
   min-width: 200px;
   min-height: 100%;
   background-image: linear-gradient(to right, #111111, #000000);
@@ -1677,6 +1677,13 @@ table tr:nth-child(even) td {
   margin-bottom: 20px;
   list-style-type: none;
   font-size: 16px;
+  line-height: 18px;
+}
+#wiki__list ul li a + span {
+  display: none;
+}
+#wiki__list ul li a.active + span {
+  display: inline-block;
 }
 #wiki__pages {
   width: 100%;
@@ -1686,7 +1693,9 @@ table tr:nth-child(even) td {
 #wiki__pages h3 {
   margin-top: 0;
 }
-
-body:has(div#wiki) {
-  padding-bottom: 0;
+#wiki .wiki__page {
+  display: none;
+}
+#wiki .wiki__page.active {
+  display: block;
 }/*# sourceMappingURL=styles.css.map */
