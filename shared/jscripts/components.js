@@ -823,7 +823,7 @@ app.component('clip', {
         <div id="wiki">
             <div id="wiki__list">
                 <ul>
-                    <li v-for="el in this.pages"><a :id="'wiki-list__' + el.id" @click="setActivePage(el.id)" href="#">{{ el.name }}</a></li>
+                    <li v-for="el in this.pages"><a :id="'wiki-list__' + el.id" @click="setActivePage(el.id)" href="#">{{ el.name }}</a><span>&nbsp;&#x1f4da;</span></li>
                 </ul>
             </div>
             <div id="wiki__pages">

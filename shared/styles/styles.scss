@@ -465,14 +465,13 @@ table{
                 list-style-type: none;
                 font-size: 16px;
                 line-height: 18px;
-
-                a.active::after {
-                    content: '\00a0\1f4da';
+                a + span {
+                    display: none;
+                }
+                a.active + span {
+                    display: inline-block;
                 }
 
-                // &:has(a.active):after {
-                //     content: '\00a0\1f4da';
-                // }
             }
         }
     }
