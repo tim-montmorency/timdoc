@@ -44,7 +44,7 @@ Vous decez ensuite cloner localement le répertoire du projet et y déposer les 
 <p>Aperçu du résultat pour le pied de page👇</p>
 <img src="images/pied-page.png" alt="Aperçu"  style="box-shadow: 5px 5px 20px rgba(0,0,0,0.1)">
 <checklist>
-Le pied de page doit se démarquer du contenu principal du site en ayant une couleur de fond le différenciant, une marge intérieure d'au moins 20px afin que son contenu ne touche pas ses extrémités et finalement une marge extérieure verticale de 20px vers le haut ⬆️ afin que celui-ci ne touche pas au contenu le précédent dans la page.
+Le pied de page doit se démarquer du contenu principal du site en ayant une couleur de fond le différenciant, une marge intérieure d'au moins 1rem afin que son contenu ne touche pas ses extrémités et finalement une marge extérieure verticale de 1rem vers le haut ⬆️ afin que celui-ci ne touche pas au contenu le précédent dans la page. Tu dois utiliser la classes utilitaires Bootstrap pour créer des espacement.
 Un conteneur Bootstrap doit être utilisé afin de gérer le positionnement des éléments à l'intérieur de celui-ci.
 Le texte doit être centré par défaut dans le pied de page.
 Faites en sorte que par défaut les informations suivantes apparaissent une en dessous de l'autre dans l'ordre suivant:<br>-Noms des artisans du site.<br>-Un lien vers répertoire GitHub du projet.<br>-La mention "©<?php echo date("Y") ?>".
@@ -93,5 +93,38 @@ Ajoutez dans le div qui fait office de cadre de téléphone, un iframe dont la s
 <h4>Notes de cours 📚</h4>
 <?php intlink("../../bootstrap/navbar") ?> 
 
+<h3>Pied de page</h3>
+<p>Aperçu du résultat pour le pied de page👇</p>
+Défaut
+<img src="images/footer-app-xs.png" alt="XS" style="width:300px">
+À partir de <em>SM</em>
+<img src="images/footer-app-md.png" alt="SM" style="width:600px">
+
+<checklist>
+Le pied de page doit se démarquer du contenu principal du site en ayant une couleur de fond le différenciant, une marge intérieure d'au moins 1rem afin que son contenu ne touche pas ses extrémités et finalement une marge extérieure verticale de 1rem vers le haut ⬆️ afin que celui-ci ne touche pas au contenu le précédent dans la page. Tu dois utiliser la classes utilitaires Bootstrap pour créer des espacement.
+Un conteneur Bootstrap doit être utilisé afin de gérer le positionnement des éléments à l'intérieur de celui-ci, ce conteneur doit être celui qui n'a pas de largeur maximum.
+À partir du breakpoint sm, affichez le texte à gauche du logo.
+À partir du breakpoint sm, le texte de gauche doit s'aligner à gauche, et le logo doit maintenant s'aligner à droite.
+Vous pouvez utiliser ce url pour le logo: https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg
+Au besoin, ajoutez des classes d'espacement Bootstrap pour aligner les éléments un peu comme l'aperçu ci-haut.
+</checklist>
+
 <h3>Formulaire de recherche et liste de filtres</h3>
 <p>Aperçu du résultat pour le pied de page👇</p>
+<img src="images/app-form-filters.png" alt="Aperçu champs de recherche et filtres"  alt="XS" style="width:500px">
+<checklist>
+  Dans main, sous la navbar, crée toi un conteneur bootstrap.
+  Dans ce conteneur, crée toi 2 sections avec la balise sémantique la plus appropriée, les deux sections seront des rangées Bootstrap.
+  Va voir la <a href="https://icons.getbootstrap.com/#install" target="_blank" onclick="event.stopPropagation()">documentation sur les icones Bootstrap</a> et installe le paquet d'icone via CDN, soit avec la balise link ou via @import dans le css, à ta guise.
+  Dans la première section, crée-toi un formulaire qui contiendra un champs de recherche. Va voir la documentation Boostrap sur les formulaires afin d'utiliser les classes appropriées. 
+  Dans le champs recheche, le placeholder sera "Rechercher une oeuvre, un artiste..."
+  Stylise ton champs comme tu veux, par contre je veux que tu ajoutes l'icone de la loupe au début du champs de recherche. Utilise le format "Icon font" pour ajouter l'icone Boostrap avec la loupe. 
+  Dans la 2e section, crée toi un div qui aura un overflow caché. Dans ce div, crée toi une liste ul li de boutons (utilise les boutons de Bootstrap).
+  Stylise cette liste afin qu'elle n'ai pas de puce et que les boutons s'affichent tous sur une même ligne.
+  Re-stylise des boutons, au besoin, dans ton ficheir CSS.
+
+</checklist>
+
+<info>
+  Le format "icon font" est le suivant: <code>&lt;i class=&quot;bi-alarm&quot;&gt;&lt;/i&gt;</code>.<br>Voir la <a href="https://icons.getbootstrap.com/#install" target="_blank" >documentation sur les icones Bootstrap</a> pour en savoir plus.
+</info>
