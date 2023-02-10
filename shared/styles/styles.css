@@ -1679,7 +1679,7 @@ table tr:nth-child(even) td {
   font-size: 16px;
   line-height: 18px;
 }
-#wiki__list ul li:has(a.active):after {
+#wiki__list ul li a.active::after {
   content: " 📚";
 }
 #wiki__pages {
