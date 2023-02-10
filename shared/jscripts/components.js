@@ -15,6 +15,7 @@ const app = Vue.createApp({
         }
     },
     mounted() {
+        if(this.$refs.lightswitch == undefined) return;
         this.theme = this.darkmode ? 'dark' : 'light';
         document.body.className = this.darkmode ? 'dark' : 'light';
         this.$refs.lightswitch.className = this.darkmode ? 'lightswitch--off' : 'lightswitch--on';
@@ -775,6 +776,76 @@ app.component('clip', {
                     <img :src="this.photo">
                 </div>
             </div>
+        </div>`
+});
+
+
+/******************************************************
+ *                   Composante Wiki                  *
+ ******************************************************/
+ app.component('wiki', {
+    data() {
+        let url = new URL(document.location);
+        let hash = cyrb53(url.host + url.pathname);
+        return {
+            list: '',
+            hash: hash,
+            active: null,
+            pages: new Array()
+        }
+    },
+    created() {
+        this.$nextTick(() => {
+            if(this.pages.length == 0) return;
+            setTimeout(() => {
+                let activePage = localStorage.getItem('wiki-' + this.hash + '-active');
+                if(activePage == null) this.setActivePage(this.pages[0].id);
+                else this.setActivePage(activePage);
+            }, 1);
+        });
+    },
+    methods: {
+        registerPage(id, name) {
+            this.pages.push({ id: id, name: name });
+        },
+        setActivePage(id){
+            if(this.active != null) {
+                document.getElementById('wiki-list__' + this.active).classList.remove('active');
+                document.getElementById('wiki-page__' + this.active).classList.remove('active');
+            }
+            document.getElementById('wiki-list__' + id).classList.add('active');
+            document.getElementById('wiki-page__' + id).classList.add('active');
+            localStorage.setItem('wiki-' + this.hash + '-active', id);
+            this.active = id;
+        }
+    },
+    template: `
+        <div id="wiki">
+            <div id="wiki__list">
+                <ul>
+                    <li v-for="el in this.pages"><a :id="'wiki-list__' + el.id" @click="setActivePage(el.id)" href="#">{{ el.name }}</a></li>
+                </ul>
+            </div>
+            <div id="wiki__pages">
+                <slot/>
+            </div>
+        </div>`
+});
+
+
+app.component('wiki-page', {
+    props: ['name'],
+    data() {
+        let slug = lowslug(this.name);
+        this.$parent.registerPage(slug, this.name);
+        return {
+            'slug': slug
+        }
+    },
+    template: `
+        <div :id="'wiki-page__' + this.slug" class="wiki__page">
+            <h1>{{ name }}</h1><br>
+            <slot/>
         </div>`
 });
 

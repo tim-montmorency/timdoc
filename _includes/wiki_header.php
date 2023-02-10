@@ -18,54 +18,5 @@
         <title><?php echo $PAGE->title; ?></title>
     </head>
     <body class="dark">
-        <div id="wiki">
+        <wiki>
             <!-- WIKI HEADER EOF -->
-            <div id="wiki__list">
-                <ul>
-                    <li><a href="#">Cours 01A</a></li>
-                    <li><a href="#">Cours 01B</a>&nbsp; 📚</li>
-                    <li><a href="#">Cours 02A</a></li>
-                    <li><a href="#">Cours 02B</a></li>
-                    <li><a href="#">Cours 03A</a></li>
-                    <li><a href="#">Cours 03B</a></li>
-                    <li><a href="#">Cours 04A</a></li>
-                    <li><a href="#">Cours 04B</a></li>
-
-                    <li><a href="#">Cours 01A</a></li>
-                    <li><a href="#">Cours 01B</a></li>
-                    <li><a href="#">Cours 02A</a></li>
-                    <li><a href="#">Cours 02B</a></li>
-                    <li><a href="#">Cours 03A</a></li>
-                    <li><a href="#">Cours 03B</a></li>
-                    <li><a href="#">Cours 04A</a></li>
-                    <li><a href="#">Cours 04B</a></li>
-
-                    <li><a href="#">Cours 01A</a></li>
-                    <li><a href="#">Cours 01B</a></li>
-                    <li><a href="#">Cours 02A</a></li>
-                    <li><a href="#">Cours 02B</a></li>
-                    <li><a href="#">Cours 03A</a></li>
-                    <li><a href="#">Cours 03B</a></li>
-                    <li><a href="#">Cours 04A</a></li>
-                    <li><a href="#">Cours 04B</a></li>
-
-                    <li><a href="#">Cours 01A</a></li>
-                    <li><a href="#">Cours 01B</a></li>
-                    <li><a href="#">Cours 02A</a></li>
-                    <li><a href="#">Cours 02B</a></li>
-                    <li><a href="#">Cours 03A</a></li>
-                    <li><a href="#">Cours 03B</a></li>
-                    <li><a href="#">Cours 04A</a></li>
-                    <li><a href="#">Cours 04B</a></li>
-
-                    <li><a href="#">Cours 01A</a></li>
-                    <li><a href="#">Cours 01B</a></li>
-                    <li><a href="#">Cours 02A</a></li>
-                    <li><a href="#">Cours 02B</a></li>
-                    <li><a href="#">Cours 03A</a></li>
-                    <li><a href="#">Cours 03B</a></li>
-                    <li><a href="#">Cours 04A</a></li>
-                    <li><a href="#">Cours 04B</a></li>
-                </ul>
-            </div>
-            <div id="wiki__pages">
