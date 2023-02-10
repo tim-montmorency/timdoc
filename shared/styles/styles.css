@@ -1455,39 +1455,39 @@ footer #copyright {
   font-size: 16px;
 }
 
-#contents {
+#contents, #wiki__pages {
   width: 100%;
   max-width: 770px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 25px;
 }
-#contents ul, #contents ol {
+#contents ul, #contents ol, #wiki__pages ul, #wiki__pages ol {
   margin-left: 25px;
   margin-bottom: 25px;
   line-height: 1.4;
 }
-#contents ul li, #contents ol li {
+#contents ul li, #contents ol li, #wiki__pages ul li, #wiki__pages ol li {
   margin-top: 15px;
 }
 @media (min-width: 576px) {
-  #contents ul, #contents ol {
+  #contents ul, #contents ol, #wiki__pages ul, #wiki__pages ol {
     line-height: 28px;
   }
 }
-#contents p {
+#contents p, #wiki__pages p {
   margin-bottom: 25px;
   line-height: 1.4;
 }
 @media (min-width: 576px) {
-  #contents p {
+  #contents p, #wiki__pages p {
     line-height: 28px;
   }
 }
-#contents p.spacer:before {
+#contents p.spacer:before, #wiki__pages p.spacer:before {
   content: "        ";
 }
-#contents img {
+#contents img, #wiki__pages img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1495,29 +1495,30 @@ footer #copyright {
   width: auto;
   max-width: 100%;
 }
-#contents h2, #contents h3 { /* les h2 devront devenir des h3 */
+#contents h2, #contents h3, #wiki__pages h2, #wiki__pages h3 { /* les h2 devront devenir des h3 */
   margin-bottom: 25px;
   margin-top: 50px;
   font-size: 6vw;
 }
 @media (min-width: 576px) {
-  #contents h2, #contents h3 {
+  #contents h2, #contents h3, #wiki__pages h2, #wiki__pages h3 {
     font-size: 28px;
   }
 }
-#contents .grostitre + h3 {
+#contents .grostitre + h3, #wiki__pages .grostitre + h3 {
   margin-top: 20px;
 }
-#contents em {
+#contents em, #wiki__pages em {
   color: #b98304;
 }
 #contents p code,
-#contents ul code {
+#contents ul code, #wiki__pages p code,
+#wiki__pages ul code {
   background-color: rgba(0, 0, 0, 0.05);
   padding: 0.25em 0.4em 0.4em 0.4em;
   font-size: 90%;
 }
-#contents span.remark {
+#contents span.remark, #wiki__pages span.remark {
   display: block;
   text-align: center;
   font-size: 14px;
@@ -1525,10 +1526,10 @@ footer #copyright {
   margin-bottom: 25px;
   color: rgb(177, 176, 176);
 }
-#contents span.remark .inline-code {
+#contents span.remark .inline-code, #wiki__pages span.remark .inline-code {
   font-size: 12px;
 }
-#contents .demo-inspecteur {
+#contents .demo-inspecteur, #wiki__pages .demo-inspecteur {
   display: inline-block;
   border: dotted 1px #00c774;
   padding: 1em;
@@ -1654,4 +1655,38 @@ table tr:nth-child(even) td {
 .video-container {
   margin-left: -25px;
   margin-right: -25px;
+}
+
+#wiki {
+  display: flex;
+  min-height: 100%;
+}
+#wiki__list {
+  top: 0;
+  min-width: 200px;
+  min-height: 100%;
+  background-image: linear-gradient(to right, #111111, #000000);
+}
+#wiki__list ul {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 25px 25px;
+}
+#wiki__list ul li {
+  margin-bottom: 20px;
+  list-style-type: none;
+  font-size: 16px;
+}
+#wiki__pages {
+  width: 100%;
+  max-width: 100%;
+  padding: 25px 25px;
+}
+#wiki__pages h3 {
+  margin-top: 0;
+}
+
+body:has(div#wiki) {
+  padding-bottom: 0;
 }/*# sourceMappingURL=styles.css.map */

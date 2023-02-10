@@ -66,6 +66,9 @@ function get_children($parent = null) {
         if(!is_file(($file = $dir.S.'_index.php'))) continue;
         if(!$data = php_file_info($file)) continue;
         if(empty($data)) continue;
+        // check type
+        if($data->type == 'wiki') continue;
+        // <--
         $data->href = pathinfo($dir, PATHINFO_BASENAME).'/';
         $children[] = $data;
     }
@@ -133,6 +136,7 @@ function print_header() {
         case 'exercice': print_exercice_header(); break;
         case 'tool':     print_tool_header(); break;
         case 'list':     print_list_header(); break;
+        case 'wiki':     print_wiki_header(); break;
         default:         print_main_header();
     }
 }
@@ -150,6 +154,7 @@ function print_footer() {
         case 'exercice': print_exercice_footer(); break;
         case 'tool':     print_tool_footer(); break;
         case 'list':     print_list_footer(); break;
+        case 'wiki':     print_wiki_footer(); break;
         default:         print_main_footer();
     }
 }
@@ -271,6 +276,29 @@ function print_tool_footer() {
     include('tool_footer.php');
     print_main_footer();
 }
+
+
+/**
+ * Wiki header printing
+ *
+ * @return void
+ */
+function print_wiki_header() {
+    global $PAGE;
+    include('wiki_header.php');
+}
+
+
+/**
+ * Wiki footer printing
+ *
+ * @return void
+ */
+function print_wiki_footer() {
+    global $PAGE;
+    include('wiki_footer.php');
+}
+
 
 
 if(!function_exists('php_file_info')) { function php_file_info($file){} }
