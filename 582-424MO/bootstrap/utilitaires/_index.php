@@ -2,136 +2,197 @@
 
 /**
  * @type     article
- * @title    Cartes
+ * @title    Utilitaires
  * @icon     images/icon.png
- * @abstract Permettent de générer rapidement et facilement des cartes
+ * @abstract Bootstrap dispose de nombreuses classes utilitaires/d'aide permettant de styliser rapidement les éléments sans utiliser de code CSS.
  */
 ?>
 
 
 
-<grostitre>Introduction</grostitre>
-<p>Les cartes Bootstrap permettent, comme leur nom l'indique, de générer rapidement et facilement des cartes comme celle-ci:</p>
+<p>Bootstrap est truffés de classes utilitaires permettant de simplifier/accélérer le développement. Afin de vous familiariser avec ce concept, nous allons examiner quelques-unes d'entre elles.</p>
 
+<grostitre>Image responsive</grostitre>
 
-<p class="codepen" data-height="350" data-theme-id="43847" data-default-tab="result" data-slug-hash="mdjaoJR" data-user="tim-momo" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/mdjaoJR">
-            Bootstrap - Card basic</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-        on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+<p>Comme son nom le laisse sous-entendre, la classe&nbsp;<code>.img-fluid</code>&nbsp;sert à rendre une image fluid/responsive en lui appliquant les propriétés CSS&nbsp;suivantes:</p>
 
+<highlight lang='css'>max-width: 100%;
+height: auto;</highlight>
 
-<br><br><br>
+<p>La propriété&nbsp;<code>max-width</code>&nbsp;fait en sorte que l'image affichera selon sa taille normale, à moins que l'espace soit insuffisant. Dans ce cas, elle sera limitée à la largeur disponible. De son côté,&nbsp;<code>height: auto;</code>&nbsp;s'assure que l'image ne soit jamais&nbsp;déformée.</p>
 
+<p>Pour activer cette classe, il suffit de l'ajouter à une image ainsi:</p>
 
-<p>Les cartes prennent la dimension de leur parent. Il est donc important de les inclure dans une colonne Bootstrap aillant la dimension&nbsp;souhaitée.</p>
+<highlight lang='html'>&lt;img src=&quot;image.jpg&quot; class=&quot;img-fluid&quot;&gt;</highlight>
 
-<dots></dots>
-<grostitre>Image</grostitre>
-
-<p>Il est possible d'insérer une image dans une carte Bootstrap en ajoutant une balise&nbsp;<code>&lt;img&gt;</code>&nbsp;et en lui attribuant la classe&nbsp;<code>.card-img-top</code>&nbsp;ou&nbsp;<code>.card-img-bottom</code>&nbsp;afin d'indiquer où cette image doit afficher, soit en haut ou en bas de la&nbsp;carte.</p>
-<p>Par exemple pour l'afficher en&nbsp;haut:</p>
-
-<highlight lang="html">&lt;div class=&quot;card&quot;&gt;
-    &lt;img src=&quot;image.jpg&quot; class=&quot;card-img-top&quot;&gt;
-&lt;/div&gt;</highlight>
+<doclink href='https://getbootstrap.com/docs/5.2/content/images/'>.img-fluid</doclink>
 
 <dots></dots>
-<grostitre>Corps</grostitre>
 
-<p>Le corps de la carte contient son texte principal. Pour le définir, il suffit d'ajouter la classe&nbsp;<code>.card-body</code>&nbsp;à l'intérieur de la carte comme&nbsp;ceci:</p>
+<grostitre>Alignements de texte</grostitre>
 
-<highlight lang="html">&lt;div class=&quot;card&quot;&gt;
-    &lt;div class=&quot;card-body&quot;&gt;Description&lt;/div&gt;
-&lt;/div&gt;</highlight>
 
-<p>Le corps définit un espace à l'intérieur de la carte empêchant sont contenu de toucher à l'image où aux bordures de&nbsp;celle-ci.</p>
+<p>Pour aligner un texte à gauche, au centre ou à droite, il est possible d'utiliser les classes utilitaires&nbsp;suivantes:</p>
+
+<ul>
+    <li><code>text-start</code>&nbsp;à gauche</li>
+    <li><code>text-center</code>&nbsp;au centre</li>
+    <li><code>text-end</code>&nbsp;à droite</li>
+</ul>
+
+<p>Toutes ces options d'alignements sont compatibles avec l'ajout d'un breakpoint afin d'indiquer quand leur comportement devrait devenir&nbsp;actif.</p>
+
+<p>Par exemple, pour centrer un texte lorsque le breakpoint&nbsp;<code>lg</code>&nbsp;est atteint, il serait possible de&nbsp;faire:</p>
+
+<highlight lang='html'>&lt;p class=&quot;text-lg-center&quot;&gt;Texte centré en lg&lt;/p&gt;</highlight>
+
+<doclink href='https://getbootstrap.com/docs/5.2/utilities/text/'>.text-...</doclink>
 
 <dots></dots>
-<grostitre>Titre</grostitre>
+<grostitre>Display</grostitre>
 
-<p>À l'intérieur du corps, il est possible d'ajouter un titre en utilisant la balise de titre adéquate et la classe&nbsp;<code>.card-title</code>&nbsp;comme&nbsp;suit:</p>
 
-<highlight lang="html">&lt;div class=&quot;card&quot;&gt;
-    &lt;div class=&quot;card-body&quot;&gt;
-        &lt;h3 class=&quot;card-title&quot;&gt;Titre&lt;/h3&gt;
-        Description
+<p>Pour donner une valeur de&nbsp;<code>display</code>&nbsp;particulière à un élément, il est possible d'utiliser les classes utilitaires&nbsp;suivantes:</p>
+
+<ul>
+    <li>
+        <code>d-block</code>&nbsp;pour display block.
+    </li>
+    <li>
+        code>d-inline</code>&nbsp;pour display inline.
+    </li>
+    <li>
+        <code>d-inline-block</code>&nbsp;pour display inline-block.
+    </li>
+    <li>
+        <code>d-flex</code>&nbsp;pour display flex.
+    </li>
+    <li>
+        <code>d-none</code>&nbsp;pour display none.
+    </li>
+    <li>
+       etc.
+    </li>
+</ul>
+
+<p>Toutes ces options de display sont compatibles avec l'ajout d'un breakpoint afin d'indiquer le moment où l'affichage un affichage devrait&nbsp;changer.</p>
+
+<p>Par exemple, pour qu'un élément soit invisible par défaut, mais devienne en&nbsp;<code>display: block</code>&nbsp;lorsque le breakpoint&nbsp;<code>lg</code>&nbsp;est atteint, il serait possible de&nbsp;faire:</p>
+
+
+<highlight lang='html'>&lt;div class=&quot;d-none d-lg-block&quot;&gt;...&lt;/div&gt;</highlight>
+
+<doclink href='https://getbootstrap.com/docs/5.2/utilities/display/'>.d-...</doclink>
+
+<dots></dots>
+
+<grostitre>Display: Flex</grostitre>
+<p>Comme on a vu avec le <a href="../grille/#rangees" target="_blank">système de grille</a>, les rangées pouvaient accueillir des classes utilitaires référent au système de flexbox afin de permettre d'aligner leur balises enfants, les columns. Vous vous rappelez certainement de cette formulation pour centrer toutes les colonnes dans leurs rangée en ajoutant la classe<code>.justify-content-center</code> à la balise contantnt la classe <code>.row</code>?</p>
+<highlight lang='html'>&lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row justify-content-center&quot;&gt;
+        &lt;div class=&quot;col-2&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-2&quot;&gt;&lt;/div&gt;
     &lt;/div&gt;
-&lt;/div&gt;</highlight>
+&lt;/div&gt;
+</highlight>
+
+<p>Et bien, Bootstrap nous offre une panoplie de classes utilitaires pour nous permettre de placer de nos éléments suivant le système Flexbox.</p>
+
+<p>Tel qu'expliqué précédemment, vous devez ajouter la classe d-flex sur la balise parent des éléments à positionner. </p>
+
+
+<h3>Balise parent</h3>
+<p>Liste non-exhaustive des classes que vous pouvez utiliser sur la <strong>balise parent</strong> qui contient des balises enfants à positionner:</p>
+<ul>
+    <li><code>.d-flex</code></li>
+    <li><code>.flex-row</code> : référence à la propriété css flex-direction</li>
+    <li><code>.flex-column</code> : référence à la propriété css flex-direction</li>
+    <li><code>.justify-content-center</code></li>
+    <li><code>.justify-content-end</code></li>
+    <li><code>.justify-content-between</code></li>
+    <li><code>.align-items-start</code></li>
+    <li><code>.align-items-center</code></li>
+    <li><code>.align-items-stretch</code></li>
+
+    <li><code>flex-wrap</code></li>
+    <li><code>flex-nowrap</code></li>
+    
+</ul>
+
+<h3>Balise enfant</h3>
+<p>Liste non-exhaustive des classes que vous pouvez utiliser sur la <strong>balises enfants</strong> à positionner dans l'espace:</p>
+<ul>
+    <li><code>.align-self-start</code></li>
+    <li><code>.align-self-center</code></li>
+    <li><code>.flex-grow-1</code></li>
+    <li><code>.flex-grow-2</code></li>
+    <li><code>.flex-shrink-1</code></li>
+    <li><code>.justify-content-between</code></li>
+    <li><code>.align-items-start</code></li>
+    <li><code>.align-items-center</code></li>
+    <li><code>.align-items-stretch</code></li>
+</ul>
+
+<p>Sachez que vous pouvez toujours ajouter les breakpoints à ces classes afiin de faire des exception de positionnement dépendant de la largeur de l'écran. L'exemple suivant permettra d'afficher par défaut, sur petit écran, A, B et C un en dessous de l'autre grace à <code>.flex-column</code>, et à partir du breakpoint <em>>md</em>, ils s'afficheront un à côté de l'autre sur une même rangée, grâce à <code>.flex-md-row</code>.</p>
+
+<highlight lang='html'>
+&lt;div class=&quot;d-flex flex-column flex-md-row&quot;&gt;
+    &lt;div class=&quot;w-25&quot;&gt;A&lt;/div&gt;
+    &lt;div class=&quot;w-25&quot;&gt;B&lt;/div&gt;
+    &lt;div class=&quot;w-25&quot;&gt;C&lt;/div&gt;
+&lt;/div&gt;
+</highlight>
+
+<doclink href='https://getbootstrap.com/docs/5.2/utilities/flex/'>flex</doclink>
+
 
 <dots></dots>
-<grostitre>Entête et pied</grostitre>
 
-<p>L'entête et le pied d'une carte Bootstrap permettent de définir une zone séparée du reste de la carte afin de les mettre en évidence.</p>
+<grostitre>Espacement (spacing)</grostitre>
 
-<p>Pour définir de telles zones, il suffit d'ajouter des balises avec les classes&nbsp;<code>.card-header</code>&nbsp;ou&nbsp;<code>.card-footer</code>.</p>
+<p>Bootstrap comprend un large éventail de classes utilitaires de marge (margin), de remplissage (padding) pour modifier l'apparence d'un élément.</p>
 
-<p>Par exemple pour une entête:</p>
+<h3>Où la <em>propriété</em> est l'une des :</h3>
 
-<highlight lang="html">&lt;div class=&quot;card&quot;&gt;
-    &lt;div class=&quot;card-header&quot;&gt;Ent&ecirc;te&lt;/div&gt;
-&lt;/div&gt;</highlight>
+<ul>
+    <li><code>m</code> - pour les classes qui modifient la marge <code>margin</code></li>
+    <li><code>p</code> - pour les classes qui modifient le remplissage <code>padding</code></li>
+</ul>
 
+<h3>Où le <em>côté</em> est l'une des :</h3>
 
-<p class="codepen" data-height="400" data-theme-id="43847" data-default-tab="result" data-slug-hash="RwBEdpp" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/RwBEdpp">
-  Bootstrap - Card basic</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+<ul>
+    <li><code>t</code> - pour les classes qui modifient  <code>margin-top</code> ou <code>padding-top</code></li>
+    <li><code>b</code>- pour les classes qui modifient <code>margin-bottom</code> ou <code>padding-bottom</code></li>
+    <li><code>s</code> - (start) - pour les classes qui modifient <code>margin-left</code> ou <code>padding-left</code> in LTR, <code>margin-right</code> or <code>padding-right</code> in RTL</li>
+    <li><code>e</code> - (end) - pour les classes qui modifient <code>margin-right</code> ou <code>padding-right</code> in LTR, <code>margin-left</code> or <code>padding-left</code> in RTL</li>
+    <li><code>x</code> - pour les classes qui modifient à la fois <code>*-left</code> ET <code>*-right</code></li>
+    <li><code>y</code> - pour les classes qui modifient à la fois <code>*-top</code> ET <code>*-bottom</code></li>
+    <li>blank - pour les classes qui modifient <code>margin</code> ou <code>padding</code> sur tous les 4 côté de l'élément.</li>
+</ul>
 
-
-<dots></dots>
-<grostitre>Liste</grostitre>
-
-
-<p>Il est aussi possible d'inclure des listes en utilisant la composante de liste de Bootstrap&nbsp;<code>.list-group</code>&nbsp;et en y ajoutant le modificateur&nbsp;<code>.list-group-flush</code>.</p>
-<p>Par exemple:</p>
-
-<highlight lang="html">&lt;div class=&quot;card&quot;&gt;
-    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
-        &lt;li class=&quot;list-group-item&quot;&gt;Fait 1&lt;/li&gt;
-        &lt;li class=&quot;list-group-item&quot;&gt;Fait 2&lt;/li&gt;
-        &lt;li class=&quot;list-group-item&quot;&gt;Fait 3&lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/div&gt;</highlight>
-
-<p class="codepen" data-height="400" data-theme-id="43847" data-default-tab="result" data-slug-hash="eYjbXva" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/eYjbXva">
-  Bootstrap - Card header</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+<h3>Où la <em>dimension</em> est l'une des :</h3>
 
 
 
-<dots></dots>
-<grostitre>Horizontal</grostitre>
+<ul>
+    <li><code>0</code> - pour les classes qui éliminent <code>margin</code> ou <code>padding</code> en le fixant à <code>0</code></li>
+    <li><code>1</code> - pour les classes qui modifient <code>margin</code> ou <code>padding</code> à <code>$spacer * .25</code></li>
+    <li><code>2</code>  - pour les classes qui modifient code>margin</code> ou <code>padding</code> à <code>$spacer * .5</code></li>
+
+    <li><code>3</code> - pour les classes qui modifient <code>margin</code> ou <code>padding</code> à <code>$spacer</code></li>
+    <li><code>4</code> - pour les classes qui modifient <code>margin</code> ou <code>padding</code> à <code>$spacer * 1.5</code></li>
+    <li><code>5</code> - pour les classes qui modifient <code>margin</code> ou <code>padding</code> à <code>$spacer * 3</code></li>
+    <li><code>auto</code>  - pour les classes qui modifient <code>margin</code> ou <code>padding</code> à auto</li>
+</ul>
+
+<h3>Exemples</h3>
+<highlight lang='html'>&lt;h1 class=&quot;mt-0&quot;&gt;Abc&lt;/h1&gt;</highlight>
+<p>Équivaut à appliquer le css <code>margin-top: 0;</code></p>
+
+<highlight lang='html'>&lt;div class=&quot;px-3&quot;&gt;Abc&lt;/div&gt;</highlight>
+<p>Équivaut à appliquer le css <code>padding-left: 1rem; padding-right: 1rem;</code></p>
 
 
-<p>Il est possible de changer la direction verticale d'une carte à horizontale en insérant une nouvelle rangée Bootstrap à l'intérieur de&nbsp;celle-ci.</p>
-<p>Par exemple:</p>
-
-<highlight lang="html">&lt;div class=&quot;card&quot;&gt;
-    &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col-5&quot;&gt;
-            &lt;img src=&quot;image.jpg&quot; class=&quot;img-fluid&quot;&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;col-7&quot;&gt;
-            &lt;div class=&quot;card-body&quot;&gt;Description&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt
- &lt;/div&gt;</highlight>
-
-<p class="codepen" data-height="200" data-theme-id="43847" data-default-tab="result" data-slug-hash="ZEjVPyZ" data-user="tim-momo" style="height: 200px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/ZEjVPyZ">
-  Bootstrap - Card list</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
 <br>
-<doclink href="https://getbootstrap.com/docs/5.3/components/card/">Cards</doclink>
-
-
-<dots></dots>
-<exercice href="../exercices/bootstrap-nav-card"></exercice>
-
-
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<doclink href='https://getbootstrap.com/docs/5.2/utilities/spacing/'>Spacing</doclink>

@@ -1,0 +1,135 @@
+:root {
+  --primary: #fefefe;
+  --secondary: #111;
+  --green: #00c774;
+  --green-dark: #009e24;
+  --red: #ff8487;
+  --red-dark: #ff262b;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary: #111;
+    --secondary: #fefefe;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondary);
+  background-color: var(--primary);
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vmin;
+  margin: 0 auto;
+}
+
+.cell {
+  position: relative;
+  display: flex;
+  flex: 0 0 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-cell {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.cloud {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.cloud__svg {
+  display: block;
+  fill: var(--secondary);
+  width: 80%;
+}
+.cloud .sub-cell {
+  width: 50%;
+}
+
+.laptop {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.laptop__svg {
+  display: block;
+  fill: var(--secondary);
+  width: 80%;
+}
+.laptop__persona {
+  position: absolute;
+  bottom: 20%;
+  left: 20%;
+  font-size: 8vmin;
+  transform: translate(-50%, 25%);
+}
+.laptop__content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 10vmin;
+  transform: translate(-50%, -60%);
+}
+.laptop__content__animation {
+  opacity: 0;
+}
+.sub-cell .laptop {
+  width: 100%;
+}
+
+.button {
+  color: #fff;
+  background-color: var(--green);
+  border: solid 1px var(--green-dark);
+  border-radius: 3vmin;
+  min-width: 25vmin;
+  font-size: 4vmin;
+  padding: 1vmin 2vmin;
+  opacity: 0;
+  transform: scale(1);
+}
+
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary);
+  opacity: 0;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 45vmin;
+  padding: 3vmin;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 3vmin;
+  background-color: var(--red);
+  border-radius: 4vmin;
+  opacity: 0;
+}

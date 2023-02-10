@@ -45,20 +45,9 @@ Chaque carte doit prendre toute la largeur disponible par défaut.
 
 <dots> </dots>
 
-<grostitre>Notes de cours</grostitre>
+<grostitre>Notes de cours 📚</grostitre>
 
-<div id="listing">
-    <div class="list-grid">
-        <div class="list-grid__item">
-            <div class="list-grid__item__icon" style="background-image: url('../../navbar/images/icon.png');"></div>
-            <div class="list-grid__item__description"><span class="list-grid__item__title"><a href="../../navbar/">NavBar</a></span> <span class="list-grid__item__abstract">La barre de navigation Bootstrap</span></div>
-        </div>
-        <div class="list-grid__item">
-            <div class="list-grid__item__icon" style="background-image: url('../../cartes/images/icon.png');"></div>
-            <div class="list-grid__item__description"><span class="list-grid__item__title"><a href="../../cartes/">Cartes</a></span> <span class="list-grid__item__abstract">Permettent, comme leur nom l'indique, de générer rapidement et facilement des cartes</span></div>
-        </div>
-       
-    </div>
-</div>
 
-<?php //intlink("../../cartes/") ?>
+
+<?php intlink("../../cartes/") ?>
+<?php intlink("../../navbar/") ?>
