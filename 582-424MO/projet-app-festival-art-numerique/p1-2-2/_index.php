@@ -17,7 +17,9 @@ Vous devez <a target="_blank" href="https://smnarnold.com/cours/git/github" oncl
 La personne ayant créé le répertoire avec son propre compte GitHub doit inviter son coéquipier afin que celui-ci puisse y avoir accès.
 Vous decez ensuite cloner localement le répertoire du projet et y déposer les fichiers que vous avez créés dans le devoir <a href="../p1-2-1/" target="_blank" onclick="event.stopPropagation()">P1.2.1</a>.
 Éditez le fichier README, utilisez le MARKDOWN.<br> -Affichez le nom de votre choix de festival en tant de titre principal du markdown (heading niveau 1)<br> -Ajoutez ensuite le nom de ce cours suivi du nom du projet, ex: <a href="https://tim-montmorency.com/timdoc/582-424MO/projet-app-festival-art-numerique/" target="_blank" onclick="event.stopPropagation()">Optimisation Web - Air Flight</a><br>- Ajoutez un sous-titre nommé "Équipe", ainsi qu'une liste liste à puce avec chacun des membres de l'équipe.
-
+Faites un push vers GitHub.
+Le 2e coéquipier, devra à son tour faire un clone sur son ordi.
+Vous êtes maintenant prêts à faire un pull à nouveau, chacun de votre côté et vous assurer que vous partez tous du même pied.
 </checklist>
 <dots></dots>
 
@@ -128,3 +130,5 @@ Au besoin, ajoutez des classes d'espacement Bootstrap pour aligner les élément
 <info>
   Le format "icon font" est le suivant: <code>&lt;i class=&quot;bi-alarm&quot;&gt;&lt;/i&gt;</code>.<br>Voir la <a href="https://icons.getbootstrap.com/#install" target="_blank" >documentation sur les icones Bootstrap</a> pour en savoir plus.
 </info>
+
+<grostitre>Remise de P1.2</grostitre>
