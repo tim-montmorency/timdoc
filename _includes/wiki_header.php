@@ -17,6 +17,6 @@
         <script>const shared = '<?php echo $PAGE->shared; ?>';</script>
         <title><?php echo $PAGE->title; ?></title>
     </head>
-    <body class="dark">
+    <body class="dark" style="padding-bottom: 0;">
         <wiki>
             <!-- WIKI HEADER EOF -->
