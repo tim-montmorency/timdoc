@@ -131,3 +131,5 @@ Au besoin, ajoutez des classes d'espacement Bootstrap pour aligner les élément
 </info>
 
 <grostitre>Remise de P1.2</grostitre>
+<p>Une fois tout complété, créez vous une branche git nommée <em>P1-2</em> et publiez cette branche sur github.</p>
+<p>Après la remise, vous ne touchez plus à cette branche. Vous devrez continuer sur la branche <em>main</em> et la branche P1-2 demeurera telle qu'elle afin que je puisse y faire ma correction. Les propchaines remises seront toujours sur des branches distinctes.</p>
