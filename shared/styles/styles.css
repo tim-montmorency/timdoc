@@ -1664,7 +1664,7 @@ table tr:nth-child(even) td {
 }
 #wiki__list {
   min-width: 200px;
-  min-height: 100%;
+  min-height: 100vh;
   background-image: linear-gradient(to right, #111111, #000000);
 }
 #wiki__list ul {
