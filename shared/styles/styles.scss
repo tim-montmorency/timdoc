@@ -469,7 +469,7 @@ table{
                 line-height: 18px;
 
                 &:has(a.active):after {
-                    content: '\00a0📚';
+                    content: '\00a0\1f4da';
                 }
             }
         }
