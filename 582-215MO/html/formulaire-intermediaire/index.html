@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/commons.js"></script>
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Formulaire intermédiaire</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../../">Intégration Web</a> > <a href="../">HTML</a> ></div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Formulaire intermédiaire</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Heureusement, les formulaires ne se limitent pas aux <incode>&lt;input type=&quot;text&quot;&gt;</incode>. Ils acceptent une variété de champs adaptés a différents type d'information. Voyons quelques-uns de ces champs.</p>
+
+<dots></dots>
+
+
+<grostitre>Checkbox</grostitre>
+
+<p>Les boîtes à cocher permettent de définir individuellement un statut booléen <em>(true/false)</em> pour une option ☑. Leur usage est approprié lorsque des choix optionnels sont disponibles.</p>
+
+<p>Par exemple, si des options en extra sont offertes sur une pizza 🍕</p>
+
+<codepen id="KKBORzq" tab="html,result" height="340"></codepen>
+
+<h3>Attributs de checkbox</h3>
+
+<ul>
+    <li><incode>name</incode> nom de référence lorsque le formulaire est soumis.</li>
+    <li><incode>checked</incode> permet de spécifier à l'aide d'un booléen <em>(true/false)</em> si l'option devrait être cochée ou non. Si aucune valeur n'est attribuée, la simple présence de l'attribut suffit à cocher l'élément.</li>
+</ul>
+
+<info>
+    Lorsqu’une boite à cocher est cochée, la pseudo-classe <incode>:checked</incode> est ajoutée à l’élément, permettant ainsi de modifier l’apparence de l’élément en fonction de son statut.
+    <br><br>
+    Par exemple: <incode>.checkbox:checked { outline: solid 5px green; }</incode>
+</info>
+
+<ul>
+    <li><incode>value</incode> cet attribut est optionnel. S'il n'est pas spécifié et que l'option <em>Olives</em> est cochée, la soumission du formulaire retourne <incode>olives: "on"</incode>. Si une <incode>value</incode> est spécifiée, comme dans le cas de l'option <em>Oignons</em>, le formulaire retourne <incode>oignons: "oui svp"</incode>.</li>
+    <li><incode>disabled</incode> permet d'afficher en lecture seule une boite à cochée afin d'indiquer que bien qu'elle soit normalement disponible, elle ne l'est pas en ce moment.</li>
+</ul>
+
+<warning>Contrairement aux autres <incode>&lt;input&gt;</incode>, les boîtes à cocher ne sont incluses dans les soumissions du formulaire uniquement si celles-ci sont cochées ✅.</warning>
+
+<exercice href="exercices/menu-hamburger/"></exercice>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/checkbox">input checkbox</doclink>
+<doclink href="https://www.w3schools.com/tags/att_input_type_checkbox.asp">input checkbox</doclink>
+
+<dots></dots>
+
+
+<grostitre>Radio</grostitre>
+
+<p>Les boutons radio permettent de choisir <strong>une seule option</strong> parmi un groupe 🔘. Leur usage est approprié lorsque peu d'options sont disponibles ou qu'il est important que l'usager puisse voir toutes les options disponibles.</p>
+
+<p>Par exemple, si seulement une option de pizza 🍕 peut-être sélectionnée:</p>
+
+<codepen id="mdjNzpB" tab="html,result" height="340"></codepen>
+
+<h3>Attributs de radio</h3>
+
+<ul>
+    <li><incode>name</incode> tous les boutons radio partageant le même <incode>name</incode> font partie d'un même groupe. Seul une option/un bouton radio parmi ce groupe peut être sélectionnée à la fois.<br><br>Par exemple, il est impossible de sélectionner les options <em>Végétarienne</em> et <em>Toute garnie</em> en même temps, puisqu'elles font toutes deux partie du groupe <incode>pizza</incode>.</li>
+    <li><incode>checked</incode> permet de spécifier à l'aide d'un booléen <em>(true/false)</em> si l'élément doit-être sélectionné. Si aucune valeur n'est attribuée, la simple présence de l'attribut suffit à sélectionner l'élément.</li>
+</ul>
+
+<info>
+    La présence ou absence de cet attribut est aussi utilisée en CSS afin d’appliquer des styles différents en fonction du statut de l’élément.
+    <br><br>
+    Par exemple: <incode>.radio:checked { outline: solid 5px green; }</incode>
+</info>
+
+<ul>
+    <li><incode>value</incode> indique la valeur associée au bouton radio. Ainsi lorsque le formulaire est soumis, la valeur associée au <incode>name</incode> est celle de l'élément <incode>checked</incode>.<br><br>Par exemple, si le formulaire est soumis sans que les boutons radio soient touchés, la valeur reçue sera <incode>pizza: "toute-garnie"</incode>.</li>
+    <li><incode>disabled</incode> permet d'afficher en lecture seule une option afin d'indiquer que bien qu'elle soit normalement disponible, celle-ci ne l'est pas en ce moment.</li>
+</ul>
+
+<exercice href="exercices/dragonball/"></exercice>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/radio">input radio</doclink>
+<doclink href="https://www.w3schools.com/tags/att_input_type_radio.asp">input radio</doclink>
+
+<dots></dots>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>

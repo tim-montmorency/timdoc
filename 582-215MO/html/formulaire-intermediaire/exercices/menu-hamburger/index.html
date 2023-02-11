@@ -15,7 +15,7 @@
         <script src="../../../../../shared/jscripts/swiper-bundle.min.js"></script>
         <script src="../../../../../shared/jscripts/vue.global.prod.js"></script>
         <script>const shared = '../../../../../shared/';</script>
-        <title>SVG - Hollywood Boulevard</title>
+        <title>Checkbox - Menu Hamburger</title>
     </head>
     <body>
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
@@ -30,63 +30,51 @@
         </header>
         <main>
             <!-- MAIN HEADER EOF -->            <div id="subhead">
-                <div id="title">SVG - Hollywood Boulevard</div>
+                <div id="title">Checkbox - Menu Hamburger</div>
             </div>
             <article>
                 <div id="contents">
                     <!-- EXERCICE HEADER EOF -->
 
-<p class="spacer">Pour cet exercice, vous devrez vous créer votre propre étoile ⭐️ sur le <a target="_blank" href="https://fr.wikipedia.org/wiki/Hollywood_Boulevard">Hollywood Boulevard</a> grace au pour de SVG!</p>
+<p class="spacer">Pour cet exercice nous allons créer une des options de navigation les plus populaires, le menu hamburger 🍔. Pour ce faire nous allons exploiter la pseudo-classes spécifique aux boites à cocher <em>(checkbox)</em> afin de déterminer quand un élément doit être visible/invisible.</p>
+
+<p>Cet aspect des boites à cocher permet de créer de l’interactivité sans même avoir recours au JavaScript.</p>
 
 <p>Aperçu du résultat 👇</p>
 
-<clipasset src="videos/svg-hollywood-boulevard-resultat.mp4"></clipasset>
+<clipasset src="videos/checkbox-menu-hamburger.mp4"></clipasset>
 
 <dots></dots>
 
 
 <grostitre>Matériel</grostitre>
 
-<doclink href="https://codepen.io/tim-momo/pen/YzjOWqv?editors=1100">Pen de départ</doclink>
+<doclink href="https://codepen.io/tim-momo/pen/BaPXPpE?editors=1100">Pen de départ</doclink>
 
-<h3>Couleurs 🎨</h3>
-
-<color>#e96ea7</color>
-<color>#f7b32b</color>
+<warning>Vous n’avez qu’à écrire du CSS et modifier du HTML <em>(nul besoin d’ajouter du JavaScript)</em>.</warning>
 
 <dots></dots>
 
 
-<grostitre>Requis Illustrator</grostitre>
+<grostitre>Requis</grostitre>
 
 <checklist>
-    Créez un fichier Illustrator d’une dimension de 100x100px.
-    Utilisez l’outil de forme afin de tracer une étoile jaune 🟡 avec une bordure noire couvrant l’ensemble de votre canevas.
-    Choisissez une typographie et inscrivez votre nom par-dessus l’étoile. Une fois terminé, vectoriser votre texte.
-    Ajoutez un cercle noir au centre de l’étoile, sous votre nom.
-    Pensez à renommer adéquatement chaque calque de votre fichier <em>(cette étape vous simplifiera grandement la vie pour la suite)</em>.
-    Ajustez la dimension de votre canevas à son contenu afin de retirer l’espace vide superflu.
-    Exportez votre SVG en fichier ou en code, selon votre préférence, et optimisez-le via <a onclick="event.stopPropagation()" target="_blank" href="https://jakearchibald.github.io/svgomg/">SVGOMG</a> afin de simplifier son contenu.
+    Ajoutez l'attribut nécessaire aux deux balise <span class="inline-code">label</span> afin que ceux-ci coche/décoche la boite à cocher.
+    L'apparence du menu est déjà programmée. Cependant, le menu est présentement invisible puisqu'il affiche à l'extérieur de la page. Faites en sorte de détecter en CSS si la boite à cocher est cochée ou non. Si elle est cochée, modifiez la position du menu de sorte qu'il devienne visible.
+    Lorsque l'apparition et la disparition du menu fonctionnent, faites disparaitre en CSS la boite à cocher. Elle doit encore être présente dans le code HTML afin de pouvoir être cochée/décochée, mais il n'est plus nécessaire de la voir.
 </checklist>
-
-<img src="images/svg-hollywood-boulevard-illustrator.png">
-
-<span class="remark">À ce stade-ci, votre étoile devrait ressembler à ceci.</span>
 
 <dots></dots>
 
 
-<grostitre>Requis web</grostitre>
+<grostitre>Bonus</grostitre>
 
 <checklist>
-    Collez dans la section HTML du Pen de départ le code fourni par SVGOMG.
-    Si vous avez une balise <span class="inline-code">style</span>, copiez son contenu dans la section CSS de votre Pen et effacez cette balise.
-    Remarquez comment votre SVG prend toute la largeur de l’aperçu tout en restant toujours parfaitement net. Faites en sorte que votre étoile ait une largeur correspondant à  50% de celle de la page et qu’elle s’affiche à 50px du haut de celle-ci.
-    Déterminer quels éléments correspondent à quoi dans le code HTML en fonction des noms que vous avez donnés dans Illustrator. Au besoin, vous pouvez modifier les ids ou même ajouter des classes.
-    Ciblez l’étoile ⭐️ en CSS et changez sa couleur de fond afin qu’elle devienne rose et que sa bordure devienne jaune, comme les étoiles du Hollywood Boulevard.
-    Changez ensuite la couleur de fond du texte, ainsi que du cercle afin qu’ils deviennent jaunes eux aussi.
-    Au survole de l’étoile, changez la couleur de sa bordure afin qu’elle devienne blanche et faites en sorte que l’opacité du cercle soit réduite à 75% seulement.
+    Plutôt que d'utiliser la propriété <span class="inline-code">left</span>, modifiez le code afin d'utiliser la propriété <span class="inline-code">transform</span>.
+    Ajoutez une transition d'une demi-seconde sur la propriété <span class="inline-code">transform</span> afin d'obtenir une animation de menu hamburger digne d'un site professionnel.
 </checklist>
+
+<clipasset src="videos/hamburger-menu-bonus.mp4"></clipasset>
 
 <dots></dots>
 
@@ -94,10 +82,17 @@
 <grostitre>Notes de cours 📚</grostitre>
 
             <div class="intlink__item">
-                <div class="intlink__item__icon" style="background-image: url('../../../svg/images/icon.png');"></div>
+                <div class="intlink__item__icon" style="background-image: url('../../../formulaire-intermediaire/images/icon.png');"></div>
                 <div class="intlink__item__description">
-                    <span class="intlink__item__title"><a target="_blank" href="../../../svg/">SVG</a></span>
-                    <span class="intlink__item__abstract">Scalable Vector Graphics</span>
+                    <span class="intlink__item__title"><a target="_blank" href="../../../formulaire-intermediaire/">Formulaire intermédiaire</a></span>
+                    <span class="intlink__item__abstract">radio, checkbox, select, textarea</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../../css/selecteurs-avances/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../../css/selecteurs-avances/">Sélecteurs avancés</a></span>
+                    <span class="intlink__item__abstract">groupes, *, >, ~, +, [attr]</span>
                 </div>
             </div>
         
