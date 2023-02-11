@@ -836,9 +836,7 @@ app.component('clip', {
 app.component('wiki-page', {
     props: ['name', 'date'],
     data() {
-
         let slug = lowslug(this.name);
-
         if(this.date == undefined || new Date().toJSON().slice(0, 10) >= this.date)
             this.$parent.registerPage(slug, this.name);
         return {
