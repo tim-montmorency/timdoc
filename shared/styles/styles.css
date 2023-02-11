@@ -1674,6 +1674,10 @@ table tr:nth-child(even) td {
   position: sticky;
   top: 0;
   padding: 25px 25px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 #wiki__list ul li {
   margin-bottom: 20px;

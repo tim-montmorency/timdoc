@@ -18,25 +18,29 @@
 
 <grostitre>Matériel</grostitre>
 
+<doclink href="https://codepen.io/tim-momo/pen/ExpqdRV?editors=1100">Pen de départ</doclink>
+
+<warning>Vous n’avez qu’à écrire du CSS et modifier du HTML <em>(nul besoin d’ajouter du JavaScript)</em>.</warning>
+
+<dots></dots>
 
 
+<grostitre>Requis</grostitre>
+
+<checklist>
+    Modifiez le HTML pour qu'un seul bouton radio parmi les 4 puisse être sélectionné à la fois.
+    Modifiez le HTML de sorte que le bouton radio du haut soit sélectionné par défaut, afin qu'au chargement de la page l'image de Goku debout soit visible.
+    Faites en sorte que chaque bouton radio affiche l'image correspondant de Goku. Par exemple, lorsque le bouton radio de droite est sélectionné, l'image <span class="inline-code">right.png</span> doit-être affiché.
+</checklist>
+
+<warning>Une seule image de Goku doit être visible à la fois.</warning>
+
+<dots></dots>
 
 
+<grostitre>Notes de cours 📚</grostitre>
 
+<?php intlink("../../../formulaire-intermediaire/"); ?>
+<?php intlink("../../../../css/selecteurs-avances/"); ?>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<dots></dots>
