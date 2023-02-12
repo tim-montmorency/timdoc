@@ -7,7 +7,7 @@
  */
 ?>
 
-<p>Pour cet exercice, vous devrez écrire du HTML et du CSS afin de recréer une compilation des plus récents albums de <a target="_blank" href="https://open.spotify.com/artist/18H0sAptzdwid08XGg1Lcj">Death From Above 1979</a>.</p>
+<p class="spacer">Pour cet exercice, vous devrez écrire du HTML et du CSS afin de recréer une compilation des plus récents albums de <a target="_blank" href="https://open.spotify.com/artist/18H0sAptzdwid08XGg1Lcj">Death From Above 1979</a>.</p>
 
 <p>Aperçu du résultat 👇</p>
 
