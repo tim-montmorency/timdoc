@@ -43,7 +43,7 @@
   La zone de contenu principal doit avoir une largeur de 60%, mais ne jamais devenir plus petite que 380px et jamais plus grande que 600px. La zone de contenu doit-être centré verticalement ↕️ et horizontalement ↔️ dans la page.
   Vous devez afficher 5 boutons radio correspondant aux 5 albums les plus récents de Death From Above 1979.<br>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;Heads Up<br>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;You're a Woman, I'm a Machine<br>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;The Physical World<br>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;Outrage! Is Now<br>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;Is 4 Lovers
   Chaque pochette doit prendre la largeur entière de la zone de contenu, avoir un format carré et avoir un espace vertical ↕️ de 10px avec les boutons radio.
-  Une seule pochette doit-être visible à la fois. Cette pochette doit correspondre au bouton radio de l'album sélectionné. Par défaut, la pochette de l'album <em>Heads Up</em> doit-être affiché. Lorsqu'un nouveau bouton radio est sélectionné, un fondu d'une demi-seconde doit s'effectuer entre les deux pochettes 🕘.
+  Une seule pochette doit-être visible à la fois. Cette pochette doit correspondre au bouton radio de l'album sélectionné. Par défaut, la pochette de l'album <em>Heads Up</em> doit-être affiché. Lorsqu'un nouveau bouton radio est sélectionné, un fondu d'une seconde doit s'effectuer entre les deux pochettes 🕘.
 </checklist>
 
 <dots></dots>
