@@ -114,27 +114,21 @@
 <dots></dots>
 
 
+<grostitre>Textarea</grostitre>
 
+<p>Similaire au champ texte de base, <incode>&lt;textarea&gt;</incode> permet de définir une zone de texte sur plusieurs lignes, permettant ainsi à l'usager d'inscrire un contenu plus long. Au besoin, cette boite de texte peut être redimensionée grâce à sa poignée dans le coin inférieur droit.</p>
 
+<codepen id="qByeLZQ" tab="html,result" height="340"></codepen>
 
+<h3>Attributs de textarea</h3>
 
+<ul>
+    <li><incode>cols</incode> définit la largeur de base du textarea.</li>
+    <li><incode>rows</incode> définit la hauteur de base du textarea.</li>
+    <li>Cette balise accepte aussi les mêmes attributs qu'un champ texte régulier, tel que: <incode>readonly</incode>, <incode>placeholder</incode>, <incode>required</incode>, <incode>minlength</incode>, <incode>maxlength</incode>, etc.</li>
+</ul>
 
+<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/textarea">textarea</doclink>
+<doclink href="https://www.w3schools.com/tags/tag_textarea.asp">textarea</doclink>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<dots></dots>
