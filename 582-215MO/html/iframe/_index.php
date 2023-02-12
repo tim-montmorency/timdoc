@@ -87,11 +87,6 @@
 
 <dots></dots>
 
+<exercice href="exercices/turbo-kid/"></exercice>
 
-
-
-
-
-
-
-
+<dots></dots>
