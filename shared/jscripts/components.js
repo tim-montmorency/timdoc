@@ -385,7 +385,8 @@ app.component('doclink', {
                 case 'getbootstrap.com': site = 'bootstrap'; break;
                 case 'fonts.google.com': site = 'googlefonts'; break;
                 case 'fr.wikipedia.org': site = 'wikipedia'; break;
-                
+                case 'ogp.me': site = 'ogp'; break;
+                case 'developers.facebook.com': site = 'facebook'; break;
             }
         } catch(e) {
             if(this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';

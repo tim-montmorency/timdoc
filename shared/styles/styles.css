@@ -798,6 +798,20 @@ a.doclink .doclink-icon {
   background-color: #6a7077;
 }
 
+.doclink.ogp .doclink-icon {
+  background-image: url("../images/ogp-icon.png");
+}
+.doclink.ogp::before {
+  background-color: #6a7077;
+}
+
+.doclink.facebook .doclink-icon {
+  background-image: url("../images/facebook-icon.png");
+}
+.doclink.facebook::before {
+  background-color: #146ed4;
+}
+
 a.exercice {
   display: block;
   background-image: linear-gradient(0deg, #87ceeb, 20%, #f0f8fc);
