@@ -71,7 +71,6 @@
 <dots></dots>
 
 <exercice href="exercices/sonic-knuckles/"></exercice>
+<exercice href="exercices/skate/"></exercice>
 
-
-
-
+<dots></dots>
