@@ -75,7 +75,7 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 04A" date="2023-02-14">
+<wiki-page name="Cours 04A">
     <?php intlink("../css/nommage-et-formatage/"); ?>
     <?php intlink("../css/fonte/"); ?>
     <?php intlink("../css/text/"); ?>
@@ -84,4 +84,16 @@
     <?php intlink("../css/google-fonts/exercices/bart/"); ?>
     <?php intlink("../css/font-face/"); ?>
     <?php intlink("../css/font-face/exercices/la-guerre-la-guerre/"); ?>
+</wiki-page>
+
+
+<wiki-page name="Cours 04B">
+    <h3>Correction: Moby - I Like to Score</h3>
+    <?php intlink("../css/font-face/"); ?>
+    <?php intlink("../css/pseudo-classes-avancees/"); ?>
+    <?php intlink("../css/pseudo-classes-avancees/exercices/css-diner/"); ?>
+    <?php intlink("../css/specificite/"); ?>
+    <?php intlink("../css/specificite/exercices/specificite-css/"); ?>
+    <h2>TP04 <em>(formatif)</em></h2>
+    <?php intlink("../css/exercices/little-richard-here-s-little-richard/"); ?>
 </wiki-page>
