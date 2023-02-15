@@ -37,7 +37,7 @@
 <grostitre>Requis</grostitre>
 
 <checklist>
-  Rendez-vous sur le site <a onclick="event.stopPropagation();" target="_blank" href="https://www.dafont.com/fr">dafont.com</a>, téléchargez et importez les polices: <em>Gotham Nights</em>, <em>Secret Agent</em>, <em>Enchanted</em> Land et <em>Dopestyle</em> dans votre projet.
+  Rendez-vous sur le site <a onclick="event.stopPropagation();" target="_blank" href="https://www.dafont.com/fr">dafont.com</a>, téléchargez et importez les polices: <em>Gotham Nights</em>, <em>Secret Agent</em>, <em>Enchanted Land</em> et <em>Dopestyle</em> dans votre projet.
   Attribuez une taille de police de 100px à tous les textes de la page par défaut. Cette taille devra parfois être modifiée, mais elle vous donnera un point de départ plus simple.
   Sans jamais modifier le HTML, ajustez les styles de chaque mot afin qu'il se rapproche le plus possible du mot correspondant dans le gabarit en arrière-plan.
   Lorsque chaque mot est correctement ajusté, remplacez l'image de gabarit <em>(template.png)</em>, par l'image d'arrière-plan fournise.

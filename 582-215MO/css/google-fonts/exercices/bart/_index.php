@@ -37,7 +37,7 @@
 <checklist>
   Le tableau doit avoir un fond vert 🟢 ainsi qu'une bordure brune 🟤 de 15px de tous les côtés.
   Le texte du tableau doit être blanc ⚪️, avoir une taille de 20px et utiliser la police Gloria Hallelujah disponible sur Google Fonts.
-  Le tableau doit mesurer 600px de large, incluant une marge intérieure correspondant à une lettre de chaque côté, avoir une marge extérieure de 50px verticalement ↕️ et être centré horizontalement ↔️.
+  Le tableau doit mesurer 550px de large, incluant une marge intérieure correspondant à une lettre de chaque côté, avoir une marge extérieure de 50px verticalement ↕️ et être centré horizontalement ↔️.
   L'image de Bart doit avoir une hauteur de 280px, dépasser de 50px vers la droite et 100px vers le bas du tableau. Attention l'image de Bart doit rester aligner avec le tableau même si vous redimensionner votre fenêtre.
 </checklist>
 
