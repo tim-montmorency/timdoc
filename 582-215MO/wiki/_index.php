@@ -94,6 +94,7 @@
     <?php intlink("../css/specificite/"); ?>
     <?php intlink("../css/specificite/exercices/specificite-css/"); ?>
     <?php intlink("../css/font-face/"); ?>
+    <?php intlink("../css/font-face/exercices/la-guerre-la-guerre/"); ?>
     <h2>TP04 <em>(formatif)</em></h2>
     <?php intlink("../css/exercices/little-richard-here-s-little-richard/"); ?>
 </wiki-page>
