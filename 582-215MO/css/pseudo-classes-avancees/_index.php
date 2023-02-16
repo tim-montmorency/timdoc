@@ -11,7 +11,7 @@
 
 <p>Comme leurs noms l'indiquent, <incode>:first-of-type</incode> et <incode>:last-of-type</incode> permettent de sélectionner le premier et dernier élément dans un groupe correspondant au sélecteur passé avant le <incode>:</incode>.</p>
 
-<p>Contrairement à <a href="../pseudo-classes-intermediaires/#first-child-last-child">first-child< et last-child</a> qui ne sélectionnent uniquement un élément que s'il correspond au sélecteur ET qu'il est au premier ou dernier index de son groupe, <incode>:first-of-type</incode> et <incode>:last-of-type</incode> sélectionnent le premier élément correspondant au sélecteur à partir du début et à partir de la fin, même s'il n'est pas exactement au premier ou dernier index.</p>
+<p>Contrairement à <a href="../pseudo-classes-intermediaires/#first-child-last-child">first-child et last-child</a> qui ne sélectionnent uniquement un élément que s'il correspond au sélecteur ET qu'il est au premier ou dernier index de son groupe, <incode>:first-of-type</incode> et <incode>:last-of-type</incode> sélectionnent le premier élément correspondant au sélecteur à partir du début et à partir de la fin, même s'il n'est pas exactement au premier ou dernier index.</p>
 
 <p>Par exemple, la règle suivante:</p>
 
