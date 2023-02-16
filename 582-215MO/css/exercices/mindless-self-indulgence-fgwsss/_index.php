@@ -68,8 +68,6 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<img src="../../font-face/" alt="">
-
 <?php intlink("../../linear-gradient/"); ?>
 <?php intlink("../../background/"); ?>
 <?php intlink("../../text/"); ?>
