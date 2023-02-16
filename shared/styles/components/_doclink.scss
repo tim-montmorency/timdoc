@@ -140,3 +140,21 @@ a.doclink {
         background-color: #6a7077;
     }
 }
+
+.doclink.ogp {
+    .doclink-icon {
+        background-image: url('../images/ogp-icon.png');
+    }
+    &::before {
+        background-color: #6a7077;
+    }
+}
+
+.doclink.facebook {
+    .doclink-icon {
+        background-image: url('../images/facebook-icon.png');
+    }
+    &::before {
+        background-color: #146ed4;
+    }
+}

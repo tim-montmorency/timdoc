@@ -128,20 +128,20 @@ body.dark .grostitre__chain.copied {
   background-color: #34ad24;
 }
 body.dark .info {
-  background-color: #3b3a42;
+  background-color: #131338;
   border-left: 4px solid #3c38ba;
 }
 body.dark .info__bubble::before {
-  background-color: #3b3a42;
+  background-color: #131338;
   border: 4px solid #3c38ba;
   box-shadow: 0px 0px 0px 8px #1c1d21;
 }
 body.dark .warning {
-  background-color: #616134;
+  background-color: #44440a;
   border-left: 4px solid #f1f255;
 }
 body.dark .warning__bubble::before {
-  background-color: #616134;
+  background-color: #44440a;
   border: 4px solid #f1f255;
   box-shadow: 0px 0px 0px 8px #1c1d21;
 }
@@ -529,6 +529,8 @@ body.dark table tr:nth-child(even) td {
   width: 770;
   height: 100px;
   margin-bottom: 25px;
+  margin-left: -25px;
+  margin-right: -25px;
   background-color: #eeeeee;
   border: 1px solid #919191;
   display: flex;
@@ -794,6 +796,20 @@ a.doclink .doclink-icon {
 }
 .doclink.wikipedia::before {
   background-color: #6a7077;
+}
+
+.doclink.ogp .doclink-icon {
+  background-image: url("../images/ogp-icon.png");
+}
+.doclink.ogp::before {
+  background-color: #6a7077;
+}
+
+.doclink.facebook .doclink-icon {
+  background-image: url("../images/facebook-icon.png");
+}
+.doclink.facebook::before {
+  background-color: #146ed4;
 }
 
 a.exercice {
@@ -1672,6 +1688,10 @@ table tr:nth-child(even) td {
   position: sticky;
   top: 0;
   padding: 25px 25px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 #wiki__list ul li {
   margin-bottom: 20px;

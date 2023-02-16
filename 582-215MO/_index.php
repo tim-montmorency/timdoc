@@ -3,7 +3,7 @@
  * @type     list
  * @title    Intégration Web
  * @icon     images/icon.png
- * @abstract Intégration Web
+ * @abstract 582-215MO
  */
 
  print_children();

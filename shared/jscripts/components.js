@@ -385,7 +385,8 @@ app.component('doclink', {
                 case 'getbootstrap.com': site = 'bootstrap'; break;
                 case 'fonts.google.com': site = 'googlefonts'; break;
                 case 'fr.wikipedia.org': site = 'wikipedia'; break;
-                
+                case 'ogp.me': site = 'ogp'; break;
+                case 'developers.facebook.com': site = 'facebook'; break;
             }
         } catch(e) {
             if(this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
@@ -836,9 +837,7 @@ app.component('clip', {
 app.component('wiki-page', {
     props: ['name', 'date'],
     data() {
-
         let slug = lowslug(this.name);
-
         if(this.date == undefined || new Date().toJSON().slice(0, 10) >= this.date)
             this.$parent.registerPage(slug, this.name);
         return {

@@ -1,9 +1,9 @@
 <?php
 /**
  * @type     list
- * @title    Optimisation Web 582-424MO
+ * @title    Optimisation Web
  * @icon     images/icon.png
- * @abstract Optimisation Web - Techniques d'intégration multimédia du Collège Montmorency
+ * @abstract 582-424MO
  */
 
  print_children();

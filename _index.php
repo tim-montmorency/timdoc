@@ -8,7 +8,7 @@
 ?>
 
 
-<p>Timdoc est un système de documentation en ligne conçu spécifiquement pour la technique d'intégration multimédia du Collège Montmorency. Il permet de créer facilement et rapidement des exercices et notes de cours interactives grâce à une collection de composantes faites sur mesure et prêtes à être utiliser.</p>
+<p class="spacer">Timdoc est un système de documentation en ligne conçu spécifiquement pour la technique d'intégration multimédia du Collège Montmorency. Il permet de créer facilement et rapidement des exercices et notes de cours interactives grâce à une collection de composantes faites sur mesure et prêtes à être utiliser.</p>
 
 <dots></dots>
 
@@ -30,11 +30,10 @@
 
 <dots></dots>
 
-<grostitre>Comment ça marche?</grostitre>
-<doclink spacer="true" href="manuel/">Manuel d'utilisation</doclink>
-<dots></dots>
+
 
 <grostitre>Contributeurs</grostitre>
+
 <ul>
     <li>Simon Arnold <em>(inspiration)</em></li>
     <li>Maxime Larrivée-Roy <em>(développeur)</em></li>
@@ -43,3 +42,17 @@
 
 <dots></dots>
 
+
+<grostitre>Comment ça marche?</grostitre>
+
+<doclink href="manuel/">Manuel d'utilisation</doclink>
+
+<dots></dots>
+
+
+<grostitre>Cours</grostitre>
+
+<?php intlink("./582-215MO/"); ?>
+<?php intlink("./582-424MO/"); ?>
+
+<dots></dots>

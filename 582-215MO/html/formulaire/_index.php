@@ -161,10 +161,6 @@
 
 <dots></dots>
 
+<exercice href="exercices/carte-de-credit/"></exercice>
 
-
-
-
-
-
-
+<dots></dots>
