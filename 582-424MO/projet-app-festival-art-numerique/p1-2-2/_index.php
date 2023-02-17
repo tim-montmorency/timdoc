@@ -122,7 +122,7 @@ Au besoin, ajoutez des classes d'espacement Bootstrap pour aligner les élément
   Stylise ton champ comme tu veux, par contre je veux que tu ajoutes l'icône de la loupe au début du champ de recherche. Utilise le format "Icon font" pour ajouter l'icône Boostrap avec la loupe. 
   Dans la 2e section, crée-toi un div qui aura un overflow caché. Dans ce div, crée-toi une liste ul li de boutons (utilise les boutons de Bootstrap).
   Stylise cette liste afin qu'elle n'ait pas de puce et que les boutons s'affichent tous sur une même ligne.
-  Re-stylise des boutons, au besoin, dans ton ficheir CSS.
+  Re-stylise des boutons, au besoin, dans ton fichier CSS.
 
 </checklist>
 
