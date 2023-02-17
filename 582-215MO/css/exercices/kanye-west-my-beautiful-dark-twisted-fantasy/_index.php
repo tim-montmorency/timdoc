@@ -43,7 +43,7 @@
   Le fond de la page doit avoir un dégradé de haut en bas ⬇️ partant du rouge clair vers le rouge foncé 🔴.
   L'album doit avoir un fond rouge, une dimension de 500x500px, être positionné à 20px du sommet de la page et être parfaitement centré horizontalement. <em>(Attention, votre page ne doit pas avoir de barre de défilement visible.)</em>
   L'album doit avoir une ombre noire semi-transparente <em>(50% d'opacité)</em> de 50px, égale de tous les côtés de l'album.
-  Utilisez la balise <span class="inline-code">&lt;picture&gt;</span> afin d'afficher par défaut l'image <span class="inline-code">1.jpg</span>. À partir de 750px, affichez l'image <span class="inline-code">2.jpg</span> et à partir de 1150px, l'image <span class="inline-code">3.jpg</span> 🌄.
+  Utilisez la balise <span class="inline-code">picture</span> afin d'afficher par défaut l'image <span class="inline-code">1.jpg</span>. À partir de 750px, affichez l'image <span class="inline-code">2.jpg</span> et à partir de 1150px, l'image <span class="inline-code">3.jpg</span> 🌄.
   Ajoutez des bordures jaune de 10px au haut et à la droite de l'image, ainsi que des bordures jaunes ocre de 10px au bas et à gauche de celle-ci.
   L'image doit avoir une largeur totale de 220px incluant ses bordures et être centrée dans l'album.
 </checklist>
