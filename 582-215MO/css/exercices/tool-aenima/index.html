@@ -92,7 +92,7 @@
   Le layer de yeux doit prendre toute l'espace horizontale et verticale.
   L'arrière plan doit avoir une dimension de 70px par 80px et ne se répéter que verticalement.
   À l'aide des sous-propriétés de <span class="inline-code">background</span>, disposez les yeux en 4 colones. Les deux premières colones doivent utiliser l'<em>oeil 1</em> et les deux suivantes l'<em>oeil 2</em>.
-  Chaque colone doit être disposée à 10px du haut. Pour déterminer à position horizontale, utilisez la fonction <span class="inline-code">calc((100% / 4 * n) + 52px)</span> où <em>n</em> est l'index de la colone partant à 0.
+  Chaque colone doit être disposée à 10px du haut. Pour déterminer la position horizontale, utilisez la fonction <span class="inline-code">calc((100% / 4 * n) + 52px)</span> où <em>n</em> est l'index de la colone partant à 0.
   Copiez le filtre SVG et placez le dans le <span class="inline-code">body</span> sous l'album.
   Appliquez le filtre au layer de yeux avec la propriété <span class="inline-code">filter: url("#aenima");</span>.
 </checklist>
@@ -104,14 +104,14 @@
   Appliquez lui l'image d'arrière-plan <span class="inline-code">sprite.png</span>
   Utilisez la propriété <span class="inline-code">filter</span> afin de lui appliquer un filtre sepia de 0.8.
   Avec la règle CSS <span class="inline-code">@keyframes</span>, créez une animation nommée <span class="inline-code">void</span> qui fait bouger l'arrière-plan de <span class="inline-code">0 0</span> à <span class="inline-code">0 -29160px</span>;
-  Appliquez cette animation au frame void. L'animation doit avoir une durée de 3s, se répéter indéfiniement et avoir 72 <em>steps</em> étant donné qu'il y a 72 images à l'intérieur du sprite.
+  Appliquez cette animation au frame void. L'animation doit avoir une durée de 3s, se répéter indéfiniement et avoir 72 <em>steps</em> étant donné qu'il y a 72 images <em>(24fps)</em> à l'intérieur du sprite.
 </checklist>
 
 <grostitre>Logo</grostitre>
 
 <checklist>
-  Finalement, utilisez une balise <span class="inline-code">img</span> poru placer le logo horizontalement et verticalement au centre de l'album.
-  Pour rafiner son emplacement, donnez-lui une marge intérieure de 20px.
+  Finalement, utilisez une balise <span class="inline-code">img</span> pour placer le logo horizontalement et verticalement au centre de l'album.
+  Pour rafiner son emplacement, donnez-lui une marge intérieure top de 20px.
 </checklist>
 
 <dots></dots>
