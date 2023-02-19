@@ -273,6 +273,11 @@ body.dark table tr:nth-child(even) td {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.grostitre a:first-child {
+  vertical-align: top;
+  width: 0px;
+  height: 36px;
+}
 .grostitre h1, .grostitre h2 {
   font-size: 7vw !important;
   vertical-align: middle;
