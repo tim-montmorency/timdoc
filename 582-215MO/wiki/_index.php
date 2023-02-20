@@ -100,7 +100,7 @@
     <?php intlink("../css/exercices/little-richard-here-s-little-richard/"); ?>
 </wiki-page>
 
-
+<!--  -->
 <wiki-page name="Cours 05A" date="2023-02-21">
     <?php intlink("../css/opacite/"); ?>
     <?php intlink("../css/z-index/"); ?>
@@ -110,6 +110,9 @@
     <?php intlink("../css/box-shadow/"); ?>
     <?php intlink("../css/overflow/exercices/eclipses/"); ?>
     <?php intlink("../css/box-shadow/exercices/reseaux-sociaux/"); ?>
+    <h2>TP05 <em>(formatif)</em></h2>
+    <?php intlink("../css/exercices/mindless-self-indulgence-fgwsss/"); ?>
+    <?php intlink("../css/exercices/band-de-garage-corpo-trash-vidange/"); ?>
 </wiki-page>
 
 

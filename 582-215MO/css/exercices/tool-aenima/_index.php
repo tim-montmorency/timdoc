@@ -54,7 +54,7 @@
 <checklist>
   Téléchargez une copie des images. Placez-les dans un dossier intitulé <span class="inline-code">images</span> dans votre projet et utilisez ces images plutôt que celles en ligne.
   Le fond de la page doit être un dégradé de 120 degrés partant de noir à bleu gris avec un point d'arrêt à 10%.
-  L'album doit être de couleur noire, une dimension de 500x500px et être parfaitement centré horizontalement. <em>(Attention, votre page ne doit pas avoir de barre de défilement visible.)</em>
+  L'album doit être de couleur noire, avoir une dimension de 500x500px et être parfaitement centré horizontalement. <em>(Attention, votre page ne doit pas avoir de barre de défilement visible.)</em>
 </checklist>
 
 <grostitre>Yeux</grostitre>
