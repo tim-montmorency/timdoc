@@ -39,7 +39,7 @@
 
 <br>
 
-<alert>Il est <strong>INTERDIT</strong> de modifier l'ordre des layers dans le HTML. Vous devrez utiliser la propriété <incode>z-index</incode> afin de mettre les layers dans le bon ordre.</alert>
+<alert>Il est <strong>INTERDIT</strong> de modifier l'ordre des layers dans le HTML. Vous devrez utiliser la propriété <incode>z-index</incode> afin de les mettre dans le bon ordre.</alert>
 
 <dots></dots>
 
