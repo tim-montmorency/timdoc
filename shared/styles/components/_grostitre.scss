@@ -4,6 +4,12 @@
     padding-top: 20px;
     padding-bottom: 20px;
 
+    a:first-child {
+        vertical-align: top;
+        width: 0px;
+        height: 36px;
+    }
+
     h1, h2 {
         font-size: 7vw !important;
         vertical-align: middle;

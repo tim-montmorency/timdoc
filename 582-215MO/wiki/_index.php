@@ -99,3 +99,24 @@
     <?php intlink("../css/exercices/mindless-self-indulgence-fgwsss/"); ?>
     <?php intlink("../css/exercices/little-richard-here-s-little-richard/"); ?>
 </wiki-page>
+
+<!--  -->
+<wiki-page name="Cours 05A" >
+    <?php intlink("../css/opacite/"); ?>
+    <?php intlink("../css/z-index/"); ?>
+    <?php intlink("../css/opacite/exercices/google-agenda/"); ?>
+    <?php intlink("../css/z-index/exercices/mains-de-monstres/"); ?>
+    <?php intlink("../css/overflow/"); ?>
+    <?php intlink("../css/box-shadow/"); ?>
+    <?php intlink("../css/overflow/exercices/eclipses/"); ?>
+    <?php intlink("../css/box-shadow/exercices/reseaux-sociaux/"); ?>
+    <h2>TP Complémentaires <em>(formatif)</em></h2>
+    <?php intlink("../css/exercices/mindless-self-indulgence-fgwsss/"); ?>
+    <?php intlink("../css/exercices/band-de-garage-corpo-trash-vidange/"); ?>
+</wiki-page>
+
+
+<wiki-page name="Cours 05B" date="2023-02-22">
+    <h3>Examen - Les Guardiens de la Galaxie</h3>
+    <video playsinline src="videos/baby-groot-dancing.mp4" autoplay="true" muted="true" loop="true"></video>
+</wiki-page>

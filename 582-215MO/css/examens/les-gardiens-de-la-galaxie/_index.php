@@ -32,7 +32,7 @@
 <color>#e77f2f</color>
 <color>#eec66c</color>
 
-<warning>Le HTML est déjà fourni. Vous ne devez en aucun cas le modifier.</warning>
+<alert>Le HTML est déjà fourni. Vous ne devez en aucun cas le modifier.</alert>
 
 <dots></dots>
 
@@ -45,7 +45,7 @@
   L'affiche doit avoir une ombre de 20px, égale de tous les côtés. Cette ombre doit être noire ⚫️, mais ce noir doit avoir une opacité de 50%.
 </checklist>
 
-<dots></dots>
+<!-- <dots></dots> -->
 
 
 <grostitre>Bandes de couleur</grostitre>
@@ -55,7 +55,7 @@
   Le texte doit-être en 12px, être centré horizontalement ↔️ et être de couleur brune.
 </checklist>
 
-<dots></dots>
+<!-- <dots></dots> -->
 
 
 <h3>1ière bande</h3>
@@ -67,7 +67,7 @@
   Centrez verticalement le texte dans la bande ↕️.
 </checklist>
 
-<dots></dots>
+<!-- <dots></dots> -->
 
 
 <h3>2ième bande</h3>
@@ -79,7 +79,7 @@
 
 <warning>La police doit absolument rester dans le dossier polices.</warning>
 
-<dots></dots>
+<!-- <dots></dots> -->
 
 
 <h3>3ième bande</h3>
@@ -88,7 +88,7 @@
   La bande doit être de couleur jaune.
 </checklist>
 
-<dots></dots>
+<!-- <dots></dots> -->
 
 
 <grostitre>Cassette</grostitre>
@@ -100,7 +100,7 @@
   Les bobines <em>(reel)</em> sont déjà de la bonne dimension. Il suffit de les positionner dans la fenêtre afin qu'elles soient partiellement tronquées comme sur la référence visuelle.<br><br><img src="images/guardians-reels.png">
 </checklist>
 
-<dots></dots>
+<!-- <dots></dots> -->
 
 
 <grostitre>Gardiens</grostitre>
@@ -110,14 +110,19 @@
   Faites attention à l'arme de Gamora qui doit passer par-dessus les jambes de Groot.
 </checklist>
 
+<!-- <dots></dots> -->
+
+
+<grostitre>Remise</grostitre>
+
+<checklist>
+  Renommez votre dossier <em>"ex1_[nom]_[prenom]"</em>.
+  Zippez votre dossier <em>"ex1_[nom]_[prenom]"</em>.
+  Joignez votre fichier <em>.zip</em> au devoir <em>"EX01: Les Gardiens de la Galaxie"</em>.
+</checklist>
+
 <dots></dots>
 
-<!-- Ajouter "remise" checklist ? -->
+<img src="images/galaxy-2.gif">
 
-
-
-
-
-
-
-
+<dots></dots>

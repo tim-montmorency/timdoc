@@ -501,7 +501,7 @@ app.component('clip', {
  ******************************************************/
  app.component('clipasset', {
     props: ['src'],
-    template: `<div class="video-asset-container"><video :src="this.src" autoplay="true" muted="true" loop="true" class="video-asset"></video></div`
+    template: `<div class="video-asset-container"><video playsinline :src="this.src" autoplay="true" muted="true" loop="true" class="video-asset"></video></div`
 });
 
 
@@ -838,7 +838,9 @@ app.component('wiki-page', {
     props: ['name', 'date'],
     data() {
         let slug = lowslug(this.name);
-        if(this.date == undefined || new Date().toJSON().slice(0, 10) >= this.date)
+        let d = new Date();
+        let today = d.getFullYear() + '-' + pad(d.getMonth()+1,2) + '-' + pad(d.getDate(),2);
+        if(this.date == undefined || today >= this.date)
             this.$parent.registerPage(slug, this.name);
         return {
             'slug': slug

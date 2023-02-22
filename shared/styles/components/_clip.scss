@@ -13,13 +13,19 @@
 
 .video-asset-container {
     margin-left: -25px;
-    width: 770px;
+    max-width: 100vw;
     text-align: center;
+    @media (min-width: 770px)  {
+        max-width: 770px;
+    }
 }
 
 .video-asset {
     position: relative;
-    max-width: 770px;
+    max-width: 100vw;
     margin-bottom: 25px;
+    @media (min-width: 770px)  {
+        max-width: 770px;
+    }
 }
 

@@ -1,0 +1,67 @@
+{
+"creatingLibrary": {
+"name": "MediaInfoLib",
+"version": "22.09",
+"url": "https://mediaarea.net/MediaInfo"
+},
+"media": {
+"@ref": "D:\\Programmation\\tim-montmorency\\timdoc\\582-215MO\\css\\exercices\\band-de-garage-corpo-trash-vidange\\audios\\band-de-garage-bmx.mp3",
+"track": [
+{
+"@type": "General",
+"AudioCount": "1",
+"FileExtension": "mp3",
+"Format": "MPEG Audio",
+"FileSize": "2940272",
+"Duration": "183.588",
+"OverallBitRate_Mode": "CBR",
+"OverallBitRate": "128000",
+"StreamSize": "2438",
+"Title": "BMX",
+"Album": "Corpo-Trash-Vidange",
+"Album_Performer": "Band de Garage",
+"Part_Position": "1",
+"Part_Position_Total": "1",
+"Track": "BMX",
+"Track_Position": "5",
+"Track_Position_Total": "16",
+"Performer": "Band de Garage",
+"Genre": "Garage Rock",
+"Released_Date": "2006",
+"Recorded_Date": "2006",
+"File_Created_Date": "UTC 2023-02-20 00:50:17.258",
+"File_Created_Date_Local": "2023-02-19 19:50:17.258",
+"File_Modified_Date": "UTC 2023-02-20 00:51:41.209",
+"File_Modified_Date_Local": "2023-02-19 19:51:41.209",
+"Encoded_Library": "LAME3.98r",
+"Comment": "[A]nalog [A]nts [A]ttack",
+"extra": {
+"RELEASETYPE": "2"
+}
+},
+{
+"@type": "Audio",
+"Format": "MPEG Audio",
+"Format_Version": "1",
+"Format_Profile": "Layer 3",
+"Format_Settings_Mode": "Joint stereo",
+"Format_Settings_ModeExtension": "MS Stereo",
+"Duration": "183.589",
+"BitRate_Mode": "CBR",
+"BitRate": "128000",
+"Channels": "2",
+"SamplesPerFrame": "1152",
+"SamplingRate": "44100",
+"SamplingCount": "8096256",
+"FrameRate": "38.281",
+"FrameCount": "7028",
+"Compression_Mode": "Lossy",
+"StreamSize": "2937417",
+"StreamSize_Proportion": "0.99903",
+"Encoded_Library": "LAME3.98r",
+"Encoded_Library_Settings": "-m j -V 4 -q 3 -lowpass 17 -b 128"
+}
+]
+}
+}
+

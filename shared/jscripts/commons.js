@@ -71,6 +71,15 @@ const invertColor = (hexTripletColor) => {
 
 
 /******************************************************
+ *                  Zero Leading Pad                  *
+ ******************************************************/
+const pad = (num, size) => {
+	var s = "000000000" + num;
+	return s.substr(s.length-size);
+}
+
+
+/******************************************************
  *                     Load theme                     *
  ******************************************************/
 // setTimeout(() => { document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light'; }, 1);
