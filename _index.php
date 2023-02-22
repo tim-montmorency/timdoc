@@ -12,6 +12,13 @@
 
 <dots></dots>
 
+<grostitre>Cours</grostitre>
+
+<?php intlink("./582-215MO/"); ?>
+<?php intlink("./582-424MO/"); ?>
+
+<dots></dots>
+
 <grostitre>Technologies</grostitre>
 
 <ul>
@@ -50,9 +57,4 @@
 <dots></dots>
 
 
-<grostitre>Cours</grostitre>
 
-<?php intlink("./582-215MO/"); ?>
-<?php intlink("./582-424MO/"); ?>
-
-<dots></dots>
