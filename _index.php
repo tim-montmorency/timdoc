@@ -1,7 +1,7 @@
 <?php 
 /**
  * @type     article
- * @title    Timdoc
+ * @title    TIMdoc
  * @icon     shared/images/icon.png
  * @abstract Documentation Web
  */
