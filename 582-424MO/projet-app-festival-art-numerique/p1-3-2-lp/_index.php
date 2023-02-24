@@ -85,5 +85,5 @@ La modal devra être centré verticalement dans la page et avoir un format large
 Il devra y avoir une transition lorsqu’on ouvre et ferme la modal (elle ne doit pas apparaitre d’un seul coup sec). 
 </checklist>
 
-<h4>Notes de cours 📚</h4>
+<h3>Notes de cours 📚</h3>
 <?php intlink("../../bootstrap/modale") ?> 
