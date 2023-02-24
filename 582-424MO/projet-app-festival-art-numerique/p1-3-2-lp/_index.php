@@ -9,13 +9,26 @@
   ?>
 
 
-<p>Aperçu du résultat 👇</p>
+<grostitre>Ajustement de vos couleurs dans vos CSS et vos class HTML</grostitre>
+
+<checklist>
+  Maintenant que vous avez personnalisé les classes de couleurs telles que bs-primary, bs-secondary, bs-info, bs-warning etc, veuillez aller changer partout où c'est possible dans votre CSS, afin d'utiliser ces variables.
+  Vous pouvez utiliser les classes dans certain car, par exemple sur un bouton avec la classe .btn-primary.
+</checklist>
+
+
+<dots></dots>
+
+
+<grostitre>Section FAQ</grostitre>
+
+<p>Aperçu du résultat pour FAQ et Infolettre 👇</p>
 
 
   <div style='max-width: 640px'><div style='position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;'><iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/5361a801-a44d-4100-b5a3-db54ef3f783a?autoplay=false&showinfo=true" allowfullscreen style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
 
-<grostitre>Section FAQ</grostitre>
+
 
 <checklist>
 Créez une nouvelle section FAQ à la fin de la balise main sous les autres sections, attribuez-lui un ID. 
