@@ -2,7 +2,7 @@
 
   /**
    * @type     article
-   * @title    P1.3.1 Landing Page - Sections cartes
+   * @title    P1.3.1 LP - Sections cartes
    * @icon     images/icon.svg
    * @abstract Sections fonctionnalités + témoignages
    */
