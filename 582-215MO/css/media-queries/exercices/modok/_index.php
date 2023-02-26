@@ -35,7 +35,6 @@
 
 <dots></dots>
 
-
 <grostitre>Requis de base</grostitre>
 
 <checklist>
