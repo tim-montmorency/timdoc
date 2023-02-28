@@ -20,7 +20,9 @@
 <grostitre>Page oeuvre (artwork.html)</grostitre>
 <p>Aperçu du résultat 👇</p>
 
-<div style='max-width: 640px'><div style='position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;'><iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/3aa31356-edd4-4fd9-bf63-0d01f895fdba?autoplay=false&showinfo=true" allowfullscreen style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+<clipasset src="video/demo_app_accordion_modal.mov" mobile="true"></clipasset>
+
+<!--<div style='max-width: 640px'><div style='position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;'><iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/3aa31356-edd4-4fd9-bf63-0d01f895fdba?autoplay=false&showinfo=true" allowfullscreen style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>-->
 
 
 

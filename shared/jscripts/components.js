@@ -500,9 +500,18 @@ app.component('clip', {
  *                Composante Clipasset                *
  ******************************************************/
  app.component('clipasset', {
-    props: ['src'],
-    template: `<div class="video-asset-container"><video playsinline :src="this.src" autoplay="true" muted="true" loop="true" class="video-asset"></video></div`
+    props: ['src', 'mobile'],
+    data() {
+        let isMobile = false;
+        if(typeof this.mobile != 'undefined') isMobile = true;
+        return {
+            isMobile: isMobile
+        }
+    },
+    template: `<div class="video-asset-container"><video playsinline :src="this.src" autoplay="true" muted="true" loop="true" :class="'video-asset' + (isMobile ? ' mobile-width' : '')"></video></div`
 });
+
+
 
 
 /******************************************************
