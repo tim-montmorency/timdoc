@@ -66,13 +66,17 @@ function get_children($parent = null) {
         if(!is_file(($file = $dir.S.'_index.php'))) continue;
         if(!$data = php_file_info($file)) continue;
         if(empty($data)) continue;
-        // check type
         if($data->type == 'wiki') continue;
-        // <--
+        if(empty($data->index)) $data->index = 0;
         $data->href = pathinfo($dir, PATHINFO_BASENAME).'/';
-        $children[] = $data;
+        $children[$data->index][] = $data;
     }
-    return isset($children) ? $children : [];
+    if(!isset($children)) return [];
+    ksort($children);
+    while ($idx = array_pop($children))
+        foreach($idx as $elm)
+            $elms[] = $elm;
+    return $elms;
 }
 
 

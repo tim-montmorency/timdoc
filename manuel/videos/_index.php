@@ -3,11 +3,15 @@
  * @type     article
  * @title    Vidéos
  * @icon     images/icon.png
+ * @index    0
  * @abstract Utiliser Github et Video.js
  */
 ?>
 
-<p>Il est possible d'inclure des vidéos dans vos articles assez facilement. Il est fortement encouragé d'utiliser le lecteur maison afin de ne pas avoir de publicités. Pour ce faire, il suffit de placer dans un sous-dossier <em>videos/</em> de votre article et d'utiliser la composante <span class="inline-code">&lt;clip&gt;</span>.</p>
+<p class="spacer">Il est possible d'inclure des vidéos dans vos articles assez facilement. Il est fortement encouragé d'utiliser le lecteur maison afin de ne pas avoir de publicités. Pour ce faire, il suffit de placer dans un sous-dossier <em>videos/</em> de votre article et d'utiliser la composante <span class="inline-code">&lt;clip&gt;</span>.</p>
+
+<dots></dots>
+
 
 <grostitre>Clipinfo</grostitre>
 
@@ -19,12 +23,14 @@
 
 <dots></dots>
 
+
 <grostitre>Exemple</grostitre>
 
 <highlight lang="html">&lt;clip src="videos/le-boson-de-higgs.mp4"&gt;&lt;/clip&gt;</highlight>
 <clip src="../components/videos/le-boson-de-higgs.mp4"></clip>
 
 <dots></dots>
+
 
 <grostitre>Outils</grostitre>
 

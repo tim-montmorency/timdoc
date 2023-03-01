@@ -1,5 +1,6 @@
 <?php 
 /**
+ * @index    10
  * @type     article
  * @title    Audios
  * @icon     images/icon.png
