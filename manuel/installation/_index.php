@@ -1,5 +1,6 @@
 <?php 
 /**
+ * @index    8
  * @type     article
  * @title    Installation
  * @icon     images/icon.png

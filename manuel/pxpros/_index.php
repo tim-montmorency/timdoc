@@ -1,5 +1,6 @@
 <?php
 /**
+ * @index    7
  * @type     article
  * @title    PXPros
  * @icon     images/icon.png

@@ -1,5 +1,6 @@
 <?php 
 /**
+ * @index    9
  * @type     article
  * @title    Composantes
  * @icon     images/icon.png
