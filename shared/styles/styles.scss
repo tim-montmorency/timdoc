@@ -32,14 +32,18 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     height: 100vh;
     background-repeat: repeat-x;
     padding-bottom: variables.$footer_height;
     font-family: Rubik;
     scrollbar-color: dark;
-
     font-size: 4vw;
+
     @media (min-width: 576px)  {
         font-size: 18px;
     }
