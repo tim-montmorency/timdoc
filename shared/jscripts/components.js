@@ -387,6 +387,7 @@ app.component('doclink', {
                 case 'fr.wikipedia.org': site = 'wikipedia'; break;
                 case 'ogp.me': site = 'ogp'; break;
                 case 'developers.facebook.com': site = 'facebook'; break;
+                case 'greensock.com': site = 'greensock'; break;
             }
         } catch(e) {
             if(this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';

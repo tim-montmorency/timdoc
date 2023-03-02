@@ -384,6 +384,10 @@ body.dark table tr:nth-child(even) td {
   font-size: 24px;
 }
 
+#contents .info h2, #contents .info h3, #contents .info h4, #contents .info h5, #contents .info h6 {
+  margin-top: 0;
+}
+
 .warning {
   position: relative;
   background-color: #fcfcdd;
@@ -683,6 +687,12 @@ span.codepen-remark {
   margin-right: -25px;
 }
 
+.cp_embed_wrapper {
+  border: 1px solid #dfdef3;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
 a.doclink {
   display: inline-block;
   position: relative;
@@ -813,6 +823,13 @@ a.doclink .doclink-icon {
 }
 .doclink.facebook::before {
   background-color: #146ed4;
+}
+
+.doclink.greensock .doclink-icon {
+  background-image: url("../images/gsap-icon.svg");
+}
+.doclink.greensock::before {
+  background-color: #56cc00;
 }
 
 a.exercice {
