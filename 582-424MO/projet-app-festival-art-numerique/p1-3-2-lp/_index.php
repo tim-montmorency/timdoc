@@ -16,7 +16,6 @@
   Vous pouvez utiliser les classes dans certain car, par exemple sur un bouton avec la classe .btn-primary.
 </checklist>
 
-
 <dots></dots>
 
 
