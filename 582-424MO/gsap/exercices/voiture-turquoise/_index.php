@@ -30,5 +30,6 @@ Faites faire un tour complet aux roues en l'espace d'une seconde à vitesse cons
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
+
 <?php intlink("../../bases-de-lanimation/#interpolations-de-base") ?>
 
