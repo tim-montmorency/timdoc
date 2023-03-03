@@ -1054,14 +1054,18 @@ div.checklist ol li {
   font-size: 18px;
   line-height: 28px;
   transition-duration: 200ms;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 div.checklist ol li:hover {
   background-color: #fde8ed;
 }
 div.checklist ol li.checked {
   text-decoration: line-through;
-  text-decoration-color: #ff003a;
+  -webkit-text-decoration-color: #ff003a;
+          text-decoration-color: #ff003a;
   text-decoration-thickness: 3px;
   transition-duration: 200ms;
 }
@@ -1123,7 +1127,10 @@ div.checklist code {
   margin-bottom: 25px;
   text-align: center;
   cursor: pointer;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .color.spacer {
   margin-left: 25px;
@@ -1141,7 +1148,10 @@ div.checklist code {
   height: 600px;
 }
 .swiper.swiper-main .swiper-slide {
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   background-size: 0px 0px;
   background-repeat: no-repeat;
   background-color: black;
@@ -1162,7 +1172,8 @@ div.checklist code {
 .swiper.swiper-main .swiper-slide img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .swiper.swiper-main .swiper-button-next, .swiper.swiper-main .swiper-button-prev {
   filter: drop-shadow(0px 0px 1px black);
@@ -1171,7 +1182,10 @@ div.checklist code {
   color: white;
   font-family: Consolas;
   filter: drop-shadow(0px 0px 2px black);
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .swiper.swiper-main .swiper-fullscreen {
   position: absolute;
@@ -1201,7 +1215,10 @@ div.checklist code {
 }
 .swiper.swiper-thumbs .swiper-slide {
   display: flex;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   width: 100px;
   height: 100%;
   opacity: 0.4;
@@ -1210,7 +1227,8 @@ div.checklist code {
 .swiper.swiper-thumbs .swiper-slide img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .swiper.swiper-thumbs .swiper-slide-thumb-active {
   opacity: 1;
@@ -1484,6 +1502,7 @@ footer #copyright {
 }
 
 #contents_table {
+  position: -webkit-sticky;
   position: sticky;
   align-self: flex-start;
   top: 70px;
@@ -1708,10 +1727,14 @@ table tr:nth-child(even) td {
   background-image: linear-gradient(to right, #111111, #000000);
 }
 #wiki__list ul {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   padding: 25px 25px;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 #wiki__list ul li {
   margin-bottom: 20px;
