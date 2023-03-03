@@ -37,7 +37,8 @@
 <warning>
     <p>Bien qu’il soit possible d’animer presque toutes les propriétés CSS, il est préférable de se concentrer sur
         <code>transform</code> et <code>opacity</code> lorsque possible, puisque ces propriétés bénéficies
-        d’une&nbsp;accélération&nbsp;matérielle.</p>
+        d’une&nbsp;accélération&nbsp;matérielle.
+    </p>
     <ul>
         <li><code>opacity</code></li>
         <li><code>x</code> et&nbsp;<code>y</code></li>
@@ -46,7 +47,7 @@
         <li><code>skewX</code> et&nbsp;<code>skewY</code></li>
     </ul>
 </warning>
-
+<dots></dots>
 <grostitre>Méthode to()</grostitre>
 <p>Dans l'exemple ci-dessous, un carré est positionné en haut à gauche de son parent. En cliquant sur le bouton ▶️, une
     animation GSAP le déplace vers la droite.</p>
@@ -66,29 +67,33 @@
 
 <ul>
     <li>
-    <code>gsap</code>&nbsp;indique que nous désirons utiliser une méthode appartenant à la librairie&nbsp;GSAP.
-       
+        <code>gsap</code>&nbsp;indique que nous désirons utiliser une méthode appartenant à la librairie&nbsp;GSAP.
+
     </li>
     <li>
-      <code>to()</code>&nbsp;correspond à la méthode&nbsp;utilisée. Traduisible par&nbsp;<em>"vers"</em>, cette
-            méthode indique qu'un état de fin sera passé et que l'élément doit faire une interpolation
-            vers&nbsp;celui-ci.
+        <code>to()</code>&nbsp;correspond à la méthode&nbsp;utilisée. Traduisible par&nbsp;<em>"vers"</em>, cette
+        méthode indique qu'un état de fin sera passé et que l'élément doit faire une interpolation
+        vers&nbsp;celui-ci.
     </li>
     <li>
-       <code>'.element'</code>&nbsp;le sélecteur correspondant à l'élément devant être&nbsp;animé.
+        <code>'.element'</code>&nbsp;le sélecteur correspondant à l'élément devant être&nbsp;animé.
     </li>
     <li>
         <code>{ x: '400%' }</code>&nbsp;un état de fin sous forme d'objet contenant une
-            propriété&nbsp;<em>(x)</em>&nbsp;et une valeur&nbsp;<em>('400%')</em>.
+        propriété&nbsp;<em>(x)</em>&nbsp;et une valeur&nbsp;<em>('400%')</em>.
     </li>
 </ul>
 <p>L'élément se déplace donc vers la droite ➡️ de 4x sa largeur&nbsp;<em>(400%)</em>&nbsp;en l'espace d'une seconde.</p>
 <br><br>
-<img src="images/to_decortique_f2.png" alt="gasp.to('.box'), { x: 200 }) to est la méthode, .box est la cible(s) et x est la variable" style="max-width: 500px">
+<img src="images/to_decortique_f2.png"
+    alt="gasp.to('.box'), { x: 200 }) to est la méthode, .box est la cible(s) et x est la variable"
+    style="max-width: 500px">
 
 
 
-<warning>L’animation ne fonctionne qu’une fois. Puisque la méthode <code>to()</code> indique un état de fin à atteindre et que l'animation a changé les valeurs des propriétés, leurs valeurs de départ est maintenant identiques à celle de fin, donc aucune animation n’est exécutée les fois&nbsp;subséquentes.</warning>
+<warning>L’animation ne fonctionne qu’une fois. Puisque la méthode <code>to()</code> indique un état de fin à atteindre
+    et que l'animation a changé les valeurs des propriétés, leurs valeurs de départ est maintenant identiques à celle de
+    fin, donc aucune animation n’est exécutée les fois&nbsp;subséquentes.</warning>
 
 
 <doclink href='https://greensock.com/docs/v3/GSAP/gsap.to()'>to()</doclink>
@@ -112,23 +117,26 @@
 <p><strong>Décortiquons une animation avec plus d'une propriété:</strong></p>
 <ul>
     <li>
-       <code>from()</code>&nbsp;correspond à la méthode&nbsp;utilisée. Traduisible par&nbsp;<em>"à partir de"</em>,
-            cette méthode indique qu'un état de départ sera passé et que l'élément doit partir de celui-ci pour faire
-            une interpolation vers ses valeurs&nbsp;initiales.
+        <code>from()</code>&nbsp;correspond à la méthode&nbsp;utilisée. Traduisible par&nbsp;<em>"à partir de"</em>,
+        cette méthode indique qu'un état de départ sera passé et que l'élément doit partir de celui-ci pour faire
+        une interpolation vers ses valeurs&nbsp;initiales.
     </li>
     <li>
         <code>{ x: '400%', opacity: 0 }</code>&nbsp;un état de départ sous forme d'objet contenant les
-            propriétés&nbsp;<code>x</code>&nbsp;&amp;&nbsp;<code>opacity</code>&nbsp;et les
-            valeurs&nbsp;<code>400%</code>&nbsp;&amp;&nbsp;<code>0</code>&nbsp;<em>(transparent au début
-                de&nbsp;l'animation)</em>.
+        propriétés&nbsp;<code>x</code>&nbsp;&amp;&nbsp;<code>opacity</code>&nbsp;et les
+        valeurs&nbsp;<code>400%</code>&nbsp;&amp;&nbsp;<code>0</code>&nbsp;<em>(transparent au début
+            de&nbsp;l'animation)</em>.
     </li>
 </ul>
 
 <warning>La propriété CSS transform est formulée différemment dû à ses multiples valeurs possibles. Par exemple,
-<code>transform: translateX(400%)</code> est formulé ici <code>x: '400%'</code>. Pour voir tous les noms associés à la propriété transform, voir la <a href="https://greensock.com/get-started/#2d-and-3d-transforms">liste de&nbsp;Greensock 🟩 🧦</a>.</warning>
+    <code>transform: translateX(400%)</code> est formulé ici <code>x: '400%'</code>. Pour voir tous les noms associés à
+    la propriété transform, voir la <a href="https://greensock.com/get-started/#2d-and-3d-transforms">liste
+        de&nbsp;Greensock 🟩 🧦</a>.
+</warning>
 
 <warning>Contrairement à l’animation <code>to()</code>, l’animation <code>from()</code> peut-être jouée plus d’une
-            fois, puisque l’état de départ fourni ne correspond jamais à celle de&nbsp;fin.</warning>
+    fois, puisque l’état de départ fourni ne correspond jamais à celle de&nbsp;fin.</warning>
 
 <doclink href='https://greensock.com/docs/v3/GSAP/gsap.from()'>from()</doclink>
 
@@ -138,25 +146,22 @@
 <grostitre>Méthode fromTo()</grostitre>
 
 <p>Permets de spécifier un état de départ et de fin d'une animation, contrairement à&nbsp;<a rel="noopener noreferrer"
-        href="#methode-from">from()</a>&nbsp;et&nbsp;<a rel="noopener noreferrer" href="#methode-to">to()</a>&nbsp;qui utilisent l'état
+        href="#methode-from">from()</a>&nbsp;et&nbsp;<a rel="noopener noreferrer" href="#methode-to">to()</a>&nbsp;qui
+    utilisent l'état
     actuel comme point de départ ou fin. Cette interpolation permet d'avoir un contrôle total sur une animation, en
     particulier lorsqu'elle est enchaînée avec d'autres&nbsp;animations.</p>
 
+<p class="codepen" data-height="195" data-theme-id="44168" data-default-tab="js,result" data-slug-hash="YzOVqby"
+    data-user="tim-momo"
+    style="height: 195px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/YzOVqby">
+            GSAP - from()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
+<br>
 
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(25% + 36px);"></span>
-
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_4" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/08255b3a73a71b8c2be95779b0f7b77e?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=08255b3a73a71b8c2be95779b0f7b77e&amp;default-tab=js%2Cresult&amp;name=cp_embed_4"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_08255b3a73a71b8c2be95779b0f7b77e"></iframe></div>
-    </div>
-
-
-</div>
 <p>Dans cet exemple, il est important de remarquer la présence de deux objets de
     propriétés&nbsp;<code>{ x: '0%' }</code>&nbsp;et&nbsp;<code>{ x: '400%' }</code>&nbsp;plutôt qu'un seul. Le premier
     spécifie l'état de départ et le deuxième l'état de fin de&nbsp;l'animation.</p>
@@ -170,17 +175,10 @@
 <p>Par exemple&nbsp;<code>{ x: '0%', scale: 2 }, { x: '400%' }</code>&nbsp;<code>scale</code>&nbsp;donnerait un scale
     initial de 2 et puisqu'aucun scale de fin n'est spécifié, GSAP assumera que le scale de fin doit correspondre au
     scale de&nbsp;départ.</p>
-<div class="tags-list">
-    <div class="tags-list__wrapper">
-        <ul class="tags-list__list">
-            <li class="tags-list__item">
-                <a href="https://greensock.com/docs/v3/GSAP/gsap.fromTo()" target="_blank" rel="noopener noreferrer"
-                    class="tags-list__link tags-list__link--auto">fromTo()</a>
-            </li>
+    <doclink href='https://greensock.com/docs/v3/GSAP/gsap.fromTo()'>fromTo()</doclink>
 
-        </ul>
-    </div>
-</div>
+
+<exercice href="../exercices/voiture-turquoise"></exercice>
 
 <aside class="exercice-card">
     <div class="exercice-card__content">
@@ -438,7 +436,8 @@
 <p><strong>Valeurs possibles:&nbsp; </strong></p>
 <p><code>none</code>,&nbsp;<code>power1</code>, <code>power2</code>, <code>power3</code>,&nbsp;<code>power4</code>,
     <code>back</code>, <code>elastic</code>, <code>bounce</code>, <code>rough</code>, <code>slow</code>,
-    <code>steps</code>, <code>circ</code>, <code>expo</code>, <code>sine</code></p>
+    <code>steps</code>, <code>circ</code>, <code>expo</code>, <code>sine</code>
+</p>
 <p>Il est possible de spécifier si un&nbsp;<code>ease</code>&nbsp;doit être effectué au début, à la fin ou au début et à
     la fin en ajoutant&nbsp;<code>.in</code>,&nbsp;<code>.out</code>&nbsp;ou&nbsp;<code>.inOut</code>&nbsp;après le nom
     du ease souhaité. Par exemple:&nbsp;<code>bounce.inOut</code>;</p>
