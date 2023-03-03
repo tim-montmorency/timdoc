@@ -1,13 +1,17 @@
 a.exercice {
     display: block;
     background-image: linear-gradient(0deg, #87ceeb, 20%, #f0f8fc);
-
-    height: 140px;
-    background-color: #f0f8fc;
+    background-image: linear-gradient(0deg, #577590, 1%, #e5ecf1
+    );
+    background-color: #e5ecf1;
     margin-bottom: 25px;
     color: #555555;
     margin-left: -25px;
     margin-right: -25px;
+
+    @media (min-width: 480px)  {
+        height: 140px;
+    }
 
     &:hover {
         color: #000000;
@@ -17,21 +21,22 @@ a.exercice {
         width: 100%;
         height: 100%;
         display: flex;
+        flex-direction: column;
+
+        @media (min-width: 480px)  {
+            flex-direction: row;
+        }
 
         div.exercice-thumb {
-            flex-basis: 186px;
-            min-width: 186px;
-            height: auto;
             background-position: 50% 50%;
             background-repeat: no-repeat;
             background-size: cover;
-
+            aspect-ratio: 4/3;
         }
 
         div.exercice-abstract {
             flex-grow: 2;
-            margin-left: 25px;
-            margin-right: 25px;
+            margin: 25px;
             display: flex;
             align-items: flex-start;
             flex-direction: column;

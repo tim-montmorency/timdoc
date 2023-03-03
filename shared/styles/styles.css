@@ -835,12 +835,17 @@ a.doclink .doclink-icon {
 a.exercice {
   display: block;
   background-image: linear-gradient(0deg, #87ceeb, 20%, #f0f8fc);
-  height: 140px;
-  background-color: #f0f8fc;
+  background-image: linear-gradient(0deg, #577590, 1%, #e5ecf1);
+  background-color: #e5ecf1;
   margin-bottom: 25px;
   color: #555555;
   margin-left: -25px;
   margin-right: -25px;
+}
+@media (min-width: 480px) {
+  a.exercice {
+    height: 140px;
+  }
 }
 a.exercice:hover {
   color: #000000;
@@ -849,19 +854,22 @@ a.exercice div.exercice-container {
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
+}
+@media (min-width: 480px) {
+  a.exercice div.exercice-container {
+    flex-direction: row;
+  }
 }
 a.exercice div.exercice-container div.exercice-thumb {
-  flex-basis: 186px;
-  min-width: 186px;
-  height: auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  aspect-ratio: 4/3;
 }
 a.exercice div.exercice-container div.exercice-abstract {
   flex-grow: 2;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin: 25px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -908,12 +916,17 @@ a.exercice div.exercice-container div.exercice-abstract .exercice-description {
 a.tool {
   display: block;
   background-image: linear-gradient(0deg, #87eb9d, 20%, #f0fcf0);
-  height: 140px;
-  background-color: #f0fcf0;
+  background-image: linear-gradient(0deg, #f3ca40, 10%, #fef9e8);
+  background-color: #fef9e8;
   margin-bottom: 25px;
   color: #555555;
   margin-left: -25px;
   margin-right: -25px;
+}
+@media (min-width: 480px) {
+  a.tool {
+    height: 140px;
+  }
 }
 a.tool:hover {
   color: #000000;
@@ -922,28 +935,29 @@ a.tool div.tool-container {
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column-reverse;
+}
+@media (min-width: 480px) {
+  a.tool div.tool-container {
+    flex-direction: row;
+  }
 }
 a.tool div.tool-container div.tool-thumb {
-  flex-basis: 186px;
-  min-width: 186px;
-  height: auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  aspect-ratio: 4/3;
 }
 a.tool div.tool-container div.tool-abstract {
   flex-grow: 2;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-left: 25px;
-  padding-right: 25px;
+  margin: 25px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
 }
 a.tool div.tool-container div.tool-abstract em {
-  background-color: #87eb9d;
+  background-color: #f3ca40;
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 6px;
@@ -1054,18 +1068,14 @@ div.checklist ol li {
   font-size: 18px;
   line-height: 28px;
   transition-duration: 200ms;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 div.checklist ol li:hover {
   background-color: #fde8ed;
 }
 div.checklist ol li.checked {
   text-decoration: line-through;
-  -webkit-text-decoration-color: #ff003a;
-          text-decoration-color: #ff003a;
+  text-decoration-color: #ff003a;
   text-decoration-thickness: 3px;
   transition-duration: 200ms;
 }
@@ -1127,10 +1137,7 @@ div.checklist code {
   margin-bottom: 25px;
   text-align: center;
   cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 .color.spacer {
   margin-left: 25px;
@@ -1148,10 +1155,7 @@ div.checklist code {
   height: 600px;
 }
 .swiper.swiper-main .swiper-slide {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   background-size: 0px 0px;
   background-repeat: no-repeat;
   background-color: black;
@@ -1172,8 +1176,7 @@ div.checklist code {
 .swiper.swiper-main .swiper-slide img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 .swiper.swiper-main .swiper-button-next, .swiper.swiper-main .swiper-button-prev {
   filter: drop-shadow(0px 0px 1px black);
@@ -1182,10 +1185,7 @@ div.checklist code {
   color: white;
   font-family: Consolas;
   filter: drop-shadow(0px 0px 2px black);
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 .swiper.swiper-main .swiper-fullscreen {
   position: absolute;
@@ -1215,10 +1215,7 @@ div.checklist code {
 }
 .swiper.swiper-thumbs .swiper-slide {
   display: flex;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   width: 100px;
   height: 100%;
   opacity: 0.4;
@@ -1227,8 +1224,7 @@ div.checklist code {
 .swiper.swiper-thumbs .swiper-slide img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .swiper.swiper-thumbs .swiper-slide-thumb-active {
   opacity: 1;
@@ -1330,6 +1326,7 @@ div.quote__title {
   font-size: 14px;
 }
 
+/* light color palette: https://coolors.co/577590-f3ca40-ff003a-e1e4f2-f2a541 */
 * {
   margin: 0;
   padding: 0;
@@ -1426,7 +1423,7 @@ header #lightswitch.lightswitch--off::before {
 }
 
 #subhead {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #e1e4f2;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -1471,7 +1468,6 @@ main::before {
   left: 0px;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, #ffc5c5, 20%, #ffffff);
   z-index: -1;
 }
 
@@ -1487,12 +1483,12 @@ article {
 
 footer {
   width: 100%;
-  height: 100px;
-  background: linear-gradient(to top, #ffc5c5, 50%, #ffffff);
+  background: rgb(225, 228, 242);
+  /*border-top: 1px solid rgb(204, 207, 217);*/
   text-align: center;
+  padding: 36px 0 30px;
 }
 footer #copyright {
-  padding-top: 40px;
   font-size: 4vw;
 }
 @media (min-width: 576px) {
@@ -1502,7 +1498,6 @@ footer #copyright {
 }
 
 #contents_table {
-  position: -webkit-sticky;
   position: sticky;
   align-self: flex-start;
   top: 70px;
@@ -1552,7 +1547,7 @@ footer #copyright {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
-  width: auto;
+  width: 100%;
   max-width: 100%;
 }
 #contents h2, #contents h3, #wiki__pages h2, #wiki__pages h3 { /* les h2 devront devenir des h3 */
@@ -1569,7 +1564,8 @@ footer #copyright {
   margin-top: 20px;
 }
 #contents em, #wiki__pages em {
-  color: #b98304;
+  color: #F3CA40;
+  color: #F2A541;
 }
 #contents p code,
 #contents ul code, #wiki__pages p code,
@@ -1727,14 +1723,10 @@ table tr:nth-child(even) td {
   background-image: linear-gradient(to right, #111111, #000000);
 }
 #wiki__list ul {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   padding: 25px 25px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 #wiki__list ul li {
   margin-bottom: 20px;

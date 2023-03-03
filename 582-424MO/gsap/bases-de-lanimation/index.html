@@ -121,7 +121,7 @@
 <br><br>
 <img src="images/to_decortique_f2.png"
     alt="gasp.to('.box'), { x: 200 }) to est la méthode, .box est la cible(s) et x est la variable"
-    style="max-width: 500px">
+    style="max-width: 50%">
 
 
 
@@ -183,7 +183,7 @@
 <grostitre>• Méthode fromTo() •</grostitre>
 
 <p>Permets de spécifier un état de départ et de fin d'une animation, contrairement à&nbsp;<a rel="noopener noreferrer"
-        href="#methode-from">from()</a>&nbsp;et&nbsp;<a rel="noopener noreferrer" href="#methode-to">to()</a>&nbsp;qui
+        href="#-methode-from-">from()</a>&nbsp;et&nbsp;<a rel="noopener noreferrer" href="#-methode-to-">to()</a>&nbsp;qui
     utilisent l'état
     actuel comme point de départ ou fin. Cette interpolation permet d'avoir un contrôle total sur une animation, en
     particulier lorsqu'elle est enchaînée avec d'autres&nbsp;animations.</p>
@@ -271,26 +271,16 @@
 <dots></dots>
 
 <grostitre>• Yoyo •</grostitre>
-<h3 class="heading heading--h3" id="Yoyo">Yoyo</h3>
 
 
-<p>De façon similaire à&nbsp;<a
-        href="../../../582-215MO/css/animation/#animation-direction" target="_blank">animation-direction: alternate;</a>&nbsp;en
-    CSS, la propriété&nbsp;<code>Yoyo</code>&nbsp;de GSAP permet d'indiquer à une animation d'alterner de direction à
-    chaque&nbsp;répétition.</p>
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
 
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_7" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/d13c85444f1ec0bc617c50acfb369eb7?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=d13c85444f1ec0bc617c50acfb369eb7&amp;default-tab=js%2Cresult&amp;name=cp_embed_7"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_d13c85444f1ec0bc617c50acfb369eb7"></iframe></div>
-    </div>
-</div>
+<p>De façon similaire à&nbsp;<a href="../../../582-215MO/css/animation/#animation-direction" target="_blank">animation-direction: alternate;</a> en CSS, la propriété&nbsp;<code>Yoyo</code> de GSAP permet d'indiquer à une animation d'alterner de direction à chaque&nbsp;répétition.</p>
 
-
+<p class="codepen" data-height="300" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="ExemMPJ" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/ExemMPJ">
+  GSAP - Delay</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 
 
@@ -317,31 +307,29 @@
 <grostitre>• Stagger •</grostitre>
 
 
-<p>Similaire à&nbsp;<a rel="noopener noreferrer" href="#delay">Delay</a>, Stagger fait en sorte qu'un groupe
+<p>Similaire à&nbsp;<a rel="noopener noreferrer" href="#-delay-">Delay</a>, Stagger fait en sorte qu'un groupe
     d'éléments&nbsp;<em>(.element)</em>&nbsp;ayant tous la même animation soient décalés. Ainsi, plutôt que de voir les
     trois carrés se déplacer en même temps, un délai de 0.2s est ajouté entre chaque&nbsp;animation.</p>
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(25% + 36px);"></span>
-
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_9" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/a53dbd6e023b96bafbacec6d36192994?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=a53dbd6e023b96bafbacec6d36192994&amp;default-tab=js%2Cresult&amp;name=cp_embed_9"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_a53dbd6e023b96bafbacec6d36192994"></iframe></div>
-    </div>
 
 
-</div>
+<p class="codepen" data-height="300" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="mdGmoRO" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/mdGmoRO">
+  GSAP - Delay</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
+
+
 <p>Il est aussi possible de passer un objet à&nbsp;<code>stagger</code>&nbsp;plutôt qu'un nombre. Dans cet objet, il est
     possible de spécifier le décalage entre chaque&nbsp;élément.</p>
 <p>Par&nbsp;exemple:</p>
-<pre><code class="hljs php">gsap.<span class="hljs-keyword">from</span>(<span class="hljs-string">'.element'</span>, { 
-  x: <span class="hljs-string">'400%'</span>,
+<highlight lang='javascript'>gsap.from('.element', { 
+  x: '400%',
   stagger: {
-    each: <span class="hljs-number">0.2</span>
+    each: 0.2
   }
-});</code></pre>
+});</highlight>
+
 <p>Générerait exactement le même résultat que dans l'exemple précédent. Cependant, il est possible de passer des
     propriétés et valeurs supplémentaires afin de raffiner l'animation. Notamment,&nbsp;<code>from</code>, soit le point
     de départ de&nbsp;l'animation.</p>
