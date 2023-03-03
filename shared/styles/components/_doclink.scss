@@ -158,3 +158,12 @@ a.doclink {
         background-color: #146ed4;
     }
 }
+
+.doclink.greensock {
+    .doclink-icon {
+        background-image: url('../images/gsap-icon.svg');
+    }
+    &::before {
+        background-color: #56cc00;
+    }
+}

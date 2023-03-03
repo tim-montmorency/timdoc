@@ -44,4 +44,7 @@
 Étape 8: Recréez l'affichage suivant en respectant le changement de mise en page apparaissant au breakpoint <code>md</code>. Afin de réussir cette mise en page, vous devrez vous aventurer dans <a href="https://getbootstrap.com/docs/5.0/layout/columns/#order-classes" target="_blank" onclick="event.stopPropagation()">la documentation de Bootstrap</a> afin de vous renseigner à propos d'<code>order</code>. <img src="images/bootstrap-ex08.png">
 Étape 9: Recréez l'affichage suivant en respectant les changements de mise en page apparaissant aux breakpoints&nbsp;<code>md</code> et <code>xl</code>. Afin de réussir cette mise en page, vous devrez vous aventurer dans <a href="https://getbootstrap.com/docs/5.0/layout/columns/#offsetting-columns" onclick="event.stopPropagation()" target="_blank">la documentation de Bootstrap</a> afin de vous renseigner à propos d'<code>offset</code>. <img src="images/bootstrap-ex09.png">
 </checklist>
+<dots></dots>
+<grostitre>Notes de cours 📚</grostitre>
+<?php intlink("../../grille/") ?>
 
