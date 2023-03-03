@@ -48,12 +48,12 @@
     </ul>
 </warning>
 <dots></dots>
-<grostitre>Méthode to()</grostitre>
+<grostitre>• Méthode to() •</grostitre>
 <p>Dans l'exemple ci-dessous, un carré est positionné en haut à gauche de son parent. En cliquant sur le bouton ▶️, une
     animation GSAP le déplace vers la droite.</p>
-<p class="codepen" data-height="140" data-theme-id="44168" data-default-tab="js,result" data-slug-hash="abaWvmo"
+<p class="codepen" data-height="340" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="abaWvmo"
     data-user="tim-momo"
-    style="height: 140px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    style="height: 340px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
     <span>See the Pen <a href="https://codepen.io/tim-momo/pen/abaWvmo">
             GSAP - to()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
         on <a href="https://codepen.io">CodePen</a>.</span>
@@ -100,14 +100,17 @@
 <br>
 <exercice href="../exercices/voiture-jaune"></exercice>
 
+
+
+
 <dots></dots>
 
-<grostitre>Méthode from()</grostitre>
+<grostitre>• Méthode from() •</grostitre>
 
 
-<p class="codepen" data-height="190" data-theme-id="44168" data-default-tab="js,result" data-slug-hash="MWqmaXM"
+<p class="codepen" data-height="390" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="MWqmaXM"
     data-user="tim-momo"
-    style="height: 190px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    style="height: 390px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
     <span>See the Pen <a href="https://codepen.io/tim-momo/pen/MWqmaXM">
             GSAP - to()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
         on <a href="https://codepen.io">CodePen</a>.</span>
@@ -143,7 +146,7 @@
 
 <dots></dots>
 
-<grostitre>Méthode fromTo()</grostitre>
+<grostitre>• Méthode fromTo() •</grostitre>
 
 <p>Permets de spécifier un état de départ et de fin d'une animation, contrairement à&nbsp;<a rel="noopener noreferrer"
         href="#methode-from">from()</a>&nbsp;et&nbsp;<a rel="noopener noreferrer" href="#methode-to">to()</a>&nbsp;qui
@@ -151,9 +154,9 @@
     actuel comme point de départ ou fin. Cette interpolation permet d'avoir un contrôle total sur une animation, en
     particulier lorsqu'elle est enchaînée avec d'autres&nbsp;animations.</p>
 
-<p class="codepen" data-height="195" data-theme-id="44168" data-default-tab="js,result" data-slug-hash="YzOVqby"
+<p class="codepen" data-height="395" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="YzOVqby"
     data-user="tim-momo"
-    style="height: 195px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    style="height: 395px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
     <span>See the Pen <a href="https://codepen.io/tim-momo/pen/YzOVqby">
             GSAP - from()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
         on <a href="https://codepen.io">CodePen</a>.</span>
@@ -180,102 +183,65 @@
 
 <exercice href="../exercices/voiture-turquoise"></exercice>
 
-<aside class="exercice-card">
-    <div class="exercice-card__content">
-        <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-        <a href="/exercices/gsap/gsap-voiture-turquoise" target="_blank" class="exercice-card__title">
-            GSAP - Voiture&nbsp;turquoise
-        </a>
 
-        <p class="exercice-card__description">Pour cet exercice, vous devez à l’aide de GSAP animer les différentes
-            partie d’une voiture afin de la faire rouler et reculer sur la&nbsp;route.</p>
-    </div>
+<dots></dots>
 
-    <picture class="exercice-card__preview">
-        <source
-            srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3Mvdm9pdHVyZS10dXJxdW9pc2UuanBn?w=620&amp;s=5b48dc6ca1571f67c70dccd0f9970c9d"
-            media="(max-width: 575px) and (min-resolution: 2dppx)">
-        <source
-            srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3Mvdm9pdHVyZS10dXJxdW9pc2UuanBn?w=310&amp;s=40f792dc6502aa79aac63fe6380ed429"
-            media="(max-width: 575px)">
-        <source
-            srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3Mvdm9pdHVyZS10dXJxdW9pc2UuanBn?w=370&amp;s=3f10416369994e541e58dbb0673af1e2"
-            media="(min-resolution: 2dppx)">
-        <img src="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3Mvdm9pdHVyZS10dXJxdW9pc2UuanBn?w=185&amp;s=d54ab4a375205371dd0ecaf9bda94e6a"
-            width="" height="" loading="lazy" class="exercice-card__image" style="object-position: 50% 50%;">
-    </picture>
-</aside>
+<grostitre>Propriétés&nbsp;spéciales: </grostitre>
 
 
-<h2 class="heading heading--h2" id="Propriétés&nbsp;spéciales">Propriétés&nbsp;spéciales<a
-        href="#Propriétés&nbsp;spéciales" aria-hidden="true" class="heading__anchor" data-module="CopyToClipboard"
-        data-text="https://smnarnold.com/cours/gsap/introduction#Propriétés&nbsp;spéciales" data-snackbar="Lien copié.">
-        <span class="heading__anchor__wrapper">
-            <svg viewBox="0 0 24 24">
-                <path
-                    d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z">
-                </path>
-            </svg>
-        </span>
-    </a>
-</h2>
 
 <p>En plus des propriétés CSS de base, il est possible d'utiliser des propriétés&nbsp;spéciales.</p>
-<h3 class="heading heading--h3" id="Duration">Duration</h3>
+
+
+
+
+<grostitre>• Duration •</grostitre>
 
 <p>Tout comme la propriété&nbsp;<a target="_blank" rel="noopener noreferrer"
-        href="/cours/css/animation">animation-duration</a>&nbsp;en CSS, la propriété&nbsp;<code>duration</code>&nbsp;de
+        href="../../../582-215MO/css/animation/#animation-duration">animation-duration</a>&nbsp;en CSS, la propriété&nbsp;<code>duration</code>&nbsp;de
     GSAP permet de spécifier la durée d'une&nbsp;animation.</p>
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
-
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_5" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/bc4dd29488f3ce60ae2419d605675dd6?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=bc4dd29488f3ce60ae2419d605675dd6&amp;default-tab=js%2Cresult&amp;name=cp_embed_5"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_bc4dd29488f3ce60ae2419d605675dd6"></iframe></div>
-    </div>
 
 
-</div>
-<aside class="note note--info">
-    <div class="note__wrapper">
-        <p>Si aucune durée n’est spécifiée, GSAP utilisera une durée d’une demi-seconde <em>(0.5s)</em> par&nbsp;défaut.
-        </p>
 
-    </div>
-</aside>
-<h3 class="heading heading--h3" id="Repeat">Repeat</h3>
+
+<p class="codepen" data-height="420" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="JjaNbQQ" data-user="tim-momo" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/JjaNbQQ">
+  GSAP - fromTo()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<info>Si aucune durée n’est spécifiée, GSAP utilisera une durée d’une demi-seconde <em>(0.5s)</em> par&nbsp;défaut.</info>
+
+
+
+
+<dots></dots>
+<grostitre>• Repeat •</grostitre>
+
 
 <p>Tout comme la propriété&nbsp;<a target="_blank" rel="noopener noreferrer"
-        href="/cours/css/animation">animation-iteration-count</a>&nbsp;en CSS, la
+        href="../../../582-215MO/css/animation/#animation-iteration-count">animation-iteration-count</a>&nbsp;en CSS, la
     propriété&nbsp;<code>repeat</code>&nbsp;de GSAP permet de spécifier le nombre de fois qu'une animation
     doit-être&nbsp;effectué.</p>
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
 
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_6" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/a863ded89166a4f8f9ec18824711803d?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=a863ded89166a4f8f9ec18824711803d&amp;default-tab=js%2Cresult&amp;name=cp_embed_6"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_a863ded89166a4f8f9ec18824711803d"></iframe></div>
-    </div>
+<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="LYJyxYY" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/LYJyxYY">
+  GSAP - Duration</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
+<warning>Plutôt que d’utiliser le mot <code>infinite</code> pour indiquer qu’une animation doit jouer à l’infinie,
+            GSAP s’attend à recevoir <code>-1</code>, comme pour le dernier carré du précédent&nbsp;exemple.</warning>
 
 
-</div>
-<aside class="note note--warn">
-    <div class="note__wrapper">
-        <p>Plutôt que d’utiliser le mot <code>infinite</code> pour indiquer qu’une animation doit jouer à l’infinie,
-            GSAP s’attend à recevoir <code>-1</code>, comme pour le dernier carré du précédent&nbsp;exemple.</p>
 
-    </div>
-</aside>
+<dots></dots>
+
+<grostitre>• Yoyo •</grostitre>
 <h3 class="heading heading--h3" id="Yoyo">Yoyo</h3>
 
+
 <p>De façon similaire à&nbsp;<a
-        href="https://smnarnold.com/cours/css/animation#animation-direction">animation-direction: alternate;</a>&nbsp;en
+        href="../../../582-215MO/css/animation/#animation-direction" target="_blank">animation-direction: alternate;</a>&nbsp;en
     CSS, la propriété&nbsp;<code>Yoyo</code>&nbsp;de GSAP permet d'indiquer à une animation d'alterner de direction à
     chaque&nbsp;répétition.</p>
 <div class="codepen" data-module="CodePen">
@@ -288,35 +254,34 @@
                 style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
                 id="cp_embed_d13c85444f1ec0bc617c50acfb369eb7"></iframe></div>
     </div>
-
-
 </div>
-<h3 class="heading heading--h3" id="Delay">Delay</h3>
+
+
+
+
+
+<dots></dots>
+
+<grostitre>• Delay •</grostitre>
 
 <p>Tout comme la propriété&nbsp;<a target="_blank" rel="noopener noreferrer"
-        href="/cours/css/animation">animation-delay</a>&nbsp;en CSS, la propriété&nbsp;<code>delay</code>&nbsp;de GSAP
+        href="../../../582-215MO/css/animation/#animation-delay">animation-delay</a>&nbsp;en CSS, la propriété&nbsp;<code>delay</code>&nbsp;de GSAP
     permet de spécifier un délai d'attente avant de démarrer une&nbsp;animation.</p>
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
 
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_8" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/0e035c54363fbd92a897733c5daeb258?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=0e035c54363fbd92a897733c5daeb258&amp;default-tab=js%2Cresult&amp;name=cp_embed_8"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_0e035c54363fbd92a897733c5daeb258"></iframe></div>
-    </div>
+<p class="codepen" data-height="300" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="MWqmPxV" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/MWqmPxV">
+  GSAP - Delay</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<warning>delay peut être pratique pour synchroniser 2 ou 3 éléments, mais pour une synchronisation plus complexe, il
+            est conseillé d’utiliser une&nbsp;timeline.</warning>
 
 
-</div>
-<aside class="note note--warn">
-    <div class="note__wrapper">
-        <p>delay peut être pratique pour synchroniser 2 ou 3 éléments, mais pour une synchronisation plus complexe, il
-            est conseillé d’utiliser une&nbsp;timeline.</p>
 
-    </div>
-</aside>
-<h3 class="heading heading--h3" id="Stagger">Stagger</h3>
+
+<dots></dots>
+<grostitre>• Stagger •</grostitre>
+
 
 <p>Similaire à&nbsp;<a rel="noopener noreferrer" href="#delay">Delay</a>, Stagger fait en sorte qu'un groupe
     d'éléments&nbsp;<em>(.element)</em>&nbsp;ayant tous la même animation soient décalés. Ainsi, plutôt que de voir les
@@ -418,7 +383,7 @@
 <h3 class="heading heading--h3" id="Ease">Ease</h3>
 
 <p>Permets de dicter le rythme de l'animation, de la même façon que la&nbsp;<a target="_blank" rel="noopener noreferrer"
-        href="/cours/css/animation">animation-timing-function</a>&nbsp;permet de le faire pour les
+        href="../../../582-215MO/css/animation/#animation-timing-function">animation-timing-function</a>&nbsp;permet de le faire pour les
     animations/transitions&nbsp;CSS.</p>
 <div class="codepen" data-module="CodePen">
     <div class="codepen__wrapper">
@@ -524,71 +489,6 @@
             width="" height="" loading="lazy" class="exercice-card__image" style="object-position: 50% 50%;">
     </picture>
 </aside>
-
-
-<aside class="tool-card">
-    <div class="tool-card__content">
-        <em class="tool-card__tagline">🛠 Outil</em><br class="tool-card__break">
-        <a href="https://codepen.io/collection/ANaOod?grid_type=grid" target="_blank" rel="noopener noreferrer"
-            class="tool-card__title">
-            <strong>Collection d'animations&nbsp;GSAP</strong>
-        </a>
-
-        <p class="tool-card__description">GSAP a créé une liste sur CodePen de différentes animations montrant le
-            potentiel de leur librairie.&nbsp;Inspirez-vous!</p>
-    </div>
-
-    <picture class="tool-card__preview">
-        <source
-            srcset="/img/asset/YXNzZXRzL3Rvb2xzL2dzYXAtY29sbGVjdGlvbi5qcGc=?w=620&amp;s=c92d945de6e3cb8a587883520f107442"
-            media="(max-width: 575px) and (min-resolution: 2dppx)">
-        <source
-            srcset="/img/asset/YXNzZXRzL3Rvb2xzL2dzYXAtY29sbGVjdGlvbi5qcGc=?w=310&amp;s=dc8f9ebda2bc0cc74227829d722278a1"
-            media="(max-width: 575px)">
-        <source
-            srcset="/img/asset/YXNzZXRzL3Rvb2xzL2dzYXAtY29sbGVjdGlvbi5qcGc=?w=370&amp;s=ca7ea00d4eda78a4860992cd3d61fbcd"
-            media="(min-resolution: 2dppx)">
-        <img src="/img/asset/YXNzZXRzL3Rvb2xzL2dzYXAtY29sbGVjdGlvbi5qcGc=?w=185&amp;s=69ef82c5709516789dea02daa9d8ae6b"
-            width="" height="" loading="lazy" class="tool-card__image" style="object-position: 50% 50%;">&gt;
-    </picture>
-</aside>
-<div class="vimeo">
-    <h2 class="heading heading--h2" id="Showreel 2020">Showreel 2020<a href="#Showreel 2020" aria-hidden="true"
-            class="heading__anchor" data-module="CopyToClipboard"
-            data-text="https://smnarnold.com/cours/gsap/introduction#Showreel 2020" data-snackbar="Lien copié.">
-            <span class="heading__anchor__wrapper">
-                <svg viewBox="0 0 24 24">
-                    <path
-                        d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z">
-                    </path>
-                </svg>
-            </span>
-        </a>
-    </h2>
-
-
-    <div class="vimeo__wrapper">
-        <span class="vimeo__forced-height" style="padding-bottom: calc(56.25%);">
-        </span>
-
-        <iframe src="https://player.vimeo.com/video/502788725?title=0&amp;byline=0&amp;portrait=0"></iframe>
-    </div>
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
