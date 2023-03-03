@@ -108,15 +108,20 @@ function print_children() {
  * @return void
  */
 function intlink($path){
+
+    if(strpos($path, '#') !== false) list($path, $anchor) = explode('#', $path);
+
+
+
     $path = rtrim($path,'/\\');
     $parent = pathinfo(current(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS,1))['file'], PATHINFO_DIRNAME);
     if(!$target = realpath($parent.'/'.$path)) return;
     if(!$info = php_file_info($target.'/_index.php')) return;
         ?>
             <div class="intlink__item">
-                <div class="intlink__item__icon" style="background-image: url('<?php echo $path; ?>/<?php echo $info->icon; ?>');"></div>
+                <div class="intlink__item__icon" style="background-image: url('<?php echo $path . '/' . $info->icon; ?>');"></div>
                 <div class="intlink__item__description">
-                    <span class="intlink__item__title"><a target="_blank" href="<?php echo  !empty($info->url) ? $info->url : $path; ?>/"><?php echo $info->title; ?></a></span>
+                    <span class="intlink__item__title"><a target="_blank" href="<?php echo  !empty($info->url) ? $info->url : $path; ?>/<?php echo (!empty($anchor) ? '#'.$anchor : ''); ?>"><?php echo $info->title; ?></a></span>
                     <span class="intlink__item__abstract"><?php echo $info->abstract; ?></span>
                 </div>
             </div>
