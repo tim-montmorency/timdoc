@@ -301,91 +301,49 @@
     de départ de&nbsp;l'animation.</p>
 <ul>
     <li>
-        <p><code>"start"</code>&nbsp;part du début vers la fin&nbsp;<em>(par&nbsp;défaut)</em></p>
+        <code>"start"</code>&nbsp;part du début vers la fin&nbsp;<em>(par&nbsp;défaut)</em>
     </li>
     <li>
-        <p><code>"end"</code>&nbsp;part de la fin vers le&nbsp;début</p>
+    <code>"end"</code>&nbsp;part de la fin vers le&nbsp;début
     </li>
     <li>
-        <p><code>"center"</code>&nbsp;du centre vers les&nbsp;extrémités</p>
+    <code>"center"</code>&nbsp;du centre vers les&nbsp;extrémités
     </li>
     <li>
-        <p><code>"edges"</code>&nbsp;des extrémités vers le&nbsp;centre</p>
+        <code>"edges"</code>&nbsp;des extrémités vers le&nbsp;centre
     </li>
     <li>
-        <p><code>"random"</code>&nbsp;de façon aléatoire</p>
+        <code>"random"</code>&nbsp;de façon aléatoire
     </li>
 </ul>
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
+<br>
+<p class="codepen" data-height="380" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="WNgjWEB" data-user="tim-momo" style="height: 380px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/WNgjWEB">
+  GSAP - Stagger</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<br>
 
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_10" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/44c45ac203c71ae0d56ed27f2187f878?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=44c45ac203c71ae0d56ed27f2187f878&amp;default-tab=js%2Cresult&amp;name=cp_embed_10"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_44c45ac203c71ae0d56ed27f2187f878"></iframe></div>
-    </div>
-
-
-</div>
-<div class="tags-list">
-    <div class="tags-list__wrapper">
-        <ul class="tags-list__list">
-            <li class="tags-list__item">
-                <a href="https://greensock.com/docs/v3/Staggers" target="_blank" rel="noopener noreferrer"
-                    class="tags-list__link tags-list__link--auto">Staggers</a>
-            </li>
-
-        </ul>
-    </div>
-</div>
-
-<aside class="exercice-card">
-    <div class="exercice-card__content">
-        <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-        <a href="/exercices/gsap/gsap-stagger-dominos" target="_blank" class="exercice-card__title">
-            GSAP Stagger -&nbsp;Dominos
-        </a>
-
-        <p class="exercice-card__description">Pour cet exercice, écrivez une animation GSAP permettant de faire tomber
-            tous les dominos un à la suite de l’autre en tirant profit de&nbsp;la...</p>
-    </div>
-
-    <picture class="exercice-card__preview">
-        <source
-            srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3NhcC1zdGFnZ2VyLWRvbWlub3MucG5n?w=620&amp;s=a9560e461a15e9d4d6e7be57792d8878"
-            media="(max-width: 575px) and (min-resolution: 2dppx)">
-        <source
-            srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3NhcC1zdGFnZ2VyLWRvbWlub3MucG5n?w=310&amp;s=0913232ff00e9eb27720bd8ee8aa1186"
-            media="(max-width: 575px)">
-        <source
-            srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3NhcC1zdGFnZ2VyLWRvbWlub3MucG5n?w=370&amp;s=af206d428f9f1d1ce451d09c5ff513c9"
-            media="(min-resolution: 2dppx)">
-        <img src="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3NhcC1zdGFnZ2VyLWRvbWlub3MucG5n?w=185&amp;s=b4eba2c5dadd3015a888758f5ef4b886"
-            width="" height="" loading="lazy" class="exercice-card__image" style="object-position: 50% 50%;">
-    </picture>
-</aside>
+<doclink href='https://greensock.com/docs/v3/Staggers'>Staggers</doclink>
+<br><br>
+<exercice href='../exercices/gsap-stagger-dominos/'></exercice>
 
 
-<h3 class="heading heading--h3" id="Ease">Ease</h3>
-
-<p>Permets de dicter le rythme de l'animation, de la même façon que la&nbsp;<a target="_blank" rel="noopener noreferrer"
-        href="../../../582-215MO/css/animation/#animation-timing-function">animation-timing-function</a>&nbsp;permet de le faire pour les
-    animations/transitions&nbsp;CSS.</p>
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
-
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_11" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/3db1fd40ee4f011c1719714d8df0b7ad?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=3db1fd40ee4f011c1719714d8df0b7ad&amp;default-tab=js%2Cresult&amp;name=cp_embed_11"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_3db1fd40ee4f011c1719714d8df0b7ad"></iframe></div>
-    </div>
 
 
-</div>
+
+<dots></dots>
+<grostitre>• Ease •</grostitre>
+
+<p>Permets de dicter le rythme de l'animation, de la même façon que la&nbsp;<a target="_blank" rel="noopener noreferrer" href="../../../582-215MO/css/animation/#animation-timing-function">animation-timing-function</a>&nbsp;permet de le faire pour les animations/transitions&nbsp;CSS.</p>
+
+<p class="codepen" data-height="330" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="JjaNVpy" data-user="tim-momo" style="height: 330px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/JjaNVpy">
+  GSAP - Ease</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
+<br>
 <p><strong>Valeurs possibles:&nbsp; </strong></p>
 <p><code>none</code>,&nbsp;<code>power1</code>, <code>power2</code>, <code>power3</code>,&nbsp;<code>power4</code>,
     <code>back</code>, <code>elastic</code>, <code>bounce</code>, <code>rough</code>, <code>slow</code>,
@@ -395,91 +353,32 @@
     la fin en ajoutant&nbsp;<code>.in</code>,&nbsp;<code>.out</code>&nbsp;ou&nbsp;<code>.inOut</code>&nbsp;après le nom
     du ease souhaité. Par exemple:&nbsp;<code>bounce.inOut</code>;</p>
 <p>Si aucune spécification n'est donnée,&nbsp;<code>.out</code>&nbsp;sera&nbsp;utilisé.</p>
-<aside class="tool-card">
-    <div class="tool-card__content">
-        <em class="tool-card__tagline">🛠 Outil</em><br class="tool-card__break">
-        <a href="https://greensock.com/get-started/#easing" target="_blank" rel="noopener noreferrer"
-            class="tool-card__title">
-            <strong>GreenSock Ease&nbsp;Visualizer</strong>
-        </a>
 
-        <p class="tool-card__description">Pour voir toutes les possibilités et visualiser la courbe de Bézier associée à
-            chaque&nbsp;easing.</p>
-    </div>
 
-    <picture class="tool-card__preview">
-        <source
-            srcset="/img/asset/YXNzZXRzL3Rvb2xzL2dzYXAtZWFzZS12aXN1YWxpemVyLnBuZw==?w=620&amp;s=2cd7cabb9df2e5df01358eb91ed7a344"
-            media="(max-width: 575px) and (min-resolution: 2dppx)">
-        <source
-            srcset="/img/asset/YXNzZXRzL3Rvb2xzL2dzYXAtZWFzZS12aXN1YWxpemVyLnBuZw==?w=310&amp;s=15efb16f1db204ba43a36bc42fb22083"
-            media="(max-width: 575px)">
-        <source
-            srcset="/img/asset/YXNzZXRzL3Rvb2xzL2dzYXAtZWFzZS12aXN1YWxpemVyLnBuZw==?w=370&amp;s=2f14490f2b346252db854258021fc470"
-            media="(min-resolution: 2dppx)">
-        <img src="/img/asset/YXNzZXRzL3Rvb2xzL2dzYXAtZWFzZS12aXN1YWxpemVyLnBuZw==?w=185&amp;s=2c01929d2e69f2583890ceb67b593921"
-            width="" height="" loading="lazy" class="tool-card__image" style="object-position: 50% 50%;">&gt;
-    </picture>
-</aside>
-<h3 class="heading heading--h3" id="Callbacks">Callbacks</h3>
+<tool href='../tools/ease-visualizer/'></tool>
+
+<dots></dots>
+<grostitre>• Callbacks •</grostitre>
 
 <p>Les&nbsp;<code>Callbacks</code>&nbsp;permettent de déclencher une fonction JavaScript à différents moments clés
     d'une&nbsp;animation.</p>
 <p>Par exemple, pour se synchroniser avec son début 🏁, il est possible d'utiliser&nbsp;<code>onStart</code>&nbsp;ou
     encore, avec sa fin 🔚 avec&nbsp;<code>onComplete</code>, comme dans l'exemple&nbsp;ci-dessous.</p>
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
-
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_12" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/98df676769dde578b3ead268e3dc1322?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=98df676769dde578b3ead268e3dc1322&amp;default-tab=js%2Cresult&amp;name=cp_embed_12"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_98df676769dde578b3ead268e3dc1322"></iframe></div>
-    </div>
-
-
-</div>
-<div class="tags-list">
-    <div class="tags-list__wrapper">
-        <ul class="tags-list__list">
-            <li class="tags-list__item">
-                <a href="https://greensock.com/get-started/#callbacks" target="_blank" rel="noopener noreferrer"
-                    class="tags-list__link tags-list__link--auto">Callbacks</a>
-            </li>
-
-        </ul>
-    </div>
-</div>
-
-<aside class="exercice-card">
-    <div class="exercice-card__content">
-        <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-        <a href="/exercices/gsap/gsap-callback-voiture-bleue" target="_blank" class="exercice-card__title">
-            GSAP callback - Voiture&nbsp;bleue
-        </a>
-
-        <p class="exercice-card__description">Pour cet exercice, vous devez à l’aide de GSAP et se son ponctuelle
-            compléter une animation de voiture afin de la faire rouler sur la&nbsp;rou...</p>
-    </div>
-
-    <picture class="exercice-card__preview">
-        <source
-            srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3NhcC12b2l0dXJlLWJsZXVlLnBuZw==?w=620&amp;s=775c0a6364197a8d9646c3f29312cb2e"
-            media="(max-width: 575px) and (min-resolution: 2dppx)">
-        <source
-            srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3NhcC12b2l0dXJlLWJsZXVlLnBuZw==?w=310&amp;s=5ac62075214f7af17a8a7fb54cfd68d4"
-            media="(max-width: 575px)">
-        <source
-            srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3NhcC12b2l0dXJlLWJsZXVlLnBuZw==?w=370&amp;s=acf7e587d34156b7adca10b2159a95cf"
-            media="(min-resolution: 2dppx)">
-        <img src="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3NhcC12b2l0dXJlLWJsZXVlLnBuZw==?w=185&amp;s=4b2b01f52fa0dbfa25f6efec8c0812f8"
-            width="" height="" loading="lazy" class="exercice-card__image" style="object-position: 50% 50%;">
-    </picture>
-</aside>
 
 
 
+<p class="codepen" data-height="300" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="BaOREVE" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/BaOREVE">
+  GSAP - Ease</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<br>
+<doclink href='https://greensock.com/get-started/#callbacks'>Callbacks</doclink>
+
+<br><br>
+
+
+<exercice href="../exercices/voiture-bleue"></exercice>
 
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

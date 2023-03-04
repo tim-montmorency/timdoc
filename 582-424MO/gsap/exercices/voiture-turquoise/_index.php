@@ -3,7 +3,7 @@
 /**
  * @type     exercice
  * @title    GSAP - Voiture turquoise
- * @icon     images/thumb.jpeg
+ * @icon     images/thumb.png
  * @abstract Pour cet exercice, vous devez à l’aide de GSAP animer les différentes partie d’une voiture afin de la faire rouler et reculer sur la route.
  */
 ?>

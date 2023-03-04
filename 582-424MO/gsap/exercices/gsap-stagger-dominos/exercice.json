@@ -1,0 +1,6 @@
+{
+    "type": "exercice",
+    "title": "GSAP - Stagger Dominos",
+    "icon": "images\/thumb.png",
+    "abstract": "Pour cet exercice, \u00e9crivez une animation GSAP permettant de faire tomber tous les dominos un \u00e0 la suite de l\u2019autre en tirant profit de la..."
+}

@@ -203,6 +203,7 @@ app.component('grostitre', {
             case 'png': var icon = 'type-png.png'; break;
             case 'webp': var icon = 'type-png.png'; break;
             case 'zip': var icon = 'type-zip.png'; break;
+            case 'mp3': var icon = 'type-audio.png'; break;
             default:    var icon = 'type-file.png';
         }
         

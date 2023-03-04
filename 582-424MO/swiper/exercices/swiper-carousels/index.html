@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../../shared/jscripts/commons.js"></script>
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>Swiper - Carousels</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->            <div id="subhead">
+                <div id="title">Swiper - Carousels</div>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+
+<p>Pour cet exercice, vous devrez partir de certains éléments HTML et de la librarie <a href="https://swiperjs.com/">Swiper.js</a> de base, pour réaliser diverses mise en&nbsp;page.</p>
+   
+
+
+
+<grostitre>Matériel</grostitre>
+<doclink href="https://codepen.io/tim-momo/pen/ExemzVo">Pen de départ</doclink>
+
+<p>Faites un <code>fork</code> du Pen de départ, ou du Pen précédent si vous avez complété la première étape, afin d'avoir les éléments HTML de base, mais de ne pas perdre votre avancement.</p>
+<p>Nommez chacune de ces copies en fonction du nom de l'étape actuelle. Par exemple pour l'étape 1, nommer votre Pen: <code>Swiper - Étape 1</code></p>
+<p>Pour chaque étape, configurer Swiper de la façon demandé.</p>
+
+<grostitre>Étape 1</grostitre>
+<checklist>Incorporez chacune des images dans une&nbsp;<em>slide</em>&nbsp;Swiper et faites en sorte en CSS qu'elles prennent la largeur complète de leur&nbsp;<em>slide</em>&nbsp;<em>(ni&nbsp;plus, ni&nbsp;moins)</em>.
+Vous ne devez pas avoir de flèches ou points de&nbsp;navigation 🚫.
+Le carrousel devrait défiler à l'horizontale lorsque vous essayez de faire glisser des&nbsp;<em>slides</em> ↔️.</checklist>
+
+<p>Aperçu du résultat 👇</p>
+<clipasset src='images/swiper-etape1-720p.mov'></clipasset>
+
+<dots></dots>
+<grostitre>Étape 2</grostitre>
+
+<checklist>Donnez la hauteur de 300px à votre carrousel ainsi qu'à toutes les images à l'intérieur de&nbsp;celui-ci.
+Les&nbsp;<em>slides</em>&nbsp;du carrousel doivent se déplacer verticalement ↕️&nbsp;plutôt&nbsp;qu'horizontalement.
+Le carrousel doit changer de&nbsp;<em>slide</em>&nbsp;automatiquement à toute les 1.5&nbsp;secondes&nbsp;⏱.</checklist>
+
+<p>Aperçu du résultat 👇</p>
+<clipasset src=''></clipasset>
+
+<dots></dots>
+<grostitre>Étape 3</grostitre>
+
+
+<checklist>Le carrousel doit tourner à l'infini horizontalement&nbsp;↔️&nbsp;<em>(possibilité de swiper à l'infini dans une&nbsp;direction)</em>.
+À partir de 768px, deux&nbsp;<em>slides</em>&nbsp;🏙🌄&nbsp;doivent être visibles en même temps plutôt qu'une&nbsp;seule et un espace de 25px doit-être ajouté entre chacune des&nbsp;<em>slides</em>.
+À partir de 992px, trois&nbsp;<em>slides</em>&nbsp;🏙🌄🌉&nbsp;doivent être visibles en même temps plutôt que&nbsp;deux et un espace de 25px doit-être ajouté entre chacune des&nbsp;<em>slides</em>.</checklist>
+
+
+
+<p>Aperçu du résultat 👇</p>
+<clipasset src=''></clipasset>
+
+<dots></dots>
+<grostitre>Étape 4</grostitre>
+  <checklist>Initialiser votre carrousel avec une classe différente que&nbsp;<code>.swiper-container</code>.
+L'usager doit avoir la liberté d'arrêter entre deux&nbsp;<em>slides</em>&nbsp;s'il le&nbsp;désire.
+Le carrousel doit avoir un effet de transition de type&nbsp;cube.</checklist>          
+
+
+<p>Aperçu du résultat 👇</p>
+<clipasset src=''></clipasset>
+
+<dots></dots>
+<grostitre>Étape 5</grostitre>
+
+ <checklist>Le carrousel doit avoir des flèches de&nbsp;navigation.
+Ajoutez deux balises&nbsp;<code>button</code>&nbsp;avec les classes&nbsp;<code>.btn-prev</code>&nbsp;&amp;&nbsp;<code>.btn-next</code>&nbsp;et les textes&nbsp;<code>Précédent</code>&nbsp;&amp;&nbsp;<code>Suivant</code>.
+Remplacez les flèches de navigation par défaut de Swiper&nbsp;<em>(flèches bleues)</em>&nbsp;par les boutons que vous venez de créer&nbsp;<em>(cliquer sur ces boutons devrait permettre de changer de&nbsp;slide)</em>.
+Modifiez le CSS de vos nouveaux boutons pour qu'ils aient un padding de 20px et la couleur de fond rose. Le bouton précédent doit afficher sous les&nbsp;<em>slides</em>&nbsp;à gauche et le bouton suivant sous les&nbsp;<em>slides</em>&nbsp;à&nbsp;droite.</checklist>           
+
+
+      <p>Aperçu du résultat 👇</p>
+<clipasset src=''></clipasset>
+
+<dots></dots>
+<grostitre>Étape 6</grostitre>
+
+   <checklist>Ajoutez un élément de pagination sous forme de fraction sous le carrousel. Par exemple:&nbsp;<code>2 / 6</code>, indiquant que nous sommes à la deuxième&nbsp;<em>slide</em>&nbsp;de 6. Évidemment, ce nombre doit se mettre à jour lorsque la&nbsp;<em>slide</em>&nbsp;affichée&nbsp;change.</checklist>         
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>

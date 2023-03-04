@@ -1482,6 +1482,7 @@ article {
 }
 
 footer {
+  margin-top: 100px;
   width: 100%;
   background: rgb(225, 228, 242);
   /*border-top: 1px solid rgb(204, 207, 217);*/
