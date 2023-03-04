@@ -100,7 +100,7 @@
     <?php intlink("../css/exercices/little-richard-here-s-little-richard/"); ?>
 </wiki-page>
 
-<!--  -->
+
 <wiki-page name="Cours 05A" >
     <?php intlink("../css/opacite/"); ?>
     <?php intlink("../css/z-index/"); ?>
@@ -117,6 +117,18 @@
 
 
 <wiki-page name="Cours 05B" date="2023-02-22">
-    <h3>Examen - Les Guardiens de la Galaxie</h3>
+    <h3>Examen: Les Guardiens de la Galaxie</h3>
     <video playsinline src="videos/baby-groot-dancing.mp4" autoplay="true" muted="true" loop="true"></video>
+</wiki-page>
+
+<wiki-page name="Cours 06A">
+    <h3>Correction: Les Guardiens de la Galaxie</h3>
+    <?php intlink("../css/responsive/"); ?>
+    <?php intlink("../css/media-queries/"); ?>
+    <?php intlink("../css/media-queries/exercices/modok/"); ?>
+    <?php intlink("../css/media-queries/exercices/ou-est-charlie/"); ?>
+    <?php intlink("../css/unites-de-mesure-avancees/"); ?>
+    <?php intlink("../css/unites-de-mesure-avancees/exercices/marylene-gendron/"); ?>
+    <h2>TP Complémentaires <em>(formatif)</em></h2>
+    <?php intlink("../css/exercices/the-planet-smashers-unstoppable/"); ?>
 </wiki-page>

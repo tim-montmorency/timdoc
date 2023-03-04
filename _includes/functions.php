@@ -107,7 +107,8 @@ function print_children() {
  * @param  mixed $path Internal relative path
  * @return void
  */
-function intlink($path){
+function intlink($path=null){
+    if(!$path) return;
     if(strpos($path, '#') !== false) list($path, $anchor) = explode('#', $path);
     $path = rtrim($path,'/\\');
     $parent = pathinfo(current(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS,1))['file'], PATHINFO_DIRNAME);
