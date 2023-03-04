@@ -121,6 +121,7 @@
     <video playsinline src="videos/baby-groot-dancing.mp4" autoplay="true" muted="true" loop="true"></video>
 </wiki-page>
 
+
 <wiki-page name="Cours 06A">
     <h3>Correction: Les Guardiens de la Galaxie</h3>
     <?php intlink("../css/responsive/"); ?>
