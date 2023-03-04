@@ -3,30 +3,28 @@
 /**
  * @type     exercice
  * @title    GSAP - Stagger Dominos
- * @icon     images/thumb.jpeg
+ * @icon     images/thumb.png
  * @abstract Pour cet exercice, écrivez une animation GSAP permettant de faire tomber tous les dominos un à la suite de l’autre en tirant profit de la...
  */
 ?>
 
-
+<p>Pour cet exercice, écrivez une animation GSAP permettant de faire tomber tous les dominos un à la suite de l’autre en tirant profit de la propriété GSAP stagger.</p>
    
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/gsap-voiture-turquoise.mp4'></clipasset>
+<clipasset src='images/gsap-stagger-dominos.mp4'></clipasset>
 
 
 <grostitre>Matériel</grostitre>
-<doclink href="https://codepen.io/tim-momo/pen/NWLjbBj">Pen de départ</doclink>
+<doclink href="https://codepen.io/tim-momo/pen/RwYVOzE">Pen de départ</doclink>
 
 <warning>Vous n’avez qu’à ajouter du CSS et du JavaScript <em>(nul besoin de modifier le&nbsp;HTML)</em>.</warning>   
 
 <grostitre>Requis</grostitre>
 
 <checklist>
-ccc
+Utiliser stagger afin de faire tomber tous les dominos un à la suite de l'autre.
 </checklist>
-
-<dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../bases-de-lanimation/#interpolations-de-base") ?>
+<?php intlink("../../bases-de-lanimation/#-stagger-") ?>
 
