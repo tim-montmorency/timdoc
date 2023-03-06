@@ -116,6 +116,6 @@
 
 <dots></dots>
 
-<exercice href="exercices/lakers/"></exercice>
+<exercice href="exercices/canadiens/"></exercice>
 
 <dots></dots>
