@@ -53,6 +53,13 @@
 <dots></dots>
 
 
+<grostitre>Extrait</grostitre>
+
+<clip src="videos/marylene-gendron-extrait.mp4"></clip>
+
+<dots></dots>
+
+
 <grostitre>Notes de cours 📚</grostitre>
 
 <?php intlink("../../../unites-de-mesure-avancees/"); ?>
