@@ -133,3 +133,16 @@
     <h2>TP Complémentaires <em>(formatif)</em></h2>
     <?php intlink("../css/exercices/the-planet-smashers-unstoppable/"); ?>
 </wiki-page>
+
+
+<wiki-page name="Cours 06B" date="2023-03-08">
+    <h3>Correction: Mindless Self Indulgence</h3>
+    <h3>Correction: Band de Garage</h3>
+    <?php intlink("../autres/vectoriel-vs-matriciel/"); ?>
+    <?php intlink("../html/svg/"); ?>
+    <?php intlink("../html/svg/exercices/hollywood-boulevard/"); ?>
+    <?php intlink("../css/variables/"); ?>
+    <?php intlink("../css/variables/exercices/canadiens/"); ?>
+    <h2>TP05 <em>(10%)</em></h2>
+    <?php intlink("../css/exercices/rage-against-the-machine-renegades/"); ?>
+</wiki-page>
