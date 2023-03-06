@@ -38,6 +38,7 @@
 <h3>Loco Locass - Le But</h3>
 
 <audioplayer src="audios/loco-locass-le-but.mp3"></audioplayer>
+<span class="remark">Ton prof chante sur cette toune.</span>
 
 <dots></dots>
 
