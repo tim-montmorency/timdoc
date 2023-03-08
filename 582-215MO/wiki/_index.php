@@ -135,7 +135,7 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 06B" date="2023-03-08">
+<wiki-page name="Cours 06B">
     <h3>Correction: Mindless Self Indulgence</h3>
     <h3>Correction: Band de Garage</h3>
     <?php intlink("../autres/vectoriel-vs-matriciel/"); ?>
@@ -143,6 +143,7 @@
     <?php intlink("../html/svg/exercices/hollywood-boulevard/"); ?>
     <?php intlink("../css/variables/"); ?>
     <?php intlink("../css/variables/exercices/canadiens/"); ?>
+    <?php intlink("../css/variables/exercices/jidddf/"); ?>
     <h2>TP05 <em>(10%)</em></h2>
     <?php intlink("../css/exercices/rage-against-the-machine-renegades/"); ?>
 </wiki-page>
