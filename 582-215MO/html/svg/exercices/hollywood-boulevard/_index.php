@@ -65,5 +65,6 @@
 <grostitre>Notes de cours 📚</grostitre>
 
 <?php intlink("../../../svg/"); ?>
+<?php intlink("../../../../css/selecteurs-avances/#voisins"); ?>
 
 <dots></dots>
