@@ -65,10 +65,47 @@
 
 <grostitre>Utilisation</grostitre>
 <ol>
-    <li>Lier les fichiers Swiper (via CDN ou autre) dans les fichiers HTML qui nécessitent cette librairie.</li>
-    <li>Ajouter le code HTML de base pour définir chaque <em>slide</em>.</li>
+    <li>Ajouter les fichiers CSS et JavaScript de Swiper.</li>
+    <li>Ajouter le HTML de mise en page de Swiper</li>
     <li>Initialiser l'instance de Swiper via JavaScript.</li>
 </ol>
+<h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" style="width:30px"><rect width="256" height="256" fill="none"/><circle cx="128" cy="128" r="96" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"/><polyline points="108 100 132 84 132 176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"/></svg> Ajouter les fichiers CSS et JavaScript de Swiper dans les pages HTML qui requiert l'utilisation de la librairie.</h3>
+<p>Vous pouvez </p>
+<highlight lang='html'>&lt;link
+  rel=&quot;stylesheet&quot;
+  href=&quot;https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css&quot;
+/&gt;
+
+&lt;script src=&quot;https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js&quot;&gt;&lt;/script&gt;</highlight>
+
+<h3>Ajouter le HTML de mise en page de Swiper.</h3>
+<highlight lang='html'>&lt;!-- Slider main container --&gt;
+&lt;div class=&quot;swiper&quot;&gt;
+  &lt;!-- Additional required wrapper --&gt;
+  &lt;div class=&quot;swiper-wrapper&quot;&gt;
+    &lt;!-- Slides --&gt;
+    &lt;div class=&quot;swiper-slide&quot;&gt;Slide 1&lt;/div&gt;
+    &lt;div class=&quot;swiper-slide&quot;&gt;Slide 2&lt;/div&gt;
+    &lt;div class=&quot;swiper-slide&quot;&gt;Slide 3&lt;/div&gt;
+    ...
+  &lt;/div&gt;
+  &lt;!-- If we need pagination --&gt;
+  &lt;div class=&quot;swiper-pagination&quot;&gt;&lt;/div&gt;
+
+  &lt;!-- If we need navigation buttons --&gt;
+  &lt;div class=&quot;swiper-button-prev&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;swiper-button-next&quot;&gt;&lt;/div&gt;
+
+  &lt;!-- If we need scrollbar --&gt;
+  &lt;div class=&quot;swiper-scrollbar&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</highlight>
+
+<h3>Initialiser l'instance de Swiper via JavaScript.</h3>
+
+
+
+
+
 <dots></dots>
 
 <grostitre>Paramètres de Swiper</grostitre>

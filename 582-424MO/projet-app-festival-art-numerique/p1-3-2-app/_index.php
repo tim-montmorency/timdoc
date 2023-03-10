@@ -12,7 +12,7 @@
 
 <checklist>
   Maintenant que vous avez personnalisé les classes de couleurs telles que bs-primary, bs-secondary, bs-info, bs-warning etc, veuillez aller changer partout où c'est possible dans votre CSS, afin d'utiliser ces variables.
-  Vous pouvez utiliser les classes dans certain car, par exemple sur un bouton avec la classe .btn-primary.
+  Vous pouvez utiliser les classes dans certains cas, par exemple sur un bouton avec la classe .btn-primary.
 </checklist>
 <dots></dots>
 

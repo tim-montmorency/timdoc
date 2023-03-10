@@ -34,7 +34,7 @@
    À l'intérieur de votre dossier css, ajoutez un fichier nommé <em>main.css</em>. Importez cette feuille de style sur chacune des pages HTML, après celle de Bootstrap.
    À l'intérieur de votre dossier js, ajoutez un fichier nommé <em>script.js</em>. Importez ce fichier JavaScript sur chacune des pages HTML, après celle de Bootstrap.
    À l'intérieur de votre dossier assets, créez un sous-dossier <em>artists</em> et un autre nommé <em>artworks</em>. Ces sous-dossiers contiendront les photos des artistes et les photos des oeuvres de votre site web. Toutes les autres images seront logés directement dans assets. C'est une bonne pratique de classer les images par catégorie lorsqu'on fait un site web et qu'on a des centaines d'images à gérer.
-   Ouvrez votre fichier main.css, ce sera le fichier qui continedra tous les styles communs au 2 pages (landing page et app).
+   Ouvrez votre fichier main.css, ce sera le fichier qui contiendra tous les styles communs au 2 pages (landing page et app).
    Créez vos variables qui représentent chacune des couleurs de votre palette.
    Liez vos fichiers fonts via la balise link dans le head du fichier HTML ou via @import dans le ficheir CSS.
    Créez des variablez pour le nom de vos différente fontes.
