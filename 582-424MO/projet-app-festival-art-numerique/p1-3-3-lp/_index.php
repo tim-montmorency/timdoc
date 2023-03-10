@@ -9,7 +9,10 @@
   ?>
 
 <grostitre>Finition de votre projet</grostitre>
-<checklist>Assurez-vous de n’avoir aucun lien ou chemin d’accès absolu (qui commence par un slash&nbsp;/)
+
+<checklist>
+Corrigez le mieux possible votre projet suite à l'évaluation de P1.2 et suite à l'évaluation formative de P1.3
+Assurez-vous de n’avoir aucun lien ou chemin d’accès absolu (qui commence par un slash&nbsp;/)
 Ajoutez un favicon
 Éditez la balise title de votre page
 Les liens du menu principal doivent pointer vers chaque section avec un anchor. S'ils en manquent, ajoutez les.
@@ -50,3 +53,8 @@ Si vous voulez aller plus loin, vous pouvez essayer d’ajouter un cadre comme d
 
 <h3>Notes de cours 📚</h3>
 <?php intlink("../../swiper/#swiper") ?> 
+
+<dots></dots> 
+
+<grostitre>Mise en ligne de votre projet</grostitre>
+<p>Via github pages, publiez votre projet en ligne et remettez moi le url final de votre site!</p>

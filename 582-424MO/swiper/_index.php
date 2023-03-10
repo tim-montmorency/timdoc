@@ -7,7 +7,6 @@
  */
  ?>
 
-
 <grostitre>Librarie JavaScript</grostitre>
 <h3>Qu’est-ce qu’une bibliothèque JavaScript, exactement? 🤔</h3>
 

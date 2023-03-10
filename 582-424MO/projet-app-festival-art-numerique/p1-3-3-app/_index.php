@@ -10,7 +10,9 @@
 
 <grostitre>Finition de votre projet</grostitre>
 
-<checklist>Assurez-vous de n’avoir aucun lien ou chemin d’accès absolu (qui commence par un slash&nbsp;/)
+<checklist>
+Corrigez le mieux possible votre projet suite à l'évaluation de P1.2 et suite à l'évaluation formative de P1.3
+Assurez-vous de n’avoir aucun lien ou chemin d’accès absolu (qui commence par un slash&nbsp;/)
 Ajoutez un favicon
 Éditez la balise title de votre page
 App : faites en sorte que le bouton like sur la page artwork soit cliquable et qu’au clic, il change de couleur pour confirmer que l’œuvre est ajoutées aux favoris. Vous pouvez utiliser du JavaScript pour le faire, utilisez le fichier scripts.js</checklist>
@@ -56,3 +58,8 @@ Toujours dans l’initialisation de swiper dans votre fichier script.js, ajoutez
 
 <h3>Notes de cours 📚</h3>
 <?php intlink("../../swiper/#swiper") ?> 
+
+<dots></dots>
+
+<grostitre>Mise en ligne de votre projet</grostitre>
+<p>Via github pages, publiez votre projet en ligne et remettez moi le url final de votre site!</p>
