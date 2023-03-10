@@ -848,11 +848,12 @@ app.component('clip', {
 app.component('wiki-page', {
     props: ['name', 'date'],
     data() {
+        let url = new URL(document.location);
         let slug = lowslug(this.name);
         let d = new Date();
         let today = d.getFullYear() + '-' + pad(d.getMonth()+1,2) + '-' + pad(d.getDate(),2);
-        if(this.date == undefined || today >= this.date)
-            this.$parent.registerPage(slug, this.name);
+        if((this.date == undefined || today >= this.date) || url.host != 'tim-montmorency.com')
+            this.$parent.registerPage(slug, (this.date != undefined && today < this.date ? '::' : '') + this.name);
         return {
             'slug': slug
         }
