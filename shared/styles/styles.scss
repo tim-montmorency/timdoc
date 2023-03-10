@@ -156,6 +156,9 @@ header {
         // background-color: red;;
         font-size: 10vw;
         font-weight: 400;
+        max-width: 1000px;
+        margin: 0 auto;
+
         @media (min-width: 576px)  {
             font-size: 60px;
         }
@@ -273,8 +276,6 @@ footer {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 50px;
-        width: 100%;
-        
         max-width: 100%;
     }
 

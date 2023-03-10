@@ -116,6 +116,8 @@
 
 <dots></dots>
 
+<exercice href="exercices/jidddf/"></exercice>
+<exercice href="exercices/canadiens/"></exercice>
 <exercice href="exercices/lakers/"></exercice>
 
 <dots></dots>

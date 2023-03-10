@@ -7,7 +7,7 @@
  */
 ?>
 
-<p class="spacer">Pour cet exercice, vous devrez vous créer votre propre étoile ⭐️ sur le <a target="_blank" href="https://fr.wikipedia.org/wiki/Hollywood_Boulevard">Hollywood Boulevard</a> grace au pour de SVG!</p>
+<p class="spacer">Pour cet exercice, vous devrez vous créer votre propre étoile ⭐️ sur le <a target="_blank" href="https://fr.wikipedia.org/wiki/Hollywood_Boulevard">Hollywood Boulevard</a> grace au pouvoir de SVG!</p>
 
 <p>Aperçu du résultat 👇</p>
 
@@ -40,7 +40,7 @@
     Exportez votre SVG en fichier ou en code, selon votre préférence, et optimisez-le via <a onclick="event.stopPropagation()" target="_blank" href="https://jakearchibald.github.io/svgomg/">SVGOMG</a> afin de simplifier son contenu.
 </checklist>
 
-<img src="images/svg-hollywood-boulevard-illustrator.png">
+<img src="images/hollywood-star.svg" width="300">
 
 <span class="remark">À ce stade-ci, votre étoile devrait ressembler à ceci.</span>
 
@@ -54,7 +54,7 @@
     Si vous avez une balise <span class="inline-code">style</span>, copiez son contenu dans la section CSS de votre Pen et effacez cette balise.
     Remarquez comment votre SVG prend toute la largeur de l’aperçu tout en restant toujours parfaitement net. Faites en sorte que votre étoile ait une largeur correspondant à  50% de celle de la page et qu’elle s’affiche à 50px du haut de celle-ci.
     Déterminer quels éléments correspondent à quoi dans le code HTML en fonction des noms que vous avez donnés dans Illustrator. Au besoin, vous pouvez modifier les ids ou même ajouter des classes.
-    Ciblez l’étoile ⭐️ en CSS et changez sa couleur de fond afin qu’elle devienne rose et que sa bordure devienne jaune, comme les étoiles du Hollywood Boulevard.
+    Ciblez l’étoile en CSS et changez sa couleur de fond afin qu’elle devienne rose et que sa bordure devienne jaune, comme les étoiles du Hollywood Boulevard.
     Changez ensuite la couleur de fond du texte, ainsi que du cercle afin qu’ils deviennent jaunes eux aussi.
     Au survole de l’étoile, changez la couleur de sa bordure afin qu’elle devienne blanche et faites en sorte que l’opacité du cercle soit réduite à 75% seulement.
 </checklist>
@@ -65,5 +65,6 @@
 <grostitre>Notes de cours 📚</grostitre>
 
 <?php intlink("../../../svg/"); ?>
+<?php intlink("../../../../css/selecteurs-avances/#voisins"); ?>
 
 <dots></dots>
