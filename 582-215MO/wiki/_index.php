@@ -162,9 +162,7 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 07B">
-    <img src="../css/pseudo-elements/exercices/zab-cafe/">
-
+<wiki-page name="Cours 07B" date="2023-03-15">
     <?php intlink("../css/modes-de-fusion/"); ?>
     <?php intlink("../css/modes-de-fusion/exercices/emotion/"); ?>
     <?php intlink("../css/filtres/"); ?>
@@ -172,7 +170,6 @@
     <?php intlink("../css/filtres/exercices/instagram/"); ?>
     <?php intlink("../css/pseudo-elements/"); ?>
     <?php intlink("../css/pseudo-elements/exercices/zab-cafe/"); ?>
-    <?php intlink(); ?>
-
-
+    <h2>TP06 <em>(10%)</em></h2>
+    <?php intlink("../css/exercices/nine-inch-nails-broken/"); ?>
 </wiki-page>
