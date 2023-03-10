@@ -3,7 +3,7 @@
  * @type     article
  * @title    Image
  * @icon     images/icon.png
- * @abstract La balise <img> permet d'afficher une image
+ * @abstract La balise &lt;img&gt; permet d'afficher une image
  */
 ?>
 

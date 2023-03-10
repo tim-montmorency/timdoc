@@ -147,3 +147,32 @@
     <h2>TP05 <em>(10%)</em></h2>
     <?php intlink("../css/exercices/rage-against-the-machine-renegades/"); ?>
 </wiki-page>
+
+
+<wiki-page name="Cours 07A">
+    <h3>Correction: Journée Internationale des Droits des Femmes</h3>
+    <?php intlink("../html/image/"); ?>
+    <?php intlink("../autres/formats-d-image/"); ?>
+    <?php intlink("../html/picture/"); ?>
+    <?php intlink("../html/picture/exercices/ant-man/"); ?>
+    <?php intlink("../autres/actions-photoshop/"); ?>
+    <?php intlink("../autres/actions-photoshop/exercices/kirby/"); ?>
+    <h2>TP Complémentaires <em>(formatif)</em></h2>
+    <?php intlink("../css/exercices/malajube-trompe-l-oeil/"); ?>
+</wiki-page>
+
+
+<wiki-page name="Cours 07B">
+    <img src="../css/pseudo-elements/exercices/zab-cafe/">
+
+    <?php intlink("../css/modes-de-fusion/"); ?>
+    <?php intlink("../css/modes-de-fusion/exercices/emotion/"); ?>
+    <?php intlink("../css/filtres/"); ?>
+    <?php intlink("../css/filtres/exercices/anonymat/"); ?>
+    <?php intlink("../css/filtres/exercices/instagram/"); ?>
+    <?php intlink("../css/pseudo-elements/"); ?>
+    <?php intlink("../css/pseudo-elements/exercices/zab-cafe/"); ?>
+    <?php intlink(); ?>
+
+
+</wiki-page>
