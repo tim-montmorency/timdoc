@@ -49,6 +49,14 @@
   Lorsque la page est plus haute que large, le logo <em>"Parental advisory"</em> doit-être déplacé dans le coin supérieur droit de l'album ↗️, toujours à l'équivalent de 3.5% du côté le plus petit de la fenêtre.
 </checklist>
 
+<grostitre>Remise</grostitre>
+
+<checklist>
+  Renommez votre dossier <em>"ratm_[nom]_[prenom]"</em>.
+  Zippez votre dossier <em>"ratm_[nom]_[prenom]"</em>.
+  Joignez votre fichier <em>.zip</em> au devoir <em>"TP05: Rage Against the Machine - Renegades"</em>.
+</checklist>
+
 <dots></dots>
 
 
