@@ -130,7 +130,7 @@
     <?php intlink("../css/media-queries/exercices/ou-est-charlie/"); ?>
     <?php intlink("../css/unites-de-mesure-avancees/"); ?>
     <?php intlink("../css/unites-de-mesure-avancees/exercices/marylene-gendron/"); ?>
-    <h2>TP Complémentaires <em>(formatif)</em></h2>
+    <h2>TP Complémentaire <em>(formatif)</em></h2>
     <?php intlink("../css/exercices/the-planet-smashers-unstoppable/"); ?>
 </wiki-page>
 
@@ -149,7 +149,7 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 07A">
+<wiki-page name="Cours 07A" date="2023-03-14">
     <h3>Correction: Journée Internationale des Droits des Femmes</h3>
     <?php intlink("../html/image/"); ?>
     <?php intlink("../autres/formats-d-image/"); ?>
@@ -157,7 +157,7 @@
     <?php intlink("../html/picture/exercices/ant-man/"); ?>
     <?php intlink("../autres/actions-photoshop/"); ?>
     <?php intlink("../autres/actions-photoshop/exercices/kirby/"); ?>
-    <h2>TP Complémentaires <em>(formatif)</em></h2>
+    <h2>TP Complémentaire <em>(formatif)</em></h2>
     <?php intlink("../css/exercices/malajube-trompe-l-oeil/"); ?>
 </wiki-page>
 
@@ -172,4 +172,151 @@
     <?php intlink("../css/pseudo-elements/exercices/zab-cafe/"); ?>
     <h2>TP06 <em>(10%)</em></h2>
     <?php intlink("../css/exercices/nine-inch-nails-broken/"); ?>
+</wiki-page>
+
+
+<wiki-page name="Cours 08A" date="2023-03-21">
+    <h3>Correction: Rage Against The Machine - Renegades</h3>
+    <?php intlink("../css/object-fit/"); ?>
+    <?php intlink("../css/object-fit/exercices/mcdonalds/"); ?>
+    <?php intlink("../css/aspect-ratio/"); ?>
+    <?php intlink("../css/aspect-ratio/exercices/the-boys/"); ?>
+</wiki-page>
+
+
+<wiki-page name="Cours 08B" date="2023-03-22">
+    <h3>Correction: Malajube - Trompe l'oeil</h3>
+    <?php intlink("../css/transformation/"); ?>
+    <?php intlink("../css/transformation/exercices/formes/"); ?>
+    <h2>TP Complémentaire <em>(formatif)</em></h2>
+    <?php intlink("../css/exercices/the-police-synchronicity/"); ?>
+</wiki-page>
+
+
+<wiki-page name="Cours 09A" date="2023-03-28">
+    <h3>Correction: Nine Inch Nails - Broken</h3>
+    <?php intlink("../css/animation/"); ?>
+    <?php intlink("../css/animation/exercices/pong/"); ?>
+    <?php intlink("../css/animation/exercices/fantome/"); ?>
+    <?php intlink("../css/animation/exercices/yo-yo/"); ?>
+    <?php intlink("../css/animation/exercices/pendule/"); ?>
+</wiki-page>
+
+
+<wiki-page name="Cours 09B" date="2023-03-29">
+    <h3>Correction: The Police - Synchronicity</h3>
+    <?php intlink("../css/animation/"); ?>
+    <?php intlink("../css/animation/exercices/billes/"); ?>
+    <?php intlink("../css/animation/exercices/new-super-luigi/"); ?>
+    <h2>TP07 <em>(15%)</em></h2>
+    <?php intlink("../css/exercices/red-hot-chili-peppers-blood-sugar-sex-magik/"); ?>
+</wiki-page>
+
+
+<wiki-page name="Cours 10A" date="2023-04-04">
+    <?php intlink("../html/emmet/"); ?>
+    <?php intlink("../autres/inspecteur/"); ?>
+    <?php intlink("../autres/inspecteur-elements/"); ?>
+    <?php intlink("../autres/inspecteur-elements/exercices/unlock/"); ?>
+    <?php intlink("../autres/inspecteur-elements/exercices/urbania/"); ?>
+</wiki-page>
+
+
+<wiki-page name="Cours 10B" date="2023-04-05">
+    <?php intlink("../css/transition/"); ?>
+    <?php intlink("../css/transition/exercices/spider-man/"); ?>
+    <?php intlink("../css/transition/exercices/bojack-horseman/"); ?>
+    <?php intlink("../css/transition/exercices/boutons/"); ?>
+    <?php intlink("../css/transition/exercices/fantome-mario/"); ?>
+</wiki-page>
+
+
+<wiki-page name="Cours 11A" date="2023-04-18">
+    <h3>Correction: Red Hot Chili Peppers - Blood Sugar Sex Magik</h3>
+    <?php intlink("../css/snap-scroll/"); ?>
+    <?php intlink("../css/snap-scroll/exercices/whatisadam/"); ?>
+    <h2>Révision pour l'examen</h2>
+    <?php intlink("../css/exercices/les-simpsons/"); ?>
+</wiki-page>
+
+<wiki-page name="Cours 11B" date="2023-04-19">
+    <h3>Examen: Birds of Prey</h3>
+    <img style="margin-left: 0;" src="images/birds-of-prey.webp">
+    <h2>Devoir Woke: Vidéo Accessibilité 101</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SOt4nkPib8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</wiki-page>
+
+
+<wiki-page name="Cours 12A" date="2023-04-25">
+    <h3>Correction: Birds of Prey</h3>
+    <?php intlink("../html/formulaire/"); ?>
+    <?php intlink("../html/formulaire/exercices/carte-de-credit/"); ?>
+    <h2>Devoir Woke: Vidéo Accessibilité 201</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5Td0U8BbgyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</wiki-page>
+
+
+<wiki-page name="Cours 12B" date="2023-04-26">
+    <?php intlink("../html/formulaire-intermediaire/"); ?>
+    <?php intlink("../html/formulaire-intermediaire/exercices/menu-hamburger/"); ?>
+    <?php intlink("../html/formulaire-intermediaire/exercices/dragonball/"); ?>
+    <?php intlink("../html/formulaire-intermediaire/exercices/twitter/"); ?>
+    <h2>Jeux uniquement en CSS</h2>
+    <doclink href="https://codepen.io/takaneichinose/pen/YzqreVp">Room Escape</doclink>
+    <doclink href="https://codepen.io/jcoulterdesign/pen/NOMeEb">The Mine</doclink>
+    <doclink href="https://codepen.io/finnhvman/pen/xXpzVN">Connect 4</doclink>
+    <doclink href="https://codepen.io/bali_balo/pen/BLJONk">Minesweeper</doclink>
+</wiki-page>
+
+
+<wiki-page name="Cours 13A" date="2023-04-02">
+    <?php intlink("../html/formulaire-avance/"); ?>
+    <?php intlink("../html/formulaire-avance/exercices/among-us/"); ?>
+    <h2>TP Complémentaire <em>(formatif)</em></h2>
+    <?php intlink("../css/exercices/death-from-above-1979/"); ?>
+</wiki-page>
+
+<wiki-page name="Cours 13B" date="2023-04-03">
+    <?php intlink("../html/metadonnees/"); ?>
+    <?php intlink("../html/favicon/"); ?>
+    <?php intlink("../html/favicon/exercices/mega-man/"); ?>
+    <?php intlink("../html/citation/"); ?>
+    <?php intlink("../html/iframe/"); ?>
+    <?php intlink("../html/iframe/exercices/turbo-kid/"); ?>
+    <?php intlink("../html/details-et-summary/"); ?>
+    <?php intlink("../html/details-et-summary/exercices/quiz-marc-labreche/"); ?>
+</wiki-page>
+
+
+<wiki-page name="Cours 14A" date="2023-05-09">
+    <h3>Correction: Death From Above 1979</h3>
+    <?php intlink("../css/animation-sprite-sheet/"); ?>
+    <?php intlink("../css/animation-sprite-sheet/exercices/sonic-knuckles/"); ?>
+    <?php intlink("../css/animation-sprite-sheet/exercices/skate/"); ?>
+    <h2>TP Complémentaire <em>(formatif)</em></h2>
+    <?php intlink("../css/exercices/tool-aenima/"); ?>
+</wiki-page>
+
+
+<wiki-page name="Cours 14B" date="2023-05-10">
+    <?php intlink("../autres/navigation-clavier/"); ?>
+    <?php intlink("../css/outline/"); ?>
+    <?php intlink("../css/outline/exercices/skittles/"); ?>
+    <?php intlink("../html/open-graph-protocol/"); ?>
+    <?php intlink("../html/microdonnees/"); ?>
+    <?php intlink("../html/microdonnees/exercices/cf-montreal/"); ?>
+</wiki-page>
+
+
+<wiki-page name="Cours 15A" date="2023-05-16">
+    <h3>Correction: Tool - Ænema</h3>
+    <h2>Révision: Affiche South Park</h2>
+    <?php intlink("../css/exercices/south-park/"); ?>
+</wiki-page>
+
+
+<wiki-page name="Cours 15B" date="2023-05-17">
+    <h3>Examen final: Paysage géométrique</h3>
+    
+
 </wiki-page>
