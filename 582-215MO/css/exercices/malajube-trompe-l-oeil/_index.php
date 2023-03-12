@@ -3,11 +3,11 @@
  * @type     exercice
  * @title    Malajube - Trompe-l'œil
  * @icon     images/thumb.jpg
- * @abstract Pour cet exercice, vous devez écrire du HTML et du CSS afin de recréer l’album "Trompe-l'œil" de Malajube.
+ * @abstract Pour cet exercice, vous devez écrire du HTML et du CSS afin de recréer l’album "Trompe-l'œil" du groupe québécois Malajube.
  */
 ?>
 
-<p class="spacer">Pour cet exercice, vous devez écrire du HTML et du CSS afin de recréer l’album <a target="_blank" href="https://open.spotify.com/album/29v9woB73Q3nCWgefIxyzK">"Trompe-l'œil"</a> de <a target="_blank" href="https://fr.wikipedia.org/wiki/Malajube">Malajube</a>.</p>
+<p class="spacer">Pour cet exercice, vous devez écrire du HTML et du CSS afin de recréer l’album <a target="_blank" href="https://open.spotify.com/album/29v9woB73Q3nCWgefIxyzK">"Trompe-l'œil"</a>  du groupe québécois <a target="_blank" href="https://fr.wikipedia.org/wiki/Malajube">Malajube</a>.</p>
 
 <p>Aperçu du résultat 👇</p>
 
@@ -27,9 +27,9 @@
 
 <h3>Médias</h3>
 
-<mediafile src="images/trompe-l-oeil_1.png">Papillon</mediafile>
-<mediafile src="images/trompe-l-oeil_2.png">Oeuf</mediafile>
-<mediafile src="images/trompe-l-oeil_3.png">Poissons</mediafile>
+<mediafile src="images/trompe-l-oeil_1.webp">Papillon</mediafile>
+<mediafile src="images/trompe-l-oeil_2.webp">Oeuf</mediafile>
+<mediafile src="images/trompe-l-oeil_3.webp">Poissons</mediafile>
 
 <dots></dots>
 
@@ -51,7 +51,7 @@
 <grostitre>Ambiance</grostitre>
 
 <clip src="videos/malajube-pate-filo.mp4"></clip>
-<span class="remark">À celle qui a volé mon coeur.</span>
+<span class="remark" style="padding-top: 5px;">À celle qui a volé mon coeur.</span>
 
 <dots></dots>
 

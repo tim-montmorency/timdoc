@@ -11,7 +11,7 @@
 
 <p>Aperçu du résultat 👇</p>
 
-<img src="images/apercu.jpg">
+<img src="images/apercu.webp">
 
 <dots></dots>
 
@@ -28,8 +28,8 @@
 
 <h3>Médias</h3>
 
-<mediafile src="./images/bg-1.jpg">Feu 1</mediafile>
-<mediafile src="./images/bg-2.jpg">Feu 2</mediafile>
+<mediafile src="./images/bg-1.webp">Feu 1</mediafile>
+<mediafile src="./images/bg-2.webp">Feu 2</mediafile>
 
 <alert>Il est <strong>interdit</strong> de modifier le HTML.</alert>
 

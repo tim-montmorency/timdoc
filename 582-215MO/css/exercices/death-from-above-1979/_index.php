@@ -26,11 +26,11 @@
 
 <h3>Médias</h3>
 
-<mediafile src="images/heads-up.jpg">Heads Up</mediafile>
-<mediafile src="images/youre-a-woman-im-a-machine.jpg">You're a Woman, I'm a Machine</mediafile>
-<mediafile src="images/the-pysical-world.jpg">The Physical World</mediafile>
-<mediafile src="images/outrage-is-now.jpg">Outrage! Is Now</mediafile>
-<mediafile src="images/is-4-lovers.jpg">Is 4 Lovers</mediafile>
+<mediafile src="images/heads-up.webp">Heads Up</mediafile>
+<mediafile src="images/youre-a-woman-im-a-machine.webp">You're a Woman, I'm a Machine</mediafile>
+<mediafile src="images/the-pysical-world.webp">The Physical World</mediafile>
+<mediafile src="images/outrage-is-now.webp">Outrage! Is Now</mediafile>
+<mediafile src="images/is-4-lovers.webp">Is 4 Lovers</mediafile>
 
 <dots></dots>
 
