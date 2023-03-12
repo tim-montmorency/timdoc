@@ -200,6 +200,8 @@
     <?php intlink("../css/animation/exercices/fantome/"); ?>
     <?php intlink("../css/animation/exercices/yo-yo/"); ?>
     <?php intlink("../css/animation/exercices/pendule/"); ?>
+    <h2>TP07 <em>(10%)</em></h2>
+    <?php intlink("../css/exercices/david-bowie-earthling/"); ?>
 </wiki-page>
 
 
@@ -208,7 +210,7 @@
     <?php intlink("../css/animation/"); ?>
     <?php intlink("../css/animation/exercices/billes/"); ?>
     <?php intlink("../css/animation/exercices/new-super-luigi/"); ?>
-    <h2>TP07 <em>(15%)</em></h2>
+    <h2>TP Complémentaire <em>(formatif)</em></h2>
     <?php intlink("../css/exercices/red-hot-chili-peppers-blood-sugar-sex-magik/"); ?>
 </wiki-page>
 
