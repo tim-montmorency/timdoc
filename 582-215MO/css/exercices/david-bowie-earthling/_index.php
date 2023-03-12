@@ -3,11 +3,11 @@
  * @type     exercice
  * @title    David Bowie - Earthling
  * @icon     images/thumb.jpg
- * @abstract Pour cet exercice, vous devez écrire du HTML et du CSS afin de recréer l’album expérimental "Earthling" de David Bowie.
+ * @abstract Pour cet exercice, vous devez écrire du CSS afin de recréer l’album expérimental "Earthling" de David Bowie.
  */
 ?>
 
-<p class="spacer">Pour cet exercice, vous devez écrire du HTML et du CSS afin de recréer l’album expérimental <a target="_blank" href="https://open.spotify.com/album/6xzFZgRAGFhNzh2XAF7lnk">"Earthling"</a> de <a target="_blank" href="https://en.wikipedia.org/wiki/David_Bowie">David Bowie</a>.</p>
+<p class="spacer">Pour cet exercice, vous devez écrire du CSS afin de recréer l’album expérimental <a target="_blank" href="https://open.spotify.com/album/6xzFZgRAGFhNzh2XAF7lnk">"Earthling"</a> de <a target="_blank" href="https://en.wikipedia.org/wiki/David_Bowie">David Bowie</a>.</p>
 
 <p>Aperçu du résultat 👇</p>
 
