@@ -85,17 +85,17 @@
 
 <checklist>
   Téléchargez une copie des images. Placez-les dans un dossier intitulé <span class="inline-code">images</span> dans votre projet et utilisez ces images plutôt que celles en ligne.
-  Le fond de la page doit être un dégradé de 120 degrés partant de noir à bleu gris avec un point d'arrêt à 10%.
-  L'album doit être de couleur noire, avoir une dimension de 500x500px et être parfaitement centré horizontalement. <em>(Attention, votre page ne doit pas avoir de barre de défilement visible.)</em>
+  Le fond de la page doit être un dégradé de <em>120 degrés</em> partant de noir à bleu gris avec un point d'arrêt à <em>10%</em>.
+  L'album doit être de couleur <em>noire</em>, avoir une dimension de <em>500x500px</em> et être parfaitement centré horizontalement. <em>(Attention, votre page ne doit pas avoir de barre de défilement visible.)</em>
 </checklist>
 
 <grostitre>Yeux</grostitre>
 
 <checklist>
   Le layer de yeux doit prendre toute l'espace horizontale et verticale.
-  L'arrière plan doit avoir une dimension de 70px par 80px et ne se répéter que verticalement.
+  L'arrière plan doit avoir une dimension de <em>70px</em> par <em>80px</em> et ne se répéter que verticalement.
   À l'aide des sous-propriétés de <span class="inline-code">background</span>, disposez les yeux en 4 colones. Les deux premières colones doivent utiliser l'<em>oeil 1</em> et les deux suivantes l'<em>oeil 2</em>.
-  Chaque colone doit être disposée à 10px du haut. Pour déterminer la position horizontale, utilisez la fonction <span class="inline-code">calc((100% / 4 * n) + 52px)</span> où <em>n</em> est l'index de la colone partant à 0.
+  Chaque colone doit être disposée à <em>10px</em> du haut. Pour déterminer la position horizontale, utilisez la fonction <span class="inline-code">calc((100% / 4 * n) + 52px)</span> où <em>n</em> est l'index de la colone partant à <em>0</em>.
   Copiez le filtre SVG et placez le dans le <span class="inline-code">body</span> sous l'album.
   Appliquez le filtre au layer de yeux avec la propriété <span class="inline-code">filter: url("#aenima");</span>.
 </checklist>
@@ -103,18 +103,18 @@
 <grostitre>Void</grostitre>
 
 <checklist>
-  Le layer de void doit avoir une dimension de 500px par 405px et être positionné horizontalement et verticalement au centre de l'album.
+  Le layer de void doit avoir une dimension de <em>500x405px</em> et être positionné horizontalement et verticalement au centre de l'album.
   Appliquez lui l'image d'arrière-plan <span class="inline-code">sprite.png</span>
-  Utilisez la propriété <span class="inline-code">filter</span> afin de lui appliquer un filtre sepia de 0.8.
+  Utilisez la propriété <span class="inline-code">filter</span> afin de lui appliquer un filtre <em>sepia</em> de <em>0.8</em>.
   Avec la règle CSS <span class="inline-code">@keyframes</span>, créez une animation nommée <span class="inline-code">void</span> qui fait bouger l'arrière-plan de <span class="inline-code">0 0</span> à <span class="inline-code">0 -29160px</span>;
-  Appliquez cette animation au frame void. L'animation doit avoir une durée de 3s, se répéter indéfiniement et avoir 72 <em>steps</em> étant donné qu'il y a 72 images <em>(24fps)</em> à l'intérieur du sprite.
+  Appliquez cette animation au frame <em>void</em>. L'animation doit avoir une durée de <em>3s</em>, se répéter indéfiniement et avoir <em>72 steps</em> étant donné qu'il y a 72 images <em>(24fps)</em> à l'intérieur du sprite.
 </checklist>
 
 <grostitre>Tool</grostitre>
 
 <checklist>
   Finalement, utilisez une balise <span class="inline-code">img</span> pour placer le logo horizontalement et verticalement au centre de l'album.
-  Pour rafiner son emplacement, donnez-lui une marge intérieure top de 20px.
+  Pour rafiner son emplacement, donnez-lui une marge intérieure top de <em>20px</em>.
 </checklist>
 
 <dots></dots>

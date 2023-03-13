@@ -30,9 +30,6 @@
     <a onclick="event.stopPropagation()" target="_blank" href="https://codepen.io/tim-momo/pen/mdjoBqY?editors=1100">Le papillon</a><br>Tirer profit de la propriété <span class="inline-code">transform-origin</span>. Pour ce faire, vous devez obligatoirement utiliser un <span class="inline-code">translate(-50%, -50%)</span> sur chaque slide.
 </checklist>
 
-<dots></dots>
-
-
 <grostitre>Bonus</grostitre>
 
 <checklist>

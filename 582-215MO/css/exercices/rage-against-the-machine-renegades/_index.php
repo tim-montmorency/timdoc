@@ -41,12 +41,20 @@
 
 <checklist>
   Créez-vous des variables CSS à partir des couleurs fournies. Tous les éléments se voyant attribuer une couleur en CSS devront utiliser ces variables.
-  Le fond de la page doit être gris, tandis que l'album doit avoir une largeur équivalente à 80% du côté le plus petit de la page et être centré horizontalement ↔️ dans celle-ci. <em>(Le SVG de la pochette attribuera automatiquement la hauteur désirée.)</em>
-  Par défaut, le fond de l'album doit être vert, les lettres doivent-être rouge et l'élément de contraste doit être noir.
+  Le fond de la page doit être <em>gris</em>, tandis que l'album doit avoir une largeur équivalente à <em>80%</em> du côté le plus petit de la page et être centré horizontalement ↔️ dans celle-ci. <em>(Le SVG de la pochette attribuera automatiquement la hauteur désirée.)</em>
+  Par défaut, le fond de l'album doit être <em>vert</em>, les lettres doivent-être <em>rouge</em> et l'élément de contraste doit être <em>noir</em>.
   Lorsque l'album est survolé, inversez la couleur des lettres avec celle de l'élément de contraste.
-  Lorsque la page atteint une largeur de 1000px ou plus, la couleur de fond de l'album doit devenir bleue.
-  Le logo <em>"Parental advisory"</em> doit avoir une fond blanc ⚪️, une largeur correspondant à 15% de celle de l'album et être positionné dans le coin inférieur droit de celui-ci ↘️, à l'équivalent de 3.5% du côté le plus petit de la fenêtre.
-  Lorsque la page est plus haute que large, le logo <em>"Parental advisory"</em> doit-être déplacé dans le coin supérieur droit de l'album ↗️, toujours à l'équivalent de 3.5% du côté le plus petit de la fenêtre.
+  Lorsque la page atteint une largeur de <em>1000px</em> ou plus, la couleur de fond de l'album doit devenir <em>bleue</em>.
+  Le logo <em>"Parental advisory"</em> doit avoir une fond <em>blanc</em> ⚪️, une largeur correspondant à <em>15%</em> de celle de l'album et être positionné dans le coin <em>inférieur droit</em> de celui-ci ↘️, à l'équivalent de <em>3.5%</em> du côté le plus petit de la fenêtre.
+  Lorsque la page est plus haute que large, le logo <em>"Parental advisory"</em> doit-être déplacé dans le coin <em>supérieur droit</em> de l'album ↗️, toujours à l'équivalent de <em>3.5%</em> du côté le plus petit de la fenêtre.
+</checklist>
+
+<grostitre>Remise</grostitre>
+
+<checklist>
+  Renommez votre dossier <em>"ratm_[nom]_[prenom]"</em>.
+  Zippez votre dossier <em>"ratm_[nom]_[prenom]"</em>.
+  Joignez votre fichier <em>.zip</em> au devoir <em>"TP05: Rage Against the Machine - Renegades"</em>.
 </checklist>
 
 <dots></dots>
