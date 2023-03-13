@@ -29,7 +29,7 @@
 <color>#ee4bbe</color>
 <color>#8a774c</color>
 
-<alert>Il est interdit de modifier le HTML.</alert>
+<alert>Il est <strong>interdit</strong> de modifier le HTML.</alert>
 
 <dots></dots>
 
@@ -80,7 +80,7 @@
 
 <checklist>
   À l'aide de <span class="inline-code">@keyframes</span>, créez une animation nommée <em>cloud</em> faisant une transformation sur l'<em>axe des X</em> allant de <em>-100%</em> à <em>500px</em>.
-  Appliquez cette animation sur les nuages et faites-en sorte qu'ils se déplacent à l'<em>infini</em> et de façon <em>linéaire</em>.
+  Appliquez cette animation sur les nuages et faites-en sorte qu'ils se déplacent à l'<em>infini</em> et de façon <em>linéaire</em> pour créer un effet de <em>parallax</em>.
   Le nuage du bas doit parcourir l'animation en <em>30s</em> avec un délai de <em>-10s</em>.
   Le nuage du milieu doit parcourir l'animation en <em>20s</em> avec un délai de <em>-15s</em>.
   Le nuage du haut doit parcourir l'animation en <em>15s</em> avec un délai de <em>-5s</em>.
@@ -100,7 +100,7 @@
 <grostitre>Ambiance</grostitre>
 
 <clip src="videos/david-bowie-im-afraid-of-americans.mp4"></clip>
-<span class="remark">Ce vidéoclip est un hommage au film <a target="_blank" href="https://www.imdb.com/title/tt0075314/">Taxi Driver</a> de <a target="_blank" href="https://en.wikipedia.org/wiki/Martin_Scorsese">Martin Scorsese</a>.</span>
+<span class="remark" style="padding-top: 5px;">Ce vidéoclip est un hommage au film <a target="_blank" href="https://www.imdb.com/title/tt0075314/">Taxi Driver</a> de <a target="_blank" href="https://en.wikipedia.org/wiki/Martin_Scorsese">Martin Scorsese</a>.</span>
 
 <dots></dots>
 

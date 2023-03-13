@@ -40,7 +40,7 @@
   Téléchargez une copie des images. Placez-les dans un dossier intitulé <span class="inline-code">images</span> dans votre projet et utilisez ces images plutôt que celles en ligne.  
   Le fond de la page doit être un dégradé vertical ↕️ partant de <em>blanc cassé</em> à <em>gris pâle</em>.
   L'album doit être de couleur <em>blanc cassé</em>, une dimension de <em>500x500px</em>, être positionné à <em>20px</em> du sommet de la page et être parfaitement centré horizontalement. <em>(Attention, votre page ne doit pas avoir de barre de défilement visible.)</em>
-  L'album doit avoir une ombre noire semi-transparente <em>(50% d'opacité)</em> de <em>50px</em>, égale de tous les côtés de l'album.
+  L'album doit avoir une ombre noire semi-transparente <em>(50% d'opacité)</em> égale de tous les côtés de l'album et d'une dimension équivalente à la formule mathématique suivante: <span class="inline-code">(100vw - 500px) / 7</span>.
   Utilisez la balise <span class="inline-code">picture</span> afin d'afficher par défaut l'image <em>Poissons</em>. À partir de <em>750px</em>, affichez l'image <em>Oeuf</em> et à partir de <em>1150px</em>, l'image <em>Papillon</em>.
   Les images doivent avoir une hauteur maximale et une largeur maximale de <em>400px</em> et être centrés verticalement et horizontalement dans l'album.
 </checklist>
@@ -61,5 +61,6 @@
 <?php intlink("../../linear-gradient/"); ?>
 <?php intlink("../../box-shadow/"); ?>
 <?php intlink("../../../html/picture/"); ?>
+<?php intlink("../../../css/unites-de-mesure-avancees/"); ?>
 
 <dots></dots>
