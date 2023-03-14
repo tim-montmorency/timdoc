@@ -39,9 +39,9 @@ Allez prendre quelques impression-écran format mobile de l’appli de votre col
 Ajustez dans Photoshop afin que chaque image de vos impressions-écran aient la même dimension en pixel. Prenez le temps d'optimiser le poids de vos images, exportez-les en jpg et compressez un peu.
 De retour dans votre index.html, section view-more, ajoutez le HTML de base pour un Swiper et déposez une image écran par slide.
 Requis : pas de pagination, pas de scrollbar. Par contre, on veut les boutons précédent et suivant.
-Ajoutez la classe swiper-screenshots sur le swiper que vous venez d’ajouter. Cette classe servira à cibler que ce swiper là lors de l’initialisation puisqu’il n’est pas le seul swiper du site et chaque swiper a sa propre configuration.
+Ajoutez la classe <em>.swiper-screenshots</em> sur le swiper que vous venez d’ajouter. Cette classe servira à cibler que ce swiper là lors de l’initialisation puisqu’il n’est pas le seul swiper du site et chaque swiper a sa propre configuration.
 En CSS, stylisez les images de ce Swiper en leur ajoutant une bordure pour simuler un cadre de téléphone.
-Dans votre script.js, initialisez ce Swiper là en le ciblant avec sa classe .swiper-featured-artworks.
+Dans votre script.js, initialisez ce Swiper là en le ciblant avec sa classe <em>.swiper-screenshots</em>.
 Toujours dans l’initialisation de swiper dans votre fichier script.js,ajoutez les propriétés nécessaire pour les requis suivants:<br>- Par défaut (mobile) on veut voir une seule slide à la fois<br>- dès le breakpoint 1200px, on veut voir 3 slides à la fois.<br>- les images dans les slides doivent être centrées dans celles-ci<br>- le carrousel doit être infini, c’est dire que lorsqu’on atteint la dernière slide, on continue à la première.<br>- on doit activer les boutons suivant et précédent.
 Finalement, ajoutez des styles afin que les 2 slides de côtés soient semi-transparentes et que celle qui est active au centre, ne soit pas transparente.
 Si vous voulez aller plus loin, vous pouvez essayer d’ajouter un cadre comme dans mon 2e exemple ci-haut (facultatif).
