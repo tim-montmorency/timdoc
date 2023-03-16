@@ -41,5 +41,5 @@ Déclenchez le son ponctuel du <em>Freinage</em> lorsque l'animation se termine.
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../proprietes-gsap/") ?>
+<?php intlink("../../proprietes-speciales/") ?>
 

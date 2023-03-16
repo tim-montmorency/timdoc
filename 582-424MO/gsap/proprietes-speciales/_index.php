@@ -1,9 +1,10 @@
 <?php 
 /**
  * @type     article
- * @title    Propriétés spéciales
+ * @title    3-Propriétés spéciales
  * @icon     images/icon.svg
  * @abstract duration, repeat, yoyo, delay, stagger, ease, callbacks
+ * @index    998
  */
 ?>
 

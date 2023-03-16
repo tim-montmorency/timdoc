@@ -1,9 +1,10 @@
 <?php 
 /**
  * @type     article
- * @title    Objet et méthodes
+ * @title    2-Objet et méthodes
  * @icon     images/icon.svg
  * @abstract L'objet GSAP et ses méthodes d'animation de base
+ * @index    999
  */
 ?>
 

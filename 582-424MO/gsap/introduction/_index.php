@@ -1,7 +1,7 @@
 <?php 
 /**
  * @type     article
- * @title    Introduction
+ * @title    1-Introduction
  * @icon     images/icon.svg
  * @abstract GreenSock Animation Platform
  * @index    1000
