@@ -3,7 +3,7 @@
  * @type     article
  * @title    Objet et méthodes
  * @icon     images/icon.svg
- * @abstract L'objet GSAP et ses méthodes de base
+ * @abstract L'objet GSAP et ses méthodes d'animation de base
  */
 ?>
 
@@ -48,7 +48,7 @@
     </ul>
 </warning>
 <dots></dots>
-<grostitre>• Méthode to() •</grostitre>
+<grostitre>Méthode to()</grostitre>
 <p>Dans l'exemple ci-dessous, un carré est positionné en haut à gauche de son parent. En cliquant sur le bouton ▶️, une
     animation GSAP le déplace vers la droite.</p>
 <p class="codepen" data-height="340" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="abaWvmo"
@@ -105,7 +105,7 @@
 
 <dots></dots>
 
-<grostitre>• Méthode from() •</grostitre>
+<grostitre>Méthode from()</grostitre>
 
 
 <p class="codepen" data-height="390" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="MWqmaXM"
@@ -134,7 +134,7 @@
 
 <warning>La propriété CSS transform est formulée différemment dû à ses multiples valeurs possibles. Par exemple,
     <code>transform: translateX(400%)</code> est formulé ici <code>x: '400%'</code>. Pour voir tous les noms associés à
-    la propriété transform, voir la <a href="https://greensock.com/get-started/#2d-and-3d-transforms" target="_blank">liste
+    la propriété transform, voir la <a href="https://greensock.com/get-started/#transformShorthand" target="_blank">liste
         de&nbsp;Greensock 🟩 🧦</a>.
 </warning>
 
@@ -146,10 +146,10 @@
 
 <dots></dots>
 
-<grostitre>• Méthode fromTo() •</grostitre>
+<grostitre>Méthode fromTo()</grostitre>
 
 <p>Permets de spécifier un état de départ et de fin d'une animation, contrairement à&nbsp;<a rel="noopener noreferrer"
-        href="#-methode-from-">from()</a>&nbsp;et&nbsp;<a rel="noopener noreferrer" href="#-methode-to-">to()</a>&nbsp;qui
+        href="#methode-from">from()</a>&nbsp;et&nbsp;<a rel="noopener noreferrer" href="#methode-to">to()</a>&nbsp;qui
     utilisent l'état
     actuel comme point de départ ou fin. Cette interpolation permet d'avoir un contrôle total sur une animation, en
     particulier lorsqu'elle est enchaînée avec d'autres&nbsp;animations.</p>
