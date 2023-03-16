@@ -28,5 +28,5 @@
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../bases-de-lanimation/#interpolations-de-base") ?>
+<?php intlink("../../objet-et-methodes/#interpolations-de-base") ?>
 
