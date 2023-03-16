@@ -48,7 +48,7 @@
 
 <checklist>
   Utilisez le pseudo-élément <span class="inline-code">::before</span> afin créer le premier layer d'arrière-plan en position <em>absolue</em> couvrant tout l'espace disponible à l'intérieur de l'album.
-  Attribuez lui l'image d'arrière-plan <span class="inline-code">bg-1.jpg</span>.
+  Attribuez lui l'image d'arrière-plan <span class="inline-code">bg-1.webp</span>.
   Utilisez les filtres afin que le layer ait un contraste de <em>90%</em>, une luminosité de <em>110%</em> et un flou de <em>5px</em>;
 </checklist>
 
@@ -56,7 +56,7 @@
 
 <checklist>
   Utilisez le pseudo-élément <span class="inline-code">::after</span> afin créer le deuxième layer d'arrière-plan en position <em>absolue</em> couvrant tout l'espace disponible à l'intérieur de l'album.
-  Attribuez lui l'image d'arrière-plan <span class="inline-code">bg-2.jpg</span>.
+  Attribuez lui l'image d'arrière-plan <span class="inline-code">bg-2.webp</span>.
   Changez son opacité afin qu'il soit à moitier transparent et utilisez les filtres afin qu'il ait un flou de <em>10px</em>.
   À ce stade-ci vos arrière-plans devraient déborder de l'album. Faites en sorte de faire disparaitre le superflu.
 </checklist>
