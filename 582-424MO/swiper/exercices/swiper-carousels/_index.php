@@ -80,3 +80,9 @@ Modifiez le CSS de vos nouveaux boutons pour qu'ils aient un padding de 20px et 
    
    <p>Aperçu du résultat : Voir la partie de la pagination 1/6 👇</p>
 <clipasset src='videos/exercice-swiper-etape5-6.mp4'></clipasset>
+
+
+<dots></dots>
+<grostitre>Notes de cours 📚</grostitre>
+
+<?php intlink("../../swiper/") ?>
