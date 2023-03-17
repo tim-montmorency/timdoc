@@ -5,7 +5,7 @@
     * @title    P2.1a Conception 
     * @icon     images/icon.svg
     * @abstract Synopsis, scénarimage, scénario
-     * @index    30
+   * @index    30
     */
    ?>
 
