@@ -23,7 +23,7 @@
 
 <dots></dots>
 
-<grostitre>Examples et inspirations</grostitre>
+<grostitre>Exemples et inspirations</grostitre>
 
 <h3>Histoires </h3>
 <ul>
@@ -54,7 +54,7 @@
 
 </ul>
  
-<h3>Autres examples de type d’animation sur le scroll </h3>
+<h3>Autres exemples de type d’animation sur le scroll </h3>
 <ul>
   <li><a href="https://codepen.io/isladjan/pen/abdyPBw" target="_blank" rel="noopener noreferrer">https://codepen.io/isladjan/pen/abdyPBw (parallax) </a></li>
   <li><a href="https://www.vev.design/visual-storytelling/" target="_blank" rel="noopener noreferrer">https://www.vev.design/visual-storytelling/ </a></li>
