@@ -40,6 +40,7 @@
         <code>transform</code> et <code>opacity</code> lorsque possible, puisque ces propriétés bénéficies
         d’une&nbsp;accélération&nbsp;matérielle.
     </p>
+    
     <ul>
         <li><code>opacity</code></li>
         <li><code>x</code> et&nbsp;<code>y</code></li>
