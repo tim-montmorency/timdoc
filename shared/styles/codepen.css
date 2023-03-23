@@ -29,6 +29,8 @@
 html {
 	background-color: var(--primary);
 	color: var(--secondary);
+	font-family: sans-serif;
+	line-height: 1.15;
 }
 
 body {

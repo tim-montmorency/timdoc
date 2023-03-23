@@ -50,18 +50,18 @@
 
 <grostitre>Play vs Pause vs Reverse</grostitre>
 
-<p class="codepen" data-height="420" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="oNPQrrO" data-user="tim-momo" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/oNPQrrO">
-  GSAP - Control</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+<p class="codepen" data-height="420" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="BaOvBqv" data-user="tim-momo" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/BaOvBqv">
+  GSAP -  TimeScale</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <br>
 
 
 
-          <p>Par défaut, dès qu'une animation est déclarée, elle se déclenche immédiatement. Afin de contourner ce problème, vous pouvez lui passer&nbsp;<code>paused: true</code>.</p>
-          
-          <p>Par exemple:</p>
+<p>Par défaut, dès qu'une animation est déclarée, elle se déclenche immédiatement. Afin de contourner ce problème, vous pouvez lui passer&nbsp;<code>paused: true</code>.</p>
+
+<p>Par exemple:</p>
 
 
           <highlight lang='javascript'>var animation = gsap.to('.element', { 
@@ -70,119 +70,56 @@
   paused: true
 });</highlight>
           
+<exercice href="../exercices/voiture-mauve/"></exercice>        
+<dots></dots>
+
+
+
+
+<grostitre> TimeScale</grostitre>
+  
+<p>Permets de définir la vitesse de lecture de l'animation. Par exemple,&nbsp;<code>timeScale(4)</code>&nbsp;permet de jouer une animation 4x plus rapidement, tandis que&nbsp;<code>timeScale(0.5)</code>&nbsp;permet de ralentir de moitié la dite&nbsp;animation.</p>
+
+<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="xxamKPE" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/xxamKPE">
+  GSAP -  TimeScale</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
+<br>
+<br>
           
+<exercice href="../exercices/voiture-verte/"></exercice>        
+<dots></dots>
 
-              <aside class="exercice-card">
-    <div class="exercice-card__content">
-      <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-      <a href="/exercices/gsap/gsap-play-voiture-mauve" target="_blank" class="exercice-card__title">
-        GSAP play() - Voiture&nbsp;mauve
-      </a>
-
-            <p class="exercice-card__description">Pour cet exercice, vous devez à l’aide de GSAP animer une voiture afin de la faire rouler et reculer sur la&nbsp;route.</p>
-          </div>
-
-        <picture class="exercice-card__preview">
-      <source srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3NhcC12b2l0dXJlLW1hdXZlLmpwZw==?w=620&amp;s=f5b6c904dc4550b4bf528c2c2f5a3800" media="(max-width: 575px) and (min-resolution: 2dppx)">
-      <source srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3NhcC12b2l0dXJlLW1hdXZlLmpwZw==?w=310&amp;s=abfc9bff071a509fcc1f2d0b4e769c74" media="(max-width: 575px)">
-      <source srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3NhcC12b2l0dXJlLW1hdXZlLmpwZw==?w=370&amp;s=06e1de6498b18ffd68df3c130f734ce4" media="(min-resolution: 2dppx)">
-      <img src="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3NhcC12b2l0dXJlLW1hdXZlLmpwZw==?w=185&amp;s=55d28f644e6795e713b4597c775dbafb" width="" height="" loading="lazy" class="exercice-card__image" style="object-position: 50% 50%;">
-    </picture>
-      </aside>
+<grostitre>Progress</grostitre>
   
 
-          <h2 class="heading heading--h2" id="&nbsp;TimeScale">&nbsp;TimeScale<a href="#&nbsp;TimeScale" aria-hidden="true" class="heading__anchor" data-module="CopyToClipboard" data-text="https://smnarnold.com/cours/gsap/controle-d-une-animation#&nbsp;TimeScale" data-snackbar="Lien copié.">
-    <span class="heading__anchor__wrapper">
-      <svg viewBox="0 0 24 24">
-        <path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path>
-      </svg>
-    </span>
-  </a>
-  </h2>
+<p>Permet de déplacer la tête de lecture de l'animation à pourcentage de progression précis. Par exemple,&nbsp;<code>progress(0.25)</code>&nbsp;positionnerait le carré comme si le quart de l'animation avait été jouée, versus à la moitié avec&nbsp;<code>progress(0.5)</code>&nbsp;et au trois quart avec&nbsp;<code>progress(0.75)</code>.</p>
 
-          <p>Permets de définir la vitesse de lecture de l'animation. Par exemple,&nbsp;<code>timeScale(4)</code>&nbsp;permet de jouer une animation 4x plus rapidement, tandis que&nbsp;<code>timeScale(0.5)</code>&nbsp;permet de ralentir de moitié la dite&nbsp;animation.</p>
-          <div class="codepen" data-module="CodePen">
-  <div class="codepen__wrapper">
-    <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
+<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="dyqwbaJ" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/dyqwbaJ">
+  GSAP -  Progress</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
-    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_2" scrolling="no" src="https://codepen.io/smnarnold/embed/627ab4ff8c91b7949af269b65abc73a5?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=627ab4ff8c91b7949af269b65abc73a5&amp;default-tab=js%2Cresult&amp;name=cp_embed_2" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_627ab4ff8c91b7949af269b65abc73a5"></iframe></div>
-  </div>  
+
+<dots></dots>
+
+<grostitre>Seek</grostitre>
+        
+
+<p>Tout comme&nbsp;<a rel="noopener noreferrer" href="#progress">Progress</a>,&nbsp;<code>seek()</code>&nbsp;permet de déplacer la tête de lecture. Cependant, plutôt que de se baser sur un pourcentage d'avancement, son déplacement est calculé en secondes. Par exemple, une demi-seconde&nbsp;<code>seek(0.5)</code>, une seconde&nbsp;<code>seek(1)</code>, une seconde et demie&nbsp;<code>seek(1.5)</code>.</p>
+
+
+<p class="codepen" data-height="300" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="YzOdKML" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/YzOdKML">
+  GSAP -  Progress</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
   
 </div>
-              <aside class="exercice-card">
-    <div class="exercice-card__content">
-      <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-      <a href="/exercices/gsap/gsap-timescale-voiture-verte" target="_blank" class="exercice-card__title">
-        GSAP timeScale() - Voiture&nbsp;verte
-      </a>
-
-            <p class="exercice-card__description">Pour cet exercice, vous devez à l’aide de la méthode timeScale de GSAP contrôler la boite de vitesse d’une voiture afin de contrôler son&nbsp;...</p>
-          </div>
-
-        <picture class="exercice-card__preview">
-      <source srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3NhcC12b2l0dXJlLXZlcnRlLmpwZw==?w=620&amp;s=1f462e5be056d69a84ed3db2620d4ee0" media="(max-width: 575px) and (min-resolution: 2dppx)">
-      <source srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3NhcC12b2l0dXJlLXZlcnRlLmpwZw==?w=310&amp;s=b181542bbe2c950c43c3ca430fdb147c" media="(max-width: 575px)">
-      <source srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3NhcC12b2l0dXJlLXZlcnRlLmpwZw==?w=370&amp;s=dc57f5d2bcded9823c334e51f3c3f1f0" media="(min-resolution: 2dppx)">
-      <img src="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3NhcC12b2l0dXJlLXZlcnRlLmpwZw==?w=185&amp;s=f49ff101821add497ebe2e5e7528d5a2" width="" height="" loading="lazy" class="exercice-card__image" style="object-position: 50% 50%;">
-    </picture>
-      </aside>
-  
-
-          <h2 class="heading heading--h2" id="Progress">Progress<a href="#Progress" aria-hidden="true" class="heading__anchor" data-module="CopyToClipboard" data-text="https://smnarnold.com/cours/gsap/controle-d-une-animation#Progress" data-snackbar="Lien copié.">
-    <span class="heading__anchor__wrapper">
-      <svg viewBox="0 0 24 24">
-        <path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path>
-      </svg>
-    </span>
-  </a>
-  </h2>
-
-          <p>Permet de déplacer la tête de lecture de l'animation à pourcentage de progression précis. Par exemple,&nbsp;<code>progress(0.25)</code>&nbsp;positionnerait le carré comme si le quart de l'animation avait été jouée, versus à la moitié avec&nbsp;<code>progress(0.5)</code>&nbsp;et au trois quart avec&nbsp;<code>progress(0.75)</code>.</p>
-          <div class="codepen" data-module="CodePen">
-  <div class="codepen__wrapper">
-    <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
-
-    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_3" scrolling="no" src="https://codepen.io/smnarnold/embed/36aa16e3d9da4d6af20e0885d54c6869?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=36aa16e3d9da4d6af20e0885d54c6869&amp;default-tab=js%2Cresult&amp;name=cp_embed_3" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_36aa16e3d9da4d6af20e0885d54c6869"></iframe></div>
-  </div>  
-
-  
-</div>
-          <h2 class="heading heading--h2" id="Seek">Seek<a href="#Seek" aria-hidden="true" class="heading__anchor" data-module="CopyToClipboard" data-text="https://smnarnold.com/cours/gsap/controle-d-une-animation#Seek" data-snackbar="Lien copié.">
-    <span class="heading__anchor__wrapper">
-      <svg viewBox="0 0 24 24">
-        <path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path>
-      </svg>
-    </span>
-  </a>
-  </h2>
-
-          <p>Tout comme&nbsp;<a rel="noopener noreferrer" href="#progress">Progress</a>,&nbsp;<code>seek()</code>&nbsp;permet de déplacer la tête de lecture. Cependant, plutôt que de se baser sur un pourcentage d'avancement, son déplacement est calculé en secondes. Par exemple, une demi-seconde&nbsp;<code>seek(0.5)</code>, une seconde&nbsp;<code>seek(1)</code>, une seconde et demie&nbsp;<code>seek(1.5)</code>.</p>
-          <div class="codepen" data-module="CodePen">
-  <div class="codepen__wrapper">
-    <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
-
-    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_4" scrolling="no" src="https://codepen.io/smnarnold/embed/08cf285e279388109bd821f93354e24f?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=08cf285e279388109bd821f93354e24f&amp;default-tab=js%2Cresult&amp;name=cp_embed_4" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_08cf285e279388109bd821f93354e24f"></iframe></div>
-  </div>  
-
-  
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

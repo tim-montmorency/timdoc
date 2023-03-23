@@ -4,25 +4,22 @@
  * @type     exercice
  * @title    GSAP - Voiture verte
  * @icon     images/thumb-verte.jpg
- * @abstract Pour cet exercice, vous devez à l’aide de GSAP et de sons ponctuels compléter une animation de voiture afin de la faire rouler sur la rou...
+ * @abstract Pour cet exercice, vous devez à l’aide de la méthode timeScale de GSAP contrôler la boite de vitesse d’une voiture afin de contrôler son animation.
  */
 ?>
 
 
-<p>Pour cet exercice, vous devez à l’aide de GSAP et de sons ponctuels compléter une animation de voiture afin de la faire rouler sur la route.</p>
+<p>Pour cet exercice, vous devez à l’aide de la méthode <code>timeScale</code> de GSAP contrôler la boite de vitesse d’une voiture afin de contrôler son&nbsp;animation.</p>
    
 <p>Aperçu du résultat 👇</p>
 <clipasset src='images/gsap-voiture-verte.mp4'></clipasset>
 
 
 <grostitre>Matériel</grostitre>
-<doclink href="https://codepen.io/tim-momo/pen/rNZmbgm">Pen de départ</doclink>
+<doclink href="https://codepen.io/tim-momo/pen/zYJMgwy">Pen de départ</doclink>
 
-<h3>Médias</h3>
-<mediafile src="sons/start.mp3">Démarrage</mediafile>
-<mediafile src="sons/break.mp3">Freinage</mediafile>
-<br>
-<warning>Vous n’avez qu’à ajouter du CSS et du JavaScript <em>(nul besoin de modifier le&nbsp;HTML)</em>.</warning> 
+
+<warning>Vous n’avez qu’à ajouter du JavaScript <em>(nul besoin de modifier le HTML ou le CSS)</em>.</warning> 
 
 
 
@@ -31,15 +28,17 @@
 <grostitre>Requis</grostitre>
 
 <checklist>
-Positionnez en CSS la voiture de sorte qu'elle soit sur la route à l'extérieur gauche de la page.
-Au chargement de la page, la voiture doit traverser la largeur complète de la page <em>(peu importe sa dimension)</em>, en l'espace de 3 secondes ⏱.
-Utilisez le ease <code>expo.in</code>.
-Déclenchez le son ponctuel du <em>Démarrage</em> lorsque l'animation débute.
-Déclenchez le son ponctuel du <em>Freinage</em> lorsque l'animation se termine.
+Au clic du bouton R, déplacez le bras de vitesse <em>"</em><code>.knob</code><em>"</em> de -50px vers la gauche et -50px vers le haut ↖️. Vous devez aussi vous assurer que l'animation de la voiture <em>(</em><code>.anim</code><em>)</em> joue à sa vitesse normal, mais en sens inverse afin de faire reculer la voiture.
+Au clic du bouton N, déplacez le bras de vitesse <em>"</em><code>.knob</code><em>"</em> à sa position initiale <em>(0, 0)</em>. Vous devez aussi mettre sur pause l'animation de la voiture.
+Au clic du bouton 1, déplacez le bras de vitesse <em>"</em><code>.knob</code><em>"</em> de -50px ver la gauche et 50px vers le bas ↙️. Vous devez aussi vous assurer que l'animation de la voiture <em>(</em><code>.anim</code><em>)</em> joue à sa vitesse normal afin de faire avancer la voiture à vitesse normale.
+Au clic du bouton 2, déplacez le bras de vitesse <em>"</em><code>.knob</code><em>"</em> de -50px ver la droite et 50px vers le haut ↗️. Vous devez aussi vous assurer que l'animation de la voiture <em>(</em><code>.anim</code><em>)</em> joue au double de sa vitesse normale afin de faire avancer la voiture 4x plus vite.
+Au clic du bouton 3, déplacez le bras de vitesse <em>"</em><code>.knob</code><em>"</em> de -50px ver la droite et 50px vers le bas  ↘️. Vous devez aussi vous assurer que l'animation de la voiture <em>(</em><code>.anim</code><em>)</em> joue au triple de sa vitesse normale afin de faire avancer la voiture 6x plus vite.
 </checklist>
+
+
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../proprietes-speciales/") ?>
+<?php intlink("../../controle-animation/") ?>
 
