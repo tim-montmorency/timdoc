@@ -181,6 +181,8 @@
     <?php intlink("../css/object-fit/exercices/mcdonalds/"); ?>
     <?php intlink("../css/aspect-ratio/"); ?>
     <?php intlink("../css/aspect-ratio/exercices/the-boys/"); ?>
+    <h2>TP Complémentaire <em>(formatif)</em></h2>
+    <?php intlink("../css/exercices/alaclair-ensemble-les-maigres-blancs/"); ?>
 </wiki-page>
 
 
