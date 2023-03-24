@@ -5,7 +5,8 @@
     * @title    Scrollytelling: Qu'est-ce?
     * @icon     images/icon.svg
     * @abstract Définition et exemples concrets
-     * @index    2
+     * @index    100
+     * 
     */
    ?>
  
