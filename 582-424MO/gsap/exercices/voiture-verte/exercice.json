@@ -1,0 +1,6 @@
+{
+    "type": "exercice",
+    "title": "GSAP - Voiture verte",
+    "icon": "images\/thumb-verte.jpg",
+    "abstract": "Pour cet exercice, vous devez \u00e0 l\u2019aide de la m\u00e9thode timeScale de GSAP contr\u00f4ler la boite de vitesse d\u2019une voiture afin de contr\u00f4ler son animation."
+}

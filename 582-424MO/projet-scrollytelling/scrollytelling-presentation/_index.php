@@ -5,7 +5,8 @@
     * @title    Scrollytelling: Qu'est-ce?
     * @icon     images/icon.svg
     * @abstract Définition et exemples concrets
-     * @index    2
+     * @index    100
+     * 
     */
    ?>
  
@@ -56,10 +57,10 @@
  
 <h3>Autres exemples de type d’animation sur le scroll </h3>
 <ul>
-  <li><a href="https://codepen.io/isladjan/pen/abdyPBw" target="_blank" rel="noopener noreferrer">https://codepen.io/isladjan/pen/abdyPBw (parallax) </a></li>
+  <li><a href="https://codepen.io/isladjan/pen/abdyPBw" target="_blank" rel="noopener noreferrer">https://codepen.io/isladjan/pen/abdyPBw (effet parallax) </a></li>
+  <li><a href="https://www.firewatchgame.com/" target="_blank" rel="noopener noreferrer">https://www.firewatchgame.com/ (effet parallax) </a></li>
   <li><a href="https://www.vev.design/visual-storytelling/" target="_blank" rel="noopener noreferrer">https://www.vev.design/visual-storytelling/ </a></li>
   <li><a href="https://the-weirdos.netlify.app/" target="_blank" rel="noopener noreferrer">https://the-weirdos.netlify.app/ (ligne du temps)</a></li>
-    
 
 </ul>
 

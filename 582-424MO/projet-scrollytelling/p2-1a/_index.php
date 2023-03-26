@@ -59,6 +59,8 @@ Chaque case du scénarimage sera en format 16/9 (format écran standard) et dém
 <img src="images/storyboard2.jpg" alt="Exemple 1 de scénarimage" >
 <p style="text-align:center"><small>Source: http://cine-5eme.over-blog.com/story-board.html</small></p> 
 
+
+<grostitre>Requis animations</grostitre>
 <h3>Types d’animations obligatoires à prévoir dans votre scénario</h3>
 <ol>
    <li>Prévoir la transition entre chaque chapitre, au moins 3 transitions différentes.</li>
