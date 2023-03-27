@@ -75,6 +75,14 @@
   Lorsque le survol est terminé, la main doit reprendre son état initial en <em>0.2 seconde</em> de façon <em>linéaire</em>.
 </checklist>
 
+<grostitre>Remise</grostitre>
+
+<checklist>
+  Renommez votre dossier <em>"godspeed_[nom]_[prenom]"</em>.
+  Zippez votre dossier <em>"godspeed_[nom]_[prenom]"</em>.
+  Joignez votre fichier <em>.zip</em> au devoir <em>"TP08: Godspeed You! Black Emperor"</em>.
+</checklist>
+
 <dots></dots>
 
 
