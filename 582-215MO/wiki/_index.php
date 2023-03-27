@@ -202,7 +202,7 @@
     <?php intlink("../css/animation/exercices/fantome/"); ?>
     <?php intlink("../css/animation/exercices/yo-yo/"); ?>
     <?php intlink("../css/animation/exercices/pendule/"); ?>
-    <h2>TP07 <em>(10%)</em></h2>
+    <h2>TP07 <em>(5%)</em></h2>
     <?php intlink("../css/exercices/david-bowie-earthling/"); ?>
 </wiki-page>
 
@@ -223,6 +223,8 @@
     <?php intlink("../autres/inspecteur-elements/"); ?>
     <?php intlink("../autres/inspecteur-elements/exercices/unlock/"); ?>
     <?php intlink("../autres/inspecteur-elements/exercices/urbania/"); ?>
+    <h2>TP Complémentaire <em>(formatif)</em></h2>
+    <?php intlink("../css/exercices/alexisonfire-watch-out/"); ?>
 </wiki-page>
 
 
@@ -232,6 +234,8 @@
     <?php intlink("../css/transition/exercices/bojack-horseman/"); ?>
     <?php intlink("../css/transition/exercices/boutons/"); ?>
     <?php intlink("../css/transition/exercices/fantome-mario/"); ?>
+    <h2>TP08 <em>(5%)</em></h2>
+    <?php intlink("../css/exercices/godspeed-you-black-emperor-lift-yr/"); ?>
 </wiki-page>
 
 
