@@ -18,7 +18,7 @@
         <script src="<?php echo $PAGE->shared; ?>jscripts/swiper-bundle.min.js"></script>
         <script src="<?php echo $PAGE->shared; ?>jscripts/vue.global.prod.js"></script>
         <script>const shared = '<?php echo $PAGE->shared; ?>';</script>
-        <title><?php echo $PAGE->title; ?></title>
+        <title><?php echo strip_tags($PAGE->title); ?></title>
     </head>
     <body>
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>

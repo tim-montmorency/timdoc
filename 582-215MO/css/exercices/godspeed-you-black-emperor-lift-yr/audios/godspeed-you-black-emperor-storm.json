@@ -1,0 +1,67 @@
+{
+"creatingLibrary": {
+"name": "MediaInfoLib",
+"version": "22.09",
+"url": "https://mediaarea.net/MediaInfo"
+},
+"media": {
+"@ref": "D:\\Programmation\\tim-montmorency\\timdoc\\582-215MO\\css\\exercices\\godspeed-you-black-emperor-lift-yr\\audios\\godspeed-you-black-emperor-storm.mp3",
+"track": [
+{
+"@type": "General",
+"AudioCount": "1",
+"FileExtension": "mp3",
+"Format": "MPEG Audio",
+"FileSize": "21643100",
+"Duration": "1352.489",
+"OverallBitRate_Mode": "CBR",
+"OverallBitRate": "128000",
+"StreamSize": "2847",
+"Title": "Storm (Lift Yr. Skinny Fists Like Antennas To Heaven...; Gathering Storm; ''Welcome To Barco AM/PM...'' [L.A.X.; 5/14/00]; Cancer Towers On Holy Road Hi-Way)",
+"Album": "Lift Yr. Skinny Fists Like Antennas To Heaven!",
+"Album_Performer": "Godspeed You! Black Emperor",
+"Part_Position": "1",
+"Part_Position_Total": "2",
+"Track": "Storm (Lift Yr. Skinny Fists Like Antennas To Heaven...; Gathering Storm; ''Welcome To Barco AM/PM...'' [L.A.X.; 5/14/00]; Cancer Towers On Holy Road Hi-Way)",
+"Track_Position": "1",
+"Track_Position_Total": "4",
+"Performer": "Godspeed You! Black Emperor",
+"Genre": "Post-Rock",
+"Released_Date": "2000",
+"Recorded_Date": "2000",
+"File_Created_Date": "UTC 2023-03-27 22:16:04.602",
+"File_Created_Date_Local": "2023-03-27 18:16:04.602",
+"File_Modified_Date": "UTC 2023-03-27 22:17:59.477",
+"File_Modified_Date_Local": "2023-03-27 18:17:59.477",
+"Encoded_Library": "LAME3.99r",
+"Comment": "[A]nalog [A]nts [A]ttack",
+"extra": {
+"RELEASETYPE": "2"
+}
+},
+{
+"@type": "Audio",
+"Format": "MPEG Audio",
+"Format_Version": "1",
+"Format_Profile": "Layer 3",
+"Format_Settings_Mode": "Joint stereo",
+"Format_Settings_ModeExtension": "MS Stereo",
+"Duration": "1352.490",
+"BitRate_Mode": "CBR",
+"BitRate": "128000",
+"Channels": "2",
+"SamplesPerFrame": "1152",
+"SamplingRate": "44100",
+"SamplingCount": "59644800",
+"FrameRate": "38.281",
+"FrameCount": "51775",
+"Compression_Mode": "Lossy",
+"StreamSize": "21639836",
+"StreamSize_Proportion": "0.99985",
+"Encoded_Library": "LAME3.99r",
+"Encoded_Library_Settings": "-m j -V 4 -q 3 -lowpass 17 -b 128"
+}
+]
+}
+}
+

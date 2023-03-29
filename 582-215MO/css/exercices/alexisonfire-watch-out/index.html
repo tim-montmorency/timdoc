@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../../shared/jscripts/commons.js"></script>
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>Alexisonfire - "Watch Out!"</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->            <div id="subhead">
+                <div id="title">Alexisonfire - "Watch Out!"</div>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p class="spacer">Pour cet exercice, vous devez écrire du CSS afin de recréer l’album <a target="_blank" href="https://open.spotify.com/album/4ttDpnKRfaMdwCt6Zp9qJd">"Watch Out!"</a> du groupe rock canadien <a target="_blank" href="https://fr.wikipedia.org/wiki/Alexisonfire">Alexisonfire</a>.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<img src="images/apercu.webp">
+
+<dots></dots>
+
+
+<grostitre>Matériel</grostitre>
+
+<doclink href="./alexis-on-fire-watch-out.zip">Dossier de départ</doclink>
+
+<h3>Fonts</h3>
+
+<doclink href="./lunisolar.zip">Lunisolar</doclink>
+
+<h3>Couleurs 🎨</h3>
+
+<color>#001621</color>
+<color>#00bff5</color>
+<color>#868b37</color>
+<br>
+<color>#ed008c</color>
+<color>#fcf104</color>
+<color>#000000</color>
+
+<h3>Médias</h3>
+
+<mediafile src="./images/illustration.webp">Illustration</mediafile>
+<mediafile src="./images/heart.webp">Coeur</mediafile>
+<mediafile src="./images/ghost-left.webp">Fantôme gauche</mediafile>
+<mediafile src="./images/ghost-right.webp">Fantôme droit</mediafile>
+
+<alert>Il est <strong>INTERDIT</strong> de modifier le HTML.</alert>
+
+<dots></dots>
+
+
+<grostitre>Requis de base</grostitre>
+
+<checklist>
+  Téléchargez les images et placez-les dans un dossier nommé <span class="inline-code">images</span>.
+  Téléchargez la police d'écriture et placez-la dans un dossier nommé <span class="inline-code">fonts</span>.
+  Le fond doit être un dégradé allant de <em>bleu foncé</em> à <em>bleu pâle</em> avec un point d'arrêt final à <em>200%</em>.
+  L'album doit avoir une dimension de <em>500x500px</em>, être de couleur <em>verte</em> et avoir un ombrage de <em>100px</em> égale de tout les côtés de couleur <em>noire</em> semi-transparente.
+  Utilisez la propriété <span class="inline-code">transform</span> afin de centrer l'album horizontalement et verticalement dans la fenêtre.
+  Avec <span class="inline-code">@font-face</span>, importez la police d'écriture <em>Lunisolar</em>.
+</checklist>
+
+<grostitre>Requis arrière-plan</grostitre>
+
+<checklist>
+  L'illustration doit être centrée horizontalement et être positionnée à <em>140px</em> du haut.
+  Le coeur doit être positionné à <em>410px</em> de la gauche et <em>60px</em> du haut.
+  Le fantôme gauche doit être positionné à <em>40px</em> de la gauche et <em>205px</em> du haut.
+  Le fantôme droit doit être positionné à <em>325px</em> de la gauche et <em>210px</em> du haut.
+</checklist>
+
+<grostitre>Requis Watch Out!</grostitre>
+
+<checklist>
+  Le nom de l'album doit être positionné à <em>190px</em> de la gauche et <em>125px</em> du haut.
+  Appliquez-lui la police d'écriture <em>Lunisolar</em> à <em>70px</em> de grosseur et de couleur <em>jaune</em>.
+  Il doit aussi avoir un contour de <em>2px</em> de couleur noire.
+  Utilisez <span class="inline-code">transform</span> pour lui appliquer un scaleX de <em>50%</em>.
+</checklist>
+
+<grostitre>Requis Alexisonfire</grostitre>
+
+<checklist>
+  Le nom du groupe doit être positionné à <em>50px</em> de la gauche et <em>30px</em> du haut.
+  Appliquez-lui la police d'écriture <em>Lunisolar</em> à <em>72px</em> de grosseur avec un style <i>italic</i>, un espace de lettrage de <em>1px</em> et de couleur <em>rose</em>.
+  Il doit aussi avoir un contour de <em>1px</em> de couleure <em>noire</em> et un ombrage plein de <em>2px</em> vers la droite aussi de couleur noire.
+  Utilisez <span class="inline-code">transform</span> pour lui appliquer un <em>scaleY</em> de <em>175%</em>, un <em>rotateY</em> de <em>15deg</em> et un <em>skewY</em> de <em>0.5deg</em>.
+</checklist>
+
+<dots></dots>
+
+
+<grostitre>Ambiance</grostitre>
+
+<clip src="./videos/alexisonfire-accident.mp4"></clip>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+            <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../position/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../position/">Position</a></span>
+                    <span class="intlink__item__abstract">static, relative, absolute, fixed, sticky</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../linear-gradient/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../linear-gradient/">Linear-gradient</a></span>
+                    <span class="intlink__item__abstract">Générer un dégradé.</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../background/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../background/">Background</a></span>
+                    <span class="intlink__item__abstract">color, image, gradient</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../font-face/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../font-face/">@font-face</a></span>
+                    <span class="intlink__item__abstract">Importer des polices d'écritures</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../box-shadow/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../box-shadow/">Box-shadow</a></span>
+                    <span class="intlink__item__abstract">Ombrage d'un élément.</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../transformation/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../transformation/">Transformation</a></span>
+                    <span class="intlink__item__abstract">translate, rotate, scale, skew, origin</span>
+                </div>
+            </div>
+        
+<dots></dots>
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>
