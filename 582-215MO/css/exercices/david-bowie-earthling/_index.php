@@ -68,8 +68,8 @@
 <checklist>
   Faites-en sorte que les textes soient positionnés de manière absolute et avoir une grosseur de police d'écriture de <em>18px</em>.
   Utilisez <span class="inline-code">@font-face</span> afin de charger la police d'écriture <em>BensonOldStyleOpti-Medium.otf</em>, nommez la <em>Earthling</em> et attribuez-la aux textes.
-  Le titre de l'album doit être positionné à <em>34px</em> du haut et <em>200px</em> de la droite, avoir un espacement de lettre de <em>0.05em</em> et être de couleur <em>brune</em>.
-  Le nom de David Bowie doit être positionné à <em>30px</em> du haut et <em>30px</em> de la droite, avoir une marge intérieure  de <em>4px</em>, un espacement de lettres de <em>0.15em</em>, avoir un fond <em>noir</em> et être de couleur <em>rose</em>.
+  Le titre de l'album doit être positionné à <em>34px</em> du haut et <em>200px</em> de la gauche, avoir un espacement de lettre de <em>0.05em</em> et être de couleur <em>brune</em>.
+  Le nom de David Bowie doit être positionné à <em>30px</em> du haut et <em>30px</em> de la gauche, avoir une marge intérieure  de <em>4px</em>, un espacement de lettres de <em>0.15em</em>, avoir un fond <em>noir</em> et être de couleur <em>rose</em>.
   Utilisez <span class="inline-code">box-shadow</span> afin de créer la triple bordure du nom de David Bowie.
   La première bordure doit être de <em>1px</em> et être de couleur <em>brune</em>.
   La deuxième bordure doit être de <em>3px</em> et être de couleur <em>blanche</em>.
