@@ -5,8 +5,8 @@
 <style type="text/css">
 	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#9580ff;}
 	.st1{fill:#FFFFFF;}
-	.st2{font-family:'Raleway-Bold';}
-	.st3{font-size:180px;}
+	.st2{font-family:'Rubik';}
+	.st3{font-size:150px; font-weight: 600;}
 </style>
 <rect class="st0" width="447" height="447"/>
 <text transform="matrix(1 0 0 1 114.3328 279.8396)" class="st1 st2 st3">2.1</text>
