@@ -3,7 +3,7 @@
 /**
  * @type     exercice
  * @title    GSAP Timeline - Excitebike
- * @icon     images/thumb.png
+ * @icon     images/thumb.jpg
  * @abstract Pour cet exercice, nous allons créer une animation inspirée du jeu Nintendo Excitebike sorti en 1984! 🏍
  */
 ?>
@@ -11,11 +11,11 @@
 <p>Pour cet exercice, nous allons créer une animation inspirée du <a href="https://fr.wikipedia.org/wiki/Excitebike">jeu Nintendo Excitebike</a> sorti en 1984!&nbsp;🏍</p>
    
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/'></clipasset>
+<clipasset src='images/excitebike.mp4'></clipasset>
 
 
 <grostitre>Matériel</grostitre>
-<doclink href="">Pen de départ</doclink>
+<doclink href="https://codepen.io/tim-momo/pen/XWPwYjZ">Pen de départ</doclink>
 
 <h3>Médias</h3>
 <mediafile src="images/bike-2.png">Moto mauve</mediafile>
