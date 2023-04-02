@@ -131,14 +131,13 @@
 
 <p>La pseudo-classe <span class="inline-code">:has()</span> permet de cibler un élément si au moins un des sélecteurs passés en paramètre correspond à l'élément.</p>
 
-<p>Étant donné qu'il n'existe pas de sélecteur de voisin précédent, peut devenir assez pratique dans certaines situations.</p>
+<p>Étant donné qu'il n'existe pas de sélecteur de voisin précédent, <span class="inline-code">:has()</span> peut devenir assez pratique dans certaines situations.</p>
 
 <p>Dans l'exemple suivant, un parent sera sélectionné si son ou un de ses enfants est survolé.</p>
 
 <highlight lang="css">.parent:has(.child:hover)</highlight>
 
-<p>Ainsi, on peut changer les propriétés d'éléments voisins en combinant passant par le parent et la pseudo-classe <span class="inline-code">:has()</span>.</p>
-
+<p>Ainsi, on peut changer les propriétés d'éléments voisins en passant par le parent et la pseudo-classe <span class="inline-code">:has()</span>.</p>
 
 <codepen id="poOXXeL" tab="css,result" height="340"></codepen>
 

@@ -46,7 +46,7 @@
 
 <grostitre>Mise en ambiance</grostitre>
 
-<clip src="videos/commando_(1985)-trailer.mp4"></clip>
+<youtube src="./videos/commando-trailer.json"></youtube>
 
 <dots></dots>
 

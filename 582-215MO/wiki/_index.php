@@ -230,6 +230,7 @@
 
 
 <wiki-page name="Cours 10B" date="2023-04-05">
+    <h3>Correction: David Bowie - Earthling</h3>    
     <?php intlink("../css/transition/"); ?>
     <?php intlink("../css/transition/exercices/spider-man/"); ?>
     <?php intlink("../css/transition/exercices/bojack-horseman/"); ?>

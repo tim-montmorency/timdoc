@@ -516,6 +516,38 @@ app.component('clip', {
 
 
 
+/******************************************************
+ *                 Composante Youtube                 *
+ ******************************************************/
+ // https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=BYQ4E0SwPP4&format=json
+ app.component('youtube', {
+    props: ['src'],
+    data() {
+        let details = syncjson(this.src);
+        let id = /\/embed\/([^\/]+)\?/g.exec(details.html)[1];
+        return {
+            id: id,
+            width: details.width,
+            height: details.height,
+            thumbnail_url: details.thumbnail_url,
+            playbtn: 'block',
+            player: ''
+        }
+    },
+    methods: {
+        play(){
+            this.player = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + this.id + '?feature=oembed&autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+            this.playbtn = 'none';
+        }
+    },
+    template: `
+    <div class="youtube-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.width + '/' + this.height + ';'">
+        <div class="youtube-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
+        <div class="youtube-wrapper__player" v-html="player"></div>
+    </div><br>`
+});
+
+
 
 /******************************************************
  *                Composante Highlight                *

@@ -86,8 +86,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<clip src="./videos/nine-inch-nails-happiness-in-slavery.mp4"></clip>
-<span class="remark" style="padding-top: 5px;">Cet extrait provient de leur performance au festival <a target="_blank" href="https://en.wikipedia.org/wiki/Woodstock_%2794">Woodstock '94</a></span>
+<youtube src="./videos/nine-inch-nails-wish.json"></youtube>
 
 <dots></dots>
 
