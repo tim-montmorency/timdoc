@@ -88,7 +88,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<audioplayer src="./audios/godspeed-you-black-emperor-storm.mp3"></audioplayer>
+<youtube src="./videos/godspeed-you-black-emperor-moya.json"></youtube>
 
 <dots></dots>
 
