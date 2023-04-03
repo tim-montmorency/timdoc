@@ -541,10 +541,10 @@ app.component('clip', {
         }
     },
     template: `
-    <div class="youtube-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.width + '/' + this.height + ';'">
-        <div class="youtube-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
-        <div class="youtube-wrapper__player" v-html="player"></div>
-    </div><br>`
+        <div class="youtube-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.width + '/' + this.height + ';'">
+            <div class="youtube-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
+            <div class="youtube-wrapper__player" v-html="player"></div>
+        </div><br>`
 });
 
 
