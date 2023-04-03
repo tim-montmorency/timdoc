@@ -50,7 +50,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<clip src="videos/little-richard-tutti-frutti.mp4"></clip>
+<youtube src="./videos/little-richard-tutti-frutti.json"></youtube>
 
 <dots></dots>
 

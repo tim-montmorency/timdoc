@@ -53,7 +53,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<clip src="videos/red-hot-chili-peppers-give-it-away.mp4"></clip>
+<youtube src="./videos/red-hot-chili-peppers-give-it-away.json"></youtube>
 
 <dots></dots>
 

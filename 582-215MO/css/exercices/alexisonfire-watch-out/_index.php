@@ -89,7 +89,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<clip src="./videos/alexisonfire-accident.mp4"></clip>
+<youtube src="./videos/alexisonfire-accident.json"></youtube>
 
 <dots></dots>
 

@@ -59,17 +59,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<h3>Moby - New Dawn Fades</h3>
-
-<audioplayer src="audios/moby-new-dawn-fades.mp3"></audioplayer>
-
-<span class="remark">Cette pièce est une reprise du célèbre groupe <a target="_blank" href="https://en.wikipedia.org/wiki/Joy_Division">Joy Division</a>.</span>
-
-
-<h3>Moby - James Bond Theme</h3>
-
-<clip src="videos/moby-james-bond-theme.mp4"></clip>
-
+<youtube src="./videos/moby-james-bond-theme.json"></youtube>
 
 <dots></dots>
 
@@ -80,4 +70,3 @@
 <?php intlink('../../border/'); ?>
 
 <dots></dots>
-
