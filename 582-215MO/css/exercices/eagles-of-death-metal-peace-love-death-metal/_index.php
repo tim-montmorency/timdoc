@@ -46,7 +46,7 @@
   Créez une variable pour chacune des couleurs pour utilisation ultérieure.
   La couleur de fond de la page doit être de couleur <em>grise</em> et avoir un dégradé vertical allant du <em>bleu</em> au <em>rose</em>.
   Fusionnez les deux fonds en mode <span class="inline-code">screen</span> afin de donner au gradient un effet délavé.
-  L'album doit avoir une dimension verticale et honrizontale de <em>80%</em> du plus petit côté de la fenêtre, être de couleur <em>bleue</em> ainsi qu'avoir un ombrage égal de tous les côtés de couleur <em>blanche</em>.
+  L'album doit avoir une dimension verticale et honrizontale de <em>80%</em> du plus petit côté de la fenêtre, être de couleur <em>bleue</em> ainsi qu'avoir un ombrage de <em>100px</em> égal de tous les côtés de couleur <em>blanche</em>.
   Utilisez <span class="inline-code">transform</span> afin de positionner l'album au centre de la fenêtre.
 </checklist>
 
@@ -89,8 +89,6 @@
 
 
 <grostitre>Notes de cours 📚</grostitre>
-
-<img src="../../opacite/" alt="">
 
 <?php intlink("../../background/"); ?>
 <?php intlink("../../linear-gradient/"); ?>
