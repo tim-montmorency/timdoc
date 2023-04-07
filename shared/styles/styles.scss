@@ -279,7 +279,7 @@ footer {
         max-width: 100%;
     }
 
-    h2, h3 { /* les h2 devront devenir des h3 */
+    h2, h3 {
   
         margin-bottom: 25px;
         margin-top: 50px;
@@ -294,17 +294,23 @@ footer {
         margin-top: 20px;
     }
 
+    h4, h5, h6{
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+
     
     em {
         color: #F3CA40;
         color: #F2A541;
     }
 
-    p code, 
-    ul code {
-        background-color: rgba(0,0,0,0.05);
-        padding: 0.25em 0.4em 0.4em 0.4em;
-        font-size: 90%;
+    p, ul, ol, h1, h2, h3, h4, h5, h6 {
+        code {
+            background-color: rgba(0,0,0,0.05);
+            padding: 0.25em 0.4em 0.4em 0.4em;
+            font-size: 90%;
+        }
     }
 
     span.remark {

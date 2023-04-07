@@ -1552,7 +1552,7 @@ footer #copyright {
   margin-bottom: 50px;
   max-width: 100%;
 }
-#contents h2, #contents h3, #wiki__pages h2, #wiki__pages h3 { /* les h2 devront devenir des h3 */
+#contents h2, #contents h3, #wiki__pages h2, #wiki__pages h3 {
   margin-bottom: 25px;
   margin-top: 50px;
   font-size: 6vw;
@@ -1565,13 +1565,15 @@ footer #copyright {
 #contents .grostitre + h3, #wiki__pages .grostitre + h3 {
   margin-top: 20px;
 }
+#contents h4, #contents h5, #contents h6, #wiki__pages h4, #wiki__pages h5, #wiki__pages h6 {
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
 #contents em, #wiki__pages em {
   color: #F3CA40;
   color: #F2A541;
 }
-#contents p code,
-#contents ul code, #wiki__pages p code,
-#wiki__pages ul code {
+#contents p code, #contents ul code, #contents ol code, #contents h1 code, #contents h2 code, #contents h3 code, #contents h4 code, #contents h5 code, #contents h6 code, #wiki__pages p code, #wiki__pages ul code, #wiki__pages ol code, #wiki__pages h1 code, #wiki__pages h2 code, #wiki__pages h3 code, #wiki__pages h4 code, #wiki__pages h5 code, #wiki__pages h6 code {
   background-color: rgba(0, 0, 0, 0.05);
   padding: 0.25em 0.4em 0.4em 0.4em;
   font-size: 90%;

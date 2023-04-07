@@ -1,0 +1,6 @@
+{
+    "type": "tool",
+    "title": "Greensock Ease Visualizer",
+    "icon": "images\/thumb.png",
+    "abstract": "Pour voir toutes les possibilités et visualiser la courbe de Bézier associée à chaque easing."
+}
