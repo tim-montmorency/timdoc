@@ -1,12 +1,10 @@
 .dots {
-    width: 30px;
+    width: 60px;
     color: #aaaaaa;
-    display: none;
     margin-left: auto;
     margin-right: auto;
 
     @media (min-width: 576px)  {
         width: 100px;
-        display: block;
     }
 }

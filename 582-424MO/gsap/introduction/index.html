@@ -76,24 +76,9 @@
 
 <grostitre>Précédentes versions</grostitre>
 
-<p>Vous avez peut-être déjà utilisé ou entendu parler&nbsp;de:</p>
-<ul>
-    <li>
-        TweenLite
-    </li>
-    <li>
-        TweenMax
-    </li>
-    <li>
-        TimelineLite
-    </li>
-    <li>
-        TimelineMax
-    </li>
-</ul>
-<p>ou vous tomberez peut-être sur des articles mentionnant ces outils en lisant sur le web. Ce qui est normal,
+<p>Vous avez peut-être déjà utilisé ou entendu parler&nbsp;de: <em>TweenLite</em>, <em>TweenMax</em>, <em>TimelineLite</em>, <em>TimelineMax</em> ou vous tomberez peut-être sur des articles mentionnant ces outils en lisant sur le web. Ce qui est normal,
     puisqu'ils ont étés des parties importantes de GSAP durant de nombreuses années. Cependant, vers la fin de 2019, ils
-    furent remplacés par l'objet GSAP lors de la sortie de&nbsp;GSAP&nbsp;3.</p>
+    furent remplacés par l'objet GSAP lors de la sortie de <strong>GSAP&nbsp;3</strong>.</p>
 
 <p>Dans ce cours, nous, nous consacrerons à cette plus récente version&nbsp;<em>(3)</em>. Faites attention, si une
     documentation mentionne ces précédents outils, elle traite donc la version 2 et non&nbsp;3.</p>
@@ -110,9 +95,8 @@
 
 <ul>
     <li>De&nbsp;<a href="https://greensock.com/docs/v3/Installation#download" target="_blank">télécharger une copie de
-            la librarie</a> 📥 et l'inclure dans votre dossier de projet.</li>
-    <li>D'<a href="https://cdnjs.com/libraries/gsap/3.9.1" target="_blank">utiliser un CDN</a> (utiliser la liste
-        déroulante <em>Version</em> pour aller chercher la version la plus récente de GSAP 3.</li>
+            la librarie</a>, 📥 l'inclure dans votre dossier de projet et lier le fichier <em>gsap-public/minified/gsap-core.min.js</em> à votre HTML.<br><small>Prioriser toujours les versions minifiées qui sont plus performantes lors du chargement de la page.</small></li>
+    <li>D'utiliser un <a href="https://greensock.com/docs/v3/Installation?checked=core#CDN" target="_blank">Content Delivery Network (CDN)</a></li>
     <li>De partir des&nbsp;<a href="https://codepen.io/GreenSock/full/23d3979528b262cb07da37f6a7c7dd76"
             target="_blank">gabarits de base CodePen</a>. Vous devez alors copier le lien GSAP Core. Ensuite sur votre
         CodePen via <em>Settings/JS/Add External Scripts</em> et y coller le lien GSAP Core.</li>
@@ -129,6 +113,12 @@
 <doclink href='https://medium.com/@codebyamir/a-web-developers-guide-to-browser-caching-cc41f3b73e7c'>À propos des
     caches de navigateur web</doclink>
 
+<alert>Toujours porter attention à l'ordre des liens vers les fichiers JavaScript dans votre HTML. D'abord la librarie "core" de GSAP, ensuite le fichier JavaScript personnalisé de votre projet.</alert>
+
+<warning>Ne pas oublier, au niveau performance, il est préférable de lier les fichiers JavaScript à la fin de la page HTML juste avant la fermeture de <code>&lt;/body&gt;</code>. <br>Pensez "Optimisation Web" ! 📈 🎯 ⚡</warning>
+
+
+
 <dots></dots>
 
 
@@ -142,7 +132,7 @@
 
 <dots></dots>
 <tool href="../tools/collection-animations-gsap/"></tool>
-<dots></dots>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
                     <!-- ARTICLE FOOTER SOF -->
                 </div>

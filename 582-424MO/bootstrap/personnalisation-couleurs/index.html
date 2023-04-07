@@ -103,12 +103,18 @@
   <li>Télécharger les <a href="https://getbootstrap.com/docs/5.2/getting-started/download/#source-files">fichiers sources</a> de Bootstrap pour avoir accès aux fichiers <em>Sass</em>. Ajoutez le dossier des fichiers source de Bootstrap dans votre dossier de projet (je vous propose de le déposer dans un dossier nommé <em>vendors</em>)
 </li>
   <li>Créer un fichier .scss dans lequel vous allez réécrivez la valeur de certaines variables Bootstrap existantes.
-    <highlight lang='scss'>$blue:         #3b7e9d;
-$border-radius:0.4rem;
+    <highlight lang='scss'>
+$light:        #bfe5df,
+$dark:         #201d40,
 $primary:      #f36b62
 $secondary:    #5f5f71
+$info:         #20b4a8,
+$success :     #63af0e,
+$warning :     #ffc377,
+$danger :      #f60568,
 
-ou dans ce format:
+et dans ce format:
+  
 $theme-colors: (
     "light":      #bfe5df,
     "dark":       #201d40,

@@ -1,7 +1,7 @@
 <?php 
 /**
  * @type     article
- * @title    4-Timeline
+ * @title    5-Timeline
  * @icon     images/icon.svg
  * @abstract Une ligne du temps pour vous permettre d'organiser un groupe d'animations.
  * @index    980
