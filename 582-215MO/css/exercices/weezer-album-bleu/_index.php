@@ -52,7 +52,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<clip src="videos/weezer_undone_the_sweeter_song.mp4"></clip>
+<youtube src="./videos/weezer_undone_the_sweeter_song.json"></youtube>
 
 <dots></dots>
 

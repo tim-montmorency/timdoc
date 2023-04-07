@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="shortcut icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.0%22%20viewBox%3D%220%200%20307%20306%22%3E%3Cpath%20fill%3D%22%23ff003a%22%20d%3D%22M1%20153v153h306V0h-2c-2%200-22%2020-77%2075l-74%2074-75-74L3%200C1%200%201%208%201%20153zm280%2017v110H27V60l63%2063%2064%2063%2063-63%2064-64v111z%22%2F%3E%3C%2Fsvg%3E">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
@@ -134,6 +134,7 @@
 
 <dots></dots>
 
+
 <grostitre>:not</grostitre>
 
 <p>La pseudo-classe <incode>:not()</incode> permet de sélectionner tous les éléments ne correspondant pas au sélecteur passé entre parenthèses.</p>
@@ -158,6 +159,29 @@
 <doclink href="https://www.w3schools.com/cssref/sel_not.asp">:not</doclink>
 
 <dots></dots>
+
+
+<grostitre>:has</grostitre>
+
+<p>La pseudo-classe <span class="inline-code">:has()</span> permet de cibler un élément si au moins un des sélecteurs passés en paramètre correspond à l'élément.</p>
+
+<p>Étant donné qu'il n'existe pas de sélecteur de voisin précédent, <span class="inline-code">:has()</span> peut devenir assez pratique dans certaines situations.</p>
+
+<p>Dans l'exemple suivant, un parent sera sélectionné si son ou un de ses enfants est survolé.</p>
+
+<highlight lang="css">.parent:has(.child:hover)</highlight>
+
+<p>Ainsi, on peut changer les propriétés d'éléments voisins en passant par le parent et la pseudo-classe <span class="inline-code">:has()</span>.</p>
+
+<codepen id="poOXXeL" tab="css,result" height="340"></codepen>
+
+<warning>Au moment d'écrire ces lignes, le navigateur <a target="_blank" href="https://caniuse.com/?search=%3Ahas()">Firefox ne supporte toujours pas</a> la pseudo-classe <span class="inline-code">:has</span> par défaut.</warning>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/:has">:has</doclink>
+<doclink href="https://css-tricks.com/the-css-has-selector/">:has</doclink>
+
+<dots></dots>
+
 
 <exercice href="exercices/css-diner/"></exercice>
 

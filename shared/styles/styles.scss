@@ -24,6 +24,7 @@
 @use 'components/color';
 @use 'components/swiper';
 @use 'components/quote';
+@use 'components/youtube';
 
 /* light color palette: https://coolors.co/577590-f3ca40-ff003a-e1e4f2-f2a541 */
 
@@ -84,20 +85,17 @@ a {
 }
 
 
-
-
 header {
     margin-left: 60px;
     position: fixed;
     height: 200px;
+    z-index: 1;
 
     #logo {
         position: relative;
         top: 60px;
         width: 276px;
-
-       // background-image: url("../images/tim-logo.png");
-       fill:#ff003a;
+        fill:#ff003a;
         background-repeat: no-repeat;
         cursor: pointer;
     }
@@ -133,12 +131,15 @@ header {
 
 
 #subhead {
+    position: relative;
+    display: flex;
+    flex-flow: column;
     background-color: #e1e4f2;
     width: 100%;
+    margin: auto;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding: 56px 0 30px 0;
 
     @media (min-width: 576px)  {
         height: variables.$subhead_height;
@@ -153,7 +154,6 @@ header {
     }
 
     #title {
-        // background-color: red;;
         font-size: 10vw;
         font-weight: 400;
         max-width: 1000px;
@@ -166,12 +166,21 @@ header {
         img {
             position: relative;
             border-radius: 50%;
-            width: 48px;
-            height: 48px;
+            width: 10vw;
+            height: 10vw;
+            max-width: 48px;
+            max-height: 48px;
             top: 4px;
-            // vertical-align: middle;
         }
     }  
+
+    &::before,  &::after {
+        content: '';
+        flex: auto;
+        position: relative;
+        display: block;
+        width: 100%;
+    }
 
 }
 
@@ -198,9 +207,9 @@ article {
 }
 
 footer {
-    margin-top: 100px;
+    margin-top: -4px;
     width: 100%;
-    background: rgb(225 228 242);
+    // background: rgb(225 228 242);
     //background-color: #e5ecf1;
     /*border-top: 1px solid rgb(204, 207, 217);*/
     text-align: center;

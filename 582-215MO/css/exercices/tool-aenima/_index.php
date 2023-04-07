@@ -90,7 +90,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<clip src="videos/tool-stinkfist.mp4"></clip>
+<youtube src="./videos/tool-stinkfist.json"></youtube>
 
 <dots></dots>
 

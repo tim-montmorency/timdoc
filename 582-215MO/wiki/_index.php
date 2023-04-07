@@ -218,6 +218,7 @@
 
 
 <wiki-page name="Cours 10A" date="2023-04-04">
+    <?php intlink("../autres/raccourcis-clavier/"); ?>
     <?php intlink("../html/emmet/"); ?>
     <?php intlink("../autres/inspecteur/"); ?>
     <?php intlink("../autres/inspecteur-elements/"); ?>
@@ -229,6 +230,7 @@
 
 
 <wiki-page name="Cours 10B" date="2023-04-05">
+    <h3>Correction: David Bowie - Earthling</h3>    
     <?php intlink("../css/transition/"); ?>
     <?php intlink("../css/transition/exercices/spider-man/"); ?>
     <?php intlink("../css/transition/exercices/bojack-horseman/"); ?>
@@ -240,11 +242,13 @@
 
 
 <wiki-page name="Cours 11A" date="2023-04-18">
-    <h3>Correction: Red Hot Chili Peppers - Blood Sugar Sex Magik</h3>
+    <?php intlink("../css/pseudo-classes-avancees/#has"); ?>
     <?php intlink("../css/snap-scroll/"); ?>
     <?php intlink("../css/snap-scroll/exercices/whatisadam/"); ?>
     <h2>Révision pour l'examen</h2>
     <?php intlink("../css/exercices/les-simpsons/"); ?>
+    <h2>TP Complémentaire <em>(formatif)</em></h2>
+    <?php intlink("../css/exercices/eagles-of-death-metal-peace-love-death-metal/"); ?>
 </wiki-page>
 
 <wiki-page name="Cours 11B" date="2023-04-19">
@@ -277,14 +281,14 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 13A" date="2023-04-02">
+<wiki-page name="Cours 13A" date="2023-05-02">
     <?php intlink("../html/formulaire-avance/"); ?>
     <?php intlink("../html/formulaire-avance/exercices/among-us/"); ?>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
     <?php intlink("../css/exercices/death-from-above-1979/"); ?>
 </wiki-page>
 
-<wiki-page name="Cours 13B" date="2023-04-03">
+<wiki-page name="Cours 13B" date="2023-05-03">
     <?php intlink("../html/metadonnees/"); ?>
     <?php intlink("../html/favicon/"); ?>
     <?php intlink("../html/favicon/exercices/mega-man/"); ?>

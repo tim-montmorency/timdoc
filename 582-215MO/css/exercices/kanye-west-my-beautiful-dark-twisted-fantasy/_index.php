@@ -53,7 +53,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<clip src="videos/kanye-west-runaway.mp4"></clip>
+<youtube src="./videos/kanye-west-runaway.json"></youtube>
 
 <dots></dots>
 

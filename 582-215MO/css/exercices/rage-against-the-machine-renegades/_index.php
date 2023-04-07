@@ -62,7 +62,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<clip src="videos/rage-against-the-machine-renegades-of-funk.mp4"></clip>
+<youtube src="./videos/rage-against-the-machine-renegades-of-funk.json"></youtube>
 
 <dots></dots>
 

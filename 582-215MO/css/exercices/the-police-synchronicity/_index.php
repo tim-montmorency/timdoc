@@ -58,7 +58,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<clip src="videos/the-police-every-breath-you-take.mp4"></clip>
+<youtube src="./videos/the-police-every-breath-you-take.json"></youtube>
 
 <dots></dots>
 
