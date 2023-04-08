@@ -10,32 +10,42 @@
 
 <grostitre>Introduction</grostitre>
 
-<p>ScrollTrigger est un plugiciel&nbsp;<em>(plugin)</em>&nbsp;développé par&nbsp;<a href="https://greensock.com/" target="_blank">GreenSock</a>&nbsp;permettant de déclencher ou synchroniser une animation avec le défilement de la&nbsp;page.</p>
+<p>ScrollTrigger est un plugiciel&nbsp;<em>(plugin)</em>&nbsp;développé par&nbsp;<a href="https://greensock.com/"
+        target="_blank">GreenSock</a>&nbsp;permettant de déclencher ou synchroniser une animation avec le défilement de
+    la&nbsp;page.</p>
 
 <h3>Exemples d'utilisation</h3>
 
-<p class="codepen" data-height="500" data-theme-id="44168" data-default-tab="result" data-slug-hash="abRzZvy" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/abRzZvy">
-  DEMO ScrollTrigger Downhill Ski</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+<p class="codepen" data-height="500" data-theme-id="44168" data-default-tab="result" data-slug-hash="abRzZvy"
+    data-user="tim-momo"
+    style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/abRzZvy">
+            DEMO ScrollTrigger Downhill Ski</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 Credit: GSAP
 <dots></dots>
 
 
-<p class="codepen" data-height="500" data-theme-id="44168" data-default-tab="result" data-slug-hash="zYmxoJB" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/zYmxoJB">
-  DEMO Welcome to the jungle - ScrollTrigger credits: Louis Hoebregts Follow</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+<p class="codepen" data-height="500" data-theme-id="44168" data-default-tab="result" data-slug-hash="zYmxoJB"
+    data-user="tim-momo"
+    style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/zYmxoJB">
+            DEMO Welcome to the jungle - ScrollTrigger credits: Louis Hoebregts Follow</a> by TIM Montmorency (<a
+            href="https://codepen.io/tim-momo">@tim-momo</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 Credits: Louis Hoebregts
 
 <dots></dots>
 
-<p class="codepen" data-height="500" data-theme-id="44168" data-default-tab="result" data-slug-hash="XWxJNBd" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XWxJNBd">
-  DEMO Weird Fishes - credits: Michelle Barker</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+<p class="codepen" data-height="500" data-theme-id="44168" data-default-tab="result" data-slug-hash="XWxJNBd"
+    data-user="tim-momo"
+    style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XWxJNBd">
+            DEMO Weird Fishes - credits: Michelle Barker</a> by TIM Montmorency (<a
+            href="https://codepen.io/tim-momo">@tim-momo</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 Credits: Michelle Barker
 
@@ -55,18 +65,27 @@ Credits: Michelle Barker
 <h3>Pour ce faire, il est&nbsp;possible:</h3>
 <ul>
     <li>
-        De le <a href="https://greensock.com/docs/v3/Installation#download" target="_blank">télécharger sur le site de GreenSock</a>, 📥 l'inclure dans votre dossier de projet et ajouter à la fois le fichier <em>gsap-public/minified/gsap-core.min.js</em> si ce n'était pas déjà fait, ainsi que la le plugiciel scrollTrigger avec <em>gsap-public/minified/ScrollTrigger.min.js</em>.<br><small>Prioriser toujours les versions minifiées qui sont plus performantes lors du chargement de la page.</small>
+        De le <a href="https://greensock.com/docs/v3/Installation#download" target="_blank">télécharger sur le site de
+            GreenSock</a>, 📥 l'inclure dans votre dossier de projet et ajouter à la fois le fichier
+        <em>gsap-public/minified/gsap-core.min.js</em> si ce n'était pas déjà fait, ainsi que la le plugiciel
+        scrollTrigger avec <em>gsap-public/minified/ScrollTrigger.min.js</em>.<br><small>Prioriser toujours les versions
+            minifiées qui sont plus performantes lors du chargement de la page.</small>
     </li>
     <li>
-        D'utiliser un&nbsp;<a href="https://greensock.com/docs/v3/Installation?checked=core,scrollTrigger#CDN" target="_blank">Content Delivery Network (CDN)</a>, comme vous avez sans doute l'habitude de faire.
+        D'utiliser un&nbsp;<a href="https://greensock.com/docs/v3/Installation?checked=core,scrollTrigger#CDN"
+            target="_blank">Content Delivery Network (CDN)</a>, comme vous avez sans doute l'habitude de faire.
     </li>
     <li>De partir des&nbsp;<a href="https://codepen.io/GreenSock/full/23d3979528b262cb07da37f6a7c7dd76"
-            target="_blank">gabarits de base CodePen</a>. Vous devez copier le lien de GSAP Core et celui SrollTrigger et, sur votre
+            target="_blank">gabarits de base CodePen</a>. Vous devez copier le lien de GSAP Core et celui SrollTrigger
+        et, sur votre
         CodePen via <em>Settings/JS/Add External Scripts</em>, y coller successivement les liens.</li>
 </ul>
 
-<alert>Toujours porter attention à l'ordre des liens vers les fichiers JavaScript dans votre HTML. D'abord la librarie "core" de GSAP, ensuite le ou les plugiciel(s) GSAP, finalement le fichier JavaScript personnalisé de votre projet.</alert>
-<warning>Ne pas oublier, au niveau performance, il est préférable de lier les fichiers JavaScript à la fin de la page HTML juste avant la fermeture de <code>&lt;/body&gt;</code>. <br>Pensez "Optimisation Web" ! 📈 🎯 ⚡</warning>
+<alert>Toujours porter attention à l'ordre des liens vers les fichiers JavaScript dans votre HTML. D'abord la librarie
+    "core" de GSAP, ensuite le ou les plugiciel(s) GSAP, finalement le fichier JavaScript personnalisé de votre projet.
+</alert>
+<warning>Ne pas oublier, au niveau performance, il est préférable de lier les fichiers JavaScript à la fin de la page
+    HTML juste avant la fermeture de <code>&lt;/body&gt;</code>. <br>Pensez "Optimisation Web" ! 📈 🎯 ⚡</warning>
 
 
 <dots></dots>
@@ -77,17 +96,17 @@ Credits: Michelle Barker
 <p>Une fois chargée, il est conseillé d'indiquer à GSAP que ScrollTrigger est disponible en inscrivant la ligne de
     code&nbsp;suivante:</p>
 
-    <highlight lang='JavaScript'>gsap.registerPlugin(ScrollTrigger);</highlight>
+<highlight lang='JavaScript'>gsap.registerPlugin(ScrollTrigger);</highlight>
 
-    <warning>ScrollTrigger n’est compatible qu’avec GSAP 3.3.X et&nbsp;plus.</warning>
+<warning>ScrollTrigger n’est compatible qu’avec GSAP 3.3.X et&nbsp;plus.</warning>
 <alert>Il existe une autre librairie utilisant le nom <em>"ScrollTrigger"</em>. Si une animation ne se déclenche pas
-            au moment déterminé par ScrollTrigger, il est possible que la mauvaise librairie ait été&nbsp;chargée.</alert>
+    au moment déterminé par ScrollTrigger, il est possible que la mauvaise librairie ait été&nbsp;chargée.</alert>
 
 
-            <dots></dots>
+<dots></dots>
 
 
-            <grostitre>Utilisation de base</grostitre>
+<grostitre>Utilisation de base</grostitre>
 
 
 <p>Il est possible d'utiliser ScrollTrigger de façon très minimaliste. Pour ce faire, il suffit d'ajouter la
@@ -98,10 +117,12 @@ Credits: Michelle Barker
 <p>Heureusement, l'utilisation de ScrollTrigger permet de retarder le déclenchement de l'animation au moment où la
     partie supérieure du carré devient&nbsp;visible.</p>
 
-<p class="codepen" data-height="300" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="oNagLXq" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/oNagLXq">
-  GSAP -  Timeline - Defaults</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="oNagLXq"
+    data-user="tim-momo"
+    style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/oNagLXq">
+            GSAP - Timeline - Defaults</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
 
@@ -111,53 +132,47 @@ Credits: Michelle Barker
 
 <dots></dots>
 
-<grostitre>Utilisation d'un objet</grostitre>
+<grostitre>Utilisation d'un objet {}</grostitre>
 
 <p>Il est possible de raffiner le comportement d'une animation ScrollTrigger. Pour ce faire, il faut utiliser un objet
     JavaScript pouvant contenir plusieurs propriétés et valeurs plutôt qu'une valeur texte comme dans
     l'exemple&nbsp;précédent.</p>
 <p>Par exemple, convertissons la valeur textuelle de l'exemple en&nbsp;objet.</p>
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
 
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_2" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/14887b913cb08021f50ef8b52d36f8e8?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=14887b913cb08021f50ef8b52d36f8e8&amp;default-tab=js%2Cresult&amp;name=cp_embed_2"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_14887b913cb08021f50ef8b52d36f8e8"></iframe></div>
-    </div>
+<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="MWPYbxw"
+    data-user="tim-momo"
+    style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/MWPYbxw">
+            GSAP - ScrollTrigger Basic</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 
-</div>
+
 <p>On remarque que la propriété permettant de déclencher l'animation est maintenant spécifiée et
     s'appelle&nbsp;<code>trigger</code>.</p>
 
 
 
-    
-    <dots></dots>
 
-    <grostitre>Markers</grostitre>
+<dots></dots>
+
+<grostitre>Markers</grostitre>
 
 <p>La propriété&nbsp;<code>markers</code>&nbsp;permet de simplifier le débogage d'une animation en affichant les
     marqueurs utilisés pour contrôler l'animation. Par défaut, la valeur de cette propriété est
     à&nbsp;<code>false</code>.</p>
 <p>Pour l'activer, il faut lui donner la valeur&nbsp;<code>true</code>, comme dans l'exemple&nbsp;suivant:</p>
 
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
 
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_3" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/cb717536c9d9cadad16a0767f1fa6062?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=cb717536c9d9cadad16a0767f1fa6062&amp;default-tab=js%2Cresult&amp;name=cp_embed_3"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_cb717536c9d9cadad16a0767f1fa6062"></iframe></div>
-    </div>
+<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="XWxJNQj"
+    data-user="tim-momo"
+    style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XWxJNQj">
+            GSAP - ScrollTrigger Object</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
-
-</div>
 
 
 <p><code>scroller-start</code>&nbsp;et&nbsp;<code>scroller-end</code>&nbsp;sont des marqueurs positionnés en lien avec
@@ -198,28 +213,40 @@ Credits: Michelle Barker
 
 <h3 id="Start">Start</h3>
 
-<p>Par défaut la propriété&nbsp;<code>start</code>&nbsp;à la valeur&nbsp;<code>"top bottom"</code>, indiquant que le
-    marqueur&nbsp;<code>start</code>&nbsp;doit être positionné au sommet de l'élément&nbsp;<code>trigger</code>&nbsp;et
-    le marqueur&nbsp;<code>scroller-start</code>&nbsp;au bas de la&nbsp;fenêtre.</p>
-<p>Par exemple, pour déclencher l'animation non pas quand elle entre dans la fenêtre, mais bien lorsque le milieu de
-    l'élément atteint 75% de la page, il est possible de spécifier&nbsp;<code>"center 75%"</code>&nbsp;comme dans
-    l'exemple&nbsp;suivant:</p>
+<p>Par défaut la propriété&nbsp;<code>start</code>&nbsp;a la valeur&nbsp;<code>"top bottom"</code>, indiquant que:</p>
+<ol>
+    <li>top: le marqueur&nbsp;<code>start</code>&nbsp;est positionné au sommet (top) de l'<strong>élément
+            déclencheur (<code>trigger</code>)</strong></li>
+    <li>bottom: le marqueur&nbsp;<code>scroller-start</code>&nbsp;est positionné au bas (bottom) de la&nbsp;<strong>fenêtre du
+            navigateur</strong></li>
+</ol>
+<p>Donc la première valeur de ce duo (exemple <code>"top bottom"</code>) correspont à la postion du marqueur de l'élément déclencheur
+(<code>trigger</code>) et la deuxième valeur correspont à la position du marqueur de la fenêtre du navigateur.</p>
+
+    <dots></dots>
+<p>Autre exemple: à la place de déclencher l'animation quand elle entre dans la fenêtre, on pourrait la déclencher
+    lorsque le milieu de
+    l'élément déclencheur (<code>trigger</code>) atteint 75% de la page, en changeant la valeur de <code>start</code> pour <code>"center 75%"</code>. </p>
+
+<ol>
+    <li>center: le marqueur&nbsp;<code>start</code>&nbsp;est positionné au centre (center) de l'<strong>élément
+            déclencheur (<code>trigger</code>)</strong></li>
+    <li>75%: le marqueur&nbsp;<code>scroller-start</code>&nbsp;est positionné à 75% de la hauteur de la&nbsp;<strong>fenêtre du
+            navigateur</strong></li>
+</ol>
+
+<p> En voici l'exemple:</p>
 
 
 
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
+<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="BaqyQEM"
+    data-user="tim-momo"
+    style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/BaqyQEM">
+            GSAP - ScrollTrigger Markers</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_4" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/900df00be0fe11b27fee9ac057e112af?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=900df00be0fe11b27fee9ac057e112af&amp;default-tab=js%2Cresult&amp;name=cp_embed_4"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_900df00be0fe11b27fee9ac057e112af"></iframe></div>
-    </div>
-
-
-</div>
 
 <br>
 <doclink href='https://greensock.com/docs/v3/Plugins/ScrollTrigger/start'>start</doclink>
@@ -232,7 +259,7 @@ Credits: Michelle Barker
     marqueurs&nbsp;<code>end</code>&nbsp;et&nbsp;<code>scroller-end</code>.</p>
 
 
-    <doclink href='https://greensock.com/docs/v3/Plugins/ScrollTrigger/end'>end</doclink>
+<doclink href='https://greensock.com/docs/v3/Plugins/ScrollTrigger/end'>end</doclink>
 
 
 
@@ -287,7 +314,7 @@ Credits: Michelle Barker
         <code>reset</code>: ramène l'animation à son état de&nbsp;départ
     </li>
     <li>
-      <code>restart</code>: ramène l'animation à son état de départ et la&nbsp;déclenche
+        <code>restart</code>: ramène l'animation à son état de départ et la&nbsp;déclenche
     </li>
     <li>
         <code>complete</code>: amène l'animation à son état de fin
@@ -302,9 +329,9 @@ Credits: Michelle Barker
 
 
 
-
-
-<h4>Par défaut, toggleAction à une valeur de&nbsp;<code>"play none none none"</code>.</h4>
+<dots></dots>
+<h3>ToggleActions par défaut</h3>
+<p>Par défaut, toggleAction à une valeur de&nbsp;<code>"play none none none"</code>.</p>
 
 <p>Autrement dit:</p>
 <ol start="1">
@@ -312,59 +339,59 @@ Credits: Michelle Barker
         <code>onEnter</code> l'animation est déclenchée.
     </li>
     <li>
-       <code>onLeave</code> rien ne se&nbsp;produit
+        <code>onLeave</code> rien ne se&nbsp;produit
     </li>
     <li>
         <code>onEnterBack</code>&nbsp;rien ne se&nbsp;produit
     </li>
     <li>
-       <code>onLeaveBack</code>&nbsp;rien ne se&nbsp;produit
+        <code>onLeaveBack</code>&nbsp;rien ne se&nbsp;produit
     </li>
 </ol>
 
-<h4>Il est possible de modifier ces&nbsp;comportements.</h4>
+
+<dots></dots>
+<h3>Modifier les valeurs par défaut de ToggleActions</h3>
+<p>Il est possible de modifier ces&nbsp;comportements.</p>
 <p>Par exemple, pour qu'une&nbsp;animation:</p>
 <ul>
     <li>
-       se déclenche à chaque fois que le
-            marqueur&nbsp;<code>start</code>&nbsp;croise&nbsp;<code>scroller-start</code> ou
+        se déclenche à chaque fois que le
+        marqueur&nbsp;<code>start</code>&nbsp;croise&nbsp;<code>scroller-start</code>,
     </li>
     <li>
-        se complète lorsque le marqueur&nbsp;<code>end</code>&nbsp;croise&nbsp;<code>scroller-end</code> ou
+        se complète lorsque le marqueur&nbsp;<code>end</code>&nbsp;croise&nbsp;<code>scroller-end</code>,
     </li>
     <li>
-      joue à l'envers lorsque le
-            marqueur&nbsp;<code>end</code>&nbsp;croise&nbsp;<code>scroller-end</code>&nbsp;dans la
-            direction&nbsp;opposée ou
+        joue à l'envers lorsque le
+        marqueur&nbsp;<code>end</code>&nbsp;croise&nbsp;<code>scroller-end</code>&nbsp;dans la
+        direction&nbsp;opposée,
     </li>
     <li>
-       retourne à son état initial lorsque le
-            marqueur&nbsp;<code>start</code>&nbsp;croise&nbsp;<code>scroller-start</code>&nbsp;dans la
-            direction&nbsp;opposée, 
+        retourne à son état initial lorsque le
+        marqueur&nbsp;<code>start</code>&nbsp;croise&nbsp;<code>scroller-start</code>&nbsp;dans la
+        direction&nbsp;opposée,
     </li>
 </ul>
 
 
 
-<p>il est possible de spécifier&nbsp;<code>"restart complete reverse reset"</code>&nbsp;comme dans  l'exemple&nbsp;suivant:</p>
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
-
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_5" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/6bebadc0ffd3397edf286dd3a8b66251?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=6bebadc0ffd3397edf286dd3a8b66251&amp;default-tab=js%2Cresult&amp;name=cp_embed_5"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_6bebadc0ffd3397edf286dd3a8b66251"></iframe></div>
-    </div>
+<p>il faudra changer la valeur de <code>toggleActions</code> pour<br><code>"restart complete reverse reset"</code></p>
+<p>En voici l'exemple: </p>
 
 
-</div>
+
+<p class="codepen" data-height="600" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="rNqajBM" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/rNqajBM">
+  GSAP -  ScrollTrigger - Start</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 
 
 <dots></dots>
-<p>Pour bien visualiser et comprendre chaque moment et chaque action disponible, je vous suggère de regarder cette démo.</p>
+<p>Pour bien visualiser et comprendre chaque moment et chaque action disponible, je vous suggère de regarder cette démo.
+</p>
 
 
 <tool href="../tools/demo-toggleaction/"></tool>
@@ -381,20 +408,13 @@ Credits: Michelle Barker
 
 <p>Par exemple:</p>
 
-
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
-
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_6" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/99e31ae79aae73b9d180080ec0d1d1af?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=99e31ae79aae73b9d180080ec0d1d1af&amp;default-tab=js%2Cresult&amp;name=cp_embed_6"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_99e31ae79aae73b9d180080ec0d1d1af"></iframe></div>
-    </div>
+<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="WNabRbe" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/WNabRbe">
+  GSAP -  ScrollTrigger - Timeline</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 
-</div>
 
 
 <doclink href='https://greensock.com/docs/v3/Plugins/ScrollTrigger'>ScrollTrigger</doclink>
@@ -403,5 +423,3 @@ Credits: Michelle Barker
 <exercice href="../exercices/scrolltrigger-historique-zelda"></exercice>
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-
