@@ -167,3 +167,13 @@ a.doclink {
         background-color: #56cc00;
     }
 }
+
+.doclink.smnarnold {
+    .doclink-icon {
+        background-image: url('../images/smnarnold-icon.png');
+    }
+    &::before {
+        background-color: #7cfef0;
+    }
+}
+

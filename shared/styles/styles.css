@@ -832,6 +832,13 @@ a.doclink .doclink-icon {
   background-color: #56cc00;
 }
 
+.doclink.smnarnold .doclink-icon {
+  background-image: url("../images/smnarnold-icon.png");
+}
+.doclink.smnarnold::before {
+  background-color: #7cfef0;
+}
+
 a.exercice {
   display: block;
   background-image: linear-gradient(0deg, #87ceeb, 20%, #f0f8fc);
@@ -1523,18 +1530,19 @@ article {
 }
 
 footer {
-  margin-top: -4px;
+  margin-top: 100px;
   width: 100%;
-  /*border-top: 1px solid rgb(204, 207, 217);*/
+  border-top: 1px solid rgb(204, 207, 217);
   text-align: center;
   padding: 36px 0 30px;
 }
 footer #copyright {
-  font-size: 4vw;
+  font-size: 2vw;
+  line-height: 1.8;
 }
 @media (min-width: 576px) {
   footer #copyright {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 

@@ -390,6 +390,7 @@ app.component('doclink', {
                 case 'ogp.me': site = 'ogp'; break;
                 case 'developers.facebook.com': site = 'facebook'; break;
                 case 'greensock.com': site = 'greensock'; break;
+                case 'smnarnold.com': site = 'smnarnold'; break;
             }
         } catch(e) {
             if(this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';

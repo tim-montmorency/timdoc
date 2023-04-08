@@ -207,19 +207,20 @@ article {
 }
 
 footer {
-    margin-top: -4px;
+    margin-top: 100px;
     width: 100%;
     // background: rgb(225 228 242);
     //background-color: #e5ecf1;
-    /*border-top: 1px solid rgb(204, 207, 217);*/
+    border-top: 1px solid rgb(204, 207, 217);
     text-align: center;
     padding: 36px 0 30px;
 
     #copyright {
-        font-size: 4vw;
+        font-size: 2vw;
+        line-height: 1.8;
 
         @media (min-width: 576px)  {
-           font-size: 16px;
+           font-size: 12px;
         }
     }
 

@@ -8,8 +8,40 @@
  */
 ?>
 
+<grostitre>Introduction</grostitre>
 
 <p>ScrollTrigger est un plugiciel&nbsp;<em>(plugin)</em>&nbsp;développé par&nbsp;<a href="https://greensock.com/" target="_blank">GreenSock</a>&nbsp;permettant de déclencher ou synchroniser une animation avec le défilement de la&nbsp;page.</p>
+
+<h3>Exemples d'utilisation</h3>
+
+<p class="codepen" data-height="500" data-theme-id="44168" data-default-tab="result" data-slug-hash="abRzZvy" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/abRzZvy">
+  DEMO ScrollTrigger Downhill Ski</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+Credit: GSAP
+<dots></dots>
+
+
+<p class="codepen" data-height="500" data-theme-id="44168" data-default-tab="result" data-slug-hash="zYmxoJB" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/zYmxoJB">
+  DEMO Welcome to the jungle - ScrollTrigger credits: Louis Hoebregts Follow</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+Credits: Louis Hoebregts
+
+<dots></dots>
+
+<p class="codepen" data-height="500" data-theme-id="44168" data-default-tab="result" data-slug-hash="XWxJNBd" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XWxJNBd">
+  DEMO Weird Fishes - credits: Michelle Barker</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+Credits: Michelle Barker
+
+
+
+<dots></dots>
 
 <grostitre>Installation</grostitre>
 
@@ -65,19 +97,14 @@
     la page, il est possible que son animation se termine avant même que l'utilisateur puisse la&nbsp;voir.</p>
 <p>Heureusement, l'utilisation de ScrollTrigger permet de retarder le déclenchement de l'animation au moment où la
     partie supérieure du carré devient&nbsp;visible.</p>
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
 
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_1" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/b8afdb631c9f7c2f8a30c1a2b86eb013?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=b8afdb631c9f7c2f8a30c1a2b86eb013&amp;default-tab=js%2Cresult&amp;name=cp_embed_1"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_b8afdb631c9f7c2f8a30c1a2b86eb013"></iframe></div>
-    </div>
+<p class="codepen" data-height="300" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="oNagLXq" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/oNagLXq">
+  GSAP -  Timeline - Defaults</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 
-</div>
 
 
 
@@ -374,5 +401,7 @@
 
 <dots></dots>
 <exercice href="../exercices/scrolltrigger-historique-zelda"></exercice>
+
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 

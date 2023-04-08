@@ -1,6 +1,6 @@
 {
     "type": "exercice",
     "title": "GSAP ScrollTrigger - Historique Zelda",
-    "icon": "images\/thumb3.jpg",
+    "icon": "images\/thumb.jpg",
     "abstract": "Cr\u00e9er des animations synchronis\u00e9es avec le d\u00e9filement de la page"
 }
