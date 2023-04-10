@@ -248,7 +248,7 @@
     <h2>Révision pour l'examen</h2>
     <?php intlink("../css/exercices/les-simpsons/"); ?>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
-    <?php intlink("../css/exercices/eagles-of-death-metal-peace-love-death-metal/"); ?>
+    <?php intlink("../css/exercices/mr-oizo-all-wet/"); ?>
 </wiki-page>
 
 <wiki-page name="Cours 11B" date="2023-04-19">
