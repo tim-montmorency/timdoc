@@ -26,7 +26,7 @@
 <color>#ffd539</color>
 <color>#fdf2d8</color>
 <br>
-
+<color>#555555</color>
 <color>#000000</color>
 
 <thumbsup>Prenez le temps d'analyser le fichier HTML.</thumbsup>
@@ -40,7 +40,7 @@
 <checklist>
   Créez une variable pour chacune des couleurs pour utilisation ultérieure.
   Ajoutez deux autre variables, une pour la durée de la transition du sourire <em>(0.2s)</em> et une autre pour la durée de l'animation de langue <em>(2s)</em>.
-  La couleur de fond de la page doit être de couleur <em>grise</em> et avoir un dégradé vertical allant du <em>bleu</em> au <em>rose</em>.
+  La couleur de fond de la page doit être de couleur <em>grise</em> et avoir un dégradé vertical allant du <em>rouge</em> au <em>jaune</em>.
   Fusionnez les deux fonds en mode <span class="inline-code">screen</span> afin de donner au gradient un effet délavé.
   L'album doit avoir une dimension verticale et honrizontale de <em>80%</em> du plus petit côté de la fenêtre, être de couleur <em>jaune</em> ainsi qu'avoir un ombrage de <em>100px</em> égal de tous les côtés de couleur <em>noire</em> semi-transparente.
   Utilisez <span class="inline-code">transform</span> afin de positionner l'album au centre de la fenêtre.
@@ -50,7 +50,7 @@
 
 <checklist>
   Considérant qu'il s'agit d'une matrice de <em>8x8</em>, chaque carré correspond à 1/8 <em>(12.5%)</em> de la largeur. Avec cette information vous devriez être en mesure de disposer facilement des éléments constituants. Commencez par les yeux.
-  Utilisez les pseudo-classes afin de placer les éléments <em>beige</em> du museau par étage.
+  Utilisez les pseudo-classes afin de placer par étage les éléments <em>beige</em> du museau.
   Vous pouvez maintenant disponser du nez et de la bouche.
   Pour la langue, utilisez l'élément <span class="inline-code">.tongue-wrapper</span> afin de positionner la langue et lui donner sa dimension. L'élément <span class="inline-code">.tongue</span> doit prendre toute l'espace disponible et être de couleur <em>rouge</em>.
 </checklist>
