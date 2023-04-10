@@ -23,6 +23,13 @@
 
 <warning>IMPORTANT Cohérence graphique entre tous les éléments, dans les couleurs et dans le style.</warning>
  
+
+
+
+
+
+
+<dots></dots>
  <grostitre>Minimum requis</grostitre>
 
  <a href="" target="_blank" onclick="event.stopPropagation()"></a>
@@ -40,12 +47,20 @@ Une illustration linéaire (line art ou autre) pour réaliser l’nimation suiva
 Deux éléments distincts animés via After Effects que vous allez exporter en 2 sprite sheets distinctes.<br>• Par exemple l’homme qui fait un cycle de marche ici :  <a href="https://www.cabletv.com/the-walking-dead" target="_blank" onclick="event.stopPropagation()">Walking Dead (scrollytelling)</a>.<br>• Attention, pas nécessaire d’être un bonhomme qui marche, ce peut-être une pyramide qui tourne sur elle-même, un poisson volant qui bat des ailes, une note de musique qui grelotte, une fleur qui fond comme un glaçon et qui ensuite se reforme. Rappelez-vous, c’est un rêve ! <br>• Le seul requis important, c’est que votre animation doit boucler de façon limpide à l’infini, donc le dernier frame doit être équivalent au premier frame. <br>• Pour l’exportation en sprite sheet <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERJU5ImpU8pNgJOonirT4wsBOwJ6FZdWcANCn1VS-0tQ2Q?e=NSkiVz" target="_blank" rel="noopener noreferrer"  onclick="event.stopPropagation()">voici la capsule vidéo que je vous ai prépatée</a>.
 Vous pouvez en ajouter d’avantage mais cette liste regroupe les requis minimums.
  </checklist>
- <grostitre>Préparation des svg</grostitre>
- <p><a href="https://tim-montmorency.com/timdoc/582-215MO/html/svg/#exportation-illustrator">Préparation et exportation Illustrator et optimisation du svg</a></p>
+<dots></dots>
 
-<grostitre>After Effects vers Sprite sheet</grostitre>
 
+<grostitre>Notes de cours 📚 et outils 🛠️</grostitre>
+<h3>Illustrator + exporter en SVG</h3>
+<p><a href="../../../582-215MO/html/svg/#exportation-illustrator" target="_blank" rel="noopener noreferrer">Exportation SVG à partir d'Illustrator et optimisation SVGOMG</a></p>
++
+
+<tool href="../tools/svg-bear/"></tool>
+<dots></dots>
+<h3>Capsule vidéo After Effects vers Sprite sheet</h3>
 <p><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERJU5ImpU8pNgJOonirT4wsBOwJ6FZdWcANCn1VS-0tQ2Q?e=NSkiVz" target="_blank" rel="noopener noreferrer">Animation d'une animation After Effects vers une sprite sheet</a> </p>
++
+<tool href="../tools/sprite-sheet-packer/"></tool>
 
 
 
