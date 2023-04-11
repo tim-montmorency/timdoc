@@ -3,7 +3,7 @@
  * @type     article
  * @title    6-ScrollTrigger
  * @icon     images/icon.svg
- * @abstract Déclencher ou synchroniser une animation avec le défilement de la page.
+ * @abstract Synchroniser une animation le scroll : intro, markers, start, end, toggleActions
  * @index    800
  */
 ?>
