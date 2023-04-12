@@ -23,6 +23,15 @@
      par vous-même pour atteindre toutes les compétences du cours.</p>
 
  <dots></dots>
+
+
+
+<grostitre>Aperçu du résultat 👇</grostitre>
+<clipasset src="videos/demo_p2-2a.mp4"></clipasset>
+<p><small>Cette démo démontre un exemple d'un écran d'intro et 2 chapitres, vous devrez de votre côté en avoir 6 à 8 en plus de l'écran d'intro. Le tout doit être responsive. Pour le momoment, ignorez l'animation du bonhomme dans le 1er chapitre de cette démo: vous n'avez pas à déplacer ou animer votre "sprite sheet" dans le fichier index.html, vous pouvez animer la "sprite sheet" dans un fichier HTML séparé (bref suivre les instructions ci-bas).</small></p>
+
+<dots></dots>
+ 
  <grostitre>Scaffolding du projet</grostitre>
 
 
