@@ -8,18 +8,28 @@
  */
 ?>
 
-
-<p>Bootstrap est le cadriciel&nbsp;<em>(framework)</em>&nbsp;de mise en page le plus populaire au monde. Il permet de
+<grostitre>Intro</grostitre>
+<p>Bootstrap est le cadriciel d'interface <em>(UI framework)</em> le plus populaire au monde. Il permet de
     simplifier et d'accélérer la réalisation de sites web&nbsp;responsives.</p>
 
 <dots></dots>
+<h3>Qu’est-ce qu’un cadriciel ?</h3>
+
+ 
+<p>Un cadriciel est un ensemble cohérent de composantes logicielles. Celui-ci permet d’abstraire le niveau le plus technique du codage et d’ainsi multiplier la productivité des développeurs Web.</p>
+
+
+ <p>Il existe en fait deux types de cadriciel : les cadriciels back-end et les cadriciels d’interface.</p>
+
+
+
 
 <grostitre>Histoire</grostitre>
 
 <p>Ce projet doit son origine à&nbsp;<a href="https://twitter.com/">Twitter 🐦</a>&nbsp;qui, dans le but de simplifier
     la réalisation et l'évolution de ses différents sites, a décidé de créer une base commune de mise en page entre
-    celles-ci. Le résultat fut Bootstrap qui fut partagé gratuitement avec le reste de la communauté web et qui
-    rencontra immédiatement un immense&nbsp;succès!</p>
+    celles-ci. Mark Otto, un des deux architectes de ce cadriciel, dit qu’il a transformé Bootstrap en projet à code ouvert pour « help awesome people make awesome shit ». Le résultat fut donc partagé gratuitement avec le reste de la communauté web et rencontra immédiatement un immense&nbsp;succès!</p>
+
 <p>Si vous faites des recherches sur le web, vous trouverez plusieurs informations à propos de Bootstrap. Cependant,
     faites attention de bien valider la version dont l'article traite. Au moment d'écrire ces lignes, la version 5 est
     la plus récente et est celle qui sera enseignée en classe.</p>

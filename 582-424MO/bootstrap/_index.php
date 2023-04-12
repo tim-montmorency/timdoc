@@ -3,7 +3,7 @@
  * @type     list
  * @title    Bootstrap
  * @icon     images/icon.png
- * @abstract Bootstrap
+ * @abstract Un cadriel d'interface pour multiplier la productivité des développeurs Web
  * * @index    70
  */
 
