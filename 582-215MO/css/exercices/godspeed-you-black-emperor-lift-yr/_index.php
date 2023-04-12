@@ -67,7 +67,7 @@
 
 <checklist>
   La main gauche doit utiliser <span class="inline-code">hand-left.webp</span> comme arrière-plan et prendre tout l'espace disponible sans être rognée.
-  Elle doit avoir une dimension correspondant à <em>20%</em> de la largeur et <em>32%</em> de la hauteur de l'album ainsi qu'être située à <em>40%</em> du haut et <em>16%</em> de la gauche.
+  Elle doit avoir une dimension correspondant à <em>28%</em> de la largeur et <em>32%</em> de la hauteur de l'album ainsi qu'être située à <em>40%</em> du haut et <em>16%</em> de la gauche.
   La main droite doit utiliser <span class="inline-code">hand-right.webp</span> comme arrière-plan et prendre tout l'espace disponible sans être rognée.
   Elle doit avoir une dimension correspondant à <em>27%</em> de la largeur et <em>45%</em> de la hauteur de l'album ainsi qu'être située à <em>40%</em> du haut et <em>16%</em> de la droite.
   Lorsque l'on survole une des mains, sa dimension doit augmenter afin d'atteindre <em>120%</em> de sa grosseur initiale.
