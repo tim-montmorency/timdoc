@@ -8,7 +8,7 @@
 ?>
 
 
- <grostitre>Rappel de l'introduciton à l'animation d'une Sprite Sheet</grostitre>
+ <grostitre>Rappel de l'introduction à l'animation d'une Sprite Sheet</grostitre>
 
  <?php intlink("../../../582-215MO/css/animation-sprite-sheet/") ?>
 
@@ -16,7 +16,7 @@
 
  <grostitre>Animation d'une Sprite Sheet adaptée à la largeur de l'écran (responsive)</grostitre>
 
- <p>Lorsqu'on travaille avec une <em>Sprite Sheet</em>, il faut d'abord créer un élément HTML dont la dimension correspond à celle d’une seule image-clé. Dans cet exemple, 700px par 700px. Et y ajouter notre sprite sheet en background-image.</p>
+ <p>Lorsqu'on travaille avec une <em>Sprite Sheet</em>, il faut d'abord créer un élément HTML dont la dimension correspond à celle d’une seule image-clé. Dans cet exemple, 700px par 700px. Et y ajouter notre sprite sheet en <code>background-image</code>.</p>
 
  <p class="codepen" data-height="780" data-theme-id="44431" data-default-tab="result" data-slug-hash="WNaQRWN" data-user="tim-momo" style="height: 780px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/WNaQRWN">
