@@ -18,7 +18,7 @@
         <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
         <script src="../../../shared/jscripts/vue.global.prod.js"></script>
         <script>const shared = '../../../shared/';</script>
-        <title>P2.2a Animation chapitre x</title>
+        <title>P2.2a Scaffoling et animation sprite sheet</title>
     </head>
     <body>
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
@@ -35,7 +35,7 @@
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
                 <div id="breadcrumb"><a href="../../">Optimisation Web</a> > <a href="../">Projet: Scrollytelling</a> ></div>
-                <h1 id="title"><img src="images/icon.svg">&nbsp;P2.2a Animation chapitre x</h1>
+                <h1 id="title"><img src="images/icon.svg">&nbsp;P2.2a Scaffoling et animation sprite sheet</h1>
             </div>
             <article>
                 <div id="contents">
@@ -168,7 +168,7 @@ La balise <code>header</code> doit contenir une image d’arrière-plan de votre
 
 
      <checklist>Créez l'élément qui doit contenir l'icône de l'appel-à-l'action.
-     Animez cette icône en boucle afin d’attirer l’attention sur celle-ci. Vous devez utiliser GSAP pour réaliser cette animation. 
+     Animez cette icône en boucle afin d’attirer l’attention sur celle-ci. Vous devez utiliser GSAP pour réaliser cette animation. Inscrivez le code de l'animation GSAP dans votre fichier script.js
      Positionnez l'appel-à-l'action dans le bas du <code>header</code> centré horizontalement OU à droite du <code>header</code> centré verticalement.
      </checklist>
 
@@ -186,66 +186,45 @@ La balise <code>header</code> doit contenir une image d’arrière-plan de votre
 <dots></dots>
 
 
-<grostitre>Page distince pour tester l'animaiton de "Sprite Sheet"</grostitre>
+<grostitre>Page distince pour tester l'animation de "Sprite Sheet"</grostitre>
 
 
- <p>Créez une page HTML distincte pour tester vos sprite
-     sheet. Commencez par une seule <em>Sprite Sheet</em>.</p>
+ <p>Créez une page HTML distincte pour tester vos <em>Sprite Sheets</em>. Commencez par une seule <em>Sprite Sheet</em>.</p>
 
 
-
- <h3>Requis HTML</h3>
-
- <p>Ajoutez les balises de base du HTML.</p>
-
- <p>Liez votre CSS et votre fichier script.js à
-     cette page.</p>
+ <h3>Requis HTML pour animation Sprite Sheet</h3>
+<checklist>Ajoutez les balises de base du HTML.
+Liez à cette page HTML votre fichier CSS  et votre fichier script.js existants.
+Créez un élément HTML (div) qui contiendra <em>Sprite Sheet</em> en image d'arrière-plan.
+</checklist>
 
 
 
- <h3>Requis CSS</h3>
+<h3>Requis CSS pour animation Sprite Sheet</h3>
+<p>Important, ne PAS créer un fichier CSS distinct, travaillez dans le fichier CSS que vous avez déjà créé.</p>
 
- <p>Appliquez une hauteur considérable au <code>&lt;body&gt;</code> ou autre
-     balise dans votre <code>&lt;body&gt;</code> afin que votre page
-     soit <em>scrollable</em> et que vous puissiez tester le défilement de la page et l'animation qui s'active.</p>
-
- <p>Dans votre fichier CSS,
-     créez une animation avec votre <em>Sprite Sheet</em> tel que
-     vous l’avez appris. </p>
-
- <p>Lorsque vous êtes satisfait de l’animation,
-     ajoutez une <code><a
-href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state">animation-play-state</a></code>
-     afin que l’animation ne s’active pas par défaut.</p>
-
- <h3>Requis JavaScript</h3>
-
- <p>Ajoutez un écouteur d’événement <code>scroll</code> sur la
-     fenêtre (<code>window</code>). </p>
-
- <h4>Sur cet événement</h4>
-
- <p>- ajoutez à la balise <code>&lt;body&gt;</code> la classe <code>.is-scrolling</code></p>
-
- <p>- créez une variable et storez-y un minuteur ayant un délai de 100ms</p>
-
- <p>- lorsque ce délai est atteint,
-     on enlève la classe <code>.is-scrolling</code> de la balise <code>&lt;body&gt;</code></p>
-
- <p>- avant de déclarer ce minuteur, vous annuler ce minuteur afin de le réinitialiser tant que
-     l’utilisateur défile la page.</p>
-
- <h3>De retour dans le CSS</h3>
-
- <p>De retour dans le CSS, vous devez changer l’état
-     l’animation de la <em>Sprite Sheet</em> à la valeur «&nbsp;running&nbsp;» seulement lors
-     que la balise <code>&lt;body&gt;</code> contient la classe <code>.is-scrolling</code>.</p>
-     <p>Assurez-vous que votre élément animé via la technique <em>Sprite Sheet</em> soit <em>responsive</em>, donc adaptable à la largeur de l'écran</p>
+<checklist>Appliquez une hauteur considérable au <code>body</code> ou autre balise dans votre <code>body</code> afin que votre page soit <em>scrollable</em> et que vous puissiez tester le défilement de la page et l'animation qui s'active.
+Ajoutez la spritesheet en image d'arrière-plan sur l'élément HTML (div) que vous avez précédemment créé afin qu'on puisse n'y voir que la première image-clé.
+Animez la <em>Sprite Sheet</em> et assurez vous qu'elle boucle à l'infini.
+Lorsque vous êtes satisfait de l’animation, changez l’état de l’animation de la <em>Sprite Sheet</em> (<a
+href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state" target="_blank" onclick="event.stopPropagation()">animation-play-state</a>) afin que l’animation ne s’active pas par défaut.</checklist>
 
 
- <p>Lorsque tout fonctionne comme vous le souhaitez, faites le
-     même exercice pour votre 2<sup>e</sup> sprite sheet (soit dans la même page
-     HTML ou dans 2<sup>e</sup> fichier séparé, à votre guise).</p>
+ <h3>Requis JavaScript pour animation Sprite Sheet</h3>
+<checklist>Ajoutez un écouteur d’événement <code>scroll</code> sur la fenêtre (<code>window</code>).</checklist>
+ <h4>Sur cet événement: </h4>
+ <checklist>ajoutez à la balise <code>body</code> la classe <code>.is-scrolling</code>,
+ créez une variable et storez-y un minuteur ayant un délai de 100ms,
+ lorsque ce délai est atteint, on enlève la classe <code>.is-scrolling</code> de la balise <code>body</code>,
+ avant de déclarer ce minuteur, vous devez annuler ce minuteur afin de le réinitialiser tant que l’utilisateur défile la page.
+</checklist>
+
+ <h3>De retour dans le CSS pour animation Sprite Sheet</h3>
+<checklist>Utilisez les <a href="../../../582-215MO/css/selecteurs/#descendants" target="_blank" onclick="event.stopPropagation()">sélecteurs CSS de descendance</a> afin que l'état de l’animation de la <em>Sprite Sheet</em>  (<a
+href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state" target="_blank" onclick="event.stopPropagation()">animation-play-state</a>) doive contenir la valeur <code>running</code> seulement lors que la balise <code>body</code> contient la classe <code>.is-scrolling</code>.
+Assurez-vous que votre élément animé via la technique <em>Sprite Sheet</em> soit <em>responsive</em>, donc adaptable à la largeur de l'écran.
+Lorsque tout fonctionne comme vous le souhaitez, faites le même exercice pour votre 2<sup>e</sup> sprite sheet (soit dans la même page HTML ou dans 2<sup>e</sup> fichier séparé, à votre guise).</checklist>
+
 
  <dots></dots>
 
