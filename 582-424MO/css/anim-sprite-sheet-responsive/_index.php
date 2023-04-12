@@ -8,13 +8,13 @@
 ?>
 
 
- <grostitre>Rappel de l'introduciton à l'animation d'une <em>Sprite Sheet</em></grostitre>
+ <grostitre>Rappel de l'introduciton à l'animation d'une Sprite Sheet</grostitre>
 
  <?php intlink("../../../582-215MO/css/animation-sprite-sheet/") ?>
 
  <dots></dots>
 
- <grostitre>Animation d'une <em>Sprite Sheet</em> adaptée à la largeur de l'écran (responsive)</grostitre>
+ <grostitre>Animation d'une Sprite Sheet adaptée à la largeur de l'écran (responsive)</grostitre>
 
  <p>Lorsqu'on travaille avec une <em>Sprite Sheet</em>, il faut d'abord créer un élément HTML dont la dimension correspond à celle d’une seule image-clé. Dans cet exemple, 700px par 700px. Et y ajouter notre sprite sheet en background-image.</p>
 
@@ -38,7 +38,10 @@
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-<p>On remarque que l'image déborde de son cadre. Il faudra alors changer le <code>background-size</code></p>
+<p>On remarque que l'image déborde de son cadre. Il faudra alors changer le <code>background-size</code> et ajuster le déplacement du <code>background-position</code> de fin pour être en accord avec la largeur de l'élément.</p>
+<dots></dots>
+<p>En vous basant sur cette information, je vous laisse essayer de comprendre comment on peut faire une "sprite sheet" réactive avec cet exercice exploratoire:</p>
+<exercice href='../exercices/sprite-sheet-responsive/'></exercice>
 
 
 
