@@ -37,8 +37,19 @@
   Sprite Sheet demo - largeur responsive 50vw</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+<dots></dots>
 
-<p>On remarque que l'image déborde de son cadre. Il faudra alors changer le <code>background-size</code> et ajuster le déplacement du <code>background-position</code> de fin pour être en accord avec la largeur de l'élément.</p>
+<p>On remarque que l'image déborde de son cadre.</p>
+<ul>
+  <li>Il faudra alors changer le <code>background-size</code>afin d'ajuste la première image-clé dans son conteneur, peu importe sa dimension. Vous pouvez désactiver l'animation le temps de tester celà.</li>
+  <li>Puis, dans l'animaiton même, vous devrez ajuster le déplacement de la valeur du <code>background-position</code> pour être en accord avec la largeur de l'élément, peu importe sa dimension."</li>
+  <li>Allez-y en toute logique, sachant qu'il y a un nombre défini d'images-clés.</li>
+</ul>
+
+
+
+
+
 <dots></dots>
 <p>En vous basant sur cette information, je vous laisse essayer de comprendre comment on peut faire une "sprite sheet" réactive avec cet exercice exploratoire:</p>
 <exercice href='../exercices/sprite-sheet-responsive/'></exercice>
