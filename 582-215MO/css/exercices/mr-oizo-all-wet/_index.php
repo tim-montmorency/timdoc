@@ -92,6 +92,7 @@
 <?php intlink("../../unites-de-mesure-avancees/"); ?>
 <?php intlink("../../transformation/"); ?>
 <?php intlink("../../transition/"); ?>
+<?php intlink("../../animation/"); ?>
 <?php intlink("../../pseudo-classes-avancees/#has"); ?>
 
 <dots></dots>

@@ -242,20 +242,24 @@
 
 
 <wiki-page name="Cours 11A" date="2023-04-18">
-    <?php intlink("../css/pseudo-classes-avancees/#has"); ?>
     <?php intlink("../css/snap-scroll/"); ?>
     <?php intlink("../css/snap-scroll/exercices/whatisadam/"); ?>
-    <h2>Révision pour l'examen</h2>
-    <?php intlink("../css/exercices/les-simpsons/"); ?>
+    <?php intlink("../css/masquage/"); ?>
+    <?php intlink("../css/masquage/exercices/barbie-selfie/"); ?>
+    <?php intlink("../css/pseudo-classes-avancees/#has"); ?>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
     <?php intlink("../css/exercices/mr-oizo-all-wet/"); ?>
+    <h2>Révision pour l'examen</h2>
+    <?php intlink("../css/exercices/les-simpsons/"); ?>
+
 </wiki-page>
+
 
 <wiki-page name="Cours 11B" date="2023-04-19">
     <h3>Examen: Birds of Prey</h3>
-    <img style="margin-left: 0;" src="images/birds-of-prey.webp">
+    <video playsinline src="./videos/birds-of-prey.mp4" autoplay="true" muted="true" loop="true" style="width: 100%; max-width: 770px;"></video>
     <h2>Devoir Woke: Vidéo Accessibilité 101</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/SOt4nkPib8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <youtube src="./videos/acessibility-101.json"></youtube>
 </wiki-page>
 
 
@@ -264,7 +268,7 @@
     <?php intlink("../html/formulaire/"); ?>
     <?php intlink("../html/formulaire/exercices/carte-de-credit/"); ?>
     <h2>Devoir Woke: Vidéo Accessibilité 201</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/5Td0U8BbgyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <youtube src="./videos/acessibility-201.json"></youtube>
 </wiki-page>
 
 
