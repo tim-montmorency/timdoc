@@ -4,11 +4,11 @@
  * @type     exercice
  * @title    GSAP ScrollTrigger - Gotham
  * @icon     images/thumb.png
- * @abstract Pour cet exercice, nous allons créer une synchroniser le générique de l’émission Gotham avec le défilement de la page.
+ * @abstract Pour cet exercice, nous allons synchroniser le générique de l’émission Gotham avec le défilement de la page.
  */
 ?>
 
-<p>Pour cet exercice, nous allons créer une synchroniser le <a href="https://www.youtube.com/watch?v=dLSrF3KHLYY">générique de l’émission Gotham</a> avec le défilement de la&nbsp;page.</p>
+<p>Pour cet exercice, nous allons synchroniser le <a href="https://www.youtube.com/watch?v=dLSrF3KHLYY">générique de l’émission Gotham</a> avec le défilement de la&nbsp;page.</p>
    
 <p>Aperçu du résultat 👇</p>
 <clipasset src='images/'></clipasset>
