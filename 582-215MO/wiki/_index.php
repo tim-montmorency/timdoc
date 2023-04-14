@@ -242,13 +242,19 @@
 
 
 <wiki-page name="Cours 11A" date="2023-04-18">
-    <?php intlink("../css/pseudo-classes-avancees/#has"); ?>
     <?php intlink("../css/snap-scroll/"); ?>
     <?php intlink("../css/snap-scroll/exercices/whatisadam/"); ?>
-    <h2>Révision pour l'examen</h2>
-    <?php intlink("../css/exercices/les-simpsons/"); ?>
+
+    <?php intlink("../css/masquage/"); ?>
+    <?php intlink("../css/masquage/exercices/barbie-selfie/"); ?>
+
+    
+    <?php intlink("../css/pseudo-classes-avancees/#has"); ?>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
     <?php intlink("../css/exercices/mr-oizo-all-wet/"); ?>
+    <h2>Révision pour l'examen</h2>
+    <?php intlink("../css/exercices/les-simpsons/"); ?>
+
 </wiki-page>
 
 <wiki-page name="Cours 11B" date="2023-04-19">

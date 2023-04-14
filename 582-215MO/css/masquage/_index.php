@@ -44,3 +44,7 @@
 <doclink href="https://css-tricks.com/almanac/properties/m/mask-image/">mask-image</doclink>
 
 <dots></dots>
+
+<exercice href="./exercices/barbie-selfie/"></exercice>
+
+<dots></dots>
