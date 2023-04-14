@@ -1354,6 +1354,7 @@ div.quote__title {
 .youtube-wrapper {
   position: relative;
   width: 100%;
+  max-width: 770px;
   background-size: cover;
   background-position: center center;
 }
@@ -1378,7 +1379,9 @@ div.quote__title {
 .youtube-wrapper__player {
   width: 100%;
   height: 100%;
-} /* light color palette: https://coolors.co/577590-f3ca40-ff003a-e1e4f2-f2a541 */
+}
+
+/* light color palette: https://coolors.co/577590-f3ca40-ff003a-e1e4f2-f2a541 */
 * {
   margin: 0;
   padding: 0;
