@@ -18,7 +18,7 @@
 
 <p>La propriété&nbsp;<code>scrub</code>&nbsp;permet de synchroniser la progression d'une animation avec le défilement de
     la page&nbsp;<em>(scroll)</em>. Ainsi, l'animation débutera lorsque le
-    marqueur&nbsp;<u>start</u>&nbsp;croisera&nbsp;<u>scroller-start</u>&nbsp;et progressera proportionellement jusqu'à
+    marqueur&nbsp;<u>start</u>&nbsp;croisera&nbsp;<u>scroller-start</u>&nbsp;et <strong>progressera proportionellement</strong> jusqu'à
     ce que le marqueur&nbsp;<u>end</u>&nbsp;croise&nbsp;<u>scroller-end</u>.</p>
 <p>Par défaut, la valeur de cette propriété est à&nbsp;<code>false</code>. Pour l'activer, il faut lui donner la
     valeur&nbsp;<code>true</code>, comme dans l'exemple&nbsp;suivant:</p>
