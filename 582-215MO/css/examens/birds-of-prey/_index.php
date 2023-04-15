@@ -30,7 +30,7 @@
 
 <br>
 
-<info>Pour une meilleure exécution de l'examen, la plupart des éléments HTML ont été cachés par défaut dans le fichier CSS. Rendez-les visible au fur et à mesure que vous avancez dans l'examen.</info>
+<warning>Pour une meilleure exécution de l'examen, la plupart des éléments HTML ont été cachés par défaut dans le fichier CSS. Rendez-les visible au fur et à mesure que vous avancez dans l'examen.</warning>
 <thumbsup>Prenez le temps de bien analyser le fichier HTML.</thumbsup>
 
 <dots></dots>
