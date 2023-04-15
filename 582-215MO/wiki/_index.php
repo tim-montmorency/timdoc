@@ -241,7 +241,7 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 11A" date="2023-04-18">
+<wiki-page name="Cours 11A" date="2023-04-15">
     <?php intlink("../css/snap-scroll/"); ?>
     <?php intlink("../css/snap-scroll/exercices/whatisadam/"); ?>
     <?php intlink("../css/masquage/"); ?>
