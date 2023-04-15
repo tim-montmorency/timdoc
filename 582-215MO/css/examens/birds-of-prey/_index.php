@@ -72,7 +72,7 @@
   Toujours dans la balise <span class="inline-code">picture</span>, faites-en sorte que la source de l'image change pour le petit logo lorsque la largeur devient plus petite ou égale à <em>600px</em>.
 </checklist>
 
-<grostitre>Harley Quinn</grostitre>
+<grostitre>Requis Harley Quinn</grostitre>
 
 <checklist>
   Harley Quinn (<span class="inline-code">.harley</span>) doit être positionnée de manière absolue dans le bas de l'affiche à <em>-10%</em> de la droite et mesurer <em>110%</em> en hauteur de sorte qu'elle dépasse en haut et à droite.
