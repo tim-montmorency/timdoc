@@ -78,6 +78,14 @@
   Assurez-vous que les éléments reprennent leur état normal en <em>1 seconde</em> lorsque le survol est terminé.
 </checklist>
 
+<grostitre>Remise</grostitre>
+
+<checklist>
+  Renommez votre dossier <em>"eagles_[nom]_[prenom]"</em>.
+  Zippez votre dossier <em>"eagles_[nom]_[prenom]"</em>.
+  Joignez votre fichier <em>.zip</em> au devoir <em>"TP09: Eagles of Death Metal"</em>.
+</checklist>
+
 <dots></dots>
 
 

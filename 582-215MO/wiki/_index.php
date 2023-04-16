@@ -251,7 +251,6 @@
     <?php intlink("../css/exercices/mr-oizo-all-wet/"); ?>
     <h2>Révision pour l'examen</h2>
     <?php intlink("../css/exercices/les-simpsons/"); ?>
-
 </wiki-page>
 
 
@@ -264,9 +263,10 @@
 
 
 <wiki-page name="Cours 12A" date="2023-04-25">
-    <h3>Correction: Birds of Prey</h3>
     <?php intlink("../html/formulaire/"); ?>
     <?php intlink("../html/formulaire/exercices/carte-de-credit/"); ?>
+    <h2>TP09 <em>(5%)</em></h2>
+    <?php intlink("../css/exercices/eagles-of-death-metal-peace-love-death-metal/"); ?>
     <h2>Devoir Woke: Vidéo Accessibilité 201</h2>
     <youtube src="./videos/acessibility-201.json"></youtube>
 </wiki-page>
@@ -277,6 +277,8 @@
     <?php intlink("../html/formulaire-intermediaire/exercices/menu-hamburger/"); ?>
     <?php intlink("../html/formulaire-intermediaire/exercices/dragonball/"); ?>
     <?php intlink("../html/formulaire-intermediaire/exercices/twitter/"); ?>
+    <h2>TP Complémentaire <em>(formatif)</em></h2>
+    <?php intlink("../css/exercices/underworld-everything-everything/"); ?>
     <h2>Jeux uniquement en CSS</h2>
     <doclink href="https://codepen.io/takaneichinose/pen/YzqreVp">Room Escape</doclink>
     <doclink href="https://codepen.io/jcoulterdesign/pen/NOMeEb">The Mine</doclink>
@@ -301,11 +303,12 @@
     <?php intlink("../html/iframe/exercices/turbo-kid/"); ?>
     <?php intlink("../html/details-et-summary/"); ?>
     <?php intlink("../html/details-et-summary/exercices/quiz-marc-labreche/"); ?>
+    <h2>TP Complémentaire <em>(formatif)</em></h2>
+    <?php intlink("../css/exercices/lost-highway/"); ?>
 </wiki-page>
 
 
 <wiki-page name="Cours 14A" date="2023-05-09">
-    <h3>Correction: Death From Above 1979</h3>
     <?php intlink("../css/animation-sprite-sheet/"); ?>
     <?php intlink("../css/animation-sprite-sheet/exercices/sonic-knuckles/"); ?>
     <?php intlink("../css/animation-sprite-sheet/exercices/skate/"); ?>
@@ -321,18 +324,20 @@
     <?php intlink("../html/open-graph-protocol/"); ?>
     <?php intlink("../html/microdonnees/"); ?>
     <?php intlink("../html/microdonnees/exercices/cf-montreal/"); ?>
+    <h2>TP Complémentaire <em>(formatif)</em></h2>
+    <?php intlink("../css/exercices/nirvana-nevermind/"); ?>
 </wiki-page>
 
 
 <wiki-page name="Cours 15A" date="2023-05-16">
-    <h3>Correction: Tool - Ænema</h3>
-    <h2>Révision: Affiche South Park</h2>
+    <h2>TP Complémentaire <em>(formatif)</em></h2>
+    <?php intlink("../css/exercices/trainspotting/"); ?>
+    <h2>Révision pour l'examens</h2>
     <?php intlink("../css/exercices/south-park/"); ?>
 </wiki-page>
 
 
 <wiki-page name="Cours 15B" date="2023-05-17">
-    <h3>Examen final: Paysage géométrique</h3>
-    
-
+    <h3>Examen final: Loup de nuit</h3>
+    <video playsinline src="./videos/loup-de-nuit.mp4" autoplay="true" muted="true" loop="true" style="width: 100%; max-width: 770px;"></video>
 </wiki-page>
