@@ -105,7 +105,7 @@
   Afin de pouvoir créer l'animation du carousel, vous devez mettre en commentaire la propriété temporaire <span class="inline-code">left</span> des conteneurs de personnages (<span class="inline-code">.cast-wrapper</span>).
   Créez une animation nommée <em>carousel</em> créant une translation horizontale partant de <em>80vmin</em> pour aller à <em>-100%</em> et appliquez la aux conteurs de personnage (<span class="inline-code">.cast-wrapper</span>).
   L'animation doit s'exécuter de façon linéaire et infinie et avoir une durée correspondant à la variable <span class="inline-code">--carousel-duration</span>.
-  Pour décaler les personnages dans le carousel, appliquez lui un délai négatif correspondant à la variable <span class="inline-code">--carousel-duration</span> divisé par <em>4</em> multip... Ha pis voilà la formule: <span class="inline-code">calc(0s - (var(--carousel-duration) / 4 * (3 - var(--nb))))</span>.
+  Pour décaler les personnages dans le carousel, appliquez leurs un délai négatif correspondant à la variable <span class="inline-code">--carousel-duration</span> divisé par <em>4</em> multip... Ha pis voilà la formule: <span class="inline-code">calc(0s - (var(--carousel-duration) / 4 * (3 - var(--nb))))</span>.
   À l'aide de la pseudo-classe <span class="inline-code">:has()</span>, lors du survol des éléments <span class="inline-code">.cast-wrapper</span>, faites en sorte que l'animation se mette sur <em>pause</em>.
 </checklist>
 
@@ -137,7 +137,6 @@
 <?php intlink("../../opacite/"); ?>
 <?php intlink("../../filtres/"); ?>
 <?php intlink("../../text/"); ?>
-<?php intlink("../../pseudo-elements/"); ?>
 <?php intlink("../../pseudo-classes-avancees/#has"); ?>
 
 <dots></dots>
