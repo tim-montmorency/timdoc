@@ -132,7 +132,7 @@
   Faites-en sorte que rien n'en dépasse.
   Les flocons de neige (<span class="inline-code">.snowflake</span>) doivent avoir l'image <span class="inline-code">snowflake.svg</span> en arrière-plan, se comporter comme des images et avoir un flou de <em>0.1vmin</em>.
   Les petits flocons doivent avoir une largeur équivalente à <em>1.8%</em> de la largeur de la toile, être de forme carrée, avoir une marge externe verticale de <em>0</em> et une marge externe horizontale de <em>0.7%</em>.
-  Les gros flocons doivent avoir une largeur équivalente à <em>3.6%</em> de la largeur de la toile, être de forme carrée, avoir une marge externe verticale de <em>0</em> et une marge externe horizontale de <em>1.2%</em>.  
+  Les gros flocons doivent avoir une largeur équivalente à <em>3.6%</em> de la largeur de la toile, être de forme carrée, avoir une marge externe verticale de <em>0</em> et une marge externe horizontale de <em>1.2%</em>.
   Créez une animation nommée <span class="inline-code">snowflake</span> créant une translation verticale partant de <em>-100%</em> à <em>40vmin</em> et attribuez la aux flocons de manière infinie.
   L'animation des petits flocons doit avoir une durée équivalente à la variable <span class="inline-code">--snow-small-duration</span> et avoir un délais négatif correspondant à la durée multiplié par la variable <span class="inline-code">--nb</span> afin de leur donner un effet aléatoire. Pour vous simplifiez la vie, voici la formule: <span class="inline-code">calc(0s - (var(--nb) * var(--snow-small-duration)))</span>.
   L'animation des gros flocons doit avoir une durée équivalente à la variable <span class="inline-code">--snow-big-duration</span> et avoir un délais négatif correspondant à la durée multiplié par la variable <span class="inline-code">--nb</span> afin de leur donner un effet aléatoire. Pour vous simplifiez la vie, voici la formule: <span class="inline-code">calc(0s - (var(--nb) * var(--snow-big-duration)))</span>.
@@ -153,27 +153,37 @@
 
 <grostitre>Requis brouillard</grostitre>
 
+<checklist>
+  Le brouillard (<span class="inline-code">.fog</span>) doit être positionné de manière absolue dans le bas de la toile, prendre tout l'espace disponible en largeur et <em>60%</em> en hauteur.
+  Appliquez-lui un grandient allant de <em>transparent</em> à <em>gris pâle</em> ainsi qu'une opacité de <em>50%</em>.
+</checklist>
+
+<grostitre>Requis loup</grostitre>
+
+<checklist>
+  Le conteneur du loup (<span class="inline-code">.wolf-wrapper</span>) doit avoir une largeur de <em>90%</em> de la toile, être positionné de manière absolue à <em>40%</em> du haut de la toile et être centré horizontalement.
+  Le loup (<span class="inline-code">.wolf</span>) doit avoir un double filtre <a onclick="event.stopPropagation();" target="_blank" href="https://developer.mozilla.org/fr/docs/Web/CSS/filter-function/drop-shadow">drop-shadow</a> d'une dimension de <em>3vmin</em> égal de tous les côtés de couleur <em>gris mauve</em>.
+  Le contour (<span class="inline-code">.contour</span>) ainsi que les points (<span class="inline-code">.dots</span>) du loup doivent être de couleur <em>blanche</em>.
+  Créez une animation nommée <em>wolfparts</em> en <em>8 étapes</em> (0%, 100% - 12.5% - 25% - 37.5% - ...) dont chacune des étapes correspondent à une des 8 couleurs du loup. Pour chaque étape, vous devrez changer la couleur de l'élément SVG par la couleur correspondant à l'étape.
+  Appliquez cette animation aux parties du loup (<span class="inline-code">.part</span>) de façon linéaire et infinie avec une durée correspondant à la variable <span class="inline-code">--wolf-duration</span>.
+  À ce stade-ci, toutes les parties du loup devraient changer pour la même couleur en même temps. Pour les décaler, ajoutez un délais d'animation négatif correspondant à la variable <span class="inline-code">--wolf-duration</span> divisé par <em>8</em> et multiplié par la variable <span class="inline-code">--nb</span>. Pour vous simplifier la vie, voici la formule: <span class="inline-code">calc(0s - (var(--wolf-duration) / 8 * var(--nb)))</span>.
+</checklist>
+
+<grostitre>Remise</grostitre>
+
+<checklist>
+  Renommez votre dossier <em>"loup_[nom]_[prenom]"</em>.
+  Zippez votre dossier <em>"loup_[nom]_[prenom]"</em>.
+  Joignez votre fichier <em>.zip</em> au devoir <em>"EX03: Loup de nuit"</em>.
+  Respirez un bon coup, vous avez terminé.
+</checklist>
+
+<dots></dots>
 
 
+<grostitre>Notes de cours 📚</grostitre>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<doclink href="../../../../582-215MO/">Timdoc / 582-215MO</doclink>
 
 <dots></dots>
                     <!-- EXERCICE FOOTER SOF -->
