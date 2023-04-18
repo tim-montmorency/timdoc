@@ -279,6 +279,7 @@
     <?php intlink("../html/formulaire-intermediaire/exercices/twitter/"); ?>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
     <?php intlink("../css/exercices/underworld-everything-everything/"); ?>
+    <?php intlink("../css/exercices/the-black-keys-turn-blue/"); ?>
     <h2>Jeux uniquement en CSS</h2>
     <doclink href="https://codepen.io/takaneichinose/pen/YzqreVp">Room Escape</doclink>
     <doclink href="https://codepen.io/jcoulterdesign/pen/NOMeEb">The Mine</doclink>

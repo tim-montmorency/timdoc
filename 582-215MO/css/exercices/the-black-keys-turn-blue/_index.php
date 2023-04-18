@@ -53,7 +53,6 @@
   La couleur de fond de la page doit être de couleur <em>gris pâle</em> et avoir un dégradé vertical allant du <em>rose pâle</em> au <em>bleu pâle</em>.
   Fusionnez les deux fonds en mode <span class="inline-code">screen</span> afin de donner au gradient un effet délavé.
   L'album doit avoir une dimension verticale et honrizontale de <em>80%</em> du plus petit côté de la fenêtre, être centré tant verticalement qu'horizontalement, être de couleur <em>bleu pâle</em> et avoir un ombrage de <em>10vmin</em> égal de tous les côtés de couleur <em>noire</em> semi-transparente.
-
 </checklist>
 
 <grostitre>Requis spirale</grostitre>
