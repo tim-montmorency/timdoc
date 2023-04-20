@@ -8,15 +8,15 @@
  */
 ?>
 
+<!-- https://oxygen4fun.supadezign.com/tutorials/how-to-create-some-parallax-effects-with-gsap/ -->
 
 
 
-
-
+<!-- 
 
 <exercice href="../exercices/gsap-scrolltrigger-gotham/"></exercice>  
 
 <dots></dots>
 
-<tool href="../tools/collection-animations-scrolltrigger/"></tool>
+<tool href="../tools/collection-animations-scrolltrigger/"></tool> -->
 

@@ -12,11 +12,13 @@
 
 
 
-
+<!-- 
 
 <exercice href="../exercices/gsap-scrolltrigger-gotham/"></exercice>  
 
 <dots></dots>
 
 <tool href="../tools/collection-animations-scrolltrigger/"></tool>
+
+-->
 
