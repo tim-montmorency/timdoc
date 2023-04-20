@@ -3,7 +3,7 @@
 /**
  * @type     exercice
  * @title    GSAP Callback - Link
- * @icon     images/thumb.png
+ * @icon     images/thumb-link.jpg
  * @abstract Pour cet exercice, nous allons synchroniser des animations CSS de type sprite sheet de Link, le protagoniste de la franchise Zelda, avec GSAP ScrollTrigger.
  */
 ?>

@@ -3,7 +3,7 @@
 /**
  * @type     exercice
  * @title    GSAP Scrub - BB-8
- * @icon     images/thumb.png
+ * @icon     images/thumb-bb8.jpg
  * @abstract Pour cet exercice, nous allons créer une animation synchronisant le défilement de la page avec une animation de déplacement du droïde BB-8 de Star Wars 🤖.
  */
 ?>

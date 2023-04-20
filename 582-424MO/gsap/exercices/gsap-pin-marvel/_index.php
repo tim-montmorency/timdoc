@@ -3,7 +3,7 @@
 /**
  * @type     exercice
  * @title    GSAP Pin - Effets spéciaux Marvel
- * @icon     images/thumb.png
+ * @icon     images/thumb-marvel.jpg
  * @abstract Pour cet exercice, nous allons créer une animation démontrant le rôle du fond vert dans le tournage des films Avengers.
  */
 ?>

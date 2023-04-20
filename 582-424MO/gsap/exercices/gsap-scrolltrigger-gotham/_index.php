@@ -3,7 +3,7 @@
 /**
  * @type     exercice
  * @title    GSAP ScrollTrigger - Gotham
- * @icon     images/thumb.png
+ * @icon     images/thumb-gotham.jpg
  * @abstract Pour cet exercice, nous allons synchroniser le générique de l’émission Gotham avec le défilement de la page.
  */
 ?>

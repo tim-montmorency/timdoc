@@ -155,6 +155,7 @@ La balise <code>header</code> doit contenir une image d’arrière-plan de votre
      <p>Stylisez toutes les sections de la balise main.</p>
 
      <checklist>Chaque section doit s'afficher sur toute la largeur et la hauteur de la fenêtre.
+
      Histoire défilable à la verticale&nbsp;: toutes les sections s’affichent une en dessous de l’autre sans marge.<br>OU<br>Histoire défilable à l’horizontale: toutes les sections doivent s’afficher une à côté de l’autre sans marge.
      Chacune des sections individuelles doit avoir sa propre image d’arrière-plan qui s’ajuste avec la taille de la fenêtre, peu importe sa dimension, sans être étirée ou écrasée.
      </checklist>
