@@ -1636,7 +1636,7 @@ footer #copyright {
 #contents .grostitre + h3, #wiki__pages .grostitre + h3 {
   margin-top: 20px;
 }
-#contents h4, #contents h5, #contents h6, #wiki__pages h4, #wiki__pages h5, #wiki__pages h6 {
+#contents h4, #contents h6, #wiki__pages h4, #wiki__pages h6 {
   margin-bottom: 20px;
   margin-top: 50px;
 }

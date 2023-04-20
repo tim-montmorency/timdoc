@@ -45,7 +45,7 @@
 <checklist>
   Téléchargez les images et placez-les dans un dossier nommé <span class="inline-code">images</span>.
   Le fond doit être un dégradé allant de <em>gris foncé</em> à <em>gris pâle</em>.
-  L'album doit avoir une dimension verticale et honrizontale de <em>80%</em> du plus petit côté de la fenêtre, être de couleur <em>brune</em> ainsi qu'avoir un ombrage égal de tous les côtés de couleur noire semi-transparente.
+  L'album doit avoir une dimension verticale et honrizontale de <em>80%</em> du plus petit côté de la fenêtre, être de couleur <em>brune</em> ainsi qu'avoir un ombrage de <em>10vmin</em> égal de tous les côtés de couleur noire semi-transparente.
   Utilisez <span class="inline-code">transform</span> afin de positionner l'album au centre de la fenêtre.
   À l'aide du pseudo-élément <span class="inline-code">::before</span>, ajoutez un layer couvrant la totalité de l'album et utilisant l'image <span class="inline-code">noise.svg</span> comme arrière-plan afin de créer un effet de carton. Appliquez-lui aussi un flou de <em>0.5px</em>.
 </checklist>

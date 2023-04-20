@@ -38,6 +38,7 @@
 
 <dots></dots>
 
+
 <grostitre>Requis de base</grostitre>
 
 <checklist>
@@ -85,9 +86,6 @@
 <grostitre>Ambiance</grostitre>
 
 <youtube src="./videos/angelo-badalamenti-red-bats-with-teeth.json"></youtube>
-
-<dots></dots>
-
 
 <grostitre>Bande-annonce</grostitre>
 
