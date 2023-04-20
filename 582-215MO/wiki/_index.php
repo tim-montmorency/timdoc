@@ -293,7 +293,9 @@
     <?php intlink("../html/formulaire-avance/exercices/among-us/"); ?>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
     <?php intlink("../css/exercices/death-from-above-1979/"); ?>
+    <?php intlink("../css/exercices/air-premiers-symptomes/"); ?>
 </wiki-page>
+
 
 <wiki-page name="Cours 13B" date="2023-05-03">
     <?php intlink("../html/metadonnees/"); ?>
