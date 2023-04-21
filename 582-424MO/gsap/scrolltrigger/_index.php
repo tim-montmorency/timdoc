@@ -254,9 +254,12 @@ Credits: Michelle Barker
 <dots></dots>
 <h3 id="End">End</h3>
 
+<p>Par défaut la propriété&nbsp;<code>end</code>&nbsp;a la valeur&nbsp;<code>"bottom top"</code>.</p>
+
 <p>La propriété&nbsp;<code>end</code>&nbsp;se comporte exactement comme la propriété&nbsp;<a rel="noopener noreferrer"
         href="#start">start</a>&nbsp;à la différence bien sur qu'elle contrôle les
     marqueurs&nbsp;<code>end</code>&nbsp;et&nbsp;<code>scroller-end</code>.</p>
+
 
 
 <doclink href='https://greensock.com/docs/v3/Plugins/ScrollTrigger/end'>end</doclink>
