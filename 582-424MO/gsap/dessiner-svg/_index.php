@@ -105,11 +105,19 @@
 <p>Supposons que vous ayez 20 éléments SVG auxquels la classe <code>.dessine-moi</code> a été appliquée et que vous souhaitiez les dessiner de manière décalée, vous pourriez le faire :</p>
 
 <highlight lang='JavaScript'>//Dessinera tous les éléments qui ont la classe "dessine-moi" avec un décalage de début de 0.1 seconde.
-gsap.from(".draw-me", {
+gsap.from(".dessine-moi", {
     duration:1, 
     stagger: 0.1, 
     drawSVG: 0
 });</highlight>
+
+<p>De même vous pourriez faire une timeline en animant le dessin de plusieurs lignes (paths) une après l'autre.  Et pourquoi pas...  finir avec un remplissage?</p>
+
+<p class="codepen" data-height="600" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="mdzwbEO" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/mdzwbEO">
+  GSAP DrawSVG - Démo 1 - set() et to()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 
 
