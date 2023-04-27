@@ -42,7 +42,7 @@
   Ajoutez deux autre variables, une pour la durée de la transition du sourire <em>(0.2s)</em> et une autre pour la durée de l'animation de langue <em>(2s)</em>.
   La couleur de fond de la page doit être de couleur <em>grise</em> et avoir un dégradé vertical allant du <em>rouge</em> au <em>jaune</em>.
   Fusionnez les deux fonds en mode <span class="inline-code">screen</span> afin de donner au gradient un effet délavé.
-  L'album doit avoir une dimension verticale et honrizontale de <em>80%</em> du plus petit côté de la fenêtre, être de couleur <em>jaune</em> ainsi qu'avoir un ombrage de <em>100px</em> égal de tous les côtés de couleur <em>noire</em> semi-transparente.
+  L'album doit avoir une dimension verticale et horizontale de <em>80%</em> du plus petit côté de la fenêtre, être de couleur <em>jaune</em> ainsi qu'avoir un ombrage de <em>100px</em> égal de tous les côtés de couleur <em>noire</em> semi-transparente.
   Utilisez <span class="inline-code">transform</span> afin de positionner l'album au centre de la fenêtre.
 </checklist>
 
