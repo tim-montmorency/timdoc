@@ -257,22 +257,22 @@
 <wiki-page name="Cours 11B" date="2023-04-19">
     <h3>Examen: Birds of Prey</h3>
     <video playsinline src="./videos/birds-of-prey.mp4" autoplay="true" muted="true" loop="true" style="width: 100%; max-width: 770px;"></video>
-    <h2>Devoir Woke: Vidéo Accessibilité 101</h2>
+    <h2>Devoir: Vidéo Accessibilité 101</h2>
     <youtube src="./videos/acessibility-101.json"></youtube>
 </wiki-page>
 
 
-<wiki-page name="Cours 12A" date="2023-04-25">
+<wiki-page name="Cours 12A" date="2023-04-24">
     <?php intlink("../html/formulaire/"); ?>
     <?php intlink("../html/formulaire/exercices/carte-de-credit/"); ?>
     <h2>TP09 <em>(5%)</em></h2>
     <?php intlink("../css/exercices/eagles-of-death-metal-peace-love-death-metal/"); ?>
-    <h2>Devoir Woke: Vidéo Accessibilité 201</h2>
+    <h2>Devoir: Vidéo Accessibilité 201</h2>
     <youtube src="./videos/acessibility-201.json"></youtube>
 </wiki-page>
 
 
-<wiki-page name="Cours 12B" date="2023-04-26">
+<wiki-page name="Cours 12B" date="2023-04-24">
     <?php intlink("../html/formulaire-intermediaire/"); ?>
     <?php intlink("../html/formulaire-intermediaire/exercices/menu-hamburger/"); ?>
     <?php intlink("../html/formulaire-intermediaire/exercices/dragonball/"); ?>

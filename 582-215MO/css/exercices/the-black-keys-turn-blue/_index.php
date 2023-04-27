@@ -59,7 +59,7 @@
 
 <checklist>
   La spirale (<span class="inline-code">.spiral</span>) doit être positionnée de manière absolue, prendre tout l'espace disponible en hauteur et en largeur, être centrée tant horizontalement que verticalement et être de couleur <em>rose pâle</em>.
-  Appliquez-lui une rotation de <em>45deg</em>. Vous constaterai alors que la spirale ne couvre pas tout l'espace de l'album.
+  Appliquez-lui une rotation de <em>45deg</em>. Vous constaterez alors que la spirale ne couvre pas tout l'espace de l'album.
   Pour corriger la dimension de la spirale, multipliez sa largeur et sa hauteur par le <em>facteur d'hypoténuse</em> mentionné plus haut.
   Assurez-vous que rien ne dépasse de l'album en rognant l'exédentaire.
 </checklist>
