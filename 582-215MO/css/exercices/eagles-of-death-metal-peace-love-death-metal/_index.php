@@ -111,3 +111,18 @@
 <?php intlink("../../pseudo-classes-avancees/#has"); ?>
 
 <dots></dots>
+
+
+<thumbsup>
+  Bonjour à tous,
+  <br><br>
+  Comme vous avez pu remarquer je ne suis plus parmis vous. Sachez que je n'ai tué personne (je pense). Parfois on fait des erreurs et on doit payer pour. Je me relève les manches et je compte bien réparer ces erreurs afin de peut-être être de retour parmis vous d'ici la fin de votre D.E.C.
+  <br><br>
+  Je tiens à vous dire que cette année fût une des plus enrichissante de ma vie, grâce à vous. 
+  <br><br>
+  Vous allez me manquer.
+  <br><br>
+  Prof Max.
+  <br><br>
+  <img src="./images/prof-max.jpg" width="300" style="border-radius: 50%">
+</thumbsup>
