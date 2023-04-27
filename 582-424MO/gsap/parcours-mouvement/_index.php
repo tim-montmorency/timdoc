@@ -262,10 +262,9 @@
 </div>
 
 <dots></dots>
-<grostitre>Autorotate</grostitre>
+<grostitre>AutoRotate</grostitre>
 
-
-<p>La propriété&nbsp;<code>autorotate</code>&nbsp;permet de spécifier à l'élément animé d'effectuer une rotation
+<p>La propriété&nbsp;<code>autoRotate</code>&nbsp;permet de spécifier à l'élément animé d'effectuer une rotation
     correspondant au tracé lors de son animation. Par défaut, la valeur de cette propriété est
     à&nbsp;<code>false</code>.</p>
 <p>Pour l'activer, il faut lui donner la valeur&nbsp;<code>true</code>, comme dans l'exemple&nbsp;suivant:</p>

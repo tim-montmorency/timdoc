@@ -220,7 +220,20 @@
 <exercice href="../exercices/voiture-turquoise"></exercice>
 
 
+<dots></dots>
 
+<grostitre>Méthode set()</grostitre>
+<p><code>set()</code> initialise <em>immédiatement</em> les propriétés des éléments HTML ciblés. Il s'agit essentiellement d'une animation de type <code>to()</code> qui dure zéro seconde. C'est la même chose mais avec un nom plus un peu plus intuitif : "set" que l'ont peut traduire par "définit immédiatement tel paramètre". Les lignes suivantes produisent donc des résultats identiques :</p>
+
+<highlight lang='JavaScript'>gsap.set(".class", {x: 100, y: 50, opacity: 0});
+gsap.to(".class", {duration: 0, x: 100, y: 50, opacity: 0});</highlight>
+
+<p>À la place du sélecteur <code>".class"</code>, vous pouvez aussi utiliser un tableau (array []) contenant plusieurs sélecteurs afin de définir les propriétés de plusieurs éléments HTML en même temps. Voici un exemple :</p>
+
+<highlight lang='JavaScript'>gsap.set([".chapeau", ".patate", ".sapin"], {x: 100, y: 50, opacity: 0});</highlight>
+
+
+<doclink href='https://greensock.com/docs/v3/GSAP/gsap.set()'>Méthode set()</doclink>
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
                     <!-- ARTICLE FOOTER SOF -->
