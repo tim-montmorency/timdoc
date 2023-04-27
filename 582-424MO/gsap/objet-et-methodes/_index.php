@@ -202,4 +202,13 @@ gsap.to(".class", {duration: 0, x: 100, y: 50, opacity: 0});</highlight>
 
 <doclink href='https://greensock.com/docs/v3/GSAP/gsap.set()'>Méthode set()</doclink>
 
+
+
+<dots></dots>
+
+
+<grostitre>Et les sélecteurs multiples...</grostitre>
+<p>À titre de rappel, une sélecteur définit un ou des éléments HTML sur le(s)quel(s) s'applique un ensemble de règles.  Dans ce cas ci, on leur applique une animation.</p>
+<p>Avec GSAP, la "magie" c'est qu'on n'a pas besoin de faire un querySlector ou un getDocumentById ou autre.  Simplement, ajouter en premier paramètre de gsap() le nom de la classe de l'élément ou le nom de l'id, ou encore le nom de la balise.</p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

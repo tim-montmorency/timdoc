@@ -1,0 +1,6 @@
+{
+    "type": "exercice",
+    "title": "GSAP Parallax - Ballons dans le ciel",
+    "icon": "images\/thumb-parallax.jpg",
+    "abstract": "Pour cet exercice, nous allons utiliser scrollTrigger pour faire un effet parallax de 3 couches avec les nuages et les ballons."
+}

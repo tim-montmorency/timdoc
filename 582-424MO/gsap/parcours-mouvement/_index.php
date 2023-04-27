@@ -1,10 +1,10 @@
 <?php 
 /**
  * @type     article
- * @title    9-Animation sur un tracé
+ * @title    10-Animation sur un tracé
  * @icon     images/icon.svg
  * @abstract MotionPath: animer un élément  sur un tracé
- * @index    600
+ * @index    523
  */
 ?>
 
@@ -293,9 +293,13 @@
 
 <p>Par défaut, l'élément animé se déplace sur le tracé à partir de sont point de référence, le coin
     supérieur&nbsp;gauche.</p>
+
+    
 <p>Cependant, il est possible de déplacer le point de référence de l'élément en utilisant les
     propriétés&nbsp;<code>xPercent</code>&nbsp;et&nbsp;<code>yPercent</code>&nbsp;qui déplacent en pourcentage le point
     de référence de l'élément&nbsp;animé.</p>
+
+
 <p>Par exemple:</p>
 <div class="codepen" data-module="CodePen">
     <div class="codepen__wrapper">
@@ -311,6 +315,11 @@
 
 </div>
 
-
-
 <doclink href='https://greensock.com/docs/v3/Plugins/MotionPathPlugin'>MotionPath</doclink>
+<dots></dots>
+
+<exercice href="../exercices/motionpath-voiture-et-vallons/"></exercice>     
+
+
+
+

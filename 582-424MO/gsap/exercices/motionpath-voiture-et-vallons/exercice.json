@@ -1,0 +1,6 @@
+{
+    "type": "exercice",
+    "title": "GSAP motionPath - Voiture et vallons",
+    "icon": "images\/thumb-voiture-et-vallons.jpg",
+    "abstract": "Pour cet exercice, nous allons animer la voiture qui suivra le parcours des vallons du paysage."
+}

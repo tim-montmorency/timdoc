@@ -1,10 +1,10 @@
 <?php 
 /**
  * @type     article
- * @title    10-Dessiner SVG
+ * @title    11-Dessiner SVG
  * @icon     images/icon.svg
  * @abstract DrawSVG: Dessiner un tracé SVG par animation GSAP
- * @index    550
+ * @index    500
  */
 ?>
 

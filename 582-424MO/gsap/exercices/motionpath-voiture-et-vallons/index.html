@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../../shared/jscripts/commons.js"></script>
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>GSAP motionPath - Voiture et vallons</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">GSAP motionPath - Voiture et vallons</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p>Pour cet exercice, nous allons animer la voiture qui suivra le parcours des vallons du paysage.</p>
+   
+<p>Aperçu du résultat 👇</p>
+<clipasset src='images/voiture-et-vallons.mp4'></clipasset>
+
+<grostitre>Matériel</grostitre>
+<doclink href="https://codepen.io/tim-momo/pen/mdzwqGG/26d8ea334def01b68a2ba4db13988b43">Pen de départ</doclink>
+
+<warning>Vous n’avez qu’à ajouter JavaScript <em>(de pas modifier le&nbsp;HTML ou le CSS)</em>. Par contre, il est fortement conseillé de jeter un oeil au CSS et HTML pour comprendre la structure.</warning>  
+
+<p>Les librairies GSAP et motionPath sont déjà inclues dans le Pen, vous laissant ainsi vous concentrer sur l'animation GSAP à réaliser.</p>
+
+<grostitre>Requis</grostitre>
+
+<checklist>
+Explorez le HTML pour mieux comprendre comment le &lt;<code>svg</code>&gt; est construit. Remarquez qu'il contient plusieurs tracés &lt;<code>path</code>&gt; et 2 groupes de tracés &lt;<code>g</code>&gt;. Le premier correspond aux vallons (sol), le deuxième groupe correspont à tous les tracés de la voiture. Des <em>id</em> ont été ajoutés à certains éléments clés afin de les styliser en CSS et les manipuler en JavaScript.
+Pour vous aider à visionner la "boîte" qui contient tous les éléments de la voiture, dans le HTML, changez la valeur de <code>fill-opacity</code> (ligne 5) pour 1. Vous verrez ainsi un arrière-plan rouge derrière la voiture. C'est simplement un rectangle que j'ai ajouté dernière la voiture lorsque j'ai créé le SVG dans Illustrator. Ça nous permet de mieux comprendre les limites externe de l'élément graphique.
+Explorez maintenant le CSS, comment le SVG a été redimensionné et placé dans ton conteneur. Inspirez-vous en pour votre projet.
+En JavaScript, à la ligne 1, ajoutez la ligne pour indiquer à GSAP que MotionPath est disponible.
+Dans la variable <em>animation</em> déjà existante, animez la voiture afin qu'elle suive le tracé des vallons.
+Assurez-vous que la voiture soit toujours alignée avec le tracé du parcours.
+Décommentez la ligne du <code>eventListener</code> afin que l'animation s'active à chaque clique dans l'écran.
+Assurez-vous que la tête de la voiture s'oriente toujours sur le parcours (la voiture doit s'incliner dans le sens de la montagne).
+Démarrez le parcours au début du tracé et arrêtez le à 55% de celui-ci (on verra la voiture frêner tout à droite).
+Changez la position du point de référence de la voiture de sorte que le point de rotation ne soit pas en haut à gauche de la voiture mais plutôt près du bas et du centre horizontal (combinez <code>xPercent</code>,<code>yPercent</code> et <code>alignOrigin</code>).
+Dans le HTML, rechangez la valeur de <code>fill-opacity</code> du tracé <em>.st1</em> (ligne 5) à 0 pour éliminer l'arrière-plan rouge.
+</checklist>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+            <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../parcours-mouvement/images/icon.svg');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../parcours-mouvement/">10-Animation sur un tracé</a></span>
+                    <span class="intlink__item__abstract">MotionPath: animer un élément  sur un tracé</span>
+                </div>
+            </div>
+        
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>
