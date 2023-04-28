@@ -147,5 +147,5 @@ Vous devez diversifier vos animations alors vous devriez avoir au moins 3 types 
 </ul>
 <dots></dots>
 <grostitre>Remise</grostitre>
-<p> emettez ce devoir sur une nouvelle branche nommée P2-2</p>
+<p>Remettez ce devoir sur une nouvelle branche nommée P2-2</p>
 <p>Déposez le lien de votre répertoire git individuel dans Devoir.</p>
