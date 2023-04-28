@@ -37,7 +37,7 @@ Il sera important de les exclure de votre répertoire git afin de ne pas commett
 
 <checklist>Ajoutez d’abord, sur tous vos chapitres, une bordure temporaire de 1px de couleur rouge afin de bien délimiter visuellement vos chapitres.  
 Ajoutez aussi une bordure temporaire à vos éléments animés : bleu ou verte ou une couleur contrastante. 
-Note: Si vous utilisez un motionPath le long de quelque chose se trouvant à l'arrière-plan, enlevez l'image d'arrière-plan du chapitre et ajoutez la pluôt dans le HTML en balise <code>img</code>. Le SVG vous servant de trajectoire (path) devra être la même dimension que l'image elle même. Vous pourrez ainsi les styliser afin qu'ils se redimensionnent les 2 de la même façon (responsive).
+Note: Si vous utilisez un motionPath le long de quelque chose se trouvant à l'arrière-plan. suivez les <a href="https://tim-montmorency.com/timdoc/582-424MO/gsap/parcours-mouvement/index.html#aligner-un-trace-avec-qqch-dans-une-photo-darriere-pan-pour-p23" target="_blank" rel="noopener noreferrer">instructions ici</a>
 </checklist>
 
 <dots></dots>

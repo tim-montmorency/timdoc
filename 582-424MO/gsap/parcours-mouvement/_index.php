@@ -318,7 +318,30 @@
 <doclink href='https://greensock.com/docs/v3/Plugins/MotionPathPlugin'>MotionPath</doclink>
 <dots></dots>
 
-<exercice href="../exercices/motionpath-voiture-et-vallons/"></exercice>     
+<exercice href="../exercices/motionpath-voiture-et-vallons/"></exercice> 
+
+<dots></dots>
+
+<grostitre>Aligner un tracé avec qqch dans une photo d'arrière-pan (pour P.2.3)</grostitre>
+
+<clipasset src="../../projet-scrollytelling/p2-3a/videos/demo-motion-path.mp4"></clipasset>
+
+<p>D'abord, si votre photo est appliquée en arrière-pan (css, background-image), ramenez la en balise <code>img</code></p>
+<p>Assurez vous que votre path SVG est dans une image de la même dimension que la photo (dans Illustrator, ajoutez votre photo comme guide, modifiez la dimension du plan de travail pour l'ajuster aux dimensons de la photo, dessinez-y votre tracé (path) et ensuite supprimez la photo et finalement enregistrez votre SVG.</p>
+<p>Dans le HTML et CSS, ajoutez votre images ainsi que le SVG, un par dessus l'autre.  Stylisez en CSS afin que les 2 soient la même dimension que la section (100vw, 100vh).</p>
+<p>Sur la photo, ajoutez un objet-fit:cover et un object-position: 0 0</p>
+<p>Dans le HTML, dans le code du SVG, ajoutez ces 2 attributs:<br>
+<code>viewBox="0 0 2000 1335"</code><br>
+<code>preserveAspectRatio="xMinYMin slice"</code>
+
+<br>
+ou 2000 = largeur initiale de la photo (et du svg) et 1335 = la hauteur (ajustez avec vos valeurs)
+<br>
+</p>
+
+
+
+
 
 
 
