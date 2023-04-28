@@ -36,12 +36,7 @@
 <p>Pour ce faire, il est&nbsp;possible:</p>
 <ul>
     <li>
-        <p>De le télécharger sur le&nbsp;<a
-                href="https://greensock.com/docs/v3/Installation?checked=core,drawSVG#download" target="_blank">Site
-                de&nbsp;GreenSock</a> et l'installer dans votre propre projet.</p>
-    </li>
-    <li>
-        <p>D'utiliser un&nbsp;<a href="https://greensock.com/docs/v3/Installation?checked=core,drawSVG#CDN"  target="_blank">CDN</a></p>
+        <p>D'utiliser un&nbsp;<a href="https://greensock.com/docs/v3/Installation?checked=core,drawSVG#codepen"  target="_blank">CDN</a> (comme il est payant, allez copier le lien dans l'onglet codePen</p>
     </li>
 </ul>
 <p>Une fois chargé, il est conseillé d'indiquer à GSAP que MotionPath est disponible en inscrivant la ligne de
