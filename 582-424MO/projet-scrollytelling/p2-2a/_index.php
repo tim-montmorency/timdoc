@@ -2,7 +2,7 @@
 
    /**
     * @type     article
-    * @title    P2.2a Scaffoling et animation sprite sheet
+    * @title    P2.2a Scaffoling+Spritesheet
     * @icon     images/icon.svg
     * @abstract Scaffoling du projet et animation spritesheet sur défilement de la page
    * @index    20

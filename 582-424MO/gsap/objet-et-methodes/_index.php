@@ -195,9 +195,7 @@
 <highlight lang='JavaScript'>gsap.set(".class", {x: 100, y: 50, opacity: 0});
 gsap.to(".class", {duration: 0, x: 100, y: 50, opacity: 0});</highlight>
 
-<p>À la place du sélecteur <code>".class"</code>, vous pouvez aussi utiliser un tableau (array []) contenant plusieurs sélecteurs afin de définir les propriétés de plusieurs éléments HTML en même temps. Voici un exemple :</p>
 
-<highlight lang='JavaScript'>gsap.set([".chapeau", ".patate", ".sapin"], {x: 100, y: 50, opacity: 0});</highlight>
 
 
 <doclink href='https://greensock.com/docs/v3/GSAP/gsap.set()'>Méthode set()</doclink>
@@ -209,6 +207,11 @@ gsap.to(".class", {duration: 0, x: 100, y: 50, opacity: 0});</highlight>
 
 <grostitre>Et les sélecteurs multiples...</grostitre>
 <p>À titre de rappel, une sélecteur définit un ou des éléments HTML sur le(s)quel(s) s'applique un ensemble de règles.  Dans ce cas ci, on leur applique une animation.</p>
-<p>Avec GSAP, la "magie" c'est qu'on n'a pas besoin de faire un querySlector ou un getDocumentById ou autre.  Simplement, ajouter en premier paramètre de gsap() le nom de la classe de l'élément ou le nom de l'id, ou encore le nom de la balise.</p>
+<p>Avec GSAP, la "magie" c'est qu'on n'a pas besoin de faire un <code>querySelector</code>  ou un <code>getDocumentById</code> ou autre.  Simplement, ajouter en premier paramètre de gsap() le nom de la classe de l'élément ou le nom de l'id, ou encore le nom de la balise.</p>
+<p>À la place du sélecteur <code>".class"</code>, vous pouvez aussi utiliser un tableau (array) <code>["abc,"def"]</code> contenant plusieurs sélecteurs afin de définir les propriétés de plusieurs éléments HTML en même temps. Voici un exemple :</p>
+
+<highlight lang='JavaScript'>gsap.set([".chapeau", ".patate", ".sapin"], {x: 100, y: 50, opacity: 0});</highlight>
+<!-- <p>Si on souhaite appliquer une animation sur plusieurs éléments qui n'ont pas nécessairement tous la même classe, on peut définir un tableau (array []) listant une série d'éléments et passer ce tableau comme premier paramètre à GSAP. Par exemple:</p>
+<hight lang='JavaScript'>gsap.to(['.lapin', '.greouille', '.renard'], {x: '10vw', y: '50vh'})</hight>-->
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

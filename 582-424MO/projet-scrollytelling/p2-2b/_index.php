@@ -2,7 +2,7 @@
 
    /**
     * @type     article
-    * @title    P2.2b Intégration et animations: bases
+    * @title    P2.2b Intégration+animations
     * @icon     images/icon.svg
     * @abstract  Intégration des médias, textes et animations GSAP de base
    * @index    15
