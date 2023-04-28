@@ -57,7 +57,7 @@
   Créez une variable nommée <span class="inline-code">--carousel-duration</span> et attribuez-lui la valeur de <em>6s</em>. Cette variable sera utiliser pour déterminer la vitesse de défilement du carousel.
   La couleur de fond de la page doit être de couleur <em>grise</em> et avoir un dégradé vertical allant du <em>orange</em> au <em>bleu</em>.
   Fusionnez les deux fonds en mode <span class="inline-code">screen</span> afin de donner au gradient un effet délavé.
-  L'album doit avoir une dimension verticale et honrizontale de <em>80%</em> du plus petit côté de la fenêtre, être centré tant verticalement qu'horizontalement, être de couleur <em>bleu</em> et avoir un ombrage de <em>100px</em> égal de tous les côtés de couleur <em>noire</em> semi-transparente.
+  L'album doit avoir une dimension verticale et horizontale de <em>80%</em> du plus petit côté de la fenêtre, être centré tant verticalement qu'horizontalement, être de couleur <em>bleu</em> et avoir un ombrage de <em>100px</em> égal de tous les côtés de couleur <em>noire</em> semi-transparente.
   Assurez-vous que rien ne dépasse de l'album.
 </checklist>
 
