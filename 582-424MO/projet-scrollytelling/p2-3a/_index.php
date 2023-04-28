@@ -43,9 +43,10 @@ Note: Si vous utilisez un motionPath le long de quelque chose se trouvant à l'a
 <dots></dots>
  <grostitre>JavaScript </grostitre>
 
-<checklist>Intégrez <em>scrollTrigger</em> à chacun de vos chapitre (n'oubliez pas d'ajouter le plugiciel à votre page et de l'activer en JavaScript, si ce n'est pas déjà fait) 
-Tous les chapitres doivent être épinglés le temps d'une ligne du temps GSAP. 
-Pour chaque chapitre, ajoutez une ou des animations GSAP. Chaque chapitre devra avoir son ou ses animations isolées des autres chapitres.   
+<checklist>Intégrez <em>scrollTrigger</em> à chacun de vos chapitre (n'oubliez pas d'ajouter le plugiciel à votre page et de l'activer en JavaScript, si ce n'est pas déjà fait).
+Les animations de chaque chapitre doivent s'activer lorsque le chapitre entre en scène, et pas avant.
+La plupart des chapitres doivent se figer dans l'écran le temps que l'animation GSAP du dit chapitre se complète.
+Pour chaque chapitre, ajoutez une ou des animations GSAP. Chaque chapitre devra avoir son ou ses animations isolées des autres chapitres.  
 SVP dans votre code, ajoutez en commentaire séparateur par chapitre, exemple: <code>/* ----  Animation chapitre 3 ----- */</code> 
 Chaque animation de chapitre devra être activée via la technique scrollTrigger, donc l’animation va démarrer que lorsque le chapitre entre en scène. 
 </checklist>
