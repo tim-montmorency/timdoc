@@ -54,7 +54,7 @@
 
 <checklist>
   L'élément <span class="inline-code">.stripe</span> doit avoir une hauteur de <em>40%</em> de la hauteur de l'album, occuper tout l'espace disponible en largeur, être centré verticalement dans l'album, avoir un alignement de texte centré et être de couleur <em>rose</em>.
-  Le conteneur <span class="inline-code">.hands</span> doit avoir une hauteur de <em>80%</em> du plus petit côté de la fenêtre, occuper tout l'espace disponible en largeur et être centré verticalement à l'intérieur de celui-ci.
+  Le conteneur <span class="inline-code">.hands</span> doit avoir une hauteur de <em>15%</em> du plus petit côté de la fenêtre, occuper tout l'espace disponible en largeur et être centré verticalement à l'intérieur de celui-ci.
   Les éléments <span class="inline-code">.handwrapper</span> doit avoir une largeur de <em>15%</em> du plus petit côté de la fenêtre, occuper tout l'espace disponible en hauteur et se comporter comme du texte.
   L'intérieur des mains (<span class="inline-code">.inside</span>) doit être de couleur <em>blanche</em>.
 </checklist>
