@@ -330,6 +330,7 @@
     <?php intlink("../html/microdonnees/exercices/cf-montreal/"); ?>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
     <?php intlink("../css/exercices/nirvana-nevermind/"); ?>
+    <?php intlink("../css/exercices/pink-floyd-the-dark-side-of-the-moon/"); ?>
 </wiki-page>
 
 

@@ -6,8 +6,7 @@ const syncjson = (url) => {
 		const request = new XMLHttpRequest();
 		request.open('GET', url, false);
 		request.send(null);
-		var elms = JSON.parse(request.responseText);
-		return elms;
+		return JSON.parse(request.responseText);
 	} catch (e) {
 		return false;
 	}
@@ -58,15 +57,16 @@ const lowslug = (str) => {
 /******************************************************
  *                Hex Color Inversion                 *
  ******************************************************/
-const invertColor = (hexTripletColor) => {
-	var color = hexTripletColor;
-	color = color.substring(1);
-	color = parseInt(color, 16);
-	color = 0xFFFFFF ^ color;
-	color = color.toString(16);
-	color = ("000000" + color).slice(-6);
-	color = "#" + color;
-	return color;
+const invertColor = (hex, bw) => {
+    if (hex.indexOf('#') === 0) hex = hex.slice(1);
+    if (hex.length === 3) hex = hex[0] + hex[0] + hex[1] + hex[1] + hex[2] + hex[2];
+    if (hex.length !== 6) throw new Error('Invalid HEX color.');
+    var r = parseInt(hex.slice(0, 2), 16), g = parseInt(hex.slice(2, 4), 16), b = parseInt(hex.slice(4, 6), 16);
+    if (bw) return (r * 0.299 + g * 0.587 + b * 0.114) > 186 ? '#000000' : '#FFFFFF';
+    r = (255 - r).toString(16);
+    g = (255 - g).toString(16);
+    b = (255 - b).toString(16);
+    return "#" + pad(r) + pad(g) + pad(b);
 }
 
 
@@ -74,6 +74,7 @@ const invertColor = (hexTripletColor) => {
  *                  Zero Leading Pad                  *
  ******************************************************/
 const pad = (num, size) => {
+	size = size || 2;
 	var s = "000000000" + num;
 	return s.substr(s.length-size);
 }
