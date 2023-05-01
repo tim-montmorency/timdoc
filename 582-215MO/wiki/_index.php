@@ -294,6 +294,8 @@
     <h2>TP Complémentaire <em>(formatif)</em></h2>
     <?php intlink("../css/exercices/death-from-above-1979/"); ?>
     <?php intlink("../css/exercices/air-premiers-symptomes/"); ?>
+    <br>
+    <img src="./images/baton-dans-les-roues-css-tps.jpg" style="width: 100%; max-width: 770px; margin: 0;">
 </wiki-page>
 
 
