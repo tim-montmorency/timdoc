@@ -310,7 +310,7 @@
     <?php intlink("../html/details-et-summary/exercices/quiz-marc-labreche/"); ?>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
     <?php intlink("../css/exercices/lost-highway/"); ?>
-    <?php intlink("../css/exercices/asian-dub-foundation-rafis-revenge/"); ?>
+    <?php intlink("../css/exercices/king-crimson-larks-tongues-in-aspic/"); ?>
 </wiki-page>
 
 
@@ -320,6 +320,7 @@
     <?php intlink("../css/animation-sprite-sheet/exercices/skate/"); ?>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
     <?php intlink("../css/exercices/tool-aenima/"); ?>
+    <?php intlink("../css/exercices/asian-dub-foundation-rafis-revenge/"); ?>
 </wiki-page>
 
 
