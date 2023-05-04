@@ -432,7 +432,7 @@ app.component('dots', {
     props: ['spacer'],
     data() {
         let color = this.$slots.default()[0].children;
-        let invert = invertColor(color);
+        let invert = invertColor(color, true);
         let space = this.spacer == 'true' ? ' spacer' : '';
         return {
             color: color,

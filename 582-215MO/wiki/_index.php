@@ -294,6 +294,8 @@
     <h2>TP Complémentaire <em>(formatif)</em></h2>
     <?php intlink("../css/exercices/death-from-above-1979/"); ?>
     <?php intlink("../css/exercices/air-premiers-symptomes/"); ?>
+    <br>
+    <img src="./images/baton-dans-les-roues-css-tps.jpg" style="width: 100%; max-width: 770px; margin: 0;">
 </wiki-page>
 
 
@@ -308,7 +310,7 @@
     <?php intlink("../html/details-et-summary/exercices/quiz-marc-labreche/"); ?>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
     <?php intlink("../css/exercices/lost-highway/"); ?>
-    <?php intlink("../css/exercices/asian-dub-foundation-rafis-revenge/"); ?>
+    <?php intlink("../css/exercices/king-crimson-larks-tongues-in-aspic/"); ?>
 </wiki-page>
 
 
@@ -318,6 +320,7 @@
     <?php intlink("../css/animation-sprite-sheet/exercices/skate/"); ?>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
     <?php intlink("../css/exercices/tool-aenima/"); ?>
+    <?php intlink("../css/exercices/asian-dub-foundation-rafis-revenge/"); ?>
 </wiki-page>
 
 
@@ -330,6 +333,7 @@
     <?php intlink("../html/microdonnees/exercices/cf-montreal/"); ?>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
     <?php intlink("../css/exercices/nirvana-nevermind/"); ?>
+    <?php intlink("../css/exercices/pink-floyd-the-dark-side-of-the-moon/"); ?>
 </wiki-page>
 
 
