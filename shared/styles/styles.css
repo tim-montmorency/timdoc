@@ -1381,6 +1381,54 @@ div.quote__title {
   height: 100%;
 }
 
+.correction th {
+  text-align: center;
+  font-size: 1.1em;
+}
+.correction tfoot td:nth-child(1) {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.correction tfoot td:nth-child(2) {
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: right;
+}
+.correction tfoot td:nth-child(2) button {
+  font-size: 1em;
+  font-weight: bold;
+  width: 100px;
+}
+.correction__criteria td:nth-child(1) {
+  width: 1%;
+  white-space: nowrap;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding-right: 10px;
+}
+.correction__criteria td:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+}
+.correction__criteria__scale {
+  display: inline-block;
+  background-color: rgba(255, 0, 58, 0.2666666667);
+  width: 100%;
+  margin: auto 0.5%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+.correction__criteria__scale:hover, .correction__criteria__scale.checked {
+  background-color: #ff003a;
+}
+
 /* light color palette: https://coolors.co/577590-f3ca40-ff003a-e1e4f2-f2a541 */
 * {
   margin: 0;

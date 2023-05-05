@@ -899,6 +899,108 @@ app.component('wiki-page', {
         </div>`
 });
 
+/******************************************************
+ *           Composante Correction / Barème           *
+ ******************************************************/
+ app.component('correction', {
+    props: ['scale', 'value'],
+    data() {
+        let scales = this.scale.split(',').map((val) => { return val.trim(); });
+        return {
+            scales: scales,
+            criterias: new Array(),
+            score: 0,
+            score_txt: ''
+        }
+    },
+    created() {
+        this.$nextTick(() => {
+            this.updateScore();
+        });
+    },
+    methods: {
+        registerCriteria(criteria){
+            this.criterias.push(criteria);
+        },
+        updateScore() {
+            let score = 0, total = 0;
+            this.criterias.forEach((criteria) => {
+                total += parseFloat(criteria.value);
+                score += parseFloat(criteria.getValue());
+            });
+            let idx = score / total;
+            this.score = (idx * this.value);
+            this.score_txt = (idx * 100) + '% (' + this.score + '/' + this.value + ')';
+        },
+        clear() {
+            this.criterias.forEach((criteria) => { criteria.clear(); });
+            this.updateScore();
+        },
+        copy() {
+            navigator.clipboard.writeText(this.score);
+        }
+    },
+    template: `
+        <div class="correction">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Critères</th>
+                        <th>Barèmes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <slot></slot>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total</td>
+                        <td>{{ this.score_txt }}&nbsp;&nbsp;<button @click="this.copy();">Copier</button>&nbsp;&nbsp;<button @click="this.clear();">Effacer</button></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>`
+});
+
+app.component('criteria', {
+    props: ['value'],
+    data() {
+        return {
+            _value: 0,
+            _target: null
+        }
+    },
+    created() {
+        this.$parent.registerCriteria(this);
+    },
+    methods: {
+        click(event, i) {
+            if(this._target) this._target.classList.remove('checked');
+            event.currentTarget.classList.add('checked');
+            this._target = event.currentTarget;
+            this._value = i;
+            this.$parent.updateScore();
+        },
+        getValue() {
+            return this._value / (this.$parent.scales.length - 1) * this.value;
+        },
+        clear() {
+            this._value = 0;
+            if(this._target){
+                this._target.classList.remove('checked');
+                this._target = null;
+            }
+        }
+    },
+    template: `
+        <tr class="correction__criteria">
+            <td><slot/></td>
+            <td>
+                <span class="correction__criteria__scale" v-for="(scale, i) in this.$parent.scales" v-html="scale" @click="click($event, this.$parent.scales.length - 1 - i)"></span>
+            </td>
+        </tr>`
+});
+
 
 /******************************************************
  *                     Mount App                      *
