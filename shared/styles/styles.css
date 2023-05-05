@@ -1398,6 +1398,10 @@ div.quote__title {
   font-size: 1em;
   font-weight: bold;
   width: 100px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .correction__criteria td:nth-child(1) {
   width: 1%;
