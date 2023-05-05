@@ -13,7 +13,9 @@
 <doclink href='https://kinsta.com/fr/blog/optimiser-les-images-pour-le-web/'>Optimiser les images pour le Web</doclink>
 
 <dots></dots>
-<grostitre>Formats d'images compressées pour le Web</grostitre>
+<grostitre>Formats d'images matricielles compressées pour le Web</grostitre>
+
+<p>Cette page ne traite que ces images matricielles et non des images vectorielles pour le Web tel que le SVG. Si vous souhaitez optimiser vos SVG pour le Web, <a href="../../../582-215MO/html/svg/#optimisation-svgomg" target="_blank" rel="noopener noreferrer">référez vous à cette page</a> </p>
 
 <h3>JPG</h3>
 <p>Le terme JPEG (ou JPG) signifie Joint Photographic Experts Group et a été créé en 1986.</p>
@@ -52,9 +54,6 @@
     <li>Ils se répètent à l'infini</li>
 </ul>
 
-
-
-
 <h3>WebP</h3>
 <p>WebP est un format d'image moderne qui offre une compression supérieure avec perte et sans perte pour les images du Web. WebP permet aux webmasters et aux développeurs Web de créer des images plus petites et plus riches qui rendent le Web plus rapide.
 </p>
@@ -72,21 +71,24 @@
 
 <dots></dots>
 
-<grostitre>Utiliser PhotoShop pour compresser vos images par grand lot</grostitre>
+<grostitre>Utiliser PhotoShop pour compresser vos images matricielles par grand lot</grostitre>
 
-<h3>Testez d'abord avec un image</h3>
+<h3>Testez d'abord avec une seule image</h3>
 <p>Vous pouvez d'abord tester l'optimisation d'une seule image pour vérifier comment optimiser les images prévues pour le même type d'affichage sur votre site.</p>
 <p>Vous devez vérifier:</p>
 <ul>
-    <li>Quel format maximum l'image sera-t-elle affichée sur le site?<br>Utiliser une image de 5000px alors qu'elle ne s'affiche que sur une largeur maximum de 1920px est inutile et nous fait charger trop de pixels inutilement. Il faut réduire la taille de vos images!</li>
-    <li>Quel format de compression Web sera le plus optimal pour mon image?  On peut faire le test ou se fier au critères énumérés ci-haut dans la page.</li>
+    <li><strong>Quel format maximum l'image sera-t-elle affichée sur le site?</strong><br>Sachez qu'utiliser une image de 5000px alors qu'elle ne s'affiche que sur une largeur maximum de 1920px nous forcera les utilisateurs de votre site à charger des images d'une taille trop grande et trop lourde pour le réel besoin.  Il faut réduire la taille de vos images!</li>
+    <li><strong>Quel format de compression Web sera le plus optimal pour mon image?</strong><br>  On peut faire le test ou se fier aux avantages de chaque type format d'image Web énumérés ci-haut dans la page.</li>
 </ul>
 
 <dots></dots>
 
 <h3>Créez l'action Photoshop</h3>
-<p>Ouvrez une image du lot à optimiser pour faire la première démo de votre actions.</p>
+<p>Ouvrez une image du lot à optimiser pour faire la première démo de votre <em>Action</em> Photoshop.</p>
 <p>Dans le menu Photoshop, allez dans Fenêtre et Actions (alt+f9).</p>
+
+<img src="images/01-actions-fenetre-actions.jpg" alt="Fenêtre actions">
+
 <p>Dans le fenêtre Actions, créer un dossier pour classer vos actions personnalisées.  Nommez-le comme vous le souhaitez.</p>
 <p>Sélectionner ce petit dossier et dans le bas de la fenêtre action, cliquez le le petit + (Créer un action). Nommez avec un nom que vous reconnaitrez pour la suite, exemple "Optimisation des images pour site web, format 1920px"</p>
 <p>Dès lors, toutes action que vous allez faire sur l'image sera enregistrée tant que vous n'apuierez pas sur le petit Stop 🔳 dans la fenêtre Actions.</p>
@@ -97,16 +99,19 @@
     <li>Finalement revenez dans la fenêtre Actions et cliquez sur Stop  🔳</li>
 </ul>
 
-<p>Vous avez maintenant une Actions prête à être utilisées sur un lot d'image. Vous pouvez créer le nombre d'Actions que vous souhaitez, vous pourriez en faire une différentes pour des images dont la largeur maximale d'affichaque sur votre site serait de 400px par exemple.</p>
+<p>Vous avez maintenant une Action prête à être utilisée sur un lot d'image. Vous pouvez créer le nombre d'Actions que vous souhaitez, vous pourriez en faire une différente pour des images dont la largeur maximale d'affichaque sur votre site serait de 400px par exemple.</p>
 
-<h3>Pour appliquer l'actions sur un lots.</h3>
-<p>Menu Fichier>Automatisation>Traitement par lot</p>
+<h3>Pour appliquer l'action sur un lot d'images.</h3>
+<p>Menu Fichier>Automatisation>Traitement par lots</p>
+
+<img src="images/02-actions-traitement-par-lot.jpg" alt="Traitement par lot">
+
 <p>Dans la fenêtre contextuelle</p>
 <ul>
     <li>Sélectionner un dossier "Source" contenant les images à traiter</li>
     <li>Cocher "Priorité sur les instructions d'action ouvrir", "Supprimer les boîtes de dialogue d'ioption d'ouverture de fichier" et "Supprimer les avertissements sur les profils colorimétiques"</li>
     <li>Sélectionner un dossier de "Destination" où enregistrer les images traitées</li>
-    <li>Cliquez sur ok, et voilà!  Tout se fait tout seul!</li>
+    <li>Cliquez sur ok, et voilà!  Tout se fait presque tout seul, vous avez maintenant vos images compressées et optimisées.</li>
 </ul>
  
 
