@@ -95,8 +95,6 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<img src="../../google-fonts/" alt="">
-
 <?php intlink("../../background/"); ?>
 <?php intlink("../../linear-gradient/"); ?>
 <?php intlink("../../box-shadow/"); ?>
