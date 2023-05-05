@@ -929,8 +929,9 @@ app.component('wiki-page', {
                 score += parseFloat(criteria.getValue());
             });
             let idx = score / total;
-            this.score = (idx * this.value);
-            this.score_txt = (idx * 100) + '% (' + this.score + '/' + this.value + ')';
+            this.score = +(idx * this.value).toFixed(2);
+            
+            this.score_txt = +(idx * 100).toFixed(2) + '% (' + this.score + '/' + this.value + ')';
         },
         clear() {
             this.criterias.forEach((criteria) => { criteria.clear(); });
