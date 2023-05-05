@@ -206,7 +206,7 @@ app.component('grostitre', {
             case 'mp3': var icon = 'type-audio.png'; break;
             default:    var icon = 'type-file.png';
         }
-        
+
         let addr = true;
         if(typeof this.addr != 'undefined' && this.addr == 'false') addr = false;
 
@@ -254,7 +254,7 @@ app.component('codepen', {
         var height = 400;
         if(typeof this.tab != 'undefined') defaulttab = this.tab;
         if(typeof this.height != 'undefined') height = this.height;
-        
+
         defaulttab = encodeURIComponent(defaulttab);
         let remark = '';
         if(typeof this.$slots.default != 'undefined') {
@@ -930,7 +930,6 @@ app.component('wiki-page', {
             });
             let idx = score / total;
             this.score = +(idx * this.value).toFixed(2);
-            
             this.score_txt = +(idx * 100).toFixed(2) + '% (' + this.score + '/' + this.value + ')';
         },
         clear() {
