@@ -1,0 +1,155 @@
+<?php 
+/**
+ * @type     article
+ * @title    3-Douze commandements
+ * @icon     images/icon.png
+ * @abstract 12 pratiques pour optimiser la vitesse des sites web
+ * @index    400
+ */
+?>
+
+
+<h3>12 commandements pour optimiser la performance</h3>
+<p>Une fois que vous avez <a href="../introduction/#methodes-devaluation-de-la-vitesse-de-votre-site-web" target="_blank" rel="noopener noreferrer">testé la vitesse de votre site web</a>, vous pouvez commencer à l'optimiser. Il existe de nombreuses façons d'accélérer le fonctionnement de votre site web, voici la liste des méthodes les plus efficaces.</p>
+<dots></dots>
+
+<grostitre>1-Utiliser réseau de diffusion de contenu(CDN)</grostitre>
+
+<p>Un réseau de diffusion de contenu (Content Delivery Network) est un ensemble de serveurs web répartis sur différents sites géographiques qui fournissent du contenu web aux utilisateurs finaux en fonction de leur localisation. Lorsque vous hébergez le site web sur un seul serveur, toutes les demandes des utilisateurs sont envoyées au même matériel. C'est pourquoi le temps nécessaire au traitement de chaque demande augmente. En outre, le temps de chargement augmente lorsque les utilisateurs sont physiquement éloignés du serveur. </p>
+
+<p>Avec le CDN, les demandes des utilisateurs sont redirigées vers le serveur le plus proche. Le contenu est ainsi transmis plus rapidement à l'utilisateur et le site web fonctionne plus vite. Il s'agit d'un moyen assez coûteux, mais très efficace, d'optimiser le temps de chargement.</p>
+
+
+<dots></dots>
+
+<grostitre>2-Déplacer votre site web vers un meilleur hébergeur</grostitre>
+
+<p>Il existe trois types d'hébergement possibles :</p>
+<ul>
+    <li>Hébergement partagé</li>
+    <li>Hébergement sur serveur privé virtuel (VPS)</li>
+    <li>Hébergement sur serveur dédié</li>
+</ul>
+
+<p>Le type d'hébergement le plus populaire, utilisé dans le monde entier, est l'<strong>hébergement partagé</strong>. C'est le moyen le plus économique de mettre votre site en ligne en peu de temps et pour un prix modique. Il est essentiel de choisir un hébergeur rapide pour garantir une meilleure optimisation. Avec l'hébergement mutualisé, vous partagez l'unité centrale, l'espace disque et la mémoire vive avec d'autres sites qui utilisent également ce serveur. C'est la principale raison pour laquelle l'hébergement mutualisé n'est pas aussi rapide qu'un VPS ou un serveur dédié.</p>
+
+<p>Les <strong>serveurs privés virtuels</strong> et les serveurs dédiés sont beaucoup plus rapides. Le VPS utilise plusieurs serveurs pour la distribution du contenu. Avec un VPS, vous partagez le serveur avec ses autres utilisateurs et vous disposez de votre propre partie du serveur virtuel où vos configurations n'influencent pas les autres clients. Si votre site web a un trafic moyen ou si vous avez un site de commerce électronique avec des pics de trafic à certaines périodes, le VPS sera la solution optimale pour vous.</p>
+
+<p>L'option d'hébergement la plus coûteuse consiste à utiliser un <strong>serveur dédié</strong>, qui peut être votre propre serveur physique. Dans ce cas, vous payez un loyer pour le serveur et vous engagez un administrateur système pour en assurer la maintenance.</p>
+
+<p>Une autre approche consiste à louer une <strong>ressource cloud dédiée</strong> auprès d'AWS, de Microsoft Azure, de Google ou d'un autre fournisseur de cloud public. Ces deux approches peuvent également être combinées dans un nuage hybride. Avec les serveurs dédiés, toutes les ressources vous appartiennent et vous en avez le contrôle total. Les infrastructures en nuage peuvent également offrir une évolutivité illimitée ou sur demande dépendant des forfaits sélectionnés aurpès du fournisseur. </p>
+
+
+
+<dots></dots>
+
+<grostitre>3-Optimisez la taille et le poids des images</grostitre>
+
+<p>Tout le monde aime les images accrocheuses. Dans le cas des sites de commerce électronique à succès, les images sont la partie vitale. La présence d'un grand nombre de photos, d'images et de graphiques sur vos pages de produits améliore l'engagement. L'aspect négatif de l'utilisation d'images est qu'il s'agit généralement de fichiers volumineux qui ralentissent un site web.</p>
+
+<p>La meilleure façon de réduire la taille des images sans en compromettre la qualité est de les compresser à l'aide d'outils tels que <strong>Adobe Photoshop</strong> avec des <a href="../optimisation-des-medias/" target="_blank" rel="noopener noreferrer">Scripts et Actions prédéfinies</a> afin d'optimiser des images par lots.</p>
+<p>Vous pouvez aussi utiliser des outils en lignes tels que: <a href="https://imageoptim.com/online" target="_blank" rel="noopener noreferrer">ImageOptim</a>, <a href="https://www.jpegmini.com/" target="_blank" rel="noopener noreferrer">JPEGmini</a> ou <a href="https://kraken.io/" target="_blank" rel="noopener noreferrer">Kraken</a>. La procédure peut prendre un peu de temps, mais le jeu en vaut la chandelle. Une autre façon de réduire la taille de l'image est d'utiliser les attributs HTML <a href="http://" target="_blank" rel="noopener noreferrer"></a> responsive images <secret> et <size> qui ajustent la taille de l'image en fonction des propriétés d'affichage de l'utilisateur.</p>
+
+
+<dots></dots>
+
+<grostitre>4-Réduire nb de plugiciels</grostitre>
+
+<p>Les plugiciels (ex: les plugins sur Wordpress) sont des composants communs à chaque site web. Ils ajoutent des fonctionnalités spécifiques proposées par des tiers. Malheureusement, plus le nombre de plugins installés est élevé, plus il faut de ressources pour les faire fonctionner. En conséquence, le site web fonctionne plus lentement et des problèmes de sécurité peuvent apparaître. Au fil du temps, le nombre de plugins augmente, alors que certains d'entre eux peuvent ne plus être utilisés. Nous vous recommandons de vérifier tous les plugins que vous avez installés et de supprimer ceux qui sont inutiles. Commencez par effectuer des tests de performance sur votre page afin de déterminer quels sont les plugins qui ralentissent votre site web. La vitesse du site web dépend non seulement du nombre de plugins installés, mais aussi de leur qualité. Essayez d'éviter les plugins qui chargent beaucoup de scripts et de styles ou qui génèrent beaucoup de requêtes de base de données. La meilleure solution consiste à ne conserver que les plugins nécessaires et à veiller à ce qu'ils soient mis à jour.</p>
+
+
+<dots></dots>
+
+<grostitre>5-Réduire nb de fichiers JavaScript et CSS</grostitre>
+
+<p>Si votre site web contient beaucoup de fichiers JavaScript et CSS, cela entraîne un grand nombre de requêtes HTTP lorsque les visiteurs de votre site web veulent accéder à des fichiers particuliers. Ces requêtes sont traitées individuellement par le navigateur du visiteur et ralentissent le fonctionnement du site web. Si vous réduisez le nombre de fichiers JavaScript et CSS, vous accélérerez sans aucun doute le fonctionnement de votre site web. Essayez de regrouper tous les fichiers JavaScript en un seul et faites de même avec tous les fichiers CSS. Vous réduirez ainsi le nombre total de requêtes HTTP. Il existe de nombreux outils permettant de minifier rapidement les fichiers HTML, CSS et JavaScript. Vous pouvez par exemple utiliser les outils <a href="https://www.willpeavy.com/tools/minifier/" target="_blank" rel="noopener noreferrer">WillPeavy</a>, <a href="https://www.toptal.com/developers/javascript-minifier" target="_blank" rel="noopener noreferrer">Script Minifier</a> ou <a href="https://gruntjs.com/" target="_blank" rel="noopener noreferrer">les outils Grunt</a>.</p>
+
+
+<dots></dots>
+
+<grostitre>6-Mise en cache du site côté serveur</grostitre>
+
+<p>Lorsqu'un grand nombre d'utilisateurs accèdent à la page en même temps, les serveurs travaillent lentement et ont besoin de plus de temps pour fournir la page web à chaque utilisateur. La mise en cache consiste à stocker la version actuelle de votre site web sur l'hébergement et à présenter cette version jusqu'à ce que votre site web soit mis à jour. Cela signifie que la page web n'est pas affichée plusieurs fois pour chaque utilisateur. La page web mise en cache n'a pas besoin d'envoyer des requêtes à la base de données à chaque fois.
+</p>
+
+<p>Les approches de la mise en cache d'un site web dépendent de la plateforme sur laquelle votre site web est développé. Pour WordPress, par exemple, vous pouvez utiliser les plugins suivants : <a href="https://wordpress.org/plugins/w3-total-cache/" target="_blank" rel="noopener noreferrer">W3 Total Cache</a> ou <a href="https://wordpress.org/plugins/wp-super-cache/" target="_blank" rel="noopener noreferrer">W3 Super Cache</a>.  Si vous utilisez un VPS ou un serveur dédié, vous pouvez également configurer la mise en cache dans vos paramètres généraux. Dans le cas d'un serveur partagé, la mise en cache du site web n'est généralement pas disponible.</p>
+
+
+
+<dots></dots>
+
+<grostitre>7-Compression Gzip</grostitre>
+
+<p>La compression Gzip est un moyen efficace de réduire la taille des fichiers. Elle minimise les requêtes HTTP et réduit le temps de réponse du serveur. Gzip compresse les fichiers avant de les envoyer au navigateur. Du côté de l'utilisateur, le navigateur décompresse les fichiers et en présente le contenu. Cette méthode peut fonctionner avec tous les fichiers de votre site web. Vous pouvez activer Gzip sur votre site web en ajoutant quelques lignes de code <a href="https://www.hostinger.fr/tutoriels/compression-gzip" target="_blank" rel="noopener noreferrer"> en suivant cette méthode</a> ou via la documentation de GNU <a href="https://www.gnu.org/software/gzip/" target="_blank" rel="noopener noreferrer">gzip</a> .</p>
+
+
+
+
+
+<dots></dots>
+<grostitre>8. Optimisation des bases de données du CMS</grostitre>
+<p>L'optimisation de la base de données est un moyen efficace d'augmenter les performances. Si vous utilisez un système de gestion de contenu (CMS) comme Wordpress ou Drupal truffé de plugins ou modules complexes, la taille de la base de données augmente et votre site web fonctionne plus lentement. Par exemple, le CMS WordPress stocke les commentaires, les articles de blog et d'autres informations qui prennent beaucoup de place dans la base de données. Chaque CMS nécessite ses propres mesures d'optimisation et dispose également d'un certain nombre de plugins spécifiques. Pour WordPress, par exemple, vous pouvez envisager <a href="https://wordpress.org/plugins/wp-optimize/" target="_blank" rel="noopener noreferrer"> WP-Optimize</a>.</p>
+
+
+
+
+
+
+
+
+<dots></dots>
+<grostitre>9.Réduire l'utilisation des polices de caractères Web</grostitre>
+<p>Les polices de caractères Web sont devenues très populaires dans la conception des sites web. Malheureusement, l'utilisation de ces polices a un impact négatif sur la vitesse de rendu des pages. Les polices web ajoutent des requêtes HTTP supplémentaires vers des ressources externes. Les mesures suivantes vous aideront à réduire la taille du trafic des polices web :
+
+</p>
+
+<ul>
+    <li>Utiliser des formats modernes WOFF2 pour les navigateurs modernes.</li>
+    <li>N'inclure que les jeux de caractères utilisés sur le site (utf-8).</li>
+    <li>Ne choisir que les styles nécessaires. Pas besoin de toute la famille : light, normal, medium, gras, semi-gras, extra-gras, italique normal, italique gras…)</li>
+</ul>
+
+
+
+
+
+
+<dots></dots>
+<grostitre>10-Détecter les erreurs 404</grostitre>
+<p>Une erreur 404 signifie qu'une "page n'a pas été trouvée". Ce message est fourni par l'hébergeur aux navigateurs ou aux moteurs de recherche lorsque le contenu consulté d'une page n'existe plus. Pour détecter et corriger une erreur 404, vous pouvez utiliser des outils de détection d'erreurs et des plugins. Comme nous l'avons mentionné, des plugins supplémentaires peuvent affecter négativement la vitesse de votre site web, c'est pourquoi nous conseillons de faire passer la ressource par des outils externes de détection d'erreurs. Par example :  Xenu’s Link Sleuth, Google Webmaster Tools (GWT), and 404 Redirected Plugin For WordPress. </p>
+<p>Une fois que vous avez détecté toutes les erreurs 404, vous devez évaluer le trafic qu'elles génèrent. Si ces liens morts n'apportent plus de visites et ne consomment donc jamais les ressources de votre serveur, vous pouvez les laisser en l'état. Si ces pages génèrent encore du trafic, envisagez de mettre en place des redirections pour les liens externes et de corriger les adresses des liens internes.</p>
+
+
+
+
+
+
+
+<dots></dots>
+<grostitre>11-Réduire les redirections</grostitre>
+<p>Les redirections de sites web créent des requêtes HTTP supplémentaires qui ont un impact négatif sur les performances. Nous conseillons de les réduire au minimum ou de les éliminer complètement. Tout d'abord, vous devez identifier toutes les redirections sur votre page en effectuant une analyse du site. Vous pouvez utiliser Screaming Frog pour identifier rapidement les redirections. Ensuite, vous devez vérifier s'ils ont une utilité et ne laisser que ceux qui sont critiques.</p>
+
+
+
+
+
+
+
+<dots></dots>
+<grostitre>12-Utiliser des techniques de prefetching</grostitre>
+<p>Le prefetching consiste à lire et à exécuter des instructions avant que l'utilisateur ne les lance. Cette technique est assez courante. Elle fonctionne bien si vous pouvez anticiper les actions de l'utilisateur et, par exemple, charger certains contenus ou liens à l'avance. En général, les navigateurs modernes autorisent le chargement anticipé par défaut, car ils tiennent compte du comportement de l'utilisateur. Toutefois, les spécialistes et les ingénieurs UX sont plus à même de comprendre le comportement de l'utilisateur et de créer des "indices" pour que les navigateurs effectuent le travail de prefetching.</p>
+<p>Il existe trois principaux types prefetching :</p>
+<ul>
+    <li><strong>DNS-Prefetching</strong><br>Cette pratique consiste à résoudre à l'avance les domaines en adresses IP.
+</li>
+    <li><strong>Link Prefetching</strong><br>
+Si vous êtes sûr qu'un utilisateur va cliquer sur un lien spécifique pour naviguer vers une page, vous pouvez appliquer ce type de prefetching. Cette méthode est utile pour les actions communes du parcours de l'utilisateur, comme le passage à la page du panier d'achat après l'ajout d'un ou plusieurs articles.
+</li>
+    <li><strong>Pré-rendu (Prerendering)</strong><br>Cette approche consiste à rendre une page entière ou certains de ses éléments à l'avance.
+</li>
+</ul>
+
+<p>Bien qu'efficace, cette méthode nécessite une analyse approfondie du comportement de l'utilisateur afin de formuler des hypothèses précises.</p>
+
+
+

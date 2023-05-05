@@ -1,9 +1,9 @@
 <?php 
 /**
  * @type     article
- * @title    Rapport de performance
+ * @title    4-Optimisation des médias
  * @icon     images/icon.png
- * @abstract Créer un rapport de performance et corrigez le tir
+ * @abstract Optimiser rapport poids/qualité de vos images...
  * @index    30
  */
 ?>
