@@ -81,6 +81,28 @@ const pad = (num, size) => {
 
 
 /******************************************************
+ *                  Link to data URL                  *
+ ******************************************************/
+const toDataURL = async (url) => {
+	const blob = await fetch(url).then(res => res.blob());
+	return URL.createObjectURL(blob);
+}
+
+
+/******************************************************
+ *                    Download URL                    *
+ ******************************************************/
+ const download = async (url) => {
+    const a = document.createElement("a");
+    a.href = await toDataURL(url);
+    a.download = (new URL(url)).href.replace(/^.*(\\|\/|\:)/, '');
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}
+
+
+/******************************************************
  *                     Load theme                     *
  ******************************************************/
 // setTimeout(() => { document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light'; }, 1);

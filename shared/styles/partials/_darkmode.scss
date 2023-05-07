@@ -141,6 +141,13 @@ body.dark {
             background-color: #1c1d21;
             color: #ff003a;
         }
+        
+        &__download {
+            background-color: #ff003a;
+            &:hover { background-color: #004ca3; }
+            &.copied { background-color: #34ad24; }
+        }
+        
         &__chain {
             background-color: #ff003a;
             &:hover { background-color: #004ca3; }

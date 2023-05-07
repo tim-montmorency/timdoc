@@ -321,8 +321,8 @@
     <h2>TP Complémentaire <em>(formatif)</em></h2>
     <?php intlink("../css/exercices/tool-aenima/"); ?>
     <?php intlink("../css/exercices/asian-dub-foundation-rafis-revenge/"); ?>
-    <!-- <h2>Aperçu de l'examen final</h2>
-    <video playsinline src="./videos/loup.mp4" autoplay="true" muted="true" loop="true" style="width: 100%; max-width: 770px;"></video><br> -->
+    <br>
+    <img src="./images/fall-cliff-css-tps.jpg" style="width: 100%; max-width: 770px; margin: 0;">
 </wiki-page>
 
 
@@ -342,8 +342,11 @@
 <wiki-page name="Cours 15A" date="2023-05-16">
     <h3>TP Complémentaire <em>(formatif)</em></h3>
     <?php intlink("../css/exercices/trainspotting/"); ?>
+    <?php intlink("../css/exercices/robert-charlebois-la-maudite-tournee/"); ?>
     <h2>Révision pour l'examens</h2>
     <?php intlink("../css/exercices/south-park/"); ?>
+    <h2>Aperçu de l'examen final</h2>
+    <video playsinline src="./videos/loup.mp4" autoplay="true" muted="true" loop="true" style="width: 100%; max-width: 770px;"></video><br>
 </wiki-page>
 
 

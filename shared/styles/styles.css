@@ -219,6 +219,15 @@ body.dark .mediafile__link-text {
   background-color: #1c1d21;
   color: #ff003a;
 }
+body.dark .mediafile__download {
+  background-color: #ff003a;
+}
+body.dark .mediafile__download:hover {
+  background-color: #004ca3;
+}
+body.dark .mediafile__download.copied {
+  background-color: #34ad24;
+}
 body.dark .mediafile__chain {
   background-color: #ff003a;
 }
@@ -638,6 +647,28 @@ body.dark table tr:nth-child(even) td {
     line-height: 36px;
     display: block;
   }
+}
+.mediafile__download {
+  transition-duration: 200ms;
+  height: 22px;
+  width: 22px;
+  padding: 2px;
+  text-align: center;
+  vertical-align: center;
+  border-radius: 50%;
+  display: inline;
+  background-color: #ffc5c5;
+  margin-left: 6px;
+}
+.mediafile__download svg {
+  margin: 2px;
+}
+.mediafile__download:hover {
+  cursor: pointer;
+  background-color: #fa6b6b;
+}
+.mediafile__download.copied {
+  background-color: #83ff73;
 }
 .mediafile__chain {
   transition-duration: 200ms;

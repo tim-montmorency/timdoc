@@ -50,7 +50,7 @@
     Téléchargez les images et placez-les dans un dossier <span class="inline-code">images</span>.
     Créez une variable pour chacune des couleurs pour utilisation ultérieure.
     Créez une variable nommée <span class="inline-code">--speed</span> et attribuez-lui la valeur de <em>6 secondes</em>. Celle-ci servira à déterminer le temps de rotation des éléments.
-    La couleur de fond de la page doit être de couleur <em>grise</em> et avoir un dégradé vertical allant du <em>jaune</em> au <em>bleu</em>.
+    Le fond de la page doit être de couleur <em>grise</em> et avoir un dégradé vertical allant du <em>jaune</em> au <em>bleu</em>.
     Fusionnez les deux fonds en mode <span class="inline-code">screen</span> afin de donner au gradient un effet délavé.
     L'album doit avoir une largeur de <em>80%</em> du plus petit côté de la fenêtre, être de forme carré, être centré tant horizontalement que verticalement, être de couleur <em>blanc cassé</em> et avoir un ombrage de <em>10vmin</em> égal de tous les côtés de couleur <em>noire</em> semi-transparente.
     Utilisez <span class="inline-code">box-shadow</span> afin de créer la quintuple bordure intérieure. <em>(4vmin pourpre, 5vmin blanc cassé, 6vmin pourpre, 7vmin blanc cassé et 7.2vmin pourpre)</em>
@@ -101,6 +101,5 @@
 <?php intlink("../../unites-de-mesure-avancees/"); ?>
 <?php intlink("../../transformation/"); ?>
 <?php intlink("../../animation/"); ?>
-<?php intlink("../../pseudo-classes-avancees/#has"); ?>
 
 <dots></dots>
