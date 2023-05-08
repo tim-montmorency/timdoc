@@ -206,7 +206,7 @@ app.component('grostitre', {
             case 'mp3': var icon = 'type-audio.png'; break;
             default:    var icon = 'type-file.png';
         }
-        
+
         let addr = true;
         if(typeof this.addr != 'undefined' && this.addr == 'false') addr = false;
 
@@ -226,6 +226,14 @@ app.component('grostitre', {
                 target.classList.remove('copied');
             }, 1000);
         },
+        download(event) {
+            download(this.link);
+            let target = event.currentTarget;
+            target.classList.add('copied');
+            setTimeout(() => {
+                target.classList.remove('copied');
+            }, 1000);
+        },
         focus(event){
             event.currentTarget.select();
         }
@@ -234,6 +242,7 @@ app.component('grostitre', {
         <div :class="'mediafile' + this.space">
             <div class="mediafile__icon" :style="'background-image: url(\\'' + this.icon + '\\')'">&nbsp;</div>
             <div class="mediafile__text"><slot/></div>
+            <div class="mediafile__download" @click="download($event)"><svg fill="currentColor" viewBox="0 0 538 538"><path d="M463 466H75c-12 0-22 10-22 22v28c0 12 10 22 22 22h388c12 0 21-10 21-22v-28c1-12-9-22-21-22zm-209-38c4 4 10 6 15 6 6 0 11-2 15-6l147-147c9-9 9-22 0-31l-20-20c-8-9-22-9-31 0l-75 75V21c0-11-10-21-22-21h-28c-12 0-22 10-22 21v285l-75-76c-9-8-22-8-31 0l-20 20c-9 9-9 22 0 31l147 147z"/></svg></div>
             <div class="mediafile__chain" @click="click($event)"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path></svg></div>
             <div class="mediafile__linkcopied">Lien copié &#x2713;</div>
         </div>
@@ -254,7 +263,7 @@ app.component('codepen', {
         var height = 400;
         if(typeof this.tab != 'undefined') defaulttab = this.tab;
         if(typeof this.height != 'undefined') height = this.height;
-        
+
         defaulttab = encodeURIComponent(defaulttab);
         let remark = '';
         if(typeof this.$slots.default != 'undefined') {
@@ -452,7 +461,6 @@ app.component('dots', {
                 this.text = this.color;
             }, 2000);
         }
-
     },
     template: `
         <span :class="'color' + this.space + this.clicked" :style="'color: ' + this.invert + '; background-color: ' + this.color + ';'" @click="click()">
@@ -897,6 +905,109 @@ app.component('wiki-page', {
             <h1>{{ name }}</h1><br>
             <slot/>
         </div>`
+});
+
+
+/******************************************************
+ *           Composante Correction / Barème           *
+ ******************************************************/
+ app.component('correction', {
+    props: ['scale', 'value'],
+    data() {
+        let scales = this.scale.split(',').map((val) => { return val.trim(); });
+        return {
+            scales: scales,
+            criterias: new Array(),
+            score: 0,
+            score_txt: ''
+        }
+    },
+    created() {
+        this.$nextTick(() => {
+            this.updateScore();
+        });
+    },
+    methods: {
+        registerCriteria(criteria){
+            this.criterias.push(criteria);
+        },
+        updateScore() {
+            let score = 0, total = 0;
+            this.criterias.forEach((criteria) => {
+                total += parseFloat(criteria.value);
+                score += parseFloat(criteria.getValue());
+            });
+            let idx = score / total;
+            this.score = +(idx * this.value).toFixed(2);
+            this.score_txt = +(idx * 100).toFixed(2) + '% (' + this.score + '/' + this.value + ')';
+        },
+        clear() {
+            this.criterias.forEach((criteria) => { criteria.clear(); });
+            this.updateScore();
+        },
+        copy() {
+            navigator.clipboard.writeText(this.score);
+        }
+    },
+    template: `
+        <div class="correction">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Critères</th>
+                        <th>Barèmes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <slot></slot>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total</td>
+                        <td>{{ this.score_txt }}&nbsp;&nbsp;<button @click="this.copy();">Copier</button>&nbsp;&nbsp;<button @click="this.clear();">Effacer</button></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>`
+});
+
+app.component('criteria', {
+    props: ['value'],
+    data() {
+        return {
+            _value: 0,
+            _target: null
+        }
+    },
+    created() {
+        this.$parent.registerCriteria(this);
+    },
+    methods: {
+        click(event, i) {
+            if(this._target) this._target.classList.remove('checked');
+            event.currentTarget.classList.add('checked');
+            this._target = event.currentTarget;
+            this._value = i;
+            this.$parent.updateScore();
+        },
+        getValue() {
+            return this._value / (this.$parent.scales.length - 1) * this.value;
+        },
+        clear() {
+            this._value = 0;
+            if(this._target){
+                this._target.classList.remove('checked');
+                this._target = null;
+            }
+        }
+    },
+    template: `
+        <tr class="correction__criteria">
+            <td><slot/></td>
+            <td>
+                <span class="correction__criteria__scale" v-for="(scale, i) in this.$parent.scales" v-html="scale" @click="click($event, this.$parent.scales.length - 1 - i)"></span>
+            </td>
+        </tr>`
 });
 
 

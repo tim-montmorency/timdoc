@@ -1,0 +1,60 @@
+.correction {
+
+    & th {
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    & tfoot td:nth-child(1) {
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+
+    & tfoot td:nth-child(2) {
+        font-size: 1.4em;
+        font-weight: bold;
+        text-align: right;
+    }
+
+    & tfoot td:nth-child(2) button {
+        font-size: 1em;
+        font-weight: bold;
+        width: 100px;
+        user-select: none;
+    }
+
+    &__criteria {
+
+        & td:nth-child(1) {
+            width: 1%;
+            white-space: nowrap;
+            font-size: 1.1em;
+            font-weight: bold;
+            padding-right: 10px;
+        }
+
+        & td:nth-child(2) {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__scale {
+            display: inline-block;
+            background-color: #ff003a44;
+            width: 100%;
+            margin: auto 0.5%;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border-radius: 10px;
+            user-select: none;
+            cursor: pointer;
+
+            &:hover, &.checked {
+                background-color: #ff003a;
+                font-weight: bold;
+            }
+
+        }
+    }
+}

@@ -65,6 +65,32 @@
 
     }
 
+    &__download {
+        transition-duration: 200ms;
+        height: 22px;
+        width: 22px;
+        padding: 2px;
+        text-align: center;
+        vertical-align: center;
+        border-radius: 50%;
+        display:inline;
+        background-color: #ffc5c5;
+        margin-left: 6px;
+        
+        & svg {
+            margin: 2px;
+        }
+
+        &:hover {
+            cursor: pointer;
+            background-color: #fa6b6b;
+        }
+
+        &.copied {
+            background-color: #83ff73;
+        }
+    }
+
     &__chain {
         transition-duration: 200ms;
         height: 22px;

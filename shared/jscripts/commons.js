@@ -60,7 +60,7 @@ const lowslug = (str) => {
 const invertColor = (hex, bw) => {
     if (hex.indexOf('#') === 0) hex = hex.slice(1);
     if (hex.length === 3) hex = hex[0] + hex[0] + hex[1] + hex[1] + hex[2] + hex[2];
-    if (hex.length !== 6) throw new Error('Invalid HEX color.');
+    if (hex.length !== 6) return false;
     var r = parseInt(hex.slice(0, 2), 16), g = parseInt(hex.slice(2, 4), 16), b = parseInt(hex.slice(4, 6), 16);
     if (bw) return (r * 0.299 + g * 0.587 + b * 0.114) > 186 ? '#000000' : '#FFFFFF';
     r = (255 - r).toString(16);
@@ -77,6 +77,28 @@ const pad = (num, size) => {
 	size = size || 2;
 	var s = "000000000" + num;
 	return s.substr(s.length-size);
+}
+
+
+/******************************************************
+ *                  Link to data URL                  *
+ ******************************************************/
+const toDataURL = async (url) => {
+	const blob = await fetch(url).then(res => res.blob());
+	return URL.createObjectURL(blob);
+}
+
+
+/******************************************************
+ *                    Download URL                    *
+ ******************************************************/
+ const download = async (url) => {
+    const a = document.createElement("a");
+    a.href = await toDataURL(url);
+    a.download = (new URL(url)).href.replace(/^.*(\\|\/|\:)/, '');
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
 }
 
 
