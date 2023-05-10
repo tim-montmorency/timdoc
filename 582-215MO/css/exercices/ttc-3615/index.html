@@ -18,7 +18,7 @@
         <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
         <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
         <script>const shared = '../../../../shared/';</script>
-        <title>Robert Charlebois - La maudite tournée</title>
+        <title>TTC - 3615</title>
     </head>
     <body>
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
@@ -34,13 +34,13 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <h1 id="title"><span style="font-size: 0.9em;">Robert Charlebois - La maudite tournée</span></h1>
+                <h1 id="title">TTC - 3615</h1>
             </div>
             <article>
                 <div id="contents">
                     <!-- EXERCICE HEADER EOF -->
 
-<p class="spacer">Pour cet exercice, vous devez écrire du CSS afin de recréer la pochette de l’album live <a target="_blank" href="https://open.spotify.com/album/54Eo0BU9H12llo3YtMcuTn">"La maudite tournée"</a> du célèbre chanteur québécois <a target="_blank" href="https://fr.wikipedia.org/wiki/Robert_Charlebois">Robert Charlebois</a>.</p>
+<p class="spacer">Pour cet exercice, vous devez écrire du CSS afin de recréer la pochette de l’album <a target="_blank" href="https://open.spotify.com/album/3CcdklP1Jmf3VapqHih81W">"3615"</a> du groupe rap français <a target="_blank" href="https://fr.wikipedia.org/wiki/TTC_(groupe)">TTC</a>. Vous y ajouterai aussi un effet de vibration de sonnerie pour rappeller l'excellente pièce <a href="#ambiance">"Téléphone"</a>.</p>
 
 <p>Aperçu du résultat 👇</p>
 
@@ -51,25 +51,18 @@
 
 <grostitre>Matériel</grostitre>
 
-<doclink href="./robert-charlebois-la-maudite-tournee.zip">Dossier de départ</doclink>
-
-<h3>Polices d'écriture 🚓</h3>
-
-<doclink href="./GillSansMTPro-BoldExtCond.zip">Gill Sans MT Pro Bold ExtCond</doclink>
+<doclink href="./ttc-3615.zip">Dossier de départ</doclink>
 
 <h3>Couleurs 🎨</h3>
 
-<color>#0a0e11</color>
-<color>#333333</color>
-<color>#ffffff</color>
+<color>#01a1ff</color>
+<color>#ff7304</color>
+<color>#d8dc09</color>
+<color>#da5767</color>
 <br>
-<color>#fce339</color>
-<color>#ae3c30</color>
-
-<h3>Médias 📷</h3>
-
-<mediafile src="./images/wing.webp">Aile</mediafile>
-<mediafile src="./images/robert.webp">Robert</mediafile>
+<color>#5d0166</color>
+<color>#555555</color>
+<color>#ffffff</color>
 
 <br>
 
@@ -83,43 +76,44 @@
 <grostitre>Requis de base</grostitre>
 
 <checklist>
-    Téléchargez les images et placez-les dans un dossier <span class="inline-code">images</span>.
-    Téléchargez police d'écriture et placez-la dans un dossier <span class="inline-code">fonts</span>.
     Créez une variable pour chacune des couleurs pour utilisation ultérieure.
-    Créez une variable nommée <span class="inline-code">--speed</span> et attribuez-lui la valeur de <em>1.5 seconde</em>. Celle-ci servira à déterminer le temps de l'animation.
-    Le fond de la page doit être de couleur <em>grise</em> et avoir un dégradé vertical allant du <em>jaune</em> au <em>bleu</em>.
+    Créez une variable nommée <span class="inline-code">--speed</span> et attribuez-lui la valeur de <em>5 seconde</em>. Celle-ci servira à déterminer le temps de l'animation.
+    Le fond de la page doit être de couleur <em>grise</em> et avoir un dégradé vertical allant du <em>rouge</em> au <em>jaune</em>, au <em>orange</em> et au <em>bleu</em>.
     Fusionnez les deux fonds en mode <span class="inline-code">screen</span> afin de donner au gradient un effet délavé.
-    L'album doit avoir une largeur de <em>80%</em> du plus petit côté de la fenêtre, être de forme carré, être centré tant horizontalement que verticalement, être de couleur <em>charcoal</em> et avoir un ombrage de <em>10vmin</em> égal de tous les côtés de couleur <em>noire</em> semi-transparente.
-        
-    Utilisez le pseudo-élément <span class="inline-code">::before</span> en position absolue et couvrant tout l'espace disponible afin de créer un effet de grain. Appliquez lui le filtre <span class="inline-code">url(#grain)</span> ainsi qu'un <em>grayscale</em> à <em>100%</em> et fusionnez-le en mode <span class="inline-code">soft-light</span>.
+    L'album doit avoir une largeur de <em>80%</em> du plus petit côté de la fenêtre, être de forme carré, être centré tant horizontalement que verticalement, être de couleur <em>blanche</em> et avoir un ombrage de <em>10vmin</em> égal de tous les côtés de couleur <em>noire</em> semi-transparente.
+    Assurez-vous que rien ne dépasse de l'album.
 </checklist>
 
-<grostitre>Requis textes</grostitre>
+<grostitre>Requis arrière-plan</grostitre>
 
 <checklist>
-    À l'aide de <span class="inline-code">@font-face</span>, importez la police d'écriture <span class="inline-code">GillSansMTPro-BoldExtCond.otf</span>, nommez-la <em>Gill</em> et appliquez-la aux textes. Assurez-vous de mentionner le format.
-    Les textes doivent être positionnés de manière absolue, être centré horizontalement, avoir une grosseur de police d'écriture de <em>7vmin</em>, une hauteur de ligne de <em>6vmin</em> être de couleur <em>blanche</em> et avoir une déformation verticale d'un facteur de <em>1.5</em>.
-    Le nom de l'artiste doit être positionné à <em>7vmin</em> du haut et le nom de l'album à <em>6vmin</em> du bas.
+    Afin de corriger la légère déformation du SVG, positionnez l'arrière-plan (<span class="inline-code">.bg</span>) de manière absolue à <em>-0.25%</em> du haut et de la gauche et donnez-lui une dimension de <em>100.5%</em> en largeur et en hauteur.
+    Le contour (<span class="inline-code">.contour</span>) doit être de couleur <em>mauve</em>.
+    Les parties de l'arrière-plan (<span class="inline-code">.part</span>) doivent être respectivement de couleur <em>orange</em>, <em>rouge</em>, <em>jaune</em> et <em>bleu</em>.
 </checklist>
 
-<grostitre>Requis diable</grostitre>
+<grostitre>Animation arrière-plan</grostitre>
 
 <checklist>
-    Le conteneur du diable (<span class="inline-code">.devil</span>) doit avoir une hauteur de <em>37%</em>, prendre tout l'espace disponible en largeur et être placé au centre de l'album grâce aux marges.
-    Robert (<span class="inline-code">.robert</span>) doit avoir une hauteur de <em>95%</em>, une largeur de <em>35%</em> et être positionné de manière absolue au centre bas de son parent grâce aux marges. Il doit avoir l'image <span class="inline-code">robert.webp</span> comme arrière-plan contenu et aligné au centre bas.
-    Les ailes (<span class="inline-code">.wing</span>) doivent avoir une hauteur de <em>69%</em>, prendre tout l'espace disponible en largeur et avoir l'image <span class="inline-code">wing.webp</span> comme arrière-plan contenu sans répétition.
-    Changez le point d'origine de transformation des ailes pour qu'il soit situé au centre bas de l'élément.
-    L'aile de gauche doit être positionné à <em>5%</em> de la gauche et l'aile de droite à <em>5%</em> de la droite.
-    Pour inverser l'aile de droite, appliquez lui une déformation horizontale d'un facteur de <em>-1</em>.
+    Créez une animation nommée <span class="inline-code">parts</span> appliquant une transition de couleurs en 4 étapes <em>(0%,100% - 25% - 50% - 75%)</em> du <em>bleu</em> au <em>jaune</em> au <em>rouge</em> et au <em>orange</em>.
+    Appliquez cette animation aux parties de l'arrière-plan (<span class="inline-code">.part</span>) de manière infinie et d'une durée correspondant à la variable <span class="inline-code">--speed</span>.
+    Afin de décaler les couleurs, appliquez à l'animation un délais négatif de <em>0</em> moins la durée de l'animation divisé par <em>4</em> et multiplié par la variable <span class="inline-code">--nb</span>. Pour vous simplifier la vie, voici la formule: <span class="inline-code">calc(0s - (var(--speed) / 4 * var(--nb)))</span>.
 </checklist>
 
-<grostitre>Requis animation</grostitre>
+<grostitre>Requis lettres</grostitre>
 
 <checklist>
-    Créez deux animations nommées <span class="inline-code">wing-left</span> et <span class="inline-code">wing-right</span> effectuant une rotation allant de <em>-7deg</em> à <em>5deg</em>. En plus de la rotation, l'animation de l'aile de droite doit aussi comporter la déformation horizontale appliquée plus haut.
-    Appliquez ces animations à leur aile respective avec une durée correspondant à la variable <span class="inline-code">--speed</span> de façon infinie et alternante.
-    Afin d'avoir un effet de floatement, créez une dernière animation nommée <span class="inline-code">devil</span> appliquant une translation verticale allant de <em>-2%</em> à <em>2%</em>.
-    Appliquez cette animation au conteneur du diable (<span class="inline-code">.devil</span>) avec une durée correspondant à la variable <span class="inline-code">--speed</span> de façon infinie et alternante et commençant lentement pour ralentissant en fin de parcours.
+    Les lettres doivent avoir la police d'écriture <em>Arial</em>, une grosseur de <em>30vmin</em>, un poid de <em>800</em>, être de couleur <em>mauve</em> et avoir une rotation de <em>-15deg</em>.
+    Placez respectivement les trois lettres à <em>28%</em> de la gauche et <em>2%</em> du haut, <em>15%</em> de la gauche et <em>46%</em> du haut et <em>56%</em> de la gauche et <em>35%</em> du haut.
+    Assurez-vous que le <a onclick="event.stopPropagation();" target="_blank" href="https://developer.mozilla.org/fr/docs/Web/CSS/cursor">curseur</a> demeure celui par défaut lorsque les lettres sont survolées.
+</checklist>
+
+<grostitre>Animation lettres</grostitre>
+
+<checklist>
+    Créez une animation nommée <span class="inline-code">letter</span> appliquant une rotation de <em>-20deg</em> à <em>-10deg</em> et appliquez-la sur le survol des lettres.
+    L'animation doit avoir une durée <em>5 millisecondes</em> et se répéter à l'infinie de manière alternée et linéaire.
+    Toujours lors du survol des lettres, appliquez-leur un flou de <em>0.2vmin</em>.
 </checklist>
 
 <dots></dots>
@@ -127,7 +121,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/robert-charlebois-fu-man-chuu.json"></youtube>
+<youtube src="./videos/ttc-telephone.json"></youtube>
 
 <dots></dots>
 
@@ -170,6 +164,13 @@
                 </div>
             </div>
                     <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../html/svg/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../html/svg/">SVG</a></span>
+                    <span class="intlink__item__abstract">Scalable Vector Graphics</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
                 <div class="intlink__item__icon" style="background-image: url('../../animation/images/icon.png');"></div>
                 <div class="intlink__item__description">
                     <span class="intlink__item__title"><a target="_blank" href="../../animation/">Animation</a></span>
@@ -178,6 +179,9 @@
             </div>
         
 <dots></dots>
+
+
+
 
 
 
