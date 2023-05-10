@@ -337,6 +337,7 @@
     <?php intlink("../css/exercices/ttc-3615/"); ?>
     <?php intlink("../css/exercices/nirvana-nevermind/"); ?>
     <?php intlink("../css/exercices/pink-floyd-the-dark-side-of-the-moon/"); ?>
+    <br><img src="./images/spiderman-tell-me-the-truth-jai-pas-fait-les-tps.jpg" style="width: 100%; max-width: 770px; margin: 0;">
 </wiki-page>
 
 
