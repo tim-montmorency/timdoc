@@ -345,7 +345,9 @@
     <h3>TP Complémentaire <em>(formatif)</em></h3>
     <?php intlink("../css/exercices/trainspotting/"); ?>
     <?php intlink("../css/exercices/robert-charlebois-la-maudite-tournee/"); ?>
-    <h2>Révision pour l'examens</h2>
+    <?php intlink("../css/exercices/les-cowboys-fringants-break-syndical/"); ?>
+    
+    <h2>Bonus</h2>
     <?php intlink("../css/exercices/south-park/"); ?>
     <h2>Aperçu de l'examen final</h2>
     <video playsinline src="./videos/loup.mp4" autoplay="true" muted="true" loop="true" style="width: 100%; max-width: 770px;"></video><br>
