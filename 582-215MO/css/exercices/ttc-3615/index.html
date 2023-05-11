@@ -18,7 +18,7 @@
         <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
         <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
         <script>const shared = '../../../../shared/';</script>
-        <title>King Crimson - Larks' Tongues in Aspic</title>
+        <title>TTC - 3615</title>
     </head>
     <body>
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
@@ -34,13 +34,13 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <h1 id="title"><span style="font-size: 0.9em;">King Crimson - Larks' Tongues in Aspic</span></h1>
+                <h1 id="title">TTC - 3615</h1>
             </div>
             <article>
                 <div id="contents">
                     <!-- EXERCICE HEADER EOF -->
 
-<p class="spacer">Pour cet exercice, vous devez écrire du CSS afin de recréer la pochette de l’album <a target="_blank" href="https://open.spotify.com/album/4VKzYj7REUxkP1VXTdvSoV">"Larks' Tongues in Aspic"</a> du groupe rock progressif <a target="_blank" href="https://fr.wikipedia.org/wiki/King_Crimson">King Crimson</a>.</p>
+<p class="spacer">Pour cet exercice, vous devez écrire du CSS afin de recréer la pochette de l’album <a target="_blank" href="https://open.spotify.com/album/3CcdklP1Jmf3VapqHih81W">"3615"</a> du groupe rap français <a target="_blank" href="https://fr.wikipedia.org/wiki/TTC_(groupe)">TTC</a>. Vous y ajouterai aussi un effet de vibration de sonnerie pour rappeller l'excellente pièce <a href="#ambiance">"Téléphone"</a>.</p>
 
 <p>Aperçu du résultat 👇</p>
 
@@ -51,22 +51,18 @@
 
 <grostitre>Matériel</grostitre>
 
-<doclink href="./king-crimson-larks-tongues-in-aspic.zip">Dossier de départ</doclink>
+<doclink href="./ttc-3615.zip">Dossier de départ</doclink>
 
 <h3>Couleurs 🎨</h3>
 
-<color>#000000</color>
-<color>#555555</color>
-<color>#fffdee</color>
+<color>#01a1ff</color>
+<color>#ff7304</color>
+<color>#d8dc09</color>
+<color>#da5767</color>
 <br>
-<color>#872639</color>
-<color>#edbc31</color>
-<color>#93cff4</color>
-
-<h3>Médias 📷</h3>
-
-<mediafile src="./images/sun-face.webp">Visage soleil</mediafile>
-<mediafile src="./images/moon-face.webp">Visage lune</mediafile>
+<color>#5d0166</color>
+<color>#555555</color>
+<color>#ffffff</color>
 
 <br>
 
@@ -80,40 +76,44 @@
 <grostitre>Requis de base</grostitre>
 
 <checklist>
-    Téléchargez les images et placez-les dans un dossier <span class="inline-code">images</span>.
     Créez une variable pour chacune des couleurs pour utilisation ultérieure.
-    Créez une variable nommée <span class="inline-code">--speed</span> et attribuez-lui la valeur de <em>6 secondes</em>. Celle-ci servira à déterminer le temps de rotation des éléments.
-    Le fond de la page doit être de couleur <em>grise</em> et avoir un dégradé vertical allant du <em>jaune</em> au <em>bleu</em>.
+    Créez une variable nommée <span class="inline-code">--speed</span> et attribuez-lui la valeur de <em>5 seconde</em>. Celle-ci servira à déterminer le temps de l'animation.
+    Le fond de la page doit être de couleur <em>grise</em> et avoir un dégradé vertical allant du <em>rouge</em> au <em>jaune</em>, au <em>orange</em> et au <em>bleu</em>.
     Fusionnez les deux fonds en mode <span class="inline-code">screen</span> afin de donner au gradient un effet délavé.
-    L'album doit avoir une largeur de <em>80%</em> du plus petit côté de la fenêtre, être de forme carré, être centré tant horizontalement que verticalement, être de couleur <em>blanc cassé</em> et avoir un ombrage de <em>10vmin</em> égal de tous les côtés de couleur <em>noire</em> semi-transparente.
-    Utilisez <span class="inline-code">box-shadow</span> afin de créer la quintuple bordure intérieure. <em>(4vmin pourpre, 5vmin blanc cassé, 6vmin pourpre, 7vmin blanc cassé et 7.2vmin pourpre)</em>
+    L'album doit avoir une largeur de <em>80%</em> du plus petit côté de la fenêtre, être de forme carré, être centré tant horizontalement que verticalement, être de couleur <em>blanche</em> et avoir un ombrage de <em>10vmin</em> égal de tous les côtés de couleur <em>noire</em> semi-transparente.
+    Assurez-vous que rien ne dépasse de l'album.
 </checklist>
 
-<grostitre>Requis rayons</grostitre>
+<grostitre>Requis arrière-plan</grostitre>
 
 <checklist>
-    Le conteneur de rayons (<span class="inline-code">.rays-wrapper</span>) doit être positionné de manière absolue au centre de l'album, avoir une largeur de <em>53%</em> et avoir des proportions carrées.
-    Corrigez votre <span class="inline-code">transform</span> afin de compenser la déformation du SVG en ajoutant <em>1%</em> à la translation verticale.
+    Afin de corriger la légère déformation du SVG, positionnez l'arrière-plan (<span class="inline-code">.bg</span>) de manière absolue à <em>-0.25%</em> du haut et de la gauche et donnez-lui une dimension de <em>100.5%</em> en largeur et en hauteur.
+    Le contour (<span class="inline-code">.contour</span>) doit être de couleur <em>mauve</em>.
+    Les parties de l'arrière-plan (<span class="inline-code">.part</span>) doivent être respectivement de couleur <em>orange</em>, <em>rouge</em>, <em>jaune</em> et <em>bleu</em>.
 </checklist>
 
-<grostitre>Requis soleil et lune</grostitre>
+<grostitre>Animation arrière-plan</grostitre>
 
 <checklist>
-    Le conteneur central (<span class="inline-code">.center-wrapper</span>) doit être positionné de manière absolue au centre de l'album, avoir une largeur de <em>26%</em> et avoir des proportions carrées.
-    La lune (<span class="inline-code">.moon</span>) doit être positionnée de manière absolue, prendre tout l'espace disponible en largeur et en hauteur, être de forme ronde, être de couleur <em>bleue</em> et avoir une bordure de <em>0.05vmin</em> solide <em>noire</em>.
-    Elle doit aussi avoir l'image <span class="inline-code">moon-face.webp</span> comme arrière-plan positionnée horizontalement au centre et à <em>90%</em> verticalement ainsi qu'avoir une grosseur de <em>35%</em>.
-    Le conteneur du soleil (<span class="inline-code">.sun-wrapper</span>) doit prendre tout l'espace disponible en largeur et en hauteur.
-    Le soleil (<span class="inline-code">.sun</span>) doit être positionné de manière absolue à <em>1%</em> du haut, avoir une largeur de <em>65%</em> avec des proportions carrées, être de forme ronde, être centré horizontalement avec les marges extérieures, avoir une bordure de <em>0.05vmin</em> solide <em>noire</em> et être de couleur <em>jaune</em>.
-    Elle doit aussi avoir l'image <span class="inline-code">sun-face.webp</span> comme arrière-plan positionnée horizontalement au centre et à <em>90%</em> verticalement ainsi qu'avoir une grosseur de <em>60%</em>.
+    Créez une animation nommée <span class="inline-code">parts</span> appliquant une transition de couleurs en 4 étapes <em>(0%,100% - 25% - 50% - 75%)</em> du <em>bleu</em> au <em>jaune</em> au <em>rouge</em> et au <em>orange</em>.
+    Appliquez cette animation aux parties de l'arrière-plan (<span class="inline-code">.part</span>) de manière infinie et d'une durée correspondant à la variable <span class="inline-code">--speed</span>.
+    Afin de décaler les couleurs, appliquez à l'animation un délais négatif de <em>0</em> moins la durée de l'animation divisé par <em>4</em> et multiplié par la variable <span class="inline-code">--nb</span>. Pour vous simplifier la vie, voici la formule: <span class="inline-code">calc(0s - (var(--speed) / 4 * var(--nb)))</span>.
 </checklist>
 
-<grostitre>Requis animation</grostitre>
+<grostitre>Requis lettres</grostitre>
 
 <checklist>
-    Créez une animation nommée <span class="inline-code">rotation</span> appliquant une rotation allant de <em>0deg</em> à <em>-360deg</em>.
-    Appliquez cette animation à la lune avec une durée correspondant à la variable <span class="inline-code">--speed</span> de façon linéaire et absolue.
-    Appliquez aussi cette animation au conteneur du soleil avec une durée correspondant à la variable <span class="inline-code">--speed</span> de façon linéaire et absolue.
-    Pour contrecarrer la rotation du soleil, appliquez lui la même animation avec une durée correspondant à la variable <span class="inline-code">--speed</span> de façon linéaire et absolue mais inversée.
+    Les lettres doivent avoir la police d'écriture <em>Arial</em>, une grosseur de <em>30vmin</em>, un poid de <em>800</em>, être de couleur <em>mauve</em> et avoir une rotation de <em>-15deg</em>.
+    Placez respectivement les trois lettres à <em>28%</em> de la gauche et <em>2%</em> du haut, <em>15%</em> de la gauche et <em>46%</em> du haut et <em>56%</em> de la gauche et <em>35%</em> du haut.
+    Assurez-vous que le <a onclick="event.stopPropagation();" target="_blank" href="https://developer.mozilla.org/fr/docs/Web/CSS/cursor">curseur</a> demeure celui par défaut lorsque les lettres sont survolées.
+</checklist>
+
+<grostitre>Animation lettres</grostitre>
+
+<checklist>
+    Créez une animation nommée <span class="inline-code">letter</span> appliquant une rotation de <em>-20deg</em> à <em>-10deg</em> et appliquez-la sur le survol des lettres.
+    L'animation doit avoir une durée <em>5 millisecondes</em> et se répéter à l'infinie de manière alternée et linéaire.
+    Toujours lors du survol des lettres, appliquez-leur un flou de <em>0.2vmin</em>.
 </checklist>
 
 <dots></dots>
@@ -121,7 +121,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/king-cCrimson-larks-tongues-in-aspic-part-2.json"></youtube>
+<youtube src="./videos/ttc-telephone.json"></youtube>
 
 <dots></dots>
 
@@ -164,6 +164,13 @@
                 </div>
             </div>
                     <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../html/svg/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../html/svg/">SVG</a></span>
+                    <span class="intlink__item__abstract">Scalable Vector Graphics</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
                 <div class="intlink__item__icon" style="background-image: url('../../animation/images/icon.png');"></div>
                 <div class="intlink__item__description">
                     <span class="intlink__item__title"><a target="_blank" href="../../animation/">Animation</a></span>
@@ -172,6 +179,12 @@
             </div>
         
 <dots></dots>
+
+
+
+
+
+
                     <!-- EXERCICE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>

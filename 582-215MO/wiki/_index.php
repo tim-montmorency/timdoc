@@ -321,8 +321,8 @@
     <h2>TP Complémentaire <em>(formatif)</em></h2>
     <?php intlink("../css/exercices/tool-aenima/"); ?>
     <?php intlink("../css/exercices/asian-dub-foundation-rafis-revenge/"); ?>
-    <h2>Aperçu de l'examen final</h2>
-    <video playsinline src="./videos/loup.mp4" autoplay="true" muted="true" loop="true" style="width: 100%; max-width: 770px;"></video><br>
+    <br>
+    <img src="./images/fall-cliff-css-tps.jpg" style="width: 100%; max-width: 770px; margin: 0;">
 </wiki-page>
 
 
@@ -334,16 +334,23 @@
     <?php intlink("../html/microdonnees/"); ?>
     <?php intlink("../html/microdonnees/exercices/cf-montreal/"); ?>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
+    <?php intlink("../css/exercices/ttc-3615/"); ?>
     <?php intlink("../css/exercices/nirvana-nevermind/"); ?>
     <?php intlink("../css/exercices/pink-floyd-the-dark-side-of-the-moon/"); ?>
+    <br><img src="./images/spiderman-tell-me-the-truth-jai-pas-fait-les-tps.jpg" style="width: 100%; max-width: 770px; margin: 0;">
 </wiki-page>
 
 
 <wiki-page name="Cours 15A" date="2023-05-16">
     <h3>TP Complémentaire <em>(formatif)</em></h3>
     <?php intlink("../css/exercices/trainspotting/"); ?>
-    <h2>Révision pour l'examens</h2>
+    <?php intlink("../css/exercices/robert-charlebois-la-maudite-tournee/"); ?>
+    <?php intlink("../css/exercices/les-cowboys-fringants-break-syndical/"); ?>
+    
+    <h2>Bonus</h2>
     <?php intlink("../css/exercices/south-park/"); ?>
+    <h2>Aperçu de l'examen final</h2>
+    <video playsinline src="./videos/loup.mp4" autoplay="true" muted="true" loop="true" style="width: 100%; max-width: 770px;"></video><br>
 </wiki-page>
 
 

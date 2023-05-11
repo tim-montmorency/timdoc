@@ -219,6 +219,15 @@ body.dark .mediafile__link-text {
   background-color: #1c1d21;
   color: #ff003a;
 }
+body.dark .mediafile__download {
+  background-color: #ff003a;
+}
+body.dark .mediafile__download:hover {
+  background-color: #004ca3;
+}
+body.dark .mediafile__download.copied {
+  background-color: #34ad24;
+}
 body.dark .mediafile__chain {
   background-color: #ff003a;
 }
@@ -638,6 +647,28 @@ body.dark table tr:nth-child(even) td {
     line-height: 36px;
     display: block;
   }
+}
+.mediafile__download {
+  transition-duration: 200ms;
+  height: 22px;
+  width: 22px;
+  padding: 2px;
+  text-align: center;
+  vertical-align: center;
+  border-radius: 50%;
+  display: inline;
+  background-color: #ffc5c5;
+  margin-left: 6px;
+}
+.mediafile__download svg {
+  margin: 2px;
+}
+.mediafile__download:hover {
+  cursor: pointer;
+  background-color: #fa6b6b;
+}
+.mediafile__download.copied {
+  background-color: #83ff73;
 }
 .mediafile__chain {
   transition-duration: 200ms;
@@ -1379,6 +1410,10 @@ div.quote__title {
   font-size: 1em;
   font-weight: bold;
   width: 100px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .correction__criteria td:nth-child(1) {
   width: 1%;
@@ -1405,6 +1440,7 @@ div.quote__title {
 }
 .correction__criteria__scale:hover, .correction__criteria__scale.checked {
   background-color: #ff003a;
+  font-weight: bold;
 }
 
 /* light color palette: https://coolors.co/577590-f3ca40-ff003a-e1e4f2-f2a541 */
