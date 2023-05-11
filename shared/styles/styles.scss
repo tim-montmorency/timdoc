@@ -453,11 +453,12 @@ table{
         background-color: rgba(0,0,0,0.05)
     }
 
-
     &.table-couleurs{
         width: 300px;
 
-        td{width: 50%;}
+        td{
+            width: 50%;
+        }
 
         .color{ 
             margin: 0;
