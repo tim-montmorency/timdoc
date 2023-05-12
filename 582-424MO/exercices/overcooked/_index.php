@@ -68,7 +68,9 @@ Synchronisé avec le défilement de la page (scroll), le logo (<code>.logo</code
 <grostitre>Ingrédients</grostitre>
 
 <checklist>
-Créez une (et une seule) animation GSAP faisant apparaître et déplacer les ingrédients <code>.ingredients</code> un après l'autre SANS utiliser la timeline cette fois. Leur opacité doit se rendre à 100% et ils doivent se déplacer sur l’axe des Y sur 200px vers le bas en 1 seconde, un après l’autre, à intervalle de 0,5 seconde. 
+Créez une (et une seule) animation GSAP faisant apparaître et déplacer les ingrédients <code>.ingredients</code> un après l'autre SANS utiliser la timeline cette fois. 
+Cette animation sera activée au clic du bouton Go.
+L'opacité des ingrédients doit se rendre à 100% et ils doivent se déplacer sur l’axe des Y sur 200px vers le bas en 1 seconde, un après l’autre, à intervalle de 0,5 seconde. 
 Lorsque tous les ingrédients ont terminé d’apparaitre, appelez la fonction existante <code>bindClickEventOnIngredients</code>.
 </checklist>
 
