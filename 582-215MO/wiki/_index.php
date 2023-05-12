@@ -344,6 +344,7 @@
 <wiki-page name="Cours 15A" date="2023-05-16">
     <h3>TP Complémentaire <em>(formatif)</em></h3>
     <?php intlink("../css/exercices/trainspotting/"); ?>
+    <?php intlink("../css/exercices/lisa-leblanc-lisa-leblanc/"); ?>
     <?php intlink("../css/exercices/robert-charlebois-la-maudite-tournee/"); ?>
     <?php intlink("../css/exercices/les-cowboys-fringants-break-syndical/"); ?>
     
