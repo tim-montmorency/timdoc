@@ -192,14 +192,14 @@ La couleur de fond doit-être&nbsp;bleu vif et le texte&nbsp;blanc.</checklist>
 
 
 
-
+<!--
 
 <dots></dots>
 <grostitre>Pied de page</grostitre>
 
 <checklist>Le pied de page doit utiliser la&nbsp;balise&nbsp;appropriée, son texte doit être blanc, avoir une couleur de fond&nbsp;noir nuit ⚫️&nbsp;et se garder un espace vide de 15px dans le haut et le&nbsp;bas.
 Par défaut les textes&nbsp;<em>"TIM Montmorency"</em>&nbsp;et&nbsp;<em>"© 2021"</em>&nbsp;doivent être centrés un au-dessus de l'autre. À partir du breakpoint&nbsp;<code>sm</code>, ils doivent être affichés un à côté de l'autre. Le 1<sup>er</sup>&nbsp;aligné complètement à gauche et le 2<sup>e</sup>&nbsp;complètement à&nbsp;droite.
-</checklist>
+</checklist> -->
 
 <dots></dots>
 
