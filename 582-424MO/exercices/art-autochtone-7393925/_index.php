@@ -14,9 +14,14 @@
 
 <p>Aperçu du résultat 👇</p>
 
-<clipasset src='images/art-autochtone-demo.mp4'></clipasset>
+<clipasset src='videos/art-autochtone-demo.mp4'></clipasset>
+
 <p>Vous pouvez aussi contrôler la vidéo de l'aperçu avec le <em>player</em> ci-dessous:</p>
-<iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=67162dab-c28d-4cd6-a750-5b31058df5c4&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="art-autochtone-demo.mov"></iframe>
+<div style="max-width: 770px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=67162dab-c28d-4cd6-a750-5b31058df5c4&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="770" height="433" frameborder="0" scrolling="no" allowfullscreen title="art-autochtone-demo.mov" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+    
+    
+    <br>
+    <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EastFmeNwtZMp1BbMQWN9cQBVHrgpsZ_QPVrk9EHqHdMTg?e=bvlK6d" target="_blank">Lien vers vidéo (visible par les membres du collège seulement)</a>
 
     <dots></dots>
 
