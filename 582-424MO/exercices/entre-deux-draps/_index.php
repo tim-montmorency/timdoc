@@ -80,8 +80,7 @@
     src="https://fonts.google.com/specimen/Poppins?preview.text_type=custom&preview.text=Vous%20%C3%AAtes%20capable,%20vous%20allez%20r%C3%A9ussir!">
     Police Poppins</mediafile>
 
-<warning>Les propriétés CSS <code>position</code> et <code>transform</code> seront inutiles. La mise en page sera
-    réalisée entièrement grâce&nbsp;à&nbsp;Bootstrap.</warning>
+<warning>Les propriétés CSS <code>position</code> et <code>transform</code> seront inutiles. La mise en page sera réalisée entièrement grâce&nbsp;à&nbsp;Bootstrap.</warning>
 
 
 <dots></dots>
