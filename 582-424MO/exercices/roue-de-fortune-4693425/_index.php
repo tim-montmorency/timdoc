@@ -20,13 +20,13 @@
 <dots></dots>
 
 <grostitre>Matériel</grostitre>
-<doclink href="fichiers/">Dossier de départ 📁</doclink>
+<doclink href="fichiers/nom_prenom_roue-fortune-base.zip">Dossier de départ 📁</doclink>
 
 
 
 <warning>Vous n’avez qu’à écrire du HTML et du JavaScript <em>(nul besoin de modifier le CSS)</em>. La librairie Bootstrap est aussi déjà incorporée pour&nbsp;vous.</warning>
 
-
+<!--
 
 <dots></dots>
 
@@ -52,15 +52,14 @@ Faites en sorte que les deux colonnes affichent l'une en dessous de l'autre par 
 </checklist>
 <img src="images/roue-de-fortune-lg.png">
 
-
+-->
 
 <dots></dots>
 
 <grostitre>Mise en place</grostitre>
 <checklist>
 Importez la librairie GSAP dans votre&nbsp;projet.
-Captez le clic sur la scène.
-Ajoutez un écouteur d'événement du clique sur la scène.
+Captez le clique de l'utilisateur sur la scène.
 Lorsque la scène est cliquée (au même moment), créez une variable nommée <code>hasard</code> et logez en celle-ci l'appel à la fonction <code>pige</code> afin de tirer au hasard un nombre entre 0° et 360°.
 N'hésitez pas à faire des <code>console.log</code> pour vérifier vos valeurs voir <em>si-ça-marche</em>.
 </checklist>
