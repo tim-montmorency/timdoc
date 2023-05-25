@@ -77,6 +77,7 @@
     Lorsqu'une classe Bootstrap existe pour ce que vous tentez de faire, vous êtes dans l'obligation d'utiliser la classe Bootstrap, et non pas d'aller styliser en CSS.
     Pour le reste, vous pourrez écrire du CSS. Cependant, il est exigé de bien classer votre CSS en utilisant les commentaires (déjà présents) pour séparer le tout en sections distinctes.
     Votre JavaScript, votre HTML et votre CSS doivent être propres et bien indentés (formattés).
+    L'espacement doit être constant entre les sections et éléments. Même en format mobile. Pensez à vous comparer à l'APERÇU.
 </checklist>
 
 
@@ -118,7 +119,7 @@ Ajoutez une balise <code>main</code> SOUS la balise <code>header</code>. Dans <c
 Dans la section <code>#hero</code>, ajoutez les balises nécessaires pour faire un carrousel avec Swiper. Il y aura 4 dispositives. Tout le contenu des diapositives est déjà dans la page, vous pouvez le récupérer.
 Conservez la classe <code>.swiper</code> sur le parent du carrousel.
 Stylisez la section <code>#hero</code> en CSS et lui attribuant la couleur de la variable <code>bs-light</code> en arrière-plan.
-Stylisez le carrousel <code>.swiper</code> pour lui donner une hauteur de 45 pourcent de la hauteur du <em>Viewport Height</em> et une largeur maximum de 1700px.
+Stylisez le carrousel <code>.swiper</code> en CSS pour lui donner une hauteur de 45 pourcent de la hauteur du <em>Viewport Height</em> et une largeur maximum de 1700px.
 Ajoutez au carrousel une classe utilitaire Bootstrap pour le centrer dans un écran qui serait plus large que 1700px.
 Activez le carrousel en JavaScript avec les configurations suivantes:<br>- Transition par fondu enchaîné<br>- Doit jouer automatiquement et rester 2 secondes à la fois<br>- Doit tourner à l'infini <br>- Doit contenir une navigation précédent et suivant<br>- Doit contenir une pagination dans le bas (les petits ronds, comme on le voit dans l'APERÇU).
 Ajustez les images afin qu'elle s'affichent de façon la plus entière possible dans leur diapositive (peut-être rognée sur les côtés et ou dans le haut-bas). Fiez-vous toujours à l'aperçu.
@@ -128,11 +129,11 @@ Ajustez les images afin qu'elle s'affichent de façon la plus entière possible 
 <dots></dots>
 <grostitre>Section présentation</grostitre>
 <checklist>
-Dans la section<code>#presentation</code> que vous avez préalablement créee, ajoutez les balises et classes nécessaires pour une grille de mise en page Bootstrap de 4 colonnes.
+Dans la section<code>#presentation</code> que vous avez préalablement créée, ajoutez les balises et classes nécessaires pour une grille de mise en page Bootstrap de 4 colonnes.
 Par défaut, chaque colonne s'affiche sur toute la largeur de la page (donc elles s'affichent une en dessous de l'autre).
 À partir du <em>breakpoint</em> <code>MD</code>, chaque colonne s'affiche sur la moitié de la largeur de la page.
 À partir du <em>breakpoint</em> <code>XL</code>, chaque colonne s'affiche sur le quart de la largeur de la page.
-Dans chaques colonnes ajoutez le texte. Les titres seront logés dans une balise <code>h2</code> mais avec une classe <code>.h4</code> pour leur donner un style plus petit même s'il sont sémantiquement des <code>h2</code>. Le texte qui suis sera un paragraphe.
+Dans chaque colonne ajoutez le texte. Les titres seront logés dans une balise <code>h2</code> mais avec une classe <code>.h4</code> pour leur donner un style plus petit même s'il sont sémantiquement des <code>h2</code>. Le texte qui suit, sera un paragraphe.
 Ajoutez des classes utilitaires Bootstrap pour créer l'espacement nécessaire entre chaque élément et section.
 </checklist>
 
