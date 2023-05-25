@@ -67,7 +67,7 @@ N'hésitez pas à faire des <code>console.log</code> pour vérifier vos valeurs 
 
 <grostitre>Animations GSAP de la roue</grostitre>
 <checklist>
-Si cela s'applique, n'oubliez d'installer les plugiciels nécessaires. N'en installez pas inutilement.
+Si cela s'applique, n'oubliez pas d'installer les plugiciels nécessaires. N'en installez pas inutilement.
 Toujours lorsque la scène est cliquée (au même moment), créez une suite de plusieurs animations.
 Le bras de l'animateur doit faire une légère rotation (voir l'aperçu) pour démarrer la roue.
 Notez qu'au départ de l'animation, la roue devra toujours avoir une rotation équivalente à 0°, soit l'équivalent d'aucune rotation.
@@ -83,7 +83,7 @@ Lorsque cette suite d'animation est terminée, appelez la fonction <code>afficha
 <grostitre>Panneau</grostitre>
 
 <checklist>
-Si cela s'applique, n'oubliez d'installer les plugiciels nécessaires. N'en installez pas inutilement.
+Si cela s'applique, n'oubliez pas d'installer les plugiciels nécessaires. N'en installez pas inutilement.
 Dans la fonction <code>affichagePrix</code>, créez une animation GSAP sur les lumières, en leur rendant leur taille et leur opacité. Vous devez animer toutes les lumières à partir du centre avec un léger décalage de 0.05 seconde entre chacune d'entre elles afin de donner l'impression que les lumières s'illuminent une à la suite de l'autre 💡.
 </checklist>
 
@@ -92,7 +92,7 @@ Dans la fonction <code>affichagePrix</code>, créez une animation GSAP sur les l
 <grostitre>Réinitialisation</grostitre>
 
 <checklist>
-Si cela s'applique, n'oubliez d'installer les plugiciels nécessaires. N'en installez pas inutilement.
+Si cela s'applique, n'oubliez pas d'installer les plugiciels nécessaires. N'en installez pas inutilement.
 Dans la fonction <code>reinitialiserPanneau</code>, ajoutez la méthode GSAP qui vous permet de changer les valeurs sans animer. Celle-ci vous permettra de réinitialiser les valeurs des lumières.
 </checklist>
 
@@ -102,7 +102,7 @@ Dans la fonction <code>reinitialiserPanneau</code>, ajoutez la méthode GSAP qui
 
 <clipasset src='videos/roue-fortune-scrolltrigger.mp4'></clipasset>
 <checklist>
-Si cela s'applique, n'oubliez d'installer les plugiciels nécessaires. N'en installez pas inutilement.
+Si cela s'applique, n'oubliez pas d'installer les plugiciels nécessaires. N'en installez pas inutilement.
 Au défilement de la page (scroll), vous devez agrandir l'animateur de 3.5 fois sa taille initiale.
 L'animation doit être syncronisée avec le mouvement du défilement (scroll).
 Fiez-vous à la petite démo ci-haut pour réaliser l'effet.
