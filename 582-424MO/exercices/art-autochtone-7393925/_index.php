@@ -171,3 +171,19 @@ Nul besoin de styliser le texte, il l'est déjà fait.
 Ajoutez des classes utilitaires Bootstrap pour créer l'espacement nécessaire entre chaque élément et section.
 </checklist>
 
+
+
+
+<grostitre>Remise</grostitre>
+
+<warning>Ne faire qu'une remise pour les 2 exercices (art autochtone et roue de fortune)</warning>
+
+<checklist>Créez un dossier nommé [nom de famille]_[prénom]_examen<br>ex: <em>ouellet_mariemichelle_examen</em>
+    Déposez-y vos 2 dossiers de projet (art autochtone et roue de fortune)
+    Compressez ensuite votre dossier de travail en <a href="https://www.ezyzip.com/" target="_blank"
+        rel="noopener noreferrer">fichier&nbsp;zip 🗜</a>
+    Envoyez-moi un <a href="https://teams.microsoft.com/l/chat/0/0?users=mariem.ouellet@cmontmorency.qc.ca"
+        target="_blank" rel="noopener noreferrer">message privé sur Teams</a> contenant votre fichier&nbsp;zip.
+</checklist>
+
+
