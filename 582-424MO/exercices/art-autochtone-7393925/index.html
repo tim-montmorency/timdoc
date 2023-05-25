@@ -40,20 +40,14 @@
                 <div id="contents">
                     <!-- EXERCICE HEADER EOF -->
 
-<p>Pour cet exercice, ...</p>
+<p>Pour cet exercice, nous allons recréer la page d'accueil de ce site sur l'art autochtone. Le contenu textuel et les images sont déjà présents dans index.html et plusieurs styles sont déjà dans styles.css pour vous aider à avancer plus rapidement.</p>
 
 <dots></dots>
 
-<p>Aperçu du résultat 👇</p>
-
+<grostitre>Aperçu du résultat 👇</grostitre>
 <clipasset src='videos/art-autochtone-demo.mp4'></clipasset>
 
-<p>Vous pouvez aussi contrôler la vidéo de l'aperçu avec le <em>player</em> ci-dessous:</p>
-<div style="max-width: 770px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=67162dab-c28d-4cd6-a750-5b31058df5c4&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="770" height="433" frameborder="0" scrolling="no" allowfullscreen title="art-autochtone-demo.mov" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
-    
-    
-    <br>
-    <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EastFmeNwtZMp1BbMQWN9cQBVHrgpsZ_QPVrk9EHqHdMTg?e=bvlK6d" target="_blank">Lien vers vidéo (visible par les membres du collège seulement)</a>
+<p>Vous pouvez aussi contrôler la vidéo de l'aperçu via <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EastFmeNwtZMp1BbMQWN9cQBVHrgpsZ_QPVrk9EHqHdMTg?e=bvlK6d" target="_blank">ce lien vers vidéo </a> (visible par les membres du collège seulement)</p>
 
     <dots></dots>
 
@@ -96,8 +90,8 @@
 
 
 <h3 id="Medias">Polices de caractère</h3>
-<a hrefc="https://fonts.google.com/specimen/Roboto">
-    Police: Roboto</a>: Sélectionner les styles Thin, Light, Regular et Bold
+<a href="https://fonts.google.com/specimen/Roboto" target="_blank">
+    Police Roboto</a>: Sélectionnez les niveaux de graisse <em>Thin</em>, <em>Light</em>, <em>Regular</em> et <em>Bold</em>
 
 <dots></dots>
 <alert>Les propriétés CSS <em>position</em> et <em>transform</em> seront inutiles. <br>La mise en page sera réalisée entièrement grâce&nbsp;à&nbsp;Bootstrap.</alert>
@@ -105,17 +99,106 @@
 
 <dots></dots>
 
-<grostitre>Requis généraux</grostitre>
+<grostitre>Requis et critères généraux</grostitre>
 
-<checklist>
+
+<!-- 
     Le site doit être entièrement fonctionnel sans avoir à démarrer "Live Server". Pour tester, vous pouvez installer l'extention de VS Code "Open In Default Browser" ou simplement ouvrir votre ficheir index.html via votre navigateur de fichiers Windows ou MacOS.
-    Ajoutez Bootstrap VERSION <em>5.2.3</em> au projet (via CDN).</checklist>
+-->
+<checklist>
+    Lorsqu'une classe Bootstrap existe pour ce que vous tentez de faire, vous êtes dans l'obligation d'utiliser la classe Bootstrap, et non pas d'aller styliser en CSS.
+    Pour le reste, vous pourrez écrire du CSS. Cependant, il est exigé de bien classer votre CSS en utilisant les commentaires (déjà présents) pour séparer le tout en sections distinctes.
+    Votre JavaScript, votre HTML et votre CSS doivent être propres et bien indentés (formattés).
+</checklist>
+
+
+<dots></dots>
+<grostitre>Général</grostitre>
+<checklist>
+Ajoutez la police Roboto</a>: Sélectionnez les niveaux de graisse <em>Thin</em>, <em>Light</em>, <em>Regular</em> et <em>Bold</em>. Appliquez la police sur l'ensemble de votre page et appliquez un graisse par défaut.
+Pour le reste de la page, sur les différentes sections et composantes, fiez-vous à l'APERÇU ci-haut pour appliquer la graisse qui correspond le mieux.
+Ajoutez Bootstrap version <em>5.2.3</em> au projet (via CDN).
+</checklist>
 
 
 
 <dots></dots>
-
 <grostitre>Navigation</grostitre>
+<checklist>
+Dans une balise <em>header</em>, ajoutez une barre de navigation <em>nav</em> (utilisez la composante de Bootstrap).
+Ajoutez les classes Bootstrap pour:<br>- Changer d'affichage vers la navigation complète à partir du breakpoint <code>md</code><br>- Changer l'arrière-plan de la navbar pour du foncé (dark)<br>- Ajustez le thème de couleur de la navbar de sorte que le texte soit facilement lisible.<br>- La barre de navigation doit toujours être positionnée en haut de la page, peu importe le défilement de celle-ci.
+Dans cette nav, ajoutez le type de conteneur qui aura une largeur FIXE différente en fonction de la dimension de l'écran et des breakpoints Bootstrap. 
+La barre doit contenir le logo à gauche. C'est la marque de commerce du site. <br><small>(Note: Conservez le h1 qui se trouve déjà autour de l'image du logo. Lorsqu'une page d'accueil n'a pas de titre visible, on entoure souvent le logo d'un h1 pour, sémantiquement, lui accorder un titre principal. Dans ce cas-ci, c'est le contenu du texte alternatif de l'image du logo.)</small>
+Sur un écran plus petit que le breakpoint md, on devra voir le bouton avec icône du "Burger menu" aligné tout à droite.
+Dans la barre de navigation, ajoutez tous les liens comme il est présenté dans l'APERÇU (n'oubliez pas, tout le texte nécessaire est déjà présent dans la page index.html).
+N'oubliez pas le sous-menu de l'élément "Les artistes".
+Le lien "Don" sera un bouton Bootstrap. Appliquez-lui les classes Bootstrap nécessaires pour le styliser comme on le voit.
+Vous devez ajouter la classe utilitaire Bootstrap pour afficher tous les liens principaux en majuscule, mais pas ceux du sous-menu "Les artistes".
+</checklist>
+<!--
+Pour bien utiliser la composante de la barre de navigation Bootstrap, vous devez personnaliser le(s) <code>id</code> qu'elle contient. Il faut aussi ajuster les attributs qui leurs font référence (bref, je ne veux pas voir de simple copier-coller d'un bloc de code complet trouvé ailleurs). Par ailleurs, les classes Bootstrap pour la navBar doivent être conservées pour la rendre fonctionnelle.
+
+Tous les liens de la navigation doivent mener vers "#".
+-->
+
+<dots></dots>
+<grostitre>Section Hero - Carrousel</grostitre>
+<checklist>
+Ajoutez la librarie SwiperJS au projet (via CDN).
+Ajoutez une balise <code>main</code> SOUS la balise <code>header</code>. Dans <code>main</code>, ajoutez 3 <code>section</code> une en dessous de l'autre, avec les <code>id</code> suivants: hero, presentation, actalite (sans accent).
+Dans la section <code>#hero</code>, ajoutez les balises nécessaires pour faire un carrousel avec Swiper. Il y aura 4 dispositives. Tout le contenu des diapositives est déjà dans la page, vous pouvez le récupérer.
+Conservez la classe <code>.swiper</code> sur le parent du carrousel.
+Styliser la section <code>#hero</code> en css et lui attribuant la couleur de la variable <code>bs-light</code> en arrière-plan.
+Stylisez le carrousel <code>.swiper</code> pour lui donner une hauteur de 45 pourcent de la hauteur du <em>Viewport Height</em> et une largeur maximum de 1700px.
+Ajoutez au carrousel une classe utilitaire Bootstrap pour le centrer dans un écran qui serait plus large que 1700px.
+Activez le carrousel en JavaScript avec les configurations suivantes:<br>- Transition par fondu enchaîné<br>- Dois jouer automatiquement et rester 2 secondes à la fois<br>- Doit tourner à l'infini <br>- Doit contenir une navigation précédent et suivant<br>- Doit contenir une pagination dans le bas, comme on le vois dans l'APERÇU.
+Stylisez, en CSS, les flèches et navigation et les éléments de paginations pour qu'ils soient de la même couleur que dans l'APERÇU.
+Ajustez les images afin qu'elle s'affichent de façon la plus entière possible dans leur diapositive (peut-être rognée sur les côtés et ou dans le haut-bas). Fiez-vous toujours à l'aperçu.
+</checklist>
+
+
+<dots></dots>
+<grostitre>Section présentation</grostitre>
+<checklist>
+Dans la section<code>#presentation</code> que vous avez préalablement créee, ajoutez les balises et classes nécessaires pour une grille de mise en page Bootstrap de 4 colonnes.
+Par défaut, chaque colonne s'affiche sur toute la largeur de la page.
+À partir du <em>breakpoint</em> <code>md</code>, chaque colonne s'affiche sur la moitié de la largeur de la page.
+À partir du <em>breakpoint</em> <code>xl</code>, chaque colonne s'affiche sur le quart de la largeur de la page.
+Dans chaque colonnes ajoutez le texte. Les titres seront logés dans une balise <code>h2</code> mais avec une classe <code>.h4</code> pour leur donner un style plus petit même s'il sont sémantiquement des <code>h2</code>. Le texte qui suis sera un paragraphe.
+Ajoutez des classes utilitaires Bootstrap pour créer l'espacement nécessaire entre chaque élément et section.
+</checklist>
+
+
+
+
+<dots></dots>
+<grostitre>Section Actualité - Cartes</grostitre>
+<checklist>
+Dans la section<code>#presentation</code> que vous avez préalablement créee, ajoutez les balises et classes nécessaires pour une grille de mise en page Bootstrap: une rangée d'une seule colonne qui inclura le titre et une autre rangée qui contiendra 3 colonnes et une dernière rangée d'une seule colonne qui contiendra le bouton "Toute l'actualité>>".
+Dans la rangée 2: Par défaut, chaque colonne s'affiche sur toute la largeur de la page.
+Dans la rangée 2: À partir du <em>breakpoint</em> <code>md</code>, chaque colonne s'affiche sur la moitié de la largeur de la page.
+Dans la rangée 2: À partir du <em>breakpoint</em> <code>lg</code>, chaque colonne s'affiche sur le tier de la largeur de la page.
+Dans la rangée 1: Ajoutez le titre "Actualité". Il sera aussi de niveau 2.  Ajoutez les classes utilitaires Bootstrap pour créer l'espacement autour du titre. Ajoutez du CSS pour la "petite ligne" de couleur de la variable <code>bs-secondary</code>.
+Dans votre grille, ajoutez des cartes (card) Bootstrap et toutes les balises et classes nécessaires sur le contenu.
+En CSS, ajustez l'image de la carte, elle doit avoir une hauteur maximum de 200px et vous devez positionner les images dans leur cadre comme elles sont présentées dans l'APERÇU.
+Les titres dans les cartes seront de niveau 3.
+Stylisez en CSS les listes ul <code>.categories</code> pour qu'elles s'affichent tel que présentées dans l'APERÇU.
+Ajoutez des classes utilitaires Bootstrap pour créer l'espacement nécessaire entre chaque élément et section.
+Dans la rangée 3: Ajoutez le texte "Toute l'actualité>>" et ajoutez les classes Bootstrap nécessaires pour lui donner cet aspect de gros bouton.
+</checklist>
+
+
+
+<dots></dots>
+<grostitre>Pied de page</grostitre>
+<checklist>
+Sous la balise <code>main</code> ajoutez les balise sémantique pour le pied de page.
+Ajoutez les balises et classes nécessaires pour une grille de mise en page Bootstrap de 4 colonnes.
+Déposez simplement le contenu textuel qui est prévu pour chaque colonne. Nul besoin de styliser le texte, on arrête là.
+Ajoutez des classes utilitaires Bootstrap pour créer l'espacement nécessaire entre chaque élément et section.
+</checklist>
+
+
                     <!-- EXERCICE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>
