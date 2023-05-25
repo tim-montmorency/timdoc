@@ -132,7 +132,7 @@ Dans la section<code>#presentation</code> que vous avez préalablement créee, a
 Par défaut, chaque colonne s'affiche sur toute la largeur de la page (donc elles s'affichent une en dessous de l'autre).
 À partir du <em>breakpoint</em> <code>MD</code>, chaque colonne s'affiche sur la moitié de la largeur de la page.
 À partir du <em>breakpoint</em> <code>XL</code>, chaque colonne s'affiche sur le quart de la largeur de la page.
-Dans chaque colonnes ajoutez le texte. Les titres seront logés dans une balise <code>h2</code> mais avec une classe <code>.h4</code> pour leur donner un style plus petit même s'il sont sémantiquement des <code>h2</code>. Le texte qui suis sera un paragraphe.
+Dans chaques colonnes ajoutez le texte. Les titres seront logés dans une balise <code>h2</code> mais avec une classe <code>.h4</code> pour leur donner un style plus petit même s'il sont sémantiquement des <code>h2</code>. Le texte qui suis sera un paragraphe.
 Ajoutez des classes utilitaires Bootstrap pour créer l'espacement nécessaire entre chaque élément et section.
 </checklist>
 
