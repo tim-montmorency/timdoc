@@ -94,7 +94,7 @@ Ajoutez Bootstrap version <em>5.2.3</em> au projet (via CDN).
 <grostitre>Navigation</grostitre>
 <checklist>
 Dans une balise <em>header</em>, ajoutez une barre de navigation <em>nav</em> (utilisez la composante de Bootstrap).
-Ajoutez les classes Bootstrap pour:<br>- Changer d'affichage vers la navigation complète à partir du breakpoint <code>MD</code><br>- Changer l'arrière-plan de la navbar pour du foncé (dark)<br>- Ajustez le thème de couleur de la navbar de sorte que le texte soit facilement lisible.<br>- La barre de navigation doit toujours être positionnée en haut de la page, peu importe le défilement de celle-ci.
+Ajoutez les classes Bootstrap pour:<br>- Changer d'affichage vers la navigation complète à partir du breakpoint <code>MD</code><br>- Changer l'arrière-plan de la navbar pour du foncé (dark)<br>- Ajuster le thème de couleur de la navbar de sorte que le texte soit facilement lisible.<br>- La barre de navigation doit toujours être positionnée en haut de la page, peu importe le défilement de celle-ci.
 Dans cette nav, ajoutez le type de conteneur qui aura une largeur FIXE différente en fonction de la dimension de l'écran et des breakpoints Bootstrap. 
 La barre doit contenir le logo à gauche. C'est la marque de commerce du site. <br><small>(Note: Conservez le h1 qui se trouve déjà autour de l'image du logo. Lorsqu'une page d'accueil n'a pas de titre visible, on entoure souvent le logo d'un h1 pour, sémantiquement, lui accorder un titre principal. Dans ce cas-ci, c'est le contenu du texte alternatif de l'image du logo.)</small>
 Dans la barre de navigation, ajoutez tous les liens comme il est présenté dans l'APERÇU (n'oubliez pas, tout le texte nécessaire est déjà présent dans la page index.html).
