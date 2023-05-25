@@ -93,6 +93,7 @@ Dans la fonction <code>affichagePrix</code>, créez une animation GSAP sur les l
 
 <checklist>
 Si cela s'applique, n'oubliez pas d'installer les plugiciels nécessaires. N'en installez pas inutilement.
+Lorsque la scène est cliquée, appelez la fonction <code>reinitialiserPanneau</code>
 Dans la fonction <code>reinitialiserPanneau</code>, ajoutez la méthode GSAP qui vous permet de changer les valeurs sans animer. Celle-ci vous permettra de réinitialiser les valeurs des lumières.
 </checklist>
 
