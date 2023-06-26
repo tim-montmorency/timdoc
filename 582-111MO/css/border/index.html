@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/commons.js"></script>
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Border</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../../">Intégration Web</a> > <a href="../">CSS</a> ></div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Border</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">La propriété <incode>border</incode> a une vocation principalement esthétique, permettant d'ajouter une bordure à un élément.</p>
+
+<grostitre>border-width</grostitre>
+
+<p>La sous-propriété <incode>border-width</incode> permet de définir la taille de la bordure. Cette valeur peut-être n'importe quelle <a href="../unites-de-mesure/">unité de mesure CSS</a>.</p>
+
+<p>Par exemple:</p>
+
+<codepen id="rNrKMRN" tab="result" height="340"></codepen>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/border-width">border-width</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_border-width.asp">border-width</doclink>
+
+<dots></dots>
+
+
+<grostitre>border-style</grostitre>
+
+<p>Comme son nom l'indique, cette propriété permet de définir le style de la bordure.</p>
+
+<p>Styles disponibles:</p>
+
+<ul>
+    <li><incode>none</incode> <em>(par défaut)</em></li>
+    <li><incode>solid</incode> ligne standard <em>(plus commun)</em></li>
+    <li><incode>dotted</incode> pointillé</li>
+    <li><incode>dashed</incode> hachuré</li>
+    <li><incode>double</incode> double ligne</li>
+    <li><incode>groove</incode> bordure 3D donnant l'impression que le bordure a été gravée</li>
+    <li><incode>ridge</incode> bordure 3D donnant l'impression que la bordure ressort</li>
+    <li><incode>inset</incode> bordure 3D donnant l'impression que l'élément est enfoncé</li>
+    <li><incode>outset</incode> bordure 3D donnant l'impression que l'élément ressort</li>
+</ul>
+
+<codepen id="QWBxKXY" tab="result" height="340"></codepen>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/border-style">border-style</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_border-style.asp">border-style</doclink>
+
+<dots></dots>
+
+
+<grostitre>border-color</grostitre>
+
+<p>Permets de définir la couleur de la bordure.</p>
+
+<p>Par exemple:</p>
+
+<codepen id="rNrKWNV" tab="result" height="340"></codepen>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/border-color">border-color</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_border-color.asp">border-color</doclink>
+
+<dots></dots>
+
+
+<grostitre>Syntaxe courte</grostitre>
+
+<p>Il est aussi possible de définir ces trois propriétés avec une syntaxe courte en utilisant simplement la propriété border et en lui passant les différentes valeurs mentionnées précédemment.</p>
+
+<p>Par exemple:</p>
+
+<codepen id="eYjKBNN" tab="result" height="340"></codepen>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/border">border</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_border.asp">border</doclink>
+
+<dots></dots>
+
+
+<grostitre>border-radius</grostitre>
+
+<p>Permets de définir des coins arrondis sur un élément.</p>
+
+<codepen id="QWBxGjP" tab="result" height="340"></codepen>
+
+<p>Si chaque coin d'un élément est arrondi jusqu'à sa moitié, les coins arrondis se rejoignent et créer un ovale. Si l'élément est aussi haut que large, cet ovale devient alors un cercle comme dans l'exemple ci-dessus lorsque la dernière option est sélectionnée.</p>
+
+<info>Cette propriété s’applique qu’une bordure soit visible ou non sur l’élément.</info>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/border-radius">border-radius</doclink>
+<doclink href="https://www.w3schools.com/cssref/css3_pr_border-radius.asp">border-radius</doclink>
+
+<h3>Contrôle des coins individuellement</h3>
+
+<p>Il est possible de contrôler individuellement chaque coin d'un élément afin de créer des formes particulières. Pour ce faire, il est possible d'utiliser les propriétés:</p>
+
+<ul>
+    <li><incode>border-top-left-radius</incode></li>
+    <li><incode>border-top-right-radius</incode></li>
+    <li><incode>border-bottom-right-radius</incode></li>
+    <li><incode>border-bottom-left-radius</incode></li>
+</ul>
+
+<p>Ou encore de spécifier les multiples valeurs à même la propriété. Les coins sont spécifiés dans le sens des aiguilles d'une montre ⌚️ en commençant à partir du coin supérieur gauche.</p>
+
+<p>Par exemple:</p>
+
+<codepen id="KKBeNmK" tab="result" height="340"></codepen>
+
+<dots></dots>
+
+<tool href="tools/fancy-border-radius/"></tool>
+
+<exercice href="exercices/q-bitz"></exercice>
+
+<dots></dots>
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>

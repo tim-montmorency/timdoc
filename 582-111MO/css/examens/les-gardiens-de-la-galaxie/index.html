@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../../shared/jscripts/commons.js"></script>
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>Examen - Les Gardiens de la Galaxie</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->            <div id="subhead">
+                <h1 id="title">Examen - Les Gardiens de la Galaxie</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p class="spacer">Pour cet examen, nous allons recréer une affiche minimaliste du film <a target="_blank" href="https://www.imdb.com/title/tt2015381/">Les Gardiens de la Galaxie</a>.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<img src="images/les-gardiens-de-la-galaxie.png">
+
+<dots></dots>
+
+
+<grostitre>Matériel</grostitre>
+
+<doclink href="./les-gardiens-de-la-galaxie.zip">Dossier de départ</doclink>
+
+<h3>Couleurs 🎨</h3>
+
+<color>#efefef</color>
+<color>#210e0a</color>
+<color>#e33e2a</color>
+
+<br>
+
+<color>#dc4c34</color>
+<color>#e77f2f</color>
+<color>#eec66c</color>
+
+<alert>Le HTML est déjà fourni. Vous ne devez en aucun cas le modifier.</alert>
+
+<dots></dots>
+
+
+<grostitre>Requis de base</grostitre>
+
+<checklist>
+  Le couleur de fond de la page doit être blanc cassé ⚪️
+  L'affiche <em>(poster)</em>, doit mesurer 400x590px, être brune 🟤, avoir une bordure blanche ⚪️ de 10px de tous les côtés et être parfaitement centrée horizontalement ↔️.
+  L'affiche doit avoir une ombre de 20px, égale de tous les côtés. Cette ombre doit être noire ⚫️, mais ce noir doit avoir une opacité de 50%.
+</checklist>
+
+<!-- <dots></dots> -->
+
+
+<grostitre>Bandes de couleur</grostitre>
+
+<checklist>
+  Chaque bande <em>(stripe)</em> doit avoir une hauteur totale de 40px.
+  Le texte doit-être en 12px, être centré horizontalement ↔️ et être de couleur brune.
+</checklist>
+
+<!-- <dots></dots> -->
+
+
+<h3>1ière bande</h3>
+
+<checklist>
+  La bande doit être de couleur orange brulé et se situer à 20px du haut de l'affiche.
+  Le texte doit utiliser la police Helvetica, si cette dernière n'est pas disponible, le navigateur devra utiliser Arial comme police de substitution <em>(ces polices sont natives sur Mac et Windows)</em>.
+  Utilisez la propriété CSS permettant de transformer le texte en majuscules.
+  Centrez verticalement le texte dans la bande ↕️.
+</checklist>
+
+<!-- <dots></dots> -->
+
+
+<h3>2ième bande</h3>
+
+<checklist>
+  La bande doit être de couleur orange.
+  Le texte doit-être utiliser la police <em>guardians.woff2</em> se trouvant dans le dossier <em>polices</em> du dossier de départ.
+</checklist>
+
+<warning>La police doit absolument rester dans le dossier polices.</warning>
+
+<!-- <dots></dots> -->
+
+
+<h3>3ième bande</h3>
+
+<checklist>
+  La bande doit être de couleur jaune.
+</checklist>
+
+<!-- <dots></dots> -->
+
+
+<grostitre>Cassette</grostitre>
+
+<checklist>
+  La zone de la cassette <em>(tape)</em> doit prendre toute la largeur de l'affiche et mesurer 130px de haut.
+  L'image <em>tape.webp</em> doit-être utilisé comme image d'arrière-plan. Elle doit prendre un maximum d'espace tout en étant entièrement visible <em>(ne pas être coupée)</em> et être positionnée horizontalement dans l'espace.<br><br><img src="images/guardians-tape.png">
+  La fenêtre <em>(window)</em> doit être rouge, mesurer 180x50px, avoir des coins arrondis de 5px, être centrée horizontalement et alignée verticalement avec la première ligne rouge de la cassette.<br><br><img src="images/guardians-window.png">
+  Les bobines <em>(reel)</em> sont déjà de la bonne dimension. Il suffit de les positionner dans la fenêtre afin qu'elles soient partiellement tronquées comme sur la référence visuelle.<br><br><img src="images/guardians-reels.png">
+</checklist>
+
+<!-- <dots></dots> -->
+
+
+<grostitre>Gardiens</grostitre>
+
+<checklist>
+  Positionnez les gardiens dans le bon ordre au bas de la page. Faites attention à ce qu'ils soient précisément alignés avec le début de la bordure blanche.
+  Faites attention à l'arme de Gamora qui doit passer par-dessus les jambes de Groot.
+</checklist>
+
+<!-- <dots></dots> -->
+
+
+<grostitre>Remise</grostitre>
+
+<checklist>
+  Renommez votre dossier <em>"ex1_[nom]_[prenom]"</em>.
+  Zippez votre dossier <em>"ex1_[nom]_[prenom]"</em>.
+  Joignez votre fichier <em>.zip</em> au devoir <em>"EX01: Les Gardiens de la Galaxie"</em>.
+</checklist>
+
+<dots></dots>
+
+<img src="images/galaxy-2.gif">
+
+<dots></dots>
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>

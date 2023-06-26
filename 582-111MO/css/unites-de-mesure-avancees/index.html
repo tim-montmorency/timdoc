@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/commons.js"></script>
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Unités de mesure avancées</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../../">Intégration Web</a> > <a href="../">CSS</a> ></div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Unités de mesure avancées</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<grostitre>vw & vh</grostitre>
+
+<p>Les unitées <incode>vw</incode> et <incode>vh</incode> sont des unités relatives à la fenêtre <em>(viewport)</em>. Leur nom est en fait un acronyme:</p>
+
+<ul>
+    <li><incode>vw</incode>: viewport width <em>(largeur de fenêtre)</em></li>
+    <li><incode>vh</incode>: viewport height <em>(hauteur de fenêtre)</em></li>
+</ul>
+
+<p>Elles fonctionnent sur le même principe que les pourcentages <em>(%)</em>, mais plutôt que de se baser sur la dimension de leur parent, elles se basent plutôt sur la dimension de la fenêtre.</p>
+
+<p>Par exemple, pour qu'un élément prenne la moitié de la largeur de la fenêtre, il est possible d'utiliser:</p>
+
+<highlight lang="css">.element { width: 50vw; } /* Demi-largeur de fenêtre */</highlight>
+
+<p>À priori, le résultat peut sembler identique à:</p>
+
+<highlight lang="css">.element { width: 50%; } /* Demi-largeur du parent */</highlight>
+
+<p>Car si les deux éléments sont enfants de body <em>(body prenant par défaut toute la largeur de la fenêtre)</em> les deux auront la même dimension.</p>
+
+<p>Afin de bien illustrer la différence. Imaginons que nous avons une fenêtre d'une largeur de 1000px. À l'intérieur de celle-ci, un élément de 200px de large contenant deux enfants.</p>
+
+<ul>
+    <li>Un premier avec une largeur de <incode>50vw</incode></li>
+    <li>Un deuxième avec une largeur de <incode>50%</incode></li>
+</ul>
+
+<p>Le premier se basant sur la dimension de la fenêtre mesurera donc 500px. Tandis que le deuxième se basant sur son parent mesurera 100px.</p>
+
+<img src="images/vw-vh.png">
+
+<dots></dots>
+
+
+<grostitre>vmin & vmax</grostitre>
+
+<p>Tout comme <a href="#vw-vh">vw et vh</a>, <incode>vmin</incode> et <incode>vmax</incode> sont des unités relatives à la fenêtre <em>(viewport)</em>. Leur nom correspond à:</p>
+
+<ul>
+    <li><incode>vmin</incode> viewport minimum <em>(plus petit côté de la fenêtre)</em></li>
+    <li><incode>vmax</incode> viewport maximum <em>(plus grand côté de la fenêtre)</em></li>
+</ul>
+
+<p>Plutôt que de se baser directement sur un axe spécifique, la largeur ou la hauteur <em>(width/height)</em>, ces unités alternent entre les deux selon le contexte.</p>
+
+<p><incode>vmin</incode> calcule donc l'équivalent du <incode>vw</incode> et <incode>vh</incode> et retourne le plus petit résultat. Tandis que <incode>vmax</incode> fait l'opposé et retourne le plus grand résultat.</p>
+
+<p>Par exemple, pour créer un élément carré couvrant un maximum de la fenêtre, mais ne dépassant pas de celle-ci, il serait possible d'utiliser:</p>
+
+<highlight lang="css">.element {
+  width: 100vmin;
+  height: 100vmin;
+}</highlight>
+
+<img src="images/vmin-vmax.png">
+
+<dots></dots>
+
+
+<grostitre>calc()</grostitre>
+
+<p>Plutôt que de spécifier une mesure directement, il est possible d'utiliser la fonction CSS <incode>calc()</incode> afin de combiner différentes mesures et d'en retourner le résultat. Cette approche est particulièrement utile pour combiner des mesures relatives <em>(%, vw, etc.)</em> avec des mesures absolues <em>(px)</em>.</p>
+
+<p>Par exemple, si un élément doit couvrir toute la largeur de son parent, moins 50px, il est impossible d'y arriver avec une unité de base. Cependant, il est possible d'y arriver en combinant l'unité relative <incode>100%</incode> et l'unité absolue <incode>50px</incode>.</p>
+
+<codepen id="abjazxe" tab="css,result" height="340"></codepen>
+
+<p>Les opérateurs mathématiques de base <em>(+, -, *, /)</em> sont permis entre les parenthèses de <incode>calc()</incode></p>
+
+<warning>
+    Attention de laisser un espace vide avant et après les opérateurs mathématiques afin que le calcul fonctionne.<br>
+    ❌ <incode>calc(100%-50px);</incode><br>
+    ✅ <incode>calc(100% - 50px);</incode>
+</warning>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/calc()">calc()</doclink>
+<doclink href="https://www.w3schools.com/cssref/func_calc.asp">calc()</doclink>
+
+<dots></dots>
+
+
+<grostitre>min() & max()</grostitre>
+
+<p>Les fonctions CSS <incode>min()</incode> et <incode>max()</incode> permettent de retourner le plus petit ou le plus grand résultat parmi différentes valeurs.</p>
+
+<p>Par exemple, pour s'assurer qu'un texte ne soit jamais plus petit que 12px, afin qu'il reste toujours lisible, il est possible d'utiliser:</p>
+
+<highlight lang="css">.element { font-size: max(12px, 0.5em); }</highlight>
+
+<p>La fonction valide donc laquelle de ces 2 untiés retourne le plus grand résultat et ne garde que cette valeur.</p>
+
+<p>Si l'élément est dans un parent ayant un <incode>font-size</incode> de:</p>
+
+<ul>
+    <li><incode>50px:</incode> 12px < 0.5em <em>(25px)</em> ➡️ 25px</li>
+    <li><incode>20px:</incode> 12px > 0.5em <em>(10px)</em> ➡️ 12px</li>
+</ul>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/min()">min()</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/max()">max()</doclink>
+
+<dots></dots>
+
+
+<grostitre>clamp()</grostitre>
+
+<p>La fonction CSS <incode>clamp()</incode> ressemble aux fonctions <a href="#min-max">min() et max()</a>, mais contrairement à celles-ci, elle offre à la fois une valeur minimale et maximale.</p>
+
+<p>Par exemple, pour qu'un texte ne soit jamais plus petit que 12px, ni plus grand que 20px, il est possible d'utiliser:</p>
+
+<highlight lang="css">.element { font-size: clamp(12px, 0.5em, 20px); }</highlight>
+
+<p>La fonction retourne la valeur centrale <em>(0.5em)</em> jusqu'à concurrence de sa valeur plancher <em>(12px)</em> ou sa valeur plafond <em>(20px)</em>.</p>
+
+<p>Si l'élément est dans un parent ayant un <incode>font-size</incode> de:</p>
+
+<ul>
+    <li><incode>50px</incode> 12px < 0.5em <em>(25px)</em> = 25px > 20px ➡️ 20px</li>
+    <li><incode>20px</incode> 12px > 0.5em <em>(10px)</em> = 12px < 20px ➡️ 12px</li>
+</ul>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/clamp()">clamp()</doclink>
+
+<dots></dots>
+
+<knowmore href="https://web.dev/min-max-clamp/">min(), max() et clamp() plus en détail sur web.dev.</knowmore>
+
+<exercice href="exercices/marylene-gendron/"></exercice>
+
+<dots></dots>
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>

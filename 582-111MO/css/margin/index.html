@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/commons.js"></script>
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Margin</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../../">Intégration Web</a> > <a href="../">CSS</a> ></div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Margin</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p>La propriété <incode>margin</incode> définit un espace vide devant être respecté autour d'un élément, bref une marge. Par défaut, cette propriété à une valeur de 0 permettant aux éléments de s'afficher un à la suite de l'autre sans espace vide <em>(collés un à l'autre)</em>, mais elle accepte l'ensemble des <a href="../unites-de-mesure/">unités de mesure CSS</a>.</p>
+
+<info>Contrairement à padding, margin accepte les valeurs négatives.</info>
+
+<p>Lorsqu'une seule valeur est fournie, celle-ci est appliquée aux 4 côtés de l'élément.</p>
+
+<p>Dans l'exemple suivant, remarquez comment le changement de margin affecte l'espace autour du carré 2.</p>
+
+<codepen id="WNKyjGW" tab="result" height="340"></codepen>
+
+<warning>Les éléments aillant un <incode>display: inline</incode> <em>(span, a, etc.)</em> ne sont pas affectés par les marges verticales ↕️ par défaut.</warning>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/margin">margin</doclink>
+<doclink href="https://www.w3schools.com/css/css_margin.asp">margin</doclink>
+
+<dots></dots>
+
+
+<grostitre>Sous-propriétés</grostitre>
+
+<p>Pour plus de contrôle, il est possible d'attribuer une valeur différente à chaque côté en utilisant les sous-propriétés suivantes:</p>
+
+<ul>
+  <li><incode>margin-top</incode></li>
+  <li><incode>margin-right</incode></li>
+  <li><incode>margin-bottom</incode></li>
+  <li><incode>margin-left</incode></li>
+</ul>
+
+<p>Par exemple:</p>
+
+<codepen id="xxJzddd" tab="result" height="340">L’option margin-right de l’exemple ci-dessus peut donner l’impression de ne pas fonctionner, mais la marge est bel et bien ajouté, elle est simplement combinée avec celle de son parent. Plus sur les combinaisons de marges plus bas 👇</codepen>
+
+<dots></dots>
+
+
+<grostitre>Syntaxe courte</grostitre>
+
+<p>Il est aussi possible d'attribuer les 4 côtés avec la syntaxe courte en les spécifiant un après l'autre en commençant par le haut et en tourant dans le sens des aiguilles d'une montre ⌚️ <em>(top, right, bottom et left)</em>.</p>
+
+<p>Par exemple:</p>
+
+<codepen id="xxJzdXr" tab="result" height="340"></codepen>
+
+<h3>Syntaxe courte à deux valeurs</h3>
+
+<p>Lorsque seulement deux valeurs sont spécifiées la première est utilisée afin de déterminer la marge verticale ↕️ <em>(top et bottom)</em> et la deuxième la marge horizontale ↔️ <em>(left et right)</em>.</p>
+
+<p>Par exemple:</p>
+
+<codepen id="MWBXmQK" tab="result" height="340"></codepen>
+
+<dots></dots>
+
+
+<grostitre>Alignement horizontal ↔️</grostitre>
+
+<p>Les marges sont régulièrement utilisées afin de centrer horizontalement ↔️ des éléments dans leurs parents. Pour ce faire, il suffit d'attribuer la valeur <incode>auto</incode> aux marges de gauche et de droite.</p>
+
+<codepen id="dyjKWem" tab="css,result" height="340"></codepen>
+
+<info>Cette technique de centrage est généralement utilisée avec la syntaxe à deux valeurs, soit <incode>margin: 0 auto;</incode></info>
+
+<alert><h5>ERREUR FRÉQUENTE</h5>Pour centrer horizontalement un élément avec la propriété margin et la valeur auto, un élément doit être en <incode>display: block</incode></alert>
+
+<dots></dots>
+
+
+<grostitre>Combinaison de marges</grostitre>
+
+<p>À l'occasion certaines marges sont combinées. C'est ce que les anglophones appellent <em>"margin collapse"</em>. Ce comportement peut paraitre étrange à première vue, mais il respecte le concept de marge qui est de générer un espace vide entre un élément et ceux l'entourant.</p>
+
+<p>L'exemple le plus commun est celui des paragraphes <em>(p)</em> qui ont un <incode>margin-top</incode> et un <incode>margin-bottom</incode> équivalent à la hauteur d'une lettre <em>(1em)</em>, soit une ligne. Si une image est insérée après un paragraphe, le <incode>margin-bottom</incode> de ce dernier s'assuere qu'un espace équivalent à une ligne les sépare. Cependant, que se passe-t-il lorsque deux paragraphes se suivent?</p>
+
+<p>Un espace équivalent à une seule ligne les sépare, car leurs marges sont combinées plutôt qu'additionnées.</p>
+
+<p>Cependant, ce ne sont pas toutes les marges qui sont combinée. Seulement celles verticales ↕️.</p>
+
+<knowmore href="https://www.joshwcomeau.com/css/rules-of-margin-collapse/">Excellent billet de Josh W Comeau expliquant le margin collapse.</knowmore>
+
+<dots></dots>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>
