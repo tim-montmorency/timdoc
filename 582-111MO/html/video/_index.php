@@ -7,49 +7,90 @@
  */
 ?>
 
-<p class="spacer">Différentes balises HTML permettent de démarquer une citation selon le contexte. Voyons les plus courantes.</p>
+<p> La balise <incode>&lt;video&gt;</incode> permet d'intégrer un contenu vidéo dans une page.</p>
 
-<grostitre>Q</grostitre>
+<grostitre>Src & Source</grostitre>
 
-<p>La balise <incode>&lt;q&gt;</incode> permet d'insérer dans un texte une courte citation sans créer un nouveau bloc de contenu.</p>
+<p>Afficher une vidéo peut se faire en une seule ligne, comme suit:</p>
 
-<codepen id="oNPvxXX" tab="html,result" height="340"></codepen>
+<highlight lang="html">&lt;video src=&quot;video.mp4&quot;&gt;&lt;/video&gt;</highlight>
 
-<p>Par défaut, la majorité des navigateurs ajoutent des guillemets autour de la balise <incode>&lt;q&gt;</incode> afin de la faire ressortir du texte régulier.</p>
+<p>Telle une image 🖼️</p>
 
-<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/q">q</doclink>
-<doclink href="https://www.w3schools.com/tags/tag_q.asp">q</doclink>
+<p>Il est aussi possible, de l’afficher avec une ou des balises enfants de type <incode>source</incode>, de la sorte:</p>
 
-<dots></dots>
+<highlight lang="html">&lt;video&gt;
+  &lt;source src=”video.mp4”&gt;
+&lt;/video&gt;</highlight>
 
+<p>Cette méthode offre l'avantage de définir plusieurs sources. Ainsi, si le navigateur est incapable de lire le premier format, il tentera de lire le deuxième et ainsi de suite. Par exemple:</p>
 
-<grostitre>Blockquote</grostitre>
+<highlight lang="html">&lt;video&gt;
+  &lt;source src=”video.mp4”&gt;
+  &lt;source src=”video.webm”&gt;
+&lt;/video&gt;</highlight>
 
-<p>La balise <incode>&lt;blockquote&gt;</incode> permet de définir un bloc de citation relativement long.</p>
-
-<codepen id="yLxBOYx" tab="html,result" height="340"></codepen>
-
-<p>Par défaut, la majorité des navigateurs indentent les <incode>blockquote</incode> à l'aide d'un <incode>margin-left</incode> afin de faire ressortir leurs contenus du texte régulier.</p>
-
-<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/blockquote">blockquote</doclink>
-<doclink href="https://www.w3schools.com/tags/tag_blockquote.asp">blockquote</doclink>
+<info>Si vous ne désirez pas avoir à fournir plusieurs sources, les mp4 sont maintenant supportés sur tous les navigateurs majeurs. caniuse.com/mp4</info>
 
 <dots></dots>
 
+<grostitre>Poster</grostitre>
 
-<grostitre>Cite</grostitre>
+<p>Par défaut, une balise vidéo affichera le premier frame de sa source. Néanmoins, il est possible d’ajouter un attribut <incode>poster</incode> pour définir une image à utiliser à la place.</p>
 
-<p>La balise <incode>&lt;cite&gt;</incode> permet de spécifier la source d'une citation.</p>
+<highlight lang="html">&lt;video src=&quot;video.mp4&quot; poster=”image.jpg”&gt;&lt;/video&gt;</highlight>
 
-<codepen id="BaOBKKw" tab="html,result" height="340"></codepen>
+<dots></dots>
 
-<p>Généralement, cette balise est inclus dans une balise <incode>&lt;footer&gt;</incode> pour indiquer qu'il s'agit en quelque sorte da la note de pied de page de la citation.</p>
+<grostitre>Controls</grostitre>
+<p>Si présent, cet attribut indique au navigateur d’afficher les contrôles de base de la vidéo.</p>
+<ul>
+    <li>play/pause</li>
+    <li>volume</li>
+    <li>etc.</li>
+</ul>
 
-<p>Par défaut, la majorité des navigateurs mettent en italique le contenu des balises <incode>&lt;cite&gt;</incode> afin de les différencier de la citation elle-même.</p>
+<p>À moins de définir ses propres boutons, il est préférable dans la majorité des cas d'ajouter cet attribut.</p>
 
-<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/cite">cite</doclink>
-<doclink href="https://www.w3schools.com/tags/tag_cite.asp">cite</doclink>
+<highlight lang="html">&lt;video src=&quot;video.mp4&quot; controls&gt;&lt;/video&gt;</highlight>
 
-<info>N’oubliez pas, malgré que ces balises viennent avec des styles préétablis, il est possible de les modifier aisément en CSS pour leur donner apparence tout autre!</info>
+<dots></dots>
+
+<grostitre>Loop</grostitre>
+
+<p>Indique au navigateur de jouer la vidéo en boucle 🔁</p>
+
+<highlight lang="html">&lt;video src=&quot;video.mp4&quot; loop&gt;&lt;/video&gt;</highlight>
+
+<dots></dots>
+
+<grostitre>Muted</grostitre>
+
+<p>Indique au navigateur de jouer la vidéo en mode silencieux 🔇</p>
+
+<highlight lang="html">&lt;video src=&quot;video.mp4&quot; muted&gt;&lt;/video&gt;</highlight>
+
+<dots></dots>
+
+<grostitre>Autoplay</grostitre>
+
+<p>Indique au navigateur de démarrer la vidéo si possible dès le chargement de la page.</p>
+
+<highlight lang="html">&lt;video src=&quot;video.mp4&quot; autoplay&gt;&lt;/video&gt;</highlight>
+
+<warning>Les navigateurs bloquent presque tous cette option si la vidéo n’est pas en sourdine aka muted. Si l’utilisateur a déjà déclenché manuellement d’autres vidéos avec de l’audio sur le site, le navigateur peut choisir d’honorer l’autoplay.</warning>
+
+<img src="images/video-autoplay.jpeg">
+
+<dots></dots>
+
+<grostitre>Playsinline</grostitre>
+
+<p>Certains appareils, notamment plusieurs mobiles 📱, démarrent automatiquement les vidéos en plein écran. Pour contrer ce comportement, il est possible de spécifier de jouer la vidéo dans son cadre d’origine avec <incode>playsinline</incode>.</p>
+
+<highlight lang="html">&lt;video src=&quot;video.mp4&quot; playsinline&gt;&lt;/video&gt;</highlight>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/video">video</doclink>
+<doclink href="https://www.w3schools.com/tags/tag_video.asp">video</doclink>
 
 <dots></dots>
