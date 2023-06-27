@@ -1,9 +1,10 @@
 <?php
+
 /**
  * @type     article
  * @title    Sémantique
  * @icon     images/icon.png
- * @abstract q, blockquote, cite
+ * @abstract header, footer, nav, main, section, aside
  */
 ?>
 

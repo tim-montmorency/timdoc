@@ -23,7 +23,7 @@
 <highlight lang="html">&lt;audio&gt;
     &lt;source src=&quot;audio.mp3&quot;&gt;
     &lt;source src=&quot;audio.webm&quot;&gt;
-&lt;/audio&gt;</highlight>
+    &lt;/audio&gt;</highlight>
 
 <info>Si vous ne désirez pas avoir à fournir plusieurs sources, les mp3 sont supportés sur tous les navigateurs modernes. caniuse.com/mp3</info>
 
