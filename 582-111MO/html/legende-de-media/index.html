@@ -41,50 +41,38 @@
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
-<p class="spacer">Différentes balises HTML permettent de démarquer une citation selon le contexte. Voyons les plus courantes.</p>
+<p>La balise <incode>&lt;figure&gt;</incode> permet d'associer un élément <em>(image, vidéo, diagramme, etc.) </em>à une légende <incode>&lt;figcaption&gt</incode>;. Ainsi, les moteurs de recherche comprennent le lien étroit unissant les deux éléments.</p>
 
-<grostitre>Q</grostitre>
+<p>Par exemple:</p>
 
-<p>La balise <incode>&lt;q&gt;</incode> permet d'insérer dans un texte une courte citation sans créer un nouveau bloc de contenu.</p>
+<codepen id="LYXWEQj"></codepen>
 
-<codepen id="oNPvxXX" tab="html,result" height="340"></codepen>
+<p>La balise <incode>&lt;figcaption&gt;</incode> peut être avant ou après l'élément quelle décrit, tant qu'elle est enfant direct de la balise <incode>&lt;figure&gt;</incode>.</p>
 
-<p>Par défaut, la majorité des navigateurs ajoutent des guillemets autour de la balise <incode>&lt;q&gt;</incode> afin de la faire ressortir du texte régulier.</p>
+<p>👌</p>
 
-<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/q">q</doclink>
-<doclink href="https://www.w3schools.com/tags/tag_q.asp">q</doclink>
+<highlight lang="html">&lt;figure&gt;
+  &lt;img src=&quot;image.png&quot;&gt;
+  &lt;figcaption&gt;...&lt;/figcaption&gt;
+&lt;/figure&gt;</highlight>
 
-<dots></dots>
+<p>🚫</p>
 
+<highlight lang="html">&lt;figure&gt;
+  &lt;img src=&quot;image.png&quot;&gt;
+  &lt;div&gt;
+    &lt;figcaption&gt;...&lt;/figcaption&gt;
+  &lt;/div&gt;
+&lt;/figure&gt;</highlight>
 
-<grostitre>Blockquote</grostitre>
+<alert><em style="color: #ff8487;">ERREUR FRÉQUENTE</em><br>
+Si un espace indésirable affiche entre une image et sa légende <em>(figcaption)</em>, il est probable que cet espace soit créé par le <incode>display: inline;</incode> par défaut de l’image.<br><br>
 
-<p>La balise <incode>&lt;blockquote&gt;</incode> permet de définir un bloc de citation relativement long.</p>
+Pour s’en débarrasser, il suffit de changer son display à <incode>display: block;</incode> dans le CSS.</alert>
 
-<codepen id="yLxBOYx" tab="html,result" height="340"></codepen>
-
-<p>Par défaut, la majorité des navigateurs indentent les <incode>blockquote</incode> à l'aide d'un <incode>margin-left</incode> afin de faire ressortir leurs contenus du texte régulier.</p>
-
-<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/blockquote">blockquote</doclink>
-<doclink href="https://www.w3schools.com/tags/tag_blockquote.asp">blockquote</doclink>
-
-<dots></dots>
-
-
-<grostitre>Cite</grostitre>
-
-<p>La balise <incode>&lt;cite&gt;</incode> permet de spécifier la source d'une citation.</p>
-
-<codepen id="BaOBKKw" tab="html,result" height="340"></codepen>
-
-<p>Généralement, cette balise est inclus dans une balise <incode>&lt;footer&gt;</incode> pour indiquer qu'il s'agit en quelque sorte da la note de pied de page de la citation.</p>
-
-<p>Par défaut, la majorité des navigateurs mettent en italique le contenu des balises <incode>&lt;cite&gt;</incode> afin de les différencier de la citation elle-même.</p>
-
-<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/cite">cite</doclink>
-<doclink href="https://www.w3schools.com/tags/tag_cite.asp">cite</doclink>
-
-<info>N’oubliez pas, malgré que ces balises viennent avec des styles préétablis, il est possible de les modifier aisément en CSS pour leur donner apparence tout autre!</info>
+<knowmore href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/figure">
+Article MDN à propos de la balise figure.
+</knowmore>
 
 <dots></dots>
                     <!-- ARTICLE FOOTER SOF -->

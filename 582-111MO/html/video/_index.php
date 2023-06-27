@@ -3,7 +3,7 @@
  * @type     article
  * @title    Video
  * @icon     images/icon.png
- * @abstract q, blockquote, cite
+ * @abstract mp4, webm
  */
 ?>
 
