@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/commons.js"></script>
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Video</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../../">Web 1</a> > <a href="../">HTML</a> ></div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Video</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+                    <p class="spacer">La balise <incode>&lt;video&gt;</incode> permet d'intégrer un contenu vidéo dans une page.</p>
+
+                    <grostitre>Src & Source</grostitre>
+                    
+                    <p>Afficher une vidéo peut se faire en une seule ligne, comme suit:</p>
+                    
+                    <highlight lang="html" style="padding: 25px;">&lt;video src="video.mp4"&gt;&lt;/video&gt;</highlight>
+                    
+                    <p>Comme une image 🖼️</p>
+                    <p>Il est aussi possible de l’afficher avec une ou des balises enfants de type source.</p>
+                    <highlight lang="html" style="padding: 25px;">
+                    &lt;video&gt;
+                        &lt;source src="video.mp4"&gt;
+                    &lt;/video&gt;</highlight>
+
+                    <p>Cette méthode offre l'avantage de définir plusieurs sources. Ainsi, si le navigateur est incapable de lire le premier format, il tentera de lire le deuxième et ainsi de suite. Par exemple:</p>
+
+                    <highlight lang="html" style="padding: 25px;">
+                        &lt;video&gt;
+                            &lt;source src="video.mp4"&gt;
+                            &lt;source src="video.webm"&gt;
+                        &lt;/video&gt;</highlight>
+                    
+                    <info>Si vous ne désirez pas avoir à fournir plusieurs sources, les mp4 sont maintenant supportés sur tous les navigateurs majeurs. caniuse.com/mp4</info>
+                    
+                    <dots></dots>
+                    
+                    <grostitre>Poster</grostitre>
+                    
+                    <p>Par défaut, une balise vidéo affichera le premier frame de sa source. Néanmoins, il est possible d’ajouter un attribut poster pour définir une image à utiliser à la place.</p>
+                    
+                    <highlight lang="html" style="padding: 25px;">&lt;video src="video.mp4" poster=”image.jpg"&gt;&lt;/video&gt;</highlight>
+                    
+                    <dots></dots>
+                    
+                    <grostitre>Controls</grostitre>
+                    
+                    <p>Si présent, cet attribut indique au navigateur d’afficher les contrôles de base de la vidéo.</p>
+                    
+                    <li>play/pause</li><br>
+                    <li>volume</li><br>
+                    <li>etc.</li>
+                    <br>
+                    
+                    <p>À moins de définir ses propres boutons, il est préférable dans la majorité des cas d'ajouter cet attribut.</p>
+                    
+                    <highlight lang="html" style="padding: 25px;">&lt;video src="video.mp4" controls&gt;&lt;/video&gt;</highlight>
+                    
+                    <dots></dots>
+                    
+                    
+                    <grostitre>Loop</grostitre>
+                    
+                    <p>Indique au navigateur de jouer l'audio en boucle 🔁</p>
+                    
+                    <highlight lang="html" style="padding: 25px;">&lt;video src="video.mp4" loop&gt;&lt;/video&gt;</highlight>
+                    
+                    <dots></dots>
+                    
+                    <grostitre>Muted</grostitre>
+                    
+                    <p>Indique au navigateur de jouer la vidéo en mode silencieux 🔇</p>
+                    
+                    <highlight lang="html" style="padding: 25px;">&lt;video src="video.mp4" muted&gt;&lt;/video&gt;</highlight>
+                    
+                    <dots></dots>
+
+                    <grostitre>Autoplay</grostitre>
+                    
+                    <p>Indique au navigateur de démarrer la vidéo si possible dès le chargement de la page.</p>
+                    
+                    <highlight lang="html" style="padding: 25px;">&lt;video src="video.mp4" autoplay&gt;&lt;/video&gt;</highlight>
+                    
+                    
+                    <p>Les navigateurs bloquent presque tous cette option si la vidéo n’est pas en sourdine aka muted. Si l’utilisateur a déjà déclenché manuellement d’autres vidéos avec de l’audio sur le site, le navigateur peut choisir d’honorer l’autoplay.</p>
+                    <img src="images/video-autoplay.jpeg">
+                    <dots></dots>
+
+                    <grostitre>Playsinline</grostitre>
+                    
+                    <p>Certains appareils, notamment plusieurs mobiles 📱, démarrent automatiquement les vidéos en plein écran. Pour contrer ce comportement, il est possible de spécifier de jouer la vidéo dans son cadre d’origine avec playsinline.</p>
+                    
+                    <highlight lang="html" style="padding: 25px;">&lt;video src="video.mp4" playsinline&gt;&lt;/video&gt;</highlight>
+                    
+                    <dots></dots>
+                    
+                    <doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/video">video</doclink>
+                    <doclink href="https://www.w3schools.com/tags/tag_video.asp">video</doclink>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>
