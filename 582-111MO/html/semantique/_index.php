@@ -1,7 +1,7 @@
 <?php
 /**
  * @type     article
- * @title    Semantique
+ * @title    Sémantique
  * @icon     images/icon.png
  * @abstract q, blockquote, cite
  */

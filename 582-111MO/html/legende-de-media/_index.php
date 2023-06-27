@@ -1,7 +1,7 @@
 <?php
 /**
  * @type     article
- * @title    Citation
+ * @title    Légende de média
  * @icon     images/icon.png
  * @abstract q, blockquote, cite
  */
