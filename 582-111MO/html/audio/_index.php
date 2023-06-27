@@ -1,55 +1,67 @@
 <?php
+
 /**
  * @type     article
  * @title    Audio
  * @icon     images/icon.png
- * @abstract q, blockquote, cite
+ * @abstract mp3, webm
  */
 ?>
 
-<p class="spacer">Différentes balises HTML permettent de démarquer une citation selon le contexte. Voyons les plus courantes.</p>
+<p> La balise <incode>&lt;audio&gt;</incode> permet d'intégrer un contenu sonore dans une page.</p>
 
-<grostitre>Q</grostitre>
+<grostitre>Src & Source</grostitre>
 
-<p>La balise <incode>&lt;q&gt;</incode> permet d'insérer dans un texte une courte citation sans créer un nouveau bloc de contenu.</p>
+<p>Afficher un lecteur audio peut se faire en une seule ligne, comme suit:</p>
 
-<codepen id="oNPvxXX" tab="html,result" height="340"></codepen>
+<highlight lang="html">&lt;audio src=&quot;audio.mp3&quot;&gt;&lt;/audio&gt;</highlight>
 
-<p>Par défaut, la majorité des navigateurs ajoutent des guillemets autour de la balise <incode>&lt;q&gt;</incode> afin de la faire ressortir du texte régulier.</p>
+<p>Telle une image 🖼️</p>
 
-<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/q">q</doclink>
-<doclink href="https://www.w3schools.com/tags/tag_q.asp">q</doclink>
+<p>Il est aussi possible, de l’afficher avec une ou des balises enfants de type source, de la sorte:</p>
 
-<dots></dots>
+<highlight lang="html">&lt;audio&gt;
+    &lt;source src=&quot;audio.mp3&quot;&gt;
+    &lt;source src=&quot;audio.webm&quot;&gt;
+&lt;/audio&gt;</highlight>
 
-
-<grostitre>Blockquote</grostitre>
-
-<p>La balise <incode>&lt;blockquote&gt;</incode> permet de définir un bloc de citation relativement long.</p>
-
-<codepen id="yLxBOYx" tab="html,result" height="340"></codepen>
-
-<p>Par défaut, la majorité des navigateurs indentent les <incode>blockquote</incode> à l'aide d'un <incode>margin-left</incode> afin de faire ressortir leurs contenus du texte régulier.</p>
-
-<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/blockquote">blockquote</doclink>
-<doclink href="https://www.w3schools.com/tags/tag_blockquote.asp">blockquote</doclink>
+<info>Si vous ne désirez pas avoir à fournir plusieurs sources, les mp3 sont supportés sur tous les navigateurs modernes. caniuse.com/mp3</info>
 
 <dots></dots>
 
+<grostitre>Controls</grostitre>
+<p>Si présent, cet attribut indique au navigateur d’afficher les contrôles de base du lecteur audio.</p>
+<ul>
+    <li>play/pause</li>
+    <li>volume</li>
+    <li>etc.</li>
+</ul>
 
-<grostitre>Cite</grostitre>
+<p>À moins de définir ses propres boutons, il est préférable dans la majorité des cas d'ajouter cet attribut.</p>
 
-<p>La balise <incode>&lt;cite&gt;</incode> permet de spécifier la source d'une citation.</p>
+<highlight lang="html">&lt;audio src=&quot;audio.mp3&quot; controls&gt;&lt;/audio&gt;</highlight>
 
-<codepen id="BaOBKKw" tab="html,result" height="340"></codepen>
+<warning>Sans cet attribut, le lecteur audio sera invisible.</warning>
 
-<p>Généralement, cette balise est inclus dans une balise <incode>&lt;footer&gt;</incode> pour indiquer qu'il s'agit en quelque sorte da la note de pied de page de la citation.</p>
+<dots></dots>
 
-<p>Par défaut, la majorité des navigateurs mettent en italique le contenu des balises <incode>&lt;cite&gt;</incode> afin de les différencier de la citation elle-même.</p>
+<grostitre>Loop</grostitre>
 
-<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/cite">cite</doclink>
-<doclink href="https://www.w3schools.com/tags/tag_cite.asp">cite</doclink>
+<p>Indique au navigateur de jouer l'udio en boucle 🔁</p>
 
-<info>N’oubliez pas, malgré que ces balises viennent avec des styles préétablis, il est possible de les modifier aisément en CSS pour leur donner apparence tout autre!</info>
+<highlight lang="html">&lt;audio src=&quot;audio.mp3&quot; loop&gt;&lt;/audio&gt;</highlight>
+
+<dots></dots>
+
+<grostitre>Autoplay</grostitre>
+
+<p>Indique au navigateur de démarrer l'audio si possible dès le chargement de la page.</p>
+
+<highlight lang="html">&lt;audio src=&quot;audio.mp3&quot; autoplay&gt;&lt;/audio&gt;</highlight>
+
+<p>Les navigateurs bloquent presque tous cette option à moins qu'ils aient détecté un engagement de la part de l'utilisateur. Par exemple: avoir déjà déclenché manuellement un son, etc.</p>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/audio">audio</doclink>
+<doclink href="https://www.w3schools.com/tags/tag_audio.asp">audio</doclink>
 
 <dots></dots>
