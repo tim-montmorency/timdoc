@@ -3,7 +3,7 @@
  * @type     article
  * @title    Ancre
  * @icon     images/icon.png
- * @abstract balise &lt;a&gt;
+ * @abstract balise a
  */
 ?>
 
