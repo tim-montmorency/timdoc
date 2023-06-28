@@ -1,77 +1,72 @@
 <?php 
 /**
  * @type     wiki
- * @title    Wiki - Intégration Web
+ * @title    Wiki - Web 1
  * @icon     images/icon.png
- * @abstract Intégration Web
+ * @abstract eb 1
  */
 ?>
 
 <wiki-page name="Cours 1">
-    <?php intlink("../css/anatomie/"); ?>
-    <?php intlink("../css/selecteurs/"); ?>
-    <?php intlink("../css/selecteurs/exercices/css-diner/"); ?>
-    <?php intlink("../autres/chemins/"); ?>
-    <?php intlink("../autres/chemins/exercices/pokemon/"); ?>
+
 </wiki-page>
 
 
 <wiki-page name="Cours 2">
-    <?php intlink("../css/flux/"); ?>
-    <?php intlink("../css/display/"); ?>
-    <?php intlink("../css/vertical-align/"); ?>
-    <?php intlink("../css/display/exercices/celeste/"); ?>
-    <?php intlink("../css/position/"); ?>
-    <?php intlink("../css/position/exercices/cat-in-the-box/"); ?>
-    <h2>TP01 <em>(formatif)</em></h2>
-    <?php intlink("../css/exercices/weezer-album-bleu/"); ?>
+    <?php intlink("../autres/chemins/"); ?>
+    <?php intlink("../autres/chemins/exercices/pokemon/"); ?>
+    <?php intlink("../html/semantique/"); ?>
+    <?php intlink("../html/ancre/"); ?>
 </wiki-page>
 
 
 <wiki-page name="Cours 3">
-    <h3>Correction: Weezer - Blue Album</h3>
-    <?php intlink("../css/unites-de-mesure/"); ?>
-    <?php intlink("../css/padding/"); ?>
-    <?php intlink("../css/margin/"); ?>
-    <?php intlink("../css/width-height/"); ?>
-    <?php intlink("../css/width-height/exercices/system32/"); ?>
-    <?php intlink("../css/width-height/exercices/prevert/"); ?>
+    <?php intlink("../autres/formats-d-image/"); ?>
+    <?php intlink("../html/picture/"); ?>
+    <?php intlink("../html/picture/exercices/ant-man/"); ?>
+    <?php intlink("../autres/vectoriel-vs-matriciel/"); ?>
+    <?php intlink("../html/svg/"); ?>
+    <?php intlink("../html/svg/exercices/hollywood-boulevard/"); ?>
+    <?php intlink("../html/audio/"); ?>
+    <?php intlink("../html/video/"); ?>
+    <?php intlink("../html/legende-de-media/"); ?>
+    <?php intlink("../html/image/"); ?>
+    <?php intlink("../html/iframe/"); ?>
+    <?php intlink("../html/citation/"); ?>
 </wiki-page>
 
 
 <wiki-page name="Cours 4">
-    <?php intlink("../css/border/"); ?>
-    <?php intlink("../css/box-sizing/"); ?>
-    <?php intlink("../css/border/exercices/q-bitz/"); ?>
-    <?php intlink("../css/box-sizing/exercices/illustrator/"); ?>
-    <?php intlink("../css/unites-de-couleur/"); ?>
-    <?php intlink("../css/float/"); ?>
-    <?php intlink("../css/float/exercices/rupi-kaur/"); ?>
-    <h2>TP02 <em>(formatif)</em></h2>
-    <?php intlink("../css/exercices/queen-hot-space/"); ?>
+<?php intlink("../html/metadonnees/"); ?>
 </wiki-page>
 
 
 <wiki-page name="Cours 5">
     <h3>Correction: Queen - Hot Space</h3>
-    <?php intlink("../css/pseudo-classes/"); ?>
-    <?php intlink("../css/pseudo-classes/exercices/cercles/"); ?>
-    <?php intlink("../css/pseudo-classes/exercices/bouton/"); ?>
-    <?php intlink("../css/selecteurs-avances/"); ?>
-    <?php intlink("../css/pseudo-classes-intermediaires/"); ?>
-    <?php intlink("../css/selecteurs-avances/exercices/css-diner/"); ?>
-    <?php intlink("../css/pseudo-classes-intermediaires/exercices/css-diner/"); ?>
-    <?php intlink("../css/pseudo-classes-intermediaires/exercices/grille/"); ?>
+    <?php intlink("../html/formulaire/"); ?>
+    <?php intlink("../html/formulaire/exercices/carte-de-credit/"); ?>
+    <?php intlink("../html/formulaire-intermediaire/"); ?>
+    <?php intlink("../html/formulaire-intermediaire/exercices/menu-hamburger/"); ?>
+    <?php intlink("../html/formulaire-intermediaire/exercices/dragonball/"); ?>
+    <?php intlink("../html/formulaire-intermediaire/exercices/twitter/"); ?>
+    <?php intlink("../html/emmet/"); ?>
+    <?php intlink("../autres/inspecteur/"); ?>
+    <?php intlink("../autres/inspecteur-elements/"); ?>
+    <?php intlink("../autres/inspecteur-elements/exercices/unlock/"); ?>
+    <?php intlink("../autres/inspecteur-elements/exercices/urbania/"); ?>
 </wiki-page>
 
 
 <wiki-page name="Cours 6">
-    <?php intlink("../css/background/"); ?>
-    <?php intlink("../css/background/exercices/candy-crush/"); ?>
-    <?php intlink("../css/linear-gradient/"); ?>
-    <?php intlink("../css/linear-gradient/exercices/igloofest/"); ?>
-    <h2>TP03 <em>(5%)</em></h2>
-    <?php intlink("../css/exercices/moby-i-like-to-score/"); ?>
+    <?php intlink("../html/formulaire-avance/"); ?>
+    <?php intlink("../html/formulaire-avance/exercices/among-us/"); ?>
+    <?php intlink("../html/favicon/"); ?>
+    <?php intlink("../html/favicon/exercices/mega-man/"); ?>
+    <?php intlink("../html/details-et-summary/"); ?>
+    <?php intlink("../html/details-et-summary/exercices/quiz-marc-labreche/"); ?>
+    <?php intlink("../html/open-graph-protocol/"); ?>
+    <?php intlink("../html/microdonnees/"); ?>
+    <?php intlink("../html/microdonnees/exercices/cf-montreal/"); ?>
 </wiki-page>
 
 
@@ -105,6 +100,9 @@
     <?php intlink("../css/width-height/exercices/prevert/"); ?>
     <?php intlink("../css/border/"); ?>
     <?php intlink("../css/border/exercices/q-bitz/"); ?>
+    <?php intlink("../autres/navigation-clavier/"); ?>
+    <?php intlink("../css/outline/"); ?>
+    <?php intlink("../css/outline/exercices/skittles/"); ?>
     <?php intlink("../css/unites-de-couleur/"); ?>
     <?php intlink("../css/fonte/"); ?>
     <?php intlink("../css/text/"); ?>
