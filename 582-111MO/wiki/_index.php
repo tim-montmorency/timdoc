@@ -8,13 +8,14 @@
 ?>
 
 <wiki-page name="Cours 1">
-
+<?php intlink("../html/html-histoire/"); ?>
 </wiki-page>
 
 
 <wiki-page name="Cours 2">
     <?php intlink("../autres/chemins/"); ?>
     <?php intlink("../autres/chemins/exercices/pokemon/"); ?>
+    <?php intlink("../html/balises/"); ?>
     <?php intlink("../html/semantique/"); ?>
     <?php intlink("../html/ancre/"); ?>
 </wiki-page>
