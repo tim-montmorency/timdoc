@@ -36,18 +36,19 @@
 
 <p>Par exemple, si je veux faire un tableau à deux lignes, avec trois cellules par ligne (donc trois colonnes), je devrai taper ceci :</p>
 
-<highlight lang="html">&lt;table&gt;
+<highlight lang="html">
+&lt;table&gt;
     &lt;tr&gt;
-    &lt;td&gt;Carmen&lt;/td&gt;
-    &lt;td&gt;33 ans&lt;/td&gt;
-    &lt;td&gt;Espagne&lt;/td&gt;
+        &lt;td&gt;Carmen&lt;/td&gt;
+        &lt;td&gt;33 ans&lt;/td&gt;
+        &lt;td&gt;Espagne&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-    &lt;td&gt;Michelle&lt;/td&gt;
-    &lt;td&gt;26 ans&lt;/td&gt;
-    &lt;td&gt;États-Unis&lt;/td&gt;
+        &lt;td&gt;Michelle&lt;/td&gt;
+        &lt;td&gt;26 ans&lt;/td&gt;
+        &lt;td&gt;États-Unis&lt;/td&gt;
     &lt;/tr&gt;
-    &lt;/table&gt;</highlight>
+&lt;/table&gt;</highlight>
 
 <p>Le résultat est un peu déprimant :</p>
 
@@ -62,23 +63,24 @@
 <p>La ligne d'en-tête se crée avec un <incode>&lt;tr&gt;</incode> mais les cellules qu'elle contient sont, cette fois, encadrées par des balises <incode>&lt;th&gt; </incode> (pour table header ou "en-tête de tableau" en français) et non pas <incode>&lt;td&gt; </incode>
 </p>
 
-<highlight lang="html">&lt;table&gt;
+<highlight lang="html">
+&lt;table&gt;
     &lt;tr&gt;
-    &lt;th&gt;Nom&lt;/th&gt;
-    &lt;th&gt;Âge&lt;/th&gt;
-    &lt;th&gt;Pays&lt;/th&gt;
+        &lt;th&gt;Nom&lt;/th&gt;
+        &lt;th&gt;Âge&lt;/th&gt;
+        &lt;th&gt;Pays&lt;/th&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-    &lt;td&gt;Carmen&lt;/td&gt;
-    &lt;td&gt;33 ans&lt;/td&gt;
-    &lt;td&gt;Espagne&lt;/td&gt;
+        &lt;td&gt;Carmen&lt;/td&gt;
+        &lt;td&gt;33 ans&lt;/td&gt;
+        &lt;td&gt;Espagne&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-    &lt;td&gt;Michelle&lt;/td&gt;
-    &lt;td&gt;26 ans&lt;/td&gt;
-    &lt;td&gt;États-Unis&lt;/td&gt;
+        &lt;td&gt;Michelle&lt;/td&gt;
+        &lt;td&gt;26 ans&lt;/td&gt;
+        &lt;td&gt;États-Unis&lt;/td&gt;
     &lt;/tr&gt;
-    &lt;/table&gt;</highlight>
+&lt;/table&gt;</highlight>
 
 <p>La ligne d'en-tête est très facile à reconnaître pour deux raisons:</p>
 
@@ -99,24 +101,26 @@
 
 <p>Cette balise doit être placée au début du tableau, juste avant l'en-tête. Son contenu correspond au titre que vous souhaitez attribuer au tableau.</p>
 
-<highlight lang="html">&lt;table&gt;
-    &lt;caption&gt;Passagers du vol 377&lt;/caption&gt;
-    &lt;tr&gt;
-    &lt;th&gt;Nom&lt;/th&gt;
-    &lt;th&gt;Âge&lt;/th&gt;
-    &lt;th&gt;Pays&lt;/th&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-    &lt;td&gt;Carmen&lt;/td&gt;
-    &lt;td&gt;33 ans&lt;/td&gt;
-    &lt;td&gt;Espagne&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-    &lt;td&gt;Michelle&lt;/td&gt;
-    &lt;td&gt;26 ans&lt;/td&gt;
-    &lt;td&gt;États-Unis&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;/table&gt;</highlight>
+<highlight lang="html">
+&lt;table&gt;
+        &lt;caption&gt;Passagers du vol 377&lt;/caption&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Nom&lt;/th&gt;
+            &lt;th&gt;Âge&lt;/th&gt;
+             &lt;th&gt;Pays&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Carmen&lt;/td&gt;
+            &lt;td&gt;33 ans&lt;/td&gt;
+            &lt;td&gt;Espagne&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Michelle&lt;/td&gt;
+            &lt;td&gt;26 ans&lt;/td&gt;
+            &lt;td&gt;États-Unis&lt;/td&gt;
+        &lt;/tr&gt;
+&lt;/table&gt;
+</highlight>
 
 <dots></dots>
 
