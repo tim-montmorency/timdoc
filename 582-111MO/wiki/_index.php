@@ -40,6 +40,7 @@
 
 <wiki-page name="Cours 4">
     <?php intlink("../html/tableau/"); ?>
+    <?php intlink("../html/liste/"); ?>
     <?php intlink("../html/metadonnees/"); ?>
 </wiki-page>
 

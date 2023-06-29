@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/commons.js"></script>
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Les listes</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../../">Web 1</a> > <a href="../">HTML</a> ></div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Les listes</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<grostitre>Les listes</grostitre>
+
+<p>En HTML, une liste est constituée de plusieurs éléments de liste. Visuellement, une liste est affichée de la manière suivante:</p>
+
+<ul>
+    <li>Premier élément de ma liste</li>
+    <li>Deuxième élément de ma liste</li>
+    <li>Troisième élément de ma liste</li>
+</ul>
+
+<p>Les listes nous permettent de regrouper plusieurs éléments sous une même catégorie, créant ainsi une relation entre eux que les navigateurs et les moteurs de recherche peuvent reconnaître.</p>
+
+<p>Les listes sont très utiles pour apporter de la clarté et de l'organisation à nos documents. En plus de cela, nous pouvons également utiliser les listes HTML pour créer des menus de navigation.</p>
+
+<h3>Les différents types de liste</h3>
+
+<p>Actuellement au nombre de 3, les différents types de listes vont vous servir pour lister différentes catégories d’informations. Nous retrouverons donc des listes non-ordonnées, des listes ordonnées et des listes de description (ou de définition).</p>
+
+<dots></dots>
+
+<grostitre>Les listes non-ordonnées</grostitre>
+
+<p>Les listes non-ordonnées pourront vous servir à énumérer une suite d’informations ne nécessitant pas forcément de classement alphabétique ou numérique.</p>
+
+<p>Pour créer une liste en HTML, on utilise les balises HTML <incode>&lt;ul&gt;</incode>
+    <incode>&lt;/ul&gt;</incode> et pour remplir cette liste d’éléments on utilise les balises <incode>&lt;li&gt;</incode>
+    <incode>&lt;/li&gt;</incode> pour définir un élément de la liste.
+</p>
+
+<p>Exemple de liste non-ordonnée:</p>
+
+<highlight lang="html">
+    &lt;ul&gt;
+    &lt;li&gt;Élément&lt;/li&gt;
+    &lt;li&gt;Élément&lt;/li&gt;
+    &lt;li&gt;Élément&lt;/li&gt;
+    &lt;/ul&gt;</highlight>
+
+<dots></dots>
+
+<grostitre>Les listes ordonnées</grostitre>
+
+<p>Les listes ordonnées servent à classer des informations pour les lister dans un ordre précis qui ne peut pas être changé.</p>
+
+<p>Une liste ordonnée en HTML se crée par l’utilisation des balises
+<ol></ol> et tout comme pour les listes non-ordonnées vous pouvez remplir les listes ordonnées d’éléments par l’utilisation des balises <incode>&lt;li&gt;</incode>
+<incode>&lt;/li&gt;</incode>.</p>
+
+<p>Exemple de liste ordonnée:</p>
+
+<highlight lang="html">
+    &lt;ol&gt;
+    &lt;li&gt;Élément 1&lt;/li&gt;
+    &lt;li&gt;Élément 2&lt;/li&gt;
+    &lt;li&gt;Élément 3&lt;/li&gt;
+    &lt;/ol&gt;</highlight>
+
+<dots></dots>
+
+<grostitre>Listes de description</grostitre>
+
+<p>Ce dernier type de liste permet de donner une information descriptive et complémentaire sur un élément précis.</p>
+
+<p>Vous pouvez créer une liste de description (ou définition) en utilisant les balises HTML <incode>&lt;dl&gt;</incode>
+    <incode>&lt;/dl&gt;</incode>.
+</p>
+
+<warning>Contrairement aux autres précédentes listes, les éléments de celle-ci ne sera pas définissable par l’élément HTML <incode>&lt;li&gt;</incode>
+    <incode>&lt;/li&gt;</incode>.
+</warning>
+
+<p>Pour commencer, 2 éléments différents peuvent être ajoutés à cette liste:</p>
+
+<ul>
+    <li>Le mot ou expression à définir ou décrire. On va utiliser les balises <incode>&lt;dt&gt;</incode>
+        <incode>&lt;/dt&gt;</incode> pour créer cet élément.
+    </li>
+    <li>La définition (ou description) du mot précédemment ajouté. Les balises <incode>&lt;dd&gt;</incode>
+        <incode>&lt;/dd&gt;</incode> seront à utiliser pour cet élément.
+    </li>
+</ul>
+
+<p>Exemple de liste de description:</p>
+
+<h3>Exemple 1</h3>
+
+<highlight lang="html">
+    &lt;dl&gt;
+    &lt;dt&gt;Expression&lt;/dt&gt;
+    &lt;dd&gt;Description&lt;/dd&gt;
+    &lt;/dl&gt;</highlight>
+
+<h3>Exemple avec une description d’un événement:</h3>
+
+<highlight lang="html">
+    &lt;h2&gt;Conférence sur l&#39;accessibilité web&lt;/h2&gt;
+    &lt;dl&gt;
+    &lt;dt&gt;Lieu&lt;/dt&gt;
+    &lt;dd&gt;Paris&lt;/dd&gt;
+    &lt;dt&gt;Dates&lt;/dt&gt;
+    &lt;dd&gt;Samedi 7 septembre&lt;/dd&gt;
+    &lt;dd&gt;Mercredi 14 octobre&lt;/dd&gt;
+    &lt;dt&gt;Heure&lt;/dt&gt;
+    &lt;dd&gt;À partir de 10 heures&lt;/dd&gt;
+    &lt;/dl&gt;</highlight>
+
+<h3>Exemple avec un glossaire:</h3>
+
+<highlight lang="html">
+    &lt;dl&gt;
+    &lt;dt&gt;&lt;dfn&gt;ARIA&lt;/dfn&gt;&lt;/dt&gt;
+    &lt;dd lang=&quot;en&quot;&gt;Accessible Rich Internet Application&lt;/dd&gt;
+    […]
+    &lt;dt&gt;&lt;dfn&gt;RGAA&lt;/dfn&gt;&lt;/dt&gt;
+    &lt;dd&gt;Référentiel Général d&#39;Amélioration de l&#39;Accessibilité&lt;/dd&gt;
+    […]
+    &lt;/dl&gt;</highlight>
+
+<h3>Quels bénéfices?</h3>
+
+<p>La structuration des listes est essentielle pour les <em>personnes utilisant un lecteur d’écran (personnes aveugles et malvoyantes)</em>. Cette structuration leur permet ainsi, à la rencontre d’une liste de:</p>
+
+<ul>
+    <li>Naviguer de liste en liste au sein d’une page</li>
+    <li>Connaître dès le départ le nombre d’éléments dans celle-ci</li>
+    <li>Naviguer plus facilement dans la liste:</li>
+    <ol>
+        <li>Passer directement à la fin de la liste si ce contenu ne les intéresse pas</li>
+        <li>Revenir facilement au début de la liste</li>
+    </ol>
+</ul>
+
+<dots></dots>
+
+<grostitre>Modifier le style des listes</grostitre>
+
+<p>L’apparence et la mise en forme des listes sont paramétrables à travers des paramètres (attributs HTML ou propriétés CSS) propres aux éléments de liste.</p>
+
+<h4>Changer l’apparence des puces d’une liste non-ordonnée ul</h4>
+
+<p>Si les disques noirs ne sont pas à votre goût, vous pouvez changer l’apparence des puces d’une liste non-ordonnée. Rien de plus simple, ajoutez la propriété « list-style-type » à l’élément HTML « ul » et définissez la valeur qui représentera le style que vous souhaitez donner aux puces de votre liste.</p>
+
+<p>Il existe plusieurs styles possibles aux puces d’une liste non-ordonnée, voici quelques possibilités:</p>
+
+<ul>
+    <li>Disque noir : <incode>list-style-type: disc;</incode>
+    </li>
+    <li>Cercle : <incode>list-style-type: circle;</incode>
+    </li>
+    <li>Chiffres (ce qui revient à créer une liste ordonnée) : <incode>list-style-type: decimal;</incode>
+    </li>
+    <li>Caractère: <incode>list-style-type: '@';</incode>
+    </li>
+    <li>Aucune puce : <incode>list-style-type: none;</incode>
+    </li>
+</ul>
+
+<info>Vous pouvez utiliser n’importe quel caractère ASCII comme puce pour votre liste, cela offre donc un large panel de possibilités pour styliser vos listes!</info>
+
+<p>Si les types disponibles ne vous conviennent pas il existe aussi une possibilité d’ajouter une image à la place des puces d’une liste. Grâce à la propriété « list-style-image » vous allez pouvoir créer des listes à puces très personnalisées en indiquant simplement l’<em>url d’une image</em>.</p>
+
+<grostitre>Liste ordonnée à un nombre défini</grostitre>
+
+<p>Si vous ne souhaitez pas commencer votre liste ordonnée par la valeur initiale par défaut (1 pour les valeurs décimales ou « a » pour l’alphabet latin par exemple) vous pouvez définir l’attribut « start » d’une liste ordonnée et indiquer à partir de quelle valeur vous souhaitez débuter avec une valeur numérique entière.</p>
+
+<p>Exemple d’une liste ordonnée alphabétique (latin) commençant par la lettre « D »:</p>
+
+<highlight lang="html">
+    &lt;ol start=4 style=&quot;list-style-type:upper-alpha&quot;&gt;
+    &lt;li&gt;Élément&lt;/li&gt;
+    &lt;li&gt;Élément&lt;/li&gt;
+    &lt;li&gt;Élément&lt;/li&gt;
+    &lt;/ol&gt;
+</highlight>
+
+<dots></dots>
+
+<grostitre>Inverser l’ordre d’une liste</grostitre>
+
+<p>L’attribut « reversed » d’une liste ordonnée va vous permettre d’inverser l’ordre d’une liste. Une liste décimale commencera donc par la valeur la plus élevée et liste alphabétique débutera par la dernière lettre de l’alphabet utilisé.</p>
+
+<p>Découvrez sans plus attendre un exemple d’une liste décimale inversée:</p>
+
+<highlight lang="html">
+    &lt;ol reversed style=&quot;list-style-type:upper-alpha&quot;&gt;
+    &lt;li&gt;Élément&lt;/li&gt;
+    &lt;li&gt;Élément&lt;/li&gt;
+    &lt;li&gt;Élément&lt;/li&gt;
+    &lt;/ol&gt;
+</highlight>
+
+<dots></dots>
+
+<grostitre>Créer une liste imbriquée</grostitre>
+
+<p>Une liste imbriquée est simplement une liste dans une liste, le concept est simple et son utilisation aussi. Que ce soit une liste ordonnée ou une liste non-ordonnée il suffit d’ajouter un nouvel élément HTML « ul » ou « ol » dans un précédent élément de liste.</p>
+
+<p>Voici un exemple d’une liste imbriquée d’une liste ordonnée imbriquée dans une liste non-ordonnée:</p>
+
+<highlight lang="html">
+    &lt;ul&gt;
+    &lt;li&gt;Élément&lt;/li&gt;
+    &lt;li&gt;Élément&lt;/li&gt;
+    &lt;ol style=&quot;list-style-type:lower-alpha&quot;&gt;
+    &lt;li&gt;Élément 1&lt;/li&gt;
+    &lt;li&gt;Élément 2&lt;/li&gt;
+    &lt;li&gt;Élément 3&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;/ul&gt;
+</highlight>
+
+<p>Vous pouvez donc imbriquer une liste ordonnée dans une liste non-ordonnée et inversement. Mais vous pouvez aussi sans souci imbriquer une ou plusieurs listes dans une autre liste du même genre.</p>
+
+<dots></dots>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>

@@ -4,7 +4,7 @@
  * @type     article
  * @title    Les tableaux
  * @icon     images/icon.png
- * @abstract td, tr
+ * @abstract td, tr, th, thead, tbody, tfoot, colspan, rowspan
  */
 ?>
 
