@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 /**
  * @type     wiki
  * @title    Wiki - Web 1
@@ -8,7 +9,7 @@
 ?>
 
 <wiki-page name="Cours 1">
-<?php intlink("../html/html-histoire/"); ?>
+    <?php intlink("../html/html-histoire/"); ?>
 </wiki-page>
 
 
@@ -38,7 +39,8 @@
 
 
 <wiki-page name="Cours 4">
-<?php intlink("../html/metadonnees/"); ?>
+    <?php intlink("../html/tableau/"); ?>
+    <?php intlink("../html/metadonnees/"); ?>
 </wiki-page>
 
 
@@ -72,8 +74,8 @@
 
 
 <wiki-page name="Cours 7">
-<h3 style="color: gold; text-transform:capitalize; font-size: 60px;">Examen html</h3>
-<video playsinline src="videos/baby-groot-dancing.mp4" autoplay="true" muted="true" loop="true"></video>
+    <h3 style="color: gold; text-transform:capitalize; font-size: 60px;">Examen html</h3>
+    <video playsinline src="videos/baby-groot-dancing.mp4" autoplay="true" muted="true" loop="true"></video>
 </wiki-page>
 
 
@@ -92,8 +94,8 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 9" >
-<?php intlink("../css/unites-de-mesure/"); ?>
+<wiki-page name="Cours 9">
+    <?php intlink("../css/unites-de-mesure/"); ?>
     <?php intlink("../css/padding/"); ?>
     <?php intlink("../css/margin/"); ?>
     <?php intlink("../css/width-height/"); ?>
@@ -116,7 +118,7 @@
     <?php intlink("../css/background/exercices/candy-crush/"); ?>
     <?php intlink("../css/linear-gradient/"); ?>
     <?php intlink("../css/linear-gradient/exercices/igloofest/"); ?>
-    <?php intlink("../css/nommage-et-formatage/"); ?>  
+    <?php intlink("../css/nommage-et-formatage/"); ?>
     <?php intlink("../css/box-sizing/"); ?>
     <?php intlink("../css/box-sizing/exercices/illustrator/"); ?>
     <?php intlink("../css/float/"); ?>
@@ -138,26 +140,24 @@
 
 
 <wiki-page name="Cours 12">
-<h3 style="color: gold; text-transform:capitalize; font-size: 60px;">Examen CSS</h3>
-<video playsinline src="videos/jack-nicholson.mp4" autoplay="true" muted="true" loop="true"></video>
+    <h3 style="color: gold; text-transform:capitalize; font-size: 60px;">Examen CSS</h3>
+    <video playsinline src="videos/jack-nicholson.mp4" autoplay="true" muted="true" loop="true"></video>
 </wiki-page>
 
 
 <wiki-page name="Cours 13" date="2023-03-14">
-<h3 style="color: gold; text-transform:capitalize; font-size: 40px;">Travail sur le projet final</h3>
-<h4>Partie (1/2)</h4>
+    <h3 style="color: gold; text-transform:capitalize; font-size: 40px;">Travail sur le projet final</h3>
+    <h4>Partie (1/2)</h4>
 </wiki-page>
 
 
 <wiki-page name="Cours 14" date="2023-03-15">
-<h3 style="color: gold; text-transform:capitalize; font-size: 40px;">Travail sur le projet final</h3>
-<h4>Partie (2/2)</h4>
+    <h3 style="color: gold; text-transform:capitalize; font-size: 40px;">Travail sur le projet final</h3>
+    <h4>Partie (2/2)</h4>
 </wiki-page>
 
 
 <wiki-page name="Cours 15" date="2023-03-21">
-    <h3 style="color: #83ff73; text-transform:capitalize; font-size: 40px;">Présentation  du projet final</h3>
+    <h3 style="color: #83ff73; text-transform:capitalize; font-size: 40px;">Présentation du projet final</h3>
     <video playsinline src="videos/La-peur.mp4" autoplay="true" muted="true" loop="true"></video>
 </wiki-page>
-
-
