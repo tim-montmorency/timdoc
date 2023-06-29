@@ -116,12 +116,12 @@
 
 <highlight lang="html">&lt;!DOCTYPE html&gt;
     &lt;html&gt;
-    &lt;head&gt;
-    &lt;meta charset=&quot;utf-8&quot;&gt;
-    &lt;title&gt;Le titre de ma page&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-    &lt;/body&gt;
+        &lt;head&gt;
+            &lt;meta charset=&quot;utf-8&quot;&gt;
+            &lt;title&gt;Le titre de ma page&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;/body&gt;
     &lt;/html&gt;</highlight>
 
 <p>L'ordre des balises est important dans cette structure de base.

@@ -141,7 +141,7 @@
 
 <p>Puisqu'il s'agit d'une balise de type bloc, elle se comporte exactement comme une balise <incode>&lt;div&gt;</incode>.</p>
 
-<warning>la balise <incode>&lt;main&gt;</incode> ne devrait pas être enfant des balises sémantique <incode>&lt;article&gt;</incode>, &lt;aside&gt;, <incode>&lt;footer&gt;</incode>, <incode>&lt;header&gt;</incode> ou <incode>&lt;nav&gt;</incode>.</warning>
+<warning>La balise <incode>&lt;main&gt;</incode> ne devrait pas être enfant des balises sémantique <incode>&lt;article&gt;</incode>, <incode>&lt;aside&gt;</incode>, <incode>&lt;footer&gt;</incode>, <incode>&lt;header&gt;</incode> ou <incode>&lt;nav&gt;</incode>.</warning>
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/main">main</doclink>
 <doclink href="https://www.w3schools.com/tags/tag_main.asp">main</doclink>
