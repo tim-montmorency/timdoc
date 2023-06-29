@@ -41,9 +41,9 @@
 
 <highlight lang="html">
     &lt;ul&gt;
-    &lt;li&gt;Élément&lt;/li&gt;
-    &lt;li&gt;Élément&lt;/li&gt;
-    &lt;li&gt;Élément&lt;/li&gt;
+        &lt;li&gt;Élément&lt;/li&gt;
+        &lt;li&gt;Élément&lt;/li&gt;
+        &lt;li&gt;Élément&lt;/li&gt;
     &lt;/ul&gt;</highlight>
 
 <dots></dots>
@@ -60,9 +60,9 @@
 
 <highlight lang="html">
     &lt;ol&gt;
-    &lt;li&gt;Élément 1&lt;/li&gt;
-    &lt;li&gt;Élément 2&lt;/li&gt;
-    &lt;li&gt;Élément 3&lt;/li&gt;
+        &lt;li&gt;Élément 1&lt;/li&gt;
+        &lt;li&gt;Élément 2&lt;/li&gt;
+        &lt;li&gt;Élément 3&lt;/li&gt;
     &lt;/ol&gt;</highlight>
 
 <dots></dots>
@@ -105,24 +105,24 @@
 <highlight lang="html">
     &lt;h2&gt;Conférence sur l&#39;accessibilité web&lt;/h2&gt;
     &lt;dl&gt;
-    &lt;dt&gt;Lieu&lt;/dt&gt;
-    &lt;dd&gt;Paris&lt;/dd&gt;
-    &lt;dt&gt;Dates&lt;/dt&gt;
-    &lt;dd&gt;Samedi 7 septembre&lt;/dd&gt;
-    &lt;dd&gt;Mercredi 14 octobre&lt;/dd&gt;
-    &lt;dt&gt;Heure&lt;/dt&gt;
-    &lt;dd&gt;À partir de 10 heures&lt;/dd&gt;
+        &lt;dt&gt;Lieu&lt;/dt&gt;
+        &lt;dd&gt;Paris&lt;/dd&gt;
+        &lt;dt&gt;Dates&lt;/dt&gt;
+        &lt;dd&gt;Samedi 7 septembre&lt;/dd&gt;
+        &lt;dd&gt;Mercredi 14 octobre&lt;/dd&gt;
+        &lt;dt&gt;Heure&lt;/dt&gt;
+        &lt;dd&gt;À partir de 10 heures&lt;/dd&gt;
     &lt;/dl&gt;</highlight>
 
 <h3>Exemple avec un glossaire:</h3>
 
 <highlight lang="html">
     &lt;dl&gt;
-    &lt;dt&gt;&lt;dfn&gt;ARIA&lt;/dfn&gt;&lt;/dt&gt;
-    &lt;dd lang=&quot;en&quot;&gt;Accessible Rich Internet Application&lt;/dd&gt;
+        &lt;dt&gt;&lt;dfn&gt;ARIA&lt;/dfn&gt;&lt;/dt&gt;
+        &lt;dd lang=&quot;en&quot;&gt;Accessible Rich Internet Application&lt;/dd&gt;
     […]
-    &lt;dt&gt;&lt;dfn&gt;RGAA&lt;/dfn&gt;&lt;/dt&gt;
-    &lt;dd&gt;Référentiel Général d&#39;Amélioration de l&#39;Accessibilité&lt;/dd&gt;
+        &lt;dt&gt;&lt;dfn&gt;RGAA&lt;/dfn&gt;&lt;/dt&gt;
+        &lt;dd&gt;Référentiel Général d&#39;Amélioration de l&#39;Accessibilité&lt;/dd&gt;
     […]
     &lt;/dl&gt;</highlight>
 
@@ -177,9 +177,9 @@
 
 <highlight lang="html">
     &lt;ol start=4 style=&quot;list-style-type:upper-alpha&quot;&gt;
-    &lt;li&gt;Élément&lt;/li&gt;
-    &lt;li&gt;Élément&lt;/li&gt;
-    &lt;li&gt;Élément&lt;/li&gt;
+        &lt;li&gt;Élément&lt;/li&gt;
+        &lt;li&gt;Élément&lt;/li&gt;
+        &lt;li&gt;Élément&lt;/li&gt;
     &lt;/ol&gt;
 </highlight>
 
@@ -193,9 +193,9 @@
 
 <highlight lang="html">
     &lt;ol reversed style=&quot;list-style-type:upper-alpha&quot;&gt;
-    &lt;li&gt;Élément&lt;/li&gt;
-    &lt;li&gt;Élément&lt;/li&gt;
-    &lt;li&gt;Élément&lt;/li&gt;
+        &lt;li&gt;Élément&lt;/li&gt;
+        &lt;li&gt;Élément&lt;/li&gt;
+        &lt;li&gt;Élément&lt;/li&gt;
     &lt;/ol&gt;
 </highlight>
 
@@ -209,13 +209,13 @@
 
 <highlight lang="html">
     &lt;ul&gt;
-    &lt;li&gt;Élément&lt;/li&gt;
-    &lt;li&gt;Élément&lt;/li&gt;
-    &lt;ol style=&quot;list-style-type:lower-alpha&quot;&gt;
-    &lt;li&gt;Élément 1&lt;/li&gt;
-    &lt;li&gt;Élément 2&lt;/li&gt;
-    &lt;li&gt;Élément 3&lt;/li&gt;
-    &lt;/ol&gt;
+        &lt;li&gt;Élément&lt;/li&gt;
+        &lt;li&gt;Élément&lt;/li&gt;
+        &lt;ol style=&quot;list-style-type:lower-alpha&quot;&gt;
+            &lt;li&gt;Élément 1&lt;/li&gt;
+            &lt;li&gt;Élément 2&lt;/li&gt;
+            &lt;li&gt;Élément 3&lt;/li&gt;
+        &lt;/ol&gt;
     &lt;/ul&gt;
 </highlight>
 
