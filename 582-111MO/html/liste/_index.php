@@ -96,15 +96,15 @@
 
 <highlight lang="html">
     &lt;dl&gt;
-    &lt;dt&gt;Expression&lt;/dt&gt;
-    &lt;dd&gt;Description&lt;/dd&gt;
+        &lt;dt&gt;Expression&lt;/dt&gt;
+        &lt;dd&gt;Description&lt;/dd&gt;
     &lt;/dl&gt;</highlight>
 
 <h3>Exemple avec une description d’un événement:</h3>
 
 <highlight lang="html">
     &lt;h2&gt;Conférence sur l&#39;accessibilité web&lt;/h2&gt;
-    &lt;dl&gt;
+        &lt;dl&gt;
         &lt;dt&gt;Lieu&lt;/dt&gt;
         &lt;dd&gt;Paris&lt;/dd&gt;
         &lt;dt&gt;Dates&lt;/dt&gt;
@@ -118,11 +118,11 @@
 
 <highlight lang="html">
     &lt;dl&gt;
-        &lt;dt&gt;&lt;dfn&gt;ARIA&lt;/dfn&gt;&lt;/dt&gt;
-        &lt;dd lang=&quot;en&quot;&gt;Accessible Rich Internet Application&lt;/dd&gt;
+    &lt;dt&gt;&lt;dfn&gt;ARIA&lt;/dfn&gt;&lt;/dt&gt;
+    &lt;dd lang=&quot;en&quot;&gt;Accessible Rich Internet Application&lt;/dd&gt;
     […]
-        &lt;dt&gt;&lt;dfn&gt;RGAA&lt;/dfn&gt;&lt;/dt&gt;
-        &lt;dd&gt;Référentiel Général d&#39;Amélioration de l&#39;Accessibilité&lt;/dd&gt;
+    &lt;dt&gt;&lt;dfn&gt;RGAA&lt;/dfn&gt;&lt;/dt&gt;
+    &lt;dd&gt;Référentiel Général d&#39;Amélioration de l&#39;Accessibilité&lt;/dd&gt;
     […]
     &lt;/dl&gt;</highlight>
 
