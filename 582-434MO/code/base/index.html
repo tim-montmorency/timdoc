@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/commons.js"></script>
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Bases du code</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../../">Réalité virtuelle</a> > <a href="../">Code</a> ></div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Bases du code</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Dans Unity, le langage de programmation est le C#. Les srcipts sont les composantes qui contiennent le code.</p>
+
+
+<dots></dots>
+
+<grostitre>Structure d'un script</grostitre>
+<p>Un script est aussi appelé une classe dans Unity. C'est un ensemble de fonctions qui seront exécutées.Voici la structure type d'une classe:</p> 
+<highlight lang="C#">
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class script2 : MonoBehaviour
+{
+    private int myInt; 
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
+</highlight>
+
+     <p>La première section est celle des NameSpace. On la remarque par l'utilisation de using avant chaque terme. Elle détermine quelles classes seront utilisées dans ce script. On laisse celles qui sont présentes par défaut. D'autres peuvent être ajoutées au besoin:</p>
+     <ol>
+        <li>using UnityEngine.UI; Permet de modifier certaines composantes comme les boutons.</li>
+        <li>using UnityEngine.Video; Permet de modifier les composantes reliées à la lecture de vidéos.</li>
+        <li>using UnityEngine.SceneManagement; Permet de faire des changements de Scene à partir du code.</li>
+        <li>using TMPro; Permet de modifier le texte des objets qui ont une composante Text Mesh Pro.</li>
+
+</ol>
+<p>Après les nameSpace, on aperçoit public class... Ici, script2 est le nom de mon script. On laisse cette ligne telle quelle, c'est elle qui annonce que tout ce qui suit fera partie de la classe de mon script.</p>
+<alert>Attention à ne jamais changer le nom de votre script dans le code, sinon il ne sera plus fonctionnel.</alert>
+<p>Après le nom de la classe, j'ai inscris private int myInt. C'est à cet endroit qu'on doit déclarer toutes les variables qui seront utilisées dans notre script on peut déjà leur donner des valeurs ou attendre à plus tard.</p>
+<p>Maintenant, il reste les Fonctions Start et Update. Ainsi, dans cette section, on crée les fonctions qui contiendront le code.</p>
+
+
+<dots></dots>
+
+<grostitre>Opérateurs</grostitre>
+<p>Voici une liste des opérateurs courants dans Unity:</p>
+<ul>
+<li><b>+=</b> (myInt += 2;) additionne 2 à myInt</li>
+<li><b>-=</b> (myInt -= 2;) soustrait 2 à myInt</li>
+<li><b>++</b> (myInt ++;) additionne 1 à myInt</li>
+<li><b>--</b> (myInt --;) soustrait 1 à myInt</li>
+<li><b>*=</b> (myInt *= 2;) multiplie myInt par 2</li>
+<li><b>/=</b> (myInt /= 2;) divise myInt en 2</li>
+<li><b>%=</b> (myInt %= 2;) calcule le reste de la division de myInt par 2</li>
+<li> +, -, * et / peuvent aussi être utilisés entre 2 nombres</li>
+</ul>
+
+<info>Dans Unity, il est souvent plus simple de faire *0.5f que de diviser notre nombre en deux. Même chose pour toutes les divisions, on peut les remplacer par une multiplication par une fraction.</info>
+
+
+
+<dots></dots>
+
+
+<grostitre>Conditions</grostitre>
+<p>Dans Unity, on utilise fréquemment les conditions pour vérifier si un élément est vrai avant d'exécuter une portion de code. Une condition s'écrit de la façon suivante:</p>
+<highlight lang="C#">    if(myInt == 2)
+        {
+
+        }  
+</highlight>
+        <p>Si ma condition est vrai, donc que la variable myInt est égale à 2, on exécutera le code qui est entre les {}; 
+    <p> Outre les ==, il existe d'autres opérateurs pour valider si une fonction est vraie:</p>
+    <ul><li>!= (Pas égal à)</li>
+    <li>< (plus petit que)</li>
+    <li> > (plus grand que)</li>
+    <li> <= (plus petit ou égal)</li>
+    <li> >= (plus grand ou égal)</li>
+    </ul>
+    <p>Il est possible de vérifier plus d'une condition grâce à &&:</p>
+    <highlight lang="C#"> if(myInt >= 2 && myInt < 10)
+        {
+
+        }   </highlight>
+        <p>Ici, on vérifie si myInt est plus grand ou égal à deux et plus petit que 10. Si c'est le cas, le code sera exécuté.</p>
+
+        <highlight lang="C#"> if(myInt >= 2 || myInt == 0)
+        {
+
+        }    </highlight>
+        <p>On peut utiliser || pour choisir l'une ou l'autre des conditions, ainsi si myInt est plus grand ou égal à deux ou égal à 0, le code entre {} sera exécuté.</p>
+
+
+        <dots></dots>
+
+<grostitre>Boucle</grostitre>
+<p>Dans Unity, les boucles sont souvent utilisées pour compter des éléments ou interagir avec les tableaux.</p>
+
+<highlight lang="C#">  for(int i = 0; i < 3; i++)
+        {
+
+        }   </highlight>
+<p>Ci-haut, on crée une boucle dont le code sera exécuté 3 fois avant que le code qui le suit s'exécute.</p>
+<highlight lang="C#">  for(int i = 0; i < myInts.Length; i++)
+        {
+            myInts[i] =0; 
+        }   </highlight>
+<p>Dans Unity, une pratique courante lorsqu'on crée une boucle est d'utiliser la longueur d'un tableau plutôt qu'un chiffre fixe. Ainsi, ci-haut ma boucle sera répétée autant de fois qu'il y a de chiffres dans le tableau myInts[]. Cela permet de ne pas avoir à changer le code à chaque fois que notre tableau change en longueur.</p>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>

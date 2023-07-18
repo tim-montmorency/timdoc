@@ -1,7 +1,7 @@
 <?php 
 /**
  * @type     list
- * @title    Trois dimension
+ * @title    Trois dimensions
  * @icon     images/icon.png
  * @abstract Création d'environnement
  */
