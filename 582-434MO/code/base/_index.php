@@ -50,6 +50,14 @@ public class script2 : MonoBehaviour
 <p>Après le nom de la classe, j'ai inscris private int myInt. C'est à cet endroit qu'on doit déclarer toutes les variables qui seront utilisées dans notre script on peut déjà leur donner des valeurs ou attendre à plus tard.</p>
 <p>Maintenant, il reste les Fonctions Start et Update. Ainsi, dans cette section, on crée les fonctions qui contiendront le code.</p>
 
+<dots></dots>
+
+<grostitre>Console</grostitre>
+<p>Dans Unity, la fenêtre console est importante pour trouver les problèmes dans les scripts ou pour faire le suivi de valeurs. Cette fenêtre se trouve au bas de votre écran, c'est un onglet de la fenêtre Project.</p>
+
+<img src="images/console.jpg">
+<highlight lang="C#">  Debug.Log("Hello World"); </highlight>
+<p>Pour imprimer une valeur ou un texte dans la console, il suffit d'inscrire Debug.Log et de mettre ce qu'on veut imprimer entre parenthèse. Ici, j'ai utilisé les "" pour imprimer une phrase, mais j'aurais aussi pu écrire le nom d'une variable int comme myInt pour imprimer sa valeur.</p>
 
 <dots></dots>
 

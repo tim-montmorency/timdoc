@@ -19,6 +19,10 @@
     }  </highlight>
     <p>Créer une coroutine est simple. Plutôt que d'utiliser void, on doit écrire IEnumerator, ensuite on donne un nom à notre Coroutine. Avant IEnumerator on peut aussi inscrire public ou private selon ce qu'on souhaite pour notre coroutine.</p>
     <p>À l'intérieur de ma Coroutine, j'ai inscris yield break;. Si vous ne le faites pas, Unity indiquera une erreur. Dans ce cas-ci, yield break permet à la coroutine de prendre fin. Ainsi, si vous inscrivez du code après yield break, il ne sera pas exécuté.</p>
+    
+    <dots></dots>
+
+<grostitre>Mettre sur pause</grostitre>
     <p>Une coroutine fonctionne comme une fonction, ainsi, on peut inscrire notre code en haut de yield break comme on le ferait habituellement. En plus, on peut inscrire des combinaisons qui nous permettent de mettre notre code sur pause.</p>
 
     <highlight lang="C#"> yield return new WaitForSeconds(3f);  </highlight>
@@ -38,3 +42,15 @@
         }</highlight>
 <p>On pourrait mettre un code avant myInt, il serait exécuté à chaque 10 secondes cinq fois.</p>
 
+<dots></dots>
+
+<grostitre>Démarrer une Coroutine</grostitre>
+<highlight lang="C#"> StartCoroutine(myCoroutine());  </highlight>
+<p>Démarrer une Coroutine est simple. Il suffit d'écrire StartCoroutine et d'écrire le nom de la Coroutine qu'on souhaite démarrer entre parenthèse. Il ne faut pas oublier d'ajouter () après le nom de la coroutine.</p>
+
+<dots></dots>
+
+<grostitre>Arrêter une Coroutine</grostitre>
+<highlight lang="C#"> StopCoroutine(myCoroutine());   </highlight>
+<p>Normalement, les Coroutine prendront fin seules grâce à votre code, mais vous pouvez utilisez StopCoroutine pour les arrêter au besoin. Si vous souhaitez arrêter toutes les coroutines en même temps, vous pouvez utiliser le code suivant:</p>
+<highlight lang="C#"> StopAllCoroutines();</highlight>
