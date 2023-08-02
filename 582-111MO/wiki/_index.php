@@ -10,7 +10,7 @@
 
 <wiki-page name="Cours 1">
     <?php intlink("../html/html-histoire/"); ?>
-    <?php intlink("../html/composantes-web/"); ?>
+    <?php intlink("../autres/composantes-web/"); ?>
 </wiki-page>
 
 
