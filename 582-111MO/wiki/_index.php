@@ -9,9 +9,10 @@
 ?>
 
 <wiki-page name="Cours 1">
-    <?php intlink("../html/html-histoire/"); ?>
+    <?php intlink("../autres/histoire-du-web/"); ?>
     <?php intlink("../autres/experience-utilisateur/"); ?>
     <?php intlink("../autres/composantes-web/"); ?>
+    <?php intlink("../html/html-histoire/"); ?>
 </wiki-page>
 
 
