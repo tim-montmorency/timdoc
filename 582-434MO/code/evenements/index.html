@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/commons.js"></script>
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Événements</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../../">Réalité virtuelle</a> > <a href="../">Code</a> ></div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Événements</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Dans Unity, les événements nous permettent de déclencher des scripts ou encore de modifier des GameObjects facilement lorsqu'ils sont déclenchés. Certains objets contiennent des événements par défaut. Par exemple, les boutons contiennent l'événement On Click, les Image Target contiennent l'événement détection d'image... Dans ce chapitre, nous allons voir les possibilités que créent les événements. </p>
+
+
+<dots></dots>
+
+<grostitre>Événement</grostitre>
+<p>Les événements sont des boîtes qui ressemblent à ceci dans l'inspecteur:</p> 
+<img src="images/evenement.jpg">
+
+<p>En haut à gauche, on voit le nom de l'événement. Celui-ci nous indique habituellement à quel moment celui-ci sera déclenché. Dans le cas de cette image, c'est lorsqu'on appuie sur un bouton qu'il est déclenché. En bas à droite, le symbole + nous permet d'ajouter une action qui sera déclenchée lorsque l'événement se produit. Lorsqu'on clique sur le +, voici ce qui s'affiche: </p>
+<img src="images/evenement2.jpg">
+<p>Le premier paramètre (Runtime Only) détermine à quel moment notre événement est effectif, on peut sélectionner Jamais, seulement en mode test ou en mode test et en mode Éditeur. Je recommande de conserver Runtime Only (mode test seulement).</p>
+<p>La boîte en dessous de Runtime Only est celle qui détermine quel Objet est concerné par l'événement. On doit cliquer-glisser l'objet concerné dans cette boîte. On peut glisser n'importe quel objet de la hierarchy dans cette boîte, ce peut-être l'objet lui-même qu'on glisse ou un autre. </p>
+<p>Selon l'objet qu'on glisse dans la boîte Object, la boîte Function aura des paramètres différents qu'on peut affecter. Voici une liste non-exhausitve de ce qu'on peut faire grâce à cette boîte:</p> 
+ <ul>
+    <li> GameObject:  Le paramètre SetActive, nous permet d'activer ou désactiver un GameObject lorsque l'événement est déclenché.</li>
+    <li> Button: Le paramètre bool enabled nous permet d'activer ou désactiver le clic du bouton. Ainsi, le bouton reste visible, mais on ne peut plus cliquer dessus.</li>
+    <li> Animator: La fonction Play (string), nous permet d'écrire le nom de l'animation que nous souhaitons voir jouer. Une fois cette animation jouée, c'est l'animator Controller qui jouera la suivante ou non selon comment il est programmé.</li>
+</ul> 
+<p>Bien que plusieurs actions soit possibles, la façon la plus efficace de déclencher plusieurs actions grâce à un événement est de créer une fonction dans un script avec ces actions et d'assigner le GameObject sur lequel il est à la boîte Object. Ensuite, dans Function, on doit chercher le nom du script, puis le nom de la fonction à exécuter.</p> 
+<img src="images/evenement3.jpg">
+<p>Dans l'image ci-haut, j'ai assigné l'objet Square à l'événement. Ensuite, dans la liste Function, j'ai choisi le script nommé Script, puis j'ai choisi la fonction EvenementClic. Cela signifie que lorsque je clique sur le bouton ma fonction EvenementClic sera exécutée. Je peux passer un paramètre à cette fonction, ce qui pourrait être utile pour détecter quel objet est touché par exemple.</p>
+
+<warning>Lorsque vous crééz une fonction dans un script et que vous souhaitez l'appeler à partir d'un événement assurez vous que votre fonction est publique (Public void).</warning>
+
+<dots></dots>
+
+<grostitre>Composante Event Trigger</grostitre>
+<p>Dans Unity, il est possible d'ajouter un événement à nos GameObjects pour détecter les touches sur lequel le joueur appuie ou les mouvements qu'il fait avec sa souris. Cela nous permet de faire des déclenchements lorsque des modifications sont détectées.</p>
+<checklist>Pour ajouter un événement de détection sur un objet, on doit cliquer sur cet objet dans la hierarchy pour le voir dans la fenêtre Inspector. Ensuite, on doit cliquer sur Add component dans l'inspecteur et chercher Event trigger. Il faut ensuite cliquer sur cette composante pour l'ajouter.
+    Une fois la composante ajoutée, on peut créer des triggers selon les événements. Pour ce faire, on clique sur Add New Event Type dans la fenêtre Inspector. Dans la liste, on a des choix d'événements qui font référence aux actions du joueur. Par exemple, pointer up ou down nous permettra de détecter lorsqu'un bouton est appuyé et relâché alors qu'habituellement on aurait seulement accès au clic. Une fois le type d'événement choisi on procède comme habituellement pour choisir ce que l'événement déclenche.
+</checklist>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>

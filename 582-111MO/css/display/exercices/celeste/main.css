@@ -1,0 +1,11 @@
+html { 
+  background-image: url('https://ex.smnarnold.com/display/celeste/bg.jpg');
+  background-size: cover;
+ }
+
+.card {
+  font-size: 20px;
+  width: 400px;
+  margin: 30px;
+  background-color: white;
+}

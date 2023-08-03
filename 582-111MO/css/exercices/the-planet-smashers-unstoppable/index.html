@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../../shared/jscripts/commons.js"></script>
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>The Planet Smashers - Unstoppable</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">The Planet Smashers - Unstoppable</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p class="spacer">Pour cet exercice, vous devez écrire du CSS ainsi que des <em>media queries</em> afin de recréer l’album <a target="_blank" href="https://open.spotify.com/album/1kJP7cQaT8xHYSKlknNiuS">"Unstoppable"</a> du groupe <a target="_blank" href="https://en.wikipedia.org/wiki/The_Planet_Smashers">The Planet Smashers</a>.</p>
+
+<p>Cet album a la particularité d'avoir un arrière-plan utilisant un <a target="_blank" href="https://www.google.com/search?q=japanese+cube+pattern&tbm=isch">motif de cubes japonais</a>.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<clipasset src="videos/apercu.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>Matériel</grostitre>
+
+<doclink href="./the-planet-smashers-unstoppable.zip">Dossier de départ</doclink>
+
+<h3>Couleurs 🎨</h3>
+
+<color>#f8f400</color>
+<color>#e95821</color>
+
+<h3>Médias</h3>
+
+<mediafile src="images/logo.png">Logo</mediafile>
+<mediafile src="images/drum.png">Batterie</mediafile>
+<mediafile src="images/bass.png">Basse</mediafile>
+<mediafile src="images/sax.png">Saxophone</mediafile>
+<mediafile src="images/trombone.png">Trombone</mediafile>
+
+<dots></dots>
+
+<warning>Vous devrez utiliser les <em>media queries</em> afin de déplacer les éléments selon la grandeur de la fenêtre.</warning>
+
+<dots></dots>
+
+<grostitre>Requis de base</grostitre>
+
+<checklist>
+  Le fond de la page doit avoir un dégradé allant de <em>jaune</em> à <em>orange</em>.
+  L'élément <span class="inline-code">.wrapper</span> doit avoir:<br>&nbsp;&nbsp;•&nbsp;Une largeur minimale de 520px<br>&nbsp;&nbsp;•&nbsp;Une largeur maximale de 1000px<br>&nbsp;&nbsp;•&nbsp;Une hauteur de 740px<br>&nbsp;&nbsp;•&nbsp;Avoir une bordure solide noire de 20px<br>&nbsp;&nbsp;•&nbsp;Être centré horizontalement dans la page
+  Téléchargez toutes les images et placez les dans un sous-dossier <span class="inline-code">images</span>.
+  Utilisez la balise <span class="inline-code">img</span> afin d'ajouter les 5 images à l'intérieur de l'élément <span class="inline-code">.wrapper</span>.
+  Toutes les images doivent être en <span class="inline-code">position: absolute;</span>.
+</checklist>
+
+<grostitre>Fenêtre par défaut</grostitre>
+
+<checklist>
+  Le logo doit être placé à <em>88px</em> de la gauche et <em>62px</em> du haut.
+  La basse doit être placé à <em>340px</em> de la gauche et <em>420px</em> du haut.
+  La batterie doit être placé à <em>40px</em> de la gauche et <em>290px</em> du haut.
+  Le trombone doit être placé à <em>180px</em> de la gauche et <em>390px</em> du haut.
+  Le saxophone doit être placé à <em>110px</em> de la gauche et <em>540px</em> du haut.
+</checklist>
+
+<grostitre>Fenêtre de 680px et +</grostitre>
+
+<checklist>
+  La basse doit être déplacé à <em>500px</em> de la gauche.
+  La batterie doit être déplacé à <em>440px</em> de la gauche et <em>150px</em> du haut.
+</checklist>
+
+<grostitre>Fenêtre de 840px et +</grostitre>
+
+<checklist>
+  La batterie doit être déplacé à <em>600px</em> de la gauche.
+  Le trombone doit être déplacé à <em>260px</em> de la gauche.
+</checklist>
+
+<grostitre>Fenêtre de 1000px et +</grostitre>  
+
+<checklist>
+  La batterie doit être déplacé à <em>760px</em> de la gauche.
+  La basse doit être déplacé à <em>660px</em> de la gauche.
+  Le trombone doit être déplacé à <em>420px</em> de la gauche.
+</checklist>
+
+<dots></dots>
+
+
+
+<grostitre>Ambiance</grostitre>
+
+<h3>The Planet Smashers - Police the Nation</h3>
+
+<audioplayer src="audios/the-planet-smashers-police-the-nation.mp3"></audioplayer>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+            <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../linear-gradient/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../linear-gradient/">Linear-gradient</a></span>
+                    <span class="intlink__item__abstract">Générer un dégradé.</span>
+                </div>
+            </div>
+        
+<dots></dots>
+
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>

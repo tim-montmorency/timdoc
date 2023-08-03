@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/commons.js"></script>
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>TileMaps</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../../">Réalité virtuelle</a> > <a href="../">deux dimensions</a> ></div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;TileMaps</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Unity a un système de TileMaps qui permet de créer rapidement des cartes à partir de tuiles.</p>
+
+
+<dots></dots>
+
+<grostitre>Importer les tuiles</grostitre>
+<Checklist>
+    Pour commencer, importez l'image contenant vos tuiles dans Unity. Je vous recommande de mettre toutes vos tuiles sur la même image et de les diviser dans le logiciel ensuite, cela rend le jeu moins lourd que si on importe les tuiles une par une. Pour importer votre image, allez dans le menu Asset, import new asset.
+    Une fois que votre image est importée, cliquez dessus dans la fenêtre Project pour que ses propriétés apparaissent dans l'inspecteur. Assurez-vous que le Texture Type est bien Sprite.
+    Dans Sprite Mode, nous allons choisir Multiple puisque notre image contient plusieurs tuiles.
+    Dans Pixels per Unit, vous allez entrer le nombre correspondant aux nombre de pixels de vos tuiles. Ainsi, si vous avez des tuiles de 32 x32, vous inscrirez 32.  
+    Dans Filter Mode, choisissez Point pour être certain qu'aucun flou ne sera appliqué à vos tuiles. 
+    Appuyez sur Apply. 
+    Une fois que vos changements sont appliqués, appuyez sur Sprite Editor pour ouvrir l'éditeur. 
+    En haut à gauche, appuyez sur Slice, vous pouvez sélectionner le mode de votre choix pour diviser vos tuiles. Je vous recommande d'utiliser le mode Grid by Cell Size puisque celui-ci permet de donner une taille fixe et divise nos tuiles en fonction de celle-ci. Une fois que vous avez choisi ce mode, dans Pixel Size, vous devez inscrire en x et en y la taille en pixel de vos tuiles. Appuyez ensuite sur slice.
+    Des carrés blancs apparaîtront pour délimiter vos tuiles. S'ils sont ok, appuyez sur Apply, puis fermez le Sprite Editor. 
+</checklist>
+
+<dots></dots>
+
+<grostitre>Créer une TileMap</grostitre>
+<Checklist>
+    Pour créer une carte, allez dans la fenêtre Hierarchy, faites un clic droit, puis 2D object, TileMap, Rectangular. Vous pourriez prendre un autre type de carte si vos tuiles ne sont pas des carrés. Une grille sera alors créée avec une carte dedans. On pourrait créer plus d'une carte avec cette grille. 
+    Ensuite, allez dans le menu Window, 2d, Tile Palette. Une nouvelle fenêtre s'ouvrira. 
+    Pour pouvoir dessiner nos tuiles sur la carte, on doit créer une palette contenant les tuiles disponibles. Pour ce faire, appuyez sur Create New Palette, donnez lui un nom, puis appuyez sur Create. Ensuite sauvegarder la palette dans le dossier de votre choix. Vous pouvez créer un dossier palette. Une fois que c'est fait, sauvegardez, puis appuyez sur votre palette pour l'ouvrir. 
+    Dans la fenêtre Tile Palette, vous devriez voir le nom de votre nouvelle palette en haut à gauche. Maintenant, vous devez ajouter des tuiles à cette palette. Dans la fenêtre Project, sélectionnez toutes vos tuiles ou l'image qui les contient, puis glissez-les dans la fenêtre Palette Tile. On vous demandera alors de sauvegarder les tuiles créées dans un dossier. Créez un dossier tuile, puis sauvegardez. 
+    Maintenant, vous devriez voir vos tuiles dans la fenêtre Tile Palette. Nous voulons les peinturer dans notre environnement, pour ce faire, nous avons besoin de voir la grille. Si vous ne la voyez pas, appuyez sur l'outil Gizmos en haut à droite de la fenêtre Scene.   
+    Une fois que votre grille est activée, choississez l'outil Brush (B) dans la Tile Palette. Vous pouvez maintenant cliquer sur une tuile dans la Tile Palette. Une fois votre tuile sélectionnée, vous pouvez cliquer dans les carrés de la grille pour peinturer cette tuile. Si vous maintenez votre souris enfoncée et que vous vous promenez, vous allez peinturer partout. 
+    Pour effacer, vous pouvez utiliser l'efface (D) ou encore appuyez sur le carré avec une autre tuile pour modifier la tuile. 
+    L'outil de remplissage (G) vous permet de remplir l'espace une fois que vous avez créé le contour. 
+    Pour déplacer des éléments de votre carte, vous êtes mieux d'utiliser la sélection (S) et le mouvement (M) de la Tile palette que le transform de la grid. 
+    En appuyant sur I, vous aurez accès à la pipette et pourrez sélectionner un carré dans la Scene pour le duppliquer. 
+</checklist>
+<info>Vous pouvez sélectionnez plus d'une tuile pour peinturer plusieurs carrés en même temps!</info>
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>

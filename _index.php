@@ -14,9 +14,12 @@
 
 <grostitre>Cours</grostitre>
 
+<?php intlink("./582-111MO/"); ?>
 <?php intlink("./582-215MO/"); ?>
 <?php intlink("./582-424MO/"); ?>
+<?php intlink("./582-434MO/"); ?>
 <?php intlink("./582-518MO/"); ?>
+
 
 <dots></dots>
 

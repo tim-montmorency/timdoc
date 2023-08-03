@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/commons.js"></script>
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Ancre</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../../">Web 1</a> > <a href="../">HTML</a> ></div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Ancre</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p>La balise d'ancre <incode>&lt;a&gt;</incode> permet de connecter différentes ressources entre elles. Elle est généralement utilisée afin d'établir un lien vers un autre site web ou encore vers une section d'une page, mais elle peut aussi déclencher l'ouverture d'une fenêtre de courriel, un appel téléphonique, le téléchargement de fichiers, etc.<br><br>
+
+L'attribut <incode>href</incode> est l'attribut principal de la balise <incode>&lt;a&gt;</incode>. Il permet de définir la cible d'une ancre. Voyons cibles les plus courantes.</p>
+
+<grostitre>Vers une page</grostitre>
+
+<p>Pour faire un lien vers une page, il suffit de spécifier l'url du site en question dans le <incode>href</incode>.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="html">&lt;a href=&quot;https://site.com&quot;&gt;Site&lt;/a&gt;</highlight>
+
+<h3 style="color: gold">Target</h3>
+
+<p>Il est possible de choisir si un lien devrait s'ouvrir dans l'onglet courant du navigateur ou encore dans un onglet distinct. Pour ce faire, il suffit d'ajouter l'attribut <incode>target</incode> à une ancre.</p>
+
+<ul>
+    <li><incode>li_self</incode> <em>(par défaut)</em> ouvre dans le même onglet.</li>
+    <li><incode>_blank</incode> ouvre dans un nouvel onglet.</li>
+</ul>
+
+<p>Par exemple:</p>
+
+<highlight lang="html">&lt;a href=&quot;https://site.com&quot; target=&quot;_blank&quot;&gt;Site&lt;/a&gt;</highlight>
+
+<dots></dots>
+
+<grostitre>Vers une section de page</grostitre>
+
+<p>Pour pointer vers une section de la page courante, il suffit dans le <incode>href</incode> de faire référence à l'id de l'élément désiré et de le préfixer avec un <incode>#</incode>.</p>
+
+<p>Par exemple, pour qu'une ancre pointe vers l'élément ayant l'id section2, il est possible de faire:</p>
+
+<highlight lang="html">&lt;a href=&quot;#section2&quot;&gt;Lien vers la section 2&lt;/a&gt;
+
+&lt;div id=&quot;section1&quot;&gt;Section 1&lt;/div&gt;
+&lt;div id=&quot;section2&quot;&gt;Section 2&lt;/div&gt;
+&lt;div id=&quot;section3&quot;&gt;Section 3&lt;/div&gt;</highlight>
+
+<p>Pour pointer vers une section d'une autre page, il suffit d'ajouter l'URL de la page en question avant le <incode>#</incode>.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="html">&lt;a href=&quot;https://site.com#section2&quot;&gt;Site&lt;/a&gt;</highlight>
+
+<warning>Seul un id peut-être utilisé pour pointer vers un élément, car les autres sélecteurs peuvent faire référence à plusieurs éléments, tandis que celui-ci est unique.</warning>
+
+<h3>Scroll-behavior</h3>
+
+<p>Par défaut, lorsque l'on pointe vers une section de page, le navigateur saute directement au id ciblé. Cependant, il est possible de faire en sorte que la page défile vers le id en question en spécifiant la propriété <incode>scroll-behavior: smooth</incode> à l'élément HTML.</p>
+
+<p>Par exemple, cliquez sur les boutons 1 et 2 pour sauter d'une section à l'autre et refaite le, mais en changeant la valeur de scroll-behavior.</p>
+
+<codepen id="MWzpajX">Scroll-Behavior</codepen>
+
+<dots></dots>
+
+<grostitre>Composer un courriel ✉️</grostitre>
+
+<p>L'attribut <incode>href</incode> peut aussi contenir une adresse courriel préfixée par: <incode>mailto:</incode> afin d'indiquer au service de courrielleur de l'usager <em>(Outlook, Gmail, etc.)</em> de générer un nouveau message prêt à être rédigé.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="html">&lt;a href=&quot;mailto:exemple@gmail.com&quot;&gt;Écrivez-moi!&lt;/a&gt;</highlight>
+
+<dots></dots>
+
+<grostitre>Démarrer un appel 📞</grostitre>
+
+<p>L'attribut <incode>href</incode> peut aussi contenir un numéro de téléphone préfixée par: <incode>tel:</incode> afin d'indiquer que le système d'exploitation devrait devrait déclencher un appel au numéro mentionné si cette fonctionnalité est supportée par celui-ci.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="html">&lt;a href=&quot;tel:5551234567&quot;&gt;Appelez-moi!&lt;/a&gt;</highlight>
+
+<info>Surtout pratique pour les appareils mobiles 📱</info>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/a">a</doclink>
+<doclink href="https://www.w3schools.com/tags/tag_a.asp">a</doclink>
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>
