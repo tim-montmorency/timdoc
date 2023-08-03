@@ -91,3 +91,11 @@
 <grostitre>Microsoft 365</grostitre>
 
 <youtube src="./videos/microsoft-365.json"></youtube>
+
+<dots></dots>
+
+<grostitre>Microsoft TEAMS</grostitre>
+
+<youtube src="./videos/teams.json"></youtube>
+
+<dots></dots>
