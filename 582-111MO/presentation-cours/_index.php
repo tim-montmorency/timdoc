@@ -62,7 +62,7 @@
 
 <p style="color:#f4754d">Procédure de connexion au système Col.NET </p>
 
-<img src="images//connexion.png">
+<img src="images/connexion.png">
 
 <p><em>Code d’usager ÉTUDIANT </em></p>
 
@@ -92,10 +92,50 @@
 
 <youtube src="./videos/microsoft-365.json"></youtube>
 
+<img src="images/365.webp">
+
+<p style="color:#f4754d">Outils Microsoft 365, tous accessible via </p>
+
+<img src="images/carre.webp">
+
+<img src="images/office.webp">
+
+<grostitre>Microsoft onedrive</grostitre>
+<p>Votre nuage informatique</p>
+
+<p><em>Démo OneDrive, création, édition, renommer, déplacement et partage de fichiers</em></p>
+
+<img src="images/nuage.webp">
+
 <dots></dots>
 
 <grostitre>Microsoft TEAMS</grostitre>
 
 <youtube src="./videos/teams.json"></youtube>
+
+<p style="color:#f4754d">Rejoindre les équipes:</p>
+
+<list>
+        <li>TIM - Programme TIM - Code d’entrée : <em>plzaqjq</em></li><br>
+
+        <li>TIM - 582 111 - Web 1 - Code d’entrée : <em> ________</em></li><br>
+
+</list>
+
+<list>
+    <ol>
+        <li>Cliquez sur le bouton Équipes sur le côté gauche de l’application </li><br>
+
+        <li>Puis cliquez sur « Se joindre ou créer une équipe » dans la liste des équipes  </li><br>
+
+        <li>Cliquez ensuite sur « Se joindre à une équipe à l’aide d’un code », collez le code dans la zone code de l’entrée, puis cliquez sur rejoindre.</li><br>
+
+    </ol>
+</list>
+
+
+<img src="images/teams-1.webp">
+
+<img src="images/teams-2.webp">
 
 <dots></dots>
