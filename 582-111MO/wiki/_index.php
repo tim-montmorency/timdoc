@@ -28,11 +28,7 @@
 
 <wiki-page name="Cours 3">
     <?php intlink("../autres/formats-d-image/"); ?>
-    <?php intlink("../html/picture/"); ?>
-    <?php intlink("../html/picture/exercices/ant-man/"); ?>
     <?php intlink("../autres/vectoriel-vs-matriciel/"); ?>
-    <?php intlink("../html/svg/"); ?>
-    <?php intlink("../html/svg/exercices/hollywood-boulevard/"); ?>
     <?php intlink("../html/audio/"); ?>
     <?php intlink("../html/video/"); ?>
     <?php intlink("../html/legende-de-media/"); ?>
@@ -91,6 +87,8 @@
     <?php intlink("../css/selecteurs/exercices/css-diner/"); ?>
     <?php intlink("../css/flux/"); ?>
     <?php intlink("../css/box-model/"); ?>
+    <?php intlink("../css/box-model/broforce"); ?>
+    <?php intlink("../css/box-model/marc-seguin"); ?>
     <?php intlink("../css/display/"); ?>
     <?php intlink("../css/vertical-align/"); ?>
     <?php intlink("../css/display/exercices/celeste/"); ?>
