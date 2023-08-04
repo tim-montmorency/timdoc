@@ -87,8 +87,8 @@
     <?php intlink("../css/selecteurs/exercices/css-diner/"); ?>
     <?php intlink("../css/flux/"); ?>
     <?php intlink("../css/box-model/"); ?>
-    <?php intlink("../css/box-model/broforce"); ?>
-    <?php intlink("../css/box-model/marc-seguin"); ?>
+    <?php intlink("../css/box-model/exercices/broforce"); ?>
+    <?php intlink("../css/box-model/exercices/marc-seguin"); ?>
     <?php intlink("../css/display/"); ?>
     <?php intlink("../css/vertical-align/"); ?>
     <?php intlink("../css/display/exercices/celeste/"); ?>
