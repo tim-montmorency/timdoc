@@ -7,7 +7,9 @@
  */
 ?>
 
-<p style="font-size: 40px"> AUTONOMIE ET DÉBROUILLARDISE</p>
+<p style="font-size: 40px; color:#f4754d"> AUTONOMIE ET DÉBROUILLARDISE</p>
+
+<img src="images/autonomie.webp">
 
 <dots></dots>
 

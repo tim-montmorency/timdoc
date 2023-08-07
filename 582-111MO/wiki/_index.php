@@ -10,6 +10,7 @@
 
 <wiki-page name="Cours 1">
     <?php intlink("../presentation-cours"); ?>
+    <?php intlink("../autres/autonomie/"); ?>
     <?php intlink("../autres/histoire-du-web/"); ?>
     <?php intlink("../autres/experience-utilisateur/"); ?>
     <?php intlink("../autres/composantes-web/"); ?>
