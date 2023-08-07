@@ -33,6 +33,24 @@
 
 <dots></dots>
 
+<grostitre>SVG</grostitre>
+
+<p>SVG <em>(Scalable Vector Graphics)</em> est un format d'image basé sur XML <em>(Extensible Markup Language)</em> qui est utilisé pour représenter des graphiques vectoriels. Contrairement aux images matricielles <em>(bitmap)</em> qui sont composées de pixels, les images vectorielles SVG sont composées de formes géométriques et de trajectoires mathématiques, ce qui leur permet de maintenir leur qualité et leur netteté, peu importe leur taille.</p>
+
+<p>
+    ➕ Sans perte de qualité<br>
+    ➕ Taille de fichier compacte<br>
+    ➖ Complexité<br>
+    ➖ Support limité par les anciens navigateurs
+</p>
+
+
+<info>SVG est utilisé dans divers contextes, notamment pour les logos, les icônes, les graphiques de données, les animations interactives et bien plus encore.<br><br> Sa polyvalence et sa capacité à maintenir la qualité graphique en font un choix populaire pour la conception web et la création d'éléments visuels sur diverses plateformes.</info>
+
+<doclink href="https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics">SVG</doclink>
+
+<dots></dots>
+
 
 <grostitre>JPEG</grostitre>
 

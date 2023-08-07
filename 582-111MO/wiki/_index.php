@@ -55,10 +55,6 @@
     <?php intlink("../html/formulaire-intermediaire/exercices/dragonball/"); ?>
     <?php intlink("../html/formulaire-intermediaire/exercices/twitter/"); ?>
     <?php intlink("../html/emmet/"); ?>
-    <?php intlink("../autres/inspecteur/"); ?>
-    <?php intlink("../autres/inspecteur-elements/"); ?>
-    <?php intlink("../autres/inspecteur-elements/exercices/unlock/"); ?>
-    <?php intlink("../autres/inspecteur-elements/exercices/urbania/"); ?>
 </wiki-page>
 
 
