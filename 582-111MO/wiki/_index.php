@@ -18,6 +18,7 @@
 
 
 <wiki-page name="Cours 2">
+    <?php intlink("../autres/arborescence/"); ?>
     <?php intlink("../autres/chemins/"); ?>
     <?php intlink("../autres/chemins/exercices/pokemon/"); ?>
     <?php intlink("../html/balises/"); ?>
