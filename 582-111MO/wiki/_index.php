@@ -42,6 +42,7 @@
 <wiki-page name="Cours 4">
     <?php intlink("../html/tableau/"); ?>
     <?php intlink("../html/liste/"); ?>
+    <?php intlink("../html/emmet/"); ?>
     <?php intlink("../html/metadonnees/"); ?>
 </wiki-page>
 
@@ -54,7 +55,6 @@
     <?php intlink("../html/formulaire-intermediaire/exercices/menu-hamburger/"); ?>
     <?php intlink("../html/formulaire-intermediaire/exercices/dragonball/"); ?>
     <?php intlink("../html/formulaire-intermediaire/exercices/twitter/"); ?>
-    <?php intlink("../html/emmet/"); ?>
 </wiki-page>
 
 
