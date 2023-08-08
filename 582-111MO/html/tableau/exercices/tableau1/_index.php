@@ -2,7 +2,7 @@
 /**
  * @type     exercice
  * @title    Exercice sur les tableaux no1
- * @icon     images/thumb.jpg
+ * @icon     images/thumb.webp
  * @abstract Pour cet exercice, vous devez recréer un tableau.
  */
 ?>
