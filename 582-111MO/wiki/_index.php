@@ -34,7 +34,7 @@
     <?php intlink("../html/audio/"); ?>
     <?php intlink("../autres/formats-audio/"); ?>
     <?php intlink("../html/video/"); ?>
-    <?php intlink("../autres/formats-video/"); ?>
+    <?php intlink("../autres/format-video/"); ?>
     <?php intlink("../html/legende-de-media/"); ?>
     <?php intlink("../html/image/"); ?>
     <?php intlink("../html/iframe/"); ?>
