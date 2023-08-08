@@ -45,6 +45,7 @@
 
 <wiki-page name="Cours 4">
     <?php intlink("../html/tableau/"); ?>
+    <?php intlink("../html/tableau/exercices/tableau1"); ?>
     <?php intlink("../html/liste/"); ?>
     <?php intlink("../html/emmet/"); ?>
     <?php intlink("../html/metadonnees/"); ?>
