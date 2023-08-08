@@ -3,7 +3,7 @@
  * @type     article
  * @title    Formats Video
  * @icon     images/icon.png
- * @abstract MP4, AVI, MKV, MOV, MV, WebM
+ * @abstract MP4, MKV, MOV, WMV, WebM
  */
 ?>
 
