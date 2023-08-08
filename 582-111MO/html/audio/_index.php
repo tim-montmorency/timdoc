@@ -4,7 +4,7 @@
  * @type     article
  * @title    Audio
  * @icon     images/icon.png
- * @abstract mp3, webm
+ * @abstract La balise &lt;audio&gt;
  */
 ?>
 

@@ -4,7 +4,7 @@
  * @type     article
  * @title    Video
  * @icon     images/icon.png
- * @abstract mp4, webm
+ * @abstract La balise &lt;video&gt;
  */
 ?>
 
