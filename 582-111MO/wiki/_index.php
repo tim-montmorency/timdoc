@@ -91,8 +91,8 @@
     <?php intlink("../css/box-model/exercices/broforce"); ?>
     <?php intlink("../css/box-model/exercices/marc-seguin"); ?>
     <?php intlink("../css/display/"); ?>
+    <?php intlink("../css/display/exercices/celeste/"); ?>    
     <?php intlink("../css/vertical-align/"); ?>
-    <?php intlink("../css/display/exercices/celeste/"); ?>
     <?php intlink("../css/position/"); ?>
     <?php intlink("../css/position/exercices/cat-in-the-box/"); ?>
 </wiki-page>
@@ -134,8 +134,8 @@
 
 <wiki-page name="Cours 11">
     <?php intlink("../css/opacite/"); ?>
+    <?php intlink("../css/opacite/exercices/google-agenda/"); ?>   
     <?php intlink("../css/z-index/"); ?>
-    <?php intlink("../css/opacite/exercices/google-agenda/"); ?>
     <?php intlink("../css/z-index/exercices/mains-de-monstres/"); ?>
     <?php intlink("../css/box-shadow/"); ?>
     <?php intlink("../css/box-shadow/exercices/reseaux-sociaux/"); ?>
