@@ -38,6 +38,7 @@
     <?php intlink("../html/legende-de-media/"); ?>
     <?php intlink("../html/image/"); ?>
     <?php intlink("../html/iframe/"); ?>
+    <?php intlink("../html/iframe/exercices/turbo-kid"); ?>
     <?php intlink("../html/citation/"); ?>
 </wiki-page>
 
