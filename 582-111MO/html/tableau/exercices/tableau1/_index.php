@@ -2,7 +2,7 @@
 /**
  * @type     exercice
  * @title    Exercice sur les tableaux no1
- * @icon     images/thumb.webp
+ * @icon     images/thumb.jpg
  * @abstract Pour cet exercice, vous devez recréer un tableau.
  */
 ?>
@@ -52,3 +52,5 @@
 <?php intlink("../../../tableau/"); ?>
 
 <dots></dots>
+
+<exercice href="../tableau1/"></exercice>
