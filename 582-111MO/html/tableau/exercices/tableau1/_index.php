@@ -1,7 +1,7 @@
 <?php 
 /**
  * @type     exercice
- * @title    Exercice sur les tableaux no1
+ * @title    Exercice tableaux no1
  * @icon     images/thumb.jpg
  * @abstract Pour cet exercice, vous devez recréer un tableau.
  */

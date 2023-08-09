@@ -182,5 +182,7 @@
 <dots></dots>
 
 <exercice href="./exercices/tableau1/"></exercice>
+<exercice href="./exercices/tableau2/"></exercice>
 
 <dots></dots>
+
