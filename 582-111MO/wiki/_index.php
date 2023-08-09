@@ -24,6 +24,7 @@
     <?php intlink("../autres/chemins/exercices/pokemon/"); ?>
     <?php intlink("../html/balises/"); ?>
     <?php intlink("../html/semantique/"); ?>
+    <?php intlink("../html/div-span/"); ?>
     <?php intlink("../html/ancre/"); ?>
 </wiki-page>
 
