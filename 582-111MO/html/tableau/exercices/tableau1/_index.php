@@ -52,5 +52,3 @@
 <?php intlink("../../../tableau/"); ?>
 
 <dots></dots>
-
-<exercice href="../tableau1/"></exercice>
