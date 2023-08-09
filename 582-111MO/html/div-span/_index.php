@@ -30,6 +30,15 @@
     &lt;/div&gt;
 </highlight>
 
+<h2>En bloc (block)</h2>
+
+<p>Un élément de niveau bloc commence toujours sur une nouvelle ligne et occupe toute la largeur disponible.</p>
+
+<p><em>&lt;div&gt;</em> est de niveau bloc et est souvent utilisé comme conteneur pour d'autres éléments HTML.</p>
+
+<p>Nommez d’autres éléments en ligne qu’on a vus aujourd’hui…<em> &lt;p&gt; &lt;div&gt; &lt;h1&gt; &lt;h2&gt; &lt;ul&gt; &lt;li&gt; </em>
+&lt;header&gt; &lt;footer&gt; &lt;nav&gt; ...</em></p>
+
 <dots></dots>
 
 <grostitre>Span</em></grostitre>
@@ -47,6 +56,16 @@
 </highlight>
 
 <p>Dans cet exemple, la balise &lt;span&gt; est utilisée pour appliquer un style particulier au prix affiché.</p>
+
+<h2>En ligne (inline)</h2>
+
+<p>Un élément en ligne ne commence pas sur une nouvelle ligne et il n'occupe que la largeur nécessaire</p>
+
+<p><em>&lt;span&gt;</em> est un conteneur en ligne utilisé pour baliser une partie d'un texte ou une partie d'un document.</p>
+
+<p>Nommez d’autres éléments en ligne qu’on a vus aujourd’hui… <em>&amp;lt;em&amp;gt;, &amp;lt;strong&amp;gt; &amp;lt;span&amp;gt;</em></p>
+
+<dots></dots>
 
 <info>En résumé, les balises <em>&lt;div&gt;</em> et <em>&lt;span&gt;</em> sont des éléments HTML utilisés pour structurer et formater le contenu d'une page web.</p>
 
