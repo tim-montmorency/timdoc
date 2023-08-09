@@ -181,6 +181,6 @@
 
 <dots></dots>
 
-<exercice href="../tableau1/"></exercice>
+<exercice href="./exercices/tableau1/"></exercice>
 
 <dots></dots>
