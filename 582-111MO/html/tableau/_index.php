@@ -180,3 +180,9 @@
 <img src="images/fusion-cellule.png">
 
 <dots></dots>
+
+<exercice href="./exercices/tableau1/"></exercice>
+<exercice href="./exercices/tableau2/"></exercice>
+
+<dots></dots>
+

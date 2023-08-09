@@ -9,6 +9,8 @@
 ?>
 
 <wiki-page name="Cours 1">
+    <?php intlink("../presentation-cours"); ?>
+    <?php intlink("../autres/outils/"); ?>
     <?php intlink("../autres/histoire-du-web/"); ?>
     <?php intlink("../autres/experience-utilisateur/"); ?>
     <?php intlink("../autres/composantes-web/"); ?>
@@ -17,33 +19,37 @@
 
 
 <wiki-page name="Cours 2">
+    <?php intlink("../autres/arborescence/"); ?>
     <?php intlink("../autres/chemins/"); ?>
     <?php intlink("../autres/chemins/exercices/pokemon/"); ?>
     <?php intlink("../html/balises/"); ?>
     <?php intlink("../html/semantique/"); ?>
+    <?php intlink("../html/div-span/"); ?>
     <?php intlink("../html/ancre/"); ?>
 </wiki-page>
 
 
 <wiki-page name="Cours 3">
     <?php intlink("../autres/formats-d-image/"); ?>
-    <?php intlink("../html/picture/"); ?>
-    <?php intlink("../html/picture/exercices/ant-man/"); ?>
     <?php intlink("../autres/vectoriel-vs-matriciel/"); ?>
-    <?php intlink("../html/svg/"); ?>
-    <?php intlink("../html/svg/exercices/hollywood-boulevard/"); ?>
     <?php intlink("../html/audio/"); ?>
+    <?php intlink("../autres/formats-audio/"); ?>
     <?php intlink("../html/video/"); ?>
+    <?php intlink("../autres/format-video/"); ?>
     <?php intlink("../html/legende-de-media/"); ?>
     <?php intlink("../html/image/"); ?>
     <?php intlink("../html/iframe/"); ?>
+    <?php intlink("../html/iframe/exercices/turbo-kid"); ?>
     <?php intlink("../html/citation/"); ?>
 </wiki-page>
 
 
 <wiki-page name="Cours 4">
     <?php intlink("../html/tableau/"); ?>
+    <?php intlink("../html/tableau/exercices/tableau1"); ?>
+    <?php intlink("../html/tableau/exercices/tableau2"); ?>
     <?php intlink("../html/liste/"); ?>
+    <?php intlink("../html/emmet/"); ?>
     <?php intlink("../html/metadonnees/"); ?>
 </wiki-page>
 
@@ -56,11 +62,6 @@
     <?php intlink("../html/formulaire-intermediaire/exercices/menu-hamburger/"); ?>
     <?php intlink("../html/formulaire-intermediaire/exercices/dragonball/"); ?>
     <?php intlink("../html/formulaire-intermediaire/exercices/twitter/"); ?>
-    <?php intlink("../html/emmet/"); ?>
-    <?php intlink("../autres/inspecteur/"); ?>
-    <?php intlink("../autres/inspecteur-elements/"); ?>
-    <?php intlink("../autres/inspecteur-elements/exercices/unlock/"); ?>
-    <?php intlink("../autres/inspecteur-elements/exercices/urbania/"); ?>
 </wiki-page>
 
 
@@ -90,9 +91,11 @@
     <?php intlink("../css/selecteurs/exercices/css-diner/"); ?>
     <?php intlink("../css/flux/"); ?>
     <?php intlink("../css/box-model/"); ?>
+    <?php intlink("../css/box-model/exercices/broforce"); ?>
+    <?php intlink("../css/box-model/exercices/marc-seguin"); ?>
     <?php intlink("../css/display/"); ?>
+    <?php intlink("../css/display/exercices/celeste/"); ?>    
     <?php intlink("../css/vertical-align/"); ?>
-    <?php intlink("../css/display/exercices/celeste/"); ?>
     <?php intlink("../css/position/"); ?>
     <?php intlink("../css/position/exercices/cat-in-the-box/"); ?>
 </wiki-page>
@@ -134,8 +137,8 @@
 
 <wiki-page name="Cours 11">
     <?php intlink("../css/opacite/"); ?>
+    <?php intlink("../css/opacite/exercices/google-agenda/"); ?>   
     <?php intlink("../css/z-index/"); ?>
-    <?php intlink("../css/opacite/exercices/google-agenda/"); ?>
     <?php intlink("../css/z-index/exercices/mains-de-monstres/"); ?>
     <?php intlink("../css/box-shadow/"); ?>
     <?php intlink("../css/box-shadow/exercices/reseaux-sociaux/"); ?>

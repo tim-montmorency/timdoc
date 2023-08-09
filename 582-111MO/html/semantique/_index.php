@@ -221,4 +221,6 @@
 <doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/aside">aside</doclink>
 <doclink href="https://www.w3schools.com/tags/tag_aside.asp">aside</doclink>
 
+<knowmore href="https://prof-inter-web.github.io/cmontmorency/index.html">Exemple de balisage sémantique</knowmore>
+
 <dots></dots>
