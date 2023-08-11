@@ -42,3 +42,8 @@
 <p><b>Damping:</b> Ce paramètre sert à rendre le mouvement de la caméra plus fluide. Si on le met à 0, la caméra suivra notre joueur sans déroger. Par contre, plus on met un chiffre élevé, plus la caméra sera fluide et prendra son temps pour rejoindre le joueur. Quand vous arrêterez de bouger, la caméra mettra quelques secondes pour vous rejoindre. Cocher Target movement permet de ne pas avoir de damping lorsque la caméra fait une rotation, il s'appliquera uniquement sur le mouvement.</p>
 <p><b>Screen X ou Y:</b> Ce paramètre permet de modifier la position de la caméra par rapport au joueur, on peut la déplacer si on ne veut pas que le joueur soit parfaitement centré.</p>
 <p><b>Dead Zone:</b> La dead zone délimite une zone à l'intérieur de laquelle la caméra ne bougera pas. Si on la laisse à 0, dès qu'on bouge notre personnage, la caméra suit. Si on agrandit la zone, cela nous permet de bouger un peu sans être suivi. Aussitôt qu'on atteint les limites de la dead zone, on recommencera à être suivi.</p>
+
+<dots></dots>
+
+<grostitre>Fond qui suit la caméra</grostitre>
+<p>Pour le fond de votre jeu (Background), il se peut que vous n'ayez pas envie de dessiner l'univers au complet. Ainsi, ce que vous pourriez faire est de faire en sorte que votre fond suit la caméra en tout temps. Pour ce faire, vous pouvez écrire un script ou encore simplement mettre votre objet Background comme enfant de la Main Camera. L'avantage du script est que vous pourriez bouger sur un axe seulement, ainsi le ciel ne changerait pas de position quand on monte, seulement quand on se déplace de gauche à droite.</p>
