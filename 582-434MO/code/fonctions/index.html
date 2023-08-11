@@ -56,6 +56,11 @@
 
 <dots></dots>
 
+<grostitre>FixedUpdate()</grostitre>
+<p>La fonction FixedUpdate est très similaire à la Fonction Update. On l'utilise pour gérer la physique des personnages. En effet, comme elle est appelé un nombre de fois déterminé par seconde, elle est plus prévisible que le Update, ce qui nous aide à mieux controller nos personnages ou encore les éléments qui interagissent avec la physique de Unity. </p>
+
+<dots></dots>
+
 <grostitre>OnTriggerEnter(Collider other)</grostitre>
 <p>Cette fonction peut être utilisée dans un Script qui est sur un GameObject qui a une composante Collider dont la fonction IsTrigger est cochée. Elle sera déclenchée lorsqu'un objet ayant aussi un collider entrera dans sa zone de collision. Alors, le code présent dans cette fonction s'exécutera une fois.</p>
 <p>Cette fonction a une particularité. En effet, vous aurez remarqué qu'il y a quelque chose d'écrit entre ses parenthèse. On appelle cela un argument. Dans le cas de OnTriggerEnter, lorsqu'on entre dans la zone de détection, le script détecte qui vient d'entrer en collision avec l'objet et le garde en mémoire. Ainsi, dans votre code, vous pourrez utilisez l'objet other pour donner des ordres à cet objet qui vient d'entrer dans la zone de détection. Par exemple, vous pouvez vérifier son identité avec le code other.name</p>

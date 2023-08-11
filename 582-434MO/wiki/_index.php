@@ -22,6 +22,7 @@
 <?php intlink("../installation/unity-remote/"); ?>
 <?php intlink("../realite-augmentee/introduction/"); ?>
 <?php intlink("../realite-augmentee/detection/"); ?>
+<?php intlink("../unity/sorting_layers/"); ?>
 <?php intlink("../unity/animation/"); ?>
 
 </wiki-page>
@@ -40,8 +41,12 @@
 <?php intlink("../unity/son/"); ?>
 <?php intlink("../unity/font/"); ?>
 <?php intlink("../unity/cinemachine/"); ?>
+</wiki-page>
+
+<wiki-page name="Cours 05">
 <?php intlink("../code/coroutine/"); ?>
 <?php intlink("../code/changement_scene/"); ?>
 <?php intlink("../code/quitter_jeu/"); ?>
+<?php intlink("../unity/raycasting/"); ?>
 
 </wiki-page>

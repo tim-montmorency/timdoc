@@ -34,7 +34,7 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Réalité virtuelle</a> > <a href="../">deux dimensions</a> ></div>
+                <div id="breadcrumb"><a href="../../">Réalité virtuelle</a> > <a href="../">Unity</a> ></div>
                 <h1 id="title"><img src="images/icon.png">&nbsp;Animation objets 2D</h1>
             </div>
             <article>
@@ -79,6 +79,7 @@
 
 <grostitre>Animator</grostitre>
 <p>Une fois qu'on a créé un Animator Controller, il n'est pas encore en mesure de faire bouger un objet. Pour cela, on doit assigner le Animator Controller à l'objet qu'il animera.</p>
+<info>Un animator peut animer plus d'un objet. En fait, il peut animer un objet et ses enfants. Ainsi, vous pourriez regrouper plusieurs objets dans un parent et animer tous les enfants grâce à la composante Animator qui est sur le parent.</info>
 <p>Voici comment faire:</p>
 <checklist>
 Sélectionnez l'objet qui sera animé dans la fenêtre Hierarchy.
@@ -105,10 +106,25 @@ Ensuite, appuyez sur la cible à droite du champ Controller. Vous verrez alors u
 <p>3. Ligne du temps <br>
     Cette fenêtre est une ligne du temps qui affiche vos keyframes dans le temps. L'unité utilisé est le frame. Par défaut, 60 frames équivalent à 1 seconde dans Unity. Il est possible de changer l'unité avec les trois petits points à la droite de la fenêtre. </p>
 
+<dots></dots>
+
+<grostitre>Création d'animations de paramètres de GameObject</grostitre>
+<p>Une fois l'animator créé, on est prêt à animer l'objet sur lequel il est ou ses enfants. On peut animer n'importe quel paramètre de cet objet.</p>
+<checklist>
+    Premièrement, sélectionnez l'objet que vous souhaitez animer dans la Hierarchy. Ensuite, ouvrez la fenêtre Animation. 
+    Appuyez sur le bouton Create dans la fenêtre Animation. Assurez-vous d'être dans le dossier Animation pour sauvegarder votre nouveau Clip. Vous pouvez créer un sous-dossier pour mieux vous retrouver. Nommez votre clip, puis appuyez sur sauvegarder.  
+    Maintenant, vous pouvez ajouter des paramètres et les animer. Pour ce faire, on clique sur Add Property, si je veux animer la position de mon objet, je clique sur transform, puis sur le + à côté de position. Dans ma ligne du temps, j'ai maintenant ce paramètre avec deux images clés, une au début et une à la fin. Pour l'instant rien n'est animé.
+    Pour animer votre objet, vous pouvez simplement placer le curseur de la ligne du temps au moment désiré, ensuite modifiez le paramètre, telle que la position en x, pour lui donner la valeur souhaitée. Procédez ainsi pour créer des images clés aux moments voulus. Vous pouvez déplacer les images clés créées ou les supprimer en appuyant dessus et et en utilisant la touche delete de votre clavier.
+    Une autre façon d'animer serait d'activer le bouton rouge d'enregistrement. Lorsqu'il est activé, placez le curseur dans votre ligne du temps au moment désiré et modifiez les paramètres souhaités directement dans l'inspecteur. Vous verrez alors des propriétés apparaître avec des images clés dans votre ligne du temps. N'oubliez pas d'appuyer à nouveau sur le bouton rouge pour arrêter l'enregistrement.
+    Vous pouvez appuyer sur le bouton Play de la fenêtre animation pour voir votre animation. 
+    Pour ajuster la vitesse de notre animation, nous allons modifier le Sample rate. Pour ce faire, appuyez sur les trois petits points à la droite des chiffres de la ligne du temps. Cochez le paramètre Show Sample Rate. À la gauche de la fenêtre Animation, vous devriez voir le paramètre Samples apparaître. 
+    Nous devons maintenant modifier le paramètre Samples pour que notre animation joue plus lentement ou plus rapidement. 
+   
+</checklist>   
 
 <dots></dots>
 
-<grostitre>Création d'animations</grostitre>
+<grostitre>Création d'animations de Sprite Sheet</grostitre>
 <p>Une fois que notre objet est en mesure de controller les animations, il faut en créer! Pour cette étape, je vous recommande d'avoir les fenêtres Project et Animation ouvertes et séparées.</p>
 <p>Voici comment faire:</p>
 <checklist>

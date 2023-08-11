@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/commons.js"></script>
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Calques</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../../">Réalité virtuelle</a> > <a href="../">Unity</a> ></div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Calques</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Dans Unity, on peut gérer les calques pour décider dans quel ordre les afficher. On fait cela grâce aux Sorting layers. Je recommande de créer un calque pour le fond afin qu'il reste en tout temps derrière le reste. Ensuite, vous pouvez laisser la plupart des éléments de votre jeu sur default. Un calque joueur peut être utile pour vous assurer que votre joueur soit devant les plateformes en tout temps. Finalement, un calque UI peut être utile pour afficher un menu par-dessus votre jeu.</p>
+
+
+<dots></dots>
+
+<grostitre>Créer les sorting layers</grostitre>
+<p>Créer les sorting layers est simple, il suffit d'ouvrir n'importe quel objet dans l'inspecteur, puis de cliquer sur le menu défilant de Layer en haut à droite. On appuie ensuite sur AddLayer. Dans la nouvelle fenêtre qui s'ouvre, on veut modifier les Sorting Layers, on doit donc ouvrir ce menu déroulant. Normalement, il y a seulement un layer nommé Default dans ce menu, on peut en ajouter avec le +. Je recommande d'ajouter un layer pour le Fond, un pour le joueur et un pour le UI. Une fois vos Layer créés, vous devez classer ceux-ci dans leur ordre d'affichage. Le layer le plus haut est celui qui sera le plus derrière. Ainsi, je mettrais Fond, Default, Joueur, UI.</p>
+
+<dots></dots>
+
+<grostitre>Modifier le layer d'un Sprite Renderer</grostitre>
+<p>Que ce soit pour votre image de fond, pour votre joueur ou n'importe quel autre élément, il est possible de modifier le calque d'un Sprite Renderer.</p>
+<img src="images/spriteRenderer.jpg">
+<p>Ouvrez le GameObject contenant votre Sprite Renderer dans l'inspecteur, puis ouvrez le menu Additional Settings au bas de la composante. Alors, vous verrez Sorting Layer et vous pourrez choisir le calque de votre choix. Si vous modifier Order in Layer, cela vous permet d'ajuster l'ordre de vos calques à l'intérieur du même layer. Un chiffre plus élevé apparaîtra devant.</p>
+
+<dots></dots>
+
+<grostitre>Modifier le layer d'un Tilemap Renderer</grostitre>
+<p>Ici, la procédure est la même que pour le Sprite Renderer, trouvez la composante Tilemap Renderer, puis dans Additional Settings, vous pouvez modifier le sorting layer.</p>
+
+<dots></dots>
+
+<grostitre>Modifier le layer du UI</grostitre>
+<p>La composante Image n'a pas de sorting layer, en fait, l'ordre d'affichage du UI est déterminé par le placement des GameObjects à l'intérieur du Canvas dans la hiérarchie. Ainsi, si un GameObject est plus bas qu'un autre, il sera au-dessus. Ici, clé apparaîtra au-dessus du calque boutons:</p>
+<img src="images/ui.jpg">
+<p>On doit faire attention à l'ordre de nos GameObjects dans le canva pour s'assurer qu'on peut interagir avec tous nos éléments.</p>
+<p>Pour modifier l'ordre du Canvas par rapport à nos autres objets qui ne font pas partie de celui-ci, on modifie directement le sorting layer du Canvas. Pour ce faire, on trouve la composante Canvas sur le GameObject Canvas, puis on modifie le paramètre Sorting Layers.</p>
+<img src="images/canvas.jpg">
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>
