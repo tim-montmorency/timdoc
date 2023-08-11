@@ -739,7 +739,7 @@ a.doclink::before {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.3;
+  opacity: 0.4;
   background-color: #ff003a;
   border-radius: 24px;
 }
@@ -747,7 +747,7 @@ a.doclink:hover {
   color: white;
 }
 a.doclink:hover::before {
-  opacity: 8;
+  opacity: 1;
 }
 a.doclink .doclink-title {
   position: relative;
@@ -874,7 +874,7 @@ a.doclink .doclink-icon {
   background-image: url("../images/trello-icon64.png");
 }
 .doclink.trello::before {
-  background-color: rgb(222, 235, 255);
+  background-color: #bfd8ff;
 }
 
 a.exercice {
@@ -1113,18 +1113,14 @@ div.checklist ol li {
   font-size: 18px;
   line-height: 28px;
   transition-duration: 200ms;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 div.checklist ol li:hover {
   background-color: #fde8ed;
 }
 div.checklist ol li.checked {
   text-decoration: line-through;
-  -webkit-text-decoration-color: #ff003a;
-          text-decoration-color: #ff003a;
+  text-decoration-color: #ff003a;
   text-decoration-thickness: 3px;
   transition-duration: 200ms;
 }
@@ -1186,10 +1182,7 @@ div.checklist code {
   margin-bottom: 25px;
   text-align: center;
   cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 .color.spacer {
   margin-left: 25px;
@@ -1207,10 +1200,7 @@ div.checklist code {
   height: 600px;
 }
 .swiper.swiper-main .swiper-slide {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   background-size: 0px 0px;
   background-repeat: no-repeat;
   background-color: black;
@@ -1231,8 +1221,7 @@ div.checklist code {
 .swiper.swiper-main .swiper-slide img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 .swiper.swiper-main .swiper-button-next, .swiper.swiper-main .swiper-button-prev {
   filter: drop-shadow(0px 0px 1px black);
@@ -1241,10 +1230,7 @@ div.checklist code {
   color: white;
   font-family: Consolas;
   filter: drop-shadow(0px 0px 2px black);
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 .swiper.swiper-main .swiper-fullscreen {
   position: absolute;
@@ -1274,10 +1260,7 @@ div.checklist code {
 }
 .swiper.swiper-thumbs .swiper-slide {
   display: flex;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   width: 100px;
   height: 100%;
   opacity: 0.4;
@@ -1286,8 +1269,7 @@ div.checklist code {
 .swiper.swiper-thumbs .swiper-slide img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .swiper.swiper-thumbs .swiper-slide-thumb-active {
   opacity: 1;
@@ -1405,8 +1387,7 @@ div.quote__title {
   top: 50%;
   transform: translate(-50%, -50%);
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.0%22%20viewBox%3D%220%200%20512%20512%22%3E%3Cpath%20fill%3D%22%23ff003a%22%20d%3D%22M233%201a256%20256%200%201%200%2047%20510A256%20256%200%200%200%20233%201zm59%2045c80%2014%20146%2073%20169%20150%206%2023%208%2033%207%2060%200%2027-1%2037-7%2060a215%20215%200%200%201-264%20145A215%20215%200%200%201%2046%20220%20213%20213%200%200%201%20292%2046z%22%2F%3E%3Cpath%20fill%3D%22%23ff003a%22%20d%3D%22m221%20168-5%204c-2%203-2%207-2%2084%200%2073%200%2081%202%2084%203%206%2012%208%2019%203l56-40c42-31%2052-39%2054-42%201-4%201-8-1-12l-113-82c-4-1-6-1-10%201z%22%2F%3E%3C%2Fsvg%3E");
-  -webkit-clip-path: circle(50%);
-          clip-path: circle(50%);
+  clip-path: circle(50%);
   transition-property: transform;
   transition-duration: 0.1s;
   cursor: pointer;
@@ -1436,10 +1417,7 @@ div.quote__title {
   font-size: 1em;
   font-weight: bold;
   width: 100px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 .correction__criteria td:nth-child(1) {
   width: 1%;
@@ -1461,10 +1439,7 @@ div.quote__title {
   line-height: 40px;
   text-align: center;
   border-radius: 10px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   cursor: pointer;
 }
 .correction__criteria__scale:hover, .correction__criteria__scale.checked {
@@ -1662,7 +1637,6 @@ footer #copyright {
 }
 
 #contents_table {
-  position: -webkit-sticky;
   position: sticky;
   align-self: flex-start;
   top: 70px;
@@ -1904,14 +1878,10 @@ table.table-couleurs .color {
   background-image: linear-gradient(to right, #111111, #000000);
 }
 #wiki__list ul {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   padding: 25px 25px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 #wiki__list ul li {
   margin-bottom: 20px;

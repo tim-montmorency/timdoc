@@ -400,6 +400,7 @@ app.component('doclink', {
                 case 'developers.facebook.com': site = 'facebook'; break;
                 case 'greensock.com': site = 'greensock'; break;
                 case 'smnarnold.com': site = 'smnarnold'; break;
+                case 'trello.com': site = 'trello'; break;
             }
         } catch(e) {
             if(this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
