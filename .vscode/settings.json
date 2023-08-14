@@ -9,6 +9,20 @@
         ]
     },
     "liveServer.settings.port": 5501,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": null,
+            "savePathReplacementPairs": null
+        },
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": null,
+            "savePathReplacementPairs": null
+        }
+    ],
     "MinifyAll.disableCss": true,
     "MinifyAll.disableHtml": true,
     "MinifyAll.disableJson": true,
