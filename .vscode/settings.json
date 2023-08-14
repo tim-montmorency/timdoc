@@ -9,4 +9,27 @@
         ]
     },
     "liveServer.settings.port": 5501,
+    "MinifyAll.disableCss": true,
+    "MinifyAll.disableHtml": true,
+    "MinifyAll.disableJson": true,
+    "MinifyAll.disableJsonc": true,
+    "MinifyAll.disableLess": true,
+    "MinifyAll.disablePhp": true,
+    "MinifyAll.disableSass": true,
+    "MinifyAll.disableScss": true,
+    "MinifyAll.disableTwig": true,
+    "MinifyAll.disableXml": true,
+    "MinifyAll.PrefixOfNewMinifiedFiles": ".min",
+    "MinifyAll.disableJavascriptReact": false,
+    "MinifyAll.minifyOnSaveToNewFile": true,
+    "MinifyAll.openMinifiedDocument": false,
+    "MinifyAll.terserMinifyOptions": {
+        "mangle": true,
+        "compress": {
+            "drop_console": false,
+            "dead_code": false,
+            "keep_fnames": false,
+            "keep_classnames": false
+        }
+    },
 }
