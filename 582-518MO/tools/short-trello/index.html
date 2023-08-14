@@ -18,7 +18,7 @@
         <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
         <script src="../../../shared/jscripts/vue.global.prod.js"></script>
         <script>const shared = '../../../shared/';</script>
-        <title>Rapport de temps</title>
+        <title>Raccourcis clavier Trello</title>
     </head>
     <body>
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
@@ -32,19 +32,16 @@
             <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
         </header>
         <main>
-            <!-- MAIN HEADER EOF -->
-            <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Projet Web</a> > <a href="../">Gestion de projet</a> ></div>
-                <h1 id="title"><img src="images/icon.png">&nbsp;Rapport de temps</h1>
+            <!-- MAIN HEADER EOF -->            <div id="subhead">
+                <div id="title">Raccourcis clavier Trello</div>
             </div>
             <article>
-                <div id="contents">
-                    <!-- ARTICLE HEADER EOF -->
-
-Suivre ton temps de travail
-                    <!-- ARTICLE FOOTER SOF -->
-                </div>
                 <tabledesmatieres></tabledesmatieres>
+                <div id="contents">
+                    <!-- TOOL HEADER EOF -->
+<script>location.href = 'https://trello.com/shortcuts';</script>
+                    <!-- TOOL FOOTER SOF -->
+                </div>
             </article>
             <script src="../../../shared/jscripts/components.js"></script>
         <!-- MAIN FOOTER SOF -->
