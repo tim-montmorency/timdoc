@@ -127,7 +127,7 @@
   <li><a href="https://www.atlassian.com/fr/software/jira" target="_blank">Jira</a></li>
   <li><a href="https://asana.com/fr" target="_blank">Asana</a></li>
   <li><a href="https://monday.com/lang/fr" target="_blank">Monday.com</a></li>
-  <li><a href="https://azure.microsoft.com/fr-ca/" target="_blank">Azure</a></li>
+  <li><a href="https://www.microsoft.com/fr-fr/microsoft-365/business/task-management-software" target="_blank">Planificateur Microsoft</a></li>
   <li><a href="https://basecamp.com/" target="_blank">Basecamp</a></li>
   <li><a href="https://clickup.com/" target="_blank">ClickUp</a></li>
   <li>etc.</li>

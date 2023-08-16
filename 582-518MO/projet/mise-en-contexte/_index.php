@@ -32,7 +32,7 @@
 
 <h3>Les impatients</h3>
 <p>Les Impatients viennent en aide aux personnes ayant des problèmes de santé mentale par le biais de l’expression artistique.</p>
-<p><a href="https://impatients.ca/" target="_blank" rel="noopener noreferrer">impatients.ca/</a></p>
+<p><a href="https://impatients.ca/" target="_blank" rel="noopener noreferrer">impatients.ca</a></p>
 
 
 
@@ -146,5 +146,5 @@
 <grostitre>Requis</grostitre>
 <checklist>Avant la fin de la journée, vous devez m'envoyer un message Teams m'avisant de la constitution de votre équipe. Chaque équipe sera constituée de <strong>3 membres</strong> (pas d'équipe de 4 à cette étape). Vos équipes seront alors acceptées ou modifiées par moi-même dans un délai de 24h. Vous ne pourrez pas refuser ma ré-organisation d'équipe le cas échéant. Je dois simplement m'assurer d'un équilibre et l'équité pour tous dans la mesure du possible.
 Suite à la confirmation des équipes, vous aurez 48h afin pour déterminer le nom de votre équipe, le rôle de chacun des membres dans celle-ci et votre ordre de préférence de clients. <br><br>Par exemple:<br>1. Client A<br>2. Client C<br>3. Client B<br>4. Client D
-Note: Il y a aussi un petit devoir à ajouter dans cette remise, voir la page <a href="../melee-scrum/#remise" target="_blank">Mêlée</a>.
+Note: Il y a aussi un petit devoir à ajouter dans cette remise, voir la page <a href="../melee-scrum/#remise" target="_blank" onclick="event.stopPropagation()">Mêlée</a>.
 </checklist>
