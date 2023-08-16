@@ -1,0 +1,6 @@
+{
+    "type": "exercice",
+    "title": "Animal Crossing",
+    "icon": "images\/thumb.png",
+    "abstract": "Recr\u00e9er un module permettant de choisir parmi des villageois dans Animal Crossing."
+}
