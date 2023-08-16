@@ -3,6 +3,6 @@
  * @type     list
  * @title    Projet de session
  * @icon     images/icon.svg
- * @abstract Projet
+ * @abstract Projet OBNL
  */
 print_children();

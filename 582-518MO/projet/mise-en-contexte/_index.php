@@ -8,17 +8,32 @@
  */
 ?>
 
-<p>Des clients possédant déjà un site web contactent votre équipe, car ils désirent effectuer une refonte de leurs
-    sites. Il est important pour eux d’avoir un site web bilingue et responsive affichant bien autant sur mobile
-    <em>(375px)</em>, tablette <em>(768px)</em> que sur un ordinateur classique&nbsp;<em>(1200px)</em>.</p>
-<p>Les clients sont habitués à <a href="https://wordpress.org/">WordPress</a> et ont exprimés leur désir de conserver
-    cette plateforme afin de modifier facilement le contenu de chacune de leurs&nbsp;pages.</p>
+<p>Des clients possédant déjà un site web contactent votre équipe, car ils désirent effectuer une refonte de leurs sites. Il est important pour eux d’avoir un site web bilingue et responsive affichant bien autant sur mobile <em>(375px)</em>, tablette <em>(768px)</em> que sur un ordinateur classique&nbsp;<em>(1200px)</em>.</p>
 
+<p>Les clients sont habitués à <a href="https://wordpress.org/">WordPress</a> et ont exprimés leur désir de conserver cette plateforme afin de modifier facilement le contenu de chacune de leurs&nbsp;pages.</p>
+
+
+
+<dots></dots>
 <grostitre>Clients</grostitre>
 
 
-<h3>ABC</h3>
-<p>abc</p>
+<h3>Architecture sans frontière - Québec</h3>
+<p>Architecture Sans Frontières Québec (ASFQ) est un organisme qui vient en aide aux populations victimes de crises, de catastrophes naturelles ou d’inégalités sociales. Il œuvre avec les communautés pour renforcer leurs capacités grâce à l’engagement de différents acteurs de l’architecture.</p>
+<p><a href="https://www.asf-quebec.org/" target="_blank" rel="noopener noreferrer">asf-quebec.org</a></p>
+
+<h3>Promis</h3>
+<p>PROMIS vient en aide aux immigrants et aux réfugiés ainsi qu’à leurs familles, dans leurs démarches d’intégration culturelle, sociale et professionnelle.</p>
+<p><a href="https://promis.qc.ca/" target="_blank" rel="noopener noreferrer">promis.qc.ca</a></p>
+
+<h3>Craque-Bitume</h3>
+<p>Craque-Bitume est un organisme actif en écologie urbaine. Leur objectif est de développer et de promouvoir des actions écoresponsables favorisant l’engagement au sein de la communauté et l’adoption d’un mode de vie durable.</p>
+<p><a href="http://craquebitume.org" target="_blank" rel="noopener noreferrer">craquebitume.org</a></p>
+
+<h3>Les impatients</h3>
+<p>Les Impatients viennent en aide aux personnes ayant des problèmes de santé mentale par le biais de l’expression artistique.</p>
+<p><a href="https://impatients.ca/" target="_blank" rel="noopener noreferrer">impatients.ca/</a></p>
+
 
 
 
