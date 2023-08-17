@@ -18,7 +18,7 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 2">
+<wiki-page name="Cours 2" date="2023-08-28">
     <?php intlink("../autres/arborescence/"); ?>
     <?php intlink("../autres/chemins/"); ?>
     <?php intlink("../autres/chemins/exercices/pokemon/"); ?>
@@ -29,7 +29,7 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 3">
+<wiki-page name="Cours 3" date="2023-09-11">
     <?php intlink("../autres/formats-d-image/"); ?>
     <?php intlink("../autres/vectoriel-vs-matriciel/"); ?>
     <?php intlink("../html/audio/"); ?>
@@ -44,7 +44,7 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 4">
+<wiki-page name="Cours 4" date="2023-09-18">
     <?php intlink("../html/tableau/"); ?>
     <?php intlink("../html/tableau/exercices/tableau1"); ?>
     <?php intlink("../html/tableau/exercices/tableau2"); ?>
@@ -54,7 +54,7 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 5">
+<wiki-page name="Cours 5" date="2023-09-25">
     <h3>Correction: Queen - Hot Space</h3>
     <?php intlink("../html/formulaire/"); ?>
     <?php intlink("../html/formulaire/exercices/carte-de-credit/"); ?>
@@ -65,7 +65,7 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 6">
+<wiki-page name="Cours 6" date="2023-10-02">
     <?php intlink("../html/formulaire-avance/"); ?>
     <?php intlink("../html/formulaire-avance/exercices/among-us/"); ?>
     <?php intlink("../html/favicon/"); ?>
@@ -78,13 +78,13 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 7">
+<wiki-page name="Cours 7" date="2023-10-11">
     <h3 style="color: gold; text-transform:capitalize; font-size: 60px;">Examen html</h3>
     <video playsinline src="videos/baby-groot-dancing.mp4" autoplay="true" muted="true" loop="true"></video>
 </wiki-page>
 
 
-<wiki-page name="Cours 8">
+<wiki-page name="Cours 8" date="2023-10-16">
     <h3>Correction: Moby - I Like to Score</h3>
     <?php intlink("../css/anatomie/"); ?>
     <?php intlink("../css/selecteurs/"); ?>
@@ -101,7 +101,7 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 9">
+<wiki-page name="Cours 9" date="2023-10-23">
     <?php intlink("../css/unites-de-mesure/"); ?>
     <?php intlink("../css/padding/"); ?>
     <?php intlink("../css/margin/"); ?>
@@ -120,7 +120,7 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 10" date="2023-02-22">
+<wiki-page name="Cours 10" date="2023-10-30">
     <?php intlink("../css/background/"); ?>
     <?php intlink("../css/background/exercices/candy-crush/"); ?>
     <?php intlink("../css/linear-gradient/"); ?>
@@ -135,7 +135,7 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 11">
+<wiki-page name="Cours 11" date="2023-11-06">
     <?php intlink("../css/opacite/"); ?>
     <?php intlink("../css/opacite/exercices/google-agenda/"); ?>   
     <?php intlink("../css/z-index/"); ?>
@@ -146,25 +146,25 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 12">
+<wiki-page name="Cours 12" date="2023-11-20">
     <h3 style="color: gold; text-transform:capitalize; font-size: 60px;">Examen CSS</h3>
     <video playsinline src="videos/jack-nicholson.mp4" autoplay="true" muted="true" loop="true"></video>
 </wiki-page>
 
 
-<wiki-page name="Cours 13" date="2023-03-14">
+<wiki-page name="Cours 13" date="2023-11-27">
     <h3 style="color: gold; text-transform:capitalize; font-size: 40px;">Travail sur le projet final</h3>
     <h4>Partie (1/2)</h4>
 </wiki-page>
 
 
-<wiki-page name="Cours 14" date="2023-03-15">
+<wiki-page name="Cours 14" date="2023-12-04">
     <h3 style="color: gold; text-transform:capitalize; font-size: 40px;">Travail sur le projet final</h3>
     <h4>Partie (2/2)</h4>
 </wiki-page>
 
 
-<wiki-page name="Cours 15" date="2023-03-21">
+<wiki-page name="Cours 15" date="2023-12-11">
     <h3 style="color: #83ff73; text-transform:capitalize; font-size: 40px;">Présentation du projet final</h3>
     <video playsinline src="videos/La-peur.mp4" autoplay="true" muted="true" loop="true"></video>
 </wiki-page>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/commons.js"></script>
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Mêlée</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../../">Projet Web</a> > <a href="../">Projet de session</a> ></div>
+                <h1 id="title"><img src="images/icon.svg">&nbsp;Mêlée</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p>La mêlée quotidienne, aussi connu en anglais sous le nom de <em>“daily scrum”</em>, est le moment où une équipe se regroupe afin de prendre du recule face à son projet. Ceci permet à tous les membres de mesurer l’avancement accompli, de se mettre à jour face aux enjeux rencontrés et de s’adapter afin de réussir à livrer son&nbsp;projet.</p>
+
+<p>De par son nom, on devine qu'en temps normal la mêlée quotidienne a lieu tous les jours. Cependant, dans le cadre de ce cours, nous prendrons en compte le fait que vous avez d'autres engagements et ne vous demanderons de faire qu'une mêlée hebdomadaire <em>(weekly scrum)</em>.</p>
+
+
+
+<dots></dots>
+<grostitre>Déroulement</grostitre>
+<ul>
+    <li>Ces rencontres peuvent-être fait en personne ou en ligne. <strong>Idéalement, les rencontres en personne sont privilégiées</strong>, mais non obligatoires.</li>
+
+    <li>Ces rencontres peuvent avoir lieu à <strong>n'importe quelle heure du jour</strong>, malgré qu'on remarque une forte tendance vers le début de la journée dans l'industrie.</li>
+
+    <li>Chaque membre de l'équipe prend la parole un après l'autre. <br>Lors de votre tour, mentionnez: 
+    
+    <ul>
+        <li><p><strong>Quels sont vos accomplissements depuis la dernière rencontre?</strong> En répondant à cette question, les membres de l'équipe rendent compte de leurs progrès. Elle met également en évidence si certains membres de l'équipe travaillent sur des éléments qui ne sont pas alignés avec les objectifs de l'équipe en plus de donner aux membres de l'équipe un sentiment d'accomplissement.</p></li>
+        
+        <li><p><strong>Sur quoi prévoyez-vous travailler d'ici la prochaine?</strong> Aide votre équipe à se synchroniser afin que personne n'accomplisse la même tâche en même temps.<br><img src="/assets/dilbert_redondance.png" alt="">Permets aussi de planifier les tâches à venir. <br><br>Par exemple, Garfunkel prévoit faire l'intégration du menu dans WordPress d'ici le prochain cours. Simon peut donc planifier débuter son habillage CSS dès ce moment.</p></li>
+        
+        <li><p><strong>Qu'est-ce qui vous empêche d'avancer en ce moment?</strong> Donne de la visibilité à votre équipe sur vos obstacles. Peut-être un coéquipier peut-il vous aider? Peut-être est il temps de laisser cet élément de côté si vous bloquez depuis longtemps, etc.</p></li>
+        
+        <li><strong>Qu'est-ce qui vous motive en ce moment sur le projet?</strong> Ce point est optionnel, mais est encouragé. Par exemple: un coéquipier vous a débloqué sur une tâche, vous avez compris un concept intéressant, vous, vous sentez en confiance pour une démo, un élément qu'a ajouté un collègue améliore grandement le site. Soulignez ces petites victoires!</li></ul></li>
+    <li>Le PO est aussi sensé profiter de cette rencontre afin de <strong>s'assurer que les cartes du tableau sont à jour</strong> en fonction de ce que les membres de l'équipe mentionnent. Si ce n'est pas le cas, il doit leur rappeler de les mettre à jour. </li>
+</ul>
+
+
+
+
+<dots></dots>
+<grostitre>Règles générales</grostitre>
+
+<ul>
+    <li><p>Chaque personne doit-<strong>être à l'heure</strong>. Une mêlée est censée être rapide, il est facile de doubler son temps si une ou plusieurs personnes arrivent en retard.</p></li>
+    <li><p>L'équipe doit être focusée sur la mêlée. <strong>Personne ne doit faire autre chose en parallèle</strong> <em>(consulter son cellulaire, jouer à un jeu, etc.)</em>.</p></li>
+    <li><p>Votre tour de parole ne sert pas à informer vos collègues sur votre vie personnelle <em>(vos plans pour le week-end, l'anecdote la plus récente concernant votre animal de compagnie, etc.)</em>. <strong>Tenez-vous-en au projet</strong>.</p></li>
+    <li><p>Un tour de parole <strong>devrait durer 1 à 2 minutes par personne</strong>. Si un point déborde, planifiez une rencontre afin de discuter en détail de ce point ou attendez à la fin de la mêlée avant d'aborder à nouveau le sujet afin de libérer les personnes non impliquées directement.</p></li>
+    <li><p><strong>Le scrum master dirige la mêlée</strong>, lorsqu'une des règles générales est enfreinte, celui-ci doit ramener son équipe à l'ordre.</p></li>
+</ul>
+
+
+
+<dots></dots>
+<grostitre>Requis</grostitre>
+<checklist>
+Vous devez tenir une mêlée par semaine. Celle-ci doit se tenir <strong>toujours être à la même heure et au même jour de la semaine</strong>. Attention cette rencontre ne peut pas être la journée du cours, ni la journée précédente afin de vous laisser du temps d'action entre votre mêlée et le cours.
+Pour chaque mêlée, chaque membre doit écrire un résumé de son tour de parole à l'intérieur de son équipe Teams du projet dans le format suivant:<br>-&nbsp;🌹 Éléments terminés<br>-&nbsp;🚀 Sur quoi comptez-vous travailler<br>-&nbsp;🌵 Problèmes rencontrés<br>-&nbsp;🎉 Ce qui vous motive en ce moment/félicitations<br><br>Une personne peut avoir plusieurs éléments d'une même sorte.<br><br>Par exemple:<br>🌹 Héros de la page d'accueil.<br>🌹 Déploiement en ligne.<br>🚀 Commencer le pied de page.<br>🌵 Notre version du logo est pixelisée.<br>🌵 On charge actuellement deux fois GSAP?<br> 🎉 On a survécu à la démo!
+</checklist>
+
+<warning>Attention, je validerai que vos mêlées ont lieu au moment convenu et que chaque membre y participe en écrivant son&nbsp;résumé.</warning>
+
+
+
+<dots></dots>
+<grostitre>Remise</grostitre>
+<p>Lors de votre message confirmant votre nom d'équipe, le rôle de chacun des membres et de votre choix de clients, écrivez-moi le jour de la semaine et l'heure à laquelle vos mêlées auront lieu.</p>
+  
+
+
+
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>
