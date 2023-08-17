@@ -8,12 +8,15 @@
 ?>
 <wiki-page name="Cours 01" date="2023-08-16">
     <h2>Plan de cours pour cette session</h2>
-    <p><a href="#" target="_blank" rel="noopener noreferrer">Lien vers plan de cours</a> <em>(accessible seulement avec votre compte du collège)</em></p>
+    <p><a href="#" target="_blank" rel="noopener noreferrer">Lien vers plan de cours</a> <em>(accessible seulement avec
+            votre compte du collège)</em></p>
     <h2>Sondage</h2>
-    <p> Lundi - <a href="https://app.wooclap.com/JFHDYX" target="_blank" rel="noopener noreferrer">Code Wooclap : JFHDYX</a>
-    <br>
-    Vendredi - <a href="https://app.wooclap.com/ROTODA" target="_blank" rel="noopener noreferrer">Code Wooclap :
-        ROTODA</a></p>
+    <p> Lundi - <a href="https://app.wooclap.com/JFHDYX" target="_blank" rel="noopener noreferrer">Code Wooclap :
+            JFHDYX</a>
+        <br>
+        Vendredi - <a href="https://app.wooclap.com/ROTODA" target="_blank" rel="noopener noreferrer">Code Wooclap :
+            ROTODA</a>
+    </p>
 
     <h2>Projet de session (PS)</h2>
 
@@ -31,17 +34,31 @@
 
     <h2>Exercice: Dérouillage CSS et JS</h2>
     <exercice href='../exercices/cartes-jeu-du-27/'></exercice>
-
 </wiki-page>
 
 <wiki-page name="Cours 02" date="2023-08-16">
     <h2>Quiz</h2>
-    Lundi - <a href="https://app.wooclap.com/JFHDYX" target="_blank" rel="noopener noreferrer">Code Wooclap : </a>
+    Lundi - <a href="https://app.wooclap.com/SDQXZU" target="_blank" rel="noopener noreferrer">Code Wooclap : SDQXZU</a>
     <br>
-    Vendredi - <a href="https://app.wooclap.com/ROTODA" target="_blank" rel="noopener noreferrer">Code Wooclap :
-        </a><br>
+    Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap :
+    </a><br>
 
-    <h2>Projet de session (PS)</h2>
-    <?php intlink("../projet/mise-en-contexte/"); ?>
+    <h2>Méthode agile - Activité</h2>
+    <ol>
+        <li>Par équipe, distribuez une lecture par personne.</li>
+        <li>Prenez le temps de lire et bien comprendre le sujet qui vous est attritré.</li>
+        <li>Revenez ensuite en groupe et participer à une période de discussion où à tour de rôle chacun présente son
+            sujet et l'explique du mieux possible aux autres afin que ses co-équipiers puisse bien comprendre. Faites
+            des liens entre chaque sujet, discutez-en.</li>
+        <li>Je choisis une personne aux hasard dans la classe qui devra m'expliquer en quelques mots tous le processus
+            Agile avec les sujet qui auront été discutés en équipe.</li>
+    </ol>
+
+
+
+    <h2>Sass</h2>
+    <?php intlink("../sass/introduction/"); ?>
+    <?php intlink("../sass/imbrication/"); ?>
+    <?php intlink("../sass/variable/"); ?>
 
 </wiki-page>
