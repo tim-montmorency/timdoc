@@ -45,8 +45,8 @@
 <grostitre>Hub de services</grostitre>
 <ul>
     <li><a href="https://www.asf-quebec.org/nos-programmes/" target="_blank" rel="noopener noreferrer">Architecture sans frontière</a></li>
-    <li><a href="https://promis.qc.ca/fr/services/" target="_blank" rel="noopener noreferrer">Promis</a></li>
-    <li><a href="http://craquebitume.org" target="_blank" rel="noopener noreferrer">Craque-Bitume</a></li>
+    <li><a href="https://promis.qc.ca/fr/services/" target="_blank" rel="noopener noreferrer">Promis</a> <em>(attention ici, le contenu principal de la page prend quelques secondes à apparraître...)</em></li>
+    <li><a href="https://craquebitume.org/pages/craque-bitume#shopify-section-template--16140994937008__6ad6cfdd-3ace-4ce0-aefd-82e34d2d88dc" target="_blank" rel="noopener noreferrer">Craque-Bitume</a> <em>(le hub de service dans ce cas-ci représente la section "Nos volets" de cette page-ci)</em></li>
     <li><a href="https://impatients.ca/a-propos/#mission" target="_blank" rel="noopener noreferrer">Les impatients</a> <em>(Les 3 services sont actuellement listés sous la vidéos du bloc "Mission")</em></li>
 </ul>
 
@@ -58,7 +58,7 @@
 <ul>
     <li><a href="https://www.asf-quebec.org/nos-programmes/habitat-autochtone/" target="_blank" rel="noopener noreferrer">Architecture sans frontière</a></li>
     <li><a href="https://promis.qc.ca/fr/services/ateliers-boite-a-lunch/" target="_blank" rel="noopener noreferrer">Promis</a></li>
-    <li><a href="http://craquebitume.org" target="_blank" rel="noopener noreferrer">Craque-Bitume</a></li>
+    <li><a href="https://craquebitume.org/pages/jardinus" target="_blank" rel="noopener noreferrer">Craque-Bitume</a></li>
     <li><a href="https://impatients.ca/ateliers/" target="_blank" rel="noopener noreferrer">Les impatients</a></li>
 </ul>
 
@@ -66,48 +66,48 @@
 <dots></dots>
 <grostitre>Équipe</grostitre>
 <ul>
-    <li><a href="https://www.asf-quebec.org/" target="_blank" rel="noopener noreferrer">Architecture sans frontière</a></li>
-    <li><a href="https://promis.qc.ca/" target="_blank" rel="noopener noreferrer">Promis</a></li>
-    <li><a href="http://craquebitume.org" target="_blank" rel="noopener noreferrer">Craque-Bitume</a></li>
-    <li><a href="https://impatients.ca/" target="_blank" rel="noopener noreferrer">Les impatients</a></li>
+    <li><a href="https://www.asf-quebec.org/a-propos/notre-equipe/" target="_blank" rel="noopener noreferrer">Architecture sans frontière</a></li>
+    <li><a href="https://promis.qc.ca/fr/a-propos/equipe/" target="_blank" rel="noopener noreferrer">Promis</a></li>
+    <li><a href="https://craquebitume.org/pages/equipe-et-emploi" target="_blank" rel="noopener noreferrer">Craque-Bitume</a></li>
+    <li><a href="https://impatients.ca/a-propos/#equipe" target="_blank" rel="noopener noreferrer">Les impatients</a> <em>(Descendez dans la section "Équipe" de cette page. Aussi remarquez qu'elle contient 2 onglets: "Administration" et "Aritstes et art-thérapeutes")</em></li>
 </ul>
 
 
 <dots></dots>
 <grostitre>À propos</grostitre>
 <ul>
-    <li><a href="https://www.asf-quebec.org/" target="_blank" rel="noopener noreferrer">Architecture sans frontière</a></li>
-    <li><a href="https://promis.qc.ca/" target="_blank" rel="noopener noreferrer">Promis</a></li>
-    <li><a href="http://craquebitume.org" target="_blank" rel="noopener noreferrer">Craque-Bitume</a></li>
-    <li><a href="https://impatients.ca/" target="_blank" rel="noopener noreferrer">Les impatients</a></li>
+    <li><a href="https://www.asf-quebec.org/a-propos/" target="_blank" rel="noopener noreferrer">Architecture sans frontière</a></li>
+    <li><a href="https://promis.qc.ca/fr/a-propos/" target="_blank" rel="noopener noreferrer">Promis</a></li>
+    <li><a href="https://craquebitume.org/pages/craque-bitume" target="_blank" rel="noopener noreferrer">Craque-Bitume</a></li>
+    <li><a href="https://impatients.ca/a-propos/" target="_blank" rel="noopener noreferrer">Les impatients</a></li>
 </ul>
 
 <dots></dots>
 <grostitre>Histoire</grostitre>
 <ul>
-    <li><a href="https://www.asf-quebec.org/" target="_blank" rel="noopener noreferrer">Architecture sans frontière</a></li>
-    <li><a href="https://promis.qc.ca/" target="_blank" rel="noopener noreferrer">Promis</a></li>
-    <li><a href="http://craquebitume.org" target="_blank" rel="noopener noreferrer">Craque-Bitume</a></li>
-    <li><a href="https://impatients.ca/" target="_blank" rel="noopener noreferrer">Les impatients</a></li>
+    <li><a href="http://asffrance.org/historique/" target="_blank" rel="noopener noreferrer">Architecture sans frontière</a> <em>(je ne trouve pas d'historique sur le site de ASF Québec alors j'en ai trouvé une sur le site de ASF France, vous pouvez utiliser ce contenu. Vous pourrez compléter l'information avec la <a href="https://www.oaq.com/ordre/a-propos/organisme-humanitaire/" target="_blank" rel="noopener noreferrer"></a>date de fondation de ASF Québec)</em></li>
+    <li><a href="https://promis.qc.ca/fr/a-propos/historique/" target="_blank" rel="noopener noreferrer">Promis</a></li>
+    <li><a href="https://craquebitume.org/products/rapport-dactivite-2012-a-2019" target="_blank" rel="noopener noreferrer">Craque-Bitume</a> <em>(pas d'historique en soit mais vous pourriez trouver certains contenus ici)</em></li>
+    <li><a href="https://impatients.ca/a-propos#historique" target="_blank" rel="noopener noreferrer">Les impatients</a> <em>(accédez à la section "Historique" de cette page.)</em></li>
 </ul>
 
 <dots></dots>
 <grostitre>Foire aux questions (FAQ)</grostitre>
 <ul>
-    <li><a href="https://www.asf-quebec.org/" target="_blank" rel="noopener noreferrer">Architecture sans frontière</a></li>
-    <li><a href="https://promis.qc.ca/" target="_blank" rel="noopener noreferrer">Promis</a></li>
-    <li><a href="http://craquebitume.org" target="_blank" rel="noopener noreferrer">Craque-Bitume</a></li>
-    <li><a href="https://impatients.ca/" target="_blank" rel="noopener noreferrer">Les impatients</a></li>
+    <li><a href="https://www.asf-quebec.org/" target="_blank" rel="noopener noreferrer">Architecture sans frontière</a> <em>(il ne semble pas exister de FAQ sur le site, vous devrez rédiger qulques questions et réponses en consultant le contenu de leur site)</em></li>
+    <li><a href="https://promis.qc.ca/fr/faq/" target="_blank" rel="noopener noreferrer">Promis</a></li>
+    <li><a href="https://craquebitume.org/collections/formations#section-template--16167619362992__2158aaec-47dc-4056-9ca6-8ea9d2d7cb41" target="_blank" rel="noopener noreferrer">Craque-Bitume</a></li>
+    <li><a href="https://impatients.ca/" target="_blank" rel="noopener noreferrer">Les impatients</a> <em>(il ne semble pas exister de FAQ sur le site, vous devrez rédiger qulques questions et réponses en consultant le contenu de leur site)</em></li>
 </ul>
 
 
 <dots></dots>
 <grostitre>Erreur 404</grostitre>
 <ul>
-    <li><a href="https://www.asf-quebec.org/" target="_blank" rel="noopener noreferrer">Architecture sans frontière</a></li>
-    <li><a href="https://promis.qc.ca/" target="_blank" rel="noopener noreferrer">Promis</a></li>
-    <li><a href="http://craquebitume.org" target="_blank" rel="noopener noreferrer">Craque-Bitume</a></li>
-    <li><a href="https://impatients.ca/" target="_blank" rel="noopener noreferrer">Les impatients</a></li>
+    <li><a href="https://www.asf-quebec.org/patate/" target="_blank" rel="noopener noreferrer">Architecture sans frontière</a></li>
+    <li><a href="https://promis.qc.ca/patate/" target="_blank" rel="noopener noreferrer">Promis</a></li>
+    <li><a href="http://craquebitume.org/patate/" target="_blank" rel="noopener noreferrer">Craque-Bitume</a></li>
+    <li><a href="https://impatients.ca/patate/" target="_blank" rel="noopener noreferrer">Les impatients</a></li>
 </ul>
 
 

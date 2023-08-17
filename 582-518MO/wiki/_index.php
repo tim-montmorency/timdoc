@@ -46,12 +46,9 @@
     <h2>Méthode agile - Activité</h2>
     <ol>
         <li>Par équipe, distribuez une lecture par personne.</li>
-        <li>Prenez le temps de lire et bien comprendre le sujet qui vous est attritré.</li>
-        <li>Revenez ensuite en groupe et participer à une période de discussion où à tour de rôle chacun présente son
-            sujet et l'explique du mieux possible aux autres afin que ses co-équipiers puisse bien comprendre. Faites
-            des liens entre chaque sujet, discutez-en.</li>
-        <li>Je choisis une personne aux hasard dans la classe qui devra m'expliquer en quelques mots tous le processus
-            Agile avec les sujet qui auront été discutés en équipe.</li>
+        <li>Prenez le temps de lire et bien comprendre le sujet qui vous est attitré.</li>
+        <li>Revenez ensuite en groupe et participer à une période de discussion où à tour de rôle chacun présente son sujet et l'explique du mieux possible aux autres afin que ses co-équipiers puisse bien comprendre. Faites des liens entre chaque sujet, discutez-en.</li>
+        <li>Je choisis une personne au hasard dans la classe qui devra m'expliquer en quelques mots tout le processus Agile avec les sujets qui auront été discutés en équipe.</li>
     </ol>
 
 
