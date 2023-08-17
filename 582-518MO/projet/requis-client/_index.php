@@ -8,7 +8,6 @@
  */
 ?>
 
-
 <p>Le client a émis une liste de requis qu’il souhaite avoir sur son site. Ses demandes ont étés évaluées par votre équipe à un total de 80 points. Afin que le client accepte le produit qui lui sera livré, vous devrez couvrir un minimum de ses&nbsp;demandes.</p>
 
 <p>Ainsi, les 35 premiers points que vous réaliserez vous permettront de maintenir votre relation d’affaires avec le client. Tout point subséquent vous permettra de mettre la main sur 1% de votre session, jusqu’à concurrence de 35%, soit le total alloué à la réalisation du projet de&nbsp;session.</p>
