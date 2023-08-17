@@ -27,26 +27,36 @@
 
 </wiki-page>
 
+
 <wiki-page name="Cours 03">
 <?php intlink("../code/variables/"); ?>
 <?php intlink("../code/fonctions/"); ?>
 <?php intlink("../code/base/"); ?>
-<?php intlink("../code/evenements/"); ?>
+<?php intlink("../code/changement_scene/"); ?>
+<?php intlink("../code/quitter_jeu/"); ?>
 <?php intlink("../unity/build/"); ?>
+
 </wiki-page>
 
 <wiki-page name="Cours 04">
-<?php intlink("../unity/tilemaps/"); ?>
-<?php intlink("../unity/prefabs/"); ?>
+<?php intlink("../unity/UI/"); ?>
+<?php intlink("../code/evenements/"); ?>
 <?php intlink("../unity/son/"); ?>
 <?php intlink("../unity/font/"); ?>
-<?php intlink("../unity/cinemachine/"); ?>
+
 </wiki-page>
 
 <wiki-page name="Cours 05">
+<?php intlink("../unity/tilemaps/"); ?>
+<?php intlink("../unity/prefabs/"); ?>
 <?php intlink("../code/coroutine/"); ?>
-<?php intlink("../code/changement_scene/"); ?>
-<?php intlink("../code/quitter_jeu/"); ?>
+
+
+
+</wiki-page>
+
+<wiki-page name="Cours 06">
+<?php intlink("../unity/cinemachine/"); ?>
 <?php intlink("../unity/raycasting/"); ?>
 
 </wiki-page>
