@@ -8,6 +8,7 @@
 ?>
 
 <wiki-page name="Cours 01">
+    <doclink href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXTXyncwrp9BsK6fpfriFQ8BJqTVzwK0fFBBiRxOienJnA?e=dZa1wP ">Plan de cours</doclink>
     <?php intlink("../installation/compte/"); ?>
     <?php intlink("../installation/telechargement/"); ?>
     <?php intlink("../unity/introduction/"); ?>
