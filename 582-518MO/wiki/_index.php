@@ -8,9 +8,12 @@
 ?>
 <wiki-page name="Cours 01" date="2023-08-16">
     <h2>Plan de cours pour cette session</h2>
-    <p><a href="#" target="_blank" rel="noopener noreferrer">Lien vers plan de cours</a> <em>(accessible seulement avec
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EcuuaY6Qu1FFi91X3gZsTy8BXh4YvAiQMfM3EA2pqbpU6w?e=2a0G6Y" target="_blank" rel="noopener noreferrer">Lien vers plan de cours</a> <em>(accessible seulement avec
             votre compte du collège)</em></p>
     <h2>Sondage</h2>
+    <p>Tutorat - <a href="https://app.wooclap.com/FLBLQP" target="_blank" rel="noopener noreferrer">Code Wooclap :
+    FLBLQP</a>
+        <br></p>
     <p> Lundi - <a href="https://app.wooclap.com/JFHDYX" target="_blank" rel="noopener noreferrer">Code Wooclap :
             JFHDYX</a>
         <br>
@@ -36,7 +39,7 @@
     <exercice href='../exercices/cartes-jeu-du-27/'></exercice>
 </wiki-page>
 
-<wiki-page name="Cours 02" date="2023-08-16">
+<wiki-page name="Cours 02" date="2023-08-27">
     <h2>Quiz</h2>
     Lundi - <a href="https://app.wooclap.com/SDQXZU" target="_blank" rel="noopener noreferrer">Code Wooclap : SDQXZU</a>
     <br>

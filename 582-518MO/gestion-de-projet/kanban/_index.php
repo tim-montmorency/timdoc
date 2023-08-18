@@ -4,7 +4,7 @@
  * @title    Kanban
  * @icon     images/icon-kanban.png
  * @abstract Méthode de gestion du travail
- * @index 85
+ * @index 200
  */
 ?>
 <p>Kanban est une méthode de gestion du travail créée afin d'aider à visualiser les tâches à accomplir, afin d'optimiser son efficacité et de devenir plus agile. Le but fondamental est de créer plus de valeur pour le client sans pour autant générer davantage de coûts. </p>
