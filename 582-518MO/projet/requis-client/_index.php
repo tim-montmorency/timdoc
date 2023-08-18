@@ -8,22 +8,33 @@
  */
 ?>
 
-<p>Le client a émis une liste de requis qu’il souhaite avoir sur son site. Ses demandes ont étés évaluées par votre équipe à un total de 80 points. Afin que le client accepte le produit qui lui sera livré, vous devrez couvrir un minimum de ses&nbsp;demandes.</p>
+<alert>ATTENTION, cette liste de requis est encore sujette à de <em>très légers</em> changements d'ici le cours 5. Si je change quelque chose à partir de la date d'ajoujourd'hui, je vais l'identifier <s>en rayant ce que j'enlève</s> et <span style="color: green">en affichant en vert ce que j'ajoute</span>.</alert>
 
-<p>Ainsi, les 35 premiers points que vous réaliserez vous permettront de maintenir votre relation d’affaires avec le client. Tout point subséquent vous permettra de mettre la main sur 1% de votre session, jusqu’à concurrence de 35%, soit le total alloué à la réalisation du projet de&nbsp;session.</p>
+<p>Le client a émis une liste de requis qu’il souhaite avoir sur son site. Ses demandes ont étés évaluées par votre équipe à un total de 90 points. Afin que le client accepte le produit qui lui sera livré, vous devrez couvrir un minimum de ses&nbsp;demandes.</p>
 
-<p>Par principe d’équité, ce calcul est légèrement différent pour les équipes de quatre. 40 points de base devront être fait. Les 40 points suivants seront ensuite ramenés sur 35 via une règle de trois afin de déterminer la note allouée sur&nbsp;35%.</p>
+<p>Ainsi, les 40 premiers points que vous réaliserez vous permettront de maintenir votre relation d’affaires avec le client. Tout point subséquent vous permettra de mettre la main sur 1% de votre session, jusqu’à concurrence de 40%, soit le total alloué à la réalisation du projet de&nbsp;session.</p>
+
+<p>Par principe d’équité, ce calcul est légèrement différent pour les équipes de quatre. 45 points de base devront être fait. Les 45 points suivants seront ensuite ramenés sur 35 via une règle de trois afin de déterminer la note allouée sur&nbsp;35%.</p>
 
 <dots></dots>
 <grostitre>Math rapides</grostitre>
 
-<p><em>Donc pour obtenir 100% mon équipe n'a pas besoin de réaliser 80 points, mais seulement 70?</em><br>Exact, seulement 70 si vous êtes 3! <br>80 si vous êtes 4.</p><p><em>Que se passe-t-il si nous dépassons 70 points?</em><br>Ces points sont soustraits de votre total… je plaisante 🤡. <br>Votre client est heureux, vous apprenez plus et vous avez un projet plus intéressant à inclure dans votre portfolio!</p><p><em>De combien de points mon équipe à t-elle besoin pour obtenir 60%?</em><br>56 points si vous êtes 3.<br>64 points si vous êtes 4.</p>
+<p><em>Donc pour obtenir 100% mon équipe n'a pas besoin de réaliser 90 points, mais seulement 80?</em>
+<br>Exact, seulement 80 si vous êtes 3 <br>mais 90 si vous êtes 4.</p>
+
+<p><em>Que se passe-t-il si nous dépassons 80 points?</em>
+<br>Ces points sont soustraits de votre total… je plaisante 🤡. 
+<br>Votre client est heureux, vous apprenez plus et vous avez un projet plus intéressant à inclure dans votre portfolio!</p>
+
+<p><em>De combien de points mon équipe à t-elle besoin pour obtenir 60%?</em><br>48 points si vous êtes 3.<br>54 points si vous êtes 4.</p>
 
 <dots></dots>
 <grostitre>Généraux</grostitre>
  
 <checklist>
-Toutes les pages du site doivent-être responsive: <em>375px</em>, <em>768px et 1200px</em>. <em>[6pts]</em>
+Bannière en haut de chaque page du site annonçant que c'est un travail scolaire. Cette bannière devra aussi inclure un bouton liant au vrai site. Cette bannière devra contenir un X pour fermer celle-ci. Si le X est cliqué, cette action devra être stockée en local storage. Au prochain chargement de n'importe quelle page du site, vérifiez le storage afin d'éviter d'afficher cette bannière si elle a déjà été fermée par l'utilisateur. <em>[3pts]</em>
+Commenter tout votre code (HTML, CSS, et JS). <em>[2,5pts]</em>
+Toutes les pages du site doivent-être responsive: <em>375px</em>, <em>768px et 1200px</em>. <em>[5pts]</em>
 Les pages du site doivent s'afficher correctement sur les navigateurs: Chrome, Firefox et Edge. <em>[4pts]</em>
 Site bilingue sur toutes les pages. Si un contenu n'est pas disponible en anglais sur le site, traduisez-le via <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="https://translate.google.com/?sl=fr&amp;tl=en&amp;op=translate">Google traduction</a> ou <a href="https://www.deepl.com/translator" target="_blank" onclick="event.stopPropagation()">DeepL Translator</a>. <em>[4pts]</em>
 Permettre de populer les <code>og:title</code>, <code>og:description</code> et <code>og:image</code> de chaque page. <em>[2pts]</em>
@@ -140,14 +151,14 @@ Chaque membre d'équipe doit-être cliquable afin d'ouvrir un modal contenant pl
   Utilisez la composante de héros générique. <em>[0,5pts]</em>
   Affichez la composante de description de base. <em>[0,5pts]</em>
   Créez une ligne du temps verticale et affichez les grands événements de leur histoire. <em>[1pts]</em>
-  La ligne du temps verticale doit se dessiner graduellement en même temps que le défilement de la page. Les grands événements doivent appraitre à mesure qu'on arrive à son point dans le dessin de la ligne du temps. Utilisez GSAP et les extensions nécessaires réaliser cette animation. Ne pas utiliser drawSVG car il est payant. <em>[2pts]</em>
+  La ligne du temps verticale doit se dessiner graduellement en même temps que le défilement de la page. Les grands événements doivent appraitre à mesure qu'on arrive à son point dans le dessin de la ligne du temps. Utilisez GSAP et les extensions nécessaires réaliser cette animation. Ne pas utiliser drawSVG car il est payant. <em>[3pts]</em>
   </checklist>
 
 
   <dots></dots>
   <grostitre>FAQ</grostitre>
   <checklist>
-  Utilisez la composante de liste de descriptions (dl, dt, dd). Minimum 4 question-réponse. <em>[1pts]</em>
+  Création et utilisation d'une composante de question/réponse en accordéons (s'ouvre et ferme). Minimum 4 question-réponse. <em>[2pts]</em>
   </checklist>
 
 

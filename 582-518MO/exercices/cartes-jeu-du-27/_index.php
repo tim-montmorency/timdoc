@@ -3,8 +3,8 @@
 /**
  * @type     exercice
  * @title    Consignes - Jeu du 27
- * @icon     images/thumb.png
- * @abstract Créer un jeu de cartes en CSS et JJ
+ * @icon     medias/thumb.jpg
+ * @abstract Créer un jeu de cartes en CSS et JS
  */
 ?>
 
