@@ -15,7 +15,7 @@
 
 <grostitre>Google & Youtube</grostitre>
 
-<img src="images/draw-io.png">
+<img src="images/google.png">
 
 <p>Google et YouTube sont largement considérés comme parmi les meilleures plateformes pour trouver des explications et des informations sur une grande variété de sujets.</p>
 
@@ -43,7 +43,7 @@
 
         <li><em>Moteur de recherche vidéo</em> : Le moteur de recherche de YouTube est spécialement optimisé pour trouver des vidéos pertinentes en fonction de vos requêtes.</li>
 
-        <li><em>ommentaires et interaction </em> : Les vidéos sur YouTube sont souvent accompagnées de sections de commentaires où vous pouvez poser des questions et interagir avec les créateurs et d'autres spectateurs pour obtenir des éclaircissements supplémentaires.</li>
+        <li><em>Commentaires et interaction </em> : Les vidéos sur YouTube sont souvent accompagnées de sections de commentaires où vous pouvez poser des questions et interagir avec les créateurs et d'autres spectateurs pour obtenir des éclaircissements supplémentaires.</li>
     </ol>
 </list>
 
