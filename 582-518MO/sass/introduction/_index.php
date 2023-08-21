@@ -17,17 +17,17 @@
 <p>L'usage de SASS est très répandue. Plusieurs sites et librairies d'envergures l'utilisent, notamment:</p>
 <ul>
     <li>
-        <p><a target="_blank" rel="noopener noreferrer"
-                href="https://github.com/twbs/bootstrap/tree/main/scss">Bootstrap</a></p>
+       <a target="_blank" rel="noopener noreferrer"
+                href="https://github.com/twbs/bootstrap/tree/main/scss">Bootstrap</a>
     </li>
     <li>
-        <p><a target="_blank" rel="noopener noreferrer" href="https://fr.airbnb.ca/">AirBnB</a></p>
+      <a target="_blank" rel="noopener noreferrer" href="https://fr.airbnb.ca/">AirBnB</a>
     </li>
     <li>
-        <p><a target="_blank" rel="noopener noreferrer" href="https://sidlee.com/fr">SidLee</a></p>
+       <a target="_blank" rel="noopener noreferrer" href="https://sidlee.com/fr">SidLee</a>
     </li>
     <li>
-        <p>etc.</p>
+       etc.
     </li>
 </ul>
 
@@ -59,46 +59,28 @@
 
 <p>Pour écrire du SCSS dans CodePen, il suffit de cliquer sur la roue dentelée ⚙️ à la gauche du titre de l'onglet CSS
     et choisir son option de préprocesseur <em>SCSS</em>.</p>
-<div class="image">
 
-    <div class="image__wrapper image__wrapper--landscape">
-        <video src="/assets/scss-codepen.mp4" autoplay="" muted="" loop="" class="image__gifv"></video>
-    </div>
+<clipasset src='images/scss-codepen.mp4'></clipasset>
 
 
-
-</div>
-
-<div class="reaction">
-    <div class="reaction__wrapper">
-        <div class="reaction__emoji">
-            🤫
-        </div>
-        <div class="reaction__content">
-            <div class="reaction__text">
-                <p>Tous les exercices que je conçois dans le cadre de ce cours sont d’abord écrits en SCSS et sont
-                    ensuite convertis en CSS.</p>
-            </div>
-        </div>
-    </div>
-</div>
+<info>🤫 Tous les exercices qui ont été conçus dans le cadre de ce cours sont d’abord écrits en SCSS et sont ensuite convertis en CSS.</info>
 
 
 <dots></dots>
 <grostitre>Compilation</grostitre>
 
-<p>Il existe plusieurs solutions disponibles afin de compiler du code SASS en CSS afin que les navigateurs puissent
-    l'interpréter: </p>
+<p>Il existe plusieurs solutions disponibles afin de compiler du code SASS en CSS afin que les navigateurs puissent l'interpréter: </p>
+
+
+
+
+
+
 <ol start="1">
-    <li>
-        <p>La plus simple, <a target="_blank" rel="noopener noreferrer"
-                href="https://www.sassmeister.com/">SassMeister</a>, permet de convertir en ligne du code. Cependant,
-            cette solution implique de recopier à la main 🖐 son code à chaque fois que l'on souhaite le compiler.</p>
+    <li>Un outil en ligne tel que <a target="_blank" rel="noopener noreferrer" href="https://www.sassmeister.com/">SassMeister</a>, permet de convertir du code de scss vers css. Cependant,cette solution implique de recopier à la main 🖐 son code à chaque fois que l'on souhaite le compiler.
     </li>
     <li>
-        <p>La solution intermédiaire est d'utiliser un logiciel se chargeant de la compilation. Par exemple, <a
-                target="_blank" rel="noopener noreferrer" href="https://prepros.io/">Prepros</a> permet de surveiller
-            votre code SASS et de le compiler à chaque changement.</p>
+        Avec Visual Studio Code il y a une panoplie d'extention que vous pouvez installer pour que votre scss se compile. <a href="https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass" target="_blank" rel="noopener noreferrer">Live Sass Compiler</a> est un très bon exemple.
     </li>
     <li>
         <p>La solution idéale, mais légèrement plus complexe consiste à utiliser un bundler. Par exemple: <a
@@ -113,15 +95,16 @@
 
 
 
+
+
 <dots></dots>
 <grostitre>Alternatives</grostitre>
 
 <ul>
     <li>
-        <p><a target="_blank" rel="noopener noreferrer" href="https://stylus-lang.com/">Stylus</a></p>
+      <a target="_blank" rel="noopener noreferrer" href="https://stylus-lang.com/">Stylus</a>
     </li>
     <li>
-        <p><a target="_blank" rel="noopener noreferrer" href="https://lesscss.org/">Less</a></p>
+       <a target="_blank" rel="noopener noreferrer" href="https://lesscss.org/">Less</a>
     </li>
 </ul>
-<p></p>
