@@ -37,6 +37,16 @@
 
     <h2>Exercice: Dérouillage CSS et JS</h2>
     <exercice href='../exercices/cartes-jeu-du-27/'></exercice>
+
+    <h2>Devoirs</h2>
+    <p>Compléter les requis émis à la fin de ces 3 pages :</p>
+    <?php intlink("../projet/mise-en-contexte/"); ?>
+    <?php intlink("../projet/melee-scrum/"); ?>
+    <?php intlink("../gestion-de-projet/rapport-de-temps/"); ?>
+
+    <p>Compléter l'exercice Jeu du 27</p>
+    <?php intlink("../exercices/cartes-jeu-du-27/"); ?>
+
 </wiki-page>
 
 <wiki-page name="Cours 02" date="2023-08-27">
