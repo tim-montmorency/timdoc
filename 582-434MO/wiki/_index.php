@@ -13,6 +13,8 @@
     <?php intlink("../installation/telechargement/"); ?>
     <?php intlink("../unity/introduction/"); ?>
     <?php intlink("../unity/introduction/exercices/intro/"); ?>
+    <?php intlink("../unity/sprite/"); ?>
+    <?php intlink("../consignes/travail1/"); ?>
     
 </wiki-page>
 

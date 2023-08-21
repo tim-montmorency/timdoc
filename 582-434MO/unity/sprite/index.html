@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/commons.js"></script>
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Sprite</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../../">Réalité virtuelle</a> > <a href="../">Unity</a> ></div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Sprite</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Dans Unity, les sprites sont des éléments 2D qui se présentent sous forme d’images. On peut les animer ou les laisser statiques. On doit suivre quelques règles précises pour la création des Sprites. </p>
+
+
+<dots></dots>
+
+<grostitre>Logiciels</grostitre>
+<p>Le logiciel que vous utilisez pour la création des Sprites est à votre choix. Je recommande l’utilisation de Photoshop ou Illustrator comme vous les connaissez bien. 
+Ces tutoriels peuvent vous aider à débuter :  </p>
+
+<doclink href="https://www.youtube.com/watch?v=rLdA4Amea7Y&t=188s">Dessiner un sprite</doclink>
+<doclink href="https://www.youtube.com/watch?v=aaEEujLtsr8&t=0s ">Créer un environnement</doclink>
+
+
+
+<dots></dots>
+
+<grostitre>Format et résolution</grostitre>
+<p>Lorsque vous créez des sprites, deux choses sont à prendre en compte. La taille de votre sprite et son format d’exportation. Au niveau du format, je recommande d’exporter votre image en .jpg si elle ne contient pas de transparence. Si elle en contient, vous devriez utiliser le format .png. </p>
+<p>Au niveau de la résolution, produire des images carrées est essentiel dans Unity. En effet, cela permettra à vos projets d’être optimisés et donc d’avoir des build plus légers. En plus de respecter le format carré, vous devriez toujours prendre des valeurs POT (power of two). Cette règle permet à l’ordinateur de rendre l’image plus rapidement. Voici des exemples de valeurs POT :</p> 
+<ul><li>-	16 x 16</li>
+<li>-	32 x 32</li>
+<li>-	64 x 64</li>
+<li>-	128 x 128</li>
+<li>-	256 x 256</li>
+<li>-	512 x 512</li>
+<li>-	1024 x 1024</li>
+<li>-	2048 x 2048</li>
+<li>-	4096 x 4096</li></ul>
+<p>Habituellement, pour un sprite, on devrait prendre une valeur entre 64 et 512 selon la taille qu’il aura sur notre écran. </p>
+
+<dots></dots>
+
+<grostitre>Sprite Sheet</grostitre>
+<p>Lorsque l’on souhaite créer l’animation d’un sprite, c’est un sprite sheet que nous devrons utiliser. Il s’agit d’une image plus grosse qui contient tous les sprites dont nous aurons besoin pour faire l’animation de l’élément. Idéalement, ces images sont placées dans une grille. </p>
+
+<p>Voici un tutoriel qui peut vous aider : </p>
+<doclink href="https://amphibistudio.sg/sprite-sheets/ ">Tutoriel écrit</doclink>
+
+<p>Pour créer votre Sprite Sheet, vous pourriez créer toutes les images de votre animation dans le même projet Photoshop à l'aide du menu animation. Voici un tutoriel qui vous rappellera comment faire:</p>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Eb-57UwRP_RJn36pQkO1eZsBTFMuocHt5VNGgZ8L1ind3w?e=hvM6Uj">Tutoriel vidéo</doclink>
+
+<p>Une fois vos images créées, plutôt que d'exporter le tout en gif, vous pourriez copier chaque frame dans le même projet Photoshop pour créer une grille contenant toutes vos animations. Si vous avez 16 images ou moins et que leur taille est de 128 x 128, vous pouvez utiliser le modèle suivant:</p>
+
+<doclink href="https://cmontmorency365-my.sharepoint.com/:i:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWDNEYJez2BFgiIzLZXo3MsBqnHle1knqJ9c5xrXLo5vgg?e=lDnowT">Tutoriel vidéo</doclink>
+
+<p>Si vous préférez utiliser Procreate, ce tutoriel vous aidera. Cependant, une fois vos dessins créés, n'oubliez pas de les mettre dans une grille pour les exporter.</p>
+<doclink href="https://www.youtube.com/watch?v=vwgacGe-ei0&ab_channel=IttaiManero">Exemple avec Procreate</doclink>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>
