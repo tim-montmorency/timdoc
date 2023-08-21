@@ -43,7 +43,7 @@
     <?php intlink("../projet/mise-en-contexte/"); ?>
     <?php intlink("../projet/melee-scrum/"); ?>
     <?php intlink("../gestion-de-projet/rapport-de-temps/"); ?>
-
+<br>
     <p>Compléter l'exercice Jeu du 27</p>
     <?php intlink("../exercices/cartes-jeu-du-27/"); ?>
 
