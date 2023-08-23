@@ -3,8 +3,8 @@
  * @type     article
  * @title    Variable
  * @icon     images/icon.png
- * @abstract abc
- * @index 98
+ * @abstract Stocker des informations réutilisables
+ * @index 40
  */
 ?>
 
@@ -23,47 +23,50 @@
     Autrement dit, elle peut être utilisée partout dans son fichier. Tandis que les variables SCSS définies à
     l'intérieur d'un sélecteur CSS sont considérées comme étant <strong>locales</strong> et ne peuvent être accédées
     qu'à l'intérieur des accolades <em>{}</em> les encapsulant.</p>
+
+
 <p>Par exemple:</p>
-<pre><code class="hljs php"><span class="hljs-variable">$costume</span>: red; <span class="hljs-comment">// Variable globale</span>
+
+<highlight lang='scss'>$costume: red; // Variable globale
 
 .spider-man {
-  <span class="hljs-variable">$logo</span>: blue; <span class="hljs-comment">// Variable locale</span>
+  $logo: blue; // Variable locale
   
-  background-color: <span class="hljs-variable">$costume</span>; <span class="hljs-comment">// ✅</span>
-  color: <span class="hljs-variable">$logo</span>; <span class="hljs-comment">// ✅</span>
+  background-color: $costume; // ✅
+  color: $logo; // ✅
 }
 
 .deadpool {
-  background-color: <span class="hljs-variable">$costume</span>; <span class="hljs-comment">// ✅</span>
-  color: <span class="hljs-variable">$logo</span>; <span class="hljs-comment">// ❌</span>
-}</code></pre>
+  background-color: $costume; // ✅
+  color: $logo; // ❌
+}</highlight>
+
+
+
 <h3 class="heading heading--h3" id="Écraser une variable">Écraser une variable</h3>
 
 <p>En donnant un contexte plus spécifique, il est possible d'écraser la valeur d'une&nbsp;variable.</p>
 <p>Par&nbsp;exemple:</p>
-<pre><code class="hljs php"><span class="hljs-variable">$costume</span>: red; <span class="hljs-comment">// 🔴</span>
+<highlight lang='scss'>$costume: red; // 🔴
 
 .spider-man {
-  background-color: <span class="hljs-variable">$costume</span>; <span class="hljs-comment">// 🔴</span>
+  background-color: $costume; // 🔴
 }
 
 .green-goblin {
-  <span class="hljs-variable">$costume</span>: green; <span class="hljs-comment">// 🟢</span>
+  $costume: green; // 🟢
 
-  background-color: <span class="hljs-variable">$costume</span>; <span class="hljs-comment">// 🟢</span>
-}</code></pre>
+  background-color: $costume; // 🟢
+}</highlight>
+
 <p>Dans cet exemple, la variable&nbsp;<code>$costume</code>&nbsp;à la valeur&nbsp;<code>red</code>&nbsp;dans le contexte
     globale. Ainsi, si un personnage n'écrase pas cette variable, son costume sera automatiquement rouge 🔴. Tandis que
     le sélecteur&nbsp;<code>.green-goblin</code>&nbsp;redéfinit la valeur de cette variable dans son propre contexte
     à&nbsp;<code>green</code> 🟢.</p>
-<aside class="note note--warn">
-    <div class="note__wrapper">
-        <p>Même si un personnage est défini après <code>.green-goblin</code>, s’il utilise la variable
-            <code>$costume</code>, celle-ci retournera <code>red</code>, car la valeur <code>green</code> n’est
-            retournée qu’à l’intérieur du contexte du sélecteur&nbsp;<code>.green-goblin</code>.</p>
 
-    </div>
-</aside>
+<warning>Même si un personnage est défini après <code>.green-goblin</code>, s’il utilise la variable
+            <code>$costume</code>, celle-ci retournera <code>red</code>, car la valeur <code>green</code> n’est
+            retournée qu’à l’intérieur du contexte du sélecteur&nbsp;<code>.green-goblin</code>.</warning>
 
 
 
@@ -87,15 +90,6 @@
     CSS natives n'existaient pas encore. Ces dernières furent inventées quelques années plus tard. Leur implémentation
     dans les différents navigateurs requit aussi quelques années de patience. Si bien que leur utilisation réelle ne
     commença qu'environ 10 ans après les variables Sass.</p>
-<p></p>
-<div class="tags-list">
-    <div class="tags-list__wrapper">
-        <ul class="tags-list__list">
-            <li class="tags-list__item">
-                <a href="https://sass-lang.com/documentation/variables" target="_blank" rel="noopener noreferrer"
-                    class="tags-list__link tags-list__link--auto">variables</a>
-            </li>
 
-        </ul>
-    </div>
-</div>
+
+    <doclink href='https://sass-lang.com/documentation/variables'>Variables SCSS</doclink>

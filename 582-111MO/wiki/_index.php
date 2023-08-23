@@ -20,8 +20,6 @@
 
 <wiki-page name="Cours 2" date="2023-08-28">
     <?php intlink("../autres/arborescence/"); ?>
-    <?php intlink("../autres/chemins/"); ?>
-    <?php intlink("../autres/chemins/exercices/pokemon/"); ?>
     <?php intlink("../html/balises/"); ?>
     <?php intlink("../html/semantique/"); ?>
     <?php intlink("../html/div-span/"); ?>
@@ -30,6 +28,8 @@
 
 
 <wiki-page name="Cours 3" date="2023-09-11">
+    <?php intlink("../autres/chemins/"); ?>
+    <?php intlink("../autres/chemins/exercices/pokemon/"); ?>
     <?php intlink("../autres/formats-d-image/"); ?>
     <?php intlink("../autres/vectoriel-vs-matriciel/"); ?>
     <?php intlink("../html/audio/"); ?>

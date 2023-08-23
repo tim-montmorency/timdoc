@@ -8,8 +8,8 @@
 ?>
 <wiki-page name="Cours 01" date="2023-08-16">
     <h2>Plan de cours pour cette session</h2>
-    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EcuuaY6Qu1FFi91X3gZsTy8BXh4YvAiQMfM3EA2pqbpU6w?e=2a0G6Y" target="_blank" rel="noopener noreferrer">Lien vers plan de cours</a> <em>(accessible seulement avec
-            votre compte du collège)</em></p>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EVbOJto_YHJMkcEd2DgccjYBiIYQkpUf7pvURT-o_95kFQ?e=530zjT" target="_blank" rel="noopener noreferrer">Plan de cours pour groupe du LUNDI</a> <em>(accessible seulement avec votre compte du collège)</em></p>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EezMGYzxzGxGkHwf_GAwdxwBYZXLieiFKYtsLp3Sb3-COQ?e=cOcN8J" target="_blank" rel="noopener noreferrer">Plan de cours pour groupe du VENDREDI</a> <em>(accessible seulement avec votre compte du collège)</em></p>
     <h2>Sondage</h2>
     <p>Tutorat - <a href="https://app.wooclap.com/FLBLQP" target="_blank" rel="noopener noreferrer">Code Wooclap :
     FLBLQP</a>
@@ -37,9 +37,19 @@
 
     <h2>Exercice: Dérouillage CSS et JS</h2>
     <exercice href='../exercices/cartes-jeu-du-27/'></exercice>
+
+    <h2>Devoirs</h2>
+    <p>Compléter les requis émis à la fin de ces 3 pages :</p>
+    <?php intlink("../projet/mise-en-contexte/"); ?>
+    <?php intlink("../projet/melee-scrum/"); ?>
+    <?php intlink("../gestion-de-projet/rapport-de-temps/"); ?>
+<br>
+    <p>Compléter l'exercice Jeu du 27</p>
+    <?php intlink("../exercices/cartes-jeu-du-27/"); ?>
+
 </wiki-page>
 
-<wiki-page name="Cours 02" date="2023-08-27">
+<wiki-page name="Cours 02" date="2023-08-23">
     <h2>Quiz</h2>
     Lundi - <a href="https://app.wooclap.com/SDQXZU" target="_blank" rel="noopener noreferrer">Code Wooclap : SDQXZU</a>
     <br>
@@ -60,5 +70,7 @@
     <?php intlink("../sass/introduction/"); ?>
     <?php intlink("../sass/imbrication/"); ?>
     <?php intlink("../sass/variable/"); ?>
+    <?php intlink("../sass/extend/"); ?>
+    <?php intlink("../sass/boucle/"); ?>
 
 </wiki-page>

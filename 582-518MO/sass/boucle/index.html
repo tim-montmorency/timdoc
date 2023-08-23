@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/commons.js"></script>
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Boucle</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../../">Projet Web</a> > <a href="../">Sass</a> ></div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Boucle</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+<p>Plutôt que d'écrire à la main plusieurs classes CSS similaires avec une légère variation, SCSS permet de créer des
+    boucles générant pour nous ces classes.</p>
+
+<grostitre>@for</grostitre>
+<p>Les boucles <code>@for</code> fonctionnent de façon très similaire aux <a target="_blank" rel="noopener noreferrer"
+        href="https://smnarnold.com/cours/javascript/boucle-for">boucles for en JavaScript</a>. Il faut premièrement définir une variable,
+    lui donner une valeur de départ et une valeur à atteindre.</p>
+
+<p>Par exemple, afin de configurer la taille de plusieurs titres <em>(headings)</em> à l'aide d'une boucle
+    <code>@for</code>, il est possible de faire:</p>
+
+<highlight lang='css'>@for $index from 1 to 5 {
+  .h#{$index} {
+    font-size: 40px - ($index * 5);
+  }
+}</highlight>
+
+
+
+<p>Ce qui produit le code suivant:</p>
+<highlight lang='css'>h1 { font-size: 35px; }
+h2 { font-size: 30px; }
+h3 { font-size: 25px; }
+h4 { font-size: 20px; }</highlight>
+
+
+<info>Remarquez comment pour concaténer une variable SCSS avec du texte on l’enveloppe avec <code>#{}</code>. Un peu
+    comme les <code>${}</code> avec les littéraux de&nbsp;gabarit.</info>
+
+<info>Remarquez que le dernier chiffre n’est jamais atteint. La boucle indique <code>1 to 5</code>. Cependant, le
+    dernier heading est <code>h4</code> et non&nbsp;<code>h5</code>!</info>
+
+
+
+
+<h3 class="heading heading--h3" id="through">through</h3>
+<p>Lorsque <code>through</code> est utilisé à la place de <code>to</code>, le chiffre à atteindre dans la boucle est
+    inclus.</p>
+<p>Par exemple, le même code que précédemment, mais avec <code>through</code>:</p>
+
+<highlight lang='css'>@for $index from 1 through 5 {
+  .h#{$index} {
+    font-size: 40px - ($index * 5);
+  }
+}</highlight>
+
+
+
+<p>Produit le code suivant:</p>
+
+<highlight lang='css'>h1 { font-size: 35px; }
+h2 { font-size: 30px; }
+h3 { font-size: 25px; }
+h4 { font-size: 20px; }
+h5 { font-size: 15px; }</highlight>
+
+
+
+
+
+
+<p>Où le nombre 5 est inclus.</p>
+
+<doclink href='https://sass-lang.com/documentation/at-rules/control/for'>@for</doclink>
+
+
+<dots></dots>
+
+<aside class="exercice-card">
+    <div class="exercice-card__content">
+        <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
+        <a href="https://smnarnold.com/exercices/sass/for-palette-pink-paradise" target="_blank" class="exercice-card__title">
+            @for - Palette Pink&nbsp;Paradise
+        </a>
+
+        <p class="exercice-card__description">Dans le cadre de cet exercice, vous devez recréer la palette de couleur
+            Pink Paradise afin de présenter les 20 tons de rose disponibles&nbsp;c...</p>
+    </div>
+
+</aside>
+
+
+
+
+<dots></dots>
+<grostitre>@each</grostitre>
+
+<p>Les boucles <code>@each</code> ressemblent aux boucles <a rel="noopener noreferrer" href="#for">@for</a> à la
+    différence qu'<strong>elles servent à itérer sur une liste d'items</strong>. À tour de rôle, une variable prend la
+    valeur de chaque item dans la liste et devient accessible.</p>
+<p>Par exemple, une de boucle configurant la couleur de plusieurs messages peut être écrite ainsi avec une boucle
+    <code>@each</code>:</p>
+
+    <highlight lang='scss'>$colorsArr: red, yellow, blue, gray;
+
+@each $color in $colorsArr {
+  .msg-#{$color} {
+    background-color: $color;
+  }
+}</highlight>
+
+<p>Ce qui produit le code suivant:</p>
+
+<highlight lang='css'>.msg-red { background-color: red; }
+.msg-yellow { background-color: yellow; }
+.msg-blue { background-color: blue; }
+.msg-gray { background-color: gray; }</highlight>
+
+
+
+
+<h3 class="heading heading--h3" id="Map">Map</h3>
+<p>Dans certains cas, identifié une valeur à l'aide d'une clé dans une boucle peut s'avérer très pratique. Heureusement, la boucle <code>@each</code> peut aussi itérer sur un tableau de clés et de valeurs.</p>
+
+<p>Par exemple, pour créer une rapidement des classes ayant des noms textuels et des valeurs numériques il est possible de faire:</p>
+
+<highlight lang='scss'>$sizesArr: (small: 12px, medium: 16px, big: 30px);
+@each $key, $value in $sizesArr {
+  .text-#{$key} {
+    font-size: $value;
+  }
+}</highlight>
+
+
+
+
+<p>Ce qui produit le code suivant:</p>
+
+<highlight lang='css'>.text-small { font-size: 12px; }
+.text-medium { font-size: 16px; }
+.text-big { font-size: 30px; }</highlight>
+
+<doclink href='https://sass-lang.com/documentation/at-rules/control/each'>@each</doclink>
+
+<dots></dots>
+
+<aside class="exercice-card">
+    <div class="exercice-card__content">
+        <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
+        <a href="https://smnarnold.com/exercices/sass/each-menu-overwatch" target="_blank" class="exercice-card__title">
+            @each - Menu&nbsp;Overwatch
+        </a>
+
+        <p class="exercice-card__description">Pour cet exercice vous devez recréer un menu permettant de choisir parmi
+            certains personnages du jeu Overwatch. Afin d’éviter de vous&nbsp;rép...</p>
+    </div>
+
+
+</aside>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>

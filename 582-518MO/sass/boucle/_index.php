@@ -1,0 +1,158 @@
+<?php 
+/**
+ * @type     article
+ * @title    Boucle
+ * @icon     images/icon.png
+ * @abstract Plusieurs classes CSS similaires avec une légère variation
+ * @index 30
+ */
+?>
+<p>Plutôt que d'écrire à la main plusieurs classes CSS similaires avec une légère variation, SCSS permet de créer des
+    boucles générant pour nous ces classes.</p>
+
+<grostitre>@for</grostitre>
+<p>Les boucles <code>@for</code> fonctionnent de façon très similaire aux <a target="_blank" rel="noopener noreferrer"
+        href="https://smnarnold.com/cours/javascript/boucle-for">boucles for en JavaScript</a>. Il faut premièrement définir une variable,
+    lui donner une valeur de départ et une valeur à atteindre.</p>
+
+<p>Par exemple, afin de configurer la taille de plusieurs titres <em>(headings)</em> à l'aide d'une boucle
+    <code>@for</code>, il est possible de faire:</p>
+
+<highlight lang='css'>@for $index from 1 to 5 {
+  .h#{$index} {
+    font-size: 40px - ($index * 5);
+  }
+}</highlight>
+
+
+
+<p>Ce qui produit le code suivant:</p>
+<highlight lang='css'>h1 { font-size: 35px; }
+h2 { font-size: 30px; }
+h3 { font-size: 25px; }
+h4 { font-size: 20px; }</highlight>
+
+
+<info>Remarquez comment pour concaténer une variable SCSS avec du texte on l’enveloppe avec <code>#{}</code>. Un peu
+    comme les <code>${}</code> avec les littéraux de&nbsp;gabarit.</info>
+
+<info>Remarquez que le dernier chiffre n’est jamais atteint. La boucle indique <code>1 to 5</code>. Cependant, le
+    dernier heading est <code>h4</code> et non&nbsp;<code>h5</code>!</info>
+
+
+
+
+<h3 class="heading heading--h3" id="through">through</h3>
+<p>Lorsque <code>through</code> est utilisé à la place de <code>to</code>, le chiffre à atteindre dans la boucle est
+    inclus.</p>
+<p>Par exemple, le même code que précédemment, mais avec <code>through</code>:</p>
+
+<highlight lang='css'>@for $index from 1 through 5 {
+  .h#{$index} {
+    font-size: 40px - ($index * 5);
+  }
+}</highlight>
+
+
+
+<p>Produit le code suivant:</p>
+
+<highlight lang='css'>h1 { font-size: 35px; }
+h2 { font-size: 30px; }
+h3 { font-size: 25px; }
+h4 { font-size: 20px; }
+h5 { font-size: 15px; }</highlight>
+
+
+
+
+
+
+<p>Où le nombre 5 est inclus.</p>
+
+<doclink href='https://sass-lang.com/documentation/at-rules/control/for'>@for</doclink>
+
+
+<dots></dots>
+
+<aside class="exercice-card">
+    <div class="exercice-card__content">
+        <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
+        <a href="https://smnarnold.com/exercices/sass/for-palette-pink-paradise" target="_blank" class="exercice-card__title">
+            @for - Palette Pink&nbsp;Paradise
+        </a>
+
+        <p class="exercice-card__description">Dans le cadre de cet exercice, vous devez recréer la palette de couleur
+            Pink Paradise afin de présenter les 20 tons de rose disponibles&nbsp;c...</p>
+    </div>
+
+</aside>
+
+
+
+
+<dots></dots>
+<grostitre>@each</grostitre>
+
+<p>Les boucles <code>@each</code> ressemblent aux boucles <a rel="noopener noreferrer" href="#for">@for</a> à la
+    différence qu'<strong>elles servent à itérer sur une liste d'items</strong>. À tour de rôle, une variable prend la
+    valeur de chaque item dans la liste et devient accessible.</p>
+<p>Par exemple, une de boucle configurant la couleur de plusieurs messages peut être écrite ainsi avec une boucle
+    <code>@each</code>:</p>
+
+    <highlight lang='scss'>$colorsArr: red, yellow, blue, gray;
+
+@each $color in $colorsArr {
+  .msg-#{$color} {
+    background-color: $color;
+  }
+}</highlight>
+
+<p>Ce qui produit le code suivant:</p>
+
+<highlight lang='css'>.msg-red { background-color: red; }
+.msg-yellow { background-color: yellow; }
+.msg-blue { background-color: blue; }
+.msg-gray { background-color: gray; }</highlight>
+
+
+
+
+<h3 class="heading heading--h3" id="Map">Map</h3>
+<p>Dans certains cas, identifié une valeur à l'aide d'une clé dans une boucle peut s'avérer très pratique. Heureusement, la boucle <code>@each</code> peut aussi itérer sur un tableau de clés et de valeurs.</p>
+
+<p>Par exemple, pour créer une rapidement des classes ayant des noms textuels et des valeurs numériques il est possible de faire:</p>
+
+<highlight lang='scss'>$sizesArr: (small: 12px, medium: 16px, big: 30px);
+@each $key, $value in $sizesArr {
+  .text-#{$key} {
+    font-size: $value;
+  }
+}</highlight>
+
+
+
+
+<p>Ce qui produit le code suivant:</p>
+
+<highlight lang='css'>.text-small { font-size: 12px; }
+.text-medium { font-size: 16px; }
+.text-big { font-size: 30px; }</highlight>
+
+<doclink href='https://sass-lang.com/documentation/at-rules/control/each'>@each</doclink>
+
+<dots></dots>
+
+<aside class="exercice-card">
+    <div class="exercice-card__content">
+        <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
+        <a href="https://smnarnold.com/exercices/sass/each-menu-overwatch" target="_blank" class="exercice-card__title">
+            @each - Menu&nbsp;Overwatch
+        </a>
+
+        <p class="exercice-card__description">Pour cet exercice vous devez recréer un menu permettant de choisir parmi
+            certains personnages du jeu Overwatch. Afin d’éviter de vous&nbsp;rép...</p>
+    </div>
+
+
+</aside>
