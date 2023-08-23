@@ -38,3 +38,29 @@
 <p>Une image est un GameObject qui permet d'afficher des images dans votre UI. Ce GameObject est très similaire à Sprite à la différence qu'il est fait pour le UI. 
 
 
+<dots></dots>
+
+<grostitre>Button</grostitre>
+<p>Le bouton est une composante importante dans Unity. En effet, celui-ci nous permet de déclencher différents scripts lorsque l'utilisateur appuie sur celui-ci.</p>
+<p>L'allure du bouton est personnalisable grâce à la composante Image du GameObject bouton. La composante Button nous permet quant à elle de gérer l'interaction du bouton. Le paramètre transition nous permet de choisir si on désire que le bouton change de couleur ou plutôt de Sprite lorsqu'on appuie sur ce dernier. On peut ensuite déterminer des couleurs ou des sprites pour chaque état du bouton. L'événement On Click nous permet d'activer ce que nous souhaitons lorsque le bouton est cliqué.</p>
+<p>Le GameObject Text permet de modifier le texte écrit sur le bouton. On peut le supprimer si notre bouton est seulement une image.</p>
+
+<dots></dots>
+
+<grostitre>Toggle</grostitre>
+<p>Similaire au bouton, le Toggle est une composante que vous pouvez cocher. Vous pouvez déclencher des comportements dans votre jeu selon la valeur du toggle. Le toggle a un événement On value change, donc dès que la valeur change vous pouvez la vérifier et coder un comportement à suivre.</p>
+<p>Dans la composante Toggle, la variable Is On vous permet de déterminer si le bouton est coché ou non au début de votre jeu.</p>
+<p>Le GameObject Background vous permet de changer le fond de la case à cocher. Checkmark vous permet de changer le crochet dans la boîte et Label le texte qui l'accompagne.</p>
+
+<dots></dots>
+
+<grostitre>Slider</grostitre>
+<p>Le slider est une composante préfaite qui permet au joueur d'ajuster la valeur de quelque chose. Comme le Toggle, un événement On value change est déclenché dès que le joueur modifie la valeur.</p>
+<p>Dans la composante Slider, le paramètre direction nous permet de choisir dans quel sens est positionné la composante. Min et max value permettent de choisir les valeurs minimales et maximales. Lorsque l'on coche Whole number, le chiffre que nous renvoie le slider est un int. Si c'est décoché, on reçoit un float.</p>
+<p>Les GameObject à l'intérieur de la composante nous permettent de modifier son allure.</p>
+
+<dots></dots>
+
+<grostitre>Texte</grostitre>
+<p>Le texte a son propre module:</p>
+<?php intlink("../font/"); ?>

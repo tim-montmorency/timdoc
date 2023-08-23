@@ -15,6 +15,7 @@
     <?php intlink("../unity/introduction/exercices/intro/"); ?>
     <?php intlink("../unity/sprite/"); ?>
     <?php intlink("../consignes/travail1/"); ?>
+    <?php intlink("../realite-augmentee/introduction/"); ?>
     
 </wiki-page>
 
@@ -23,7 +24,6 @@
 <?php intlink("../unity/composantes/"); ?>
 <?php intlink("../installation/configuration/"); ?>
 <?php intlink("../installation/unity-remote/"); ?>
-<?php intlink("../realite-augmentee/introduction/"); ?>
 <?php intlink("../realite-augmentee/detection/"); ?>
 <?php intlink("../unity/sorting_layers/"); ?>
 <?php intlink("../unity/animation/"); ?>
