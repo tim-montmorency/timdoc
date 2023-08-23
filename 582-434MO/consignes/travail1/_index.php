@@ -7,7 +7,7 @@
  */
 ?>
 
-<p class="spacer">Voici les directives pour votre travail 1.</p>
+<p class="spacer">Pour le travail 1, vous devrez produire une application simple en réalité augmentée. Celle-ci devra contenir une scène menu et une scène de détection. Vous devrez produire une image détectable par votre application. Lorsque celle-ci sera détectée, des sprites devront s'animer et émettre des sons. Vous devrez produire deux animations différentes et les alterner.</p>
 <alert>Attention : les seuls médias (assets, modèles, sons, échantillons sonores, textures, images, etc.) permis dans vos projets sont ceux que vous créez vous-même! Vous ne pouvez même pas utiliser les médias fournis en exemple par l’enseignant! </alert>
 
 
