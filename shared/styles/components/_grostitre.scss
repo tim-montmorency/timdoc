@@ -18,7 +18,8 @@
         margin-bottom: 0 !important;
 
         @media (min-width: 576px)  {
-            font-size: 36px !important;
+            /* SVP conservez la variable CSS (et non scss) ici car je l'utilise en démo dans un des mes cours (Marie-Michelle) */
+            font-size: var(--grostitre-size-desktop) !important;
         }
     }
 

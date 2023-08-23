@@ -29,6 +29,20 @@
 
 /* light color palette: https://coolors.co/577590-f3ca40-ff003a-e1e4f2-f2a541 */
 
+:root{
+   
+    --lightmode-blue: #577590;
+    --lightmode-yellow: #f3ca40;
+    --lightmode-red: #ff003a;
+    --lightmode-lightgray: #e1e4f2;
+    --lightmode-orange: #f2a541;
+
+     /* SVP conservez les 2 variables CSS suivantes (et non scss) car je les utilise en démo dans un des mes cours (Marie-Michelle) */
+    --main-color: #ff003a;
+    --grostitre-size-desktop: 36px;
+    
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -71,7 +85,8 @@ span.inline-code {
 a {
     color: black;
     text-decoration: none;
-    background-image: linear-gradient(0deg, #ff003a, #ff003a);
+     /* SVP conservez la variable CSS (et non scss) ici car je l'utilise en démo dans un des mes cours (Marie-Michelle) */
+    background-image: linear-gradient(0deg, var(--main-color),var(--main-color));
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100% 15%;

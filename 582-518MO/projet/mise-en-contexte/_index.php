@@ -1,7 +1,7 @@
 <?php 
 /**
  * @type     article
- * @title    Mise en contexte
+ * @title    Mise en contexte et rôles
  * @icon     images/icon.svg
  * @abstract Des clients désirent effectuer une refonte de leurs sites.
  * @index 100
@@ -38,7 +38,7 @@
 
 
 <dots></dots>
-<grostitre>Rôles</grostitre>
+<grostitre>Rôles dans l'équipe</grostitre>
 
 
 <p>Tous les membres de l’équipe participeront à tous les aspects du site. Cependant, en plus d’être développeur, chaque
@@ -52,47 +52,52 @@
     continuellement la priorité des cartes dans le backlog.</p>
 <ul>
     <li>
-        <p>Création du tableau Trello, invitation des membres de l'équipe et du client.</p>
+      Création du tableau Trello, invitation des membres de l'équipe et du client.
     </li>
+    <li>Élaborer un plan d'organisation des tâche par libellé.</li>
     <li>
-        <p>À chaque semaine organiser un <em>"Daily Scrum"</em> et s'assurer du bon déroulement de la rencontre.</p>
+        À chaque semaine organiser un <em>"Daily Scrum"</em> et s'assurer du bon déroulement de la rencontre.
     </li>
 </ul>
-<aside class="note note--warn">
-    <div class="note__wrapper">
-        <p>Attention le <em>Daily Scrum</em> ne pourra pas être la journée du cours, ni la journée précédente
-            ou&nbsp;suivante.</p>
+<warning>Attention le <em>Daily Scrum</em> ne pourra pas être la journée du cours, ni la journée précédente ou&nbsp;suivante.</warning>
 
-    </div>
-</aside>
 <ul>
     <li>
-        <p>S'assurer de façon hebdomadaire que les tâches du tableau sont à jours, qu'aucun membre ne travaille sur plus d'un billet à la fois et de réajuster la priorité des billets.</p>
+      Priorisation des tâches qui se trouvent dans la colonne "À faire". 
+    </li>
+
+    <li>
+      S'assurer de façon hebdomadaire que les tâches du tableau sont à jour, qu'aucun membre ne travaille sur plus d'un billet à la fois et de réajuster la priorité des billets. 
     </li>
     <li>
-        <p>etc.</p>
+      etc.
     </li>
 </ul>
 <p>Le candidat idéal est du genre à ne manquer aucune remise dans ses cours, à utiliser pour vrai l'agenda dans son cellulaire📱 et à prendre des notes afin de ne rien oublier 📝.</p>
+
+
+
+
 <h3 class="heading heading--h3" id="Designer &amp; Assurance Qualité (QA)">Designer &amp; Assurance Qualité (QA)</h3>
 
 <p>Le designer s'assure de l'apparence visuelle tout au long du projet et entant que QA, il s'assure que chaque élément considéré terminé par un de ses collègues est réellement terminé comme il se doit.</p>
 
 <ul>
     <li>
-        <p>Finalisation du moodboard, du guide de style et de la maquette de la page d'accueil.</p>
+        Finalisation du moodboard, du guide de style et de la maquette de la page d'accueil.
     </li>
     <li>
-        <p>Déclinaison de la maquette de la page de nouvelle à partir des styles établis.</p>
+        Déclinaison de la maquette de la page de nouvelle à partir des styles établis.
     </li>
     <li>
-        <p>Validation de l'harmonie entre les différentes composantes du site.</p>
+       Validation de l'harmonie entre les différentes composantes du site.
     </li>
     <li>
-        <p>Validation du respect des critères d'acceptation de chaque billet.</p>
+       Validation du respect des critères d'acceptation de chaque requis, de chaque tâche.
     </li>
+    <li>Tests de contrôle de la qualité sur différentes plateformes et navigateurs.</li>
     <li>
-        <p>etc.</p>
+       etc.
     </li>
 </ul>
 <p>Le candidat idéal est capable de faire la différence entre Helvetica et Times à l'oeil nue 👁, se laisse guider par son coeur ❤️ et son instinct et n'a pas peur d'aller à contre courant.</p>
@@ -103,16 +108,22 @@
 
 <ul>
     <li>
-        <p>Création du repo GitHub, invitation des membres de l'équipe et du client.</p>
+      Création du repo GitHub, invitation des membres de l'équipe et du client.
     </li>
     <li>
-        <p>Dynamisation des pages.</p>
+      Veiller à ce que tous les membres de votre équipe nomme bien chaque commit.
     </li>
     <li>
-        <p>Création du fichier .gitignore.</p>
+        Création du fichier .gitignore.
     </li>
     <li>
-        <p>etc.</p>
+       Dynamisation des pages en PHP.
+    </li>
+    <li>
+       Écrire des requêtes à la base de données utilisées par Wordpress.
+    </li>
+    <li>
+        etc.
     </li>
 </ul>
 <p>Le candidat idéal se laisse guider par la logique 🧠, n'a pas peur de WordPress et épate ses camarades avec son
