@@ -17,12 +17,12 @@
 
     <ul>
         <li>
-        <em>Parent et Enfant :</em> Pensez aux dossiers comme des « parents » et aux fichiers qu'ils contiennent comme des « enfants ». Par exemple, le dossier "Images" (parent) pourrait contenir des fichiers image comme "logo.png" et "photo.jpg" (enfants).
+        <em>Parent et Enfant :</em> Pensez aux dossiers comme des « parents » et aux fichiers qu'ils contiennent comme des « enfants ». Par exemple, <em>dans l'image précédente</em>, le dossier "<em>sources</em>" (parent) contient des fichiers "<em>client.doc</em>" et "<em>maquette.psd</em>" (enfants).
         </li>
 
         <li><em>Hiérarchie :</em> Les dossiers et les fichiers sont organisés en une hiérarchie, où certains dossiers sont au niveau supérieur et d'autres sont à des niveaux inférieurs. Les dossiers supérieurs (parents) contiennent les fichiers et les dossiers inférieurs (enfants).</li>
 
-        <li><em>Relations :</em> Les parents et les enfants sont liés les uns aux autres pour créer la structure du site web. Par exemple, les fichiers "logo.png" et "photo.jpg" sont liés au dossier "Images" parent.</li>
+        <li><em>Relations :</em> Les parents et les enfants sont liés les uns aux autres pour créer la structure du site web. Par exemple, les fichiers "<em>client.doc</em>" et "<em>maquette.psd</em>" sont liés au dossier "<em>sources</em>" parent.</li>
 
     </ul>
 
@@ -37,6 +37,10 @@
     <li>Et enfin, <em>"Sous-catégorie B"</em> est le parent de la <b style="color:red"><u>"Page de produit"</u></b>.</li>
 </ul>
 
+<grostitre>Questions</grostitre>
+
+<doclink href="https://app.wooclap.com/BNNHKJ?from=event-page">Questionnaire Wooclap</doclink>
+
 <dots></dots>
 
 <p>Lorsque vous référencez des fichiers dans le code de vos pages web (comme HTML, CSS, JavaScript), vous spécifiez le chemin d'accès pour indiquer où se trouvent ces fichiers par rapport à la page actuelle.</p>
@@ -44,6 +48,7 @@
 <info>En résumé, dans la hiérarchie des fichiers d'un site web, les dossiers sont comme les parents qui contiennent les fichiers enfants. Cette organisation aide à gérer les ressources et à créer la structure nécessaire pour faire fonctionner le site web.</info>
 
 <dots></dots>
+
 
 <grostitre>Chemin d'accès . /</grostitre>
 
