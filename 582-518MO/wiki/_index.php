@@ -49,7 +49,7 @@
 
 </wiki-page>
 
-<wiki-page name="Cours 02" date="2023-08-27">
+<wiki-page name="Cours 02" date="2023-08-23">
     <h2>Quiz</h2>
     Lundi - <a href="https://app.wooclap.com/SDQXZU" target="_blank" rel="noopener noreferrer">Code Wooclap : SDQXZU</a>
     <br>
@@ -70,5 +70,7 @@
     <?php intlink("../sass/introduction/"); ?>
     <?php intlink("../sass/imbrication/"); ?>
     <?php intlink("../sass/variable/"); ?>
+    <?php intlink("../sass/extend/"); ?>
+    <?php intlink("../sass/boucle/"); ?>
 
 </wiki-page>
