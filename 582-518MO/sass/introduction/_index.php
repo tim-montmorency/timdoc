@@ -3,7 +3,7 @@
  * @type     article
  * @title    Introduction
  * @icon     images/icon.png
- * @abstract abc
+ * @abstract Syntactically Awesome Style Sheets
  * @index 100
  */
 ?>
@@ -77,19 +77,18 @@
 
 
 <ol start="1">
-    <li>Un outil en ligne tel que <a target="_blank" rel="noopener noreferrer" href="https://www.sassmeister.com/">SassMeister</a>, permet de convertir du code de scss vers css. Cependant,cette solution implique de recopier à la main 🖐 son code à chaque fois que l'on souhaite le compiler.
+    <li>Un outil en ligne tel que <a target="_blank" rel="noopener noreferrer" href="https://www.sassmeister.com/">SassMeister</a>, permet de convertir du code de scss vers css. Cependant, cette solution implique de recopier à la main 🖐 son code à chaque fois que l'on souhaite le compiler.
     </li>
     <li>
-        Avec Visual Studio Code il y a une panoplie d'extention que vous pouvez installer pour que votre scss se compile. <a href="https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass" target="_blank" rel="noopener noreferrer">Live Sass Compiler</a> est un très bon exemple.
+        Avec Visual Studio Code, il y a une panoplie d'extentions que vous pouvez installer pour que votre sass/scss se compile en css. <a href="https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass" target="_blank" rel="noopener noreferrer">Live Sass Compiler</a> est un très bon exemple. 
     </li>
     <li>
-        <p>La solution idéale, mais légèrement plus complexe consiste à utiliser un bundler. Par exemple: <a
+        <p>Une solution idéale, mais légèrement plus complexe consiste à utiliser un <em>bundler</em>. Par exemple: <a
                 target="_blank" rel="noopener noreferrer" href="https://webpack.js.org/">webpack</a>, <a target="_blank"
                 rel="noopener noreferrer" href="https://rollupjs.org/guide/en/">Rollup</a>, <a target="_blank"
                 rel="noopener noreferrer" href="/cours/autres/vite">Vite</a>, etc. Ces bundlers peuvent être installés
             directement dans un projet, simplifiant et uniformisant ainsi le travail entre les membres d'une
-            équipe.<br><br>Dans le cadre de ce cours, nous verrons comment <a target="_blank" rel="noopener noreferrer"
-                href="/cours/autres/vite">compiler du SASS via Vite</a>.</p>
+            équipe.<br><br>Dans le cadre de ce cours, nous utliserons simplement l'extention  de Visual Studio Code nommée <a href="https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass" target="_blank" rel="noopener noreferrer">Live Sass Compiler</a> mais sachez que dans l'industrie, il y a d'autres façon de travailler.
     </li>
 </ol>
 
@@ -98,7 +97,7 @@
 
 
 <dots></dots>
-<grostitre>Alternatives</grostitre>
+<grostitre>Alternatives à Sass</grostitre>
 
 <ul>
     <li>
