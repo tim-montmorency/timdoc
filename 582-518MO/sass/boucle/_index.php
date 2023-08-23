@@ -12,7 +12,7 @@
 
 <grostitre>@for</grostitre>
 <p>Les boucles <code>@for</code> fonctionnent de façon très similaire aux <a target="_blank" rel="noopener noreferrer"
-        href="/cours/javascript/boucle-for">boucles for en JavaScript</a>. Il faut premièrement définir une variable,
+        href="https://smnarnold.com/cours/javascript/boucle-for">boucles for en JavaScript</a>. Il faut premièrement définir une variable,
     lui donner une valeur de départ et une valeur à atteindre.</p>
 
 <p>Par exemple, afin de configurer la taille de plusieurs titres <em>(headings)</em> à l'aide d'une boucle

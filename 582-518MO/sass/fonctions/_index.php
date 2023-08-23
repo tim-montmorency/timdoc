@@ -32,7 +32,7 @@
 <aside class="exercice-card">
     <div class="exercice-card__content">
       <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-      <a href="/exercices/sass/function-uno" target="_blank" class="exercice-card__title">
+      <a href="https://smnarnold.com/exercices/sass/function-uno" target="_blank" class="exercice-card__title">
         @function -&nbsp;Uno
       </a>
 
