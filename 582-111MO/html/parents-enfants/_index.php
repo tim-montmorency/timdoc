@@ -12,17 +12,17 @@
 
 <grostitre>Parent-Enfant</grostitre>
 
-<img src="./images/parent-enfant.png">
+<img src="./images/parent-enfant.webp">
 
 
     <ul>
         <li>
-        <em>Parent et Enfant :</em> Pensez aux dossiers comme des « parents » et aux fichiers qu'ils contiennent comme des « enfants ». Par exemple, <em>dans l'image précédente</em>, le dossier "<em>sources</em>" (parent) contient des fichiers "<em>client.doc</em>" et "<em>maquette.psd</em>" (enfants).
+        <em>Parent et Enfant :</em> Pensez aux dossiers comme des « parents » et aux fichiers qu'ils contiennent comme des « enfants ». 
         </li>
 
         <li><em>Hiérarchie :</em> Les dossiers et les fichiers sont organisés en une hiérarchie, où certains dossiers sont au niveau supérieur et d'autres sont à des niveaux inférieurs. Les dossiers supérieurs (parents) contiennent les fichiers et les dossiers inférieurs (enfants).</li>
 
-        <li><em>Relations :</em> Les parents et les enfants sont liés les uns aux autres pour créer la structure du site web. Par exemple, les fichiers "<em>client.doc</em>" et "<em>maquette.psd</em>" sont liés au dossier "<em>sources</em>" parent.</li>
+        <li><em>Relations :</em> Les parents et les enfants sont liés les uns aux autres pour créer la structure du site web. </li>
 
     </ul>
 
@@ -81,6 +81,14 @@
     Pour éviter les conflits, dans le cadre du cours, nous allons <u><em>toujours</em></u> utiliser . / devant les fichiers pour indiquer que le chemin d'accès commence à partir du répertoire actuel.
 </warning>
 
+<dots></dots>
 
+<grostitre>Remonter de niveau . . /</grostitre>
 
+<img src="./images/remonter-dossier.webp">
 
+<p>Lorsque vous désirez remonter d'un niveau comme par exemple : vous êtes au niveau d'un fichier enfant et que vous désirez remonter au dossier parent d'utiliser un autre fichier dans le dossier parent, on l'écrit <em>. . / nom_du_fichier</em> </p>
+
+<h4 style="font-size: 20px; border-style:solid; border-color:red; border-width:1px; padding:20px">Dans le cas présent :  <em>. . / index.html</em></h4>
+
+<p>Si vous devez remonter de 2 niveau alors suffit d'écrire :  <em>. . / . . / nom_du_fichier</em></p>
