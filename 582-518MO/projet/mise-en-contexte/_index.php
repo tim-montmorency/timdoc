@@ -103,53 +103,56 @@
 <p>Le candidat idéal est capable de faire la différence entre Helvetica et Times à l'oeil nue 👁, se laisse guider par son coeur ❤️ et son instinct et n'a pas peur d'aller à contre courant.</p>
 <h3 class="heading heading--h3" id="Développeur Back-end &amp; DevOp">Développeur Back-end &amp; DevOp</h3>
 
-<p>Le développeur back-end s'assure de faire le pont entre le CMS <em>(WordPress)</em> et les mises en page HTML, CSS et
-    JS. En tant que DevOps, il s'assure aussi de la gestion du repo GitHub et des déploiements en ligne. </p>
+<p>Le développeur back-end s'assure de faire le pont entre le CMS <em>(WordPress)</em> et les mises en page HTML, CSS et JS. En tant que DevOps, il s'assure aussi de la gestion du repo GitHub et des déploiements en ligne. </p>
 
 <ul>
     <li>
       Création du repo GitHub, invitation des membres de l'équipe et du client.
     </li>
     <li>
-      Veiller à ce que tous les membres de votre équipe nomme bien chaque commit.
+      Veiller à ce que tous les membres de votre équipe nomme bien chaque commit git ET commente leur code.
     </li>
     <li>
         Création du fichier .gitignore.
     </li>
     <li>
-       Dynamisation des pages en PHP.
+       Dynamisation des pages avec PHP (on va l'apprendre en classe).
     </li>
     <li>
-       Écrire des requêtes à la base de données utilisées par Wordpress.
+       Écrire des requêtes WP Query (on va l'apprendre en classe).
     </li>
     <li>
         etc.
     </li>
 </ul>
-<p>Le candidat idéal se laisse guider par la logique 🧠, n'a pas peur de WordPress et épate ses camarades avec son
-    utilisation de raccourcis clavier ⌨️.</p>
+
+<p>Le candidat idéal se laisse guider par la logique 🧠, n'a pas peur de WordPress et épate ses camarades avec son utilisation de raccourcis clavier ⌨️.</p>
+
+
+
+
 <h3 class="heading heading--h3" id="Agent de promotion">Agent de promotion</h3>
 
 <p><em>(Rôle disponible pour les équipes de quatre seulement)</em></p>
-<p>L’agent de promotion travaille à présenter son équipe sous son meilleur jour tout en mettant de l’avant ses
-    réalisations. De par son travail, il s’assure que son équipe maintienne une image professionnelle et que chaque
-    réalisation soit transposée en une pièce de portfolio pouvant attirer de nouveaux clients. </p>
+
+<p>L’agent de promotion travaille à présenter son équipe sous son meilleur jour tout en mettant de l’avant ses réalisations. De par son travail, il s’assure que son équipe maintienne une image professionnelle et que chaque réalisation soit transposée en une pièce de portfolio pouvant attirer de nouveaux clients. </p>
 
 <ul>
     <li>
-        <p>Création d’une page temporaire plus élaborée et stylisée.</p>
+       Création d’une page temporaire plus élaborée et stylisée.
     </li>
     <li>
-        <p>Création d’une page <a target="_blank" rel="noopener noreferrer" href="https://www.behance.net/">Behance</a>
-            illustrant de façon spectaculaire et professionnelle le site réalisé. </p>
+        Création d’une page <a target="_blank" rel="noopener noreferrer" href="https://www.behance.net/">Behance</a> illustrant de façon spectaculaire et professionnelle le site réalisé. 
     </li>
     <li>
-        <p>etc.</p>
+        Rédaction d'un texte présentant l'équipe et le projet. Un texte convainquant qui promouvoit l'équipe.
+    </li>
+    <li>
+       etc.
     </li>
 </ul>
-<p>Le candidat idéal est prêt à travailler dans l’ombre afin de bien faire paraître son équipe, mais comprend qu’il
-    doit-être rigoureux, car l’image de sa compagnie et l’acquisition de nouveaux clients peuvent être directement
-    impactées par son niveau de soucis du détail.</p>
+
+<p>Le candidat idéal est prêt à travailler dans l’ombre afin de bien faire paraître son équipe, mais comprend qu’il doit-être rigoureux, car l’image de sa compagnie et l’acquisition de nouveaux clients peuvent être directement impactées par son niveau de soucis du détail.</p>
 
 
 

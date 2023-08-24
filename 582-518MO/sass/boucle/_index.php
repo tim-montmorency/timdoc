@@ -1,22 +1,18 @@
 <?php 
 /**
  * @type     article
- * @title    Boucle
+ * @title    Boucle SASS
  * @icon     images/icon.png
  * @abstract Plusieurs classes CSS similaires avec une légère variation
  * @index 30
  */
 ?>
-<p>Plutôt que d'écrire à la main plusieurs classes CSS similaires avec une légère variation, SCSS permet de créer des
-    boucles générant pour nous ces classes.</p>
+<p>Plutôt que d'écrire à la main plusieurs classes CSS similaires avec une légère variation, SCSS permet de créer des boucles générant pour nous ces différentes classes.</p>
 
 <grostitre>@for</grostitre>
-<p>Les boucles <code>@for</code> fonctionnent de façon très similaire aux <a target="_blank" rel="noopener noreferrer"
-        href="https://smnarnold.com/cours/javascript/boucle-for">boucles for en JavaScript</a>. Il faut premièrement définir une variable,
-    lui donner une valeur de départ et une valeur à atteindre.</p>
+<p>Les boucles <code>@for</code> fonctionnent de façon très similaire aux <a target="_blank" rel="noopener noreferrer" href="https://smnarnold.com/cours/javascript/boucle-for">boucles for en JavaScript</a>. Il faut premièrement définir une variable, lui donner une valeur de départ et une valeur à atteindre.</p>
 
-<p>Par exemple, afin de configurer la taille de plusieurs titres <em>(headings)</em> à l'aide d'une boucle
-    <code>@for</code>, il est possible de faire:</p>
+<p>Par exemple, afin de configurer la taille de plusieurs titres <em>(headings)</em> à l'aide d'une boucle <code>@for</code>, il est possible de faire:</p>
 
 <highlight lang='css'>@for $index from 1 to 5 {
   .h#{$index} {
@@ -33,11 +29,9 @@ h3 { font-size: 25px; }
 h4 { font-size: 20px; }</highlight>
 
 
-<info>Remarquez comment pour concaténer une variable SCSS avec du texte on l’enveloppe avec <code>#{}</code>. Un peu
-    comme les <code>${}</code> avec les littéraux de&nbsp;gabarit.</info>
+<info>Remarquez comment, pour concaténer une variable SCSS avec du texte, on l’enveloppe avec <code>#{}</code>. Un peu comme les <code>${}</code> avec les <a href="https://smnarnold.com/cours/javascript/litteraux-de-gabarits" target="_blank" rel="noopener noreferrer">littéraux de&nbsp;gabarit</a>  en Javascript.</info>
 
-<info>Remarquez que le dernier chiffre n’est jamais atteint. La boucle indique <code>1 to 5</code>. Cependant, le
-    dernier heading est <code>h4</code> et non&nbsp;<code>h5</code>!</info>
+<info>Remarquez que le dernier chiffre n’est jamais atteint. La boucle indique <code>1 to 5</code>. En conséquence, le dernier heading est <code>h4</code> et non&nbsp;<code>h5</code> puisqu'on n'atteind jamais le chiffre mentionné après le <code>to</code> dans la ligne <code>@for $index from 1 to 5</code>.</info>
 
 
 
@@ -75,6 +69,7 @@ h5 { font-size: 15px; }</highlight>
 
 <dots></dots>
 
+<exercice href='../../exercices/sass-for-palette-pink-paradise/'></exercice>
 <aside class="exercice-card">
     <div class="exercice-card__content">
         <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
@@ -108,7 +103,7 @@ h5 { font-size: 15px; }</highlight>
   }
 }</highlight>
 
-<p>Ce qui produit le code suivant:</p>
+<p>Ce qui produit, une fois le code compilé en css, le code suivant:</p>
 
 <highlight lang='css'>.msg-red { background-color: red; }
 .msg-yellow { background-color: yellow; }
@@ -118,8 +113,9 @@ h5 { font-size: 15px; }</highlight>
 
 
 
-<h3 class="heading heading--h3" id="Map">Map</h3>
-<p>Dans certains cas, identifié une valeur à l'aide d'une clé dans une boucle peut s'avérer très pratique. Heureusement, la boucle <code>@each</code> peut aussi itérer sur un tableau de clés et de valeurs.</p>
+<h3 class="heading heading--h3" id="Map">Map (utilisation de clé et valeur)</h3>
+
+<p>Dans certains cas, identifier une valeur à l'aide d'une clé dans une boucle peut s'avérer très pratique. Heureusement, la boucle <code>@each</code> peut aussi itérer sur un tableau de clés et de valeurs.</p>
 
 <p>Par exemple, pour créer une rapidement des classes ayant des noms textuels et des valeurs numériques il est possible de faire:</p>
 
@@ -133,7 +129,7 @@ h5 { font-size: 15px; }</highlight>
 
 
 
-<p>Ce qui produit le code suivant:</p>
+<p>Ce qui produit, une fois le code compilé en css, le code suivant:</p>
 
 <highlight lang='css'>.text-small { font-size: 12px; }
 .text-medium { font-size: 16px; }
@@ -142,7 +138,7 @@ h5 { font-size: 15px; }</highlight>
 <doclink href='https://sass-lang.com/documentation/at-rules/control/each'>@each</doclink>
 
 <dots></dots>
-
+<exercice href='../../exercices/sass-each-menu-overwatch//'></exercice>
 <aside class="exercice-card">
     <div class="exercice-card__content">
         <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">

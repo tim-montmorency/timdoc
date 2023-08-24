@@ -50,87 +50,124 @@
 
 
 <highlight lang='css'>.msg {
-  border-radius: 10px;
-  padding: 10px;
-  background-color: blue;
+  border-left: 4px solid blue;
+  padding: 20px;
+  background-color: lightBlue;
 }</highlight>
 
-
-<p>Si d'autres types de messages doivent ensuite être créés et qu'ils doivent partager les mêmes styles de bases que <code>.msg</code>, il serait possible d'étendre cette classe plutôt que de réécrire à chaque fois le même code.</p>
+<info>Ça donnerait un peu comme l'exemple ci-compte pour un bloc avec la classe .msg</info>
+<br>
+<p>Si d'autres types de messages doivent ensuite être créés et qu'ils doivent partager les mêmes styles de bases que <code>.msg</code>, il serait possible d'étendre (extend) cette classe plutôt que de réécrire à chaque fois le même code.</p>
 
 <p>Par exemple:</p>
-<highlight lang='css'>.msg-error {
+<highlight lang='css'>.msg-alert {
   @extend .msg;
-  background-color: red;
+  border-color: red;
+  background-color: lightPink;
 }
 
-.msg-success {
+.msg-warning {
   @extend .msg;
-  background-color: green;
-}</highlight>
-<p>Ce qui générerait le code suivant:</p>
-<highlight lang='css'>.msg, .msg-success, .msg-error {
-  border-radius: 10px;
-  padding: 10px;
-  background-color: blue;
-}
-
-.msg-error {
-  background-color: red;
-}
-
-.msg-success {
-  background-color: green;
+  border-color: yellow;
+  background-color: lightYellow;
 }</highlight>
 
+<alert>.msg-alert</alert>
+<warning>.msg-warning</warning>
 
 
-<p>Les trois messages partageraient donc le même<code> border-radius</code> et le même <code>padding</code> tandis que la couleur de fond serait écrasée pour chaque variation.</p>
+
+
+
+
+
+
+<p>Ce qui , une fois compilé en css, générerait le code suivant:</p>
+<highlight lang='css'>.msg, .msg-alert, .msg-warning {
+  border-left: 4px solid blue;
+  padding: 20px;
+  background-color: lightBlue;
+}
+
+.msg-alert {
+  border-color: red;
+  background-color: lightPink;
+}
+
+.msg-warning {
+  border-color: yellow;
+  background-color: lightYellow;
+}</highlight>
+
+
+
+<p>Les trois messages partageraient donc le même <code>border-width</code>, le même <code>border-style</code> et le même <code>padding</code> tandis que la couleur de fond et la couleur de bordure serait écrasées pour chaque variation.</p>
 
 <doclink href='https://sass-lang.com/documentation/at-rules/extend'>@extend</doclink>
 
 
 
+
+
 <dots></dots>
+
 <grostitre>Placeholder</grostitre>
 <p>Parfois il est pratique de définir des règles qui peuvent être étendues sans pour autant que ces règles existent en soi, d'où l'utilité des <code>%placeholder</code>. Ces règles commencent avec un <code>%</code> et ne génèrent aucun code à moins d'être étendues.</p>
 
 <p>Par exemple, l'exemple précédent pourrait être réécrit avec un placeholder afin d'éviter que la couleur de fond bleue soit écrasée par les variantes de messages:</p>
 
 <highlight lang='css'>%msg {
-  border-radius: 10px;
-  padding: 10px;
+  border-left-width: 4px;
+  border-left-style: solid;
+  padding: 20px;
 }
 
 .msg {
   @extend %msg;
-  background-color: blue;
+  border-left-color: blue;
+  background-color: lightBlue;
 }
 
-.msg-error {
+.msg-alert {
   @extend %msg;
-  background-color: red;
+  border-left-color: red;
+  background-color: lightPink;
+ 
 }
 
-.msg-success {
+.msg-warning {
   @extend %msg;
-  background-color: green;
+  border-left-color: yellow;
+  background-color: lightYellow;
 }</highlight>
 
 <p>Ce qui générerait le code suivant:</p>
 
-<highlight lang='css'>.msg-success, .msg-error, .msg {
+<highlight lang='css'>.msg, .msg-alert, .msg-warning {
   border-radius: 10px;
   padding: 10px;
 }
 
-.msg { background-color: blue; }
-.msg-error { background-color: red; }
-.msg-success { background-color: green; }</highlight>
+.msg { 
+  border-left-color: blue;
+  background-color: lightBlue;
+}
 
+.msg-alert { 
+  border-left-color: red;
+  background-color: lightPink;
+}
 
+.msg-warning { 
+  border-left-color: yellow;
+  background-color: lightYellow;
+}</highlight>
 
-<p>Les placeholders sont particulièrement utile en ce qui à trait aux règles de styles que nous utilisons régulièrement.</p><p>Par exemple, je sais que je centre régulièrement des éléments via <code>transform</code>. Plutôt que de tapper à chaque fois:</p>
+<dots></dots>
+
+<p>Les placeholders sont particulièrement utiles en ce qui à trait aux règles de styles que nous utilisons régulièrement.</p>
+
+<p>Par exemple, je sais que je centre régulièrement des éléments via <code>transform</code>. Plutôt que de tapper à chaque fois:</p>
 
 <highlight lang='css'>.element {
   position: absolute;
@@ -166,7 +203,9 @@
 
 <dots></dots>
 <grostitre>Limitations</grostitre>
-<p>Une règle de style ne peut être étendue que si elle se trouve dans le même contexte que sa définition. Autrement dit, une règle de style définie à la base d'un fichier ne peut pas être étendue à l'intérieur d'une media query à moins d'être défini à nouveau dans ce contexte.</p>
+<p>Une règle de style ne peut être étendue (extend) QUE si elle se trouve dans le même contexte que sa définition. </p>
+
+<p>Autrement dit, une règle de style définie à la base d'un fichier ne peut pas être étendue à l'intérieur d'une media query à moins d'être définie à nouveau dans ce contexte (à l'intérieur de accolade de la media query).</p>
 
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
@@ -176,7 +215,7 @@
         <!-- MAIN FOOTER SOF -->
         </main>
         <footer>
-            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+            <div id="copyright">2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
         <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
