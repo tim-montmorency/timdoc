@@ -81,6 +81,14 @@
     Pour éviter les conflits, dans le cadre du cours, nous allons <u><em>toujours</em></u> utiliser . / devant les fichiers pour indiquer que le chemin d'accès commence à partir du répertoire actuel.
 </warning>
 
+<dots></dots>
 
+<grostitre>Remonter de niveau . . /</grostitre>
 
+<img src="./images/remonter-dossier.webp">
 
+<p>Lorsque vous désirez remonter d'un niveau comme par exemple : vous êtes au niveau d'un fichier enfant et que vous désirez remonter au dossier parent d'utiliser un autre fichier dans le dossier parent, on l'écrit <em>. . / nom_du_fichier</em> </p>
+
+<h4 style="font-size: 20px; border-style:solid; border-color:red; border-width:1px; padding:20px">Dans le cas présent :  <em>. . / index.html</em></h4>
+
+<p>Si vous devez remonter de 2 niveau alors suffit d'écrire :  <em>. . / . . / nom_du_fichier</em></p>
