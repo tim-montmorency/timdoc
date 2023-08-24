@@ -201,3 +201,6 @@
 <p>Avec cette arborescence, les utilisateurs peuvent facilement naviguer entre les différentes sections du site et trouver des informations spécifiques sur les destinations qu'ils souhaitent explorer ou les conseils de voyage qui les intéressent.</p> 
 
 <p> Les <em>URL</em> des pages reflètent également l'organisation hiérarchique, ce qui permet aux visiteurs et aux moteurs de recherche de comprendre la structure du site.</p></info>
+
+<exercice href="./exercices/arborescences_ex01/"></exercice>
+<exercice href="./exercices/arborescence_reproduction/"></exercice>
