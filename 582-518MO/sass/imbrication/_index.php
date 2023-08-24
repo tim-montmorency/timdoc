@@ -123,7 +123,8 @@
 
 <h3 class="heading heading--h3" id="Pseudo-classes">Pseudo-classes</h3>
 
-<p>Les imbrications Sass sont compatibles avec les <a target="_blank" rel="noopener noreferrer" href="/cours/css/pseudo-classes">pseudo-classes</a> lorsqu'un sélecteur parent est utilisé.</p>
+<p>Les imbrications Sass sont compatibles avec les <a target="_blank" rel="noopener noreferrer" href="../../../582-215MO/css/pseudo-classes/">pseudo-classes</a> lorsqu'un sélecteur parent est utilisé.</p>
+
 <p>Par exemple:</p>
 
 <highlight lang='scss'>.btn {
@@ -134,10 +135,24 @@
 
 <p>Générera le code CSS suivant ⏬</p>
 
-
 <highlight lang='html'>.btn { background: blue; }
 
 .btn:hover { background: lightblue; }</highlight>
+<dots></dots>
+<p>Autre exemple de pseudo-classe:</p>
+
+<highlight lang='scss'>.section {
+  background: white;
+  
+  &:nth-child(3) { background: gray; }
+}</highlight>
+
+<p>Générera le code CSS suivant ⏬</p>
+
+<highlight lang='html'>.section { background: white; }
+
+.btn:nth-child(3) { background: gray; }</highlight>
+
 
 
 
@@ -152,7 +167,7 @@
 <h3 class="heading heading--h3" id="Pseudo-éléments">Pseudo-éléments</h3>
 
 <p>Les imbrications Sass sont compatibles avec les <a target="_blank" rel="noopener noreferrer"
-        href="/cours/css/pseudo-elements">pseudo-éléments</a> lorsqu'un sélecteur parent est utilisé.</p>
+        href="../../../582-215MO/css/pseudo-elements/">pseudo-éléments</a> lorsqu'un sélecteur parent est utilisé.</p>
 
 <p>Par exemple:</p>
 

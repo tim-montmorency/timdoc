@@ -49,7 +49,7 @@
 <p>Par exemple, afin de configurer la taille de plusieurs titres <em>(headings)</em> à l'aide d'une boucle <code>@for</code>, il est possible de faire:</p>
 
 <highlight lang='css'>@for $index from 1 to 5 {
-  .h#{$index} {
+  h#{$index} {
     font-size: 40px - ($index * 5);
   }
 }</highlight>
@@ -63,7 +63,7 @@ h3 { font-size: 25px; }
 h4 { font-size: 20px; }</highlight>
 
 
-<info>Remarquez comment, pour concaténer une variable SCSS avec du texte, on l’enveloppe avec <code>#{}</code>. Un peu comme les <code>${}</code> avec les <a href="https://smnarnold.com/cours/javascript/litteraux-de-gabarits" target="_blank" rel="noopener noreferrer">littéraux de&nbsp;gabarit</a>  en Javascript.</info>
+<info>Remarquez comment, pour concaténer une variable SCSS avec du texte (c-à-d construire le nom du sélecteur css, de la classe ou de la pseudo-classe), on l’enveloppe avec <code>#{}</code>. <br><br> <small>Un peu comme les <code>${}</code> avec les <a href="https://smnarnold.com/cours/javascript/litteraux-de-gabarits" target="_blank" rel="noopener noreferrer">littéraux de&nbsp;gabarit</a>  en Javascript.</small></info>
 
 <info>Remarquez que le dernier chiffre n’est jamais atteint. La boucle indique <code>1 to 5</code>. En conséquence, le dernier heading est <code>h4</code> et non&nbsp;<code>h5</code> puisqu'on n'atteind jamais le chiffre mentionné après le <code>to</code> dans la ligne <code>@for $index from 1 to 5</code>.</info>
 
@@ -71,8 +71,7 @@ h4 { font-size: 20px; }</highlight>
 
 
 <h3 class="heading heading--h3" id="through">through</h3>
-<p>Lorsque <code>through</code> est utilisé à la place de <code>to</code>, le chiffre à atteindre dans la boucle est
-    inclus.</p>
+<p>Lorsque <code>through</code> est utilisé à la place de <code>to</code>, le chiffre à atteindre dans la boucle est inclus.</p>
 <p>Par exemple, le même code que précédemment, mais avec <code>through</code>:</p>
 
 <highlight lang='css'>@for $index from 1 through 5 {
@@ -129,7 +128,7 @@ h5 { font-size: 15px; }</highlight>
 <p>Par exemple, une de boucle configurant la couleur de plusieurs messages peut être écrite ainsi avec une boucle
     <code>@each</code>:</p>
 
-    <highlight lang='scss'>$colorsArr: red, yellow, blue, gray;
+<highlight lang='scss'>$colorsArr: red, yellow, blue, gray;
 
 @each $color in $colorsArr {
   .msg-#{$color} {
