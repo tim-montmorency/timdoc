@@ -30,6 +30,7 @@
     <?php intlink("../html/div-span/exercices/div-span"); ?>
     <?php intlink("../html/formatage-html"); ?>
     <?php intlink("../html/ancre/"); ?>
+    <?php intlink("../html/ancre/exercices/ancres"); ?>
 </wiki-page>
 
 
