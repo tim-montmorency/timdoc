@@ -36,16 +36,16 @@
     <?php intlink("../projet/melee-scrum/"); ?>
 
     <h2>Exercice: Dérouillage CSS et JS</h2>
-    <exercice href='../exercices/cartes-jeu-du-27/'></exercice>
-
+    Le lien sera fourni en cours.
+    <br><br> <br><br> <hr><br>
     <h2>Devoirs</h2>
     <p>Compléter les requis émis à la fin de ces 3 pages :</p>
     <?php intlink("../projet/mise-en-contexte/"); ?>
     <?php intlink("../projet/melee-scrum/"); ?>
     <?php intlink("../gestion-de-projet/rapport-de-temps/"); ?>
 <br>
-    <p>Compléter l'exercice Jeu du 27</p>
-    <?php intlink("../exercices/cartes-jeu-du-27/"); ?>
+    <p>Compléter l'exercice Jeu du 27: Le lien sera fourni en cours.</p>
+    
 
 </wiki-page>
 
@@ -64,7 +64,7 @@
         <li>Je choisis une personne au hasard dans la classe qui devra m'expliquer en quelques mots tout le processus Agile avec les sujets qui auront été discutés en équipe.</li>
     </ol>
 
-
+    <br><br><hr>
 
     <h2>Sass</h2>
     <?php intlink("../sass/introduction/"); ?>
@@ -72,5 +72,12 @@
     <?php intlink("../sass/variable/"); ?>
     <?php intlink("../sass/extend/"); ?>
     <?php intlink("../sass/boucle/"); ?>
+    <p>3 exercices, les liens seront fournis en cours</p>
+    <br><br> <hr><br><br><br>
+    <?php intlink("../sass/mixins/"); ?>
+    <?php intlink("../sass/conditions/"); ?>
+    <?php intlink("../sass/fonctions/"); ?>
+    <p>Exercice, le lien sera fourni en cours</p>
+    <br><br> <hr><br><br><br>
 
 </wiki-page>
