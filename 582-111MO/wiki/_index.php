@@ -21,6 +21,7 @@
 <wiki-page name="Cours 2" date="2023-08-28">
     <?php intlink("../autres/arborescence/"); ?>
     <?php intlink("../autres/arborescence/exercices/arborescences_ex01"); ?>
+    <?php intlink("../autres/arborescence/exercices/arborescence_reproduction"); ?>
     <?php intlink("../html/parents-enfants/"); ?>
     <?php intlink("../html/balises/"); ?>
     <?php intlink("../html/semantique/"); ?>
