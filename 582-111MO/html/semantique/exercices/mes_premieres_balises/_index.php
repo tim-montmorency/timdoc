@@ -9,6 +9,10 @@
 
 <p> Identifier et appliquer correctement les balises sémantiques HTML pour structurer le contenu d'une page web.</p>
 
+<img src="./images/balise-semantique.webp">
+
+<doclink href="./balises-semantique.zip">Fichier de départ</doclink>
+
 <grostitre>Instructions</grostitre>
 
 <p>Considérez les paragraphes de texte suivant et utilisez les balises sémantiques HTML appropriées pour structurer le texte en conséquence. Choisissez les balises qui décrivent au mieux le type de contenu de chaque partie du texte. (<em>&lt;title&gt; &lt;header&gt; &lt;main&gt; &lt;section&gt; &lt;footer&gt;</em>) </p>
