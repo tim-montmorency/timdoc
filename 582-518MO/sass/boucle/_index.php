@@ -67,32 +67,18 @@ h5 { font-size: 15px; }</highlight>
 
 
 <dots></dots>
+<exercice href='../../exercices/sass-for-1-a-6/'></exercice>
 
 <exercice href='../../exercices/sass-for-palette-pink-paradise/'></exercice>
-<aside class="exercice-card">
-    <div class="exercice-card__content">
-        <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-        <a href="https://smnarnold.com/exercices/sass/for-palette-pink-paradise" target="_blank" class="exercice-card__title">
-            @for - Palette Pink&nbsp;Paradise
-        </a>
-
-        <p class="exercice-card__description">Dans le cadre de cet exercice, vous devez recréer la palette de couleur
-            Pink Paradise afin de présenter les 20 tons de rose disponibles&nbsp;c...</p>
-    </div>
-
-</aside>
-
-
 
 
 <dots></dots>
 <grostitre>@each</grostitre>
 
-<p>Les boucles <code>@each</code> ressemblent aux boucles <a rel="noopener noreferrer" href="#for">@for</a> à la
-    différence qu'<strong>elles servent à itérer sur une liste d'items</strong>. À tour de rôle, une variable prend la
-    valeur de chaque item dans la liste et devient accessible.</p>
+<p>Les boucles <code>@each</code> ressemblent aux boucles <a rel="noopener noreferrer" href="#for">@for</a> à la différence qu'<strong>elles servent à itérer sur une liste d'items</strong>. À tour de rôle, une variable prend la valeur de chaque item dans la liste et devient accessible.</p>
+
 <p>Par exemple, une de boucle configurant la couleur de plusieurs messages peut être écrite ainsi avec une boucle
-    <code>@each</code>:</p>
+<code>@each</code>:</p>
 
 <highlight lang='scss'>$colorsArr: red, yellow, blue, gray;
 

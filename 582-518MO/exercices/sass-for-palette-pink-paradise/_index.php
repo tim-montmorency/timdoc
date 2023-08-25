@@ -2,7 +2,7 @@
 /**
  * @type     exercice
  * @title    Palette Pink Paradise
- * @icon     images/thumb.png
+ * @icon     images/pink-palette-resultat.png
  * @abstract Utiliser @for du langage Sass pour recréer la palette de couleur Pink Paradise.
  */
 ?>
