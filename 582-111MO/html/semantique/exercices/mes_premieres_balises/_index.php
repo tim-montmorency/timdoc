@@ -11,7 +11,7 @@
 
 <grostitre>Instructions</grostitre>
 
-<p>Considérez le paragraphe de texte suivant et utilisez les balises sémantiques HTML appropriées pour structurer le texte en conséquence. Choisissez les balises qui décrivent au mieux le type de contenu de chaque partie du texte.</p>
+<p>Considérez les paragraphes de texte suivant et utilisez les balises sémantiques HTML appropriées pour structurer le texte en conséquence. Choisissez les balises qui décrivent au mieux le type de contenu de chaque partie du texte. (<em>&lt;title&gt; &lt;header&gt; &lt;main&gt; &lt;section&gt; &lt;footer&gt;</em>) </p>
 
 <grostitre>Texte</grostitre>
 
