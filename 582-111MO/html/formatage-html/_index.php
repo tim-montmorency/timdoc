@@ -2,9 +2,9 @@
 
 /**
  * @type     article
- * @title    Les Balises
+ * @title    Formatage HTML
  * @icon     images/icon.png
- * @abstract &lt;html&gt;, &lt;head&gt;, &lt;body&gt;, &lt;p&gt;, etc
+ * @abstract &lt;u&gt;, &lt;b&gt;, &lt;strong&gt;, &lt;em&gt;, &lt;i&gt;, etc.
  */
 ?>
 
