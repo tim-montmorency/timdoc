@@ -94,17 +94,4 @@
 
 
 <dots></dots>
-
-
-              <aside class="exercice-card">
-    <div class="exercice-card__content">
-      <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-      <a href="https://smnarnold.com/exercices/sass/mixin-grille-bootstrap" target="_blank" class="exercice-card__title">
-        @mixin - Grille&nbsp;Bootstrap
-      </a>
-
-            <p class="exercice-card__description">Dans le cadre de cet exercice, nous allons lever le voile sur l’usage que fait Bootstrap de SCSS afin de générer sa fameuse grille ayant&nbsp;...</p>
-          </div>
-
-
-      </aside>
+<exercice href='../../exercices/sass-mixin-grille-bootstrap/'></exercice>

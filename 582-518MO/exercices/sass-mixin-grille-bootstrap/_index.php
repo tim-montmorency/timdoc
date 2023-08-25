@@ -3,7 +3,7 @@
  * @type     exercice
  * @title    @mixin - Grille Bootstrap
  * @icon     images/thumb-mixin.jpg
- * @abstract a
+ * @abstract Comment Bootstrap utilise les mixin de CSS pour générer leur système de grille
  */
 ?>
 

@@ -2,5 +2,5 @@
     "type": "exercice",
     "title": "@mixin - Grille Bootstrap",
     "icon": "images\/thumb-mixin.jpg",
-    "abstract": "a"
+    "abstract": "Comment Bootstrap utilise les mixin de CSS pour g\u00e9n\u00e9rer leur syst\u00e8me de grille"
 }
