@@ -3,7 +3,7 @@
  * @type     exercice
  * @title    Mes premières balises
  * @icon     images/thumb.jpg
- * @abstract  Identifier et appliquer correctement les balises sémantiques HTML pour structurer le contenu d'une page web.
+ * @abstract  Exercice sur les balises sémantiques HTML
  */
 ?>
 
