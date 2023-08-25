@@ -135,6 +135,30 @@
 
 <p>En plus des balises, nous utiliserons des attributs. Les attributs sont un peu comme les options des balises. Ils viennent compléter les balises en fournissant des informations supplémentaires.</p>
 
+<h3>Voici un exemple de liste avec des balises auto-fermantes</h3>
+
+<ul>
+    <li>
+        <em>&lt;br&gt;</em> : retour à la ligne dans un paragraphe principalement.
+    </li>
+
+    <li>
+        <em>&lt;hr&gt;</em> : un trait horizontal
+    </li>
+
+    <li>
+        <em>&lt;meta&gt;</em> : balise de métadonnées inséré dans le <em>&lt;head&gt;</em>
+    </li>
+
+    <li>
+        <em>&lt;img&gt;</em> : balise pour mettre une image
+    </li>
+
+    <li>
+        <em>&lt;link&gt;</em> : pour mettre un lien vers un fichier, css ou js.
+    </li>
+</ul>
+
 <grostitre>Les attributs</grostitre>
 
 <p>Un attribut est placé dans la balise ouvrante d'une balise en paire ou directement dans une balise orpheline, comme dans l'exemple suivant avec la balise <incode>&lt;img&gt;</incode> :</p>
@@ -142,6 +166,27 @@
 <img src="images/attributs.jpg">
 
 <p>L'attribut <em>src</em> (pour source) est situé dans la balise <em>img</em>. Il est suivi du signe égal et précise entre guillemets la valeur à prendre en compte, en l'occurrence le nom du fichier de l'image.</p>
+
+<ul style="border:solid; border-width: 1px; padding:40px; border-color:red">
+    <li>
+        Certains attributs sont globaux = peuvent se mettre sur n’importe quelle balises.
+        Par exemple <em>id</em>.
+    </li>
+
+    <li>
+        Attributs spécifiques à une ou quelques balises.
+        Par exemple src sur les balises <em>&lt;img&gt;</em>.
+    </li>
+
+    <li>
+        La plupart des attributs sont facultatifs.  
+    </li>
+
+    <li>
+        Mais certains sont obligatoires.
+        Par exemples <em>href</em> sur les balises <em>&lt;a&gt;</em>.
+    </li>
+</ul>
 
 <dots></dots>
 
@@ -238,7 +283,7 @@
         <!-- MAIN FOOTER SOF -->
         </main>
         <footer>
-            <div id="copyright">Copyright (c) 2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+            <div id="copyright">2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
         <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
