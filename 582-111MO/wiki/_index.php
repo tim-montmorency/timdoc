@@ -23,9 +23,10 @@
     <?php intlink("../autres/arborescence/exercices/arborescences_ex01"); ?>
     <?php intlink("../autres/arborescence/exercices/arborescence_reproduction"); ?>
     <?php intlink("../html/parents-enfants/"); ?>
-    <?php intlink("../html/balises/"); ?>
     <?php intlink("../html/semantique/"); ?>
+    <?php intlink("../html/balises/"); ?>
     <?php intlink("../html/div-span/"); ?>
+    <?php intlink("../html/formatage-html"); ?>
     <?php intlink("../html/ancre/"); ?>
 </wiki-page>
 
