@@ -49,7 +49,7 @@
 
 </wiki-page>
 
-<wiki-page name="Cours 02" date="2023-08-23">
+<wiki-page name="Cours 02" date="2023-08-26">
     <h2>Quiz</h2>
     Lundi - <a href="https://app.wooclap.com/SDQXZU" target="_blank" rel="noopener noreferrer">Code Wooclap : SDQXZU</a>
     <br>
