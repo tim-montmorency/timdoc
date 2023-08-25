@@ -25,6 +25,7 @@
     <?php intlink("../html/parents-enfants/"); ?>
     <?php intlink("../html/semantique/"); ?>
     <?php intlink("../html/balises/"); ?>
+    <?php intlink("../html/semantique/exercices/mes_premieres_balises"); ?>
     <?php intlink("../html/div-span/"); ?>
     <?php intlink("../html/formatage-html"); ?>
     <?php intlink("../html/ancre/"); ?>
