@@ -39,3 +39,12 @@ Utilisez les balises <em>div</em> et <em>span</em> pour entourer les parties app
 <grostitre>Résultat attendu</grostitre>
 
 <p>Après avoir terminé l'exercice, votre texte devrait contenir des balises <incode>&lt;div&gt;</incode> autour des parties correspondantes et des balises <incode>&lt;span&gt;</incode> utilisées pour appliquer des styles à certaines parties du texte. </p>
+
+<dots></dots>
+
+<grostitre>Notes de cours 📚</grostitre>
+
+<?php intlink("../../../div-span/"); ?>
+
+
+<dots></dots>

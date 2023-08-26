@@ -76,3 +76,9 @@
 <h2>Démonstration</h2>
 
 <doclink href="https://codepen.io/tim-momo/pen/YzRbEmW?editors=1100">Div & Span</doclink>
+
+<dots></dots>
+
+<exercice href="exercices/div-span/"></exercice>
+
+<dots></dots>
