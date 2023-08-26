@@ -63,7 +63,7 @@
 
 <p><em>&lt;span&gt;</em> est un conteneur en ligne utilisé pour baliser une partie d'un texte ou une partie d'un document.</p>
 
-<p>Nommez d’autres éléments en ligne qu’on a vus aujourd’hui… <em>&amp;lt;em&amp;gt;, &amp;lt;strong&amp;gt; &amp;lt;span&amp;gt;</em></p>
+<p>Nommez d’autres éléments en ligne qu’on a vus aujourd’hui… <em>&lt;em&gt;, &lt;strong&gt;, &lt;span&gt;, etc.</em></p>
 
 <dots></dots>
 
