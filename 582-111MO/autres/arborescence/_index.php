@@ -202,5 +202,9 @@
 
 <p> Les <em>URL</em> des pages reflètent également l'organisation hiérarchique, ce qui permet aux visiteurs et aux moteurs de recherche de comprendre la structure du site.</p></info>
 
+<dots></dots>
+
 <exercice href="./exercices/arborescences_ex01/"></exercice>
 <exercice href="./exercices/arborescence_reproduction/"></exercice>
+
+<dots></dots>
