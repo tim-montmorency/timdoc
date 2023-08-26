@@ -151,3 +151,9 @@
 <?php intlink("../../../arborescence/"); ?>
 
 <dots></dots>
+
+<grostitre>Notes de cours 📚</grostitre>
+
+<?php intlink("../../../arborescence/"); ?>
+
+<dots></dots>

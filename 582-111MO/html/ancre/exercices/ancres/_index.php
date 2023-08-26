@@ -155,4 +155,10 @@ Pour créer des liens vers des sections spécifiques, utilisez la balise <em>a</
 <dots></dots>
 
 
+<grostitre>Notes de cours 📚</grostitre>
 
+<?php intlink("../../../ancre/"); ?>
+<?php intlink("../../../balises/"); ?>
+<?php intlink("../../../semantique/"); ?>
+
+<dots></dots>

@@ -44,3 +44,11 @@ Utilisez les balises sémantiques HTML appropriées pour marquer chaque partie d
 <grostitre>Résultat attendu</grostitre>
 
 <p>Après avoir terminé l'exercice, votre texte devrait être structuré à l'aide des balises sémantiques HTML appropriées pour refléter la hiérarchie et le type de contenu décrit dans les instructions.</p>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+<?php intlink("../../../balises/"); ?>
+<?php intlink("../../../semantique/"); ?>
+
+<dots></dots>
