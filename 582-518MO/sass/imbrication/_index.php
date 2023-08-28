@@ -99,7 +99,9 @@
 
 
 <p>Le sélecteur de parent <code>&amp;</code> est un sélecteur spécial inventé par Sass permettant de faire référence au sélecteur parent courant.</p>
+
 <p>Tout sélecteur imbriqué dans un autre se fait convertir par défaut en enfant du premier. </p>
+
 <p>Autrement dit:</p>
 
 <highlight lang='scss'>.selecteur1 {
@@ -110,13 +112,22 @@
 
 <highlight lang='scss'> .selecteur1 .selecteur2 { ... } </highlight>
 
-<p>Remarquez <strong>l'espace entre les deux sélecteurs</strong> indiquant que <code>.selecteur2</code> est enfant de
-    <code>.sélecteur1</code>.</p>
-<p>Cependant grâce au sélecteur parent il est possible de contourner ce comportement. Voyons quelques usages de ce
-    sélecteur.</p>
+<p>Remarquez <strong>l'espace entre les deux sélecteurs</strong> indiquant que <code>.selecteur2</code> est enfant de <code>.sélecteur1</code>.</p>
 
 
+<p>Cependant grâce au sélecteur parent il est possible de contourner ce comportement.</p>
 
+<p>Si on ajoute un <code>&amp;</code> devant le .selecteur2</p>
+
+<highlight lang='scss'>.selecteur1 {
+  &amp;.selecteur2 { ... }
+}</highlight>
+
+<p>Générera le code CSS suivant ⏬</p>
+
+<highlight lang='scss'> .selecteur1.selecteur2 { ... } </highlight>
+
+<p>Remarquez maintenant l'espace inexistant entre .selecteur1 .selecteur2, cela signifie que le sélecteur 2 s'est appliqué au parent dans l'impbricattion Sass. Ce qui en résulte d'un sélecteur css qui vise un élément qui contient les 2 classes.</p>
 
 
 
@@ -151,7 +162,7 @@
 
 <highlight lang='html'>.section { background: white; }
 
-.btn:nth-child(3) { background: gray; }</highlight>
+.section:nth-child(3) { background: gray; }</highlight>
 
 
 
