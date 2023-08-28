@@ -224,3 +224,8 @@
 <knowmore href="https://prof-inter-web.github.io/cmontmorency/index.html">Exemple de balisage sémantique</knowmore>
 
 <dots></dots>
+
+
+<exercice href="exercices/mes_premieres_balises/"></exercice>
+
+<dots></dots>

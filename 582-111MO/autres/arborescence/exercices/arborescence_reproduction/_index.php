@@ -3,7 +3,7 @@
  * @type     exercice
  * @title    Arborescence ex 2 & 3
  * @icon     images/thumb.jpeg
- * @abstract Créer l'arborescence des site web MAC Montréal & 
+ * @abstract Créer l'arborescence des site web MAC Montréal & Tohu
  */
 ?>
 
@@ -34,5 +34,12 @@
     Débuter par le menu de la page d'accueil.
     N'oubliez pas d'ajouter le menu du footer.
 </checklist>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+<?php intlink("../../../arborescence/"); ?>
 
 <dots></dots>

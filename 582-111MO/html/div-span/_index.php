@@ -36,7 +36,7 @@
 
 <p><em>&lt;div&gt;</em> est de niveau bloc et est souvent utilisé comme conteneur pour d'autres éléments HTML.</p>
 
-<p>Nommez d’autres éléments en ligne qu’on a vus aujourd’hui…<em> &lt;p&gt; &lt;div&gt; &lt;h1&gt; &lt;h2&gt; &lt;ul&gt; &lt;li&gt; </em>
+<p>Nommez d’autres éléments en block qu’on a vus aujourd’hui…<em> &lt;p&gt; &lt;div&gt; &lt;h1&gt; &lt;h2&gt; &lt;ul&gt; &lt;li&gt; </em>
 &lt;header&gt; &lt;footer&gt; &lt;nav&gt; ...</em></p>
 
 <dots></dots>
@@ -63,7 +63,7 @@
 
 <p><em>&lt;span&gt;</em> est un conteneur en ligne utilisé pour baliser une partie d'un texte ou une partie d'un document.</p>
 
-<p>Nommez d’autres éléments en ligne qu’on a vus aujourd’hui… <em>&amp;lt;em&amp;gt;, &amp;lt;strong&amp;gt; &amp;lt;span&amp;gt;</em></p>
+<p>Nommez d’autres éléments en ligne qu’on a vus aujourd’hui… <em>&lt;em&gt;, &lt;strong&gt;, &lt;span&gt;, etc.</em></p>
 
 <dots></dots>
 
@@ -76,3 +76,9 @@
 <h2>Démonstration</h2>
 
 <doclink href="https://codepen.io/tim-momo/pen/YzRbEmW?editors=1100">Div & Span</doclink>
+
+<dots></dots>
+
+<exercice href="exercices/div-span/"></exercice>
+
+<dots></dots>
