@@ -26,15 +26,15 @@
     <?php intlink("../html/semantique/"); ?>
     <?php intlink("../html/balises/"); ?>
     <?php intlink("../html/semantique/exercices/mes_premieres_balises"); ?>
-    <?php intlink("../html/div-span/"); ?>
-    <?php intlink("../html/div-span/exercices/div-span"); ?>
-    <?php intlink("../html/formatage-html"); ?>
-    <?php intlink("../html/ancre/"); ?>
-    <?php intlink("../html/ancre/exercices/ancres"); ?>
 </wiki-page>
 
 
 <wiki-page name="Cours 3" date="2023-09-11">
+<?php intlink("../html/div-span/"); ?>
+    <?php intlink("../html/div-span/exercices/div-span"); ?>
+    <?php intlink("../html/formatage-html"); ?>
+    <?php intlink("../html/ancre/"); ?>
+    <?php intlink("../html/ancre/exercices/ancres"); ?>
     <?php intlink("../autres/chemins/"); ?>
     <?php intlink("../autres/chemins/exercices/pokemon/"); ?>
     <?php intlink("../autres/formats-d-image/"); ?>
