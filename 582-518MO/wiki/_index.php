@@ -126,7 +126,7 @@
     <?php intlink("../projet/maquette-accueil/"); ?>
     <br>
 
-    <p>De plus, si ce n'est pas complété en classe, vouus devez terminer les exercices du jour.</p>
+    <p>De plus, si ce n'est pas complété en classe, vous devez terminer les exercices du jour.</p>
     <ul>
         <li>SASS - Boucles @for - Images 1 à 6</li>
         <li>SASS - Boucles @for - Palette Pink Paradise</li>
