@@ -37,6 +37,7 @@
     <?php intlink("../html/ancre/exercices/ancres"); ?>
     <?php intlink("../autres/chemins/"); ?>
     <?php intlink("../autres/chemins/exercices/pokemon/"); ?>
+    <?php intlink("../html/image/"); ?>
     <?php intlink("../autres/formats-d-image/"); ?>
     <?php intlink("../autres/vectoriel-vs-matriciel/"); ?>
     <?php intlink("../html/audio/"); ?>
@@ -44,10 +45,10 @@
     <?php intlink("../html/video/"); ?>
     <?php intlink("../autres/format-video/"); ?>
     <?php intlink("../html/legende-de-media/"); ?>
-    <?php intlink("../html/image/"); ?>
     <?php intlink("../html/iframe/"); ?>
     <?php intlink("../html/iframe/exercices/turbo-kid"); ?>
     <?php intlink("../html/citation/"); ?>
+    <?php intlink("../html/semantique/exercices/lee_balises"); ?>
 </wiki-page>
 
 
