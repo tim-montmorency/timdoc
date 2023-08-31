@@ -95,6 +95,58 @@
 
 .list .item .link { color: blue; } // 👈 ici</highlight>
 
+
+
+
+<dots></dots>
+<p>Voici un autre exemple d'utilisation.</p><!-- Remarquez les ancres du menu de navigation ne seront pas stylisé de la même façon que ceux du reste de la page.</p>
+<p>De plus, les éléments de liste du menu et ceux du sous-menu sont un peu différents l'un de l'autre.</p>-->
+
+<p class="codepen" data-height="850" data-theme-id="44431" data-default-tab="css,result" data-slug-hash="qBLZwem" data-user="tim-momo" style="height: 850px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/qBLZwem">
+  Sass - Imbrication</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<p>Dans l'exemple précédent, lorsqu'on compile le SCSS en CSS, ça donnera le code suivant:</p>
+
+<highlight lang='css'>a {
+  color: purple;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  background: #665566;
+  font-size: 18px;
+}
+nav ul li {
+  display: inline-block;
+  padding: 0 10px;
+  position: relative;
+}
+nav ul li a {
+  color: coral;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+nav ul li ul {
+  position: absolute;
+  z-index: 100;
+  background-color: white;
+  width: auto;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+}
+nav ul li ul li {
+  padding: 5px 0;
+}</highlight>
 <warning>Évitez d’abusez des imbrications. Plus de trois niveaux d’imbrication est généralement considéré comme étant une mauvaise pratique et rendra votre code difficile à&nbsp;déboguer.</warning>
 
 <doclink href='https://sass-lang.com/documentation/style-rules/declarations#nesting'>Nesting (imbrication)</doclink>
@@ -148,6 +200,7 @@
 
 <p>Remarquez <strong>l'espace entre les deux sélecteurs</strong> indiquant que <code>.selecteur2</code> est enfant de <code>.sélecteur1</code>.</p>
 
+<dots></dots>
 
 <p>Cependant grâce au sélecteur parent il est possible de contourner ce comportement.</p>
 
@@ -165,7 +218,7 @@
 
 
 
-
+<dots></dots>
 <h3 class="heading heading--h3" id="Pseudo-classes">Pseudo-classes</h3>
 
 <p>Les imbrications Sass sont compatibles avec les <a target="_blank" rel="noopener noreferrer" href="../../../582-215MO/css/pseudo-classes/">pseudo-classes</a> lorsqu'un sélecteur parent est utilisé.</p>
@@ -208,7 +261,7 @@
 
 
 
-
+<dots></dots>
 <h3 class="heading heading--h3" id="Pseudo-éléments">Pseudo-éléments</h3>
 
 <p>Les imbrications Sass sont compatibles avec les <a target="_blank" rel="noopener noreferrer"
