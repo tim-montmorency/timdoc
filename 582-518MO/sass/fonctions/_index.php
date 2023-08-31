@@ -31,20 +31,4 @@
 <dots></dots>
 
 
-<exercice href='../../exercices/sass-mixin-grille-bootstrap/'></exercice>
-
-
-<aside class="exercice-card">
-    <div class="exercice-card__content">
-      <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-      <a href="https://smnarnold.com/exercices/sass/function-uno" target="_blank" class="exercice-card__title">
-        @function -&nbsp;Uno
-      </a>
-
-            <p class="exercice-card__description">Pour cet exercice, vous devez styler plusieurs cartes Uno. Malheureusement il vous est interdit de modifier le HTML et puisque vous&nbsp;n’ave...</p>
-          </div>
-
-      </aside>
-  
-
-    
+<exercice href='../../exercices/sass-function-uno/'></exercice>
