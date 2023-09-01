@@ -33,7 +33,9 @@ J'insiste notemment sur <a href="https://www.canva.com/learn/the-ultimate-guide-
   
 
   
-<p>Vous devez produire et remettre un fichier XD ou Figma, ainsi que sa version PDF de votre guide de styles. Pour vous inspirer, vous pouvez regarder les guides de styles en pièce jointe 👆.</p>
+<p>Vous devez produire votre guide de style avec Adobe XD ou Figma. </p>
+
+<p>Pour vous inspirer, vous pouvez regarder les guides de styles en pièce jointe 👆.</p>
 
 <info>Les exemples ne sont qu’à titre indicatif, vous n’avez aucunement à respecter cette mise en page, tant que l’information nécessaire est contenue dans votre&nbsp;document.</info>
 
@@ -58,8 +60,6 @@ Inclure le code hexadécimal de chacune des couleurs.
 </checklist>    
 
 
-
-
 <dots></dots>
 <grostitre>Typographie</grostitre>
 <checklist>Inclure 3 niveaux de titres et nommer la police, taille, graisse, couleur et caractéristique de chacun.
@@ -70,6 +70,7 @@ Affichez le style d'un lien normal ainsi que lors de sont survole. Nommez à cha
 
 <dots></dots>
 <grostitre>Remise</grostitre>
+<p>Exporter une version PDF de votre guide de styles et l'inclure dans votre remise avec votre fichier original soit: <br>- le fichier XD original ou <br>- un lien vers votre fichier Figma en ligne (avec le paramètre: <em>anyone with the link can edit)</em>.</p>
 <checklist>Renommez votre dossier de travail 📁 au format&nbsp;suivant:<br><code>[nom de famille]_[prénom]_design_582-518MO</code><br>ex: <em>ouellet_marie-michelle_design_582-518MO</em>
 Compressez ensuite votre dossier de travail en <a href="https://www.ezyzip.com/" target="_blank" rel="noopener noreferrer">fichier&nbsp;zip 🗜</a>
 Remettez dans Devoir</checklist>

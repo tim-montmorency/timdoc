@@ -21,7 +21,7 @@ J'insiste notemment sur <a href="https://www.canva.com/learn/the-ultimate-guide-
 <checklist>La maquette doit être réalisée à partir du logiciel <a target="_blank" rel="noopener noreferrer" href="https://www.adobe.com/ca_fr/products/xd.html">Adobe XD</a> ou <a href="https://www.figma.com/fr/" target="_blank" rel="noopener noreferrer">Figma</a>.
 La maquette doit respecter <a target="_blank" rel="noopener noreferrer" href="../requis-client/">les requis client</a>. Particulièrement ceux généraux, de l'entête, du pied de page et évidemment de l'accueil.
 La maquette doit présenter la page d'accueil dans 3 résolutions différentes afin de montrer comment elle s'adapte sur:<br>- mobile&nbsp;<em>(375px)</em> <br>- tablette&nbsp;<em>(768px)</em><br>- ordinateur classique <em>(1200px)</em>.
-Exporter une version PDF de votre maquette et l'inclure dans votre remise avec votre fichier original soit: <br>- le fichier XD original ou <br>- un lien vers votre fichier Figma en ligne (svp le rendre public ou me donner accès).
+Exporter une version PDF de votre maquette et l'inclure dans votre remise avec votre fichier original soit: <br>- le fichier XD original ou <br>- un lien vers votre fichier Figma en ligne (avec le paramètre: <em>anyone with the link can edit)</em>.
 </checklist>
 
 
