@@ -41,7 +41,7 @@ h4 { font-size: 20px; }</highlight>
 <p>Par exemple, le même code que précédemment, mais avec <code>through</code>:</p>
 
 <highlight lang='css'>@for $index from 1 through 5 {
-  .h#{$index} {
+  h#{$index} {
     font-size: 40px - ($index * 5);
   }
 }</highlight>
