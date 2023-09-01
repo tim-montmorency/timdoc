@@ -32,20 +32,27 @@
 
 
 <wiki-page name="Cours 03">
+<h3>S'inscrire au Unity student plan</h3>
+<doclink href="https://unity.com/products/unity-student">Student Plan</doclink>
+<h3>Code</h3>
 <?php intlink("../code/variables/"); ?>
 <?php intlink("../code/fonctions/"); ?>
 <?php intlink("../code/base/"); ?>
+<?php intlink("../code/evenements/"); ?>
 <?php intlink("../code/changement_scene/"); ?>
 <?php intlink("../code/quitter_jeu/"); ?>
-<?php intlink("../unity/build/"); ?>
+<h3>Menus</h3>
+<?php intlink("../unity/UI/"); ?>
+<?php intlink("../unity/font/"); ?>
+<h3>Animation paramètre</h3>
+<?php intlink("../unity/animation/"); ?>
 
 </wiki-page>
 
 <wiki-page name="Cours 04">
-<?php intlink("../unity/UI/"); ?>
-<?php intlink("../code/evenements/"); ?>
 <?php intlink("../unity/son/"); ?>
-<?php intlink("../unity/font/"); ?>
+<?php intlink("../unity/build/"); ?>
+
 
 </wiki-page>
 
