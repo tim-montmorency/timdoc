@@ -36,6 +36,20 @@
 
 </wiki-page>
 
+<wiki-page name="Cours 03">
+
+<h2>Présentation du cours</h2>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfeczlgZG8ZJkKRTYdY7ZkABebl4MM3aLEULzQEpNT2eew?e=oqw3Zk">Présentation du cours</doclink>
+
+
+ <h2>Portfolio</h2>
+ <?php intlink("../stages/portfolio/"); ?>
+
+ <h4>Aide pour le markdown</h4>
+ <doclink href="https://www.markdownguide.org/cheat-sheet/">Cheatsheet Markdown</doclink>
+
+</wiki-page>
+
 <wiki-page name="Cours 05">
 
 <h2>Visite et conférence chez Sid Lee</h2>
