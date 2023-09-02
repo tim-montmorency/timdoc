@@ -205,6 +205,6 @@
 <dots></dots>
 
 <exercice href="./exercices/arborescences_ex01/"></exercice>
-<exercice href="./exercices/arborescence_reproduction/"></exercice>
+<exercice href="./exercices/arborescence_reproduction_02/"></exercice>
 
 <dots></dots>
