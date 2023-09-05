@@ -29,7 +29,7 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 3" date="2023-09-11">
+<wiki-page name="Cours 3" date="2023-09-04">
 <?php intlink("../html/div-span/"); ?>
     <?php intlink("../html/div-span/exercices/div-span"); ?>
     <?php intlink("../html/formatage-html"); ?>
