@@ -2,7 +2,7 @@
 /**
  * @type     exercice
  * @title    Arborescence ex 2
- * @icon     images/thumb.jpeg
+ * @icon     images/thumb.jpg
  * @abstract Créer l'arborescence du site web MAC Montréal
  */
 ?>
