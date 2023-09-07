@@ -136,7 +136,7 @@
     <dots></dots>
 
     <h2>Préparation à la présentation orale de votre design.</h2>
-    <p>Quoi dire lors de la présentation au client (il y aura le client son comité qui analyseront votre travail,
+    <p>Quoi dire lors de la présentation au client (il y aura le client et son comité qui analyseront votre travail,
         commenteront, questionneront et prendraient une décision) : </p>
     <ul>
         <li>Expliquez votre choix de couleurs (psychologie des couleurs apprises en communication graphique). </li>
@@ -169,7 +169,7 @@
 <wiki-page name="Cours 03" date="2023-09-06">
 
     <h2>Préparation à la présentation orale de votre design.</h2>
-    <p>Quoi dire lors de la présentation au client (il y aura le client son comité qui analyseront votre travail,
+    <p>Quoi dire lors de la présentation au client (il y aura le client et son comité qui analyseront votre travail,
         commenteront, questionneront et prendraient une décision) : </p>
     <ul>
         <li>Expliquez votre choix de couleurs (psychologie des couleurs apprises en communication graphique). </li>
