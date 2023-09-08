@@ -139,14 +139,23 @@
     <p>Quoi dire lors de la présentation au client (il y aura le client et son comité qui analyseront votre travail,
         commenteront, questionneront et prendraient une décision) : </p>
     <ul>
-        <li>Expliquez votre choix de couleurs (psychologie des couleurs apprises en communication graphique). </li>
-        <li>Votre choix de style graphique en fonction de la clientèle visée par le client. </li>
-        <li>La navigation simplifiée en fonction de l’objectif du site (mise en évidence de certains éléments etc.)</li>
-        <li>L’utilisation du CRAP. Contraste, Répétition, Alignement, Proximité.</li>
-        <li>La mise en contraste de certains éléments importants. </li>
-        <li>Vous devez convaincre votre client que votre design c’est le meilleur, si vous n’êtes pas convainquant, vous
-            perdrez des points. Croyez en votre travail et présentez-le avec fierté, c’est l’objectif ici ! C’est une
-            simulation de la vraie vie en entreprise et c’est ce qui importe à ce stade-ci. Foncez !</li>
+        <li>Présentez dans cet ordre : moodboard, guide de styles et ensuite maquette (design) de l'accueil.</li>
+        <li>Expliquez votre démarche.</li>
+        <li>Expliquez :
+            <ul>
+                <li>Votre choix de couleurs (psychologie des couleurs apprises en communication graphique).</li>
+                <li>Votre choix de style graphique en fonction de la clientèle visée par le client.</li>
+                <li>La navigation simplifiée en fonction de l’objectif du site (mise en évidence de certains éléments
+                    etc.)</li>
+                <li>L’utilisation du CRAP. Contraste, Répétition, Alignement, Proximité.</li>
+                <li>Iconographie (si utilisation d’icônes) </li>
+                <li>La mise en contraste de certains éléments importants. Pourquoi et comment?</li>
+                <li>Vous devez convaincre votre client que votre design c’est le meilleur, si vous n’êtes pas
+                    convainquant, vous perdrez des points. Croyez en votre travail et présentez-le avec fierté, c’est
+                    l’objectif ici&nbsp;! C’est une simulation de la vraie vie en entreprise et c’est ce qui importe à
+                    ce stade-ci. Foncez&nbsp;!</li>
+            </ul>
+        </li>
 
     </ul>
 </wiki-page>
@@ -166,31 +175,95 @@
  \_____\___/ \__,_|_|  |___/ |____/ 
                                           
 -->
-<wiki-page name="Cours 03" date="2023-09-06">
+<wiki-page name="Cours 03" date="2023-09-07">
 
-    <h2>Préparation à la présentation orale de votre design.</h2>
-    <p>Quoi dire lors de la présentation au client (il y aura le client et son comité qui analyseront votre travail,
+    <h2>Processus de la présentation des maquettes</h2>
+    <ul>
+        <li>Ordre des équipe au hasard, puis si nécessaire ordre des étudiants dans l'équipe tiré aussi au hasard.</li>
+        <li>Chaque personne de l'équipe présente:
+            <ul>
+                <li>Présentation du moodboard, guide de styles et maquette.</li>
+                <li>Période de commentaires et questions provenant du clients et/ou du board de direction (comité
+                    conseil)</li>
+            </ul>
+        </li>
+        <li>Après les la présentations des 3 ou 4 membres de l'équipe en cours, tous les étudiant font "partie du board
+            de direction" avec moi (le client) et doivent voter pour la meilleure maquette lors d'un vote anonyme en
+            ligne. </li>
+    </ul>
+
+    <h2>Présentation orale de votre design.</h2>
+    <p>Quoi dire lors de la présentation au client (il y aura le client son comité qui analyseront votre travail,
         commenteront, questionneront et prendraient une décision) : </p>
     <ul>
-        <li>Expliquez votre choix de couleurs (psychologie des couleurs apprises en communication graphique). </li>
-        <li>Votre choix de style graphique en fonction de la clientèle visée par le client. </li>
-        <li>La navigation simplifiée en fonction de l’objectif du site (mise en évidence de certains éléments etc.)</li>
-        <li>L’utilisation du CRAP. Contraste, Répétition, Alignement, Proximité.</li>
-        <li>La mise en contraste de certains éléments importants. </li>
-        <li>Vous devez convaincre votre client que votre design c’est le meilleur, si vous n’êtes pas convainquant, vous
-            perdrez des points. Croyez en votre travail et présentez-le avec fierté, c’est l’objectif ici ! C’est une
-            simulation de la vraie vie en entreprise et c’est ce qui importe à ce stade-ci. Foncez !</li>
+        <li>Présentez dans cet ordre : moodboard, guide de styles et ensuite maquette (design) de l'accueil.</li>
+        <li>Expliquez votre démarche.</li>
+        <li>Expliquez :
+            <ul>
+                <li>Votre choix de couleurs (psychologie des couleurs apprises en communication graphique).</li>
+                <li>Votre choix de style graphique en fonction de la clientèle visée par le client.</li>
+                <li>La navigation simplifiée en fonction de l’objectif du site (mise en évidence de certains éléments
+                    etc.)</li>
+                <li>L’utilisation du CRAP. Contraste, Répétition, Alignement, Proximité.</li>
+                <li>Iconographie (si utilisation d’icônes) </li>
+                <li>La mise en contraste de certains éléments importants. Pourquoi et comment?</li>
+                <li>Vous devez convaincre votre client que votre design c’est le meilleur, si vous n’êtes pas
+                    convainquant, vous perdrez des points. Croyez en votre travail et présentez-le avec fierté, c’est
+                    l’objectif ici&nbsp;! C’est une simulation de la vraie vie en entreprise et c’est ce qui importe à
+                    ce stade-ci. Foncez&nbsp;!</li>
+            </ul>
+        </li>
+    </ul>
 
+    <h2>Board de direction (comité conseil)</h2>
+    <p>Chaque étudiant DOIT faire un commentaire constructif/pertinent au moins 2 fois dans la journée. C'est important
+        que vous appreniez à formuler et à recevoir des critiques comme des professionnels. Je prendrai des notes de qui
+        va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisé sur votre présentation, c’est d’ailleurs
+        le critère qui vaut le plus de points (allez voir la grille).</p>
+
+    <h2>Groupe du lundi rattrapage</h2>
+    <p>sass boucle @each + exercice overwatch</p>
+
+    <h2>Révision des exercices de la semaine passée</h2>
+    <?php intlink("../exercices/sass-each-menu-overwatch/"); ?>
+    <?php intlink("../exercices/sass-mixin-grille-bootstrap/"); ?>
+
+    <h2>Sass</h2>
+    <?php intlink("../sass/conditions/"); ?>
+    <?php intlink("../sass/fonctions/"); ?>
+<br><br>
+    <h3>Exercice fonction</h3>
+
+    <p>Lien présenté en classe</p>
+
+
+    <br><br><br>
+    <hr><br>
+
+    <h2>Devoirs</h2>
+
+    PO <?php intlink("../projet/tableau-trello/"); ?><br>
+    DevOp <?php intlink("../projet/github-et-hebergement/"); ?><br>
+    Designer <?php intlink("../projet/ajustements-design-accueil/"); ?><br>
+    Agent de promo <?php intlink("../projet/page-temporaire/"); ?><br>
+
+    <br>  <br>
+    <p>De plus, si ce n'est pas complété en classe, vous devez terminer les exercices du jour.</p>
+    <ul>
+        <li>SASS - Fonction Uno</li>
     </ul>
 
 
-    <!--
-    <h2>Quiz</h2>
-    Lundi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap : </a>
-    <br>
-    Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap :
-    </a><br>
 
+
+
+
+
+
+</wiki-page>
+
+
+<!--
     <h2>Méthode agile - Activité</h2>
     <ol>
         <li>Par équipe, distribuez une lecture par personne.</li>
@@ -205,5 +278,3 @@
     <br><br>
     <hr>
 -->
-
-</wiki-page>
