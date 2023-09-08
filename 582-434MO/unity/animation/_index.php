@@ -48,7 +48,7 @@
 <info>Un animator peut animer plus d'un objet. En fait, il peut animer un objet et ses enfants. Ainsi, vous pourriez regrouper plusieurs objets dans un parent et animer tous les enfants grâce à la composante Animator qui est sur le parent.</info>
 <p>Voici comment faire:</p>
 <checklist>
-Sélectionnez l'objet qui sera animé dans la fenêtre Hierarchy.
+Sélectionnez l'objet qui sera animé dans la fenêtre Hierarchy ou créez en un nouveau avec un clic droit, puis Create Empty. 
 Dans la fenêtre Inspector, appuyez sur le bouton Add Component. 
 Recherchez la composante Animator à l'aide de la barre de recherche et appuyuez sur celui-ci pour l'ajouter à votre objet. 
 Ensuite, appuyez sur la cible à droite du champ Controller. Vous verrez alors une liste de tous les Animator Controller disponibles. Appuyez sur celui que vous avez créé pour cet objet. Alternative: Glissez votre Animator Controller depuis la fenêtre Project jusqu'au champ Controller de la composante Animator dans la fenêtre Inspector. 

@@ -46,6 +46,7 @@
     Dans Publishing Settings, un peu plus bas, vous pourriez créer une clé pour votre jeu. Cependant, je conseille de le faire uniquement si vous publiez sur un magasin. Sinon ce n'est pas nécessaire. 
     Dans Other Settings, plusieurs paramètres peuvent être modifiés au besoin. Dans Identification, vous pourrez donner un nom de paquet à votre jeu, vous pouvez cocher Override Default Package Name pour le modifier. Ce nom devrait toujours être écrit en trois parties, com.Company.Projet. La première partie com reste toujours ainsi. Compagny peut être remplacé par le nom de votre choix et projet aussi. Dans Version, vous pouvez choisir le numéro de votre version. Par exemple 1.0. 
     Miminum API Level et Target API level sont deux notions importantes. Avec Vuforia pour la réalité augmentée, vous aurez besoin d'avoir la version Android 8.0 au minimum, vous devez donc choisir cette version ou une version plus récente dans le Minimum API Level. Pour le target, je sélectionne toujour Highest Installed pour m'assurer que l'app soit compatible avec les téléphones les plus récents.
+    Fermer la fenêtre ouverte, puis allez dans File, Build Settings. Assurez-vous que les Scenes jeu et menu sont cochées dans Scenes in Build. Ensuite, appuyez sur Build ou build and run (si vous voulez l'app sur un appareil android connecté). Créez un dossier nommé build, ouvrez-le. Nommez votre appplication et appuyez sur enregistrer. Un .apk sera alors créé. C'est ce que vous devez remettre.
 </checklist>
 
 <dots></dots>
