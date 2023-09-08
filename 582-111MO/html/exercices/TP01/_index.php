@@ -8,7 +8,7 @@
 ?>
 
 <em>
-    <H2>Ce TP vaut pour 10% de la note finale.</H2>
+    <H2>Ce TP vaut pour <b>10%</b> de la note finale.</H2>
 </em>
 
 <p>Pour cet exercice vous allez reproduire un site web de Marvel.</p>
