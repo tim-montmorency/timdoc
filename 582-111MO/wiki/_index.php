@@ -60,7 +60,6 @@
     <?php intlink("../html/liste/"); ?>
     <?php intlink("../html/emmet/"); ?>
     <?php intlink("../html/metadonnees/"); ?>
-    <?php intlink("../html/exercices/tp01"); ?>
 </wiki-page>
 
 
