@@ -51,21 +51,25 @@
 
 <wiki-page name="Cours 04">
 <?php intlink("../unity/son/"); ?>
+<?php intlink("../unity/font/"); ?>
 <?php intlink("../unity/build/"); ?>
+<?php intlink("../consignes/travail1/"); ?>
 
 
 </wiki-page>
 
 <wiki-page name="Cours 05">
-<?php intlink("../unity/tilemaps/"); ?>
-<?php intlink("../unity/prefabs/"); ?>
-<?php intlink("../code/coroutine/"); ?>
+
+<?php intlink("../exercices/scene/"); ?>
 
 
 
 </wiki-page>
 
 <wiki-page name="Cours 06">
+<?php intlink("../unity/prefabs/"); ?>
+<?php intlink("../code/coroutine/"); ?>
+<?php intlink("../unity/tilemaps/"); ?>
 <?php intlink("../unity/cinemachine/"); ?>
 <?php intlink("../unity/raycasting/"); ?>
 

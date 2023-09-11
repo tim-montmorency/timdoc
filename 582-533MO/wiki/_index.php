@@ -51,6 +51,9 @@
 </wiki-page>
 
 <wiki-page name="Cours 04">
+<h3>Invitation 5 à 7</h4>    
+<doclink href="https://www.eventbrite.ca/e/billets-57-employeurs-et-etudiants-en-tic-du-college-montmorency-676691070207?aff=oddtdtcreator">Invitation 5 à 7</doclink>
+
 
 <h2>Liste d'évaluation du CV</h2>
 <p>Créer un document excel avec minimum 20 éléments qui doivent être présents sur le cv de la personne à évaluer. (ex: Nom, prénom, ...) Chaque élément est dans une case. À côté de chaque élément, une case nous permet de mettre un 0 ou un 1 selon la présence ou non de l'élément. À la fin une case fait la somme des bonnes réponses. Une autre transforme le résultat en pourcentage. Exemple:</p>
