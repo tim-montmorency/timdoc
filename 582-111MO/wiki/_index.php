@@ -64,7 +64,6 @@
 
 
 <wiki-page name="Cours 5" date="2023-09-17">
-    <h3>Correction: Queen - Hot Space</h3>
     <?php intlink("../html/formulaire/"); ?>
     <?php intlink("../html/formulaire/exercices/carte-de-credit/"); ?>
     <?php intlink("../html/formulaire-intermediaire/"); ?>
