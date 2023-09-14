@@ -36,41 +36,38 @@
     <?php intlink("../html/ancre/"); ?>
     <?php intlink("../html/ancre/exercices/ancres"); ?>
     <?php intlink("../autres/chemins/"); ?>
-    <?php intlink("../autres/chemins/exercices/pokemon/"); ?>
     <?php intlink("../html/image/"); ?>
     <?php intlink("../autres/formats-d-image/"); ?>
     <?php intlink("../autres/vectoriel-vs-matriciel/"); ?>
-    <?php intlink("../html/audio/"); ?>
-    <?php intlink("../autres/formats-audio/"); ?>
-    <?php intlink("../html/video/"); ?>
-    <?php intlink("../autres/format-video/"); ?>
-    <?php intlink("../html/legende-de-media/"); ?>
-    <?php intlink("../html/iframe/"); ?>
-    <?php intlink("../html/iframe/exercices/turbo-kid"); ?>
-    <?php intlink("../html/citation/"); ?>
-    <?php intlink("../html/semantique/exercices/lee_balises"); ?>
 </wiki-page>
 
 
 <wiki-page name="Cours 4" date="2023-09-10">
 <?php intlink("../autres/arborescence/exercices/arborescence_reproduction_ex3"); ?>
+<?php intlink("../html/audio/"); ?>
+    <?php intlink("../autres/formats-audio/"); ?>
+    <?php intlink("../html/video/"); ?>
+    <?php intlink("../autres/format-video/"); ?>
+    <?php intlink("../html/legende-de-media/"); ?>
+    <?php intlink("../html/iframe/"); ?>
+    <?php intlink("../html/citation/"); ?>
+    <?php intlink("../html/semantique/exercices/lee_balises"); ?>
     <?php intlink("../html/tableau/"); ?>
     <?php intlink("../html/tableau/exercices/tableau1"); ?>
     <?php intlink("../html/tableau/exercices/tableau2"); ?>
     <?php intlink("../html/liste/"); ?>
-    <?php intlink("../html/emmet/"); ?>
-    <?php intlink("../html/metadonnees/"); ?>
 </wiki-page>
 
 
 <wiki-page name="Cours 5" date="2023-09-17">
-    <h3>Correction: Queen - Hot Space</h3>
     <?php intlink("../html/formulaire/"); ?>
     <?php intlink("../html/formulaire/exercices/carte-de-credit/"); ?>
     <?php intlink("../html/formulaire-intermediaire/"); ?>
     <?php intlink("../html/formulaire-intermediaire/exercices/menu-hamburger/"); ?>
     <?php intlink("../html/formulaire-intermediaire/exercices/dragonball/"); ?>
     <?php intlink("../html/formulaire-intermediaire/exercices/twitter/"); ?>
+    <?php intlink("../html/emmet/"); ?>
+    <?php intlink("../html/metadonnees/"); ?>
 </wiki-page>
 
 

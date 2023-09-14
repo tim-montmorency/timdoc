@@ -91,6 +91,16 @@ Dans l'en-tête, écrivez le titre en H1 : L'ère d'Ultron.
 
 <dots></dots>
 
+<grostitre>Remise</grostitre>
+
+<checklist>
+  Renommez votre dossier <em>"tp01_[nom]_[prenom]"</em>.
+  Zippez votre dossier <em>"tp01_[nom]_[prenom]"</em>.
+  Joignez votre fichier <em>.zip</em> au devoir <em>"TP01: Les Avengers"</em>.
+</checklist>
+
+<dots></dots>
+
 <grostitre>Notes de cours 📚</grostitre>
 
 <?php intlink("../../ancre/"); ?>
