@@ -565,6 +565,24 @@ table{
     margin-bottom: -5px;
 }
 
+q.on-hover[cite]::before {
+    content: "« ";
+    font-size: 150%;
+    
+    color: var(--main-color);
+}
+
+q.on-hover[cite]::after {
+    content: " »";
+    font-size: 150%;
+    color: var(--main-color);
+}
+
+q.on-hover[cite]:hover::after {
+    content: " » (source: " attr(cite) ") ";
+    color: var(--main-color);
+}
+
 // body:has(div#wiki) {
 //     padding-bottom: 0;
 // }

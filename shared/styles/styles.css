@@ -1929,4 +1929,21 @@ table.table-couleurs .color {
 }
 .chiffres-svg .cls-1 {
   fill: #e1e4f2;
+}
+
+q.on-hover[cite]::before {
+  content: "« ";
+  font-size: 150%;
+  color: var(--main-color);
+}
+
+q.on-hover[cite]::after {
+  content: " »";
+  font-size: 150%;
+  color: var(--main-color);
+}
+
+q.on-hover[cite]:hover::after {
+  content: " » (source: " attr(cite) ") ";
+  color: var(--main-color);
 }/*# sourceMappingURL=styles.css.map */
