@@ -187,3 +187,13 @@ a.doclink {
 }
 
 
+.doclink.sass {
+    .doclink-icon {
+        background-image: url('../images/sass_icon.png');
+    }
+    &::before {
+        background-color: #cf649a;
+    }
+}
+
+

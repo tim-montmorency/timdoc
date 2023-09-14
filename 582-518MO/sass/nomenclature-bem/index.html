@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/commons.js"></script>
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Nomenclature BEM</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../../">Projet Web</a> > <a href="../">Sass</a> ></div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Nomenclature BEM</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+<grostitre>Introduction</grostitre>
+<p>Le choix d'une nomenclature est un aspect important d'un projet. Il permet d'écrire un CSS de qualité et d'anticiper comment les autres membres de son équipe écriront leurs classes CSS. Ceci résulte en un code uniforme, facilement maintenable plutôt qu'une agglomération de différents styles de codes écrits par différents développeurs.</p>
+
+<p>BEM est l'une des nomenclatures&nbsp;CSS les plus répandues. Elle permet d'éviter de nombreux effets secondaires <em>(side effects)</em> tout en améliorant la performance des feuilles de styles.</p>
+
+<p>Lorsqu'un projet grossi, il n'est pas rare d'attribuer le même nom de classe à différentes composantes. Par exemple, imaginons que vous créez une composante de héros et que vous souhaitez afficher son titre en italique. <br><br>Vous écrivez donc le code suivant:</p>
+<highlight lang='css'>.title {
+  font-style: italic;
+}</highlight>
+
+<p>Cependant, si vous ou l'un de vos collègues travaille éventuellement sur une composante d'article et qu'à l'intérieur de celle-ci se trouve aussi un titre, il est probable que son réflexe ou le votre soit de le cibler via la classe <code>.title</code> à nouveau, ce qui engendra des effets secondaires indésirables. Le titre de l'article héritera du style italique initialement attribué au titre du héros et tous les nouveaux styles appliqués au titre de l'article s'appliqueront aussi au titre du héros 🤮.</p>
+
+<p>Heureusement, BEM permet d'éviter cette confusion!</p>
+
+
+
+
+
+
+<dots></dots>
+<grostitre>Origine du nom BEM</grostitre>
+<p>Le nom BEM provient de l'abréviation de: Blocs, Éléments et Modificateurs qui sont les trois piliers de cette nomenclature.</p>
+
+
+
+
+<dots></dots>
+<grostitre>Blocs</grostitre>
+<p>Les blocs sont des noms de classes représentant des composantes de base pouvant être facilement identifiable dans une page par leur simple nom.</p>
+
+<p>Par exemple: <code>.site-header</code>, <code>.hero</code>, <code>.article</code>, etc. sont tous des composantes que nous devrions être à même de reconnaitre.</p>
+<highlight lang='html'>&lt;div class=&quot;hero&quot;&gt;
+  ...
+&lt;/div&gt;</highlight>
+
+
+
+
+<dots></dots>
+<h2>Éléments</h2>
+<p>Les éléments sont des sous-composantes avec des noms génériques ayant un lien étroit avec leur bloc.</p>
+
+<p>Par exemple: <code>title</code>, <code>list</code>, <code>item</code>, etc. sont des noms de composantes génériques qui pourraient être présents dans chacun des blocs précédemment mentionnés. Styliser une de ces composantes à partir de son nom générique, par exemple <code>.title</code>, dans chacune de ces composantes entrainerait assurément des effets secondaires indésirables entre chacune d'entre elles. </p>
+
+<p>Heureusement, avec la nomenclature BEM ces effets secondaires seraient évités, puisque la classe d'un élément est constituée du nom de son bloc suivi de deux barres de soulignement <code>__</code> et du nom de l'élément. <br><br>Par exemple: </p>
+
+<highlight lang='html'>&lt;div class=&quot;hero&quot;&gt;
+  &lt;h2 class=&quot;hero__title&quot;&gt;Titre&lt;/h2&gt;
+&lt;/div&gt;</highlight>
+
+
+
+
+
+
+<dots></dots>
+<grostitre>Modificateurs</grostitre>
+<p>Les modificateurs sont des drapeaux, ou en anglais: un <em>"flags"</em>, permettant de changer le comportement ou l'apparence d'un bloc ou d'un élément.</p>
+
+<p>Par exemple: <code>active</code>, <code>disabled</code>, <code>big</code>, etc. </p><p>Avec BEM, un modificateur est séparé de son bloc ou de son élément à l'aide de deux tirets <code>--</code>.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang='html'>&lt;div class=&quot;hero&quot;&gt;
+  &lt;h2 class=&quot;hero__title hero__title--big&quot;&gt;Titre&lt;/h2&gt;
+&lt;/div&gt;</highlight>
+
+<info>Remarquez qu’un modificateur ne remplace pas une classe de base, mais est ajouté en&nbsp;surplus.</info>
+      
+
+
+
+
+<dots></dots>
+<grostitre>Imbrication</grostitre>
+
+<p>Il faut faire attention avec l'imbrication de BEM. Personne ne veut travailler dans un code où des classes CSS ressemblent à:</p>
+<p> 🚫</p>
+<highlight lang='css'>.homepage__hero__wrapper__title { ... } </highlight>
+
+<p>Il est donc important de bien savoir diviser ses blocs. Dans l'exemple précédent, il serait logique d'avoir un bloc de départ <code>.homepage</code> ainsi qu'un bloc <code>.hero</code>.</p>
+
+
+<p>Le bloc <code>.hero</code> pourrait avoir différents niveaux d'éléments, mais il n'est pas nécessaire de nommer chacun d'entre eux. </p>
+
+<p>Par exemple, il n'est pas nécessaire dans son nom de classe de spécifier que le titre se trouve dans le wrapper. Ainsi une division de la sorte permettrait d'obtenir un code plus lisible:</p>
+<p> 👌</p>
+<highlight lang='css'>.hero__wrapper { ... }
+.hero__title { ... }</highlight>
+
+
+<br><br>
+<tool href='../../tools/get-bem/'></tool>
+
+
+
+
+
+
+
+
+<dots></dots>
+<grostitre>SASS</grostitre>
+
+<h3 class="heading heading--h3" id="Nesting">Nesting</h3>
+<p>Il peut être fastidieux de toujours répéter le même bloc au début de chaque nom de classe. D'où pourquoi la nomenclature BEM se marie si bien avec SASS. En tirant profit de l'imbrication (<em>nesting)</em> de SASS, il est possible de définir un bloc de ensuite ses éléments à l'intérieur de lui, sans jamais se répéter!</p>
+
+<p>Par exemple:</p>
+<highlight lang='css'>.hero {
+  &__wrapper { width: 100%; }
+  &__title { font-style: italic; }
+}</highlight>
+
+
+<p>Ce qui générera le code CSS suivant:</p>
+<highlight lang='css'>.hero__wrapper { width: 100%; } 
+.hero__title { font-style: italic; }</highlight>
+
+
+<h3 class="heading heading--h3" id="Modificateurs">Modificateurs</h3>
+<p>Les modificateurs sont faciles à écrire à l'aide de <code>@extend</code>. </p>
+
+<p>Par exemple</p>
+<highlight lang='css'>.hero__title {
+  font-style: italic;
+
+  &--big { 
+    @extend .hero__title;
+    font-size: 40px; 
+  }
+}</highlight>
+
+
+<p>Ce qui générera le code CSS suivant:</p>
+<highlight lang='css'>.hero__title, .hero__title--big {
+  font-style: italic;
+}
+.hero__title--big {
+  font-size: 40px;
+}</highlight>
+
+
+
+
+<h3 class="heading heading--h3" id="Découpage">Découpage</h3>
+<p>Il est fortement suggéré que chaque élément assez important pour être un bloc est son propre fichier SASS distinct.</p>
+
+<p>Par exemple, le fichier <em>hero.scss</em> ne contiendrait qu'un seul bloc, soit <code>.hero</code>. Le fichier <em>site-header.scss</em> ne contiendrait que le bloc <code>.site-header</code> et ainsi de suite.</p>
+
+
+
+
+
+<dots></dots>
+<grostitre>Alternatives</grostitre>
+<ul>
+    <li><a target="_blank" rel="noopener noreferrer" href="http://oocss.org/">OOCSS</a></li>
+    <li><a target="_blank" rel="noopener noreferrer" href="http://smacss.com/">SMACSS</a></li>
+    <li><a target="_blank" rel="noopener noreferrer" href="http://suitcss.github.io/">SUITCSS</a></li>
+    <li>etc.</li>
+</ul>
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>

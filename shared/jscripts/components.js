@@ -401,6 +401,7 @@ app.component('doclink', {
                 case 'greensock.com': site = 'greensock'; break;
                 case 'smnarnold.com': site = 'smnarnold'; break;
                 case 'trello.com': site = 'trello'; break;
+                case 'sass-lang.com' : site = 'sass'; break;
             }
         } catch(e) {
             if(this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
