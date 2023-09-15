@@ -231,7 +231,7 @@
     <h2>Sass</h2>
     <?php intlink("../sass/conditions/"); ?>
     <?php intlink("../sass/fonctions/"); ?>
-<br><br>
+    <br><br>
     <h3>Exercice fonction</h3>
 
     <p>Lien présenté en classe</p>
@@ -247,7 +247,7 @@
     Designer <?php intlink("../projet/ajustements-design-accueil/"); ?><br>
     Agent de promo <?php intlink("../projet/page-temporaire/"); ?><br>
 
-    <br>  <br>
+    <br> <br>
     <p>De plus, si ce n'est pas complété en classe, vous devez terminer les exercices du jour.</p>
     <ul>
         <li>SASS - Fonction Uno</li>
@@ -278,3 +278,63 @@
     <br><br>
     <hr>
 -->
+
+
+<!-- 
+  _____                       _  _   
+ / ____|                     | || |  
+| |     ___  _   _ _ __ ___  | || |_ 
+| |    / _ \| | | | '__/ __| |__   _|
+| |___| (_) | |_| | |  \__ \    | |  
+ \_____\___/ \__,_|_|  |___/    |_|                                   
+                                     
+-->
+
+<wiki-page name="Cours 04" date="2023-09-14">
+<h2>Quiz</h2>
+
+    Vendredi - <a href="https://app.wooclap.com/FGOFRE" target="_blank" rel="noopener noreferrer">Code Wooclap : FGOFRE
+    </a><br>
+
+
+    <br><br>
+    <hr>
+
+
+    <h2>Révision des exercices de la semaine passée</h2>
+    <?php intlink("../exercices/sass-function-uno/"); ?>
+
+    <br><br>
+    <hr>
+
+    <h2>Sass</h2>
+    <?php intlink("../sass/modules/"); ?>
+    <?php intlink("../sass/module-de-couleurs/"); ?>
+    <?php intlink("../sass/nomenclature-bem/"); ?>
+    <br><br>
+    <h3>Exercice Sass - Films vos meilleurs choix</h3>
+
+    <p>Lien présenté en classe</p>
+
+    <br><br>
+    <hr>
+
+    <h2>CSS Grid</h2>
+    <?php intlink("../css/grid/"); ?>
+
+    <br><br>
+    <h3>Exercice Grid - Spotify</h3>
+
+    <p>Lien présenté en classe</p>
+
+
+
+    <br><br><br>
+    <hr><br>
+
+    <h2>Devoirs</h2>
+    PO <?php intlink("../projet/redaction-copy-deck/"); ?><br>
+    Designer <?php intlink("../projet/maquette-detail-de-nouvelle/"); ?><br><br>
+    Notez que le deévelopper back end ainsi que l'agent de promo auront un devoir équivalent un peu plus tard.
+    <br><br>
+</wiki-page>
