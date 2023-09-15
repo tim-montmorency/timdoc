@@ -43,8 +43,7 @@
 
 
 <wiki-page name="Cours 4" date="2023-09-10">
-<?php intlink("../autres/arborescence/exercices/arborescence_reproduction_ex3"); ?>
-<?php intlink("../html/audio/"); ?>
+    <?php intlink("../html/audio/"); ?>
     <?php intlink("../autres/formats-audio/"); ?>
     <?php intlink("../html/video/"); ?>
     <?php intlink("../autres/format-video/"); ?>
@@ -60,6 +59,9 @@
 
 
 <wiki-page name="Cours 5" date="2023-09-17">
+    <?php intlink("../autres/arborescence/exercices/arborescence_reproduction_ex3"); ?>
+    <?php intlink("../autres/maquette-filaire/"); ?>
+    <?php intlink("../autres/maquette-filaire/exercices/maquette-filaire-ex01"); ?>
     <?php intlink("../html/formulaire/"); ?>
     <?php intlink("../html/formulaire/exercices/carte-de-credit/"); ?>
     <?php intlink("../html/formulaire-intermediaire/"); ?>
