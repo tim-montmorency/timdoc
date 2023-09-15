@@ -102,7 +102,7 @@ La 1<sup>re</sup> nouvelle doit avoir une apparence différente des autres nouve
 Créez un héros de nouvelle contenant un titre, une image, une date et une catégorie. Chaque héros de nouvelle doit changer légèrement d'apparence en fonction de sa catégorie.<br><br>Par exemple, avoir un élément changeant de couleur, une icône différente, etc. <em>[2pts]</em>
 Importez le contenu de 13 pages de nouvelles minimum. <em>[2pts]</em>
 Affichez la composante de description de base. <em>[0,5pts]</em>
-Incorporez au moins 6 <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="https://smnarnold.com/cours/html/microdonnees">microdonnées</a> de nouvelle. <em>[1pts]</em>
+Incorporez au moins 6 <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="https://tim-montmorency.com/timdoc/582-111MO/html/microdonnees/">microdonnées</a> de nouvelle. <em>[1pts]</em>
 Bloc cliquable en fin de page permettant de voir un aperçu de la prochaine nouvelle. <em>[1pts]</em>
 </checklist>
 
