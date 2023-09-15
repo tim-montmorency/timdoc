@@ -137,6 +137,12 @@
 <h3 class="heading heading--h3" id="Combinaison avec gap">Combinaison avec gap</h3>
 <p>À priori, cette unité peut sembler similaire aux pourcentages <em>(%)</em>. Cependant, puisque les fractions basent leurs calculs sur l'espace disponible et non l'espace total de leur parent, ils peuvent-être utiliser avantageusement avec les propriétés de type <code>gap</code>.</p><p>Par exemple, si un <code>column-gap: 5px</code> est présent sur des éléments en pourcentages à gauche versus en fractions à droite.</p>
 
+<p class="codepen" data-height="340" data-theme-id="44431" data-default-tab="css" data-slug-hash="OJrgwdv" data-user="tim-momo" style="height: 340px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJrgwdv">
+  Grid - % vs fr gap</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
 <p class="codepen" data-height="300" data-theme-id="44168" data-default-tab="result" data-slug-hash="OJrgwdv" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJrgwdv">
   Grid - gap</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
@@ -150,6 +156,14 @@
 
 <h3 class="heading heading--h3" id="Combinaison avec unités tierce">Combinaison avec unités tierce</h3>
 <p>Lorsqu'une unité tierce est introduite, les pourcentages continuent de se baser sur la dimension totale du parent, peu importe la dimension prise par cette unité, contrairement aux fractions qui se séparent l'espace disponible restant après que l'unité tierce est prise son espace.</p><p>Dans les exemples ci-dessous👇, la première colonne à une unité tierce de 50px. À gauche, on remarque que la combinaison avec des pourcentages produit un résultat indésirable, tandis qu'à droite, les fractions séparent également l'espace restant, produisant ainsi un résultat harmonieux.</p>
+
+
+<p class="codepen" data-height="340" data-theme-id="44431" data-default-tab="css" data-slug-hash="JjwJBVK" data-user="tim-momo" style="height: 340px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/JjwJBVK">
+  Grid - % vs fr gap</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
 <p class="codepen" data-height="300" data-theme-id="44168" data-default-tab="result" data-slug-hash="JjwJBVK" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/JjwJBVK">
   Grid - % vs fr gap</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
@@ -208,6 +222,12 @@
 
 <p>Par exemple:</p>
 
+
+<p class="codepen" data-height="230" data-theme-id="44431" data-default-tab="css" data-slug-hash="RwEgYwx" data-user="tim-momo" style="height: 230px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/RwEgYwx">
+  Grid - % vs fr gap</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 <p class="codepen" data-height="300" data-theme-id="44168" data-default-tab="result" data-slug-hash="RwEgYwx" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/RwEgYwx">
