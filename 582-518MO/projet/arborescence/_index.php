@@ -36,7 +36,7 @@
 <ul>
     <li><a href="https://www.asf-quebec.org/devoilement-fiches-pratiques-habitations-inondations/" target="_blank" rel="noopener noreferrer">Architecture sans frontière</a></li>
     <li><a href="https://promis.qc.ca/fr/journee-nationale-du-vivre-ensemble/" target="_blank" rel="noopener noreferrer">Promis</a></li>
-    <li><a href="http://craquebitume.org" target="_blank" rel="noopener noreferrer">Craque-Bitume</a></li>
+    <li><a href="https://craquebitume.org/collections/formations-illimitees/products/groupe-de-discussion-comment-depasser-son-eco-anxiete-1" target="_blank" rel="noopener noreferrer">Craque-Bitume</a></li>
     <li><a href="https://impatients.ca/cloture-de-miroir-miroir-2e-edition/" target="_blank" rel="noopener noreferrer">Les impatients</a></li>
 </ul>
 
