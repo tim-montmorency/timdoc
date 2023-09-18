@@ -59,7 +59,15 @@
 </wiki-page>
 
 <wiki-page name="Cours 05">
-
+<h3>Vérifier votre projet Unity en vue de l'évaluation sur la nomenclature</h3>
+<p><checklist>
+    Classement des fichiers
+    Classement des GameObject
+    Nomenclature des fichiers
+    Nomenclature des GameObject
+    Propreté des scripts
+</checklist></p>
+<h3>Débuter l'exercice</h3>
 <?php intlink("../exercices/scene/"); ?>
 
 

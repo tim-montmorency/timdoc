@@ -1,7 +1,7 @@
 <?php
 /**
  * @type     article
- * @title    Exercice 1
+ * @title    02_Exercice 
  * @icon     images/icon.png
  * @abstract Tutoriel
  */
@@ -144,3 +144,13 @@ Activez la fonction is Trigger de chaque collider pour permettre à votre person
 <p>Suivez la vidéo suivante pour terminer votre exercice:</p>
 </checklist>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/h0uvCte0Lq4?si=P_ZGSMQlw_EhkUNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<dots></dots>
+
+<grostitre>Exporter le jeu</grostitre>
+<checklist>
+    Exporter le jeu à l'aide du bouton build dans File, build settings.
+    Remettez le .exe de votre jeu à votre nom dans le dossier de remise:
+</checklist>
+
+<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Er2IHGKhv29PonR8Sp1Un4QBGEPjr_iXWQU0Ua4snlOoXw?e=hYWvav">Remise Exercice</doclink>
