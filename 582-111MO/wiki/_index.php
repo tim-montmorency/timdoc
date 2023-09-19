@@ -65,7 +65,6 @@
     <?php intlink("../html/formulaire/"); ?>
     <?php intlink("../html/formulaire/exercices/carte-de-credit/"); ?>
     <?php intlink("../html/formulaire-intermediaire/"); ?>
-    <?php intlink("../html/formulaire-intermediaire/exercices/menu-hamburger/"); ?>
     <?php intlink("../html/formulaire-intermediaire/exercices/dragonball/"); ?>
     <?php intlink("../html/formulaire-intermediaire/exercices/twitter/"); ?>
     <?php intlink("../html/emmet/"); ?>
