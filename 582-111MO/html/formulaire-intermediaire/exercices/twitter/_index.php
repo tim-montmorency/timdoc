@@ -35,7 +35,7 @@
     De façon similaire au précédent menu déroulant, créez-en une nouvelle div, mais cette fois-ci pour le mois de naissance de l'usager et configurer ses attributs <span class="inline-code">name</span> et <span class="inline-code">id</span> à <span class="inline-code">month</span>, afin de pouvoir y faire référence en back-end.<br><br>Attribuez cette fois à chaque option une valeur allant de 1 à 12, mais afficher les noms complets de chaque mois afin de simplifier la vie à l'utilisateur.
     Créez une dernière <em>div</em> avec un menu déroulant permettant à l'usager de choisir son année de naissance. Les attributs <span class="inline-code">name</span> et <span class="inline-code">id</span> doivent avoir la valeur <span class="inline-code">year</span> et les options doivent aller de 2007 jusqu'à 1980. <em>(Les valeurs et les textes affiché sont les mêmes)</em>
     Les données du formulaire doivent-êtres envoyées avec la méthode <span class="inline-code">get</span> à la page suivante <span class="inline-code">https://tim-montmorency.com/timdoc/582-215MO/html/formulaire-intermediaire/exercices/twitter/submit/</span> lorsque le formulaire est soumis.
-    Afin de soumettre le formulaire, ajouter un champ de type submit affichant le texte <em>"Suivant"</em>.
+    Afin de soumettre le formulaire, ajoutez un champ de type submit affichant le texte <em>"Suivant"</em>.
 </checklist>
 
 <info>Si votre formulaire fonctionne bien, vous devriez obtenir un message vous donnant l’âge de l’usager.</info>
