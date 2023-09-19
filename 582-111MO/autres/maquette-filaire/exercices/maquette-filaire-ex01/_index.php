@@ -1,7 +1,7 @@
 <?php 
 /**
  * @type     exercice
- * @title    AMaquette Filaire Exercice 01
+ * @title    Maquette Filaire Exercice 01
  * @icon     images/thumb.jpg
  * @abstract Conception de la maquette filaire d’une page d’accueil d’un site fictif en conception.
  */
