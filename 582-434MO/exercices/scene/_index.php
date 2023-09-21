@@ -155,3 +155,11 @@ Vous pouvez télécharger votre son de réussite depuis internet, pixabay en a d
 </checklist>
 
 <doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Er2IHGKhv29PonR8Sp1Un4QBGEPjr_iXWQU0Ua4snlOoXw?e=hYWvav">Remise Exercice</doclink>
+
+
+<dots></dots>
+
+<grostitre>Notes de cours 📚</grostitre>
+
+<?php intlink("../../unity/prefabs/"); ?>
+<?php intlink("../../code/coroutine/"); ?>

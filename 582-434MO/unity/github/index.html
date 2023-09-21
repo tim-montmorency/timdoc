@@ -19,7 +19,7 @@
         <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
         <script src="../../../shared/jscripts/vue.global.prod.js"></script>
         <script>const shared = '../../../shared/';</script>
-        <title>Création d'un compte Unity</title>
+        <title>GitHub</title>
     </head>
     <body>
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
@@ -35,23 +35,49 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Réalité virtuelle</a> > <a href="../">Trois dimensions</a> ></div>
-                <h1 id="title"><img src="images/icon.png">&nbsp;Création d'un compte Unity</h1>
+                <div id="breadcrumb"><a href="../../">Réalité virtuelle</a> > <a href="../">Unity</a> ></div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;GitHub</h1>
             </div>
             <article>
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
-<p class="spacer">Créer un compte Unity est essentiel pour avoir accès au logiciel et pour pouvoir gérer vos ressources.</p>
+<p class="spacer">Il est possible d'utiliser GitHub pour travailler à plusieurs sur le même projet Unity. Ici nous verrons comment configurer votre projet.</p>
+
+<dots></dots>
+
+<grostitre>Étapes résumées</grostitre>
+
+<h2>Coéquipier 1</h2>
+<checklist>
+Créer un repository public par équipe dans GitHub. Inclure le Gitignore Unity dedans. 
+Cloner votre repo dans GitHub desktop pour travailler dessus. 
+Créer un projet unity (3D HDPR pour travail VR, version 2022.3.8) dans le dossier de votre repo GitHub.
+Déplacer le .gitignore dans le dossier de projet Unity.
+Faire un commit dans GitHub desktop pour inclure notre projet Unity.
+Ensuite, push to origin pour envoyer notre projet en ligne.
+Dans GitHub en ligne, allez ajouter votre coéquipier dans Collaborators. 
+</checklist>
+
+<h2>Coéquipier 2</h2>
+<checklist>
+Accepter l'invitation de collaboration.
+Cloner le projet dans votre GitHub desktop. 
+Dans Unity Hub, appuyez sur Open, add project from disk et trouvez le dossier de projet Unity dans le dossier de votre repo GitHub.
+Maintenant, vous pouvez ouvrir le projet Unity commun. Assurez-vous d'être dans la même version Unity que votre coéquipier! 
+</checklist>
+
+<h2>Méthode de travail</h2>
+<p>Une fois que votre projet est prêt, vous pouvez le modifier en même temps. Avant de faire un commit, appuyez toujours sur Fetch Origin, si Pull apparaît, vous devez faire un Pull. Ensuite, vous pourrez faire votre commit, puis le push.</p>
+
+<alert> L'ordre est toujours Pull, puis Push!!</alert>
+
 
 
 <dots></dots>
 
-
-<grostitre>Création de compte</grostitre>
-
-<p>Rendez-vous sur le site suivant pour créer votre compte:</p>
-<doclink href="https://id.unity.com/en/account/new">Unity</doclink>
+<grostitre>Tutoriel</grostitre>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vxFN77MpROE?si=iLrOJRvgKxVDhRi1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>
