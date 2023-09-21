@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Menus
- * @icon     images/icon.png
+ * @icon     images/icon-wp.png
  * @abstract Menus de navigation
  * @index 90
  */

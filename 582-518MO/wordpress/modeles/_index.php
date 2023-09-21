@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Modèles
- * @icon     images/icon.png
+ * @icon     images/icon-wp.png
  * @abstract abc
  * @index 97
  */

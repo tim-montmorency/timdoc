@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Posts personnalisés
- * @icon     images/icon.png
+ * @icon     images/icon-wp.png
  * @abstract abc
  * @index 88
  */

@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    WP-multilang
- * @icon     images/icon.png
+ * @icon     images/icon-wp.png
  * @abstract Extentions de gestion multilanguages
  * @index 80
  */

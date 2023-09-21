@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    ACF
- * @icon     images/icon.png
+ * @icon     images/icon-wp.png
  * @abstract Advanced-custom-fields
  * @index 85
  */

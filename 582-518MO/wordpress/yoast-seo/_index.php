@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Yoast-SEO
- * @icon     images/icon.png
+ * @icon     images/icon-wp.png
  * @abstract Extensions de gestion du SEO
  * @index 75
  */

@@ -1,9 +1,9 @@
 <?php 
 /**
  * @type     article
- * @title    Partiels
+ * @title    Thème
  * @icon     images/icon-wp.png
- * @abstract abc
+ * @abstract Développer son propre thème
  * @index 95
  */
 ?>
