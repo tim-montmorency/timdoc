@@ -3,15 +3,17 @@
  * @type     article
  * @title    MAMP
  * @icon     images/icon-mamppro.png
- * @abstract abc
+ * @abstract Environnement de serveur local pour exécuter WordPress
  * @index 100
  */
 ?>
-<p>MAMP est un environnement de serveur local gratuit fournissant le nécessaire afin d'exécuter WordPress à des fins de développement. Son acronyme provient des mots: Macintosh, Apache, MySQL et PHP, Pearl ou Python. </p><p>Bien que ce logiciel est initialement été conçu pour macOS, il est maintenant disponible en version Windows depuis plusieurs années.</p>
+<p>MAMP est un environnement de serveur local gratuit fournissant le nécessaire afin d'exécuter WordPress à des fins de développement. Son acronyme provient des mots:<br>
 
+<em>Macintosh, Apache,  MySQL et [PHP, Pearl ou Python]</em></p>
 
+<p>Bien que ce logiciel est initialement été conçu pour macOS, il est maintenant disponible en version Windows depuis plusieurs années.</p>
 
-
+<p>MAMP n'est pas intimement lié à Wordpress, le CMS que nous allons explorer aujourd'hui. MAMP correspond à un ensemble d'outils qui contient notamment un serveur virtuel, afin de nous permettre d'exécuter du code serveur tel que du PHP et de faire des requêtes à une base de données. Il vous permet donc d'avoir un environnement serveur simulé localement, sur vos postes de travail.</p>
 
 <dots></dots>
 <grostitre>Téléchargement</grostitre>

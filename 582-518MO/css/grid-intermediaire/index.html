@@ -42,113 +42,79 @@
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
+<grostitre>Placement des éléments</grostitre>
+<p>Les propriétés CSS présentées dans cette page sont appliquées sur les éléments-enfants de la grille, afin de les positionner à l'intérieur de celle-ci.</p>
+
 <grostitre>grid-column</grostitre>
+ <p>La propriété <code>grid-column</code> est constituée de deux sous propriétés: <code>grid-column-start</code> et <code>grid-column-end</code>. Ces propriétés permettent de définir où un élément devrait être affiché en fonction d'une ligne verticale ↕️ de départ et de fin dans la grille.</p>
+
+<info>Afin de bien comprendre et visualiser ces lignes, il est fortement suggéré d’utiliser&nbsp;l’inspecteur.</info>
+
+<p>Par exemple:</p>
+<p class="codepen" data-height="360" data-theme-id="44431" data-slug-hash="ExGozXP" data-user="tim-momo" style="height: 360px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/ExGozXP">
+  Grid - % vs fr gap</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<info>Il est possible d’utiliser des chiffres négatifs afin de compter à partir de la fin de la grille plutôt que de son&nbsp;début.</info>
+
+<p>Ces propriétés peuvent être combinées en utilisant simplement <code>grid-column</code>. </p>
+
+<p>Par exemple, le code suivant:</p>
+<highlight lang='css'>grid-column-start: 1;
+grid-column-end: 4;</highlight>
 
 
-          <p>La propriété <code>grid-column</code> est constituée de deux sous propriétés: <code>grid-column-start</code> et <code>grid-column-end</code>. Ces propriétés permettent de définir où un élément devrait être affiché en fonction d'une ligne verticale ↕️ de départ et de fin dans la grille.</p>
-          <aside class="note note--info">
-  <div class="note__wrapper">
-        <p>Afin de bien comprendre et visualiser ces lignes, il est fortement suggéré d’utiliser&nbsp;l’inspecteur.</p>
+<p>Est équivalent à celui-ci:</p>
 
-  </div>
-</aside>
-          <p>Par exemple:</p>
-          <div class="codepen codepen--chromeless" data-module="CodePen">
-  <div class="codepen__wrapper">
-    <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
+<p class="codepen" data-height="360" data-theme-id="44431" data-default-tab="result" data-slug-hash="JjwMqyb" data-user="tim-momo" style="height: 360px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/JjwMqyb">
+  Grid - grid-column</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
-    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_1" scrolling="no" src="https://codepen.io/smnarnold/embed/92849099fa84443358e188c15114018d?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=92849099fa84443358e188c15114018d&amp;default-tab=result&amp;name=cp_embed_1" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_92849099fa84443358e188c15114018d"></iframe></div>
-  </div>  
+<doclink href='https://developer.mozilla.org/fr/docs/Web/CSS/grid-column'>grid-column</doclink>
+<doclink href='https://www.w3schools.com/cssref/pr_grid-column.php'>grid-column</doclink>
 
-  
-</div>
-          <aside class="note note--info">
-  <div class="note__wrapper">
-        <p>Il est possible d’utiliser des chiffres négatifs afin de compter à partir de la fin de la grille plutôt que de son&nbsp;début.</p>
-
-  </div>
-</aside>
-          <p>Ces propriétés peuvent être combinées en utilisant simplement <code>grid-column</code>. </p><p>Par exemple, le code suivant:</p><pre><code class="hljs css">grid-column-start: <span class="hljs-number">1</span>;
-grid-column-end: <span class="hljs-number">4</span>;</code></pre><p>Est équivalent à celui-ci:</p>
-          <div class="codepen codepen--chromeless" data-module="CodePen">
-  <div class="codepen__wrapper">
-    <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
-
-    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_2" scrolling="no" src="https://codepen.io/smnarnold/embed/32186e9492932ee813e0a340d9663427?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=32186e9492932ee813e0a340d9663427&amp;default-tab=result&amp;name=cp_embed_2" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_32186e9492932ee813e0a340d9663427"></iframe></div>
-  </div>  
-
-  
-</div>
-          <div class="tags-list">
-  <div class="tags-list__wrapper">
-    <ul class="tags-list__list">
-                  <li class="tags-list__item" title="Raccourci Emmet">
-                    <span class="tags-list__info tags-list__info--emmet">gc</span>
-                  </li>
-                        <li class="tags-list__item">
-                    <a href="https://developer.mozilla.org/fr/docs/Web/CSS/grid-column" target="_blank" rel="noopener noreferrer" class="tags-list__link tags-list__link--auto">grid-column</a>
-                  </li>
-                        <li class="tags-list__item">
-                    <a href="https://www.w3schools.com/cssref/pr_grid-column.asp" target="_blank" rel="noopener noreferrer" class="tags-list__link tags-list__link--auto">grid-column</a>
-                  </li>
-          
-    </ul>
-  </div>
-</div>
 
 
 
 <dots></dots>
 <grostitre>grid-row</grostitre>
+<p>La propriété <code>grid-row</code> est constituée de deux sous propriétés: <code>grid-row-start</code> et <code>grid-row-end</code>. Ces propriétés permettent de définir où un élément devrait être affiché en fonction d'une ligne horizontale ↔️ de départ et de fin dans la grille.</p>
 
-          <p>La propriété <code>grid-row</code> est constituée de deux sous propriétés: <code>grid-row-start</code> et <code>grid-row-end</code>. Ces propriétés permettent de définir où un élément devrait être affiché en fonction d'une ligne horizontale ↔️ de départ et de fin dans la grille.</p><p>Par exemple:</p>
-          <div class="codepen codepen--chromeless" data-module="CodePen">
-  <div class="codepen__wrapper">
-    <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
+<p>Par exemple:</p>
 
-    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_3" scrolling="no" src="https://codepen.io/smnarnold/embed/c5fbdbec16f2bff2306b9ed98f676b52?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=c5fbdbec16f2bff2306b9ed98f676b52&amp;default-tab=result&amp;name=cp_embed_3" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_c5fbdbec16f2bff2306b9ed98f676b52"></iframe></div>
-  </div>  
 
-  
-</div>
-          <aside class="note note--warn">
-  <div class="note__wrapper">
-        <p>Les nombres négatifs ne fonctionnent qu’avec les rows&nbsp;explicites.</p>
-
-  </div>
-</aside>
-          <p>Ces propriétés peuvent être combinées en utilisant simplement <code>grid-row</code>. </p><p>Par exemple, le code suivant:</p><pre><code class="hljs css">grid-row-start: <span class="hljs-number">1</span>;
-grid-row-end: <span class="hljs-number">4</span>;</code></pre><p>Est équivalent à celui-ci:</p>
-          <div class="codepen codepen--chromeless" data-module="CodePen">
-  <div class="codepen__wrapper">
-    <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
-
-    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_4" scrolling="no" src="https://codepen.io/smnarnold/embed/ac10163e57eb056863381824754c95a2?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=ac10163e57eb056863381824754c95a2&amp;default-tab=result&amp;name=cp_embed_4" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_ac10163e57eb056863381824754c95a2"></iframe></div>
-  </div>  
-
-  
-</div>
-          <div class="tags-list">
-  <div class="tags-list__wrapper">
-    <ul class="tags-list__list">
-                  <li class="tags-list__item" title="Raccourci Emmet">
-                    <span class="tags-list__info tags-list__info--emmet">gr</span>
-                  </li>
-                        <li class="tags-list__item">
-                    <a href="https://developer.mozilla.org/fr/docs/Web/CSS/grid-row" target="_blank" rel="noopener noreferrer" class="tags-list__link tags-list__link--auto">grid-row</a>
-                  </li>
-                        <li class="tags-list__item">
-                    <a href="https://www.w3schools.com/cssref/pr_grid-row.asp" target="_blank" rel="noopener noreferrer" class="tags-list__link tags-list__link--auto">grid-row</a>
-                  </li>
-          
-    </ul>
-  </div>
-</div>
+<p class="codepen" data-height="360" data-theme-id="44431" data-default-tab="result" data-slug-hash="OJrzYjw" data-user="tim-momo" style="height: 360px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJrzYjw">
+  Nouveau</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 
 
+<warning>Les nombres négatifs ne fonctionnent qu’avec les <a href="../grid/#grid-template-columns" target="_blank" rel="noopener noreferrer">rows explicites</a>.</warning>
+
+<p>Ces propriétés peuvent être combinées en utilisant simplement <code>grid-row</code>. </p>
+
+<p>Par exemple, le code suivant:</p>
+<highlight lang='css'>grid-row-start: 1;
+grid-row-end: 4;</highlight>
+
+<p>Est équivalent à celui-ci:</p>
+
+<p class="codepen" data-height="360" data-theme-id="44431" data-default-tab="result" data-slug-hash="QWzaRaP" data-user="tim-momo" style="height: 360px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/QWzaRaP">
+  Grid - grid-column</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 
+<doclink href='https://developer.mozilla.org/fr/docs/Web/CSS/grid-row'>grid-row</doclink>
+<doclink href='https://www.w3schools.com/cssref/pr_grid-row.php'>grid-row</doclink>
 
 
 
@@ -156,191 +122,112 @@ grid-row-end: <span class="hljs-number">4</span>;</code></pre><p>Est équivalent
 
 <dots></dots>
 <grostitre>span</grostitre>
+<p>La valeur <code>span</code> combinée aux propriétés <code>grid-column</code> &amp; <code>grid-row</code> permet d'étendre un élément sur plus d'une d'une colonne ou une rangée dans une grille sans avoir à connaitre le numéro de ligne de début ou de fin.</p>
 
-          <p>La valeur <code>span</code> combinée aux propriétés <code>grid-column</code> &amp; <code>grid-row</code> permets d'étendre un élément sur plus d'une d'une colonne ou une rangée dans une grille sans avoir à connaitre le numéro de ligne de début ou de fin.</p><p>Par exemple, pour étendre l'élément 2 🔵, il est possible de faire:</p>
-          <div class="codepen codepen--chromeless" data-module="CodePen">
-  <div class="codepen__wrapper">
-    <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
+<p>Par exemple, pour étendre l'élément 2 🔵, il est possible de faire:</p>
 
-    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_5" scrolling="no" src="https://codepen.io/smnarnold/embed/281d4e071544bca3f5cebd6a445a143b?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=281d4e071544bca3f5cebd6a445a143b&amp;default-tab=result&amp;name=cp_embed_5" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_281d4e071544bca3f5cebd6a445a143b"></iframe></div>
-  </div>  
+<p class="codepen" data-height="360" data-theme-id="44431" data-default-tab="result" data-slug-hash="gOZoJeK" data-user="tim-momo" style="height: 360px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/gOZoJeK">
+  Grid - grid-row</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<dots></dots>
+<h3>Exercice</h3>
+<p>Exercice : lien partagé en cours.</p>
 
-  
-</div>
-              <aside class="exercice-card">
+<!--<aside class="exercice-card">
     <div class="exercice-card__content">
       <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-      <a href="/exercices/css/grid-joker" target="_blank" class="exercice-card__title">
+      <a href="https://smnarnold.com/exercices/css/grid-joker" target="_blank" class="exercice-card__title">
         Grid -&nbsp;Joker
       </a>
-
-            <p class="exercice-card__description">Dans le cadre de cet exercice, vous devrez recréer l’une des planches du célèbre roman graphique Batman: The killing joke à l’aide d’une&nbsp;...</p>
-          </div>
-
-        <picture class="exercice-card__preview">
-      <source srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3JpZC1qb2tlci1wcmV2aWV3LmpwZw==?w=620&amp;s=2da945c44f45023af1eeea82735f1cfb" media="(max-width: 575px) and (min-resolution: 2dppx)">
-      <source srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3JpZC1qb2tlci1wcmV2aWV3LmpwZw==?w=310&amp;s=8c7e9c19352793a3c37823d99281c76c" media="(max-width: 575px)">
-      <source srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3JpZC1qb2tlci1wcmV2aWV3LmpwZw==?w=370&amp;s=502464ae0414bef8b9e7efa0948dcfb3" media="(min-resolution: 2dppx)">
-      <img src="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3JpZC1qb2tlci1wcmV2aWV3LmpwZw==?w=185&amp;s=f3ceebe90af466563277b3e185790559" width="" height="" loading="lazy" class="exercice-card__image" style="object-position: 50% 50%;">
-    </picture>
-      </aside>
+      <p class="exercice-card__description">Dans le cadre de cet exercice, vous devrez recréer l’une des planches du célèbre roman graphique Batman: The killing joke à l’aide d’une&nbsp;...</p>
+  </div>
+</aside>-->
   
-
-
-
-
 
 
 
 
 <dots></dots>
 <grostitre>grid-area</grostitre>
+ <p>La propriété <code>grid-area</code> permet de définir à la fois la valeur de &nbsp;<code>grid-row-start</code>,&nbsp;<code>grid-column-start</code>,&nbsp;<code>grid-row-end</code> et&nbsp;<code>grid-column-end</code>.</p><p>Par exemple le code suivant:</p>
+ <highlight lang='css'>.no1 {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-row-end: 3;
+  grid-column-end: 4;
+}</highlight>
 
-          <p>La propriété <code>grid-area</code> permet de définir à la fois la valeur de &nbsp;<code>grid-row-start</code>,&nbsp;<code>grid-column-start</code>,&nbsp;<code>grid-row-end</code> et&nbsp;<code>grid-column-end</code>.</p><p>Par exemple le code suivant:</p><pre><code class="hljs css"><span class="hljs-selector-class">.no1</span> {
-  grid-row-start: <span class="hljs-number">1</span>;
-  grid-column-start: <span class="hljs-number">2</span>;
-  grid-row-end: <span class="hljs-number">3</span>;
-  grid-column-end: <span class="hljs-number">4</span>;
-}</code></pre><p>Est équivalent à celui-ci:</p>
-          <div class="codepen codepen--chromeless" data-module="CodePen">
-  <div class="codepen__wrapper">
-    <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
+<p>Est équivalent à celui-ci:</p>
 
-    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_6" scrolling="no" src="https://codepen.io/smnarnold/embed/09e32ff13b81cc3b21f7da8c287ed139?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=09e32ff13b81cc3b21f7da8c287ed139&amp;default-tab=result&amp;name=cp_embed_6" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_09e32ff13b81cc3b21f7da8c287ed139"></iframe></div>
-  </div>  
-
-  
-</div>
-          <div class="tags-list">
-  <div class="tags-list__wrapper">
-    <ul class="tags-list__list">
-                  <li class="tags-list__item" title="Raccourci Emmet">
-                    <span class="tags-list__info tags-list__info--emmet">ga</span>
-                  </li>
-                        <li class="tags-list__item">
-                    <a href="https://developer.mozilla.org/fr/docs/Web/CSS/grid-area" target="_blank" rel="noopener noreferrer" class="tags-list__link tags-list__link--auto">grid-area</a>
-                  </li>
-                        <li class="tags-list__item">
-                    <a href="https://www.w3schools.com/cssref/pr_grid-area.asp" target="_blank" rel="noopener noreferrer" class="tags-list__link tags-list__link--auto">grid-area</a>
-                  </li>
-          
-    </ul>
-  </div>
-</div>
+<p class="codepen" data-height="360" data-theme-id="44431" data-default-tab="result" data-slug-hash="LYMeoJj" data-user="tim-momo" style="height: 360px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/LYMeoJj">
+  Grid - Span</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 
-
-
-
+<doclink href='https://developer.mozilla.org/fr/docs/Web/CSS/grid-area'>grid-area</doclink>
+<doclink href='https://www.w3schools.com/cssref/pr_grid-area.php'>grid-area</doclink>
 
 
 
 <dots></dots>
 <grostitre>grid-template-areas</grostitre>
+<p>La propriété <code>grid-template-areas</code> permets de nommer des zones dans une grille. Cette approche permet de conceptualiser facilement la disposition des éléments.</p>
 
-          <p>La propriété <code>grid-template-areas</code> permets de nommer des zones dans une grille. Cette approche permet de conceptualiser facilement la disposition des éléments.</p><p>Par exemple, si l'élément vert 🟢 représente un menu latéral, l'élément bleu 🔵 le contenu principal et l'élément rouge 🔴 un pied de page, il serait possible de les distribuer dans une grille grâce à <code>grid-area</code>:</p>
-          <div class="codepen" data-module="CodePen">
-  <div class="codepen__wrapper">
-    <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
+<p>Par exemple, si l'élément vert 🟢 représente un menu latéral, l'élément bleu 🔵 le contenu principal et l'élément rouge 🔴 un pied de page, il serait possible de les distribuer dans une grille grâce à <code>grid-area</code>:</p>
 
-    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_7" scrolling="no" src="https://codepen.io/smnarnold/embed/79c558f5bff19d79cebce9c7dc20651f?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=79c558f5bff19d79cebce9c7dc20651f&amp;default-tab=css%2Cresult&amp;name=cp_embed_7" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_79c558f5bff19d79cebce9c7dc20651f"></iframe></div>
-  </div>  
+<p class="codepen" data-height="360" data-theme-id="44431" data-default-tab="css,result" data-slug-hash="ExGozdN" data-user="tim-momo" style="height: 360px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/ExGozdN">
+  Grid - grid-template-area</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
-  
-</div>
-          <aside class="note note--warn">
-  <div class="note__wrapper">
-        <p>Attention de ne pas mettre une virgule <em>","</em> entre chaque&nbsp;ligne.</p>
+<warning>Attention de ne pas mettre une virgule <em>","</em> entre chaque&nbsp;ligne.</warning>
+<p></p>
+<alert><em class="note__tagline">Erreur fréquente</em><br><code>grid-template-areas</code> prend un <em>"s"</em> à la&nbsp;fin.</alert>
 
-  </div>
-</aside>
-          <p></p>
-          <aside class="note note--err">
-  <div class="note__wrapper">
-        <em class="note__tagline">Erreur fréquente</em>
-        <p><code>grid-template-areas</code> prend un <em>"s"</em> à la&nbsp;fin.</p>
+<doclink href='https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-areas'>grid-template-areas</doclink>
+<doclink href='https://www.w3schools.com/cssref/pr_grid-template-areas.php'>grid-template-areas</doclink>
 
-  </div>
-</aside>
-          <div class="tags-list">
-  <div class="tags-list__wrapper">
-    <ul class="tags-list__list">
-                  <li class="tags-list__item" title="Raccourci Emmet">
-                    <span class="tags-list__info tags-list__info--emmet">gta</span>
-                  </li>
-                        <li class="tags-list__item">
-                    <a href="https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-areas" target="_blank" rel="noopener noreferrer" class="tags-list__link tags-list__link--auto">grid-template-areas</a>
-                  </li>
-                        <li class="tags-list__item">
-                    <a href="https://www.w3schools.com/cssref/pr_grid-template-areas.asp" target="_blank" rel="noopener noreferrer" class="tags-list__link tags-list__link--auto">grid-template-areas</a>
-                  </li>
-          
-    </ul>
-  </div>
-</div>
+<dots></dots>
 
-            <aside class="exercice-card">
-    <div class="exercice-card__content">
+<h3>Exercices</h3>
+<p>2 exercices : liens partagés en cours.</p>
+
+<!--
+<aside class="exercice-card">
+  <div class="exercice-card__content">
       <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
       <a href="https://codepip.com/games/grid-garden/#fr" target="_blank" class="exercice-card__title">
         Grid Garden - Niveaux 1 à&nbsp;17
       </a>
+      <p class="exercice-card__description">Complétez les 17 premiers niveaux de Grid Garden&nbsp;🥕</p>
+  </div>
+</aside>
 
-            <p class="exercice-card__description">Complétez les 17 premiers niveaux de Grid Garden&nbsp;🥕</p>
-          </div>
-        <picture class="exercice-card__preview">
-      <source srcset="/img/asset/YXNzZXRzL2V4ZXJjaWNlcy9ncmlkLWdhcmRlbi5wbmc=?w=620&amp;s=695722f6e83cf819decb1e5e6491ea8e" media="(max-width: 575px) and (min-resolution: 2dppx)">
-      <source srcset="/img/asset/YXNzZXRzL2V4ZXJjaWNlcy9ncmlkLWdhcmRlbi5wbmc=?w=310&amp;s=905043468761ccd2b43f449d6491b12f" media="(max-width: 575px)">
-      <source srcset="/img/asset/YXNzZXRzL2V4ZXJjaWNlcy9ncmlkLWdhcmRlbi5wbmc=?w=370&amp;s=8bf4c9b968e26a8b9135680b1bb72f70" media="(min-resolution: 2dppx)">
-      <img src="/img/asset/YXNzZXRzL2V4ZXJjaWNlcy9ncmlkLWdhcmRlbi5wbmc=?w=185&amp;s=6f2e1568adb4a7f5dfd1de613e6b5510" width="" height="" loading="lazy" class="exercice-card__image" style="object-position: ;">
-    </picture>
-      </aside>
-
-              <aside class="exercice-card">
-    <div class="exercice-card__content">
+<aside class="exercice-card">
+  <div class="exercice-card__content">
       <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
       <a href="/exercices/css/grid-offres-samsung" target="_blank" class="exercice-card__title">
         Grid - Offres&nbsp;Samsung
       </a>
-
-            <p class="exercice-card__description">Pour cet exercice, vous devez compléter une grille d’offres promotionnelles présentant divers produits Samsung mis en vedette lors de la&nbsp;...</p>
-          </div>
-
-        <picture class="exercice-card__preview">
-      <source srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3JpZC1zYW1zdW5nLmpwZw==?w=620&amp;s=cbb6f3f66be5c84c17b8d87304dc7f6f" media="(max-width: 575px) and (min-resolution: 2dppx)">
-      <source srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3JpZC1zYW1zdW5nLmpwZw==?w=310&amp;s=81046749257c8d7d2a56ab32f5c360b3" media="(max-width: 575px)">
-      <source srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3JpZC1zYW1zdW5nLmpwZw==?w=370&amp;s=ca5812188ee980ba6568f8398072cdb1" media="(min-resolution: 2dppx)">
-      <img src="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvZ3JpZC1zYW1zdW5nLmpwZw==?w=185&amp;s=54c8fc2a23b953fa2a9a9c67007ad28c" width="" height="" loading="lazy" class="exercice-card__image" style="object-position: 50% 50%;">
-    </picture>
-      </aside>
-  
-
-
-
-
+      <p class="exercice-card__description">Pour cet exercice, vous devez compléter une grille d’offres promotionnelles présentant divers produits Samsung mis en vedette lors de la&nbsp;...</p>
+  </div>
+ </aside>
+-->
 
 
 
 <dots></dots>
 <grostitre>Résumé vidéo</grostitre>
 
+<iframe width="100%" src="https://www.youtube.com/embed/uuOXPWCh-6o?si=5iauHt2w_ATlq5DL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="aspect-ratio: 16/9;"></iframe>
 
+  <br>
 
-
-
-
-          <div class="youtube">
-
-
-  <a href="https://www.youtube.com/watch?v=uuOXPWCh-6o&amp;list=PL0vfts4VzfNiI1BsIK5u7LpPaIDKMJIDN" class="youtube__wrapper" data-module="Youtube"><div class="youtube__player" id="youtube-player-a8a19a80-52b7-11ee-99c2-057f2d68e3b7">
-      <iframe id="youtube-a8a19a80-52b7-11ee-99c2-057f2d68e3b7" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="CSS Grid in 100 Seconds" width="640" height="360" src="https://www.youtube.com/embed/uuOXPWCh-6o?enablejsapi=1&amp;modestbranding=1&amp;rel=0&amp;showinfo=0&amp;origin=https%3A%2F%2Fsmnarnold.com&amp;widgetid=1" tabindex="-1"></iframe>
-    </div>
-          <img src="https://img.youtube.com/vi/uuOXPWCh-6o/0.jpg" alt="" class="youtube__poster" loading="lazy">
-        <span class="youtube__button"></span>
-  </a>
-
-  
-</div>
 
                     <!-- ARTICLE FOOTER SOF -->
                 </div>

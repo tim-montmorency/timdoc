@@ -253,13 +253,6 @@
         <li>SASS - Fonction Uno</li>
     </ul>
 
-
-
-
-
-
-
-
 </wiki-page>
 
 
@@ -291,10 +284,13 @@
 -->
 
 <wiki-page name="Cours 04" date="2023-09-14">
-<h2>Quiz</h2>
+    <h2>Quiz</h2>
 
     Vendredi - <a href="https://app.wooclap.com/FGOFRE" target="_blank" rel="noopener noreferrer">Code Wooclap : FGOFRE
     </a><br>
+
+    Lundi - <a href="https://app.wooclap.com/JJOHKD" target="_blank" rel="noopener noreferrer">Code Wooclap : JJOHKD
+    </a>
 
 
     <br><br>
@@ -335,6 +331,174 @@
     <h2>Devoirs</h2>
     PO <?php intlink("../projet/redaction-copy-deck/"); ?><br>
     Designer <?php intlink("../projet/maquette-detail-de-nouvelle/"); ?><br><br>
-    Notez que le deévelopper back end ainsi que l'agent de promo auront un devoir équivalent un peu plus tard.
+    Notez que le développer back end ainsi que l'agent de promo auront un devoir équivalent un peu plus tard.
+    <br><br>
+</wiki-page>
+
+
+
+
+
+<!-- 
+  _____                       _____ 
+ / ____|                     | ____|
+| |     ___  _   _ _ __ ___  | |__  
+| |    / _ \| | | | '__/ __| |___ \ 
+| |___| (_) | |_| | |  \__ \  ___) |
+ \_____\___/ \__,_|_|  |___/ |____/ 
+                                                          
+-->
+
+<wiki-page name="Cours 05" date="2023-09-21">
+
+    <h2>Annonces</h2>
+    <p style="color: var(--main-color);"><strong>> Horaire la semaine prochaine (cours 6)</strong></p>
+    <ul>
+        <li style="padding: 0; margin: 0;">examen : 9h50 à 12h35 (total de 2h45)</li>
+        <li style="padding: 0; margin: 0;">diner : 12h35 à 13:30</li>
+        <li style="padding: 0; margin: 0;">cours et labo : 13h30 à 18h00</li>
+    </ul>
+    <warning>Ceux qui ont droit à mesures d'assouplissement, faire la demande aujourd'hui dans col.net car minimum 7
+        jours avant. Ceux qui ont une extension de temps devront commencer le cours avant au SAA. À vous de décider si
+        vous faites l'examen complet au SAA ou seulement la partie avant 9h50. Si vous voulez bouger à la classe,
+        quelqu'un du SAA devra vous escorter jusqu'à notre local à 9h50.</warning>
+
+    <alert>TOUT PLAGIAT EST INTERDIT SOUS PEINE D'ÉCHEC AUTOMATIQUE. La situation est aussi grave chez la personne qui copie que la personne qui divulgue.</alert>
+    <warning>Chaque groupe classe aura sa version de l'examen.</warning>
+    <br><br>
+    <p style="color: var(--main-color);"><strong>> Tutorat</strong></p>
+    <p>Mardi le 26 au trou à l'horaire: groupe d'étude avec tuteurs: Jacob et Jasmine. <a
+            href="https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/?"
+            target="_blank" rel="noopener noreferrer">Calendrier tutorat</a>.</p>
+    <p>Notez que seulement Jasmine et Jacob seront tuteur dorénavent pour le cours de Projet Web.</p>
+
+    <dots></dots>
+
+
+    <h2>Quiz</h2>
+    Vendredi - <a href="https://app.wooclap.com/FCTSBL" target="_blank" rel="noopener noreferrer">Code Wooclap : FCTSBL
+    </a><br>
+
+    Lundi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap :
+    </a><br><br>
+
+
+    <br><br>
+    <hr>
+
+
+    <h2>Révision des exercices de la semaine passée</h2>
+
+    <?php intlink("../exercices/sass-films-vos-meilleurs-choix/"); ?>
+    <?php intlink("../exercices/grid-spotify/"); ?>
+
+    <br><br>
+    <hr>
+
+    <h2>HTML</h2>
+    <?php intlink("../../582-111MO/html/microdonnees/"); ?>
+    <br>
+    <p style="color: var(--main-color);"><strong>> Exercice: Lien présenté en classe</strong></p>
+    <br>
+
+    <h2>SASS</h2>
+    <p>Imbrication dans le cas d'un menu de 2 niveaux&nbsp;: démo en classe</p>
+  
+    <br>
+
+    <h2>CSS</h2>
+    <?php intlink("../css/grid-intermediaire/"); ?>
+    <br>
+    <p style="color: var(--main-color);"><strong>> Exercice: Lien présenté en classe</strong></p>
+
+    <br>
+
+    <h2>Serveur local et WordPress</h2>
+    <?php intlink("../wordpress/mamp/"); ?>
+    <?php intlink("../wordpress/installation-en-local/"); ?>
+    <p style="color: var(--main-color);"><strong>> Exercice: </strong><br>Installer WordPress en local, installer un thème existant, explorez.</p>
+
+
+    <br><br><br>
+    <hr><br>
+
+    <h2>Labo </h2>
+    <ul>
+        <li>N'oubliez pas de démarrer votre minuteur Toggl.</li>
+        <li>En équipe, divisez la tâche: réalisez les requis pour le site web.</li>
+        <li>Montez vos pages HTML, CSS (ne montez qu'une seule page d'un même type: par exemple, sur les 13 pages de détail de nouvelle, n'en monter qu'une seule, ce sera votre modèele (template) pour les autres lorsque vous serez rendus dans WordPress).</li>
+        <li>Utilisez JavaScript pour dynamiser la bannière d'avertissement de travail étudiant, animer en GSAP etc.</li>
+        <li>Attribuez-vous une tâche à la fois en la glissant dans la colonne "En cours" dans Trello.</li>
+ 
+    </ul>
+<br><br>
+    <hr><br>
+
+    <h2>Devoirs </h2>
+    <p>Étudier l'examen: SASS (tout), nomenclature BEM & CSS Grid</p>
+    <p>Réserver dans col.net ceux qui ont droit à assouplissements pour examen.</p>
+
+    <br><br>
+</wiki-page>
+
+
+
+
+
+
+
+
+
+
+
+<!-----------------------------------
+COURS 6
+----------------------------------->
+
+
+<wiki-page name="Cours 06" date="2023-09-28">
+    <h2>Horaire aujourd'hui</h2>
+    <ul>
+        <li style="padding: 0; margin: 0;">EXAMEN : 9h50 à 12h35</li>
+        <li style="padding: 0; margin: 0;">DINER : 12h35 à 13:30</li>
+        <li style="padding: 0; margin: 0;">COURS et LABO : 13h30 à 18h00</li>
+    </ul>
+
+    <alert>TOUT PLAGIAT EST INTERDIT SOUS PEINE D'ÉCHEC AUTOMATIQUE. La situation est aussi grave chez la personne qui copie que la personne qui divulgue.</alert>
+    <warning>Chaque groupe classe a sa propre version de l'examen.</warning>
+
+
+
+    <br><br>
+    <hr>
+
+
+    <h2>Révision des exercices de la semaine passée</h2>
+
+    <?php intlink("../exercices/"); ?>
+
+
+    <br><br>
+    <hr>
+
+    <h2>Groupe de savoir</h2>
+    <?php intlink("../"); ?>
+    <br>
+
+
+    <h3>Exercice</h3>
+
+
+
+
+
+    <br><br><br>
+    <hr><br>
+
+    <h2>Devoirs pour devOps et Agent de promo</h2>
+    <p>Remise devancée au cours 7 (initialement prévue au cours 8 dans plan de cours)</p>
+    DevOps <?php intlink("../projet/"); ?><br>
+    Agent de promo <?php intlink("../projet/"); ?><br><br>
+
     <br><br>
 </wiki-page>
