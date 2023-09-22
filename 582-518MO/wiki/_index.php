@@ -379,7 +379,7 @@
     Vendredi - <a href="https://app.wooclap.com/FCTSBL" target="_blank" rel="noopener noreferrer">Code Wooclap : FCTSBL
     </a><br>
 
-    Lundi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap :
+    Lundi - <a href="https://app.wooclap.com/OXXSFQ" target="_blank" rel="noopener noreferrer">Code Wooclap : OXXSFQ
     </a><br><br>
 
 
@@ -394,12 +394,6 @@
 
     <br><br>
     <hr>
-
-    <h2>HTML</h2>
-    <?php intlink("../../582-111MO/html/microdonnees/"); ?>
-    <br>
-    <p style="color: var(--main-color);"><strong>> Exercice: Lien présenté en classe</strong></p>
-    <br>
 
     <h2>SASS</h2>
     <p>Imbrication dans le cas d'un menu de 2 niveaux&nbsp;: démo en classe</p>
@@ -417,6 +411,14 @@
     <?php intlink("../wordpress/mamp/"); ?>
     <?php intlink("../wordpress/installation-en-local/"); ?>
     <p style="color: var(--main-color);"><strong>> Exercice: </strong><br>Installer WordPress en local, installer un thème existant, explorez.</p>
+
+    <br>
+
+    <h2>HTML</h2>
+    <?php intlink("../../582-111MO/html/microdonnees/"); ?>
+    <br>
+    <p style="color: var(--main-color);"><strong>> Exercice: Lien présenté en classe</strong></p>
+    <br>
 
 
     <br><br><br>
