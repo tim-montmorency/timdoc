@@ -409,7 +409,7 @@
     <h2>CSS</h2>
     <?php intlink("../css/grid-intermediaire/"); ?>
     <br>
-    <p style="color: var(--main-color);"><strong>> Exercice: Lien présenté en classe</strong></p>
+    <p style="color: var(--main-color);"><strong>> Exercices: Liens présentés en classe</strong></p>
 
     <br>
 
