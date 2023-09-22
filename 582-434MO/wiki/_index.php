@@ -75,10 +75,24 @@
 </wiki-page>
 
 <wiki-page name="Cours 06">
-<?php intlink("../unity/prefabs/"); ?>
-<?php intlink("../code/coroutine/"); ?>
+<h3>Évaluation méthode de travail</h3>
+<p>Ouvrir votre projet 1 sur votre ordinateur prêt à être corrigé.</p>
+
+<h3>Continuer l'exercice</h3>
+<?php intlink("../exercices/scene/"); ?>
+
+
+
+
+</wiki-page>
+
+<wiki-page name="Cours 10">
+<?php intlink("../unity/Importation3D/"); ?>
+<?php intlink("../unity/github/"); ?>
+
 <?php intlink("../unity/tilemaps/"); ?>
 <?php intlink("../unity/cinemachine/"); ?>
 <?php intlink("../unity/raycasting/"); ?>
+<?php intlink("../unity/quest/"); ?>
 
 </wiki-page>
