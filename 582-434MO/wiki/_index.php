@@ -69,9 +69,6 @@
 </checklist></p>
 <h3>Débuter l'exercice</h3>
 <?php intlink("../exercices/scene/"); ?>
-
-
-
 </wiki-page>
 
 <wiki-page name="Cours 06">
@@ -81,18 +78,78 @@
 <h3>Continuer l'exercice</h3>
 <?php intlink("../exercices/scene/"); ?>
 
+</wiki-page>
 
+<wiki-page name="Cours 07">
 
+<h3>Continuer l'exercice 2</h3>
+<?php intlink("../exercices/scene/"); ?>
+
+<h3>Commencer l'idéation du projet final</h3>
+</wiki-page>
+
+<wiki-page name="10 octobre">
+
+<h3>Pas de cours</h3>
+<p>Journée pédagogique.</p>
 
 </wiki-page>
 
+<wiki-page name="Cours 08">
+
+<h3>Pas de cours</h3>
+<p>Remplacé par une conférence d'Aleo VR le 24 octobre de 11h40 à 13h + Rendez-vous en ligne pour discuter de vos idées de projet final.</p>
+
+</wiki-page>
+
+<wiki-page name="Cours 09">
+
+<h3>11h40 à 13h</h3>
+<p>Conférence Aleo VR</p>
+
+<h3>Présentation des plans de projet</h3>
+
+<h3>Prêt des caques oculus</h3>
+
+<h3>Début de la création du projet final</h3>
+<?php intlink("../unity/github/"); ?>
+<?php intlink("../unity/quest/"); ?>
+<?php intlink("../unity/configuration_vr/"); ?>
+<?php intlink("../unity/deplacement_vr/"); ?>
+
+</wiki-page>
+
+
 <wiki-page name="Cours 10">
 <?php intlink("../unity/Importation3D/"); ?>
-<?php intlink("../unity/github/"); ?>
+</wiki-page>
+
+<wiki-page name="14 novembre">
+
+<h3>Pas de cours</h3>
+<p>Journée de rattrapage.</p>
+
+</wiki-page>
+
+
+<wiki-page name="Cours 14">
+
+<h3>Tests des projets finaux</h3>
+<p>Contrôle de la qualité des projets et tests de présentation au Grand studio.</p>
+
+</wiki-page>
+
+
+<wiki-page name="Cours 15">
+
+<h3>Présentation finale des projets de VR</h3>
+<p>Au grand studio</p>
+
+</wiki-page>
+
+<wiki-page name="Autres contenus">
 
 <?php intlink("../unity/tilemaps/"); ?>
 <?php intlink("../unity/cinemachine/"); ?>
 <?php intlink("../unity/raycasting/"); ?>
-<?php intlink("../unity/quest/"); ?>
-
 </wiki-page>
