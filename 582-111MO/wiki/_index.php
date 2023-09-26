@@ -72,7 +72,6 @@
 
 <wiki-page name="Cours 6" date="2023-09-24">
     <?php intlink("../html/formulaire-avance/"); ?>
-    <?php intlink("../html/formulaire-avance/exercices/among-us/"); ?>
     <?php intlink("../html/favicon/"); ?>
     <?php intlink("../html/favicon/exercices/mega-man/"); ?>
     <?php intlink("../html/details-et-summary/"); ?>
