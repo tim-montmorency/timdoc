@@ -77,6 +77,7 @@
     <?php intlink("../html/favicon/exercices/mega-man/"); ?>
     <?php intlink("../html/details-et-summary/"); ?>
     <?php intlink("../html/details-et-summary/exercices/quiz-marc-labreche/"); ?>
+    <?php intlink("../html/resume/"); ?>
 </wiki-page>
 
 
