@@ -27,11 +27,6 @@
     <li><incode>checked</incode> permet de spécifier à l'aide d'un booléen <em>(true/false)</em> si l'option devrait être cochée ou non. Si aucune valeur n'est attribuée, la simple présence de l'attribut suffit à cocher l'élément.</li>
 </ul>
 
-<info>
-    Lorsqu’une boite à cocher est cochée, la pseudo-classe <incode>:checked</incode> est ajoutée à l’élément, permettant ainsi de modifier l’apparence de l’élément en fonction de son statut.
-    <br><br>
-    Par exemple: <incode>.checkbox:checked { outline: solid 5px green; }</incode>
-</info>
 
 <ul>
     <li><incode>value</incode> cet attribut est optionnel. S'il n'est pas spécifié et que l'option <em>Olives</em> est cochée, la soumission du formulaire retourne <incode>olives: "on"</incode>. Si une <incode>value</incode> est spécifiée, comme dans le cas de l'option <em>Oignons</em>, le formulaire retourne <incode>oignons: "oui svp"</incode>.</li>
@@ -63,11 +58,6 @@
     <li><incode>checked</incode> permet de spécifier à l'aide d'un booléen <em>(true/false)</em> si l'élément doit-être sélectionné. Si aucune valeur n'est attribuée, la simple présence de l'attribut suffit à sélectionner l'élément.</li>
 </ul>
 
-<info>
-    La présence ou absence de cet attribut est aussi utilisée en CSS afin d’appliquer des styles différents en fonction du statut de l’élément.
-    <br><br>
-    Par exemple: <incode>.radio:checked { outline: solid 5px green; }</incode>
-</info>
 
 <ul>
     <li><incode>value</incode> indique la valeur associée au bouton radio. Ainsi lorsque le formulaire est soumis, la valeur associée au <incode>name</incode> est celle de l'élément <incode>checked</incode>.<br><br>Par exemple, si le formulaire est soumis sans que les boutons radio soient touchés, la valeur reçue sera <incode>pizza: "toute-garnie"</incode>.</li>

@@ -67,21 +67,16 @@
     <?php intlink("../html/formulaire-intermediaire/"); ?>
     <?php intlink("../html/formulaire-intermediaire/exercices/dragonball/"); ?>
     <?php intlink("../html/formulaire-intermediaire/exercices/twitter/"); ?>
-    <?php intlink("../html/emmet/"); ?>
-    <?php intlink("../html/metadonnees/"); ?>
 </wiki-page>
 
 
 <wiki-page name="Cours 6" date="2023-09-24">
     <?php intlink("../html/formulaire-avance/"); ?>
-    <?php intlink("../html/formulaire-avance/exercices/among-us/"); ?>
     <?php intlink("../html/favicon/"); ?>
     <?php intlink("../html/favicon/exercices/mega-man/"); ?>
     <?php intlink("../html/details-et-summary/"); ?>
     <?php intlink("../html/details-et-summary/exercices/quiz-marc-labreche/"); ?>
-    <?php intlink("../html/open-graph-protocol/"); ?>
-    <?php intlink("../html/microdonnees/"); ?>
-    <?php intlink("../html/microdonnees/exercices/cf-montreal/"); ?>
+    <?php intlink("../html/resume/"); ?>
 </wiki-page>
 
 
