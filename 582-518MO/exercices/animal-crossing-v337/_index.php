@@ -7,8 +7,7 @@
  */
 ?>
 
-<p>Pour cet exercice, vous devrez recréer un module permettant de choisir parmi des villageois dans <a
-        href="https://www.animal-crossing.com/">Animal&nbsp;Crossing</a>.</p>
+<p>Pour cet exercice, vous devrez recréer un module permettant de choisir parmi des villageois dans <a target="_blank" href="https://www.animal-crossing.com/">Animal&nbsp;Crossing</a>.</p>
 
 <p>Aperçu du résultat 👇</p>
 <clipasset src='medias/animal-crossing-resultat.mp4'></clipasset>
