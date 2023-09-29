@@ -18,7 +18,7 @@
 
 
 <mediafile src="medias/bg.jpg"> Arrière-plan</mediafile>
-<mediafile src="medias/_helpers.scss">_helpers.scss</mediafile>
+<mediafile src="https://t.smnarnold.com/animal-crossing/_helpers.scss">_helpers.scss</mediafile>
 
 <grostitre>Configurations</grostitre>
 <checklist>Créez et nommez un dossier de projet 📁 suivant la nomenclature suivante [nom_prenom_exa337] par exemple <em>ouellet_marie-michelle_exa337</em>.
