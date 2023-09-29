@@ -6,11 +6,20 @@
 <body>
 
 <script>
-// Vérifier si le paramètre "success" est présent dans l'URL
-var urlParams = new URLSearchParams(window.location.search);
-if (urlParams.has("success")) {
-  // Afficher un message de confirmation si le paramètre "success" est présent
-  alert("Le message a été envoyé avec succès !");
+// Récupérer les données du formulaire depuis le stockage local (LocalStorage)
+var prenom = localStorage.getItem("prenom");
+var nom = localStorage.getItem("nom");
+var email = localStorage.getItem("email");
+var date = localStorage.getItem("date");
+var remember = localStorage.getItem("remember");
+
+// Valider les données du formulaire sur la page de confirmation
+if (prenom && nom && email && date && remember) {
+  // Afficher un message de confirmation personnalisé
+  alert("Le formulaire a été soumis avec succès !\nPrénom: " + prenom + "\nNom: " + nom + "\nEmail: " + email + "\nDate: " + date + "\nInfolettre: " + (remember === "true" ? "Oui" : "Non"));
+} else {
+  // Afficher un message d'erreur si des données sont manquantes
+  alert("Erreur : Les données du formulaire sont incomplètes.");
 }
 </script>
 
