@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire de validation</title>
+</head>
+<body>
+
+<form id="monFormulaire" onsubmit="return validerFormulaire()">
+  <label for="prenom">Prénom</label>
+  <input type="texte" id="prenom" placeholder="Entrez votre prénom" name="prenom" required />
+
+  <label for="nom">Nom</label>
+  <input type="texte" id="nom" placeholder="Entrez votre nom" name="nom" required />
+
+  <label for="email">Courriel:</label>
+  <input type="email" id="email" placeholder="Entrez votre courriel" name="email" required />
+
+  <label for="date">Date:</label>
+  <input type="date" id="date" min="1980-01-01" max="2000-01-01" />
+
+  <label> <input type="checkbox" name="remember" /> Je veux recevoir l'infolettre </label>
+
+  <button type="submit">Soumettre</button>
+</form>
+
+<script>
+function validerFormulaire() {
+  // Récupérer les valeurs des champs
+  var prenom = document.getElementById("prenom").value;
+  var nom = document.getElementById("nom").value;
+  var email = document.getElementById("email").value;
+  var date = document.getElementById("date").value;
+
+  // Vérifier si les champs Prénom, Nom, Courriel et Date sont vides
+  if (prenom === "" || nom === "" || email === "" || date === "") {
+    alert("Tous les champs doivent être remplis.");
+    return false;
+  }
+
+  // Vérifier si l'adresse email est valide
+  if (!validateEmail(email)) {
+    alert("Veuillez entrer une adresse email valide.");
+    return false;
+  }
+
+  // Si tout est valide, le formulaire est soumis
+  return true;
+}
+
+// Fonction pour valider une adresse email
+function validateEmail(email) {
+  var re = /\S+@\S+\.\S+/;
+  return re.test(email);
+}
+</script>
+
+</body>
+</html>
