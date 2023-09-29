@@ -36,7 +36,7 @@
 <dots></dots>
 <grostitre>Base de données</grostitre>
 <ol start="1">
-    <li>Cliquez sur le bouton&nbsp;<em>Open WebStart page</em>&nbsp;situé au milieu du logiciel MAMP, vous serez redirigé vers la page d'accueil de MAMP où un lien vous permettra d'accéder à&nbsp;phpMyAdmin.</li>
+    <li>Cliquez sur le bouton&nbsp;<em>Open WebStart page</em>&nbsp;situé au milieu du logiciel MAMP, vous serez redirigé vers la page d'accueil de MAMP où un lien vous permettra d'accéder à&nbsp;phpMyAdmin (sous le menu Tools).</li>
 </ol>
 <img src="images/phpmyadmin-link.jpg" alt="">
 
@@ -118,6 +118,7 @@ Si le message suivant s'affiche:<br>
         <li>Nom du site</li>
         <li>Nom d'usager</li>
         <li>Mot de passe</li>
+        <li>Prendre le temps de cocher: "Demander aux moteurs de recherche de ne pas indexer ce site" car c'est un travail d'école.</li>
         <li>etc.</li>
     </ul>
 
