@@ -23,11 +23,15 @@
 <wiki-page name="Cours 01" date="2023-08-16">
     <h2>Plan de cours pour cette session</h2>
     <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EbENfrsfrYVKlTqWP2Gpea0BZ4sezybh4SRfHBbH485SxA?e=5FgrKg"
-            target="_blank" rel="noopener noreferrer">Plan de cours pour groupe du LUNDI</a> MAJ 2023-09-28 <em>(accessible seulement
-            avec votre compte du collège)</em></p>
+            target="_blank" rel="noopener noreferrer">Plan de cours pour groupe du LUNDI</a> MAJ 2023-09-28
+        <em>(accessible seulement
+            avec votre compte du collège)</em>
+    </p>
     <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Ee_sexzM1axDndreKu2-g3gBSENSmg4X32S81FV3QflfDw?e=dBzmfH"
-            target="_blank" rel="noopener noreferrer">Plan de cours pour groupe du VENDREDI</a> MAJ 2023-09-28 <em>(accessible
-            seulement avec votre compte du collège)</em></p>
+            target="_blank" rel="noopener noreferrer">Plan de cours pour groupe du VENDREDI</a> MAJ 2023-09-28
+        <em>(accessible
+            seulement avec votre compte du collège)</em>
+    </p>
     <h2>Sondage</h2>
     <p>Tutorat - <a href="https://app.wooclap.com/FLBLQP" target="_blank" rel="noopener noreferrer">Code Wooclap :
             FLBLQP</a>
@@ -363,7 +367,8 @@
         vous faites l'examen complet au SAA ou seulement la partie avant 9h50. Si vous voulez bouger à la classe,
         quelqu'un du SAA devra vous escorter jusqu'à notre local à 9h50.</warning>
 
-    <alert>TOUT PLAGIAT EST INTERDIT SOUS PEINE D'ÉCHEC AUTOMATIQUE. La situation est aussi grave chez la personne qui copie que la personne qui divulgue.</alert>
+    <alert>TOUT PLAGIAT EST INTERDIT SOUS PEINE D'ÉCHEC AUTOMATIQUE. La situation est aussi grave chez la personne qui
+        copie que la personne qui divulgue.</alert>
     <warning>Chaque groupe classe aura sa version de l'examen.</warning>
     <br><br>
     <p style="color: var(--main-color);"><strong>> Tutorat</strong></p>
@@ -397,7 +402,7 @@
 
     <h2>SASS</h2>
     <p>Imbrication dans le cas d'un menu de 2 niveaux&nbsp;: démo en classe</p>
-  
+
     <br>
 
     <h2>CSS</h2>
@@ -405,20 +410,7 @@
     <br>
     <p style="color: var(--main-color);"><strong>> Exercices: Liens présentés en classe</strong></p>
 
-    <br>
 
-    <h2>Serveur local et WordPress</h2>
-    <?php intlink("../wordpress/mamp/"); ?>
-    <?php intlink("../wordpress/installation-en-local/"); ?>
-    <p style="color: var(--main-color);"><strong>> Exercice: </strong><br>Installer WordPress en local, installer un thème existant, explorez.</p>
-
-    <br>
-
-    <h2>HTML</h2>
-    <?php intlink("../../582-111MO/html/microdonnees/"); ?>
-    <br>
-    <p style="color: var(--main-color);"><strong>> Exercice: Lien présenté en classe</strong></p>
-    <br>
 
 
     <br><br><br>
@@ -428,12 +420,14 @@
     <ul>
         <li>N'oubliez pas de démarrer votre minuteur Toggl.</li>
         <li>En équipe, divisez la tâche: réalisez les requis pour le site web.</li>
-        <li>Montez vos pages HTML, CSS (ne montez qu'une seule page d'un même type: par exemple, sur les 13 pages de détail de nouvelle, n'en monter qu'une seule, ce sera votre modèele (template) pour les autres lorsque vous serez rendus dans WordPress).</li>
+        <li>Montez vos pages HTML, CSS (ne montez qu'une seule page d'un même type: par exemple, sur les 13 pages de
+            détail de nouvelle, n'en monter qu'une seule, ce sera votre modèele (template) pour les autres lorsque vous
+            serez rendus dans WordPress).</li>
         <li>Utilisez JavaScript pour dynamiser la bannière d'avertissement de travail étudiant, animer en GSAP etc.</li>
         <li>Attribuez-vous une tâche à la fois en la glissant dans la colonne "En cours" dans Trello.</li>
- 
+
     </ul>
-<br><br>
+    <br><br>
     <hr><br>
 
     <h2>Devoirs </h2>
@@ -465,7 +459,8 @@
         <li style="padding: 0; margin: 0;">COURS et LABO : 13h30 à 18h00</li>
     </ul>
 
-    <alert>TOUT PLAGIAT EST INTERDIT SOUS PEINE D'ÉCHEC AUTOMATIQUE. La situation est aussi grave chez la personne qui copie que la personne qui divulgue.</alert>
+    <alert>TOUT PLAGIAT EST INTERDIT SOUS PEINE D'ÉCHEC AUTOMATIQUE. La situation est aussi grave chez la personne qui
+        copie que la personne qui divulgue.</alert>
     <warning>Chaque groupe classe a sa propre version de l'examen.</warning>
 
 
@@ -474,12 +469,79 @@
     <hr>
 
     <h2>Annonces</h2>
-    <p>Plans de cours mis-à-jour (cours cours 1 dans le wiki) - Petite modification pour la remise 3 de devOp et agent de promo</p>
+    <p>Plans de cours mis-à-jour (cours cours 1 dans le wiki) - Petite modification pour la remise 3 de devOp et agent
+        de promo</p>
 
+    <br><br>
+    <hr><br>
+    <h2>Accéder au serveur chez l'éhébergeur hostpapa et au cPanel</h2>
+    <p>Démo en classe.</p>
+
+    <br><br>
+    <hr><br>
+    <h2>Serveur local et WordPress</h2>
+    <?php intlink("../wordpress/mamp/"); ?>
+    <?php intlink("../wordpress/installation-en-local/"); ?>
+    <alert>ATTENTION NE PAS POUSSER AUCUNE INSTALLATION LOCAL SUR VOTRE GIT POUR LE MOMENT. Il faut gérer le gitignore.
+    </alert>
+  
+
+    <h3>.gitignore pour exclure les fichiers de base de wp </h3>
+    <?php intlink("../git/gitignore/"); ?>
+
+    <p style="color: var(--main-color);"><strong>> Exercice: </strong><br>Installer WordPress en local, installer un
+        thème existant, explorez.</p>
+<br><br>
+    <hr><br>
+
+    <h2>Thèmes et extensions </h2>
+
+    <?php intlink("../wordpress/themes-et-extensions/"); ?>
+
+
+
+
+
+    <h2>Styles CSS </h2>
+
+    <?php intlink("../wordpress/styles-css/"); ?>
+
+
+
+
+
+    <h2>Modèles </h2>
+    <?php intlink("..//wordpress/modeles/"); ?>
+
+    <h2>Partiels </h2>
+    <?php intlink("../wordpress/partiels/"); ?>
+
+    <h2>Menu </h2>
+    <?php intlink("../wordpress/menus/"); ?>
+<br><br>
+    <hr><br>
+
+    <h2>HTML</h2>
+    <?php intlink("../../582-111MO/html/microdonnees/"); ?>
+    <br>
+    <p style="color: var(--main-color);"><strong>> Exercice: Lien présenté en classe</strong></p>
     <br>
 
 
-    <h3>Exercices</h3>
+    <br><br><br>
+    <hr><br>
+
+    <h2>Labo </h2>
+    <ul>
+        <li>N'oubliez pas de démarrer votre minuteur Toggl.</li>
+        <li>En équipe, divisez la tâche: réalisez les requis pour le site web.</li>
+        <li>Montez vos pages HTML, CSS (ne montez qu'une seule page d'un même type: par exemple, sur les 13 pages de
+            détail de nouvelle, n'en monter qu'une seule, ce sera votre modèele (template) pour les autres lorsque vous
+            serez rendus dans WordPress).</li>
+        <li>Utilisez JavaScript pour dynamiser la bannière d'avertissement de travail étudiant, animer en GSAP etc.</li>
+        <li>Attribuez-vous une tâche à la fois en la glissant dans la colonne "En cours" dans Trello.</li>
+
+    </ul>
 
 
 
@@ -489,7 +551,9 @@
     <hr><br>
     <h2>Devoirs pour tous</h2>
     <p>Avancer le projet de session. <br> Rappel pondération du cours : <em>1-7-4</em> .
-    <br>Il est donc attendu que vous travailliez 4h par semaine en dehors du cours afin d'avancer votre projet d'équipe.</p>
+        <br>Il est donc attendu que vous travailliez 4h par semaine en dehors du cours afin d'avancer votre projet
+        d'équipe.
+    </p>
 
     <h2>Devoirs pour devOps et Agent de promo</h2>
     <p>Remise modifiées au cours 7 (et 15) (initialement prévue au cours 8 dans plan de cours)</p>
