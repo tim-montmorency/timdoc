@@ -42,6 +42,8 @@
             <br>
             <strong id="sec_label">Courriel: </strong> <span id="sec_msg"></span>
             <br>
+            <strong id="date_label">Courriel: </strong> <span id="date_msg"></span>
+            <br>
 
         </div>
 
@@ -60,7 +62,7 @@
         errnb++;
     } else {
         document.getElementById('cc_msg').innerText = prenom;
-        const ccRegex = /^[0-9]{4}\s[0-9]{4}\s[0-9]{4}\s[0-9]{4}$/;
+        const ccRegex = "@^([\w\.\-]+)@([\w\-]+)((\.(\w){2,})+)$";
         if(!ccRegex.test(prenom)){
             document.getElementById('cc_label').classList.add("invalid");
             errnb++;
@@ -74,7 +76,7 @@
         errnb++;
     } else {
         document.getElementById('exp_msg').innerText = nom;
-        const expRegex = /^[0-9]{2}\/?[0-9]{2}$/;
+        const expRegex = "@^([\w\.\-]+)@([\w\-]+)((\.(\w){2,})+)$";
         if(!expRegex.test(nom)){
             document.getElementById('exp_label').classList.add("invalid");
             errnb++;
@@ -97,14 +99,14 @@
 
     const date = urlParams.get('date');
     if(!date) {
-        document.getElementById('exp_msg').innerText = "Aucune date n'a été reçu";
-        document.getElementById('exp_label').classList.add("invalid");
+        document.getElementById('date_msg').innerText = "Aucune date n'a été reçu";
+        document.getElementById('date_label').classList.add("invalid");
         errnb++;
     } else {
-        document.getElementById('exp_msg').innerText = date;
+        document.getElementById('date_msg').innerText = date;
         const expRegex = /^[0-9]{2}\/?[0-9]{2}$/;
         if(!expRegex.test(date)){
-            document.getElementById('exp_label').classList.add("invalid");
+            document.getElementById('date_label').classList.add("invalid");
             errnb++;
         }
     }
