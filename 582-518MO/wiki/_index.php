@@ -473,14 +473,10 @@
     <br><br>
     <hr>
 
-    <h2>x
-        Annonces
-    </h2>
+    <h2>Annonces</h2>
     <p>Plans de cours mis-à-jour (cours cours 1 dans le wiki) - Petite modification pour la remise 3 de devOp et agent de promo</p>
 
     <br>
-
-    <?php intlink("../"); ?>
 
 
     <h3>Exercices</h3>
@@ -491,11 +487,14 @@
 
     <br><br><br>
     <hr><br>
+    <h2>Devoirs pour tous</h2>
+    <p>Avancer le projet de session. <br> Rappel pondération du cours : <em>1-7-4</em> .
+    <br>Il est donc attendu que vous travailliez 4h par semaine en dehors du cours afin d'avancer votre projet d'équipe.</p>
 
     <h2>Devoirs pour devOps et Agent de promo</h2>
-    <p>Remise devancée au cours 7 (initialement prévue au cours 8 dans plan de cours)</p>
-    DevOps <?php intlink("../projet/"); ?><br>
-    Agent de promo <?php intlink("../projet/"); ?><br><br>
+    <p>Remise modifiées au cours 7 (et 15) (initialement prévue au cours 8 dans plan de cours)</p>
+    DevOps (remise cours 7) <?php intlink("../projet/configuration-wordpress/"); ?> <br><br>
+    Agent de promo (deux remises: cours 7 et cours 15) <?php intlink("../projet/portfolio-projet-behance/"); ?> <br><br>
 
     <br><br>
 </wiki-page>
