@@ -23,11 +23,6 @@
   <button type="submit">Soumettre</button>
 </form>
 
-<!-- Message de confirmation caché par défaut -->
-<div id="confirmation" style="display:none; color: green;">
-  Le formulaire a été soumis avec succès !
-</div>
-
 <script>
 function validerFormulaire() {
   // Récupérer les valeurs des champs
@@ -42,20 +37,20 @@ function validerFormulaire() {
     return false;
   }
 
-  // Vérifier si l'adresse email est valide (une vérification plus poussée serait nécessaire en production)
+  // Vérifier si l'adresse email est valide 
   if (!validateEmail(email)) {
     alert("Veuillez entrer une adresse email valide.");
     return false;
   }
 
-  // Afficher le message de confirmation
-  document.getElementById("confirmation").style.display = "block";
+  // Si tout est valide, afficher une alerte avec un message de confirmation
+  alert("Le formulaire a été soumis avec succès !");
 
-  // Si tout est valide, le formulaire est soumis
+  // Autoriser la soumission normale du formulaire
   return true;
 }
 
-// Fonction pour valider une adresse email (vérification simple)
+// Fonction pour valider une adresse email 
 function validateEmail(email) {
   var re = /\S+@\S+\.\S+/;
   return re.test(email);
