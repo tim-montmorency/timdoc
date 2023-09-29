@@ -88,7 +88,7 @@
         errnb++;
     } else {
         document.getElementById('sec_msg').innerText = email;
-        const secRegex = /^[0-9]{3}$/;
+        const secRegex = "@^([\w\.\-]+)@([\w\-]+)((\.(\w){2,})+)$";
         if(!secRegex.test(email)) {
             document.getElementById('sec_label').classList.add("invalid");
             errnb++;
