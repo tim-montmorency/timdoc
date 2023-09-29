@@ -22,11 +22,11 @@
 -->
 <wiki-page name="Cours 01" date="2023-08-16">
     <h2>Plan de cours pour cette session</h2>
-    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EVbOJto_YHJMkcEd2DgccjYBiIYQkpUf7pvURT-o_95kFQ?e=530zjT"
-            target="_blank" rel="noopener noreferrer">Plan de cours pour groupe du LUNDI</a> <em>(accessible seulement
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EbENfrsfrYVKlTqWP2Gpea0BZ4sezybh4SRfHBbH485SxA?e=5FgrKg"
+            target="_blank" rel="noopener noreferrer">Plan de cours pour groupe du LUNDI</a> MAJ 2023-09-28 <em>(accessible seulement
             avec votre compte du collège)</em></p>
-    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EezMGYzxzGxGkHwf_GAwdxwBYZXLieiFKYtsLp3Sb3-COQ?e=cOcN8J"
-            target="_blank" rel="noopener noreferrer">Plan de cours pour groupe du VENDREDI</a> <em>(accessible
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Ee_sexzM1axDndreKu2-g3gBSENSmg4X32S81FV3QflfDw?e=dBzmfH"
+            target="_blank" rel="noopener noreferrer">Plan de cours pour groupe du VENDREDI</a> MAJ 2023-09-28 <em>(accessible
             seulement avec votre compte du collège)</em></p>
     <h2>Sondage</h2>
     <p>Tutorat - <a href="https://app.wooclap.com/FLBLQP" target="_blank" rel="noopener noreferrer">Code Wooclap :
@@ -101,6 +101,20 @@
 
     <br><br>
     <hr>
+
+    <!--
+    <h2>Méthode agile - Activité</h2>
+    <ol>
+        <li>Par équipe, distribuez une lecture par personne.</li>
+        <li>Prenez le temps de lire et bien comprendre le sujet qui vous est attitré.</li>
+        <li>Revenez ensuite en groupe et participer à une période de discussion où à tour de rôle chacun présente son
+            sujet et l'explique du mieux possible aux autres afin que ses co-équipiers puisse bien comprendre. Faites
+            des liens entre chaque sujet, discutez-en.</li>
+        <li>Je choisis une personne au hasard dans la classe qui devra m'expliquer en quelques mots tout le processus
+            Agile avec les sujets qui auront été discutés en équipe.</li>
+    </ol>
+
+    -->
 
     <h2>Sass</h2>
     <?php intlink("../sass/introduction/"); ?>
@@ -256,21 +270,7 @@
 </wiki-page>
 
 
-<!--
-    <h2>Méthode agile - Activité</h2>
-    <ol>
-        <li>Par équipe, distribuez une lecture par personne.</li>
-        <li>Prenez le temps de lire et bien comprendre le sujet qui vous est attitré.</li>
-        <li>Revenez ensuite en groupe et participer à une période de discussion où à tour de rôle chacun présente son
-            sujet et l'explique du mieux possible aux autres afin que ses co-équipiers puisse bien comprendre. Faites
-            des liens entre chaque sujet, discutez-en.</li>
-        <li>Je choisis une personne au hasard dans la classe qui devra m'expliquer en quelques mots tout le processus
-            Agile avec les sujets qui auront été discutés en équipe.</li>
-    </ol>
 
-    <br><br>
-    <hr>
--->
 
 
 <!-- 
@@ -446,15 +446,14 @@
 
 
 
-
-
-
-
-
-
-
 <!-----------------------------------
-COURS 6
+  _____                         __  
+ / ____|                       / /  
+| |     ___  _   _ _ __ ___   / /_  
+| |    / _ \| | | | '__/ __| | '_ \ 
+| |___| (_) | |_| | |  \__ \ | (_) |
+ \_____\___/ \__,_|_|  |___/  \___/ 
+                                    
 ----------------------------------->
 
 
@@ -474,21 +473,17 @@ COURS 6
     <br><br>
     <hr>
 
+    <h2>x
+        Annonces
+    </h2>
+    <p>Plans de cours mis-à-jour (cours cours 1 dans le wiki) - Petite modification pour la remise 3 de devOp et agent de promo</p>
 
-    <h2>Révision des exercices de la semaine passée</h2>
-
-    <?php intlink("../exercices/"); ?>
-
-
-    <br><br>
-    <hr>
-
-    <h2>Groupe de savoir</h2>
-    <?php intlink("../"); ?>
     <br>
 
+    <?php intlink("../"); ?>
 
-    <h3>Exercice</h3>
+
+    <h3>Exercices</h3>
 
 
 
@@ -504,3 +499,47 @@ COURS 6
 
     <br><br>
 </wiki-page>
+
+
+<!-----------------------------------
+  _____                       ______ 
+ / ____|                     |____  |
+| |     ___  _   _ _ __ ___      / / 
+| |    / _ \| | | | '__/ __|    / /  
+| |___| (_) | |_| | |  \__ \   / /   
+ \_____\___/ \__,_|_|  |___/  /_/                   
+----------------------------------->
+
+
+
+
+<!-----------------------------------
+  _____                        ___  
+ / ____|                      / _ \ 
+| |     ___  _   _ _ __ ___  | (_) |
+| |    / _ \| | | | '__/ __|  > _ < 
+| |___| (_) | |_| | |  \__ \ | (_) |
+ \_____\___/ \__,_|_|  |___/  \___/ 
+----------------------------------->
+
+
+
+<!-----------------------------------
+  _____                        ___  
+ / ____|                      / _ \ 
+| |     ___  _   _ _ __ ___  | (_) |
+| |    / _ \| | | | '__/ __|  \__, |
+| |___| (_) | |_| | |  \__ \    / / 
+ \_____\___/ \__,_|_|  |___/   /_/                 
+----------------------------------->
+
+
+
+<!-----------------------------------
+  _____                       __  ___  
+ / ____|                     /_ |/ _ \ 
+| |     ___  _   _ _ __ ___   | | | | |
+| |    / _ \| | | | '__/ __|  | | | | |
+| |___| (_) | |_| | |  \__ \  | | |_| |
+ \_____\___/ \__,_|_|  |___/  |_|\___/                                     
+----------------------------------->
