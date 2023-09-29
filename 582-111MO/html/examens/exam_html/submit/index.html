@@ -42,7 +42,7 @@
             <br>
             <strong id="sec_label">Courriel: </strong> <span id="sec_msg"></span>
             <br>
-            <strong id="date_label">Courriel: </strong> <span id="date_msg"></span>
+            <strong id="date_label">Date: </strong> <span id="date_msg"></span>
             <br>
 
         </div>
@@ -104,8 +104,8 @@
         errnb++;
     } else {
         document.getElementById('date_msg').innerText = date;
-        const expRegex = /^[0-9]{2}\/?[0-9]{2}$/;
-        if(!expRegex.test(date)){
+        const dateRegex = /^[0-9]{2}\/?[0-9]{2}$/;
+        if(!dateRegex.test(date)){
             document.getElementById('date_label').classList.add("invalid");
             errnb++;
         }
