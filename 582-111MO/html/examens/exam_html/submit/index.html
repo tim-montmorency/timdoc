@@ -1,66 +1,120 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Formulaire de validation</title>
-</head>
-<body>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carte de crédit</title>
+        <style>
+            * { box-sizing: border-box; }
 
-<form id="monFormulaire" onsubmit="return validerFormulaire()">
-  <label for="prenom">Prénom</label>
-  <input type="texte" id="prenom" placeholder="Entrez votre prénom" name="prenom" required />
+            html {
+                height: 100%;
+                background-image: linear-gradient(#000000, #6ce6a5);
+            }
 
-  <label for="nom">Nom</label>
-  <input type="texte" id="nom" placeholder="Entrez votre nom" name="nom" required />
+            .form {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 50%;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 6px;
+                min-width: 320px;
+                max-width: 600px;
+                min-height: 50px;
+            }
 
-  <label for="email">Courriel:</label>
-  <input type="email" id="email" placeholder="Entrez votre courriel" name="email" required />
+            .invalid {
+                color: #eb001b;
+            }
+        </style>
+    </head>
+    <body>
 
-  <label for="date">Date:</label>
-  <input type="date" id="date" min="1980-01-01" max="2000-01-01" />
+        <div class="form">
+            <p id="msg"></p>
+            <strong id="cc_label">Prénom: </strong> <span id="cc_msg"></span>
+            <br>
+            <strong id="exp_label">Nom: </strong> <span id="exp_msg"></span>
+            <br>
+            <strong id="sec_label">Courriel: </strong> <span id="sec_msg"></span>
+            <br>
+            <strong id="date_label">Date: </strong> <span id="date_msg"></span>
+            <br>
 
-  <label> <input type="checkbox" name="remember" /> Je veux recevoir l'infolettre </label>
+        </div>
 
-  <button type="submit">Soumettre</button>
-</form>
-
-<!-- Message de confirmation caché par défaut -->
-<div id="confirmation" style="display:none; color: green;">
-  Le formulaire a été soumis avec succès !
-</div>
+    </body>
+</html>
 
 <script>
-function validerFormulaire() {
-  // Récupérer les valeurs des champs
-  var prenom = document.getElementById("prenom").value;
-  var nom = document.getElementById("nom").value;
-  var email = document.getElementById("email").value;
-  var date = document.getElementById("date").value;
+    
+    let errnb = 0;
+    const urlParams = new URLSearchParams(window.location.search);
 
-  // Vérifier si les champs Prénom, Nom, Courriel et Date sont vides
-  if (prenom === "" || nom === "" || email === "" || date === "") {
-    alert("Tous les champs doivent être remplis.");
-    return false;
-  }
+    const prenom = urlParams.get('prenom');
+    if(!prenom) {
+        document.getElementById('cc_msg').innerText = "Aucun prénom n'a été reçu";
+        document.getElementById('cc_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('cc_msg').innerText = prenom;
+        const ccRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
+        if(!ccRegex.test(prenom)){
+            document.getElementById('cc_label').classList.add("invalid");
+            errnb++;
+        }
+    }
 
-  // Vérifier si l'adresse email est valide (une vérification plus poussée serait nécessaire en production)
-  if (!validateEmail(email)) {
-    alert("Veuillez entrer une adresse email valide.");
-    return false;
-  }
+    const nom = urlParams.get('nom');
+    if(!nom) {
+        document.getElementById('exp_msg').innerText = "Aucun prénom n'a été reçu";
+        document.getElementById('exp_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('exp_msg').innerText = nom;
+        const expRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
+        if(!expRegex.test(nom)){
+            document.getElementById('exp_label').classList.add("invalid");
+            errnb++;
+        }
+    }
 
-  // Afficher le message de confirmation
-  document.getElementById("confirmation").style.display = "block";
+    const email = urlParams.get('email');
+    if(!email) {
+        document.getElementById('sec_msg').innerText = "Aucun email n'a été reçu";
+        document.getElementById('sec_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('sec_msg').innerText = email;
+        const secRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if(!secRegex.test(email)) {
+            document.getElementById('sec_label').classList.add("invalid");
+            errnb++;
+        }
+    }
 
-  // Si tout est valide, le formulaire est soumis
-  return true;
-}
+    const date = urlParams.get('date');
+    if(!date) {
+        document.getElementById('date_msg').innerText = "Aucune date n'a été reçu";
+        document.getElementById('date_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('date_msg').innerText = date;
+        const dateRegex = /^\d{4}[\/\-](0?[1-9]|1[012])[\/\-](0?[1-9]|[12][0-9]|3[01])$/;
+        if(!dateRegex.test(date)){
+            document.getElementById('date_label').classList.add("invalid");
+            errnb++;
+        }
+    }
 
-// Fonction pour valider une adresse email (vérification simple)
-function validateEmail(email) {
-  var re = /\S+@\S+\.\S+/;
-  return re.test(email);
-}
+    if(errnb) {
+        document.getElementById('msg').innerText = "❌ Désolé, certaines informations sont invalides.";
+    } else {
+        document.getElementById('msg').innerText = "✅ Merci vos informations ont bien été reçues.";
+    }
+
 </script>
-
-</body>
-</html>
