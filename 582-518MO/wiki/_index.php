@@ -469,6 +469,7 @@
     <hr>
 
     <h2>Annonces</h2>
+    <p>Examen final bougé! Prévu à la base au cours 13, maintenant il sera pendant la semaine d'examen, soit le 18 décembre de 11h00 à 14h00 pour les 2 groupe, au C-1639 (ici). Notez bien ça à votre agenda!</p>
     <p>Plans de cours mis-à-jour (cours cours 1 dans le wiki) - Petite modification pour la remise 3 de devOp et agent
         de promo</p>
 
