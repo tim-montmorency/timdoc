@@ -90,7 +90,7 @@ Collez le code suivant dans votre fichier HTML:</checklist>
 <checklist>Téléchargez et déposez le fichier _base.scss dans votre projet : créez un dossier nommé de façon pertinente pour ce type de fichier et déposez le fichier dans ce dossier 📁.
 Importez _base.scss dans votre code selon la méthode appropriée.
 Utilisez la variable&nbsp;<code>$bg</code>&nbsp;du fichier&nbsp;<code>_base.scss</code> comme couleur de fond de la page.
-Le bloc contenant tous les coureurs seral e conteneur de la grille de mise en page.
+Le bloc contenant tous les coureurs sera le conteneur de la grille de mise en page.
 Ce bloc contenant tous les coureurs doit prendre toute la largeur de l'écran, jusqu'à concurrence de 1000px de large, être centré horizontalement dans la page ↔️, avoir une marge intérieure de 20px de tous les côtés et une marge extérieure verticale de 50px.<br><br>Attention de faire en sorte que la dimension totale soit bien de 1000px incluant les marges intérieures.
 Appliquez la mixin <em>runner</em> à chacun des coureurs.
 Faites en sorte que l'image de chaque coureur prenne tous l'espace disponible dans son parent et soit parfaitement ronde.
