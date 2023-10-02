@@ -93,7 +93,7 @@ Utilisez la variable&nbsp;<code>$bg</code>&nbsp;du fichier&nbsp;<code>_base.scss
 Le bloc contenant tous les coureurs sera le conteneur de la grille de mise en page.
 Ce bloc contenant tous les coureurs doit prendre toute la largeur de l'écran, jusqu'à concurrence de 1000px de large, être centré horizontalement dans la page ↔️, avoir une marge intérieure de 20px de tous les côtés et une marge extérieure verticale de 50px.<br><br>Attention de faire en sorte que la dimension totale soit bien de 1000px incluant les marges intérieures.
 Appliquez la mixin <em>runner</em> à chacun des coureurs.
-Faites en sorte que l'image de chaque coureur prenne tous l'espace disponible dans son parent et soit parfaitement ronde.
+Faites en sorte que l'image de chaque coureur prenne tous l'espace disponible dans son parent et soit parfaitement ronde. <br><br>Attention, vous devez utiliser l'imbrication et la nomenclature BEM pour sélectionner l'image afin de lui attribuer ses styles CSS.
 Créez une boucle <em>for</em> en SCSS afin de sélectionner chacun des coureurs.
 À l'intérieur de cette boucle, faites afficher la position de chacun des coureurs dans une bulle de 1 à 6 en noir sur un fond blanc ⚪️ en haut à droite de ceux-ci. La bulle doit avoir une dimension de 40x40px et le texte à l'intérieur doit-être centré horizontalement ↔️ et verticalement ↕️. 
 Vous devez aussi utiliser cette boucle afin d'assigner chacun des coureurs à un espace (une zone) dans la grille. Ces espaces (zones) seront nommés no1, no2, no3… jusqu'à no6. 
