@@ -103,7 +103,7 @@ Sur un écran d'une largeur de 700px et plus, faites en sorte que tous les coure
 Utilisez maintenant une boucle SCSS à partir de la variable&nbsp;<code>$colorsArr</code>&nbsp;contenue dans le fichier&nbsp;<code>_base.scss</code>&nbsp;et sélectionnez chacun des coureurs.<br><br>Pour tester votre boucle, vous pouvez temporairement changer la couleur de fond du coureur par celle à la position courante dans la boucle.
 À l'intérieur de cette boucle, créez une variable SCSS. Cette variable devra contenir la couleur courante de la boucle, mais son hue devra être augmenté de 50.
 Toujours dans votre boucle SCSS, créez un dégradé de haut en bas à partir de la couleur courante dans la boucle vers celle contenue dans la variable SCSS que vous venez de créer.
-Utilisez l'imbrication SASS afin de créer la classe modificateur&nbsp;<code>runner--active</code>. Celle-ci doit faire déplacer vers le haut de 15px le coureur la possédant.
+Utilisez l'imbrication SASS afin de créer la classe modificateur&nbsp;<code>runner--active</code>. Celle-ci doit faire grossir de 10% le coureur l'ayant.
 Ajoutez un fichier script.js dans votre projet. En JavaScript, faites en sorte que lorsqu'un coureur se fait cliquer dessus, il reçoive la classe&nbsp;<code>runner--active</code>. Attention, il ne peut y avoir qu'un seul coureur actif à la fois. Autrement dit, cette classe ne doit jamais être sur deux coureurs en même temps.</checklist>
 
 
