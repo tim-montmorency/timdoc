@@ -12,6 +12,7 @@
 <p>Aperçu du résultat 👇</p>
 
 <clipasset src='medias/color-run-resultat.mp4'></clipasset>
+<small>Pour la portion "clic sur image" (requis #17 et #18), ne vous fiez pas à la démo-ci haut. <br>Imaginez plutôt que le cercle s'agrandit de 10%.</small>
 
 <dots></dots>
 
