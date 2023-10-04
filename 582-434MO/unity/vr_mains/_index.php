@@ -1,0 +1,22 @@
+<?php
+/**
+ * @type     article
+ * @title    Mains
+ * @icon     images/icon.png
+ * @abstract Modifier l'allure
+ */
+?>
+
+<p class="spacer">Nous allons voir comment changer l'apparence des mains.</p>
+
+
+<dots></dots>
+
+<grostitre>Mains</grostitre>
+<p>Modifier l'apparence des mains dans Unity est très simple. Pour se faire, suivez les étapes suivantes pour chacun de vos controlleurs:</p>
+<checklist>
+    Sélectionnez le Left Controller ou Right Controller dans la hiérarchy.
+    Dans la composante XR Controller, trouvez le paramètre Model Prefab qui est tout en bas.
+    Glissez le modèle que vous voulez utiliser pour vos mains dans cette boîte.
+    C'est tout!
+</checklist>
