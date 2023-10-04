@@ -81,11 +81,11 @@
 </wiki-page>
 
 <wiki-page name="Cours 07">
-
-<h3>Continuer l'exercice 2</h3>
+<h3>Sortie Zéro Latency</h3>
+<h3>Devoir:Continuer l'exercice 2</h3>
 <?php intlink("../exercices/scene/"); ?>
 
-<h3>Commencer l'idéation du projet final</h3>
+<h3>Devoir: Commencer l'idéation du projet final</h3>
 </wiki-page>
 
 <wiki-page name="10 octobre">
