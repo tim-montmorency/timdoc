@@ -102,7 +102,7 @@
 <h4>8h:50 Remise de la correction</h4>
 
 <h2>Conférence de Sophie Daigle</h2>
-<p>9h: Début de la conférence</p>
+<p>9h: Début de la conférence </p>
 
 
 </wiki-page>
