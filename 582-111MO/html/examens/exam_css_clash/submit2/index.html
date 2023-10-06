@@ -156,12 +156,12 @@
     }
     
     const whatsapp = urlParams.get('whatsapp');
-    if(!whatsapp) {
+    if(!whatsapp.checked) {
+        document.getElementById('discord_msg').innerText = discord;
+    } else {
         document.getElementById('whatsapp_msg').innerText = "Aucun choix n'a été reçu";
         document.getElementById('whatsapp_label').classList.add("invalid");
         errnb++;
-    } else {
-        document.getElementById('whatsapp_msg').innerText = whatsapp;
     }
     
 
