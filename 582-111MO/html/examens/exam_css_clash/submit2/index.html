@@ -138,7 +138,7 @@
         document.getElementById('time_label').classList.add("invalid");
         errnb++;
     } else {
-        document.getElementById('dtime_msg').innerText = time;
+        document.getElementById('time_msg').innerText = time;
         const timeRegex = /^\d{4}[\/\-](0?[1-9]|1[012])[\/\-](0?[1-9]|[12][0-9]|3[01])$/;
         if(!timeRegex.test(time)){
             document.getElementById('time_label').classList.add("invalid");
@@ -155,15 +155,15 @@
         document.getElementById('discord_msg').innerText = discord;
     }
     
+
     const whatsapp = urlParams.get('whatsapp');
-    if(!whatsapp.checked) {
-        document.getElementById('discord_msg').innerText = discord;
-    } else {
+    if(!whatsapp) {
         document.getElementById('whatsapp_msg').innerText = "Aucun choix n'a été reçu";
         document.getElementById('whatsapp_label').classList.add("invalid");
         errnb++;
-    }
-    
+    } else {
+        document.getElementById('whatsapp_msg').innerText = whatsapp;
+    } 
 
     const contenu = urlParams.get('contenu');
     if(!contenu) {
