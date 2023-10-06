@@ -42,7 +42,7 @@
             <br>
             <strong id="sec_label">Courriel: </strong> <span id="sec_msg"></span>
             <br>
-            <strong id="date_label">Date: </strong> <span id="date_msg"></span>
+            <strong id="date_label">Texte </strong> <span id="date_msg"></span>
             <br>
 
         </div>
@@ -71,7 +71,7 @@
 
     const nom = urlParams.get('nom');
     if(!nom) {
-        document.getElementById('exp_msg').innerText = "Aucun prénom n'a été reçu";
+        document.getElementById('exp_msg').innerText = "Aucun nom n'a été reçu";
         document.getElementById('exp_label').classList.add("invalid");
         errnb++;
     } else {
@@ -97,16 +97,16 @@
         }
     }
 
-    const date = urlParams.get('date');
-    if(!date) {
-        document.getElementById('date_msg').innerText = "Aucune date n'a été reçu";
-        document.getElementById('date_label').classList.add("invalid");
+    const contenu = urlParams.get('contenu');
+    if(!contenu) {
+        document.getElementById('text_msg').innerText = "Aucun texte n'a été reçu";
+        document.getElementById('text_label').classList.add("invalid");
         errnb++;
     } else {
-        document.getElementById('date_msg').innerText = date;
-        const dateRegex = /^\d{4}[\/\-](0?[1-9]|1[012])[\/\-](0?[1-9]|[12][0-9]|3[01])$/;
-        if(!dateRegex.test(date)){
-            document.getElementById('date_label').classList.add("invalid");
+        document.getElementById('text_msg').innerText = contenu;
+        const dateRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
+        if(!dateRegex.test(contenu)){
+            document.getElementById('text_label').classList.add("invalid");
             errnb++;
         }
     }
