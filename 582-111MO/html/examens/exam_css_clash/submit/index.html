@@ -42,7 +42,7 @@
             <br>
             <strong id="sec_label">Courriel: </strong> <span id="sec_msg"></span>
             <br>
-            <strong id="date_label">Texte </strong> <span id="date_msg"></span>
+            <strong id="contenu_label">Texte </strong> <span id="contenu_msg"></span>
             <br>
 
         </div>
@@ -99,14 +99,14 @@
 
     const contenu = urlParams.get('contenu');
     if(!contenu) {
-        document.getElementById('text_msg').innerText = "Aucun texte n'a été reçu";
-        document.getElementById('text_label').classList.add("invalid");
+        document.getElementById('contenu_msg').innerText = "Aucun texte n'a été reçu";
+        document.getElementById('contenu_label').classList.add("invalid");
         errnb++;
     } else {
-        document.getElementById('text_msg').innerText = contenu;
-        const dateRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
-        if(!dateRegex.test(contenu)){
-            document.getElementById('text_label').classList.add("invalid");
+        document.getElementById('contenu_msg').innerText = contenu;
+        const contenuRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
+        if(!contenuRegex.test(contenu)){
+            document.getElementById('contenu_label').classList.add("invalid");
             errnb++;
         }
     }
