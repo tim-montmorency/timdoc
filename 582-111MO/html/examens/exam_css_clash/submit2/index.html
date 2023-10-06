@@ -36,8 +36,6 @@
 
         <div class="form">
             <p id="msg"></p>
-            <strong id="cc_label">Prénom: </strong> <span id="cc_msg"></span>
-            <br>
             <strong id="exp_label">Nom: </strong> <span id="exp_msg"></span>
             <br>
             <strong id="sec_label">Courriel: </strong> <span id="sec_msg"></span>
@@ -51,14 +49,14 @@
             <strong id="time_label">Heure: </strong> <span id="time_msg"></span>
             <br>
             <h3>Méthode de communication</h3>
-            <strong id="discord_label">Heure: </strong> <span id="discord_msg"></span>
+            <strong id="discord_label">Discord: </strong> <span id="discord_msg"></span>
             <br>
-            <strong id="whatsapp_label">Heure: </strong> <span id="whatsapp_msg"></span>
+            <strong id="whatsapp_label">What's App: </strong> <span id="whatsapp_msg"></span>
             <br>
             <h3>Informations supplémentaires :</h3>
-            <strong id="contenu_label">Texte </strong> <span id="contenu_msg"></span>
+            <strong id="contenu_label">Vos commentaires : </strong> <span id="contenu_msg"></span>
             <br>
-            <strong id="conditions_label">Heure: </strong> <span id="dconditions_msg"></span>
+            <strong id="conditions_label">Conditions acceptées : </strong> <span id="dconditions_msg"></span>
             <br>
 
         </div>
@@ -71,19 +69,6 @@
     let errnb = 0;
     const urlParams = new URLSearchParams(window.location.search);
 
-    const prenom = urlParams.get('prenom');
-    if(!prenom) {
-        document.getElementById('cc_msg').innerText = "Aucun prénom n'a été reçu";
-        document.getElementById('cc_label').classList.add("invalid");
-        errnb++;
-    } else {
-        document.getElementById('cc_msg').innerText = prenom;
-        const ccRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
-        if(!ccRegex.test(prenom)){
-            document.getElementById('cc_label').classList.add("invalid");
-            errnb++;
-        }
-    }
 
     const nom = urlParams.get('nom');
     if(!nom) {
@@ -116,7 +101,7 @@
 
     const niveau = urlParams.get('niveau');
     if(!niveau) {
-        document.getElementById('niveau_msg').innerText = "Aucun texte n'a été reçu";
+        document.getElementById('niveau_msg').innerText = "Aucun niveau n'a été reçu";
         document.getElementById('niveau_label').classList.add("invalid");
         errnb++;
     } else {
@@ -126,7 +111,7 @@
 
     const experience = urlParams.get('experience');
     if(!experience) {
-        document.getElementById('experience_msg').innerText = "Aucun texte n'a été reçu";
+        document.getElementById('experience_msg').innerText = "Aucune expérience n'a été reçu";
         document.getElementById('experience_label').classList.add("invalid");
         errnb++;
     } else {
@@ -149,7 +134,7 @@
 
     const time = urlParams.get('time');
     if(!time) {
-        document.getElementById('time_msg').innerText = "Aucune date n'a été reçu";
+        document.getElementById('time_msg').innerText = "Aucune heure n'a été reçu";
         document.getElementById('time_label').classList.add("invalid");
         errnb++;
     } else {
@@ -163,20 +148,20 @@
 
     const discord = urlParams.get('discord');
     if(!discord) {
-        document.getElementById('discord_msg').innerText = "Aucun texte n'a été reçu";
+        document.getElementById('discord_msg').innerText = "Aucun choix n'a été reçu";
         document.getElementById('discord_label').classList.add("invalid");
         errnb++;
     } else {
-        document.getElementById('discord_msg').innerText = experience;
+        document.getElementById('discord_msg').innerText = discord;
     }
     
     const whatsapp = urlParams.get('whatsapp');
     if(!whatsapp) {
-        document.getElementById('whatsapp_msg').innerText = "Aucun texte n'a été reçu";
+        document.getElementById('whatsapp_msg').innerText = "Aucun choix n'a été reçu";
         document.getElementById('whatsapp_label').classList.add("invalid");
         errnb++;
     } else {
-        document.getElementById('whatsapp_msg').innerText = experience;
+        document.getElementById('whatsapp_msg').innerText = whatsapp;
     }
     
 
@@ -192,11 +177,11 @@
 
     const conditions = urlParams.get('conditions');
     if(!conditions) {
-        document.getElementById('conditions_msg').innerText = "Aucun texte n'a été reçu";
+        document.getElementById('conditions_msg').innerText = "Aucune condition n'a été reçu";
         document.getElementById('conditions_label').classList.add("invalid");
         errnb++;
     } else {
-        document.getElementById('conditions_msg').innerText = experience;
+        document.getElementById('conditions_msg').innerText = conditions;
     }
 
     if(errnb) {
