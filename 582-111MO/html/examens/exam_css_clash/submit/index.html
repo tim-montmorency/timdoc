@@ -104,11 +104,6 @@
         errnb++;
     } else {
         document.getElementById('contenu_msg').innerText = contenu;
-        const contenuRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
-        if(!contenuRegex.test(contenu)){
-            document.getElementById('contenu_label').classList.add("invalid");
-            errnb++;
-        }
     }
 
     if(errnb) {
