@@ -120,8 +120,18 @@
 
 
     const niveau = urlParams.get('niveau');
-        document.getElementById("niveau").querySelector("option[value='" + queryString + "']").selected = true;
-
+    if(!niveau) {
+        document.getElementById('niveau_msg').innerText = "Aucun nom n'a été reçu";
+        document.getElementById('niveau_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('niveau_msg').innerText = niveau;
+        const niveauRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
+        if(!niveauRegex.test(niveau)){
+            document.getElementById('niveau_label').classList.add("invalid");
+            errnb++;
+        }
+    }
 
 
     const contenu = urlParams.get('contenu');
