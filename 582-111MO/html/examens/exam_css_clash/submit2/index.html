@@ -110,7 +110,7 @@
         document.getElementById('pseudo_label').classList.add("invalid");
         errnb++;
     } else {
-        document.getElementById('pseudop_msg').innerText = pseudo;
+        document.getElementById('pseudo_msg').innerText = pseudo;
         const pseudoRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
         if(!pseudoRegex.test(pseudo)){
             document.getElementById('pseudo_label').classList.add("invalid");
