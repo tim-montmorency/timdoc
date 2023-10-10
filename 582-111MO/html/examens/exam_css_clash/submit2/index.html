@@ -40,10 +40,15 @@
             <br>
             <strong id="sec_label">Courriel: </strong> <span id="sec_msg"></span>
             <br>
+            <h3>Pseudo</h3>
+            <strong id="pseudo_label">Courriel: </strong> <span id="pseudo_msg"></span>
+            <br>
+            <h3>Niveau et Expérience</h3>
             <strong id="niv_label">Niveau: </strong> <span id="niv_msg"></span>
             <br>
             <strong id="experience_label">Expérience: </strong> <span id="experience_msg"></span>
             <br>
+            <h3>Disponibilité</h3>
             <strong id="date_label">Date: </strong> <span id="date_msg"></span>
             <br>
             <strong id="time_label">Heure: </strong> <span id="time_msg"></span>
@@ -99,7 +104,19 @@
     }
 
 
-
+    const pseudo = urlParams.get('pseudo');
+    if(!pseudo) {
+        document.getElementById('pseudo_msg').innerText = "Aucun nom n'a été reçu";
+        document.getElementById('pseudo_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('pseudop_msg').innerText = pseudo;
+        const pseudoRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
+        if(!pseudoRegex.test(pseudo)){
+            document.getElementById('pseudo_label').classList.add("invalid");
+            errnb++;
+        }
+    }
 
 
 
