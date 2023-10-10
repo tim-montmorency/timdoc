@@ -103,63 +103,9 @@
     document.getElementById("niveau").querySelector("option[value='" + queryString + "']").selected = true;
 
 
-    
 
-    const experience = urlParams.get('experience');
-    if(!experience) {
-        document.getElementById('experience_msg').innerText = "Aucune expérience n'a été reçu";
-        document.getElementById('experience_label').classList.add("invalid");
-        errnb++;
-    } else {
-        document.getElementById('experience_msg').innerText = experience;
-    }
 
-    const date = urlParams.get('date');
-    if(!date) {
-        document.getElementById('date_msg').innerText = "Aucune date n'a été reçu";
-        document.getElementById('date_label').classList.add("invalid");
-        errnb++;
-    } else {
-        document.getElementById('date_msg').innerText = date;
-        const dateRegex = /^\d{4}[\/\-](0?[1-9]|1[012])[\/\-](0?[1-9]|[12][0-9]|3[01])$/;
-        if(!dateRegex.test(date)){
-            document.getElementById('date_label').classList.add("invalid");
-            errnb++;
-        }
-    }
 
-    const time = urlParams.get('time');
-    if(!time) {
-        document.getElementById('time_msg').innerText = "Aucune heure n'a été reçu";
-        document.getElementById('time_label').classList.add("invalid");
-        errnb++;
-    } else {
-        document.getElementById('time_msg').innerText = time;
-        const timeRegex = /^\d{4}[\/\-](0?[1-9]|1[012])[\/\-](0?[1-9]|[12][0-9]|3[01])$/;
-        if(!timeRegex.test(time)){
-            document.getElementById('time_label').classList.add("invalid");
-            errnb++;
-        }
-    }
-
-    const discord = urlParams.get('discord');
-    if(!discord) {
-        document.getElementById('discord_msg').innerText = "Aucun choix n'a été reçu";
-        document.getElementById('discord_label').classList.add("invalid");
-        errnb++;
-    } else {
-        document.getElementById('discord_msg').innerText = discord;
-    }
-    
-
-    const whatsapp = urlParams.get('whatsapp');
-    if(!whatsapp) {
-        document.getElementById('whatsapp_msg').innerText = "Aucun choix n'a été reçu";
-        document.getElementById('whatsapp_label').classList.add("invalid");
-        errnb++;
-    } else {
-        document.getElementById('whatsapp_msg').innerText = whatsapp;
-    } 
 
     const contenu = urlParams.get('contenu');
     if(!contenu) {
@@ -171,14 +117,7 @@
     }
 
 
-    const conditions = urlParams.get('conditions');
-    if(!conditions) {
-        document.getElementById('conditions_msg').innerText = "Aucune condition n'a été reçu";
-        document.getElementById('conditions_label').classList.add("invalid");
-        errnb++;
-    } else {
-        document.getElementById('conditions_msg').innerText = conditions;
-    }
+
 
     if(errnb) {
         document.getElementById('msg').innerText = "❌ Désolé, certaines informations sont invalides.";
