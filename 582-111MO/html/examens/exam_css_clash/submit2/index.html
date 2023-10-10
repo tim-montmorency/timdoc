@@ -41,7 +41,7 @@
             <strong id="sec_label">Courriel: </strong> <span id="sec_msg"></span>
             <br>
             <h3>Pseudo</h3>
-            <strong id="pseudo_label">Courriel: </strong> <span id="pseudo_msg"></span>
+            <strong id="pseudo_label">Votre PSEUDO est: </strong> <span id="pseudo_msg"></span>
             <br>
             <h3>Niveau et Expérience</h3>
             <strong id="niv_label">Niveau: </strong> <span id="niv_msg"></span>
@@ -117,6 +117,10 @@
             errnb++;
         }
     }
+
+
+    const niveau = urlParams.get('niveau');
+        document.getElementById("niveau").querySelector("option[value='" + queryString + "']").selected = true;
 
 
 
