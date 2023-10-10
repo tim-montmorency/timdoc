@@ -29,7 +29,7 @@
 
 <grostitre>Méthode de sélection</grostitre>
 <p>En vr, nous verrons deux méthodes de sélection, le rayon et l'interaction directe. Le rayon nous permet de sélectionner un objet en pointant notre manette vers celui-ci. L'interaction directe pour sa part sélectionne l'objet lorsqu'on le touche ou qu'on entre dans sa zone de collision. Par défaut, vous avez un XR Ray Interactor composante sur vos deux manettes, vous pourrez le désactiver si vous ne voulez pas utiliser cette méthode. Vous pouvez aussi utiliser un mélange des deux méthodes. Pour l'interaction directe, vous devrez vous créer un objet vide comme enfant de votre controlleur et lui donner une composante XR Direct Interactor et un sphere Collider.</p>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O4XpqZM7R0U?si=bQTAMKGN7uYBFhYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <dots></dots>
 

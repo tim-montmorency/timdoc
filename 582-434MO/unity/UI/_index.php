@@ -21,6 +21,13 @@
 <p>Composante Canvas: Pour cette composante, nous pouvons ajuster le paramètre Render mode au besoin. Ce mode détermine de quelle façon le Canvas sera rendu. Par défaut, c'est Screen Space - Overlay qui sera choisi. Cela signifie que le Canvas sera rendu par-dessus la scène et que si la taille de l'écran est modifié, il sera modifié lui aussi. Screen space - camera est assez similaire, plutôt que de rendre le canvas sur la fenêtre, on le rend sur la caméra. Ainsi, le canvas suivra la position et la taille de la caméra. Finalement, World space fera en sorte que le canvas se comporte comme les autres objets de la scène. Ainsi, il restera à l'emplacement qu'on lui assigne et sa taille ne sera pas modifiée par l'écran.</p>
 <p>Composante Canvas Scaler: C'est grâce à cette composante qu'on déterminera la taille de notre Canvas. Constant pixel size fait en sorte que le canvas sera toujours de la même taille en pixels peut importe la taille de notre écran. Scale with screen size permet au canvas de s'adapter à la taille de l'écran. On donne une référence de résolution (exemple: 1920 x 1080) et ensuite on indique de quelle façon on souhaite que le canvas s'ajuste à l'écran. On peut déterminer si on considère la largeur ou la longeur comme point de référence. Sinon on peut dire de rapetisser ou d'agrandir dans l'écran. </p> 
 
+
+<dots></dots>
+
+<grostitre>Canvas en VR</grostitre>
+<p>Créer un les éléments de UI en VR est très similaire, voici les différences!</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rR4dcvoYjOE?si=XNTH7vUQr2MWg5-l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <dots></dots>
 <grostitre>Rect Transform</grostitre>
 <p>Les objets qui font partie du UI n'ont pas de Transform, mais ont une composante Rect Transform. Celui-ci est similaire au Transform, mais il a quelques paramètres supplémentaires pour le placement des éléments dans le Canvas.</p>

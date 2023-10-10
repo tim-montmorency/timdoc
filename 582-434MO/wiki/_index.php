@@ -121,7 +121,22 @@
 
 
 <wiki-page name="Cours 10">
+<?php intlink("../unity/interaction_vr/"); ?>
 <?php intlink("../unity/Importation3D/"); ?>
+<?php intlink("../unity/UI/#canvas-en-vr"); ?>
+
+
+<h2>Discussion Optimisation</h2>
+<p><checklist>
+  Low poly
+  Compression textures et ui
+  FPS (Stats)
+  Nombre et type de particules  
+  Éclairage statique ou dynamique
+</checklist></p>
+
+<h2>Exercice</h2>
+<?php intlink("../exercices/interaction_vr/"); ?>
 </wiki-page>
 
 <wiki-page name="14 novembre">
@@ -131,6 +146,27 @@
 
 </wiki-page>
 
+
+<wiki-page name="Cours 11">
+<?php intlink("../unity/audio_vr/"); ?>
+<?php intlink("../unity/transitions/"); ?>
+<?php intlink("../unity/eclairage/"); ?>
+
+</wiki-page>
+
+<wiki-page name="Cours 12">
+<?php intlink("../unity/postprocessing/"); ?>
+<?php intlink("../unity/vfx/"); ?>
+
+<?php intlink("../unity/eau/"); ?>
+<?php intlink("../unity/miroir/"); ?>
+<?php intlink("../unity/vr_mains/"); ?>
+
+</wiki-page>
+
+<wiki-page name="Cours 13">
+
+</wiki-page>
 
 <wiki-page name="Cours 14">
 
