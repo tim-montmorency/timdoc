@@ -16,7 +16,7 @@
 
 
 <grostitre>Déclaration</grostitre>
-<p>Pour déclarer un menu, il faut ouvrir le fichier&nbsp;<code>function.php</code>&nbsp;et repérer la fonction&nbsp;<code>registernavmenus( ... )</code>.</p>
+<p>Pour déclarer un menu, il faut ouvrir le fichier&nbsp;<code>function.php</code>&nbsp;et repérer la fonction&nbsp;<code>register_nav_menus( ... )</code>.</p>
 
 
 <pre><code class="hljs php">register_nav_menus( 
