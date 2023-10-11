@@ -469,12 +469,14 @@
     <hr>
 
     <h2>Annonces</h2>
-    <p>Examen final bougé! Prévu à la base au cours 13, maintenant il sera pendant la semaine d'examen, soit le 18 décembre de 11h00 à 14h00 pour les 2 groupe, au C-1639 (ici). Notez bien ça à votre agenda!</p>
-    <p>Plans de cours mis-à-jour (voir le lien mis-à-jour vers le plan dans cours dans la section <em>cours 1</em> dans le wiki). Deux modifications:</p> 
+    <p>Examen final bougé! Prévu à la base au cours 13, maintenant il sera pendant la semaine d'examen, soit le 18
+        décembre de 11h00 à 14h00 pour les 2 groupe, au C-1639 (ici). Notez bien ça à votre agenda!</p>
+    <p>Plans de cours mis-à-jour (voir le lien mis-à-jour vers le plan dans cours dans la section <em>cours 1</em> dans
+        le wiki). Deux modifications:</p>
     <ul>
         <li>Date de la remise 3 de devOp et agent de promo.</li>
         <li>Date de l'examen final.</li>
-    </ul> 
+    </ul>
 
     <br><br>
     <hr><br>
@@ -488,14 +490,14 @@
     <?php intlink("../wordpress/installation-en-local/"); ?>
     <alert>ATTENTION NE PAS POUSSER AUCUNE INSTALLATION LOCAL SUR VOTRE GIT POUR LE MOMENT. Il faut gérer le gitignore.
     </alert>
-  
+
 
     <h3>.gitignore pour exclure les fichiers de base de wp </h3>
     <?php intlink("../git/gitignore/"); ?>
 
     <p style="color: var(--main-color);"><strong>> Exercice: </strong><br>Installer WordPress en local, installer un
         thème existant, explorez.</p>
-<br><br>
+    <br><br>
     <hr><br>
 
     <h2>Thèmes et extensions </h2>
@@ -520,9 +522,8 @@
     <h2>Partiels </h2>
     <?php intlink("../wordpress/partiels/"); ?>
 
-    <h2>Menu </h2>
-    <?php intlink("../wordpress/menus/"); ?>
-<br><br>
+
+    <br><br>
     <hr><br>
 
     <h2>HTML</h2>
@@ -577,6 +578,35 @@
  \_____\___/ \__,_|_|  |___/  /_/                   
 ----------------------------------->
 
+<wiki-page name="Cours 07" date="2023-10-11">
+
+    <h2>404</h2>
+    <p>Activité 404. Vous avez 10 minutes pour trouver les pages d'erreur 404 les plus originales, en français ou en anglais.</p>
+    <p>Quelques exemples pour démarrer:</p>
+    <ul>
+        <li><a href="https://www.figma.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site
+                figma.com</a></li>
+        <li><a href="https://videotron.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site
+                videotron.com</a></li>
+        <li><a href="https://github.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site
+                github.com</a></li>
+        <li><a href="https://www.readytogosurvival.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du
+                site readytogosurvival.com</a></li>
+    </ul>
+
+    <p>Après: tour de la classe afin que vous partagiez votre meilleure trouvaille.<br>Sortez des sentiers battus, on ne veut pas avoir de site qui se trouve sur les site de recherche Google "best 404 pages". Soyez rusés et creusez le web!</p>
+
+    <p>Après on vote en groupe qui aura fait la meilleure trouvaille. Que le meilleur gagne!</p>
+
+
+    <br><hr><br>
+
+    <h2>Menu </h2>
+    <?php intlink("../wordpress/menus/"); ?>
+
+
+</wiki-page>
+
 
 
 
@@ -589,6 +619,10 @@
  \_____\___/ \__,_|_|  |___/  \___/ 
 ----------------------------------->
 
+<wiki-page name="Cours 08" date="2023-10-16">
+
+
+</wiki-page>
 
 
 <!-----------------------------------
@@ -600,6 +634,10 @@
  \_____\___/ \__,_|_|  |___/   /_/                 
 ----------------------------------->
 
+<wiki-page name="Cours 09" date="2023-10-23">
+
+
+</wiki-page>
 
 
 <!-----------------------------------
@@ -610,3 +648,9 @@
 | |___| (_) | |_| | |  \__ \  | | |_| |
  \_____\___/ \__,_|_|  |___/  |_|\___/                                     
 ----------------------------------->
+
+<wiki-page name="Cours 10" date="2023-10-30">
+    <h1 style="font-size:250%; color :orange;">Joyeux Halloween!</h1>
+    <br>
+    <p style="font-size:200%; line-height: 1.4em;">🦉 ☠️ 👹 👻 👺 💀 🌚 🔮 🕸️ 🌩️ 🕷️ 🍫 🍬 🍭 🎃 ⚰️ 🦇 🗡️ 🕯️ 🧟 🪦 🐈‍⬛ ⚱️</p>
+</wiki-page>
