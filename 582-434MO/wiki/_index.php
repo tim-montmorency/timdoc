@@ -81,11 +81,11 @@
 </wiki-page>
 
 <wiki-page name="Cours 07">
-
-<h3>Continuer l'exercice 2</h3>
+<h3>Sortie Zéro Latency</h3>
+<h3>Devoir:Continuer l'exercice 2</h3>
 <?php intlink("../exercices/scene/"); ?>
 
-<h3>Commencer l'idéation du projet final</h3>
+<h3>Devoir: Commencer l'idéation du projet final</h3>
 </wiki-page>
 
 <wiki-page name="10 octobre">
@@ -121,7 +121,22 @@
 
 
 <wiki-page name="Cours 10">
+<?php intlink("../unity/interaction_vr/"); ?>
 <?php intlink("../unity/Importation3D/"); ?>
+<?php intlink("../unity/UI/#canvas-en-vr"); ?>
+
+
+<h2>Discussion Optimisation</h2>
+<p><checklist>
+  Low poly
+  Compression textures et ui
+  FPS (Stats)
+  Nombre et type de particules  
+  Éclairage statique ou dynamique
+</checklist></p>
+
+<h2>Exercice</h2>
+<?php intlink("../exercices/interaction_vr/"); ?>
 </wiki-page>
 
 <wiki-page name="14 novembre">
@@ -131,6 +146,27 @@
 
 </wiki-page>
 
+
+<wiki-page name="Cours 11">
+<?php intlink("../unity/audio_vr/"); ?>
+<?php intlink("../unity/transitions/"); ?>
+<?php intlink("../unity/eclairage/"); ?>
+
+</wiki-page>
+
+<wiki-page name="Cours 12">
+<?php intlink("../unity/postprocessing/"); ?>
+<?php intlink("../unity/vfx/"); ?>
+
+<?php intlink("../unity/eau/"); ?>
+<?php intlink("../unity/miroir/"); ?>
+<?php intlink("../unity/vr_mains/"); ?>
+
+</wiki-page>
+
+<wiki-page name="Cours 13">
+
+</wiki-page>
 
 <wiki-page name="Cours 14">
 
