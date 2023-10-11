@@ -636,7 +636,6 @@
     <hr><br>
     <h2>En classe + devoir</h2>
     <p>Avancez le projet (CSS + HTML + JS)</p>
-    <p>Commencez à monter vos modèles Wordpress dans votre Thème initialisé par votre devOps.</p>
     <p>Je passe écquipe par équipe afin que vous me montriez ou vous en êtes.</p>
 
 
@@ -657,7 +656,7 @@
 
 <wiki-page name="Cours 08" date="2023-10-16">
 
-
+    Wordpress : intégrer logo, personnaliser le site, intégrer le menu, intégrer Bootsrap, monter l'accueil etc
 </wiki-page>
 
 
