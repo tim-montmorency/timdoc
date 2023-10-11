@@ -3,7 +3,7 @@
  * @type     article
  * @title    Yoast-SEO
  * @icon     images/icon-wp.png
- * @abstract Extensions de gestion du SEO
+ * @abstract Optimisation des moteurs de recherche (SEO)
  * @index 75
  */
 ?>

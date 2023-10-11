@@ -569,6 +569,10 @@
 </wiki-page>
 
 
+
+
+
+
 <!-----------------------------------
   _____                       ______ 
  / ____|                     |____  |
@@ -580,8 +584,19 @@
 
 <wiki-page name="Cours 07" date="2023-10-11">
 
+    <h2>Quiz</h2>
+    Lundi - <a href="https://app.wooclap.com/DESTCF" target="_blank" rel="noopener noreferrer">Code Wooclap : DESTCF</a>
+    <br>
+    Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap : 
+    </a><br>
+
+
+    <br><br>
+    <hr>
+
     <h2>404</h2>
-    <p>Activité 404. Vous avez 10 minutes pour trouver les pages d'erreur 404 les plus originales, en français ou en anglais.</p>
+    <p>Activité 404. Vous avez 10 minutes pour trouver les pages d'erreur 404 les plus originales, en français ou en
+        anglais.</p>
     <p>Quelques exemples pour démarrer:</p>
     <ul>
         <li><a href="https://www.figma.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site
@@ -594,15 +609,36 @@
                 site readytogosurvival.com</a></li>
     </ul>
 
-    <p>Après: tour de la classe afin que vous partagiez votre meilleure trouvaille.<br>Sortez des sentiers battus, on ne veut pas avoir de site qui se trouve sur les site de recherche Google "best 404 pages". Soyez rusés et creusez le web!</p>
+    <p>Après: tour de la classe afin que vous partagiez votre meilleure trouvaille.<br>Sortez des sentiers battus, on ne
+        veut pas avoir de site qui se trouve sur les site de recherche Google "best 404 pages". Soyez rusés et creusez
+        le web!</p>
 
     <p>Après on vote en groupe qui aura fait la meilleure trouvaille. Que le meilleur gagne!</p>
 
 
-    <br><hr><br>
+    <br>
+    <hr><br>
 
-    <h2>Menu </h2>
+    <h2>Révision des exercices de la semaine passée</h2>
+    <?php intlink("../../582-111MO/html/microdonnees/exercices/cf-montreal/"); ?>
+
+    <br> <br>
+    <hr><br><br>
+    <h12>WORDPRESS</h2>
+   
     <?php intlink("../wordpress/menus/"); ?>
+    <?php intlink("../wordpress/posts-personnalises/"); ?>
+    <?php intlink("../wordpress/advanced-custom-fields/"); ?>
+    <?php intlink("../wordpress/wp-multilang/"); ?>
+    <?php intlink("../wordpress/yoast-seo/"); ?>
+
+    <br> <br>
+    <hr><br>
+    <h2>En classe + devoir</h2>
+    <p>Avancez le projet (CSS + HTML + JS)</p>
+    <p>Commencez à monter vos modèles Wordpress dans votre Thème initialisé par votre devOps.</p>
+    <p>Je passe écquipe par équipe afin que vous me montriez ou vous en êtes.</p>
+
 
 
 </wiki-page>
@@ -652,5 +688,6 @@
 <wiki-page name="Cours 10" date="2023-10-30">
     <h1 style="font-size:250%; color :orange;">Joyeux Halloween!</h1>
     <br>
-    <p style="font-size:200%; line-height: 1.4em;">🦉 ☠️ 👹 👻 👺 💀 🌚 🔮 🕸️ 🌩️ 🕷️ 🍫 🍬 🍭 🎃 ⚰️ 🦇 🗡️ 🕯️ 🧟 🪦 🐈‍⬛ ⚱️</p>
+    <p style="font-size:200%; line-height: 1.4em;">🦉 ☠️ 👹 👻 👺 💀 🌚 🔮 🕸️ 🌩️ 🕷️ 🍫 🍬 🍭 🎃 ⚰️ 🦇 🗡️ 🕯️ 🧟 🪦
+        🐈‍⬛ ⚱️</p>
 </wiki-page>
