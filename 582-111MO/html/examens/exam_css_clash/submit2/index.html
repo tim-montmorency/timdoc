@@ -73,86 +73,89 @@
     document.addEventListener('DOMContentLoaded', function() {
         const form = document.querySelector('form');
         form.addEventListener('submit', function(event) {
-            event.preventDefault(); // Empêche l'envoi du formulaire pour le moment
+            event.preventDefault(); 
 
-            // Validez les champs ici
-            const nom = document.querySelector('#nom').value;
-            const pseudo = document.querySelector('#pseudo').value;
-            const email = document.querySelector('#email').value;
-            const niveau = document.querySelector('#niveau').value;
-            const experience = document.querySelector('#experience').value;
-            const date = document.querySelector('#date').value;
-            const time = document.querySelector('#time').value;
-            const discord = document.querySelector('#discord').checked;
-            const whatsapp = document.querySelector('#whatsapp').checked;
-            const contenu = document.querySelector('#contenu').value;
-            const conditions = document.querySelector('#conditions').checked;
+            const urlParams = new URLSearchParams(window.location.search);
 
-            // Effectuez des vérifications (vous pouvez ajouter plus de vérifications selon vos besoins)
+    
+            const nom = urlParams.get('nom');
+            const pseudo = urlParams.get('pseudo');
+            const email = urlParams.get('email');
+            const niveau = urlParams.get('niveau');
+            const experience = urlParams.get('experience');
+            const date = urlParams.get('date');
+            const time = urlParams.get('time');
+            const discord = urlParams.get('discord');
+            const whatsapp = urlParams.get('whatsapp');
+            const contenu = urlParams.get('contenu');
+            const conditions = urlParams.get('conditions');
+
+  
             let isValid = true;
 
-            if (nom.trim() === '') {
+            if (!nom) {
                 isValid = false;
                 alert("Le champ 'Nom complet' est requis.");
             }
 
-            if (pseudo.trim() === '') {
+            if (!pseudo) {
                 isValid = false;
                 alert("Le champ 'Pseudo en jeu' est requis.");
             }
 
-            if (email.trim() === '' || !validateEmail(email)) {
+            if (!email || !validateEmail(email)) {
                 isValid = false;
                 alert("Veuillez saisir une adresse e-mail valide.");
             }
 
-            if (niveau.trim() === '') {
+            if (!niveau) {
                 isValid = false;
                 alert("Le champ 'Niveau actuel' est requis.");
             }
 
-            if (experience.trim() === '') {
+            if (!experience) {
                 isValid = false;
                 alert("Le champ 'Nombre de guerres de clans' est requis.");
             }
 
-            if (date.trim() === '') {
+            if (!date) {
                 isValid = false;
                 alert("Le champ 'Disponibilité en guerre de clans' est requis.");
             }
 
-            if (time.trim() === '') {
+            if (!time) {
                 isValid = false;
                 alert("Le champ 'Heures de disponibilité' est requis.");
             }
 
-            if (!discord && !whatsapp) {
+            if (discord !== 'on' && whatsapp !== 'on') {
                 isValid = false;
                 alert("Veuillez sélectionner au moins une méthode de communication.");
             }
 
-            if (contenu.trim() === '') {
+            if (!contenu) {
                 isValid = false;
                 alert("Le champ 'Vos commentaires' est requis.");
             }
 
-            if (!conditions) {
+            if (conditions !== 'on') {
                 isValid = false;
                 alert("Vous devez accepter les règles et les attentes du clan.");
             }
 
             if (isValid) {
-                form.submit(); // Soumettre le formulaire si tout est valide
+                form.submit(); 
             }
         });
     });
 
-    // Fonction de validation de l'e-mail
+
     function validateEmail(email) {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return emailRegex.test(email);
     }
 </script>
+
 
 
 
