@@ -70,90 +70,83 @@
 </html>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const form = document.querySelector('form');
-        form.addEventListener('submit', function(event) {
-            event.preventDefault(); 
-
-            const urlParams = new URLSearchParams(window.location.search);
-
     
-            const nom = urlParams.get('nom');
-            const pseudo = urlParams.get('pseudo');
-            const email = urlParams.get('email');
-            const niveau = urlParams.get('niveau');
-            const experience = urlParams.get('experience');
-            const date = urlParams.get('date');
-            const time = urlParams.get('time');
-            const discord = urlParams.get('discord');
-            const whatsapp = urlParams.get('whatsapp');
-            const contenu = urlParams.get('contenu');
-            const conditions = urlParams.get('conditions');
-
-  
-            let isValid = true;
-
-            if (!nom) {
-                isValid = false;
-                alert("Le champ 'Nom complet' est requis.");
-            }
-
-            if (!pseudo) {
-                isValid = false;
-                alert("Le champ 'Pseudo en jeu' est requis.");
-            }
-
-            if (!email || !validateEmail(email)) {
-                isValid = false;
-                alert("Veuillez saisir une adresse e-mail valide.");
-            }
-
-            if (!niveau) {
-                isValid = false;
-                alert("Le champ 'Niveau actuel' est requis.");
-            }
-
-            if (!experience) {
-                isValid = false;
-                alert("Le champ 'Nombre de guerres de clans' est requis.");
-            }
-
-            if (!date) {
-                isValid = false;
-                alert("Le champ 'Disponibilité en guerre de clans' est requis.");
-            }
-
-            if (!time) {
-                isValid = false;
-                alert("Le champ 'Heures de disponibilité' est requis.");
-            }
-
-            if (discord !== 'on' && whatsapp !== 'on') {
-                isValid = false;
-                alert("Veuillez sélectionner au moins une méthode de communication.");
-            }
-
-            if (!contenu) {
-                isValid = false;
-                alert("Le champ 'Vos commentaires' est requis.");
-            }
-
-            if (conditions !== 'on') {
-                isValid = false;
-                alert("Vous devez accepter les règles et les attentes du clan.");
-            }
-
-            if (isValid) {
-                form.submit(); 
-            }
-        });
-    });
+    let errnb = 0;
+    const urlParams = new URLSearchParams(window.location.search);
 
 
-    function validateEmail(email) {
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return emailRegex.test(email);
+    const nom = urlParams.get('nom');
+    if(!nom) {
+        document.getElementById('exp_msg').innerText = "Aucun nom n'a été reçu";
+        document.getElementById('exp_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('exp_msg').innerText = nom;
+        const expRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
+        if(!expRegex.test(nom)){
+            document.getElementById('exp_label').classList.add("invalid");
+            errnb++;
+        }
     }
+
+    const email = urlParams.get('email');
+    if(!email) {
+        document.getElementById('sec_msg').innerText = "Aucun email n'a été reçu";
+        document.getElementById('sec_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('sec_msg').innerText = email;
+        const secRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if(!secRegex.test(email)) {
+            document.getElementById('sec_label').classList.add("invalid");
+            errnb++;
+        }
+    }
+
+
+    const pseudo = urlParams.get('pseudo');
+    if(!pseudo) {
+        document.getElementById('pseudo_msg').innerText = "Aucun nom n'a été reçu";
+        document.getElementById('pseudo_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('pseudo_msg').innerText = pseudo;
+        const pseudoRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
+        if(!pseudoRegex.test(pseudo)){
+            document.getElementById('pseudo_label').classList.add("invalid");
+            errnb++;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    const contenu = urlParams.get('contenu');
+    if(!contenu) {
+        document.getElementById('contenu_msg').innerText = "Aucun texte n'a été reçu";
+        document.getElementById('contenu_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('contenu_msg').innerText = contenu;
+    }
+
+
+
+
+    if(errnb) {
+        document.getElementById('msg').innerText = "❌ Désolé, certaines informations sont invalides.";
+    } else {
+        document.getElementById('msg').innerText = "✅ Merci vos informations ont bien été reçues.";
+    }
+
 </script>
 
 
@@ -164,3 +157,30 @@
 
 
 
+
+const urlParams = new URLSearchParams(window.location.search);
+    const year = urlParams.get('year');
+    const month = urlParams.get('month');
+    const day = urlParams.get('day');
+    
+    let errnb = 0;
+    if(!year) errnb++;
+    if(!month) errnb++;
+    if(!day) errnb++;
+    
+    if(!/^[0-9]{4}$/.test(year)) errnb++;
+    if(!/^[0-9]{1,2}$/.test(month)) errnb++;
+    if(!/^[0-9]{1,2}$/.test(day)) errnb++;
+    
+    if(errnb) {
+        document.getElementById('form').innerHTML = '<p class="error"><strong>Erreur:</strong> certains champs sont manquants ou invalides</p>';
+    } else {
+        const date = year + '-' + pad(month,2) + '-' + pad(day,2);
+        if(!dateValidation(date)) {
+            document.getElementById('form').innerHTML = '<p class="error"><strong>Erreur:</strong> date invalide.</p>';
+        } else {
+            const diff = Math.abs(new Date() - new Date(date.replace(/-/g,'/')));
+            const years = Math.floor(diff / (1000*60*60*24*365));
+            document.getElementById('form').innerHTML = '<p>Vous avez donc</p><h1>' + years + ' ans</h1>';
+        }
+    }
