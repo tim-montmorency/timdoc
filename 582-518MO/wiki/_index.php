@@ -587,7 +587,7 @@
     <h2>Quiz</h2>
     Lundi - <a href="https://app.wooclap.com/DESTCF" target="_blank" rel="noopener noreferrer">Code Wooclap : DESTCF</a>
     <br>
-    Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap : 
+    Vendredi - <a href="https://app.wooclap.com/DRXFUE" target="_blank" rel="noopener noreferrer">Code Wooclap : DRXFUE
     </a><br>
 
 
