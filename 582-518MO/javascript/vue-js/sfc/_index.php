@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    SFC
- * @icon     images/icon.png
+ * @icon     images/ico-vue.png
  * @abstract Single File Components
  * @index 1
  */

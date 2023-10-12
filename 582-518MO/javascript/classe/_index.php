@@ -1,9 +1,9 @@
 <?php 
 /**
  * @type     article
- * @title    Classe JavaScript
- * @icon     images/icon.png
- * @abstract abc
- * @index 100
+ * @title    Classes JavaScript
+ * @icon     images/classe-js3.png
+ * @abstract Les classes JS sont des modèles pour des objets JS
+ * @index 80
  */
 ?>

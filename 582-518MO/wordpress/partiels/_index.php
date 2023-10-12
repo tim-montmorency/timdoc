@@ -1,7 +1,7 @@
 <?php 
 /**
  * @type     article
- * @title    Partiels
+ * @title    Partiels d'un thème WP
  * @icon     images/icon-wp.png
  * @abstract Extrait de code à importer dans plus d'un modèle
  * @index 95

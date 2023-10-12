@@ -2,8 +2,8 @@
 /**
  * @type     list
  * @title    Vue.js
- * @icon     images/icon.svg
+ * @icon     images/ico-vue.png
  * @abstract Cadriciel JavaScript
- * * @index    1
+ * * @index    97
  */
 print_children();

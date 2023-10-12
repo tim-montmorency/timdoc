@@ -18,8 +18,8 @@
 
 <p>Dans l'onglet extensions&nbsp;<em>(plugins)</em>&nbsp;du tableau de bord, recherchez&nbsp;<em>Advanced Custom Fields</em>&nbsp;et repérez l'extension créée par Elliot&nbsp;Condon.</p>
 
-<p>Installez et activez&nbsp;là.</p>
-<img src="images/acf-peview.jpg" alt="ACF prévisualisation de l'extension">
+<p>Installez et activez&nbsp;là.
+<img src="images/acf-peview.jpg" alt="ACF prévisualisation de l'extension"></p>
 
 
 
@@ -41,11 +41,11 @@
 
 
 <ol start="4">
-    <li><p>La boite&nbsp;<em>Emplacement</em>&nbsp;permet de spécifier où ce nouveau groupe de champs devrait-être&nbsp;visible.</p><p>Par exemple, afficher uniquement le groupe de champs&nbsp;<em>Apparence de la page</em>&nbsp;sur les pages de type&nbsp;article.</p></li>
+    <li>La boite&nbsp;<em>Emplacement</em>&nbsp;permet de spécifier où ce nouveau groupe de champs devrait-être&nbsp;visible. <br>Par exemple, afficher uniquement le groupe de champs&nbsp;<em>Apparence de la page</em>&nbsp;sur les pages de type&nbsp;article.</li>
 </ol>
 
 <ol start="5">
-    <li><p>Ajuster les&nbsp;<em>Réglages</em>&nbsp;si désiré pour configurer l'apparence du groupe de champs dans la&nbsp;page.</p></li><li><p>Appuyez sur le bouton&nbsp;<em>Publier</em>.</p></li>
+    <li>Ajuster les&nbsp;<em>Réglages</em>&nbsp;si désiré pour configurer l'apparence du groupe de champs dans la&nbsp;page.</p></li><li><p>Appuyez sur le bouton&nbsp;<em>Publier</em>.</li>
 </ol>
 
 
@@ -56,8 +56,8 @@
 
 <p>Deux fonctions permettent de les récupérer:</p>
 <ol start="1">
-    <li><p><code>the_field()</code>qui retourne une chaine de&nbsp;caractère.</p></li>
-    <li><p><code>get_field()</code>&nbsp;qui retourne un objet contenant de multiples&nbsp;valeurs.</p></li>
+    <li><code>the_field()</code>qui retourne une chaine de&nbsp;caractère.</li>
+    <li><code>get_field()</code>&nbsp;qui retourne un objet contenant de multiples&nbsp;valeurs.</li>
 </ol>
 
 
@@ -111,18 +111,16 @@
 <grostitre>Image</grostitre>
 <p>Un champ image permet de stocker des images&nbsp;supplémentaires.</p>
 
-<p>Pour continuer avec la précédente métaphore, le champ d'image par défaut de WordPress,&nbsp;<em>Image mise de l'avant</em>, ou en anglais&nbsp;<em>Preview</em>, servirait à afficher l'image du&nbsp;groupe dans le haut de la colonne de&nbsp;droite.</p>
+<p>Pour continuer avec la précédente métaphore, le champ d'image par défaut de WordPress,&nbsp;<em>Image mise de l'avant</em>, ou en anglais&nbsp;<em>Preview</em>, servirait à afficher l'image du&nbsp;groupe dans le haut de la colonne de&nbsp;droite.
 
-<img src="images/the_offspring.jpg" alt="">
+<img src="images/the_offspring.jpg" alt="Photo du groupe Offpsriing"  style="box-shadow: 0 0 20px rgba(0,0,0,0.3)"></p>
 
-<p>Cependant, un champ d'image supplémentaire serait requis afin d'afficher le logo du groupe un peu plus&nbsp;bas.</p>
+<p>Cependant, un champ d'image supplémentaire serait requis afin d'afficher le logo du groupe un peu plus&nbsp;bas.<img src="images/the-offspring-logo.jpeg" alt="Logo The Offspring" style="box-shadow: 0 0 20px rgba(0,0,0,0.3)"></p>
 
-<img src="images/the-offspring-logo.jpeg" alt="">
+<br>
 <p>Un champs ACF&nbsp;<em>Logo</em>&nbsp;serait donc créé. Il y aurait ensuite deux façons d'afficher son&nbsp;contenu.</p>
 
-<p>La façon simple avec&nbsp;<em>the_field(…)</em>&nbsp;retournant un&nbsp;url.</p>
-
-<p>Par&nbsp;exemple:</p>
+<p>La façon simple avec&nbsp;<em>the_field(…)</em>&nbsp;retournant un&nbsp;url.<br>Par&nbsp;exemple:</p>
 
 <highlight lang='html'>&lt;img src=&quot;&lt;?php the_field(&#39;logo&#39;); ?&gt;&quot; class=&quot;logo&quot;&gt;</highlight>
 
@@ -130,7 +128,12 @@
 
 <p>ou la version plus avancée avec&nbsp;<em>get_field(…)</em>&nbsp;permettant d'obtenir toutes les informations relatives à&nbsp;l'image:</p>
 <ul>
-    <li><p>url</p></li><li><p>size</p></li><li><p>title</p></li><li><p>alt</p></li><li><p>caption</p></li><li><p>etc.</p></li>
+    <li style="margin:0">url</li>
+    <li style="margin:0">size</li>
+    <li style="margin:0">title</li>
+    <li style="margin:0">alt</li>
+    <li style="margin:0">caption</li>
+    <li style="margin:0">etc.</li>
 </ul>
 
 

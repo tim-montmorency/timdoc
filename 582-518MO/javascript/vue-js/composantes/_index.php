@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Composantes
- * @icon     images/icon.png
+ * @icon     images/ico-vue.png
  * @abstract abc
  * @index 1
  */

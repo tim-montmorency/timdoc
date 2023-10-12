@@ -599,19 +599,13 @@
         anglais.</p>
     <p>Quelques exemples pour démarrer:</p>
     <ul>
-        <li><a href="https://www.figma.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site
-                figma.com</a></li>
-        <li><a href="https://videotron.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site
-                videotron.com</a></li>
-        <li><a href="https://github.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site
-                github.com</a></li>
-        <li><a href="https://www.readytogosurvival.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du
-                site readytogosurvival.com</a></li>
+        <li><a href="https://www.figma.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site figma.com</a></li>
+        <li><a href="https://videotron.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site videotron.com</a></li>
+        <li><a href="https://github.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site github.com</a></li>
+        <li><a href="https://www.readytogosurvival.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site readytogosurvival.com</a></li>
     </ul>
 
-    <p>Après: tour de la classe afin que vous partagiez votre meilleure trouvaille.<br>Sortez des sentiers battus, on ne
-        veut pas avoir de site qui se trouve sur les site de recherche Google "best 404 pages". Soyez rusés et creusez
-        le web!</p>
+    <p>Après: tour de la classe afin que vous partagiez votre meilleure trouvaille.<br>Sortez des sentiers battus, on ne veut pas avoir de site qui se trouve sur les site de recherche Google "best 404 pages". Soyez rusés et creusez le web!</p>
 
     <p>Après on vote en groupe qui aura fait la meilleure trouvaille. Que le meilleur gagne!</p>
 
@@ -624,7 +618,7 @@
 
     <br> <br>
     <hr><br><br>
-    <h12>WORDPRESS</h2>
+    <h2>WORDPRESS</h2>
    
     <?php intlink("../wordpress/menus/"); ?>
     <?php intlink("../wordpress/posts-personnalises/"); ?>
@@ -634,9 +628,10 @@
 
     <br> <br>
     <hr><br>
-    <h2>En classe + devoir</h2>
-    <p>Avancez le projet (CSS + HTML + JS)</p>
-    <p>Je passe écquipe par équipe afin que vous me montriez ou vous en êtes.</p>
+    <h2>En classe + Devoir</h2>
+    <p>Avancez le plus loin possible l'exercice dont le lien a été fourni vers la fin du cours aujourd'hui. Essayez le le compléter d'ici le prochain cours, sinon vous allez devoir le faire PENDANT le prochain cours et vous allez prendre du retard sur le prochain exercice important et celui-ci l'est tout autant!</p>
+    <p>COntinuez d'avancer l'intégration de vos pages le projet en équipe (voir votre tableau Trello et les requis) pour la version CSS+HTML+JS. Attendez pour commencer à intégrer dans Wordpress.</p>
+  
 
 
 
@@ -656,7 +651,56 @@
 
 <wiki-page name="Cours 08" date="2023-10-16">
 
+<!-- 
+    NOTE MM NOTE MM NOTE MM 
+        
     Wordpress : intégrer logo, personnaliser le site, intégrer le menu, intégrer Bootsrap, monter l'accueil etc
+-->
+
+
+
+<h2>Quiz</h2>
+    Lundi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap : </a>
+    <br>
+    Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap : </a><br>
+
+
+    <br><br>
+    <hr>
+
+    <h2>Concours 404 - Retour</h2>
+    <p>Vote le gagnant de ta classe
+        <br>Prix: Des bonbons !</p>
+    Lundi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Vote</a>
+    <br>
+    Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Votre</a><br>
+    
+
+    <br>
+    <hr><br>
+
+    <h2>Révision des exercices de la semaine passée</h2>
+    <?php //intlink("../exercices/wp-valet-de-coeur/"); ?>
+
+    <br> <br>
+    <hr><br><br>
+    <h2>WORDPRESS</h2>
+
+    <?php intlink("../wordpress/wp-multilang/"); ?>
+    <?php intlink("../wordpress/yoast-seo/"); ?>
+
+    <br> <br>
+    <hr><br><br>
+    <h2>JAVASCRIPT</h2>
+    <?php intlink("../javascript/promesses-js/"); ?>
+
+    <?php intlink("../javascript/fetch-api/"); ?>
+
+
+
+    <h2>EXERCICES</h2>
+    <p>Pendant les exercices vous avez l'aide d'un tuteur en classe pour 1h.</p>
+    <p>Je passe équipe par équipe afin que vous me montriez ou vous en êtes dans votre projet.</p>
 </wiki-page>
 
 

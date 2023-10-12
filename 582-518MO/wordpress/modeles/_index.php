@@ -1,7 +1,7 @@
 <?php 
 /**
  * @type     article
- * @title    Modèles
+ * @title    Modèles d'un thème WP
  * @icon     images/icon-wp.png
  * @abstract Contrôler la structure des pages Wordpress
  * @index 97

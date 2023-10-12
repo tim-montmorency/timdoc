@@ -1,7 +1,7 @@
 <?php 
 /**
  * @type     article
- * @title    Styles CSS Wordpress
+ * @title    Styles CSS thème WP
  * @icon     images/icon-wp.png
  * @abstract Styles css dans WP
  * @index 98

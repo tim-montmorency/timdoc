@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Éléments de formulaire
- * @icon     images/icon.png
+ * @icon     images/ico-vue.png
  * @abstract abc
  * @index 1
  */
