@@ -29,7 +29,7 @@
 <p>Par exemple:</p>
 
 <highlight lang='php'>function create_post_type() {
-  register_post_type('produits', 
+  register_post_type('products', 
     array(
       'labels' => array(
         'name' => _x('Produits', 'Nom générique'),
@@ -72,21 +72,29 @@ add_action('init', 'create_post_type');</highlight>
 
 
 <dots></dots>
-<grostitre>Utilisation manuelle</grostitre>
+<grostitre>Utilisation manuelle (affichage du contenu)</grostitre>
 <p>Pour afficher cette collection, il faudra faire une requête à WordPress et stocker son résultat dans une&nbsp;variable.</p>
 
 <p>Par&nbsp;exemple:</p>
 
-<highlight lang='php'>$produits = new WP_Query('post_type=Produits');</highlight>
+<highlight lang='php'>$products = new WP_Query('post_type=products');</highlight>
 
 
-<p>Ensuite, il faudra boucler parmi les résultats&nbsp;obtenus:</p>
-<highlight lang='php'>while ($produits->have_posts()) : $produits->the_post();</highlight>
+<p>Ensuite, il faudra boucler parmi les résultats&nbsp;obtenus et imprimer <code>print</code> ceux-ci dans une page:</p>
+
+<highlight lang='php'>
+      
+while ( $products->have_posts() ) : $products->the_post(); 
+    print the_title();  // titre du produit
+    the_excerpt(); // extrait de de la description du produit
+endwhile;</highlight>
+
+<!--<highlight lang='php'>while ($produits->have_posts()) : $produits->the_post();</highlight>-->
 
 
 <p>Les fonctions de base, tel que:&nbsp;<code>the_title()</code>&nbsp;ou&nbsp;<code>the_content()</code>&nbsp;retourneront dans le contexte de cette boucle les informations associées à notre collection de&nbsp;produits.</p>
 
-<doclink href='https://developer.wordpress.org/reference/functions/register_post_type/'>register_post_typ</doclink>
+<doclink href='https://developer.wordpress.org/reference/functions/register_post_type/'>register_post_type</doclink>
 
 
 
