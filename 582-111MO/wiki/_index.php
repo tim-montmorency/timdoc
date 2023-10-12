@@ -87,7 +87,6 @@
 
 
 <wiki-page name="Cours 8" date="2023-10-15">
-    <h3>Correction: Moby - I Like to Score</h3>
     <?php intlink("../css/anatomie/"); ?>
     <?php intlink("../css/selecteurs/"); ?>
     <?php intlink("../css/selecteurs/exercices/css-diner/"); ?>
