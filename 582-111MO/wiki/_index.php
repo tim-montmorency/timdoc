@@ -92,9 +92,10 @@
     <?php intlink("../css/selecteurs/"); ?>
     <?php intlink("../css/selecteurs/exercices/css-diner/"); ?>
     <?php intlink("../css/flux/"); ?>
-    <?php intlink("../css/box-model/"); ?>
-    <?php intlink("../css/box-model/exercices/broforce"); ?>
-    <?php intlink("../css/box-model/exercices/marc-seguin"); ?>
+    <?php intlink("../css/padding/"); ?>
+    <?php intlink("../css/margin/"); ?>
+    <?php intlink("../css/background/"); ?>
+    <?php intlink("../css/background/exercices/candy-crush/"); ?>
     <?php intlink("../css/display/"); ?>
     <?php intlink("../css/display/exercices/celeste/"); ?>    
     <?php intlink("../css/vertical-align/"); ?>
@@ -105,13 +106,14 @@
 
 <wiki-page name="Cours 9" date="2023-10-22">
     <?php intlink("../css/unites-de-mesure/"); ?>
-    <?php intlink("../css/padding/"); ?>
-    <?php intlink("../css/margin/"); ?>
     <?php intlink("../css/width-height/"); ?>
     <?php intlink("../css/width-height/exercices/system32/"); ?>
     <?php intlink("../css/width-height/exercices/prevert/"); ?>
     <?php intlink("../css/border/"); ?>
     <?php intlink("../css/border/exercices/q-bitz/"); ?>
+    <?php intlink("../css/box-model/"); ?>
+    <?php intlink("../css/box-model/exercices/broforce"); ?>
+    <?php intlink("../css/box-model/exercices/marc-seguin"); ?>
     <?php intlink("../autres/navigation-clavier/"); ?>
     <?php intlink("../css/outline/"); ?>
     <?php intlink("../css/outline/exercices/skittles/"); ?>
@@ -123,8 +125,6 @@
 
 
 <wiki-page name="Cours 10" date="2023-10-29">
-    <?php intlink("../css/background/"); ?>
-    <?php intlink("../css/background/exercices/candy-crush/"); ?>
     <?php intlink("../css/linear-gradient/"); ?>
     <?php intlink("../css/linear-gradient/exercices/igloofest/"); ?>
     <?php intlink("../css/nommage-et-formatage/"); ?>
