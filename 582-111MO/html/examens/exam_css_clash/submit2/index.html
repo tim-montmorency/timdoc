@@ -70,86 +70,94 @@
 </html>
 
 <script>
-    
-    let errnb = 0;
-    const urlParams = new URLSearchParams(window.location.search);
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.querySelector('form');
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // Empêche l'envoi du formulaire pour le moment
 
+            // Validez les champs ici
+            const nom = document.querySelector('#nom').value;
+            const pseudo = document.querySelector('#pseudo').value;
+            const email = document.querySelector('#email').value;
+            const niveau = document.querySelector('#niveau').value;
+            const experience = document.querySelector('#experience').value;
+            const date = document.querySelector('#date').value;
+            const time = document.querySelector('#time').value;
+            const discord = document.querySelector('#discord').checked;
+            const whatsapp = document.querySelector('#whatsapp').checked;
+            const contenu = document.querySelector('#contenu').value;
+            const conditions = document.querySelector('#conditions').checked;
 
-    const nom = urlParams.get('nom');
-    if(!nom) {
-        document.getElementById('exp_msg').innerText = "Aucun nom n'a été reçu";
-        document.getElementById('exp_label').classList.add("invalid");
-        errnb++;
-    } else {
-        document.getElementById('exp_msg').innerText = nom;
-        const expRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
-        if(!expRegex.test(nom)){
-            document.getElementById('exp_label').classList.add("invalid");
-            errnb++;
-        }
+            // Effectuez des vérifications (vous pouvez ajouter plus de vérifications selon vos besoins)
+            let isValid = true;
+
+            if (nom.trim() === '') {
+                isValid = false;
+                alert("Le champ 'Nom complet' est requis.");
+            }
+
+            if (pseudo.trim() === '') {
+                isValid = false;
+                alert("Le champ 'Pseudo en jeu' est requis.");
+            }
+
+            if (email.trim() === '' || !validateEmail(email)) {
+                isValid = false;
+                alert("Veuillez saisir une adresse e-mail valide.");
+            }
+
+            if (niveau.trim() === '') {
+                isValid = false;
+                alert("Le champ 'Niveau actuel' est requis.");
+            }
+
+            if (experience.trim() === '') {
+                isValid = false;
+                alert("Le champ 'Nombre de guerres de clans' est requis.");
+            }
+
+            if (date.trim() === '') {
+                isValid = false;
+                alert("Le champ 'Disponibilité en guerre de clans' est requis.");
+            }
+
+            if (time.trim() === '') {
+                isValid = false;
+                alert("Le champ 'Heures de disponibilité' est requis.");
+            }
+
+            if (!discord && !whatsapp) {
+                isValid = false;
+                alert("Veuillez sélectionner au moins une méthode de communication.");
+            }
+
+            if (contenu.trim() === '') {
+                isValid = false;
+                alert("Le champ 'Vos commentaires' est requis.");
+            }
+
+            if (!conditions) {
+                isValid = false;
+                alert("Vous devez accepter les règles et les attentes du clan.");
+            }
+
+            if (isValid) {
+                form.submit(); // Soumettre le formulaire si tout est valide
+            }
+        });
+    });
+
+    // Fonction de validation de l'e-mail
+    function validateEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
     }
-
-    const email = urlParams.get('email');
-    if(!email) {
-        document.getElementById('sec_msg').innerText = "Aucun email n'a été reçu";
-        document.getElementById('sec_label').classList.add("invalid");
-        errnb++;
-    } else {
-        document.getElementById('sec_msg').innerText = email;
-        const secRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if(!secRegex.test(email)) {
-            document.getElementById('sec_label').classList.add("invalid");
-            errnb++;
-        }
-    }
-
-
-    const pseudo = urlParams.get('pseudo');
-    if(!pseudo) {
-        document.getElementById('pseudo_msg').innerText = "Aucun nom n'a été reçu";
-        document.getElementById('pseudo_label').classList.add("invalid");
-        errnb++;
-    } else {
-        document.getElementById('pseudo_msg').innerText = pseudo;
-        const pseudoRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
-        if(!pseudoRegex.test(pseudo)){
-            document.getElementById('pseudo_label').classList.add("invalid");
-            errnb++;
-        }
-    }
-
-
-    const niveau = urlParams.get('niveau');
-    if(!niveau) {
-        document.getElementById('niveau_msg').innerText = "Aucun niveau n'a été reçu";
-        document.getElementById('niveau_label').classList.add("invalid");
-        errnb++;
-    } else {
-        document.getElementById('niveau_msg').innerText = niveau;
-        const niveauRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
-        if(!niveauRegex.test(niveau)){
-            document.getElementById('niveau_label').classList.add("invalid");
-            errnb++;
-        }
-    }
-
-
-    const contenu = urlParams.get('contenu');
-    if(!contenu) {
-        document.getElementById('contenu_msg').innerText = "Aucun texte n'a été reçu";
-        document.getElementById('contenu_label').classList.add("invalid");
-        errnb++;
-    } else {
-        document.getElementById('contenu_msg').innerText = contenu;
-    }
-
-
-
-
-    if(errnb) {
-        document.getElementById('msg').innerText = "❌ Désolé, certaines informations sont invalides.";
-    } else {
-        document.getElementById('msg').innerText = "✅ Merci vos informations ont bien été reçues.";
-    }
-
 </script>
+
+
+
+
+
+
+
+
