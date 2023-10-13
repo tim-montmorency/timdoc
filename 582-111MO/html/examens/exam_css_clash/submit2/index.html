@@ -198,8 +198,7 @@
     const whatsapp = urlParams.get('whatsapp');
     if(!whatsapp) {
         document.getElementById('whatsapp_msg').innerText = "Non";
-        document.getElementById('whatsapp_label').classList.add("valid");
-        errnb++;
+
     } else {
         document.getElementById('whatsapp_msg').innerText = "Oui";
         const whatsappRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
