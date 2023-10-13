@@ -194,6 +194,22 @@
     }
 
 
+
+    const whatsapp = urlParams.get('whatsapp');
+    if(!whatsapp) {
+        document.getElementById('whatsapp_msg').innerText = "Aucun choix n'a été reçu";
+        errnb++;
+    } else {
+        document.getElementById('whatsapp_msg').innerText = "Oui";
+        const whatsappRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
+        if(!whatsappRegex.test(whatsapp)){
+            document.getElementById('discord_label').classList.add("invalid");
+            errnb++;
+        }
+    }
+
+
+
     const contenu = urlParams.get('contenu');
     if(!contenu) {
         document.getElementById('contenu_msg').innerText = "Aucun texte n'a été reçu";
