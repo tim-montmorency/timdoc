@@ -59,7 +59,7 @@
             <br>
             <h3 style="color: rgb(178, 83, 255);">Informations supplémentaires :</h3>
             <strong id="contenu_label">Vos commentaires : </strong> <span id="contenu_msg"></span>
-            <br>
+            <br><br>
             <strong id="conditions_label">Conditions acceptées : </strong> <span id="conditions_msg"></span>
             <br>
 
@@ -181,7 +181,7 @@
 
     const discord = urlParams.get('discord');
     if(!discord) {
-        document.getElementById('discord_msg').innerText = "Non";
+        document.getElementById('discord_msg').innerText = "Aucun choix n'a été reçu";
 
         errnb++;
     } else {
@@ -220,6 +220,19 @@
         document.getElementById('contenu_msg').innerText = contenu;
     }
 
+    const conditions = urlParams.get('conditions');
+    if(!conditions) {
+        document.getElementById('conditions_msg').innerText = "Aucun choix n'a été reçu";
+        document.getElementById('conditions_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('conditions_msg').innerText = "Oui";
+        const conditionsRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
+        if(!conditionsRegex.test(conditions)){
+            document.getElementById('conditions_label').classList.add("invalid");
+            errnb++;
+        }
+    }
 
 
 
