@@ -181,8 +181,8 @@
 
     const discord = urlParams.get('discord');
     if(!discord) {
-        document.getElementById('discord_msg').innerText = "Aucun choix n'a été reçu";
-        document.getElementById('discord_label').classList.add("invalid");
+        document.getElementById('discord_msg').innerText = "Non";
+        document.getElementById('discord_label').classList.add("valid");
         errnb++;
     } else {
         document.getElementById('discord_msg').innerText = "Oui";
