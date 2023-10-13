@@ -179,6 +179,21 @@
     }
 
 
+    const discord = urlParams.get('discord');
+    if(!discord) {
+        document.getElementById('discord_msg').innerText = "Aucun choix n'a été reçu";
+        document.getElementById('discord_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('discord_msg').innerText = "Oui";
+        const discordRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
+        if(!discordRegex.test(discord)){
+            document.getElementById('discord_label').classList.add("invalid");
+            errnb++;
+        }
+    }
+
+
     const contenu = urlParams.get('contenu');
     if(!contenu) {
         document.getElementById('contenu_msg').innerText = "Aucun texte n'a été reçu";
