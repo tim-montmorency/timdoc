@@ -71,7 +71,7 @@
 <p>Par exemple:</p>
 
 <highlight lang='php'>function create_post_type() {
-  register_post_type('products', 
+  register_post_type('produits', 
     array(
       'labels' => array(
         'name' => _x('Produits', 'Nom générique'),
@@ -107,7 +107,9 @@ add_action('init', 'create_post_type');</highlight>
 
 
 
-<p>Dans cet exemple, avec&nbsp;<code>'labels' =&gt; array( ... )</code>&nbsp;indique à WordPress comment nommer ce nouveau post dans différents&nbsp;scénarios.</p><p><code>'supports' =&gt; array( ... )</code>&nbsp;indique les champs disponibles pour ce type de post dans le tableau de&nbsp;bord.</p><p>Tandis que&nbsp;<code>addaction('init', 'createpost_type');</code>&nbsp;indique à WordPress d'appeler cette fonction créant le nouveau type de post à son&nbsp;instanciation.</p><p>Dès ce moment, la nouvelle collection devrait être disponible dans le tableau de&nbsp;bord.</p>
+<p>Dans cet exemple, avec&nbsp;<code>'labels' =&gt; array( ... )</code>&nbsp;indique à WordPress comment nommer ce nouveau post dans différents&nbsp;scénarios.</p><p><code>'supports' =&gt; array( ... )</code>&nbsp;indique les champs disponibles pour ce type de post dans le tableau de&nbsp;bord.</p>
+
+<p>Tandis que&nbsp;<code>addaction('init', 'createpost_type');</code>&nbsp;indique à WordPress d'appeler cette fonction créant le nouveau type de post à son&nbsp;instanciation.</p><p>Dès ce moment, la nouvelle collection devrait être disponible dans le tableau de&nbsp;bord.</p>
 
 
 
@@ -119,7 +121,7 @@ add_action('init', 'create_post_type');</highlight>
 
 <p>Par&nbsp;exemple:</p>
 
-<highlight lang='php'>$products = new WP_Query('post_type=products');</highlight>
+<highlight lang='php'>$products = new WP_Query('post_type=produits');</highlight>
 
 
 <p>Ensuite, il faudra boucler parmi les résultats&nbsp;obtenus et imprimer <code>print</code> ceux-ci dans une page:</p>
@@ -128,7 +130,7 @@ add_action('init', 'create_post_type');</highlight>
       
 while ( $products->have_posts() ) : $products->the_post(); 
     print the_title();  // titre du produit
-    the_excerpt(); // extrait de de la description du produit
+    the_excerpt(); // extrait de la description du produit
 endwhile;</highlight>
 
 <!--<highlight lang='php'>while ($produits->have_posts()) : $produits->the_post();</highlight>-->

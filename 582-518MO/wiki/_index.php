@@ -624,8 +624,7 @@
     <?php intlink("../wordpress/wp-crochets-action-filtre/"); ?>
     <?php intlink("../wordpress/posts-personnalises/"); ?>
     <?php intlink("../wordpress/advanced-custom-fields/"); ?>
-    <?php intlink("../wordpress/wp-multilang/"); ?>
-    <?php intlink("../wordpress/yoast-seo/"); ?>
+
 
     <br> <br>
     <hr><br>
