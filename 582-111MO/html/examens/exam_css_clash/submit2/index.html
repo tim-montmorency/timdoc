@@ -40,25 +40,24 @@
             <br>
             <strong id="sec_label">Courriel: </strong> <span id="sec_msg"></span>
             <br>
-            <h3>Pseudo</h3>
             <strong id="pseudo_label">Votre PSEUDO est: </strong> <span id="pseudo_msg"></span>
             <br>
-            <h3>Niveau et Expérience</h3>
+            <h3 style="color: rgb(178, 83, 255);">Niveau et Expérience</h3>
             <strong id="niv_label">Niveau: </strong> <span id="niv_msg"></span>
             <br>
             <strong id="experience_label">Expérience: </strong> <span id="experience_msg"></span>
             <br>
-            <h3>Disponibilité</h3>
+            <h3 style="color: rgb(178, 83, 255);">Disponibilité</h3>
             <strong id="date_label">Date: </strong> <span id="date_msg"></span>
             <br>
             <strong id="time_label">Heure: </strong> <span id="time_msg"></span>
             <br>
-            <h3>Méthode de communication</h3>
+            <h3 style="color: rgb(178, 83, 255);">Méthode de communication</h3>
             <strong id="discord_label">Discord: </strong> <span id="discord_msg"></span>
             <br>
             <strong id="whatsapp_label">What's App: </strong> <span id="whatsapp_msg"></span>
             <br>
-            <h3>Informations supplémentaires :</h3>
+            <h3 style="color: rgb(178, 83, 255);">Informations supplémentaires :</h3>
             <strong id="contenu_label">Vos commentaires : </strong> <span id="contenu_msg"></span>
             <br>
             <strong id="conditions_label">Conditions acceptées : </strong> <span id="conditions_msg"></span>
@@ -136,9 +135,34 @@
     }
 
 
+    const experience = urlParams.get('experience');
+    if(!experience) {
+        document.getElementById('experience_msg').innerText = "Aucune expérience n'a été reçu";
+        document.getElementById('experience_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('experience_msg').innerText = experience;
+        const experienceRegex = (/^[0-9]+$/) ;
+        if(!experienceRegex.test(experience)){
+            document.getElementById('experience_label').classList.add("invalid");
+            errnb++;
+        }
+    }
 
 
-
+    const date = urlParams.get('date');
+    if(!date) {
+        document.getElementById('date_msg').innerText = "Aucune date n'a été reçu";
+        document.getElementById('date_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('date_msg').innerText = date;
+        const dateRegex = /(\d{4})-(\d{2})-(\d{2})/ ;
+        if(!dateRegex.test(date)){
+            document.getElementById('date_label').classList.add("invalid");
+            errnb++;
+        }
+    }
 
 
     const contenu = urlParams.get('contenu');
@@ -160,39 +184,3 @@
     }
 
 </script>
-
-
-
-
-
-
-
-
-
-
-const urlParams = new URLSearchParams(window.location.search);
-    const year = urlParams.get('year');
-    const month = urlParams.get('month');
-    const day = urlParams.get('day');
-    
-    let errnb = 0;
-    if(!year) errnb++;
-    if(!month) errnb++;
-    if(!day) errnb++;
-    
-    if(!/^[0-9]{4}$/.test(year)) errnb++;
-    if(!/^[0-9]{1,2}$/.test(month)) errnb++;
-    if(!/^[0-9]{1,2}$/.test(day)) errnb++;
-    
-    if(errnb) {
-        document.getElementById('form').innerHTML = '<p class="error"><strong>Erreur:</strong> certains champs sont manquants ou invalides</p>';
-    } else {
-        const date = year + '-' + pad(month,2) + '-' + pad(day,2);
-        if(!dateValidation(date)) {
-            document.getElementById('form').innerHTML = '<p class="error"><strong>Erreur:</strong> date invalide.</p>';
-        } else {
-            const diff = Math.abs(new Date() - new Date(date.replace(/-/g,'/')));
-            const years = Math.floor(diff / (1000*60*60*24*365));
-            document.getElementById('form').innerHTML = '<p>Vous avez donc</p><h1>' + years + ' ans</h1>';
-        }
-    }
