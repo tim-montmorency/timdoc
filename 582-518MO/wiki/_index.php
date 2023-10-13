@@ -621,6 +621,7 @@
     <h2>WORDPRESS</h2>
    
     <?php intlink("../wordpress/menus/"); ?>
+    <?php intlink("../wordpress/wp-crochets-action-filtre/"); ?>
     <?php intlink("../wordpress/posts-personnalises/"); ?>
     <?php intlink("../wordpress/advanced-custom-fields/"); ?>
     <?php intlink("../wordpress/wp-multilang/"); ?>
@@ -671,9 +672,9 @@
     <h2>Concours 404 - Retour</h2>
     <p>Vote le gagnant de ta classe
         <br>Prix: Des bonbons !</p>
-    Lundi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Vote</a>
+    Lundi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Votez</a>
     <br>
-    Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Votre</a><br>
+    Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Votez</a><br>
     
 
     <br>
@@ -685,7 +686,10 @@
     <br> <br>
     <hr><br><br>
     <h2>WORDPRESS</h2>
-
+    <p>Groupe lundi</p>
+    <?php intlink("../wordpress/wp-crochets-action-filtre/"); ?>
+    <p>Groupe lundi ET vendredi</p>
+    <?php intlink("../wordpress/wp-editeur-gutenberg/"); ?>
     <?php intlink("../wordpress/wp-multilang/"); ?>
     <?php intlink("../wordpress/yoast-seo/"); ?>
 

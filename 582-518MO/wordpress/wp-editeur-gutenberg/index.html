@@ -27,7 +27,7 @@
         <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
         <script src="../../../shared/jscripts/vue.global.prod.js"></script>
         <script>const shared = '../../../shared/';</script>
-        <title>Crochets WP: action et filtre</title>
+        <title>Éditeur Gutenberg</title>
     </head>
     <body>
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
@@ -44,46 +44,38 @@
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
                 <div id="breadcrumb"><a href="../../">Projet Web</a> > <a href="../">WordPress</a> ></div>
-                <h1 id="title"><img src="images/icon-wp.png">&nbsp;Crochets WP: action et filtre</h1>
+                <h1 id="title"><img src="images/icon-wp.png">&nbsp;Éditeur Gutenberg</h1>
             </div>
             <article>
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
-<p>Les crochets (<em>hooks</em>) vous permettent d’interagir et de modifier le code à des endroits spécifiques sans modifier le cœur du CMS WordPress.</p>
+<p>Depuis WordPress&nbsp;5, l'éditeur de mise-en-page par bloc est inclu dans le coeur de WordPress. Cet éditeur se nomme Gutenberg qui est  le nom de l'inventeur de l'imprimante.</p>
 
-<p>Ils vous permettent d'ajouter des fonctions personnalisées à des endroits spécifiques ou pendant des événements opportuns dans le chargement du site ou dans le processus de navigation d'un utilisateur du site.</p>
-
-<dots></dots>
-<grostitre>Catégories de hooks</grostitre>
-
-<p>Les crochets (<em>hooks</em>) sont divisés en deux catégories :</p>
-<ul>
-    <li><strong>Action</strong> – permet aux utilisateurs d’ajouter des données ou de modifier le fonctionnement de leur site web. Un hook d’action s’exécutera à un moment précis lorsque le noyau de WordPress, les extensions (<em>plugins</em>) et les thèmes sont en cours d’exécution.</li>
-    <li><strong>Filtre</strong> – peut modifier des données pendant l’exécution du noyau, des extensions (<em>plugins</em>) et des thèmes de WordPress.</li>
-</ul>
-
+<img src="images/ecran-editeur-gutenberg-wp.jpg" alt="Impression écran de l'éditeur Guterberg." style="box-shadow: 5px 5px 20px rgba(0,0,0,0.2);">
 
 <dots></dots>
+
+<grostitre>Usage</grostitre>
+<p>Éditeur avec boîte à outils intégré qui vous permet de réaliser une mise-en-page perosnnalisée sans coder ni HTML, ni CSS.</p>
+
+<p>Attention, il ne faut pas confondre un modèle (<em>template</em>) et l'utilisation de la mise en page par l'éditeur Gutenberg. Ce dernier sert essentiellement à la mise-en-page du contenu d'un article sprécifique et le tout se place un peu "à la main". Par exemple si je souhaite inclure une image au milieu d'un article et l'afficher à côté d'un paragraphe, je peux utiliser cet éditeur pour créer deux colonnes et y placer mon contenu, à droite l'image, à gauche mon paragraphe.</p>
+
+<p>Notez que lorsque vous créez plusieurs colonnes avec Guternberg, elles s'affichent automatiquement l'une sous l'autre en format tablette ou en format mobile. Bref, c'est <em>responsive</em>&nbsp;!</p>
+
+<p>Vous pouvez aussi créer des styles de bloc qui pourront être réutilisable de page en page.</p>
+<img src="images/ecran-editeur-gutenberg-wp-bloc-reutilisable.jpg" alt="bloc réutilisable">
+
+
+<warning>Notez bien que la mise en place de ce qui est autour du contenu de l'article (le titre, l'auteur, la date de publication, l'entête de la page web, le pied de page, l'ajout de publicité, autres articles suggérés etc) se fera via le modèle (<em>template</em>) du thème lié au type de contenu (par exemple le modèle page.php ou single.php du thème actif) et non pas via cet éditeur.</warning>
+
+
+
+<dots></dots>
+
 <grostitre>Utilisation</grostitre>
-<p>Pour utiliser l’un de ces cochets (<em>hooks</em>), l’utilisateur doit écrire une fonction personnalisée appelée <em>Callback</em> et l’enregistrer avec un crochet (<em>hook</em>) WordPress pour une action ou un filtre spécifique. Exemple:</p>
 
-
-<highlight lang='php'>function lancerAlerte() {
-
-  echo "&lt;script type=&#39;text/javascript&#39;&gt;
-  alert(&#39;Wow! Voici une alerte JS lancée à l initialisation de WordPress via un crochet de type action!&#39;);&lt;/script&gt;";
-
-}
-
-add_action('init', 'lancerAlerte');</highlight>
-
-
-
-<dots></dots>
-<grostitre>En savoir plus</grostitre>
-<p>Veuillez lire <!--<a href="https://www.hostinger.fr/tutoriels/hooks-wordpress" target="_blank">cet article</a> et--> <a href="https://kinsta.com/fr/blog/hooks-wordpress/" target="_blank">cet article</a> pour mieux comprendre les crochets WordPress.</p>
-
+<p>Démonstration en classe.</p>
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>
