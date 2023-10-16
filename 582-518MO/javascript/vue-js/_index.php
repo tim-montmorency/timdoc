@@ -4,6 +4,6 @@
  * @title    Vue.js
  * @icon     images/ico-vue.png
  * @abstract Cadriciel JavaScript
- * * @index    97
+ * * @index    96
  */
 print_children();

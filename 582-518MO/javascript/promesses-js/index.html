@@ -49,36 +49,58 @@
             <article>
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
-<p>Une promesse, ou en anglais&nbsp;<em>promise</em>, consiste en un engagement à faire quelque chose. Par exemple, un collègue peut promettre de remettre sa partie d’un travail d’ici la fin de la&nbsp;semaine.</p>
+<grostitre>La métaphore d'une promesse</grostitre>
+<p>Une promesse (en anglais promise), consiste en un <strong><em>engagement</em></strong> à faire quelque chose. Par exemple, un camarade de classe peut vous promettre de remettre sa partie d’un travail d'équipe d’ici la fin de la&nbsp;semaine.</p>
 
-<p>Le résultat d’une telle promesse n’est pas immédiatement disponible. Il faut se montrer patient et attendre que la promesse soit complétée. Par exemple, attendre que le collègue remette sa partie, soit: jeudi, vendredi, samedi ou encore&nbsp;dimanche.</p>
+<p>Le résultat d’une telle promesse n’est pas immédiatement disponible. Il faut se montrer patient et <em>attendre que la promesse soit complétée</em>. Par exemple, attendre que votre camarade remette sa partie, soit: jeudi, vendredi, samedi ou encore&nbsp;dimanche.</p>
 
-<p>Une promesse est faite dans le but d’être respectée. Donc si le collègue en question promet de remettre sa partie pour une date X, c’est qu’il est confiant de pouvoir respecter son engagement et lorsque ce sera chose faite, vous pourrez alors jumeler vos&nbsp;parties.</p>
+<p><em>Une promesse est faite dans le but d’être respectée</em>. Donc si votre camarade promet de remettre sa partie pour une date X, c’est qu’il est confiant de pouvoir respecter son engagement et lorsque ce sera chose faite, vous pourrez alors jumeler vos&nbsp;parties de travail d'équipe.</p>
 
-<p>Dans de rares occasions, une promesse peut être brisée. Un contretemps pourrait par exemple empêcher ledit collègue de remettre sa partie. Vous, vous tournerez alors vers un plan&nbsp;B.</p>
-
-<p>Les&nbsp;<code>Promises</code>&nbsp;en JavaScript fonctionnent sur le même principe. À défaut de pouvoir répondre immédiatement une fonction peut retourner une promesse. Cette approche est particulièrement utile lorsque la fonction en question contacte un serveur externe, puisque son délai de réponse peut&nbsp;varier.</p><p>Si la promesse est respectée, la méthode&nbsp;<code>.then()</code>&nbsp;est ensuite appelée et la valeur de la réponse lui est passée en&nbsp;paramètre.</p>
-
-
-<p>Si la promesse est brisée et qu’une méthode&nbsp;<code>.catch()</code>&nbsp;est présente, elle est appelée et un message d’erreur lui est&nbsp;envoyé.</p><p>Bien qu’il soit possible de faire et de recevoir des promesses en JavaScript, il est plus fréquent d’en&nbsp;recevoir.</p>
-
-
-
+<p>Dans de <em>rares occasions, une promesse peut être brisée</em>. Un contretemps pourrait par exemple empêcher votre camarade de remettre sa partie. Vous, vous tournerez alors vers un plan&nbsp;B.</p>
 
 
 
 <dots></dots>
-<grostitre>new Promise</grostitre>
-<p>Le code new Promise() permet de créer une promesse. Cette promesse est en fait un objet contenant une fonction acceptant deux&nbsp;paramètres.</p>
+<grostitre>Promesse JavaScript</grostitre>
+
+<p>Les&nbsp;<code>Promises</code>&nbsp;en JavaScript fonctionnent sur le même principe. À défaut de pouvoir répondre immédiatement une fonction peut retourner une promesse. Cette approche est particulièrement utile lorsque la fonction en question contacte un serveur externe, puisque son délai de réponse peut&nbsp;varier.</p><p>Si la promesse est respectée, la méthode&nbsp;<code>.then()</code>&nbsp;est ensuite appelée et la valeur de la réponse lui est passée en&nbsp;paramètre.</p>
+
+
+<p>Si la promesse est brisée et qu’une méthode&nbsp;<code>.catch()</code>&nbsp;est présente, elle est appelée et un message d’erreur lui est&nbsp;envoyé.</p>
+
+<dots></dots>
+<grostitre>Mise-en-contexte pour le cours</grostitre>
+
+<p>Bien qu’il soit possible de : <br><br>
+- <em>faire ou construire une promesse</em> en JavaScript (<span style="color:#000; font-weight: 900; background-color: #5FF6F6;">create</span>)<br>
+- <em>recevoir une promesse</em> en JavaScript (<span style="color:#000; font-weight: 900; background-color: #F97DF8">consume</span>), <br><br>
+il est plus fréquent d’en&nbsp;recevoir (consume).</p>
+<br>
+<p>D'abord, on apprendra comment faire, comment CONSTRUIRE UNE PROMESSE en JavaScript. </p>
+
+<p>Par la suite, on apprendra plutôt à RECEVOIR CETTE PROMESSE. Donc, comprendre la façon dont une promesse est construite vous aidera à gérer la réception d'une telle promesse.</p>
+
+<p>Dans l'exemple de l'image ci-dessous, on simule l'appel chez Uber pour demander un service. Uber fera donc la promesse d'une course en voiture (ride). Après un cerytain temps, on recevra une notification soit: <br>"✅ votre condcuteur est arrivé (driver arrived) ✅"<br>ou :<br>"🚫 votre conducteur a annulé votre requête (driver bailed) 🚫".</p>
+<img src="images/create-consume-promise-js.png" alt="2 fene^tre de code une à coté de l'autre: àa gauche: la création d'une promesse et à droite: la réception de cette promesse.">
+
+
+
+<dots></dots>
+<grostitre>FAIRE (CONSTRUIRE) UNE PROMESSE</grostitre>
+<grostitre>- new Promise</grostitre>
+<p>Le code new Promise() permet de créer une promesse. Cette promesse est en fait un <em>objet&nbsp;JavaScript</em> contenant une fonction acceptant deux&nbsp;paramètres.</p>
 
 
 <ol start="1">
-    <li>Le premier correspond au nom d'une fonction à appeler lorsque la promesse est&nbsp;respectée.</li>
+    <li>Le <em>1er paramètre</em> correspond au nom d'une fonction à appeler lorsque la promesse est&nbsp;<em>respectée</em>.</li>
 
-    <li>Le deuxième au nom de la fonction à appeler lorsqu'elle est&nbsp;brisée.</li>
+    <li>Le <em>2e paramètre</em> correspond au nom de la fonction à appeler lorsqu'elle est&nbsp;<em>brisée</em>.</li>
  </ol>
+ <br>
+ <br>
 
-<p>Par exemple, la promesse suivante 👇 appelle la fonction&nbsp;<code>resolve</code>&nbsp;lorsqu'elle est respectée et&nbsp;<code>reject</code>&nbsp;lorsqu'elle est brisée. La valeur du retour dans les deux cas est passée en&nbsp;paramètre.</p>
+<p>Par exemple, la promesse suivante 👇 appelle la fonction&nbsp;<code>resolve</code>&nbsp;lorsqu'elle est respectée et&nbsp;<code>reject</code>&nbsp;lorsqu'elle est brisée. <br>
+La valeur du retour dans les deux cas est passée en&nbsp;paramètre.</p>
 
 
 <pre><code class="hljs javascript"><span class="hljs-keyword">const</span> promesse = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
@@ -118,7 +140,10 @@ Par exemple, le code&nbsp;suivant:
 
 
 <dots></dots>
-<grostitre>then() ✅</grostitre>
+
+<grostitre>RECEVOIR UNE PROMESSE</grostitre>
+
+<grostitre>- then() ✅</grostitre>
         
 
 <p>Si la promesse est respectée, une méthode&nbsp;<code>.then()</code>&nbsp;est appelée et la valeur lui est passée en&nbsp;paramètre.</p>
@@ -143,7 +168,7 @@ Par exemple:
 
 
 <dots></dots>
-<grostitre>catch() 🚫</grostitre>
+<grostitre>- catch() 🚫</grostitre>
 
 <p>Si la promesse est brisée et qu'une méthode&nbsp;<code>.catch()</code>&nbsp;est présente, cette dernière est appelée et la valeur lui est passée en&nbsp;paramètre.</p>
 
@@ -157,12 +182,7 @@ Par exemple:
 
 
 
-<dots></dots>
-<grostitre>Promesse intermédiaire</grostitre>
-<p>(si on a le temps)</p>
-
-
-
+  <dots></dots>
 <grostitre>- finally()</grostitre>
 <p>Si une méthode&nbsp;<code>.finally()</code>&nbsp;est présente, celle-ci est appelée dès que la promesse est complétée, peu importe son statut qu'elle soit respectée ou&nbsp;brisée.</p>
 
@@ -172,7 +192,7 @@ Par exemple:
 <pre><code class="hljs javascript">promesse
   .finally(<span class="hljs-function">() =&gt;</span> <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Promesse complétée"</span>));</code></pre>
 
-
+<dots></dots>
 <doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally'>finally()</doclink>
 
 
@@ -190,51 +210,9 @@ Dans un exemple concret, tout mis ensemble donnerait&nbsp;ceci:
 
 
 
-<p>La relation entre des promesses peut variée. Parfois certaines sont interchangeables, alors qu'à d'autres moments elles sont toutes requises avant de pouvoir passer à l'étape&nbsp;suivante.</p>
-
-<p>Afin de gérer ces relations, l'objet&nbsp;<code>Promise</code>&nbsp;est doté de plusieurs méthodes permettant de retourner à son tour des promesses&nbsp;<em>(promise)</em>. Voici deux de ces méthodes les plus&nbsp;communes.</p>
-
-
-
-
-
-<dots></dots>
-<grostitre>- all()</grostitre>
-
-<p>La méthode&nbsp;<code>Promise.all()</code>&nbsp;retourne une promesse respectée lorsque l'ensemble des promesses lui étant passées en paramètres sont respectées. Sa valeur de résultat contient un tableau populé par le résultat de chacune de ses&nbsp;sous-promesses.</p>
-
-<pre><code class="hljs javascript"><span class="hljs-keyword">const</span> p1 = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-params">resolve</span> =&gt;</span> resolve(<span class="hljs-string">"Promesse 1"</span>));
-<span class="hljs-keyword">const</span> p2 = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-params">resolve</span> =&gt;</span> resolve(<span class="hljs-string">"Promesse 2"</span>));
-<span class="hljs-keyword">const</span> p3 = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-params">resolve</span> =&gt;</span> resolve(<span class="hljs-string">"Promesse 3"</span>));
-
-<span class="hljs-built_in">Promise</span>.all([p1, p2, p3]).then(<span class="hljs-function"><span class="hljs-params">values</span> =&gt;</span> {
-  <span class="hljs-built_in">console</span>.log(values);
-});
-
-<span class="hljs-comment">// ["Promesse 1", "Promesse 2", "Promesse 3"]</span></code></pre>
-
-
-
-
-<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/all'>all()</doclink>
 
 <dots></dots>
 
-<grostitre>- any()</grostitre>
-<p>Contrairement à la méthode&nbsp;<a rel="noopener noreferrer" href="#all">Promise.all()</a>, la méthode&nbsp;<code>Promise.any()</code>&nbsp;retourne une promesse respectée dès qu'une promesse lui étant passées en paramètres est respectée. Sa valeur de résultat contient le résultat de la sous-promesses la plus rapide à&nbsp;répondre.</p>
-
-<pre><code class="hljs javascript"><span class="hljs-keyword">const</span> p1 = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve</span>) =&gt;</span> resolve(<span class="hljs-string">"Promesse 1"</span>)); <span class="hljs-comment">// 🐢 lente</span>
-<span class="hljs-keyword">const</span> p2 = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve</span>) =&gt;</span> resolve(<span class="hljs-string">"Promesse 2"</span>)); <span class="hljs-comment">// 🐇 rapide</span>
-<span class="hljs-keyword">const</span> p3 = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve</span>) =&gt;</span> resolve(<span class="hljs-string">"Promesse 3"</span>)); <span class="hljs-comment">// 🐕 moyenne</span>
-
-<span class="hljs-built_in">Promise</span>.any([p1, p2, p3]).then(<span class="hljs-function">(<span class="hljs-params">valeur</span>) =&gt;</span> {
-  <span class="hljs-built_in">console</span>.log(valeur); <span class="hljs-comment">// "Promesse 2"</span>
-});</code></pre>
-
-<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/any'>any()</doclink>
-
-
-<dots></dots>
 <grostitre>Résumé vidéo</grostitre>
   <a href="https://www.youtube.com/watch?v=RvYYCGs45L4" class="youtube__wrapper" data-module="Youtube">
   
