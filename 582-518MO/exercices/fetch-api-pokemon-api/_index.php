@@ -32,11 +32,12 @@ Lorsque le menu déroulant change de valeur, appelez votre fonction. Trouvez un 
 Dans votre fonction, retirez la classe&nbsp;<code>.reveal</code>&nbsp;du <code>body</code>, effacez le texte à l'intérieur de la balise&nbsp;<code>.name</code>.
 <em>(*⚠️*)</em>&nbsp;Toujours dans votre fonction à la suite du point précédent, <a target="_blank" rel="noopener noreferrer" href="https://pokeapi.co/docs/v2#types">appelez PokéAPI</a> afin d'obtenir la liste des Pokémons correspondant au <strong>type&nbsp;</strong>reçu du menu déroulant.
 <em>(*⚠️*)</em>&nbsp;Faites un console log du résultat reçu afin de vous assurer qu'il retourne bien un objet contenant des propriétés relatives au type de Pokémon&nbsp;sélectionné.
-<em>(*⚠️*)</em>&nbsp;Si le résultat de l'état précédent est bon, plutôt que d'effectuer un console log dans l'étape précédente, déterminez le nombre de Pokémons reçu et basez-vous sur ce nombre afin d'en piger un&nbsp;aléatoirement.
- Faites un console log du Pokémon pigé afin de voir les propriétés que contient son&nbsp;objet.
- À partir du Pokémon sélectionné, appelez à nouveau PokéAPI, mais cette fois utilisez l'URL fournie dans l'objet du Pokémon sélectionné lors de l'étape&nbsp;précédente.
- Faites un console log du résultat. Vous devriez obtenir un objet JavaScript décrivant en détail le Pokémon&nbsp;sélectionné.
-Ajoutez la classe&nbsp;<code>.reveal</code>&nbsp;au <code>&lt;body&gt;</code>&nbsp;<em>(déclenche l'ouverture de la pokéball)</em>, insérez le nom de votre Pokémon dans la balise avec la classe&nbsp;<code>.name</code>&nbsp;et l'image de son sprite par défaut dans l'élément avec la classe&nbsp;<code>.media</code> 🌄.</checklist>
+<em>(*⚠️*)</em>&nbsp;Si le résultat de l'état précédent est bon, plutôt que d'effectuer un console log dans l'étape précédente, déterminez le nombre de Pokémons reçus. Basez-vous sur ce nombre afin d'en piger un&nbsp;aléatoirement.
+Faites un console log du Pokémon pigé afin de voir les propriétés que contient son&nbsp;objet.
+À partir du Pokémon sélectionné, appelez à nouveau PokéAPI, mais cette fois utilisez l'URL fournie dans l'objet du Pokémon sélectionné lors de l'étape&nbsp;précédente.
+Faites un console log du résultat. Vous devriez obtenir un objet JavaScript décrivant en détail le Pokémon&nbsp;sélectionné.
+Ajoutez la classe&nbsp;<code>.reveal</code>&nbsp;au <code>&lt;body&gt;</code>&nbsp;<em>(déclenche l'ouverture de la pokéball)</em>. Insérez le nom de votre Pokémon dans la balise avec la classe&nbsp;<code>.name</code>
+Insérez l'image de son sprite par défaut dans l'élément avec la classe&nbsp;<code>.media</code> 🌄.</checklist>
 
  
 
