@@ -651,59 +651,44 @@
 
 <wiki-page name="Cours 08" date="2023-10-16">
 
-<!-- 
-    NOTE MM NOTE MM NOTE MM 
-        
-    Wordpress : intégrer logo, personnaliser le site, intégrer le menu, intégrer Bootsrap, monter l'accueil etc
--->
 
+    <h2>Annonces</h2>
+    <p>Présentées en classe.</p>
+<dots></dots>
 
+    
+    <h2>WORDPRESS</h2>
+    <?php intlink("../wordpress/wp-editeur-gutenberg/"); ?>
+    <?php intlink("../wordpress/wp-multilang/"); ?>
+    <?php intlink("../wordpress/yoast-seo/"); ?>
 
-<h2>Quiz</h2>
-    Lundi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap : </a>
-    <br>
-    Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap : </a><br>
+  
 
+    <h2>Exercice en classe et révision en classe</h2>
+    <?php intlink("../exercices/wp-valet-de-coeur/"); ?>
+    <p>+</p>
+    <p>Je passe individuellement pour vérifier votre github et votre installation en local WP de votre projet de session.</p>
+    <dots></dots>
 
-    <br><br>
-    <hr>
 
     <h2>Concours 404 - Retour</h2>
     <p>Vote le gagnant de ta classe
         <br>Prix: Des bonbons !</p>
     Lundi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Votez</a>
     <br>
-    Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Votez</a><br>
+    Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Votez</a>
+
+    <dots></dots>
     
 
-    <br>
-    <hr><br>
-
-    <h2>Révision des exercices de la semaine passée</h2>
-    <?php //intlink("../exercices/wp-valet-de-coeur/"); ?>
-
-    <br> <br>
-    <hr><br><br>
-    <h2>WORDPRESS</h2>
-    <p>Groupe lundi</p>
-    <?php intlink("../wordpress/wp-crochets-action-filtre/"); ?>
-    <p>Groupe lundi ET vendredi</p>
-    <?php intlink("../wordpress/wp-editeur-gutenberg/"); ?>
-    <?php intlink("../wordpress/wp-multilang/"); ?>
-    <?php intlink("../wordpress/yoast-seo/"); ?>
-
-    <br> <br>
-    <hr><br><br>
     <h2>JAVASCRIPT</h2>
     <?php intlink("../javascript/promesses-js/"); ?>
 
     <?php intlink("../javascript/fetch-api/"); ?>
 
 
-
-    <h2>EXERCICES</h2>
-    <p>Pendant les exercices vous avez l'aide d'un tuteur en classe pour 1h.</p>
-    <p>Je passe équipe par équipe afin que vous me montriez ou vous en êtes dans votre projet.</p>
+    <h2>2 exercices Fetch API</h2>
+    <p>Je passe équipe par équipe afin que vous me montriez ou vous en êtes dans votre projet et que je vous recommende où vous devriez en être pour la semaine prochaine.</p>
 </wiki-page>
 
 
@@ -717,6 +702,11 @@
 ----------------------------------->
 
 <wiki-page name="Cours 09" date="2023-10-23">
+<!-- 
+    NOTE MM NOTE MM NOTE MM 
+        
+    Wordpress : intégrer logo, personnaliser le site, intégrer le menu, intégrer Bootsrap, monter l'accueil etc
+-->
 
 
 </wiki-page>
