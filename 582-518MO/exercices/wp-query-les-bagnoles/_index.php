@@ -30,9 +30,9 @@
 <dots></dots>
 <grostitre>Installation</grostitre>
         
-<checklist>Installez en local une copie en&nbsp;<a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/">Français du Canada de WordPress</a>&nbsp;pour votre client.
+<checklist>Installez en local une copie en&nbsp;<a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/" onclick="event.stopPropagation()">"Français du Canada de WordPress</a>&nbsp;pour votre client.
 Ajoutez les extensions Custom Post Type UI, WP Multilang et Advanced Custom Fields.
-Installez le&nbsp;<a target="_blank" rel="noopener noreferrer" href="https://ex.smnarnold.com/wordpress/cars/cars-theme.zip">thème réalisé par votre collègue</a>.</p>
+Installez le&nbsp;<a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="https://ex.smnarnold.com/wordpress/cars/cars-theme.zip">thème réalisé par votre collègue</a>.
 Importez la structure du Post Personnalisé intitulé <em>"Voiture"</em> à l'aide de l'extrait de code se trouvant à la fin de ce bloc.
 Importez la structure ACF du groupe de champs Voiture à l'aide du JSON en pièce jointe.
 Importez les données des pages à l'aide du fichier XML en pièce jointe.
