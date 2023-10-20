@@ -37,7 +37,7 @@
   Créez-vous un Pen et attribuez-lui la couleur de fond blanc cassé.
   Créez ensuite 4 balises images afin d'afficher les cases de la bande dessinée en référence.
   Ajoutez une classe commune à vos images afin de pouvoir les cibler avec une règle CSS unique.
-  Faites en sorte que les images s'affichent une à côté de l'autre, sans espace vide entre elles, et qu'elle mesure le quart de la largeur de la fenêtre. Elles devraient ainsi s'afficher sur une seule ligne et la remplir, peu importe la largeur de la fenêtre.
+  Faites en sorte que les images s'affichent une à côté de l'autre, sans espace vide entre elles <em>(en utilisant la déclaration ===>  font-size: 0; dans votre body)</em>, et qu'elle mesure le quart de la largeur de la fenêtre. Elles devraient ainsi s'afficher sur une seule ligne et la remplir, peu importe la largeur de la fenêtre.
 </checklist>
 
 <dots></dots>
