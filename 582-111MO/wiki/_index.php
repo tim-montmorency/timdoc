@@ -116,9 +116,7 @@
     <?php intlink("../css/box-model/"); ?>
     <?php intlink("../css/box-model/exercices/broforce"); ?>
     <?php intlink("../css/box-model/exercices/marc-seguin"); ?>
-    <?php intlink("../autres/navigation-clavier/"); ?>
-    <?php intlink("../css/outline/"); ?>
-    <?php intlink("../css/outline/exercices/skittles/"); ?>
+    <?php intlink("../html/metadonnees/"); ?>
     <?php intlink("../css/unites-de-couleur/"); ?>
 
 </wiki-page>
