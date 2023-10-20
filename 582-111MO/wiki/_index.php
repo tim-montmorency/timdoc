@@ -105,6 +105,9 @@
 
 <wiki-page name="Cours 9" date="2023-10-22">
     <?php intlink("../css/unites-de-mesure/"); ?>
+    <?php intlink("../css/fonte/"); ?>
+    <?php intlink("../css/text/"); ?>
+    <?php intlink("../css/text/exercices/focus/"); ?>
     <?php intlink("../css/width-height/"); ?>
     <?php intlink("../css/width-height/exercices/system32/"); ?>
     <?php intlink("../css/width-height/exercices/prevert/"); ?>
@@ -117,9 +120,7 @@
     <?php intlink("../css/outline/"); ?>
     <?php intlink("../css/outline/exercices/skittles/"); ?>
     <?php intlink("../css/unites-de-couleur/"); ?>
-    <?php intlink("../css/fonte/"); ?>
-    <?php intlink("../css/text/"); ?>
-    <?php intlink("../css/text/exercices/focus/"); ?>
+
 </wiki-page>
 
 
