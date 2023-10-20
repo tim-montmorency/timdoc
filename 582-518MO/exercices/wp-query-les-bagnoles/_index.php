@@ -19,7 +19,7 @@
 <dots></dots>
 <grostitre>Matériel</grostitre>
 
-<doclink href='https://codepen.io/smnarnold/pen/vYJgvdp?editors=1000'>Pen de départ</doclink>
+<doclink href='https://codepen.io/tim-momo/pen/ExrYmam'>Pen de départ</doclink>
 
 
 <h3 class="heading heading--h3" id="Médias 🖼️">Médias 🖼️</h3>

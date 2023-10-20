@@ -599,13 +599,19 @@
         anglais.</p>
     <p>Quelques exemples pour démarrer:</p>
     <ul>
-        <li><a href="https://www.figma.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site figma.com</a></li>
-        <li><a href="https://videotron.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site videotron.com</a></li>
-        <li><a href="https://github.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site github.com</a></li>
-        <li><a href="https://www.readytogosurvival.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site readytogosurvival.com</a></li>
+        <li><a href="https://www.figma.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site
+                figma.com</a></li>
+        <li><a href="https://videotron.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site
+                videotron.com</a></li>
+        <li><a href="https://github.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site
+                github.com</a></li>
+        <li><a href="https://www.readytogosurvival.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du
+                site readytogosurvival.com</a></li>
     </ul>
 
-    <p>Après: tour de la classe afin que vous partagiez votre meilleure trouvaille.<br>Sortez des sentiers battus, on ne veut pas avoir de site qui se trouve sur les site de recherche Google "best 404 pages". Soyez rusés et creusez le web!</p>
+    <p>Après: tour de la classe afin que vous partagiez votre meilleure trouvaille.<br>Sortez des sentiers battus, on ne
+        veut pas avoir de site qui se trouve sur les site de recherche Google "best 404 pages". Soyez rusés et creusez
+        le web!</p>
 
     <p>Après on vote en groupe qui aura fait la meilleure trouvaille. Que le meilleur gagne!</p>
 
@@ -619,7 +625,7 @@
     <br> <br>
     <hr><br><br>
     <h2>WORDPRESS</h2>
-   
+
     <?php intlink("../wordpress/menus/"); ?>
     <?php intlink("../wordpress/wp-crochets-action-filtre/"); ?>
     <?php intlink("../wordpress/posts-personnalises/"); ?>
@@ -629,9 +635,12 @@
     <br> <br>
     <hr><br>
     <h2>En classe + Devoir</h2>
-    <p>Avancez le plus loin possible l'exercice dont le lien a été fourni vers la fin du cours aujourd'hui. Essayez le le compléter d'ici le prochain cours, sinon vous allez devoir le faire PENDANT le prochain cours et vous allez prendre du retard sur le prochain exercice important et celui-ci l'est tout autant!</p>
-    <p>COntinuez d'avancer l'intégration de vos pages le projet en équipe (voir votre tableau Trello et les requis) pour la version CSS+HTML+JS. Attendez pour commencer à intégrer dans Wordpress.</p>
-  
+    <p>Avancez le plus loin possible l'exercice dont le lien a été fourni vers la fin du cours aujourd'hui. Essayez le
+        le compléter d'ici le prochain cours, sinon vous allez devoir le faire PENDANT le prochain cours et vous allez
+        prendre du retard sur le prochain exercice important et celui-ci l'est tout autant!</p>
+    <p>Continuez d'avancer l'intégration de vos pages le projet en équipe (voir votre tableau Trello et les requis) pour
+        la version CSS+HTML+JS. Attendez pour commencer à intégrer dans Wordpress.</p>
+
 
 
 
@@ -654,32 +663,24 @@
 
     <h2>Annonces</h2>
     <p>Présentées en classe.</p>
-<dots></dots>
+    <dots></dots>
 
-    
+
     <h2>WORDPRESS</h2>
     <?php intlink("../wordpress/wp-editeur-gutenberg/"); ?>
     <?php intlink("../wordpress/wp-multilang/"); ?>
     <?php intlink("../wordpress/yoast-seo/"); ?>
 
-  
+
 
     <h2>Exercice en classe et révision en classe</h2>
     <?php intlink("../exercices/wp-valet-de-coeur/"); ?>
     <p>+</p>
-    <p>Je passe individuellement pour vérifier votre github et votre installation en local WP de votre projet de session.</p>
+    <p>Je passe individuellement pour vérifier votre github et votre installation en local WP de votre projet de
+        session.</p>
     <dots></dots>
 
 
-    <h2>Concours 404 - Retour</h2>
-    <p>Vote le gagnant de ta classe
-        <br>Prix: Des bonbons !</p>
-    Lundi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Votez</a>
-    <br>
-    Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Votez</a>
-
-    <dots></dots>
-    
 
     <h2>JAVASCRIPT</h2>
     <?php intlink("../javascript/promesses-js/"); ?>
@@ -688,7 +689,8 @@
 
 
     <h2>2 exercices Fetch API</h2>
-    <p>Je passe équipe par équipe afin que vous me montriez ou vous en êtes dans votre projet et que je vous recommende où vous devriez en être pour la semaine prochaine.</p>
+    <p>Je passe équipe par équipe afin que vous me montriez ou vous en êtes dans votre projet et que je vous recommende
+        où vous devriez en être pour la semaine prochaine.</p>
 </wiki-page>
 
 
@@ -702,11 +704,30 @@
 ----------------------------------->
 
 <wiki-page name="Cours 09" date="2023-10-23">
-<!-- 
+    <!-- 
     NOTE MM NOTE MM NOTE MM 
-        
     Wordpress : intégrer logo, personnaliser le site, intégrer le menu, intégrer Bootsrap, monter l'accueil etc
 -->
+
+
+    <h2>Quiz</h2>
+    Lundi - <a href="https://app.wooclap.com/NYCYUF" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;: NYCYUF</a>
+    <br>
+    Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;:
+    </a><br>
+
+    <dots></dots>
+    <h2>Concours 404 - Retour</h2>
+    <p>Vote le gagnant de ta classe
+        <br>Prix: Des bonbons !
+    </p>
+    Lundi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Votez</a>
+    <br>
+    Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Votez</a>
+
+    <dots></dots>
+
+
 
 
 </wiki-page>
