@@ -711,7 +711,8 @@
 
 
     <h2>Quiz</h2>
-    Lundi - <a href="https://app.wooclap.com/NYCYUF" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;: NYCYUF</a>
+    Lundi - <a href="https://app.wooclap.com/NYCYUF" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;:
+        NYCYUF</a>
     <br>
     Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;:
     </a><br>
@@ -726,6 +727,50 @@
     Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Votez</a>
 
     <dots></dots>
+
+    <h2>Projet de session : découpage de type de contenu et de champs personnalisés </h2>
+
+    <p>
+        En équipe: mindmap (markdown) avec extension VSCode : <em>MarkMap</em>.  <br>
+        Créez un fichier structure-site.md dans votre thème, ensuite ouvrir palette des commandes (ctrl+maj+p) et écrire
+       <em>Open as markmap</em>  + Enter
+    </p>
+    <p>
+    <ul>
+        <li> Listez toutes vos pages (titre niveau 1)</li>
+        <li> Par page vous allez lister :
+            <ul>
+                <li>TYPE DE CONTENU: Quel type de contenu (post-type) principal vous avez besoin (titre niveau 2)</li>
+                <li> MODÈLE: Quel sera le nom du modèle lié à cette page (ou ce type de page)?
+                    Ex: page.php, product.php ?</li>
+                <li> COMPOSANTE: Dans la page elle-même, qu’est-ce que vous évaluez être une composante qui aura son
+                    propre partial. Pour
+                    chaque composante nommée :
+                    <ul>
+                        <li>COMPOSANTE: Comment nommerez-vous le partial de cette composante (theme (php)) (tire niveau 3)</li>
+                        <li>ACF: Quel(s) champs ACF cette composante aura besoin et comment allez-vous les nommer ?</li>
+                    </ul>
+                </li>
+                <li>ACF: Outre les composantes, quels champs ACF avec-vous besoin de créer pour compléter la page en question</li>
+            </ul>
+        </li>
+     
+    </ul>
+
+    <dots></dots>
+
+    <h2>WORDPRESS</h2>
+    <?php intlink("../wordpress/migration-de-donnees/"); ?>
+    <?php intlink("../wordpress/wp-query/"); ?>
+    <?php intlink("../wordpress/rest-api/"); ?>
+
+    <h2>2 exercices en classe</h2>
+    <p>Exerice #1 <br>
+   Exerice #2</p>
+
+   <h2>DEVOIRS</h2>
+   <p>Prochain cours (cours 10): présentation client. Avancez vos pages statiques HTML et CSS (SCSS). Vous devez avoir terminé de monter 6 pages statiques pour la présentation du cours 10 et elles doivent être "responsives" (les animations GSAP ne sont pas obligatoires pour cette étapes mais tant mieux si vous les avez avancées).</p>
+   <p>Terminer les exercices commencés en classe.</p>
 
 
 
