@@ -149,16 +149,18 @@
 </wiki-page>
 
 <wiki-page name="Cours 12">
-Conférence sur le contrôle de la qualité. 
+
 Contact des employeurs. 
 </wiki-page>
 
 <wiki-page name="Cours 13">
-Présentation du projet final. 
+<p>Présentation du projet final. </p>
+<p>9h30 à 10h40: Conférence sur le contrôle de la qualité. </p>
 </wiki-page>
 
 <wiki-page name="Cours 14">
-Visite de l'UQAM le 28 novembre au trou à l'horaire?
+<p>9h30 à 10h40: Visite de PixMob</p>    
+<p>Visite de l'UQAM le 28 novembre au trou à l'horaire?</p>
 </wiki-page>
 
 <wiki-page name="Cours 15">
