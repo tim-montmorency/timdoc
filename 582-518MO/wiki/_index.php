@@ -714,7 +714,7 @@
     Lundi - <a href="https://app.wooclap.com/NYCYUF" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;:
         NYCYUF</a>
     <br>
-    Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;:
+    Vendredi - <a href="https://app.wooclap.com/KDZGZN" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;: KDZGZN
     </a><br>
 
     <dots></dots>
