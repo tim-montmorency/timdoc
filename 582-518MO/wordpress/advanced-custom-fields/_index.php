@@ -168,4 +168,7 @@
 <h3 class="heading heading--h3" id="Importation">Importation</h3>
 <p>Pour importer des groupes de champs, il faut aussi aller dans l'onglet <code>ACF</code> et sélectionner l'option <code>Outils</code> <em>(Tools)</em>. Sur cette page, dans la colonne de droite, se trouve un champs permettant de charger un fichier JSON. Importez le fichier désiré permet de recréer une structure de champs ACF d'un projet à un autre.</p>
 
+
 <warning>Assurez-vous que l’extension ACF soit installée sur le nouveau site avant d’importer une structure de groupe de&nbsp;champs.</warning>
+
+<alert>Pour n'importer que des groupes de champs, assurez-vous lors de l'importation de ne pas cocher l'option "Import from Custom Post Type UI".</alert>
