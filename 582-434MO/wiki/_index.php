@@ -114,16 +114,17 @@
 <h3>Début de la création du projet final</h3>
 <?php intlink("../unity/github/"); ?>
 <?php intlink("../unity/quest/"); ?>
-<?php intlink("../unity/configuration_vr/"); ?>
-<?php intlink("../unity/deplacement_vr/"); ?>
+
 
 </wiki-page>
 
 
 <wiki-page name="Cours 10">
+<?php intlink("../unity/configuration_vr/"); ?>
+<?php intlink("../unity/deplacement_vr/"); ?>
 <?php intlink("../unity/interaction_vr/"); ?>
 <?php intlink("../unity/Importation3D/"); ?>
-<?php intlink("../unity/UI/#canvas-en-vr"); ?>
+
 
 
 <h2>Discussion Optimisation</h2>
@@ -148,6 +149,7 @@
 
 
 <wiki-page name="Cours 11">
+<?php intlink("../unity/UI/#canvas-en-vr"); ?>
 <?php intlink("../unity/audio_vr/"); ?>
 <?php intlink("../unity/transitions/"); ?>
 <?php intlink("../unity/eclairage/"); ?>
