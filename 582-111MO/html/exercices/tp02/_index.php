@@ -168,6 +168,16 @@
 
 <dots></dots>
 
+<grostitre>Remise</grostitre>
+
+<checklist>
+  Renommez votre dossier <em>"tp02_[nom]_[prenom]"</em>.
+  Zippez votre dossier <em>"tp02_[nom]_[prenom]"</em>.
+  Joignez votre fichier <em>.zip</em> au devoir <em>"TP02 - La musique, c'est la vie !"</em>.
+</checklist>
+
+<dots></dots>
+
 
 <grostitre>Notes de cours 📚</grostitre>
 
