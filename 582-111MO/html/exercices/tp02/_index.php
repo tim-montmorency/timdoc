@@ -182,22 +182,22 @@
 <grostitre>Notes de cours 📚</grostitre>
 
 <?php intlink("../../../css/anatomie/"); ?>
-<?php intlink("../../../selecteurs/"); ?>
-<?php intlink("../../../flux/"); ?>
-<?php intlink("../../../padding/"); ?>
-<?php intlink("../../../margin/"); ?>
-<?php intlink("../../../background/"); ?>
-<?php intlink("../../../display/"); ?>
-<?php intlink("../../../vertical-align/"); ?>
-<?php intlink("../../../../unites-de-mesure/"); ?>
-<?php intlink("../../../../width-height/"); ?>
-<?php intlink("../../../../border/"); ?>
-<?php intlink("../../../../box-model/"); ?>
-<?php intlink("../../../../unites-de-couleur/"); ?>
-<?php intlink("../../../../font/"); ?>
-<?php intlink("../../../../text/"); ?>
-<?php intlink("../../../../linear-gradient/"); ?>
-<?php intlink("../../../../box-sizing/"); ?>
-<?php intlink("../../../../float/"); ?>
+<?php intlink("../../../css/selecteurs/"); ?>
+<?php intlink("../../../css/flux/"); ?>
+<?php intlink("../../../css/padding/"); ?>
+<?php intlink("../../../css/margin/"); ?>
+<?php intlink("../../../css/background/"); ?>
+<?php intlink("../../../css/display/"); ?>
+<?php intlink("../../../css/vertical-align/"); ?>
+<?php intlink("../../../css/unites-de-mesure/"); ?>
+<?php intlink("../../../css/width-height/"); ?>
+<?php intlink("../../../css/border/"); ?>
+<?php intlink("../../../css/box-model/"); ?>
+<?php intlink("../../../css/unites-de-couleur/"); ?>
+<?php intlink("../../../css/font/"); ?>
+<?php intlink("../../../css/text/"); ?>
+<?php intlink("../../../css/linear-gradient/"); ?>
+<?php intlink("../../../css/box-sizing/"); ?>
+<?php intlink("../../../css/float/"); ?>
 
 <dots></dots>
