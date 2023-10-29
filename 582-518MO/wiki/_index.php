@@ -792,4 +792,14 @@
     <br>
     <p style="font-size:200%; line-height: 1.4em;">🦉 ☠️ 👹 👻 👺 💀 🌚 🔮 🕸️ 🌩️ 🕷️ 🍫 🍬 🍭 🎃 ⚰️ 🦇 🗡️ 🕯️ 🧟 🪦
         🐈‍⬛ ⚱️</p>
+        <h2>QUIZ</h2>
+        Lundi - <a href="https://app.wooclap.com/CYCNBH" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;:
+        CYCNBH</a>
+    <br>
+    Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;: 
+    </a><br>
+
+        
+
+    <h2>Présentation client</h2>
 </wiki-page>

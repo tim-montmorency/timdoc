@@ -37,11 +37,11 @@
 
 <doclink href='https://wordpress.org/support/article/tools-import-screen/'>Import</doclink>
 
-
+<br><br>
               <aside class="exercice-card">
     <div class="exercice-card__content">
       <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-      <a href="/exercices/wordpress/wp-query-les-bagnoles" target="_blank" class="exercice-card__title">
+      <a href="../../exercices/wp-query-les-bagnoles/" target="_blank" class="exercice-card__title">
         WP Query - Les&nbsp;Bagnoles
       </a>
 

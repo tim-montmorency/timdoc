@@ -90,4 +90,19 @@
 <br><br>
 <doclink href='https://developer.wordpress.org/reference/classes/wp_query/'>WP_Query</doclink>
 
+<br><br>
+              <aside class="exercice-card">
+    <div class="exercice-card__content">
+      <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
+      <a href="../../exercices/wp-query-les-bagnoles/" target="_blank" class="exercice-card__title">
+        WP Query - Les&nbsp;Bagnoles
+      </a>
+
+            <p class="exercice-card__description">Pour cet exercice vous et votre coéquipier devez créer un microsite permettant de présenter les protagonistes du film les&nbsp;Bagnoles.
+Votre...</p>
+          </div>
+
+      </aside>
+ 
+
 
