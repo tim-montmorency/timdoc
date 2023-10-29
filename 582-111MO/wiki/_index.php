@@ -135,7 +135,7 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 11" date="2023-11-05">
+<wiki-page name="Cours 11" date="2023-10-29">
     <?php intlink("../css/opacite/"); ?>
     <?php intlink("../css/opacite/exercices/google-agenda/"); ?>   
     <?php intlink("../css/z-index/"); ?>
