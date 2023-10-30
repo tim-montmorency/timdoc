@@ -1046,7 +1046,7 @@
 
     <h2>Exercice en classe et révision en classe</h2>
                 <div class="intlink__item">
-                <div class="intlink__item__icon" style="background-image: url('../exercices/wp-valet-de-coeur/images/thumb.jpg');"></div>
+                <div class="intlink__item__icon" style="background-image: url('../exercices/wp-valet-de-coeur/images/catan.jpeg');"></div>
                 <div class="intlink__item__description">
                     <span class="intlink__item__title"><a target="_blank" href="../exercices/wp-valet-de-coeur/">Wordpress - Valet de coeur</a></span>
                     <span class="intlink__item__abstract">Vous evez créer un microsite permettant de présenter les produits vedettes de votre client Le Valet d’Coeur.</span>
@@ -1080,6 +1080,25 @@
     <h2>2 exercices Fetch API</h2>
     <p>Je passe équipe par équipe afin que vous me montriez ou vous en êtes dans votre projet et que je vous recommende
         où vous devriez en être pour la semaine prochaine.</p>
+
+
+    <h2>DEVOIRS</h2>
+   <p>Terminer les exercices commencés en classe.</p>
+               <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../exercices/fetch-api-zoom/images/fetch-zoom.jpg');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../exercices/fetch-api-zoom/">Fetch API - Zoom UI</a></span>
+                    <span class="intlink__item__abstract">ecréer l’interface de l’application de vidéoconférence Zoom en mode galrie.</span>
+                </div>
+            </div>
+                       <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../exercices/fetch-api-pokemon-api/images/poke.jpg');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../exercices/fetch-api-pokemon-api/">Fetch API - Poké API</a></span>
+                    <span class="intlink__item__abstract">Créer une interface sélecteur de type Pokémon afin d'afficher aléatoirement un pokiémon de du type choisi.</span>
+                </div>
+            </div>
+           
 </wiki-page>
 
 
@@ -1178,7 +1197,21 @@
    <h2>DEVOIRS</h2>
    <p>Prochain cours (cours 10): présentation client. Avancez vos pages statiques HTML et CSS (SCSS). Vous devez avoir terminé de monter 6 pages statiques pour la présentation du cours 10 et elles doivent être "responsives" (les animations GSAP ne sont pas obligatoires pour cette étapes mais tant mieux si vous les avez avancées).</p>
    <p>Terminer les exercices commencés en classe.</p>
-
+               <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../exercices/wp-query-les-bagnoles/images/wp-query-les-bagnoles-apercu.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../exercices/wp-query-les-bagnoles/">WP Query - Les Bagnoles</a></span>
+                    <span class="intlink__item__abstract">Pour cet exercice vous et votre coéquipier devez créer un microsite permettant de présenter les protagonistes du film les Bagnoles.</span>
+                </div>
+            </div>
+                       <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../exercices/wp-rest-api-vice-versa/images/vice-versa-resultat.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../exercices/wp-rest-api-vice-versa/">WP Rest API - Vice Versa</a></span>
+                    <span class="intlink__item__abstract">Créer un microsite permettant de présenter les protagonistes du film Vice Versa</span>
+                </div>
+            </div>
+        
 
 
 
@@ -1206,9 +1239,111 @@
     Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;: 
     </a><br>
 
+    <dots></dots>
+    <h2>Concours 404 - Retour</h2>
+    <p>Vote le gagnant de ta classe
+        <br>Prix: Des bonbons !
+    </p>
+    Lundi - <a href="https://app.wooclap.com/UYRJTY" target="_blank" rel="noopener noreferrer">Votez</a>
+    <br>
+    Vendredi - gagnante : Skayla !
+
+    <dots></dots>
+
+    <h2>Live Sass Compiler</h2>
+    <p>Problème de compilation, le système va chercher à recompiler tous les scss ou sass contenus dans le dossier de projet dont les fichiers du core de Wordpress. Pour éviter ce problème:</p>
+    <p>Dans Visual Studio Code Code, allez dans <em>Préférences/Paramètres/Extensions/Live Sass Compiler</em> et cliquez sur <em>Modifier dans settings.json</em>.</p>
+    <p>Ajoutez au json la propriété suivante (ne pas oublier la virgule qui séparer cette propriété des autres propriétés du json déjà en place) :</p>
+    
+    <highlight lang='json'>"liveSassCompile.settings.excludeList": [ 
+    "**/wordpress/wp-admin/**",
+    "**/wordpress/wp-includes/**",
+    "**/wordpress/wp-content/plugins/**"
+],</highlight>
+
+
+
+    <dots></dots>
+    <h2>Erreur dans Wordpress, comment debugger </h2> 
+    <p>Allez consulter les bogues dans <em>C:/MAMP/logs/</em>, regardez les dates et heures d'enresigtrer des fichiers de journal (logs) si elles correspondent le moment actuel, ouvrez le fichier pour consulter les message d'erreur afin de vous guider vers la source du problème. Lorsque vous travaille dans vos fichier de thème en PHP, les bogues sont souvent à ce niveau donc vous pourrez trouver les messages d'erreur dans <em>php_error.log</em>.</p>
+
+    <dots></dots>
+
+
+    <h2>PROJET DE SESSION</h2>
+    <p>Procédure de migration des données d'une installation WordPress à un autre.</p>
+
+                <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../projet/migration-donnees-wordpress/images/icon.svg');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../projet/migration-donnees-wordpress/">Migraton données WP en équipe</a></span>
+                    <span class="intlink__item__abstract">Comment migrer vos données entre co-équipier</span>
+                </div>
+            </div>
         
 
-    <h2>Présentation client</h2>
+
+    <dots></dots>
+
+    <h2>Révision des exercices WP des semaines passées</h2>
+                <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../exercices/wp-valet-de-coeur/images/catan.jpeg');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../exercices/wp-valet-de-coeur/">Wordpress - Valet de coeur</a></span>
+                    <span class="intlink__item__abstract">Vous evez créer un microsite permettant de présenter les produits vedettes de votre client Le Valet d’Coeur.</span>
+                </div>
+            </div>
+                        <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../exercices/wp-query-les-bagnoles/images/wp-query-les-bagnoles-apercu.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../exercices/wp-query-les-bagnoles/">WP Query - Les Bagnoles</a></span>
+                    <span class="intlink__item__abstract">Pour cet exercice vous et votre coéquipier devez créer un microsite permettant de présenter les protagonistes du film les Bagnoles.</span>
+                </div>
+            </div>
+                        <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../exercices/wp-rest-api-vice-versa/images/vice-versa-resultat.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../exercices/wp-rest-api-vice-versa/">WP Rest API - Vice Versa</a></span>
+                    <span class="intlink__item__abstract">Créer un microsite permettant de présenter les protagonistes du film Vice Versa</span>
+                </div>
+            </div>
+        
+
+    <dots></dots>
+    <h2>ASSURANCE ET CONTRÔLE DE LA QUALITÉ</h2>
+                <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../582-424MO/optimisation/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../582-424MO/optimisation/">Optimisation</a></span>
+                    <span class="intlink__item__abstract">Optimisation des performances de chargement</span>
+                </div>
+            </div>
+                        <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../gestion-de-projet/lazy-loading/images/perf-icon.jpg');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../gestion-de-projet/lazy-loading/">Chargement différé (lazy loading)</a></span>
+                    <span class="intlink__item__abstract">Le chargement différé des images lorsqu'elle entrent dans la zone visible.</span>
+                </div>
+            </div>
+                        <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../gestion-de-projet/assurance-qualite/images/icon.svg');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../gestion-de-projet/assurance-qualite/">Assurance qualité</a></span>
+                    <span class="intlink__item__abstract">Valider qu'un site correspond aux exigences attendues et de qu'il ne contient pas de bogues 🐛.</span>
+                </div>
+            </div>
+            <p>Exercice en classe</p>
+        
+    <dots></dots>
+    <h2>PM Présentation client</h2>
+
+    <dots></dots>
+    <h2>DEVOIRS</h2>
+    <p>Terminer l'exercice commencé en classe (Insoapropriate).</p>
+    <p>Intégrez votre site à Wordpress avec les techniques vues dans les derniers cours.</p>
+
+
+
 </wiki-page>                <!-- WIKI FOOTER SOF -->
 
             </wiki>

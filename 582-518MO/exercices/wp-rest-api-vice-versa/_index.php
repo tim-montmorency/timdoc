@@ -2,7 +2,7 @@
 /**
  * @type     exercice
  * @title    WP Rest API - Vice Versa
- * @icon     images/thumb-mixin.jpg
+ * @icon     images/vice-versa-resultat.png
  * @abstract Créer un microsite permettant de présenter les protagonistes du film Vice Versa
  */
 ?>

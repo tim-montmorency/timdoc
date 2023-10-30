@@ -1,6 +1,6 @@
 {
     "type": "exercice",
     "title": "Fetch API - Pok\u00e9 API",
-    "icon": "images\/thumb.png",
+    "icon": "images\/poke.jpg",
     "abstract": "Cr\u00e9er une interface s\u00e9lecteur de type Pok\u00e9mon afin d'afficher al\u00e9atoirement un poki\u00e9mon de du type choisi."
 }

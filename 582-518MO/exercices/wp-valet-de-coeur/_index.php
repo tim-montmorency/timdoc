@@ -2,7 +2,7 @@
 /**
  * @type     exercice
  * @title    Wordpress - Valet de coeur
- * @icon     images/thumb.jpg
+ * @icon     images/catan.jpeg
  * @abstract Vous evez créer un microsite permettant de présenter les produits vedettes de votre client Le Valet d’Coeur.
  */
 ?>

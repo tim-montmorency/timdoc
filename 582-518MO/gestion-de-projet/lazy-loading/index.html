@@ -27,7 +27,7 @@
         <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
         <script src="../../../shared/jscripts/vue.global.prod.js"></script>
         <script>const shared = '../../../shared/';</script>
-        <title>Assurance-qualité - Insoapropriate</title>
+        <title>Chargement différé (lazy loading)</title>
     </head>
     <body>
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
@@ -43,42 +43,39 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <h1 id="title">Assurance-qualité - Insoapropriate</h1>
+                <div id="breadcrumb"><a href="../../">Projet Web</a> > <a href="../">Gestion de projet</a> ></div>
+                <h1 id="title"><img src="images/perf-icon.jpg">&nbsp;Chargement différé (lazy loading)</h1>
             </div>
             <article>
                 <div id="contents">
-                    <!-- EXERCICE HEADER EOF -->
+                    <!-- ARTICLE HEADER EOF -->
 
-<p>Pour cet exercice vous devrez examiner attentivement une réalisation et vous assurez qu’elle correspond bien aux requis client. Toute anomalie devra être soulignée via un billet de&nbsp;<em>“Bug”</em>.</p>
+<p>Le chargement différé (<em>lazy loading</em> en anglais) est une stratégie d'identification des ressources non bloquantes (non critiques) afin de ne les charger qu'au moment où elles sont utiles. C'est une façon réduire le  temps de chargement de la page et d'éviter des téléchargements inutiles.</p>
 
+<p>Le chargement différé peut se dérouler à plusieurs moments du chargement d'une page, mais il se déroule le plus souvent lorsque l'internaute interagit avec le site, surtout avec le défilement, au moment où le contenu arrive dans le cadre visible de la page.</p>
 
-    
-<dots></dots>
-<grostitre>Matériel</grostitre>   
-  
-<doclink href='https://ex.smnarnold.com/qa/insoapropriate/maquettes.zip'>Dossier de départ 📁</doclink>
+<p>Les images constituent le type d'élément le plus demandé pour la plupart des sites Web et consomment généralement plus de bande passante que toute autre ressource. 90% des sites envoient plus de 5 Mo d'images sur ordinateur et sur mobile. Cela fait beaucoup de photos de chats!</p>
+<img src="images/chat.gif" alt="Chat">
 
+<grostitre>Attribut loading</grostitre> 
 
-<dots></dots>
-<grostitre>Requis</grostitre>
+<p>Avec les versions récentes des navigateurs, un attribut est maintenant supporté sur les balises images: <code>loading</code>. Vous pouvez utiliser cet attribut pour différer complètement le chargement des images hors écran accessibles par défilement:</p>
+<p>Elles ne seront donc chargées que si l'utilisateur défile jusqu'à cette image. Sinon, aucune image n'est chargée pour rien.</p>
 
-<checklist>Créez-vous une copie du <a target="_blank" rel="noopener noreferrer" href="https://trello.com/b/CdivA2RL/insoapropriate" onclick="event.stopPropagation()">tableau Trello du projet</a> <em>(Menu en haut à droite &gt; […] &gt; Copier le tableau)</em>. 
-Comparez les requis et les maquettes dans le dossier de départ&nbsp;au <a target="_blank" rel="noopener noreferrer" href="http://ex.smnarnold.com/qa/insoapropriate/"  onclick="event.stopPropagation()">site d'Insoapropriate</a>&nbsp;et entrez les bogues&nbsp;trouvés.</checklist>
+<highlight lang='html'>&lt;img src=&quot;image.png&quot; loading=&quot;lazy&quot; alt=&quot;…&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;</highlight>
 
-<dots></dots>
-<grostitre>Notes de cours 📚</grostitre>
+<h3>Attributs de dimension</h3>
+<p>Les images doivent idéalement inclure des attributs de dimension.</p>
+<p>Lorsque le navigateur charge une image, il n'en connaît pas immédiatement les dimensions, sauf si elles sont explicitement spécifiées. Afin de permettre au navigateur de réserver suffisamment d'espace pour les images sur une page, nous vous recommandons d'inclure les attributs width et height dans toutes les balises <code>&lt;img&gt;</code>. Si les dimensions ne sont pas spécifiées, des décalages de mise en page peuvent se produire. Ces décalages sont plus visibles sur les pages qui mettent un certain temps à se charger.</p>
 
+<highlight lang='html'>&lt;img src=&quot;image.png&quot; loading=&quot;lazy&quot; alt=&quot;…&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;</highlight>
+<p>ou</p>
+<highlight lang='html'>&lt;img src=&quot;image.png&quot; loading=&quot;lazy&quot; alt=&quot;…&quot; style=&quot;height:200px; width:200px;&quot;&gt;</highlight>
 
-            <div class="intlink__item">
-                <div class="intlink__item__icon" style="background-image: url('../../gestion-de-projet/assurance-qualite/images/icon.svg');"></div>
-                <div class="intlink__item__description">
-                    <span class="intlink__item__title"><a target="_blank" href="../../gestion-de-projet/assurance-qualite/">Assurance qualité</a></span>
-                    <span class="intlink__item__abstract">Valider qu'un site correspond aux exigences attendues et de qu'il ne contient pas de bogues 🐛.</span>
-                </div>
-            </div>
-        
+<doclink href='https://developer.mozilla.org/fr/docs/Web/Performance/Lazy_loading'>Le chargement différé</doclink>
+<doclink href='https://web.dev/articles/browser-level-image-lazy-loading?hl=fr'>Chargement différé des images</doclink>
 
-                    <!-- EXERCICE FOOTER SOF -->
+                    <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>
             </article>

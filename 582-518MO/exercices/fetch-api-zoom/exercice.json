@@ -1,6 +1,6 @@
 {
     "type": "exercice",
     "title": "Fetch API - Zoom UI",
-    "icon": "images\/thumb.png",
+    "icon": "images\/fetch-zoom.jpg",
     "abstract": "ecr\u00e9er l\u2019interface de l\u2019application de vid\u00e9oconf\u00e9rence Zoom en mode galrie."
 }

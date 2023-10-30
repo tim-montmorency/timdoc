@@ -2,7 +2,7 @@
 /**
  * @type     exercice
  * @title    Fetch API - Zoom UI
- * @icon     images/thumb.png
+ * @icon     images/fetch-zoom.jpg
  * @abstract ecréer l’interface de l’application de vidéoconférence Zoom en mode galrie.
  */
 ?>

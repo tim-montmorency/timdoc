@@ -691,6 +691,13 @@
     <h2>2 exercices Fetch API</h2>
     <p>Je passe équipe par équipe afin que vous me montriez ou vous en êtes dans votre projet et que je vous recommende
         où vous devriez en être pour la semaine prochaine.</p>
+
+
+    <h2>DEVOIRS</h2>
+   <p>Terminer les exercices commencés en classe.</p>
+   <?php intlink("../exercices/fetch-api-zoom/"); ?>
+   <?php intlink("../exercices/fetch-api-pokemon-api/"); ?>
+   
 </wiki-page>
 
 
@@ -771,6 +778,8 @@
    <h2>DEVOIRS</h2>
    <p>Prochain cours (cours 10): présentation client. Avancez vos pages statiques HTML et CSS (SCSS). Vous devez avoir terminé de monter 6 pages statiques pour la présentation du cours 10 et elles doivent être "responsives" (les animations GSAP ne sont pas obligatoires pour cette étapes mais tant mieux si vous les avez avancées).</p>
    <p>Terminer les exercices commencés en classe.</p>
+   <?php intlink("../exercices/wp-query-les-bagnoles/"); ?>
+   <?php intlink("../exercices/wp-rest-api-vice-versa/"); ?>
 
 
 
@@ -799,7 +808,67 @@
     Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;: 
     </a><br>
 
-        
+    <dots></dots>
+    <h2>Concours 404 - Retour</h2>
+    <p>Vote le gagnant de ta classe
+        <br>Prix: Des bonbons !
+    </p>
+    Lundi - <a href="https://app.wooclap.com/UYRJTY" target="_blank" rel="noopener noreferrer">Votez</a>
+    <br>
+    Vendredi - gagnante : Skayla !
 
-    <h2>Présentation client</h2>
+    <dots></dots>
+
+    <h2>Live Sass Compiler</h2>
+    <p>Problème de compilation, le système va chercher à recompiler tous les scss ou sass contenus dans le dossier de projet dont les fichiers du core de Wordpress. Pour éviter ce problème:</p>
+    <p>Dans Visual Studio Code Code, allez dans <em>Préférences/Paramètres/Extensions/Live Sass Compiler</em> et cliquez sur <em>Modifier dans settings.json</em>.</p>
+    <p>Ajoutez au json la propriété suivante (ne pas oublier la virgule qui séparer cette propriété des autres propriétés du json déjà en place) :</p>
+    
+    <highlight lang='json'>"liveSassCompile.settings.excludeList": [ 
+    "**/wordpress/wp-admin/**",
+    "**/wordpress/wp-includes/**",
+    "**/wordpress/wp-content/plugins/**"
+],</highlight>
+
+
+
+    <dots></dots>
+    <h2>Erreur dans Wordpress, comment debugger </h2> 
+    <p>Allez consulter les bogues dans <em>C:/MAMP/logs/</em>, regardez les dates et heures d'enresigtrer des fichiers de journal (logs) si elles correspondent le moment actuel, ouvrez le fichier pour consulter les message d'erreur afin de vous guider vers la source du problème. Lorsque vous travaille dans vos fichier de thème en PHP, les bogues sont souvent à ce niveau donc vous pourrez trouver les messages d'erreur dans <em>php_error.log</em>.</p>
+
+    <dots></dots>
+
+
+    <h2>PROJET DE SESSION</h2>
+    <p>Procédure de migration des données d'une installation WordPress à un autre.</p>
+
+    <?php intlink("../projet/migration-donnees-wordpress/"); ?>
+
+
+
+    <dots></dots>
+
+    <h2>Révision des exercices WP des semaines passées</h2>
+    <?php intlink("../exercices/wp-valet-de-coeur/"); ?>
+    <?php intlink("../exercices/wp-query-les-bagnoles/"); ?>
+    <?php intlink("../exercices/wp-rest-api-vice-versa/"); ?>
+
+
+    <dots></dots>
+    <h2>ASSURANCE ET CONTRÔLE DE LA QUALITÉ</h2>
+    <?php intlink("../../582-424MO/optimisation/"); ?>
+    <?php intlink("../gestion-de-projet/lazy-loading/"); ?>
+    <?php intlink("../gestion-de-projet/assurance-qualite/"); ?>
+    <p>Exercice en classe</p>
+        
+    <dots></dots>
+    <h2>PM Présentation client</h2>
+
+    <dots></dots>
+    <h2>DEVOIRS</h2>
+    <p>Terminer l'exercice commencé en classe (Insoapropriate).</p>
+    <p>Intégrez votre site à Wordpress avec les techniques vues dans les derniers cours.</p>
+
+
+
 </wiki-page>
