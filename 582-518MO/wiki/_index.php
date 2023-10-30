@@ -796,7 +796,7 @@
  \_____\___/ \__,_|_|  |___/  |_|\___/                                     
 ----------------------------------->
 
-<wiki-page name="Cours 10" date="2023-10-30">
+<wiki-page name="Cours 10" date="2023-10-29">
     <h1 style="font-size:250%; color :orange;">Joyeux Halloween!</h1>
     <br>
     <p style="font-size:200%; line-height: 1.4em;">🦉 ☠️ 👹 👻 👺 💀 🌚 🔮 🕸️ 🌩️ 🕷️ 🍫 🍬 🍭 🎃 ⚰️ 🦇 🗡️ 🕯️ 🧟 🪦
