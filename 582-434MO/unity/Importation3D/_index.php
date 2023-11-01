@@ -13,4 +13,4 @@
 <dots></dots>
 
 <grostitre>Tutoriels</grostitre>
-<doclink href="https://cmontmorency365.sharepoint.com/sites/Charlne/Documents%20partages/Forms/AllItems.aspx?id=%2Fsites%2FCharlne%2FDocuments%20partages%2FGeneral%2FMod%2D3d%2Fmaya%2Dunity%2Fcapsules%2Dvideo%2Dmaya2023&p=true&ga=1">Vidéos de Charlène</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:f:/s/Charlne/EsjnvYa1Z1dLmdSOS3EvmK8BXQvVDdpVrQ9I6DbGvFHjRA?e=zTtMu2">Vidéos de Charlène</doclink>
