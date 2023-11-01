@@ -18,6 +18,7 @@
     Créer un objet, soit avec les objets 3D de Unity ou en important votre modèle. 
     Ajoutez un box collider ou un sphere collider sur votre objet.
     Ajouter la composante XR Grab Interactable sur votre objet.
+    S'assurer que Use Gravity est coché sur le Rigidbody de votre objet. 
     Glissez le Interaction Manager de votre joueur dans la boîte Interaction Manager de la composante XR Grab Interactable. 
 </checklist>
 
@@ -29,6 +30,21 @@
 
 <grostitre>Méthode de sélection</grostitre>
 <p>En vr, nous verrons deux méthodes de sélection, le rayon et l'interaction directe. Le rayon nous permet de sélectionner un objet en pointant notre manette vers celui-ci. L'interaction directe pour sa part sélectionne l'objet lorsqu'on le touche ou qu'on entre dans sa zone de collision. Par défaut, vous avez un XR Ray Interactor composante sur vos deux manettes, vous pourrez le désactiver si vous ne voulez pas utiliser cette méthode. Vous pouvez aussi utiliser un mélange des deux méthodes. Pour l'interaction directe, vous devrez vous créer un objet vide comme enfant de votre controlleur et lui donner une composante XR Direct Interactor et un sphere Collider.</p>
+<p>Pour utilisez les rayons, il n'y a rien à faire, ils viennent par défaut.</p>
+<h3>Utiliser la sélection directe:</h3>
+<checklist>
+    Créez un objet vide sur un de vos deux controlleurs et nommez-le DirectInteractor.
+    Ajouter la composante XR Direct Interactor.
+    Ajouter un sphere collider, choisissez sa taille selon la taille que vous voulez pour les mains. (ex: 0.2) Cochez IsTrigger pour que vos mains puissent toucher les objets. 
+    Sur les controlleurs, désactivez les composantes Ray Interactor, Line renderer et XR Interactor Line visual si vous ne voulez pas utiliser les rayons. 
+</checklist>
+<h3>Pour utiliser les rayons pour la téléportation et l'interacteur direct pour les objets:</h3>
+<checklist>
+    Dans XR Ray Interactor, modifiez le Interaction Layer Mask, dans cette option, cliquez sur Add Layer. Créez un layer avec le nom de votre choix (exemple: Teleport). Choisissez uniquement ce layer comme layer mask de votre interacteur.
+    Sur les plateformes ou les zones de téléportation dans la composante Teleport Anchor ou Area, choisissez votre nouveau Layer comme Interaction Layer Mask.
+    Dans DirectInteractor, vous devez aller décocher votre nouveau layer dans le paramètre Interaction Layer Mask de la composante XR Direct Interactor.
+    Pour permettre au rayon de disparaître quand on est assez proche de l'objet: Ajouter un XR Interaction Group sur le controlleur parent. Cocher la case qui dit que Direct Interactor peut override le rayon. 
+</checklist>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/O4XpqZM7R0U?si=bQTAMKGN7uYBFhYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <dots></dots>
@@ -92,5 +108,25 @@
 <dots></dots>
 
 <grostitre>XR socket</grostitre>
-<p>Dans Unity, les sockets sont des endroits spécifiques sur lesquels on peut déposer un objet. Vous apprendrez comment les configurer dans le tutoriel suivant:</p>
+
+
+<p>Dans Unity, les sockets sont des endroits spécifiques sur lesquels on peut déposer un objet. Vous apprendrez comment les configurer dans les tutoriels suivant:</p>
+<checklist>
+    Assurez-vous d'avoir un objet qu'on peut prendre et bouger et un objet sur lequel on viendra déposer celui-ci. Pour le socle, on doit avoir un collider et isTrigger doit être coché.
+    Sur le socle, on ajoute la composante XR Socket Interactor.
+    Dans le paramètre Interaction Manager on glisse notre XR Interaction Manager. 
+    Créer un objet vide comme enfant de votre socle. Positionnez celui-ci à l'endroit sur lequel vous allez déposer l'autre objet. 
+    Dans le XR SOxket Interactor, glissez cet objet dans Attach transform. 
+    Testez, puis voyez si L'objet se positionne correctement. Si non, jouez avec la rotation et la position de l'enfant du socle. Prennez en note les nouvelles coordonnées et réécrivez les une fois sorti du mode de jeu.
+    Pour l'instant, le matériel de votre socle est rose. Pour le modifier, au-dessus de Hover Mesh Material vous pouvez cocher ou décocher si vous ne voulez pas voir le futur placement de l'objet. Vous pouvez aussi assigner un nouveau matériel qui sera celui de votre position proposée.
+
+</checklist>
+
+<h3>Pour assigner un objet spécifique à un socle:</h3>
+<checklist>
+    Dans votre objet, créez un Interaction Layer Mask pour celui-ci. Assignez-le ensuite dans le paramètre Interaction Layer de la composante XR Grab Interactable. 
+    Ensuite, sélectionnez votre socle, puis dans Interaction Layer Mask, sélectionnez uniquement le layer que vous venez de créer. 
+    Dans tous vos autres objets sélectionnables, assurez-vous que le nouveau layer mask n'est pas coché, sinon ils pourront interagir avec votre socle. 
+</checklist>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VCxaXsLxTs0?si=EQ10vaBas87awFdK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

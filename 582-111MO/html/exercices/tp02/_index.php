@@ -85,6 +85,7 @@
     Finalement, sélectionnez la classe "slogan" et alignez le tableau au centre à l'aide des marges gauche et droite
     Sélectionnez la classe "slogan1" et ajoutez une grandeur de police de 17/10 fois la taille de la fonte courante
     Ajoutez une largeur de 25 fois la taille à la racine du document et alignez le texte à droite
+    Sélectionnez la classe "slogan2" ajoutez une largeur de 30 fois la taille à la racine du document avec une marge intérieur de 15px et justifié votre texte.
     Et pour terminer, sélectionnez les "span" dans la classe "slogan" pour lui appliquer la couleur de référence #3 et une graisse de 900
 </checklist>
 
