@@ -15,11 +15,11 @@
     Ouvrir le package manager (window, package manager).
     Assurez-vous d'être dans Unity Registry et trouvez XR Plugin Management dans la liste.
     Installez ce paquet. 
-    Edit, project settings, puis trouvez l'inglet XR Plug-in Management. 
+    Edit, project settings, puis trouvez l'onglet XR Plug-in Management. Acceptez de redémarrer votre projet. 
     Cochez ensuite OpenXR dans les choix.
     Ouvrez ensuite l'onglet OpenXR qui vient d'apparaître. Dans Interaction Profiles, cliquez sur le + et choisissez Oculus Touch Controller Profile dans la liste. 
     Retournez dans le package manager.  
-    Trouvez ensuite le XR Interaction Toolkit et installez-le. Acceptez de redémarrer votre projet. 
+    Trouvez ensuite le XR Interaction Toolkit et installez-le. 
     Dans XR Interaction Toolkit, trouvez l'onglet Samples.
     Installez le paquet Starter Assets (Import). 
     Dans le projet, ouvrez le dossier Samples, XR Interaction toolkit, 2.4.3, Starter Assets. 

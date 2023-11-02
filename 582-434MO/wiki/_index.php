@@ -140,6 +140,24 @@
 <?php intlink("../exercices/interaction_vr/"); ?>
 </wiki-page>
 
+
+
+
+<wiki-page name="Cours 11">
+<h3>Grimper</h3>
+<p><?php intlink("../unity/deplacement_vr/"); ?></p>
+<p><h3>Autres</h3></p>
+<p><?php intlink("../unity/UI/#canvas-en-vr"); ?>
+<?php intlink("../unity/audio_vr/"); ?>
+<?php intlink("../unity/transitions/"); ?>
+<?php intlink("../unity/miroir/"); ?>
+<?php intlink("../unity/particules/"); ?></p>
+<p><h3>Discussion et recherche sur les shaders</h3>
+<h3>Rencontres pour voir les besoins individuels</h3></p>
+
+
+</wiki-page>
+
 <wiki-page name="14 novembre">
 
 <h3>Pas de cours</h3>
@@ -148,20 +166,13 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 11">
-<?php intlink("../unity/UI/#canvas-en-vr"); ?>
-<?php intlink("../unity/audio_vr/"); ?>
-<?php intlink("../unity/transitions/"); ?>
-<?php intlink("../unity/eclairage/"); ?>
-
-</wiki-page>
-
 <wiki-page name="Cours 12">
+<?php intlink("../unity/eclairage/"); ?>
 <?php intlink("../unity/postprocessing/"); ?>
 <?php intlink("../unity/vfx/"); ?>
 
 <?php intlink("../unity/eau/"); ?>
-<?php intlink("../unity/miroir/"); ?>
+
 <?php intlink("../unity/vr_mains/"); ?>
 
 </wiki-page>
