@@ -150,6 +150,7 @@
 <p><?php intlink("../unity/UI/#canvas-en-vr"); ?>
 <?php intlink("../unity/audio_vr/"); ?>
 <?php intlink("../unity/transitions/"); ?>
+<?php intlink("../unity/materiaux/"); ?>
 <?php intlink("../unity/miroir/"); ?>
 <?php intlink("../unity/particules/"); ?></p>
 <p><h3>Discussion et recherche sur les shaders</h3>
