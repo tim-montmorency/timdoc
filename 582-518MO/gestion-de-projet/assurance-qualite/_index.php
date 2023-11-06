@@ -71,9 +71,9 @@ sécuritaire et performant. Ces qualités évitent les mauvaises surprises, perm
 <p>Ces tests garantissent que le site web fonctionne tel que spécifié sur différent type d'appareils, systèmes
     d'exploitation et navigateurs. Généralement, la personne en charge de ces tests a accès à plusieurs appareils en
     fonctions de la liste établie d'appareils supportés par le&nbsp;projet.</p>
-<p>Il est aussi possible que cette personne est recours à des logiciels permettant de démarrer des machines virtuelles,
-    comme:&nbsp;<a href="https://www.browserstack.com/">Browserstack</a>&nbsp;ou encore&nbsp;<a
-        href="https://crossbrowsertesting.com/">Cross Browser Testing</a>&nbsp;afin de tester une liste d'appareils
+<p>Il est aussi possible que cette personne ait recours à des logiciels permettant de démarrer des machines virtuelles,
+    comme:&nbsp;<a target="_blank" href="https://www.browserstack.com/">Browserstack</a>&nbsp;ou encore&nbsp;<a
+    target="_blank" href="https://crossbrowsertesting.com/">Cross Browser Testing</a>&nbsp;afin de tester une liste d'appareils
     très&nbsp;large.</p>
 <p>Par exemple: Sur un iPad mini de 3e génération, si l'utilisateur utilise Safari, est-ce que le comportement du site
     correspond aux&nbsp;attentes?</p>
@@ -82,7 +82,7 @@ sécuritaire et performant. Ces qualités évitent les mauvaises surprises, perm
 <p>Un site peut fonctionner, mais avoir des performances décevantes. Il est donc important d'établir des exigences de
     base et de s'assurer que le résultat est conforme à celles-ci. Par exemple, une exigence pourrait-être qu'un site
     charge en moins de deux secondes ou encore qu'il obtienne un pointage de 90 ou plus sur un outil permettant de
-    l'évaluer, tel que:&nbsp;<a href="https://developers.google.com/web/tools/lighthouse">Lighthouse</a>.</p>
+    l'évaluer, tel que:&nbsp;<a target="_blank" href="https://developers.google.com/web/tools/lighthouse">Lighthouse</a> ou <a target="_blank" href="https://pagespeed.web.dev/">Pagespeed Insights</a>.</p>
 
 
 
