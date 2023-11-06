@@ -872,3 +872,28 @@
 
 
 </wiki-page>
+
+
+<wiki-page name="Cours 11" date="2023-11-05">
+  
+
+    <h2>Révision de l'exercice WP de la semaine passée</h2>
+
+    <?php intlink("../exercices/wp-rest-api-vice-versa/"); ?>
+
+
+    <dots></dots>
+    <h2>ASSURANCE ET CONTRÔLE DE LA QUALITÉ</h2>
+    <?php intlink("../../582-424MO/optimisation/"); ?>
+    <?php intlink("../gestion-de-projet/lazy-loading/"); ?>
+    <?php intlink("../gestion-de-projet/assurance-qualite/"); ?>
+    <p>Exercices en classe</p>
+        
+    <dots></dots>
+    <h2>DEVOIRS</h2>
+    <p>Terminer l'exercice commencé en classe (Insoapropriate).</p>
+    <p>Intégrez votre site à Wordpress avec les techniques vues dans les derniers cours.</p>
+
+
+
+</wiki-page>

@@ -60,8 +60,6 @@
 
 
 
-
-
 <dots></dots>
 <grostitre>Matériel</grostitre>
 <doclink href='#'>Pen de départ</doclink>
@@ -75,9 +73,17 @@
 <dots></dots>
 <grostitre>Requis</grostitre>
 <checklist>Installez en local une copie en <a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/">Français du Canada de WordPress</a> pour votre client.
-Installez le <a target="_blank" rel="noopener noreferrer" href="https://ex.smnarnold.com/wordpress/valet-de-coeur/valet-de-coeur.zip">thème réalisé par votre collègue</a>. Si vous l'avez installé et vous le cherchez, sachez que c'est le thème qui se nomme "Montmorency".
-Installez l'extension <a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/plugins/custom-post-type-ui/">Custom Post Type UI</a> et créez un nouveau type de post intitulé <em>"Jeu"</em>. Ce nouveau type de post contiendra tous les jeux de société disponibles chez Le Valet D'Coeur.
-Installez l'extension <a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/plugins/advanced-custom-fields/">Advanced Custom fields</a> et créez un nouveau groupe de champs ne s'affichant que dans les posts de type <em>"Jeu"</em>. Ce groupe devra contenir des champs permettant de spécifier le prix, la durée moyenne, le nombre de joueurs et l'âge minimal requis pour jouer au jeu.
+Installez le <a target="_blank" rel="noopener noreferrer" href="#">thème réalisé par votre collègue</a>. Si vous l'avez installé et vous le cherchez, sachez que c'est le thème qui se nomme "Groupe de musique".
+Installez l'extension <a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/plugins/custom-post-type-ui/">Custom Post Type UI</a>.
+Créez un nouveau type de post intitulé <em>"groupe-musique"</em>. Ce nouveau type de post contiendra tous les groupes de musiques à afficher en accueil. Assurez-vous d'avoir le nom exact.
+Créez un nouveau type de post intitulé <em>"album"</em>. Ce nouveau type de post contiendra tous les albums des différents groupes de musique présentés. Assurez-vous d'avoir le nom exact.
+Créez un nouveau type de post intitulé <em>"membre"</em>. Ce nouveau type de post contiendra tous les membres faisant partie des différents groupes de musique présentés. Assurez-vous d'avoir le nom exact.
+Installez l'extension <a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/plugins/advanced-custom-fields/">Advanced Custom fields</a>.
+Créez un groupe de champs nommé Groupe-musique.
+... 
+Importez les contenus déjà préparés avec le fichier .xml fourni ci-haut dans le matériel.
+Faites afficher tous les groupes en accueil avec <em>WP-Query</em>  ou <em>REST API</em>, à votre choix. Assurez-vous de vous fier au Code Pen fourni.
+Construisez ensuite le modèle de la page du groupe de musique. Assurez-vous de vous fier au Code Pen fourni.
 </checklist>
 
       
