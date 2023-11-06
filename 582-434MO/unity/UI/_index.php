@@ -26,6 +26,8 @@
 
 <grostitre>Canvas en VR</grostitre>
 <p>Créer un les éléments de UI en VR est très similaire, voici les différences!</p>
+<p>Pour créer un canvas, dans XR, on a un UI Canvas. Celui-ci sera alors positionné toujours au même endroit dans le monde. Le canvas est très gros par défaut, on peut le diminuer de taille. Ces canvas peuvent être utiles pour positionner des instruction au-dessus des objets.</p>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rR4dcvoYjOE?si=XNTH7vUQr2MWg5-l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <dots></dots>
