@@ -1,9 +1,9 @@
 <?php 
 /**
  * @type     article
- * @title    Chargement différé (lazy loading)
+ * @title    Chargement différé
  * @icon     images/perf-icon.jpg
- * @abstract Le chargement différé des images lorsqu'elle entrent dans la zone visible.
+ * @abstract Lazy loading des images lorsqu'elle entrent dans la zone visible.
  * @index 200
  */
 ?>
