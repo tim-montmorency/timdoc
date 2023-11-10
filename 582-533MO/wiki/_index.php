@@ -158,6 +158,8 @@
 </wiki-page>
 
 <wiki-page name="Cours 12">
+<doclink href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EbORw7nH2j9Epj5s-m1xY58BtO5SrE7HiO0TXAMxanut8g?e=YAEyth"> Présentation du cours</doclink>
+
 <p>Présentation du projet final. Début de la rédaction.</p>
 Contact des employeurs. 
 <p>9h30 à 10h40: Conférence sur le contrôle de la qualité. </p>
