@@ -166,7 +166,7 @@ Contact des employeurs.
 </wiki-page>
 
 <wiki-page name="Cours 13">
-<p>8h30 à 9h30: Présentation de l'UQAT </p>
+Grève
 </wiki-page>
 
 <wiki-page name="Cours 14">
@@ -176,5 +176,6 @@ Contact des employeurs.
 </wiki-page>
 
 <wiki-page name="Cours 15">
+<p>9h à 10h: Présentation de l'UQAT </p>
 Présentation orale des projets du Contrôle de la qualité d'un projet. 
 </wiki-page>
