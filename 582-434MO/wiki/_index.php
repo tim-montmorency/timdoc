@@ -176,6 +176,19 @@
 
 <?php intlink("../unity/vr_mains/"); ?>
 
+<p><h3>Saut</h3>
+<?php intlink("../unity/deplacement_vr/#sauter"); ?></p>
+
+<p><h3>Plateforme en mouvement</h3>
+<?php intlink("../unity/deplacement_vr/#ascenseur"); ?></p>
+
+<p><h3>Aléatoire</h3>
+<?php intlink("../code/base/#aleatoire"); ?></p>
+
+<p><h3>Tir de projectile</h3>
+<?php intlink("../unity/tir"); ?></p>
+
+
 </wiki-page>
 
 <wiki-page name="Cours 13">

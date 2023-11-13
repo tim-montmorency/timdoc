@@ -128,6 +128,71 @@
 </checklist>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Fg1I0DrB8K8?si=JOXn4IKFouMA-Xl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+<dots></dots>
+
+<grostitre>Sauter</grostitre>
+
+<p>Voici le tutoriel qui vous montera comment créer le saut en VR:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/npHMlrbVokE?si=1TFbMk2sqSOJURe0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+
+
+<p>Voici le code pour sauter (si le code est nommé jump):
+<highlight lang="C#">
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+public class jump : MonoBehaviour
+{
+    [SerializeField] private InputActionProperty jumpButton;
+    [SerializeField] private float jumpHeight = 3f;
+    [SerializeField] private CharacterController joueur;
+    [SerializeField] private LayerMask groundLayer;
+
+    private float gravity = Physics.gravity.y;
+    private Vector3 mouvement;
+
+    private void Update()
+    {
+        bool _isGrounded = isGrounded(); 
+
+        if(jumpButton.action.WasPressedThisFrame()&& _isGrounded)
+        {
+            Jump();
+        }
+
+        mouvement.y += gravity * Time.deltaTime;
+
+        joueur.Move(mouvement * Time.deltaTime);
+    }
+
+
+    private void Jump()
+    {
+        mouvement.y = Mathf.Sqrt(jumpHeight * -3.0f * gravity); 
+    }
+
+    private bool isGrounded()
+    {
+        return Physics.CheckSphere(transform.position, 0.2f, groundLayer); 
+    }
+}
+    
+
+</highlight></p>
+
+
+<dots></dots>
+
+<grostitre>Ascenseur</grostitre>
+
+<p>Voici le tutoriel qui vous aidera à créer une plateforme en mouvement:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eJCu7YEFBu4?si=jcZXp3_eI3TillQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>
