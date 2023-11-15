@@ -7,49 +7,54 @@
  */
 ?>
 
-
 <p>Pour cet exercice vous et votre coéquipier devez créer un microsite permettant de présenter les groupes de musiques suivant: </p>
+<ul>
+     <li style="margin: 0">Muse</li>
+     <li style="margin: 0">Röksopp</li>
+     <li style="margin: 0">Billy Talent</li>
+     <li style="margin: 0">Metric</li>
+     <li style="margin: 0">Twenty øne piløts</li>
+</ul>
 
 
-<p>Votre coéquipier a conçu un mockup HTML sur CodePen, ainsi que le thème WordPress du site. Il compte maintenant sur vous pour le rendre dynamique dans&nbsp;WordPress.</p>
+<grostitre>Partie 1 de l'exercice</grostitre>
+<p><a href="https://app.wooclap.com/LBOOEE" target="_blank" rel="noopener noreferrer">Quiz groupe vendredi, code Wooclap:</a> LBOOEE <br>
+<a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Quiz groupe lundi, code Wooclap:</a></p>
 
-<p>Aperçu du résultat 👇</p>
-<clipasset src=''></clipasset>
-
-
+<h3>Matériel</h3>
+<doclink href='https://marie-test.tim-momo.com/wordpress/'>Site Web sur lequel vous fier</doclink>
 
 <dots></dots>
-<grostitre>Matériel</grostitre>
-<doclink href='#'>Pen de départ</doclink>
+<grostitre>Partie 2 de l'exercice</grostitre>
+
+<p>Votre coéquipier a conçu un mockup HTML, ainsi que le thème WordPress du site. Il compte maintenant sur vous pour le rendre dynamique dans&nbsp;WordPress.</p>
+
+<p>Aperçu du résultat 👇</p>
+<clipasset src='medias/demo-groupe-musique.mp4'></clipasset>
+
+<h3>Matériel</h3>
+<doclink href='https://marie-test.tim-momo.com/wordpress/'>Site Web sur lequel vous fier</doclink>
 
 
 <h3 class="heading heading--h3" id="Médias 🖼️">Médias 🖼️</h3>
-<mediafile src="images/"></mediafile>
-<mediafile src="images/"></mediafile>
-<mediafile src="images/"></mediafile>
-
-<dots></dots>
+<mediafile src="medias/acf_custom_fields_post_types.json"></mediafile>
+<mediafile src="media/contenu_wordpress.xml"></mediafile>
+<br>
 <grostitre>Requis</grostitre>
 <checklist>Installez en local une copie en <a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/">Français du Canada de WordPress</a> pour votre client.
-Installez le <a target="_blank" rel="noopener noreferrer" href="#">thème réalisé par votre collègue</a>. Si vous l'avez installé et vous le cherchez, sachez que c'est le thème qui se nomme "Groupe de musique".
-Installez l'extension <a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/plugins/custom-post-type-ui/">Custom Post Type UI</a>.
-Créez un nouveau type de post intitulé <em>"groupe-musique"</em>. Ce nouveau type de post contiendra tous les groupes de musiques à afficher en accueil. Assurez-vous d'avoir le nom exact.
-Créez un nouveau type de post intitulé <em>"album"</em>. Ce nouveau type de post contiendra tous les albums des différents groupes de musique présentés. Assurez-vous d'avoir le nom exact.
-Créez un nouveau type de post intitulé <em>"membre"</em>. Ce nouveau type de post contiendra tous les membres faisant partie des différents groupes de musique présentés. Assurez-vous d'avoir le nom exact.
-Installez l'extension <a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/plugins/advanced-custom-fields/">Advanced Custom fields</a>.
-Créez un groupe de champs nommé Groupe-musique.
-... 
-Importez les contenus déjà préparés avec le fichier .xml fourni ci-haut dans le matériel.
-Faites afficher tous les groupes en accueil avec <em>WP-Query</em>  ou <em>REST API</em>, à votre choix. Assurez-vous de vous fier au Code Pen fourni.
-Construisez ensuite le modèle de la page du groupe de musique. Assurez-vous de vous fier au Code Pen fourni.
+Installez le <a target="_blank" rel="noopener noreferrer" href="images/theme-groupes-musique.zip">thème réalisé par votre collègue</a> et activez-le.
+Installez l'extension <a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/plugins/advanced-custom-fields/">Advanced Custom Fields</a>.
+Importez les types de contenus et les champs personnalisés avec le json fourni ci-haut.
+Importez les contenus déjà préparés avec le fichier .xml fourni ci-haut.
+Faites afficher tous les groupes en accueil avec <em>WP-Query</em> ou <em>REST API</em>, à votre choix. Assurez-vous de vous fier à la stucture HTML du site Web fourni.
+Construisez ensuite le modèle de la page du groupe de musique. Assurez-vous de vous fier à la stucture HTML du site Web fourni. Notez que vous devez créer le fichier du modèle (template).
 </checklist>
-
-      
-
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../wordpress/posts-personnalises/") ?>
+<?php intlink("../../wordpress/migration-de-donnees/") ?>
+<?php intlink("../../wordpress/modeles/") ?>
+<?php intlink("../../wordpress/wp-query/") ?>
+<?php intlink("../../wordpress/rest-api/") ?>
 <?php intlink("../../wordpress/advanced-custom-fields/") ?>
-<?php intlink("../../wordpress/menus/") ?>
-<?php intlink("../../wordpress/wp-multilang/") ?>
+<?php intlink("../../wordpress/images-dans-modeles/") ?>

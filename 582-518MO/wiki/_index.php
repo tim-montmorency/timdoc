@@ -82,10 +82,6 @@
 
 
 
-
-
-
-
 <!--
   _____                       ___  
  / ____|                     |__ \ 
@@ -117,9 +113,7 @@
         <li>Je choisis une personne au hasard dans la classe qui devra m'expliquer en quelques mots tout le processus
             Agile avec les sujets qui auront été discutés en équipe.</li>
     </ol>
-
     -->
-
     <h2>Sass</h2>
     <?php intlink("../sass/introduction/"); ?>
     <?php intlink("../sass/imbrication/"); ?>
@@ -184,7 +178,7 @@
 
 
 
-<!--
+<!--------------------
   _____                       ____  
  / ____|                     |___ \ 
 | |     ___  _   _ _ __ ___    __) |
@@ -192,7 +186,7 @@
 | |___| (_) | |_| | |  \__ \  ___) |
  \_____\___/ \__,_|_|  |___/ |____/ 
                                           
--->
+----------------------->
 <wiki-page name="Cours 03" date="2023-09-07">
 
     <h2>Processus de la présentation des maquettes</h2>
@@ -277,7 +271,7 @@
 
 
 
-<!-- 
+<!-------------- 
   _____                       _  _   
  / ____|                     | || |  
 | |     ___  _   _ _ __ ___  | || |_ 
@@ -285,7 +279,7 @@
 | |___| (_) | |_| | |  \__ \    | |  
  \_____\___/ \__,_|_|  |___/    |_|                                   
                                      
--->
+----------------->
 
 <wiki-page name="Cours 04" date="2023-09-14">
     <h2>Quiz</h2>
@@ -343,7 +337,7 @@
 
 
 
-<!-- 
+<!-------------- 
   _____                       _____ 
  / ____|                     | ____|
 | |     ___  _   _ _ __ ___  | |__  
@@ -351,7 +345,7 @@
 | |___| (_) | |_| | |  \__ \  ___) |
  \_____\___/ \__,_|_|  |___/ |____/ 
                                                           
--->
+---------------->
 
 <wiki-page name="Cours 05" date="2023-09-21">
 
@@ -409,10 +403,6 @@
     <?php intlink("../css/grid-intermediaire/"); ?>
     <br>
     <p style="color: var(--main-color);"><strong>> Exercices: Liens présentés en classe</strong></p>
-
-
-
-
     <br><br><br>
     <hr><br>
 
@@ -545,12 +535,7 @@
             serez rendus dans WordPress).</li>
         <li>Utilisez JavaScript pour dynamiser la bannière d'avertissement de travail étudiant, animer en GSAP etc.</li>
         <li>Attribuez-vous une tâche à la fois en la glissant dans la colonne "En cours" dans Trello.</li>
-
     </ul>
-
-
-
-
 
     <br><br><br>
     <hr><br>
@@ -589,8 +574,6 @@
     <br>
     Vendredi - <a href="https://app.wooclap.com/DRXFUE" target="_blank" rel="noopener noreferrer">Code Wooclap : DRXFUE
     </a><br>
-
-
     <br><br>
     <hr>
 
@@ -640,10 +623,6 @@
         prendre du retard sur le prochain exercice important et celui-ci l'est tout autant!</p>
     <p>Continuez d'avancer l'intégration de vos pages le projet en équipe (voir votre tableau Trello et les requis) pour
         la version CSS+HTML+JS. Attendez pour commencer à intégrer dans Wordpress.</p>
-
-
-
-
 </wiki-page>
 
 
@@ -659,19 +638,14 @@
 ----------------------------------->
 
 <wiki-page name="Cours 08" date="2023-10-15">
-
-
     <h2>Annonces</h2>
     <p>Présentées en classe.</p>
     <dots></dots>
-
 
     <h2>WORDPRESS</h2>
     <?php intlink("../wordpress/wp-editeur-gutenberg/"); ?>
     <?php intlink("../wordpress/wp-multilang/"); ?>
     <?php intlink("../wordpress/yoast-seo/"); ?>
-
-
 
     <h2>Exercice en classe et révision en classe</h2>
     <?php intlink("../exercices/wp-valet-de-coeur/"); ?>
@@ -680,18 +654,13 @@
         session.</p>
     <dots></dots>
 
-
-
     <h2>JAVASCRIPT</h2>
     <?php intlink("../javascript/promesses-js/"); ?>
-
     <?php intlink("../javascript/fetch-api/"); ?>
 
 
     <h2>2 exercices Fetch API</h2>
-    <p>Je passe équipe par équipe afin que vous me montriez ou vous en êtes dans votre projet et que je vous recommende
-        où vous devriez en être pour la semaine prochaine.</p>
-
+    <p>Je passe équipe par équipe afin que vous me montriez ou vous en êtes dans votre projet et que je vous recommende où vous devriez en être pour la semaine prochaine.</p>
 
     <h2>DEVOIRS</h2>
    <p>Terminer les exercices commencés en classe.</p>
@@ -715,8 +684,6 @@
     NOTE MM NOTE MM NOTE MM 
     Wordpress : intégrer logo, personnaliser le site, intégrer le menu, intégrer Bootsrap, monter l'accueil etc
 -->
-
-
     <h2>Quiz</h2>
     Lundi - <a href="https://app.wooclap.com/NYCYUF" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;:
         NYCYUF</a>
@@ -761,11 +728,9 @@
                 <li>ACF: Outre les composantes, quels champs ACF avec-vous besoin de créer pour compléter la page en question</li>
             </ul>
         </li>
-     
     </ul>
 
     <dots></dots>
-
     <h2>WORDPRESS</h2>
     <?php intlink("../wordpress/migration-de-donnees/"); ?>
     <?php intlink("../wordpress/wp-query/"); ?>
@@ -805,7 +770,7 @@
         Lundi - <a href="https://app.wooclap.com/CYCNBH" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;:
         CYCNBH</a>
     <br>
-    Vendredi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;: 
+    Vendredi - <a href="https://app.wooclap.com/QACHJM" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;: QACHJM
     </a><br>
 
     <dots></dots>
@@ -830,24 +795,17 @@
     "**/wordpress/wp-content/plugins/**"
 ],</highlight>
 
-
-
     <dots></dots>
     <h2>Erreur dans Wordpress, comment debugger </h2> 
     <p>Allez consulter les bogues dans <em>C:/MAMP/logs/</em>, regardez les dates et heures d'enresigtrer des fichiers de journal (logs) si elles correspondent le moment actuel, ouvrez le fichier pour consulter les message d'erreur afin de vous guider vers la source du problème. Lorsque vous travaille dans vos fichier de thème en PHP, les bogues sont souvent à ce niveau donc vous pourrez trouver les messages d'erreur dans <em>php_error.log</em>.</p>
 
     <dots></dots>
-
-
     <h2>PROJET DE SESSION</h2>
     <p>Procédure de migration des données d'une installation WordPress à un autre.</p>
 
     <?php intlink("../projet/migration-donnees-wordpress/"); ?>
 
-
-
     <dots></dots>
-
     <h2>Révision des exercices WP des semaines passées</h2>
     <?php intlink("../exercices/wp-valet-de-coeur/"); ?>
     <?php intlink("../exercices/wp-query-les-bagnoles/"); ?>
@@ -874,26 +832,113 @@
 </wiki-page>
 
 
+
+
+
+<!-----------------------------------
+  _____                       __ __ 
+ / ____|                     /_ /_ |
+| |     ___  _   _ _ __ ___   | || |
+| |    / _ \| | | | '__/ __|  | || |
+| |___| (_) | |_| | |  \__ \  | || |
+ \_____\___/ \__,_|_|  |___/  |_||_|
+ ----------------------------------->                                   
+
 <wiki-page name="Cours 11" date="2023-11-05">
-  
+    <h2>Annonce: Custum Post Type UI (CPT UI) à supprimer</h2>
 
+    <p>Il y a un problème d'import et export avec les contenus provenant de Custom Post Type UI. J'ai donc dû changer un peu la procédure pour que vous puissiez bien travailler et exporter les changements que vous faites sur votre site en ligne (sur tim-momo.com) vers votre version en local.</p>
+ 
+    <p>Vous allez devoir <em>supprimer l'extension Custom Post Type UI</em> sur le serveur tim-momo.com et sur votre instance de Wordpress en local.
+  <br> Vous allez dorénavant <em>créer vos post personnalisés avec Advanced Custom Field&nbsp;- ACF</em> (le sous onglet Post Types).</p>
+
+    <dots></dots>
     <h2>Révision de l'exercice WP de la semaine passée</h2>
-
     <?php intlink("../exercices/wp-rest-api-vice-versa/"); ?>
-
-
     <dots></dots>
     <h2>ASSURANCE ET CONTRÔLE DE LA QUALITÉ</h2>
     <?php intlink("../../582-424MO/optimisation/"); ?>
     <?php intlink("../gestion-de-projet/lazy-loading/"); ?>
     <?php intlink("../gestion-de-projet/assurance-qualite/"); ?>
-    <p>Exercices en classe</p>
+    <p>Exercice en classe: inso</p>
+
+    <dots></dots>
+    <h2>WORDPRESS</h2>
+    <?php intlink("../wordpress/images-dans-modeles/"); ?>
+    <doclink href='https://wordpress.com/fr/support/pages/page-accueil/'>Définir la page d’accueil dans Wordpress</doclink>
+    <p>Exercice en classe: musique</p>
         
     <dots></dots>
     <h2>DEVOIRS</h2>
-    <p>Terminer l'exercice commencé en classe (Insoapropriate).</p>
-    <p>Intégrez votre site à Wordpress avec les techniques vues dans les derniers cours.</p>
-
-
-
+    <p>- Terminer l'exercice commencé en classe (Insoapropriate).</p>
+    <p>- Intégrez votre site à Wordpress avec les techniques vues dans les derniers cours. Vous devez avoir au moins 2 types pages de définies d'ici le prochain cours sur tim-momo.com.</p>
 </wiki-page>
+
+
+
+
+
+<!-----------------------------------
+  _____                       __ ___  
+ / ____|                     /_ |__ \ 
+| |     ___  _   _ _ __ ___   | |  ) |
+| |    / _ \| | | | '__/ __|  | | / / 
+| |___| (_) | |_| | |  \__ \  | |/ /_ 
+ \_____\___/ \__,_|_|  |___/  |_|____|
+ ----------------------------------->  
+<wiki-page name="Cours 12" date="2023-11-16">
+    <h2>Partie 1 de l'exercice groupe de musique</h2>
+    <p>- <a href="https://app.wooclap.com/LBOOEE" target="_blank" rel="noopener noreferrer">Quiz groupe vendredi, code Wooclap:</a> LBOOEE <br> 
+    - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Quiz groupe lundi, code Wooclap:</a></p>
+</wiki-page>
+
+
+
+
+
+
+<!-----------------------------------
+  _____                       __ ____  
+ / ____|                     /_ |___ \ 
+| |     ___  _   _ _ __ ___   | | __) |
+| |    / _ \| | | | '__/ __|  | ||__ < 
+| |___| (_) | |_| | |  \__ \  | |___) |
+ \_____\___/ \__,_|_|  |___/  |_|____/       
+                             
+ ----------------------------------->  
+
+
+
+
+
+
+
+
+
+<!-----------------------------------
+  _____                       __ _  _   
+ / ____|                     /_ | || |  
+| |     ___  _   _ _ __ ___   | | || |_ 
+| |    / _ \| | | | '__/ __|  | |__   _|
+| |___| (_) | |_| | |  \__ \  | |  | |  
+ \_____\___/ \__,_|_|  |___/  |_|  |_|  
+                      
+ ----------------------------------->  
+
+
+
+
+
+
+
+
+
+ <!-----------------------------------
+  _____                       __ _____ 
+ / ____|                     /_ | ____|
+| |     ___  _   _ _ __ ___   | | |__  
+| |    / _ \| | | | '__/ __|  | |___ \ 
+| |___| (_) | |_| | |  \__ \  | |___) |
+ \_____\___/ \__,_|_|  |___/  |_|____/ 
+                                                                      
+ ----------------------------------->  
