@@ -95,12 +95,12 @@ Par exemple, pour définir une valeur de nom, il est possible d'écrire:
 Par exemple, le code suivant:
 
 <pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"app"</span>&gt;</span>
-  Salut {{ firstName }}
+  Salut { { firstName } }
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+<small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
 
 
-
-
+<br><br>
 Affichera en fait:
 <pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"app"</span>&gt;</span>
   Salut Willy
@@ -134,7 +134,7 @@ Affichera en fait:
 <br><br>
 
 
-<p class="codepen" data-height="360" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="oNJKqxv" data-user="tim-momo" style="height: 360px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="360" data-theme-id="44431" data-default-tab="html,result" data-slug-hash="oNJKqxv" data-user="tim-momo" style="height: 360px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/oNJKqxv">
   DEMO VueJS Données</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -190,20 +190,23 @@ Affichera en fait:
 Par exemple, pour qu'un bouton appelle la méthode <code>showActor()</code>:
 
 <pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"app"</span>&gt;</span>
-  Salut {{ firstName }}
+  Salut { { firstName } }
   <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">v-on:click</span>=<span class="hljs-string">"showActor()"</span>&gt;</span>Révéler l'acteur<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+<small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
 <br><br>
 
 
 ou encore la syntaxe courte avec <code>@</code>:
+
 <pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"app"</span>&gt;</span>
-  Salut {{ firstName }}
+  Salut { { firstName } }
   <span class="hljs-tag">&lt;<span class="hljs-name">button</span> @<span class="hljs-attr">click</span>=<span class="hljs-string">"showActor()"</span>&gt;</span>Révéler l'acteur<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+<small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
 
-<br>
-<p class="codepen" data-height="520" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="mdaNxGW" data-user="tim-momo" style="height: 520px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<br><br><br>
+<p class="codepen" data-height="520" data-theme-id="44431" data-default-tab="html,result" data-slug-hash="mdaNxGW" data-user="tim-momo" style="height: 520px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/mdaNxGW">
   DEMO VueJS - Méthodes</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -247,14 +250,14 @@ ou encore la syntaxe courte avec <code>@</code>:
 
 <dots></dots>
 <grostitre>Classes dynamiques</grostitre>
-<p>Il est fréquent qu'une classe doit-être ajouté ou retiré à un élément afin de refléter une action commise par un usager. Pour ce faire, Vue permet de passer un objet à un attribut. Cet objet doit contenir une propriété correspondant au nom de la classe souhaitée et comme valeur une donnée ou encore une expression. Ainsi, si cette valeur est évaluée à <code>true</code>, la classe est ajoutée et à l'opposée si elle est évaluée à <code>false</code> elle est retirée.</p>
+<p>Il est fréquent qu'une classe doit-être ajoutée ou retirée à un élément afin de refléter une action commise par un usager. Pour ce faire, Vue permet de passer un objet à un attribut. Cet objet doit contenir une propriété correspondant au nom de la classe souhaitée et comme valeur une donnée ou encore une expression. Ainsi, si cette valeur est évaluée à <code>true</code>, la classe est ajoutée et à l'opposée si elle est évaluée à <code>false</code> elle est retirée.</p>
 <p>Par exemple, pour ajouter la classe <em>orange</em> lorsque la donnée <em>isOrange</em> est équivalente à <code>true</code>:</p>
 
 
 <pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">:src</span>=<span class="hljs-string">"picture"</span> <span class="hljs-attr">:class</span>=<span class="hljs-string">"{orange: isOrange}"</span>&gt;</span></code></pre>
 
 <br>
-<p class="codepen" data-height="500" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="mdaNLbB" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="44431" data-default-tab="html,result" data-slug-hash="mdaNLbB" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/mdaNLbB">
   DEMO VueJS - Méthodes</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -310,11 +313,11 @@ Par exemple:
 <p>Par exemple, une bulle permettant d'afficher la date de naissance d'une personne n'est désirable que s'il y a une date à afficher. Si cette information n'est pas fournie, avoir une bulle vide est indésirable:</p>
 
 
-<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"bubble"</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">"birth"</span>&gt;</span>{{ birth }}<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"bubble"</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">"birth"</span>&gt;</span>{ { birth } }<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+<small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
+<br><br><br>
 
-<br>
-
-<p class="codepen" data-height="700" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="OJrKZbw" data-user="tim-momo" style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="700" data-theme-id="44431" data-default-tab="html,result" data-slug-hash="OJrKZbw" data-user="tim-momo" style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJrKZbw">
   DEMO VueJS | v-if</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -329,7 +332,7 @@ Par exemple:
 
 <dots></dots>
 <grostitre>Boucle</grostitre>
-<p>Vue permet de boucler sur un tableau d'objets grâce à la directive <code>v-for</code>. Pour ce faire, il faut spécifier le nom temporaire que l'on souhaite attribuer à chaque objet dans le tableau et le tableau dans lequel ce trouve ces objets.</p>
+<p>Vue permet de boucler sur un tableau d'objets grâce à la directive <code>v-for</code>. Pour ce faire, il faut spécifier le nom temporaire que l'on souhaite attribuer à chaque objet dans le tableau et spécifier le tableau dans lequel ce trouve ces objets.</p>
 
 <p>Par exemple, il est possible d'accéder à chaque rôle se trouvant dans le tableau <code>rolesArray</code>:</p>
 
@@ -337,8 +340,8 @@ Par exemple:
   <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">:src</span>=<span class="hljs-string">"role.picture"</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
 
-<p>Attention par la suite de spécifier si la propriété désirée est enfant de <code>data</code> ou du rôle courant dans la boucle en la préfixant par <code>role</code>.</p>
-<p class="codepen" data-height="800" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="abPeGqp" data-user="tim-momo" style="height: 800px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p>Par la suite, il faut spécifier si la propriété désirée est enfant du parent <code>data</code> ou enfant du rôle courant dans la boucle en la préfixant par <code>role</code>.</p>
+<p class="codepen" data-height="800" data-theme-id="44431" data-default-tab="html,result" data-slug-hash="abPeGqp" data-user="tim-momo" style="height: 800px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/abPeGqp">
   DEMO VueJS | boucle</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -354,7 +357,7 @@ Par exemple:
   <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">:src</span>=<span class="hljs-string">"role.picture"</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
 
-<p class="codepen" data-height="500" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="GRPVGPg" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="44431" data-default-tab="html,result" data-slug-hash="GRPVGPg" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/GRPVGPg">
   DEMO VueJS | boucle</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -366,13 +369,13 @@ Par exemple:
 
 <p>Il est possible de combiner une boucle avec des <a rel="noopener noreferrer" href="#methodes-et-evenements">événements</a> sans problème, simplement en spécifiant en paramètre à la méthode appelée l'objet devant être altéré.</p>
 <br>
-<p class="codepen" data-height="500" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="oNJKyOO" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="44431" data-default-tab="html,result" data-slug-hash="oNJKyOO" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/oNJKyOO">
   DEMO VueJS | boucle index</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-<warning>Il ne faut<a href="https://v3.vuejs.org/style-guide/#avoid-v-if-with-v-for-essential"> jamais utiliser <code>v-if</code> sur un élément ayant&nbsp;<code>v-for</code></a>.</warning>
+<warning>Il ne faut<a href="https://vuejs.org/style-guide/rules-essential.html#avoid-v-if-with-v-for" target="_blank"> jamais utiliser <code>v-if</code> sur un élément ayant&nbsp;<code>v-for</code></a>.</warning>
 <br>
 <aside class="exercice-card">
     <div class="exercice-card__content">

@@ -1707,6 +1707,16 @@ footer #copyright {
   margin-bottom: 50px;
   max-width: 100%;
 }
+#contents figure, #wiki__pages figure {
+  margin-bottom: 50px;
+}
+#contents figure img, #wiki__pages figure img {
+  margin-bottom: 5px;
+}
+#contents figure figcaption, #wiki__pages figure figcaption {
+  font-size: 70%;
+  text-align: center;
+}
 #contents h2, #contents h3, #wiki__pages h2, #wiki__pages h3 {
   margin-bottom: 25px;
   margin-top: 50px;
