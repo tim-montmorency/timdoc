@@ -1,0 +1,8 @@
+<?php
+/**
+ * @type     exercice
+ * @title    Vue - Cheese Kanye says
+ * @icon     images/pink-palette-resultat.png
+ * @abstract ...
+ */
+?>
