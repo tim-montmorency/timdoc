@@ -217,7 +217,7 @@ ou encore la syntaxe courte avec <code>@</code>:
 <aside class="exercice-card">
     <div class="exercice-card__content">
         <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-        <a href="/exercices/vue/tableau-nba" target="_blank" class="exercice-card__title">
+        <a href="../../../exercices/vue-tableau-nba/" target="_blank" class="exercice-card__title">
             Tableau&nbsp;NBA
         </a>
 
@@ -230,7 +230,7 @@ ou encore la syntaxe courte avec <code>@</code>:
 <aside class="exercice-card">
     <div class="exercice-card__content">
         <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-        <a href="/exercices/vue/cheese-kanye-says" target="_blank" class="exercice-card__title">
+        <a href="../../../exercices/vue-cheese-kanye-says/ " target="_blank" class="exercice-card__title">
             Cheese Kanye&nbsp;Says
         </a>
 
@@ -380,7 +380,7 @@ Par exemple:
 <aside class="exercice-card">
     <div class="exercice-card__content">
         <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-        <a href="/exercices/vue/cote-ouest-vs-est" target="_blank" class="exercice-card__title">
+        <a href="../../../exercices/vue-ouest-vs-est/" target="_blank" class="exercice-card__title">
             Côte Ouest vs&nbsp;Est
         </a>
 
