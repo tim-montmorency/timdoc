@@ -3,7 +3,7 @@
  * @type     exercice
  * @title    Vue - Cheese Kanye says
  * @icon     images/pink-palette-resultat.png
- * @abstract ...
+ * @abstract Vous devrez mettre à jour la citation de Kanye West via vue.js et un API
  */
 ?>
 
