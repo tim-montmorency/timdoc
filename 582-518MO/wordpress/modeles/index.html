@@ -53,7 +53,7 @@
 
 <p>Ces fichiers permettent de contrôler la structure d'une ou plusieurs pages sur un site. </p>
 
-<p>Par exemple, Amazon à un modèle pour <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.ca/-/fr/">sa page d'accueil</a>, mais aussi un modèle de page de produit. Celui de la page d'accueil n'est utilisé que pour une seule page <em>(la page d'accueil)</em>, mais celui de la page de produit est utilisé pour afficher tous les produits du site. Un seul modèle est nécessaire, donc un seul fichier php et le contenu des produits est soutiré d'une base de données pour générer des milliers de pages différentes.</p>
+<p>Par exemple, Amazon a un modèle pour <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.ca/-/fr/">sa page d'accueil</a>, mais aussi un modèle de page de produit. Celui de la page d'accueil n'est utilisé que pour une seule page <em>(la page d'accueil)</em>, mais celui de la page de produit est utilisé pour afficher tous les produits du site. Un seul modèle est nécessaire, donc un seul fichier php et le contenu des produits est soutiré d'une base de données pour générer des milliers de pages différentes.</p>
 
 
 <dots></dots>
@@ -127,15 +127,32 @@
 <dots></dots>
 
 <h3 class="heading heading--h3" id="Accueil">Accueil</h3>
- <p>La page d'accueil est particulière. Par défaut, WordPress lui attribue son propre modèle affichant normalement les plus récents articles. Il est néanmoins possible de changer cette configuration dans le tableau de bord via:</p>
+ <p>La page d'accueil est particulière. Par défaut, WordPress lui attribue son propre modèle affichant normalement les plus récents articles (posts). Le modèle qui sera pris en compte en premier sera home.php et s'il est inexistant, ce sera index.php.</p>
+ <ul>
+    <li><code>home.php</code></li>
+    <li><code>index.php</code></li>
+</ul>
+ <p>Il est néanmoins possible de changer cette configuration et choisir une page spécifique en tant que page d'accueil. Pour ce faire, vous devez d'abord créer la page et, dans le tableau de bord, spécifier quelle sera la page qui fera office d'accueil via:</p>
  
- <p><em>Réglage</em>&nbsp;➡️&nbsp;<em>Lecture</em></p><ul><li><p>home.php</p></li><li><p>index.php</p></li></ul>
+<p><em>Réglage</em>&nbsp;➡️&nbsp;<em>Lecture</em></p>
+<img src="images/page-accueil-reglages-wp.jpg" alt="Réglage pour page accueil dans le tableau de bord de Wordpress">
+<p>Dans le contexte où votre page d'accueil est une page statique, le modèle qui sera pris en compte en premier sera font-page.php.</p>
+<ul>
+    <li><code>font-page.php</code></li>
+    <li><code>page-7.php</code>&nbsp;existe.&nbsp;<em>(Si l'id de la page est&nbsp;</em><code>7</code>).</li>
+    <li>Le fichier générique&nbsp;<code>page.php</code>&nbsp;est&nbsp;présent.</li>
+    <li><code>singular.php</code>&nbsp;existe.</li>
+    <li><code>index.php</code>&nbsp;existe.</li>
+</ul>
 
 
 
  <dots></dots>
 <h3 id="404">404</h3>
-<ol start="1"><li><p>404.php</p></li><li><p>index.php</p></li></ol>
+<ol start="1">
+    <li><code>404.php</code></li>
+    <li><code>index.php</code></li>
+</ol>
 
 
 
@@ -163,6 +180,13 @@
 </ol>
 
 <warning>Le fichier <code>index.php</code> est en quelque sorte le fichier de la dernière&nbsp;chance.</warning>
+
+
+<dots></dots>
+<h3>Voici un graphique qui présente cette hiérarchie</h3>
+<figure><a href="images/wordpress-hierarchie-des-fichiers-modeles.png" target="_blank" rel="noopener noreferrer">
+<img src="images/wordpress-hierarchie-des-fichiers-modeles.png" alt="Graphique présentant la hiérarchie des modèles" style="border: 1px solid #18053e;"></a>
+<figcaption>Source de l'image: https://fr.wordpress.org</figcaption></figure>
 
 
 <br>

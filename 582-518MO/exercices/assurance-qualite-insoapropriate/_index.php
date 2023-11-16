@@ -2,7 +2,7 @@
 /**
  * @type     exercice
  * @title    Assurance-qualité - Insoapropriate
- * @icon     images/thumb-mixin.jpg
+ * @icon     images/thumb.jpg
  * @abstract Examiner attentivement une réalisation et vous assurez qu’elle correspond bien aux requis client. 
  */
 ?>

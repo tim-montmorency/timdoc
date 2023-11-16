@@ -860,13 +860,16 @@
     <?php intlink("../../582-424MO/optimisation/"); ?>
     <?php intlink("../gestion-de-projet/lazy-loading/"); ?>
     <?php intlink("../gestion-de-projet/assurance-qualite/"); ?>
-    <p>Exercice en classe: inso</p>
+    <?php intlink("../exercices/assurance-qualite-insoapropriate/"); ?>
+ 
 
     <dots></dots>
     <h2>WORDPRESS</h2>
     <?php intlink("../wordpress/images-dans-modeles/"); ?>
+    <doclink href='https://developer.wordpress.org/themes/functionality/custom-front-page-templates/'>Modèle (template)&nbsp;- Page d'accueil</doclink>
+    <br>
     <doclink href='https://wordpress.com/fr/support/pages/page-accueil/'>Définir la page d’accueil dans Wordpress</doclink>
-    <p>Exercice en classe: musique</p>
+ 
         
     <dots></dots>
     <h2>DEVOIRS</h2>
@@ -887,9 +890,39 @@
  \_____\___/ \__,_|_|  |___/  |_|____|
  ----------------------------------->  
 <wiki-page name="Cours 12" date="2023-11-16">
-    <h2>Partie 1 de l'exercice groupe de musique</h2>
-    <p>- <a href="https://app.wooclap.com/LBOOEE" target="_blank" rel="noopener noreferrer">Quiz groupe vendredi, code Wooclap:</a> LBOOEE <br> 
-    - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Quiz groupe lundi, code Wooclap:</a></p>
+
+
+    <h2>Groupe du lundi</h2>
+    <p><strong>Révision exercice assurance qualité: Insoapropriate</strong></p>
+    <?php intlink("../exercices/assurance-qualite-insoapropriate/"); ?>
+
+    <p><strong>Wordpress</strong></p>
+    <?php intlink("../wordpress/images-dans-modeles/"); ?>
+  
+    <dots></dots>
+    <h2>WORDPRESS - suite</h2>
+    <?php intlink("../wordpress/modeles/"); ?>
+    <doclink href='https://developer.wordpress.org/themes/functionality/custom-front-page-templates/'>Custom Front Page Templates</doclink>
+
+
+    <dots></dots>
+    <h2>Exercice groupe de musique</h2>
+    <p><strong>Partie 1</strong><br>
+   - <a href="https://app.wooclap.com/LBOOEE" target="_blank" rel="noopener noreferrer">Questionnaire analyse - groupe vendredi</a> code Wooclap: LBOOEE <br> 
+    - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Questionnaire analyse - groupe lundi</a>  code Wooclap: </p>
+
+    <p><strong>Partie 2</strong><br>
+   Lien partagé en classe</p>
+
+    <dots></dots>
+    <h2>VUE.JS</h2>
+    <?php intlink("../javascript/vue-js/introduction"); ?>
+    <?php intlink("../javascript/vue-js/creation-app-bases"); ?>
+    <p>Exercices partagés en classe</p>
+
+
+
+
 </wiki-page>
 
 
