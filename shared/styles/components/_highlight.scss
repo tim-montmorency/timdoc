@@ -6,6 +6,14 @@ pre.highlight {
     margin-right: -25px;
 }
 
+pre.highlight:has(+ small) {
+    padding-bottom: 5px;
+}
+
+pre.highlight + small {
+    display: block;
+    margin-bottom: 25px;
+}
 
 pre code.hljs {
     overflow-x: auto;

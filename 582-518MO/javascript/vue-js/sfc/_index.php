@@ -4,6 +4,6 @@
  * @title    SFC
  * @icon     images/ico-vue.png
  * @abstract Single File Components
- * @index 1
+ * @index 70
  */
 ?>

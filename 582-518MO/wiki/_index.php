@@ -920,9 +920,6 @@
     <?php intlink("../javascript/vue-js/creation-app-bases"); ?>
     <p>Exercices partagés en classe</p>
 
-
-
-
 </wiki-page>
 
 
@@ -940,7 +937,14 @@
                              
  ----------------------------------->  
 
+ <wiki-page name="Cours 13" date="2023-11-22">
+ <h2>Quiz</h2>
+    Lundi - <a href="https://app.wooclap.com/QGRZDE" target="_blank" rel="noopener noreferrer">Code Wooclap : QGRZDE</a>
+    <br>
+    Vendredi - <a href="#" target="_blank" rel="noopener noreferrer">Code Wooclap : 
+    </a>
 
+ </wiki-page>
 
 
 
@@ -960,7 +964,8 @@
 
 
 
-
+ <wiki-page name="Cours 14" date="2023-11-29">
+ </wiki-page>
 
 
 
@@ -975,3 +980,6 @@
  \_____\___/ \__,_|_|  |___/  |_|____/ 
                                                                       
  ----------------------------------->  
+
+ <wiki-page name="Cours 15" date="2023-12-06">
+ </wiki-page>
