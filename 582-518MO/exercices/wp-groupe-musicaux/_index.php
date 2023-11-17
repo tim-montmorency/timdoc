@@ -18,8 +18,8 @@
 
 
 <grostitre>Partie 1 de l'exercice</grostitre>
-<p><a href="https://app.wooclap.com/LBOOEE" target="_blank" rel="noopener noreferrer">Quiz groupe vendredi, code Wooclap:</a> LBOOEE <br>
-<a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Quiz groupe lundi, code Wooclap:</a></p>
+<p><a href="https://app.wooclap.com/LBOOEE" target="_blank" rel="noopener noreferrer">Questionnaire analyse - groupe vendredi</a> code Wooclap: LBOOEE <br>
+<a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Questionnaire analyse - groupe lundi</a> code Wooclap:</p>
 
 <h3>Matériel</h3>
 <doclink href='https://marie-test.tim-momo.com/wordpress/'>Site Web sur lequel vous fier</doclink>
@@ -33,11 +33,14 @@
 <clipasset src='medias/demo-groupe-musique.mp4'></clipasset>
 
 <h3>Matériel</h3>
-<doclink href='https://marie-test.tim-momo.com/wordpress/'>Site Web sur lequel vous fier</doclink>
+<doclink href='https://marie-test.tim-momo.com/wordpress/'>Site Web sur lequel vous fier</doclink><br>
+<doclink href='https://codepen.io/tim-momo/pen/poGbPmV'>Code Pen de l'accueil</doclink><br>
+<doclink href='https://codepen.io/tim-momo/pen/VwgKZmg'>Code Pen de la page d'un groupe (Muse)</doclink>
+<br>
+<mediafile src="medias/acf_custom_fields_post_types.json">Structure des types de contenu personnalisés et champs personnalisés</mediafile>
+<mediafile src="medias/contenu_wordpress.xml">Contenu WordPress</mediafile>
+<mediafile src="medias/theme-groupes-musique.zip">Thème pour démarrer</mediafile>
 
-<mediafile src="medias/acf_custom_fields_post_types.json"></mediafile>
-<mediafile src="medias/acf_custom_fields_post_types.json"></mediafile>
-<mediafile src="medias/theme-groupes-musique.zip"></mediafile>
 <br>
 <grostitre>Requis</grostitre>
 <checklist>Installez en local une copie en <a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/" onclick="event.stopPropagation()">Français du Canada de WordPress</a> pour votre client.
@@ -45,7 +48,8 @@ Installez le <a target="_blank" href="medias/theme-groupes-musique.zip" onclick=
 Installez l'extension <a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/plugins/advanced-custom-fields/" onclick="event.stopPropagation()">Advanced Custom Fields</a>.
 Importez les types de contenus et les champs personnalisés avec le json fourni ci-haut.
 Importez les contenus déjà préparés avec le fichier .xml fourni ci-haut.
-Faites afficher tous les groupes en accueil avec <em>WP-Query</em> ou <em>REST API</em>, à votre choix. Assurez-vous de vous fier à la stucture HTML du site Web fourni.
+Créez une page qui fera office d'accueil et configurez la via le tableau de bord de WordPress.
+Dans le modèle de l'accueil, faites afficher tous les groupes de musiques avec <em>WP-Query</em> ou <em>REST API</em>, à votre choix. Assurez-vous de vous fier à la stucture HTML du site Web fourni.
 Construisez ensuite le modèle de la page du groupe de musique. Assurez-vous de vous fier à la stucture HTML du site Web fourni. Notez que vous devez créer le fichier du modèle (template).
 </checklist>
 
