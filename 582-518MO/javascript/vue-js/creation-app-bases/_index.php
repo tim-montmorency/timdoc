@@ -176,7 +176,7 @@ Affichera en fait:
   }
 });</code></pre>
 
-<p>Ainsi, lorsque la méthode <code>showActor</code> est appelée, toutes les occurrences de <code>firstName</code> et <code>lastName</code> sont remplacées par <em>Tom</em> et <em>Hanks</em>.</p>
+<p>Ainsi, lorsque la méthode <code>showActor</code> est appelée, toutes les occurrences de <code>firstName</code> et <code>lastName</code> sont remplacées par <em>Timothée</em> et <em>Chalamet</em>.</p>
 
 
 
