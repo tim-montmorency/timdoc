@@ -875,6 +875,11 @@
     <h2>DEVOIRS</h2>
     <p>- Terminer l'exercice commencé en classe (Insoapropriate).</p>
     <p>- Intégrez votre site à Wordpress avec les techniques vues dans les derniers cours. Vous devez avoir au moins 2 types pages de définies d'ici le prochain cours sur tim-momo.com.</p>
+
+
+   
+
+
 </wiki-page>
 
 
@@ -919,6 +924,13 @@
     <?php intlink("../javascript/vue-js/introduction"); ?>
     <?php intlink("../javascript/vue-js/creation-app-bases"); ?>
     <p>Exercices partagés en classe</p>
+
+
+    <dots></dots>
+
+<h2>DEVOIRS</h2>
+<p>Terminez le dernier exercice commencé en classe (Ouest vs Est).</p>
+<p>Intégrez votre site du projet de session à Wordpress avec les techniques vues dans les derniers cours. <br> Attention, il est bien important que vous ayez au moins le modèle de la page d'accueil et les modèles de 3 types de contenus différents (nouvelles, services, etc) presque terminés ou bien avancés d'ici le prochain cours.</p>
 
 </wiki-page>
 
