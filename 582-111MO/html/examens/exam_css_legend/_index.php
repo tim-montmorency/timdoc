@@ -1,19 +1,26 @@
 <?php 
 /**
  * @type     exercice
- * @title    TP 02
+ * @title    Examen CSS
  * @icon     images/thumb.jpg
  * @abstract Pour cet examen vous allez reproduire un site web.
  */
 ?>
 
 <em>
-    <H2>EXAMEN CSS partie 2 (pratique).</H2>
+    <H2>EXAMEN CSS</H2>
 </em>
 
-<p>Pour cet exercice vous allez reproduire le site web Legend.</p>
+<p>Pour cet examen vous allez reproduire le site web Legend.</p>
 
-<clipasset src="videos/La_musique_c'est_la_vie.mp4"></clipasset>
+<swiper>
+    photos/legnd-1.webp
+    photos/legnd-2.webp
+    photos/legnd-3.webp
+    photos/legnd-4.webp
+    photos/legnd-5.webp
+    photos/legnd-6.webp
+</swiper>
 
 <dots></dots>
 
@@ -43,7 +50,7 @@
 
 <h3>Document de départ</h3>
 
-<doclink href="./La musique, c'est la vie.zip">La musique, c'est la vie</doclink>
+<doclink href="./legend.zip">Legend</doclink>
 
 
 <dots></dots>
@@ -53,15 +60,15 @@
 
 <checklist>
     Assurez-vous d'enlever les marges pour tout le document à l'aide du sélecteur universel et ajoutez la famille de police
-    Dans votre body, définit la couleur d'arrière-plan à l'aide de la couleurs de références #2.
+    Dans votre body, définir la couleur d'arrière-plan à l'aide de la couleur de référence #2.
     <em>L'en-tête</em>
-    Ensuite, dans votre en-tête, positionne l'en-tête de manière absolue par rapport à son premier parent positionné (s'il y en a un).
-    Place l'en-tête au sommet de la page.
-    Définit la couleur d'arrière-plan de l'en-tête à l'aide de la couleur de références #3.
-    Assure-toi que l'en-tête occupe toute la largeur de la fenêtre.
-    Ajoute un une marge intérieure en haut de l'en-tête de 20px.
+    Ensuite, dans votre en-tête, positionnez l'en-tête de manière absolue par rapport à son premier parent positionné (s'il y en a un).
+    Placez l'en-tête au sommet de la page.
+    Définir la couleur d'arrière-plan de l'en-tête à l'aide de la couleur de références #3.
+    Assurez-vous que l'en-tête occupe toute la largeur de la fenêtre.
+    Ajoutez un une marge intérieure en haut de l'en-tête de 20px.
     <em>LOGO</em>
-    Définit la largeur du logo de 13 fois la taille à la racine du document.
+    Définir la largeur du logo de 13 fois la taille à la racine du document.
     Centrez le logo.
     Alignez le logo verticalement. 
     <em>La navigation</em>
@@ -69,14 +76,17 @@
     Affichez les éléments de la liste en ligne, les uns à côté des autres.
     Centrez le texte à l'intérieur du conteneur de navigation.
     Ajoutez une marge intérieure de 20px à droite pour espacer les éléments de la navigation.
+    <em>Liste</em>
+    Affichez les éléments de la liste en ligne, les uns à côté des autres.
     Ajoutez une marge extérieure à droite de 20px entre les éléments de la liste.
     Alignez verticalement au centre les éléments de la liste.
+    <em>Les liens</em>
     Sélectionnez votre navigation ainsi que les liens de celle-ci, enlevez la décoration du texte, utilisez la couleur de référence #4 et transformez votre texte en majuscule
     <em>Le bouton "se connecter"</em>
-    Pour le bouton "se connecter", définit la graisse de la police à 700.
-    Définit la hauteur de ligne du texte à l'intérieur du bouton à 6/5.
+    Pour le bouton "se connecter", définir la graisse de la police à 700.
+    Définir la hauteur de ligne du texte à l'intérieur du bouton à 6/5.
     Ajoutez un léger espacement entre les lettres du texte de 0.1px.
-    Définit la couleur d'arrière-plan du bouton à l'aide de la couleur de références #5.
+    Définir la couleur d'arrière-plan du bouton à l'aide de la couleur de références #5.
     Ajoutez une marge intérieure de 17px en haut, 40px à droite, 17px en bas et 40px à gauche.
     Ajoutez une bordure de 2 pixels autour du bouton.
     Arrondir les coins du bouton de 5px.
@@ -88,25 +98,25 @@
 
 <checklist>
     <em>La bannière</em>
-    Définit l'image d'arrière-plan de la bannière. (b6170f4f-bg-image-1.jpeg)
-    Fait en sorte que l'image d'arrière-plan couvre toute la zone, en maintenant son ratio.
-    Définit la hauteur de la bannière à 100% (100vh) de la hauteur de la fenêtre.
-    Ajoutez une marge intérieure en haut de la bannière équivalent à 15% de la hauteur de la fenêtre.
-    Ajoutez une marge intérieure à gauche de la bannière équivalent à 10% de la largeur de la fenêtre.
+    Définir l'image d'arrière-plan de la bannière. (b6170f4f-bg-image-1.jpeg)
+    Faites en sorte que l'image d'arrière-plan couvre toute la zone, en maintenant son ratio.
+    Définir la hauteur de la bannière à 100% (100vh) de la hauteur de la fenêtre.
+    Ajoutez une marge intérieure en haut de la bannière équivalente à 15% de la hauteur de la fenêtre.
+    Ajoutez une marge intérieure à gauche de la bannière équivalente à 10% de la largeur de la fenêtre.
     <em>Les titres de la bannière  (legend & legend-2)</em>
-    Pour les titre de la bannière, définit la couleur du texte à l'aide de la couleurs de références #1.
-    Définit la taille de la police pour les titres de 10 fois la taille à la racine du document et pour le 3e titre "ABANDONNER"  la taille de la police sera de 5 fois la taille à la racine du document..
-    Définit la graisse de la police à 400.
+    Pour les titres de la bannière, définir la couleur du texte à l'aide de la couleur de référence #1.
+    Définir la taille de la police pour les titres de 10 fois la taille à la racine du document et pour le 3e titre "ABANDONNER"  la taille de la police sera de 5 fois la taille à la racine du document..
+    Définir la graisse de la police à 400.
     Transformez votre texte en majuscule.
-    Définit la hauteur de ligne du texte à l'intérieur du bouton à 11/10.
+    Définir la hauteur de ligne du texte à l'intérieur du bouton à 11/10.
     Ajoutez un léger espacement entre les lettres du texte de 0.06em.
     <em>L'icône YouTube</em>
-    Maintenant, définit la largeur de l'icône YouTube à 100px.
-    Définit la hauteur de l'icône YouTube à 60px.
+    Maintenant, définir la largeur de l'icône YouTube à 70px.
+    Définir la hauteur de l'icône YouTube à 60px.
     Affichez les éléments "youtube" et "trailer" en ligne.
     Alignez verticalement au centre.
-    Définit la couleur du texte à l'aide de la couleur de références #1.
-    Ajoutez une soulignement au texte du lien.
+    Définir la couleur du texte à l'aide de la couleur de références #1.
+    Ajoutez un soulignement au texte du lien.
 </checklist>
 
 <dots></dots>
@@ -116,26 +126,26 @@
 <checklist>
     Ajoutez une marge intérieure à la section "game" de 5 fois la taille à la racine du document.
     Centrez le tableau horizontalement avec une marge extérieure de 80px en haut et en bas.
-    Définit la largeur des images de jeu de 25 fois la taille à la racine du document.
-    Ajoutez une bordure de 2 pixels autour des images avec la couleur à l'aide de la couleur de références #4.
+    Définir la largeur des images de jeu de 25 fois la taille à la racine du document.
+    Ajoutez une bordure de 2 pixels autour des images à l'aide de la couleur de références #4.
     Arrondir les coins des images de 20px.
     Ajoutez une marge intérieure à gauche et à droite de chaque cellule de la table de 0.2 fois la taille à la racine du document.
     <em>Le titre</em>
-    Définit la couleur du texte "Choisissez votre jeu" à l'aide de la couleurs de références #4.
-    Définit la taille de la police pour le titre "Choisissez votre jeu" à 3 fois la taille relative à la taille fonte courante.
+    Définir la couleur du texte "Choisissez votre jeu" à l'aide de la couleur de référence #4.
+    Définir la taille de la police pour le titre "Choisissez votre jeu" à 3 fois la taille relative à la taille fonte courante.
     Alignez au centre.
     <em>Le titre AVENTURES SPATIALES</em>
-    Définit la couleur du texte pour les classes "AVENTURES" et "SPATIALES" à l'aide des couleurs de références #6 et #7.
-    Définit la taille de la police à 2.5 fois la taille relative à la taille fonte courante.
+    Définir la couleur du texte pour les classes "AVENTURES" et "SPATIALES" à l'aide des couleurs de références #6 et #7.
+    Définir la taille de la police à 2.5 fois la taille relative à la taille fonte courante.
     <em>Le gros titre</em>
-    Sélectionnez le titre "big-title" et définit la taille de la police à 4 fois la taille relative à la taille fonte courante.
-    Définit la graisse de la police à 900.
-    Définit la couleur du texte à l'aide de la couleur de références #1.
-    Définit la largeur de 50 fois la taille à la racine du document.
+    Sélectionnez le titre "big-title" et définir la taille de la police à 4 fois la taille relative à la taille fonte courante.
+    Définir la graisse de la police à 900.
+    Définir la couleur du texte à l'aide de la couleur de références #1.
+    Définir la largeur de 50 fois la taille à la racine du document.
     Ajoutez une marge extérieure négative de 3 fois la taille à la racine du document.
     <em>Le texte</em>
-    Définit la couleur du texte à l'aide de la couleur de références #1.
-    Définit la largeur de 50 fois la taille à la racine du document.
+    Définir la couleur du texte à l'aide de la couleur de références #1.
+    Définir la largeur de 50 fois la taille à la racine du document.
 </checklist>
 
 <dots></dots>
@@ -143,29 +153,29 @@
 <grostitre>Jeux multijoueurs en ligne</grostitre>
 
 <checklist>
-    Définit l'image d'arrière-plan de la section "Jeux multijoueurs en ligne". (5dadd873-bg-image-3.jpeg)
-    Fait en sorte que l'image d'arrière-plan couvre toute la zone, en maintenant son ratio.
-    Définit la hauteur de la section de 70 fois la taille à la racine du document.
-    Ajoute une marge intérieure en haut de la section de 5 fois la taille à la racine du document.
-    Ajoute une marge intérieure à gauche de la section de 12 fois la taille à la racine du document.
+    Définir l'image d'arrière-plan de la section "Jeux multijoueurs en ligne". (5dadd873-bg-image-3.jpeg)
+    Faites en sorte que l'image d'arrière-plan couvre toute la zone, en maintenant son ratio.
+    Définir la hauteur de la section de 70 fois la taille à la racine du document.
+    Ajoutez une marge intérieure en haut de la section de 5 fois la taille à la racine du document.
+    Ajoutez une marge intérieure à gauche de la section de 12 fois la taille à la racine du document.
     <em>Le titre JEUX MULTIJOUEURS EN LIGNE</em>
-    Définit la couleur du texte pour les classes "jeux" et "multijoueur" à l'aide des couleurs de références #6 et #7.
-    Définit la taille de la police à 2.5 fois la taille relative à la taille fonte courante.
+    Définir la couleur du texte pour les classes "jeux" et "multijoueur" à l'aide des couleurs de références #6 et #7.
+    Définir la taille de la police à 2.5 fois la taille relative à la taille fonte courante.
     Sélectionnez le titre JEUX MULTIJOUEURS EN LIGNE en entier et alignez le texte au centre.
     Ajoutez une marge intérieure en haut de 8 fois la taille à la racine du document.
     Sélectionnez le titre "DÉFIEZ VOS AMIS" et ajoutez la couleur du texte à l'aide de la couleur de références #1.
-    Définit la taille de la police à 4 fois la taille relative à la taille fonte courante.
+    Définir la taille de la police à 4 fois la taille relative à la taille fonte courante.
     Alignez le texte au centre.
     Ajoutez une marge intérieure en haut de 3 fois la taille à la racine du document.
     <em>Le tableau des joueurs</em>
-    Centrez le tableau horizontalement avec une marge de 100px en haut.
-    Définit la largeur des images de joueur de 25 fois la taille à la racine du document.
-    Définit la largeur de l'icône "vs" de 9 fois la taille à la racine du document.
-    Ajoute une marge intérieure à gauche de l'icône "vs" de 40px.
+    Centrez le tableau horizontalement avec une marge de 100px en haut et en bas.
+    Définir la largeur des images de joueur de 25 fois la taille à la racine du document.
+    Définir la largeur de l'icône "vs" de 9 fois la taille à la racine du document.
+    Ajoutez une marge intérieure à gauche de l'icône "vs" de 40px.
     <em>Nom des joueurs</em>
     Sélectionnez le nom des joueurs et définit la couleur du texte à l'aide de la couleur de références #1.
-    Définit la taille de la police pour les noms d'équipe à 2.5 fois la taille relative à la taille fonte courante.
-    Met en majuscules le texte.
+    Définir la taille de la police pour les noms d'équipe à 2.5 fois la taille relative à la taille fonte courante.
+    Mets en majuscules le texte.
     Centrez le texte horizontalement.
     Ajoutez une marge extérieure en haut des noms d'équipe de 3 fois la taille à la racine du document.
     Ajoutez une bordure solide de 1 pixel autour des noms d'équipe et la couleur de références #4.
@@ -178,18 +188,18 @@
 <grostitre>Zone de jeu</grostitre>
 
 <checklist>
-    Définit l'image d'arrière-plan de la section "Zone de jeu". (41f47927-bg-image-4.jpeg)
-    Fait en sorte que l'image d'arrière-plan couvre toute la zone, en maintenant son ratio.
-    Définit la hauteur de la section de 50 fois la taille à la racine du document.
-    Ajoute une marge intérieure en haut de la section de 5 fois la taille à la racine du document.
-    Ajoute une marge intérieure à gauche de la section de 12 fois la taille à la racine du document.
+    Définir l'image d'arrière-plan de la section "Zone de jeu". (41f47927-bg-image-4.jpeg)
+    Faites en sorte que l'image d'arrière-plan couvre toute la zone, en maintenant son ratio.
+    Définir la hauteur de la section de 50 fois la taille à la racine du document.
+    Ajoutez une marge intérieure en haut de la section de 5 fois la taille à la racine du document.
+    Ajoutez une marge intérieure à gauche de la section de 12 fois la taille à la racine du document.
     Alignez le texte au centre.
     <em>YouTube</em>
-    Définit la largeur de l'image à 100px.
+    Définir la largeur de l'image à 100px.
     Ajoutez une marge intérieure en haut de 100px.
     Ajoutez une marge intérieure en bas de 30px.
     <em>Le titre</em>
-    Définit la taille de la police à 2 fois la taille relative à la taille fonte courante.
+    Définir la taille de la police à 2 fois la taille relative à la taille fonte courante.
     
 </checklist>
 
@@ -201,10 +211,10 @@
     Centrez le tableau horizontalement avec une marge extérieure de 50px en haut et en bas.
     Sélectionnez les cellules de la ligne "nombres" et ajoutez une marge intérieure en haut de 70px, à droite 60px, en bas 10px et à gauche de 60px.
     Sélectionnez la ligne "nombres" et définit la taille de la police à 5 fois la taille relative à la taille fonte courante.
-    Définit la couleur du texte à l'aide de la couleur de références #4.
+    Définir la couleur du texte à l'aide de la couleur de références #4.
     Ensuite, sélectionnez la ligne decompte-nom et définit la couleur du texte à l'aide de la couleur de références #1.
     Alignez le texte au centre.
-    Définit la taille de la police à 1.5 fois la taille relative à la taille fonte courante.
+    Définir la taille de la police à 1.5 fois la taille relative à la taille fonte courante.
 </checklist>
 
 <dots></dots>
@@ -213,7 +223,7 @@
 
 <checklist>
     Centrez le tableau horizontalement.
-    Définit la taille de la police à 0.
+    Définir la taille de la police à 0.
     Sélectionnez les images et ajustez la largeur à 100%.
 </checklist>
 
@@ -224,27 +234,27 @@
 <checklist>
     Centrez le tableau horizontalement avec une marge extérieure de 100px en haut et en bas.
     Ajoutez une marge intérieure de 50px.
-    Définit la couleur d'arrière-plan à l'aide de la couleurs de références #8.
-    Sélectionnez le texte "ABONNEZ-VOUS À NOTRE NEWSLETTER" et définit la taille de la police à 2 fois la taille relative à la taille fonte courante.
-    Définit la couleur du texte à l'aide de la couleur de références #1.
+    Définir la couleur d'arrière-plan à l'aide de la couleur de référence #8.
+    Sélectionnez le texte "ABONNEZ-VOUS À NOTRE NEWSLETTER" et définir la taille de la police à 2 fois la taille relative à la taille fonte courante.
+    Définir la couleur du texte à l'aide de la couleur de références #1.
     Ajustez la largeur à 500px.
-    Sélectionnez le texte "Restez informé des derniers jeux, packs d'extension et bien plus encore !" et définit la couleur du texte à l'aide de la couleur de références #1.
-    Définit la graisse du texte à 100.
+    Sélectionnez le texte "Restez informé des derniers jeux, packs d'extensions et bien plus encore !" et définir la couleur du texte à l'aide de la couleur de références #1.
+    Définir la graisse du texte à 100.
     <em>Votre adresse e-mail</em>
-    Sélectionnez le champ "email"  et définit la couleur d'arrière-plan à l'aide de la couleurs de références #9.
-    Ajustez la bordure à 0.
-    Définit la couleur du texte à l'aide de la couleurs de références #4.
+    Sélectionnez le champ "email"  et définir la couleur d'arrière-plan à l'aide de la couleur de référence #9.
+    Ajustez la largeur de la bordure à 0.
+    Définir la couleur du texte à l'aide de la couleur de référence #4.
     Ajoutez une marge intérieure de 20px en haut, 200px à droite, 20px en bas et 20px à gauche.
     Ajoutez une marge extérieure en haut de 30px.
     <em>Le bouton envoyer</em>
-    Sélectionnez le champ "submit"  et définit la couleur d'arrière-plan à l'aide de la couleurs de références #10.
-    Ajoutez une bordure de 1 pixels autour du bouton avec la couleur à l'aide de la couleur de références #11.
+    Sélectionnez le champ "submit"  et définit la couleur d'arrière-plan à l'aide de la couleur de référence #10.
+    Ajoutez une bordure de 1 pixel autour du bouton avec la couleur à l'aide de la couleur de référence #11.
     Arrondir les coins des images de 50px.
-    Définit la couleur du texte à l'aide de la couleurs de références #4.
+    Définir la couleur du texte à l'aide de la couleur de références #4.
     Ajoutez une marge intérieure de 15px en haut, 50px à droite, 15px en bas et 50px à gauche.
     Ajoutez une marge extérieure en haut de 30px.
-    Définit la graisse du texte à 700.
-    Met le texte en majuscule.
+    Définir la graisse du texte à 700.
+    Mets le texte en majuscule.
 </checklist>
 
 <dots></dots>
@@ -252,8 +262,8 @@
 <grostitre>Bas de page</grostitre>
 
 <checklist>
-    Définit la couleur du texte à l'aide de la couleurs de références #1.
-    Ajoutez une marge intérieur de 25px.
+    Définir la couleur du texte à l'aide de la couleur de référence #1.
+    Ajoutez une marge intérieure de 25px.
     Alignez le texte au centre.
 </checklist>
 
@@ -263,9 +273,9 @@
 <grostitre>Remise</grostitre>
 
 <checklist>
-  Renommez votre dossier <em>"tp02_[nom]_[prenom]"</em>.
-  Zippez votre dossier <em>"tp02_[nom]_[prenom]"</em>.
-  Joignez votre fichier <em>.zip</em> au devoir <em>"TP02 - La musique, c'est la vie !"</em>.
+  Renommez votre dossier <em>"exam_css_[nom]_[prenom]"</em>.
+  Zippez votre dossier <em>"exam_css_[nom]_[prenom]"</em>.
+  Joignez votre fichier <em>.zip</em> au devoir <em>"Examen CSS - Legend"</em>.
 </checklist>
 
 <dots></dots>
