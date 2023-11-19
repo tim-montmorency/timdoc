@@ -55,7 +55,6 @@
 
 <dots></dots>
 
-
 <grostitre>L'en-tête</grostitre>
 
 <checklist>
