@@ -1,0 +1,6 @@
+{
+    "type": "exercice",
+    "title": "Vue - Luchador",
+    "icon": "images\/pink-palette-resultat.png",
+    "abstract": "Vous devrez rendre dynamique \u00e0 l\u2019aide de Vue le tableau indicateur d\u2019un match de la NBA"
+}
