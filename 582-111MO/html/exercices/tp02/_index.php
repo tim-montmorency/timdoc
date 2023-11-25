@@ -71,7 +71,7 @@
 <grostitre>Partie 2</grostitre>
 
 <checklist>
-    Sélectionnez la classe "banner-content" et appliquez une hauteur de 900px
+    Sélectionnez la classe "banner-content" et appliquez une hauteur de 85vh
     Sélectionnez la classe "banner-content" mais cette fois-ci avec le titre h1
     Appliquez la couleur de référence #1, une grandeur de police de 5 fois la taille fonte courante, un espace entre les lettres de 0.1 fois la taille fonte courante
     Ajoutez une graisse de 700 et une ombre au texte avec un décalage en x de 13px, un décalage en y de 15px, un flou de 8px et la couleur : <em>rgba(63, 107, 169, 0.5)</em>
@@ -115,7 +115,7 @@
     Ajoutez une marge interne de la gauche égale à 20 fois la taille à la racine du document et une à partir du haut de  5 fois la taille à la racine du document
     Ensuite, sélectionnez le tableau et ajouter-lui une marge interne de 25px
     Sélectionnez la 2e cellule du tableau et afficher-là comme un bloc en ligne avec une largeur de 450px
-    Dans la 2e cellule, sélectionnez le titre et ajoutez une marge interne de 100px
+    Dans la 2e cellule, sélectionnez le titre et ajoutez une marge interne de 10px
     Toujours dans la deuxième cellule, sélectionnez le paragraphe et ajoutez une marge interne à gauche de 10px 
 </checklist>
 
