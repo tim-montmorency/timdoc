@@ -967,6 +967,7 @@
     <h2>VUE.JS</h2>
     <?php intlink("../javascript/vue-js/elements-de-formulaire"); ?>
     <?php intlink("../javascript/vue-js/proprietes-calculees"); ?>
+    <?php intlink("../javascript/vue-js/composantes"); ?>
     <p>Exercice partagé en classe</p>
 
  </wiki-page>
