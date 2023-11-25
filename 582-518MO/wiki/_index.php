@@ -956,6 +956,19 @@
     Vendredi - <a href="#" target="_blank" rel="noopener noreferrer">Code Wooclap : 
     </a>
 
+    <dots></dots>
+    <h2>Révision exercices</h2>
+    <?php intlink("../exercices/vue-tableau-nba/"); ?>
+    <?php intlink("../exercices/vue-cheese-kanye-says/"); ?>
+    <?php intlink("../exercices/vue-ouest-vs-est/"); ?>
+
+
+    <dots></dots>
+    <h2>VUE.JS</h2>
+    <?php intlink("../javascript/vue-js/elements-de-formulaire"); ?>
+    <?php intlink("../javascript/vue-js/proprietes-calculees"); ?>
+    <p>Exercice partagé en classe</p>
+
  </wiki-page>
 
 
