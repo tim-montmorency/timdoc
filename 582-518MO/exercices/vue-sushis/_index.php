@@ -12,7 +12,7 @@
 <clipasset src='images/vue-sushis-resultat.mp4'></clipasset>
 <dots></dots>
 <grostitre>Matériel</grostitre>
-<a href="https://ex.smnarnold.com/vue/sushis/prenom-nom.zip" target="_blank" rel="noopener noreferrer" download="" class="starting-files">
+<a href="images/prenom-nom.zip" target="_blank" rel="noopener noreferrer" download="" class="starting-files">
             Dossier de départ 📁
 </a>
 
