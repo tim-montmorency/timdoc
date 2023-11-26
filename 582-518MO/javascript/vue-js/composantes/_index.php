@@ -41,9 +41,10 @@ app.component('counter', {
   },
   template: `
     &lt;button @click=&quot;nbr++&quot;&gt;
-      Cliqué {{ nbr }}x
+      Cliqué { { nbr } }x
     &lt;/button&gt;`
 })</highlight>
+<small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
 
 
 
@@ -93,20 +94,21 @@ app.component('counter', {
 
 <p>Par exemple, si seulement la props <code>msg</code> est attendu: </p>
 
-
-<pre><code class="hljs javascript">app.component(<span class="hljs-string">'counter'</span>, {
-  <span class="hljs-attr">props</span>: [<span class="hljs-string">'msg'</span>],
+<highlight lang='javascript'>app.component('counter', {
+  props: ['msg'],
   ...
-})</code></pre>
+})</highlight>
 
 
+<br><br>
 <p>Pour passer une donnée, il suffit ensuite d'ajouter un attribut avec la valeur désirée:</p>
 
-<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">counter</span> <span class="hljs-attr">msg</span>=<span class="hljs-string">"A"</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">counter</span> <span class="hljs-attr">msg</span>=<span class="hljs-string">"B"</span>&gt;</span></code></pre>
+<highlight lang='html'>&lt;counter msg=&quot;A&quot;&gt;
+&lt;counter msg=&quot;B&quot;&gt;</highlight>
 
 
-<p class="codepen" data-height="300" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="RwvJLOJ" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
+<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="RwvJLOJ" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/RwvJLOJ">
   Vue.js Composante - réutilisation</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -114,7 +116,7 @@ app.component('counter', {
 
 
 
-<p>Lorsqu'une <code>props</code> est passé à une composante, elle devient l'équivalent d'une donnée dans <code>data</code>.</p>
+<p>Lorsqu'une <code>props</code> est passée à une composante, elle devient l'équivalent d'une donnée dans <code>data</code>.</p>
 
 <doclink href='https://vuejs.org/guide/components/props.html#prop-types'>Props</doclink>
 
@@ -126,27 +128,16 @@ app.component('counter', {
 <p>Les composantes sont souvent utilisées conjointement avec de boucles afin de tirer profit de leur réusabilité.</p>
 
 <p>Par exemple: </p>
+<highlight lang='html'>&lt;counter v-for=&quot;btn in btnsArr&quot; :msg=&quot;btn.msg&quot;&gt;&lt;/counter&gt;</highlight>
 
 
-<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">counter</span> <span class="hljs-attr">v-for</span>=<span class="hljs-string">"btn in btnsArr"</span> <span class="hljs-attr">:msg</span>=<span class="hljs-string">"btn.msg"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">counter</span>&gt;</span></code></pre>
-
-
-<p class="codepen" data-height="300" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="OJdExYr" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="OJdExYr" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJdExYr">
   Vue.js Composante - props</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-          <div class="codepen" data-module="CodePen">
-  <div class="codepen__wrapper">
-    <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
-
-    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_4" scrolling="no" src="https://codepen.io/smnarnold/embed/c152f49db70f04b88517a37a1ceb7f13?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=c152f49db70f04b88517a37a1ceb7f13&amp;default-tab=js%2Cresult&amp;name=cp_embed_4" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_c152f49db70f04b88517a37a1ceb7f13"></iframe></div>
-  </div>  
-
-  
-</div>
-
+       
 
 
 
@@ -163,16 +154,4 @@ app.component('counter', {
      
 </aside>
 <br>
-Non accessible
 
-<aside class="exercice-card">
-    <div class="exercice-card__content">
-      <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-      <a href="/exercices/vue/composante-equipements" target="_blank" class="exercice-card__title">
-        Composante -&nbsp;Équipements
-      </a>
-
-            <p class="exercice-card__description">Pour cet exercice, vous devez faire une interface simple permettant de visualiser facilement l’équipement et les locaux TIM&nbsp;disponibles.</p>
-          </div>
-
-</aside>

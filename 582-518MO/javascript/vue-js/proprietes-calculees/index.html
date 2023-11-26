@@ -66,9 +66,9 @@
     <li>Quelle devise tente-t-on d'afficher?</li>
 </ul>
 
-<p>Heureusement, les propriétés calculées permettent d'éviter de complexifier inutilement les templates en permettant de retirer toute expression logique de ceux-ci. </p>
+<p>Heureusement, les propriétés calculées permettent d'éviter de complexifier inutilement les templates HTML en permettant de retirer toute expression logique de ceux-ci. </p>
 
-<p>Par exemple, la donnée suivante 👇 exprime clairement que l'information affichée correspond à un montant convertit en dollars américains 🇺🇸. Aucune expression mathématique ne vient polluer le template:</p>
+<p>Par exemple, la donnée suivante 👇 exprime clairement que l'information affichée correspond à un montant converti en dollars américains 🇺🇸. Aucune expression mathématique ne vient polluer le template:</p>
 
 <highlight lang='html'>{ { amountToUSD } }</highlight>
 <small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
@@ -76,6 +76,7 @@
 
 
 <p><br>Pour obtenir une donnée propre comme celle-ci, sans expression, il faut ajouter un objet intitulé <code>computed</code> à l'app Vue. Cet objet contient à son tour différentes propriétés. Chacune de ces propriétés se base sur une ou plusieurs données se trouvant dans <code>data</code> et leur appliquent un traitement quelconque. </p>
+
 <p>Par exemple, multiplier une donnée par 0.8. </p>
 
 <highlight lang='javascript'>computed: {
