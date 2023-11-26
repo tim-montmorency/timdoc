@@ -12,9 +12,7 @@
 <clipasset src='images/vue-sushis-resultat.mp4'></clipasset>
 <dots></dots>
 <grostitre>Matériel</grostitre>
-<a href="images/prenom-nom.zip" target="_blank" rel="noopener noreferrer" download="" class="starting-files">
-            Dossier de départ 📁
-</a>
+<a href="images/prenom-nom.zip" target="_blank" rel="noopener noreferrer" download="" class="starting-files">Dossier de départ 📁</a>
 
 <h3 class="heading heading--h3" id="Couleurs 🎨">Couleurs 🎨</h3>
 <table class="table-couleurs">
