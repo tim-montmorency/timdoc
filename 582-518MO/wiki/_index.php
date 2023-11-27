@@ -965,6 +965,9 @@
 
     <dots></dots>
     <h2>VUE.JS</h2>
+    <p><a href="https://vuejsexamples.com/" target="_blank" rel="noopener noreferrer">Démos sur vuejsexamples.com</a>  <br>
+    <a href="https://codepen.io/collection/kNQdop" target="_blank" rel="noopener noreferrer">Collections de CodePens utilisant VUE</a></p>
+ 
     <?php intlink("../javascript/vue-js/elements-de-formulaire"); ?>
     <?php intlink("../javascript/vue-js/proprietes-calculees"); ?>
     <?php intlink("../javascript/vue-js/composantes"); ?>
