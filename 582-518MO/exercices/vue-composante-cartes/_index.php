@@ -18,6 +18,9 @@
 <grostitre>Requis</grostitre>
 <checklist>Créez une app Vue.
 Faites en sorte que chacune des 3 cartes est une réutilisation d'une composante <em>card</em> que vous allez créer.
+Donc créez une composante <em>card</em>
+Ensuite ajoutez un tableau <em>cardsArr</em> dans vos app
+Dans la view (HTML) sur votre composante <em>&lt;card&gt;</em> créez un boucle sur <em>cardsArr</em> pour générer les 3 cartes
 Utilisez les props pour personnaliser le contenu de chaque carte.
 </checklist>         
 
