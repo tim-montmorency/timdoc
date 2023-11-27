@@ -53,3 +53,13 @@ La bulle de total doit avoir une dimension de 150x150px, être bleu poudre et le
 Créez une composante intitulée <em>"sushi"</em>. Cette composante devra être utilisée pour générer l'aperçu de chaque item sur le menu via une boucle Vue.
 Les boutons ➖ et ➕ doivent permettre de diminuer/augmenter le nombre de sushis de chaque sorte respective. Attention, un nombre de sushis ne peut jamais être négatif.
 Utilisez des propriétés calculées afin d'afficher en temps réel le nombre de morceaux ainsi que le prix total lorsque des sushis sont ajoutés/retirés. </checklist>         
+
+
+<dots></dots>
+<grostitre>Notes de cours 📚</grostitre>
+<?php intlink("../../javascript/vue-js/introduction") ?>
+<?php intlink("../../javascript/vue-js/creation-app-bases") ?>
+<?php intlink("../../javascript/vue-js/elements-de-formulaire") ?>
+<?php intlink("../../javascript/vue-js/proprietes-calculees") ?>
+<?php intlink("../../javascript/vue-js/composantes") ?>
+

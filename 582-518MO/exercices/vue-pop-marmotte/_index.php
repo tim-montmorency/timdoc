@@ -16,4 +16,4 @@
 
 <dots></dots>
 <grostitre>Requis</grostitre>
-<checklist>xml_error_string </checklist>         
+<checklist>x</checklist>         

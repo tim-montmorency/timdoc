@@ -970,6 +970,12 @@
     <?php intlink("../javascript/vue-js/composantes"); ?>
     <p>Exercice partagé en classe (sushis mais)</p>
 
+
+
+<h2>DEVOIRS</h2>
+<p>- Terminez les exercices vue.js commencés en classe.</p>
+<p>- Terminez d'intégrer votre site du projet de session à Wordpress avec les techniques vues en classe. Remise et présentation dans 2 semaines. Pensez à faire votre QA au fur et à mesure.</p>
+
  </wiki-page>
 
 
