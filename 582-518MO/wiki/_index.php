@@ -953,7 +953,7 @@
  <h2>Quiz</h2>
     Lundi - <a href="https://app.wooclap.com/QGRZDE" target="_blank" rel="noopener noreferrer">Code Wooclap : QGRZDE</a>
     <br>
-    Vendredi - <a href="#" target="_blank" rel="noopener noreferrer">Code Wooclap : 
+    Vendredi - <a href="https://app.wooclap.com/ZDTZQU" target="_blank" rel="noopener noreferrer">Code Wooclap : ZDTZQU
     </a>
 
     <dots></dots>
