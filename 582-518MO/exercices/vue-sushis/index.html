@@ -27,7 +27,7 @@
         <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
         <script src="../../../shared/jscripts/vue.global.prod.js"></script>
         <script>const shared = '../../../shared/';</script>
-        <title>Vue - Sushis</title>
+        <title>Vue - Menu de sushis</title>
     </head>
     <body>
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
@@ -43,7 +43,7 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <h1 id="title">Vue - Sushis</h1>
+                <h1 id="title">Vue - Menu de sushis</h1>
             </div>
             <article>
                 <div id="contents">
@@ -90,10 +90,8 @@ La bulle de total doit avoir une dimension de 150x150px, être bleu poudre et le
 
 <dots></dots>
 <grostitre>Requis Vue</grostitre>
-<warning>Je n'ai pas listé ici TOUS les détails de ce que vous avez à faire pour faire fonctionner votre app Vue. Vous devez réfléchir un peu par vous même s'il manque des étapes dans la liste. Le but n'est pas de vous piéger mais de vous faire réfléchir afin de développer votre débrouilllardise. Rien ici n'est ajouté en plus de ce que vous avez vu en classe donc vous pouvez vous fier aux exemples et aux notes présentées en classe et aux exercices que vous avez faits précédenmments.</warning>
 <checklist>Importez le cadriciel Vue via CDN. 
 Créez une app Vue.
-Connectez votre app Vue au HTML.
 Dans votre app, la fonction <em>data()</em> retournera une propriété <em>sushisArr</em> qui contiendra un tableau (array) listant différents objets&nbsp;: un pour chaque sushi.
 Analysez la démo ci-haut. Quelles informations uniques à chaque sushi devraient être transformées en propriétés contenues dans les objets listés dans <em>sushisArr</em>? Créez-les et populez-les avec les données de l'exemple ci-haut.
 Dans le <em>template</em> index.html, créez une boucle sur chacun des sushis listés dans <em>sushisArr</em>.
@@ -104,12 +102,12 @@ Utilisez des propriétés calculées afin d'afficher en temps réel le nombre de
 
 <dots></dots>
 <grostitre>Requis Vue  - Composante</grostitre>
+<p>Maintenant, essayons de faire la même chose que l'étape précédente mais en transformant un sushi du menu en une composante réutilisable pour générer tous les autres.</p>
 <checklist>
   Copiez votre fichier complété de l'étape précédente index.html et nommez le index-composante.html
   Copiez votre fichier complété de l'étape précédente main.js et nommez le main-composante.js
   Dans index-composante.html, changez le lien de main.js pour main-composante.js
-  Dans ces 2 nouveaux fichiers, modifiez l'app Vue que vous avez précédemment créé.
-  Créez une composante intitulée <em>"sushi"</em>. Cette composante devra être utilisée pour générer l'aperçu de chaque item sur le menu via une boucle Vue.</checklist>
+  Dans ces 2 nouveaux fichiers, modifiez l'app Vue que vous avez précédemment créé. Créez une composante intitulée <em>"sushi"</em>. Cette composante devra être utilisée pour générer l'aperçu de chaque item sur le menu via une boucle Vue.</checklist>
 
 
 

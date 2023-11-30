@@ -1,7 +1,7 @@
 <?php
 /**
  * @type     exercice
- * @title    Vue - Sushis
+ * @title    Vue - Menu de sushis
  * @icon     images/pink-palette-resultat.png
  * @abstract 
  */
@@ -50,10 +50,9 @@ La bulle de total doit avoir une dimension de 150x150px, être bleu poudre et le
 <grostitre>Requis Vue</grostitre>
 <checklist>Importez le cadriciel Vue via CDN. 
 Créez une app Vue.
-Connectez votre app Vue au HTML.
 Dans votre app, la fonction <em>data()</em> retournera une propriété <em>sushisArr</em> qui contiendra un tableau (array) listant différents objets&nbsp;: un pour chaque sushi.
-Analysez la démo ci-haut. Quelles informations uniques à chaque sushi devraient être transformées en propriétés contenues dans les objets listés dans <em>sushisArr</em>? Créez-les et populez les avec les données de l'exemple ci-haut.
-Dans le <em>template</em> dans index.html, créez un bouble sur chacun des sushis listés dans <em>sushisArr</em>.
+Analysez la démo ci-haut. Quelles informations uniques à chaque sushi devraient être transformées en propriétés contenues dans les objets listés dans <em>sushisArr</em>? Créez-les et populez-les avec les données de l'exemple ci-haut.
+Dans le <em>template</em> index.html, créez une boucle sur chacun des sushis listés dans <em>sushisArr</em>.
 Construisez ainsi le contenu HTML de chaque sushi en récupérant la valeur des propriétés des objets que vous avez créés à l'étape 4.
 Les boutons ➖ et ➕ doivent permettre de diminuer/augmenter le nombre de sushis de chaque sorte respective. Attention, un nombre de sushis ne peut jamais être négatif.
 Utilisez des propriétés calculées afin d'afficher en temps réel le nombre de morceaux ainsi que le prix total lorsque des sushis sont ajoutés/retirés. </checklist>
@@ -61,12 +60,12 @@ Utilisez des propriétés calculées afin d'afficher en temps réel le nombre de
 
 <dots></dots>
 <grostitre>Requis Vue  - Composante</grostitre>
+<p>Maintenant, essayons de faire la même chose que l'étape précédente mais en transformant un sushi du menu en une composante réutilisable pour générer tous les autres.</p>
 <checklist>
   Copiez votre fichier complété de l'étape précédente index.html et nommez le index-composante.html
   Copiez votre fichier complété de l'étape précédente main.js et nommez le main-composante.js
   Dans index-composante.html, changez le lien de main.js pour main-composante.js
-  Dans ces 2 nouveaux fichiers, modifiez l'app Vue que vous avez précédemment créé.
-  Créez une composante intitulée <em>"sushi"</em>. Cette composante devra être utilisée pour générer l'aperçu de chaque item sur le menu via une boucle Vue.</checklist>
+  Dans ces 2 nouveaux fichiers, modifiez l'app Vue que vous avez précédemment créé. Créez une composante intitulée <em>"sushi"</em>. Cette composante devra être utilisée pour générer l'aperçu de chaque item sur le menu via une boucle Vue.</checklist>
 
 
 
