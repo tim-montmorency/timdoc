@@ -140,7 +140,7 @@ app.component('counter', {
        
 
 
-
+<!--
 <aside class="exercice-card">
     <div class="exercice-card__content">
       <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
@@ -153,5 +153,18 @@ app.component('counter', {
 
      
 </aside>
-<br>
+-->
+
+<aside class="exercice-card">
+    <div class="exercice-card__content">
+      <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
+      <a href="../../../exercices/vue-composante-cartes/ " target="_blank" class="exercice-card__title">
+        Vue&nbsp;Cartes de produits
+      </a>
+      <p class="exercice-card__description">Pour cet exercice, vous allez générer 3 cartes produits à l'aide de composantes Vue.</p>
+     </div>
+
+     
+</aside>
+
 

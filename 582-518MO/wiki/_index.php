@@ -1000,6 +1000,29 @@
 
 
  <wiki-page name="Cours 14" date="2023-11-29">
+ <h2>Annonce</h2>
+ <p>Prochain cours: présentations AM. <br>  Prochain cours: pratique examen PM. <br>
+Examen 18 déc à 11h00 pour tout le monde. Pour ceux qui sont concernés, faites vos demandes d'extension de temps au SAA maintenant!</p>
+
+ <h2>Quiz</h2>
+    Lundi - <a href="https://app.wooclap.com/FDIZOX" target="_blank" rel="noopener noreferrer">Code Wooclap : FDIZOX</a>
+    <br>
+    Vendredi - <a href="#" target="_blank" rel="noopener noreferrer">Code Wooclap : 
+    </a>
+
+    <dots></dots>
+    <h2>Révision exercices</h2>
+    <?php intlink("../exercices/vue-composante-cartes/"); ?>
+
+
+    <dots></dots>
+    <h2>VUE.JS</h2>
+
+    <dots></dots>
+    <p>Aide en classe pour terminer le projet</p>
+
+
+
  </wiki-page>
 
 
@@ -1017,4 +1040,11 @@
  ----------------------------------->  
 
  <wiki-page name="Cours 15" date="2023-12-06">
+
+    <h2>AM Présentations du projet de session</h2>
+
+    <dots></dots>
+    <h2>PM Pratique d'examen</h2>
+
+
  </wiki-page>

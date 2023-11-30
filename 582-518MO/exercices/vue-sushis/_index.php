@@ -48,9 +48,13 @@ La bulle de total doit avoir une dimension de 150x150px, être bleu poudre et le
 
 <dots></dots>
 <grostitre>Requis Vue</grostitre>
-<checklist>Importez le cadriciel Vue via CDN dans le projet et connectez votre app Vue au HTML.
-Créez un app Vue.
-Génerez le HTML et son contenu à l'aide de votre app qui devra contenir une propriété de type tableau <em>sushisArr</em> qui contient des objects, un pour chaque sushi.
+<checklist>Importez le cadriciel Vue via CDN. 
+Créez une app Vue.
+Connectez votre app Vue au HTML.
+Dans votre app, la fonction <em>data()</em> retournera une propriété <em>sushisArr</em> qui contiendra un tableau (array) listant différents objets&nbsp;: un pour chaque sushi.
+Analysez la démo ci-haut. Quelles informations uniques à chaque sushi devraient être transformées en propriétés contenues dans les objets listés dans <em>sushisArr</em>? Créez-les et populez les avec les données de l'exemple ci-haut.
+Dans le <em>template</em> dans index.html, créez un bouble sur chacun des sushis listés dans <em>sushisArr</em>.
+Construisez ainsi le contenu HTML de chaque sushi en récupérant la valeur des propriétés des objets que vous avez créés à l'étape 4.
 Les boutons ➖ et ➕ doivent permettre de diminuer/augmenter le nombre de sushis de chaque sorte respective. Attention, un nombre de sushis ne peut jamais être négatif.
 Utilisez des propriétés calculées afin d'afficher en temps réel le nombre de morceaux ainsi que le prix total lorsque des sushis sont ajoutés/retirés. </checklist>
 

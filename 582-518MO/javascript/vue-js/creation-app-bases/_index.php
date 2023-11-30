@@ -51,7 +51,7 @@ Par exemple:
 <dots>Données</dots>
 
 
-<p>Afin de définir le comportement de l'app, un objet contenant diverses propriétés doit lui être passé en paramètre. Parmi ces propriétés se trouve <code>data</code> contenant les données susceptibles de changer dans l'application.</p>
+<p>Afin de définir le comportement de l'app, un objet contenant diverses propriétés doit lui être passé en paramètre. Parmi ces propriétés se trouve <code>data</code>: une fonction retournant les données susceptibles de changer dans l'application.</p>
 
 Par exemple, pour définir une valeur de nom, il est possible d'écrire:
 
@@ -88,7 +88,7 @@ Par exemple, pour définir une valeur de nom, il est possible d'écrire:
 <br>
 <br>
 
-<h3 class="heading heading--h3" id="Interpolations">Interpolations</h3>
+<h3 class="heading heading--h3" id="Interpolations">Interpolation des données {{ }}</h3>
 
 <p>Une fois, les données définies, il est possible d'y faire référence à l'aide de moustaches {<code>{ ... }</code>} <em>(doubles accolades)</em>. Leurs contenus, incluant les moustaches elles-mêmes, seront remplacés par la donnée qui lui est associée. Qui plus est, si la valeur de cette donnée vient à changer, celle-ci se mettra automatiquement à jour dans le HTML.</p>
 

@@ -7,7 +7,7 @@
  */
 ?>
 
-<p>Pour cet exercice, vous aller générer 3 cartes produits à l'aide de composantes Vue.</p>
+<p>Pour cet exercice, vous allez générer 3 cartes produits à l'aide de composantes Vue.</p>
 <p>Aperçu du résultat 👇</p>
 <img src="images/result.jpg" alt="">
 <dots></dots>
