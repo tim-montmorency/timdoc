@@ -17,7 +17,7 @@
 
 
 
-<mediafile src="medias/bg.jpg"> Arrière-plan</mediafile>
+<mediafile src="medias/bg.jpg">Arrière-plan</mediafile>
 <mediafile src="https://t.smnarnold.com/animal-crossing/_helpers.scss">_helpers.scss</mediafile>
 
 <grostitre>Configurations</grostitre>

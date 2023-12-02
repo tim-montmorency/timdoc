@@ -60,6 +60,21 @@ Affichez les textes <em>"Defense"</em>, <em>"Poids"</em> et <em>"Chevalier"</em>
 Ajoutez l'image 0 du personnage et faites en sorte que celle-ci soit centrée et prenne 3 colonnes de large.
 À l'intérieur des 3 dernières cellules, affichez les images du casque, du plastron et du cuissard. Lorsque ces images reçoivent la classe <em>"is-active"</em>, leur opacité doit diminuer de moitié et leur taille doit réduire à un équivalent de 80%.</checklist>
 
+<dots></dots>
+<grostitre>Requis JavaScript général</grostitre>
+<checklist>Fetch API</checklist>
+<!-- https://medium.com/codex/15-fun-and-interesting-apis-to-use-for-your-next-coding-project-in-2022-86a4ff3a2742 
+https://www.twilio.com/blog/cool-apis
+
+-->
+
+<dots></dots>
+<grostitre>Requis Wordpress</grostitre>
+<checklist>REST API</checklist>
+<!-- 
+Plusieurs pendant la session se sont basé sur le travail de leur coéquipiers, maintenant c'est leur tour de montrer qu'ils sont capables
+-->
+
        
 <dots></dots>
 <grostitre>Requis Vue</grostitre>
