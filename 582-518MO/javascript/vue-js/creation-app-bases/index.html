@@ -382,13 +382,13 @@ Salut { { firstName } }
 
 <h3>Autre condition</h3>
 
-<p>Outre le fait de vérifier si une donnée est vide ou non, il est aussi possible d'ajouter une condition de comparaison à l'intérieur dans <em>v-if</em>.</p>
+<p>Outre le fait de vérifier si une donnée est vide ou non, il est aussi possible d'ajouter une condition de comparaison directement dans <em>v-if</em>.</p>
 <p>Par exemple:</p>
 
 <highlight lang='html'>&lt;div class=&quot;bubble&quot; v-if=&quot;birth>=2000&quot;&gt;{ { birth } }&lt;/div&gt;</highlight>
 <small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
 
-<p>Ou encore comparer deux données:</p>
+<p>Ou encore comparer la valeur de deux paramètres:</p>
 
 <highlight lang='html'>&lt;div class=&quot;bubble&quot; v-if=&quot;firstName==lastName&quot;&gt;{ { firstName } }&lt;/div&gt;</highlight>
 <small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
