@@ -108,7 +108,7 @@ app.component('counter', {
 
 
 
-<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="RwvJLOJ" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="html,result" data-slug-hash="RwvJLOJ" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/RwvJLOJ">
   Vue.js Composante - réutilisation</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -131,9 +131,17 @@ app.component('counter', {
 <highlight lang='html'>&lt;counter v-for=&quot;btn in btnsArr&quot; :msg=&quot;btn.msg&quot;&gt;&lt;/counter&gt;</highlight>
 
 
-<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="OJdExYr" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="html,result" data-slug-hash="OJdExYr" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJdExYr">
   Vue.js Composante - props</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
+<p>Voici un autre exemple avec une composante de 2 props: <em>pletter</em> et <em>pcolor</em>.</p>
+
+<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="html,result" data-slug-hash="JjxwowM" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/JjxwowM">
+  Vue.js Composante avec 2 props - boucle</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
