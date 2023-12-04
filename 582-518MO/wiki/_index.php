@@ -1003,9 +1003,9 @@
 
 
  <wiki-page name="Cours 14" date="2023-12-02">
- <h2>Annonce</h2>
- <p>Prochain cours: présentations AM. <br>  Prochain cours: pratique examen PM. <br>
-Examen 18 déc à 11h00 pour tout le monde. Pour ceux qui sont concernés, faites vos demandes d'extension de temps au SAA maintenant!</p>
+ <h2>Annonces</h2>
+ <p><s>Prochain cours: présentations AM.</s> <br><s>Prochain cours: PM</s> Pratique examen : Sera envoyé sur Teams (aujourd'hui ou demain) et je vous fournirai aussi le corrigé quelques jours plus tard.<br>
+Examen 18 déc à 11h00 pour tout le monde. Pour ceux qui sont concernés, faites vos demandes d'extension de temps au SAA maintenant! UPDATE GRÈVES: Je ne sais plus quand sera l'examen.</p>
 
  <h2>Quiz</h2>
     Lundi - <a href="https://app.wooclap.com/FDIZOX" target="_blank" rel="noopener noreferrer">Code Wooclap : FDIZOX</a>
@@ -1019,9 +1019,12 @@ Examen 18 déc à 11h00 pour tout le monde. Pour ceux qui sont concernés, faite
 
 
     <dots></dots>
-    <h2>VUE.JS</h2>
+    <h2>Pratique pour l'examen (du moins, couvrant la notion de vue.js) </h2>
+    <p>Prendre en note que les notions de fetch api et un peu wordpress seront inclus dans l'examen mais il portera quand même principalement sur vus.js.</p>
+    <?php intlink("../exercices/vue-sushis/"); ?>
 
     <dots></dots>
+    <h2>Reste du cours</h2>
     <p>Aide en classe pour terminer le projet</p>
 
 

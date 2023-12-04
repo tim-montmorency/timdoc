@@ -37,7 +37,7 @@
 
 <dots></dots>
 <grostitre>Importation</grostitre>
-<p>Les composantes SFC peuvent être importées dans un projet comme tout module JavaScript importé via <a target="_blank" rel="noopener noreferrer" href="/cours/javascript/npm">NPM</a>.</p>
+<p>Les composantes SFC peuvent être importées dans un projet comme tout module JavaScript importé via <a target="_blank" rel="noopener noreferrer" href="../../npm/">NPM</a>.</p>
 
 
 
@@ -64,7 +64,11 @@
 <span class="hljs-selector-class">.menu</span> {
   <span class="hljs-attribute">background</span>: blue;
 }
-</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span></code></pre><p>Sera converti en:</p><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span></code></pre>
+
+<br>
+
+<p>Sera converti en:</p><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"menu"</span> <span class="hljs-attr">data-v-f3f3eg9</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
 
@@ -72,7 +76,12 @@
 <span class="hljs-selector-class">.menu</span><span class="hljs-selector-attr">[data-v-f3f3eg9]</span> {
   <span class="hljs-attribute">background</span>: blue;
 }
-</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span></code></pre><p>Une composante SFC peut aussi avoir plus d'une balise <code>&lt;style&gt;</code>. Notamment lorsque des styles devraient être globaux et que d'autres devraient être limités à la composante uniquement.</p><p>Par exemple:</p><pre><code class="hljs xml">/* Styles appliqués à tout le site */
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span></code></pre>
+
+
+<br>
+
+<p>Une composante SFC peut aussi avoir plus d'une balise <code>&lt;style&gt;</code>. Notamment lorsque des styles devraient être globaux et que d'autres devraient être limités à la composante uniquement.</p><p>Par exemple:</p><pre><code class="hljs xml">/* Styles appliqués à tout le site */
 <span class="hljs-tag">&lt;<span class="hljs-name">style</span> <span class="hljs-attr">scoped</span>&gt;</span><span class="css">
 * {
   <span class="hljs-attribute">box-sizing</span>: border-box;
@@ -85,22 +94,18 @@
   <span class="hljs-attribute">background</span>: blue;
 }
 </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span> </code></pre>
-          <div class="tags-list">
-  <div class="tags-list__wrapper">
-    <ul class="tags-list__list">
-                  <li class="tags-list__item">
-                    <a href="https://v3.vuejs.org/api/sfc-style.html" target="_blank" rel="noopener noreferrer" class="tags-list__link tags-list__link--auto">style scoped</a>
-                  </li>
-          
-    </ul>
-  </div>
-</div>
+
+<br><br>
+<doclink href='https://vuejs.org/api/sfc-css-features.html'>Styles css scope</doclink>
+        
 
 
 <dots></dots>
 <grostitre>Compilateurs SFC</grostitre>
 <ul>
-    <li><p><a target="_blank" rel="noopener noreferrer" href="/cours/autres/vite">Vite</a></p></li><li><p><a target="_blank" rel="noopener noreferrer" href="https://cli.vuejs.org/">Vue CLI</a></p></li><li><p><a target="_blank" rel="noopener noreferrer" href="https://webpack.js.org/">Webpack</a></p></li>
+    <li><a target="_blank" rel="noopener noreferrer" href="/cours/autres/vite">Vite</a></li>
+    <li><a target="_blank" rel="noopener noreferrer" href="https://cli.vuejs.org/">Vue CLI</a></li>
+    <li><a target="_blank" rel="noopener noreferrer" href="https://webpack.js.org/">Webpack</a></li>
 </ul>
 
 
