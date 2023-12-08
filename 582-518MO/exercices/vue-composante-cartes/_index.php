@@ -17,10 +17,10 @@
 <dots></dots>
 <grostitre>Requis</grostitre>
 <checklist>Créez une app Vue.
-Vous allez devoir remplacer le HTML des 3 cartes par une composante <em>card</em> réurtilisée 3 fois.
-Donc créez une composante <em>card</em>
-Ensuite ajoutez un tableau <em>cardsArr</em> dans vos app. Ce tableau contiendra 3 objets qui contiendront les 4 données nécessaires pour générer chaque carte.
-Dans la view (HTML) sur votre composante <em>&lt;card&gt;</em> créez un boucle sur <em>cardsArr</em> pour générer les 3 cartes
+Vous allez devoir remplacer le HTML des 3 cartes par une composante <em>card</em> réutilisée 3 fois.
+Donc, créez une composante <em>card</em>
+Ensuite, ajoutez un tableau <em>cardsArr</em> dans vos app. Ce tableau contiendra 3 objets qui, chacun, contiendront les 4 données uniques à chaque carte.
+Dans la view (le HTML), ajouter votre composante <em>&lt;card&gt;</em> une fois. Sur celle-ci, créez une boucle sur <em>cardsArr</em> pour générer les 3 cartes.
 Utilisez les props pour personnaliser le contenu de chaque carte.
 </checklist>         
 

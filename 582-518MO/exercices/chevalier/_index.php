@@ -7,10 +7,7 @@
  */
 ?>
 
-
 <p>Pour cet exercice, vous devez recréer une interface permettant de configurer l’armure d’un chevalier&nbsp;⚔️.</p>
-
-
 
 <p>Aperçu du résultat 👇</p>
 <clipasset src='images/chevalier-resultat.mp4'></clipasset>
@@ -49,10 +46,19 @@
 <dots></dots>
 <grostitre>Requis CSS</grostitre>
 
-
+<alert>Dans votre code, vous devez obligatoirement ajouter une ligne de commentaire de début et de fin pour définir à quelle étape des requis le bloc de code correspond. Voici un exemple:</alert>
+<highlight lang='css'>/*** DÉBUT requis CSS #1 ***/ 
+.timeline{
+    color: purple;
+    border: 1px solid blue;
+}
+.year{
+    font-size: 40px;
+    font-weight: 900;
+}
+/**** FIN requis CSS #1 ****/</highlight>
 <checklist>Faites en sorte que l'image de brique se répète en arrière-plan de votre page 🧱.
-Ajoutez la police <a target="_blank" rel="noopener noreferrer" href="https://fonts.google.com/specimen/Press+Start+2P">Press Start 2P</a> à votre page. Utilisez là
-comme police par défaut pour tous vos textes. Au passage faites en sorte qu'ils soient tous centrés, aille une taille de 10px et qu'ils soient blanc par défaut.
+Ajoutez la police <a target="_blank" rel="noopener noreferrer" href="https://fonts.google.com/specimen/Press+Start+2P">Press Start 2P</a>, seulement de graisse "régulière", à votre page. Utilisez la comme police par défaut pour tous vos textes. Au passage faites en sorte qu'ils soient tous centrés, aille une taille de 10px et qu'ils soient blanc par défaut.
 Créez la zone principale de votre interface. Celle-ci devra être centrée horizontalement ↔️ et verticalement ↕️, avoir un fond noir, une marge intérieure de 25px, une bordure de 15px brune et une largeur de 450px <em>(incluant la marge intérieure et la bordure)</em>.
 La zone principale de votre interface doit être une grille CSS de 3 colonnes de large par 4 rangées de haut, ayant un espace vide de 20px verticalement ↕️ entre chaque rangée.
 Ajoutez un champ texte. Celui-ci devra prendre une largeur équivalente à 3 colonnes.
@@ -62,6 +68,13 @@ Ajoutez l'image 0 du personnage et faites en sorte que celle-ci soit centrée et
 
 <dots></dots>
 <grostitre>Requis JavaScript général</grostitre>
+
+<alert>Dans votre code, vous devez obligatoirement ajouter une ligne de commentaire de début et de fin pour définir à quelle étape des requis le bloc de code correspond. Voici un exemple:</alert>
+
+<highlight lang='javascript'>/*** DÉBUT requis JAVASCRIPT GÉNÉRAL #1 ***/ 
+console.log('Bienvenue JavaScript');
+/**** FIN requis JAVASCRIPT GÉNÉRAL #1 ****/</highlight>
+
 <checklist>Fetch API</checklist>
 <!-- https://medium.com/codex/15-fun-and-interesting-apis-to-use-for-your-next-coding-project-in-2022-86a4ff3a2742 
 https://www.twilio.com/blog/cool-apis
@@ -70,10 +83,21 @@ https://www.twilio.com/blog/cool-apis
 
 <dots></dots>
 <grostitre>Requis Wordpress</grostitre>
+<alert>Dans votre code, vous devez obligatoirement ajouter une ligne de commentaire de début et de fin pour définir à quelle étape des requis le bloc de code correspond. Voici un exemple:</alert>
+
+<highlight lang='javascript'>/*** DÉBUT requis WORDPRESS #1 ***/ 
+console.log('Bienvenue WordPress');
+/**** FIN requis WORDPRESS #1 ****/</highlight>
+
 <checklist>REST API</checklist>
 <!-- 
 Plusieurs pendant la session se sont basé sur le travail de leur coéquipiers, maintenant c'est leur tour de montrer qu'ils sont capables
 -->
+<alert>Dans votre code, vous devez obligatoirement ajouter une ligne de commentaire de début et de fin pour définir à quelle étape des requis le bloc de code correspond. Voici un exemple:</alert>
+
+<highlight lang='javascript'>/*** DÉBUT requis VUE.JS #1 ***/ 
+console.log('Bienvenue VUE.js');
+/**** FIN requis VUE.JS #1 ****/</highlight>
 
        
 <dots></dots>
