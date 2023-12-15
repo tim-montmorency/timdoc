@@ -76,6 +76,8 @@ console.log('Bienvenue JavaScript');
 /**** FIN requis JAVASCRIPT GÉNÉRAL #1 ****/</highlight>
 
 <checklist>Fetch API</checklist>
+<!-- ATTENTION, S'IL FONT FETCH API JE DOIS ENVOYER LE URL DU FETCH AU SAA POUR LES ÉTUDIANTS -->
+
 <!-- https://medium.com/codex/15-fun-and-interesting-apis-to-use-for-your-next-coding-project-in-2022-86a4ff3a2742 
 https://www.twilio.com/blog/cool-apis
 
