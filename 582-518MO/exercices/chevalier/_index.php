@@ -79,8 +79,6 @@ Finalement, la dernière rangée contiendra un div avec la classe .fox. Ce div d
 console.log('Bienvenue JavaScript');
 /**** FIN requis JAVASCRIPT GÉNÉRAL #1 ****/</highlight>
 
-<checklist>Fetch API</checklist>
-
 <checklist>Au chargement de la page, faites un fetch sur l'API <em>RandomFox</em> au url suivant: <em>https://randomfox.ca/floof/</em>.
 Lorsque vous recevez une réponse, analysez l'objet et affchez l'image reçu dans le <em>div.fox</em>.
 </checklist>
