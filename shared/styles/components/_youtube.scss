@@ -1,7 +1,16 @@
 .youtube-wrapper {
     position: relative;
-    width: 100%;
+    // width: 100%;
     max-width: 770px;
+
+    margin-left: -25px;
+    margin-right: -25px;
+
+    // text-align: center;
+    @media (min-width: 770px)  {
+        max-width: 770px;
+    }
+
     background-size: cover;
     background-position: center center;
 

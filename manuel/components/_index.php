@@ -34,8 +34,8 @@
 <dots></dots>
 
 <grostitre>codepen</grostitre>
-<highlight lang="html">&lt;codepen id="WNyYBpN"&gt;Voici une remarque pertinente.&lt;/codepen&gt;</highlight>
-<codepen id="WNyYBpN">Voici une remarque pertinente.</codepen>
+<highlight lang="html">&lt;codepen id="gOEwrvG" tab="results"&gt;Voici une remarque pertinente.&lt;/codepen&gt;</highlight>
+<codepen id="gOEwrvG" tab="results">Voici une remarque pertinente.</codepen>
 <dots></dots>
 
 <grostitre>exercice</grostitre>
@@ -82,6 +82,12 @@
 <highlight lang="html">&lt;clip src="videos/le-boson-de-higgs.mp4"&gt;&lt;/clip&gt;</highlight>
 <clip src="videos/le-boson-de-higgs.mp4"></clip>
 <doclink href="../videos">Manuel / Vidéos</doclink>
+<dots></dots>
+
+<grostitre>Youtube</grostitre>
+<p>Afin d'accélérer le chargement des pages contenant des vidéos, il est fortement conseillé d'utiliser la composante <incode>&lt;youtube src="id"&gt;&lt;/youtube&gt;</incode>.</p>
+<highlight lang="html">&lt;youtube src="KVJBHSOx9jI"&gt;&lt;/youtube&gt;</highlight>
+<youtube src="KVJBHSOx9jI"></youtube>
 <dots></dots>
 
 <grostitre>audioplayer</grostitre>

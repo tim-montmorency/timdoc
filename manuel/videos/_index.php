@@ -12,6 +12,16 @@
 
 <dots></dots>
 
+<grostitre>Youtube</grostitre>
+
+<p>Afin d'accélérer le chargement des pages contenant des vidéos, il est fortement conseillé d'utiliser la composante <incode>&lt;youtube src="id"&gt;&lt;/youtube&gt;</incode>.</p>
+
+<highlight lang="html">&lt;youtube src="KVJBHSOx9jI"&gt;&lt;/youtube&gt;</highlight>
+
+<youtube src="KVJBHSOx9jI"></youtube>
+
+
+<dots></dots>
 
 <grostitre>Clipinfo</grostitre>
 
@@ -34,8 +44,8 @@
 
 <grostitre>Outils</grostitre>
 
-<tool href="tools/youtube-dl"></tool>
-<tool href="tools/jdownloader2"></tool>
+<!-- <tool href="tools/youtube-dl"></tool>
+<tool href="tools/jdownloader2"></tool> -->
 <tool href="tools/losslesscut"></tool>
 
 <dots></dots>

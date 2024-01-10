@@ -534,8 +534,14 @@ app.component('clip', {
  app.component('youtube', {
     props: ['src'],
     data() {
-        let details = syncjson(this.src);
-        let id = /\/embed\/([^\/]+)\?/g.exec(details.html)[1];
+        let details = null;
+        let id = null        
+        if(/^[\w\-_]{10,12}$/.test(this.src)) {
+            details = syncjson('https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=' + this.src + '&format=json');
+        } else {
+            details = syncjson(this.src);
+        }
+        id = /\/embed\/([^\/]+)\?/g.exec(details.html)[1];
         return {
             id: id,
             width: details.width,
