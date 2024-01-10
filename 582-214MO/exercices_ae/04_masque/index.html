@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/commons.js"></script>
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Exercice 04_masque</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"></div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Exercice 04_masque</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+
+
+<p class="spacer"> Cet exercice comporte deux parties, le cinéma et la loupe. </p>
+<dots></dots>
+
+<grostitre>Le cinéma</grostitre>
+<grostitre>Document de départ</grostitre>
+
+<p>Importez les deux fichiers suivants dans un nouveau projet After Effects:</p>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWwrjjmGTgFCs8NwDakrf6IBEJRa9TMOFYK3X9zmXtR2ow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yaVRvO">Film babouins</doclink>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:i:/g/personal/lora_boisvert_cmontmorency_qc_ca/EbPyiIc8WRtBtIeYyXbZtAoB4s6q7NazyNLnHnQRBXUrZA?e=GBZZXJ">Salle de cinéma</doclink>
+
+<dots></dots>
+
+
+<grostitre>Étapes</grostitre>
+<p>Le but de l’exercice est de diffuser le film de babouins dans l’écran de cinéma.</p>
+<checklist>
+Ouvrez un nouveau projet After Effects. 
+Cliquez et glissez les fichiers salle-cinema.jpg et film-babouins.mp4 dans la fenêtre de projet dans after effects. C’est une autre manière d’importer des fichiers. 
+Cliquez et glissez le fichier salle-cinema.jpg de la fenêtre de projet vers la timeline. Ceci va automatiquement en créer une composition au format de l’image de base. 
+Cliquez et glissez le fichier film-babouins.mp4 de la fenêtre de projet vers la timeline. Changer l’ordre des calques dans la timeline pour vous assurer que le film est en dessous de l’image de cinéma. 
+Sélectionnez le calque du cinéma. Sélectionnez l’outil plume et redessiner une forme par-dessus l’écran de cinéma pour réaliser le masque. 
+Dans la timeline, sous propriété Masque, cocher Inversé pour inverser ce qui est dévoilé et masqué dans l’image de cinéma. 
+Repositionnez et réajustez l’échelle du film Babouins afin qu’il soit complètement visible dans l’écran de cinéma. 
+</checklist>
+
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+<p><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ea6JW0d8YY9KilVu0k9HFfABxpdubaBGTysBx4ArKzOEDA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=M2fPAs">Masque</a></p>
+<dots></dots>
+
+<grostitre>Loupe</grostitre>
+<grostitre>Document de départ</grostitre>
+<p>Utilisez la composition Homme et plantes importée à l'exercice 00_Importation.</p>
+<dots></dots>
+
+
+<grostitre>Étapes</grostitre>
+<p>Le but de l’exercice est de dévoiler des objets grâce au déplacement de la loupe.</p>
+<checklist>
+Créez une composition en important le fichier illustrator hommes et plantes. 
+Par-dessus, créer un calque solide de la couleur de votre choix. Mettre son opacité à 90%.  
+Dans les calques illustrator, aller chercher la loupe et la glisser par-dessus le calque solide. Ajuster l’échelle de la loupe à la taille désirée.  
+Glisser une nouvelle composition homme et plantes sous la loupe (Donc on a deux fois cette composition).  
+Sélectionner la composition homme et plante (celle juste sous la loupe), puis prendre l’outil ellipse, on dessine ensuite un masque. On fait un cercle dans le cercle de la loupe.  
+Ensuite, animer la position de la loupe pour qu’elle se déplace.  
+Aller dans le masque et animer le tracé du masque pour qu’il suive la loupe.  </checklist>
+
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+<p><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ea6JW0d8YY9KilVu0k9HFfABxpdubaBGTysBx4ArKzOEDA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=M2fPAs">Masque</a></p>
+<dots></dots>
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>
