@@ -537,13 +537,21 @@ app.component('clip', {
         let details = null;
         let id = null        
         if(/^[\w\-_]{10,12}$/.test(this.src)) {
-            details = syncjson('https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=' + this.src + '&format=json');
+            id = this.src;
+            if(!(details = localStorage.getItem('youtube_' + id))) {
+                details = syncjson('https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=' + this.src + '&format=json');
+                localStorage.setItem('youtube_' + id, JSON.stringify(details));
+            } else {
+                details = JSON.parse(details);
+            }
         } else {
             details = syncjson(this.src);
+            id = /\/embed\/([^\/]+)\?/g.exec(details.html)[1];
         }
-        id = /\/embed\/([^\/]+)\?/g.exec(details.html)[1];
+        
         return {
             id: id,
+            title: details.title,
             width: details.width,
             height: details.height,
             thumbnail_url: details.thumbnail_url,
@@ -559,6 +567,7 @@ app.component('clip', {
     },
     template: `
         <div class="youtube-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.width + '/' + this.height + ';'">
+            <div class="youtube-wrapper__title" :style="'display: ' + this.playbtn + ';'"><div>{{ title }}</div></div>
             <div class="youtube-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
             <div class="youtube-wrapper__player" v-html="player"></div>
         </div><br>`

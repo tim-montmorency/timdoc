@@ -14,6 +14,19 @@
     background-size: cover;
     background-position: center center;
 
+    &__title {
+        position: absolute;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.863), #00000000);
+        width: 100%;
+        height: 40px;
+        div {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
     &__play {
         width: 100px;
         height: 100px;
