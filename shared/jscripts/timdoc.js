@@ -1,7 +1,7 @@
 /******************************************************
  *                     Main App                       *
  ******************************************************/
-const app = Vue.createApp({
+ const app = Vue.createApp({
     data() {
         let darkmode = localStorage.getItem('darkmode') === 'true';
         return {
@@ -1022,6 +1022,8 @@ app.component('criteria', {
 /******************************************************
  *                     Mount App                      *
  ******************************************************/
-app.config.compilerOptions.whitespace = 'preserve';
-app.mount('body');
-hljs.highlightAll();
+function timdocMount() {
+    app.config.compilerOptions.whitespace = 'preserve';
+    app.mount('body');
+    hljs.highlightAll();
+}

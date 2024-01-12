@@ -26,6 +26,7 @@
         <script src="<?php echo $PAGE->shared; ?>jscripts/howler.min.js"></script>
         <script src="<?php echo $PAGE->shared; ?>jscripts/swiper-bundle.min.js"></script>
         <script src="<?php echo $PAGE->shared; ?>jscripts/vue.global.prod.js"></script>
+        <script src="<?php echo $PAGE->shared; ?>jscripts/timdoc.min.js"></script>
         <script>const shared = '<?php echo $PAGE->shared; ?>';</script>
         <title><?php echo strip_tags($PAGE->title); ?></title>
     </head>
