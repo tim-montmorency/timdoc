@@ -90,7 +90,8 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/eagles-of-death-metal-i-only-want-you.json"></youtube>
+<!-- <youtube src="./videos/eagles-of-death-metal-i-only-want-you.json"></youtube> -->
+<youtube src="BYQ4E0SwPP4"></youtube>
 
 <dots></dots>
 

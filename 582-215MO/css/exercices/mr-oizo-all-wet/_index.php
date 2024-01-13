@@ -77,7 +77,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/mr-oizo-all-wet.json"></youtube>
+<youtube src="QCqAYTMF61I"></youtube>
 
 <dots></dots>
 

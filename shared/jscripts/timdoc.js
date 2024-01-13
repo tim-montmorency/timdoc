@@ -643,26 +643,24 @@ app.component('clip', {
  app.component('youtube', {
     props: ['src'],
     data() {
+        let defaultId = 'o-YBDTqX_ZU';  
         let details = null;
-        let id = null        
+        let id = null      
         if(/^[\w\-_]{10,12}$/.test(this.src)) {
-            id = this.src;
-            if(!(details = localStorage.getItem('youtube_' + id))) {
+            if(!(details = localStorage.getItem('youtube_' + this.src))) {
                 if(!(details = syncjson('https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=' + this.src + '&format=json'))){
-                    details = syncjson('https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=o-YBDTqX_ZU&format=json')
+                    details = syncjson('https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=' + defaultId + '&format=json')
                 } else {
-                    localStorage.setItem('youtube_' + id, JSON.stringify(details));
+                    localStorage.setItem('youtube_' + this.src, JSON.stringify(details));
                 }
             } else {
                 details = JSON.parse(details);
             }
         } else {
             details = syncjson(this.src);
-            id = /\/embed\/([^\/]+)\?/g.exec(details.html)[1];
         }
-        
         return {
-            id: id,
+            id: /\/embed\/([^\/]+)\?/g.exec(details.html)[1],
             title: details.title,
             width: details.width,
             height: details.height,

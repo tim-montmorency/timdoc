@@ -86,7 +86,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/nine-inch-nails-wish.json"></youtube>
+<youtube src="dYNL1Mpi5Kg"></youtube>
 
 <dots></dots>
 

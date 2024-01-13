@@ -94,7 +94,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/robert-charlebois-fu-man-chuu.json"></youtube>
+<youtube src="8zX_ZjuVOkY"></youtube>
 
 <dots></dots>
 

@@ -85,7 +85,7 @@
 
 <!-- <clip src="./videos/alaclair-ensemble-pomme.mp4"></clip> -->
 <!-- <youtube src="./videos/alaclair-ensemble-pomme.json"></youtube> -->
-<youtube src="1CQCgETJv-wa"></youtube>
+<youtube src="1CQCgETJv-w"></youtube>
 <span class="remark" style="padding-top: 5px;">Cette chanson ainsi que le vidéoclip sont librement inspirés par <a target="_blank" href="https://www.youtube.com/watch?v=mDGr-SagBZs">Soupe Opera</a></span>
 
 <dots></dots>
