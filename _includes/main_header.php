@@ -21,7 +21,6 @@
         <link rel="stylesheet" href="<?php echo $PAGE->shared; ?>styles/highlight.min.css">
         <link rel="stylesheet" href="<?php echo $PAGE->shared; ?>styles/video-js.min.css">
         <link rel="stylesheet" href="<?php echo $PAGE->shared; ?>styles/swiper-bundle.min.css">
-        <script src="<?php echo $PAGE->shared; ?>jscripts/commons.min.js"></script>
         <script src="<?php echo $PAGE->shared; ?>jscripts/highlight.min.js"></script>
         <script src="<?php echo $PAGE->shared; ?>jscripts/howler.min.js"></script>
         <script src="<?php echo $PAGE->shared; ?>jscripts/swiper-bundle.min.js"></script>
