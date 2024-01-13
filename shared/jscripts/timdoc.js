@@ -530,7 +530,6 @@ app.component('clip', {
 /******************************************************
  *                 Composante Youtube                 *
  ******************************************************/
- // https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=BYQ4E0SwPP4&format=json
  app.component('youtube', {
     props: ['src'],
     data() {

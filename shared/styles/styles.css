@@ -1417,15 +1417,23 @@ div.quote__title {
 }
 .youtube-wrapper__title {
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.863), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
   width: 100%;
-  height: 40px;
+  height: 60px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .youtube-wrapper__title div {
   position: absolute;
-  left: 12px;
+  max-width: calc(100% - 16px);
+  left: 16px;
   top: 50%;
   transform: translateY(-50%);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .youtube-wrapper__play {
   width: 100px;
