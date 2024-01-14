@@ -46,7 +46,7 @@ Lorsque l'élément <span class="inline-code">.bg est survolé</span>, redéfini
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../variables/"); ?>
+<intlink href="../../../variables/"></intlink>
 
 <dots></dots>
 

@@ -98,17 +98,17 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../background/"); ?>
-<?php intlink("../../linear-gradient/"); ?>
-<?php intlink("../../modes-de-fusion/"); ?>
-<?php intlink("../../box-shadow/"); ?>
-<?php intlink("../../unites-de-mesure-avancees/"); ?>
-<?php intlink("../../transformation/"); ?>
-<?php intlink("../../transition/"); ?>
-<?php intlink("../../../html/svg/"); ?>
-<?php intlink("../../font-face/"); ?>
-<?php intlink("../../opacite/"); ?>
-<?php intlink("../../pseudo-classes-avancees/#has"); ?>
+<intlink href="../../background/"></intlink>
+<intlink href="../../linear-gradient/"></intlink>
+<intlink href="../../modes-de-fusion/"></intlink>
+<intlink href="../../box-shadow/"></intlink>
+<intlink href="../../unites-de-mesure-avancees/"></intlink>
+<intlink href="../../transformation/"></intlink>
+<intlink href="../../transition/"></intlink>
+<intlink href="../../../html/svg/"></intlink>
+<intlink href="../../font-face/"></intlink>
+<intlink href="../../opacite/"></intlink>
+<intlink href="../../pseudo-classes-avancees/#has"></intlink>
 
 <dots></dots>
 

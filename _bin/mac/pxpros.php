@@ -1,4 +1,5 @@
 <?php
+
 /**
  * PXPros
  *
@@ -19,7 +20,7 @@
  */
 
 
- /**
+/**
  * Declare constants & globals
  */
 const S  = "/";
@@ -38,6 +39,7 @@ final class PXPros
     private $page;
     private $config;
     private $vars = [];
+    private $tags = [];
     private $hooks = [];
 
 
@@ -67,8 +69,10 @@ final class PXPros
     public function __get($name)
     {
         switch ($name) {
-            case 'root': return $this->root;
-            case 'file': return $this->file;
+            case 'root':
+                return $this->root;
+            case 'file':
+                return $this->file;
             default:
                 if (!empty($this->vars[$name])) return $this->vars[$name];
                 elseif (!empty($this->page->{$name})) return $this->page->{$name};
@@ -77,7 +81,7 @@ final class PXPros
         }
     }
 
-    
+
     /**
      * Project and page data setter
      *
@@ -120,16 +124,44 @@ final class PXPros
         $target = $dir . ltrim(pathinfo($file, PATHINFO_FILENAME), '_') . '.html';
         $this->file = realpath($file);
         ob_start();
-        if($this->before) include(realpath($this->root.$this->before));
+        if ($this->before) include(realpath($this->root . $this->before));
         include($file);
-        if($this->after) include(realpath($this->root.$this->after));
+        if ($this->after) include(realpath($this->root . $this->after));
         $contents = ob_get_clean();
+        $contents = $this->processTags($contents);
         $contents = $this->processHook('post_render', $contents);
         file_put_contents($target, $contents);
-        
     }
 
-    
+
+
+    /**
+     * registerTag
+     *
+     * @param  mixed $tag
+     * @param  mixed $clb
+     * @return void
+     */
+    public function registerTag($tag, $clb)
+    {
+        $this->tags[$tag] = $clb;
+    }
+
+
+    /**
+     * processTags
+     *
+     * @return void
+     */
+    public function processTags($contents)
+    {
+        foreach ($this->tags as $tag => $clb) {
+            $contents = replace_tags($tag, $contents, $clb);
+        }
+        return $contents;
+    }
+
+
     /**
      * registerHook
      *
@@ -137,11 +169,12 @@ final class PXPros
      * @param  callable $clb The callback
      * @return void
      */
-    public function registerHook($hook, $clb) {
+    public function registerHook($hook, $clb)
+    {
         $this->hooks[$hook][] = $clb;
     }
 
-    
+
     /**
      * processHook
      *
@@ -149,9 +182,10 @@ final class PXPros
      * @param  mixed $data The data to be returned by the callback
      * @return mixed
      */
-    public function processHook($hook, $data=null) {
-        if(!empty($this->hooks[$hook])) {
-            foreach($this->hooks[$hook] as $clb) {
+    public function processHook($hook, $data = null)
+    {
+        if (!empty($this->hooks[$hook])) {
+            foreach ($this->hooks[$hook] as $clb) {
                 $data = call_user_func($clb, $data);
             }
         }
@@ -176,8 +210,40 @@ final class PXPros
         } while ($path != pathinfo($path, PATHINFO_DIRNAME));
         return false;
     }
+}
 
 
+/**
+ * replace_tags
+ *
+ * @param  mixed $tag
+ * @param  mixed $contents
+ * @param  mixed $clb
+ * @return void
+ */
+function replace_tags($tag, $contents, $clb)
+{
+    $contents = preg_replace_callback('#<' . preg_quote($tag, '#') . '(.*?)>(.*?)</' . preg_quote($tag, '#') . '>#i', function ($m) use ($clb) {
+        return call_user_func($clb, $m[0], parse_html_attributes($m[1]), $m[2]);
+    }, $contents);
+    return $contents;
+}
+
+
+/**
+ * parse_html_attributes
+ *
+ * @param  mixed $attributes
+ * @return void
+ */
+function parse_html_attributes($attributes)
+{
+    if (preg_match_all('#(\\w+)\s*=\\s*("[^"]*"|\'[^\']*\'|[^"\'\\s>]*)#i', $attributes, $m)) {
+        foreach ($m[1] as $k => $key) {
+            $attrs[strtolower($key)] = stripslashes(substr($m[2][$k], 1, -1));;
+        }
+    }
+    return isset($attrs) ? $attrs : [];
 }
 
 
@@ -187,21 +253,22 @@ final class PXPros
  * @param  mixed $file PHP File to be parse
  * @return void
  */
-function php_file_info($file) {
-    if(!$file = realpath($file)) return false;
+function php_file_info($file)
+{
+    if (!$file = realpath($file)) return false;
     $tokens = token_get_all(file_get_contents($file));
-    foreach($tokens as $tok) {
-        if(!is_array($tok)) continue;
-        if($tok[0] == T_DOC_COMMENT) {
+    foreach ($tokens as $tok) {
+        if (!is_array($tok)) continue;
+        if ($tok[0] == T_DOC_COMMENT) {
             $block = $tok[1];
             break;
         }
     }
-    if(empty($block)) return new stdClass;
-	if(!preg_match_all('#@([a-z0-9]+)[\s\t]+([^\n]+)#msi', $block, $m)) return new stdClass;
-	foreach($m[1] as $k => $v)
-		$info[trim($v)] = trim($m[2][$k]);
-	return (object)$info;
+    if (empty($block)) return new stdClass;
+    if (!preg_match_all('#@([a-z0-9]+)[\s\t]+([^\n]+)#msi', $block, $m)) return new stdClass;
+    foreach ($m[1] as $k => $v)
+        $info[trim($v)] = trim($m[2][$k]);
+    return (object)$info;
 }
 
 
@@ -211,18 +278,19 @@ function php_file_info($file) {
  * @param  mixed $path Path and pattern to walk through
  * @return void
  */
-function dig($path){
-    $patt = pathinfo($path,PATHINFO_BASENAME);
-    $path = pathinfo($path,PATHINFO_DIRNAME);
-    if(!$path = realpath($path)) return;
+function dig($path)
+{
+    $patt = pathinfo($path, PATHINFO_BASENAME);
+    $path = pathinfo($path, PATHINFO_DIRNAME);
+    if (!$path = realpath($path)) return;
     else $path .= S;
-    $dirs	= [];
-    foreach(glob($path.$patt) as $file){
-        if(is_dir($file)) continue;
+    $dirs    = [];
+    foreach (glob($path . $patt) as $file) {
+        if (is_dir($file)) continue;
         else yield $file;
     }
-    foreach(glob($path.'*',GLOB_ONLYDIR) as $dir){
-        foreach(call_user_func(__FUNCTION__,$dir.S.$patt) as $file) yield $file;
+    foreach (glob($path . '*', GLOB_ONLYDIR) as $dir) {
+        foreach (call_user_func(__FUNCTION__, $dir . S . $patt) as $file) yield $file;
     }
 }
 
@@ -233,8 +301,9 @@ function dig($path){
  * @param  mixed $str Error message
  * @return void
  */
-function err($str) {
-    echo 'Error: '.$str.RN;
+function err($str)
+{
+    echo 'Error: ' . $str . RN;
     exit(1);
 }
 
@@ -242,7 +311,7 @@ function err($str) {
 /**
  * Parse arguments and render the specified templates
  */
-if(!isset($argv[1])) err("Invalid argument.");
+if (!isset($argv[1])) err("Invalid argument.");
 if (!$target = realpath($argv[1])) err("Invalid target.");
 
 if (is_dir($target)) {

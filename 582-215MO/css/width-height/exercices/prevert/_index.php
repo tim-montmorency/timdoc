@@ -49,9 +49,9 @@
 
 <grostitre>Notes de cours</grostitre>
 
-<?php intlink("../../../unites-de-mesure/"); ?>
-<?php intlink("../../../width-height/"); ?>
-<?php intlink("../../../position/"); ?>
+<intlink href="../../../unites-de-mesure/"></intlink>
+<intlink href="../../../width-height/"></intlink>
+<intlink href="../../../position/"></intlink>
 
 <dots></dots>
 

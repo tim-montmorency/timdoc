@@ -51,9 +51,9 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../pseudo-elements/"); ?>
-<?php intlink("../../../opacite/"); ?>
-<?php intlink("../../../transformation/"); ?>
-<?php intlink("../../../transition/"); ?>
+<intlink href="../../../pseudo-elements/"></intlink>
+<intlink href="../../../opacite/"></intlink>
+<intlink href="../../../transformation/"></intlink>
+<intlink href="../../../transition/"></intlink>
 
 <dots></dots>

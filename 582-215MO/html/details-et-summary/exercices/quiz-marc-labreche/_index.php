@@ -63,6 +63,6 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../details-et-summary/"); ?>
+<intlink href="../../../details-et-summary/"></intlink>
 
 <dots></dots>

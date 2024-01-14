@@ -57,7 +57,7 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../background/"); ?>
-<?php intlink("../../../linear-gradient/"); ?>
+<intlink href="../../../background/"></intlink>
+<intlink href="../../../linear-gradient/"></intlink>
 
 <dots></dots>

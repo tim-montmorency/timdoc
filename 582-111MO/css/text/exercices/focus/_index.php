@@ -49,7 +49,7 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../fonte/"); ?>
-<?php intlink("../../../text/"); ?>
+<intlink href="../../../fonte/"></intlink>
+<intlink href="../../../text/"></intlink>
 
 <dots></dots>

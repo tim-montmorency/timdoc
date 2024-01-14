@@ -9,24 +9,24 @@
 
 <wiki-page name="Cours 01">
     <doclink href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXTXyncwrp9BsK6fpfriFQ8BJqTVzwK0fFBBiRxOienJnA?e=dZa1wP ">Plan de cours</doclink>
-    <?php intlink("../installation/compte/"); ?>
-    <?php intlink("../installation/telechargement/"); ?>
-    <?php intlink("../unity/introduction/"); ?>
-    <?php intlink("../unity/introduction/exercices/intro/"); ?>
-    <?php intlink("../unity/sprite/"); ?>
-    <?php intlink("../consignes/travail1/"); ?>
-    <?php intlink("../realite-augmentee/introduction/"); ?>
+    <intlink href="../installation/compte/"></intlink>
+    <intlink href="../installation/telechargement/"></intlink>
+    <intlink href="../unity/introduction/"></intlink>
+    <intlink href="../unity/introduction/exercices/intro/"></intlink>
+    <intlink href="../unity/sprite/"></intlink>
+    <intlink href="../consignes/travail1/"></intlink>
+    <intlink href="../realite-augmentee/introduction/"></intlink>
     
 </wiki-page>
 
 
 <wiki-page name="Cours 02">
-<?php intlink("../unity/composantes/"); ?>
-<?php intlink("../installation/configuration/"); ?>
-<?php intlink("../installation/unity-remote/"); ?>
-<?php intlink("../realite-augmentee/detection/"); ?>
-<?php intlink("../unity/sorting_layers/"); ?>
-<?php intlink("../unity/animation/"); ?>
+<intlink href="../unity/composantes/"></intlink>
+<intlink href="../installation/configuration/"></intlink>
+<intlink href="../installation/unity-remote/"></intlink>
+<intlink href="../realite-augmentee/detection/"></intlink>
+<intlink href="../unity/sorting_layers/"></intlink>
+<intlink href="../unity/animation/"></intlink>
 
 </wiki-page>
 
@@ -35,25 +35,25 @@
 <h3>S'inscrire au Unity student plan</h3>
 <doclink href="https://unity.com/products/unity-student">Student Plan</doclink>
 <h3>Code</h3>
-<?php intlink("../code/variables/"); ?>
-<?php intlink("../code/fonctions/"); ?>
-<?php intlink("../code/base/"); ?>
-<?php intlink("../code/evenements/"); ?>
-<?php intlink("../code/changement_scene/"); ?>
-<?php intlink("../code/quitter_jeu/"); ?>
+<intlink href="../code/variables/"></intlink>
+<intlink href="../code/fonctions/"></intlink>
+<intlink href="../code/base/"></intlink>
+<intlink href="../code/evenements/"></intlink>
+<intlink href="../code/changement_scene/"></intlink>
+<intlink href="../code/quitter_jeu/"></intlink>
 <h3>Menus</h3>
-<?php intlink("../unity/UI/"); ?>
-<?php intlink("../unity/font/"); ?>
+<intlink href="../unity/UI/"></intlink>
+<intlink href="../unity/font/"></intlink>
 <h3>Animation paramètre</h3>
-<?php intlink("../unity/animation/"); ?>
+<intlink href="../unity/animation/"></intlink>
 
 </wiki-page>
 
 <wiki-page name="Cours 04">
-<?php intlink("../unity/son/"); ?>
-<?php intlink("../unity/font/"); ?>
-<?php intlink("../unity/build/"); ?>
-<?php intlink("../consignes/travail1/"); ?>
+<intlink href="../unity/son/"></intlink>
+<intlink href="../unity/font/"></intlink>
+<intlink href="../unity/build/"></intlink>
+<intlink href="../consignes/travail1/"></intlink>
 
 
 </wiki-page>
@@ -68,7 +68,7 @@
     Propreté des scripts
 </checklist></p>
 <h3>Débuter l'exercice</h3>
-<?php intlink("../exercices/scene/"); ?>
+<intlink href="../exercices/scene/"></intlink>
 </wiki-page>
 
 <wiki-page name="Cours 06">
@@ -76,14 +76,14 @@
 <p>Ouvrir votre projet 1 sur votre ordinateur prêt à être corrigé.</p>
 
 <h3>Continuer l'exercice</h3>
-<?php intlink("../exercices/scene/"); ?>
+<intlink href="../exercices/scene/"></intlink>
 
 </wiki-page>
 
 <wiki-page name="Cours 07">
 <h3>Sortie Zéro Latency</h3>
 <h3>Devoir:Continuer l'exercice 2</h3>
-<?php intlink("../exercices/scene/"); ?>
+<intlink href="../exercices/scene/"></intlink>
 
 <h3>Devoir: Commencer l'idéation du projet final</h3>
 </wiki-page>
@@ -112,18 +112,18 @@
 <h3>Prêt des caques oculus</h3>
 
 <h3>Début de la création du projet final</h3>
-<?php intlink("../unity/github/"); ?>
-<?php intlink("../unity/quest/"); ?>
+<intlink href="../unity/github/"></intlink>
+<intlink href="../unity/quest/"></intlink>
 
 
 </wiki-page>
 
 
 <wiki-page name="Cours 10">
-<?php intlink("../unity/configuration_vr/"); ?>
-<?php intlink("../unity/deplacement_vr/"); ?>
-<?php intlink("../unity/interaction_vr/"); ?>
-<?php intlink("../unity/Importation3D/"); ?>
+<intlink href="../unity/configuration_vr/"></intlink>
+<intlink href="../unity/deplacement_vr/"></intlink>
+<intlink href="../unity/interaction_vr/"></intlink>
+<intlink href="../unity/Importation3D/"></intlink>
 
 
 
@@ -137,7 +137,7 @@
 </checklist></p>
 
 <h2>Exercice</h2>
-<?php intlink("../exercices/interaction_vr/"); ?>
+<intlink href="../exercices/interaction_vr/"></intlink>
 </wiki-page>
 
 
@@ -145,14 +145,14 @@
 
 <wiki-page name="Cours 11">
 <h3>Grimper</h3>
-<p><?php intlink("../unity/deplacement_vr/"); ?></p>
+<p><intlink href="../unity/deplacement_vr/"></intlink></p>
 <p><h3>Autres</h3></p>
-<p><?php intlink("../unity/UI/#canvas-en-vr"); ?>
-<?php intlink("../unity/audio_vr/"); ?>
-<?php intlink("../unity/transitions/"); ?>
-<?php intlink("../unity/materiaux/"); ?>
-<?php intlink("../unity/miroir/"); ?>
-<?php intlink("../unity/particules/"); ?></p>
+<p><intlink href="../unity/UI/#canvas-en-vr"></intlink>
+<intlink href="../unity/audio_vr/"></intlink>
+<intlink href="../unity/transitions/"></intlink>
+<intlink href="../unity/materiaux/"></intlink>
+<intlink href="../unity/miroir/"></intlink>
+<intlink href="../unity/particules/"></intlink></p>
 <p><h3>Discussion et recherche sur les shaders</h3>
 <h3>Rencontres pour voir les besoins individuels</h3></p>
 
@@ -168,28 +168,28 @@
 
 
 <wiki-page name="Cours 12">
-<?php intlink("../unity/eclairage/"); ?>
-<?php intlink("../unity/postprocessing/"); ?>
-<?php intlink("../unity/vfx/"); ?>
+<intlink href="../unity/eclairage/"></intlink>
+<intlink href="../unity/postprocessing/"></intlink>
+<intlink href="../unity/vfx/"></intlink>
 
-<?php intlink("../unity/eau/"); ?>
+<intlink href="../unity/eau/"></intlink>
 
-<?php intlink("../unity/vr_mains/"); ?>
+<intlink href="../unity/vr_mains/"></intlink>
 
 <p><h3>Saut</h3>
-<?php intlink("../unity/deplacement_vr/#sauter"); ?></p>
+<intlink href="../unity/deplacement_vr/#sauter"></intlink></p>
 
 <p><h3>Plateforme en mouvement</h3>
-<?php intlink("../unity/deplacement_vr/#ascenseur"); ?></p>
+<intlink href="../unity/deplacement_vr/#ascenseur"></intlink></p>
 
 <p><h3>Aléatoire</h3>
-<?php intlink("../code/base/#aleatoire"); ?></p>
+<intlink href="../code/base/#aleatoire"></intlink></p>
 
 <p><h3>Tir de projectile</h3>
-<?php intlink("../unity/tir"); ?></p>
+<intlink href="../unity/tir"></intlink></p>
 
 <p><h3>Physique Pont et porte</h3>
-<?php intlink("../unity/physique"); ?></p>
+<intlink href="../unity/physique"></intlink></p>
 
 
 </wiki-page>
@@ -215,7 +215,7 @@
 
 <wiki-page name="Autres contenus">
 
-<?php intlink("../unity/tilemaps/"); ?>
-<?php intlink("../unity/cinemachine/"); ?>
-<?php intlink("../unity/raycasting/"); ?>
+<intlink href="../unity/tilemaps/"></intlink>
+<intlink href="../unity/cinemachine/"></intlink>
+<intlink href="../unity/raycasting/"></intlink>
 </wiki-page>

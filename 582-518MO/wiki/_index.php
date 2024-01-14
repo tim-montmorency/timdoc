@@ -50,17 +50,17 @@
 
     <h2>Projet de session (PS)</h2>
 
-    <?php intlink("../projet/mise-en-contexte/"); ?>
-    <?php intlink("../projet/arborescence/"); ?>
-    <?php intlink("../projet/requis-client/"); ?>
+    <intlink href="../projet/mise-en-contexte/"></intlink>
+    <intlink href="../projet/arborescence/"></intlink>
+    <intlink href="../projet/requis-client/"></intlink>
 
     <h2>Gestion de projet</h2>
-    <?php intlink("../gestion-de-projet/kanban/"); ?>
-    <?php intlink("../gestion-de-projet/trello/"); ?>
-    <?php intlink("../gestion-de-projet/rapport-de-temps/"); ?>
+    <intlink href="../gestion-de-projet/kanban/"></intlink>
+    <intlink href="../gestion-de-projet/trello/"></intlink>
+    <intlink href="../gestion-de-projet/rapport-de-temps/"></intlink>
 
     <h2>Projet de session (PS)</h2>
-    <?php intlink("../projet/melee-scrum/"); ?>
+    <intlink href="../projet/melee-scrum/"></intlink>
 
     <h2>Exercice: Dérouillage CSS et JS</h2>
     Le lien sera fourni en cours.
@@ -72,9 +72,9 @@
 
     <h2>Devoirs</h2>
     <p>Compléter les requis émis à la fin de ces 3 pages :</p>
-    <?php intlink("../projet/mise-en-contexte/"); ?>
-    <?php intlink("../projet/melee-scrum/"); ?>
-    <?php intlink("../gestion-de-projet/rapport-de-temps/"); ?>
+    <intlink href="../projet/mise-en-contexte/"></intlink>
+    <intlink href="../projet/melee-scrum/"></intlink>
+    <intlink href="../gestion-de-projet/rapport-de-temps/"></intlink>
     <br>
     <p>Compléter l'exercice Jeu du 27: Le lien sera fourni en cours.</p>
 
@@ -115,27 +115,27 @@
     </ol>
     -->
     <h2>Sass</h2>
-    <?php intlink("../sass/introduction/"); ?>
-    <?php intlink("../sass/imbrication/"); ?>
-    <?php intlink("../sass/variable/"); ?>
-    <?php intlink("../sass/extend/"); ?>
-    <?php intlink("../sass/boucle/"); ?>
+    <intlink href="../sass/introduction/"></intlink>
+    <intlink href="../sass/imbrication/"></intlink>
+    <intlink href="../sass/variable/"></intlink>
+    <intlink href="../sass/extend/"></intlink>
+    <intlink href="../sass/boucle/"></intlink>
     <p>3 exercices, les liens seront fournis en cours.</p>
     <br><br>
     <hr><br><br><br>
-    <?php intlink("../sass/mixins/"); ?>
+    <intlink href="../sass/mixins/"></intlink>
     <p>Exercice, le lien sera fourni en cours</p>
-    <del style="opacity: 0.2;"> <?php intlink("../sass/conditions/"); ?> </del>
-    <del style="opacity: 0.2;"> <?php intlink("../sass/fonctions/"); ?> </del>
+    <del style="opacity: 0.2;"> <intlink href="../sass/conditions/"></intlink> </del>
+    <del style="opacity: 0.2;"> <intlink href="../sass/fonctions/"></intlink> </del>
 
     <br><br><br>
     <hr><br>
 
     <h2>Devoirs</h2>
     <p>Compléter les 3 composantes du projet de session suivantes.</p>
-    <?php intlink("../projet/moodboard/"); ?>
-    <?php intlink("../projet/guide-de-styles/"); ?>
-    <?php intlink("../projet/maquette-accueil/"); ?>
+    <intlink href="../projet/moodboard/"></intlink>
+    <intlink href="../projet/guide-de-styles/"></intlink>
+    <intlink href="../projet/maquette-accueil/"></intlink>
     <br>
 
     <p>De plus, si ce n'est pas complété en classe, vous devez terminer les exercices du jour.</p>
@@ -237,12 +237,12 @@
     <p>sass boucle @each + exercice overwatch</p>
 
     <h2>Révision des exercices de la semaine passée</h2>
-    <?php intlink("../exercices/sass-each-menu-overwatch/"); ?>
-    <?php intlink("../exercices/sass-mixin-grille-bootstrap/"); ?>
+    <intlink href="../exercices/sass-each-menu-overwatch/"></intlink>
+    <intlink href="../exercices/sass-mixin-grille-bootstrap/"></intlink>
 
     <h2>Sass</h2>
-    <?php intlink("../sass/conditions/"); ?>
-    <?php intlink("../sass/fonctions/"); ?>
+    <intlink href="../sass/conditions/"></intlink>
+    <intlink href="../sass/fonctions/"></intlink>
     <br><br>
     <h3>Exercice fonction</h3>
 
@@ -254,10 +254,10 @@
 
     <h2>Devoirs</h2>
 
-    PO <?php intlink("../projet/tableau-trello/"); ?><br>
-    DevOp <?php intlink("../projet/github-et-hebergement/"); ?><br>
-    Designer <?php intlink("../projet/ajustements-design-accueil/"); ?><br>
-    Agent de promo <?php intlink("../projet/page-temporaire/"); ?><br>
+    PO <intlink href="../projet/tableau-trello/"></intlink><br>
+    DevOp <intlink href="../projet/github-et-hebergement/"></intlink><br>
+    Designer <intlink href="../projet/ajustements-design-accueil/"></intlink><br>
+    Agent de promo <intlink href="../projet/page-temporaire/"></intlink><br>
 
     <br> <br>
     <p>De plus, si ce n'est pas complété en classe, vous devez terminer les exercices du jour.</p>
@@ -296,15 +296,15 @@
 
 
     <h2>Révision des exercices de la semaine passée</h2>
-    <?php intlink("../exercices/sass-function-uno/"); ?>
+    <intlink href="../exercices/sass-function-uno/"></intlink>
 
     <br><br>
     <hr>
 
     <h2>Sass</h2>
-    <?php intlink("../sass/modules/"); ?>
-    <?php intlink("../sass/module-de-couleurs/"); ?>
-    <?php intlink("../sass/nomenclature-bem/"); ?>
+    <intlink href="../sass/modules/"></intlink>
+    <intlink href="../sass/module-de-couleurs/"></intlink>
+    <intlink href="../sass/nomenclature-bem/"></intlink>
     <br><br>
     <h3>Exercice Sass - Films vos meilleurs choix</h3>
 
@@ -314,7 +314,7 @@
     <hr>
 
     <h2>CSS Grid</h2>
-    <?php intlink("../css/grid/"); ?>
+    <intlink href="../css/grid/"></intlink>
 
     <br><br>
     <h3>Exercice Grid - Spotify</h3>
@@ -327,8 +327,8 @@
     <hr><br>
 
     <h2>Devoirs</h2>
-    PO <?php intlink("../projet/redaction-copy-deck/"); ?><br>
-    Designer <?php intlink("../projet/maquette-detail-de-nouvelle/"); ?><br><br>
+    PO <intlink href="../projet/redaction-copy-deck/"></intlink><br>
+    Designer <intlink href="../projet/maquette-detail-de-nouvelle/"></intlink><br><br>
     Notez que le développer back end ainsi que l'agent de promo auront un devoir équivalent un peu plus tard.
     <br><br>
 </wiki-page>
@@ -388,8 +388,8 @@
 
     <h2>Révision des exercices de la semaine passée</h2>
 
-    <?php intlink("../exercices/sass-films-vos-meilleurs-choix/"); ?>
-    <?php intlink("../exercices/grid-spotify/"); ?>
+    <intlink href="../exercices/sass-films-vos-meilleurs-choix/"></intlink>
+    <intlink href="../exercices/grid-spotify/"></intlink>
 
     <br><br>
     <hr>
@@ -400,7 +400,7 @@
     <br>
 
     <h2>CSS</h2>
-    <?php intlink("../css/grid-intermediaire/"); ?>
+    <intlink href="../css/grid-intermediaire/"></intlink>
     <br>
     <p style="color: var(--main-color);"><strong>> Exercices: Liens présentés en classe</strong></p>
     <br><br><br>
@@ -476,14 +476,14 @@
     <br><br>
     <hr><br>
     <h2>Serveur local et WordPress</h2>
-    <?php intlink("../wordpress/mamp/"); ?>
-    <?php intlink("../wordpress/installation-en-local/"); ?>
+    <intlink href="../wordpress/mamp/"></intlink>
+    <intlink href="../wordpress/installation-en-local/"></intlink>
     <alert>ATTENTION NE PAS POUSSER AUCUNE INSTALLATION LOCAL SUR VOTRE GIT POUR LE MOMENT. Il faut gérer le gitignore.
     </alert>
 
 
     <h3>.gitignore pour exclure les fichiers de base de wp </h3>
-    <?php intlink("../git/gitignore/"); ?>
+    <intlink href="../git/gitignore/"></intlink>
 
     <p style="color: var(--main-color);"><strong>> Exercice: </strong><br>Installer WordPress en local, installer un
         thème existant, explorez.</p>
@@ -492,7 +492,7 @@
 
     <h2>Thèmes et extensions </h2>
 
-    <?php intlink("../wordpress/themes-et-extensions/"); ?>
+    <intlink href="../wordpress/themes-et-extensions/"></intlink>
 
 
 
@@ -500,24 +500,24 @@
 
     <h2>Styles CSS </h2>
 
-    <?php intlink("../wordpress/styles-css/"); ?>
+    <intlink href="../wordpress/styles-css/"></intlink>
 
 
 
 
 
     <h2>Modèles </h2>
-    <?php intlink("..//wordpress/modeles/"); ?>
+    <intlink href="..//wordpress/modeles/"></intlink>
 
     <h2>Partiels </h2>
-    <?php intlink("../wordpress/partiels/"); ?>
+    <intlink href="../wordpress/partiels/"></intlink>
 
 
     <br><br>
     <hr><br>
 
     <h2>HTML</h2>
-    <?php intlink("../../582-111MO/html/microdonnees/"); ?>
+    <intlink href="../../582-111MO/html/microdonnees/"></intlink>
     <br>
     <p style="color: var(--main-color);"><strong>> Exercice: Lien présenté en classe</strong></p>
     <br>
@@ -547,8 +547,8 @@
 
     <h2>Devoirs pour devOps et Agent de promo</h2>
     <p>Remise modifiées au cours 7 (et 15) (initialement prévue au cours 8 dans plan de cours)</p>
-    DevOps (remise cours 7) <?php intlink("../projet/configuration-wordpress/"); ?> <br><br>
-    Agent de promo (deux remises: cours 7 et cours 15) <?php intlink("../projet/portfolio-projet-behance/"); ?> <br><br>
+    DevOps (remise cours 7) <intlink href="../projet/configuration-wordpress/"></intlink> <br><br>
+    Agent de promo (deux remises: cours 7 et cours 15) <intlink href="../projet/portfolio-projet-behance/"></intlink> <br><br>
 
     <br><br>
 </wiki-page>
@@ -603,16 +603,16 @@
     <hr><br>
 
     <h2>Révision des exercices de la semaine passée</h2>
-    <?php intlink("../../582-111MO/html/microdonnees/exercices/cf-montreal/"); ?>
+    <intlink href="../../582-111MO/html/microdonnees/exercices/cf-montreal/"></intlink>
 
     <br> <br>
     <hr><br><br>
     <h2>WORDPRESS</h2>
 
-    <?php intlink("../wordpress/menus/"); ?>
-    <?php intlink("../wordpress/wp-crochets-action-filtre/"); ?>
-    <?php intlink("../wordpress/posts-personnalises/"); ?>
-    <?php intlink("../wordpress/advanced-custom-fields/"); ?>
+    <intlink href="../wordpress/menus/"></intlink>
+    <intlink href="../wordpress/wp-crochets-action-filtre/"></intlink>
+    <intlink href="../wordpress/posts-personnalises/"></intlink>
+    <intlink href="../wordpress/advanced-custom-fields/"></intlink>
 
 
     <br> <br>
@@ -643,20 +643,20 @@
     <dots></dots>
 
     <h2>WORDPRESS</h2>
-    <?php intlink("../wordpress/wp-editeur-gutenberg/"); ?>
-    <?php intlink("../wordpress/wp-multilang/"); ?>
-    <?php intlink("../wordpress/yoast-seo/"); ?>
+    <intlink href="../wordpress/wp-editeur-gutenberg/"></intlink>
+    <intlink href="../wordpress/wp-multilang/"></intlink>
+    <intlink href="../wordpress/yoast-seo/"></intlink>
 
     <h2>Exercice en classe et révision en classe</h2>
-    <?php intlink("../exercices/wp-valet-de-coeur/"); ?>
+    <intlink href="../exercices/wp-valet-de-coeur/"></intlink>
     <p>+</p>
     <p>Je passe individuellement pour vérifier votre github et votre installation en local WP de votre projet de
         session.</p>
     <dots></dots>
 
     <h2>JAVASCRIPT</h2>
-    <?php intlink("../javascript/promesses-js/"); ?>
-    <?php intlink("../javascript/fetch-api/"); ?>
+    <intlink href="../javascript/promesses-js/"></intlink>
+    <intlink href="../javascript/fetch-api/"></intlink>
 
 
     <h2>2 exercices Fetch API</h2>
@@ -664,8 +664,8 @@
 
     <h2>DEVOIRS</h2>
    <p>Terminer les exercices commencés en classe.</p>
-   <?php intlink("../exercices/fetch-api-zoom/"); ?>
-   <?php intlink("../exercices/fetch-api-pokemon-api/"); ?>
+   <intlink href="../exercices/fetch-api-zoom/"></intlink>
+   <intlink href="../exercices/fetch-api-pokemon-api/"></intlink>
    
 </wiki-page>
 
@@ -732,9 +732,9 @@
 
     <dots></dots>
     <h2>WORDPRESS</h2>
-    <?php intlink("../wordpress/migration-de-donnees/"); ?>
-    <?php intlink("../wordpress/wp-query/"); ?>
-    <?php intlink("../wordpress/rest-api/"); ?>
+    <intlink href="../wordpress/migration-de-donnees/"></intlink>
+    <intlink href="../wordpress/wp-query/"></intlink>
+    <intlink href="../wordpress/rest-api/"></intlink>
 
     <h2>2 exercices en classe</h2>
     <p>Exerice #1 <br>
@@ -743,8 +743,8 @@
    <h2>DEVOIRS</h2>
    <p>Prochain cours (cours 10): présentation client. Avancez vos pages statiques HTML et CSS (SCSS). Vous devez avoir terminé de monter 6 pages statiques pour la présentation du cours 10 et elles doivent être "responsives" (les animations GSAP ne sont pas obligatoires pour cette étapes mais tant mieux si vous les avez avancées).</p>
    <p>Terminer les exercices commencés en classe.</p>
-   <?php intlink("../exercices/wp-query-les-bagnoles/"); ?>
-   <?php intlink("../exercices/wp-rest-api-vice-versa/"); ?>
+   <intlink href="../exercices/wp-query-les-bagnoles/"></intlink>
+   <intlink href="../exercices/wp-rest-api-vice-versa/"></intlink>
 
 
 
@@ -803,20 +803,20 @@
     <h2>PROJET DE SESSION</h2>
     <p>Procédure de migration des données d'une installation WordPress à un autre.</p>
 
-    <?php intlink("../projet/migration-donnees-wordpress/"); ?>
+    <intlink href="../projet/migration-donnees-wordpress/"></intlink>
 
     <dots></dots>
     <h2>Révision des exercices WP des semaines passées</h2>
-    <?php intlink("../exercices/wp-valet-de-coeur/"); ?>
-    <?php intlink("../exercices/wp-query-les-bagnoles/"); ?>
-    <?php intlink("../exercices/wp-rest-api-vice-versa/"); ?>
+    <intlink href="../exercices/wp-valet-de-coeur/"></intlink>
+    <intlink href="../exercices/wp-query-les-bagnoles/"></intlink>
+    <intlink href="../exercices/wp-rest-api-vice-versa/"></intlink>
 
 
     <dots></dots>
     <h2>ASSURANCE ET CONTRÔLE DE LA QUALITÉ</h2>
-    <?php intlink("../../582-424MO/optimisation/"); ?>
-    <?php intlink("../gestion-de-projet/lazy-loading/"); ?>
-    <?php intlink("../gestion-de-projet/assurance-qualite/"); ?>
+    <intlink href="../../582-424MO/optimisation/"></intlink>
+    <intlink href="../gestion-de-projet/lazy-loading/"></intlink>
+    <intlink href="../gestion-de-projet/assurance-qualite/"></intlink>
     <p>Exercice en classe</p>
         
     <dots></dots>
@@ -854,18 +854,18 @@
 
     <dots></dots>
     <h2>Révision de l'exercice WP de la semaine passée</h2>
-    <?php intlink("../exercices/wp-rest-api-vice-versa/"); ?>
+    <intlink href="../exercices/wp-rest-api-vice-versa/"></intlink>
     <dots></dots>
     <h2>ASSURANCE ET CONTRÔLE DE LA QUALITÉ</h2>
-    <?php intlink("../../582-424MO/optimisation/"); ?>
-    <?php intlink("../gestion-de-projet/lazy-loading/"); ?>
-    <?php intlink("../gestion-de-projet/assurance-qualite/"); ?>
-    <?php intlink("../exercices/assurance-qualite-insoapropriate/"); ?>
+    <intlink href="../../582-424MO/optimisation/"></intlink>
+    <intlink href="../gestion-de-projet/lazy-loading/"></intlink>
+    <intlink href="../gestion-de-projet/assurance-qualite/"></intlink>
+    <intlink href="../exercices/assurance-qualite-insoapropriate/"></intlink>
  
 
     <dots></dots>
     <h2>WORDPRESS</h2>
-    <?php intlink("../wordpress/images-dans-modeles/"); ?>
+    <intlink href="../wordpress/images-dans-modeles/"></intlink>
     <doclink href='https://developer.wordpress.org/themes/functionality/custom-front-page-templates/'>Modèle (template)&nbsp;- Page d'accueil</doclink>
     <br>
     <doclink href='https://wordpress.com/fr/support/pages/page-accueil/'>Définir la page d’accueil dans Wordpress</doclink>
@@ -899,14 +899,14 @@
 
     <h2>Groupe du lundi</h2>
     <p><strong>Révision exercice assurance qualité: Insoapropriate</strong></p>
-    <?php intlink("../exercices/assurance-qualite-insoapropriate/"); ?>
+    <intlink href="../exercices/assurance-qualite-insoapropriate/"></intlink>
 
     <p><strong>Wordpress</strong></p>
-    <?php intlink("../wordpress/images-dans-modeles/"); ?>
+    <intlink href="../wordpress/images-dans-modeles/"></intlink>
   
     <dots></dots>
     <h2>WORDPRESS - suite</h2>
-    <?php intlink("../wordpress/modeles/"); ?>
+    <intlink href="../wordpress/modeles/"></intlink>
     <doclink href='https://developer.wordpress.org/themes/functionality/custom-front-page-templates/'>Custom Front Page Templates</doclink>
 
 
@@ -921,8 +921,8 @@
 
     <dots></dots>
     <h2>VUE.JS</h2>
-    <?php intlink("../javascript/vue-js/introduction"); ?>
-    <?php intlink("../javascript/vue-js/creation-app-bases"); ?>
+    <intlink href="../javascript/vue-js/introduction"></intlink>
+    <intlink href="../javascript/vue-js/creation-app-bases"></intlink>
     <p>Exercices partagés en classe</p>
 
 
@@ -958,9 +958,9 @@
 
     <dots></dots>
     <h2>Révision exercices</h2>
-    <?php intlink("../exercices/vue-tableau-nba/"); ?>
-    <?php intlink("../exercices/vue-cheese-kanye-says/"); ?>
-    <?php intlink("../exercices/vue-ouest-vs-est/"); ?>
+    <intlink href="../exercices/vue-tableau-nba/"></intlink>
+    <intlink href="../exercices/vue-cheese-kanye-says/"></intlink>
+    <intlink href="../exercices/vue-ouest-vs-est/"></intlink>
 
 
     <dots></dots>
@@ -968,9 +968,9 @@
     <p><a href="https://vuejsexamples.com/" target="_blank" rel="noopener noreferrer">Démos sur vuejsexamples.com</a>  <br>
     <a href="https://codepen.io/collection/kNQdop" target="_blank" rel="noopener noreferrer">Collections de CodePens utilisant VUE</a></p>
  
-    <?php intlink("../javascript/vue-js/elements-de-formulaire"); ?>
-    <?php intlink("../javascript/vue-js/proprietes-calculees"); ?>
-    <?php intlink("../javascript/vue-js/composantes"); ?>
+    <intlink href="../javascript/vue-js/elements-de-formulaire"></intlink>
+    <intlink href="../javascript/vue-js/proprietes-calculees"></intlink>
+    <intlink href="../javascript/vue-js/composantes"></intlink>
     <p>2 exercices partagés en classe</p>
 
 
@@ -1015,13 +1015,13 @@ Examen 18 déc à 11h00 pour tout le monde. Pour ceux qui sont concernés, faite
 
     <dots></dots>
     <h2>Révision exercices</h2>
-    <?php intlink("../exercices/vue-composante-cartes/"); ?>
+    <intlink href="../exercices/vue-composante-cartes/"></intlink>
 
 
     <dots></dots>
     <h2>Pratique pour l'examen (du moins, couvrant la notion de vue.js) </h2>
     <p>Prendre en note que les notions de fetch api et un peu wordpress seront inclus dans l'examen mais il portera quand même principalement sur vus.js.</p>
-    <?php intlink("../exercices/vue-sushis/"); ?>
+    <intlink href="../exercices/vue-sushis/"></intlink>
 
     <dots></dots>
     <h2>Reste du cours</h2>

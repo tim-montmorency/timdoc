@@ -72,8 +72,8 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../formulaire/"); ?>
-<?php intlink("../../../formulaire-intermediaire/"); ?>
-<?php intlink("../../../formulaire-avance/"); ?>
+<intlink href="../../../formulaire/"></intlink>
+<intlink href="../../../formulaire-intermediaire/"></intlink>
+<intlink href="../../../formulaire-avance/"></intlink>
 
 <dots></dots>

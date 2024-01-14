@@ -96,11 +96,11 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../position/"); ?>
-<?php intlink("../../linear-gradient/"); ?>
-<?php intlink("../../background/"); ?>
-<?php intlink("../../font-face/"); ?>
-<?php intlink("../../box-shadow/"); ?>
-<?php intlink("../../transformation/"); ?>
+<intlink href="../../position/"></intlink>
+<intlink href="../../linear-gradient/"></intlink>
+<intlink href="../../background/"></intlink>
+<intlink href="../../font-face/"></intlink>
+<intlink href="../../box-shadow/"></intlink>
+<intlink href="../../transformation/"></intlink>
 
 <dots></dots>

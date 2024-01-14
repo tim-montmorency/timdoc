@@ -9,74 +9,74 @@
 ?>
 
 <wiki-page name="Cours 1">
-    <?php intlink("../presentation-cours"); ?>
-    <?php intlink("../autres/outils/"); ?>
-    <?php intlink("../autres/histoire-du-web/"); ?>
-    <?php intlink("../autres/experience-utilisateur/"); ?>
-    <?php intlink("../autres/composantes-web/"); ?>
-    <?php intlink("../html/html-histoire/"); ?>
+    <intlink href="../presentation-cours"></intlink>
+    <intlink href="../autres/outils/"></intlink>
+    <intlink href="../autres/histoire-du-web/"></intlink>
+    <intlink href="../autres/experience-utilisateur/"></intlink>
+    <intlink href="../autres/composantes-web/"></intlink>
+    <intlink href="../html/html-histoire/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 2" date="2023-08-27">
-    <?php intlink("../autres/arborescence/"); ?>
-    <?php intlink("../autres/arborescence/exercices/arborescences_ex01"); ?>
-    <?php intlink("../autres/arborescence/exercices/arborescence_reproduction_02"); ?>
-    <?php intlink("../html/parents-enfants/"); ?>
-    <?php intlink("../html/semantique/"); ?>
-    <?php intlink("../html/balises/"); ?>
-    <?php intlink("../html/semantique/exercices/mes_premieres_balises"); ?>
+    <intlink href="../autres/arborescence/"></intlink>
+    <intlink href="../autres/arborescence/exercices/arborescences_ex01"></intlink>
+    <intlink href="../autres/arborescence/exercices/arborescence_reproduction_02"></intlink>
+    <intlink href="../html/parents-enfants/"></intlink>
+    <intlink href="../html/semantique/"></intlink>
+    <intlink href="../html/balises/"></intlink>
+    <intlink href="../html/semantique/exercices/mes_premieres_balises"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 3">
-<?php intlink("../html/div-span/"); ?>
-    <?php intlink("../html/div-span/exercices/div-span"); ?>
-    <?php intlink("../html/formatage-html"); ?>
-    <?php intlink("../html/ancre/"); ?>
-    <?php intlink("../html/ancre/exercices/ancres"); ?>
-    <?php intlink("../autres/chemins/"); ?>
-    <?php intlink("../html/image/"); ?>
-    <?php intlink("../autres/formats-d-image/"); ?>
-    <?php intlink("../autres/vectoriel-vs-matriciel/"); ?>
+<intlink href="../html/div-span/"></intlink>
+    <intlink href="../html/div-span/exercices/div-span"></intlink>
+    <intlink href="../html/formatage-html"></intlink>
+    <intlink href="../html/ancre/"></intlink>
+    <intlink href="../html/ancre/exercices/ancres"></intlink>
+    <intlink href="../autres/chemins/"></intlink>
+    <intlink href="../html/image/"></intlink>
+    <intlink href="../autres/formats-d-image/"></intlink>
+    <intlink href="../autres/vectoriel-vs-matriciel/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 4" date="2023-09-10">
-    <?php intlink("../html/audio/"); ?>
-    <?php intlink("../autres/formats-audio/"); ?>
-    <?php intlink("../html/video/"); ?>
-    <?php intlink("../autres/format-video/"); ?>
-    <?php intlink("../html/legende-de-media/"); ?>
-    <?php intlink("../html/iframe/"); ?>
-    <?php intlink("../html/citation/"); ?>
-    <?php intlink("../html/semantique/exercices/lee_balises"); ?>
-    <?php intlink("../html/tableau/"); ?>
-    <?php intlink("../html/tableau/exercices/tableau1"); ?>
-    <?php intlink("../html/tableau/exercices/tableau2"); ?>
-    <?php intlink("../html/liste/"); ?>
+    <intlink href="../html/audio/"></intlink>
+    <intlink href="../autres/formats-audio/"></intlink>
+    <intlink href="../html/video/"></intlink>
+    <intlink href="../autres/format-video/"></intlink>
+    <intlink href="../html/legende-de-media/"></intlink>
+    <intlink href="../html/iframe/"></intlink>
+    <intlink href="../html/citation/"></intlink>
+    <intlink href="../html/semantique/exercices/lee_balises"></intlink>
+    <intlink href="../html/tableau/"></intlink>
+    <intlink href="../html/tableau/exercices/tableau1"></intlink>
+    <intlink href="../html/tableau/exercices/tableau2"></intlink>
+    <intlink href="../html/liste/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 5" date="2023-09-17">
-    <?php intlink("../autres/arborescence/exercices/arborescence_reproduction_ex3"); ?>
-    <?php intlink("../autres/maquette-filaire/"); ?>
-    <?php intlink("../autres/maquette-filaire/exercices/maquette-filaire-ex01"); ?>
-    <?php intlink("../html/formulaire/"); ?>
-    <?php intlink("../html/formulaire/exercices/carte-de-credit/"); ?>
-    <?php intlink("../html/formulaire-intermediaire/"); ?>
-    <?php intlink("../html/formulaire-intermediaire/exercices/dragonball/"); ?>
-    <?php intlink("../html/formulaire-intermediaire/exercices/twitter/"); ?>
+    <intlink href="../autres/arborescence/exercices/arborescence_reproduction_ex3"></intlink>
+    <intlink href="../autres/maquette-filaire/"></intlink>
+    <intlink href="../autres/maquette-filaire/exercices/maquette-filaire-ex01"></intlink>
+    <intlink href="../html/formulaire/"></intlink>
+    <intlink href="../html/formulaire/exercices/carte-de-credit/"></intlink>
+    <intlink href="../html/formulaire-intermediaire/"></intlink>
+    <intlink href="../html/formulaire-intermediaire/exercices/dragonball/"></intlink>
+    <intlink href="../html/formulaire-intermediaire/exercices/twitter/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 6" date="2023-09-24">
-    <?php intlink("../html/formulaire-avance/"); ?>
-    <?php intlink("../html/favicon/"); ?>
-    <?php intlink("../html/favicon/exercices/mega-man/"); ?>
-    <?php intlink("../html/details-et-summary/"); ?>
-    <?php intlink("../html/details-et-summary/exercices/quiz-marc-labreche/"); ?>
-    <?php intlink("../html/resume/"); ?>
+    <intlink href="../html/formulaire-avance/"></intlink>
+    <intlink href="../html/favicon/"></intlink>
+    <intlink href="../html/favicon/exercices/mega-man/"></intlink>
+    <intlink href="../html/details-et-summary/"></intlink>
+    <intlink href="../html/details-et-summary/exercices/quiz-marc-labreche/"></intlink>
+    <intlink href="../html/resume/"></intlink>
 </wiki-page>
 
 
@@ -87,62 +87,62 @@
 
 
 <wiki-page name="Cours 8" date="2023-10-15">
-    <?php intlink("../css/anatomie/"); ?>
-    <?php intlink("../css/selecteurs/"); ?>
-    <?php intlink("../css/selecteurs/exercices/css-diner/"); ?>
-    <?php intlink("../css/flux/"); ?>
-    <?php intlink("../css/padding/"); ?>
-    <?php intlink("../css/margin/"); ?>
-    <?php intlink("../css/background/"); ?>
-    <?php intlink("../css/background/exercices/candy-crush/"); ?>
-    <?php intlink("../css/display/"); ?>
-    <?php intlink("../css/display/exercices/celeste/"); ?>    
-    <?php intlink("../css/vertical-align/"); ?>
-    <?php intlink("../css/position/"); ?>
-    <?php intlink("../css/position/exercices/cat-in-the-box/"); ?>
+    <intlink href="../css/anatomie/"></intlink>
+    <intlink href="../css/selecteurs/"></intlink>
+    <intlink href="../css/selecteurs/exercices/css-diner/"></intlink>
+    <intlink href="../css/flux/"></intlink>
+    <intlink href="../css/padding/"></intlink>
+    <intlink href="../css/margin/"></intlink>
+    <intlink href="../css/background/"></intlink>
+    <intlink href="../css/background/exercices/candy-crush/"></intlink>
+    <intlink href="../css/display/"></intlink>
+    <intlink href="../css/display/exercices/celeste/"></intlink>    
+    <intlink href="../css/vertical-align/"></intlink>
+    <intlink href="../css/position/"></intlink>
+    <intlink href="../css/position/exercices/cat-in-the-box/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 9" date="2023-10-22">
-    <?php intlink("../css/unites-de-mesure/"); ?>
-    <?php intlink("../css/fonte/"); ?>
-    <?php intlink("../css/text/"); ?>
-    <?php intlink("../css/text/exercices/focus/"); ?>
-    <?php intlink("../css/width-height/"); ?>
-    <?php intlink("../css/width-height/exercices/system32/"); ?>
-    <?php intlink("../css/width-height/exercices/prevert/"); ?>
-    <?php intlink("../css/border/"); ?>
-    <?php intlink("../css/border/exercices/q-bitz/"); ?>
-    <?php intlink("../css/box-model/"); ?>
-    <?php intlink("../css/box-model/exercices/broforce"); ?>
-    <?php intlink("../css/box-model/exercices/marc-seguin"); ?>
-    <?php intlink("../html/metadonnees/"); ?>
-    <?php intlink("../css/unites-de-couleur/"); ?>
+    <intlink href="../css/unites-de-mesure/"></intlink>
+    <intlink href="../css/fonte/"></intlink>
+    <intlink href="../css/text/"></intlink>
+    <intlink href="../css/text/exercices/focus/"></intlink>
+    <intlink href="../css/width-height/"></intlink>
+    <intlink href="../css/width-height/exercices/system32/"></intlink>
+    <intlink href="../css/width-height/exercices/prevert/"></intlink>
+    <intlink href="../css/border/"></intlink>
+    <intlink href="../css/border/exercices/q-bitz/"></intlink>
+    <intlink href="../css/box-model/"></intlink>
+    <intlink href="../css/box-model/exercices/broforce"></intlink>
+    <intlink href="../css/box-model/exercices/marc-seguin"></intlink>
+    <intlink href="../html/metadonnees/"></intlink>
+    <intlink href="../css/unites-de-couleur/"></intlink>
 
 </wiki-page>
 
 
 <wiki-page name="Cours 10" date="2023-10-29">
-    <?php intlink("../css/linear-gradient/"); ?>
-    <?php intlink("../css/linear-gradient/exercices/igloofest/"); ?>
-    <?php intlink("../css/nommage-et-formatage/"); ?>
-    <?php intlink("../css/box-sizing/"); ?>
-    <?php intlink("../css/box-sizing/exercices/illustrator/"); ?>
-    <?php intlink("../css/float/"); ?>
-    <?php intlink("../css/float/exercices/rupi-kaur/"); ?>
-    <?php intlink("../css/specificite/"); ?>
-    <?php intlink("../css/specificite/exercices/specificite-css/"); ?>
+    <intlink href="../css/linear-gradient/"></intlink>
+    <intlink href="../css/linear-gradient/exercices/igloofest/"></intlink>
+    <intlink href="../css/nommage-et-formatage/"></intlink>
+    <intlink href="../css/box-sizing/"></intlink>
+    <intlink href="../css/box-sizing/exercices/illustrator/"></intlink>
+    <intlink href="../css/float/"></intlink>
+    <intlink href="../css/float/exercices/rupi-kaur/"></intlink>
+    <intlink href="../css/specificite/"></intlink>
+    <intlink href="../css/specificite/exercices/specificite-css/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 11" date="2023-10-29">
-    <?php intlink("../css/opacite/"); ?>
-    <?php intlink("../css/opacite/exercices/google-agenda/"); ?>   
-    <?php intlink("../css/z-index/"); ?>
-    <?php intlink("../css/z-index/exercices/mains-de-monstres/"); ?>
-    <?php intlink("../css/box-shadow/"); ?>
-    <?php intlink("../css/box-shadow/exercices/reseaux-sociaux/"); ?>
-    <?php intlink("../autres/raccourcis-clavier/"); ?>
+    <intlink href="../css/opacite/"></intlink>
+    <intlink href="../css/opacite/exercices/google-agenda/"></intlink>   
+    <intlink href="../css/z-index/"></intlink>
+    <intlink href="../css/z-index/exercices/mains-de-monstres/"></intlink>
+    <intlink href="../css/box-shadow/"></intlink>
+    <intlink href="../css/box-shadow/exercices/reseaux-sociaux/"></intlink>
+    <intlink href="../autres/raccourcis-clavier/"></intlink>
 </wiki-page>
 
 

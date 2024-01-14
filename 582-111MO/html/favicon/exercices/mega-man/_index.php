@@ -43,6 +43,6 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../favicon/"); ?>
+<intlink href="../../../favicon/"></intlink>
 
 <dots></dots>

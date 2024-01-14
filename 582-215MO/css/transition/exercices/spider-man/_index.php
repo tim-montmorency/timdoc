@@ -58,6 +58,6 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../transition/"); ?>
+<intlink href="../../../transition/"></intlink>
 
 <dots></dots>

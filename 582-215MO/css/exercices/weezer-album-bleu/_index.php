@@ -59,8 +59,8 @@
 
 <grostitre>Notes de cours</grostitre>
 
-<?php intlink('../../position/'); ?>
-<?php intlink('../../display/'); ?>
+<intlink href='../../position/'></intlink>
+<intlink href='../../display/'></intlink>
 
 <dots></dots>
 

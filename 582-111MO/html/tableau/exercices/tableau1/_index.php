@@ -49,6 +49,6 @@
 
 <grostitre>Notes de cours</grostitre>
 
-<?php intlink("../../../tableau/"); ?>
+<intlink href="../../../tableau/"></intlink>
 
 <dots></dots>

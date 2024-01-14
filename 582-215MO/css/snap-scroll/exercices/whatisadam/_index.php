@@ -51,6 +51,6 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../snap-scroll/"); ?>
+<intlink href="../../../snap-scroll/"></intlink>
 
 <dots></dots>

@@ -74,11 +74,11 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../background/"); ?>
-<?php intlink("../../linear-gradient/"); ?>
-<?php intlink("../../google-fonts/"); ?>
-<?php intlink("../../border/"); ?>
-<?php intlink("../../z-index/"); ?>
+<intlink href="../../background/"></intlink>
+<intlink href="../../linear-gradient/"></intlink>
+<intlink href="../../google-fonts/"></intlink>
+<intlink href="../../border/"></intlink>
+<intlink href="../../z-index/"></intlink>
 
 <dots></dots>
 

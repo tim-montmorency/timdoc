@@ -58,9 +58,9 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../linear-gradient/"); ?>
-<?php intlink("../../box-shadow/"); ?>
-<?php intlink("../../../html/picture/"); ?>
-<?php intlink("../../../css/unites-de-mesure-avancees/"); ?>
+<intlink href="../../linear-gradient/"></intlink>
+<intlink href="../../box-shadow/"></intlink>
+<intlink href="../../../html/picture/"></intlink>
+<intlink href="../../../css/unites-de-mesure-avancees/"></intlink>
 
 <dots></dots>

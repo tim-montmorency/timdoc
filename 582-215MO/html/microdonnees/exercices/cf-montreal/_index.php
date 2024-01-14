@@ -69,6 +69,6 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../microdonnees/"); ?>
+<intlink href="../../../microdonnees/"></intlink>
 
 <dots></dots>

@@ -38,9 +38,9 @@ Remplacez ensuite son alpha de sorte qu'il s'incrémente de 5% par itération de
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../sass/boucle/"); ?>
-<?php intlink("../../sass/imbrication/"); ?>
-<?php intlink("../../../582-215MO/css/pseudo-classes-intermediaires/"); ?>
+<intlink href="../../sass/boucle/"></intlink>
+<intlink href="../../sass/imbrication/"></intlink>
+<intlink href="../../../582-215MO/css/pseudo-classes-intermediaires/"></intlink>
 
 
     

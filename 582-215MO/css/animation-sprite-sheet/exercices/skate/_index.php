@@ -42,6 +42,6 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../animation-sprite-sheet/"); ?>
+<intlink href="../../../animation-sprite-sheet/"></intlink>
 
 <dots></dots>

@@ -38,6 +38,6 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../iframe/"); ?>
+<intlink href="../../../iframe/"></intlink>
 
 <dots></dots>

@@ -98,7 +98,7 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../media-queries/"); ?>
-<?php intlink("../../linear-gradient/"); ?>
+<intlink href="../../media-queries/"></intlink>
+<intlink href="../../linear-gradient/"></intlink>
 
 <dots></dots>

@@ -107,14 +107,14 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../position/"); ?>
-<?php intlink("../../linear-gradient/"); ?>
-<?php intlink("../../background/"); ?>
-<?php intlink("../../overflow/"); ?>
-<?php intlink("../../opacite/"); ?>
-<?php intlink("../../font-face/"); ?>
-<?php intlink("../../box-shadow/"); ?>
-<?php intlink("../../animation/"); ?>
-<?php intlink("../../transformation/"); ?>
+<intlink href="../../position/"></intlink>
+<intlink href="../../linear-gradient/"></intlink>
+<intlink href="../../background/"></intlink>
+<intlink href="../../overflow/"></intlink>
+<intlink href="../../opacite/"></intlink>
+<intlink href="../../font-face/"></intlink>
+<intlink href="../../box-shadow/"></intlink>
+<intlink href="../../animation/"></intlink>
+<intlink href="../../transformation/"></intlink>
 
 <dots></dots>

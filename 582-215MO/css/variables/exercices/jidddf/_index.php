@@ -52,9 +52,9 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../unites-de-mesure-avancees/"); ?>
-<?php intlink("../../../../html/svg/"); ?>
-<?php intlink("../../../media-queries/"); ?>
-<?php intlink("../../../variables/"); ?>
+<intlink href="../../../unites-de-mesure-avancees/"></intlink>
+<intlink href="../../../../html/svg/"></intlink>
+<intlink href="../../../media-queries/"></intlink>
+<intlink href="../../../variables/"></intlink>
 
 <dots></dots>

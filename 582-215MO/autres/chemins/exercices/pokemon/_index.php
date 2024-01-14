@@ -30,7 +30,7 @@
 
 <grostitre>Notes de cours</grostitre>
 
-<?php intlink("../../../chemins/"); ?>
-<?php intlink("../../../../css/background/"); ?>
+<intlink href="../../../chemins/"></intlink>
+<intlink href="../../../../css/background/"></intlink>
 
 <dots></dots>

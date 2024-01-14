@@ -53,11 +53,11 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../display/"); ?>
-<?php intlink("../../../width-height/"); ?>
-<?php intlink("../../../margin/"); ?>
-<?php intlink("../../../padding/"); ?>
-<?php intlink("../../../border/"); ?>
-<?php intlink("../../../vertical-align/"); ?>
+<intlink href="../../../display/"></intlink>
+<intlink href="../../../width-height/"></intlink>
+<intlink href="../../../margin/"></intlink>
+<intlink href="../../../padding/"></intlink>
+<intlink href="../../../border/"></intlink>
+<intlink href="../../../vertical-align/"></intlink>
 
 <dots></dots>

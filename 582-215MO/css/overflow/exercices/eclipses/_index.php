@@ -40,8 +40,8 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../border/"); ?>
-<?php intlink("../../../overflow/"); ?>
+<intlink href="../../../border/"></intlink>
+<intlink href="../../../overflow/"></intlink>
 
 <dots></dots>
 

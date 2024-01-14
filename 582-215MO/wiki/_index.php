@@ -8,111 +8,111 @@
 ?>
 
 <wiki-page name="Cours 01A">
-    <?php intlink("../css/anatomie/"); ?>
-    <?php intlink("../css/selecteurs/"); ?>
-    <?php intlink("../css/selecteurs/exercices/css-diner/"); ?>
-    <?php intlink("../autres/chemins/"); ?>
-    <?php intlink("../autres/chemins/exercices/pokemon/"); ?>
+    <intlink href="../css/anatomie/"></intlink>
+    <intlink href="../css/selecteurs/"></intlink>
+    <intlink href="../css/selecteurs/exercices/css-diner/"></intlink>
+    <intlink href="../autres/chemins/"></intlink>
+    <intlink href="../autres/chemins/exercices/pokemon/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 01B">
-    <?php intlink("../css/flux/"); ?>
-    <?php intlink("../css/display/"); ?>
-    <?php intlink("../css/vertical-align/"); ?>
-    <?php intlink("../css/display/exercices/celeste/"); ?>
-    <?php intlink("../css/position/"); ?>
-    <?php intlink("../css/position/exercices/cat-in-the-box/"); ?>
+    <intlink href="../css/flux/"></intlink>
+    <intlink href="../css/display/"></intlink>
+    <intlink href="../css/vertical-align/"></intlink>
+    <intlink href="../css/display/exercices/celeste/"></intlink>
+    <intlink href="../css/position/"></intlink>
+    <intlink href="../css/position/exercices/cat-in-the-box/"></intlink>
     <h2>TP01 <em>(formatif)</em></h2>
-    <?php intlink("../css/exercices/weezer-album-bleu/"); ?>
+    <intlink href="../css/exercices/weezer-album-bleu/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 02A">
     <h3>Correction: Weezer - Blue Album</h3>
-    <?php intlink("../css/unites-de-mesure/"); ?>
-    <?php intlink("../css/padding/"); ?>
-    <?php intlink("../css/margin/"); ?>
-    <?php intlink("../css/width-height/"); ?>
-    <?php intlink("../css/width-height/exercices/system32/"); ?>
-    <?php intlink("../css/width-height/exercices/prevert/"); ?>
+    <intlink href="../css/unites-de-mesure/"></intlink>
+    <intlink href="../css/padding/"></intlink>
+    <intlink href="../css/margin/"></intlink>
+    <intlink href="../css/width-height/"></intlink>
+    <intlink href="../css/width-height/exercices/system32/"></intlink>
+    <intlink href="../css/width-height/exercices/prevert/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 02B">
-    <?php intlink("../css/border/"); ?>
-    <?php intlink("../css/box-sizing/"); ?>
-    <?php intlink("../css/border/exercices/q-bitz/"); ?>
-    <?php intlink("../css/box-sizing/exercices/illustrator/"); ?>
-    <?php intlink("../css/unites-de-couleur/"); ?>
-    <?php intlink("../css/float/"); ?>
-    <?php intlink("../css/float/exercices/rupi-kaur/"); ?>
+    <intlink href="../css/border/"></intlink>
+    <intlink href="../css/box-sizing/"></intlink>
+    <intlink href="../css/border/exercices/q-bitz/"></intlink>
+    <intlink href="../css/box-sizing/exercices/illustrator/"></intlink>
+    <intlink href="../css/unites-de-couleur/"></intlink>
+    <intlink href="../css/float/"></intlink>
+    <intlink href="../css/float/exercices/rupi-kaur/"></intlink>
     <h2>TP02 <em>(formatif)</em></h2>
-    <?php intlink("../css/exercices/queen-hot-space/"); ?>
+    <intlink href="../css/exercices/queen-hot-space/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 03A">
     <h3>Correction: Queen - Hot Space</h3>
-    <?php intlink("../css/pseudo-classes/"); ?>
-    <?php intlink("../css/pseudo-classes/exercices/cercles/"); ?>
-    <?php intlink("../css/pseudo-classes/exercices/bouton/"); ?>
-    <?php intlink("../css/selecteurs-avances/"); ?>
-    <?php intlink("../css/pseudo-classes-intermediaires/"); ?>
-    <?php intlink("../css/selecteurs-avances/exercices/css-diner/"); ?>
-    <?php intlink("../css/pseudo-classes-intermediaires/exercices/css-diner/"); ?>
-    <?php intlink("../css/pseudo-classes-intermediaires/exercices/grille/"); ?>
+    <intlink href="../css/pseudo-classes/"></intlink>
+    <intlink href="../css/pseudo-classes/exercices/cercles/"></intlink>
+    <intlink href="../css/pseudo-classes/exercices/bouton/"></intlink>
+    <intlink href="../css/selecteurs-avances/"></intlink>
+    <intlink href="../css/pseudo-classes-intermediaires/"></intlink>
+    <intlink href="../css/selecteurs-avances/exercices/css-diner/"></intlink>
+    <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
+    <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 03B">
-    <?php intlink("../css/background/"); ?>
-    <?php intlink("../css/background/exercices/candy-crush/"); ?>
-    <?php intlink("../css/linear-gradient/"); ?>
-    <?php intlink("../css/linear-gradient/exercices/igloofest/"); ?>
+    <intlink href="../css/background/"></intlink>
+    <intlink href="../css/background/exercices/candy-crush/"></intlink>
+    <intlink href="../css/linear-gradient/"></intlink>
+    <intlink href="../css/linear-gradient/exercices/igloofest/"></intlink>
     <h2>TP03 <em>(5%)</em></h2>
-    <?php intlink("../css/exercices/moby-i-like-to-score/"); ?>
+    <intlink href="../css/exercices/moby-i-like-to-score/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 04A">
-    <?php intlink("../css/nommage-et-formatage/"); ?>
-    <?php intlink("../css/fonte/"); ?>
-    <?php intlink("../css/text/"); ?>
-    <?php intlink("../css/text/exercices/focus/"); ?>
-    <?php intlink("../css/google-fonts/"); ?>
-    <?php intlink("../css/google-fonts/exercices/bart/"); ?>
-    <?php intlink("../css/font-face/"); ?>
-    <?php intlink("../css/font-face/exercices/la-guerre-la-guerre/"); ?>
+    <intlink href="../css/nommage-et-formatage/"></intlink>
+    <intlink href="../css/fonte/"></intlink>
+    <intlink href="../css/text/"></intlink>
+    <intlink href="../css/text/exercices/focus/"></intlink>
+    <intlink href="../css/google-fonts/"></intlink>
+    <intlink href="../css/google-fonts/exercices/bart/"></intlink>
+    <intlink href="../css/font-face/"></intlink>
+    <intlink href="../css/font-face/exercices/la-guerre-la-guerre/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 04B">
     <h3>Correction: Moby - I Like to Score</h3>
-    <?php intlink("../css/pseudo-classes-avancees/"); ?>
-    <?php intlink("../css/pseudo-classes-avancees/exercices/css-diner/"); ?>
-    <?php intlink("../css/specificite/"); ?>
-    <?php intlink("../css/specificite/exercices/specificite-css/"); ?>
-    <?php intlink("../css/font-face/"); ?>
-    <?php intlink("../css/font-face/exercices/la-guerre-la-guerre/"); ?>
+    <intlink href="../css/pseudo-classes-avancees/"></intlink>
+    <intlink href="../css/pseudo-classes-avancees/exercices/css-diner/"></intlink>
+    <intlink href="../css/specificite/"></intlink>
+    <intlink href="../css/specificite/exercices/specificite-css/"></intlink>
+    <intlink href="../css/font-face/"></intlink>
+    <intlink href="../css/font-face/exercices/la-guerre-la-guerre/"></intlink>
     <h2>TP04 <em>(formatif)</em></h2>
-    <?php intlink("../css/exercices/mindless-self-indulgence-fgwsss/"); ?>
-    <?php intlink("../css/exercices/little-richard-here-s-little-richard/"); ?>
+    <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink>
+    <intlink href="../css/exercices/little-richard-here-s-little-richard/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 05A" >
-    <?php intlink("../css/opacite/"); ?>
-    <?php intlink("../css/z-index/"); ?>
-    <?php intlink("../css/opacite/exercices/google-agenda/"); ?>
-    <?php intlink("../css/z-index/exercices/mains-de-monstres/"); ?>
-    <?php intlink("../css/overflow/"); ?>
-    <?php intlink("../css/box-shadow/"); ?>
-    <?php intlink("../css/overflow/exercices/eclipses/"); ?>
-    <?php intlink("../css/box-shadow/exercices/reseaux-sociaux/"); ?>
+    <intlink href="../css/opacite/"></intlink>
+    <intlink href="../css/z-index/"></intlink>
+    <intlink href="../css/opacite/exercices/google-agenda/"></intlink>
+    <intlink href="../css/z-index/exercices/mains-de-monstres/"></intlink>
+    <intlink href="../css/overflow/"></intlink>
+    <intlink href="../css/box-shadow/"></intlink>
+    <intlink href="../css/overflow/exercices/eclipses/"></intlink>
+    <intlink href="../css/box-shadow/exercices/reseaux-sociaux/"></intlink>
     <h2>TP Complémentaires <em>(formatif)</em></h2>
-    <?php intlink("../css/exercices/mindless-self-indulgence-fgwsss/"); ?>
-    <?php intlink("../css/exercices/band-de-garage-corpo-trash-vidange/"); ?>
+    <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink>
+    <intlink href="../css/exercices/band-de-garage-corpo-trash-vidange/"></intlink>
 </wiki-page>
 
 
@@ -124,133 +124,133 @@
 
 <wiki-page name="Cours 06A">
     <h3>Correction: Les Guardiens de la Galaxie</h3>
-    <?php intlink("../css/responsive/"); ?>
-    <?php intlink("../css/media-queries/"); ?>
-    <?php intlink("../css/media-queries/exercices/modok/"); ?>
-    <?php intlink("../css/media-queries/exercices/ou-est-charlie/"); ?>
-    <?php intlink("../css/unites-de-mesure-avancees/"); ?>
-    <?php intlink("../css/unites-de-mesure-avancees/exercices/marylene-gendron/"); ?>
+    <intlink href="../css/responsive/"></intlink>
+    <intlink href="../css/media-queries/"></intlink>
+    <intlink href="../css/media-queries/exercices/modok/"></intlink>
+    <intlink href="../css/media-queries/exercices/ou-est-charlie/"></intlink>
+    <intlink href="../css/unites-de-mesure-avancees/"></intlink>
+    <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
-    <?php intlink("../css/exercices/the-planet-smashers-unstoppable/"); ?>
+    <intlink href="../css/exercices/the-planet-smashers-unstoppable/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 06B">
     <h3>Correction: Mindless Self Indulgence</h3>
     <h3>Correction: Band de Garage</h3>
-    <?php intlink("../autres/vectoriel-vs-matriciel/"); ?>
-    <?php intlink("../html/svg/"); ?>
-    <?php intlink("../html/svg/exercices/hollywood-boulevard/"); ?>
-    <?php intlink("../css/variables/"); ?>
-    <?php intlink("../css/variables/exercices/canadiens/"); ?>
-    <?php intlink("../css/variables/exercices/jidddf/"); ?>
+    <intlink href="../autres/vectoriel-vs-matriciel/"></intlink>
+    <intlink href="../html/svg/"></intlink>
+    <intlink href="../html/svg/exercices/hollywood-boulevard/"></intlink>
+    <intlink href="../css/variables/"></intlink>
+    <intlink href="../css/variables/exercices/canadiens/"></intlink>
+    <intlink href="../css/variables/exercices/jidddf/"></intlink>
     <h2>TP05 <em>(10%)</em></h2>
-    <?php intlink("../css/exercices/rage-against-the-machine-renegades/"); ?>
+    <intlink href="../css/exercices/rage-against-the-machine-renegades/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 07A" date="2023-03-14">
     <h3>Correction: Journée Internationale des Droits des Femmes</h3>
-    <?php intlink("../html/image/"); ?>
-    <?php intlink("../autres/formats-d-image/"); ?>
-    <?php intlink("../html/picture/"); ?>
-    <?php intlink("../html/picture/exercices/ant-man/"); ?>
-    <?php intlink("../autres/actions-photoshop/"); ?>
-    <?php intlink("../autres/actions-photoshop/exercices/kirby/"); ?>
+    <intlink href="../html/image/"></intlink>
+    <intlink href="../autres/formats-d-image/"></intlink>
+    <intlink href="../html/picture/"></intlink>
+    <intlink href="../html/picture/exercices/ant-man/"></intlink>
+    <intlink href="../autres/actions-photoshop/"></intlink>
+    <intlink href="../autres/actions-photoshop/exercices/kirby/"></intlink>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
-    <?php intlink("../css/exercices/malajube-trompe-l-oeil/"); ?>
+    <intlink href="../css/exercices/malajube-trompe-l-oeil/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 07B" date="2023-03-15">
-    <?php intlink("../css/modes-de-fusion/"); ?>
-    <?php intlink("../css/modes-de-fusion/exercices/emotion/"); ?>
-    <?php intlink("../css/filtres/"); ?>
-    <?php intlink("../css/filtres/exercices/anonymat/"); ?>
-    <?php intlink("../css/filtres/exercices/instagram/"); ?>
-    <?php intlink("../css/pseudo-elements/"); ?>
-    <?php intlink("../css/pseudo-elements/exercices/zab-cafe/"); ?>
+    <intlink href="../css/modes-de-fusion/"></intlink>
+    <intlink href="../css/modes-de-fusion/exercices/emotion/"></intlink>
+    <intlink href="../css/filtres/"></intlink>
+    <intlink href="../css/filtres/exercices/anonymat/"></intlink>
+    <intlink href="../css/filtres/exercices/instagram/"></intlink>
+    <intlink href="../css/pseudo-elements/"></intlink>
+    <intlink href="../css/pseudo-elements/exercices/zab-cafe/"></intlink>
     <h2>TP06 <em>(10%)</em></h2>
-    <?php intlink("../css/exercices/nine-inch-nails-broken/"); ?>
+    <intlink href="../css/exercices/nine-inch-nails-broken/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 08A" date="2023-03-21">
     <h3>Correction: Rage Against The Machine - Renegades</h3>
-    <?php intlink("../css/object-fit/"); ?>
-    <?php intlink("../css/object-fit/exercices/mcdonalds/"); ?>
-    <?php intlink("../css/aspect-ratio/"); ?>
-    <?php intlink("../css/aspect-ratio/exercices/the-boys/"); ?>
+    <intlink href="../css/object-fit/"></intlink>
+    <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
+    <intlink href="../css/aspect-ratio/"></intlink>
+    <intlink href="../css/aspect-ratio/exercices/the-boys/"></intlink>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
-    <?php intlink("../css/exercices/alaclair-ensemble-les-maigres-blancs/"); ?>
+    <intlink href="../css/exercices/alaclair-ensemble-les-maigres-blancs/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 08B" date="2023-03-22">
     <h3>Correction: Malajube - Trompe l'oeil</h3>
-    <?php intlink("../css/transformation/"); ?>
-    <?php intlink("../css/transformation/exercices/formes/"); ?>
+    <intlink href="../css/transformation/"></intlink>
+    <intlink href="../css/transformation/exercices/formes/"></intlink>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
-    <?php intlink("../css/exercices/the-police-synchronicity/"); ?>
+    <intlink href="../css/exercices/the-police-synchronicity/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 09A" date="2023-03-28">
     <h3>Correction: Nine Inch Nails - Broken</h3>
-    <?php intlink("../css/animation/"); ?>
-    <?php intlink("../css/animation/exercices/pong/"); ?>
-    <?php intlink("../css/animation/exercices/fantome/"); ?>
-    <?php intlink("../css/animation/exercices/yo-yo/"); ?>
-    <?php intlink("../css/animation/exercices/pendule/"); ?>
+    <intlink href="../css/animation/"></intlink>
+    <intlink href="../css/animation/exercices/pong/"></intlink>
+    <intlink href="../css/animation/exercices/fantome/"></intlink>
+    <intlink href="../css/animation/exercices/yo-yo/"></intlink>
+    <intlink href="../css/animation/exercices/pendule/"></intlink>
     <h2>TP07 <em>(5%)</em></h2>
-    <?php intlink("../css/exercices/david-bowie-earthling/"); ?>
+    <intlink href="../css/exercices/david-bowie-earthling/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 09B" date="2023-03-29">
     <h3>Correction: The Police - Synchronicity</h3>
-    <?php intlink("../css/animation/"); ?>
-    <?php intlink("../css/animation/exercices/billes/"); ?>
-    <?php intlink("../css/animation/exercices/new-super-luigi/"); ?>
+    <intlink href="../css/animation/"></intlink>
+    <intlink href="../css/animation/exercices/billes/"></intlink>
+    <intlink href="../css/animation/exercices/new-super-luigi/"></intlink>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
-    <?php intlink("../css/exercices/red-hot-chili-peppers-blood-sugar-sex-magik/"); ?>
+    <intlink href="../css/exercices/red-hot-chili-peppers-blood-sugar-sex-magik/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 10A" date="2023-04-04">
-    <?php intlink("../autres/raccourcis-clavier/"); ?>
-    <?php intlink("../html/emmet/"); ?>
-    <?php intlink("../autres/inspecteur/"); ?>
-    <?php intlink("../autres/inspecteur-elements/"); ?>
-    <?php intlink("../autres/inspecteur-elements/exercices/unlock/"); ?>
-    <?php intlink("../autres/inspecteur-elements/exercices/urbania/"); ?>
+    <intlink href="../autres/raccourcis-clavier/"></intlink>
+    <intlink href="../html/emmet/"></intlink>
+    <intlink href="../autres/inspecteur/"></intlink>
+    <intlink href="../autres/inspecteur-elements/"></intlink>
+    <intlink href="../autres/inspecteur-elements/exercices/unlock/"></intlink>
+    <intlink href="../autres/inspecteur-elements/exercices/urbania/"></intlink>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
-    <?php intlink("../css/exercices/alexisonfire-watch-out/"); ?>
+    <intlink href="../css/exercices/alexisonfire-watch-out/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 10B" date="2023-04-05">
     <h3>Correction: David Bowie - Earthling</h3>    
-    <?php intlink("../css/transition/"); ?>
-    <?php intlink("../css/transition/exercices/spider-man/"); ?>
-    <?php intlink("../css/transition/exercices/bojack-horseman/"); ?>
-    <?php intlink("../css/transition/exercices/boutons/"); ?>
-    <?php intlink("../css/transition/exercices/fantome-mario/"); ?>
+    <intlink href="../css/transition/"></intlink>
+    <intlink href="../css/transition/exercices/spider-man/"></intlink>
+    <intlink href="../css/transition/exercices/bojack-horseman/"></intlink>
+    <intlink href="../css/transition/exercices/boutons/"></intlink>
+    <intlink href="../css/transition/exercices/fantome-mario/"></intlink>
     <h2>TP08 <em>(5%)</em></h2>
-    <?php intlink("../css/exercices/godspeed-you-black-emperor-lift-yr/"); ?>
+    <intlink href="../css/exercices/godspeed-you-black-emperor-lift-yr/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 11A" date="2023-04-15">
-    <?php intlink("../css/snap-scroll/"); ?>
-    <?php intlink("../css/snap-scroll/exercices/whatisadam/"); ?>
-    <?php intlink("../css/masquage/"); ?>
-    <?php intlink("../css/masquage/exercices/barbie-selfie/"); ?>
-    <?php intlink("../css/pseudo-classes-avancees/#has"); ?>
+    <intlink href="../css/snap-scroll/"></intlink>
+    <intlink href="../css/snap-scroll/exercices/whatisadam/"></intlink>
+    <intlink href="../css/masquage/"></intlink>
+    <intlink href="../css/masquage/exercices/barbie-selfie/"></intlink>
+    <intlink href="../css/pseudo-classes-avancees/#has"></intlink>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
-    <?php intlink("../css/exercices/mr-oizo-all-wet/"); ?>
+    <intlink href="../css/exercices/mr-oizo-all-wet/"></intlink>
     <h2>Révision pour l'examen</h2>
-    <?php intlink("../css/exercices/les-simpsons/"); ?>
+    <intlink href="../css/exercices/les-simpsons/"></intlink>
 </wiki-page>
 
 
@@ -263,23 +263,23 @@
 
 
 <wiki-page name="Cours 12A" date="2023-04-24">
-    <?php intlink("../html/formulaire/"); ?>
-    <?php intlink("../html/formulaire/exercices/carte-de-credit/"); ?>
+    <intlink href="../html/formulaire/"></intlink>
+    <intlink href="../html/formulaire/exercices/carte-de-credit/"></intlink>
     <h2>TP09 <em>(5%)</em></h2>
-    <?php intlink("../css/exercices/eagles-of-death-metal-peace-love-death-metal/"); ?>
+    <intlink href="../css/exercices/eagles-of-death-metal-peace-love-death-metal/"></intlink>
     <h2>Devoir: Vidéo Accessibilité 201</h2>
     <youtube src="./videos/acessibility-201.json"></youtube>
 </wiki-page>
 
 
 <wiki-page name="Cours 12B" date="2023-04-24">
-    <?php intlink("../html/formulaire-intermediaire/"); ?>
-    <?php intlink("../html/formulaire-intermediaire/exercices/menu-hamburger/"); ?>
-    <?php intlink("../html/formulaire-intermediaire/exercices/dragonball/"); ?>
-    <?php intlink("../html/formulaire-intermediaire/exercices/twitter/"); ?>
+    <intlink href="../html/formulaire-intermediaire/"></intlink>
+    <intlink href="../html/formulaire-intermediaire/exercices/menu-hamburger/"></intlink>
+    <intlink href="../html/formulaire-intermediaire/exercices/dragonball/"></intlink>
+    <intlink href="../html/formulaire-intermediaire/exercices/twitter/"></intlink>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
-    <?php intlink("../css/exercices/underworld-everything-everything/"); ?>
-    <?php intlink("../css/exercices/the-black-keys-turn-blue/"); ?>
+    <intlink href="../css/exercices/underworld-everything-everything/"></intlink>
+    <intlink href="../css/exercices/the-black-keys-turn-blue/"></intlink>
     <h2>Jeux uniquement en CSS</h2>
     <doclink href="https://codepen.io/takaneichinose/pen/YzqreVp">Room Escape</doclink>
     <doclink href="https://codepen.io/jcoulterdesign/pen/NOMeEb">The Mine</doclink>
@@ -289,68 +289,68 @@
 
 
 <wiki-page name="Cours 13A" date="2023-05-02">
-    <?php intlink("../html/formulaire-avance/"); ?>
-    <?php intlink("../html/formulaire-avance/exercices/among-us/"); ?>
+    <intlink href="../html/formulaire-avance/"></intlink>
+    <intlink href="../html/formulaire-avance/exercices/among-us/"></intlink>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
-    <?php intlink("../css/exercices/death-from-above-1979/"); ?>
-    <?php intlink("../css/exercices/air-premiers-symptomes/"); ?>
+    <intlink href="../css/exercices/death-from-above-1979/"></intlink>
+    <intlink href="../css/exercices/air-premiers-symptomes/"></intlink>
     <br>
     <img src="./images/baton-dans-les-roues-css-tps.jpg" style="width: 100%; max-width: 770px; margin: 0;">
 </wiki-page>
 
 
 <wiki-page name="Cours 13B" date="2023-05-03">
-    <?php intlink("../html/metadonnees/"); ?>
-    <?php intlink("../html/favicon/"); ?>
-    <?php intlink("../html/favicon/exercices/mega-man/"); ?>
-    <?php intlink("../html/citation/"); ?>
-    <?php intlink("../html/iframe/"); ?>
-    <?php intlink("../html/iframe/exercices/turbo-kid/"); ?>
-    <?php intlink("../html/details-et-summary/"); ?>
-    <?php intlink("../html/details-et-summary/exercices/quiz-marc-labreche/"); ?>
+    <intlink href="../html/metadonnees/"></intlink>
+    <intlink href="../html/favicon/"></intlink>
+    <intlink href="../html/favicon/exercices/mega-man/"></intlink>
+    <intlink href="../html/citation/"></intlink>
+    <intlink href="../html/iframe/"></intlink>
+    <intlink href="../html/iframe/exercices/turbo-kid/"></intlink>
+    <intlink href="../html/details-et-summary/"></intlink>
+    <intlink href="../html/details-et-summary/exercices/quiz-marc-labreche/"></intlink>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
-    <?php intlink("../css/exercices/lost-highway/"); ?>
-    <?php intlink("../css/exercices/king-crimson-larks-tongues-in-aspic/"); ?>
+    <intlink href="../css/exercices/lost-highway/"></intlink>
+    <intlink href="../css/exercices/king-crimson-larks-tongues-in-aspic/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 14A" date="2023-05-09">
-    <?php intlink("../css/animation-sprite-sheet/"); ?>
-    <?php intlink("../css/animation-sprite-sheet/exercices/sonic-knuckles/"); ?>
-    <?php intlink("../css/animation-sprite-sheet/exercices/skate/"); ?>
+    <intlink href="../css/animation-sprite-sheet/"></intlink>
+    <intlink href="../css/animation-sprite-sheet/exercices/sonic-knuckles/"></intlink>
+    <intlink href="../css/animation-sprite-sheet/exercices/skate/"></intlink>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
-    <?php intlink("../css/exercices/tool-aenima/"); ?>
-    <?php intlink("../css/exercices/asian-dub-foundation-rafis-revenge/"); ?>
+    <intlink href="../css/exercices/tool-aenima/"></intlink>
+    <intlink href="../css/exercices/asian-dub-foundation-rafis-revenge/"></intlink>
     <br>
     <img src="./images/fall-cliff-css-tps.jpg" style="width: 100%; max-width: 770px; margin: 0;">
 </wiki-page>
 
 
 <wiki-page name="Cours 14B" date="2023-05-10">
-    <?php intlink("../autres/navigation-clavier/"); ?>
-    <?php intlink("../css/outline/"); ?>
-    <?php intlink("../css/outline/exercices/skittles/"); ?>
-    <?php intlink("../html/open-graph-protocol/"); ?>
-    <?php intlink("../html/microdonnees/"); ?>
-    <?php intlink("../html/microdonnees/exercices/cf-montreal/"); ?>
+    <intlink href="../autres/navigation-clavier/"></intlink>
+    <intlink href="../css/outline/"></intlink>
+    <intlink href="../css/outline/exercices/skittles/"></intlink>
+    <intlink href="../html/open-graph-protocol/"></intlink>
+    <intlink href="../html/microdonnees/"></intlink>
+    <intlink href="../html/microdonnees/exercices/cf-montreal/"></intlink>
     <h2>TP Complémentaire <em>(formatif)</em></h2>
-    <?php intlink("../css/exercices/ttc-3615/"); ?>
-    <?php intlink("../css/exercices/nirvana-nevermind/"); ?>
-    <?php intlink("../css/exercices/pink-floyd-the-dark-side-of-the-moon/"); ?>
+    <intlink href="../css/exercices/ttc-3615/"></intlink>
+    <intlink href="../css/exercices/nirvana-nevermind/"></intlink>
+    <intlink href="../css/exercices/pink-floyd-the-dark-side-of-the-moon/"></intlink>
     <br><img src="./images/spiderman-tell-me-the-truth-jai-pas-fait-les-tps.jpg" style="width: 100%; max-width: 770px; margin: 0;">
 </wiki-page>
 
 
 <wiki-page name="Cours 15A" date="2023-05-16">
     <h3>TP Complémentaire <em>(formatif)</em></h3>
-    <?php intlink("../css/exercices/trainspotting/"); ?>
-    <?php intlink("../css/exercices/harmonium-l-heptade/"); ?>
-    <?php intlink("../css/exercices/lisa-leblanc-lisa-leblanc/"); ?>
-    <?php intlink("../css/exercices/robert-charlebois-la-maudite-tournee/"); ?>
-    <?php intlink("../css/exercices/les-cowboys-fringants-break-syndical/"); ?>
+    <intlink href="../css/exercices/trainspotting/"></intlink>
+    <intlink href="../css/exercices/harmonium-l-heptade/"></intlink>
+    <intlink href="../css/exercices/lisa-leblanc-lisa-leblanc/"></intlink>
+    <intlink href="../css/exercices/robert-charlebois-la-maudite-tournee/"></intlink>
+    <intlink href="../css/exercices/les-cowboys-fringants-break-syndical/"></intlink>
     
     <h2>Bonus</h2>
-    <?php intlink("../css/exercices/south-park/"); ?>
+    <intlink href="../css/exercices/south-park/"></intlink>
     <h2>Aperçu de l'examen final</h2>
     <video playsinline src="./videos/loup.mp4" autoplay="true" muted="true" loop="true" style="width: 100%; max-width: 770px;"></video><br>
 </wiki-page>

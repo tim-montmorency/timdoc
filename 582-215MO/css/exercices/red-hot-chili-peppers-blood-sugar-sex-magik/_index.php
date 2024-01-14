@@ -60,8 +60,8 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../selecteurs/"); ?>
-<?php intlink("../../animation/"); ?>
-<?php intlink("../../transformation/"); ?>
+<intlink href="../../selecteurs/"></intlink>
+<intlink href="../../animation/"></intlink>
+<intlink href="../../transformation/"></intlink>
 
 <dots></dots>

@@ -26,13 +26,13 @@
 <doclink href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EdBJVYhzdk9PhOGgFEHb1zgB0p3U7Sb662k6oQjrgQjcIw?e=IsrCJF">Présentation du cours</doclink>
 
 <h2>Présentation des stages</h2>
-<?php intlink("../stages/informations/"); ?>
+<intlink href="../stages/informations/"></intlink>
 
  <h2>Questionnaire</h2>
  <doclink href="https://forms.office.com/Pages/ResponsePage.aspx?id=x5Wp_94QyE6V2yjtBXZFXRNpbsE2ELxAl1w7h19byDhUQ1FETVQyREJYREc5UFg4WTVYMTRMNkRLNSQlQCN0PWcu">Questionnaire</doclink>
 
  <h2>Portfolio</h2>
- <?php intlink("../stages/portfolio/"); ?>
+ <intlink href="../stages/portfolio/"></intlink>
 
 </wiki-page>
 
@@ -43,7 +43,7 @@
 
 
  <h2>Portfolio</h2>
- <?php intlink("../stages/portfolio/"); ?>
+ <intlink href="../stages/portfolio/"></intlink>
 
  <h4>Aide pour le markdown</h4>
  <doclink href="https://www.markdownguide.org/cheat-sheet/">Cheatsheet Markdown</doclink>

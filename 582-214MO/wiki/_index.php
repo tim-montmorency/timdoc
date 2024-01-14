@@ -59,7 +59,7 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EVZ3fEbaJS1Cv0YL7uDlIR8BCMuohWMndfR5I5SmYWQUmA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=c7zFEM">Calques</a> </li>
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EVmoKapTOL1Am-kdZ2p9yTYBpBSGgi6B7rUxMS46wNZfLw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=h5nd9q">Naviguer sous les calques</a> </li>
 </p>
-<?php intlink("../exercices/00_nouveau_doc"); ?>
+<intlink href="../exercices/00_nouveau_doc"></intlink>
 
 
 <p><h3>Notions</h3>
@@ -80,7 +80,7 @@
     </ul>
 </li></ul></p>
 
-<?php intlink("../exercices/00_transformations"); ?>
+<intlink href="../exercices/00_transformations"></intlink>
 
 <p><h3>Notions</h3>
 <ul>
@@ -92,7 +92,7 @@
 
 </ul></p>
 
-<?php intlink("../exercices/01_plume"); ?>
+<intlink href="../exercices/01_plume"></intlink>
 
 <p><h3>Notions</h3>
 <ul>
@@ -101,7 +101,7 @@
 
 </ul></p>
 
-<?php intlink("../exercices/02_largeur"); ?>
+<intlink href="../exercices/02_largeur"></intlink>
 
 <p><h3>Notions</h3>
 <ul>
@@ -116,7 +116,7 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EcviPEP47J1Ogf4meoaxu-8B_61xVEBiwBvqUVY45Nrcng?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2PqhC9">Grille</a></li>
 </ul></p>
 
-<?php intlink("../exercices/03_formes"); ?>
+<intlink href="../exercices/03_formes"></intlink>
 
 <p><h3>Notions</h3>
 <ul>
@@ -125,14 +125,14 @@
 
 </ul></p>
 
-<?php intlink("../exercices/04_devoir_1"); ?>
+<intlink href="../exercices/04_devoir_1"></intlink>
 
 </wiki-page>
 
 
 <wiki-page name="Cours 02">
 <p><h2>Retour sur le devoir</h2></p>
-<?php intlink("../exercices/04_devoir_1"); ?>
+<intlink href="../exercices/04_devoir_1"></intlink>
 
 
 <p><h1>Illustrator</h1></p>
@@ -145,7 +145,7 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Eb09rvJNvZBMgL3Aqm2bBVIB0-JqHEbDOWhYHycTYAEx4Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LJx1uG">Simplifier les contours</a></li>
 </ul></p>
 
-<?php intlink("../exercices/05_crayon_Shaper"); ?></p>
+<intlink href="../exercices/05_crayon_Shaper"></intlink></p>
 
 
 <p><h3>Notions</h3>
@@ -158,7 +158,7 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfTQh_O2xOxEm6OAm5qFF8ABTHGCq_z-P97mzrj29_5Nlg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Q1x5N7">Vectoriser les contours</a></li>
 </ul></p>
 
-<?php intlink("../exercices/06_pinceau"); ?></p>
+<intlink href="../exercices/06_pinceau"></intlink></p>
 
 <p><h3>Notions</h3>
 
@@ -171,7 +171,7 @@
 
 </ul></p>
 
-<?php intlink("../exercices/07_nuancier"); ?></p>
+<intlink href="../exercices/07_nuancier"></intlink></p>
 
 <p><h3>Notions</h3>
 
@@ -184,7 +184,7 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EdhJAEN6HGtIqGxeIJIwsXIB0mcPekIvyl8aYIQSLE_niQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jpjyvJ">Marionnette filet</a></li>
 </ul></p>
 
-<?php intlink("../exercices/08_marionnette"); ?></p>
+<intlink href="../exercices/08_marionnette"></intlink></p>
 
 <p><h3>Notions</h3>
 
@@ -194,7 +194,7 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EYYUBQapSQ1Ouz3sLweeRGEB03GLDOWFWs1BQ-lb5ga9LQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WRNS9W">Répartition</a></li>
 </ul></p>
 
-<?php intlink("../exercices/09_pathfinder"); ?></p>
+<intlink href="../exercices/09_pathfinder"></intlink></p>
 
 <p><h3>Notions</h3>
 
@@ -203,11 +203,11 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXTcfcFC84xJltFyL_FIR3sBNFKIpMBBdcxbhAEYgab9jA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7gzUMn">Masque, Transparence</a></li>
 </ul></p>
 
-<?php intlink("../exercices/10_masques"); ?></p>
+<intlink href="../exercices/10_masques"></intlink></p>
 
 
 <p><h3>Explication travail 1</h3>
-<?php intlink("../exercices/travail1"); ?></p>
+<intlink href="../exercices/travail1"></intlink></p>
 
 </wiki-page>
 
@@ -224,7 +224,7 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ESbShMGkvydHpJOq6YYyMRwB4lUZluixP1YRQoC1i1gWpw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=blhB7U">Texte captif vertical</a></li>
 </ul></p>
 
-<?php intlink("../exercices/11_typographie"); ?></p>
+<intlink href="../exercices/11_typographie"></intlink></p>
 
 <p><h3>Précisions sur le travail 1</h3>
 
@@ -239,7 +239,7 @@
     </ul>
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EQxvVukVdoNNuMUHtJv_lAYBum0tGbmEKgz8wCj0PxISmA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=f1DUOn ">Vectorisation (cactus)</a></li>
 </ul></p>
-<?php intlink("../exercices/travail1"); ?></p>
+<intlink href="../exercices/travail1"></intlink></p>
 
 <p><h1>After Effects</h1></p>
 <alert>TOUJOURS TRAVAILLER SUR LA PARTITION MAC DE VOTRE SSD pour éviter la perte de votre projet ou sa corruption.</alert>
@@ -250,7 +250,7 @@
 
 <h3>Exercice</h3>
 <p>Vérifier que le monstre créé dans le devoir 1 a ses calques séparés et bien nommés.</p>
-<?php intlink("../exercices/04_devoir_1/#calques-animables"); ?></p>
+<intlink href="../exercices/04_devoir_1/#calques-animables"></intlink></p>
 
 <p><h3>Notions</h3>
 <ul>
@@ -268,7 +268,7 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Edt4AGvy6ABKlKpucCF-SzwB4oUeZjDflqnE8q81-j_1fA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YFV7VU">Sauvegarder un projet</a></li>
 </ul></p>
 
-<?php intlink("../exercices_ae/00_Importation"); ?></p>
+<intlink href="../exercices_ae/00_Importation"></intlink></p>
 
 <p><h3>Notions</h3>
 <ul>
@@ -281,7 +281,7 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EbxIne1zUL1JscVzC0cGXk4BZH9tOinv_qNyltcDdiLHRw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=C1B8cz">Raccourcis</a></li>
 </ul></p>
 
-<?php intlink("../exercices_ae/01_animation_base"); ?></p>
+<intlink href="../exercices_ae/01_animation_base"></intlink></p>
 
 </wiki-page>
 
@@ -313,24 +313,24 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EURUyP_qmFhMo5Uhn-M21ScBS4RXvbQiuv0yjmReJQoMWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nk5z8z">Orientation automatique</a></li>
 </ul>
 
-<?php intlink("../exercices_ae/02_orientation_auto"); ?></p>
+<intlink href="../exercices_ae/02_orientation_auto"></intlink></p>
 
 <p><h3>Notions</h3>
 <ul>
 <li><a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ek7P7WxNDiZOvaIhMw8lO98BoXHiBJTE6nlYfus6W5YViQ?e=fdyagQ">Lissage (Démonstration)</a></li>
 </ul></p>
 
-<?php intlink("../exercices_ae/03_lissage"); ?></p>
+<intlink href="../exercices_ae/03_lissage"></intlink></p>
 
 <p><h3>Notions</h3>
 <ul>
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ea6JW0d8YY9KilVu0k9HFfABxpdubaBGTysBx4ArKzOEDA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bGitTT">Masque</a></li>
 </ul></p>
 
-<?php intlink("../exercices_ae/04_masque"); ?></p>
+<intlink href="../exercices_ae/04_masque"></intlink></p>
 
 <p><h3>Devoir</h3>
-<?php intlink("../exercices_ae/devoir_c4"); ?>
+<intlink href="../exercices_ae/devoir_c4"></intlink>
 
 
 </wiki-page>
@@ -343,7 +343,7 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ES3WmSrhq1RCuxMr8aMjHBUBH8wCK_YGQdCCtN8uas5OKA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MicLoC">Parent/enfant</a></li>
 </ul>
 
-<?php intlink("../exercices_ae/05_objet_nul_parent"); ?></p>
+<intlink href="../exercices_ae/05_objet_nul_parent"></intlink></p>
 
 <h3>Marionnette:</h3>
 <ul>
@@ -353,7 +353,7 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfAPRPEfHkpKhmi0ww7FdtMBoWn_2jvRWR0qFUpTIo8XHw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jjElAB">Mouvement continu</a></li>
 </ul>
 
-<?php intlink("../exercices_ae/06_marionnette"); ?></p>
+<intlink href="../exercices_ae/06_marionnette"></intlink></p>
 
 <h3>Expressions:</h3>
 <ul>
@@ -362,7 +362,7 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ET7XALE-9OxOkTgWVtxjKWwBF3jdqLzs_VvNU80lY869IA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=npk6Qp">Wiggle</a></li>
 </ul>
 
-<?php intlink("../exercices_ae/07_expressions"); ?></p>
+<intlink href="../exercices_ae/07_expressions"></intlink></p>
 
 <h3>Effets:</h3> 
 <ul>
@@ -370,13 +370,13 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EeKWTIm30fFEpMaDd6H-vYIBsEfqLN6LBg33ne71jRAvOQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bcIAos">Bend it</a></li>
 </ul>
 
-<?php intlink("../exercices_ae/08_effets"); ?></p>
+<intlink href="../exercices_ae/08_effets"></intlink></p>
 
 <h3>Les 12 principes de l'animation</h3>
 <p><doclink href=" https://vimeo.com/93206523">Vidéo explicative</doclink></p>
 
 <h3>Travail 1 partie 2</h3>
-<?php intlink("../exercices_ae/travail1"); ?></p>
+<intlink href="../exercices_ae/travail1"></intlink></p>
 </wiki-page>
 
 
@@ -400,10 +400,10 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EdA-bTeQUQ1Ap8Wwr10hSt4BfXD4eJSNfWVy1LNkYE1ueQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oMfYca">Expression</a></li>
 </ul>
 
-<?php intlink("../exercices_ae/8.2"); ?></p>
+<intlink href="../exercices_ae/8.2"></intlink></p>
 
 <h3>Continuer travail 1 partie 2</h3>
-<?php intlink("../exercices_ae/travail1"); ?></p>
+<intlink href="../exercices_ae/travail1"></intlink></p>
 
 </wiki-page>
 

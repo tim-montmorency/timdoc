@@ -62,10 +62,10 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../unites-de-mesure-avancees/"); ?>
-<?php intlink("../../../background/"); ?>
-<?php intlink("../../../overflow/"); ?>
-<?php intlink("../../../margin/"); ?>
-<?php intlink("../../../padding/"); ?>
+<intlink href="../../../unites-de-mesure-avancees/"></intlink>
+<intlink href="../../../background/"></intlink>
+<intlink href="../../../overflow/"></intlink>
+<intlink href="../../../margin/"></intlink>
+<intlink href="../../../padding/"></intlink>
 
 <dots></dots>

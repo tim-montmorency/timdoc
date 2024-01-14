@@ -103,14 +103,14 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../ancre/"); ?>
-<?php intlink("../../balises/"); ?>
-<?php intlink("../../semantique/"); ?>
-<?php intlink("../../div-span/"); ?>
-<?php intlink("../../formatage-html/"); ?>
-<?php intlink("../../image/"); ?>
-<?php intlink("../../iframe/"); ?>
-<?php intlink("../../tableau/"); ?>
-<?php intlink("../../liste/"); ?>
+<intlink href="../../ancre/"></intlink>
+<intlink href="../../balises/"></intlink>
+<intlink href="../../semantique/"></intlink>
+<intlink href="../../div-span/"></intlink>
+<intlink href="../../formatage-html/"></intlink>
+<intlink href="../../image/"></intlink>
+<intlink href="../../iframe/"></intlink>
+<intlink href="../../tableau/"></intlink>
+<intlink href="../../liste/"></intlink>
 
 <dots></dots>

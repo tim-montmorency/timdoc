@@ -44,6 +44,6 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../outline/"); ?>
+<intlink href="../../../outline/"></intlink>
 
 <dots></dots>

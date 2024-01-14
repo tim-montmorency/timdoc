@@ -60,11 +60,11 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../linear-gradient/"); ?>
-<?php intlink("../../unites-de-mesure/"); ?>
-<?php intlink("../../transformation/"); ?>
-<?php intlink("../../selecteurs-avances/"); ?>
-<?php intlink("../../transition/"); ?>
+<intlink href="../../linear-gradient/"></intlink>
+<intlink href="../../unites-de-mesure/"></intlink>
+<intlink href="../../transformation/"></intlink>
+<intlink href="../../selecteurs-avances/"></intlink>
+<intlink href="../../transition/"></intlink>
 
 <dots></dots>
 

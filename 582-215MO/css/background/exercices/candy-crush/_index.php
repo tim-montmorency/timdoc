@@ -59,7 +59,7 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../background/"); ?>
+<intlink href="../../../background/"></intlink>
 
 <dots></dots>
 

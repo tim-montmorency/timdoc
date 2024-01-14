@@ -95,11 +95,11 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../background/"); ?>
-<?php intlink("../../linear-gradient/"); ?>
-<?php intlink("../../box-shadow/"); ?>
-<?php intlink("../../unites-de-mesure-avancees/"); ?>
-<?php intlink("../../transformation/"); ?>
-<?php intlink("../../animation/"); ?>
+<intlink href="../../background/"></intlink>
+<intlink href="../../linear-gradient/"></intlink>
+<intlink href="../../box-shadow/"></intlink>
+<intlink href="../../unites-de-mesure-avancees/"></intlink>
+<intlink href="../../transformation/"></intlink>
+<intlink href="../../animation/"></intlink>
 
 <dots></dots>

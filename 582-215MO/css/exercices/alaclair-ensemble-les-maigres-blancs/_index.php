@@ -93,13 +93,13 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../margin/"); ?>
-<?php intlink("../../variables/"); ?>
-<?php intlink("../../linear-gradient/"); ?>
-<?php intlink("../../modes-de-fusion/"); ?>
-<?php intlink("../../filtres/"); ?>
-<?php intlink("../../pseudo-elements/"); ?>
-<?php intlink("../../google-fonts/"); ?>
+<intlink href="../../margin/"></intlink>
+<intlink href="../../variables/"></intlink>
+<intlink href="../../linear-gradient/"></intlink>
+<intlink href="../../modes-de-fusion/"></intlink>
+<intlink href="../../filtres/"></intlink>
+<intlink href="../../pseudo-elements/"></intlink>
+<intlink href="../../google-fonts/"></intlink>
 
 <dots></dots>
 

@@ -97,10 +97,10 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../background/"); ?>
-<?php intlink("../../filtres/"); ?>
-<?php intlink("../../../html/svg/"); ?>
-<?php intlink("../../animation/"); ?>
-<?php intlink("../../animation-sprite-sheet/"); ?>
+<intlink href="../../background/"></intlink>
+<intlink href="../../filtres/"></intlink>
+<intlink href="../../../html/svg/"></intlink>
+<intlink href="../../animation/"></intlink>
+<intlink href="../../animation-sprite-sheet/"></intlink>
 
 <dots></dots>
