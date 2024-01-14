@@ -13,8 +13,8 @@
  * the PHP License and are unable to obtain it through the web, please
  * send a note to license@php.net so we can mail you a copy immediately.
  *
- * @author     Maxime Larrivée-Roy <maxime.lroy@cmontmorency.qc.ca>
- * @copyright  2023 Collège Montmorency
+ * @author     Maxime Larrivée-Roy <zmotrin@gmail.com>
+ * @copyright  2024 Diametrick
  * @license    http://www.php.net/license/3_01.txt  PHP License 3.01
  * @link       https://github.com/tim-montmorency/timdoc/tree/main/_bin/mac
  */
