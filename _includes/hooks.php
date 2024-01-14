@@ -42,7 +42,7 @@ $this->registerHook('post_render', function($contents) {
                     <span class="tool-title">{$info->title}</span>
                     <span class="tool-description">{$info->abstract}</span>
                 </div>
-                <div class="tool-thumb" :style="'background-image: url({$thumb})'"></div>
+                <div class="tool-thumb" style="background-image: url({$thumb})"></div>
             </div>
         </a>
 EOD;
