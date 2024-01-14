@@ -7,9 +7,10 @@ $this->registerHook('post_render', function($contents) {
         if(empty($attrs['href'])) return;
         if(!is_file(($file = realpath(pathinfo($this->file, PATHINFO_DIRNAME).S.$attrs['href']).S.'_index.php'))) return;
         if(!$info = php_file_info($file)) return;
+        $url = !empty($info->url) ? $info->url : $attrs['href'];
         $thumb = rtrim($attrs['href'], '/').'/'.$info->icon;
-		$str = <<<EOD
-        <a class="exercice" target="_blank" href="{$attrs['href']}">
+		return <<<EOD
+        <a class="exercice" target="_blank" href="{$url}">
             <div class="exercice-container">
                 <div class="exercice-thumb" style="background-image: url({$thumb})"></div>
                 <div class="exercice-abstract">
@@ -20,8 +21,31 @@ $this->registerHook('post_render', function($contents) {
             </div>
         </a>
 EOD;
-        return $str;
     });
     return $contents;
 });
 
+
+// Static tool
+$this->registerHook('post_render', function($contents) {
+    $contents = replace_tags('tool', $contents, function($html, $attrs, $data) {
+        if(empty($attrs['href'])) return;
+        if(!is_file(($file = realpath(pathinfo($this->file, PATHINFO_DIRNAME).S.$attrs['href']).S.'_index.php'))) return;
+        if(!$info = php_file_info($file)) return;
+        $url = !empty($info->url) ? $info->url : $attrs['href'];
+        $thumb = rtrim($attrs['href'], '/').'/'.$info->icon;
+		return <<<EOD
+        <a class="tool" target="_blank" href="{$url}">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">{$info->title}</span>
+                    <span class="tool-description">{$info->abstract}</span>
+                </div>
+                <div class="tool-thumb" :style="'background-image: url({$thumb})'"></div>
+            </div>
+        </a>
+EOD;
+    });
+    return $contents;
+});

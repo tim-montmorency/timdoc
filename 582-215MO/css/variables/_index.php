@@ -119,8 +119,5 @@
 <exercice href="exercices/jidddf/"></exercice>
 <exercice href="exercices/canadiens/"></exercice>
 <exercice href="exercices/lakers/"></exercice>
-<exercice href="exercices/lakers/" patate="poil"></exercice>
-<exercice href="../animation/exercices/fantome/"></exercice>
-<exercice></exercice>
 
 <dots></dots>
