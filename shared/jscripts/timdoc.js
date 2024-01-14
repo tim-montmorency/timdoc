@@ -103,12 +103,6 @@ const toDataURL = async (url) => {
 
 
 /******************************************************
- *                     Load theme                     *
- ******************************************************/
-// setTimeout(() => { document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light'; }, 1);
-
-
-/******************************************************
  *                     Main App                       *
  ******************************************************/
  const app = Vue.createApp({
@@ -643,9 +637,8 @@ app.component('clip', {
  app.component('youtube', {
     props: ['src'],
     data() {
-        let defaultId = 'o-YBDTqX_ZU';  
         let details = null;
-        let id = null      
+        let defaultId = 'o-YBDTqX_ZU';
         if(/^[\w\-_]{10,12}$/.test(this.src)) {
             if(!(details = localStorage.getItem('youtube_' + this.src))) {
                 if(!(details = syncjson('https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=' + this.src + '&format=json'))){

@@ -112,12 +112,15 @@
 
 <grostitre>Résumé vidéo</grostitre>
 
-<clip src="videos/css-variables-in-100-seconds.mp4"></clip>
+<youtube src="NtRmIp4eMjs"></youtube>
 
 <dots></dots>
 
 <exercice href="exercices/jidddf/"></exercice>
 <exercice href="exercices/canadiens/"></exercice>
 <exercice href="exercices/lakers/"></exercice>
+<exercice href="exercices/lakers/" patate="poil"></exercice>
+<exercice href="../animation/exercices/fantome/"></exercice>
+<exercice></exercice>
 
 <dots></dots>

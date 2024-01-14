@@ -38,6 +38,7 @@ final class PXPros
     private $page;
     private $config;
     private $vars = [];
+    private $hooks = [];
 
 
     /**
@@ -122,7 +123,39 @@ final class PXPros
         if($this->before) include(realpath($this->root.$this->before));
         include($file);
         if($this->after) include(realpath($this->root.$this->after));
-        file_put_contents($target, ob_get_clean());
+        $contents = ob_get_clean();
+        $contents = $this->processHook('post_render', $contents);
+        file_put_contents($target, $contents);
+        
+    }
+
+    
+    /**
+     * registerHook
+     *
+     * @param  string $hook Name of the hook
+     * @param  callable $clb The callback
+     * @return void
+     */
+    public function registerHook($hook, $clb) {
+        $this->hooks[$hook][] = $clb;
+    }
+
+    
+    /**
+     * processHook
+     *
+     * @param  string $hook Name of the hook
+     * @param  mixed $data The data to be returned by the callback
+     * @return mixed
+     */
+    public function processHook($hook, $data=null) {
+        if(!empty($this->hooks[$hook])) {
+            foreach($this->hooks[$hook] as $clb) {
+                $data = call_user_func($clb, $data);
+            }
+        }
+        return $data;
     }
 
 
@@ -143,6 +176,8 @@ final class PXPros
         } while ($path != pathinfo($path, PATHINFO_DIRNAME));
         return false;
     }
+
+
 }
 
 
@@ -223,9 +258,10 @@ if (is_dir($target)) {
     }
 } elseif (preg_match('#^_(.*)\.php$#i', pathinfo($target, PATHINFO_BASENAME), $m)) {
     if (!$root = PXPros::findRoot($target)) err("No project configuration found.");
+    $pxpros = new PXPros($root);
     echo 'Render: ';
     echo str_replace([pathinfo($root, PATHINFO_DIRNAME), S, '\\'], ['', '/', '/'], $target) . RN;
-    (new PXPros($root))->render($target);
+    $pxpros->render($target);
 } else {
     err("Invalid target.");
 }
