@@ -285,7 +285,8 @@ body.dark table tr:nth-child(even) td {
   width: 0px;
   height: 36px;
 }
-.grostitre h1, .grostitre h2 {
+.grostitre h1,
+.grostitre h2 {
   font-size: 7vw !important;
   vertical-align: middle;
   margin-right: 15px;
@@ -293,7 +294,8 @@ body.dark table tr:nth-child(even) td {
   margin-bottom: 0 !important;
 }
 @media (min-width: 576px) {
-  .grostitre h1, .grostitre h2 {
+  .grostitre h1,
+.grostitre h2 {
     /* SVP conservez la variable CSS (et non scss) ici car je l'utilise en démo dans un des mes cours (Marie-Michelle) */
     font-size: var(--grostitre-size-desktop) !important;
   }
