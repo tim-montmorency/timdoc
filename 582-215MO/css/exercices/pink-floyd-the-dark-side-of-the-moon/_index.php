@@ -118,8 +118,6 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<img src="../../google-fonts/" alt="">
-
 <intlink href="../../background/"></intlink>
 <intlink href="../../linear-gradient/"></intlink>
 <intlink href="../../box-shadow/"></intlink>
