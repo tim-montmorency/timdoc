@@ -1696,8 +1696,8 @@ article {
 }
 
 footer {
-  margin-top: 100px;
   width: 100%;
+  height: 100px;
   border-top: 1px solid rgb(204, 207, 217);
   text-align: center;
   padding: 36px 0 30px;
@@ -1731,6 +1731,7 @@ footer #copyright {
   max-width: 770px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 100px;
   padding: 0 25px;
 }
 #contents ul, #contents ol, #wiki__pages ul, #wiki__pages ol {

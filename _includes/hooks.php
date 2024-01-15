@@ -1,8 +1,9 @@
 <?php
 
-
-// Static exercice
-$this->registerTag('exercice', function($html, $attrs, $data) {
+/******************************************************
+ *                Composante Exercice                 *
+ ******************************************************/
+register_tag('exercice', function($html, $attrs, $data) {
     if(empty($attrs['href'])) return;
     if(!is_file(($file = realpath(pathinfo($this->file, PATHINFO_DIRNAME).S.$attrs['href']).S.'_index.php'))) return;
     if(!$info = php_file_info($file)) return;
@@ -23,9 +24,10 @@ EOD;
 });
 
 
-
-// Static tool
-$this->registerTag('tool', function($html, $attrs, $data) {
+/******************************************************
+ *                  Composante Tool                   *
+ ******************************************************/
+register_tag('tool', function($html, $attrs, $data) {
     if(empty($attrs['href'])) return;
     if(!is_file(($file = realpath(pathinfo($this->file, PATHINFO_DIRNAME).S.$attrs['href']).S.'_index.php'))) return;
     if(!$info = php_file_info($file)) return;
@@ -46,9 +48,10 @@ EOD;
 });
 
 
-
-// Static inlink
-$this->registerTag('intlink', function($html, $attrs, $data) {
+/******************************************************
+ *                 Composante Intlink                 *
+ ******************************************************/
+register_tag('intlink', function($html, $attrs, $data) {
     if(empty($attrs['href'])) return;
     $path = $attrs['href'];
     if(strpos($path, '#') !== false) list($path, $anchor) = explode('#', $path);

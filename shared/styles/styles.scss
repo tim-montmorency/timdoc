@@ -227,8 +227,9 @@ article {
 }
 
 footer {
-    margin-top: 100px;
+    // margin-top: 100px;
     width: 100%;
+    height: 100px;
     // background: rgb(225 228 242);
     //background-color: #e5ecf1;
     border-top: 1px solid rgb(204, 207, 217);
@@ -269,7 +270,9 @@ footer {
     max-width: 770px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
     padding: 0 25px;
+    // height: calc(100% - 100px);
 
     ul, ol {
         margin-left: 25px;

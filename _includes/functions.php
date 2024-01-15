@@ -128,6 +128,19 @@ function intlink($path=null){
 
 
 /**
+ * register_tag
+ *
+ * @param  mixed $tag
+ * @param  mixed $clb
+ * @return void
+ */
+function register_tag($tag, $clb) {
+    global $PAGE;
+    return $PAGE->registerTag($tag, $clb);
+}
+
+
+/**
  * Specific header printing
  *
  * @return void

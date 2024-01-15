@@ -89,7 +89,7 @@
 
 <grostitre>Bande-annonce</grostitre>
 
-<youtube src="./videos/barbie-trailer.json"></youtube>
+<youtube src="GRyt3Ov4zz0"></youtube>
 
 <dots></dots>
 

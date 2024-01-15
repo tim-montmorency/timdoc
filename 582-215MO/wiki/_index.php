@@ -258,7 +258,7 @@
     <h3>Examen: Birds of Prey</h3>
     <video playsinline src="./videos/birds-of-prey.mp4" autoplay="true" muted="true" loop="true" style="width: 100%; max-width: 770px;"></video>
     <h2>Devoir: Vidéo Accessibilité 101</h2>
-    <youtube src="./videos/acessibility-101.json"></youtube>
+    <youtube src="SOt4nkPib8Y"></youtube>
 </wiki-page>
 
 
@@ -268,7 +268,7 @@
     <h2>TP09 <em>(5%)</em></h2>
     <intlink href="../css/exercices/eagles-of-death-metal-peace-love-death-metal/"></intlink>
     <h2>Devoir: Vidéo Accessibilité 201</h2>
-    <youtube src="./videos/acessibility-201.json"></youtube>
+    <youtube src="5Td0U8BbgyE"></youtube>
 </wiki-page>
 
 
