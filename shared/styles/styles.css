@@ -885,6 +885,13 @@ a.doclink .doclink-icon {
   background-color: #cf649a;
 }
 
+.doclink.vuforia .doclink-icon {
+  background-image: url("../images/vuforia-icon.png");
+}
+.doclink.vuforia::before {
+  background-color: #6ebf4b;
+}
+
 a.exercice {
   display: block;
   background-image: linear-gradient(0deg, #87ceeb, 20%, #f0f8fc);

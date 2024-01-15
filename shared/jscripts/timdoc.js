@@ -103,6 +103,15 @@ const toDataURL = async (url) => {
 
 
 /******************************************************
+ *            Highest common denominator              *
+ ******************************************************/
+const hcd = (a,b) => {
+    do var r=a; while ((b=r%(a=b))>0);  
+    return a;  
+}
+
+
+/******************************************************
  *                     Main App                       *
  ******************************************************/
  const app = Vue.createApp({
@@ -506,6 +515,7 @@ app.component('doclink', {
                 case 'smnarnold.com': site = 'smnarnold'; break;
                 case 'trello.com': site = 'trello'; break;
                 case 'sass-lang.com' : site = 'sass'; break;
+                case 'developer.vuforia.com' : site = 'vuforia'; break;
             }
         } catch(e) {
             if(this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
@@ -652,11 +662,13 @@ app.component('clip', {
         } else {
             details = syncjson(this.src);
         }
+        let denominator = hcd(details.width, details.height);
         return {
             id: /\/embed\/([^\/]+)\?/g.exec(details.html)[1],
             title: details.title,
             width: details.width,
             height: details.height,
+            aspect: (details.width / denominator) + '/' + (details.height / denominator),
             thumbnail_url: details.thumbnail_url,
             playbtn: 'block',
             player: ''
@@ -669,7 +681,7 @@ app.component('clip', {
         }
     },
     template: `
-        <div class="youtube-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.width + '/' + this.height + ';'">
+        <div class="youtube-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.aspect + ';'">
             <div class="youtube-wrapper__title" :style="'display: ' + this.playbtn + ';'"><div>{{ title }}</div></div>
             <div class="youtube-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
             <div class="youtube-wrapper__player" v-html="player"></div>
