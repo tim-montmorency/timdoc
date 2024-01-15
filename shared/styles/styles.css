@@ -1426,6 +1426,7 @@ div.quote__title {
           user-select: none;
 }
 .youtube-wrapper__title div {
+  color: white;
   position: absolute;
   max-width: calc(100% - 16px);
   left: 16px;
