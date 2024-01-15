@@ -112,6 +112,16 @@ const hcd = (a,b) => {
 
 
 /******************************************************
+ *                     Mount App                      *
+ ******************************************************/
+ function timdocMount() {
+    app.config.compilerOptions.whitespace = 'preserve';
+    app.mount('body');
+    hljs.highlightAll();
+}
+
+
+/******************************************************
  *                     Main App                       *
  ******************************************************/
  const app = Vue.createApp({
@@ -1142,12 +1152,5 @@ app.component('criteria', {
         </tr>`
 });
 
-
-/******************************************************
- *                     Mount App                      *
- ******************************************************/
-function timdocMount() {
-    app.config.compilerOptions.whitespace = 'preserve';
-    app.mount('body');
-    hljs.highlightAll();
-}
+const urlParams = new URLSearchParams(window.location.search);
+if(urlParams.get('dark') !== null) localStorage.setItem('darkmode', 'true');
