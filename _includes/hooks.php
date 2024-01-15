@@ -70,3 +70,13 @@ register_tag('intlink', function($html, $attrs, $data) {
         </div>
 EOD;
 });
+
+
+/******************************************************
+ *                 Composante Children                *
+ ******************************************************/
+
+register_tag('children', function($html, $attrs, $data) {
+    global $PAGE;
+    return print_children($PAGE->file, true);
+});

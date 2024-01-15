@@ -55,7 +55,7 @@ final class PXPros
         if (!$json = file_get_contents($prjfile)) return false; //throw error
         if (!$this->config = json_decode($json)) return false; //throw error
         $this->root = pathinfo($prjfile, PATHINFO_DIRNAME) . S;
-        $PAGE = $this;
+        $GLOBALS['PAGE'] = $this;
         $this->includes();
     }
 
