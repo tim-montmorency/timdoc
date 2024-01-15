@@ -111,13 +111,16 @@ header {
     #logo {
         position: relative;
         top: 60px;
-        width: 276px;
+        width: 216px;
+        // width: 200px;
         fill:#ff003a;
         background-repeat: no-repeat;
         cursor: pointer;
+        // background-color: blue;
     }
 
     #lightswitch {
+        // display: none;
         background-color: #ffffff;
         background-size: 34px 34px;
         background-repeat: no-repeat;
@@ -126,10 +129,10 @@ header {
         height: 34px;
         left: 240px;
         border-radius: 50%;
-        cursor: pointer;
         overflow: hidden;
         transition-property: transform;
         transition-duration: 100ms;
+        cursor: pointer;
 
         &::before {
             content: '';
@@ -148,6 +151,7 @@ header {
 
         &:hover {
             transform: scale(1.2);
+            
         }
 
     }

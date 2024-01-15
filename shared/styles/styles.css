@@ -1593,7 +1593,7 @@ header {
 header #logo {
   position: relative;
   top: 60px;
-  width: 276px;
+  width: 216px;
   fill: #ff003a;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -1607,10 +1607,10 @@ header #lightswitch {
   height: 34px;
   left: 240px;
   border-radius: 50%;
-  cursor: pointer;
   overflow: hidden;
   transition-property: transform;
   transition-duration: 100ms;
+  cursor: pointer;
 }
 header #lightswitch::before {
   content: "";
