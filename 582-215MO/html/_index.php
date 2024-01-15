@@ -5,5 +5,5 @@
  * @icon     images/icon.png
  * @abstract HyperText Markup Language
  */
-
- print_children();
+?>
+<children></children>
