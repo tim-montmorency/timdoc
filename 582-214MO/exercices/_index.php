@@ -5,7 +5,5 @@
  * @icon     images/icon.png
  * @abstract Illustrator et After effects
  */
-
-
-
- print_children();
+?>
+<children></children>

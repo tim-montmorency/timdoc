@@ -5,7 +5,5 @@
  * @icon     images/icon.png
  * @abstract Introduction à Unity 
  */
-
-
-
- print_children();
+?>
+<children></children>

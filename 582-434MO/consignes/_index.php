@@ -5,7 +5,5 @@
  * @icon     images/icon.png
  * @abstract Travaux, exercices
  */
-
-
-
- print_children();
+?>
+<children></children>

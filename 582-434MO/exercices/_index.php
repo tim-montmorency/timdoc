@@ -5,9 +5,7 @@
  * @icon     images/icon.png
  * @abstract Introduction à la 3D
  */
-
-
-
- print_children();
+?>
+<children></children>
 
 

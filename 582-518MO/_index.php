@@ -6,5 +6,5 @@
  * @abstract 582-518MO
  * @index 5
  */
-
- print_children();
+?>
+<children></children>

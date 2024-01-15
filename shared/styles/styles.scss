@@ -406,15 +406,18 @@ footer {
         width: 100%;
         display: grid;
         grid-template-columns: 100%;
+        // grid-gap: 10px;
 
         @media (min-width: 576px)  {
             grid-template-columns: 50% 50%;
         }
 
         &__item {
+            // border: 1px solid white;
             display: flex;
             height: auto;
             margin-bottom: 20px;
+            padding-right: 10px;
             @media (min-width: 576px)  {
                 height: 60px;
                 margin-bottom: 0;

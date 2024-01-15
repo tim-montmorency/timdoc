@@ -4,7 +4,7 @@
  * @title    Optimisation
  * @icon     images/icon.png
  * @abstract Optimisation des performances de chargement
- * * @index    40
+ * @index    40
  */
-
- print_children();
+?>
+<children></children>

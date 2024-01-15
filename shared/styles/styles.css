@@ -1879,6 +1879,7 @@ footer #copyright {
   display: flex;
   height: auto;
   margin-bottom: 20px;
+  padding-right: 10px;
 }
 @media (min-width: 576px) {
   #listing .list-grid__item {
