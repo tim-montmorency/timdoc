@@ -1609,6 +1609,8 @@ header #lightswitch {
   border-radius: 50%;
   cursor: pointer;
   overflow: hidden;
+  transition-property: transform;
+  transition-duration: 100ms;
 }
 header #lightswitch::before {
   content: "";
@@ -1626,6 +1628,9 @@ header #lightswitch.lightswitch--on::before {
 }
 header #lightswitch.lightswitch--off::before {
   top: 34px;
+}
+header #lightswitch:hover {
+  transform: scale(1.2);
 }
 
 #subhead {

@@ -128,6 +128,8 @@ header {
         border-radius: 50%;
         cursor: pointer;
         overflow: hidden;
+        transition-property: transform;
+        transition-duration: 100ms;
 
         &::before {
             content: '';
@@ -143,6 +145,11 @@ header {
 
         &.lightswitch--on::before { top: 0px; }
         &.lightswitch--off::before { top: 34px; }
+
+        &:hover {
+            transform: scale(1.2);
+        }
+
     }
 }
 
