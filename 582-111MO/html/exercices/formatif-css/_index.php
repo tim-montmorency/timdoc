@@ -201,7 +201,7 @@
     La marge supérieure de 200px. 
     La marge intérieure inférieure de 40px.
     <br>
-    P<em>our l'élément .social a:</em> 
+    <em>Pour l'élément .social a:</em> 
     Définissez l'affichage en bloc en ligne.
     La couleur du texte en #6. 
     La marge extérieure droite de 25px.
