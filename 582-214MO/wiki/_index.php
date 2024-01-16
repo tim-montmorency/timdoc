@@ -370,7 +370,8 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EeKWTIm30fFEpMaDd6H-vYIBsEfqLN6LBg33ne71jRAvOQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bcIAos">Bend it</a></li>
 </ul>
 
-<intlink href="../exercices_ae/08_effets"></intlink></p>
+<h3>Exercice, faire la section onde progressive et bend it:</h3>
+<?php intlink("../exercices_ae/08_effets"); ?></p>
 
 <h3>Les 12 principes de l'animation</h3>
 <p><doclink href=" https://vimeo.com/93206523">Vidéo explicative</doclink></p>
@@ -400,7 +401,8 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EdA-bTeQUQ1Ap8Wwr10hSt4BfXD4eJSNfWVy1LNkYE1ueQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oMfYca">Expression</a></li>
 </ul>
 
-<intlink href="../exercices_ae/8.2"></intlink></p>
+<h3>Exercice, faire la section pluie:</h3>
+<?php intlink("../exercices_ae/08_effets"); ?></p>
 
 <h3>Continuer travail 1 partie 2</h3>
 <intlink href="../exercices_ae/travail1"></intlink></p>
