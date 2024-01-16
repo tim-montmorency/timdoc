@@ -701,6 +701,50 @@ app.component('clip', {
 
 
 /******************************************************
+ *                  Composante Vimeo                  *
+ ******************************************************/
+ app.component('vimeo', {
+    props: ['src'],
+    data() {
+        let details = null;
+        let defaultId = '844557780';
+        if(!(details = localStorage.getItem('vimeo_' + this.src))) {
+            if(!(details = syncjson('https://vimeo.com/api/oembed.json?url=https://vimeo.com/' + this.src))){
+                details = syncjson('https://vimeo.com/api/oembed.json?url=https://vimeo.com/' + defaultId)
+            } else {
+                localStorage.setItem('vimeo_' + this.src, JSON.stringify(details));
+            }
+        } else {
+            details = JSON.parse(details);
+        }
+        let denominator = hcd(details.width, details.height);
+        return {
+            id: this.src,
+            title: details.title,
+            width: details.width,
+            height: details.height,
+            aspect: (details.width / denominator) + '/' + (details.height / denominator),
+            thumbnail_url: details.thumbnail_url,
+            playbtn: 'block',
+            player: ''
+        }
+    },
+    methods: {
+        play(){
+            this.player = '<iframe src="https://player.vimeo.com/video/' + this.id + '?autoplay=1" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe>'
+            this.playbtn = 'none';
+        }
+    },
+    template: `
+        <div class="youtube-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.aspect + ';'">
+            <div class="youtube-wrapper__title" :style="'display: ' + this.playbtn + ';'"><div>{{ title }}</div></div>
+            <div class="youtube-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
+            <div class="youtube-wrapper__player" v-html="player"></div>
+        </div><br>`
+});
+
+
+/******************************************************
  *                Composante Highlight                *
  ******************************************************/
  app.component('highlight', {
