@@ -526,6 +526,8 @@ app.component('doclink', {
                 case 'trello.com': site = 'trello'; break;
                 case 'sass-lang.com' : site = 'sass'; break;
                 case 'developer.vuforia.com' : site = 'vuforia'; break;
+                case 'cmontmorency365-my.sharepoint.com': site = 'momo'; break;
+                case 'teams.microsoft.com': site = 'momo'; break;
             }
         } catch(e) {
             if(this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';

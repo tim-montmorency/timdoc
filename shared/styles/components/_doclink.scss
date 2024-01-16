@@ -203,3 +203,12 @@ a.doclink {
         background-color: #6ebf4b;
     }
 }
+
+.doclink.momo {
+    .doclink-icon {
+        background-image: url('../images/momo-icon.png');
+    }
+    &::before {
+        background-color: #c1d72e;
+    }
+}

@@ -944,6 +944,13 @@ a.doclink .doclink-icon {
   background-color: #6ebf4b;
 }
 
+.doclink.momo .doclink-icon {
+  background-image: url("../images/momo-icon.png");
+}
+.doclink.momo::before {
+  background-color: #c1d72e;
+}
+
 a.exercice {
   display: block;
   background-image: linear-gradient(0deg, #87ceeb, 20%, #f0f8fc);
