@@ -38,8 +38,8 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../transformation/"); ?>
-<?php intlink("../../../animation/"); ?>
-<?php intlink("../../../transition/"); ?>
+<intlink href="../../../transformation/"></intlink>
+<intlink href="../../../animation/"></intlink>
+<intlink href="../../../transition/"></intlink>
 
 <dots></dots>

@@ -55,7 +55,7 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../unites-de-mesure-avancees/"); ?>
+<intlink href="../../../unites-de-mesure-avancees/"></intlink>
 
 <dots></dots>
 

@@ -5,7 +5,5 @@
  * @icon     images/icon.png
  * @abstract Pourquoi, comment, ...
  */
-
-
-
- print_children();
+?>
+<children></children>

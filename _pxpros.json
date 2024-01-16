@@ -3,7 +3,8 @@
         "project": "TIM Montmorency - Documentation"
     },
     "includes": [
-        "_includes/functions.php"
+        "_includes/functions.php",
+        "_includes/hooks.php"
     ],
     "before": "_includes/header.php",
     "after": "_includes/footer.php"

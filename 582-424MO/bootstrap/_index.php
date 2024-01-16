@@ -4,7 +4,7 @@
  * @title    Bootstrap
  * @icon     images/icon.png
  * @abstract Un cadriel d'interface pour multiplier la productivité des développeurs Web
- * * @index    70
+ * @index    70
  */
-
- print_children();
+?>
+<children></children>

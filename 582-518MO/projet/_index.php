@@ -5,4 +5,5 @@
  * @icon     images/icon.svg
  * @abstract Projet OBNL
  */
-print_children();
+?>
+<children></children>

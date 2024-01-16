@@ -47,8 +47,8 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink('../../../aspect-ratio/'); ?>
-<?php intlink('../../../border/'); ?>
-<?php intlink('../../../box-shadow/'); ?>
+<intlink href='../../../aspect-ratio/'></intlink>
+<intlink href='../../../border/'></intlink>
+<intlink href='../../../box-shadow/'></intlink>
 
 <dots></dots>

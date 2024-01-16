@@ -4,6 +4,11 @@ pre.highlight {
     white-space: pre-wrap;
     margin-left: -25px;
     margin-right: -25px;
+
+    @media (max-width: 770px)  {
+        font-size: 12px;
+    }
+
 }
 
 pre.highlight:has(+ small) {

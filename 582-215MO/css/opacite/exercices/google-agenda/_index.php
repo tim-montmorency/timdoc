@@ -44,9 +44,9 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../unites-de-couleur/"); ?>
-<?php intlink("../../../opacite/"); ?>
-<?php intlink("../../../border/"); ?>
+<intlink href="../../../unites-de-couleur/"></intlink>
+<intlink href="../../../opacite/"></intlink>
+<intlink href="../../../border/"></intlink>
 
 <dots></dots>
 

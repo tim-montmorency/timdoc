@@ -15,7 +15,7 @@
 
 <p>Aperçu du résultat 👇</p>
 
-<img src="images/vice-versa-resultat.png" alt="VIce Versa" style="box-shadow: 5px 5px 20px rgba(0,0,0,0.3">
+<img src="images/vice-versa-resultat.png" alt="VIce Versa" style="box-shadow: 5px 5px 20px rgba(0,0,0,0.3)">
 
 <dots></dots>
 <grostitre>Matériel</grostitre>
@@ -51,8 +51,9 @@ Pour chacun de ces posts, recréez une carte en vous basant sur le Pen en pièce
 
 
 
-<?php intlink("../../wordpress/posts-personnalises/") ?>
-<?php intlink("../../wordpress/migration-de-donnees/") ?>
-<?php intlink("../../wordpress/rest-api/") ?>
+<intlink href="../../wordpress/posts-personnalises/"></intlink>
+<intlink href="../../wordpress/migration-de-donnees/"></intlink>
+<intlink href="../../wordpress/rest-api/"></intlink>
+
 
 

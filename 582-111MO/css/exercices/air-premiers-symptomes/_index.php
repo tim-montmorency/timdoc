@@ -87,15 +87,15 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../background/"); ?>
-<?php intlink("../../linear-gradient/"); ?>
-<?php intlink("../../modes-de-fusion/"); ?>
-<?php intlink("../../box-shadow/"); ?>
-<?php intlink("../../unites-de-mesure-avancees/"); ?>
-<?php intlink("../../transformation/"); ?>
-<?php intlink("../../animation/"); ?>
-<?php intlink("../../font-face/"); ?>
-<?php intlink("../../pseudo-classes-intermediaires/"); ?>
-<?php intlink("../../pseudo-classes-avancees/"); ?>
+<intlink href="../../background/"></intlink>
+<intlink href="../../linear-gradient/"></intlink>
+<intlink href="../../modes-de-fusion/"></intlink>
+<intlink href="../../box-shadow/"></intlink>
+<intlink href="../../unites-de-mesure-avancees/"></intlink>
+<intlink href="../../transformation/"></intlink>
+<intlink href="../../animation/"></intlink>
+<intlink href="../../font-face/"></intlink>
+<intlink href="../../pseudo-classes-intermediaires/"></intlink>
+<intlink href="../../pseudo-classes-avancees/"></intlink>
 
 <dots></dots>

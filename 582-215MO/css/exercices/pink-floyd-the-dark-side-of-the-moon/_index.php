@@ -111,23 +111,21 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/pink-floyd-time.json"></youtube>
+<youtube src="GG2tZNOQWAA"></youtube>
 
 <dots></dots>
 
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<img src="../../google-fonts/" alt="">
-
-<?php intlink("../../background/"); ?>
-<?php intlink("../../linear-gradient/"); ?>
-<?php intlink("../../box-shadow/"); ?>
-<?php intlink("../../unites-de-mesure-avancees/"); ?>
-<?php intlink("../../transformation/"); ?>
-<?php intlink("../../animation/"); ?>
-<?php intlink("../../google-fonts/"); ?>
-<?php intlink("../../masquage/"); ?>
-<?php intlink("../../pseudo-classes-avancees/#has"); ?>
+<intlink href="../../background/"></intlink>
+<intlink href="../../linear-gradient/"></intlink>
+<intlink href="../../box-shadow/"></intlink>
+<intlink href="../../unites-de-mesure-avancees/"></intlink>
+<intlink href="../../transformation/"></intlink>
+<intlink href="../../animation/"></intlink>
+<intlink href="../../google-fonts/"></intlink>
+<intlink href="../../masquage/"></intlink>
+<intlink href="../../pseudo-classes-avancees/#has"></intlink>
 
 <dots></dots>

@@ -195,5 +195,5 @@ Vous pouvez télécharger votre son de réussite depuis internet, pixabay en a d
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../unity/prefabs/"); ?>
-<?php intlink("../../code/coroutine/"); ?>
+<intlink href="../../unity/prefabs/"></intlink>
+<intlink href="../../code/coroutine/"></intlink>

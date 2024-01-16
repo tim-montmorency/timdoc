@@ -46,6 +46,6 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../google-fonts/"); ?>
+<intlink href="../../../google-fonts/"></intlink>
 
 <dots></dots>

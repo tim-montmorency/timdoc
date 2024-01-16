@@ -7,7 +7,7 @@
  */
 ?>
 
-<p class="spacer">our cet exercice, vous devez écrire du CSS afin de recréer la pochette de l’album <a target="_blank" href="https://open.spotify.com/album/5d9pJ6C7Ri0PUsXvAT8ghk">"L'Heptade"</a> du mythique groupe québécois <a target="_blank" href="https://fr.wikipedia.org/wiki/Harmonium_(groupe)">Harmonium</a>.</p>
+<p class="spacer">Pour cet exercice, vous devez écrire du CSS afin de recréer la pochette de l’album <a target="_blank" href="https://open.spotify.com/album/5d9pJ6C7Ri0PUsXvAT8ghk">"L'Heptade"</a> du mythique groupe québécois <a target="_blank" href="https://fr.wikipedia.org/wiki/Harmonium_(groupe)">Harmonium</a>.</p>
 
 <p>Aperçu du résultat 👇</p>
 
@@ -86,22 +86,23 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/harmonium-comme-un-fou.json"></youtube>
+<!-- <youtube src="./videos/harmonium-comme-un-fou.json"></youtube> -->
+<youtube src="8lT14QPL8Bw"></youtube>
 
 <dots></dots>
 
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../position/"); ?>
-<?php intlink("../../linear-gradient/"); ?>
-<?php intlink("../../background/"); ?>
-<?php intlink("../../overflow/"); ?>
-<?php intlink("../../opacite/"); ?>
-<?php intlink("../../font-face/"); ?>
-<?php intlink("../../box-shadow/"); ?>
-<?php intlink("../../animation/"); ?>
-<?php intlink("../../transformation/"); ?>
+<intlink href="../../position/"></intlink>
+<intlink href="../../linear-gradient/"></intlink>
+<intlink href="../../background/"></intlink>
+<intlink href="../../overflow/"></intlink>
+<intlink href="../../opacite/"></intlink>
+<intlink href="../../font-face/"></intlink>
+<intlink href="../../box-shadow/"></intlink>
+<intlink href="../../animation/"></intlink>
+<intlink href="../../transformation/"></intlink>
 
 <dots></dots>
 

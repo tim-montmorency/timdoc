@@ -99,7 +99,8 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/david-bowie-im-afraid-of-americans.json"></youtube>
+<!-- <youtube src="./videos/david-bowie-im-afraid-of-americans.json"></youtube> -->
+<youtube src="LT3cERVRoQo"></youtube>
 <span class="remark" style="padding-top: 5px;">Ce vidéoclip est un hommage au film <a target="_blank" href="https://www.imdb.com/title/tt0075314/">Taxi Driver</a> de <a target="_blank" href="https://en.wikipedia.org/wiki/Martin_Scorsese">Martin Scorsese</a>.</span>
 
 <dots></dots>
@@ -107,14 +108,14 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../position/"); ?>
-<?php intlink("../../linear-gradient/"); ?>
-<?php intlink("../../background/"); ?>
-<?php intlink("../../overflow/"); ?>
-<?php intlink("../../opacite/"); ?>
-<?php intlink("../../font-face/"); ?>
-<?php intlink("../../box-shadow/"); ?>
-<?php intlink("../../animation/"); ?>
-<?php intlink("../../transformation/"); ?>
+<intlink href="../../position/"></intlink>
+<intlink href="../../linear-gradient/"></intlink>
+<intlink href="../../background/"></intlink>
+<intlink href="../../overflow/"></intlink>
+<intlink href="../../opacite/"></intlink>
+<intlink href="../../font-face/"></intlink>
+<intlink href="../../box-shadow/"></intlink>
+<intlink href="../../animation/"></intlink>
+<intlink href="../../transformation/"></intlink>
 
 <dots></dots>

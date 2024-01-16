@@ -112,7 +112,7 @@
 
 <grostitre>Résumé vidéo</grostitre>
 
-<clip src="videos/css-variables-in-100-seconds.mp4"></clip>
+<youtube src="NtRmIp4eMjs"></youtube>
 
 <dots></dots>
 

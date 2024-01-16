@@ -53,16 +53,17 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/kanye-west-runaway.json"></youtube>
+<!-- <youtube src="./videos/kanye-west-runaway.json"></youtube> -->
+<youtube src="Bm5iA4Zupek"></youtube>
 
 <dots></dots>
 
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink('../../linear-gradient/'); ?>
-<?php intlink('../../box-shadow/'); ?>
-<?php intlink('../../../html/picture/'); ?>
+<intlink href='../../linear-gradient/'></intlink>
+<intlink href='../../box-shadow/'></intlink>
+<intlink href='../../../html/picture/'></intlink>
 
 <dots></dots>
 

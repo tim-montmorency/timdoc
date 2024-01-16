@@ -58,7 +58,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/queen-under-pressure-1981-live.json"></youtube>
+<youtube src="dN3gax_Z7tw"></youtube>
 <span class="remark" style="margin-top: 0px;">Cette chanson a été samplé et re-popularisé par Vanilla Ice et son succès <a target="_blank" href="https://www.youtube.com/watch?v=rog8ou-ZepE">Ice Ice Baby</a>.</span>
 
 <dots></dots>
@@ -66,8 +66,8 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink('../../position/'); ?>
-<?php intlink('../../margin/'); ?>
+<intlink href='../../position/'></intlink>
+<intlink href='../../margin/'></intlink>
 
 <dots></dots>
 

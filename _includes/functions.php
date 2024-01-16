@@ -85,19 +85,23 @@ function get_children($parent = null) {
  *
  * @return void
  */
-function print_children() {
-    $parent = current(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS,1))['file'];
+function print_children($parent=null, $return=false) {
+    $str = '';
+    if(!$parent) $parent = current(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS,1))['file'];
     foreach(get_children($parent) as $child) {
-?>
+        $icon = $child->href . $child->icon;
+        $str .= <<<EOD
                         <div class="list-grid__item">
-                            <div class="list-grid__item__icon" style="background-image: url('<?php echo $child->href . $child->icon; ?>');"></div>
+                            <div class="list-grid__item__icon" style="background-image: url({$icon});"></div>
                             <div class="list-grid__item__description">
-                                <span class="list-grid__item__title"><a href="<?php echo $child->href; ?>"><?php echo $child->title; ?></a></span>
-                                <span class="list-grid__item__abstract"><?php echo $child->abstract; ?></span>
+                                <span class="list-grid__item__title"><a href="{$child->href}">{$child->title}</a></span>
+                                <span class="list-grid__item__abstract">{$child->abstract}</span>
                             </div>
                         </div>
-<?php
+EOD;
     }
+    if($return) return $str;
+    else echo $str;
 }
 
 
@@ -127,6 +131,17 @@ function intlink($path=null){
 }
 
 
+/**
+ * register_tag
+ *
+ * @param  mixed $tag
+ * @param  mixed $clb
+ * @return void
+ */
+function register_tag($tag, $clb) {
+    global $PAGE;
+    return $PAGE->registerTag($tag, $clb);
+}
 
 
 /**

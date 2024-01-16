@@ -52,6 +52,6 @@
 <dots></dots>
 
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../installation/configuration/"); ?>
+<intlink href="../../installation/configuration/"></intlink>
 
 

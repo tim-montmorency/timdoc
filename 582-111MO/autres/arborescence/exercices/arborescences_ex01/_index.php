@@ -148,6 +148,6 @@
 
 <grostitre>Notes de cours</grostitre>
 
-<?php intlink("../../../arborescence/"); ?>
+<intlink href="../../../arborescence/"></intlink>
 
 <dots></dots>

@@ -43,4 +43,4 @@ Le nom de votre license apparaîtra alors, appuyez sur celui-ci pour voir votre 
 <grostitre>Ajouter Vuforia à un projet</grostitre>
 <p>Pour ajouter Vuforia à votre projet, vous devrez ajouter un Asset depuis le Asset Store. Suivez la procédure des notes de cours d'introduction pour importer Vuforia Engine dans votre projet. 
 <doclink href="https://assetstore.unity.com/packages/templates/packs/vuforia-engine-163598">Vuforia Engine</doclink> 
-<?php intlink("../../unity/introduction/#importer-des-assets-du-asset-store"); ?>
+<intlink href="../../unity/introduction/#importer-des-assets-du-asset-store"></intlink>

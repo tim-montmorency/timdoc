@@ -49,6 +49,6 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../inspecteur-elements/"); ?>
+<intlink href="../../../inspecteur-elements/"></intlink>
 
 <dots></dots>

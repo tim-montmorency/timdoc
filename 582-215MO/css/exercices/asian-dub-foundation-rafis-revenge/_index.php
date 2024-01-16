@@ -126,26 +126,27 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/asian-dub-foundation-buzzin.json"></youtube>
+<!-- <youtube src="./videos/asian-dub-foundation-buzzin.json"></youtube> -->
+<youtube src="GAZAKdBHaCk"></youtube>
 
 <dots></dots>
 
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../background/"); ?>
-<?php intlink("../../linear-gradient/"); ?>
-<?php intlink("../../modes-de-fusion/"); ?>
-<?php intlink("../../box-shadow/"); ?>
-<?php intlink("../../unites-de-mesure-avancees/"); ?>
-<?php intlink("../../transformation/"); ?>
-<?php intlink("../../transition/"); ?>
-<?php intlink("../../animation/"); ?>
-<?php intlink("../../font-face/"); ?>
-<?php intlink("../../opacite/"); ?>
-<?php intlink("../../filtres/"); ?>
-<?php intlink("../../masquage/"); ?>
-<?php intlink("../../pseudo-classes-avancees/#has"); ?>
+<intlink href="../../background/"></intlink>
+<intlink href="../../linear-gradient/"></intlink>
+<intlink href="../../modes-de-fusion/"></intlink>
+<intlink href="../../box-shadow/"></intlink>
+<intlink href="../../unites-de-mesure-avancees/"></intlink>
+<intlink href="../../transformation/"></intlink>
+<intlink href="../../transition/"></intlink>
+<intlink href="../../animation/"></intlink>
+<intlink href="../../font-face/"></intlink>
+<intlink href="../../opacite/"></intlink>
+<intlink href="../../filtres/"></intlink>
+<intlink href="../../masquage/"></intlink>
+<intlink href="../../pseudo-classes-avancees/#has"></intlink>
 
 <dots></dots>
 

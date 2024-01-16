@@ -43,10 +43,10 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../display/"); ?>
-<?php intlink("../../../padding/"); ?>
-<?php intlink("../../../margin/"); ?>
-<?php intlink("../../../box-sizing/"); ?>
+<intlink href="../../../display/"></intlink>
+<intlink href="../../../padding/"></intlink>
+<intlink href="../../../margin/"></intlink>
+<intlink href="../../../box-sizing/"></intlink>
 
 <dots></dots>
 

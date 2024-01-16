@@ -84,7 +84,8 @@
 <grostitre>Ambiance</grostitre>
 
 <!-- <clip src="./videos/alaclair-ensemble-pomme.mp4"></clip> -->
-<youtube src="./videos/alaclair-ensemble-pomme.json"></youtube>
+<!-- <youtube src="./videos/alaclair-ensemble-pomme.json"></youtube> -->
+<youtube src="1CQCgETJv-w"></youtube>
 <span class="remark" style="padding-top: 5px;">Cette chanson ainsi que le vidéoclip sont librement inspirés par <a target="_blank" href="https://www.youtube.com/watch?v=mDGr-SagBZs">Soupe Opera</a></span>
 
 <dots></dots>
@@ -92,13 +93,13 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../margin/"); ?>
-<?php intlink("../../variables/"); ?>
-<?php intlink("../../linear-gradient/"); ?>
-<?php intlink("../../modes-de-fusion/"); ?>
-<?php intlink("../../filtres/"); ?>
-<?php intlink("../../pseudo-elements/"); ?>
-<?php intlink("../../google-fonts/"); ?>
+<intlink href="../../margin/"></intlink>
+<intlink href="../../variables/"></intlink>
+<intlink href="../../linear-gradient/"></intlink>
+<intlink href="../../modes-de-fusion/"></intlink>
+<intlink href="../../filtres/"></intlink>
+<intlink href="../../pseudo-elements/"></intlink>
+<intlink href="../../google-fonts/"></intlink>
 
 <dots></dots>
 

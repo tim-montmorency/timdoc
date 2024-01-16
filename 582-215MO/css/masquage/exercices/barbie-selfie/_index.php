@@ -89,23 +89,23 @@
 
 <grostitre>Bande-annonce</grostitre>
 
-<youtube src="./videos/barbie-trailer.json"></youtube>
+<youtube src="GRyt3Ov4zz0"></youtube>
 
 <dots></dots>
 
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../background/"); ?>
-<?php intlink("../../../linear-gradient/"); ?>
-<?php intlink("../../../modes-de-fusion/"); ?>
-<?php intlink("../../../position/"); ?>
-<?php intlink("../../../unites-de-mesure-avancees/"); ?>
-<?php intlink("../../../pseudo-classes-avancees/"); ?>
-<?php intlink("../../../pseudo-elements/"); ?>
-<?php intlink("../../../transformation/"); ?>
-<?php intlink("../../../animation/"); ?>
-<?php intlink("../../../font-face/"); ?>
-<?php intlink("../../../filtres/"); ?>
+<intlink href="../../../background/"></intlink>
+<intlink href="../../../linear-gradient/"></intlink>
+<intlink href="../../../modes-de-fusion/"></intlink>
+<intlink href="../../../position/"></intlink>
+<intlink href="../../../unites-de-mesure-avancees/"></intlink>
+<intlink href="../../../pseudo-classes-avancees/"></intlink>
+<intlink href="../../../pseudo-elements/"></intlink>
+<intlink href="../../../transformation/"></intlink>
+<intlink href="../../../animation/"></intlink>
+<intlink href="../../../font-face/"></intlink>
+<intlink href="../../../filtres/"></intlink>
 
 <dots></dots>

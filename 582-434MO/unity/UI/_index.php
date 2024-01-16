@@ -77,4 +77,4 @@
 
 <grostitre>Texte</grostitre>
 <p>Le texte a son propre module:</p>
-<?php intlink("../font/"); ?>
+<intlink href="../font/"></intlink>

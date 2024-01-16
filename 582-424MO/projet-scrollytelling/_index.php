@@ -5,5 +5,5 @@
  * @icon     images/icon.png
  * @abstract Histoire interactive animée via le défilement de la page "scroll"
  */
-
- print_children();
+?>
+<children></children>

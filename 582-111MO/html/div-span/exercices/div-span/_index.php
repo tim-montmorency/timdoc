@@ -44,7 +44,7 @@ Utilisez les balises <em>div</em> et <em>span</em> pour entourer les parties app
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../div-span/"); ?>
+<intlink href="../../../div-span/"></intlink>
 
 
 <dots></dots>

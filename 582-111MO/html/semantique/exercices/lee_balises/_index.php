@@ -65,15 +65,15 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../balises/"); ?>
-<?php intlink("../../../semantique/"); ?>
-<?php intlink("../../../formatage-html"); ?>
-<?php intlink("../../../ancre/"); ?>
-<?php intlink("../../../../autres/chemins/"); ?>
-<?php intlink("../../../../autres/formats-d-image/"); ?>
-<?php intlink("../../../legende-de-media/"); ?>
-<?php intlink("../../../image/"); ?>
-<?php intlink("../../../iframe/"); ?>
-<?php intlink("../../../citation/"); ?>
+<intlink href="../../../balises/"></intlink>
+<intlink href="../../../semantique/"></intlink>
+<intlink href="../../../formatage-html"></intlink>
+<intlink href="../../../ancre/"></intlink>
+<intlink href="../../../../autres/chemins/"></intlink>
+<intlink href="../../../../autres/formats-d-image/"></intlink>
+<intlink href="../../../legende-de-media/"></intlink>
+<intlink href="../../../image/"></intlink>
+<intlink href="../../../iframe/"></intlink>
+<intlink href="../../../citation/"></intlink>
 
 <dots></dots>

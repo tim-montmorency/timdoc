@@ -43,6 +43,6 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink('../../../transformation/'); ?>
+<intlink href='../../../transformation/'></intlink>
 
 <dots></dots>

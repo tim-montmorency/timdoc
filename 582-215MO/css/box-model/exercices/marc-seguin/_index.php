@@ -50,10 +50,10 @@
 
 <grostitre>Notes de cours</grostitre>
 
-<?php intlink("../../../display/"); ?>
-<?php intlink("../../../width-height/"); ?>
-<?php intlink("../../../border/"); ?>
-<?php intlink("../../../margin/"); ?>
-<?php intlink("../../../padding/"); ?>
+<intlink href="../../../display/"></intlink>
+<intlink href="../../../width-height/"></intlink>
+<intlink href="../../../border/"></intlink>
+<intlink href="../../../margin/"></intlink>
+<intlink href="../../../padding/"></intlink>
 
 <dots></dots>

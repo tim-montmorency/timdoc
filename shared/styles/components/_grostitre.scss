@@ -1,4 +1,4 @@
-.grostitre{
+.grostitre {
     display: flex;
     align-items: center;
     padding-top: 20px;
@@ -10,14 +10,15 @@
         height: 36px;
     }
 
-    h1, h2 {
+    h1,
+    h2 {
         font-size: 7vw !important;
         vertical-align: middle;
         margin-right: 15px;
         margin-top: 0 !important;
         margin-bottom: 0 !important;
 
-        @media (min-width: 576px)  {
+        @media (min-width: 576px) {
             /* SVP conservez la variable CSS (et non scss) ici car je l'utilise en démo dans un des mes cours (Marie-Michelle) */
             font-size: var(--grostitre-size-desktop) !important;
         }
@@ -29,7 +30,7 @@
         opacity: 0%;
         display: none;
 
-        @media (min-width: 576px)  {
+        @media (min-width: 576px) {
             line-height: 36px;
             display: block;
         }
@@ -40,16 +41,16 @@
         height: 24px;
         width: 24px;
         padding: 2px;
-        
+
         text-align: center;
         vertical-align: center;
         border-radius: 50%;
-        display:inline;
+        display: inline;
         background-color: #ffc5c5;
 
         flex-shrink: 0;
 
-        @media (min-width: 576px)  {
+        @media (min-width: 576px) {
             height: 36px;
             width: 36px;
             padding: 4px;
@@ -66,7 +67,7 @@
             background-color: #83ff73;
             transform: rotate(-360deg);
 
-            & + div {
+            &+div {
                 opacity: 100%;
                 transition-duration: 200ms;
             }

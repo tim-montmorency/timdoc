@@ -45,7 +45,7 @@
 
 <grostitre>Notes de cours</grostitre>
 
-<?php intlink("../../../display/"); ?>
-<?php intlink("../../../width-height/"); ?>
+<intlink href="../../../display/"></intlink>
+<intlink href="../../../width-height/"></intlink>
 
 <dots></dots>

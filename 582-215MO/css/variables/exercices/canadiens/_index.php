@@ -46,7 +46,7 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../variables/"); ?>
-<?php intlink("../../../selecteurs-avances/#voisins"); ?>
+<intlink href="../../../variables/"></intlink>
+<intlink href="../../../selecteurs-avances/#voisins"></intlink>
 
 <dots></dots>

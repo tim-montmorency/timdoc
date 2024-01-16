@@ -5,5 +5,5 @@
  * @icon     images/icon.png
  * @abstract 582-214MO
  */
-
- print_children();
+?>
+<children></children>

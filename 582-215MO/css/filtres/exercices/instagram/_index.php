@@ -43,7 +43,7 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../filtres/"); ?>
+<intlink href="../../../filtres/"></intlink>
 
 <dots></dots>
 

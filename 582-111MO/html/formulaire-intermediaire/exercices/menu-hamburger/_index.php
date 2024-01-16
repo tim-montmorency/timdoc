@@ -52,7 +52,7 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../formulaire-intermediaire/"); ?>
-<?php intlink("../../../../css/selecteurs-avances/"); ?>
+<intlink href="../../../formulaire-intermediaire/"></intlink>
+<intlink href="../../../../css/selecteurs-avances/"></intlink>
 
 <dots></dots>

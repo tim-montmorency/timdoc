@@ -186,7 +186,6 @@ a.doclink {
     }
 }
 
-
 .doclink.sass {
     .doclink-icon {
         background-image: url('../images/sass_icon.png');
@@ -196,4 +195,11 @@ a.doclink {
     }
 }
 
-
+.doclink.vuforia {
+    .doclink-icon {
+        background-image: url('../images/vuforia-icon.png');
+    }
+    &::before {
+        background-color: #6ebf4b;
+    }
+}

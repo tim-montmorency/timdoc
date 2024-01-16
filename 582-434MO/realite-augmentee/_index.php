@@ -5,7 +5,5 @@
  * @icon     images/icon.png
  * @abstract Détection, interaction
  */
-
-
-
- print_children();
+?>
+<children></children>

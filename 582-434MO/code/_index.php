@@ -5,7 +5,5 @@
  * @icon     images/icon.png
  * @abstract Scripts, événements
  */
-
-
-
- print_children();
+?>
+<children></children>

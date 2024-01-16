@@ -62,17 +62,17 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/rage-against-the-machine-renegades-of-funk.json"></youtube>
+<youtube src="4KXdU3cZbNQ"></youtube>
 
 <dots></dots>
 
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink('../../unites-de-mesure-avancees/'); ?>
-<?php intlink('../../../html/svg/'); ?>
-<?php intlink('../../media-queries/'); ?>
-<?php intlink('../../variables/'); ?>
+<intlink href='../../unites-de-mesure-avancees/'></intlink>
+<intlink href='../../../html/svg/'></intlink>
+<intlink href='../../media-queries/'></intlink>
+<intlink href='../../variables/'></intlink>
 
 
 <dots></dots>

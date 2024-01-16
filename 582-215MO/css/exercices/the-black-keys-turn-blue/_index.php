@@ -102,23 +102,23 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/the-black-keys-fever.json"></youtube>
+<youtube src="trk7P-9QDyc"></youtube>
 
 <dots></dots>
 
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../background/"); ?>
-<?php intlink("../../linear-gradient/"); ?>
-<?php intlink("../../modes-de-fusion/"); ?>
-<?php intlink("../../box-shadow/"); ?>
-<?php intlink("../../box-sizing/"); ?>
-<?php intlink("../../unites-de-mesure-avancees/"); ?>
-<?php intlink("../../transformation/"); ?>
-<?php intlink("../../animation/"); ?>
-<?php intlink("../../font-face/"); ?>
-<?php intlink("../../pseudo-classes/"); ?>
-<?php intlink("../../pseudo-classes-avancees/#has"); ?>
+<intlink href="../../background/"></intlink>
+<intlink href="../../linear-gradient/"></intlink>
+<intlink href="../../modes-de-fusion/"></intlink>
+<intlink href="../../box-shadow/"></intlink>
+<intlink href="../../box-sizing/"></intlink>
+<intlink href="../../unites-de-mesure-avancees/"></intlink>
+<intlink href="../../transformation/"></intlink>
+<intlink href="../../animation/"></intlink>
+<intlink href="../../font-face/"></intlink>
+<intlink href="../../pseudo-classes/"></intlink>
+<intlink href="../../pseudo-classes-avancees/#has"></intlink>
 
 <dots></dots>

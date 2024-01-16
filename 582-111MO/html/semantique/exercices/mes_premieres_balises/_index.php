@@ -48,7 +48,7 @@ Utilisez les balises sémantiques HTML appropriées pour marquer chaque partie d
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../balises/"); ?>
-<?php intlink("../../../semantique/"); ?>
+<intlink href="../../../balises/"></intlink>
+<intlink href="../../../semantique/"></intlink>
 
 <dots></dots>

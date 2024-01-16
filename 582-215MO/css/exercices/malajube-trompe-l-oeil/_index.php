@@ -50,7 +50,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/malajube-pate-filo.json"></youtube>
+<youtube src="hSfYyclbi3Q"></youtube>
 <span class="remark" style="padding-top: 5px;">À celle qui a volé mon coeur.</span>
 
 <dots></dots>
@@ -58,9 +58,9 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../linear-gradient/"); ?>
-<?php intlink("../../box-shadow/"); ?>
-<?php intlink("../../../html/picture/"); ?>
-<?php intlink("../../../css/unites-de-mesure-avancees/"); ?>
+<intlink href="../../linear-gradient/"></intlink>
+<intlink href="../../box-shadow/"></intlink>
+<intlink href="../../../html/picture/"></intlink>
+<intlink href="../../../css/unites-de-mesure-avancees/"></intlink>
 
 <dots></dots>

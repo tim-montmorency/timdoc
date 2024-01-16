@@ -1,8 +1,41 @@
 @charset "UTF-8";
+/* https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=block */
 @font-face {
-  src: url("../fonts/consolas.ttf") format("truetype");
+  src: url(../fonts/consolas.ttf) format("truetype");
   font-family: "Consolas";
-  font-display: swap;
+  font-display: block;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: italic;
+  font-weight: 400;
+  font-display: block;
+  src: url(../fonts/rubik-italic-400.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-display: block;
+  src: url(../fonts/rubik-normal-300.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(../fonts/rubik-normal-400.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url(../fonts/rubik-normal-600.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 .intlink__item {
   display: flex;
@@ -285,7 +318,8 @@ body.dark table tr:nth-child(even) td {
   width: 0px;
   height: 36px;
 }
-.grostitre h1, .grostitre h2 {
+.grostitre h1,
+.grostitre h2 {
   font-size: 7vw !important;
   vertical-align: middle;
   margin-right: 15px;
@@ -293,7 +327,8 @@ body.dark table tr:nth-child(even) td {
   margin-bottom: 0 !important;
 }
 @media (min-width: 576px) {
-  .grostitre h1, .grostitre h2 {
+  .grostitre h1,
+.grostitre h2 {
     /* SVP conservez la variable CSS (et non scss) ici car je l'utilise en démo dans un des mes cours (Marie-Michelle) */
     font-size: var(--grostitre-size-desktop) !important;
   }
@@ -598,6 +633,12 @@ body.dark table tr:nth-child(even) td {
   margin-left: -25px;
   margin-right: -25px;
 }
+@media (max-width: 820px) {
+  .mediafile {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+}
 .mediafile.spacerr {
   margin-left: 25px;
 }
@@ -619,8 +660,19 @@ body.dark table tr:nth-child(even) td {
   margin-left: -25px;
   margin-right: -25px;
 }
+@media (max-width: 820px) {
+  .mediafile__link {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+}
 .mediafile__link.spacerr {
   margin-left: 25px;
+}
+@media (max-width: 820px) {
+  .mediafile__link input {
+    font-size: 12px;
+  }
 }
 .mediafile__spacer {
   display: block;
@@ -885,6 +937,13 @@ a.doclink .doclink-icon {
   background-color: #cf649a;
 }
 
+.doclink.vuforia .doclink-icon {
+  background-image: url("../images/vuforia-icon.png");
+}
+.doclink.vuforia::before {
+  background-color: #6ebf4b;
+}
+
 a.exercice {
   display: block;
   background-image: linear-gradient(0deg, #87ceeb, 20%, #f0f8fc);
@@ -1097,6 +1156,11 @@ pre.highlight {
   margin-left: -25px;
   margin-right: -25px;
 }
+@media (max-width: 770px) {
+  pre.highlight {
+    font-size: 12px;
+  }
+}
 
 pre.highlight:has(+ small) {
   padding-bottom: 5px;
@@ -1118,6 +1182,12 @@ div.checklist {
   flex-wrap: wrap;
   margin-left: -25px;
   margin-right: -25px;
+}
+@media (max-width: 820px) {
+  div.checklist {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
 }
 div.checklist ol {
   margin-left: 25px;
@@ -1415,6 +1485,27 @@ div.quote__title {
     max-width: 770px;
   }
 }
+.youtube-wrapper__title {
+  position: absolute;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+  width: 100%;
+  height: 60px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.youtube-wrapper__title div {
+  color: white;
+  position: absolute;
+  max-width: calc(100% - 16px);
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 .youtube-wrapper__play {
   width: 100px;
   height: 100px;
@@ -1565,7 +1656,7 @@ header {
 header #logo {
   position: relative;
   top: 60px;
-  width: 276px;
+  width: 216px;
   fill: #ff003a;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -1579,8 +1670,10 @@ header #lightswitch {
   height: 34px;
   left: 240px;
   border-radius: 50%;
-  cursor: pointer;
   overflow: hidden;
+  transition-property: transform;
+  transition-duration: 100ms;
+  cursor: pointer;
 }
 header #lightswitch::before {
   content: "";
@@ -1598,6 +1691,9 @@ header #lightswitch.lightswitch--on::before {
 }
 header #lightswitch.lightswitch--off::before {
   top: 34px;
+}
+header #lightswitch:hover {
+  transform: scale(1.2);
 }
 
 #subhead {
@@ -1676,8 +1772,8 @@ article {
 }
 
 footer {
-  margin-top: 100px;
   width: 100%;
+  height: 100px;
   border-top: 1px solid rgb(204, 207, 217);
   text-align: center;
   padding: 36px 0 30px;
@@ -1711,6 +1807,7 @@ footer #copyright {
   max-width: 770px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 100px;
   padding: 0 25px;
 }
 #contents ul, #contents ol, #wiki__pages ul, #wiki__pages ol {
@@ -1820,6 +1917,7 @@ footer #copyright {
   display: flex;
   height: auto;
   margin-bottom: 20px;
+  padding-right: 10px;
 }
 @media (min-width: 576px) {
   #listing .list-grid__item {

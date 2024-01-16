@@ -201,7 +201,7 @@
     La marge supérieure de 200px. 
     La marge intérieure inférieure de 40px.
     <br>
-    P<em>our l'élément .social a:</em> 
+    <em>Pour l'élément .social a:</em> 
     Définissez l'affichage en bloc en ligne.
     La couleur du texte en #6. 
     La marge extérieure droite de 25px.
@@ -223,26 +223,26 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../css/anatomie/"); ?>
-<?php intlink("../../../css/selecteurs/"); ?>
-<?php intlink("../../../css/flux/"); ?>
-<?php intlink("../../../css/padding/"); ?>
-<?php intlink("../../../css/margin/"); ?>
-<?php intlink("../../../css/background/"); ?>
-<?php intlink("../../../css/display/"); ?>
-<?php intlink("../../../css/vertical-align/"); ?>
-<?php intlink("../../../css/unites-de-mesure/"); ?>
-<?php intlink("../../../css/width-height/"); ?>
-<?php intlink("../../../css/border/"); ?>
-<?php intlink("../../../css/box-model/"); ?>
-<?php intlink("../../../css/unites-de-couleur/"); ?>
-<?php intlink("../../../css/font/"); ?>
-<?php intlink("../../../css/text/"); ?>
-<?php intlink("../../../css/linear-gradient/"); ?>
-<?php intlink("../../../css/box-sizing/"); ?>
-<?php intlink("../../../css/float/"); ?>
-<?php intlink("../../../css/opacite/"); ?>
-<?php intlink("../../../css/z-index/"); ?>
-<?php intlink("../../../css/box-shadow/"); ?>
+<intlink href="../../../css/anatomie/"></intlink>
+<intlink href="../../../css/selecteurs/"></intlink>
+<intlink href="../../../css/flux/"></intlink>
+<intlink href="../../../css/padding/"></intlink>
+<intlink href="../../../css/margin/"></intlink>
+<intlink href="../../../css/background/"></intlink>
+<intlink href="../../../css/display/"></intlink>
+<intlink href="../../../css/vertical-align/"></intlink>
+<intlink href="../../../css/unites-de-mesure/"></intlink>
+<intlink href="../../../css/width-height/"></intlink>
+<intlink href="../../../css/border/"></intlink>
+<intlink href="../../../css/box-model/"></intlink>
+<intlink href="../../../css/unites-de-couleur/"></intlink>
+<intlink href="../../../css/font/"></intlink>
+<intlink href="../../../css/text/"></intlink>
+<intlink href="../../../css/linear-gradient/"></intlink>
+<intlink href="../../../css/box-sizing/"></intlink>
+<intlink href="../../../css/float/"></intlink>
+<intlink href="../../../css/opacite/"></intlink>
+<intlink href="../../../css/z-index/"></intlink>
+<intlink href="../../../css/box-shadow/"></intlink>
 
 <dots></dots>

@@ -51,7 +51,7 @@
 
 <img src="../../../formulaire-intermediaire/" alt="">
 
-<?php intlink("../../../formulaire/"); ?>
-<?php intlink("../../../formulaire-intermediaire/"); ?>
+<intlink href="../../../formulaire/"></intlink>
+<intlink href="../../../formulaire-intermediaire/"></intlink>
 
 <dots></dots>

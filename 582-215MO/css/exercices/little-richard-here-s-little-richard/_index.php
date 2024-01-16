@@ -50,16 +50,16 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/little-richard-tutti-frutti.json"></youtube>
+<youtube src="ivhauEr3KxU"></youtube>
 
 <dots></dots>
 
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink('../../linear-gradient/'); ?>
-<?php intlink('../../fonte/'); ?>
-<?php intlink('../../text/'); ?>
-<?php intlink('../../google-fonts/'); ?>
+<intlink href='../../linear-gradient/'></intlink>
+<intlink href='../../fonte/'></intlink>
+<intlink href='../../text/'></intlink>
+<intlink href='../../google-fonts/'></intlink>
 
 <dots></dots>

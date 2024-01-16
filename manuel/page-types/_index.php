@@ -22,8 +22,9 @@
  * @icon     images/icon.png
  * @abstract Installation et développement
  */
+?>
 
- print_children();</highlight>
+&lt;children&gt;&lt;/children&gt;</highlight>
 
  <dots></dots>
 

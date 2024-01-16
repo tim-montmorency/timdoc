@@ -53,15 +53,15 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/red-hot-chili-peppers-give-it-away.json"></youtube>
+<youtube src="Mr_uHJPUlO8"></youtube>
 
 <dots></dots>
 
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../selecteurs/"); ?>
-<?php intlink("../../animation/"); ?>
-<?php intlink("../../transformation/"); ?>
+<intlink href="../../selecteurs/"></intlink>
+<intlink href="../../animation/"></intlink>
+<intlink href="../../transformation/"></intlink>
 
 <dots></dots>

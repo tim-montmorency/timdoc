@@ -39,6 +39,6 @@ Pour cet exercice, vous allez utiliser le principe d'une boucle SASS pour géné
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../sass/boucle/"); ?>
+<intlink href="../../sass/boucle/"></intlink>
 
     

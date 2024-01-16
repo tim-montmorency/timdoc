@@ -86,23 +86,23 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/nine-inch-nails-wish.json"></youtube>
+<youtube src="dYNL1Mpi5Kg"></youtube>
 
 <dots></dots>
 
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../position/"); ?>
-<?php intlink("../../margin/"); ?>
-<?php intlink("../../linear-gradient/"); ?>
-<?php intlink("../../background/"); ?>
-<?php intlink("../../pseudo-elements/"); ?>
-<?php intlink("../../opacite/"); ?>
-<?php intlink("../../overflow/"); ?>
-<?php intlink("../../font-face/"); ?>
-<?php intlink("../../filtres/"); ?>
-<?php intlink("../../modes-de-fusion/"); ?>
+<intlink href="../../position/"></intlink>
+<intlink href="../../margin/"></intlink>
+<intlink href="../../linear-gradient/"></intlink>
+<intlink href="../../background/"></intlink>
+<intlink href="../../pseudo-elements/"></intlink>
+<intlink href="../../opacite/"></intlink>
+<intlink href="../../overflow/"></intlink>
+<intlink href="../../font-face/"></intlink>
+<intlink href="../../filtres/"></intlink>
+<intlink href="../../modes-de-fusion/"></intlink>
 
 <dots></dots>
 

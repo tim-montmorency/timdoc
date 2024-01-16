@@ -37,7 +37,7 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../actions-photoshop/"); ?>
+<intlink href="../../../actions-photoshop/"></intlink>
 
 <dots></dots>
 

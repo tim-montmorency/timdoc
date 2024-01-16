@@ -45,7 +45,7 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../animation/"); ?>
+<intlink href="../../../animation/"></intlink>
 
 <dots></dots>
 

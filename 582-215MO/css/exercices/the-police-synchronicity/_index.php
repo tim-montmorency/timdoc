@@ -58,18 +58,18 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/the-police-every-breath-you-take.json"></youtube>
+<youtube src="OMOGaugKpzs"></youtube>
 
 <dots></dots>
 
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../google-fonts/"); ?>
-<?php intlink("../../unites-de-mesure-avancees/"); ?>
-<?php intlink("../../text/"); ?>
-<?php intlink("../../aspect-ratio/"); ?>
-<?php intlink("../../object-fit/"); ?>
-<?php intlink("../../modes-de-fusion/"); ?>
+<intlink href="../../google-fonts/"></intlink>
+<intlink href="../../unites-de-mesure-avancees/"></intlink>
+<intlink href="../../text/"></intlink>
+<intlink href="../../aspect-ratio/"></intlink>
+<intlink href="../../object-fit/"></intlink>
+<intlink href="../../modes-de-fusion/"></intlink>
 
 <dots></dots>

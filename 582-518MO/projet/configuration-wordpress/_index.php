@@ -35,8 +35,8 @@ Créez une tâche Trello afin que chaque membre de votre équipe se crée un com
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../wordpress/mamp/"); ?>
-<?php intlink("../../wordpress/installation-en-local/"); ?>
-<?php intlink("../../wordpress/themes-et-extensions/"); ?>
-<?php intlink("../../wordpress/styles-css/"); ?>
-<?php intlink("../../wordpress/modeles/"); ?>
+<intlink href="../../wordpress/mamp/"></intlink>
+<intlink href="../../wordpress/installation-en-local/"></intlink>
+<intlink href="../../wordpress/themes-et-extensions/"></intlink>
+<intlink href="../../wordpress/styles-css/"></intlink>
+<intlink href="../../wordpress/modeles/"></intlink>

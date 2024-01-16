@@ -48,16 +48,16 @@ Vous pourriez faire le même exercice, mais allumer une torche (point light) plu
 
 
 <h3>Créer une télévision</h3>
-<?php intlink('../scene/#creer-une-television'); ?>
+<intlink href='../scene/#creer-une-television'></intlink>
 
 <h3>Prendre la manette</h3>
-<?php intlink('../../unity/interaction_vr/#xr-grab'); ?>
+<intlink href='../../unity/interaction_vr/#xr-grab'></intlink>
 
 <h3>Partir une vidéo avec la détection</h3>
-<?php intlink('../scene/#partir-ou-arreter-une-video-avec-la-detection'); ?>
+<intlink href='../scene/#partir-ou-arreter-une-video-avec-la-detection'></intlink>
 
 <h3>Déclencher un script avec le trigger</h3>
-<?php intlink('../../unity/interaction_vr/#declencher-un-evenement-lorsquun-objet-est-selectionne'); ?>
+<intlink href='../../unity/interaction_vr/#declencher-un-evenement-lorsquun-objet-est-selectionne'></intlink>
 
 
 <dots></dots>

@@ -90,29 +90,30 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/eagles-of-death-metal-i-only-want-you.json"></youtube>
+<!-- <youtube src="./videos/eagles-of-death-metal-i-only-want-you.json"></youtube> -->
+<youtube src="BYQ4E0SwPP4"></youtube>
 
 <dots></dots>
 
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../background/"); ?>
-<?php intlink("../../linear-gradient/"); ?>
-<?php intlink("../../modes-de-fusion/"); ?>
-<?php intlink("../../box-shadow/"); ?>
-<?php intlink("../../unites-de-mesure-avancees/"); ?>
-<?php intlink("../../transformation/"); ?>
-<?php intlink("../../transition/"); ?>
-<?php intlink("../../../html/svg/"); ?>
-<?php intlink("../../font-face/"); ?>
-<?php intlink("../../opacite/"); ?>
-<?php intlink("../../pseudo-classes-avancees/#has"); ?>
+<intlink href="../../background/"></intlink>
+<intlink href="../../linear-gradient/"></intlink>
+<intlink href="../../modes-de-fusion/"></intlink>
+<intlink href="../../box-shadow/"></intlink>
+<intlink href="../../unites-de-mesure-avancees/"></intlink>
+<intlink href="../../transformation/"></intlink>
+<intlink href="../../transition/"></intlink>
+<intlink href="../../../html/svg/"></intlink>
+<intlink href="../../font-face/"></intlink>
+<intlink href="../../opacite/"></intlink>
+<intlink href="../../pseudo-classes-avancees/#has"></intlink>
 
 <dots></dots>
 
 
-<thumbsup>
+<!-- <thumbsup>
   Bonjour à tous,
   <br><br>
   Comme vous avez pu remarquer je ne suis plus parmis vous. Sachez que je n'ai tué personne (je pense). Parfois on fait des erreurs et on doit payer pour. Je me relève les manches et je compte bien réparer ces erreurs afin de peut-être être de retour parmis vous d'ici la fin de votre D.E.C.
@@ -124,4 +125,4 @@
   Prof Max.
   <br><br>
   <img src="./images/prof-max.jpg" width="300" style="border-radius: 50%">
-</thumbsup>
+</thumbsup> -->
