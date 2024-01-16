@@ -669,6 +669,11 @@ body.dark table tr:nth-child(even) td {
 .mediafile__link.spacerr {
   margin-left: 25px;
 }
+@media (max-width: 820px) {
+  .mediafile__link input {
+    font-size: 12px;
+  }
+}
 .mediafile__spacer {
   display: block;
   margin-bottom: 25px;

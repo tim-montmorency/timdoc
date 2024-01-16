@@ -39,6 +39,12 @@
         &.spacerr {
             margin-left: 25px;
         }
+
+        input {
+            @media (max-width: 820px)  {
+                font-size: 12px;
+            }
+        }
     }
 
     &__spacer {
