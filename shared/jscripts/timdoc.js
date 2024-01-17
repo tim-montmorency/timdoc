@@ -613,19 +613,24 @@ app.component('clip', {
         let track = undefined;
         details.media.track.forEach(elm => { if(elm['@type'] == 'Video') { track = elm; }});
         if(track == undefined) return {};
-        else return {
-            id: id,
-            name: name,
-            width: track.Width,
-            height: track.Height
+        else {
+            let denominator = hcd(track.Width, track.Height);
+            let aspect = (track.Width / denominator) + '/' + (track.Height / denominator);
+            return {
+                id: id,
+                name: name,
+                width: track.Width,
+                height: track.Height,
+                aspect: aspect
+            }
         }
     },
     template: `
-        <div class="video-container">
+        <div class="video-container" :style="'aspect-ratio: ' + this.aspect + ';'">
             <video
                 :id="this.id"
-                :width="this.width"
-                :height="this.height"
+                width="100%"
+                height="100%"
                 :poster="this.name + '.jpg'"
                 data-setup='{"fluid": true}'
                 class="video-js"
