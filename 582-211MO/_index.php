@@ -1,9 +1,9 @@
 <?php
 /**
  * @type     list
- * @title   Web 1
+ * @title   Web 2
  * @icon     images/icon.png
- * @abstract 582-111MO
+ * @abstract 582-211MO
  */
 
  print_children();
