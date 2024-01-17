@@ -46,13 +46,13 @@
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
-<p>La balise d'ancre <incode>&lt;a&gt;</incode> permet de connecter différentes ressources entre elles. Elle est généralement utilisée afin d'établir un lien vers un autre site web ou encore vers une section d'une page, mais elle peut aussi déclencher l'ouverture d'une fenêtre de courriel, un appel téléphonique, le téléchargement de fichiers, etc.<br><br>
+<p>La balise d'ancre <span class="inline-code">&lt;a&gt;</span> permet de connecter différentes ressources entre elles. Elle est généralement utilisée afin d'établir un lien vers un autre site web ou encore vers une section d'une page, mais elle peut aussi déclencher l'ouverture d'une fenêtre de courriel, un appel téléphonique, le téléchargement de fichiers, etc.<br><br>
 
-L'attribut <incode>href</incode> est l'attribut principal de la balise <incode>&lt;a&gt;</incode>. Il permet de définir la cible d'une ancre. Voyons cibles les plus courantes.</p>
+L'attribut <span class="inline-code">href</span> est l'attribut principal de la balise <span class="inline-code">&lt;a&gt;</span>. Il permet de définir la cible d'une ancre. Voyons cibles les plus courantes.</p>
 
 <grostitre>Vers une page</grostitre>
 
-<p>Pour faire un lien vers une page, il suffit de spécifier l'url du site en question dans le <incode>href</incode>.</p>
+<p>Pour faire un lien vers une page, il suffit de spécifier l'url du site en question dans le <span class="inline-code">href</span>.</p>
 
 <p>Par exemple:</p>
 
@@ -60,11 +60,11 @@ L'attribut <incode>href</incode> est l'attribut principal de la balise <incode>&
 
 <h3 style="color: gold">Target</h3>
 
-<p>Il est possible de choisir si un lien devrait s'ouvrir dans l'onglet courant du navigateur ou encore dans un onglet distinct. Pour ce faire, il suffit d'ajouter l'attribut <incode>target</incode> à une ancre.</p>
+<p>Il est possible de choisir si un lien devrait s'ouvrir dans l'onglet courant du navigateur ou encore dans un onglet distinct. Pour ce faire, il suffit d'ajouter l'attribut <span class="inline-code">target</span> à une ancre.</p>
 
 <ul>
-    <li><incode>_self</incode> <em>(par défaut)</em> ouvre dans le même onglet.</li>
-    <li><incode>_blank</incode> ouvre dans un nouvel onglet.</li>
+    <li><span class="inline-code">_self</span> <em>(par défaut)</em> ouvre dans le même onglet.</li>
+    <li><span class="inline-code">_blank</span> ouvre dans un nouvel onglet.</li>
 </ul>
 
 <p>Par exemple:</p>
@@ -75,7 +75,7 @@ L'attribut <incode>href</incode> est l'attribut principal de la balise <incode>&
 
 <grostitre>Vers une section de page</grostitre>
 
-<p>Pour pointer vers une section de la page courante, il suffit dans le <incode>href</incode> de faire référence à l'id de l'élément désiré et de le préfixer avec un <incode>#</incode>.</p>
+<p>Pour pointer vers une section de la page courante, il suffit dans le <span class="inline-code">href</span> de faire référence à l'id de l'élément désiré et de le préfixer avec un <span class="inline-code">#</span>.</p>
 
 <p>Par exemple, pour qu'une ancre pointe vers l'élément ayant l'id section2, il est possible de faire:</p>
 
@@ -85,7 +85,7 @@ L'attribut <incode>href</incode> est l'attribut principal de la balise <incode>&
 &lt;div id=&quot;section2&quot;&gt;Section 2&lt;/div&gt;
 &lt;div id=&quot;section3&quot;&gt;Section 3&lt;/div&gt;</highlight>
 
-<p>Pour pointer vers une section d'une autre page, il suffit d'ajouter l'URL de la page en question avant le <incode>#</incode>.</p>
+<p>Pour pointer vers une section d'une autre page, il suffit d'ajouter l'URL de la page en question avant le <span class="inline-code">#</span>.</p>
 
 <p>Par exemple:</p>
 
@@ -95,7 +95,7 @@ L'attribut <incode>href</incode> est l'attribut principal de la balise <incode>&
 
 <h3>Scroll-behavior</h3>
 
-<p>Par défaut, lorsque l'on pointe vers une section de page, le navigateur saute directement au id ciblé. Cependant, il est possible de faire en sorte que la page défile vers le id en question en spécifiant la propriété <incode>scroll-behavior: smooth</incode> à l'élément HTML.</p>
+<p>Par défaut, lorsque l'on pointe vers une section de page, le navigateur saute directement au id ciblé. Cependant, il est possible de faire en sorte que la page défile vers le id en question en spécifiant la propriété <span class="inline-code">scroll-behavior: smooth</span> à l'élément HTML.</p>
 
 <p>Par exemple, cliquez sur les boutons 1 et 2 pour sauter d'une section à l'autre et refaite le, mais en changeant la valeur de scroll-behavior.</p>
 
@@ -105,7 +105,7 @@ L'attribut <incode>href</incode> est l'attribut principal de la balise <incode>&
 
 <grostitre>Composer un courriel ✉️</grostitre>
 
-<p>L'attribut <incode>href</incode> peut aussi contenir une adresse courriel préfixée par: <incode>mailto:</incode> afin d'indiquer au service de courrielleur de l'usager <em>(Outlook, Gmail, etc.)</em> de générer un nouveau message prêt à être rédigé.</p>
+<p>L'attribut <span class="inline-code">href</span> peut aussi contenir une adresse courriel préfixée par: <span class="inline-code">mailto:</span> afin d'indiquer au service de courrielleur de l'usager <em>(Outlook, Gmail, etc.)</em> de générer un nouveau message prêt à être rédigé.</p>
 
 <p>Par exemple:</p>
 
@@ -115,7 +115,7 @@ L'attribut <incode>href</incode> est l'attribut principal de la balise <incode>&
 
 <grostitre>Démarrer un appel 📞</grostitre>
 
-<p>L'attribut <incode>href</incode> peut aussi contenir un numéro de téléphone préfixée par: <incode>tel:</incode> afin d'indiquer que le système d'exploitation devrait devrait déclencher un appel au numéro mentionné si cette fonctionnalité est supportée par celui-ci.</p>
+<p>L'attribut <span class="inline-code">href</span> peut aussi contenir un numéro de téléphone préfixée par: <span class="inline-code">tel:</span> afin d'indiquer que le système d'exploitation devrait devrait déclencher un appel au numéro mentionné si cette fonctionnalité est supportée par celui-ci.</p>
 
 <p>Par exemple:</p>
 

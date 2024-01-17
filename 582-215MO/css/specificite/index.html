@@ -57,7 +57,7 @@
 
 <h3>Universel *</h3>
 
-<p>Le sélecteur universel <incode>*</incode> est le plus faible des sélecteurs avec une valeur de <strong><em>0 point</em></strong>. Il peut donc être écrasé par tout autre sélecteur.</p>
+<p>Le sélecteur universel <span class="inline-code">*</span> est le plus faible des sélecteurs avec une valeur de <strong><em>0 point</em></strong>. Il peut donc être écrasé par tout autre sélecteur.</p>
 
 <highlight lang="css">* { ... }</highlight>
 
@@ -91,16 +91,16 @@
 
 <h3>!important</h3>
 
-<p>En dernier recours, il est possible d’ajouter la mention <incode>!important</incode> à la fin d’une déclaration CSS afin de lui attribuer <strong><em>10 000 points</em></strong> de spécificité et ainsi s’assurer d’écraser tout autre style. </p>
+<p>En dernier recours, il est possible d’ajouter la mention <span class="inline-code">!important</span> à la fin d’une déclaration CSS afin de lui attribuer <strong><em>10 000 points</em></strong> de spécificité et ainsi s’assurer d’écraser tout autre style. </p>
 
 <highlight lang="css">.element {
   color: blue !important; /* 10 000 points */
   background: red; /* 10 points */
 }</highlight>
 
-<p>Puisque <incode>!important</incode> est ajouté à une propriété directement, sa présence n’impacte que la valeur de cette propriété et non celle de l'ensemble de la règle CSS.</p>
+<p>Puisque <span class="inline-code">!important</span> est ajouté à une propriété directement, sa présence n’impacte que la valeur de cette propriété et non celle de l'ensemble de la règle CSS.</p>
 
-<warning>La présence d’un <incode>!important</incode> dans un code est généralement mal perçu et synonyme de problème de structure de code.</warning>
+<warning>La présence d’un <span class="inline-code">!important</span> dans un code est généralement mal perçu et synonyme de problème de structure de code.</warning>
 
 <dots></dots>
 
@@ -165,9 +165,9 @@
 <highlight lang="css">.element { &hellip; }
 .no1 { &hellip; }</highlight>
 
-<p>Cependant, les styles du sélecteur <incode>.no1</incode> auront priorité sur ceux de <incode>.element</incode> puisque <incode>.no1</incode> est écrit en dernier et est donc considéré comme étant la définition la plus récente, donc celle prioritaire en cas d’égalité.</p>
+<p>Cependant, les styles du sélecteur <span class="inline-code">.no1</span> auront priorité sur ceux de <span class="inline-code">.element</span> puisque <span class="inline-code">.no1</span> est écrit en dernier et est donc considéré comme étant la définition la plus récente, donc celle prioritaire en cas d’égalité.</p>
 
-<p>Le simple fait d’inverser ces sélecteurs dans le code CSS donnerait priorité aux styles de <incode>.element</incode> au détriment de ceux de <incode>.no1</incode>.</p>
+<p>Le simple fait d’inverser ces sélecteurs dans le code CSS donnerait priorité aux styles de <span class="inline-code">.element</span> au détriment de ceux de <span class="inline-code">.no1</span>.</p>
 
 <doclink href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity">Spécificité</doclink>
 <doclink href="https://www.w3schools.com/css/css_specificity.asp">Spécificité</doclink>

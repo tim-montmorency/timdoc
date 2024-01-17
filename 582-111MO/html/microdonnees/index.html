@@ -86,7 +86,7 @@
 
 <grostitre>itemscope</grostitre>
 
-<p>Afin d'indiquer que ces informations ont un lien, il est possible de leur spécifier un contexte commun via <incode>itemscope</incode>:</p>
+<p>Afin d'indiquer que ces informations ont un lien, il est possible de leur spécifier un contexte commun via <span class="inline-code">itemscope</span>:</p>
 
 <highlight lang="html">&lt;div itemscope&gt;
   &lt;h1&gt;Avatar&lt;/h1&gt;
@@ -95,14 +95,14 @@
   &lt;img src=&quot;https://tim-montmorency.com/timdoc/582-215MO/html/microdonnees/images/avatar.jpg&quot;&gt;	
 &lt;/div&gt;</highlight>
 
-<p>Ainsi, le contenu enfant de la balise ayant l'attribut <incode>itemscope</incode> est à propos d'un item en particulier.</p>
+<p>Ainsi, le contenu enfant de la balise ayant l'attribut <span class="inline-code">itemscope</span> est à propos d'un item en particulier.</p>
 
 <dots></dots>
 
 
 <grostitre>itemtype</grostitre>
 
-<p>Afin d'être plus précis, il est possible de spécifier le type d'item abordé en ajoutant l'attribut <incode>itemtype</incode> après <incode>itemscope</incode>.</p>
+<p>Afin d'être plus précis, il est possible de spécifier le type d'item abordé en ajoutant l'attribut <span class="inline-code">itemtype</span> après <span class="inline-code">itemscope</span>.</p>
 
 <highlight lang="html">&lt;div itemscope itemtype=&quot;https://schema.org/Movie&quot;&gt;
   &lt;h1&gt;Avatar&lt;/h1&gt;
@@ -111,7 +111,7 @@
   &lt;img src=&quot;https://tim-montmorency.com/timdoc/582-215MO/html/microdonnees/images/avatar.jpg&quot;&gt;	
 &lt;/div&gt;</highlight>
 
-<p>Dans ce cas, il s'agit d'un item de type <incode>Movie</incode>.</p>
+<p>Dans ce cas, il s'agit d'un item de type <span class="inline-code">Movie</span>.</p>
 
 <p>Le type est spécifié en utilisant une URL pointant vers une définition de <a href="_blank" href="https://schema.org/">schema.org</a>.</p>
 
@@ -142,7 +142,7 @@
 
 <grostitre>meta</grostitre>
 
-<p>Il est possible que certaines informations soient pertinentes pour un moteur de recherche, mais non désirables pour le lecteur. Ainsi, il est possible d'utiliser la balise <incode>&lt;meta&gt;</incode> afin de transmettre l'information de n'importe quelle <incode>itemprop</incode> sans toutefois l'afficher.</p>
+<p>Il est possible que certaines informations soient pertinentes pour un moteur de recherche, mais non désirables pour le lecteur. Ainsi, il est possible d'utiliser la balise <span class="inline-code">&lt;meta&gt;</span> afin de transmettre l'information de n'importe quelle <span class="inline-code">itemprop</span> sans toutefois l'afficher.</p>
 
 <highlight lang="html">&lt;div itemscope itemtype=&quot;https://schema.org/Movie&quot;&gt;
   &lt;h1 itemprop=&quot;name&quot;&gt;Avatar&lt;/h1&gt;
@@ -152,7 +152,7 @@
   &lt;meta itemprop=&quot;sameAs&quot; content=&quot;https://www.imdb.com/title/tt0499549/&quot;&gt;
 &lt;/div&gt;</highlight>
 
-<p>Dans ce cas 👆, la propriété <incode>sameAs</incode> indique que le sujet de l'item est le même que celui de l'url spécifiée <em>(page IMDb d'Avatar)</em>. Le but de cette propriété est d'offrir une référence connue au moteur de recherche afin qu'il comprenne exactement le sujet traité.</p>
+<p>Dans ce cas 👆, la propriété <span class="inline-code">sameAs</span> indique que le sujet de l'item est le même que celui de l'url spécifiée <em>(page IMDb d'Avatar)</em>. Le but de cette propriété est d'offrir une référence connue au moteur de recherche afin qu'il comprenne exactement le sujet traité.</p>
 
 <p>Cependant, pour des raisons esthétiques, il est possible de cacher cette information.</p>
 
@@ -163,9 +163,9 @@
 
 <p>Nous avons vu comment définir un item de base. Néanmoins, il est fréquent que des items en contiennent d'autres.</p>
 
-<p>Dans l'exemple précédent, il n'y avait qu'un item de type <incode>Movie</incode>. Cependant, il aurait été possible d'avoir un item enfant de type <incode>Person</incode>, afin de décrire plus amplement James Cameron.</p>
+<p>Dans l'exemple précédent, il n'y avait qu'un item de type <span class="inline-code">Movie</span>. Cependant, il aurait été possible d'avoir un item enfant de type <span class="inline-code">Person</span>, afin de décrire plus amplement James Cameron.</p>
 
-<p>Pour ce faire, un élément <incode>itemprop</incode> doit-être bonifié avec son propre contexte <incode>itemscope</incode> et propre type <incode>itemtype</incode>.</p>
+<p>Pour ce faire, un élément <span class="inline-code">itemprop</span> doit-être bonifié avec son propre contexte <span class="inline-code">itemscope</span> et propre type <span class="inline-code">itemtype</span>.</p>
 
 
 

@@ -46,23 +46,23 @@
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
-<p class="spacer">Par défaut, le choix de <a target="_blank" href="https://www.cssfontstack.com/">polices natives compatibles sur tous les appareils est relativement limité</a>. Heureusement, il est possible d'importer des polices externes afin de contourner cette limitation via <incode>@font-face</incode>.</p>
+<p class="spacer">Par défaut, le choix de <a target="_blank" href="https://www.cssfontstack.com/">polices natives compatibles sur tous les appareils est relativement limité</a>. Heureusement, il est possible d'importer des polices externes afin de contourner cette limitation via <span class="inline-code">@font-face</span>.</p>
 
-<p>La règle <incode>@font-face</incode> permet d'importer une police sur une page en spécifiant où la police est située et sous quel nom y faire référence.</p>
+<p>La règle <span class="inline-code">@font-face</span> permet d'importer une police sur une page en spécifiant où la police est située et sous quel nom y faire référence.</p>
 
 <highlight lang="css">@font-face {
   src: url(&quot;/polices/bebas.woff2&quot;) format(&quot;woff2&quot;);
   font-family: &quot;Bebas&quot;;
 }</highlight>
 
-<info>Placer ses règles <incode>@font-face</incode> en début de fichier CSS permet de s’assurer que la police soit importée avant qu’un style y fasse référence.</info>
+<info>Placer ses règles <span class="inline-code">@font-face</span> en début de fichier CSS permet de s’assurer que la police soit importée avant qu’un style y fasse référence.</info>
 
 <dots></dots>
 
 
 <grostitre>src</grostitre>
 
-<p>La propriété <incode>src</incode> dans cet exemple indique au navigateur que la police se nomme <incode>bebas.woff2</incode> et se trouve dans un dossier intitulé <incode>polices</incode>.</p>
+<p>La propriété <span class="inline-code">src</span> dans cet exemple indique au navigateur que la police se nomme <span class="inline-code">bebas.woff2</span> et se trouve dans un dossier intitulé <span class="inline-code">polices</span>.</p>
 
 <warning>Si votre nom contient des espaces, il faudra obligatoirement utiliser des guillemets autour de celui-ci.</warning>
 
@@ -71,7 +71,7 @@
 
 <grostitre>format</grostitre>
 
-<p><incode>format</incode> est un complément à <incode>src</incode>. Il permet au navigateur de connaître le format de la police et de savoir s'il est en mesure de le supporter.</p>
+<p><span class="inline-code">format</span> est un complément à <span class="inline-code">src</span>. Il permet au navigateur de connaître le format de la police et de savoir s'il est en mesure de le supporter.</p>
 
 <p>Voici une liste des extensions de polices les plus fréquentes et leur format associés:</p>
 
@@ -122,7 +122,7 @@
 
 <grostitre>font-family</grostitre>
 
-<p>La propriété <incode>font-family</incode>, à l'intérieur d'une règle @font-face, permet de spécifier le nom attribué à la police importée. Ce nom sera ensuite utilisé afin de faire référence à la police.</p>
+<p>La propriété <span class="inline-code">font-family</span>, à l'intérieur d'une règle @font-face, permet de spécifier le nom attribué à la police importée. Ce nom sera ensuite utilisé afin de faire référence à la police.</p>
 
 <p>Il est conseillé d'utiliser le nom de la police afin d'éviter toute confusion, comme dans l'exemple précédent, la police est simplement nommée <em>"Bebas"</em> comme son fichier <em>(bebas.woff2)</em>. Néanmoins, ce nom pourrait théoriquement être n'importe quoi.</p>
 
@@ -153,7 +153,7 @@
   font-family: &quot;Bebas&quot;;
 }</highlight>
 
-<p>Dans cet exemple, les éléments avec la classe <incode>.title</incode> utilisent la police <em>Bebas</em>.</p>
+<p>Dans cet exemple, les éléments avec la classe <span class="inline-code">.title</span> utilisent la police <em>Bebas</em>.</p>
 
 <dots></dots>
 
@@ -175,9 +175,9 @@
 
 <grostitre>Variations</grostitre>
 
-<p>Si une police contient plusieurs fichiers, chacun de ces fichiers correspond à une variation de la police. Par exemple, normal, italique, gras <em>(bold)</em>, etc. Dans ce cas, il est nécessaire de définir une règle <incode>@font-face</incode> pour chacun des fichiers.</p>
+<p>Si une police contient plusieurs fichiers, chacun de ces fichiers correspond à une variation de la police. Par exemple, normal, italique, gras <em>(bold)</em>, etc. Dans ce cas, il est nécessaire de définir une règle <span class="inline-code">@font-face</span> pour chacun des fichiers.</p>
 
-<p>Pour chacune de ces règles, la propriété <incode>font-family</incode> doit être la même puisqu'il s'agit de la même police. Cependant, une propriété supplémentaire, telle que: <incode>font-style</incode> ou <incode>font-weight</incode> doit être ajoutée afin d'indiquer la variation en question. Si aucune propriété supplémentaire n'est spécifiée, le navigateur conclura qu'il s'agit du style par défaut <em>(normal)</em>, de la police.</p>
+<p>Pour chacune de ces règles, la propriété <span class="inline-code">font-family</span> doit être la même puisqu'il s'agit de la même police. Cependant, une propriété supplémentaire, telle que: <span class="inline-code">font-style</span> ou <span class="inline-code">font-weight</span> doit être ajoutée afin d'indiquer la variation en question. Si aucune propriété supplémentaire n'est spécifiée, le navigateur conclura qu'il s'agit du style par défaut <em>(normal)</em>, de la police.</p>
 
 <p>Par exemple:</p>
 
@@ -192,7 +192,7 @@
   font-weight: bold; /* 👈 Variation sp&eacute;cifi&eacute;e */
 }</highlight>
 
-<info>Une police importée via <incode>@font-face</incode> devrait être fonctionnelle même si elle n’est pas installée sur votre ordinateur. Le but premier est de rendre la police disponible aux utilisateurs visitant la page même s’ils n’ont pas la police d’installer sur leur ordinateur.</info>
+<info>Une police importée via <span class="inline-code">@font-face</span> devrait être fonctionnelle même si elle n’est pas installée sur votre ordinateur. Le but premier est de rendre la police disponible aux utilisateurs visitant la page même s’ils n’ont pas la police d’installer sur leur ordinateur.</info>
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/@font-face">@font-face</doclink>
 <doclink href="https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp">@font-face</doclink>

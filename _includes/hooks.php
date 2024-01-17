@@ -89,3 +89,11 @@ register_tag('highlight', function($html, $attrs, $data) {
     foreach($attrs as $k => $v) $props[] = $k.'="'.$v.'"';
     return '<highlight'.(!empty($props) ? ' '.join(' ', $props): '').'>'.$data.'</highlight>';
 });
+
+
+/******************************************************
+ *                 Composante Incode                  *
+ ******************************************************/
+register_tag('incode', function($html, $attrs, $data) {
+    return '<span class="inline-code">' . $data . '</span>';
+});

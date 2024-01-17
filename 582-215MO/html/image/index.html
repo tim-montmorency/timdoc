@@ -47,7 +47,7 @@
                     <!-- ARTICLE HEADER EOF -->
 
 
-<p class="spacer">La balise <incode>&lt;img&gt;</incode> permet d'afficher une image. Seul son attribut <incode>src</incode> est obligatoire puisqu'il spécifie <a href="../../autres/chemins/">le chemin</a> vers l'image à afficher.</p>
+<p class="spacer">La balise <span class="inline-code">&lt;img&gt;</span> permet d'afficher une image. Seul son attribut <span class="inline-code">src</span> est obligatoire puisqu'il spécifie <a href="../../autres/chemins/">le chemin</a> vers l'image à afficher.</p>
 
 <p>Par exemple:</p>
 
@@ -58,7 +58,7 @@
 
 <grostitre>Alt</grostitre>
 
-<p>L'attribut <incode>alt</incode>, bien que non obligatoire, est fortement recommandé puisqu'il permet de fournir une description alternative dans le cas où l'image ne puisse être chargée <em>(chemin brisé)</em>.</p>
+<p>L'attribut <span class="inline-code">alt</span>, bien que non obligatoire, est fortement recommandé puisqu'il permet de fournir une description alternative dans le cas où l'image ne puisse être chargée <em>(chemin brisé)</em>.</p>
 
 <p>Par exemple:</p>
 
@@ -74,14 +74,14 @@
 
 <highlight lang="html">&lt;img src=&quot;image.png&quot; alt=&quot;image&quot;&gt;</highlight>
 
-<info>Si l’image ne contient pas de contenu informatif, mais uniquement esthétique, par exemple une image d’une ligne diagonale utilisée entre deux blocs de contenu, il est suggéré d’inscrire <incode>alt=""</incode> afin d’indiquer que l’image est purement décorative.</info>
+<info>Si l’image ne contient pas de contenu informatif, mais uniquement esthétique, par exemple une image d’une ligne diagonale utilisée entre deux blocs de contenu, il est suggéré d’inscrire <span class="inline-code">alt=""</span> afin d’indiquer que l’image est purement décorative.</info>
 
 <dots></dots>
 
 
 <grostitre>Width & Height</grostitre>
 
-<p>Les attributs <incode>width</incode> et <incode>height</incode> permettent de spécifier la dimension intrinsèque de l'image. C'est à dire sa dimension d'origine si celle-ci n'était pas manipulée en CSS. Ces attributs ne doivent pas spécifier d'unité de mesure. Le navigateur assumera automatiquement que ces valeurs sont exprimées en pixels <em>(px)</em>.</p>
+<p>Les attributs <span class="inline-code">width</span> et <span class="inline-code">height</span> permettent de spécifier la dimension intrinsèque de l'image. C'est à dire sa dimension d'origine si celle-ci n'était pas manipulée en CSS. Ces attributs ne doivent pas spécifier d'unité de mesure. Le navigateur assumera automatiquement que ces valeurs sont exprimées en pixels <em>(px)</em>.</p>
 
 <p>Par exemple:</p>
 
@@ -109,19 +109,19 @@
 
 <grostitre>Loading</grostitre>
 
-<p>L'attribut <incode>loading</incode> permet d'indiquer la priorité de chargement d'une image. Par défaut, le navigateur tente de charger toutes images en accordant une légère priorité à celles visibles au chargement de la page dans la fenêtre. Cependant il est possible de lui spécifier différentes valeurs:</p>
+<p>L'attribut <span class="inline-code">loading</span> permet d'indiquer la priorité de chargement d'une image. Par défaut, le navigateur tente de charger toutes images en accordant une légère priorité à celles visibles au chargement de la page dans la fenêtre. Cependant il est possible de lui spécifier différentes valeurs:</p>
 
 <ul>
-    <li><incode>auto</incode> comportement normal, soit l'équivalent de ne pas mettre l'attribut.</li>
-    <li><incode>lazy</incode> attendre que l'image soit sur le point d'être visible avant de la chargée. Donc si un usager ne fait jamais défiler la page jusqu'à celle-ci, l'image ne sera jamais chargée. Cette option permet d'accélérer le chargement de la page 🏁.</li>
-    <li><incode>eager</incode> indique de charger l'image le plus rapidement possible, peu importe sa position dans la page.</li>
+    <li><span class="inline-code">auto</span> comportement normal, soit l'équivalent de ne pas mettre l'attribut.</li>
+    <li><span class="inline-code">lazy</span> attendre que l'image soit sur le point d'être visible avant de la chargée. Donc si un usager ne fait jamais défiler la page jusqu'à celle-ci, l'image ne sera jamais chargée. Cette option permet d'accélérer le chargement de la page 🏁.</li>
+    <li><span class="inline-code">eager</span> indique de charger l'image le plus rapidement possible, peu importe sa position dans la page.</li>
 </ul>
 
 <p>Par exemple, pour faire du <em>"lazy-loading"</em>:</p>
 
 <codepen id="PoBXqPZ" tab="html,result" height="340"></codepen>
 
-<warning>Si une image est visible au chargement de la page, il est recommandé de ne pas lui ajouter l’attribut <incode>loading="lazy"</incode> afin de forcer son chargement le plus rapidement possible.</warning>
+<warning>Si une image est visible au chargement de la page, il est recommandé de ne pas lui ajouter l’attribut <span class="inline-code">loading="lazy"</span> afin de forcer son chargement le plus rapidement possible.</warning>
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Img">img</doclink>
 <doclink href="https://www.w3schools.com/tags/tag_img.asp">img</doclink>

@@ -77,12 +77,12 @@
 <p>Voici les plus courants:</p>
 
 <ul>
-    <li><incode>&lt;rect&gt;</incode> permets de définir des formes rectangulaires.</li>
-    <li><incode>&lt;circle&gt;</incode> permets de définir des cercles.</li>
-    <li><incode>&lt;ellipse&gt;</incode> similaire à circle, mais permet de définir des formes ovales.</li>
-    <li><incode>&lt;polygon&gt;</incode> permets de définir toute forme géométrique constituée uniquement de lignes droites.</li>
-    <li><incode>&lt;path&gt;</incode> élément générique permettant de définir n'importe quelle forme, incluant les celles comportant des lignes courbes.</li>
-    <li><incode>&lt;g&gt;</incode> représente un groupe d'éléments.</li>
+    <li><span class="inline-code">&lt;rect&gt;</span> permets de définir des formes rectangulaires.</li>
+    <li><span class="inline-code">&lt;circle&gt;</span> permets de définir des cercles.</li>
+    <li><span class="inline-code">&lt;ellipse&gt;</span> similaire à circle, mais permet de définir des formes ovales.</li>
+    <li><span class="inline-code">&lt;polygon&gt;</span> permets de définir toute forme géométrique constituée uniquement de lignes droites.</li>
+    <li><span class="inline-code">&lt;path&gt;</span> élément générique permettant de définir n'importe quelle forme, incluant les celles comportant des lignes courbes.</li>
+    <li><span class="inline-code">&lt;g&gt;</span> représente un groupe d'éléments.</li>
 </ul>
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/SVG/Element">Éléments SVG</doclink>
@@ -180,7 +180,7 @@
 
 <h3>Img</h3>
 
-<p>Comme toute image traditionnelle <em>(jpg, png, etc.)</em>, il est possible d’afficher un SVG via une balise <incode>&lt;img&gt;</incode>. Cependant, cette approche limite grandement les possibilités de manipulation dudit SVG.</p>
+<p>Comme toute image traditionnelle <em>(jpg, png, etc.)</em>, il est possible d’afficher un SVG via une balise <span class="inline-code">&lt;img&gt;</span>. Cependant, cette approche limite grandement les possibilités de manipulation dudit SVG.</p>
 
 <codepen id="GRBXZvy" tab="html,result" height="340"></codepen>
 
@@ -202,13 +202,13 @@
 
 <codepen id="abjaNGZ" tab="html,result" height="340"></codepen>
 
-<p>Remarquez l'attribut <incode>viewbox</incode>. Les 4 chiffres à l'intérieur définissent les dimensions de base de l'image. Les deux premiers représentent la largeur et la hauteur minimale de l'image <em>(généralement, ces chiffres ont une valeur de 0)</em>. Les deux suivants représentent la largeur et la hauteur de référence utilisée afin de positionnement les éléments de l'image.</p>
+<p>Remarquez l'attribut <span class="inline-code">viewbox</span>. Les 4 chiffres à l'intérieur définissent les dimensions de base de l'image. Les deux premiers représentent la largeur et la hauteur minimale de l'image <em>(généralement, ces chiffres ont une valeur de 0)</em>. Les deux suivants représentent la largeur et la hauteur de référence utilisée afin de positionnement les éléments de l'image.</p>
 
-<p>Tous les éléments à l'intérieur de la balise <incode>&lt;svg&gt;</incode> sont des formes à afficher dans l'image.</p>
+<p>Tous les éléments à l'intérieur de la balise <span class="inline-code">&lt;svg&gt;</span> sont des formes à afficher dans l'image.</p>
 
 <ol>
     <li>La première est un rectangle rouge de 100 par 100, donc couvrant l'ensemble de la surface de l'image.</li>
-    <li>La deuxième est un polygone vert affiché par-dessus le carré rouge. L'attribut <incode>points</incode> correspond à la position des points X et Y constituant la forme à afficher. Par exemple, <incode>0,0</incode> indique que le 1er point est positionné à la position X:0 et Y:0. Le 2e à la position X:50 et Y:0 et ainsi de suite.</li>
+    <li>La deuxième est un polygone vert affiché par-dessus le carré rouge. L'attribut <span class="inline-code">points</span> correspond à la position des points X et Y constituant la forme à afficher. Par exemple, <span class="inline-code">0,0</span> indique que le 1er point est positionné à la position X:0 et Y:0. Le 2e à la position X:50 et Y:0 et ainsi de suite.</li>
     <li>La troisième est aussi un polygone, cette fois-ci bleu, assez similaire au polygone précédent.</li>
 </ol>
 
@@ -223,15 +223,15 @@
 <p>Plusieurs propriétés CSS de base sont compatibles avec les formes SVG. Cependant, certaines propriétés leur sont propres:</p>
 
 <ul>
-    <li><incode>fill</incode> contrôlant la couleur de fond <em>(équivalent de <incode>background-color</incode>)</em>.</li>
-    <li><incode>stroke</incode> contrôlant la bordure <em>(équivalent de <incode>border</incode>)</em>.</li>
+    <li><span class="inline-code">fill</span> contrôlant la couleur de fond <em>(équivalent de <span class="inline-code">background-color</span>)</em>.</li>
+    <li><span class="inline-code">stroke</span> contrôlant la bordure <em>(équivalent de <span class="inline-code">border</span>)</em>.</li>
 </ul>
 
-<p>Par exemple, la propriété <incode>fill</incode> de la forme verte est modifiée lorsque la forme est survolée.</p>
+<p>Par exemple, la propriété <span class="inline-code">fill</span> de la forme verte est modifiée lorsque la forme est survolée.</p>
 
 <codepen id="BaPOKXM" tab="css,result" height="340"></codepen>
 
-<span class="remark">Survolez la forme verte du SVG pour voir sa couleur changer au <incode>:hover</incode>.</span>
+<span class="remark">Survolez la forme verte du SVG pour voir sa couleur changer au <span class="inline-code">:hover</span>.</span>
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/SVG/Element/svg">svg</doclink>
 <doclink href="https://www.w3schools.com/html/html5_svg.asp">svg</doclink>

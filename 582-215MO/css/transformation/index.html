@@ -46,9 +46,9 @@
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
-<p class="spacer">La propriété CSS <incode>transform</incode> permet d'effectuer des transformations géométriques sur un élément. Contrairement aux propriétés traditionnelles, elle accepte plusieurs valeurs. Il est même possible d'effectuer des combinaisons afin d'accomplir des transformations complexes.</p>
+<p class="spacer">La propriété CSS <span class="inline-code">transform</span> permet d'effectuer des transformations géométriques sur un élément. Contrairement aux propriétés traditionnelles, elle accepte plusieurs valeurs. Il est même possible d'effectuer des combinaisons afin d'accomplir des transformations complexes.</p>
 
-<p>Comparativement aux autres propriétés, par exemple: <incode>top</incode> ou <incode>left</incode>, la propriété <incode>transform</incode> n'a aucun impact sur le positionnement des éléments adjacents.</p>
+<p>Comparativement aux autres propriétés, par exemple: <span class="inline-code">top</span> ou <span class="inline-code">left</span>, la propriété <span class="inline-code">transform</span> n'a aucun impact sur le positionnement des éléments adjacents.</p>
 
 <dots></dots>
 
@@ -81,14 +81,14 @@
 <p>Il est possible d'effectuer une translation sur un seul axe en spécifiant cet axe dans la nom de la valeur. Par exemple:</p>
 
 <ul>
-  <li><incode>translateX(...)</incode> uniquement sur les X <em>(équivaut à <incode>translate(...)</incode> )</em></li>
-  <li><incode>translateY(...)</incode> uniquement sur les Y</li>
-  <li><incode>translateZ(...)</incode> uniquement sur les Z</li>
+  <li><span class="inline-code">translateX(...)</span> uniquement sur les X <em>(équivaut à <span class="inline-code">translate(...)</span> )</em></li>
+  <li><span class="inline-code">translateY(...)</span> uniquement sur les Y</li>
+  <li><span class="inline-code">translateZ(...)</span> uniquement sur les Z</li>
 </ul>
 
 <warning>Pour qu’une translation sur l’axe des Z soit perceptible, il est nécessaire qu’une perspective soit donnée à l’élément ou à l’un de ses parents.</warning>
 
-<p>Il est également possible de combiner les 3 axes dans une valeur en utilisant <incode>translate3d(...)</incode>.</p>
+<p>Il est également possible de combiner les 3 axes dans une valeur en utilisant <span class="inline-code">translate3d(...)</span>.</p>
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/transform-function/translate()">transform: translate()</doclink>
 
@@ -100,8 +100,8 @@
 <p>Cette valeur accepte comme argument les unités de type:</p>
 
 <ul>
-  <li><incode>deg</incode> degrés | 360 degrés dans un cercle/li>
-  <li><incode>turn</incode> turns | 1 turn/tour dans un cercle</li>
+  <li><span class="inline-code">deg</span> degrés | 360 degrés dans un cercle/li>
+  <li><span class="inline-code">turn</span> turns | 1 turn/tour dans un cercle</li>
 </ul>
 
 <p>Qui plus est, cette valeur peut-être:</p>
@@ -120,9 +120,9 @@
 <p>Il est possible d'effectuer une rotation sur un seul axe en spécifiant cet axe dans la nom de la valeur. Par exemple:</p>
 
 <ul>
-  <li><incode>rotateZ(...)</incode> uniquement sur les Z <em>(équivaut à <incode>rotate(...)</incode> )</em></li>
-  <li><incode>rotateX(...)</incode> uniquement sur les X</li>
-  <li><incode>rotateY(...)</incode> uniquement sur les Y</li>
+  <li><span class="inline-code">rotateZ(...)</span> uniquement sur les Z <em>(équivaut à <span class="inline-code">rotate(...)</span> )</em></li>
+  <li><span class="inline-code">rotateX(...)</span> uniquement sur les X</li>
+  <li><span class="inline-code">rotateY(...)</span> uniquement sur les Y</li>
 </ul>
 
 <p>Par exemple: RotationX vs RotationY</p>
@@ -149,8 +149,8 @@
 <p>Il est possible d'effectuer un scale sur un seul axe en spécifiant cet axe dans la nom de la valeur. Par exemple:</p>
 
 <ul>
-  <li><incode>scaleX(...)</incode> uniquement sur les X</li>
-  <li><incode>scaleY(...)</incode> uniquement sur les Y</li>
+  <li><span class="inline-code">scaleX(...)</span> uniquement sur les X</li>
+  <li><span class="inline-code">scaleY(...)</span> uniquement sur les Y</li>
 </ul>
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/transform-function/scale()">transform: scale()</doclink>
@@ -165,8 +165,8 @@
 <p>Cette valeur accepte comme comme argument les unités de type:</p>
 
 <ul>
-  <li><incode>deg</incode> degrés | 360 degrés dans un cercle</li>
-  <li><incode>turn</incode> tour | 1 tour dans un cercle</li>
+  <li><span class="inline-code">deg</span> degrés | 360 degrés dans un cercle</li>
+  <li><span class="inline-code">turn</span> tour | 1 tour dans un cercle</li>
 </ul>
 
 <p>Par exemple, une distorsion de 45° sur les X:</p>
@@ -176,8 +176,8 @@
 <p>Il est possible d'effectuer un skew sur un seul axe en spécifiant cet axe dans la nom de la valeur. Par exemple:</p>
 
 <ul>
-  <li><incode>skewX(...)</incode> uniquement sur les X <em>(équivaut à <incode>skew(...)</incode> )</em></li>
-  <li><incode>skewY(...)</incode> uniquement sur les Y</li>
+  <li><span class="inline-code">skewX(...)</span> uniquement sur les X <em>(équivaut à <span class="inline-code">skew(...)</span> )</em></li>
+  <li><span class="inline-code">skewY(...)</span> uniquement sur les Y</li>
 </ul>
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/transform-function/skew()">transform: skew()</doclink>
@@ -187,7 +187,7 @@
 
 <grostitre>transform-origin</grostitre>
 
-<p>Toutes les transformations des exemples précédents sont effectuées à partir d'un point d'origine se situant au centre de chaque élément. Soit l'équivalent de <incode>transform-origin: 50% 50%;</incode></p>
+<p>Toutes les transformations des exemples précédents sont effectuées à partir d'un point d'origine se situant au centre de chaque élément. Soit l'équivalent de <span class="inline-code">transform-origin: 50% 50%;</span></p>
 
 <p>Cependant, il est possible de modifier cette valeur avec n'importe quelle <a href="../unites-de-mesure/">unité CSS</a>.</p>
 

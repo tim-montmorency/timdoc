@@ -97,17 +97,17 @@
 
 <codepen id="BaOaBOJ" tab="css,result" height="360"></codepen>
 
-<p>Il faut ensuite animer la propriété <incode>background-position</incode> de sorte que la sprite sheet se déplace vers la gauche et que toutes les images-clés défilent une à la suite de l'autre.</p>
+<p>Il faut ensuite animer la propriété <span class="inline-code">background-position</span> de sorte que la sprite sheet se déplace vers la gauche et que toutes les images-clés défilent une à la suite de l'autre.</p>
 
-<p>Dans cet exemple, nous déplaçons donc la sprite sheet de sa largeur soit <incode>-2500px</incode>.</p>
+<p>Dans cet exemple, nous déplaçons donc la sprite sheet de sa largeur soit <span class="inline-code">-2500px</span>.</p>
 
 <codepen id="QWVWLZV" tab="css,result" height="360"></codepen>
 
-<p>Malheureusement, l'effet n'est pas convaincant puisqu'il y a une interpolation sur la propriété <incode>background-position</incode>.</p>
+<p>Malheureusement, l'effet n'est pas convaincant puisqu'il y a une interpolation sur la propriété <span class="inline-code">background-position</span>.</p>
 
-<p>Il est néanmoins possible d’ajuster la propriété <a href="../animation/#animation-timing-function">animation-timing-function</a> afin de remédier à cette situation. Plutôt que de lui donner une valeur telle que <incode>ease</incode> ou <incode>linear</incode>, il est possible de lui passer la fonction <incode>steps()</incode>. Cette dernière permet de spécifier le nombre d’étapes devant constituer l'animation.</p>
+<p>Il est néanmoins possible d’ajuster la propriété <a href="../animation/#animation-timing-function">animation-timing-function</a> afin de remédier à cette situation. Plutôt que de lui donner une valeur telle que <span class="inline-code">ease</span> ou <span class="inline-code">linear</span>, il est possible de lui passer la fonction <span class="inline-code">steps()</span>. Cette dernière permet de spécifier le nombre d’étapes devant constituer l'animation.</p>
 
-<p>Par exemple, nous avons dix images clés constituant l’animation de Donald Trump. Il faudra donc spécifier <incode>steps(10)</incode>.</p>
+<p>Par exemple, nous avons dix images clés constituant l’animation de Donald Trump. Il faudra donc spécifier <span class="inline-code">steps(10)</span>.</p>
 
 <codepen id="MWqWgzx" tab="css,result" height="360"></codepen>
 

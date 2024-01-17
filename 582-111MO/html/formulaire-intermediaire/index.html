@@ -46,7 +46,7 @@
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
-<p class="spacer">Heureusement, les formulaires ne se limitent pas aux <incode>&lt;input type=&quot;text&quot;&gt;</incode>. Ils acceptent une variété de champs adaptés a différents type d'information. Voyons quelques-uns de ces champs.</p>
+<p class="spacer">Heureusement, les formulaires ne se limitent pas aux <span class="inline-code">&lt;input type=&quot;text&quot;&gt;</span>. Ils acceptent une variété de champs adaptés a différents type d'information. Voyons quelques-uns de ces champs.</p>
 
 <dots></dots>
 
@@ -62,17 +62,17 @@
 <h3>Attributs de checkbox</h3>
 
 <ul>
-    <li><incode>name</incode> nom de référence lorsque le formulaire est soumis.</li>
-    <li><incode>checked</incode> permet de spécifier à l'aide d'un booléen <em>(true/false)</em> si l'option devrait être cochée ou non. Si aucune valeur n'est attribuée, la simple présence de l'attribut suffit à cocher l'élément.</li>
+    <li><span class="inline-code">name</span> nom de référence lorsque le formulaire est soumis.</li>
+    <li><span class="inline-code">checked</span> permet de spécifier à l'aide d'un booléen <em>(true/false)</em> si l'option devrait être cochée ou non. Si aucune valeur n'est attribuée, la simple présence de l'attribut suffit à cocher l'élément.</li>
 </ul>
 
 
 <ul>
-    <li><incode>value</incode> cet attribut est optionnel. S'il n'est pas spécifié et que l'option <em>Olives</em> est cochée, la soumission du formulaire retourne <incode>olives: "on"</incode>. Si une <incode>value</incode> est spécifiée, comme dans le cas de l'option <em>Oignons</em>, le formulaire retourne <incode>oignons: "oui svp"</incode>.</li>
-    <li><incode>disabled</incode> permet d'afficher en lecture seule une boite à cochée afin d'indiquer que bien qu'elle soit normalement disponible, elle ne l'est pas en ce moment.</li>
+    <li><span class="inline-code">value</span> cet attribut est optionnel. S'il n'est pas spécifié et que l'option <em>Olives</em> est cochée, la soumission du formulaire retourne <span class="inline-code">olives: "on"</span>. Si une <span class="inline-code">value</span> est spécifiée, comme dans le cas de l'option <em>Oignons</em>, le formulaire retourne <span class="inline-code">oignons: "oui svp"</span>.</li>
+    <li><span class="inline-code">disabled</span> permet d'afficher en lecture seule une boite à cochée afin d'indiquer que bien qu'elle soit normalement disponible, elle ne l'est pas en ce moment.</li>
 </ul>
 
-<warning>Contrairement aux autres <incode>&lt;input&gt;</incode>, les boîtes à cocher ne sont incluses dans les soumissions du formulaire uniquement si celles-ci sont cochées ✅.</warning>
+<warning>Contrairement aux autres <span class="inline-code">&lt;input&gt;</span>, les boîtes à cocher ne sont incluses dans les soumissions du formulaire uniquement si celles-ci sont cochées ✅.</warning>
 
         <a class="exercice" target="_blank" href="exercices/menu-hamburger/">
             <div class="exercice-container">
@@ -102,14 +102,14 @@
 <h3>Attributs de radio</h3>
 
 <ul>
-    <li><incode>name</incode> tous les boutons radio partageant le même <incode>name</incode> font partie d'un même groupe. Seul une option/un bouton radio parmi ce groupe peut être sélectionnée à la fois.<br><br>Par exemple, il est impossible de sélectionner les options <em>Végétarienne</em> et <em>Toute garnie</em> en même temps, puisqu'elles font toutes deux partie du groupe <incode>pizza</incode>.</li>
-    <li><incode>checked</incode> permet de spécifier à l'aide d'un booléen <em>(true/false)</em> si l'élément doit-être sélectionné. Si aucune valeur n'est attribuée, la simple présence de l'attribut suffit à sélectionner l'élément.</li>
+    <li><span class="inline-code">name</span> tous les boutons radio partageant le même <span class="inline-code">name</span> font partie d'un même groupe. Seul une option/un bouton radio parmi ce groupe peut être sélectionnée à la fois.<br><br>Par exemple, il est impossible de sélectionner les options <em>Végétarienne</em> et <em>Toute garnie</em> en même temps, puisqu'elles font toutes deux partie du groupe <span class="inline-code">pizza</span>.</li>
+    <li><span class="inline-code">checked</span> permet de spécifier à l'aide d'un booléen <em>(true/false)</em> si l'élément doit-être sélectionné. Si aucune valeur n'est attribuée, la simple présence de l'attribut suffit à sélectionner l'élément.</li>
 </ul>
 
 
 <ul>
-    <li><incode>value</incode> indique la valeur associée au bouton radio. Ainsi lorsque le formulaire est soumis, la valeur associée au <incode>name</incode> est celle de l'élément <incode>checked</incode>.<br><br>Par exemple, si le formulaire est soumis sans que les boutons radio soient touchés, la valeur reçue sera <incode>pizza: "toute-garnie"</incode>.</li>
-    <li><incode>disabled</incode> permet d'afficher en lecture seule une option afin d'indiquer que bien qu'elle soit normalement disponible, celle-ci ne l'est pas en ce moment.</li>
+    <li><span class="inline-code">value</span> indique la valeur associée au bouton radio. Ainsi lorsque le formulaire est soumis, la valeur associée au <span class="inline-code">name</span> est celle de l'élément <span class="inline-code">checked</span>.<br><br>Par exemple, si le formulaire est soumis sans que les boutons radio soient touchés, la valeur reçue sera <span class="inline-code">pizza: "toute-garnie"</span>.</li>
+    <li><span class="inline-code">disabled</span> permet d'afficher en lecture seule une option afin d'indiquer que bien qu'elle soit normalement disponible, celle-ci ne l'est pas en ce moment.</li>
 </ul>
 
         <a class="exercice" target="_blank" href="exercices/dragonball/">
@@ -131,7 +131,7 @@
 
 <grostitre>Select</grostitre>
 
-<p>Les <incode>&lt;select&gt;</incode> permettent de choisir une seule option parmi un groupe 🔽. Leur usage est approprié lorsque plusieurs options sont disponibles et qu'il n'est pas nécessaire pour l'usager de tous les voir.</p>
+<p>Les <span class="inline-code">&lt;select&gt;</span> permettent de choisir une seule option parmi un groupe 🔽. Leur usage est approprié lorsque plusieurs options sont disponibles et qu'il n'est pas nécessaire pour l'usager de tous les voir.</p>
 
 <p>Par exemple, pour choisir une plage horaire de livraison, il n'est pas nécessaire une fois sa plage trouvée de voir les autres options:</p>
 
@@ -140,17 +140,17 @@
 <h3>Attributs de select</h3>
 
 <ul>
-    <li><incode>name</incode> nom de référence lorsque le formulaire est soumis.</li>
-    <li><incode>multiple</incode> permet la sélection de plusieurs options.</li>
-    <li><incode>disabled</incode> permet d'afficher en lecture seule le <incode>&lt;select&gt;</incode>.</li>
+    <li><span class="inline-code">name</span> nom de référence lorsque le formulaire est soumis.</li>
+    <li><span class="inline-code">multiple</span> permet la sélection de plusieurs options.</li>
+    <li><span class="inline-code">disabled</span> permet d'afficher en lecture seule le <span class="inline-code">&lt;select&gt;</span>.</li>
 </ul>
 
 <h3>Attributs d'option</h3>
 
 <ul>
-    <li><incode>value</incode> indique la valeur associée au <incode>&lt;select&gt;</incode>. Ainsi lorsque le formulaire est soumis, la valeur associée au <incode>name</incode> est celle de l'option sélectionnée.</li>
-    <li><incode>selected</incode> permet de spécifier à l'aide d'un booléen <em>(true/false)</em> si l'option devrait être sélectionnée. Si aucune valeur n'est attribuée, la simple présence de l'attribut suffit à sélectionner l'élément.</li>
-    <li><incode>disabled</incode> permet d'afficher en lecture seule une option en particulier. Par exemple, la page horaire 15h dans l'exemple précédent est visible, mais n'est pas sélectionnable.</li>
+    <li><span class="inline-code">value</span> indique la valeur associée au <span class="inline-code">&lt;select&gt;</span>. Ainsi lorsque le formulaire est soumis, la valeur associée au <span class="inline-code">name</span> est celle de l'option sélectionnée.</li>
+    <li><span class="inline-code">selected</span> permet de spécifier à l'aide d'un booléen <em>(true/false)</em> si l'option devrait être sélectionnée. Si aucune valeur n'est attribuée, la simple présence de l'attribut suffit à sélectionner l'élément.</li>
+    <li><span class="inline-code">disabled</span> permet d'afficher en lecture seule une option en particulier. Par exemple, la page horaire 15h dans l'exemple précédent est visible, mais n'est pas sélectionnable.</li>
 </ul>
 
         <a class="exercice" target="_blank" href="exercices/twitter/">
@@ -172,16 +172,16 @@
 
 <grostitre>Textarea</grostitre>
 
-<p>Similaire au champ texte de base, <incode>&lt;textarea&gt;</incode> permet de définir une zone de texte sur plusieurs lignes, permettant ainsi à l'usager d'inscrire un contenu plus long. Au besoin, cette boite de texte peut être redimensionée grâce à sa poignée dans le coin inférieur droit.</p>
+<p>Similaire au champ texte de base, <span class="inline-code">&lt;textarea&gt;</span> permet de définir une zone de texte sur plusieurs lignes, permettant ainsi à l'usager d'inscrire un contenu plus long. Au besoin, cette boite de texte peut être redimensionée grâce à sa poignée dans le coin inférieur droit.</p>
 
 <codepen id="qByeLZQ" tab="html,result" height="340"></codepen>
 
 <h3>Attributs de textarea</h3>
 
 <ul>
-    <li><incode>cols</incode> définit la largeur de base du textarea.</li>
-    <li><incode>rows</incode> définit la hauteur de base du textarea.</li>
-    <li>Cette balise accepte aussi les mêmes attributs qu'un champ texte régulier, tel que: <incode>readonly</incode>, <incode>placeholder</incode>, <incode>required</incode>, <incode>minlength</incode>, <incode>maxlength</incode>, etc.</li>
+    <li><span class="inline-code">cols</span> définit la largeur de base du textarea.</li>
+    <li><span class="inline-code">rows</span> définit la hauteur de base du textarea.</li>
+    <li>Cette balise accepte aussi les mêmes attributs qu'un champ texte régulier, tel que: <span class="inline-code">readonly</span>, <span class="inline-code">placeholder</span>, <span class="inline-code">required</span>, <span class="inline-code">minlength</span>, <span class="inline-code">maxlength</span>, etc.</li>
 </ul>
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/textarea">textarea</doclink>

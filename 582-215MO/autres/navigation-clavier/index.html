@@ -70,9 +70,9 @@
 <p>Plutôt que de déplacer son curseur et de cliquer sur un bouton avec sa souris, un utilisateur peut déplacer le focus de son navigateur d'un élément à l'autre <em>(effet de surbrillance autour d'un élément)</em> et déclencher son action via le clavier avec les touches suivantes:</p>
 
 <ul>
-    <li><incode>Tab</incode> pour focuser sur le prochain élément interactif.</li>
-    <li><incode>Shift</incode> + <incode>Tab</incode> pour revenir à l'élément précédent.</li>
-    <li><incode>⏎</incode> ou <incode>Espace</incode> pour interagir avec l'élément focusé.</li>
+    <li><span class="inline-code">Tab</span> pour focuser sur le prochain élément interactif.</li>
+    <li><span class="inline-code">Shift</span> + <span class="inline-code">Tab</span> pour revenir à l'élément précédent.</li>
+    <li><span class="inline-code">⏎</span> ou <span class="inline-code">Espace</span> pour interagir avec l'élément focusé.</li>
 </ul>
 
 <p>Par défaut, les éléments reçoivent le focus en fonction de leur ordre dans le code.</p>
@@ -85,9 +85,9 @@
 
 <warning>L’effet de surbrillance peut varier d’un navigateur à l’autre.</warning>
 
-<p>À priori, seules les balises prévues pour l'interaction peuvent recevoir le focus du navigateur. Par exemple, les balises: <incode>&lt;button&gt;</incode>, <incode>&lt;a&gt;</incode>, <incode>&lt;input&gt;</incode>, <incode>&lt;details&gt;</incode>, etc. D'où l'importance d'utiliser les bonnes balises, aux bons endroits.</p>
+<p>À priori, seules les balises prévues pour l'interaction peuvent recevoir le focus du navigateur. Par exemple, les balises: <span class="inline-code">&lt;button&gt;</span>, <span class="inline-code">&lt;a&gt;</span>, <span class="inline-code">&lt;input&gt;</span>, <span class="inline-code">&lt;details&gt;</span>, etc. D'où l'importance d'utiliser les bonnes balises, aux bons endroits.</p>
 
-<p>Par exemple, dans le cas où un alert est déclenché en JavaScript lorsqu'un élément est cliqué. Si cet élément est un <incode>&lt;span&gt;</incode>, qui est une balise prévue à des fins de mise en page et non d'interaction, cette interactivité ne sera pas accessible aux individus navigants avec leur clavier, puisque cette balise ne recevra jamais le focus du navigateur.</p>
+<p>Par exemple, dans le cas où un alert est déclenché en JavaScript lorsqu'un élément est cliqué. Si cet élément est un <span class="inline-code">&lt;span&gt;</span>, qui est une balise prévue à des fins de mise en page et non d'interaction, cette interactivité ne sera pas accessible aux individus navigants avec leur clavier, puisque cette balise ne recevra jamais le focus du navigateur.</p>
 
 <p>👌</p>
 
@@ -104,13 +104,13 @@
 
 <grostitre>Tabindex</grostitre>
 
-<p>Il est parfois impossible d'utiliser la balise appropriée pour diverses raisons. Heureusement, il est quand même possible d'indiquer au navigateur qu'un élément devrait être en mesure de recevoir le focus, autrement dit d'être <em>"tabé"</em>, en lui donnant l'attribut <incode>tabindex</incode>.</p>
+<p>Il est parfois impossible d'utiliser la balise appropriée pour diverses raisons. Heureusement, il est quand même possible d'indiquer au navigateur qu'un élément devrait être en mesure de recevoir le focus, autrement dit d'être <em>"tabé"</em>, en lui donnant l'attribut <span class="inline-code">tabindex</span>.</p>
 
 <p>Par exemple:</p>
 
 <highlight lang="html">&lt;span tabindex=&quot;0&quot;&gt;Afficher un alert&lt;/span&gt;</highlight>
 
-<p>Ainsi, la balise <incode>&lt;span&gt;</incode> est à même de recevoir le focus, comme dans l'exemple ci-dessous:</p>
+<p>Ainsi, la balise <span class="inline-code">&lt;span&gt;</span> est à même de recevoir le focus, comme dans l'exemple ci-dessous:</p>
 
 <clipasset src="videos/accessibilite-tabindex.mp4"></clipasset>
 
@@ -118,9 +118,9 @@
 
 <p>0 correspond à la priorité de focus par défaut de tous les éléments interactif. Puisqu'ils sont tous à 0, le navigateur les considères égaux et donc leur attribut le focus l'un après l'autre selon leur ordre d'apparition dans le code.</p>
 
-<p>Attribuer <incode>tabindex="0"</incode> à un élément lui permet de recevoir le focus, mais le place au même niveau d'importance que les autres éléments interactif. Bref, l'élément recevra le focus en fonction de son ordre d'apparition dans le code, comme tout autre élément et son ordre de sélection sera intuitif/prévisible pour l'utilisateur.</p>
+<p>Attribuer <span class="inline-code">tabindex="0"</span> à un élément lui permet de recevoir le focus, mais le place au même niveau d'importance que les autres éléments interactif. Bref, l'élément recevra le focus en fonction de son ordre d'apparition dans le code, comme tout autre élément et son ordre de sélection sera intuitif/prévisible pour l'utilisateur.</p>
 
-<p>Le concept initial de <incode>tabindex</incode> était de modifier la priorité de focus des éléments afin de contrôler leur ordre de sélection. Ainsi, un élément pouvait apparaitre au milieu du code et quand même recevoir le focus en premier s'il était doté d'un attribut <incode>tabindex</incode> avec une valeur supérieure à 0. Cependant, cette approche est maintenant fortement déconseillée, puisqu'elle engendre beaucoup de confusion. Le navigateur saute directement à l'élément avec le tabindex le plus élevé, ignorant souvent plusieurs éléments interactifs au passage, et ensuite reprend son ordre de sélection normal. Ainsi, plusieurs éléments peuvent sembler inaccessibles à l'utilisateur.</p>
+<p>Le concept initial de <span class="inline-code">tabindex</span> était de modifier la priorité de focus des éléments afin de contrôler leur ordre de sélection. Ainsi, un élément pouvait apparaitre au milieu du code et quand même recevoir le focus en premier s'il était doté d'un attribut <span class="inline-code">tabindex</span> avec une valeur supérieure à 0. Cependant, cette approche est maintenant fortement déconseillée, puisqu'elle engendre beaucoup de confusion. Le navigateur saute directement à l'élément avec le tabindex le plus élevé, ignorant souvent plusieurs éléments interactifs au passage, et ensuite reprend son ordre de sélection normal. Ainsi, plusieurs éléments peuvent sembler inaccessibles à l'utilisateur.</p>
 
 <p>Par exemple:</p>
 

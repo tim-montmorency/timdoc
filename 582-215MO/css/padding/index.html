@@ -46,7 +46,7 @@
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
-<p class="spacer">La propriété <incode>padding</incode> définit l'espace entre le contenu et ses  extrémités. Par défaut, cette propriété à une valeur de 0 permettant au contenu de s'afficher a même les extrémités de l'élément, mais elle accepte l'ensemble des unités de mesure CSS.</p>
+<p class="spacer">La propriété <span class="inline-code">padding</span> définit l'espace entre le contenu et ses  extrémités. Par défaut, cette propriété à une valeur de 0 permettant au contenu de s'afficher a même les extrémités de l'élément, mais elle accepte l'ensemble des unités de mesure CSS.</p>
 
 <p>Lorsqu'une seule valeur est fournie, celle-ci est appliquée aux 4 côtés de l'élément.</p>
 
@@ -54,7 +54,7 @@
 
 <codepen id="rNrKjeY" tab="result" height="280"></codepen>
 
-<warning>La propriété <incode>padding</incode> n’accepte pas les valeurs négatives.</warning>
+<warning>La propriété <span class="inline-code">padding</span> n’accepte pas les valeurs négatives.</warning>
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/padding">padding</doclink>
 <doclink href="https://www.w3schools.com/css/css_padding.asp">padding</doclink>
@@ -67,10 +67,10 @@
 <p>Pour plus de contrôle, il est possible d'attribuer une valeur différente à chaque côté en utilisant les sous-propriétés suivantes:</p>
 
 <ul>
-  <li><incode>padding-top</incode></li>
-  <li><incode>padding-right</incode></li>
-  <li><incode>padding-bottom</incode></li>
-  <li><incode>padding-left</incode></li>
+  <li><span class="inline-code">padding-top</span></li>
+  <li><span class="inline-code">padding-right</span></li>
+  <li><span class="inline-code">padding-bottom</span></li>
+  <li><span class="inline-code">padding-left</span></li>
 </ul>
 
 <p>Par exemple:</p>
@@ -93,11 +93,11 @@
 
 <grostitre>Ratio à partir de %</grostitre>
 
-<p>Lorsqu'une valeur de <incode>padding</incode> est définie en pourcentage <em>(%)</em>, que ce soit à l'horizontale <em>(left/right)</em> ↔️ ou vertical <em>(top/bottom)</em> ↕️, celle-ci <strong>se base toujours sur la largeur</strong> de l'élément.</p>
+<p>Lorsqu'une valeur de <span class="inline-code">padding</span> est définie en pourcentage <em>(%)</em>, que ce soit à l'horizontale <em>(left/right)</em> ↔️ ou vertical <em>(top/bottom)</em> ↕️, celle-ci <strong>se base toujours sur la largeur</strong> de l'élément.</p>
 
-<p>Autrement dit, si un élément mesure 100x20px et que <incode>padding-bottom: 100%</incode> lui est ajouté, sa hauteur finale sera de 120px <em>(20x de haut + 100px de padding-bottom)</em>.</p>
+<p>Autrement dit, si un élément mesure 100x20px et que <span class="inline-code">padding-bottom: 100%</span> lui est ajouté, sa hauteur finale sera de 120px <em>(20x de haut + 100px de padding-bottom)</em>.</p>
 
-<p>Cette particularité est souvent exploitée afin de créer des éléments ayant un ratio spécifique. Par exemple, afin d'obtenir un format 16/9 il suffit de ramener la valeur de hauteur de cette fraction en pourcentage, soit <incode>9 ÷ 16 x 100% = 56.25%</incode>.</p>
+<p>Cette particularité est souvent exploitée afin de créer des éléments ayant un ratio spécifique. Par exemple, afin d'obtenir un format 16/9 il suffit de ramener la valeur de hauteur de cette fraction en pourcentage, soit <span class="inline-code">9 ÷ 16 x 100% = 56.25%</span>.</p>
 
 <highlight lang="css">.element {
   width: 100%;
