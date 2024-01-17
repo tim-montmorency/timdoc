@@ -172,12 +172,7 @@ Dans un exemple concret, tout mis ensemble donnerait&nbsp;ceci:
 <dots></dots>
 
 <grostitre>Résumé vidéo</grostitre>
-  <a href="https://www.youtube.com/watch?v=RvYYCGs45L4" class="youtube__wrapper" data-module="Youtube">
-  
-    <div class="youtube__player" id="youtube-player-8dc8c580-6bb2-11ee-a2b9-ed597c799f44">
-        <iframe id="youtube-8dc8c580-6bb2-11ee-a2b9-ed597c799f44" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="JavaScript Promise in 100 Seconds" width="640" height="360" src="https://www.youtube.com/embed/RvYYCGs45L4?enablejsapi=1&amp;modestbranding=1&amp;rel=0&amp;showinfo=0&amp;origin=https%3A%2F%2Fsmnarnold.com&amp;widgetid=1" tabindex="-1"></iframe>
-    </div>
 
-  </a>
+<youtube src="RvYYCGs45L4"></youtube>
 
   

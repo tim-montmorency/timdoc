@@ -965,6 +965,20 @@ a.doclink .doclink-icon {
   background-color: #48494c;
 }
 
+.doclink.youtube .doclink-icon {
+  background-image: url("../images/icons/youtube-icon.webp");
+}
+.doclink.youtube::before {
+  background-color: #ff0000;
+}
+
+.doclink.unity .doclink-icon {
+  background-image: url("../images/icons/unity-icon.webp");
+}
+.doclink.unity::before {
+  background-color: #6a7077;
+}
+
 a.exercice {
   display: block;
   background-image: linear-gradient(0deg, #87ceeb, 20%, #f0f8fc);

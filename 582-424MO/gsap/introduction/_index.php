@@ -94,8 +94,7 @@
 
 <grostitre>Showreel 2022</grostitre>
 
-<iframe width="100%" src="https://www.youtube.com/embed/EYlgDSFIOcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="aspect-ratio: 16/9;"></iframe>
-    <br>    <br>    <br>
+<youtube src="EYlgDSFIOcI"></youtube>
 
 <dots></dots>
 <tool href="../tools/collection-animations-gsap/"></tool>

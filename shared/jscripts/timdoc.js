@@ -531,6 +531,11 @@ app.component('doclink', {
                 case 'teams.microsoft.com': site = 'momo'; break;
                 case 'github.com': site = 'github'; break;
                 case 'developers.google.com': site = 'google'; break;
+                case 'youtu.be': site = 'youtube'; break;
+                case 'youtube.com': site = 'youtube'; break;
+                case 'www.youtube.com': site = 'youtube'; break;
+                case 'learn.unity.com': site = 'unity'; break;
+                
             }
         } catch(e) {
             if(this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';

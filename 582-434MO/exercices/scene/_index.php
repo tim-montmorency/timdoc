@@ -21,7 +21,6 @@
     Ensuite, importez le paquet Polygon - Sampler Pack de Synty studio à l'aide du Package Manager. 
 </checklist>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/jaqGgmCTjPI?si=-nhd72GQ06mEN7Yu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="jaqGgmCTjPI"></youtube>
 
 <dots></dots>
@@ -39,7 +38,6 @@
 </checklist>
 <p>Cette vidéo comprends les étapes précédentes:</p>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/6JgRHcI3-Ow?si=1hkV24WlOgHnKgZF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="6JgRHcI3-Ow"></youtube>
 
 
@@ -58,7 +56,6 @@
 </checklist>
 <p>Cette vidéo comprends les étapes précédentes:</p>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/F20wMIDgLn0?si=_Lmo87xTQC1qei6q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="F20wMIDgLn0"></youtube>
 
 <dots></dots>
@@ -74,7 +71,6 @@
 </checklist>
 <p>Cette vidéo comprends les étapes précédentes:</p>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/1rOjHaAOPbM?si=1s8G4EY2AMgT8QrC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="1rOjHaAOPbM"></youtube>
 
 <dots></dots>
@@ -86,7 +82,6 @@
     <p>Suivez ensuite la vidéo suivante pour bien configurer votre joueur et ses déplacements:</p>
 </checklist>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/J1zJ__tEtho?si=BRSN_KHbX63Kpp9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="J1zJ__tEtho"></youtube>
 
 <dots></dots>
@@ -96,7 +91,6 @@
 <p>Suivez ensuite la vidéo suivante pour configurer l'éclairage de votre bâtiment:</p>
 </checklist>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/eVzF0QE1zFE?si=KyObjPzhwdaizw_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="eVzF0QE1zFE"></youtube>
 
 <dots></dots>
@@ -106,7 +100,6 @@
 Activez la fonction is Trigger de chaque collider pour permettre à votre personnage de se promener entre les pièces. 
 </checklist>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/wBlLnqNaRK0?si=O_kUMqoHFSDkgeFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="wBlLnqNaRK0"></youtube>
 
 <dots></dots>
@@ -115,7 +108,6 @@ Activez la fonction is Trigger de chaque collider pour permettre à votre person
 <p>Suivez la vidéo suivante pour allumer ou éteindre une ampoule selon la présence ou non de votre personnage dans la pièce:</p>
 </checklist>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/QuisWgC1V7U?si=MlJufG54fuKpSLEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="QuisWgC1V7U"></youtube>
 
 <dots></dots>
@@ -124,7 +116,6 @@ Activez la fonction is Trigger de chaque collider pour permettre à votre person
 <p>Suivez la vidéo suivante pour partir ou arrêter une vidéo dans votre télévision selon la présence ou non de votre personnage dans la pièce:</p>
 </checklist>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Ljcn5VG5958?si=qn3SRwO7oSAMk32c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="Ljcn5VG5958"></youtube>
 
 
@@ -134,7 +125,6 @@ Activez la fonction is Trigger de chaque collider pour permettre à votre person
 <p>Suivez la vidéo suivante pour animer l'état d'une lumière et partir vos animations selon la présence ou non de votre personnage dans la pièce:</p>
 </checklist>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/VUM6iT5u-DQ?si=SXjvPz92UJ8k1tlS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="VUM6iT5u-DQ"></youtube>
 
 <dots></dots>
@@ -143,7 +133,6 @@ Activez la fonction is Trigger de chaque collider pour permettre à votre person
 <p>Suivez la vidéo suivante pour ajouter des objets que le personnage pourra récupérer dans votre pièce:</p>
 </checklist>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/HmLe22qIjAM?si=9nM2EPr3SLV8QjLL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="HmLe22qIjAM"></youtube>
 
 <dots></dots>
@@ -152,7 +141,6 @@ Activez la fonction is Trigger de chaque collider pour permettre à votre person
 <p>Suivez la vidéo suivante pour amasser des objets et les compter:</p>
 </checklist>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/pktYZ4XboPU?si=N_RYdp1d3H_8mWAL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="pktYZ4XboPU"></youtube>
 
 <dots></dots>
@@ -162,7 +150,6 @@ Activez la fonction is Trigger de chaque collider pour permettre à votre person
 Vous pouvez télécharger votre son de réussite depuis internet, pixabay en a des bons. 
 </checklist>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/h0uvCte0Lq4?si=P_ZGSMQlw_EhkUNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="h0uvCte0Lq4"></youtube>
 
 

@@ -190,7 +190,7 @@ grid-row-end: 4;</highlight>
 <dots></dots>
 <grostitre>Résumé vidéo</grostitre>
 
-<iframe width="100%" src="https://www.youtube.com/embed/uuOXPWCh-6o?si=5iauHt2w_ATlq5DL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="aspect-ratio: 16/9;"></iframe>
+<youtube src="uuOXPWCh-6o"></youtube>
 
   <br>
 

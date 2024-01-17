@@ -12,7 +12,7 @@
 <dots></dots>
 
 <grostitre>Tutoriel vidéo</grostitre>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/48Nk8qGfrmA?si=BoJcitm0Co449jQh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<youtube src="48Nk8qGfrmA"></youtube>
 
 <dots></dots>
 

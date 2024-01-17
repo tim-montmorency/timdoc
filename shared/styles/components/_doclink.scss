@@ -230,3 +230,21 @@ a.doclink {
         background-color: #48494c;
     }
 }
+
+.doclink.youtube {
+    .doclink-icon {
+        background-image: url('../images/icons/youtube-icon.webp');
+    }
+    &::before {
+        background-color: #ff0000;
+    }
+}
+
+.doclink.unity {
+    .doclink-icon {
+        background-image: url('../images/icons/unity-icon.webp');
+    }
+    &::before {
+        background-color: #6a7077;
+    }
+}
