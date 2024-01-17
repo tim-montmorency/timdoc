@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=block */
 @font-face {
-  src: url(../fonts/consolas.ttf) format("truetype");
+  src: url(../fonts/inconsolata.woff2) format("woff2");
   font-family: "Consolas";
   font-display: block;
 }
@@ -808,7 +808,7 @@ a.doclink .doclink-title {
   margin-left: 8px;
   margin-right: 10px;
   line-height: 24px;
-  font-family: Consolas;
+  font-family: "Consolas";
   font-size: 10px;
 }
 @media (min-width: 576px) {
@@ -817,7 +817,7 @@ a.doclink .doclink-title {
   }
 }
 a.doclink .doclink-icon {
-  background-image: url("../images/doclink-icon.png");
+  background-image: url("../images/icons/doclink-icon.webp");
   background-size: 24px 24px;
   display: inline-block;
   position: relative;
@@ -833,122 +833,136 @@ a.doclink .doclink-icon {
 }
 
 .doclink.css3 .doclink-icon {
-  background-image: url("../images/css3-icon.png");
+  background-image: url("../images/icons/css3-icon.webp");
 }
 .doclink.css3::before {
   background-color: #004ce8;
 }
 
 .doclink.w3schools .doclink-icon {
-  background-image: url("../images/w3schools-icon.png");
+  background-image: url("../images/icons/w3schools-icon.webp");
 }
 .doclink.w3schools::before {
   background-color: #009a68;
 }
 
 .doclink.mozilla .doclink-icon {
-  background-image: url("../images/mozilla-icon.png");
+  background-image: url("../images/icons/mozilla-icon.webp");
 }
 .doclink.mozilla::before {
   background-color: #ff1a00;
 }
 
 .doclink.csstricks .doclink-icon {
-  background-image: url("../images/csstricks-icon.png");
+  background-image: url("../images/icons/csstricks-icon.webp");
 }
 .doclink.csstricks::before {
   background-color: #36acb4;
 }
 
 .doclink.codepen .doclink-icon {
-  background-image: url("../images/codepen-icon.png");
+  background-image: url("../images/icons/codepen-icon.webp");
 }
 .doclink.codepen::before {
   background-color: #000000;
 }
 
 .doclink.zipfile .doclink-icon {
-  background-image: url("../images/zip-icon.png");
+  background-image: url("../images/icons/zip-icon.webp");
 }
 .doclink.zipfile::before {
   background-color: #242526;
 }
 
 .doclink.bootstrap .doclink-icon {
-  background-image: url("../images/bootstrap.png");
+  background-image: url("../images/icons/bootstrap-icon.webp");
 }
 .doclink.bootstrap::before {
-  background-color: #ff1a00;
+  background-color: #b343ff;
+}
+
+.doclink.google .doclink-icon {
+  background-image: url("../images/icons/google-icon.webp");
+}
+.doclink.google::before {
+  background-color: #1a73e8;
 }
 
 .doclink.googlefonts .doclink-icon {
-  background-image: url("../images/googlefonts-icon.png");
+  background-image: url("../images/icons/googlefonts-icon.webp");
 }
 .doclink.googlefonts::before {
   background-color: #1a73e8;
 }
 
 .doclink.wikipedia .doclink-icon {
-  background-image: url("../images/wikipedia-icon.png");
+  background-image: url("../images/icons/wikipedia-icon.webp");
 }
 .doclink.wikipedia::before {
   background-color: #6a7077;
 }
 
 .doclink.ogp .doclink-icon {
-  background-image: url("../images/ogp-icon.png");
+  background-image: url("../images/icons/ogp-icon.webp");
 }
 .doclink.ogp::before {
   background-color: #6a7077;
 }
 
 .doclink.facebook .doclink-icon {
-  background-image: url("../images/facebook-icon.png");
+  background-image: url("../images/icons/facebook-icon.webp");
 }
 .doclink.facebook::before {
   background-color: #146ed4;
 }
 
 .doclink.greensock .doclink-icon {
-  background-image: url("../images/gsap-icon.svg");
+  background-image: url("../images/icons/gsap-icon.webp");
 }
 .doclink.greensock::before {
   background-color: #56cc00;
 }
 
 .doclink.smnarnold .doclink-icon {
-  background-image: url("../images/smnarnold-icon.png");
+  background-image: url("../images/icons/smnarnold-icon.webp");
 }
 .doclink.smnarnold::before {
   background-color: #7cfef0;
 }
 
 .doclink.trello .doclink-icon {
-  background-image: url("../images/trello-icon64.png");
+  background-image: url("../images/icons/trello-icon.webp");
 }
 .doclink.trello::before {
   background-color: #bfd8ff;
 }
 
 .doclink.sass .doclink-icon {
-  background-image: url("../images/sass_icon.png");
+  background-image: url("../images/icons/sass-icon.webp");
 }
 .doclink.sass::before {
   background-color: #cf649a;
 }
 
 .doclink.vuforia .doclink-icon {
-  background-image: url("../images/vuforia-icon.png");
+  background-image: url("../images/icons/vuforia-icon.webp");
 }
 .doclink.vuforia::before {
   background-color: #6ebf4b;
 }
 
 .doclink.momo .doclink-icon {
-  background-image: url("../images/momo-icon.png");
+  background-image: url("../images/icons/momo-icon.webp");
 }
 .doclink.momo::before {
   background-color: #c1d72e;
+}
+
+.doclink.github .doclink-icon {
+  background-image: url("../images/icons/github-icon.webp");
+}
+.doclink.github::before {
+  background-color: #48494c;
 }
 
 a.exercice {

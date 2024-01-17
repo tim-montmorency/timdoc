@@ -519,6 +519,7 @@ app.component('doclink', {
                 case 'getbootstrap.com': site = 'bootstrap'; break;
                 case 'fonts.google.com': site = 'googlefonts'; break;
                 case 'fr.wikipedia.org': site = 'wikipedia'; break;
+                case 'en.wikipedia.org': site = 'wikipedia'; break;
                 case 'ogp.me': site = 'ogp'; break;
                 case 'developers.facebook.com': site = 'facebook'; break;
                 case 'greensock.com': site = 'greensock'; break;
@@ -528,6 +529,8 @@ app.component('doclink', {
                 case 'developer.vuforia.com' : site = 'vuforia'; break;
                 case 'cmontmorency365-my.sharepoint.com': site = 'momo'; break;
                 case 'teams.microsoft.com': site = 'momo'; break;
+                case 'github.com': site = 'github'; break;
+                case 'developers.google.com': site = 'google'; break;
             }
         } catch(e) {
             if(this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
