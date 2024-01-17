@@ -1507,7 +1507,7 @@ div.quote__title {
   font-size: 14px;
 }
 
-.youtube-wrapper {
+.oembed-wrapper {
   position: relative;
   max-width: 770px;
   margin-left: -25px;
@@ -1516,11 +1516,11 @@ div.quote__title {
   background-position: center center;
 }
 @media (min-width: 770px) {
-  .youtube-wrapper {
+  .oembed-wrapper {
     max-width: 770px;
   }
 }
-.youtube-wrapper__title {
+.oembed-wrapper__title {
   position: absolute;
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
   width: 100%;
@@ -1530,7 +1530,7 @@ div.quote__title {
       -ms-user-select: none;
           user-select: none;
 }
-.youtube-wrapper__title div {
+.oembed-wrapper__title div {
   color: white;
   position: absolute;
   max-width: calc(100% - 16px);
@@ -1541,7 +1541,7 @@ div.quote__title {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.youtube-wrapper__play {
+.oembed-wrapper__play {
   width: 100px;
   height: 100px;
   background-color: rgba(255, 116, 148, 0.2);
@@ -1556,10 +1556,10 @@ div.quote__title {
   transition-duration: 0.1s;
   cursor: pointer;
 }
-.youtube-wrapper__play:hover {
+.oembed-wrapper__play:hover {
   transform: translate(-50%, -50%) scale(1.2);
 }
-.youtube-wrapper__player {
+.oembed-wrapper__player {
   width: 100%;
   height: 100%;
 }

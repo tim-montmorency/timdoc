@@ -457,7 +457,6 @@ app.component('codepen', {
 });
 
 
-
 /******************************************************
  *                  Composante Tool                   *
  ******************************************************/
@@ -609,13 +608,14 @@ app.component('dots', {
  *                  Composante Clip                   *
  ******************************************************/
 app.component('clip', {
-    props: ['src'],
+    props: ['src', 'title'],
     data() {
         var url = new URL(this.src, document.baseURI);
         let name = url.pathname.split('.').shift();
         let id = name.split('/').pop();
         let details = syncjson(name + '.json');
         let track = undefined;
+        let title = this.title ?? '';
         details.media.track.forEach(elm => { if(elm['@type'] == 'Video') { track = elm; }});
         if(track == undefined) return {};
         else {
@@ -624,27 +624,28 @@ app.component('clip', {
             return {
                 id: id,
                 name: name,
+                title: title,
                 width: track.Width,
                 height: track.Height,
-                aspect: aspect
+                aspect: aspect,
+                thumbnail_url: name + '.jpg',
+                playbtn: 'block',
+                player: ''
             }
         }
     },
+    methods: {
+        play(){
+            this.player = '<video id="' + this.id + '" width="100%" height="100%" autoplay="true" poster="' + this.thumbnail_url + '" data-setup=\'{"fluid": true}\' controls preload="auto"><source src="' + this.src + '" type="video/mp4" /></video>';
+            this.playbtn = 'none';
+        }
+    },
     template: `
-        <div class="video-container" :style="'aspect-ratio: ' + this.aspect + ';'">
-            <video
-                :id="this.id"
-                width="100%"
-                height="100%"
-                :poster="this.name + '.jpg'"
-                data-setup='{"fluid": true}'
-                class="video-js"
-                controls
-                preload="auto"
-            >
-                <source :src="this.src" type="video/mp4" />
-            </video>
-        </div>`
+        <div class="oembed-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.aspect + ';'">
+            <div class="oembed-wrapper__title" :style="'display: ' + this.playbtn + ';'"><div>{{ title }}</div></div>
+            <div class="oembed-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
+            <div class="oembed-wrapper__player" v-html="player"></div>
+        </div><br>`
 });
 
 
@@ -706,10 +707,10 @@ app.component('clip', {
         }
     },
     template: `
-        <div class="youtube-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.aspect + ';'">
-            <div class="youtube-wrapper__title" :style="'display: ' + this.playbtn + ';'"><div>{{ title }}</div></div>
-            <div class="youtube-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
-            <div class="youtube-wrapper__player" v-html="player"></div>
+        <div class="oembed-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.aspect + ';'">
+            <div class="oembed-wrapper__title" :style="'display: ' + this.playbtn + ';'"><div>{{ title }}</div></div>
+            <div class="oembed-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
+            <div class="oembed-wrapper__player" v-html="player"></div>
         </div><br>`
 });
 
@@ -751,10 +752,10 @@ app.component('clip', {
         }
     },
     template: `
-        <div class="youtube-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.aspect + ';'">
-            <div class="youtube-wrapper__title" :style="'display: ' + this.playbtn + ';'"><div>{{ title }}</div></div>
-            <div class="youtube-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
-            <div class="youtube-wrapper__player" v-html="player"></div>
+        <div class="oembed-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.aspect + ';'">
+            <div class="oembed-wrapper__title" :style="'display: ' + this.playbtn + ';'"><div>{{ title }}</div></div>
+            <div class="oembed-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
+            <div class="oembed-wrapper__player" v-html="player"></div>
         </div><br>`
 });
 
