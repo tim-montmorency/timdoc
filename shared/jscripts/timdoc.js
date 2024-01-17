@@ -321,13 +321,13 @@ app.component('grostitre', {
         try { var url = new URL(this.src); }
         catch(e){ var url = new URL(this.src, document.baseURI); }
         switch(url.href.split('.').pop().toLocaleLowerCase()) {
-            case 'svg': var icon = 'type-svg.png'; break;
-            case 'jpg': var icon = 'type-jpg.png'; break;
-            case 'png': var icon = 'type-png.png'; break;
-            case 'webp': var icon = 'type-png.png'; break;
-            case 'zip': var icon = 'type-zip.png'; break;
-            case 'mp3': var icon = 'type-audio.png'; break;
-            default:    var icon = 'type-file.png';
+            case 'svg': var icon = 'type-svg.webp'; break;
+            case 'jpg': var icon = 'type-jpg.webp'; break;
+            case 'png': var icon = 'type-png.webp'; break;
+            case 'webp': var icon = 'type-png.webp'; break;
+            case 'zip': var icon = 'type-zip.webp'; break;
+            case 'mp3': var icon = 'type-audio.webp'; break;
+            default:    var icon = 'type-file.webp';
         }
 
         let addr = true;
@@ -337,7 +337,7 @@ app.component('grostitre', {
             isaddr: addr,
             space: space,
             link: url.href,
-            icon: shared + 'images/' + icon
+            icon: shared + 'images/types/' + icon
         }
     },
     methods: {
