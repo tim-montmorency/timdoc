@@ -82,7 +82,7 @@ register_tag('children', function($html, $attrs, $data) {
 
 
 /******************************************************
- *                 Composante Children                *
+ *                Composante Highlight                *
  ******************************************************/
 register_tag('highlight', function($html, $attrs, $data) {
     $data = html_entity_decode(trim($data), ENT_QUOTES, 'UTF-8');
