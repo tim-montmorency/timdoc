@@ -65,9 +65,9 @@
 <p>On place la position verticale à 0% ou 0px.
 <br><small>Et si on souhaite la centrer à l'horizontal, on place la position horizontale à 50%, à vous de décider.</small></p>
 
-<highlight lang='css'>#section-parallax{
+<highlight lang="css">#section-parallax{
     background-image: url(chemin/acces/image.jpg);
-    background-size: cover;  /* ou 200% pour augmenter l'effet, si l'image originale est assez grande */
+    background-size: cover;  /* ou 200% pour augmenter l&#039;effet, si l&#039;image originale est assez grande */
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: 50% 0%;
@@ -78,13 +78,13 @@
 
 
 <h3>Et pour le code JavaScript :</h3>
-<highlight lang='JavaScript'>gsap.to("#section-parallax", {
-    backgroundPosition: "50% 100%",
-    ease: "none",
+<highlight lang="JavaScript">gsap.to(&quot;#section-parallax&quot;, {
+    backgroundPosition: &quot;50% 100%&quot;,
+    ease: &quot;none&quot;,
     scrollTrigger: {
-        trigger: "#section-parallax",
-        start: "top bottom",
-        end: "bottom top",
+        trigger: &quot;#section-parallax&quot;,
+        start: &quot;top bottom&quot;,
+        end: &quot;bottom top&quot;,
         scrub: true,
         markers: true
     }
@@ -130,21 +130,21 @@
 
 <p>Nous fixons donc la position horizontale à 0%, et nous la déplacerons à 100 % :</p>
 
-<highlight lang='css'>#section-parallax{
+<highlight lang="css">#section-parallax{
     background-image: url(chemin/acces/image.jpg);
-    background-size: cover; /* ou 300% pour augmenter l'effet, si l'image originale est assez grande */
+    background-size: cover; /* ou 300% pour augmenter l&#039;effet, si l&#039;image originale est assez grande */
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: 0% 50%;
 }</highlight>
 
-<highlight lang='JavaScript'>gsap.to("#section-parallax", {
-    backgroundPosition: "100% 50%",
-    ease: "none",
+<highlight lang="JavaScript">gsap.to(&quot;#section-parallax&quot;, {
+    backgroundPosition: &quot;100% 50%&quot;,
+    ease: &quot;none&quot;,
     scrollTrigger: {
-        trigger: "#section-parallax",
-        start: "top bottom",
-        end: "bottom top",
+        trigger: &quot;#section-parallax&quot;,
+        start: &quot;top bottom&quot;,
+        end: &quot;bottom top&quot;,
         scrub: true,
         markers: true
     }

@@ -66,38 +66,38 @@
 
 <p>Par exemple:</p>
 
-<highlight lang='php'>function create_post_type() {
-  register_post_type('produits', 
+<highlight lang="php">function create_post_type() {
+  register_post_type(&#039;produits&#039;, 
     array(
-      'labels' => array(
-        'name' => _x('Produits', 'Nom générique'),
-        'singular_name' => _x('Produit', 'Au singulier'),
-        'menu_name' => __('Produits'),
-        'all_items' => __('Tous les produits'),
-        'view_item' => __('Voir les produits'),
-        'add_new_item' => __('Ajouter un nouveau produit'),
-        'add_new' => __('Ajouter'),
-        'edit_item' => __('Editer le produit'),
-        'update_item' => __('Modifier le produit'),
-        'search_items' => __('Rechercher un produit'),
-        'not_found' => __('Non trouvé'),
-        'not_found_in_trash' => __('Non trouvé dans la corbeille'),
+      &#039;labels&#039; =&gt; array(
+        &#039;name&#039; =&gt; _x(&#039;Produits&#039;, &#039;Nom g&eacute;n&eacute;rique&#039;),
+        &#039;singular_name&#039; =&gt; _x(&#039;Produit&#039;, &#039;Au singulier&#039;),
+        &#039;menu_name&#039; =&gt; __(&#039;Produits&#039;),
+        &#039;all_items&#039; =&gt; __(&#039;Tous les produits&#039;),
+        &#039;view_item&#039; =&gt; __(&#039;Voir les produits&#039;),
+        &#039;add_new_item&#039; =&gt; __(&#039;Ajouter un nouveau produit&#039;),
+        &#039;add_new&#039; =&gt; __(&#039;Ajouter&#039;),
+        &#039;edit_item&#039; =&gt; __(&#039;Editer le produit&#039;),
+        &#039;update_item&#039; =&gt; __(&#039;Modifier le produit&#039;),
+        &#039;search_items&#039; =&gt; __(&#039;Rechercher un produit&#039;),
+        &#039;not_found&#039; =&gt; __(&#039;Non trouv&eacute;&#039;),
+        &#039;not_found_in_trash&#039; =&gt; __(&#039;Non trouv&eacute; dans la corbeille&#039;),
       ),
-      'supports' => array(
-        'title', 
-        'editor', 
-        'author', 
-        'thumbnail', 
-        'custom-fields',
+      &#039;supports&#039; =&gt; array(
+        &#039;title&#039;, 
+        &#039;editor&#039;, 
+        &#039;author&#039;, 
+        &#039;thumbnail&#039;, 
+        &#039;custom-fields&#039;,
       ),
-      'show_in_rest' => true,
-      'public' => true,
-      'has_archive' => true,
+      &#039;show_in_rest&#039; =&gt; true,
+      &#039;public&#039; =&gt; true,
+      &#039;has_archive&#039; =&gt; true,
     )
   );
 }
 
-add_action('init', 'create_post_type');</highlight>
+add_action(&#039;init&#039;, &#039;create_post_type&#039;);</highlight>
 
 <br><br>
 
@@ -117,19 +117,17 @@ add_action('init', 'create_post_type');</highlight>
 
 <p>Par&nbsp;exemple:</p>
 
-<highlight lang='php'>$products = new WP_Query('post_type=produits');</highlight>
+<highlight lang="php">$products = new WP_Query(&#039;post_type=produits&#039;);</highlight>
 
 
 <p>Ensuite, il faudra boucler parmi les résultats&nbsp;obtenus et imprimer <code>print</code> ceux-ci dans une page:</p>
 
-<highlight lang='php'>
-      
-while ( $products->have_posts() ) : $products->the_post(); 
+<highlight lang="php">while ( $products-&gt;have_posts() ) : $products-&gt;the_post(); 
     print the_title();  // titre du produit
     the_excerpt(); // extrait de la description du produit
 endwhile;</highlight>
 
-<!--<highlight lang='php'>while ($produits->have_posts()) : $produits->the_post();</highlight>-->
+<!--<highlight lang="php">while ($produits-&gt;have_posts()) : $produits-&gt;the_post();</highlight>-->
 
 
 <p>Les fonctions de base, tel que:&nbsp;<code>the_title()</code>&nbsp;ou&nbsp;<code>the_content()</code>&nbsp;retourneront dans le contexte de cette boucle les informations associées à notre collection de&nbsp;produits.</p>
@@ -200,7 +198,7 @@ endwhile;</highlight>
 
 <p>Pour ce faire, dans le fichier PHP d'un modèle, il faut ajouter dans les commentaires de début de page une propriété intitulée&nbsp;<code>Template Post Type</code>&nbsp;et lui spécifier les types de posts&nbsp;compatibles.</p>
 <p>Par exemple, pour qu'un modèle soit compatible avec les posts de base et les posts personnalisés de type&nbsp;<em>partenaire</em>, il faut&nbsp;écrire:</p>
-<highlight lang='css'>/**
+<highlight lang="css">/**
  * Template Name: Partenaire
  * Template Post Type: post, page, partenaire
  */</highlight>

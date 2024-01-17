@@ -67,11 +67,11 @@
 
 <br>
 <p>Par exemple, pour définir une composante de compteur:</p>
-<highlight lang='javascript'>// Creation d'un app Vue
+<highlight lang="javascript">// Creation d&#039;un app Vue
 const app = Vue.createApp({})
 
-// Définition d'une composante
-app.component('counter', {
+// D&eacute;finition d&#039;une composante
+app.component(&#039;counter&#039;, {
   data() {
     return {
       nbr: 0
@@ -79,7 +79,7 @@ app.component('counter', {
   },
   template: `
     &lt;button @click=&quot;nbr++&quot;&gt;
-      Cliqué { { nbr } }x
+      Cliqu&eacute; { { nbr } }x
     &lt;/button&gt;`
 })</highlight>
 <small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
@@ -92,7 +92,7 @@ app.component('counter', {
 
 <p>Par exemple:</p>
 
-<highlight lang='html'>&lt;counter&gt;</highlight>
+<highlight lang="html">&lt;counter&gt;</highlight>
 
 <p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="html,result" data-slug-hash="mdvKMNm" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/mdvKMNm">
@@ -132,8 +132,8 @@ app.component('counter', {
 
 <p>Par exemple, si seulement la props <code>msg</code> est attendu: </p>
 
-<highlight lang='javascript'>app.component('counter', {
-  props: ['msg'],
+<highlight lang="javascript">app.component(&#039;counter&#039;, {
+  props: [&#039;msg&#039;],
   ...
 })</highlight>
 
@@ -141,7 +141,7 @@ app.component('counter', {
 <br><br>
 <p>Pour passer une donnée, il suffit ensuite d'ajouter un attribut avec la valeur désirée:</p>
 
-<highlight lang='html'>&lt;counter msg=&quot;A&quot;&gt;
+<highlight lang="html">&lt;counter msg=&quot;A&quot;&gt;
 &lt;counter msg=&quot;B&quot;&gt;</highlight>
 
 
@@ -166,7 +166,7 @@ app.component('counter', {
 <p>Les composantes sont souvent utilisées conjointement avec de boucles afin de tirer profit de leur réusabilité.</p>
 
 <p>Par exemple: </p>
-<highlight lang='html'>&lt;counter v-for=&quot;btn in btnsArr&quot; :msg=&quot;btn.msg&quot;&gt;&lt;/counter&gt;</highlight>
+<highlight lang="html">&lt;counter v-for=&quot;btn in btnsArr&quot; :msg=&quot;btn.msg&quot;&gt;&lt;/counter&gt;</highlight>
 
 
 <p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="html,result" data-slug-hash="OJdExYr" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">

@@ -53,7 +53,7 @@
 
 
 
-<highlight lang='css'>.msg {
+<highlight lang="css">.msg {
   border-left: 4px solid blue;
   padding: 20px;
   background-color: lightBlue;
@@ -64,7 +64,7 @@
 <p>Si d'autres types de messages doivent ensuite être créés et qu'ils doivent partager les mêmes styles de bases que <code>.msg</code>, il serait possible d'étendre (extend) cette classe plutôt que de réécrire à chaque fois le même code.</p>
 
 <p>Par exemple:</p>
-<highlight lang='css'>.msg-alert {
+<highlight lang="css">.msg-alert {
   @extend .msg;
   border-color: red;
   background-color: lightPink;
@@ -87,7 +87,7 @@
 
 
 <p>Ce qui , une fois compilé en css, générerait le code suivant:</p>
-<highlight lang='css'>.msg, .msg-alert, .msg-warning {
+<highlight lang="css">.msg, .msg-alert, .msg-warning {
   border-left: 4px solid blue;
   padding: 20px;
   background-color: lightBlue;
@@ -120,7 +120,7 @@
 
 <p>Par exemple, l'exemple précédent pourrait être réécrit avec un placeholder afin d'éviter que la couleur de fond bleue soit écrasée par les variantes de messages:</p>
 
-<highlight lang='css'>%msg {
+<highlight lang="css">%msg {
   border-left-width: 4px;
   border-left-style: solid;
   padding: 20px;
@@ -147,7 +147,7 @@
 
 <p>Ce qui générerait le code suivant:</p>
 
-<highlight lang='css'>.msg, .msg-alert, .msg-warning {
+<highlight lang="css">.msg, .msg-alert, .msg-warning {
   border-radius: 10px;
   padding: 10px;
 }
@@ -173,7 +173,7 @@
 
 <p>Par exemple, je sais que je centre régulièrement des éléments via <code>transform</code>. Plutôt que de tapper à chaque fois:</p>
 
-<highlight lang='css'>.element {
+<highlight lang="css">.element {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -185,7 +185,7 @@
 
 <p>Je me créé donc régulièrement un placeholder similaire à ceci:</p>
 
-<highlight lang='css'>%centered {
+<highlight lang="css">%centered {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -194,7 +194,7 @@
 
 
 <p>Et je l'utilise sur mes éléments que je désire centrer ainsi:</p>
-<highlight lang='css'>.element {
+<highlight lang="css">.element {
   @extend %centered;
 }</highlight>
 

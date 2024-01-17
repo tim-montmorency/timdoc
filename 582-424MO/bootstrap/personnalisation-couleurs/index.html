@@ -87,7 +87,7 @@
 
 <p>Comment? Bien vous pouvez, dans votre fichier .css personnel réécrire par exemple:</p>
 
-<highlight lang='css'>.btn-primary{
+<highlight lang="css">.btn-primary{
   background-color: #f36b62 !important;
   color: #fff8f0 !important;
 }
@@ -108,8 +108,7 @@
   <li>Télécharger les <a href="https://getbootstrap.com/docs/5.2/getting-started/download/#source-files">fichiers sources</a> de Bootstrap pour avoir accès aux fichiers <em>Sass</em>. Ajoutez le dossier des fichiers source de Bootstrap dans votre dossier de projet (je vous propose de le déposer dans un dossier nommé <em>vendors</em>)
 </li>
   <li>Créer un fichier .scss dans lequel vous allez réécrivez la valeur de certaines variables Bootstrap existantes.
-    <highlight lang='scss'>
-$light:        #bfe5df,
+    <highlight lang="scss">$light:        #bfe5df,
 $dark:         #201d40,
 $primary:      #f36b62
 $secondary:    #5f5f71
@@ -121,20 +120,19 @@ $danger :      #f60568,
 et dans ce format:
   
 $theme-colors: (
-    "light":      #bfe5df,
-    "dark":       #201d40,
-    "primary":    #f36b62,
-    "secondary":  #5f5f71,
-    "info":       #20b4a8,
-    "success":    #63af0e,
-    "warning":    #ffc377,
-    "danger":     #f60568,
-);
-</highlight>
+    &quot;light&quot;:      #bfe5df,
+    &quot;dark&quot;:       #201d40,
+    &quot;primary&quot;:    #f36b62,
+    &quot;secondary&quot;:  #5f5f71,
+    &quot;info&quot;:       #20b4a8,
+    &quot;success&quot;:    #63af0e,
+    &quot;warning&quot;:    #ffc377,
+    &quot;danger&quot;:     #f60568,
+);</highlight>
 
   </li>
   <li>Importez ensuite la le <em>SCSS</em> de Bootstrap dans votre fichier <em>SCSS</em> (ajustez le chemin d'accès) selon votre configuration de projet: 
-    <highlight lang='scss'>@import 'vendors/bootstrap-5.2.3/scss/bootstrap.scss'</highlight>
+    <highlight lang="scss">@import &#039;vendors/bootstrap-5.2.3/scss/bootstrap.scss&#039;</highlight>
   </li>
   <li>Compilez votre fichier <em>SCSS</em> en format <em>css</em> (j'utilise personnellement l'extension de VSCode <a href="https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass">Live Sass Compiler</a> de Glenn Marks). Ça créera un nouveau fichier .css dans votre projet.
   </li>
@@ -143,10 +141,10 @@ $theme-colors: (
 
 <warning>Si vous utilisez une extension VS Code pour compiler le <em>SCSS</em> en CSS, il est possible que vous ayez à modifier les paramètres de l'extension pour lui mentionner l'endroit où vous souhaitez sauvegarder le fichier .css compilé (son "savePath"), pour ce faire il suffit d'aller modifier les paramètres de l'extension en éditant le settings.json, en ajoutant le code suivant, ou la valeur de savePath sera le chemin d'accès absolu ou vous souhaitez enregistrer le fichier css compilé.
 </warning>
-<highlight lang='json'>"liveSassCompile.settings.formats": [ 
+<highlight lang="json">&quot;liveSassCompile.settings.formats&quot;: [ 
   {  
-    "extensionName": ".css", 
-    "savePath": "/css"
+    &quot;extensionName&quot;: &quot;.css&quot;, 
+    &quot;savePath&quot;: &quot;/css&quot;
   } 
 ]</highlight>
 

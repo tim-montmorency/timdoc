@@ -49,7 +49,7 @@
 
 <p>Par exemple, il est possible de se créer une mixin rendant une image responsive.</p>
 
-<highlight lang='css'>@mixin responsive-img {
+<highlight lang="css">@mixin responsive-img {
   display: block; 
   width: 100%;
   height: auto;
@@ -58,7 +58,7 @@
 <p>Plutôt que de répéter ces trois lignes de code CSS à chaque fois à chaque image doit être responsive, il serait possible d'appelez simplement cette mixin.</p>
 
 <p>Par exemple:</p>
-<highlight lang='css'>.article-img {
+<highlight lang="css">.article-img {
   @include responsive-img;
 }</highlight>
 
@@ -74,7 +74,7 @@
 <p>Les mixins acceptent de recevoir des arguments. Ces derniers sont ensuite disponibles dans le corps de la mixin, rendant ainsi leur usage plus flexible.</p>
 <p>Par exemple, afin d'ajoutez un <code>max-width</code> variant selon différents scénarios, il n'est pas nécessaire de créer plusieurs mixins. L'ajout d'un argument permettra de réutiliser la même.</p>
 
-<highlight lang='css'>@mixin responsive-img($max) {
+<highlight lang="css">@mixin responsive-img($max) {
   display: block; 
   width: 100%;
   height: auto;
@@ -96,7 +96,7 @@
 
 <p>Par exemple:</p>
 
-<highlight lang='css'>@mixin responsive-img($max: 100%) {
+<highlight lang="css">@mixin responsive-img($max: 100%) {
   display: block; 
   width: 100%;
   height: auto;
@@ -111,7 +111,7 @@
 
 <p>Les arguments sont généralement passés à une mixin selon l'ordre dans lequel ils ont été déclarés dans celle-ci. Cependant, il est possible de spécifier à quel argument une valeur est passée. Ceci permet, d'omettre certains arguments ou simplement de les écrire dans un ordre différent.</p><p>Par exemple:</p>
 
-<highlight lang='css'>@mixin responsive-img($display: block, $max: 100%) {
+<highlight lang="css">@mixin responsive-img($display: block, $max: 100%) {
   display: $display; 
   width: 100%;
   height: auto;

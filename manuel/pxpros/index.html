@@ -68,28 +68,28 @@
 <p>PXPros se configure par projet. Il suffit de créer un fichier JSON <em>(_pxpros.json)</em> à la racine du projet.<br><br>Exemple:</p>
 
 <highlight lang="json">{
-    "data": {
-        "project": "TIM Montmorency - Documentation"
+    &quot;data&quot;: {
+        &quot;project&quot;: &quot;TIM Montmorency - Documentation&quot;
     },
-    "includes": [
-        "_includes/functions.php"
+    &quot;includes&quot;: [
+        &quot;_includes/functions.php&quot;
     ],
-    "before": "_includes/header.php",
-    "after": "_includes/footer.php"
+    &quot;before&quot;: &quot;_includes/header.php&quot;,
+    &quot;after&quot;: &quot;_includes/footer.php&quot;
 }</highlight>
 
 <h3>data</h3>
 <p>La propriété <em>data</em> est un objet où vous pouvez y mettre tout ce que vous voulez. Ces données seront accessibles via la variable superglobale <em>$PAGE</em>.<br><br>Exemple:</p>
-<highlight lang="php">echo $PAGE->project;</highlight>
+<highlight lang="php">echo $PAGE-&gt;project;</highlight>
 
 <h3>includes</h3>
 <p>La propriété <em>includes</em> est un tableau contenant les chemins des fichiers que vous voulez inclure à l'initialisation. Ils contiennent généralement toutes les fonctions et les classes que vous utilisez. Si vous utilisez des classes, il est recommandé d'utiliser le loader dynamique <em>spl_autoload_register</em>.<br><br>Exemple:</p>
 
 <highlight lang="php">spl_autoload_register(function($class) {
     static $catalog = [
-        'IMDB' => 'imdb.class.php',
+        &#039;IMDB&#039; =&gt; &#039;imdb.class.php&#039;,
     ];
-    if (isset($catalog[$class])) require_once(__DIR__ . '/' . $catalog[$class]);
+    if (isset($catalog[$class])) require_once(__DIR__ . &#039;/&#039; . $catalog[$class]);
 }, true, true);</highlight>
 
 
@@ -117,10 +117,9 @@
  * @icon     images/icon.png
  * @abstract PHP Preprocessor
  */
-?&gt;
-</highlight>
+?&gt;</highlight>
 
-<highlight lang="php">echo $PAGE->icon;</highlight>
+<highlight lang="php">echo $PAGE-&gt;icon;</highlight>
 
 <info>Il est aussi possible d'obtenir les propriétés d'un fichier en utilisant la fonction <em>php_file_info($filename)</em></info>
 
@@ -137,12 +136,11 @@
 <p>Elle contient aussi les propriétés <em>root</em> et <em>file</em> afin de pouvoir se situer tant de manière absolue que relative face à la racine du projet.<br><br>Exemple:</p>
 
 <highlight lang="php">function get_shared($file){
-    $backwards = count(explode('\\',str_replace($PAGE->root, '',
+    $backwards = count(explode(&#039;\\&#039;,str_replace($PAGE-&gt;root, &#039;&#039;,
         pathinfo($file,PATHINFO_DIRNAME))));
-    return join('/', array_fill(0, $backwards, '..')).'/shared/';
+    return join(&#039;/&#039;, array_fill(0, $backwards, &#039;..&#039;)).&#039;/shared/&#039;;
 }
-echo get_shared($PAGE->file);
-</highlight>
+echo get_shared($PAGE-&gt;file);</highlight>
 
 <dots></dots>
 
@@ -150,10 +148,10 @@ echo get_shared($PAGE->file);
 
 <p>PXPros est très simple d'utilisation. Il peut créer le rendu d'un seul fichier ou encore d'un dossier/sous-dossier. Dans le cas d'un dossier, PXPros le parcourera de manière récursive afin d'y trouver tout les fichiers ayant le pattern <em>_*.php.</em><br><br>Exemple:</p>
 
-<highlight lang="plaintext">PS D:\Programmation\tim-montmorency\cours\manuel> pxpros .\_index.php
+<highlight lang="plaintext">PS D:\Programmation\tim-montmorency\cours\manuel&gt; pxpros .\_index.php
 Render: /manuel/_index.php</highlight>
 
-<highlight lang="plaintext">PS D:\Programmation\tim-montmorency\cours\manuel> pxpros .
+<highlight lang="plaintext">PS D:\Programmation\tim-montmorency\cours\manuel&gt; pxpros .
 Render: /manuel/_index.php
 Render: /manuel/components/_index.php
 Render: /manuel/installation/_index.php
@@ -167,12 +165,12 @@ Render: /manuel/test/_index.php</highlight>
 <p>Il est aussi possible de créer des rendus avec PXPros en temps réel comme du SASS/SCSS grâce à l'extension <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave">Run On Save</a>.<br><br>Configuration VS Code:</p>
 
 <highlight lang="json">{
-    "emeraldwalk.runonsave": {
-        "autoClearConsole": true,
-        "commands": [
+    &quot;emeraldwalk.runonsave&quot;: {
+        &quot;autoClearConsole&quot;: true,
+        &quot;commands&quot;: [
             {
-                "match": ".*\\.php$",
-                "cmd": "pxpros \"${file}\""
+                &quot;match&quot;: &quot;.*\\.php$&quot;,
+                &quot;cmd&quot;: &quot;pxpros \&quot;${file}\&quot;&quot;
             }
         ]
     },

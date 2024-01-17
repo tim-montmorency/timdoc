@@ -59,14 +59,14 @@
 <p>Il est aussi possible, de l’afficher avec une ou des balises enfants de type <incode>source</incode>, de la sorte:</p>
 
 <highlight lang="html">&lt;video&gt;
-    &lt;source src=”video.mp4”&gt;
+    &lt;source src=&rdquo;video.mp4&rdquo;&gt;
     &lt;/video&gt;</highlight>
 
 <p>Cette méthode offre l'avantage de définir plusieurs sources. Ainsi, si le navigateur est incapable de lire le premier format, il tentera de lire le deuxième et ainsi de suite. Par exemple:</p>
 
 <highlight lang="html">&lt;video&gt;
-    &lt;source src=”video.mp4”&gt;
-    &lt;source src=”video.webm”&gt;
+    &lt;source src=&rdquo;video.mp4&rdquo;&gt;
+    &lt;source src=&rdquo;video.webm&rdquo;&gt;
     &lt;/video&gt;</highlight>
 
 <info>Si vous ne désirez pas avoir à fournir plusieurs sources, les mp4 sont maintenant supportés sur tous les navigateurs majeurs. caniuse.com/mp4</info>
@@ -77,7 +77,7 @@
 
 <p>Par défaut, une balise vidéo affichera le premier frame de sa source. Néanmoins, il est possible d’ajouter un attribut <incode>poster</incode> pour définir une image à utiliser à la place.</p>
 
-<highlight lang="html">&lt;video src=&quot;video.mp4&quot; poster=”image.jpg”&gt;&lt;/video&gt;</highlight>
+<highlight lang="html">&lt;video src=&quot;video.mp4&quot; poster=&rdquo;image.jpg&rdquo;&gt;&lt;/video&gt;</highlight>
 
 <dots></dots>
 

@@ -81,7 +81,7 @@
 <p>Une fois chargé, il est conseillé d'indiquer à GSAP que MotionPath est disponible en inscrivant la ligne de
     code&nbsp;suivante:</p>
 
-    <highlight lang='JavaScript'>gsap.registerPlugin(DrawSVGPlugin);</highlight>
+    <highlight lang="JavaScript">gsap.registerPlugin(DrawSVGPlugin);</highlight>
 
 <warning>DrawSVG n'est pas gratuit. Pour l'utiliser dans un projet hébergé sur un serveur Web, vous devez être membre du <a href="https://greensock.com/club/" target="_blank" rel="noopener noreferrer">Club GreenSock</a></strong>. Heureusement vous pouvez tout de même l'utiliser en local ou encore sur CodePen en ajoutant les liens des plugiciels GSAP nécessaires <a href="https://codepen.io/GreenSock/full/JjPwRob" target="_blank" rel="noopener noreferrer">fournis ici</a> .</warning>
 
@@ -142,8 +142,8 @@
 <p>L'avantage d'avoir <em>DrawSVGPlugin</em> intégré à GSAP est que vous pouvez l'utiliser pour créer rapidement des effets complexes et avoir un contrôle total sur l'animation (<code>pause</code>, <code>resume</code>, <code>reverse</code>, <code>seek</code> etc.)</p>
 <p>Supposons que vous ayez 20 éléments SVG auxquels la classe <code>.dessine-moi</code> a été appliquée et que vous souhaitiez les dessiner de manière décalée, vous pourriez le faire :</p>
 
-<highlight lang='JavaScript'>//Dessinera tous les éléments qui ont la classe "dessine-moi" avec un décalage de début de 0.1 seconde.
-gsap.from(".dessine-moi", {
+<highlight lang="JavaScript">//Dessinera tous les &eacute;l&eacute;ments qui ont la classe &quot;dessine-moi&quot; avec un d&eacute;calage de d&eacute;but de 0.1 seconde.
+gsap.from(&quot;.dessine-moi&quot;, {
     duration:1, 
     stagger: 0.1, 
     drawSVG: 0

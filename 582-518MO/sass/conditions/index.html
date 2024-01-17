@@ -54,7 +54,7 @@
 <p>La règle <code>@if</code> permet de contrôler l'exécution d'un bloc de style en fonction d'une condition.</p>
 
 <p>Par exemple, une mixin qui permettrait de générer un avatar carré ou circulaire en fonction de la valeur du paramètre <code>rounded</code> <em>(true ou false)</em>:</p>
-<highlight lang='css'>@mixin avatar($size: 100px, $rounded: false) {
+<highlight lang="css">@mixin avatar($size: 100px, $rounded: false) {
   width: $size;
   height: $size;
   background-size: cover;
@@ -67,16 +67,16 @@
 
 <br>
 <p>Pour obtenir un avatar carré de 100px, il serait possible d'écrire:</p>
-<highlight lang='css'>.avatar-facebook {
-  @include avatar; // Aucun paramètre. Tout par défaut
-  background-image: url('facebook-logo.png');
+<highlight lang="css">.avatar-facebook {
+  @include avatar; // Aucun param&egrave;tre. Tout par d&eacute;faut
+  background-image: url(&#039;facebook-logo.png&#039;);
 }</highlight>
 
 <br>
 <p>Tandis que pour obtenir un avatar rond de 200px:</p>
-<highlight lang='css'>.avatar-twitter {
+<highlight lang="css">.avatar-twitter {
   @include avatar(200px, true);
-  background-image: url('twitter-logo.png');
+  background-image: url(&#039;twitter-logo.png&#039;);
 }</highlight>
 
 
@@ -85,12 +85,12 @@
 <br>
 <p>Ce qui produirait les codes suivant:</p>
 
-<highlight lang='css'>.avatar-facebook {
+<highlight lang="css">.avatar-facebook {
   width: 100px;
   height: 100px;
   background-size: cover;
   background-position: 50% 50%;
-  background-image: url('facebook-logo.png');
+  background-image: url(&#039;facebook-logo.png&#039;);
 }
 
 .avatar-twitter {
@@ -99,7 +99,7 @@
   background-size: cover;
   background-position: 50% 50%;
   border-radius: 50%;
-  background-image: url('twitter-logo.png');
+  background-image: url(&#039;twitter-logo.png&#039;);
 }</highlight>
 
 <doclink href='https://sass-lang.com/documentation/at-rules/control/if'>@if</doclink>
@@ -112,7 +112,7 @@
 
 <p>Par exemple, une mixin de choix de thème de couleur:</p>
 
-<highlight lang='css'>@mixin dark-theme($dark: true) {
+<highlight lang="css">@mixin dark-theme($dark: true) {
   @if $dark {
     background: black;
     color: white;
@@ -125,7 +125,7 @@
 <br><br>
 <p>Pour obtenir un menu blanc ⚪️ avec texte noir ⚫️ , il serait possible d'écrire:</p>
 
-<highlight lang='css'>.menu {
+<highlight lang="css">.menu {
   @include dark-theme(false);
 }</highlight>
 
@@ -135,7 +135,7 @@
 
 <p>Ce qui générerait le code suivant:</p>
 
-<highlight lang='css'>.menu {
+<highlight lang="css">.menu {
   background: white;
   color: black;
 }</highlight>
@@ -154,7 +154,7 @@
 <p>Par exemple, si pour créer une mixin permettant de gérer les breakpoints CSS d'un site à partir de mots-clés plutôt que de chiffres qui sont parfois difficiles à retenir, il serait possible de faire:</p>
 
 
-<highlight lang='css'>@mixin breakpoint($size: sm) {
+<highlight lang="css">@mixin breakpoint($size: sm) {
   @if $size == sm {
     @media (min-width: 576px) { @content; }
   } @else if $size == md {
@@ -170,7 +170,7 @@
 <p>Remarquez <code>@content</code> qui permet de récupérer tout ce qui se trouve à l'intérieur du <code>@include</code> de la mixin. </p><p>Par exemple:</p>
 
 
-<highlight lang='css'>@include breakpoint(md) {
+<highlight lang="css">@include breakpoint(md) {
   body { font-size: 18px; }
 }</highlight>
 
@@ -179,7 +179,7 @@
 
 
 <p>Générera le code suivant:</p>
-<highlight lang='css'>@media (min-width: 768px) {
+<highlight lang="css">@media (min-width: 768px) {
   body { font-size: 18px; }
 }</highlight>
 

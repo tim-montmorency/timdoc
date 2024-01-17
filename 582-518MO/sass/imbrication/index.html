@@ -59,7 +59,7 @@
 
 <p>Afin d'éviter de répéter le sélecteur <code>.list</code> à plusieurs reprises, il est possible d'écrire en SCSS:</p>
 
-<highlight lang='css'>.list {
+<highlight lang="css">.list {
   position: relative;
   
   .item { display: inline-block; }
@@ -69,7 +69,7 @@
 
 <p>Ce qui générera le code CSS suivant ⏬</p>
 
-<highlight lang='scss'>.list { position: relative; }
+<highlight lang="scss">.list { position: relative; }
 
 .list .item { display: inline-block; } 
 
@@ -83,7 +83,7 @@
 
 
 <p>Voici maintenant un exemple contenant deux niveaux d'imbrications:</p>
-<highlight lang='css'>.list {
+<highlight lang="css">.list {
   position: relative;
   
   .item { 
@@ -93,7 +93,7 @@
   }
 }</highlight>
 <p>Ce qui générera le code CSS suivant ⏬</p>
-<highlight lang='scss'>.list { position: relative; }
+<highlight lang="scss">.list { position: relative; }
 
 .list .item { display: inline-block; } 
 
@@ -115,7 +115,7 @@
 
 <p>Dans l'exemple précédent, lorsqu'on compile le SCSS en CSS, ça donnera le code suivant:</p>
 
-<highlight lang='css'>a {
+<highlight lang="css">a {
   color: purple;
   text-decoration: none;
 }
@@ -165,16 +165,16 @@ nav ul li ul li {
         href="../../../582-215MO/css/selecteurs-avances/">sélecteurs CSS avancés</a>.</p>
 <p>Par exemple:</p>
 
-<highlight lang='scss'>.list {
-  > .item { display: inline-block; }
+<highlight lang="scss">.list {
+  &gt; .item { display: inline-block; }
   
   + .logo { display: none; }
 }</highlight>
 
 <p>Générera le code CSS suivant ⏬</p>
-<highlight lang='scss'>.list > .item { display: inline-block; }
+<highlight lang="scss">.list &gt; .item { display: inline-block; }
 
-.list + .logo { display: none; } </highlight>
+.list + .logo { display: none; }</highlight>
 
 <doclink href='https://sass-lang.com/documentation/style-rules#selector-combinators'>selector combinator</doclink>
 
@@ -194,13 +194,13 @@ nav ul li ul li {
 
 <p>Autrement dit:</p>
 
-<highlight lang='scss'>.selecteur1 {
+<highlight lang="scss">.selecteur1 {
   .selecteur2 { ... }
 }</highlight>
 
 <p>Générera le code CSS suivant ⏬</p>
 
-<highlight lang='scss'> .selecteur1 .selecteur2 { ... } </highlight>
+<highlight lang="scss">.selecteur1 .selecteur2 { ... }</highlight>
 
 <p>Remarquez <strong>l'espace entre les deux sélecteurs</strong> indiquant que <code>.selecteur2</code> est enfant de <code>.sélecteur1</code>.</p>
 
@@ -210,13 +210,13 @@ nav ul li ul li {
 
 <p>Si on ajoute un <code>&amp;</code> devant le .selecteur2</p>
 
-<highlight lang='scss'>.selecteur1 {
+<highlight lang="scss">.selecteur1 {
   &amp;.selecteur2 { ... }
 }</highlight>
 
 <p>Générera le code CSS suivant ⏬</p>
 
-<highlight lang='scss'> .selecteur1.selecteur2 { ... } </highlight>
+<highlight lang="scss">.selecteur1.selecteur2 { ... }</highlight>
 
 <p>Remarquez maintenant l'espace inexistant entre .selecteur1 .selecteur2, cela signifie que le sélecteur 2 s'est appliqué au parent dans l'impbricattion Sass. Ce qui en résulte d'un sélecteur css qui vise un élément qui contient les 2 classes.</p>
 
@@ -229,29 +229,29 @@ nav ul li ul li {
 
 <p>Par exemple:</p>
 
-<highlight lang='scss'>.btn {
+<highlight lang="scss">.btn {
   background: blue;
   
-  &:hover { background: lightblue; }
+  &amp;:hover { background: lightblue; }
 }</highlight>
 
 <p>Générera le code CSS suivant ⏬</p>
 
-<highlight lang='html'>.btn { background: blue; }
+<highlight lang="html">.btn { background: blue; }
 
 .btn:hover { background: lightblue; }</highlight>
 <dots></dots>
 <p>Autre exemple de pseudo-classe:</p>
 
-<highlight lang='scss'>.section {
+<highlight lang="scss">.section {
   background: white;
   
-  &:nth-child(3) { background: gray; }
+  &amp;:nth-child(3) { background: gray; }
 }</highlight>
 
 <p>Générera le code CSS suivant ⏬</p>
 
-<highlight lang='html'>.section { background: white; }
+<highlight lang="html">.section { background: white; }
 
 .section:nth-child(3) { background: gray; }</highlight>
 
@@ -273,17 +273,17 @@ nav ul li ul li {
 
 <p>Par exemple:</p>
 
-<highlight lang='scss'>.btn {
+<highlight lang="scss">.btn {
   background: blue;
   
-  &::before { content: "🔘"; }
+  &amp;::before { content: &quot;🔘&quot;; }
 }</highlight>
 
 <p>Générera le code CSS suivant ⏬</p>
 
-<highlight lang='scss'>.btn { background: blue; }
+<highlight lang="scss">.btn { background: blue; }
 
-.btn::before { content: "🔘"; }</highlight>
+.btn::before { content: &quot;🔘&quot;; }</highlight>
 
 <h3 class="heading heading--h3" id="Renversé">Renversé</h3>
 
@@ -294,13 +294,13 @@ nav ul li ul li {
     bouton en utilisant ce sélecteur comme suffix.</p>
 
 
-<highlight lang='htscssml'>.btn {
-  .menu & { background: grey; }
+<highlight lang="htscssml">.btn {
+  .menu &amp; { background: grey; }
 }</highlight>
 
 <p>Générera le code CSS suivant ⏬</p>
 
-<highlight lang='html'>.menu .btn { background: grey; }</highlight>
+<highlight lang="html">.menu .btn { background: grey; }</highlight>
 
 <doclink href='https://sass-lang.com/documentation/style-rules/parent-selector'>Parent selector</doclink>
 

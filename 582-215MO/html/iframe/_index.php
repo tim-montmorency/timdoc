@@ -25,7 +25,9 @@
 
 <p>L'attribut <incode>title</incode>, bien que non obligatoire, est fortement recommandé puisqu'il permet de fournir une description du contenu du iFrame aux personnes utilisant une assistance vocale afin de naviguer sur la page.</p>
 
-<highlight lang="html">&lt;iframe src=&quot;https://site.com&quot; title=&quot;Démo iFrame&quot;&gt;&lt;/iframe&gt;</highlight>
+<highlight lang="html">
+    <iframe src="https://site.com" title="Démo iFrame"></iframe>
+</highlight>
 
 <dots></dots>
 

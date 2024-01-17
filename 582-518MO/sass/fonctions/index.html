@@ -49,7 +49,7 @@
 
 <p>Par exemple, une variable d'espacement <code>$gutter: 26px;</code> pourrait nécessitée d'être divisée en deux lorsque deux éléments l'utilisant se suivent afin d'éviter que l'espacement soit doublé. Pour palier à ce problème, il serait possible de se créer une fonction divisant cette valeur:</p>
 
-<highlight lang='css'>@function half($num) {
+<highlight lang="css">@function half($num) {
  @return $num / 2;
 }</highlight>
 
@@ -57,7 +57,7 @@
 
 <p>Ainsi il serait possible d'écrire:</p>
 
-<highlight lang='css'>.card {
+<highlight lang="css">.card {
   padding: half($gutter); // 13px
 }</highlight>
 

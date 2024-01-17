@@ -73,7 +73,7 @@
 
 <highlight lang="css">.element { ... }
 .element:hover { ... }
-.element[title="demo"] { ... }</highlight>
+.element[title=&quot;demo&quot;] { ... }</highlight>
 
 <info>Normalement, une pseudo-classe est combinée à un autre sélecteur et n’est pas utilisé seul.</info>
 
@@ -87,7 +87,7 @@
 
 <p>Les styles en ligne ont une valeur de <strong><em>1 000 points</em></strong>, ils sont donc extrêmement difficiles à écraser en cas de besoin, d’où pourquoi leur usage est à éviter autant que possible.</p>
 
-<highlight lang="html">&lt;div style="color: blue;"&gt;...&lt;/div&gt;</highlight>
+<highlight lang="html">&lt;div style=&quot;color: blue;&quot;&gt;...&lt;/div&gt;</highlight>
 
 <h3>!important</h3>
 
@@ -111,17 +111,17 @@
 
 <p>Par exemple l’élément HTML suivant:</p>
 
-<highlight lang="html">&lt;div class=”element no1”&gt;</highlight>
+<highlight lang="html">&lt;div class=&rdquo;element no1&rdquo;&gt;</highlight>
 
 <h3>Balise seule</h3>
 
 <p>Ciblé avec uniquement sa balise</p>
 
-<highlight lang="css">div { … }</highlight>
+<highlight lang="css">div { &hellip; }</highlight>
 
 <p>La balise ne vaut que <strong><em>1 point</em></strong>.</p>
 
-<highlight lang="css">.item { … }</highlight>
+<highlight lang="css">.item { &hellip; }</highlight>
 
 <p>La classe seule ne vaut que <strong><em>10 points</em></strong>.</p>
 
@@ -129,7 +129,7 @@
 
 <p>Combiné la balise et une classe</p>
 
-<highlight lang="css">div.item { … }</highlight>
+<highlight lang="css">div.item { &hellip; }</highlight>
 
 <p>donne au groupe de sélecteur une valeur de <strong><em>11 points</em></strong>.</p>
 
@@ -137,7 +137,7 @@
 
 <p>Combiner les 2 classes</p>
 
-<highlight lang="css">.item.no1 { … }</highlight>
+<highlight lang="css">.item.no1 { &hellip; }</highlight>
 
 <p>donne une valeur de <strong><em>20 points</em></strong>.</p>
 
@@ -145,7 +145,7 @@
 
 <p>Et finalement combiner la balise aux deux classes</p>
 
-<highlight lang="css">div.item.no1 { … }</highlight>
+<highlight lang="css">div.item.no1 { &hellip; }</highlight>
 
 <p>donne <strong><em>21 points</em></strong>.</p>
 
@@ -158,12 +158,12 @@
 
 <p>Par exemple pour l’élément HTML suivant:</p>
 
-<highlight lang="html">&lt;div class=”element no1”&gt;</highlight>
+<highlight lang="html">&lt;div class=&rdquo;element no1&rdquo;&gt;</highlight>
 
 <p>Les sélecteurs ci-dessous auront tous deux une valeur de spécificité équivalente à <strong><em>10 points</em></strong>.</p>
 
-<highlight lang="css">.element { … }
-.no1 { … }</highlight>
+<highlight lang="css">.element { &hellip; }
+.no1 { &hellip; }</highlight>
 
 <p>Cependant, les styles du sélecteur <incode>.no1</incode> auront priorité sur ceux de <incode>.element</incode> puisque <incode>.no1</incode> est écrit en dernier et est donc considéré comme étant la définition la plus récente, donc celle prioritaire en cas d’égalité.</p>
 

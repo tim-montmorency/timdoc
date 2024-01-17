@@ -87,7 +87,7 @@
     librairie.</h3>
 
 
-<highlight lang='html'>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css&quot; /&gt;
+<highlight lang="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css&quot; /&gt;
 
 &lt;script src=&quot;https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js&quot;&gt;&lt;/script&gt;</highlight>
 
@@ -103,7 +103,7 @@
             d="m26.35,61.31c-.44,0-.8-.14-1.08-.42-.28-.28-.42-.64-.42-1.08v-3.6c0-.32.09-.75.27-1.29.18-.54.59-1.07,1.23-1.59l7.92-7.86c2.92-2.24,5.29-4.14,7.11-5.7,1.82-1.56,3.17-2.98,4.05-4.26.88-1.28,1.32-2.52,1.32-3.72,0-1.56-.43-2.85-1.29-3.87-.86-1.02-2.25-1.53-4.17-1.53-1.28,0-2.35.27-3.21.81s-1.53,1.25-2.01,2.13c-.48.88-.8,1.84-.96,2.88-.12.52-.37.88-.75,1.08-.38.2-.77.3-1.17.3h-6.36c-.4,0-.72-.13-.96-.39-.24-.26-.36-.55-.36-.87.04-1.84.43-3.58,1.17-5.22.74-1.64,1.79-3.1,3.15-4.38,1.36-1.28,3-2.29,4.92-3.03,1.92-.74,4.1-1.11,6.54-1.11,3.36,0,6.18.55,8.46,1.65,2.28,1.1,4,2.61,5.16,4.53s1.74,4.14,1.74,6.66c0,1.92-.39,3.7-1.17,5.34-.78,1.64-1.91,3.21-3.39,4.71-1.48,1.5-3.24,3.05-5.28,4.65l-7.08,7.08h16.32c.44,0,.8.14,1.08.42.28.28.42.64.42,1.08v5.1c0,.44-.14.8-.42,1.08s-.64.42-1.08.42h-29.7Z" />
     </svg>
     Ajouter le HTML de mise en page de Swiper.</h3>
-<highlight lang='html'>&lt;!-- Slider main container --&gt;
+<highlight lang="html">&lt;!-- Slider main container --&gt;
 &lt;div class=&quot;swiper&quot;&gt;
     &lt;!-- Additional required wrapper --&gt;
     &lt;div class=&quot;swiper-wrapper&quot;&gt;
@@ -136,7 +136,7 @@
     </svg>  Initialiser l'instance de Swiper via JavaScript.</h3>
     <p>Finalement, vous devez initialiser Swiper en créant une instance de la classe Swiper et vous la logez dans une variable* JavaScript.</p>
 
-      <highlight lang='javascript'>const mySwiperOne = new Swiper (swiperContainer, parameters);</highlight>
+      <highlight lang="javascript">const mySwiperOne = new Swiper (swiperContainer, parameters);</highlight>
       initialise le swiper avec 2 options:
         <ul>
           <li><em>swiperContainer</em> qui est l’élement HTML ou le sélecteur CSS du conteneur du swiper. <em>String|Obligatoire</em></li>
@@ -147,29 +147,27 @@
         <p>De plus, lorsque vous initialisez une instance Swiper, vous pouvez changer les valeurs de plusieurs paramètres, à votre guise, afin de personnaliser les fonctionnalités du diaporama.</p>
 
 <p>Voici l’exemple de base présenté par Swiper:</p>
-<highlight lang='javascript'>
-const swiper = new Swiper('.swiper', {
+<highlight lang="javascript">const swiper = new Swiper(&#039;.swiper&#039;, {
   // Optional parameters
-  direction: 'vertical',
+  direction: &#039;vertical&#039;,
   loop: true,
 
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination',
+    el: &#039;.swiper-pagination&#039;,
   },
 
   // Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: &#039;.swiper-button-next&#039;,
+    prevEl: &#039;.swiper-button-prev&#039;,
   },
 
   // And if we need scrollbar
   scrollbar: {
-    el: '.swiper-scrollbar',
+    el: &#039;.swiper-scrollbar&#039;,
   },
-});
-</highlight>
+});</highlight>
 
 
 <grostitre>Démos</grostitre>
@@ -183,13 +181,11 @@ const swiper = new Swiper('.swiper', {
 
 <grostitre>Paramètres de Swiper</grostitre>
 <p>À l’initialisation, on peut changer la valeur de certains paramètres prédéfinis. Il faut donc les lister dans un objet <em>{}</em> au format <em>paramètre : valeur</em>, tous séparés par une virgule.</p>
-<highlight lang='javascript'>
-const swiper = new Swiper('.swiper', {
-  direction: 'vertical',
+<highlight lang="javascript">const swiper = new Swiper(&#039;.swiper&#039;, {
+  direction: &#039;vertical&#039;,
   grabCursor: true,
-  effect: 'flip'
-});
-</highlight>
+  effect: &#039;flip&#039;
+});</highlight>
 <doclink href='https://swiperjs.com/swiper-api#parameters'>Paramètres Swiper</doclink>
 
 <h3>Quelques exemples communs</h3>
@@ -203,8 +199,7 @@ const swiper = new Swiper('.swiper', {
 </ul>
 
 <p>...parlant de breakpoint, et oui, les paramètres Swiper peuvent changer en fonction du breakpoint!</p>
-<highlight lang='javascript'>
-const swiper = new Swiper('.swiper', {
+<highlight lang="javascript">const swiper = new Swiper(&#039;.swiper&#039;, {
   // Default parameters
   slidesPerView: 1,
   spaceBetween: 10,
@@ -226,8 +221,7 @@ const swiper = new Swiper('.swiper', {
       spaceBetween: 40
     }
   }
-})
-</highlight>
+})</highlight>
 
 
 <dots></dots>

@@ -51,8 +51,8 @@
 <p>La règle <incode>@font-face</incode> permet d'importer une police sur une page en spécifiant où la police est située et sous quel nom y faire référence.</p>
 
 <highlight lang="css">@font-face {
-  src: url("/polices/bebas.woff2") format("woff2");
-  font-family: "Bebas";
+  src: url(&quot;/polices/bebas.woff2&quot;) format(&quot;woff2&quot;);
+  font-family: &quot;Bebas&quot;;
 }</highlight>
 
 <info>Placer ses règles <incode>@font-face</incode> en début de fichier CSS permet de s’assurer que la police soit importée avant qu’un style y fasse référence.</info>
@@ -129,8 +129,8 @@
 <p>Par exemple <em>"Super police"</em>:</p>
 
 <highlight lang="css">@font-face {
-  src: url("/polices/bebas.woff2") format("woff2");
-  font-family: "Super Police";
+  src: url(&quot;/polices/bebas.woff2&quot;) format(&quot;woff2&quot;);
+  font-family: &quot;Super Police&quot;;
 }</highlight>
 
 <dots></dots>
@@ -143,14 +143,14 @@
 <p>Par exemple:</p>
 
 <highlight lang="css">@font-face {
-  src: url("/polices/bebas.woff2") format("woff2");
-  font-family: "Bebas";
+  src: url(&quot;/polices/bebas.woff2&quot;) format(&quot;woff2&quot;);
+  font-family: &quot;Bebas&quot;;
 }
 
 ...
 
 .title {
-  font-family: "Bebas";
+  font-family: &quot;Bebas&quot;;
 }</highlight>
 
 <p>Dans cet exemple, les éléments avec la classe <incode>.title</incode> utilisent la police <em>Bebas</em>.</p>
@@ -165,9 +165,9 @@
 <p>Par exemple:</p>
 
 <highlight lang="css">@font-face {
-  font-family: "Ma police";
-  src: url("/polices/bebas.woff2") format("woff2"),
-       url("/polices/bebas.otf") format("opentype");
+  font-family: &quot;Ma police&quot;;
+  src: url(&quot;/polices/bebas.woff2&quot;) format(&quot;woff2&quot;),
+       url(&quot;/polices/bebas.otf&quot;) format(&quot;opentype&quot;);
 }</highlight>
 
 <dots></dots>
@@ -182,14 +182,14 @@
 <p>Par exemple:</p>
 
 <highlight lang="css">@font-face {
-  src: url("/polices/bebas-400.woff2") format("woff2");
-  font-family: "Bebas";
+  src: url(&quot;/polices/bebas-400.woff2&quot;) format(&quot;woff2&quot;);
+  font-family: &quot;Bebas&quot;;
 }
 
 @font-face {
-  src: url("/polices/bebas-700.woff2") format("woff2");
-  font-family: "Bebas";
-  font-weight: bold; /* 👈 Variation spécifiée */
+  src: url(&quot;/polices/bebas-700.woff2&quot;) format(&quot;woff2&quot;);
+  font-family: &quot;Bebas&quot;;
+  font-weight: bold; /* 👈 Variation sp&eacute;cifi&eacute;e */
 }</highlight>
 
 <info>Une police importée via <incode>@font-face</incode> devrait être fonctionnelle même si elle n’est pas installée sur votre ordinateur. Le but premier est de rendre la police disponible aux utilisateurs visitant la page même s’ils n’ont pas la police d’installer sur leur ordinateur.</info>

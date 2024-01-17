@@ -78,3 +78,16 @@ EOD;
 register_tag('children', function($html, $attrs, $data) {
     return print_children($this->file, true);
 });
+
+
+
+/******************************************************
+ *                 Composante Children                *
+ ******************************************************/
+register_tag('highlight', function($html, $attrs, $data) {
+    $data = html_entity_decode(trim($data), ENT_QUOTES, 'UTF-8');
+    $data = htmlentities($data, ENT_QUOTES, 'UTF-8');
+    foreach($attrs as $k => $v) $props[] = $k.'="'.$v.'"';
+    return '<highlight'.(!empty($props) ? ' '.join(' ', $props): '').'>'.$data.'</highlight>';
+    return $html;
+});
