@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carte de crédit</title>
+        <style>
+            * { box-sizing: border-box; }
+
+            html {
+                height: 100%;
+                background-image: linear-gradient(to right, #1d1d1d 0%, rgb(138, 11, 228));
+            }
+
+            .form {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 50%;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 6px;
+                min-width: 320px;
+                max-width: 600px;
+                min-height: 50px;
+            }
+
+            .invalid {
+                color: #eb001b;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="form">
+            <p id="msg"></p>
+            <strong id="cc_label">Prénom: </strong> <span id="cc_msg"></span>
+            <br>
+            <strong id="exp_label">Nom: </strong> <span id="exp_msg"></span>
+            <br>
+            <strong id="sec_label">Courriel: </strong> <span id="sec_msg"></span>
+            <br>
+            <strong id="contenu_label">Texte </strong> <span id="contenu_msg"></span>
+            <br>
+
+        </div>
+
+    </body>
+</html>
+
+<script>
+    
+    let errnb = 0;
+    const urlParams = new URLSearchParams(window.location.search);
+
+    const prenom = urlParams.get('prenom');
+    if(!prenom) {
+        document.getElementById('cc_msg').innerText = "Aucun prénom n'a été reçu";
+        document.getElementById('cc_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('cc_msg').innerText = prenom;
+        const ccRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
+        if(!ccRegex.test(prenom)){
+            document.getElementById('cc_label').classList.add("invalid");
+            errnb++;
+        }
+    }
+
+    const nom = urlParams.get('nom');
+    if(!nom) {
+        document.getElementById('exp_msg').innerText = "Aucun nom n'a été reçu";
+        document.getElementById('exp_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('exp_msg').innerText = nom;
+        const expRegex = /^[ a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ'`'\-]+$/;
+        if(!expRegex.test(nom)){
+            document.getElementById('exp_label').classList.add("invalid");
+            errnb++;
+        }
+    }
+
+    const email = urlParams.get('email');
+    if(!email) {
+        document.getElementById('sec_msg').innerText = "Aucun email n'a été reçu";
+        document.getElementById('sec_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('sec_msg').innerText = email;
+        const secRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if(!secRegex.test(email)) {
+            document.getElementById('sec_label').classList.add("invalid");
+            errnb++;
+        }
+    }
+
+    const contenu = urlParams.get('contenu');
+    if(!contenu) {
+        document.getElementById('contenu_msg').innerText = "Aucun texte n'a été reçu";
+        document.getElementById('contenu_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('contenu_msg').innerText = contenu;
+    }
+
+    if(errnb) {
+        document.getElementById('msg').innerText = "❌ Désolé, certaines informations sont invalides.";
+    } else {
+        document.getElementById('msg').innerText = "✅ Merci vos informations ont bien été reçues.";
+    }
+
+</script>

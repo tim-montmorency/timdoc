@@ -1,0 +1,6 @@
+html {
+  height: 100%;
+  background-image: linear-gradient(#d1f2fe, #e7cfff);
+  background-attachment: fixed;
+  font-family: helvetica, arial, sans-serifs;
+}

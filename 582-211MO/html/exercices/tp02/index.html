@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../../shared/jscripts/commons.js"></script>
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>TP 02</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">TP 02</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<em>
+    <H2>Ce TP vaut pour 10% de la note finale.</H2>
+</em>
+
+<p>Pour cet exercice vous allez reproduire un site web sur la musique.</p>
+
+<clipasset src="videos/La_musique_c'est_la_vie.mp4"></clipasset>
+
+<dots></dots>
+
+<h2>Couleurs</h2>
+
+<p>Les couleurs de références fonctionnent de gauche à droite #1 à #10</p>
+
+<color>#fff</color>
+<color>#691bff</color>
+<color>#ea1cb5</color>
+<color>#7e05c4</color>
+<color>#777777</color>
+<color>#691cff</color>
+<color>#f9f9ff</color>
+<color>#d4d5e0</color>
+<color>#d306fc</color>
+<color>#636363</color>
+
+<dots></dots>
+
+<h2>Famille de police</h2>
+
+<highlight lang="css">font-family: Verdana, Geneva, Tahoma, sans-serif; </highlight>
+
+<dots></dots>
+
+<h3>Document de départ</h3>
+
+<doclink href="./La musique, c'est la vie.zip">La musique, c'est la vie</doclink>
+
+
+<dots></dots>
+
+
+<grostitre>Partie 1</grostitre>
+
+<checklist>
+    Assurez-vous d'enlever les marges pour tout le document et ajoutez la famille de police
+    Dans votre body, ajoutez l'image de bannière en arrière-plan
+    La marge interne doit être de 0
+    La grandeur de votre image doit contenir tout l'espace et sans se répéter
+    Ensuite, dans votre en-tête, vous devez être en position sticky et elle doit rester en place lors du défilement
+    Ajoutez une couleur d'arrière-plan gradient linéaire vers la droite à l'aide des couleurs de références #2 et #3 
+    La largeur est de 100%
+    Maintenant, pour la navigation, sélectionner l'image dans la classe "menu" et appliquer une marge interne de 25px par le haut, 0 à droite, 20px en bas et 40px à gauche
+    Sélectionnez la navigation de la classe "menu"  et appliquer <em>list-style-type: none;</em>
+    Affichez-les en ligne et envoyer-les flotter à droite et ajouter une marge interne de 27px par le haut, 20px à droite, 0 en bas et 0 à gauche
+    Ensuite, sélectionnez votre navigation et les items de votre liste pour les mettre en ligne et une marge à droite de 20px
+    Sélectionnez votre navigation ainsi que les liens de celle-ci, enlevez la décoration du texte, utilisez la couleur de référence #1 et transformez votre texte en majuscule
+
+</checklist>
+
+<dots></dots>
+
+<grostitre>Partie 2</grostitre>
+
+<checklist>
+    Sélectionnez la classe "banner-content" et appliquez une hauteur de 85vh
+    Sélectionnez la classe "banner-content" mais cette fois-ci avec le titre h1
+    Appliquez la couleur de référence #1, une grandeur de police de 5 fois la taille fonte courante, un espace entre les lettres de 0.1 fois la taille fonte courante
+    Ajoutez une graisse de 700 et une ombre au texte avec un décalage en x de 13px, un décalage en y de 15px, un flou de 8px et la couleur : <em>rgba(63, 107, 169, 0.5)</em>
+    Ensuite, placez le titre en fonction du flux normal de la page pour le déplacer relativement à son emplacement à partir du haut de 22 fois la taille à la racine du document
+    Alignez le texte au centre
+    Maintenant, sélectionnez le paragraphe dans la classe "banner-content"
+    Appliquez la couleur de référence #1, une grandeur de police de 2 fois la taille de la fonte courante, un espace entre les lettres de 0.1 fois la taille fonte courante
+    Ensuite, placez le titre en fonction du <em>flux normal de la page pour le déplacer relativement </em>à son emplacement à partir du haut de 24 fois la taille à la racine du document
+    Ajoutez une graisse de 400 et vous devez mettre le texte en majuscule
+    Alignez le texte au centre
+    Finalement, sélectionnez la classe "slogan" et alignez le tableau au centre à l'aide des marges gauche et droite
+    Sélectionnez la classe "slogan1" et ajoutez une grandeur de police de 17/10 fois la taille de la fonte courante
+    Ajoutez une largeur de 25 fois la taille à la racine du document et alignez le texte à droite
+    Sélectionnez la classe "slogan2" ajoutez une largeur de 30 fois la taille à la racine du document avec une marge intérieur de 15px et justifié votre texte.
+    Et pour terminer, sélectionnez les "span" dans la classe "slogan" pour lui appliquer la couleur de référence #3 et une graisse de 900
+</checklist>
+
+<dots></dots>
+
+<grostitre>Partie 3</grostitre>
+
+<checklist>
+    Sélectionnez la classe "gallery" et centrez le tableau et ajoutez la déclaration suivante : <em>border-spacing: 0;</em>
+    Sélectionnez les cellules à l'aide de la classe du tableau pour lui appliquer une marge interne de 0 et l'afficher comme un bloc en ligne
+    Ensuite, sélectionnez les rangées du tableau pour appliquer un : <em>font-size: 0;</em>
+    Maintenant, pour le titre du tableau, sélectionnez la classe "artist" 
+    Ajoutez une taille de police de 4 fois la taille de la fonte courante une marge interne de 4 fois la taille à la racine du document
+    Alignez votre texte au centre, vous devez mettre le texte en majuscule et appliquer la couleur de référence #4
+</checklist>
+
+<dots></dots>
+
+<grostitre>Partie 4</grostitre>
+
+<checklist>
+    Sélectionnez la section des Services, ajoutez l'image en arrière-plan <em>service-bg</em>
+    Ne faites pas répéter l'image
+    La taille de l'image doit couvrir toute la section
+    Ajoutez une hauteur de 600px
+    Ajoutez une marge à partir du haut de 100px
+    Ajoutez une marge interne de la gauche égale à 20 fois la taille à la racine du document et une à partir du haut de  5 fois la taille à la racine du document
+    Ensuite, sélectionnez le tableau et ajouter-lui une marge interne de 25px
+    Sélectionnez la 2e cellule du tableau et afficher-là comme un bloc en ligne avec une largeur de 450px
+    Dans la 2e cellule, sélectionnez le titre et ajoutez une marge interne de 10px
+    Toujours dans la deuxième cellule, sélectionnez le paragraphe et ajoutez une marge interne à gauche de 10px 
+</checklist>
+
+<dots></dots>
+
+<grostitre>Partie 5</grostitre>
+
+<checklist>
+    Sélectionnez la section <em>about</em>, ajoutez l'image en arrière-plan <em>about-bg</em>
+    Ne faites pas répéter l'image
+    Sélectionnez le paragraphe de la section <em>about</em>, appliquez la couleur de référence #5, une taille de police de 14px, une graisse de 300 et une hauteur de ligne de 13/8
+    Sélectionnez le titre et appliquez la couleur de référence #6, une taille de police de30px, une graisse de 200, en majuscule et avec une marge interne en bas de 30px
+    Ensuite, sélectionnez les "span" de la section "about" et appliquez une graisse de 900 et la couleur de référence #9
+    Finalement, sélectionnez la classe "about-content" et ajoutez une largeur de 40 fois la taille à la racine du document et une marge interne du haut de 40px
+</checklist>
+
+<dots></dots>
+
+<grostitre>Partie 6</grostitre>
+
+<checklist>
+    Sélectionnez la section <em>contact</em>, ajoutez en arrière-plan la couleur de référence #7 avec une marge interne en bas de 50px
+    Sélectionnez le tableau et centrez-le
+    Sélectionnez le titre dans la première cellule du tableau et ajoutez-lui une taille de police de 36px, une graisse de 600 et mettez-le en majuscule
+    Sélectionnez toutes les cellules du tableau et ajoutez une marge interne de 20px
+    Ensuite, dans la forme, sélectionnez les champs et appliquez une bordure de 1px en ligne continue et la couleur de référence #8
+    Ajoutez une hauteur de ligne de 18/5, une pleine largeur, affichez en bloc, un arrière-plan transparent, une marge interne en haut et le bas de 0, droite-gauche de 25px 
+    Finalement, appliquez la couleur de référence #5
+    Pour ce qui est de zone de texte multilignes, ajoutez une bordure de 1px en ligne continue et la couleur de référence #8, une pleine largeur, affichez en bloc, un arrière-plan transparent, une marge interne en haut et le bas de 15px, droite-gauche de 25px, la marge du haut de 70px et la marge du bas de 20px
+    Le bouton doit avoir une couleur d'arrière-plan vers la droite qui débute avec la couleur de référence #2 vers la #3, les coins arrondis à 30px
+    Appliquez la couleur de référence #1, une taille de police de 18px, une graisse de 600, une largeur de 10 fois la taille à la racine du document
+    Centrez le bouton à l'aide de ses marges
+</checklist>
+
+<dots></dots>
+
+<grostitre>Partie 7</grostitre>
+
+<checklist>
+    Dans le pied de page, centrez le texte
+    Ajoutez une marge interne de 20px
+    Appliquez la couleur de référence #10
+</checklist>
+
+<dots></dots>
+
+<h2>Petit défi🥇</h2>
+
+<p>Pour avoir le défilement de façon graduelle, une déclaration a été ajouté dans le CSS</p>
+<p><em>À vous de trouver ce que vous devez ajouter !</em> 😜</p>
+
+<dots></dots>
+
+<grostitre>Remise</grostitre>
+
+<checklist>
+  Renommez votre dossier <em>"tp02_[nom]_[prenom]"</em>.
+  Zippez votre dossier <em>"tp02_[nom]_[prenom]"</em>.
+  Joignez votre fichier <em>.zip</em> au devoir <em>"TP02 - La musique, c'est la vie !"</em>.
+</checklist>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+            <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../css/anatomie/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../css/anatomie/">Anatomie d'une règle</a></span>
+                    <span class="intlink__item__abstract">Structure, ancêtre, déclaration</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../css/selecteurs/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../css/selecteurs/">Sélecteurs</a></span>
+                    <span class="intlink__item__abstract">balise, #, ., combinaison, descendant</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../css/flux/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../css/flux/">Flux</a></span>
+                    <span class="intlink__item__abstract">L’affichage de base des éléments dans une page</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../css/padding/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../css/padding/">Padding</a></span>
+                    <span class="intlink__item__abstract">marge intérieur</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../css/margin/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../css/margin/">Margin</a></span>
+                    <span class="intlink__item__abstract">marge extérieur</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../css/background/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../css/background/">Background</a></span>
+                    <span class="intlink__item__abstract">color, image, gradient</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../css/display/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../css/display/">Display</a></span>
+                    <span class="intlink__item__abstract">block, inline, inline-block, none</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../css/vertical-align/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../css/vertical-align/">Vertical-align</a></span>
+                    <span class="intlink__item__abstract">baseline, top, middle, bottom, super, sub</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../css/unites-de-mesure/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../css/unites-de-mesure/">Unités de mesure</a></span>
+                    <span class="intlink__item__abstract">vw, vh, vmin, vmax, calc, min, max, clamp</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../css/width-height/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../css/width-height/">Width & Height</a></span>
+                    <span class="intlink__item__abstract">min-width/height, max-width/height</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../css/border/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../css/border/">Border</a></span>
+                    <span class="intlink__item__abstract">border, border-radius</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../css/box-model/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../css/box-model/">Box-model</a></span>
+                    <span class="intlink__item__abstract">Chaque élément d'une page est une boîte rectangulaire</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../css/unites-de-couleur/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../css/unites-de-couleur/">Unités de couleur</a></span>
+                    <span class="intlink__item__abstract">hex, rgb, hsl, etc.</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../css/text/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../css/text/">Text</a></span>
+                    <span class="intlink__item__abstract">align, decoration, transform, stroke, shadow</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../css/linear-gradient/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../css/linear-gradient/">Linear-gradient</a></span>
+                    <span class="intlink__item__abstract">Générer un dégradé.</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../css/box-sizing/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../css/box-sizing/">Box-sizing</a></span>
+                    <span class="intlink__item__abstract">border-box, content-box</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../css/float/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../css/float/">Float</a></span>
+                    <span class="intlink__item__abstract">Permet à un élément de flotter à gauche ou à droite</span>
+                </div>
+            </div>
+        
+<dots></dots>
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>

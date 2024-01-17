@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../../shared/jscripts/commons.js"></script>
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>Examen - Birds of Prey</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Examen - Birds of Prey</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p class="spacer">Pour cet examen, nous allons recréer une affiche animée du film <a target="_blank" href="https://www.imdb.com/title/tt7713068/">Birds of Prey</a>.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<clipasset src="./videos/apercu.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>Matériel</grostitre>
+
+<doclink href="./birds-of-prey.zip">Dossier de départ</doclink>
+
+<h3>Couleurs 🎨</h3>
+
+<color>#33c1a7</color>
+<color>#6ffeac</color>
+<br>
+<color>#f7e700</color>
+<color>#333333</color>
+
+<br>
+
+<warning>Pour une meilleure exécution de l'examen, la plupart des éléments HTML ont été cachés par défaut dans le fichier CSS. Rendez-les visible au fur et à mesure que vous avancez dans l'examen.</warning>
+<thumbsup>Prenez le temps de bien analyser le fichier HTML.</thumbsup>
+
+<dots></dots>
+
+
+<grostitre>Requis de base</grostitre>
+
+<checklist>
+  Créez une variable pour chacune des couleurs pour utilisation ultérieure.
+  L'arrière-plan de la page doit être de couleur grise.
+  Ajoutez-lui un gradient de <em>bleu</em> à <em>jaune</em> partant du coin supérieur gauche pour aller au coin inférieur droit.
+  Fusionnez les fonds en mode <span class="inline-code">screen</span> afin de donner un effet délavé.
+</checklist>
+
+<grostitre>Requis affiche</grostitre>
+
+<checklist>
+  L'affiche (<span class="inline-code">.poster</span>) doit avoir une largeur équivalente à <em>80%</em> du plus petit côté de la fenêtre, avoir une hauteur de <em>3/4</em> de sa largeur et être centré dans la page tant horizontalement que verticalement.
+  Elle doit avoir un dégradé allant du <em>vert</em> au <em>bleu</em> en partant du coin supérieur gauche pour aller au coin inférieur droit.
+  Ajoutez-lui un ombrage de <em>100px</em> égal de tout les côtés de couleur <em>noire</em> semi-transparente.
+  Lorsque hauteur de la fenêtre devient plus grande ou égale à la largeur, l'affiche doit devenir carré.
+</checklist>
+
+<grostitre>Requis arrière-plan</grostitre>
+
+<checklist>
+  Placez l'arrière-plan de l'affiche (<span class="inline-code">.bg</span>) en position absolue prenant tout l'espace disponible tant en largeur qu'en hauteur.
+  À l'aide de la propriété <span class="inline-code">object-fit</span> faites-en sorte que l'exédentaire soit rogné et que le focus soit mit sur le coin inférieur gauche de sorte que cette portion de l'image ne soit jamais rognée.
+  Fusionnez l'arrière-plan de sorte qu'il agisse comme filtre de luminosité avec l'affiche.
+  Faites-en sorte que l'élément <span class="inline-code">.bg</span> soit complètement transparent par défaut et que lorsque l'on survole l'affiche, il devienne complètement opaque en l'espace de <em>0.5 seconde</em>.
+</checklist>
+
+<grostitre>Requis logo</grostitre>
+
+<checklist>
+  Le logo (<span class="inline-code">.logo</span>) doit être positionné de manière absolue et prendre un maximum de <em>100%</em> de la largeur de l'affiche.
+  Appliquez-lui un filtre <span class="inline-code">drop-shadow()</span> de <em>20px</em> égal de tous les côtés de couleur <em>noire</em> semi-transparente.
+  Modifiez la balise <span class="inline-code">picture</span> du fichier HTML de sorte que la source de l'image change pour le logo vertical lorsque la hauteur de la fenêtre devient égale ou plus grande à sa largeur.
+  Toujours dans la balise <span class="inline-code">picture</span>, faites-en sorte que la source de l'image change pour le petit logo lorsque la largeur devient plus petite ou égale à <em>600px</em>.
+</checklist>
+
+<grostitre>Requis Harley Quinn</grostitre>
+
+<checklist>
+  Harley Quinn (<span class="inline-code">.harley</span>) doit être positionnée de manière absolue dans le bas de l'affiche à <em>-10%</em> de la droite et mesurer <em>110%</em> en hauteur de sorte qu'elle dépasse en haut et à droite.
+  Lorsque la hauteur de la fenêtre devient plus grande ou égale à la largeur, faites-en sorte que Harley passe par dessus le logo.
+</checklist>
+
+<grostitre>Requis crédits</grostitre>
+
+<checklist>
+  À l'aide de <span class="inline-code">@font-face</span>, importez la police d'écriture <span class="inline-code">DcFandom-orr4.ttf</span> et nommez la <em>DcFandom</em>. N'oubliez pas le format.
+  L'élément <span class="inline-code">.credits</span> doit être positionné de manière absolue à <em>10px</em> du bas, <em>150px</em> de la gauche et avoir une largeur de <em>50px</em>.
+  À l'aide du pseudo-élément <span class="inline-code">::before</span>, ajoutez le texte "Presented by" à <em>-140px</em> de la gauche et centrez le verticalement.
+  Il doit avoir une grosseur de police d'écriture de <em>16px</em>, avoir la police d'écriture <em>DcFandom</em> et être de couleur <em>jaune</em>.
+  L'élément SVG <span class="inline-code">.dc</span> doit être aussi de couleur <em>jaune</em>.
+</checklist>
+
+<grostitre>Requis plume</grostitre>
+
+<checklist>
+  La plume (<span class="inline-code">.feather</span>) doit être positionnée de manière absolue à <em>25%</em> de la largeur de la fenêtre à gauche et avoir une hauteur correspondant à <em>10%</em> de la hauteur de la fenêtre.
+  Créez une animation nommée <em>feather</em> faisant descendre la plume de <em>-100%</em> à <em>100vh</em> en <em>5 secondes</em> de manière linéaire et infinie.
+</checklist>
+
+<grostitre>Remise</grostitre>
+
+<checklist>
+  Renommez votre dossier <em>"birds_[nom]_[prenom]"</em>.
+  Zippez votre dossier <em>"birds_[nom]_[prenom]"</em>.
+  Joignez votre fichier <em>.zip</em> au devoir <em>"EX02: Birds of Prey"</em>.
+</checklist>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+<doclink href="../../../../582-215MO/">Timdoc / 582-215MO</doclink>
+
+<dots></dots>
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>

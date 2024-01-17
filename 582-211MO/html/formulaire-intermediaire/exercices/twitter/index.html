@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../../../shared/jscripts/commons.js"></script>
+        <script src="../../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../../../shared/';</script>
+        <title>Select - Twitter</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Select - Twitter</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p class="spacer">Pour cet exercice, vous devrez compléter le formulaire de <a target="_blank" href="https://twitter.com/">Twitter</a> demandant la date de naissance de son nouveau membre.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<clipasset src="videos/select-twitter-apercu.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>Matériel</grostitre>
+
+<doclink href="https://codepen.io/pen?template=mdaqyOm">Pen de départ</doclink>
+
+<h2>Action</h2>
+
+<highlight lang="html">https://tim-montmorency.com/timdoc/582-215MO/html/formulaire-intermediaire/exercices/twitter/submit/</highlight>
+
+<dots></dots>
+
+
+<grostitre>Requis fonctionnels</grostitre>
+
+<checklist>
+    Premièrement, créer une forme avec la classe "<em>birthday</em>" ainsi que l'action écrite ci-dessus.
+    Ensuite, ajoutez un titre <em>h1</em> avec une classe : <em>title</em>.
+    Le texte du titre est : <em>Quelle est votre date d'anniversaire</em>.
+    Maintenant, ajoutez une <em>div</em>.
+    Dans cette <em>div</em>, créez un menu déroulant permettant de choisir sa date de naissance. Attribuez-y les attributs <span class="inline-code">name</span>= "day", <span class="inline-code">id</span>="day" et <span class="inline-code">class</span>="jour" afin de permettre au back-end de récupérer sa valeur.<br><br>N'oubliez pas d'ajouter un libellé intitulé <em>"jour"</em> à votre menu déroulant.
+    Puisqu'un mois peut contenir 31 jours, offrez 31 options dans ce menu déroulant. Chacune de ces options doit avoir comme valeur et comme texte affiché un nombre de 1 à 31.<br>
+    Plutôt que d'écrire ces 31 options à la main, essayez la commande Emmet suivante: <span class="inline-code">option[value="$"]{$}*31</span> suivit de la touche tab.
+    De façon similaire au précédent menu déroulant, créez-en une nouvelle <em>div</em>, mais cette fois-ci pour le mois de naissance de l'usager et configurer ses attributs <span class="inline-code">name</span>="month", <span class="inline-code">id</span>="month" et <span class="inline-code">class</span>="mois", afin de pouvoir y faire référence en back-end.<br><br>Attribuez cette fois à chaque option une valeur allant de 1 à 12, mais affichez les noms complets de chaque mois afin de simplifier la vie à l'utilisateur. (Malheureusement, il n'y a pas de raccourcis Emmet cette fois)
+    Créez une dernière <em>div</em> avec un menu déroulant permettant à l'usager de choisir son année de naissance. Les attributs <span class="inline-code">name</span>="year", <span class="inline-code">id</span>="year" et <span class="inline-code">class</span>="annee"  et les options doivent aller de 2007 jusqu'à 1980. <em>(Les valeurs et les textes affichés sont les mêmes)</em>(il n'y a pas de raccourcis Emmet!)
+    Afin de soumettre le formulaire, ajoutez un champ de type submit affichant le texte <em>"Suivant"</em>.
+</checklist>
+
+<info>Si votre formulaire fonctionne bien, vous devriez obtenir un message vous donnant l’âge de l’usager.</info>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+<img src="../../../formulaire-intermediaire/" alt="">
+
+            <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../formulaire/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../formulaire/">Formulaire</a></span>
+                    <span class="intlink__item__abstract">text, label, form, submit</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../../formulaire-intermediaire/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../../formulaire-intermediaire/">Formulaire intermédiaire</a></span>
+                    <span class="intlink__item__abstract">radio, checkbox, select, textarea</span>
+                </div>
+            </div>
+        
+<dots></dots>
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>

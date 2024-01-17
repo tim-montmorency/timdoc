@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.css">
+        <link rel="stylesheet" href="../../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/video-js.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../../shared/jscripts/commons.js"></script>
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>Alaclair Ensemble - Les maigres blancs d'Amérique du Noir</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71">
+                    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
+                </svg>
+            </div>
+            <div title="Dark mode" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Alaclair Ensemble - Les maigres blancs d'Amérique du Noir</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p class="spacer">Pour cet exercice, vous devez écrire du HTML et du CSS afin de recréer l’album <a target="_blank" href="https://alaclairensemble.bandcamp.com/album/les-maigres-blancs-dam-rique-du-noir">"Les maigres blancs d'Amérique du Noir"</a> du groupe de rap québécois <a target="_blank" href="https://fr.wikipedia.org/wiki/Alaclair_Ensemble">Alaclair Ensemble</a>.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<img src="images/apercu.jpg">
+
+<dots></dots>
+
+
+<grostitre>Matériel</grostitre>
+
+<doclink href="./alaclair-ensemble-les-maigres-blancs.zip">Dossier de départ</doclink>
+
+<h3>Fonts</h3>
+
+<doclink href="https://fonts.google.com/specimen/Bebas+Neue">Bebas Neue 400</doclink>
+
+<h3>Couleurs 🎨</h3>
+
+<color>#f17e00</color>
+<color>#612b91</color>
+<color>#7f7f7f</color>
+<br>
+<color>#ffffff</color>
+<color>#000000</color>
+
+<h3>Médias</h3>
+
+<mediafile src="./images/noise.svg">Bruit</mediafile>
+<mediafile src="./images/queen.webp">Reine</mediafile>
+
+<dots></dots>
+
+
+<grostitre>Requis de base</grostitre>
+
+<checklist>
+  Téléchargez les images et placez les dans un dossier <span class="inline-code">images</span>.
+  Créez une variable pour chacune des couleurs.
+  Le fond de la page doit être de couleur <em>grise</em> et avoir un dégradé vertical allant du <em>mauve</em> au <em>jaune</em>.
+  Fusionnez les deux fonds en mode <span class="inline-code">screen</span> afin de donner au gradient un effet délavé.
+  L'album doit avoir une dimension de <em>500x500px</em>, être centré dans la page tant horizontalement que verticalement et être de couleur <em>blanche</em>.
+</checklist>
+
+<grostitre>Requis d'arrière-plan</grostitre>
+
+<checklist>
+  À l'aide du pseudo-élément <span class="inline-code">::before</span>, créez un cercle <em>noir</em> couvrant l'entièreté de l'album l'album <em>(500x500px)</em> et donnez lui un flou de <em>100px</em>.
+  À ce stade-ci, le flou devrait déborder de l'album. Faites-en sorte de faire disparaître l'excédentaire.
+  Afin de créer un effet de grain, ajoutez un nouveau layer à l'aide du pseudo-élément <span class="inline-code">::after</span> couvrant la totalité de l'album.
+  Appliquez à ce dernier l'image d'arrière-plan <span class="inline-code">noise.svg</span> et donnez lui un flou de <em>0.5px</em>
+</checklist>
+
+<grostitre>Requis reine</grostitre>
+
+<checklist>
+  À l'aide d'une balise <span class="inline-code">img</span>, ajoutez l'image de la reine à l'endroit indiqué dans le HTML.
+  L'image doit être centré horizontalement dans l'album et être par dessus les layers d'arrière-plan.
+  Donnez-lui une luminosité de <em>90%</em> et un contraste de <em>130%</em>.
+</checklist>
+
+<grostitre>Requis textes</grostitre>
+
+<checklist>
+  Assurez-vous que les textes soient au premier-plan de l'album.  
+  Importez la police d'écriture <em>Bebas Neue</em> à l'aide de la balise <span class="inline-code">link</span> et appliquez-la aux textes.
+  Le nom du groupe doit avoir une grosseur de police d'écriture de <em>20px</em>, être situé à <em>5px</em> du haut et <em>8px</em> de la droite, avoir un mode de fusion <span class="inline-code">overlay</span> et être à demi transparent.
+  Le titre de l'album doit avoir une grosseur de police d'écriture de <em>38px</em>, être <em>blanc</em> sur fond <em>mauve</em>, occuper tout l'espace horizontale et être à <em>60px</em> du bas de l'album.
+  Assurez-vous que le mot <em>blancs</em> soit de couleur <em>orange</em>.
+</checklist>
+
+<dots></dots>
+
+
+<grostitre>Ambiance</grostitre>
+
+<!-- <clip src="./videos/alaclair-ensemble-pomme.mp4"></clip> -->
+<youtube src="./videos/alaclair-ensemble-pomme.json"></youtube>
+<span class="remark" style="padding-top: 5px;">Cette chanson ainsi que le vidéoclip sont librement inspirés par <a target="_blank" href="https://www.youtube.com/watch?v=mDGr-SagBZs">Soupe Opera</a></span>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+            <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../margin/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../margin/">Margin</a></span>
+                    <span class="intlink__item__abstract">marge extérieur</span>
+                </div>
+            </div>
+                    <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../linear-gradient/images/icon.png');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../linear-gradient/">Linear-gradient</a></span>
+                    <span class="intlink__item__abstract">Générer un dégradé.</span>
+                </div>
+            </div>
+        
+<dots></dots>
+
+<span class="remark" style="padding-top: 5px;">Hommage à Greg qui m'a fait découvrir Alaclair Ensemble.</span>
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script src="../../../../shared/jscripts/components.js"></script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2023 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script src="../../../../shared/jscripts/video.min.js"></script>
+    </body>
+</html>
