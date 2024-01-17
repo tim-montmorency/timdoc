@@ -83,10 +83,11 @@ public class script2 : MonoBehaviour
 
 <grostitre>Conditions</grostitre>
 <p>Dans Unity, on utilise fréquemment les conditions pour vérifier si un élément est vrai avant d'exécuter une portion de code. Une condition s'écrit de la façon suivante:</p>
-<highlight lang="csharp">    if(myInt == 2)
-        {
+<highlight lang="csharp">
+if(myInt == 2)
+{
 
-        }  
+}  
 </highlight>
         <p>Si ma condition est vrai, donc que la variable myInt est égale à 2, on exécutera le code qui est entre les {}; 
     <p> Outre les ==, il existe d'autres opérateurs pour valider si une fonction est vraie:</p>
@@ -97,16 +98,20 @@ public class script2 : MonoBehaviour
     <li> >= (plus grand ou égal)</li>
     </ul>
     <p>Il est possible de vérifier plus d'une condition grâce à &&:</p>
-    <highlight lang="csharp"> if(myInt >= 2 && myInt < 10)
-        {
+    <highlight lang="csharp">
+if(myInt >= 2 && myInt < 10)
+{
 
-        }   </highlight>
-        <p>Ici, on vérifie si myInt est plus grand ou égal à deux et plus petit que 10. Si c'est le cas, le code sera exécuté.</p>
+}
+</highlight>
+<p>Ici, on vérifie si myInt est plus grand ou égal à deux et plus petit que 10. Si c'est le cas, le code sera exécuté.</p>
 
-        <highlight lang="csharp"> if(myInt >= 2 || myInt == 0)
-        {
+<highlight lang="csharp">
+if(myInt >= 2 || myInt == 0)
+{
 
-        }    </highlight>
+}
+</highlight>
         <p>On peut utiliser || pour choisir l'une ou l'autre des conditions, ainsi si myInt est plus grand ou égal à deux ou égal à 0, le code entre {} sera exécuté.</p>
 
 
@@ -115,15 +120,19 @@ public class script2 : MonoBehaviour
 <grostitre>Boucle</grostitre>
 <p>Dans Unity, les boucles sont souvent utilisées pour compter des éléments ou interagir avec les tableaux.</p>
 
-<highlight lang="csharp">  for(int i = 0; i < 3; i++)
-        {
+<highlight lang="csharp">
+for(int i = 0; i < 3; i++)
+{
 
-        }   </highlight>
+}
+</highlight>
 <p>Ci-haut, on crée une boucle dont le code sera exécuté 3 fois avant que le code qui le suit s'exécute.</p>
-<highlight lang="csharp">  for(int i = 0; i < myInts.Length; i++)
-        {
-            myInts[i] =0; 
-        }   </highlight>
+<highlight lang="csharp">
+for(int i = 0; i < myInts.Length; i++)
+{
+        myInts[i] =0; 
+}
+</highlight>
 <p>Dans Unity, une pratique courante lorsqu'on crée une boucle est d'utiliser la longueur d'un tableau plutôt qu'un chiffre fixe. Ainsi, ci-haut ma boucle sera répétée autant de fois qu'il y a de chiffres dans le tableau myInts[]. Cela permet de ne pas avoir à changer le code à chaque fois que notre tableau change en longueur.</p>
 
 
