@@ -20,8 +20,17 @@
 
 <youtube src="KVJBHSOx9jI"></youtube>
 
+<dots></dots>
+
+
+<grostitre>Vimeo</grostitre>
+
+<highlight lang="html"><vimeo src="874986396"></vimeo></highlight>
+
+<vimeo src="874986396"></vimeo>
 
 <dots></dots>
+
 
 <grostitre>Clipinfo</grostitre>
 

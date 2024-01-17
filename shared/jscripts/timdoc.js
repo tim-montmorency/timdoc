@@ -677,8 +677,8 @@ app.component('clip', {
         let defaultId = 'o-YBDTqX_ZU';
         if(/^[\w\-_]{10,12}$/.test(this.src)) {
             if(!(details = localStorage.getItem('youtube_' + this.src))) {
-                if(!(details = syncjson('https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=' + this.src + '&format=json'))){
-                    details = syncjson('https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=' + defaultId + '&format=json')
+                if(!(details = this.getInfo(this.src))){
+                    details = this.getInfo(defaultId);
                 } else {
                     localStorage.setItem('youtube_' + this.src, JSON.stringify(details));
                 }
@@ -701,6 +701,9 @@ app.component('clip', {
         }
     },
     methods: {
+        getInfo(id) {
+            return syncjson('https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=' + id + '&format=json')
+        },
         play(){
             this.player = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + this.id + '?feature=oembed&autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
             this.playbtn = 'none';
@@ -725,8 +728,8 @@ app.component('clip', {
         let details = null;
         let defaultId = '844557780';
         if(!(details = localStorage.getItem('vimeo_' + this.src))) {
-            if(!(details = syncjson('https://vimeo.com/api/oembed.json?url=https://vimeo.com/' + this.src))){
-                details = syncjson('https://vimeo.com/api/oembed.json?url=https://vimeo.com/' + defaultId)
+            if(!(details = this.getInfo(this.src))){
+                details = this.getInfo(defaultId);
             } else {
                 localStorage.setItem('vimeo_' + this.src, JSON.stringify(details));
             }
@@ -746,6 +749,9 @@ app.component('clip', {
         }
     },
     methods: {
+        getInfo(id) {
+            return syncjson('https://vimeo.com/api/oembed.json?url=https://vimeo.com/' + id);
+        },
         play(){
             this.player = '<iframe src="https://player.vimeo.com/video/' + this.id + '?autoplay=1" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe>'
             this.playbtn = 'none';
