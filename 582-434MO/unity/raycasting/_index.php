@@ -14,7 +14,7 @@
 
 <grostitre>Rayon</grostitre>
 <p>Pour pouvoir détecter la collision, on doit premièrement crééer un rayon. Créons un rayon qui part de notre personnage et qui se dirige vers la droite.</p>
-<highlight lang="C#"> public GameObject personnage; 
+<highlight lang="csharp"> public GameObject personnage; 
 
     
 void Start()
@@ -22,7 +22,7 @@ void Start()
     Ray ray = new Ray(personnage.transform.position, personnage.transform.right);
 }</highlight>
 <p>J'ai premièrement créé un GameObject pour contenir mon personnage. Ensuite, j'ai créé une variable de Type Ray nommée rayon qui contiendra un rayon qui part de la position de mon personnage et qui va vers la droite. Le .right est un élément présent par défaut dans Unity.</p>
-<highlight lang="C#"> void Update()
+<highlight lang="csharp"> void Update()
     {
         Debug.DrawRay(personnage.transform.position, personnage.transform.right);
     }</highlight>
@@ -33,7 +33,7 @@ void Start()
 <grostitre>Raycast</grostitre>
 <p>Maintenant que nous sommes en mesures de voir notre rayon, nous allons détecter si le rayon entre en collision avec un objet. Avant toute chose, si l'objet à partir duquel vous voulez émettre un rayon a un Collider, je vous recommande de l'ouvrir dans l'inspecteur et en haut à droite dans Layer, de choisir Ignore Raycast. Sinon, votre objet se détectera lui-même, ce qui n'est pas très pratique.</p>
 
-<highlight lang="C#">  
+<highlight lang="csharp">  
 
 public GameObject personnage;
  
@@ -50,17 +50,17 @@ public void detection()
  }</highlight>
  <p>Dans le code ci-haut, lorsque la fonction detection() est appelée, on crée une variable RaycastHit2D qui nous permet de sauvegarder l'objet avec lequel on entre en collision s'il y en a un. La partie Physics2D nous permet d'utiliser la fonction RayCast qui trace un rayon avec 2 variables. La première est le point d'origine du rayon et la deuxième sa direction. Si jamais on rencontre un objet, hitInfo devient true, ce qui nous permet d'imprimer le nom de l'objet qui a été frappé.</p> 
 
- <highlight lang="C#">GameObject objet = hitInfo.transform.gameObject; </highlight>
+ <highlight lang="csharp">GameObject objet = hitInfo.transform.gameObject; </highlight>
  <p>Le code ci-haut permet de créer un GameObject qui contient l'objet qui vient d'être frappé par le rayon. Cela peut-être utile pour modifier celui-ci.</p>
 
- <highlight lang="C#">float distance = hitInfo.distance; </highlight>
+ <highlight lang="csharp">float distance = hitInfo.distance; </highlight>
  <p>Ce code permet de calculer la distance entre nous et l'objet que le rayon a rencontré.</p>
 
- <highlight lang="C#">Vector3 position = hitInfo.point; </highlight>
+ <highlight lang="csharp">Vector3 position = hitInfo.point; </highlight>
  <p>Point permet d'obtenir la position de l'objet que le rayon a rencontré.</p>
 
  <h2>Exemple d'utilisation</h2>
- <highlight lang="C#">
+ <highlight lang="csharp">
  public GameObject personnage;
 
  public void detection()

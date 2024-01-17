@@ -57,54 +57,54 @@
 <p>Dans cette section, nous verrons les variables que vous connaissez déjà grâce à vos cours de programmation.</p>
 <grostitre>Int</grostitre>
 <p>La variable int nous permet de compter des chiffres entiers. On la déclare de cette façon:</p>
-<highlight lang="C#">public int myInt;</highlight>
+<highlight lang="csharp">public int myInt;</highlight>
 <p>On peut mettre la variable public ou private selon notre préférence. Si on la mets publique, on pourra changer sa valeur directement dans l'inspecteur. On comprend que myInt est le nom que je donne à ma variable, ainsi vous pouvez mettre le nom de votre choix tant qu'il n'y a pas d'accent.</p> 
 <p>Voici commment assigner une valeur à notre variable int:</p>
-<highlight lang="C#">myInt = 10;</highlight>
+<highlight lang="csharp">myInt = 10;</highlight>
 
 
 <grostitre>Float</grostitre>
 <p>La variable float nous permet de compter des chiffres décimaux. On la déclare de cette façon:</p>
-<highlight lang="C#">public float myFloat;</highlight>
+<highlight lang="csharp">public float myFloat;</highlight>
 <p>Dans Unity, il y a une particularité pour les Float dans le code. Lorsque je change la valeur d'un float et qu'elle n'est pas entière, je dois mettre un f après celui-ci pour spécifier à Unity que c'est un float. Voici un exemple:</p>
-<highlight lang="C#">myFloat = 1.5f;</highlight>
+<highlight lang="csharp">myFloat = 1.5f;</highlight>
 <p>On comprends que pour assigner un float, on doit mettre un point entre les chiffres (et non une virgule!) et qu'il faut mettre un f à la fin.</p>
 
 <grostitre>Bool</grostitre>
 <p>La variable bool nous permet de créer un Boolean, donc une variable qui sera vraie ou fausse. On la déclare de cette façon:</p>
-<highlight lang="C#">public bool myBool;</highlight>
+<highlight lang="csharp">public bool myBool;</highlight>
 <p>Pour assigner une valeur vraie ou fausse à cette variable, voici comment faire:</p>
-<highlight lang="C#">myBool = true;</highlight>
+<highlight lang="csharp">myBool = true;</highlight>
 <p>Pour la valeur faux, on écrirait false plutôt que true.</p>
 
 <grostitre>Vector 2</grostitre>
 <p>La variable Vector 2 nous permet de créer une variable avec une position en x et une en y. On la déclare de cette façon:</p>
-<highlight lang="C#">public Vector2 myVector;</highlight>
+<highlight lang="csharp">public Vector2 myVector;</highlight>
 <p>Pour assigner une valeur à cette variable, voici comment faire:</p>
-<highlight lang="C#">myVector = new Vector2(0f, 0f);</highlight>
+<highlight lang="csharp">myVector = new Vector2(0f, 0f);</highlight>
 <p>On est pas obligés de mettre les f si les nombres de la position sont entiers, mais c'est bon d'en faire une habitude.</p>
 
 <grostitre>Vector 3</grostitre>
 <p>La variable Vector 3 nous permet de créer une variable avec une position en x, une en y et une en z. On la déclare de cette façon:</p>
-<highlight lang="C#">public Vector3 myVector;</highlight>
+<highlight lang="csharp">public Vector3 myVector;</highlight>
 <p>Pour assigner une valeur à cette variable, voici comment faire:</p>
-<highlight lang="C#">myVector = new Vector3(0f, 0f,0f);</highlight>
+<highlight lang="csharp">myVector = new Vector3(0f, 0f,0f);</highlight>
 <p>On est pas obligés de mettre les f si les nombres de la position sont entiers, mais c'est bon d'en faire une habitude.</p>
 
 <grostitre>Tableau (array)</grostitre>
 <p>Chaque variable peut être un tableau. Pour cela, on doit l'écrire de la façon suivante:</p>
-<highlight lang="C#">public int[] myInts;</highlight>
+<highlight lang="csharp">public int[] myInts;</highlight>
 <p>Ainsi, c'est tout de suite après le nom de la variable qu'on doit inscrire les [] qui indiqueront que notre objet est un array.</p>
 <p>Une fois le tableau créé, on doit lui indiquer combien d'objets il comporte et leur donner une valeur. Pour cela deux options sont possibles.<p>
-<highlight lang="C#">public int[] myInts = { 0, 2, 3 };</highlight>
+<highlight lang="csharp">public int[] myInts = { 0, 2, 3 };</highlight>
 <p>Ici, on a créé un tableau de 3 variables int. On a assigné les valeurs dès qu'on a créé la variable.</p>
-<highlight lang="C#">myInts = new int[4]; 
+<highlight lang="csharp">myInts = new int[4]; 
         for(int i = 0; i &lt; 4; i++)
         {
             myInts[i] = 0; 
         }</highlight>
 <p>Ici, on a créé un tableau avec 4 int, puis on a donné la valeur 0 à chacun de ces int grâce à une boucle. On aurait aussi pu donner une valeur différente à chacun avec la méthode suivante:</p>
-<highlight lang="C#">myInts = new int[4];
+<highlight lang="csharp">myInts = new int[4];
         myInts[0] = 2;
         myInts[1] = 4;
         myInts[2] = 5;
@@ -119,76 +119,76 @@
 
 <grostitre>GameObject</grostitre>
 <p>La variable GameObject nous permet de contrôler n'importe quel objet présent dans la fenêtre Hierarchy de notre scène.</p>
-<highlight lang="C#">public GameObject myGameObject;</highlight>
+<highlight lang="csharp">public GameObject myGameObject;</highlight>
 <p>Lorsque l'on crée une variable GameObject publique, on peut glisser un GameObject depuis la Hierarchy dans le script de l'inspecteur. Ainsi, on a pas à faire cette étape avec le code.</p>
 <img src="images/gameObject.png">
 <p>Ici, dans mon script Control Target, je pourrais glisser le Game Object de mon choix dans le champ My Game Object.</p>
 <p>Une fois qu'on est en mesure d'appeler notre GameObject, on peut modifier certains de ses paramètres ou les vérifier. Voici quelques exemples:</p>
-<highlight lang="C#">if(myGameObject.name == &quot;nom&quot;)</highlight>
+<highlight lang="csharp">if(myGameObject.name == &quot;nom&quot;)</highlight>
 <p>Ici, on utilise name pour vérifier le nom du GameObject. Si jamais c'est "nom", la condition sera vraie.</p>
-<highlight lang="C#">if(myGameObject.tag == &quot;tag&quot;)</highlight>
+<highlight lang="csharp">if(myGameObject.tag == &quot;tag&quot;)</highlight>
 <p>Ici, on utilise tag pour vérifier le tag du GameObject. Si jamais c'est "tag", la condition sera vraie. On peut changer le tag de nos GameObject à partir de l'inspecteur.</p>
-<highlight lang="C#">myGameObject.SetActive(true);</highlight>
+<highlight lang="csharp">myGameObject.SetActive(true);</highlight>
 <p>On utilise SetActive pour activer (true) ou désactiver (false) le GameObject.</p>
-<highlight lang="C#">myGameObject.GetComponent&lt;Transform&gt;().position = new Vector3(0, 0, 0);</highlight>
+<highlight lang="csharp">myGameObject.GetComponent&lt;Transform&gt;().position = new Vector3(0, 0, 0);</highlight>
 <p>Avec GetComponent, on peut chercher n'importe quelle composante du GameObject et changer ses paramètres. Par exemple, ici on cherche le transform pour modifier la position de l'objet.</p>
 
 <grostitre>Transform</grostitre>
 <p>La variable Transform nous permet de contrôler la position, la rotation et l'échelle d'un objet.</p>
-<highlight lang="C#">public Transform myTransform;</highlight>
-<highlight lang="C#">myTransform.position = new Vector3(0f, 0f, 0f);</highlight>
+<highlight lang="csharp">public Transform myTransform;</highlight>
+<highlight lang="csharp">myTransform.position = new Vector3(0f, 0f, 0f);</highlight>
 <p>Pour modifier la position d'un Transform, on doit créer un Vecteur contenant 3 chiffres, respectivement x, y et z.</p>
-<highlight lang="C#">myTransform.rotation = Quaternion.Euler(90, 0, 0);</highlight>
+<highlight lang="csharp">myTransform.rotation = Quaternion.Euler(90, 0, 0);</highlight>
 <p>Pour modifier la rotation d'un objet, on doit assigner un Quaternion. Cependant, cette notion est assez complexe, ainsi on peut utiliser .Euler pour donner une rotation en x, y et z à notre objet.</p>
-<highlight lang="C#">myTransform.localScale = new Vector3(2, 2, 2);</highlight>
+<highlight lang="csharp">myTransform.localScale = new Vector3(2, 2, 2);</highlight>
 <p>Pour modifier la taille de l'objet, on doit modifier localScale et lui assigner un Vector 3 pour la taille en x, y et z.</p>
 
 
 <grostitre>Camera</grostitre>
 <p>La variable camera nous permet de contrôler certains paramètres de la Caméra.</p>
-<highlight lang="C#">public Camera myCamera;</highlight>
-<highlight lang="C#">myCamera.fieldOfView = 50;</highlight>
+<highlight lang="csharp">public Camera myCamera;</highlight>
+<highlight lang="csharp">myCamera.fieldOfView = 50;</highlight>
 <p>Field of view permet de changer l'angle de vue de la caméra.</p>
 
 <grostitre>Animator</grostitre>
 <p>La variable Animator nous permet de contrôler la composante Animator d'un GameObject.</p>
-<highlight lang="C#">public Animator myAnimator;</highlight>
-<highlight lang="C#">myAnimator.Play(&quot;monAnim&quot;);</highlight>
+<highlight lang="csharp">public Animator myAnimator;</highlight>
+<highlight lang="csharp">myAnimator.Play(&quot;monAnim&quot;);</highlight>
 <p>Play nous permet de jouer une des animations de l'animator. On peut l'appeler par son nom lorsque l'on met les "". Une fois l'animation jouée, l'animator continuera de fonctionner normalement.</p>
-<highlight lang="C#">myAnimator.SetBool(&quot;myBool&quot;, false);</highlight>
+<highlight lang="csharp">myAnimator.SetBool(&quot;myBool&quot;, false);</highlight>
 <p>SetBool, SetInt et SetFloat nous permettent de modifier les paramètres que nous avons ajouté manuellement à nos animations. Dans tous les cas, entre parenthèse, on doit premièrement écrire le nom de notre paramètre et deuxièmement lui assigner une valeur.</p>
 
 <grostitre>AudioClip</grostitre>
 <p>La variable AudioClip permet d'assigner des clips Audio.</p>
-<highlight lang="C#">public AudioClip myClip;</highlight>
+<highlight lang="csharp">public AudioClip myClip;</highlight>
 
 <grostitre>AudioSource</grostitre>
 <p>La variable AudioSource permet de contrôler le son du jeu.</p>
-<highlight lang="C#">public AudioSource myAudioSource;</highlight>
-<highlight lang="C#">myAudioSource.Play();</highlight>
+<highlight lang="csharp">public AudioSource myAudioSource;</highlight>
+<highlight lang="csharp">myAudioSource.Play();</highlight>
 <p>Play permet de jouer le clip qui est assigné à notre audioSource une fois.</p>
-<highlight lang="C#">myAudioSource.PlayOneShot(myClip);</highlight>
+<highlight lang="csharp">myAudioSource.PlayOneShot(myClip);</highlight>
 <p>PlayOneShot nous permet d'assigner un clip à notre AudioSource pour le faire jouer une fois.</p>
 
 <grostitre>Color</grostitre>
 <p>Lorsqu'elle est publique, la variable Color nous permet de sélectionner une couleur dans une palette de couleur dans l'inspecteur.</p>
-<highlight lang="C#">public Color myColor;</highlight>
+<highlight lang="csharp">public Color myColor;</highlight>
 
 
 <grostitre>Sprite</grostitre>
 <p>La variable Sprite permet d'assigner des sprite à des images.</p>
-<highlight lang="C#">public Sprite mySprite;</highlight>
+<highlight lang="csharp">public Sprite mySprite;</highlight>
 
 <grostitre>Sprite Renderer</grostitre>
 <p>La variable Sprite Renderer permet de contrôler les images et la couleur des sprites.</p>
-<highlight lang="C#">public SpriteRenderer mySpriteRend;</highlight>
-<highlight lang="C#">mySpriteRend.sprite = mySprite;</highlight>
+<highlight lang="csharp">public SpriteRenderer mySpriteRend;</highlight>
+<highlight lang="csharp">mySpriteRend.sprite = mySprite;</highlight>
 <p>Sprite permet de modifier l'image que le sprite renderer affiche en ce moment.</p>
-<highlight lang="C#">mySpriteRend.color = myColor;</highlight>
+<highlight lang="csharp">mySpriteRend.color = myColor;</highlight>
 <p>Color permet de modifier la couleur du sprite. On peut utiliser une couleur qu'on a créé et qu'on peut modifier dans l'inspecteur puisqu'elle est publique.</p>
-<highlight lang="C#">mySpriteRend.color = Color.green;</highlight>
+<highlight lang="csharp">mySpriteRend.color = Color.green;</highlight>
 <p>On peut utiliser les couleurs par défaut de Unity au besoin. Il suffit d'inscrire Color. puis le nom de la couleur qu'on souhaite. Si elle est répertoriée, cela fonctionnera.</p>
-<highlight lang="C#">mySpriteRend.color = new Color(255, 0, 155, 255);</highlight>
+<highlight lang="csharp">mySpriteRend.color = new Color(255, 0, 155, 255);</highlight>
 <p>Finalement, on peut créer de nouvelles couleurs avec des valeurs entre 0 et 255 pour 4 paramètres, soit le rouge, le vert, le bleu et l'alpha.</p>
 
 

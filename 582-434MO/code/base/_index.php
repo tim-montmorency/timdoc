@@ -14,7 +14,7 @@
 
 <grostitre>Structure d'un script</grostitre>
 <p>Un script est aussi appelé une classe dans Unity. C'est un ensemble de fonctions qui seront exécutées.Voici la structure type d'une classe:</p> 
-<highlight lang="C#">
+<highlight lang="csharp">
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -56,7 +56,7 @@ public class script2 : MonoBehaviour
 <p>Dans Unity, la fenêtre console est importante pour trouver les problèmes dans les scripts ou pour faire le suivi de valeurs. Cette fenêtre se trouve au bas de votre écran, c'est un onglet de la fenêtre Project.</p>
 
 <img src="images/console.jpg">
-<highlight lang="C#">  Debug.Log("Hello World"); </highlight>
+<highlight lang="csharp">  Debug.Log("Hello World"); </highlight>
 <p>Pour imprimer une valeur ou un texte dans la console, il suffit d'inscrire Debug.Log et de mettre ce qu'on veut imprimer entre parenthèse. Ici, j'ai utilisé les "" pour imprimer une phrase, mais j'aurais aussi pu écrire le nom d'une variable int comme myInt pour imprimer sa valeur.</p>
 
 <dots></dots>
@@ -83,7 +83,7 @@ public class script2 : MonoBehaviour
 
 <grostitre>Conditions</grostitre>
 <p>Dans Unity, on utilise fréquemment les conditions pour vérifier si un élément est vrai avant d'exécuter une portion de code. Une condition s'écrit de la façon suivante:</p>
-<highlight lang="C#">    if(myInt == 2)
+<highlight lang="csharp">    if(myInt == 2)
         {
 
         }  
@@ -97,13 +97,13 @@ public class script2 : MonoBehaviour
     <li> >= (plus grand ou égal)</li>
     </ul>
     <p>Il est possible de vérifier plus d'une condition grâce à &&:</p>
-    <highlight lang="C#"> if(myInt >= 2 && myInt < 10)
+    <highlight lang="csharp"> if(myInt >= 2 && myInt < 10)
         {
 
         }   </highlight>
         <p>Ici, on vérifie si myInt est plus grand ou égal à deux et plus petit que 10. Si c'est le cas, le code sera exécuté.</p>
 
-        <highlight lang="C#"> if(myInt >= 2 || myInt == 0)
+        <highlight lang="csharp"> if(myInt >= 2 || myInt == 0)
         {
 
         }    </highlight>
@@ -115,12 +115,12 @@ public class script2 : MonoBehaviour
 <grostitre>Boucle</grostitre>
 <p>Dans Unity, les boucles sont souvent utilisées pour compter des éléments ou interagir avec les tableaux.</p>
 
-<highlight lang="C#">  for(int i = 0; i < 3; i++)
+<highlight lang="csharp">  for(int i = 0; i < 3; i++)
         {
 
         }   </highlight>
 <p>Ci-haut, on crée une boucle dont le code sera exécuté 3 fois avant que le code qui le suit s'exécute.</p>
-<highlight lang="C#">  for(int i = 0; i < myInts.Length; i++)
+<highlight lang="csharp">  for(int i = 0; i < myInts.Length; i++)
         {
             myInts[i] =0; 
         }   </highlight>
@@ -131,5 +131,5 @@ public class script2 : MonoBehaviour
 
 <grostitre>Aléatoire</grostitre>
 <p>Voici comment obtenir une valeur aléatoire dans Unity:</p>
-<highlight lang="C#"> int xcount = Random.Range(1, 6); </highlight>
+<highlight lang="csharp"> int xcount = Random.Range(1, 6); </highlight>
 <p>Le code précédent générera un nombre entier qui sera 1, 2, 3, 4 ou 5. Le deuxième chiffre est exclu.</p>

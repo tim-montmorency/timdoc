@@ -139,7 +139,7 @@ Ensuite, appuyez sur la cible à droite du champ Controller. Vous verrez alors u
 <grostitre>Coder l'Animator Controller</grostitre>
 <p>Maintenant, il serait utile de savoir comment modifier les paramètres qu'on a créé dans notre Animator Controller directement dans le code plutôt que de le faire manuellement.</p>
 
-<highlight lang="C#">
+<highlight lang="csharp">
 
 public class PlayerController : MonoBehaviour{
     public Animator animator; 

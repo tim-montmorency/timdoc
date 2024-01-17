@@ -757,7 +757,8 @@ app.component('clip', {
 /******************************************************
  *                Composante Highlight                *
  ******************************************************/
- app.component('highlight', {
+//https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md 
+app.component('highlight', {
     props: ['lang'],
     template: `<pre class="highlight"><code :class="'language-' + this.lang"><slot /></code></pre>`
 });

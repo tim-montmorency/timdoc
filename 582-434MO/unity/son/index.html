@@ -68,16 +68,16 @@
 <dots></dots>
 
 <grostitre>Jouer un son avec le code</grostitre>
-<highlight lang="C#">public AudioSource myAudio; 
+<highlight lang="csharp">public AudioSource myAudio; 
 
 public void playAudio()
 {
     myAudio.Play(); 
 }</highlight>
 <p>Ci-haut, on a un exemple de code simple pour jouer une AudioSource manuellement. En créant un objet public AudioSource, on peut glisser n'importe quel AudioSource de notre jeu dans ce script. Ensuite, lorsqu'on appelle la fonction playAudio, notre son sera joué.</p>
-<highlight lang="C#">myAudio.PlayDelayed(2f);</highlight>
+<highlight lang="csharp">myAudio.PlayDelayed(2f);</highlight>
 <p>Si on ne veut pas faire jouer le son immédiatement, on peut utiliser PlayDelayed. On doit alors spécifier entre parenthèse le nombre de seconde de délais avant que notre son soit déclenché.</p>
-<highlight lang="C#">public AudioSource myAudio;
+<highlight lang="csharp">public AudioSource myAudio;
     public AudioClip myClip; 
 
     public void playAudio()
@@ -85,7 +85,7 @@ public void playAudio()
         myAudio.PlayOneShot(myClip); 
     }</highlight>
 <p>L'exemple ci-haut montre de quelle façon on peut faire jouer un clip avec la composante AudioSource. Ce qui est intéressant avec PlayOneShot, c'est qu'on doit spécifier à la source quel clip jouer, ainsi, on peut faire jouer des clips différents grâce à cette source. Play one shot comme son nom l'indique, jouera le clip une seule fois.</p>
-<highlight lang="C#">myAudio.Pause();</highlight>
+<highlight lang="csharp">myAudio.Pause();</highlight>
 <p>Ce code permet de mettre l'audio sur pause.</p>
 
 

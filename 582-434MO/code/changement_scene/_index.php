@@ -17,7 +17,7 @@
 <info>Vous pouvez cliquez et glisser les scènes dans la fenêtre Build Settings pour les réorganiser. La scène qui porte le numéro 0 est celle qui sera chargée à l'ouverture de votre jeu. Assurez-vous qu'il s'agit de votre menu!</info>
 <p>    2. Pour faire une transition entre deux scènes, nous allons créer une fonction que nous pourrons appeler. Voici le code: 
 </p>
-<highlight lang="C#">
+<highlight lang="csharp">
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
