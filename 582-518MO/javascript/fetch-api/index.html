@@ -64,24 +64,27 @@
 
 <dots></dots>
 
-<p>Examinons la structure de base d'une requête au fetch API:</p><pre><code class="hljs javascript">fetch(url) <span class="hljs-comment">// L'adresse URL des données à aller chercher</span>
-  .then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> { <span class="hljs-comment">// Attendre que les données soient reçues</span>
-    <span class="hljs-comment">// Convertir les données au format désiré</span>
+<p>Examinons la structure de base d'une requête au fetch API:</p>
+
+<highlight lang="javascript">fetch(url) // L&#039;adresse URL des donn&eacute;es &agrave; aller chercher
+  .then(data =&gt; { // Attendre que les donn&eacute;es soient re&ccedil;ues
+    // Convertir les donn&eacute;es au format d&eacute;sir&eacute;
   })
-  .then(<span class="hljs-function"><span class="hljs-params">result</span> =&gt;</span> { <span class="hljs-comment">// Attendre que les données soient converties</span>
-    <span class="hljs-comment">// Faire du résultat ce que bon vous semble</span>
-  });</code></pre>
+  .then(result =&gt; { // Attendre que les donn&eacute;es soient converties
+    // Faire du r&eacute;sultat ce que bon vous semble
+  });</highlight>
+
   
 <br>
 <p>Par défaut, le fetch API utilise la méthode GET, ce qui nous permet de simplement déclarer l'url de la ressource que nous désirons obtenir.</p>
   
   
 Par exemple:
-<pre><code class="hljs javascript">fetch(<span class="hljs-string">"https://ex.smnarnold.com/json/acteurs/ryan-reynolds.json"</span>) 
-  .then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> data.json()) 
-  .then(<span class="hljs-function"><span class="hljs-params">actor</span> =&gt;</span> { 
-    <span class="hljs-built_in">console</span>.log(actor);
-  }); </code></pre>
+<highlight lang="javascript">fetch(&quot;https://ex.smnarnold.com/json/acteurs/ryan-reynolds.json&quot;) 
+  .then(data =&gt; data.json()) 
+  .then(actor =&gt; { 
+    console.log(actor);
+  });</highlight>
 
 
 
@@ -140,21 +143,13 @@ Par exemple:
 <grostitre>Catch</grostitre>
 <p>La méthode <code>.catch</code> permet d'indiquer quoi faire si le serveur ne répond pas ou s'il prend trop de temps à répondre.</p><p>Par exemple:</p>
 
-
-<pre><code class="hljs javascript">fetch(url) <span class="hljs-comment">// L'url de la ressource à aller chercher</span>
-  .then(<span class="hljs-function">() =&gt;</span> { <span class="hljs-comment">// Attendre que la ressource soit reçue, et ensuite (then)</span>
-    <span class="hljs-comment">// Traiter la ressource</span>
+<highlight lang="javascript">fetch(url) // L&#039;url de la ressource &agrave; aller chercher
+  .then(() =&gt; { // Attendre que la ressource soit re&ccedil;ue, et ensuite (then)
+    // Traiter la ressource
   })
-  .catch(<span class="hljs-function">() =&gt;</span> { <span class="hljs-comment">// Oh, oh le serveur ne répond pas</span>
-    <span class="hljs-comment">// Activer le plan B</span>
-  });</code></pre><p></p><pre><code class="hljs javascript">fetch(<span class="hljs-string">'https://ex.smnarnold.com/json/acteurs/ryan-reynolds.json'</span>) 
-  .then(<span class="hljs-function"><span class="hljs-params">actor</span> =&gt;</span> actor.json()) 
-  .then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> {
-    <span class="hljs-built_in">console</span>.log(data);
-  })
-  .catch(<span class="hljs-function"><span class="hljs-params">error</span> =&gt;</span> {
-    <span class="hljs-built_in">console</span>.log(error);
-  })</code></pre>
+  .catch(() =&gt; { // Oh, oh le serveur ne r&eacute;pond pas
+    // Activer le plan B
+  });</highlight>
 
 <br><br>
   <p>>> EXERCICE 2 FOURNI EN CLASSE.</p>

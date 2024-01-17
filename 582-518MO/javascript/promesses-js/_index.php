@@ -61,15 +61,17 @@ il est plus fréquent d’en&nbsp;recevoir (consume).</p>
 La valeur du retour dans les deux cas est passée en&nbsp;paramètre.</p>
 
 
-<pre><code class="hljs javascript"><span class="hljs-keyword">const</span> promesse = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
-  <span class="hljs-keyword">const</span> respectPromesse = <span class="hljs-literal">true</span>;
+<highlight lang="javascript">
+const promesse = new Promise((resolve, reject) => {
+  const respectPromesse = true;
 
-  <span class="hljs-keyword">if</span> (respectPromesse === <span class="hljs-literal">true</span>) {
-    resolve(<span class="hljs-string">"Promesse respectée"</span>);
-  } <span class="hljs-keyword">else</span> {
-    reject(<span class="hljs-string">"Promesse brisée"</span>);
+  if (respectPromesse === true) {
+    resolve("Promesse respectée");
+  } else {
+    reject("Promesse brisée");
   }
-});</code></pre>
+});
+</highlight>
 
 
 <p>Dans le cadre de cette démonstration, la promesse sera toujours&nbsp;respectée.</p><p>Cependant, un exemple plus concret serait le cas d'un service tentant de répondre à une demande d'informations. Si les informations sont trouvées, la fonction assignée au respect de la promesse est appelée. Si le délai imparti avant de trouver la réponse est dépassé, la fonction assignée au bris de promesse est&nbsp;appelée.</p>
@@ -85,7 +87,7 @@ La valeur du retour dans les deux cas est passée en&nbsp;paramètre.</p>
 
 Par exemple, le code&nbsp;suivant:
 
-<pre><code class="hljs javascript"><span class="hljs-built_in">console</span>.log(promesse); <span class="hljs-comment">// [objet Promise] {}</span></code></pre>
+<highlight lang="javascript">console.log(promesse); // [objet Promise] {}</highlight>
 
 <p>retournerait un message indiquant qu'il s'agit d'un objet de type&nbsp;<code>Promise</code>&nbsp;et non la valeur contenu dans la&nbsp;promesse.</p>
 
@@ -107,19 +109,22 @@ Par exemple, le code&nbsp;suivant:
 <p>Si la promesse est respectée, une méthode&nbsp;<code>.then()</code>&nbsp;est appelée et la valeur lui est passée en&nbsp;paramètre.</p>
 
 Par exemple:
-<pre><code class="hljs javascript">promesse
-  .then(<span class="hljs-function"><span class="hljs-params">valeur</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(valeur));
-<span class="hljs-comment">// "Promesse respectée"</span></code></pre>
-
+<highlight lang="javascript">
+promesse
+  .then(valeur => console.log(valeur));
+// "Promesse respectée"
+</highlight>
 
 <br><br>
 
 <p>Une méthode&nbsp;<code>.then()</code>&nbsp;retourne elle aussi une promesse. Cette promesse peut donc à son tour avoir un&nbsp;<code>.then()</code>&nbsp;et ainsi enchainer de multiple&nbsp;<code>.then()</code>&nbsp;un à la suite de&nbsp;l'autre.</p>
 
 Par exemple:
-<pre><code class="hljs javascript">promesse
-  .then(<span class="hljs-function"><span class="hljs-params">value</span> =&gt;</span> <span class="hljs-string">`<span class="hljs-subst">${value}</span>, oh oui!!!`</span>)
-  .then(<span class="hljs-function"><span class="hljs-params">msg</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(msg)); <span class="hljs-comment">// "Promesse respectée, oh oui!!!"</span></code></pre>
+<highlight lang="javascript">
+promesse
+  .then(value => `${value}, oh oui!!!`)
+  .then(msg => console.log(msg)); // "Promesse respectée, oh oui!!!"
+</highlight>
 
 <br>
 <doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/then'>then()</doclink>
@@ -131,8 +136,10 @@ Par exemple:
 <p>Si la promesse est brisée et qu'une méthode&nbsp;<code>.catch()</code>&nbsp;est présente, cette dernière est appelée et la valeur lui est passée en&nbsp;paramètre.</p>
 
 Par exemple:
-<pre><code class="hljs javascript">promesse
-  .catch(<span class="hljs-function"><span class="hljs-params">error</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(error)); <span class="hljs-comment">// "Promesse brisée"</span></code></pre>
+<highlight lang="javascript">
+promesse
+  .catch(error => console.log(error)); // "Promesse brisée"
+</highlight>
 
 <br>
   <doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch'>catch()</doclink>
@@ -147,8 +154,10 @@ Par exemple:
 
 
 Par exemple:
-<pre><code class="hljs javascript">promesse
-  .finally(<span class="hljs-function">() =&gt;</span> <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Promesse complétée"</span>));</code></pre>
+<highlight lang="javascript">
+promesse
+  .finally(() => console.log("Promesse complétée"));
+</highlight>
 
 <dots></dots>
 <doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally'>finally()</doclink>
@@ -158,12 +167,14 @@ Par exemple:
 
 Dans un exemple concret, tout mis ensemble donnerait&nbsp;ceci:
 
-<pre><code class="hljs javascript">promesse
-  .then(<span class="hljs-function"><span class="hljs-params">value</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(value))
-  .catch(<span class="hljs-function"><span class="hljs-params">error</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(error))
-  .finally(<span class="hljs-function">() =&gt;</span> <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Promesse complétée"</span>));
+<highlight lang="javascript">
+promesse
+  .then(value => console.log(value))
+  .catch(error => console.log(error))
+  .finally(() => console.log("Promesse complétée"));
 
-<span class="hljs-comment">// "Promesse respectée", "Promesse complétée"</span></code></pre>
+// "Promesse respectée", "Promesse complétée"
+</highlight>
 <br><br>
 
 

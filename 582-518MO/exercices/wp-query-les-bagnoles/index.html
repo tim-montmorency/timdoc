@@ -69,7 +69,8 @@
 <dots></dots>
 <grostitre>Installation</grostitre>
         
-<checklist>Installez en local une copie en&nbsp;<a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/download/#download-install" onclick="event.stopPropagation()">"Français du Canada de WordPress"</a>&nbsp;pour votre client.
+<checklist>
+Installez en local une copie en&nbsp;<a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/download/#download-install" onclick="event.stopPropagation()">"Français du Canada de WordPress"</a>&nbsp;pour votre client.
 Ajoutez les extensions Custom Post Type UI, WP Multilang et Advanced Custom Fields.
 Installez le&nbsp;<a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="https://ex.smnarnold.com/wordpress/cars/cars-theme.zip">thème réalisé par votre collègue</a>.
 Importez la structure du Post Personnalisé intitulé <em>"Voiture"</em> à l'aide de l'extrait de code se trouvant à la fin de ce bloc.
@@ -79,7 +80,75 @@ Importez les données des pages à l'aide du fichier XML en pièce jointe.
  
 
 
-<pre><code class="hljs json">{<span class="hljs-attr">"voitures"</span>:{<span class="hljs-attr">"name"</span>:<span class="hljs-string">"voitures"</span>,<span class="hljs-attr">"label"</span>:<span class="hljs-string">"Voitures"</span>,<span class="hljs-attr">"singular_label"</span>:<span class="hljs-string">"voiture"</span>,<span class="hljs-attr">"description"</span>:<span class="hljs-string">""</span>,<span class="hljs-attr">"public"</span>:<span class="hljs-string">"true"</span>,<span class="hljs-attr">"publicly_queryable"</span>:<span class="hljs-string">"true"</span>,<span class="hljs-attr">"show_ui"</span>:<span class="hljs-string">"true"</span>,<span class="hljs-attr">"show_in_nav_menus"</span>:<span class="hljs-string">"true"</span>,<span class="hljs-attr">"delete_with_user"</span>:<span class="hljs-string">"false"</span>,<span class="hljs-attr">"show_in_rest"</span>:<span class="hljs-string">"true"</span>,<span class="hljs-attr">"rest_base"</span>:<span class="hljs-string">""</span>,<span class="hljs-attr">"rest_controller_class"</span>:<span class="hljs-string">""</span>,<span class="hljs-attr">"has_archive"</span>:<span class="hljs-string">"false"</span>,<span class="hljs-attr">"has_archive_string"</span>:<span class="hljs-string">""</span>,<span class="hljs-attr">"exclude_from_search"</span>:<span class="hljs-string">"false"</span>,<span class="hljs-attr">"capability_type"</span>:<span class="hljs-string">"post"</span>,<span class="hljs-attr">"hierarchical"</span>:<span class="hljs-string">"false"</span>,<span class="hljs-attr">"rewrite"</span>:<span class="hljs-string">"true"</span>,<span class="hljs-attr">"rewrite_slug"</span>:<span class="hljs-string">""</span>,<span class="hljs-attr">"rewrite_withfront"</span>:<span class="hljs-string">"true"</span>,<span class="hljs-attr">"query_var"</span>:<span class="hljs-string">"true"</span>,<span class="hljs-attr">"query_var_slug"</span>:<span class="hljs-string">""</span>,<span class="hljs-attr">"menu_position"</span>:<span class="hljs-string">""</span>,<span class="hljs-attr">"show_in_menu"</span>:<span class="hljs-string">"true"</span>,<span class="hljs-attr">"show_in_menu_string"</span>:<span class="hljs-string">""</span>,<span class="hljs-attr">"menu_icon"</span>:<span class="hljs-string">"dashicons-car"</span>,<span class="hljs-attr">"supports"</span>:[<span class="hljs-string">"title"</span>,<span class="hljs-string">"editor"</span>,<span class="hljs-string">"thumbnail"</span>],<span class="hljs-attr">"taxonomies"</span>:[],<span class="hljs-attr">"labels"</span>:{<span class="hljs-attr">"menu_name"</span>:<span class="hljs-string">"Voitures"</span>,<span class="hljs-attr">"all_items"</span>:<span class="hljs-string">"Toutes les Voitures"</span>,<span class="hljs-attr">"add_new"</span>:<span class="hljs-string">"Ajouter"</span>,<span class="hljs-attr">"add_new_item"</span>:<span class="hljs-string">"Ajouter une voiture"</span>,<span class="hljs-attr">"edit_item"</span>:<span class="hljs-string">"Modifier une voiture"</span>,<span class="hljs-attr">"new_item"</span>:<span class="hljs-string">"Nouvelle voiture"</span>,<span class="hljs-attr">"view_item"</span>:<span class="hljs-string">"Voir la voiture"</span>,<span class="hljs-attr">"view_items"</span>:<span class="hljs-string">"Voir les voitures"</span>,<span class="hljs-attr">"search_items"</span>:<span class="hljs-string">"Chercher les voitures"</span>,<span class="hljs-attr">"not_found"</span>:<span class="hljs-string">"Aucune voiture trouv\u00e9e"</span>,<span class="hljs-attr">"not_found_in_trash"</span>:<span class="hljs-string">"Aucune voiture trouv\u00e9e dans la corbeille"</span>,<span class="hljs-attr">"parent"</span>:<span class="hljs-string">"Parent voiture:"</span>,<span class="hljs-attr">"featured_image"</span>:<span class="hljs-string">"Featured image for this voiture"</span>,<span class="hljs-attr">"set_featured_image"</span>:<span class="hljs-string">"Set featured image for this voiture"</span>,<span class="hljs-attr">"remove_featured_image"</span>:<span class="hljs-string">"Remove featured image for this voiture"</span>,<span class="hljs-attr">"use_featured_image"</span>:<span class="hljs-string">"Use as featured image for this voiture"</span>,<span class="hljs-attr">"archives"</span>:<span class="hljs-string">"voiture archives"</span>,<span class="hljs-attr">"insert_into_item"</span>:<span class="hljs-string">"Insert into voiture"</span>,<span class="hljs-attr">"uploaded_to_this_item"</span>:<span class="hljs-string">"Upload to this voiture"</span>,<span class="hljs-attr">"filter_items_list"</span>:<span class="hljs-string">"Filter Voitures list"</span>,<span class="hljs-attr">"items_list_navigation"</span>:<span class="hljs-string">"Voitures list navigation"</span>,<span class="hljs-attr">"items_list"</span>:<span class="hljs-string">"Voitures list"</span>,<span class="hljs-attr">"attributes"</span>:<span class="hljs-string">"Voitures attributes"</span>,<span class="hljs-attr">"name_admin_bar"</span>:<span class="hljs-string">"voiture"</span>,<span class="hljs-attr">"item_published"</span>:<span class="hljs-string">"voiture published"</span>,<span class="hljs-attr">"item_published_privately"</span>:<span class="hljs-string">"voiture published privately."</span>,<span class="hljs-attr">"item_reverted_to_draft"</span>:<span class="hljs-string">"voiture reverted to draft."</span>,<span class="hljs-attr">"item_scheduled"</span>:<span class="hljs-string">"voiture scheduled"</span>,<span class="hljs-attr">"item_updated"</span>:<span class="hljs-string">"voiture updated."</span>,<span class="hljs-attr">"parent_item_colon"</span>:<span class="hljs-string">"Parent voiture:"</span>},<span class="hljs-attr">"custom_supports"</span>:<span class="hljs-string">""</span>}}</code></pre>
+<highlight lang="json">{
+    &quot;voitures&quot;: {
+        &quot;name&quot;: &quot;voitures&quot;,
+        &quot;label&quot;: &quot;Voitures&quot;,
+        &quot;singular_label&quot;: &quot;voiture&quot;,
+        &quot;description&quot;: &quot;&quot;,
+        &quot;public&quot;: &quot;true&quot;,
+        &quot;publicly_queryable&quot;: &quot;true&quot;,
+        &quot;show_ui&quot;: &quot;true&quot;,
+        &quot;show_in_nav_menus&quot;: &quot;true&quot;,
+        &quot;delete_with_user&quot;: &quot;false&quot;,
+        &quot;show_in_rest&quot;: &quot;true&quot;,
+        &quot;rest_base&quot;: &quot;&quot;,
+        &quot;rest_controller_class&quot;: &quot;&quot;,
+        &quot;has_archive&quot;: &quot;false&quot;,
+        &quot;has_archive_string&quot;: &quot;&quot;,
+        &quot;exclude_from_search&quot;: &quot;false&quot;,
+        &quot;capability_type&quot;: &quot;post&quot;,
+        &quot;hierarchical&quot;: &quot;false&quot;,
+        &quot;rewrite&quot;: &quot;true&quot;,
+        &quot;rewrite_slug&quot;: &quot;&quot;,
+        &quot;rewrite_withfront&quot;: &quot;true&quot;,
+        &quot;query_var&quot;: &quot;true&quot;,
+        &quot;query_var_slug&quot;: &quot;&quot;,
+        &quot;menu_position&quot;: &quot;&quot;,
+        &quot;show_in_menu&quot;: &quot;true&quot;,
+        &quot;show_in_menu_string&quot;: &quot;&quot;,
+        &quot;menu_icon&quot;: &quot;dashicons-car&quot;,
+        &quot;supports&quot;: [
+            &quot;title&quot;,
+            &quot;editor&quot;,
+            &quot;thumbnail&quot;
+        ],
+        &quot;taxonomies&quot;: [],
+        &quot;labels&quot;: {
+            &quot;menu_name&quot;: &quot;Voitures&quot;,
+            &quot;all_items&quot;: &quot;Toutes les Voitures&quot;,
+            &quot;add_new&quot;: &quot;Ajouter&quot;,
+            &quot;add_new_item&quot;: &quot;Ajouter une voiture&quot;,
+            &quot;edit_item&quot;: &quot;Modifier une voiture&quot;,
+            &quot;new_item&quot;: &quot;Nouvelle voiture&quot;,
+            &quot;view_item&quot;: &quot;Voir la voiture&quot;,
+            &quot;view_items&quot;: &quot;Voir les voitures&quot;,
+            &quot;search_items&quot;: &quot;Chercher les voitures&quot;,
+            &quot;not_found&quot;: &quot;Aucune voiture trouv\u00e9e&quot;,
+            &quot;not_found_in_trash&quot;: &quot;Aucune voiture trouv\u00e9e dans la corbeille&quot;,
+            &quot;parent&quot;: &quot;Parent voiture:&quot;,
+            &quot;featured_image&quot;: &quot;Featured image for this voiture&quot;,
+            &quot;set_featured_image&quot;: &quot;Set featured image for this voiture&quot;,
+            &quot;remove_featured_image&quot;: &quot;Remove featured image for this voiture&quot;,
+            &quot;use_featured_image&quot;: &quot;Use as featured image for this voiture&quot;,
+            &quot;archives&quot;: &quot;voiture archives&quot;,
+            &quot;insert_into_item&quot;: &quot;Insert into voiture&quot;,
+            &quot;uploaded_to_this_item&quot;: &quot;Upload to this voiture&quot;,
+            &quot;filter_items_list&quot;: &quot;Filter Voitures list&quot;,
+            &quot;items_list_navigation&quot;: &quot;Voitures list navigation&quot;,
+            &quot;items_list&quot;: &quot;Voitures list&quot;,
+            &quot;attributes&quot;: &quot;Voitures attributes&quot;,
+            &quot;name_admin_bar&quot;: &quot;voiture&quot;,
+            &quot;item_published&quot;: &quot;voiture published&quot;,
+            &quot;item_published_privately&quot;: &quot;voiture published privately.&quot;,
+            &quot;item_reverted_to_draft&quot;: &quot;voiture reverted to draft.&quot;,
+            &quot;item_scheduled&quot;: &quot;voiture scheduled&quot;,
+            &quot;item_updated&quot;: &quot;voiture updated.&quot;,
+            &quot;parent_item_colon&quot;: &quot;Parent voiture:&quot;
+        },
+        &quot;custom_supports&quot;: &quot;&quot;
+    }
+}</highlight>
 
 
 

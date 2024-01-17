@@ -28,7 +28,13 @@
 <grostitre>Ignorer un fichier 📄</grostitre>
 
 
-          <p>Pour ignorer un fichier par nom, il suffit d'inscrire le nom du fichier en question dans le fichier <code>.gitignore</code>.</p><p>Par exemple, pour ignorer le fichier "<em>demo.txt"</em>:</p><pre><code class="hljs">demo.txt</code></pre><p>Pour ignorer tous les fichiers avec une extension en particulier, il suffit de spécifier le nom de l'extension en question et de la préfixer par le symbole <code>*</code> indiquant que tout nom est accepté.</p><p>Par exemple, pour ignorer tous les fichiers "<em>.txt"</em>:</p><pre><code class="hljs">*.txt</code></pre>
+<p>Pour ignorer un fichier par nom, il suffit d'inscrire le nom du fichier en question dans le fichier <code>.gitignore</code>.</p><p>Par exemple, pour ignorer le fichier "<em>demo.txt"</em>:</p>
+<highlight lang="plaintext">demo.txt</highlight>
+
+
+<p>Pour ignorer tous les fichiers avec une extension en particulier, il suffit de spécifier le nom de l'extension en question et de la préfixer par le symbole <code>*</code> indiquant que tout nom est accepté.</p><p>Par exemple, pour ignorer tous les fichiers "<em>.txt"</em>:</p>
+
+<highlight lang="plaintext">*.txt</highlight>
 
 
 
@@ -41,24 +47,20 @@
 <grostitre>Ignorer un dossier 📁</grostitre>
 
 
-          <p>Pour ignorer un dossier, il suffit de nommer le dossier en question dans le fichier <code>.gitignore</code> et de lui ajouter en suffixe le symbole <code>/</code> indiquant qu'il s'agit d'un dossier.</p><p>Par exemple pour ignorer le dossier <em>"node_modules"</em>:</p><pre><code class="hljs">node_modules/</code></pre>
+<p>Pour ignorer un dossier, il suffit de nommer le dossier en question dans le fichier <code>.gitignore</code> et de lui ajouter en suffixe le symbole <code>/</code> indiquant qu'il s'agit d'un dossier.</p><p>Par exemple pour ignorer le dossier <em>"node_modules"</em>:</p>
 
-
-
-
-
-
-
-
-
-
+<highlight lang="text">node_modules/</highlight>
 
 <dots></dots>
 <grostitre>Commentaires</grostitre>
 
 
-          <p>Tout texte préfixé par le symbole <code>#</code> est considéré comme étant commentaire à l'intérieur d'un fichier <code>.gitignore</code>. Il est de bonne coutume de spécifier avec un commentaire ce que fait une ligne dans un fichier <code>.gitignore</code>.</p><p>Par exemple:</p><pre><code class="hljs php"><span class="hljs-comment"># Ignore all NPM dependencies</span>
-node_modules/</code></pre>
+<p>Tout texte préfixé par le symbole <code>#</code> est considéré comme étant commentaire à l'intérieur d'un fichier <code>.gitignore</code>. Il est de bonne coutume de spécifier avec un commentaire ce que fait une ligne dans un fichier <code>.gitignore</code>.</p><p>Par exemple:</p>
+
+<highlight lang="text">
+# Ignore all NPM dependencies
+node_modules/
+</highlight>
 
 
 

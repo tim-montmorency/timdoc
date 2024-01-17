@@ -111,7 +111,9 @@
 </p>
 
 
-<p>Cette propriété accepte aussi de recevoir deux valeurs. Le cas échéant, la première correspond à l'espace entre les rangées et la deuxième, à celle entre les colonnes.</p><p>Par exemple:</p><pre><code class="hljs css">gap: <span class="hljs-number">10px</span> <span class="hljs-number">50px</span>;</code></pre><p>Génère un espace de 10px entre les rangées ↕️ et de 50px entre les colonnes ↔️.</p>
+<p>Cette propriété accepte aussi de recevoir deux valeurs. Le cas échéant, la première correspond à l'espace entre les rangées et la deuxième, à celle entre les colonnes.</p><p>Par exemple:</p>
+<highlight lang="css">gap: 10px 50px;</highlight>
+<p>Génère un espace de 10px entre les rangées ↕️ et de 50px entre les colonnes ↔️.</p>
 
 
 <warning>Pratiquement toutes les unités, <strong>sauf les fr</strong>, peuvent êtres utilisées pour les propriété de type&nbsp;gap.</warning>
@@ -131,7 +133,9 @@
 
 <dots></dots>
 <grostitre>Unité fr</grostitre>
-<p>Afin de simplifier la gestion des colonnes et des rangées une nouvelle unité CSS vue le jour. Cette unité, intitulée <code>fr</code> pour <em>fraction</em>, permet de distribuer l'espace disponible de façon relative entre chaque élément ayant une valeur de ce type.</p><p>Par exemple, pour avoir trois colonnes identiques, il serait possible de faire:</p><pre><code class="hljs css">grid-template-<span class="hljs-attribute">columns</span>: <span class="hljs-number">1</span>fr <span class="hljs-number">1</span>fr <span class="hljs-number">1</span>fr;</code></pre>
+<p>Afin de simplifier la gestion des colonnes et des rangées une nouvelle unité CSS vue le jour. Cette unité, intitulée <code>fr</code> pour <em>fraction</em>, permet de distribuer l'espace disponible de façon relative entre chaque élément ayant une valeur de ce type.</p><p>Par exemple, pour avoir trois colonnes identiques, il serait possible de faire:</p>
+
+<highlight lang="css">grid-template-columns: 1fr 1fr 1fr;</highlight>
 
 
 <h3 class="heading heading--h3" id="Combinaison avec gap">Combinaison avec gap</h3>
@@ -192,14 +196,18 @@
 
 <dots></dots>
 <grostitre>Unité repeat()</grostitre>
-<p>Spécifier individuellement chaque colonne ou rangée n'est pas un problème lorsqu'une grille est de dimension relativement modeste. Cependant, lorsqu'une grille grossie, il peut devenir rapidement lassant et mélangeant d'écrire la dimension de chaque colonne ou rangée, surtout si celle-ci est identique.</p><p>Par exemple:</p><pre><code class="hljs css">grid-template-<span class="hljs-attribute">columns</span>: <span class="hljs-number">1</span>fr <span class="hljs-number">1</span>fr <span class="hljs-number">1</span>fr <span class="hljs-number">1</span>fr <span class="hljs-number">1</span>fr <span class="hljs-number">1</span>fr;</code></pre><p>Pour palier à cet enjeu, la commande <code>repeat()</code> fut créée.</p><p>L'exemple précédent pourrait donc être réécris ainsi:</p><pre><code class="hljs css">grid-template-<span class="hljs-attribute">columns</span>: <span class="hljs-built_in">repeat</span>(<span class="hljs-number">6</span>, <span class="hljs-number">1</span>fr);</code></pre>
+<p>Spécifier individuellement chaque colonne ou rangée n'est pas un problème lorsqu'une grille est de dimension relativement modeste. Cependant, lorsqu'une grille grossie, il peut devenir rapidement lassant et mélangeant d'écrire la dimension de chaque colonne ou rangée, surtout si celle-ci est identique.</p><p>Par exemple:</p>
+
+<highlight lang="css">grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;</highlight>
 
 
 
 
 <h3 class="heading heading--h3" id="auto-fit &amp; auto-fill">auto-fit &amp; auto-fill</h3>
 
-<p>Afin de pouvoir réaliser une grille responsive sans avoir à écrire une multitude de <a target="_blank" rel="noopener noreferrer" href="/cours/css/media-queries">media queries</a>, il est possible d'utiliser les valeurs <code>auto-fit</code> et <code>auto-fill</code> à la place d'un nombre spécifique de colonnes dans un <code>repeat()</code>.</p><p>Par exemple avec <code>auto-fit</code>, </p><pre><code class="hljs css">grid-template-<span class="hljs-attribute">columns</span>: <span class="hljs-built_in">repeat</span>(auto-fit, <span class="hljs-number">150px</span>);</code></pre>
+<p>Afin de pouvoir réaliser une grille responsive sans avoir à écrire une multitude de <a target="_blank" rel="noopener noreferrer" href="/cours/css/media-queries">media queries</a>, il est possible d'utiliser les valeurs <code>auto-fit</code> et <code>auto-fill</code> à la place d'un nombre spécifique de colonnes dans un <code>repeat()</code>.</p><p>Par exemple avec <code>auto-fit</code>, </p>
+
+<highlight lang="css">grid-template-columns: repeat(auto-fit, 150px);</highlight>
 
 
 <p>Permet d'afficher autant d'éléments sur une rangée qu'il y a d'espace disponible.</p>
