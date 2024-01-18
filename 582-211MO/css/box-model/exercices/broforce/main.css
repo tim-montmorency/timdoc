@@ -1,0 +1,8 @@
+html {
+  height: 100%;
+  background-image: url('https://ex.smnarnold.com/box-model/broforce/bg.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
