@@ -39,7 +39,7 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Intégration Web</a> > <a href="../">CSS</a> ></div>
+                <div id="breadcrumb"><a href="../../">Web 2</a> > <a href="../">CSS</a> ></div>
                 <h1 id="title"><img src="images/icon.png">&nbsp;Animation</h1>
             </div>
             <article>
@@ -50,7 +50,7 @@
 
 <p>Les keyframes indiquent les étapes constituant une animation.</p>
 
-<p>Dans son expression la plus simple, il est possible de spécifier un état de départ <incode>from</incode> <em>(0%)</em> et un état de fin <incode>to</incode> <em>(100%)</em>.</p>
+<p>Dans son expression la plus simple, il est possible de spécifier un état de départ <span class="inline-code">from</span> <em>(0%)</em> et un état de fin <span class="inline-code">to</span> <em>(100%)</em>.</p>
 
 <highlight lang="css">@keyframes anim { 
   from { transform: translateX(0%) } 
@@ -70,7 +70,7 @@
 
 <codepen id="QWBoOQm" tab="result" height="340"></codepen>
 
-<span class="remark">À gauche, @keyframes utilisant un <incode>from</incode> et un <incode>to</incode>.<br>À droite, @keyframes utilisant des pourcentages.</span>
+<span class="remark">À gauche, @keyframes utilisant un <span class="inline-code">from</span> et un <span class="inline-code">to</span>.<br>À droite, @keyframes utilisant des pourcentages.</span>
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/@keyframes">@keyframes</doclink>
 <doclink href="https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp">@keyframes</doclink>
@@ -81,7 +81,7 @@
 
 <p>Permet d'attribuer une animation à partir de son nom de référence en indiquant quel <a href="#keyframes">@keyframes</a> appliquer à quel élément.</p>
 
-<p>Par exemple, pour que l'élément avec la classe <incode>.element</incode> ait l'animation intitulée <incode>anim</incode>, il est possible de faire:</p>
+<p>Par exemple, pour que l'élément avec la classe <span class="inline-code">.element</span> ait l'animation intitulée <span class="inline-code">anim</span>, il est possible de faire:</p>
 
 <highlight lang="css">.element {
   animation-name: anim;
@@ -95,9 +95,9 @@
 
 <grostitre>animation-duration</grostitre>
 
-<p>Définis la durée d'une animation. Ce nombre peut-être en seconde ou en milliseconde. <incode>1s</incode> = <incode>1000ms</incode>.</p>
+<p>Définis la durée d'une animation. Ce nombre peut-être en seconde ou en milliseconde. <span class="inline-code">1s</span> = <span class="inline-code">1000ms</span>.</p>
 
-<p>Par exemple, nous avons trois fois la même animation <incode>animation-name: left-to-right</incode>, mais à des durées différentes:</p>
+<p>Par exemple, nous avons trois fois la même animation <span class="inline-code">animation-name: left-to-right</span>, mais à des durées différentes:</p>
 
 <ol>
   <li>1 seconde</li>
@@ -115,17 +115,17 @@
 
 <grostitre>animation-timing-function</grostitre>
 
-<p>Dicte à l'animation son rythme. Par exemple, dans l'animation précédente on remarque que chaque carré accélère progressivement avant de ralentir ensuite. Ce rythme est appelé <incode>ease</incode> et est celui par défaut des animations.</p>
+<p>Dicte à l'animation son rythme. Par exemple, dans l'animation précédente on remarque que chaque carré accélère progressivement avant de ralentir ensuite. Ce rythme est appelé <span class="inline-code">ease</span> et est celui par défaut des animations.</p>
 
 <p>L'exemple suivant contient six fois la même animation, mais avec des rythmes différents.</p>
 
 <ol>
-  <li><incode>linear</incode> vitesse constante, n'accélère ou ne ralentis jamais ↗️</li>
-  <li><incode>ease</incode> accélère progressivement et ralentis en fin de parcours <em>(Comportement par défaut)</em></li>
-  <li><incode>ease-in-out</incode> commence lentement et ralentis en fin de parcours.</li>
-  <li><incode>ease-in</incode> commence lentement ⤴️</li>
-  <li><incode>ease-out</incode> ralentis en fin de parcours ⤵️</li>
-  <li><incode>cubic-bezier</incode> Rythme personnalisable via une courbe de Bézier.</li>
+  <li><span class="inline-code">linear</span> vitesse constante, n'accélère ou ne ralentis jamais ↗️</li>
+  <li><span class="inline-code">ease</span> accélère progressivement et ralentis en fin de parcours <em>(Comportement par défaut)</em></li>
+  <li><span class="inline-code">ease-in-out</span> commence lentement et ralentis en fin de parcours.</li>
+  <li><span class="inline-code">ease-in</span> commence lentement ⤴️</li>
+  <li><span class="inline-code">ease-out</span> ralentis en fin de parcours ⤵️</li>
+  <li><span class="inline-code">cubic-bezier</span> Rythme personnalisable via une courbe de Bézier.</li>
 </ol>
 
 <codepen id="KKBEQaM" tab="result" height="340"></codepen>
@@ -149,7 +149,7 @@
 
 <grostitre>animation-iteration-count</grostitre>
 
-<p>Indique le nombre de fois qu'une animation doit être jouée <em>(par défaut 1)</em>. Ce nombre peut-être compris entre 0 et ∞ et accepte les fractions. Il est aussi possible de spécifier <incode>infinite</incode> pour qu'elle joue à l'infini.</p>
+<p>Indique le nombre de fois qu'une animation doit être jouée <em>(par défaut 1)</em>. Ce nombre peut-être compris entre 0 et ∞ et accepte les fractions. Il est aussi possible de spécifier <span class="inline-code">infinite</span> pour qu'elle joue à l'infini.</p>
 
 <p>Par exemple:</p>
 
@@ -180,7 +180,7 @@
 
 <grostitre>animation-delay</grostitre>
 
-<p>Définis le délai d'attente avant de démarrer une animation. Par défaut, cette propriété est à <incode>0s</incode>. Si une valeur négative est attribuée, l'animation débutera déjà commencé, comme-ci l'équivalent de la valeur s'était déjà écoulée.</p>
+<p>Définis le délai d'attente avant de démarrer une animation. Par défaut, cette propriété est à <span class="inline-code">0s</span>. Si une valeur négative est attribuée, l'animation débutera déjà commencé, comme-ci l'équivalent de la valeur s'était déjà écoulée.</p>
 
 <p>Par exemple:</p>
 
@@ -207,10 +207,10 @@
 <p>Valeurs possibles:</p>
 
 <ul>
-  <li><incode>normal</incode> du début vers la fin <em>(par défaut)</em></li>
-  <li><incode>reverse</incode> de la fin vers le début</li>
-  <li><incode>alternate</incode> alterne entre normal et reverse à chaque itération de l'animation.</li>
-  <li><incode>alternate-reverse</incode> alterne entre reverse et normal à chaque itération de l'animation.</li>
+  <li><span class="inline-code">normal</span> du début vers la fin <em>(par défaut)</em></li>
+  <li><span class="inline-code">reverse</span> de la fin vers le début</li>
+  <li><span class="inline-code">alternate</span> alterne entre normal et reverse à chaque itération de l'animation.</li>
+  <li><span class="inline-code">alternate-reverse</span> alterne entre reverse et normal à chaque itération de l'animation.</li>
 </ul>
 
 <p>Par exemple:</p>
@@ -267,10 +267,10 @@
 <p>Valeurs possibles:</p>
 
 <ul>
-  <li><incode>none</incode> redevient tel qu'avant l'animation <em>(par défaut)</em></li>
-  <li><incode>forwards</incode> garde l'apparence donnée par l'animation à la fin</li>
-  <li><incode>backwards</incode> garde l'apparence donnée par l'animation au  début</li>
-  <li><incode>both</incode> combine l'apparence donnée par l'animation au  début et à la fin</li>
+  <li><span class="inline-code">none</span> redevient tel qu'avant l'animation <em>(par défaut)</em></li>
+  <li><span class="inline-code">forwards</span> garde l'apparence donnée par l'animation à la fin</li>
+  <li><span class="inline-code">backwards</span> garde l'apparence donnée par l'animation au  début</li>
+  <li><span class="inline-code">both</span> combine l'apparence donnée par l'animation au  début et à la fin</li>
 </ul>
 
 <p>Par exemple:</p>
@@ -306,8 +306,8 @@
 <p>Valeurs possibles et exemple:</p>
 
 <ol>
-  <li><incode>running</incode> l'animation joue</li>
-  <li><incode>paused</incode> l'animation est en pause</li>
+  <li><span class="inline-code">running</span> l'animation joue</li>
+  <li><span class="inline-code">paused</span> l'animation est en pause</li>
 </ol>
 
 <codepen id="JjBzLGz" tab="result" height="340"></codepen>
