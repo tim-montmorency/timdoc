@@ -38,10 +38,10 @@ body.dark {
         }
     }
 
-    .info {
+    .infobubble.info {
         background-color: #131338;
         border-left: 4px solid #3c38ba;
-        &__bubble {
+        .infobubble__bubble {
             &::before {
                 background-color: #131338;
                 border: 4px solid #3c38ba;
@@ -50,10 +50,10 @@ body.dark {
         }
     }
 
-    .warning {
+    .infobubble.warning {
         background-color: #44440a;
         border-left: 4px solid #f1f255;
-        &__bubble {
+        .infobubble__bubble {
             &::before {
                 background-color: #44440a;
                 border: 4px solid #f1f255;
@@ -62,10 +62,10 @@ body.dark {
         }
     }
 
-    .alert {
+    .infobubble.alert {
         background-color: #3a2c2c;
         border-left: 4px solid #f25555;
-        &__bubble {
+        .infobubble__bubble {
             &::before {
                 background-color: #3a2c2c;
                 border: 4px solid #f25555;
@@ -74,10 +74,10 @@ body.dark {
         }
     }
 
-    .bravo {
+    .infobubble.bravo {
         background-color: #2e3a2c;
         border-left: 4px solid #74f255;
-        &__bubble {
+        .infobubble__bubble {
             &::before {
                 background-color: #2e3a2c;
                 border: 4px solid #74f255;
@@ -86,10 +86,10 @@ body.dark {
         }
     }
 
-    .thumbsup {
+    .infobubble.thumbsup {
         background-color: #532f4b;
         border-left: 4px solid #ab55f2;
-        &__bubble {
+        .infobubble__bubble {
             &::before {
                 background-color: #532f4b;
                 border: 4px solid #ab55f2;

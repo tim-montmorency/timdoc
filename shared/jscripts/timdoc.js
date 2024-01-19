@@ -247,8 +247,8 @@ app.component('grostitre', {
  ******************************************************/
  app.component('info', {
     template: `
-        <div class="info">
-            <div class="info__bubble"></div>
+        <div class="infobubble info">
+            <div class="infobubble__bubble"></div>
             <slot/>
         </div>`
 });
@@ -260,8 +260,8 @@ app.component('grostitre', {
  ******************************************************/
  app.component('warning', {
     template: `
-        <div class="warning">
-            <div class="warning__bubble"></div>
+        <div class="infobubble warning">
+            <div class="infobubble__bubble"></div>
             <slot/>
         </div>`
 });
@@ -272,8 +272,8 @@ app.component('grostitre', {
  ******************************************************/
  app.component('alert', {
     template: `
-        <div class="alert">
-            <div class="alert__bubble"></div>
+        <div class="infobubble alert">
+            <div class="infobubble__bubble"></div>
             <slot/>
         </div>`
 });
@@ -284,8 +284,8 @@ app.component('grostitre', {
  ******************************************************/
  app.component('bravo', {
     template: `
-        <div class="bravo">
-            <div class="bravo__bubble"></div>
+        <div class="infobubble bravo">
+            <div class="infobubble__bubble"></div>
             <slot/>
         </div>`
 });
@@ -296,8 +296,8 @@ app.component('grostitre', {
  ******************************************************/
  app.component('thumbsup', {
     template: `
-        <div class="thumbsup">
-            <div class="thumbsup__bubble"></div>
+        <div class="infobubble thumbsup">
+            <div class="infobubble__bubble"></div>
             <slot/>
         </div>`
 });
