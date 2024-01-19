@@ -22,7 +22,7 @@
 <p>D'abord installez node.js.</p>
 <p>Pour vérifier son installation sur un poste ou simplement pour voir son numéro de version, il est possible de taper dans un terminal la commande:</p>
 <highlight lang='cmd'>node -v</highlight>
-<p><code>-v</code> comme dans <em>"version"</em>.</p>
+<p><incode>-v</incode> comme dans <em>"version"</em>.</p>
 
 <p>S'il n'est pas installé, il est conseillé de l'installer via un <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-version-manager-to-install-nodejs-and-npm" target="_blank" rel="noopener noreferrer">Node Version Manager</a>. </p>
 
@@ -35,7 +35,7 @@
 
 <highlight lang='cmd'>npm -v</highlight>
 
-<p><code>-v</code> comme dans <em>"version"</em>.</p>
+<p><incode>-v</incode> comme dans <em>"version"</em>.</p>
 
 <doclink href='https://docs.npmjs.com/cli/v7/commands/npm-version'>Version NPM</doclink>
 
@@ -88,11 +88,11 @@
 
 <dots></dots>
 <grostitre>Ajouter des paquets</grostitre>
-<p>Pour ajouter un paquet dans un projet, il suffit de lancer la commande <code>npm i</code>, suivie du nom du paquet désiré.</p>
+<p>Pour ajouter un paquet dans un projet, il suffit de lancer la commande <incode>npm i</incode>, suivie du nom du paquet désiré.</p>
 <p>Par exemple, afin d'installer lodash dans un projet, il suffit de taper la commande:</p>
 
 <highlight lang='html'>npm i lodash</highlight>
-<p><code>i</code> comme dans <em>"install"</em>.</p><p>Remarquez l'ajout d'un dossier intitulé <em>"nodes_modules"</em> à la racine de votre projet. Ce dossier contient les paquets que vous avez téléchargés.</p>
+<p><incode>i</incode> comme dans <em>"install"</em>.</p><p>Remarquez l'ajout d'un dossier intitulé <em>"nodes_modules"</em> à la racine de votre projet. Ce dossier contient les paquets que vous avez téléchargés.</p>
 
 <p>Vous remarquerez aussi que dans votre fichier package.json qu'un objet <em>"dependencies"</em> fut ajouté et que celui-ci contient maintenant une référence à lodash et a son numéro de version.</p>
 
@@ -103,11 +103,11 @@
 
 <dots></dots>
 <grostitre>Retirer un paquet</grostitre>
-<p>Si un paquet n'est pas utilisé ou si vous l'avez ajouté par erreur, il est possible de le retirer en lançant la commande <code>npm r</code>, suivi du nom du paquet désiré.</p>
+<p>Si un paquet n'est pas utilisé ou si vous l'avez ajouté par erreur, il est possible de le retirer en lançant la commande <incode>npm r</incode>, suivi du nom du paquet désiré.</p>
 
 <p>Par exemple, afin de désinstaller lodash dans un projet, la commande à lancer est:</p><pre><code class="hljs">npm r lodash</code></pre>
 
-<p><code>r</code> comme dans <em>"remove"</em>.</p><p>Le paquet est alors retiré du dossier <em>"node_modules"</em> et sa référence dans le fichier package.json est retirée.</p>
+<p><incode>r</incode> comme dans <em>"remove"</em>.</p><p>Le paquet est alors retiré du dossier <em>"node_modules"</em> et sa référence dans le fichier package.json est retirée.</p>
 
           <div class="tags-list">
   <div class="tags-list__wrapper">
@@ -129,7 +129,7 @@
   </a>
   </h2>
 
-          <p>Afin de voir quels paquets sont installés dans un projet, il est possible d'aller jeter un coup d'oeil 👁 dans le fichier <em>package.json</em> ou encore de lancer la commande:</p><pre><code class="hljs">npm ls</code></pre><p><code>ls</code> comme dans <em>"list"</em>.</p>
+          <p>Afin de voir quels paquets sont installés dans un projet, il est possible d'aller jeter un coup d'oeil 👁 dans le fichier <em>package.json</em> ou encore de lancer la commande:</p><pre><code class="hljs">npm ls</code></pre><p><incode>ls</incode> comme dans <em>"list"</em>.</p>
           <div class="tags-list">
   <div class="tags-list__wrapper">
     <ul class="tags-list__list">
@@ -174,13 +174,13 @@
           <p>Dans le cadre d'un travail d'équipe, il est courant de partager un fichier <em>package.json</em> sur son répertoire GitHub. Cependant, le dossier <em>"node_modules"</em> n'est normalement pas inclus sur celui-ci afin d'éviter de ralentir Git et de créer des conflits inutiles.</p>
           <aside class="note note--info">
   <div class="note__wrapper">
-        <p>Le fichier <code>.gitignore</code> à la racine du projet se charge d’éviter que des fichiers se retrouvent sur son répertoire Git. Le dossier <em>"node_modules"</em> est systématiquement listé dans ce&nbsp;fichier.</p>
+        <p>Le fichier <incode>.gitignore</incode> à la racine du projet se charge d’éviter que des fichiers se retrouvent sur son répertoire Git. Le dossier <em>"node_modules"</em> est systématiquement listé dans ce&nbsp;fichier.</p>
 
   </div>
 </aside>
           <h3 class="heading heading--h3" id="Si un coéquipier ajoute un paquet?">Si un coéquipier ajoute un paquet?</h3>
 
-          <p>Votre fichier <em>package.json</em> se mettra à jour dès que vous ferez un pull. Malheureusement, les fichiers du paquet n'apparaitront pas magiquement dans votre dossier <em>"node_modules". </em>Pour les ajouter, il faudra alors rouler la commande <code>npm i</code>.</p><p>Normalement, le membre de l'équipe ayant ajouté un ou des paquets le fait savoir à ses coéquipiers en inscrivant en majuscules dans son commit la commande à rouler <em>"NPM I"</em> et averti ses coéquipiers.</p>
+          <p>Votre fichier <em>package.json</em> se mettra à jour dès que vous ferez un pull. Malheureusement, les fichiers du paquet n'apparaitront pas magiquement dans votre dossier <em>"node_modules". </em>Pour les ajouter, il faudra alors rouler la commande <incode>npm i</incode>.</p><p>Normalement, le membre de l'équipe ayant ajouté un ou des paquets le fait savoir à ses coéquipiers en inscrivant en majuscules dans son commit la commande à rouler <em>"NPM I"</em> et averti ses coéquipiers.</p>
           <h3 class="heading heading--h3" id="Si un coéquipier retire un paquet?">Si un coéquipier retire un paquet?</h3>
 
           <p>Encore une fois, votre fichier <em>package.json</em> se mettra à jour dès que vous ferez un pull. Cependant les fichiers resteront dans votre dossier <em>"node_modules". </em>Heureusement, npm à prévue la commande prune qui permet de comparer les paquets listés dans le fichier <em>package.json</em> et ceux dans le dossier <em>"node_modules" </em>et tout paquet non présent dans le fichier <em>package.json</em> est alors retiré.</p><p>Normalement, le membre d'équipe ayant retiré un ou des paquets le fait savoir à ses coéquipiers en inscrivant en majuscules dans son commit la commande à rouler <em>"NPM PRUNE"</em> et averti ses coéquipiers.</p>
@@ -197,7 +197,7 @@
 
           <h3 class="heading heading--h3" id="Si un coéquipier met un paquet à jour?">Si un coéquipier met un paquet à jour?</h3>
 
-          <p>Votre fichier <em>package.json</em> se mettra à jour dès que vous ferez un pull. Cependant, la copie téléchargée dans votre dossier <em>"node_modules"</em> restera la même, puisque ce dossier est ignoré par Git. Il faut donc lancer la commande de mise à jour <code>npm update</code>.</p><p>Normalement, le membre d'équipe ayant mis à jour un ou des paquets le fait savoir à ses coéquipiers en inscrivant en majuscules dans son commit la commande à rouler <em>"NPM UPDATE"</em> et averti ses coéquipiers.</p>
+          <p>Votre fichier <em>package.json</em> se mettra à jour dès que vous ferez un pull. Cependant, la copie téléchargée dans votre dossier <em>"node_modules"</em> restera la même, puisque ce dossier est ignoré par Git. Il faut donc lancer la commande de mise à jour <incode>npm update</incode>.</p><p>Normalement, le membre d'équipe ayant mis à jour un ou des paquets le fait savoir à ses coéquipiers en inscrivant en majuscules dans son commit la commande à rouler <em>"NPM UPDATE"</em> et averti ses coéquipiers.</p>
           <h2 class="heading heading--h2" id="Alternatives">Alternatives<a href="#Alternatives" aria-hidden="true" class="heading__anchor" data-module="CopyToClipboard" data-text="https://smnarnold.com/cours/javascript/npm#Alternatives" data-snackbar="Lien copié.">
     <span class="heading__anchor__wrapper">
       <svg viewBox="0 0 24 24">

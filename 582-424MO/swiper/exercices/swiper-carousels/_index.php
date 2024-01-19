@@ -17,8 +17,8 @@
 <grostitre>Matériel</grostitre>
 <doclink href="https://codepen.io/tim-momo/pen/ExemzVo">Pen de départ</doclink>
 
-<p>Faites un <code>fork</code> du Pen de départ, ou du Pen précédent si vous avez complété la première étape, afin d'avoir les éléments HTML de base, mais de ne pas perdre votre avancement.</p>
-<p>Nommez chacune de ces copies en fonction du nom de l'étape actuelle. Par exemple pour l'étape 1, nommer votre Pen: <code>Swiper - Étape 1</code></p>
+<p>Faites un <incode>fork</incode> du Pen de départ, ou du Pen précédent si vous avez complété la première étape, afin d'avoir les éléments HTML de base, mais de ne pas perdre votre avancement.</p>
+<p>Nommez chacune de ces copies en fonction du nom de l'étape actuelle. Par exemple pour l'étape 1, nommer votre Pen: <incode>Swiper - Étape 1</incode></p>
 <p>Pour chaque étape, configurer Swiper de la façon demandé.</p>
 
 <grostitre>Étape 1</grostitre>
@@ -53,7 +53,7 @@ Le carrousel doit changer de&nbsp;<em>slide</em>&nbsp;automatiquement à toute l
 
 <dots></dots>
 <grostitre>Étape 4</grostitre>
-  <checklist>Initialiser votre carrousel avec une classe différente que&nbsp;<code>.swiper-container</code>.
+  <checklist>Initialiser votre carrousel avec une classe différente que&nbsp;<incode>.swiper-container</incode>.
 L'usager doit avoir la liberté d'arrêter entre deux&nbsp;<em>slides</em>&nbsp;s'il le&nbsp;désire.
 Le carrousel doit avoir un effet de transition de type&nbsp;cube.</checklist>          
 
@@ -65,7 +65,7 @@ Le carrousel doit avoir un effet de transition de type&nbsp;cube.</checklist>
 <grostitre>Étape 5</grostitre>
 
  <checklist>Le carrousel doit avoir des flèches de&nbsp;navigation.
-Ajoutez deux balises&nbsp;<code>button</code>&nbsp;avec les classes&nbsp;<code>.btn-prev</code>&nbsp;&amp;&nbsp;<code>.btn-next</code>&nbsp;et les textes&nbsp;<code>Précédent</code>&nbsp;&amp;&nbsp;<code>Suivant</code>.
+Ajoutez deux balises&nbsp;<incode>button</incode>&nbsp;avec les classes&nbsp;<incode>.btn-prev</incode>&nbsp;&amp;&nbsp;<incode>.btn-next</incode>&nbsp;et les textes&nbsp;<incode>Précédent</incode>&nbsp;&amp;&nbsp;<incode>Suivant</incode>.
 Remplacez les flèches de navigation par défaut de Swiper&nbsp;<em>(flèches bleues)</em>&nbsp;par les boutons que vous venez de créer&nbsp;<em>(cliquer sur ces boutons devrait permettre de changer de&nbsp;slide)</em>.
 Modifiez le CSS de vos nouveaux boutons pour qu'ils aient un padding de 20px et la couleur de fond rose. Le bouton précédent doit afficher sous les&nbsp;<em>slides</em>&nbsp;à gauche et le bouton suivant sous les&nbsp;<em>slides</em>&nbsp;à&nbsp;droite.</checklist>           
 
@@ -76,7 +76,7 @@ Modifiez le CSS de vos nouveaux boutons pour qu'ils aient un padding de 20px et 
 <dots></dots>
 <grostitre>Étape 6</grostitre>
 
-   <checklist>Ajoutez un élément de pagination sous forme de fraction sous le carrousel. Par exemple:&nbsp;<code>2 / 6</code>, indiquant que nous sommes à la deuxième&nbsp;<em>slide</em>&nbsp;de 6. Évidemment, ce nombre doit se mettre à jour lorsque la&nbsp;<em>slide</em>&nbsp;affichée&nbsp;change.</checklist>    
+   <checklist>Ajoutez un élément de pagination sous forme de fraction sous le carrousel. Par exemple:&nbsp;<incode>2 / 6</incode>, indiquant que nous sommes à la deuxième&nbsp;<em>slide</em>&nbsp;de 6. Évidemment, ce nombre doit se mettre à jour lorsque la&nbsp;<em>slide</em>&nbsp;affichée&nbsp;change.</checklist>    
    
    <p>Aperçu du résultat : Voir la partie de la pagination 1/6 👇</p>
 <clipasset src='videos/exercice-swiper-etape5-6.mp4'></clipasset>

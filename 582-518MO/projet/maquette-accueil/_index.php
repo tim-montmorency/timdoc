@@ -27,6 +27,6 @@ Exporter une version PDF de votre maquette et l'inclure dans votre remise avec v
 
 <dots></dots>
 <grostitre>Remise</grostitre>
-<checklist>Renommez votre dossier de travail 📁 au format&nbsp;suivant:<br><code>[nom de famille]_[prénom]_design_582-518MO</code><br>ex: <em>ouellet_marie-michelle_design_582-518MO</em>
+<checklist>Renommez votre dossier de travail 📁 au format&nbsp;suivant:<br><incode>[nom de famille]_[prénom]_design_582-518MO</incode><br>ex: <em>ouellet_marie-michelle_design_582-518MO</em>
 Compressez ensuite votre dossier de travail en <a href="https://www.ezyzip.com/" target="_blank" rel="noopener noreferrer">fichier&nbsp;zip 🗜</a>
 Remettez dans Devoir</checklist>

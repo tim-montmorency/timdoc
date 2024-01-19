@@ -11,7 +11,7 @@
 
 <grostitre>Requis</grostitre>
     
-<checklist>Créez un tableau <a onclick="event.stopPropagation()" target="_blank" rel="noopener noreferrer" href="https://trello.com/">Trello</a> et nommez le&nbsp;<code>[Nom du client] - [Nom de l'équipe]</code>.<br>ex:&nbsp;<em>Craque Bitume - Les casseroles bruyantes</em>
+<checklist>Créez un tableau <a onclick="event.stopPropagation()" target="_blank" rel="noopener noreferrer" href="https://trello.com/">Trello</a> et nommez le&nbsp;<incode>[Nom du client] - [Nom de l'équipe]</incode>.<br>ex:&nbsp;<em>Craque Bitume - Les casseroles bruyantes</em>
 Inviter les membres de votre équipe dans le tableau 📊.
 Inviter le client via son adresse courriel personnelle. Vous retrouverez cette adresse courriel dans notre équipe Teams.
 Créez les cinq colonnes classiques du tableau à partir du modèle <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="../../gestion-de-projet/kanban">Kanban</a> présenté en classe.

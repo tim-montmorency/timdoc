@@ -23,7 +23,7 @@
 
 <checklist>
     Positionnez en CSS la voiture de sorte qu'elle soit sur la route à gauche complètement de la&nbsp;page.
-    Animez la voiture à l'aide de <code>GSAP.to()</code> afin qu'elle se déplace de 500px vers la droite en l'espace de 2&nbsp;secondes ⏱.
+    Animez la voiture à l'aide de <incode>GSAP.to()</incode> afin qu'elle se déplace de 500px vers la droite en l'espace de 2&nbsp;secondes ⏱.
 </checklist>
 
 <dots></dots>

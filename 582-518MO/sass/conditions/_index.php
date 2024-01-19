@@ -13,9 +13,9 @@
 
 <dots></dots>
 <grostitre>@if</grostitre>
-<p>La règle <code>@if</code> permet de contrôler l'exécution d'un bloc de style en fonction d'une condition.</p>
+<p>La règle <incode>@if</incode> permet de contrôler l'exécution d'un bloc de style en fonction d'une condition.</p>
 
-<p>Par exemple, une mixin qui permettrait de générer un avatar carré ou circulaire en fonction de la valeur du paramètre <code>rounded</code> <em>(true ou false)</em>:</p>
+<p>Par exemple, une mixin qui permettrait de générer un avatar carré ou circulaire en fonction de la valeur du paramètre <incode>rounded</incode> <em>(true ou false)</em>:</p>
 <highlight lang='css'>@mixin avatar($size: 100px, $rounded: false) {
   width: $size;
   height: $size;
@@ -70,7 +70,7 @@
 <dots></dots>
 <grostitre>@else</grostitre>
 
-<p>La règle <code>@else</code> permet de déclencher l'exécution d'un bloc de style lorsqu'une condition <a rel="noopener noreferrer" href="#if">@if</a> n'est pas respectée.</p>
+<p>La règle <incode>@else</incode> permet de déclencher l'exécution d'un bloc de style lorsqu'une condition <a rel="noopener noreferrer" href="#if">@if</a> n'est pas respectée.</p>
 
 <p>Par exemple, une mixin de choix de thème de couleur:</p>
 
@@ -129,7 +129,7 @@
 }</highlight>
 <br><br>
 
-<p>Remarquez <code>@content</code> qui permet de récupérer tout ce qui se trouve à l'intérieur du <code>@include</code> de la mixin. </p><p>Par exemple:</p>
+<p>Remarquez <incode>@content</incode> qui permet de récupérer tout ce qui se trouve à l'intérieur du <incode>@include</incode> de la mixin. </p><p>Par exemple:</p>
 
 
 <highlight lang='css'>@include breakpoint(md) {

@@ -28,10 +28,10 @@
 <dots></dots>
 <grostitre>Requis</grostitre>
 
-<checklist>À l'intérieur de l'élément <code>.sample</code>, créez-vous une boucle permettant de cibler chacun des 20 <code>.sample</code> de la palette.
+<checklist>À l'intérieur de l'élément <incode>.sample</incode>, créez-vous une boucle permettant de cibler chacun des 20 <incode>.sample</incode> de la palette.
 À l'intérieur de cette boucle, remplacez la couleur de fond noire par Pink Paradise.
 Réfléchissez à la façon de construire votre sélecteur CSS pour cibler dans la boucle chacun des div un par un (voir les notes de cours ci-bas pour vous aider).
-Remplacez ensuite son alpha de sorte qu'il s'incrémente de 5% par itération de boucle. Autrement dit, les premiers <code>.sample</code> devraient avoir une opacité de <code>0.05</code>, <code>0.10</code>,  <code>0.15</code> … jusqu'à <code>1.00</code>.
+Remplacez ensuite son alpha de sorte qu'il s'incrémente de 5% par itération de boucle. Autrement dit, les premiers <incode>.sample</incode> devraient avoir une opacité de <incode>0.05</incode>, <incode>0.10</incode>,  <incode>0.15</incode> … jusqu'à <incode>1.00</incode>.
 </checklist>
    
 

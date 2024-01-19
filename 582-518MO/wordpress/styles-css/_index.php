@@ -7,7 +7,7 @@
  * @index 98
  */
 ?>
-<p>Le fichier&nbsp;<code>style.css</code>est particulier. WordPress s'attend à trouver un fichier avec ce nom à la racine de chaque&nbsp;thème.</p>
+<p>Le fichier&nbsp;<incode>style.css</incode>est particulier. WordPress s'attend à trouver un fichier avec ce nom à la racine de chaque&nbsp;thème.</p>
 
 <warning>Renommer, déplacer ou supprimer ce fichier rendra votre thème&nbsp;inutilisable.</warning>
 
@@ -19,7 +19,7 @@
 
 <p>Par exemple:</p>
 <img src="images/theme-metas.png" alt="Informations meta du thème">
-<small>L'image d'aperçu provient du fichier&nbsp;<code>screenshot.png</code>&nbsp;se trouvant à la racine du thème. Ce fichier doit obligatoirement s'appeler&nbsp;<code>screenshot</code>, être en format&nbsp;<code>.png</code>&nbsp;et idéalement avoir une résolution de&nbsp;1200&nbsp;x&nbsp;900px.</small>   
+<small>L'image d'aperçu provient du fichier&nbsp;<incode>screenshot.png</incode>&nbsp;se trouvant à la racine du thème. Ce fichier doit obligatoirement s'appeler&nbsp;<incode>screenshot</incode>, être en format&nbsp;<incode>.png</incode>&nbsp;et idéalement avoir une résolution de&nbsp;1200&nbsp;x&nbsp;900px.</small>   
 <br><br><br><br>
           <p>Ces informations proviennent du commentaire suivant:</p><pre><code class="hljs css"><span class="hljs-comment">/*
 Theme Name: Montmorency
@@ -39,6 +39,6 @@ Version: 1.0
 <grostitre>Injection par défaut</grostitre>
 <p>WordPress charge cette feuille de style par défaut. Il est donc possible d'ajouter des règles de style à l'intérieur de celle-ci et elles seront appliquées dès le prochain rafraichissement de&nbsp;page.</p>
 
-<p>Sans cette injection, il faudrait passer par le fichier&nbsp;<code>functions.php</code>&nbsp;et utiliser la fonction&nbsp;<code>wpenqueuestyle</code>&nbsp;pour que la feuille de style soit&nbsp;chargée.</p>
+<p>Sans cette injection, il faudrait passer par le fichier&nbsp;<incode>functions.php</incode>&nbsp;et utiliser la fonction&nbsp;<incode>wpenqueuestyle</incode>&nbsp;pour que la feuille de style soit&nbsp;chargée.</p>
     
  

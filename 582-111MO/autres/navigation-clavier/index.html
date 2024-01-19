@@ -118,7 +118,7 @@
 
 <p>0 correspond à la priorité de focus par défaut de tous les éléments interactif. Puisqu'ils sont tous à 0, le navigateur les considères égaux et donc leur attribut le focus l'un après l'autre selon leur ordre d'apparition dans le code.</p>
 
-<p>Attribuer <span class="inline-code">tabindex="0"</span> à un élément lui permet de recevoir le focus, mais le place au même niveau d'importance que les autres éléments interactif. Bref, l'élément recevra le focus en fonction de son ordre d'apparition dans le code, comme tout autre élément et son ordre de sélection sera intuitif/prévisible pour l'utilisateur.</p>
+<p>Attribuer <span class="inline-code">tabindex=&quot;0&quot;</span> à un élément lui permet de recevoir le focus, mais le place au même niveau d'importance que les autres éléments interactif. Bref, l'élément recevra le focus en fonction de son ordre d'apparition dans le code, comme tout autre élément et son ordre de sélection sera intuitif/prévisible pour l'utilisateur.</p>
 
 <p>Le concept initial de <span class="inline-code">tabindex</span> était de modifier la priorité de focus des éléments afin de contrôler leur ordre de sélection. Ainsi, un élément pouvait apparaitre au milieu du code et quand même recevoir le focus en premier s'il était doté d'un attribut <span class="inline-code">tabindex</span> avec une valeur supérieure à 0. Cependant, cette approche est maintenant fortement déconseillée, puisqu'elle engendre beaucoup de confusion. Le navigateur saute directement à l'élément avec le tabindex le plus élevé, ignorant souvent plusieurs éléments interactifs au passage, et ensuite reprend son ordre de sélection normal. Ainsi, plusieurs éléments peuvent sembler inaccessibles à l'utilisateur.</p>
 

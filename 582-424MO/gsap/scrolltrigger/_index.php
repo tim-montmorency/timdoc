@@ -85,7 +85,7 @@ Credits: Michelle Barker
     "core" de GSAP, ensuite le ou les plugiciel(s) GSAP, finalement le fichier JavaScript personnalisé de votre projet.
 </alert>
 <warning>Ne pas oublier, au niveau performance, il est préférable de lier les fichiers JavaScript à la fin de la page
-    HTML juste avant la fermeture de <code>&lt;/body&gt;</code>. <br>Pensez "Optimisation Web" ! 📈 🎯 ⚡</warning>
+    HTML juste avant la fermeture de <incode>&lt;/body&gt;</incode>. <br>Pensez "Optimisation Web" ! 📈 🎯 ⚡</warning>
 
 
 <dots></dots>
@@ -110,7 +110,7 @@ Credits: Michelle Barker
 
 
 <p>Il est possible d'utiliser ScrollTrigger de façon très minimaliste. Pour ce faire, il suffit d'ajouter la
-    propriété&nbsp;<code>scrollTrigger</code>&nbsp;à une animation et de lui attribuer comme valeur le sélecteur devant
+    propriété&nbsp;<incode>scrollTrigger</incode>&nbsp;à une animation et de lui attribuer comme valeur le sélecteur devant
     déclencher l'animation&nbsp;<em>(communément appelé le&nbsp;"trigger")</em>.</p>
 <p>Par exemple, si un carré bleu 🟦 possède une animation, mais que le carré n'est visible qu'après avoir fait défiler
     la page, il est possible que son animation se termine avant même que l'utilisateur puisse la&nbsp;voir.</p>
@@ -150,7 +150,7 @@ Credits: Michelle Barker
 
 
 <p>On remarque que la propriété permettant de déclencher l'animation est maintenant spécifiée et
-    s'appelle&nbsp;<code>trigger</code>.</p>
+    s'appelle&nbsp;<incode>trigger</incode>.</p>
 
 
 
@@ -159,10 +159,10 @@ Credits: Michelle Barker
 
 <grostitre>Markers</grostitre>
 
-<p>La propriété&nbsp;<code>markers</code>&nbsp;permet de simplifier le débogage d'une animation en affichant les
+<p>La propriété&nbsp;<incode>markers</incode>&nbsp;permet de simplifier le débogage d'une animation en affichant les
     marqueurs utilisés pour contrôler l'animation. Par défaut, la valeur de cette propriété est
-    à&nbsp;<code>false</code>.</p>
-<p>Pour l'activer, il faut lui donner la valeur&nbsp;<code>true</code>, comme dans l'exemple&nbsp;suivant:</p>
+    à&nbsp;<incode>false</incode>.</p>
+<p>Pour l'activer, il faut lui donner la valeur&nbsp;<incode>true</incode>, comme dans l'exemple&nbsp;suivant:</p>
 
 
 <p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="XWxJNQj"
@@ -175,11 +175,11 @@ Credits: Michelle Barker
 
 
 
-<p><code>scroller-start</code>&nbsp;et&nbsp;<code>scroller-end</code>&nbsp;sont des marqueurs positionnés en lien avec
-    la fenêtre, tandis que&nbsp;<code>start</code>&nbsp;et&nbsp;<code>end</code>&nbsp;sont des marqueurs positionnés en
-    lien avec le&nbsp;<code>trigger</code>&nbsp;spécifié.</p>
+<p><incode>scroller-start</incode>&nbsp;et&nbsp;<incode>scroller-end</incode>&nbsp;sont des marqueurs positionnés en lien avec
+    la fenêtre, tandis que&nbsp;<incode>start</incode>&nbsp;et&nbsp;<incode>end</incode>&nbsp;sont des marqueurs positionnés en
+    lien avec le&nbsp;<incode>trigger</incode>&nbsp;spécifié.</p>
 <p>On remarque que l'animation du carré bleu 🟦 débute uniquement lorsque le
-    marqueur&nbsp;<code>start</code>&nbsp;croise le marqueur&nbsp;<code>scroll-start</code>.</p>
+    marqueur&nbsp;<incode>start</incode>&nbsp;croise le marqueur&nbsp;<incode>scroll-start</incode>.</p>
 
 
 
@@ -187,24 +187,24 @@ Credits: Michelle Barker
 <grostitre>Start et End</grostitre>
 
 
-<p>Les propriétés&nbsp;<code>start</code>&nbsp;et&nbsp;<code>end</code>&nbsp;de l'objet ScrollTrigger sont constituées
-    de deux valeurs. Une première correspondant au marqueur associé au&nbsp;<code>trigger</code>&nbsp;et une deuxième au
+<p>Les propriétés&nbsp;<incode>start</incode>&nbsp;et&nbsp;<incode>end</incode>&nbsp;de l'objet ScrollTrigger sont constituées
+    de deux valeurs. Une première correspondant au marqueur associé au&nbsp;<incode>trigger</incode>&nbsp;et une deuxième au
     marqueur associé à la fenêtre.</p>
 <p>Il est possible de modifier ces valeurs en passant une chaine de caractères constituée soit de:</p>
 
 
 <ul>
     <li>
-        <p>Positions sous forme de texte:&nbsp;<code>top</code>,&nbsp;<code>center</code>,&nbsp;<code>bottom</code></p>
+        <p>Positions sous forme de texte:&nbsp;<incode>top</incode>,&nbsp;<incode>center</incode>,&nbsp;<incode>bottom</incode></p>
     </li>
     <li>
-        <p>Pourcentage, ex:&nbsp;<code>50%</code></p>
+        <p>Pourcentage, ex:&nbsp;<incode>50%</incode></p>
     </li>
     <li>
-        <p>Unité absolue, ex:&nbsp;<code>200px</code></p>
+        <p>Unité absolue, ex:&nbsp;<incode>200px</incode></p>
     </li>
     <li>
-        <p>Unité relative, ex:&nbsp;&nbsp;<code>+=200</code></p>
+        <p>Unité relative, ex:&nbsp;&nbsp;<incode>+=200</incode></p>
     </li>
 </ul>
 
@@ -213,25 +213,25 @@ Credits: Michelle Barker
 
 <h3 id="Start">Start</h3>
 
-<p>Par défaut la propriété&nbsp;<code>start</code>&nbsp;a la valeur&nbsp;<code>"top bottom"</code>, indiquant que:</p>
+<p>Par défaut la propriété&nbsp;<incode>start</incode>&nbsp;a la valeur&nbsp;<incode>"top bottom"</incode>, indiquant que:</p>
 <ol>
-    <li>top: le marqueur&nbsp;<code>start</code>&nbsp;est positionné au sommet (top) de l'<strong>élément
-            déclencheur (<code>trigger</code>)</strong></li>
-    <li>bottom: le marqueur&nbsp;<code>scroller-start</code>&nbsp;est positionné au bas (bottom) de la&nbsp;<strong>fenêtre du
+    <li>top: le marqueur&nbsp;<incode>start</incode>&nbsp;est positionné au sommet (top) de l'<strong>élément
+            déclencheur (<incode>trigger</incode>)</strong></li>
+    <li>bottom: le marqueur&nbsp;<incode>scroller-start</incode>&nbsp;est positionné au bas (bottom) de la&nbsp;<strong>fenêtre du
             navigateur</strong></li>
 </ol>
-<p>Donc la première valeur de ce duo (exemple <code>"top bottom"</code>) correspont à la postion du marqueur de l'élément déclencheur
-(<code>trigger</code>) et la deuxième valeur correspont à la position du marqueur de la fenêtre du navigateur.</p>
+<p>Donc la première valeur de ce duo (exemple <incode>"top bottom"</incode>) correspont à la postion du marqueur de l'élément déclencheur
+(<incode>trigger</incode>) et la deuxième valeur correspont à la position du marqueur de la fenêtre du navigateur.</p>
 
     <dots></dots>
 <p>Autre exemple: à la place de déclencher l'animation quand elle entre dans la fenêtre, on pourrait la déclencher
     lorsque le milieu de
-    l'élément déclencheur (<code>trigger</code>) atteint 75% de la page, en changeant la valeur de <code>start</code> pour <code>"center 75%"</code>. </p>
+    l'élément déclencheur (<incode>trigger</incode>) atteint 75% de la page, en changeant la valeur de <incode>start</incode> pour <incode>"center 75%"</incode>. </p>
 
 <ol>
-    <li>center: le marqueur&nbsp;<code>start</code>&nbsp;est positionné au centre (center) de l'<strong>élément
-            déclencheur (<code>trigger</code>)</strong></li>
-    <li>75%: le marqueur&nbsp;<code>scroller-start</code>&nbsp;est positionné à 75% de la hauteur de la&nbsp;<strong>fenêtre du
+    <li>center: le marqueur&nbsp;<incode>start</incode>&nbsp;est positionné au centre (center) de l'<strong>élément
+            déclencheur (<incode>trigger</incode>)</strong></li>
+    <li>75%: le marqueur&nbsp;<incode>scroller-start</incode>&nbsp;est positionné à 75% de la hauteur de la&nbsp;<strong>fenêtre du
             navigateur</strong></li>
 </ol>
 
@@ -254,11 +254,11 @@ Credits: Michelle Barker
 <dots></dots>
 <h3 id="End">End</h3>
 
-<p>Par défaut la propriété&nbsp;<code>end</code>&nbsp;a la valeur&nbsp;<code>"bottom top"</code>.</p>
+<p>Par défaut la propriété&nbsp;<incode>end</incode>&nbsp;a la valeur&nbsp;<incode>"bottom top"</incode>.</p>
 
-<p>La propriété&nbsp;<code>end</code>&nbsp;se comporte exactement comme la propriété&nbsp;<a rel="noopener noreferrer"
+<p>La propriété&nbsp;<incode>end</incode>&nbsp;se comporte exactement comme la propriété&nbsp;<a rel="noopener noreferrer"
         href="#start">start</a>&nbsp;à la différence bien sur qu'elle contrôle les
-    marqueurs&nbsp;<code>end</code>&nbsp;et&nbsp;<code>scroller-end</code>.</p>
+    marqueurs&nbsp;<incode>end</incode>&nbsp;et&nbsp;<incode>scroller-end</incode>.</p>
 
 
 
@@ -271,7 +271,7 @@ Credits: Michelle Barker
 <grostitre>ToggleActions</grostitre>
 
 
-<p>La propriété&nbsp;<code>toggleActions</code>&nbsp;permet de spécifier des actions qui seront déclenchées lors de
+<p>La propriété&nbsp;<incode>toggleActions</incode>&nbsp;permet de spécifier des actions qui seront déclenchées lors de
     moments&nbsp;précis.</p>
 
 
@@ -279,20 +279,20 @@ Credits: Michelle Barker
 
 <ol start="1">
     <li>
-        <p><code>onEnter</code>: lorsque la page défile vers le haut ⬆️ et que le
-            marqueur&nbsp;<code>start</code>&nbsp;croise le marqueur&nbsp;<code>scroller-start</code></p>
+        <p><incode>onEnter</incode>: lorsque la page défile vers le haut ⬆️ et que le
+            marqueur&nbsp;<incode>start</incode>&nbsp;croise le marqueur&nbsp;<incode>scroller-start</incode></p>
     </li>
     <li>
-        <p><code>onLeave</code>: lorsque la page défile vers le haut ⬆️ et que le
-            marqueur&nbsp;<code>end</code>&nbsp;croise le marqueur&nbsp;<code>scroller-end</code></p>
+        <p><incode>onLeave</incode>: lorsque la page défile vers le haut ⬆️ et que le
+            marqueur&nbsp;<incode>end</incode>&nbsp;croise le marqueur&nbsp;<incode>scroller-end</incode></p>
     </li>
     <li>
-        <p><code>onEnterBack</code>: lorsque la page défile vers le bas ⬇️ et que le
-            marqueur&nbsp;<code>end</code>&nbsp;croise à nouveau le marqueur&nbsp;<code>scroller-end</code></p>
+        <p><incode>onEnterBack</incode>: lorsque la page défile vers le bas ⬇️ et que le
+            marqueur&nbsp;<incode>end</incode>&nbsp;croise à nouveau le marqueur&nbsp;<incode>scroller-end</incode></p>
     </li>
     <li>
-        <p><code>onLeaveBack</code>: lorsque la page défile vers le bas ⬇️ et que le
-            marqueur&nbsp;<code>start</code>&nbsp;croise à nouveau le marqueur&nbsp;<code>scroller-start</code></p>
+        <p><incode>onLeaveBack</incode>: lorsque la page défile vers le bas ⬇️ et que le
+            marqueur&nbsp;<incode>start</incode>&nbsp;croise à nouveau le marqueur&nbsp;<incode>scroller-start</incode></p>
     </li>
 </ol>
 
@@ -305,28 +305,28 @@ Credits: Michelle Barker
 <h3 id="Actions">Actions</h3>
 <ul>
     <li>
-        <code>play</code>: déclenche l'animation
+        <incode>play</incode>: déclenche l'animation
     </li>
     <li>
-        <code>pause</code>: met l'animation sur&nbsp;pause
+        <incode>pause</incode>: met l'animation sur&nbsp;pause
     </li>
     <li>
-        <code>resume</code>: continue l'animation en fonction de sa progression&nbsp;actuelle
+        <incode>resume</incode>: continue l'animation en fonction de sa progression&nbsp;actuelle
     </li>
     <li>
-        <code>reset</code>: ramène l'animation à son état de&nbsp;départ
+        <incode>reset</incode>: ramène l'animation à son état de&nbsp;départ
     </li>
     <li>
-        <code>restart</code>: ramène l'animation à son état de départ et la&nbsp;déclenche
+        <incode>restart</incode>: ramène l'animation à son état de départ et la&nbsp;déclenche
     </li>
     <li>
-        <code>complete</code>: amène l'animation à son état de fin
+        <incode>complete</incode>: amène l'animation à son état de fin
     </li>
     <li>
-        <code>reverse</code>: joue l'animation en sens inverse en à partir de sa progression&nbsp;actuelle
+        <incode>reverse</incode>: joue l'animation en sens inverse en à partir de sa progression&nbsp;actuelle
     </li>
     <li>
-        <code>none</code>: rien ne se&nbsp;produit
+        <incode>none</incode>: rien ne se&nbsp;produit
     </li>
 </ul>
 
@@ -334,21 +334,21 @@ Credits: Michelle Barker
 
 <dots></dots>
 <h3>ToggleActions par défaut</h3>
-<p>Par défaut, toggleAction à une valeur de&nbsp;<code>"play none none none"</code>.</p>
+<p>Par défaut, toggleAction à une valeur de&nbsp;<incode>"play none none none"</incode>.</p>
 
 <p>Autrement dit:</p>
 <ol start="1">
     <li>
-        <code>onEnter</code> l'animation est déclenchée.
+        <incode>onEnter</incode> l'animation est déclenchée.
     </li>
     <li>
-        <code>onLeave</code> rien ne se&nbsp;produit
+        <incode>onLeave</incode> rien ne se&nbsp;produit
     </li>
     <li>
-        <code>onEnterBack</code>&nbsp;rien ne se&nbsp;produit
+        <incode>onEnterBack</incode>&nbsp;rien ne se&nbsp;produit
     </li>
     <li>
-        <code>onLeaveBack</code>&nbsp;rien ne se&nbsp;produit
+        <incode>onLeaveBack</incode>&nbsp;rien ne se&nbsp;produit
     </li>
 </ol>
 
@@ -360,26 +360,26 @@ Credits: Michelle Barker
 <ul>
     <li>
         se déclenche à chaque fois que le
-        marqueur&nbsp;<code>start</code>&nbsp;croise&nbsp;<code>scroller-start</code>,
+        marqueur&nbsp;<incode>start</incode>&nbsp;croise&nbsp;<incode>scroller-start</incode>,
     </li>
     <li>
-        se complète lorsque le marqueur&nbsp;<code>end</code>&nbsp;croise&nbsp;<code>scroller-end</code>,
+        se complète lorsque le marqueur&nbsp;<incode>end</incode>&nbsp;croise&nbsp;<incode>scroller-end</incode>,
     </li>
     <li>
         joue à l'envers lorsque le
-        marqueur&nbsp;<code>end</code>&nbsp;croise&nbsp;<code>scroller-end</code>&nbsp;dans la
+        marqueur&nbsp;<incode>end</incode>&nbsp;croise&nbsp;<incode>scroller-end</incode>&nbsp;dans la
         direction&nbsp;opposée,
     </li>
     <li>
         retourne à son état initial lorsque le
-        marqueur&nbsp;<code>start</code>&nbsp;croise&nbsp;<code>scroller-start</code>&nbsp;dans la
+        marqueur&nbsp;<incode>start</incode>&nbsp;croise&nbsp;<incode>scroller-start</incode>&nbsp;dans la
         direction&nbsp;opposée,
     </li>
 </ul>
 
 
 
-<p>il faudra changer la valeur de <code>toggleActions</code> pour<br><code>"restart complete reverse reset"</code></p>
+<p>il faudra changer la valeur de <incode>toggleActions</incode> pour<br><incode>"restart complete reverse reset"</incode></p>
 <p>En voici l'exemple: </p>
 
 

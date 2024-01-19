@@ -95,5 +95,7 @@ register_tag('highlight', function($html, $attrs, $data) {
  *                 Composante Incode                  *
  ******************************************************/
 register_tag('incode', function($html, $attrs, $data) {
+    $data = html_entity_decode(trim($data), ENT_QUOTES, 'UTF-8');
+    $data = htmlentities($data, ENT_QUOTES, 'UTF-8');
     return '<span class="inline-code">' . $data . '</span>';
 });

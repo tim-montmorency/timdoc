@@ -48,8 +48,8 @@
 
 <grostitre>Intro</grostitre>
 
-<p>Les variables SCSS sont simples. Il suffit d'attribuer un nom et de le préfixer avec le symbole <code>$</code> afin
-    de créer une variable. Le délimiteur <code>:</code> permets ensuite de séparer le nom de la variable de sa valeur.
+<p>Les variables SCSS sont simples. Il suffit d'attribuer un nom et de le préfixer avec le symbole <span class="inline-code">$</span> afin
+    de créer une variable. Le délimiteur <span class="inline-code">:</span> permets ensuite de séparer le nom de la variable de sa valeur.
 </p>
 <p>Par exemple, pour définir une variable costume contenant la couleur rouge 🔴:</p>
 <pre><code class="hljs php"><span class="hljs-variable">$costume</span>: red;</code></pre>
@@ -85,7 +85,7 @@
 <h3 class="heading heading--h3" id="Écraser une variable">Écraser une variable</h3>
 
 <p>En donnant un contexte (scope) plus spécifique, il est possible d'écraser la valeur d'une&nbsp;variable.</p>
-<p>Par&nbsp;exemple, on pourrait supposer que de base, tous les personnages ont un costume rouge et qu'après on peut gérer les exceptions en écransant la valeur de la variable <code>$costume</code> localement pour un personnage spécifique: Green Goblin. </p>
+<p>Par&nbsp;exemple, on pourrait supposer que de base, tous les personnages ont un costume rouge et qu'après on peut gérer les exceptions en écransant la valeur de la variable <span class="inline-code">$costume</span> localement pour un personnage spécifique: Green Goblin. </p>
 <highlight lang="scss">$costume: red; // 🔴
 
 .spider-man {
@@ -97,11 +97,11 @@
   background-color: $costume; // 🟢
 }</highlight>
 
-<p>Dans cet exemple, la variable&nbsp;<code>$costume</code>&nbsp;à la valeur&nbsp;<code>red</code>&nbsp;dans le contexte global. Ainsi, si un personnage n'écrase pas cette variable, son costume sera automatiquement rouge 🔴. Tandis que
-    le sélecteur&nbsp;<code>.green-goblin</code>&nbsp;redéfinit la valeur de cette variable dans son propre contexte
-    à&nbsp;<code>green</code> 🟢.</p>
+<p>Dans cet exemple, la variable&nbsp;<span class="inline-code">$costume</span>&nbsp;à la valeur&nbsp;<span class="inline-code">red</span>&nbsp;dans le contexte global. Ainsi, si un personnage n'écrase pas cette variable, son costume sera automatiquement rouge 🔴. Tandis que
+    le sélecteur&nbsp;<span class="inline-code">.green-goblin</span>&nbsp;redéfinit la valeur de cette variable dans son propre contexte
+    à&nbsp;<span class="inline-code">green</span> 🟢.</p>
 
-<warning>Même si un personnage est défini après <code>.green-goblin</code>, s’il utilise la variable <code>$costume</code>, celle-ci retournera <code>red</code>, car la valeur <code>green</code> n’est retournée qu’à l’intérieur du contexte du sélecteur&nbsp;<code>.green-goblin</code>.</warning>
+<warning>Même si un personnage est défini après <span class="inline-code">.green-goblin</span>, s’il utilise la variable <span class="inline-code">$costume</span>, celle-ci retournera <span class="inline-code">red</span>, car la valeur <span class="inline-code">green</span> n’est retournée qu’à l’intérieur du contexte du sélecteur&nbsp;<span class="inline-code">.green-goblin</span>.</warning>
 
 
 
@@ -114,7 +114,7 @@
 <p>Les variables SCSS sont des variables dites compilées. C'est à dire à dire qu'une fois converties en CSS, il n'y a
     plus aucune trace de la variable en soi puisqu'elle est remplacée par sa valeur. Tandis que les variables CSS
     existent en tout temps ce qui permet de modifier une valeur directement dans le navigateur au besoin.</p>
-<p>Par exemple, si vous inspectez la balise&nbsp;<code>&lt;html&gt;</code>&nbsp;de cette page (clic-droit / Inspecter / Sélectionnez <code>&lt;html lang="fr-ca"&gt;</code>). Vous remarquerez que
+<p>Par exemple, si vous inspectez la balise&nbsp;<span class="inline-code">&lt;html&gt;</span>&nbsp;de cette page (clic-droit / Inspecter / Sélectionnez <span class="inline-code">&lt;html lang=&quot;fr-ca&quot;&gt;</span>). Vous remarquerez que
     plusieurs variables CSS sont définies. Vous pouvez remplacer leurs valeurs et voir les changements
     s'appliquer&nbsp;immédiatement dans la page. Tandis qu'aucune trace de variable SCSS n'est visible. </p>
 <h3 class="heading heading--h3" id="Pourquoi avoir inventé les variables SCSS?">Pourquoi avoir inventé les variables

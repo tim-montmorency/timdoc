@@ -37,7 +37,7 @@ Commenter tout votre code (HTML, CSS, et JS). <em>[2,5pts]</em>
 Toutes les pages du site doivent-être responsive: <em>375px</em>, <em>768px et 1200px</em>. <em>[5pts]</em>
 Les pages du site doivent s'afficher correctement sur les navigateurs: Chrome, Firefox et Edge. <em>[4pts]</em>
 Site bilingue sur toutes les pages. Si un contenu n'est pas disponible en anglais sur le site, traduisez-le via <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="https://translate.google.com/?sl=fr&amp;tl=en&amp;op=translate">Google traduction</a> ou <a href="https://www.deepl.com/translator" target="_blank" onclick="event.stopPropagation()">DeepL Translator</a>. <em>[4pts]</em>
-Permettre de populer les <code>og:title</code>, <code>og:description</code> et <code>og:image</code> de chaque page. <em>[2pts]</em>
+Permettre de populer les <incode>og:title</incode>, <incode>og:description</incode> et <incode>og:image</incode> de chaque page. <em>[2pts]</em>
 Création d’un fichier <em>variables.scss</em> contenant minimalement 5 variables. Chaque variable doit être utilisée au moins 2 fois.<em>[1pts]</em>
 Chaque composante doit avoir son propre fichier SCSS. <br>Minimum de 10 composantes. <em>[2pts]</em>
 Création d'un héros générique contenant une image et un titre. <em>[0,5pts]</em>

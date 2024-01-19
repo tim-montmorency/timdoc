@@ -46,7 +46,7 @@
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
-<p>La règle <code>@extend</code> permet de définir une classe ayant les mêmes règles de style qu'une autre classe spécifiquement.</p>
+<p>La règle <span class="inline-code">@extend</span> permet de définir une classe ayant les mêmes règles de style qu'une autre classe spécifiquement.</p>
 
 <p>Par exemple, une classe de message pourrait ressembler à ceci:</p>
 
@@ -61,7 +61,7 @@
 
 <info>Ça donnerait un peu comme l'exemple ci-compte pour un bloc avec la classe .msg</info>
 <br>
-<p>Si d'autres types de messages doivent ensuite être créés et qu'ils doivent partager les mêmes styles de bases que <code>.msg</code>, il serait possible d'étendre (extend) cette classe plutôt que de réécrire à chaque fois le même code.</p>
+<p>Si d'autres types de messages doivent ensuite être créés et qu'ils doivent partager les mêmes styles de bases que <span class="inline-code">.msg</span>, il serait possible d'étendre (extend) cette classe plutôt que de réécrire à chaque fois le même code.</p>
 
 <p>Par exemple:</p>
 <highlight lang="css">.msg-alert {
@@ -105,7 +105,7 @@
 
 
 
-<p>Les trois messages partageraient donc le même <code>border-width</code>, le même <code>border-style</code> et le même <code>padding</code> tandis que la couleur de fond et la couleur de bordure serait écrasées pour chaque variation.</p>
+<p>Les trois messages partageraient donc le même <span class="inline-code">border-width</span>, le même <span class="inline-code">border-style</span> et le même <span class="inline-code">padding</span> tandis que la couleur de fond et la couleur de bordure serait écrasées pour chaque variation.</p>
 
 <doclink href='https://sass-lang.com/documentation/at-rules/extend'>@extend</doclink>
 
@@ -116,7 +116,7 @@
 <dots></dots>
 
 <grostitre>Placeholder</grostitre>
-<p>Parfois il est pratique de définir des règles qui peuvent être étendues sans pour autant que ces règles existent en soi, d'où l'utilité des <code>%placeholder</code>. Ces règles commencent avec un <code>%</code> et ne génèrent aucun code à moins d'être étendues.</p>
+<p>Parfois il est pratique de définir des règles qui peuvent être étendues sans pour autant que ces règles existent en soi, d'où l'utilité des <span class="inline-code">%placeholder</span>. Ces règles commencent avec un <span class="inline-code">%</span> et ne génèrent aucun code à moins d'être étendues.</p>
 
 <p>Par exemple, l'exemple précédent pourrait être réécrit avec un placeholder afin d'éviter que la couleur de fond bleue soit écrasée par les variantes de messages:</p>
 
@@ -171,7 +171,7 @@
 
 <p>Les placeholders sont particulièrement utiles en ce qui à trait aux règles de styles que nous utilisons régulièrement.</p>
 
-<p>Par exemple, je sais que je centre régulièrement des éléments via <code>transform</code>. Plutôt que de tapper à chaque fois:</p>
+<p>Par exemple, je sais que je centre régulièrement des éléments via <span class="inline-code">transform</span>. Plutôt que de tapper à chaque fois:</p>
 
 <highlight lang="css">.element {
   position: absolute;

@@ -113,6 +113,30 @@
 <highlight lang="html">&lt;highlight lang="javascript"&gt;console.log("Ceci est du javascript");&lt;/highlight&gt;</highlight>
 <highlight lang="javascript">console.log("Ceci est du javascript");</highlight>
 
+
+<highlight lang="scss">$light:        #bfe5df,
+$dark:         #201d40,
+$primary:      #f36b62
+$secondary:    #5f5f71
+$info:         #20b4a8,
+$success :     #63af0e,
+$warning :     #ffc377,
+$danger :      #f60568,
+
+et dans ce format:
+  
+$theme-colors: (
+    &quot;light&quot;:      #bfe5df,
+    &quot;dark&quot;:       #201d40,
+    &quot;primary&quot;:    #f36b62,
+    &quot;secondary&quot;:  #5f5f71,
+    &quot;info&quot;:       #20b4a8,
+    &quot;success&quot;:    #63af0e,
+    &quot;warning&quot;:    #ffc377,
+    &quot;danger&quot;:     #f60568,
+);</highlight>
+
+
 <doclink href="https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md ">Languages supportés</doclink>
 
 <dots></dots>

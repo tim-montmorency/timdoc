@@ -7,7 +7,7 @@
  * @index 99
  */
 ?>
-<p>WordPress propose une interface simple et efficace, permettant facilement l'ajout de thèmes et&nbsp;d'extensions.</p><p>Pour ce faire, il faut premièrement se connecter au tableau de bord. Normalement, il suffit d'ajouter&nbsp;<code>/wp-admin</code>&nbsp;à l'url du site en question pour être redirigé vers&nbsp;l'admin et ensuite d'entrer ses informations de connexion:&nbsp;<em>(nom d'utilisateur/mot de&nbsp;passe)</em>.</p>
+<p>WordPress propose une interface simple et efficace, permettant facilement l'ajout de thèmes et&nbsp;d'extensions.</p><p>Pour ce faire, il faut premièrement se connecter au tableau de bord. Normalement, il suffit d'ajouter&nbsp;<incode>/wp-admin</incode>&nbsp;à l'url du site en question pour être redirigé vers&nbsp;l'admin et ensuite d'entrer ses informations de connexion:&nbsp;<em>(nom d'utilisateur/mot de&nbsp;passe)</em>.</p>
 
 
 <dots></dots>

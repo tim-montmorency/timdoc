@@ -10,9 +10,9 @@
 <p>Plutôt que d'écrire à la main plusieurs classes CSS similaires avec une légère variation, SCSS permet de créer des boucles générant pour nous ces différentes classes.</p>
 
 <grostitre>@for</grostitre>
-<p>Les boucles <code>@for</code> fonctionnent de façon très similaire aux <a target="_blank" rel="noopener noreferrer" href="https://smnarnold.com/cours/javascript/boucle-for">boucles for en JavaScript</a>. Il faut premièrement définir une variable, lui donner une valeur de départ et une valeur à atteindre.</p>
+<p>Les boucles <incode>@for</incode> fonctionnent de façon très similaire aux <a target="_blank" rel="noopener noreferrer" href="https://smnarnold.com/cours/javascript/boucle-for">boucles for en JavaScript</a>. Il faut premièrement définir une variable, lui donner une valeur de départ et une valeur à atteindre.</p>
 
-<p>Par exemple, afin de configurer la taille de plusieurs titres <em>(headings)</em> à l'aide d'une boucle <code>@for</code>, il est possible de faire:</p>
+<p>Par exemple, afin de configurer la taille de plusieurs titres <em>(headings)</em> à l'aide d'une boucle <incode>@for</incode>, il est possible de faire:</p>
 
 <highlight lang='css'>@for $index from 1 to 5 {
   h#{$index} {
@@ -29,16 +29,16 @@ h3 { font-size: 25px; }
 h4 { font-size: 20px; }</highlight>
 
 
-<info>Remarquez comment, pour concaténer une variable SCSS avec du texte (c-à-d construire le nom du sélecteur css, de la classe ou de la pseudo-classe), on l’enveloppe avec <code>#{}</code>. <br><br> <small>Un peu comme les <code>${}</code> avec les <a href="https://smnarnold.com/cours/javascript/litteraux-de-gabarits" target="_blank" rel="noopener noreferrer">littéraux de&nbsp;gabarit</a>  en Javascript.</small></info>
+<info>Remarquez comment, pour concaténer une variable SCSS avec du texte (c-à-d construire le nom du sélecteur css, de la classe ou de la pseudo-classe), on l’enveloppe avec <incode>#{}</incode>. <br><br> <small>Un peu comme les <incode>${}</incode> avec les <a href="https://smnarnold.com/cours/javascript/litteraux-de-gabarits" target="_blank" rel="noopener noreferrer">littéraux de&nbsp;gabarit</a>  en Javascript.</small></info>
 
-<info>Remarquez que le dernier chiffre n’est jamais atteint. La boucle indique <code>1 to 5</code>. En conséquence, le dernier heading est <code>h4</code> et non&nbsp;<code>h5</code> puisqu'on n'atteind jamais le chiffre mentionné après le <code>to</code> dans la ligne <code>@for $index from 1 to 5</code>.</info>
+<info>Remarquez que le dernier chiffre n’est jamais atteint. La boucle indique <incode>1 to 5</incode>. En conséquence, le dernier heading est <incode>h4</incode> et non&nbsp;<incode>h5</incode> puisqu'on n'atteind jamais le chiffre mentionné après le <incode>to</incode> dans la ligne <incode>@for $index from 1 to 5</incode>.</info>
 
 
 
 
 <h3 class="heading heading--h3" id="through">through</h3>
-<p>Lorsque <code>through</code> est utilisé à la place de <code>to</code>, le chiffre à atteindre dans la boucle est inclus.</p>
-<p>Par exemple, le même code que précédemment, mais avec <code>through</code>:</p>
+<p>Lorsque <incode>through</incode> est utilisé à la place de <incode>to</incode>, le chiffre à atteindre dans la boucle est inclus.</p>
+<p>Par exemple, le même code que précédemment, mais avec <incode>through</incode>:</p>
 
 <highlight lang='css'>@for $index from 1 through 5 {
   h#{$index} {
@@ -75,10 +75,10 @@ h5 { font-size: 15px; }</highlight>
 <dots></dots>
 <grostitre>@each</grostitre>
 
-<p>Les boucles <code>@each</code> ressemblent aux boucles <a rel="noopener noreferrer" href="#for">@for</a> à la différence qu'<strong>elles servent à itérer sur une liste d'items</strong>. À tour de rôle, une variable prend la valeur de chaque item dans la liste et devient accessible.</p>
+<p>Les boucles <incode>@each</incode> ressemblent aux boucles <a rel="noopener noreferrer" href="#for">@for</a> à la différence qu'<strong>elles servent à itérer sur une liste d'items</strong>. À tour de rôle, une variable prend la valeur de chaque item dans la liste et devient accessible.</p>
 
 <p>Par exemple, une de boucle configurant la couleur de plusieurs messages peut être écrite ainsi avec une boucle
-<code>@each</code>:</p>
+<incode>@each</incode>:</p>
 
 <highlight lang='scss'>$colorsArr: red, yellow, blue, gray;
 
@@ -100,7 +100,7 @@ h5 { font-size: 15px; }</highlight>
 
 <h3 class="heading heading--h3" id="map">Map (utilisation de clé et valeur)</h3>
 
-<p>Dans certains cas, identifier une valeur à l'aide d'une clé dans une boucle peut s'avérer très pratique. Heureusement, la boucle <code>@each</code> peut aussi itérer sur un tableau de clés et de valeurs.</p>
+<p>Dans certains cas, identifier une valeur à l'aide d'une clé dans une boucle peut s'avérer très pratique. Heureusement, la boucle <incode>@each</incode> peut aussi itérer sur un tableau de clés et de valeurs.</p>
 
 <p>Par exemple, pour créer une rapidement des classes ayant des noms textuels et des valeurs numériques il est possible de faire:</p>
 
