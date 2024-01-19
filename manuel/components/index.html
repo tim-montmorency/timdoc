@@ -55,7 +55,7 @@
 
 <h3>grostitre</h3>
 
-<p>La composante <span class="inline-code">&lt;grostitre&gt;</span> remplace les <span class="inline-code">&lt;h1&gt;</span>, créent une ancre et l'ajoute à la table des matières automatiquement.<br><br>Exemple de cette section:</p>
+<p>La composante <span class="inline-code">&lt;grostitre&gt;</span> remplace les <span class="inline-code">h1</span>, créent une ancre et l'ajoute à la table des matières automatiquement.<br><br>Exemple de cette section:</p>
 
 <highlight lang="html">&lt;grostitre&gt;Titre de section&lt;/grostitre&gt;</highlight>
 
@@ -180,64 +180,9 @@ Utilisez la proprité <span class="inline-code">transform</span>.<br>
 <dots></dots>
 
 
-<grostitre>Citation</grostitre>
 
-<h3>quote</h3>
-
-<highlight lang="html">&lt;quote author=&quot;Gandalf&quot; title=&quot;Magicien&quot; photo=&quot;./images/gandalf.webp&quot;&gt;
-    Un magicien n&#039;est jamais en retard, ni en avance d&#039;ailleurs Frodon Sacquet.
-    Il arrive pr&eacute;cis&eacute;ment &agrave; l&#039;heure pr&eacute;vue.
-&lt;/quote&gt;</highlight>
-
-<quote author="Gandalf" title="Magicien" photo="./images/gandalf.webp">
-    Un magicien n'est jamais en retard, ni en avance d'ailleurs Frodon Sacquet. Il arrive précisément à l'heure prévue.
-</quote>
-
-<dots></dots>
-
-
-
-<grostitre>codepen</grostitre>
-<highlight lang="html">&lt;codepen id=&quot;gOEwrvG&quot; tab=&quot;results&quot;&gt;Voici une remarque pertinente.&lt;/codepen&gt;</highlight>
-<codepen id="gOEwrvG" tab="results">Voici une remarque pertinente.</codepen>
-<dots></dots>
-
-
-
-
-
-
-
-<grostitre>color</grostitre>
-<highlight lang="html">&lt;color&gt;#e8b9ff&lt;/color&gt;
-&lt;color&gt;#e2a6f8&lt;/color&gt;
-&lt;color&gt;#5638f9&lt;/color&gt;</highlight>
-<color>#e8b9ff</color>
-<color>#e2a6f8</color>
-<color>#5638f9</color>
-<dots></dots>
-
-<grostitre>clip</grostitre>
-<highlight lang="html">&lt;clip src=&quot;videos/le-boson-de-higgs.mp4&quot;&gt;&lt;/clip&gt;</highlight>
-<clip src="videos/le-boson-de-higgs.mp4" title="Qu'est-ce que le boson de Higgs?"></clip>
-<doclink href="../videos">Manuel / Vidéos</doclink>
-<dots></dots>
-
-<grostitre>youtube</grostitre>
-<p>Afin d'accélérer le chargement des pages contenant des vidéos, il est fortement conseillé d'utiliser la composante <span class="inline-code">&lt;youtube src=&quot;id&quot;&gt;&lt;/youtube&gt;</span>.</p>
-<highlight lang="html">&lt;youtube src=&quot;KVJBHSOx9jI&quot;&gt;&lt;/youtube&gt;</highlight>
-<youtube src="KVJBHSOx9jI"></youtube>
-<dots></dots>
-
-<grostitre>audioplayer</grostitre>
-<highlight lang="html">&lt;audioplayer src=&quot;audios/careless-whisper.mp3&quot;&gt;&lt;/audioplayer&gt;</highlight>
-<audioplayer src="audios/careless-whisper.mp3"></audioplayer>
-<doclink href="../audios">Manuel / Audios</doclink>
-<dots></dots>
-
-
-
-<grostitre>checklist</grostitre>
+<grostitre>Liste à cocher</grostitre>
+<h3>checklist</h3>
 <highlight lang="html">&lt;checklist&gt;
     Bacon ipsum dolor amet pork loin shankle leberkas beef capicola porchetta ground round kevin meatball bresaola andouille.
     Andouille ham bresaola landjaeger meatloaf shoulder t-bone kielbasa salami corned beef porchetta ball tip.
@@ -259,7 +204,38 @@ Utilisez la proprité <span class="inline-code">transform</span>.<br>
 <dots></dots>
 
 
-<grostitre>swiper</grostitre>
+<grostitre>Citation</grostitre>
+
+<h3>quote</h3>
+
+<highlight lang="html">&lt;quote author=&quot;Gandalf&quot; title=&quot;Magicien&quot; photo=&quot;./images/gandalf.webp&quot;&gt;
+    Un magicien n&#039;est jamais en retard, ni en avance d&#039;ailleurs Frodon Sacquet.
+    Il arrive pr&eacute;cis&eacute;ment &agrave; l&#039;heure pr&eacute;vue.
+&lt;/quote&gt;</highlight>
+
+<quote author="Gandalf" title="Magicien" photo="./images/gandalf.webp">
+    Un magicien n'est jamais en retard, ni en avance d'ailleurs Frodon Sacquet. Il arrive précisément à l'heure prévue.
+</quote>
+
+<dots></dots>
+
+
+<grostitre>Couleurs</grostitre>
+<h3>color</h3>
+<highlight lang="html">&lt;color&gt;#51af3f&lt;/color&gt;
+&lt;color&gt;#1e98e1&lt;/color&gt;
+&lt;color&gt;#ee4bbe&lt;/color&gt;
+&lt;color&gt;#8a774c&lt;/color&gt;</highlight>
+<color>#51af3f</color>
+<color>#1e98e1</color>
+<color>#ee4bbe</color>
+<color>#8a774c</color>
+<dots></dots>
+
+
+
+<grostitre>Images</grostitre>
+<h3>swiper</h3>
 <highlight lang="html">&lt;swiper&gt;
     photos/01.webp
     photos/02.webp
@@ -285,6 +261,43 @@ Utilisez la proprité <span class="inline-code">transform</span>.<br>
     photos/10.webp
 </swiper>
 <dots></dots>
+
+
+
+<grostitre>Vidéos</grostitre>
+
+<h3>youtube</h3>
+<p>Afin d'accélérer le chargement des pages contenant des vidéos, il est fortement conseillé d'utiliser la composante <span class="inline-code">&lt;youtube src=&quot;id&quot;&gt;&lt;/youtube&gt;</span>.</p>
+<highlight lang="html">&lt;youtube src=&quot;KVJBHSOx9jI&quot;&gt;&lt;/youtube&gt;</highlight>
+<youtube src="KVJBHSOx9jI"></youtube>
+
+<h3>Vimeo</h3>
+<highlight lang="html">&lt;vimeo src=&quot;874986396&quot;&gt;&lt;/vimeo&gt;</highlight>
+<vimeo src="874986396"></vimeo>
+
+<h3>clip</h3>
+<highlight lang="html">&lt;clip src=&quot;videos/le-boson-de-higgs.mp4&quot;&gt;&lt;/clip&gt;</highlight>
+<clip src="videos/le-boson-de-higgs.mp4" title="Qu'est-ce que le boson de Higgs?"></clip>
+<doclink href="../videos">Manuel / Vidéos</doclink>
+<dots></dots>
+
+
+<grostitre>Audio</grostitre>
+<h3>audioplayer</h3>
+<highlight lang="html">&lt;audioplayer src=&quot;audios/careless-whisper.mp3&quot;&gt;&lt;/audioplayer&gt;</highlight>
+<audioplayer src="audios/careless-whisper.mp3"></audioplayer>
+<doclink href="../audios">Manuel / Audios</doclink>
+<dots></dots>
+
+
+<grostitre>Codepen</grostitre>
+<h3>codepen</h3>
+<highlight lang="html">&lt;codepen id=&quot;gOEwrvG&quot; tab=&quot;results&quot;&gt;Voici une remarque pertinente.&lt;/codepen&gt;</highlight>
+<codepen id="gOEwrvG" tab="results">Voici une remarque pertinente.</codepen>
+<dots></dots>
+
+
+
 
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
