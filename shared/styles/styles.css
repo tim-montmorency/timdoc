@@ -1,11 +1,6 @@
 @charset "UTF-8";
 /* https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=block */
 @font-face {
-  src: url(../fonts/inconsolata.woff2) format("woff2");
-  font-family: "Consolas";
-  font-display: block;
-}
-@font-face {
   font-family: "Rubik";
   font-style: normal;
   font-weight: 300;
@@ -586,7 +581,7 @@ body.dark table tr:nth-child(even) td {
   font-size: 16px;
   padding: 8px;
   border: 0px;
-  font-family: Consolas;
+  font-family: monospace;
   outline: none;
 }
 .mediafile__linkcopied {
@@ -708,7 +703,7 @@ a.doclink .doclink-title {
   margin-left: 8px;
   margin-right: 10px;
   line-height: 24px;
-  font-family: "Consolas";
+  font-family: monospace;
   font-size: 10px;
 }
 @media (min-width: 576px) {
@@ -1257,7 +1252,7 @@ div.checklist code {
 }
 .swiper.swiper-main .swiper-pagination {
   color: white;
-  font-family: Consolas;
+  font-family: monospace;
   filter: drop-shadow(0px 0px 2px black);
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -1554,8 +1549,8 @@ body {
 }
 
 span.inline-code {
-  font-family: Consolas;
-  background-color: #d1cccc;
+  font-family: monospace;
+  background-color: rgba(0, 0, 0, 0.05);
   padding-left: 6px;
   padding-right: 6px;
   padding-top: 4px;

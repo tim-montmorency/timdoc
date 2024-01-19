@@ -64,8 +64,9 @@ body {
 }
 
 span.inline-code {
-    font-family: Consolas;
-    background-color: #d1cccc;
+    font-family: monospace;
+    // background-color: #d1cccc;
+    background-color: rgba(0,0,0,0.05);
     padding-left: 6px;
     padding-right: 6px;
     padding-top: 4px;
