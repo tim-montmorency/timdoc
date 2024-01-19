@@ -32,7 +32,7 @@
 </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span></code></pre>
 
 
-<info>Ces fichiers utilisent l’extension&nbsp;<code>*.vue</code>.</info>
+<info>Ces fichiers utilisent l’extension&nbsp;<incode>*.vue</incode>.</info>
 <doclink href='https://vuejs.org/api/sfc-spec.html'>SFC</doclink>
 
 <dots></dots>
@@ -50,10 +50,10 @@
 
 <dots></dots>
 <grostitre>Style scoped</grostitre>
-<p>Dans le cadre d’un fichier SFC, la balise style peut se voir avoir l’attribut <code>scoped</code>. Cet attribut indique que les styles en question ne peuvent s’appliquer qu’aux éléments à l’intérieur de cette composante uniquement.</p>
+<p>Dans le cadre d’un fichier SFC, la balise style peut se voir avoir l’attribut <incode>scoped</incode>. Cet attribut indique que les styles en question ne peuvent s’appliquer qu’aux éléments à l’intérieur de cette composante uniquement.</p>
 
 
-<p>Pour ce faire, une clé est attribuée aux éléments HTML sous forme d'un attribut <code>data-v-xxxxxxx</code>. Toutes les règles de styles associées à cette composante se basent alors sur cette clé, limitant ainsi leur portée à cette composante uniquement.</p><p>Par exemple:</p>
+<p>Pour ce faire, une clé est attribuée aux éléments HTML sous forme d'un attribut <incode>data-v-xxxxxxx</incode>. Toutes les règles de styles associées à cette composante se basent alors sur cette clé, limitant ainsi leur portée à cette composante uniquement.</p><p>Par exemple:</p>
 
 
 <pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
@@ -81,7 +81,7 @@
 
 <br>
 
-<p>Une composante SFC peut aussi avoir plus d'une balise <code>&lt;style&gt;</code>. Notamment lorsque des styles devraient être globaux et que d'autres devraient être limités à la composante uniquement.</p><p>Par exemple:</p><pre><code class="hljs xml">/* Styles appliqués à tout le site */
+<p>Une composante SFC peut aussi avoir plus d'une balise <incode>&lt;style&gt;</incode>. Notamment lorsque des styles devraient être globaux et que d'autres devraient être limités à la composante uniquement.</p><p>Par exemple:</p><pre><code class="hljs xml">/* Styles appliqués à tout le site */
 <span class="hljs-tag">&lt;<span class="hljs-name">style</span> <span class="hljs-attr">scoped</span>&gt;</span><span class="css">
 * {
   <span class="hljs-attribute">box-sizing</span>: border-box;

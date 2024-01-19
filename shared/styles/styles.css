@@ -1908,11 +1908,6 @@ footer #copyright {
   color: #F3CA40;
   color: #F2A541;
 }
-#contents p code, #contents ul code, #contents ol code, #contents h1 code, #contents h2 code, #contents h3 code, #contents h4 code, #contents h5 code, #contents h6 code, #wiki__pages p code, #wiki__pages ul code, #wiki__pages ol code, #wiki__pages h1 code, #wiki__pages h2 code, #wiki__pages h3 code, #wiki__pages h4 code, #wiki__pages h5 code, #wiki__pages h6 code {
-  background-color: rgba(0, 0, 0, 0.05);
-  padding: 0.25em 0.4em 0.4em 0.4em;
-  font-size: 90%;
-}
 #contents span.remark, #wiki__pages span.remark {
   display: block;
   text-align: center;

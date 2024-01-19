@@ -34,7 +34,7 @@
   /* Styles supplémentaires pour le div centré */
 }</highlight>
 
-<p>Dans l'exemple ci-dessus, la propriété <code>display</code> du conteneur <em>.parent</em> est définie sur flex, ce qui le transforme en conteneur flex. La propriété <code>align-items</code> est définie sur <code>center</code>, ce qui aligne verticalement les éléments enfants. La propriété <code>justify-content</code> est également définie sur <code>center</code>, ce qui aligne horizontalement les éléments enfants.</p>
+<p>Dans l'exemple ci-dessus, la propriété <incode>display</incode> du conteneur <em>.parent</em> est définie sur flex, ce qui le transforme en conteneur flex. La propriété <incode>align-items</incode> est définie sur <incode>center</incode>, ce qui aligne verticalement les éléments enfants. La propriété <incode>justify-content</incode> est également définie sur <incode>center</incode>, ce qui aligne horizontalement les éléments enfants.</p>
 
 <p>Notez que cette technique peut être utilisée pour centrer n'importe quel type d'élément à l'intérieur d'un autre. Vous pouvez essayer de modifier les valeurs des propriétés d'alignement pour obtenir différents alignements.</p>
 
@@ -42,7 +42,7 @@
 <grostitre>Grid</grostitre>
 
 
-<p>Si vous préférez utiliser la mise en page en grille (<code>grid</code> ), vous pouvez également centrer un div en utilisant les propriétés <code>align-self</code> et <code>justify-self</code> à l'intérieur d'une zone de grille. Voici un exemple&nbsp;:</p>
+<p>Si vous préférez utiliser la mise en page en grille (<incode>grid</incode> ), vous pouvez également centrer un div en utilisant les propriétés <incode>align-self</incode> et <incode>justify-self</incode> à l'intérieur d'une zone de grille. Voici un exemple&nbsp;:</p>
 
 
 
@@ -65,7 +65,7 @@
 }</highlight>
 
 
-<p>Dans cet exemple, le div enveloppant <em>.parent</em> est un conteneur de grille. Le div <code>.item1</code> est placé dans la seule cellule de la grille et est centré verticalement et horizontalement à l'aide des propriétés <code>align-self</code> et <code>justify-self</code>.</p>
+<p>Dans cet exemple, le div enveloppant <em>.parent</em> est un conteneur de grille. Le div <incode>.item1</incode> est placé dans la seule cellule de la grille et est centré verticalement et horizontalement à l'aide des propriétés <incode>align-self</incode> et <incode>justify-self</incode>.</p>
 
 <dots></dots>
 <grostitre>Plus d'infos et autres techniques</grostitre>

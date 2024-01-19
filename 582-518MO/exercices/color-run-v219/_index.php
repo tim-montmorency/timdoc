@@ -90,7 +90,7 @@ Collez le code suivant dans votre fichier HTML:</checklist>
 <grostitre>Requis</grostitre>
 <checklist>Téléchargez et déposez le fichier _base.scss dans votre projet : créez un dossier nommé de façon pertinente pour ce type de fichier et déposez le fichier dans ce dossier 📁.
 Importez _base.scss dans votre code selon la méthode appropriée.
-Utilisez la variable&nbsp;<code>$bg</code>&nbsp;du fichier&nbsp;<code>_base.scss</code> comme couleur de fond de la page.
+Utilisez la variable&nbsp;<incode>$bg</incode>&nbsp;du fichier&nbsp;<incode>_base.scss</incode> comme couleur de fond de la page.
 Le bloc contenant tous les coureurs sera le conteneur de la grille de mise en page.
 Ce bloc contenant tous les coureurs doit prendre toute la largeur de l'écran, jusqu'à concurrence de 1000px de large, être centré horizontalement dans la page ↔️, avoir une marge intérieure de 20px de tous les côtés et une marge extérieure verticale de 50px.<br><br>Attention de faire en sorte que la dimension totale soit bien de 1000px incluant les marges intérieures.
 Appliquez la mixin <em>runner</em> à chacun des coureurs.
@@ -101,11 +101,11 @@ Vous devez aussi utiliser cette boucle afin d'assigner chacun des coureurs à un
 Utilisez les espaces de grille que vous venez de créer afin de positionner, le coureur en 1<sup>re</sup> position seul sur la première ligne. Les 2 suivants sur la 2<sup>e</sup> ligne, les 3 derniers sur la 3<sup>e</sup> ligne et ajoutez un espace de 20px entre chacun d'eux.
 Sur un écran d'une largeur de 375px et plus, faites en sorte que le 2<sup>e</sup> et 3<sup>e</sup> coureur s'affichent à la droite du premier et que les trois derniers s'affichent en dessous d'eux.
 Sur un écran d'une largeur de 700px et plus, faites en sorte que tous les coureurs aillent la même taille et s'affichent sur la même ligne.
-Utilisez maintenant une boucle SCSS à partir de la variable&nbsp;<code>$colorsArr</code>&nbsp;contenue dans le fichier&nbsp;<code>_base.scss</code>&nbsp;et sélectionnez chacun des coureurs.<br><br>Pour tester votre boucle, vous pouvez temporairement changer la couleur de fond du coureur par celle à la position courante dans la boucle.
+Utilisez maintenant une boucle SCSS à partir de la variable&nbsp;<incode>$colorsArr</incode>&nbsp;contenue dans le fichier&nbsp;<incode>_base.scss</incode>&nbsp;et sélectionnez chacun des coureurs.<br><br>Pour tester votre boucle, vous pouvez temporairement changer la couleur de fond du coureur par celle à la position courante dans la boucle.
 À l'intérieur de cette boucle, créez une variable SCSS. Cette variable devra contenir la couleur courante de la boucle, mais son hue devra être augmenté de 50.
 Toujours dans votre boucle SCSS, créez un dégradé de haut en bas à partir de la couleur courante dans la boucle vers celle contenue dans la variable SCSS que vous venez de créer.
-Utilisez l'imbrication SASS afin de créer la classe modificateur&nbsp;<code>runner--active</code>. Celle-ci doit faire grossir de 10% le coureur l'ayant.
-Ajoutez un fichier script.js dans votre projet. En JavaScript, faites en sorte que lorsqu'un coureur se fait cliquer dessus, il reçoive la classe&nbsp;<code>runner--active</code>. Attention, il ne peut y avoir qu'un seul coureur actif à la fois. Autrement dit, cette classe ne doit jamais être sur deux coureurs en même temps.</checklist>
+Utilisez l'imbrication SASS afin de créer la classe modificateur&nbsp;<incode>runner--active</incode>. Celle-ci doit faire grossir de 10% le coureur l'ayant.
+Ajoutez un fichier script.js dans votre projet. En JavaScript, faites en sorte que lorsqu'un coureur se fait cliquer dessus, il reçoive la classe&nbsp;<incode>runner--active</incode>. Attention, il ne peut y avoir qu'un seul coureur actif à la fois. Autrement dit, cette classe ne doit jamais être sur deux coureurs en même temps.</checklist>
 
 
 

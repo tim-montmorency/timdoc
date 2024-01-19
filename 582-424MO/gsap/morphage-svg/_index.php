@@ -24,7 +24,7 @@
 <ul>
 
     <li>
-        <p>D'utiliser un&nbsp;<a href="https://greensock.com/docs/v3/Installation?checked=core,morphSVG#codepen"  target="_blank">lien hébergé en ligne</a> (comme ce pluciels-ci n'est pas gratuit, allez cocher le plugiciel dans l'onglet codePen, ensuite cliquer sur le bouton "Copy URL" en bas, à côté de MorphSVGPlugin et ajouter dans une balise <code>script</code>). Cependant, il ne sera utilisable qu'en local (sur votre ordi) ou directement sur codePen.</p>
+        <p>D'utiliser un&nbsp;<a href="https://greensock.com/docs/v3/Installation?checked=core,morphSVG#codepen"  target="_blank">lien hébergé en ligne</a> (comme ce pluciels-ci n'est pas gratuit, allez cocher le plugiciel dans l'onglet codePen, ensuite cliquer sur le bouton "Copy URL" en bas, à côté de MorphSVGPlugin et ajouter dans une balise <incode>script</incode>). Cependant, il ne sera utilisable qu'en local (sur votre ordi) ou directement sur codePen.</p>
     </li>
 </ul>
 <p>Une fois chargé, il est conseillé d'indiquer à GSAP que MotionPath est disponible en inscrivant la ligne de
@@ -82,7 +82,7 @@
 }</highlight>
 
 
-<p>Par la suite, il suffit d'animer le premier tracé (path) avec la propriété <code>morphSVG</code>. La valeur de <code>morphSVG</code> sera l'élément HTML correspondant au 2e tracé (path).</p>
+<p>Par la suite, il suffit d'animer le premier tracé (path) avec la propriété <incode>morphSVG</incode>. La valeur de <incode>morphSVG</incode> sera l'élément HTML correspondant au 2e tracé (path).</p>
 
 <highlight lang='javaScript'>gsap.to("#circle", {
     morphSVG: "#hippo"
@@ -128,7 +128,7 @@
 </p>
 
 <p>On remarque que la propriété permettant de définir le tracé de fin est maintenant spécifiée et
-    s'appelle&nbsp;<code>shape</code>.</p>
+    s'appelle&nbsp;<incode>shape</incode>.</p>
 
 
 
@@ -141,7 +141,7 @@
 
 <grostitre>Évitez les brouillons avec shapeIndex</grostitre>
 
-<p>Afin que votre forme ne se mélange pas en chiffon avant de reformer l'autre forme, il est parfois nécessaire de spécifier quel point de départ est relié à quel point final dans la nouvelle forme.  Pour cela, il faut utiliser la propriété <code>shapeIndex</code>.</p>
+<p>Afin que votre forme ne se mélange pas en chiffon avant de reformer l'autre forme, il est parfois nécessaire de spécifier quel point de départ est relié à quel point final dans la nouvelle forme.  Pour cela, il faut utiliser la propriété <incode>shapeIndex</incode>.</p>
 
 <highlight lang='javaScript'>gsap.to("#square", {
   duration: 3, 
@@ -155,11 +155,11 @@
 
 <ol>
   <li>faire un fork du codePen suivant</li>
-  <li>conserver la fonction JavaScript qui est déjà écrite, nommée <code>findShapeIndex()</code></li>
+  <li>conserver la fonction JavaScript qui est déjà écrite, nommée <incode>findShapeIndex()</incode></li>
   <li>ajouter vos propre forme svg dans le HTML (en identifiant les 2 tracé (path))</li>
-  <li>animer vos 2 formes avec la méthode <code>to()</code> et la propriété <code>morphSVG</code></li>
-  <li>appeler la fonction findShapeIndex() en passant vos 2 formes en paramètre afin de déceler quel serait le meilleur point <code>shapeIndex</code></li>
-  <li>vous pouvez utiliser la boite + et - dans l'interface pour tester et trouver vous même le meilleur point de référence pour <code>shapeIndex</code></li>
+  <li>animer vos 2 formes avec la méthode <incode>to()</incode> et la propriété <incode>morphSVG</incode></li>
+  <li>appeler la fonction findShapeIndex() en passant vos 2 formes en paramètre afin de déceler quel serait le meilleur point <incode>shapeIndex</incode></li>
+  <li>vous pouvez utiliser la boite + et - dans l'interface pour tester et trouver vous même le meilleur point de référence pour <incode>shapeIndex</incode></li>
 </ol>
 
 

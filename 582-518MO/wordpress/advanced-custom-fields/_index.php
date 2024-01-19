@@ -26,7 +26,7 @@
 <dots></dots>
 <grostitre>Création de champs</grostitre>
 
-<p>Une fois installée, un onglet&nbsp;<code>ACF</code>&nbsp;(ou en anglais&nbsp;<em>Custom Fields</em>) devrait être visible dans la barre latérale servant de&nbsp;menu.</p><p>À partir de cet onglet, il est possible de créer des nouveaux&nbsp;<code>Groupes de champs</code>&nbsp;<em>(New Field Group)</em>&nbsp;en cliquant sur&nbsp;<code>Ajouter</code>&nbsp;<em>(Add&nbsp;New)</em>.</p>
+<p>Une fois installée, un onglet&nbsp;<incode>ACF</incode>&nbsp;(ou en anglais&nbsp;<em>Custom Fields</em>) devrait être visible dans la barre latérale servant de&nbsp;menu.</p><p>À partir de cet onglet, il est possible de créer des nouveaux&nbsp;<incode>Groupes de champs</incode>&nbsp;<em>(New Field Group)</em>&nbsp;en cliquant sur&nbsp;<incode>Ajouter</incode>&nbsp;<em>(Add&nbsp;New)</em>.</p>
 
 
 <img src="images/acf-menu.jpg" alt="Menu ACF">
@@ -57,14 +57,14 @@
 
 <p>Deux fonctions permettent de les récupérer:</p>
 <ol start="1">
-    <li><code>the_field()</code>qui retourne une chaine de&nbsp;caractère.</li>
-    <li><code>get_field()</code>&nbsp;qui retourne un objet contenant de multiples&nbsp;valeurs.</li>
+    <li><incode>the_field()</incode>qui retourne une chaine de&nbsp;caractère.</li>
+    <li><incode>get_field()</incode>&nbsp;qui retourne un objet contenant de multiples&nbsp;valeurs.</li>
 </ol>
 
 
 <h3 class="heading heading--h3" id="Couleur">Couleur</h3>
 
-<p>Les valeurs provenant d'un champ de type&nbsp;<em>Sélecteur de couleur</em>&nbsp;sont sauvegardés sous forme d'une chaine de caractères. Il est sonc possible de les récupérer via la fonction&nbsp;<code>the_field(...)</code>.</p><p>Par exemple:</p>
+<p>Les valeurs provenant d'un champ de type&nbsp;<em>Sélecteur de couleur</em>&nbsp;sont sauvegardés sous forme d'une chaine de caractères. Il est sonc possible de les récupérer via la fonction&nbsp;<incode>the_field(...)</incode>.</p><p>Par exemple:</p>
 
 
 
@@ -78,7 +78,7 @@
 
 
 <h3 class="heading heading--h3" id="Texte">Texte</h3>
-<p>Un champ texte peut être créé pour stocker des informations supplémentaires. Ce type de champs est, entre autre, utile lorsqu'une information doit être séparée visuellement du reste du&nbsp;contenu.</p><p>Prenons par exemple la&nbsp;<a target="_blank" href="https://fr.wikipedia.org/wiki/The_Offspring">page Wikipedia d'un groupe de musique</a>. Si cette page était construite à l'aide de WordPress, le champ&nbsp;<code>titre</code>&nbsp;contiendrait le texte&nbsp;<em>The Offspring</em>&nbsp;et le champs&nbsp;<code>contenu</code>&nbsp;l'ensemble du texte dans la colonne de gauche. Cependant, les éléments dans la colonne de droite proviendraient de champs ACF&nbsp;supplémentaires.</p><p>Par exemple, un champ&nbsp;<code>autre nom</code>&nbsp;associé aux pages de type&nbsp;<em>Groupe de musique</em>&nbsp;permettrait à l'éditeur de spécifier si un groupe fut précédemment connu sous un autre&nbsp;nom.</p><pre><code class="hljs php">&lt;strong&gt;Autre nom&lt;/strong&gt;
+<p>Un champ texte peut être créé pour stocker des informations supplémentaires. Ce type de champs est, entre autre, utile lorsqu'une information doit être séparée visuellement du reste du&nbsp;contenu.</p><p>Prenons par exemple la&nbsp;<a target="_blank" href="https://fr.wikipedia.org/wiki/The_Offspring">page Wikipedia d'un groupe de musique</a>. Si cette page était construite à l'aide de WordPress, le champ&nbsp;<incode>titre</incode>&nbsp;contiendrait le texte&nbsp;<em>The Offspring</em>&nbsp;et le champs&nbsp;<incode>contenu</incode>&nbsp;l'ensemble du texte dans la colonne de gauche. Cependant, les éléments dans la colonne de droite proviendraient de champs ACF&nbsp;supplémentaires.</p><p>Par exemple, un champ&nbsp;<incode>autre nom</incode>&nbsp;associé aux pages de type&nbsp;<em>Groupe de musique</em>&nbsp;permettrait à l'éditeur de spécifier si un groupe fut précédemment connu sous un autre&nbsp;nom.</p><pre><code class="hljs php">&lt;strong&gt;Autre nom&lt;/strong&gt;
 <span class="hljs-meta">&lt;?php</span> the_field(<span class="hljs-string">'autre_nom'</span>); <span class="hljs-meta">?&gt;</span></code></pre>
 
 <info>Manic Subsidal???&nbsp;🤷‍♂️</info>
@@ -96,9 +96,9 @@
 
 <p>Par exemple, pour ce qui est du pays d'origine, quel devrait-être la valeur pour The Offpring? USA, États-Unis, États Unis d'Amérique, etc. Une liste de choix préétablis règle cette question et offre une cohérence entre les différentes&nbsp;pages.</p>
 
-<p>Il suffit de créer un champ de type&nbsp;<em>Sélection</em>&nbsp;et de lui donner les choix disponibles en format:<br><code>Valeur affiché sur le site : Valeur afficher dans l'admin</code></p><p>Par exemple:</p>
+<p>Il suffit de créer un champ de type&nbsp;<em>Sélection</em>&nbsp;et de lui donner les choix disponibles en format:<br><incode>Valeur affiché sur le site : Valeur afficher dans l'admin</incode></p><p>Par exemple:</p>
 
-<p><code>🇨🇦 Canada : Canada</code><br><code>🇺🇸 États-Unis : États-Unis</code><br><code>🇫🇷 France : France</code></p><p>Comme pour un champ texte, la valeur peut-être ensuite récupérée via&nbsp;<code>the_field(...)</code>.</p>
+<p><incode>🇨🇦 Canada : Canada</incode><br><incode>🇺🇸 États-Unis : États-Unis</incode><br><incode>🇫🇷 France : France</incode></p><p>Comme pour un champ texte, la valeur peut-être ensuite récupérée via&nbsp;<incode>the_field(...)</incode>.</p>
 
 <highlight lang='html'>&lt;strong&gt;Pays d&#39;origine&lt;/strong&gt;
 &lt;?php the_field(&#39;pays_dorigine&#39;); ?&gt;</highlight>
@@ -138,7 +138,7 @@
 </ul>
 
 
-<p>Ces informations sont enregistrées sour forme d'objet. Il est donc préférable de stocker cet objet dans une variable afin d'accèder à ses&nbsp;sous-propriétés au&nbsp;besoin.</p><p>Par exemple, stockons cet objet dans la variable&nbsp;<code>$logo</code>&nbsp;et recréons l'exemple précédent, mais avec l'attribut alt de&nbsp;populé.</p>
+<p>Ces informations sont enregistrées sour forme d'objet. Il est donc préférable de stocker cet objet dans une variable afin d'accèder à ses&nbsp;sous-propriétés au&nbsp;besoin.</p><p>Par exemple, stockons cet objet dans la variable&nbsp;<incode>$logo</incode>&nbsp;et recréons l'exemple précédent, mais avec l'attribut alt de&nbsp;populé.</p>
 
 <highlight lang='php'>&lt;?php 
   $logo = get_field(&#39;logo&#39;);
@@ -160,13 +160,13 @@
 <h3 class="heading heading--h3" id="Exportation">Exportation</h3>
 
 
-<p>Il faut aller dans l'onglet <code>ACF</code> et sélectionner l'option <code>Outils</code> <em>(Tools)</em>. À cet endroit dans la colonne de gauche, une liste de boites à cocher permet de choisir les groupes de champs à exporter. Lorsque ce choix est terminé, cliquez sur le bouton <em>Exporter le fichier</em> afin d'obtenir un fichier JSON contenant lesdites structures.</p>
+<p>Il faut aller dans l'onglet <incode>ACF</incode> et sélectionner l'option <incode>Outils</incode> <em>(Tools)</em>. À cet endroit dans la colonne de gauche, une liste de boites à cocher permet de choisir les groupes de champs à exporter. Lorsque ce choix est terminé, cliquez sur le bouton <em>Exporter le fichier</em> afin d'obtenir un fichier JSON contenant lesdites structures.</p>
 
 
 <warning>Attention, cette exportation <strong>n’inclut pas les valeurs</strong>, uniquement la structure des&nbsp;champs.</warning>
 
 <h3 class="heading heading--h3" id="Importation">Importation</h3>
-<p>Pour importer des groupes de champs, il faut aussi aller dans l'onglet <code>ACF</code> et sélectionner l'option <code>Outils</code> <em>(Tools)</em>. Sur cette page, dans la colonne de droite, se trouve un champs permettant de charger un fichier JSON. Importez le fichier désiré permet de recréer une structure de champs ACF d'un projet à un autre.</p>
+<p>Pour importer des groupes de champs, il faut aussi aller dans l'onglet <incode>ACF</incode> et sélectionner l'option <incode>Outils</incode> <em>(Tools)</em>. Sur cette page, dans la colonne de droite, se trouve un champs permettant de charger un fichier JSON. Importez le fichier désiré permet de recréer une structure de champs ACF d'un projet à un autre.</p>
 
 
 <warning>Assurez-vous que l’extension ACF soit installée sur le nouveau site avant d’importer une structure de groupe de&nbsp;champs.</warning>

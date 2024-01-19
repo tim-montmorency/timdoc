@@ -38,19 +38,19 @@
 <dots></dots>
 <grostitre>Syntaxes</grostitre>
 
-<p>SASS offre deux syntaxes de base différentes <code>.sass</code> et <code>.scss</code>.</p>
+<p>SASS offre deux syntaxes de base différentes <incode>.sass</incode> et <incode>.scss</incode>.</p>
 <h3 class="heading heading--h3" id="SASS">SASS</h3>
 
 <p>La syntaxe SASS fut la syntaxe originale de SASS <em>(d'où son nom)</em>. Elle se base principalement sur
     l'indentation du code ainsi que les sauts de ligne. Afin de la différencier de SASS le préprocesseur, cette syntaxe
     est souvent surnommée la <em>"syntaxe indenté"</em>.</p>
-<p>Dans le cadre de ce cours, nous, nous concentrerons surtout sur la syntaxe <code>.scss</code>. Nous n'élaborerons
-    donc pas trop sur la syntaxe <code>.sass</code>. </p>
+<p>Dans le cadre de ce cours, nous, nous concentrerons surtout sur la syntaxe <incode>.scss</incode>. Nous n'élaborerons
+    donc pas trop sur la syntaxe <incode>.sass</incode>. </p>
 <h3 class="heading heading--h3" id="SCSS">SCSS</h3>
 
 <p>La syntaxe SCSS est la plus récente et répandue. Elle ressemble au CSS traditionnel, ce qui la rend facile à
     apprendre pour quiconque comprend les bases du langage CSS et incorpore les avantages de la syntaxe
-    <code>.sass</code>. Cette syntaxe est souvent surnommée <em>"Sassy CSS"</em>.</p>
+    <incode>.sass</incode>. Cette syntaxe est souvent surnommée <em>"Sassy CSS"</em>.</p>
 
 
 

@@ -47,7 +47,7 @@ Note: Si vous utilisez un motionPath le long de quelque chose se trouvant à l'a
 Les animations de chaque chapitre doivent s'activer lorsque le chapitre entre en scène, et pas avant.
 La plupart des chapitres doivent se figer dans l'écran le temps que l'animation GSAP du dit chapitre se complète.
 Pour chaque chapitre, ajoutez une ou des animations GSAP. Chaque chapitre devra avoir son ou ses animations isolées des autres chapitres.  
-SVP dans votre code, ajoutez en commentaire séparateur par chapitre, exemple: <code>/* ----  Animation chapitre 3 ----- */</code> 
+SVP dans votre code, ajoutez en commentaire séparateur par chapitre, exemple: <incode>/* ----  Animation chapitre 3 ----- */</incode> 
 Chaque animation de chapitre devra être activée via la technique scrollTrigger, donc l’animation va démarrer que lorsque le chapitre entre en scène. 
 </checklist>
 <dots></dots>
@@ -56,7 +56,7 @@ Chaque animation de chapitre devra être activée via la technique scrollTrigger
  <p>Les animations peuvent être dans n'importe quel chapitre. Essayez de d'étendre des requis minimum à plusieurs chapitres distincts.</p>
 <p>En plus des animations que vous avez remises à P2.2, voici les ajouts: </p>
 <checklist>
-Deux sprite sheets qui s’activent dès que le <code>body</code>  contient la classe is-scrolling (vous l’avez déjà fait, il suffit maintenant de l’intégrer à deux chapitre différents). Ces 2 sprite sheets doivent s’animer d’une 2e façon via GSAP, en étant synchronisé avec le scroll de la page. Vous devrez épingler les sections de ces chapitres le temps que l’animation se complète. Voir l’exemple ci-dessus comme référence. La sprite sheet contient un monstre qui fait un cycle de marche complet, sur place. Ensuite j’ai animé cet élément html avec GSAP en changeant sa position x et y et ainsi simulter qu’il marche vers la droite. 
+Deux sprite sheets qui s’activent dès que le <incode>body</incode>  contient la classe is-scrolling (vous l’avez déjà fait, il suffit maintenant de l’intégrer à deux chapitre différents). Ces 2 sprite sheets doivent s’animer d’une 2e façon via GSAP, en étant synchronisé avec le scroll de la page. Vous devrez épingler les sections de ces chapitres le temps que l’animation se complète. Voir l’exemple ci-dessus comme référence. La sprite sheet contient un monstre qui fait un cycle de marche complet, sur place. Ensuite j’ai animé cet élément html avec GSAP en changeant sa position x et y et ainsi simulter qu’il marche vers la droite. 
 Un effet parallax de 3 couches (arrière-plan + 2 autres couches). 
 Une animation d’un svg qui se dessine avec drawSVG. 
 Une animation d’un élément qui suit une trajectoire avec motionPath. 
@@ -70,7 +70,7 @@ Une animation qui s’active dès qu’on atteint le chapitre et qu’ensuite el
 <grostitre>Requis d’identification des animations </grostitre>
 <checklist>Dans le HTML de chaque chapitre, ajoutez le code HTML qui suit ce bloc d’instructions.  
 Aussi, copiez le code CSS qui suit ce bloc d’instructions et collez le dans votre fichier de styles, dans la section des styles généraux (essayez de classer vos styles un peu, ajoutez des commentaires pour séparer les sections des styles comme vous l’avez fait au dernier projet). 
-À chaque chapitre, dans la liste à puce <code>ul.technique-gsap</code> , vous devrez identifier les techniques d’animations que vous avez utilisées à l’intérieur de celui-ci. </checklist>
+À chaque chapitre, dans la liste à puce <incode>ul.technique-gsap</incode> , vous devrez identifier les techniques d’animations que vous avez utilisées à l’intérieur de celui-ci. </checklist>
 
 
 <h3>HTML dans chaque chapitre (copier-coller et compléter)</h3>

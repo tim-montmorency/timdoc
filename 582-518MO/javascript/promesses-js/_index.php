@@ -21,10 +21,10 @@
 <dots></dots>
 <grostitre>Promesse JavaScript</grostitre>
 
-<p>Les&nbsp;<code>Promises</code>&nbsp;en JavaScript fonctionnent sur le même principe. À défaut de pouvoir répondre immédiatement une fonction peut retourner une promesse. Cette approche est particulièrement utile lorsque la fonction en question contacte un serveur externe, puisque son délai de réponse peut&nbsp;varier.</p><p>Si la promesse est respectée, la méthode&nbsp;<code>.then()</code>&nbsp;est ensuite appelée et la valeur de la réponse lui est passée en&nbsp;paramètre.</p>
+<p>Les&nbsp;<incode>Promises</incode>&nbsp;en JavaScript fonctionnent sur le même principe. À défaut de pouvoir répondre immédiatement une fonction peut retourner une promesse. Cette approche est particulièrement utile lorsque la fonction en question contacte un serveur externe, puisque son délai de réponse peut&nbsp;varier.</p><p>Si la promesse est respectée, la méthode&nbsp;<incode>.then()</incode>&nbsp;est ensuite appelée et la valeur de la réponse lui est passée en&nbsp;paramètre.</p>
 
 
-<p>Si la promesse est brisée et qu’une méthode&nbsp;<code>.catch()</code>&nbsp;est présente, elle est appelée et un message d’erreur lui est&nbsp;envoyé.</p>
+<p>Si la promesse est brisée et qu’une méthode&nbsp;<incode>.catch()</incode>&nbsp;est présente, elle est appelée et un message d’erreur lui est&nbsp;envoyé.</p>
 
 <dots></dots>
 <grostitre>Mise-en-contexte pour le cours</grostitre>
@@ -57,7 +57,7 @@ il est plus fréquent d’en&nbsp;recevoir (consume).</p>
  <br>
  <br>
 
-<p>Par exemple, la promesse suivante 👇 appelle la fonction&nbsp;<code>resolve</code>&nbsp;lorsqu'elle est respectée et&nbsp;<code>reject</code>&nbsp;lorsqu'elle est brisée. <br>
+<p>Par exemple, la promesse suivante 👇 appelle la fonction&nbsp;<incode>resolve</incode>&nbsp;lorsqu'elle est respectée et&nbsp;<incode>reject</incode>&nbsp;lorsqu'elle est brisée. <br>
 La valeur du retour dans les deux cas est passée en&nbsp;paramètre.</p>
 
 
@@ -89,7 +89,7 @@ Par exemple, le code&nbsp;suivant:
 
 <highlight lang="javascript">console.log(promesse); // [objet Promise] {}</highlight>
 
-<p>retournerait un message indiquant qu'il s'agit d'un objet de type&nbsp;<code>Promise</code>&nbsp;et non la valeur contenu dans la&nbsp;promesse.</p>
+<p>retournerait un message indiquant qu'il s'agit d'un objet de type&nbsp;<incode>Promise</incode>&nbsp;et non la valeur contenu dans la&nbsp;promesse.</p>
 
 
 
@@ -106,7 +106,7 @@ Par exemple, le code&nbsp;suivant:
 <grostitre>- then() ✅</grostitre>
         
 
-<p>Si la promesse est respectée, une méthode&nbsp;<code>.then()</code>&nbsp;est appelée et la valeur lui est passée en&nbsp;paramètre.</p>
+<p>Si la promesse est respectée, une méthode&nbsp;<incode>.then()</incode>&nbsp;est appelée et la valeur lui est passée en&nbsp;paramètre.</p>
 
 Par exemple:
 <highlight lang="javascript">
@@ -117,7 +117,7 @@ promesse
 
 <br><br>
 
-<p>Une méthode&nbsp;<code>.then()</code>&nbsp;retourne elle aussi une promesse. Cette promesse peut donc à son tour avoir un&nbsp;<code>.then()</code>&nbsp;et ainsi enchainer de multiple&nbsp;<code>.then()</code>&nbsp;un à la suite de&nbsp;l'autre.</p>
+<p>Une méthode&nbsp;<incode>.then()</incode>&nbsp;retourne elle aussi une promesse. Cette promesse peut donc à son tour avoir un&nbsp;<incode>.then()</incode>&nbsp;et ainsi enchainer de multiple&nbsp;<incode>.then()</incode>&nbsp;un à la suite de&nbsp;l'autre.</p>
 
 Par exemple:
 <highlight lang="javascript">
@@ -133,7 +133,7 @@ promesse
 <dots></dots>
 <grostitre>- catch() 🚫</grostitre>
 
-<p>Si la promesse est brisée et qu'une méthode&nbsp;<code>.catch()</code>&nbsp;est présente, cette dernière est appelée et la valeur lui est passée en&nbsp;paramètre.</p>
+<p>Si la promesse est brisée et qu'une méthode&nbsp;<incode>.catch()</incode>&nbsp;est présente, cette dernière est appelée et la valeur lui est passée en&nbsp;paramètre.</p>
 
 Par exemple:
 <highlight lang="javascript">
@@ -149,7 +149,7 @@ promesse
 
   <dots></dots>
 <grostitre>- finally()</grostitre>
-<p>Si une méthode&nbsp;<code>.finally()</code>&nbsp;est présente, celle-ci est appelée dès que la promesse est complétée, peu importe son statut qu'elle soit respectée ou&nbsp;brisée.</p>
+<p>Si une méthode&nbsp;<incode>.finally()</incode>&nbsp;est présente, celle-ci est appelée dès que la promesse est complétée, peu importe son statut qu'elle soit respectée ou&nbsp;brisée.</p>
 
 
 

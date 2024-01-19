@@ -14,7 +14,7 @@
 <dots></dots>
 
 <grostitre>La base: .btn</grostitre>
-<p>À la base, les classes <code>.btn</code> sont conçues pour être utilisées avec l'élément <code>&lt;button&gt;</code>. ​</p>
+<p>À la base, les classes <incode>.btn</incode> sont conçues pour être utilisées avec l'élément <incode>&lt;button&gt;</incode>. ​</p>
 <img src="images/buttons_all_types.png" alt="Exemples de plusieurs type de boutons Bootstrap">
 <highlight lang="HTML">&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;
 &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot;&gt;Secondary&lt;/button&gt;
@@ -31,7 +31,7 @@
 <dots></dots>
 
 <grostitre>Balises qui peuvent accueillir .btn</grostitre>
-<p>À la base, les classes <code>.btn</code> sont conçues pour être utilisées avec l'élément <code>&lt;button&gt;</code>. Cependant, vous pouvez également utiliser ces classes sur des éléments <code>&lt;a&gt;</code> ou <code>&lt;input&gt;</code>.</p>
+<p>À la base, les classes <incode>.btn</incode> sont conçues pour être utilisées avec l'élément <incode>&lt;button&gt;</incode>. Cependant, vous pouvez également utiliser ces classes sur des éléments <incode>&lt;a&gt;</incode> ou <incode>&lt;input&gt;</incode>.</p>
 <img src="images/html_tag_with_btn.png" alt="Exemples de plusieurs balise HTML qui peuvent utiliser la classe .btn">
 <highlight lang="HTML">&lt;a class=&quot;btn btn-primary&quot; href=&quot;#&quot; role=&quot;button&quot;&gt;Link&lt;/a&gt; 
 &lt;button class=&quot;btn btn-primary&quot; type=&quot;submit&quot;&gt;Button&lt;/button&gt; 
@@ -43,7 +43,7 @@
 <dots></dots>
 
 <grostitre>Style avec contour</grostitre>
-<p>Vous avez besoin d'un bouton, mais pas des couleurs d'arrière-plan pleines? Remplacez les classes de modificateur par défaut par <code>.btn-outline-…</code></p> 
+<p>Vous avez besoin d'un bouton, mais pas des couleurs d'arrière-plan pleines? Remplacez les classes de modificateur par défaut par <incode>.btn-outline-…</incode></p> 
 <img src="images/outlined_buttons.png" alt="Exemples de plusieurs boutons avec le styles outline.">
 <highlight lang="HTML">&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-primary&quot;&gt;Primary&lt;/button&gt; 
 &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-secondary&quot;&gt;Secondary&lt;/button&gt; 
@@ -58,7 +58,7 @@
 <dots></dots>
 
 <grostitre>Taille des boutons</grostitre>
-<p>Envie de boutons plus grands ou plus petits ? Ajoutez <code>.btn-lg</code> ou <code>.btn-sm</code> pour des tailles supplémentaires.​</p>
+<p>Envie de boutons plus grands ou plus petits ? Ajoutez <incode>.btn-lg</incode> ou <incode>.btn-sm</incode> pour des tailles supplémentaires.​</p>
 
 <img src="images/btn_large.png" alt="Boutons plus grands.">
 

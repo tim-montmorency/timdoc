@@ -82,7 +82,7 @@
 
 <alert>Toujours porter attention à l'ordre des liens vers les fichiers JavaScript dans votre HTML. D'abord la librarie "core" de GSAP, ensuite le fichier JavaScript personnalisé de votre projet.</alert>
 
-<warning>Ne pas oublier, au niveau performance, il est préférable de lier les fichiers JavaScript à la fin de la page HTML juste avant la fermeture de <code>&lt;/body&gt;</code>. <br>Pensez "Optimisation Web" ! 📈 🎯 ⚡</warning>
+<warning>Ne pas oublier, au niveau performance, il est préférable de lier les fichiers JavaScript à la fin de la page HTML juste avant la fermeture de <incode>&lt;/body&gt;</incode>. <br>Pensez "Optimisation Web" ! 📈 🎯 ⚡</warning>
 
 
 

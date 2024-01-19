@@ -15,9 +15,9 @@
 <dots></dots>
 
 <grostitre>Récupérer des posts</grostitre>
-<p>Pour récupérer des posts, il faut effectuer une nouvelle requête à WordPress via la fonction&nbsp;<code>WP_Query</code>&nbsp;et stocker son résultat dans une&nbsp;variable.</p>
+<p>Pour récupérer des posts, il faut effectuer une nouvelle requête à WordPress via la fonction&nbsp;<incode>WP_Query</incode>&nbsp;et stocker son résultat dans une&nbsp;variable.</p>
 
-<p>Par exemple, pour obtenir tous les posts de type&nbsp;<em>project</em>&nbsp;et les stockers dans une variable&nbsp;<code>$projects</code>, il est possible de&nbsp;faire:</p>
+<p>Par exemple, pour obtenir tous les posts de type&nbsp;<em>project</em>&nbsp;et les stockers dans une variable&nbsp;<incode>$projects</incode>, il est possible de&nbsp;faire:</p>
 
 <pre><code class="hljs php"><span class="hljs-meta">&lt;?php</span>
   <span class="hljs-variable">$projects</span> = <span class="hljs-keyword">new</span> WP_Query(<span class="hljs-string">'post_type=project'</span>);
@@ -30,7 +30,7 @@
 
 <dots></dots>
 <grostitre>Afficher les posts</grostitre>
-<p>À partir de cette variable, il est possible d'effectuer une boucle sur les projets retournés et d'accéder au contenu du projet courant comme si nous étions sur cette page directement, tant que le code est inscrit à l'intérieur de la boucle&nbsp;<code>while</code>.</p>
+<p>À partir de cette variable, il est possible d'effectuer une boucle sur les projets retournés et d'accéder au contenu du projet courant comme si nous étions sur cette page directement, tant que le code est inscrit à l'intérieur de la boucle&nbsp;<incode>while</incode>.</p>
 
 
 <pre><code class="hljs php"><span class="hljs-meta">&lt;?php</span>
@@ -43,7 +43,7 @@
 <span class="hljs-meta">&lt;?php</span>
   <span class="hljs-keyword">endwhile</span>; 
   wp_reset_postdata(); 
-<span class="hljs-meta">?&gt;</span></code></pre><p>Par exemple, si le titre de la page actuelle est&nbsp;<em>Projets</em>&nbsp;et que trois posts de type&nbsp;<em>project</em>&nbsp;sont créés avec pour titre respectif: Apollo, Barracuda et&nbsp;Canari.</p><p>La fonction&nbsp;<code>the_title()</code>&nbsp;retournera le titre du post courant soit&nbsp;<em>Projets</em>&nbsp;si elle est utilisée à l'extérieur de la boucle ou le titre de chacun des projets si elle est utilisée à l'intérieur de la&nbsp;boucle.</p><p>Par exemple:</p><pre><code class="hljs php">&lt;h1&gt;<span class="hljs-meta">&lt;?php</span> the_title(); <span class="hljs-meta">?&gt;</span>&lt;/h1&gt; &lt;!-- 👈 Titre page --&gt;
+<span class="hljs-meta">?&gt;</span></code></pre><p>Par exemple, si le titre de la page actuelle est&nbsp;<em>Projets</em>&nbsp;et que trois posts de type&nbsp;<em>project</em>&nbsp;sont créés avec pour titre respectif: Apollo, Barracuda et&nbsp;Canari.</p><p>La fonction&nbsp;<incode>the_title()</incode>&nbsp;retournera le titre du post courant soit&nbsp;<em>Projets</em>&nbsp;si elle est utilisée à l'extérieur de la boucle ou le titre de chacun des projets si elle est utilisée à l'intérieur de la&nbsp;boucle.</p><p>Par exemple:</p><pre><code class="hljs php">&lt;h1&gt;<span class="hljs-meta">&lt;?php</span> the_title(); <span class="hljs-meta">?&gt;</span>&lt;/h1&gt; &lt;!-- 👈 Titre page --&gt;
 
 <span class="hljs-meta">&lt;?php</span>
   <span class="hljs-variable">$projects</span> = <span class="hljs-keyword">new</span> WP_Query(<span class="hljs-string">'post_type=project'</span>);

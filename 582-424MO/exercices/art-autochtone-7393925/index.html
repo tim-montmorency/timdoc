@@ -132,15 +132,15 @@ Ajoutez Bootstrap version <em>5.2.3</em> au projet (via CDN).
 <grostitre>Navigation</grostitre>
 <checklist>
 Dans une balise <em>header</em>, ajoutez une barre de navigation <em>nav</em> (utilisez la composante de Bootstrap).
-Ajoutez les classes Bootstrap pour:<br>- Changer d'affichage vers la navigation complète à partir du breakpoint <code>MD</code><br>- Changer l'arrière-plan de la navbar pour du foncé (dark)<br>- Ajuster le thème de couleur de la navbar de sorte que le texte soit facilement lisible.<br>- La barre de navigation doit toujours être positionnée en haut de la page, peu importe le défilement de celle-ci.
+Ajoutez les classes Bootstrap pour:<br>- Changer d'affichage vers la navigation complète à partir du breakpoint <span class="inline-code">MD</span><br>- Changer l'arrière-plan de la navbar pour du foncé (dark)<br>- Ajuster le thème de couleur de la navbar de sorte que le texte soit facilement lisible.<br>- La barre de navigation doit toujours être positionnée en haut de la page, peu importe le défilement de celle-ci.
 Dans cette nav, ajoutez le type de conteneur qui aura une largeur FIXE différente en fonction de la dimension de l'écran et des breakpoints Bootstrap. 
 La barre doit contenir le logo à gauche. C'est la marque de commerce du site. <br><small>(Note: Conservez le h1 qui se trouve déjà autour de l'image du logo. Lorsqu'une page d'accueil n'a pas de titre visible, on entoure souvent le logo d'un h1 pour, sémantiquement, lui accorder un titre principal. Dans ce cas-ci, c'est le contenu du texte alternatif de l'image du logo.)</small>
 Dans la barre de navigation, ajoutez tous les liens comme il est présenté dans l'APERÇU (n'oubliez pas, tout le texte nécessaire est déjà présent dans la page index.html).
 N'oubliez pas le sous-menu de l'élément "Les artistes".
 Le lien "Don" sera un bouton Bootstrap. Appliquez-lui les classes Bootstrap nécessaires pour le styliser comme on le voit.
 Vous devez ajouter la classe utilitaire Bootstrap pour afficher tous les liens principaux en majuscule, mais pas ceux du sous-menu "Les artistes".
-Pour bien utiliser la composante de la barre de navigation Bootstrap, vous devez personnaliser le(s) <code>id</code> qu'elle contient. Il faut aussi ajuster les attributs qui leurs font référence (bref, je ne veux pas voir de simple copier-coller d'un bloc de code complet trouvé ailleurs). Par ailleurs, les classes Bootstrap pour la navBar doivent être conservées pour la rendre fonctionnelle.
-Si tout est bien mis en place, sur un écran plus petit que le breakpoint <code>MD</code>, on devra voir le bouton avec icône du "Burger menu" aligné tout à droite.
+Pour bien utiliser la composante de la barre de navigation Bootstrap, vous devez personnaliser le(s) <span class="inline-code">id</span> qu'elle contient. Il faut aussi ajuster les attributs qui leurs font référence (bref, je ne veux pas voir de simple copier-coller d'un bloc de code complet trouvé ailleurs). Par ailleurs, les classes Bootstrap pour la navBar doivent être conservées pour la rendre fonctionnelle.
+Si tout est bien mis en place, sur un écran plus petit que le breakpoint <span class="inline-code">MD</span>, on devra voir le bouton avec icône du "Burger menu" aligné tout à droite.
 </checklist>
 <!--
 
@@ -152,11 +152,11 @@ Tous les liens de la navigation doivent mener vers "#".
 <grostitre>Section Hero - Carrousel</grostitre>
 <checklist>
 Ajoutez la librarie SwiperJS au projet (via CDN).
-Ajoutez une balise <code>main</code> SOUS la balise <code>header</code>. Dans <code>main</code>, ajoutez 3 <code>section</code> une en dessous de l'autre, avec les <code>id</code> suivants: hero, presentation, actualite (sans accent).
-Dans la section <code>#hero</code>, ajoutez les balises nécessaires pour faire un carrousel avec Swiper. Il y aura 4 dispositives. Tout le contenu des diapositives est déjà dans la page, vous pouvez le récupérer.
-Conservez la classe <code>.swiper</code> sur le parent du carrousel.
-Stylisez la section <code>#hero</code> en CSS et lui attribuant la couleur de la variable <code>bs-light</code> en arrière-plan.
-Stylisez le carrousel <code>.swiper</code> en CSS pour lui donner une hauteur de 45 pourcent de la hauteur du <em>Viewport Height</em> et une largeur maximum de 1700px.
+Ajoutez une balise <span class="inline-code">main</span> SOUS la balise <span class="inline-code">header</span>. Dans <span class="inline-code">main</span>, ajoutez 3 <span class="inline-code">section</span> une en dessous de l'autre, avec les <span class="inline-code">id</span> suivants: hero, presentation, actualite (sans accent).
+Dans la section <span class="inline-code">#hero</span>, ajoutez les balises nécessaires pour faire un carrousel avec Swiper. Il y aura 4 dispositives. Tout le contenu des diapositives est déjà dans la page, vous pouvez le récupérer.
+Conservez la classe <span class="inline-code">.swiper</span> sur le parent du carrousel.
+Stylisez la section <span class="inline-code">#hero</span> en CSS et lui attribuant la couleur de la variable <span class="inline-code">bs-light</span> en arrière-plan.
+Stylisez le carrousel <span class="inline-code">.swiper</span> en CSS pour lui donner une hauteur de 45 pourcent de la hauteur du <em>Viewport Height</em> et une largeur maximum de 1700px.
 Ajoutez au carrousel une classe utilitaire Bootstrap pour le centrer dans un écran qui serait plus large que 1700px.
 Activez le carrousel en JavaScript avec les configurations suivantes:<br>- Transition par fondu enchaîné<br>- Doit jouer automatiquement et rester 2 secondes à la fois<br>- Doit tourner à l'infini <br>- Doit contenir une navigation précédent et suivant<br>- Doit contenir une pagination dans le bas (les petits ronds, comme on le voit dans l'APERÇU).
 Ajustez les images afin qu'elle s'affichent de façon la plus entière possible dans leur diapositive (peut-être rognée sur les côtés et ou dans le haut-bas). Fiez-vous toujours à l'aperçu.
@@ -166,11 +166,11 @@ Ajustez les images afin qu'elle s'affichent de façon la plus entière possible 
 <dots></dots>
 <grostitre>Section présentation</grostitre>
 <checklist>
-Dans la section<code>#presentation</code> que vous avez préalablement créée, ajoutez les balises et classes nécessaires pour une grille de mise en page Bootstrap de 4 colonnes.
+Dans la section<span class="inline-code">#presentation</span> que vous avez préalablement créée, ajoutez les balises et classes nécessaires pour une grille de mise en page Bootstrap de 4 colonnes.
 Par défaut, chaque colonne s'affiche sur toute la largeur de la page (donc elles s'affichent une en dessous de l'autre).
-À partir du <em>breakpoint</em> <code>MD</code>, chaque colonne s'affiche sur la moitié de la largeur de la page.
-À partir du <em>breakpoint</em> <code>XL</code>, chaque colonne s'affiche sur le quart de la largeur de la page.
-Dans chaque colonne ajoutez le texte. Les titres seront logés dans une balise <code>h2</code> mais avec une classe <code>.h4</code> pour leur donner un style plus petit même s'il sont sémantiquement des <code>h2</code>. Le texte qui suit, sera un paragraphe.
+À partir du <em>breakpoint</em> <span class="inline-code">MD</span>, chaque colonne s'affiche sur la moitié de la largeur de la page.
+À partir du <em>breakpoint</em> <span class="inline-code">XL</span>, chaque colonne s'affiche sur le quart de la largeur de la page.
+Dans chaque colonne ajoutez le texte. Les titres seront logés dans une balise <span class="inline-code">h2</span> mais avec une classe <span class="inline-code">.h4</span> pour leur donner un style plus petit même s'il sont sémantiquement des <span class="inline-code">h2</span>. Le texte qui suit, sera un paragraphe.
 Ajoutez des classes utilitaires Bootstrap pour créer l'espacement nécessaire entre chaque élément et section.
 </checklist>
 
@@ -180,13 +180,13 @@ Ajoutez des classes utilitaires Bootstrap pour créer l'espacement nécessaire e
 <dots></dots>
 <grostitre>Section Actualité - Cartes</grostitre>
 <checklist>
-Dans la section<code>#actualite</code> que vous avez préalablement créee, ajoutez les balises et classes nécessaires pour une grille de mise en page Bootstrap: une rangée d'une seule colonne qui inclura le titre et une autre rangée qui contiendra 3 colonnes et une dernière rangée d'une seule colonne qui contiendra le bouton "Toute l'actualité>>".
+Dans la section<span class="inline-code">#actualite</span> que vous avez préalablement créee, ajoutez les balises et classes nécessaires pour une grille de mise en page Bootstrap: une rangée d'une seule colonne qui inclura le titre et une autre rangée qui contiendra 3 colonnes et une dernière rangée d'une seule colonne qui contiendra le bouton "Toute l'actualité>>".
 Dans la rangée 2: Par défaut, chaque colonne s'affiche sur toute la largeur de la page (donc elles s'affichent une en dessous de l'autre).
-Dans la rangée 2: À partir du <em>breakpoint</em> <code>MD</code>, chaque colonne s'affiche sur la moitié de la largeur de la page.
-Dans la rangée 2: À partir du <em>breakpoint</em> <code>LG</code>, chaque colonne s'affiche sur le tier de la largeur de la page.
-Dans la rangée 1: Ajoutez le titre "Actualité". Il sera aussi de niveau 2.  Ajoutez les classes utilitaires Bootstrap pour créer l'espacement autour du titre. Ajoutez du CSS pour la "petite ligne" de couleur de la variable <code>bs-secondary</code>.
+Dans la rangée 2: À partir du <em>breakpoint</em> <span class="inline-code">MD</span>, chaque colonne s'affiche sur la moitié de la largeur de la page.
+Dans la rangée 2: À partir du <em>breakpoint</em> <span class="inline-code">LG</span>, chaque colonne s'affiche sur le tier de la largeur de la page.
+Dans la rangée 1: Ajoutez le titre "Actualité". Il sera aussi de niveau 2.  Ajoutez les classes utilitaires Bootstrap pour créer l'espacement autour du titre. Ajoutez du CSS pour la "petite ligne" de couleur de la variable <span class="inline-code">bs-secondary</span>.
 Dans votre grille, ajoutez des cartes (card) Bootstrap et toutes les balises et classes nécessaires sur le contenu.
-L'entité de la <code>.card</code> doit être un lien qui mène à "#". Utilisez la balise appropriée.
+L'entité de la <span class="inline-code">.card</span> doit être un lien qui mène à "#". Utilisez la balise appropriée.
 En CSS, ajustez l'image de la carte, elle doit avoir une hauteur maximum de 200px et vous devez positionner les images dans leur cadre comme elles sont présentées dans l'APERÇU.
 Les titres dans les cartes seront de niveau 3.
 Ajoutez des classes utilitaires Bootstrap pour créer l'espacement nécessaire entre chaque élément et section.
@@ -198,10 +198,10 @@ Dans la rangée 3: Ajoutez le texte "Toute l'actualité>>" et ajoutez les classe
 <dots></dots>
 <grostitre>Pied de page</grostitre>
 <checklist>
-Si ce n'est pas déjà le cas, déplacez la balise existante <code>footer</code> sous la balise <code>main</code>.
+Si ce n'est pas déjà le cas, déplacez la balise existante <span class="inline-code">footer</span> sous la balise <span class="inline-code">main</span>.
 Ajoutez les balises et classes nécessaires pour une grille de mise en page Bootstrap de 3 colonnes.
 Par défaut les colonnes s'affichent sur toute la largeur de la page (donc elles s'affichent une en dessous de l'autre)
-À partir du breakpoint <code>LG</code>, elles s'affichent les 3 une à côté de l'autre. 
+À partir du breakpoint <span class="inline-code">LG</span>, elles s'affichent les 3 une à côté de l'autre. 
 Vous pouvez travailler avec le principe de décallage (offset) de Bootstrap pour placer la 2e colonnes qui contient le menu.
 Déposez simplement le contenu textuel qui est prévu pour chaque colonne. 
 Nul besoin de styliser le texte, il l'est déjà fait.

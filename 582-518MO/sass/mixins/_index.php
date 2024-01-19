@@ -7,7 +7,7 @@
  * @index 25
  */
 ?>
-<p>Les mixins permettent de créer des extraits de CSS pouvant être réutilisés à différents endroits grâce à <code>@include</code>.</p>
+<p>Les mixins permettent de créer des extraits de CSS pouvant être réutilisés à différents endroits grâce à <incode>@include</incode>.</p>
 
 <p>Par exemple, il est possible de se créer une mixin rendant une image responsive.</p>
 
@@ -34,7 +34,7 @@
 <dots></dots>
 <grostitre>Arguments</grostitre>
 <p>Les mixins acceptent de recevoir des arguments. Ces derniers sont ensuite disponibles dans le corps de la mixin, rendant ainsi leur usage plus flexible.</p>
-<p>Par exemple, afin d'ajoutez un <code>max-width</code> variant selon différents scénarios, il n'est pas nécessaire de créer plusieurs mixins. L'ajout d'un argument permettra de réutiliser la même.</p>
+<p>Par exemple, afin d'ajoutez un <incode>max-width</incode> variant selon différents scénarios, il n'est pas nécessaire de créer plusieurs mixins. L'ajout d'un argument permettra de réutiliser la même.</p>
 
 <highlight lang='css'>@mixin responsive-img($max) {
   display: block; 
@@ -87,7 +87,7 @@
 
 
 
-<p>Ainsi, le fait de nommé <code>$max</code> dans l'appel de la mixin permet de spécifier que la valeur 300px n'est pas pour <code>$display</code>, mais bien <code>$max</code>, même si ce dernier est le 2<sup>e</sup> argument.</p>
+<p>Ainsi, le fait de nommé <incode>$max</incode> dans l'appel de la mixin permet de spécifier que la valeur 300px n'est pas pour <incode>$display</incode>, mais bien <incode>$max</incode>, même si ce dernier est le 2<sup>e</sup> argument.</p>
 
 <doclink href='https://sass-lang.com/documentation/at-rules/mixin#arguments'>Arguments</doclink>
 

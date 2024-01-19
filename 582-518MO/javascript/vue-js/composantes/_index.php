@@ -13,7 +13,7 @@
 <grostitre>Définir une composante</grostitre>
 
 
-<p>Pour définir une composante, il suffit d’appeler la méthode <code>component</code> d’une application Vue et de lui passer deux paramètres: </p>
+<p>Pour définir une composante, il suffit d’appeler la méthode <incode>component</incode> d’une application Vue et de lui passer deux paramètres: </p>
 
 
 <ol start="1">
@@ -92,7 +92,7 @@ app.component('counter', {
 <grostitre>Props</grostitre>
 <p>Les props sont des données passées à une composante. Pour en définir, il faut spécifier le nom des props attendus dans un tableau.</p>
 
-<p>Par exemple, si seulement la props <code>msg</code> est attendu: </p>
+<p>Par exemple, si seulement la props <incode>msg</incode> est attendu: </p>
 
 <highlight lang='javascript'>app.component('counter', {
   props: ['msg'],
@@ -116,7 +116,7 @@ app.component('counter', {
 
 
 
-<p>Lorsqu'une <code>props</code> est passée à une composante, elle devient l'équivalent d'une donnée dans <code>data</code>.</p>
+<p>Lorsqu'une <incode>props</incode> est passée à une composante, elle devient l'équivalent d'une donnée dans <incode>data</incode>.</p>
 
 <doclink href='https://vuejs.org/guide/components/props.html#prop-types'>Props</doclink>
 

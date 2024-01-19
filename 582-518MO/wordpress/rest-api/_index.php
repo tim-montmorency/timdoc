@@ -16,7 +16,7 @@
 <dots></dots>
 <grostitre>Utilisation de base</grostitre>
       
-<p>Par défaut, le Rest API est déjà présent sur tout site WordPress. Pour y avoir accès, il suffit d'ajouter&nbsp;<code>/wp-json/wp/v2/</code>&nbsp;à la fin de l'url du site en&nbsp;question.</p>
+<p>Par défaut, le Rest API est déjà présent sur tout site WordPress. Pour y avoir accès, il suffit d'ajouter&nbsp;<incode>/wp-json/wp/v2/</incode>&nbsp;à la fin de l'url du site en&nbsp;question.</p>
 
 <p>Par exemple:</p>
 
@@ -54,15 +54,15 @@
 
 <p>Qui retournera un JSON ne contenant que les pages&nbsp;publiées.</p>
 
-<p>Dans cet exemple, la partie&nbsp;<code>https://site.com/wp-json/wp/v2</code>&nbsp;correspond à l'URL de base de l'API. Tandis que&nbsp;<code>/pages</code>&nbsp;est la route spécifiant que seuls les contenus de type&nbsp;<em>page</em>&nbsp;doivent-être&nbsp;retourné.</p>
+<p>Dans cet exemple, la partie&nbsp;<incode>https://site.com/wp-json/wp/v2</incode>&nbsp;correspond à l'URL de base de l'API. Tandis que&nbsp;<incode>/pages</incode>&nbsp;est la route spécifiant que seuls les contenus de type&nbsp;<em>page</em>&nbsp;doivent-être&nbsp;retourné.</p>
 
-<p>Si un autre type de publication doit être retourné. Par exemple, les articles, ou en anglais&nbsp;<em>posts</em>, il suffit de spécifier une route&nbsp;différente.</p><p>Par exemple:&nbsp;<code>/posts</code>.</p>
+<p>Si un autre type de publication doit être retourné. Par exemple, les articles, ou en anglais&nbsp;<em>posts</em>, il suffit de spécifier une route&nbsp;différente.</p><p>Par exemple:&nbsp;<incode>/posts</incode>.</p>
 
 <pre><code class="hljs javascript">https:<span class="hljs-comment">//site.com/wp-json/wp/v2/posts</span></code></pre>
 <br>
 <p>Il est possible de spécifier des routes encore plus précises. Notamment en spécifiant l'ID de la publication&nbsp;désirée.</p>
 
-<p>Par exemple, si seulement la page avec le ID 10 est requis, il est possible de spécifier la route&nbsp;<code>/pages/10</code>.</p>
+<p>Par exemple, si seulement la page avec le ID 10 est requis, il est possible de spécifier la route&nbsp;<incode>/pages/10</incode>.</p>
 
 <pre><code class="hljs javascript">https:<span class="hljs-comment">//site.com/wp-json/wp/v2/pages/10</span></code></pre>
 
@@ -78,12 +78,12 @@
 
 <h3 class="heading heading--h3" id="orderby">orderby</h3>
 
-<p>Pour trier les résultats d’une requête, il faut ajouter des paramètres à l’URL fournie à la requête fetch. Un premier <code>orderby</code> permet d'indiquer le critère devant être utilisé afin de trier les résultats. Il est entre autres possible de trier par:</p>
+<p>Pour trier les résultats d’une requête, il faut ajouter des paramètres à l’URL fournie à la requête fetch. Un premier <incode>orderby</incode> permet d'indiquer le critère devant être utilisé afin de trier les résultats. Il est entre autres possible de trier par:</p>
 
 <ul>
-    <li><p>Titre <code>title</code></p></li>
-    <li><p>Identifiant <code>id</code></p></li>
-    <li><p>Date de publication <code>date</code></p></li>
+    <li><p>Titre <incode>title</incode></p></li>
+    <li><p>Identifiant <incode>id</incode></p></li>
+    <li><p>Date de publication <incode>date</incode></p></li>
     <li><p>Etc.</p></li>
 </ul>
     
@@ -94,7 +94,7 @@
 
 <h3 class="heading heading--h3" id="order">order</h3>
 
-<p>Il est aussi de spécifier l’ordre dans lequel les posts devraient être triés via le paramètre <code>order </code>permettant de spécifier si les résultats doivent être triés par:</p>
+<p>Il est aussi de spécifier l’ordre dans lequel les posts devraient être triés via le paramètre <incode>order </incode>permettant de spécifier si les résultats doivent être triés par:</p>
 <ul>
     <li><p>ordre croissant asc </p></li>
     <li><p>ordre décroissant desc</p></li>
@@ -119,7 +119,7 @@
 <dots></dots>
 <grostitre>Featured Image</grostitre>
 
-<p>Par défaut, un objet correspondant à un post dans le JSON ne contient que le id du featured image lui étant associé. Pour obtenir plus d’informations concernant ce featured image, il faut le spécifier dans l’URL fournie à fetch en lui ajoutant le paramètre <code>_embed</code>. </p>
+<p>Par défaut, un objet correspondant à un post dans le JSON ne contient que le id du featured image lui étant associé. Pour obtenir plus d’informations concernant ce featured image, il faut le spécifier dans l’URL fournie à fetch en lui ajoutant le paramètre <incode>_embed</incode>. </p>
 
 
 <p>Par exemple: </p>
@@ -127,7 +127,7 @@
 <pre><code class="hljs javascript"><a href="https://site.com/wp-json/wp/v2/posts?_embed">https:<span class="hljs-comment">//site.com/wp-json/wp/v2/posts?_embed</span></a><span class="hljs-comment"> </span></code></pre>
 <br><br>
 
-<p>Chaque post sera alors bonifié d’une propriété nommée <code>_embedded</code> contenant une sous-propriété intitulée <code>wp:featuredmedia</code>. Celle-ci est un tableau contenant des objets correspondant à chaque featured image associée au post. </p>
+<p>Chaque post sera alors bonifié d’une propriété nommée <incode>_embedded</incode> contenant une sous-propriété intitulée <incode>wp:featuredmedia</incode>. Celle-ci est un tableau contenant des objets correspondant à chaque featured image associée au post. </p>
 
 
 <info>Certaines extensions permettent d’ajouter plus d’une featured image, d’où pourquoi un tableau est&nbsp;retourné.</info>
@@ -168,7 +168,7 @@
 <dots></dots>
 <grostitre>Affichage</grostitre>
 <p>Une fois les JSONs désirés identifiés, il ne reste plus qu'à afficher leurs&nbsp;informations!</p>
-<p>Par exemple, dans la page&nbsp;<em>single.php</em>&nbsp;servant à afficher les articles, il serait possible de déclarer une balise&nbsp;<code>&lt;script&gt;</code>&nbsp;et d'effectuer un&nbsp;<a target="_blank" rel="noopener noreferrer" href="/cours/javascript/fetch">fetch</a>&nbsp;afin de récupérer les informations de l'article&nbsp;courant:</p>
+<p>Par exemple, dans la page&nbsp;<em>single.php</em>&nbsp;servant à afficher les articles, il serait possible de déclarer une balise&nbsp;<incode>&lt;script&gt;</incode>&nbsp;et d'effectuer un&nbsp;<a target="_blank" rel="noopener noreferrer" href="/cours/javascript/fetch">fetch</a>&nbsp;afin de récupérer les informations de l'article&nbsp;courant:</p>
 
 
 <pre><code class="hljs javascript">fetch(<span class="hljs-string">"/wp-json/wp/v2/posts/&lt;?php the_ID(); ?&gt;"</span>)
@@ -176,7 +176,7 @@
   .then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(data));</code></pre>
 
 <br><br>
-<info><code>the_ID()</code> est une fonction de WordPress retournant le id de la page courante, ex:&nbsp;10.</info>
+<info><incode>the_ID()</incode> est une fonction de WordPress retournant le id de la page courante, ex:&nbsp;10.</info>
 
 
 <aside class="exercice-card">

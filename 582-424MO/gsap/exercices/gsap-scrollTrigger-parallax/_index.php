@@ -22,7 +22,7 @@
 <grostitre>Requis</grostitre>
 
 <checklist>
-Pour chaque élément ayant la classe <em>.parallax-bg</em>, récupérez leur valeur de l'attribut de donnée <code>data-vitesse</code> et stockez les, chacune dans une variable.
+Pour chaque élément ayant la classe <em>.parallax-bg</em>, récupérez leur valeur de l'attribut de donnée <incode>data-vitesse</incode> et stockez les, chacune dans une variable.
 Au défilement de la page, faites en sorte que les 3 couches ayant chacune la classe <em>.parallax-bg</em> se déplacent sur l'axe vertical vers le haut, à des vitesses différentes (utilisez vos variables de l'étape 1), afin de simuler l'effet de profondeur.
 Faites en sorte que l'animation reviennne en arrière si on remonte, qu'elle soit syncronisée avec la position de la barre de défilement de la page.
 
