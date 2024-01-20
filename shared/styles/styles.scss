@@ -543,7 +543,7 @@ table{
         max-width: 200px;
         min-height: 100%;
         // background-image: linear-gradient(to right, #111111, #000000);
-        background-image: linear-gradient(to right, #e1e4f2ff, #e1e4f200);
+        background-image: linear-gradient(to right, #e1e4f227, #e1e4f200);
         
         
         ul {
@@ -608,7 +608,7 @@ table{
             cursor: pointer;
 
             transition-property: transform;
-            transition-duration: 200ms;
+            transition-duration: 150ms;
             &.show {
                 transform: rotate(-90deg);
             }

@@ -1968,7 +1968,7 @@ table.table-couleurs .color {
 #wiki__list {
   max-width: 200px;
   min-height: 100%;
-  background-image: linear-gradient(to right, #e1e4f2, rgba(225, 228, 242, 0));
+  background-image: linear-gradient(to right, rgba(225, 228, 242, 0.1529411765), rgba(225, 228, 242, 0));
 }
 #wiki__list ul {
   position: -webkit-sticky;
@@ -2022,7 +2022,7 @@ table.table-couleurs .color {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' viewBox='0 0 123 104'%3E%3Cpath fill='%23ff003a' fill-rule='evenodd' d='M10 0h103c5 0 10 5 10 10 0 6-5 11-10 11H10C5 21 0 16 0 10 0 5 5 0 10 0zm0 83h103c5 0 10 5 10 10 0 6-5 11-10 11H10c-5 0-10-5-10-11 0-5 5-10 10-10zm0-42h103c5 0 10 5 10 11s-5 10-10 10H10C5 62 0 58 0 52s5-11 10-11z' clip-rule='evenodd'/%3E%3C/svg%3E");
     cursor: pointer;
     transition-property: transform;
-    transition-duration: 200ms;
+    transition-duration: 150ms;
   }
   #wiki__burger.show {
     transform: rotate(-90deg);
