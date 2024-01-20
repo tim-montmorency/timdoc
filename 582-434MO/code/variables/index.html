@@ -99,16 +99,16 @@
 <highlight lang="csharp">public int[] myInts = { 0, 2, 3 };</highlight>
 <p>Ici, on a créé un tableau de 3 variables int. On a assigné les valeurs dès qu'on a créé la variable.</p>
 <highlight lang="csharp">myInts = new int[4]; 
-        for(int i = 0; i &lt; 4; i++)
-        {
-            myInts[i] = 0; 
-        }</highlight>
+for(int i = 0; i &lt; 4; i++)
+{
+	myInts[i] = 0; 
+}</highlight>
 <p>Ici, on a créé un tableau avec 4 int, puis on a donné la valeur 0 à chacun de ces int grâce à une boucle. On aurait aussi pu donner une valeur différente à chacun avec la méthode suivante:</p>
 <highlight lang="csharp">myInts = new int[4];
-        myInts[0] = 2;
-        myInts[1] = 4;
-        myInts[2] = 5;
-        myInts[3] = 1;</highlight>
+myInts[0] = 2;
+myInts[1] = 4;
+myInts[2] = 5;
+myInts[3] = 1;</highlight>
 
         <info>Il est possible de créer des tableaux avec les variables Unity que nous verrons ci-bas. Si on crée un tableau public, on a pas à dire tout de suite sa taille. Par exemple, je pourrais créer un tableau de GameObject et ensuite simplement glisser autant d'objets que je souhaite dans celui-ci dans l'inspecteur.</info>
 
