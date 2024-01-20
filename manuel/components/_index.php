@@ -148,11 +148,13 @@
 <h3>exercice</h3>
 <highlight lang="html">&lt;exercice href="exercices/flexbox-defense"&gt;&lt;/exercice&gt;</highlight>
 <exercice href="exercices/flexbox-defense"></exercice>
+<warning>Le rendu de cette composante est effectué par le pré-processeur.</warning>
 <br><br>
 
 <h3>tool</h3>
 <highlight lang="html">&lt;tool href="tools/css-gradient"&gt;&lt;/tool&gt;</highlight>
 <tool href="tools/css-gradient"></tool>
+<warning>Le rendu de cette composante est effectué par le pré-processeur.</warning>
 <br><br>
 
 <h3>knowmore</h3>
@@ -191,12 +193,15 @@
 <h3>incode</h3>
 <highlight lang="html">Utilisez la proprité <incode>transform</incode>.</highlight>
 Utilisez la proprité <incode>transform</incode>.<br>
+<warning>Le rendu de cette composante est effectué par le pré-processeur.</warning>
 <br><br>
 
 <h3>highlight</h3>
 <highlight lang="html">&lt;highlight lang="javascript"&gt;console.log("Ceci est du javascript");&lt;/highlight&gt;</highlight>
 <highlight lang="javascript">console.log("Ceci est du javascript");</highlight>
+<warning>Le rendu de cette composante est effectué par le pré-processeur.</warning>
 <doclink href="https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md ">Languages supportés</doclink>
+
 
 <dots></dots>
 

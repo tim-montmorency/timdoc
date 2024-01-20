@@ -1080,11 +1080,23 @@ app.component('highlight', {
             document.getElementById('wiki-page__' + id).classList.add('active');
             localStorage.setItem('wiki-' + this.hash + '-active', id);
             this.active = id;
+            this.$refs.burger.classList.remove('show');
+            this.$refs.list.classList.remove('show');
+        },
+        toggleBurger() {
+            if(this.$refs.burger.classList.contains('show')) {
+                this.$refs.burger.classList.remove('show');
+                this.$refs.list.classList.remove('show');
+            } else {
+                this.$refs.burger.classList.add('show');
+                this.$refs.list.classList.add('show');
+            }
         }
     },
     template: `
         <div id="wiki">
-            <div id="wiki__list">
+            <div id="wiki__burger" ref="burger" @click="toggleBurger()"></div>
+            <div id="wiki__list" ref="list">
                 <ul>
                     <li v-for="el in this.pages"><a :id="'wiki-list__' + el.id" @click="setActivePage(el.id)" href="#">{{ el.name }}</a><span>&nbsp;&#x1f4da;</span></li>
                 </ul>

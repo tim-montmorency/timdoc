@@ -40,7 +40,7 @@
 @media (min-width: 576px) {
   .intlink__item {
     height: 60px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
 }
 .intlink__item__icon {
@@ -1962,8 +1962,11 @@ table.table-couleurs .color {
   display: flex;
   min-height: 100%;
 }
+#wiki__burger {
+  display: none;
+}
 #wiki__list {
-  min-width: 200px;
+  max-width: 200px;
   min-height: 100%;
   background-image: linear-gradient(to right, #e1e4f2, rgba(225, 228, 242, 0));
 }
@@ -1978,6 +1981,7 @@ table.table-couleurs .color {
           user-select: none;
 }
 #wiki__list ul li {
+  white-space: nowrap;
   margin-bottom: 20px;
   list-style-type: none;
   font-size: 16px;
@@ -2004,6 +2008,35 @@ table.table-couleurs .color {
   display: block;
 }
 
+@media (max-width: 576px) {
+  #wiki__burger {
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 25px;
+    top: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' viewBox='0 0 123 104'%3E%3Cpath fill='%23ff003a' fill-rule='evenodd' d='M10 0h103c5 0 10 5 10 10 0 6-5 11-10 11H10C5 21 0 16 0 10 0 5 5 0 10 0zm0 83h103c5 0 10 5 10 10 0 6-5 11-10 11H10c-5 0-10-5-10-11 0-5 5-10 10-10zm0-42h103c5 0 10 5 10 11s-5 10-10 10H10C5 62 0 58 0 52s5-11 10-11z' clip-rule='evenodd'/%3E%3C/svg%3E");
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: 200ms;
+  }
+  #wiki__burger.show {
+    transform: rotate(-90deg);
+  }
+  #wiki__list {
+    display: none;
+  }
+  #wiki__list.show {
+    display: block;
+  }
+  #wiki__list ul {
+    padding: 25px 0 25px 25px;
+  }
+}
 .chiffres-svg {
   width: 30px;
   height: 30px;

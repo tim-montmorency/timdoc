@@ -534,8 +534,13 @@ table{
     display: flex;
     min-height: 100%;
     
+    &__burger {
+        display: none;
+    }
+
+
     &__list {
-        min-width: 200px;
+        max-width: 200px;
         min-height: 100%;
         // background-image: linear-gradient(to right, #111111, #000000);
         background-image: linear-gradient(to right, #e1e4f2ff, #e1e4f200);
@@ -548,6 +553,7 @@ table{
             user-select: none;
             
             li {
+                white-space: nowrap;
                 margin-bottom: 20px;
                 list-style-type: none;
                 font-size: 16px;
@@ -582,6 +588,45 @@ table{
         }
     }
 
+}
+
+
+@media (max-width: 576px)  {
+    #wiki {
+        &__burger {
+            display: block;
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            right: 25px;
+            top: 25px;
+            // background-color: red;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' viewBox='0 0 123 104'%3E%3Cpath fill='%23ff003a' fill-rule='evenodd' d='M10 0h103c5 0 10 5 10 10 0 6-5 11-10 11H10C5 21 0 16 0 10 0 5 5 0 10 0zm0 83h103c5 0 10 5 10 10 0 6-5 11-10 11H10c-5 0-10-5-10-11 0-5 5-10 10-10zm0-42h103c5 0 10 5 10 11s-5 10-10 10H10C5 62 0 58 0 52s5-11 10-11z' clip-rule='evenodd'/%3E%3C/svg%3E");
+            cursor: pointer;
+
+            transition-property: transform;
+            transition-duration: 200ms;
+            &.show {
+                transform: rotate(-90deg);
+            }
+
+        }
+
+        &__list {
+            display: none;
+            &.show {
+                display: block;
+            }
+
+            ul {
+                padding: 25px 0 25px 25px;
+            }
+
+        }
+    }
 }
 
 .chiffres-svg{
