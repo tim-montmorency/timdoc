@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>@font-face</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop()">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../../">Intégration Web</a> > <a href="../">CSS</a> ></div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;@font-face</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Par défaut, le choix de <a target="_blank" href="https://www.cssfontstack.com/">polices natives compatibles sur tous les appareils est relativement limité</a>. Heureusement, il est possible d'importer des polices externes afin de contourner cette limitation via <span class="inline-code">@font-face</span>.</p>
+
+<p>La règle <span class="inline-code">@font-face</span> permet d'importer une police sur une page en spécifiant où la police est située et sous quel nom y faire référence.</p>
+
+<highlight lang="css">@font-face {
+  src: url(&quot;/polices/bebas.woff2&quot;) format(&quot;woff2&quot;);
+  font-family: &quot;Bebas&quot;;
+}</highlight>
+
+<info>Placer ses règles <span class="inline-code">@font-face</span> en début de fichier CSS permet de s’assurer que la police soit importée avant qu’un style y fasse référence.</info>
+
+<dots></dots>
+
+
+<grostitre>src</grostitre>
+
+<p>La propriété <span class="inline-code">src</span> dans cet exemple indique au navigateur que la police se nomme <span class="inline-code">bebas.woff2</span> et se trouve dans un dossier intitulé <span class="inline-code">polices</span>.</p>
+
+<warning>Si votre nom contient des espaces, il faudra obligatoirement utiliser des guillemets autour de celui-ci.</warning>
+
+<dots></dots>
+
+
+<grostitre>format</grostitre>
+
+<p><span class="inline-code">format</span> est un complément à <span class="inline-code">src</span>. Il permet au navigateur de connaître le format de la police et de savoir s'il est en mesure de le supporter.</p>
+
+<p>Voici une liste des extensions de polices les plus fréquentes et leur format associés:</p>
+
+<table>
+	<tr>
+		<th>FICHIER</th>
+		<th>FORMAT</th>
+	</tr>
+	<tr>
+		<td>bebas.woff2</td>
+		<td>format('woff2')</td>
+	</tr>
+	<tr>
+		<td>bebas.woff</td>
+		<td>format('woff')</td>
+	</tr>
+	<tr>
+		<td>bebas.ttf</td>
+		<td>format('truetype')</td>
+	</tr>
+	<tr>
+		<td>bebas.otf</td>
+		<td>format('opentype')</td>
+	</tr>
+	<tr>
+		<td>bebas.eot</td>
+		<td>format('eot')</td>
+	</tr>
+	<tr>
+		<td>bebas.svg</td>
+		<td>format('svg')</td>
+	</tr>
+</table>
+
+        <a class="tool" target="_blank" href="https://onlinefontconverter.com/">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">Online Font Converter</span>
+                    <span class="tool-description">Convertir une fonte dans un format spécifique.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(tools/online-font-converter/images/thumb.jpg)"></div>
+            </div>
+        </a>
+
+<dots></dots>
+
+
+<grostitre>font-family</grostitre>
+
+<p>La propriété <span class="inline-code">font-family</span>, à l'intérieur d'une règle @font-face, permet de spécifier le nom attribué à la police importée. Ce nom sera ensuite utilisé afin de faire référence à la police.</p>
+
+<p>Il est conseillé d'utiliser le nom de la police afin d'éviter toute confusion, comme dans l'exemple précédent, la police est simplement nommée <em>"Bebas"</em> comme son fichier <em>(bebas.woff2)</em>. Néanmoins, ce nom pourrait théoriquement être n'importe quoi.</p>
+
+<p>Par exemple <em>"Super police"</em>:</p>
+
+<highlight lang="css">@font-face {
+  src: url(&quot;/polices/bebas.woff2&quot;) format(&quot;woff2&quot;);
+  font-family: &quot;Super Police&quot;;
+}</highlight>
+
+<dots></dots>
+
+
+<grostitre>Utilisation</grostitre>
+
+<p>Une fois importée, la police peut être utilisée sur différents éléments.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="css">@font-face {
+  src: url(&quot;/polices/bebas.woff2&quot;) format(&quot;woff2&quot;);
+  font-family: &quot;Bebas&quot;;
+}
+
+...
+
+.title {
+  font-family: &quot;Bebas&quot;;
+}</highlight>
+
+<p>Dans cet exemple, les éléments avec la classe <span class="inline-code">.title</span> utilisent la police <em>Bebas</em>.</p>
+
+<dots></dots>
+
+
+<grostitre>Substitution</grostitre>
+
+<p>Puisque les navigateurs ne supportent pas tous les mêmes formats de police, il est courant que plusieurs sources soient fournies. Dans ce cas, le navigateur utilisera le premier format de police compatible rencontré.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="css">@font-face {
+  font-family: &quot;Ma police&quot;;
+  src: url(&quot;/polices/bebas.woff2&quot;) format(&quot;woff2&quot;),
+       url(&quot;/polices/bebas.otf&quot;) format(&quot;opentype&quot;);
+}</highlight>
+
+<dots></dots>
+
+
+<grostitre>Variations</grostitre>
+
+<p>Si une police contient plusieurs fichiers, chacun de ces fichiers correspond à une variation de la police. Par exemple, normal, italique, gras <em>(bold)</em>, etc. Dans ce cas, il est nécessaire de définir une règle <span class="inline-code">@font-face</span> pour chacun des fichiers.</p>
+
+<p>Pour chacune de ces règles, la propriété <span class="inline-code">font-family</span> doit être la même puisqu'il s'agit de la même police. Cependant, une propriété supplémentaire, telle que: <span class="inline-code">font-style</span> ou <span class="inline-code">font-weight</span> doit être ajoutée afin d'indiquer la variation en question. Si aucune propriété supplémentaire n'est spécifiée, le navigateur conclura qu'il s'agit du style par défaut <em>(normal)</em>, de la police.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="css">@font-face {
+  src: url(&quot;/polices/bebas-400.woff2&quot;) format(&quot;woff2&quot;);
+  font-family: &quot;Bebas&quot;;
+}
+
+@font-face {
+  src: url(&quot;/polices/bebas-700.woff2&quot;) format(&quot;woff2&quot;);
+  font-family: &quot;Bebas&quot;;
+  font-weight: bold; /* 👈 Variation sp&eacute;cifi&eacute;e */
+}</highlight>
+
+<info>Une police importée via <span class="inline-code">@font-face</span> devrait être fonctionnelle même si elle n’est pas installée sur votre ordinateur. Le but premier est de rendre la police disponible aux utilisateurs visitant la page même s’ils n’ont pas la police d’installer sur leur ordinateur.</info>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/@font-face">@font-face</doclink>
+<doclink href="https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp">@font-face</doclink>
+
+<dots></dots>
+
+        <a class="tool" target="_blank" href="https://www.dafont.com/fr/">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">DaFont</span>
+                    <span class="tool-description">Collection de polices web.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(tools/dafont/images/thumb.jpg)"></div>
+            </div>
+        </a>
+        <a class="exercice" target="_blank" href="exercices/la-guerre-la-guerre/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/la-guerre-la-guerre/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">@font-face - La guerre, la guerre</span>
+                    <span class="exercice-description">Pour cet exercice, vous devrez recréer en CSS une mise en page inspirée d’une murale thématique La guerre des tuques réalisée par l’artiste Marc Sirus.</span>
+                </div>
+            </div>
+        </a>
+
+<dots></dots>
+
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>
