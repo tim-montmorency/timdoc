@@ -40,7 +40,7 @@
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
                 <div id="breadcrumb"><a href="../">Manuel</a> ></div>
-                <h1 id="title"><img src="images/icon.png">&nbsp;Composantes</h1>
+                <h1 id="title"><img src="images/icon.webp">&nbsp;Composantes</h1>
             </div>
             <article>
                 <div id="contents">
@@ -59,8 +59,6 @@
 
 <highlight lang="html">&lt;grostitre&gt;Titre de section&lt;/grostitre&gt;</highlight>
 
-
-
 <h3>dots</h3>
 
 <p>La composante <span class="inline-code">&lt;dots&gt;</span> est utilisée pour séparer les différentes sections d'une page.</p>
@@ -69,6 +67,28 @@
 
 <dots></dots>
 
+
+<grostitre>Navigation</grostitre>
+
+<h3>children</h3>
+
+<p>La balise <span class="inline-code">&lt;children&gt;&lt;/children&gt;</span> permet de lister les sous-dossier d'une page. Cette composante ne doit être utilisée qu'a l'intérieur d'une page de type <span class="inline-code">list</span>.</p>
+
+<highlight lang="html">&lt;?php
+/**
+ * @type     list
+ * @title    Manuel
+ * @icon     images/icon.png
+ * @abstract Installation et d&eacute;veloppement
+ */
+?&gt;
+&lt;children&gt;&lt;/children&gt;</highlight>
+
+<img class="full" src="./images/navigation.webp" alt="">
+
+<warning>Le rendu de cette composante est effectuée lors de la sauvegarde du fichier.</warning>
+
+<dots></dots>
 
 <grostitre>Bulles d'informations</grostitre>
 
@@ -120,6 +140,7 @@
                 <span class="intlink__item__abstract">Pour cet exercice, vous devez écrire du CSS afin de recréer la pochette de la bande sonore du film Lost Highway de David Lynch.</span>
             </div>
         </div>
+<warning>Le rendu de cette composante est effectuée lors de la sauvegarde du fichier.</warning>
 
 <h3>exercice</h3>
 <highlight lang="html">&lt;exercice href=&quot;exercices/flexbox-defense&quot;&gt;&lt;/exercice&gt;</highlight>
@@ -279,6 +300,13 @@ Utilisez la proprité <span class="inline-code">transform</span>.<br>
 <highlight lang="html">&lt;clip src=&quot;videos/le-boson-de-higgs.mp4&quot;&gt;&lt;/clip&gt;</highlight>
 <clip src="videos/le-boson-de-higgs.mp4" title="Qu'est-ce que le boson de Higgs?"></clip>
 <doclink href="../videos">Manuel / Vidéos</doclink>
+
+<h3>clipasset</h3>
+<p><span class="inline-code">&lt;clipasset&gt;</span> permet d'inclure un video inline en boucle. Il est conseillé d'avoir un vidéo d'une largeur maximale de <em>770px</em>. Il est aussi recommandé de bien compresser son vidéo avec la commande <span class="inline-code">FFMPEG</span> suivante:</p>
+<highlight lang="console">&gt; ffmpeg &quot;input.mp4&quot; -an -c:v libx264 -profile:v main -level:v 3.0 -pix_fmt yuv420p -preset veryslow -movflags faststart -crf 22 -vf &quot;scale=770:-1&quot; &quot;output.mp4&quot;</highlight>
+<highlight lang="html">&lt;clipasset src=&quot;./videos/king-crimson.mp4&quot;&gt;&lt;/clipasset&gt;</highlight>
+<clipasset src="./videos/king-crimson.mp4"></clipasset>
+
 <dots></dots>
 
 
@@ -297,8 +325,40 @@ Utilisez la proprité <span class="inline-code">transform</span>.<br>
 <dots></dots>
 
 
+<grostitre>Correction</grostitre>
+
+<p>Il est possible de créer un simulateur de correction avec les balises <span class="inline-code">correction</span> et <span class="inline-code">criteria</span>.</p>
+
+<h3>correction & criteria</h3>
+<highlight lang="html">&lt;correction scale=&quot;Excellent, Bon, Moyen, M&eacute;diocre, Absent&quot; value=&quot;10&quot;&gt;
+    &lt;criteria value=&quot;20&quot;&gt;Album&lt;/criteria&gt;
+    &lt;criteria value=&quot;20&quot;&gt;Textes&lt;/criteria&gt;
+    &lt;criteria value=&quot;20&quot;&gt;Mains&lt;/criteria&gt;
+    &lt;criteria value=&quot;20&quot;&gt;Transitions&lt;/criteria&gt;
+    &lt;criteria value=&quot;5&quot;&gt;D&eacute;brouillardise&lt;/criteria&gt;
+    &lt;criteria value=&quot;5&quot;&gt;Claret&eacute; du code&lt;/criteria&gt;
+    &lt;criteria value=&quot;5&quot;&gt;Suivi des consignes&lt;/criteria&gt;
+    &lt;criteria value=&quot;5&quot;&gt;Remise&lt;/criteria&gt;
+&lt;/correction&gt;</highlight>
+
+<correction scale="Excellent, Bon, Moyen, Médiocre, Absent" value="10">
+    <criteria value="20">Album</criteria>
+    <criteria value="20">Textes</criteria>
+    <criteria value="20">Mains</criteria>
+    <criteria value="20">Transitions</criteria>
+    <criteria value="5">Débrouillardise</criteria>
+    <criteria value="5">Clareté du code</criteria>
+    <criteria value="5">Suivi des consignes</criteria>
+    <criteria value="5">Remise</criteria>
+</correction>
+
+<dots></dots>
 
 
+<grostitre>Wiki</grostitre>
+
+
+<dots></dots>
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>

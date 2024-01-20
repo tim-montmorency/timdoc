@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Vidéos
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @index    0
  * @abstract Utiliser Github et Video.js
  */
@@ -38,7 +38,7 @@
 
 <highlight lang="dos">clipinfo.bat videos/le-boson-de-higgs.mp4</highlight>
 
-<img src="images/drag-and-drop.png">
+<img class="full" src="images/drag-and-drop.webp">
 
 <dots></dots>
 

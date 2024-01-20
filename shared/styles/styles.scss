@@ -317,6 +317,12 @@ footer {
         margin-right: auto;
         margin-bottom: 50px;
         max-width: 100%;
+
+        &.full {
+            max-width: calc(100% + 50px);
+            margin-left: -25px;
+            margin-right: -25px;
+        }
     }
     figure {
         margin-bottom: 50px;
@@ -515,13 +521,7 @@ table{
     article { width: 100%; max-width:770px; }
 }
 
-@media only screen and (max-width: 830px) {
-    .info__bubble { display: none; }
-    .warning__bubble { display: none; }
-    .alert__bubble { display: none; }
-    .thumbsup__bubble { display: none; }
-    .bravo__bubble { display: none; }
-}
+
 
 
 .video-container{

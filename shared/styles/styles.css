@@ -470,6 +470,11 @@ body.dark table tr:nth-child(even) td {
   margin-top: 0;
 }
 
+@media only screen and (max-width: 830px) {
+  .infobubble__bubble {
+    display: none;
+  }
+}
 .audioplayer {
   width: 770;
   height: 100px;
@@ -1459,6 +1464,10 @@ div.quote__title {
   height: 100%;
 }
 
+.correction {
+  margin-left: -25px;
+  margin-right: -25px;
+}
 .correction th {
   text-align: center;
   font-size: 1.1em;
@@ -1772,6 +1781,11 @@ footer #copyright {
   margin-bottom: 50px;
   max-width: 100%;
 }
+#contents img.full, #wiki__pages img.full {
+  max-width: calc(100% + 50px);
+  margin-left: -25px;
+  margin-right: -25px;
+}
 #contents figure, #wiki__pages figure {
   margin-bottom: 50px;
 }
@@ -1934,23 +1948,6 @@ table.table-couleurs .color {
   article {
     width: 100%;
     max-width: 770px;
-  }
-}
-@media only screen and (max-width: 830px) {
-  .info__bubble {
-    display: none;
-  }
-  .warning__bubble {
-    display: none;
-  }
-  .alert__bubble {
-    display: none;
-  }
-  .thumbsup__bubble {
-    display: none;
-  }
-  .bravo__bubble {
-    display: none;
   }
 }
 .video-container {

@@ -3,7 +3,7 @@
  * @index    7
  * @type     article
  * @title    PXPros
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract PHP Preprocessor
  */
 ?>
@@ -17,10 +17,10 @@
 <p>PXPros est un exécutable <em>statique</em>, il n'a besoin d'aucune dépendance. Il suffit de le placer dans dossier qui est dans les paths d'environnement ou encore ajouté son dossier dans les paths. Pour ce faire, pesez sur <em>WIN+R</em> et ensuite exécutez la commande <em>sysdm.cpl</em></p>
 
 <swiper>
-    images/run-system-properties.png
-    images/system-properties-advance.png
-    images/system-variables.png
-    images/add-path.png
+    images/run-system-properties.webp
+    images/system-properties-advance.webp
+    images/system-variables.webp
+    images/add-path.webp
 </swiper>
 
 <dots></dots>

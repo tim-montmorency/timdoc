@@ -3,7 +3,7 @@
  * @index    9
  * @type     article
  * @title    Composantes
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract Tout est préfait pour toi
  */
 ?>
@@ -21,8 +21,6 @@
 
 <highlight lang="html"><grostitre>Titre de section</grostitre></highlight>
 
-
-
 <h3>dots</h3>
 
 <p>La composante <incode>&lt;dots&gt;</incode> est utilisée pour séparer les différentes sections d'une page.</p>
@@ -31,6 +29,30 @@
 
 <dots></dots>
 
+
+<grostitre>Navigation</grostitre>
+
+<h3>children</h3>
+
+<p>La balise <incode><children></children></incode> permet de lister les sous-dossier d'une page. Cette composante ne doit être utilisée qu'a l'intérieur d'une page de type <incode>list</incode>.</p>
+
+<highlight lang="html">
+&lt;?php
+/**
+ * @type     list
+ * @title    Manuel
+ * @icon     images/icon.png
+ * @abstract Installation et développement
+ */
+?&gt;
+&lt;children&gt;&lt;/children&gt;
+</highlight>
+
+<img class="full" src="./images/navigation.webp" alt="">
+
+<warning>Le rendu de cette composante est effectuée lors de la sauvegarde du fichier.</warning>
+
+<dots></dots>
 
 <grostitre>Bulles d'informations</grostitre>
 
@@ -78,6 +100,7 @@
 <h3>intlink</h3>
 <highlight lang="html">&lt;intlink href=&quot;../../582-215MO/css/exercices/lost-highway/&quot;&gt;&lt;/intlink&gt;</highlight>
 <intlink href="../../582-215MO/css/exercices/lost-highway/"></intlink>
+<warning>Le rendu de cette composante est effectuée lors de la sauvegarde du fichier.</warning>
 
 <h3>exercice</h3>
 <highlight lang="html">&lt;exercice href="exercices/flexbox-defense"&gt;&lt;/exercice&gt;</highlight>
@@ -225,6 +248,13 @@ Utilisez la proprité <incode>transform</incode>.<br>
 <highlight lang="html"><clip src="videos/le-boson-de-higgs.mp4"></clip></highlight>
 <clip src="videos/le-boson-de-higgs.mp4" title="Qu'est-ce que le boson de Higgs?"></clip>
 <doclink href="../videos">Manuel / Vidéos</doclink>
+
+<h3>clipasset</h3>
+<p><incode><clipasset></incode> permet d'inclure un video inline en boucle. Il est conseillé d'avoir un vidéo d'une largeur maximale de <em>770px</em>. Il est aussi recommandé de bien compresser son vidéo avec la commande <incode>FFMPEG</incode> suivante:</p>
+<highlight lang="console">> ffmpeg "input.mp4" -an -c:v libx264 -profile:v main -level:v 3.0 -pix_fmt yuv420p -preset veryslow -movflags faststart -crf 22 -vf "scale=770:-1" "output.mp4"</highlight>
+<highlight lang="html"><clipasset src="./videos/king-crimson.mp4"></clipasset></highlight>
+<clipasset src="./videos/king-crimson.mp4"></clipasset>
+
 <dots></dots>
 
 
@@ -243,4 +273,39 @@ Utilisez la proprité <incode>transform</incode>.<br>
 <dots></dots>
 
 
+<grostitre>Correction</grostitre>
 
+<p>Il est possible de créer un simulateur de correction avec les balises <incode>correction</incode> et <incode>criteria</incode>.</p>
+
+<h3>correction & criteria</h3>
+<highlight lang="html">
+<correction scale="Excellent, Bon, Moyen, Médiocre, Absent" value="10">
+    <criteria value="20">Album</criteria>
+    <criteria value="20">Textes</criteria>
+    <criteria value="20">Mains</criteria>
+    <criteria value="20">Transitions</criteria>
+    <criteria value="5">Débrouillardise</criteria>
+    <criteria value="5">Clareté du code</criteria>
+    <criteria value="5">Suivi des consignes</criteria>
+    <criteria value="5">Remise</criteria>
+</correction>
+</highlight>
+
+<correction scale="Excellent, Bon, Moyen, Médiocre, Absent" value="10">
+    <criteria value="20">Album</criteria>
+    <criteria value="20">Textes</criteria>
+    <criteria value="20">Mains</criteria>
+    <criteria value="20">Transitions</criteria>
+    <criteria value="5">Débrouillardise</criteria>
+    <criteria value="5">Clareté du code</criteria>
+    <criteria value="5">Suivi des consignes</criteria>
+    <criteria value="5">Remise</criteria>
+</correction>
+
+<dots></dots>
+
+
+<grostitre>Wiki</grostitre>
+
+
+<dots></dots>

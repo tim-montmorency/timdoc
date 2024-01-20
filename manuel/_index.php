@@ -2,7 +2,7 @@
 /**
  * @type     list
  * @title    Manuel
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract Installation et développement
  */
 ?>

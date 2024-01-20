@@ -73,14 +73,6 @@ EOD;
 
 
 /******************************************************
- *                 Composante Children                *
- ******************************************************/
-register_tag('children', function($html, $attrs, $data) {
-    return print_children($this->file, true);
-});
-
-
-/******************************************************
  *                Composante Highlight                *
  ******************************************************/
 register_tag('highlight', function($html, $attrs, $data) {
@@ -98,4 +90,12 @@ register_tag('incode', function($html, $attrs, $data) {
     $data = html_entity_decode(trim($data), ENT_QUOTES, 'UTF-8');
     $data = htmlentities($data, ENT_QUOTES, 'UTF-8');
     return '<span class="inline-code">' . $data . '</span>';
+});
+
+
+/******************************************************
+ *                 Composante Children                *
+ ******************************************************/
+register_tag('children', function($html, $attrs, $data) {
+    return print_children($this->file, true);
 });

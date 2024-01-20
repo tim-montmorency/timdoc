@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Types de pages
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract Liste, article, exercice, outil
  */
 ?>
