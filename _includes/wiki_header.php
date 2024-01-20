@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="<?php echo $PAGE->shared; ?>images/favicon.ico">
         <link rel="stylesheet" href="<?php echo $PAGE->shared; ?>styles/styles.min.css">
         <link rel="stylesheet" href="<?php echo $PAGE->shared; ?>styles/highlight.min.css">
-        <link rel="stylesheet" href="<?php echo $PAGE->shared; ?>styles/video-js.min.css">
         <link rel="stylesheet" href="<?php echo $PAGE->shared; ?>styles/swiper-bundle.min.css">
         <script src="<?php echo $PAGE->shared; ?>jscripts/highlight.min.js"></script>
         <script src="<?php echo $PAGE->shared; ?>jscripts/howler.min.js"></script>
@@ -26,6 +25,7 @@
         <script>const shared = '<?php echo $PAGE->shared; ?>';</script>
         <title><?php echo $PAGE->title; ?></title>
     </head>
-    <body class="dark" style="padding-bottom: 0;">
+    <body style="padding-bottom: 0;">
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <wiki>
             <!-- WIKI HEADER EOF -->

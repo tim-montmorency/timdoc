@@ -107,6 +107,9 @@ body.dark #subhead {
 body.dark main::before {
   background: linear-gradient(to bottom, #3a2d2d, 20%, #000000);
 }
+body.dark #wiki__list {
+  background-image: linear-gradient(to right, #111111, #000000);
+}
 body.dark .hljs {
   color: #c0c5ce;
   background: #1c1d21;
@@ -1962,7 +1965,7 @@ table.table-couleurs .color {
 #wiki__list {
   min-width: 200px;
   min-height: 100%;
-  background-image: linear-gradient(to right, #111111, #000000);
+  background-image: linear-gradient(to right, #e1e4f2, rgba(225, 228, 242, 0));
 }
 #wiki__list ul {
   position: -webkit-sticky;

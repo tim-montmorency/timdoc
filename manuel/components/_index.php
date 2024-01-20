@@ -13,6 +13,14 @@
 <dots></dots>
 
 
+<!-- 
+  _____ _ _                  _                      _   _             
+ |_   _(_) |_ _ __ ___    __| | ___   ___  ___  ___| |_(_) ___  _ __  
+   | | | | __| '__/ _ \  / _` |/ _ \ / __|/ _ \/ __| __| |/ _ \| '_ \ 
+   | | | | |_| | |  __/ | (_| |  __/ \__ \  __/ (__| |_| | (_) | | | |
+   |_| |_|\__|_|  \___|  \__,_|\___| |___/\___|\___|\__|_|\___/|_| |_|                                                                                                                                                                                               
+ 
+-->
 <grostitre>Titre de section</grostitre>
 
 <h3>grostitre</h3>
@@ -29,6 +37,16 @@
 
 <dots></dots>
 
+
+
+<!-- 
+  _   _             _             _   _             
+ | \ | | __ ___   _(_) __ _  __ _| |_(_) ___  _ __  
+ |  \| |/ _` \ \ / / |/ _` |/ _` | __| |/ _ \| '_ \ 
+ | |\  | (_| |\ V /| | (_| | (_| | |_| | (_) | | | |
+ |_| \_|\__,_| \_/ |_|\__, |\__,_|\__|_|\___/|_| |_|
+                      |___/                         
+ -->
 
 <grostitre>Navigation</grostitre>
 
@@ -50,9 +68,19 @@
 
 <img class="full" src="./images/navigation.webp" alt="">
 
-<warning>Le rendu de cette composante est effectuée lors de la sauvegarde du fichier.</warning>
+<warning>Le rendu de cette composante est effectué par le pré-processeur.</warning>
 
 <dots></dots>
+
+
+<!-- 
+  ____        _ _                 _ _ _        __                            _   _                 
+ | __ ) _   _| | | ___  ___    __| ( |_)_ __  / _| ___  _ __ _ __ ___   __ _| |_(_) ___  _ __  ___ 
+ |  _ \| | | | | |/ _ \/ __|  / _` |/| | '_ \| |_ / _ \| '__| '_ ` _ \ / _` | __| |/ _ \| '_ \/ __|
+ | |_) | |_| | | |  __/\__ \ | (_| | | | | | |  _| (_) | |  | | | | | | (_| | |_| | (_) | | | \__ \
+ |____/ \__,_|_|_|\___||___/  \__,_| |_|_| |_|_|  \___/|_|  |_| |_| |_|\__,_|\__|_|\___/|_| |_|___/
+ 
+-->
 
 <grostitre>Bulles d'informations</grostitre>
 
@@ -83,11 +111,24 @@
 <dots></dots>
 
 
+
+
+<!-- 
+  _     _                              __     _ _           
+ | |   (_) ___ _ __  ___   _ __ ___   /_/  __| (_) __ _ ___ 
+ | |   | |/ _ \ '_ \/ __| | '_ ` _ \ / _ \/ _` | |/ _` / __|
+ | |___| |  __/ | | \__ \ | | | | | |  __/ (_| | | (_| \__ \
+ |_____|_|\___|_| |_|___/ |_| |_| |_|\___|\__,_|_|\__,_|___/
+ 
+-->
+
+
 <grostitre>Liens médias</grostitre>
 
 <h3>mediafile</h3>
 <highlight lang="html"><mediafile src="images/icon.png">Icône</mediafile></highlight>
 <mediafile src="images/icon.png">Icône</mediafile>
+<br>
 
 <h3>doclink</h3>
 <highlight lang="html">
@@ -96,20 +137,23 @@
 </highlight>
 <doclink href="https://www.w3schools.com/cssref/css3_pr_flex-direction.php">flex-direction</doclink>
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/flex-direction">flex-direction</doclink>
+<br><br>
 
 <h3>intlink</h3>
 <highlight lang="html">&lt;intlink href=&quot;../../582-215MO/css/exercices/lost-highway/&quot;&gt;&lt;/intlink&gt;</highlight>
 <intlink href="../../582-215MO/css/exercices/lost-highway/"></intlink>
-<warning>Le rendu de cette composante est effectuée lors de la sauvegarde du fichier.</warning>
+<warning>Le rendu de cette composante est effectué par le pré-processeur.</warning>
+<br><br>
 
 <h3>exercice</h3>
 <highlight lang="html">&lt;exercice href="exercices/flexbox-defense"&gt;&lt;/exercice&gt;</highlight>
 <exercice href="exercices/flexbox-defense"></exercice>
+<br><br>
 
 <h3>tool</h3>
 <highlight lang="html">&lt;tool href="tools/css-gradient"&gt;&lt;/tool&gt;</highlight>
 <tool href="tools/css-gradient"></tool>
-
+<br><br>
 
 <h3>knowmore</h3>
 <highlight lang="html">
@@ -130,12 +174,24 @@
 <dots></dots>
 
 
+
+
+
+<!-- 
+  ____             _          _ _ _                      
+ / ___| _   _ _ __| |__  _ __(_) | | __ _ _ __   ___ ___ 
+ \___ \| | | | '__| '_ \| '__| | | |/ _` | '_ \ / __/ _ \
+  ___) | |_| | |  | |_) | |  | | | | (_| | | | | (_|  __/
+ |____/ \__,_|_|  |_.__/|_|  |_|_|_|\__,_|_| |_|\___\___|
+
+-->
+
 <grostitre>Surbrillance</grostitre>
 
 <h3>incode</h3>
 <highlight lang="html">Utilisez la proprité <incode>transform</incode>.</highlight>
 Utilisez la proprité <incode>transform</incode>.<br>
-
+<br><br>
 
 <h3>highlight</h3>
 <highlight lang="html">&lt;highlight lang="javascript"&gt;console.log("Ceci est du javascript");&lt;/highlight&gt;</highlight>
@@ -146,7 +202,18 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
 
 
+
+<!-- 
+  _     _     _          __                    _               
+ | |   (_)___| |_ ___    \_\_    ___ ___   ___| |__   ___ _ __ 
+ | |   | / __| __/ _ \  / _` |  / __/ _ \ / __| '_ \ / _ \ '__|
+ | |___| \__ \ ||  __/ | (_| | | (_| (_) | (__| | | |  __/ |   
+ |_____|_|___/\__\___|  \__,_|  \___\___/ \___|_| |_|\___|_|   
+ 
+-->
+
 <grostitre>Liste à cocher</grostitre>
+
 <h3>checklist</h3>
 <highlight lang="html">&lt;checklist&gt;
     Bacon ipsum dolor amet pork loin shankle leberkas beef capicola porchetta ground round kevin meatball bresaola andouille.
@@ -169,6 +236,17 @@ Utilisez la proprité <incode>transform</incode>.<br>
 <dots></dots>
 
 
+
+
+<!-- 
+   ____ _ _        _   _             
+  / ___(_) |_ __ _| |_(_) ___  _ __  
+ | |   | | __/ _` | __| |/ _ \| '_ \ 
+ | |___| | || (_| | |_| | (_) | | | |
+  \____|_|\__\__,_|\__|_|\___/|_| |_|
+
+ -->
+
 <grostitre>Citation</grostitre>
 
 <h3>quote</h3>
@@ -187,7 +265,20 @@ Utilisez la proprité <incode>transform</incode>.<br>
 <dots></dots>
 
 
+
+
+
+<!-- 
+   ____            _                     
+  / ___|___  _   _| | ___ _   _ _ __ ___ 
+ | |   / _ \| | | | |/ _ \ | | | '__/ __|
+ | |__| (_) | |_| | |  __/ |_| | |  \__ \
+  \____\___/ \__,_|_|\___|\__,_|_|  |___/
+
+ -->
+
 <grostitre>Couleurs</grostitre>
+
 <h3>color</h3>
 <highlight lang="html">
 <color>#51af3f</color>
@@ -195,6 +286,7 @@ Utilisez la proprité <incode>transform</incode>.<br>
 <color>#ee4bbe</color>
 <color>#8a774c</color>
 </highlight>
+
 <color>#51af3f</color>
 <color>#1e98e1</color>
 <color>#ee4bbe</color>
@@ -203,7 +295,20 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
 
 
+
+
+
+<!-- 
+  ___                                 
+ |_ _|_ __ ___   __ _  __ _  ___  ___ 
+  | || '_ ` _ \ / _` |/ _` |/ _ \/ __|
+  | || | | | | | (_| | (_| |  __/\__ \
+ |___|_| |_| |_|\__,_|\__, |\___||___/
+                      |___/           
+ -->
+
 <grostitre>Images</grostitre>
+
 <h3>swiper</h3>
 <highlight lang="html">&lt;swiper&gt;
     photos/01.webp
@@ -233,21 +338,35 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
 
 
+
+
+<!-- 
+ __     ___     _   __           
+ \ \   / (_) __| | /_/  ___  ___ 
+  \ \ / /| |/ _` |/ _ \/ _ \/ __|
+   \ V / | | (_| |  __/ (_) \__ \
+    \_/  |_|\__,_|\___|\___/|___/
+                                 
+ -->
+
 <grostitre>Vidéos</grostitre>
 
 <h3>youtube</h3>
 <p>Afin d'accélérer le chargement des pages contenant des vidéos, il est fortement conseillé d'utiliser la composante <incode>&lt;youtube src="id"&gt;&lt;/youtube&gt;</incode>.</p>
 <highlight lang="html"><youtube src="KVJBHSOx9jI"></youtube></highlight>
 <youtube src="KVJBHSOx9jI"></youtube>
+<br><br>
 
 <h3>Vimeo</h3>
 <highlight lang="html"><vimeo src="874986396"></vimeo></highlight>
 <vimeo src="874986396"></vimeo>
+<br><br>
 
 <h3>clip</h3>
 <highlight lang="html"><clip src="videos/le-boson-de-higgs.mp4"></clip></highlight>
 <clip src="videos/le-boson-de-higgs.mp4" title="Qu'est-ce que le boson de Higgs?"></clip>
 <doclink href="../videos">Manuel / Vidéos</doclink>
+<br><br>
 
 <h3>clipasset</h3>
 <p><incode><clipasset></incode> permet d'inclure un video inline en boucle. Il est conseillé d'avoir un vidéo d'une largeur maximale de <em>770px</em>. Il est aussi recommandé de bien compresser son vidéo avec la commande <incode>FFMPEG</incode> suivante:</p>
@@ -258,7 +377,18 @@ Utilisez la proprité <incode>transform</incode>.<br>
 <dots></dots>
 
 
-<grostitre>Audio</grostitre>
+
+<!-- 
+     _             _ _           
+    / \  _   _  __| (_) ___  ___ 
+   / _ \| | | |/ _` | |/ _ \/ __|
+  / ___ \ |_| | (_| | | (_) \__ \
+ /_/   \_\__,_|\__,_|_|\___/|___/
+                                 
+ -->
+
+<grostitre>Audios</grostitre>
+
 <h3>audioplayer</h3>
 <highlight lang="html"><audioplayer src="audios/careless-whisper.mp3"></audioplayer></highlight>
 <audioplayer src="audios/careless-whisper.mp3"></audioplayer>
@@ -266,12 +396,33 @@ Utilisez la proprité <incode>transform</incode>.<br>
 <dots></dots>
 
 
+
+<!-- 
+   ____          _                       
+  / ___|___   __| | ___ _ __   ___ _ __  
+ | |   / _ \ / _` |/ _ \ '_ \ / _ \ '_ \ 
+ | |__| (_) | (_| |  __/ |_) |  __/ | | |
+  \____\___/ \__,_|\___| .__/ \___|_| |_|
+                       |_|               
+ -->
+
 <grostitre>Codepen</grostitre>
+
 <h3>codepen</h3>
 <highlight lang="html">&lt;codepen id="gOEwrvG" tab="results"&gt;Voici une remarque pertinente.&lt;/codepen&gt;</highlight>
 <codepen id="gOEwrvG" tab="results">Voici une remarque pertinente.</codepen>
 <dots></dots>
 
+
+
+<!-- 
+   ____                         _   _             
+  / ___|___  _ __ _ __ ___  ___| |_(_) ___  _ __  
+ | |   / _ \| '__| '__/ _ \/ __| __| |/ _ \| '_ \ 
+ | |__| (_) | |  | | |  __/ (__| |_| | (_) | | | |
+  \____\___/|_|  |_|  \___|\___|\__|_|\___/|_| |_|
+                                                  
+ -->
 
 <grostitre>Correction</grostitre>
 
@@ -305,7 +456,32 @@ Utilisez la proprité <incode>transform</incode>.<br>
 <dots></dots>
 
 
+
+
+<!-- 
+ __        ___ _    _ 
+ \ \      / (_) | _(_)
+  \ \ /\ / /| | |/ / |
+   \ V  V / | |   <| |
+    \_/\_/  |_|_|\_\_|
+                      
+ -->
+
 <grostitre>Wiki</grostitre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <dots></dots>

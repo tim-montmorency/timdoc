@@ -1221,3 +1221,4 @@ app.component('criteria', {
 
 const urlParams = new URLSearchParams(window.location.search);
 if(urlParams.get('dark') !== null) localStorage.setItem('darkmode', 'true');
+if(urlParams.get('light') !== null) localStorage.setItem('darkmode', 'false');
