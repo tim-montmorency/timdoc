@@ -15,7 +15,6 @@
 
 <grostitre>Cours</grostitre>
 <intlink href="./index/"></intlink>
-<hr>
 <intlink href="./582-111MO/"></intlink>
 <intlink href="./582-215MO/"></intlink>
 <intlink href="./582-424MO/"></intlink>
