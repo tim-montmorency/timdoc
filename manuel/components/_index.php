@@ -66,7 +66,7 @@
 &lt;children&gt;&lt;/children&gt;
 </highlight>
 
-<img class="full" src="./images/navigation.webp" alt="">
+<timg class="full" src="./images/manuel-$t.webp"></timg>
 
 <warning>Le rendu de cette composante est effectué par le pré-processeur.</warning>
 
@@ -314,6 +314,18 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
 <grostitre>Images</grostitre>
 
+<h3>timg</h3>
+
+<p>La composante <incode><timg src=""></timg></incode> agît de la même manière que la balise <incode><img src=""></incode> à l'exception que l'expressio <incode>$t</incode> sera remplacé par le nom du thème (<incode>light</incode> ou <incode>dark</incode>).</p>
+
+<highlight lang="html"><timg src="./images/timg-$t.webp" class="full"></timg></highlight>
+
+<timg src="./images/timg-$t.webp" class="full"></timg>
+
+
+<br><br>
+
+
 <h3>swiper</h3>
 <highlight lang="html">&lt;swiper&gt;
     photos/01.webp
@@ -375,7 +387,7 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
 <h3>clipasset</h3>
 <p><incode><clipasset></incode> permet d'inclure un video inline en boucle. Il est conseillé d'avoir un vidéo d'une largeur maximale de <em>770px</em>. Il est aussi recommandé de bien compresser son vidéo avec la commande <incode>FFMPEG</incode> suivante:</p>
-<highlight lang="console">> ffmpeg "input.mp4" -an -c:v libx264 -profile:v main -level:v 3.0 -pix_fmt yuv420p -preset veryslow -movflags faststart -crf 22 -vf "scale=770:-1" "output.mp4"</highlight>
+<highlight lang="console">> ffmpeg -y -i "input.mp4" -an -c:v libx264 -profile:v main -level:v 3.0 -pix_fmt yuv420p -preset veryslow -movflags faststart -crf 22 -vf "scale=770:-1" "output.mp4"</highlight>
 <highlight lang="html"><clipasset src="./videos/king-crimson.mp4"></clipasset></highlight>
 <clipasset src="./videos/king-crimson.mp4"></clipasset>
 
@@ -474,19 +486,37 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
 <grostitre>Wiki</grostitre>
 
+<p>Comme le wiki suit le thème de Timdoc, il sera affiché par défaut en thème <incode>light</incode> dans Teams. Il est possible de forcer le thème en l'ajoutant à l'adresse url.</p>
 
+<highlight lang="text">
+https://tim-montmorency.com/timdoc/582-215MO/wiki/?light
+https://tim-montmorency.com/timdoc/582-215MO/wiki/?dark
+</highlight>
 
+<h3>wiki-page</h3>
 
+<p>La balise <incode><wiki-page></incode> ne doit être utilisée que dans une page de type <incode>wiki</incode>.</p>
 
+<highlight lang="html">
+&lt;?php 
+/**
+ * @type     wiki
+ * @title    Wiki - Intégration Web
+ * @icon     images/icon.png
+ * @abstract Intégration Web
+ */
+?&gt;
 
+&lt;wiki-page name=&quot;Cours 01A&quot; date=&quot;2023-05-09&quot;&gt;
+    &lt;intlink href=&quot;../css/anatomie/&quot;&gt;&lt;/intlink&gt;
+    &lt;intlink href=&quot;../css/selecteurs/&quot;&gt;&lt;/intlink&gt;
+    &lt;intlink href=&quot;../css/selecteurs/exercices/css-diner/&quot;&gt;&lt;/intlink&gt;
+    &lt;intlink href=&quot;../autres/chemins/&quot;&gt;&lt;/intlink&gt;
+    &lt;intlink href=&quot;../autres/chemins/exercices/pokemon/&quot;&gt;&lt;/intlink&gt;
+&lt;/wiki-page&gt;
+</highlight>
 
-
-
-
-
-
-
-
-
+<timg src="./images/wiki-$t.webp" class="full"></timg>
+<doclink href="../page-types/">Types de pages</doclink>
 
 <dots></dots>

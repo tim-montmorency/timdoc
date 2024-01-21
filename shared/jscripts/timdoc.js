@@ -127,14 +127,17 @@ const hcd = (a,b) => {
  const app = Vue.createApp({
     data() {
         let darkmode = localStorage.getItem('darkmode') === 'true';
+        let theme = darkmode ? 'dark' : 'light';
         return {
             sounds: false,
+            timgs: [],
             codepens: [],
+            lightSwitches: [],
             tableOfContents: [],
             lightswitchon: null,
             lightswitchoff: null,
             darkmode: darkmode,
-            theme: null
+            theme: theme
         }
     },
     mounted() {
@@ -158,6 +161,7 @@ const hcd = (a,b) => {
                 document.body.className = 'dark';
                 this.theme = 'dark';
                 this.codepens.forEach((cp) => { cp.lightSwitchOff(); });
+                this.timgs.forEach((timg) => { timg.lightSwitchOff(); });
                 if(this.sounds) {
                     this.lightswitchon.stop();
                     this.lightswitchoff.play();
@@ -168,6 +172,7 @@ const hcd = (a,b) => {
                 document.body.className = 'light';
                 this.theme = 'light';
                 this.codepens.forEach((cp) => { cp.lightSwitchOn(); });
+                this.timgs.forEach((timg) => { timg.lightSwitchOn(); });
                 if(this.sounds) {
                     this.lightswitchoff.stop();
                     this.lightswitchon.play();
@@ -182,6 +187,9 @@ const hcd = (a,b) => {
         },
         addToCodePens(comp) {
             this.codepens.push(comp);
+        },
+        addToTimages(comp) {
+            this.timgs.push(comp);
         },
     }
 });
@@ -1229,6 +1237,28 @@ app.component('criteria', {
                 <span class="correction__criteria__scale" v-for="(scale, i) in this.$parent.scales" v-html="scale" @click="click($event, this.$parent.scales.length - 1 - i)"></span>
             </td>
         </tr>`
+});
+
+
+/******************************************************
+ *                  Composante Timg                   *
+ ******************************************************/
+ app.component('timg', {
+    props: ['src', 'class', 'alt'],
+    data() {
+        let source = this.src.replace(/\$t/g, this.$root.theme);
+        this.$root.addToTimages(this);
+        return { source: source }
+    },
+    methods: {
+        lightSwitchOff() {
+            this.source = this.src.replace(/\$t/g, this.$root.theme);
+        },
+        lightSwitchOn() {
+            this.source = this.src.replace(/\$t/g, this.$root.theme);
+        }
+    },
+    template: `<img :src="this.source" :alt="this.alt" :class="this.class">`
 });
 
 const urlParams = new URLSearchParams(window.location.search);
