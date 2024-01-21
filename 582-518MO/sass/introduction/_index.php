@@ -4,7 +4,7 @@
  * @title    Introduction
  * @icon     images/icon.png
  * @abstract Syntactically Awesome Style Sheets
- * @index 100
+ * @index    100
  * @ref      web/sass
  */
 ?>

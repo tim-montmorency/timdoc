@@ -4,7 +4,7 @@
  * @title    Fonctions
  * @icon     images/icon.png
  * @abstract Gérer des opérations complexes, de manipuler des paramètres...
- * @index 22
+ * @index    22
  * @ref      web/sass
  */
 ?>

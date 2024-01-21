@@ -4,7 +4,7 @@
  * @title    Module de couleurs
  * @icon     images/icon.png
  * @abstract Sass offre des modules built-in dont le module de couleurs
- * @index 20
+ * @index    20
  * @ref      web/sass
  */
 ?>

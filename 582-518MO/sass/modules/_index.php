@@ -4,7 +4,7 @@
  * @title    Modules
  * @icon     images/icon.png
  * @abstract Modulariser chaque composante en fichiers individuels
- * @index 21
+ * @index    21
  * @ref      web/sass
  */
 ?>

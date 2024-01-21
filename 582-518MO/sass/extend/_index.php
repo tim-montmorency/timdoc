@@ -4,7 +4,7 @@
  * @title    Extend
  * @icon     images/icon.png
  * @abstract une classe ayant les mêmes règles qu'une autre classe
- * @index 35
+ * @index    35
  * @ref      web/sass
  */
 ?>

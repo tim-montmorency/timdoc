@@ -4,7 +4,7 @@
  * @title    Nomenclature BEM
  * @icon     images/icon.png
  * @abstract Nomenclature CSS: Block, Element, and Modifier
- * @index 19
+ * @index    19
  * @ref      web/sass
  */
 ?>

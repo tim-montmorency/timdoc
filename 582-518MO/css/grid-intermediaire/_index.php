@@ -4,7 +4,7 @@
  * @title    Grid intermédiaire
  * @icon     images/icon2.png
  * @abstract Système de mise en page par grille
- * @index 96
+ * @index    96
  * @ref      web/css
  */
 ?>

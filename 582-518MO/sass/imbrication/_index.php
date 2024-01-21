@@ -4,7 +4,7 @@
  * @title    Imbrication
  * @icon     images/icon.png
  * @abstract Accélérer l'écriture de feuilles de styles
- * @index 45
+ * @index    45
  * @ref      web/sass
  */
 ?>

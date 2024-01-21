@@ -4,7 +4,7 @@
  * @title    Centrer un div
  * @icon     images/centrer-div.png
  * @abstract Center une balise div vertic. et horiz.
- * @index 90
+ * @index    90
  * @ref      web/css
  */
 ?>

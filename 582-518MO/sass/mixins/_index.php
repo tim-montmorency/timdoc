@@ -4,7 +4,7 @@
  * @title    Mixins
  * @icon     images/icon.png
  * @abstract Créer des extraits de CSS pouvant être réutilisés
- * @index 25
+ * @index    25
  * @ref      web/sass
  */
 ?>

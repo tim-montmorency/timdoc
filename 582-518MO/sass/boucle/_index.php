@@ -4,7 +4,7 @@
  * @title    Boucle SASS
  * @icon     images/icon.png
  * @abstract Plusieurs classes CSS similaires avec une légère variation
- * @index 30
+ * @index    30
  * @ref      web/sass
  */
 ?>
