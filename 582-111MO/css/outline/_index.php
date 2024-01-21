@@ -4,6 +4,7 @@
  * @title    Outline
  * @icon     images/icon.png
  * @abstract border, width, style, color
+ * @ref      web/css
  */
 ?>
 

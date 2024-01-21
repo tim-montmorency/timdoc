@@ -4,6 +4,7 @@
  * @title    Box-model
  * @icon     images/icon.png
  * @abstract Chaque élément d'une page est une boîte rectangulaire
+ * @ref      web/css
  */
 ?>
 

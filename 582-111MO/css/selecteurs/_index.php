@@ -4,6 +4,7 @@
  * @title    Sélecteurs
  * @icon     images/icon.png
  * @abstract balise, #, ., combinaison, descendant
+ * @ref      web/css
  */
 ?>
 

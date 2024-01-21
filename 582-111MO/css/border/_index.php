@@ -4,6 +4,7 @@
  * @title    Border
  * @icon     images/icon.png
  * @abstract border, border-radius
+ * @ref      web/css
  */
 ?>
 

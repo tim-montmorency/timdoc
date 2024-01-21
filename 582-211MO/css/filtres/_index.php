@@ -4,6 +4,7 @@
  * @title    Filtres
  * @icon     images/icon.png
  * @abstract blur, contrast, grayscale, sepia, etc.
+ * @ref      web/css
  */
 ?>
 

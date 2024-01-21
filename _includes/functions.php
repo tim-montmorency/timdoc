@@ -132,6 +132,77 @@ function intlink($path=null){
 
 
 /**
+ * getIndexReferences
+ *
+ * @return void
+ */
+function getIndexReferences($name=null) {
+    static $references = null;
+    global $PAGE;
+    if($references === null) {
+        $references = [];
+        foreach(dig($PAGE->root.'_index.php') as $file) {
+            if(!$info = php_file_info($file)) continue;
+            if(!empty($info->ref)) {
+                $ref = strtolower(trim(str_replace('\\', '/', $info->ref), '/\\'));
+                $info->file = $file;
+                $references[$ref][] = $info;
+            }
+        }
+        foreach($references as $k => $v) {
+            usort($v, function($a, $b) { return strcasecmp($a->title, $b->title); });
+            $references[$k] = $v;
+        }
+    }
+    if(!$name) return $references;
+    elseif(empty($references[$name])) return [];
+    else return $references[$name];
+}
+
+
+/**
+ * getRelativePath
+ *
+ * @param  mixed $from
+ * @param  mixed $to
+ * @return void
+ */
+function getRelativePath($from, $to) {
+    // some compatibility fixes for Windows paths
+    $from = is_dir($from) ? rtrim($from, '\/') . '/' : $from;
+    $to   = is_dir($to)   ? rtrim($to, '\/') . '/'   : $to;
+    $from = str_replace('\\', '/', $from);
+    $to   = str_replace('\\', '/', $to);
+
+    $from     = explode('/', $from);
+    $to       = explode('/', $to);
+    $relPath  = $to;
+
+    foreach($from as $depth => $dir) {
+        // find first non-matching dir
+        if($dir === $to[$depth]) {
+            // ignore this directory
+            array_shift($relPath);
+        } else {
+            // get number of remaining dirs to $from
+            $remaining = count($from) - $depth;
+            if($remaining > 1) {
+                // add traversals up to first matching dir
+                $padLength = (count($relPath) + $remaining - 1) * -1;
+                $relPath = array_pad($relPath, $padLength, '..');
+                break;
+            } else {
+                $relPath[0] = './' . $relPath[0];
+            }
+        }
+    }
+    return implode('/', $relPath);
+}
+
+
+
+
+/**
  * Specific header printing
  *
  * @return void

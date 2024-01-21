@@ -4,6 +4,7 @@
  * @title    Unités de couleur
  * @icon     images/icon.png
  * @abstract hex, rgb, hsl, etc.
+ * @ref      web/css
  */
 ?>
 

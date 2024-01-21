@@ -4,6 +4,7 @@
  * @title    Linear-gradient
  * @icon     images/icon.png
  * @abstract Générer un dégradé.
+ * @ref      web/css
  */
 ?>
 <p class="spacer">La propriété <incode>background-image</incode> accepte la fonction <incode>linear-gradient()</incode>. Comme son nom l'indique, celle-ci permet de définir un dégradé. Pour générer un dégradé, il faut minimalement attribuer deux couleurs en paramètre à la fonction.</p>

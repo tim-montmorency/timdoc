@@ -4,6 +4,7 @@
  * @title    Text
  * @icon     images/icon.png
  * @abstract align, decoration, transform, stroke, shadow
+ * @ref      web/css
  */
 ?>
 

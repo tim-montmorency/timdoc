@@ -4,6 +4,7 @@
  * @title    Aspect-ratio
  * @icon     images/icon.png
  * @abstract Créer un élément dont la dimension reste proportionnelle.
+ * @ref      web/css
  */
 ?>
 

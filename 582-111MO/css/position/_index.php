@@ -4,6 +4,7 @@
  * @title    Position
  * @icon     images/icon.png
  * @abstract static, relative, absolute, fixed, sticky
+ * @ref      web/css
  */
 ?>
 

@@ -4,6 +4,7 @@
  * @title    Margin
  * @icon     images/icon.png
  * @abstract marge extérieur
+ * @ref      web/css
  */
 ?>
 

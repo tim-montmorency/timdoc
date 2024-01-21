@@ -4,6 +4,7 @@
  * @title    Animation
  * @icon     images/icon.png
  * @abstract @keyframes, animation-name, animation-duration, etc.
+ * @ref      web/css
  */
 ?>
 

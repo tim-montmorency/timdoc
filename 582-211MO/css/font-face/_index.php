@@ -4,6 +4,7 @@
  * @title    @font-face
  * @icon     images/icon.png
  * @abstract Importer des polices d'écritures
+ * @ref      web/css
  */
 ?>
 

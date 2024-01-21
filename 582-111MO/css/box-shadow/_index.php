@@ -4,6 +4,7 @@
  * @title    Box-shadow
  * @icon     images/icon.png
  * @abstract Ombrage d'un élément.
+ * @ref      web/css
  */
 ?>
 
