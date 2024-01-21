@@ -94,6 +94,9 @@ body.dark a {
 body.dark em {
   color: #e6af2e;
 }
+body.dark hr {
+  border: 1px dashed #74011b;
+}
 body.dark span.inline-code {
   background-color: #1c1d21;
   color: white;
@@ -1581,6 +1584,11 @@ a:hover {
 }
 a.no-underline {
   background-image: none;
+}
+
+hr {
+  border: 1px dashed #aaaaaa;
+  margin-bottom: 20px;
 }
 
 header {

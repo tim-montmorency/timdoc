@@ -8,6 +8,7 @@ body.dark {
 
     a { color: white; }
     em { color: #e6af2e; }
+    hr { border: 1px dashed #74011b; }
     span.inline-code { background-color: #1c1d21; color: white; }
     footer { /*background: linear-gradient(to top, #3a2d2d, 50%, #000000);*/ border-top: 1px solid rgb(19, 2, 4); }
     #subhead { background-color: rgba(255, 255, 255, 0.1); }
@@ -32,6 +33,7 @@ body.dark {
     }
 
     .dots { color: #74011b; }
+    
 
     .grostitre {
         &__chain {

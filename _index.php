@@ -14,7 +14,8 @@
 
 
 <grostitre>Cours</grostitre>
-
+<intlink href="./index/"></intlink>
+<hr>
 <intlink href="./582-111MO/"></intlink>
 <intlink href="./582-215MO/"></intlink>
 <intlink href="./582-424MO/"></intlink>
@@ -56,7 +57,7 @@
 
 <grostitre>Comment ça marche?</grostitre>
 
-<doclink href="manuel/">Manuel d'utilisation</doclink>
+<intlink href="manuel/">Manuel d'utilisation</intlink>
 
 <dots></dots>
 
