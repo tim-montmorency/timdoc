@@ -5,6 +5,7 @@
  * @icon     images/icon.png
  * @abstract Gérer des opérations complexes, de manipuler des paramètres...
  * @index 22
+ * @ref      web/sass
  */
 ?>
 <p>Les <incode>@functions</incode> permettent de gérer des opérations complexes, de manipuler un ou plusieurs paramètres et de retourner des résultats précis. Elles sont généralement utilisées afin de produire des valeurs.</p>

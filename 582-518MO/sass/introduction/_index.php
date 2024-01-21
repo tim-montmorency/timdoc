@@ -5,6 +5,7 @@
  * @icon     images/icon.png
  * @abstract Syntactically Awesome Style Sheets
  * @index 100
+ * @ref      web/sass
  */
 ?>
 <p>SASS ou <em>Syntactically Awesome Style Sheets</em> est un préprocesseur CSS. Autrement dit, il s'agit d'un langage

@@ -5,6 +5,7 @@
  * @icon     images/icon.png
  * @abstract Plusieurs classes CSS similaires avec une légère variation
  * @index 30
+ * @ref      web/sass
  */
 ?>
 <p>Plutôt que d'écrire à la main plusieurs classes CSS similaires avec une légère variation, SCSS permet de créer des boucles générant pour nous ces différentes classes.</p>

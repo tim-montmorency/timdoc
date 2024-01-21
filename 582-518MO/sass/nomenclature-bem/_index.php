@@ -5,6 +5,7 @@
  * @icon     images/icon.png
  * @abstract Nomenclature CSS: Block, Element, and Modifier
  * @index 19
+ * @ref      web/sass
  */
 ?>
 <grostitre>Introduction</grostitre>

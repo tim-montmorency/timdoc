@@ -5,6 +5,7 @@
  * @icon     images/icon.png
  * @abstract Créer des extraits de CSS pouvant être réutilisés
  * @index 25
+ * @ref      web/sass
  */
 ?>
 <p>Les mixins permettent de créer des extraits de CSS pouvant être réutilisés à différents endroits grâce à <incode>@include</incode>.</p>

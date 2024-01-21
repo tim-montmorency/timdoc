@@ -5,6 +5,7 @@
  * @icon     images/icon.png
  * @abstract Stocker des informations réutilisables
  * @index 40
+ * @ref      web/sass
  */
 ?>
 
