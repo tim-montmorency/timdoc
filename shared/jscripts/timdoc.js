@@ -535,13 +535,17 @@ app.component('doclink', {
                 case 'sass-lang.com' : site = 'sass'; break;
                 case 'developer.vuforia.com' : site = 'vuforia'; break;
                 case 'cmontmorency365-my.sharepoint.com': site = 'momo'; break;
+                case 'cmontmorency365.sharepoint.com': site = 'momo'; break;
                 case 'teams.microsoft.com': site = 'momo'; break;
                 case 'github.com': site = 'github'; break;
                 case 'developers.google.com': site = 'google'; break;
                 case 'youtu.be': site = 'youtube'; break;
                 case 'youtube.com': site = 'youtube'; break;
                 case 'www.youtube.com': site = 'youtube'; break;
+                case 'www.unity.com': site = 'unity'; break;
                 case 'learn.unity.com': site = 'unity'; break;
+                case 'id.unity.com': site = 'unity'; break;
+                case 'unity.com': site = 'unity'; break;
                 
             }
         } catch(e) {
