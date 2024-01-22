@@ -4,6 +4,7 @@
  * @title    Inspecteur
  * @icon     images/icon.png
  * @abstract Un préceux outil
+ * @ref      web/autres
  */
 ?>
 

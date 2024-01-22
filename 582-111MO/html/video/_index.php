@@ -5,6 +5,7 @@
  * @title    Video
  * @icon     images/icon.png
  * @abstract La balise &lt;video&gt;
+ * @ref      web/html
  */
 ?>
 

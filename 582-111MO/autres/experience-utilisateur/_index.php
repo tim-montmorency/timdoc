@@ -4,6 +4,7 @@
  * @title    Expérience Utilisateur
  * @icon     images/icon.png
  * @abstract UX, UI
+ * @ref      web/autres
  */
 ?>
 

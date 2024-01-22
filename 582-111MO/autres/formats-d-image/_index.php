@@ -4,6 +4,7 @@
  * @title    Formats d'image
  * @icon     images/icon.png
  * @abstract gif, jpeg, png, webp
+ * @ref      web/autres
  */
 ?>
 

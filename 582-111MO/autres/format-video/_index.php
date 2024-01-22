@@ -4,6 +4,7 @@
  * @title    Formats Video
  * @icon     images/icon.png
  * @abstract MP4, MKV, MOV, WMV, WebM
+ * @ref      web/autres
  */
 ?>
 

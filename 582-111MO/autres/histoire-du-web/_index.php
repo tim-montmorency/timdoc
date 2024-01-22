@@ -4,6 +4,7 @@
  * @title    Histoire du Web
  * @icon     images/icon.png
  * @abstract Arpanet, Câbles sous-marins
+ * @ref      web/autres
  */
 ?>
 

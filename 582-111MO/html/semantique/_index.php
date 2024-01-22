@@ -5,6 +5,7 @@
  * @title    Sémantique
  * @icon     images/icon.png
  * @abstract header, footer, nav, main, section, aside
+ * @ref      web/html
  */
 ?>
 

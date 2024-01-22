@@ -5,6 +5,7 @@
  * @title    HTML - Histoire
  * @icon     images/icon.png
  * @abstract L'histoire du html
+ * @ref      web/html
  */
 ?>
 

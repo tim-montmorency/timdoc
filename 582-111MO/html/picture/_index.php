@@ -4,6 +4,7 @@
  * @title    Picture
  * @icon     images/icon.png
  * @abstract Définir plusieurs sources à une image
+ * @ref      web/html
  */
 ?>
 
