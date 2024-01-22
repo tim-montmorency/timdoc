@@ -5,6 +5,7 @@
  * @title    Breakpoints
  * @icon     images/icon.png
  * @abstract Déterminent le comportement de votre mise en page réactive
+ * @index 960
  */
 ?>
 <p>Les points d'arrêt <em>(breakpoints)</em> sont des dimensions déterminées qui affectent la présentation de votre mise en page en fonction de la taille des périphériques ou des fenêtres d'affichage dans Bootstrap.</p>
