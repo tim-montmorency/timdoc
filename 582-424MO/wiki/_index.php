@@ -80,6 +80,8 @@
     <h4>Exercices</h4>
     <p>Terminer le/les exercices débutés en classe. <br><small>Notez bien: Les exercices jouent un rôle crucial dans le processus d'apprentissage de ce cours. Il est de votre devoir de les compléter à la maison si ce n'est pas terminé en classe. Une portion de l'évaluation de vos apprentissages de ce cours (5%) est prévu pour les exercices complétés à chaque semaine.</small> </p>
     <h4>Remise au prochains cours (3%)</h4>
+    <warning>Ne pas aller voir ou essayer d'avancer sur les instructions suivantes (P1.2, P1.3) car les consignes sont en révisions et risquent de changer. Ne mettre votre focus que sur P1.1 pour le moment.</warning>
+
 
     <intlink href="../projet-app-festival-art-numerique/p1-1a/"></intlink>
     <p> <small>Fichier <em>EXCEL</em> où entrer vos informations pour P1.1a: <a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EQNWCDOAKxZLhJWNd_AAtB0B3i7mRxB-HbaAVocNMYd9MQ?e=lGMTuI" target="_blank" rel="noopener noreferrer">Lien vers fichier des équipes</a></small>   </p>
