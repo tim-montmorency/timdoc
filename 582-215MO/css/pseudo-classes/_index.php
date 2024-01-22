@@ -4,6 +4,7 @@
  * @title    Pseudo-classes
  * @icon     images/icon.png
  * @abstract hover, active, visited, focus
+ * @ref      web/css
  */
 ?>
 

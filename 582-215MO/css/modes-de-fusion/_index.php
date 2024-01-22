@@ -4,6 +4,7 @@
  * @title    Modes de fusion
  * @icon     images/icon.png
  * @abstract multiply, screen, overlay, etc.
+ * @ref      web/css
  */
 ?>
 

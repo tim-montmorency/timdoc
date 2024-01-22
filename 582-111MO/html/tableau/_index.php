@@ -5,6 +5,7 @@
  * @title    Les tableaux
  * @icon     images/icon.png
  * @abstract td, tr, th, thead, tbody, tfoot, colspan, rowspan
+ * @ref      web/html
  */
 ?>
 

@@ -4,6 +4,7 @@
  * @title    Formulaire
  * @icon     images/icon.png
  * @abstract text, label, form, submit
+ * @ref      web/html
  */
 ?>
 

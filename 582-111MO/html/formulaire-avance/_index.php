@@ -4,6 +4,7 @@
  * @title    Formulaire avancé
  * @icon     images/icon.png
  * @abstract number, password, email, tel, date, etc.
+ * @ref      web/html
  */
 ?>
 

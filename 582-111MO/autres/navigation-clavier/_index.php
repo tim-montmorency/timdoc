@@ -4,6 +4,7 @@
  * @title    Navigation clavier
  * @icon     images/icon.png
  * @abstract tabindex, focus
+ * @ref      web/autres
  */
 ?>
 

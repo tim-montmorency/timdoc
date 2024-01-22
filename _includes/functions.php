@@ -53,6 +53,21 @@ function print_breadcrumb() {
 }
 
 
+function print_breadcrumb_index() {
+    global $PAGE;
+    if(!$info = php_file_info($PAGE->file)) return;
+    if(empty($info->ref)) return;
+    $ref = 'index/'.strtolower(trim(str_replace('\\', '/', $info->ref), '/'));
+    $index = $PAGE->root;
+    foreach(explode('/', $ref) as $part) {
+        $index .= $part.'/';
+        if(!$data = php_file_info($index.'_index.php')) continue;
+        $url = getRelativePath($PAGE->file, $index);
+        echo '<a href="' . $url . '">' . $data->title . '</a>&nbsp;>&nbsp;';
+    }
+}
+
+
 /**
  * Get children pages
  *

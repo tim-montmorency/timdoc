@@ -4,6 +4,7 @@
  * @title    Relation Parent-Enfant
  * @icon     images/icon.png
  * @abstract Parent, enfant
+ * @ref      web/html
  */
 ?>
 

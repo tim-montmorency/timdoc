@@ -4,6 +4,7 @@
  * @title    Microdonnées
  * @icon     images/icon.png
  * @abstract itemscope, itemtype, itemprop
+ * @ref      web/html
  */
 ?>
 

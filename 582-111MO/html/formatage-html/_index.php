@@ -5,6 +5,7 @@
  * @title    Formatage HTML
  * @icon     images/icon.png
  * @abstract &lt;u&gt;, &lt;b&gt;, &lt;strong&gt;, &lt;em&gt;, &lt;i&gt;, etc.
+ * @ref      web/html
  */
 ?>
 

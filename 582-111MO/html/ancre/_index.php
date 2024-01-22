@@ -4,6 +4,7 @@
  * @title    Ancre
  * @icon     images/icon.png
  * @abstract balise &lt;a&gt;
+ * @ref      web/html
  */
 ?>
 

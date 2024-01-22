@@ -4,6 +4,7 @@
  * @title    Emmet
  * @icon     images/icon.png
  * @abstract Accélérateur de code
+ * @ref      web/autres
  */
 ?>
 

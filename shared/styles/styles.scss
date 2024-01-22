@@ -184,6 +184,22 @@ header {
         @media (min-width: 576px)  {
             font-size: 24px;
         }
+
+        &_index {
+            display: none;
+        }
+
+        &.index {
+            #breadcrumb_normal {
+                display: none;
+            }
+
+            #breadcrumb_index {
+                display: block;
+            }
+        }
+
+
     }
 
     #title {

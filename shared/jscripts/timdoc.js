@@ -141,6 +141,10 @@ const hcd = (a,b) => {
         }
     },
     mounted() {
+        const referer = new URL(document.referrer, document.baseURI);
+        const breadcrumb = document.getElementById('breadcrumb');
+        if(breadcrumb && /\/index\//g.test(referer.pathname))
+            breadcrumb.classList.add('index');
         if(this.$refs.lightswitch == undefined) return;
         this.theme = this.darkmode ? 'dark' : 'light';
         document.body.className = this.darkmode ? 'dark' : 'light';

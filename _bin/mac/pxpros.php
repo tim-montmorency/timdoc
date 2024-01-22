@@ -268,20 +268,25 @@ function register_tag($tag, $clb) {
  */
 function php_file_info($file)
 {
-    if (!$file = realpath($file)) return false;
-    $tokens = token_get_all(file_get_contents($file));
-    foreach ($tokens as $tok) {
-        if (!is_array($tok)) continue;
-        if ($tok[0] == T_DOC_COMMENT) {
-            $block = $tok[1];
-            break;
-        }
-    }
-    if (empty($block)) return new stdClass;
-    if (!preg_match_all('#@([a-z0-9]+)[\s\t]+([^\n]+)#msi', $block, $m)) return new stdClass;
-    foreach ($m[1] as $k => $v)
-        $info[trim($v)] = trim($m[2][$k]);
-    return (object)$info;
+	static $files = [];
+    if(!$file = realpath($file)) return false;
+	if(!isset($files[$file])){
+		$tokens = token_get_all(file_get_contents($file));
+		foreach($tokens as $tok) {
+			if(!is_array($tok)) continue;
+			if($tok[0] == T_DOC_COMMENT) {
+				$block = $tok[1];
+				break;
+			}
+		}
+		if(empty($block)) return new stdClass;
+		if(!preg_match_all('#@([a-z0-9]+)[\s\t]+([^\n]+)#msi', $block, $m)) $files[$file] = new stdClass;
+		else {
+			foreach($m[1] as $k => $v) $info[trim($v)] = trim($m[2][$k]);
+			$files[$file] = (object)$info;
+		}
+	}
+	return $files[$file];
 }
 
 

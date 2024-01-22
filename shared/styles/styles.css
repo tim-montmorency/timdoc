@@ -1667,6 +1667,15 @@ header #lightswitch:hover {
     font-size: 24px;
   }
 }
+#subhead #breadcrumb_index {
+  display: none;
+}
+#subhead #breadcrumb.index #breadcrumb_normal {
+  display: none;
+}
+#subhead #breadcrumb.index #breadcrumb_index {
+  display: block;
+}
 #subhead #title {
   font-size: 10vw;
   font-weight: 400;

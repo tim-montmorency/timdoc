@@ -4,6 +4,7 @@
  * @title    Formats Audio
  * @icon     images/icon.png
  * @abstract MP3, AAC, OGG, AV, FLAC, WebM, M4A
+ * @ref      web/autres
  */
 ?>
 

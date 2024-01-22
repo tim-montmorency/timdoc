@@ -4,6 +4,7 @@
  * @title    Details & Summary
  * @icon     images/icon.png
  * @abstract Les balises &lt;details&gt; et &lt;summary&gt;
+ * @ref      web/html
  */
 ?>
 

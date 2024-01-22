@@ -4,6 +4,7 @@
  * @title    Object-fit
  * @icon     images/icon.png
  * @abstract contain, cover, fill
+ * @ref      web/css
  */
 ?>
 

@@ -4,6 +4,7 @@
  * @title    Scroll-snap
  * @icon     images/icon.png
  * @abstract scroll-snap-type, scroll-snap-align, scroll-padding
+ * @ref      web/css
  */
 ?>
 

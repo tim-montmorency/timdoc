@@ -5,6 +5,7 @@
  * @title    Les listes
  * @icon     images/icon.png
  * @abstract ul, ol, li, dl, dt,dd
+ * @ref      web/html
  */
 ?>
 

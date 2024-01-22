@@ -4,6 +4,7 @@
  * @title    Maquette Filaire
  * @icon     images/icon.png
  * @abstract Plan architectural
+ * @ref      web/autres
  */
 ?>
 

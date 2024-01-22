@@ -5,6 +5,7 @@
  * @title    Les Balises Div et Span
  * @icon     images/icon.png
  * @abstract &lt;div&gt;, &lt;span&gt;
+ * @ref      web/html
  */
 ?>
 

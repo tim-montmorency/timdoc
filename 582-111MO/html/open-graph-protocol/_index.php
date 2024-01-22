@@ -4,6 +4,7 @@
  * @title    Open Graph Protocol
  * @icon     images/icon.png
  * @abstract type, title, description, image, url, etc.
+ * @ref      web/html
  */
 ?>
 
