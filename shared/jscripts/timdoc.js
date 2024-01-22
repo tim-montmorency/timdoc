@@ -155,8 +155,9 @@ const hcd = (a,b) => {
         }
     },
     methods: {
-        goToTop(){
-            document.location.href = "#top";
+        goToTop(path = null){
+            if(!path) path = '#top';
+            document.location.href = path;
         },
         lightswitch(){
             if(this.$refs.lightswitch.className == 'lightswitch--on') {
