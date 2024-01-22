@@ -4,6 +4,7 @@
  * @title    Variables
  * @icon     images/icon.png
  * @abstract ::root, var(--varname)
+ * @ref      web/css
  */
 ?>
 

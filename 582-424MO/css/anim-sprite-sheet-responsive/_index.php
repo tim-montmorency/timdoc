@@ -4,6 +4,7 @@
  * @title    Animation sprite sheet intermédiaire
  * @icon     images/icon.png
  * @abstract Animation adaptative (responsive) de feuilles de sprites 
+ * @ref      web/css
  */
 ?>
 

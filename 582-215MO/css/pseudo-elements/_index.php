@@ -4,6 +4,7 @@
  * @title    Pseudo-éléments
  * @icon     images/icon.png
  * @abstract ::before, ::after
+ * @ref      web/css
  */
 ?>
 

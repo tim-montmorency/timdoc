@@ -4,6 +4,7 @@
  * @title    Transition
  * @icon     images/icon.png
  * @abstract passer d'un état A à un état B
+ * @ref      web/css
  */
 ?>
 

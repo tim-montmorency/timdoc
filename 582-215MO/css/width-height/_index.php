@@ -4,6 +4,7 @@
  * @title    Width & Height
  * @icon     images/icon.png
  * @abstract min-width/height, max-width/height
+ * @ref      web/css
  */
 ?>
 

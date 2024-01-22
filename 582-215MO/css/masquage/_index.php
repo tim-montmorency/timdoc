@@ -4,6 +4,7 @@
  * @title    Masquage
  * @icon     images/icon.png
  * @abstract clip-path, mask-image
+ * @ref      web/css
  */
 ?>
 

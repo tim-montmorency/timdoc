@@ -4,6 +4,7 @@
  * @title    Animation Sprite Sheet
  * @icon     images/icon.png
  * @abstract animation image par image
+ * @ref      web/css
  */
 ?>
 
