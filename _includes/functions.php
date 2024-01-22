@@ -53,6 +53,11 @@ function print_breadcrumb() {
 }
 
 
+/**
+ * print_breadcrumb_index
+ *
+ * @return void
+ */
 function print_breadcrumb_index() {
     global $PAGE;
     if(!$info = php_file_info($PAGE->file)) return;
@@ -65,6 +70,16 @@ function print_breadcrumb_index() {
         $url = getRelativePath($PAGE->file, $index);
         echo '<a href="' . $url . '">' . $data->title . '</a>&nbsp;>&nbsp;';
     }
+}
+
+
+
+function getRootCours() {
+    global $PAGE;
+    $path = getRelativePath($PAGE->file, $PAGE->root);
+    $path = join('/', array_slice(explode('/', $path), 1));
+    if(!$path) $path = './';
+    return $path;
 }
 
 
