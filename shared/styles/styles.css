@@ -1559,7 +1559,7 @@ body {
 
 span.inline-code {
   font-family: monospace;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: #fbfbfb;
   padding-left: 6px;
   padding-right: 6px;
   padding-top: 4px;
