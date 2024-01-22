@@ -108,7 +108,7 @@
  */
 ?&gt;
 
-&lt;wiki-page name="Cours 01" &gt;
+&lt;wiki-page name="Cours 01"&gt;
 
  
 &lt;/wiki-page&gt;</highlight>
