@@ -82,6 +82,14 @@ function getRootCours() {
     return $path;
 }
 
+function getIndexPath() {
+    global $PAGE;
+    if(!$PAGE->ref) return;
+    $index = $PAGE->root.'index/';
+    return getRelativePath($PAGE->file, $index);
+}
+
+
 
 /**
  * Get children pages

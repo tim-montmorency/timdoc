@@ -316,7 +316,7 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
 <h3>timg</h3>
 
-<p>La composante <incode><timg src=""></timg></incode> agît de la même manière que la balise <incode><img src=""></incode> à l'exception que l'expressio <incode>$t</incode> sera remplacé par le nom du thème (<incode>light</incode> ou <incode>dark</incode>).</p>
+<p>La composante <incode><timg src=""></timg></incode> agît de la même manière que la balise <incode><img src=""></incode> à l'exception que l'expression <incode>$t</incode> sera remplacé par le nom du thème (<incode>light</incode> ou <incode>dark</incode>).</p>
 
 <highlight lang="html"><timg src="./images/timg-$t.webp" class="full"></timg></highlight>
 

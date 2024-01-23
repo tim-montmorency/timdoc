@@ -155,9 +155,14 @@ const hcd = (a,b) => {
         }
     },
     methods: {
-        goToTop(path = null){
-            if(!path) path = '#top';
-            document.location.href = path;
+        goToTop(path = null, index = null){
+            const referer = new URL(document.referrer, document.baseURI);
+            if(index && /\/index\//g.test(referer.pathname)) {
+                document.location.href = index;
+            } else {
+                if(!path) path = '#top';
+                document.location.href = path;
+            }
         },
         lightswitch(){
             if(this.$refs.lightswitch.className == 'lightswitch--on') {
