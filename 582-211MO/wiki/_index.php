@@ -142,8 +142,6 @@
 <wiki-page name="Cours 09" date="2024-03-25">
 <h3>Examen: Birds of Prey</h3>
     <video playsinline src="./videos/birds-of-prey.mp4" autoplay="true" muted="true" loop="true" style="width: 100%; max-width: 770px;"></video>
-    <h2>Devoir: Vidéo Accessibilité 101</h2>
-    <youtube src="SOt4nkPib8Y"></youtube>
 </wiki-page>
 
 
