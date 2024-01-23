@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Open Graph Protocol</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Intégration Web</a> > <a href="../">HTML</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Open Graph Protocol</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Lorsque vous partagez une page sur les réseaux sociaux, un aperçu est généré. Vous, vous êtes peut-être déjà demandé pourquoi certains sites ont un aperçu de qualité, donnant le goût de cliquer sur leur lien alors que d'autres ont un aperçu décevant avec une image, un texte et une description quelconque.</p>
+
+<p>Par défaut, ces informations sont déterminées par le réseau social les affichant. Cependant, il est possible de spécifier les informations à utiliser afin de contrôler le résultat obtenu grâce à l'<a target="_blank" href="https://ogp.me/">Open Graph Protocol</a>.</p>
+
+<p>Ce protocole est notamment utilisé par:</p>
+
+<ul>
+    <li>Facebook <em>(Créateurs du protocole)</em></li>
+    <li>Twitter</li>
+    <li>LinkedIn</li>
+    <li>Pinterest</li>
+    <li>Et la majorité des applications de discussions <em>(Messenger, Slack, etc.)</em></li>
+</ul>
+
+<p>Il est important de remplir certaines métadonnées de base afin d'éviter un affichage disgracieux.</p>
+
+<p>Voici par exemple le même site, à gauche sans métadonnées et à droite avec des métadonnées de base.</p>
+
+<img src="images/og-vs.png">
+
+<dots></dots>
+
+
+<grostitre>og:title</grostitre>
+
+<p>Définis le titre du site. Si la balise n'est pas renseignée, la valeur de la balise <span class="inline-code">&lt;title&gt;</span> sera utilisée.</p>
+
+<p>Idéalement, le titre devrait être attrayant et avoir une longueur variant entre 60 et 90 caractères.</p>
+
+<highlight lang="html">&lt;meta property=&quot;og:title&quot; content=&quot;TIM - Coll&egrave;ge Montmorency&quot;&gt;</highlight>
+
+<warning>Facebook tronque les titres lorsqu’ils excèdent 88 caractères.</warning>
+
+<dots></dots>
+
+
+<grostitre>og:type</grostitre>
+
+<p>Définis le type de contenu partagé, notamment:</p>
+
+<ul>
+    <li>Website <em>(par défaut)</em></li>
+    <li>Music</li>
+    <li>Video</li>
+    <li>Article</li>
+    <li>Book</li>
+    <li>Profile</li>
+    <li>Etc.</li>
+</ul>
+
+<p>Pour voir la <a target="_blank" href="https://ogp.me/#types">liste complète des options</a>.</p>
+
+<highlight lang="html">&lt;meta property=&quot;og:type&quot; content=&quot;website&quot;&gt;</highlight>
+
+<dots></dots>
+
+
+<grostitre>og:description</grostitre>
+
+<p>Courte description du site devant tenir en une ou deux phrases. Contrairement à la balise <span class="inline-code">&lt;meta name=&quot;description&quot;&gt;</span> la balise <span class="inline-code">&lt;meta property=&quot;og:description&quot;&gt;</span> n'affecte pas le référence du site. Néanmoins, faites attention à son contenu puisqu'il sera affiché sous le titre de l'aperçu dans la majorité des réseaux sociaux.</p>
+
+<highlight lang="html">&lt;meta property=&quot;og:description&quot; content=&quot;Programme de Technique d&#039;Int&eacute;gration Multim&eacute;dias du Coll&egrave;ge Montmorency situ&eacute; &agrave; Laval, Qu&eacute;bec.&quot;&gt;</highlight>
+
+<warning>La longueur maximale ne devrait pas excéder 200 caractères afin d’éviter de voir son texte tronqué.</warning>
+
+<dots></dots>
+
+
+<grostitre>og:image</grostitre>
+
+<p>Définis l'url de l'image 🖼️ à utiliser pour l'aperçu du site. Cette balise est importante afin d'éviter qu'un carré noir ⬛ ou pire une image aléatoire sur la page soit promue l'image d'aperçu officielle. Par exemple, le cas inopportun où une publicité devient l'aperçu d'une page 😱.</p>
+
+<p>Au minimum, l'image doit avoir 600px de large, mais idéalement une largeur de 1080px ou plus est désirée afin d'afficher convenablement sur les appareils munis d'un écran de type haute définition et un ratio 16:9 est encouragé.</p>
+
+<highlight lang="html">&lt;meta property=&quot;og:image&quot; content=&quot;https://tim-montmorency.com/public/img/tim-og.jpg&quot;&gt;</highlight>
+
+<warning>Le contenu important de l’image devrait se trouver au centre, car Facebook tend à couper les extrémités.</warning>
+
+<p>Idéalement, cette balise est complétée par les balises <span class="inline-code">og:image:width</span> et <span class="inline-code">og:image:height</span> afin de spécifier la dimension de l'image d'aperçu.</p>
+
+<highlight lang="html">&lt;meta property=&quot;og:image:width&quot; content=&quot;1920&quot;&gt;
+&lt;meta property=&quot;og:image:height&quot; content=&quot;1008&quot;&gt;</highlight>
+
+<dots></dots>
+
+
+<grostitre>og:url</grostitre>
+
+<p>Définis l'url devant être utilisée pour les partages.</p>
+
+<p>Ainsi, si une page répond à plus d'une adresse, par exemple:</p>
+
+<ul>
+    <li><a target="blank" href="https://www.tim-montmorency.com/">https://www.tim-montmorency.com</a></li>
+    <li><a target="blank" href="https://tim-montmorency.com/">https://tim-montmorency.com</a></li>
+</ul>
+
+<p>Il est possible de spécifier que lors d'un partage l'adresse utilisée devrait être <a target="_blank" href="https://tim-montmorency.com">https://tim-montmorency.com</a></p>
+
+<dots></dots>
+
+
+<grostitre>Extras</grostitre>
+
+<ul>
+    <li><span class="inline-code">og:audio</span> L'URL d'un fichier audio accompagnant la  publication.</li>
+    <li><span class="inline-code">og:locale</span> La langue et la culture de la publication <em>(Par défaut: en_US)</em>.</li>
+    <li><span class="inline-code">og:site_name</span> Le nom du site web.</li>
+    <li><span class="inline-code">og:video</span> L'URL d'un fichier vidéo accompagnant la  publication.</li>
+</ul>
+
+<dots></dots>
+
+
+        <a class="tool" target="_blank" href="https://developers.facebook.com/tools/debug">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">Facebook Debugger</span>
+                    <span class="tool-description">Afin de prévisualiser ou de forcer le rafraichissement de l’aperçu d’un site.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(tools/facebook-debugger/images/thumb.jpg)"></div>
+            </div>
+        </a>
+        <a class="tool" target="_blank" href="https://cards-dev.twitter.com/validator">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">Twitter Card Validator</span>
+                    <span class="tool-description">Afin de prévisualiser l’aperçu d’un site sur Twitter.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(tools/twitter-card-validator/images/thumb.jpg)"></div>
+            </div>
+        </a>
+
+<doclink href="https://ogp.me/">Open Graph protocol</doclink>
+<doclink href="https://developers.facebook.com/docs/sharing/webmasters">Guide de partage</doclink>
+
+<dots></dots>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>
