@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Pseudo-classes</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Intégration Web</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/css/">CSS</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Pseudo-classes</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Les pseudo-classes sont matière courantes sur le web, il est probable que vous en ayez déjà utilisé sans même le savoir. L'un des exemples les plus fréquents est <span class="inline-code">:hover</span>.</p>
+
+<p>Leur utilité principale est de permettre d'ajouter ou de redéfinir des styles à un élément lorsqu'il respecte une condition particulière.</p>
+
+<p>Par exemple, si un élément est survolé par la souris, sa condition est <span class="inline-code">:hover</span>.</p>
+
+<codepen id="rNrKbRX" tab="css,result" height="340"></codepen>
+
+<info>Remarquez comment les deux points <span class="inline-code">:</span> servent à séparer le sélecteur de base de la pseudo-classe.</info>
+
+<dots></dots>
+
+
+<grostitre>Liens</grostitre>
+
+<p>Les pseudo-classes sont particulièrement utiles pour gérer l'apparence des liens en fonction de leur état.</p>
+
+<p>Par exemple, voici les états d'un lien sur <a target="_blank" href="https://fr.wikipedia.org/wiki/(274301)_Wikip%C3%A9dia">Wikipedia</a></p>
+
+<h3>:link</h3>
+
+<p>Lorsque le lien n'a pas encore été visité.</p>
+
+<img src="images/pseudo-link.png">
+
+<h3>:hover</h3>
+
+<p>Lorsqu'il est survolé.</p>
+
+<img src="images/pseudo-hover.png">
+
+<h3>:active</h3>
+
+<p>Lorsque le bouton de la souris est enfoncé.</p>
+
+<img src="images/pseudo-active.png">
+
+<h3>:visited</h3>
+
+<p>Lorsqu'il a déjà été visité.</p>
+
+<img src="images/pseudo-visited.png">
+
+<h3>:focus</h3>
+
+<p>Lorsque le lien reçoit le focus.</p>
+
+<img src="images/pseudo-focus.png">
+
+<dots></dots>
+
+        <a class="exercice" target="_blank" href="exercices/cercles/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/cercles/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Pseudo-classes - Cercles</span>
+                    <span class="exercice-description">Pour cet exercice, vous devez altérer l’apparence de chaque carré et de leur contenu en fonction du survole de la souris</span>
+                </div>
+            </div>
+        </a>
+        <a class="exercice" target="_blank" href="exercices/bouton/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/bouton/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Pseudo-classes - Bouton</span>
+                    <span class="exercice-description">Pour cet exercice, vous devez utiliser les pseudo-classes afin de modifier l’apparence d’un bouton selon différentes conditions.</span>
+                </div>
+            </div>
+        </a>
+
+<dots></dots>
+
+
+
+
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

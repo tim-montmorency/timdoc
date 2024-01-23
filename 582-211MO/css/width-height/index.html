@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Width & Height</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Intégration Web</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/css/">CSS</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Width & Height</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<grostitre>width & height</grostitre>
+
+<p>Les propriétés <span class="inline-code">width</span> et <span class="inline-code">height</span> permettent de définir respectivement la largeur et la hauteur d'un élément. Par défaut leur valeur est à <span class="inline-code">auto</span>.</p>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/width">width</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_dim_width.asp">width</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/height">height</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_dim_height.asp">height</doclink>
+
+<dots></dots>
+
+
+<grostitre>min-width & min-height</grostitre>
+
+<p>Les propriétés <span class="inline-code">min-width</span> et <span class="inline-code">min-height</span> permettent de définir une <strong>largeur et une hauteur minimum</strong> à un élément.</p>
+
+<p>Par exemple, pour s'assurer qu'un élément ne soit jamais plus petit que 400px, il est possible d'utiliser:</p>
+
+<highlight lang="css">.element {
+  width: 50%;
+  min-width: 400px;
+}</highlight>
+
+<p>Puisque <span class="inline-code">min-width</span> a préséance sur <span class="inline-code">width</span>, l'élément adoptera alors sa largeur.</p>
+
+<p>Si l'élément est dans un parent ayant un <span class="inline-code">width</span> de:</p>
+
+<ul>
+    <li><span class="inline-code">1000px</span>: 400px < 500px <em>(50%)</em> ➡️ 500px</li>
+    <li><span class="inline-code">500px</span>: 400px > 250px <em>(50%)</em> ➡️ 400px</li>
+</ul>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/min-width">min-width</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_dim_min-width.asp">min-width</doclink>
+<doclink href="https://developer.mozilla.org/en-US/docs/Web/CSS/min-height">min-height</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_dim_min-height.asp">min-height</doclink>
+
+<dots></dots>
+
+
+<grostitre>max-width & max-height</grostitre>
+
+<p>Les propriétés <span class="inline-code">max-width</span> et <span class="inline-code">max-height</span> permettent de définir une <strong>largeur et une hauteur maximale</strong> à un élément.</p>
+
+<p>Par exemple, pour s'assurer qu'un élément ne soit jamais plus grand que 400px, il est possible d'utiliser:</p>
+
+<highlight lang="css">.element {
+  width: 50%;
+  max-width: 400px;
+}</highlight>
+
+<p>Puisque <span class="inline-code">max-width</span> a préséance sur <span class="inline-code">width</span>, l'élément adoptera alors sa largeur.</p>
+
+<p>Si l'élément est dans un parent ayant un <span class="inline-code">width</span> de:</p>
+
+<ul>
+    <li><span class="inline-code">1000px</span>: 400px < 500px <em>(50%)</em> ➡️ 400px</li>
+    <li><span class="inline-code">500px</span>: 400px > 250px <em>(50%)</em> ➡️ 250px</li>
+</ul>
+
+<info><span class="inline-code">max-width: 100%</span> est régulièrement appliqué aux images. Ainsi, les images prennent leur largeur normale, mais ne dépassent jamais de l’écran.</info>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/max-width">max-width</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_dim_max-width.asp">max-width</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/max-height">max-height</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_dim_max-height.asp">max-height</doclink>
+
+<dots></dots>
+
+        <a class="exercice" target="_blank" href="exercices/system32">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/system32/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Width/Height - System32</span>
+                    <span class="exercice-description">Pour cet exercice, vous devez créer en HTML et CSS une page présentant une bande dessinée d’Andrew AKA system32comics.</span>
+                </div>
+            </div>
+        </a>
+        <a class="exercice" target="_blank" href="exercices/prevert">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/prevert/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Width/Height - Prévert</span>
+                    <span class="exercice-description">Pour cet exercice vous devrez en CSS compléter l’affichage du célèbre poème: Le cancre, du français Jacques Prévert.</span>
+                </div>
+            </div>
+        </a>
+
+<dots></dots>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

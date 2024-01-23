@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../../shared/';</script>
+        <title>Z-index - Mains de Monstres</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Z-index - Mains de Monstres</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p class="spacer">Pour cet exercice, vous devez recréer une scène où des monstres jouent au jeu d’enfants d’empilement des mains.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<img src="images/z-index-mains-de-monstres-resultat.jpg">
+
+<dots></dots>
+
+
+<grostitre>Matériel</grostitre>
+
+<h3>Couleurs 🎨</h3>
+
+<color>#f4e2d8</color>
+<color>#ba5370</color>
+
+<h3>Médias</h3>
+
+<mediafile src="images/freddy-krueger.webp">Freddy Krueger</mediafile>
+<mediafile src="images/nosferatu.webp">Nosferatu</mediafile>
+<mediafile src="images/creature-from-the-black-lagoon.webp">Créature du Lac</mediafile>
+<mediafile src="images/the-mummy.webp">La momie</mediafile>
+
+<info>Toutes les images ont la même dimension, soit: 600x600px</info>
+
+<p>Aucun Pen ne vous est fourni pour cet exercice. Vous devrez vous en créer un sur <a target="_blank" href="https://codepen.io/">CodePen</a> et écrire l'ensemble du HTML et du CSS.</p>
+
+<dots></dots>
+
+
+<grostitre>Requis</grostitre>
+
+<checklist>
+    Créez un dégradé de beige à rouge 🔴 couvrant l'ensemble de l'arrière-plan de votre page HTML.
+    Créez ensuite un élément HTML de 600x600px qui contiendra toutes les mains des monstres.
+    Affichez dans le code HTML de cet élément les mains dans cet ordre précis: <br>1. <a target="_blank" onclick="event.stopPropagation();" href="https://www.imdb.com/title/tt0087800/?ref_=nv_sr_srsg_0">Freddy Krueger</a><br>2. <a target="_blank" onclick="event.stopPropagation();" href="https://www.imdb.com/title/tt0013442/?ref_=nv_sr_srsg_0">Nosferatu</a><br>3. <a target="_blank" onclick="event.stopPropagation();" href="https://www.imdb.com/title/tt0046876/?ref_=fn_al_tt_1">L'Étrange Créature du Lac Noir</a><br>4. <a target="_blank" onclick="event.stopPropagation();" href="https://www.imdb.com/title/tt0120616/">La momie</a>
+    Toutes les images de mains ont la même taille, superposez-les en CSS. Leur ordre d'apparition devrait être différent en ce moment de celui sur l'aperçu du résultat ci-dessus ☝️
+    En l'aide du CSS seulement, changer l'ordre d'empilement des mains, de sorte que celle de Nosferatu soit sur le dessus, suivi de celle de la momie, de Freddy et finalement de la créature.
+</checklist>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../linear-gradient/images/icon.png);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../linear-gradient/">Linear-gradient</a></span>
+                <span class="intlink__item__abstract">Générer un dégradé.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../z-index/images/icon.png);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../z-index/">Z-index</a></span>
+                <span class="intlink__item__abstract">Order d'apparition des éléments dans le flux</span>
+            </div>
+        </div>
+
+<dots></dots>
+
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

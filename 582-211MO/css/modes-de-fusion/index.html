@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Modes de fusion</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Intégration Web</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/css/">CSS</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Modes de fusion</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Avant d'afficher une image sur un site, celle-ci est généralement modifiée à l'aide d'un logiciel tel que Photoshop. Les modes de fusion n'éliminent pas réellement ce besoin, mais permettent tout de même d'ajouter plusieurs effets à une image directement en CSS.</p>
+
+<p>Les modes de fusion, ou en anglais <em>blend modes</em>, déterminent l’apparence de deux éléments lorsqu’ils sont superposés. De base, les éléments sont traités comme des entités séparées. Ainsi, l’élément en dessous est masqué par l’élément du dessus. C’est ce que l’on appelle le mode normal.</p>
+
+<dots></dots>
+
+
+<grostitre>Modes disponibles</grostitre>
+
+<ul>
+  <li><span class="inline-code">normal</span> <em>(normal)</em> par défaut.</li>
+  <li><span class="inline-code">multiply</span> <em>(fondu)</em></li>
+  <li><span class="inline-code">screen</span> <em>(superposition)</em></li>
+  <li><span class="inline-code">overlay</span> <em>(incrustation)</em></li>
+  <li><span class="inline-code">darken</span> <em>(obscurcir)</em></li>
+  <li><span class="inline-code">color-dodge</span> <em>(densité couleur -)</em></li>
+  <li><span class="inline-code">color-burn</span> <em>(densité couleur +)</em></li>
+  <li><span class="inline-code">hard-light</span> <em>(lumière crue)</em></li>
+  <li><span class="inline-code">soft-light</span> <em>(lumière tamisée)</em></li>
+  <li><span class="inline-code">difference</span> <em>(différence)</em></li>
+  <li><span class="inline-code">exclusion</span> <em>(exclusion)</em></li>
+  <li><span class="inline-code">hue</span> <em>(teinte)</em></li>
+  <li><span class="inline-code">saturation</span> <em>(saturation)</em></li>
+  <li><span class="inline-code">color</span> <em>(couleur)</em></li>
+  <li><span class="inline-code">luminosity</span> <em>(luminosité)</em></li>
+</ul>
+
+<info>La documentation concernant les modes de fusion en CSS fut écrite en partenariat avec les ingénieurs d’Adobe. Vous remarquerez donc que les modes disponibles correspondent à ceux dans Photoshop.</info>
+
+<dots></dots>
+
+
+<grostitre>mix-blend-mode</grostitre>
+
+<p>Les modes de fusion peuvent être utilisés sur des <strong>éléments séparés</strong> grâce à la propriété <span class="inline-code">mix-blend-mode</span>.</p>
+
+<p>Par exemple, voici 3 <span class="inline-code">&lt;div&gt;</span> séparés, se superposant:</p>
+
+<codepen id="OJwrwKB" tab="result"></codepen>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/mix-blend-mode">mix-blend-mode</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_mix-blend-mode.asp">mix-blend-mode</doclink>
+
+<dots></dots>
+
+
+<grostitre>Isolation</grostitre>
+
+<p>La propriété <span class="inline-code">isolation</span> permet de créer un nouveau contexte de fusion. Lorsqu'un contexte est créé, les éléments à l'intérieur peuvent continuer de fusionnent entre eux, mais ne peuvent plus fusionner avec les autres éléments sur la page.</p>
+
+<p>Par exemple, si une bande jaune 🟡 est ajoutée à l'exemple précédent et qu'un contexte <em>(.wrapper)</em> incluant les cercles #1 et #2 est créé. Ces cercles continuent de fusionner entre eux, mais ne fusionnent pas avec ladite bande. Tandis que le cercle #3 fusionne avec celle-ci, puisqu'il n'est pas isolé.</p>
+
+<codepen id="oNMJPgG" tab="result"></codepen>
+
+<span class="remark">Remarquez la bande visible seulement au travers du cercle #3.</span>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/isolation">isolation</doclink>
+<doclink href="https://www.w3schools.com/cssref/css3_pr_isolation.asp">isolation</doclink>
+
+<dots></dots>
+
+
+<grostitre>background-blend-mode</grostitre>
+
+<p>Il est aussi possible d’utiliser la propriété <span class="inline-code">background-blend-mode</span> pour déterminer comment les <strong>arrière-plans</strong> <em>(couleurs ou images)</em> d’un élément doivent fusionner entre eux.</p>
+
+<p>Par exemple, un élément ayant un fond vert 🟢 et l'image de paysage en arrière-plan:</p>
+
+<highlight lang="css">.element {
+  background-color: green;
+  background-image: url(&#039;paysage.jpg&#039;);
+}</highlight>
+
+<codepen id="OJwrBGm" tab="result" height="540"></codepen>
+
+<span class="remark">Crédits photo 📷: <a target="_blank" href="https://unsplash.com/photos/twukN12EN7c">Simon Berger</a></span>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/background-blend-mode">background-blend-mode</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_background-blend-mode.asp">background-blend-mode</doclink>
+
+<dots></dots>
+
+        <a class="exercice" target="_blank" href="exercices/emotion/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/emotion/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Modes de fusion - Émotion</span>
+                    <span class="exercice-description">Pour cet exercice vous devez ajuster une affiche à l’aide des modes de fusion en CSS afin de lui donner l’apparence recherchée.</span>
+                </div>
+            </div>
+        </a>
+
+<dots></dots>
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

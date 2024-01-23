@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Padding</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Intégration Web</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Padding</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">La propriété <span class="inline-code">padding</span> définit l'espace entre le contenu et ses  extrémités. Par défaut, cette propriété à une valeur de 0 permettant au contenu de s'afficher a même les extrémités de l'élément, mais elle accepte l'ensemble des unités de mesure CSS.</p>
+
+<p>Lorsqu'une seule valeur est fournie, celle-ci est appliquée aux 4 côtés de l'élément.</p>
+
+<p>Par exemple:</p>
+
+<codepen id="rNrKjeY" tab="result" height="280"></codepen>
+
+<warning>La propriété <span class="inline-code">padding</span> n’accepte pas les valeurs négatives.</warning>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/padding">padding</doclink>
+<doclink href="https://www.w3schools.com/css/css_padding.asp">padding</doclink>
+
+<dots></dots>
+
+
+<grostitre>Sous-propriétés</grostitre>
+
+<p>Pour plus de contrôle, il est possible d'attribuer une valeur différente à chaque côté en utilisant les sous-propriétés suivantes:</p>
+
+<ul>
+  <li><span class="inline-code">padding-top</span></li>
+  <li><span class="inline-code">padding-right</span></li>
+  <li><span class="inline-code">padding-bottom</span></li>
+  <li><span class="inline-code">padding-left</span></li>
+</ul>
+
+<p>Par exemple:</p>
+
+<codepen id="OJwEWbV" tab="result" height="280"></codepen>
+
+<dots></dots>
+
+
+<grostitre>Syntaxe courte</grostitre>
+
+<p>Il est aussi possible d'attribuer les 4 côtés avec la syntaxe courte en les spécifiant un après l'autre en commençant par le haut et en tournant dans le sens des aiguilles d'une montre ⌚️ <em>(top, right, bottom et left)</em>.</p>
+
+<p>Par exemple:</p>
+
+<codepen id="BaPVpRj" tab="result" height="280"></codepen>
+
+<dots></dots>
+
+
+<grostitre>Ratio à partir de %</grostitre>
+
+<p>Lorsqu'une valeur de <span class="inline-code">padding</span> est définie en pourcentage <em>(%)</em>, que ce soit à l'horizontale <em>(left/right)</em> ↔️ ou vertical <em>(top/bottom)</em> ↕️, celle-ci <strong>se base toujours sur la largeur</strong> de l'élément.</p>
+
+<p>Autrement dit, si un élément mesure 100x20px et que <span class="inline-code">padding-bottom: 100%</span> lui est ajouté, sa hauteur finale sera de 120px <em>(20x de haut + 100px de padding-bottom)</em>.</p>
+
+<p>Cette particularité est souvent exploitée afin de créer des éléments ayant un ratio spécifique. Par exemple, afin d'obtenir un format 16/9 il suffit de ramener la valeur de hauteur de cette fraction en pourcentage, soit <span class="inline-code">9 &divide; 16 x 100% = 56.25%</span>.</p>
+
+<highlight lang="css">.element {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; // 16/9
+}</highlight>
+
+<p>Cet élément serait donc toujours dans un format 16/9, peu importe la largeur de son parent.</p>
+
+<dots></dots>
+
+
+
+
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../../shared/';</script>
+        <title>Scroll-snap - WhatIsAdam</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Scroll-snap - WhatIsAdam</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p class="spacer">Pour cet exercice, vous devrez réaliser un carrousel CSS mettant en valeur 12 œuvres de l’artiste québécois <a target="_blank" href="http://www.whatisadam.com/">WhatIsAdam</a>.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<clipasset src="videos/scroll-snap-whatisadam.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>Matériel</grostitre>
+
+<h3>Médias</h3>
+
+<mediafile src="images/1.webp">Oeuvre #1</mediafile>
+<mediafile src="images/2.webp">Oeuvre #2</mediafile>
+<mediafile src="images/3.webp">Oeuvre #3</mediafile>
+<mediafile src="images/4.webp">Oeuvre #4</mediafile>
+<mediafile src="images/5.webp">Oeuvre #5</mediafile>
+<mediafile src="images/6.webp">Oeuvre #6</mediafile>
+<mediafile src="images/7.webp">Oeuvre #7</mediafile>
+<mediafile src="images/8.webp">Oeuvre #8</mediafile>
+<mediafile src="images/9.webp">Oeuvre #9</mediafile>
+<mediafile src="images/10.webp">Oeuvre #10</mediafile>
+<mediafile src="images/11.webp">Oeuvre #11</mediafile>
+<mediafile src="images/12.webp">Oeuvre #12</mediafile>
+
+<dots></dots>
+
+
+<grostitre>Requis</grostitre>
+
+<checklist>
+  Créez-vous un Pen avec fond blanc ⚪️ sur <a onclick="event.stopPropagation();" target="_blank" href="https://codepen.io/">CodePen</a> afin de réaliser cet exercice.
+  Créez ensuite l'élément correspondant à votre carrousel. Celui-ci doit prendre toute la largeur, ainsi que la moitié de la hauteur de la page et être centré verticalement ↕️ dans celle-ci.
+  Insérez-les 12 images listées ci-dessus ☝️dans votre carrousel. Faites en sorte que chacune d'entre elles prenne toute la hauteur de votre carrousel.<br><br>Par défaut, vos images n'auront pas l'espace nécessaire afin de s'afficher une à côté de l'autre, il faudra donc les forcer en appliquant la propriété <span class="inline-code">white-space: nowrap;</span> au carrousel. Cette propriété permet de spécifier que des éléments <span class="inline-code">inline</span> contenus dans l'élément en question n'ont pas le droit de faire de retour à la ligne, même si l'espace vient à manquer.
+  Assurez-vous que seule la barre de défilement horizontale est visible ↔️. Celle verticale ne doit en aucun cas être visible 🚫.
+  Faites en sorte que toutes les oeuvres <em>"snap"</em> au centre de votre carrousel lorsque l'utilisateur cesse de faire défiler le carrousel.
+</checklist>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../snap-scroll/images/icon.png);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../snap-scroll/">Scroll-snap</a></span>
+                <span class="intlink__item__abstract">scroll-snap-type, scroll-snap-align, scroll-padding</span>
+            </div>
+        </div>
+
+<dots></dots>
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

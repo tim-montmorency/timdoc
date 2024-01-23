@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Position</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Intégration Web</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Position</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Le flux normal, ou ce que les anglophones appellent le <em>“flow”</em>, est la façon dont les éléments sont affichés dans une page web lorsqu’aucun style ne leur est appliqué.</p>
+
+<p>Dans le flux normal, les éléments block <em>(div, p, section, etc.)</em> sont positionnés un à la suite de l’autre, tandis que les éléments inline <em>(span, strong, em, etc.)</em>, sont positionnés un à côté de l’autre en fonction de leur ordre d’apparition dans le code HTML.</p>
+
+<p>À titre de base comparative, chaque exemple sur cette page utilise le gabarit suivant 👇 composé d'éléments en <span class="inline-code">display: block;</span> placés un en dessous de l’autre. Seule la propriété <span class="inline-code">position</span> de ces boites fluctue d'un exemple à l'autre afin d'illustrer la différence engendrée par cette propriété. Un <span class="inline-code">top: 15vmin</span>; a aussi été attribué à la boite afin de mettre en évidence l'impact de <span class="inline-code">position</span>.</p>
+
+<codepen id="PoBRxKb" height="340" tab="result"></codepen>
+
+<dots></dots>
+
+<grostitre>static</grostitre>
+
+<p>Par défaut, le navigateur attribue la position <span class="inline-code">static</span> à tous les éléments. La particularité principale de cette position est que les propriétés <span class="inline-code">top</span>, <span class="inline-code">right</span>, <span class="inline-code">bottom</span>, <span class="inline-code">left</span> ou encore <span class="inline-code">z-index</span> n’ont <u>aucun impact</u> sur ces éléments 🚫.</p>
+
+<p>Cette valeur de position à pour objectif de positionner les éléments comme le ferait le code HTML sans l’intervention du CSS. On remarque donc que la propriété <span class="inline-code">top</span> n'affecte aucunement la boite</p>
+
+<codepen id="abjYQLx" height="340" tab="result"></codepen>
+
+<dots></dots>
+
+
+<grostitre>relative</grostitre>
+
+<p>Les éléments en <span class="inline-code">position: relative;</span> se positionnent d'abord en fonction du flux normal de la page. Ils sont ensuite déplacés relativement à cet emplacement, d'où leur nom <span class="inline-code">position: relative;</span>.</p>
+
+<p>On remarque donc dans l'exemple ci-dessous que la boite est décalée d'une demi-hauteur de boite par rapport à sa position normale dans le flux.</p>
+
+<codepen id="qByoQVe" height="340" tab="result"></codepen>
+
+<dots></dots>
+
+
+<grostitre>absolute</grostitre>
+
+<p>Les éléments en <span class="inline-code">position: absolute;</span> ignorent complètement le flux de la page et se positionnent en fonction du parent le plus près aillant une position autre que static.</p>
+
+<p>On remarque dans l'exemple ci-dessous que les éléments respectant le flux se positionnent exactement comme si la boite 2 n'existait pas <em>(aucun espace vide entre la boite 1 et la 3)</em>. La boite 2 quant à elle se positionne par rapport au <span class="inline-code">&lt;body&gt;</span> qui en l'absence de parent avec une position devient sont point de référence.</p>
+
+<codepen id="wvxmQye" height="340" tab="result"></codepen>
+
+<dots></dots>
+
+
+<grostitre>fixed</grostitre>
+
+<p>Les éléments en <span class="inline-code">position: fixed;</span> ressemblent aux éléments en <a href="#absolute">position absolute</a>. Tout comme eux, ils ignorent le flux de la page. Cependant, plutôt que de se positionner en fonction d'un parent, ils se positionnent en fonction de la fenêtre <em>(viewport)</em>.</p>
+
+<p>On remarque dans l'exemple ci-dessous que les éléments respectant le flux se positionnent exactement comme si la boite 2 n'existait pas <em>(aucun espace vide entre la boite 1 et la 3)</em>. La boite 2 quant à elle se positionne par rapport à la fenêtre, donc même si la page défile, la boite reste fixe.</p>
+
+<codepen id="JjBLeLg" height="340" tab="result"></codepen>
+
+<dots></dots>
+
+
+<grostitre>sticky</grostitre>
+
+<p>Les éléments en <span class="inline-code">position: sticky;</span> ressemblent aux éléments en <a href="#static">position static</a>. Tout comme eux, ils se positionnent d'abord en fonction du flux normal de la page. Cependant, lorsqu'une de leurs propriétés <span class="inline-code">top</span>, <span class="inline-code">right</span>, <span class="inline-code">bottom</span> ou <span class="inline-code">left</span> correspond au défilement de la page, l'élément devient fixe.</p>
+
+<p>Dans l'exemple ci-dessous, la boite 2 n'est à priori pas affectée par la propriété <span class="inline-code">top</span>. Cependant, lorsque la page défile et que la boite se trouve à une distance du sommet équivalente à la valeur de sa propriété <span class="inline-code">top</span>, celle-ci devient fixe et arrête de défiler avec le reste de la page.</p>
+
+<codepen id="xxJWQzv" height="340" tab="result"></codepen>
+
+<dots></dots>
+
+
+        <a class="exercice" target="_blank" href="https://cdpn.io/smnarnold/debug/ZEpZWPB">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/cat-in-the-box/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Cat in the box - Niveaux 1 à 13</span>
+                    <span class="exercice-description">Utilisez la propriété position afin de déplacer les chats dans leurs boites respectives.</span>
+                </div>
+            </div>
+        </a>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/position">position</doclink>
+<doclink href="https://www.w3schools.com/css/css_positioning.asp">position</doclink>
+
+<dots></dots>
+
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

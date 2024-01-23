@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Unités de couleur</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Intégration Web</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Unités de couleur</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">L'un des éléments de base d'une mise en page CSS réussie est la sélection de couleurs. Pour notre convenance, le langage CSS met à notre disposition plusieurs façons d'exprimer les couleurs désirées.</p>
+
+<p>En voici quelques unes.</p>
+
+<dots></dots>
+
+
+<grostitre>Mot-clé</grostitre>
+
+<p>Il est possible de spécifier certaines couleurs en CSS en utilisant leur nom <em>(en anglais)</em> directement.</p>
+
+<p>Par exemple, <span class="inline-code">yellow</span> pour du jaune 🟨, <span class="inline-code">orange</span> pour du orange 🟧 et ainsi de suite. Malheureusement, il est difficile de retenir la majorité de ces noms et de se limiter à 147 couleurs. L'usage des mots-clés est donc peu fréquent à l'exception de classiques tels que: <span class="inline-code">black</span>, <span class="inline-code">white</span>, etc.</p>
+
+        <a class="tool" target="_blank" href="https://147colors.com/">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">147 colors</span>
+                    <span class="tool-description">Pour visualiser les 147 noms de couleurs disponibles.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(tools/147-colors/images/thumb.jpg)"></div>
+            </div>
+        </a>
+
+<info>En 2014, <a target="_blank" href="https://codepen.io/trezy/post/honoring-a-great-man">une 148e couleur CSS fut été ajoutée</a> afin de rendre un hommage à Eric Meyer.</info>
+
+<dots></dots>
+
+
+<grostitre>Hexadécimal</grostitre>
+
+<p>Un code hexadécimal est constitué d'un dièse <span class="inline-code">#</span> suivi de 6 caractères compris entre 0 et F. Les chiffres couvrent les valeurs de 0 à 9 et les lettres de 10 à 15 <em>(a=10, b=11 … f=15)</em>.</p>
+
+<ul>
+    <li>Les 2 premiers caractères représentent le rouge</li>
+    <li>Les 2 du milieu le vert</li>
+    <li>Les 2 derniers le bleu</li>
+</ul>
+
+<p>Plus une valeur est élevée, plus la couleur est présente. À l'opposée, plus une valeur est basse, plus la couleur est absente.</p>
+
+<p>Par exemple, le code suivant <span class="inline-code">#ff0000</span> indique un maximum de rouge 💯🟥 et une absence totale de vert 🚫🟩 et de bleu 🚫🟦, donnant ainsi un rouge pur.</p>
+
+<h3>Hex 3 caractères</h3>
+
+<p>Lorsque chaque couleur d'un code hexadécimal est constituée de deux caractères identiques, il est possible d'inscrire chaque caractère de façon unique.</p>
+
+<p>Dans l'exemple précédent <span class="inline-code">#ff0000</span> se déconstruit ainsi:</p>
+
+<ul>
+    <li>Rouge = <span class="inline-code">ff</span></li>
+    <li>Vert = <span class="inline-code">00</span></li>
+    <li>Bleu = <span class="inline-code">00</span></li>
+</ul>
+
+<p>Puisque chaque valeur est un doublé, il est possible d'abréger le code <span class="inline-code">#f00</span>.</p>
+
+<h3>Hex 8 caractères</h3>
+
+<p>Il est possible d'ajouter deux caractères supplémentaires à la fin d'un code hexadécimal régulier afin de spécifier son alpha.</p>
+
+<ul>
+    <li><span class="inline-code">00</span> = complètement transparent.</li>
+    <li><span class="inline-code">ff</span> = complètement opaque.</li>
+    <li>Toute valeur comprise entre ces deux extrêmes représente un niveau d'alpha allant de faible à fort.</li>
+</ul>
+
+<warning>Puisque calculer une valeur d’alpha avec une unité constituée de chiffres et de lettres n’est pas évident, cette approche n’est pas particulièrement répandue.</warning>
+
+<dots></dots>
+
+
+<grostitre>rgb et rgba</grostitre>
+
+<p>RGB est l'acronyme des couleurs <em>red</em>, <em>green</em> et <em>blue</em>. Pour définir une couleur <span class="inline-code">rgb()</span> il suffit de spécifier ces 3 couleurs avec une valeur comprise entre 0 et 255. Plus la valeur est élevée plus la couleur est présente.</p>
+
+<p>Par exemple, le rouge pur de l'exemple précédent s'écrirait ainsi <span class="inline-code">rgb(255, 0, 0)</span> dans ce format.</p>
+
+<p>Les couleurs <span class="inline-code">rgba()</span> fonctionnent sur le même principe, mais une 4e valeur comprise entre 0 et 1 permet de spécifier l'alpha de la couleur.</p>
+
+<p>Par exemple, pour obtenir un rouge pur semi-transparent, il est possible d'écrire <span class="inline-code">rgba(255, 0, 0, 0.5)</span>.</p>
+
+<dots></dots>
+
+
+<grostitre>hsl et hsla</grostitre>
+
+<p>HSL est l'acronyme de <span class="inline-code">hue</span>, <span class="inline-code">saturation</span> et <span class="inline-code">lightness</span> <em>(teinte, saturation et luminosité)</em>. Pour définir une couleur <span class="inline-code">hsl()</span> il faut spécifier:</p>
+
+<ul>
+    <li>
+        Une teinte entre 0 et 360
+        <ul>
+            <li>0 = Rouge</li>
+            <li>360 = Rouge</li>
+        </ul>
+    </li>
+    <li>
+        Une saturation entre 0% et 100%
+        <ul>
+            <li>0% = La couleur est désaturée comme sur une photo noir et blanc.</li>
+            <li>100% = Couleur pure</li>
+        </ul>
+    </li>
+    <li>
+        Une luminosité entre 0 et 100%
+        <ul>
+            <li>0% = Absence de lumière, tout est noir.</li>
+            <li>50% = Lumière normale.</li>
+            <li>100% = Lumière au maximum, tout est blanc./li>
+        </ul>
+    </li>
+</ul>
+
+<p>Par exemple, le rouge pur de l'exemple précédent s'écrirait ainsi <span class="inline-code">hsl(0, 100%, 50%)</span> dans ce format.</p>
+
+<p>Les couleurs <span class="inline-code">hsla()</span> fonctionnent sur le même principe, mais une 4e valeur comprise entre 0 et 1 permet de spécifier l'alpha de la couleur.</p>
+
+<p>Par exemple, pour obtenir un rouge pur semi-transparent, il est possible d'écrire <span class="inline-code">hsla(0, 100%, 50%, 0.5)</span>.</p>
+
+        <a class="tool" target="_blank" href="https://convertacolor.com/">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">Convert A Color</span>
+                    <span class="tool-description">Outil permettant de convertir un format de couleurs vers un autre.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(tools/convert-a-color/images/thumb.jpg)"></div>
+            </div>
+        </a>
+
+<knowmore href="https://developer.mozilla.org/fr/docs/Web/CSS/color_value">Article MDN à propos des unités de couleurs</knowmore>
+
+<dots></dots>
+
+
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>
