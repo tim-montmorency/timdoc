@@ -4,7 +4,6 @@
  * @title    Transformation
  * @icon     images/icon.png
  * @abstract translate, rotate, scale, skew, origin
- * @ref      web/css
  */
 ?>
 

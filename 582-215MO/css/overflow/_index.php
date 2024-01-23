@@ -4,7 +4,6 @@
  * @title    Overflow
  * @icon     images/icon.png
  * @abstract visible, hidden, auto, scroll
- * @ref      web/css
  */
 ?>
 

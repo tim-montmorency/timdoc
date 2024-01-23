@@ -4,7 +4,6 @@
  * @title    Responsive
  * @icon     images/icon.png
  * @abstract Adaptation aux différents écrans
- * @ref      web/css
  */
 ?>
 
