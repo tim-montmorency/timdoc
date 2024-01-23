@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Modes de fusion
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract multiply, screen, overlay, etc.
  * @ref      web/css
  */

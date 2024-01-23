@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Scroll-snap
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract scroll-snap-type, scroll-snap-align, scroll-padding
  * @ref      web/css
  */

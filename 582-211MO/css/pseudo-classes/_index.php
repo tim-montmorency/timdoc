@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Pseudo-classes
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract hover, active, visited, focus
  * @ref      web/css
  */

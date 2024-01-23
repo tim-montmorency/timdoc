@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Masquage
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract clip-path, mask-image
  * @ref      web/css
  */

@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Anatomie d'une règle
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract Structure, ancêtre, déclaration
  */
 ?>

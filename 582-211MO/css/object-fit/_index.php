@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Object-fit
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract contain, cover, fill
  * @ref      web/css
  */

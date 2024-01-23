@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Responsive
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract Adaptation aux différents écrans
  * @ref      web/css
  */

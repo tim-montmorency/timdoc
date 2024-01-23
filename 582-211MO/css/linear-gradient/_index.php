@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Linear-gradient
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract Générer un dégradé.
  */
 ?>

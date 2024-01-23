@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Outline
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract border, width, style, color
  */
 ?>

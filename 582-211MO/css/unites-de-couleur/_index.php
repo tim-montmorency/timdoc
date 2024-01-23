@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Unités de couleur
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract hex, rgb, hsl, etc.
  */
 ?>

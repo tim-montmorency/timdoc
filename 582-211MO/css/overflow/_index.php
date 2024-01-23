@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Overflow
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract visible, hidden, auto, scroll
  * @ref      web/css
  */

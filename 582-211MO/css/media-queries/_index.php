@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Media queries
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract Requête @media
  * @ref      web/css
  */

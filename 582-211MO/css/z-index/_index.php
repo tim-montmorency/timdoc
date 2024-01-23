@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Z-index
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract Order d'apparition des éléments dans le flux
  */
 ?>

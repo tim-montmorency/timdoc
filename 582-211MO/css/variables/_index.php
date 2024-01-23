@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Variables
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract ::root, var(--varname)
  * @ref      web/css
  */

@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Position
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract static, relative, absolute, fixed, sticky
  */
 ?>

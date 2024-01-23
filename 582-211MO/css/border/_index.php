@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Border
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract border, border-radius
  */
 ?>

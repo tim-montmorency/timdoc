@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Transformation
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract translate, rotate, scale, skew, origin
  * @ref      web/css
  */

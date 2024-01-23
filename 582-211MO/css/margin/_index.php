@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Margin
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract marge extérieur
  */
 ?>

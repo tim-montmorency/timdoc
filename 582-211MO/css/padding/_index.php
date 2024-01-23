@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Padding
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract marge intérieur
  */
 ?>

@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Box-sizing
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract border-box, content-box
  */
 ?>

@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Nommage et formatage
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract À priori, nommer des éléments peut sembler facile.
  */
 ?>

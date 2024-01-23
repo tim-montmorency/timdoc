@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Flux
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract L’affichage de base des éléments dans une page
  */
 ?>

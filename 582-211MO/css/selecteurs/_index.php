@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Sélecteurs
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract balise, #, ., combinaison, descendant
  */
 ?>

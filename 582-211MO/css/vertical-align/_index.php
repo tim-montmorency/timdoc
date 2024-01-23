@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Vertical-align
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract baseline, top, middle, bottom, super, sub
  */
 ?>

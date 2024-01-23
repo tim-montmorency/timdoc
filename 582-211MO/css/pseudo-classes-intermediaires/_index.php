@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Pseudo-classes intermédiaires
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract first-child, last-child, only-child, nth
  * @ref      web/css
  */

@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Pseudo-éléments
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract ::before, ::after
  * @ref      web/css
  */

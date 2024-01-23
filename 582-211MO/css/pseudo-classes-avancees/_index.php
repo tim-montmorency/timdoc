@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Pseudo-classes avancées
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract :first-of-type, :only-of-type, :empty, :not, :has
  * @ref      web/css
  */

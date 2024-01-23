@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Google fonts
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract + de 850 polices gratuites
  * @ref      web/css
  */

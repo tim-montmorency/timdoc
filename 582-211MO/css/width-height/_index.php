@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Width & Height
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract min-width/height, max-width/height
  * @ref      web/css
  */

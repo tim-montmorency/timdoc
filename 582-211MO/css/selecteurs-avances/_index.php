@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Sélecteurs avancés
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract groupes, *, >, ~, +, [attr]
  * @ref      web/css
  */

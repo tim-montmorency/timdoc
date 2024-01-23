@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Float
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract Permet à un élément de flotter à gauche ou à droite
  */
 ?>

@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Box-shadow
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract Ombrage d'un élément.
  */
 ?>

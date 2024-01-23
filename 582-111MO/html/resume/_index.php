@@ -4,7 +4,6 @@
  * @title    Résumé
  * @icon     images/icon.png
  * @abstract Résumé du HTML 5
- * @ref      web/html
  */
 ?>
 

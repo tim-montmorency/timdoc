@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Background
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract color, image, gradient
  */
 ?>

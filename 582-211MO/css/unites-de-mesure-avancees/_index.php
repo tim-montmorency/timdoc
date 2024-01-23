@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Unités de mesure avancées
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract vw, vh, vmin, vmax, calc, min, max, clamp
  * @ref      web/css
  */

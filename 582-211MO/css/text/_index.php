@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Text
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract align, decoration, transform, stroke, shadow
  */
 ?>

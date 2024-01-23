@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Spécificité
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract Chaque sélecteur en CSS se voit attribuer un pointage.
  */
 ?>

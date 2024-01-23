@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Aspect-ratio
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract Créer un élément dont la dimension reste proportionnelle.
  * @ref      web/css
  */

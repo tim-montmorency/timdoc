@@ -2,7 +2,7 @@
 /**
  * @type     list
  * @title    Intégration Web
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract 582-215MO
  */
 ?>
