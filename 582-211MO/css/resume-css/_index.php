@@ -1,0 +1,543 @@
+<?php
+/**
+ * @type     article
+ * @title    Résumé CSS
+ * @icon     images/icon.png
+ * @abstract Notions CSS
+ */
+?>
+
+
+<h2>Résumé du CSS</h2>
+
+<dots></dots>
+
+<grostitre>Règle CSS</grostitre>
+
+<p>Une règle CSS est constituée d'un sélecteur CSS, d'accolades {…} et de tout ce qui se trouve entre elles.</p>
+
+<p>Par exemple, voici une règle CSS simple:</p>
+
+<highlight lang="css">p {
+  font-size: 16px;
+  font-family: Arial;
+}</highlight>
+
+<dots></dots>
+
+<grostitre>Sélecteur</grostitre>
+
+<p>Le sélecteur est ce qui se trouve avant l'accolade ouvrante. 
+
+<dots></dots>
+
+<h3>Groupe de sélecteurs</h3>
+
+<p>Un groupe de sélecteurs est le nom donné lorsque plusieurs sélecteurs sont présents avant une accolade.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="css">.article p {
+  font-size: 16px;
+  font-family: Arial;
+}</highlight>
+
+
+<info>Dans un groupe de sélecteurs, les sélecteurs sont lus de droite à gauche ⬅️.<br><br>Autrement dit, dans l’exemple précédent, le navigateur sélectionnerait en premier temps tous les paragraphes de la page. Ensuite, il ne garderait que ceux ayant un ancêtre possédant la classe <span class="inline-code">.article</span>.</info>
+<br>
+<h3>Ancêtre</h3>
+
+<p>Le ou les ancêtres sont les sélecteurs séparés par un espace se trouvant à gauche du dernier sélecteur.</p>
+
+<p>Par exemple :</p>
+<p>La classe <span class="inline-code">.intro</span> est le parent</p>
+<p> La classe <span class="inline-code">.article</span> est le grands-parents du paragraphe.</p>
+<p><span class="inline-code">.intro</span> et .<span class="inline-code">article</span> sont tous deux des ancêtres du paragraphe.</p>
+
+<highlight lang="html">&lt;div class="article"&gt;
+    &lt;div class="intro"&gt;
+        &lt;p&gt;Lorem ipsum&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</highlight>
+
+
+<info>
+    Puisque les règles CSS sont lues de droite à gauche ⬅️, il n’est pas nécessaire de nommer tous les sélecteurs disponibles dans une règle CSS.
+    <br><br>
+    <span class="inline-code">.article p { ... }</span>
+    sélectionenra tous les paragraphes à l’intérieur de l’élément avec la classe <span class="inline-code">.article</span>, même si <span class="inline-code">.intro</span> est omis.
+</info>
+
+<dots></dots>
+
+
+<grostitre>Déclaration</grostitre>
+
+<p>Par exemple, le code suivant est une déclaration:</p>
+
+<highlight lang="css">font-size: 16px;</highlight>
+
+<p><strong>Bloc de déclaration</strong>.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="css">font-size: 16px;
+font-family: Arial;</highlight>
+
+<dots></dots>
+
+<grostitre>Propriété & Valeur</grostitre>
+
+<p>Chaque <a href="#declaration">déclaration</a> est constituée d'une propriété et d'une valeur.</p>
+
+<dots></dots>
+
+<grostitre>Ordre d'affichage</grostitre>
+
+<p>L’élément apparaissant en premier dans le code sera aussi celui apparaissant en premier dans la page.</p>
+
+<codepen id="ZEjxqKe" height="340"></codepen>
+
+<dots></dots>
+
+
+<grostitre>Ordre d’empilage</grostitre>
+
+<p>Un élément HTML peut contenir d’autres éléments. L'enfant s’affiche par-dessus son parent. Ainsi, la fin de la chaîne se retrouvera sur le dessus, alors que celui au début se retrouvera en dessous.</p>
+
+<codepen id="QWBmZqy" height="340"></codepen>
+
+<dots></dots>
+
+<grostitre>Padding</grostitre>
+
+<p >La propriété <incode>padding</incode> définit l'espace entre le contenu et ses  extrémités.</p>
+<p> Par défaut, cette propriété à une valeur de 0.</p>
+
+<p>Lorsqu'une seule valeur est fournie, celle-ci est appliquée aux 4 côtés de l'élément.</p>
+
+<p>Par exemple:</p>
+
+<codepen id="rNrKjeY" tab="result" height="280"></codepen>
+
+<warning>La propriété <incode>padding</incode> n’accepte pas les valeurs négatives.</warning>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/padding">padding</doclink>
+<doclink href="https://www.w3schools.com/css/css_padding.asp">padding</doclink>
+
+<dots></dots>
+
+
+<h3>Sous-propriétés</h3>
+
+<ul>
+  <li><incode>padding-top</incode></li>
+  <li><incode>padding-right</incode></li>
+  <li><incode>padding-bottom</incode></li>
+  <li><incode>padding-left</incode></li>
+</ul>
+
+<p>Par exemple:</p>
+
+<codepen id="OJwEWbV" tab="result" height="280"></codepen>
+
+<dots></dots>
+
+
+<h3>Syntaxe courte</h3>
+
+<codepen id="BaPVpRj" tab="result" height="280"></codepen>
+
+<dots></dots>
+
+
+<h3>Ratio à partir de %</h3>
+
+<p>Le ratio <strong>se base toujours sur la largeur</strong> de l'élément.</p>
+
+<p>Afin d'obtenir un format 16/9 il suffit de ramener la valeur de hauteur de cette fraction en pourcentage, soit <incode>9 ÷ 16 x 100% = 56.25%</incode>.</p>
+
+<highlight lang="css">.element {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; // 16/9
+}</highlight>
+
+<p>Cet élément serait donc toujours dans un format 16/9, peu importe la largeur de son parent.</p>
+
+<dots></dots>
+
+<grostitre>Margin</grostitre>
+
+<p>La propriété <incode>margin</incode> définit un espace vide devant être respecté autour d'un élément, bref une marge.</p>
+<p>Par défaut, cette propriété à une valeur de 0 .</p>
+
+<info>Contrairement à padding, margin accepte les valeurs négatives.</info>
+
+<p>Lorsqu'une seule valeur est fournie, celle-ci est appliquée aux 4 côtés de l'élément.</p>
+
+<codepen id="WNKyjGW" tab="result" height="340"></codepen>
+
+<warning>Les éléments aillant un <incode>display: inline</incode> <em>(span, a, etc.)</em> ne sont pas affectés par les marges verticales ↕️ par défaut.</warning>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/margin">margin</doclink>
+<doclink href="https://www.w3schools.com/css/css_margin.asp">margin</doclink>
+
+<dots></dots>
+
+
+<h3>Sous-propriétés de Margin</h3>
+
+<ul>
+  <li><incode>margin-top</incode></li>
+  <li><incode>margin-right</incode></li>
+  <li><incode>margin-bottom</incode></li>
+  <li><incode>margin-left</incode></li>
+</ul>
+
+<codepen id="xxJzddd" tab="result" height="340">L’option margin-right de l’exemple ci-dessus peut donner l’impression de ne pas fonctionner, mais la marge est bel et bien ajouté, elle est simplement combinée avec celle de son parent. 
+
+</codepen>
+
+<dots></dots>
+
+
+<h3>Syntaxe courte pour Margin</h3>
+
+<codepen id="xxJzdXr" tab="result" height="340"></codepen>
+
+<h3>Syntaxe courte à deux valeurs</h3>
+
+<p>La première : la marge verticale ↕️ <em>(top et bottom)</em></p>
+<p>La deuxième : la marge horizontale ↔️ <em>(left et right)</em>.</p>
+
+<codepen id="MWBXmQK" tab="result" height="340"></codepen>
+
+<dots></dots>
+
+
+<h3>Alignement horizontal ↔️</h3>
+
+<p>Afin de centrer horizontalement ↔️ des éléments dans leurs parents.</p>
+<p>Attribuer la valeur <incode>auto</incode> aux marges de gauche et de droite.</p>
+
+<codepen id="dyjKWem" tab="css,result" height="340"></codepen>
+
+<info>Cette technique de centrage est généralement utilisée avec la syntaxe à deux valeurs, soit <incode>margin: 0 auto;</incode></info>
+
+<alert><h5>ERREUR FRÉQUENTE</h5>Pour centrer horizontalement un élément avec la propriété margin et la valeur auto, un élément doit être en <incode>display: block</incode></alert>
+
+<dots></dots>
+
+
+<p class="spacer">La propriété <span class="inline-code">background</span> et ses différentes sous-propriétés permettent de contrôler l'apparence de l'arrière-plan d'un élément.</p>
+
+<dots></dots>
+
+<grostitre>Background</grostitre>
+
+<dots></dots>
+
+<h3>background-color</h3>
+
+<p>La propriété <span class="inline-code">background-color</span> permet de définir la couleur d'arrière-plan d'un élément.</p>
+
+</ul>
+
+
+<h3>background-image</h3>
+
+<p>La propriété <span class="inline-code">background-image</span> permet de définir une image d'arrière-plan à un élément. Elle accepte une ou plusieurs images et des fonctions permettant de générer un dégradé.</p>
+
+<codepen id="jOpZRmj" tab="css,result" height="340"></codepen>
+
+<info>Remarquez comment l’image se répête par défaut</info>
+
+<h3>Dégradé</h3>
+
+<p>Il est possible de générer un dégradé à titre d'image d'arrière-plan en utilisant les fonctions CSS <span class="inline-code">linear-gradient()</span> et <span class="inline-code">radial-gradient()</span>. La première fonction génère un dégradé linéaire, tandis que la deuxième génère un dégradé circulaire.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="css">background-image: linear-gradient(#3FC774, #3C38BA);</highlight>
+
+<codepen id="jOpZRag" tab="result" height="340">À gauche, un dégradé linéaire. À droite, un dégradé radial.</codepen>
+
+<h3>Combinaison</h3>
+
+<p>Il est possible de donner plus d'une valeur d'image d'arrière-plan. Pour ce faire, il est nécessaire de séparer chaque valeur avec une virgule.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="css">background-image: url('dessus.jpg'), url('dessous.jpg');</highlight>
+
+<codepen id="poZaBKv" tab="result" height="340">À gauche, deux image se superposent. À droite, une image et un dégradé se superposent.</codepen>
+
+<warning>La première valeur passée à la propriété background-image correspond à l’élément sur le dessus et ainsi de suite.</warning>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/background-image">background-image</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_background-image.php">background-image</doclink>
+
+<dots></dots>
+
+
+<h3>background-repeat</h3>
+
+<p>La propriété <span class="inline-code">background-repeat</span> définit la façon dont une image en arrière-plan est répétée. Cette valeur accepte plusieurs valeurs:</p>
+
+<ul>
+	<li><span class="inline-code">repeat</span> <em>(par défaut)</em></li>
+	<li><span class="inline-code">no-repeat</span></li>
+	<li><span class="inline-code">repeat-x</span></li>
+	<li><span class="inline-code">repeat-y</span></li>
+	<li>Etc.</li>
+</ul>
+
+<h3>repeat vs no-repeat</h3>
+
+<p>À gauche, <span class="inline-code">background-repeat: repeat;</span> indique de répéter l'image d'arrière-plan aussi souvent que nécessaire afin de couvrir l'ensemble de l'élément.</p>
+
+<p>À droite, <span class="inline-code">background-repeat: no-repeat;</span> indique au contraire de ne pas répéter l'image d'arrière-plan.</p>
+
+<codepen id="yLqvrZe" tab="result" height="340">À gauche, l’image se répète. À droite, l’image ne s’affiche qu’une seule fois.</codepen>
+
+<h3>repeat-x vs repeat-y</h3>
+
+<p>À gauche, <span class="inline-code">background-repeat: repeat-x;</span> indique de répéter l'image d'arrière-plan sur l'axe des X uniquement ↔️.</p>
+
+<p>Tandis qu'à droite, <span class="inline-code">background-repeat: repeat-y;</span> indique à l'opposé de répéter l'image d'arrière-plan sur l'axe des Y uniquement ↕️.</p>
+
+<codepen id="bGjLJXb" tab="result" height="340">À gauche, l’image se répète à l’horizontale. À droite, l’image se répète à la verticale.</codepen>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/background-repeat">background-repeat</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_background-repeat.php">background-repeat</doclink>
+
+<dots></dots>
+
+
+<h3>background-position</h3>
+
+<p>La propriété <span class="inline-code">background-position</span> permet de définir la position d'un arrière-plan. Il est possible de définir deux valeurs correspondant à la position X et Y dudit arrière-plan dans son élément. Ces valeurs peuvent-être n'importe quelle unité CSS <em>(px, %, em, etc.)</em>, ainsi que certains mots-clés <em>(top, bottom, left, right)</em>.</p>
+
+<p>À gauche, <span class="inline-code">background-position: 75% 25%;</span> positionne l'arrière-plan à 75% horizontalement et 25% verticalement.</p>
+
+<p>Tandis qu'à droite, <span class="inline-code">background-position: center bottom;</span> positionne l'arrière-plan au centre et au bas de son élément.</p>
+
+<codepen id="WNKMBvv" tab="result" height="340"></codepen>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/background-position">background-position</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_background-position.php">background-position</doclink>
+
+<dots></dots>
+
+
+<h3>background-size</h3>
+
+<p>Par défaut, une image en arrière-plan affichera en fonction de sa dimension réelle. Cependant, la propriété <span class="inline-code">background-size</span> permet de contrôler la dimension de ladite image.</p>
+
+<p>Il est possible de définir deux valeurs, correspondant à la largeur et la hauteur de l'arrière-plan utilisé.</p>
+
+<codepen id="bGjLXKJ" tab="result" height="340">À gauche, l’image est déformée. À droite, l’image est redimensionnée proportionnellement.</codepen>
+
+<h3>Mots-clé</h3>
+
+<p><span class="inline-code">background-size</span> accepte aussi des mots-clé.</p>
+
+<p><span class="inline-code">background-size: contain;</span> garde le ratio de l'image d'arrière-plan intact et redimensionne de sorte qu'elle soit entièrement visible dans l'élément. 🚫 rognage.</p>
+
+<p><span class="inline-code">background-size: cover;</span> garde aussi le ratio de l'image d'arrière-plan intact, mais la redimensionne de sorte que l'élément soit entièrement recouverte par elle. Quitte à rogner certaines parties de l'image.</p>
+
+<codepen id="zYLRgJN" tab="result" height="340">À gauche, l’image est entièrement visible. À droite, l’image est rognée, mais couvre entièrement son élément.</codepen>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/background-size">background-size</doclink>
+<doclink href="https://www.w3schools.com/cssref/css3_pr_background-size.asp">background-size</doclink>
+
+<dots></dots>
+
+
+<h3>Syntaxe courte</h3>
+
+
+
+<highlight lang="css">.demo {
+  background-image: url('image.png');
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+}</highlight>
+
+<p>Est équivalent à:</p>
+
+<highlight lang="css">.demo {
+  background: url('image.png') 100px 100px no-repeat;
+}</highlight>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/background">background</doclink>
+<doclink href="https://www.w3schools.com/css/css_background.asp">background</doclink>
+
+<dots></dots>
+
+
+<tool href="tools/css3-patterns-gallery/"></tool>
+<exercice href="exercices/candy-crush/"></exercice>
+
+<dots></dots>
+
+<grostitre>Display</grostitre>
+
+
+<p class="spacer">Chaque élément possède une propriété display qui dicte son affichage.</p>
+
+<p>Par exemple, les balises <span class="inline-code">&lt;div&gt;</span>, <span class="inline-code">&lt;p&gt;</span> ou <span class="inline-code">&lt;ul&gt;</span> prennent toute la largeur disponible et s'affichent l'une au-dessus de l'autre, car par défaut, leur propriété display est à block.</p>
+
+<p>Tandis que les balises <span class="inline-code">&lt;span&gt;</span>, <span class="inline-code">&lt;img&gt;</span> ou <span class="inline-code">&lt;a&gt;</span> s'affichent l'une à la suite de l'autre, comme une suite de mots, car leur propriété display est à inline par défaut.</p>
+
+<codepen id="OJwvBZJ" tab="result" height="340">À gauche, display: block;. À droite, display: inline;</codepen>
+
+<dots></dots>
+
+
+<h3>block</h3>
+
+<p>Les éléments <span class="inline-code">display: block;</span> en bref:</p>
+
+<ul>
+    <li>Prennent toute la largeur disponible.</li>
+    <li>S'affichent sur une nouvelle ligne.<br><em>(Logique puisqu'ils prennent toute la largeur)</em></li>
+    <li>Acceptent les propriétés <span class="inline-code">width</span> et <span class="inline-code">height</span> afin de définir la largeur et hauteur de l'élément.</li>
+    <li>Peuvent contenir n'importe quel autre type d'éléments <em>(block, inline, etc.)</em>.</li>
+</ul>
+
+<dots></dots>
+
+
+<h3>inline</h3>
+
+<p>Les éléments <span class="inline-code">display: inline;</span> en bref:</p>
+
+<ul>
+    <li>Prennent la largeur de ce qu'ils contiennent, sans plus.</li>
+    <li>S'affichent un à côté de l'autre, comme des mots dans une phrase, tant qu'il y a de l'espace et change de ligne au besoin.</li>
+    <li><strong>N'acceptent pas</strong> les propriétés <span class="inline-code">width</span>, <span class="inline-code">height</span>, <span class="inline-code">margin-top</span> et <span class="inline-code">margin-bottom</span>.</li>
+    <li>Peuvent contenir d'autres éléments inline, mais <strong>pas block</strong>.</li>
+</ul>
+
+<dots></dots>
+
+
+<h3>inline-block</h3>
+
+<p>Les éléments en <span class="inline-code">display: inline-block;</span> sont en quelque sorte des hybrides entre <a href="#inline">inline</a> et <a href="#block">block</a>.</p>
+
+<p>Par exemple, les balises <span class="inline-code">&lt;button&gt;</span>, <span class="inline-code">&lt;select&gt;</span> ou <span class="inline-code">&lt;input&gt;</span> s'affichent l'une à la suite de l'autre, mais peuvent avoir une largeur et une hauteur <em>(width/height)</em> de définies, car leur propriété display est à inline-block par défaut.</p>
+
+<ul>
+    <li>Ne prennent que la largeur de ce qu'ils contiennent par défaut, mais acceptent les propriétés <span class="inline-code">width</span>, <span class="inline-code">height</span>, <span class="inline-code">margin-top</span> et <span class="inline-code">margin-bottom</span>.</li>
+    <li>S'affichent un à côté de l'autre.<br><em>(Logique puisqu'ils prennent uniquement la largeur de leur contenu)</em></li>
+</ul>
+
+<warning>Deux éléments inline-block peuvent s’afficher un à côté de l’autre. Cependant, dès qu’un espace ou un retour de ligne les séparent dans le code, un espace vide s’affiche entre les deux dans le rendu du navigateur.</warning>
+
+<dots></dots>
+
+<h3>none</h3>
+
+<p>Parfois il est préférable de ne pas afficher un élément.</p>
+
+<p>Par exemple, un <em>"popup"</em> ne devrait pas être affiché tant qu'un utilisateur n'a pas déclenché un évènement. D'où l'utilité de la propriété <span class="inline-code">display: none;</span> indiquant au navigateur de faire abstraction d'un élément.</p>
+
+<highlight lang="css">.fear {
+  display: none;
+}</highlight>
+
+<dots></dots>
+
+<grostitre>Vertical align</grostitre>
+
+<dots></dots>
+
+
+<p>Deux éléments affichés côte à côte</p>
+<p>Deux éléments <span class="inline-code">inline</span> ou <span class="inline-code">inline-block</span></p>
+<p>Utiliser la propriété CSS <span class="inline-code">vertical-align</span> afin de spécifier comment ces éléments doivent s’afficher l’un par rapport à l’autre.</p>
+
+<h3>Valeurs disponibles:</h3>
+
+<ul>
+	<li><span class="inline-code">baseline</span> aligne avec la ligne de base</li>
+	<li><span class="inline-code">top</span> ⬆️ aligne en haut</li>
+	<li><span class="inline-code">middle</span> aligne au centre</li>
+	<li><span class="inline-code">bottom</span> ⬇️ aligne vers le bas</li>
+	<li><span class="inline-code">super</span> équivalent d'un exposant</li>
+	<li><span class="inline-code">sub</span> équivalent d'un indice</li>
+</ul>
+
+<codepen id="abjYQNP" tab="result" height="340"></codepen>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/vertical-align">vertical-align</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_pos_vertical-align.asp">vertical-align</doclink>
+
+<dots></dots>
+
+<grostitre>Position</grostitre>
+
+<p class="spacer">Le flux normal <em>“flow”</em>, est la façon dont les éléments sont affichés dans une page web lorsqu’aucun style ne leur est appliqué.</p>
+
+<p>Dans le flux normal, les éléments block <em>(div, p, section, etc.)</em> sont positionnés un à la suite de l’autre.</p>
+<p> Les éléments inline <em>(span, strong, em, etc.)</em>, sont positionnés un à côté de l’autre en fonction de leur ordre d’apparition dans le code HTML.</p>
+
+
+<codepen id="PoBRxKb" height="340" tab="result"></codepen>
+
+<dots></dots>
+
+<h3>static</h3>
+
+<p>Par défaut, le navigateur attribue la position <span class="inline-code">static</span> à tous les éléments. 
+
+<dots></dots>
+
+
+<h3>relative</h3>
+
+<p>Les éléments en <span class="inline-code">position: relative;</span> se positionnent d'abord en fonction du flux normal de la page. Ils sont ensuite déplacés relativement à cet emplacement, d'où leur nom <span class="inline-code">position: relative;</span>.</p>
+
+<codepen id="qByoQVe" height="340" tab="result"></codepen>
+
+<dots></dots>
+
+
+<h3>absolute</h3>
+
+<p>Les éléments en <span class="inline-code">position: absolute;</span> ignorent complètement le flux de la page et se positionnent en fonction du parent le plus près aillant une position autre que static.</p>
+
+<codepen id="wvxmQye" height="340" tab="result"></codepen>
+
+<dots></dots>
+
+
+<h3>fixed</h3>
+
+<p>Les éléments en <span class="inline-code">position: fixed;</span> ressemblent aux éléments en <a href="#absolute">position absolute</a>. Tout comme eux, ils ignorent le flux de la page. Cependant, plutôt que de se positionner en fonction d'un parent, ils se positionnent en fonction de la fenêtre <em>(viewport)</em>.</p>
+
+<codepen id="JjBLeLg" height="340" tab="result"></codepen>
+
+<dots></dots>
+
+
+<h3>sticky</h3>
+
+<p>Les éléments en <span class="inline-code">position: sticky;</span> ressemblent aux éléments en <a href="#static">position static</a>. Tout comme eux, ils se positionnent d'abord en fonction du flux normal de la page. Cependant, lorsqu'une de leurs propriétés <span class="inline-code">top</span>, <span class="inline-code">right</span>, <span class="inline-code">bottom</span> ou <span class="inline-code">left</span> correspond au défilement de la page, l'élément devient fixe.</p>
+
+<codepen id="xxJWQzv" height="340" tab="result"></codepen>
+
+<dots></dots>
+
+
+<exercice href="exercices/cat-in-the-box"></exercice>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/position">position</doclink>
+<doclink href="https://www.w3schools.com/css/css_positioning.asp">position</doclink>
+
+<dots></dots>
+
+
