@@ -139,7 +139,7 @@
 
 
 
-<wiki-page name="Cours 09" date="2023-03-25">
+<wiki-page name="Cours 09" date="2024-03-25">
 <h3>Examen: Birds of Prey</h3>
     <video playsinline src="./videos/birds-of-prey.mp4" autoplay="true" muted="true" loop="true" style="width: 100%; max-width: 770px;"></video>
     <h2>Devoir: Vidéo Accessibilité 101</h2>
@@ -147,86 +147,6 @@
 </wiki-page>
 
 
-<wiki-page name="Cours 10" date="2023-04-01">
 
 
 
-</wiki-page>
-
-
-<wiki-page name="Cours 11" date="2023-04-08">
-
-
-
-</wiki-page>
-
-
-<wiki-page name="Cours 12" date="2023-04-15">
-
-</wiki-page>
-
-
-<wiki-page name="Cours 13" date="2023-04-22">
-
-
-</wiki-page>
-
-
-<wiki-page name="Cours 14" date="2023-04-29">
-
-
-
-<wiki-page name="Cours 15" date="2023-05-06">
-
-</wiki-page>
-
-
-
-
-
-<wiki-page name="Cours 14A" date="2023-05-09">
-    <intlink href="../css/animation-sprite-sheet/"></intlink>
-    <intlink href="../css/animation-sprite-sheet/exercices/sonic-knuckles/"></intlink>
-    <intlink href="../css/animation-sprite-sheet/exercices/skate/"></intlink>
-    <h2>TP Complémentaire <em>(formatif)</em></h2>
-    <intlink href="../css/exercices/tool-aenima/"></intlink>
-    <intlink href="../css/exercices/asian-dub-foundation-rafis-revenge/"></intlink>
-    <br>
-    <img src="./images/fall-cliff-css-tps.jpg" style="width: 100%; max-width: 770px; margin: 0;">
-</wiki-page>
-
-
-<wiki-page name="Cours 14B" date="2023-05-10">
-    <intlink href="../autres/navigation-clavier/"></intlink>
-    <intlink href="../css/outline/"></intlink>
-    <intlink href="../css/outline/exercices/skittles/"></intlink>
-    <intlink href="../html/open-graph-protocol/"></intlink>
-    <intlink href="../html/microdonnees/"></intlink>
-    <intlink href="../html/microdonnees/exercices/cf-montreal/"></intlink>
-    <h2>TP Complémentaire <em>(formatif)</em></h2>
-    <intlink href="../css/exercices/ttc-3615/"></intlink>
-    <intlink href="../css/exercices/nirvana-nevermind/"></intlink>
-    <intlink href="../css/exercices/pink-floyd-the-dark-side-of-the-moon/"></intlink>
-    <br><img src="./images/spiderman-tell-me-the-truth-jai-pas-fait-les-tps.jpg" style="width: 100%; max-width: 770px; margin: 0;">
-</wiki-page>
-
-
-<wiki-page name="Cours 15A" date="2023-05-16">
-    <h3>TP Complémentaire <em>(formatif)</em></h3>
-    <intlink href="../css/exercices/trainspotting/"></intlink>
-    <intlink href="../css/exercices/harmonium-l-heptade/"></intlink>
-    <intlink href="../css/exercices/lisa-leblanc-lisa-leblanc/"></intlink>
-    <intlink href="../css/exercices/robert-charlebois-la-maudite-tournee/"></intlink>
-    <intlink href="../css/exercices/les-cowboys-fringants-break-syndical/"></intlink>
-    
-    <h2>Bonus</h2>
-    <intlink href="../css/exercices/south-park/"></intlink>
-    <h2>Aperçu de l'examen final</h2>
-    <video playsinline src="./videos/loup.mp4" autoplay="true" muted="true" loop="true" style="width: 100%; max-width: 770px;"></video><br>
-</wiki-page>
-
-
-<wiki-page name="Cours 15B" date="2023-05-17">
-    <h3>Examen final: Loup de nuit</h3>
-    <video playsinline src="./videos/loup-de-nuit.mp4" autoplay="true" muted="true" loop="true" style="width: 100%; max-width: 770px;"></video>
-</wiki-page>
