@@ -5,7 +5,7 @@
  * @icon     images/icon.webp
  * @abstract Gestionnaire de paquets JS
  * @index    30
- * @ref      web/javascript
+ * @ref      web/outils
  */
 ?>
 
