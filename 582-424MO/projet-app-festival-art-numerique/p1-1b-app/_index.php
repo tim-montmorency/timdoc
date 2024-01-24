@@ -21,11 +21,26 @@
  <p>Consultez les <a href="https://getbootstrap.com/docs/5.3/examples/">modèles communs de mise en page et les exemples de composantes Bootstrap</a>. Vous pouvez aussi consulter <a href="https://themes.getbootstrap.com/">des thèmes Bootstrap </a> pour vous inspirer et voir à quel point c'est personnalisable.</p>
 
  <checklist>
+   <strong>Maquette Figma:</strong> Ne faire que la maquette de la version mobile (pas desktop évidemment puisque c'est un app mobile).
    <strong>Barre de navigation:</strong> S'en tenir au style de barre de navigation Bootstrap, avec votre typo et vos couleurs. Pour l'appli, la barre contiendra l'icone du burger menu, le logo de l'événement, ainsi qu'un avatar ou une photo de l'utilisateur connecté à l'appli.
    <strong>Barre de recherche:</strong> Quel sera le look de vos champs de formulaire telle que la barre de recherche?
    <strong>Filtre d'œuvres :</strong> Une série de boutons ou de liens et le tout sera défilable horizontalement.
    <strong>Section œuvres  en vedette:</strong> Une série de cartes Bootstrap que tu peux personnaliser et le tout sera défilable horizontalement.
    <strong>Section autres œuvres :</strong> Une série de cartes Bootstrap que tu peux personnaliser et le tout sera défilable verticalement.
  </checklist>
+
+ <grostitre>Remise</grostitre>
+<p>Un dossier compressé en <em>.zip</em> contenant&nbsp;: </p>
+<ul>
+  <li>un export <em>.png</em> de la maquette Figma de la landing page (LP)</li>
+  <li>un export <em>.png</em> de la maquette Figma de de l'application mobile (APP)</li>
+  <li>un guide de styles, créé dans Figma, qui montre:
+    <ul>
+      <li>les 5 couleurs de votre palette, ainsi que leurs codes hexadécimaux ou leurs valeurs RGB</li>
+      <li>une démo de votre police de caractère sélectionnéee et le nom de cette typographie</li>
+</ul></ul>
+<p>Bien nommer votre dossier <em>[vosdeux_nomsdefamille]_P1-1_582-424MO</em>. Le fichier .zip devra aussi porter ce nom.</p>
+<p>Remise dans l'onglet <em>Devoirs</em> de l'équipe Teams Optimisation Web avant le cours. Une seule remise par équipe.</p>
+
 
 
