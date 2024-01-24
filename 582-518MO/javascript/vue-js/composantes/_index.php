@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    Composantes
- * @icon     images/ico-vue.png
+ * @icon     ../images/icon.webp
  * @abstract Composantes autonomes pouvant être réutilisables
- * @index 75
+ * @index    75
+ * @ref      web/cadriciels/vuejs
  */
 ?>
 

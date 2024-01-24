@@ -5,7 +5,7 @@
  * @icon     ../images/icon.webp
  * @abstract Le cadriciel de mise en page le plus populaire au monde
  * @index    1000
- * @ref      web/quadriciels/bootstrap
+ * @ref      web/cadriciels/bootstrap
  */
 ?>
 

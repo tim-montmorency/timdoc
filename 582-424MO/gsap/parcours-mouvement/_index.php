@@ -5,7 +5,7 @@
  * @icon     ../images/icon.webp
  * @abstract MotionPath: animer un élément  sur un tracé
  * @index    523
- * @ref      web/quadriciels/gsap
+ * @ref      web/cadriciels/gsap
  */
 ?>
 

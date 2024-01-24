@@ -2,7 +2,7 @@
 /**
  * @type     list
  * @title    Sass
- * @icon     images/icon-sass2.png
+ * @icon     images/icon.webp
  * @abstract Syntactically Awesome Style Sheets
  * @index    1
  */

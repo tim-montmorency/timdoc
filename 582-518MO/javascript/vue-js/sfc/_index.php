@@ -2,16 +2,41 @@
 /**
  * @type     article
  * @title    SFC
- * @icon     images/ico-vue.png
+ * @icon     ../images/icon.webp
  * @abstract Single File Components
- * @index 70
+ * @index    70
+ * @ref      web/cadriciels/vuejs
  */
 ?>
 <p>Les SFC <em>(Single File Components)</em>, ou composantes monofichiers en français, sont des fichiers permettant de regrouper à la fois un template HTML, la logique JavaScript et les styles CSS d’une composante à l’intérieur d’un seul et même fichier. Ce fichier est par la suite converti par un <a rel="noopener noreferrer" href="#compilateurs-sfc">compilateur SFC</a> en JavaScript et CSS standards pouvant être interprétés par les navigateurs.</p>
 
 <p>Cette approche permet de découper un site complexe en composantes indépendantes et plus simples.</p>
 
-<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
+
+<highlight lang="html">
+<template>
+  <div class="menu"></div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      msg: 'Bonjour!'
+    }
+  }
+}
+</script>
+
+<style>
+.menu {
+  background: blue;
+}
+</style>
+</highlight>
+
+
+<!-- <pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"menu"</span>&gt;</span>{{ msg }}<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
 
@@ -29,7 +54,7 @@
 <span class="hljs-selector-class">.menu</span> {
   <span class="hljs-attribute">background</span>: blue;
 }
-</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span></code></pre>
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span></code></pre> -->
 
 
 <info>Ces fichiers utilisent l’extension&nbsp;<incode>*.vue</incode>.</info>

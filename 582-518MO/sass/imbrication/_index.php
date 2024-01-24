@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Imbrication
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Accélérer l'écriture de feuilles de styles
  * @index    45
  * @ref      web/sass

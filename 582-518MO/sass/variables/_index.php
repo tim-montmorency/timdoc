@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Variable
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Stocker des informations réutilisables
  * @index    40
  * @ref      web/sass

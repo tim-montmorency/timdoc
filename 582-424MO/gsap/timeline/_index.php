@@ -5,7 +5,7 @@
  * @icon     ../images/icon.webp
  * @abstract Une ligne du temps pour vous permettre d'organiser un groupe d'animations.
  * @index    980
- * @ref      web/quadriciels/gsap
+ * @ref      web/cadriciels/gsap
  */
 ?>
 

@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    Les bases d'une app VueJS
- * @icon     images/ico-vue.png
+ * @icon     ../images/icon.webp
  * @abstract App, données, méthodes, classes dynamiques, conditions, boucles
- * @index 90
+ * @index    90
+ * @ref      web/cadriciels/vuejs
  */
 ?>
 <grostitre>Création d'une App</grostitre>

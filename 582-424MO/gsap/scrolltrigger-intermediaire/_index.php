@@ -5,7 +5,7 @@
  * @icon     ../images/icon.webp
  * @abstract Scrub, pin, pinspacing, callbacks
  * @index    750
- * @ref      web/quadriciels/gsap
+ * @ref      web/cadriciels/gsap
  */
 ?>
 

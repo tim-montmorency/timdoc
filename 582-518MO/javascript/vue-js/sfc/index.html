@@ -29,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop('../../../', '')" title="Retour à l'accueil">
+            <div id="logo" @click="goToTop('../../../', '../../../../index/')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -41,9 +41,9 @@
             <div id="subhead">
                 <div id="breadcrumb">
                     <div id="breadcrumb_normal"><a href="../../../">Projet Web</a> > <a href="../../">JavaScript</a> > <a href="../">Vue.js</a> ></div>
-                    <div id="breadcrumb_index"></div>
+                    <div id="breadcrumb_index"><a href="../../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../../index/web/cadriciels/">Cadriciels</a>&nbsp;>&nbsp;<a href="../../../../index/web/cadriciels/vuejs/">Vue.js</a>&nbsp;>&nbsp;</div>
                 </div>
-                <h1 id="title"><img src="images/ico-vue.png">&nbsp;SFC</h1>
+                <h1 id="title"><img src="../images/icon.webp">&nbsp;SFC</h1>
             </div>
             <article>
                 <div id="contents">
@@ -52,7 +52,29 @@
 
 <p>Cette approche permet de découper un site complexe en composantes indépendantes et plus simples.</p>
 
-<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
+
+<highlight lang="html">&lt;template&gt;
+  &lt;div class=&quot;menu&quot;&gt;&lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+export default {
+  data() {
+    return {
+      msg: &#039;Bonjour!&#039;
+    }
+  }
+}
+&lt;/script&gt;
+
+&lt;style&gt;
+.menu {
+  background: blue;
+}
+&lt;/style&gt;</highlight>
+
+
+<!-- <pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"menu"</span>&gt;</span>{{ msg }}<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
 
@@ -70,7 +92,7 @@
 <span class="hljs-selector-class">.menu</span> {
   <span class="hljs-attribute">background</span>: blue;
 }
-</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span></code></pre>
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span></code></pre> -->
 
 
 <info>Ces fichiers utilisent l’extension&nbsp;<span class="inline-code">*.vue</span>.</info>

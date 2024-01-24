@@ -4,7 +4,7 @@
  * @title    Swiper
  * @icon     ../images/icon.webp
  * @abstract Le carousel tactile JavaScript le plus moderne
- * @ref      web/quadriciels/swiper
+ * @ref      web/cadriciels/swiper
  */
  ?>
 

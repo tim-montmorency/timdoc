@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Conditions
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract if, else, else if
  * @index    24
  * @ref      web/sass

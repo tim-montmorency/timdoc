@@ -4,7 +4,7 @@
  * @title    Librarie JavaScript
  * @icon     ../images/icon.webp
  * @abstract Qu'est-ce qu'une librairie JavaScript?
- * @ref      web/quadriciels/swiper
+ * @ref      web/cadriciels/swiper
  */
  ?>
 

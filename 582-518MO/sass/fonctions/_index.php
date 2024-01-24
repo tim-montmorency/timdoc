@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Fonctions
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Gérer des opérations complexes, de manipuler des paramètres...
  * @index    22
  * @ref      web/sass
