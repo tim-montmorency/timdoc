@@ -2,7 +2,7 @@
 /**
  * @type     exercice
  * @title    Vue - Tableau NBA
- * @icon     images/pink-palette-resultat.png
+ * @icon     images/thumb.webp
  * @abstract Vous devrez rendre dynamique à l’aide de Vue le tableau indicateur d’un match de la NBA
  */
 ?>

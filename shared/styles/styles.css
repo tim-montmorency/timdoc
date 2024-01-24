@@ -211,6 +211,9 @@ body.dark a.tool {
 body.dark a.tool:hover {
   color: #ffffff;
 }
+body.dark a.tool div.tool-container div.tool-thumb {
+  border: 1px solid #508d5d;
+}
 body.dark a.tool div.tool-container div.tool-abstract em.tool-label {
   background-color: #508d5d;
   color: white !important;
@@ -1001,6 +1004,8 @@ a.tool div.tool-container div.tool-thumb {
   background-repeat: no-repeat;
   background-size: cover;
   aspect-ratio: 4/3;
+  box-sizing: content-box;
+  border: 1px solid #f3ca40;
 }
 a.tool div.tool-container div.tool-abstract {
   flex-grow: 2;

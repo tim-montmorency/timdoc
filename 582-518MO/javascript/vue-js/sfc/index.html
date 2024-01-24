@@ -74,27 +74,6 @@ export default {
 &lt;/style&gt;</highlight>
 
 
-<!-- <pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"menu"</span>&gt;</span>{{ msg }}<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
-
-<span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
-<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
-  <span class="hljs-function"><span class="hljs-title">data</span>(<span class="hljs-params"></span>)</span> {
-    <span class="hljs-keyword">return</span> {
-      <span class="hljs-attr">msg</span>: <span class="hljs-string">'Bonjour!'</span>
-    }
-  }
-}
-</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
-
-<span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
-<span class="hljs-selector-class">.menu</span> {
-  <span class="hljs-attribute">background</span>: blue;
-}
-</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span></code></pre> -->
-
-
 <info>Ces fichiers utilisent l’extension&nbsp;<span class="inline-code">*.vue</span>.</info>
 <doclink href='https://vuejs.org/api/sfc-spec.html'>SFC</doclink>
 
@@ -104,8 +83,7 @@ export default {
 
 
 
-<pre><code class="hljs javascript"><span class="hljs-keyword">import</span> Menu <span class="hljs-keyword">from</span> <span class="hljs-string">'./components/Menu.vue'</span></code></pre>
-
+<highlight lang="javascript">import Menu from &#039;./components/Menu.vue&#039;</highlight>
 
 <warning>La norme veut que les noms de modules commencent par une&nbsp;majuscule.</warning>
 
@@ -119,58 +97,87 @@ export default {
 <p>Pour ce faire, une clé est attribuée aux éléments HTML sous forme d'un attribut <span class="inline-code">data-v-xxxxxxx</span>. Toutes les règles de styles associées à cette composante se basent alors sur cette clé, limitant ainsi leur portée à cette composante uniquement.</p><p>Par exemple:</p>
 
 
-<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"menu"</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
+<highlight lang="html">&lt;template&gt;
+  &lt;div class=&quot;menu&quot;&gt;...&lt;/div&gt;
+&lt;/template&gt;
 
-<span class="hljs-tag">&lt;<span class="hljs-name">style</span> <span class="hljs-attr">scoped</span>&gt;</span><span class="css">
-<span class="hljs-selector-class">.menu</span> {
-  <span class="hljs-attribute">background</span>: blue;
+&lt;style scoped&gt;
+.menu {
+  background: blue;
 }
-</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span></code></pre>
+&lt;/style&gt;</highlight>
 
 <br>
 
-<p>Sera converti en:</p><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"menu"</span> <span class="hljs-attr">data-v-f3f3eg9</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
+<p>Sera converti en:</p>
 
-<span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
-<span class="hljs-selector-class">.menu</span><span class="hljs-selector-attr">[data-v-f3f3eg9]</span> {
-  <span class="hljs-attribute">background</span>: blue;
+<highlight lang="html">&lt;template&gt;
+  &lt;div class=&quot;menu&quot; data-v-f3f3eg9&gt;...&lt;/div&gt;
+&lt;/template&gt;
+
+&lt;style&gt;
+.menu[data-v-f3f3eg9] {
+  background: blue;
 }
-</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span></code></pre>
+&lt;/style&gt;</highlight>
 
 
 <br>
 
-<p>Une composante SFC peut aussi avoir plus d'une balise <span class="inline-code">&lt;style&gt;</span>. Notamment lorsque des styles devraient être globaux et que d'autres devraient être limités à la composante uniquement.</p><p>Par exemple:</p><pre><code class="hljs xml">/* Styles appliqués à tout le site */
-<span class="hljs-tag">&lt;<span class="hljs-name">style</span> <span class="hljs-attr">scoped</span>&gt;</span><span class="css">
+<p>Une composante SFC peut aussi avoir plus d'une balise <span class="inline-code">&lt;style&gt;</span>. Notamment lorsque des styles devraient être globaux et que d'autres devraient être limités à la composante uniquement.</p><p>Par exemple:</p>
+
+<highlight lang="html">/* Styles appliqu&eacute;s &agrave; tout le site */
+&lt;style scoped&gt;
 * {
-  <span class="hljs-attribute">box-sizing</span>: border-box;
+  box-sizing: border-box;
 }
-</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+&lt;/style&gt;
 
-/* Styles appliqués à cette composante uniquement */
-<span class="hljs-tag">&lt;<span class="hljs-name">style</span> <span class="hljs-attr">scoped</span>&gt;</span><span class="css">
-<span class="hljs-selector-class">.menu</span> {
-  <span class="hljs-attribute">background</span>: blue;
+/* Styles appliqu&eacute;s &agrave; cette composante uniquement */
+&lt;style scoped&gt;
+.menu {
+  background: blue;
 }
-</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span> </code></pre>
+&lt;/style&gt;</highlight>
 
-<br><br>
-<doclink href='https://vuejs.org/api/sfc-css-features.html'>Styles css scope</doclink>
+<br>
+<doclink href="https://vuejs.org/api/sfc-css-features.html">Styles css scope</doclink>
         
 
 
 <dots></dots>
 <grostitre>Compilateurs SFC</grostitre>
-<ul>
-    <li><a target="_blank" rel="noopener noreferrer" href="/cours/autres/vite">Vite</a></li>
-    <li><a target="_blank" rel="noopener noreferrer" href="https://cli.vuejs.org/">Vue CLI</a></li>
-    <li><a target="_blank" rel="noopener noreferrer" href="https://webpack.js.org/">Webpack</a></li>
-</ul>
 
+        <a class="tool" target="_blank" href="https://vitejs.dev/">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">Vite</span>
+                    <span class="tool-description">Vite is a local development server written by Evan You, the creator of Vue.js, and used by default by Vue and for React project templates.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(./outils/vite/images/thumb.webp)"></div>
+            </div>
+        </a>
+        <a class="tool" target="_blank" href="https://cli.vuejs.org/">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">VueCLI</span>
+                    <span class="tool-description">Standard Tooling for Vue.js Development.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(./outils/vuecli/images/thumb.webp)"></div>
+            </div>
+        </a>
+        <a class="tool" target="_blank" href="https://webpack.js.org/">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">Webpack</span>
+                    <span class="tool-description">Webpack is a free and open-source module bundler for JavaScript.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(./outils/webpack/images/thumb.webp)"></div>
+            </div>
+        </a>
 
 
     

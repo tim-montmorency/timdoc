@@ -2,7 +2,7 @@
 /**
  * @type     exercice
  * @title    Vue - Ouest VS Est
- * @icon     images/pink-palette-resultat.png
+ * @icon     images/thumb.webp
  * @abstract Afin d’afficher quel rappeur appartenait à quel camp est ou ouest, vous devrez compléter une app Vue.
  */
 ?>

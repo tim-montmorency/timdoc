@@ -557,6 +557,8 @@ app.component('doclink', {
                 case 'id.unity.com': site = 'unity'; break;
                 case 'unity.com': site = 'unity'; break;
                 case 'vuejs.org': site = 'vuejs'; break;
+                case 'v3.vuejs.org': site = 'vuejs'; break;
+                
             }
         } catch(e) {
             if(this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';

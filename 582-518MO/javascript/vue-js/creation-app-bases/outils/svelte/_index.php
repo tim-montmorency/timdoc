@@ -1,0 +1,10 @@
+<?php 
+/**
+ * @type     tool
+ * @title    Svelte
+ * @icon     images/thumb.webp
+ * @url      https://svelte.dev/
+ * @abstract Svelte is a free and open-source front-end component framework and language created by Rich Harris and maintained by the Svelte core team members.
+ */
+?>
+<script>location.href = '<?php echo $PAGE->url; ?>';</script>

@@ -224,31 +224,10 @@ Salut { { firstName } }
 <br><br>
 
 
-<aside class="exercice-card">
-    <div class="exercice-card__content">
-        <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-        <a href="../../../exercices/vue-tableau-nba/" target="_blank" class="exercice-card__title">
-            Tableau&nbsp;NBA
-        </a>
 
-        <p class="exercice-card__description">Pour cet exercice, vous devrez rendre dynamique à l’aide de Vue le tableau
-            indicateur d’un match de la NBA opposant les Raptors de&nbsp;Toront...</p>
-    </div>
-</aside>
-
-
-<aside class="exercice-card">
-    <div class="exercice-card__content">
-        <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-        <a href="../../../exercices/vue-cheese-kanye-says/ " target="_blank" class="exercice-card__title">
-            Cheese Kanye&nbsp;Says
-        </a>
-
-        <p class="exercice-card__description">Dans le cadre de cet exercice, vous devrez mettre à jour la citation de
-            Kanye West affichée à l’écran par une autre célèbre phrase de&nbsp;son...</p>
-    </div>
-</aside>
-
+<exercice href="../../../exercices/vue-tableau-nba/"></exercice>
+<exercice href="../../../exercices/vue-cheese-kanye-says/"></exercice>
+<br>
 
 <doclink href='https://v3.vuejs.org/guide/events.html#listening-to-events'>Event Handling</doclink>
 
@@ -408,20 +387,8 @@ Salut { { firstName } }
 
 <warning>Il ne faut<a href="https://vuejs.org/style-guide/rules-essential.html#avoid-v-if-with-v-for" target="_blank"> jamais utiliser <incode>v-if</incode> sur un élément ayant&nbsp;<incode>v-for</incode></a>.</warning>
 <br>
-<aside class="exercice-card">
-    <div class="exercice-card__content">
-        <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-        <a href="../../../exercices/vue-ouest-vs-est/" target="_blank" class="exercice-card__title">
-            Côte Ouest vs&nbsp;Est
-        </a>
 
-        <p class="exercice-card__description">Dans les années 90, une rivalité opposa les rappeurs de la côte ouest
-            Américaine 🇺🇸 à ceux de la côte est. Afin d’afficher quel rappeur&nbsp;a...</p>
-    </div>
-
-</aside>
-
-
+<exercice href="../../../exercices/vue-ouest-vs-est/"></exercice>
 
 <br><br>
 
@@ -433,20 +400,8 @@ Salut { { firstName } }
 
 <dots></dots>
 <grostitre>Alternatives à VueJS</grostitre>
-<ul>
-    <li>
-        <a target="_blank" rel="noopener noreferrer" href="https://fr.reactjs.org/">React</a>
-    </li>
-    <li>
-        <a target="_blank" rel="noopener noreferrer" href="https://svelte.dev/">Svelte</a>
-    </li>
-    <li>
-       <a target="_blank" rel="noopener noreferrer" href="https://angular.io/">Angular</a>
-    </li>
-    <li>
-     <a target="_blank" rel="noopener noreferrer" href="https://backbonejs.org/">Backbone</a>
-    </li>
-    <li>
-       Etc.
-    </li>
-</ul>
+
+<tool href="./outils/react/"></tool>
+<tool href="./outils/svelte/"></tool>
+<tool href="./outils/angular/"></tool>
+<tool href="./outils/backbone/"></tool>
