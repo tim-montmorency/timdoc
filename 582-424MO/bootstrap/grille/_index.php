@@ -6,6 +6,7 @@
  * @icon     ../images/icon.webp
  * @abstract Système de grille Bootstrap pour un mise en page facile et réactive
  * @index    930
+ * @ref      web/quadriciels/bootstrap
  */
 ?>
 

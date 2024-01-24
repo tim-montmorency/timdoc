@@ -5,6 +5,7 @@
  * @title    NavBar
  * @icon     ../images/icon.webp
  * @abstract La barre de navigation Bootstrap
+ * @ref      web/quadriciels/bootstrap
  */
 ?>
 <grostitre>Introduction</grostitre>

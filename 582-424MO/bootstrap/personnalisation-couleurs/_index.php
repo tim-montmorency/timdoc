@@ -5,6 +5,7 @@
  * @title    Couleurs et personnalisation
  * @icon     ../images/icon.webp
  * @abstract Personnalisation des couleurs de base de Bootstrap
+ * @ref      web/quadriciels/bootstrap
  */
 ?>
 
