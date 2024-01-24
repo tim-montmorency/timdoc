@@ -3,7 +3,7 @@
 /**
  * @type     article
  * @title    Boutons
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Classes de boutons stylisés par Bootstrap
  */
 ?>

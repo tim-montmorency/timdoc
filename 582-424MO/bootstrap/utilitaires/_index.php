@@ -3,7 +3,7 @@
 /**
  * @type     article
  * @title    Utilitaires
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Bootstrap dispose de nombreuses classes utilitaires/d'aide permettant de styliser rapidement les éléments sans utiliser de code CSS.
  */
 ?>

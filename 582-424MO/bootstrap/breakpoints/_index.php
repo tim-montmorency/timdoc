@@ -3,7 +3,7 @@
 /**
  * @type     article
  * @title    Breakpoints
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Déterminent le comportement de votre mise en page réactive
  * @index 960
  */

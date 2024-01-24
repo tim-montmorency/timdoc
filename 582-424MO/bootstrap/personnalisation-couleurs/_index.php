@@ -3,7 +3,7 @@
 /**
  * @type     article
  * @title    Couleurs et personnalisation
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Personnalisation des couleurs de base de Bootstrap
  */
 ?>

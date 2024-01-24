@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Introduction
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Le cadriciel de mise en page le plus populaire au monde
  * @index    1000
  */

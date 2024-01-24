@@ -4,7 +4,8 @@
  * @title    NPM
  * @icon     images/icon.png
  * @abstract Gestionnaire de paquets JS
- * @index 30
+ * @index    30
+ * @ref      web/javascript
  */
 ?>
 
