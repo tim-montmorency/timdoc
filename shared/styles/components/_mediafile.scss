@@ -32,10 +32,10 @@
         // margin-bottom: 25px;
         margin-left: -25px;
         margin-right: -25px;
-        @media (max-width: 820px)  {
-            margin-left: -10px;
-            margin-right: -10px;
-        }
+        // @media (max-width: 820px)  {
+        //     margin-left: -10px;
+        //     margin-right: -10px;
+        // }
         &.spacerr {
             margin-left: 25px;
         }
@@ -60,7 +60,7 @@
         font-size: 16px;
         padding: 8px;
         border: 0px;
-        font-family: Consolas;
+        font-family: monospace;
         outline: none;
     }
 

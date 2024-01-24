@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../shared/styles/swiper-bundle.min.css">
         <script src="../../shared/jscripts/highlight.min.js"></script>
         <script src="../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,8 +39,11 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../">Manuel</a> ></div>
-                <h1 id="title"><img src="images/icon.png">&nbsp;Composantes</h1>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../">Manuel</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.webp">&nbsp;Composantes</h1>
             </div>
             <article>
                 <div id="contents">
@@ -51,34 +53,143 @@
 
 <dots></dots>
 
-<grostitre>info / warning / alert</grostitre>
-<highlight lang="html">&lt;info&gt;Ceci est une bulle d'information&lt;/info&gt;</highlight>
+
+<!-- 
+  _____ _ _                  _                      _   _             
+ |_   _(_) |_ _ __ ___    __| | ___   ___  ___  ___| |_(_) ___  _ __  
+   | | | | __| '__/ _ \  / _` |/ _ \ / __|/ _ \/ __| __| |/ _ \| '_ \ 
+   | | | | |_| | |  __/ | (_| |  __/ \__ \  __/ (__| |_| | (_) | | | |
+   |_| |_|\__|_|  \___|  \__,_|\___| |___/\___|\___|\__|_|\___/|_| |_|                                                                                                                                                                                               
+ 
+-->
+<grostitre>Titre de section</grostitre>
+
+<h3>grostitre</h3>
+
+<p>La composante <span class="inline-code">&lt;grostitre&gt;</span> remplace les <span class="inline-code">h1</span>, créent une ancre et l'ajoute à la table des matières automatiquement.<br><br>Exemple de cette section:</p>
+
+<highlight lang="html">&lt;grostitre&gt;Titre de section&lt;/grostitre&gt;</highlight>
+
+<h3>dots</h3>
+
+<p>La composante <span class="inline-code">&lt;dots&gt;</span> est utilisée pour séparer les différentes sections d'une page.</p>
+
+<highlight lang="html">&lt;dots&gt;&lt;/dots&gt;</highlight>
+
+<dots></dots>
+
+
+
+<!-- 
+  _   _             _             _   _             
+ | \ | | __ ___   _(_) __ _  __ _| |_(_) ___  _ __  
+ |  \| |/ _` \ \ / / |/ _` |/ _` | __| |/ _ \| '_ \ 
+ | |\  | (_| |\ V /| | (_| | (_| | |_| | (_) | | | |
+ |_| \_|\__,_| \_/ |_|\__, |\__,_|\__|_|\___/|_| |_|
+                      |___/                         
+ -->
+
+<grostitre>Navigation</grostitre>
+
+<h3>children</h3>
+
+<p>La balise <span class="inline-code">&lt;children&gt;&lt;/children&gt;</span> permet de lister les sous-dossier d'une page. Cette composante ne doit être utilisée qu'a l'intérieur d'une page de type <span class="inline-code">list</span>.</p>
+
+<highlight lang="html">&lt;?php
+/**
+ * @type     list
+ * @title    Manuel
+ * @icon     images/icon.png
+ * @abstract Installation et d&eacute;veloppement
+ */
+?&gt;
+&lt;children&gt;&lt;/children&gt;</highlight>
+
+<timg class="full" src="./images/manuel-$t.webp"></timg>
+
+<warning>Le rendu de cette composante est effectué par le pré-processeur.</warning>
+
+<dots></dots>
+
+
+<!-- 
+  ____        _ _                 _ _ _        __                            _   _                 
+ | __ ) _   _| | | ___  ___    __| ( |_)_ __  / _| ___  _ __ _ __ ___   __ _| |_(_) ___  _ __  ___ 
+ |  _ \| | | | | |/ _ \/ __|  / _` |/| | '_ \| |_ / _ \| '__| '_ ` _ \ / _` | __| |/ _ \| '_ \/ __|
+ | |_) | |_| | | |  __/\__ \ | (_| | | | | | |  _| (_) | |  | | | | | | (_| | |_| | (_) | | | \__ \
+ |____/ \__,_|_|_|\___||___/  \__,_| |_|_| |_|_|  \___/|_|  |_| |_| |_|\__,_|\__|_|\___/|_| |_|___/
+ 
+-->
+
+<grostitre>Bulles d'informations</grostitre>
+
+<h3>info</h3>
+<highlight lang="html">&lt;info&gt;Ceci est une bulle d&#039;information&lt;/info&gt;</highlight>
 <info>Ceci est une bulle d'information</info>
 <br><br>
-<highlight lang="html">&lt;warning&gt;Ceci est une bulle d'avertissement&lt;/warning&gt;</highlight>
+
+<h3>warning</h3>
+<highlight lang="html">&lt;warning&gt;Ceci est une bulle d&#039;avertissement&lt;/warning&gt;</highlight>
 <warning>Ceci est une bulle d'avertissement</warning>
 <br><br>
-<highlight lang="html">&lt;alert&gt;Ceci est une bulle d'alerte&lt;/alert&gt;</highlight>
+
+<h3>alert</h3>
+<highlight lang="html">&lt;alert&gt;Ceci est une bulle d&#039;alerte&lt;/alert&gt;</highlight>
 <alert>Ceci est une bulle d'alerte</alert>
+<br><br>
+
+<h3>thumbsup</h3>
+<highlight lang="html">&lt;thumbsup&gt;Ceci est une bulle d&#039;approbation&lt;/thumbsup&gt;</highlight>
+<thumbsup>Ceci est une bulle d'approbation</thumbsup>
+<br><br>
+
+<h3>bravo</h3>
+<highlight lang="html">&lt;bravo&gt;Ceci est une bulle d&#039;applaudissement&lt;/bravo&gt;</highlight>
+<bravo>Ceci est une bulle d'applaudissement</bravo>
+
 <dots></dots>
 
-<grostitre>grostitre</grostitre>
-<p>La composante <span class="inline-code">&lt;grostitre&gt;</span> remplace les <span class="inline-code">&lt;h1&gt;</span>, créent une ancre et l'ajoute à la table des matières automatiquement.<br><br>Exemple de cette section:</p>
-<highlight lang="html">&lt;grostitre&gt;grostitre&lt;/grostitre&gt;</highlight>
-<dots></dots>
 
-<grostitre>mediafile</grostitre>
-<highlight lang="html">&lt;mediafile src="images/icon.png"&gt;Icône&lt;/mediafile&gt;</highlight>
+
+
+<!-- 
+  _     _                              __     _ _           
+ | |   (_) ___ _ __  ___   _ __ ___   /_/  __| (_) __ _ ___ 
+ | |   | |/ _ \ '_ \/ __| | '_ ` _ \ / _ \/ _` | |/ _` / __|
+ | |___| |  __/ | | \__ \ | | | | | |  __/ (_| | | (_| \__ \
+ |_____|_|\___|_| |_|___/ |_| |_| |_|\___|\__,_|_|\__,_|___/
+ 
+-->
+
+
+<grostitre>Liens médias</grostitre>
+
+<h3>mediafile</h3>
+<highlight lang="html">&lt;mediafile src=&quot;images/icon.png&quot;&gt;Ic&ocirc;ne&lt;/mediafile&gt;</highlight>
 <mediafile src="images/icon.png">Icône</mediafile>
-<dots></dots>
+<br>
 
-<grostitre>codepen</grostitre>
-<highlight lang="html">&lt;codepen id="gOEwrvG" tab="results"&gt;Voici une remarque pertinente.&lt;/codepen&gt;</highlight>
-<codepen id="gOEwrvG" tab="results">Voici une remarque pertinente.</codepen>
-<dots></dots>
+<h3>doclink</h3>
+<highlight lang="html">&lt;doclink href=&quot;https://www.w3schools.com/cssref/css3_pr_flex-direction.php&quot;&gt;flex-direction&lt;/doclink&gt;
+&lt;doclink href=&quot;https://developer.mozilla.org/fr/docs/Web/CSS/flex-direction&quot;&gt;flex-direction&lt;/doclink&gt;</highlight>
+<doclink href="https://www.w3schools.com/cssref/css3_pr_flex-direction.php">flex-direction</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/flex-direction">flex-direction</doclink>
+<br><br>
 
-<grostitre>exercice</grostitre>
-<highlight lang="html">&lt;exercice href="exercices/flexbox-defense"&gt;&lt;/exercice&gt;</highlight>
+<h3>intlink</h3>
+<highlight lang="html">&lt;intlink href=&quot;../../582-215MO/css/exercices/lost-highway/&quot;&gt;&lt;/intlink&gt;</highlight>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../582-215MO/css/exercices/lost-highway/images/thumb.jpg);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../582-215MO/css/exercices/lost-highway/">Lost Highway</a></span>
+                <span class="intlink__item__abstract">Pour cet exercice, vous devez écrire du CSS afin de recréer la pochette de la bande sonore du film Lost Highway de David Lynch.</span>
+            </div>
+        </div>
+<warning>Le rendu de cette composante est effectué par le pré-processeur.</warning>
+<br><br>
+
+<h3>exercice</h3>
+<highlight lang="html">&lt;exercice href=&quot;exercices/flexbox-defense&quot;&gt;&lt;/exercice&gt;</highlight>
         <a class="exercice" target="_blank" href="http://www.flexboxdefense.com/">
             <div class="exercice-container">
                 <div class="exercice-thumb" style="background-image: url(exercices/flexbox-defense/images/thumb.jpg)"></div>
@@ -89,10 +200,11 @@
                 </div>
             </div>
         </a>
-<dots></dots>
+<warning>Le rendu de cette composante est effectué par le pré-processeur.</warning>
+<br><br>
 
-<grostitre>tool</grostitre>
-<highlight lang="html">&lt;tool href="tools/css-gradient"&gt;&lt;/tool&gt;</highlight>
+<h3>tool</h3>
+<highlight lang="html">&lt;tool href=&quot;tools/css-gradient&quot;&gt;&lt;/tool&gt;</highlight>
         <a class="tool" target="_blank" href="https://cssgradient.io/">
             <div class="tool-container">
                 <div class="tool-abstract">
@@ -103,62 +215,70 @@
                 <div class="tool-thumb" style="background-image: url(tools/css-gradient/images/thumb.jpg)"></div>
             </div>
         </a>
-<dots></dots>
+<warning>Le rendu de cette composante est effectué par le pré-processeur.</warning>
+<br><br>
 
-<grostitre>knowmore</grostitre>
-<highlight lang="html">&lt;knowmore href="https://fr.wikipedia.org/wiki/Monotremata"&gt;
+<h3>knowmore</h3>
+<highlight lang="html">&lt;knowmore href=&quot;https://fr.wikipedia.org/wiki/Monotremata&quot;&gt;
+    Les monotr&egrave;mes (Monotremata) constituent un ordre animal d&eacute;fini par
+    Charles-Lucien Bonaparte en 1838, regroupant des esp&egrave;ces caract&eacute;ris&eacute;es
+    par le fait d&#039;&ecirc;tre &agrave; la fois ovipares et mammif&egrave;res : ils pondent des &oelig;ufs
+    mais allaitent leurs petits.
+&lt;/knowmore&gt;</highlight>
+<knowmore href="https://fr.wikipedia.org/wiki/Monotremata">
     Les monotrèmes (Monotremata) constituent un ordre animal défini par
     Charles-Lucien Bonaparte en 1838, regroupant des espèces caractérisées
     par le fait d'être à la fois ovipares et mammifères : ils pondent des œufs
     mais allaitent leurs petits.
-&lt;/knowmore&gt;</highlight>
-<knowmore href="https://fr.wikipedia.org/wiki/Monotremata">Les monotrèmes (Monotremata) constituent un ordre animal défini par Charles-Lucien Bonaparte en 1838, regroupant des espèces caractérisées par le fait d'être à la fois ovipares et mammifères : ils pondent des œufs mais allaitent leurs petits.</knowmore>
+</knowmore>
+
 <dots></dots>
 
-<grostitre>doclink</grostitre>
-<highlight lang="html">&lt;doclink href="https://www.w3schools.com/cssref/css3_pr_flex-direction.php"&gt;flex-direction&lt;/doclink&gt;
-&lt;doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/flex-direction"&gt;flex-direction&lt;/doclink&gt;</highlight>
-<doclink href="https://www.w3schools.com/cssref/css3_pr_flex-direction.php">flex-direction</doclink>
-<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/flex-direction">flex-direction</doclink>
+
+
+
+
+<!-- 
+  ____             _          _ _ _                      
+ / ___| _   _ _ __| |__  _ __(_) | | __ _ _ __   ___ ___ 
+ \___ \| | | | '__| '_ \| '__| | | |/ _` | '_ \ / __/ _ \
+  ___) | |_| | |  | |_) | |  | | | | (_| | | | | (_|  __/
+ |____/ \__,_|_|  |_.__/|_|  |_|_|_|\__,_|_| |_|\___\___|
+
+-->
+
+<grostitre>Surbrillance</grostitre>
+
+<h3>incode</h3>
+<highlight lang="html">Utilisez la proprit&eacute; &lt;incode&gt;transform&lt;/incode&gt;.</highlight>
+Utilisez la proprité <span class="inline-code">transform</span>.<br>
+<warning>Le rendu de cette composante est effectué par le pré-processeur.</warning>
+<br><br>
+
+<h3>highlight</h3>
+<highlight lang="html">&lt;highlight lang=&quot;javascript&quot;&gt;console.log(&quot;Ceci est du javascript&quot;);&lt;/highlight&gt;</highlight>
+<highlight lang="javascript">console.log(&quot;Ceci est du javascript&quot;);</highlight>
+<warning>Le rendu de cette composante est effectué par le pré-processeur.</warning>
+<doclink href="https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md ">Languages supportés</doclink>
+
+
 <dots></dots>
 
-<grostitre>dots</grostitre>
-<highlight lang="html">&lt;dots&gt;&lt;/dots&gt;</highlight>
-<dots></dots>
 
-<grostitre>color</grostitre>
-<highlight lang="html">&lt;color&gt;#e8b9ff&lt;/color&gt;
-&lt;color&gt;#e2a6f8&lt;/color&gt;
-&lt;color&gt;#5638f9&lt;/color&gt;</highlight>
-<color>#e8b9ff</color>
-<color>#e2a6f8</color>
-<color>#5638f9</color>
-<dots></dots>
 
-<grostitre>clip</grostitre>
-<highlight lang="html">&lt;clip src="videos/le-boson-de-higgs.mp4"&gt;&lt;/clip&gt;</highlight>
-<clip src="videos/le-boson-de-higgs.mp4"></clip>
-<doclink href="../videos">Manuel / Vidéos</doclink>
-<dots></dots>
 
-<grostitre>youtube</grostitre>
-<p>Afin d'accélérer le chargement des pages contenant des vidéos, il est fortement conseillé d'utiliser la composante <incode>&lt;youtube src="id"&gt;&lt;/youtube&gt;</incode>.</p>
-<highlight lang="html">&lt;youtube src="KVJBHSOx9jI"&gt;&lt;/youtube&gt;</highlight>
-<youtube src="KVJBHSOx9jI"></youtube>
-<dots></dots>
+<!-- 
+  _     _     _          __                    _               
+ | |   (_)___| |_ ___    \_\_    ___ ___   ___| |__   ___ _ __ 
+ | |   | / __| __/ _ \  / _` |  / __/ _ \ / __| '_ \ / _ \ '__|
+ | |___| \__ \ ||  __/ | (_| | | (_| (_) | (__| | | |  __/ |   
+ |_____|_|___/\__\___|  \__,_|  \___\___/ \___|_| |_|\___|_|   
+ 
+-->
 
-<grostitre>audioplayer</grostitre>
-<highlight lang="html">&lt;audioplayer src="audios/careless-whisper.mp3"&gt;&lt;/audioplayer&gt;</highlight>
-<audioplayer src="audios/careless-whisper.mp3"></audioplayer>
-<doclink href="../audios">Manuel / Audios</doclink>
-<dots></dots>
+<grostitre>Liste à cocher</grostitre>
 
-<grostitre>highlight</grostitre>
-<highlight lang="html">&lt;highlight lang="javascript"&gt;console.log("Ceci est du javascript");&lt;/highlight&gt;</highlight>
-<highlight lang="javascript">console.log("Ceci est du javascript");</highlight>
-<dots></dots>
-
-<grostitre>checklist</grostitre>
+<h3>checklist</h3>
 <highlight lang="html">&lt;checklist&gt;
     Bacon ipsum dolor amet pork loin shankle leberkas beef capicola porchetta ground round kevin meatball bresaola andouille.
     Andouille ham bresaola landjaeger meatloaf shoulder t-bone kielbasa salami corned beef porchetta ball tip.
@@ -180,33 +300,275 @@
 <dots></dots>
 
 
-<grostitre>swiper</grostitre>
+
+
+<!-- 
+   ____ _ _        _   _             
+  / ___(_) |_ __ _| |_(_) ___  _ __  
+ | |   | | __/ _` | __| |/ _ \| '_ \ 
+ | |___| | || (_| | |_| | (_) | | | |
+  \____|_|\__\__,_|\__|_|\___/|_| |_|
+
+ -->
+
+<grostitre>Citation</grostitre>
+
+<h3>quote</h3>
+
+<highlight lang="html">&lt;quote author=&quot;Gandalf&quot; title=&quot;Magicien&quot; photo=&quot;./images/gandalf.webp&quot;&gt;
+    Un magicien n&#039;est jamais en retard, ni en avance d&#039;ailleurs Frodon Sacquet.
+    Il arrive pr&eacute;cis&eacute;ment &agrave; l&#039;heure pr&eacute;vue.
+&lt;/quote&gt;</highlight>
+
+<quote author="Gandalf" title="Magicien" photo="./images/gandalf.webp">
+    Un magicien n'est jamais en retard, ni en avance d'ailleurs Frodon Sacquet. Il arrive précisément à l'heure prévue.
+</quote>
+
+<dots></dots>
+
+
+
+
+
+<!-- 
+   ____            _                     
+  / ___|___  _   _| | ___ _   _ _ __ ___ 
+ | |   / _ \| | | | |/ _ \ | | | '__/ __|
+ | |__| (_) | |_| | |  __/ |_| | |  \__ \
+  \____\___/ \__,_|_|\___|\__,_|_|  |___/
+
+ -->
+
+<grostitre>Couleurs</grostitre>
+
+<h3>color</h3>
+<highlight lang="html">&lt;color&gt;#51af3f&lt;/color&gt;
+&lt;color&gt;#1e98e1&lt;/color&gt;
+&lt;color&gt;#ee4bbe&lt;/color&gt;
+&lt;color&gt;#8a774c&lt;/color&gt;</highlight>
+
+<color>#51af3f</color>
+<color>#1e98e1</color>
+<color>#ee4bbe</color>
+<color>#8a774c</color>
+<dots></dots>
+
+
+
+
+
+
+<!-- 
+  ___                                 
+ |_ _|_ __ ___   __ _  __ _  ___  ___ 
+  | || '_ ` _ \ / _` |/ _` |/ _ \/ __|
+  | || | | | | | (_| | (_| |  __/\__ \
+ |___|_| |_| |_|\__,_|\__, |\___||___/
+                      |___/           
+ -->
+
+<grostitre>Images</grostitre>
+
+<h3>timg</h3>
+
+<p>La composante <span class="inline-code">&lt;timg src=&quot;&quot;&gt;&lt;/timg&gt;</span> agît de la même manière que la balise <span class="inline-code">&lt;img src=&quot;&quot;&gt;</span> à l'exception que l'expression <span class="inline-code">$t</span> sera remplacé par le nom du thème (<span class="inline-code">light</span> ou <span class="inline-code">dark</span>).</p>
+
+<highlight lang="html">&lt;timg src=&quot;./images/timg-$t.webp&quot; class=&quot;full&quot;&gt;&lt;/timg&gt;</highlight>
+
+<timg src="./images/timg-$t.webp" class="full"></timg>
+
+
+<br><br>
+
+
+<h3>swiper</h3>
 <highlight lang="html">&lt;swiper&gt;
-    photos/01.jpg
-    photos/02.jpg
-    photos/03.jpg
-    photos/04.jpg
-    photos/05.jpg
-    photos/06.jpg
-    photos/07.jpg
-    photos/08.jpg
-    photos/09.jpg
-    photos/10.jpg
+    photos/01.webp
+    photos/02.webp
+    photos/03.webp
+    photos/04.webp
+    photos/05.webp
+    photos/06.webp
+    photos/07.webp
+    photos/08.webp
+    photos/09.webp
+    photos/10.webp
 &lt;/swiper&gt;</highlight>
 <swiper>
-    photos/01.jpg
-    photos/02.jpg
-    photos/03.jpg
-    photos/04.jpg
-    photos/05.jpg
-    photos/06.jpg
-    photos/07.jpg
-    photos/08.jpg
-    photos/09.jpg
-    photos/10.jpg
+    photos/01.webp
+    photos/02.webp
+    photos/03.webp
+    photos/04.webp
+    photos/05.webp
+    photos/06.webp
+    photos/07.webp
+    photos/08.webp
+    photos/09.webp
+    photos/10.webp
 </swiper>
 <dots></dots>
 
+
+
+
+
+<!-- 
+ __     ___     _   __           
+ \ \   / (_) __| | /_/  ___  ___ 
+  \ \ / /| |/ _` |/ _ \/ _ \/ __|
+   \ V / | | (_| |  __/ (_) \__ \
+    \_/  |_|\__,_|\___|\___/|___/
+                                 
+ -->
+
+<grostitre>Vidéos</grostitre>
+
+<h3>youtube</h3>
+<p>Afin d'accélérer le chargement des pages contenant des vidéos, il est fortement conseillé d'utiliser la composante <span class="inline-code">&lt;youtube src=&quot;id&quot;&gt;&lt;/youtube&gt;</span>.</p>
+<highlight lang="html">&lt;youtube src=&quot;KVJBHSOx9jI&quot;&gt;&lt;/youtube&gt;</highlight>
+<youtube src="KVJBHSOx9jI"></youtube>
+<br><br>
+
+<h3>Vimeo</h3>
+<highlight lang="html">&lt;vimeo src=&quot;874986396&quot;&gt;&lt;/vimeo&gt;</highlight>
+<vimeo src="874986396"></vimeo>
+<br><br>
+
+<h3>clip</h3>
+<highlight lang="html">&lt;clip src=&quot;videos/le-boson-de-higgs.mp4&quot;&gt;&lt;/clip&gt;</highlight>
+<clip src="videos/le-boson-de-higgs.mp4" title="Qu'est-ce que le boson de Higgs?"></clip>
+<doclink href="../videos">Manuel / Vidéos</doclink>
+<br><br>
+
+<h3>clipasset</h3>
+<p><span class="inline-code">&lt;clipasset&gt;</span> permet d'inclure un video inline en boucle. Il est conseillé d'avoir un vidéo d'une largeur maximale de <em>770px</em>. Il est aussi recommandé de bien compresser son vidéo avec la commande <span class="inline-code">FFMPEG</span> suivante:</p>
+<highlight lang="console">&gt; ffmpeg -y -i &quot;input.mp4&quot; -an -c:v libx264 -profile:v main -level:v 3.0 -pix_fmt yuv420p -preset veryslow -movflags faststart -crf 22 -vf &quot;scale=770:-1&quot; &quot;output.mp4&quot;</highlight>
+<highlight lang="html">&lt;clipasset src=&quot;./videos/king-crimson.mp4&quot;&gt;&lt;/clipasset&gt;</highlight>
+<clipasset src="./videos/king-crimson.mp4"></clipasset>
+
+<dots></dots>
+
+
+
+<!-- 
+     _             _ _           
+    / \  _   _  __| (_) ___  ___ 
+   / _ \| | | |/ _` | |/ _ \/ __|
+  / ___ \ |_| | (_| | | (_) \__ \
+ /_/   \_\__,_|\__,_|_|\___/|___/
+                                 
+ -->
+
+<grostitre>Audios</grostitre>
+
+<h3>audioplayer</h3>
+<highlight lang="html">&lt;audioplayer src=&quot;audios/careless-whisper.mp3&quot;&gt;&lt;/audioplayer&gt;</highlight>
+<audioplayer src="audios/careless-whisper.mp3"></audioplayer>
+<doclink href="../audios">Manuel / Audios</doclink>
+<dots></dots>
+
+
+
+<!-- 
+   ____          _                       
+  / ___|___   __| | ___ _ __   ___ _ __  
+ | |   / _ \ / _` |/ _ \ '_ \ / _ \ '_ \ 
+ | |__| (_) | (_| |  __/ |_) |  __/ | | |
+  \____\___/ \__,_|\___| .__/ \___|_| |_|
+                       |_|               
+ -->
+
+<grostitre>Codepen</grostitre>
+
+<h3>codepen</h3>
+<highlight lang="html">&lt;codepen id=&quot;gOEwrvG&quot; tab=&quot;results&quot;&gt;Voici une remarque pertinente.&lt;/codepen&gt;</highlight>
+<codepen id="gOEwrvG" tab="results">Voici une remarque pertinente.</codepen>
+<dots></dots>
+
+
+
+<!-- 
+   ____                         _   _             
+  / ___|___  _ __ _ __ ___  ___| |_(_) ___  _ __  
+ | |   / _ \| '__| '__/ _ \/ __| __| |/ _ \| '_ \ 
+ | |__| (_) | |  | | |  __/ (__| |_| | (_) | | | |
+  \____\___/|_|  |_|  \___|\___|\__|_|\___/|_| |_|
+                                                  
+ -->
+
+<grostitre>Correction</grostitre>
+
+<p>Il est possible de créer un simulateur de correction avec les balises <span class="inline-code">correction</span> et <span class="inline-code">criteria</span>.</p>
+
+<h3>correction & criteria</h3>
+<highlight lang="html">&lt;correction scale=&quot;Excellent, Bon, Moyen, M&eacute;diocre, Absent&quot; value=&quot;10&quot;&gt;
+    &lt;criteria value=&quot;20&quot;&gt;Album&lt;/criteria&gt;
+    &lt;criteria value=&quot;20&quot;&gt;Textes&lt;/criteria&gt;
+    &lt;criteria value=&quot;20&quot;&gt;Mains&lt;/criteria&gt;
+    &lt;criteria value=&quot;20&quot;&gt;Transitions&lt;/criteria&gt;
+    &lt;criteria value=&quot;5&quot;&gt;D&eacute;brouillardise&lt;/criteria&gt;
+    &lt;criteria value=&quot;5&quot;&gt;Claret&eacute; du code&lt;/criteria&gt;
+    &lt;criteria value=&quot;5&quot;&gt;Suivi des consignes&lt;/criteria&gt;
+    &lt;criteria value=&quot;5&quot;&gt;Remise&lt;/criteria&gt;
+&lt;/correction&gt;</highlight>
+
+<correction scale="Excellent, Bon, Moyen, Médiocre, Absent" value="10">
+    <criteria value="20">Album</criteria>
+    <criteria value="20">Textes</criteria>
+    <criteria value="20">Mains</criteria>
+    <criteria value="20">Transitions</criteria>
+    <criteria value="5">Débrouillardise</criteria>
+    <criteria value="5">Clareté du code</criteria>
+    <criteria value="5">Suivi des consignes</criteria>
+    <criteria value="5">Remise</criteria>
+</correction>
+
+<dots></dots>
+
+
+
+
+<!-- 
+ __        ___ _    _ 
+ \ \      / (_) | _(_)
+  \ \ /\ / /| | |/ / |
+   \ V  V / | |   <| |
+    \_/\_/  |_|_|\_\_|
+                      
+ -->
+
+<grostitre>Wiki</grostitre>
+
+<p>Comme le wiki suit le thème de Timdoc, il sera affiché par défaut en thème <span class="inline-code">light</span> dans Teams. Il est possible de forcer le thème en l'ajoutant à l'adresse url.</p>
+
+<highlight lang="text">https://tim-montmorency.com/timdoc/582-215MO/wiki/?light
+https://tim-montmorency.com/timdoc/582-215MO/wiki/?dark</highlight>
+
+<h3>wiki-page</h3>
+
+<p>La balise <span class="inline-code">&lt;wiki-page&gt;</span> ne doit être utilisée que dans une page de type <span class="inline-code">wiki</span>.</p>
+
+<highlight lang="html">&lt;?php 
+/**
+ * @type     wiki
+ * @title    Wiki - Int&eacute;gration Web
+ * @icon     images/icon.png
+ * @abstract Int&eacute;gration Web
+ */
+?&gt;
+
+&lt;wiki-page name=&quot;Cours 01A&quot; date=&quot;2023-05-09&quot;&gt;
+    &lt;intlink href=&quot;../css/anatomie/&quot;&gt;&lt;/intlink&gt;
+    &lt;intlink href=&quot;../css/selecteurs/&quot;&gt;&lt;/intlink&gt;
+    &lt;intlink href=&quot;../css/selecteurs/exercices/css-diner/&quot;&gt;&lt;/intlink&gt;
+    &lt;intlink href=&quot;../autres/chemins/&quot;&gt;&lt;/intlink&gt;
+    &lt;intlink href=&quot;../autres/chemins/exercices/pokemon/&quot;&gt;&lt;/intlink&gt;
+&lt;/wiki-page&gt;</highlight>
+
+<timg src="./images/wiki-$t.webp" class="full"></timg>
+<doclink href="../page-types/">Types de pages</doclink>
+
+<dots></dots>
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>
@@ -217,6 +579,5 @@
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,8 +39,11 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Optimisation Web</a> > <a href="../">Bootstrap</a> ></div>
-                <h1 id="title"><img src="images/icon.png">&nbsp;Cartes</h1>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Optimisation Web</a> > <a href="../">Bootstrap</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/quadriciels/">Quadriciels</a>&nbsp;>&nbsp;<a href="../../../index/web/quadriciels/bootstrap/">Bootstrap</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="../images/icon.webp">&nbsp;Cartes</h1>
             </div>
             <article>
                 <div id="contents">
@@ -68,7 +70,7 @@
 <dots></dots>
 <grostitre>Image</grostitre>
 
-<p>Il est possible d'insérer une image dans une carte Bootstrap en ajoutant une balise&nbsp;<code>&lt;img&gt;</code>&nbsp;et en lui attribuant la classe&nbsp;<code>.card-img-top</code>&nbsp;ou&nbsp;<code>.card-img-bottom</code>&nbsp;afin d'indiquer où cette image doit afficher, soit en haut ou en bas de la&nbsp;carte.</p>
+<p>Il est possible d'insérer une image dans une carte Bootstrap en ajoutant une balise&nbsp;<span class="inline-code">&lt;img&gt;</span>&nbsp;et en lui attribuant la classe&nbsp;<span class="inline-code">.card-img-top</span>&nbsp;ou&nbsp;<span class="inline-code">.card-img-bottom</span>&nbsp;afin d'indiquer où cette image doit afficher, soit en haut ou en bas de la&nbsp;carte.</p>
 <p>Par exemple pour l'afficher en&nbsp;haut:</p>
 
 <highlight lang="html">&lt;div class=&quot;card&quot;&gt;
@@ -78,7 +80,7 @@
 <dots></dots>
 <grostitre>Corps</grostitre>
 
-<p>Le corps de la carte contient son texte principal. Pour le définir, il suffit d'ajouter la classe&nbsp;<code>.card-body</code>&nbsp;à l'intérieur de la carte comme&nbsp;ceci:</p>
+<p>Le corps de la carte contient son texte principal. Pour le définir, il suffit d'ajouter la classe&nbsp;<span class="inline-code">.card-body</span>&nbsp;à l'intérieur de la carte comme&nbsp;ceci:</p>
 
 <highlight lang="html">&lt;div class=&quot;card&quot;&gt;
     &lt;div class=&quot;card-body&quot;&gt;Description&lt;/div&gt;
@@ -89,7 +91,7 @@
 <dots></dots>
 <grostitre>Titre</grostitre>
 
-<p>À l'intérieur du corps, il est possible d'ajouter un titre en utilisant la balise de titre adéquate et la classe&nbsp;<code>.card-title</code>&nbsp;comme&nbsp;suit:</p>
+<p>À l'intérieur du corps, il est possible d'ajouter un titre en utilisant la balise de titre adéquate et la classe&nbsp;<span class="inline-code">.card-title</span>&nbsp;comme&nbsp;suit:</p>
 
 <highlight lang="html">&lt;div class=&quot;card&quot;&gt;
     &lt;div class=&quot;card-body&quot;&gt;
@@ -103,7 +105,7 @@
 
 <p>L'entête et le pied d'une carte Bootstrap permettent de définir une zone séparée du reste de la carte afin de les mettre en évidence.</p>
 
-<p>Pour définir de telles zones, il suffit d'ajouter des balises avec les classes&nbsp;<code>.card-header</code>&nbsp;ou&nbsp;<code>.card-footer</code>.</p>
+<p>Pour définir de telles zones, il suffit d'ajouter des balises avec les classes&nbsp;<span class="inline-code">.card-header</span>&nbsp;ou&nbsp;<span class="inline-code">.card-footer</span>.</p>
 
 <p>Par exemple pour une entête:</p>
 
@@ -123,7 +125,7 @@
 <grostitre>Liste</grostitre>
 
 
-<p>Il est aussi possible d'inclure des listes en utilisant la composante de liste de Bootstrap&nbsp;<code>.list-group</code>&nbsp;et en y ajoutant le modificateur&nbsp;<code>.list-group-flush</code>.</p>
+<p>Il est aussi possible d'inclure des listes en utilisant la composante de liste de Bootstrap&nbsp;<span class="inline-code">.list-group</span>&nbsp;et en y ajoutant le modificateur&nbsp;<span class="inline-code">.list-group-flush</span>.</p>
 <p>Par exemple:</p>
 
 <highlight lang="html">&lt;div class=&quot;card&quot;&gt;
@@ -157,7 +159,7 @@
         &lt;div class=&quot;col-7&quot;&gt;
             &lt;div class=&quot;card-body&quot;&gt;Description&lt;/div&gt;
         &lt;/div&gt;
-    &lt;/div&gt
+    &lt;/div&amp;gt
  &lt;/div&gt;</highlight>
 
 <p class="codepen" data-height="200" data-theme-id="43847" data-default-tab="result" data-slug-hash="ZEjVPyZ" data-user="tim-momo" style="height: 200px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -193,6 +195,5 @@
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

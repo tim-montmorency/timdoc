@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,7 +39,10 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Intégration Web</a> > <a href="../">CSS</a> ></div>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Intégration Web</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
                 <h1 id="title"><img src="images/icon.png">&nbsp;Filtres</h1>
             </div>
             <article>
@@ -55,28 +57,28 @@
 <grostitre>Filtres disponibles</grostitre>
 
 <ul>
-    <li><incode>none</incode> par défaut.</li>
-    <li><incode>blur()</incode> <em>(flou)</em> Valeur acceptant toutes les unités de mesure</li>
-    <li><incode>brightness()</incode> <em>(luminosité)</em> valeur en pourcentage</li>
-    <li><incode>contrast()</incode> <em>(contraste)</em> valeur en pourcentage</li>
-    <li><incode>drop-shadow()</incode> <em>(ombre portée)</em> même format que box-shadow</li>
-    <li><incode>grayscale()</incode> <em>(niveau de gris)</em> valeur en pourcentage</li>
-    <li><incode>hue-rotate()</incode> <em>(rotation de la teinte)</em> valeur en degrés</li>
-    <li><incode>invert()</incode> <em>(inverser)</em> valeur en pourcentage</li>
-    <li><incode>opacity()</incode> <em>(opacité)</em> valeur en pourcentage</li>
-    <li><incode>saturate()</incode> <em>(saturation)</em> valeur en pourcentage</li>
-    <li><incode>sepia()</incode> <em>(sépia)</em> valeur en pourcentage</li>
+    <li><span class="inline-code">none</span> par défaut.</li>
+    <li><span class="inline-code">blur()</span> <em>(flou)</em> Valeur acceptant toutes les unités de mesure</li>
+    <li><span class="inline-code">brightness()</span> <em>(luminosité)</em> valeur en pourcentage</li>
+    <li><span class="inline-code">contrast()</span> <em>(contraste)</em> valeur en pourcentage</li>
+    <li><span class="inline-code">drop-shadow()</span> <em>(ombre portée)</em> même format que box-shadow</li>
+    <li><span class="inline-code">grayscale()</span> <em>(niveau de gris)</em> valeur en pourcentage</li>
+    <li><span class="inline-code">hue-rotate()</span> <em>(rotation de la teinte)</em> valeur en degrés</li>
+    <li><span class="inline-code">invert()</span> <em>(inverser)</em> valeur en pourcentage</li>
+    <li><span class="inline-code">opacity()</span> <em>(opacité)</em> valeur en pourcentage</li>
+    <li><span class="inline-code">saturate()</span> <em>(saturation)</em> valeur en pourcentage</li>
+    <li><span class="inline-code">sepia()</span> <em>(sépia)</em> valeur en pourcentage</li>
     <li>etc.</li>
 </ul>
 
-<info>Toutes les valeurs en pourcentages <em>(%)</em> peuvent être exprimées en fractions. Par exemple, <incode>50%</incode> peut être écrit <incode>0.5</incode>.</info>
+<info>Toutes les valeurs en pourcentages <em>(%)</em> peuvent être exprimées en fractions. Par exemple, <span class="inline-code">50%</span> peut être écrit <span class="inline-code">0.5</span>.</info>
 
 <dots></dots>
 
 
 <grostitre>filter</grostitre>
 
-<p>La propriété <incode>filter</incode> permet d’ajouter des effets visuels à un élément. Ce filtre impactera non seulement l'élément, mais aussi tout son contenu.</p>
+<p>La propriété <span class="inline-code">filter</span> permet d’ajouter des effets visuels à un élément. Ce filtre impactera non seulement l'élément, mais aussi tout son contenu.</p>
 
 <p>Pour définir un nouveau filtre, il suffit de passer à un des filtres mentionnés ci-dessus ☝️ avec une valeur entre parenthèses.</p>
 
@@ -104,13 +106,13 @@
 
 <grostitre>backdrop-filter</grostitre>
 
-<p>La propriété <incode>backdrop-filter</incode> permet elle aussi d'ajouter des effets visuels, mais uniquement entre un élément et son arrière-plan. Il est donc nécessaire que l'élément en question soit ne soit pas entièrement opaque afin de pouvoir voir une partie de l'élément arrière-plan.</p>
+<p>La propriété <span class="inline-code">backdrop-filter</span> permet elle aussi d'ajouter des effets visuels, mais uniquement entre un élément et son arrière-plan. Il est donc nécessaire que l'élément en question soit ne soit pas entièrement opaque afin de pouvoir voir une partie de l'élément arrière-plan.</p>
 
-<p>Par exemple, un carré blanc ⚪️ avec une opacité de 30% afin de voir une partie de l'image en arrière-plan, soit <incode>background-color: rgba(255, 255, 255, 0.3);</incode>.</p>
+<p>Par exemple, un carré blanc ⚪️ avec une opacité de 30% afin de voir une partie de l'image en arrière-plan, soit <span class="inline-code">background-color: rgba(255, 255, 255, 0.3);</span>.</p>
 
 <codepen id="ZEjVmog" tab="result" height="540"></codepen>
 
-<warning>Au moment d’écrire ces lignes, cette propriété n’est pas encore supportée dans le navigateur Firefox. Il est donc préférable pour l’instant de séparer ses éléments et d’utiliser la propriété <incode>filter</incode>.</warning>
+<warning>Au moment d’écrire ces lignes, cette propriété n’est pas encore supportée dans le navigateur Firefox. Il est donc préférable pour l’instant de séparer ses éléments et d’utiliser la propriété <span class="inline-code">filter</span>.</warning>
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/backdrop-filter">backdrop-filter</doclink>
 
@@ -153,6 +155,5 @@
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

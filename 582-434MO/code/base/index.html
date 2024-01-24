@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,7 +39,10 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Réalité virtuelle</a> > <a href="../">Code</a> ></div>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Réalité virtuelle</a> > <a href="../">Code</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
                 <h1 id="title"><img src="images/icon.png">&nbsp;Bases du code</h1>
             </div>
             <article>
@@ -54,8 +56,7 @@
 
 <grostitre>Structure d'un script</grostitre>
 <p>Un script est aussi appelé une classe dans Unity. C'est un ensemble de fonctions qui seront exécutées.Voici la structure type d'une classe:</p> 
-<highlight lang="C#">
-using System.Collections;
+<highlight lang="csharp">using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -74,8 +75,7 @@ public class script2 : MonoBehaviour
     {
         
     }
-}
-</highlight>
+}</highlight>
 
      <p>La première section est celle des NameSpace. On la remarque par l'utilisation de using avant chaque terme. Elle détermine quelles classes seront utilisées dans ce script. On laisse celles qui sont présentes par défaut. D'autres peuvent être ajoutées au besoin:</p>
      <ol>
@@ -96,7 +96,7 @@ public class script2 : MonoBehaviour
 <p>Dans Unity, la fenêtre console est importante pour trouver les problèmes dans les scripts ou pour faire le suivi de valeurs. Cette fenêtre se trouve au bas de votre écran, c'est un onglet de la fenêtre Project.</p>
 
 <img src="images/console.jpg">
-<highlight lang="C#">  Debug.Log("Hello World"); </highlight>
+<highlight lang="csharp">Debug.Log(&quot;Hello World&quot;);</highlight>
 <p>Pour imprimer une valeur ou un texte dans la console, il suffit d'inscrire Debug.Log et de mettre ce qu'on veut imprimer entre parenthèse. Ici, j'ai utilisé les "" pour imprimer une phrase, mais j'aurais aussi pu écrire le nom d'une variable int comme myInt pour imprimer sa valeur.</p>
 
 <dots></dots>
@@ -123,11 +123,10 @@ public class script2 : MonoBehaviour
 
 <grostitre>Conditions</grostitre>
 <p>Dans Unity, on utilise fréquemment les conditions pour vérifier si un élément est vrai avant d'exécuter une portion de code. Une condition s'écrit de la façon suivante:</p>
-<highlight lang="C#">    if(myInt == 2)
-        {
+<highlight lang="csharp">if(myInt == 2)
+{
 
-        }  
-</highlight>
+}</highlight>
         <p>Si ma condition est vrai, donc que la variable myInt est égale à 2, on exécutera le code qui est entre les {}; 
     <p> Outre les ==, il existe d'autres opérateurs pour valider si une fonction est vraie:</p>
     <ul><li>!= (Pas égal à)</li>
@@ -137,16 +136,16 @@ public class script2 : MonoBehaviour
     <li> >= (plus grand ou égal)</li>
     </ul>
     <p>Il est possible de vérifier plus d'une condition grâce à &&:</p>
-    <highlight lang="C#"> if(myInt >= 2 && myInt < 10)
-        {
+    <highlight lang="csharp">if(myInt &gt;= 2 &amp;&amp; myInt &lt; 10)
+{
 
-        }   </highlight>
-        <p>Ici, on vérifie si myInt est plus grand ou égal à deux et plus petit que 10. Si c'est le cas, le code sera exécuté.</p>
+}</highlight>
+<p>Ici, on vérifie si myInt est plus grand ou égal à deux et plus petit que 10. Si c'est le cas, le code sera exécuté.</p>
 
-        <highlight lang="C#"> if(myInt >= 2 || myInt == 0)
-        {
+<highlight lang="csharp">if(myInt &gt;= 2 || myInt == 0)
+{
 
-        }    </highlight>
+}</highlight>
         <p>On peut utiliser || pour choisir l'une ou l'autre des conditions, ainsi si myInt est plus grand ou égal à deux ou égal à 0, le code entre {} sera exécuté.</p>
 
 
@@ -155,15 +154,15 @@ public class script2 : MonoBehaviour
 <grostitre>Boucle</grostitre>
 <p>Dans Unity, les boucles sont souvent utilisées pour compter des éléments ou interagir avec les tableaux.</p>
 
-<highlight lang="C#">  for(int i = 0; i < 3; i++)
-        {
+<highlight lang="csharp">for(int i = 0; i &lt; 3; i++)
+{
 
-        }   </highlight>
+}</highlight>
 <p>Ci-haut, on crée une boucle dont le code sera exécuté 3 fois avant que le code qui le suit s'exécute.</p>
-<highlight lang="C#">  for(int i = 0; i < myInts.Length; i++)
-        {
-            myInts[i] =0; 
-        }   </highlight>
+<highlight lang="csharp">for(int i = 0; i &lt; myInts.Length; i++)
+{
+        myInts[i] =0; 
+}</highlight>
 <p>Dans Unity, une pratique courante lorsqu'on crée une boucle est d'utiliser la longueur d'un tableau plutôt qu'un chiffre fixe. Ainsi, ci-haut ma boucle sera répétée autant de fois qu'il y a de chiffres dans le tableau myInts[]. Cela permet de ne pas avoir à changer le code à chaque fois que notre tableau change en longueur.</p>
 
 
@@ -171,7 +170,7 @@ public class script2 : MonoBehaviour
 
 <grostitre>Aléatoire</grostitre>
 <p>Voici comment obtenir une valeur aléatoire dans Unity:</p>
-<highlight lang="C#"> int xcount = Random.Range(1, 6); </highlight>
+<highlight lang="csharp">int xcount = Random.Range(1, 6);</highlight>
 <p>Le code précédent générera un nombre entier qui sera 1, 2, 3, 4 ou 5. Le deuxième chiffre est exclu.</p>
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
@@ -183,6 +182,5 @@ public class script2 : MonoBehaviour
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

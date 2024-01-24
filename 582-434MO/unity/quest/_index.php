@@ -38,7 +38,7 @@
     Suivez ensuite les étapes du Guardian pour redessiner la zone de jeu. 
 </checklist>
 <p>Le tout en vidéo:</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GxF2-rlt0IY?si=igGi81FCYWx3Niye" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<youtube src="GxF2-rlt0IY"></youtube>
 
 <dots></dots>
 
@@ -67,4 +67,4 @@
 </checklist>
 
 <p>Le tout en vidéo:</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ta09UeUbT5s?si=4iAYYln7Gvtx1NVJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<youtube src="ta09UeUbT5s"></youtube>

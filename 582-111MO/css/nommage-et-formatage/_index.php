@@ -4,6 +4,7 @@
  * @title    Nommage et formatage
  * @icon     images/icon.png
  * @abstract À priori, nommer des éléments peut sembler facile.
+ * @ref      web/css
  */
 ?>
 

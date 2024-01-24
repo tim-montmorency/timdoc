@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Types de pages
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract Liste, article, exercice, outil
  */
 ?>
@@ -108,7 +108,7 @@
  */
 ?&gt;
 
-&lt;wiki-page name="Cours 01" &gt;
+&lt;wiki-page name="Cours 01"&gt;
 
  
 &lt;/wiki-page&gt;</highlight>

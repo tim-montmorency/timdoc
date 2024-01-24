@@ -4,6 +4,7 @@
  * @title    Anatomie d'une règle
  * @icon     images/icon.png
  * @abstract Structure, ancêtre, déclaration
+ * @ref      web/css
  */
 ?>
 

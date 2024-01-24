@@ -127,17 +127,24 @@ const hcd = (a,b) => {
  const app = Vue.createApp({
     data() {
         let darkmode = localStorage.getItem('darkmode') === 'true';
+        let theme = darkmode ? 'dark' : 'light';
         return {
             sounds: false,
+            timgs: [],
             codepens: [],
+            lightSwitches: [],
             tableOfContents: [],
             lightswitchon: null,
             lightswitchoff: null,
             darkmode: darkmode,
-            theme: null
+            theme: theme
         }
     },
     mounted() {
+        const referer = new URL(document.referrer, document.baseURI);
+        const breadcrumb = document.getElementById('breadcrumb');
+        if(breadcrumb && /\/index\//g.test(referer.pathname))
+            breadcrumb.classList.add('index');
         if(this.$refs.lightswitch == undefined) return;
         this.theme = this.darkmode ? 'dark' : 'light';
         document.body.className = this.darkmode ? 'dark' : 'light';
@@ -148,8 +155,14 @@ const hcd = (a,b) => {
         }
     },
     methods: {
-        goToTop(){
-            document.location.href = "#top";
+        goToTop(path = null, index = null){
+            const referer = new URL(document.referrer, document.baseURI);
+            if(index && /\/index\//g.test(referer.pathname)) {
+                document.location.href = index;
+            } else {
+                if(!path) path = '#top';
+                document.location.href = path;
+            }
         },
         lightswitch(){
             if(this.$refs.lightswitch.className == 'lightswitch--on') {
@@ -158,6 +171,7 @@ const hcd = (a,b) => {
                 document.body.className = 'dark';
                 this.theme = 'dark';
                 this.codepens.forEach((cp) => { cp.lightSwitchOff(); });
+                this.timgs.forEach((timg) => { timg.lightSwitchOff(); });
                 if(this.sounds) {
                     this.lightswitchon.stop();
                     this.lightswitchoff.play();
@@ -168,6 +182,7 @@ const hcd = (a,b) => {
                 document.body.className = 'light';
                 this.theme = 'light';
                 this.codepens.forEach((cp) => { cp.lightSwitchOn(); });
+                this.timgs.forEach((timg) => { timg.lightSwitchOn(); });
                 if(this.sounds) {
                     this.lightswitchoff.stop();
                     this.lightswitchon.play();
@@ -182,6 +197,9 @@ const hcd = (a,b) => {
         },
         addToCodePens(comp) {
             this.codepens.push(comp);
+        },
+        addToTimages(comp) {
+            this.timgs.push(comp);
         },
     }
 });
@@ -247,8 +265,8 @@ app.component('grostitre', {
  ******************************************************/
  app.component('info', {
     template: `
-        <div class="info">
-            <div class="info__bubble"></div>
+        <div class="infobubble info">
+            <div class="infobubble__bubble"></div>
             <slot/>
         </div>`
 });
@@ -260,8 +278,8 @@ app.component('grostitre', {
  ******************************************************/
  app.component('warning', {
     template: `
-        <div class="warning">
-            <div class="warning__bubble"></div>
+        <div class="infobubble warning">
+            <div class="infobubble__bubble"></div>
             <slot/>
         </div>`
 });
@@ -272,8 +290,8 @@ app.component('grostitre', {
  ******************************************************/
  app.component('alert', {
     template: `
-        <div class="alert">
-            <div class="alert__bubble"></div>
+        <div class="infobubble alert">
+            <div class="infobubble__bubble"></div>
             <slot/>
         </div>`
 });
@@ -284,8 +302,8 @@ app.component('grostitre', {
  ******************************************************/
  app.component('bravo', {
     template: `
-        <div class="bravo">
-            <div class="bravo__bubble"></div>
+        <div class="infobubble bravo">
+            <div class="infobubble__bubble"></div>
             <slot/>
         </div>`
 });
@@ -296,8 +314,8 @@ app.component('grostitre', {
  ******************************************************/
  app.component('thumbsup', {
     template: `
-        <div class="thumbsup">
-            <div class="thumbsup__bubble"></div>
+        <div class="infobubble thumbsup">
+            <div class="infobubble__bubble"></div>
             <slot/>
         </div>`
 });
@@ -321,13 +339,13 @@ app.component('grostitre', {
         try { var url = new URL(this.src); }
         catch(e){ var url = new URL(this.src, document.baseURI); }
         switch(url.href.split('.').pop().toLocaleLowerCase()) {
-            case 'svg': var icon = 'type-svg.png'; break;
-            case 'jpg': var icon = 'type-jpg.png'; break;
-            case 'png': var icon = 'type-png.png'; break;
-            case 'webp': var icon = 'type-png.png'; break;
-            case 'zip': var icon = 'type-zip.png'; break;
-            case 'mp3': var icon = 'type-audio.png'; break;
-            default:    var icon = 'type-file.png';
+            case 'svg': var icon = 'type-svg.webp'; break;
+            case 'jpg': var icon = 'type-jpg.webp'; break;
+            case 'png': var icon = 'type-png.webp'; break;
+            case 'webp': var icon = 'type-png.webp'; break;
+            case 'zip': var icon = 'type-zip.webp'; break;
+            case 'mp3': var icon = 'type-audio.webp'; break;
+            default:    var icon = 'type-file.webp';
         }
 
         let addr = true;
@@ -337,7 +355,7 @@ app.component('grostitre', {
             isaddr: addr,
             space: space,
             link: url.href,
-            icon: shared + 'images/' + icon
+            icon: shared + 'images/types/' + icon
         }
     },
     methods: {
@@ -457,7 +475,6 @@ app.component('codepen', {
 });
 
 
-
 /******************************************************
  *                  Composante Tool                   *
  ******************************************************/
@@ -519,6 +536,7 @@ app.component('doclink', {
                 case 'getbootstrap.com': site = 'bootstrap'; break;
                 case 'fonts.google.com': site = 'googlefonts'; break;
                 case 'fr.wikipedia.org': site = 'wikipedia'; break;
+                case 'en.wikipedia.org': site = 'wikipedia'; break;
                 case 'ogp.me': site = 'ogp'; break;
                 case 'developers.facebook.com': site = 'facebook'; break;
                 case 'greensock.com': site = 'greensock'; break;
@@ -526,6 +544,19 @@ app.component('doclink', {
                 case 'trello.com': site = 'trello'; break;
                 case 'sass-lang.com' : site = 'sass'; break;
                 case 'developer.vuforia.com' : site = 'vuforia'; break;
+                case 'cmontmorency365-my.sharepoint.com': site = 'momo'; break;
+                case 'cmontmorency365.sharepoint.com': site = 'momo'; break;
+                case 'teams.microsoft.com': site = 'momo'; break;
+                case 'github.com': site = 'github'; break;
+                case 'developers.google.com': site = 'google'; break;
+                case 'youtu.be': site = 'youtube'; break;
+                case 'youtube.com': site = 'youtube'; break;
+                case 'www.youtube.com': site = 'youtube'; break;
+                case 'www.unity.com': site = 'unity'; break;
+                case 'learn.unity.com': site = 'unity'; break;
+                case 'id.unity.com': site = 'unity'; break;
+                case 'unity.com': site = 'unity'; break;
+                case 'vuejs.org': site = 'vuejs'; break;
             }
         } catch(e) {
             if(this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
@@ -599,37 +630,44 @@ app.component('dots', {
  *                  Composante Clip                   *
  ******************************************************/
 app.component('clip', {
-    props: ['src'],
+    props: ['src', 'title'],
     data() {
         var url = new URL(this.src, document.baseURI);
         let name = url.pathname.split('.').shift();
         let id = name.split('/').pop();
         let details = syncjson(name + '.json');
         let track = undefined;
+        let title = this.title ?? '';
         details.media.track.forEach(elm => { if(elm['@type'] == 'Video') { track = elm; }});
         if(track == undefined) return {};
-        else return {
-            id: id,
-            name: name,
-            width: track.Width,
-            height: track.Height
+        else {
+            let denominator = hcd(track.Width, track.Height);
+            let aspect = (track.Width / denominator) + '/' + (track.Height / denominator);
+            return {
+                id: id,
+                name: name,
+                title: title,
+                width: track.Width,
+                height: track.Height,
+                aspect: aspect,
+                thumbnail_url: name + '.jpg',
+                playbtn: 'block',
+                player: ''
+            }
+        }
+    },
+    methods: {
+        play(){
+            this.player = '<video id="' + this.id + '" width="100%" height="100%" autoplay="true" poster="' + this.thumbnail_url + '" data-setup=\'{"fluid": true}\' controls preload="auto"><source src="' + this.src + '" type="video/mp4" /></video>';
+            this.playbtn = 'none';
         }
     },
     template: `
-        <div class="video-container">
-            <video
-                :id="this.id"
-                :width="this.width"
-                :height="this.height"
-                :poster="this.name + '.jpg'"
-                data-setup='{"fluid": true}'
-                class="video-js"
-                controls
-                preload="auto"
-            >
-                <source :src="this.src" type="video/mp4" />
-            </video>
-        </div>`
+        <div class="oembed-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.aspect + ';'">
+            <div class="oembed-wrapper__title" :style="'display: ' + this.playbtn + ';'"><div>{{ title }}</div></div>
+            <div class="oembed-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
+            <div class="oembed-wrapper__player" v-html="player"></div>
+        </div><br>`
 });
 
 
@@ -661,8 +699,8 @@ app.component('clip', {
         let defaultId = 'o-YBDTqX_ZU';
         if(/^[\w\-_]{10,12}$/.test(this.src)) {
             if(!(details = localStorage.getItem('youtube_' + this.src))) {
-                if(!(details = syncjson('https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=' + this.src + '&format=json'))){
-                    details = syncjson('https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=' + defaultId + '&format=json')
+                if(!(details = this.getInfo(this.src))){
+                    details = this.getInfo(defaultId);
                 } else {
                     localStorage.setItem('youtube_' + this.src, JSON.stringify(details));
                 }
@@ -685,25 +723,76 @@ app.component('clip', {
         }
     },
     methods: {
+        getInfo(id) {
+            return syncjson('https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=' + id + '&format=json')
+        },
         play(){
             this.player = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + this.id + '?feature=oembed&autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
             this.playbtn = 'none';
         }
     },
     template: `
-        <div class="youtube-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.aspect + ';'">
-            <div class="youtube-wrapper__title" :style="'display: ' + this.playbtn + ';'"><div>{{ title }}</div></div>
-            <div class="youtube-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
-            <div class="youtube-wrapper__player" v-html="player"></div>
+        <div class="oembed-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.aspect + ';'">
+            <div class="oembed-wrapper__title" :style="'display: ' + this.playbtn + ';'"><div>{{ title }}</div></div>
+            <div class="oembed-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
+            <div class="oembed-wrapper__player" v-html="player"></div>
         </div><br>`
 });
 
 
 
 /******************************************************
+ *                  Composante Vimeo                  *
+ ******************************************************/
+ app.component('vimeo', {
+    props: ['src'],
+    data() {
+        let details = null;
+        let defaultId = '844557780';
+        if(!(details = localStorage.getItem('vimeo_' + this.src))) {
+            if(!(details = this.getInfo(this.src))){
+                details = this.getInfo(defaultId);
+            } else {
+                localStorage.setItem('vimeo_' + this.src, JSON.stringify(details));
+            }
+        } else {
+            details = JSON.parse(details);
+        }
+        let denominator = hcd(details.width, details.height);
+        return {
+            id: this.src,
+            title: details.title,
+            width: details.width,
+            height: details.height,
+            aspect: (details.width / denominator) + '/' + (details.height / denominator),
+            thumbnail_url: details.thumbnail_url,
+            playbtn: 'block',
+            player: ''
+        }
+    },
+    methods: {
+        getInfo(id) {
+            return syncjson('https://vimeo.com/api/oembed.json?url=https://vimeo.com/' + id);
+        },
+        play(){
+            this.player = '<iframe src="https://player.vimeo.com/video/' + this.id + '?autoplay=1" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe>'
+            this.playbtn = 'none';
+        }
+    },
+    template: `
+        <div class="oembed-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.aspect + ';'">
+            <div class="oembed-wrapper__title" :style="'display: ' + this.playbtn + ';'"><div>{{ title }}</div></div>
+            <div class="oembed-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
+            <div class="oembed-wrapper__player" v-html="player"></div>
+        </div><br>`
+});
+
+
+/******************************************************
  *                Composante Highlight                *
  ******************************************************/
- app.component('highlight', {
+//https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md 
+app.component('highlight', {
     props: ['lang'],
     template: `<pre class="highlight"><code :class="'language-' + this.lang"><slot /></code></pre>`
 });
@@ -1013,11 +1102,23 @@ app.component('clip', {
             document.getElementById('wiki-page__' + id).classList.add('active');
             localStorage.setItem('wiki-' + this.hash + '-active', id);
             this.active = id;
+            this.$refs.burger.classList.remove('show');
+            this.$refs.list.classList.remove('show');
+        },
+        toggleBurger() {
+            if(this.$refs.burger.classList.contains('show')) {
+                this.$refs.burger.classList.remove('show');
+                this.$refs.list.classList.remove('show');
+            } else {
+                this.$refs.burger.classList.add('show');
+                this.$refs.list.classList.add('show');
+            }
         }
     },
     template: `
         <div id="wiki">
-            <div id="wiki__list">
+            <div id="wiki__burger" ref="burger" @click="toggleBurger()"></div>
+            <div id="wiki__list" ref="list">
                 <ul>
                     <li v-for="el in this.pages"><a :id="'wiki-list__' + el.id" @click="setActivePage(el.id)" href="#">{{ el.name }}</a><span>&nbsp;&#x1f4da;</span></li>
                 </ul>
@@ -1152,5 +1253,28 @@ app.component('criteria', {
         </tr>`
 });
 
+
+/******************************************************
+ *                  Composante Timg                   *
+ ******************************************************/
+ app.component('timg', {
+    props: ['src', 'class', 'alt'],
+    data() {
+        let source = this.src.replace(/\$t/g, this.$root.theme);
+        this.$root.addToTimages(this);
+        return { source: source }
+    },
+    methods: {
+        lightSwitchOff() {
+            this.source = this.src.replace(/\$t/g, this.$root.theme);
+        },
+        lightSwitchOn() {
+            this.source = this.src.replace(/\$t/g, this.$root.theme);
+        }
+    },
+    template: `<img :src="this.source" :alt="this.alt" :class="this.class">`
+});
+
 const urlParams = new URLSearchParams(window.location.search);
 if(urlParams.get('dark') !== null) localStorage.setItem('darkmode', 'true');
+if(urlParams.get('light') !== null) localStorage.setItem('darkmode', 'false');

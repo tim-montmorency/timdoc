@@ -3,8 +3,9 @@
 /**
  * @type     article
  * @title    Couleurs et personnalisation
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Personnalisation des couleurs de base de Bootstrap
+ * @ref      web/quadriciels/bootstrap
  */
 ?>
 
@@ -57,7 +58,7 @@
   background-color: #66d7d1 !important;
 }</highlight>
 
-<p>...mais l'utilisation du <code>!important</code> un peu partout n'est vraiment pas optimal et vous devez réécrire les styles pour chaque élément qui utilise la couleur primary ou secondary, c'est super fastidieux comme technique.</p>
+<p>...mais l'utilisation du <incode>!important</incode> un peu partout n'est vraiment pas optimal et vous devez réécrire les styles pour chaque élément qui utilise la couleur primary ou secondary, c'est super fastidieux comme technique.</p>
 
 <h3>Utilisation de <em>SASS (Syntactically Awesome Style Sheets)</em> à des fin de personnalisation de Bootstrap</h3>
 

@@ -4,7 +4,8 @@
  * @title    Imbrication
  * @icon     images/icon.png
  * @abstract Accélérer l'écriture de feuilles de styles
- * @index 45
+ * @index    45
+ * @ref      web/sass
  */
 ?>
 
@@ -19,7 +20,7 @@
 <grostitre>Imbrications de base</grostitre>
 
 
-<p>Afin d'éviter de répéter le sélecteur <code>.list</code> à plusieurs reprises, il est possible d'écrire en SCSS:</p>
+<p>Afin d'éviter de répéter le sélecteur <incode>.list</incode> à plusieurs reprises, il est possible d'écrire en SCSS:</p>
 
 <highlight lang='css'>.list {
   position: relative;
@@ -150,7 +151,7 @@ nav ul li ul li {
 <grostitre>Sélecteur de parent</grostitre>
 
 
-<p>Le sélecteur de parent <code>&amp;</code> est un sélecteur spécial inventé par Sass permettant de faire référence au sélecteur parent courant.</p>
+<p>Le sélecteur de parent <incode>&amp;</incode> est un sélecteur spécial inventé par Sass permettant de faire référence au sélecteur parent courant.</p>
 
 <p>Tout sélecteur imbriqué dans un autre se fait convertir par défaut en enfant du premier. </p>
 
@@ -164,13 +165,13 @@ nav ul li ul li {
 
 <highlight lang='scss'> .selecteur1 .selecteur2 { ... } </highlight>
 
-<p>Remarquez <strong>l'espace entre les deux sélecteurs</strong> indiquant que <code>.selecteur2</code> est enfant de <code>.sélecteur1</code>.</p>
+<p>Remarquez <strong>l'espace entre les deux sélecteurs</strong> indiquant que <incode>.selecteur2</incode> est enfant de <incode>.sélecteur1</incode>.</p>
 
 <dots></dots>
 
 <p>Cependant grâce au sélecteur parent il est possible de contourner ce comportement.</p>
 
-<p>Si on ajoute un <code>&amp;</code> devant le .selecteur2</p>
+<p>Si on ajoute un <incode>&amp;</incode> devant le .selecteur2</p>
 
 <highlight lang='scss'>.selecteur1 {
   &amp;.selecteur2 { ... }
@@ -220,9 +221,9 @@ nav ul li ul li {
 
 
 
-<p>Remarquez l'utilisation du sélecteur parent <code>&amp;</code>. Celui-ci permet de faire une référence au sélecteur
-    courant, en l'occurence <code>.btn</code><em> </em>et de lui rabouter directement, <strong>sans espace</strong>, la
-    pseudo-classe <code>:hover</code>.</p>
+<p>Remarquez l'utilisation du sélecteur parent <incode>&amp;</incode>. Celui-ci permet de faire une référence au sélecteur
+    courant, en l'occurence <incode>.btn</incode><em> </em>et de lui rabouter directement, <strong>sans espace</strong>, la
+    pseudo-classe <incode>:hover</incode>.</p>
 
 
 

@@ -223,7 +223,7 @@ final class PXPros
  */
 function replace_tags($tag, $contents, $clb)
 {
-    $contents = preg_replace_callback('#<' . preg_quote($tag, '#') . '(.*?)>(.*?)</' . preg_quote($tag, '#') . '>#i', function ($m) use ($clb) {
+    $contents = preg_replace_callback('#<' . preg_quote($tag, '#') . '(.*?)>(.*?)</' . preg_quote($tag, '#') . '>#msi', function ($m) use ($clb) {
         return call_user_func($clb, $m[0], parse_html_attributes($m[1]), $m[2]);
     }, $contents);
     return $contents;
@@ -248,6 +248,19 @@ function parse_html_attributes($attributes)
 
 
 /**
+ * register_tag
+ *
+ * @param  mixed $tag
+ * @param  mixed $clb
+ * @return void
+ */
+function register_tag($tag, $clb) {
+    global $PAGE;
+    return $PAGE->registerTag($tag, $clb);
+}
+
+
+/**
  * Parse the first DOCKBLOCK of a file and return attributes as an object
  *
  * @param  mixed $file PHP File to be parse
@@ -255,20 +268,25 @@ function parse_html_attributes($attributes)
  */
 function php_file_info($file)
 {
-    if (!$file = realpath($file)) return false;
-    $tokens = token_get_all(file_get_contents($file));
-    foreach ($tokens as $tok) {
-        if (!is_array($tok)) continue;
-        if ($tok[0] == T_DOC_COMMENT) {
-            $block = $tok[1];
-            break;
-        }
-    }
-    if (empty($block)) return new stdClass;
-    if (!preg_match_all('#@([a-z0-9]+)[\s\t]+([^\n]+)#msi', $block, $m)) return new stdClass;
-    foreach ($m[1] as $k => $v)
-        $info[trim($v)] = trim($m[2][$k]);
-    return (object)$info;
+	static $files = [];
+    if(!$file = realpath($file)) return false;
+	if(!isset($files[$file])){
+		$tokens = token_get_all(file_get_contents($file));
+		foreach($tokens as $tok) {
+			if(!is_array($tok)) continue;
+			if($tok[0] == T_DOC_COMMENT) {
+				$block = $tok[1];
+				break;
+			}
+		}
+		if(empty($block)) return new stdClass;
+		if(!preg_match_all('#@([a-z0-9]+)[\s\t]+([^\n]+)#msi', $block, $m)) $files[$file] = new stdClass;
+		else {
+			foreach($m[1] as $k => $v) $info[trim($v)] = trim($m[2][$k]);
+			$files[$file] = (object)$info;
+		}
+	}
+	return $files[$file];
 }
 
 

@@ -3,7 +3,7 @@
  * @index    8
  * @type     article
  * @title    Installation
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract Installation GIT, VS Code, PXPros
  */
 ?>

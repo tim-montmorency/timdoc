@@ -72,8 +72,8 @@ Classez toutes les images dans les dossier img du projet.
  <h3>Requis CSS</h3>
  <checklist>Redimensionnez chaque élément graphique.
 Assurez-vous que la tailles de vos images soit responsive.
-Ajoutez la propriété CSS <code>position: relative</code> à chaque section (chapitre) afin que tous les éléments qu’elle contient soient positionnés RELATIVEMENT à celle-ci et non pas à la page entière.
-Positionnez chaque élément graphique dans son chapitre via <code>position:absolute</code> puis utilisez soit : <code>top bottom left</code> ou <code>right</code>. 
+Ajoutez la propriété CSS <incode>position: relative</incode> à chaque section (chapitre) afin que tous les éléments qu’elle contient soient positionnés RELATIVEMENT à celle-ci et non pas à la page entière.
+Positionnez chaque élément graphique dans son chapitre via <incode>position:absolute</incode> puis utilisez soit : <incode>top bottom left</incode> ou <incode>right</incode>. 
  </checklist>
 
  <h3 style="margin-top: 0;">Spécifications plus précises des "Instructions 2 pour les requis CSS des images":</h3>
@@ -93,13 +93,13 @@ Positionnez chaque élément graphique dans son chapitre via <code>position:abso
         </ul>
     </li>
     <li>
-        <h4>3- Ajoutez la propriété CSS <code>position: relative</code> à chaque section (chapitre) afin que tous les éléments qu’elle contient soient positionnés RELATIVEMENT à celle-ci et non pas à la page entière.</h4>
+        <h4>3- Ajoutez la propriété CSS <incode>position: relative</incode> à chaque section (chapitre) afin que tous les éléments qu’elle contient soient positionnés RELATIVEMENT à celle-ci et non pas à la page entière.</h4>
         <p>“Il est possible de définir le positionnement absolu d'un élément enfant par rapport au conteneur parent. Pour cela, il faut spécifier la propriété position avec sa valeur "relative" sur l'élément parent. Si nous ne spécifions pas la position de l'élément parent, l'élément <div> enfant sera positionné par rapport à la page.”</p>
         <p>Source: <a href="https://www.w3docs.com/snippets/css/how-to-set-absolute-positioning-relative-to-the-parent-element.html" target="_blank" rel="noopener noreferrer">Positionner un élément en absolu par rapport à un parent spécifique.</a> </p>
     </li>
     <li>
-        <h4>4- Positionnez chaque élément graphique dans son chapitre via <code>position:absolute</code> puis utilisez soit : <code>top bottom left</code> ou <code>right</code></h4>
-        <p>Travaillez avec les unités viewport width (<code>vw</code>) pour positionner sur l’axe des x et viewport height (<code>vh</code>) et pour positionner sur l’axe des y, afin que tout soit “responsive”.  Comme rien n’est encore animé, préférez positionner vos éléments à leur position finale (après animation), ainsi avec plus tard, GSAP vous pourrez travailler avec la méthode <code>from()</code>. </p>
+        <h4>4- Positionnez chaque élément graphique dans son chapitre via <incode>position:absolute</incode> puis utilisez soit : <incode>top bottom left</incode> ou <incode>right</incode></h4>
+        <p>Travaillez avec les unités viewport width (<incode>vw</incode>) pour positionner sur l’axe des x et viewport height (<incode>vh</incode>) et pour positionner sur l’axe des y, afin que tout soit “responsive”.  Comme rien n’est encore animé, préférez positionner vos éléments à leur position finale (après animation), ainsi avec plus tard, GSAP vous pourrez travailler avec la méthode <incode>from()</incode>. </p>
     </li>
 </ul>
 

@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,7 +39,10 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Projet Web</a> > <a href="../">CSS</a> ></div>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/css/">CSS</a>&nbsp;>&nbsp;</div>
+                </div>
                 <h1 id="title"><img src="images/centrer-div.png">&nbsp;Centrer un div</h1>
             </div>
             <article>
@@ -57,23 +59,23 @@
 <p>Voici un exemple de centrage vertical d'un div à l'aide de flexbox :</p>
 
 
-<highlight lang='html'>&lt;div class=&quot;parent&quot;&gt;
+<highlight lang="html">&lt;div class=&quot;parent&quot;&gt;
   &lt;div class=&quot;centered-div&quot;&gt;
-    Cet élément est centré.
+    Cet &eacute;l&eacute;ment est centr&eacute;.
   &lt;/div&gt;
 &lt;/div&gt;</highlight>
 
-<highlight lang='css'>.parent {
+<highlight lang="css">.parent {
   display : flex ;
   align-items : center ;
   justify-content : center ;
 }
 
 .centered-div {
-  /* Styles supplémentaires pour le div centré */
+  /* Styles suppl&eacute;mentaires pour le div centr&eacute; */
 }</highlight>
 
-<p>Dans l'exemple ci-dessus, la propriété <code>display</code> du conteneur <em>.parent</em> est définie sur flex, ce qui le transforme en conteneur flex. La propriété <code>align-items</code> est définie sur <code>center</code>, ce qui aligne verticalement les éléments enfants. La propriété <code>justify-content</code> est également définie sur <code>center</code>, ce qui aligne horizontalement les éléments enfants.</p>
+<p>Dans l'exemple ci-dessus, la propriété <span class="inline-code">display</span> du conteneur <em>.parent</em> est définie sur flex, ce qui le transforme en conteneur flex. La propriété <span class="inline-code">align-items</span> est définie sur <span class="inline-code">center</span>, ce qui aligne verticalement les éléments enfants. La propriété <span class="inline-code">justify-content</span> est également définie sur <span class="inline-code">center</span>, ce qui aligne horizontalement les éléments enfants.</p>
 
 <p>Notez que cette technique peut être utilisée pour centrer n'importe quel type d'élément à l'intérieur d'un autre. Vous pouvez essayer de modifier les valeurs des propriétés d'alignement pour obtenir différents alignements.</p>
 
@@ -81,30 +83,30 @@
 <grostitre>Grid</grostitre>
 
 
-<p>Si vous préférez utiliser la mise en page en grille (<code>grid</code> ), vous pouvez également centrer un div en utilisant les propriétés <code>align-self</code> et <code>justify-self</code> à l'intérieur d'une zone de grille. Voici un exemple&nbsp;:</p>
+<p>Si vous préférez utiliser la mise en page en grille (<span class="inline-code">grid</span> ), vous pouvez également centrer un div en utilisant les propriétés <span class="inline-code">align-self</span> et <span class="inline-code">justify-self</span> à l'intérieur d'une zone de grille. Voici un exemple&nbsp;:</p>
 
 
 
 
-<highlight lang='html'>&lt;div class=&quot;parent&quot;&gt;
+<highlight lang="html">&lt;div class=&quot;parent&quot;&gt;
   &lt;div class=&quot;item1&quot;&gt;
     Article 1
   &lt;/div&gt;
 &lt;/div&gt;</highlight>
 
 
-<highlight lang='css'>.parent {
+<highlight lang="css">.parent {
   display : grid ;
 }
 
 .item1 {
   align-self : center ;
   justify-self : center ;
-  /* Styles supplémentaires pour le div centré */
+  /* Styles suppl&eacute;mentaires pour le div centr&eacute; */
 }</highlight>
 
 
-<p>Dans cet exemple, le div enveloppant <em>.parent</em> est un conteneur de grille. Le div <code>.item1</code> est placé dans la seule cellule de la grille et est centré verticalement et horizontalement à l'aide des propriétés <code>align-self</code> et <code>justify-self</code>.</p>
+<p>Dans cet exemple, le div enveloppant <em>.parent</em> est un conteneur de grille. Le div <span class="inline-code">.item1</span> est placé dans la seule cellule de la grille et est centré verticalement et horizontalement à l'aide des propriétés <span class="inline-code">align-self</span> et <span class="inline-code">justify-self</span>.</p>
 
 <dots></dots>
 <grostitre>Plus d'infos et autres techniques</grostitre>
@@ -134,6 +136,5 @@
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

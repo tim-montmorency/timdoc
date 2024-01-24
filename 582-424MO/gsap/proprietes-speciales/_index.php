@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    3-Propriétés spéciales
- * @icon     images/icon.svg
+ * @icon     ../images/icon.webp
  * @abstract duration, repeat, yoyo, delay, stagger, ease, callbacks
  * @index    998
+ * @ref      web/quadriciels/gsap
  */
 ?>
 
@@ -18,7 +19,7 @@
 <grostitre>Duration</grostitre>
 
 <p>Tout comme la propriété&nbsp;<a target="_blank" rel="noopener noreferrer"
-        href="../../../582-215MO/css/animation/#animation-duration">animation-duration</a>&nbsp;en CSS, la propriété&nbsp;<code>duration</code>&nbsp;de
+        href="../../../582-215MO/css/animation/#animation-duration">animation-duration</a>&nbsp;en CSS, la propriété&nbsp;<incode>duration</incode>&nbsp;de
     GSAP permet de spécifier la durée d'une&nbsp;animation.</p>
 
 
@@ -40,7 +41,7 @@
 
 <p>Tout comme la propriété&nbsp;<a target="_blank" rel="noopener noreferrer"
         href="../../../582-215MO/css/animation/#animation-iteration-count">animation-iteration-count</a>&nbsp;en CSS, la
-    propriété&nbsp;<code>repeat</code>&nbsp;de GSAP permet de spécifier le nombre de fois qu'une animation
+    propriété&nbsp;<incode>repeat</incode>&nbsp;de GSAP permet de spécifier le nombre de fois qu'une animation
     doit-être&nbsp;effectué.</p>
 
 <p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="LYJyxYY" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -49,8 +50,8 @@
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-<warning>Plutôt que d’utiliser le mot <code>infinite</code> pour indiquer qu’une animation doit jouer à l’infinie,
-            GSAP s’attend à recevoir <code>-1</code>, comme pour le dernier carré du précédent&nbsp;exemple.</warning>
+<warning>Plutôt que d’utiliser le mot <incode>infinite</incode> pour indiquer qu’une animation doit jouer à l’infinie,
+            GSAP s’attend à recevoir <incode>-1</incode>, comme pour le dernier carré du précédent&nbsp;exemple.</warning>
 
 
 
@@ -60,7 +61,7 @@
 
 
 
-<p>De façon similaire à&nbsp;<a href="../../../582-215MO/css/animation/#animation-direction" target="_blank">animation-direction: alternate;</a> en CSS, la propriété&nbsp;<code>Yoyo</code> de GSAP permet d'indiquer à une animation d'alterner de direction à chaque&nbsp;répétition.</p>
+<p>De façon similaire à&nbsp;<a href="../../../582-215MO/css/animation/#animation-direction" target="_blank">animation-direction: alternate;</a> en CSS, la propriété&nbsp;<incode>Yoyo</incode> de GSAP permet d'indiquer à une animation d'alterner de direction à chaque&nbsp;répétition.</p>
 
 <p class="codepen" data-height="300" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="ExemMPJ" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/ExemMPJ">
@@ -75,7 +76,7 @@
 <grostitre>Delay</grostitre>
 
 <p>Tout comme la propriété&nbsp;<a target="_blank" rel="noopener noreferrer"
-        href="../../../582-215MO/css/animation/#animation-delay">animation-delay</a>&nbsp;en CSS, la propriété&nbsp;<code>delay</code>&nbsp;de GSAP
+        href="../../../582-215MO/css/animation/#animation-delay">animation-delay</a>&nbsp;en CSS, la propriété&nbsp;<incode>delay</incode>&nbsp;de GSAP
     permet de spécifier un délai d'attente avant de démarrer une&nbsp;animation.</p>
 
 <p class="codepen" data-height="300" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="MWqmPxV" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -106,7 +107,7 @@
 
 
 
-<p>Il est aussi possible de passer un objet à&nbsp;<code>stagger</code>&nbsp;plutôt qu'un nombre. Dans cet objet, il est
+<p>Il est aussi possible de passer un objet à&nbsp;<incode>stagger</incode>&nbsp;plutôt qu'un nombre. Dans cet objet, il est
     possible de spécifier le décalage entre chaque&nbsp;élément.</p>
 <p>Par&nbsp;exemple:</p>
 <highlight lang='javascript'>gsap.from('.element', { 
@@ -117,23 +118,23 @@
 });</highlight>
 
 <p>Générerait exactement le même résultat que dans l'exemple précédent. Cependant, il est possible de passer des
-    propriétés et valeurs supplémentaires afin de raffiner l'animation. Notamment,&nbsp;<code>from</code>, soit le point
+    propriétés et valeurs supplémentaires afin de raffiner l'animation. Notamment,&nbsp;<incode>from</incode>, soit le point
     de départ de&nbsp;l'animation.</p>
 <ul>
     <li>
-        <code>"start"</code>&nbsp;part du début vers la fin&nbsp;<em>(par&nbsp;défaut)</em>
+        <incode>"start"</incode>&nbsp;part du début vers la fin&nbsp;<em>(par&nbsp;défaut)</em>
     </li>
     <li>
-    <code>"end"</code>&nbsp;part de la fin vers le&nbsp;début
+    <incode>"end"</incode>&nbsp;part de la fin vers le&nbsp;début
     </li>
     <li>
-    <code>"center"</code>&nbsp;du centre vers les&nbsp;extrémités
+    <incode>"center"</incode>&nbsp;du centre vers les&nbsp;extrémités
     </li>
     <li>
-        <code>"edges"</code>&nbsp;des extrémités vers le&nbsp;centre
+        <incode>"edges"</incode>&nbsp;des extrémités vers le&nbsp;centre
     </li>
     <li>
-        <code>"random"</code>&nbsp;de façon aléatoire
+        <incode>"random"</incode>&nbsp;de façon aléatoire
     </li>
 </ul>
 <br>
@@ -165,14 +166,14 @@
 
 <br>
 <p><strong>Valeurs possibles:&nbsp; </strong></p>
-<p><code>none</code>,&nbsp;<code>power1</code>, <code>power2</code>, <code>power3</code>,&nbsp;<code>power4</code>,
-    <code>back</code>, <code>elastic</code>, <code>bounce</code>, <code>rough</code>, <code>slow</code>,
-    <code>steps</code>, <code>circ</code>, <code>expo</code>, <code>sine</code>
+<p><incode>none</incode>,&nbsp;<incode>power1</incode>, <incode>power2</incode>, <incode>power3</incode>,&nbsp;<incode>power4</incode>,
+    <incode>back</incode>, <incode>elastic</incode>, <incode>bounce</incode>, <incode>rough</incode>, <incode>slow</incode>,
+    <incode>steps</incode>, <incode>circ</incode>, <incode>expo</incode>, <incode>sine</incode>
 </p>
-<p>Il est possible de spécifier si un&nbsp;<code>ease</code>&nbsp;doit être effectué au début, à la fin ou au début et à
-    la fin en ajoutant&nbsp;<code>.in</code>,&nbsp;<code>.out</code>&nbsp;ou&nbsp;<code>.inOut</code>&nbsp;après le nom
-    du ease souhaité. Par exemple:&nbsp;<code>bounce.inOut</code>;</p>
-<p>Si aucune spécification n'est donnée,&nbsp;<code>.out</code>&nbsp;sera&nbsp;utilisé.</p>
+<p>Il est possible de spécifier si un&nbsp;<incode>ease</incode>&nbsp;doit être effectué au début, à la fin ou au début et à
+    la fin en ajoutant&nbsp;<incode>.in</incode>,&nbsp;<incode>.out</incode>&nbsp;ou&nbsp;<incode>.inOut</incode>&nbsp;après le nom
+    du ease souhaité. Par exemple:&nbsp;<incode>bounce.inOut</incode>;</p>
+<p>Si aucune spécification n'est donnée,&nbsp;<incode>.out</incode>&nbsp;sera&nbsp;utilisé.</p>
 
 
 <tool href='../tools/ease-visualizer/'></tool>
@@ -180,10 +181,10 @@
 <dots></dots>
 <grostitre>Callbacks</grostitre>
 
-<p>Les&nbsp;<code>Callbacks</code>&nbsp;permettent de déclencher une fonction JavaScript à différents moments clés
+<p>Les&nbsp;<incode>Callbacks</incode>&nbsp;permettent de déclencher une fonction JavaScript à différents moments clés
     d'une&nbsp;animation.</p>
-<p>Par exemple, pour se synchroniser avec son début 🏁, il est possible d'utiliser&nbsp;<code>onStart</code>&nbsp;ou
-    encore, avec sa fin 🔚 avec&nbsp;<code>onComplete</code>, comme dans l'exemple&nbsp;ci-dessous.</p>
+<p>Par exemple, pour se synchroniser avec son début 🏁, il est possible d'utiliser&nbsp;<incode>onStart</incode>&nbsp;ou
+    encore, avec sa fin 🔚 avec&nbsp;<incode>onComplete</incode>, comme dans l'exemple&nbsp;ci-dessous.</p>
 
 
 

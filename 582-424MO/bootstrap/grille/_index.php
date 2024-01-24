@@ -3,8 +3,10 @@
 /**
  * @type     article
  * @title    Grille
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Système de grille Bootstrap pour un mise en page facile et réactive
+ * @index    930
+ * @ref      web/quadriciels/bootstrap
  */
 ?>
 
@@ -52,7 +54,7 @@
 
 <h3 id="container">container</h3>
 
-<p>Pour définir un conteneur Bootstrap, il suffit d'ajouter la classe&nbsp;<code>.container</code>&nbsp;à une balise comme&nbsp;suit:</p>
+<p>Pour définir un conteneur Bootstrap, il suffit d'ajouter la classe&nbsp;<incode>.container</incode>&nbsp;à une balise comme&nbsp;suit:</p>
 
 <highlight lang="html">&lt;div class=&quot;container&quot;&gt;...&lt;/div&gt;</highlight>
 
@@ -152,7 +154,7 @@
 <highlight lang="html">&lt;div class=&quot;container-fluid&quot;&gt;...&lt;/div&gt;</highlight>
 
 
-<p>Afin d'illustrer la différence entre&nbsp;<code>.container</code>&nbsp;et&nbsp;<code>.container-fluid</code>, voici un&nbsp;<a href="https://codepen.io/smnarnold/full/d375c1afaf3bbfb34953a5b85818b552">exemple minimaliste</a>&nbsp;<em>(redimensionner la fenêtre afin de voir la différence de comportement entre les&nbsp;deux)</em>.</p>
+<p>Afin d'illustrer la différence entre&nbsp;<incode>.container</incode>&nbsp;et&nbsp;<incode>.container-fluid</incode>, voici un&nbsp;<a href="https://codepen.io/smnarnold/full/d375c1afaf3bbfb34953a5b85818b552">exemple minimaliste</a>&nbsp;<em>(redimensionner la fenêtre afin de voir la différence de comportement entre les&nbsp;deux)</em>.</p>
 
 <doclink href="https://getbootstrap.com/docs/5.0/layout/containers/">Containers</doclink>
 
@@ -162,7 +164,7 @@
 <grostitre>Rangées</grostitre>
 
 <p>Les rangées, ou en anglais&nbsp;<em>rows</em>, servent à gérer le positionnement des colonnes se trouvant à l'intérieur de&nbsp;celles-ci.</p>
-<p>Pour définir une nouvelle rangée, il suffit d'ajouter la classe&nbsp;<code>.row</code>&nbsp;à une balise&nbsp;quelconque.</p>
+<p>Pour définir une nouvelle rangée, il suffit d'ajouter la classe&nbsp;<incode>.row</incode>&nbsp;à une balise&nbsp;quelconque.</p>
 <p>Par exemple:</p>
 
 <highlight lang="html">&lt;div class=&quot;container&quot;&gt;
@@ -177,25 +179,25 @@
 <p>Le fonctionnement des rangées est basé sur&nbsp;<a href="http://smnarnold.com/cours/css/flexbox">flexbox</a>. Ainsi, plusieurs noms de classes utilitaires permettant de gérer l'alignement des colonnes ressemblent aux noms de différentes sous-propriétés de&nbsp;flexbox.</p>
 <ul>
     <li>
-        <p><code>justify-content-start</code>&nbsp;aligne les colonnes à&nbsp;gauche.</p>
+        <p><incode>justify-content-start</incode>&nbsp;aligne les colonnes à&nbsp;gauche.</p>
     </li>
     <li>
-        <p><code>justify-content-center</code>&nbsp;aligne les colonnes au&nbsp;centre.</p>
+        <p><incode>justify-content-center</incode>&nbsp;aligne les colonnes au&nbsp;centre.</p>
     </li>
     <li>
-        <p><code>justify-content-end</code>&nbsp;aligne les colonnes à&nbsp;droite.</p>
+        <p><incode>justify-content-end</incode>&nbsp;aligne les colonnes à&nbsp;droite.</p>
     </li>
     <li>
-        <p><code>justify-content-between</code>&nbsp;distribue l'espace également entre les colonnes, mais ignore les&nbsp;extrémités.</p>
+        <p><incode>justify-content-between</incode>&nbsp;distribue l'espace également entre les colonnes, mais ignore les&nbsp;extrémités.</p>
     </li>
     <li>
-        <p><code>justify-content-around</code>&nbsp;distribue l'espace entre les colonnes et les&nbsp;extrémités.</p>
+        <p><incode>justify-content-around</incode>&nbsp;distribue l'espace entre les colonnes et les&nbsp;extrémités.</p>
     </li>
     <li>
-        <p><code>justify-content-evenly</code>&nbsp;distribue l'espace entre les colonnes et les extrémités, mais s'assure que chaque espace soit d'une largeur&nbsp;équivalente.</p>
+        <p><incode>justify-content-evenly</incode>&nbsp;distribue l'espace entre les colonnes et les extrémités, mais s'assure que chaque espace soit d'une largeur&nbsp;équivalente.</p>
     </li>
 </ul>
-<p>Par exemple, pour centrer le contenu d'une rangée, il suffit d'ajouter la classe&nbsp;<code>justify-content-center</code>:</p>
+<p>Par exemple, pour centrer le contenu d'une rangée, il suffit d'ajouter la classe&nbsp;<incode>justify-content-center</incode>:</p>
 <p class="codepen" data-height="300" data-theme-id="43847" data-default-tab="html,result" data-slug-hash="BaPVNEB" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/BaPVNEB">
   Bootstrap - centered</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
@@ -214,7 +216,7 @@
         <p><strong>Seules des colonnes Bootstrap devraient-être enfant direct d'une rangée</strong> afin d'assurer le fonctionnement optimal d'une&nbsp;rangée.</p>
     </li>
 </ul>
-<warning>Malgré ce que son nom pourrait laisser croire, il est possible d’avoir des colonnes sur plusieurs rangées à l’intérieur d’un élément avec la classe <code>.row</code> sans problème.</warning>
+<warning>Malgré ce que son nom pourrait laisser croire, il est possible d’avoir des colonnes sur plusieurs rangées à l’intérieur d’un élément avec la classe <incode>.row</incode> sans problème.</warning>
 <dots></dots>
 
 
@@ -222,7 +224,7 @@
 
 <p>Les colonnes ou en anglais&nbsp;<em>columns</em>&nbsp;sont les composantes les plus importantes de la grille&nbsp;Bootstrap! Elles permettent de définir la dimension allouée aux différents éléments sur la&nbsp;page.</p>
 
-<p>Pour définir une colonne de base, il suffit d'ajouter la classe&nbsp;<code>.col</code>&nbsp;à une balise, comme&nbsp;suit:</p>
+<p>Pour définir une colonne de base, il suffit d'ajouter la classe&nbsp;<incode>.col</incode>&nbsp;à une balise, comme&nbsp;suit:</p>
 
 <highlight lang="html">
 &lt;div class=&quot;container&quot;&gt; 
@@ -232,7 +234,7 @@
 &lt;/div&gt;
 </highlight>
 
-<p>Par défaut, si une seule&nbsp;<code>.col</code>&nbsp;est définie, elle prendra toute la largeur disponible dans sa rangée. Cependant, si d'autres&nbsp;<code>.col</code>sont ajoutées, celles-ci se distribueront l'espace également.</p>
+<p>Par défaut, si une seule&nbsp;<incode>.col</incode>&nbsp;est définie, elle prendra toute la largeur disponible dans sa rangée. Cependant, si d'autres&nbsp;<incode>.col</incode>sont ajoutées, celles-ci se distribueront l'espace également.</p>
 
 <p>Par exemple, avec 2&nbsp;colonnes:</p>
 
@@ -272,7 +274,7 @@
 <br>
 <h3 id="Breakpoints">Breakpoints</h3>
 <p>La grande force des colonnes Bootstrap est leur aspect responsive. Jusqu'à présent, les colonnes définies gardaient toujours le même ratio, peu importe la dimension de l'écran de l'usager. Cependant, il est possible de définir un ratio à partir d'un&nbsp;<a target="_blank" rel="noopener noreferrer" href="/cours/bootstrap/breakpoints">breakpoints</a>&nbsp;spécifique, en insérant l'abréviation du breakpoint en question avant le nombre de colonnes&nbsp;désirées. Ainsi, la colonne tentera de prendre l'ensemble de la largeur disponible si la dimension de l'écran est inférieure au breakpoint défini et respectera la largeur définie si le breakpoint est&nbsp;atteint.</p>
-<p>Par exemple, des colonnes prenant toute la largeur sur mobile pourraient n'avoir qu'une demi-largeur à partir d'une taille d'écran égale ou supérieur à&nbsp;<code>md</code>.</p>
+<p>Par exemple, des colonnes prenant toute la largeur sur mobile pourraient n'avoir qu'une demi-largeur à partir d'une taille d'écran égale ou supérieur à&nbsp;<incode>md</incode>.</p>
 <p class="codepen" data-height="300" data-theme-id="43847" data-default-tab="html,result" data-slug-hash="dyjKoxg" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/dyjKoxg">
   Bootstrap - col responsive</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)

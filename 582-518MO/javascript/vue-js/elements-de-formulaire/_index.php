@@ -8,22 +8,22 @@
  */
 ?>
 
-<p><code>v-model</code> permet de créer une relation bidirectionnelle entre une donnée et un élément de formulaire <em>(input, select, textarea, etc.)</em>.</p>
+<p><incode>v-model</incode> permet de créer une relation bidirectionnelle entre une donnée et un élément de formulaire <em>(input, select, textarea, etc.)</em>.</p>
 
-<warning><code>v-model</code> ignore la valeur initiale attribuée à un élément de formulaire. La synchronisation entre l’élément et la donnée ne débute que lors de la première modification de&nbsp;l’élément.</warning>
+<warning><incode>v-model</incode> ignore la valeur initiale attribuée à un élément de formulaire. La synchronisation entre l’élément et la donnée ne débute que lors de la première modification de&nbsp;l’élément.</warning>
 
-<p><code>v-model</code> se base sur différentes propriétés afin d’attribuer une valeur à une donnée.</p>
+<p><incode>v-model</incode> se base sur différentes propriétés afin d’attribuer une valeur à une donnée.</p>
 
 <ul>
-    <li><strong>Champ texte</strong>: l’attribut <code>value</code> du champs</li>
-    <li><strong>Boîtes à cocher et boutons radio:</strong> l’attribut <code>checked</code></li>
-    <li><strong>Menu déroulant: </strong>l’attribut <code>value</code> de l’option sélectionnée</li>
+    <li><strong>Champ texte</strong>: l’attribut <incode>value</incode> du champs</li>
+    <li><strong>Boîtes à cocher et boutons radio:</strong> l’attribut <incode>checked</incode></li>
+    <li><strong>Menu déroulant: </strong>l’attribut <incode>value</incode> de l’option sélectionnée</li>
 </ul>
 
 <dots></dots>
 <grostitre>Champ texte</grostitre>
-<p>Les champs textes synchronisent la valeur contenue dans l'attribut <code>value</code> avec la donnée qui lui est associée dans l'app.</p>
-<p>Par exemple, la donnée <code>msg</code> change de valeur en fonction du changement de value dans le champ suivant.
+<p>Les champs textes synchronisent la valeur contenue dans l'attribut <incode>value</incode> avec la donnée qui lui est associée dans l'app.</p>
+<p>Par exemple, la donnée <incode>msg</incode> change de valeur en fonction du changement de value dans le champ suivant.
 </p>
 
 <highlight lang='html'>&lt;input type=&quot;text&quot; v-model=&quot;msg&quot; /&gt;
@@ -52,7 +52,7 @@
 
 <dots></dots>
 <grostitre>Boite à cocher</grostitre>
-<p>Les boites à cocher synchronisent l’attribut <code>checked</code> avec la donnée qui leur est associée.</p>
+<p>Les boites à cocher synchronisent l’attribut <incode>checked</incode> avec la donnée qui leur est associée.</p>
 
 <highlight lang='html'>&lt;input type=&quot;checkbox&quot; v-model=&quot;msg&quot; /&gt;
 &lt;h1&gt;Afficher le meme: { { msg } }&lt;/h1&gt;
@@ -68,7 +68,7 @@
 </p>
 
 <p>Leur usage est tout indiqué entre autres pour déterminer si un élément devrait être affiché ou masqué à l'aide d'un
-    <code>v-if</code>.</p>
+    <incode>v-if</incode>.</p>
 <doclink href='https://vuejs.org/guide/essentials/forms.html#checkbox'>Boite à cocher</doclink>
 
 
@@ -76,7 +76,7 @@
 <grostitre>Boutons radio</grostitre>
 
 
-<p>Les boutons radio synchronisent l’attribut <code>value</code> du bouton qui est coché avec la donnée qui leur est associée.</p>
+<p>Les boutons radio synchronisent l’attribut <incode>value</incode> du bouton qui est coché avec la donnée qui leur est associée.</p>
 
 <highlight lang='html'>&lt;input type=&quot;radio&quot; id=&quot;option&quot; v-model=&quot;msg&quot; value=&quot;Texte 1&quot; /&gt;
 &lt;input type=&quot;radio&quot; id=&quot;option&quot; v-model=&quot;msg&quot; value=&quot;Texte 2&quot; /&gt;
@@ -101,7 +101,7 @@
 <dots></dots>
 <grostitre>Menu déroulant</grostitre>
 
-<p>Les menus déroulants synchronisent l’attribut <code>value</code> de l'option sélectionnée avec la donnée qui leur est associée.</p>
+<p>Les menus déroulants synchronisent l’attribut <incode>value</incode> de l'option sélectionnée avec la donnée qui leur est associée.</p>
 
 <highlight lang='html'>&lt;select v-model=&quot;msg&quot;&gt;
   &lt;option value=&quot;Texte 1&quot;&gt;Écouteurs&lt;/option&gt;

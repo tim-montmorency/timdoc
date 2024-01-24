@@ -30,7 +30,7 @@
 <grostitre>OnTriggerEnter(Collider other)</grostitre>
 <p>Cette fonction peut être utilisée dans un Script qui est sur un GameObject qui a une composante Collider dont la fonction IsTrigger est cochée. Elle sera déclenchée lorsqu'un objet ayant aussi un collider entrera dans sa zone de collision. Alors, le code présent dans cette fonction s'exécutera une fois.</p>
 <p>Cette fonction a une particularité. En effet, vous aurez remarqué qu'il y a quelque chose d'écrit entre ses parenthèse. On appelle cela un argument. Dans le cas de OnTriggerEnter, lorsqu'on entre dans la zone de détection, le script détecte qui vient d'entrer en collision avec l'objet et le garde en mémoire. Ainsi, dans votre code, vous pourrez utilisez l'objet other pour donner des ordres à cet objet qui vient d'entrer dans la zone de détection. Par exemple, vous pouvez vérifier son identité avec le code other.name</p>
-<highlight lang="C#">
+<highlight lang="csharp">
 
 private void OnTriggerEnter(Collider other)
     {
@@ -52,7 +52,7 @@ private void OnTriggerEnter(Collider other)
 <grostitre>Fonction personnalisée()</grostitre>
 <p>Dans Unity, il est très fréquent de créer nos propres fonctions. Cependant, elles ne seront pas appelées automatiquement, il faudra donc les déclencher grâce à des événements ou d'autres scripts.</p>
 <p>Créer une fonction est très simple. Il faut inscrire le code suivant:</p>
-<highlight lang="C#">
+<highlight lang="csharp">
 
     public void NomFonction(){
         code ici;
@@ -62,7 +62,7 @@ private void OnTriggerEnter(Collider other)
 <p>Pour exécuter cette fonction dans le script, c'est très simple. Vous devez trouver à quel moment l'appeler. Par exemple, on pourrait avoir une condition qui vérifie si un bouton est appuyé dans notre Update et démarrer la fonction lorsqu'elle est appelée.
     
 Voici un exemple:</p>
-<highlight lang="C#">
+<highlight lang="csharp">
 
 void Update()
     {
@@ -79,7 +79,7 @@ void Update()
 
 <grostitre>Ajouter un argument à une Fonction</grostitre>
 <p>Lorsqu'on crée une Fonction, on peut lui donner un argument.</p>
-<highlight lang="C#">
+<highlight lang="csharp">
 public void MaFonction(GameObject objet)
     {
         objet.SetActive(true);

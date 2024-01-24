@@ -4,6 +4,7 @@
  * @title    Spécificité
  * @icon     images/icon.png
  * @abstract Chaque sélecteur en CSS se voit attribuer un pointage.
+ * @ref      web/css
  */
 ?>
 

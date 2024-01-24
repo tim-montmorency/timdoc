@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,7 +39,10 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Réalité virtuelle</a> > <a href="../">Exercices</a> ></div>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Réalité virtuelle</a> > <a href="../">Exercices</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
                 <h1 id="title"><img src="images/icon.png">&nbsp;02_Exercice</h1>
             </div>
             <article>
@@ -61,7 +63,6 @@
     Ensuite, importez le paquet Polygon - Sampler Pack de Synty studio à l'aide du Package Manager. 
 </checklist>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/jaqGgmCTjPI?si=-nhd72GQ06mEN7Yu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="jaqGgmCTjPI"></youtube>
 
 <dots></dots>
@@ -79,7 +80,6 @@
 </checklist>
 <p>Cette vidéo comprends les étapes précédentes:</p>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/6JgRHcI3-Ow?si=1hkV24WlOgHnKgZF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="6JgRHcI3-Ow"></youtube>
 
 
@@ -98,7 +98,6 @@
 </checklist>
 <p>Cette vidéo comprends les étapes précédentes:</p>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/F20wMIDgLn0?si=_Lmo87xTQC1qei6q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="F20wMIDgLn0"></youtube>
 
 <dots></dots>
@@ -114,7 +113,6 @@
 </checklist>
 <p>Cette vidéo comprends les étapes précédentes:</p>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/1rOjHaAOPbM?si=1s8G4EY2AMgT8QrC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="1rOjHaAOPbM"></youtube>
 
 <dots></dots>
@@ -126,7 +124,6 @@
     <p>Suivez ensuite la vidéo suivante pour bien configurer votre joueur et ses déplacements:</p>
 </checklist>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/J1zJ__tEtho?si=BRSN_KHbX63Kpp9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="J1zJ__tEtho"></youtube>
 
 <dots></dots>
@@ -136,7 +133,6 @@
 <p>Suivez ensuite la vidéo suivante pour configurer l'éclairage de votre bâtiment:</p>
 </checklist>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/eVzF0QE1zFE?si=KyObjPzhwdaizw_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="eVzF0QE1zFE"></youtube>
 
 <dots></dots>
@@ -146,7 +142,6 @@
 Activez la fonction is Trigger de chaque collider pour permettre à votre personnage de se promener entre les pièces. 
 </checklist>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/wBlLnqNaRK0?si=O_kUMqoHFSDkgeFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="wBlLnqNaRK0"></youtube>
 
 <dots></dots>
@@ -155,7 +150,6 @@ Activez la fonction is Trigger de chaque collider pour permettre à votre person
 <p>Suivez la vidéo suivante pour allumer ou éteindre une ampoule selon la présence ou non de votre personnage dans la pièce:</p>
 </checklist>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/QuisWgC1V7U?si=MlJufG54fuKpSLEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="QuisWgC1V7U"></youtube>
 
 <dots></dots>
@@ -164,7 +158,6 @@ Activez la fonction is Trigger de chaque collider pour permettre à votre person
 <p>Suivez la vidéo suivante pour partir ou arrêter une vidéo dans votre télévision selon la présence ou non de votre personnage dans la pièce:</p>
 </checklist>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Ljcn5VG5958?si=qn3SRwO7oSAMk32c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="Ljcn5VG5958"></youtube>
 
 
@@ -174,7 +167,6 @@ Activez la fonction is Trigger de chaque collider pour permettre à votre person
 <p>Suivez la vidéo suivante pour animer l'état d'une lumière et partir vos animations selon la présence ou non de votre personnage dans la pièce:</p>
 </checklist>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/VUM6iT5u-DQ?si=SXjvPz92UJ8k1tlS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="VUM6iT5u-DQ"></youtube>
 
 <dots></dots>
@@ -183,7 +175,6 @@ Activez la fonction is Trigger de chaque collider pour permettre à votre person
 <p>Suivez la vidéo suivante pour ajouter des objets que le personnage pourra récupérer dans votre pièce:</p>
 </checklist>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/HmLe22qIjAM?si=9nM2EPr3SLV8QjLL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="HmLe22qIjAM"></youtube>
 
 <dots></dots>
@@ -192,7 +183,6 @@ Activez la fonction is Trigger de chaque collider pour permettre à votre person
 <p>Suivez la vidéo suivante pour amasser des objets et les compter:</p>
 </checklist>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/pktYZ4XboPU?si=N_RYdp1d3H_8mWAL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="pktYZ4XboPU"></youtube>
 
 <dots></dots>
@@ -202,7 +192,6 @@ Activez la fonction is Trigger de chaque collider pour permettre à votre person
 Vous pouvez télécharger votre son de réussite depuis internet, pixabay en a des bons. 
 </checklist>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/h0uvCte0Lq4?si=P_ZGSMQlw_EhkUNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <youtube src="h0uvCte0Lq4"></youtube>
 
 
@@ -259,6 +248,5 @@ Vous pouvez télécharger votre son de réussite depuis internet, pixabay en a d
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

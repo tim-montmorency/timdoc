@@ -33,7 +33,7 @@
 <highlight lang='javascript'>app.mount('#app');</highlight>
 
 
-<p>Si le résultat du <code>mount</code> est stocké dans une variable, il est possible d'y accéder afin de changer ses <a rel="noopener noreferrer" href="#donnees">données</a> ou encore d'appeler ses <a rel="noopener noreferrer" href="#methodes-et-evenements">méthodes</a>.</p>
+<p>Si le résultat du <incode>mount</incode> est stocké dans une variable, il est possible d'y accéder afin de changer ses <a rel="noopener noreferrer" href="#donnees">données</a> ou encore d'appeler ses <a rel="noopener noreferrer" href="#methodes-et-evenements">méthodes</a>.</p>
 
 <p>Par exemple:</p>
 <highlight lang='javascript'>const vm = app.mount('#app');</highlight>
@@ -48,7 +48,7 @@
 <grostitre>Données</grostitre>
 
 
-<p>Afin de définir le comportement de l'app, un objet contenant diverses propriétés doit lui être passé en paramètre. Parmi ces propriétés se trouve <code>data</code>: une fonction retournant les données susceptibles de changer dans l'application.</p>
+<p>Afin de définir le comportement de l'app, un objet contenant diverses propriétés doit lui être passé en paramètre. Parmi ces propriétés se trouve <incode>data</incode>: une fonction retournant les données susceptibles de changer dans l'application.</p>
 
 
 
@@ -79,7 +79,7 @@
 
 
 
-<p><code>data</code> est donc une fonction retournant un objet constitué dans ce cas-ci des propriétés: <code>firstName</code>, <code>lastName</code> et <code>picture</code>.</p>
+<p><incode>data</incode> est donc une fonction retournant un objet constitué dans ce cas-ci des propriétés: <incode>firstName</incode>, <incode>lastName</incode> et <incode>picture</incode>.</p>
 
 <doclink href='https://v3.vuejs.org/guide/data-methods.html#data-properties'>Data</doclink>
 <br>
@@ -87,7 +87,7 @@
 
 <h3 class="heading heading--h3" id="Interpolations">Interpolation des données {{ }}</h3>
 
-<p>Une fois, les données définies, il est possible d'y faire référence à l'aide de moustaches {<code>{ ... }</code>} <em>(doubles accolades)</em>. Leurs contenus, incluant les moustaches elles-mêmes, seront remplacés par la donnée qui lui est associée. Qui plus est, si la valeur de cette donnée vient à changer, celle-ci se mettra automatiquement à jour dans le HTML.</p>
+<p>Une fois, les données définies, il est possible d'y faire référence à l'aide de moustaches {<incode>{ ... }</incode>} <em>(doubles accolades)</em>. Leurs contenus, incluant les moustaches elles-mêmes, seront remplacés par la donnée qui lui est associée. Qui plus est, si la valeur de cette donnée vient à changer, celle-ci se mettra automatiquement à jour dans le HTML.</p>
 
 Par exemple, le code suivant:
 <highlight lang='html'>&lt;div id=&quot;app&quot;&gt;
@@ -114,17 +114,17 @@ Affichera en fait:
 <br><br>
 <h3 class="heading heading--h3" id="Attributs">Attributs via v-bind: ou :</h3>
 
-<p>Les données peuvent aussi être insérées dans un attribut HTML <em>(class, src, alt, style, etc.)</em>. Cependant, les moustaches ne sont pas fonctionnelles dans ce contexte ❌. Il faut donc plutôt utiliser une directive <code>v-bind</code> en début d'attribut afin que son contenu se popule avec une donnée présente dans l'objet data.
+<p>Les données peuvent aussi être insérées dans un attribut HTML <em>(class, src, alt, style, etc.)</em>. Cependant, les moustaches ne sont pas fonctionnelles dans ce contexte ❌. Il faut donc plutôt utiliser une directive <incode>v-bind</incode> en début d'attribut afin que son contenu se popule avec une donnée présente dans l'objet data.
 </p>
 
-<p>Par exemple, pour afficher l'image contenue dans la propriété <code>picture</code>:</p>
+<p>Par exemple, pour afficher l'image contenue dans la propriété <incode>picture</incode>:</p>
 <highlight lang='html'>&lt;div id=&quot;app&quot;&gt;
   &lt;img v-bind:src=&quot;picture&quot;&gt;
 &lt;/div&gt;</highlight>
 
 
 
-<p>ou encore la syntaxe courte avec <code>:</code>:</p>
+<p>ou encore la syntaxe courte avec <incode>:</incode>:</p>
 
 
 <highlight lang='html'>&lt;div id=&quot;app&quot;&gt;
@@ -135,7 +135,7 @@ Affichera en fait:
 
 <p>Si plusieurs données doivent être combinées dans le cadre d'un attribut, il est nécessaire d'utiliser un <a target="_blank" rel="noopener noreferrer" href="https://smnarnold.com/cours/javascript/litteraux-de-gabarits">littéraux de gabarit</a> afin de gérer la combinaison. </p>
 
-<p>Par exemple, pour inscrire le prénom et le nom dans le <code>alt</code> d'une image:</p>
+<p>Par exemple, pour inscrire le prénom et le nom dans le <incode>alt</incode> d'une image:</p>
 
 <highlight lang='html'>&lt;div id=&quot;app&quot;&gt;
   &lt;img :src=&quot;picture&quot; :alt=&quot;`${firstName} ${lastName}`&quot;&gt;
@@ -154,7 +154,7 @@ Affichera en fait:
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 
-<warning>Si un attribut est associé à une donnée dont la valeur équivaut à <code>null</code> ou <code>undefined</code>, l’attribut ne sera pas&nbsp;créé.</warning>
+<warning>Si un attribut est associé à une donnée dont la valeur équivaut à <incode>null</incode> ou <incode>undefined</incode>, l’attribut ne sera pas&nbsp;créé.</warning>
 
 <doclink href='https://v3.vuejs.org/guide/template-syntax.html#attributes'>Attributs</doclink>
 
@@ -166,9 +166,9 @@ Affichera en fait:
 <grostitre>Méthodes et Événements</grostitre>
 
 
-<p>La propriété <code>methods</code> dans une app Vue est un objet contenant différentes méthodes pouvant être appelées. Ces méthodes peuvent avoir accès aux données contenues dans <code>data</code> via <code>this</code> et les altérer au besoin.</p>
+<p>La propriété <incode>methods</incode> dans une app Vue est un objet contenant différentes méthodes pouvant être appelées. Ces méthodes peuvent avoir accès aux données contenues dans <incode>data</incode> via <incode>this</incode> et les altérer au besoin.</p>
 
-<p>Par exemple, la méthode <code>showActor</code> révélant l'acteur derrière le personnage:</p>
+<p>Par exemple, la méthode <incode>showActor</incode> révélant l'acteur derrière le personnage:</p>
 
 <highlight lang='javascript'>const app = Vue.createApp({
   data() {
@@ -190,7 +190,7 @@ Affichera en fait:
 
 
 
-<p>Ainsi, lorsque la méthode <code>showActor</code> est appelée, toutes les occurrences de <code>firstName</code> et <code>lastName</code> sont remplacées par <em>Timothée</em> et <em>Chalamet</em>.</p>
+<p>Ainsi, lorsque la méthode <incode>showActor</incode> est appelée, toutes les occurrences de <incode>firstName</incode> et <incode>lastName</incode> sont remplacées par <em>Timothée</em> et <em>Chalamet</em>.</p>
 
 
 <br><br>
@@ -198,7 +198,7 @@ Affichera en fait:
 <h3 class="heading heading--h3" id="v-on">v-on: ou @</h3>
 
 <p>Pour appeler une méthode, il faut ajouter un événement sur une balise dans l'app. </p>
-<p>Par exemple, pour qu'un bouton appelle la méthode <code>showActor()</code>:</p>
+<p>Par exemple, pour qu'un bouton appelle la méthode <incode>showActor()</incode>:</p>
 
 <highlight lang='html'>&lt;div id=&quot;app&quot;&gt;
 Salut { { firstName } }
@@ -207,7 +207,7 @@ Salut { { firstName } }
 <small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
 <br><br>
 
-<p>ou encore la syntaxe courte avec <code>@</code>:</p>
+<p>ou encore la syntaxe courte avec <incode>@</incode>:</p>
 <highlight lang='html'>&lt;div id=&quot;app&quot;&gt;
 Salut { { firstName } }
   &lt;button @click=&quot;showActor()&quot;&gt;Révéler l&#39;acteur&lt;/button&gt;
@@ -259,9 +259,9 @@ Salut { { firstName } }
 
 <dots></dots>
 <grostitre>Classes dynamiques :class</grostitre>
-<p>Il est fréquent qu'une classe doit-être ajoutée ou retirée à un élément afin de refléter une action commise par un usager. Pour ce faire, Vue permet de passer un objet à un attribut. Cet objet doit contenir une propriété correspondant au nom de la classe souhaitée et comme valeur une donnée ou encore une expression. Ainsi, si cette valeur est évaluée à <code>true</code>, la classe est ajoutée et à l'opposée si elle est évaluée à <code>false</code> elle est retirée.</p>
+<p>Il est fréquent qu'une classe doit-être ajoutée ou retirée à un élément afin de refléter une action commise par un usager. Pour ce faire, Vue permet de passer un objet à un attribut. Cet objet doit contenir une propriété correspondant au nom de la classe souhaitée et comme valeur une donnée ou encore une expression. Ainsi, si cette valeur est évaluée à <incode>true</incode>, la classe est ajoutée et à l'opposée si elle est évaluée à <incode>false</incode> elle est retirée.</p>
 
-<p>Par exemple, pour ajouter la classe <em>orange</em> lorsque la donnée <em>isOrange</em> est équivalente à <code>true</code>:</p>
+<p>Par exemple, pour ajouter la classe <em>orange</em> lorsque la donnée <em>isOrange</em> est équivalente à <incode>true</incode>:</p>
 <highlight lang='html'>&lt;img :src=&quot;picture&quot; :class=&quot;{orange: isOrange}&quot;&gt;</highlight>
 
 
@@ -298,13 +298,13 @@ Salut { { firstName } }
 
 <h3 class="heading heading--h3" id="Combinaison avec des classes statiques">Combinaison avec des classes statiques</h3>
 
-<p>Si certaines classes doivent être statiques <em>(ne jamais changer)</em>, alors que certaines doivent être dynamiques <em>(pouvoir changer)</em>, il est nécessaire d'utiliser deux attributs <code>class</code>. Un 1<sup>er</sup> sans <code>v-bind</code> ou <code>:</code> pour les classes statiques et un 2<sup>e</sup> avec pour les classes dynamiques. Ces deux attributs seront ensuite combinés par Vue.</p>
+<p>Si certaines classes doivent être statiques <em>(ne jamais changer)</em>, alors que certaines doivent être dynamiques <em>(pouvoir changer)</em>, il est nécessaire d'utiliser deux attributs <incode>class</incode>. Un 1<sup>er</sup> sans <incode>v-bind</incode> ou <incode>:</incode> pour les classes statiques et un 2<sup>e</sup> avec pour les classes dynamiques. Ces deux attributs seront ensuite combinés par Vue.</p>
 
 <p>Par exemple:</p>
 <highlight lang='html'>&lt;img :src=&quot;picture&quot; class=&quot;media&quot; :class=&quot;{orange: isOrange}&quot;&gt;</highlight>
 
 
-<p>Produira le code suivant si la valeur de <em>isOrange</em> est <code>true</code>:</p>
+<p>Produira le code suivant si la valeur de <em>isOrange</em> est <incode>true</incode>:</p>
 <highlight lang='html'>&lt;img src=&quot;willy-wonka-square.jpg&quot; class=&quot;media orange&quot;&gt;</highlight>
 
 <br><br>
@@ -355,16 +355,16 @@ Salut { { firstName } }
 
 <dots></dots>
 <grostitre>Boucle</grostitre>
-<p>Vue permet de boucler sur un tableau d'objets grâce à la directive <code>v-for</code>. Pour ce faire, il faut spécifier le nom temporaire que l'on souhaite attribuer à chaque objet dans le tableau et spécifier le tableau dans lequel ce trouve ces objets.</p>
+<p>Vue permet de boucler sur un tableau d'objets grâce à la directive <incode>v-for</incode>. Pour ce faire, il faut spécifier le nom temporaire que l'on souhaite attribuer à chaque objet dans le tableau et spécifier le tableau dans lequel ce trouve ces objets.</p>
 
-<p>Par exemple, il est possible d'accéder à chaque rôle se trouvant dans le tableau <code>rolesArray</code>:</p>
+<p>Par exemple, il est possible d'accéder à chaque rôle se trouvant dans le tableau <incode>rolesArray</incode>:</p>
 
 <highlight lang='html'>&lt;div v-for=&quot;role in rolesArr&quot;&gt;
   &lt;img :src=&quot;role.picture&quot;&gt;
 &lt;/div&gt;</highlight>
 
 
-<p>Par la suite, il faut spécifier si la propriété désirée est enfant du parent <code>data</code> ou enfant du rôle courant dans la boucle en la préfixant par <code>role</code>.</p>
+<p>Par la suite, il faut spécifier si la propriété désirée est enfant du parent <incode>data</incode> ou enfant du rôle courant dans la boucle en la préfixant par <incode>role</incode>.</p>
 
 <p class="codepen" data-height="800" data-theme-id="44431" data-default-tab="html,result" data-slug-hash="abPeGqp" data-user="tim-momo" style="height: 800px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/abPeGqp">
@@ -375,7 +375,7 @@ Salut { { firstName } }
 <br><br>
 <h3 class="heading heading--h3" id="Index">Index</h3>
 
-<p>Afin d'obtenir l'index courant dans une boucle <code>v-for</code>, il est suffit d'ajouter un 2e paramètre dans la directive. Puisque deux paramètres sont présents, il est nécessaire de les grouper dans entre parenthèses.</p>
+<p>Afin d'obtenir l'index courant dans une boucle <incode>v-for</incode>, il est suffit d'ajouter un 2e paramètre dans la directive. Puisque deux paramètres sont présents, il est nécessaire de les grouper dans entre parenthèses.</p>
 
 
 <p>Par exemple:</p>
@@ -405,7 +405,7 @@ Salut { { firstName } }
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-<warning>Il ne faut<a href="https://vuejs.org/style-guide/rules-essential.html#avoid-v-if-with-v-for" target="_blank"> jamais utiliser <code>v-if</code> sur un élément ayant&nbsp;<code>v-for</code></a>.</warning>
+<warning>Il ne faut<a href="https://vuejs.org/style-guide/rules-essential.html#avoid-v-if-with-v-for" target="_blank"> jamais utiliser <incode>v-if</incode> sur un élément ayant&nbsp;<incode>v-for</incode></a>.</warning>
 <br>
 <aside class="exercice-card">
     <div class="exercice-card__content">

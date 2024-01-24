@@ -3,7 +3,7 @@
  * @index    10
  * @type     article
  * @title    Audios
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract Utiliser Github et Howler.js
  */
 ?>
@@ -30,7 +30,7 @@
 
 <highlight lang="dos">audioinfo.bat audios/careless-whisper.mp3</highlight>
 
-<img src="images/drag-n-drop.png">
+<img class="full" src="images/drag-n-drop.webp">
 
 <dots></dots>
 

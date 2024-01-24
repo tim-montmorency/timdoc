@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -89,7 +88,7 @@
 <grostitre>Requis CSS</grostitre>
 
 <alert>Dans votre code, vous devez obligatoirement ajouter une ligne de commentaire de début et de fin pour définir à quelle étape des requis le bloc de code correspond. Voici un exemple:</alert>
-<highlight lang='css'>/*** DÉBUT requis CSS #1 ***/ 
+<highlight lang="css">/*** D&Eacute;BUT requis CSS #1 ***/ 
 .timeline{
     color: purple;
     border: 1px solid blue;
@@ -114,9 +113,9 @@ Finalement, la dernière rangée contiendra un div avec la classe .fox. Ce div d
 
 <alert>Dans votre code, vous devez obligatoirement ajouter une ligne de commentaire de début et de fin pour définir à quelle étape des requis le bloc de code correspond. Voici un exemple:</alert>
 
-<highlight lang='javascript'>/*** DÉBUT requis JAVASCRIPT GÉNÉRAL #1 ***/ 
-console.log('Bienvenue JavaScript');
-/**** FIN requis JAVASCRIPT GÉNÉRAL #1 ****/</highlight>
+<highlight lang="javascript">/*** D&Eacute;BUT requis JAVASCRIPT G&Eacute;N&Eacute;RAL #1 ***/ 
+console.log(&#039;Bienvenue JavaScript&#039;);
+/**** FIN requis JAVASCRIPT G&Eacute;N&Eacute;RAL #1 ****/</highlight>
 
 <checklist>Au chargement de la page, faites un fetch sur l'API <em>RandomFox</em> au url suivant: <em>https://randomfox.ca/floof/</em>.
 Lorsque vous recevez une réponse, analysez l'objet et affchez l'image reçu dans le <em>div.fox</em>.
@@ -136,15 +135,15 @@ https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/
 
 <alert>Dans votre code, vous devez obligatoirement ajouter une ligne de commentaire de début et de fin pour définir à quelle étape des requis le bloc de code correspond. Voici un exemple:</alert>
 
-<highlight lang='javascript'>/*** DÉBUT requis VUE.JS #1 ***/ 
-console.log('Bienvenue VUE.js');
+<highlight lang="javascript">/*** D&Eacute;BUT requis VUE.JS #1 ***/ 
+console.log(&#039;Bienvenue VUE.js&#039;);
 /**** FIN requis VUE.JS #1 ****/</highlight>
 
 <checklist>Importez le cadriciel Vue via CDN dans le projet et connectez votre app Vue au HTML. Attention de bien importer la version 3.
 Générer l'aperçu de chaque pièce d'armure <em>(casque, plastron et cuissard)</em> via une boucle Vue se basant sur les informations disponibles dans les données fournies. 
 Lorsque cliqué, l'aperçu d'une pièce d'armure doit se faire ajouter la classe <em>"is-active"</em> changeant ainsi son apparence <em>(voir les requis CSS)</em>. Ceci devra être syncronisé avec la propriété booléenne <em>wearing</em> déjà existante.
 Utilisez des propriétés calculées afin d'afficher en temps réel le nombre de points de défense ainsi que le poids total des pièces d'armure lorsqu'elles sont ajoutées/retirées. Attention, seules les pièces ajoutées permettent d'obtenir des points de défense et compte dans le poids total.
-Utilisez une propriété calculée se basant sur le nombre de points de défense du joueur afin d'afficher l'image du chevalier appropriée. <br><br>Par exemple, lorsque le joueur à 0 point de défense, l'image <code>https://ex.smnarnold.com/vue/chevalier/0.png</code>, où le chevalier n'a aucune pièce d'armure, devrait être affiché. <br><br>À l'opposée, si le chevalier à 7 points de défense, l'image avec l'armure complète <code>https://ex.smnarnold.com/vue/chevalier/7.png</code> devrait être affichée.
+Utilisez une propriété calculée se basant sur le nombre de points de défense du joueur afin d'afficher l'image du chevalier appropriée. <br><br>Par exemple, lorsque le joueur à 0 point de défense, l'image <span class="inline-code">https://ex.smnarnold.com/vue/chevalier/0.png</span>, où le chevalier n'a aucune pièce d'armure, devrait être affiché. <br><br>À l'opposée, si le chevalier à 7 points de défense, l'image avec l'armure complète <span class="inline-code">https://ex.smnarnold.com/vue/chevalier/7.png</span> devrait être affichée.
 Faites en sorte que le nom inséré dans le champ texte se synchronise avec la donnée <em>name</em> et s'affiche sous la mention <em>chevalier</em>.</checklist>
 
 <warning>Des noms longs pourraient briser l’affichage. C’est normal. Tenez-vous en a des noms courts, tel que: Steve, Paul, Karl&nbsp;etc.</warning>
@@ -156,7 +155,7 @@ Faites en sorte que le nom inséré dans le champ texte se synchronise avec la d
 <dots></dots>
 <grostitre>Remise</grostitre>
 
-<checklist>Renommez votre dossier de travail 📁 au format&nbsp;suivant:<br><code>[prénom]-[nom de famille]</code><br>ex: <em>mariemichelle-ouellet</em>
+<checklist>Renommez votre dossier de travail 📁 au format&nbsp;suivant:<br><span class="inline-code">[pr&eacute;nom]-[nom de famille]</span><br>ex: <em>mariemichelle-ouellet</em>
 Compressez ensuite votre dossier de travail en <a href="https://www.ezyzip.com/" target="_blank" rel="noopener noreferrer">fichier&nbsp;zip 🗜</a>
 Envoyez-moi un message privé sur Teams contenant votre fichier&nbsp;zip.</checklist>
 
@@ -170,6 +169,5 @@ Envoyez-moi un message privé sur Teams contenant votre fichier&nbsp;zip.</check
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

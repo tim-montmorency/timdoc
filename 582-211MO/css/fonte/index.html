@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Font</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 2</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.webp">&nbsp;Font</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Plusieurs propriétés CSS permettent de contrôler l'apparence d'un texte. Voici quelques-unes des propriétés les plus courantes.</p>
+
+<grostitre>color</grostitre>
+
+<p>La propriété <span class="inline-code">color</span> permet de définir la couleur du texte. Cette propriété accepte toutes les <a href="../unites-de-couleur/">unités de couleur</a>.</p>
+
+<codepen id="XWBBdGp" tab="result" height="280"></codepen>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/color">color</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_text_color.asp">color</doclink>
+
+<dots></dots>
+
+
+<grostitre>font-family</grostitre>
+
+<p>La propriété <span class="inline-code">font-family</span> permet de spécifier la police de caractères pour afficher du texte dans un élément.</p>
+
+<p>Cette propriété accepte le nom d'une police:</p>
+
+<highlight lang="css">font-family: Helvetica;</highlight>
+
+<p>Ou encore une liste de polices:</p>
+
+<highlight lang="css">font-family: Helvetica, Arial, sans-serif;</highlight>
+
+<p>Cette dernière possibilité présente deux avantages:</p>
+
+<ol>
+  <li>Fournir une police de substitution si une police est indisponible. Par exemple, les appareils Windows n'ayant pas la fonte Helvetica par défaut, ces appareils utiliseront la prochaine police dans la liste compatible, soit Arial.</li>
+  <li>Si un caractère est manquant dans la police <em>("é", "ë", "ç", etc.)</em> le navigateur utilisera un caractère de la prochaine police afin de le remplacer.</li>
+</ol>
+
+<codepen id="QWBBNPW" tab="result" height="280"></codepen>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/font-family">font-family</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_font_font-family.asp">font-family</doclink>
+
+<dots></dots>
+
+
+<grostitre>font-weight</grostitre>
+
+<p>La propriété <span class="inline-code">font-weight</span> permet de définir la graisse d'un texte.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="css">font-weight: bold;</highlight>
+
+<p>Plusieurs graisses sont généralement disponibles. Ces graisses peuvent être spécifiées via leur valeur numérique ou encore leur nom.</p>
+
+<table>
+  <tr>
+    <th>NUMÉRIQUE</th>
+    <th>NOM</th>
+  </tr>
+  <tr>
+    <td>100</td>
+    <td>thin</td>
+  </tr>
+  <tr>
+    <td>200</td>
+    <td>extra light</td>
+  </tr>
+  <tr>
+    <td>300</td>
+    <td>light</td>
+  </tr>
+  <tr>
+    <td>400</td>
+    <td>normal</td>
+  </tr>
+  <tr>
+    <td>500</td>
+    <td>medium</td>
+  </tr>
+  <tr>
+    <td>600</td>
+    <td>semi-bold</td>
+  </tr>
+  <tr>
+    <td>700</td>
+    <td>bold</td>
+  </tr>
+  <tr>
+    <td>800</td>
+    <td>extra bold</td>
+  </tr>
+  <tr>
+    <td>900</td>
+    <td>black</td>
+  </tr>
+</table>
+
+<p>Par défaut, si aucune graisse n'est spécifiée, le texte est en normal <em>(400)</em>. Il est aussi possible de spécifier au texte d'être légèrement plus fin que sont texte courant grâce au mot-clé <span class="inline-code">lighter</span> ou encore plus gras, grâce à <span class="inline-code">bolder</span>.</p>
+
+<codepen id="LYBBNoQ" tab="result" height="280"></codepen>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/font-weight">font-weight</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_font_weight.asp">font-weight</doclink>
+
+<dots></dots>
+
+
+<grostitre>font-size</grostitre>
+
+<p>La propriété <span class="inline-code">font-size</span> permet de définir la taille du texte. Bien que l'unité la plus courante soit les pixels, toutes les <a href="../unites-de-mesure/">unités de mesure</a> sont acceptées.</p>
+
+<highlight lang="css">font-size: 16px;</highlight>
+
+<p>Par défaut, si aucune taille n'est spécifiée, la majorité des navigateurs lui attribueront la taille de 16px. Il est aussi possible de spécifier à un texte d'être légèrement plus petite que sont texte courant grâce au mot-clé <span class="inline-code">smaller</span> ou encore plus gros, grâce à <span class="inline-code">larger</span>.</p>
+
+<p>Bien que les px soient très répandus, il ne faut pas sous-estimer les avantages offerts par les <span class="inline-code">rem</span> et <span class="inline-code">em</span>.</p>
+
+<codepen id="xxJJVoX" tab="result" height="280"></codepen>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/font-size">font-size</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_font_font-size.asp">font-size</doclink>
+
+<dots></dots>
+
+
+<grostitre>font-style</grostitre>
+
+<p>La propriété <span class="inline-code">font-style</span> permet de définir si un texte devrait apparaitre en italique ou non, grâce aux valeurs:</p>
+
+<ul>
+  <li>normal <em>(par défaut)</em></li>
+  <li>italic</li>
+</ul>
+
+<codepen id="rNrreXj" tab="result" height="280"></codepen>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/font-style">font-style</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_font_font-style.asp">font-style</doclink>
+
+<dots></dots>
+
+
+<grostitre>line-height</grostitre>
+
+<p>La propriété <span class="inline-code">line-height</span> indique la hauteur de chacune des lignes de texte. Bien que cette propriété accepte les valeurs en pixel, la valeur la plus répandue et la plus polyvalente consiste en un ratio basé sur la taille du texte.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="css">line-height: 1.5;</highlight>
+
+<p>Définit une hauteur de ligne de 24px si la taille de texte est de 16px, puisque: 16px * 1.5 = 24px.</p>
+
+<p>Généralement, un <span class="inline-code">line-height</span> de base est définie sur la balise <span class="inline-code">&lt;body&gt;</span>. Ainsi il affecte tous les éléments de la page.</p>
+
+<codepen id="ZEjjOzB" tab="result" height="280"></codepen>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/line-height">line-height</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_dim_line-height.asp">line-height</doclink>
+
+<dots></dots>
+
+
+<grostitre>letter-spacing</grostitre>
+
+<p>La propriété <span class="inline-code">letter-spacing</span> permet de spécifier l'espacement entre chacune des lettres d'un texte. Cette propriété accepte toutes les unités de mesure CSS, mais est particulièrement efficace avec les <span class="inline-code">em</span>.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="css">letter-spacing: 0.5em;</highlight>
+
+<p>Définis un espacement entre les lettres équivalent à une demi-largeur de lettre. Bref, si la taille de texte est de 16px, puisque: 16px * 0.5em = 8px, un espace de 8px sera ajouté entre chaque lettre.</p>
+
+<codepen id="yLqqJLJ" tab="result" height="280"></codepen>
+
+<info>Les valeurs négatives sont permises.</info>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/letter-spacing">letter-spacing</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_text_letter-spacing.asp">letter-spacing</doclink>
+
+<dots></dots>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,15 +39,18 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Optimisation Web</a> > <a href="../">Bootstrap</a> ></div>
-                <h1 id="title"><img src="images/icon.png">&nbsp;NavBar</h1>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Optimisation Web</a> > <a href="../">Bootstrap</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/quadriciels/">Quadriciels</a>&nbsp;>&nbsp;<a href="../../../index/web/quadriciels/bootstrap/">Bootstrap</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="../images/icon.webp">&nbsp;NavBar</h1>
             </div>
             <article>
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 <grostitre>Introduction</grostitre>
 <p>La navbar de Bootstrap permet de simplifier la navigation d'un site en offrant plusieurs options de&nbsp;configurations.</p>
-<p>Pour définir une navbar, il faut ajouter la classe Bootstrap&nbsp;<code>.navbar</code>&nbsp;à une balise HTML. Idéalement une balise&nbsp;<code>&lt;nav&gt;</code>, afin de maximiser l'aspect sémantique de cette&nbsp;composante.</p>
+<p>Pour définir une navbar, il faut ajouter la classe Bootstrap&nbsp;<span class="inline-code">.navbar</span>&nbsp;à une balise HTML. Idéalement une balise&nbsp;<span class="inline-code">&lt;nav&gt;</span>, afin de maximiser l'aspect sémantique de cette&nbsp;composante.</p>
 <p>Par exemple:</p>
 <highlight lang="html">&lt;nav class=&quot;navbar&quot;&gt;...&lt;/nav&gt;</highlight>
 
@@ -58,14 +60,14 @@
 <dots></dots>
 <grostitre>Thème de couleur</grostitre>
 <p>L'une de ces configurations consiste à sélectionner le thème de couleur de la navbar en fonction de la couleur de fond attribuée en CSS&nbsp;<em>(si une couleur a été&nbsp;attribuée)</em>.</p>
-<p>Si par exemple la couleur de fond est pâle, la classe&nbsp;<code>.navbar-light</code>&nbsp;doit être utilisée. À l'opposée,&nbsp;<code>.navbar-dark</code>&nbsp;sera la meilleure option si cette couleur est&nbsp;foncée.</p>
-<p>Cette classe change la couleur des éléments de la navbar afin de maximiser leur contraste avec la couleur de&nbsp;fond. Si aucune couleur n'a été attribuée, la meilleure option est&nbsp;<code>.navbar-light</code>&nbsp;afin de contraster avec le fond de page blanc par&nbsp;défaut.</p>
+<p>Si par exemple la couleur de fond est pâle, la classe&nbsp;<span class="inline-code">.navbar-light</span>&nbsp;doit être utilisée. À l'opposée,&nbsp;<span class="inline-code">.navbar-dark</span>&nbsp;sera la meilleure option si cette couleur est&nbsp;foncée.</p>
+<p>Cette classe change la couleur des éléments de la navbar afin de maximiser leur contraste avec la couleur de&nbsp;fond. Si aucune couleur n'a été attribuée, la meilleure option est&nbsp;<span class="inline-code">.navbar-light</span>&nbsp;afin de contraster avec le fond de page blanc par&nbsp;défaut.</p>
 
 <p>Par exemple:</p>
 <highlight lang="html">&lt;nav class=&quot;navbar navbar-light&quot;&gt;...&lt;/nav&gt;</highlight>
 
 
-<warning>Si la couleur de fond de la navbar est blanche et que la classe <code>.navbar-dark</code> est utilisée, le contenu de la navbar sera invisible, puisqu’il sera blanc sur fond&nbsp;blanc.</warning>
+<warning>Si la couleur de fond de la navbar est blanche et que la classe <span class="inline-code">.navbar-dark</span> est utilisée, le contenu de la navbar sera invisible, puisqu’il sera blanc sur fond&nbsp;blanc.</warning>
 
 <doclink href="https://getbootstrap.com/docs/5.3/components/navbar/#color-schemes">Color schemes</doclink>
 
@@ -75,10 +77,10 @@
 
 <p>Une autre des configurations importantes consiste à spécifier à quel breakpoint la navbar doit passer de son affichage compact, en menu hamburger&nbsp;☰, à l'affichage étendu, en barre de navigation&nbsp;complète.</p>
 
-<p>Ce changement d'affichage est spécifier grâce à une classe ayant le format suivant&nbsp;<code>.navbar-expand-[breakpoint]</code>. Bref, l'affichage étendu deviendra actif lorsque ce breakpoint sera&nbsp;atteint.</p>
+<p>Ce changement d'affichage est spécifier grâce à une classe ayant le format suivant&nbsp;<span class="inline-code">.navbar-expand-[breakpoint]</span>. Bref, l'affichage étendu deviendra actif lorsque ce breakpoint sera&nbsp;atteint.</p>
 
 
-<p>Par exemple, pour afficher une barre de navigation complète à partir de&nbsp;<code>lg</code>:</p>
+<p>Par exemple, pour afficher une barre de navigation complète à partir de&nbsp;<span class="inline-code">lg</span>:</p>
 
 <highlight lang="html">&lt;nav class=&quot;navbar navbar-light navbar-expand-lg&quot;&gt;...&lt;/nav&gt;</highlight>
 
@@ -86,7 +88,7 @@
 
 <grostitre>Conteneur</grostitre>
 
-<p>Afin de gérer adéquatement la position des éléments dans la navbar, il faut ajouter un&nbsp;<a target="_blank" href="../grille">conteneur Bootstrap</a>&nbsp;dans celle-ci, soit&nbsp;<code>container</code>&nbsp;ou&nbsp;<code>container-fluid</code>, selon la largeur&nbsp;désirée.</p>
+<p>Afin de gérer adéquatement la position des éléments dans la navbar, il faut ajouter un&nbsp;<a target="_blank" href="../grille">conteneur Bootstrap</a>&nbsp;dans celle-ci, soit&nbsp;<span class="inline-code">container</span>&nbsp;ou&nbsp;<span class="inline-code">container-fluid</span>, selon la largeur&nbsp;désirée.</p>
 
 <highlight lang="html">&lt;nav class=&quot;navbar navbar-light navbar-expand-lg&quot;&gt;
     &lt;div class=&quot;container&quot;&gt;
@@ -98,7 +100,7 @@
 
 <grostitre>Hamburger 🍔</grostitre>
 
-<p>Pour que la navbar puisse masquer les éléments de navigation lorsque le menu hamburger ☰ est affiché, il faut regrouper ces éléments dans une balise avec les classes&nbsp;<code>.collapse.navbar-collapse</code>&nbsp;comme&nbsp;suit:</p>
+<p>Pour que la navbar puisse masquer les éléments de navigation lorsque le menu hamburger ☰ est affiché, il faut regrouper ces éléments dans une balise avec les classes&nbsp;<span class="inline-code">.collapse.navbar-collapse</span>&nbsp;comme&nbsp;suit:</p>
 
 
 <highlight lang="html">&lt;nav class=&quot;navbar navbar-light navbar-expand-lg&quot;&gt;
@@ -110,12 +112,12 @@
 &lt;/nav&gt;</highlight>
 
 
-<warning>Remarquez l’identifiant unique <code>#mainNav</code> sur la balise. Il permettra de contrôler l’affichage de cet&nbsp;élément.</warning>
+<warning>Remarquez l’identifiant unique <span class="inline-code">#mainNav</span> sur la balise. Il permettra de contrôler l’affichage de cet&nbsp;élément.</warning>
 
 
 <p>Évidemment pour être en mesure d'ouvrir/masquer la navigation, un bouton est nécessaire, le fameux&nbsp;<em>hamburger button</em> ☰.</p>
 <p>Bootstrap nomme cet élément le:&nbsp;<em>"Toggler"</em>. Il faut donc insérer un&nbsp;<em>toggler</em>&nbsp;dans la navbar et lui spécifier, via ses attributs, la navigation qu'il doit&nbsp;ouvrir/masquer.</p>
-<p>Dans l'exemple ci-dessous, les attributs&nbsp;<code>data-bs-target</code>&nbsp;et&nbsp;<code>aria-controls</code>&nbsp;indiquent à Bootstrap que ce bouton contrôle l'élément avec le id&nbsp;<code>mainNav</code>.</p>
+<p>Dans l'exemple ci-dessous, les attributs&nbsp;<span class="inline-code">data-bs-target</span>&nbsp;et&nbsp;<span class="inline-code">aria-controls</span>&nbsp;indiquent à Bootstrap que ce bouton contrôle l'élément avec le id&nbsp;<span class="inline-code">mainNav</span>.</p>
 
 <highlight lang="html">&lt;button class=&quot;navbar-toggler&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#mainNav&quot; aria-controls=&quot;mainNav&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Affichage/masquage de la navigation&quot;&gt;
 
@@ -124,7 +126,7 @@
 &lt;/button&gt;</highlight>
 
 <info>
-    Le span <code>.navbar-toggler-icon</code> ne sert qu’à afficher l’icône ☰. Si vous le désirez, vous pouvez le remplacer par autre&nbsp;chose.</info>
+    Le span <span class="inline-code">.navbar-toggler-icon</span> ne sert qu’à afficher l’icône ☰. Si vous le désirez, vous pouvez le remplacer par autre&nbsp;chose.</info>
 
 <dots></dots>
 
@@ -134,13 +136,13 @@
 <p>Pour ce faire, il faut&nbsp;créer:</p>
 <ol start="1">
     <li>
-        <p>Une liste&nbsp;<code>&lt;ul&gt;</code>&nbsp;avec la classe&nbsp;<code>.navbar-nav</code>&nbsp;dans la balise&nbsp;<code>.collapse.navbar-collapse</code>.</p>
+        <p>Une liste&nbsp;<span class="inline-code">&lt;ul&gt;</span>&nbsp;avec la classe&nbsp;<span class="inline-code">.navbar-nav</span>&nbsp;dans la balise&nbsp;<span class="inline-code">.collapse.navbar-collapse</span>.</p>
     </li>
     <li>
-        <p>Des items de liste&nbsp;<code>&lt;li&gt;</code>&nbsp;avec la classe&nbsp;<code>.nav-item</code>.</p>
+        <p>Des items de liste&nbsp;<span class="inline-code">&lt;li&gt;</span>&nbsp;avec la classe&nbsp;<span class="inline-code">.nav-item</span>.</p>
     </li>
     <li>
-        <p>Des liens&nbsp;<code>&lt;a&gt;</code>&nbsp;dans chaque item avec la classe&nbsp;<code>.nav-link</code>.</p>
+        <p>Des liens&nbsp;<span class="inline-code">&lt;a&gt;</span>&nbsp;dans chaque item avec la classe&nbsp;<span class="inline-code">.nav-link</span>.</p>
     </li>
 </ol>
 <p>Par exemple:</p>
@@ -167,19 +169,18 @@
 &lt;/nav&gt;</highlight>
 
 
-<p>Afin de différencier la page courante des autres, il est possible d'ajouter la classe&nbsp;<code>.active</code>&nbsp;au lien correspondant à cette page.</p>
+<p>Afin de différencier la page courante des autres, il est possible d'ajouter la classe&nbsp;<span class="inline-code">.active</span>&nbsp;au lien correspondant à cette page.</p>
 <p>Par exemple:</p>
 
-<highlight lang="html">&lt;a href=&quot;page-1.html&quot; class=&quot;nav-link active&quot;&gt;Page 1&lt;/a&gt;
-</highlight>
+<highlight lang="html">&lt;a href=&quot;page-1.html&quot; class=&quot;nav-link active&quot;&gt;Page 1&lt;/a&gt;</highlight>
 
 <dots></dots>
 
 <grostitre>Menu déroulant</grostitre>
 
-<p>Pour obtenir un menu déroulant, communément appelé&nbsp;<em>"dropdown"</em>, il faut bonifier un&nbsp;<code>li.nav-item</code>&nbsp;avec la classe&nbsp;<code>.dropdown</code>, ainsi que le&nbsp;<code>a.nav-link</code>&nbsp;à l'intérieur de celui-ci avec la classe&nbsp;<code>.dropdown-toggle</code>&nbsp;et l'attribut&nbsp;<code>data-bs-toggle="dropdown"</code>.</p>
+<p>Pour obtenir un menu déroulant, communément appelé&nbsp;<em>"dropdown"</em>, il faut bonifier un&nbsp;<span class="inline-code">li.nav-item</span>&nbsp;avec la classe&nbsp;<span class="inline-code">.dropdown</span>, ainsi que le&nbsp;<span class="inline-code">a.nav-link</span>&nbsp;à l'intérieur de celui-ci avec la classe&nbsp;<span class="inline-code">.dropdown-toggle</span>&nbsp;et l'attribut&nbsp;<span class="inline-code">data-bs-toggle=&quot;dropdown&quot;</span>.</p>
 
-<p>Le lien maintenant converti, il faut ajouter les éléments du menu déroulant grâce à une liste&nbsp;<code>ul.dropdown-menu</code>&nbsp;contenant les différents liens souhaités&nbsp;<code>dropdown-item</code>.</p>
+<p>Le lien maintenant converti, il faut ajouter les éléments du menu déroulant grâce à une liste&nbsp;<span class="inline-code">ul.dropdown-menu</span>&nbsp;contenant les différents liens souhaités&nbsp;<span class="inline-code">dropdown-item</span>.</p>
 <p>Par exemple:</p>
 
 <highlight lang="html">&lt;li class=&quot;nav-item dropdown&quot;&gt;
@@ -199,7 +200,7 @@
 
 <grostitre>Logo</grostitre>
 
-<p>Les navbars offrent la possibilité d'ajouter un logo sous forme de texte ou d'image dans la barre de navigation. Cette option est appelée&nbsp;<code>Brand</code>. Pour ce faire, il suffit d'ajouter la classe&nbsp;<code>.navbar-brand</code>&nbsp;sur une balise HTML à l'extérieur du&nbsp;<code>.collapse.navbar-collapse</code>.</p>
+<p>Les navbars offrent la possibilité d'ajouter un logo sous forme de texte ou d'image dans la barre de navigation. Cette option est appelée&nbsp;<span class="inline-code">Brand</span>. Pour ce faire, il suffit d'ajouter la classe&nbsp;<span class="inline-code">.navbar-brand</span>&nbsp;sur une balise HTML à l'extérieur du&nbsp;<span class="inline-code">.collapse.navbar-collapse</span>.</p>
 <p>Par exemple:</p>
 <highlight lang="html">&lt;a class=&quot;navbar-brand&quot; href=&quot;index.html&quot;&gt;Nom de mon site&lt;/a&gt;</highlight>
 
@@ -212,13 +213,13 @@
 <p>Bootstrap offre des utilitaires de positionnement qui ne sont pas limités qu'à la composante de navbar, mais qui peuvent s'avérer très utiles avec celle-ci. Pour les utiliser, il suffit d'ajouter la classe désirée à la&nbsp;navbar.</p>
 <ul>
     <li>
-        <p><code>fixed-top</code>&nbsp;fige la navbar au sommet de la&nbsp;page.</p>
+        <p><span class="inline-code">fixed-top</span>&nbsp;fige la navbar au sommet de la&nbsp;page.</p>
     </li>
     <li>
-        <p><code>fixed-bottom</code>&nbsp;fige la navbar au bas de la&nbsp;page.</p>
+        <p><span class="inline-code">fixed-bottom</span>&nbsp;fige la navbar au bas de la&nbsp;page.</p>
     </li>
     <li>
-        <p><code>sticky-top</code>&nbsp;laisse la navbar défiler avec la page jusqu'à ce que celle-ci atteigne le sommet de la&nbsp;page.</p>
+        <p><span class="inline-code">sticky-top</span>&nbsp;laisse la navbar défiler avec la page jusqu'à ce que celle-ci atteigne le sommet de la&nbsp;page.</p>
     </li>
 </ul>
 <p>Par exemple pour une navbar figée au haut de la&nbsp;page.</p>
@@ -251,6 +252,5 @@
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

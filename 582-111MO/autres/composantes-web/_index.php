@@ -5,6 +5,7 @@
  * @title    Composantes Web
  * @icon     images/icon.png
  * @abstract Accordéon, Onglet, Galerie photo, Carrousel, Pop-up, etc 
+ * @ref      web/autres
  */
 ?>
 

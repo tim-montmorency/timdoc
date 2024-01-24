@@ -7,7 +7,7 @@
  * @index 97
  */
 ?>
-<p>Les modèles, ou en anglais&nbsp;<em>templates</em>, sont certains des fichiers&nbsp;<code>.php</code>&nbsp;se trouvant à la racine d'un thème.</p>
+<p>Les modèles, ou en anglais&nbsp;<em>templates</em>, sont certains des fichiers&nbsp;<incode>.php</incode>&nbsp;se trouvant à la racine d'un thème.</p>
 
 <p>Ces fichiers permettent de contrôler la structure d'une ou plusieurs pages sur un site. </p>
 
@@ -18,7 +18,7 @@
 
 <grostitre>Création</grostitre>
 <h3 class="heading heading--h3" id="Nom">Nom</h3>
-<p>Pour créer un modèle, il suffit de créer un fichier&nbsp;<code>.php</code>&nbsp;à la racine du thème. Dans ce fichier, immédiatement après la déclaration&nbsp;<code>&lt;?php</code>, le commentaire <code>Template Name</code> permet d'indiquer à WordPress le nom du&nbsp;modèle en question.</p><p>Par exemple, il est possible de spécifier que le modèle <em>product.php</em> devrait être disponible dans le tableau de bord sous le nom <em>Produit</em>:</p>
+<p>Pour créer un modèle, il suffit de créer un fichier&nbsp;<incode>.php</incode>&nbsp;à la racine du thème. Dans ce fichier, immédiatement après la déclaration&nbsp;<incode>&lt;?php</incode>, le commentaire <incode>Template Name</incode> permet d'indiquer à WordPress le nom du&nbsp;modèle en question.</p><p>Par exemple, il est possible de spécifier que le modèle <em>product.php</em> devrait être disponible dans le tableau de bord sous le nom <em>Produit</em>:</p>
 
 
 <highlight lang='php'>/**
@@ -35,7 +35,7 @@
 <p>Il est donc possible de choisir quel modèle devrait utiliser cette page.</p>
 
 
-<info>Un nom similaire entre le modèle et le fichier <code>.php</code> permet de mieux vous structurer et simplifier le&nbsp;débogage. Dans l'exemple ci-dessus, le nom du fichier est en anglais (comme vous codez en anglais) : <em>product.php</em> et le nom du modèle (inscrit en commentaire au début du fichier) est l'équivalent en français, soit <em>Produit</em>.</info>
+<info>Un nom similaire entre le modèle et le fichier <incode>.php</incode> permet de mieux vous structurer et simplifier le&nbsp;débogage. Dans l'exemple ci-dessus, le nom du fichier est en anglais (comme vous codez en anglais) : <em>product.php</em> et le nom du modèle (inscrit en commentaire au début du fichier) est l'équivalent en français, soit <em>Produit</em>.</info>
 
 
 
@@ -44,7 +44,7 @@
 <dots></dots>
 
 <h3 id="type-posts-supportes">Type de posts supportés</h3>
-<p>Les modèles ne sont disponibles que pour les posts par défaut <em>(pages et articles)</em>. Pour qu'un modèle puisse supporter un autre type de post, il faut lui indiquer à l'aide du commentaire <code>Template Post Type</code>.</p>
+<p>Les modèles ne sont disponibles que pour les posts par défaut <em>(pages et articles)</em>. Pour qu'un modèle puisse supporter un autre type de post, il faut lui indiquer à l'aide du commentaire <incode>Template Post Type</incode>.</p>
 
 
 <p>Par exemple, après avoir créé le type de post <em>product</em> dans le tableau de bord, le menu&nbsp;déroulant de choix de modèle sera absent de tous les posts de ce type, puisque par défaut aucun modèle ne supporte ce type de post. </p><p>Afin d'indiquer que le modèle <em>Produit</em> doit pouvoir être utilisé par les posts de type <em>product</em>, il faut le spécifier à l'intérieur du modèle ainsi:</p>
@@ -67,17 +67,17 @@
 
 
 <h3  id="pages 📄">Pages 📄</h3>
-<p>Par exemple, avec l'url&nbsp;<code>exemple.com/portfolio</code></p>
+<p>Par exemple, avec l'url&nbsp;<incode>exemple.com/portfolio</incode></p>
 
 <p>WordPress tentera de valider en ordre si:</p>
 
 <ol start="1">
     <li>Un modèle a été attribué via le&nbsp;tableau de&nbsp;bord.</li>
-    <li><code>page-portfolio.php</code>&nbsp;existe à la racine du&nbsp;thème.</li>
-    <li><code>page-7.php</code>&nbsp;existe.&nbsp;<em>(Si l'id de la page est&nbsp;</em><code>7</code>).</li>
-    <li>Le fichier générique&nbsp;<code>page.php</code>&nbsp;est&nbsp;présent.</li>
-    <li><code>singular.php</code>&nbsp;existe.</li>
-    <li><code>index.php</code>&nbsp;existe.</li>
+    <li><incode>page-portfolio.php</incode>&nbsp;existe à la racine du&nbsp;thème.</li>
+    <li><incode>page-7.php</incode>&nbsp;existe.&nbsp;<em>(Si l'id de la page est&nbsp;</em><incode>7</incode>).</li>
+    <li>Le fichier générique&nbsp;<incode>page.php</incode>&nbsp;est&nbsp;présent.</li>
+    <li><incode>singular.php</incode>&nbsp;existe.</li>
+    <li><incode>index.php</incode>&nbsp;existe.</li>
 </ol>
 
 
@@ -87,8 +87,8 @@
 <h3 class="heading heading--h3" id="Accueil">Accueil</h3>
  <p>La page d'accueil est particulière. Par défaut, WordPress lui attribue son propre modèle affichant normalement les plus récents articles (posts). Le modèle qui sera pris en compte en premier sera home.php et s'il est inexistant, ce sera index.php.</p>
  <ul>
-    <li><code>home.php</code></li>
-    <li><code>index.php</code></li>
+    <li><incode>home.php</incode></li>
+    <li><incode>index.php</incode></li>
 </ul>
  <p>Il est néanmoins possible de changer cette configuration et choisir une page spécifique en tant que page d'accueil. Pour ce faire, vous devez d'abord créer la page et, dans le tableau de bord, spécifier quelle sera la page qui fera office d'accueil via:</p>
  
@@ -96,11 +96,11 @@
 <img src="images/page-accueil-reglages-wp.jpg" alt="Réglage pour page accueil dans le tableau de bord de Wordpress">
 <p>Dans le contexte où votre page d'accueil est une page statique, le modèle qui sera pris en compte en premier sera font-page.php.</p>
 <ul>
-    <li><code>font-page.php</code></li>
-    <li><code>page-7.php</code>&nbsp;existe.&nbsp;<em>(Si l'id de la page est&nbsp;</em><code>7</code>).</li>
-    <li>Le fichier générique&nbsp;<code>page.php</code>&nbsp;est&nbsp;présent.</li>
-    <li><code>singular.php</code>&nbsp;existe.</li>
-    <li><code>index.php</code>&nbsp;existe.</li>
+    <li><incode>font-page.php</incode></li>
+    <li><incode>page-7.php</incode>&nbsp;existe.&nbsp;<em>(Si l'id de la page est&nbsp;</em><incode>7</incode>).</li>
+    <li>Le fichier générique&nbsp;<incode>page.php</incode>&nbsp;est&nbsp;présent.</li>
+    <li><incode>singular.php</incode>&nbsp;existe.</li>
+    <li><incode>index.php</incode>&nbsp;existe.</li>
 </ul>
 
 
@@ -108,8 +108,8 @@
  <dots></dots>
 <h3 id="404">404</h3>
 <ol start="1">
-    <li><code>404.php</code></li>
-    <li><code>index.php</code></li>
+    <li><incode>404.php</incode></li>
+    <li><incode>index.php</incode></li>
 </ol>
 
 
@@ -122,22 +122,22 @@
 <br>
 
 
-<p>Par exemple, avec l'url&nbsp;<code>exemple.com/bonjour-tout-le-monde</code>, WordPress tente de valider en ordre&nbsp;si:</p>
+<p>Par exemple, avec l'url&nbsp;<incode>exemple.com/bonjour-tout-le-monde</incode>, WordPress tente de valider en ordre&nbsp;si:</p>
 <ol start="1">
-    <li><code>single-post-bonjour-tout-le-monde.php</code>&nbsp;existe.<br><br>Ce nom de fichier&nbsp;provient:
+    <li><incode>single-post-bonjour-tout-le-monde.php</incode>&nbsp;existe.<br><br>Ce nom de fichier&nbsp;provient:
     <ul>
-        <li>du préfixe&nbsp;<code>single</code>.</li>
-        <li>du&nbsp;<strong>type de post</strong>, dans cet exemple celui par défaut&nbsp;<code>post</code>.</li>
-        <li>et du slug de l'article&nbsp;<code>bonjour-tout-le-monde</code></li>
+        <li>du préfixe&nbsp;<incode>single</incode>.</li>
+        <li>du&nbsp;<strong>type de post</strong>, dans cet exemple celui par défaut&nbsp;<incode>post</incode>.</li>
+        <li>et du slug de l'article&nbsp;<incode>bonjour-tout-le-monde</incode></li>
     </ul>
     </li>
-    <li><code>single-post.php</code>&nbsp;existe. Ce nom, comme le précédent, provient du préfix&nbsp;<code>single</code>&nbsp;et du type de post. Par exemple: si ce type avait été&nbsp;<code>product</code>, le fichier appelé aurait été&nbsp;<code>single-product.php</code>.</li>
-    <li><code>single.php</code>&nbsp;si aucun modèle spécifique n'est&nbsp;trouvé.</li>
-    <li>ensuite&nbsp;<code>singular.php</code></li>
-    <li>et finalement&nbsp;<code>index.php</code></li>
+    <li><incode>single-post.php</incode>&nbsp;existe. Ce nom, comme le précédent, provient du préfix&nbsp;<incode>single</incode>&nbsp;et du type de post. Par exemple: si ce type avait été&nbsp;<incode>product</incode>, le fichier appelé aurait été&nbsp;<incode>single-product.php</incode>.</li>
+    <li><incode>single.php</incode>&nbsp;si aucun modèle spécifique n'est&nbsp;trouvé.</li>
+    <li>ensuite&nbsp;<incode>singular.php</incode></li>
+    <li>et finalement&nbsp;<incode>index.php</incode></li>
 </ol>
 
-<warning>Le fichier <code>index.php</code> est en quelque sorte le fichier de la dernière&nbsp;chance.</warning>
+<warning>Le fichier <incode>index.php</incode> est en quelque sorte le fichier de la dernière&nbsp;chance.</warning>
 
 
 <dots></dots>

@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,13 +39,16 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Projet Web</a> > <a href="../">WordPress</a> ></div>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">WordPress</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
                 <h1 id="title"><img src="images/icon-wp.png">&nbsp;Styles CSS thème WP</h1>
             </div>
             <article>
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
-<p>Le fichier&nbsp;<code>style.css</code>est particulier. WordPress s'attend à trouver un fichier avec ce nom à la racine de chaque&nbsp;thème.</p>
+<p>Le fichier&nbsp;<span class="inline-code">style.css</span>est particulier. WordPress s'attend à trouver un fichier avec ce nom à la racine de chaque&nbsp;thème.</p>
 
 <warning>Renommer, déplacer ou supprimer ce fichier rendra votre thème&nbsp;inutilisable.</warning>
 
@@ -58,7 +60,7 @@
 
 <p>Par exemple:</p>
 <img src="images/theme-metas.png" alt="Informations meta du thème">
-<small>L'image d'aperçu provient du fichier&nbsp;<code>screenshot.png</code>&nbsp;se trouvant à la racine du thème. Ce fichier doit obligatoirement s'appeler&nbsp;<code>screenshot</code>, être en format&nbsp;<code>.png</code>&nbsp;et idéalement avoir une résolution de&nbsp;1200&nbsp;x&nbsp;900px.</small>   
+<small>L'image d'aperçu provient du fichier&nbsp;<span class="inline-code">screenshot.png</span>&nbsp;se trouvant à la racine du thème. Ce fichier doit obligatoirement s'appeler&nbsp;<span class="inline-code">screenshot</span>, être en format&nbsp;<span class="inline-code">.png</span>&nbsp;et idéalement avoir une résolution de&nbsp;1200&nbsp;x&nbsp;900px.</small>   
 <br><br><br><br>
           <p>Ces informations proviennent du commentaire suivant:</p><pre><code class="hljs css"><span class="hljs-comment">/*
 Theme Name: Montmorency
@@ -78,7 +80,7 @@ Version: 1.0
 <grostitre>Injection par défaut</grostitre>
 <p>WordPress charge cette feuille de style par défaut. Il est donc possible d'ajouter des règles de style à l'intérieur de celle-ci et elles seront appliquées dès le prochain rafraichissement de&nbsp;page.</p>
 
-<p>Sans cette injection, il faudrait passer par le fichier&nbsp;<code>functions.php</code>&nbsp;et utiliser la fonction&nbsp;<code>wpenqueuestyle</code>&nbsp;pour que la feuille de style soit&nbsp;chargée.</p>
+<p>Sans cette injection, il faudrait passer par le fichier&nbsp;<span class="inline-code">functions.php</span>&nbsp;et utiliser la fonction&nbsp;<span class="inline-code">wpenqueuestyle</span>&nbsp;pour que la feuille de style soit&nbsp;chargée.</p>
     
  
                     <!-- ARTICLE FOOTER SOF -->
@@ -91,6 +93,5 @@ Version: 1.0
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

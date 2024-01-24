@@ -4,6 +4,7 @@
  * @title    Chemins d'accès
  * @icon     images/icon.png
  * @abstract Absolue, relatif
+ * @ref      web/autres
  */
 ?>
 

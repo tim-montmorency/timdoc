@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>P1.3b App - Accordion+Modal</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Optimisation Web</a> > <a href="../">Projet: App festival art</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.svg">&nbsp;P1.3b App - Accordion+Modal</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+ 
+<grostitre>Ajustement de vos couleurs dans vos CSS et vos class HTML</grostitre>
+
+<checklist>
+  Maintenant que vous avez personnalisé les classes de couleurs telles que bs-primary, bs-secondary, bs-info, bs-warning etc, veuillez aller changer partout où c'est possible dans votre CSS, afin d'utiliser ces variables.
+  Vous pouvez utiliser les classes dans certains cas, par exemple sur un bouton avec la classe .btn-primary.
+</checklist>
+<dots></dots>
+
+
+<grostitre>Page oeuvre (artwork.html)</grostitre>
+<p>Aperçu du résultat 👇</p>
+
+<clipasset src="video/demo_app_accordion_modal.mp4" mobile="true"></clipasset>
+
+<!--<div style='max-width: 640px'><div style='position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;'><iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/3aa31356-edd4-4fd9-bf63-0d01f895fdba?autoplay=false&showinfo=true" allowfullscreen style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>-->
+
+
+
+
+<checklist>
+Avant de créer une nouvelle page, remontez la navbar dans header, c’était une erreur de ma part lors des instructions précédentes. 
+Ensuite, dupliquez votre index.html et renommez le artwork.html 
+Éditez artwork.html, conservez le header et sa navbar ainsi que le footer mais supprimez tout le reste sur contenu dans main (tout en conservant la balise main, bien entendu). 
+Faites en sorte que l’arrière-plan de la navbar est maintenant transparent. 
+Changez le burger menu par un bouton retour de même format qui contient un chevron qui pointe vers la gauche (qui mènera vers la page précédente, c’est à dire l’accueil).  
+Changez l’icône de l’utilisateur à droite par un bouton “J’aime”.  
+Enlevez le logo du festival dans la navbar. 
+Insérez l’image de l’œuvre à environ 33% de hauteur du viewport. 
+Créez une nouvelle section en dessous, ou vous insérerez le nom de l’œuvre en titre principal (h1).  
+Essayez de recréer l’illusion que le haut du contenu avec l’arrière-plan blanc déborde sur l’image (voir démo ci-haut). 
+Sous le titre, créez une section qui contient une icône de carte (map) et inscrivez le lieu de l’expo. Suivi d’une icône de calendrier et les dates d’exposition/présentation. 
+Ensuite une ou des cartes pour présenter le ou les artistes de l’œuvre. Ces cartes doivent avoir un bouton “En savoir plus”.  Le texte dans la carte pour le présenter doit être très bref (quelques lignes). 
+Ensuite on a la description de l’œuvre. 
+Juste avant le footer, on a un accordéon Bootstrap avec un seul item : “Réservez votre place”. Le contenu de l’item sera un formulaire Bootstrap contenant Courriel, Prénom, Nom, Date et bouton Submit. 
+Attention, pour l’accordéon, si vous faite un copier-coller des notes de cours ou du site Bootstrap, il ne faut pas conserver les ID par défaut de l’accordéons, des headers et des collapses. Pour votre compréhension je tiens à ce que vous appliquiez des IDs qui font référence au contenu sur lequel vous travaillez. 
+Finalement, prenez le temps d’ajouter des classe utilitaire Bootstrap pour créer des marges entre chaque section de la page pour bien les définir. 
+</checklist>
+
+<h3>Notes de cours 📚</h3>
+            <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../bootstrap/cartes/../images/icon.webp');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../bootstrap/cartes/">Cartes</a></span>
+                    <span class="intlink__item__abstract">Permettent de générer rapidement et facilement des cartes</span>
+                </div>
+            </div>
+         
+            <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../bootstrap/utilitaires/../images/icon.webp');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../bootstrap/utilitaires/">Utilitaires</a></span>
+                    <span class="intlink__item__abstract">Bootstrap dispose de nombreuses classes utilitaires/d'aide permettant de styliser rapidement les éléments sans utiliser de code CSS.</span>
+                </div>
+            </div>
+         
+            <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../bootstrap/accordeon/../images/icon.webp');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../bootstrap/accordeon/">Accordéon</a></span>
+                    <span class="intlink__item__abstract">Accordéons avec sections qui se replient verticalement</span>
+                </div>
+            </div>
+         
+<dots></dots>
+
+<grostitre>Fenêtre modale </grostitre>
+
+<checklist>
+Créez une fenêtre modale cachée par défaut. 
+Placez la bien au bon endroit dans le HTML, selon ce que vous avez appris.
+Ce modal sera déclenché par le bouton dans la carte de l’artiste “En savoir plus”. 
+L'entête de ce modal contiendra comme titre le nom de l’artiste et sera accompagné par le bouton X pour fermer le modal. 
+Le corps de la fenêtre modal contiendra une bio longue de l’artiste. 
+La modal devra être centré verticalement dans la page et avoir un format petit.  
+Il devra y avoir une transition lorsqu’on ouvre et ferme la modal (elle ne doit pas apparaitre d’un seul coup sec). 
+</checklist>
+
+<h3>Notes de cours 📚</h3>
+            <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../bootstrap/modale/../images/icon.webp');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../bootstrap/modale/">Fenêtre modale</a></span>
+                    <span class="intlink__item__abstract">Composante qui permet de créer rapidement des popups (fenêtre modale)</span>
+                </div>
+            </div>
+         
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

@@ -39,9 +39,9 @@
 <checklist>
 Ajoutez en CSS 10px verticalement à l'extérieur des cartes afin d'éviter qu'elles ne se touchent.
 Chaque carte doit prendre toute la largeur disponible par défaut.
-À partir du breakpoint <code>sm</code>, deux cartes doivent afficher par ligne.
-À partir du breakpoint <code>md</code>, les 4 premières cartes doivent afficher sur une ligne et les deux dernières sur une autre.
-À partir du breakpoint <code>lg</code>, les 2 dernières cartes doivent afficher en format horizontal.</checklist>
+À partir du breakpoint <incode>sm</incode>, deux cartes doivent afficher par ligne.
+À partir du breakpoint <incode>md</incode>, les 4 premières cartes doivent afficher sur une ligne et les deux dernières sur une autre.
+À partir du breakpoint <incode>lg</incode>, les 2 dernières cartes doivent afficher en format horizontal.</checklist>
 
 <dots> </dots>
 

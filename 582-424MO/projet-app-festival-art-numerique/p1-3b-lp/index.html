@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>P1.3b LP - Accordion+Modal</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Optimisation Web</a> > <a href="../">Projet: App festival art</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.svg">&nbsp;P1.3b LP - Accordion+Modal</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+ 
+
+<grostitre>Ajustement de vos couleurs dans vos CSS et vos class HTML</grostitre>
+
+<checklist>
+  Maintenant que vous avez personnalisé les classes de couleurs telles que bs-primary, bs-secondary, bs-info, bs-warning etc, veuillez aller changer partout où c'est possible dans votre CSS, afin d'utiliser ces variables.
+  Vous pouvez utiliser les classes dans certain car, par exemple sur un bouton avec la classe .btn-primary.
+</checklist>
+
+<dots></dots>
+
+
+<grostitre>Section FAQ</grostitre>
+
+<p>Aperçu du résultat pour FAQ et Infolettre 👇</p>
+<clipasset src="video/demo_LP_faq_infolettre.mp4"></clipasset>
+
+
+  <!--<div style='max-width: 640px'><div style='position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;'><iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/5361a801-a44d-4100-b5a3-db54ef3f783a?autoplay=false&showinfo=true" allowfullscreen style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>-->
+
+
+
+
+<checklist>
+Créez une nouvelle section FAQ à la fin de la balise main sous les autres sections, attribuez-lui un ID. 
+Si cette section n’est pas incluse dans un div.container, ajoutez un div.container à l’intérieur de cette section afin que le contenu ne touche pas les bords de page. 
+Ajoutez un titre de section “FAQ - Foire aux question”.  
+Ajoutez un accordéon Bootstrap qui fera office de toutes les questions et réponses. 
+Le header contiendra la question et le panneau collapse contiendra la réponse. 
+Par défaut tous les items sont rétractés (aucune réponse n’est visible). 
+Attention, si vous faite un copier-coller des notes de cours ou du site Bootstrap, il ne faut pas conserver les ID par défaut de l’accordéons des headers et des collapses. Pour votre compréhension je tiens à ce que vous appliquiez des IDs qui font référence au contenu sur lequel vous travaillez : FAQ, question, réponse etc. Vous devrez appliquer les changements de valeur aux attributs qui font référence à ces différents IDs. 
+</checklist>
+
+<h3>Notes de cours 📚</h3>
+            <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../bootstrap/accordeon/../images/icon.webp');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../bootstrap/accordeon/">Accordéon</a></span>
+                    <span class="intlink__item__abstract">Accordéons avec sections qui se replient verticalement</span>
+                </div>
+            </div>
+         
+
+<dots></dots>
+
+<grostitre>Section Infolettre</grostitre>
+
+<checklist>
+Créez une nouvelle section “Infolettre” à la fin de la balise main sous les autres sections, attribuez-lui un ID. 
+Si cette section n’est pas incluse dans un div.container, ajoutez un div.container à l’intérieur de cette section afin que le contenu ne touche pas les bords de page. 
+Créez une rangée et ensuite une colonne.  
+Dans cette colonne unique, ajoutez un titre de section “Infolettre”.  
+Suivi d’un paragraphe :  “Abonnez-vous à notre infolettre pour recevoir des nouvelles sur les mises-à-jour et nouvelles fonctionnalités de l’appli, en plus de recevoir en primeur les détails des prochaines éditions du festival.” 
+Sous le paragraphe ajoutez un bouton Bootstrap “Je m’abonne”, il devra être de la plus grande dimension qui est offert par Bootstrap et utiliser la couleur primaire de votre nouvelle palette de couleur que vous avez réécrite par-dessus les couleurs Bootstrap de base. 
+Par défaut : la colonne qui contient ce texte s'affichera sur toute la largeur. Son texte ainsi que le bouton devront être centrés. 
+À partir du breakpoint md: la colonne devra s’afficher sur la moitié de la rangée et se placer à droite de la rangée et non pas à gauche. De plus, le texte et le bouton devront être aligné à gauche dans la colonne. 
+Allez trouver une image sur unsplash.com qui fonctionnerait bien avec votre palette de couleur. Ajouter du CSS pour ajouter cette image en arrière-plan sur la section.   
+Ajouter du CSS pour ajouter une couleur d’arrière-plan à la colonne qui contient le texte, avec une opacité entre 50 et 90%, le texte doit demeurer lisible. 
+Dans le HTML, ajoutez une ou des classes utilitaires Bootstrap pour insérer une marge intérieure dans la colonne afin que le texte se décolle des bords de la boite. 
+</checklist>
+
+<h3>Notes de cours 📚</h3>
+            <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../bootstrap/utilitaires/../images/icon.webp');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../bootstrap/utilitaires/">Utilitaires</a></span>
+                    <span class="intlink__item__abstract">Bootstrap dispose de nombreuses classes utilitaires/d'aide permettant de styliser rapidement les éléments sans utiliser de code CSS.</span>
+                </div>
+            </div>
+         
+            <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../bootstrap/breakpoints/../images/icon.webp');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../bootstrap/breakpoints/">Breakpoints</a></span>
+                    <span class="intlink__item__abstract">Déterminent le comportement de votre mise en page réactive</span>
+                </div>
+            </div>
+         
+            <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../bootstrap/grille/../images/icon.webp');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../bootstrap/grille/">Grille</a></span>
+                    <span class="intlink__item__abstract">Système de grille Bootstrap pour un mise en page facile et réactive</span>
+                </div>
+            </div>
+         
+
+
+<dots></dots>
+
+
+<grostitre>Fenêtre modale</grostitre>
+
+<checklist>
+Créez une fenêtre modale cachée par défaut. 
+Placez la bien au bon endroit dans le HTML, selon ce que vous avez appris.
+Faites en sorte que le bouton que vous avez ajouté dans la section Infolettre déclenche la modal. 
+Elle doit contenir un titre “Restez informé !”, ainsi qu’un x pour permettre à l’utilisateur de la fermer. 
+Dans le corps de la modal, vous devez créer un formulaire qui contiendra un champs courriel.  
+Utilisez les composantes Bootstrap pour créer votre formulaire. Le placeholder sera “Votre adresse courriel” 
+Vous devrez ajouter une icône d’enveloppe dans le champ formulaire au début. Trouvez un moyen qu’il ne s’affiche pas par-dessus le texte entré dans le champ. 
+Dans le pied de la modal, on trouvera 2 boutons, un de couleur primaire qui contient le mot “M’inscrire” et l’autre de couleur secondaire qui contiendra le mon “Annuler” et fermera la modal si on clique dessus. 
+La modal devra être centré verticalement dans la page et avoir un format large.  
+Il devra y avoir une transition lorsqu’on ouvre et ferme la modal (elle ne doit pas apparaitre d’un seul coup sec). 
+</checklist>
+
+<h3>Notes de cours 📚</h3>
+            <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../bootstrap/modale/../images/icon.webp');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../bootstrap/modale/">Fenêtre modale</a></span>
+                    <span class="intlink__item__abstract">Composante qui permet de créer rapidement des popups (fenêtre modale)</span>
+                </div>
+            </div>
+         
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

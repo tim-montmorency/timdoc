@@ -27,10 +27,10 @@
 
 <dots></dots>
 <grostitre>Requis</grostitre>
-<checklist>Il faut préalablement récupérer les informations des personnes participant à la réunion. Pour ce faire, il faut utiliser&nbsp;<code>fetch</code>&nbsp;afin d'accéder à l'API de&nbsp;<a href="https://randomuser.me/" target="_blank">randomuser.me</a>&nbsp;à l'adresse&nbsp;suivante: <a href="https://randomuser.me/api?results=9" target="_blank">https://randomuser.me/api?results=9</a>
+<checklist>Il faut préalablement récupérer les informations des personnes participant à la réunion. Pour ce faire, il faut utiliser&nbsp;<incode>fetch</incode>&nbsp;afin d'accéder à l'API de&nbsp;<a href="https://randomuser.me/" target="_blank">randomuser.me</a>&nbsp;à l'adresse&nbsp;suivante: <a href="https://randomuser.me/api?results=9" target="_blank">https://randomuser.me/api?results=9</a>
 Une fois le résultat reçu, convertissez-le en&nbsp;JSON.
-Faites un&nbsp;<code>console.log()</code>&nbsp;du JSON obtenu afin de voir ce qu'il contient&nbsp;exactement.
-Bouclez sur toutes les personnes dans le JSON afin de générer leur aperçu HTML dans l'élément&nbsp;<code>.zoom</code>.
+Faites un&nbsp;<incode>console.log()</incode>&nbsp;du JSON obtenu afin de voir ce qu'il contient&nbsp;exactement.
+Bouclez sur toutes les personnes dans le JSON afin de générer leur aperçu HTML dans l'élément&nbsp;<incode>.zoom</incode>.
 Affichez l'image large, le prénom et le nom de chaque&nbsp;personne.
 Basez-vous sur les classes CSS déjà présentes afin de déterminer la structure HTML à&nbsp;reproduire.
 </checklist>  

@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -66,7 +65,7 @@ Dans votre dossier de projet&nbsp;📁, ajoutez un fichier <em>index.html</em>&n
 Ajoutez-y un sous-dossier <em>css</em>&nbsp;📁, dans lequel se trouvera une feuille de styles <em>styles.css</em>&nbsp;📄 qui sera générée par un fichier <em>.scss</em>&nbsp;📄 du même nom. Vous n'avez PAS le droit d'écrire directement dans le fichier <em>styles.css</em>.
 Collez le code suivant dans votre fichier HTML:</checklist>
 
-<highlight lang='html'>&lt;div class=&quot;characters&quot;&gt;
+<highlight lang="html">&lt;div class=&quot;characters&quot;&gt;
   &lt;div class=&quot;villager villager--rowan&quot;&gt;
     &lt;img src=&quot;https://tim-montmorency.com/timdoc/582-518MO/exercices/animal-crossing-v337/medias/1.png&quot;&gt;
   &lt;/div&gt;
@@ -109,7 +108,7 @@ Collez le code suivant dans votre fichier HTML:</checklist>
 <warning>Vous n’avez PAS le droit de modifier le code HTML ci-dessus&nbsp;👆 <br><br>Vous n'avez PAS le droit d'écrire directement dans le fichier <em>styles.css</em>.</warning>
 
 <alert>Dans votre code, vous devez obligatoirement ajouter une ligne de commentaire de début et de fin pour définir à quelle étape des requis le bloc de code correspond. Voici un exemple:</alert>
-<highlight lang='css'>/*** DÉBUT requis #1 ***/ 
+<highlight lang="css">/*** D&Eacute;BUT requis #1 ***/ 
 .timeline{
     color: purple;
     border: 1px solid blue;
@@ -122,7 +121,7 @@ Collez le code suivant dans votre fichier HTML:</checklist>
 
 <warning>S'il y a plus d'un endroit distinct où vous devez ajouter du code pour un requis spécifique, vous pouvez le scinder en le nommant le commentaire 1a, 1b, 1c etc., comme dans l'exemple ci-dessous:</warning>
 
-<highlight lang='css'>/*** DÉBUT requis #1a ***/ 
+<highlight lang="css">/*** D&Eacute;BUT requis #1a ***/ 
 .timeline{
     color: purple;
     border: 1px solid blue;
@@ -133,32 +132,31 @@ Collez le code suivant dans votre fichier HTML:</checklist>
     text-decoration: underline;
 }
 
-/*** DÉBUT requis #1b ***/ 
+/*** D&Eacute;BUT requis #1b ***/ 
 .year{
     font-size: 40px;
     font-weight: 900;
 }
-/**** FIN requis #1b ****/
-</highlight>
+/**** FIN requis #1b ****/</highlight>
 
 <dots></dots>
 <grostitre>Requis</grostitre>
 <checklist>Ajoutez l'image d'arrière-plan à la page. Celle-ci doit couvrir l'entièreté de la page.
 Le bloc contenant tous les personnages doit prendre toute la largeur de l'écran, jusqu'à concurrence de 900px de large, être centré horizontalement dans la page ↔️ et avoir une marge intérieure de 20px de tous les côtés.<br><br>Attention de faire en sorte que la dimension totale soit bien de 900px incluant les marges intérieures.
-Téléchargez et déposez le fichier <code>_helpers.scss</code> dans votre projet : créez un dossier nommé de façon pertinente pour ce type de fichier et déposez le fichier dans ce dossier&nbsp;📁.
-Importez <code>_helpers.scss</code> dans votre code selon la méthode appropriée.
+Téléchargez et déposez le fichier <span class="inline-code">_helpers.scss</span> dans votre projet : créez un dossier nommé de façon pertinente pour ce type de fichier et déposez le fichier dans ce dossier&nbsp;📁.
+Importez <span class="inline-code">_helpers.scss</span> dans votre code selon la méthode appropriée.
 Appliquez le mixin card à chacun des villageois.
 Affichez un maximum de villageois par rangée. Ils doivent prendre tout l'espace disponible <em>(ne pas laisser d'espace vide en fin de rangée)</em> et ne jamais devenir plus petit que 200px de large. 
 Les villageois doivent avoir une hauteur de 300px, une gouttière 15px entre eux et leur image doit-être centré horizontalement ↔️ et verticalement ↕️ à l'intérieur de ceux-ci
 Utilisez une boucle <em>for</em> en SCSS afin de sélectionner chacun des villageois. À l'intérieur de cette boucle créez-vous deux variables SCSS qui contiendront des couleurs que nous utiliserons plus tard pour créer des dégradés.
-Votre première variable SCSS doit contenir la couleur de la variable <code>$primary</code> du fichier <code>_helpers.scss</code>. Cependant, le hue de cette couleur devra être altéré de 25 par itération de boucle. Ainsi le hue de la couleur dans cette variable pour le 1<sup>er</sup> villageois sera de 25, pour le 2<sup>e</sup> de 50, pour le 3<sup>e</sup> de 75, etc.<br><br>Pour tester votre boucle et votre variable, vous pouvez temporairement changer la couleur de fond du villageois par celle-ci.  
+Votre première variable SCSS doit contenir la couleur de la variable <span class="inline-code">$primary</span> du fichier <span class="inline-code">_helpers.scss</span>. Cependant, le hue de cette couleur devra être altéré de 25 par itération de boucle. Ainsi le hue de la couleur dans cette variable pour le 1<sup>er</sup> villageois sera de 25, pour le 2<sup>e</sup> de 50, pour le 3<sup>e</sup> de 75, etc.<br><br>Pour tester votre boucle et votre variable, vous pouvez temporairement changer la couleur de fond du villageois par celle-ci.  
 Votre deuxième variable SCSS doit avoir la même valeur de hue que votre première variable SCSS, mais avec un extra hue de 50. Autrement dit le hue de la couleur contenue dans cette variable pour le 1<sup>er</sup> villageois sera de 75, pour le 2<sup>e</sup> de 100, pour le 3<sup>e</sup> de 125, etc.
 Toujours dans votre boucle SCSS, créez un dégradé de haut en bas à partir des couleurs contenues dans les variables SCSS que vous venez de créer.
-Créez-vous maintenant une boucle SCSS à partir de la variable <code>$villagersArr</code> contenue dans le fichier <code>_helpers.scss</code> et de sélectionner chaque villageois.
+Créez-vous maintenant une boucle SCSS à partir de la variable <span class="inline-code">$villagersArr</span> contenue dans le fichier <span class="inline-code">_helpers.scss</span> et de sélectionner chaque villageois.
 À l'intérieur de cette boucle, faites afficher le nom de chacun des villageois en blanc ⚪️ sur un fond noir semi-transparent ⚫️ au bas de chacun de ceux-ci. 
-Le texte doit-être centré, avoir une marge intérieure de 10px de tous les côtés et la première lettre de chaque nom doit être en majuscule <em>(sans modifier pour autant la variable </em><code>$villagersArr</code><em>)</em>. 
-Utilisez l'imbrication SASS afin de créer la classe modificateur <code>villager--active</code>. Celle-ci doit faire grossir de 5% le villageois l'ayant. La carte doit être centrée dans sa "cellule" de la grille.
-Ajoutez un fichier script.js dans votre projet. En JavaScript, faites en sorte que lorsqu'un villageois se fait cliquer dessus, il reçoive la classe <code>villager--active</code>. Attention, il ne peut y avoir qu'un seul villageois actif à la fois. Autrement dit, cette classe ne doit jamais être sur deux villageois en même temps.
+Le texte doit-être centré, avoir une marge intérieure de 10px de tous les côtés et la première lettre de chaque nom doit être en majuscule <em>(sans modifier pour autant la variable </em><span class="inline-code">$villagersArr</span><em>)</em>. 
+Utilisez l'imbrication SASS afin de créer la classe modificateur <span class="inline-code">villager--active</span>. Celle-ci doit faire grossir de 5% le villageois l'ayant. La carte doit être centrée dans sa "cellule" de la grille.
+Ajoutez un fichier script.js dans votre projet. En JavaScript, faites en sorte que lorsqu'un villageois se fait cliquer dessus, il reçoive la classe <span class="inline-code">villager--active</span>. Attention, il ne peut y avoir qu'un seul villageois actif à la fois. Autrement dit, cette classe ne doit jamais être sur deux villageois en même temps.
 À partir de 900px et plus, créez une variable  qui liste les noms suivants: bettina, leonardo, hornsby et sylvana. Avec une boucle sur chacun de ceux-ci, faites en sorte que les villageois Bettina, Leonardo, Hornsby et Sylvana prennent deux colonnes de large plutôt qu'une seule comme les autres villageois.</checklist>
 
 <dots></dots>
@@ -185,6 +183,5 @@ Ajoutez un fichier script.js dans votre projet. En JavaScript, faites en sorte q
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

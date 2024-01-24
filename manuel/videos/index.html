@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../shared/styles/swiper-bundle.min.css">
         <script src="../../shared/jscripts/highlight.min.js"></script>
         <script src="../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,8 +39,11 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../">Manuel</a> ></div>
-                <h1 id="title"><img src="images/icon.png">&nbsp;Vidéos</h1>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../">Manuel</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.webp">&nbsp;Vidéos</h1>
             </div>
             <article>
                 <div id="contents">
@@ -53,14 +55,23 @@
 
 <grostitre>Youtube</grostitre>
 
-<p>Afin d'accélérer le chargement des pages contenant des vidéos, il est fortement conseillé d'utiliser la composante <incode>&lt;youtube src="id"&gt;&lt;/youtube&gt;</incode>.</p>
+<p>Afin d'accélérer le chargement des pages contenant des vidéos, il est fortement conseillé d'utiliser la composante <span class="inline-code">&lt;youtube src=&quot;id&quot;&gt;&lt;/youtube&gt;</span>.</p>
 
-<highlight lang="html">&lt;youtube src="KVJBHSOx9jI"&gt;&lt;/youtube&gt;</highlight>
+<highlight lang="html">&lt;youtube src=&quot;KVJBHSOx9jI&quot;&gt;&lt;/youtube&gt;</highlight>
 
 <youtube src="KVJBHSOx9jI"></youtube>
 
+<dots></dots>
+
+
+<grostitre>Vimeo</grostitre>
+
+<highlight lang="html">&lt;vimeo src=&quot;874986396&quot;&gt;&lt;/vimeo&gt;</highlight>
+
+<vimeo src="874986396"></vimeo>
 
 <dots></dots>
+
 
 <grostitre>Clipinfo</grostitre>
 
@@ -68,15 +79,15 @@
 
 <highlight lang="dos">clipinfo.bat videos/le-boson-de-higgs.mp4</highlight>
 
-<img src="images/drag-and-drop.png">
+<img class="full" src="images/drag-and-drop.webp">
 
 <dots></dots>
 
 
 <grostitre>Exemple</grostitre>
 
-<highlight lang="html">&lt;clip src="videos/le-boson-de-higgs.mp4"&gt;&lt;/clip&gt;</highlight>
-<clip src="../components/videos/le-boson-de-higgs.mp4"></clip>
+<highlight lang="html">&lt;clip src=&quot;../components/videos/le-boson-de-higgs.mp4&quot; title=&quot;Qu&#039;est-ce que le boson de Higs?&quot;&gt;&lt;/clip&gt;</highlight>
+<clip src="../components/videos/le-boson-de-higgs.mp4" title="Qu'est-ce que le boson de Higs?"></clip>
 
 <dots></dots>
 
@@ -125,6 +136,5 @@
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

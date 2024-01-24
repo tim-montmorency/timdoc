@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -45,7 +44,7 @@
             <article>
                 <div id="contents">
                     <!-- EXERCICE HEADER EOF -->
-<p>Pour cet exercice vous devez recréer un menu permettant de choisir parmi certains personnages du jeu <a href="https://playoverwatch.com/fr-fr/">Overwatch</a>. Afin d’éviter de vous répéter, vous devrez tirer profit de la boucle <code>@each</code> de&nbsp;Scss.</p>
+<p>Pour cet exercice vous devez recréer un menu permettant de choisir parmi certains personnages du jeu <a href="https://playoverwatch.com/fr-fr/">Overwatch</a>. Afin d’éviter de vous répéter, vous devrez tirer profit de la boucle <span class="inline-code">@each</span> de&nbsp;Scss.</p>
 
     
     
@@ -61,10 +60,10 @@
 <mediafile src="https://tim-montmorency.com/timdoc/582-518MO/exercices/sass-each-menu-overwatch/images/[nom du personnage].jpg">Images des personnages (remplacer la partie entre [] avant le .jpg)</mediafile>
 
 <checklist>Ajoutez l'image d'arrière-plan en fond de page. Celle-ci doit couvrir entièrement la page, être centrée et ne doit afficher qu'une seule fois.
-Faites-en sorte que l'élément avec la classe <code>.overwatch</code> soit centré verticalement ↕️ dans la page.
+Faites-en sorte que l'élément avec la classe <span class="inline-code">.overwatch</span> soit centré verticalement ↕️ dans la page.
 Les personnages <em>(.characters)</em> doivent être centrés horizontalement ↔️, doivent pouvoir s'afficher sur plusieurs lignes, mais tenter de s'afficher autant que possible sur une même ligne si l'espace le permet.
-Utilisez une boucle <code>@each</code> afin de générer des noms de classes ciblant chacun des personnages suivants: <br><em>echo, genji, hanzo, junkrat, lucio, mccree, mercy, moira, orisa, pharah, reaper, reinhardt</em>
-Pour chacun de ces personnages, ajouter une image d'arrière-plan dont le chemin de fichier correspond à: <br><code>https://tim-montmorency.com/timdoc/582-518MO/exercices/sass-each-menu-overwatch/images/[nom du personnage].jpg</code> <br>et assurez que cette image soit entièrement visible <em>(les noms des personnages ne devraient pas être tronqués)</em>.
+Utilisez une boucle <span class="inline-code">@each</span> afin de générer des noms de classes ciblant chacun des personnages suivants: <br><em>echo, genji, hanzo, junkrat, lucio, mccree, mercy, moira, orisa, pharah, reaper, reinhardt</em>
+Pour chacun de ces personnages, ajouter une image d'arrière-plan dont le chemin de fichier correspond à: <br><span class="inline-code">https://tim-montmorency.com/timdoc/582-518MO/exercices/sass-each-menu-overwatch/images/[nom du personnage].jpg</span> <br>et assurez que cette image soit entièrement visible <em>(les noms des personnages ne devraient pas être tronqués)</em>.
 Profitez du nesting de Scss afin de créer un effet de survole sur les personnages. Ceux-ci doivent grandir de 10% en l'espace d'un tiers de seconde, lorsque survolé par la souris.
 </checklist>
 
@@ -103,6 +102,5 @@ Profitez du nesting de Scss afin de créer un effet de survole sur les personnag
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

@@ -4,6 +4,7 @@
  * @title    Vertical-align
  * @icon     images/icon.png
  * @abstract baseline, top, middle, bottom, super, sub
+ * @ref      web/css
  */
 ?>
 

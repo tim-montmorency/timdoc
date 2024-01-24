@@ -4,6 +4,7 @@
  * @title    Display
  * @icon     images/icon.png
  * @abstract block, inline, inline-block, none
+ * @ref      web/css
  */
 ?>
 

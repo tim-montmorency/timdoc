@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Emmet</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 2</a> > <a href="../">HTML</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Emmet</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Écrire du HTML est relativement facile. Cependant, cette tâche peut rapidement devenir longue et répétitive. Heureusement, l’extension Emmet permet d’éviter une partie de cette redondance, tout en accélérant le processus.</p>
+
+<p>De plus, cette extension est disponible sur la majorité des éditeurs de texte et vient même préinstallée sur <a target="_blank" href="https://codepen.io/">CodePen</a> et <a target="_blank" href="https://code.visualstudio.com/">VS Code</a>.</p>
+
+<dots></dots>
+
+
+<grostitre>Gabarit HTML</grostitre>
+
+
+<p>Une page HTML est toujours constituée d'un doctype, des balises <span class="inline-code">html</span>, <span class="inline-code">head</span>, <span class="inline-code">body</span>, etc. Plutôt que de mémoriser ce gabarit <em>(boilerplate)</em>, Emmet propose l'abréviation <span class="inline-code">! + tab</span> afin d'obtenir un gabarit de base prêt à être utilisé.</p>
+
+<clipasset src="videos/emmet-boilerplate.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>Balise</grostitre>
+
+<p>Par exemple, plutôt que de taper au long:</p>
+
+<clipasset src="videos/emmet-strong-1.mp4"></clipasset>
+
+<p>Il est possible de simplement taper le nom de la balise désirée, suivi de la touche <span class="inline-code">tab</span>. Dans ce cas <span class="inline-code">strong + tab</span></p>
+
+<clipasset src="videos/emmet-strong-2.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>ID</grostitre>
+
+<p>Il est aussi possible d'écrire une balise avec un id en préfixant ce dernier par un <span class="inline-code">#</span>, comme en CSS, suivi de la touche <span class="inline-code">tab</span>.</p>
+
+<clipasset src="videos/emmet-id.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>Sans balise</grostitre>
+
+<p>Il est possible d'allez encore plus rapidement en omettant de spécifier une balise. Dans ce scénario, Emmet se basera sur le contexte pour déterminer le type de balise le plus approprié.</p>
+
+<clipasset src="videos/emmet-sans-balise.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>Texte</grostitre>
+
+<p>Il est possible de spécifier le contenu texte d'une balise en l'incluant entre <span class="inline-code">{}</span>.</p>
+
+<clipasset src="videos/emmet-texte.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>Balise enfant</grostitre>
+
+<p>Il est possible d'ajouter une balise enfant à une balise parent en les séparant par le caractère <span class="inline-code">&gt;</span>.</p>
+
+<clipasset src="videos/emmet-children.mp4"></clipasset>
+
+<bravo>Emmet se charge même de l’indentation!</bravo>
+
+<dots></dots>
+
+
+<grostitre>Multiplicateur</grostitre>
+
+<p>Pourquoi copier/coller plusieurs lignes, quand Emmet offre d'utiliser le symbole <span class="inline-code">*</span> suivi d'un chiffre pour indiquer le nombre de lignes souhaitées.</p>
+
+<p>Par exemple, pour avoir trois <span class="inline-code">li</span> dans un <span class="inline-code">ul</span></p>
+
+<clipasset src="videos/emmet-multiplicateur.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>Index</grostitre>
+
+<p>Le symbole dollar <span class="inline-code">$</span> représente l'index courant. Lorsqu'il est combiné avec le symbole multiplicateur <span class="inline-code">*</span>, il est remplacé par l'index de l'élément généré.</p>
+
+<p>Par exemple, si nous avons trois <span class="inline-code">li</span>.</p>
+
+<clipasset src="videos/emmet-dollar.mp4"></clipasset>
+
+<p>Il est aussi possible de l'utiliser dans le texte d'une balise.</p>
+
+<clipasset src="videos/emmet-dollar-texte.mp4"></clipasset>
+
+<dots></dots>
+
+        <a class="tool" target="_blank" href="https://docs.emmet.io/cheat-sheet/">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">Cheat Sheet Emmet</span>
+                    <span class="tool-description">Cheat Sheet permettant de voir tous les raccourcis Emmet disponible dans les différents contextes.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(tools/cheat-sheet-emmet/images/thumb.jpg)"></div>
+            </div>
+        </a>
+
+<dots></dots>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

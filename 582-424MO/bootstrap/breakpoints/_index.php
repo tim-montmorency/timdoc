@@ -3,8 +3,10 @@
 /**
  * @type     article
  * @title    Breakpoints
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Déterminent le comportement de votre mise en page réactive
+ * @index    960
+ * @ref      web/quadriciels/bootstrap
  */
 ?>
 <p>Les points d'arrêt <em>(breakpoints)</em> sont des dimensions déterminées qui affectent la présentation de votre mise en page en fonction de la taille des périphériques ou des fenêtres d'affichage dans Bootstrap.</p>
@@ -49,7 +51,7 @@
                 Small
             </td>
             <td>
-                <code>sm</code>
+                <incode>sm</incode>
             </td>
             <td>
                 576px et&nbsp;+
@@ -60,7 +62,7 @@
                 Medium
             </td>
             <td>
-                <code>md</code>
+                <incode>md</incode>
             </td>
             <td>
                 768px et&nbsp;+
@@ -71,7 +73,7 @@
                 Large
             </td>
             <td>
-               <code>lg</code>
+               <incode>lg</incode>
             </td>
             <td>
                 992px et&nbsp;+
@@ -82,7 +84,7 @@
                Extra large
             </td>
             <td>
-                <code>xl</code>
+                <incode>xl</incode>
             </td>
             <td>
                 1200px et&nbsp;+
@@ -93,7 +95,7 @@
                 Extra extra large
             </td>
             <td>
-                <code>xxl</code>
+                <incode>xxl</incode>
             </td>
             <td>
                 1400px et&nbsp;+
@@ -106,28 +108,28 @@
 <p>Par exemple:</p>
 <ul>
     <li>
-        <code>X-small</code>&nbsp;vise les appareils mobiles en mode&nbsp;portrait 📱.<br>
+        <incode>X-small</incode>&nbsp;vise les appareils mobiles en mode&nbsp;portrait 📱.<br>
         <small>400x700</small>
     </li>
     <li>
-        <code>Small</code>&nbsp;les appareils mobiles en mode&nbsp;landscape.<br>
+        <incode>Small</incode>&nbsp;les appareils mobiles en mode&nbsp;landscape.<br>
         <small>576x330</small>
     </li>
     <li>
-        <code>Medium</code>&nbsp;les tablettes en mode&nbsp;portrait.<br>
+        <incode>Medium</incode>&nbsp;les tablettes en mode&nbsp;portrait.<br>
         <small>768x1024</small>
     </li>
     <li>
-        <code>Large</code>&nbsp;les tablettes en mode&nbsp;landscape.<br>
+        <incode>Large</incode>&nbsp;les tablettes en mode&nbsp;landscape.<br>
         <small>992x558</small>
 
     </li>
     <li>
-        <code>X-large</code>&nbsp;les&nbsp;laptops 💻.<br>
+        <incode>X-large</incode>&nbsp;les&nbsp;laptops 💻.<br>
         <small>1200x675</small>
     </li>
     <li>
-        <code>XX-large</code>&nbsp;les moniteurs&nbsp;externes 🖥.<br>
+        <incode>XX-large</incode>&nbsp;les moniteurs&nbsp;externes 🖥.<br>
         <small>1400x764</small>
     </li>
 </ul>

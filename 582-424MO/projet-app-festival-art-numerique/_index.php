@@ -1,9 +1,9 @@
 <?php
 /**
  * @type     list
- * @title    Projet: Air Flight
+ * @title    Projet: App festival art
  * @icon     images/icon.svg
- * @abstract Événement sur l'art numérique: Création d'une landing page et de l'interface web de l'appli mobile
+ * @abstract Création d'une page promotionnelle présentant l'appli mobile d'un festival d'art numérique
  * @index    1
  */
 ?>

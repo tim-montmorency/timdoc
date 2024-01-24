@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,7 +39,10 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Projet Web</a> > <a href="../">Sass</a> ></div>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">Sass</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/sass/">Sass</a>&nbsp;>&nbsp;</div>
+                </div>
                 <h1 id="title"><img src="images/icon.png">&nbsp;Conditions</h1>
             </div>
             <article>
@@ -52,10 +54,10 @@
 
 <dots></dots>
 <grostitre>@if</grostitre>
-<p>La règle <code>@if</code> permet de contrôler l'exécution d'un bloc de style en fonction d'une condition.</p>
+<p>La règle <span class="inline-code">@if</span> permet de contrôler l'exécution d'un bloc de style en fonction d'une condition.</p>
 
-<p>Par exemple, une mixin qui permettrait de générer un avatar carré ou circulaire en fonction de la valeur du paramètre <code>rounded</code> <em>(true ou false)</em>:</p>
-<highlight lang='css'>@mixin avatar($size: 100px, $rounded: false) {
+<p>Par exemple, une mixin qui permettrait de générer un avatar carré ou circulaire en fonction de la valeur du paramètre <span class="inline-code">rounded</span> <em>(true ou false)</em>:</p>
+<highlight lang="css">@mixin avatar($size: 100px, $rounded: false) {
   width: $size;
   height: $size;
   background-size: cover;
@@ -68,16 +70,16 @@
 
 <br>
 <p>Pour obtenir un avatar carré de 100px, il serait possible d'écrire:</p>
-<highlight lang='css'>.avatar-facebook {
-  @include avatar; // Aucun paramètre. Tout par défaut
-  background-image: url('facebook-logo.png');
+<highlight lang="css">.avatar-facebook {
+  @include avatar; // Aucun param&egrave;tre. Tout par d&eacute;faut
+  background-image: url(&#039;facebook-logo.png&#039;);
 }</highlight>
 
 <br>
 <p>Tandis que pour obtenir un avatar rond de 200px:</p>
-<highlight lang='css'>.avatar-twitter {
+<highlight lang="css">.avatar-twitter {
   @include avatar(200px, true);
-  background-image: url('twitter-logo.png');
+  background-image: url(&#039;twitter-logo.png&#039;);
 }</highlight>
 
 
@@ -86,12 +88,12 @@
 <br>
 <p>Ce qui produirait les codes suivant:</p>
 
-<highlight lang='css'>.avatar-facebook {
+<highlight lang="css">.avatar-facebook {
   width: 100px;
   height: 100px;
   background-size: cover;
   background-position: 50% 50%;
-  background-image: url('facebook-logo.png');
+  background-image: url(&#039;facebook-logo.png&#039;);
 }
 
 .avatar-twitter {
@@ -100,7 +102,7 @@
   background-size: cover;
   background-position: 50% 50%;
   border-radius: 50%;
-  background-image: url('twitter-logo.png');
+  background-image: url(&#039;twitter-logo.png&#039;);
 }</highlight>
 
 <doclink href='https://sass-lang.com/documentation/at-rules/control/if'>@if</doclink>
@@ -109,11 +111,11 @@
 <dots></dots>
 <grostitre>@else</grostitre>
 
-<p>La règle <code>@else</code> permet de déclencher l'exécution d'un bloc de style lorsqu'une condition <a rel="noopener noreferrer" href="#if">@if</a> n'est pas respectée.</p>
+<p>La règle <span class="inline-code">@else</span> permet de déclencher l'exécution d'un bloc de style lorsqu'une condition <a rel="noopener noreferrer" href="#if">@if</a> n'est pas respectée.</p>
 
 <p>Par exemple, une mixin de choix de thème de couleur:</p>
 
-<highlight lang='css'>@mixin dark-theme($dark: true) {
+<highlight lang="css">@mixin dark-theme($dark: true) {
   @if $dark {
     background: black;
     color: white;
@@ -126,7 +128,7 @@
 <br><br>
 <p>Pour obtenir un menu blanc ⚪️ avec texte noir ⚫️ , il serait possible d'écrire:</p>
 
-<highlight lang='css'>.menu {
+<highlight lang="css">.menu {
   @include dark-theme(false);
 }</highlight>
 
@@ -136,7 +138,7 @@
 
 <p>Ce qui générerait le code suivant:</p>
 
-<highlight lang='css'>.menu {
+<highlight lang="css">.menu {
   background: white;
   color: black;
 }</highlight>
@@ -155,7 +157,7 @@
 <p>Par exemple, si pour créer une mixin permettant de gérer les breakpoints CSS d'un site à partir de mots-clés plutôt que de chiffres qui sont parfois difficiles à retenir, il serait possible de faire:</p>
 
 
-<highlight lang='css'>@mixin breakpoint($size: sm) {
+<highlight lang="css">@mixin breakpoint($size: sm) {
   @if $size == sm {
     @media (min-width: 576px) { @content; }
   } @else if $size == md {
@@ -168,10 +170,10 @@
 }</highlight>
 <br><br>
 
-<p>Remarquez <code>@content</code> qui permet de récupérer tout ce qui se trouve à l'intérieur du <code>@include</code> de la mixin. </p><p>Par exemple:</p>
+<p>Remarquez <span class="inline-code">@content</span> qui permet de récupérer tout ce qui se trouve à l'intérieur du <span class="inline-code">@include</span> de la mixin. </p><p>Par exemple:</p>
 
 
-<highlight lang='css'>@include breakpoint(md) {
+<highlight lang="css">@include breakpoint(md) {
   body { font-size: 18px; }
 }</highlight>
 
@@ -180,7 +182,7 @@
 
 
 <p>Générera le code suivant:</p>
-<highlight lang='css'>@media (min-width: 768px) {
+<highlight lang="css">@media (min-width: 768px) {
   body { font-size: 18px; }
 }</highlight>
 
@@ -199,6 +201,5 @@
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

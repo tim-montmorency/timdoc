@@ -14,7 +14,7 @@
 
 <grostitre>Code pour quiter</grostitre>
 <p>Voici un exemple de fonction qui permet de quitter le jeu:</p>
-<highlight lang="C#">
+<highlight lang="csharp">
 public void quitterPartie()
     {
         Application.Quit();

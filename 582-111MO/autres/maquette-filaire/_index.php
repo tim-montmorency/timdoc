@@ -4,6 +4,7 @@
  * @title    Maquette Filaire
  * @icon     images/icon.png
  * @abstract Plan architectural
+ * @ref      web/autres
  */
 ?>
 
@@ -30,7 +31,7 @@
 
 <grostitre>Vidéo explicative</grostitre>
 
-<youtube src="./videos/maquette_filaire.json"></youtube>
+<youtube src="bRzQx_qJaXw"></youtube>
 
 <dots></dots>
 

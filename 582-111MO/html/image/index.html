@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,7 +39,10 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Web 1</a> > <a href="../">HTML</a> ></div>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 1</a> > <a href="../">HTML</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/html/">HTML</a>&nbsp;>&nbsp;</div>
+                </div>
                 <h1 id="title"><img src="images/icon.png">&nbsp;Image</h1>
             </div>
             <article>
@@ -48,7 +50,7 @@
                     <!-- ARTICLE HEADER EOF -->
 
 
-<p class="spacer">La balise <incode>&lt;img&gt;</incode> permet d'afficher une image. Seul son attribut <incode>src</incode> est obligatoire puisqu'il spécifie <a href="../../autres/chemins/">le chemin</a> vers l'image à afficher.</p>
+<p class="spacer">La balise <span class="inline-code">&lt;img&gt;</span> permet d'afficher une image. Seul son attribut <span class="inline-code">src</span> est obligatoire puisqu'il spécifie <a href="../../autres/chemins/">le chemin</a> vers l'image à afficher.</p>
 
 <p>Par exemple:</p>
 
@@ -59,7 +61,7 @@
 
 <grostitre>Alt</grostitre>
 
-<p>L'attribut <incode>alt</incode>, bien que non obligatoire, est fortement recommandé puisqu'il permet de fournir une description alternative dans le cas où l'image ne puisse être chargée <em>(chemin brisé)</em>.</p>
+<p>L'attribut <span class="inline-code">alt</span>, bien que non obligatoire, est fortement recommandé puisqu'il permet de fournir une description alternative dans le cas où l'image ne puisse être chargée <em>(chemin brisé)</em>.</p>
 
 <p>Par exemple:</p>
 
@@ -69,20 +71,20 @@
 
 <p>👌</p>
 
-<highlight lang="html">&lt;img src="image.png" alt="carré vert, bleu et rouge"&gt;</highlight>
+<highlight lang="html">&lt;img src=&quot;image.png&quot; alt=&quot;carr&eacute; vert, bleu et rouge&quot;&gt;</highlight>
 
 <p>🚫</p>
 
-<highlight lang="html">&lt;img src="image.png" alt="image"&gt;</highlight>
+<highlight lang="html">&lt;img src=&quot;image.png&quot; alt=&quot;image&quot;&gt;</highlight>
 
-<info>Si l’image ne contient pas de contenu informatif, mais uniquement esthétique, par exemple une image d’une ligne diagonale utilisée entre deux blocs de contenu, il est suggéré d’inscrire <incode>alt=""</incode> afin d’indiquer que l’image est purement décorative.</info>
+<info>Si l’image ne contient pas de contenu informatif, mais uniquement esthétique, par exemple une image d’une ligne diagonale utilisée entre deux blocs de contenu, il est suggéré d’inscrire <span class="inline-code">alt=&quot;&quot;</span> afin d’indiquer que l’image est purement décorative.</info>
 
 <dots></dots>
 
 
 <grostitre>Width & Height</grostitre>
 
-<p>Les attributs <incode>width</incode> et <incode>height</incode> permettent de spécifier la dimension intrinsèque de l'image. C'est à dire sa dimension d'origine si celle-ci n'était pas manipulée en CSS. Ces attributs ne doivent pas spécifier d'unité de mesure. Le navigateur assumera automatiquement que ces valeurs sont exprimées en pixels <em>(px)</em>.</p>
+<p>Les attributs <span class="inline-code">width</span> et <span class="inline-code">height</span> permettent de spécifier la dimension intrinsèque de l'image. C'est à dire sa dimension d'origine si celle-ci n'était pas manipulée en CSS. Ces attributs ne doivent pas spécifier d'unité de mesure. Le navigateur assumera automatiquement que ces valeurs sont exprimées en pixels <em>(px)</em>.</p>
 
 <p>Par exemple:</p>
 
@@ -92,11 +94,11 @@
 
 <p>👌</p>
 
-<highlight lang="html">&lt;img src="image.png" width="100" height="100"&gt;</highlight>
+<highlight lang="html">&lt;img src=&quot;image.png&quot; width=&quot;100&quot; height=&quot;100&quot;&gt;</highlight>
 
 <p>🚫</p>
 
-<highlight lang="html">&lt;img src="image.png" width="100px" height="100px"&gt;</highlight>
+<highlight lang="html">&lt;img src=&quot;image.png&quot; width=&quot;100px&quot; height=&quot;100px&quot;&gt;</highlight>
 
 <dots></dots>
 
@@ -110,19 +112,19 @@
 
 <grostitre>Loading</grostitre>
 
-<p>L'attribut <incode>loading</incode> permet d'indiquer la priorité de chargement d'une image. Par défaut, le navigateur tente de charger toutes images en accordant une légère priorité à celles visibles au chargement de la page dans la fenêtre. Cependant il est possible de lui spécifier différentes valeurs:</p>
+<p>L'attribut <span class="inline-code">loading</span> permet d'indiquer la priorité de chargement d'une image. Par défaut, le navigateur tente de charger toutes images en accordant une légère priorité à celles visibles au chargement de la page dans la fenêtre. Cependant il est possible de lui spécifier différentes valeurs:</p>
 
 <ul>
-    <li><incode>auto</incode> comportement normal, soit l'équivalent de ne pas mettre l'attribut.</li>
-    <li><incode>lazy</incode> attendre que l'image soit sur le point d'être visible avant de la chargée. Donc si un usager ne fait jamais défiler la page jusqu'à celle-ci, l'image ne sera jamais chargée. Cette option permet d'accélérer le chargement de la page 🏁.</li>
-    <li><incode>eager</incode> indique de charger l'image le plus rapidement possible, peu importe sa position dans la page.</li>
+    <li><span class="inline-code">auto</span> comportement normal, soit l'équivalent de ne pas mettre l'attribut.</li>
+    <li><span class="inline-code">lazy</span> attendre que l'image soit sur le point d'être visible avant de la chargée. Donc si un usager ne fait jamais défiler la page jusqu'à celle-ci, l'image ne sera jamais chargée. Cette option permet d'accélérer le chargement de la page 🏁.</li>
+    <li><span class="inline-code">eager</span> indique de charger l'image le plus rapidement possible, peu importe sa position dans la page.</li>
 </ul>
 
 <p>Par exemple, pour faire du <em>"lazy-loading"</em>:</p>
 
 <codepen id="PoBXqPZ" tab="html,result" height="340"></codepen>
 
-<warning>Si une image est visible au chargement de la page, il est recommandé de ne pas lui ajouter l’attribut <incode>loading="lazy"</incode> afin de forcer son chargement le plus rapidement possible.</warning>
+<warning>Si une image est visible au chargement de la page, il est recommandé de ne pas lui ajouter l’attribut <span class="inline-code">loading=&quot;lazy&quot;</span> afin de forcer son chargement le plus rapidement possible.</warning>
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Img">img</doclink>
 <doclink href="https://www.w3schools.com/tags/tag_img.asp">img</doclink>
@@ -140,6 +142,5 @@
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

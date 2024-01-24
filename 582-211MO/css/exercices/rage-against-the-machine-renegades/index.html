@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>Rage Against the Machine - Renegades</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Rage Against the Machine - Renegades</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p class="spacer">Pour cet exercice, vous devez écrire du CSS afin de recréer les différentes pochettes de l’album <a target="_blank" href="https://open.spotify.com/album/6iVOwFVjFRoQPgj8GUwSsi?si=nglcPF81SgWJP_EcVyxzaQ">Renegades du groupe Rage Against The Machine</a>.</p>
+
+<p>Ces pochettes sont un clin d’œil/parodie de l’œuvre <a target="_blank" href="https://fr.wikipedia.org/wiki/Love_(Indiana)">LOVE de Robert Indiana</a>.</p>
+
+<p>Pour ce faire, vous devrez manipuler les formes d’un élément SVG à l’aide de variables CSS.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<clipasset src="videos/ratm-renegades-resultat.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>Matériel</grostitre>
+
+<doclink href="./rage-against-the-machine-renegades.zip">Dossier de départ</doclink>
+
+<h3>Couleurs 🎨</h3>
+
+<color>#ca142c</color>
+<color>#2166a6</color>
+<color>#049d4c</color>
+<br>
+<color>#ffffff</color>
+<color>#000000</color>
+<color>#444444</color>
+
+<dots></dots>
+
+
+<grostitre>Requis</grostitre>
+
+<checklist>
+  Créez-vous des variables CSS à partir des couleurs fournies. Tous les éléments se voyant attribuer une couleur en CSS devront utiliser ces variables.
+  Le fond de la page doit être <em>gris</em>, tandis que l'album doit avoir une largeur équivalente à <em>80%</em> du côté le plus petit de la page et être centré horizontalement ↔️ dans celle-ci. <em>(Le SVG de la pochette attribuera automatiquement la hauteur désirée.)</em>
+  Par défaut, le fond de l'album doit être <em>vert</em>, les lettres doivent-être <em>rouge</em> et l'élément de contraste doit être <em>noir</em>.
+  Lorsque l'album est survolé, inversez la couleur des lettres avec celle de l'élément de contraste.
+  Lorsque la page atteint une largeur de <em>1000px</em> ou plus, la couleur de fond de l'album doit devenir <em>bleue</em>.
+  Le logo <em>"Parental advisory"</em> doit avoir une fond <em>blanc</em> ⚪️, une largeur correspondant à <em>15%</em> de celle de l'album et être positionné dans le coin <em>inférieur droit</em> de celui-ci ↘️, à l'équivalent de <em>3.5%</em> du côté le plus petit de la fenêtre.
+  Lorsque la page est plus haute que large, le logo <em>"Parental advisory"</em> doit-être déplacé dans le coin <em>supérieur droit</em> de l'album ↗️, toujours à l'équivalent de <em>3.5%</em> du côté le plus petit de la fenêtre.
+</checklist>
+
+<grostitre>Remise</grostitre>
+
+<checklist>
+  Renommez votre dossier <em>"ratm_[nom]_[prenom]"</em>.
+  Zippez votre dossier <em>"ratm_[nom]_[prenom]"</em>.
+  Joignez votre fichier <em>.zip</em> au devoir <em>"TP05: Rage Against the Machine - Renegades"</em>.
+</checklist>
+
+<dots></dots>
+
+
+<grostitre>Ambiance</grostitre>
+
+<youtube src="4KXdU3cZbNQ"></youtube>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../unites-de-mesure-avancees/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../unites-de-mesure-avancees/">Unités de mesure avancées</a></span>
+                <span class="intlink__item__abstract">vw, vh, vmin, vmax, calc, min, max, clamp</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../html/svg/images/icon.png);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../html/svg/">SVG</a></span>
+                <span class="intlink__item__abstract">Scalable Vector Graphics</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../media-queries/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../media-queries/">Media queries</a></span>
+                <span class="intlink__item__abstract">Requête @media</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../variables/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../variables/">Variables</a></span>
+                <span class="intlink__item__abstract">::root, var(--varname)</span>
+            </div>
+        </div>
+
+
+<dots></dots>
+
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,20 +39,23 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Intégration Web</a> > <a href="../">CSS</a> ></div>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Intégration Web</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
                 <h1 id="title"><img src="images/icon.png">&nbsp;Aspect-ratio</h1>
             </div>
             <article>
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
-<p>La propriété <incode>aspect-ratio</incode> permet de créer un élément dont la dimension reste proportionnelle, peu importe son contexte. Ainsi, la hauteur ou la largeur d’un élément est calculée à partir d’un ratio fourni. </p>
+<p>La propriété <span class="inline-code">aspect-ratio</span> permet de créer un élément dont la dimension reste proportionnelle, peu importe son contexte. Ainsi, la hauteur ou la largeur d’un élément est calculée à partir d’un ratio fourni. </p>
 
 <p>Par exemple, pour obtenir un élément parfaitement carré, il est possible de spécifier:</p>
 
 <highlight lang="css">aspect-ratio: 1 / 1;</highlight>
 
-<p>La première valeur du ratio correspond à la largeur tandis que la deuxième correspond à la hauteur <incode>width / height</incode>.</p>
+<p>La première valeur du ratio correspond à la largeur tandis que la deuxième correspond à la hauteur <span class="inline-code">width / height</span>.</p>
 
 <dots></dots>
 
@@ -61,8 +63,8 @@
 <grostitre>Valeurs</grostitre>
 
 <ul>
-  <li><incode>auto</incode> <em>(par défaut)</em> l'élément s'affiche selon son contenu, sans se soucier d'un ratio en particulier.</li>
-  <li><incode>16 / 9</incode> <em>(ou n'importe quelle fraction)</em></li>
+  <li><span class="inline-code">auto</span> <em>(par défaut)</em> l'élément s'affiche selon son contenu, sans se soucier d'un ratio en particulier.</li>
+  <li><span class="inline-code">16 / 9</span> <em>(ou n'importe quelle fraction)</em></li>
 </ul>
 
 <codepen id="poZYRxx" tab="result" height="340"></codepen>
@@ -72,20 +74,20 @@
 
 <grostitre>Width & Height</grostitre>
 
-<p>Lorsque <incode>aspect-ratio</incode> et une seule des propriétés <incode>width</incode> ou <incode>height</incode> sont définis, la deuxième s'ajuste automatiquement en fonction du ratio spécifié.</p>
+<p>Lorsque <span class="inline-code">aspect-ratio</span> et une seule des propriétés <span class="inline-code">width</span> ou <span class="inline-code">height</span> sont définis, la deuxième s'ajuste automatiquement en fonction du ratio spécifié.</p>
 
-<info>Comme le ferait une balise <incode>&lt;img&gt;</incode>.</info>
+<info>Comme le ferait une balise <span class="inline-code">&lt;img&gt;</span>.</info>
 
-<p>Cependant, si les propriétés <incode>width</incode> et <incode>height</incode> sont définies, la propriété <incode>aspect-ratio</incode> et sa valeur seront ignorées.</p>
+<p>Cependant, si les propriétés <span class="inline-code">width</span> et <span class="inline-code">height</span> sont définies, la propriété <span class="inline-code">aspect-ratio</span> et sa valeur seront ignorées.</p>
 
 <dots></dots>
 
 
 <grostitre>Contenu</grostitre>
 
-<p>Si le contenu d'un élément nécessite un espace plus grand que celui défini par <incode>aspect-ratio</incode>, l'élément s'étirera, brisant ainsi le ratio spécifié.</p>
+<p>Si le contenu d'un élément nécessite un espace plus grand que celui défini par <span class="inline-code">aspect-ratio</span>, l'élément s'étirera, brisant ainsi le ratio spécifié.</p>
 
-<p>Pour contourner ce problème, il est possible de spécifier <incode>min-height: 0;</incode> à l'élément afin de donner priorité à au ratio plutôt qu'au contenu.</p>
+<p>Pour contourner ce problème, il est possible de spécifier <span class="inline-code">min-height: 0;</span> à l'élément afin de donner priorité à au ratio plutôt qu'au contenu.</p>
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/aspect-ratio">aspect-ratio</doclink>
 
@@ -121,6 +123,5 @@
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

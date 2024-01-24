@@ -4,7 +4,8 @@
  * @title    Promesses JS intermédiaire
  * @icon     images/ico-promesse-js.png
  * @abstract promise.all(), promise.any()...
- * @index 98
+ * @index    98
+ * @ref      web/javascript
  */
 ?>
 
@@ -14,12 +15,12 @@
 
 <p>La relation entre des promesses peut varier. Parfois certaines sont interchangeables, alors qu'à d'autres moments elles sont toutes requises avant de pouvoir passer à l'étape&nbsp;suivante.</p>
 
-<p>Afin de gérer ces relations, l'objet&nbsp;<code>Promise</code>&nbsp;est doté de plusieurs méthodes permettant de retourner à son tour des promesses&nbsp;<em>(promise)</em>. Voici deux de ces méthodes les plus&nbsp;communes.</p>
+<p>Afin de gérer ces relations, l'objet&nbsp;<incode>Promise</incode>&nbsp;est doté de plusieurs méthodes permettant de retourner à son tour des promesses&nbsp;<em>(promise)</em>. Voici deux de ces méthodes les plus&nbsp;communes.</p>
 
 
 <grostitre>- all()</grostitre>
 
-<p>La méthode&nbsp;<code>Promise.all()</code>&nbsp;retourne une promesse respectée lorsque l'ensemble des promesses lui étant passées en paramètres sont respectées. Sa valeur de résultat contient un tableau populé par le résultat de chacune de ses&nbsp;sous-promesses.</p>
+<p>La méthode&nbsp;<incode>Promise.all()</incode>&nbsp;retourne une promesse respectée lorsque l'ensemble des promesses lui étant passées en paramètres sont respectées. Sa valeur de résultat contient un tableau populé par le résultat de chacune de ses&nbsp;sous-promesses.</p>
 
 <pre><code class="hljs javascript"><span class="hljs-keyword">const</span> p1 = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-params">resolve</span> =&gt;</span> resolve(<span class="hljs-string">"Promesse 1"</span>));
 <span class="hljs-keyword">const</span> p2 = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-params">resolve</span> =&gt;</span> resolve(<span class="hljs-string">"Promesse 2"</span>));
@@ -39,7 +40,7 @@
 <dots></dots>
 
 <grostitre>- any()</grostitre>
-<p>Contrairement à la méthode&nbsp;<a rel="noopener noreferrer" href="#all">Promise.all()</a>, la méthode&nbsp;<code>Promise.any()</code>&nbsp;retourne une promesse respectée dès qu'une promesse lui étant passées en paramètres est respectée. Sa valeur de résultat contient le résultat de la sous-promesses la plus rapide à&nbsp;répondre.</p>
+<p>Contrairement à la méthode&nbsp;<a rel="noopener noreferrer" href="#all">Promise.all()</a>, la méthode&nbsp;<incode>Promise.any()</incode>&nbsp;retourne une promesse respectée dès qu'une promesse lui étant passées en paramètres est respectée. Sa valeur de résultat contient le résultat de la sous-promesses la plus rapide à&nbsp;répondre.</p>
 
 <pre><code class="hljs javascript"><span class="hljs-keyword">const</span> p1 = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve</span>) =&gt;</span> resolve(<span class="hljs-string">"Promesse 1"</span>)); <span class="hljs-comment">// 🐢 lente</span>
 <span class="hljs-keyword">const</span> p2 = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve</span>) =&gt;</span> resolve(<span class="hljs-string">"Promesse 2"</span>)); <span class="hljs-comment">// 🐇 rapide</span>

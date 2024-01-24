@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,15 +39,18 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Optimisation Web</a> > <a href="../">GSAP</a> ></div>
-                <h1 id="title"><img src="images/icon.svg">&nbsp;5-Timeline</h1>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Optimisation Web</a> > <a href="../">GSAP</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/quadriciels/">Quadriciels</a>&nbsp;>&nbsp;<a href="../../../index/web/quadriciels/gsap/">GSAP</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="../images/icon.webp">&nbsp;5-Timeline</h1>
             </div>
             <article>
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
 <grostitre>Intro</grostitre>
-<p>La&nbsp;<code>Timeline</code>de&nbsp;<a target="_blank" rel="noopener noreferrer" href="../introduction">GSAP</a>&nbsp;permet d'organiser un groupe d'animations. Par exemple, pour enchaîner trois animations une à la suite de l'autre, afin de créer une animation complexe, il serait nécessaire d'appliquer un délai sur chacune d'entre&nbsp;elles.</p>
+<p>La&nbsp;<span class="inline-code">Timeline</span>de&nbsp;<a target="_blank" rel="noopener noreferrer" href="../introduction">GSAP</a>&nbsp;permet d'organiser un groupe d'animations. Par exemple, pour enchaîner trois animations une à la suite de l'autre, afin de créer une animation complexe, il serait nécessaire d'appliquer un délai sur chacune d'entre&nbsp;elles.</p>
 
 <p>Cependant, avec une timeline, il suffit d'enchainer les animations une à la suite de l'autre pour quelles se déclenches&nbsp;successivement.</p>
 
@@ -77,20 +79,20 @@
 <p>Par défaut, les animations sont ajoutées à la <em>fin</em> de la ligne de temps, de sorte qu'elles s'enchaînent les unes après les autres, mais vous pouvez utiliser le <em>paramètre position</em> pour contrôler précisément l'endroit où elles sont placées dans le temps. </p>
 
 
-<p>Il est parfois souhaitable qu'une animation se déclenche plus tôt ou plus tard et non immédiatement après l'animation précédente. Pour ce faire, il est possible de passer un 3<sup>e</sup>&nbsp;paramètre à une animation se trouvant dans une&nbsp;<code>timeline</code>. Ce 3e paramètre vient généralement après l'objet contenant les propriétés animées <em>{}</em> tel que démontré dans ces 2 exemples :</p>
+<p>Il est parfois souhaitable qu'une animation se déclenche plus tôt ou plus tard et non immédiatement après l'animation précédente. Pour ce faire, il est possible de passer un 3<sup>e</sup>&nbsp;paramètre à une animation se trouvant dans une&nbsp;<span class="inline-code">timeline</span>. Ce 3e paramètre vient généralement après l'objet contenant les propriétés animées <em>{}</em> tel que démontré dans ces 2 exemples :</p>
 
-<highlight lang='JavaScript'>gsap
+<highlight lang="JavaScript">gsap
   .timeline()
-  .from(".element.no1", { x:"400%" })
-  .from(".element.no2", { x:"400%" }, 0.5)
-  .from(".element.no3", { x:"400%"} );</highlight>
+  .from(&quot;.element.no1&quot;, { x:&quot;400%&quot; })
+  .from(&quot;.element.no2&quot;, { x:&quot;400%&quot; }, 0.5)
+  .from(&quot;.element.no3&quot;, { x:&quot;400%&quot;} );</highlight>
 <p>Autre exemple:</p>
 
-<highlight lang='JavaScript'>gsap
+<highlight lang="JavaScript">gsap
   .timeline()
-  .from(".element.no1", { x:"400%" })
-  .from(".element.no2", { x:"400%" }, '+=0.5')
-  .from(".element.no3", { x:"400%"} );</highlight>
+  .from(&quot;.element.no1&quot;, { x:&quot;400%&quot; })
+  .from(&quot;.element.no2&quot;, { x:&quot;400%&quot; }, &#039;+=0.5&#039;)
+  .from(&quot;.element.no3&quot;, { x:&quot;400%&quot;} );</highlight>
 
 <dots></dots>
 
@@ -99,7 +101,7 @@
 
 <p>Les paramètres de <em>position absolue</em> déterminent le moment du départ de l'animation d'un objet. Ce temps, spécifié en secondes, est le délai par rapport au déclenchement de la timeline (bref par rapport au début <em>ABSOLU</em> de la chaine d'animations).</p>
 
-<p>Par exemple, si le 2<sup>e</sup> 🟦 devait commencer après cinq secondes&nbsp;<em>(créant ainsi un délai)</em>, il serait possible d'utiliser&nbsp;<code>5</code> comme troisième paramètre.</p>
+<p>Par exemple, si le 2<sup>e</sup> 🟦 devait commencer après cinq secondes&nbsp;<em>(créant ainsi un délai)</em>, il serait possible d'utiliser&nbsp;<span class="inline-code">5</span> comme troisième paramètre.</p>
 
 <p class="codepen" data-height="300" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="LYJodBR" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/LYJodBR">
@@ -117,8 +119,8 @@
 
 <p>Il est possible de spécifier un délai de départ d'une animation par rapport à l'animation&nbsp;précédente, donc <em>RELATIF</em> à l'animation précédente. Ce délai peut être <em>positif ou négatif</em>.</p>
 
-<p>Par exemple, pour ajouter un délai d'une seconde avant de déclencher la prochaine animation, il est possible de spécifier&nbsp;<code>"+=1"</code>. </p>
-<p>Pour qu'une animation commence une seconde plus tôt, le code serait <code>"-=1"</code>, comme dans l'exemple&nbsp;suivant, où le 2<sup>e</sup>&nbsp;carré 🟦 débute au milieu de la course du 1<sup>er</sup> carré plutôt qu'à la fin de celle-ci.</p>
+<p>Par exemple, pour ajouter un délai d'une seconde avant de déclencher la prochaine animation, il est possible de spécifier&nbsp;<span class="inline-code">&quot;+=1&quot;</span>. </p>
+<p>Pour qu'une animation commence une seconde plus tôt, le code serait <span class="inline-code">&quot;-=1&quot;</span>, comme dans l'exemple&nbsp;suivant, où le 2<sup>e</sup>&nbsp;carré 🟦 débute au milieu de la course du 1<sup>er</sup> carré plutôt qu'à la fin de celle-ci.</p>
 
 <p class="codepen" data-height="330" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="bGxyMEz" data-user="tim-momo" style="height: 330px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/bGxyMEz">
@@ -135,7 +137,7 @@
 
 <p>Cependant, si l'objectif est de démarrer l'animation en même temps que la précédente, il existe une position efficace pouvant se synchroniser avec le début de l'animation précédente, et ce même si la durée de celle-ci venait à&nbsp;changer.</p>
 
-<p>Pour ce faire, il faut utiliser&nbsp;<code>"&lt;"</code>&nbsp;comme&nbsp;ceci:</p>
+<p>Pour ce faire, il faut utiliser&nbsp;<span class="inline-code">&quot;&lt;&quot;</span>&nbsp;comme&nbsp;ceci:</p>
 
 
 
@@ -146,7 +148,7 @@
 </p>
 
 
-<info>Il est même possible d’ajouter une valeur après le symbole <code>"&lt;"</code> si sa position doit être basée sur le début de l’animation précédente, mais être légèrement différente. Par exemple&nbsp;<code>"&lt;0.25"</code>.</info>
+<info>Il est même possible d’ajouter une valeur après le symbole <span class="inline-code">&quot;&lt;&quot;</span> si sa position doit être basée sur le début de l’animation précédente, mais être légèrement différente. Par exemple&nbsp;<span class="inline-code">&quot;&lt;0.25&quot;</span>.</info>
 
 
 <br><br><br><br>
@@ -176,8 +178,8 @@
 </p>
 <br>
 
-<p>Un label est défini grâce à&nbsp;<code>.add('red')</code>. Il est ensuite possible de sauter directement à cette
-    position dans la timeline en appelant&nbsp;<code>animation.play('red')</code>.</p>
+<p>Un label est défini grâce à&nbsp;<span class="inline-code">.add(&#039;red&#039;)</span>. Il est ensuite possible de sauter directement à cette
+    position dans la timeline en appelant&nbsp;<span class="inline-code">animation.play(&#039;red&#039;)</span>.</p>
 
 
 <dots></dots>
@@ -187,11 +189,11 @@
 <grostitre>Défaut (Defaults)</grostitre>
 
 
-<p>Certaines propriétés peuvent être partagées par plusieurs animations dans une&nbsp;<code>timeline</code>.</p>
-<p>Si tous les éléments ont une translation de&nbsp;<code>x: '400%'</code>&nbsp;et
-    un&nbsp;<code>ease</code>&nbsp;identique. Plutôt que de répéter cette combinaison sur chaque élément, il est
+<p>Certaines propriétés peuvent être partagées par plusieurs animations dans une&nbsp;<span class="inline-code">timeline</span>.</p>
+<p>Si tous les éléments ont une translation de&nbsp;<span class="inline-code">x: &#039;400%&#039;</span>&nbsp;et
+    un&nbsp;<span class="inline-code">ease</span>&nbsp;identique. Plutôt que de répéter cette combinaison sur chaque élément, il est
     possible de définir des propriétés/valeurs par défaut. Ainsi, toutes les animations enfants de
-    cette&nbsp;<code>timeline</code>&nbsp;partageront ces propriétés, à moins de la redéfinir à l'intérieur d'une
+    cette&nbsp;<span class="inline-code">timeline</span>&nbsp;partageront ces propriétés, à moins de la redéfinir à l'intérieur d'une
     animation&nbsp;spécifiquement.</p>
 <p>Par&nbsp;exemple:</p>
 
@@ -215,7 +217,7 @@
 </p>
 <p><a href="https://codepen.io/GreenSock/full/23d3979528b262cb07da37f6a7c7dd76" target="_blank">Voir les plugiciels&nbsp;disponibles</a>
 </p>
-<p>Lorsque GSDevTools est ajouté à un pen, la ligne&nbsp;<code>GSDevTools.create();</code>&nbsp;suffis à l'initialiser.
+<p>Lorsque GSDevTools est ajouté à un pen, la ligne&nbsp;<span class="inline-code">GSDevTools.create();</span>&nbsp;suffis à l'initialiser.
     Dès lors, un lecteur permettant de manipuler son animation devient&nbsp;disponible.</p>
 <p>Ce lecteur permet de:</p>
 <ul>
@@ -268,6 +270,5 @@
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

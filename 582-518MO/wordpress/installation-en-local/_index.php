@@ -50,7 +50,7 @@
 
 
 <ol start="3">
-    <li>Donnez ensuite le nom de votre projet à la base de données et appuyez sur le bouton&nbsp;<code>Create</code>.</li>
+    <li>Donnez ensuite le nom de votre projet à la base de données et appuyez sur le bouton&nbsp;<incode>Create</incode>.</li>
 </ol>
 <img src="images/phpmyadmin-form.jpg" alt="">
 
@@ -89,15 +89,15 @@ Si le message suivant s'affiche:<br>
         <p>Remplissez les informations de connexion à votre base de données.</p>
 
         <ul>
-            <li><code>Nom la base de données</code>&nbsp;correspond à celui que vous avez donné lorsque&nbsp;<a rel="noopener noreferrer" href="#base-de-donnees">vous avez créé votre base de données</a>&nbsp;dans&nbsp;phpMyAdmin.</li>
+            <li><incode>Nom la base de données</incode>&nbsp;correspond à celui que vous avez donné lorsque&nbsp;<a rel="noopener noreferrer" href="#base-de-donnees">vous avez créé votre base de données</a>&nbsp;dans&nbsp;phpMyAdmin.</li>
             
-            <li><code>Identifiant</code>, à moins que vous l'ayez changé, l'identifiant local par défaut est&nbsp;<em>root</em>.</li>
+            <li><incode>Identifiant</incode>, à moins que vous l'ayez changé, l'identifiant local par défaut est&nbsp;<em>root</em>.</li>
             
-            <li><code>Mot de passe</code>, à moins que vous l'ayez changé, le mot de passe local par défaut est&nbsp;<em>root</em>.</li>
+            <li><incode>Mot de passe</incode>, à moins que vous l'ayez changé, le mot de passe local par défaut est&nbsp;<em>root</em>.</li>
             
-            <li><code>Adresse de la base de données</code>&nbsp;laissez&nbsp;<em>localhost</em>.</li>
+            <li><incode>Adresse de la base de données</incode>&nbsp;laissez&nbsp;<em>localhost</em>.</li>
             
-            <li><code>Préfixe de tables</code>&nbsp;laissez&nbsp;<em>wp_</em>.</li>
+            <li><incode>Préfixe de tables</incode>&nbsp;laissez&nbsp;<em>wp_</em>.</li>
         </ul>
 
         <p>Et appuyer sur&nbsp;<em>Envoyer</em></p>

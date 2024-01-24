@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,7 +39,10 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Web 1</a> > <a href="../">HTML</a> ></div>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 1</a> > <a href="../">HTML</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/html/">HTML</a>&nbsp;>&nbsp;</div>
+                </div>
                 <h1 id="title"><img src="images/icon.png">&nbsp;Les tableaux</h1>
             </div>
             <article>
@@ -49,34 +51,33 @@
 
 <grostitre>Les tableaux</grostitre>
 
-<p>La balise en paire <incode>&lt;table&gt;</incode>
-    <incode>&lt;/table&gt;</incode> indique le début et la fin d'un tableau. Cette balise est de type block , on va donc la placer en dehors d'un paragraphe ou d'une <incode>div</incode>.
+<p>La balise en paire <span class="inline-code">&lt;table&gt;</span>
+    <span class="inline-code">&lt;/table&gt;</span> indique le début et la fin d'un tableau. Cette balise est de type block , on va donc la placer en dehors d'un paragraphe ou d'une <span class="inline-code">div</span>.
 </p>
 
-<h4>Indiquez les valeurs du tableau avec les balises HTML <incode>&lt;tr&gt;</incode> et <incode> &lt;td&gt;</incode>
+<h4>Indiquez les valeurs du tableau avec les balises HTML <span class="inline-code">&lt;tr&gt;</span> et <span class="inline-code">&lt;td&gt;</span>
 </h4>
 
-<info>Pour construire un tableau ligne par ligne, on indique pour chaque ligne,<incode> &lt;tr&gt;</incode> (pour <em>table row</em> ou <em>"rangée du tableau"</em>), le contenu des différentes cellules, <incode>&lt;td&gt;</incode> (pour table data ou <em>"donnée"</em> ou <em>"entrée"</em>):
+<info>Pour construire un tableau ligne par ligne, on indique pour chaque ligne,<span class="inline-code">&lt;tr&gt;</span> (pour <em>table row</em> ou <em>"rangée du tableau"</em>), le contenu des différentes cellules, <span class="inline-code">&lt;td&gt;</span> (pour table data ou <em>"donnée"</em> ou <em>"entrée"</em>):
     <ul>
         <li>
-            <incode>&lt;tr&gt;</incode>
-            <incode>&lt;/tr&gt;</incode> indique le début et la fin d'<em>une ligne du tableau</em>
+            <span class="inline-code">&lt;tr&gt;</span>
+            <span class="inline-code">&lt;/tr&gt;</span> indique le début et la fin d'<em>une ligne du tableau</em>
         </li>
         <li>
-            <incode>&lt;td&gt;</incode>
-            <incode>&lt;/td&gt;</incode> indique le début et la fin du <em>contenu d'une cellule</em>
+            <span class="inline-code">&lt;td&gt;</span>
+            <span class="inline-code">&lt;/td&gt;</span> indique le début et la fin du <em>contenu d'une cellule</em>
     </ul>
 
 </info><br><br>
 
 <img src="images/cellule.jpg">
 
-<p>On a une balise de ligne <incode>&lt;tr&gt;</incode> qui englobe un groupe de cellules <incode>&lt;td&gt;</incode>.</p>
+<p>On a une balise de ligne <span class="inline-code">&lt;tr&gt;</span> qui englobe un groupe de cellules <span class="inline-code">&lt;td&gt;</span>.</p>
 
 <p>Par exemple, si je veux faire un tableau à deux lignes, avec trois cellules par ligne (donc trois colonnes), je devrai taper ceci :</p>
 
-<highlight lang="html">
-&lt;table&gt;
+<highlight lang="html">&lt;table&gt;
     &lt;tr&gt;
         &lt;td&gt;Carmen&lt;/td&gt;
         &lt;td&gt;33 ans&lt;/td&gt;
@@ -85,7 +86,7 @@
     &lt;tr&gt;
         &lt;td&gt;Michelle&lt;/td&gt;
         &lt;td&gt;26 ans&lt;/td&gt;
-        &lt;td&gt;États-Unis&lt;/td&gt;
+        &lt;td&gt;&Eacute;tats-Unis&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;</highlight>
 
@@ -99,14 +100,13 @@
 
 <grostitre>En-tête d’un tableau</grostitre>
 
-<p>La ligne d'en-tête se crée avec un <incode>&lt;tr&gt;</incode> mais les cellules qu'elle contient sont, cette fois, encadrées par des balises <incode>&lt;th&gt; </incode> (pour table header ou "en-tête de tableau" en français) et non pas <incode>&lt;td&gt; </incode>
+<p>La ligne d'en-tête se crée avec un <span class="inline-code">&lt;tr&gt;</span> mais les cellules qu'elle contient sont, cette fois, encadrées par des balises <span class="inline-code">&lt;th&gt;</span> (pour table header ou "en-tête de tableau" en français) et non pas <span class="inline-code">&lt;td&gt;</span>
 </p>
 
-<highlight lang="html">
-&lt;table&gt;
+<highlight lang="html">&lt;table&gt;
     &lt;tr&gt;
         &lt;th&gt;Nom&lt;/th&gt;
-        &lt;th&gt;Âge&lt;/th&gt;
+        &lt;th&gt;&Acirc;ge&lt;/th&gt;
         &lt;th&gt;Pays&lt;/th&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -117,18 +117,18 @@
     &lt;tr&gt;
         &lt;td&gt;Michelle&lt;/td&gt;
         &lt;td&gt;26 ans&lt;/td&gt;
-        &lt;td&gt;États-Unis&lt;/td&gt;
+        &lt;td&gt;&Eacute;tats-Unis&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;</highlight>
 
 <p>La ligne d'en-tête est très facile à reconnaître pour deux raisons:</p>
 
 <ul>
-    <li>Les cellules sont des <incode>&lt;th&gt; </incode>au lieu des <incode>&lt;td&gt;</incode> habituels</li>
+    <li>Les cellules sont des <span class="inline-code">&lt;th&gt;</span>au lieu des <span class="inline-code">&lt;td&gt;</span> habituels</li>
     <li>C'est la première ligne du tableau</li>
 </ul>
 
-<info>Comme vous pouvez le constater, le navigateur a mis en gras le texte des cellules d'en-tête. C'est ce que font en général les navigateurs mais, si vous le désirez, vous pouvez changer cela à coups de CSS : modifier la couleur de fond des cellules d'en-tête, leur police, leur bordure, etc. Pour cela, il vous suffit d'utiliser le sélecteur <incode>th</incode> dans le CSS !</info>
+<info>Comme vous pouvez le constater, le navigateur a mis en gras le texte des cellules d'en-tête. C'est ce que font en général les navigateurs mais, si vous le désirez, vous pouvez changer cela à coups de CSS : modifier la couleur de fond des cellules d'en-tête, leur police, leur bordure, etc. Pour cela, il vous suffit d'utiliser le sélecteur <span class="inline-code">th</span> dans le CSS !</info>
 
 <dots></dots>
 
@@ -136,16 +136,15 @@
 
 <p>Normalement, chaque tableau devrait être accompagné d'un titre. Le titre du tableau permet d'informer rapidement le visiteur sur le contenu et le contexte du tableau. Dans notre exemple, nous présentons une liste de personnes... Sans titre de tableau, il est facile de se sentir perdu.</p>
 
-<p>Heureusement, la balise <incode>&lt;caption&gt;</incode> vient à notre secours pour ajouter un titre à notre tableau!</p>
+<p>Heureusement, la balise <span class="inline-code">&lt;caption&gt;</span> vient à notre secours pour ajouter un titre à notre tableau!</p>
 
 <p>Cette balise doit être placée au début du tableau, juste avant l'en-tête. Son contenu correspond au titre que vous souhaitez attribuer au tableau.</p>
 
-<highlight lang="html">
-&lt;table&gt;
+<highlight lang="html">&lt;table&gt;
         &lt;caption&gt;Passagers du vol 377&lt;/caption&gt;
         &lt;tr&gt;
             &lt;th&gt;Nom&lt;/th&gt;
-            &lt;th&gt;Âge&lt;/th&gt;
+            &lt;th&gt;&Acirc;ge&lt;/th&gt;
              &lt;th&gt;Pays&lt;/th&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
@@ -156,29 +155,28 @@
         &lt;tr&gt;
             &lt;td&gt;Michelle&lt;/td&gt;
             &lt;td&gt;26 ans&lt;/td&gt;
-            &lt;td&gt;États-Unis&lt;/td&gt;
+            &lt;td&gt;&Eacute;tats-Unis&lt;/td&gt;
         &lt;/tr&gt;
-&lt;/table&gt;
-</highlight>
+&lt;/table&gt;</highlight>
 
 <dots></dots>
 
 <grostitre>Un grand tableau avec des balises HTML</grostitre>
 
-<h4>Divisez un tableau avec les balises HTML <incode>thead</incode>, <incode>tbody</incode> et <incode>tfoot</incode>
+<h4>Divisez un tableau avec les balises HTML <span class="inline-code">thead</span>, <span class="inline-code">tbody</span> et <span class="inline-code">tfoot</span>
 </h4>
 
 <p>Si votre tableau est assez gros, vous aurez tout intérêt à le découper en plusieurs parties. Pour cela, il existe des balises HTML qui permettent de définir les trois “zones” du tableau:</p>
 
 <ol>
-    <li><em>L'en-tête du tableau </em>(en haut) se définit avec les balises <incode>&lt;thead&gt;</incode>
-        <incode>&lt;/thead&gt;</incode>
+    <li><em>L'en-tête du tableau </em>(en haut) se définit avec les balises <span class="inline-code">&lt;thead&gt;</span>
+        <span class="inline-code">&lt;/thead&gt;</span>
     </li>
-    <li><em>Le corps du tableau</em> (au centre) se définit avec les balises <incode>&lt;tbody&gt;</incode>
-        <incode>&lt;/tbody&gt;</incode>
+    <li><em>Le corps du tableau</em> (au centre) se définit avec les balises <span class="inline-code">&lt;tbody&gt;</span>
+        <span class="inline-code">&lt;/tbody&gt;</span>
     </li>
-    <li><em>Le pied du tableau</em> (en bas) se définit avec les balises <incode>&lt;tfoot&gt;</incode>
-        <incode>&lt;/tfoot&gt;</incode>
+    <li><em>Le pied du tableau</em> (en bas) se définit avec les balises <span class="inline-code">&lt;tfoot&gt;</span>
+        <span class="inline-code">&lt;/tfoot&gt;</span>
     </li>
 </ol>
 
@@ -198,19 +196,19 @@
 
 <grostitre>Fusionnez les cellules d'un tableau</grostitre>
 
-<h4>Fusionnez des cellules du tableau avec les attributs <incode>colspan</incode> et <incode>rowspan</incode>
+<h4>Fusionnez des cellules du tableau avec les attributs <span class="inline-code">colspan</span> et <span class="inline-code">rowspan</span>
 </h4>
 
-<p>Pour fusionner des cellules entre elles, il suffit d'ajouter un attribut dans la balise HTML <incode>&lt;td&gt;</incode>. Cela permet d'indiquer le nombre de cellules à fusionner entre elles (la balise des cellules).</p>
+<p>Pour fusionner des cellules entre elles, il suffit d'ajouter un attribut dans la balise HTML <span class="inline-code">&lt;td&gt;</span>. Cela permet d'indiquer le nombre de cellules à fusionner entre elles (la balise des cellules).</p>
 
 <p>II existe deux attributs pour deux types de fusions différentes:</p>
 
 <ol>
     <li><em>L'attribut</em>
-        <incode>colspan</incode> <em>permet de fusionner des colonnes</em>: la fusion s'effectue horizontalement, aussi bien sur les lignes d'en-tête que sur le contenu lui-même.
+        <span class="inline-code">colspan</span> <em>permet de fusionner des colonnes</em>: la fusion s'effectue horizontalement, aussi bien sur les lignes d'en-tête que sur le contenu lui-même.
     </li>
     <li><em>L'attribut </em>
-        <incode>rowspan</incode> <em>permet de fusionner des lignes</em>: là, deux lignes seront groupées entre elles. La fusion s'effectuera verticalement.
+        <span class="inline-code">rowspan</span> <em>permet de fusionner des lignes</em>: là, deux lignes seront groupées entre elles. La fusion s'effectuera verticalement.
     </li>
 </ol>
 
@@ -254,6 +252,5 @@
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

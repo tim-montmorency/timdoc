@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>Robert Charlebois - La maudite tournée</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title"><span style="font-size: 0.9em;">Robert Charlebois - La maudite tournée</span></h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p class="spacer">Pour cet exercice, vous devez écrire du CSS afin de recréer la pochette de l’album live <a target="_blank" href="https://open.spotify.com/album/54Eo0BU9H12llo3YtMcuTn">"La maudite tournée"</a> du célèbre chanteur québécois <a target="_blank" href="https://fr.wikipedia.org/wiki/Robert_Charlebois">Robert Charlebois</a>.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<clipasset src="./videos/apercu.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>Matériel</grostitre>
+
+<doclink href="./robert-charlebois-la-maudite-tournee.zip">Dossier de départ</doclink>
+
+<h3>Polices d'écriture 🚓</h3>
+
+<doclink href="./GillSansMTPro-BoldExtCond.zip">Gill Sans MT Pro Bold ExtCond</doclink>
+
+<h3>Couleurs 🎨</h3>
+
+<color>#0a0e11</color>
+<color>#333333</color>
+<color>#ffffff</color>
+<br>
+<color>#fce339</color>
+<color>#ae3c30</color>
+
+<h3>Médias 📷</h3>
+
+<mediafile src="./images/wing.webp">Aile</mediafile>
+<mediafile src="./images/robert.webp">Robert</mediafile>
+
+<br>
+
+<warning>Pour une meilleure exécution de l'exercice, certains des éléments HTML ont été cachés par défaut dans le fichier CSS. Rendez-les visible au fur et à mesure que vous avancez dans l'exercice.</warning>
+<thumbsup>Prenez le temps d'analyser le fichier HTML.</thumbsup>
+<alert>Il est <strong>INTERDIT</strong> de modifier le fichier HTML.</alert>
+
+<dots></dots>
+
+
+<grostitre>Requis de base</grostitre>
+
+<checklist>
+    Téléchargez les images et placez-les dans un dossier <span class="inline-code">images</span>.
+    Téléchargez police d'écriture et placez-la dans un dossier <span class="inline-code">fonts</span>.
+    Créez une variable pour chacune des couleurs pour utilisation ultérieure.
+    Créez une variable nommée <span class="inline-code">--speed</span> et attribuez-lui la valeur de <em>1.5 seconde</em>. Celle-ci servira à déterminer le temps de l'animation.
+    Le fond de la page doit être de couleur <em>grise</em> et avoir un dégradé vertical allant du <em>jaune</em> au <em>bleu</em>.
+    Fusionnez les deux fonds en mode <span class="inline-code">screen</span> afin de donner au gradient un effet délavé.
+    L'album doit avoir une largeur de <em>80%</em> du plus petit côté de la fenêtre, être de forme carré, être centré tant horizontalement que verticalement, être de couleur <em>charcoal</em> et avoir un ombrage de <em>10vmin</em> égal de tous les côtés de couleur <em>noire</em> semi-transparente.
+    Assurez-vous que rien ne dépasse de l'album.
+    Utilisez le pseudo-élément <span class="inline-code">::before</span> en position absolue et couvrant tout l'espace disponible afin de créer un effet de grain. Appliquez lui le filtre <span class="inline-code">url(#grain)</span> ainsi qu'un <em>grayscale</em> à <em>100%</em> et fusionnez-le en mode <span class="inline-code">soft-light</span>.
+</checklist>
+
+<grostitre>Requis textes</grostitre>
+
+<checklist>
+    À l'aide de <span class="inline-code">@font-face</span>, importez la police d'écriture <span class="inline-code">GillSansMTPro-BoldExtCond.otf</span>, nommez-la <em>Gill</em> et appliquez-la aux textes. Assurez-vous de mentionner le format.
+    Les textes doivent être positionnés de manière absolue, être centré horizontalement, avoir une grosseur de police d'écriture de <em>7vmin</em>, une hauteur de ligne de <em>6vmin</em> être de couleur <em>blanche</em> et avoir une déformation verticale d'un facteur de <em>1.5</em>.
+    Le nom de l'artiste doit être positionné à <em>7vmin</em> du haut et le nom de l'album à <em>6vmin</em> du bas.
+</checklist>
+
+<grostitre>Requis diable</grostitre>
+
+<checklist>
+    Le conteneur du diable (<span class="inline-code">.devil</span>) doit avoir une hauteur de <em>37%</em>, prendre tout l'espace disponible en largeur et être placé au centre de l'album grâce aux marges.
+    Robert (<span class="inline-code">.robert</span>) doit avoir une hauteur de <em>95%</em>, une largeur de <em>35%</em> et être positionné de manière absolue au centre bas de son parent grâce aux marges. Il doit avoir l'image <span class="inline-code">robert.webp</span> comme arrière-plan contenu et aligné au centre bas.
+    Les ailes (<span class="inline-code">.wing</span>) doivent avoir une hauteur de <em>69%</em>, prendre tout l'espace disponible en largeur et avoir l'image <span class="inline-code">wing.webp</span> comme arrière-plan contenu sans répétition.
+    Changez le point d'origine de transformation des ailes pour qu'il soit situé au centre bas de l'élément.
+    L'aile de gauche doit être positionné à <em>5%</em> de la gauche et l'aile de droite à <em>5%</em> de la droite.
+    Pour inverser l'aile de droite, appliquez lui une déformation horizontale d'un facteur de <em>-1</em>.
+</checklist>
+
+<grostitre>Requis animation</grostitre>
+
+<checklist>
+    Créez deux animations nommées <span class="inline-code">wing-left</span> et <span class="inline-code">wing-right</span> effectuant une rotation allant de <em>-7deg</em> à <em>5deg</em>. En plus de la rotation, l'animation de l'aile de droite doit aussi comporter la déformation horizontale appliquée plus haut.
+    Appliquez ces animations à leur aile respective avec une durée correspondant à la variable <span class="inline-code">--speed</span> de façon infinie et alternante.
+    Afin d'avoir un effet de floatement, créez une dernière animation nommée <span class="inline-code">devil</span> appliquant une translation verticale allant de <em>-2%</em> à <em>2%</em>.
+    Appliquez cette animation au conteneur du diable (<span class="inline-code">.devil</span>) avec une durée correspondant à la variable <span class="inline-code">--speed</span> de façon infinie et alternante et commençant lentement pour ralentissant en fin de parcours.
+</checklist>
+
+<dots></dots>
+
+
+<grostitre>Ambiance</grostitre>
+
+<youtube src="8zX_ZjuVOkY"></youtube>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../background/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../background/">Background</a></span>
+                <span class="intlink__item__abstract">color, image, gradient</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../linear-gradient/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../linear-gradient/">Linear-gradient</a></span>
+                <span class="intlink__item__abstract">Générer un dégradé.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../box-shadow/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../box-shadow/">Box-shadow</a></span>
+                <span class="intlink__item__abstract">Ombrage d'un élément.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../unites-de-mesure-avancees/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../unites-de-mesure-avancees/">Unités de mesure avancées</a></span>
+                <span class="intlink__item__abstract">vw, vh, vmin, vmax, calc, min, max, clamp</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../transformation/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../transformation/">Transformation</a></span>
+                <span class="intlink__item__abstract">translate, rotate, scale, skew, origin</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../animation/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../animation/">Animation</a></span>
+                <span class="intlink__item__abstract">@keyframes, animation-name, animation-duration, etc.</span>
+            </div>
+        </div>
+
+<dots></dots>
+
+
+
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

@@ -4,6 +4,7 @@
  * @title    Opacity
  * @icon     images/icon.png
  * @abstract Gérer l'opacité d'un élément.
+ * @ref      web/css
  */
 ?>
 

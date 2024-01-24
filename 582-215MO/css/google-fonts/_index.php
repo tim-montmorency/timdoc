@@ -4,6 +4,7 @@
  * @title    Google fonts
  * @icon     images/icon.png
  * @abstract + de 850 polices gratuites
+ * @ref      web/css
  */
 ?>
  <p class="spacer">Depuis 2010, le site <a target="_blank" href="https://fonts.google.com/">Google</a> fonts offre plusieurs centaines de polices <em>(+ de 850)</em> gratuitement, hébergées directement en ligne et prêtes à être utilisées.</p>

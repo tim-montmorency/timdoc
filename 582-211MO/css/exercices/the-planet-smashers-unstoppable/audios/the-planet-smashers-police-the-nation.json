@@ -1,0 +1,58 @@
+{
+"creatingLibrary": {
+"name": "MediaInfoLib",
+"version": "22.09",
+"url": "https://mediaarea.net/MediaInfo"
+},
+"media": {
+"@ref": "D:\\Programmation\\tim-montmorency\\timdoc\\582-215MO\\css\\exercices\\the-planet-smashers-unstoppable\\audios\\the-planet-smashers-police-the-nation.mp3",
+"track": [
+{
+"@type": "General",
+"AudioCount": "1",
+"FileExtension": "mp3",
+"Format": "MPEG Audio",
+"FileSize": "3181371",
+"Duration": "158.981",
+"OverallBitRate_Mode": "CBR",
+"OverallBitRate": "160000",
+"StreamSize": "1224",
+"Title": "Police The Nation",
+"Album": "Unstoppable",
+"Track": "Police The Nation",
+"Track_Position": "10",
+"Performer": "The Planet Smashers",
+"Genre": "Ska",
+"Recorded_Date": "2005",
+"File_Created_Date": "UTC 2023-02-26 12:18:22.290",
+"File_Created_Date_Local": "2023-02-26 07:18:22.290",
+"File_Modified_Date": "UTC 2023-02-26 12:18:25.692",
+"File_Modified_Date_Local": "2023-02-26 07:18:25.692",
+"Encoded_Library": "LAME3.99r"
+},
+{
+"@type": "Audio",
+"Format": "MPEG Audio",
+"Format_Version": "1",
+"Format_Profile": "Layer 3",
+"Format_Settings_Mode": "Joint stereo",
+"Format_Settings_ModeExtension": "MS Stereo",
+"Duration": "158.981",
+"BitRate_Mode": "CBR",
+"BitRate": "160000",
+"Channels": "2",
+"SamplesPerFrame": "1152",
+"SamplingRate": "44100",
+"SamplingCount": "7011072",
+"FrameRate": "38.281",
+"FrameCount": "6086",
+"Compression_Mode": "Lossy",
+"StreamSize": "3179625",
+"StreamSize_Proportion": "0.99945",
+"Encoded_Library": "LAME3.99r",
+"Encoded_Library_Settings": "-m j -V 4 -q 3 -lowpass 17.5 -b 160"
+}
+]
+}
+}
+

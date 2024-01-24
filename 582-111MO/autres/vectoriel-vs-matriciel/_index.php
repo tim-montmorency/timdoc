@@ -4,6 +4,7 @@
  * @title    Vectoriel vs Matriciel
  * @icon     images/icon.png
  * @abstract matrices & vecteurs
+ * @ref      web/autres
  */
 ?>
 

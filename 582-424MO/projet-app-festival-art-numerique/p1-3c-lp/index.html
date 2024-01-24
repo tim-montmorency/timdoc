@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>P1.3c LP - Swiper</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Optimisation Web</a> > <a href="../">Projet: App festival art</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.svg">&nbsp;P1.3c LP - Swiper</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+ 
+<grostitre>Finition de votre projet</grostitre>
+
+<checklist>
+Corrigez le mieux possible votre projet suite à l'évaluation de P1.2 et suite à l'évaluation formative de P1.3
+Assurez-vous de n’avoir aucun lien ou chemin d’accès absolu (qui commence par un slash&nbsp;/)
+Ajoutez un favicon
+Éditez la balise title de votre page
+Les liens du menu principal doivent pointer vers chaque section avec un anchor. S'ils en manquent, ajoutez les.
+Enlevez les références à ScrollSpy à moins que vous ayez réussi à bien l’implanter.
+</checklist>
+
+<grostitre>Swiper installation</grostitre>
+<checklist>Installez la librairie dans la page app/index.html (artwork.html n'en aura pas besoin alors on ne chargera pas la librarie pour rien dans cette page.)</checklist>
+<warning>Toujours intégrer les fichiers de librairies externes (Bootstrap, Swiper etc) AVANT vos propres fichiers de projet (script.js ou styles.css). Car il faut initialiser l’objet JavaScript Swiper qui se trouve dans le fichier swiper.js AVANT de pouvoir en créer une instance dans votre fichier script.js. L’inverse ne fonctionnerait pas.</warning>
+<h3>Notes de cours 📚</h3>
+            <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../swiper/images/icon.webp');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../swiper/#installation">Swiper</a></span>
+                    <span class="intlink__item__abstract">Le carousel tactile JavaScript le plus moderne</span>
+                </div>
+            </div>
+         
+<doclink href='https://swiperjs.com/get-started#use-swiper-from-cdn'>Install Swiper</doclink>
+
+
+<dots></dots>
+<grostitre>Section "voir plus" avec carrousel Swiper</grostitre>
+<p>Aperçu du résultat 👇</p>
+<clipasset src="videos/swiper-screenshot-requis-base.mp4"></clipasset>
+
+<checklist>Créez une nouvelle section Voir plus (view-more) et insérez la juste après la section fonctionnalité et juste avant celle de témoignages. Ajoutez-lui un id. 
+Assurez-vous que le lien « Voir plus » dans la navbar mène vers cette section.
+Le tire de cette section sera « Prévisualisez l'interface de l'appli. ». 
+Allez prendre quelques impression-écran format mobile de l’appli de votre collègue. Suggestion : - L’accueil de l’appli haut de page<br>- L’accueil de l’appli bas de page<br>- Page artwork haut de page<br>- Page artwork mi -page et/ou avec la modale ouverte<br>- Page artwork avec l’accordéon ouvert contenant le formulaire de réservation.
+Ajustez dans Photoshop afin que chaque image de vos impressions-écran aient la même dimension en pixel. Prenez le temps d'optimiser le poids de vos images, exportez-les en jpg et compressez un peu.
+De retour dans votre index.html, section view-more, ajoutez le HTML de base pour un Swiper et déposez une image écran par slide.
+Requis : pas de pagination, pas de scrollbar. Par contre, on veut les boutons précédent et suivant.
+Ajoutez la classe <em>.swiper-screenshots</em> sur le swiper que vous venez d’ajouter. Cette classe servira à cibler que ce swiper là lors de l’initialisation puisqu’il n’est pas le seul swiper du site et chaque swiper a sa propre configuration.
+En CSS, stylisez les images de ce Swiper en leur ajoutant une bordure pour simuler un cadre de téléphone.
+Dans votre script.js, initialisez ce Swiper là en le ciblant avec sa classe <em>.swiper-screenshots</em>.
+Toujours dans l’initialisation de swiper dans votre fichier script.js,ajoutez les propriétés nécessaire pour les requis suivants:<br>- Par défaut (mobile) on veut voir une seule slide à la fois<br>- dès le breakpoint 1200px, on veut voir 3 slides à la fois.<br>- les images dans les slides doivent être centrées dans celles-ci<br>- le carrousel doit être infini, c’est dire que lorsqu’on atteint la dernière slide, on continue à la première.<br>- on doit activer les boutons suivant et précédent.
+Finalement, ajoutez des styles afin que les 2 slides de côtés soient semi-transparentes et que celle qui est active au centre, ne soit pas transparente.
+Si vous voulez aller plus loin, vous pouvez essayer d’ajouter un cadre comme dans mon 2e exemple ci-haut (facultatif).
+</checklist>
+<doclink href='https://swiperjs.com/swiper-api#parameters'>Paramètres Swiper</doclink>
+
+<p>Ajouts facultatifs 👇</p>
+<clipasset src="videos/swiper-screenshot-facultatif.mp4"></clipasset>
+
+
+
+<h3>Notes de cours 📚</h3>
+            <div class="intlink__item">
+                <div class="intlink__item__icon" style="background-image: url('../../swiper/images/icon.webp');"></div>
+                <div class="intlink__item__description">
+                    <span class="intlink__item__title"><a target="_blank" href="../../swiper/#swiper">Swiper</a></span>
+                    <span class="intlink__item__abstract">Le carousel tactile JavaScript le plus moderne</span>
+                </div>
+            </div>
+         
+
+<dots></dots> 
+
+<grostitre>Mise en ligne de votre projet</grostitre>
+<p>Via github pages, publiez votre projet en ligne et remettez moi le url final de votre site!</p>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

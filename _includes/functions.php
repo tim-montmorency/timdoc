@@ -54,6 +54,44 @@ function print_breadcrumb() {
 
 
 /**
+ * print_breadcrumb_index
+ *
+ * @return void
+ */
+function print_breadcrumb_index() {
+    global $PAGE;
+    if(!$info = php_file_info($PAGE->file)) return;
+    if(empty($info->ref)) return;
+    $ref = 'index/'.strtolower(trim(str_replace('\\', '/', $info->ref), '/'));
+    $index = $PAGE->root;
+    foreach(explode('/', $ref) as $part) {
+        $index .= $part.'/';
+        if(!$data = php_file_info($index.'_index.php')) continue;
+        $url = getRelativePath($PAGE->file, $index);
+        echo '<a href="' . $url . '">' . $data->title . '</a>&nbsp;>&nbsp;';
+    }
+}
+
+
+
+function getRootCours() {
+    global $PAGE;
+    $path = getRelativePath($PAGE->file, $PAGE->root);
+    $path = join('/', array_slice(explode('/', $path), 1));
+    if(!$path) $path = './';
+    return $path;
+}
+
+function getIndexPath() {
+    global $PAGE;
+    if(!$PAGE->ref) return;
+    $index = $PAGE->root.'index/';
+    return getRelativePath($PAGE->file, $index);
+}
+
+
+
+/**
  * Get children pages
  *
  * @param  string $parent (optional) Parent page
@@ -132,16 +170,74 @@ function intlink($path=null){
 
 
 /**
- * register_tag
+ * getIndexReferences
  *
- * @param  mixed $tag
- * @param  mixed $clb
  * @return void
  */
-function register_tag($tag, $clb) {
+function getIndexReferences($name=null) {
+    static $references = null;
     global $PAGE;
-    return $PAGE->registerTag($tag, $clb);
+    if($references === null) {
+        $references = [];
+        foreach(dig($PAGE->root.'_index.php') as $file) {
+            if(!$info = php_file_info($file)) continue;
+            if(!empty($info->ref)) {
+                $ref = strtolower(trim(str_replace('\\', '/', $info->ref), '/\\'));
+                $info->file = $file;
+                $references[$ref][] = $info;
+            }
+        }
+        foreach($references as $k => $v) {
+            usort($v, function($a, $b) { return strnatcmp($a->title, $b->title); });
+            $references[$k] = $v;
+        }
+    }
+    if(!$name) return $references;
+    elseif(empty($references[$name])) return [];
+    else return $references[$name];
 }
+
+
+/**
+ * getRelativePath
+ *
+ * @param  mixed $from
+ * @param  mixed $to
+ * @return void
+ */
+function getRelativePath($from, $to) {
+    // some compatibility fixes for Windows paths
+    $from = is_dir($from) ? rtrim($from, '\/') . '/' : $from;
+    $to   = is_dir($to)   ? rtrim($to, '\/') . '/'   : $to;
+    $from = str_replace('\\', '/', $from);
+    $to   = str_replace('\\', '/', $to);
+
+    $from     = explode('/', $from);
+    $to       = explode('/', $to);
+    $relPath  = $to;
+
+    foreach($from as $depth => $dir) {
+        // find first non-matching dir
+        if($dir === $to[$depth]) {
+            // ignore this directory
+            array_shift($relPath);
+        } else {
+            // get number of remaining dirs to $from
+            $remaining = count($from) - $depth;
+            if($remaining > 1) {
+                // add traversals up to first matching dir
+                $padLength = (count($relPath) + $remaining - 1) * -1;
+                $relPath = array_pad($relPath, $padLength, '..');
+                break;
+            } else {
+                $relPath[0] = './' . $relPath[0];
+            }
+        }
+    }
+    return implode('/', $relPath);
+}
+
+
 
 
 /**

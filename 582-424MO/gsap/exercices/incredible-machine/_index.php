@@ -26,7 +26,7 @@
 
 <p>Puisque tous les éléments sont positionnés avec l'<a target="_blank" rel="noopener noreferrer" href="../../../../582-215MO/css/unites-de-mesure-avancees/">unité vmin</a>, il vous sera nécessaire d'utiliser cette unité à chaque fois que vous désirerez déplacer un&nbsp;élément.</p>
 
-<p>Puisque le but de l'exercice est d'expérimenter la&nbsp;<a target="_blank" rel="noopener noreferrer" href="../../timeline">Timeline GSAP</a>, il est interdit d'utiliser la propriété&nbsp;<code>delay</code>. Utilisez plutôt&nbsp;les paramètres de position de la&nbsp;timeline.</p>
+<p>Puisque le but de l'exercice est d'expérimenter la&nbsp;<a target="_blank" rel="noopener noreferrer" href="../../timeline">Timeline GSAP</a>, il est interdit d'utiliser la propriété&nbsp;<incode>delay</incode>. Utilisez plutôt&nbsp;les paramètres de position de la&nbsp;timeline.</p>
 
 <grostitre>Requis</grostitre>
 
@@ -35,9 +35,9 @@
 <checklist>
 Par défaut, faites en sorte que votre animation soit sur pause tant que le bouton&nbsp;<em>"Démarrer"</em>&nbsp;n'est pas&nbsp;appuyé.
 Faites chuter la boule de quilles 🎳 sur la cage de la souris&nbsp;🐁. Faites attention à choisir&nbsp;<a href="https://greensock.com/ease-visualizer" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">le ease adéquat</a>&nbsp;afin de créer l'effet de rebondissement&nbsp;souhaité.
-Démarrez l'animation de la souris&nbsp;<em>(</em><code>.mouse</code><em>)</em>&nbsp;qui court à l'infini un peu avant la fin de l'animation de la boule de&nbsp;quilles.
-En même temps que l'animation de la souris, faites tourner le roue&nbsp;<em>(</em><code>.wheel</code><em>)</em>&nbsp;à&nbsp;l'infini.
-En même temps que l'animation précédente, faites tourner la roue&nbsp;<em>(</em><code>.wheel</code><em>)</em>&nbsp;du premier tapis roulant&nbsp;<em>(</em><code>.treadmill</code><em>)</em>&nbsp;à&nbsp;l'infini.
+Démarrez l'animation de la souris&nbsp;<em>(</em><incode>.mouse</incode><em>)</em>&nbsp;qui court à l'infini un peu avant la fin de l'animation de la boule de&nbsp;quilles.
+En même temps que l'animation de la souris, faites tourner le roue&nbsp;<em>(</em><incode>.wheel</incode><em>)</em>&nbsp;à&nbsp;l'infini.
+En même temps que l'animation précédente, faites tourner la roue&nbsp;<em>(</em><incode>.wheel</incode><em>)</em>&nbsp;du premier tapis roulant&nbsp;<em>(</em><incode>.treadmill</incode><em>)</em>&nbsp;à&nbsp;l'infini.
 Déclenchez en même temps l'animation de la 2<sup>e</sup>&nbsp;boule de quilles. Celle-ci doit:<br> - Se déplacer pour aller frapper sur la 2<sup>e</sup>&nbsp;cage à&nbsp;souris.<br >- Tourner à&nbsp;l'infini.
 Assurez-vous de bien peaufiner les étapes 3 à 6 de votre&nbsp;animation.
 Récupérez les animations des étapes 3 à 6 et appliquez-les aux cages à souris, tapis roulants et boule de quilles&nbsp;restants.

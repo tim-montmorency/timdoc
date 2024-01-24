@@ -2,15 +2,16 @@
 /**
  * @type     article
  * @title    11-Dessiner SVG
- * @icon     images/icon.svg
+ * @icon     ../images/icon.webp
  * @abstract DrawSVG: Dessiner un tracé SVG par animation GSAP
  * @index    500
+ * @ref      web/quadriciels/gsap
  */
 ?>
 
 
 <p>D'abord ajoutons une nouvelle notion: la méthode GSAP qui permet d'initialiser les positions et autres propriétés de
-    vos éléments avant d'être animés. La méthode <code>set()</code>. Voir la page <a
+    vos éléments avant d'être animés. La méthode <incode>set()</incode>. Voir la page <a
         href="../objet-et-methodes/index.html#methode-set" target="_blank" rel="noopener noreferrer">Objet GSAP
         méthodes</a> pour en savoir plus.</p>
 
@@ -23,7 +24,7 @@
 
 <grostitre>Introduction à drawSVG</grostitre>
 
-<p>DrawSVGPlugin vous permet de révéler (ou de cacher) progressivement le trait d'un SVG <code>&lt;path&gt;</code>, <code>&lt;line&gt;</code>, <code>&lt;polyline&gt;</code>, <code>&lt;polygon&gt;</code>, <code>&lt;rect&gt;</code> ou <code>&lt;ellipse&gt;</code>. Vous pouvez même animer vers l'extérieur en début le trait à partir du centre (ou de n'importe quelle position). Pour ce faire, drawSVG contrôle les propriétés CSS <a href="https://developer.mozilla.org/fr/docs/Web/SVG/Attribute/stroke-dashoffset" target="_blank" rel="noopener noreferrer">stroke-dashoffset</a>  et <a href="https://developer.mozilla.org/fr/docs/Web/SVG/Attribute/stroke-dasharray" target="_blank" rel="noopener noreferrer">stroke-dasharray</a>.</p>
+<p>DrawSVGPlugin vous permet de révéler (ou de cacher) progressivement le trait d'un SVG <incode>&lt;path&gt;</incode>, <incode>&lt;line&gt;</incode>, <incode>&lt;polyline&gt;</incode>, <incode>&lt;polygon&gt;</incode>, <incode>&lt;rect&gt;</incode> ou <incode>&lt;ellipse&gt;</incode>. Vous pouvez même animer vers l'extérieur en début le trait à partir du centre (ou de n'importe quelle position). Pour ce faire, drawSVG contrôle les propriétés CSS <a href="https://developer.mozilla.org/fr/docs/Web/SVG/Attribute/stroke-dashoffset" target="_blank" rel="noopener noreferrer">stroke-dashoffset</a>  et <a href="https://developer.mozilla.org/fr/docs/Web/SVG/Attribute/stroke-dasharray" target="_blank" rel="noopener noreferrer">stroke-dasharray</a>.</p>
 <dots></dots>
 
 <grostitre>Installation de drawSVG</grostitre>
@@ -37,7 +38,7 @@
 <ul>
 
     <li>
-        <p>D'utiliser un&nbsp;<a href="https://greensock.com/docs/v3/Installation?checked=core,drawSVG#codepen"  target="_blank">lien hébergé en ligne</a> (comme ce pluciels-ci n'est pas gratuit, allez copier le lien dans l'onglet codePen, vous cliquiez sur le bouton "Copy URL" en bas, à côté de DrawSVGPlugin et l'ajoutez dans une balise <code>script</code>). Cependant, il ne sera utilisable qu'en local (sur votre ordi) ou directement sur codePen.</p>
+        <p>D'utiliser un&nbsp;<a href="https://greensock.com/docs/v3/Installation?checked=core,drawSVG#codepen"  target="_blank">lien hébergé en ligne</a> (comme ce pluciels-ci n'est pas gratuit, allez copier le lien dans l'onglet codePen, vous cliquiez sur le bouton "Copy URL" en bas, à côté de DrawSVGPlugin et l'ajoutez dans une balise <incode>script</incode>). Cependant, il ne sera utilisable qu'en local (sur votre ordi) ou directement sur codePen.</p>
     </li>
 </ul>
 <p>Une fois chargé, il est conseillé d'indiquer à GSAP que MotionPath est disponible en inscrivant la ligne de
@@ -59,17 +60,17 @@
 </p>
 
 
-<p><code>drawSVG:</code> peut contenir 1 ou 2 valeurs. </p>
+<p><incode>drawSVG:</incode> peut contenir 1 ou 2 valeurs. </p>
 
 <p>À la base, ce sont 2 valeurs, séparées par un espace, pour définir une partie de votre ligne, un segment de celle-ci.</p>
 
 <ul>
     <li>Ce peut-être des longueurs absolues (longueurs en pixels sans écrire l'unité) comme par exemple
-    <code>"20&nbsp;350".</code>.</li>
-    <li>Ou des pourcentages tel que <code>"40%&nbsp;60%"</code>. Dans ce cas, il faudra ajouter l'unité&nbsp;%</li>
-    <li>Si vous utilisez une seule valeur, notez que la valeur de départ sera définie par défaut à <code>0</code>.<br> Donc
-    si on écrit que la valeur <code>"100%"</code> seule, ce sera donc équivalent à <code>"0&nbsp;100%"</code> ou la
-    valeur <code>true</code>. La ligne sera alors entièrement visible.</li>
+    <incode>"20&nbsp;350".</incode>.</li>
+    <li>Ou des pourcentages tel que <incode>"40%&nbsp;60%"</incode>. Dans ce cas, il faudra ajouter l'unité&nbsp;%</li>
+    <li>Si vous utilisez une seule valeur, notez que la valeur de départ sera définie par défaut à <incode>0</incode>.<br> Donc
+    si on écrit que la valeur <incode>"100%"</incode> seule, ce sera donc équivalent à <incode>"0&nbsp;100%"</incode> ou la
+    valeur <incode>true</incode>. La ligne sera alors entièrement visible.</li>
 </ul>
 
 
@@ -80,7 +81,7 @@
 
 <p>Dans l'exemple précédent, on change dynamiquement les valeurs du début et fin de la partie visible du tracé SVG (path).</p>
 <p>Si on souhaite voir un tracé se dessiner du début à la fin, on définit <avec la méthode code>set()</code> les propriétés initiales.</p>
-<p>Ensuite, sur le clique du bouton par exemple, on active l'animation avec la méthode <code>to()</code>, conjointement avec la propriété <code>drawSVG</code>.</p>
+<p>Ensuite, sur le clique du bouton par exemple, on active l'animation avec la méthode <incode>to()</incode>, conjointement avec la propriété <incode>drawSVG</incode>.</p>
 
 <p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="OJBmKjy" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJBmKjy">
@@ -88,7 +89,7 @@
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-<p>On peut aussi simplement utiliser un <code>fromTo()</code> </p>
+<p>On peut aussi simplement utiliser un <incode>fromTo()</incode> </p>
 <p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="XWxRGjK" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XWxRGjK">
   GSAP DrawSVG - Démo 1</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
@@ -101,8 +102,8 @@
 <grostitre>SVG multi-formes/multi-lignes</grostitre>
 
 <p>Comment animer de nombreux traits et échelonner (stagger) les animations ?</p>
-<p>L'avantage d'avoir <em>DrawSVGPlugin</em> intégré à GSAP est que vous pouvez l'utiliser pour créer rapidement des effets complexes et avoir un contrôle total sur l'animation (<code>pause</code>, <code>resume</code>, <code>reverse</code>, <code>seek</code> etc.)</p>
-<p>Supposons que vous ayez 20 éléments SVG auxquels la classe <code>.dessine-moi</code> a été appliquée et que vous souhaitiez les dessiner de manière décalée, vous pourriez le faire :</p>
+<p>L'avantage d'avoir <em>DrawSVGPlugin</em> intégré à GSAP est que vous pouvez l'utiliser pour créer rapidement des effets complexes et avoir un contrôle total sur l'animation (<incode>pause</incode>, <incode>resume</incode>, <incode>reverse</incode>, <incode>seek</incode> etc.)</p>
+<p>Supposons que vous ayez 20 éléments SVG auxquels la classe <incode>.dessine-moi</incode> a été appliquée et que vous souhaitiez les dessiner de manière décalée, vous pourriez le faire :</p>
 
 <highlight lang='JavaScript'>//Dessinera tous les éléments qui ont la classe "dessine-moi" avec un décalage de début de 0.1 seconde.
 gsap.from(".dessine-moi", {

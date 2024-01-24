@@ -4,6 +4,7 @@
  * @title    Favicon
  * @icon     images/icon.png
  * @abstract icônes de navigateur
+ * @ref      web/html
  */
 ?>
 

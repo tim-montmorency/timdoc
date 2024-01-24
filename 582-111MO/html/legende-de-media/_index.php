@@ -4,6 +4,7 @@
  * @title    Légende de média
  * @icon     images/icon.png
  * @abstract figure, figcaption
+ * @ref      web/html
  */
 ?>
 

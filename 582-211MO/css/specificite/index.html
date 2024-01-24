@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Spécificité</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 2</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.webp">&nbsp;Spécificité</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Chaque sélecteur en CSS se voit attribuer un pointage. Lorsque deux sélecteurs ciblent les mêmes propriétés d’un même élément, le sélecteur avec le plus haut pointage l’emporte. Le style de sa propriété est donc attribué à l’élément ciblé au détriment de celui du sélecteur plus faible.</p>
+
+<p>En règle générale, il est conseillé de garder le pointage de ses sélecteurs le plus faible possible. Ainsi, si l’apparence d’un élément doit changer dans un contexte spécifique, il sera facilement possible d’écraser ses styles de bases avec un sélecteur doté d’un plus grand pointage.</p>
+
+<dots></dots>
+
+
+<grostitre>Pointage par sélecteurs</grostitre>
+
+<h3>Universel *</h3>
+
+<p>Le sélecteur universel <span class="inline-code">*</span> est le plus faible des sélecteurs avec une valeur de <strong><em>0 point</em></strong>. Il peut donc être écrasé par tout autre sélecteur.</p>
+
+<highlight lang="css">* { ... }</highlight>
+
+<h3>Balise</h3>
+
+<p>Un sélecteur avec une balise à une valeur de <strong><em>1 point</em></strong>.</p>
+
+<highlight lang="css">div { ... }</highlight>
+
+<h3>Classe, pseudo-classe et attribut</h3>
+
+<p>Ont tous une valeur de <strong><em>10 points de spécificité</em></strong>.</p>
+
+<highlight lang="css">.element { ... }
+.element:hover { ... }
+.element[title=&quot;demo&quot;] { ... }</highlight>
+
+<info>Normalement, une pseudo-classe est combinée à un autre sélecteur et n’est pas utilisé seul.</info>
+
+<h3>ID</h3>
+
+<p>Un sélecteur avec un ID à une valeur de <strong><em>100 points</em></strong>.</p>
+
+<highlight lang="css">#no1 { ... }</highlight>
+
+<h3>Style en ligne</h3>
+
+<p>Les styles en ligne ont une valeur de <strong><em>1 000 points</em></strong>, ils sont donc extrêmement difficiles à écraser en cas de besoin, d’où pourquoi leur usage est à éviter autant que possible.</p>
+
+<highlight lang="html">&lt;div style=&quot;color: blue;&quot;&gt;...&lt;/div&gt;</highlight>
+
+<h3>!important</h3>
+
+<p>En dernier recours, il est possible d’ajouter la mention <span class="inline-code">!important</span> à la fin d’une déclaration CSS afin de lui attribuer <strong><em>10 000 points</em></strong> de spécificité et ainsi s’assurer d’écraser tout autre style. </p>
+
+<highlight lang="css">.element {
+  color: blue !important; /* 10 000 points */
+  background: red; /* 10 points */
+}</highlight>
+
+<p>Puisque <span class="inline-code">!important</span> est ajouté à une propriété directement, sa présence n’impacte que la valeur de cette propriété et non celle de l'ensemble de la règle CSS.</p>
+
+<warning>La présence d’un <span class="inline-code">!important</span> dans un code est généralement mal perçu et synonyme de problème de structure de code.</warning>
+
+<dots></dots>
+
+
+<grostitre>Combinaison de sélecteurs</grostitre>
+
+<p>La valeur de chaque sélecteur s'additionne dans un groupe de sélecteurs.</p>
+
+<p>Par exemple l’élément HTML suivant:</p>
+
+<highlight lang="html">&lt;div class=&rdquo;element no1&rdquo;&gt;</highlight>
+
+<h3>Balise seule</h3>
+
+<p>Ciblé avec uniquement sa balise</p>
+
+<highlight lang="css">div { &hellip; }</highlight>
+
+<p>La balise ne vaut que <strong><em>1 point</em></strong>.</p>
+
+<highlight lang="css">.item { &hellip; }</highlight>
+
+<p>La classe seule ne vaut que <strong><em>10 points</em></strong>.</p>
+
+<h3>Balise & Classe</h3>
+
+<p>Combiné la balise et une classe</p>
+
+<highlight lang="css">div.item { &hellip; }</highlight>
+
+<p>donne au groupe de sélecteur une valeur de <strong><em>11 points</em></strong>.</p>
+
+<h3>Classe & Classe</h3>
+
+<p>Combiner les 2 classes</p>
+
+<highlight lang="css">.item.no1 { &hellip; }</highlight>
+
+<p>donne une valeur de <strong><em>20 points</em></strong>.</p>
+
+<h3>Balise & Classe & Classe</h3>
+
+<p>Et finalement combiner la balise aux deux classes</p>
+
+<highlight lang="css">div.item.no1 { &hellip; }</highlight>
+
+<p>donne <strong><em>21 points</em></strong>.</p>
+
+<dots></dots>
+
+
+<grostitre>Égalité de pointage</grostitre>
+
+<p>Lorsque deux sélecteurs ont un pointage identique.</p>
+
+<p>Par exemple pour l’élément HTML suivant:</p>
+
+<highlight lang="html">&lt;div class=&rdquo;element no1&rdquo;&gt;</highlight>
+
+<p>Les sélecteurs ci-dessous auront tous deux une valeur de spécificité équivalente à <strong><em>10 points</em></strong>.</p>
+
+<highlight lang="css">.element { &hellip; }
+.no1 { &hellip; }</highlight>
+
+<p>Cependant, les styles du sélecteur <span class="inline-code">.no1</span> auront priorité sur ceux de <span class="inline-code">.element</span> puisque <span class="inline-code">.no1</span> est écrit en dernier et est donc considéré comme étant la définition la plus récente, donc celle prioritaire en cas d’égalité.</p>
+
+<p>Le simple fait d’inverser ces sélecteurs dans le code CSS donnerait priorité aux styles de <span class="inline-code">.element</span> au détriment de ceux de <span class="inline-code">.no1</span>.</p>
+
+<doclink href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity">Spécificité</doclink>
+<doclink href="https://www.w3schools.com/css/css_specificity.asp">Spécificité</doclink>
+
+<dots></dots>
+
+        <a class="exercice" target="_blank" href="https://css-specificity.smnarnold.com/?level=tag-vs-class">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/specificite-css/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Spécificité CSS</span>
+                    <span class="exercice-description">Un quiz amusant pour apprendre et pratiquer la spécificité en CSS.</span>
+                </div>
+            </div>
+        </a>
+
+<dots></dots>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

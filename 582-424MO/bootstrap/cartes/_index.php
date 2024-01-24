@@ -3,8 +3,9 @@
 /**
  * @type     article
  * @title    Cartes
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Permettent de générer rapidement et facilement des cartes
+ * @ref      web/quadriciels/bootstrap
  */
 ?>
 
@@ -29,7 +30,7 @@
 <dots></dots>
 <grostitre>Image</grostitre>
 
-<p>Il est possible d'insérer une image dans une carte Bootstrap en ajoutant une balise&nbsp;<code>&lt;img&gt;</code>&nbsp;et en lui attribuant la classe&nbsp;<code>.card-img-top</code>&nbsp;ou&nbsp;<code>.card-img-bottom</code>&nbsp;afin d'indiquer où cette image doit afficher, soit en haut ou en bas de la&nbsp;carte.</p>
+<p>Il est possible d'insérer une image dans une carte Bootstrap en ajoutant une balise&nbsp;<incode>&lt;img&gt;</incode>&nbsp;et en lui attribuant la classe&nbsp;<incode>.card-img-top</incode>&nbsp;ou&nbsp;<incode>.card-img-bottom</incode>&nbsp;afin d'indiquer où cette image doit afficher, soit en haut ou en bas de la&nbsp;carte.</p>
 <p>Par exemple pour l'afficher en&nbsp;haut:</p>
 
 <highlight lang="html">&lt;div class=&quot;card&quot;&gt;
@@ -39,7 +40,7 @@
 <dots></dots>
 <grostitre>Corps</grostitre>
 
-<p>Le corps de la carte contient son texte principal. Pour le définir, il suffit d'ajouter la classe&nbsp;<code>.card-body</code>&nbsp;à l'intérieur de la carte comme&nbsp;ceci:</p>
+<p>Le corps de la carte contient son texte principal. Pour le définir, il suffit d'ajouter la classe&nbsp;<incode>.card-body</incode>&nbsp;à l'intérieur de la carte comme&nbsp;ceci:</p>
 
 <highlight lang="html">&lt;div class=&quot;card&quot;&gt;
     &lt;div class=&quot;card-body&quot;&gt;Description&lt;/div&gt;
@@ -50,7 +51,7 @@
 <dots></dots>
 <grostitre>Titre</grostitre>
 
-<p>À l'intérieur du corps, il est possible d'ajouter un titre en utilisant la balise de titre adéquate et la classe&nbsp;<code>.card-title</code>&nbsp;comme&nbsp;suit:</p>
+<p>À l'intérieur du corps, il est possible d'ajouter un titre en utilisant la balise de titre adéquate et la classe&nbsp;<incode>.card-title</incode>&nbsp;comme&nbsp;suit:</p>
 
 <highlight lang="html">&lt;div class=&quot;card&quot;&gt;
     &lt;div class=&quot;card-body&quot;&gt;
@@ -64,7 +65,7 @@
 
 <p>L'entête et le pied d'une carte Bootstrap permettent de définir une zone séparée du reste de la carte afin de les mettre en évidence.</p>
 
-<p>Pour définir de telles zones, il suffit d'ajouter des balises avec les classes&nbsp;<code>.card-header</code>&nbsp;ou&nbsp;<code>.card-footer</code>.</p>
+<p>Pour définir de telles zones, il suffit d'ajouter des balises avec les classes&nbsp;<incode>.card-header</incode>&nbsp;ou&nbsp;<incode>.card-footer</incode>.</p>
 
 <p>Par exemple pour une entête:</p>
 
@@ -84,7 +85,7 @@
 <grostitre>Liste</grostitre>
 
 
-<p>Il est aussi possible d'inclure des listes en utilisant la composante de liste de Bootstrap&nbsp;<code>.list-group</code>&nbsp;et en y ajoutant le modificateur&nbsp;<code>.list-group-flush</code>.</p>
+<p>Il est aussi possible d'inclure des listes en utilisant la composante de liste de Bootstrap&nbsp;<incode>.list-group</incode>&nbsp;et en y ajoutant le modificateur&nbsp;<incode>.list-group-flush</incode>.</p>
 <p>Par exemple:</p>
 
 <highlight lang="html">&lt;div class=&quot;card&quot;&gt;

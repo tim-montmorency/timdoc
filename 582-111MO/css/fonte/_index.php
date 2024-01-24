@@ -4,6 +4,7 @@
  * @title    Font
  * @icon     images/icon.png
  * @abstract color, family, weight, size, style, line-height
+ * @ref      web/css
  */
 ?>
 

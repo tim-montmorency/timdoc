@@ -25,8 +25,7 @@
     Dans les paramètres de cette nouvelles composante, glissez votre Locomotion System sur le paramètre Locomotion Provider. 
 </checklist>
 <p>Le tout en vidéo:</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F6ETKU5e_5M?si=dKOl3GyBOIf5mTYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+<youtube src="F6ETKU5e_5M"></youtube>
 <dots></dots>
 
 <grostitre>Téléportation</grostitre>
@@ -38,7 +37,7 @@
     Teleportation provider: Glissez Locomotion System pour qu'on puisse se téléporter. 
 </checklist>
 <p>Le tout en vidéo:</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vx27jJdFB-k?si=X8KLDnx82SY_Yyry" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<youtube src="vx27jJdFB-k"></youtube>
 
     <dots></dots>
 
@@ -84,7 +83,7 @@
     Dans son paramètre Locomotion Provider, glissez le Locomotion System. 
 </checklist>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Fg1I0DrB8K8?si=JOXn4IKFouMA-Xl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<youtube src="Fg1I0DrB8K8"></youtube>
 
 
 
@@ -93,10 +92,11 @@
 <grostitre>Sauter</grostitre>
 
 <p>Voici le tutoriel qui vous montera comment créer le saut en VR:</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vvfZbVfikJ8?si=3d3mXvgPntyUIc8Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<youtube src="vvfZbVfikJ8"></youtube>
 
-<p>Voici le code pour sauter (si le code est nommé jump):
-<highlight lang="C#">
+<br>
+<p>Voici le code pour sauter (si le code est nommé jump):</p>
+<highlight lang="csharp">
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -139,7 +139,7 @@ public class jump : MonoBehaviour
 }
     
 
-</highlight></p>
+</highlight>
 
 
 <dots></dots>
@@ -148,4 +148,4 @@ public class jump : MonoBehaviour
 
 <p>Voici le tutoriel qui vous aidera à créer une plateforme en mouvement:</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eJCu7YEFBu4?si=jcZXp3_eI3TillQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<youtube src="eJCu7YEFBu4"></youtube>

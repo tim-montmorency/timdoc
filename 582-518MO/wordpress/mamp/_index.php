@@ -73,7 +73,7 @@
 
 <dots></dots>
 <grostitre>MySQL refuse de s'allumer</grostitre>
-<p>Ce problème provient d'une configuration propre au collège<em> (vous ne devriez pas rencontrer ce problème chez vous)</em>. Pour le contourner, il faut supprimer le fichier <code>mysql-bin.index</code> dans le dossier <code>MAMP &gt; db &gt; mysql</code>.</p>
+<p>Ce problème provient d'une configuration propre au collège<em> (vous ne devriez pas rencontrer ce problème chez vous)</em>. Pour le contourner, il faut supprimer le fichier <incode>mysql-bin.index</incode> dans le dossier <incode>MAMP &gt; db &gt; mysql</incode>.</p>
 <br>
 
 <img src="images/mamp-mysql.png" alt="">

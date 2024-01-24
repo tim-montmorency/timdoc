@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Google fonts</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 2</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/css/">CSS</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="images/icon.webp">&nbsp;Google fonts</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+ <p class="spacer">Depuis 2010, le site <a target="_blank" href="https://fonts.google.com/">Google</a> fonts offre plusieurs centaines de polices <em>(+ de 850)</em> gratuitement, hébergées directement en ligne et prêtes à être utilisées.</p>
+
+<p>Lorsqu'une police intéressante est trouvée, il suffit de cliquer sur le lien bleu <em>"+ Select this style"</em> afin de l'ajouter à la liste des polices qui seront importées. Plusieurs fontes peuvent être ajoutées dans une même liste. Il n'est pas nécessaire d'importer chacune d'entre elles séparément.</p>
+
+<p>Lorsque toutes les polices désirées sont sélectionnées, le bouton  en haut à droite permet d'ouvrir le panneau d'importation.</p>
+
+<dots></dots>
+
+
+<grostitre>Importation standard</grostitre>
+
+<p>La méthode standard est la méthode la plus performante et celle recommandée. Elle consiste à ajouter une balise <span class="inline-code">&lt;link&gt;</span> dans le <span class="inline-code">&lt;head&gt;</span> d'un fichier HTML.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="html">&lt;head&gt;
+  &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot;&gt;
+  &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/main.css&quot;&gt;
+&lt;/head&gt;</highlight>
+
+<warning>Les balises de la police Google doivent apparaître avant celle de votre feuille de styles. Ainsi la police sera déjà importée quand vous y ferez référence.</warning>
+
+<dots>Importation @import</dots>
+
+
+<grostitre>Importation @import</grostitre>
+
+<p>La méthode @import consiste à ajouter une balise <span class="inline-code">&lt;style&gt;</span> dans le <span class="inline-code">&lt;head&gt;</span> du fichier HTML. Cependant, cette méthode est moins performante que la <a href="#importation-standard">méthode standard</a>.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="html">&lt;style&gt;
+  @import url(&#039;https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap&#039;);
+&lt;/style&gt;</highlight>
+
+<dots></dots>
+
+
+<grostitre>Utilisation</grostitre>
+
+<p>Et voilà, les fontes sont maintenant prêtes à être utilisées comme toute police normale simplement en utilisant leurs noms spécifiés dans le bas du panneau d'importation.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="css">.title { font-family: &#039;Roboto&#039;, sans-serif; }</highlight>
+
+<dots></dots>
+
+
+<knowmore href="https://developers.google.com/fonts/docs/getting_started">Billet débuter avec Google Fonts par Google.</knowmore>
+
+        <a class="exercice" target="_blank" href="exercices/bart/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/bart/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Google Fonts - Bart</span>
+                    <span class="exercice-description">Pour cet exercice, vous devez recréer une scène de générique d’introduction de l’épisode 18 de la saison 28 des Simpsons.</span>
+                </div>
+            </div>
+        </a>
+
+<dots></dots>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

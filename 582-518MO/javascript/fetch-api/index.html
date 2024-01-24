@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,7 +39,10 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Projet Web</a> > <a href="../">JavaScript</a> ></div>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">JavaScript</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/javascript/">JavaScript</a>&nbsp;>&nbsp;</div>
+                </div>
                 <h1 id="title"><img src="images/ico-fetch.png">&nbsp;Fetch API</h1>
             </div>
             <article>
@@ -65,24 +67,27 @@
 
 <dots></dots>
 
-<p>Examinons la structure de base d'une requête au fetch API:</p><pre><code class="hljs javascript">fetch(url) <span class="hljs-comment">// L'adresse URL des données à aller chercher</span>
-  .then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> { <span class="hljs-comment">// Attendre que les données soient reçues</span>
-    <span class="hljs-comment">// Convertir les données au format désiré</span>
+<p>Examinons la structure de base d'une requête au fetch API:</p>
+
+<highlight lang="javascript">fetch(url) // L&#039;adresse URL des donn&eacute;es &agrave; aller chercher
+  .then(data =&gt; { // Attendre que les donn&eacute;es soient re&ccedil;ues
+    // Convertir les donn&eacute;es au format d&eacute;sir&eacute;
   })
-  .then(<span class="hljs-function"><span class="hljs-params">result</span> =&gt;</span> { <span class="hljs-comment">// Attendre que les données soient converties</span>
-    <span class="hljs-comment">// Faire du résultat ce que bon vous semble</span>
-  });</code></pre>
+  .then(result =&gt; { // Attendre que les donn&eacute;es soient converties
+    // Faire du r&eacute;sultat ce que bon vous semble
+  });</highlight>
+
   
 <br>
 <p>Par défaut, le fetch API utilise la méthode GET, ce qui nous permet de simplement déclarer l'url de la ressource que nous désirons obtenir.</p>
   
   
 Par exemple:
-<pre><code class="hljs javascript">fetch(<span class="hljs-string">"https://ex.smnarnold.com/json/acteurs/ryan-reynolds.json"</span>) 
-  .then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> data.json()) 
-  .then(<span class="hljs-function"><span class="hljs-params">actor</span> =&gt;</span> { 
-    <span class="hljs-built_in">console</span>.log(actor);
-  }); </code></pre>
+<highlight lang="javascript">fetch(&quot;https://ex.smnarnold.com/json/acteurs/ryan-reynolds.json&quot;) 
+  .then(data =&gt; data.json()) 
+  .then(actor =&gt; { 
+    console.log(actor);
+  });</highlight>
 
 
 
@@ -93,12 +98,12 @@ Par exemple:
 
 
 <ul>
-    <li><p><code>fetch(...)</code>&nbsp;déclarant que <code>fetch</code> doit aller chercher le fichier à l'adresse fournie entre parenthèses et nous&nbsp;<a target="_blank" rel="noopener noreferrer" href="../promesses-js/">retourner une&nbsp;promesse</a>.</p></li>
-    <li><p><code>.then()</code>&nbsp;ou en français&nbsp;<em>"ensuite"</em>&nbsp;attend que le serveur tienne sa promesse et nous&nbsp;réponde.</p></li>
-    <li><p><code>data</code>&nbsp;nom donné à l'objet retourné par fetch&nbsp;<em>(ce nom est&nbsp;arbitraire, donc vous le nommez comme vous le souhaitez, dépendant de la valeur que vous allez chercher)</em>.</p></li>
-    <li><p><code>.json()</code>&nbsp;indique que nous souhaitons appeler la méthode&nbsp;<code>.json()</code>&nbsp;de l'objet&nbsp;<code>response</code>, afin de convertir les données en&nbsp;JSON.</p></li>
-    <li><p><code>.then()</code>&nbsp;attend que la promesse de conversion des données soit&nbsp;respectée.</p></li>
-    <li><p><code>actor</code>&nbsp;correspond au nom donné au JSON reçu.&nbsp;<em>(Encore une fois, ce nom est&nbsp;arbitraire, donc vous le nommez comme vous le souhaitez, dépendant de la valeur que vous allez chercher)</em>.</p></li>
+    <li><p><span class="inline-code">fetch(...)</span>&nbsp;déclarant que <span class="inline-code">fetch</span> doit aller chercher le fichier à l'adresse fournie entre parenthèses et nous&nbsp;<a target="_blank" rel="noopener noreferrer" href="../promesses-js/">retourner une&nbsp;promesse</a>.</p></li>
+    <li><p><span class="inline-code">.then()</span>&nbsp;ou en français&nbsp;<em>"ensuite"</em>&nbsp;attend que le serveur tienne sa promesse et nous&nbsp;réponde.</p></li>
+    <li><p><span class="inline-code">data</span>&nbsp;nom donné à l'objet retourné par fetch&nbsp;<em>(ce nom est&nbsp;arbitraire, donc vous le nommez comme vous le souhaitez, dépendant de la valeur que vous allez chercher)</em>.</p></li>
+    <li><p><span class="inline-code">.json()</span>&nbsp;indique que nous souhaitons appeler la méthode&nbsp;<span class="inline-code">.json()</span>&nbsp;de l'objet&nbsp;<span class="inline-code">response</span>, afin de convertir les données en&nbsp;JSON.</p></li>
+    <li><p><span class="inline-code">.then()</span>&nbsp;attend que la promesse de conversion des données soit&nbsp;respectée.</p></li>
+    <li><p><span class="inline-code">actor</span>&nbsp;correspond au nom donné au JSON reçu.&nbsp;<em>(Encore une fois, ce nom est&nbsp;arbitraire, donc vous le nommez comme vous le souhaitez, dépendant de la valeur que vous allez chercher)</em>.</p></li>
  </ul>
 
 
@@ -127,9 +132,9 @@ Par exemple:
 
 <dots></dots>
 <grostitre>Conversion de réponses</grostitre>
-<p><code>.blob()</code>&nbsp;converti la réponse en blob&nbsp;<em>(utile pour les&nbsp;images)</em><br><code>.text()</code>&nbsp;converti la réponse en texte&nbsp;<em>(utile pour le&nbsp;XML)</em><br><code>.json()</code>&nbsp;converti la réponse en&nbsp;JSON</p>
+<p><span class="inline-code">.blob()</span>&nbsp;converti la réponse en blob&nbsp;<em>(utile pour les&nbsp;images)</em><br><span class="inline-code">.text()</span>&nbsp;converti la réponse en texte&nbsp;<em>(utile pour le&nbsp;XML)</em><br><span class="inline-code">.json()</span>&nbsp;converti la réponse en&nbsp;JSON</p>
 
-<info>Dans la majorité des cas, nous utiliserons la méthode&nbsp;<code>.json()</code></info>
+<info>Dans la majorité des cas, nous utiliserons la méthode&nbsp;<span class="inline-code">.json()</span></info>
 
 
 
@@ -139,23 +144,15 @@ Par exemple:
 
 <dots></dots>
 <grostitre>Catch</grostitre>
-<p>La méthode <code>.catch</code> permet d'indiquer quoi faire si le serveur ne répond pas ou s'il prend trop de temps à répondre.</p><p>Par exemple:</p>
+<p>La méthode <span class="inline-code">.catch</span> permet d'indiquer quoi faire si le serveur ne répond pas ou s'il prend trop de temps à répondre.</p><p>Par exemple:</p>
 
-
-<pre><code class="hljs javascript">fetch(url) <span class="hljs-comment">// L'url de la ressource à aller chercher</span>
-  .then(<span class="hljs-function">() =&gt;</span> { <span class="hljs-comment">// Attendre que la ressource soit reçue, et ensuite (then)</span>
-    <span class="hljs-comment">// Traiter la ressource</span>
+<highlight lang="javascript">fetch(url) // L&#039;url de la ressource &agrave; aller chercher
+  .then(() =&gt; { // Attendre que la ressource soit re&ccedil;ue, et ensuite (then)
+    // Traiter la ressource
   })
-  .catch(<span class="hljs-function">() =&gt;</span> { <span class="hljs-comment">// Oh, oh le serveur ne répond pas</span>
-    <span class="hljs-comment">// Activer le plan B</span>
-  });</code></pre><p></p><pre><code class="hljs javascript">fetch(<span class="hljs-string">'https://ex.smnarnold.com/json/acteurs/ryan-reynolds.json'</span>) 
-  .then(<span class="hljs-function"><span class="hljs-params">actor</span> =&gt;</span> actor.json()) 
-  .then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> {
-    <span class="hljs-built_in">console</span>.log(data);
-  })
-  .catch(<span class="hljs-function"><span class="hljs-params">error</span> =&gt;</span> {
-    <span class="hljs-built_in">console</span>.log(error);
-  })</code></pre>
+  .catch(() =&gt; { // Oh, oh le serveur ne r&eacute;pond pas
+    // Activer le plan B
+  });</highlight>
 
 <br><br>
   <p>>> EXERCICE 2 FOURNI EN CLASSE.</p>
@@ -199,6 +196,5 @@ Par exemple:
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

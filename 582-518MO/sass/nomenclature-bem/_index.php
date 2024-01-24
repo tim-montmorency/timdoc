@@ -4,7 +4,8 @@
  * @title    Nomenclature BEM
  * @icon     images/icon.png
  * @abstract Nomenclature CSS: Block, Element, and Modifier
- * @index 19
+ * @index    19
+ * @ref      web/sass
  */
 ?>
 <grostitre>Introduction</grostitre>
@@ -17,7 +18,7 @@
   font-style: italic;
 }</highlight>
 
-<p>Cependant, si vous ou l'un de vos collègues travaille éventuellement sur une composante d'article et qu'à l'intérieur de celle-ci se trouve aussi un titre, il est probable que son réflexe ou le votre soit de le cibler via la classe <code>.title</code> à nouveau, ce qui engendra des effets secondaires indésirables. Le titre de l'article héritera du style italique initialement attribué au titre du héros et tous les nouveaux styles appliqués au titre de l'article s'appliqueront aussi au titre du héros 🤮.</p>
+<p>Cependant, si vous ou l'un de vos collègues travaille éventuellement sur une composante d'article et qu'à l'intérieur de celle-ci se trouve aussi un titre, il est probable que son réflexe ou le votre soit de le cibler via la classe <incode>.title</incode> à nouveau, ce qui engendra des effets secondaires indésirables. Le titre de l'article héritera du style italique initialement attribué au titre du héros et tous les nouveaux styles appliqués au titre de l'article s'appliqueront aussi au titre du héros 🤮.</p>
 
 <p>Heureusement, BEM permet d'éviter cette confusion!</p>
 
@@ -37,7 +38,7 @@
 <grostitre>Blocs</grostitre>
 <p>Les blocs sont des noms de classes représentant des composantes de base pouvant être facilement identifiable dans une page par leur simple nom.</p>
 
-<p>Par exemple: <code>.site-header</code>, <code>.hero</code>, <code>.article</code>, etc. sont tous des composantes que nous devrions être à même de reconnaitre.</p>
+<p>Par exemple: <incode>.site-header</incode>, <incode>.hero</incode>, <incode>.article</incode>, etc. sont tous des composantes que nous devrions être à même de reconnaitre.</p>
 <highlight lang='html'>&lt;div class=&quot;hero&quot;&gt;
   ...
 &lt;/div&gt;</highlight>
@@ -49,9 +50,9 @@
 <h2>Éléments</h2>
 <p>Les éléments sont des sous-composantes avec des noms génériques ayant un lien étroit avec leur bloc.</p>
 
-<p>Par exemple: <code>title</code>, <code>list</code>, <code>item</code>, etc. sont des noms de composantes génériques qui pourraient être présents dans chacun des blocs précédemment mentionnés. Styliser une de ces composantes à partir de son nom générique, par exemple <code>.title</code>, dans chacune de ces composantes entrainerait assurément des effets secondaires indésirables entre chacune d'entre elles. </p>
+<p>Par exemple: <incode>title</incode>, <incode>list</incode>, <incode>item</incode>, etc. sont des noms de composantes génériques qui pourraient être présents dans chacun des blocs précédemment mentionnés. Styliser une de ces composantes à partir de son nom générique, par exemple <incode>.title</incode>, dans chacune de ces composantes entrainerait assurément des effets secondaires indésirables entre chacune d'entre elles. </p>
 
-<p>Heureusement, avec la nomenclature BEM ces effets secondaires seraient évités, puisque la classe d'un élément est constituée du nom de son bloc suivi de deux barres de soulignement <code>__</code> et du nom de l'élément. <br><br>Par exemple: </p>
+<p>Heureusement, avec la nomenclature BEM ces effets secondaires seraient évités, puisque la classe d'un élément est constituée du nom de son bloc suivi de deux barres de soulignement <incode>__</incode> et du nom de l'élément. <br><br>Par exemple: </p>
 
 <highlight lang='html'>&lt;div class=&quot;hero&quot;&gt;
   &lt;h2 class=&quot;hero__title&quot;&gt;Titre&lt;/h2&gt;
@@ -66,7 +67,7 @@
 <grostitre>Modificateurs</grostitre>
 <p>Les modificateurs sont des drapeaux, ou en anglais: un <em>"flags"</em>, permettant de changer le comportement ou l'apparence d'un bloc ou d'un élément.</p>
 
-<p>Par exemple: <code>active</code>, <code>disabled</code>, <code>big</code>, etc. </p><p>Avec BEM, un modificateur est séparé de son bloc ou de son élément à l'aide de deux tirets <code>--</code>.</p>
+<p>Par exemple: <incode>active</incode>, <incode>disabled</incode>, <incode>big</incode>, etc. </p><p>Avec BEM, un modificateur est séparé de son bloc ou de son élément à l'aide de deux tirets <incode>--</incode>.</p>
 
 <p>Par exemple:</p>
 
@@ -87,10 +88,10 @@
 <p> 🚫</p>
 <highlight lang='css'>.homepage__hero__wrapper__title { ... } </highlight>
 
-<p>Il est donc important de bien savoir diviser ses blocs. Dans l'exemple précédent, il serait logique d'avoir un bloc de départ <code>.homepage</code> ainsi qu'un bloc <code>.hero</code>.</p>
+<p>Il est donc important de bien savoir diviser ses blocs. Dans l'exemple précédent, il serait logique d'avoir un bloc de départ <incode>.homepage</incode> ainsi qu'un bloc <incode>.hero</incode>.</p>
 
 
-<p>Le bloc <code>.hero</code> pourrait avoir différents niveaux d'éléments, mais il n'est pas nécessaire de nommer chacun d'entre eux. </p>
+<p>Le bloc <incode>.hero</incode> pourrait avoir différents niveaux d'éléments, mais il n'est pas nécessaire de nommer chacun d'entre eux. </p>
 
 <p>Par exemple, il n'est pas nécessaire dans son nom de classe de spécifier que le titre se trouve dans le wrapper. Ainsi une division de la sorte permettrait d'obtenir un code plus lisible:</p>
 <p> 👌</p>
@@ -127,7 +128,7 @@
 
 
 <h3 class="heading heading--h3" id="Modificateurs">Modificateurs</h3>
-<p>Les modificateurs sont faciles à écrire à l'aide de <code>@extend</code>. </p>
+<p>Les modificateurs sont faciles à écrire à l'aide de <incode>@extend</incode>. </p>
 
 <p>Par exemple</p>
 <highlight lang='css'>.hero__title {
@@ -154,7 +155,7 @@
 <h3 class="heading heading--h3" id="Découpage">Découpage</h3>
 <p>Il est fortement suggéré que chaque élément assez important pour être un bloc est son propre fichier SASS distinct.</p>
 
-<p>Par exemple, le fichier <em>hero.scss</em> ne contiendrait qu'un seul bloc, soit <code>.hero</code>. Le fichier <em>site-header.scss</em> ne contiendrait que le bloc <code>.site-header</code> et ainsi de suite.</p>
+<p>Par exemple, le fichier <em>hero.scss</em> ne contiendrait qu'un seul bloc, soit <incode>.hero</incode>. Le fichier <em>site-header.scss</em> ne contiendrait que le bloc <incode>.site-header</incode> et ainsi de suite.</p>
 
 
 

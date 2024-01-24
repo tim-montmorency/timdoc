@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../../shared/';</script>
+        <title>Aspect-ratio - The Boys</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Aspect-ratio - The Boys</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p class="spacer">Pour cet exercice, vous devez réaliser une affiche publicitaire ayant pour thème la série <a target="_blank" href="https://www.amazon.com/The-Boys-Season-1/dp/B0875THX53">The Boys d’Amazon Prime</a>.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<img src="images/aspect-ratio-the-boys-resultat.jpg">
+
+<dots></dots>
+
+
+<grostitre>Matériel</grostitre>
+
+<doclink href="https://codepen.io/tim-momo/pen/VwBRPOm?editors=1100">Pen de départ</doclink>
+
+<h3>Couleurs 🎨</h3>
+
+<color>#d90f17</color>
+
+<h3>Médias</h3>
+
+<mediafile src="images/tile.png">Ruban</mediafile>
+<mediafile src="images/header.webp">Entête</mediafile>
+<mediafile src="images/footer.webp">Pied de page</mediafile>
+
+<dots></dots>
+
+
+<grostitre>Requis</grostitre>
+
+<checklist>
+    Créez le ruban à l'aide de l'élément <span class="inline-code">.ribbon</span>. Celui-ci doit-être affiché au bas de la page complètement ⬇️, afficher la tuile en pièce jointe comme arrière-plan se répétant à l'infini. Prendre toute la largeur de la page et avoir une hauteur équivalente au quart de sa largeur, peu importe la dimension de la fenêtre.
+    L'affiche doit mesurer 80% de la largeur de la page, jusqu'à un maximum de 500px. Il doit avoir une marge de 25px vers le haut et le bas et être centré horizontalement dans la page ↔️. Ajoutez-lui une bordure rouge 🔴 de 20px ainsi qu'une ombre noire ⚫️ de 50px, répartie également de chaque côté.
+    Insérez les images d'entête et de pied de page dans l'affiche 🎆. Faites en sorte qu'elles prennent toute la largeur de celle-ci et qu'aucune ligne noire ne soit visible entre elles.
+    Insérez le code du iFrame YouTube de la bande-annonce de la série entre les deux images. Pour ce faire, allez sur la <a target="_blank" onclick="event.stopPropagation()" href="https://www.youtube.com/watch?v=kCOC9r_DwiA">page YouTube de la vidéo</a>, sélectionnez les options <em>Partager</em> ➡️ <em>Intégrer</em>. Copiez le code du iFrame fourni à droite.<br><br>Par défaut, les iFrames de YouTube ont une largeur et une hauteur fixe ce qui empêchera l'affiche d'être responsive. Retirez donc les attributs <span class="inline-code">width</span> et <span class="inline-code">height</span> du iFrame. Ciblez-le ensuite en CSS afin qu'il prenne toute la largeur de l'affiche et qu'il garde en tout temps son ratio 16-9.
+</checklist>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../aspect-ratio/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../aspect-ratio/">Aspect-ratio</a></span>
+                <span class="intlink__item__abstract">Créer un élément dont la dimension reste proportionnelle.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../border/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../border/">Border</a></span>
+                <span class="intlink__item__abstract">border, border-radius</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../box-shadow/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../box-shadow/">Box-shadow</a></span>
+                <span class="intlink__item__abstract">Ombrage d'un élément.</span>
+            </div>
+        </div>
+
+<dots></dots>
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

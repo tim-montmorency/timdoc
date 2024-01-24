@@ -25,11 +25,11 @@
 <grostitre>Requis</grostitre>
 
 <checklist>
-Créez-vous une animation GSAP sur l'élément correspondant au niveau&nbsp;<em>(</em><code>.level</code><em>)</em>. Cette animation devra être synchronisée avec le défilement de la page. Aussi étrange que cela puisse paraitre, aucune propriété de l'animation ne devra être animée. Cette animation ne servira que de référence afin de synchroniser certains&nbsp;événements.
-Lorsque le niveau&nbsp;<em>(</em><code>.level</code><em>) </em>défile, ajoutez la classe&nbsp;<code>.is-scrolling</code>&nbsp;au body de la&nbsp;page.
-Après 250ms sans défilement, retirez la classe&nbsp;<code>.is-scrolling</code>&nbsp;du body de la&nbsp;page.
-Si le défilement monte ⬆️, ajoutez la classe&nbsp;<code>.direction-up</code>&nbsp;et retirez la classe&nbsp;<code>.direction-down</code>&nbsp;du&nbsp;body.
-Si le défilement descend ⬇️, ajoutez la classe&nbsp;<code>.direction-down</code>&nbsp;et retirez la classe&nbsp;<code>.direction-up</code>&nbsp;du&nbsp;body.
+Créez-vous une animation GSAP sur l'élément correspondant au niveau&nbsp;<em>(</em><incode>.level</incode><em>)</em>. Cette animation devra être synchronisée avec le défilement de la page. Aussi étrange que cela puisse paraitre, aucune propriété de l'animation ne devra être animée. Cette animation ne servira que de référence afin de synchroniser certains&nbsp;événements.
+Lorsque le niveau&nbsp;<em>(</em><incode>.level</incode><em>) </em>défile, ajoutez la classe&nbsp;<incode>.is-scrolling</incode>&nbsp;au body de la&nbsp;page.
+Après 250ms sans défilement, retirez la classe&nbsp;<incode>.is-scrolling</incode>&nbsp;du body de la&nbsp;page.
+Si le défilement monte ⬆️, ajoutez la classe&nbsp;<incode>.direction-up</incode>&nbsp;et retirez la classe&nbsp;<incode>.direction-down</incode>&nbsp;du&nbsp;body.
+Si le défilement descend ⬇️, ajoutez la classe&nbsp;<incode>.direction-down</incode>&nbsp;et retirez la classe&nbsp;<incode>.direction-up</incode>&nbsp;du&nbsp;body.
 </checklist>
 
 

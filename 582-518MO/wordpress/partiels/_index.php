@@ -20,7 +20,7 @@
 <p>Il faut déterminer les endroits dans les différents modèles où l'on désire que le partiel soit affiché et ajouter un script permettant de&nbsp;l'inclure.</p>
 
 
-<p>Par exemple, pour inclure le partiel&nbsp;<code>metas.php</code>&nbsp;sur une page, il faut y ajouter ce code: </p>
+<p>Par exemple, pour inclure le partiel&nbsp;<incode>metas.php</incode>&nbsp;sur une page, il faut y ajouter ce code: </p>
 
 <highlight lang='php'>&lt;?php get_template_part(&#39;metas&#39;); ?&gt;</highlight>
 

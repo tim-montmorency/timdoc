@@ -4,6 +4,7 @@
  * @title    Box-sizing
  * @icon     images/icon.png
  * @abstract border-box, content-box
+ * @ref      web/css
  */
 ?>
 

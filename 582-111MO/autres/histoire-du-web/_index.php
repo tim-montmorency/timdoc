@@ -4,12 +4,13 @@
  * @title    Histoire du Web
  * @icon     images/icon.png
  * @abstract Arpanet, Câbles sous-marins
+ * @ref      web/autres
  */
 ?>
 
 <p>L'histoire du web remonte aux années 1960, lorsque les premières notions d'un réseau informatique mondial ont été développées. Voici une brève chronologie des événements clés de l'histoire du web :</p>
 
-<youtube src="./videos/histoire-internet.json"></youtube>
+<youtube src="hrzXdKvG1CY"></youtube>
 
 <grostitre>1960s</grostitre>
 <p style="color:#f4754d">Les prémices du réseau</p>
@@ -27,7 +28,7 @@
 
 <p>En 1990, le chercheur britannique Sir Tim Berners-Lee a inventé le World Wide Web (WWW) au CERN en Suisse. Il a créé le premier navigateur Web, le premier serveur Web et le premier langage de programmation pour le web, le HTML (HyperText Markup Language). Le premier site web a été mis en ligne en 1991.</p>
 
-<youtube src="./videos/naissance-du-web.json"></youtube>
+<youtube src="dW9Wi_ksoWI"></youtube>
 
 <grostitre>1990's</grostitre>
 <p style="color:#f4754d">L'expansion du web</p>

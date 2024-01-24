@@ -6,11 +6,7 @@
 
 @use 'components/grostitre';
 @use 'components/dots';
-@use 'components/info';
-@use 'components/warning';
-@use 'components/alert';
-@use 'components/bravo';
-@use 'components/thumbsup';
+@use 'components/infobubble';
 @use 'components/audioplayer';
 @use 'components/mediafile';
 @use 'components/codepen';
@@ -24,7 +20,7 @@
 @use 'components/color';
 @use 'components/swiper';
 @use 'components/quote';
-@use 'components/youtube';
+@use 'components/oembed';
 @use 'components/correction';
 
 /* light color palette: https://coolors.co/577590-f3ca40-ff003a-e1e4f2-f2a541 */
@@ -68,8 +64,8 @@ body {
 }
 
 span.inline-code {
-    font-family: Consolas;
-    background-color: #d1cccc;
+    font-family: monospace;
+    background-color: #fbfbfb;
     padding-left: 6px;
     padding-right: 6px;
     padding-top: 4px;
@@ -99,6 +95,12 @@ a {
     &.no-underline{
         background-image: none;
     }
+}
+
+hr {
+    // color: #aaaaaa;
+    border: 1px dashed #aaaaaa;
+    margin-bottom: 20px;
 }
 
 
@@ -182,6 +184,22 @@ header {
         @media (min-width: 576px)  {
             font-size: 24px;
         }
+
+        &_index {
+            display: none;
+        }
+
+        &.index {
+            #breadcrumb_normal {
+                display: none;
+            }
+
+            #breadcrumb_index {
+                display: block;
+            }
+        }
+
+
     }
 
     #title {
@@ -320,6 +338,12 @@ footer {
         margin-right: auto;
         margin-bottom: 50px;
         max-width: 100%;
+
+        &.full {
+            max-width: calc(100% + 50px);
+            margin-left: -25px;
+            margin-right: -25px;
+        }
     }
     figure {
         margin-bottom: 50px;
@@ -359,13 +383,14 @@ footer {
         color: #F2A541;
     }
 
-    p, ul, ol, h1, h2, h3, h4, h5, h6 {
-        code {
-            background-color: rgba(0,0,0,0.05);
-            padding: 0.25em 0.4em 0.4em 0.4em;
-            font-size: 90%;
-        }
-    }
+    // DON'T DO THAT PLEASE, UTILISEZ LA BALISE <incode> au lieu de <code>
+    // p, ul, ol, h1, h2, h3, h4, h5, h6 {
+    //     code {
+    //         background-color: rgba(0,0,0,0.05);
+    //         padding: 0.25em 0.4em 0.4em 0.4em;
+    //         font-size: 90%;
+    //     }
+    // }
 
     span.remark {
         display: block;
@@ -389,10 +414,9 @@ footer {
     }
 
 
+
+
 }
-
-
-
 
 
 #listing {
@@ -517,13 +541,7 @@ table{
     article { width: 100%; max-width:770px; }
 }
 
-@media only screen and (max-width: 830px) {
-    .info__bubble { display: none; }
-    .warning__bubble { display: none; }
-    .alert__bubble { display: none; }
-    .thumbsup__bubble { display: none; }
-    .bravo__bubble { display: none; }
-}
+
 
 
 .video-container{
@@ -536,10 +554,17 @@ table{
     display: flex;
     min-height: 100%;
     
+    &__burger {
+        display: none;
+    }
+
+
     &__list {
-        min-width: 200px;
+        max-width: 200px;
         min-height: 100%;
-        background-image: linear-gradient(to right, #111111, #000000);
+        // background-image: linear-gradient(to right, #111111, #000000);
+        background-image: linear-gradient(to right, #e1e4f227, #e1e4f200);
+        
         
         ul {
             position: sticky;
@@ -548,6 +573,7 @@ table{
             user-select: none;
             
             li {
+                white-space: nowrap;
                 margin-bottom: 20px;
                 list-style-type: none;
                 font-size: 16px;
@@ -582,6 +608,45 @@ table{
         }
     }
 
+}
+
+
+@media (max-width: 576px)  {
+    #wiki {
+        &__burger {
+            display: block;
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            right: 25px;
+            top: 25px;
+            // background-color: red;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' viewBox='0 0 123 104'%3E%3Cpath fill='%23ff003a' fill-rule='evenodd' d='M10 0h103c5 0 10 5 10 10 0 6-5 11-10 11H10C5 21 0 16 0 10 0 5 5 0 10 0zm0 83h103c5 0 10 5 10 10 0 6-5 11-10 11H10c-5 0-10-5-10-11 0-5 5-10 10-10zm0-42h103c5 0 10 5 10 11s-5 10-10 10H10C5 62 0 58 0 52s5-11 10-11z' clip-rule='evenodd'/%3E%3C/svg%3E");
+            cursor: pointer;
+
+            transition-property: transform;
+            transition-duration: 150ms;
+            &.show {
+                transform: rotate(-90deg);
+            }
+
+        }
+
+        &__list {
+            display: none;
+            &.show {
+                display: block;
+            }
+
+            ul {
+                padding: 25px 0 25px 25px;
+            }
+
+        }
+    }
 }
 
 .chiffres-svg{

@@ -33,7 +33,7 @@
 
 
 
-<p><br>Pour obtenir une donnée propre comme celle-ci, sans expression, il faut ajouter un objet intitulé <code>computed</code> à l'app Vue. Cet objet contient à son tour différentes propriétés. Chacune de ces propriétés se base sur une ou plusieurs données se trouvant dans <code>data</code> et leur appliquent un traitement quelconque. </p>
+<p><br>Pour obtenir une donnée propre comme celle-ci, sans expression, il faut ajouter un objet intitulé <incode>computed</incode> à l'app Vue. Cet objet contient à son tour différentes propriétés. Chacune de ces propriétés se base sur une ou plusieurs données se trouvant dans <incode>data</incode> et leur appliquent un traitement quelconque. </p>
 
 <p>Par exemple, multiplier une donnée par 0.8. </p>
 

@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,7 +39,10 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Projet Web</a> > <a href="../">Gestion de projet</a> ></div>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">Gestion de projet</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
                 <h1 id="title"><img src="images/perf-icon.jpg">&nbsp;Chargement différé</h1>
             </div>
             <article>
@@ -56,18 +58,18 @@
 
 <grostitre>Attribut loading</grostitre> 
 
-<p>Avec les versions récentes des navigateurs, un attribut est maintenant supporté sur les balises images: <code>loading</code>. Vous pouvez utiliser cet attribut pour différer complètement le chargement des images hors écran accessibles par défilement:</p>
+<p>Avec les versions récentes des navigateurs, un attribut est maintenant supporté sur les balises images: <span class="inline-code">loading</span>. Vous pouvez utiliser cet attribut pour différer complètement le chargement des images hors écran accessibles par défilement:</p>
 <p>Elles ne seront donc chargées que si l'utilisateur défile jusqu'à cette image. Sinon, aucune image n'est chargée pour rien.</p>
 
-<highlight lang='html'>&lt;img src=&quot;image.png&quot; loading=&quot;lazy&quot; alt=&quot;…&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;</highlight>
+<highlight lang="html">&lt;img src=&quot;image.png&quot; loading=&quot;lazy&quot; alt=&quot;&hellip;&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;</highlight>
 
 <h3>Attributs de dimension</h3>
 <p>Les images doivent idéalement inclure des attributs de dimension.</p>
-<p>Lorsque le navigateur charge une image, il n'en connaît pas immédiatement les dimensions, sauf si elles sont explicitement spécifiées. Afin de permettre au navigateur de réserver suffisamment d'espace pour les images sur une page, nous vous recommandons d'inclure les attributs width et height dans toutes les balises <code>&lt;img&gt;</code>. Si les dimensions ne sont pas spécifiées, des décalages de mise en page peuvent se produire. Ces décalages sont plus visibles sur les pages qui mettent un certain temps à se charger.</p>
+<p>Lorsque le navigateur charge une image, il n'en connaît pas immédiatement les dimensions, sauf si elles sont explicitement spécifiées. Afin de permettre au navigateur de réserver suffisamment d'espace pour les images sur une page, nous vous recommandons d'inclure les attributs width et height dans toutes les balises <span class="inline-code">&lt;img&gt;</span>. Si les dimensions ne sont pas spécifiées, des décalages de mise en page peuvent se produire. Ces décalages sont plus visibles sur les pages qui mettent un certain temps à se charger.</p>
 
-<highlight lang='html'>&lt;img src=&quot;image.png&quot; loading=&quot;lazy&quot; alt=&quot;…&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;</highlight>
+<highlight lang="html">&lt;img src=&quot;image.png&quot; loading=&quot;lazy&quot; alt=&quot;&hellip;&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;</highlight>
 <p>ou</p>
-<highlight lang='html'>&lt;img src=&quot;image.png&quot; loading=&quot;lazy&quot; alt=&quot;…&quot; style=&quot;height:200px; width:200px;&quot;&gt;</highlight>
+<highlight lang="html">&lt;img src=&quot;image.png&quot; loading=&quot;lazy&quot; alt=&quot;&hellip;&quot; style=&quot;height:200px; width:200px;&quot;&gt;</highlight>
 
 <doclink href='https://developer.mozilla.org/fr/docs/Web/Performance/Lazy_loading'>Le chargement différé</doclink>
 <doclink href='https://web.dev/articles/browser-level-image-lazy-loading?hl=fr'>Chargement différé des images</doclink>
@@ -82,6 +84,5 @@
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

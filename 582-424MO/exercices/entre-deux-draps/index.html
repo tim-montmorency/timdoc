@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -114,11 +113,11 @@
 
 
 <h3 id="Medias">Médias</h3>
-<mediafile
-    src="https://fonts.google.com/specimen/Poppins?preview.text_type=custom&preview.text=Vous%20%C3%AAtes%20capable,%20vous%20allez%20r%C3%A9ussir!">
-    Police Poppins</mediafile>
+<doclink
+    href="https://fonts.google.com/specimen/Poppins?preview.text_type=custom&preview.text=Vous%20%C3%AAtes%20capable,%20vous%20allez%20r%C3%A9ussir!">
+    Police Poppins</doclink>
 
-<warning>Les propriétés CSS <code>position</code> et <code>transform</code> seront inutiles. La mise en page sera réalisée entièrement grâce&nbsp;à&nbsp;Bootstrap.</warning>
+<warning>Les propriétés CSS <span class="inline-code">position</span> et <span class="inline-code">transform</span> seront inutiles. La mise en page sera réalisée entièrement grâce&nbsp;à&nbsp;Bootstrap.</warning>
 
 
 <dots></dots>
@@ -137,7 +136,7 @@ Ajoutez la&nbsp;police Google Poppins Semi-bold 600&nbsp;au projet. Cette fonte 
 <checklist>Utilisez une&nbsp;navbar Bootstrap&nbsp;avec la balise&nbsp;appropriée.
 Le fond doit-être un&nbsp;dégradé&nbsp;vers la droite partant de la couleur&nbsp;#082e7f&nbsp;vers&nbsp;#343bff.
 Ajustez le thème de couleur&nbsp;de la navbar de sorte que le texte soit facilement&nbsp;lisible.
-Changez d'affichage&nbsp;vers la navigation complète à partir du breakpoint&nbsp;<code>lg</code>.
+Changez d'affichage&nbsp;vers la navigation complète à partir du breakpoint&nbsp;<span class="inline-code">lg</span>.
 Ajoutez le&nbsp;logo textuel&nbsp;<em>"noovo"</em>. Ce logo doit utiliser la fonte Poppins et avoir une taille de&nbsp;22px.
 Ajoutez les liens suivants afin de constituer&nbsp;la&nbsp;navigation. Faites pointer tous leurs href vers&nbsp;<em>"#"</em>':<br>- Émissions<br>- Horaire<br>- En direct<br>- Films<br>- Concours<br>- Plus
 Transformez le dernier lien&nbsp;<em>"Plus"</em>&nbsp;en&nbsp;menu déroulant&nbsp;permettant d'avoir accès aux liens&nbsp;suivants:<br>- Articles<br>- Recettes<br>- Quiz</checklist>
@@ -161,10 +160,10 @@ La couleur de fond doit-être&nbsp;bleu vif et le texte&nbsp;blanc.</checklist>
 
 <grostitre>Héros</grostitre>
 <checklist>Le fond doit-être un&nbsp;dégradé&nbsp;vers le bas partant de bleu foncé&nbsp;vers&nbsp;bleu 🔵.
-    Par défaut, l'image&nbsp;<code>noovo.webp</code> 🌄&nbsp;dans le dossier&nbsp;<code>img</code>&nbsp; 📁 doit prendre toute la largeur.
+    Par défaut, l'image&nbsp;<span class="inline-code">noovo.webp</span> 🌄&nbsp;dans le dossier&nbsp;<span class="inline-code">img</span>&nbsp; 📁 doit prendre toute la largeur.
     Par défaut, le texte suivant doit prendre toute la largeur:<br><br><strong>Titre:</strong>&nbsp;<em>"Entre deux draps"</em><br><strong>Description:</strong>&nbsp;<em>"ENTRE DEUX DRAPS est une comédie à sketchs de 10 épisodes de 30 minutes présentant le quotidien de quatre couples et deux colocs d’âges et de milieux différents."</em>
     Le titre doit avoir une taille de&nbsp;22px et un espace de 20px doit être présent en haut du titre afin qu'il ne touche pas à&nbsp;l'image.
-    À partir du breakpoint&nbsp;<code>lg</code>&nbsp;le texte et l'image doivent être juxtaposés un à côté de l'autre.
+    À partir du breakpoint&nbsp;<span class="inline-code">lg</span>&nbsp;le texte et l'image doivent être juxtaposés un à côté de l'autre.
     Le texte doit prendre un tiers de la largeur et afficher en premier tandis que l'image doit afficher en second et prendre le reste de la&nbsp;largeur.</checklist>
 <p><strong>Copiez le contenu ici :</strong></p>
 <p>Titre:&nbsp;<em>"Entre deux draps"</em><br>Description:&nbsp;<em>"ENTRE DEUX DRAPS est une comédie à sketchs de 10
@@ -181,7 +180,7 @@ La couleur de fond doit-être&nbsp;bleu vif et le texte&nbsp;blanc.</checklist>
 <grostitre>Présenté par</grostitre>
 <checklist>Doit avoir un fond&nbsp;blanc.
     Le texte&nbsp;<em>¨Présenté par:¨</em>&nbsp;doit être en majuscule, avoir une taille de 12px et être gris.
-    Utilisez une balise <code>picture</code> afin d'afficher par défaut l'image&nbsp;<code>college-logo-vertical.png</code> 🌄. À partir de 576px de large, la source de cette image doit-être remplacé par l'image&nbsp;<code>college-logo-horizontal.png</code>.
+    Utilisez une balise <span class="inline-code">picture</span> afin d'afficher par défaut l'image&nbsp;<span class="inline-code">college-logo-vertical.png</span> 🌄. À partir de 576px de large, la source de cette image doit-être remplacé par l'image&nbsp;<span class="inline-code">college-logo-horizontal.png</span>.
 </checklist>
 
 
@@ -192,7 +191,7 @@ La couleur de fond doit-être&nbsp;bleu vif et le texte&nbsp;blanc.</checklist>
 
 <checklist>Cette&nbsp;section&nbsp;doit avoir un fond&nbsp;de couleur noir charbon ⚫️ et avoir un espace vide de 30px dans le haut et le&nbsp;bas.
     Le titre de la section&nbsp;<em>"Épisodes"</em>&nbsp;doit être blanc, avoir une taille de 22px et être en&nbsp;majuscules.
-    Chaque&nbsp;carte&nbsp;doit prendre toute la largeur par défaut. À partir du breakpoint&nbsp;<code>md</code>&nbsp;elles doivent prendre la moitié et à partir de&nbsp;<code>lg</code>&nbsp;le&nbsp;tier.
+    Chaque&nbsp;carte&nbsp;doit prendre toute la largeur par défaut. À partir du breakpoint&nbsp;<span class="inline-code">md</span>&nbsp;elles doivent prendre la moitié et à partir de&nbsp;<span class="inline-code">lg</span>&nbsp;le&nbsp;tier.
     Les cartes ne doivent pas avoir de couleur de fond ni de&nbsp;bordure.
     Chaque image doit prendre toute la largeur de sa&nbsp;carte.
     Les titres doivent être blancs et avoir une taille de&nbsp;18px.
@@ -235,7 +234,7 @@ La couleur de fond doit-être&nbsp;bleu vif et le texte&nbsp;blanc.</checklist>
 <grostitre>Pied de page</grostitre>
 
 <checklist>Le pied de page doit utiliser la&nbsp;balise&nbsp;appropriée, son texte doit être blanc, avoir une couleur de fond&nbsp;noir nuit ⚫️&nbsp;et se garder un espace vide de 15px dans le haut et le&nbsp;bas.
-Par défaut les textes&nbsp;<em>"TIM Montmorency"</em>&nbsp;et&nbsp;<em>"© 2021"</em>&nbsp;doivent être centrés un au-dessus de l'autre. À partir du breakpoint&nbsp;<code>sm</code>, ils doivent être affichés un à côté de l'autre. Le 1<sup>er</sup>&nbsp;aligné complètement à gauche et le 2<sup>e</sup>&nbsp;complètement à&nbsp;droite.
+Par défaut les textes&nbsp;<em>"TIM Montmorency"</em>&nbsp;et&nbsp;<em>"© 2021"</em>&nbsp;doivent être centrés un au-dessus de l'autre. À partir du breakpoint&nbsp;<span class="inline-code">sm</span>, ils doivent être affichés un à côté de l'autre. Le 1<sup>er</sup>&nbsp;aligné complètement à gauche et le 2<sup>e</sup>&nbsp;complètement à&nbsp;droite.
 </checklist> -->
 
 <dots></dots>
@@ -244,7 +243,7 @@ Par défaut les textes&nbsp;<em>"TIM Montmorency"</em>&nbsp;et&nbsp;<em>"© 2021
 <p>Pas de remise. C'est un exercice.</p>
 <!--
 <checklist>Renommez votre dossier de travail 📁 au
-    format&nbsp;suivant:<br><code>[nom de famille]_[prénom]_entre-deux-draps</code><br>ex:
+    format&nbsp;suivant:<br><span class="inline-code">[nom de famille]_[pr&eacute;nom]_entre-deux-draps</span><br>ex:
     <em>ouellet_mariemichelle_entre-deux-draps</em>
     Compressez ensuite votre dossier de travail en <a href="https://www.ezyzip.com/" target="_blank"
         rel="noopener noreferrer">fichier&nbsp;zip 🗜</a>
@@ -262,6 +261,5 @@ Par défaut les textes&nbsp;<em>"TIM Montmorency"</em>&nbsp;et&nbsp;<em>"© 2021
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,7 +39,10 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Intégration Web</a> > <a href="../">Autres</a> ></div>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Intégration Web</a> > <a href="../">Autres</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
                 <h1 id="title"><img src="images/icon.png">&nbsp;Navigation clavier</h1>
             </div>
             <article>
@@ -71,9 +73,9 @@
 <p>Plutôt que de déplacer son curseur et de cliquer sur un bouton avec sa souris, un utilisateur peut déplacer le focus de son navigateur d'un élément à l'autre <em>(effet de surbrillance autour d'un élément)</em> et déclencher son action via le clavier avec les touches suivantes:</p>
 
 <ul>
-    <li><incode>Tab</incode> pour focuser sur le prochain élément interactif.</li>
-    <li><incode>Shift</incode> + <incode>Tab</incode> pour revenir à l'élément précédent.</li>
-    <li><incode>⏎</incode> ou <incode>Espace</incode> pour interagir avec l'élément focusé.</li>
+    <li><span class="inline-code">Tab</span> pour focuser sur le prochain élément interactif.</li>
+    <li><span class="inline-code">Shift</span> + <span class="inline-code">Tab</span> pour revenir à l'élément précédent.</li>
+    <li><span class="inline-code">⏎</span> ou <span class="inline-code">Espace</span> pour interagir avec l'élément focusé.</li>
 </ul>
 
 <p>Par défaut, les éléments reçoivent le focus en fonction de leur ordre dans le code.</p>
@@ -86,9 +88,9 @@
 
 <warning>L’effet de surbrillance peut varier d’un navigateur à l’autre.</warning>
 
-<p>À priori, seules les balises prévues pour l'interaction peuvent recevoir le focus du navigateur. Par exemple, les balises: <incode>&lt;button&gt;</incode>, <incode>&lt;a&gt;</incode>, <incode>&lt;input&gt;</incode>, <incode>&lt;details&gt;</incode>, etc. D'où l'importance d'utiliser les bonnes balises, aux bons endroits.</p>
+<p>À priori, seules les balises prévues pour l'interaction peuvent recevoir le focus du navigateur. Par exemple, les balises: <span class="inline-code">&lt;button&gt;</span>, <span class="inline-code">&lt;a&gt;</span>, <span class="inline-code">&lt;input&gt;</span>, <span class="inline-code">&lt;details&gt;</span>, etc. D'où l'importance d'utiliser les bonnes balises, aux bons endroits.</p>
 
-<p>Par exemple, dans le cas où un alert est déclenché en JavaScript lorsqu'un élément est cliqué. Si cet élément est un <incode>&lt;span&gt;</incode>, qui est une balise prévue à des fins de mise en page et non d'interaction, cette interactivité ne sera pas accessible aux individus navigants avec leur clavier, puisque cette balise ne recevra jamais le focus du navigateur.</p>
+<p>Par exemple, dans le cas où un alert est déclenché en JavaScript lorsqu'un élément est cliqué. Si cet élément est un <span class="inline-code">&lt;span&gt;</span>, qui est une balise prévue à des fins de mise en page et non d'interaction, cette interactivité ne sera pas accessible aux individus navigants avec leur clavier, puisque cette balise ne recevra jamais le focus du navigateur.</p>
 
 <p>👌</p>
 
@@ -105,13 +107,13 @@
 
 <grostitre>Tabindex</grostitre>
 
-<p>Il est parfois impossible d'utiliser la balise appropriée pour diverses raisons. Heureusement, il est quand même possible d'indiquer au navigateur qu'un élément devrait être en mesure de recevoir le focus, autrement dit d'être <em>"tabé"</em>, en lui donnant l'attribut <incode>tabindex</incode>.</p>
+<p>Il est parfois impossible d'utiliser la balise appropriée pour diverses raisons. Heureusement, il est quand même possible d'indiquer au navigateur qu'un élément devrait être en mesure de recevoir le focus, autrement dit d'être <em>"tabé"</em>, en lui donnant l'attribut <span class="inline-code">tabindex</span>.</p>
 
 <p>Par exemple:</p>
 
 <highlight lang="html">&lt;span tabindex=&quot;0&quot;&gt;Afficher un alert&lt;/span&gt;</highlight>
 
-<p>Ainsi, la balise <incode>&lt;span&gt;</incode> est à même de recevoir le focus, comme dans l'exemple ci-dessous:</p>
+<p>Ainsi, la balise <span class="inline-code">&lt;span&gt;</span> est à même de recevoir le focus, comme dans l'exemple ci-dessous:</p>
 
 <clipasset src="videos/accessibilite-tabindex.mp4"></clipasset>
 
@@ -119,9 +121,9 @@
 
 <p>0 correspond à la priorité de focus par défaut de tous les éléments interactif. Puisqu'ils sont tous à 0, le navigateur les considères égaux et donc leur attribut le focus l'un après l'autre selon leur ordre d'apparition dans le code.</p>
 
-<p>Attribuer <incode>tabindex="0"</incode> à un élément lui permet de recevoir le focus, mais le place au même niveau d'importance que les autres éléments interactif. Bref, l'élément recevra le focus en fonction de son ordre d'apparition dans le code, comme tout autre élément et son ordre de sélection sera intuitif/prévisible pour l'utilisateur.</p>
+<p>Attribuer <span class="inline-code">tabindex=&quot;0&quot;</span> à un élément lui permet de recevoir le focus, mais le place au même niveau d'importance que les autres éléments interactif. Bref, l'élément recevra le focus en fonction de son ordre d'apparition dans le code, comme tout autre élément et son ordre de sélection sera intuitif/prévisible pour l'utilisateur.</p>
 
-<p>Le concept initial de <incode>tabindex</incode> était de modifier la priorité de focus des éléments afin de contrôler leur ordre de sélection. Ainsi, un élément pouvait apparaitre au milieu du code et quand même recevoir le focus en premier s'il était doté d'un attribut <incode>tabindex</incode> avec une valeur supérieure à 0. Cependant, cette approche est maintenant fortement déconseillée, puisqu'elle engendre beaucoup de confusion. Le navigateur saute directement à l'élément avec le tabindex le plus élevé, ignorant souvent plusieurs éléments interactifs au passage, et ensuite reprend son ordre de sélection normal. Ainsi, plusieurs éléments peuvent sembler inaccessibles à l'utilisateur.</p>
+<p>Le concept initial de <span class="inline-code">tabindex</span> était de modifier la priorité de focus des éléments afin de contrôler leur ordre de sélection. Ainsi, un élément pouvait apparaitre au milieu du code et quand même recevoir le focus en premier s'il était doté d'un attribut <span class="inline-code">tabindex</span> avec une valeur supérieure à 0. Cependant, cette approche est maintenant fortement déconseillée, puisqu'elle engendre beaucoup de confusion. Le navigateur saute directement à l'élément avec le tabindex le plus élevé, ignorant souvent plusieurs éléments interactifs au passage, et ensuite reprend son ordre de sélection normal. Ainsi, plusieurs éléments peuvent sembler inaccessibles à l'utilisateur.</p>
 
 <p>Par exemple:</p>
 
@@ -154,6 +156,5 @@
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

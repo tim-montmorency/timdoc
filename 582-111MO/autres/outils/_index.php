@@ -4,6 +4,7 @@
  * @title    Les outils
  * @icon     images/icon.png
  * @abstract draw.io, vs code, W3C, etc...
+ * @ref      web/autres
  */
 ?>
 

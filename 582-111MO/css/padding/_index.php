@@ -4,6 +4,7 @@
  * @title    Padding
  * @icon     images/icon.png
  * @abstract marge intérieur
+ * @ref      web/css
  */
 ?>
 

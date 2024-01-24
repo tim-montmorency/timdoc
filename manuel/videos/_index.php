@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Vidéos
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @index    0
  * @abstract Utiliser Github et Video.js
  */
@@ -20,8 +20,17 @@
 
 <youtube src="KVJBHSOx9jI"></youtube>
 
+<dots></dots>
+
+
+<grostitre>Vimeo</grostitre>
+
+<highlight lang="html"><vimeo src="874986396"></vimeo></highlight>
+
+<vimeo src="874986396"></vimeo>
 
 <dots></dots>
+
 
 <grostitre>Clipinfo</grostitre>
 
@@ -29,15 +38,15 @@
 
 <highlight lang="dos">clipinfo.bat videos/le-boson-de-higgs.mp4</highlight>
 
-<img src="images/drag-and-drop.png">
+<img class="full" src="images/drag-and-drop.webp">
 
 <dots></dots>
 
 
 <grostitre>Exemple</grostitre>
 
-<highlight lang="html">&lt;clip src="videos/le-boson-de-higgs.mp4"&gt;&lt;/clip&gt;</highlight>
-<clip src="../components/videos/le-boson-de-higgs.mp4"></clip>
+<highlight lang="html"><clip src="../components/videos/le-boson-de-higgs.mp4" title="Qu'est-ce que le boson de Higs?"></clip></highlight>
+<clip src="../components/videos/le-boson-de-higgs.mp4" title="Qu'est-ce que le boson de Higs?"></clip>
 
 <dots></dots>
 

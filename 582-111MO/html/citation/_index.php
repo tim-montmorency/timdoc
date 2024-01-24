@@ -4,6 +4,7 @@
  * @title    Citation
  * @icon     images/icon.png
  * @abstract q, blockquote, cite
+ * @ref      web/html
  */
 ?>
 

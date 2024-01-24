@@ -4,6 +4,7 @@
  * @title    iFrame
  * @icon     images/icon.png
  * @abstract youtube, vimeo, google map, etc.
+ * @ref      web/html
  */
 ?>
 

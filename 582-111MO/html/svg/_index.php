@@ -4,6 +4,7 @@
  * @title    SVG
  * @icon     images/icon.png
  * @abstract Scalable Vector Graphics
+ * @ref      web/html
  */
 ?>
 

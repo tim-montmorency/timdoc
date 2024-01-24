@@ -1,6 +1,7 @@
 {
     "data": {
-        "project": "TIM Montmorency - Documentation"
+        "project": "TIM Montmorency - Documentation",
+        "gtag": "G-P2R7T89B4B"
     },
     "includes": [
         "_includes/functions.php",

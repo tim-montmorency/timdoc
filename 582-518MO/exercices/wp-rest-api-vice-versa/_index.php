@@ -37,7 +37,77 @@ Importez les données des pages à l'aide du fichier XML en pièce jointe.<</che
 
 
 
-<pre><code class="hljs json">{<span class="hljs-attr">"emotions"</span>:{<span class="hljs-attr">"name"</span>:<span class="hljs-string">"emotions"</span>,<span class="hljs-attr">"label"</span>:<span class="hljs-string">"\u00c9motions"</span>,<span class="hljs-attr">"singular_label"</span>:<span class="hljs-string">"\u00c9motion"</span>,<span class="hljs-attr">"description"</span>:<span class="hljs-string">""</span>,<span class="hljs-attr">"public"</span>:<span class="hljs-string">"true"</span>,<span class="hljs-attr">"publicly_queryable"</span>:<span class="hljs-string">"true"</span>,<span class="hljs-attr">"show_ui"</span>:<span class="hljs-string">"true"</span>,<span class="hljs-attr">"show_in_nav_menus"</span>:<span class="hljs-string">"true"</span>,<span class="hljs-attr">"delete_with_user"</span>:<span class="hljs-string">"false"</span>,<span class="hljs-attr">"show_in_rest"</span>:<span class="hljs-string">"true"</span>,<span class="hljs-attr">"rest_base"</span>:<span class="hljs-string">""</span>,<span class="hljs-attr">"rest_controller_class"</span>:<span class="hljs-string">""</span>,<span class="hljs-attr">"has_archive"</span>:<span class="hljs-string">"false"</span>,<span class="hljs-attr">"has_archive_string"</span>:<span class="hljs-string">""</span>,<span class="hljs-attr">"exclude_from_search"</span>:<span class="hljs-string">"false"</span>,<span class="hljs-attr">"capability_type"</span>:<span class="hljs-string">"post"</span>,<span class="hljs-attr">"hierarchical"</span>:<span class="hljs-string">"false"</span>,<span class="hljs-attr">"rewrite"</span>:<span class="hljs-string">"true"</span>,<span class="hljs-attr">"rewrite_slug"</span>:<span class="hljs-string">""</span>,<span class="hljs-attr">"rewrite_withfront"</span>:<span class="hljs-string">"true"</span>,<span class="hljs-attr">"query_var"</span>:<span class="hljs-string">"true"</span>,<span class="hljs-attr">"query_var_slug"</span>:<span class="hljs-string">""</span>,<span class="hljs-attr">"menu_position"</span>:<span class="hljs-string">""</span>,<span class="hljs-attr">"show_in_menu"</span>:<span class="hljs-string">"true"</span>,<span class="hljs-attr">"show_in_menu_string"</span>:<span class="hljs-string">""</span>,<span class="hljs-attr">"menu_icon"</span>:<span class="hljs-string">"dashicons-admin-users"</span>,<span class="hljs-attr">"supports"</span>:[<span class="hljs-string">"title"</span>,<span class="hljs-string">"editor"</span>,<span class="hljs-string">"thumbnail"</span>],<span class="hljs-attr">"taxonomies"</span>:[],<span class="hljs-attr">"labels"</span>:{<span class="hljs-attr">"menu_name"</span>:<span class="hljs-string">"\u00c9motions"</span>,<span class="hljs-attr">"all_items"</span>:<span class="hljs-string">"Toutes les \u00e9motions"</span>,<span class="hljs-attr">"add_new"</span>:<span class="hljs-string">"Ajouter une nouvelle"</span>,<span class="hljs-attr">"add_new_item"</span>:<span class="hljs-string">"Ajouter une \u00e9motion"</span>,<span class="hljs-attr">"edit_item"</span>:<span class="hljs-string">"Modifier une \u00e9motion"</span>,<span class="hljs-attr">"new_item"</span>:<span class="hljs-string">"Nouvelle \u00e9motion"</span>,<span class="hljs-attr">"view_item"</span>:<span class="hljs-string">"Voir l'\u00e9motion"</span>,<span class="hljs-attr">"view_items"</span>:<span class="hljs-string">"Voir les \u00e9motions"</span>,<span class="hljs-attr">"search_items"</span>:<span class="hljs-string">"Rechercher dans les \u00e9motions"</span>,<span class="hljs-attr">"not_found"</span>:<span class="hljs-string">"Aucune \u00e9motion trouv\u00e9e"</span>,<span class="hljs-attr">"not_found_in_trash"</span>:<span class="hljs-string">"Aucune \u00e9motion dans la corbeille"</span>,<span class="hljs-attr">"parent"</span>:<span class="hljs-string">"Parent de \u00e9motion:"</span>,<span class="hljs-attr">"featured_image"</span>:<span class="hljs-string">"Image de pr\u00e9sentation de \u00e9motion"</span>,<span class="hljs-attr">"set_featured_image"</span>:<span class="hljs-string">"Configurer image de pr\u00e9sentation de l'\u00e9motion"</span>,<span class="hljs-attr">"remove_featured_image"</span>:<span class="hljs-string">"Enlever l'image de pr\u00e9sentation de \u00e9motion"</span>,<span class="hljs-attr">"use_featured_image"</span>:<span class="hljs-string">"Utiliser comme image de pr\u00e9sentation pour cette \u00e9motion"</span>,<span class="hljs-attr">"archives"</span>:<span class="hljs-string">"Archive d'\u00e9motions"</span>,<span class="hljs-attr">"insert_into_item"</span>:<span class="hljs-string">"Ins\u00e9rer dans les \u00e9motions"</span>,<span class="hljs-attr">"uploaded_to_this_item"</span>:<span class="hljs-string">"T\u00e9l\u00e9verser vers cette \u00e9motion"</span>,<span class="hljs-attr">"filter_items_list"</span>:<span class="hljs-string">"Filtrer la liste des \u00e9motions"</span>,<span class="hljs-attr">"items_list_navigation"</span>:<span class="hljs-string">"\u00c9motions list navigation"</span>,<span class="hljs-attr">"items_list"</span>:<span class="hljs-string">"\u00c9motions list"</span>,<span class="hljs-attr">"attributes"</span>:<span class="hljs-string">"\u00c9motions attributes"</span>,<span class="hljs-attr">"name_admin_bar"</span>:<span class="hljs-string">"\u00c9motion"</span>,<span class="hljs-attr">"item_published"</span>:<span class="hljs-string">"\u00c9motion publi\u00e9e"</span>,<span class="hljs-attr">"item_published_privately"</span>:<span class="hljs-string">"\u00c9motion published privately."</span>,<span class="hljs-attr">"item_reverted_to_draft"</span>:<span class="hljs-string">"\u00c9motion reverted to draft."</span>,<span class="hljs-attr">"item_scheduled"</span>:<span class="hljs-string">"\u00c9motion scheduled"</span>,<span class="hljs-attr">"item_updated"</span>:<span class="hljs-string">"\u00c9motion updated."</span>,<span class="hljs-attr">"parent_item_colon"</span>:<span class="hljs-string">"Parent de \u00e9motion:"</span>},<span class="hljs-attr">"custom_supports"</span>:<span class="hljs-string">""</span>}}</code></pre>
+<highlight lang="json">
+{
+    "emotions": {
+        "name": "emotions",
+        "label": "\u00c9motions",
+        "singular_label": "\u00c9motion",
+        "description": "",
+        "public": "true",
+        "publicly_queryable": "true",
+        "show_ui": "true",
+        "show_in_nav_menus": "true",
+        "delete_with_user": "false",
+        "show_in_rest": "true",
+        "rest_base": "",
+        "rest_controller_class": "",
+        "has_archive": "false",
+        "has_archive_string": "",
+        "exclude_from_search": "false",
+        "capability_type": "post",
+        "hierarchical": "false",
+        "rewrite": "true",
+        "rewrite_slug": "",
+        "rewrite_withfront": "true",
+        "query_var": "true",
+        "query_var_slug": "",
+        "menu_position": "",
+        "show_in_menu": "true",
+        "show_in_menu_string": "",
+        "menu_icon": "dashicons-admin-users",
+        "supports": [
+            "title",
+            "editor",
+            "thumbnail"
+        ],
+        "taxonomies": [],
+        "labels": {
+            "menu_name": "\u00c9motions",
+            "all_items": "Toutes les \u00e9motions",
+            "add_new": "Ajouter une nouvelle",
+            "add_new_item": "Ajouter une \u00e9motion",
+            "edit_item": "Modifier une \u00e9motion",
+            "new_item": "Nouvelle \u00e9motion",
+            "view_item": "Voir l'\u00e9motion",
+            "view_items": "Voir les \u00e9motions",
+            "search_items": "Rechercher dans les \u00e9motions",
+            "not_found": "Aucune \u00e9motion trouv\u00e9e",
+            "not_found_in_trash": "Aucune \u00e9motion dans la corbeille",
+            "parent": "Parent de \u00e9motion:",
+            "featured_image": "Image de pr\u00e9sentation de \u00e9motion",
+            "set_featured_image": "Configurer image de pr\u00e9sentation de l'\u00e9motion",
+            "remove_featured_image": "Enlever l'image de pr\u00e9sentation de \u00e9motion",
+            "use_featured_image": "Utiliser comme image de pr\u00e9sentation pour cette \u00e9motion",
+            "archives": "Archive d'\u00e9motions",
+            "insert_into_item": "Ins\u00e9rer dans les \u00e9motions",
+            "uploaded_to_this_item": "T\u00e9l\u00e9verser vers cette \u00e9motion",
+            "filter_items_list": "Filtrer la liste des \u00e9motions",
+            "items_list_navigation": "\u00c9motions list navigation",
+            "items_list": "\u00c9motions list",
+            "attributes": "\u00c9motions attributes",
+            "name_admin_bar": "\u00c9motion",
+            "item_published": "\u00c9motion publi\u00e9e",
+            "item_published_privately": "\u00c9motion published privately.",
+            "item_reverted_to_draft": "\u00c9motion reverted to draft.",
+            "item_scheduled": "\u00c9motion scheduled",
+            "item_updated": "\u00c9motion updated.",
+            "parent_item_colon": "Parent de \u00e9motion:"
+        },
+        "custom_supports": ""
+    }
+}
+</highlight>
 
 
 <dots></dots>

@@ -70,7 +70,7 @@
     </li>
     <li>
        D'utiliser la <a target="_blank" rel="noopener noreferrer"
-                href="https://vuejs.org/guide/quick-start.html#creating-a-vue-application">commande NPM</a> pour l'installer dans votre projet<br><code>npm create vue@latest</code>
+                href="https://vuejs.org/guide/quick-start.html#creating-a-vue-application">commande NPM</a> pour l'installer dans votre projet<br><incode>npm create vue@latest</incode>
     </li>
 </ul>
 

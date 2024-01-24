@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Formulaire avancé</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 2</a> > <a href="../">HTML</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Formulaire avancé</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">En 2008, alors que HTML5 voyait le jour, les formulaires furent bonifiés avec de nouvelles balises simplifiant la vie des développeurs et des internautes. En voici quelques unes des plus communes parmi celles-ci.</p>
+
+<dots></dots>
+
+<grostitre>Number</grostitre>
+
+<p>Parfait pour les valeurs numériques 🔢, ce champ empêche l'usager d'entrer des valeurs alphabétique et ajoute des flèches permettant d'incrémenter / décrémenter le nombre saisi ↕️.</p>
+
+<p>Il permet entre autre d'éviter qu'un usager entre le texte <em>"deux"</em> plutôt que le chiffre <em>"2"</em> afin d'indiquer le nombre de pizzas désirées.</p>
+
+<codepen id="PoBMXjZ" tab="html,result" height="340"></codepen>
+
+<span class="remark">Remarquez les flèches qui apparaissent lorsque le champs est survolé.</span>
+
+<h3>Attributs de number</h3>
+
+<ul>
+    <li><span class="inline-code">name</span> nom de référence lorsque le formulaire est soumis.</li>
+    <li><span class="inline-code">min</span> et <span class="inline-code">max</span> permettent de spécifier un nombre minimal et maximal à respecter.</li>
+    <li><span class="inline-code">step</span> définit la granularité. Autrement dit, le saut entre chaque valeur. Par défaut, la valeur de step est à 1. Cependant, il est possible de modifier cette valeur. Par exemple, <span class="inline-code">step: 2</span> fait en sorte que les valeurs 0, 2, 4, 6, 8 et 10 sont possibles, mais non la valeur 9.</li>
+    <li><span class="inline-code">disabled</span> permet d'afficher en lecture seule le champ number.</li>
+</ul>
+
+<h3>Mobile</h3>
+
+<p>Sur mobile, lorsque ce champ reçoit le focus, un pavé numérique est affiché à la place du traditionnel clavier alphanumérique, simplifiant ainsi l'entrée de données à l'usager.</p>
+
+<img src="images/input-number.jpg">
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/number">input number</doclink>
+<doclink href="https://www.w3schools.com/tags/att_input_type_number.asp">input number</doclink>
+
+<dots></dots>
+
+
+<grostitre>Range</grostitre>
+
+<p>Permets de choisir une valeur entre deux extrémités. Leur usage est approprié lorsqu'une valeur approximative est suffisante.</p>
+
+<p>Par exemple, choisir plus ou moins de sauce sur une pizza est plus intuitif à l'aide de ce type de contrôle que de spécifier une quantité en millilitres🥫:</p>
+
+<codepen id="dyjxwRB" tab="html,result" height="340"></codepen>
+
+<h3>Attributs de range</h3>
+
+<ul>
+    <li><span class="inline-code">name</span> nom de référence lorsque le formulaire est soumis.</li>
+    <li><span class="inline-code">min</span> et <span class="inline-code">max</span> permettent de spécifier un nombre minimal et maximal à respecter.</li>
+    <li><span class="inline-code">step</span> définit la granularité. Autrement dit, le saut entre chaque valeur. Par exemple, <span class="inline-code">step: 100</span> fait en sorte que les valeurs 0, 100, 200, 300, etc. sont possibles, mais non la valeur 150.</li>
+    <li><span class="inline-code">disabled</span> permet d'afficher en lecture seule un widget range.</li>
+</ul>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/range">input range</doclink>
+<doclink href="https://www.w3schools.com/tags/att_input_type_range.asp">input range</doclink>
+
+<dots></dots>
+
+
+<grostitre>Password</grostitre>
+
+<p>Comme son nom l'indique, ce champ conviens aux mots de passe 🔑. Il permet entre autre d'entrer son mot de passe en toute discrétion, puisque les caractères affichés à l'écran sont remplacés par des <span class="inline-code">&bull;</span>.</p>
+
+<codepen id="QWBezMg" tab="html,result" height="340"></codepen>
+
+<h3>Mobile</h3>
+
+<p>Sur mobile, les boutons 😀 et 🎙 sont retirés puisque la majorités des mots de passe ne supportent pas les émojis et que l'utilisation du dictaphone implique forcément de dire son mot de passe à voix haute, ce qui peut causer des enjeux de confidentialité.</p>
+
+<img src="images/input-password.jpg" alt="">
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input/password">input password</doclink>
+<doclink href="https://www.w3schools.com/tags/att_input_type_password.asp">input password</doclink>
+
+<dots></dots>
+
+
+<grostitre>Email</grostitre>
+
+<p>Comme son nom l'indique, ce champ est conçu afin de gérer les courriels ✉️. Il ajoute automatiquement les pseudo-classes <span class="inline-code">:valid</span> et <span class="inline-code">:invalid</span> en fonction du texte qui lui est inséré, permettant ainsi d'ajuster le visuel du champ en CSS afin de fournir une rétroaction à l'utilisateur.</p>
+
+<codepen id="xxJvmLm" tab="html,result" height="340"></codepen>
+
+<warning>À moins d’être requis <em>(avoir l’attribut <span class="inline-code">required</span>)</em>, un champ de type email vide est considéré comme étant valide puisqu’il est théoriquement optionel.</warning>
+
+<h3>Mobile</h3>
+
+<p>Sur mobile, le bouton 🎙 du clavier est remplacé par les boutons <span class="inline-code">@</span> et <span class="inline-code">.</span> qui sont plus pratiques puisqu'ils sont systématiquement présent dans une adresse courriel.</p>
+
+<img src="images/input-email.jpg">
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/email">input email</doclink>
+<doclink href="https://www.w3schools.com/tags/att_input_type_email.asp">input email</doclink>
+
+<dots></dots>
+
+
+<grostitre>Tel</grostitre>
+
+<p>Évidemment, ce champ est conçu pour les numéros de téléphone 📞. Les navigateurs suggèreront généralement des numéros précédemment entrés afin de faire sauver du temps à l'usager.</p>
+
+<p>Contrairement au <a href="#email">champ de type email</a>, ce champ ne fait aucune validation par défaut, puisque les numéros de téléphone varient grandement de format d'un pays à l'autre.</p>
+
+<codepen id="NWBQeap" tab="html,result" height="340"></codepen>
+
+<h3>Attributs de tel</h3>
+
+<ul>
+    <li><span class="inline-code">inputmode=&quot;decimal&quot;</span> affichent un pavé numérique agrémenté des symboles <span class="inline-code">+*#</span> sur les appareils mobile afin de simplifier la vie de l'usager.</li>
+    <li><span class="inline-code">disabled</span> permet d'afficher en lecture seule le champ de téléphone.</li>
+</ul>
+
+<h3>Mobile</h3>
+
+<p>Lorsque l'attribut <span class="inline-code">inputmode=&quot;decimal&quot;</span> est ajouté au champs téléphone.</p>
+
+<img src="images/input-tel.jpg">
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/tel">input tel</doclink>
+<doclink href="https://www.w3schools.com/tags/att_input_type_tel.asp">input tel</doclink>
+
+<dots></dots>
+
+
+<grostitre>Search</grostitre>
+
+<p>Ce champ est conçu pour les barres de recherche 🔍. Il ajoute automatiquement une croix permettant d'effacer rapidement le texte saisi ❌. ce qui s'avère souvent utile dans le cadre d'une recherche. Certains navigateurs proposent même une autocomplétition sur ces champs avec des valeurs précédemment utilisées.</p>
+
+<codepen id="wvxVRPo" tab="html,result" height="340"></codepen>
+
+<h3>Mobile</h3>
+
+<p>Sur mobile, le clavier est pratiquement identique à celui par défaut outre la présence du bouton <span class="inline-code">.</span> qui est ajouté.</p>
+
+<img src="images/input-search.jpg">
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/search">input search</doclink>
+<doclink href="https://www.w3schools.com/tags/att_input_type_search.asp">input search</doclink>
+
+<dots></dots>
+
+
+<grostitre>Date</grostitre>
+
+<p>Permets, comme son nom l'indique, de sélectionner une date dans un calendrier 📅.</p>
+
+<codepen id="qByeLVw" tab="html,result" height="340"></codepen>
+
+<h3>Attributs de date</h3>
+
+<ul>
+    <li><span class="inline-code">min</span> et <span class="inline-code">max</span> permettent de spécifier une date minimale et maximale à respecter. Par exemple, <span class="inline-code">min=&quot;1980-01-01&quot;</span> fait en sorte qu'aucune date inférieure au 1er janvier 1980 ne puisse être sélectionnée.</li>
+    <li><span class="inline-code">disabled</span> permet d'afficher en lecture seule l'outil de sélection de date.</li>
+</ul>
+
+<h3>Mobile</h3>
+
+<p>Sur mobile, un calendrier ou une molette de date comme sur l'image suivante sera affiché.</p>
+
+<img src="images/input-date.jpg">
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/date">input date</doclink>
+<doclink href="https://www.w3schools.com/tags/att_input_type_date.asp">input date</doclink>
+
+<dots></dots>
+
+
+<grostitre>Time</grostitre>
+
+<p>Permets de saisir une heure 🕰.</p>
+
+<codepen id="poZMqpp" tab="html,result" height="340"></codepen>
+
+<h3>Attributs de time</h3>
+
+<ul>
+    <li>Les attributs <span class="inline-code">min</span> et <span class="inline-code">max</span> permettent de spécifier une heure minimale et maximale à respecter. Par exemple, <span class="inline-code">min=&quot;09:00&quot;</span> fait en sorte qu'aucune heure avant 9am ne puisse être sélectionnée.</li>
+    <li><span class="inline-code">disabled</span> permet d'afficher en lecture seule l'outil de sélection d'heure.</li>
+</ul>
+
+<h3>Mobile</h3>
+
+<p>Sur mobile, une horloge ou une molette d'heures comme sur l'image suivante sera affichée.</p>
+
+<img src="images/input-time.jpg">
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/time">input time</doclink>
+<doclink href="https://www.w3schools.com/tags/att_input_type_time.asp">input time</doclink>
+
+<dots></dots>
+
+
+<grostitre>Color</grostitre>
+
+<p>Permet de choisir une couleur à l'aide d'un sélecteur de couleurs <em>(colors picker)</em> 🎨, plutôt que d'avoir a entrer un code hexadécimal, RGB ou autre.</p>
+
+<codepen id="QWBezmM" tab="html,result" height="340"></codepen>
+
+<h3>Attributs de color</h3>
+
+<ul>
+    <li><span class="inline-code">name</span> nom de référence lorsque le formulaire est soumis.</li>
+    <li><span class="inline-code">value</span> code de la couleur par défaut. Si cet attribut est omis, la couleur utilisée par défaut sera <em>(noir ⬛️)</em>.</li>
+    <li><span class="inline-code">disabled</span> permet d'afficher en lecture seule l'outil de sélection de couleur.</li>
+</ul>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/color">input color</doclink>
+<doclink href="https://www.w3schools.com/tags/att_input_type_color.asp">input color</doclink>
+
+<dots></dots>
+
+        <a class="exercice" target="_blank" href="exercices/among-us/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/among-us/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Formulaire - Among Us</span>
+                    <span class="exercice-description">Pour cet exercice nous allons créer un formulaire permettant de générer un personnage du célèbre jeu Among Us.</span>
+                </div>
+            </div>
+        </a>
+
+<dots></dots>
+
+
+
+
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

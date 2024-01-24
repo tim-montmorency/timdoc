@@ -1,0 +1,67 @@
+{
+"creatingLibrary": {
+"name": "MediaInfoLib",
+"version": "22.09",
+"url": "https://mediaarea.net/MediaInfo"
+},
+"media": {
+"@ref": "D:\\Programmation\\tim-montmorency\\timdoc\\582-215MO\\css\\variables\\exercices\\canadiens\\audios\\loco-locass-le-but.mp3",
+"track": [
+{
+"@type": "General",
+"AudioCount": "1",
+"FileExtension": "mp3",
+"Format": "MPEG Audio",
+"FileSize": "6454693",
+"Duration": "322.586",
+"OverallBitRate_Mode": "CBR",
+"OverallBitRate": "160000",
+"StreamSize": "2449",
+"Title": "Le But",
+"Album": "Le Québec est Mort, Vive le Québec!",
+"Album_Performer": "Loco Locass",
+"Part_Position": "1",
+"Part_Position_Total": "1",
+"Track": "Le But",
+"Track_Position": "11",
+"Track_Position_Total": "14",
+"Performer": "Loco Locass",
+"Genre": "Rap",
+"Released_Date": "2012",
+"Recorded_Date": "2012",
+"File_Created_Date": "UTC 2023-03-06 15:02:41.509",
+"File_Created_Date_Local": "2023-03-06 10:02:41.509",
+"File_Modified_Date": "UTC 2023-03-06 15:03:07.636",
+"File_Modified_Date_Local": "2023-03-06 10:03:07.636",
+"Encoded_Library": "LAME3.99r",
+"Comment": "[A]nalog [A]nts [A]ttack",
+"extra": {
+"RELEASETYPE": "2"
+}
+},
+{
+"@type": "Audio",
+"Format": "MPEG Audio",
+"Format_Version": "1",
+"Format_Profile": "Layer 3",
+"Format_Settings_Mode": "Joint stereo",
+"Format_Settings_ModeExtension": "MS Stereo",
+"Duration": "322.586",
+"BitRate_Mode": "CBR",
+"BitRate": "160000",
+"Channels": "2",
+"SamplesPerFrame": "1152",
+"SamplingRate": "44100",
+"SamplingCount": "14226048",
+"FrameRate": "38.281",
+"FrameCount": "12349",
+"Compression_Mode": "Lossy",
+"StreamSize": "6451722",
+"StreamSize_Proportion": "0.99954",
+"Encoded_Library": "LAME3.99r",
+"Encoded_Library_Settings": "-m j -V 4 -q 3 -lowpass 17.5 -b 160"
+}
+]
+}
+}
+

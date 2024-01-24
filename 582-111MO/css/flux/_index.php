@@ -4,6 +4,7 @@
  * @title    Flux
  * @icon     images/icon.png
  * @abstract L’affichage de base des éléments dans une page
+ * @ref      web/css
  */
 ?>
 

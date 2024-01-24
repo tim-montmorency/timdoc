@@ -1,0 +1,109 @@
+.infobubble {
+    position: relative;
+
+    padding: 25px;
+    margin-bottom: 25px;
+    margin-left: -25px;
+    margin-right: -25px;
+    line-height: 28px;
+
+    @media (min-width: 576px)  {
+        margin-top: 50px;
+    }
+
+    &__bubble {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: -25px;
+        left: -25px;
+
+        &::before {
+            display: inline-block;
+            text-align: center;
+            width: 36px;
+            height: 36px;
+            line-height: 36px;
+            border-radius: 50%;
+            font-size: 24px;
+        }
+
+    }
+
+    &.info {
+        background-color: #d8d7f1;
+        border-left: 4px solid #3c38ba;
+        .infobubble__bubble {
+            &::before {
+                content: '❗';
+                background-color: #d8d7f1;
+                border: 4px solid #3c38ba;
+                box-shadow: 0px 0px 0px 8px white;
+            }
+        }
+    }
+
+    &.warning {
+        background-color: #fcfcdd;
+        border-left: 4px solid #f1f255;
+        .infobubble__bubble {
+            &::before {
+                content: '⚠';
+                background-color: #fcfcdd;
+                border: 4px solid #f1f255;
+                box-shadow: 0px 0px 0px 8px white;
+            }
+        }
+    }
+
+    &.alert {
+        background-color: #fcdddd;
+        border-left: 4px solid #f25555;
+        .infobubble__bubble {
+            &::before {
+                content: '☠';
+                background-color: #fcdddd;
+                border: 4px solid #f25555;
+                box-shadow: 0px 0px 0px 8px white;
+            }
+        }
+    }
+
+    &.bravo {
+        background-color: #ddfcdf;
+        border-left: 4px solid #55f26a;
+        .infobubble__bubble {
+            &::before {
+                content: '👏';
+                background-color: #ddfcdf;
+                border: 4px solid #55f26a;
+                box-shadow: 0px 0px 0px 8px white;
+            }
+        }
+    }
+
+    &.thumbsup {
+        background-color: #f0baf0;
+        border-left: 4px solid #ab55f2;
+        .infobubble__bubble {
+            &::before {
+                content: '👍';
+                background-color: #f0baf0;
+                border: 4px solid #ab55f2;
+                box-shadow: 0px 0px 0px 8px white;
+            }
+        }
+    }
+
+
+}
+
+#contents .infobubble {
+    h2, h3, h4, h5, h6{
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .infobubble__bubble { display: none; }
+}

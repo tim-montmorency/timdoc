@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Filtres</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 2</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/css/">CSS</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="images/icon.webp">&nbsp;Filtres</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Le terme <em>“filtre”</em> est souvent associé à Instagram et autres plateformes permettant d’altérer une image en lui appliquant un ou plusieurs filtres. Cependant, il est aussi possible d’appliquer des filtres directement en CSS à un élément!</p>
+
+<dots></dots>
+
+
+<grostitre>Filtres disponibles</grostitre>
+
+<ul>
+    <li><span class="inline-code">none</span> par défaut.</li>
+    <li><span class="inline-code">blur()</span> <em>(flou)</em> Valeur acceptant toutes les unités de mesure</li>
+    <li><span class="inline-code">brightness()</span> <em>(luminosité)</em> valeur en pourcentage</li>
+    <li><span class="inline-code">contrast()</span> <em>(contraste)</em> valeur en pourcentage</li>
+    <li><span class="inline-code">drop-shadow()</span> <em>(ombre portée)</em> même format que box-shadow</li>
+    <li><span class="inline-code">grayscale()</span> <em>(niveau de gris)</em> valeur en pourcentage</li>
+    <li><span class="inline-code">hue-rotate()</span> <em>(rotation de la teinte)</em> valeur en degrés</li>
+    <li><span class="inline-code">invert()</span> <em>(inverser)</em> valeur en pourcentage</li>
+    <li><span class="inline-code">opacity()</span> <em>(opacité)</em> valeur en pourcentage</li>
+    <li><span class="inline-code">saturate()</span> <em>(saturation)</em> valeur en pourcentage</li>
+    <li><span class="inline-code">sepia()</span> <em>(sépia)</em> valeur en pourcentage</li>
+    <li>etc.</li>
+</ul>
+
+<info>Toutes les valeurs en pourcentages <em>(%)</em> peuvent être exprimées en fractions. Par exemple, <span class="inline-code">50%</span> peut être écrit <span class="inline-code">0.5</span>.</info>
+
+<dots></dots>
+
+
+<grostitre>filter</grostitre>
+
+<p>La propriété <span class="inline-code">filter</span> permet d’ajouter des effets visuels à un élément. Ce filtre impactera non seulement l'élément, mais aussi tout son contenu.</p>
+
+<p>Pour définir un nouveau filtre, il suffit de passer à un des filtres mentionnés ci-dessus ☝️ avec une valeur entre parenthèses.</p>
+
+<codepen id="mdjaQpB" tab="result" height="540"></codepen>
+
+<span class="remark">Remarquez comment l’extrait de code devient flou lorsque l’option blur() est sélectionnée. Ceci est du au fait que l’extrait de code est à l’intérieur de l’élément auquel le filtre est appliqué.</span>
+
+<h3>Combinaison</h3>
+
+<p>Il est possible de combiner plusieurs filtres ensemble simplement en les séparant par un espace.</p>
+
+<p>Par exemple, pour obtenir un élément flou en noir et blanc, il est possible de faire:</p>
+
+<highlight lang="css">.element {
+  filter: blur(5px) grayscale(100%);
+}</highlight>
+
+<warning>Attention, si un filtre est mal défini, tous les autres filtres appliqués à un élément cesseront de fonctionner.</warning>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/filter">filter</doclink>
+<doclink href="https://www.w3schools.com/cssref/css3_pr_filter.asp">filter</doclink>
+
+<dots></dots>
+
+
+<grostitre>backdrop-filter</grostitre>
+
+<p>La propriété <span class="inline-code">backdrop-filter</span> permet elle aussi d'ajouter des effets visuels, mais uniquement entre un élément et son arrière-plan. Il est donc nécessaire que l'élément en question soit ne soit pas entièrement opaque afin de pouvoir voir une partie de l'élément arrière-plan.</p>
+
+<p>Par exemple, un carré blanc ⚪️ avec une opacité de 30% afin de voir une partie de l'image en arrière-plan, soit <span class="inline-code">background-color: rgba(255, 255, 255, 0.3);</span>.</p>
+
+<codepen id="ZEjVmog" tab="result" height="540"></codepen>
+
+<warning>Au moment d’écrire ces lignes, cette propriété n’est pas encore supportée dans le navigateur Firefox. Il est donc préférable pour l’instant de séparer ses éléments et d’utiliser la propriété <span class="inline-code">filter</span>.</warning>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/backdrop-filter">backdrop-filter</doclink>
+
+<dots></dots>
+
+        <a class="exercice" target="_blank" href="exercices/anonymat/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/anonymat/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Filtres - Anonymat</span>
+                    <span class="exercice-description">Pour cet exercice, vous devez rendre une photo d’une personne anonyme grâce aux filtres CSS.</span>
+                </div>
+            </div>
+        </a>
+        <a class="exercice" target="_blank" href="exercices/instagram/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/instagram/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Filtres - Instagram</span>
+                    <span class="exercice-description">Pour cet exercice, vous devez recréer quelques-uns des filtres les plus populaires de la plateforme Instagram.</span>
+                </div>
+            </div>
+        </a>
+
+<dots></dots>
+
+
+
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

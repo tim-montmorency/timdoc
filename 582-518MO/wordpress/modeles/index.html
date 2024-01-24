@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,13 +39,16 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Projet Web</a> > <a href="../">WordPress</a> ></div>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">WordPress</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
                 <h1 id="title"><img src="images/icon-wp.png">&nbsp;Modèles d'un thème WP</h1>
             </div>
             <article>
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
-<p>Les modèles, ou en anglais&nbsp;<em>templates</em>, sont certains des fichiers&nbsp;<code>.php</code>&nbsp;se trouvant à la racine d'un thème.</p>
+<p>Les modèles, ou en anglais&nbsp;<em>templates</em>, sont certains des fichiers&nbsp;<span class="inline-code">.php</span>&nbsp;se trouvant à la racine d'un thème.</p>
 
 <p>Ces fichiers permettent de contrôler la structure d'une ou plusieurs pages sur un site. </p>
 
@@ -57,10 +59,10 @@
 
 <grostitre>Création</grostitre>
 <h3 class="heading heading--h3" id="Nom">Nom</h3>
-<p>Pour créer un modèle, il suffit de créer un fichier&nbsp;<code>.php</code>&nbsp;à la racine du thème. Dans ce fichier, immédiatement après la déclaration&nbsp;<code>&lt;?php</code>, le commentaire <code>Template Name</code> permet d'indiquer à WordPress le nom du&nbsp;modèle en question.</p><p>Par exemple, il est possible de spécifier que le modèle <em>product.php</em> devrait être disponible dans le tableau de bord sous le nom <em>Produit</em>:</p>
+<p>Pour créer un modèle, il suffit de créer un fichier&nbsp;<span class="inline-code">.php</span>&nbsp;à la racine du thème. Dans ce fichier, immédiatement après la déclaration&nbsp;<span class="inline-code">&lt;?php</span>, le commentaire <span class="inline-code">Template Name</span> permet d'indiquer à WordPress le nom du&nbsp;modèle en question.</p><p>Par exemple, il est possible de spécifier que le modèle <em>product.php</em> devrait être disponible dans le tableau de bord sous le nom <em>Produit</em>:</p>
 
 
-<highlight lang='php'>/**
+<highlight lang="php">/**
  * 	Template Name: Produit
  */</highlight>
 
@@ -74,7 +76,7 @@
 <p>Il est donc possible de choisir quel modèle devrait utiliser cette page.</p>
 
 
-<info>Un nom similaire entre le modèle et le fichier <code>.php</code> permet de mieux vous structurer et simplifier le&nbsp;débogage. Dans l'exemple ci-dessus, le nom du fichier est en anglais (comme vous codez en anglais) : <em>product.php</em> et le nom du modèle (inscrit en commentaire au début du fichier) est l'équivalent en français, soit <em>Produit</em>.</info>
+<info>Un nom similaire entre le modèle et le fichier <span class="inline-code">.php</span> permet de mieux vous structurer et simplifier le&nbsp;débogage. Dans l'exemple ci-dessus, le nom du fichier est en anglais (comme vous codez en anglais) : <em>product.php</em> et le nom du modèle (inscrit en commentaire au début du fichier) est l'équivalent en français, soit <em>Produit</em>.</info>
 
 
 
@@ -83,13 +85,13 @@
 <dots></dots>
 
 <h3 id="type-posts-supportes">Type de posts supportés</h3>
-<p>Les modèles ne sont disponibles que pour les posts par défaut <em>(pages et articles)</em>. Pour qu'un modèle puisse supporter un autre type de post, il faut lui indiquer à l'aide du commentaire <code>Template Post Type</code>.</p>
+<p>Les modèles ne sont disponibles que pour les posts par défaut <em>(pages et articles)</em>. Pour qu'un modèle puisse supporter un autre type de post, il faut lui indiquer à l'aide du commentaire <span class="inline-code">Template Post Type</span>.</p>
 
 
 <p>Par exemple, après avoir créé le type de post <em>product</em> dans le tableau de bord, le menu&nbsp;déroulant de choix de modèle sera absent de tous les posts de ce type, puisque par défaut aucun modèle ne supporte ce type de post. </p><p>Afin d'indiquer que le modèle <em>Produit</em> doit pouvoir être utilisé par les posts de type <em>product</em>, il faut le spécifier à l'intérieur du modèle ainsi:</p>
 
 
-<highlight lang='php'>/**
+<highlight lang="php">/**
  *  Template Name: Produit
  *  Template Post Type: post, page, product
  */</highlight>
@@ -106,17 +108,17 @@
 
 
 <h3  id="pages 📄">Pages 📄</h3>
-<p>Par exemple, avec l'url&nbsp;<code>exemple.com/portfolio</code></p>
+<p>Par exemple, avec l'url&nbsp;<span class="inline-code">exemple.com/portfolio</span></p>
 
 <p>WordPress tentera de valider en ordre si:</p>
 
 <ol start="1">
     <li>Un modèle a été attribué via le&nbsp;tableau de&nbsp;bord.</li>
-    <li><code>page-portfolio.php</code>&nbsp;existe à la racine du&nbsp;thème.</li>
-    <li><code>page-7.php</code>&nbsp;existe.&nbsp;<em>(Si l'id de la page est&nbsp;</em><code>7</code>).</li>
-    <li>Le fichier générique&nbsp;<code>page.php</code>&nbsp;est&nbsp;présent.</li>
-    <li><code>singular.php</code>&nbsp;existe.</li>
-    <li><code>index.php</code>&nbsp;existe.</li>
+    <li><span class="inline-code">page-portfolio.php</span>&nbsp;existe à la racine du&nbsp;thème.</li>
+    <li><span class="inline-code">page-7.php</span>&nbsp;existe.&nbsp;<em>(Si l'id de la page est&nbsp;</em><span class="inline-code">7</span>).</li>
+    <li>Le fichier générique&nbsp;<span class="inline-code">page.php</span>&nbsp;est&nbsp;présent.</li>
+    <li><span class="inline-code">singular.php</span>&nbsp;existe.</li>
+    <li><span class="inline-code">index.php</span>&nbsp;existe.</li>
 </ol>
 
 
@@ -126,8 +128,8 @@
 <h3 class="heading heading--h3" id="Accueil">Accueil</h3>
  <p>La page d'accueil est particulière. Par défaut, WordPress lui attribue son propre modèle affichant normalement les plus récents articles (posts). Le modèle qui sera pris en compte en premier sera home.php et s'il est inexistant, ce sera index.php.</p>
  <ul>
-    <li><code>home.php</code></li>
-    <li><code>index.php</code></li>
+    <li><span class="inline-code">home.php</span></li>
+    <li><span class="inline-code">index.php</span></li>
 </ul>
  <p>Il est néanmoins possible de changer cette configuration et choisir une page spécifique en tant que page d'accueil. Pour ce faire, vous devez d'abord créer la page et, dans le tableau de bord, spécifier quelle sera la page qui fera office d'accueil via:</p>
  
@@ -135,11 +137,11 @@
 <img src="images/page-accueil-reglages-wp.jpg" alt="Réglage pour page accueil dans le tableau de bord de Wordpress">
 <p>Dans le contexte où votre page d'accueil est une page statique, le modèle qui sera pris en compte en premier sera font-page.php.</p>
 <ul>
-    <li><code>font-page.php</code></li>
-    <li><code>page-7.php</code>&nbsp;existe.&nbsp;<em>(Si l'id de la page est&nbsp;</em><code>7</code>).</li>
-    <li>Le fichier générique&nbsp;<code>page.php</code>&nbsp;est&nbsp;présent.</li>
-    <li><code>singular.php</code>&nbsp;existe.</li>
-    <li><code>index.php</code>&nbsp;existe.</li>
+    <li><span class="inline-code">font-page.php</span></li>
+    <li><span class="inline-code">page-7.php</span>&nbsp;existe.&nbsp;<em>(Si l'id de la page est&nbsp;</em><span class="inline-code">7</span>).</li>
+    <li>Le fichier générique&nbsp;<span class="inline-code">page.php</span>&nbsp;est&nbsp;présent.</li>
+    <li><span class="inline-code">singular.php</span>&nbsp;existe.</li>
+    <li><span class="inline-code">index.php</span>&nbsp;existe.</li>
 </ul>
 
 
@@ -147,8 +149,8 @@
  <dots></dots>
 <h3 id="404">404</h3>
 <ol start="1">
-    <li><code>404.php</code></li>
-    <li><code>index.php</code></li>
+    <li><span class="inline-code">404.php</span></li>
+    <li><span class="inline-code">index.php</span></li>
 </ol>
 
 
@@ -161,22 +163,22 @@
 <br>
 
 
-<p>Par exemple, avec l'url&nbsp;<code>exemple.com/bonjour-tout-le-monde</code>, WordPress tente de valider en ordre&nbsp;si:</p>
+<p>Par exemple, avec l'url&nbsp;<span class="inline-code">exemple.com/bonjour-tout-le-monde</span>, WordPress tente de valider en ordre&nbsp;si:</p>
 <ol start="1">
-    <li><code>single-post-bonjour-tout-le-monde.php</code>&nbsp;existe.<br><br>Ce nom de fichier&nbsp;provient:
+    <li><span class="inline-code">single-post-bonjour-tout-le-monde.php</span>&nbsp;existe.<br><br>Ce nom de fichier&nbsp;provient:
     <ul>
-        <li>du préfixe&nbsp;<code>single</code>.</li>
-        <li>du&nbsp;<strong>type de post</strong>, dans cet exemple celui par défaut&nbsp;<code>post</code>.</li>
-        <li>et du slug de l'article&nbsp;<code>bonjour-tout-le-monde</code></li>
+        <li>du préfixe&nbsp;<span class="inline-code">single</span>.</li>
+        <li>du&nbsp;<strong>type de post</strong>, dans cet exemple celui par défaut&nbsp;<span class="inline-code">post</span>.</li>
+        <li>et du slug de l'article&nbsp;<span class="inline-code">bonjour-tout-le-monde</span></li>
     </ul>
     </li>
-    <li><code>single-post.php</code>&nbsp;existe. Ce nom, comme le précédent, provient du préfix&nbsp;<code>single</code>&nbsp;et du type de post. Par exemple: si ce type avait été&nbsp;<code>product</code>, le fichier appelé aurait été&nbsp;<code>single-product.php</code>.</li>
-    <li><code>single.php</code>&nbsp;si aucun modèle spécifique n'est&nbsp;trouvé.</li>
-    <li>ensuite&nbsp;<code>singular.php</code></li>
-    <li>et finalement&nbsp;<code>index.php</code></li>
+    <li><span class="inline-code">single-post.php</span>&nbsp;existe. Ce nom, comme le précédent, provient du préfix&nbsp;<span class="inline-code">single</span>&nbsp;et du type de post. Par exemple: si ce type avait été&nbsp;<span class="inline-code">product</span>, le fichier appelé aurait été&nbsp;<span class="inline-code">single-product.php</span>.</li>
+    <li><span class="inline-code">single.php</span>&nbsp;si aucun modèle spécifique n'est&nbsp;trouvé.</li>
+    <li>ensuite&nbsp;<span class="inline-code">singular.php</span></li>
+    <li>et finalement&nbsp;<span class="inline-code">index.php</span></li>
 </ol>
 
-<warning>Le fichier <code>index.php</code> est en quelque sorte le fichier de la dernière&nbsp;chance.</warning>
+<warning>Le fichier <span class="inline-code">index.php</span> est en quelque sorte le fichier de la dernière&nbsp;chance.</warning>
 
 
 <dots></dots>
@@ -201,6 +203,5 @@
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

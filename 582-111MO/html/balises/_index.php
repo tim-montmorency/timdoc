@@ -5,6 +5,7 @@
  * @title    Les Balises
  * @icon     images/icon.png
  * @abstract &lt;html&gt;, &lt;head&gt;, &lt;body&gt;, &lt;p&gt;, etc
+ * @ref      web/html
  */
 ?>
 

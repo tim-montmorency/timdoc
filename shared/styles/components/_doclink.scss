@@ -32,7 +32,7 @@ a.doclink {
         margin-left: 8px;
         margin-right: 10px;
         line-height: 24px;
-        font-family: Consolas;
+        font-family: monospace;
 
 
         font-size: 10px;
@@ -44,7 +44,7 @@ a.doclink {
     }
 
     .doclink-icon {
-        background-image: url('../images/doclink-icon.png');
+        background-image: url('../images/icons/doclink-icon.webp');
         background-size: 24px 24px;
         display: inline-block;
         position: relative;
@@ -62,7 +62,7 @@ a.doclink {
 
 .doclink.css3 {
     .doclink-icon {
-        background-image: url('../images/css3-icon.png');
+        background-image: url('../images/icons/css3-icon.webp');
     }
     &::before {
         background-color: #004ce8;
@@ -71,7 +71,7 @@ a.doclink {
 
 .doclink.w3schools {
     .doclink-icon {
-        background-image: url('../images/w3schools-icon.png');
+        background-image: url('../images/icons/w3schools-icon.webp');
     }
     &::before {
         background-color: #009a68;
@@ -80,7 +80,7 @@ a.doclink {
 
 .doclink.mozilla {
     .doclink-icon {
-        background-image: url('../images/mozilla-icon.png');
+        background-image: url('../images/icons/mozilla-icon.webp');
     }
     &::before {
         background-color: #ff1a00;
@@ -89,7 +89,7 @@ a.doclink {
 
 .doclink.csstricks {
     .doclink-icon {
-        background-image: url('../images/csstricks-icon.png');
+        background-image: url('../images/icons/csstricks-icon.webp');
     }
     &::before {
         background-color: #36acb4;
@@ -98,7 +98,7 @@ a.doclink {
 
 .doclink.codepen {
     .doclink-icon {
-        background-image: url('../images/codepen-icon.png');
+        background-image: url('../images/icons/codepen-icon.webp');
     }
     &::before {
         background-color: #000000;
@@ -107,7 +107,7 @@ a.doclink {
 
 .doclink.zipfile {
     .doclink-icon {
-        background-image: url('../images/zip-icon.png');
+        background-image: url('../images/icons/zip-icon.webp');
     }
     &::before {
         background-color: #242526;
@@ -116,16 +116,25 @@ a.doclink {
 
 .doclink.bootstrap {
     .doclink-icon {
-        background-image: url('../images/bootstrap.png');
+        background-image: url('../images/icons/bootstrap-icon.webp');
     }
     &::before {
-        background-color: #ff1a00;
+        background-color: #b343ff;
+    }
+}
+
+.doclink.google {
+    .doclink-icon {
+        background-image: url('../images/icons/google-icon.webp');
+    }
+    &::before {
+        background-color: #1a73e8;
     }
 }
 
 .doclink.googlefonts {
     .doclink-icon {
-        background-image: url('../images/googlefonts-icon.png');
+        background-image: url('../images/icons/googlefonts-icon.webp');
     }
     &::before {
         background-color: #1a73e8;
@@ -134,7 +143,7 @@ a.doclink {
 
 .doclink.wikipedia {
     .doclink-icon {
-        background-image: url('../images/wikipedia-icon.png');
+        background-image: url('../images/icons/wikipedia-icon.webp');
     }
     &::before {
         background-color: #6a7077;
@@ -143,7 +152,7 @@ a.doclink {
 
 .doclink.ogp {
     .doclink-icon {
-        background-image: url('../images/ogp-icon.png');
+        background-image: url('../images/icons/ogp-icon.webp');
     }
     &::before {
         background-color: #6a7077;
@@ -152,7 +161,7 @@ a.doclink {
 
 .doclink.facebook {
     .doclink-icon {
-        background-image: url('../images/facebook-icon.png');
+        background-image: url('../images/icons/facebook-icon.webp');
     }
     &::before {
         background-color: #146ed4;
@@ -161,7 +170,7 @@ a.doclink {
 
 .doclink.greensock {
     .doclink-icon {
-        background-image: url('../images/gsap-icon.svg');
+        background-image: url('../images/icons/gsap-icon.webp');
     }
     &::before {
         background-color: #56cc00;
@@ -170,7 +179,7 @@ a.doclink {
 
 .doclink.smnarnold {
     .doclink-icon {
-        background-image: url('../images/smnarnold-icon.png');
+        background-image: url('../images/icons/smnarnold-icon.webp');
     }
     &::before {
         background-color: #7cfef0;
@@ -179,7 +188,7 @@ a.doclink {
 
 .doclink.trello {
     .doclink-icon {
-        background-image: url('../images/trello-icon64.png');
+        background-image: url('../images/icons/trello-icon.webp');
     }
     &::before {
         background-color: #bfd8ff;
@@ -188,7 +197,7 @@ a.doclink {
 
 .doclink.sass {
     .doclink-icon {
-        background-image: url('../images/sass_icon.png');
+        background-image: url('../images/icons/sass-icon.webp');
     }
     &::before {
         background-color: #cf649a;
@@ -197,9 +206,54 @@ a.doclink {
 
 .doclink.vuforia {
     .doclink-icon {
-        background-image: url('../images/vuforia-icon.png');
+        background-image: url('../images/icons/vuforia-icon.webp');
     }
     &::before {
         background-color: #6ebf4b;
+    }
+}
+
+.doclink.momo {
+    .doclink-icon {
+        background-image: url('../images/icons/momo-icon.webp');
+    }
+    &::before {
+        background-color: #c1d72e;
+    }
+}
+
+.doclink.github {
+    .doclink-icon {
+        background-image: url('../images/icons/github-icon.webp');
+    }
+    &::before {
+        background-color: #48494c;
+    }
+}
+
+.doclink.youtube {
+    .doclink-icon {
+        background-image: url('../images/icons/youtube-icon.webp');
+    }
+    &::before {
+        background-color: #ff0000;
+    }
+}
+
+.doclink.unity {
+    .doclink-icon {
+        background-image: url('../images/icons/unity-icon.webp');
+    }
+    &::before {
+        background-color: #6a7077;
+    }
+}
+
+.doclink.vuejs {
+    .doclink-icon {
+        background-image: url('../images/icons/vuejs-icon.webp');
+    }
+    &::before {
+        background-color: #41b883;
     }
 }

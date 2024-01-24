@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,20 +39,23 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Projet Web</a> > <a href="../">WordPress</a> ></div>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">WordPress</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
                 <h1 id="title"><img src="images/icon-wp.png">&nbsp;Affichage des images</h1>
             </div>
             <article>
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
-<p>Pour afficher les <em>images mise en avant</em> (image principale du post) dans un modèle (template), il vous suffit, un peu comme <code>&lt;?php the_title();?&gt;</code> et  <code>&lt;?php the_content();?&gt;</code> d'appeler la fonction suivante:</p>
+<p>Pour afficher les <em>images mise en avant</em> (image principale du post) dans un modèle (template), il vous suffit, un peu comme <span class="inline-code">&lt;?php the_title();?&gt;</span> et  <span class="inline-code">&lt;?php the_content();?&gt;</span> d'appeler la fonction suivante:</p>
 
-<highlight lang='php'>&lt;?php the_post_thumbnail(); ?&gt;</highlight>
+<highlight lang="php">&lt;?php the_post_thumbnail(); ?&gt;</highlight>
 
 <p>Cette fontion génèrera la balise <em>&lt;img&gt;</em> entière.</p>
 
-<info>Notez que pour cela, il faudra que le fichier <em>function.php</em> de votre thème contienne la ligne suivante: <br> <code>add_theme_support( 'post-thumbnails' );</code></info>
+<info>Notez que pour cela, il faudra que le fichier <em>function.php</em> de votre thème contienne la ligne suivante: <br> <span class="inline-code">add_theme_support( &#039;post-thumbnails&#039; );</span></info>
 <br>
 
 <doclink href='https://developer.wordpress.org/reference/functions/the_post_thumbnail/'>post thumbnail</doclink>
@@ -66,40 +68,38 @@
 
 <dots></dots>
 <grostitre>Affichage selon la taille désirée</grostitre>
-<p>Le premier paramètre de <code>&lt;?php the_post_thumbnail(); ?&gt;</code> est le libellé de la taille désirée, soit:</p>
-<highlight lang='php'>
-// Vignette (en anglais thumbnail) (150 x 150 rogné)
-the_post_thumbnail( 'thumbnail' ); 
+<p>Le premier paramètre de <span class="inline-code">&lt;?php the_post_thumbnail(); ?&gt;</span> est le libellé de la taille désirée, soit:</p>
+<highlight lang="php">// Vignette (en anglais thumbnail) (150 x 150 rogn&eacute;)
+the_post_thumbnail( &#039;thumbnail&#039; ); 
 
-// Résolution moyenne (300 x 300 hauteur maxium de 300px)
-the_post_thumbnail( 'medium' ); 
+// R&eacute;solution moyenne (300 x 300 hauteur maxium de 300px)
+the_post_thumbnail( &#039;medium&#039; ); 
 
-// Résolution moyenne-large (768 x 0 hauteur infinie)
-the_post_thumbnail( 'medium_large' ); 
+// R&eacute;solution moyenne-large (768 x 0 hauteur infinie)
+the_post_thumbnail( &#039;medium_large&#039; ); 
 
-// Résolution large (1024 x 1024 hauteur maxium de 1024px)
-the_post_thumbnail( 'large' ); 
+// R&eacute;solution large (1024 x 1024 hauteur maxium de 1024px)
+the_post_thumbnail( &#039;large&#039; ); 
 
-// Résolution complète (dimension originale de l'image)
-the_post_thumbnail( 'full' ); 
-</highlight>
+// R&eacute;solution compl&egrave;te (dimension originale de l&#039;image)
+the_post_thumbnail( &#039;full&#039; );</highlight>
 
 <dots></dots>
 <grostitre>Paramètres supplémentaires</grostitre>
 <p>Il est possible d'ajouter des paramètres supprémentaires à la fonction via un tableau (array) PHP. Par exemple, si vous souhaitez ajouter une ou des classe(s) CSS à la balise <em>&lt;img&gt;</em>. </p>
 
-<p>Pour ajouter la classe <code>.image-responsive</code> à la balise image générée, voici ce qu'on devrait ajouter: <code>array(&#39;class&#39; =&gt; &#39;image-responsive&#39;)</code>, comme dans l'exemple ci-dessous</p>
+<p>Pour ajouter la classe <span class="inline-code">.image-responsive</span> à la balise image générée, voici ce qu'on devrait ajouter: <span class="inline-code">array(&#039;class&#039; =&gt; &#039;image-responsive&#039;)</span>, comme dans l'exemple ci-dessous</p>
 
-<highlight lang='php'>&lt;?php the_post_thumbnail(&#39;medium&#39;, array(&#39;class&#39; =&gt; &#39;image-responsive&#39;)) ?&gt;</highlight>
+<highlight lang="php">&lt;?php the_post_thumbnail(&#039;medium&#039;, array(&#039;class&#039; =&gt; &#039;image-responsive&#039;)) ?&gt;</highlight>
 
-<p>Vous pouriez aussi ajouter d'autres paramètres tel que l'activation du chargement différé (lazy loading), en ajoutant un autre élément à votre tableau (array) nommé <code>'loading' => 'lazy'</code>. N'oubliez pas de séparer chaque élément du taleau (array) par une virgule!</p>
+<p>Vous pouriez aussi ajouter d'autres paramètres tel que l'activation du chargement différé (lazy loading), en ajoutant un autre élément à votre tableau (array) nommé <span class="inline-code">&#039;loading&#039; =&gt; &#039;lazy&#039;</span>. N'oubliez pas de séparer chaque élément du taleau (array) par une virgule!</p>
 <doclink href='https://developer.wordpress.org/reference/functions/the_post_thumbnail/'>post thumbnail</doclink>
 
 <dots></dots>
 <grostitre>Images non reliées à un post</grostitre>
 <p>Il est possible que vous ayez besoin de différentes images non reliées à un post spécifique pour contruire votre thème. Pour ce faire, vous pouvez les déposer dans un dossiers <em>images</em> dans votre thème.</p>
 <p>Pour générer la balise image en question, il vous suffira d'inscrire: </p>
-<highlight lang='html'>&lt;img src=&quot;&lt;?php bloginfo(&#39;template_url&#39;); ?&gt;/images/fichier-image.svg&quot;&gt;</highlight>
+<highlight lang="html">&lt;img src=&quot;&lt;?php bloginfo(&#039;template_url&#039;); ?&gt;/images/fichier-image.svg&quot;&gt;</highlight>
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>
@@ -110,6 +110,5 @@ the_post_thumbnail( 'full' );
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

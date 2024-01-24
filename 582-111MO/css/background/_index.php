@@ -4,6 +4,7 @@
  * @title    Background
  * @icon     images/icon.png
  * @abstract color, image, gradient
+ * @ref      web/css
  */
 ?>
 

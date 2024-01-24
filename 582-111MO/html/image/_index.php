@@ -4,6 +4,7 @@
  * @title    Image
  * @icon     images/icon.png
  * @abstract La balise &lt;img&gt; permet d'afficher une image
+ * @ref      web/html
  */
 ?>
 

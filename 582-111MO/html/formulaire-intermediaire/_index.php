@@ -4,6 +4,7 @@
  * @title    Formulaire intermédiaire
  * @icon     images/icon.png
  * @abstract radio, checkbox, select, textarea
+ * @ref      web/html
  */
 ?>
 

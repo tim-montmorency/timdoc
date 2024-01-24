@@ -3,8 +3,9 @@
 /**
  * @type     article
  * @title    Fenêtre modale
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Composante qui permet de créer rapidement des popups (fenêtre modale)
+ * @ref      web/quadriciels/bootstrap
  */
 ?>
 <grostitre>Intro</grostitre>
@@ -37,9 +38,9 @@
 &lt;/div&gt;
 </highlight>
 
-<p>Dans cet exemple, la classe&nbsp;<code>.modal</code>&nbsp;permet de créer le fond semi-transparent masquant
-    partiellement le reste du site. La classe&nbsp;<code>.modal-dialog</code>&nbsp;se charge de créer la fenêtre de base
-    et&nbsp;<code>.modal-content</code>&nbsp;s'occupe de gérer le positionnement des différents éléments de contenu dans
+<p>Dans cet exemple, la classe&nbsp;<incode>.modal</incode>&nbsp;permet de créer le fond semi-transparent masquant
+    partiellement le reste du site. La classe&nbsp;<incode>.modal-dialog</incode>&nbsp;se charge de créer la fenêtre de base
+    et&nbsp;<incode>.modal-content</incode>&nbsp;s'occupe de gérer le positionnement des différents éléments de contenu dans
     la fenêtre&nbsp;<em>modal</em>.</p>
 
 <warning>Bien que ce code puisse théoriquement être placé n’importe où dans le fichier HTML. Il est suggéré de le placer
@@ -47,7 +48,7 @@
 </warning>
 <dots></dots>
 <grostitre>Contenu</grostitre>
-<p>L'élément&nbsp;<code>.modal-content</code>&nbsp;peut contenir trois types de contenu,&nbsp;soit:</p>
+<p>L'élément&nbsp;<incode>.modal-content</incode>&nbsp;peut contenir trois types de contenu,&nbsp;soit:</p>
 <h3 id="modal-header">modal-header</h3>
 <p>Contiens des informations telles&nbsp;que:</p>
 <ul>
@@ -61,7 +62,7 @@
   fenêtre&quot;&gt;&lt;/button&gt;
 &lt;/div&gt;</highlight>
 
-<p>L'attribut&nbsp;<code>data-bs-dismiss="modal"</code>&nbsp;permet de spécifier à n'importe quel élément dans une
+<p>L'attribut&nbsp;<incode>data-bs-dismiss="modal"</incode>&nbsp;permet de spécifier à n'importe quel élément dans une
     fenêtre&nbsp;<em>modal</em>&nbsp;de fermer la fenêtre en&nbsp;question.</p>
 
 
@@ -93,8 +94,8 @@
     élément permettant de déclencher leur apparition. Ce bouton doit contenir deux attributs&nbsp;clés:</p>
 
 <ul>
-    <li><code>data-bs-toggle="modal"</code>&nbsp;indiquant qu'il contrôle une fenêtre&nbsp;<em>"modal"</em>.</li>
-    <li><code>data-bs-target="#example"</code>&nbsp;spécifiant la fenêtre&nbsp;<em>"modal"</em>&nbsp;contrôlée.</li>
+    <li><incode>data-bs-toggle="modal"</incode>&nbsp;indiquant qu'il contrôle une fenêtre&nbsp;<em>"modal"</em>.</li>
+    <li><incode>data-bs-target="#example"</incode>&nbsp;spécifiant la fenêtre&nbsp;<em>"modal"</em>&nbsp;contrôlée.</li>
 </ul>
 
 <highlight lang='html'>&lt;button class=&quot;btn&quot; data-bs-toggle=&quot;modal&quot;
@@ -106,7 +107,7 @@
 <dots></dots>
 <grostitre>Taille</grostitre>
 <p>Par défaut, la fenêtre&nbsp;<em>modal</em>&nbsp;de Bootstrap à une largeur de 500px. Cependant, il est possible de
-    modifier cette taille en ajoutant une classe supplémentaire à l'élément&nbsp;<code>.modal-dialog</code>.</p>
+    modifier cette taille en ajoutant une classe supplémentaire à l'élément&nbsp;<incode>.modal-dialog</incode>.</p>
 
 <table>
     <tbody>
@@ -156,8 +157,8 @@
 
 
 <p>Par défaut, les fenêtres&nbsp;<em>modal</em>&nbsp;Bootstrap sont affichées vers le haut de la page. Cependant, il est
-    possible de centrer ces fenêtres verticalement en ajoutant la classe&nbsp;<code>.modal-dialog-centered</code>&nbsp;à
-    l'élément&nbsp;<code>modal-dialog</code>.</p>
+    possible de centrer ces fenêtres verticalement en ajoutant la classe&nbsp;<incode>.modal-dialog-centered</incode>&nbsp;à
+    l'élément&nbsp;<incode>modal-dialog</incode>.</p>
 <p>Par exemple:</p>
 
 <highlight lang='html'>&lt;div class=&quot;modal&quot; tabindex=&quot;-1&quot;&gt;
@@ -170,7 +171,7 @@
 
 <p>Par défaut, la fenêtre&nbsp;<em>modal</em>&nbsp;apparait brusquement lorsque déclenchée. Cependant, il est possible
     d'ajouter une transition afin de rendre son apparition plus élégante grâce à une transition. Pour ce faire, il
-    suffit d'ajouter la classe&nbsp;<code>.fade</code>&nbsp;à l'élément&nbsp;<code>.modal</code>.</p>
+    suffit d'ajouter la classe&nbsp;<incode>.fade</incode>&nbsp;à l'élément&nbsp;<incode>.modal</incode>.</p>
 
 
 <highlight lang='html'>&lt;div class=&quot;modal fade&quot; tabindex=&quot;-1&quot;&gt;
@@ -178,7 +179,7 @@
 &lt;/div&gt;</highlight>
 
 <warning>Attention, contrairement aux exemples précédents, la classe doit être ajoutée sur l’élément
-            <code>.modal</code> et non&nbsp;<code>.modal-dialog</code>.</warning>
+            <incode>.modal</incode> et non&nbsp;<incode>.modal-dialog</incode>.</warning>
 
 
 <doclink href='https://getbootstrap.com/docs/5.2/components/modal/'>Modal</doclink>

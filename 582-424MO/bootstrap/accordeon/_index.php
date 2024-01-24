@@ -3,8 +3,9 @@
 /**
  * @type     article
  * @title    Accordéon
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Accordéons avec sections qui se replient verticalement 
+ * @ref      web/quadriciels/bootstrap
  */
 ?>
 
@@ -67,7 +68,7 @@
 <br>
 <p>Portez bien attention sur les attributs ci-haut.</p>
 <ul>
-    <li><code> data-bs-target="#collapseTwo"</code> et <code> aria-controls="collapseTwo"</code>  où <em>collapseTwo</em> correspond au id du contenu qui accompagne ce titre.</li>
+    <li><incode> data-bs-target="#collapseTwo"</incode> et <incode> aria-controls="collapseTwo"</incode>  où <em>collapseTwo</em> correspond au id du contenu qui accompagne ce titre.</li>
 </ul>
 
 
@@ -84,8 +85,8 @@
    <br>
    <p>Portez bien attention sur les attributs ci-haut.</p>
    <ul>
-       <li><code>data-bs-parent="#accordionExample"</code> où <em>accordionExample</em> correspond au id du parent qui contient tous les items de l'accordéon.</li>
-       <li><code>aria-labelledby="headingTwo"</code> où <em>headingTwo</em> correspond au id heading (h1, h2, h3 etc) qui accompagne le contenu actuel.</li>
+       <li><incode>data-bs-parent="#accordionExample"</incode> où <em>accordionExample</em> correspond au id du parent qui contient tous les items de l'accordéon.</li>
+       <li><incode>aria-labelledby="headingTwo"</incode> où <em>headingTwo</em> correspond au id heading (h1, h2, h3 etc) qui accompagne le contenu actuel.</li>
     </ul>
 <br>
 

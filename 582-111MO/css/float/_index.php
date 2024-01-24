@@ -4,6 +4,7 @@
  * @title    Float
  * @icon     images/icon.png
  * @abstract Permet à un élément de flotter à gauche ou à droite
+ * @ref      web/css
  */
 ?>
 

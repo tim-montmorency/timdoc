@@ -5,6 +5,7 @@
  * @title    Arborescence
  * @icon     images/icon.png
  * @abstract Sitemap
+ * @ref      web/autres
  */
 ?>
 

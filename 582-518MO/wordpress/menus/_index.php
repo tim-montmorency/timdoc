@@ -16,7 +16,7 @@
 
 
 <grostitre>Déclaration</grostitre>
-<p>Pour déclarer un menu, il faut ouvrir le fichier&nbsp;<code>function.php</code>&nbsp;et repérer la fonction&nbsp;<code>register_nav_menus( ... )</code>.</p>
+<p>Pour déclarer un menu, il faut ouvrir le fichier&nbsp;<incode>function.php</incode>&nbsp;et repérer la fonction&nbsp;<incode>register_nav_menus( ... )</incode>.</p>
 
 
 <pre><code class="hljs php">register_nav_menus( 
@@ -26,7 +26,7 @@
 );</code></pre>
 
 
-<p>Dans cet exemple, il n'y a qu'un menu de déclaré.</p><ul><li><p><code>main-menu</code>&nbsp;nom de référence dans le&nbsp;code.</p></li><li><p><code>Menu principal</code>&nbsp;nom affiché dans le tableau de&nbsp;bord.</p></li><li><p><code>Menu principal du site</code>&nbsp;description affichée dans le tableau de&nbsp;bord.</p></li></ul>
+<p>Dans cet exemple, il n'y a qu'un menu de déclaré.</p><ul><li><p><incode>main-menu</incode>&nbsp;nom de référence dans le&nbsp;code.</p></li><li><p><incode>Menu principal</incode>&nbsp;nom affiché dans le tableau de&nbsp;bord.</p></li><li><p><incode>Menu principal du site</incode>&nbsp;description affichée dans le tableau de&nbsp;bord.</p></li></ul>
 
 
 <p>Pour en déclarer un deuxième, il suffit d'ajouter une ligne à la suite de la première. Par exemple, si nous désirions créer un menu de commanditaires, il serait possible de faire:</p><pre><code class="hljs php">register_nav_menus( 

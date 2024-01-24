@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Text</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 2</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.webp">&nbsp;Text</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Plusieurs propriétés CSS permettent de contrôler l'apparence d'un texte. Voici quelques-unes des propriétés les plus courantes.</p>
+
+<dots></dots>
+
+
+<grostitre>text-align</grostitre>
+
+<p>La propriété <span class="inline-code">text-align</span>, comme son nom l'indique, sert à déterminer l'alignement horizontal du texte. Différentes options sont disponibles:</p>
+
+<ul>
+  <li><span class="inline-code">left</span> <em>(par défaut)</em></li>
+  <li><span class="inline-code">right</span></li>
+  <li><span class="inline-code">center</span></li>
+  <li><span class="inline-code">justify</span></li>
+</ul>
+
+<codepen id="QWBBGwJ" tab="result" height="280"></codepen>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/text-align">text-align</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_text_text-align.ASP">text-align</doclink>
+
+<dots></dots>
+
+
+<grostitre>text-decoration</grostitre>
+
+<p>La propriété <span class="inline-code">text-decoration</span> est une propriété raccourcie permettant d'ajouter ou de retirer une ligne à un texte. Par exemple, les navigateurs utilisent cette propriété afin de différencier les liens des textes normaux en les soulignant.</p>
+
+<p>Cette propriété accepte plusieurs arguments, tel que le type de ligne, sa couleur et son style.</p>
+
+<codepen id="KKBBNdE" tab="result" height="280"></codepen>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/text-decoration">text-decoration</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_text_text-decoration.asp">text-decoration</doclink>
+
+<dots></dots>
+
+
+<grostitre>text-transform</grostitre>
+
+<p>La propriété <span class="inline-code">text-transform</span> permet de modifier un texte. Cette propriété accepte diverses valeurs:</p>
+
+<ul>
+  <li><span class="inline-code">none</span> n'a aucun impact <em>(par défaut)</em>.</li>
+  <li><span class="inline-code">lowercase</span> transforme le texte en minuscules.</li>
+  <li><span class="inline-code">uppercase</span> transforme le texte en majuscules.</li>
+  <li><span class="inline-code">capitalize</span> transform en majuscule la première lettre de chaque mot.</li>
+</ul>
+
+<codepen id="vYaayGJ" tab="result" height="280"></codepen>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/text-transform">text-transform</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_text_text-transform.asp">text-transform</doclink>
+
+<dots></dots>
+
+
+<grostitre>text-stroke</grostitre>
+
+<p>La propriété <span class="inline-code">-webkit-text-stroke</span> bien que non standard, d'où sont préfix <span class="inline-code">-webkit</span>, est supportée par tous les navigateurs majeurs. Cette propriété accepte deux valeurs. L'épaisseur du trait entourant le le texte et la couleur du trait en question.</p>
+
+<codepen id="VwBBmmW" tab="result" height="280"></codepen>
+
+<alert><h5>ERREUR FRÉQUENTE</h5>Lorsque le prefix <span class="inline-code">-webkit</span> est oublié, l’effet ne s’affiche pas.</alert>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/-webkit-text-stroke">-webkit-text-stroke</doclink>
+
+<dots></dots>
+
+
+<grostitre>text-shadow</grostitre>
+
+<p>La propriété <span class="inline-code">text-shadow</span> permet d'ajouter une ombre à un texte. Cette propriété nécessite un décalage sur les X ou Y afin d'être visible par défaut. Une 3e valeur peut être ajoutée afin de spécifier le niveau de flou souhaité pour l'ombre. Finalement, une 4e valeur permet d'indiquer la couleur de l'ombre qui par défaut est de la même couleur que le texte.</p>
+
+<codepen id="rNrrWjV" tab="result" height="280"></codepen>
+
+<p>Il est possible d'ajouter plusieurs ombres à un même texte si désiré en séparant chaque ombre par une virgule.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="css">.element {
+  text-shadow: 2px 2px red, 4px 4px blue;
+}</highlight>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/text-shadow">text-shadow</doclink>
+<doclink href="https://www.w3schools.com/cssref/css3_pr_text-shadow.asp">text-shadow</doclink>
+
+<dots></dots>
+
+        <a class="exercice" target="_blank" href="exercices/focus/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/focus/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Text - Focus</span>
+                    <span class="exercice-description">Pour cet exercice, vous devez manipuler les propriétés de texte en CSS afin de recréer un effet typographique.</span>
+                </div>
+            </div>
+        </a>
+
+<dots></dots>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

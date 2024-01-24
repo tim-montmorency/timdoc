@@ -2,7 +2,7 @@
 /**
  * @type     list
  * @title    Swiper
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract Le carousel tactile JavaScript le plus moderne
  * @index    30
  */

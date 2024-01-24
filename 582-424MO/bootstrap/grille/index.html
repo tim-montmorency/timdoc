@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,8 +39,11 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Optimisation Web</a> > <a href="../">Bootstrap</a> ></div>
-                <h1 id="title"><img src="images/icon.png">&nbsp;Grille</h1>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Optimisation Web</a> > <a href="../">Bootstrap</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/quadriciels/">Quadriciels</a>&nbsp;>&nbsp;<a href="../../../index/web/quadriciels/bootstrap/">Bootstrap</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="../images/icon.webp">&nbsp;Grille</h1>
             </div>
             <article>
                 <div id="contents">
@@ -109,7 +111,7 @@
 
 <h3 id="container">container</h3>
 
-<p>Pour définir un conteneur Bootstrap, il suffit d'ajouter la classe&nbsp;<code>.container</code>&nbsp;à une balise comme&nbsp;suit:</p>
+<p>Pour définir un conteneur Bootstrap, il suffit d'ajouter la classe&nbsp;<span class="inline-code">.container</span>&nbsp;à une balise comme&nbsp;suit:</p>
 
 <highlight lang="html">&lt;div class=&quot;container&quot;&gt;...&lt;/div&gt;</highlight>
 
@@ -209,7 +211,7 @@
 <highlight lang="html">&lt;div class=&quot;container-fluid&quot;&gt;...&lt;/div&gt;</highlight>
 
 
-<p>Afin d'illustrer la différence entre&nbsp;<code>.container</code>&nbsp;et&nbsp;<code>.container-fluid</code>, voici un&nbsp;<a href="https://codepen.io/smnarnold/full/d375c1afaf3bbfb34953a5b85818b552">exemple minimaliste</a>&nbsp;<em>(redimensionner la fenêtre afin de voir la différence de comportement entre les&nbsp;deux)</em>.</p>
+<p>Afin d'illustrer la différence entre&nbsp;<span class="inline-code">.container</span>&nbsp;et&nbsp;<span class="inline-code">.container-fluid</span>, voici un&nbsp;<a href="https://codepen.io/smnarnold/full/d375c1afaf3bbfb34953a5b85818b552">exemple minimaliste</a>&nbsp;<em>(redimensionner la fenêtre afin de voir la différence de comportement entre les&nbsp;deux)</em>.</p>
 
 <doclink href="https://getbootstrap.com/docs/5.0/layout/containers/">Containers</doclink>
 
@@ -219,7 +221,7 @@
 <grostitre>Rangées</grostitre>
 
 <p>Les rangées, ou en anglais&nbsp;<em>rows</em>, servent à gérer le positionnement des colonnes se trouvant à l'intérieur de&nbsp;celles-ci.</p>
-<p>Pour définir une nouvelle rangée, il suffit d'ajouter la classe&nbsp;<code>.row</code>&nbsp;à une balise&nbsp;quelconque.</p>
+<p>Pour définir une nouvelle rangée, il suffit d'ajouter la classe&nbsp;<span class="inline-code">.row</span>&nbsp;à une balise&nbsp;quelconque.</p>
 <p>Par exemple:</p>
 
 <highlight lang="html">&lt;div class=&quot;container&quot;&gt;
@@ -234,25 +236,25 @@
 <p>Le fonctionnement des rangées est basé sur&nbsp;<a href="http://smnarnold.com/cours/css/flexbox">flexbox</a>. Ainsi, plusieurs noms de classes utilitaires permettant de gérer l'alignement des colonnes ressemblent aux noms de différentes sous-propriétés de&nbsp;flexbox.</p>
 <ul>
     <li>
-        <p><code>justify-content-start</code>&nbsp;aligne les colonnes à&nbsp;gauche.</p>
+        <p><span class="inline-code">justify-content-start</span>&nbsp;aligne les colonnes à&nbsp;gauche.</p>
     </li>
     <li>
-        <p><code>justify-content-center</code>&nbsp;aligne les colonnes au&nbsp;centre.</p>
+        <p><span class="inline-code">justify-content-center</span>&nbsp;aligne les colonnes au&nbsp;centre.</p>
     </li>
     <li>
-        <p><code>justify-content-end</code>&nbsp;aligne les colonnes à&nbsp;droite.</p>
+        <p><span class="inline-code">justify-content-end</span>&nbsp;aligne les colonnes à&nbsp;droite.</p>
     </li>
     <li>
-        <p><code>justify-content-between</code>&nbsp;distribue l'espace également entre les colonnes, mais ignore les&nbsp;extrémités.</p>
+        <p><span class="inline-code">justify-content-between</span>&nbsp;distribue l'espace également entre les colonnes, mais ignore les&nbsp;extrémités.</p>
     </li>
     <li>
-        <p><code>justify-content-around</code>&nbsp;distribue l'espace entre les colonnes et les&nbsp;extrémités.</p>
+        <p><span class="inline-code">justify-content-around</span>&nbsp;distribue l'espace entre les colonnes et les&nbsp;extrémités.</p>
     </li>
     <li>
-        <p><code>justify-content-evenly</code>&nbsp;distribue l'espace entre les colonnes et les extrémités, mais s'assure que chaque espace soit d'une largeur&nbsp;équivalente.</p>
+        <p><span class="inline-code">justify-content-evenly</span>&nbsp;distribue l'espace entre les colonnes et les extrémités, mais s'assure que chaque espace soit d'une largeur&nbsp;équivalente.</p>
     </li>
 </ul>
-<p>Par exemple, pour centrer le contenu d'une rangée, il suffit d'ajouter la classe&nbsp;<code>justify-content-center</code>:</p>
+<p>Par exemple, pour centrer le contenu d'une rangée, il suffit d'ajouter la classe&nbsp;<span class="inline-code">justify-content-center</span>:</p>
 <p class="codepen" data-height="300" data-theme-id="43847" data-default-tab="html,result" data-slug-hash="BaPVNEB" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/BaPVNEB">
   Bootstrap - centered</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
@@ -271,7 +273,7 @@
         <p><strong>Seules des colonnes Bootstrap devraient-être enfant direct d'une rangée</strong> afin d'assurer le fonctionnement optimal d'une&nbsp;rangée.</p>
     </li>
 </ul>
-<warning>Malgré ce que son nom pourrait laisser croire, il est possible d’avoir des colonnes sur plusieurs rangées à l’intérieur d’un élément avec la classe <code>.row</code> sans problème.</warning>
+<warning>Malgré ce que son nom pourrait laisser croire, il est possible d’avoir des colonnes sur plusieurs rangées à l’intérieur d’un élément avec la classe <span class="inline-code">.row</span> sans problème.</warning>
 <dots></dots>
 
 
@@ -279,17 +281,15 @@
 
 <p>Les colonnes ou en anglais&nbsp;<em>columns</em>&nbsp;sont les composantes les plus importantes de la grille&nbsp;Bootstrap! Elles permettent de définir la dimension allouée aux différents éléments sur la&nbsp;page.</p>
 
-<p>Pour définir une colonne de base, il suffit d'ajouter la classe&nbsp;<code>.col</code>&nbsp;à une balise, comme&nbsp;suit:</p>
+<p>Pour définir une colonne de base, il suffit d'ajouter la classe&nbsp;<span class="inline-code">.col</span>&nbsp;à une balise, comme&nbsp;suit:</p>
 
-<highlight lang="html">
-&lt;div class=&quot;container&quot;&gt; 
+<highlight lang="html">&lt;div class=&quot;container&quot;&gt; 
   &lt;div class=&quot;row&quot;&gt; 
     &lt;div class=&quot;col&quot;&gt;&lt;/div&gt; 
   &lt;/div&gt;
-&lt;/div&gt;
-</highlight>
+&lt;/div&gt;</highlight>
 
-<p>Par défaut, si une seule&nbsp;<code>.col</code>&nbsp;est définie, elle prendra toute la largeur disponible dans sa rangée. Cependant, si d'autres&nbsp;<code>.col</code>sont ajoutées, celles-ci se distribueront l'espace également.</p>
+<p>Par défaut, si une seule&nbsp;<span class="inline-code">.col</span>&nbsp;est définie, elle prendra toute la largeur disponible dans sa rangée. Cependant, si d'autres&nbsp;<span class="inline-code">.col</span>sont ajoutées, celles-ci se distribueront l'espace également.</p>
 
 <p>Par exemple, avec 2&nbsp;colonnes:</p>
 
@@ -329,7 +329,7 @@
 <br>
 <h3 id="Breakpoints">Breakpoints</h3>
 <p>La grande force des colonnes Bootstrap est leur aspect responsive. Jusqu'à présent, les colonnes définies gardaient toujours le même ratio, peu importe la dimension de l'écran de l'usager. Cependant, il est possible de définir un ratio à partir d'un&nbsp;<a target="_blank" rel="noopener noreferrer" href="/cours/bootstrap/breakpoints">breakpoints</a>&nbsp;spécifique, en insérant l'abréviation du breakpoint en question avant le nombre de colonnes&nbsp;désirées. Ainsi, la colonne tentera de prendre l'ensemble de la largeur disponible si la dimension de l'écran est inférieure au breakpoint défini et respectera la largeur définie si le breakpoint est&nbsp;atteint.</p>
-<p>Par exemple, des colonnes prenant toute la largeur sur mobile pourraient n'avoir qu'une demi-largeur à partir d'une taille d'écran égale ou supérieur à&nbsp;<code>md</code>.</p>
+<p>Par exemple, des colonnes prenant toute la largeur sur mobile pourraient n'avoir qu'une demi-largeur à partir d'une taille d'écran égale ou supérieur à&nbsp;<span class="inline-code">md</span>.</p>
 <p class="codepen" data-height="300" data-theme-id="43847" data-default-tab="html,result" data-slug-hash="dyjKoxg" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/dyjKoxg">
   Bootstrap - col responsive</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
@@ -365,6 +365,5 @@
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

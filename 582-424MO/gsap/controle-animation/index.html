@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,8 +39,11 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Optimisation Web</a> > <a href="../">GSAP</a> ></div>
-                <h1 id="title"><img src="images/icon.svg">&nbsp;4-Contrôle d'une animation</h1>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Optimisation Web</a> > <a href="../">GSAP</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/quadriciels/">Quadriciels</a>&nbsp;>&nbsp;<a href="../../../index/web/quadriciels/gsap/">GSAP</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="../images/icon.webp">&nbsp;4-Contrôle d'une animation</h1>
             </div>
             <article>
                 <div id="contents">
@@ -65,14 +67,14 @@
 
 
 
-<p>Par défaut, dès qu'une animation est déclarée, elle se déclenche immédiatement. Afin de contourner ce problème, vous pouvez lui passer&nbsp;<code>paused: true</code>.</p>
+<p>Par défaut, dès qu'une animation est déclarée, elle se déclenche immédiatement. Afin de contourner ce problème, vous pouvez lui passer&nbsp;<span class="inline-code">paused: true</span>.</p>
 
 <p>Par exemple:</p>
 
 
-          <highlight lang='javascript'>var animation = gsap.to('.element', { 
+          <highlight lang="javascript">var animation = gsap.to(&#039;.element&#039;, { 
   duration: 2,
-  x: '400%',
+  x: &#039;400%&#039;,
   paused: true
 });</highlight>
           
@@ -93,7 +95,7 @@
 
 <grostitre> TimeScale</grostitre>
   
-<p>Permets de définir la vitesse de lecture de l'animation. Par exemple,&nbsp;<code>timeScale(4)</code>&nbsp;permet de jouer une animation 4x plus rapidement, tandis que&nbsp;<code>timeScale(0.5)</code>&nbsp;permet de ralentir de moitié la dite&nbsp;animation.</p>
+<p>Permets de définir la vitesse de lecture de l'animation. Par exemple,&nbsp;<span class="inline-code">timeScale(4)</span>&nbsp;permet de jouer une animation 4x plus rapidement, tandis que&nbsp;<span class="inline-code">timeScale(0.5)</span>&nbsp;permet de ralentir de moitié la dite&nbsp;animation.</p>
 
 <p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="xxamKPE" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/xxamKPE">
@@ -119,7 +121,7 @@
 <grostitre>Progress</grostitre>
   
 
-<p>Permet de déplacer la tête de lecture de l'animation à pourcentage de progression précis. Par exemple,&nbsp;<code>progress(0.25)</code>&nbsp;positionnerait le carré comme si le quart de l'animation avait été jouée, versus à la moitié avec&nbsp;<code>progress(0.5)</code>&nbsp;et au trois quart avec&nbsp;<code>progress(0.75)</code>.</p>
+<p>Permet de déplacer la tête de lecture de l'animation à pourcentage de progression précis. Par exemple,&nbsp;<span class="inline-code">progress(0.25)</span>&nbsp;positionnerait le carré comme si le quart de l'animation avait été jouée, versus à la moitié avec&nbsp;<span class="inline-code">progress(0.5)</span>&nbsp;et au trois quart avec&nbsp;<span class="inline-code">progress(0.75)</span>.</p>
 
 <p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="dyqwbaJ" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/dyqwbaJ">
@@ -133,7 +135,7 @@
 <grostitre>Seek</grostitre>
         
 
-<p>Tout comme&nbsp;<a rel="noopener noreferrer" href="#progress">Progress</a>,&nbsp;<code>seek()</code>&nbsp;permet de déplacer la tête de lecture. Cependant, plutôt que de se baser sur un pourcentage d'avancement, son déplacement est calculé en secondes. Par exemple, une demi-seconde&nbsp;<code>seek(0.5)</code>, une seconde&nbsp;<code>seek(1)</code>, une seconde et demie&nbsp;<code>seek(1.5)</code>.</p>
+<p>Tout comme&nbsp;<a rel="noopener noreferrer" href="#progress">Progress</a>,&nbsp;<span class="inline-code">seek()</span>&nbsp;permet de déplacer la tête de lecture. Cependant, plutôt que de se baser sur un pourcentage d'avancement, son déplacement est calculé en secondes. Par exemple, une demi-seconde&nbsp;<span class="inline-code">seek(0.5)</span>, une seconde&nbsp;<span class="inline-code">seek(1)</span>, une seconde et demie&nbsp;<span class="inline-code">seek(1.5)</span>.</p>
 
 
 <p class="codepen" data-height="300" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="YzOdKML" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -159,6 +161,5 @@
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

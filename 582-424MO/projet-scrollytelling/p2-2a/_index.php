@@ -61,7 +61,7 @@
 N’oubliez pas les balises <em>meta</em> <em>charset</em> et <em>viewport</em>.
 Ajoutez votre/vos police(s) de caractères.
 Liez votre feuille de styles.
-Spécifiez le titre de l’histoire dans la balise <code>title</code>.
+Spécifiez le titre de l’histoire dans la balise <incode>title</incode>.
 Créez et ajoutez un <em>favicon</em> dans le dossier images (64px X 64px). Dans votre fichier HTML, ajoutez le lien favicon vers ce fichier.
 Ajoutez la librairie <em>GSAP</em> et son plugiciel <em>ScrollTrigger</em> à l’endroit le plus pertinent dans votre fichier HTML.
 Ajoutez aussi votre fichier script.js.</checklist>
@@ -72,8 +72,8 @@ Ajoutez aussi votre fichier script.js.</checklist>
 
 
 
-<h3>Balise <code>&lt;header&gt;</code> (HTML)</h3>
- <p>La balise <code>&lt;header&gt;</code> du fichier HTML doit contenir:</p>
+<h3>Balise <incode>&lt;header&gt;</incode> (HTML)</h3>
+ <p>La balise <incode>&lt;header&gt;</incode> du fichier HTML doit contenir:</p>
 
  <checklist>un titre de niveau 1,
  un paragraphe descriptif du projet et des auteurs,
@@ -82,8 +82,8 @@ Ajoutez aussi votre fichier script.js.</checklist>
  </checklist>
 
  
- <h3>Balise <code>&lt;main&gt;</code> (HTML)</h3>
-<checklist>La balise <code>main</code> du fichier HTML doit contenir plusieurs sections qui correspondent à chaque chapitre. 
+ <h3>Balise <incode>&lt;main&gt;</incode> (HTML)</h3>
+<checklist>La balise <incode>main</incode> du fichier HTML doit contenir plusieurs sections qui correspondent à chaque chapitre. 
 Créez toutes ces section et identifiez chacunes d'elles avec un id pertinent.</checklist>
 
 
@@ -95,13 +95,13 @@ Créez toutes ces section et identifiez chacunes d'elles avec un id pertinent.</
 
 <grostitre>Requis CSS</grostitre>
 <checklist>Préparez des variables CSS pour toutes les couleurs de votre palette.
-Ajoutez un <code>overflow-x: hidden</code> à votre balise <code>body</code> pour éviter une barre de défilement horizontale (OU <code>overflow-y: hidden</code> si vous prévoyez plutôt une histoire défilable à l’horizontale).
+Ajoutez un <incode>overflow-x: hidden</incode> à votre balise <incode>body</incode> pour éviter une barre de défilement horizontale (OU <incode>overflow-y: hidden</incode> si vous prévoyez plutôt une histoire défilable à l’horizontale).
 </checklist>
 
-<h3>Balise <code>&lt;header&gt;</code> (CSS)</h3>
+<h3>Balise <incode>&lt;header&gt;</incode> (CSS)</h3>
 
-<checklist>La balise <code>header</code> s'afficher sur toute la largeur et la hauteur de la fenêtre.
-La balise <code>header</code> doit contenir une image d’arrière-plan de votre choix. (Une image qui représente bien votre histoire. Ne pas utiliser la même image d'arrière plan que le chapitre 1).</checklist>
+<checklist>La balise <incode>header</incode> s'afficher sur toute la largeur et la hauteur de la fenêtre.
+La balise <incode>header</incode> doit contenir une image d’arrière-plan de votre choix. (Une image qui représente bien votre histoire. Ne pas utiliser la même image d'arrière plan que le chapitre 1).</checklist>
 
  <h4>Le titre de niveau 1 doit&nbsp;:</h4>
 
@@ -146,11 +146,11 @@ La balise <code>header</code> doit contenir une image d’arrière-plan de votre
 
      <checklist>Créez l'élément qui doit contenir l'icône de l'appel-à-l'action.
      Animez cette icône en boucle afin d’attirer l’attention sur celle-ci. Vous devez utiliser GSAP pour réaliser cette animation. Inscrivez le code de l'animation GSAP dans votre fichier script.js
-     Positionnez l'appel-à-l'action dans le bas du <code>header</code> centré horizontalement OU à droite du <code>header</code> centré verticalement.
+     Positionnez l'appel-à-l'action dans le bas du <incode>header</incode> centré horizontalement OU à droite du <incode>header</incode> centré verticalement.
      </checklist>
 
 
-     <h3>Balise <code>&lt;main&gt;</code> (CSS)</h3>
+     <h3>Balise <incode>&lt;main&gt;</incode> (CSS)</h3>
 
      <p>Stylisez toutes les sections de la balise main.</p>
 
@@ -181,7 +181,7 @@ Créez un élément HTML (div) qui contiendra <em>Sprite Sheet</em> en image d'a
 <h3>Requis CSS pour animation Sprite Sheet</h3>
 <p>Important, ne PAS créer un fichier CSS distinct, travaillez dans le fichier CSS que vous avez déjà créé.</p>
 
-<checklist>Appliquez une hauteur considérable au <code>body</code> ou autre balise dans votre <code>body</code> afin que votre page soit <em>scrollable</em> et que vous puissiez tester le défilement de la page et l'animation qui s'active.
+<checklist>Appliquez une hauteur considérable au <incode>body</incode> ou autre balise dans votre <incode>body</incode> afin que votre page soit <em>scrollable</em> et que vous puissiez tester le défilement de la page et l'animation qui s'active.
 Ajoutez la spritesheet en image d'arrière-plan sur l'élément HTML (div) que vous avez précédemment créé afin qu'on puisse n'y voir que la première image-clé.
 Animez la <em>Sprite Sheet</em> et assurez vous qu'elle boucle à l'infini.
 Lorsque vous êtes satisfait de l’animation, changez l’état de l’animation de la <em>Sprite Sheet</em> (<a
@@ -189,17 +189,17 @@ href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state" tar
 
 
  <h3>Requis JavaScript pour animation Sprite Sheet</h3>
-<checklist>Ajoutez un écouteur d’événement <code>scroll</code> sur la fenêtre (<code>window</code>).</checklist>
+<checklist>Ajoutez un écouteur d’événement <incode>scroll</incode> sur la fenêtre (<incode>window</incode>).</checklist>
  <h4>Sur cet événement: </h4>
- <checklist>ajoutez à la balise <code>body</code> la classe <code>.is-scrolling</code>,
+ <checklist>ajoutez à la balise <incode>body</incode> la classe <incode>.is-scrolling</incode>,
  créez une variable et storez-y un minuteur ayant un délai de 100ms,
- lorsque ce délai est atteint, on enlève la classe <code>.is-scrolling</code> de la balise <code>body</code>,
+ lorsque ce délai est atteint, on enlève la classe <incode>.is-scrolling</incode> de la balise <incode>body</incode>,
  avant de déclarer ce minuteur, vous devez annuler ce minuteur afin de le réinitialiser tant que l’utilisateur défile la page.
 </checklist>
 
  <h3>De retour dans le CSS pour animation Sprite Sheet</h3>
 <checklist>Utilisez les <a href="../../../582-215MO/css/selecteurs/#descendants" target="_blank" onclick="event.stopPropagation()">sélecteurs CSS de descendance</a> afin que l'état de l’animation de la <em>Sprite Sheet</em>  (<a
-href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state" target="_blank" onclick="event.stopPropagation()">animation-play-state</a>) doive contenir la valeur <code>running</code> seulement lors que la balise <code>body</code> contient la classe <code>.is-scrolling</code>.
+href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state" target="_blank" onclick="event.stopPropagation()">animation-play-state</a>) doive contenir la valeur <incode>running</incode> seulement lors que la balise <incode>body</incode> contient la classe <incode>.is-scrolling</incode>.
 Assurez-vous que votre élément animé via la technique <em>Sprite Sheet</em> soit <em>responsive</em>, donc adaptable à la largeur de l'écran.
 Lorsque tout fonctionne comme vous le souhaitez, faites le même exercice pour votre 2<sup>e</sup> sprite sheet (soit dans la même page HTML ou dans 2<sup>e</sup> fichier séparé, à votre guise).</checklist>
 
@@ -208,7 +208,7 @@ Lorsque tout fonctionne comme vous le souhaitez, faites le même exercice pour v
 
  <grostitre>Répertoire GIT de votre projet</grostitre>
  <checklist>Vous devez <a target="_blank" href="https://smnarnold.com/cours/git/github"
-         onclick="event.stopPropagation()">créer un répertoire GitHub</a> intitulé <code>[nom]-[prenom]-scrollytelling</code>.<br>Attention, celui-ci devra être en mode public et non privé 🚫.
+         onclick="event.stopPropagation()">créer un répertoire GitHub</a> intitulé <incode>[nom]-[prenom]-scrollytelling</incode>.<br>Attention, celui-ci devra être en mode public et non privé 🚫.
      N'oubliez pas de cocher pour créer fichier README.
      Vous devez ensuite cloner localement le répertoire du projet et y déposer les fichiers que vous avez créés dans ce devoir. Rappel: le fichier index.html doit se trouver à la racine du répertoire et non dans un sous-dossier.
      <strong>Éditez le fichier README, utilisez le MARKDOWN:</strong>

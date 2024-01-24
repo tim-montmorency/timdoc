@@ -2,12 +2,12 @@
 <html lang="fr-ca">
     <head>
         <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $PAGE->gtag; ?>"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-P2R7T89B4B');
+            gtag('config', '<?php echo $PAGE->gtag; ?>');
         </script>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="<?php echo $PAGE->shared; ?>images/favicon.ico">
         <link rel="stylesheet" href="<?php echo $PAGE->shared; ?>styles/styles.min.css">
         <link rel="stylesheet" href="<?php echo $PAGE->shared; ?>styles/highlight.min.css">
-        <link rel="stylesheet" href="<?php echo $PAGE->shared; ?>styles/video-js.min.css">
         <link rel="stylesheet" href="<?php echo $PAGE->shared; ?>styles/swiper-bundle.min.css">
         <script src="<?php echo $PAGE->shared; ?>jscripts/highlight.min.js"></script>
         <script src="<?php echo $PAGE->shared; ?>jscripts/howler.min.js"></script>
@@ -26,6 +25,7 @@
         <script>const shared = '<?php echo $PAGE->shared; ?>';</script>
         <title><?php echo $PAGE->title; ?></title>
     </head>
-    <body class="dark" style="padding-bottom: 0;">
+    <body style="padding-bottom: 0;">
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <wiki>
             <!-- WIKI HEADER EOF -->

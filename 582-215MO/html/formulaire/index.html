@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,7 +39,10 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Intégration Web</a> > <a href="../">HTML</a> ></div>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Intégration Web</a> > <a href="../">HTML</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
                 <h1 id="title"><img src="images/icon.png">&nbsp;Formulaire</h1>
             </div>
             <article>
@@ -56,7 +58,7 @@
 
 <p>Génère un champ texte sur une seule ligne. Ce champ est parfait pour les informations textuelles à caractère généralistes.</p>
 
-<p>Le type <incode>text</incode> est le type par défaut de la balise <incode>&lt;input&gt;</incode>. Si aucun type n'est spécifié ou que le <incode>type</incode> utilisé n'est pas reconnu par le navigateur, celui-ci assumera automatiquement qu'il s'agit d'un champ texte.</p>
+<p>Le type <span class="inline-code">text</span> est le type par défaut de la balise <span class="inline-code">&lt;input&gt;</span>. Si aucun type n'est spécifié ou que le <span class="inline-code">type</span> utilisé n'est pas reconnu par le navigateur, celui-ci assumera automatiquement qu'il s'agit d'un champ texte.</p>
 
 <codepen id="BaPEVEy" tab="html,result" height="200"></codepen>
 
@@ -67,7 +69,7 @@
 
 <h3>Value</h3>
 
-<p>L'attribut <incode>value</incode> permet de définir la valeur par défaut d'un champ.</p>
+<p>L'attribut <span class="inline-code">value</span> permet de définir la valeur par défaut d'un champ.</p>
 
 <p>Par exemple, si des répondants doivent indiquer leur pays de résidence et que la majorité répondront Canada  🇨🇦, il est possible de prépopuler le formulaire avec cette valeur.</p>
 
@@ -78,43 +80,43 @@
 
 <h3>Placeholder</h3>
 
-<p>L'attribut <incode>placeholder</incode> permet d'afficher un exemple de valeur possible à saisir dans le champ. Bien que visible, cette valeur n'est pas réellement présente dans le champ contrairement à l'attribut <incode>value</incode>. Qui plus est, cette valeur disparaitra dès que l'utilisateur commencera à inscrire une nouvelle valeur.</p>
+<p>L'attribut <span class="inline-code">placeholder</span> permet d'afficher un exemple de valeur possible à saisir dans le champ. Bien que visible, cette valeur n'est pas réellement présente dans le champ contrairement à l'attribut <span class="inline-code">value</span>. Qui plus est, cette valeur disparaitra dès que l'utilisateur commencera à inscrire une nouvelle valeur.</p>
 
 <p>Par exemple, pour indiquer que le nom du pays est requis et que le nom complet est désiré <em>(Canada)</em> et non l'abréviation <em>(Can)</em>, il est possible d'utiliser cet attribut.</p>
 
 <codepen id="dyjLjWB" tab="html,result" height="200"></codepen>
 
-<p>Le style du placeholder est modifiable via le pseudo-élément <incode>::placeholder</incode>. Dans l'exemple précédent, afin de différencier le placeholder du texte normal, la couleur bleue lui est attribuée.</p>
+<p>Le style du placeholder est modifiable via le pseudo-élément <span class="inline-code">::placeholder</span>. Dans l'exemple précédent, afin de différencier le placeholder du texte normal, la couleur bleue lui est attribuée.</p>
 
-<p>Tant que le <incode>placeholder</incode> est visible <em>(que l'usager n'a pas inscrit de nouvelle valeur)</em>, le champ aura la pseudo-classe <incode>:placeholder-shown</incode> permettant de changer l'apparence du champ. Dans l'exemple précédent, le champ à une bordure bleue tant qu'une nouvelle valeur n'est pas inscrite grâce à cette pseudo-classe.</p>
+<p>Tant que le <span class="inline-code">placeholder</span> est visible <em>(que l'usager n'a pas inscrit de nouvelle valeur)</em>, le champ aura la pseudo-classe <span class="inline-code">:placeholder-shown</span> permettant de changer l'apparence du champ. Dans l'exemple précédent, le champ à une bordure bleue tant qu'une nouvelle valeur n'est pas inscrite grâce à cette pseudo-classe.</p>
 
 <doclink href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#attr-placeholder">placeholder</doclink>
 <doclink href="https://www.w3schools.com/tags/att_input_placeholder.asp">placeholder</doclink>
 
 <h3>Readonly</h3>
 
-<p>L'attribut <incode>readonly</incode> permet d'indiquer à l'aide d'un booléen <em>(true/false)</em> si un champ est en lecture seule <em>(impossible à modifier)</em>. Si l'attribut <incode>readonly</incode> est ajouté sans booléen, le navigateur considèrera que le champ est en lecture seule, soit un équivalent de <incode>readonly="true"</incode>.</p>
+<p>L'attribut <span class="inline-code">readonly</span> permet d'indiquer à l'aide d'un booléen <em>(true/false)</em> si un champ est en lecture seule <em>(impossible à modifier)</em>. Si l'attribut <span class="inline-code">readonly</span> est ajouté sans booléen, le navigateur considèrera que le champ est en lecture seule, soit un équivalent de <span class="inline-code">readonly=&quot;true&quot;</span>.</p>
 
 <p>Par exemple, un formulaire de modification de profil permettant de mettre à jour ses informations personnelles et de voir son nom d'usager, mais ne permettant pas de modifier ce dernier.</p>
 
 <codepen id="abjrdor" tab="html,result" height="200"></codepen>
 
-<p>Dès qu'un champ à l'attribut <incode>readonly</incode>, la pseudo-classe <incode>:read-only</incode> lui est attribuée. Permettant ainsi de fournir une indication visuelle en CSS à l'usager que ce champ ne peut être modifié. Comme dans l'exemple précédent où le fond grisâtre est ajouté via à cette pseudo-classe.</p>
+<p>Dès qu'un champ à l'attribut <span class="inline-code">readonly</span>, la pseudo-classe <span class="inline-code">:read-only</span> lui est attribuée. Permettant ainsi de fournir une indication visuelle en CSS à l'usager que ce champ ne peut être modifié. Comme dans l'exemple précédent où le fond grisâtre est ajouté via à cette pseudo-classe.</p>
 
 <doclink href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/readonly">readonly</doclink>
 <doclink href="https://www.w3schools.com/tags/att_input_readonly.asp">readonly</doclink>
 
 <h3>Required</h3>
 
-<p>L'attribut <incode>required</incode> permet d'indiquer à l'aide d'un booléen <em>(true/false)</em> si un champ est requis. Si l'attribut required est ajouté sans booléen, le navigateur considèrera que le champ est requis, soit un équivalent de <incode>required="true"</incode>.</p>
+<p>L'attribut <span class="inline-code">required</span> permet d'indiquer à l'aide d'un booléen <em>(true/false)</em> si un champ est requis. Si l'attribut required est ajouté sans booléen, le navigateur considèrera que le champ est requis, soit un équivalent de <span class="inline-code">required=&quot;true&quot;</span>.</p>
 
 <p>Par exemple, un champ non requis vs un champ requis:</p>
 
 <codepen id="VwBOeYv" tab="html,result" height="200"></codepen>
 
-<p>Dès qu'une valeur est saisie dans le champ requis la pseudo-classe <incode>:valid</incode> est ajoutée au champ. Cette pseudo-classe est régulièrement utilisée en CSS afin de fournir une rétroaction positive à l'utilisateur. Comme dans l'exemple précédent, une bordure verte indique que l'information entrée est valide 🟢.</p>
+<p>Dès qu'une valeur est saisie dans le champ requis la pseudo-classe <span class="inline-code">:valid</span> est ajoutée au champ. Cette pseudo-classe est régulièrement utilisée en CSS afin de fournir une rétroaction positive à l'utilisateur. Comme dans l'exemple précédent, une bordure verte indique que l'information entrée est valide 🟢.</p>
 
-<p>À l'opposée, la pseudo-classe <incode>:invalid</incode> est ajoutée, tant que le champ est vide, permettant ainsi d'attirer l'attention de l'utilisateur à l'aide d'une rétroaction négative, telle qu'une bordure rouge 🔴.</p>
+<p>À l'opposée, la pseudo-classe <span class="inline-code">:invalid</span> est ajoutée, tant que le champ est vide, permettant ainsi d'attirer l'attention de l'utilisateur à l'aide d'une rétroaction négative, telle qu'une bordure rouge 🔴.</p>
 
 <info>Puisque le premier champ n’est pas requis, il est automatiquement valide et donc reçoit la pseudo-classe :valid lui donnant sa bordure verte.</info>
 
@@ -123,13 +125,13 @@
 
 <h3>Minlength & Maxlength</h3>
 
-<p>Les attributs <incode>minlength</incode> & <incode>maxlength</incode> permettent de définir un nombre minimal et maximal de caractères pouvant-être inscrit dans un champ.</p>
+<p>Les attributs <span class="inline-code">minlength</span> & <span class="inline-code">maxlength</span> permettent de définir un nombre minimal et maximal de caractères pouvant-être inscrit dans un champ.</p>
 
 <p>Par exemple, un champ de code postal acceptant de 3 à 6 caractères:</p>
 
 <codepen id="PoBvZqm" tab="html,result" height="200"></codepen>
 
-<p>Si le nombre minimal et maximal sont respectés, la pseudo-classe <incode>:valid</incode> est ajoutée au champ. À l'opposée, si le nombre minimal n'est pas respecté, la pseudo-classe <incode>:invalid</incode> est ajoutée.</p>
+<p>Si le nombre minimal et maximal sont respectés, la pseudo-classe <span class="inline-code">:valid</span> est ajoutée au champ. À l'opposée, si le nombre minimal n'est pas respecté, la pseudo-classe <span class="inline-code">:invalid</span> est ajoutée.</p>
 
 <doclink href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/minlength">minlength</doclink>
 <doclink href="https://www.w3schools.com/tags/att_input_minlength.asp">minlength</doclink>
@@ -141,7 +143,7 @@
 
 <grostitre>Label</grostitre>
 
-<p>Les libellés ou <incode>&lt;label&gt;</incode> permettent d'indiquer le rôle d'un élément <em>(ex: un champ texte)</em> au sein d'un formulaire. Le libellé peut être associé à un élément de formulaire via l'attribut <incode>for</incode> ou encore en plaçant l'élément de formulaire à l'intérieur même de la balise <incode>&lt;label&gt;</incode>.<p>
+<p>Les libellés ou <span class="inline-code">&lt;label&gt;</span> permettent d'indiquer le rôle d'un élément <em>(ex: un champ texte)</em> au sein d'un formulaire. Le libellé peut être associé à un élément de formulaire via l'attribut <span class="inline-code">for</span> ou encore en plaçant l'élément de formulaire à l'intérieur même de la balise <span class="inline-code">&lt;label&gt;</span>.<p>
 
 <p>Par exemple, les deux méthodes suivantes de définition de libellé sont valides:</p>
 
@@ -149,7 +151,7 @@
 
 <h3>For</h3>
 
-<p>L'attribut <incode>for</incode> permet d'associer un élément avec son libellé. Pour se faire, sa valeur doit correspondre au <incode>id</incode> de l'élément qu'il désigne.</p>
+<p>L'attribut <span class="inline-code">for</span> permet d'associer un élément avec son libellé. Pour se faire, sa valeur doit correspondre au <span class="inline-code">id</span> de l'élément qu'il désigne.</p>
 
 <info>Lorsqu’un libellé est cliqué, le focus est automatiquement attribué à l’élément qu’il désigne.</info>
 
@@ -161,19 +163,19 @@
 
 <grostitre>Form</grostitre>
 
-<p>La balise <incode>&lt;form&gt;</incode> regroupe tous les éléments d'un formulaire.</p>
+<p>La balise <span class="inline-code">&lt;form&gt;</span> regroupe tous les éléments d'un formulaire.</p>
 
 <codepen id="GRBaoqW" tab="html,result" height="340"></codepen>
 
 <h3>Attributs de form</h3>
 
 <ul>
-    <li><incode>action</incode> permets de spécifier l'url où les informations du formulaire doivent être soumises.</li>
+    <li><span class="inline-code">action</span> permets de spécifier l'url où les informations du formulaire doivent être soumises.</li>
     <li>
-        <incode>method</incode> <u>méthode http</u> utilisée par le navigateur afin de soumettre le formulaire. Ses valeurs peuvent-être
+        <span class="inline-code">method</span> <u>méthode http</u> utilisée par le navigateur afin de soumettre le formulaire. Ses valeurs peuvent-être
         <ul>
-            <li><incode>GET</incode> <em>(par défaut)</em> stock les informations du formulaire dans l'URL après le symbole <incode>?</incode>.</li>
-            <li><incode>POST</incode> envois les informations du formulaire dans la requête soumise à la page. Les informations ne sont donc pas visibles.</li>
+            <li><span class="inline-code">GET</span> <em>(par défaut)</em> stock les informations du formulaire dans l'URL après le symbole <span class="inline-code">?</span>.</li>
+            <li><span class="inline-code">POST</span> envois les informations du formulaire dans la requête soumise à la page. Les informations ne sont donc pas visibles.</li>
         </ul>
     </li>
 </ul>
@@ -194,7 +196,7 @@
 
 <h3>Value</h3>
 
-<p>L'attribut <incode>value</incode> définit le texte à l'intérieur du bouton généré.</p>
+<p>L'attribut <span class="inline-code">value</span> définit le texte à l'intérieur du bouton généré.</p>
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input/submit">input submit</doclink>
 <doclink href="https://www.w3schools.com/tags/att_input_type_submit.asp">input submit</doclink>
@@ -223,6 +225,5 @@
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,8 +39,11 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Optimisation Web</a> > <a href="../">GSAP</a> ></div>
-                <h1 id="title"><img src="images/icon.svg">&nbsp;7-ScrollTrigger intermédiaire</h1>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Optimisation Web</a> > <a href="../">GSAP</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/quadriciels/">Quadriciels</a>&nbsp;>&nbsp;<a href="../../../index/web/quadriciels/gsap/">GSAP</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="../images/icon.webp">&nbsp;7-ScrollTrigger intermédiaire</h1>
             </div>
             <article>
                 <div id="contents">
@@ -55,12 +57,12 @@
 
 <grostitre>Scrub</grostitre>
 
-<p>La propriété&nbsp;<code>scrub</code>&nbsp;permet de synchroniser la progression d'une animation avec le défilement de
+<p>La propriété&nbsp;<span class="inline-code">scrub</span>&nbsp;permet de synchroniser la progression d'une animation avec le défilement de
     la page&nbsp;<em>(scroll)</em>. Ainsi, l'animation débutera lorsque le
     marqueur&nbsp;<u>start</u>&nbsp;croisera&nbsp;<u>scroller-start</u>&nbsp;et <strong>progressera proportionellement</strong> jusqu'à
     ce que le marqueur&nbsp;<u>end</u>&nbsp;croise&nbsp;<u>scroller-end</u>.</p>
-<p>Par défaut, la valeur de cette propriété est à&nbsp;<code>false</code>. Pour l'activer, il faut lui donner la
-    valeur&nbsp;<code>true</code>, comme dans l'exemple&nbsp;suivant:</p>
+<p>Par défaut, la valeur de cette propriété est à&nbsp;<span class="inline-code">false</span>. Pour l'activer, il faut lui donner la
+    valeur&nbsp;<span class="inline-code">true</span>, comme dans l'exemple&nbsp;suivant:</p>
 <div class="codepen" data-module="CodePen">
     <div class="codepen__wrapper">
         <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
@@ -77,9 +79,9 @@
 <p>Lorsque la roulette d'une souris 🖱️ est utilisée pour effectuer un défilement de page&nbsp;<em>(scroll)</em>,
     l'animation est parfois saccadée. Ce comportement est normal, puisque certaines souris incrémentent le défilement en
     utilisant un très grand intervalle. Cependant, il est possible de remédier à ce problème en spécifiant à la
-    propriété&nbsp;<code>scrub</code>&nbsp;une valeur en secondes ⏲️ . Ainsi, une interpolation correspondant à la durée
+    propriété&nbsp;<span class="inline-code">scrub</span>&nbsp;une valeur en secondes ⏲️ . Ainsi, une interpolation correspondant à la durée
     est générée entre chaque étape de&nbsp;l'animation.</p>
-<p>Par exemple, reprenons le précédent exemple, mais avec une interpolation d'une seconde&nbsp;<code>scrub: 1</code>:
+<p>Par exemple, reprenons le précédent exemple, mais avec une interpolation d'une seconde&nbsp;<span class="inline-code">scrub: 1</span>:
 </p>
 <div class="codepen" data-module="CodePen">
     <div class="codepen__wrapper">
@@ -116,10 +118,10 @@
 
 
 
-<p>La propriété&nbsp;<code>pin</code>&nbsp;permet de fixer verticalement un élément durant son animation, de sorte
+<p>La propriété&nbsp;<span class="inline-code">pin</span>&nbsp;permet de fixer verticalement un élément durant son animation, de sorte
     qu'elle reste visible tout au long de sa&nbsp;progression.</p>
-<p>Par défaut, la valeur de cette propriété est à&nbsp;<code>false</code>. Pour l'activer, il faut lui donner la
-    valeur&nbsp;<code>true</code>, comme dans l'exemple suivant:</p>
+<p>Par défaut, la valeur de cette propriété est à&nbsp;<span class="inline-code">false</span>. Pour l'activer, il faut lui donner la
+    valeur&nbsp;<span class="inline-code">true</span>, comme dans l'exemple suivant:</p>
 <div class="codepen" data-module="CodePen">
     <div class="codepen__wrapper">
         <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
@@ -134,7 +136,7 @@
 
 </div>
 <p>Afin d'effectuer un pin, ScrollTrigger ajoute un div englobant l'élément animé et lui donne temporairement
-    une&nbsp;<code>position: fixed;</code>&nbsp;afin d'éviter que le défilement de la page&nbsp;l'affecte.</p>
+    une&nbsp;<span class="inline-code">position: fixed;</span>&nbsp;afin d'éviter que le défilement de la page&nbsp;l'affecte.</p>
 <p>Afin de visualiser ce comportement, revoici le précédent exemple, mais avec une bordure pointillée autour du div créé
     par&nbsp;ScrollTrigger:</p>
 <div class="codepen" data-module="CodePen">
@@ -171,11 +173,11 @@
 <grostitre>Pin Spacing</grostitre>
 
 
-<p>Par défaut, la propriété&nbsp;<code>pin</code>&nbsp;crée un espace vide afin que l'élément animé reste toujours entre
-    l'élément qui le précède et celui qui le suit. Cependant, la propriété&nbsp;<code>pinSpacing</code>&nbsp;permet de
+<p>Par défaut, la propriété&nbsp;<span class="inline-code">pin</span>&nbsp;crée un espace vide afin que l'élément animé reste toujours entre
+    l'élément qui le précède et celui qui le suit. Cependant, la propriété&nbsp;<span class="inline-code">pinSpacing</span>&nbsp;permet de
     contrôler ce comportement, si cet espace est jugé&nbsp;indésirable.</p>
-<p>Par défaut, la valeur de cette propriété est a&nbsp;<code>true</code>, ce qui crée l'espace mentionné. Pour le
-    désactiver, il faut lui donner la valeur&nbsp;<code>false</code>, comme dans l'exemple suivant:</p>
+<p>Par défaut, la valeur de cette propriété est a&nbsp;<span class="inline-code">true</span>, ce qui crée l'espace mentionné. Pour le
+    désactiver, il faut lui donner la valeur&nbsp;<span class="inline-code">false</span>, comme dans l'exemple suivant:</p>
 <div class="codepen" data-module="CodePen">
     <div class="codepen__wrapper">
         <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
@@ -199,13 +201,13 @@
 
 
 
-<p>Les&nbsp;<code>callbacks</code>&nbsp;permettent de déclencher une fonction JavaScript à différents moments clés d'une
+<p>Les&nbsp;<span class="inline-code">callbacks</span>&nbsp;permettent de déclencher une fonction JavaScript à différents moments clés d'une
     animation synchronisée avec ScrollTrigger et d'obtenir des informations relatives à cette&nbsp;dernière.</p>
 <p>Par exemple, pour déclencher un événement lorsque le marqueur&nbsp;<u>start</u>&nbsp;croise le
-    marqueur&nbsp;<u>scroller-start</u>, il est possible d'utiliser&nbsp;<code>onEnter</code>.</p>
+    marqueur&nbsp;<u>scroller-start</u>, il est possible d'utiliser&nbsp;<span class="inline-code">onEnter</span>.</p>
 <p>Pour déclencher des événements tant et aussi longtemps que l'animation est en cours, il est possible
-    d'utiliser&nbsp;<code>onUpdate</code>, comme dans l'exemple ci-dessous. Dès que l'animation est
-    mise-à-jours&nbsp;<em>(update)</em>&nbsp;la valeur de la propriété&nbsp;<code>direction</code>&nbsp;<em>(1 ou
+    d'utiliser&nbsp;<span class="inline-code">onUpdate</span>, comme dans l'exemple ci-dessous. Dès que l'animation est
+    mise-à-jours&nbsp;<em>(update)</em>&nbsp;la valeur de la propriété&nbsp;<span class="inline-code">direction</span>&nbsp;<em>(1 ou
         -1)</em>&nbsp;est affichée dans le carré&nbsp;bleu 🟦</p>
 <div class="codepen" data-module="CodePen">
     <div class="codepen__wrapper">
@@ -224,23 +226,23 @@
 
 <ul>
     <li>
-        <p><code>onEnter</code>&nbsp;déclenché
+        <p><span class="inline-code">onEnter</span>&nbsp;déclenché
             lorsque&nbsp;<u>start</u>&nbsp;dépasse&nbsp;<u>scroller-start</u>&nbsp;en&nbsp;montant ⬆️</p>
     </li>
     <li>
-        <p><code>onLeave</code>déclenché
+        <p><span class="inline-code">onLeave</span>déclenché
             lorsque&nbsp;<u>end</u>&nbsp;dépasse&nbsp;<u>scroller-end</u>&nbsp;en&nbsp;montant ⬆️</p>
     </li>
     <li>
-        <p><code>onEnterBack</code>&nbsp;déclenché
+        <p><span class="inline-code">onEnterBack</span>&nbsp;déclenché
             lorsque&nbsp;<u>end</u>&nbsp;dépasse&nbsp;<u>scroller-end</u>&nbsp;en&nbsp;descendant ⬇️</p>
     </li>
     <li>
-        <p><code>onLeaveBack</code>&nbsp;déclenché
+        <p><span class="inline-code">onLeaveBack</span>&nbsp;déclenché
             lorsque&nbsp;<u>start</u>&nbsp;dépasse&nbsp;<u>scroller-start</u>&nbsp;en&nbsp;descendant ⬇️</p>
     </li>
     <li>
-        <p><code>onUpdate</code>&nbsp;déclenché à de multiple reprises, tant que l'animation est en cours
+        <p><span class="inline-code">onUpdate</span>&nbsp;déclenché à de multiple reprises, tant que l'animation est en cours
             de&nbsp;progression.</p>
     </li>
     <li>
@@ -253,15 +255,15 @@
     constitué d'informations sur le callback en question.</p>
 <ul>
     <li>
-        <p><code>.isActive</code>&nbsp;retourne&nbsp;<code>true</code>&nbsp;si l'animation est en cours
-            et&nbsp;<code>false</code>&nbsp;dans le cas&nbsp;contraire.</p>
+        <p><span class="inline-code">.isActive</span>&nbsp;retourne&nbsp;<span class="inline-code">true</span>&nbsp;si l'animation est en cours
+            et&nbsp;<span class="inline-code">false</span>&nbsp;dans le cas&nbsp;contraire.</p>
     </li>
     <li>
-        <p><code>.direction</code>&nbsp;retourne&nbsp;<code>1</code>&nbsp;si l'animation monte ⬆️
-            et&nbsp;<code>-1</code>&nbsp;si l'animation&nbsp;descend ⬇️.</p>
+        <p><span class="inline-code">.direction</span>&nbsp;retourne&nbsp;<span class="inline-code">1</span>&nbsp;si l'animation monte ⬆️
+            et&nbsp;<span class="inline-code">-1</span>&nbsp;si l'animation&nbsp;descend ⬇️.</p>
     </li>
     <li>
-        <p><code>.progress</code>&nbsp;retourne un chiffre entre 0 et 1 correspondant au pourcentage de progression
+        <p><span class="inline-code">.progress</span>&nbsp;retourne un chiffre entre 0 et 1 correspondant au pourcentage de progression
             de&nbsp;l'animation.</p>
     </li>
     <li>
@@ -316,6 +318,5 @@
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

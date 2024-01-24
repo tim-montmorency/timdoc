@@ -4,15 +4,16 @@
  * @title    Grid
  * @icon     images/icon2.png
  * @abstract Système de mise en page par grille
- * @index 99
+ * @index    99
+ * @ref      web/css
  */
 ?>
 
-<p>Tout comme <a target="_blank" rel="noopener noreferrer" href="/cours/css/flexbox">flexbox</a>, la propriété&nbsp;<code>display: grid;</code>,&nbsp;ou sa variante&nbsp;<code>display: inline-grid;</code>, influence l'affichage de ses enfants. Cependant, contrairement à flexbox qui les positionne en fonction d'une seule dimension <em>(x ou y)</em>, grid permet de les positionner sur une grille quadrillée en deux dimensions <em>(x &amp; y)</em>.</p>
+<p>Tout comme <a target="_blank" rel="noopener noreferrer" href="/cours/css/flexbox">flexbox</a>, la propriété&nbsp;<incode>display: grid;</incode>,&nbsp;ou sa variante&nbsp;<incode>display: inline-grid;</incode>, influence l'affichage de ses enfants. Cependant, contrairement à flexbox qui les positionne en fonction d'une seule dimension <em>(x ou y)</em>, grid permet de les positionner sur une grille quadrillée en deux dimensions <em>(x &amp; y)</em>.</p>
 
 <img src="images/flexbox-compared-css-grid.png" alt="flexbox sur une dimension à la fois. grid sur 2 dimensions (x et y)">
 
-<p><q cite="https://css-tricks.com/" class="on-hover">Pour commencer, vous devez définir un élément conteneur comme une grille avec <code>display : grid</code>, définir la taille des colonnes et des lignes avec <code>grid-template-columns</code> et <code>grid-template-rows</code>, puis placer ses éléments enfants dans la grille avec <code>grid-column</code> et <code>grid-row</code>. <br><br>Comme dans le cas de flexbox, l'ordre source des éléments de la grille n'a pas d'importance. Votre CSS peut les placer dans n'importe quel ordre, ce qui facilite grandement la réorganisation de votre grille à l'aide de requêtes média. Imaginez que vous définissiez la disposition de votre page entière, puis que vous la réorganisiez complètement pour l'adapter à une largeur d'écran différente, le tout avec seulement quelques lignes de CSS. La grille est l'un des modules CSS les plus puissants jamais introduits.</q></p>
+<p><q cite="https://css-tricks.com/" class="on-hover">Pour commencer, vous devez définir un élément conteneur comme une grille avec <incode>display : grid</incode>, définir la taille des colonnes et des lignes avec <incode>grid-template-columns</incode> et <incode>grid-template-rows</incode>, puis placer ses éléments enfants dans la grille avec <incode>grid-column</incode> et <incode>grid-row</incode>. <br><br>Comme dans le cas de flexbox, l'ordre source des éléments de la grille n'a pas d'importance. Votre CSS peut les placer dans n'importe quel ordre, ce qui facilite grandement la réorganisation de votre grille à l'aide de requêtes média. Imaginez que vous définissiez la disposition de votre page entière, puis que vous la réorganisiez complètement pour l'adapter à une largeur d'écran différente, le tout avec seulement quelques lignes de CSS. La grille est l'un des modules CSS les plus puissants jamais introduits.</q></p>
 
 
 
@@ -69,11 +70,11 @@
 <dots></dots>
 <grostitre>column-gap, row-gap &amp; gap</grostitre>
 
-<p>Les propriétés <code>column-gap</code>, <code>row-gap</code> et <code>gap</code> permettent de définir des espaces entre les cellules d'une grille. Ces propriétés acceptent <a target="_blank" rel="noopener noreferrer" href="/cours/css/unites-de-mesure">toutes les unités de base</a>.</p>
+<p>Les propriétés <incode>column-gap</incode>, <incode>row-gap</incode> et <incode>gap</incode> permettent de définir des espaces entre les cellules d'une grille. Ces propriétés acceptent <a target="_blank" rel="noopener noreferrer" href="/cours/css/unites-de-mesure">toutes les unités de base</a>.</p>
 
 
 <h3 class="heading heading--h3" id="column-gap">column-gap</h3>
-<p>La propriété&nbsp;<code>column-gap</code>&nbsp;permet de définir l'espace entre les colonnes d'une grille.</p>
+<p>La propriété&nbsp;<incode>column-gap</incode>&nbsp;permet de définir l'espace entre les colonnes d'une grille.</p>
 
 <p class="codepen" data-height="300" data-theme-id="44168" data-default-tab="result" data-slug-hash="eYbRjKw" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/eYbRjKw">
@@ -89,7 +90,7 @@
 
 
 <h3 class="heading heading--h3" id="row-gap">row-gap</h3>
-<p>La propriété&nbsp;<code>row-gap</code>&nbsp;permet de définir l'espace entre les rangées d'une grille.</p>
+<p>La propriété&nbsp;<incode>row-gap</incode>&nbsp;permet de définir l'espace entre les rangées d'une grille.</p>
 
 
 <p class="codepen" data-height="300" data-theme-id="44168" data-default-tab="result" data-slug-hash="mdawjjM" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -103,7 +104,7 @@
 
 
 <h3 class="heading heading--h3" id="gap">gap</h3>
-<p>La propriété&nbsp;<code>gap</code>&nbsp;permet de définir l'espace entre les colonnes et rangées d'une grille simultanément.</p>
+<p>La propriété&nbsp;<incode>gap</incode>&nbsp;permet de définir l'espace entre les colonnes et rangées d'une grille simultanément.</p>
 <p class="codepen" data-height="300" data-theme-id="44168" data-default-tab="result" data-slug-hash="bGORjjK" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/bGORjjK">
   Grid - row-gap</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
@@ -111,7 +112,9 @@
 </p>
 
 
-<p>Cette propriété accepte aussi de recevoir deux valeurs. Le cas échéant, la première correspond à l'espace entre les rangées et la deuxième, à celle entre les colonnes.</p><p>Par exemple:</p><pre><code class="hljs css">gap: <span class="hljs-number">10px</span> <span class="hljs-number">50px</span>;</code></pre><p>Génère un espace de 10px entre les rangées ↕️ et de 50px entre les colonnes ↔️.</p>
+<p>Cette propriété accepte aussi de recevoir deux valeurs. Le cas échéant, la première correspond à l'espace entre les rangées et la deuxième, à celle entre les colonnes.</p><p>Par exemple:</p>
+<highlight lang="css">gap: 10px 50px;</highlight>
+<p>Génère un espace de 10px entre les rangées ↕️ et de 50px entre les colonnes ↔️.</p>
 
 
 <warning>Pratiquement toutes les unités, <strong>sauf les fr</strong>, peuvent êtres utilisées pour les propriété de type&nbsp;gap.</warning>
@@ -131,11 +134,13 @@
 
 <dots></dots>
 <grostitre>Unité fr</grostitre>
-<p>Afin de simplifier la gestion des colonnes et des rangées une nouvelle unité CSS vue le jour. Cette unité, intitulée <code>fr</code> pour <em>fraction</em>, permet de distribuer l'espace disponible de façon relative entre chaque élément ayant une valeur de ce type.</p><p>Par exemple, pour avoir trois colonnes identiques, il serait possible de faire:</p><pre><code class="hljs css">grid-template-<span class="hljs-attribute">columns</span>: <span class="hljs-number">1</span>fr <span class="hljs-number">1</span>fr <span class="hljs-number">1</span>fr;</code></pre>
+<p>Afin de simplifier la gestion des colonnes et des rangées une nouvelle unité CSS vue le jour. Cette unité, intitulée <incode>fr</incode> pour <em>fraction</em>, permet de distribuer l'espace disponible de façon relative entre chaque élément ayant une valeur de ce type.</p><p>Par exemple, pour avoir trois colonnes identiques, il serait possible de faire:</p>
+
+<highlight lang="css">grid-template-columns: 1fr 1fr 1fr;</highlight>
 
 
 <h3 class="heading heading--h3" id="Combinaison avec gap">Combinaison avec gap</h3>
-<p>À priori, cette unité peut sembler similaire aux pourcentages <em>(%)</em>. Cependant, puisque les fractions basent leurs calculs sur l'espace disponible et non l'espace total de leur parent, ils peuvent-être utiliser avantageusement avec les propriétés de type <code>gap</code>.</p><p>Par exemple, si un <code>column-gap: 5px</code> est présent sur des éléments en pourcentages à gauche versus en fractions à droite.</p>
+<p>À priori, cette unité peut sembler similaire aux pourcentages <em>(%)</em>. Cependant, puisque les fractions basent leurs calculs sur l'espace disponible et non l'espace total de leur parent, ils peuvent-être utiliser avantageusement avec les propriétés de type <incode>gap</incode>.</p><p>Par exemple, si un <incode>column-gap: 5px</incode> est présent sur des éléments en pourcentages à gauche versus en fractions à droite.</p>
 
 <p class="codepen" data-height="340" data-theme-id="44431" data-default-tab="css" data-slug-hash="OJrgwdv" data-user="tim-momo" style="height: 340px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJrgwdv">
@@ -181,7 +186,7 @@
 
 <dots></dots>
 <grostitre>Unité minmax()</grostitre>
-<p>Comme son nom l'indique, <strong>l'unité</strong> <code>minmax()</code> permet de définir une dimension minimale et maximale à une cellule de grille. Cette unité est particulièrement utile afin de créer une mise en page responsive tout en évitant que certains éléments se retrouve trop coincés.</p><p>Par exemple, deux grilles identiques avec toutes les cellule d'une largeur de <code>1fr</code> à l'exception de la 2<sup>e</sup> cellule verte ayant une valeur de <code>minmax(200px, 1fr)</code>.</p>
+<p>Comme son nom l'indique, <strong>l'unité</strong> <incode>minmax()</incode> permet de définir une dimension minimale et maximale à une cellule de grille. Cette unité est particulièrement utile afin de créer une mise en page responsive tout en évitant que certains éléments se retrouve trop coincés.</p><p>Par exemple, deux grilles identiques avec toutes les cellule d'une largeur de <incode>1fr</incode> à l'exception de la 2<sup>e</sup> cellule verte ayant une valeur de <incode>minmax(200px, 1fr)</incode>.</p>
 <clipasset src='images/grid-minmax.mp4'></clipasset>
 <doclink href='https://developer.mozilla.org/fr/docs/Web/CSS/minmax()'>minmax()</doclink>
 
@@ -192,14 +197,18 @@
 
 <dots></dots>
 <grostitre>Unité repeat()</grostitre>
-<p>Spécifier individuellement chaque colonne ou rangée n'est pas un problème lorsqu'une grille est de dimension relativement modeste. Cependant, lorsqu'une grille grossie, il peut devenir rapidement lassant et mélangeant d'écrire la dimension de chaque colonne ou rangée, surtout si celle-ci est identique.</p><p>Par exemple:</p><pre><code class="hljs css">grid-template-<span class="hljs-attribute">columns</span>: <span class="hljs-number">1</span>fr <span class="hljs-number">1</span>fr <span class="hljs-number">1</span>fr <span class="hljs-number">1</span>fr <span class="hljs-number">1</span>fr <span class="hljs-number">1</span>fr;</code></pre><p>Pour palier à cet enjeu, la commande <code>repeat()</code> fut créée.</p><p>L'exemple précédent pourrait donc être réécris ainsi:</p><pre><code class="hljs css">grid-template-<span class="hljs-attribute">columns</span>: <span class="hljs-built_in">repeat</span>(<span class="hljs-number">6</span>, <span class="hljs-number">1</span>fr);</code></pre>
+<p>Spécifier individuellement chaque colonne ou rangée n'est pas un problème lorsqu'une grille est de dimension relativement modeste. Cependant, lorsqu'une grille grossie, il peut devenir rapidement lassant et mélangeant d'écrire la dimension de chaque colonne ou rangée, surtout si celle-ci est identique.</p><p>Par exemple:</p>
+
+<highlight lang="css">grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;</highlight>
 
 
 
 
 <h3 class="heading heading--h3" id="auto-fit &amp; auto-fill">auto-fit &amp; auto-fill</h3>
 
-<p>Afin de pouvoir réaliser une grille responsive sans avoir à écrire une multitude de <a target="_blank" rel="noopener noreferrer" href="/cours/css/media-queries">media queries</a>, il est possible d'utiliser les valeurs <code>auto-fit</code> et <code>auto-fill</code> à la place d'un nombre spécifique de colonnes dans un <code>repeat()</code>.</p><p>Par exemple avec <code>auto-fit</code>, </p><pre><code class="hljs css">grid-template-<span class="hljs-attribute">columns</span>: <span class="hljs-built_in">repeat</span>(auto-fit, <span class="hljs-number">150px</span>);</code></pre>
+<p>Afin de pouvoir réaliser une grille responsive sans avoir à écrire une multitude de <a target="_blank" rel="noopener noreferrer" href="/cours/css/media-queries">media queries</a>, il est possible d'utiliser les valeurs <incode>auto-fit</incode> et <incode>auto-fill</incode> à la place d'un nombre spécifique de colonnes dans un <incode>repeat()</incode>.</p><p>Par exemple avec <incode>auto-fit</incode>, </p>
+
+<highlight lang="css">grid-template-columns: repeat(auto-fit, 150px);</highlight>
 
 
 <p>Permet d'afficher autant d'éléments sur une rangée qu'il y a d'espace disponible.</p>
@@ -208,7 +217,7 @@
 
 
 
-<p>La différence entre <code>auto-fit</code> et <code>auto-fill</code> étant la gestion de l'espace vide restant. Avec <code>auto-fit</code>, aucune cellule vide supplémentaire n'est ajoutée dans la grille, même si l'espace le permet, alors qu'avec <code>auto-fill</code> des cellules vides sont créées. Dans la majorité des cas, le résultat sera similaire. Cependant, cette particularité peut parfois s'avérer utile lorsque combinée avec d'autres propriétés de grille.</p>
+<p>La différence entre <incode>auto-fit</incode> et <incode>auto-fill</incode> étant la gestion de l'espace vide restant. Avec <incode>auto-fit</incode>, aucune cellule vide supplémentaire n'est ajoutée dans la grille, même si l'espace le permet, alors qu'avec <incode>auto-fill</incode> des cellules vides sont créées. Dans la majorité des cas, le résultat sera similaire. Cependant, cette particularité peut parfois s'avérer utile lorsque combinée avec d'autres propriétés de grille.</p>
 
 <img src="images/grid-repeat-auto-fit-auto-fill.png" alt="">
 
@@ -218,7 +227,7 @@
 
 
 <h3 class="heading heading--h3" id="Combinaison avec d'autres unités">Combinaison avec d'autres unités</h3>
-<p>Il est aussi possible de combiner <code>repeat()</code> avec d'autres unités.</p>
+<p>Il est aussi possible de combiner <incode>repeat()</incode> avec d'autres unités.</p>
 
 <p>Par exemple:</p>
 
@@ -245,7 +254,7 @@
 
 <dots></dots>
 <grostitre>Inspecteur</grostitre>
-<p>L'inspecteur est d'une aide précieuse lorsque l'on manipule les éléments en grid. Dans le DOM tree, les éléments en&nbsp;<code>display: grid;</code>&nbsp;ou&nbsp;<code>display: inline-grid;</code>&nbsp;sont mis en évidence grâce à un badge contenant le mot&nbsp;<em>"grid"</em>. Lorsque cliqué, ce badge met en surbrillance les divisions constituant la grille en question.</p><p>Dans l'onglet <em>layout</em>, il est possible d'afficher des informations supplémentaires. Notamment, étendre  les divisions afin de les rendre plus visibles, afficher la taille des colonnes et rangées, etc.</p>
+<p>L'inspecteur est d'une aide précieuse lorsque l'on manipule les éléments en grid. Dans le DOM tree, les éléments en&nbsp;<incode>display: grid;</incode>&nbsp;ou&nbsp;<incode>display: inline-grid;</incode>&nbsp;sont mis en évidence grâce à un badge contenant le mot&nbsp;<em>"grid"</em>. Lorsque cliqué, ce badge met en surbrillance les divisions constituant la grille en question.</p><p>Dans l'onglet <em>layout</em>, il est possible d'afficher des informations supplémentaires. Notamment, étendre  les divisions afin de les rendre plus visibles, afficher la taille des colonnes et rangées, etc.</p>
 
 <clipasset src='images/grid-inspector-layout.mp4'></clipasset>
 

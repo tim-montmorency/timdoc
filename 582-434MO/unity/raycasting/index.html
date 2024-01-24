@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,7 +39,10 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Réalité virtuelle</a> > <a href="../">Unity</a> ></div>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Réalité virtuelle</a> > <a href="../">Unity</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
                 <h1 id="title"><img src="images/icon.png">&nbsp;Raycasting</h1>
             </div>
             <article>
@@ -54,7 +56,7 @@
 
 <grostitre>Rayon</grostitre>
 <p>Pour pouvoir détecter la collision, on doit premièrement crééer un rayon. Créons un rayon qui part de notre personnage et qui se dirige vers la droite.</p>
-<highlight lang="C#"> public GameObject personnage; 
+<highlight lang="csharp">public GameObject personnage; 
 
     
 void Start()
@@ -62,7 +64,7 @@ void Start()
     Ray ray = new Ray(personnage.transform.position, personnage.transform.right);
 }</highlight>
 <p>J'ai premièrement créé un GameObject pour contenir mon personnage. Ensuite, j'ai créé une variable de Type Ray nommée rayon qui contiendra un rayon qui part de la position de mon personnage et qui va vers la droite. Le .right est un élément présent par défaut dans Unity.</p>
-<highlight lang="C#"> void Update()
+<highlight lang="csharp">void Update()
     {
         Debug.DrawRay(personnage.transform.position, personnage.transform.right);
     }</highlight>
@@ -73,9 +75,7 @@ void Start()
 <grostitre>Raycast</grostitre>
 <p>Maintenant que nous sommes en mesures de voir notre rayon, nous allons détecter si le rayon entre en collision avec un objet. Avant toute chose, si l'objet à partir duquel vous voulez émettre un rayon a un Collider, je vous recommande de l'ouvrir dans l'inspecteur et en haut à droite dans Layer, de choisir Ignore Raycast. Sinon, votre objet se détectera lui-même, ce qui n'est pas très pratique.</p>
 
-<highlight lang="C#">  
-
-public GameObject personnage;
+<highlight lang="csharp">public GameObject personnage;
  
 
 public void detection()
@@ -90,31 +90,29 @@ public void detection()
  }</highlight>
  <p>Dans le code ci-haut, lorsque la fonction detection() est appelée, on crée une variable RaycastHit2D qui nous permet de sauvegarder l'objet avec lequel on entre en collision s'il y en a un. La partie Physics2D nous permet d'utiliser la fonction RayCast qui trace un rayon avec 2 variables. La première est le point d'origine du rayon et la deuxième sa direction. Si jamais on rencontre un objet, hitInfo devient true, ce qui nous permet d'imprimer le nom de l'objet qui a été frappé.</p> 
 
- <highlight lang="C#">GameObject objet = hitInfo.transform.gameObject; </highlight>
+ <highlight lang="csharp">GameObject objet = hitInfo.transform.gameObject;</highlight>
  <p>Le code ci-haut permet de créer un GameObject qui contient l'objet qui vient d'être frappé par le rayon. Cela peut-être utile pour modifier celui-ci.</p>
 
- <highlight lang="C#">float distance = hitInfo.distance; </highlight>
+ <highlight lang="csharp">float distance = hitInfo.distance;</highlight>
  <p>Ce code permet de calculer la distance entre nous et l'objet que le rayon a rencontré.</p>
 
- <highlight lang="C#">Vector3 position = hitInfo.point; </highlight>
+ <highlight lang="csharp">Vector3 position = hitInfo.point;</highlight>
  <p>Point permet d'obtenir la position de l'objet que le rayon a rencontré.</p>
 
  <h2>Exemple d'utilisation</h2>
- <highlight lang="C#">
- public GameObject personnage;
+ <highlight lang="csharp">public GameObject personnage;
 
  public void detection()
     {
         RaycastHit2D hitInfo = Physics2D.Raycast(personnage.transform.position, personnage.transform.right);
 
-        if (hitInfo.distance <2)
+        if (hitInfo.distance &lt;2)
         {
             Debug.Log(hitInfo.transform.name);
            
         }
 
-    }
-</highlight>
+    }</highlight>
 <p>Dans ce code, on déclenche un rayon lorsque la fonction detection() est appelée. Ensuite, si on frappe un objet et qu'il est à une distance de moins de deux on imprime son nom. Vous pouvez vous inspirez de ce code pour déclencher des éléments selon une distance. On pourrait aussi mettre ce code dans la fonction Update pour vérifier en tout temps.</p>
 
 <knowmore href="https://gamedevbeginner.com/raycasts-in-unity-made-easy/">
@@ -132,6 +130,5 @@ public void detection()
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

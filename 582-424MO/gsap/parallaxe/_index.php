@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    8-Parallaxe
- * @icon     images/icon.svg
+ * @icon     ../images/icon.webp
  * @abstract Effet parallaxe à l'aide de GSAP et ScrollTrigger
  * @index    650
+ * @ref      web/quadriciels/gsap
  */
 ?>
 <grostitre>Parallaxe avec scrollTrigger</grostitre>
@@ -54,12 +55,12 @@
 
 <p>Tout d'abord, nous sélectionnons l'élément que nous voulons animer : <em>#section-parallax</em> . Il peut s'agir d'un ID ou d'une classe.</p>
 
-<info>Avec GSAP, je vous le rappelle, il possible d'animer la majorité des propriétés CSS. Cependant, il est nécessaire de remplacer les traits d’union "-" par une nomenclature camelCase 🐫. Comme dans ce cas-ci, <code>background-position</code> devient <code> backgroundPosition</code> .</info>
+<info>Avec GSAP, je vous le rappelle, il possible d'animer la majorité des propriétés CSS. Cependant, il est nécessaire de remplacer les traits d’union "-" par une nomenclature camelCase 🐫. Comme dans ce cas-ci, <incode>background-position</incode> devient <incode> backgroundPosition</incode> .</info>
 
 
 
-<p>Nous souhaitons que la position de son arrière-plan <code>background-position</code> se déplace de "50% 0%" à "50% 100%". Il ira donc du haut vers le bas.</p>
-<p>Pour l'effet de lissage de vitesse (<code>ease</code>), nous le réglons sur <code>none</code> , afin qu'il soit linéaire.</p>
+<p>Nous souhaitons que la position de son arrière-plan <incode>background-position</incode> se déplace de "50% 0%" à "50% 100%". Il ira donc du haut vers le bas.</p>
+<p>Pour l'effet de lissage de vitesse (<incode>ease</incode>), nous le réglons sur <incode>none</incode> , afin qu'il soit linéaire.</p>
 <p>C'est tout pour l'animation.</p>
 
 
@@ -69,9 +70,9 @@
 
 <p>L'animation commencera lorsque le haut de la section <em>#section-parallax</em> atteindra le bas de la page, et se terminera lorsque le bas de la section atteindra le haut de la page. <a href="../scrolltrigger/#start-et-end" target="_blank">Comme vous le savez déjà, il s'agit des paramètres par défaut</a>, mais il est important de comprendre comment ils fonctionnent.</p>
 
-<p>L'option <code>scrub</code> est réglée sur true, ce qui signifie que l'animation sera liée à la barre de défilement.</p>
+<p>L'option <incode>scrub</incode> est réglée sur true, ce qui signifie que l'animation sera liée à la barre de défilement.</p>
 
-<p>On affiche les marqueurs (<code>markers</code>) afin de voir le comportement, nous pourrons les enlever une fois satisfait du résultat.</p>
+<p>On affiche les marqueurs (<incode>markers</incode>) afin de voir le comportement, nous pourrons les enlever une fois satisfait du résultat.</p>
 
 
 <h3>Résultat</h3>
@@ -126,7 +127,7 @@
 <p>Nous pouvons tout déplacer. Cette fois, nous ne changeons pas la position de l'image d'arrière-plan mais la taille. <br>
 Et nous ajoutons un texte parce que, pourquoi pas?</p>
 
-<p>Et pour ce texte, nous allons initialement le cache en dehors du cadre à gauche avec <code>transform: translateX(-100%);</code>:</p>
+<p>Et pour ce texte, nous allons initialement le cache en dehors du cadre à gauche avec <incode>transform: translateX(-100%);</incode>:</p>
 
 <p class="codepen" data-height="600" data-theme-id="44431" data-default-tab="result" data-slug-hash="jOeVeOo" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/jOeVeOo">

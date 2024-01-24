@@ -16,7 +16,6 @@
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/video-js.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/howler.min.js"></script>
@@ -30,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop()">
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -40,18 +39,21 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb"><a href="../../">Intégration Web</a> > <a href="../">CSS</a> ></div>
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Intégration Web</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
                 <h1 id="title"><img src="images/icon.png">&nbsp;Border</h1>
             </div>
             <article>
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
-<p class="spacer">La propriété <incode>border</incode> a une vocation principalement esthétique, permettant d'ajouter une bordure à un élément.</p>
+<p class="spacer">La propriété <span class="inline-code">border</span> a une vocation principalement esthétique, permettant d'ajouter une bordure à un élément.</p>
 
 <grostitre>border-width</grostitre>
 
-<p>La sous-propriété <incode>border-width</incode> permet de définir la taille de la bordure. Cette valeur peut-être n'importe quelle <a href="../unites-de-mesure/">unité de mesure CSS</a>.</p>
+<p>La sous-propriété <span class="inline-code">border-width</span> permet de définir la taille de la bordure. Cette valeur peut-être n'importe quelle <a href="../unites-de-mesure/">unité de mesure CSS</a>.</p>
 
 <p>Par exemple:</p>
 
@@ -70,15 +72,15 @@
 <p>Styles disponibles:</p>
 
 <ul>
-    <li><incode>none</incode> <em>(par défaut)</em></li>
-    <li><incode>solid</incode> ligne standard <em>(plus commun)</em></li>
-    <li><incode>dotted</incode> pointillé</li>
-    <li><incode>dashed</incode> hachuré</li>
-    <li><incode>double</incode> double ligne</li>
-    <li><incode>groove</incode> bordure 3D donnant l'impression que le bordure a été gravée</li>
-    <li><incode>ridge</incode> bordure 3D donnant l'impression que la bordure ressort</li>
-    <li><incode>inset</incode> bordure 3D donnant l'impression que l'élément est enfoncé</li>
-    <li><incode>outset</incode> bordure 3D donnant l'impression que l'élément ressort</li>
+    <li><span class="inline-code">none</span> <em>(par défaut)</em></li>
+    <li><span class="inline-code">solid</span> ligne standard <em>(plus commun)</em></li>
+    <li><span class="inline-code">dotted</span> pointillé</li>
+    <li><span class="inline-code">dashed</span> hachuré</li>
+    <li><span class="inline-code">double</span> double ligne</li>
+    <li><span class="inline-code">groove</span> bordure 3D donnant l'impression que le bordure a été gravée</li>
+    <li><span class="inline-code">ridge</span> bordure 3D donnant l'impression que la bordure ressort</li>
+    <li><span class="inline-code">inset</span> bordure 3D donnant l'impression que l'élément est enfoncé</li>
+    <li><span class="inline-code">outset</span> bordure 3D donnant l'impression que l'élément ressort</li>
 </ul>
 
 <codepen id="QWBxKXY" tab="result" height="340"></codepen>
@@ -135,10 +137,10 @@
 <p>Il est possible de contrôler individuellement chaque coin d'un élément afin de créer des formes particulières. Pour ce faire, il est possible d'utiliser les propriétés:</p>
 
 <ul>
-    <li><incode>border-top-left-radius</incode></li>
-    <li><incode>border-top-right-radius</incode></li>
-    <li><incode>border-bottom-right-radius</incode></li>
-    <li><incode>border-bottom-left-radius</incode></li>
+    <li><span class="inline-code">border-top-left-radius</span></li>
+    <li><span class="inline-code">border-top-right-radius</span></li>
+    <li><span class="inline-code">border-bottom-right-radius</span></li>
+    <li><span class="inline-code">border-bottom-left-radius</span></li>
 </ul>
 
 <p>Ou encore de spécifier les multiples valeurs à même la propriété. Les coins sont spécifiés dans le sens des aiguilles d'une montre ⌚️ en commençant à partir du coin supérieur gauche.</p>
@@ -184,6 +186,5 @@
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script src="../../../shared/jscripts/video.min.js"></script>
     </body>
 </html>

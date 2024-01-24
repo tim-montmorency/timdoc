@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    1-Introduction
- * @icon     images/icon.svg
+ * @icon     ../images/icon.webp
  * @abstract GreenSock Animation Platform
  * @index    1000
+ * @ref      web/quadriciels/gsap
  */
 ?>
 <grostitre>Introduction</grostitre>
@@ -82,7 +83,7 @@
 
 <alert>Toujours porter attention à l'ordre des liens vers les fichiers JavaScript dans votre HTML. D'abord la librarie "core" de GSAP, ensuite le fichier JavaScript personnalisé de votre projet.</alert>
 
-<warning>Ne pas oublier, au niveau performance, il est préférable de lier les fichiers JavaScript à la fin de la page HTML juste avant la fermeture de <code>&lt;/body&gt;</code>. <br>Pensez "Optimisation Web" ! 📈 🎯 ⚡</warning>
+<warning>Ne pas oublier, au niveau performance, il est préférable de lier les fichiers JavaScript à la fin de la page HTML juste avant la fermeture de <incode>&lt;/body&gt;</incode>. <br>Pensez "Optimisation Web" ! 📈 🎯 ⚡</warning>
 
 
 
@@ -94,8 +95,7 @@
 
 <grostitre>Showreel 2022</grostitre>
 
-<iframe width="100%" src="https://www.youtube.com/embed/EYlgDSFIOcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="aspect-ratio: 16/9;"></iframe>
-    <br>    <br>    <br>
+<youtube src="EYlgDSFIOcI"></youtube>
 
 <dots></dots>
 <tool href="../tools/collection-animations-gsap/"></tool>

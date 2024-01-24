@@ -4,6 +4,7 @@
  * @title    Raccourcis clavier
  * @icon     images/icon.png
  * @abstract Navigation et sélection de code
+ * @ref      web/autres
  */
 ?>
 
