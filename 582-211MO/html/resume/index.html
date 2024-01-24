@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Résumé</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 2</a> > <a href="../">HTML</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/html/">HTML</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Résumé</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<h2>Résumé du HTML 5</h2>
+
+<grostitre>Balises en paires</grostitre>
+
+<ul>
+  <li>balise d’ouverture + texte + balise de fermeture</li>
+</ul>
+<info><em>&lt;title&gt;</em> Ceci est le titre de ma 1ère page Web <em>&lt;/title&gt;</em></info>
+
+<dots></dots>
+
+<grostitre>Balises orphelines</grostitre>
+
+<ul>
+  <li>Ne contiennent pas de texte, n’ont pas de balise de fermeture</li>
+  <li>Utilisées pour insérer un élément à un endroit précis de la page</li>
+</ul>
+<info>Exemple: Les balises images</em>, <em>&lt;img&gt; </em></info>
+
+<dots></dots>
+
+<grostitre>Balises avec attributs</grostitre>
+
+<ul>
+  <li>Une balise peut avoir des attributs avec ou sans valeurs</li>
+</ul>
+
+<highlight lang="html">&lt;img src=&quot;images/blocnotes.png&quot; alt=&quot;Bloc-Notes&quot;&gt;</highlight>
+
+<dots></dots>
+
+<grostitre>Structure de base HTML</grostitre>
+
+<highlight lang="html">&lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+        &lt;head&gt;
+            &lt;title&gt;Le titre de ma page&lt;/title&gt;
+        &lt;/head&gt;
+
+        &lt;body&gt;
+
+        &lt;/body&gt;
+    &lt;/html&gt;</highlight>
+
+    <dots></dots>
+
+    <grostitre>Balises sémantiques</grostitre>
+
+<ul>
+  <li><em>&lt;article&gt;</em> : pour indiquer que c’est l’article d’un blog ou d’un journal </li>
+  <li><em>&lt;section&gt;</em> : section de contenu – utilisé si l’on a plusieurs sections d’un
+document.</li>
+<li><em>&lt;nav&gt;</em> : liens de navigation </li>
+<li><em>&lt;header&gt;</em> : en-tête de la page</li>
+<li><em>&lt;footer&gt;</em> : pied de page </li>
+<li><em>&lt;aside&gt;</em> : lien indirect avec le sujet principal de la page </li>
+</ul>
+
+
+<dots></dots>
+
+<grostitre>Balises non-sémantiques</grostitre>
+
+<ul>
+  <li><em>&lt;div&gt; &lt;/div&gt;</em> : bloc de texte – généralement utilisé pour découper un document
+en bloc. </li>
+<li><em>&lt;span&gt; &lt;/span&gt;</em> : la balise <span> est un conteneur en ligne.</li>
+</ul>
+
+<dots></dots>
+
+<grostitre>Balises titre</grostitre>
+
+<p><em>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;</em> : h1 étant le niveau le titre le plus haut et
+h6 le sous-titre le plus bas</p>
+
+<dots></dots>
+
+<grostitre>Balises de texte</grostitre>
+
+<ul>
+  <li><em>&lt;p&gt;&lt;/p&gt;</em> : paragraphe </li>
+  <li><em>&lt;br&gt;</em> : saut de ligne</li>
+  <li><em>&lt;hr&gt; </em>: ligne horizontale</li>
+</ul>
+
+
+<dots></dots>
+
+<grostitre>Les commentaires</grostitre>
+
+<p><em>&lt;!– Ceci est un commentaire --&gt; </em></p>
+
+<dots></dots>
+
+<grostitre>Les citations</grostitre>
+
+<ul>
+  <li> <em>&lt;q&gt;</em> : permet d'insérer dans un texte une courte citation sans créer un nouveau bloc de contenu.</li>
+  <li><em>&lt;blockquote&gt;</em> : permet de définir un bloc de citation relativement long.</li>
+  <li><em>&lt;cite&gt;</em> : permet de spécifier la source d'une citation.</li>
+</ul>
+
+<dots></dots>
+
+<grostitre>Balises de formatage</grostitre>
+
+<ul>
+  <li><em>&lt;u&gt; </em> - Texte souligné</li>
+  <li><em>&lt;b&gt;</em> - Texte en gras</li>
+  <li><em>&lt;strong&gt;</em> - Texte important</li>
+  <li><em>&lt;i&gt;</em> - Texte en italique</li>
+  <li><em>&lt;em&gt; </em>- Mettre l'accent sur le texte (emphase)</li>
+  <li><em>&lt;mark&gt; </em>- Texte marqué</li>
+  <li><em>&lt;small&gt;</em> - Texte plus petit</li>
+  <li><em>&lt;del&gt;</em> - Texte supprimé</li>
+  <li><em>&lt;ins&gt;</em> - Texte inséré</li>
+  <li><em>&lt;sub&gt;</em> - Texte d'indice (sous la ligne de base et généralement plus petit)</li>
+  <li><em>&lt;sup&gt;</em> - Texte en exposant</li>
+</ul>
+
+<dots></dots>
+
+<grostitre>Liste non-ordonnée</grostitre>
+
+<ul>
+  <li><em>&lt;ul&gt;&lt;/ul&gt;</em> : : indique que c’est une liste non ordonnée</li>
+  <li><em>&lt;li&gt;&lt;/li&gt;</em>: définit les différents élements de la liste</li>
+</ul>
+
+<dots></dots>
+
+<grostitre>Liste ordonnée</grostitre>
+
+<ul>
+  <li><em>&lt;ol&gt;&lt;/ol&gt;</em> : : : indique que c’est une liste ordonnée</li>
+  <li><em>&lt;li&gt;&lt;/li&gt;</em>: définit les différents élements de la liste</li>
+</ul>
+
+
+<dots></dots>
+
+<grostitre>Ancre</grostitre>
+
+<p>Lien vers une page Web</p>
+
+<highlight lang="html">&lt;a href=&quot;https://www.google.ca&quot;&gt;Google&lt;/a&gt;</highlight>
+
+<dots></dots>
+
+<grostitre>Tableau</grostitre>
+
+<ul>
+  <li>Tableau se construit ligne par ligne</li>
+  <li>Chaque ligne doit contenir la liste des cellules </li>
+  <li><em>&lt;table&gt;&lt;/table&gt;</em> : indique que ce qui suit est un tableau</li>
+  <li><em>&lt;caption&gt;&lt;/caption&gt;</em> : indique titre du tableau </li>
+  <li><em>&lt;tr&gt;&lt;/tr&gt;</em> : indique que c’est une ligne du tableau</li>
+  <li><em>&lt;th&gt;&lt;/th&gt;</em> : indique que c’est l’en-tête du tableau (1ère ligne du tableau)</li>
+  <li><em>&lt;td&gt;&lt;/td&gt;</em> : indique que c’est une cellule/case du tableau </li>
+</ul>
+
+<dots></dots>
+
+<grostitre>Tableau structuré</grostitre>
+
+<ul>
+  <li>Division en 3 parties: en-tête, corps et pied du tableau</li>
+  <li><em>&lt;thead&gt;&lt;/thead&gt;</em> : indique que c’est l’en-tête du tableau </li>
+  <li><em>&lt;tbody&gt;&lt;/tbody&gt;</em>: : indique que c’est le corps tableau </li>
+  <li><em>&lt;tfoot&gt;&lt;/tfoot&gt;</em> : indique que c’est le pied du tableau</li>
+  <li><em>&lt;th&gt;&lt;/th&gt;</em> : indique que c’est l’en-tête du tableau (1ère ligne du tableau)</li>
+  <li><em>&lt;td&gt;&lt;/td&gt;</em> : indique que c’est une cellule/case du tableau </li>
+</ul>
+
+<dots></dots>
+
+<grostitre>Fusion de cellules</grostitre>
+
+<ul>
+  <li><em>Fusion Horizontale</em> : fusion de colonnes en utilisant <em>colspan</em></li>
+  <li><em>Fusion Verticale</em>; fusion de lignes en utilisant <em>rowspan</em></li>
+</ul>
+
+<dots></dots>
+
+<grostitre>Images</grostitre>
+
+<ul>
+  <li><em>&lt;img&gt;</em> : indique que l’on va insérer une image </li>
+  <li><em>src</em> : indique source de l’image (i.e. où se trouve l’image) </li>
+  <li><em>alt</em> : indique un texte alternatif pour décrire l’image </li>
+  <li><em>height</em> et <em>width</em> : hauteur et largeur de l’image</li>
+</ul>
+
+<dots></dots>
+
+<grostitre>Légende de média</grostitre>
+
+<ul>
+  <li>La balise <em>&lt;figure&gt;</em> permet d'associer un élément (image, vidéo, diagramme, etc.)</li>
+  <li>La légende de la figure utilise la balise <em>&lt;figcaption&gt;</em></li>
+</ul>
+
+<img src="./images/figcaption.webp">
+
+<dots></dots>
+
+<grostitre>Audio</grostitre>
+
+<ul>
+  <li><em>&lt;audio&gt;&lt;/audio&gt;</em> : indique l’insertion d’un élément de type audio</li>
+  <li>Attribut de base : <em>src</em> : source de l’audio </li>
+  <li><em>controls</em> : indique qu’il faut la barre de défilement + boutons Lecture & Pause </li>
+  <li><em>loop</em> : indique de jouer le morceau audio en boucle </li>
+  <li><em>autoplay</em> : indique que le morceau audio démarrera dès le début </li>
+</ul>
+
+<dots></dots>
+
+<grostitre>Vidéo</grostitre>
+
+<ul>
+  <li><em>&lt;video&gt;&lt;/video&gt;</em> : indique l’insertion d’un élément de type video</li>
+  <li>Attribut de base : <em>src</em> : source de la vidéo </li>
+  <li><em>poster</em> : indique l’image à afficher en attendant que la video soit chargée</li>
+  <li><em>controls</em> : indique qu’il faut la barre de défilement + boutons Lecture & Pause </li>
+  <li><em>width</em> : indique la largeur du lecteur vidéo si l’on veut la modifier</li>
+  <li><em>height</em> : indique la hauteur du lecteur vidéo si l’on veut la modifier</li>
+  <li><em>loop</em> : indique de jouer le morceau audio en boucle </li>
+  <li><em>autoplay</em> : indique que le morceau audio démarrera dès le début </li>
+  <li><em>muted</em> : indique au navigateur de jouer la vidéo en mode silencieux</li>
+  <li>playsinline : spécifie de jouer la vidéo dans son cadre d’origine  </li>
+</ul>
+
+<dots></dots>
+
+<grostitre>Formulaire</grostitre>
+
+<p>Balise de base pour création d’un formulaire</p>
+
+<ul>
+  <li><em>&lt;form&gt;&lt;/form&gt;</em> : indique que l’on va insérer un formulaire </li>
+</ul>
+
+<h2>Attributs de base</h2>
+
+<ul>
+  <li><em>method</em> : indique comment envoyer les informations</li>
+  <ul>
+    <li><em>GET</em> (par défaut) stock les informations du formulaire dans l'URL après le symbole ?.</li>
+    <li><em>POST</em> envois les informations du formulaire dans la requête soumise à la page.</li>
+  </ul>
+  <li><em>action</em> : indique l’adresse de la page ou du programme qui va traiter les
+informations.</li>
+</ul>
+
+<dots></dots>
+
+<h2>Input text</h2>
+
+<highlight lang="html">&lt;input type=&quot;text&quot;&gt;</highlight>
+
+<ul>
+  <li><em>&lt;input&gt;</em> : indique que l’on va créer une zone de texte </li>
+  <li><em>&lt;label&gt;&lt;/label&gt;</em> : indique le libellé de la zone de texte </li>
+</ul>
+
+<h4>Attributs pour zone de texte</h4>
+
+<ul>
+  <li><em>type</em> : indique le type des informations saisies</li>
+  <li><em>name</em> : nom de la zone de texte </li>
+  <li><em>id</em> : identifiant de la zone de texte pour lier le label à la zone de texte</li>
+  <li><em>for</em> : aura la même valeur que id de la zone de texte pour lier le label </li>
+  <li><em>readonly</em> : champ en lecture seule</li>
+  <li><em>required</em> : le champ est requis</li>
+  <li><em>minlength</em> & <em>maxlength</em> : nombre limite de caractères </li>
+  <li><em>value</em> : valeur par défaut si l’on veut mettre une valeur initiale </li>
+  <li><em>placeholder</em> : explication/exemple concernant le contenu du champ </li>
+</ul>
+
+<highlight lang="html">&lt;div&gt;
+  &lt;label for=&quot;pays-residence&quot;&gt;Pays de r&eacute;sidence&lt;/label&gt;&lt;br&gt;
+  &lt;input type=&quot;text&quot; id=&quot;pays-residence&quot;&gt;
+&lt;/div&gt;</highlight>
+
+<dots></dots>
+
+<h2>Input submit</h2>
+<em>
+  
+  <p>Génère un bouton permettant de soumettre un formulaire.</p>
+</em>
+<highlight lang="html">&lt;input type=&quot;submit&quot; value=&quot;Soumettre&quot;&gt;</highlight>
+
+
+<dots></dots>
+
+<h2>Checkbox</h2>
+
+<highlight lang="html">&lt;label&gt;
+  &lt;input type=&quot;checkbox&quot; name=&quot;olives&quot;&gt; Olives &lt;/label&gt;&lt;br&gt;
+&lt;label&gt;</highlight>
+
+<h4>Attributs pour les checkbox</h4>
+
+<ul>
+  <li><em>checked</em> : permet de spécifier si l'option devrait être cochée ou non</li>
+  <li><em>name</em> : nom de la zone de texte </li>
+  <li><em>disabled</em> : permet d'afficher en lecture seule une boite à cochée</li>
+  <li><em>value</em> : valeur par défaut si l’on veut mettre une valeur initiale </li>
+</ul>
+
+<dots></dots>
+
+<h2>Radio</h2>
+
+<highlight lang="html">&lt;label&gt;
+  &lt;input type=&quot;radio&quot; name=&quot;pizza&quot; value=&quot;vege&quot;&gt; V&eacute;g&eacute;tarienne&lt;/label&gt;&lt;br&gt;
+&lt;label&gt;</highlight>
+
+<h4>Attributs pour les Radios</h4>
+
+<ul>
+  <li><em>checked</em> : permet de spécifier si l'option devrait être cochée ou non</li>
+  <li><em>name</em> : nom de la zone de texte </li>
+  <li><em>disabled</em> : permet d'afficher en lecture seule une boite à cochée</li>
+  <li><em>value</em> : valeur par défaut si l’on veut mettre une valeur initiale </li>
+</ul>
+
+
+<dots></dots>
+
+<h2>Select</h2>
+
+<highlight lang="html">&lt;select&gt;
+  &lt;option value=&quot;12:00&quot;&gt;12h&lt;/option&gt;
+  &lt;option value=&quot;13:00&quot;&gt;13h&lt;/option&gt;
+  &lt;option value=&quot;14:00&quot;&gt;14h&lt;/option&gt;
+  &lt;option value=&quot;15:00&quot; disabled&gt;15h&lt;/option&gt;
+&lt;/select&gt;</highlight>
+
+<h4>Attributs pour les select</h4>
+
+<ul>
+  <li><em>multiple</em> : permet la sélection de plusieurs options.</li>
+  <li><em>name</em> : nom de la zone de texte </li>
+  <li><em>disabled</em> : permet d'afficher en lecture seule une boite à cochée</li>
+  <li><em>value</em> : valeur par défaut si l’on veut mettre une valeur initiale </li>
+  <li><em>selected</em> : permet de spécifier si l'option devrait être sélectionnée.</li>
+</ul>
+
+<dots></dots>
+
+<h2>Textarea</h2>
+
+<highlight lang="html">&lt;textarea cols=&quot;30&quot; rows=&quot;5&quot;&gt;&lt;/textarea&gt;</highlight>
+
+<h4>Attributs pour les textarea</h4>
+
+<ul>
+  <li><em>cols</em> : définit la largeur de base du textarea.</li>
+  <li><em>rows</em> : définit la hauteur de base du textarea.</li>
+  <li><em>type</em> : indique le type des informations saisies</li>
+  <li><em>name</em> : nom de la zone de texte </li>
+  <li><em>id</em> : identifiant de la zone de texte pour lier le label à la zone de texte</li>
+  <li><em>for</em> : aura la même valeur que id de la zone de texte pour lier le label </li>
+  <li><em>readonly</em> : champ en lecture seule</li>
+  <li><em>required</em> : le champ est requis</li>
+  <li><em>minlength</em> & <em>maxlength</em> : nombre limite de caractères </li>
+  <li><em>value</em> : valeur par défaut si l’on veut mettre une valeur initiale </li>
+  <li><em>placeholder</em> : explication/exemple concernant le contenu du champ </li>
+</ul>
+
+
+<dots></dots>
+
+<h2>Number</h2>
+
+<highlight lang="html">&lt;input type=&quot;number&quot; value=&quot;0&quot; min=&quot;0&quot; max=&quot;10&quot; step=&quot;2&quot;&gt;</highlight>
+
+<h4>Attributs pour les number</h4>
+
+<ul>
+  <li><em>min & max</em> : permettent de spécifier un nombre minimal et maximal à respecter.</li>
+  <li><em>name</em> : nom de la zone de texte </li>
+  <li><em>disabled</em> : permet d'afficher en lecture seule le champ number</li>
+  <li><em>step</em> : définit le saut entre chaque valeur. </li>
+</ul>
+
+
+<dots></dots>
+
+<h2>Range</h2>
+
+<highlight lang="html">&lt;input type=&quot;range&quot; min=&quot;0&quot; max=&quot;1000&quot; step=&quot;100&quot;&gt;</highlight>
+
+<h4>Attributs pour les range</h4>
+
+<ul>
+  <li><em>min & max</em> : permettent de spécifier un nombre minimal et maximal à respecter.</li>
+  <li><em>name</em> : nom de la zone de texte </li>
+  <li><em>disabled</em> : permet d'afficher en lecture seule un widget range</li>
+  <li><em>step</em> : définit le saut entre chaque valeur. </li>
+</ul>
+
+<dots></dots>
+
+<h2>Password</h2>
+
+<highlight lang="html">&lt;input type=&quot;password&quot; value=&quot;sans-anchois&quot;&gt;</highlight>
+
+<dots></dots>
+
+<h2>Email</h2>
+
+<highlight lang="html">&lt;input type=&quot;email&quot;&gt;</highlight>
+
+
+<dots></dots>
+
+<h2>Tel</h2>
+
+<highlight lang="html">&lt;input type=&quot;tel&quot; inputmode=&quot;decimal&quot;&gt;</highlight>
+
+<h4>Attributs pour les number</h4>
+
+<ul>
+  <li><em>inputmode="decimal"</em> : affichent un pavé numérique agrémenté des symboles +*# sur les appareils mobile afin de simplifier la vie de l'usager.</li>
+  <li><em>disabled</em> : permet d'afficher en lecture seule le champ de téléphone</li>
+</ul>
+
+
+<dots></dots>
+
+<h2>Search</h2>
+
+<highlight lang="html">&lt;input type=&quot;search&quot; value=&quot;Hawaienne&quot;&gt;</highlight>
+
+<dots></dots>
+
+<h2>Date</h2>
+
+<highlight lang="html">&lt;input type=&quot;date&quot; min=&quot;1980-01-01&quot; max=&quot;2000-01-01&quot;&gt;</highlight>
+
+<h4>Attributs pour les dates</h4>
+
+<ul>
+  <li><em>min & max</em> : permettent de spécifier une date minimale et maximale à respecter.</li>
+  <li><em>disabled</em> : permet d'afficher en lecture seule un widget range</li>
+</ul>
+
+<dots></dots>
+
+<h2>Time</h2>
+
+<highlight lang="html">&lt;input type=&quot;time&quot; min=&quot;09:00&quot; max=&quot;17:00&quot;&gt;</highlight>
+
+<h4>Attributs pour time</h4>
+
+<ul>
+  <li><em>min & max</em> : permettent de spécifier une heure minimale et maximale à respecter.</li>
+  <li><em>disabled</em> : permet d'afficher en lecture seule l'outil de sélection d'heure.</li>
+</ul>
+
+<dots></dots>
+
+<h2>Color</h2>
+
+<highlight lang="html">&lt;input type=&quot;color&quot; value=&quot;#00c774&quot;&gt;</highlight>
+
+<h4>Attributs pour color</h4>
+
+<ul>
+  <li><em>name</em> : nom de référence lorsque le formulaire est soumis.</li>
+  <li><em>value</em> : code de la couleur par défaut.</li>
+  <li><em>disabled</em> :permet d'afficher en lecture seule l'outil de sélection de couleur.</li>
+
+  <dots></dots>
+</ul>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

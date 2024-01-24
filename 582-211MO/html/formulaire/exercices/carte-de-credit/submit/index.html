@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carte de crédit</title>
+        <style>
+            * { box-sizing: border-box; }
+
+            html {
+                height: 100%;
+                background-image: linear-gradient(to right, #EB001B, #F79E1B);
+            }
+
+            .form {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 50%;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 6px;
+                min-width: 320px;
+                max-width: 600px;
+                min-height: 50px;
+            }
+
+            .invalid {
+                color: #eb001b;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="form">
+            <p id="msg"></p>
+            <strong id="cc_label">Numéro de carte: </strong> <span id="cc_msg"></span>
+            <br>
+            <strong id="exp_label">Expiration: </strong> <span id="exp_msg"></span>
+            <br>
+            <strong id="sec_label">Numéro de sécurité: </strong> <span id="sec_msg"></span>
+            <br>
+
+        </div>
+
+    </body>
+</html>
+
+<script>
+    
+    let errnb = 0;
+    const urlParams = new URLSearchParams(window.location.search);
+
+    const creditCardNumber = urlParams.get('credit-card-number');
+    if(!creditCardNumber) {
+        document.getElementById('cc_msg').innerText = "Aucun numéro de carte n'a été reçu";
+        document.getElementById('cc_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('cc_msg').innerText = creditCardNumber;
+        const ccRegex = /^[0-9]{4}\s[0-9]{4}\s[0-9]{4}\s[0-9]{4}$/;
+        if(!ccRegex.test(creditCardNumber)){
+            document.getElementById('cc_label').classList.add("invalid");
+            errnb++;
+        }
+    }
+
+    const expiryDate = urlParams.get('expiry-date');
+    if(!expiryDate) {
+        document.getElementById('exp_msg').innerText = "Aucune date d'expiration n'a été reçue";
+        document.getElementById('exp_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('exp_msg').innerText = expiryDate;
+        const expRegex = /^[0-9]{2}\/?[0-9]{2}$/;
+        if(!expRegex.test(expiryDate)){
+            document.getElementById('exp_label').classList.add("invalid");
+            errnb++;
+        }
+    }
+
+    const securityCode = urlParams.get('security-code');
+    if(!securityCode) {
+        document.getElementById('sec_msg').innerText = "Aucun numéro de sécurité n'a été reçu";
+        document.getElementById('sec_label').classList.add("invalid");
+        errnb++;
+    } else {
+        document.getElementById('sec_msg').innerText = securityCode;
+        const secRegex = /^[0-9]{3}$/;
+        if(!secRegex.test(securityCode)) {
+            document.getElementById('sec_label').classList.add("invalid");
+            errnb++;
+        }
+    }
+
+    if(errnb) {
+        document.getElementById('msg').innerText = "❌ Désolé, certaines informations de paiement sont invalides.";
+    } else {
+        document.getElementById('msg').innerText = "✅ Merci vos informations de payement ont bien été reçues.";
+    }
+
+</script>

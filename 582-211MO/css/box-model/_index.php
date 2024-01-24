@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Box-model
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract Chaque élément d'une page est une boîte rectangulaire
  */
 ?>
@@ -13,7 +13,7 @@
 
 <p>Par exemple, voici un extrait du site de Radio-Canada. Afin de démontrer que chaque élément est bel et bien une boite rectangulaire, une bordure jaune a été ajoutée en CSS à tous les éléments de ladite page.</p>
 
-<img src="images/box-model-radio-canada.jpg">
+<img src="images/box-model-radio-canada.webp">
 
 <p>La boite en CSS est constituée de 4 parties:</p>
 
@@ -24,7 +24,7 @@
   <li>La <strong>marge extérieure</strong> <incode>margin</incode> l’espace entre la boîte et celles à proximité.</li>
 </ol>
 
-<img src="images/box-model.png">
+<img src="images/box-model.webp">
 
 <p>Par défaut, lorsque les propriétés <incode>width</incode> ou <incode>height</incode> sont attribuées à un élément, seules la largeur et la hauteur du contenu de l'élément sont impactées. Autrement dit, pour obtenir la dimension réelle de l'élément, il faut ajouter la marge intérieure <em>(padding)</em> et la bordure <em>(border)</em>.</p>
 

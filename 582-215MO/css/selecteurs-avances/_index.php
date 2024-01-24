@@ -4,7 +4,6 @@
  * @title    Sélecteurs avancés
  * @icon     images/icon.png
  * @abstract groupes, *, >, ~, +, [attr]
- * @ref      web/css
  */
 ?>
 

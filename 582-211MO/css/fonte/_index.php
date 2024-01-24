@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Font
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract color, family, weight, size, style, line-height
  */
 ?>

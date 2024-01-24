@@ -4,7 +4,6 @@
  * @title    Media queries
  * @icon     images/icon.png
  * @abstract Requête @media
- * @ref      web/css
  */
 ?>
 

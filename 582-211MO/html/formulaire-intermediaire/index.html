@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Formulaire intermédiaire</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 2</a> > <a href="../">HTML</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Formulaire intermédiaire</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Heureusement, les formulaires ne se limitent pas aux <span class="inline-code">&lt;input type=&quot;text&quot;&gt;</span>. Ils acceptent une variété de champs adaptés a différents type d'information. Voyons quelques-uns de ces champs.</p>
+
+<dots></dots>
+
+
+<grostitre>Checkbox</grostitre>
+
+<p>Les boîtes à cocher permettent de définir individuellement un statut booléen <em>(true/false)</em> pour une option ☑. Leur usage est approprié lorsque des choix optionnels sont disponibles.</p>
+
+<p>Par exemple, si des options en extra sont offertes sur une pizza 🍕</p>
+
+<codepen id="KKBORzq" tab="html,result" height="340"></codepen>
+
+<h3>Attributs de checkbox</h3>
+
+<ul>
+    <li><span class="inline-code">name</span> nom de référence lorsque le formulaire est soumis.</li>
+    <li><span class="inline-code">checked</span> permet de spécifier à l'aide d'un booléen <em>(true/false)</em> si l'option devrait être cochée ou non. Si aucune valeur n'est attribuée, la simple présence de l'attribut suffit à cocher l'élément.</li>
+</ul>
+
+<info>
+    Lorsqu’une boite à cocher est cochée, la pseudo-classe <span class="inline-code">:checked</span> est ajoutée à l’élément, permettant ainsi de modifier l’apparence de l’élément en fonction de son statut.
+    <br><br>
+    Par exemple: <span class="inline-code">.checkbox:checked { outline: solid 5px green; }</span>
+</info>
+
+<ul>
+    <li><span class="inline-code">value</span> cet attribut est optionnel. S'il n'est pas spécifié et que l'option <em>Olives</em> est cochée, la soumission du formulaire retourne <span class="inline-code">olives: &quot;on&quot;</span>. Si une <span class="inline-code">value</span> est spécifiée, comme dans le cas de l'option <em>Oignons</em>, le formulaire retourne <span class="inline-code">oignons: &quot;oui svp&quot;</span>.</li>
+    <li><span class="inline-code">disabled</span> permet d'afficher en lecture seule une boite à cochée afin d'indiquer que bien qu'elle soit normalement disponible, elle ne l'est pas en ce moment.</li>
+</ul>
+
+<warning>Contrairement aux autres <span class="inline-code">&lt;input&gt;</span>, les boîtes à cocher ne sont incluses dans les soumissions du formulaire uniquement si celles-ci sont cochées ✅.</warning>
+
+        <a class="exercice" target="_blank" href="exercices/menu-hamburger/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/menu-hamburger/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Checkbox - Menu Hamburger</span>
+                    <span class="exercice-description">Pour cet exercice nous allons créer une des options de navigation les plus populaires, le menu hamburger 🍔.</span>
+                </div>
+            </div>
+        </a>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/checkbox">input checkbox</doclink>
+<doclink href="https://www.w3schools.com/tags/att_input_type_checkbox.asp">input checkbox</doclink>
+
+<dots></dots>
+
+
+<grostitre>Radio</grostitre>
+
+<p>Les boutons radio permettent de choisir <strong>une seule option</strong> parmi un groupe 🔘. Leur usage est approprié lorsque peu d'options sont disponibles ou qu'il est important que l'usager puisse voir toutes les options disponibles.</p>
+
+<p>Par exemple, si seulement une option de pizza 🍕 peut-être sélectionnée:</p>
+
+<codepen id="mdjNzpB" tab="html,result" height="340"></codepen>
+
+<h3>Attributs de radio</h3>
+
+<ul>
+    <li><span class="inline-code">name</span> tous les boutons radio partageant le même <span class="inline-code">name</span> font partie d'un même groupe. Seul une option/un bouton radio parmi ce groupe peut être sélectionnée à la fois.<br><br>Par exemple, il est impossible de sélectionner les options <em>Végétarienne</em> et <em>Toute garnie</em> en même temps, puisqu'elles font toutes deux partie du groupe <span class="inline-code">pizza</span>.</li>
+    <li><span class="inline-code">checked</span> permet de spécifier à l'aide d'un booléen <em>(true/false)</em> si l'élément doit-être sélectionné. Si aucune valeur n'est attribuée, la simple présence de l'attribut suffit à sélectionner l'élément.</li>
+</ul>
+
+<info>
+    La présence ou absence de cet attribut est aussi utilisée en CSS afin d’appliquer des styles différents en fonction du statut de l’élément.
+    <br><br>
+    Par exemple: <span class="inline-code">.radio:checked { outline: solid 5px green; }</span>
+</info>
+
+<ul>
+    <li><span class="inline-code">value</span> indique la valeur associée au bouton radio. Ainsi lorsque le formulaire est soumis, la valeur associée au <span class="inline-code">name</span> est celle de l'élément <span class="inline-code">checked</span>.<br><br>Par exemple, si le formulaire est soumis sans que les boutons radio soient touchés, la valeur reçue sera <span class="inline-code">pizza: &quot;toute-garnie&quot;</span>.</li>
+    <li><span class="inline-code">disabled</span> permet d'afficher en lecture seule une option afin d'indiquer que bien qu'elle soit normalement disponible, celle-ci ne l'est pas en ce moment.</li>
+</ul>
+
+        <a class="exercice" target="_blank" href="exercices/dragonball/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/dragonball/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Radio - Dragonball</span>
+                    <span class="exercice-description">Pour cet exercice, nous allons modifier l’action performée par Goku, le personnage principal de Dragonball, en fonction du bouton radio sélectionné.</span>
+                </div>
+            </div>
+        </a>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/radio">input radio</doclink>
+<doclink href="https://www.w3schools.com/tags/att_input_type_radio.asp">input radio</doclink>
+
+<dots></dots>
+
+
+<grostitre>Select</grostitre>
+
+<p>Les <span class="inline-code">&lt;select&gt;</span> permettent de choisir une seule option parmi un groupe 🔽. Leur usage est approprié lorsque plusieurs options sont disponibles et qu'il n'est pas nécessaire pour l'usager de tous les voir.</p>
+
+<p>Par exemple, pour choisir une plage horaire de livraison, il n'est pas nécessaire une fois sa plage trouvée de voir les autres options:</p>
+
+<codepen id="JjBgmeb" tab="html,result" height="340"></codepen>
+
+<h3>Attributs de select</h3>
+
+<ul>
+    <li><span class="inline-code">name</span> nom de référence lorsque le formulaire est soumis.</li>
+    <li><span class="inline-code">multiple</span> permet la sélection de plusieurs options.</li>
+    <li><span class="inline-code">disabled</span> permet d'afficher en lecture seule le <span class="inline-code">&lt;select&gt;</span>.</li>
+</ul>
+
+<h3>Attributs d'option</h3>
+
+<ul>
+    <li><span class="inline-code">value</span> indique la valeur associée au <span class="inline-code">&lt;select&gt;</span>. Ainsi lorsque le formulaire est soumis, la valeur associée au <span class="inline-code">name</span> est celle de l'option sélectionnée.</li>
+    <li><span class="inline-code">selected</span> permet de spécifier à l'aide d'un booléen <em>(true/false)</em> si l'option devrait être sélectionnée. Si aucune valeur n'est attribuée, la simple présence de l'attribut suffit à sélectionner l'élément.</li>
+    <li><span class="inline-code">disabled</span> permet d'afficher en lecture seule une option en particulier. Par exemple, la page horaire 15h dans l'exemple précédent est visible, mais n'est pas sélectionnable.</li>
+</ul>
+
+        <a class="exercice" target="_blank" href="exercices/twitter/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/twitter/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Select - Twitter</span>
+                    <span class="exercice-description">Pour cet exercice, vous devrez compléter le formulaire de Twitter demandant la date de naissance de son nouveau membre.</span>
+                </div>
+            </div>
+        </a>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/select">select</doclink>
+<doclink href="https://www.w3schools.com/tags/tag_select.asp">select</doclink>
+
+<dots></dots>
+
+
+<grostitre>Textarea</grostitre>
+
+<p>Similaire au champ texte de base, <span class="inline-code">&lt;textarea&gt;</span> permet de définir une zone de texte sur plusieurs lignes, permettant ainsi à l'usager d'inscrire un contenu plus long. Au besoin, cette boite de texte peut être redimensionée grâce à sa poignée dans le coin inférieur droit.</p>
+
+<codepen id="qByeLZQ" tab="html,result" height="340"></codepen>
+
+<h3>Attributs de textarea</h3>
+
+<ul>
+    <li><span class="inline-code">cols</span> définit la largeur de base du textarea.</li>
+    <li><span class="inline-code">rows</span> définit la hauteur de base du textarea.</li>
+    <li>Cette balise accepte aussi les mêmes attributs qu'un champ texte régulier, tel que: <span class="inline-code">readonly</span>, <span class="inline-code">placeholder</span>, <span class="inline-code">required</span>, <span class="inline-code">minlength</span>, <span class="inline-code">maxlength</span>, etc.</li>
+</ul>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/textarea">textarea</doclink>
+<doclink href="https://www.w3schools.com/tags/tag_textarea.asp">textarea</doclink>
+
+<dots></dots>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Scroll-snap</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 2</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/css/">CSS</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="images/icon.webp">&nbsp;Scroll-snap</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<grostitre>scroll-snap-type</grostitre>
+
+<p>La propriété <span class="inline-code">scroll-snap-type</span> permet de définir les règles de défilement affectant les éléments présents dans un conteneur. Autrement dit, une fois le défilement terminé, est-ce que la position des éléments devrait rester telle quelle ou est-ce qu’un effet de magnétisme devrait réajuster leurs positions?</p>
+
+<p>Cette propriété est notamment utile afin de créer des effets de carrousel. L’usager fait défiler librement des photos, mais lorsqu’il s’arrête, un réajustement automatiquement permet d’afficher en entier la photo dominante, masquant du même coup le résidu de la photo précédente ou suivante.</p>
+
+<h3>Direction</h3>
+
+<p>Afin de fonctionner, il faut spécifier à cette propriété la direction désirée de l’effet de magnétisme:</p>
+
+<ul>
+    <li><span class="inline-code">none</span> aucun magnétisme</li>
+    <li><span class="inline-code">x</span> magnétisme horizontal seulement ↔️</li>
+    <li><span class="inline-code">y</span> magnétisme vertical seulement ↕️</li>
+    <li><span class="inline-code">both</span> magnétisme horizontal et vertical </li>
+</ul>
+
+<h3>Comportement</h3>
+
+<p>Cette valeur peut-être ajoutée à celle de direction afin de spécifier la force du magnétisme 🧲:</p>
+
+<ul>
+    <li><span class="inline-code">proximity</span> l’effet de magnétisme ne sera déclenché au relâchement que si un élément est à proximité des limites de son conteneur.</li>
+    <li><span class="inline-code">mandatory</span> l’effet de magnétisme sera déclenché au relâchement à toutes les occasions.</li>
+</ul>
+
+<codepen id="oNMOBqv" tab="result" height="540"></codepen>
+
+<warning>Attention, cette propriété seule, sans la propriété <span class="inline-code">scroll-snap-align</span> sur les éléments enfant du conteneur, n’aura <strong>aucun effet</strong>.</warning>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-type">scroll-snap-type</doclink>
+
+<dots></dots>
+
+
+<grostitre>scroll-snap-align</grostitre>
+
+<p>Cette propriété permet de spécifier à un élément son alignement idéal lorsque le magnétisme se produit. </p>
+
+<p>Si un élément a la même taille que son conteneur, cette propriété n’aura pas d’effet visible. Cependant, si l’élément est plus petit ou plus grand que son conteneur, cette propriété permettra de spécifier si l’effet de magnétisme doit se faire avec le début, la fin ou le centre de l’élément.</p>
+
+<h3>Valeurs possibles</h3>
+
+<ul>
+    <li><span class="inline-code">none</span> l’élément ne doit pas avoir d’effet de magnétisme</li>
+    <li><span class="inline-code">start</span> l’élément doit-être attiré vers le début du conteneur</li>
+    <li><span class="inline-code">end</span> l’élément doit-être attiré vers la fin du conteneur</li>
+    <li><span class="inline-code">center</span> l’élément doit-être attiré vers le centre de son conteneur</li>
+</ul>
+
+<codepen id="yLqrgxE" tab="result" height="540"></codepen>
+
+<span class="remark">Les éléments sont plus grands que leur conteneur. Ainsi, il est possible de voir où le point de magnétisme a lieu en se fiant au nombre dans l’élément.</span>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-align">scroll-snap-align</doclink>
+
+<dots></dots>
+
+
+<grostitre>scroll-padding</grostitre>
+
+<p>Par défaut l'effet de magnétisme <em>"snap"</em> les éléments aux limites du conteneur. Cependant, il est possible de décaler le point d'accroche grâce à la propriété <span class="inline-code">scroll-padding</span>.</p>
+
+<p>Cette propriété peut s'avérer particulièrement utile si un élément masque une partie du contenu défilant.</p>
+
+<p>Par exemple un entête:</p>
+
+<codepen id="abjxpRr" tab="result" height="540"></codepen>
+
+<p>Il est possible de définir une marge intérieure de tous les côtés grâce à <span class="inline-code">scroll-padding</span> ou encore d'en définir une d'un côté en particulier, via:</p>
+
+<ul>
+    <li><span class="inline-code">scroll-padding-top</span></li>
+    <li><span class="inline-code">scroll-padding-right</span></li>
+    <li><span class="inline-code">scroll-padding-bottom</span></li>
+    <li><span class="inline-code">scroll-padding-left</span></li>
+</ul>
+
+<p>Sur le même principe que la propriété <a href="../padding/">padding</a>.</p>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/scroll-padding">scroll-padding</doclink>
+
+<warning>Au moment d’écrire ces lignes, <strong>Firefox à un bogue</strong> avec <span class="inline-code">scroll-snap</span> lorsque la <strong>molette de la souris</strong> est utilisée.</warning>
+
+<dots></dots>
+
+
+        <a class="exercice" target="_blank" href="exercices/whatisadam/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/whatisadam/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Scroll-snap - WhatIsAdam</span>
+                    <span class="exercice-description">Pour cet exercice, vous devrez réaliser un carrousel CSS mettant en valeur 12 œuvres de l’artiste québécois WhatIsAdam.</span>
+                </div>
+            </div>
+        </a>
+
+<dots></dots>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

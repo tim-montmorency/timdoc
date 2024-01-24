@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Filtres
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract blur, contrast, grayscale, sepia, etc.
  * @ref      web/css
  */

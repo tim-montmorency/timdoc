@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Animation
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract @keyframes, animation-name, animation-duration, etc.
  * @ref      web/css
  */

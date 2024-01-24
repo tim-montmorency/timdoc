@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Media queries</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 2</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/css/">CSS</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="images/icon.webp">&nbsp;Media queries</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Les médias queries permettent d'adapter le contenu d'une page aux caractéristiques de l'appareil de l'utilisateur.</p>
+
+<p>Par exemple, pour distinguer l'écran d'un cellulaire versus l'écran plus large d'un ordinateur, on pourrait utiliser la media query suivante:</p>
+
+<highlight lang="css">@media screen and (min-width: 1000px) { ... }</highlight>
+
+<p>Dans ce cas j'ai:</p>
+
+<ul>
+    <li>Une déclaration de media query <span class="inline-code">@media</span></li>
+    <li>Un type de média screen <span class="inline-code">screen</span></li>
+    <li>Un opérateur logique <span class="inline-code">and</span></li>
+    <li>Une caractéristique <span class="inline-code">(min-width: 1000px)</span></li>
+</ul>
+
+<p>Nous pourrions donc définir la couleur rouge comme couleur de fond de notre page:</p>
+
+<highlight lang="css">body { background: red; }</highlight>
+
+<p>Et si notre media query est respectée, être un écran et avoir une largeur minimale de 1000px, redéfinir cette couleur à bleu:</p>
+
+<highlight lang="css">@media screen and (min-width: 1000px) { 
+  body { background: blue; }
+}</highlight>
+
+<clipasset src="videos/media-query.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>Types de média</grostitre>
+
+<p>Le type de média est optionnel. Il correspond au contexte utilisé pour consulter à la page.</p>
+
+<ul>
+    <li><span class="inline-code">all</span> couvre tous les types de médias de cette liste <em>(par défaut)</em>.</li>
+    <li><span class="inline-code">screen</span> Si quelqu'un consulte la page via un écran 📱/💻.</li>
+    <li><span class="inline-code">print</span> Si quelqu'un décide d'imprimer la page.</li>
+    <li><span class="inline-code">speech</span> Si quelqu'un utilise un outil de synthèse vocale 🔊.</li>
+</ul>
+
+<warning>Si le type est omis, les règles s’appliqueront à tous les types d’appareils. Autrement dit, <span class="inline-code">@media all and (min-width: 1000px) { ... }</span> et <span class="inline-code">@media (min-width: 1000px) { ... }</span> sont équivalent.</warning>
+
+<dots></dots>
+
+
+<grostitre>Caractéristiques de média</grostitre>
+
+<p>Les caractéristiques média s'écrivent <u>toujours entre parenthèses</u> et testent si une condition spécifique est respectée.</p>
+
+<ul>
+    <li><strong>min-width/max-width</strong> Basé sur la largeur du viewport <em>(de la fenêtre)</em>.<br>Ex: <span class="inline-code">(min-width: 1000px)</span></li>
+    <li><strong>min-height/max-height</strong> Basé sur la hauteur du viewport <em>(de la fenêtre)</em>.<br>Ex: <span class="inline-code">(max-height: 600px)</span></li>
+    <li><strong>min-aspect-ratio/max-aspect-ratio</strong> Le rapport largeur/hauteur du viewport <em>(de la fenêtre)</em>. Ex: <span class="inline-code">(min-aspect-ratio: 16/9)</span></li>
+    <li><strong>orientation</strong> <span class="inline-code">portrait</span> ou <span class="inline-code">landscape</span></li>
+    <li><strong>prefers-reduced-motion</strong> <span class="inline-code">no-preference</span> ou <span class="inline-code">reduce</span>. Certaines personnes sont sensibles aux animations. D'où pourquoi de plus en plus d'appareils laissent indiquer à l'utilisateur si il préfère un niveau d'animation normal ou réduit. Ex: <span class="inline-code">(prefers-reduced-motion: reduce)</span></li>
+    <li><strong>prefers-color-scheme</strong> <span class="inline-code">light</span> ou <span class="inline-code">dark</span> ◻️/◼️. Ex: <span class="inline-code">(prefers-color-scheme: dark)</span></li>
+</ul>
+
+<clipasset src="videos/prefer-color-scheme.mp4"></clipasset>
+
+<info><a target="_blank" href="https://www.apple.com/ca/fr/apple-music/">Apple Music</a> se base sur une media query afin d’ajuster son thème en fonction de la préférence de l’usager.</info>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/Media_Queries/Using_media_queries">@media</doclink>
+<doclink href="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp">@media</doclink>
+
+<dots></dots>
+
+
+<grostitre>Opérateurs logiques</grostitre>
+
+<p>Permettent d'indiquer le lien entre différentes parties de notre média query.</p>
+
+<p><span class="inline-code">and</span> Permet de combiner plusieurs requêtes média en une seule. Pour que la requête soit respectée, il faut que chacune des sous-requêtes soit vraie. ex: <span class="inline-code">screen and (min-width: 1000px)</span> s'appliquera sur tous les écrans de minimum 1000px de large.</p>
+
+<p><span class="inline-code">not</span> Retourne le résultat opposé d'une requête média. S'il est utilisé dans une liste de requêtes séparées par des virgules, il ne nie que la requête sur laquelle il est appliqué. ex: <span class="inline-code">not (orientation: landscape)</span> s'appliquera sur tous les écrans dont l'orientation est portrait.</p>
+
+<p><span class="inline-code">,</span> <em>(virgule)</em> Permet de combiner plusieurs requêtes. Chaque requête est traitée séparément. Il suffit qu'une seule de ces requêtes soit respectée pour que les styles s'appliquent. ex: <span class="inline-code">(orientation: landscape), (min-width: 600px)</span> s'appliquera sur les appareils dont l'orientation est landscape <strong>et/ou</strong> la largeur minimale est de 600px. Donc une tablette en mode portrait serait quand même affectée par les styles même si son orientation ne correspond pas.</p>
+
+<dots></dots>
+
+
+<grostitre>Breakpoints</grostitre>
+
+<p>Même si notre site est parfaitement responsive, il est parfois souhaitable de faire un changement d'affichage dans certains contextes, afin d'éviter que la dimension de certains éléments devienne un enjeu.</p>
+
+<p>Par exemple, deux sections juxtaposées sur un écran large font du sens. Cependant sur l'écran plus restreint d'un mobile, elles risquent d'être ridiculement coincées. D'où l'utilité à un certain point <em>(Breakpoint)</em> de changer les règles d'affichage via une media query.</p>
+
+<clipasset src="videos/breakpoints.mp4"></clipasset>
+
+<p>Ainsi, les sections pourraient passées de demis:</p>
+
+<highlight lang="css">.section { width: 50%; }</highlight>
+
+<p>À pleines lorsque la largeur de l'écran est inférieur à 600px:</p>
+
+<highlight lang="css">@media (max-width: 600px) { 
+  .section { width: 100%; } 
+}</highlight>
+
+<dots></dots>
+
+
+<grostitre>Où les utiliser?</grostitre>
+
+<p>Les médias queries peuvent être utilisés à différents endroits:</p>
+
+<ul>
+    <li>Dans les <strong>feuilles de styles</strong>.</li>
+    <li>Directement sur une balise <span class="inline-code">&lt;link&gt;</span>. ex: les styles contenu dans le fichier <span class="inline-code">print.css</span> ne devraient s'appliquer que lorsque l'utilisateur imprime la page et non lorsque celle-ci est affichée à l'écran:</li>
+</ul>
+
+<highlight lang="html">&lt;link href=&quot;print.css&quot; rel=&quot;stylesheet&quot; media=&quot;print&quot;&gt;</highlight>
+
+<dots></dots>
+
+        <a class="exercice" target="_blank" href="exercices/modok/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/modok/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Media queries - M.O.D.O.K.</span>
+                    <span class="exercice-description">Pour cet exercice, vous devrez aider les personnages à se positionner adéquatement en fonction de la largeur de l’écran.</span>
+                </div>
+            </div>
+        </a>
+<!--         <a class="exercice" target="_blank" href="exercices/minions/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/minions/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Media queries - Minions</span>
+                    <span class="exercice-description">Pour cet exercice, vous devrez aider les Minions à se positionner adéquatement en fonction de la largeur de l’écran.</span>
+                </div>
+            </div>
+        </a> -->
+        <a class="exercice" target="_blank" href="exercices/ou-est-charlie/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/ou-est-charlie/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Media queries - Où est Charlie?</span>
+                    <span class="exercice-description">Pour cet exercice, vous devrez faire en sorte que le bon Charlie soit visible en fonction de la largeur de l’écran.</span>
+                </div>
+            </div>
+        </a>
+
+<dots></dots>
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
+        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/howler.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Sélecteurs</title>
+    </head>
+    <body>
+        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 2</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.webp">&nbsp;Sélecteurs</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+
+<p class="spacer">Les sélecteurs CSS permettent de cibler des éléments dans une page afin de leur appliquer des styles. Ainsi il est possible d'améliorer leur lisibilité ou de leur donner une personnalité.</p>
+
+
+<grostitre>Type</grostitre>
+
+<p>Les sélecteurs de type ciblent les éléments en fonction d'une balise.<br><br>Par exemple, la règle suivante:</p>
+
+<highlight lang="css">em { ... }</highlight>
+<p>Permet de sélectionner les éléments utilisant la balise <span class="inline-code">&lt;em&gt;</span>.</p>
+
+<codepen id="NWByMKE" height="220"></codepen>
+
+<warning>Bien que cette méthode est fonctionnelle et simple, il est déconseillé de styler un élément en fonction de sa balise, afin de garder une distinction entre son rôle sémantique et son apparence.</warning>
+
+<dots></dots>
+
+
+<grostitre>ID</grostitre>
+
+<p>Les sélecteurs d'identifiant unique ou ID, permettent de cibler un élément en fonction de son id.</p>
+
+<p>Par exemple, la règle suivante:</p>
+
+<highlight lang="css">#no1 { ... }</highlight>
+
+<p>Permet de modifier l'apparence de l'élément ayant l'id <span class="inline-code">no1</span>.</p>
+
+<codepen id="yLqvjjY" height="220"></codepen>
+
+<warning>Styler un élément en fonction de son id est généralement une mauvaise idée. Même si un élément est unique actuellement, rien ne garantit qu’il le sera toujours.</warning>
+
+<dots></dots>
+
+
+<grostitre>Classe</grostitre>
+
+<p>Les sélecteurs de classe ciblent les éléments partageant une classe commune.</p>
+
+<p>Par exemple, la règle suivante:</p>
+
+<highlight lang="css">.element { ... }</highlight>
+
+<p>Permet de sélectionner tous les éléments partageant la classe <span class="inline-code">element</span>.</p>
+
+<codepen id="GRBQGwp" height="220"></codepen>
+
+<info>Les classes existent spécifiquement pour styliser des éléments. Elles sont performantes, flexibles et réutilisables. Utilisez-les!</info>
+
+<dots></dots>
+
+
+<grostitre>Combinaisons</grostitre>
+
+<p>Lorsque deux sélecteurs sont <strong>collés</strong> <em>(sans espace entre eux)</em>, seuls les éléments possédant <strong>les deux sélecteurs</strong> sont retournés.</p>
+
+<p>Par exemple, la règle suivante:</p>
+
+<highlight lang="css">span.element { ... }</highlight>
+
+<p>Permet de sélectionner les éléments avec la classe <span class="inline-code">.element</span>, mais uniquement si la classe est appliquée sur un<span class="inline-code">&lt;span&gt;</span>.</p>
+
+<codepen id="bGjLKPW" height="220"></codepen>
+
+<p>Un élément peut avoir plusieurs classes.</p>
+
+<p>Par exemple, <span class="inline-code">&lt;div class="msg important"&gt;</span> cet élément possède la classe <span class="inline-code">.msg</span>, ainsi que la classe <span class="inline-code">.important</span>. Il est donc possible de sélectionner uniquement les messages qui possèdent ces deux classes avec <span class="inline-code">.msg.important { ... }</span>.</p>
+
+<dots></dots>
+
+
+<grostitre>Descendants</grostitre>
+
+<p>À l'opposée des <a href="#combinaisons">combinaisons</a>, les descendants ont un <strong>espace entre les sélecteurs</strong> permettant ainsi d'indiquer que seuls les descendants du premier sélecteur devraient être ciblés.</p>
+
+<p>Par exemple, la règle suivante:</p>
+
+<highlight lang="css">.group .element { ... }</highlight>
+
+<p>Permet de sélectionner les éléments avec la classe <span class="inline-code">.element</span>, mais uniquement s'ils sont enfants d'une balise possédant la classe <span class="inline-code">.group</span>.</p>
+
+<codepen id="YzjejGw" height="220"></codepen>
+
+<p>Dans l'exemple précédent, <span class="inline-code">.group</span> est ce que l'on appel le parent de <span class="inline-code">.element</span>.</p>
+
+<p>Cependant, plusieurs balises auraient pu séparer <span class="inline-code">.group</span> de ses descendants <span class="inline-code">.element</span> sans problème. Tout comme plusieurs générations peuvent séparer une personne de ses ancètres, elle n'en reste pas moins sa descendance.</p>
+
+<dots></dots>
+
+        <a class="tool" target="_blank" href="https://kittygiraudel.github.io/selectors-explained/">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">Selectors explained</span>
+                    <span class="tool-description">Traduire ses sélecteurs CSS en texte humainement lisible afin de valider leur portée.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(tools/selectors-explained/images/thumb.jpg)"></div>
+            </div>
+        </a>
+
+        <a class="exercice" target="_blank" href="https://flukeout.github.io/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/css-diner/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">CSS Diner - Niveaux 1 à 8</span>
+                    <span class="exercice-description">Complétez les 8 premiers niveaux de CSS Diner 🍎</span>
+                </div>
+            </div>
+        </a>
+
+<dots></dots>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+            <script>timdocMount();</script>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+    </body>
+</html>

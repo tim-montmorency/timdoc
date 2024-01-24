@@ -4,7 +4,6 @@
  * @title    Pseudo-classes avancées
  * @icon     images/icon.png
  * @abstract :first-of-type, :only-of-type, :empty, :not, :has
- * @ref      web/css
  */
 ?>
 

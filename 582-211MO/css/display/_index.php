@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Display
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract block, inline, inline-block, none
  */
 ?>

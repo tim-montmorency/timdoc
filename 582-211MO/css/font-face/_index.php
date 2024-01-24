@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    @font-face
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract Importer des polices d'écritures
  * @ref      web/css
  */

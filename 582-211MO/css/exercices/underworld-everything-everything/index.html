@@ -29,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop('../../../')">
+            <div id="logo" @click="goToTop('../../../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -125,39 +125,75 @@
 <grostitre>Notes de cours 📚</grostitre>
 
         <div class="intlink__item">
-            <div class="intlink__item__icon" style="background-image: url(../../background/images/icon.png);"></div>
+            <div class="intlink__item__icon" style="background-image: url(../../background/images/icon.webp);"></div>
             <div class="intlink__item__description">
                 <span class="intlink__item__title"><a target="_blank" href="../../background/">Background</a></span>
                 <span class="intlink__item__abstract">color, image, gradient</span>
             </div>
         </div>
-
-
         <div class="intlink__item">
-            <div class="intlink__item__icon" style="background-image: url(../../box-shadow/images/icon.png);"></div>
+            <div class="intlink__item__icon" style="background-image: url(../../linear-gradient/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../linear-gradient/">Linear-gradient</a></span>
+                <span class="intlink__item__abstract">Générer un dégradé.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../modes-de-fusion/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../modes-de-fusion/">Modes de fusion</a></span>
+                <span class="intlink__item__abstract">multiply, screen, overlay, etc.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../box-shadow/images/icon.webp);"></div>
             <div class="intlink__item__description">
                 <span class="intlink__item__title"><a target="_blank" href="../../box-shadow/">Box-shadow</a></span>
                 <span class="intlink__item__abstract">Ombrage d'un élément.</span>
             </div>
         </div>
-
-
         <div class="intlink__item">
-            <div class="intlink__item__icon" style="background-image: url(../../animation/images/icon.png);"></div>
+            <div class="intlink__item__icon" style="background-image: url(../../unites-de-mesure-avancees/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../unites-de-mesure-avancees/">Unités de mesure avancées</a></span>
+                <span class="intlink__item__abstract">vw, vh, vmin, vmax, calc, min, max, clamp</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../transformation/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../transformation/">Transformation</a></span>
+                <span class="intlink__item__abstract">translate, rotate, scale, skew, origin</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../animation/images/icon.webp);"></div>
             <div class="intlink__item__description">
                 <span class="intlink__item__title"><a target="_blank" href="../../animation/">Animation</a></span>
                 <span class="intlink__item__abstract">@keyframes, animation-name, animation-duration, etc.</span>
             </div>
         </div>
         <div class="intlink__item">
-            <div class="intlink__item__icon" style="background-image: url(../../font-face/images/icon.png);"></div>
+            <div class="intlink__item__icon" style="background-image: url(../../font-face/images/icon.webp);"></div>
             <div class="intlink__item__description">
                 <span class="intlink__item__title"><a target="_blank" href="../../font-face/">@font-face</a></span>
                 <span class="intlink__item__abstract">Importer des polices d'écritures</span>
             </div>
         </div>
-
-
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../opacite/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../opacite/">Opacity</a></span>
+                <span class="intlink__item__abstract">Gérer l'opacité d'un élément.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../variables/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../variables/">Variables</a></span>
+                <span class="intlink__item__abstract">::root, var(--varname)</span>
+            </div>
+        </div>
 
 <dots></dots>
 
