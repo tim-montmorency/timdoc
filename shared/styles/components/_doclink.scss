@@ -248,3 +248,12 @@ a.doclink {
         background-color: #6a7077;
     }
 }
+
+.doclink.vuejs {
+    .doclink-icon {
+        background-image: url('../images/icons/vuejs-icon.webp');
+    }
+    &::before {
+        background-color: #41b883;
+    }
+}
