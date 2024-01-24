@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    8-Parallaxe
- * @icon     images/icon.svg
+ * @icon     ../images/icon.webp
  * @abstract Effet parallaxe à l'aide de GSAP et ScrollTrigger
  * @index    650
+ * @ref      web/quadriciels/gsap
  */
 ?>
 <grostitre>Parallaxe avec scrollTrigger</grostitre>

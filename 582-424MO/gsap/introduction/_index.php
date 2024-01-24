@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    1-Introduction
- * @icon     images/icon.svg
+ * @icon     ../images/icon.webp
  * @abstract GreenSock Animation Platform
  * @index    1000
+ * @ref      web/quadriciels/gsap
  */
 ?>
 <grostitre>Introduction</grostitre>

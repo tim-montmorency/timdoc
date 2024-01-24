@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    9-Parallaxe intermédiaire
- * @icon     images/icon.svg
+ * @icon     ../images/icon.webp
  * @abstract Effet parallaxe à l'aide de GSAP et ScrollTrigger
  * @index    550
+ * @ref      web/quadriciels/gsap
  */
 ?>
 <grostitre>Animation de plusieurs couches</grostitre>

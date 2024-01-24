@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    3-Propriétés spéciales
- * @icon     images/icon.svg
+ * @icon     ../images/icon.webp
  * @abstract duration, repeat, yoyo, delay, stagger, ease, callbacks
  * @index    998
+ * @ref      web/quadriciels/gsap
  */
 ?>
 

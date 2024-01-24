@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    11-Dessiner SVG
- * @icon     images/icon.svg
+ * @icon     ../images/icon.webp
  * @abstract DrawSVG: Dessiner un tracé SVG par animation GSAP
  * @index    500
+ * @ref      web/quadriciels/gsap
  */
 ?>
 

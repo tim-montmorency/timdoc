@@ -188,7 +188,7 @@ function getIndexReferences($name=null) {
             }
         }
         foreach($references as $k => $v) {
-            usort($v, function($a, $b) { return strcasecmp($a->title, $b->title); });
+            usort($v, function($a, $b) { return strnatcmp($a->title, $b->title); });
             $references[$k] = $v;
         }
     }
