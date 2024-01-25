@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    WP-Query
- * @icon     images/icon-wp.png
+ * @icon     ../medias/icon.webp
  * @abstract Requête pour récupérer le coontenu des posts et pages
- * @index 12
+ * @index    12
+ * @ref      web/wordpress
  */
 ?>
 

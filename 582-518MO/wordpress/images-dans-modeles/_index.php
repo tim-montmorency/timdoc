@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    Affichage des images
- * @icon     images/icon-wp.png
+ * @icon     ../medias/icon.webp
  * @abstract Contrôler l'affichage des images dans un modèle du thème
- * @index 0
+ * @index    0
+ * @ref      web/wordpress
  */
 ?>
 

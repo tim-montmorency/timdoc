@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    Posts personnalisés
- * @icon     images/icon-wp.png
+ * @icon     ../medias/icon.webp
  * @abstract Collections de types de publications
- * @index 88
+ * @index    88
+ * @ref      web/wordpress
  */
 ?>
 

@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    Champs avancés personnalisés
- * @icon     images/icon-wp.png
+ * @icon     ../medias/icon.webp
  * @abstract ACF - Advanced Custom Fields
- * @index 85
+ * @index    85
+ * @ref      web/wordpress
  */
 ?>
 <p>Les champs&nbsp;<em>Titre</em>&nbsp;et&nbsp;<em>Contenu</em>&nbsp;sont efficaces pour afficher les contenus texte de base d'une page ou d'un article, mais il arrive que certains projets requièrent plus de deux&nbsp;champs pour réaliser certaines mise en&nbsp;page.</p><p>Par exemple, si l'éditeur exige de pouvoir choisir la couleur de fond de chacune de ses pages, comment lui donner cette possibilité? Un nouveau champ dédié à la couleur de la page sera&nbsp;nécessaire.</p>

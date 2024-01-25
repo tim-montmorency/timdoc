@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    REST API
- * @icon     images/icon-wp.png
+ * @icon     ../medias/icon.webp
  * @abstract Accéder aux contenus en JavaScript via des JSON
- * @index 10
+ * @index    10
+ * @ref      web/wordpress
  */
 ?>
 

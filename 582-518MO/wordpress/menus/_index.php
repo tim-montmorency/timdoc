@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    Menus
- * @icon     images/icon-wp.png
+ * @icon     ../medias/icon.webp
  * @abstract Menus de navigation
  * @index    90
+ * @ref      web/wordpress
  */
 ?>
 <p>Le tableau de bord de WordPress permet de créer et gérer des menus de navigation sans aucune connaissance technique. Ainsi, si un client vous engage afin de concevoir un site, vous pouvez lui livrer et quelques années plus tard, ce dernier peut choisir de créer une nouvelle page et l'ajouter dans sa navigation par lui-même sans même avoir recours à vous ou un autre développeur.</p><p>Pour ce faire, WordPress n'a besoin que trois éléments: </p>

@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    Styles CSS thème WP
- * @icon     images/icon-wp.png
+ * @icon     ../medias/icon.webp
  * @abstract Styles css dans WP
  * @index    98
+ * @ref      web/wordpress
  */
 ?>
 <p>Le fichier&nbsp;<incode>style.css</incode>est particulier. WordPress s'attend à trouver un fichier avec ce nom à la racine de chaque&nbsp;thème.</p>

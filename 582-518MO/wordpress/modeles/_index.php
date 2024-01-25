@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    Modèles d'un thème WP
- * @icon     images/icon-wp.png
+ * @icon     ../medias/icon.webp
  * @abstract Contrôler la structure des pages Wordpress
- * @index 97
+ * @index    97
+ * @ref      web/wordpress
  */
 ?>
 <p>Les modèles, ou en anglais&nbsp;<em>templates</em>, sont certains des fichiers&nbsp;<incode>.php</incode>&nbsp;se trouvant à la racine d'un thème.</p>

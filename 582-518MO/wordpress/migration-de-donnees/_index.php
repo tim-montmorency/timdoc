@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    Migration de données
- * @icon     images/icon-wp.png
+ * @icon     ../medias/icon.webp
  * @abstract Migrer les données d'un site WordPress vers un autre
- * @index 13
+ * @index    13
+ * @ref      web/wordpress
  */
 ?>
 
