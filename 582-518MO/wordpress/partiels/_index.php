@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    Partiels d'un thème WP
- * @icon     images/icon-wp.png
+ * @icon     ../medias/icon.webp
  * @abstract Extrait de code à importer dans plus d'un modèle
- * @index 95
+ * @index    95
+ * @ref      web/wordpress
  */
 ?>
 <p>Le nom vous dit quelque chose n'est-ce pas? En effet, les <em>partials</em> existent aussi en langage <em>SASS</em>&nbsp!</p>

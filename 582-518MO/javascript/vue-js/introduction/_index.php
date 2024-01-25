@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    Introduction
- * @icon     images/ico-vue.png
+ * @icon     ../images/icon.webp
  * @abstract Vue 
- * @index 99
+ * @index    99
+ * @ref      web/cadriciels/vuejs
  */
 ?>
 

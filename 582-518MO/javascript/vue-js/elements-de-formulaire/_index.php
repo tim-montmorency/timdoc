@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    Éléments de formulaire
- * @icon     images/ico-vue.png
+ * @icon     ../images/icon.webp
  * @abstract v-model: une relation entre une donnée et les input, select etc.
- * @index 85
+ * @index    85
+ * @ref      web/cadriciels/vuejs
  */
 ?>
 

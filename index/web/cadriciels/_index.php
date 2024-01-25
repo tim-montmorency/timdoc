@@ -1,7 +1,7 @@
 <?php 
 /**
  * @type     list
- * @title    Quadriciels
+ * @title    Cadriciels
  * @icon     images/icon.webp
  * @abstract Frameworks, Bootstrap, GSAP, etc.
  */

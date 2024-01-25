@@ -211,6 +211,9 @@ body.dark a.tool {
 body.dark a.tool:hover {
   color: #ffffff;
 }
+body.dark a.tool div.tool-container div.tool-thumb {
+  border: 0px;
+}
 body.dark a.tool div.tool-container div.tool-abstract em.tool-label {
   background-color: #508d5d;
   color: white !important;
@@ -221,6 +224,9 @@ body.dark a.exercice {
 }
 body.dark a.exercice:hover {
   color: #ffffff;
+}
+body.dark a.exercice div.exercice-container div.exercice-thumb {
+  border: 0px;
 }
 body.dark a.exercice div.exercice-container div.exercice-abstract em {
   background-color: #50728d;
@@ -886,6 +892,13 @@ a.doclink .doclink-icon {
   background-color: #41b883;
 }
 
+.doclink.wordpress .doclink-icon {
+  background-image: url("../images/icons/wordpress-icon.webp");
+}
+.doclink.wordpress::before {
+  background-color: #21759b;
+}
+
 a.exercice {
   display: block;
   background-image: linear-gradient(0deg, #87ceeb, 20%, #f0f8fc);
@@ -1001,6 +1014,8 @@ a.tool div.tool-container div.tool-thumb {
   background-repeat: no-repeat;
   background-size: cover;
   aspect-ratio: 4/3;
+  box-sizing: content-box;
+  border: 1px solid #f3ca40;
 }
 a.tool div.tool-container div.tool-abstract {
   flex-grow: 2;

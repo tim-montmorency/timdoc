@@ -5,7 +5,7 @@
  * @icon     ../images/icon.webp
  * @abstract duration, repeat, yoyo, delay, stagger, ease, callbacks
  * @index    998
- * @ref      web/quadriciels/gsap
+ * @ref      web/cadriciels/gsap
  */
 ?>
 

@@ -5,7 +5,7 @@
  * @icon     ../images/icon.webp
  * @abstract MorphSVG: Transition entre 2 formes distinctes
  * @index    300
- * @ref      web/quadriciels/gsap
+ * @ref      web/cadriciels/gsap
  */
 ?>
 

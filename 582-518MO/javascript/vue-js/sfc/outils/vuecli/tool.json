@@ -1,0 +1,7 @@
+{
+    "type": "tool",
+    "title": "VueCLI",
+    "icon": "images\/thumb.webp",
+    "url": "https:\/\/cli.vuejs.org\/",
+    "abstract": "Standard Tooling for Vue.js Development."
+}

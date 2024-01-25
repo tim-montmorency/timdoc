@@ -5,7 +5,7 @@
  * @icon     ../images/icon.webp
  * @abstract play, pause, reverse, timscale, progress, seek
  * @index    997
- * @ref      web/quadriciels/gsap
+ * @ref      web/cadriciels/gsap
  */
 ?>
 

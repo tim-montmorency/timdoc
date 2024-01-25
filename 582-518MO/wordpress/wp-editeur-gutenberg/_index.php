@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    Éditeur Gutenberg
- * @icon     images/icon-wp.png
+ * @icon     ../medias/icon.webp
  * @abstract Outil de mise-en-page par bloc
- * @index 15
+ * @index    15
+ * @ref      web/wordpress
  */
 ?>
 

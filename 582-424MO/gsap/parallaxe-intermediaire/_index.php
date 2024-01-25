@@ -5,7 +5,7 @@
  * @icon     ../images/icon.webp
  * @abstract Effet parallaxe à l'aide de GSAP et ScrollTrigger
  * @index    550
- * @ref      web/quadriciels/gsap
+ * @ref      web/cadriciels/gsap
  */
 ?>
 <grostitre>Animation de plusieurs couches</grostitre>

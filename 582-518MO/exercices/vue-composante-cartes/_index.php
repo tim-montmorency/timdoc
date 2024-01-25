@@ -2,7 +2,7 @@
 /**
  * @type     exercice
  * @title    Vue - Composante - Cartes de produit
- * @icon     images/result.jpg
+ * @icon     images/thumb.webp
  * @abstract Cartes de produit
  */
 ?>
@@ -27,5 +27,5 @@ Utilisez les props pour personnaliser le contenu de chaque carte.
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../javascript/vue-js/creation-app-bases") ?>
-<?php intlink("../../javascript/vue-js/composantes") ?>
+<intlink href="../../javascript/vue-js/creation-app-bases"></intlink>
+<intlink href="../../javascript/vue-js/composantes"></intlink>

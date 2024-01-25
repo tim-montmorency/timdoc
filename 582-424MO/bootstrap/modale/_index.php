@@ -5,7 +5,7 @@
  * @title    Fenêtre modale
  * @icon     ../images/icon.webp
  * @abstract Composante qui permet de créer rapidement des popups (fenêtre modale)
- * @ref      web/quadriciels/bootstrap
+ * @ref      web/cadriciels/bootstrap
  */
 ?>
 <grostitre>Intro</grostitre>

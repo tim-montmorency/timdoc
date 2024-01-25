@@ -5,7 +5,7 @@
  * @title    Boutons
  * @icon     ../images/icon.webp
  * @abstract Classes de boutons stylisés par Bootstrap
- * @ref      web/quadriciels/bootstrap
+ * @ref      web/cadriciels/bootstrap
  */
 ?>
 

@@ -29,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -41,9 +41,9 @@
             <div id="subhead">
                 <div id="breadcrumb">
                     <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">WordPress</a> ></div>
-                    <div id="breadcrumb_index"></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/wordpress/">WordPress</a>&nbsp;>&nbsp;</div>
                 </div>
-                <h1 id="title"><img src="images/icon-wp.png">&nbsp;Champs avancés personnalisés</h1>
+                <h1 id="title"><img src="../medias/icon.webp">&nbsp;Champs avancés personnalisés</h1>
             </div>
             <article>
                 <div id="contents">
@@ -119,8 +119,10 @@
 
 
 <h3 class="heading heading--h3" id="Texte">Texte</h3>
-<p>Un champ texte peut être créé pour stocker des informations supplémentaires. Ce type de champs est, entre autre, utile lorsqu'une information doit être séparée visuellement du reste du&nbsp;contenu.</p><p>Prenons par exemple la&nbsp;<a target="_blank" href="https://fr.wikipedia.org/wiki/The_Offspring">page Wikipedia d'un groupe de musique</a>. Si cette page était construite à l'aide de WordPress, le champ&nbsp;<span class="inline-code">titre</span>&nbsp;contiendrait le texte&nbsp;<em>The Offspring</em>&nbsp;et le champs&nbsp;<span class="inline-code">contenu</span>&nbsp;l'ensemble du texte dans la colonne de gauche. Cependant, les éléments dans la colonne de droite proviendraient de champs ACF&nbsp;supplémentaires.</p><p>Par exemple, un champ&nbsp;<span class="inline-code">autre nom</span>&nbsp;associé aux pages de type&nbsp;<em>Groupe de musique</em>&nbsp;permettrait à l'éditeur de spécifier si un groupe fut précédemment connu sous un autre&nbsp;nom.</p><pre><code class="hljs php">&lt;strong&gt;Autre nom&lt;/strong&gt;
-<span class="hljs-meta">&lt;?php</span> the_field(<span class="hljs-string">'autre_nom'</span>); <span class="hljs-meta">?&gt;</span></code></pre>
+<p>Un champ texte peut être créé pour stocker des informations supplémentaires. Ce type de champs est, entre autre, utile lorsqu'une information doit être séparée visuellement du reste du&nbsp;contenu.</p><p>Prenons par exemple la&nbsp;<a target="_blank" href="https://fr.wikipedia.org/wiki/The_Offspring">page Wikipedia d'un groupe de musique</a>. Si cette page était construite à l'aide de WordPress, le champ&nbsp;<span class="inline-code">titre</span>&nbsp;contiendrait le texte&nbsp;<em>The Offspring</em>&nbsp;et le champs&nbsp;<span class="inline-code">contenu</span>&nbsp;l'ensemble du texte dans la colonne de gauche. Cependant, les éléments dans la colonne de droite proviendraient de champs ACF&nbsp;supplémentaires.</p><p>Par exemple, un champ&nbsp;<span class="inline-code">autre nom</span>&nbsp;associé aux pages de type&nbsp;<em>Groupe de musique</em>&nbsp;permettrait à l'éditeur de spécifier si un groupe fut précédemment connu sous un autre&nbsp;nom.</p>
+    
+<highlight lang="html">&lt;strong&gt;Autre nom&lt;/strong&gt;
+&lt;?php the_field(&#039;autre_nom&#039;); ?&gt;</highlight>
 
 <info>Manic Subsidal???&nbsp;🤷‍♂️</info>
 

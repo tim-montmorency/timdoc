@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Modules
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Modulariser chaque composante en fichiers individuels
  * @index    21
  * @ref      web/sass

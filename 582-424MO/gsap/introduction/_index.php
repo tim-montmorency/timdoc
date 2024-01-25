@@ -5,7 +5,7 @@
  * @icon     ../images/icon.webp
  * @abstract GreenSock Animation Platform
  * @index    1000
- * @ref      web/quadriciels/gsap
+ * @ref      web/cadriciels/gsap
  */
 ?>
 <grostitre>Introduction</grostitre>

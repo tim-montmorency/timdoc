@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    WP-multilang
- * @icon     images/icon-wp.png
+ * @icon     ../medias/icon.webp
  * @abstract Extentions de gestion multilanguages
- * @index 80
+ * @index    80
+ * @ref      web/wordpress
  */
 ?>
 <p>Wordpress possède plusieurs extensions permettant de traduire du&nbsp;contenu.</p><p>Pour sa gratuité, sa compatibilité avec&nbsp;<a href="../advanced-custom-fields" target="_blank">ACF</a>&nbsp;et sa facilité d'utilisation, nous regarderons&nbsp;WP&nbsp;Multilang.</p>

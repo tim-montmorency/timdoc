@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    Crochets WP: action et filtre
- * @icon     images/icon-wp.png
+ * @icon     ../medias/icon.webp
  * @abstract Hooks Wordpress : action and filter
- * @index 90
+ * @index    90
+ * @ref      web/wordpress
  */
 ?>
 

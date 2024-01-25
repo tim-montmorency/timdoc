@@ -5,7 +5,7 @@
  * @title    Accordéon
  * @icon     ../images/icon.webp
  * @abstract Accordéons avec sections qui se replient verticalement 
- * @ref      web/quadriciels/bootstrap
+ * @ref      web/cadriciels/bootstrap
  */
 ?>
 

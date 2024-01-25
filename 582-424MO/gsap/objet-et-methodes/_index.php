@@ -5,7 +5,7 @@
  * @icon     ../images/icon.webp
  * @abstract L'objet GSAP et ses méthodes d'animation de base
  * @index    999
- * @ref      web/quadriciels/gsap
+ * @ref      web/cadriciels/gsap
  */
 ?>
 

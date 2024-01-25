@@ -29,7 +29,7 @@
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop('../../../', '')" title="Retour à l'accueil">
+            <div id="logo" @click="goToTop('../../../', '../../../../index/')" title="Retour à l'accueil">
                 <svg class="logo-tim" xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -41,9 +41,9 @@
             <div id="subhead">
                 <div id="breadcrumb">
                     <div id="breadcrumb_normal"><a href="../../../">Projet Web</a> > <a href="../../">JavaScript</a> > <a href="../">Vue.js</a> ></div>
-                    <div id="breadcrumb_index"></div>
+                    <div id="breadcrumb_index"><a href="../../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../../index/web/cadriciels/">Cadriciels</a>&nbsp;>&nbsp;<a href="../../../../index/web/cadriciels/vuejs/">Vue.js</a>&nbsp;>&nbsp;</div>
                 </div>
-                <h1 id="title"><img src="images/ico-vue.png">&nbsp;Les bases d'une app VueJS</h1>
+                <h1 id="title"><img src="../images/icon.webp">&nbsp;Les bases d'une app VueJS</h1>
             </div>
             <article>
                 <div id="contents">
@@ -264,31 +264,28 @@ Salut { { firstName } }
 <br><br>
 
 
-<aside class="exercice-card">
-    <div class="exercice-card__content">
-        <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-        <a href="../../../exercices/vue-tableau-nba/" target="_blank" class="exercice-card__title">
-            Tableau&nbsp;NBA
+
+        <a class="exercice" target="_blank" href="../../../exercices/vue-tableau-nba/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(../../../exercices/vue-tableau-nba/images/thumb.webp)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Vue - Tableau NBA</span>
+                    <span class="exercice-description">Vous devrez rendre dynamique à l’aide de Vue le tableau indicateur d’un match de la NBA</span>
+                </div>
+            </div>
         </a>
-
-        <p class="exercice-card__description">Pour cet exercice, vous devrez rendre dynamique à l’aide de Vue le tableau
-            indicateur d’un match de la NBA opposant les Raptors de&nbsp;Toront...</p>
-    </div>
-</aside>
-
-
-<aside class="exercice-card">
-    <div class="exercice-card__content">
-        <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-        <a href="../../../exercices/vue-cheese-kanye-says/ " target="_blank" class="exercice-card__title">
-            Cheese Kanye&nbsp;Says
+        <a class="exercice" target="_blank" href="../../../exercices/vue-cheese-kanye-says/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(../../../exercices/vue-cheese-kanye-says/images/thumb.webp)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Vue - Cheese Kanye says</span>
+                    <span class="exercice-description">Vous devrez mettre à jour la citation de Kanye West via vue.js et un API</span>
+                </div>
+            </div>
         </a>
-
-        <p class="exercice-card__description">Dans le cadre de cet exercice, vous devrez mettre à jour la citation de
-            Kanye West affichée à l’écran par une autre célèbre phrase de&nbsp;son...</p>
-    </div>
-</aside>
-
+<br>
 
 <doclink href='https://v3.vuejs.org/guide/events.html#listening-to-events'>Event Handling</doclink>
 
@@ -448,20 +445,17 @@ Salut { { firstName } }
 
 <warning>Il ne faut<a href="https://vuejs.org/style-guide/rules-essential.html#avoid-v-if-with-v-for" target="_blank"> jamais utiliser <span class="inline-code">v-if</span> sur un élément ayant&nbsp;<span class="inline-code">v-for</span></a>.</warning>
 <br>
-<aside class="exercice-card">
-    <div class="exercice-card__content">
-        <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-        <a href="../../../exercices/vue-ouest-vs-est/" target="_blank" class="exercice-card__title">
-            Côte Ouest vs&nbsp;Est
+
+        <a class="exercice" target="_blank" href="../../../exercices/vue-ouest-vs-est/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(../../../exercices/vue-ouest-vs-est/images/thumb.webp)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Vue - Ouest VS Est</span>
+                    <span class="exercice-description">Afin d’afficher quel rappeur appartenait à quel camp est ou ouest, vous devrez compléter une app Vue.</span>
+                </div>
+            </div>
         </a>
-
-        <p class="exercice-card__description">Dans les années 90, une rivalité opposa les rappeurs de la côte ouest
-            Américaine 🇺🇸 à ceux de la côte est. Afin d’afficher quel rappeur&nbsp;a...</p>
-    </div>
-
-</aside>
-
-
 
 <br><br>
 
@@ -473,23 +467,47 @@ Salut { { firstName } }
 
 <dots></dots>
 <grostitre>Alternatives à VueJS</grostitre>
-<ul>
-    <li>
-        <a target="_blank" rel="noopener noreferrer" href="https://fr.reactjs.org/">React</a>
-    </li>
-    <li>
-        <a target="_blank" rel="noopener noreferrer" href="https://svelte.dev/">Svelte</a>
-    </li>
-    <li>
-       <a target="_blank" rel="noopener noreferrer" href="https://angular.io/">Angular</a>
-    </li>
-    <li>
-     <a target="_blank" rel="noopener noreferrer" href="https://backbonejs.org/">Backbone</a>
-    </li>
-    <li>
-       Etc.
-    </li>
-</ul>
+
+        <a class="tool" target="_blank" href="https://react.dev/">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">React</span>
+                    <span class="tool-description">React is a free and open-source front-end JavaScript library for building user interfaces based on components.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(./outils/react/images/thumb.webp)"></div>
+            </div>
+        </a>
+        <a class="tool" target="_blank" href="https://svelte.dev/">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">Svelte</span>
+                    <span class="tool-description">Svelte is a free and open-source front-end component framework and language created by Rich Harris and maintained by the Svelte core team members.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(./outils/svelte/images/thumb.webp)"></div>
+            </div>
+        </a>
+        <a class="tool" target="_blank" href="https://angular.io/">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">Angular</span>
+                    <span class="tool-description">Angular is a TypeScript-based, free and open-source single-page web application framework.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(./outils/angular/images/thumb.webp)"></div>
+            </div>
+        </a>
+        <a class="tool" target="_blank" href="https://backbonejs.org/">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">Backbone.js</span>
+                    <span class="tool-description">Backbone.js is a JavaScript rich-client web app framework based on the model–view–controller design paradigm, intended to connect to an API over a RESTful JSON interface.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(./outils/backbone/images/thumb.webp)"></div>
+            </div>
+        </a>
 
                     <!-- ARTICLE FOOTER SOF -->
                 </div>

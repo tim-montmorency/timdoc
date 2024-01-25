@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    Champs avancés personnalisés
- * @icon     images/icon-wp.png
+ * @icon     ../medias/icon.webp
  * @abstract ACF - Advanced Custom Fields
- * @index 85
+ * @index    85
+ * @ref      web/wordpress
  */
 ?>
 <p>Les champs&nbsp;<em>Titre</em>&nbsp;et&nbsp;<em>Contenu</em>&nbsp;sont efficaces pour afficher les contenus texte de base d'une page ou d'un article, mais il arrive que certains projets requièrent plus de deux&nbsp;champs pour réaliser certaines mise en&nbsp;page.</p><p>Par exemple, si l'éditeur exige de pouvoir choisir la couleur de fond de chacune de ses pages, comment lui donner cette possibilité? Un nouveau champ dédié à la couleur de la page sera&nbsp;nécessaire.</p>
@@ -78,8 +79,12 @@
 
 
 <h3 class="heading heading--h3" id="Texte">Texte</h3>
-<p>Un champ texte peut être créé pour stocker des informations supplémentaires. Ce type de champs est, entre autre, utile lorsqu'une information doit être séparée visuellement du reste du&nbsp;contenu.</p><p>Prenons par exemple la&nbsp;<a target="_blank" href="https://fr.wikipedia.org/wiki/The_Offspring">page Wikipedia d'un groupe de musique</a>. Si cette page était construite à l'aide de WordPress, le champ&nbsp;<incode>titre</incode>&nbsp;contiendrait le texte&nbsp;<em>The Offspring</em>&nbsp;et le champs&nbsp;<incode>contenu</incode>&nbsp;l'ensemble du texte dans la colonne de gauche. Cependant, les éléments dans la colonne de droite proviendraient de champs ACF&nbsp;supplémentaires.</p><p>Par exemple, un champ&nbsp;<incode>autre nom</incode>&nbsp;associé aux pages de type&nbsp;<em>Groupe de musique</em>&nbsp;permettrait à l'éditeur de spécifier si un groupe fut précédemment connu sous un autre&nbsp;nom.</p><pre><code class="hljs php">&lt;strong&gt;Autre nom&lt;/strong&gt;
-<span class="hljs-meta">&lt;?php</span> the_field(<span class="hljs-string">'autre_nom'</span>); <span class="hljs-meta">?&gt;</span></code></pre>
+<p>Un champ texte peut être créé pour stocker des informations supplémentaires. Ce type de champs est, entre autre, utile lorsqu'une information doit être séparée visuellement du reste du&nbsp;contenu.</p><p>Prenons par exemple la&nbsp;<a target="_blank" href="https://fr.wikipedia.org/wiki/The_Offspring">page Wikipedia d'un groupe de musique</a>. Si cette page était construite à l'aide de WordPress, le champ&nbsp;<incode>titre</incode>&nbsp;contiendrait le texte&nbsp;<em>The Offspring</em>&nbsp;et le champs&nbsp;<incode>contenu</incode>&nbsp;l'ensemble du texte dans la colonne de gauche. Cependant, les éléments dans la colonne de droite proviendraient de champs ACF&nbsp;supplémentaires.</p><p>Par exemple, un champ&nbsp;<incode>autre nom</incode>&nbsp;associé aux pages de type&nbsp;<em>Groupe de musique</em>&nbsp;permettrait à l'éditeur de spécifier si un groupe fut précédemment connu sous un autre&nbsp;nom.</p>
+    
+<highlight lang="html">
+&lt;strong&gt;Autre nom&lt;/strong&gt;
+&lt;?php the_field(&#39;autre_nom&#39;); ?&gt;
+</highlight>
 
 <info>Manic Subsidal???&nbsp;🤷‍♂️</info>
 

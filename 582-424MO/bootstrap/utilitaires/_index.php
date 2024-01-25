@@ -5,7 +5,7 @@
  * @title    Utilitaires
  * @icon     ../images/icon.webp
  * @abstract Bootstrap dispose de nombreuses classes utilitaires/d'aide permettant de styliser rapidement les éléments sans utiliser de code CSS.
- * @ref      web/quadriciels/bootstrap
+ * @ref      web/cadriciels/bootstrap
  */
 ?>
 
