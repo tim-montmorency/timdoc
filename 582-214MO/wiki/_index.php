@@ -139,7 +139,7 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Eb09rvJNvZBMgL3Aqm2bBVIB0-JqHEbDOWhYHycTYAEx4Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LJx1uG">Simplifier les contours</a></li>
 </ul></p>
 
-<intlink href="../exercices/05_crayon_Shaper"></intlink></p>
+<intlink href="../exercices/05_crayon_shaper"></intlink></p>
 
 
 <p><h3>Notions</h3>
