@@ -20,24 +20,17 @@
 
 <p>Par exemple:</p>
 
-<pre><code class="hljs javascript">https:<span class="hljs-comment">//site.com/wp-json/wp/v2/</span></code></pre>
+<highlight lang="url">https://site.com/wp-json/wp/v2/</highlight>
+
 <br>
 <p>La page retournée ressemble probablement à un mur de texte illisible. Il s'agit en fait d'un fichier JSON minifié contenant tous les contenus du site, affichés sur une seule&nbsp;ligne.</p>
 
 
 <alert><strong>Erreur fréquente</strong><br>Si le Rest API de votre site ne répond pas à cette URL, il est probable que votre hébergeur ait modifié son emplacement. Pour le trouver, ouvrez le code source de votre page d’accueil et cherchez&nbsp;<em>"wp-json/"</em>.</alert>
 <br><br>
-<aside class="tool-card">
-  <div class="tool-card__content">
-    <em class="tool-card__tagline">🛠 Outil</em><br class="tool-card__break">
-    <a href="https://jsonview.com/" target="_blank" rel="noopener noreferrer" class="tool-card__title">
-      <strong>JSONView</strong>
-    </a>
 
-        <p class="tool-card__description">Permet d’afficher un fichier JSON en format standard dans un navigateur plutôt qu’en une longue chaine de&nbsp;caractères.</p>
-</div>
- </aside>
 
+<tool href="../../tools/jsonview/"></tool>
 
 
 
@@ -49,7 +42,8 @@
 
 <p>Par exemple, si seulement les pages sont requises, il est possible de spécifier la&nbsp;route</p>
 
-<pre><code class="hljs javascript">https:<span class="hljs-comment">//site.com/wp-json/wp/v2/pages</span></code></pre>
+<highlight lang="url">https://site.com/wp-json/wp/v2/pages</highlight>
+
 <br>
 
 <p>Qui retournera un JSON ne contenant que les pages&nbsp;publiées.</p>
@@ -58,13 +52,15 @@
 
 <p>Si un autre type de publication doit être retourné. Par exemple, les articles, ou en anglais&nbsp;<em>posts</em>, il suffit de spécifier une route&nbsp;différente.</p><p>Par exemple:&nbsp;<incode>/posts</incode>.</p>
 
-<pre><code class="hljs javascript">https:<span class="hljs-comment">//site.com/wp-json/wp/v2/posts</span></code></pre>
+<highlight lang="url">https://site.com/wp-json/wp/v2/posts</highlight>
+
+
 <br>
 <p>Il est possible de spécifier des routes encore plus précises. Notamment en spécifiant l'ID de la publication&nbsp;désirée.</p>
 
 <p>Par exemple, si seulement la page avec le ID 10 est requis, il est possible de spécifier la route&nbsp;<incode>/pages/10</incode>.</p>
 
-<pre><code class="hljs javascript">https:<span class="hljs-comment">//site.com/wp-json/wp/v2/pages/10</span></code></pre>
+<highlight lang="url">https://site.com/wp-json/wp/v2/pages/10</highlight>
 
 
 
@@ -89,7 +85,7 @@
     
 <p>Par exemple, par titres:</p>
 
-<pre><code class="hljs javascript">https:<span class="hljs-comment">//site.com/wp-json/wp/v2/posts?orderby=title</span></code></pre>
+<highlight lang="url">https://site.com/wp-json/wp/v2/posts?orderby=title</highlight>
 
 
 <h3 class="heading heading--h3" id="order">order</h3>
@@ -104,7 +100,9 @@
 <p>Par exemple, par titres décroissants:</p>
 
 
-<pre><code class="hljs javascript">https:<span class="hljs-comment">//site.com/wp-json/wp/v2/posts?orderby=title&amp;order=desc</span></code></pre>
+<highlight lang="url">https://site.com/wp-json/wp/v2/posts?orderby=title&order=desc</highlight>
+
+
 <br>
 <doclink href='https://developer.wordpress.org/rest-api/reference/posts/#arguments'>Arguments</doclink>
 
@@ -124,7 +122,9 @@
 
 <p>Par exemple: </p>
 
-<pre><code class="hljs javascript"><a href="https://site.com/wp-json/wp/v2/posts?_embed">https:<span class="hljs-comment">//site.com/wp-json/wp/v2/posts?_embed</span></a><span class="hljs-comment"> </span></code></pre>
+<highlight lang="url">https://site.com/wp-json/wp/v2/posts?_embed </highlight>
+
+
 <br><br>
 
 <p>Chaque post sera alors bonifié d’une propriété nommée <incode>_embedded</incode> contenant une sous-propriété intitulée <incode>wp:featuredmedia</incode>. Celle-ci est un tableau contenant des objets correspondant à chaque featured image associée au post. </p>
@@ -136,7 +136,7 @@
 
 <p>Par exemple, afin d’obtenir l’URL de la 1<sup>re</sup> featured image:</p>
 
-<pre><code class="hljs css">referencAuPost._embedded<span class="hljs-selector-attr">[<span class="hljs-string">'wp:featuredmedia'</span>]</span><span class="hljs-selector-attr">[0]</span><span class="hljs-selector-class">.source_url</span></code></pre>
+<highlight lang="javascript">referencAuPost._embedded['wp:featuredmedia'][0].source_url</highlight>
 
 <br><br>
 <doclink href='https://developer.wordpress.org/rest-api/using-the-rest-api/global-parameters/#_embed'>_embed</doclink>
@@ -171,24 +171,17 @@
 <p>Par exemple, dans la page&nbsp;<em>single.php</em>&nbsp;servant à afficher les articles, il serait possible de déclarer une balise&nbsp;<incode>&lt;script&gt;</incode>&nbsp;et d'effectuer un&nbsp;<a target="_blank" rel="noopener noreferrer" href="/cours/javascript/fetch">fetch</a>&nbsp;afin de récupérer les informations de l'article&nbsp;courant:</p>
 
 
-<pre><code class="hljs javascript">fetch(<span class="hljs-string">"/wp-json/wp/v2/posts/&lt;?php the_ID(); ?&gt;"</span>)
-  .then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> response.json())
-  .then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(data));</code></pre>
 
-<br><br>
+<highlight lang="javascript">
+fetch(&quot;/wp-json/wp/v2/posts/&lt;?php the_ID(); ?&gt;&quot;)
+  .then(response =&gt; response.json())
+  .then(data =&gt; console.log(data));
+</highlight>
+
 <info><incode>the_ID()</incode> est une fonction de WordPress retournant le id de la page courante, ex:&nbsp;10.</info>
 
-
-<aside class="exercice-card">
-    <div class="exercice-card__content">
-      <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-      <a href="../../exercices/wp-rest-api-vice-versa" target="_blank" class="exercice-card__title">
-        WP Rest API - Vice&nbsp;Versa
-      </a>
-       <p class="exercice-card__description">Pour cet exercice vous et votre coéquipier devez créer un microsite permettant de présenter les protagonistes du film Vice Versa de&nbsp;Pixar...</p>
-    </div>
- </aside>
-
+<br><br>
+<exercice href="../../exercices/wp-rest-api-vice-versa/"></exercice>
 
 
 

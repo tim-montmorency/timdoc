@@ -119,8 +119,10 @@
 
 
 <h3 class="heading heading--h3" id="Texte">Texte</h3>
-<p>Un champ texte peut être créé pour stocker des informations supplémentaires. Ce type de champs est, entre autre, utile lorsqu'une information doit être séparée visuellement du reste du&nbsp;contenu.</p><p>Prenons par exemple la&nbsp;<a target="_blank" href="https://fr.wikipedia.org/wiki/The_Offspring">page Wikipedia d'un groupe de musique</a>. Si cette page était construite à l'aide de WordPress, le champ&nbsp;<span class="inline-code">titre</span>&nbsp;contiendrait le texte&nbsp;<em>The Offspring</em>&nbsp;et le champs&nbsp;<span class="inline-code">contenu</span>&nbsp;l'ensemble du texte dans la colonne de gauche. Cependant, les éléments dans la colonne de droite proviendraient de champs ACF&nbsp;supplémentaires.</p><p>Par exemple, un champ&nbsp;<span class="inline-code">autre nom</span>&nbsp;associé aux pages de type&nbsp;<em>Groupe de musique</em>&nbsp;permettrait à l'éditeur de spécifier si un groupe fut précédemment connu sous un autre&nbsp;nom.</p><pre><code class="hljs php">&lt;strong&gt;Autre nom&lt;/strong&gt;
-<span class="hljs-meta">&lt;?php</span> the_field(<span class="hljs-string">'autre_nom'</span>); <span class="hljs-meta">?&gt;</span></code></pre>
+<p>Un champ texte peut être créé pour stocker des informations supplémentaires. Ce type de champs est, entre autre, utile lorsqu'une information doit être séparée visuellement du reste du&nbsp;contenu.</p><p>Prenons par exemple la&nbsp;<a target="_blank" href="https://fr.wikipedia.org/wiki/The_Offspring">page Wikipedia d'un groupe de musique</a>. Si cette page était construite à l'aide de WordPress, le champ&nbsp;<span class="inline-code">titre</span>&nbsp;contiendrait le texte&nbsp;<em>The Offspring</em>&nbsp;et le champs&nbsp;<span class="inline-code">contenu</span>&nbsp;l'ensemble du texte dans la colonne de gauche. Cependant, les éléments dans la colonne de droite proviendraient de champs ACF&nbsp;supplémentaires.</p><p>Par exemple, un champ&nbsp;<span class="inline-code">autre nom</span>&nbsp;associé aux pages de type&nbsp;<em>Groupe de musique</em>&nbsp;permettrait à l'éditeur de spécifier si un groupe fut précédemment connu sous un autre&nbsp;nom.</p>
+    
+<highlight lang="html">&lt;strong&gt;Autre nom&lt;/strong&gt;
+&lt;?php the_field(&#039;autre_nom&#039;); ?&gt;</highlight>
 
 <info>Manic Subsidal???&nbsp;🤷‍♂️</info>
 

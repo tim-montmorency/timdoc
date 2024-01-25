@@ -2,7 +2,7 @@
 /**
  * @type     exercice
  * @title    WP Query - Les Bagnoles
- * @icon     images/wp-query-les-bagnoles-apercu.png
+ * @icon     images/thumb.webp
  * @abstract Pour cet exercice vous et votre coéquipier devez créer un microsite permettant de présenter les protagonistes du film les Bagnoles.
  */
 ?>

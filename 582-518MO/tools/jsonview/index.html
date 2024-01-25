@@ -23,7 +23,7 @@
         <script src="../../../shared/jscripts/vue.global.prod.js"></script>
         <script src="../../../shared/jscripts/timdoc.min.js"></script>
         <script>const shared = '../../../shared/';</script>
-        <title>Vue - Composante - Cartes de produit</title>
+        <title>JSONView</title>
     </head>
     <body>
         <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
@@ -37,52 +37,16 @@
             <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
         </header>
         <main>
-            <!-- MAIN HEADER EOF -->
-            <div id="subhead">
-                <h1 id="title">Vue - Composante - Cartes de produit</h1>
+            <!-- MAIN HEADER EOF -->            <div id="subhead">
+                <div id="title">JSONView</div>
             </div>
             <article>
-                <div id="contents">
-                    <!-- EXERCICE HEADER EOF -->
-
-<p>Pour cet exercice, vous allez générer 3 cartes produits à l'aide de composantes Vue.</p>
-<p>Aperçu du résultat 👇</p>
-<img src="images/result.jpg" alt="">
-<dots></dots>
-<grostitre>Matériel</grostitre>
-<doclink href='https://codepen.io/tim-momo/pen/mdvjpwy'>Pen de départ</doclink>
-
-<dots></dots>
-<grostitre>Requis</grostitre>
-<checklist>Créez une app Vue.
-Vous allez devoir remplacer le HTML des 3 cartes par une composante <em>card</em> réutilisée 3 fois.
-Donc, créez une composante <em>card</em>
-Ensuite, ajoutez un tableau <em>cardsArr</em> dans vos app. Ce tableau contiendra 3 objets qui, chacun, contiendront les 4 données uniques à chaque carte.
-Dans la view (le HTML), ajouter votre composante <em>&lt;card&gt;</em> une fois. Sur celle-ci, créez une boucle sur <em>cardsArr</em> pour générer les 3 cartes.
-Utilisez les props pour personnaliser le contenu de chaque carte.
-</checklist>         
-
-
-<dots></dots>
-<grostitre>Notes de cours 📚</grostitre>
-        <div class="intlink__item">
-            <div class="intlink__item__icon" style="background-image: url(../../javascript/vue-js/creation-app-bases/../images/icon.webp);"></div>
-            <div class="intlink__item__description">
-                <span class="intlink__item__title"><a target="_blank" href="../../javascript/vue-js/creation-app-bases">Les bases d'une app VueJS</a></span>
-                <span class="intlink__item__abstract">App, données, méthodes, classes dynamiques, conditions, boucles</span>
-            </div>
-        </div>
-        <div class="intlink__item">
-            <div class="intlink__item__icon" style="background-image: url(../../javascript/vue-js/composantes/../images/icon.webp);"></div>
-            <div class="intlink__item__description">
-                <span class="intlink__item__title"><a target="_blank" href="../../javascript/vue-js/composantes">Composantes</a></span>
-                <span class="intlink__item__abstract">Composantes autonomes pouvant être réutilisables</span>
-            </div>
-        </div>
-
-                    <!-- EXERCICE FOOTER SOF -->
-                </div>
                 <tabledesmatieres></tabledesmatieres>
+                <div id="contents">
+                    <!-- TOOL HEADER EOF -->
+<script>location.href = 'https://jsonview.com/';</script>
+                    <!-- TOOL FOOTER SOF -->
+                </div>
             </article>
             <script>timdocMount();</script>
         <!-- MAIN FOOTER SOF -->

@@ -114,16 +114,16 @@
 &lt;/wiki-page&gt;</highlight>
 
 <p>L'ajout de la date permet de dévoiler les pages à des moments précis. Avant la date, les informations contenues dans ce bloc ne seront pas accessibles:</p>
-<highlight lang="php">&lt;wiki-page name="Cours 01" date="2023-02-22"&gt;
+<highlight lang="html">&lt;wiki-page name="Cours 01" date="2023-02-22"&gt;
 
 &lt;/wiki-page&gt;</highlight>
 
 <h2>Composantes utiles</h2>
 <p>Lien vers un document pdf ou source url:</p>
-<highlight lang="php">&lt;doclink href="lien web ou lien one drive"&gt;Nom du lien&lt;/doclink&gt;</highlight>
+<highlight lang="html">&lt;doclink href="lien web ou lien one drive"&gt;Nom du lien&lt;/doclink&gt;</highlight>
 
 <p>Lien vers une page de timdoc:</p>
-<highlight lang="php">&lt;intlink href="../dossier contenant les pages/sous-dossier de la page/"&gt;&lt;/intlink&gt;</highlight>
+<highlight lang="html">&lt;intlink href="../dossier contenant les pages/sous-dossier de la page/"&gt;&lt;/intlink&gt;</highlight>
 
 <dots></dots>
 

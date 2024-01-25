@@ -109,7 +109,8 @@ body.dark {
         &:hover { color: #ffffff; }
         
         div.tool-container div.tool-thumb {
-            border: 1px solid #508d5d;
+            // border: 1px solid #508d5d;
+            border: 0px;
         }
         div.tool-container div.tool-abstract em.tool-label {
             background-color: #508d5d;
@@ -121,6 +122,10 @@ body.dark {
         background-color: #1c1d21;
         background-image: linear-gradient(0deg, #50728d, 20%, #1c1d21);
         &:hover { color: #ffffff; }
+        div.exercice-container div.exercice-thumb {
+            // border: 1px solid #50728d;
+            border: 0px;
+        }
         div.exercice-container div.exercice-abstract em {
             background-color: #50728d;
             color: white !important;

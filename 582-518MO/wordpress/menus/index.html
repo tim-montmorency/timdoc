@@ -55,28 +55,29 @@
   <li>et que contient ce menu</li>
 </ul>
 
+<dots></dots>
 
 <grostitre>Déclaration</grostitre>
 <p>Pour déclarer un menu, il faut ouvrir le fichier&nbsp;<span class="inline-code">function.php</span>&nbsp;et repérer la fonction&nbsp;<span class="inline-code">register_nav_menus( ... )</span>.</p>
 
-
-<pre><code class="hljs php">register_nav_menus( 
-  <span class="hljs-keyword">array</span>(
-    <span class="hljs-string">'main-menu'</span> =&gt; __(<span class="hljs-string">'Menu principal'</span>, <span class="hljs-string">'Menu principal du site'</span>), 
+<highlight lang="php">register_nav_menus( 
+  array(
+    &#039;main-menu&#039; =&gt; __(&#039;Menu principal&#039;, &#039;Menu principal du site&#039;), 
   )
-);</code></pre>
+);</highlight>
 
 
 <p>Dans cet exemple, il n'y a qu'un menu de déclaré.</p><ul><li><p><span class="inline-code">main-menu</span>&nbsp;nom de référence dans le&nbsp;code.</p></li><li><p><span class="inline-code">Menu principal</span>&nbsp;nom affiché dans le tableau de&nbsp;bord.</p></li><li><p><span class="inline-code">Menu principal du site</span>&nbsp;description affichée dans le tableau de&nbsp;bord.</p></li></ul>
 
 
-<p>Pour en déclarer un deuxième, il suffit d'ajouter une ligne à la suite de la première. Par exemple, si nous désirions créer un menu de commanditaires, il serait possible de faire:</p><pre><code class="hljs php">register_nav_menus( 
-  <span class="hljs-keyword">array</span>(
-    <span class="hljs-string">'main-menu'</span> =&gt; __(<span class="hljs-string">'Menu principal'</span>, <span class="hljs-string">'Menu de base'</span>), 
-    <span class="hljs-string">'sponsors-menu'</span> =&gt; __(<span class="hljs-string">'Menu commanditaires'</span>, <span class="hljs-string">'Menu des commanditaires du site'</span>), 
-  )
-);</code></pre>
+<p>Pour en déclarer un deuxième, il suffit d'ajouter une ligne à la suite de la première. Par exemple, si nous désirions créer un menu de commanditaires, il serait possible de faire:</p>
 
+<highlight lang="php">register_nav_menus( 
+  array(
+    &#039;main-menu&#039; =&gt; __(&#039;Menu principal&#039;, &#039;Menu de base&#039;), 
+    &#039;sponsors-menu&#039; =&gt; __(&#039;Menu commanditaires&#039;, &#039;Menu des commanditaires du site&#039;), 
+  )
+);</highlight>
 
 
 
@@ -84,9 +85,11 @@
 
 <dots></dots>
 <grostitre>Emplacement</grostitre>
-<p>Il faut ensuite indiquer l'endroit où ce menu peut être affiché. Pour ce faire, il faut aller dans un&nbsp;<a target="_blank" rel="noopener noreferrer" href="/cours/wordpress/modeles">modèle</a>&nbsp;ou&nbsp;<a target="_blank" rel="noopener noreferrer" href="/cours/wordpress/partiels">partiel</a>&nbsp;et ajouter un script permettant de&nbsp;l'inclure.</p><p>Par exemple, pour inclure le menu des commanditaires, il faudra&nbsp;faire:</p><pre><code class="hljs php"><span class="hljs-meta">&lt;?php</span> 
-  wp_nav_menu(<span class="hljs-keyword">array</span>(<span class="hljs-string">'theme_location'</span> =&gt; <span class="hljs-string">'sponsors-menu'</span>));
-<span class="hljs-meta">?&gt;</span></code></pre>
+<p>Il faut ensuite indiquer l'endroit où ce menu peut être affiché. Pour ce faire, il faut aller dans un&nbsp;<a target="_blank" rel="noopener noreferrer" href="/cours/wordpress/modeles">modèle</a>&nbsp;ou&nbsp;<a target="_blank" rel="noopener noreferrer" href="/cours/wordpress/partiels">partiel</a>&nbsp;et ajouter un script permettant de&nbsp;l'inclure.</p><p>Par exemple, pour inclure le menu des commanditaires, il faudra&nbsp;faire:</p>
+
+<highlight lang="php">&lt;?php 
+  wp_nav_menu(array(&#039;theme_location&#039; =&gt; &#039;sponsors-menu&#039;));
+?&gt;</highlight>
 
 <br>
 <doclink href='https://developer.wordpress.org/reference/functions/wp_nav_menu/'>wp_nav_menu</doclink>
