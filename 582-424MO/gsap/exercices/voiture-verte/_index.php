@@ -40,5 +40,5 @@ Au clic du bouton 3, déplacez le bras de vitesse <em>"</em><incode>.knob</incod
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../controle-animation/") ?>
+<intlink href="../../controle-animation/"></intlink>
 

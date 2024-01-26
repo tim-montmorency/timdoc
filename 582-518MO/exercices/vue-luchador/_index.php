@@ -34,7 +34,7 @@ Créez une propriété calculée intitulée <incode>name</incode>. La valeur de 
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../javascript/vue-js/introduction") ?>
-<?php intlink("../../javascript/vue-js/creation-app-bases") ?>
-<?php intlink("../../javascript/vue-js/elements-de-formulaire") ?>
-<?php intlink("../../javascript/vue-js/proprietes-calculees") ?>
+<intlink href="../../javascript/vue-js/introduction"></intlink>
+<intlink href="../../javascript/vue-js/creation-app-bases"></intlink>
+<intlink href="../../javascript/vue-js/elements-de-formulaire"></intlink>
+<intlink href="../../javascript/vue-js/proprietes-calculees"></intlink>

@@ -47,5 +47,5 @@ Utilisez le GSDevTools afin de repérer quand le motocycliste doit s'animer et u
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../timeline") ?>
+<intlink href="../../timeline"></intlink>
 

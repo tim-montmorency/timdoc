@@ -55,9 +55,9 @@ Construisez ensuite le modèle de la page du groupe de musique. Assurez-vous de 
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../wordpress/migration-de-donnees/") ?>
-<?php intlink("../../wordpress/modeles/") ?>
-<?php intlink("../../wordpress/wp-query/") ?>
-<?php intlink("../../wordpress/rest-api/") ?>
-<?php intlink("../../wordpress/advanced-custom-fields/") ?>
-<?php intlink("../../wordpress/images-dans-modeles/") ?>
+<intlink href="../../wordpress/migration-de-donnees/"></intlink>
+<intlink href="../../wordpress/modeles/"></intlink>
+<intlink href="../../wordpress/wp-query/"></intlink>
+<intlink href="../../wordpress/rest-api/"></intlink>
+<intlink href="../../wordpress/advanced-custom-fields/"></intlink>
+<intlink href="../../wordpress/images-dans-modeles/"></intlink>

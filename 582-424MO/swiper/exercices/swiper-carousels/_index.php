@@ -85,4 +85,4 @@ Modifiez le CSS de vos nouveaux boutons pour qu'ils aient un padding de 20px et 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../swiper/") ?>
+<intlink href="../../swiper/"></intlink>

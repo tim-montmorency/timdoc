@@ -33,6 +33,6 @@ Faites ensuite apparaître en fondu l'année de sortie.
 <grostitre>Notes de cours 📚</grostitre>
 <doclink href='https://smnarnold.com/cours/javascript/queryselectorall'>QuerySelectorAll()</doclink><br>
 <doclink href='https://smnarnold.com/cours/javascript/boucle-foreach'>Boucle forEach()</doclink>
-<?php intlink("../../scrolltrigger/") ?>
-<?php intlink("../../timeline/") ?>
+<intlink href="../../scrolltrigger/"></intlink>
+<intlink href="../../timeline/"></intlink>
 

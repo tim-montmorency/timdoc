@@ -40,7 +40,7 @@ Vous êtes maintenant prêts à faire un pull à nouveau, chacun de votre côté
 </checklist>
 
 <h4>Notes de cours 📚</h4>
-<?php intlink("../../bootstrap/navbar") ?> 
+<intlink href="../../bootstrap/navbar"></intlink> 
 
 <h3>Pied de page</h3>
 <p>Aperçu du résultat pour le pied de page👇</p>
@@ -54,7 +54,7 @@ Bien que l'url du répertoire GitHub soit un lien, ce texte ne doit pas avoir de
 À partir du breakpoint lg, le nom des artisans doit être aligné à gauche et apparaitre à gauche du pied de page, tandis que le lien vers le répertoire GitHub et la mention "©<?php echo date("Y") ?>" doivent être alignés à droite et apparaitre à droite du pied de page.
 </checklist>
 <h4>Notes de cours 📚</h4>
-<?php intlink("../../bootstrap/grille") ?> 
+<intlink href="../../bootstrap/grille"></intlink> 
 
 
 <h3>Section Hero</h3>
@@ -72,7 +72,7 @@ Ajoutez dans le div qui fait office de cadre de téléphone, un iframe dont la s
 </checklist>
 
 <h4>Notes de cours 📚</h4>
-<?php intlink("../../bootstrap/grille") ?> 
+<intlink href="../../bootstrap/grille"></intlink> 
 
 
 
@@ -93,7 +93,7 @@ Ajoutez dans le div qui fait office de cadre de téléphone, un iframe dont la s
 </checklist>
 
 <h4>Notes de cours 📚</h4>
-<?php intlink("../../bootstrap/navbar") ?> 
+<intlink href="../../bootstrap/navbar"></intlink> 
 
 <h3>Pied de page</h3>
 <p>Aperçu du résultat pour le pied de page👇</p>

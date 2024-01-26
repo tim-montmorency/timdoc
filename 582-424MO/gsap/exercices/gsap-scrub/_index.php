@@ -33,5 +33,5 @@ Positionnez les marqueurs de debut et de fin d'animation de sorte que l'animatio
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../scrolltrigger-intermediaire/") ?>
+<intlink href="../../scrolltrigger-intermediaire/"></intlink>
 

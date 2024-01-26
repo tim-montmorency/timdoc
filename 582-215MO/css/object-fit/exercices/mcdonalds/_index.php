@@ -65,6 +65,6 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../../object-fit/") ?>
+<intlink href="../../../object-fit/"></intlink>
 
 <dots></dots>

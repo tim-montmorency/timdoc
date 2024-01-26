@@ -55,7 +55,7 @@ Retirez la bordure noire de votre <incode>.container</incode> et voilà ✨ Vous
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../sass/imbrication/") ?>
-<?php intlink("../../sass/variables/") ?>
-<?php intlink("../../sass/mixins/") ?>
+<intlink href="../../sass/imbrication/"></intlink>
+<intlink href="../../sass/variables/"></intlink>
+<intlink href="../../sass/mixins/"></intlink>
 <doclink href='https://smnarnold.com/cours/css/flexbox-avance'>Flexbox avancé</doclink>

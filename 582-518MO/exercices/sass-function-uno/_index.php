@@ -65,8 +65,8 @@ Afin d'améliorer la lisibilité de votre code, créez-vous une fonction Scss ac
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../sass/extend/") ?>
-<?php intlink("../../sass/boucle/") ?>
-<?php intlink("../../sass/conditions/") ?>
-<?php intlink("../../sass/fonctions/") ?>
+<intlink href="../../sass/extend/"></intlink>
+<intlink href="../../sass/boucle/"></intlink>
+<intlink href="../../sass/conditions/"></intlink>
+<intlink href="../../sass/fonctions/"></intlink>
 

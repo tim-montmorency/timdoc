@@ -42,5 +42,5 @@ Dans vos 2 fichiers HTML vous allez changer le lien vers le CSS de Bootstrap que
 
 
 <h3>Notes de cours 📚</h3>
-<?php intlink("../../bootstrap/personnalisation-couleurs") ?> 
+<intlink href="../../bootstrap/personnalisation-couleurs"></intlink> 
 

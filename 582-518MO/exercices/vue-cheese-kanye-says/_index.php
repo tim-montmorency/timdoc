@@ -32,6 +32,6 @@ Lorsque l'étape précédente est complétée, effacez le changement de texte da
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../javascript/vue-js/introduction/") ?>
-<?php intlink("../../javascript/vue-js/creation-app-bases/") ?>
-<?php intlink("../../javascript/fetch-api/") ?>
+<intlink href="../../javascript/vue-js/introduction/"></intlink>
+<intlink href="../../javascript/vue-js/creation-app-bases/"></intlink>
+<intlink href="../../javascript/fetch-api/"></intlink>

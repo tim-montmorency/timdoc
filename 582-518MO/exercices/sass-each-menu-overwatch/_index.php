@@ -32,7 +32,7 @@ Profitez du nesting de Scss afin de créer un effet de survole sur les personnag
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../sass/boucle/") ?>
-<?php intlink("../../../582-215MO/css/transformation/") ?>
-<?php intlink("../../../582-215MO/css/transition/") ?>
+<intlink href="../../sass/boucle/"></intlink>
+<intlink href="../../../582-215MO/css/transformation/"></intlink>
+<intlink href="../../../582-215MO/css/transition/"></intlink>
 <doclink href='https://smnarnold.com/cours/css/flexbox'>Flexbox</doclink>

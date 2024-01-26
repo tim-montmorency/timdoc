@@ -26,5 +26,5 @@ Utiliser stagger afin de faire tomber tous les dominos un à la suite de l'autre
 </checklist>
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../proprietes-speciales/#stagger") ?>
+<intlink href="../../proprietes-speciales/#stagger"></intlink>
 

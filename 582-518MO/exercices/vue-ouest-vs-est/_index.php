@@ -34,6 +34,6 @@ Faites en sorte que les boutons de côtes aillent la classe <em>btn</em> par dé
 <grostitre>Notes de cours 📚</grostitre>
    
 
-<?php intlink("../../javascript/vue-js/introduction/") ?>
-<?php intlink("../../javascript/vue-js/creation-app-bases/") ?>
+<intlink href="../../javascript/vue-js/introduction/"></intlink>
+<intlink href="../../javascript/vue-js/creation-app-bases/"></intlink>
 

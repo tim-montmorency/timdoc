@@ -37,5 +37,5 @@ Lorsque le logo d'une équipe est cliqué, faites en sorte que 2pts soit ajouté
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../javascript/vue-js/introduction") ?>
-<?php intlink("../../javascript/vue-js/creation-app-bases") ?>
+<intlink href="../../javascript/vue-js/introduction"></intlink>
+<intlink href="../../javascript/vue-js/creation-app-bases"></intlink>

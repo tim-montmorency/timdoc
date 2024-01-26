@@ -11,7 +11,7 @@
 
  <grostitre>Rappel de l'introduction à l'animation d'une Sprite Sheet</grostitre>
 
- <?php intlink("../../../582-215MO/css/animation-sprite-sheet/") ?>
+ <intlink href="../../../582-215MO/css/animation-sprite-sheet/"></intlink>
 
  <dots></dots>
 

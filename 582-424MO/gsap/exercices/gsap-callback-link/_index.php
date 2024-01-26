@@ -35,7 +35,7 @@ Si le défilement descend ⬇️, ajoutez la classe&nbsp;<incode>.direction-do
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../scrolltrigger-intermediaire/") ?>
+<intlink href="../../scrolltrigger-intermediaire/"></intlink>
 
 
 

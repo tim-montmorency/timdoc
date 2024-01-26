@@ -57,7 +57,7 @@ Ajoutez un troisième menu déroulant supplémentaire permettant le choix entre 
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../javascript/fetch-api/") ?>
+<intlink href="../../javascript/fetch-api/"></intlink>
 <doclink href="https://smnarnold.com/cours/javascript/addeventlistener-intermediaire">AddEventListener() intermédiaire</doclink><br>
 <doclink href="https://smnarnold.com/cours/javascript/classlist">ClassList</doclink><br>
 <doclink href="https://smnarnold.com/cours/javascript/manipulation-des-contenus">Manipulation des contenus du DOM (éléments HTML)</doclink><br>

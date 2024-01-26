@@ -28,7 +28,7 @@ Le fond vert doit se révéler graduellement de façon synchrone avec le défile
 </checklist>
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../scrolltrigger-intermediaire/") ?>
+<intlink href="../../scrolltrigger-intermediaire/"></intlink>
 
 
 

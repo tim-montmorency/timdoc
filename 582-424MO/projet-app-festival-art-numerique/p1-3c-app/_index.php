@@ -22,7 +22,7 @@ App : faites en sorte que le bouton like sur la page artwork soit cliquable et q
 <warning>Toujours intégrer les fichiers de librairies externes (Bootstrap, Swiper etc) AVANT vos propres fichiers de projet (script.js ou styles.css). Car il faut initialiser l’objet JavaScript Swiper qui se trouve dans le fichier swiper.js AVANT de pouvoir en créer une instance dans votre fichier script.js. L’inverse ne fonctionnerait pas.</warning>
 
 <h3>Notes de cours 📚</h3>
-<?php intlink("../../swiper/#installation") ?> 
+<intlink href="../../swiper/#installation"></intlink> 
 <doclink href='https://swiperjs.com/get-started#use-swiper-from-cdn'>Install Swiper</doclink>
 
 <dots></dots>
@@ -60,7 +60,7 @@ Toujours dans l’initialisation de swiper dans votre fichier script.js, ajoutez
 
 
 <h3>Notes de cours 📚</h3>
-<?php intlink("../../swiper/#swiper") ?> 
+<intlink href="../../swiper/#swiper"></intlink> 
 
 <dots></dots>
 

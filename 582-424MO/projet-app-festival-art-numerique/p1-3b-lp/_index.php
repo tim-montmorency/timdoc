@@ -41,7 +41,7 @@ Attention, si vous faite un copier-coller des notes de cours ou du site Bootstra
 </checklist>
 
 <h3>Notes de cours 📚</h3>
-<?php intlink("../../bootstrap/accordeon") ?> 
+<intlink href="../../bootstrap/accordeon"></intlink> 
 
 <dots></dots>
 
@@ -62,9 +62,9 @@ Dans le HTML, ajoutez une ou des classes utilitaires Bootstrap pour insérer une
 </checklist>
 
 <h3>Notes de cours 📚</h3>
-<?php intlink("../../bootstrap/utilitaires") ?> 
-<?php intlink("../../bootstrap/breakpoints") ?> 
-<?php intlink("../../bootstrap/grille") ?> 
+<intlink href="../../bootstrap/utilitaires"></intlink> 
+<intlink href="../../bootstrap/breakpoints"></intlink> 
+<intlink href="../../bootstrap/grille"></intlink> 
 
 
 <dots></dots>
@@ -86,4 +86,4 @@ Il devra y avoir une transition lorsqu’on ouvre et ferme la modal (elle ne doi
 </checklist>
 
 <h3>Notes de cours 📚</h3>
-<?php intlink("../../bootstrap/modale") ?> 
+<intlink href="../../bootstrap/modale"></intlink> 

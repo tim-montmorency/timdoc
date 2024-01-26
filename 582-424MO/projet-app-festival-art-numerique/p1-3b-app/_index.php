@@ -47,9 +47,9 @@ Finalement, prenez le temps d’ajouter des classe utilitaire Bootstrap pour cr�
 </checklist>
 
 <h3>Notes de cours 📚</h3>
-<?php intlink("../../bootstrap/cartes") ?> 
-<?php intlink("../../bootstrap/utilitaires") ?> 
-<?php intlink("../../bootstrap/accordeon") ?> 
+<intlink href="../../bootstrap/cartes"></intlink> 
+<intlink href="../../bootstrap/utilitaires"></intlink> 
+<intlink href="../../bootstrap/accordeon"></intlink> 
 <dots></dots>
 
 <grostitre>Fenêtre modale </grostitre>
@@ -65,4 +65,4 @@ Il devra y avoir une transition lorsqu’on ouvre et ferme la modal (elle ne doi
 </checklist>
 
 <h3>Notes de cours 📚</h3>
-<?php intlink("../../bootstrap/modale") ?> 
+<intlink href="../../bootstrap/modale"></intlink> 

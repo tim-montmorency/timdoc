@@ -25,7 +25,7 @@ N'oubliez pas d'ajouter les informations de cette animation dans votre bloc <em>
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../gsap/morphage-svg") ?>
+<intlink href="../../gsap/morphage-svg"></intlink>
 
 
 

@@ -39,5 +39,5 @@ La grille de suggestions doit afficher autant de listes de lecture que possible 
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../css/grid/") ?>
+<intlink href="../../css/grid/"></intlink>
 

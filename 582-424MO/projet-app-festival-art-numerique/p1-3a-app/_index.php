@@ -35,9 +35,9 @@ Sur la rangée de la section actuelle, si vous souhaitez ajouter une marge en ha
 </checklist>
 
 <h4>Notes de cours 📚</h4>
-<?php intlink("../../bootstrap/cartes") ?> 
-<?php intlink("../../bootstrap/utilitaires") ?> 
-<?php intlink("../../bootstrap/grille") ?> 
+<intlink href="../../bootstrap/cartes"></intlink> 
+<intlink href="../../bootstrap/utilitaires"></intlink> 
+<intlink href="../../bootstrap/grille"></intlink> 
 <dots></dots>
 <grostitre>Section autres oeuvres</grostitre>
 <p>Aperçu du résultat pour autres oeuvres👇</p>
@@ -53,6 +53,6 @@ Ajustez le contenu de toutes vos cartes en y insérant les infos réelles 6 oeuv
 </checklist>
 
 <h4>Notes de cours 📚</h4>
-<?php intlink("../../bootstrap/cartes") ?> 
-<?php intlink("../../bootstrap/utilitaires") ?> 
-<?php intlink("../../bootstrap/grille") ?> 
+<intlink href="../../bootstrap/cartes"></intlink> 
+<intlink href="../../bootstrap/utilitaires"></intlink> 
+<intlink href="../../bootstrap/grille"></intlink> 

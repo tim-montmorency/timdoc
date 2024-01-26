@@ -31,7 +31,7 @@ Déplacez la tête de lecture de la vidéo en fonction de la progression du déf
 </checklist>
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../scrolltrigger-intermediaire/") ?>
+<intlink href="../../scrolltrigger-intermediaire/"></intlink>
 <doclink href='https://smnarnold.com/cours/javascript/audio-and-video'>Audio & vidéo</doclink>
 
 

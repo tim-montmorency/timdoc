@@ -48,7 +48,7 @@ Ajoutez une option de changement de langue dans le menu principal. Attention de 
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../wordpress/posts-personnalises/") ?>
-<?php intlink("../../wordpress/advanced-custom-fields/") ?>
-<?php intlink("../../wordpress/menus/") ?>
-<?php intlink("../../wordpress/wp-multilang/") ?>
+<intlink href="../../wordpress/posts-personnalises/"></intlink>
+<intlink href="../../wordpress/advanced-custom-fields/"></intlink>
+<intlink href="../../wordpress/menus/"></intlink>
+<intlink href="../../wordpress/wp-multilang/"></intlink>

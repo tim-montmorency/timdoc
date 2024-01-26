@@ -34,5 +34,5 @@ Au clic du bouton <em>"Reculons"</em>, la voiture doit traverser la largeur comp
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../controle-animation/") ?>
+<intlink href="../../controle-animation/"></intlink>
 

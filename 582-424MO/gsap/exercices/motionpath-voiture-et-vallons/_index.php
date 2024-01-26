@@ -37,4 +37,4 @@ Dans le HTML, rechangez la valeur de <incode>fill-opacity</incode> du tracé <em
 
 
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../parcours-mouvement/") ?>
+<intlink href="../../parcours-mouvement/"></intlink>

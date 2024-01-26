@@ -23,7 +23,7 @@ Enlevez les références à ScrollSpy à moins que vous ayez réussi à bien l�
 <checklist>Installez la librairie dans la page app/index.html (artwork.html n'en aura pas besoin alors on ne chargera pas la librarie pour rien dans cette page.)</checklist>
 <warning>Toujours intégrer les fichiers de librairies externes (Bootstrap, Swiper etc) AVANT vos propres fichiers de projet (script.js ou styles.css). Car il faut initialiser l’objet JavaScript Swiper qui se trouve dans le fichier swiper.js AVANT de pouvoir en créer une instance dans votre fichier script.js. L’inverse ne fonctionnerait pas.</warning>
 <h3>Notes de cours 📚</h3>
-<?php intlink("../../swiper/#installation") ?> 
+<intlink href="../../swiper/#installation"></intlink> 
 <doclink href='https://swiperjs.com/get-started#use-swiper-from-cdn'>Install Swiper</doclink>
 
 
@@ -54,7 +54,7 @@ Si vous voulez aller plus loin, vous pouvez essayer d’ajouter un cadre comme d
 
 
 <h3>Notes de cours 📚</h3>
-<?php intlink("../../swiper/#swiper") ?> 
+<intlink href="../../swiper/#swiper"></intlink> 
 
 <dots></dots> 
 

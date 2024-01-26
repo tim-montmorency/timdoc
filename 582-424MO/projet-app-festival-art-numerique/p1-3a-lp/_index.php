@@ -34,9 +34,9 @@ Sur les rangées et les colonnes de la section actuelle, si vous souhaitez ajout
 </checklist>
 
 <h4>Notes de cours 📚</h4>
-<?php intlink("../../bootstrap/cartes") ?> 
-<?php intlink("../../bootstrap/utilitaires") ?> 
-<?php intlink("../../bootstrap/grille") ?> 
+<intlink href="../../bootstrap/cartes"></intlink> 
+<intlink href="../../bootstrap/utilitaires"></intlink> 
+<intlink href="../../bootstrap/grille"></intlink> 
 <dots></dots>
 <grostitre>Section Témoignages</grostitre>
 <checklist>
@@ -53,6 +53,6 @@ Assurez-vous aussi d’alterner la couleur de fond de chacune de vos section pou
 </checklist>
 
 <h4>Notes de cours 📚</h4>
-<?php intlink("../../bootstrap/cartes") ?> 
-<?php intlink("../../bootstrap/utilitaires") ?> 
-<?php intlink("../../bootstrap/grille") ?> 
+<intlink href="../../bootstrap/cartes"></intlink> 
+<intlink href="../../bootstrap/utilitaires"></intlink> 
+<intlink href="../../bootstrap/grille"></intlink> 
