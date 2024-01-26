@@ -248,3 +248,21 @@ a.doclink {
         background-color: #6a7077;
     }
 }
+
+.doclink.vuejs {
+    .doclink-icon {
+        background-image: url('../images/icons/vuejs-icon.webp');
+    }
+    &::before {
+        background-color: #41b883;
+    }
+}
+
+.doclink.wordpress {
+    .doclink-icon {
+        background-image: url('../images/icons/wordpress-icon.webp');
+    }
+    &::before {
+        background-color: #21759b;
+    }
+}

@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Boucle SASS
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Plusieurs classes CSS similaires avec une légère variation
  * @index    30
  * @ref      web/sass

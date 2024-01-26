@@ -4,7 +4,8 @@
  * @title    Fetch API
  * @icon     images/ico-fetch.png
  * @abstract L'API Fetch: interface pour récupération de ressources à travers le réseau
- * @index 97
+ * @index    97
+ * @ref      web/javascript
  */
 ?>
 <p>Le Fetch API va chercher une ressource se trouvant sur un serveur et la ramène afin de pouvoir la manipuler.</p>

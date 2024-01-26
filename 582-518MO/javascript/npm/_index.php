@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    NPM
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract Gestionnaire de paquets JS
- * @index 30
+ * @index    30
+ * @ref      web/outils
  */
 ?>
 

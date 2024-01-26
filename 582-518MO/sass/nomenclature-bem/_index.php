@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Nomenclature BEM
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Nomenclature CSS: Block, Element, and Modifier
  * @index    19
  * @ref      web/sass

@@ -3,8 +3,9 @@
 /**
  * @type     article
  * @title    Accordéon
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Accordéons avec sections qui se replient verticalement 
+ * @ref      web/cadriciels/bootstrap
  */
 ?>
 

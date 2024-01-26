@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Introduction
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Syntactically Awesome Style Sheets
  * @index    100
  * @ref      web/sass

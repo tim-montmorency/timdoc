@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    4-Contrôle d'une animation
- * @icon     images/icon.svg
+ * @icon     ../images/icon.webp
  * @abstract play, pause, reverse, timscale, progress, seek
  * @index    997
+ * @ref      web/cadriciels/gsap
  */
 ?>
 

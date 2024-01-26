@@ -31,6 +31,8 @@ a.tool {
             background-repeat: no-repeat;
             background-size: cover;
             aspect-ratio: 4/3;
+            box-sizing: content-box;
+            border: 1px solid #f3ca40;
         }
 
         div.tool-abstract {

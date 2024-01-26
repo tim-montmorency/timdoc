@@ -2,7 +2,7 @@
 /**
  * @type     list
  * @title    WordPress
- * @icon     medias/icon-wp.png
+ * @icon     medias/icon.webp
  * @abstract Système de gestion de contenu
  * @index    1
  */

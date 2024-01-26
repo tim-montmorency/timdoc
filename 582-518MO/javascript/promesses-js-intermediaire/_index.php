@@ -4,7 +4,8 @@
  * @title    Promesses JS intermédiaire
  * @icon     images/ico-promesse-js.png
  * @abstract promise.all(), promise.any()...
- * @index 98
+ * @index    98
+ * @ref      web/javascript
  */
 ?>
 

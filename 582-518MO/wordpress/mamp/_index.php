@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    MAMP
- * @icon     images/icon-mamppro.png
+ * @icon     images/icon.webp
  * @abstract Environnement de serveur local pour exécuter WordPress
- * @index 100
+ * @index    100
+ * @ref      web/outils
  */
 ?>
 <p>MAMP est un environnement de serveur local gratuit fournissant le nécessaire afin d'exécuter WordPress à des fins de développement. Son acronyme provient des mots:<br>

@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    2-Objet et méthodes
- * @icon     images/icon.svg
+ * @icon     ../images/icon.webp
  * @abstract L'objet GSAP et ses méthodes d'animation de base
  * @index    999
+ * @ref      web/cadriciels/gsap
  */
 ?>
 

@@ -2,7 +2,7 @@
 /**
  * @type     list
  * @title    Vue.js
- * @icon     images/ico-vue.png
+ * @icon     images/icon.webp
  * @abstract Cadriciel JavaScript
  * @index    96
  */

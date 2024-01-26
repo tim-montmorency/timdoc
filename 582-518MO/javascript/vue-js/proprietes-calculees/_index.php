@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    Propriétés calculées
- * @icon     images/ico-vue.png
+ * @icon     ../images/icon.webp
  * @abstract Faire des expressions de base dans un template Vue
- * @index 80
+ * @index    80
+ * @ref      web/cadriciels/vuejs
  */
 ?>
 <p>Il est possible de faire des expressions de base dans un template Vue.&nbsp;</p><p>Par exemple, afin de convertir une devise en une autre 💵:</p>

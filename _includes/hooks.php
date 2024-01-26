@@ -133,7 +133,7 @@ register_tag('references', function($html, $attrs, $data) {
     $str = '';
     foreach(getIndexReferences($ref) as $info) {
         $url = getRelativePath($this->file, pathinfo($info->file, PATHINFO_DIRNAME));
-        $thumb = $url.$info->icon;
+        $thumb = getRelativePath(pathinfo($this->file, PATHINFO_DIRNAME), realpath(pathinfo($this->file, PATHINFO_DIRNAME).'/'.$url.$info->icon));
         $str .= <<<EOD
         <div class="list-grid__item">
             <div class="list-grid__item__icon" style="background-image: url({$thumb});"></div>

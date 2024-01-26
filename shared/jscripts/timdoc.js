@@ -122,6 +122,55 @@ const hcd = (a,b) => {
 
 
 /******************************************************
+ *                 Load Forced Theme                  *
+ ******************************************************/
+const urlParams = new URLSearchParams(window.location.search);
+if(urlParams.get('dark') !== null) localStorage.setItem('darkmode', 'true');
+if(urlParams.get('light') !== null) localStorage.setItem('darkmode', 'false');
+
+
+/******************************************************
+ *                 Register URL Lang                  *
+ ******************************************************/
+hljs.registerLanguage('url', () => {
+    return {
+      case_insensitive: true,
+      contains: [
+          hljs.HASH_COMMENT_MODE,
+          {
+              className: "code",
+              begin: /(https?|ftp|file)(?=(:\/\/))/,
+          },
+          {
+              className: "meta hljs-emphasis",
+              begin: /(?<=((https?|ftp|file):\/\/))[^@:\/\?\n\r]+/,
+          },
+          {
+              className: "comment",
+              begin: /(?<=((https?|ftp|file):\/\/[^:\/@\n\r]+)@)[^:\/\n\r]+/,
+          },
+          {
+              className: "tag hljs-emphasis",
+              begin: /(?<=((https?|ftp|file):\/\/[^:\/\n\r]+):)[0-9]+/,
+          },
+          {
+              className: "symbol",
+              begin: /(?<=((https?|ftp|file):\/\/[^\/\n\r]+)\/)[^?\n\r]+/,
+          },
+          {
+              className: "literal",
+              begin: /(?<=[?&])[^=?&\n\r]+/,
+          },
+          {
+              className: "meta",
+              begin: /(?<=\=)[^=?&\n\r]+/,
+          }
+      ],
+    }
+  });
+
+
+/******************************************************
  *                     Main App                       *
  ******************************************************/
  const app = Vue.createApp({
@@ -556,6 +605,14 @@ app.component('doclink', {
                 case 'learn.unity.com': site = 'unity'; break;
                 case 'id.unity.com': site = 'unity'; break;
                 case 'unity.com': site = 'unity'; break;
+                case 'vuejs.org': site = 'vuejs'; break;
+                case 'v3.vuejs.org': site = 'vuejs'; break;
+                case 'developer.wordpress.org': site = 'wordpress'; break;
+                case 'fr-ca.wordpress.org': site = 'wordpress'; break;
+                case 'fr.wordpress.org': site = 'wordpress'; break;
+                case 'wordpress.org': site = 'wordpress'; break;
+                case 'www.advancedcustomfields.com': site = 'wordpress'; break;
+                
                 
             }
         } catch(e) {
@@ -1274,7 +1331,3 @@ app.component('criteria', {
     },
     template: `<img :src="this.source" :alt="this.alt" :class="this.class">`
 });
-
-const urlParams = new URLSearchParams(window.location.search);
-if(urlParams.get('dark') !== null) localStorage.setItem('darkmode', 'true');
-if(urlParams.get('light') !== null) localStorage.setItem('darkmode', 'false');

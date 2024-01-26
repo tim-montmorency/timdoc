@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    7-ScrollTrigger intermédiaire
- * @icon     images/icon.svg
+ * @icon     ../images/icon.webp
  * @abstract Scrub, pin, pinspacing, callbacks
  * @index    750
+ * @ref      web/cadriciels/gsap
  */
 ?>
 

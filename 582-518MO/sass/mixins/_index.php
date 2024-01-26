@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    Mixins
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Créer des extraits de CSS pouvant être réutilisés
  * @index    25
  * @ref      web/sass

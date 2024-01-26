@@ -3,8 +3,9 @@
 /**
  * @type     article
  * @title    NavBar
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract La barre de navigation Bootstrap
+ * @ref      web/cadriciels/bootstrap
  */
 ?>
 <grostitre>Introduction</grostitre>

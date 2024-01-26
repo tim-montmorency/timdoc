@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    Yoast-SEO
- * @icon     images/icon-wp.png
+ * @icon     ../medias/icon.webp
  * @abstract Optimisation des moteurs de recherche (SEO)
- * @index 75
+ * @index    75
+ * @ref      web/wordpress
  */
 ?>
 

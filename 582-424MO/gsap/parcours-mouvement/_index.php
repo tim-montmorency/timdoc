@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    10-Animation sur un tracé
- * @icon     images/icon.svg
+ * @icon     ../images/icon.webp
  * @abstract MotionPath: animer un élément  sur un tracé
  * @index    523
+ * @ref      web/cadriciels/gsap
  */
 ?>
 

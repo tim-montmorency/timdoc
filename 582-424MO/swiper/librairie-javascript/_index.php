@@ -2,8 +2,9 @@
 /**
  * @type     article
  * @title    Librarie JavaScript
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Qu'est-ce qu'une librairie JavaScript?
+ * @ref      web/cadriciels/swiper
  */
  ?>
 

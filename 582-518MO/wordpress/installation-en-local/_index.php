@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    Installation en local
- * @icon     images/icon-wp.png
+ * @icon     ../medias/icon.webp
  * @abstract Installer WordPress pour développement en local
- * @index 99
+ * @index    99
+ * @ref      web/wordpress
  */
 ?>
 

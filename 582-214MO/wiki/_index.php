@@ -39,12 +39,6 @@
 <h2>Introduction à l'animation</h2>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ec_RF5ZJ5A5EksrsMxbaea8BhOe1vZTRc_xzGgMddNq_BQ?e=H6mjL1">Présentation</doclink>
 
-<h2>Présentation d'anciens projets</h2>
-<doclink href="https://tim-montmorency.com/essais-audiovisuels/">Sur le web</doclink>
-
-<h2>Exemples pros</h2>
-<doclink href=" ">Document pdf</doclink>
-
 <p><h1>Illustrator</h1></p>
 <p><h3>La base:</h3>
 <li><a href="https://www.apple.com/xf/shop/product/MK293FC/A/magic-keyboard-avec-touch-id-pour-mac-%C3%A0-puce-apple-fran%C3%A7ais">Rappel: le clavier MAC</a> </li>
@@ -145,7 +139,7 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Eb09rvJNvZBMgL3Aqm2bBVIB0-JqHEbDOWhYHycTYAEx4Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LJx1uG">Simplifier les contours</a></li>
 </ul></p>
 
-<intlink href="../exercices/05_crayon_Shaper"></intlink></p>
+<intlink href="../exercices/05_crayon_shaper"></intlink></p>
 
 
 <p><h3>Notions</h3>

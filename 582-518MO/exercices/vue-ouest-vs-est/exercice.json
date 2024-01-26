@@ -1,6 +1,6 @@
 {
     "type": "exercice",
     "title": "Vue - Ouest VS Est",
-    "icon": "images\/pink-palette-resultat.png",
+    "icon": "images\/thumb.webp",
     "abstract": "Afin d\u2019afficher quel rappeur appartenait \u00e0 quel camp est ou ouest, vous devrez compl\u00e9ter une app Vue."
 }

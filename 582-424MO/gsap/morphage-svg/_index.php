@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    12-Morphage SVG 
- * @icon     images/icon.svg
+ * @icon     ../images/icon.webp
  * @abstract MorphSVG: Transition entre 2 formes distinctes
  * @index    300
+ * @ref      web/cadriciels/gsap
  */
 ?>
 

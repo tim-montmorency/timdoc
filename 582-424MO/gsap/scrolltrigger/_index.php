@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    6-ScrollTrigger
- * @icon     images/icon.svg
+ * @icon     ../images/icon.webp
  * @abstract Synchroniser une animation le scroll : intro, markers, start, end, toggleActions
  * @index    800
+ * @ref      web/cadriciels/gsap
  */
 ?>
 

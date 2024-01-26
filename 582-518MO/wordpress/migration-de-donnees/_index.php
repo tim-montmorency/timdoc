@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    Migration de données
- * @icon     images/icon-wp.png
+ * @icon     ../medias/icon.webp
  * @abstract Migrer les données d'un site WordPress vers un autre
- * @index 13
+ * @index    13
+ * @ref      web/wordpress
  */
 ?>
 
@@ -38,6 +39,7 @@
 <doclink href='https://wordpress.org/support/article/tools-import-screen/'>Import</doclink>
 
 <br><br>
+<!-- 
               <aside class="exercice-card">
     <div class="exercice-card__content">
       <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
@@ -50,4 +52,6 @@ Votre...</p>
           </div>
 
       </aside>
- 
+  -->
+
+<exercice href="../../exercices/wp-query-les-bagnoles/"></exercice>
