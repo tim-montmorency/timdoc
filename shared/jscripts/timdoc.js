@@ -611,9 +611,8 @@ app.component('doclink', {
                 case 'fr-ca.wordpress.org': site = 'wordpress'; break;
                 case 'fr.wordpress.org': site = 'wordpress'; break;
                 case 'wordpress.org': site = 'wordpress'; break;
+                case 'wordpress.com': site = 'wordpress'; break;
                 case 'www.advancedcustomfields.com': site = 'wordpress'; break;
-                
-                
             }
         } catch(e) {
             if(this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';

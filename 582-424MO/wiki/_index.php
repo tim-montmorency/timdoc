@@ -122,6 +122,10 @@
 -->
 <wiki-page name="Cours 02" date="2024-01-21">
     <!-- <h2>Révision et évaluation formative (quiz)</h2>-->
+
+    <h2>Annonces</h2>
+    <p>Tutorat</p>
+    
 </wiki-page>
 
 
@@ -141,6 +145,10 @@
 ----------------------->
 <wiki-page name="Cours 03" date="2024-02-28">
     <h2>Révision et évaluation formative (quiz)</h2>
+
+    <h2>Annonces</h2>
+    <p>Tutorat</p>
+    
 </wiki-page>
 
 
