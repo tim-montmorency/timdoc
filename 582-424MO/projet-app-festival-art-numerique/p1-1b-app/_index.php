@@ -39,7 +39,7 @@
   <li>un guide de styles, créé dans Figma, exporté en <em>.png</em>, qui démontre:
     <ul>
       <li>les 5 couleurs de votre palette, ainsi que leurs codes hexadécimaux ou leurs valeurs RGB</li>
-      <li>une démo de votre police de caractère sélectionnéee et le nom de cette typographie</li>
+      <li>une démo de votre police de caractère sélectionnée et le nom de cette typographie</li>
   </ul>
 </ul>
 <p>Bien nommer votre dossier <em>[vosdeux_nomsdefamille]_P1-1_582-424MO</em>. Le fichier .zip devra aussi porter ce nom.</p>
