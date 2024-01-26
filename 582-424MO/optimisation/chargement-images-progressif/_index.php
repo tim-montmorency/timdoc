@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    5-Chargement d'image progressif
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Chargement d'image progressif ou lazy laoding
  * @index    20
+ * @ref      web/optimisation
  */
 ?>
 
@@ -12,7 +13,7 @@
  
 <grostitre>Principe du chargement différé "lazy load"</grostitre>
 
-<doclink href='https://developer.mozilla.org/fr/docs/Web/Performance/Lazy_loading '>Lazy laoding</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/Performance/Lazy_loading">Lazy laoding</doclink>
 
 <dots></dots>
 <grostitre>Librarie "Progressive image"</grostitre>

@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    1-Introduction
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Optimisation de la vitesse des sites web
  * @index    500
+ * @ref      web/optimisation
  */
 ?>
 

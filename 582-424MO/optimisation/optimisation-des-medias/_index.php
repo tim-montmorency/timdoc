@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    4-Optimisation des médias
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Optimiser rapport poids/qualité de vos images...
  * @index    30
+ * @ref      web/optimisation
  */
 ?>
 
