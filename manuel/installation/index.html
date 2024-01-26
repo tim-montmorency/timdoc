@@ -62,7 +62,7 @@
                     <span class="tool-title">Live Server</span>
                     <span class="tool-description">Serveur web avec rafraîchissement automatique.</span>
                 </div>
-                <div class="tool-thumb" style="background-image: url(tools/live-server/images/thumb.jpg)"></div>
+                <div class="tool-thumb" style="background-image: url(tools/live-server/images/thumb.webp)"></div>
             </div>
         </a>
         <a class="tool" target="_blank" href="https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave">
@@ -72,7 +72,7 @@
                     <span class="tool-title">Run On Save</span>
                     <span class="tool-description">Roule une commande précise automatiquement lors de la sauvegarde d'un fichier.</span>
                 </div>
-                <div class="tool-thumb" style="background-image: url(tools/run-on-save/images/thumb.jpg)"></div>
+                <div class="tool-thumb" style="background-image: url(tools/run-on-save/images/thumb.webp)"></div>
             </div>
         </a>
         <a class="tool" target="_blank" href="https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass">
@@ -82,19 +82,78 @@
                     <span class="tool-title">Live Sass Compiler</span>
                     <span class="tool-description">Compile du SASS/SCSS en temps réel. Par Glenn Marks.</span>
                 </div>
-                <div class="tool-thumb" style="background-image: url(tools/live-sass-compiler/images/thumb.jpg)"></div>
+                <div class="tool-thumb" style="background-image: url(tools/live-sass-compiler/images/thumb.webp)"></div>
             </div>
         </a>
-        <a class="tool" target="_blank" href="https://marketplace.visualstudio.com/items?itemName=olback.es6-css-minify">
+        <a class="tool" target="_blank" href="https://marketplace.visualstudio.com/items?itemName=josee9988.minifyall">
             <div class="tool-container">
                 <div class="tool-abstract">
                     <em class="tool-label">OUTIL</em>
-                    <span class="tool-title">JS & CSS Minifier (Minify)</span>
-                    <span class="tool-description">Minifier votre javascript ES5/ES6/ES7/ES8 and CSS. Supporte minify on save et minify selection.</span>
+                    <span class="tool-title">MinifyAll</span>
+                    <span class="tool-description">Minifier for JSON, CSS, HTML, XML, TWIG, LESS, SASS, SCSS, JavaScript, JSONC, and JavaScriptReact(testing). Compressor of files and folders.</span>
                 </div>
-                <div class="tool-thumb" style="background-image: url(tools/minify/images/thumb.jpg)"></div>
+                <div class="tool-thumb" style="background-image: url(tools/minifyall/images/thumb.webp)"></div>
             </div>
         </a>
+
+<dots></dots>
+
+<grostitre>Configuration VS Code</grostitre>
+
+<p>Le projet TIMdoc est déjà préconfiguré dans le fichier <span class="inline-code">.vscode/settings.json</span>.</p>
+
+
+<highlight lang="json">{
+    &quot;emeraldwalk.runonsave&quot;: {
+        &quot;autoClearConsole&quot;: true,
+        &quot;commands&quot;: [
+            {
+                &quot;match&quot;: &quot;.*\\.php$&quot;,
+                &quot;cmd&quot;: &quot;pxpros \&quot;${file}\&quot;&quot;
+            }
+        ]
+    },
+    &quot;liveServer.settings.port&quot;: 5501,
+    &quot;liveSassCompile.settings.formats&quot;: [
+        {
+            &quot;format&quot;: &quot;expanded&quot;,
+            &quot;extensionName&quot;: &quot;.css&quot;,
+            &quot;savePath&quot;: null,
+            &quot;savePathReplacementPairs&quot;: null
+        },
+        {
+            &quot;format&quot;: &quot;compressed&quot;,
+            &quot;extensionName&quot;: &quot;.min.css&quot;,
+            &quot;savePath&quot;: null,
+            &quot;savePathReplacementPairs&quot;: null
+        }
+    ],
+    &quot;MinifyAll.disableCss&quot;: true,
+    &quot;MinifyAll.disableHtml&quot;: true,
+    &quot;MinifyAll.disableJson&quot;: true,
+    &quot;MinifyAll.disableJsonc&quot;: true,
+    &quot;MinifyAll.disableLess&quot;: true,
+    &quot;MinifyAll.disablePhp&quot;: true,
+    &quot;MinifyAll.disableSass&quot;: true,
+    &quot;MinifyAll.disableScss&quot;: true,
+    &quot;MinifyAll.disableTwig&quot;: true,
+    &quot;MinifyAll.disableXml&quot;: true,
+    &quot;MinifyAll.PrefixOfNewMinifiedFiles&quot;: &quot;.min&quot;,
+    &quot;MinifyAll.disableJavascriptReact&quot;: false,
+    &quot;MinifyAll.minifyOnSaveToNewFile&quot;: true,
+    &quot;MinifyAll.openMinifiedDocument&quot;: false,
+    &quot;MinifyAll.terserMinifyOptions&quot;: {
+        &quot;mangle&quot;: true,
+        &quot;compress&quot;: {
+            &quot;drop_console&quot;: false,
+            &quot;dead_code&quot;: true,
+            &quot;keep_fnames&quot;: false,
+            &quot;keep_classnames&quot;: false
+        }
+    },
+}</highlight>
+
+<dots></dots>
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>
