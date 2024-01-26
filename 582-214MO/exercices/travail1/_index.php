@@ -47,8 +47,20 @@ Assurez-vous d’avoir bien séparé vos calques, donc si dans les captures d’
 <dots></dots>
 <grostitre>Couleurs</grostitre>
 <checklist>
-Vous devez utiliser les <a href ="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EcAg4pZkm4RAjshco8Vz_9wBk-h10DL1AqXznu8GzkefYg?e=BqWDYQ">couleurs suivantes</a> pour votre projet.
+Vous devez créer un nuancier et utiliser les <a href ="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EcAg4pZkm4RAjshco8Vz_9wBk-h10DL1AqXznu8GzkefYg?e=BqWDYQ">couleurs suivantes</a> pour votre projet:
 </checklist>
+
+<p><color>#172c33</color>
+<color>#1b4c5b</color>
+<color>#2d8e68</color>
+<color>#4e9f97</color>
+<color>#4ec697</color>
+<color>#bcc14e</color>
+<color>#d0392c</color>
+<color>#f18f86</color>
+<color>#f3dabe</color>
+<color>#f7f4e0</color>
+</p>
 
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EflcI5ZOR8xIl46ngt7spSsBSFeQLmCSyCrUXubUpSYZbw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZKzBqn">Capsule vidéo référence</doclink>
 
