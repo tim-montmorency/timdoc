@@ -22,7 +22,7 @@
 <grostitre>Installation de Node.js</grostitre>
 <p>D'abord installez node.js.</p>
 <p>Pour vérifier son installation sur un poste ou simplement pour voir son numéro de version, il est possible de taper dans un terminal la commande:</p>
-<highlight lang="cmd">node -v</highlight>
+<highlight lang="console">> node -v</highlight>
 <p><incode>-v</incode> comme dans <em>"version"</em>.</p>
 
 <p>S'il n'est pas installé, il est conseillé de l'installer via un <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-version-manager-to-install-nodejs-and-npm" target="_blank" rel="noopener noreferrer">Node Version Manager</a>. </p>
@@ -34,7 +34,7 @@
 
 <p>Pour vérifier son installation sur un poste ou simplement pour voir son numéro de version, il est possible de taper dans un terminal la commande:</p>
 
-<highlight lang="cmd">npm -v</highlight>
+<highlight lang="console">> npm -v</highlight>
 
 <p><incode>-v</incode> comme dans <em>"version"</em>.</p>
 
