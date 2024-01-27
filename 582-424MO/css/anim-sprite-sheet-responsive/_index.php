@@ -53,7 +53,7 @@
 
 <dots></dots>
 <p>En vous basant sur cette information, je vous laisse essayer de comprendre comment on peut faire une "sprite sheet" réactive avec cet exercice exploratoire:</p>
-<exercice href='../exercices/sprite-sheet-responsive/'></exercice>
+<exercice href="../exercices/sprite-sheet-responsive/"></exercice>
 
 
 

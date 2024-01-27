@@ -32,9 +32,9 @@
 <info>Puisqu’il y a plus d’éléments que de colonnes, une 2e rangée est automatiquement créée afin d’accommoder tous les items. La première rangée est donc explicite tandis que la deuxième est&nbsp;implicite.</info>
 
 
-<doclink href='https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-columns'>grid-template-columns</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-columns">grid-template-columns</doclink>
 
-<doclink href='https://www.w3schools.com/cssref/pr_grid-template-columns.php'>grid-template-columns</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_grid-template-columns.php">grid-template-columns</doclink>
 
 
 
@@ -58,9 +58,9 @@
 <info>Il aurait été possible de créer plus de rangées. Cependant, ces rangées auraient étés vides puisqu’il n’y a seulement assez d’éléments pour combler deux rangées de trois&nbsp;colonnes.</info>
 
 
-<doclink href='https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-rows'>grid-template-rows</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-rows">grid-template-rows</doclink>
 
-<doclink href='https://www.w3schools.com/cssref/pr_grid-template-rows.php'>grid-template-rows</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_grid-template-rows.php">grid-template-rows</doclink>
 
 
 
@@ -83,8 +83,8 @@
 </p>
 
 
-<doclink href='https://developer.mozilla.org/fr/docs/Web/CSS/column-gap'>column-gap</doclink>
-<doclink href='https://www.w3schools.com/cssref/css3_pr_column-gap.php'>column-gap</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/column-gap">column-gap</doclink>
+<doclink href="https://www.w3schools.com/cssref/css3_pr_column-gap.php">column-gap</doclink>
 
 
 
@@ -99,8 +99,8 @@
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-<doclink href='https://developer.mozilla.org/fr/docs/Web/CSS/row-gap'>row-gap</doclink>
-<doclink href='https://www.w3schools.com/cssref/css3_pr_row-gap.php'>row-gap</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/row-gap">row-gap</doclink>
+<doclink href="https://www.w3schools.com/cssref/css3_pr_row-gap.php">row-gap</doclink>
 
 
 <h3 class="heading heading--h3" id="gap">gap</h3>
@@ -120,8 +120,8 @@
 <warning>Pratiquement toutes les unités, <strong>sauf les fr</strong>, peuvent êtres utilisées pour les propriété de type&nbsp;gap.</warning>
 
 
-<doclink href='https://developer.mozilla.org/fr/docs/Web/CSS/gap'>gap</doclink>
-<doclink href='https://www.w3schools.com/cssref/css3_pr_gap.php'>gap</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/gap">gap</doclink>
+<doclink href="https://www.w3schools.com/cssref/css3_pr_gap.php">gap</doclink>
 
 
 
@@ -187,8 +187,8 @@
 <dots></dots>
 <grostitre>Unité minmax()</grostitre>
 <p>Comme son nom l'indique, <strong>l'unité</strong> <incode>minmax()</incode> permet de définir une dimension minimale et maximale à une cellule de grille. Cette unité est particulièrement utile afin de créer une mise en page responsive tout en évitant que certains éléments se retrouve trop coincés.</p><p>Par exemple, deux grilles identiques avec toutes les cellule d'une largeur de <incode>1fr</incode> à l'exception de la 2<sup>e</sup> cellule verte ayant une valeur de <incode>minmax(200px, 1fr)</incode>.</p>
-<clipasset src='images/grid-minmax.mp4'></clipasset>
-<doclink href='https://developer.mozilla.org/fr/docs/Web/CSS/minmax()'>minmax()</doclink>
+<clipasset src="images/grid-minmax.mp4"></clipasset>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/minmax()">minmax()</doclink>
 
 
 
@@ -213,7 +213,7 @@
 
 <p>Permet d'afficher autant d'éléments sur une rangée qu'il y a d'espace disponible.</p>
 
-<clipasset src='images/grid-repeat-fit-content.mp4'></clipasset>
+<clipasset src="images/grid-repeat-fit-content.mp4"></clipasset>
 
 
 
@@ -245,7 +245,7 @@
 </p>
 
 
-<doclink href='https://developer.mozilla.org/fr/docs/Web/CSS/repeat()'>repeat()</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/repeat()">repeat()</doclink>
 
 
 
@@ -256,9 +256,9 @@
 <grostitre>Inspecteur</grostitre>
 <p>L'inspecteur est d'une aide précieuse lorsque l'on manipule les éléments en grid. Dans le DOM tree, les éléments en&nbsp;<incode>display: grid;</incode>&nbsp;ou&nbsp;<incode>display: inline-grid;</incode>&nbsp;sont mis en évidence grâce à un badge contenant le mot&nbsp;<em>"grid"</em>. Lorsque cliqué, ce badge met en surbrillance les divisions constituant la grille en question.</p><p>Dans l'onglet <em>layout</em>, il est possible d'afficher des informations supplémentaires. Notamment, étendre  les divisions afin de les rendre plus visibles, afficher la taille des colonnes et rangées, etc.</p>
 
-<clipasset src='images/grid-inspector-layout.mp4'></clipasset>
+<clipasset src="images/grid-inspector-layout.mp4"></clipasset>
 
  <dots></dots>    
 
-<exercice href='../../exercices/grid-spotify/'></exercice>
+<exercice href="../../exercices/grid-spotify/"></exercice>
 

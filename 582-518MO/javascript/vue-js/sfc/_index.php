@@ -37,7 +37,7 @@ export default {
 
 
 <info>Ces fichiers utilisent l’extension&nbsp;<incode>*.vue</incode>.</info>
-<doclink href='https://vuejs.org/api/sfc-spec.html'>SFC</doclink>
+<doclink href="https://vuejs.org/api/sfc-spec.html">SFC</doclink>
 
 <dots></dots>
 <grostitre>Importation</grostitre>

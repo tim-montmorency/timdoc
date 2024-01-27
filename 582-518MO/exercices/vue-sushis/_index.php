@@ -9,7 +9,7 @@
 
 <p>Pour cet exercice, vous devez compléter un menu d’un restaurant de sushis 🍣 permettant de visualiser le détail d’une commande en temps&nbsp;réel.</p>
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/vue-sushis-resultat.mp4'></clipasset>
+<clipasset src="images/vue-sushis-resultat.mp4"></clipasset>
 <dots></dots>
 <grostitre>Matériel</grostitre>
 <a href="images/prenom-nom.zip" target="_blank" rel="noopener noreferrer" download="" class="starting-files">Dossier de départ 📁</a>

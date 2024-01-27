@@ -105,7 +105,7 @@
 
 
 <br>
-<doclink href='https://developer.wordpress.org/rest-api/reference/posts/#arguments'>Arguments</doclink>
+<doclink href="https://developer.wordpress.org/rest-api/reference/posts/#arguments">Arguments</doclink>
 
 
 <info>Le premier paramètre est séparé de l’URL grâce à un point d’interrogation <em>(?)</em>. Tous les paramètres suivants sont séparés entre eux par une perluète&nbsp;<em>(&amp;)</em>.</info>
@@ -140,7 +140,7 @@
 <highlight lang="javascript">referencAuPost._embedded['wp:featuredmedia'][0].source_url</highlight>
 
 <br><br>
-<doclink href='https://developer.wordpress.org/rest-api/using-the-rest-api/global-parameters/#_embed'>_embed</doclink>
+<doclink href="https://developer.wordpress.org/rest-api/using-the-rest-api/global-parameters/#_embed">_embed</doclink>
 
 
 
@@ -187,4 +187,4 @@ fetch(&quot;/wp-json/wp/v2/posts/&lt;?php the_ID(); ?&gt;&quot;)
 
 
 <br> <br>
-<doclink href='https://developer.wordpress.org/rest-api/using-the-rest-api/global-parameters/'>REST API</doclink>
+<doclink href="https://developer.wordpress.org/rest-api/using-the-rest-api/global-parameters/">REST API</doclink>

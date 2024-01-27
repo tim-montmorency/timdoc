@@ -29,7 +29,7 @@
 
 <p>Par exemple:</p>
 
-<highlight lang='php'>function create_post_type() {
+<highlight lang="php">function create_post_type() {
   register_post_type('produits', 
     array(
       'labels' => array(
@@ -80,24 +80,24 @@ add_action('init', 'create_post_type');</highlight>
 
 <p>Par&nbsp;exemple:</p>
 
-<highlight lang='php'>$products = new WP_Query('post_type=produits');</highlight>
+<highlight lang="php">$products = new WP_Query('post_type=produits');</highlight>
 
 
 <p>Ensuite, il faudra boucler parmi les résultats&nbsp;obtenus et imprimer <incode>print</incode> ceux-ci dans une page:</p>
 
-<highlight lang='php'>
+<highlight lang="php">
       
 while ( $products->have_posts() ) : $products->the_post(); 
     print the_title();  // titre du produit
     the_excerpt(); // extrait de la description du produit
 endwhile;</highlight>
 
-<!--<highlight lang='php'>while ($produits->have_posts()) : $produits->the_post();</highlight>-->
+<!--<highlight lang="php">while ($produits->have_posts()) : $produits->the_post();</highlight>-->
 
 
 <p>Les fonctions de base, tel que:&nbsp;<incode>the_title()</incode>&nbsp;ou&nbsp;<incode>the_content()</incode>&nbsp;retourneront dans le contexte de cette boucle les informations associées à notre collection de&nbsp;produits.</p>
 
-<doclink href='https://developer.wordpress.org/reference/functions/register_post_type/'>register_post_type</doclink>
+<doclink href="https://developer.wordpress.org/reference/functions/register_post_type/">register_post_type</doclink>
 
 
 
@@ -163,7 +163,7 @@ endwhile;</highlight>
 
 <p>Pour ce faire, dans le fichier PHP d'un modèle, il faut ajouter dans les commentaires de début de page une propriété intitulée&nbsp;<incode>Template Post Type</incode>&nbsp;et lui spécifier les types de posts&nbsp;compatibles.</p>
 <p>Par exemple, pour qu'un modèle soit compatible avec les posts de base et les posts personnalisés de type&nbsp;<em>partenaire</em>, il faut&nbsp;écrire:</p>
-<highlight lang='css'>/**
+<highlight lang="css">/**
  * Template Name: Partenaire
  * Template Post Type: post, page, partenaire
  */</highlight>
@@ -187,4 +187,4 @@ endwhile;</highlight>
 
 <warning>Assurez-vous que l’extension Custom Post Type UI soit installée sur le nouveau site avant d’importer une structure de posts&nbsp;personnalisés.</warning>
 
-<doclink href='https://fr.wordpress.org/plugins/custom-post-type-ui/'>Custom Post Type UI</doclink>
+<doclink href="https://fr.wordpress.org/plugins/custom-post-type-ui/">Custom Post Type UI</doclink>

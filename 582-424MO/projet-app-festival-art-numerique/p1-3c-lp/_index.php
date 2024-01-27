@@ -24,7 +24,7 @@ Enlevez les références à ScrollSpy à moins que vous ayez réussi à bien l�
 <warning>Toujours intégrer les fichiers de librairies externes (Bootstrap, Swiper etc) AVANT vos propres fichiers de projet (script.js ou styles.css). Car il faut initialiser l’objet JavaScript Swiper qui se trouve dans le fichier swiper.js AVANT de pouvoir en créer une instance dans votre fichier script.js. L’inverse ne fonctionnerait pas.</warning>
 <h3>Notes de cours 📚</h3>
 <intlink href="../../swiper/#installation"></intlink> 
-<doclink href='https://swiperjs.com/get-started#use-swiper-from-cdn'>Install Swiper</doclink>
+<doclink href="https://swiperjs.com/get-started#use-swiper-from-cdn">Install Swiper</doclink>
 
 
 <dots></dots>
@@ -46,7 +46,7 @@ Toujours dans l’initialisation de swiper dans votre fichier script.js,ajoutez 
 Finalement, ajoutez des styles afin que les 2 slides de côtés soient semi-transparentes et que celle qui est active au centre, ne soit pas transparente.
 Si vous voulez aller plus loin, vous pouvez essayer d’ajouter un cadre comme dans mon 2e exemple ci-haut (facultatif).
 </checklist>
-<doclink href='https://swiperjs.com/swiper-api#parameters'>Paramètres Swiper</doclink>
+<doclink href="https://swiperjs.com/swiper-api#parameters">Paramètres Swiper</doclink>
 
 <p>Ajouts facultatifs 👇</p>
 <clipasset src="videos/swiper-screenshot-facultatif.mp4"></clipasset>

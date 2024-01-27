@@ -21,6 +21,6 @@
 <p>Librarie JavaScript pour implémenter le chargement d'image progressif (à mesure qu'on y arrive en défilant la page).</p>
 <p><a href="https://codepen.io/craigbuckler/full/yPqLXW" target="_blank" rel="noopener noreferrer">Démo</a></p>
 
-<doclink href='https://github.com/craigbuckler/progressive-image.js/'>Librairie Progressive image</doclink>
+<doclink href="https://github.com/craigbuckler/progressive-image.js/">Librairie Progressive image</doclink>
 
 

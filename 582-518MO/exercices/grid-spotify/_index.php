@@ -12,12 +12,12 @@
 
 <p>Aperçu du résultat 👇</p>
 
-<clipasset src='images/grid-spotify.mp4'></clipasset>
+<clipasset src="images/grid-spotify.mp4"></clipasset>
 
 
 
 <grostitre>Matériel</grostitre>
-<doclink href='https://codepen.io/tim-momo/pen/MWZoBWB'>Pen de départ</doclink>
+<doclink href="https://codepen.io/tim-momo/pen/MWZoBWB">Pen de départ</doclink>
 <warning>Les medias queries sont interdits.</warning>
 
 <dots></dots>

@@ -110,7 +110,7 @@
 <p>Il est aussi possible de passer un objet à&nbsp;<incode>stagger</incode>&nbsp;plutôt qu'un nombre. Dans cet objet, il est
     possible de spécifier le décalage entre chaque&nbsp;élément.</p>
 <p>Par&nbsp;exemple:</p>
-<highlight lang='javascript'>gsap.from('.element', { 
+<highlight lang="javascript">gsap.from('.element', { 
   x: '400%',
   stagger: {
     each: 0.2
@@ -145,9 +145,9 @@
 </p>
 <br>
 
-<doclink href='https://greensock.com/docs/v3/Staggers'>Staggers</doclink>
+<doclink href="https://greensock.com/docs/v3/Staggers">Staggers</doclink>
 <br><br>
-<exercice href='../exercices/gsap-stagger-dominos/'></exercice>
+<exercice href="../exercices/gsap-stagger-dominos/"></exercice>
 
 
 
@@ -176,7 +176,7 @@
 <p>Si aucune spécification n'est donnée,&nbsp;<incode>.out</incode>&nbsp;sera&nbsp;utilisé.</p>
 
 
-<tool href='../tools/ease-visualizer/'></tool>
+<tool href="../tools/ease-visualizer/"></tool>
 
 <dots></dots>
 <grostitre>Callbacks</grostitre>
@@ -194,7 +194,7 @@
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <br>
-<doclink href='https://greensock.com/docs/v3/GSAP/Timeline/eventCallback()'>Callbacks</doclink>
+<doclink href="https://greensock.com/docs/v3/GSAP/Timeline/eventCallback()">Callbacks</doclink>
 
 <br><br>
 

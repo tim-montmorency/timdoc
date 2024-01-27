@@ -11,7 +11,7 @@
 <p>Pour cet exercice nous allons animer une inspiration du jeu <a href="https://fr.wikipedia.org/wiki/Overcooked">Overcooked!</a> - Édition&nbsp;Hamburger 🍔</p>
    
 <p>Aperçu du résultat 👇</p>
-<clipasset src='fichiers/demo_generale.mp4'></clipasset>
+<clipasset src="fichiers/demo_generale.mp4"></clipasset>
 
 
 <grostitre>Matériel</grostitre>
@@ -30,7 +30,7 @@ Faites en sorte que ce bouton déclenche un modal Bootstrap avec le titre&nbsp;<
 Faites en sorte que le modal soit étroit, s'affiche au centre de la page&nbsp;<em>(autant horizontalement que verticalement)</em>&nbsp;et apparaisse en&nbsp;fondu.
 </checklist>
 
-<clipasset src='fichiers/demo_modal.mp4'></clipasset>
+<clipasset src="fichiers/demo_modal.mp4"></clipasset>
 
 <dots></dots>
 
@@ -58,7 +58,7 @@ Importez le plugiciel scrollTrigger dans votre projet.
 Synchronisé avec le défilement de la page (scroll), le logo (<incode>.logo</incode>) doit faire un effet parallax par rapport au reste de la scene. Utilisez GSAP pour réaliser ce mouvement. 
 </checklist>
 
-<clipasset src='fichiers/demo_logo_parallax.mp4'></clipasset>
+<clipasset src="fichiers/demo_logo_parallax.mp4"></clipasset>
 
 
 

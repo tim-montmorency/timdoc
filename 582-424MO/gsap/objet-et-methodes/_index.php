@@ -100,7 +100,7 @@
     fin, donc aucune animation n’est exécutée les fois&nbsp;subséquentes.</warning>
 
 
-<doclink href='https://greensock.com/docs/v3/GSAP/gsap.to()'>to()</doclink>
+<doclink href="https://greensock.com/docs/v3/GSAP/gsap.to()">to()</doclink>
 <br>
 <exercice href="../exercices/voiture-jaune"></exercice>
 
@@ -145,7 +145,7 @@
 <warning>Contrairement à l’animation <incode>to()</incode>, l’animation <incode>from()</incode> peut-être jouée plus d’une
     fois, puisque l’état de départ fourni ne correspond jamais à celle de&nbsp;fin.</warning>
 
-<doclink href='https://greensock.com/docs/v3/GSAP/gsap.from()'>from()</doclink>
+<doclink href="https://greensock.com/docs/v3/GSAP/gsap.from()">from()</doclink>
 
 
 <dots></dots>
@@ -182,7 +182,7 @@
 <p>Par exemple&nbsp;<incode>{ x: '0%', scale: 2 }, { x: '400%' }</incode>&nbsp;<incode>scale</incode>&nbsp;donnerait un scale
     initial de 2 et puisqu'aucun scale de fin n'est spécifié, GSAP assumera que le scale de fin doit correspondre au
     scale de&nbsp;départ.</p>
-    <doclink href='https://greensock.com/docs/v3/GSAP/gsap.fromTo()'>fromTo()</doclink>
+    <doclink href="https://greensock.com/docs/v3/GSAP/gsap.fromTo()">fromTo()</doclink>
 
 
 <exercice href="../exercices/voiture-turquoise"></exercice>
@@ -193,13 +193,13 @@
 <grostitre>Méthode set()</grostitre>
 <p><incode>set()</incode> initialise <em>immédiatement</em> les propriétés des éléments HTML ciblés. Il s'agit essentiellement d'une animation de type <incode>to()</incode> qui dure zéro seconde. C'est la même chose mais avec un nom plus un peu plus intuitif : "set" que l'ont peut traduire par "définit immédiatement tel paramètre". Les lignes suivantes produisent donc des résultats identiques :</p>
 
-<highlight lang='JavaScript'>gsap.set(".class", {x: 100, y: 50, opacity: 0});
+<highlight lang="JavaScript">gsap.set(".class", {x: 100, y: 50, opacity: 0});
 gsap.to(".class", {duration: 0, x: 100, y: 50, opacity: 0});</highlight>
 
 
 
 
-<doclink href='https://greensock.com/docs/v3/GSAP/gsap.set()'>Méthode set()</doclink>
+<doclink href="https://greensock.com/docs/v3/GSAP/gsap.set()">Méthode set()</doclink>
 
 
 
@@ -211,8 +211,8 @@ gsap.to(".class", {duration: 0, x: 100, y: 50, opacity: 0});</highlight>
 <p>Avec GSAP, la "magie" c'est qu'on n'a pas besoin de faire un <incode>querySelector</incode>  ou un <incode>getDocumentById</incode> ou autre.  Simplement, ajouter en premier paramètre de gsap() le nom de la classe de l'élément ou le nom de l'id, ou encore le nom de la balise.</p>
 <p>À la place du sélecteur <incode>".class"</incode>, vous pouvez aussi utiliser un tableau (array) <incode>["abc,"def"]</incode> contenant plusieurs sélecteurs afin de définir les propriétés de plusieurs éléments HTML en même temps. Voici un exemple :</p>
 
-<highlight lang='JavaScript'>gsap.set([".chapeau", ".patate", ".sapin"], {x: 100, y: 50, opacity: 0});</highlight>
+<highlight lang="JavaScript">gsap.set([".chapeau", ".patate", ".sapin"], {x: 100, y: 50, opacity: 0});</highlight>
 <!-- <p>Si on souhaite appliquer une animation sur plusieurs éléments qui n'ont pas nécessairement tous la même classe, on peut définir un tableau (array []) listant une série d'éléments et passer ce tableau comme premier paramètre à GSAP. Par exemple:</p>
-<hight lang='JavaScript'>gsap.to(['.lapin', '.greouille', '.renard'], {x: '10vw', y: '50vh'})</hight>-->
+<hight lang="JavaScript">gsap.to(['.lapin', '.greouille', '.renard'], {x: '10vw', y: '50vh'})</hight>-->
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

@@ -31,7 +31,7 @@ Dans vos 2 fichiers HTML vous allez changer le lien vers le CSS de Bootstrap que
 
 <h3>Code pour le #5</h3>
 <p>Où savePath = le chemin d'accès vers votre dossier où sont vos feuilles de styles du projet</p>
-<highlight lang='json'>"liveSassCompile.settings.formats": [ 
+<highlight lang="json">"liveSassCompile.settings.formats": [ 
   {   
 
     "extensionName": ".css", 

@@ -10,7 +10,7 @@
 <p>Pour cet exercice, nous allons utiliser scrollTrigger pour faire un effet parallax de 3 couches avec les nuages et les ballons.</p>
    
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/ballons-parallax.mp4'></clipasset>
+<clipasset src="images/ballons-parallax.mp4"></clipasset>
 
 <grostitre>Matériel</grostitre>
 <doclink href="https://codepen.io/tim-momo/pen/qBJjmOe">Pen de départ</doclink>
@@ -34,8 +34,8 @@ Faites en sorte que l'animation reviennne en arrière si on remonte, qu'elle soi
 <intlink href="../../scrolltrigger/"></intlink>
 <intlink href="../../scrolltrigger-intermediaire/"></intlink>
 <br>
-<doclink href='https://smnarnold.com/cours/javascript/gestions-des-attributs#getAttribute()'>Récupérer la valeur d'un attribut d'une balise HTML</doclink>
-<doclink href='https://smnarnold.com/cours/css/parallax'>Qu'est-ce que le parallaxe</doclink>
+<doclink href="https://smnarnold.com/cours/javascript/gestions-des-attributs#getAttribute()">Récupérer la valeur d'un attribut d'une balise HTML</doclink>
+<doclink href="https://smnarnold.com/cours/css/parallax">Qu'est-ce que le parallaxe</doclink>
 
 
 

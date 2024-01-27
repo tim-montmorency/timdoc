@@ -11,7 +11,7 @@
 <p>Pour cet exercice, nous allons créer une animation synchronisant le défilement de la page avec une animation de déplacement du <a href="https://www.youtube.com/watch?v=FwUPPb5MOko" target="_blank">droïde BB-8</a> de Star Wars&nbsp;🤖.</p>
    
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/bb-8-scrolltrigger.mp4'></clipasset>
+<clipasset src="images/bb-8-scrolltrigger.mp4"></clipasset>
 
 
 <grostitre>Matériel</grostitre>

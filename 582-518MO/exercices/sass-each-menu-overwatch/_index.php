@@ -11,10 +11,10 @@
     
     
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/each-menu-overwatch-resultat.mp4'></clipasset>
+<clipasset src="images/each-menu-overwatch-resultat.mp4"></clipasset>
 <grostitre>Matériel</grostitre>
 
-<doclink href='https://codepen.io/tim-momo/pen/oNJjzYo'>Pen de départ</doclink>
+<doclink href="https://codepen.io/tim-momo/pen/oNJjzYo">Pen de départ</doclink>
 
 <h3 class="heading heading--h3" id="Médias 🖼️">Médias 🖼️</h3>
 
@@ -35,4 +35,4 @@ Profitez du nesting de Scss afin de créer un effet de survole sur les personnag
 <intlink href="../../sass/boucle/"></intlink>
 <intlink href="../../../582-215MO/css/transformation/"></intlink>
 <intlink href="../../../582-215MO/css/transition/"></intlink>
-<doclink href='https://smnarnold.com/cours/css/flexbox'>Flexbox</doclink>
+<doclink href="https://smnarnold.com/cours/css/flexbox">Flexbox</doclink>

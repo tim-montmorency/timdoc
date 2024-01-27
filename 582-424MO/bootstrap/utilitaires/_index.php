@@ -17,16 +17,16 @@
 
 <p>Comme son nom le laisse sous-entendre, la classe&nbsp;<incode>.img-fluid</incode>&nbsp;sert à rendre une image fluid/responsive en lui appliquant les propriétés CSS&nbsp;suivantes:</p>
 
-<highlight lang='css'>max-width: 100%;
+<highlight lang="css">max-width: 100%;
 height: auto;</highlight>
 
 <p>La propriété&nbsp;<incode>max-width</incode>&nbsp;fait en sorte que l'image affichera selon sa taille normale, à moins que l'espace soit insuffisant. Dans ce cas, elle sera limitée à la largeur disponible. De son côté,&nbsp;<incode>height: auto;</incode>&nbsp;s'assure que l'image ne soit jamais&nbsp;déformée.</p>
 
 <p>Pour activer cette classe, il suffit de l'ajouter à une image ainsi:</p>
 
-<highlight lang='html'>&lt;img src=&quot;image.jpg&quot; class=&quot;img-fluid&quot;&gt;</highlight>
+<highlight lang="html">&lt;img src=&quot;image.jpg&quot; class=&quot;img-fluid&quot;&gt;</highlight>
 
-<doclink href='https://getbootstrap.com/docs/5.2/content/images/'>.img-fluid</doclink>
+<doclink href="https://getbootstrap.com/docs/5.2/content/images/">.img-fluid</doclink>
 
 <dots></dots>
 
@@ -45,9 +45,9 @@ height: auto;</highlight>
 
 <p>Par exemple, pour centrer un texte lorsque le breakpoint&nbsp;<incode>lg</incode>&nbsp;est atteint, il serait possible de&nbsp;faire:</p>
 
-<highlight lang='html'>&lt;p class=&quot;text-lg-center&quot;&gt;Texte centré en lg&lt;/p&gt;</highlight>
+<highlight lang="html">&lt;p class=&quot;text-lg-center&quot;&gt;Texte centré en lg&lt;/p&gt;</highlight>
 
-<doclink href='https://getbootstrap.com/docs/5.2/utilities/text/'>.text-...</doclink>
+<doclink href="https://getbootstrap.com/docs/5.2/utilities/text/">.text-...</doclink>
 
 <dots></dots>
 <grostitre>Display</grostitre>
@@ -81,15 +81,15 @@ height: auto;</highlight>
 <p>Par exemple, pour qu'un élément soit invisible par défaut, mais devienne en&nbsp;<incode>display: block</incode>&nbsp;lorsque le breakpoint&nbsp;<incode>lg</incode>&nbsp;est atteint, il serait possible de&nbsp;faire:</p>
 
 
-<highlight lang='html'>&lt;div class=&quot;d-none d-lg-block&quot;&gt;...&lt;/div&gt;</highlight>
+<highlight lang="html">&lt;div class=&quot;d-none d-lg-block&quot;&gt;...&lt;/div&gt;</highlight>
 
-<doclink href='https://getbootstrap.com/docs/5.2/utilities/display/'>.d-...</doclink>
+<doclink href="https://getbootstrap.com/docs/5.2/utilities/display/">.d-...</doclink>
 
 <dots></dots>
 
 <grostitre>Display: Flex</grostitre>
 <p>Comme on a vu avec le <a href="../grille/#rangees" target="_blank">système de grille</a>, les rangées pouvaient accueillir des classes utilitaires référent au système de flexbox afin de permettre d'aligner leur balises enfants, les columns. Vous vous rappelez certainement de cette formulation pour centrer toutes les colonnes dans leurs rangée en ajoutant la classe<incode>.justify-content-center</incode> à la balise contantnt la classe <incode>.row</incode>?</p>
-<highlight lang='html'>&lt;div class=&quot;container&quot;&gt;
+<highlight lang="html">&lt;div class=&quot;container&quot;&gt;
     &lt;div class=&quot;row justify-content-center&quot;&gt;
         &lt;div class=&quot;col-2&quot;&gt;&lt;/div&gt;
         &lt;div class=&quot;col-2&quot;&gt;&lt;/div&gt;
@@ -133,7 +133,7 @@ height: auto;</highlight>
 
 <p>Sachez que vous pouvez toujours ajouter les breakpoints à ces classes afiin de faire des exception de positionnement dépendant de la largeur de l'écran. L'exemple suivant permettra d'afficher par défaut, sur petit écran, A, B et C un en dessous de l'autre grace à <incode>.flex-column</incode>, et à partir du breakpoint <em>>md</em>, ils s'afficheront un à côté de l'autre sur une même rangée, grâce à <incode>.flex-md-row</incode>.</p>
 
-<highlight lang='html'>
+<highlight lang="html">
 &lt;div class=&quot;d-flex flex-column flex-md-row&quot;&gt;
     &lt;div class=&quot;w-25&quot;&gt;A&lt;/div&gt;
     &lt;div class=&quot;w-25&quot;&gt;B&lt;/div&gt;
@@ -141,7 +141,7 @@ height: auto;</highlight>
 &lt;/div&gt;
 </highlight>
 
-<doclink href='https://getbootstrap.com/docs/5.2/utilities/flex/'>flex</doclink>
+<doclink href="https://getbootstrap.com/docs/5.2/utilities/flex/">flex</doclink>
 
 
 <dots></dots>
@@ -185,12 +185,12 @@ height: auto;</highlight>
 </ul>
 
 <h3>Exemples</h3>
-<highlight lang='html'>&lt;h1 class=&quot;mt-0&quot;&gt;Abc&lt;/h1&gt;</highlight>
+<highlight lang="html">&lt;h1 class=&quot;mt-0&quot;&gt;Abc&lt;/h1&gt;</highlight>
 <p>Équivaut à appliquer le css <incode>margin-top: 0;</incode></p>
 
-<highlight lang='html'>&lt;div class=&quot;px-3&quot;&gt;Abc&lt;/div&gt;</highlight>
+<highlight lang="html">&lt;div class=&quot;px-3&quot;&gt;Abc&lt;/div&gt;</highlight>
 <p>Équivaut à appliquer le css <incode>padding-left: 1rem; padding-right: 1rem;</incode></p>
 
 
 <br>
-<doclink href='https://getbootstrap.com/docs/5.2/utilities/spacing/'>Spacing</doclink>
+<doclink href="https://getbootstrap.com/docs/5.2/utilities/spacing/">Spacing</doclink>

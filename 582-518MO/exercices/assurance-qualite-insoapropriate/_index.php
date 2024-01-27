@@ -14,7 +14,7 @@
 <dots></dots>
 <grostitre>Matériel</grostitre>   
   
-<doclink href='https://ex.smnarnold.com/qa/insoapropriate/maquettes.zip'>Dossier de départ 📁</doclink>
+<doclink href="https://ex.smnarnold.com/qa/insoapropriate/maquettes.zip">Dossier de départ 📁</doclink>
 
 
 <dots></dots>

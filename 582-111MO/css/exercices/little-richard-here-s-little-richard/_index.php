@@ -57,9 +57,9 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<intlink href='../../linear-gradient/'></intlink>
-<intlink href='../../fonte/'></intlink>
-<intlink href='../../text/'></intlink>
-<intlink href='../../google-fonts/'></intlink>
+<intlink href="../../linear-gradient/"></intlink>
+<intlink href="../../fonte/"></intlink>
+<intlink href="../../text/"></intlink>
+<intlink href="../../google-fonts/"></intlink>
 
 <dots></dots>

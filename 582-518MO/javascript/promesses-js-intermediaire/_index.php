@@ -35,7 +35,7 @@
 
 
 
-<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/all'>all()</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/all">all()</doclink>
 
 <dots></dots>
 
@@ -50,6 +50,6 @@
   <span class="hljs-built_in">console</span>.log(valeur); <span class="hljs-comment">// "Promesse 2"</span>
 });</code></pre>
 
-<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/any'>any()</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/any">any()</doclink>
 
 

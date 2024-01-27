@@ -11,7 +11,7 @@
 
 <p>Lecture intéressante sur le sujet:</p>
 
-<doclink href='https://kinsta.com/fr/blog/optimiser-les-images-pour-le-web/'>Optimiser les images pour le Web</doclink>
+<doclink href="https://kinsta.com/fr/blog/optimiser-les-images-pour-le-web/">Optimiser les images pour le Web</doclink>
 
 <dots></dots>
 <grostitre>Formats d'images matricielles compressées pour le Web</grostitre>
@@ -60,7 +60,7 @@
 </p>
 <p>La taille des images WebP sans perte est 26% inférieure à celle des images PNG. Les images perdues WebP sont 25 à 34% plus petites que les images JPG comparables, avec un indice de qualité SSIM équivalent.</p>
 <p>WebP sans perte prend en charge la transparence comme le format PNG mais contrairement à JPG.</p>
-<doclink href='https://developers.google.com/speed/webp?hl=fr'>Format WebP</doclink>
+<doclink href="https://developers.google.com/speed/webp?hl=fr">Format WebP</doclink>
 
 <h4>Principaux avantages de WebP</h4>
 <ul>

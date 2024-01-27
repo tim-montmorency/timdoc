@@ -23,19 +23,19 @@
 
 <p>Par exemple, pour inclure le partiel&nbsp;<incode>metas.php</incode>&nbsp;sur une page, il faut y ajouter ce code: </p>
 
-<highlight lang='php'>&lt;?php get_template_part(&#39;metas&#39;); ?&gt;</highlight>
+<highlight lang="php">&lt;?php get_template_part(&#39;metas&#39;); ?&gt;</highlight>
 
 
 
 <p>Afin d'éviter toute confusion avec les modèles de base, il est encouragé de garder ses partiels dans un dossier distinct. Cependant, pour inclure ces partiels il faudra par la suite préfixer le nom du fichier par celui de son dossier. </p>
 
 <p>Par exemple:</p>
-<highlight lang='php'>&lt;?php get_template_part(&#39;partials/metas&#39;); ?&gt;</highlight>
+<highlight lang="php">&lt;?php get_template_part(&#39;partials/metas&#39;); ?&gt;</highlight>
 <br>
 
 
 
-<doclink href='https://developer.wordpress.org/reference/functions/get_template_part/'>get_template_part</doclink>
+<doclink href="https://developer.wordpress.org/reference/functions/get_template_part/">get_template_part</doclink>
 
 
   

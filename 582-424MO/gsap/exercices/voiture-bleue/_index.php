@@ -12,7 +12,7 @@
 <p>Pour cet exercice, vous devez à l’aide de GSAP et de sons ponctuels compléter une animation de voiture afin de la faire rouler sur la route.</p>
    
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/gsap-voiture-bleue.mp4'></clipasset>
+<clipasset src="images/gsap-voiture-bleue.mp4"></clipasset>
 
 
 <grostitre>Matériel</grostitre>

@@ -789,7 +789,7 @@
     <p>Dans Visual Studio Code Code, allez dans <em>Préférences/Paramètres/Extensions/Live Sass Compiler</em> et cliquez sur <em>Modifier dans settings.json</em>.</p>
     <p>Ajoutez au json la propriété suivante (ne pas oublier la virgule qui séparer cette propriété des autres propriétés du json déjà en place) :</p>
     
-    <highlight lang='json'>"liveSassCompile.settings.excludeList": [ 
+    <highlight lang="json">"liveSassCompile.settings.excludeList": [ 
     "**/wordpress/wp-admin/**",
     "**/wordpress/wp-includes/**",
     "**/wordpress/wp-content/plugins/**"
@@ -866,9 +866,9 @@
     <dots></dots>
     <h2>WORDPRESS</h2>
     <intlink href="../wordpress/images-dans-modeles/"></intlink>
-    <doclink href='https://developer.wordpress.org/themes/functionality/custom-front-page-templates/'>Modèle (template)&nbsp;- Page d'accueil</doclink>
+    <doclink href="https://developer.wordpress.org/themes/functionality/custom-front-page-templates/">Modèle (template)&nbsp;- Page d'accueil</doclink>
     <br>
-    <doclink href='https://wordpress.com/fr/support/pages/page-accueil/'>Définir la page d’accueil dans Wordpress</doclink>
+    <doclink href="https://wordpress.com/fr/support/pages/page-accueil/">Définir la page d’accueil dans Wordpress</doclink>
  
         
     <dots></dots>
@@ -907,7 +907,7 @@
     <dots></dots>
     <h2>WORDPRESS - suite</h2>
     <intlink href="../wordpress/modeles/"></intlink>
-    <doclink href='https://developer.wordpress.org/themes/functionality/custom-front-page-templates/'>Custom Front Page Templates</doclink>
+    <doclink href="https://developer.wordpress.org/themes/functionality/custom-front-page-templates/">Custom Front Page Templates</doclink>
 
 
     <dots></dots>

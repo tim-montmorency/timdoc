@@ -14,7 +14,7 @@
 </p>
    
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/the-incredible-machine.mp4'></clipasset>
+<clipasset src="images/the-incredible-machine.mp4"></clipasset>
 
 
 <grostitre>Matériel</grostitre>

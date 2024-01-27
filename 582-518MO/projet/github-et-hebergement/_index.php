@@ -32,9 +32,9 @@ Ajoutez dans votre fichier README.md sur GitHub, un lien vers votre projet mis-e
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<doclink href='https://smnarnold.com/cours/git/github'>GitHub</doclink>
+<doclink href="https://smnarnold.com/cours/git/github">GitHub</doclink>
 <intlink href="../../../582-424MO/git/collaboration/"></intlink>
-<doclink href='https://smnarnold.com/cours/git/markdown'>Markdown</doclink>
+<doclink href="https://smnarnold.com/cours/git/markdown">Markdown</doclink>
 
 
 

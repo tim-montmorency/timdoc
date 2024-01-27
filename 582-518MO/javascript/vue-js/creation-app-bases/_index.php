@@ -17,7 +17,7 @@
 <p>Par exemple:</p>
 
 
-<highlight lang='javascript'>const app = Vue.createApp({});</highlight>
+<highlight lang="javascript">const app = Vue.createApp({});</highlight>
 
 
 <info>Cette variable peut porter n’importe quel nom, mais par convention elle est généralement nommée&nbsp;<em>"app"</em>.</info>
@@ -31,16 +31,16 @@
 <info>Cette méthode accepte les mêmes sélecteurs que&nbsp;<a href="https://smnarnold.com/cours/javascript/queryselector">querySelector</a>.</info>
 
 <p>Par exemple, si la balise souhaitée a le id app:</p>
-<highlight lang='javascript'>app.mount('#app');</highlight>
+<highlight lang="javascript">app.mount('#app');</highlight>
 
 
 <p>Si le résultat du <incode>mount</incode> est stocké dans une variable, il est possible d'y accéder afin de changer ses <a rel="noopener noreferrer" href="#donnees">données</a> ou encore d'appeler ses <a rel="noopener noreferrer" href="#methodes-et-evenements">méthodes</a>.</p>
 
 <p>Par exemple:</p>
-<highlight lang='javascript'>const vm = app.mount('#app');</highlight>
+<highlight lang="javascript">const vm = app.mount('#app');</highlight>
 
 <br>
-<doclink href='https://v3.vuejs.org/guide/instance.html#creating-an-application-instance'>createApp()</doclink>
+<doclink href="https://v3.vuejs.org/guide/instance.html#creating-an-application-instance">createApp()</doclink>
 
 
 
@@ -55,7 +55,7 @@
 
 <p>Par exemple, pour définir une valeur de nom, il est possible d'écrire:</p>
 
-<highlight lang='javascript'>const app = Vue.createApp({
+<highlight lang="javascript">const app = Vue.createApp({
   data: function() {
     return {
       firstName: "Willy",
@@ -68,7 +68,7 @@
 
 <p>Pour des raisons de lisibilité, il est cependant suggéré d'utiliser la nouvelle syntaxe ES6, soit:</p>
 
-<highlight lang='javascript'>const app = Vue.createApp({
+<highlight lang="javascript">const app = Vue.createApp({
   data() {
     return {
       firstName: "Willy",
@@ -82,7 +82,7 @@
 
 <p><incode>data</incode> est donc une fonction retournant un objet constitué dans ce cas-ci des propriétés: <incode>firstName</incode>, <incode>lastName</incode> et <incode>picture</incode>.</p>
 
-<doclink href='https://v3.vuejs.org/guide/data-methods.html#data-properties'>Data</doclink>
+<doclink href="https://v3.vuejs.org/guide/data-methods.html#data-properties">Data</doclink>
 <br>
 <br>
 
@@ -91,7 +91,7 @@
 <p>Une fois, les données définies, il est possible d'y faire référence à l'aide de moustaches {<incode>{ ... }</incode>} <em>(doubles accolades)</em>. Leurs contenus, incluant les moustaches elles-mêmes, seront remplacés par la donnée qui lui est associée. Qui plus est, si la valeur de cette donnée vient à changer, celle-ci se mettra automatiquement à jour dans le HTML.</p>
 
 Par exemple, le code suivant:
-<highlight lang='html'>&lt;div id=&quot;app&quot;&gt;
+<highlight lang="html">&lt;div id=&quot;app&quot;&gt;
   Salut { { firstName } }
 &lt;/div&gt;</highlight>
 
@@ -101,7 +101,7 @@ Par exemple, le code suivant:
 <br><br>
 Affichera en fait:
 
-<highlight lang='html'>&lt;div id=&quot;app&quot;&gt;
+<highlight lang="html">&lt;div id=&quot;app&quot;&gt;
   Salut Willy
 &lt;/div&gt;</highlight>
 
@@ -111,7 +111,7 @@ Affichera en fait:
 
 
 
-<doclink href='https://v3.vuejs.org/guide/template-syntax.html#interpolations'>Interpolations</doclink>
+<doclink href="https://v3.vuejs.org/guide/template-syntax.html#interpolations">Interpolations</doclink>
 <br><br>
 <h3 class="heading heading--h3" id="Attributs">Attributs via v-bind: ou :</h3>
 
@@ -119,7 +119,7 @@ Affichera en fait:
 </p>
 
 <p>Par exemple, pour afficher l'image contenue dans la propriété <incode>picture</incode>:</p>
-<highlight lang='html'>&lt;div id=&quot;app&quot;&gt;
+<highlight lang="html">&lt;div id=&quot;app&quot;&gt;
   &lt;img v-bind:src=&quot;picture&quot;&gt;
 &lt;/div&gt;</highlight>
 
@@ -128,7 +128,7 @@ Affichera en fait:
 <p>ou encore la syntaxe courte avec <incode>:</incode>:</p>
 
 
-<highlight lang='html'>&lt;div id=&quot;app&quot;&gt;
+<highlight lang="html">&lt;div id=&quot;app&quot;&gt;
   &lt;img :src=&quot;picture&quot;&gt;
 &lt;/div&gt;</highlight>
 
@@ -138,7 +138,7 @@ Affichera en fait:
 
 <p>Par exemple, pour inscrire le prénom et le nom dans le <incode>alt</incode> d'une image:</p>
 
-<highlight lang='html'>&lt;div id=&quot;app&quot;&gt;
+<highlight lang="html">&lt;div id=&quot;app&quot;&gt;
   &lt;img :src=&quot;picture&quot; :alt=&quot;`${firstName} ${lastName}`&quot;&gt;
 &lt;/div&gt;</highlight>
 
@@ -157,7 +157,7 @@ Affichera en fait:
 
 <warning>Si un attribut est associé à une donnée dont la valeur équivaut à <incode>null</incode> ou <incode>undefined</incode>, l’attribut ne sera pas&nbsp;créé.</warning>
 
-<doclink href='https://v3.vuejs.org/guide/template-syntax.html#attributes'>Attributs</doclink>
+<doclink href="https://v3.vuejs.org/guide/template-syntax.html#attributes">Attributs</doclink>
 
 
 
@@ -171,7 +171,7 @@ Affichera en fait:
 
 <p>Par exemple, la méthode <incode>showActor</incode> révélant l'acteur derrière le personnage:</p>
 
-<highlight lang='javascript'>const app = Vue.createApp({
+<highlight lang="javascript">const app = Vue.createApp({
   data() {
     return {
       firstName: "Willy",
@@ -201,7 +201,7 @@ Affichera en fait:
 <p>Pour appeler une méthode, il faut ajouter un événement sur une balise dans l'app. </p>
 <p>Par exemple, pour qu'un bouton appelle la méthode <incode>showActor()</incode>:</p>
 
-<highlight lang='html'>&lt;div id=&quot;app&quot;&gt;
+<highlight lang="html">&lt;div id=&quot;app&quot;&gt;
 Salut { { firstName } }
   &lt;button v-on:click=&quot;showActor()&quot;&gt;Révéler l&#39;acteur&lt;/button&gt;
 &lt;/div&gt;</highlight>
@@ -209,7 +209,7 @@ Salut { { firstName } }
 <br><br>
 
 <p>ou encore la syntaxe courte avec <incode>@</incode>:</p>
-<highlight lang='html'>&lt;div id=&quot;app&quot;&gt;
+<highlight lang="html">&lt;div id=&quot;app&quot;&gt;
 Salut { { firstName } }
   &lt;button @click=&quot;showActor()&quot;&gt;Révéler l&#39;acteur&lt;/button&gt;
 &lt;/div&gt;</highlight>
@@ -229,7 +229,7 @@ Salut { { firstName } }
 <exercice href="../../../exercices/vue-cheese-kanye-says/"></exercice>
 <br>
 
-<doclink href='https://v3.vuejs.org/guide/events.html#listening-to-events'>Event Handling</doclink>
+<doclink href="https://v3.vuejs.org/guide/events.html#listening-to-events">Event Handling</doclink>
 
 
 
@@ -242,7 +242,7 @@ Salut { { firstName } }
 <p>Il est fréquent qu'une classe doit-être ajoutée ou retirée à un élément afin de refléter une action commise par un usager. Pour ce faire, Vue permet de passer un objet à un attribut. Cet objet doit contenir une propriété correspondant au nom de la classe souhaitée et comme valeur une donnée ou encore une expression. Ainsi, si cette valeur est évaluée à <incode>true</incode>, la classe est ajoutée et à l'opposée si elle est évaluée à <incode>false</incode> elle est retirée.</p>
 
 <p>Par exemple, pour ajouter la classe <em>orange</em> lorsque la donnée <em>isOrange</em> est équivalente à <incode>true</incode>:</p>
-<highlight lang='html'>&lt;img :src=&quot;picture&quot; :class=&quot;{orange: isOrange}&quot;&gt;</highlight>
+<highlight lang="html">&lt;img :src=&quot;picture&quot; :class=&quot;{orange: isOrange}&quot;&gt;</highlight>
 
 
 <br>
@@ -256,7 +256,7 @@ Salut { { firstName } }
 <p>Si une classe contenant des caractères spéciaux doit être ajoutée, il sera nécessaire de l'entourer de guillemets.</p>
 
 <p>Par exemple, une classe avec un trait d'union:</p>
-<highlight lang='html'>&lt;img :src=&quot;picture&quot; :class=&quot;{&#39;is-orange&#39;: isOrange}&quot;&gt;</highlight>
+<highlight lang="html">&lt;img :src=&quot;picture&quot; :class=&quot;{&#39;is-orange&#39;: isOrange}&quot;&gt;</highlight>
 
 
 <info>En cas de doute, il est possible de toujours utiliser des guillemets, même si aucun caractère spécial n’est&nbsp;présent.</info>
@@ -269,7 +269,7 @@ Salut { { firstName } }
 <p>Puisqu'un objet est utilisé, il est possible d'ajouter plusieurs classes dynamiques simplement en les séparant par une virgule.</p>
 <p>Par exemple:</p>
 
-<highlight lang='html'>&lt;img :src=&quot;picture&quot; :class=&quot;{orange: isOrange, big: isBig}&quot;&gt;</highlight>
+<highlight lang="html">&lt;img :src=&quot;picture&quot; :class=&quot;{orange: isOrange, big: isBig}&quot;&gt;</highlight>
 
 
 
@@ -281,14 +281,14 @@ Salut { { firstName } }
 <p>Si certaines classes doivent être statiques <em>(ne jamais changer)</em>, alors que certaines doivent être dynamiques <em>(pouvoir changer)</em>, il est nécessaire d'utiliser deux attributs <incode>class</incode>. Un 1<sup>er</sup> sans <incode>v-bind</incode> ou <incode>:</incode> pour les classes statiques et un 2<sup>e</sup> avec pour les classes dynamiques. Ces deux attributs seront ensuite combinés par Vue.</p>
 
 <p>Par exemple:</p>
-<highlight lang='html'>&lt;img :src=&quot;picture&quot; class=&quot;media&quot; :class=&quot;{orange: isOrange}&quot;&gt;</highlight>
+<highlight lang="html">&lt;img :src=&quot;picture&quot; class=&quot;media&quot; :class=&quot;{orange: isOrange}&quot;&gt;</highlight>
 
 
 <p>Produira le code suivant si la valeur de <em>isOrange</em> est <incode>true</incode>:</p>
-<highlight lang='html'>&lt;img src=&quot;willy-wonka-square.jpg&quot; class=&quot;media orange&quot;&gt;</highlight>
+<highlight lang="html">&lt;img src=&quot;willy-wonka-square.jpg&quot; class=&quot;media orange&quot;&gt;</highlight>
 
 <br><br>
-<doclink href='https://v3.vuejs.org/guide/class-and-style.html#class-and-style-bindings'>Class &amp; Style Bindings</doclink>
+<doclink href="https://v3.vuejs.org/guide/class-and-style.html#class-and-style-bindings">Class &amp; Style Bindings</doclink>
 
 
 
@@ -304,7 +304,7 @@ Salut { { firstName } }
 
 <p>Par exemple, une bulle permettant d'afficher la date de naissance d'une personne n'est désirable que s'il y a une date à afficher. Si cette information n'est pas fournie, avoir une bulle vide est indésirable:</p>
 
-<highlight lang='html'>&lt;div class=&quot;bubble&quot; v-if=&quot;birth&quot;&gt;{ { birth } }&lt;/div&gt;</highlight>
+<highlight lang="html">&lt;div class=&quot;bubble&quot; v-if=&quot;birth&quot;&gt;{ { birth } }&lt;/div&gt;</highlight>
 
 <small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
 <br><br><br>
@@ -316,19 +316,19 @@ Salut { { firstName } }
 </p>
 
 
-<doclink href='https://v3.vuejs.org/guide/conditional.html'>Rendu conditionnel</doclink>
+<doclink href="https://v3.vuejs.org/guide/conditional.html">Rendu conditionnel</doclink>
 
 <h3>Autre condition</h3>
 
 <p>Outre le fait de vérifier si une donnée est vide ou non, il est aussi possible d'ajouter une condition de comparaison directement dans <em>v-if</em>.</p>
 <p>Par exemple:</p>
 
-<highlight lang='html'>&lt;div class=&quot;bubble&quot; v-if=&quot;birth>=2000&quot;&gt;{ { birth } }&lt;/div&gt;</highlight>
+<highlight lang="html">&lt;div class=&quot;bubble&quot; v-if=&quot;birth>=2000&quot;&gt;{ { birth } }&lt;/div&gt;</highlight>
 <small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
 
 <p>Ou encore comparer la valeur de deux paramètres:</p>
 
-<highlight lang='html'>&lt;div class=&quot;bubble&quot; v-if=&quot;firstName==lastName&quot;&gt;{ { firstName } }&lt;/div&gt;</highlight>
+<highlight lang="html">&lt;div class=&quot;bubble&quot; v-if=&quot;firstName==lastName&quot;&gt;{ { firstName } }&lt;/div&gt;</highlight>
 <small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
 
 
@@ -339,7 +339,7 @@ Salut { { firstName } }
 
 <p>Par exemple, il est possible d'accéder à chaque rôle se trouvant dans le tableau <incode>rolesArray</incode>:</p>
 
-<highlight lang='html'>&lt;div v-for=&quot;role in rolesArr&quot;&gt;
+<highlight lang="html">&lt;div v-for=&quot;role in rolesArr&quot;&gt;
   &lt;img :src=&quot;role.picture&quot;&gt;
 &lt;/div&gt;</highlight>
 
@@ -359,7 +359,7 @@ Salut { { firstName } }
 
 
 <p>Par exemple:</p>
-<highlight lang='html'>&lt;div v-for=&quot;(role, index) in rolesArr&quot;&gt;
+<highlight lang="html">&lt;div v-for=&quot;(role, index) in rolesArr&quot;&gt;
   &lt;img :src=&quot;role.picture&quot;&gt;
 &lt;/div&gt;</highlight>
 
@@ -392,7 +392,7 @@ Salut { { firstName } }
 
 <br><br>
 
-<doclink href='https://v3.vuejs.org/guide/list.html'>Rendu de liste</doclink>
+<doclink href="https://v3.vuejs.org/guide/list.html">Rendu de liste</doclink>
 
 
 

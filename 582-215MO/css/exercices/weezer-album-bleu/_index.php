@@ -59,8 +59,8 @@
 
 <grostitre>Notes de cours</grostitre>
 
-<intlink href='../../position/'></intlink>
-<intlink href='../../display/'></intlink>
+<intlink href="../../position/"></intlink>
+<intlink href="../../display/"></intlink>
 
 <dots></dots>
 

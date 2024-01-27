@@ -11,7 +11,7 @@
 <p>Pour cet exercice nous allons recréer une page démontrant l’évolution de la <a href="https://www.zelda.com/">franchise Zelda au Nintendo</a> et la bonifier d’animations synchronisées avec le défilement de la&nbsp;page.</p>
    
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/zelda-historique-scrolltrigger.mp4'></clipasset>
+<clipasset src="images/zelda-historique-scrolltrigger.mp4"></clipasset>
 
 
 <grostitre>Matériel</grostitre>
@@ -31,8 +31,8 @@ Faites ensuite apparaître en fondu l'année de sortie.
 <dots></dots>
 
 <grostitre>Notes de cours 📚</grostitre>
-<doclink href='https://smnarnold.com/cours/javascript/queryselectorall'>QuerySelectorAll()</doclink><br>
-<doclink href='https://smnarnold.com/cours/javascript/boucle-foreach'>Boucle forEach()</doclink>
+<doclink href="https://smnarnold.com/cours/javascript/queryselectorall">QuerySelectorAll()</doclink><br>
+<doclink href="https://smnarnold.com/cours/javascript/boucle-foreach">Boucle forEach()</doclink>
 <intlink href="../../scrolltrigger/"></intlink>
 <intlink href="../../timeline/"></intlink>
 

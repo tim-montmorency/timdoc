@@ -11,11 +11,11 @@
 
 <p>Aperçu du résultat 👇</p>
 
-<clipasset src='images/scss-grille-bootstrap.mp4'></clipasset>
+<clipasset src="images/scss-grille-bootstrap.mp4"></clipasset>
 
 <grostitre>Matériel</grostitre>
  
-<doclink href='https://codepen.io/smnarnold/pen/rNwxGqQ'>Pen de départ</doclink>
+<doclink href="https://codepen.io/smnarnold/pen/rNwxGqQ">Pen de départ</doclink>
 
 
 
@@ -58,4 +58,4 @@ Retirez la bordure noire de votre <incode>.container</incode> et voilà ✨ Vous
 <intlink href="../../sass/imbrication/"></intlink>
 <intlink href="../../sass/variables/"></intlink>
 <intlink href="../../sass/mixins/"></intlink>
-<doclink href='https://smnarnold.com/cours/css/flexbox-avance'>Flexbox avancé</doclink>
+<doclink href="https://smnarnold.com/cours/css/flexbox-avance">Flexbox avancé</doclink>

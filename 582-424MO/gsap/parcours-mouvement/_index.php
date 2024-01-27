@@ -61,7 +61,7 @@
 <p>Une fois chargé, il est conseillé d'indiquer à GSAP que MotionPath est disponible en inscrivant la ligne de
     code&nbsp;suivante:</p>
 
-    <highlight lang='JavaScript'>gsap.registerPlugin(MotionPathPlugin);</highlight>
+    <highlight lang="JavaScript">gsap.registerPlugin(MotionPathPlugin);</highlight>
 
 <warning>MotionPath n’est compatible qu’avec <strong>GSAP 3 et&nbsp;plus</strong>.</warning>
 
@@ -317,7 +317,7 @@
 
 </div>
 
-<doclink href='https://greensock.com/docs/v3/Plugins/MotionPathPlugin'>MotionPath</doclink>
+<doclink href="https://greensock.com/docs/v3/Plugins/MotionPathPlugin">MotionPath</doclink>
 <dots></dots>
 
 <exercice href="../exercices/motionpath-voiture-et-vallons/"></exercice> 

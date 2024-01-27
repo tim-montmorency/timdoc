@@ -69,11 +69,11 @@
 
 
 
-<highlight lang='html'>&lt;body style=&quot;background: &lt;?php the_field(&#39;couleur_de_fond&#39;); ?&gt;;&quot;&gt;
+<highlight lang="html">&lt;body style=&quot;background: &lt;?php the_field(&#39;couleur_de_fond&#39;); ?&gt;;&quot;&gt;
   ...
 &lt;/body&gt;</highlight>
 
-<doclink href='https://www.advancedcustomfields.com/resources/color-picker/'>color picker</doclink>
+<doclink href="https://www.advancedcustomfields.com/resources/color-picker/">color picker</doclink>
 
 
 
@@ -89,7 +89,7 @@
 <info>Manic Subsidal???&nbsp;🤷‍♂️</info>
 
 
-<doclink href='https://www.advancedcustomfields.com/resources/text/'>text</doclink>
+<doclink href="https://www.advancedcustomfields.com/resources/text/">text</doclink>
 
 
 
@@ -105,10 +105,10 @@
 
 <p><incode>🇨🇦 Canada : Canada</incode><br><incode>🇺🇸 États-Unis : États-Unis</incode><br><incode>🇫🇷 France : France</incode></p><p>Comme pour un champ texte, la valeur peut-être ensuite récupérée via&nbsp;<incode>the_field(...)</incode>.</p>
 
-<highlight lang='html'>&lt;strong&gt;Pays d&#39;origine&lt;/strong&gt;
+<highlight lang="html">&lt;strong&gt;Pays d&#39;origine&lt;/strong&gt;
 &lt;?php the_field(&#39;pays_dorigine&#39;); ?&gt;</highlight>
 
-<doclink href='https://www.advancedcustomfields.com/resources/select/'>select</doclink>
+<doclink href="https://www.advancedcustomfields.com/resources/select/">select</doclink>
 
 
 
@@ -128,7 +128,7 @@
 
 <p>La façon simple avec&nbsp;<em>the_field(…)</em>&nbsp;retournant un&nbsp;url.<br>Par&nbsp;exemple:</p>
 
-<highlight lang='html'>&lt;img src=&quot;&lt;?php the_field(&#39;logo&#39;); ?&gt;&quot; class=&quot;logo&quot;&gt;</highlight>
+<highlight lang="html">&lt;img src=&quot;&lt;?php the_field(&#39;logo&#39;); ?&gt;&quot; class=&quot;logo&quot;&gt;</highlight>
 
 
 
@@ -145,13 +145,13 @@
 
 <p>Ces informations sont enregistrées sour forme d'objet. Il est donc préférable de stocker cet objet dans une variable afin d'accèder à ses&nbsp;sous-propriétés au&nbsp;besoin.</p><p>Par exemple, stockons cet objet dans la variable&nbsp;<incode>$logo</incode>&nbsp;et recréons l'exemple précédent, mais avec l'attribut alt de&nbsp;populé.</p>
 
-<highlight lang='php'>&lt;?php 
+<highlight lang="php">&lt;?php 
   $logo = get_field(&#39;logo&#39;);
   $url = $logo[&#39;url&#39;];
   $alt = $logo[&#39;alt&#39;];
 ?&gt;
 &lt;img src=&quot;&lt;?php echo $url; ?&gt;&quot; class=&quot;logo&quot; alt=&quot;&lt;?php echo $alt; ?&gt;&quot;&gt;</highlight>
-<doclink href='https://www.advancedcustomfields.com/resources/image/'>image</doclink>
+<doclink href="https://www.advancedcustomfields.com/resources/image/">image</doclink>
 
 <br>
 <br>

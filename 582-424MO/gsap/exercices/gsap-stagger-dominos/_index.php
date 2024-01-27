@@ -11,7 +11,7 @@
 <p>Pour cet exercice, écrivez une animation GSAP permettant de faire tomber tous les dominos un à la suite de l’autre en tirant profit de la propriété GSAP stagger.</p>
    
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/gsap-stagger-dominos.mp4'></clipasset>
+<clipasset src="images/gsap-stagger-dominos.mp4"></clipasset>
 
 
 <grostitre>Matériel</grostitre>

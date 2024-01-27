@@ -23,7 +23,7 @@ App : faites en sorte que le bouton like sur la page artwork soit cliquable et q
 
 <h3>Notes de cours 📚</h3>
 <intlink href="../../swiper/#installation"></intlink> 
-<doclink href='https://swiperjs.com/get-started#use-swiper-from-cdn'>Install Swiper</doclink>
+<doclink href="https://swiperjs.com/get-started#use-swiper-from-cdn">Install Swiper</doclink>
 
 <dots></dots>
 <grostitre>Swiper sur les filtres et les oeuvres en vedette</grostitre>
@@ -42,7 +42,7 @@ Ajoutez du CSS pour vous assurer que la largeur des slides de ce swiper là soit
 Dans votre script.js, initialisez ce Swiper là en le ciblant avec sa classe <em>.swiper-filters</em>.
 Toujours dans l’initialisation de swiper dans votre fichier script.js, ajoutez les quelques paramètres de swiper pour que les boutons s’affichent tous un à côté de l’autre comme sur la démo et qu’il y ait une petite distance entre chaque slide.
 </checklist>
-<doclink href='https://swiperjs.com/swiper-api#parameters'>Paramètres Swiper</doclink>
+<doclink href="https://swiperjs.com/swiper-api#parameters">Paramètres Swiper</doclink>
 <dots></dots>
 
 <h3>Oeuvres en vedette</h3>
@@ -56,7 +56,7 @@ Vous devriez avoir 3 slides, dupliquez les pour en avoir 6 (les mêmes œuvres r
 Dans votre script.js, initialisez ce Swiper là en le ciblant avec sa classe <em>.swiper-featured-artworks</em>.
 Toujours dans l’initialisation de swiper dans votre fichier script.js, ajoutez les quelques paramètres de swiper afin de voir 2 cartes et un petit bout de la 3e (voir la demo) et qu’il y ait une petite distance entre chaque slide.
 </checklist>
-<doclink href='https://swiperjs.com/swiper-api#parameters'>Paramètres Swiper</doclink>
+<doclink href="https://swiperjs.com/swiper-api#parameters">Paramètres Swiper</doclink>
 
 
 <h3>Notes de cours 📚</h3>
