@@ -62,7 +62,7 @@
 
 <p>Afin d'éviter de répéter le sélecteur <span class="inline-code">.list</span> à plusieurs reprises, il est possible d'écrire en SCSS:</p>
 
-<highlight lang="css">.list {
+<highlight lang="scss">.list {
   position: relative;
   
   .item { display: inline-block; }
@@ -72,7 +72,7 @@
 
 <p>Ce qui générera le code CSS suivant ⏬</p>
 
-<highlight lang="scss">.list { position: relative; }
+<highlight lang="css">.list { position: relative; }
 
 .list .item { display: inline-block; } 
 
@@ -86,7 +86,7 @@
 
 
 <p>Voici maintenant un exemple contenant deux niveaux d'imbrications:</p>
-<highlight lang="css">.list {
+<highlight lang="scss">.list {
   position: relative;
   
   .item { 
@@ -96,7 +96,7 @@
   }
 }</highlight>
 <p>Ce qui générera le code CSS suivant ⏬</p>
-<highlight lang="scss">.list { position: relative; }
+<highlight lang="css">.list { position: relative; }
 
 .list .item { display: inline-block; } 
 
@@ -156,7 +156,7 @@ nav ul li ul li {
 }</highlight>
 <warning>Évitez d’abusez des imbrications. Plus de trois niveaux d’imbrication est généralement considéré comme étant une mauvaise pratique et rendra votre code difficile à&nbsp;déboguer.</warning>
 
-<doclink href='https://sass-lang.com/documentation/style-rules/declarations#nesting'>Nesting (imbrication)</doclink>
+<doclink href="https://sass-lang.com/documentation/style-rules/declarations#nesting">Nesting (imbrication)</doclink>
 
 
 
@@ -175,11 +175,11 @@ nav ul li ul li {
 }</highlight>
 
 <p>Générera le code CSS suivant ⏬</p>
-<highlight lang="scss">.list &gt; .item { display: inline-block; }
+<highlight lang="css">.list &gt; .item { display: inline-block; }
 
 .list + .logo { display: none; }</highlight>
 
-<doclink href='https://sass-lang.com/documentation/style-rules#selector-combinators'>selector combinator</doclink>
+<doclink href="https://sass-lang.com/documentation/style-rules#selector-combinators">selector combinator</doclink>
 
 
 
@@ -203,7 +203,7 @@ nav ul li ul li {
 
 <p>Générera le code CSS suivant ⏬</p>
 
-<highlight lang="scss">.selecteur1 .selecteur2 { ... }</highlight>
+<highlight lang="css">.selecteur1 .selecteur2 { ... }</highlight>
 
 <p>Remarquez <strong>l'espace entre les deux sélecteurs</strong> indiquant que <span class="inline-code">.selecteur2</span> est enfant de <span class="inline-code">.s&eacute;lecteur1</span>.</p>
 
@@ -219,7 +219,7 @@ nav ul li ul li {
 
 <p>Générera le code CSS suivant ⏬</p>
 
-<highlight lang="scss">.selecteur1.selecteur2 { ... }</highlight>
+<highlight lang="css">.selecteur1.selecteur2 { ... }</highlight>
 
 <p>Remarquez maintenant l'espace inexistant entre .selecteur1 .selecteur2, cela signifie que le sélecteur 2 s'est appliqué au parent dans l'impbricattion Sass. Ce qui en résulte d'un sélecteur css qui vise un élément qui contient les 2 classes.</p>
 
@@ -240,7 +240,7 @@ nav ul li ul li {
 
 <p>Générera le code CSS suivant ⏬</p>
 
-<highlight lang="html">.btn { background: blue; }
+<highlight lang="css">.btn { background: blue; }
 
 .btn:hover { background: lightblue; }</highlight>
 <dots></dots>
@@ -254,7 +254,7 @@ nav ul li ul li {
 
 <p>Générera le code CSS suivant ⏬</p>
 
-<highlight lang="html">.section { background: white; }
+<highlight lang="css">.section { background: white; }
 
 .section:nth-child(3) { background: gray; }</highlight>
 
@@ -284,7 +284,7 @@ nav ul li ul li {
 
 <p>Générera le code CSS suivant ⏬</p>
 
-<highlight lang="scss">.btn { background: blue; }
+<highlight lang="css">.btn { background: blue; }
 
 .btn::before { content: &quot;🔘&quot;; }</highlight>
 
@@ -297,46 +297,39 @@ nav ul li ul li {
     bouton en utilisant ce sélecteur comme suffix.</p>
 
 
-<highlight lang="htscssml">.btn {
+<highlight lang="scss">.btn {
   .menu &amp; { background: grey; }
 }</highlight>
 
 <p>Générera le code CSS suivant ⏬</p>
 
-<highlight lang="html">.menu .btn { background: grey; }</highlight>
+<highlight lang="css">.menu .btn { background: grey; }</highlight>
 
-<doclink href='https://sass-lang.com/documentation/style-rules/parent-selector'>Parent selector</doclink>
+<doclink href="https://sass-lang.com/documentation/style-rules/parent-selector">Parent selector</doclink>
 
 <dots></dots>
 
 
-
-<aside class="tool-card">
-    <div class="tool-card__content">
-        <em class="tool-card__tagline">🛠 Outil</em><br class="tool-card__break">
-        <a href="https://www.sassmeister.com/" target="_blank" rel="noopener noreferrer" class="tool-card__title">
-            <strong>SassMeister</strong>
+        <a class="tool" target="_blank" href="https://www.sassmeister.com/">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">SassMeister</span>
+                    <span class="tool-description">Terrain de jeu SASS permettant de voir en temps réel la compilation CSS que produirait son code.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(../../tools/sassmeister/images/thumb.webp)"></div>
+            </div>
         </a>
-
-        <p class="tool-card__description">Terrain de jeu SASS permettant de voir en temps réel la compilation CSS que
-            produirait son&nbsp;code.</p>
-    </div>
-
-  
-</aside>
-<aside class="tool-card">
-    <div class="tool-card__content">
-        <em class="tool-card__tagline">🛠 Outil</em><br class="tool-card__break">
-        <a href="https://codebeautify.org/css-to-scss-converter" target="_blank" rel="noopener noreferrer"
-            class="tool-card__title">
-            <strong>CSS to&nbsp;SCSS</strong>
+        <a class="tool" target="_blank" href="https://codebeautify.org/css-to-scss-converter">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">CSS to SCSS</span>
+                    <span class="tool-description">Permet de convertir la structure d’un code CSS en imbrication SCSS.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(../../tools/csstoscss/images/thumb.webp)"></div>
+            </div>
         </a>
-
-        <p class="tool-card__description">Permet de convertir la structure d’un code CSS en imbrication&nbsp;SCSS.</p>
-    </div>
-
-   
-
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>

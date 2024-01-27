@@ -24,13 +24,19 @@
 
 <p>Parmi ceux-ci, le plus populaire est le module de couleurs que nous examinerons aujourd'hui.</p>
 
-<doclink href='https://sass-lang.com/documentation/modules'>built-in modules</doclink>
+<doclink href="https://sass-lang.com/documentation/modules">built-in modules</doclink>
       
 
 <dots></dots>
 
 <grostitre>Importation</grostitre>
-<p>Afin d'éviter d'affecter négativement la performance du code CSS, les modules ne sont pas importés par défaut. Il faut donc penser à les importer si l'on souhaite les utiliser.</p><p>Par exemple, afin d'importer le module de couleurs, il faut écrire:</p><pre><code class="hljs css"><span class="hljs-keyword">@use</span> <span class="hljs-string">"sass:color"</span>;</code></pre><p>Suite à cet import, plusieurs fonctionnalités de traitement de couleurs s'ajouteront à Sass.</p>
+<p>Afin d'éviter d'affecter négativement la performance du code CSS, les modules ne sont pas importés par défaut. Il faut donc penser à les importer si l'on souhaite les utiliser.</p><p>Par exemple, afin d'importer le module de couleurs, il faut écrire:</p>
+
+<highlight lang="scss">
+@use "sass:color";
+</highlight>
+
+<p>Suite à cet import, plusieurs fonctionnalités de traitement de couleurs s'ajouteront à Sass.</p>
           
 
 <dots></dots>
@@ -157,7 +163,7 @@ soit une couleur complètement désaturée.</p>
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-<doclink href='https://sass-lang.com/documentation/modules/color'>module color</doclink>
+<doclink href="https://sass-lang.com/documentation/modules/color">module color</doclink>
 
 
 

@@ -16,7 +16,7 @@
 
 
 
-<highlight lang='css'>.msg {
+<highlight lang="css">.msg {
   border-left: 4px solid blue;
   padding: 20px;
   background-color: lightBlue;
@@ -27,7 +27,7 @@
 <p>Si d'autres types de messages doivent ensuite être créés et qu'ils doivent partager les mêmes styles de bases que <incode>.msg</incode>, il serait possible d'étendre (extend) cette classe plutôt que de réécrire à chaque fois le même code.</p>
 
 <p>Par exemple:</p>
-<highlight lang='css'>.msg-alert {
+<highlight lang="scss">.msg-alert {
   @extend .msg;
   border-color: red;
   background-color: lightPink;
@@ -50,7 +50,7 @@
 
 
 <p>Ce qui , une fois compilé en css, générerait le code suivant:</p>
-<highlight lang='css'>.msg, .msg-alert, .msg-warning {
+<highlight lang="css">.msg, .msg-alert, .msg-warning {
   border-left: 4px solid blue;
   padding: 20px;
   background-color: lightBlue;
@@ -70,7 +70,7 @@
 
 <p>Les trois messages partageraient donc le même <incode>border-width</incode>, le même <incode>border-style</incode> et le même <incode>padding</incode> tandis que la couleur de fond et la couleur de bordure serait écrasées pour chaque variation.</p>
 
-<doclink href='https://sass-lang.com/documentation/at-rules/extend'>@extend</doclink>
+<doclink href="https://sass-lang.com/documentation/at-rules/extend">@extend</doclink>
 
 
 
@@ -83,7 +83,7 @@
 
 <p>Par exemple, l'exemple précédent pourrait être réécrit avec un placeholder afin d'éviter que la couleur de fond bleue soit écrasée par les variantes de messages:</p>
 
-<highlight lang='css'>%msg {
+<highlight lang="scss">%msg {
   border-left-width: 4px;
   border-left-style: solid;
   padding: 20px;
@@ -110,7 +110,7 @@
 
 <p>Ce qui générerait le code suivant:</p>
 
-<highlight lang='css'>.msg, .msg-alert, .msg-warning {
+<highlight lang="css">.msg, .msg-alert, .msg-warning {
   border-radius: 10px;
   padding: 10px;
 }
@@ -136,7 +136,7 @@
 
 <p>Par exemple, je sais que je centre régulièrement des éléments via <incode>transform</incode>. Plutôt que de tapper à chaque fois:</p>
 
-<highlight lang='css'>.element {
+<highlight lang="css">.element {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -148,7 +148,7 @@
 
 <p>Je me créé donc régulièrement un placeholder similaire à ceci:</p>
 
-<highlight lang='css'>%centered {
+<highlight lang="scss">%centered {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -157,12 +157,12 @@
 
 
 <p>Et je l'utilise sur mes éléments que je désire centrer ainsi:</p>
-<highlight lang='css'>.element {
+<highlight lang="scss">.element {
   @extend %centered;
 }</highlight>
 
 
-<doclink href='https://sass-lang.com/documentation/style-rules/placeholder-selectors'>Placeholder</doclink>
+<doclink href="https://sass-lang.com/documentation/style-rules/placeholder-selectors">Placeholder</doclink>
 
 
 

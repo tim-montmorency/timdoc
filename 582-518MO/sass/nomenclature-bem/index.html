@@ -165,7 +165,7 @@
 <p>Il peut être fastidieux de toujours répéter le même bloc au début de chaque nom de classe. D'où pourquoi la nomenclature BEM se marie si bien avec SASS. En tirant profit de l'imbrication (<em>nesting)</em> de SASS, il est possible de définir un bloc de ensuite ses éléments à l'intérieur de lui, sans jamais se répéter!</p>
 
 <p>Par exemple:</p>
-<highlight lang="css">.hero {
+<highlight lang="scss">.hero {
   &amp;__wrapper { width: 100%; }
   &amp;__title { font-style: italic; }
 }</highlight>
@@ -180,7 +180,7 @@
 <p>Les modificateurs sont faciles à écrire à l'aide de <span class="inline-code">@extend</span>. </p>
 
 <p>Par exemple</p>
-<highlight lang="css">.hero__title {
+<highlight lang="scss">.hero__title {
   font-style: italic;
 
   &amp;--big { 
