@@ -127,6 +127,13 @@ function timdocMount() {
 const urlParams = new URLSearchParams(window.location.search);
 if (urlParams.get('dark') !== null) localStorage.setItem('darkmode', 'true');
 if (urlParams.get('light') !== null) localStorage.setItem('darkmode', 'false');
+if (!localStorage.getItem('darkmode')) {
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        localStorage.setItem('darkmode', 'true');
+    } else {
+        localStorage.setItem('darkmode', 'false');
+    }
+}
 
 
 /******************************************************
@@ -225,18 +232,10 @@ hljs.registerLanguage('vue', () => {
  ******************************************************/
 const app = Vue.createApp({
     data() {
-        let darkmode = localStorage.getItem('darkmode') === 'true';
-        let theme = darkmode ? 'dark' : 'light';
         return {
-            sounds: false,
-            timgs: [],
-            codepens: [],
             lightSwitches: [],
             tableOfContents: [],
-            lightswitchon: null,
-            lightswitchoff: null,
-            darkmode: darkmode,
-            theme: theme
+            theme: localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light'
         }
     },
     mounted() {
@@ -244,14 +243,12 @@ const app = Vue.createApp({
         const breadcrumb = document.getElementById('breadcrumb');
         if (breadcrumb && /\/index\//g.test(referer.pathname))
             breadcrumb.classList.add('index');
-        if (this.$refs.lightswitch == undefined) return;
-        this.theme = this.darkmode ? 'dark' : 'light';
-        document.body.className = this.darkmode ? 'dark' : 'light';
-        this.$refs.lightswitch.className = this.darkmode ? 'lightswitch--off' : 'lightswitch--on';
-        if (this.sounds) {
-            this.lightswitchoff = new Howl({ src: [shared + 'sounds/lightswitch-off.webm', shared + 'sounds/lightswitch-off.mp3'], preload: true });
-            this.lightswitchon = new Howl({ src: [shared + 'sounds/lightswitch-on.webm', shared + 'sounds/lightswitch-on.mp3'], preload: true });
-        }
+        if (this.$refs.lightswitch != undefined)
+            this.$refs.lightswitch.className = this.theme == 'dark' ? 'lightswitch--off' : 'lightswitch--on';
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            if (event.matches) this.setDarkMode();
+            else this.setLightMode();
+        });
     },
     methods: {
         goToTop(path = null, index = null) {
@@ -259,47 +256,34 @@ const app = Vue.createApp({
             if (index && /\/index\//g.test(referer.pathname)) {
                 document.location.href = index;
             } else {
-                if (!path) path = '#top';
+                if (!path) window.scrollTo(0, 0);
                 document.location.href = path;
             }
         },
         lightswitch() {
-            if (this.$refs.lightswitch.className == 'lightswitch--on') {
+            if (this.$refs.lightswitch.className == 'lightswitch--on') this.setDarkMode();
+            else this.setLightMode();
+        },
+        setDarkMode() {
+            this.theme = 'dark';
+            document.body.className = 'dark';
+            localStorage.setItem('darkmode', 'true');
+            if (this.$refs.lightswitch != undefined)
                 this.$refs.lightswitch.className = 'lightswitch--off';
-                localStorage.setItem('darkmode', 'true');
-                document.body.className = 'dark';
-                this.theme = 'dark';
-                this.codepens.forEach((cp) => { cp.lightSwitchOff(); });
-                this.timgs.forEach((timg) => { timg.lightSwitchOff(); });
-                if (this.sounds) {
-                    this.lightswitchon.stop();
-                    this.lightswitchoff.play();
-                }
-            } else {
+            this.lightSwitches.forEach((elm) => { elm.lightSwitchOff(); });
+        },
+        setLightMode() {
+            this.theme = 'light';
+            document.body.className = 'light';
+            localStorage.setItem('darkmode', 'false');
+            if (this.$refs.lightswitch != undefined)
                 this.$refs.lightswitch.className = 'lightswitch--on';
-                localStorage.setItem('darkmode', 'false');
-                document.body.className = 'light';
-                this.theme = 'light';
-                this.codepens.forEach((cp) => { cp.lightSwitchOn(); });
-                this.timgs.forEach((timg) => { timg.lightSwitchOn(); });
-                if (this.sounds) {
-                    this.lightswitchoff.stop();
-                    this.lightswitchon.play();
-                }
-            }
+            this.lightSwitches.forEach((elm) => { elm.lightSwitchOn(); });
         },
-        addToTableOfContents(id, name) {
-            this.tableOfContents.push({
-                id: id,
-                name: name,
-            });
-        },
-        addToCodePens(comp) {
-            this.codepens.push(comp);
-        },
-        addToTimages(comp) {
-            this.timgs.push(comp);
-        },
+        registerLightSwitch(elm) {
+            this.lightSwitches.push(elm);
+
+        }
     }
 });
 
@@ -316,10 +300,16 @@ app.component('tabledesmatieres', {
             this.list = lis;
         });
     },
+    methods: {
+        goToTop(evt) {
+            evt.preventDefault();
+            window.scrollTo(0, 0);
+        }
+    },
     template: `
         <div id="contents_table" v-if="this.list != ''">
             <div class="contents_table__table">
-                <a href="#top" class="no-underline"><strong>Table des matières</strong></a>
+                <a href="#top" @click="this.goToTop" class="no-underline"><strong>Table des matières</strong></a>
                 <ul v-html="list"></ul>
             </div>
         </div>
@@ -336,7 +326,10 @@ app.component('grostitre', {
         return { id: slug }
     },
     created() {
-        this.$root.addToTableOfContents(this.id, this.$slots.default()[0].children);
+        this.$root.tableOfContents.push({
+            id: this.id,
+            name: this.$slots.default()[0].children
+        });
     },
     methods: {
         click(event) {
@@ -369,7 +362,6 @@ app.component('info', {
             <slot/>
         </div>`
 });
-
 
 
 /******************************************************
@@ -492,7 +484,6 @@ app.component('mediafile', {
 });
 
 
-
 /******************************************************
  *                 Composante Codepen                 *
  ******************************************************/
@@ -509,8 +500,8 @@ app.component('codepen', {
         if (typeof this.$slots.default != 'undefined') {
             remark = this.$slots.default()[0].children;
         }
-        this.$root.addToCodePens(this);
-        let theme = this.$root.darkmode ? '43847' : '39618';
+        this.$root.registerLightSwitch(this);
+        let theme = this.$root.theme == 'dark' ? '43847' : '39618';
         return {
             user: 'tim-momo',
             theme: theme,
@@ -665,7 +656,7 @@ app.component('doclink', {
                 case 'www.advancedcustomfields.com': site = 'wordpress'; break;
                 case 'npmjs.com': site = 'npm'; break;
                 case 'docs.npmjs.com': site = 'npm'; break;
-                
+
             }
         } catch (e) {
             if (this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
@@ -780,7 +771,6 @@ app.component('clip', {
 });
 
 
-
 /******************************************************
  *                Composante Clipasset                *
  ******************************************************/
@@ -795,7 +785,6 @@ app.component('clipasset', {
     },
     template: `<div class="video-asset-container"><video playsinline :src="this.src" autoplay="true" muted="true" loop="true" :class="'video-asset' + (isMobile ? ' mobile-width' : '')"></video></div`
 });
-
 
 
 /******************************************************
@@ -847,7 +836,6 @@ app.component('youtube', {
             <div class="oembed-wrapper__player" v-html="player"></div>
         </div><br>`
 });
-
 
 
 /******************************************************
@@ -1370,7 +1358,7 @@ app.component('timg', {
     props: ['src', 'class', 'alt'],
     data() {
         let source = this.src.replace(/\$t/g, this.$root.theme);
-        this.$root.addToTimages(this);
+        this.$root.registerLightSwitch(this);
         return { source: source }
     },
     methods: {
