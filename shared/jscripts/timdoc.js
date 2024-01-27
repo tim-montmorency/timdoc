@@ -255,10 +255,14 @@ const app = Vue.createApp({
             const referer = new URL(document.referrer, document.baseURI);
             if (index && /\/index\//g.test(referer.pathname)) {
                 document.location.href = index;
-            } else {
-                if (!path) window.scrollTo(0, 0);
+            } else if(path) {
                 document.location.href = path;
+            } else {
+                window.scrollTo(0, 0);
             }
+        },
+        registerLightSwitch(elm) {
+            this.lightSwitches.push(elm);
         },
         lightswitch() {
             if (this.$refs.lightswitch.className == 'lightswitch--on') this.setDarkMode();
@@ -279,10 +283,6 @@ const app = Vue.createApp({
             if (this.$refs.lightswitch != undefined)
                 this.$refs.lightswitch.className = 'lightswitch--on';
             this.lightSwitches.forEach((elm) => { elm.lightSwitchOn(); });
-        },
-        registerLightSwitch(elm) {
-            this.lightSwitches.push(elm);
-
         }
     }
 });
@@ -306,14 +306,14 @@ app.component('tabledesmatieres', {
             window.scrollTo(0, 0);
         }
     },
-    template: `
-        <div id="contents_table" v-if="this.list != ''">
-            <div class="contents_table__table">
-                <a href="#top" @click="this.goToTop" class="no-underline"><strong>Table des matières</strong></a>
-                <ul v-html="list"></ul>
-            </div>
-        </div>
-        `
+    template:
+        `<div id="contents_table" v-if="this.list != ''">` +
+            `<div class="contents_table__table">` +
+                `<a href="#top" @click="this.goToTop" class="no-underline"><strong>Table des matières</strong></a>` +
+                `<ul v-html="list"></ul>` +
+            `</div>` +
+        `</div>`
+        
 });
 
 
@@ -322,8 +322,7 @@ app.component('tabledesmatieres', {
  ******************************************************/
 app.component('grostitre', {
     data() {
-        let slug = lowslug(this.$slots.default()[0].children);
-        return { id: slug }
+        return { id: lowslug(this.$slots.default()[0].children) }
     },
     created() {
         this.$root.tableOfContents.push({
@@ -342,13 +341,13 @@ app.component('grostitre', {
             }, 1000);
         },
     },
-    template: `
-        <div class="grostitre">
-            <a :id="this.id"></a>
-            <h2><slot /></h2>
-            <div class="grostitre__chain" @click="click($event)"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path></svg></div>
-            <div class="grostitre__linkcopied">Lien copié &#x2713;</div>
-        </div>`
+    template:
+        `<div class="grostitre">` +
+            `<a :id="this.id"></a>` +
+            `<h2><slot /></h2>` +
+            `<div class="grostitre__chain" @click="click($event)"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path></svg></div>` +
+            `<div class="grostitre__linkcopied">Lien copié &#x2713;</div>` +
+        `</div>`
 });
 
 
@@ -356,11 +355,7 @@ app.component('grostitre', {
  *                  Composante Info                   *
  ******************************************************/
 app.component('info', {
-    template: `
-        <div class="infobubble info">
-            <div class="infobubble__bubble"></div>
-            <slot/>
-        </div>`
+    template: `<div class="infobubble info"><div class="infobubble__bubble"></div><slot/></div>`
 });
 
 
@@ -368,11 +363,7 @@ app.component('info', {
  *                 Composante Warning                 *
  ******************************************************/
 app.component('warning', {
-    template: `
-        <div class="infobubble warning">
-            <div class="infobubble__bubble"></div>
-            <slot/>
-        </div>`
+    template: `<div class="infobubble warning"><div class="infobubble__bubble"></div><slot/></div>`
 });
 
 
@@ -380,11 +371,7 @@ app.component('warning', {
  *                  Composante Alert                  *
  ******************************************************/
 app.component('alert', {
-    template: `
-        <div class="infobubble alert">
-            <div class="infobubble__bubble"></div>
-            <slot/>
-        </div>`
+    template: `<div class="infobubble alert"><div class="infobubble__bubble"></div><slot/></div>`
 });
 
 
@@ -392,11 +379,7 @@ app.component('alert', {
  *                  Composante Bravo                  *
  ******************************************************/
 app.component('bravo', {
-    template: `
-        <div class="infobubble bravo">
-            <div class="infobubble__bubble"></div>
-            <slot/>
-        </div>`
+    template: `<div class="infobubble bravo"><div class="infobubble__bubble"></div><slot/></div>`
 });
 
 
@@ -404,11 +387,7 @@ app.component('bravo', {
  *                 Composante Thumbs Up               *
  ******************************************************/
 app.component('thumbsup', {
-    template: `
-        <div class="infobubble thumbsup">
-            <div class="infobubble__bubble"></div>
-            <slot/>
-        </div>`
+    template: `<div class="infobubble thumbsup"><div class="infobubble__bubble"></div><slot/></div>`
 });
 
 
@@ -470,16 +449,16 @@ app.component('mediafile', {
             event.currentTarget.select();
         }
     },
-    template: `
-        <div :class="'mediafile' + this.space">
-            <div class="mediafile__icon" :style="'background-image: url(\\'' + this.icon + '\\')'">&nbsp;</div>
-            <div class="mediafile__text"><slot/></div>
-            <div class="mediafile__download" @click="download($event)"><svg fill="currentColor" viewBox="0 0 538 538"><path d="M463 466H75c-12 0-22 10-22 22v28c0 12 10 22 22 22h388c12 0 21-10 21-22v-28c1-12-9-22-21-22zm-209-38c4 4 10 6 15 6 6 0 11-2 15-6l147-147c9-9 9-22 0-31l-20-20c-8-9-22-9-31 0l-75 75V21c0-11-10-21-22-21h-28c-12 0-22 10-22 21v285l-75-76c-9-8-22-8-31 0l-20 20c-9 9-9 22 0 31l147 147z"/></svg></div>
-            <div class="mediafile__chain" @click="click($event)"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path></svg></div>
-            <div class="mediafile__linkcopied">Lien copié &#x2713;</div>
-        </div>
-        <div v-if="this.isaddr" :class="'mediafile__link' + this.space"><input readonly type="text" class="mediafile__link-text" :value="this.link" @focus="focus($event)"></div>
-        <div class="mediafile__spacer"></div>`
+    template:
+        `<div :class="'mediafile' + this.space">` +
+            `<div class="mediafile__icon" :style="'background-image: url(\\'' + this.icon + '\\')'">&nbsp;</div>` +
+            `<div class="mediafile__text"><slot/></div>` +
+            `<div class="mediafile__download" @click="download($event)"><svg fill="currentColor" viewBox="0 0 538 538"><path d="M463 466H75c-12 0-22 10-22 22v28c0 12 10 22 22 22h388c12 0 21-10 21-22v-28c1-12-9-22-21-22zm-209-38c4 4 10 6 15 6 6 0 11-2 15-6l147-147c9-9 9-22 0-31l-20-20c-8-9-22-9-31 0l-75 75V21c0-11-10-21-22-21h-28c-12 0-22 10-22 21v285l-75-76c-9-8-22-8-31 0l-20 20c-9 9-9 22 0 31l147 147z"/></svg></div>` +
+            `<div class="mediafile__chain" @click="click($event)"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path></svg></div>` +
+            `<div class="mediafile__linkcopied">Lien copié &#x2713;</div>` +
+        `</div>` +
+        `<div v-if="this.isaddr" :class="'mediafile__link' + this.space"><input readonly type="text" class="mediafile__link-text" :value="this.link" @focus="focus($event)"></div>` +
+        `<div class="mediafile__spacer"></div>`
 
 });
 
@@ -518,19 +497,11 @@ app.component('codepen', {
             this.theme = '43847';
         },
     },
-    template: `
-    <div class="codepen-container">
-        <iframe
-            :src="'https://codepen.io/' + user + '/embed/' + id + '?default-tab=' + defaulttab + '&theme-id=' + theme"
-            class="codepen"
-            scrolling="no"
-            frameborder="no"
-            loading="lazy"
-            allowtransparency="true"
-            allowfullscreen="true"
-            :style="'height: ' + bheight + 'px;'"
-         ></iframe><span class="codepen-remark" v-if="this.remark != ''">{{ remark }}</span>
-    </div>`
+    template: 
+    `<div class="codepen-container">` +
+        `<iframe :src="'https://codepen.io/' + user + '/embed/' + id + '?default-tab=' + defaulttab + '&theme-id=' + theme" class="codepen" scrolling="no" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" :style="'height: ' + bheight + 'px;'"></iframe>` +
+        `<span class="codepen-remark" v-if="this.remark != ''">{{ remark }}</span>` +
+    `</div>`
 });
 
 
@@ -551,17 +522,17 @@ app.component('exercice', {
             url: url
         }
     },
-    template: `
-        <a class="exercice" target="_blank" :href="this.url">
-            <div class="exercice-container">
-                <div class="exercice-thumb" :style="'background-image: url(\\'' + this.thumb + '\\')'"></div>
-                <div class="exercice-abstract">
-                    <em class="exercice-label">EXERCICE</em>
-                    <span class="exercice-title">{{ name }}</span>
-                    <span class="exercice-description">{{ description }}</span>
-                </div>
-            </div>
-        </a>`
+    template: 
+        `<a class="exercice" target="_blank" :href="this.url">` +
+            `<div class="exercice-container">` +
+                `<div class="exercice-thumb" :style="'background-image: url(\\'' + this.thumb + '\\')'"></div>` +
+                `<div class="exercice-abstract">` +
+                    `<em class="exercice-label">EXERCICE</em>` +
+                    `<span class="exercice-title">{{ name }}</span>` +
+                    `<span class="exercice-description">{{ description }}</span>` +
+                `</div>` +
+            `</div>` +
+        `</a>`
 });
 
 
@@ -582,17 +553,17 @@ app.component('tool', {
             url: url
         }
     },
-    template: `
-        <a class="tool" target="_blank" :href="this.url">
-            <div class="tool-container">
-                <div class="tool-abstract">
-                    <em class="tool-label">OUTIL</em>
-                    <span class="tool-title">{{ name }}</span>
-                    <span class="tool-description">{{ description }}</span>
-                </div>
-                <div class="tool-thumb" :style="'background-image: url(\\'' + this.thumb + '\\')'"></div>
-            </div>
-        </a>`
+    template:
+        `<a class="tool" target="_blank" :href="this.url">` +
+            `<div class="tool-container">` +
+                `<div class="tool-abstract">` +
+                    `<em class="tool-label">OUTIL</em>` +
+                    `<span class="tool-title">{{ name }}</span>` +
+                    `<span class="tool-description">{{ description }}</span>` +
+                `</div>` +
+                `<div class="tool-thumb" :style="'background-image: url(\\'' + this.thumb + '\\')'"></div>` +
+            `</div>` +
+        `</a>`
 });
 
 
@@ -601,11 +572,11 @@ app.component('tool', {
  ******************************************************/
 app.component('knowmore', {
     props: ['href'],
-    template: `
-        <a class="knowmore" target="_blank" :href="this.href">
-            <div class="knowmore__title">&#128214; EN SAVOIR PLUS</div>
-            <div class="knowmore__abstract"><slot/></div>
-        </a>`
+    template:
+        `<a class="knowmore" target="_blank" :href="this.href">` +
+            `<div class="knowmore__title">&#128214; EN SAVOIR PLUS</div>` +
+            `<div class="knowmore__abstract"><slot/></div>` +
+        `</a>`
 });
 
 
@@ -665,13 +636,13 @@ app.component('doclink', {
         if (this.spacer == 'true') site += ' spacer';
         return { class: site }
     },
-    template: `
-        <a :class="'doclink ' + this.class" target="_blank" :href="this.href">
-            <div class="doclink-container">
-                <div class="doclink-icon"></div>
-                <span class="doclink-title"><slot /></span>
-            </div>
-        </a>`
+    template:
+        `<a :class="'doclink ' + this.class" target="_blank" :href="this.href">` +
+            `<div class="doclink-container">` +
+                `<div class="doclink-icon"></div>` +
+                `<span class="doclink-title"><slot /></span>` +
+            `</div>` +
+        `</a>`
 });
 
 
@@ -679,15 +650,15 @@ app.component('doclink', {
  *                  Composante Dots                   *
  ******************************************************/
 app.component('dots', {
-    template: `
-        <div class="dots">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor">
-                <rect width="256" height="128" fill="none"/>
-                <circle cx="128" cy="128" r="6"/>
-                <circle cx="64" cy="128" r="6"/>
-                <circle cx="192" cy="128" r="6"/>
-            </svg>
-        </div>`
+    template:
+        `<div class="dots">` +
+            `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor">` +
+                `<rect width="256" height="128" fill="none"/>` +
+                `<circle cx="128" cy="128" r="6"/>` +
+                `<circle cx="64" cy="128" r="6"/>` +
+                `<circle cx="192" cy="128" r="6"/>` +
+            `</svg>` +
+        `</div>`
 });
 
 
@@ -719,10 +690,10 @@ app.component('color', {
             }, 2000);
         }
     },
-    template: `
-        <span :class="'color' + this.space + this.clicked" :style="'color: ' + this.invert + '; background-color: ' + this.color + ';'" @click="click()">
-            {{ text }}
-        </span>`
+    template:
+        `<span :class="'color' + this.space + this.clicked" :style="'color: ' + this.invert + '; background-color: ' + this.color + ';'" @click="click()">` +
+            `{{ text }}` +
+        `</span>`
 });
 
 
@@ -762,12 +733,12 @@ app.component('clip', {
             this.playbtn = 'none';
         }
     },
-    template: `
-        <div class="oembed-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.aspect + ';'">
-            <div class="oembed-wrapper__title" :style="'display: ' + this.playbtn + ';'"><div>{{ title }}</div></div>
-            <div class="oembed-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
-            <div class="oembed-wrapper__player" v-html="player"></div>
-        </div><br>`
+    template:
+        `<div class="oembed-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.aspect + ';'">` +
+            `<div class="oembed-wrapper__title" :style="'display: ' + this.playbtn + ';'"><div>{{ title }}</div></div>` +
+            `<div class="oembed-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>` +
+            `<div class="oembed-wrapper__player" v-html="player"></div>` +
+        `</div><br>`
 });
 
 
@@ -829,12 +800,12 @@ app.component('youtube', {
             this.playbtn = 'none';
         }
     },
-    template: `
-        <div class="oembed-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.aspect + ';'">
-            <div class="oembed-wrapper__title" :style="'display: ' + this.playbtn + ';'"><div>{{ title }}</div></div>
-            <div class="oembed-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
-            <div class="oembed-wrapper__player" v-html="player"></div>
-        </div><br>`
+    template:
+        `<div class="oembed-wrapper" :style="'background-image: url('+this.thumbnail_url+'); aspect-ratio: '+ this.aspect+';'">` +
+            `<div class="oembed-wrapper__title" :style="'display: '+this.playbtn+';'"><div>{{ title }}</div></div>` +
+            `<div class="oembed-wrapper__play" @click="this.play();" :style="'display: '+this.playbtn+';'"></div>` +
+            `<div class="oembed-wrapper__player" v-html="player"></div>` +
+        `</div><br>`
 });
 
 
@@ -876,12 +847,12 @@ app.component('vimeo', {
             this.playbtn = 'none';
         }
     },
-    template: `
-        <div class="oembed-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.aspect + ';'">
-            <div class="oembed-wrapper__title" :style="'display: ' + this.playbtn + ';'"><div>{{ title }}</div></div>
-            <div class="oembed-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
-            <div class="oembed-wrapper__player" v-html="player"></div>
-        </div><br>`
+    template:
+        `<div class="oembed-wrapper" :style="'background-image: url('+this.thumbnail_url+'); aspect-ratio: '+this.aspect+';'">` +
+            `<div class="oembed-wrapper__title" :style="'display: '+this.playbtn+';'"><div>{{ title }}</div></div>` +
+            `<div class="oembed-wrapper__play" @click="this.play();" :style="'display: '+this.playbtn+';'"></div>` +
+            `<div class="oembed-wrapper__player" v-html="player"></div>` +
+        `</div><br>`
 });
 
 
@@ -973,20 +944,20 @@ app.component('swiper', {
             }
         }
     },
-    template: `
-        <div class="swiper-container">
-            <div class="swiper-modal" :id="'swiper-modal-' + this.hash" @click="close()"></div>
-            <div :id="'swiper-' + this.hash" style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper swiper-main">
-                <div class="swiper-wrapper" v-html="slides"></div>
-                <div :id="'swiper-button-next-' + this.hash" class="swiper-button-next"></div>
-                <div :id="'swiper-button-prev-' + this.hash" class="swiper-button-prev"></div>
-                <div :id="'swiper-pagination-' + this.hash" class="swiper-pagination"></div>
-                <div title="Navigue avec les flèches de ton clavier en plein écran" class="swiper-fullscreen" @click="fullscreen()"></div>
-            </div>
-            <div :id="'swiper-thumbs-' + this.hash" class="swiper swiper-thumbs">
-                <div class="swiper-wrapper" v-html="thslides"></div>
-            </div>
-        </div>`
+    template:
+        `<div class="swiper-container">` +
+            `<div class="swiper-modal" :id="'swiper-modal-' + this.hash" @click="close()"></div>` +
+            `<div :id="'swiper-' + this.hash" style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper swiper-main">` +
+                `<div class="swiper-wrapper" v-html="slides"></div>` +
+                `<div :id="'swiper-button-next-' + this.hash" class="swiper-button-next"></div>` +
+                `<div :id="'swiper-button-prev-' + this.hash" class="swiper-button-prev"></div>` +
+                `<div :id="'swiper-pagination-' + this.hash" class="swiper-pagination"></div>` +
+                `<div title="Navigue avec les flèches de ton clavier en plein écran" class="swiper-fullscreen" @click="fullscreen()"></div>` +
+            `</div>` +
+            `<div :id="'swiper-thumbs-' + this.hash" class="swiper swiper-thumbs">` +
+                `<div class="swiper-wrapper" v-html="thslides"></div>` +
+            `</div>` +
+        `</div>`
 });
 
 
@@ -1056,14 +1027,14 @@ app.component('checklist', {
             this.progress = (total / this.checks.length * 100).toFixed(0);
         }
     },
-    template: `
-        <div class="checklist">
-            <div class="pourcentage">{{ progress }}%</div>
-            <div :id="this.hash + '-progressbar'" class="progressbar" :style="'background-size: ' + this.progress + '% 100%;'"></div>
-            <ol>
-                <li v-for="(line, i) in this.list" :class="this.checks[i]?'checked':''" @click="click($event,i)" v-html="line"></li>
-            </ol>
-        </div>`
+    template:
+        `<div class="checklist">` +
+            `<div class="pourcentage">{{ progress }}%</div>` +
+            `<div :id="this.hash + '-progressbar'" class="progressbar" :style="'background-size: ' + this.progress + '% 100%;'"></div>` +
+            `<ol>` +
+                `<li v-for="(line, i) in this.list" :class="this.checks[i]?'checked':''" @click="click($event,i)" v-html="line"></li>` +
+            `</ol>` +
+        `</div>`
 });
 
 
@@ -1126,15 +1097,15 @@ app.component('audioplayer', {
             }
         }
     },
-    template: `
-    <div class="audioplayer-container">
-        <div class="audioplayer">
-            <div :class="'audioplayer__button' + (this.playing ? ' pause' : '')" @click="click()"></div>
-            <div class="audioplayer__waveform" :style="'background-image: url(\\'' + this.name + '.png\\')'" @click="seek($event)">
-                <div class="audioplayer__progress" :style="'width: ' + this.progress + '%;'"></div>
-            </div>
-        </div>
-    </div>`
+    template:
+        `<div class="audioplayer-container">` +
+            `<div class="audioplayer">` +
+                `<div :class="'audioplayer__button'+(this.playing?' pause':'')" @click="click()"></div>` +
+                `<div class="audioplayer__waveform" :style="'background-image: url(\\''+this.name+'.png\\')'" @click="seek($event)">` +
+                    `<div class="audioplayer__progress" :style="'width: '+this.progress+'%;'"></div>` +
+                `</div>` +
+            `</div>` +
+        `</div>`
 });
 
 
@@ -1146,19 +1117,19 @@ app.component('quote', {
     data() {
         return {}
     },
-    template: `
-        <div class="quote">
-            <blockquote><slot/></blockquote>
-            <div class="quote__author">
-                <div class="quote__who">
-                    <div class="quote__name">— {{ author }}</div>
-                    <div class="quote__title">{{ title }}</div>
-                </div>
-                <div class="quote__photo">
-                    <img :src="this.photo">
-                </div>
-            </div>
-        </div>`
+    template:
+        `<div class="quote">` +
+            `<blockquote><slot/></blockquote>` +
+            `<div class="quote__author">` +
+                `<div class="quote__who">` +
+                    `<div class="quote__name">— {{ author }}</div>` +
+                    `<div class="quote__title">{{ title }}</div>` +
+                `</div>` +
+                `<div class="quote__photo">` +
+                    `<img :src="this.photo">` +
+                `</div>` +
+            `</div>` +
+        `</div>`
 });
 
 
@@ -1212,18 +1183,18 @@ app.component('wiki', {
             }
         }
     },
-    template: `
-        <div id="wiki">
-            <div id="wiki__burger" ref="burger" @click="toggleBurger()"></div>
-            <div id="wiki__list" ref="list">
-                <ul>
-                    <li v-for="el in this.pages"><a :id="'wiki-list__' + el.id" @click="setActivePage(el.id)" href="#">{{ el.name }}</a><span>&nbsp;&#x1f4da;</span></li>
-                </ul>
-            </div>
-            <div id="wiki__pages">
-                <slot/>
-            </div>
-        </div>`
+    template:
+        `<div id="wiki">` +
+            `<div id="wiki__burger" ref="burger" @click="toggleBurger()"></div>` +
+            `<div id="wiki__list" ref="list">` +
+                `<ul>` +
+                    `<li v-for="el in this.pages"><a :id="'wiki-list__' + el.id" @click="setActivePage(el.id)" href="#">{{ el.name }}</a><span>&nbsp;&#x1f4da;</span></li>` +
+                `</ul>` +
+            `</div>` +
+            `<div id="wiki__pages">` +
+                `<slot/>` +
+            `</div>` +
+        `</div>`
 });
 
 
@@ -1240,11 +1211,11 @@ app.component('wiki-page', {
             'slug': slug
         }
     },
-    template: `
-        <div :id="'wiki-page__' + this.slug" class="wiki__page">
-            <h1>{{ name }}</h1><br>
-            <slot/>
-        </div>`
+    template:
+        `<div :id="'wiki-page__' + this.slug" class="wiki__page">` +
+            `<h1>{{ name }}</h1><br>` +
+            `<slot/>` +
+        `</div>`
 });
 
 
@@ -1289,26 +1260,26 @@ app.component('correction', {
             navigator.clipboard.writeText(this.score);
         }
     },
-    template: `
-        <div class="correction">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Critères</th>
-                        <th>Barèmes</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <slot></slot>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td>Total</td>
-                        <td>{{ this.score_txt }}&nbsp;&nbsp;<button @click="this.copy();">Copier</button>&nbsp;&nbsp;<button @click="this.clear();">Effacer</button></td>
-                    </tr>
-                </tfoot>
-            </table>
-        </div>`
+    template:
+        `<div class="correction">` +
+            `<table>` +
+                `<thead>` +
+                    `<tr>` +
+                        `<th>Critères</th>` +
+                        `<th>Barèmes</th>` +
+                    `</tr>` +
+                `</thead>` +
+                `<tbody>` +
+                    `<slot></slot>` +
+                `</tbody>` +
+                `<tfoot>` +
+                    `<tr>` +
+                        `<td>Total</td>` +
+                        `<td>{{ this.score_txt }}&nbsp;&nbsp;<button @click="this.copy();">Copier</button>&nbsp;&nbsp;<button @click="this.clear();">Effacer</button></td>` +
+                    `</tr>` +
+                `</tfoot>` +
+            `</table>` +
+        `</div>`
 });
 
 app.component('criteria', {
@@ -1341,13 +1312,13 @@ app.component('criteria', {
             }
         }
     },
-    template: `
-        <tr class="correction__criteria">
-            <td><slot/></td>
-            <td>
-                <span class="correction__criteria__scale" v-for="(scale, i) in this.$parent.scales" v-html="scale" @click="click($event, this.$parent.scales.length - 1 - i)"></span>
-            </td>
-        </tr>`
+    template:
+        `<tr class="correction__criteria">` +
+            `<td><slot/></td>` +
+            `<td>` +
+                `<span class="correction__criteria__scale" v-for="(scale, i) in this.$parent.scales" v-html="scale" @click="click($event, this.$parent.scales.length - 1 - i)"></span>` +
+            `</td>` +
+        `</tr>`
 });
 
 
