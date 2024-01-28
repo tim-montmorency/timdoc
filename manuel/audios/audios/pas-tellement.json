@@ -5,7 +5,7 @@
 "url": "https://mediaarea.net/MediaInfo"
 },
 "media": {
-"@ref": "D:\\Programmation\\tim-montmorency\\cours\\manuel\\audios\\audios\\pas-tellement.mp3",
+"@ref": "D:\\Programmation\\tim-montmorency\\timdoc\\manuel\\audios\\audios\\pas-tellement.mp3",
 "track": [
 {
 "@type": "General",
@@ -19,10 +19,10 @@
 "StreamSize": "150",
 "Title": "Pas tellement",
 "Track": "Pas tellement",
-"File_Created_Date": "UTC 2022-12-18 10:41:49.443",
-"File_Created_Date_Local": "2022-12-18 05:41:49.443",
-"File_Modified_Date": "UTC 2022-12-18 10:41:43.237",
-"File_Modified_Date_Local": "2022-12-18 05:41:43.237",
+"File_Created_Date": "UTC 2023-01-12 19:49:08.860",
+"File_Created_Date_Local": "2023-01-12 14:49:08.860",
+"File_Modified_Date": "UTC 2023-01-12 19:49:08.860",
+"File_Modified_Date_Local": "2023-01-12 14:49:08.860",
 "Encoded_Library": "LAME3.99r",
 "Comment": "https://www.youtube.com/watch?v=EDXcHU2KEh0 / https://www.youtube.com/watch?v=EDXcHU2KEh0"
 },

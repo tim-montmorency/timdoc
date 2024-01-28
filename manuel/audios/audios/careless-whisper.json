@@ -5,7 +5,7 @@
 "url": "https://mediaarea.net/MediaInfo"
 },
 "media": {
-"@ref": "D:\\Programmation\\tim-montmorency\\cours\\manuel\\audios\\audios\\careless-whisper.mp3",
+"@ref": "D:\\Programmation\\tim-montmorency\\timdoc\\manuel\\audios\\audios\\careless-whisper.mp3",
 "track": [
 {
 "@type": "General",
@@ -21,10 +21,10 @@
 "Track": "George Michael - Careless Whisper (Official Video)",
 "Performer": "georgemichaelVEVO",
 "Recorded_Date": "2009",
-"File_Created_Date": "UTC 2022-12-16 00:30:42.569",
-"File_Created_Date_Local": "2022-12-15 19:30:42.569",
-"File_Modified_Date": "UTC 2022-12-16 00:30:49.660",
-"File_Modified_Date_Local": "2022-12-15 19:30:49.660",
+"File_Created_Date": "UTC 2023-01-12 19:49:08.475",
+"File_Created_Date_Local": "2023-01-12 14:49:08.475",
+"File_Modified_Date": "UTC 2023-01-12 19:49:08.477",
+"File_Modified_Date_Local": "2023-01-12 14:49:08.477",
 "Encoded_Library": "LAME3.99r",
 "Comment": "https://www.youtube.com/watch?v=izGwDsrQ1eQ",
 "extra": {

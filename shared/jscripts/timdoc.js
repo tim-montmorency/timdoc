@@ -138,7 +138,8 @@ function timdocMount() {
 const urlParams = new URLSearchParams(window.location.search);
 if (urlParams.get('dark') !== null) localStorage.setItem('darkmode', 'true');
 if (urlParams.get('light') !== null) localStorage.setItem('darkmode', 'false');
-if (!localStorage.getItem('darkmode')) {
+if (!localStorage.getItem('darkmode') || !localStorage.getItem('darkmode_cache_1')) {
+    localStorage.setItem('darkmode_cache_1', 'true')
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
         localStorage.setItem('darkmode', 'true');
     } else {
@@ -1121,6 +1122,21 @@ app.component('audioplayer', {
 });
 
 
+
+/******************************************************
+ *                  Composante Tune                   *
+ ******************************************************/
+ app.component('tune', {
+    props: ['src'],
+    data() {
+        return {}
+    },
+    template:`
+    
+    `
+});
+
+
 /******************************************************
  *                  Composante Quote                  *
  ******************************************************/
@@ -1174,7 +1190,7 @@ app.component('wiki', {
             this.pages.push({ id: id, name: name });
         },
         setActivePage(id, evt=null) {
-            if(evt) evt.preventDefault();
+            if (evt) evt.preventDefault();
             if (this.active != null) {
                 document.getElementById('wiki-list__' + this.active).classList.remove('active');
                 document.getElementById('wiki-page__' + this.active).classList.remove('active');
@@ -1342,9 +1358,8 @@ app.component('criteria', {
 app.component('timg', {
     props: ['src', 'class', 'alt'],
     data() {
-        let source = this.src.replace(/\$t/g, this.$root.theme);
         this.$root.registerLightSwitch(this);
-        return { source: source }
+        return { source: this.src.replace(/\$t/g, this.$root.theme) }
     },
     methods: {
         lightSwitchOff() {
