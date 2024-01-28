@@ -27,3 +27,5 @@ SET /A z = %var:"=% / %width%
 %audiowaveform% -i %1 -o %pngoutput% --amplitude-scale 0.75 --background-color ffffff00 --waveform-color %color% -w %width% -h %height% -z %z%
 
 %ffmpeg% -y -i %1 -dash 1 %webmoutput%
+
+%mediainfo% %webmoutput% --output=JSON > %jsonoutput%

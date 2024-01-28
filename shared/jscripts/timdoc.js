@@ -1129,6 +1129,17 @@ app.component('audioplayer', {
  app.component('tune', {
     props: ['src'],
     data() {
+        var url = new URL(this.src, document.baseURI);
+        let name = url.pathname.split('.').shift();
+        let id = name.split('/').pop();
+        let details = syncjson(name + '.json');
+        let track = undefined;
+        details.media.track.forEach(elm => { if (elm['@type'] == 'Audio') { track = elm; } });
+        if (track == undefined) return {};
+        
+        console.log(track);
+
+
         return {}
     },
     template:`
