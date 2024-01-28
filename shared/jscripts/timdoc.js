@@ -1173,7 +1173,8 @@ app.component('wiki', {
         registerPage(id, name) {
             this.pages.push({ id: id, name: name });
         },
-        setActivePage(id) {
+        setActivePage(id, evt=null) {
+            if(evt) evt.preventDefault();
             if (this.active != null) {
                 document.getElementById('wiki-list__' + this.active).classList.remove('active');
                 document.getElementById('wiki-page__' + this.active).classList.remove('active');
@@ -1184,6 +1185,7 @@ app.component('wiki', {
             this.active = id;
             this.$refs.burger.classList.remove('show');
             this.$refs.list.classList.remove('show');
+            window.scrollTo(0, 0);
         },
         toggleBurger() {
             if (this.$refs.burger.classList.contains('show')) {
@@ -1200,7 +1202,7 @@ app.component('wiki', {
             `<div id="wiki__burger" ref="burger" @click="toggleBurger()"></div>` +
             `<div id="wiki__list" ref="list">` +
                 `<ul>` +
-                    `<li v-for="el in this.pages"><a :id="'wiki-list__' + el.id" @click="setActivePage(el.id)" href="#">{{ el.name }}</a><span>&nbsp;&#x1f4da;</span></li>` +
+                    `<li v-for="el in this.pages"><a :id="'wiki-list__' + el.id" @click="setActivePage(el.id, $event)" href="#">{{ el.name }}</a><span>&nbsp;&#x1f4da;</span></li>` +
                 `</ul>` +
             `</div>` +
             `<div id="wiki__pages">` +
