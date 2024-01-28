@@ -1,4 +1,14 @@
 @charset "UTF-8";
+/*!
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+*/
 /* https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=block */
 @font-face {
   font-family: "Rubik";
@@ -2101,4 +2111,4 @@ q.on-hover[cite]::after {
 q.on-hover[cite]:hover::after {
   content: " » (source: " attr(cite) ") ";
   color: var(--main-color);
-}/*# sourceMappingURL=styles.css.map */
+}

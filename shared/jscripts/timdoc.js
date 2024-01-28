@@ -1,3 +1,14 @@
+/*!
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+*/
+
 /******************************************************
  *                Get a sync json file                *
  ******************************************************/
@@ -304,6 +315,7 @@ app.component('tabledesmatieres', {
         goToTop(evt) {
             evt.preventDefault();
             window.scrollTo(0, 0);
+            location.hash = '';
         }
     },
     template:
@@ -313,7 +325,7 @@ app.component('tabledesmatieres', {
                 `<ul v-html="list"></ul>` +
             `</div>` +
         `</div>`
-        
+
 });
 
 
@@ -497,7 +509,7 @@ app.component('codepen', {
             this.theme = '43847';
         },
     },
-    template: 
+    template:
     `<div class="codepen-container">` +
         `<iframe :src="'https://codepen.io/' + user + '/embed/' + id + '?default-tab=' + defaulttab + '&theme-id=' + theme" class="codepen" scrolling="no" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" :style="'height: ' + bheight + 'px;'"></iframe>` +
         `<span class="codepen-remark" v-if="this.remark != ''">{{ remark }}</span>` +
@@ -522,7 +534,7 @@ app.component('exercice', {
             url: url
         }
     },
-    template: 
+    template:
         `<a class="exercice" target="_blank" :href="this.url">` +
             `<div class="exercice-container">` +
                 `<div class="exercice-thumb" :style="'background-image: url(\\'' + this.thumb + '\\')'"></div>` +
@@ -859,7 +871,7 @@ app.component('vimeo', {
 /******************************************************
  *                Composante Highlight                *
  ******************************************************/
-//https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md 
+//https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md
 app.component('highlight', {
     props: ['lang'],
     template: `<pre class="highlight"><code :class="'language-' + this.lang"><slot /></code></pre>`

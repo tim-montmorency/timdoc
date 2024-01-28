@@ -38,6 +38,7 @@
         ]
     },
     "liveServer.settings.port": 5501,
+    "liveSassCompile.settings.generateMap": false,
     "liveSassCompile.settings.formats": [
         {
             "format": "expanded",
