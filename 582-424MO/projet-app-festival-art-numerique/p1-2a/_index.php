@@ -31,9 +31,9 @@
 
  <h3>Requis à réaliser en équipe</h3>
 
-<p>D'abord lisez ces précisions concernant l'étape #9 et l'étape #10.</p>
+<p>D'abord lisez ces précisions concernant l'étape #13 et l'étape #14.</p>
 
-<h4>Concernant l'étape #9 - Les styles de headings (h1 à h6)</h4>
+<h4>Concernant l'étape #13 - Les styles de headings (h1 à h6)</h4>
 <info>
   <p>Règle HTML et SEO: Une balise <em>&lt;h(n)&gt;</em> ne peut être suivie que par une balise <em>&lt;h(n+1)&gt;</em> dans l'ordre du code source : on ne saute pas de niveau. </p>
   <p>Par exemple, après une balise <em>&lt;h1&gt;</em>, il ne peu y avoir qu'une balise <em>&lt;h2&gt;</em>, pas autre chose. <br>
@@ -48,7 +48,7 @@
 
 
 
-<h4>Concernant l'étape #10 - Les commentaires</h4><br>
+<h4>Concernant l'étape #14 - Les commentaires</h4><br>
  <highlight  lang="css">/*--------------------------------------------------------- 
 # Styles Généraux 
 ---------------------------------------------------------*/ 
@@ -85,9 +85,9 @@ section.hero{
    Créez des variables css qui représentent chacune des couleurs de votre palette.
    Liez vos fichiers de polices de caractère (fontes) via la balise link dans le head du fichier HTML ou via @import dans le fichier CSS.
    Créez des variables pour le nom de vos différentes fontes.
-   Stylisez vos 6 niveaux de titre (headings) en utilisant le sélecteur de la balise et en créant aussi une classe avec le nom de la balise, par exemple : <span class="inline-code">h1, .h1{ font-size: 40px; font-weight: 900; color: var(--ma-couleur-primaire); }</span>
+   Stylisez vos 6 niveaux de titre (headings) en utilisant le sélecteur de la balise et en créant aussi une classe avec le nom de la balise, par exemple : <br><span class="inline-code">h1, .h1{ font-size: 40px; font-weight: 900; color: var(--ma-couleur-primaire); }</span><br><span class="inline-code">h2, .h2{ font-size: 34px; font-weight: 700; color: var(--ma-couleur-primaire); }</span>
    Préparez des groupes de commentaires CSS qui vont séparer les sections de vos styles. Par exemple, tous les styles généraux vont se trouver sous le commentaire <br><span class="inline-code">/*----- Styles Généraux -----*/</span><br> et les styles de la section Hero, se retrouveront sous le commentaire <br><span class="inline-code">/*----- Section Hero -----*/</span>
-   Copiez-collez le fichier main.css 2 fois et renommez ces nouveaux fichiers <em>styles-app.css</em> et <em>styles-lp.css</em>. Ces fichiers contiendront les styles spécifiques à chacune des pages. Allez enlever tous les styles déjà écrits dans ces deux nouvelles feuilles de style pour partir de zéro (vous pouvez conserver les bloc de commentaires, ils vous serviront). Importez ces feuilles de styles dans les pages HTML respectives, après <em>main.css</em>.
+   Copiez-collez le fichier <em>main.css</em> 2 fois et renommez ces nouveaux fichiers <em>styles-app.css</em> et <em>styles-lp.css</em>. Ces fichiers contiendront les styles spécifiques à chacune des pages. Allez enlever tous les styles déjà écrits dans ces deux nouvelles feuilles de style pour partir de zéro (vous pouvez conserver les bloc de commentaires, ils vous serviront). Importez ces feuilles de styles dans les pages HTML respectives, après <em>main.css</em>.
  </checklist>
 
 
