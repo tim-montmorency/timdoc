@@ -121,16 +121,35 @@
                                                                 
 -->
 <wiki-page name="Cours 02" date="2024-01-21">
-    <!-- <h2>Révision et évaluation formative (quiz)</h2>-->
-
+    <h2>Révision et évaluation formative (quiz)</h2>
+    <p>Groupe AM :  <a href="https://app.wooclap.com/PIBAFC" target="_blank" rel="noopener noreferrer">Code Wooclap: PIBAFC</a> <br>
+    Groupe PM :  <a href="https://app.wooclap.com/DSIJEF" target="_blank" rel="noopener noreferrer">Code Wooclap: DSIJEF</a>
+   </p>
+ 
     <h2>Annonces</h2>
-    <p>Tutorat</p>
-    
+    <p>Info tutorat à venir...</p>
+
+    <h2>Claviers Mac</h2>
+    <p>Révision: <a href="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EU8BbNt04S9Cvg-S0xaohBUBO5t81bAj3mo1SYgSvODPWA?e=1kEacK" target="_blank" rel="noopener noreferrer">Gestion des claviers du labo Mac (Apple et Macally)</a></p>
+
+    <h2>Suite du dernier cours</h2>
+    <intlink href="../bootstrap/grille/"></intlink>
+
+    <h2>Exercice</h2>
+    <p>Lien à venir dans le cours</p>
+
+    <h2>Boostrap</h2>
+    <intlink href="../bootstrap/boutons/"></intlink>
+    <intlink href="../bootstrap/navbar/"></intlink>
+    <intlink href="../bootstrap/cartes/"></intlink>
+
+    <h2>Devoirs</h2>
+    <p>Terminer les exercices d'aujourd'hui ("puzzle coloré" et "navbar et cartes")</p>
+    <intlink href="../projet-app-festival-art-numerique/p1-2a/"></intlink>
+
+   <!-- <h2>UPDATE</h2>
+    <intlink href="../bootstrap/update/">update</intlink>-->
 </wiki-page>
-
-
-
-
 
 
 
