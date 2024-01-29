@@ -20,15 +20,15 @@
 <p>Avec les versions récentes des navigateurs, un attribut est maintenant supporté sur les balises images: <incode>loading</incode>. Vous pouvez utiliser cet attribut pour différer complètement le chargement des images hors écran accessibles par défilement:</p>
 <p>Elles ne seront donc chargées que si l'utilisateur défile jusqu'à cette image. Sinon, aucune image n'est chargée pour rien.</p>
 
-<highlight lang='html'>&lt;img src=&quot;image.png&quot; loading=&quot;lazy&quot; alt=&quot;…&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;</highlight>
+<highlight lang="html">&lt;img src=&quot;image.png&quot; loading=&quot;lazy&quot; alt=&quot;…&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;</highlight>
 
 <h3>Attributs de dimension</h3>
 <p>Les images doivent idéalement inclure des attributs de dimension.</p>
 <p>Lorsque le navigateur charge une image, il n'en connaît pas immédiatement les dimensions, sauf si elles sont explicitement spécifiées. Afin de permettre au navigateur de réserver suffisamment d'espace pour les images sur une page, nous vous recommandons d'inclure les attributs width et height dans toutes les balises <incode>&lt;img&gt;</incode>. Si les dimensions ne sont pas spécifiées, des décalages de mise en page peuvent se produire. Ces décalages sont plus visibles sur les pages qui mettent un certain temps à se charger.</p>
 
-<highlight lang='html'>&lt;img src=&quot;image.png&quot; loading=&quot;lazy&quot; alt=&quot;…&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;</highlight>
+<highlight lang="html">&lt;img src=&quot;image.png&quot; loading=&quot;lazy&quot; alt=&quot;…&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;</highlight>
 <p>ou</p>
-<highlight lang='html'>&lt;img src=&quot;image.png&quot; loading=&quot;lazy&quot; alt=&quot;…&quot; style=&quot;height:200px; width:200px;&quot;&gt;</highlight>
+<highlight lang="html">&lt;img src=&quot;image.png&quot; loading=&quot;lazy&quot; alt=&quot;…&quot; style=&quot;height:200px; width:200px;&quot;&gt;</highlight>
 
-<doclink href='https://developer.mozilla.org/fr/docs/Web/Performance/Lazy_loading'>Le chargement différé</doclink>
-<doclink href='https://web.dev/articles/browser-level-image-lazy-loading?hl=fr'>Chargement différé des images</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/Performance/Lazy_loading">Le chargement différé</doclink>
+<doclink href="https://web.dev/articles/browser-level-image-lazy-loading?hl=fr">Chargement différé des images</doclink>

@@ -97,7 +97,7 @@ Credits: Michelle Barker
 <p>Une fois chargée, il est conseillé d'indiquer à GSAP que ScrollTrigger est disponible en inscrivant la ligne de
     code&nbsp;suivante:</p>
 
-<highlight lang='JavaScript'>gsap.registerPlugin(ScrollTrigger);</highlight>
+<highlight lang="JavaScript">gsap.registerPlugin(ScrollTrigger);</highlight>
 
 <warning>ScrollTrigger n’est compatible qu’avec GSAP 3.3.X et&nbsp;plus.</warning>
 <alert>Il existe une autre librairie utilisant le nom <em>"ScrollTrigger"</em>. Si une animation ne se déclenche pas
@@ -250,7 +250,7 @@ Credits: Michelle Barker
 
 
 <br>
-<doclink href='https://greensock.com/docs/v3/Plugins/ScrollTrigger/start'>start</doclink>
+<doclink href="https://greensock.com/docs/v3/Plugins/ScrollTrigger/start">start</doclink>
 
 <dots></dots>
 <h3 id="End">End</h3>
@@ -263,7 +263,7 @@ Credits: Michelle Barker
 
 
 
-<doclink href='https://greensock.com/docs/v3/Plugins/ScrollTrigger/end'>end</doclink>
+<doclink href="https://greensock.com/docs/v3/Plugins/ScrollTrigger/end">end</doclink>
 
 
 
@@ -421,7 +421,7 @@ Credits: Michelle Barker
 
 
 
-<doclink href='https://greensock.com/docs/v3/Plugins/ScrollTrigger'>ScrollTrigger</doclink>
+<doclink href="https://greensock.com/docs/v3/Plugins/ScrollTrigger">ScrollTrigger</doclink>
 
 <dots></dots>
 <exercice href="../exercices/scrolltrigger-historique-zelda"></exercice>

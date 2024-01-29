@@ -1,3 +1,13 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
 <!DOCTYPE html>
 <html lang="fr-ca">
     <head>
@@ -34,7 +44,7 @@
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
             </div>
-            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
         </header>
         <main>
             <!-- MAIN HEADER EOF -->
@@ -63,15 +73,14 @@ App : faites en sorte que le bouton like sur la page artwork soit cliquable et q
 <warning>Toujours intégrer les fichiers de librairies externes (Bootstrap, Swiper etc) AVANT vos propres fichiers de projet (script.js ou styles.css). Car il faut initialiser l’objet JavaScript Swiper qui se trouve dans le fichier swiper.js AVANT de pouvoir en créer une instance dans votre fichier script.js. L’inverse ne fonctionnerait pas.</warning>
 
 <h3>Notes de cours 📚</h3>
-            <div class="intlink__item">
-                <div class="intlink__item__icon" style="background-image: url('../../swiper/images/icon.webp');"></div>
-                <div class="intlink__item__description">
-                    <span class="intlink__item__title"><a target="_blank" href="../../swiper/#installation">Swiper</a></span>
-                    <span class="intlink__item__abstract">Le carousel tactile JavaScript le plus moderne</span>
-                </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../swiper/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../swiper/#installation/">Swiper</a></span>
+                <span class="intlink__item__abstract">Le carousel tactile JavaScript le plus moderne</span>
             </div>
-         
-<doclink href='https://swiperjs.com/get-started#use-swiper-from-cdn'>Install Swiper</doclink>
+        </div> 
+<doclink href="https://swiperjs.com/get-started#use-swiper-from-cdn">Install Swiper</doclink>
 
 <dots></dots>
 <grostitre>Swiper sur les filtres et les oeuvres en vedette</grostitre>
@@ -90,7 +99,7 @@ Ajoutez du CSS pour vous assurer que la largeur des slides de ce swiper là soit
 Dans votre script.js, initialisez ce Swiper là en le ciblant avec sa classe <em>.swiper-filters</em>.
 Toujours dans l’initialisation de swiper dans votre fichier script.js, ajoutez les quelques paramètres de swiper pour que les boutons s’affichent tous un à côté de l’autre comme sur la démo et qu’il y ait une petite distance entre chaque slide.
 </checklist>
-<doclink href='https://swiperjs.com/swiper-api#parameters'>Paramètres Swiper</doclink>
+<doclink href="https://swiperjs.com/swiper-api#parameters">Paramètres Swiper</doclink>
 <dots></dots>
 
 <h3>Oeuvres en vedette</h3>
@@ -104,18 +113,17 @@ Vous devriez avoir 3 slides, dupliquez les pour en avoir 6 (les mêmes œuvres r
 Dans votre script.js, initialisez ce Swiper là en le ciblant avec sa classe <em>.swiper-featured-artworks</em>.
 Toujours dans l’initialisation de swiper dans votre fichier script.js, ajoutez les quelques paramètres de swiper afin de voir 2 cartes et un petit bout de la 3e (voir la demo) et qu’il y ait une petite distance entre chaque slide.
 </checklist>
-<doclink href='https://swiperjs.com/swiper-api#parameters'>Paramètres Swiper</doclink>
+<doclink href="https://swiperjs.com/swiper-api#parameters">Paramètres Swiper</doclink>
 
 
 <h3>Notes de cours 📚</h3>
-            <div class="intlink__item">
-                <div class="intlink__item__icon" style="background-image: url('../../swiper/images/icon.webp');"></div>
-                <div class="intlink__item__description">
-                    <span class="intlink__item__title"><a target="_blank" href="../../swiper/#swiper">Swiper</a></span>
-                    <span class="intlink__item__abstract">Le carousel tactile JavaScript le plus moderne</span>
-                </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../swiper/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../swiper/#swiper/">Swiper</a></span>
+                <span class="intlink__item__abstract">Le carousel tactile JavaScript le plus moderne</span>
             </div>
-         
+        </div> 
 
 <dots></dots>
 

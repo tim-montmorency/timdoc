@@ -30,7 +30,7 @@
 
 <p>Par exemple:</p>
 
-<highlight lang='scss'>$costume: red; // Variable globale
+<highlight lang="scss">$costume: red; // Variable globale
 
 .spider-man {
   $logo: blue; // Variable locale
@@ -49,7 +49,7 @@
 
 <p>En donnant un contexte (scope) plus spécifique, il est possible d'écraser la valeur d'une&nbsp;variable.</p>
 <p>Par&nbsp;exemple, on pourrait supposer que de base, tous les personnages ont un costume rouge et qu'après on peut gérer les exceptions en écransant la valeur de la variable <incode>$costume</incode> localement pour un personnage spécifique: Green Goblin. </p>
-<highlight lang='scss'>$costume: red; // 🔴
+<highlight lang="scss">$costume: red; // 🔴
 
 .spider-man {
   background-color: $costume; // 🔴
@@ -90,4 +90,4 @@
     commença qu'environ 10 ans après les variables Sass.</p>
 
 
-    <doclink href='https://sass-lang.com/documentation/variables'>Variables SCSS</doclink>
+    <doclink href="https://sass-lang.com/documentation/variables">Variables SCSS</doclink>

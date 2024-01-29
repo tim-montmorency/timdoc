@@ -14,7 +14,7 @@
 <p>Votre coéquipier a conçu un mockup HTML sur CodePen, ainsi que le thème WordPress du site. Il compte maintenant sur vous pour le rendre dynamique dans&nbsp;WordPress.</p>
 
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/valet-de-coeur-resultat.mp4'></clipasset>
+<clipasset src="images/valet-de-coeur-resultat.mp4"></clipasset>
 
 
 
@@ -22,7 +22,7 @@
 
 <dots></dots>
 <grostitre>Matériel</grostitre>
-<doclink href='https://codepen.io/tim-momo/pen/ZEVPzBZ?editors=1000'>Pen de départ</doclink>
+<doclink href="https://codepen.io/tim-momo/pen/ZEVPzBZ?editors=1000">Pen de départ</doclink>
 
 
 <h3 class="heading heading--h3" id="Médias 🖼️">Médias 🖼️</h3>
@@ -48,7 +48,7 @@ Ajoutez une option de changement de langue dans le menu principal. Attention de 
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../wordpress/posts-personnalises/") ?>
-<?php intlink("../../wordpress/advanced-custom-fields/") ?>
-<?php intlink("../../wordpress/menus/") ?>
-<?php intlink("../../wordpress/wp-multilang/") ?>
+<intlink href="../../wordpress/posts-personnalises/"></intlink>
+<intlink href="../../wordpress/advanced-custom-fields/"></intlink>
+<intlink href="../../wordpress/menus/"></intlink>
+<intlink href="../../wordpress/wp-multilang/"></intlink>

@@ -1,3 +1,13 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
 <!DOCTYPE html>
 <html lang="fr-ca">
     <head>
@@ -34,7 +44,7 @@
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
             </div>
-            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
         </header>
         <main>
             <!-- MAIN HEADER EOF -->
@@ -64,14 +74,14 @@
 
 <p>Par exemple, la feuille de style principale d'un projet pourrait se nommer <em>style.scss</em> et pourrait charger, sous forme de module, le partial contenant la composante d'entête du site:</p>
 
-<highlight lang="css">@use &#039;site-header&#039;;</highlight>
+<highlight lang="scss">@use &#039;site-header&#039;;</highlight>
 
 <info>Remarquez qu’il n’est pas nécessaire d’inclure le <span class="inline-code">&quot;_&quot;</span> spécifiant qu’il s’agit d’un partial, ni l’extension <span class="inline-code">&quot;.scss&quot;</span> puisque Sass est assez intelligent pour savoir que vous chargez une partial de type&nbsp;Sass.</info>
 
 <p>Il est fréquent qu'une feuille de style globale ne soit constituée que de <span class="inline-code">@use</span> chargeant les différentes composantes d'un site.</p>
 
-<doclink href='https://sass-lang.com/documentation/at-rules/use'>@use</doclink>
-<doclink href='https://css-tricks.com/introducing-sass-modules/'>Différence @import et @use</doclink>
+<doclink href="https://sass-lang.com/documentation/at-rules/use">@use</doclink>
+<doclink href="https://css-tricks.com/introducing-sass-modules/">Différence @import et @use</doclink>
 
 <p>>>> Demo en classe de l'utilisation de partials par Bootstrap et par timdoc.</p>
 
@@ -83,7 +93,7 @@
 
 <p>Il est fréquent qu'un ou des mixins soient importés via <span class="inline-code">@use</span> dans d'autres composantes. </p><p>Prenons l'exemple d'un partial intitulé <em>_text.scss</em>. À l'intérieur de ce fichier ne se trouve que des mixins ayant pour but de manipulant l'apparence d'éléments texte. Un des mixins à l'intérieur pourrait ressembler à ceci:</p>
 
-<highlight lang="css">@mixin small-capitals {
+<highlight lang="scss">@mixin small-capitals {
   font-size: 12px;
   font-weight: normal;
   text-transform: uppercase;
@@ -100,7 +110,7 @@
 </ol>
 
 
-<highlight lang="css">@use &quot;text&quot;;
+<highlight lang="scss">@use &quot;text&quot;;
 
 .hero {
   @include text.small-capitals;

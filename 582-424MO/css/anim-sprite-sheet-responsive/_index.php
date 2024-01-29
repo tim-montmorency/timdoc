@@ -11,7 +11,7 @@
 
  <grostitre>Rappel de l'introduction à l'animation d'une Sprite Sheet</grostitre>
 
- <?php intlink("../../../582-215MO/css/animation-sprite-sheet/") ?>
+ <intlink href="../../../582-215MO/css/animation-sprite-sheet/"></intlink>
 
  <dots></dots>
 
@@ -53,7 +53,7 @@
 
 <dots></dots>
 <p>En vous basant sur cette information, je vous laisse essayer de comprendre comment on peut faire une "sprite sheet" réactive avec cet exercice exploratoire:</p>
-<exercice href='../exercices/sprite-sheet-responsive/'></exercice>
+<exercice href="../exercices/sprite-sheet-responsive/"></exercice>
 
 
 

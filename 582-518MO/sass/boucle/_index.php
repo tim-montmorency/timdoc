@@ -15,7 +15,7 @@
 
 <p>Par exemple, afin de configurer la taille de plusieurs titres <em>(headings)</em> à l'aide d'une boucle <incode>@for</incode>, il est possible de faire:</p>
 
-<highlight lang='css'>@for $index from 1 to 5 {
+<highlight lang="scss">@for $index from 1 to 5 {
   h#{$index} {
     font-size: 40px - ($index * 5);
   }
@@ -24,7 +24,7 @@
 
 
 <p>Ce qui produit le code suivant:</p>
-<highlight lang='css'>h1 { font-size: 35px; }
+<highlight lang="css">h1 { font-size: 35px; }
 h2 { font-size: 30px; }
 h3 { font-size: 25px; }
 h4 { font-size: 20px; }</highlight>
@@ -41,21 +41,25 @@ h4 { font-size: 20px; }</highlight>
 <p>Lorsque <incode>through</incode> est utilisé à la place de <incode>to</incode>, le chiffre à atteindre dans la boucle est inclus.</p>
 <p>Par exemple, le même code que précédemment, mais avec <incode>through</incode>:</p>
 
-<highlight lang='css'>@for $index from 1 through 5 {
+<highlight lang="scss">
+@for $index from 1 through 5 {
   h#{$index} {
     font-size: 40px - ($index * 5);
   }
-}</highlight>
+}
+</highlight>
 
 
 
 <p>Produit le code suivant:</p>
 
-<highlight lang='css'>h1 { font-size: 35px; }
+<highlight lang="css">
+h1 { font-size: 35px; }
 h2 { font-size: 30px; }
 h3 { font-size: 25px; }
 h4 { font-size: 20px; }
-h5 { font-size: 15px; }</highlight>
+h5 { font-size: 15px; }
+</highlight>
 
 
 
@@ -64,13 +68,13 @@ h5 { font-size: 15px; }</highlight>
 
 <p>Où le nombre 5 est inclus.</p>
 
-<doclink href='https://sass-lang.com/documentation/at-rules/control/for'>@for</doclink>
+<doclink href="https://sass-lang.com/documentation/at-rules/control/for">@for</doclink>
 
 
 <dots></dots>
-<exercice href='../../exercices/sass-for-1-a-6/'></exercice>
+<exercice href="../../exercices/sass-for-1-a-6/"></exercice>
 
-<exercice href='../../exercices/sass-for-palette-pink-paradise/'></exercice>
+<exercice href="../../exercices/sass-for-palette-pink-paradise/"></exercice>
 
 
 <dots></dots>
@@ -81,20 +85,24 @@ h5 { font-size: 15px; }</highlight>
 <p>Par exemple, une de boucle configurant la couleur de plusieurs messages peut être écrite ainsi avec une boucle
 <incode>@each</incode>:</p>
 
-<highlight lang='scss'>$colorsArr: red, yellow, blue, gray;
+<highlight lang="scss">
+$colorsArr: red, yellow, blue, gray;
 
 @each $color in $colorsArr {
   .msg-#{$color} {
     background-color: $color;
   }
-}</highlight>
+}
+</highlight>
 
 <p>Ce qui produit, une fois le code compilé en css, le code suivant:</p>
 
-<highlight lang='css'>.msg-red { background-color: red; }
+<highlight lang="css">
+.msg-red { background-color: red; }
 .msg-yellow { background-color: yellow; }
 .msg-blue { background-color: blue; }
-.msg-gray { background-color: gray; }</highlight>
+.msg-gray { background-color: gray; }
+</highlight>
 
 
 
@@ -105,23 +113,28 @@ h5 { font-size: 15px; }</highlight>
 
 <p>Par exemple, pour créer une rapidement des classes ayant des noms textuels et des valeurs numériques il est possible de faire:</p>
 
-<highlight lang='scss'>$sizesArr: (small: 12px, medium: 16px, big: 30px);
+<highlight lang="scss">
+$sizesArr: (small: 12px, medium: 16px, big: 30px);
+
 @each $key, $value in $sizesArr {
   .text-#{$key} {
     font-size: $value;
   }
-}</highlight>
+}
+</highlight>
 
 
 
 
 <p>Ce qui produit, une fois le code compilé en css, le code suivant:</p>
 
-<highlight lang='css'>.text-small { font-size: 12px; }
+<highlight lang="css">
+.text-small { font-size: 12px; }
 .text-medium { font-size: 16px; }
-.text-big { font-size: 30px; }</highlight>
+.text-big { font-size: 30px; }
+</highlight>
 
-<doclink href='https://sass-lang.com/documentation/at-rules/control/each'>@each</doclink>
+<doclink href="https://sass-lang.com/documentation/at-rules/control/each">@each</doclink>
 
 <dots></dots>
-<exercice href='../../exercices/sass-each-menu-overwatch/'></exercice>
+<exercice href="../../exercices/sass-each-menu-overwatch/"></exercice>

@@ -94,7 +94,7 @@ Sous le titre "Action concrète...", écrivez, dans vos mots la ou les actions c
   Optimisez toutes ces images d'arrière-plan de chapitre via un traitement par lots avec cette Action Photoshop.
   Faites de même pour d'autres images à optimiser, si vous n'avez pas besoin de changer leur taille, vous pouvez le faire, ne serait-ce que pour réduire leur poids via une compression complémentaire png ou jpg.
 </checklist>
-<?php intlink("../../optimisation/optimisation-des-medias/") ?>
+<intlink href="../../optimisation/optimisation-des-medias/"></intlink>
 
 
 
@@ -103,7 +103,7 @@ Sous le titre "Action concrète...", écrivez, dans vos mots la ou les actions c
 <checklist>Avec une extention VS Code ou un outil en ligne, créez une version minifiée de votre fichier styles.css que vous nommerez styles.min.css et une version minifiée de scripts.js que vous nommerez scripts.min.js.  
 N'oubliez pas de changer les liens vers ces style et scripts minifiés dans votre HTML.
 </checklist>
-<?php intlink("../../optimisation/12-commandements-optimisation#5-reduire-nb-de-fichiers-javascript-et-css") ?>
+<intlink href="../../optimisation/12-commandements-optimisation#5-reduire-nb-de-fichiers-javascript-et-css"></intlink>
 
 
 
@@ -140,7 +140,7 @@ Ajoutez le lien :<br>- Dans le nouveau rapport PageSpeed Insights, cliquez sur C
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../optimisation/introduction/") ?>
-<?php intlink("../../optimisation/rapport-de-performance/") ?>
-<?php intlink("../../optimisation/12-commandements-optimisation/") ?>
-<?php intlink("../../optimisation/optimisation-des-medias/") ?>
+<intlink href="../../optimisation/introduction/"></intlink>
+<intlink href="../../optimisation/rapport-de-performance/"></intlink>
+<intlink href="../../optimisation/12-commandements-optimisation/"></intlink>
+<intlink href="../../optimisation/optimisation-des-medias/"></intlink>

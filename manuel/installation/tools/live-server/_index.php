@@ -2,7 +2,7 @@
 /**
  * @type     tool
  * @title    Live Server
- * @icon     images/thumb.jpg
+ * @icon     images/thumb.webp
  * @url      https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
  * @abstract Serveur web avec rafraîchissement automatique.
  */

@@ -12,7 +12,7 @@
 <p>Aperçu du résultat 👇</p>
 
 
-<clipasset src='medias/cartes-jeu-du-27.mp4'></clipasset>
+<clipasset src="medias/cartes-jeu-du-27.mp4"></clipasset>
 
 <dots></dots>
 <grostitre>Matériels</grostitre>

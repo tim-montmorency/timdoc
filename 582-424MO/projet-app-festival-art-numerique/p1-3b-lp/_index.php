@@ -25,7 +25,7 @@
 <clipasset src="video/demo_LP_faq_infolettre.mp4"></clipasset>
 
 
-  <!--<div style='max-width: 640px'><div style='position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;'><iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/5361a801-a44d-4100-b5a3-db54ef3f783a?autoplay=false&showinfo=true" allowfullscreen style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>-->
+  <!--<div style="max-width: 640px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/5361a801-a44d-4100-b5a3-db54ef3f783a?autoplay=false&showinfo=true" allowfullscreen style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>-->
 
 
 
@@ -41,7 +41,7 @@ Attention, si vous faite un copier-coller des notes de cours ou du site Bootstra
 </checklist>
 
 <h3>Notes de cours 📚</h3>
-<?php intlink("../../bootstrap/accordeon") ?> 
+<intlink href="../../bootstrap/accordeon"></intlink> 
 
 <dots></dots>
 
@@ -62,9 +62,9 @@ Dans le HTML, ajoutez une ou des classes utilitaires Bootstrap pour insérer une
 </checklist>
 
 <h3>Notes de cours 📚</h3>
-<?php intlink("../../bootstrap/utilitaires") ?> 
-<?php intlink("../../bootstrap/breakpoints") ?> 
-<?php intlink("../../bootstrap/grille") ?> 
+<intlink href="../../bootstrap/utilitaires"></intlink> 
+<intlink href="../../bootstrap/breakpoints"></intlink> 
+<intlink href="../../bootstrap/grille"></intlink> 
 
 
 <dots></dots>
@@ -86,4 +86,4 @@ Il devra y avoir une transition lorsqu’on ouvre et ferme la modal (elle ne doi
 </checklist>
 
 <h3>Notes de cours 📚</h3>
-<?php intlink("../../bootstrap/modale") ?> 
+<intlink href="../../bootstrap/modale"></intlink> 

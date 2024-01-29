@@ -10,7 +10,7 @@
 <p>Pour cet exercice, vous devez recréer une interface permettant de configurer l’armure d’un chevalier&nbsp;⚔️.</p>
 
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/chevalier-resultat.mp4'></clipasset>
+<clipasset src="images/chevalier-resultat.mp4"></clipasset>
 
 
 <grostitre>Matériel</grostitre>
@@ -50,7 +50,7 @@
 <grostitre>Requis CSS</grostitre>
 
 <alert>Dans votre code, vous devez obligatoirement ajouter une ligne de commentaire de début et de fin pour définir à quelle étape des requis le bloc de code correspond. Voici un exemple:</alert>
-<highlight lang='css'>/*** DÉBUT requis CSS #1 ***/ 
+<highlight lang="css">/*** DÉBUT requis CSS #1 ***/ 
 .timeline{
     color: purple;
     border: 1px solid blue;
@@ -75,7 +75,7 @@ Finalement, la dernière rangée contiendra un div avec la classe .fox. Ce div d
 
 <alert>Dans votre code, vous devez obligatoirement ajouter une ligne de commentaire de début et de fin pour définir à quelle étape des requis le bloc de code correspond. Voici un exemple:</alert>
 
-<highlight lang='javascript'>/*** DÉBUT requis JAVASCRIPT GÉNÉRAL #1 ***/ 
+<highlight lang="javascript">/*** DÉBUT requis JAVASCRIPT GÉNÉRAL #1 ***/ 
 console.log('Bienvenue JavaScript');
 /**** FIN requis JAVASCRIPT GÉNÉRAL #1 ****/</highlight>
 
@@ -97,7 +97,7 @@ https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/
 
 <alert>Dans votre code, vous devez obligatoirement ajouter une ligne de commentaire de début et de fin pour définir à quelle étape des requis le bloc de code correspond. Voici un exemple:</alert>
 
-<highlight lang='javascript'>/*** DÉBUT requis VUE.JS #1 ***/ 
+<highlight lang="javascript">/*** DÉBUT requis VUE.JS #1 ***/ 
 console.log('Bienvenue VUE.js');
 /**** FIN requis VUE.JS #1 ****/</highlight>
 

@@ -61,9 +61,9 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<intlink href='../../linear-gradient/'></intlink>
-<intlink href='../../box-shadow/'></intlink>
-<intlink href='../../../html/picture/'></intlink>
+<intlink href="../../linear-gradient/"></intlink>
+<intlink href="../../box-shadow/"></intlink>
+<intlink href="../../../html/picture/"></intlink>
 
 <dots></dots>
 

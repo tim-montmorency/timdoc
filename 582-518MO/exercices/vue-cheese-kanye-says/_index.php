@@ -10,13 +10,13 @@
 <p>Dans le cadre de cet exercice, vous devrez mettre à jour la citation de <a href="https://www.youtube.com/watch?v=PsO6ZnUZI0g">Kanye West</a> affichée à l’écran par une autre célèbre phrase de son&nbsp;registre.</p>
 
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/cheese-kanye-says-resultat.mp4'></clipasset>
+<clipasset src="images/cheese-kanye-says-resultat.mp4"></clipasset>
 
 
 
 <dots></dots>
 <grostitre>Matériel</grostitre>
-<doclink href='https://codepen.io/tim-momo/pen/JjxOKGo'>Pen de départ</doclink>
+<doclink href="https://codepen.io/tim-momo/pen/JjxOKGo">Pen de départ</doclink>
  
 
 
@@ -32,6 +32,6 @@ Lorsque l'étape précédente est complétée, effacez le changement de texte da
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../javascript/vue-js/introduction/") ?>
-<?php intlink("../../javascript/vue-js/creation-app-bases/") ?>
-<?php intlink("../../javascript/fetch-api/") ?>
+<intlink href="../../javascript/vue-js/introduction/"></intlink>
+<intlink href="../../javascript/vue-js/creation-app-bases/"></intlink>
+<intlink href="../../javascript/fetch-api/"></intlink>

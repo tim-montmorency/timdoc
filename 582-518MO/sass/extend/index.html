@@ -1,3 +1,13 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
 <!DOCTYPE html>
 <html lang="fr-ca">
     <head>
@@ -34,7 +44,7 @@
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
             </div>
-            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
         </header>
         <main>
             <!-- MAIN HEADER EOF -->
@@ -67,7 +77,7 @@
 <p>Si d'autres types de messages doivent ensuite être créés et qu'ils doivent partager les mêmes styles de bases que <span class="inline-code">.msg</span>, il serait possible d'étendre (extend) cette classe plutôt que de réécrire à chaque fois le même code.</p>
 
 <p>Par exemple:</p>
-<highlight lang="css">.msg-alert {
+<highlight lang="scss">.msg-alert {
   @extend .msg;
   border-color: red;
   background-color: lightPink;
@@ -110,7 +120,7 @@
 
 <p>Les trois messages partageraient donc le même <span class="inline-code">border-width</span>, le même <span class="inline-code">border-style</span> et le même <span class="inline-code">padding</span> tandis que la couleur de fond et la couleur de bordure serait écrasées pour chaque variation.</p>
 
-<doclink href='https://sass-lang.com/documentation/at-rules/extend'>@extend</doclink>
+<doclink href="https://sass-lang.com/documentation/at-rules/extend">@extend</doclink>
 
 
 
@@ -123,7 +133,7 @@
 
 <p>Par exemple, l'exemple précédent pourrait être réécrit avec un placeholder afin d'éviter que la couleur de fond bleue soit écrasée par les variantes de messages:</p>
 
-<highlight lang="css">%msg {
+<highlight lang="scss">%msg {
   border-left-width: 4px;
   border-left-style: solid;
   padding: 20px;
@@ -188,7 +198,7 @@
 
 <p>Je me créé donc régulièrement un placeholder similaire à ceci:</p>
 
-<highlight lang="css">%centered {
+<highlight lang="scss">%centered {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -197,12 +207,12 @@
 
 
 <p>Et je l'utilise sur mes éléments que je désire centrer ainsi:</p>
-<highlight lang="css">.element {
+<highlight lang="scss">.element {
   @extend %centered;
 }</highlight>
 
 
-<doclink href='https://sass-lang.com/documentation/style-rules/placeholder-selectors'>Placeholder</doclink>
+<doclink href="https://sass-lang.com/documentation/style-rules/placeholder-selectors">Placeholder</doclink>
 
 
 

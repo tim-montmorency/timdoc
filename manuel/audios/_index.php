@@ -42,6 +42,8 @@
 <highlight lang="html">&lt;audioplayer src="audios/pas-tellement.mp3"&gt;&lt;/audioplayer&gt;</highlight>
 <audioplayer src="audios/pas-tellement.mp3"></audioplayer>
 
+<tune src="audios/pas-tellement.mp3"></tune>
+
 <dots></dots>
 
 <grostitre>Outils</grostitre>

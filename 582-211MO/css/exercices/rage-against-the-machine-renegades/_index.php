@@ -69,10 +69,10 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<intlink href='../../unites-de-mesure-avancees/'></intlink>
-<intlink href='../../../html/svg/'></intlink>
-<intlink href='../../media-queries/'></intlink>
-<intlink href='../../variables/'></intlink>
+<intlink href="../../unites-de-mesure-avancees/"></intlink>
+<intlink href="../../../html/svg/"></intlink>
+<intlink href="../../media-queries/"></intlink>
+<intlink href="../../variables/"></intlink>
 
 
 <dots></dots>

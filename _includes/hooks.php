@@ -59,7 +59,9 @@ register_tag('intlink', function($html, $attrs, $data) {
     if(!is_file(($file = realpath(pathinfo($this->file, PATHINFO_DIRNAME).S.$path).S.'_index.php'))) return;
     if(!$info = php_file_info($file)) return;
     $url = !empty($info->url) ? $info->url : $attrs['href'];
+    $url = rtrim($url, '/').'/';
     $thumb = rtrim($path, '/').'/'.$info->icon;
+    $thumb = getRelativePath($this->file, realpath(pathinfo($this->file, PATHINFO_DIRNAME).'/'.$thumb));
     return <<<EOD
         <div class="intlink__item">
             <div class="intlink__item__icon" style="background-image: url({$thumb});"></div>
@@ -83,6 +85,7 @@ register_tag('listlink', function($html, $attrs, $data) {
     if(!$info = php_file_info($file)) return;
     $url = !empty($info->url) ? $info->url : $attrs['href'];
     $thumb = rtrim($path, '/').'/'.$info->icon;
+    $thumb = getRelativePath($this->file, realpath(pathinfo($this->file, PATHINFO_DIRNAME).'/'.$thumb));
     return <<<EOD
         <div class="list-grid__item">
             <div class="list-grid__item__icon" style="background-image: url({$thumb});"></div>

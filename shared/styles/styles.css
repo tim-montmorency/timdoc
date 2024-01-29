@@ -1,4 +1,14 @@
 @charset "UTF-8";
+/*!
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+*/
 /* https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=block */
 @font-face {
   font-family: "Rubik";
@@ -899,6 +909,13 @@ a.doclink .doclink-icon {
   background-color: #21759b;
 }
 
+.doclink.npm .doclink-icon {
+  background-image: url("../images/icons/npm-icon.webp");
+}
+.doclink.npm::before {
+  background-color: #c93737;
+}
+
 a.exercice {
   display: block;
   background-image: linear-gradient(0deg, #87ceeb, 20%, #f0f8fc);
@@ -1566,6 +1583,8 @@ html {
 }
 
 body {
+  color: black;
+  background-color: white;
   height: 100vh;
   background-repeat: repeat-x;
   padding-bottom: 100px;
@@ -2094,4 +2113,4 @@ q.on-hover[cite]::after {
 q.on-hover[cite]:hover::after {
   content: " » (source: " attr(cite) ") ";
   color: var(--main-color);
-}/*# sourceMappingURL=styles.css.map */
+}

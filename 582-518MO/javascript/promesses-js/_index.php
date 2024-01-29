@@ -77,8 +77,8 @@ const promesse = new Promise((resolve, reject) => {
 
 <p>Dans le cadre de cette démonstration, la promesse sera toujours&nbsp;respectée.</p><p>Cependant, un exemple plus concret serait le cas d'un service tentant de répondre à une demande d'informations. Si les informations sont trouvées, la fonction assignée au respect de la promesse est appelée. Si le délai imparti avant de trouver la réponse est dépassé, la fonction assignée au bris de promesse est&nbsp;appelée.</p>
 
-<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise'>Promise</doclink>
-<doclink href='https://www.w3schools.com/js/js_promise.asp'>Promise</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</doclink>
+<doclink href="https://www.w3schools.com/js/js_promise.asp">Promise</doclink>
 
 <dots></dots>
 
@@ -128,7 +128,7 @@ promesse
 </highlight>
 
 <br>
-<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/then'>then()</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/then">then()</doclink>
 
 
 <dots></dots>
@@ -143,7 +143,7 @@ promesse
 </highlight>
 
 <br>
-  <doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch'>catch()</doclink>
+  <doclink href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch">catch()</doclink>
 
 
 
@@ -161,7 +161,7 @@ promesse
 </highlight>
 
 <dots></dots>
-<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally'>finally()</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally">finally()</doclink>
 
 
 <br><br><br>

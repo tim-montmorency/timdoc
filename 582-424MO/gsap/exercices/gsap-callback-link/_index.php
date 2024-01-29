@@ -11,7 +11,7 @@
 <p>Pour cet exercice, nous allons synchroniser des animations CSS de type sprite sheet de <a href="https://fr.wikipedia.org/wiki/Link_(The_Legend_of_Zelda)" target="_blank">Link, le protagoniste de la franchise Zelda</a>, avec GSAP ScrollTrigger&nbsp;⚔️.</p>
 
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/link-scrolltrigger.mp4'></clipasset>
+<clipasset src="images/link-scrolltrigger.mp4"></clipasset>
 
 
 <grostitre>Matériel</grostitre>
@@ -35,7 +35,7 @@ Si le défilement descend ⬇️, ajoutez la classe&nbsp;<incode>.direction-do
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../scrolltrigger-intermediaire/") ?>
+<intlink href="../../scrolltrigger-intermediaire/"></intlink>
 
 
 

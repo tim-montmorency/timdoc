@@ -32,7 +32,7 @@
 <p>Par exemple:</p>
 
 
-          <highlight lang='javascript'>var animation = gsap.to('.element', { 
+          <highlight lang="javascript">var animation = gsap.to('.element', { 
   duration: 2,
   x: '400%',
   paused: true

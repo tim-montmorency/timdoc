@@ -1,3 +1,13 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
 <!DOCTYPE html>
 <html lang="fr-ca">
     <head>
@@ -34,7 +44,7 @@
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
             </div>
-            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
         </header>
         <main>
             <!-- MAIN HEADER EOF -->
@@ -55,7 +65,7 @@
 
 <p>Par exemple, afin de configurer la taille de plusieurs titres <em>(headings)</em> à l'aide d'une boucle <span class="inline-code">@for</span>, il est possible de faire:</p>
 
-<highlight lang="css">@for $index from 1 to 5 {
+<highlight lang="scss">@for $index from 1 to 5 {
   h#{$index} {
     font-size: 40px - ($index * 5);
   }
@@ -81,7 +91,7 @@ h4 { font-size: 20px; }</highlight>
 <p>Lorsque <span class="inline-code">through</span> est utilisé à la place de <span class="inline-code">to</span>, le chiffre à atteindre dans la boucle est inclus.</p>
 <p>Par exemple, le même code que précédemment, mais avec <span class="inline-code">through</span>:</p>
 
-<highlight lang="css">@for $index from 1 through 5 {
+<highlight lang="scss">@for $index from 1 through 5 {
   h#{$index} {
     font-size: 40px - ($index * 5);
   }
@@ -104,7 +114,7 @@ h5 { font-size: 15px; }</highlight>
 
 <p>Où le nombre 5 est inclus.</p>
 
-<doclink href='https://sass-lang.com/documentation/at-rules/control/for'>@for</doclink>
+<doclink href="https://sass-lang.com/documentation/at-rules/control/for">@for</doclink>
 
 
 <dots></dots>
@@ -164,6 +174,7 @@ h5 { font-size: 15px; }</highlight>
 <p>Par exemple, pour créer une rapidement des classes ayant des noms textuels et des valeurs numériques il est possible de faire:</p>
 
 <highlight lang="scss">$sizesArr: (small: 12px, medium: 16px, big: 30px);
+
 @each $key, $value in $sizesArr {
   .text-#{$key} {
     font-size: $value;
@@ -179,7 +190,7 @@ h5 { font-size: 15px; }</highlight>
 .text-medium { font-size: 16px; }
 .text-big { font-size: 30px; }</highlight>
 
-<doclink href='https://sass-lang.com/documentation/at-rules/control/each'>@each</doclink>
+<doclink href="https://sass-lang.com/documentation/at-rules/control/each">@each</doclink>
 
 <dots></dots>
         <a class="exercice" target="_blank" href="../../exercices/sass-each-menu-overwatch/">

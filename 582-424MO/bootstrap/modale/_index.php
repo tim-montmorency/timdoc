@@ -30,7 +30,7 @@
 <p>Par exemple:</p>
 
 
-<highlight lang='html'>&lt;div class=&quot;modal&quot; tabindex=&quot;-1&quot;&gt;
+<highlight lang="html">&lt;div class=&quot;modal&quot; tabindex=&quot;-1&quot;&gt;
   &lt;div class=&quot;modal-dialog&quot;&gt;
     &lt;div class=&quot;modal-content&quot;&gt;
     &lt;/div&gt;
@@ -56,7 +56,7 @@
     <li>Une croix permettant de fermer la&nbsp;fenêtre.</li>
     <li>Etc.</li>
 </ul>
-<highlight lang='html'>&lt;div class=&quot;modal-header&quot;&gt;
+<highlight lang="html">&lt;div class=&quot;modal-header&quot;&gt;
   &lt;h2 class=&quot;modal-title&quot;&gt;Titre de ma fenêtre&lt;/h2&gt;
   &lt;button class=&quot;btn-close&quot; data-bs-dismiss=&quot;modal&quot; aria-label=&quot;Fermer la
   fenêtre&quot;&gt;&lt;/button&gt;
@@ -71,7 +71,7 @@
 <p>Permets de contenir le contenu principal de la fenêtre: son texte, son image, son formulaire,&nbsp;etc.</p>
 
 <p>Par exemple:</p>
-<highlight lang='html'>&lt;div class=&quot;modal-body&quot;&gt;
+<highlight lang="html">&lt;div class=&quot;modal-body&quot;&gt;
     &lt;p&gt;Message de ma fenêtre&lt;/p&gt;
     &lt;/div&gt;</highlight>
 
@@ -85,7 +85,7 @@
     <li>Etc.</li>
 </ul>
 <dots></dots>
-<highlight lang='html'>&lt;div class=&quot;modal-footer&quot;&gt;
+<highlight lang="html">&lt;div class=&quot;modal-footer&quot;&gt;
     &lt;button class=&quot;btn&quot; data-bs-dismiss=&quot;modal&quot;&gt;Annuler&lt;/button&gt;
     &lt;/div&gt;</highlight>
 <dots></dots>
@@ -98,7 +98,7 @@
     <li><incode>data-bs-target="#example"</incode>&nbsp;spécifiant la fenêtre&nbsp;<em>"modal"</em>&nbsp;contrôlée.</li>
 </ul>
 
-<highlight lang='html'>&lt;button class=&quot;btn&quot; data-bs-toggle=&quot;modal&quot;
+<highlight lang="html">&lt;button class=&quot;btn&quot; data-bs-toggle=&quot;modal&quot;
     data-bs-target=&quot;#example&quot;&gt;
     Ouvrir
     &lt;/button&gt;</highlight>
@@ -147,7 +147,7 @@
 </table>
 
 <p>Par exemple:</p>
-<highlight lang='html'>&lt;div class=&quot;modal&quot; tabindex=&quot;-1&quot;&gt;
+<highlight lang="html">&lt;div class=&quot;modal&quot; tabindex=&quot;-1&quot;&gt;
   &lt;div class=&quot;modal-dialog modal-lg&quot;&gt;...&lt;/div&gt;
 &lt;/div&gt;</highlight>
 
@@ -161,7 +161,7 @@
     l'élément&nbsp;<incode>modal-dialog</incode>.</p>
 <p>Par exemple:</p>
 
-<highlight lang='html'>&lt;div class=&quot;modal&quot; tabindex=&quot;-1&quot;&gt;
+<highlight lang="html">&lt;div class=&quot;modal&quot; tabindex=&quot;-1&quot;&gt;
   &lt;div class=&quot;modal-dialog modal-dialog-centered&quot;&gt;...&lt;/div&gt;
 &lt;/div&gt;</highlight>
 
@@ -174,7 +174,7 @@
     suffit d'ajouter la classe&nbsp;<incode>.fade</incode>&nbsp;à l'élément&nbsp;<incode>.modal</incode>.</p>
 
 
-<highlight lang='html'>&lt;div class=&quot;modal fade&quot; tabindex=&quot;-1&quot;&gt;
+<highlight lang="html">&lt;div class=&quot;modal fade&quot; tabindex=&quot;-1&quot;&gt;
   &lt;div class=&quot;modal-dialog&quot;&gt;...&lt;/div&gt;
 &lt;/div&gt;</highlight>
 
@@ -182,4 +182,4 @@
             <incode>.modal</incode> et non&nbsp;<incode>.modal-dialog</incode>.</warning>
 
 
-<doclink href='https://getbootstrap.com/docs/5.2/components/modal/'>Modal</doclink>
+<doclink href="https://getbootstrap.com/docs/5.2/components/modal/">Modal</doclink>

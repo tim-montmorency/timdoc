@@ -22,7 +22,7 @@
 <a href="https://app.wooclap.com/NIXSJS" target="_blank" rel="noopener noreferrer">Questionnaire analyse - groupe lundi</a> code Wooclap: NIXSJS</p>
 
 <h3>Matériel</h3>
-<doclink href='https://marie-test.tim-momo.com/wordpress/'>Site Web sur lequel vous fier</doclink>
+<doclink href="https://marie-test.tim-momo.com/wordpress/">Site Web sur lequel vous fier</doclink>
 
 <dots></dots>
 <grostitre>Partie 2 de l'exercice</grostitre>
@@ -30,12 +30,12 @@
 <p>Votre coéquipier a conçu un mockup HTML, ainsi que le thème WordPress du site. Il compte maintenant sur vous pour le rendre dynamique dans&nbsp;WordPress.</p>
 
 <p>Aperçu du résultat 👇</p>
-<clipasset src='medias/demo-groupe-musique.mp4'></clipasset>
+<clipasset src="medias/demo-groupe-musique.mp4"></clipasset>
 
 <h3>Matériel</h3>
-<doclink href='https://marie-test.tim-momo.com/wordpress/'>Site Web sur lequel vous fier</doclink><br>
-<doclink href='https://codepen.io/tim-momo/pen/poGbPmV'>Code Pen de l'accueil</doclink><br>
-<doclink href='https://codepen.io/tim-momo/pen/VwgKZmg'>Code Pen de la page d'un groupe (Muse)</doclink>
+<doclink href="https://marie-test.tim-momo.com/wordpress/">Site Web sur lequel vous fier</doclink><br>
+<doclink href="https://codepen.io/tim-momo/pen/poGbPmV">Code Pen de l'accueil</doclink><br>
+<doclink href="https://codepen.io/tim-momo/pen/VwgKZmg">Code Pen de la page d'un groupe (Muse)</doclink>
 <br>
 <mediafile src="medias/acf_custom_fields_post_types.json">Structure des types de contenu personnalisés et champs personnalisés</mediafile>
 <mediafile src="medias/contenu_wordpress.xml">Contenu WordPress</mediafile>
@@ -55,9 +55,9 @@ Construisez ensuite le modèle de la page du groupe de musique. Assurez-vous de 
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../wordpress/migration-de-donnees/") ?>
-<?php intlink("../../wordpress/modeles/") ?>
-<?php intlink("../../wordpress/wp-query/") ?>
-<?php intlink("../../wordpress/rest-api/") ?>
-<?php intlink("../../wordpress/advanced-custom-fields/") ?>
-<?php intlink("../../wordpress/images-dans-modeles/") ?>
+<intlink href="../../wordpress/migration-de-donnees/"></intlink>
+<intlink href="../../wordpress/modeles/"></intlink>
+<intlink href="../../wordpress/wp-query/"></intlink>
+<intlink href="../../wordpress/rest-api/"></intlink>
+<intlink href="../../wordpress/advanced-custom-fields/"></intlink>
+<intlink href="../../wordpress/images-dans-modeles/"></intlink>

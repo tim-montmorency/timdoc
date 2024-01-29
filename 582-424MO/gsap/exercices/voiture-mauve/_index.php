@@ -12,7 +12,7 @@
 <p>Pour cet exercice, vous devez à l’aide de GSAP animer une voiture afin de la faire rouler et reculer sur la route.</p>
    
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/gsap-voiture-mauve.mp4'></clipasset>
+<clipasset src="images/gsap-voiture-mauve.mp4"></clipasset>
 
 
 <grostitre>Matériel</grostitre>
@@ -34,5 +34,5 @@ Au clic du bouton <em>"Reculons"</em>, la voiture doit traverser la largeur comp
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../controle-animation/") ?>
+<intlink href="../../controle-animation/"></intlink>
 

@@ -49,5 +49,5 @@ Chaque carte doit prendre toute la largeur disponible par défaut.
 
 
 
-<?php intlink("../../cartes/") ?>
-<?php intlink("../../navbar/") ?>
+<intlink href="../../cartes/"></intlink>
+<intlink href="../../navbar/"></intlink>

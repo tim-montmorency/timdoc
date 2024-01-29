@@ -9,6 +9,7 @@
         ]
     },
     "liveServer.settings.port": 5501,
+    "liveSassCompile.settings.generateMap": false,
     "liveSassCompile.settings.formats": [
         {
             "format": "expanded",
@@ -41,7 +42,7 @@
         "mangle": true,
         "compress": {
             "drop_console": false,
-            "dead_code": false,
+            "dead_code": true,
             "keep_fnames": false,
             "keep_classnames": false
         }

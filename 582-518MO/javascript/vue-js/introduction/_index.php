@@ -77,4 +77,4 @@
 
 <p>Dans le cadre de notre cours, je vous conseille d'y aller avec le CDN (<em>Content Delivery Network</em>)</p>
 
-<doclink href='https://vuejs.org/guide/quick-start.html'>Installation</doclink>
+<doclink href="https://vuejs.org/guide/quick-start.html">Installation</doclink>

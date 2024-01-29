@@ -19,7 +19,7 @@
  <dots></dots>
 
  <p>Il sera important pour ce segment de comprendre un peu la nature d'un SVG, pour en savoir plus, consulter cette documentation très complète sur le sujet (naviguer le sous-sujet avec le menu de gauche, traduire en français avec le menu de langue en haut à droite).</p>
- <doclink href='https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Fills_and_Strokes'>SVG remplissage et contour</doclink>
+ <doclink href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Fills_and_Strokes">SVG remplissage et contour</doclink>
  <dots></dots>
 
 <grostitre>Introduction à drawSVG</grostitre>
@@ -44,7 +44,7 @@
 <p>Une fois chargé, il est conseillé d'indiquer à GSAP que MotionPath est disponible en inscrivant la ligne de
     code&nbsp;suivante:</p>
 
-    <highlight lang='JavaScript'>gsap.registerPlugin(DrawSVGPlugin);</highlight>
+    <highlight lang="JavaScript">gsap.registerPlugin(DrawSVGPlugin);</highlight>
 
 <warning>DrawSVG n'est pas gratuit. Pour l'utiliser dans un projet hébergé sur un serveur Web, vous devez être membre du <a href="https://greensock.com/club/" target="_blank" rel="noopener noreferrer">Club GreenSock</a></strong>. Heureusement vous pouvez tout de même l'utiliser en local ou encore sur CodePen en ajoutant les liens des plugiciels GSAP nécessaires <a href="https://codepen.io/GreenSock/full/JjPwRob" target="_blank" rel="noopener noreferrer">fournis ici</a> .</warning>
 
@@ -105,7 +105,7 @@
 <p>L'avantage d'avoir <em>DrawSVGPlugin</em> intégré à GSAP est que vous pouvez l'utiliser pour créer rapidement des effets complexes et avoir un contrôle total sur l'animation (<incode>pause</incode>, <incode>resume</incode>, <incode>reverse</incode>, <incode>seek</incode> etc.)</p>
 <p>Supposons que vous ayez 20 éléments SVG auxquels la classe <incode>.dessine-moi</incode> a été appliquée et que vous souhaitiez les dessiner de manière décalée, vous pourriez le faire :</p>
 
-<highlight lang='JavaScript'>//Dessinera tous les éléments qui ont la classe "dessine-moi" avec un décalage de début de 0.1 seconde.
+<highlight lang="JavaScript">//Dessinera tous les éléments qui ont la classe "dessine-moi" avec un décalage de début de 0.1 seconde.
 gsap.from(".dessine-moi", {
     duration:1, 
     stagger: 0.1, 
@@ -124,7 +124,7 @@ gsap.from(".dessine-moi", {
 
 <dots></dots>
 
-<doclink href='https://greensock.com/docs/v3/Plugins/DrawSVGPlugin'>Plugiciel drawSVG</doclink>
+<doclink href="https://greensock.com/docs/v3/Plugins/DrawSVGPlugin">Plugiciel drawSVG</doclink>
 
 
  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

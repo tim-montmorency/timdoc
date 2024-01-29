@@ -41,7 +41,7 @@
 <grostitre>Création d'un projet</grostitre>
 <p>Les projets utilisant MAMP doivent se trouver à l'intérieur du dossier <em>"htdocs"</em> 📁 de MAMP afin de bénéficier des serveurs de MAMP. Sous Windows, ce dossier ce trouve généralement à cet emplacement <em>“C:\MAMP\htdocs”</em> et sous Mac dans <em>“/Applications/MAMP/htdocs”</em>. Je vous conseille de créer un raccourci vers <em>"htdocs"</em> dans votre navigateur de fichiers.</p>
 
-<clipasset src='images/htdocs-raccourci.mp4'></clipasset>
+<clipasset src="images/htdocs-raccourci.mp4"></clipasset>
 
 
 
@@ -58,14 +58,14 @@
 <h3 class="heading heading--h3" id="L'onglet My Website est non disponible">L'onglet My Website est non disponible</h3>
 <p>Si l'option <em>"My Website"</em> n'est pas disponible dans votre version de MAMP, vous pouvez toujours accéder manuellement à l'URL d'un projet. Pour ce faire, il faut connaitre le nom du dossier du projet en question 📁 et allez voir dans les préférences de MAMP le port utilisé <em>(généralement 80 ou 8888)</em>. Tapez ensuite dans la barre d'URL de votre navigateur une adresse au format suivant:</p>
 
-<highlight lang='html'>http://localhost:[numéro du port]/[nom du dossier du projet]</highlight>
+<highlight lang="html">http://localhost:[numéro du port]/[nom du dossier du projet]</highlight>
 
 
 
 <p>Par exemple, pour un projet contenu dans un dossier nommé <em>"demo" </em>et utilisant le port 80:</p>
 
 
-<highlight lang='html'>http://localhost:80/demo</highlight>
+<highlight lang="html">http://localhost:80/demo</highlight>
 
 
 <img src="images/chemin-vers-mamp-site.jpg" alt="">

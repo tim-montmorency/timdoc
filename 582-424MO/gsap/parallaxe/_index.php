@@ -12,7 +12,7 @@
 
 <p>D'abord, voici un rappel, qu'est-ce que le parallaxe, nous l'avons vu un session antérieure.</p>
 
-<doclink href='https://smnarnold.com/cours/css/parallax'>Qu'est-ce que le parallaxe</doclink>
+<doclink href="https://smnarnold.com/cours/css/parallax">Qu'est-ce que le parallaxe</doclink>
 
 <dots></dots>
 <p>Le moyen le plus simple de créer un effet de parallaxe avec ScrollTrigger est de modifier la position de l'image de fond (<em>background-image</em>). Ainsi, on pourra déplacer sa position du haut (<em>top</em>) de l'image d'arrire-plan, vers sa position du bas (<em>bottom</em>). </p>
@@ -28,20 +28,20 @@
 <p>On place la position verticale à 0% ou 0px.
 <br><small>Et si on souhaite la centrer à l'horizontal, on place la position horizontale à 50%, à vous de décider.</small></p>
 
-<highlight lang='css'>#section-parallax{
+<highlight lang="css">#section-parallax{
     background-image: url(chemin/acces/image.jpg);
     background-size: cover;  /* ou 200% pour augmenter l'effet, si l'image originale est assez grande */
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: 50% 0%;
 }</highlight>
-<doclink href='https://developer.mozilla.org/fr/docs/Web/CSS/background-attachment'>Background-attachment</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/background-attachment">Background-attachment</doclink>
 
 
 
 
 <h3>Et pour le code JavaScript :</h3>
-<highlight lang='JavaScript'>gsap.to("#section-parallax", {
+<highlight lang="JavaScript">gsap.to("#section-parallax", {
     backgroundPosition: "50% 100%",
     ease: "none",
     scrollTrigger: {
@@ -93,7 +93,7 @@
 
 <p>Nous fixons donc la position horizontale à 0%, et nous la déplacerons à 100 % :</p>
 
-<highlight lang='css'>#section-parallax{
+<highlight lang="css">#section-parallax{
     background-image: url(chemin/acces/image.jpg);
     background-size: cover; /* ou 300% pour augmenter l'effet, si l'image originale est assez grande */
     background-repeat: no-repeat;
@@ -101,7 +101,7 @@
     background-position: 0% 50%;
 }</highlight>
 
-<highlight lang='JavaScript'>gsap.to("#section-parallax", {
+<highlight lang="JavaScript">gsap.to("#section-parallax", {
     backgroundPosition: "100% 50%",
     ease: "none",
     scrollTrigger: {

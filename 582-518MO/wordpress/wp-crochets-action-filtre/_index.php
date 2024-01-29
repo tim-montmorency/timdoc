@@ -28,7 +28,7 @@
 <p>Pour utiliser l’un de ces cochets (<em>hooks</em>), l’utilisateur doit écrire une fonction personnalisée appelée <em>Callback</em> et l’enregistrer avec un crochet (<em>hook</em>) WordPress pour une action ou un filtre spécifique. Exemple:</p>
 
 
-<highlight lang='php'>function lancerAlerte() {
+<highlight lang="php">function lancerAlerte() {
 
   echo "&lt;script type=&#39;text/javascript&#39;&gt;
   alert(&#39;Wow! Voici une alerte JS lancée à l initialisation de WordPress via un crochet de type action!&#39;);&lt;/script&gt;";

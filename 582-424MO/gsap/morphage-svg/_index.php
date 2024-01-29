@@ -31,7 +31,7 @@
 <p>Une fois chargé, il est conseillé d'indiquer à GSAP que MotionPath est disponible en inscrivant la ligne de
     code&nbsp;suivante:</p>
 
-    <highlight lang='JavaScript'>gsap.registerPlugin(MorphSVGPlugin);</highlight>
+    <highlight lang="JavaScript">gsap.registerPlugin(MorphSVGPlugin);</highlight>
 
 <warning><em>MorphSVGPlugin</em> n'est pas gratuit. Pour l'utiliser dans un projet hébergé sur un serveur Web, vous devez être membre du <a href="https://greensock.com/club/" target="_blank" rel="noopener noreferrer">Club GreenSock</a></strong>. Heureusement vous pouvez tout de même l'utiliser en local ou encore sur CodePen en ajoutant les liens des plugiciels GSAP nécessaires <a href="https://codepen.io/GreenSock/full/JjPwRob" target="_blank" rel="noopener noreferrer">fournis ici</a> .</warning>
 
@@ -41,7 +41,7 @@
 <grostitre>Le principe de base</grostitre>
 <p>Dans une balise SVG, vous devez avoir 2 tracés (path) différents. Bien les identifier chacun ait avec un id ou une classe unique. </p>
 
-<highlight lang='html'>&lt;svg id=&quot;svg2&quot; viewBox=&quot;9 80 800 400&quot; style=&quot;enable-background:new 9 80 800 400;&quot;&gt;
+<highlight lang="html">&lt;svg id=&quot;svg2&quot; viewBox=&quot;9 80 800 400&quot; style=&quot;enable-background:new 9 80 800 400;&quot;&gt;
 
     &lt;path id=&quot;circle&quot; class=&quot;st1&quot; d=&quot;M490.1,280.649c0,44.459-36.041,80.5-80.5,80.5s-80.5-36.041-80.5-80.5s36.041-80.5,80.5-80.5
 	S490.1,236.19,490.1,280.649z&quot;/&gt;
@@ -78,14 +78,14 @@
 
 <p>Il faudra penser, via CSS, à cacher la visibilité du deuxième tracé (path).</p>
 
-<highlight lang='css'>#hippo{
+<highlight lang="css">#hippo{
   visibility:hidden;
 }</highlight>
 
 
 <p>Par la suite, il suffit d'animer le premier tracé (path) avec la propriété <incode>morphSVG</incode>. La valeur de <incode>morphSVG</incode> sera l'élément HTML correspondant au 2e tracé (path).</p>
 
-<highlight lang='javaScript'>gsap.to("#circle", {
+<highlight lang="javaScript">gsap.to("#circle", {
     morphSVG: "#hippo"
 }</highlight>
 
@@ -144,7 +144,7 @@
 
 <p>Afin que votre forme ne se mélange pas en chiffon avant de reformer l'autre forme, il est parfois nécessaire de spécifier quel point de départ est relié à quel point final dans la nouvelle forme.  Pour cela, il faut utiliser la propriété <incode>shapeIndex</incode>.</p>
 
-<highlight lang='javaScript'>gsap.to("#square", {
+<highlight lang="javaScript">gsap.to("#square", {
   duration: 3, 
   morphSVG:{
     shape:"#star", 

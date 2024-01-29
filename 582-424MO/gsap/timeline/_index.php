@@ -41,14 +41,14 @@
 
 <p>Il est parfois souhaitable qu'une animation se déclenche plus tôt ou plus tard et non immédiatement après l'animation précédente. Pour ce faire, il est possible de passer un 3<sup>e</sup>&nbsp;paramètre à une animation se trouvant dans une&nbsp;<incode>timeline</incode>. Ce 3e paramètre vient généralement après l'objet contenant les propriétés animées <em>{}</em> tel que démontré dans ces 2 exemples :</p>
 
-<highlight lang='JavaScript'>gsap
+<highlight lang="JavaScript">gsap
   .timeline()
   .from(".element.no1", { x:"400%" })
   .from(".element.no2", { x:"400%" }, 0.5)
   .from(".element.no3", { x:"400%"} );</highlight>
 <p>Autre exemple:</p>
 
-<highlight lang='JavaScript'>gsap
+<highlight lang="JavaScript">gsap
   .timeline()
   .from(".element.no1", { x:"400%" })
   .from(".element.no2", { x:"400%" }, '+=0.5')

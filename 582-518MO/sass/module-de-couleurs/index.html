@@ -1,3 +1,13 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
 <!DOCTYPE html>
 <html lang="fr-ca">
     <head>
@@ -34,7 +44,7 @@
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
             </div>
-            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
         </header>
         <main>
             <!-- MAIN HEADER EOF -->
@@ -64,13 +74,17 @@
 
 <p>Parmi ceux-ci, le plus populaire est le module de couleurs que nous examinerons aujourd'hui.</p>
 
-<doclink href='https://sass-lang.com/documentation/modules'>built-in modules</doclink>
+<doclink href="https://sass-lang.com/documentation/modules">built-in modules</doclink>
       
 
 <dots></dots>
 
 <grostitre>Importation</grostitre>
-<p>Afin d'éviter d'affecter négativement la performance du code CSS, les modules ne sont pas importés par défaut. Il faut donc penser à les importer si l'on souhaite les utiliser.</p><p>Par exemple, afin d'importer le module de couleurs, il faut écrire:</p><pre><code class="hljs css"><span class="hljs-keyword">@use</span> <span class="hljs-string">"sass:color"</span>;</code></pre><p>Suite à cet import, plusieurs fonctionnalités de traitement de couleurs s'ajouteront à Sass.</p>
+<p>Afin d'éviter d'affecter négativement la performance du code CSS, les modules ne sont pas importés par défaut. Il faut donc penser à les importer si l'on souhaite les utiliser.</p><p>Par exemple, afin d'importer le module de couleurs, il faut écrire:</p>
+
+<highlight lang="scss">@use &quot;sass:color&quot;;</highlight>
+
+<p>Suite à cet import, plusieurs fonctionnalités de traitement de couleurs s'ajouteront à Sass.</p>
           
 
 <dots></dots>
@@ -197,7 +211,7 @@ soit une couleur complètement désaturée.</p>
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-<doclink href='https://sass-lang.com/documentation/modules/color'>module color</doclink>
+<doclink href="https://sass-lang.com/documentation/modules/color">module color</doclink>
 
 
 

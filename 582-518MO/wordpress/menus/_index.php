@@ -58,7 +58,7 @@ register_nav_menus(
 </highlight>
 
 <br>
-<doclink href='https://developer.wordpress.org/reference/functions/wp_nav_menu/'>wp_nav_menu</doclink>
+<doclink href="https://developer.wordpress.org/reference/functions/wp_nav_menu/">wp_nav_menu</doclink>
 
 
 
@@ -87,4 +87,4 @@ register_nav_menus(
 <grostitre>Posts personnalisés</grostitre>
 <p>Par défaut, les posts personnalisés ne sont pas disponibles dans les options de sélection de menus. Pour y avoir accès, il faut les activer via l'onglet <em>"Option de l'écran"</em> se trouvant en haut à droite de la page de Menus.</p><p>Par exemple, si un post personnalisé intitulé <em>"produits"</em> fut créé et que ses posts doivent-être disponibles dans les options de sélection de menus, il faut les activer ainsi:</p>
 
-<clipasset src='images/wp-menu-custom-post.mp4'></clipasset>
+<clipasset src="images/wp-menu-custom-post.mp4"></clipasset>

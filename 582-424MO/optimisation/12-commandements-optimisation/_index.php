@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    3-Douze commandements
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract 12 pratiques pour optimiser la vitesse des sites web
  * @index    400
+ * @ref      web/optimisation
  */
 ?>
 

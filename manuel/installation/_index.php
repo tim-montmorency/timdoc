@@ -15,6 +15,68 @@
 <grostitre>Extensions VS Code</grostitre>
 
 <tool href="tools/live-server"></tool>
-<tool href="tools/run-on-save"></tool>
 <tool href="tools/live-sass-compiler"></tool>
-<tool href="tools/minify"></tool>
+<tool href="tools/run-on-save"></tool>
+<tool href="tools/minifyall"></tool>
+
+<dots></dots>
+
+<grostitre>Configuration VS Code</grostitre>
+
+<p>Le projet TIMdoc est déjà préconfiguré dans le fichier <incode>.vscode/settings.json</incode>.</p>
+
+
+<highlight lang="json">
+{
+    "emeraldwalk.runonsave": {
+        "autoClearConsole": true,
+        "commands": [
+            {
+                "match": ".*\\.php$",
+                "cmd": "pxpros \"${file}\""
+            }
+        ]
+    },
+    "liveServer.settings.port": 5501,
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": null,
+            "savePathReplacementPairs": null
+        },
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": null,
+            "savePathReplacementPairs": null
+        }
+    ],
+    "MinifyAll.disableCss": true,
+    "MinifyAll.disableHtml": true,
+    "MinifyAll.disableJson": true,
+    "MinifyAll.disableJsonc": true,
+    "MinifyAll.disableLess": true,
+    "MinifyAll.disablePhp": true,
+    "MinifyAll.disableSass": true,
+    "MinifyAll.disableScss": true,
+    "MinifyAll.disableTwig": true,
+    "MinifyAll.disableXml": true,
+    "MinifyAll.PrefixOfNewMinifiedFiles": ".min",
+    "MinifyAll.disableJavascriptReact": false,
+    "MinifyAll.minifyOnSaveToNewFile": true,
+    "MinifyAll.openMinifiedDocument": false,
+    "MinifyAll.terserMinifyOptions": {
+        "mangle": true,
+        "compress": {
+            "drop_console": false,
+            "dead_code": true,
+            "keep_fnames": false,
+            "keep_classnames": false
+        }
+    },
+}
+</highlight>
+
+<dots></dots>

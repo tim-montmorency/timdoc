@@ -69,7 +69,7 @@
             target="_blank">gabarits de base CodePen</a>. Vous devez alors copier le lien GSAP Core. Ensuite sur votre
         CodePen via <em>Settings/JS/Add External Scripts</em> et y coller le lien GSAP Core.</li>
 </ul>
-<doclink href='https://greensock.com/docs/v3/Installation'>Install GSAP</doclink>
+<doclink href="https://greensock.com/docs/v3/Installation">Install GSAP</doclink>
 <info>
     <h4>CDN : Content Delivery Network</h4>
     On vous recommande vivement l'utilisation de fichiers CDN car ils sont largement <a
@@ -78,7 +78,7 @@
     visiteurs a été sur un site qui a chargé GSAP à partir de ce même CDN, cela ne coûte aucune bande passante
     (chargement instantané !).
 </info>
-<doclink href='https://medium.com/@codebyamir/a-web-developers-guide-to-browser-caching-cc41f3b73e7c'>À propos des
+<doclink href="https://medium.com/@codebyamir/a-web-developers-guide-to-browser-caching-cc41f3b73e7c">À propos des
     caches de navigateur web</doclink>
 
 <alert>Toujours porter attention à l'ordre des liens vers les fichiers JavaScript dans votre HTML. D'abord la librarie "core" de GSAP, ensuite le fichier JavaScript personnalisé de votre projet.</alert>

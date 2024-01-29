@@ -12,7 +12,7 @@
 <p>Pour cet exercice, vous devez à l’aide de la méthode <incode>timeScale</incode> de GSAP contrôler la boite de vitesse d’une voiture afin de contrôler son&nbsp;animation.</p>
    
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/gsap-voiture-verte.mp4'></clipasset>
+<clipasset src="images/gsap-voiture-verte.mp4"></clipasset>
 
 
 <grostitre>Matériel</grostitre>
@@ -40,5 +40,5 @@ Au clic du bouton 3, déplacez le bras de vitesse <em>"</em><incode>.knob</incod
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../controle-animation/") ?>
+<intlink href="../../controle-animation/"></intlink>
 

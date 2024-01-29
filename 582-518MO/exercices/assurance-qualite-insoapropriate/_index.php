@@ -14,7 +14,7 @@
 <dots></dots>
 <grostitre>Matériel</grostitre>   
   
-<doclink href='https://ex.smnarnold.com/qa/insoapropriate/maquettes.zip'>Dossier de départ 📁</doclink>
+<doclink href="https://ex.smnarnold.com/qa/insoapropriate/maquettes.zip">Dossier de départ 📁</doclink>
 
 
 <dots></dots>
@@ -27,5 +27,5 @@ Comparez les requis et les maquettes dans le dossier de départ&nbsp;au <a targe
 <grostitre>Notes de cours 📚</grostitre>
 
 
-<?php intlink("../../gestion-de-projet/assurance-qualite/") ?>
+<intlink href="../../gestion-de-projet/assurance-qualite/"></intlink>
 

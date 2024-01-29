@@ -46,5 +46,5 @@
 </checklist>
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../grille/") ?>
+<intlink href="../../grille/"></intlink>
 
