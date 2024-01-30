@@ -489,7 +489,7 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
 <p>Comme le wiki suit le thème de Timdoc, il sera affiché par défaut en thème <incode>light</incode> dans Teams. Il est possible de forcer le thème en l'ajoutant à l'adresse url.</p>
 
-<highlight lang="url">
+<highlight lang="console">
 https://tim-montmorency.com/timdoc/582-215MO/wiki/?light
 https://tim-montmorency.com/timdoc/582-215MO/wiki/?dark
 </highlight>

@@ -62,7 +62,7 @@
 <p>Cette approche permet de découper un site complexe en composantes indépendantes et plus simples.</p>
 
 
-<highlight lang="vue">&lt;template&gt;
+<highlight lang="html">&lt;template&gt;
   &lt;div class=&quot;menu&quot;&gt;&lt;/div&gt;
 &lt;/template&gt;
 
@@ -106,7 +106,7 @@ export default {
 <p>Pour ce faire, une clé est attribuée aux éléments HTML sous forme d'un attribut <span class="inline-code">data-v-xxxxxxx</span>. Toutes les règles de styles associées à cette composante se basent alors sur cette clé, limitant ainsi leur portée à cette composante uniquement.</p><p>Par exemple:</p>
 
 
-<highlight lang="vue">&lt;template&gt;
+<highlight lang="html">&lt;template&gt;
   &lt;div class=&quot;menu&quot;&gt;...&lt;/div&gt;
 &lt;/template&gt;
 
@@ -135,7 +135,7 @@ export default {
 
 <p>Une composante SFC peut aussi avoir plus d'une balise <span class="inline-code">&lt;style&gt;</span>. Notamment lorsque des styles devraient être globaux et que d'autres devraient être limités à la composante uniquement.</p><p>Par exemple:</p>
 
-<highlight lang="vue">/* Styles appliqu&eacute;s &agrave; tout le site */
+<highlight lang="html">/* Styles appliqu&eacute;s &agrave; tout le site */
 &lt;style scoped&gt;
 * {
   box-sizing: border-box;

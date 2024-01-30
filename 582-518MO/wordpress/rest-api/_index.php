@@ -21,7 +21,7 @@
 
 <p>Par exemple:</p>
 
-<highlight lang="url">https://site.com/wp-json/wp/v2/</highlight>
+<highlight lang="console">https://site.com/wp-json/wp/v2/</highlight>
 
 <br>
 <p>La page retournée ressemble probablement à un mur de texte illisible. Il s'agit en fait d'un fichier JSON minifié contenant tous les contenus du site, affichés sur une seule&nbsp;ligne.</p>
@@ -43,7 +43,7 @@
 
 <p>Par exemple, si seulement les pages sont requises, il est possible de spécifier la&nbsp;route</p>
 
-<highlight lang="url">https://site.com/wp-json/wp/v2/pages</highlight>
+<highlight lang="console">https://site.com/wp-json/wp/v2/pages</highlight>
 
 <br>
 
@@ -53,7 +53,7 @@
 
 <p>Si un autre type de publication doit être retourné. Par exemple, les articles, ou en anglais&nbsp;<em>posts</em>, il suffit de spécifier une route&nbsp;différente.</p><p>Par exemple:&nbsp;<incode>/posts</incode>.</p>
 
-<highlight lang="url">https://site.com/wp-json/wp/v2/posts</highlight>
+<highlight lang="console">https://site.com/wp-json/wp/v2/posts</highlight>
 
 
 <br>
@@ -61,7 +61,7 @@
 
 <p>Par exemple, si seulement la page avec le ID 10 est requis, il est possible de spécifier la route&nbsp;<incode>/pages/10</incode>.</p>
 
-<highlight lang="url">https://site.com/wp-json/wp/v2/pages/10</highlight>
+<highlight lang="console">https://site.com/wp-json/wp/v2/pages/10</highlight>
 
 
 
@@ -86,7 +86,7 @@
     
 <p>Par exemple, par titres:</p>
 
-<highlight lang="url">https://site.com/wp-json/wp/v2/posts?orderby=title</highlight>
+<highlight lang="console">https://site.com/wp-json/wp/v2/posts?orderby=title</highlight>
 
 
 <h3 class="heading heading--h3" id="order">order</h3>
@@ -101,7 +101,7 @@
 <p>Par exemple, par titres décroissants:</p>
 
 
-<highlight lang="url">https://site.com/wp-json/wp/v2/posts?orderby=title&order=desc</highlight>
+<highlight lang="console">https://site.com/wp-json/wp/v2/posts?orderby=title&order=desc</highlight>
 
 
 <br>
@@ -123,7 +123,7 @@
 
 <p>Par exemple: </p>
 
-<highlight lang="url">https://site.com/wp-json/wp/v2/posts?_embed </highlight>
+<highlight lang="console">https://site.com/wp-json/wp/v2/posts?_embed </highlight>
 
 
 <br><br>
