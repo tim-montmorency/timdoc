@@ -29,16 +29,20 @@
 
 <p>PXPros se configure par projet. Il suffit de créer un fichier JSON <em>(_pxpros.json)</em> à la racine du projet.<br><br>Exemple:</p>
 
-<highlight lang="json">{
+<highlight lang="json">
+{
     "data": {
-        "project": "TIM Montmorency - Documentation"
+        "project": "TIM Montmorency - Documentation",
+        "gtag": "G-P2R7T89B4B"
     },
     "includes": [
-        "_includes/functions.php"
+        "_includes/functions.php",
+        "_includes/hooks.php"
     ],
     "before": "_includes/header.php",
     "after": "_includes/footer.php"
-}</highlight>
+}
+</highlight>
 
 <h3>data</h3>
 <p>La propriété <em>data</em> est un objet où vous pouvez y mettre tout ce que vous voulez. Ces données seront accessibles via la variable superglobale <em>$PAGE</em>.<br><br>Exemple:</p>
