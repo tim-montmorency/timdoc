@@ -1052,78 +1052,6 @@ app.component('checklist', {
 
 
 /******************************************************
- *              Composante Audioplayer                *
- ******************************************************/
-app.component('audioplayer', {
-    props: ['src'],
-    data() {
-        var url = new URL(this.src, document.baseURI);
-        let name = url.pathname.split('.').shift();
-        let id = name.split('/').pop();
-        let details = syncjson(name + '.json');
-        let track = undefined;
-        details.media.track.forEach(elm => { if (elm['@type'] == 'Audio') { track = elm; } });
-        if (track == undefined) return {};
-        var sound = new Howl({
-            src: [url.pathname, name + '.webm'],
-            onend: this.onend,
-            preload: true
-        });
-        return {
-            id: id,
-            name: name,
-            duration: track.Duration,
-            sound: sound,
-            playing: false,
-            playInt: null,
-            progress: 0
-        }
-    },
-    methods: {
-        onend() {
-            this.playing = false;
-            clearInterval(this.playInt);
-            this.progress = 0;
-        },
-        click() {
-            if (this.playing) {
-                this.sound.pause();
-                this.playing = false;
-                clearInterval(this.playInt);
-            } else {
-                this.sound.play();
-                this.playing = true;
-                this.playInt = setInterval(this.pos, 50);
-            }
-        },
-        pos() {
-            let prog = (this.sound.seek() / this.duration * 100).toFixed(2);
-            if (prog !== this.progress) this.progress = prog;
-        },
-        seek(e) {
-            let newpos = ((e.clientX - e.currentTarget.offsetLeft) / e.currentTarget.offsetWidth) * this.duration;
-            this.sound.seek(newpos);
-            if (!this.playing) {
-                this.sound.play();
-                this.playing = true;
-                this.playInt = setInterval(this.pos, 50);
-            }
-        }
-    },
-    template:
-        `<div class="audioplayer-container">` +
-            `<div class="audioplayer">` +
-                `<div :class="'audioplayer__button'+(this.playing?' pause':'')" @click="click()"></div>` +
-                `<div class="audioplayer__waveform" :style="'background-image: url(\\''+this.name+'.png\\')'" @click="seek($event)">` +
-                    `<div class="audioplayer__progress" :style="'width: '+this.progress+'%;'"></div>` +
-                `</div>` +
-            `</div>` +
-        `</div>`
-});
-
-
-
-/******************************************************
  *                  Composante Tune                   *
  ******************************************************/
  app.component('tune', {
@@ -1131,20 +1059,60 @@ app.component('audioplayer', {
     data() {
         var url = new URL(this.src, document.baseURI);
         let name = url.pathname.split('.').shift();
-        let id = name.split('/').pop();
-        let details = syncjson(name + '.json');
-        let track = undefined;
-        details.media.track.forEach(elm => { if (elm['@type'] == 'Audio') { track = elm; } });
-        if (track == undefined) return {};
-        
-        console.log(track);
-
-
-        return {}
+        let sound = new Audio(url);
+        sound.preload = 'auto';
+        sound.addEventListener('play', () => { this.play(); });
+        sound.addEventListener('pause', () => { this.pause(); });
+        sound.addEventListener('ended', () => { this.ended(); });
+        this.$root.registerLightSwitch(this);
+        return {
+            name: name,
+            sound: sound,
+            playInt: null
+        }
     },
-    template:`
-    
-    `
+    methods: {
+        click() {
+            if (this.sound.paused) this.sound.play();
+            else this.sound.pause();
+        },
+        play() {
+            this.playing = true;
+            this.$refs.button.classList.add('pause');
+            this.playInt = setInterval(() => { this.time(); }, 50);
+        },
+        pause() {
+            this.playing = false;
+            this.$refs.button.classList.remove('pause');
+            clearInterval(this.playInt);
+        },
+        ended() {
+            this.$refs.progress.style.width = '0%';
+        },
+        seek(evt) {
+            let rect = evt.currentTarget.getBoundingClientRect();
+            let newpos = (evt.clientX - rect.left) / rect.width * this.sound.duration;
+            this.sound.currentTime = newpos;
+            if (this.sound.paused) this.sound.play();
+        },
+        time() {
+            let progress = Math.round(this.sound.currentTime / this.sound.duration * 10000) / 100;
+            this.$refs.progress.style.width = progress + '%';
+        },
+        lightSwitchOff() {
+            this.$refs.waveform.style.backgroundImage = 'url('+this.name + '-dark.png)';
+        },
+        lightSwitchOn() {
+            this.$refs.waveform.style.backgroundImage = 'url('+this.name + '-light.png)';
+        }
+    },
+    template:
+        `<div class="tune">` +
+            `<div class="tune__button" ref="button" @click="this.click()"></div>` +
+            `<div class="tune__waveform" ref="waveform" :style="'background-image: url(\\''+this.name+'-'+this.$root.theme+'.png\\')'" @click="this.seek">` +
+                `<div class="tune__progress" ref="progress"></div>` +
+            `</div>` +
+        `</div>`
 });
 
 

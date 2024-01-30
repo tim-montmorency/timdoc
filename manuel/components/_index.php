@@ -408,8 +408,8 @@ Utilisez la proprité <incode>transform</incode>.<br>
 <grostitre>Audios</grostitre>
 
 <h3>audioplayer</h3>
-<highlight lang="html"><audioplayer src="audios/careless-whisper.mp3"></audioplayer></highlight>
-<audioplayer src="audios/careless-whisper.mp3"></audioplayer>
+<highlight lang="html"><tune src="audios/careless-whisper.mp3"></tune></highlight>
+<tune src="audios/careless-whisper.mp3"></tune>
 <doclink href="../audios">Manuel / Audios</doclink>
 <dots></dots>
 

@@ -36,12 +36,10 @@
 
 <grostitre>Exemples</grostitre>
 
-<highlight lang="html">&lt;audioplayer src="audios/careless-whisper.mp3"&gt;&lt;/audioplayer&gt;</highlight>
-<audioplayer src="audios/careless-whisper.mp3"></audioplayer>
+<highlight lang="html"><tune src="audios/careless-whisper.mp3"></tune></highlight>
+<tune src="audios/careless-whisper.mp3"></tune>
 
-<highlight lang="html">&lt;audioplayer src="audios/pas-tellement.mp3"&gt;&lt;/audioplayer&gt;</highlight>
-<audioplayer src="audios/pas-tellement.mp3"></audioplayer>
-
+<highlight lang="html"><tune src="audios/pas-tellement.mp3"></tune></highlight>
 <tune src="audios/pas-tellement.mp3"></tune>
 
 <dots></dots>

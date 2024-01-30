@@ -498,7 +498,7 @@ body.dark table tr:nth-child(even) td {
   }
 }
 .audioplayer {
-  width: 770;
+  width: 770px;
   height: 100px;
   margin-bottom: 25px;
   margin-left: -25px;
@@ -511,7 +511,7 @@ body.dark table tr:nth-child(even) td {
   cursor: pointer;
   width: 100px;
   height: 98px;
-  background-image: url("../images/audioplayer-btn.png");
+  background-image: url("../images/assets/audioplayer-btn.webp");
   background-position: 0px 0px;
   background-repeat: no-repeat;
   opacity: 60%;
@@ -547,6 +547,67 @@ body.dark table tr:nth-child(even) td {
 }
 .audioplayer__progress:hover {
   background-color: #920123;
+}
+
+.tune {
+  position: relative;
+  display: flex;
+  width: calc(100% + 50px);
+  aspect-ratio: 77/10;
+  margin-bottom: 25px;
+  margin-left: -25px;
+  margin-right: -25px;
+  background-color: #fbfbfb;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.tune__button {
+  height: 100%;
+  aspect-ratio: 1/1;
+  background-image: url("../images/assets/audioplayer-btn.webp");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  opacity: 0.6;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.tune__button.pause {
+  background-position: 100% 0;
+}
+.tune__button:hover {
+  opacity: 1;
+}
+.tune__waveform {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 80%;
+}
+.tune__progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  background-color: #920123;
+  mix-blend-mode: multiply;
+  opacity: 20%;
+  transition-property: width;
+  transition-duration: 50ms;
+  transition-timing-function: linear;
+}
+
+body.dark .tune {
+  background-color: #1c1d21;
+}
+body.dark .tune__button {
+  filter: invert(100%);
 }
 
 .mediafile {
