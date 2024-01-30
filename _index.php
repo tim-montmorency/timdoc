@@ -32,13 +32,12 @@
     <li>PXPros <em>(pré-processeur PHP)</em></li>
     <li>VueJS 3 <em>(composantes)</em></li>
     <li>Highlight.js <em>(surbrillance du code)</em></li>
-    <li>Video.js <em>(lecteur vidéo)</em></li>
-    <li>Howler.js <em>(lecteur audio)</em></li>
     <li>Swiper.js <em>(album photo)</em></li>
     <li>FFMPEG <em>(transcode média)</em></li>
     <li>MediaInfoLib <em>(informations média)</em></li>
     <li>AudioWaveForm <em>(ondes audio en image)</em></li>
     <li>JQ <em>(JSON en ligne de commande)</em></li>
+    <li>GitHub Pages <em>(hébergement)</em></li>
 </ul>
 
 <dots></dots>

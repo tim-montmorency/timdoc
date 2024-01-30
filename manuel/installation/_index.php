@@ -19,6 +19,8 @@
 <tool href="tools/run-on-save"></tool>
 <tool href="tools/minifyall"></tool>
 
+<warning>Par défaut l'extension <em>MinifyAll</em> minimise tous les formats. Il est conseillé de les désactiver dans votre configuration locale.</warning>
+
 <dots></dots>
 
 <grostitre>Configuration VS Code</grostitre>

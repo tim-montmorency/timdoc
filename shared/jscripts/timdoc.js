@@ -789,7 +789,7 @@ app.component('highlight', {
 
 
 /******************************************************
- *                  Composante Swiper                 *
+ *                 Composante Gallery                 *
  ******************************************************/
 app.component('gallery', {
     data() {

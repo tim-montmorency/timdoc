@@ -143,6 +143,8 @@
 <h3>intlink</h3>
 <highlight lang="html">&lt;intlink href=&quot;../../582-215MO/css/exercices/lost-highway/&quot;&gt;&lt;/intlink&gt;</highlight>
 <intlink href="../../582-215MO/css/exercices/lost-highway/"></intlink>
+<info>Il existe aussi la composante <incode>&lt;listlink href=&quot;...&quot;&gt;&lt;/listlink&gt;</incode> qui est l'équivalent de <incode>&lt;intlink&gt;&lt;/intlink&gt;</incode> mais pour les pages de type <incode>list</incode>.</info>
+
 <warning>Le rendu de cette composante est effectué par le pré-processeur.</warning>
 <br><br>
 
