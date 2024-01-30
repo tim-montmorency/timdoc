@@ -13,14 +13,14 @@
 
 <p>Pour cet examen vous allez reproduire le site web Legend.</p>
 
-<swiper>
+<gallery>
     photos/legend-1.webp
     photos/legend-2.webp
     photos/legend-3.webp
     photos/legend-4.webp
     photos/legend-5.webp
     photos/legend-6.webp
-</swiper>
+</gallery>
 
 <dots></dots>
 

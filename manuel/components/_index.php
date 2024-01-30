@@ -327,8 +327,8 @@ Utilisez la proprité <incode>transform</incode>.<br>
 <br><br>
 
 
-<h3>swiper</h3>
-<highlight lang="html">&lt;swiper&gt;
+<h3>gallery</h3>
+<highlight lang="html">&lt;gallery&gt;
     photos/01.webp
     photos/02.webp
     photos/03.webp
@@ -339,8 +339,8 @@ Utilisez la proprité <incode>transform</incode>.<br>
     photos/08.webp
     photos/09.webp
     photos/10.webp
-&lt;/swiper&gt;</highlight>
-<swiper>
+&lt;/gallery&gt;</highlight>
+<gallery>
     photos/01.webp
     photos/02.webp
     photos/03.webp
@@ -351,7 +351,7 @@ Utilisez la proprité <incode>transform</incode>.<br>
     photos/08.webp
     photos/09.webp
     photos/10.webp
-</swiper>
+</gallery>
 <dots></dots>
 
 

@@ -882,7 +882,7 @@ app.component('highlight', {
 /******************************************************
  *                  Composante Swiper                 *
  ******************************************************/
-app.component('swiper', {
+app.component('gallery', {
     data() {
         let images = [];
         let slides = [];
