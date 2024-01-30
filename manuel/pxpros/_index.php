@@ -116,10 +116,10 @@ echo get_shared($PAGE->file);
 
 <p>PXPros est très simple d'utilisation. Il peut créer le rendu d'un seul fichier ou encore d'un dossier/sous-dossier. Dans le cas d'un dossier, PXPros le parcourera de manière récursive afin d'y trouver tout les fichiers ayant le pattern <em>_*.php.</em><br><br>Exemple:</p>
 
-<highlight lang="plaintext">PS D:\Programmation\tim-montmorency\cours\manuel> pxpros .\_index.php
+<highlight lang="console">> D:\Programmation\tim-montmorency\cours\manuel> pxpros .\_index.php
 Render: /manuel/_index.php</highlight>
 
-<highlight lang="plaintext">PS D:\Programmation\tim-montmorency\cours\manuel> pxpros .
+<highlight lang="console">> D:\Programmation\tim-montmorency\cours\manuel> pxpros .
 Render: /manuel/_index.php
 Render: /manuel/components/_index.php
 Render: /manuel/installation/_index.php
