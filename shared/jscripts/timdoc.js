@@ -542,6 +542,7 @@ app.component('doclink', {
                 case 'www.unity.com': site = 'unity'; break;
                 case 'learn.unity.com': site = 'unity'; break;
                 case 'id.unity.com': site = 'unity'; break;
+                case 'assetstore.unity.com': site = 'unity'; break;
                 case 'unity.com': site = 'unity'; break;
                 case 'vuejs.org': site = 'vuejs'; break;
                 case 'v3.vuejs.org': site = 'vuejs'; break;
@@ -553,7 +554,6 @@ app.component('doclink', {
                 case 'www.advancedcustomfields.com': site = 'wordpress'; break;
                 case 'npmjs.com': site = 'npm'; break;
                 case 'docs.npmjs.com': site = 'npm'; break;
-
             }
         } catch (e) {
             if (this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
