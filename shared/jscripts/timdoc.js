@@ -135,15 +135,14 @@ function timdocMount() {
 /******************************************************
  *                 Load Forced Theme                  *
  ******************************************************/
-if (!localStorage.getItem('darkmode') || !localStorage.getItem('darkmode_cache_1')) {
-    localStorage.setItem('darkmode_cache_1', 'true')
+const darkmode_cache = 'darkmode_cache_1';
+const urlParams = new URLSearchParams(window.location.search);
+if (!localStorage.getItem('darkmode') || !localStorage.getItem(darkmode_cache)) {
+    localStorage.setItem(darkmode_cache, 'true')
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
         localStorage.setItem('darkmode', 'true');
-    } else {
-        localStorage.setItem('darkmode', 'false');
-    }
+    } else localStorage.setItem('darkmode', 'false');
 }
-const urlParams = new URLSearchParams(window.location.search);
 if (urlParams.get('dark') !== null) localStorage.setItem('darkmode', 'true');
 if (urlParams.get('light') !== null) localStorage.setItem('darkmode', 'false');
 
