@@ -7,7 +7,7 @@
  */
 ?>
 
-<p><strong><em>Timdoc</em></strong> contient quatre types de pages: list, article, exercice et tool. Le type d'une page est déterminé par la valeur de la propriété <em>@type</em> dans le DOCBLOCK de l'entête du template.</p>
+<p class="spacer"><strong><em>Timdoc</em></strong> contient quatre types de pages: list, article, exercice et tool. Le type d'une page est déterminé par la valeur de la propriété <em>@type</em> dans le DOCBLOCK de l'entête du template.</p>
 
 
 

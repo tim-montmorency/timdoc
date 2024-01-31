@@ -402,27 +402,31 @@ app.component('codepen', {
             remark = this.$slots.default()[0].children;
         }
         this.$root.registerLightSwitch(this);
-        let theme = this.$root.theme == 'dark' ? '43847' : '39618';
+        let theme = this.$root.theme == 'dark' ? '43847' : '44431';
         return {
             user: 'tim-momo',
             theme: theme,
             bheight: height,
+            cheight: parseInt(height) + 2,
             defaulttab: defaulttab,
             remark: remark
         }
     },
     methods: {
         lightSwitchOn() {
-            this.theme = '39618';
+            // this.theme = '39618';
+            this.theme = '44431';
         },
         lightSwitchOff() {
+            
             this.theme = '43847';
         },
     },
     template:
-    `<div class="codepen-container">` +
+    `<div class="codepen-container" :style="'height: ' + cheight + 'px'">` +
+        // `<div style="height: 100px; background-color: blue"></div>` +
         `<iframe :src="'https://codepen.io/' + user + '/embed/' + id + '?default-tab=' + defaulttab + '&theme-id=' + theme" class="codepen" scrolling="no" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" :style="'height: ' + bheight + 'px;'"></iframe>` +
-        `<span class="codepen-remark" v-if="this.remark != ''">{{ remark }}</span>` +
+        // `<span class="codepen-remark" v-if="this.remark != ''">{{ remark }}</span>` +
     `</div>`
 });
 

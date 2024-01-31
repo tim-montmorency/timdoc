@@ -730,7 +730,7 @@ body.dark .tune__button {
 iframe.codepen {
   width: 100%;
   height: 400px;
-  margin-bottom: 25px;
+  margin: 0;
 }
 
 span.codepen-remark {
@@ -744,6 +744,10 @@ span.codepen-remark {
 .codepen-container {
   margin-left: -25px;
   margin-right: -25px;
+  border: 1px solid #dfdef3;
+  padding: 0;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
 }
 
 .cp_embed_wrapper {
@@ -752,6 +756,10 @@ span.codepen-remark {
   margin-bottom: 40px;
   margin-left: -25px;
   margin-right: -25px;
+}
+
+body.dark .codepen-container {
+  border: 1px solid #514f58;
 }
 
 a.doclink {

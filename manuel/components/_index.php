@@ -429,8 +429,13 @@ Utilisez la proprité <incode>transform</incode>.<br>
 <grostitre>Codepen</grostitre>
 
 <h3>codepen</h3>
-<highlight lang="html">&lt;codepen id="gOEwrvG" tab="results"&gt;Voici une remarque pertinente.&lt;/codepen&gt;</highlight>
-<codepen id="gOEwrvG" tab="results">Voici une remarque pertinente.</codepen>
+<highlight lang="html"><codepen id="gOEwrvG" tab="result" height="500"></codepen></highlight>
+<codepen id="gOEwrvG" tab="result" height="500"></codepen>
+
+<highlight lang="html"><codepen id="gOEwrvG" tab="css,result" height="500"></codepen></highlight>
+<codepen id="gOEwrvG" tab="css,result" height="500"></codepen>
+
+
 <dots></dots>
 
 
