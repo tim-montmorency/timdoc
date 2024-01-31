@@ -11,7 +11,7 @@
 
 
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/fetch-pokeapi.mp4'></clipasset>
+<clipasset src="images/fetch-pokeapi.mp4"></clipasset>
 
 
 <dots></dots>
@@ -57,8 +57,8 @@ Ajoutez un troisième menu déroulant supplémentaire permettant le choix entre 
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../javascript/fetch-api/") ?>
+<intlink href="../../javascript/fetch-api/"></intlink>
 <doclink href="https://smnarnold.com/cours/javascript/addeventlistener-intermediaire">AddEventListener() intermédiaire</doclink><br>
 <doclink href="https://smnarnold.com/cours/javascript/classlist">ClassList</doclink><br>
 <doclink href="https://smnarnold.com/cours/javascript/manipulation-des-contenus">Manipulation des contenus du DOM (éléments HTML)</doclink><br>
-<doclink href='https://smnarnold.com/cours/javascript/objet-math'>L'objet Math</doclink>Permet de faire une pige aléatoire
+<doclink href="https://smnarnold.com/cours/javascript/objet-math">L'objet Math</doclink>Permet de faire une pige aléatoire

@@ -126,29 +126,5 @@ fetch(url) // L'url de la ressource à aller chercher
 <dots></dots>
 <grostitre>Outils utiles</grostitre>
   
-
-          <aside class="tool-card">
-  <div class="tool-card__content">
-    <em class="tool-card__tagline">🛠 Outil</em><br class="tool-card__break">
-    <a href="https://github.com/public-apis/public-apis" target="_blank" rel="noopener noreferrer" class="tool-card__title">
-      <strong>Public&nbsp;API</strong>
-    </a>
-
-        <p class="tool-card__description">Collection d’API public pour récupérer des informations sur divers&nbsp;sujets.</p>
-      </div>
-
-     
-    </aside>
-          <aside class="tool-card">
-  <div class="tool-card__content">
-    <em class="tool-card__tagline">🛠 Outil</em><br class="tool-card__break">
-    <a href="https://jsonplaceholder.typicode.com/" target="_blank" rel="noopener noreferrer" class="tool-card__title">
-      <strong>{JSON}&nbsp;Placeholder</strong>
-    </a>
-
-        <p class="tool-card__description">Outils offrant un API gratuit en ligne à des fins de tests et de&nbsp;prototypes.</p>
-      </div>
-
-     
-    </aside>
-       
+<tool href="../../tools/publicapi/"></tool>
+<tool href="../../tools/jsonplaceholder/"></tool>

@@ -28,8 +28,9 @@
     Ajoutez en CSS la couleur de fond #f08a30 à la navbar.
     Ajustez son thème de couleur pour que le texte devienne blanc et contraste plus avec le fond orange.
     Ajoutez un logo textuel avec la mention <em>"Démo"</em>.
-    Ajoutez un menu déroulant intitulé <em>"Sous-menu"</em>.
-    À l'intérieur du menu déroulant, ajoutez 6 liens vides <em>(#)</em> Titre 1, Titre 2, …, Titre 6
+    Ajouter deux liens : "À propos" et "Nous joindre" (ces liens peuvent mener vers un href="#")
+    Ajoutez un menu déroulant intitulé <em>"Nos services"</em>.
+    À l'intérieur du menu déroulant, ajoutez 6 liens vides <em>(href="#")</em> Service 1, Service 2, …, Service 6
     Ajoutez les classes nécessaires (avec les breakpoints) pour réaliser les 3 version (mobile, tablette et desktop)
 </checklist>
 
@@ -49,5 +50,5 @@ Chaque carte doit prendre toute la largeur disponible par défaut.
 
 
 
-<?php intlink("../../cartes/") ?>
-<?php intlink("../../navbar/") ?>
+<intlink href="../../cartes/"></intlink>
+<intlink href="../../navbar/"></intlink>

@@ -22,7 +22,7 @@
 
 <p>Afin d'éviter de répéter le sélecteur <incode>.list</incode> à plusieurs reprises, il est possible d'écrire en SCSS:</p>
 
-<highlight lang='css'>.list {
+<highlight lang="scss">.list {
   position: relative;
   
   .item { display: inline-block; }
@@ -32,7 +32,7 @@
 
 <p>Ce qui générera le code CSS suivant ⏬</p>
 
-<highlight lang='scss'>.list { position: relative; }
+<highlight lang="css">.list { position: relative; }
 
 .list .item { display: inline-block; } 
 
@@ -46,7 +46,7 @@
 
 
 <p>Voici maintenant un exemple contenant deux niveaux d'imbrications:</p>
-<highlight lang='css'>.list {
+<highlight lang="scss">.list {
   position: relative;
   
   .item { 
@@ -56,7 +56,7 @@
   }
 }</highlight>
 <p>Ce qui générera le code CSS suivant ⏬</p>
-<highlight lang='scss'>.list { position: relative; }
+<highlight lang="css">.list { position: relative; }
 
 .list .item { display: inline-block; } 
 
@@ -69,16 +69,11 @@
 <p>Voici un autre exemple d'utilisation.</p><!-- Remarquez les ancres du menu de navigation ne seront pas stylisé de la même façon que ceux du reste de la page.</p>
 <p>De plus, les éléments de liste du menu et ceux du sous-menu sont un peu différents l'un de l'autre.</p>-->
 
-<p class="codepen" data-height="850" data-theme-id="44431" data-default-tab="css,result" data-slug-hash="qBLZwem" data-user="tim-momo" style="height: 850px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/qBLZwem">
-  Sass - Imbrication</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<codepen id="qBLZwem" tab="css,result" height="850"></codepen>
 
 <p>Dans l'exemple précédent, lorsqu'on compile le SCSS en CSS, ça donnera le code suivant:</p>
 
-<highlight lang='css'>a {
+<highlight lang="css">a {
   color: purple;
   text-decoration: none;
 }
@@ -116,7 +111,7 @@ nav ul li ul li {
 }</highlight>
 <warning>Évitez d’abusez des imbrications. Plus de trois niveaux d’imbrication est généralement considéré comme étant une mauvaise pratique et rendra votre code difficile à&nbsp;déboguer.</warning>
 
-<doclink href='https://sass-lang.com/documentation/style-rules/declarations#nesting'>Nesting (imbrication)</doclink>
+<doclink href="https://sass-lang.com/documentation/style-rules/declarations#nesting">Nesting (imbrication)</doclink>
 
 
 
@@ -128,18 +123,18 @@ nav ul li ul li {
         href="../../../582-215MO/css/selecteurs-avances/">sélecteurs CSS avancés</a>.</p>
 <p>Par exemple:</p>
 
-<highlight lang='scss'>.list {
+<highlight lang="scss">.list {
   > .item { display: inline-block; }
   
   + .logo { display: none; }
 }</highlight>
 
 <p>Générera le code CSS suivant ⏬</p>
-<highlight lang='scss'>.list > .item { display: inline-block; }
+<highlight lang="css">.list > .item { display: inline-block; }
 
 .list + .logo { display: none; } </highlight>
 
-<doclink href='https://sass-lang.com/documentation/style-rules#selector-combinators'>selector combinator</doclink>
+<doclink href="https://sass-lang.com/documentation/style-rules#selector-combinators">selector combinator</doclink>
 
 
 
@@ -157,13 +152,13 @@ nav ul li ul li {
 
 <p>Autrement dit:</p>
 
-<highlight lang='scss'>.selecteur1 {
+<highlight lang="scss">.selecteur1 {
   .selecteur2 { ... }
 }</highlight>
 
 <p>Générera le code CSS suivant ⏬</p>
 
-<highlight lang='scss'> .selecteur1 .selecteur2 { ... } </highlight>
+<highlight lang="css"> .selecteur1 .selecteur2 { ... } </highlight>
 
 <p>Remarquez <strong>l'espace entre les deux sélecteurs</strong> indiquant que <incode>.selecteur2</incode> est enfant de <incode>.sélecteur1</incode>.</p>
 
@@ -173,13 +168,13 @@ nav ul li ul li {
 
 <p>Si on ajoute un <incode>&amp;</incode> devant le .selecteur2</p>
 
-<highlight lang='scss'>.selecteur1 {
+<highlight lang="scss">.selecteur1 {
   &amp;.selecteur2 { ... }
 }</highlight>
 
 <p>Générera le code CSS suivant ⏬</p>
 
-<highlight lang='scss'> .selecteur1.selecteur2 { ... } </highlight>
+<highlight lang="css"> .selecteur1.selecteur2 { ... } </highlight>
 
 <p>Remarquez maintenant l'espace inexistant entre .selecteur1 .selecteur2, cela signifie que le sélecteur 2 s'est appliqué au parent dans l'impbricattion Sass. Ce qui en résulte d'un sélecteur css qui vise un élément qui contient les 2 classes.</p>
 
@@ -192,7 +187,7 @@ nav ul li ul li {
 
 <p>Par exemple:</p>
 
-<highlight lang='scss'>.btn {
+<highlight lang="scss">.btn {
   background: blue;
   
   &:hover { background: lightblue; }
@@ -200,13 +195,13 @@ nav ul li ul li {
 
 <p>Générera le code CSS suivant ⏬</p>
 
-<highlight lang='html'>.btn { background: blue; }
+<highlight lang="css">.btn { background: blue; }
 
 .btn:hover { background: lightblue; }</highlight>
 <dots></dots>
 <p>Autre exemple de pseudo-classe:</p>
 
-<highlight lang='scss'>.section {
+<highlight lang="scss">.section {
   background: white;
   
   &:nth-child(3) { background: gray; }
@@ -214,7 +209,7 @@ nav ul li ul li {
 
 <p>Générera le code CSS suivant ⏬</p>
 
-<highlight lang='html'>.section { background: white; }
+<highlight lang="css">.section { background: white; }
 
 .section:nth-child(3) { background: gray; }</highlight>
 
@@ -236,7 +231,7 @@ nav ul li ul li {
 
 <p>Par exemple:</p>
 
-<highlight lang='scss'>.btn {
+<highlight lang="scss">.btn {
   background: blue;
   
   &::before { content: "🔘"; }
@@ -244,7 +239,7 @@ nav ul li ul li {
 
 <p>Générera le code CSS suivant ⏬</p>
 
-<highlight lang='scss'>.btn { background: blue; }
+<highlight lang="css">.btn { background: blue; }
 
 .btn::before { content: "🔘"; }</highlight>
 
@@ -257,42 +252,18 @@ nav ul li ul li {
     bouton en utilisant ce sélecteur comme suffix.</p>
 
 
-<highlight lang='htscssml'>.btn {
+<highlight lang="scss">.btn {
   .menu & { background: grey; }
 }</highlight>
 
 <p>Générera le code CSS suivant ⏬</p>
 
-<highlight lang='html'>.menu .btn { background: grey; }</highlight>
+<highlight lang="css">.menu .btn { background: grey; }</highlight>
 
-<doclink href='https://sass-lang.com/documentation/style-rules/parent-selector'>Parent selector</doclink>
+<doclink href="https://sass-lang.com/documentation/style-rules/parent-selector">Parent selector</doclink>
 
 <dots></dots>
 
 
-
-<aside class="tool-card">
-    <div class="tool-card__content">
-        <em class="tool-card__tagline">🛠 Outil</em><br class="tool-card__break">
-        <a href="https://www.sassmeister.com/" target="_blank" rel="noopener noreferrer" class="tool-card__title">
-            <strong>SassMeister</strong>
-        </a>
-
-        <p class="tool-card__description">Terrain de jeu SASS permettant de voir en temps réel la compilation CSS que
-            produirait son&nbsp;code.</p>
-    </div>
-
-  
-</aside>
-<aside class="tool-card">
-    <div class="tool-card__content">
-        <em class="tool-card__tagline">🛠 Outil</em><br class="tool-card__break">
-        <a href="https://codebeautify.org/css-to-scss-converter" target="_blank" rel="noopener noreferrer"
-            class="tool-card__title">
-            <strong>CSS to&nbsp;SCSS</strong>
-        </a>
-
-        <p class="tool-card__description">Permet de convertir la structure d’un code CSS en imbrication&nbsp;SCSS.</p>
-    </div>
-
-   
+<tool href="../../tools/sassmeister/"></tool>
+<tool href="../../tools/csstoscss/"></tool>

@@ -11,7 +11,7 @@
 
 <p>Aperçu du résultat 👇</p>
 
-<clipasset src='medias/color-run-resultat.mp4'></clipasset>
+<clipasset src="medias/color-run-resultat.mp4"></clipasset>
 <small>Pour la portion "clic sur image" (requis #17 et #18), ne vous fiez pas à la démo-ci haut. <br>Imaginez plutôt que le cercle s'agrandit de 10%.</small>
 
 <dots></dots>
@@ -27,7 +27,7 @@ Ouvrez maintenant le dossier de projet avec le logiciel Visual Studio Code.
 Dans votre dossier de projet&nbsp;📁, ajoutez un fichier <em>index.html</em>&nbsp;📄 contenant les balises de base d'une page Web.
 Ajoutez-y un sous-dossier <em>css</em>&nbsp;📁, dans lequel se trouvera une feuille de styles <em>styles.css</em>&nbsp;📄 qui sera générée par un fichier <em>.scss</em>&nbsp;📄 du même nom. Vous n'avez PAS le droit d'écrire directement dans le fichier <em>styles.css</em>.
 Collez le code suivant dans votre fichier HTML:</checklist>
-<highlight lang='html'>&lt;div class=&quot;results&quot;&gt;
+<highlight lang="html">&lt;div class=&quot;results&quot;&gt;
   &lt;div class=&quot;runner runner--blue&quot;&gt;
     &lt;img src=&quot;https://tim-montmorency.com/timdoc/582-518MO/exercices/color-run-v219/medias/1.png&quot; class=&quot;runner__picture&quot;&gt;
   &lt;/div&gt;
@@ -54,7 +54,7 @@ Collez le code suivant dans votre fichier HTML:</checklist>
 <warning>Vous n’avez PAS le droit de modifier le code HTML ci-dessus&nbsp;👆 <br><br>Vous n'avez PAS le droit d'écrire directement dans le fichier <em>styles.css</em>.</warning>
 
 <alert>Dans votre code, vous devez obligatoirement ajouter une ligne de commentaire de début et de fin pour définir à quelle étape des requis le bloc de code correspond. Voici un exemple:</alert>
-<highlight lang='css'>/*** DÉBUT requis #1 ***/ 
+<highlight lang="css">/*** DÉBUT requis #1 ***/ 
 .timeline{
     color: purple;
     border: 1px solid blue;
@@ -67,7 +67,7 @@ Collez le code suivant dans votre fichier HTML:</checklist>
 
 <warning>S'il y a plus d'un endroit distinct où vous devez ajouter du code pour un requis spécifique, vous pouvez le scinder en le nommant le commentaire 1a, 1b, 1c etc., comme dans l'exemple ci-dessous:</warning>
 
-<highlight lang='css'>/*** DÉBUT requis #1a ***/ 
+<highlight lang="css">/*** DÉBUT requis #1a ***/ 
 .timeline{
     color: purple;
     border: 1px solid blue;

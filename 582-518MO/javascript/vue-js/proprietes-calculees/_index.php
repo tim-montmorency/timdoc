@@ -11,7 +11,7 @@
 <p>Il est possible de faire des expressions de base dans un template Vue.&nbsp;</p><p>Par exemple, afin de convertir une devise en une autre 💵:</p>
 
 
-<highlight lang='html'>{ { amount * 0.8 } }</highlight>
+<highlight lang="html">{ { amount * 0.8 } }</highlight>
 <small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
 
 
@@ -29,7 +29,7 @@
 
 <p>Par exemple, la donnée suivante 👇 exprime clairement que l'information affichée correspond à un montant converti en dollars américains 🇺🇸. Aucune expression mathématique ne vient polluer le template:</p>
 
-<highlight lang='html'>{ { amountToUSD } }</highlight>
+<highlight lang="html">{ { amountToUSD } }</highlight>
 <small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
 
 
@@ -38,7 +38,7 @@
 
 <p>Par exemple, multiplier une donnée par 0.8. </p>
 
-<highlight lang='javascript'>computed: {
+<highlight lang="javascript">computed: {
   amountToUSD() {
     return this.amount * 0.8;
   }
@@ -66,7 +66,7 @@
 </figure>
 
 <br><br>
-<doclink href='https://vuejs.org/guide/essentials/computed.html'>Propriétés calculées</doclink>
+<doclink href="https://vuejs.org/guide/essentials/computed.html">Propriétés calculées</doclink>
 
 
 <br><br>

@@ -11,7 +11,7 @@
 <p>Pour cet exercice, nous allons créer une animation inspirée du <a href="https://fr.wikipedia.org/wiki/Excitebike" target="_blank" rel="noopener noreferrer">jeu Nintendo Excitebike</a> sorti en 1984!&nbsp;🏍</p>
    
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/excitebike.mp4'></clipasset>
+<clipasset src="images/excitebike.mp4"></clipasset>
 
 
 <grostitre>Matériel</grostitre>
@@ -47,5 +47,5 @@ Utilisez le GSDevTools afin de repérer quand le motocycliste doit s'animer et u
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../timeline") ?>
+<intlink href="../../timeline"></intlink>
 

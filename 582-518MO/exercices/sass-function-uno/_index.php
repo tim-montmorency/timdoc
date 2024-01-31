@@ -14,11 +14,11 @@
 
 <p>Aperçu du résultat 👇</p>
 
-<clipasset src='images/scss-uno-resultat.mp4'></clipasset>
+<clipasset src="images/scss-uno-resultat.mp4"></clipasset>
 
 <grostitre>Matériel</grostitre>
  
-<doclink href='https://codepen.io/tim-momo/pen/ZEVOLpX'>Pen de départ</doclink>
+<doclink href="https://codepen.io/tim-momo/pen/ZEVOLpX">Pen de départ</doclink>
 
 <h3 class="heading heading--h3" id="Couleurs 🎨">Couleurs 🎨</h3>
 <table class="table-couleurs">
@@ -65,8 +65,8 @@ Afin d'améliorer la lisibilité de votre code, créez-vous une fonction Scss ac
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../sass/extend/") ?>
-<?php intlink("../../sass/boucle/") ?>
-<?php intlink("../../sass/conditions/") ?>
-<?php intlink("../../sass/fonctions/") ?>
+<intlink href="../../sass/extend/"></intlink>
+<intlink href="../../sass/boucle/"></intlink>
+<intlink href="../../sass/conditions/"></intlink>
+<intlink href="../../sass/fonctions/"></intlink>
 

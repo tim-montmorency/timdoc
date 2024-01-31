@@ -11,10 +11,10 @@
     
     
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/each-menu-overwatch-resultat.mp4'></clipasset>
+<clipasset src="images/each-menu-overwatch-resultat.mp4"></clipasset>
 <grostitre>Matériel</grostitre>
 
-<doclink href='https://codepen.io/tim-momo/pen/oNJjzYo'>Pen de départ</doclink>
+<doclink href="https://codepen.io/tim-momo/pen/oNJjzYo">Pen de départ</doclink>
 
 <h3 class="heading heading--h3" id="Médias 🖼️">Médias 🖼️</h3>
 
@@ -32,7 +32,7 @@ Profitez du nesting de Scss afin de créer un effet de survole sur les personnag
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../sass/boucle/") ?>
-<?php intlink("../../../582-215MO/css/transformation/") ?>
-<?php intlink("../../../582-215MO/css/transition/") ?>
-<doclink href='https://smnarnold.com/cours/css/flexbox'>Flexbox</doclink>
+<intlink href="../../sass/boucle/"></intlink>
+<intlink href="../../../582-215MO/css/transformation/"></intlink>
+<intlink href="../../../582-215MO/css/transition/"></intlink>
+<doclink href="https://smnarnold.com/cours/css/flexbox">Flexbox</doclink>

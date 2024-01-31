@@ -10,13 +10,13 @@
 <p>Pour cet exercice, vous allez créer une petite démo permettant de déterminer votre nom de <a href="https://fr.wikipedia.org/wiki/Lucha_libre" target="_blank">luchador</a> en fonction de votre jour et mois de&nbsp;naissance.</p>
 
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/vue-luchador-resultat.mp4'></clipasset>
+<clipasset src="images/vue-luchador-resultat.mp4"></clipasset>
 
    
 
 <dots></dots>
 <grostitre>Matériel</grostitre>
-<doclink href='https://codepen.io/tim-momo/pen/rNPKzJo'>Pen de départ</doclink>
+<doclink href="https://codepen.io/tim-momo/pen/rNPKzJo">Pen de départ</doclink>
  
 
 
@@ -34,7 +34,7 @@ Créez une propriété calculée intitulée <incode>name</incode>. La valeur de 
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../javascript/vue-js/introduction") ?>
-<?php intlink("../../javascript/vue-js/creation-app-bases") ?>
-<?php intlink("../../javascript/vue-js/elements-de-formulaire") ?>
-<?php intlink("../../javascript/vue-js/proprietes-calculees") ?>
+<intlink href="../../javascript/vue-js/introduction"></intlink>
+<intlink href="../../javascript/vue-js/creation-app-bases"></intlink>
+<intlink href="../../javascript/vue-js/elements-de-formulaire"></intlink>
+<intlink href="../../javascript/vue-js/proprietes-calculees"></intlink>

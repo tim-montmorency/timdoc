@@ -108,7 +108,7 @@
 ?&gt;
 </highlight>
 
-<doclink href='https://developer.wordpress.org/reference/classes/wp_query/'>WP_Query</doclink>
+<doclink href="https://developer.wordpress.org/reference/classes/wp_query/">WP_Query</doclink>
 
 <br><br>
 

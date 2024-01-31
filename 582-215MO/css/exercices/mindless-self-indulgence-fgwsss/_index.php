@@ -61,7 +61,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<audioplayer src="audios/mindless-self-indulgence-clarissa.mp3"></audioplayer>
+<tune src="audios/mindless-self-indulgence-clarissa.mp3"></tune>
 
 <dots></dots>
 

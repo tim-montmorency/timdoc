@@ -45,7 +45,7 @@
  
  <p>Par exemple, si un seul type de posts personnalisés intitulé&nbsp;<em>produit</em>&nbsp;devait-être traduit, le contenu de ce fichier ressemblerait à&nbsp;ceci:</p>
 
-<highlight lang='json'>{
+<highlight lang="json">{
   "post_types": {
     "produit": {}
   }
@@ -56,7 +56,7 @@
 
 <p>Si vous avez plusieurs types de posts personnalisés, par exemple:&nbsp;<em>produit</em>&nbsp;et&nbsp;<em>personne</em>, le fichier aurait alors l'air de&nbsp;ceci:</p>
 
-<highlight lang='json'>{
+<highlight lang="json">{
   "post_types": {
     "produit": {},
     "personne": {}
@@ -65,7 +65,7 @@
 
 <warning>Attention de ne pas faire d’erreur dans votre JSON, sinon il ne sera pas pris en compte. Pour vous assurer qu’il est bien formaté, vous pouvez le valider avec un&nbsp;<a href="https://jsonlint.com/" target="_blank">JSON Lint</a>.</warning>
 <br>
-<doclink href='https://wordpress.org/plugins/wp-multilang/'>WP Multilang</doclink>
+<doclink href="https://wordpress.org/plugins/wp-multilang/">WP Multilang</doclink>
 
 
 

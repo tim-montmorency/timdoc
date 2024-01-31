@@ -39,8 +39,8 @@ Créez aussi un libellé intitulé <em>"Changement"</em> (en jaune) afin d'ident
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>  
-<?php intlink("../../gestion-de-projet/kanban/") ?>
-<?php intlink("../../gestion-de-projet/trello/") ?>
+<intlink href="../../gestion-de-projet/kanban/"></intlink>
+<intlink href="../../gestion-de-projet/trello/"></intlink>
 
 
 

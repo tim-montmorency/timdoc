@@ -12,20 +12,22 @@
 
 <p>Par exemple, il est possible de se créer une mixin rendant une image responsive.</p>
 
-<highlight lang='css'>@mixin responsive-img {
+<highlight lang="scss">
+@mixin responsive-img {
   display: block; 
   width: 100%;
   height: auto;
-}</highlight>
+}
+</highlight>
 
 <p>Plutôt que de répéter ces trois lignes de code CSS à chaque fois à chaque image doit être responsive, il serait possible d'appelez simplement cette mixin.</p>
 
 <p>Par exemple:</p>
-<highlight lang='css'>.article-img {
+<highlight lang="scss">.article-img {
   @include responsive-img;
 }</highlight>
 
-<doclink href='https://sass-lang.com/documentation/at-rules/mixin'>mixin</doclink>
+<doclink href="https://sass-lang.com/documentation/at-rules/mixin">mixin</doclink>
 
 
 
@@ -37,7 +39,7 @@
 <p>Les mixins acceptent de recevoir des arguments. Ces derniers sont ensuite disponibles dans le corps de la mixin, rendant ainsi leur usage plus flexible.</p>
 <p>Par exemple, afin d'ajoutez un <incode>max-width</incode> variant selon différents scénarios, il n'est pas nécessaire de créer plusieurs mixins. L'ajout d'un argument permettra de réutiliser la même.</p>
 
-<highlight lang='css'>@mixin responsive-img($max) {
+<highlight lang="scss">@mixin responsive-img($max) {
   display: block; 
   width: 100%;
   height: auto;
@@ -59,7 +61,7 @@
 
 <p>Par exemple:</p>
 
-<highlight lang='css'>@mixin responsive-img($max: 100%) {
+<highlight lang="scss">@mixin responsive-img($max: 100%) {
   display: block; 
   width: 100%;
   height: auto;
@@ -74,7 +76,7 @@
 
 <p>Les arguments sont généralement passés à une mixin selon l'ordre dans lequel ils ont été déclarés dans celle-ci. Cependant, il est possible de spécifier à quel argument une valeur est passée. Ceci permet, d'omettre certains arguments ou simplement de les écrire dans un ordre différent.</p><p>Par exemple:</p>
 
-<highlight lang='css'>@mixin responsive-img($display: block, $max: 100%) {
+<highlight lang="scss">@mixin responsive-img($display: block, $max: 100%) {
   display: $display; 
   width: 100%;
   height: auto;
@@ -90,7 +92,7 @@
 
 <p>Ainsi, le fait de nommé <incode>$max</incode> dans l'appel de la mixin permet de spécifier que la valeur 300px n'est pas pour <incode>$display</incode>, mais bien <incode>$max</incode>, même si ce dernier est le 2<sup>e</sup> argument.</p>
 
-<doclink href='https://sass-lang.com/documentation/at-rules/mixin#arguments'>Arguments</doclink>
+<doclink href="https://sass-lang.com/documentation/at-rules/mixin#arguments">Arguments</doclink>
 
 
 <dots></dots>
@@ -114,4 +116,4 @@
 
 <dots></dots>
 <h3>Exercice de <em>mixin</em> pour générer la "grille Bootstrap"</h3>
-<exercice href='../../exercices/sass-mixin-grille-bootstrap/'></exercice>
+<exercice href="../../exercices/sass-mixin-grille-bootstrap/"></exercice>

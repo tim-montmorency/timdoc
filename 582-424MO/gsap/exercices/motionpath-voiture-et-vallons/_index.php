@@ -10,7 +10,7 @@
 <p>Pour cet exercice, nous allons animer la voiture qui suivra le parcours des vallons du paysage.</p>
    
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/voiture-et-vallons.mp4'></clipasset>
+<clipasset src="images/voiture-et-vallons.mp4"></clipasset>
 
 <grostitre>Matériel</grostitre>
 <doclink href="https://codepen.io/tim-momo/pen/mdzwqGG/26d8ea334def01b68a2ba4db13988b43">Pen de départ</doclink>
@@ -37,4 +37,4 @@ Dans le HTML, rechangez la valeur de <incode>fill-opacity</incode> du tracé <em
 
 
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../parcours-mouvement/") ?>
+<intlink href="../../parcours-mouvement/"></intlink>

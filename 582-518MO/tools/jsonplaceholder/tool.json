@@ -1,0 +1,7 @@
+{
+    "type": "tool",
+    "title": "{JSON} Placeholder",
+    "icon": "images\/thumb.webp",
+    "url": "https:\/\/jsonplaceholder.typicode.com\/",
+    "abstract": "Outils offrant un API gratuit en ligne \u00e0 des fins de tests et de prototypes."
+}

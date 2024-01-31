@@ -7,4 +7,4 @@
  */
 ?>
 
-<doclink href='https://developer.mozilla.org/fr/docs/Web/CSS/background-attachment'>Background-attachment</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/background-attachment">Background-attachment</doclink>

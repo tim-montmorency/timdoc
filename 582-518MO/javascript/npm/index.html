@@ -1,3 +1,13 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
 <!DOCTYPE html>
 <html lang="fr-ca">
     <head>
@@ -18,7 +28,6 @@
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
-        <script src="../../../shared/jscripts/howler.min.js"></script>
         <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
         <script src="../../../shared/jscripts/vue.global.prod.js"></script>
         <script src="../../../shared/jscripts/timdoc.min.js"></script>
@@ -34,7 +43,7 @@
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
             </div>
-            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
         </header>
         <main>
             <!-- MAIN HEADER EOF -->
@@ -62,7 +71,7 @@
 <grostitre>Installation de Node.js</grostitre>
 <p>D'abord installez node.js.</p>
 <p>Pour vérifier son installation sur un poste ou simplement pour voir son numéro de version, il est possible de taper dans un terminal la commande:</p>
-<highlight lang="cmd">node -v</highlight>
+<highlight lang="console">&gt; node -v</highlight>
 <p><span class="inline-code">-v</span> comme dans <em>"version"</em>.</p>
 
 <p>S'il n'est pas installé, il est conseillé de l'installer via un <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-version-manager-to-install-nodejs-and-npm" target="_blank" rel="noopener noreferrer">Node Version Manager</a>. </p>
@@ -74,11 +83,11 @@
 
 <p>Pour vérifier son installation sur un poste ou simplement pour voir son numéro de version, il est possible de taper dans un terminal la commande:</p>
 
-<highlight lang="cmd">npm -v</highlight>
+<highlight lang="console">&gt; npm -v</highlight>
 
 <p><span class="inline-code">-v</span> comme dans <em>"version"</em>.</p>
 
-<doclink href='https://docs.npmjs.com/cli/v7/commands/npm-version'>Version NPM</doclink>
+<doclink href="https://docs.npmjs.com/cli/v7/commands/npm-version">Version NPM</doclink>
 
 
 
@@ -100,7 +109,7 @@
 
 <info>Il sera toujours possible de modifier ces valeurs plus tard directement dans le fichier&nbsp;<em>package.json</em>.</info>
 
-<doclink href='https://docs.npmjs.com/cli/v7/commands/npm-init'>Init NPM</doclink>
+<doclink href="https://docs.npmjs.com/cli/v7/commands/npm-init">Init NPM</doclink>
 
 
 
@@ -137,7 +146,7 @@
 
 <p>Vous remarquerez aussi que dans votre fichier package.json qu'un objet <em>"dependencies"</em> fut ajouté et que celui-ci contient maintenant une référence à lodash et a son numéro de version.</p>
 
-<doclink href='https://docs.npmjs.com/cli/v7/commands/npm-install'>Install packages</doclink>
+<doclink href="https://docs.npmjs.com/cli/v7/commands/npm-install">Install packages</doclink>
 
 
 

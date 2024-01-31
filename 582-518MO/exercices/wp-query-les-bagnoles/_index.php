@@ -19,7 +19,7 @@
 <dots></dots>
 <grostitre>Matériel</grostitre>
 
-<doclink href='https://codepen.io/tim-momo/pen/ExrYmam'>Pen de départ</doclink>
+<doclink href="https://codepen.io/tim-momo/pen/ExrYmam">Pen de départ</doclink>
 
 
 <h3 class="heading heading--h3" id="Médias 🖼️">Médias 🖼️</h3>
@@ -130,9 +130,9 @@ Pour chacun de ces posts, recréez une carte en vous basant sur le Pen en pièce
 <grostitre>Notes de cours 📚</grostitre>
 
 
-<?php intlink("../../wordpress/advanced-custom-fields/") ?>
-<?php intlink("../../wordpress/posts-personnalises/") ?>
-<?php intlink("../../wordpress/migration-de-donnees/") ?>
-<?php intlink("../../wordpress/wp-query/") ?>
+<intlink href="../../wordpress/advanced-custom-fields/"></intlink>
+<intlink href="../../wordpress/posts-personnalises/"></intlink>
+<intlink href="../../wordpress/migration-de-donnees/"></intlink>
+<intlink href="../../wordpress/wp-query/"></intlink>
 
 

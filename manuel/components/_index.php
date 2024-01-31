@@ -5,6 +5,7 @@
  * @title    Composantes
  * @icon     images/icon.webp
  * @abstract Tout est préfait pour toi
+ * @font     https://patorjk.com/software/taag/#p=display&f=Standard&t=TIMdoc
  */
 ?>
 
@@ -142,6 +143,8 @@
 <h3>intlink</h3>
 <highlight lang="html">&lt;intlink href=&quot;../../582-215MO/css/exercices/lost-highway/&quot;&gt;&lt;/intlink&gt;</highlight>
 <intlink href="../../582-215MO/css/exercices/lost-highway/"></intlink>
+<info>Il existe aussi la composante <incode>&lt;listlink href=&quot;...&quot;&gt;&lt;/listlink&gt;</incode> qui est l'équivalent de <incode>&lt;intlink&gt;&lt;/intlink&gt;</incode> mais pour les pages de type <incode>list</incode>.</info>
+
 <warning>Le rendu de cette composante est effectué par le pré-processeur.</warning>
 <br><br>
 
@@ -326,8 +329,8 @@ Utilisez la proprité <incode>transform</incode>.<br>
 <br><br>
 
 
-<h3>swiper</h3>
-<highlight lang="html">&lt;swiper&gt;
+<h3>gallery</h3>
+<highlight lang="html">&lt;gallery&gt;
     photos/01.webp
     photos/02.webp
     photos/03.webp
@@ -338,8 +341,8 @@ Utilisez la proprité <incode>transform</incode>.<br>
     photos/08.webp
     photos/09.webp
     photos/10.webp
-&lt;/swiper&gt;</highlight>
-<swiper>
+&lt;/gallery&gt;</highlight>
+<gallery>
     photos/01.webp
     photos/02.webp
     photos/03.webp
@@ -350,7 +353,7 @@ Utilisez la proprité <incode>transform</incode>.<br>
     photos/08.webp
     photos/09.webp
     photos/10.webp
-</swiper>
+</gallery>
 <dots></dots>
 
 
@@ -407,8 +410,8 @@ Utilisez la proprité <incode>transform</incode>.<br>
 <grostitre>Audios</grostitre>
 
 <h3>audioplayer</h3>
-<highlight lang="html"><audioplayer src="audios/careless-whisper.mp3"></audioplayer></highlight>
-<audioplayer src="audios/careless-whisper.mp3"></audioplayer>
+<highlight lang="html"><tune src="audios/careless-whisper.mp3"></tune></highlight>
+<tune src="audios/careless-whisper.mp3"></tune>
 <doclink href="../audios">Manuel / Audios</doclink>
 <dots></dots>
 
@@ -426,8 +429,13 @@ Utilisez la proprité <incode>transform</incode>.<br>
 <grostitre>Codepen</grostitre>
 
 <h3>codepen</h3>
-<highlight lang="html">&lt;codepen id="gOEwrvG" tab="results"&gt;Voici une remarque pertinente.&lt;/codepen&gt;</highlight>
-<codepen id="gOEwrvG" tab="results">Voici une remarque pertinente.</codepen>
+<highlight lang="html"><codepen id="gOEwrvG" tab="result" height="500"></codepen></highlight>
+<codepen id="gOEwrvG" tab="result" height="500"></codepen>
+
+<highlight lang="html"><codepen id="gOEwrvG" tab="css,result" height="500"></codepen></highlight>
+<codepen id="gOEwrvG" tab="css,result" height="500"></codepen>
+
+
 <dots></dots>
 
 
@@ -488,7 +496,7 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
 <p>Comme le wiki suit le thème de Timdoc, il sera affiché par défaut en thème <incode>light</incode> dans Teams. Il est possible de forcer le thème en l'ajoutant à l'adresse url.</p>
 
-<highlight lang="url">
+<highlight lang="console">
 https://tim-montmorency.com/timdoc/582-215MO/wiki/?light
 https://tim-montmorency.com/timdoc/582-215MO/wiki/?dark
 </highlight>

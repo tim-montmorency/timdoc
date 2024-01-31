@@ -67,7 +67,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<audioplayer src="audios/band-de-garage-bmx.mp3"></audioplayer>
+<tune src="audios/band-de-garage-bmx.mp3"></tune>
 
 <dots></dots>
 

@@ -48,7 +48,7 @@
 
 <img src="images/trello-premier-tableau.jpg" alt="Bouton de création d'un tableau Trello" style="border:1px solid #eeeeee">
 
-<doclink href='https://trello.com/guide/trello-101#what-is-a-board'>Tableau Trello</doclink>
+<doclink href="https://trello.com/guide/trello-101#what-is-a-board">Tableau Trello</doclink>
 
 
 
@@ -61,7 +61,7 @@
 <img src="images/trello-invitation-membre.jpg" alt="Modal pour inviter une membre à l'espace de travail" style="border:1px solid #eeeeee">
 
 
-<doclink href='https://trello.com/guide/onboard-team'>Équipes Trello</doclink>
+<doclink href="https://trello.com/guide/onboard-team">Équipes Trello</doclink>
 
 
 
@@ -78,7 +78,7 @@
 
 <img src="images/trello-liste.jpg" alt="Bouton pour ajouter une nouvelle liste" style="border:1px solid #eeeeee">
 
-<doclink href='https://trello.com/guide/trello-101#what-is-a-list'>Liste</doclink>
+<doclink href="https://trello.com/guide/trello-101#what-is-a-list">Liste</doclink>
 
 
 
@@ -100,7 +100,7 @@
 <p>Pour créer une carte, cliquez sur&nbsp;<em>«&nbsp;Ajouter une&nbsp;carte&nbsp;»</em>&nbsp;dans la liste&nbsp;désirée.</p>
 <img src="images/trello-carte.jpg" alt="Lien visuel + Ajouter un carte" style="border:1px solid #eeeeee">
 
-<doclink href='https://trello.com/guide/trello-101#what-is-a-card'>Carte</doclink>
+<doclink href="https://trello.com/guide/trello-101#what-is-a-card">Carte</doclink>
 
 <dots></dots>
 <grostitre>Menus contextuels</grostitre>
@@ -112,9 +112,9 @@
 <img src="images/trello-menu.jpg" alt="Menus contextuels de l'interface Trello" style="border:1px solid #eeeeee">
 
 
-<doclink href='https://trello.com/guide/trello-101#what-is-the-board-menu'>Menu</doclink>
+<doclink href="https://trello.com/guide/trello-101#what-is-the-board-menu">Menu</doclink>
 
-<tool href='../../tools/short-trello/'></tool>
+<tool href="../../tools/short-trello/"></tool>
 
 
 

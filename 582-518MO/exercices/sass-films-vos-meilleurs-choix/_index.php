@@ -15,7 +15,7 @@
 
 
 <grostitre>Matériel</grostitre>
-<doclink href='https://github.com/kid-synthetique/films-vos-meilleurs-choix'>Repo de départ </doclink>
+<doclink href="https://github.com/kid-synthetique/films-vos-meilleurs-choix">Repo de départ </doclink>
 
 
 
@@ -74,7 +74,7 @@ Modifiez la couleur de votre variable <incode>$primary</incode> et admirez l'imp
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../sass/modules/") ?>
-<?php intlink("../../sass/module-de-couleurs/") ?>
-<?php intlink("../../sass/nomenclature-bem/") ?>
+<intlink href="../../sass/modules/"></intlink>
+<intlink href="../../sass/module-de-couleurs/"></intlink>
+<intlink href="../../sass/nomenclature-bem/"></intlink>
 

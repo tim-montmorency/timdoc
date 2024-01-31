@@ -22,7 +22,7 @@
 <p>Pour créer un modèle, il suffit de créer un fichier&nbsp;<incode>.php</incode>&nbsp;à la racine du thème. Dans ce fichier, immédiatement après la déclaration&nbsp;<incode>&lt;?php</incode>, le commentaire <incode>Template Name</incode> permet d'indiquer à WordPress le nom du&nbsp;modèle en question.</p><p>Par exemple, il est possible de spécifier que le modèle <em>product.php</em> devrait être disponible dans le tableau de bord sous le nom <em>Produit</em>:</p>
 
 
-<highlight lang='php'>/**
+<highlight lang="php">/**
  * 	Template Name: Produit
  */</highlight>
 
@@ -51,7 +51,7 @@
 <p>Par exemple, après avoir créé le type de post <em>product</em> dans le tableau de bord, le menu&nbsp;déroulant de choix de modèle sera absent de tous les posts de ce type, puisque par défaut aucun modèle ne supporte ce type de post. </p><p>Afin d'indiquer que le modèle <em>Produit</em> doit pouvoir être utilisé par les posts de type <em>product</em>, il faut le spécifier à l'intérieur du modèle ainsi:</p>
 
 
-<highlight lang='php'>/**
+<highlight lang="php">/**
  *  Template Name: Produit
  *  Template Post Type: post, page, product
  */</highlight>
@@ -149,6 +149,6 @@
 
 
 <br>
-<doclink href='https://developer.wordpress.org/themes/basics/template-hierarchy/'>Template hierarchy</doclink>
-<doclink href='https://fr.wordpress.org/support/article/hierarchie-des-fichiers-modeles/'>Hiérarchie des fichiers modèles</doclink>
+<doclink href="https://developer.wordpress.org/themes/basics/template-hierarchy/">Template hierarchy</doclink>
+<doclink href="https://fr.wordpress.org/support/article/hierarchie-des-fichiers-modeles/">Hiérarchie des fichiers modèles</doclink>
 

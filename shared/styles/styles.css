@@ -1,4 +1,14 @@
 @charset "UTF-8";
+/*!
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+*/
 /* https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=block */
 @font-face {
   font-family: "Rubik";
@@ -488,7 +498,7 @@ body.dark table tr:nth-child(even) td {
   }
 }
 .audioplayer {
-  width: 770;
+  width: 770px;
   height: 100px;
   margin-bottom: 25px;
   margin-left: -25px;
@@ -501,7 +511,7 @@ body.dark table tr:nth-child(even) td {
   cursor: pointer;
   width: 100px;
   height: 98px;
-  background-image: url("../images/audioplayer-btn.png");
+  background-image: url("../images/assets/audioplayer-btn.webp");
   background-position: 0px 0px;
   background-repeat: no-repeat;
   opacity: 60%;
@@ -537,6 +547,67 @@ body.dark table tr:nth-child(even) td {
 }
 .audioplayer__progress:hover {
   background-color: #920123;
+}
+
+.tune {
+  position: relative;
+  display: flex;
+  width: calc(100% + 50px);
+  aspect-ratio: 77/10;
+  margin-bottom: 25px;
+  margin-left: -25px;
+  margin-right: -25px;
+  background-color: #fbfbfb;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.tune__button {
+  height: 100%;
+  aspect-ratio: 1/1;
+  background-image: url("../images/assets/audioplayer-btn.webp");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  opacity: 0.6;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.tune__button.pause {
+  background-position: 100% 0;
+}
+.tune__button:hover {
+  opacity: 1;
+}
+.tune__waveform {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 80%;
+}
+.tune__progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  background-color: #920123;
+  mix-blend-mode: multiply;
+  opacity: 20%;
+  transition-property: width;
+  transition-duration: 50ms;
+  transition-timing-function: linear;
+}
+
+body.dark .tune {
+  background-color: #1c1d21;
+}
+body.dark .tune__button {
+  filter: invert(100%);
 }
 
 .mediafile {
@@ -659,7 +730,7 @@ body.dark table tr:nth-child(even) td {
 iframe.codepen {
   width: 100%;
   height: 400px;
-  margin-bottom: 25px;
+  margin: 0;
 }
 
 span.codepen-remark {
@@ -673,6 +744,10 @@ span.codepen-remark {
 .codepen-container {
   margin-left: -25px;
   margin-right: -25px;
+  border: 1px solid #dfdef3;
+  padding: 0;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
 }
 
 .cp_embed_wrapper {
@@ -681,6 +756,10 @@ span.codepen-remark {
   margin-bottom: 40px;
   margin-left: -25px;
   margin-right: -25px;
+}
+
+body.dark .codepen-container {
+  border: 1px solid #514f58;
 }
 
 a.doclink {
@@ -897,6 +976,13 @@ a.doclink .doclink-icon {
 }
 .doclink.wordpress::before {
   background-color: #21759b;
+}
+
+.doclink.npm .doclink-icon {
+  background-image: url("../images/icons/npm-icon.webp");
+}
+.doclink.npm::before {
+  background-color: #c93737;
 }
 
 a.exercice {
@@ -1295,7 +1381,7 @@ div.checklist code {
   z-index: 999;
   opacity: 0.6;
   background-size: contain;
-  background-image: url("../images/fullscreen-icon.png");
+  background-image: url("../images/assets/fullscreen-icon.webp");
   filter: drop-shadow(0px 0px 1px black);
   cursor: pointer;
 }
@@ -1566,6 +1652,8 @@ html {
 }
 
 body {
+  color: black;
+  background-color: white;
   height: 100vh;
   background-repeat: repeat-x;
   padding-bottom: 100px;
@@ -2094,4 +2182,4 @@ q.on-hover[cite]::after {
 q.on-hover[cite]:hover::after {
   content: " » (source: " attr(cite) ") ";
   color: var(--main-color);
-}/*# sourceMappingURL=styles.css.map */
+}

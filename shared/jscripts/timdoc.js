@@ -1,15 +1,26 @@
+/*!
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+*/
+
 /******************************************************
  *                Get a sync json file                *
  ******************************************************/
- const syncjson = (url) => {
-	try {
-		const request = new XMLHttpRequest();
-		request.open('GET', url, false);
-		request.send(null);
-		return JSON.parse(request.responseText);
-	} catch (e) {
-		return false;
-	}
+const syncjson = (url) => {
+    try {
+        const request = new XMLHttpRequest();
+        request.open('GET', url, false);
+        request.send(null);
+        return JSON.parse(request.responseText);
+    } catch (e) {
+        return false;
+    }
 }
 
 
@@ -17,8 +28,8 @@
  *           Convert decimal to hex string            *
  ******************************************************/
 const decimalToHexString = (number) => {
-	if (number < 0) number = 0xFFFFFFFF + number + 1;
-	return number.toString(16).toUpperCase();
+    if (number < 0) number = 0xFFFFFFFF + number + 1;
+    return number.toString(16).toUpperCase();
 }
 
 
@@ -26,16 +37,16 @@ const decimalToHexString = (number) => {
  *                   CYRB53 Hashing                   *
  ******************************************************/
 const cyrb53 = (str, seed = 0) => {
-	let h1 = 0xdeadbeef ^ seed,
-	h2 = 0x41c6ce57 ^ seed;
-	for (let i = 0, ch; i < str.length; i++) {
-		ch = str.charCodeAt(i);
-		h1 = Math.imul(h1 ^ ch, 2654435761);
-		h2 = Math.imul(h2 ^ ch, 1597334677);
-	}
-	h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909);
-	h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
-	return decimalToHexString(4294967296 * (2097151 & h2) + (h1 >>> 0));
+    let h1 = 0xdeadbeef ^ seed,
+        h2 = 0x41c6ce57 ^ seed;
+    for (let i = 0, ch; i < str.length; i++) {
+        ch = str.charCodeAt(i);
+        h1 = Math.imul(h1 ^ ch, 2654435761);
+        h2 = Math.imul(h2 ^ ch, 1597334677);
+    }
+    h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+    h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+    return decimalToHexString(4294967296 * (2097151 & h2) + (h1 >>> 0));
 };
 
 
@@ -43,14 +54,14 @@ const cyrb53 = (str, seed = 0) => {
  *             Slug Diacritical Removing              *
  ******************************************************/
 const lowslug = (str) => {
-	return str
-		.trim()
-		.normalize("NFD")
-		.replace(/[\u0300-\u036f]/g, "")
-		.toLowerCase()
-		.replace(/[^a-z0-9\s\-]/g, "")
-		.replace(/[\s\t]+/g, "-")
-	;
+    return str
+        .trim()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .replace(/[^a-z0-9\s\-]/g, "")
+        .replace(/[\s\t]+/g, "-")
+        ;
 }
 
 
@@ -74,9 +85,9 @@ const invertColor = (hex, bw) => {
  *                  Zero Leading Pad                  *
  ******************************************************/
 const pad = (num, size) => {
-	size = size || 2;
-	var s = "000000000" + num;
-	return s.substr(s.length-size);
+    size = size || 2;
+    var s = "000000000" + num;
+    return s.substr(s.length - size);
 }
 
 
@@ -84,15 +95,15 @@ const pad = (num, size) => {
  *                  Link to data URL                  *
  ******************************************************/
 const toDataURL = async (url) => {
-	const blob = await fetch(url).then(res => res.blob());
-	return URL.createObjectURL(blob);
+    const blob = await fetch(url).then(res => res.blob());
+    return URL.createObjectURL(blob);
 }
 
 
 /******************************************************
  *                    Download URL                    *
  ******************************************************/
- const download = async (url) => {
+const download = async (url) => {
     const a = document.createElement("a");
     a.href = await toDataURL(url);
     a.download = (new URL(url)).href.replace(/^.*(\\|\/|\:)/, '');
@@ -105,16 +116,16 @@ const toDataURL = async (url) => {
 /******************************************************
  *            Highest common denominator              *
  ******************************************************/
-const hcd = (a,b) => {
-    do var r=a; while ((b=r%(a=b))>0);  
-    return a;  
+const hcd = (a, b) => {
+    do var r = a; while ((b = r % (a = b)) > 0);
+    return a;
 }
 
 
 /******************************************************
  *                     Mount App                      *
  ******************************************************/
- function timdocMount() {
+function timdocMount() {
     app.config.compilerOptions.whitespace = 'preserve';
     app.mount('body');
     hljs.highlightAll();
@@ -124,132 +135,76 @@ const hcd = (a,b) => {
 /******************************************************
  *                 Load Forced Theme                  *
  ******************************************************/
-const urlParams = new URLSearchParams(window.location.search);
-if(urlParams.get('dark') !== null) localStorage.setItem('darkmode', 'true');
-if(urlParams.get('light') !== null) localStorage.setItem('darkmode', 'false');
-
-
-/******************************************************
- *                 Register URL Lang                  *
- ******************************************************/
-hljs.registerLanguage('url', () => {
-    return {
-      case_insensitive: true,
-      contains: [
-          hljs.HASH_COMMENT_MODE,
-          {
-              className: "code",
-              begin: /(https?|ftp|file)(?=(:\/\/))/,
-          },
-          {
-              className: "meta hljs-emphasis",
-              begin: /(?<=((https?|ftp|file):\/\/))[^@:\/\?\n\r]+/,
-          },
-          {
-              className: "comment",
-              begin: /(?<=((https?|ftp|file):\/\/[^:\/@\n\r]+)@)[^:\/\n\r]+/,
-          },
-          {
-              className: "tag hljs-emphasis",
-              begin: /(?<=((https?|ftp|file):\/\/[^:\/\n\r]+):)[0-9]+/,
-          },
-          {
-              className: "symbol",
-              begin: /(?<=((https?|ftp|file):\/\/[^\/\n\r]+)\/)[^?\n\r]+/,
-          },
-          {
-              className: "literal",
-              begin: /(?<=[?&])[^=?&\n\r]+/,
-          },
-          {
-              className: "meta",
-              begin: /(?<=\=)[^=?&\n\r]+/,
-          }
-      ],
+if (!localStorage.getItem('darkmode') || !localStorage.getItem('darkmode_cache_1')) {
+    localStorage.setItem('darkmode_cache_1', 'true')
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        localStorage.setItem('darkmode', 'true');
+    } else {
+        localStorage.setItem('darkmode', 'false');
     }
-  });
+}
+const urlParams = new URLSearchParams(window.location.search);
+if (urlParams.get('dark') !== null) localStorage.setItem('darkmode', 'true');
+if (urlParams.get('light') !== null) localStorage.setItem('darkmode', 'false');
 
 
 /******************************************************
  *                     Main App                       *
  ******************************************************/
- const app = Vue.createApp({
+const app = Vue.createApp({
     data() {
-        let darkmode = localStorage.getItem('darkmode') === 'true';
-        let theme = darkmode ? 'dark' : 'light';
         return {
-            sounds: false,
-            timgs: [],
-            codepens: [],
             lightSwitches: [],
             tableOfContents: [],
-            lightswitchon: null,
-            lightswitchoff: null,
-            darkmode: darkmode,
-            theme: theme
+            theme: localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light'
         }
     },
     mounted() {
         const referer = new URL(document.referrer, document.baseURI);
         const breadcrumb = document.getElementById('breadcrumb');
-        if(breadcrumb && /\/index\//g.test(referer.pathname))
+        if (breadcrumb && /\/index\//g.test(referer.pathname))
             breadcrumb.classList.add('index');
-        if(this.$refs.lightswitch == undefined) return;
-        this.theme = this.darkmode ? 'dark' : 'light';
-        document.body.className = this.darkmode ? 'dark' : 'light';
-        this.$refs.lightswitch.className = this.darkmode ? 'lightswitch--off' : 'lightswitch--on';
-        if(this.sounds) {
-            this.lightswitchoff = new Howl({ src: [shared + 'sounds/lightswitch-off.webm', shared + 'sounds/lightswitch-off.mp3'], preload: true });
-            this.lightswitchon = new Howl({src: [shared + 'sounds/lightswitch-on.webm', shared + 'sounds/lightswitch-on.mp3'], preload: true });
-        }
+        if (this.$refs.lightswitch != undefined)
+            this.$refs.lightswitch.className = this.theme == 'dark' ? 'lightswitch--off' : 'lightswitch--on';
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            if (event.matches) this.setDarkMode();
+            else this.setLightMode();
+        });
     },
     methods: {
-        goToTop(path = null, index = null){
+        goToTop(path = null, index = null) {
             const referer = new URL(document.referrer, document.baseURI);
-            if(index && /\/index\//g.test(referer.pathname)) {
+            if (index && /\/index\//g.test(referer.pathname)) {
                 document.location.href = index;
-            } else {
-                if(!path) path = '#top';
+            } else if(path) {
                 document.location.href = path;
-            }
-        },
-        lightswitch(){
-            if(this.$refs.lightswitch.className == 'lightswitch--on') {
-                this.$refs.lightswitch.className = 'lightswitch--off';
-                localStorage.setItem('darkmode', 'true');
-                document.body.className = 'dark';
-                this.theme = 'dark';
-                this.codepens.forEach((cp) => { cp.lightSwitchOff(); });
-                this.timgs.forEach((timg) => { timg.lightSwitchOff(); });
-                if(this.sounds) {
-                    this.lightswitchon.stop();
-                    this.lightswitchoff.play();
-                }
             } else {
-                this.$refs.lightswitch.className = 'lightswitch--on';
-                localStorage.setItem('darkmode', 'false');
-                document.body.className = 'light';
-                this.theme = 'light';
-                this.codepens.forEach((cp) => { cp.lightSwitchOn(); });
-                this.timgs.forEach((timg) => { timg.lightSwitchOn(); });
-                if(this.sounds) {
-                    this.lightswitchoff.stop();
-                    this.lightswitchon.play();
-                }
+                window.scrollTo(0, 0);
             }
         },
-        addToTableOfContents(id, name) {
-            this.tableOfContents.push({
-                id: id,
-                name: name,
-            });
+        registerLightSwitch(elm) {
+            this.lightSwitches.push(elm);
         },
-        addToCodePens(comp) {
-            this.codepens.push(comp);
+        lightswitch() {
+            if (this.$refs.lightswitch.className == 'lightswitch--on') this.setDarkMode();
+            else this.setLightMode();
         },
-        addToTimages(comp) {
-            this.timgs.push(comp);
+        setDarkMode() {
+            this.theme = 'dark';
+            document.body.className = 'dark';
+            localStorage.setItem('darkmode', 'true');
+            if (this.$refs.lightswitch != undefined)
+                this.$refs.lightswitch.className = 'lightswitch--off';
+            this.lightSwitches.forEach((elm) => { elm.lightSwitchOff(); });
         },
+        setLightMode() {
+            this.theme = 'light';
+            document.body.className = 'light';
+            localStorage.setItem('darkmode', 'false');
+            if (this.$refs.lightswitch != undefined)
+                this.$refs.lightswitch.className = 'lightswitch--on';
+            this.lightSwitches.forEach((elm) => { elm.lightSwitchOn(); });
+        }
     }
 });
 
@@ -266,14 +221,21 @@ app.component('tabledesmatieres', {
             this.list = lis;
         });
     },
-    template: `
-        <div id="contents_table" v-if="this.list != ''">
-            <div class="contents_table__table">
-                <a href="#top" class="no-underline"><strong>Table des matières</strong></a>
-                <ul v-html="list"></ul>
-            </div>
-        </div>
-        `
+    methods: {
+        goToTop(evt) {
+            evt.preventDefault();
+            window.scrollTo(0, 0);
+            location.hash = '';
+        }
+    },
+    template:
+        `<div id="contents_table" v-if="this.list != ''">` +
+            `<div class="contents_table__table">` +
+                `<a href="#top" @click="this.goToTop" class="no-underline"><strong>Table des matières</strong></a>` +
+                `<ul v-html="list"></ul>` +
+            `</div>` +
+        `</div>`
+
 });
 
 
@@ -282,11 +244,13 @@ app.component('tabledesmatieres', {
  ******************************************************/
 app.component('grostitre', {
     data() {
-        let slug = lowslug(this.$slots.default()[0].children);
-        return { id: slug }
+        return { id: lowslug(this.$slots.default()[0].children) }
     },
     created() {
-        this.$root.addToTableOfContents(this.id, this.$slots.default()[0].children);
+        this.$root.tableOfContents.push({
+            id: this.id,
+            name: this.$slots.default()[0].children
+        });
     },
     methods: {
         click(event) {
@@ -299,81 +263,60 @@ app.component('grostitre', {
             }, 1000);
         },
     },
-    template: `
-        <div class="grostitre">
-            <a :id="this.id"></a>
-            <h2><slot /></h2>
-            <div class="grostitre__chain" @click="click($event)"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path></svg></div>
-            <div class="grostitre__linkcopied">Lien copié &#x2713;</div>
-        </div>`
+    template:
+        `<div class="grostitre">` +
+            `<a :id="this.id"></a>` +
+            `<h2><slot /></h2>` +
+            `<div class="grostitre__chain" @click="click($event)"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path></svg></div>` +
+            `<div class="grostitre__linkcopied">Lien copié &#x2713;</div>` +
+        `</div>`
 });
 
 
 /******************************************************
  *                  Composante Info                   *
  ******************************************************/
- app.component('info', {
-    template: `
-        <div class="infobubble info">
-            <div class="infobubble__bubble"></div>
-            <slot/>
-        </div>`
+app.component('info', {
+    template: `<div class="infobubble info"><div class="infobubble__bubble"></div><slot/></div>`
 });
-
 
 
 /******************************************************
  *                 Composante Warning                 *
  ******************************************************/
- app.component('warning', {
-    template: `
-        <div class="infobubble warning">
-            <div class="infobubble__bubble"></div>
-            <slot/>
-        </div>`
+app.component('warning', {
+    template: `<div class="infobubble warning"><div class="infobubble__bubble"></div><slot/></div>`
 });
 
 
 /******************************************************
  *                  Composante Alert                  *
  ******************************************************/
- app.component('alert', {
-    template: `
-        <div class="infobubble alert">
-            <div class="infobubble__bubble"></div>
-            <slot/>
-        </div>`
+app.component('alert', {
+    template: `<div class="infobubble alert"><div class="infobubble__bubble"></div><slot/></div>`
 });
 
 
 /******************************************************
  *                  Composante Bravo                  *
  ******************************************************/
- app.component('bravo', {
-    template: `
-        <div class="infobubble bravo">
-            <div class="infobubble__bubble"></div>
-            <slot/>
-        </div>`
+app.component('bravo', {
+    template: `<div class="infobubble bravo"><div class="infobubble__bubble"></div><slot/></div>`
 });
 
 
 /******************************************************
  *                 Composante Thumbs Up               *
  ******************************************************/
- app.component('thumbsup', {
-    template: `
-        <div class="infobubble thumbsup">
-            <div class="infobubble__bubble"></div>
-            <slot/>
-        </div>`
+app.component('thumbsup', {
+    template: `<div class="infobubble thumbsup"><div class="infobubble__bubble"></div><slot/></div>`
 });
 
 
 /******************************************************
  *                  Composante Incode                 *
  ******************************************************/
- app.component('incode', {
+app.component('incode', {
     template: `<span class="inline-code"><slot/></span>`
 });
 
@@ -381,24 +324,24 @@ app.component('grostitre', {
 /******************************************************
  *                Composante Mediafile                *
  ******************************************************/
- app.component('mediafile', {
+app.component('mediafile', {
     props: ['src', 'spacer', 'addr'],
     data() {
         let space = this.spacer == 'true' ? ' spacerr' : '';
         try { var url = new URL(this.src); }
-        catch(e){ var url = new URL(this.src, document.baseURI); }
-        switch(url.href.split('.').pop().toLocaleLowerCase()) {
+        catch (e) { var url = new URL(this.src, document.baseURI); }
+        switch (url.href.split('.').pop().toLocaleLowerCase()) {
             case 'svg': var icon = 'type-svg.webp'; break;
             case 'jpg': var icon = 'type-jpg.webp'; break;
             case 'png': var icon = 'type-png.webp'; break;
             case 'webp': var icon = 'type-png.webp'; break;
             case 'zip': var icon = 'type-zip.webp'; break;
             case 'mp3': var icon = 'type-audio.webp'; break;
-            default:    var icon = 'type-file.webp';
+            default: var icon = 'type-file.webp';
         }
 
         let addr = true;
-        if(typeof this.addr != 'undefined' && this.addr == 'false') addr = false;
+        if (typeof this.addr != 'undefined' && this.addr == 'false') addr = false;
 
         return {
             isaddr: addr,
@@ -424,23 +367,22 @@ app.component('grostitre', {
                 target.classList.remove('copied');
             }, 1000);
         },
-        focus(event){
+        focus(event) {
             event.currentTarget.select();
         }
     },
-    template: `
-        <div :class="'mediafile' + this.space">
-            <div class="mediafile__icon" :style="'background-image: url(\\'' + this.icon + '\\')'">&nbsp;</div>
-            <div class="mediafile__text"><slot/></div>
-            <div class="mediafile__download" @click="download($event)"><svg fill="currentColor" viewBox="0 0 538 538"><path d="M463 466H75c-12 0-22 10-22 22v28c0 12 10 22 22 22h388c12 0 21-10 21-22v-28c1-12-9-22-21-22zm-209-38c4 4 10 6 15 6 6 0 11-2 15-6l147-147c9-9 9-22 0-31l-20-20c-8-9-22-9-31 0l-75 75V21c0-11-10-21-22-21h-28c-12 0-22 10-22 21v285l-75-76c-9-8-22-8-31 0l-20 20c-9 9-9 22 0 31l147 147z"/></svg></div>
-            <div class="mediafile__chain" @click="click($event)"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path></svg></div>
-            <div class="mediafile__linkcopied">Lien copié &#x2713;</div>
-        </div>
-        <div v-if="this.isaddr" :class="'mediafile__link' + this.space"><input readonly type="text" class="mediafile__link-text" :value="this.link" @focus="focus($event)"></div>
-        <div class="mediafile__spacer"></div>`
+    template:
+        `<div :class="'mediafile' + this.space">` +
+            `<div class="mediafile__icon" :style="'background-image: url(\\'' + this.icon + '\\')'">&nbsp;</div>` +
+            `<div class="mediafile__text"><slot/></div>` +
+            `<div class="mediafile__download" @click="download($event)"><svg fill="currentColor" viewBox="0 0 538 538"><path d="M463 466H75c-12 0-22 10-22 22v28c0 12 10 22 22 22h388c12 0 21-10 21-22v-28c1-12-9-22-21-22zm-209-38c4 4 10 6 15 6 6 0 11-2 15-6l147-147c9-9 9-22 0-31l-20-20c-8-9-22-9-31 0l-75 75V21c0-11-10-21-22-21h-28c-12 0-22 10-22 21v285l-75-76c-9-8-22-8-31 0l-20 20c-9 9-9 22 0 31l147 147z"/></svg></div>` +
+            `<div class="mediafile__chain" @click="click($event)"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path></svg></div>` +
+            `<div class="mediafile__linkcopied">Lien copié &#x2713;</div>` +
+        `</div>` +
+        `<div v-if="this.isaddr" :class="'mediafile__link' + this.space"><input readonly type="text" class="mediafile__link-text" :value="this.link" @focus="focus($event)"></div>` +
+        `<div class="mediafile__spacer"></div>`
 
 });
-
 
 
 /******************************************************
@@ -451,52 +393,48 @@ app.component('codepen', {
     data() {
         var defaulttab = 'html,result';
         var height = 400;
-        if(typeof this.tab != 'undefined') defaulttab = this.tab;
-        if(typeof this.height != 'undefined') height = this.height;
+        if (typeof this.tab != 'undefined') defaulttab = this.tab;
+        if (typeof this.height != 'undefined') height = this.height;
 
         defaulttab = encodeURIComponent(defaulttab);
         let remark = '';
-        if(typeof this.$slots.default != 'undefined') {
+        if (typeof this.$slots.default != 'undefined') {
             remark = this.$slots.default()[0].children;
         }
-        this.$root.addToCodePens(this);
-        let theme = this.$root.darkmode ? '43847' : '39618';
+        this.$root.registerLightSwitch(this);
+        let theme = this.$root.theme == 'dark' ? '43847' : '44431';
         return {
             user: 'tim-momo',
             theme: theme,
             bheight: height,
+            cheight: parseInt(height) + 2,
             defaulttab: defaulttab,
             remark: remark
         }
     },
     methods: {
         lightSwitchOn() {
-            this.theme = '39618';
+            // this.theme = '39618';
+            this.theme = '44431';
         },
         lightSwitchOff() {
+            
             this.theme = '43847';
         },
     },
-    template: `
-    <div class="codepen-container">
-        <iframe
-            :src="'https://codepen.io/' + user + '/embed/' + id + '?default-tab=' + defaulttab + '&theme-id=' + theme"
-            class="codepen"
-            scrolling="no"
-            frameborder="no"
-            loading="lazy"
-            allowtransparency="true"
-            allowfullscreen="true"
-            :style="'height: ' + bheight + 'px;'"
-         ></iframe><span class="codepen-remark" v-if="this.remark != ''">{{ remark }}</span>
-    </div>`
+    template:
+    `<div class="codepen-container" :style="'height: ' + cheight + 'px'">` +
+        // `<div style="height: 100px; background-color: blue"></div>` +
+        `<iframe :src="'https://codepen.io/' + user + '/embed/' + id + '?default-tab=' + defaulttab + '&theme-id=' + theme" class="codepen" scrolling="no" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" :style="'height: ' + bheight + 'px;'"></iframe>` +
+        // `<span class="codepen-remark" v-if="this.remark != ''">{{ remark }}</span>` +
+    `</div>`
 });
 
 
 /******************************************************
  *                Composante Exercice                 *
  ******************************************************/
- app.component('exercice', {
+app.component('exercice', {
     props: ['href'],
     data() {
         let exroot = this.href.replace(/\/+$/, '') + '/';
@@ -510,17 +448,17 @@ app.component('codepen', {
             url: url
         }
     },
-    template: `
-        <a class="exercice" target="_blank" :href="this.url">
-            <div class="exercice-container">
-                <div class="exercice-thumb" :style="'background-image: url(\\'' + this.thumb + '\\')'"></div>
-                <div class="exercice-abstract">
-                    <em class="exercice-label">EXERCICE</em>
-                    <span class="exercice-title">{{ name }}</span>
-                    <span class="exercice-description">{{ description }}</span>
-                </div>
-            </div>
-        </a>`
+    template:
+        `<a class="exercice" target="_blank" :href="this.url">` +
+            `<div class="exercice-container">` +
+                `<div class="exercice-thumb" :style="'background-image: url(\\'' + this.thumb + '\\')'"></div>` +
+                `<div class="exercice-abstract">` +
+                    `<em class="exercice-label">EXERCICE</em>` +
+                    `<span class="exercice-title">{{ name }}</span>` +
+                    `<span class="exercice-description">{{ description }}</span>` +
+                `</div>` +
+            `</div>` +
+        `</a>`
 });
 
 
@@ -541,30 +479,30 @@ app.component('tool', {
             url: url
         }
     },
-    template: `
-        <a class="tool" target="_blank" :href="this.url">
-            <div class="tool-container">
-                <div class="tool-abstract">
-                    <em class="tool-label">OUTIL</em>
-                    <span class="tool-title">{{ name }}</span>
-                    <span class="tool-description">{{ description }}</span>
-                </div>
-                <div class="tool-thumb" :style="'background-image: url(\\'' + this.thumb + '\\')'"></div>
-            </div>
-        </a>`
+    template:
+        `<a class="tool" target="_blank" :href="this.url">` +
+            `<div class="tool-container">` +
+                `<div class="tool-abstract">` +
+                    `<em class="tool-label">OUTIL</em>` +
+                    `<span class="tool-title">{{ name }}</span>` +
+                    `<span class="tool-description">{{ description }}</span>` +
+                `</div>` +
+                `<div class="tool-thumb" :style="'background-image: url(\\'' + this.thumb + '\\')'"></div>` +
+            `</div>` +
+        `</a>`
 });
 
 
 /******************************************************
  *                Composante Knowmore                 *
  ******************************************************/
- app.component('knowmore', {
+app.component('knowmore', {
     props: ['href'],
-    template: `
-        <a class="knowmore" target="_blank" :href="this.href">
-            <div class="knowmore__title">&#128214; EN SAVOIR PLUS</div>
-            <div class="knowmore__abstract"><slot/></div>
-        </a>`
+    template:
+        `<a class="knowmore" target="_blank" :href="this.href">` +
+            `<div class="knowmore__title">&#128214; EN SAVOIR PLUS</div>` +
+            `<div class="knowmore__abstract"><slot/></div>` +
+        `</a>`
 });
 
 
@@ -577,7 +515,7 @@ app.component('doclink', {
         let site = '';
         try {
             let url = new URL(this.href);
-            switch(url.hostname) {
+            switch (url.hostname) {
                 case 'www.w3schools.com': site = 'w3schools'; break;
                 case 'developer.mozilla.org': site = 'mozilla'; break;
                 case 'codepen.io': site = 'codepen'; break;
@@ -591,8 +529,8 @@ app.component('doclink', {
                 case 'greensock.com': site = 'greensock'; break;
                 case 'smnarnold.com': site = 'smnarnold'; break;
                 case 'trello.com': site = 'trello'; break;
-                case 'sass-lang.com' : site = 'sass'; break;
-                case 'developer.vuforia.com' : site = 'vuforia'; break;
+                case 'sass-lang.com': site = 'sass'; break;
+                case 'developer.vuforia.com': site = 'vuforia'; break;
                 case 'cmontmorency365-my.sharepoint.com': site = 'momo'; break;
                 case 'cmontmorency365.sharepoint.com': site = 'momo'; break;
                 case 'teams.microsoft.com': site = 'momo'; break;
@@ -613,21 +551,24 @@ app.component('doclink', {
                 case 'wordpress.org': site = 'wordpress'; break;
                 case 'wordpress.com': site = 'wordpress'; break;
                 case 'www.advancedcustomfields.com': site = 'wordpress'; break;
+                case 'npmjs.com': site = 'npm'; break;
+                case 'docs.npmjs.com': site = 'npm'; break;
+
             }
-        } catch(e) {
-            if(this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
+        } catch (e) {
+            if (this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
             else site = '';
         }
-        if(this.spacer == 'true')  site += ' spacer';
+        if (this.spacer == 'true') site += ' spacer';
         return { class: site }
     },
-    template: `
-        <a :class="'doclink ' + this.class" target="_blank" :href="this.href">
-            <div class="doclink-container">
-                <div class="doclink-icon"></div>
-                <span class="doclink-title"><slot /></span>
-            </div>
-        </a>`
+    template:
+        `<a :class="'doclink ' + this.class" target="_blank" :href="this.href">` +
+            `<div class="doclink-container">` +
+                `<div class="doclink-icon"></div>` +
+                `<span class="doclink-title"><slot /></span>` +
+            `</div>` +
+        `</a>`
 });
 
 
@@ -635,22 +576,22 @@ app.component('doclink', {
  *                  Composante Dots                   *
  ******************************************************/
 app.component('dots', {
-    template: `
-        <div class="dots">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor">
-                <rect width="256" height="128" fill="none"/>
-                <circle cx="128" cy="128" r="6"/>
-                <circle cx="64" cy="128" r="6"/>
-                <circle cx="192" cy="128" r="6"/>
-            </svg>
-        </div>`
+    template:
+        `<div class="dots">` +
+            `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor">` +
+                `<rect width="256" height="128" fill="none"/>` +
+                `<circle cx="128" cy="128" r="6"/>` +
+                `<circle cx="64" cy="128" r="6"/>` +
+                `<circle cx="192" cy="128" r="6"/>` +
+            `</svg>` +
+        `</div>`
 });
 
 
 /******************************************************
  *                  Composante Color                  *
  ******************************************************/
- app.component('color', {
+app.component('color', {
     props: ['spacer'],
     data() {
         let color = this.$slots.default()[0].children;
@@ -675,10 +616,10 @@ app.component('dots', {
             }, 2000);
         }
     },
-    template: `
-        <span :class="'color' + this.space + this.clicked" :style="'color: ' + this.invert + '; background-color: ' + this.color + ';'" @click="click()">
-            {{ text }}
-        </span>`
+    template:
+        `<span :class="'color' + this.space + this.clicked" :style="'color: ' + this.invert + '; background-color: ' + this.color + ';'" @click="click()">` +
+            `{{ text }}` +
+        `</span>`
 });
 
 
@@ -694,8 +635,8 @@ app.component('clip', {
         let details = syncjson(name + '.json');
         let track = undefined;
         let title = this.title ?? '';
-        details.media.track.forEach(elm => { if(elm['@type'] == 'Video') { track = elm; }});
-        if(track == undefined) return {};
+        details.media.track.forEach(elm => { if (elm['@type'] == 'Video') { track = elm; } });
+        if (track == undefined) return {};
         else {
             let denominator = hcd(track.Width, track.Height);
             let aspect = (track.Width / denominator) + '/' + (track.Height / denominator);
@@ -713,29 +654,28 @@ app.component('clip', {
         }
     },
     methods: {
-        play(){
+        play() {
             this.player = '<video id="' + this.id + '" width="100%" height="100%" autoplay="true" poster="' + this.thumbnail_url + '" data-setup=\'{"fluid": true}\' controls preload="auto"><source src="' + this.src + '" type="video/mp4" /></video>';
             this.playbtn = 'none';
         }
     },
-    template: `
-        <div class="oembed-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.aspect + ';'">
-            <div class="oembed-wrapper__title" :style="'display: ' + this.playbtn + ';'"><div>{{ title }}</div></div>
-            <div class="oembed-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
-            <div class="oembed-wrapper__player" v-html="player"></div>
-        </div><br>`
+    template:
+        `<div class="oembed-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.aspect + ';'">` +
+            `<div class="oembed-wrapper__title" :style="'display: ' + this.playbtn + ';'"><div>{{ title }}</div></div>` +
+            `<div class="oembed-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>` +
+            `<div class="oembed-wrapper__player" v-html="player"></div>` +
+        `</div><br>`
 });
-
 
 
 /******************************************************
  *                Composante Clipasset                *
  ******************************************************/
- app.component('clipasset', {
+app.component('clipasset', {
     props: ['src', 'mobile'],
     data() {
         let isMobile = false;
-        if(typeof this.mobile != 'undefined') isMobile = true;
+        if (typeof this.mobile != 'undefined') isMobile = true;
         return {
             isMobile: isMobile
         }
@@ -744,18 +684,17 @@ app.component('clip', {
 });
 
 
-
 /******************************************************
  *                 Composante Youtube                 *
  ******************************************************/
- app.component('youtube', {
+app.component('youtube', {
     props: ['src'],
     data() {
         let details = null;
         let defaultId = 'o-YBDTqX_ZU';
-        if(/^[\w\-_]{10,12}$/.test(this.src)) {
-            if(!(details = localStorage.getItem('youtube_' + this.src))) {
-                if(!(details = this.getInfo(this.src))){
+        if (/^[\w\-_]{10,12}$/.test(this.src)) {
+            if (!(details = localStorage.getItem('youtube_' + this.src))) {
+                if (!(details = this.getInfo(this.src))) {
                     details = this.getInfo(defaultId);
                 } else {
                     localStorage.setItem('youtube_' + this.src, JSON.stringify(details));
@@ -782,31 +721,30 @@ app.component('clip', {
         getInfo(id) {
             return syncjson('https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=' + id + '&format=json')
         },
-        play(){
+        play() {
             this.player = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + this.id + '?feature=oembed&autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
             this.playbtn = 'none';
         }
     },
-    template: `
-        <div class="oembed-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.aspect + ';'">
-            <div class="oembed-wrapper__title" :style="'display: ' + this.playbtn + ';'"><div>{{ title }}</div></div>
-            <div class="oembed-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
-            <div class="oembed-wrapper__player" v-html="player"></div>
-        </div><br>`
+    template:
+        `<div class="oembed-wrapper" :style="'background-image: url('+this.thumbnail_url+'); aspect-ratio: '+ this.aspect+';'">` +
+            `<div class="oembed-wrapper__title" :style="'display: '+this.playbtn+';'"><div>{{ title }}</div></div>` +
+            `<div class="oembed-wrapper__play" @click="this.play();" :style="'display: '+this.playbtn+';'"></div>` +
+            `<div class="oembed-wrapper__player" v-html="player"></div>` +
+        `</div><br>`
 });
-
 
 
 /******************************************************
  *                  Composante Vimeo                  *
  ******************************************************/
- app.component('vimeo', {
+app.component('vimeo', {
     props: ['src'],
     data() {
         let details = null;
         let defaultId = '844557780';
-        if(!(details = localStorage.getItem('vimeo_' + this.src))) {
-            if(!(details = this.getInfo(this.src))){
+        if (!(details = localStorage.getItem('vimeo_' + this.src))) {
+            if (!(details = this.getInfo(this.src))) {
                 details = this.getInfo(defaultId);
             } else {
                 localStorage.setItem('vimeo_' + this.src, JSON.stringify(details));
@@ -830,24 +768,24 @@ app.component('clip', {
         getInfo(id) {
             return syncjson('https://vimeo.com/api/oembed.json?url=https://vimeo.com/' + id);
         },
-        play(){
+        play() {
             this.player = '<iframe src="https://player.vimeo.com/video/' + this.id + '?autoplay=1" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe>'
             this.playbtn = 'none';
         }
     },
-    template: `
-        <div class="oembed-wrapper" :style="'background-image: url(' + this.thumbnail_url + '); aspect-ratio: ' + this.aspect + ';'">
-            <div class="oembed-wrapper__title" :style="'display: ' + this.playbtn + ';'"><div>{{ title }}</div></div>
-            <div class="oembed-wrapper__play" @click="this.play();" :style="'display: ' + this.playbtn + ';'"></div>
-            <div class="oembed-wrapper__player" v-html="player"></div>
-        </div><br>`
+    template:
+        `<div class="oembed-wrapper" :style="'background-image: url('+this.thumbnail_url+'); aspect-ratio: '+this.aspect+';'">` +
+            `<div class="oembed-wrapper__title" :style="'display: '+this.playbtn+';'"><div>{{ title }}</div></div>` +
+            `<div class="oembed-wrapper__play" @click="this.play();" :style="'display: '+this.playbtn+';'"></div>` +
+            `<div class="oembed-wrapper__player" v-html="player"></div>` +
+        `</div><br>`
 });
 
 
 /******************************************************
  *                Composante Highlight                *
  ******************************************************/
-//https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md 
+//https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md
 app.component('highlight', {
     props: ['lang'],
     template: `<pre class="highlight"><code :class="'language-' + this.lang"><slot /></code></pre>`
@@ -855,9 +793,9 @@ app.component('highlight', {
 
 
 /******************************************************
- *                  Composante Swiper                 *
+ *                 Composante Gallery                 *
  ******************************************************/
- app.component('swiper', {
+app.component('gallery', {
     data() {
         let images = [];
         let slides = [];
@@ -906,62 +844,62 @@ app.component('highlight', {
         });
     },
     methods: {
-        modalimage(){
+        modalimage() {
             this.modal.style.backgroundImage = "url('" + this.images[this.swiper.activeIndex] + "')";
         },
-        fullscreen(){
+        fullscreen() {
             this.modalimage();
             this.modal.classList.add("swiper-modal--show");
             this.show = true;
         },
-        close(){
+        close() {
             this.modal.classList.remove("swiper-modal--show");
             this.show = false;
         },
-        hotkeys(event){
-            if(this.show) {
+        hotkeys(event) {
+            if (this.show) {
                 if (event.key === 'Escape' && !(event.ctrlKey || event.altKey || event.shiftKey)) {
                     this.close();
-                } else if(event.key === 'ArrowRight') {
+                } else if (event.key === 'ArrowRight') {
                     this.swiper.slideNext();
                     this.modalimage();
-                } else if(event.key === 'ArrowLeft') {
+                } else if (event.key === 'ArrowLeft') {
                     this.swiper.slidePrev();
                     this.modalimage();
                 }
             }
         }
     },
-    template: `
-        <div class="swiper-container">
-            <div class="swiper-modal" :id="'swiper-modal-' + this.hash" @click="close()"></div>
-            <div :id="'swiper-' + this.hash" style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper swiper-main">
-                <div class="swiper-wrapper" v-html="slides"></div>
-                <div :id="'swiper-button-next-' + this.hash" class="swiper-button-next"></div>
-                <div :id="'swiper-button-prev-' + this.hash" class="swiper-button-prev"></div>
-                <div :id="'swiper-pagination-' + this.hash" class="swiper-pagination"></div>
-                <div title="Navigue avec les flèches de ton clavier en plein écran" class="swiper-fullscreen" @click="fullscreen()"></div>
-            </div>
-            <div :id="'swiper-thumbs-' + this.hash" class="swiper swiper-thumbs">
-                <div class="swiper-wrapper" v-html="thslides"></div>
-            </div>
-        </div>`
+    template:
+        `<div class="swiper-container">` +
+            `<div class="swiper-modal" :id="'swiper-modal-' + this.hash" @click="close()"></div>` +
+            `<div :id="'swiper-' + this.hash" style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper swiper-main">` +
+                `<div class="swiper-wrapper" v-html="slides"></div>` +
+                `<div :id="'swiper-button-next-' + this.hash" class="swiper-button-next"></div>` +
+                `<div :id="'swiper-button-prev-' + this.hash" class="swiper-button-prev"></div>` +
+                `<div :id="'swiper-pagination-' + this.hash" class="swiper-pagination"></div>` +
+                `<div title="Navigue avec les flèches de ton clavier en plein écran" class="swiper-fullscreen" @click="fullscreen()"></div>` +
+            `</div>` +
+            `<div :id="'swiper-thumbs-' + this.hash" class="swiper swiper-thumbs">` +
+                `<div class="swiper-wrapper" v-html="thslides"></div>` +
+            `</div>` +
+        `</div>`
 });
 
 
 /******************************************************
  *                Composante Checklist                *
  ******************************************************/
- app.component('checklist', {
-    data(){
+app.component('checklist', {
+    data() {
         var text = '';
         this.$slots.default().forEach(elm => {
-            if(typeof elm.type == "string"){
+            if (typeof elm.type == "string") {
                 var props = '';
-                for(i in elm.props) props += ' ' + i + '="' + elm.props[i] + '"';
-                if(elm.type == 'br' || elm.type == 'img') text += '<' + elm.type + props + '>';
+                for (i in elm.props) props += ' ' + i + '="' + elm.props[i] + '"';
+                if (elm.type == 'br' || elm.type == 'img') text += '<' + elm.type + props + '>';
                 else text += '<' + elm.type + props + '>' + elm.children + '</' + elm.type + '>';
-            }else {
+            } else {
                 text += elm.children;
             }
         });
@@ -969,9 +907,9 @@ app.component('highlight', {
         text.trim().split('\n').map(v => { lines.push(v.trim()); });
         var hash = this.getHash(lines.join());
         let cookieValue = localStorage.getItem('checklist-' + hash);
-        if(typeof cookieValue == 'string') {
+        if (typeof cookieValue == 'string') {
             var checks = cookieValue.split(',').map((val) => { return parseInt(val); });
-            if(checks.length != lines.length){
+            if (checks.length != lines.length) {
                 checks = [];
                 lines.forEach(() => { checks.push(0); });
             }
@@ -997,9 +935,9 @@ app.component('highlight', {
         getHash(str) {
             return cyrb53(window.location.pathname + str);
         },
-        click(event,i) {
+        click(event, i) {
             let target = event.currentTarget;
-            if(this.checks[i]) {
+            if (this.checks[i]) {
                 this.checks[i] = 0;
                 target.classList.remove('checked');
             } else {
@@ -1015,116 +953,110 @@ app.component('highlight', {
             this.progress = (total / this.checks.length * 100).toFixed(0);
         }
     },
-    template: `
-        <div class="checklist">
-            <div class="pourcentage">{{ progress }}%</div>
-            <div :id="this.hash + '-progressbar'" class="progressbar" :style="'background-size: ' + this.progress + '% 100%;'"></div>
-            <ol>
-                <li v-for="(line, i) in this.list" :class="this.checks[i]?'checked':''" @click="click($event,i)" v-html="line"></li>
-            </ol>
-        </div>`
+    template:
+        `<div class="checklist">` +
+            `<div class="pourcentage">{{ progress }}%</div>` +
+            `<div :id="this.hash + '-progressbar'" class="progressbar" :style="'background-size: ' + this.progress + '% 100%;'"></div>` +
+            `<ol>` +
+                `<li v-for="(line, i) in this.list" :class="this.checks[i]?'checked':''" @click="click($event,i)" v-html="line"></li>` +
+            `</ol>` +
+        `</div>`
 });
 
 
 /******************************************************
- *              Composante Audioplayer                *
+ *                  Composante Tune                   *
  ******************************************************/
- app.component('audioplayer', {
+ app.component('tune', {
     props: ['src'],
     data() {
         var url = new URL(this.src, document.baseURI);
         let name = url.pathname.split('.').shift();
-        let id = name.split('/').pop();
-        let details = syncjson(name + '.json');
-        let track = undefined;
-        details.media.track.forEach(elm => { if(elm['@type'] == 'Audio') { track = elm; }});
-        if(track == undefined) return {};
-        var sound = new Howl({
-            src: [url.pathname, name + '.webm'],
-            onend: this.onend,
-            preload: true
-        });
+        let sound = new Audio(url);
+        sound.preload = 'auto';
+        sound.addEventListener('play', () => { this.play(); });
+        sound.addEventListener('pause', () => { this.pause(); });
+        sound.addEventListener('ended', () => { this.ended(); });
+        this.$root.registerLightSwitch(this);
         return {
-            id: id,
             name: name,
-            duration: track.Duration,
             sound: sound,
-            playing: false,
-            playInt: null,
-            progress: 0
+            playInt: null
         }
     },
     methods: {
-        onend() {
-            this.playing = false;
-            clearInterval(this.playInt);
-            this.progress = 0;
-        },
         click() {
-            if(this.playing) {
-                this.sound.pause();
-                this.playing = false;
-                clearInterval(this.playInt);
-            } else {
-                this.sound.play();
-                this.playing = true;
-                this.playInt = setInterval(this.pos, 50);
-            }
+            if (this.sound.paused) this.sound.play();
+            else this.sound.pause();
         },
-        pos() {
-            let prog = (this.sound.seek() / this.duration * 100).toFixed(2);
-            if(prog !== this.progress) this.progress = prog;
+        play() {
+            this.playing = true;
+            this.$refs.button.classList.add('pause');
+            this.playInt = setInterval(() => { this.time(); }, 50);
         },
-        seek(e){
-            let newpos = ((e.clientX - e.currentTarget.offsetLeft) / e.currentTarget.offsetWidth) * this.duration;
-            this.sound.seek(newpos);
-            if(!this.playing) {
-                this.sound.play();
-                this.playing = true;
-                this.playInt = setInterval(this.pos, 50);
-            }
+        pause() {
+            this.playing = false;
+            this.$refs.button.classList.remove('pause');
+            clearInterval(this.playInt);
+        },
+        ended() {
+            this.$refs.progress.style.width = '0%';
+        },
+        seek(evt) {
+            let rect = evt.currentTarget.getBoundingClientRect();
+            let newpos = (evt.clientX - rect.left) / rect.width * this.sound.duration;
+            this.sound.currentTime = newpos;
+            if (this.sound.paused) this.sound.play();
+        },
+        time() {
+            let progress = Math.round(this.sound.currentTime / this.sound.duration * 10000) / 100;
+            this.$refs.progress.style.width = progress + '%';
+        },
+        lightSwitchOff() {
+            this.$refs.waveform.style.backgroundImage = 'url('+this.name + '-dark.png)';
+        },
+        lightSwitchOn() {
+            this.$refs.waveform.style.backgroundImage = 'url('+this.name + '-light.png)';
         }
     },
-    template: `
-    <div class="audioplayer-container">
-        <div class="audioplayer">
-            <div :class="'audioplayer__button' + (this.playing ? ' pause' : '')" @click="click()"></div>
-            <div class="audioplayer__waveform" :style="'background-image: url(\\'' + this.name + '.png\\')'" @click="seek($event)">
-                <div class="audioplayer__progress" :style="'width: ' + this.progress + '%;'"></div>
-            </div>
-        </div>
-    </div>`
+    template:
+        `<div class="tune">` +
+            `<div class="tune__button" ref="button" @click="this.click()"></div>` +
+            `<div class="tune__waveform" ref="waveform" :style="'background-image: url(\\''+this.name+'-'+this.$root.theme+'.png\\')'" @click="this.seek">` +
+                `<div class="tune__progress" ref="progress"></div>` +
+            `</div>` +
+        `</div>`
 });
 
 
 /******************************************************
  *                  Composante Quote                  *
  ******************************************************/
- app.component('quote', {
+app.component('quote', {
     props: ['author', 'title', 'photo'],
     data() {
         return {}
     },
-    template: `
-        <div class="quote">
-            <blockquote><slot/></blockquote>
-            <div class="quote__author">
-                <div class="quote__who">
-                    <div class="quote__name">— {{ author }}</div>
-                    <div class="quote__title">{{ title }}</div>
-                </div>
-                <div class="quote__photo">
-                    <img :src="this.photo">
-                </div>
-            </div>
-        </div>`
+    template:
+        `<div class="quote">` +
+            `<blockquote><slot/></blockquote>` +
+            `<div class="quote__author">` +
+                `<div class="quote__who">` +
+                    `<div class="quote__name">— {{ author }}</div>` +
+                    `<div class="quote__title">{{ title }}</div>` +
+                `</div>` +
+                `<div class="quote__photo">` +
+                    `<img :src="this.photo">` +
+                `</div>` +
+            `</div>` +
+        `</div>`
 });
 
 
 /******************************************************
  *                   Composante Wiki                  *
  ******************************************************/
- app.component('wiki', {
+app.component('wiki', {
     data() {
         let url = new URL(document.location);
         let hash = cyrb53(url.host + url.pathname);
@@ -1137,10 +1069,10 @@ app.component('highlight', {
     },
     created() {
         this.$nextTick(() => {
-            if(this.pages.length == 0) return;
+            if (this.pages.length == 0) return;
             setTimeout(() => {
                 let activePage = localStorage.getItem('wiki-' + this.hash + '-active');
-                if(activePage == null) this.setActivePage(this.pages[0].id);
+                if (activePage == null) this.setActivePage(this.pages[0].id);
                 else this.setActivePage(activePage);
             }, 1);
         });
@@ -1149,8 +1081,9 @@ app.component('highlight', {
         registerPage(id, name) {
             this.pages.push({ id: id, name: name });
         },
-        setActivePage(id){
-            if(this.active != null) {
+        setActivePage(id, evt=null) {
+            if (evt) evt.preventDefault();
+            if (this.active != null) {
                 document.getElementById('wiki-list__' + this.active).classList.remove('active');
                 document.getElementById('wiki-page__' + this.active).classList.remove('active');
             }
@@ -1160,9 +1093,10 @@ app.component('highlight', {
             this.active = id;
             this.$refs.burger.classList.remove('show');
             this.$refs.list.classList.remove('show');
+            window.scrollTo(0, 0);
         },
         toggleBurger() {
-            if(this.$refs.burger.classList.contains('show')) {
+            if (this.$refs.burger.classList.contains('show')) {
                 this.$refs.burger.classList.remove('show');
                 this.$refs.list.classList.remove('show');
             } else {
@@ -1171,18 +1105,18 @@ app.component('highlight', {
             }
         }
     },
-    template: `
-        <div id="wiki">
-            <div id="wiki__burger" ref="burger" @click="toggleBurger()"></div>
-            <div id="wiki__list" ref="list">
-                <ul>
-                    <li v-for="el in this.pages"><a :id="'wiki-list__' + el.id" @click="setActivePage(el.id)" href="#">{{ el.name }}</a><span>&nbsp;&#x1f4da;</span></li>
-                </ul>
-            </div>
-            <div id="wiki__pages">
-                <slot/>
-            </div>
-        </div>`
+    template:
+        `<div id="wiki">` +
+            `<div id="wiki__burger" ref="burger" @click="toggleBurger()"></div>` +
+            `<div id="wiki__list" ref="list">` +
+                `<ul>` +
+                    `<li v-for="el in this.pages"><a :id="'wiki-list__' + el.id" @click="setActivePage(el.id, $event)" href="#">{{ el.name }}</a><span>&nbsp;&#x1f4da;</span></li>` +
+                `</ul>` +
+            `</div>` +
+            `<div id="wiki__pages">` +
+                `<slot/>` +
+            `</div>` +
+        `</div>`
 });
 
 
@@ -1192,25 +1126,25 @@ app.component('wiki-page', {
         let url = new URL(document.location);
         let slug = lowslug(this.name);
         let d = new Date();
-        let today = d.getFullYear() + '-' + pad(d.getMonth()+1,2) + '-' + pad(d.getDate(),2);
-        if((this.date == undefined || today >= this.date) || url.host != 'tim-montmorency.com')
+        let today = d.getFullYear() + '-' + pad(d.getMonth() + 1, 2) + '-' + pad(d.getDate(), 2);
+        if ((this.date == undefined || today >= this.date) || url.host != 'tim-montmorency.com')
             this.$parent.registerPage(slug, (this.date != undefined && today < this.date ? '::' : '') + this.name);
         return {
             'slug': slug
         }
     },
-    template: `
-        <div :id="'wiki-page__' + this.slug" class="wiki__page">
-            <h1>{{ name }}</h1><br>
-            <slot/>
-        </div>`
+    template:
+        `<div :id="'wiki-page__' + this.slug" class="wiki__page">` +
+            `<h1>{{ name }}</h1><br>` +
+            `<slot/>` +
+        `</div>`
 });
 
 
 /******************************************************
  *           Composante Correction / Barème           *
  ******************************************************/
- app.component('correction', {
+app.component('correction', {
     props: ['scale', 'value'],
     data() {
         let scales = this.scale.split(',').map((val) => { return val.trim(); });
@@ -1227,7 +1161,7 @@ app.component('wiki-page', {
         });
     },
     methods: {
-        registerCriteria(criteria){
+        registerCriteria(criteria) {
             this.criterias.push(criteria);
         },
         updateScore() {
@@ -1248,26 +1182,26 @@ app.component('wiki-page', {
             navigator.clipboard.writeText(this.score);
         }
     },
-    template: `
-        <div class="correction">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Critères</th>
-                        <th>Barèmes</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <slot></slot>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td>Total</td>
-                        <td>{{ this.score_txt }}&nbsp;&nbsp;<button @click="this.copy();">Copier</button>&nbsp;&nbsp;<button @click="this.clear();">Effacer</button></td>
-                    </tr>
-                </tfoot>
-            </table>
-        </div>`
+    template:
+        `<div class="correction">` +
+            `<table>` +
+                `<thead>` +
+                    `<tr>` +
+                        `<th>Critères</th>` +
+                        `<th>Barèmes</th>` +
+                    `</tr>` +
+                `</thead>` +
+                `<tbody>` +
+                    `<slot></slot>` +
+                `</tbody>` +
+                `<tfoot>` +
+                    `<tr>` +
+                        `<td>Total</td>` +
+                        `<td>{{ this.score_txt }}&nbsp;&nbsp;<button @click="this.copy();">Copier</button>&nbsp;&nbsp;<button @click="this.clear();">Effacer</button></td>` +
+                    `</tr>` +
+                `</tfoot>` +
+            `</table>` +
+        `</div>`
 });
 
 app.component('criteria', {
@@ -1283,7 +1217,7 @@ app.component('criteria', {
     },
     methods: {
         click(event, i) {
-            if(this._target) this._target.classList.remove('checked');
+            if (this._target) this._target.classList.remove('checked');
             event.currentTarget.classList.add('checked');
             this._target = event.currentTarget;
             this._value = i;
@@ -1294,31 +1228,30 @@ app.component('criteria', {
         },
         clear() {
             this._value = 0;
-            if(this._target){
+            if (this._target) {
                 this._target.classList.remove('checked');
                 this._target = null;
             }
         }
     },
-    template: `
-        <tr class="correction__criteria">
-            <td><slot/></td>
-            <td>
-                <span class="correction__criteria__scale" v-for="(scale, i) in this.$parent.scales" v-html="scale" @click="click($event, this.$parent.scales.length - 1 - i)"></span>
-            </td>
-        </tr>`
+    template:
+        `<tr class="correction__criteria">` +
+            `<td><slot/></td>` +
+            `<td>` +
+                `<span class="correction__criteria__scale" v-for="(scale, i) in this.$parent.scales" v-html="scale" @click="click($event, this.$parent.scales.length - 1 - i)"></span>` +
+            `</td>` +
+        `</tr>`
 });
 
 
 /******************************************************
  *                  Composante Timg                   *
  ******************************************************/
- app.component('timg', {
+app.component('timg', {
     props: ['src', 'class', 'alt'],
     data() {
-        let source = this.src.replace(/\$t/g, this.$root.theme);
-        this.$root.addToTimages(this);
-        return { source: source }
+        this.$root.registerLightSwitch(this);
+        return { source: this.src.replace(/\$t/g, this.$root.theme) }
     },
     methods: {
         lightSwitchOff() {

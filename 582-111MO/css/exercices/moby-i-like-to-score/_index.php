@@ -66,7 +66,7 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<intlink href='../../pseudo-classes-intermediaires/'></intlink>
-<intlink href='../../border/'></intlink>
+<intlink href="../../pseudo-classes-intermediaires/"></intlink>
+<intlink href="../../border/"></intlink>
 
 <dots></dots>

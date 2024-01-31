@@ -13,7 +13,7 @@
 <grostitre>Intro</grostitre>
 
 
-<doclink href='https://getbootstrap.com/docs/5.2/customize/color/'>Colors</doclink>
+<doclink href="https://getbootstrap.com/docs/5.2/customize/color/">Colors</doclink>
 
 <dots></dots>
 
@@ -29,7 +29,7 @@
 </p>
 
 <br>
-<doclink href='https://getbootstrap.com/docs/5.2/customize/color/'>Colors</doclink>
+<doclink href="https://getbootstrap.com/docs/5.2/customize/color/">Colors</doclink>
 
 <p> Pour les variables CSS, il vous suffit d'utiliser les noms de variables existantes. Ceci vous permettra de sauver beaucoup de temps à styliser dans un fichier CSS personnalisé.</p>
 <p>Voici une liste de plusieurs variables que vous pouvez utiliser (couleurs et plus encore):</p>
@@ -40,7 +40,7 @@
 </p>
 
 <br>
-<doclink href='https://getbootstrap.com/docs/5.2/customize/css-variables/'>CSS Variables</doclink>
+<doclink href="https://getbootstrap.com/docs/5.2/customize/css-variables/">CSS Variables</doclink>
 
 
 
@@ -50,7 +50,7 @@
 
 <p>Comment? Bien vous pouvez, dans votre fichier .css personnel réécrire par exemple:</p>
 
-<highlight lang='css'>.btn-primary{
+<highlight lang="css">.btn-primary{
   background-color: #f36b62 !important;
   color: #fff8f0 !important;
 }
@@ -71,7 +71,7 @@
   <li>Télécharger les <a href="https://getbootstrap.com/docs/5.2/getting-started/download/#source-files">fichiers sources</a> de Bootstrap pour avoir accès aux fichiers <em>Sass</em>. Ajoutez le dossier des fichiers source de Bootstrap dans votre dossier de projet (je vous propose de le déposer dans un dossier nommé <em>vendors</em>)
 </li>
   <li>Créer un fichier .scss dans lequel vous allez réécrivez la valeur de certaines variables Bootstrap existantes.
-    <highlight lang='scss'>
+    <highlight lang="scss">
 $light:        #bfe5df,
 $dark:         #201d40,
 $primary:      #f36b62
@@ -97,7 +97,7 @@ $theme-colors: (
 
   </li>
   <li>Importez ensuite la le <em>SCSS</em> de Bootstrap dans votre fichier <em>SCSS</em> (ajustez le chemin d'accès) selon votre configuration de projet: 
-    <highlight lang='scss'>@import 'vendors/bootstrap-5.2.3/scss/bootstrap.scss'</highlight>
+    <highlight lang="scss">@import 'vendors/bootstrap-5.2.3/scss/bootstrap.scss'</highlight>
   </li>
   <li>Compilez votre fichier <em>SCSS</em> en format <em>css</em> (j'utilise personnellement l'extension de VSCode <a href="https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass">Live Sass Compiler</a> de Glenn Marks). Ça créera un nouveau fichier .css dans votre projet.
   </li>
@@ -106,7 +106,7 @@ $theme-colors: (
 
 <warning>Si vous utilisez une extension VS Code pour compiler le <em>SCSS</em> en CSS, il est possible que vous ayez à modifier les paramètres de l'extension pour lui mentionner l'endroit où vous souhaitez sauvegarder le fichier .css compilé (son "savePath"), pour ce faire il suffit d'aller modifier les paramètres de l'extension en éditant le settings.json, en ajoutant le code suivant, ou la valeur de savePath sera le chemin d'accès absolu ou vous souhaitez enregistrer le fichier css compilé.
 </warning>
-<highlight lang='json'>"liveSassCompile.settings.formats": [ 
+<highlight lang="json">"liveSassCompile.settings.formats": [ 
   {  
     "extensionName": ".css", 
     "savePath": "/css"

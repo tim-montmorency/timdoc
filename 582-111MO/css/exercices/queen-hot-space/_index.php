@@ -66,8 +66,8 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<intlink href='../../position/'></intlink>
-<intlink href='../../margin/'></intlink>
+<intlink href="../../position/"></intlink>
+<intlink href="../../margin/"></intlink>
 
 <dots></dots>
 

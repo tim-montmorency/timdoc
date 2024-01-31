@@ -54,4 +54,4 @@ Il est possible que vous ayez commencé à peinturer un mur et qu’entre deux c
 
 
 
-<doclink href='https://fr.wikipedia.org/wiki/Kanban_(d%C3%A9veloppement)'>Kanban</doclink>
+<doclink href="https://fr.wikipedia.org/wiki/Kanban_(d%C3%A9veloppement)">Kanban</doclink>

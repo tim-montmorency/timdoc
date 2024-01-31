@@ -1,3 +1,13 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
 <!DOCTYPE html>
 <html lang="fr-ca">
     <head>
@@ -18,7 +28,6 @@
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
-        <script src="../../../shared/jscripts/howler.min.js"></script>
         <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
         <script src="../../../shared/jscripts/vue.global.prod.js"></script>
         <script src="../../../shared/jscripts/timdoc.min.js"></script>
@@ -34,7 +43,7 @@
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
             </div>
-            <div title="Interrupteur" id="lightswitch" class="lightswitch--on" ref="lightswitch" @click="lightswitch()"></div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
         </header>
         <main>
             <!-- MAIN HEADER EOF -->
@@ -52,7 +61,7 @@
 
 <p>Par exemple, une variable d'espacement <span class="inline-code">$gutter: 26px;</span> pourrait nécessitée d'être divisée en deux lorsque deux éléments l'utilisant se suivent afin d'éviter que l'espacement soit doublé. Pour palier à ce problème, il serait possible de se créer une fonction divisant cette valeur:</p>
 
-<highlight lang="css">@function half($num) {
+<highlight lang="scss">@function half($num) {
  @return $num / 2;
 }</highlight>
 
@@ -60,7 +69,7 @@
 
 <p>Ainsi il serait possible d'écrire:</p>
 
-<highlight lang="css">.card {
+<highlight lang="scss">.card {
   padding: half($gutter); // 13px
 }</highlight>
 
@@ -68,7 +77,7 @@
 <br>
  <p>Pourquoi ne pas utiliser <span class="inline-code">calc()</span> plutôt? La fonction <span class="inline-code">calc()</span> est interprété dans le navigateur donc demande quelques fractions de seconde de plus à votre navigateur afin d'afficher, tandis que tout calcul effectué directement via SASS est effectué au moment de la compilation et donc n'engendre aucun délais pour l'usager.</p>
 
-<doclink href='https://sass-lang.com/documentation/at-rules/function'>@function</doclink>
+<doclink href="https://sass-lang.com/documentation/at-rules/function">@function</doclink>
 <dots></dots>
 
 

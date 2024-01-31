@@ -13,13 +13,13 @@
 
 <p>Pour cet EXAMEN vous allez reproduire un site web de Clash of clans</p>
 
-<swiper>
+<gallery>
     photos/photo1.webp
     photos/photo2.webp
     photos/photo5.webp
     photos/photo4.webp
     photos/photo3.webp
-</swiper>
+</gallery>
 
 <dots></dots>
 

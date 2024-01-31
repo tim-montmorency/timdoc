@@ -2,14 +2,14 @@
 /**
  * @type     exercice
  * @title    Vue - Menu de sushis
- * @icon     images/sushis.jpg
- * @abstract 
+ * @icon     images/thumb.webp
+ * @abstract Pour cet exercice, vous devez compléter un menu d’un restaurant de sushis 🍣 permettant de visualiser le détail d’une commande en temps&nbsp;réel.
  */
 ?>
 
 <p>Pour cet exercice, vous devez compléter un menu d’un restaurant de sushis 🍣 permettant de visualiser le détail d’une commande en temps&nbsp;réel.</p>
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/vue-sushis-resultat.mp4'></clipasset>
+<clipasset src="images/vue-sushis-resultat.mp4"></clipasset>
 <dots></dots>
 <grostitre>Matériel</grostitre>
 <a href="images/prenom-nom.zip" target="_blank" rel="noopener noreferrer" download="" class="starting-files">Dossier de départ 📁</a>
@@ -38,12 +38,12 @@
 </table>
 
 <h3 class="heading heading--h3" id="Medias">Médias</h3>
-<mediafile src="https://ex.smnarnold.com/vue/sushis/1.png">sushi 1</mediafile>
-<mediafile src="https://ex.smnarnold.com/vue/sushis/2.png">sushi 2</mediafile>
-<mediafile src="https://ex.smnarnold.com/vue/sushis/3.png">sushi 3</mediafile>
-<mediafile src="https://ex.smnarnold.com/vue/sushis/4.png">sushi 4</mediafile>
-<mediafile src="https://ex.smnarnold.com/vue/sushis/5.png">sushi 5</mediafile>
-<mediafile src="https://ex.smnarnold.com/vue/sushis/6.png">sushi 6</mediafile>
+<mediafile src="./images/1.webp">Sushi 1</mediafile>
+<mediafile src="./images/2.webp">Sushi 2</mediafile>
+<mediafile src="./images/3.webp">Sushi 3</mediafile>
+<mediafile src="./images/4.webp">Sushi 4</mediafile>
+<mediafile src="./images/5.webp">Sushi 5</mediafile>
+<mediafile src="./images/6.webp">Sushi 6</mediafile>
 
 
 <dots></dots>
@@ -81,9 +81,9 @@ Utilisez des propriétés calculées afin d'afficher en temps réel le nombre de
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../javascript/vue-js/introduction") ?>
-<?php intlink("../../javascript/vue-js/creation-app-bases") ?>
-<?php intlink("../../javascript/vue-js/elements-de-formulaire") ?>
-<?php intlink("../../javascript/vue-js/proprietes-calculees") ?>
-<?php intlink("../../javascript/vue-js/composantes") ?>
+<intlink href="../../javascript/vue-js/introduction"></intlink>
+<intlink href="../../javascript/vue-js/creation-app-bases"></intlink>
+<intlink href="../../javascript/vue-js/elements-de-formulaire"></intlink>
+<intlink href="../../javascript/vue-js/proprietes-calculees"></intlink>
+<intlink href="../../javascript/vue-js/composantes"></intlink>
 

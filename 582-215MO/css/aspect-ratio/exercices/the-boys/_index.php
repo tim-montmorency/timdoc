@@ -47,8 +47,8 @@
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<intlink href='../../../aspect-ratio/'></intlink>
-<intlink href='../../../border/'></intlink>
-<intlink href='../../../box-shadow/'></intlink>
+<intlink href="../../../aspect-ratio/"></intlink>
+<intlink href="../../../border/"></intlink>
+<intlink href="../../../box-shadow/"></intlink>
 
 <dots></dots>

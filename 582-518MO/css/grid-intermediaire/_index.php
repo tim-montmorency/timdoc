@@ -30,7 +30,7 @@
 <p>Ces propriétés peuvent être combinées en utilisant simplement <incode>grid-column</incode>. </p>
 
 <p>Par exemple, le code suivant:</p>
-<highlight lang='css'>grid-column-start: 1;
+<highlight lang="css">grid-column-start: 1;
 grid-column-end: 4;</highlight>
 
 
@@ -42,8 +42,8 @@ grid-column-end: 4;</highlight>
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-<doclink href='https://developer.mozilla.org/fr/docs/Web/CSS/grid-column'>grid-column</doclink>
-<doclink href='https://www.w3schools.com/cssref/pr_grid-column.php'>grid-column</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/grid-column">grid-column</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_grid-column.php">grid-column</doclink>
 
 
 
@@ -68,7 +68,7 @@ grid-column-end: 4;</highlight>
 <p>Ces propriétés peuvent être combinées en utilisant simplement <incode>grid-row</incode>. </p>
 
 <p>Par exemple, le code suivant:</p>
-<highlight lang='css'>grid-row-start: 1;
+<highlight lang="css">grid-row-start: 1;
 grid-row-end: 4;</highlight>
 
 <p>Est équivalent à celui-ci:</p>
@@ -80,8 +80,8 @@ grid-row-end: 4;</highlight>
 </p>
 
 
-<doclink href='https://developer.mozilla.org/fr/docs/Web/CSS/grid-row'>grid-row</doclink>
-<doclink href='https://www.w3schools.com/cssref/pr_grid-row.php'>grid-row</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/grid-row">grid-row</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_grid-row.php">grid-row</doclink>
 
 
 
@@ -119,7 +119,7 @@ grid-row-end: 4;</highlight>
 <dots></dots>
 <grostitre>grid-area</grostitre>
  <p>La propriété <incode>grid-area</incode> permet de définir à la fois la valeur de &nbsp;<incode>grid-row-start</incode>,&nbsp;<incode>grid-column-start</incode>,&nbsp;<incode>grid-row-end</incode> et&nbsp;<incode>grid-column-end</incode>.</p><p>Par exemple le code suivant:</p>
- <highlight lang='css'>.no1 {
+ <highlight lang="css">.no1 {
   grid-row-start: 1;
   grid-column-start: 2;
   grid-row-end: 3;
@@ -135,8 +135,8 @@ grid-row-end: 4;</highlight>
 </p>
 
 
-<doclink href='https://developer.mozilla.org/fr/docs/Web/CSS/grid-area'>grid-area</doclink>
-<doclink href='https://www.w3schools.com/cssref/pr_grid-area.php'>grid-area</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/grid-area">grid-area</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_grid-area.php">grid-area</doclink>
 
 
 
@@ -156,8 +156,8 @@ grid-row-end: 4;</highlight>
 <p></p>
 <alert><em class="note__tagline">Erreur fréquente</em><br><incode>grid-template-areas</incode> prend un <em>"s"</em> à la&nbsp;fin.</alert>
 
-<doclink href='https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-areas'>grid-template-areas</doclink>
-<doclink href='https://www.w3schools.com/cssref/pr_grid-template-areas.php'>grid-template-areas</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-areas">grid-template-areas</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_grid-template-areas.php">grid-template-areas</doclink>
 
 <dots></dots>
 

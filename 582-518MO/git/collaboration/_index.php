@@ -38,7 +38,7 @@
           <p>Un conflit se produit lorsque nous tentons de pousser des nouveaux changements, alors que d'autres changements ont déjà étés effectués au même endroit sur le repo en lignes depuis la dernière fois que nous avons tiré.</p><p>Autrement dit, GIT nous informe qu'il sera impossible pour lui de garder le progrès de tout le monde, qu'une décision devra être prise et nous laisse le soin de faire ce choix.</p><p>GIT indiquera quel fichier est touché par le conflit et ajoute des commentaires dans celui-ci pour nous aider à les identifier.</p><p>Par exemple:</p>
 
 
-          <highlight lang='html'>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+          <highlight lang="html">&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 Code écrit par le premier développeur 👩
 =======
 Code écrit par le deuxième développeur 👨

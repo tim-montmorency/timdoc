@@ -14,7 +14,7 @@
 </p>
    
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/the-incredible-machine.mp4'></clipasset>
+<clipasset src="images/the-incredible-machine.mp4"></clipasset>
 
 
 <grostitre>Matériel</grostitre>
@@ -46,5 +46,5 @@ Combinez différentes animations afin de faire:<br> - Rouler le ballon de&nbsp;b
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../timeline") ?>
+<intlink href="../../timeline"></intlink>
 

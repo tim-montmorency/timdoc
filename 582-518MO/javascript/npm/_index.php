@@ -22,7 +22,7 @@
 <grostitre>Installation de Node.js</grostitre>
 <p>D'abord installez node.js.</p>
 <p>Pour vérifier son installation sur un poste ou simplement pour voir son numéro de version, il est possible de taper dans un terminal la commande:</p>
-<highlight lang='cmd'>node -v</highlight>
+<highlight lang="console">> node -v</highlight>
 <p><incode>-v</incode> comme dans <em>"version"</em>.</p>
 
 <p>S'il n'est pas installé, il est conseillé de l'installer via un <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-version-manager-to-install-nodejs-and-npm" target="_blank" rel="noopener noreferrer">Node Version Manager</a>. </p>
@@ -34,11 +34,11 @@
 
 <p>Pour vérifier son installation sur un poste ou simplement pour voir son numéro de version, il est possible de taper dans un terminal la commande:</p>
 
-<highlight lang='cmd'>npm -v</highlight>
+<highlight lang="console">> npm -v</highlight>
 
 <p><incode>-v</incode> comme dans <em>"version"</em>.</p>
 
-<doclink href='https://docs.npmjs.com/cli/v7/commands/npm-version'>Version NPM</doclink>
+<doclink href="https://docs.npmjs.com/cli/v7/commands/npm-version">Version NPM</doclink>
 
 
 
@@ -50,17 +50,17 @@
 <info>La façon la plus simple d’ouvrir un terminal à même le dossier d’un projet est d’ouvrir le dossier du projet dans Visual Studio Code et d’ouvrir un terminal à partir de VsCode. Le terminal sera alors ouvert par défaut dans le dossier du&nbsp;projet.</info>
          
 <p>Lancer ensuite la commande:</p>
-<highlight lang='cmd'>npm init</highlight>
+<highlight lang="cmd">npm init</highlight>
 
 <p>Et répondez aux diverses questions posées.</p>
 
 <p>Si vous n’êtes pas certains des réponses à offrir ou désirez accélérer ce processus, il est possible de créer un fichier <em>package.json</em> avec les valeurs par défaut en utilisant la commande:</p>
 
-<highlight lang='cmd'>npm init -y</highlight>
+<highlight lang="cmd">npm init -y</highlight>
 
 <info>Il sera toujours possible de modifier ces valeurs plus tard directement dans le fichier&nbsp;<em>package.json</em>.</info>
 
-<doclink href='https://docs.npmjs.com/cli/v7/commands/npm-init'>Init NPM</doclink>
+<doclink href="https://docs.npmjs.com/cli/v7/commands/npm-init">Init NPM</doclink>
 
 
 
@@ -92,12 +92,12 @@
 <p>Pour ajouter un paquet dans un projet, il suffit de lancer la commande <incode>npm i</incode>, suivie du nom du paquet désiré.</p>
 <p>Par exemple, afin d'installer lodash dans un projet, il suffit de taper la commande:</p>
 
-<highlight lang='html'>npm i lodash</highlight>
+<highlight lang="html">npm i lodash</highlight>
 <p><incode>i</incode> comme dans <em>"install"</em>.</p><p>Remarquez l'ajout d'un dossier intitulé <em>"nodes_modules"</em> à la racine de votre projet. Ce dossier contient les paquets que vous avez téléchargés.</p>
 
 <p>Vous remarquerez aussi que dans votre fichier package.json qu'un objet <em>"dependencies"</em> fut ajouté et que celui-ci contient maintenant une référence à lodash et a son numéro de version.</p>
 
-<doclink href='https://docs.npmjs.com/cli/v7/commands/npm-install'>Install packages</doclink>
+<doclink href="https://docs.npmjs.com/cli/v7/commands/npm-install">Install packages</doclink>
 
 
 

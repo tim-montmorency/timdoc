@@ -46,7 +46,7 @@ Basez-vous sur les classes CSS déjà présentes afin de déterminer la structur
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../javascript/fetch-api/") ?>
+<intlink href="../../javascript/fetch-api/"></intlink>
 <doclink href="https://smnarnold.com/cours/javascript/boucle-foreach">Boucle forEach()</doclink><br>
 <doclink href="https://smnarnold.com/cours/javascript/manipulation-des-contenus">Manipulation des contenus</doclink>
 

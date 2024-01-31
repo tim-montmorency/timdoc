@@ -27,7 +27,7 @@
 <p>Par exemple, la donnée <incode>msg</incode> change de valeur en fonction du changement de value dans le champ suivant.
 </p>
 
-<highlight lang='html'>&lt;input type=&quot;text&quot; v-model=&quot;msg&quot; /&gt;
+<highlight lang="html">&lt;input type=&quot;text&quot; v-model=&quot;msg&quot; /&gt;
 &lt;h1&gt;{ { msg } }&lt;/h1&gt;</highlight>
 <small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
 
@@ -43,7 +43,7 @@
 
 
 <br>
-<doclink href='https://vuejs.org/guide/essentials/forms.html#text'>Champs texte</doclink>
+<doclink href="https://vuejs.org/guide/essentials/forms.html#text">Champs texte</doclink>
 
 
 
@@ -55,7 +55,7 @@
 <grostitre>Boite à cocher</grostitre>
 <p>Les boites à cocher synchronisent l’attribut <incode>checked</incode> avec la donnée qui leur est associée.</p>
 
-<highlight lang='html'>&lt;input type=&quot;checkbox&quot; v-model=&quot;msg&quot; /&gt;
+<highlight lang="html">&lt;input type=&quot;checkbox&quot; v-model=&quot;msg&quot; /&gt;
 &lt;h1&gt;Afficher le meme: { { msg } }&lt;/h1&gt;
 </highlight>
 
@@ -70,7 +70,7 @@
 
 <p>Leur usage est tout indiqué entre autres pour déterminer si un élément devrait être affiché ou masqué à l'aide d'un
     <incode>v-if</incode>.</p>
-<doclink href='https://vuejs.org/guide/essentials/forms.html#checkbox'>Boite à cocher</doclink>
+<doclink href="https://vuejs.org/guide/essentials/forms.html#checkbox">Boite à cocher</doclink>
 
 
 <dots></dots>
@@ -79,7 +79,7 @@
 
 <p>Les boutons radio synchronisent l’attribut <incode>value</incode> du bouton qui est coché avec la donnée qui leur est associée.</p>
 
-<highlight lang='html'>&lt;input type=&quot;radio&quot; id=&quot;option&quot; v-model=&quot;msg&quot; value=&quot;Texte 1&quot; /&gt;
+<highlight lang="html">&lt;input type=&quot;radio&quot; id=&quot;option&quot; v-model=&quot;msg&quot; value=&quot;Texte 1&quot; /&gt;
 &lt;input type=&quot;radio&quot; id=&quot;option&quot; v-model=&quot;msg&quot; value=&quot;Texte 2&quot; /&gt;
 &lt;h1&gt;{ { msg } }&lt;/h1&gt;</highlight>
 <small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
@@ -93,7 +93,7 @@
 </p>
 
 <br>
-<doclink href='https://vuejs.org/guide/essentials/forms.html#radio'>Boutons radio</doclink>
+<doclink href="https://vuejs.org/guide/essentials/forms.html#radio">Boutons radio</doclink>
 
 
 
@@ -104,7 +104,7 @@
 
 <p>Les menus déroulants synchronisent l’attribut <incode>value</incode> de l'option sélectionnée avec la donnée qui leur est associée.</p>
 
-<highlight lang='html'>&lt;select v-model=&quot;msg&quot;&gt;
+<highlight lang="html">&lt;select v-model=&quot;msg&quot;&gt;
   &lt;option value=&quot;Texte 1&quot;&gt;Écouteurs&lt;/option&gt;
   &lt;option value=&quot;Texte 2&quot;&gt;Squid Game&lt;/option&gt;
 &lt;/select&gt;
@@ -119,4 +119,4 @@
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-<doclink href='https://vuejs.org/guide/essentials/forms.html#select'>Menu déroulant</doclink>
+<doclink href="https://vuejs.org/guide/essentials/forms.html#select">Menu déroulant</doclink>

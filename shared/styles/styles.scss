@@ -8,6 +8,7 @@
 @use 'components/dots';
 @use 'components/infobubble';
 @use 'components/audioplayer';
+@use 'components/tune';
 @use 'components/mediafile';
 @use 'components/codepen';
 @use 'components/doclink';
@@ -51,6 +52,8 @@ html {
 
 
 body {
+    color: black;
+    background-color: white;
     height: 100vh;
     background-repeat: repeat-x;
     padding-bottom: variables.$footer_height;
@@ -158,7 +161,6 @@ header {
 
     }
 }
-
 
 #subhead {
     position: relative;

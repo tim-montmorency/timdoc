@@ -12,12 +12,12 @@
 
 <p>Aperçu du résultat 👇</p>
 
-<clipasset src='images/grid-spotify.mp4'></clipasset>
+<clipasset src="images/grid-spotify.mp4"></clipasset>
 
 
 
 <grostitre>Matériel</grostitre>
-<doclink href='https://codepen.io/tim-momo/pen/MWZoBWB'>Pen de départ</doclink>
+<doclink href="https://codepen.io/tim-momo/pen/MWZoBWB">Pen de départ</doclink>
 <warning>Les medias queries sont interdits.</warning>
 
 <dots></dots>
@@ -39,5 +39,5 @@ La grille de suggestions doit afficher autant de listes de lecture que possible 
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../css/grid/") ?>
+<intlink href="../../css/grid/"></intlink>
 

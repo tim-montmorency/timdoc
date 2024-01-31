@@ -12,7 +12,7 @@
 <p>Pour cet exercice, vous devez à l’aide de GSAP animer les différentes partie d’une voiture afin de la faire rouler et reculer sur la route.</p>
    
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/gsap-voiture-turquoise.mp4'></clipasset>
+<clipasset src="images/gsap-voiture-turquoise.mp4"></clipasset>
 
 
 <grostitre>Matériel</grostitre>
@@ -31,5 +31,5 @@ Faites faire un tour complet aux roues en l'espace d'une seconde à vitesse cons
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../objet-et-methodes/#interpolations-de-base") ?>
+<intlink href="../../objet-et-methodes/#interpolations-de-base"></intlink>
 

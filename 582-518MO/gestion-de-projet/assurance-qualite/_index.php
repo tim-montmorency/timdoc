@@ -22,7 +22,7 @@ sécuritaire et performant. Ces qualités évitent les mauvaises surprises, perm
 
 <p>Par exemple, une assurance qualité adéquate permet d'éviter ce type de&nbsp;situations:</p>
 
-<clipasset src='images/cybertruck-fail.mp4'></clipasset>
+<clipasset src="images/cybertruck-fail.mp4"></clipasset>
 
 
 

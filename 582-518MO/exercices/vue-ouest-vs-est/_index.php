@@ -11,12 +11,12 @@
 <p>Dans les années 90, <a href="https://fr.wikipedia.org/wiki/Rivalit%C3%A9_East_Coast/West_Coast" target="_blank">une rivalité opposa les rappeurs de la côte ouest Américaine 🇺🇸 à ceux de la côte est</a>. Afin d’afficher quel rappeur appartenait à quel camp, vous devrez compléter une app&nbsp;Vue.</p>
 
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/west-coast-vs-east-coast-resultat.mp4'></clipasset>
+<clipasset src="images/west-coast-vs-east-coast-resultat.mp4"></clipasset>
 
 
 <dots></dots>
 <grostitre>Matériel</grostitre>
-<doclink href='https://codepen.io/tim-momo/pen/YzBEWbE'>Pen de départ</doclink>
+<doclink href="https://codepen.io/tim-momo/pen/YzBEWbE">Pen de départ</doclink>
    
 <p>Le CSS est déjà réalisé et le cadriciel Vue est déjà installé pour vous dans le pen de départ.</p>
 
@@ -34,6 +34,6 @@ Faites en sorte que les boutons de côtes aillent la classe <em>btn</em> par dé
 <grostitre>Notes de cours 📚</grostitre>
    
 
-<?php intlink("../../javascript/vue-js/introduction/") ?>
-<?php intlink("../../javascript/vue-js/creation-app-bases/") ?>
+<intlink href="../../javascript/vue-js/introduction/"></intlink>
+<intlink href="../../javascript/vue-js/creation-app-bases/"></intlink>
 

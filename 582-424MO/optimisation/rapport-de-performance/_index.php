@@ -2,9 +2,10 @@
 /**
  * @type     article
  * @title    2-Rapport de performance
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Créer un rapport de performance et corrigez le tir
  * @index    490
+ * @ref      web/optimisation
  */
 ?>
 

@@ -12,7 +12,7 @@
 <p>Pour cet exercice, vous devez à l’aide de GSAP animer une voiture afin de la faire rouler sur la&nbsp;route.</p>
    
 <p>Aperçu du résultat 👇</p>
-<clipasset src='images/gsap-voiture-jaune.mp4'></clipasset>
+<clipasset src="images/gsap-voiture-jaune.mp4"></clipasset>
 
 
 <grostitre>Matériel</grostitre>
@@ -28,5 +28,5 @@
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<?php intlink("../../objet-et-methodes/#interpolations-de-base") ?>
+<intlink href="../../objet-et-methodes/#interpolations-de-base"></intlink>
 

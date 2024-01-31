@@ -19,13 +19,13 @@
 <p>Voici un exemple de centrage vertical d'un div à l'aide de flexbox :</p>
 
 
-<highlight lang='html'>&lt;div class=&quot;parent&quot;&gt;
+<highlight lang="html">&lt;div class=&quot;parent&quot;&gt;
   &lt;div class=&quot;centered-div&quot;&gt;
     Cet élément est centré.
   &lt;/div&gt;
 &lt;/div&gt;</highlight>
 
-<highlight lang='css'>.parent {
+<highlight lang="css">.parent {
   display : flex ;
   align-items : center ;
   justify-content : center ;
@@ -48,14 +48,14 @@
 
 
 
-<highlight lang='html'>&lt;div class=&quot;parent&quot;&gt;
+<highlight lang="html">&lt;div class=&quot;parent&quot;&gt;
   &lt;div class=&quot;item1&quot;&gt;
     Article 1
   &lt;/div&gt;
 &lt;/div&gt;</highlight>
 
 
-<highlight lang='css'>.parent {
+<highlight lang="css">.parent {
   display : grid ;
 }
 

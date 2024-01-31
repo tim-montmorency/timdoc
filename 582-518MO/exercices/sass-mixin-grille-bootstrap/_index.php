@@ -11,11 +11,11 @@
 
 <p>Aperçu du résultat 👇</p>
 
-<clipasset src='images/scss-grille-bootstrap.mp4'></clipasset>
+<clipasset src="images/scss-grille-bootstrap.mp4"></clipasset>
 
 <grostitre>Matériel</grostitre>
  
-<doclink href='https://codepen.io/smnarnold/pen/rNwxGqQ'>Pen de départ</doclink>
+<doclink href="https://codepen.io/smnarnold/pen/rNwxGqQ">Pen de départ</doclink>
 
 
 
@@ -55,7 +55,7 @@ Retirez la bordure noire de votre <incode>.container</incode> et voilà ✨ Vous
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<?php intlink("../../sass/imbrication/") ?>
-<?php intlink("../../sass/variables/") ?>
-<?php intlink("../../sass/mixins/") ?>
-<doclink href='https://smnarnold.com/cours/css/flexbox-avance'>Flexbox avancé</doclink>
+<intlink href="../../sass/imbrication/"></intlink>
+<intlink href="../../sass/variables/"></intlink>
+<intlink href="../../sass/mixins/"></intlink>
+<doclink href="https://smnarnold.com/cours/css/flexbox-avance">Flexbox avancé</doclink>

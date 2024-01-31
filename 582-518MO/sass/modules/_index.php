@@ -24,14 +24,14 @@
 
 <p>Par exemple, la feuille de style principale d'un projet pourrait se nommer <em>style.scss</em> et pourrait charger, sous forme de module, le partial contenant la composante d'entête du site:</p>
 
-<highlight lang='css'>@use 'site-header';</highlight>
+<highlight lang="scss">@use 'site-header';</highlight>
 
 <info>Remarquez qu’il n’est pas nécessaire d’inclure le <incode>"_"</incode> spécifiant qu’il s’agit d’un partial, ni l’extension <incode>".scss"</incode> puisque Sass est assez intelligent pour savoir que vous chargez une partial de type&nbsp;Sass.</info>
 
 <p>Il est fréquent qu'une feuille de style globale ne soit constituée que de <incode>@use</incode> chargeant les différentes composantes d'un site.</p>
 
-<doclink href='https://sass-lang.com/documentation/at-rules/use'>@use</doclink>
-<doclink href='https://css-tricks.com/introducing-sass-modules/'>Différence @import et @use</doclink>
+<doclink href="https://sass-lang.com/documentation/at-rules/use">@use</doclink>
+<doclink href="https://css-tricks.com/introducing-sass-modules/">Différence @import et @use</doclink>
 
 <p>>>> Demo en classe de l'utilisation de partials par Bootstrap et par timdoc.</p>
 
@@ -43,7 +43,7 @@
 
 <p>Il est fréquent qu'un ou des mixins soient importés via <incode>@use</incode> dans d'autres composantes. </p><p>Prenons l'exemple d'un partial intitulé <em>_text.scss</em>. À l'intérieur de ce fichier ne se trouve que des mixins ayant pour but de manipulant l'apparence d'éléments texte. Un des mixins à l'intérieur pourrait ressembler à ceci:</p>
 
-<highlight lang='css'>@mixin small-capitals {
+<highlight lang="scss">@mixin small-capitals {
   font-size: 12px;
   font-weight: normal;
   text-transform: uppercase;
@@ -60,7 +60,7 @@
 </ol>
 
 
-<highlight lang='css'>@use "text";
+<highlight lang="scss">@use "text";
 
 .hero {
   @include text.small-capitals;

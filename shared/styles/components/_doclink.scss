@@ -266,3 +266,12 @@ a.doclink {
         background-color: #21759b;
     }
 }
+
+.doclink.npm {
+    .doclink-icon {
+        background-image: url('../images/icons/npm-icon.webp');
+    }
+    &::before {
+        background-color: #c93737;
+    }
+}
