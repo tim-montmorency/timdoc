@@ -22,32 +22,34 @@ Taille des carrés: 3000 x 1687,5 pixels
 <dots></dots>
 
 <grostitre>Références</grostitre>
-Voici les <a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EmHMF9LjdVpCqm80aCYOXWABJI8jWhOxGgpvKgq_Ff146A?e=o0cErS">références</a> pour le projet.
+<p>Voici les références pour le projet:</p>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EmHMF9LjdVpCqm80aCYOXWABJI8jWhOxGgpvKgq_Ff146A?e=o0cErS">Références</doclink>
 
 
 <dots></dots>
 <grostitre>Classement des fichiers</grostitre>
 <checklist>
-Vous devez créer une copie de ce <a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/En9fG45TPWVPrnnP0ZntoRsBXbXjURDPq3tecnUVzgb2Lw?e=nUhgSU">fichier</a>, le mettre à votre nom et y classer vos dossiers.
+Vous devez créer une copie du dossier de départ ci-bas, le mettre à votre nom et y classer vos dossiers. 
 Vous devez remettre votre projet au format AI dans le dossier 02_ai. 
 Vous devez remettre une exportation au format .jpg de votre travail dans le dossier 03_exportation.  </checklist>
-
+<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/En9fG45TPWVPrnnP0ZntoRsBXbXjURDPq3tecnUVzgb2Lw?e=nUhgSU">Dossier de départ</doclink>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EQj-Oj0VSNBJpLFAHRulZ5wBTmUFtGri0GR5AexPx_vJcQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xduQbb">Capsule vidéo référence</doclink>
 
 
 <dots></dots>
 <grostitre>Nom des calques</grostitre>
 <checklist>
-Nommer les calques avec c1_description (c1 = case 1, c2 = case 2). Attention pas de majuscules, espaces ou caractères spéciaux. Respecter la nomenclature des <a href ="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EmjsQxTDN3VIjHUnNffPJgABbIbQ7LO75eL3qtwuU35VnA?e=oyisrN">captures d’écran.</a> 
+Nommer les calques avec c1_description (c1 = case 1, c2 = case 2). Attention: pas de majuscules, espaces ou caractères spéciaux. Respecter la nomenclature des captures d’écran ci-bas.
 Assurez-vous d’avoir bien séparé vos calques, donc si dans les captures d’écran les cheveux et le visage du personnage sont séparés, vous devez faire de même dans votre projet!
 </checklist>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EmjsQxTDN3VIjHUnNffPJgABbIbQ7LO75eL3qtwuU35VnA?e=oyisrN">Captures d'écran</doclink>
 
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EQj-Oj0VSNBJpLFAHRulZ5wBTmUFtGri0GR5AexPx_vJcQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xduQbb">Capsule vidéo référence</doclink>
 
 <dots></dots>
 <grostitre>Couleurs</grostitre>
 <checklist>
-Vous devez créer un nuancier et utiliser les <a href ="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EcAg4pZkm4RAjshco8Vz_9wBk-h10DL1AqXznu8GzkefYg?e=BqWDYQ">couleurs suivantes</a> pour votre projet:
+Vous devez créer un nuancier et utiliser les couleurs suivantes pour votre projet:
 </checklist>
 
 <p><color>#172c33</color>
@@ -81,8 +83,10 @@ Vous devez créer un nuancier et utiliser les <a href ="https://cmontmorency365-
 
 <p>1. <a href ="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EZCFiYjgWCNCpIHrgRNYDQcBXXDxapaKDJVAh2U6uj-vqA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7f589Z">Activer</a>  la typographie via Adobe</p>
 <p>OU</p>
-<p>2. Si vous n'avez pas accès à la typo, la <a href ="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EYeL7vP2mZRIjjcZ1EUy7QMBHlOI4xxtB7uc177nGP0KTw?e=0jnM1Y">télécharger</a> ici et l'ajouter à votre projet.
+<p>2. Si vous n'avez pas accès à la typo, la télécharger et l'ajouter à votre projet.</p>
 
+
+<doclink href ="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EYeL7vP2mZRIjjcZ1EUy7QMBHlOI4xxtB7uc177nGP0KTw?e=0jnM1Y">Typographie Filson bold</doclink>
 <dots></dots>
 
 <grostitre>Typographie 3D Isométrique</grostitre>
@@ -120,17 +124,20 @@ Vous devez créer un nuancier et utiliser les <a href ="https://cmontmorency365-
 <dots></dots>
 
 <grostitre>Oiseaux</grostitre>
-<checklist>Tracer les oiseaux avec l'outil plume à partir de <a  href="https://cmontmorency365-my.sharepoint.com/:i:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUx8MRejHtJOmPS3jfrigiYBLdcRplNSCllpjS9dsFwMyQ?e=7ERejf">l'image de référence.</a></checklist>
+<checklist>Tracer les oiseaux avec l'outil plume à partir de l'image de référence:</checklist>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:i:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUx8MRejHtJOmPS3jfrigiYBLdcRplNSCllpjS9dsFwMyQ?e=7ERejf">Image de référence</doclink>
 
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EbCE4yHq9M1Gv9cWbmwHq0ABtIk3nGPJKL2AWYgMGI5ymw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2nnMKj">Capsule vidéo référence</doclink>
 <dots></dots>
 
 <grostitre>Cactus noir et blanc</grostitre>
-<checklist>Vectorisation de <a  href="https://cmontmorency365-my.sharepoint.com/:i:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ER15ngQoARpGv1woiZioASgBvH70XyRVXkT0fUGrOhEHbA?e=PYA48B">l'image.</a></checklist>
+<checklist>Vectorisation de l'image:</checklist>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:i:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ER15ngQoARpGv1woiZioASgBvH70XyRVXkT0fUGrOhEHbA?e=PYA48B">Image de départ</doclink>
 
+<p>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXRn9MC1CM1Cvtm8idjDzrkBIKObuoEC6T1whEy5oIW58w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oRMWyz">Capsule vidéo référence</doclink>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EQxvVukVdoNNuMUHtJv_lAYBum0tGbmEKgz8wCj0PxISmA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yEYbFt">Capsule vidéo vectorisation</doclink>
-
+</p>
 <dots></dots>
 
 <grostitre>Cactus couleur</grostitre>
