@@ -1196,9 +1196,9 @@ a.tool div.tool-container div.tool-abstract .tool-description {
 pre.highlight {
   font-size: 16px;
   padding-bottom: 25px;
-  white-space: pre-wrap;
   margin-left: -25px;
   margin-right: -25px;
+  overflow-x: auto;
 }
 @media (max-width: 770px) {
   pre.highlight {

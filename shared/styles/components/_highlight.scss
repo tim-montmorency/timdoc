@@ -1,14 +1,19 @@
 pre.highlight {
     font-size: 16px;
     padding-bottom: 25px;
-    white-space: pre-wrap;
+    // white-space: pre-wrap;
+    // white-space: nowrap;
     margin-left: -25px;
     margin-right: -25px;
+    overflow-x: auto;
 
     @media (max-width: 770px)  {
         font-size: 12px;
     }
-
+    // code {
+    //     // white-space: nowrap;
+    //     overflow-x: auto;
+    // }
 }
 
 pre.highlight:has(+ small) {
