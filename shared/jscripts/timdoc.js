@@ -189,6 +189,12 @@ const app = Vue.createApp({
                     evt.stopPropagation();
                 });
             });
+            document.querySelectorAll('div.checklist a').forEach((elm) => {
+                elm.target = "_blank";
+                elm.addEventListener('click', (evt) => {
+                    evt.stopPropagation();
+                });
+            });
         });
     },
     methods: {
