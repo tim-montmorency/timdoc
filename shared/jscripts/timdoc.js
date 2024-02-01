@@ -185,6 +185,8 @@ const app = Vue.createApp({
             document.querySelectorAll('span.inline-code').forEach((elm) => {
                 elm.addEventListener('click', (evt) => {
                     selectElementText(elm);
+                    evt.preventDefault();
+                    evt.stopPropagation();
                 });
             });
         });
