@@ -123,6 +123,18 @@ const hcd = (a, b) => {
 
 
 /******************************************************
+ *            Select text from an element             *
+ ******************************************************/
+const selectElementText = (elm) => {
+    let range = document.createRange();
+    range.selectNodeContents(elm);
+    let sel = window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(range);
+}
+
+
+/******************************************************
  *                     Mount App                      *
  ******************************************************/
 function timdocMount() {
@@ -168,6 +180,13 @@ const app = Vue.createApp({
         window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
             if (event.matches) this.setDarkMode();
             else this.setLightMode();
+        });
+        this.$nextTick(() => {
+            document.querySelectorAll('span.inline-code').forEach((elm) => {
+                elm.addEventListener('click', (evt) => {
+                    selectElementText(elm);
+                });
+            });
         });
     },
     methods: {

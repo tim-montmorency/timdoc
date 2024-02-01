@@ -1681,6 +1681,7 @@ span.inline-code {
   font-size: 16px;
   font-style: normal;
   color: black;
+  cursor: pointer;
 }
 
 a {
