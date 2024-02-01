@@ -196,6 +196,9 @@ const app = Vue.createApp({
                     evt.stopPropagation();
                 });
             });
+            document.querySelectorAll('#wiki__pages a').forEach((elm) => {
+                elm.target = '_blank';
+            });
         });
     },
     methods: {
