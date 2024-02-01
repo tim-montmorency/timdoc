@@ -80,6 +80,7 @@ Vous devez créer un nuancier et utiliser les couleurs suivantes pour votre proj
 <grostitre>Typographie</grostitre>
 <p>Typographie utilisée:<b>Filson bold</b>.</p>
 <p>Taille de la typo: 1274.97</p>
+<p>Couleur : intérieur : jaune / contour : rouge à 10 pt</p>
 
 <p>1. <a href ="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EZCFiYjgWCNCpIHrgRNYDQcBXXDxapaKDJVAh2U6uj-vqA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7f589Z">Activer</a>  la typographie via Adobe</p>
 <p>OU</p>
@@ -92,8 +93,8 @@ Vous devez créer un nuancier et utiliser les couleurs suivantes pour votre proj
 <grostitre>Typographie 3D Isométrique</grostitre>
 <p>Effets: </p>
 <checklist>
-    Rotation 3D isométrique haut.
-    Distorsion et transformation | Transofrmation de l'image avec 15 copies avec un décalage vertical de 16 pixels.
+    Effet / 3D et matières / 3D (Classique) /Rotation (classique) / isométrique haut (attention l'effet a changé d'endroit).
+    Effet / Distorsion et transformation / Transformation de l'image avec 15 copies avec un décalage vertical de 16 pixels.
 </checklist>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ebxc3CvmysdDpNlMnZLzXagBDTJWRL5Zkqua_hc4R6hNcw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aQQZFE">Capsule vidéo référence</doclink>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EX-wZyV308VKrJBdGO17cGsB-y43V7ZVQTRkn8i-TuPY6w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OZCYM3">Capsule vidéo effet isométrique</doclink>
