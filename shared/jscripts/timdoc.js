@@ -191,6 +191,7 @@ const app = Vue.createApp({
             });
             document.querySelectorAll('div.checklist a').forEach((elm) => {
                 elm.target = "_blank";
+                elm.rel = "noopener noreferrer";
                 elm.addEventListener('click', (evt) => {
                     evt.stopPropagation();
                 });
