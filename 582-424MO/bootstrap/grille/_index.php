@@ -49,7 +49,7 @@
 
 <highlight lang="html">&lt;div class=&quot;container&quot;&gt;...&lt;/div&gt;</highlight>
 
-<p>Cette balise sera maintenant centrée horizontalement dans la page et aura une largeur différente en fonction de la dimension de l'écran et des différents&nbsp;<a target="_blank" rel="noopener noreferrer" href="/cours/bootstrap/breakpoints">breakpoints Bootstrap</a>. Créant ainsi une&nbsp;<a target="_blank" rel="noopener noreferrer" href="/cours/css/responsive">mise en page adaptive</a>.</p>
+<p>Cette balise sera maintenant centrée horizontalement dans la page et aura une largeur différente en fonction de la dimension de l'écran et des différents&nbsp;<a target="_blank" rel="noopener noreferrer" href="../breakpoints">breakpoints Bootstrap</a>. Créant ainsi une&nbsp;<a target="_blank" rel="noopener noreferrer" href="../../../582-215MO/css/responsive/">mise en page adaptive</a>.</p>
 
 <p>Par exemple:</p>
 <table>
