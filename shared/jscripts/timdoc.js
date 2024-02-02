@@ -196,9 +196,6 @@ const app = Vue.createApp({
                     evt.stopPropagation();
                 });
             });
-            document.querySelectorAll('#wiki__pages a').forEach((elm) => {
-                elm.target = '_blank';
-            });
         });
     },
     methods: {
@@ -1105,6 +1102,10 @@ app.component('wiki', {
                 if (activePage == null) this.setActivePage(this.pages[0].id);
                 else this.setActivePage(activePage);
             }, 1);
+            document.querySelectorAll('#wiki__pages a').forEach((elm) => {
+                elm.rel = "noopener noreferrer";
+                elm.target = '_blank';
+            });
         });
     },
     methods: {
