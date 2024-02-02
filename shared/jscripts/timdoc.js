@@ -560,7 +560,9 @@ app.component('doclink', {
                 case 'developer.vuforia.com': site = 'vuforia'; break;
                 case 'cmontmorency365-my.sharepoint.com': site = 'momo'; break;
                 case 'cmontmorency365.sharepoint.com': site = 'momo'; break;
+                case 'www.cmontmorency.qc.ca': site = 'momo'; break;
                 case 'teams.microsoft.com': site = 'momo'; break;
+                case 'ccti.cmontmorency.qc.ca': site = 'momo'; break;
                 case 'github.com': site = 'github'; break;
                 case 'developers.google.com': site = 'google'; break;
                 case 'youtu.be': site = 'youtube'; break;
