@@ -61,7 +61,7 @@ Pas de combats entre les membres de l'équipage.  </p>
 <p>Le but de l'exercice est de reproduire le même texte qu'en bas avec notre texte du haut.</p>
 <checklist>
 Assurez-vous de télécharger la police Orbitron ci-haut et installez-la sur votre ordinateur.
-Allez dans la barre de texte, puis sélectionnez: Convertir le texte en chemin modifiables. 
+Allez dans la barre de texte, puis sélectionnez: Vectoriser. 
 Assurez-vous que les repères commentés sont activés. 
 Utilisez les outils V et A pour modifier les lettre et reproduire la même chose qu'en bas. 
 </checklist>
