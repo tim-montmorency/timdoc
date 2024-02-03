@@ -189,13 +189,6 @@ const app = Vue.createApp({
                     evt.stopPropagation();
                 });
             });
-            document.querySelectorAll('div.checklist a').forEach((elm) => {
-                elm.target = "_blank";
-                elm.rel = "noopener noreferrer";
-                elm.addEventListener('click', (evt) => {
-                    evt.stopPropagation();
-                });
-            });
         });
     },
     methods: {
@@ -956,6 +949,15 @@ app.component('checklist', {
     },
     created() {
         this.$nextTick(() => {
+            let localurl = new URL(location.href, document.baseURI);
+            this.$refs.checklist.querySelectorAll('a').forEach((elm) => {
+                let targeturl = new URL(elm.href, document.baseURI);
+                if(!(targeturl.hash && localurl.host == targeturl.host && localurl.pathname == targeturl.pathname)){
+                    elm.target = "_blank";
+                    elm.rel = "noopener noreferrer";
+                }
+                elm.addEventListener('click', (evt) => { evt.stopPropagation(); });
+            });
             this.progressbar = document.getElementById(this.hash + '-progressbar');
             this.updateProgressBar();
         });
@@ -983,7 +985,7 @@ app.component('checklist', {
         }
     },
     template:
-        `<div class="checklist">` +
+        `<div ref="checklist" class="checklist">` +
             `<div class="pourcentage">{{ progress }}%</div>` +
             `<div :id="this.hash + '-progressbar'" class="progressbar" :style="'background-size: ' + this.progress + '% 100%;'"></div>` +
             `<ol>` +
