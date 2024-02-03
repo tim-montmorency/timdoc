@@ -497,58 +497,6 @@ body.dark table tr:nth-child(even) td {
     display: none;
   }
 }
-.audioplayer {
-  width: 770px;
-  height: 100px;
-  margin-bottom: 25px;
-  margin-left: -25px;
-  margin-right: -25px;
-  background-color: #eeeeee;
-  border: 1px solid #919191;
-  display: flex;
-}
-.audioplayer__button {
-  cursor: pointer;
-  width: 100px;
-  height: 98px;
-  background-image: url("../images/assets/audioplayer-btn.webp");
-  background-position: 0px 0px;
-  background-repeat: no-repeat;
-  opacity: 60%;
-}
-.audioplayer__button:hover {
-  opacity: 100%;
-}
-.audioplayer__button.pause {
-  background-position: -100px 0px;
-}
-.audioplayer__waveform {
-  position: relative;
-  cursor: crosshair;
-  height: 98px;
-  width: 668px;
-  background-color: #eeeeee;
-  background-size: 0px 0px;
-}
-.audioplayer__waveform::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-image: inherit;
-  opacity: 80%;
-}
-.audioplayer__progress {
-  width: 0%;
-  height: 100%;
-  background-color: #000000;
-  mix-blend-mode: multiply;
-  opacity: 20%;
-}
-.audioplayer__progress:hover {
-  background-color: #920123;
-}
-
 .tune {
   position: relative;
   display: flex;
