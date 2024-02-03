@@ -1232,9 +1232,10 @@ div.checklist ol li {
   margin-bottom: 20px;
   font-size: 18px;
   line-height: 28px;
-  transition-duration: 200ms;
   -webkit-text-decoration-color: var(--main-color);
           text-decoration-color: var(--main-color);
+  text-decoration-thickness: 3px;
+  transition-duration: 200ms;
 }
 div.checklist ol li:hover {
   background-color: #fde8ed;
@@ -1250,7 +1251,8 @@ div.checklist ol li.checked {
 div.checklist ol li.checked::marker {
   content: "✓  ";
 }
-div.checklist ol li a {
+div.checklist ol li a, div.checklist ol li em, div.checklist ol li span {
+  text-decoration-thickness: 3px;
   -webkit-text-decoration-color: var(--main-color);
           text-decoration-color: var(--main-color);
 }
@@ -1268,11 +1270,6 @@ div.checklist div.progressbar {
   background-repeat: no-repeat;
   background-size: 0% 4px;
   transition-duration: 250ms;
-}
-div.checklist code {
-  background-color: rgba(0, 0, 0, 0.05);
-  padding: 0.25em 0.4em 0.4em 0.4em;
-  font-size: 90%;
 }
 
 .knowmore {
@@ -1939,7 +1936,6 @@ footer #copyright {
   margin-top: 50px;
 }
 #contents em, #wiki__pages em {
-  color: #F3CA40;
   color: #F2A541;
 }
 #contents span.remark, #wiki__pages span.remark {

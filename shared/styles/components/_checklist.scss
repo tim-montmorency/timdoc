@@ -21,9 +21,10 @@ div.checklist {
             margin-bottom: 20px;
             font-size: 18px;
             line-height: 28px;
-            transition-duration: 200ms;
             text-decoration-color: var(--main-color);
-
+            text-decoration-thickness: 3px;
+            transition-duration: 200ms;
+            
             &:hover {
                 background-color: #fde8ed;
             }
@@ -34,9 +35,13 @@ div.checklist {
                 text-decoration-color: var(--main-color);
                 text-decoration-thickness: 3px;
                 transition-duration: 200ms;
-                &::marker { content: '\2713   ' }
+                &::marker { content: '\2713   ' }    
             }
-            a { text-decoration-color: var(--main-color); }
+            
+            a, em, span {
+                text-decoration-thickness: 3px;
+                text-decoration-color: var(--main-color);
+            }
 
         }
     }
@@ -58,10 +63,10 @@ div.checklist {
         transition-duration: 250ms;
     }
 
-    code {
-        background-color: rgba(0,0,0,0.05);
-        padding: 0.25em 0.4em 0.4em 0.4em;
-        font-size: 90%;
-    }
+    // code {
+    //     background-color: rgba(0,0,0,0.05);
+    //     padding: 0.25em 0.4em 0.4em 0.4em;
+    //     font-size: 90%;
+    // }
 
 }
