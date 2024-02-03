@@ -1151,17 +1151,6 @@ a.tool div.tool-container div.tool-abstract .tool-description {
   }
 }
 
-.video-js {
-  width: 100%;
-  margin-bottom: 25px;
-}
-.video-js button.vjs-big-play-button {
-  color: #ff003a;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .video-asset-container {
   margin-left: -25px;
   margin-right: -25px;
@@ -1244,19 +1233,26 @@ div.checklist ol li {
   font-size: 18px;
   line-height: 28px;
   transition-duration: 200ms;
+  -webkit-text-decoration-color: var(--main-color);
+          text-decoration-color: var(--main-color);
 }
 div.checklist ol li:hover {
   background-color: #fde8ed;
 }
 div.checklist ol li.checked {
+  opacity: 0.7;
   text-decoration: line-through;
-  -webkit-text-decoration-color: #ff003a;
-          text-decoration-color: #ff003a;
+  -webkit-text-decoration-color: var(--main-color);
+          text-decoration-color: var(--main-color);
   text-decoration-thickness: 3px;
   transition-duration: 200ms;
 }
 div.checklist ol li.checked::marker {
   content: "✓  ";
+}
+div.checklist ol li a {
+  -webkit-text-decoration-color: var(--main-color);
+          text-decoration-color: var(--main-color);
 }
 div.checklist div.pourcentage {
   font-size: 10px;
@@ -1266,7 +1262,7 @@ div.checklist div.progressbar {
   width: calc(100% - 25px);
   height: 4px;
   margin-top: 3px;
-  background-image: linear-gradient(0deg, #ff003a, #ff003a);
+  background-image: linear-gradient(0deg, var(--main-color), var(--main-color));
   background-color: #fde8ed;
   background-position: left;
   background-repeat: no-repeat;
@@ -1629,7 +1625,7 @@ div.quote__title {
   cursor: pointer;
 }
 .correction__criteria__scale:hover, .correction__criteria__scale.checked {
-  background-color: #ff003a;
+  background-color: var(--main-color);
   font-weight: bold;
 }
 

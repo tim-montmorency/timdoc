@@ -54,7 +54,7 @@
             cursor: pointer;
 
             &:hover, &.checked {
-                background-color: #ff003a;
+                background-color: var(--main-color);
                 font-weight: bold;
             }
 
