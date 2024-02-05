@@ -1,7 +1,7 @@
 <?php 
 /**
  * @type     wiki
- * @title    Wiki - Projet Web
+ * @title    Wiki - Optimisation Web
  * @icon     images/icon.png
  * @abstract Contenu du cours - Hiver 2024
  */
@@ -218,7 +218,7 @@
                                     
 ----------------------------------->
 
-<wiki-page name="Cours 06" date="2024-01-30">
+<wiki-page name="Cours 06" date="2024-02-30">
     <h2>Révision et évaluation formative (quiz)</h2>
 </wiki-page>
 
