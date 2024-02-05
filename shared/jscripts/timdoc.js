@@ -387,6 +387,7 @@ const app = Vue.createApp({
                     evt.stopPropagation();
                 });
             });
+            
             const digest = document.querySelector('meta[itemprop="digest"]');
             if(digest.content && localStorage.getItem('digest-'+cyrb53(digest.content)) !== 'true') {
                 (new PasswordModal(digest.content)).show(() => {
