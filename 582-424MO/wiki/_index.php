@@ -158,7 +158,10 @@
 ----------------------->
 <wiki-page name="Cours 03" date="2024-02-04">
     <grostitre>Révision et évaluation formative (quiz)</grostitre>
-
+    <p>Groupe AM :  <a href="https://app.wooclap.com/ALJITP" target="_blank" rel="noopener noreferrer">Code Wooclap: ALJITP</a> <br>
+    Groupe PM :  <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap: </a>
+   </p>
+ 
 
     <grostitre>Annonces</grostitre>
     <p><strong>Tutorat</strong></p>
