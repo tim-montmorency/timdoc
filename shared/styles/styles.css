@@ -121,6 +121,50 @@ body.dark .modal::before {
   background-color: #000000;
 }
 
+.password-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 98vw;
+  max-width: 320px;
+  background-color: white;
+  border: 1px solid black;
+}
+.password-modal table {
+  margin: 0;
+}
+.password-modal table th {
+  text-align: center;
+  font-size: 1.4em;
+}
+.password-modal table td {
+  text-align: center;
+}
+.password-modal input {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 4px;
+  text-align: center;
+}
+.password-modal input[type=text] {
+  width: 100%;
+}
+.password-modal input[type=button], .password-modal input[type=submit] {
+  margin: 0 4px;
+}
+
+body.dark .password-modal {
+  background-color: black;
+  border: 1px solid white;
+}
+body.dark .password-modal textarea, body.dark .password-modal input[type=text] {
+  border: 1px solid white;
+}
+body.dark .password-modal textarea:invalid, body.dark .password-modal input[type=text]:invalid {
+  border-color: var(--main-color);
+}
+
 :root:has(body.dark) {
   color-scheme: dark;
 }

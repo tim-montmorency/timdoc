@@ -4,6 +4,7 @@
  * @title    Eagles of Death Metal - Peace Love Death Metal
  * @icon     images/thumb.jpg
  * @abstract Barèmes de correction
+ * @password patate
  */
 ?>
 
