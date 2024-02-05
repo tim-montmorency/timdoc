@@ -1447,7 +1447,7 @@ class ModalCorrection extends Modal {
         this.form.querySelector('input[name="cancel"]').addEventListener('click', () => { this.hide(); });
         bind(this.form, 'submit', (evt) => { evt.preventDefault(); this.save(); });
         bind(this.cont, 'mousedown', (evt) => {
-            if(evt.target.classList.contains('modal')) {
+            if(this.opened && evt.target.classList.contains('modal')) {
                 this.hide();
             }
         });
