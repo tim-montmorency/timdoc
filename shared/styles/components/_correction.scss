@@ -139,5 +139,8 @@ body.dark .correction-modal {
     border: 1px solid white;
     textarea, input[type="text"] {
         border: 1px solid white;
+        &:invalid {
+            border-color: var(--main-color);
+        }
     }
 }
