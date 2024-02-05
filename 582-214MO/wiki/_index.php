@@ -279,6 +279,13 @@
 
 <intlink href="../exercices_ae/01_animation_base"></intlink></p>
 
+<h2>Devoir</h2>
+Terminer le travail 1 partie 1
+<p><intlink href="../exercices/travail1"></intlink></p>
+
+<h3>Test</h3>
+<iframe src="https://cmontmorency365-my.sharepoint.com/personal/lora_boisvert_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=7b05cd88-de48-4566-a331-4e9bc39b9dcc&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="01_caractere.mp4"></iframe>
+
 </wiki-page>
 
 <wiki-page name="Cours 04">
