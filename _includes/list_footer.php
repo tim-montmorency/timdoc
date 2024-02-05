@@ -3,4 +3,3 @@
                     </div>
                 </div>
             </article>
-            <script>timdocMount();</script>

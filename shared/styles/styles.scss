@@ -2,12 +2,13 @@
 @use 'partials/functions';
 @use 'partials/fonts';
 @use 'partials/intlink';
+@use 'partials/modal';
+@use 'partials/password';
 @use 'partials/darkmode';
 
 @use 'components/grostitre';
 @use 'components/dots';
 @use 'components/infobubble';
-@use 'components/audioplayer';
 @use 'components/tune';
 @use 'components/mediafile';
 @use 'components/codepen';
@@ -382,7 +383,7 @@ footer {
 
     
     em {
-        color: #F3CA40;
+        // color: #F3CA40;
         color: #F2A541;
     }
 

@@ -73,7 +73,7 @@
 <checklist>
   Lorsque survolés, les éléments <span class="inline-code">.hand</span> doivent grossir jusqu'a un facteur de <em>150%</em> et faire une rotation de <em>720deg</em> (2 tours) en <em>1 seconde</em>.
   Lors du survol, l'intérieur des mains doit aussi devenir <em>bleu</em> en <em>1 seconde</em>.
-  Toujours durant le survol, utilisez la pseudo-classe <span class="inline-code">:has</span> sur l'élément parent <span class="inline-code">.hands</span> afin de déplacer les éléments <span class="inline-code">.handwrapper</span> à gauche <em>(-100%)</em> ou à droite <em>(100%)</em> ainsi que changer leur opacité à <em>0.4</em> en <em>1 seconde</em>. Utilisez <a onclick="event.stopPropagation()" href="#">l'aperçu</a> comme référence.
+  Toujours durant le survol, utilisez la pseudo-classe <span class="inline-code">:has</span> sur l'élément parent <span class="inline-code">.hands</span> afin de déplacer les éléments <span class="inline-code">.handwrapper</span> à gauche <em>(-100%)</em> ou à droite <em>(100%)</em> ainsi que changer leur opacité à <em>0.4</em> en <em>1 seconde</em>. Utilisez <a href="#top">l'aperçu</a> comme référence.
   Assurez-vous que les éléments reprennent leur état normal en <em>1 seconde</em> lorsque le survol est terminé.
 </checklist>
 

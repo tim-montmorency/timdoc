@@ -1,7 +1,7 @@
 <?php 
 /**
  * @type     wiki
- * @title    Wiki - Projet Web
+ * @title    Wiki - Optimisation Web
  * @icon     images/icon.png
  * @abstract Contenu du cours - Hiver 2024
  */
@@ -101,12 +101,6 @@
     <p>Pour la personne en charge de l'interface de la landing page <em>LP</em> :</p>
     <intlink href="../projet-app-festival-art-numerique/p1-1b-lp/"></intlink>
 
-
- 
-
-
-
-
 </wiki-page>
 
 
@@ -162,12 +156,91 @@
  \_____\___/ \__,_|_|  |___/ |____/ 
                                           
 ----------------------->
-<wiki-page name="Cours 03" date="2024-02-28">
-    <h2>Révision et évaluation formative (quiz)</h2>
+<wiki-page name="Cours 03" date="2024-02-04">
+    <grostitre>Révision et évaluation formative (quiz)</grostitre>
+    <p>Groupe AM :  <a href="https://app.wooclap.com/ALJITP" target="_blank" rel="noopener noreferrer">Code Wooclap: ALJITP</a> <br>
+    Groupe PM :  <a href="https://app.wooclap.com/HNHBLI" target="_blank" rel="noopener noreferrer">Code Wooclap: HNHBLI</a>
+   </p>
+ 
+<dots></dots>
+    <grostitre>Annonces</grostitre>
+    <p><strong>Tutorat</strong></p>
+    <ul>
+      <li>Chaque mardi de 11h50 à 14h20 au centre d'aide au C-1602.</li>
+      <li>Groupe d'étude le mardi (11h50 à 14h2) avant l'examan final. En présence au C-1639.</li>
+      <li>Tutorat en ligne, sur rendez-vous (voir le canal associé sur Teams, : TIM - Programme TIM)</li>
+      <li>Tutorat en ligne, tous les samedis soirs à partir de 18h00 à 19h40  (voir le canal associé sur Teams, : TIM - Programme TIM)</li>
+      <li>Tutorat en ligne, tous les dimanches soirs à partir de 19h30 à 21:10  (voir le canal associé sur Teams, : TIM - Programme TIM)</li>
+    </ul>
 
-    <h2>Annonces</h2>
-    <p>Tutorat</p>
-    
+
+    <dots></dots>
+    <grostitre>Révision</grostitre>
+    <intlink href="../bootstrap/exercices/bootstrap-puzzle-colore/">Le puzzle coloré (grille Bootstrap)</intlink>
+
+
+    <dots></dots>
+    <grostitre>Bootstrap - Cartes</grostitre>
+    <intlink href="../bootstrap/cartes/">La composante carte de Bootstrap</intlink>
+
+    <dots></dots>
+    <grostitre>Exercice</grostitre>
+    <intlink href="../bootstrap/exercices/bootstrap-nav-card/">NavBar et cartes</intlink>
+
+
+    <dots></dots>
+    <grostitre>Bootstrap - Les classes utilitaires </grostitre>
+    <intlink href="../bootstrap/utilitaires/"></intlink>
+
+    <dots></dots>
+    <grostitre>ScrollSpy</grostitre>
+    <p>Liens de la navigation qui mènent à des sections de page et qui ajoutent la classe <em>.active</em> lorsque la section est visible dans le cadre de la fenêtre.</p>
+    <doclink href='https://getbootstrap.com/docs/5.3/components/scrollspy/'>ScrollSpy</doclink>
+
+
+
+    <dots></dots>
+    <grostitre>Icônes Bootstrap</grostitre>
+    <info>
+    Le format "icon font" est le suivant: <incode>&lt;i class=&quot;bi-alarm&quot;&gt;&lt;/i&gt;</incode>.<br>Voir la <a href="https://icons.getbootstrap.com/#install" target="_blank" >documentation sur les icônes Bootstrap</a> pour en savoir plus.
+    </info>
+    <doclink href='https://icons.getbootstrap.com/#install '>Icônes Bootstrap</doclink>
+
+    <dots></dots>
+    <grostitre>Collaboration Git</grostitre>
+    <doclink href='https://cmontmorency365-my.sharepoint.com/:b:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Optimisation%20Web/02_contenu_de_cours/live_share_vs_code.pdf?csf=1&web=1&e=FfQawK'>Live Share sur Visual Studio Code</doclink><br>
+    <doclink href='https://smnarnold.com/cours/git/introduction '>Retour sur git</doclink> - Surtout à propos des branches
+    <intlink href="../git/collaboration/">Git Collaboration au sein d’une équipe </intlink>
+    <p>Techniques CSS pour travailler en équipe (sélecteurs avec ancêtres) pour éviter d'écraser les styles de la page de votre coéquipier:</p>
+    <intlink href="../../582-215MO/css/anatomie/#selecteur"></intlink>
+
+    <dots></dots>
+  <grostitre>Devoirs</grostitre>
+    <h3>Terminer P1.2a</h3>
+    <intlink href="../projet-app-festival-art-numerique/p1-2a/"></intlink>
+  <br>
+    <h3>Faire le P1.2b</h3>
+    <p>En équipe :</p>
+    <intlink href="../projet-app-festival-art-numerique/p1-2b/"></intlink>
+    <br>
+    <p>Pour la personne en charge de l'interface de la landing page <em>LP</em> :</p>
+    <intlink href="../projet-app-festival-art-numerique/p1-2b-lp/"></intlink>
+    <br>
+    <p>Pour la personne en charge de l'interface de l'application mobile <em>APP</em> :</p>
+    <intlink href="../projet-app-festival-art-numerique/p1-2b-app/"></intlink>
+<br>
+    <h3>Remise de P1.2a et P1.2b au prochain cours (10%)</h3>
+
+
+  
+ 
+
+
+
+
+ 
+ 
+
 </wiki-page>
 
 
@@ -184,6 +257,9 @@
 
 <wiki-page name="Cours 04" date="2024-02-28">
     <h2>Révision et évaluation formative (quiz)</h2>
+
+    <h2>Annonces</h2>
+    <p>Tutorat</p>
 </wiki-page>
 
 
@@ -218,7 +294,7 @@
                                     
 ----------------------------------->
 
-<wiki-page name="Cours 06" date="2024-01-30">
+<wiki-page name="Cours 06" date="2024-02-30">
     <h2>Révision et évaluation formative (quiz)</h2>
 </wiki-page>
 

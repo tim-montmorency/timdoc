@@ -9,6 +9,47 @@
 
 */
 
+
+/******************************************************
+ *                      Bind Event                    *
+ ******************************************************/
+const bind = (elm, evt, clb) => {
+    if(typeof elm == 'string') {
+        document.querySelectorAll(elm).forEach((item) => {
+            item.addEventListener(evt, clb);
+        });
+    } else {
+        elm.addEventListener(evt, clb);
+    }
+}
+
+
+/******************************************************
+ *                    Create Element                  *
+ ******************************************************/
+const create = (tag, classname=null) => {
+    const elm = document.createElement(tag);
+    if(classname) elm.className = classname;
+    return elm;
+}
+HTMLElement.prototype.create = function(tag, classname=null) {
+    const elm = create(tag, classname);
+    this.append(elm);
+    return elm;
+}
+
+
+/******************************************************
+ *                    Get datetime                    *
+ ******************************************************/
+const now = () => {
+    let now = new Date();
+    let offset = now.getTimezoneOffset()
+    now = new Date(now.getTime() - (offset*60*1000))
+    return now.toISOString();
+}
+
+
 /******************************************************
  *                Get a sync json file                *
  ******************************************************/
@@ -34,6 +75,23 @@ const decimalToHexString = (number) => {
 
 
 /******************************************************
+ *            Convert bytes to hex string             *
+ ******************************************************/
+ const hex = (buffer) => {
+    let hexCodes = [];
+    let view = new DataView(buffer);
+    for (let i = 0; i < view.byteLength; i += 4) {
+        let value = view.getUint32(i)
+        let stringValue = value.toString(16)
+        let padding = '00000000'
+        let paddedValue = (padding + stringValue).slice(-padding.length)
+        hexCodes.push(paddedValue);
+    }
+    return hexCodes.join("");
+}
+
+
+/******************************************************
  *                   CYRB53 Hashing                   *
  ******************************************************/
 const cyrb53 = (str, seed = 0) => {
@@ -48,6 +106,53 @@ const cyrb53 = (str, seed = 0) => {
     h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
     return decimalToHexString(4294967296 * (2097151 & h2) + (h1 >>> 0));
 };
+
+
+/******************************************************
+ *                     MD5 Hashing                    *
+ ******************************************************/
+ const md5 = (inputString) => {
+    var hc="0123456789abcdef";
+    const rh = (n) => {var j,s="";for(j=0;j<=3;j++) s+=hc.charAt((n>>(j*8+4))&0x0F)+hc.charAt((n>>(j*8))&0x0F);return s;}
+    const ad = (x,y) => {var l=(x&0xFFFF)+(y&0xFFFF);var m=(x>>16)+(y>>16)+(l>>16);return (m<<16)|(l&0xFFFF);}
+    const rl = (n,c) => {return (n<<c)|(n>>>(32-c));}
+    const cm = (q,a,b,x,s,t) => {return ad(rl(ad(ad(a,q),ad(x,t)),s),b);}
+    const ff = (a,b,c,d,x,s,t) => {return cm((b&c)|((~b)&d),a,b,x,s,t);}
+    const gg = (a,b,c,d,x,s,t) => {return cm((b&d)|(c&(~d)),a,b,x,s,t);}
+    const hh = (a,b,c,d,x,s,t) => {return cm(b^c^d,a,b,x,s,t);}
+    const ii = (a,b,c,d,x,s,t) => {return cm(c^(b|(~d)),a,b,x,s,t);}
+    const sb = (x) => {
+        var i;var nblk=((x.length+8)>>6)+1;var blks=new Array(nblk*16);for(i=0;i<nblk*16;i++) blks[i]=0;
+        for(i=0;i<x.length;i++) blks[i>>2]|=x.charCodeAt(i)<<((i%4)*8);
+        blks[i>>2]|=0x80<<((i%4)*8);blks[nblk*16-2]=x.length*8;return blks;
+    }
+    var i,x=sb(""+inputString),a=1732584193,b=-271733879,c=-1732584194,d=271733878,olda,oldb,oldc,oldd;
+    for(i=0;i<x.length;i+=16) {olda=a;oldb=b;oldc=c;oldd=d;
+        a=ff(a,b,c,d,x[i+ 0], 7, -680876936);d=ff(d,a,b,c,x[i+ 1],12, -389564586);c=ff(c,d,a,b,x[i+ 2],17,  606105819);
+        b=ff(b,c,d,a,x[i+ 3],22,-1044525330);a=ff(a,b,c,d,x[i+ 4], 7, -176418897);d=ff(d,a,b,c,x[i+ 5],12, 1200080426);
+        c=ff(c,d,a,b,x[i+ 6],17,-1473231341);b=ff(b,c,d,a,x[i+ 7],22,  -45705983);a=ff(a,b,c,d,x[i+ 8], 7, 1770035416);
+        d=ff(d,a,b,c,x[i+ 9],12,-1958414417);c=ff(c,d,a,b,x[i+10],17,     -42063);b=ff(b,c,d,a,x[i+11],22,-1990404162);
+        a=ff(a,b,c,d,x[i+12], 7, 1804603682);d=ff(d,a,b,c,x[i+13],12,  -40341101);c=ff(c,d,a,b,x[i+14],17,-1502002290);
+        b=ff(b,c,d,a,x[i+15],22, 1236535329);a=gg(a,b,c,d,x[i+ 1], 5, -165796510);d=gg(d,a,b,c,x[i+ 6], 9,-1069501632);
+        c=gg(c,d,a,b,x[i+11],14,  643717713);b=gg(b,c,d,a,x[i+ 0],20, -373897302);a=gg(a,b,c,d,x[i+ 5], 5, -701558691);
+        d=gg(d,a,b,c,x[i+10], 9,   38016083);c=gg(c,d,a,b,x[i+15],14, -660478335);b=gg(b,c,d,a,x[i+ 4],20, -405537848);
+        a=gg(a,b,c,d,x[i+ 9], 5,  568446438);d=gg(d,a,b,c,x[i+14], 9,-1019803690);c=gg(c,d,a,b,x[i+ 3],14, -187363961);
+        b=gg(b,c,d,a,x[i+ 8],20, 1163531501);a=gg(a,b,c,d,x[i+13], 5,-1444681467);d=gg(d,a,b,c,x[i+ 2], 9,  -51403784);
+        c=gg(c,d,a,b,x[i+ 7],14, 1735328473);b=gg(b,c,d,a,x[i+12],20,-1926607734);a=hh(a,b,c,d,x[i+ 5], 4,    -378558);
+        d=hh(d,a,b,c,x[i+ 8],11,-2022574463);c=hh(c,d,a,b,x[i+11],16, 1839030562);b=hh(b,c,d,a,x[i+14],23,  -35309556);
+        a=hh(a,b,c,d,x[i+ 1], 4,-1530992060);d=hh(d,a,b,c,x[i+ 4],11, 1272893353);c=hh(c,d,a,b,x[i+ 7],16, -155497632);
+        b=hh(b,c,d,a,x[i+10],23,-1094730640);a=hh(a,b,c,d,x[i+13], 4,  681279174);d=hh(d,a,b,c,x[i+ 0],11, -358537222);
+        c=hh(c,d,a,b,x[i+ 3],16, -722521979);b=hh(b,c,d,a,x[i+ 6],23,   76029189);a=hh(a,b,c,d,x[i+ 9], 4, -640364487);
+        d=hh(d,a,b,c,x[i+12],11, -421815835);c=hh(c,d,a,b,x[i+15],16,  530742520);b=hh(b,c,d,a,x[i+ 2],23, -995338651);
+        a=ii(a,b,c,d,x[i+ 0], 6, -198630844);d=ii(d,a,b,c,x[i+ 7],10, 1126891415);c=ii(c,d,a,b,x[i+14],15,-1416354905);
+        b=ii(b,c,d,a,x[i+ 5],21,  -57434055);a=ii(a,b,c,d,x[i+12], 6, 1700485571);d=ii(d,a,b,c,x[i+ 3],10,-1894986606);
+        c=ii(c,d,a,b,x[i+10],15,   -1051523);b=ii(b,c,d,a,x[i+ 1],21,-2054922799);a=ii(a,b,c,d,x[i+ 8], 6, 1873313359);
+        d=ii(d,a,b,c,x[i+15],10,  -30611744);c=ii(c,d,a,b,x[i+ 6],15,-1560198380);b=ii(b,c,d,a,x[i+13],21, 1309151649);
+        a=ii(a,b,c,d,x[i+ 4], 6, -145523070);d=ii(d,a,b,c,x[i+11],10,-1120210379);c=ii(c,d,a,b,x[i+ 2],15,  718787259);
+        b=ii(b,c,d,a,x[i+ 9],21, -343485551);a=ad(a,olda);b=ad(b,oldb);c=ad(c,oldc);d=ad(d,oldd);
+    }
+    return rh(a)+rh(b)+rh(c)+rh(d);
+}
 
 
 /******************************************************
@@ -114,6 +219,19 @@ const download = async (url) => {
 
 
 /******************************************************
+ *                Download JSON Object                *
+ ******************************************************/
+const downloadJsonObject = (obj, filename) => {
+    const a = document.createElement("a");
+    a.href = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(obj, null, "\t"));
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}
+
+
+/******************************************************
  *            Highest common denominator              *
  ******************************************************/
 const hcd = (a, b) => {
@@ -131,6 +249,86 @@ const selectElementText = (elm) => {
     let sel = window.getSelection();
     sel.removeAllRanges();
     sel.addRange(range);
+}
+
+
+/******************************************************
+ *                       Modal                        *
+ ******************************************************/
+ class Modal {
+    cont = null;
+    opened = false;
+    constructor(obj='') {
+        this.cont = create('div', 'modal');
+        if(typeof obj == 'string') this.cont.innerHTML = obj;
+        else this.cont.append(obj);
+        document.body.append(this.cont);
+    }
+    show() {
+        this.opened = true;
+        setTimeout(() => { this.cont.classList.add('show'); }, 1);
+    }
+    hide() {
+        this.opened = false;
+        this.cont.classList.remove('show');
+    }
+}
+
+
+/******************************************************
+ *                   Modal Password                   *
+ ******************************************************/
+class PasswordModal extends Modal {
+    password = null;
+    input = null;
+    clb = null;
+
+    constructor(password) {
+        let form = create('form', 'password-modal');
+        form.innerHTML =
+            `<table>` +
+                `<thead>` +
+                    `<tr>` +
+                        `<th>Mot de passe</th>` +
+                    `</tr>` +
+                `</thead>` +
+                `<tbody>` +
+                    `<tr>` +
+                        `<td><input style="width: 100%;" type="password" name="password" autocomplete="off" required></td>` +
+                    `</tr>` +
+                `</tbody>` +
+                `<tfoot>` +
+                    `<tr>` +
+                        `<td>` +
+                            `<input type="submit" name="save" value="Accéder">` +
+                        `</td>` +
+                    `</tr>` +
+                `</tfoot>` +
+            `</table>`;
+        super(form);
+        this.password = password;
+        this.input = form.querySelector('input[name="password"]');
+        bind(form, 'submit', (evt) => { evt.preventDefault(); this.save(); });
+    }
+    show(clb=null) {
+        this.clb = clb;
+        document.body.style.overflow = 'hidden';
+        super.show();
+        setTimeout(() => { this.input.focus(); }, 100);
+    }
+    hide() {
+        document.body.style.overflow = 'auto';
+        super.hide();
+    }
+    save() {
+        if(md5(this.input.value) === this.password) {
+            this.hide();
+            if(this.clb) this.clb();
+        } else {
+            this.input.value = '';
+            this.input.focus();
+        }
+    }
 }
 
 
@@ -189,13 +387,12 @@ const app = Vue.createApp({
                     evt.stopPropagation();
                 });
             });
-            document.querySelectorAll('div.checklist a').forEach((elm) => {
-                elm.target = "_blank";
-                elm.rel = "noopener noreferrer";
-                elm.addEventListener('click', (evt) => {
-                    evt.stopPropagation();
+            const digest = document.querySelector('meta[itemprop="digest"]');
+            if(digest && digest.content && sessionStorage.getItem('digest-'+cyrb53(digest.content)) !== 'true') {
+                (new PasswordModal(digest.content)).show(() => {
+                    sessionStorage.setItem('digest-'+cyrb53(digest.content), 'true');
                 });
-            });
+            }
         });
     },
     methods: {
@@ -262,7 +459,6 @@ app.component('tabledesmatieres', {
                 `<ul v-html="list"></ul>` +
             `</div>` +
         `</div>`
-
 });
 
 
@@ -441,17 +637,15 @@ app.component('codepen', {
     },
     methods: {
         lightSwitchOn() {
-            // this.theme = '39618';
             this.theme = '44431';
         },
         lightSwitchOff() {
-            
+
             this.theme = '43847';
         },
     },
     template:
     `<div class="codepen-container" :style="'height: ' + cheight + 'px'">` +
-        // `<div style="height: 100px; background-color: blue"></div>` +
         `<iframe :src="'https://codepen.io/' + user + '/embed/' + id + '?default-tab=' + defaulttab + '&theme-id=' + theme" class="codepen" scrolling="no" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" :style="'height: ' + bheight + 'px;'"></iframe>` +
         // `<span class="codepen-remark" v-if="this.remark != ''">{{ remark }}</span>` +
     `</div>`
@@ -548,6 +742,7 @@ app.component('doclink', {
                 case 'codepen.io': site = 'codepen'; break;
                 case 'css-tricks.com': site = 'csstricks'; break;
                 case 'getbootstrap.com': site = 'bootstrap'; break;
+                case 'icons.getbootstrap.com': site = 'bootstrap'; break;
                 case 'fonts.google.com': site = 'googlefonts'; break;
                 case 'fr.wikipedia.org': site = 'wikipedia'; break;
                 case 'en.wikipedia.org': site = 'wikipedia'; break;
@@ -560,7 +755,9 @@ app.component('doclink', {
                 case 'developer.vuforia.com': site = 'vuforia'; break;
                 case 'cmontmorency365-my.sharepoint.com': site = 'momo'; break;
                 case 'cmontmorency365.sharepoint.com': site = 'momo'; break;
+                case 'www.cmontmorency.qc.ca': site = 'momo'; break;
                 case 'teams.microsoft.com': site = 'momo'; break;
+                case 'ccti.cmontmorency.qc.ca': site = 'momo'; break;
                 case 'github.com': site = 'github'; break;
                 case 'developers.google.com': site = 'google'; break;
                 case 'youtu.be': site = 'youtube'; break;
@@ -954,6 +1151,15 @@ app.component('checklist', {
     },
     created() {
         this.$nextTick(() => {
+            let localurl = new URL(location.href, document.baseURI);
+            this.$refs.checklist.querySelectorAll('a').forEach((elm) => {
+                let targeturl = new URL(elm.href, document.baseURI);
+                if(!(targeturl.hash && localurl.host == targeturl.host && localurl.pathname == targeturl.pathname)){
+                    elm.target = "_blank";
+                    elm.rel = "noopener noreferrer";
+                }
+                elm.addEventListener('click', (evt) => { evt.stopPropagation(); });
+            });
             this.progressbar = document.getElementById(this.hash + '-progressbar');
             this.updateProgressBar();
         });
@@ -981,7 +1187,7 @@ app.component('checklist', {
         }
     },
     template:
-        `<div class="checklist">` +
+        `<div ref="checklist" class="checklist">` +
             `<div class="pourcentage">{{ progress }}%</div>` +
             `<div :id="this.hash + '-progressbar'" class="progressbar" :style="'background-size: ' + this.progress + '% 100%;'"></div>` +
             `<ol>` +
@@ -1179,7 +1385,9 @@ app.component('correction', {
     props: ['scale', 'value'],
     data() {
         let scales = this.scale.split(',').map((val) => { return val.trim(); });
+        let modal = new ModalCorrection();
         return {
+            modal: modal,
             scales: scales,
             criterias: new Array(),
             score: 0,
@@ -1211,10 +1419,42 @@ app.component('correction', {
         },
         copy() {
             navigator.clipboard.writeText(this.score);
+        },
+        download() {
+            this.modal.show((data) => {
+                let obj = {
+                    hash: '',
+                    date: now(),
+                    name: data.name,
+                    comment: data.comment,
+                    pourcentage: 0,
+                    score: 0,
+                    total: 0,
+                    points: 0,
+                    scale: +this.value,
+                    criterias: []
+                };
+                this.criterias.forEach((v,k) => {
+                    obj.total += parseFloat(v.value);
+                    obj.score += parseFloat(v.getValue());
+                    obj.criterias.push({
+                        name: v.$refs.name.innerText,
+                        label: this.scales[this.scales.length-1-v._value],
+                        value: v.getValue(),
+                        scale: +v.value,
+                    });
+                });
+                obj.points = +(obj.score / obj.total * this.value).toFixed(2);
+                obj.pourcentage = +(obj.points / obj.scale * 100).toFixed(2);
+                obj.hash = cyrb53(obj.name+obj.date+obj.pourcentage);
+                downloadJsonObject(obj, lowslug(obj.name) + ".json");
+                // console.log(JSON.stringify(obj, null, "\t"));
+            });
+
         }
     },
     template:
-        `<div class="correction">` +
+        `<div class="correction" ref="container">` +
             `<table>` +
                 `<thead>` +
                     `<tr>` +
@@ -1228,7 +1468,24 @@ app.component('correction', {
                 `<tfoot>` +
                     `<tr>` +
                         `<td>Total</td>` +
-                        `<td>{{ this.score_txt }}&nbsp;&nbsp;<button @click="this.copy();">Copier</button>&nbsp;&nbsp;<button @click="this.clear();">Effacer</button></td>` +
+                        `<td>` +
+                            `{{ this.score_txt }}` +
+                            `<button class="btn__copy" @click="this.copy();" title="Copier">` +
+                                `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" fill="currentColor">` +
+                                  `<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.5 14H19a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-7a2 2 0 0 0-2 2v1.5M5 10h7a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7c0-1.1.9-2 2-2Z"/>` +
+                                `</svg>` +
+                            `</button>` +
+                            `<button class="btn__clear" @click="this.clear();" title="Effacer">` +
+                                `<svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 1024 1024" fill="currentColor">` +
+                                    `<path d="m899 870-53-306h18c14 0 26-12 26-26V346c0-14-12-26-26-26H618V138c0-14-12-26-26-26H432c-14 0-26 12-26 26v182H160c-14 0-26 12-26 26v192c0 14 12 26 26 26h18l-53 306v4c0 14 11 26 26 26h727c14-3 24-16 21-30zM204 390h272V182h72v208h272v104H204V390zm468 440V674c0-4-4-8-8-8h-48c-4 0-8 4-8 8v156H416V674c0-4-4-8-8-8h-48c-4 0-8 4-8 8v156H203l45-260h528l45 260H672z"/>` +
+                                `</svg>` +
+                            `</button>` +
+                            `<button class="btn__download" @click="this.download();" title="Télécharger">` +
+                                `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">` +
+                                    `<path d="M21 14a1 1 0 0 0-1 1v4a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-4a1 1 0 0 0-2 0v4a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-4a1 1 0 0 0-1-1Zm-9.7 1.7a1 1 0 0 0 .3.2 1 1 0 0 0 .8 0 1 1 0 0 0 .3-.2l4-4a1 1 0 0 0-1.4-1.4L13 12.6V3a1 1 0 0 0-2 0v9.6l-2.3-2.3a1 1 0 1 0-1.4 1.4Z"/>` +
+                                `</svg>` +
+                            `</button>` +
+                        `</td>` +
                     `</tr>` +
                 `</tfoot>` +
             `</table>` +
@@ -1267,12 +1524,85 @@ app.component('criteria', {
     },
     template:
         `<tr class="correction__criteria">` +
-            `<td><slot/></td>` +
+            `<td ref="name"><slot/></td>` +
             `<td>` +
                 `<span class="correction__criteria__scale" v-for="(scale, i) in this.$parent.scales" v-html="scale" @click="click($event, this.$parent.scales.length - 1 - i)"></span>` +
             `</td>` +
         `</tr>`
 });
+
+class ModalCorrection extends Modal {
+
+    form = null;
+    name = null;
+    comment = null;
+    cancel = null;
+    clb = null;
+
+    constructor() {
+        let form = create('form', 'correction-modal');
+        form.innerHTML = 
+            `<table>` +
+                `<thead>` +
+                    `<tr>` +
+                        `<th colspan="2">Téléchargement de la correction</th>` +
+                    `</tr>` +
+                `</thead>` +
+                `<tbody>` +
+                    `<tr>` +
+                        `<td>Nom:</td>` +
+                        `<td><input style="width: 100%;" type="text" name="name" required></td>` +
+                    `</tr>` +
+                    `<tr>` +
+                        `<td>Commentaire:</td>` +
+                        `<td><textarea name="comment"></textarea></td>` +
+                    `</tr>` +
+                `</tbody>` +
+                `<tfoot>` +
+                    `<tr>` +
+                        `<td colspan="2">` +
+                            `<input type="submit" name="save" value="Télécharger">` +
+                            `<input type="button" name="cancel" value="Annuler">` +
+                        `</td>` +
+                    `</tr>` +
+                `</tfoot>` +
+            `</table>`;
+        super(form);
+        this.form = form;
+        this.name = this.form.querySelector('input[name="name"]');
+        this.comment = this.form.querySelector('textarea[name="comment"]');
+        this.form.querySelector('input[name="cancel"]').addEventListener('click', () => { this.hide(); });
+        bind(this.form, 'submit', (evt) => { evt.preventDefault(); this.save(); });
+        bind(this.cont, 'mousedown', (evt) => {
+            if(this.opened && evt.target.classList.contains('modal')) {
+                this.hide();
+            }
+        });
+        bind(document, 'keydown', (evt) => {
+            if(this.opened && (evt.key === 'Escape' && !(evt.ctrlKey || evt.altKey || evt.shiftKey))) {
+                this.hide();
+            }
+        });
+    }
+    show(clb=null) {
+        this.clb = clb;
+        this.name.value = '';
+        this.comment.value = '';
+        super.show();
+        setTimeout(() => {
+            this.name.focus();
+        }, 200);
+    }
+    save() {
+        this.hide();
+        if(this.clb) {
+            this.clb({
+                name: this.name.value,
+                comment: this.comment.value
+            });
+        }
+    }
+}
 
 
 /******************************************************
