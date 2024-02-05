@@ -1601,10 +1601,6 @@ iframe[src*="sharepoint.com"] {
   border: 1px solid #777777;
 }
 
-body.dark .correction tfoot td:nth-child(2) button {
-  color: white;
-}
-
 .correction {
   margin-left: -25px;
   margin-right: -25px;
@@ -1733,6 +1729,10 @@ body.dark .correction tfoot td:nth-child(2) button {
   font-size: 1em;
   padding: 4px;
   font-family: Rubik;
+}
+
+body.dark .correction tfoot td:nth-child(2) button {
+  color: white;
 }
 
 body.dark .correction-modal {
