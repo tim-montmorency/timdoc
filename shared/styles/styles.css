@@ -1592,6 +1592,13 @@ div.quote__title {
   height: 100%;
 }
 
+iframe[src*="sharepoint.com"] {
+  width: calc(100% + 50px);
+  height: auto;
+  aspect-ratio: 16/9 !important;
+  margin: 0 -25px 25px -25px;
+}
+
 body.dark .correction tfoot td:nth-child(2) button {
   color: white;
 }

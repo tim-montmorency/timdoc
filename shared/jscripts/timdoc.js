@@ -387,11 +387,10 @@ const app = Vue.createApp({
                     evt.stopPropagation();
                 });
             });
-            const digest = document.querySelector('meta[itemprop="digest"]').content;
-            if(digest && localStorage.getItem('digest-'+cyrb53(digest)) !== 'true') {
-                const passmodal = new PasswordModal(digest);
-                passmodal.show(() => {
-                    localStorage.setItem('digest-'+cyrb53(digest), 'true');
+            const digest = document.querySelector('meta[itemprop="digest"]');
+            if(digest && localStorage.getItem('digest-'+cyrb53(digest.content)) !== 'true') {
+                (new PasswordModal(digest.content)).show(() => {
+                    localStorage.setItem('digest-'+cyrb53(digest.content), 'true');
                 });
             }
         });
