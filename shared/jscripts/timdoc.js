@@ -9,6 +9,47 @@
 
 */
 
+
+/******************************************************
+ *                      Bind Event                    *
+ ******************************************************/
+const bind = (elm, evt, clb) => {
+    if(typeof elm == 'string') {
+        document.querySelectorAll(elm).forEach((item) => {
+            item.addEventListener(evt, clb);
+        });
+    } else {
+        elm.addEventListener(evt, clb);
+    }
+}
+
+
+/******************************************************
+ *                    Create Element                  *
+ ******************************************************/
+const create = (tag, classname=null) => {
+    const elm = document.createElement(tag);
+    if(classname) elm.className = classname;
+    return elm;
+}
+HTMLElement.prototype.create = function(tag, classname=null) {
+    const elm = create(tag, classname);
+    this.append(elm);
+    return elm;
+}
+
+
+/******************************************************
+ *                    Get datetime                    *
+ ******************************************************/
+const now = () => {
+    let now = new Date();
+    let offset = now.getTimezoneOffset()
+    now = new Date(now.getTime() - (offset*60*1000))
+    return now.toISOString();
+}
+
+
 /******************************************************
  *                Get a sync json file                *
  ******************************************************/
@@ -114,6 +155,19 @@ const download = async (url) => {
 
 
 /******************************************************
+ *                Download JSON Object                *
+ ******************************************************/
+const downloadJsonObject = (obj, filename) => {
+    const a = document.createElement("a");
+    a.href = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(obj, null, "\t"));
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}
+
+
+/******************************************************
  *            Highest common denominator              *
  ******************************************************/
 const hcd = (a, b) => {
@@ -141,6 +195,29 @@ function timdocMount() {
     app.config.compilerOptions.whitespace = 'preserve';
     app.mount('body');
     hljs.highlightAll();
+}
+
+
+/******************************************************
+ *                       Modal                        *
+ ******************************************************/
+ class Modal {
+    cont = null;
+    opened = false;
+    constructor(obj='') {
+        this.cont = create('div', 'modal');
+        if(typeof obj == 'string') this.cont.innerHTML = obj;
+        else this.cont.append(obj);
+        document.body.append(this.cont);
+    }
+    show() {
+        this.opened = true;
+        setTimeout(() => { this.cont.classList.add('show'); }, 1);
+    }
+    hide() {
+        this.opened = false;
+        this.cont.classList.remove('show');
+    }
 }
 
 
@@ -255,7 +332,6 @@ app.component('tabledesmatieres', {
                 `<ul v-html="list"></ul>` +
             `</div>` +
         `</div>`
-
 });
 
 
@@ -434,17 +510,15 @@ app.component('codepen', {
     },
     methods: {
         lightSwitchOn() {
-            // this.theme = '39618';
             this.theme = '44431';
         },
         lightSwitchOff() {
-            
+
             this.theme = '43847';
         },
     },
     template:
     `<div class="codepen-container" :style="'height: ' + cheight + 'px'">` +
-        // `<div style="height: 100px; background-color: blue"></div>` +
         `<iframe :src="'https://codepen.io/' + user + '/embed/' + id + '?default-tab=' + defaulttab + '&theme-id=' + theme" class="codepen" scrolling="no" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" :style="'height: ' + bheight + 'px;'"></iframe>` +
         // `<span class="codepen-remark" v-if="this.remark != ''">{{ remark }}</span>` +
     `</div>`
@@ -1183,7 +1257,9 @@ app.component('correction', {
     props: ['scale', 'value'],
     data() {
         let scales = this.scale.split(',').map((val) => { return val.trim(); });
+        let modal = new ModalCorrection();
         return {
+            modal: modal,
             scales: scales,
             criterias: new Array(),
             score: 0,
@@ -1215,10 +1291,42 @@ app.component('correction', {
         },
         copy() {
             navigator.clipboard.writeText(this.score);
+        },
+        download() {
+            this.modal.show((data) => {
+                let obj = {
+                    hash: '',
+                    date: now(),
+                    name: data.name,
+                    comment: data.comment,
+                    pourcentage: 0,
+                    score: 0,
+                    total: 0,
+                    points: 0,
+                    scale: +this.value,
+                    criterias: []
+                };
+                this.criterias.forEach((v,k) => {
+                    obj.total += parseFloat(v.value);
+                    obj.score += parseFloat(v.getValue());
+                    obj.criterias.push({
+                        name: v.$refs.name.innerText,
+                        label: this.scales[this.scales.length-1-v._value],
+                        value: v.getValue(),
+                        scale: +v.value,
+                    });
+                });
+                obj.points = +(obj.score / obj.total * this.value).toFixed(2);
+                obj.pourcentage = +(obj.points / obj.scale * 100).toFixed(2);
+                obj.hash = cyrb53(obj.name+obj.date+obj.pourcentage);
+                downloadJsonObject(obj, lowslug(obj.name) + ".json");
+                // console.log(JSON.stringify(obj, null, "\t"));
+            });
+
         }
     },
     template:
-        `<div class="correction">` +
+        `<div class="correction" ref="container">` +
             `<table>` +
                 `<thead>` +
                     `<tr>` +
@@ -1232,7 +1340,24 @@ app.component('correction', {
                 `<tfoot>` +
                     `<tr>` +
                         `<td>Total</td>` +
-                        `<td>{{ this.score_txt }}&nbsp;&nbsp;<button @click="this.copy();">Copier</button>&nbsp;&nbsp;<button @click="this.clear();">Effacer</button></td>` +
+                        `<td>` +
+                            `{{ this.score_txt }}` +
+                            `<button class="btn__copy" @click="this.copy();" title="Copier">` +
+                                `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" fill="currentColor">` +
+                                  `<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.5 14H19a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-7a2 2 0 0 0-2 2v1.5M5 10h7a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7c0-1.1.9-2 2-2Z"/>` +
+                                `</svg>` +
+                            `</button>` +
+                            `<button class="btn__clear" @click="this.clear();" title="Effacer">` +
+                                `<svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 1024 1024" fill="currentColor">` +
+                                    `<path d="m899 870-53-306h18c14 0 26-12 26-26V346c0-14-12-26-26-26H618V138c0-14-12-26-26-26H432c-14 0-26 12-26 26v182H160c-14 0-26 12-26 26v192c0 14 12 26 26 26h18l-53 306v4c0 14 11 26 26 26h727c14-3 24-16 21-30zM204 390h272V182h72v208h272v104H204V390zm468 440V674c0-4-4-8-8-8h-48c-4 0-8 4-8 8v156H416V674c0-4-4-8-8-8h-48c-4 0-8 4-8 8v156H203l45-260h528l45 260H672z"/>` +
+                                `</svg>` +
+                            `</button>` +
+                            `<button class="btn__download" @click="this.download();" title="Télécharger">` +
+                                `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">` +
+                                    `<path d="M21 14a1 1 0 0 0-1 1v4a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-4a1 1 0 0 0-2 0v4a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-4a1 1 0 0 0-1-1Zm-9.7 1.7a1 1 0 0 0 .3.2 1 1 0 0 0 .8 0 1 1 0 0 0 .3-.2l4-4a1 1 0 0 0-1.4-1.4L13 12.6V3a1 1 0 0 0-2 0v9.6l-2.3-2.3a1 1 0 1 0-1.4 1.4Z"/>` +
+                                `</svg>` +
+                            `</button>` +
+                        `</td>` +
                     `</tr>` +
                 `</tfoot>` +
             `</table>` +
@@ -1271,12 +1396,85 @@ app.component('criteria', {
     },
     template:
         `<tr class="correction__criteria">` +
-            `<td><slot/></td>` +
+            `<td ref="name"><slot/></td>` +
             `<td>` +
                 `<span class="correction__criteria__scale" v-for="(scale, i) in this.$parent.scales" v-html="scale" @click="click($event, this.$parent.scales.length - 1 - i)"></span>` +
             `</td>` +
         `</tr>`
 });
+
+class ModalCorrection extends Modal {
+
+    form = null;
+    name = null;
+    comment = null;
+    cancel = null;
+    clb = null;
+
+    constructor() {
+        let form = create('form', 'correction-modal');
+        form.innerHTML = 
+            `<table>` +
+                `<thead>` +
+                    `<tr>` +
+                        `<th colspan="2">Téléchargement de la correction</th>` +
+                    `</tr>` +
+                `</thead>` +
+                `<tbody>` +
+                    `<tr>` +
+                        `<td>Nom:</td>` +
+                        `<td><input style="width: 100%;" type="text" name="name" required></td>` +
+                    `</tr>` +
+                    `<tr>` +
+                        `<td>Commentaire:</td>` +
+                        `<td><textarea name="comment"></textarea></td>` +
+                    `</tr>` +
+                `</tbody>` +
+                `<tfoot>` +
+                    `<tr>` +
+                        `<td colspan="2">` +
+                            `<input type="submit" name="save" value="Télécharger">` +
+                            `<input type="button" name="cancel" value="Annuler">` +
+                        `</td>` +
+                    `</tr>` +
+                `</tfoot>` +
+            `</table>`;
+        super(form);
+        this.form = form;
+        this.name = this.form.querySelector('input[name="name"]');
+        this.comment = this.form.querySelector('textarea[name="comment"]');
+        this.form.querySelector('input[name="cancel"]').addEventListener('click', () => { this.hide(); });
+        bind(this.form, 'submit', (evt) => { evt.preventDefault(); this.save(); });
+        bind(this.cont, 'mousedown', (evt) => {
+            if(evt.target.classList.contains('modal')) {
+                this.hide();
+            }
+        });
+        bind(document, 'keydown', (evt) => {
+            if(this.opened && (evt.key === 'Escape' && !(evt.ctrlKey || evt.altKey || evt.shiftKey))) {
+                this.hide();
+            }
+        });
+    }
+    show(clb=null) {
+        this.clb = clb;
+        this.name.value = '';
+        this.comment.value = '';
+        super.show();
+        setTimeout(() => {
+            this.name.focus();
+        }, 200);
+    }
+    save() {
+        this.hide();
+        if(this.clb) {
+            this.clb({
+                name: this.name.value,
+                comment: this.comment.value
+            });
+        }
+    }
+}
 
 
 /******************************************************
