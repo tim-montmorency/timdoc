@@ -56,6 +56,22 @@
 
 <dots></dots>
 
+<correction scale="Excellent, Bon, Moyen, Médiocre, Absent" value="30">
+    <criteria value="10">Dimension de l'album</criteria>
+    <criteria value="20">Centré, blanc, marge, dimensions préservées</criteria>
+    <criteria value="10">Police + alignement</criteria>
+    <criteria value="20">Cercles</criteria>
+    <criteria value="20">1ère règle CSS - Pseudo-classes</criteria>
+    <criteria value="20">2e règle CSS - Pseudo-classes</criteria>
+    <criteria value="20">Couleur de fond des cercles</criteria>
+    <criteria value="5">Débrouillardise</criteria>
+    <criteria value="5">Clareté du code</criteria>
+    <criteria value="5">Suivi des consignes</criteria>
+    <criteria value="5">Remise</criteria>
+</correction>
+
+<dots></dots>
+
 
 <grostitre>Ambiance</grostitre>
 
