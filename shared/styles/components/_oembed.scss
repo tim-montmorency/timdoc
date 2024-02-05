@@ -64,6 +64,7 @@
 
 iframe[src*="sharepoint.com"] {
     width: calc(100% + 50px);
+    max-width: 770px;
     height: auto;
     aspect-ratio: 16 / 9 !important;
     margin: 0 -25px 25px -25px;

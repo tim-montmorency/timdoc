@@ -1,6 +1,6 @@
 <?php
 /**
- * @type     exercice
+ * @type     article
  * @title    Eagles of Death Metal - Peace Love Death Metal
  * @icon     images/thumb.jpg
  * @abstract Barèmes de correction
