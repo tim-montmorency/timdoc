@@ -615,6 +615,7 @@ app.component('doclink', {
                 case 'codepen.io': site = 'codepen'; break;
                 case 'css-tricks.com': site = 'csstricks'; break;
                 case 'getbootstrap.com': site = 'bootstrap'; break;
+                case 'icons.getbootstrap.com': site = 'bootstrap'; break;
                 case 'fonts.google.com': site = 'googlefonts'; break;
                 case 'fr.wikipedia.org': site = 'wikipedia'; break;
                 case 'en.wikipedia.org': site = 'wikipedia'; break;
