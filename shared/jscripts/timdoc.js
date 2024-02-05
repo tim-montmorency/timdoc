@@ -123,6 +123,18 @@ const hcd = (a, b) => {
 
 
 /******************************************************
+ *            Select text from an element             *
+ ******************************************************/
+const selectElementText = (elm) => {
+    let range = document.createRange();
+    range.selectNodeContents(elm);
+    let sel = window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(range);
+}
+
+
+/******************************************************
  *                     Mount App                      *
  ******************************************************/
 function timdocMount() {
@@ -135,108 +147,16 @@ function timdocMount() {
 /******************************************************
  *                 Load Forced Theme                  *
  ******************************************************/
-if (!localStorage.getItem('darkmode') || !localStorage.getItem('darkmode_cache_1')) {
-    localStorage.setItem('darkmode_cache_1', 'true')
+const darkmode_cache = 'darkmode_cache_1';
+const urlParams = new URLSearchParams(window.location.search);
+if (!localStorage.getItem('darkmode') || !localStorage.getItem(darkmode_cache)) {
+    localStorage.setItem(darkmode_cache, 'true')
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
         localStorage.setItem('darkmode', 'true');
-    } else {
-        localStorage.setItem('darkmode', 'false');
-    }
+    } else localStorage.setItem('darkmode', 'false');
 }
-const urlParams = new URLSearchParams(window.location.search);
 if (urlParams.get('dark') !== null) localStorage.setItem('darkmode', 'true');
 if (urlParams.get('light') !== null) localStorage.setItem('darkmode', 'false');
-
-
-/******************************************************
- *                 Register URL Lang                  *
- ******************************************************/
-hljs.registerLanguage('url', () => {
-    return {
-        case_insensitive: true,
-        contains: [
-            hljs.HASH_COMMENT_MODE,
-            {
-                className: "code",
-                begin: /(https?|ftp|file)(?=(:\/\/))/,
-            },
-            {
-                className: "meta hljs-emphasis",
-                begin: /(?<=((https?|ftp|file):\/\/))[^@:\/\?\n\r]+/,
-            },
-            {
-                className: "comment",
-                begin: /(?<=((https?|ftp|file):\/\/[^:\/@\n\r]+)@)[^:\/\n\r]+/,
-            },
-            {
-                className: "tag hljs-emphasis",
-                begin: /(?<=((https?|ftp|file):\/\/[^:\/\n\r]+):)[0-9]+/,
-            },
-            {
-                className: "symbol",
-                begin: /(?<=((https?|ftp|file):\/\/[^\/\n\r]+)\/)[^?\n\r]+/,
-            },
-            {
-                className: "literal",
-                begin: /(?<=[?&])[^=?&\n\r]+/,
-            },
-            {
-                className: "meta",
-                begin: /(?<=\=)[^=?&\n\r]+/,
-            }
-        ],
-    }
-});
-
-
-/******************************************************
- *                 Register URL Lang                  *
- ******************************************************/
-hljs.registerLanguage('vue', () => {
-    return {
-        subLanguage: "xml",
-        contains: [
-            hljs.COMMENT("<!--", "-->", {
-                relevance: 10,
-            }),
-            {
-                begin: /^(\s*)(<script>)/gm,
-                end: /^(\s*)(<\/script>)/gm,
-                subLanguage: "javascript",
-                excludeBegin: true,
-                excludeEnd: true,
-            },
-            {
-                begin: /^(?:\s*)(?:<script\s+lang=(["'])ts\1>)/gm,
-                end: /^(\s*)(<\/script>)/gm,
-                subLanguage: "typescript",
-                excludeBegin: true,
-                excludeEnd: true,
-            },
-            {
-                begin: /^(\s*)(<style(\s+scoped)?>)/gm,
-                end: /^(\s*)(<\/style>)/gm,
-                subLanguage: "css",
-                excludeBegin: true,
-                excludeEnd: true,
-            },
-            {
-                begin: /^(?:\s*)(?:<style(?:\s+scoped)?\s+lang=(["'])(?:s[ca]ss)\1(?:\s+scoped)?>)/gm,
-                end: /^(\s*)(<\/style>)/gm,
-                subLanguage: "scss",
-                excludeBegin: true,
-                excludeEnd: true,
-            },
-            {
-                begin: /^(?:\s*)(?:<style(?:\s+scoped)?\s+lang=(["'])stylus\1(?:\s+scoped)?>)/gm,
-                end: /^(\s*)(<\/style>)/gm,
-                subLanguage: "stylus",
-                excludeBegin: true,
-                excludeEnd: true,
-            },
-        ],
-    };
-});
 
 
 /******************************************************
@@ -260,6 +180,15 @@ const app = Vue.createApp({
         window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
             if (event.matches) this.setDarkMode();
             else this.setLightMode();
+        });
+        this.$nextTick(() => {
+            document.querySelectorAll('span.inline-code').forEach((elm) => {
+                elm.addEventListener('click', (evt) => {
+                    selectElementText(elm);
+                    evt.preventDefault();
+                    evt.stopPropagation();
+                });
+            });
         });
     },
     methods: {
@@ -493,27 +422,31 @@ app.component('codepen', {
             remark = this.$slots.default()[0].children;
         }
         this.$root.registerLightSwitch(this);
-        let theme = this.$root.theme == 'dark' ? '43847' : '39618';
+        let theme = this.$root.theme == 'dark' ? '43847' : '44431';
         return {
             user: 'tim-momo',
             theme: theme,
             bheight: height,
+            cheight: parseInt(height) + 2,
             defaulttab: defaulttab,
             remark: remark
         }
     },
     methods: {
         lightSwitchOn() {
-            this.theme = '39618';
+            // this.theme = '39618';
+            this.theme = '44431';
         },
         lightSwitchOff() {
+            
             this.theme = '43847';
         },
     },
     template:
-    `<div class="codepen-container">` +
+    `<div class="codepen-container" :style="'height: ' + cheight + 'px'">` +
+        // `<div style="height: 100px; background-color: blue"></div>` +
         `<iframe :src="'https://codepen.io/' + user + '/embed/' + id + '?default-tab=' + defaulttab + '&theme-id=' + theme" class="codepen" scrolling="no" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" :style="'height: ' + bheight + 'px;'"></iframe>` +
-        `<span class="codepen-remark" v-if="this.remark != ''">{{ remark }}</span>` +
+        // `<span class="codepen-remark" v-if="this.remark != ''">{{ remark }}</span>` +
     `</div>`
 });
 
@@ -620,7 +553,9 @@ app.component('doclink', {
                 case 'developer.vuforia.com': site = 'vuforia'; break;
                 case 'cmontmorency365-my.sharepoint.com': site = 'momo'; break;
                 case 'cmontmorency365.sharepoint.com': site = 'momo'; break;
+                case 'www.cmontmorency.qc.ca': site = 'momo'; break;
                 case 'teams.microsoft.com': site = 'momo'; break;
+                case 'ccti.cmontmorency.qc.ca': site = 'momo'; break;
                 case 'github.com': site = 'github'; break;
                 case 'developers.google.com': site = 'google'; break;
                 case 'youtu.be': site = 'youtube'; break;
@@ -629,6 +564,7 @@ app.component('doclink', {
                 case 'www.unity.com': site = 'unity'; break;
                 case 'learn.unity.com': site = 'unity'; break;
                 case 'id.unity.com': site = 'unity'; break;
+                case 'assetstore.unity.com': site = 'unity'; break;
                 case 'unity.com': site = 'unity'; break;
                 case 'vuejs.org': site = 'vuejs'; break;
                 case 'v3.vuejs.org': site = 'vuejs'; break;
@@ -640,7 +576,6 @@ app.component('doclink', {
                 case 'www.advancedcustomfields.com': site = 'wordpress'; break;
                 case 'npmjs.com': site = 'npm'; break;
                 case 'docs.npmjs.com': site = 'npm'; break;
-
             }
         } catch (e) {
             if (this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
@@ -880,9 +815,9 @@ app.component('highlight', {
 
 
 /******************************************************
- *                  Composante Swiper                 *
+ *                 Composante Gallery                 *
  ******************************************************/
-app.component('swiper', {
+app.component('gallery', {
     data() {
         let images = [];
         let slides = [];
@@ -1014,6 +949,15 @@ app.component('checklist', {
     },
     created() {
         this.$nextTick(() => {
+            let localurl = new URL(location.href, document.baseURI);
+            this.$refs.checklist.querySelectorAll('a').forEach((elm) => {
+                let targeturl = new URL(elm.href, document.baseURI);
+                if(!(targeturl.hash && localurl.host == targeturl.host && localurl.pathname == targeturl.pathname)){
+                    elm.target = "_blank";
+                    elm.rel = "noopener noreferrer";
+                }
+                elm.addEventListener('click', (evt) => { evt.stopPropagation(); });
+            });
             this.progressbar = document.getElementById(this.hash + '-progressbar');
             this.updateProgressBar();
         });
@@ -1041,7 +985,7 @@ app.component('checklist', {
         }
     },
     template:
-        `<div class="checklist">` +
+        `<div ref="checklist" class="checklist">` +
             `<div class="pourcentage">{{ progress }}%</div>` +
             `<div :id="this.hash + '-progressbar'" class="progressbar" :style="'background-size: ' + this.progress + '% 100%;'"></div>` +
             `<ol>` +
@@ -1052,78 +996,6 @@ app.component('checklist', {
 
 
 /******************************************************
- *              Composante Audioplayer                *
- ******************************************************/
-app.component('audioplayer', {
-    props: ['src'],
-    data() {
-        var url = new URL(this.src, document.baseURI);
-        let name = url.pathname.split('.').shift();
-        let id = name.split('/').pop();
-        let details = syncjson(name + '.json');
-        let track = undefined;
-        details.media.track.forEach(elm => { if (elm['@type'] == 'Audio') { track = elm; } });
-        if (track == undefined) return {};
-        var sound = new Howl({
-            src: [url.pathname, name + '.webm'],
-            onend: this.onend,
-            preload: true
-        });
-        return {
-            id: id,
-            name: name,
-            duration: track.Duration,
-            sound: sound,
-            playing: false,
-            playInt: null,
-            progress: 0
-        }
-    },
-    methods: {
-        onend() {
-            this.playing = false;
-            clearInterval(this.playInt);
-            this.progress = 0;
-        },
-        click() {
-            if (this.playing) {
-                this.sound.pause();
-                this.playing = false;
-                clearInterval(this.playInt);
-            } else {
-                this.sound.play();
-                this.playing = true;
-                this.playInt = setInterval(this.pos, 50);
-            }
-        },
-        pos() {
-            let prog = (this.sound.seek() / this.duration * 100).toFixed(2);
-            if (prog !== this.progress) this.progress = prog;
-        },
-        seek(e) {
-            let newpos = ((e.clientX - e.currentTarget.offsetLeft) / e.currentTarget.offsetWidth) * this.duration;
-            this.sound.seek(newpos);
-            if (!this.playing) {
-                this.sound.play();
-                this.playing = true;
-                this.playInt = setInterval(this.pos, 50);
-            }
-        }
-    },
-    template:
-        `<div class="audioplayer-container">` +
-            `<div class="audioplayer">` +
-                `<div :class="'audioplayer__button'+(this.playing?' pause':'')" @click="click()"></div>` +
-                `<div class="audioplayer__waveform" :style="'background-image: url(\\''+this.name+'.png\\')'" @click="seek($event)">` +
-                    `<div class="audioplayer__progress" :style="'width: '+this.progress+'%;'"></div>` +
-                `</div>` +
-            `</div>` +
-        `</div>`
-});
-
-
-
-/******************************************************
  *                  Composante Tune                   *
  ******************************************************/
  app.component('tune', {
@@ -1131,20 +1003,60 @@ app.component('audioplayer', {
     data() {
         var url = new URL(this.src, document.baseURI);
         let name = url.pathname.split('.').shift();
-        let id = name.split('/').pop();
-        let details = syncjson(name + '.json');
-        let track = undefined;
-        details.media.track.forEach(elm => { if (elm['@type'] == 'Audio') { track = elm; } });
-        if (track == undefined) return {};
-        
-        console.log(track);
-
-
-        return {}
+        let sound = new Audio(url);
+        sound.preload = 'auto';
+        sound.addEventListener('play', () => { this.play(); });
+        sound.addEventListener('pause', () => { this.pause(); });
+        sound.addEventListener('ended', () => { this.ended(); });
+        this.$root.registerLightSwitch(this);
+        return {
+            name: name,
+            sound: sound,
+            playInt: null
+        }
     },
-    template:`
-    
-    `
+    methods: {
+        click() {
+            if (this.sound.paused) this.sound.play();
+            else this.sound.pause();
+        },
+        play() {
+            this.playing = true;
+            this.$refs.button.classList.add('pause');
+            this.playInt = setInterval(() => { this.time(); }, 50);
+        },
+        pause() {
+            this.playing = false;
+            this.$refs.button.classList.remove('pause');
+            clearInterval(this.playInt);
+        },
+        ended() {
+            this.$refs.progress.style.width = '0%';
+        },
+        seek(evt) {
+            let rect = evt.currentTarget.getBoundingClientRect();
+            let newpos = (evt.clientX - rect.left) / rect.width * this.sound.duration;
+            this.sound.currentTime = newpos;
+            if (this.sound.paused) this.sound.play();
+        },
+        time() {
+            let progress = Math.round(this.sound.currentTime / this.sound.duration * 10000) / 100;
+            this.$refs.progress.style.width = progress + '%';
+        },
+        lightSwitchOff() {
+            this.$refs.waveform.style.backgroundImage = 'url('+this.name + '-dark.png)';
+        },
+        lightSwitchOn() {
+            this.$refs.waveform.style.backgroundImage = 'url('+this.name + '-light.png)';
+        }
+    },
+    template:
+        `<div class="tune">` +
+            `<div class="tune__button" ref="button" @click="this.click()"></div>` +
+            `<div class="tune__waveform" ref="waveform" :style="'background-image: url(\\''+this.name+'-'+this.$root.theme+'.png\\')'" @click="this.seek">` +
+                `<div class="tune__progress" ref="progress"></div>` +
+            `</div>` +
+        `</div>`
 });
 
 
@@ -1194,6 +1106,10 @@ app.component('wiki', {
                 if (activePage == null) this.setActivePage(this.pages[0].id);
                 else this.setActivePage(activePage);
             }, 1);
+            document.querySelectorAll('#wiki__pages a').forEach((elm) => {
+                elm.rel = "noopener noreferrer";
+                elm.target = '_blank';
+            });
         });
     },
     methods: {

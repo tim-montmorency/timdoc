@@ -69,12 +69,7 @@
 <p>Voici un autre exemple d'utilisation.</p><!-- Remarquez les ancres du menu de navigation ne seront pas stylisé de la même façon que ceux du reste de la page.</p>
 <p>De plus, les éléments de liste du menu et ceux du sous-menu sont un peu différents l'un de l'autre.</p>-->
 
-<p class="codepen" data-height="850" data-theme-id="44431" data-default-tab="css,result" data-slug-hash="qBLZwem" data-user="tim-momo" style="height: 850px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/qBLZwem">
-  Sass - Imbrication</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<codepen id="qBLZwem" tab="css,result" height="850"></codepen>
 
 <p>Dans l'exemple précédent, lorsqu'on compile le SCSS en CSS, ça donnera le code suivant:</p>
 

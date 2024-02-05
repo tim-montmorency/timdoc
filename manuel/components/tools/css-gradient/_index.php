@@ -2,7 +2,7 @@
 /**
  * @type     tool
  * @title    CSS Gradient
- * @icon     images/thumb.jpg
+ * @icon     images/thumb.webp
  * @url      https://cssgradient.io/
  * @abstract Générateur de dégradés.
  */

@@ -28,7 +28,6 @@
         <link rel="stylesheet" href="../../shared/styles/highlight.min.css">
         <link rel="stylesheet" href="../../shared/styles/swiper-bundle.min.css">
         <script src="../../shared/jscripts/highlight.min.js"></script>
-        <script src="../../shared/jscripts/howler.min.js"></script>
         <script src="../../shared/jscripts/swiper-bundle.min.js"></script>
         <script src="../../shared/jscripts/vue.global.prod.js"></script>
         <script src="../../shared/jscripts/timdoc.min.js"></script>
@@ -195,6 +194,8 @@
                 <span class="intlink__item__abstract">Pour cet exercice, vous devez écrire du CSS afin de recréer la pochette de la bande sonore du film Lost Highway de David Lynch.</span>
             </div>
         </div>
+<info>Il existe aussi la composante <span class="inline-code">&lt;listlink href=&quot;...&quot;&gt;&lt;/listlink&gt;</span> qui est l'équivalent de <span class="inline-code">&lt;intlink&gt;&lt;/intlink&gt;</span> mais pour les pages de type <span class="inline-code">list</span>.</info>
+
 <warning>Le rendu de cette composante est effectué par le pré-processeur.</warning>
 <br><br>
 
@@ -202,7 +203,7 @@
 <highlight lang="html">&lt;exercice href=&quot;exercices/flexbox-defense&quot;&gt;&lt;/exercice&gt;</highlight>
         <a class="exercice" target="_blank" href="http://www.flexboxdefense.com/">
             <div class="exercice-container">
-                <div class="exercice-thumb" style="background-image: url(exercices/flexbox-defense/images/thumb.jpg)"></div>
+                <div class="exercice-thumb" style="background-image: url(exercices/flexbox-defense/images/thumb.webp)"></div>
                 <div class="exercice-abstract">
                     <em class="exercice-label">EXERCICE</em>
                     <span class="exercice-title">Flexbox Defense - Niveaux 1 à 9</span>
@@ -222,7 +223,7 @@
                     <span class="tool-title">CSS Gradient</span>
                     <span class="tool-description">Générateur de dégradés.</span>
                 </div>
-                <div class="tool-thumb" style="background-image: url(tools/css-gradient/images/thumb.jpg)"></div>
+                <div class="tool-thumb" style="background-image: url(tools/css-gradient/images/thumb.webp)"></div>
             </div>
         </a>
 <warning>Le rendu de cette composante est effectué par le pré-processeur.</warning>
@@ -391,8 +392,8 @@ Utilisez la proprité <span class="inline-code">transform</span>.<br>
 <br><br>
 
 
-<h3>swiper</h3>
-<highlight lang="html">&lt;swiper&gt;
+<h3>gallery</h3>
+<highlight lang="html">&lt;gallery&gt;
     photos/01.webp
     photos/02.webp
     photos/03.webp
@@ -403,8 +404,8 @@ Utilisez la proprité <span class="inline-code">transform</span>.<br>
     photos/08.webp
     photos/09.webp
     photos/10.webp
-&lt;/swiper&gt;</highlight>
-<swiper>
+&lt;/gallery&gt;</highlight>
+<gallery>
     photos/01.webp
     photos/02.webp
     photos/03.webp
@@ -415,7 +416,7 @@ Utilisez la proprité <span class="inline-code">transform</span>.<br>
     photos/08.webp
     photos/09.webp
     photos/10.webp
-</swiper>
+</gallery>
 <dots></dots>
 
 
@@ -472,8 +473,8 @@ Utilisez la proprité <span class="inline-code">transform</span>.<br>
 <grostitre>Audios</grostitre>
 
 <h3>audioplayer</h3>
-<highlight lang="html">&lt;audioplayer src=&quot;audios/careless-whisper.mp3&quot;&gt;&lt;/audioplayer&gt;</highlight>
-<audioplayer src="audios/careless-whisper.mp3"></audioplayer>
+<highlight lang="html">&lt;tune src=&quot;audios/careless-whisper.mp3&quot;&gt;&lt;/tune&gt;</highlight>
+<tune src="audios/careless-whisper.mp3"></tune>
 <doclink href="../audios">Manuel / Audios</doclink>
 <dots></dots>
 
@@ -491,8 +492,13 @@ Utilisez la proprité <span class="inline-code">transform</span>.<br>
 <grostitre>Codepen</grostitre>
 
 <h3>codepen</h3>
-<highlight lang="html">&lt;codepen id=&quot;gOEwrvG&quot; tab=&quot;results&quot;&gt;Voici une remarque pertinente.&lt;/codepen&gt;</highlight>
-<codepen id="gOEwrvG" tab="results">Voici une remarque pertinente.</codepen>
+<highlight lang="html">&lt;codepen id=&quot;gOEwrvG&quot; tab=&quot;result&quot; height=&quot;500&quot;&gt;&lt;/codepen&gt;</highlight>
+<codepen id="gOEwrvG" tab="result" height="500"></codepen>
+
+<highlight lang="html">&lt;codepen id=&quot;gOEwrvG&quot; tab=&quot;css,result&quot; height=&quot;500&quot;&gt;&lt;/codepen&gt;</highlight>
+<codepen id="gOEwrvG" tab="css,result" height="500"></codepen>
+
+
 <dots></dots>
 
 
@@ -551,7 +557,7 @@ Utilisez la proprité <span class="inline-code">transform</span>.<br>
 
 <p>Comme le wiki suit le thème de Timdoc, il sera affiché par défaut en thème <span class="inline-code">light</span> dans Teams. Il est possible de forcer le thème en l'ajoutant à l'adresse url.</p>
 
-<highlight lang="url">https://tim-montmorency.com/timdoc/582-215MO/wiki/?light
+<highlight lang="console">https://tim-montmorency.com/timdoc/582-215MO/wiki/?light
 https://tim-montmorency.com/timdoc/582-215MO/wiki/?dark</highlight>
 
 <h3>wiki-page</h3>
@@ -582,12 +588,11 @@ https://tim-montmorency.com/timdoc/582-215MO/wiki/?dark</highlight>
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>
-            </article>
-            <script>timdocMount();</script>
-        <!-- MAIN FOOTER SOF -->
+            </article>        <!-- MAIN FOOTER SOF -->
         </main>
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
+        <script>timdocMount();</script>
     </body>
 </html>

@@ -3,4 +3,3 @@
                 </div>
                 <tabledesmatieres></tabledesmatieres>
             </article>
-            <script>timdocMount();</script>

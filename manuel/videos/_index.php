@@ -4,7 +4,7 @@
  * @title    Vidéos
  * @icon     images/icon.webp
  * @index    0
- * @abstract Utiliser Github et Video.js
+ * @abstract Utiliser Github, Youtube et Vimeo
  */
 ?>
 

@@ -28,7 +28,6 @@
         <link rel="stylesheet" href="../../shared/styles/highlight.min.css">
         <link rel="stylesheet" href="../../shared/styles/swiper-bundle.min.css">
         <script src="../../shared/jscripts/highlight.min.js"></script>
-        <script src="../../shared/jscripts/howler.min.js"></script>
         <script src="../../shared/jscripts/swiper-bundle.min.js"></script>
         <script src="../../shared/jscripts/vue.global.prod.js"></script>
         <script src="../../shared/jscripts/timdoc.min.js"></script>
@@ -59,7 +58,7 @@
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
-<p>PXPros est un pré-processeur qui permet d'amener toute la puissance de PHP à un projet HTML statique. Il peut être utilisé pour créer des rendus de dossiers complets ou encore être utilisé en temps réel un peu comme SASS.</p>
+<p class="spacer">PXPros est un pré-processeur qui permet d'amener toute la puissance de PHP à un projet HTML statique. Il peut être utilisé pour créer des rendus de dossiers complets ou encore être utilisé en temps réel un peu comme SASS.</p>
 
 <dots></dots>
 
@@ -67,12 +66,12 @@
 
 <p>PXPros est un exécutable <em>statique</em>, il n'a besoin d'aucune dépendance. Il suffit de le placer dans dossier qui est dans les paths d'environnement ou encore ajouté son dossier dans les paths. Pour ce faire, pesez sur <em>WIN+R</em> et ensuite exécutez la commande <em>sysdm.cpl</em></p>
 
-<swiper>
+<gallery>
     images/run-system-properties.webp
     images/system-properties-advance.webp
     images/system-variables.webp
     images/add-path.webp
-</swiper>
+</gallery>
 
 <dots></dots>
 
@@ -82,10 +81,12 @@
 
 <highlight lang="json">{
     &quot;data&quot;: {
-        &quot;project&quot;: &quot;TIM Montmorency - Documentation&quot;
+        &quot;project&quot;: &quot;TIM Montmorency - Documentation&quot;,
+        &quot;gtag&quot;: &quot;G-P2R7T89B4B&quot;
     },
     &quot;includes&quot;: [
-        &quot;_includes/functions.php&quot;
+        &quot;_includes/functions.php&quot;,
+        &quot;_includes/hooks.php&quot;
     ],
     &quot;before&quot;: &quot;_includes/header.php&quot;,
     &quot;after&quot;: &quot;_includes/footer.php&quot;
@@ -161,10 +162,10 @@ echo get_shared($PAGE-&gt;file);</highlight>
 
 <p>PXPros est très simple d'utilisation. Il peut créer le rendu d'un seul fichier ou encore d'un dossier/sous-dossier. Dans le cas d'un dossier, PXPros le parcourera de manière récursive afin d'y trouver tout les fichiers ayant le pattern <em>_*.php.</em><br><br>Exemple:</p>
 
-<highlight lang="plaintext">PS D:\Programmation\tim-montmorency\cours\manuel&gt; pxpros .\_index.php
+<highlight lang="console">&gt; D:\Programmation\tim-montmorency\cours\manuel&gt; pxpros .\_index.php
 Render: /manuel/_index.php</highlight>
 
-<highlight lang="plaintext">PS D:\Programmation\tim-montmorency\cours\manuel&gt; pxpros .
+<highlight lang="console">&gt; D:\Programmation\tim-montmorency\cours\manuel&gt; pxpros .
 Render: /manuel/_index.php
 Render: /manuel/components/_index.php
 Render: /manuel/installation/_index.php
@@ -204,12 +205,11 @@ Render: /manuel/test/_index.php</highlight>
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>
-            </article>
-            <script>timdocMount();</script>
-        <!-- MAIN FOOTER SOF -->
+            </article>        <!-- MAIN FOOTER SOF -->
         </main>
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
+        <script>timdocMount();</script>
     </body>
 </html>

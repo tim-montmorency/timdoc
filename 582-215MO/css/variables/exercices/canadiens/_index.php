@@ -38,7 +38,7 @@
 
 <h3>Loco Locass - Le But</h3>
 
-<audioplayer src="audios/loco-locass-le-but.mp3"></audioplayer>
+<tune src="audios/loco-locass-le-but.mp3"></tune>
 <span class="remark">Ton prof Max chante sur cette toune.</span>
 
 <dots></dots>

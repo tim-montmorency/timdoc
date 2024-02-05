@@ -14,15 +14,7 @@
 <grostitre>Introduction</grostitre>
 <p>Les cartes Bootstrap permettent, comme leur nom l'indique, de générer rapidement et facilement des cartes comme celle-ci:</p>
 
-
-<p class="codepen" data-height="350" data-theme-id="43847" data-default-tab="result" data-slug-hash="mdjaoJR" data-user="tim-momo" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/mdjaoJR">
-            Bootstrap - Card basic</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-        on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
-
-<br><br><br>
+<codepen id="mdjaoJR" tab="result" height="350"></codepen>
 
 
 <p>Les cartes prennent la dimension de leur parent. Il est donc important de les inclure dans une colonne Bootstrap aillant la dimension&nbsp;souhaitée.</p>
@@ -73,12 +65,7 @@
     &lt;div class=&quot;card-header&quot;&gt;Ent&ecirc;te&lt;/div&gt;
 &lt;/div&gt;</highlight>
 
-
-<p class="codepen" data-height="400" data-theme-id="43847" data-default-tab="result" data-slug-hash="RwBEdpp" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/RwBEdpp">
-  Bootstrap - Card basic</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+<codepen id="RwBEdpp" tab="result" height="400"></codepen>
 
 
 <dots></dots>
@@ -96,13 +83,8 @@
     &lt;/ul&gt;
 &lt;/div&gt;</highlight>
 
-<p class="codepen" data-height="400" data-theme-id="43847" data-default-tab="result" data-slug-hash="eYjbXva" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/eYjbXva">
-  Bootstrap - Card header</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
 
-
+<codepen id="eYjbXva" tab="result" height="400"></codepen>
 
 <dots></dots>
 <grostitre>Horizontal</grostitre>
@@ -122,17 +104,13 @@
     &lt;/div&gt
  &lt;/div&gt;</highlight>
 
-<p class="codepen" data-height="200" data-theme-id="43847" data-default-tab="result" data-slug-hash="ZEjVPyZ" data-user="tim-momo" style="height: 200px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/ZEjVPyZ">
-  Bootstrap - Card list</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<br>
+
+<codepen id="ZEjVPyZ" tab="result" height="200"></codepen>
+
+
 <doclink href="https://getbootstrap.com/docs/5.3/components/card/">Cards</doclink>
 
 
 <dots></dots>
 <exercice href="../exercices/bootstrap-nav-card"></exercice>
 
-
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

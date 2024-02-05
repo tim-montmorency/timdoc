@@ -28,7 +28,6 @@
         <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
         <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
-        <script src="../../../shared/jscripts/howler.min.js"></script>
         <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
         <script src="../../../shared/jscripts/vue.global.prod.js"></script>
         <script src="../../../shared/jscripts/timdoc.min.js"></script>
@@ -76,12 +75,7 @@
 
  <p>Lorsqu'on travaille avec une <em>Sprite Sheet</em>, il faut d'abord créer un élément HTML dont la dimension correspond à celle d’une seule image-clé. Dans cet exemple, 700px par 700px. Et y ajouter notre sprite sheet en <span class="inline-code">background-image</span>.</p>
 
- <p class="codepen" data-height="780" data-theme-id="44431" data-default-tab="result" data-slug-hash="WNaQRWN" data-user="tim-momo" style="height: 780px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/WNaQRWN">
-  Spritesheet - Trump 3</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
+<codepen id="WNaQRWN" tab="result" height="780"></codepen>
 
 <p>Cependant, si la dimension de cet cet élément est fixe et si on a un écran plus petit que 700px, l'image sera partiellement hors cadre et l'utilisateur devra défiler la page pour visionner l'ensemble de l'image, ce qui n'est pas très <em>responsive</em>.</p> 
 
@@ -90,11 +84,9 @@
 <p>Essayons par exemple une largeur de 50vw (viewport width). Afin que l'image conserve son ratio largeur/hauteur, utilisons la propriété CSS <span class="inline-code">aspect-ratio</span>. Dans le cas actuel le ratio est littéralement 1 pour 1 car l'image-clés est de 700px X 700px. Dans un autre cas, il faudra réduire la fraction jusqu'à avoir la fraction irréductible, celle-ci sera donc la valeur de <span class="inline-code">aspect-ratio</span>. Vous pouvez utiliser des outils en ligne pour réduire vos fractions tels que <a href="https://www.calculatorsoup.com/calculators/math/fractionssimplify.php">celui-ci</a>.</p> 
 <p>Voici le résultat: </p>
 
-<p class="codepen" data-height="500" data-theme-id="44431" data-default-tab="result" data-slug-hash="yLRYMGP" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/yLRYMGP">
-  Sprite Sheet demo - largeur responsive 50vw</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+
+<codepen id="yLRYMGP" tab="result" height="500"></codepen>
+
 <dots></dots>
 
 <p>On remarque que l'image déborde de son cadre.</p>
@@ -124,23 +116,14 @@
 
 
 
-
-
-
-
-
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>
-            </article>
-            <script>timdocMount();</script>
-        <!-- MAIN FOOTER SOF -->
+            </article>        <!-- MAIN FOOTER SOF -->
         </main>
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
+        <script>timdocMount();</script>
     </body>
 </html>

@@ -245,6 +245,8 @@
 <h3>Exercice</h3>
 <p>Vérifier que le monstre créé dans le devoir 1 a ses calques séparés et bien nommés.</p>
 <intlink href="../exercices/04_devoir_1/#calques-animables"></intlink></p>
+<p>Si vous ne l'avez pas fait, utilisez le monstre suivant et arrangez ses calques:</p>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EY93NzitBkFBvc5QEKesEKgBbVa5HEn7REM0DIYWH4hXJg?e=suHlVD">Monstre</doclink>
 
 <p><h3>Notions</h3>
 <ul>

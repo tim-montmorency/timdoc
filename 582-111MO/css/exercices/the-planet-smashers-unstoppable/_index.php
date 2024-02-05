@@ -91,7 +91,7 @@
 
 <h3>The Planet Smashers - Police the Nation</h3>
 
-<audioplayer src="audios/the-planet-smashers-police-the-nation.mp3"></audioplayer>
+<tune src="audios/the-planet-smashers-police-the-nation.mp3"></tune>
 
 <dots></dots>
 

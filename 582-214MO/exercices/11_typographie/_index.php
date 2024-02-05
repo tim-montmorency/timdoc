@@ -51,13 +51,17 @@ Pas de combats entre les membres de l'équipage.  </p>
 <grostitre>Dossier de départ</grostitre>
 <p>Téléchargez le document suivant et ouvrez le dans Illustrator.</p>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EZbpNR8a7yZJmbZYqRcfizoB_UApDm8ly0CIYKtanp8JQw?e=wen0ce">Document de départ</doclink>
+
+<p>Téléchargez la police suivante:</p>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EmBfi8aBWwdJvH1dPQiOmXwBVVlragN0h0SpZi8pNc5C_A?e=igwwOw">Orbitron</doclink>
+
 <dots></dots>
 
 <grostitre>Étapes</grostitre>
 <p>Le but de l'exercice est de reproduire le même texte qu'en bas avec notre texte du haut.</p>
 <checklist>
-Assurez-vous d'<a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EbPB9gvTuiRKhQFN5uaZa-sBTdOEKUX243C3F_cvVvDn9w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1oVbbl">activer</a> la typographie Orbitron avec Adobe.
-Allez dans la barre de texte, puis sélectionnez: Convertir le texte en chemin modifiables. 
+Assurez-vous de télécharger la police Orbitron ci-haut et installez-la sur votre ordinateur.
+Allez dans la barre de texte, puis sélectionnez: Vectoriser. 
 Assurez-vous que les repères commentés sont activés. 
 Utilisez les outils V et A pour modifier les lettre et reproduire la même chose qu'en bas. 
 </checklist>

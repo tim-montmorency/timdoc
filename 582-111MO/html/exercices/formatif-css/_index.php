@@ -13,9 +13,9 @@
 
 <p>Pour cet exercice vous allez reproduire un site web de Fortnite.</p>
 
-<swiper>
+<gallery>
     photos/fornite.webp
-</swiper>
+</gallery>
 
 <h2>Couleurs</h2>
 

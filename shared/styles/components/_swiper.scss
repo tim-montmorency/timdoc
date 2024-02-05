@@ -1,3 +1,11 @@
+body.dark {
+    .swiper.swiper-main {
+        .swiper-slide {
+            background-color: black;
+        }
+    }
+}
+
 
 .swiper.swiper-main {
     width: 100%;
@@ -7,7 +15,7 @@
         user-select: none;
         background-size: 0px 0px;
         background-repeat: no-repeat;
-        background-color: black;
+        background-color: white;
         overflow: hidden;
 
         &::before {
@@ -51,10 +59,10 @@
         top: 10px;
         right: 10px;
         z-index: 999;
-        opacity: 0.6;
+        opacity: 0.8;
         background-size: contain;
-        background-image: url('../images/fullscreen-icon.png');
-        filter: drop-shadow(0px 0px 1px black);
+        background-image: url('../images/assets/fullscreen-icon.webp');
+        // filter: drop-shadow(0px 0px 1px white);
         cursor: pointer;
 
         &:hover { opacity: 1; }

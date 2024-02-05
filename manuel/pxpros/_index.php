@@ -8,7 +8,7 @@
  */
 ?>
 
-<p>PXPros est un pré-processeur qui permet d'amener toute la puissance de PHP à un projet HTML statique. Il peut être utilisé pour créer des rendus de dossiers complets ou encore être utilisé en temps réel un peu comme SASS.</p>
+<p class="spacer">PXPros est un pré-processeur qui permet d'amener toute la puissance de PHP à un projet HTML statique. Il peut être utilisé pour créer des rendus de dossiers complets ou encore être utilisé en temps réel un peu comme SASS.</p>
 
 <dots></dots>
 
@@ -16,12 +16,12 @@
 
 <p>PXPros est un exécutable <em>statique</em>, il n'a besoin d'aucune dépendance. Il suffit de le placer dans dossier qui est dans les paths d'environnement ou encore ajouté son dossier dans les paths. Pour ce faire, pesez sur <em>WIN+R</em> et ensuite exécutez la commande <em>sysdm.cpl</em></p>
 
-<swiper>
+<gallery>
     images/run-system-properties.webp
     images/system-properties-advance.webp
     images/system-variables.webp
     images/add-path.webp
-</swiper>
+</gallery>
 
 <dots></dots>
 
@@ -29,16 +29,20 @@
 
 <p>PXPros se configure par projet. Il suffit de créer un fichier JSON <em>(_pxpros.json)</em> à la racine du projet.<br><br>Exemple:</p>
 
-<highlight lang="json">{
+<highlight lang="json">
+{
     "data": {
-        "project": "TIM Montmorency - Documentation"
+        "project": "TIM Montmorency - Documentation",
+        "gtag": "G-P2R7T89B4B"
     },
     "includes": [
-        "_includes/functions.php"
+        "_includes/functions.php",
+        "_includes/hooks.php"
     ],
     "before": "_includes/header.php",
     "after": "_includes/footer.php"
-}</highlight>
+}
+</highlight>
 
 <h3>data</h3>
 <p>La propriété <em>data</em> est un objet où vous pouvez y mettre tout ce que vous voulez. Ces données seront accessibles via la variable superglobale <em>$PAGE</em>.<br><br>Exemple:</p>
@@ -112,10 +116,10 @@ echo get_shared($PAGE->file);
 
 <p>PXPros est très simple d'utilisation. Il peut créer le rendu d'un seul fichier ou encore d'un dossier/sous-dossier. Dans le cas d'un dossier, PXPros le parcourera de manière récursive afin d'y trouver tout les fichiers ayant le pattern <em>_*.php.</em><br><br>Exemple:</p>
 
-<highlight lang="plaintext">PS D:\Programmation\tim-montmorency\cours\manuel> pxpros .\_index.php
+<highlight lang="console">> D:\Programmation\tim-montmorency\cours\manuel> pxpros .\_index.php
 Render: /manuel/_index.php</highlight>
 
-<highlight lang="plaintext">PS D:\Programmation\tim-montmorency\cours\manuel> pxpros .
+<highlight lang="console">> D:\Programmation\tim-montmorency\cours\manuel> pxpros .
 Render: /manuel/_index.php
 Render: /manuel/components/_index.php
 Render: /manuel/installation/_index.php
