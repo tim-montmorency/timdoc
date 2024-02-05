@@ -1,3 +1,8 @@
+body.dark .correction tfoot td:nth-child(2) button {
+    color: white;
+ 
+}
+
 .correction {
     
     margin-left: -25px;
@@ -19,18 +24,27 @@
         text-align: right;
         white-space: nowrap;
         line-height: 26px;
-        vertical-align: middle;
+        // vertical-align: middle;
 
         button {
+            color: black;
+            padding: 2px;
             margin-left: 8px;
             font-size: 0.8em;
             font-weight: bold;
-            width: 80px;
             user-select: none;
+            width: 26px;
             height: 26px;
             vertical-align: middle;
-            &.btn__download, &.btn__clear, &.btn__copy {
-                width: 26px;
+            -webkit-appearance: none;
+            // appearance: button;
+            border: 1px solid rgb(128, 128, 128);
+            
+            border-radius: 2;
+            svg {
+                width: 100%;
+                height: 100%;
+                // background-color: red;
             }
         }
 
@@ -77,9 +91,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100vw;
+    width: 98vw;
     max-width: 720px;
-    // height: 200px;
     background-color: white;
     border: 1px solid black;
 
