@@ -8,9 +8,13 @@
         font-size: 1.1em;
     }
 
-    & tfoot td:nth-child(1) {
-        font-size: 1.4em;
-        font-weight: bold;
+    & tfoot {
+        background-color: #ff003c10;
+        
+        td:nth-child(1) {
+            font-size: 1.4em;
+            font-weight: bold;
+        }
     }
 
     & tfoot td:nth-child(2) {

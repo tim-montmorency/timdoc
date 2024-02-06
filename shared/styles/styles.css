@@ -1609,6 +1609,9 @@ iframe[src*="sharepoint.com"] {
   text-align: center;
   font-size: 1.1em;
 }
+.correction tfoot {
+  background-color: rgba(255, 0, 60, 0.062745098);
+}
 .correction tfoot td:nth-child(1) {
   font-size: 1.4em;
   font-weight: bold;
