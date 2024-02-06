@@ -3,11 +3,11 @@
  * @type     exercice
  * @title    Moby - I Like to Score
  * @icon     images/thumb.jpg
- * @abstract Pour cet exercice, vous devez écrire du CSS afin de recréer l’album "I Like to Score" de Moby.
+ * @abstract Pour ce formatif, vous devez écrire du CSS afin de recréer l’album "I Like to Score" de Moby.
  */
 ?>
 
-<p class="spacer">Pour cet exercice, vous devez écrire du CSS afin de recréer l’album <a target="_blank" href="https://open.spotify.com/album/2KdsBwZ4QSPcG81egRQcxw?si=iITsmZJEQtm5v61LfF14VA">I Like to Score de Moby</a>.</p>
+<p class="spacer">Pour ce formatif, vous devez écrire du CSS afin de recréer l’album <a target="_blank" href="https://open.spotify.com/album/2KdsBwZ4QSPcG81egRQcxw?si=iITsmZJEQtm5v61LfF14VA">I Like to Score de Moby</a>.</p>
 
 <p>Aperçu du résultat 👇</p>
 
@@ -51,7 +51,7 @@
 <checklist>
   Renommez votre dossier <em>"moby_[nom]_[prenom]"</em>.
   Zippez votre dossier <em>"moby_[nom]_[prenom]"</em>.
-  Joignez votre fichier <em>.zip</em> au devoir <em>"TP03: Moby - I Like to Score"</em>.
+  Joignez votre fichier <em>.zip</em> au devoir <em>"Formatif: Moby - I Like to Score"</em>.
 </checklist>
 
 <dots></dots>
