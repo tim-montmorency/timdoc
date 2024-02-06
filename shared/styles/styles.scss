@@ -573,8 +573,9 @@ table{
         ul {
             position: sticky;
             top: 0;
-            padding: 25px 25px;
+            padding: 25px 25px 25px 25px;
             user-select: none;
+            // background-color: red;
             
             li {
                 white-space: nowrap;
@@ -583,10 +584,12 @@ table{
                 font-size: 16px;
                 line-height: 18px;
                 a + span {
-                    display: none;
+                    // display: inline-block;
+                    visibility: hidden;
                 }
                 a.active + span {
-                    display: inline-block;
+                    visibility: visible;
+                    // display: inline-block;
                 }
 
             }

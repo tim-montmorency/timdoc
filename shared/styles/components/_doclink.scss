@@ -45,7 +45,9 @@ a.doclink {
 
     .doclink-icon {
         background-image: url('../images/icons/doclink-icon.webp');
-        background-size: 24px 24px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
         display: inline-block;
         position: relative;
         top: 4px;
@@ -273,5 +275,14 @@ a.doclink {
     }
     &::before {
         background-color: #c93737;
+    }
+}
+
+.doclink.vimeo {
+    .doclink-icon {
+        background-image: url('../images/icons/vimeo-icon.webp');
+    }
+    &::before {
+        background-color: #1ab7ea;
     }
 }

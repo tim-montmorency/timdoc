@@ -827,7 +827,9 @@ a.doclink .doclink-title {
 }
 a.doclink .doclink-icon {
   background-image: url("../images/icons/doclink-icon.webp");
-  background-size: 24px 24px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   display: inline-block;
   position: relative;
   top: 4px;
@@ -1007,6 +1009,13 @@ a.doclink .doclink-icon {
 }
 .doclink.npm::before {
   background-color: #c93737;
+}
+
+.doclink.vimeo .doclink-icon {
+  background-image: url("../images/icons/vimeo-icon.webp");
+}
+.doclink.vimeo::before {
+  background-color: #1ab7ea;
 }
 
 a.exercice {
@@ -2220,7 +2229,7 @@ table.table-couleurs .color {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  padding: 25px 25px;
+  padding: 25px 25px 25px 25px;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -2234,10 +2243,10 @@ table.table-couleurs .color {
   line-height: 18px;
 }
 #wiki__list ul li a + span {
-  display: none;
+  visibility: hidden;
 }
 #wiki__list ul li a.active + span {
-  display: inline-block;
+  visibility: visible;
 }
 #wiki__pages {
   width: 100%;

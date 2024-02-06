@@ -778,6 +778,7 @@ app.component('doclink', {
                 case 'www.advancedcustomfields.com': site = 'wordpress'; break;
                 case 'npmjs.com': site = 'npm'; break;
                 case 'docs.npmjs.com': site = 'npm'; break;
+                case 'vimeo.com': site = 'vimeo'; break;
             }
         } catch (e) {
             if (this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
