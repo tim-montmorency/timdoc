@@ -112,9 +112,9 @@ const cyrb53 = (str, seed = 0) => {
  *                     MD5 Hashing                    *
  ******************************************************/
  const md5 = (inputString) => {
-    var hc="0123456789abcdef";
-    const rh = (n) => {var j,s="";for(j=0;j<=3;j++) s+=hc.charAt((n>>(j*8+4))&0x0F)+hc.charAt((n>>(j*8))&0x0F);return s;}
-    const ad = (x,y) => {var l=(x&0xFFFF)+(y&0xFFFF);var m=(x>>16)+(y>>16)+(l>>16);return (m<<16)|(l&0xFFFF);}
+    const hc = "0123456789abcdef";
+    const rh = (n) => {let j,s="";for(j=0;j<=3;j++) s+=hc.charAt((n>>(j*8+4))&0x0F)+hc.charAt((n>>(j*8))&0x0F);return s;}
+    const ad = (x,y) => {let l=(x&0xFFFF)+(y&0xFFFF);let m=(x>>16)+(y>>16)+(l>>16);return (m<<16)|(l&0xFFFF);}
     const rl = (n,c) => {return (n<<c)|(n>>>(32-c));}
     const cm = (q,a,b,x,s,t) => {return ad(rl(ad(ad(a,q),ad(x,t)),s),b);}
     const ff = (a,b,c,d,x,s,t) => {return cm((b&c)|((~b)&d),a,b,x,s,t);}
@@ -122,11 +122,11 @@ const cyrb53 = (str, seed = 0) => {
     const hh = (a,b,c,d,x,s,t) => {return cm(b^c^d,a,b,x,s,t);}
     const ii = (a,b,c,d,x,s,t) => {return cm(c^(b|(~d)),a,b,x,s,t);}
     const sb = (x) => {
-        var i;var nblk=((x.length+8)>>6)+1;var blks=new Array(nblk*16);for(i=0;i<nblk*16;i++) blks[i]=0;
+        let i;let nblk=((x.length+8)>>6)+1;let blks=new Array(nblk*16);for(i=0;i<nblk*16;i++) blks[i]=0;
         for(i=0;i<x.length;i++) blks[i>>2]|=x.charCodeAt(i)<<((i%4)*8);
         blks[i>>2]|=0x80<<((i%4)*8);blks[nblk*16-2]=x.length*8;return blks;
     }
-    var i,x=sb(""+inputString),a=1732584193,b=-271733879,c=-1732584194,d=271733878,olda,oldb,oldc,oldd;
+    let i,x=sb(""+inputString),a=1732584193,b=-271733879,c=-1732584194,d=271733878,olda,oldb,oldc,oldd;
     for(i=0;i<x.length;i+=16) {olda=a;oldb=b;oldc=c;oldd=d;
         a=ff(a,b,c,d,x[i+ 0], 7, -680876936);d=ff(d,a,b,c,x[i+ 1],12, -389564586);c=ff(c,d,a,b,x[i+ 2],17,  606105819);
         b=ff(b,c,d,a,x[i+ 3],22,-1044525330);a=ff(a,b,c,d,x[i+ 4], 7, -176418897);d=ff(d,a,b,c,x[i+ 5],12, 1200080426);
