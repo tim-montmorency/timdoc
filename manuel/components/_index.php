@@ -127,15 +127,30 @@
 <grostitre>Liens médias</grostitre>
 
 <h3>mediafile</h3>
-<highlight lang="html"><mediafile src="images/icon.png">Icône</mediafile></highlight>
-<mediafile src="images/icon.png">Icône</mediafile>
+<p>Lier un fichier média afin de le copier ou de le télécharger.</p>
+<highlight lang="html">
+<mediafile src="images/icon.webp">Icône</mediafile>
+<mediafile src="images/gandalf.svg">Gandalf</mediafile>
+</highlight>
+<mediafile src="images/icon.webp">Icône</mediafile>
+<mediafile src="images/gandalf.svg">Gandalf</mediafile>
+<br>
+<p>Si vous n'avez pas besoin de la boîte d'adresse.</p>
+<highlight lang="html">
+<mediafile src="images/icon.webp" addr="false">Icône</mediafile>
+<mediafile src="images/gandalf.svg" addr="false">Gandalf</mediafile>
+</highlight>
+<mediafile src="images/icon.webp" addr="false">Icône</mediafile>
+<mediafile src="images/gandalf.svg" addr="false">Gandalf</mediafile>
 <br>
 
 <h3>doclink</h3>
-<highlight lang="html">
+<highlight lang="html" scroll="true">
+<doclink href="https://css-tricks.com/almanac/properties/f/flex-direction/">flex-direction</doclink>
 <doclink href="https://www.w3schools.com/cssref/css3_pr_flex-direction.php">flex-direction</doclink>
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/flex-direction">flex-direction</doclink>
 </highlight>
+<doclink href="https://css-tricks.com/almanac/properties/f/flex-direction/">flex-direction</doclink>
 <doclink href="https://www.w3schools.com/cssref/css3_pr_flex-direction.php">flex-direction</doclink>
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/flex-direction">flex-direction</doclink>
 <br><br>
@@ -200,8 +215,21 @@ Utilisez la proprité <incode>transform</incode>.<br>
 <br><br>
 
 <h3>highlight</h3>
-<highlight lang="html">&lt;highlight lang="javascript"&gt;console.log("Ceci est du javascript");&lt;/highlight&gt;</highlight>
-<highlight lang="javascript">console.log("Ceci est du javascript");</highlight>
+<highlight lang="html">
+&lt;highlight lang="javascript"&gt;
+    console.log("Ceci est du javascript en surbrillante grâce à la librairie javascript Highlight.js qui supporte une tonne de langages différents.");
+&lt;/highlight&gt;
+</highlight>
+<highlight lang="javascript">console.log("Ceci est du javascript en surbrillante grâce à la librairie javascript Highlight.js qui supporte une tonne de langages différents.");</highlight>
+
+<p>Si votre texte est trop long vous pouvez toujours utiliser la propriété <incode>scroll="true"</incode> pour activer la barre de défilement horizontale.</p>
+<highlight lang="html" scroll="true">
+&lt;highlight lang="javascript" scroll="true"&gt;
+    console.log("Ceci est du javascript en surbrillante grâce à la librairie javascript Highlight.js qui supporte une tonne de langages différents.");
+&lt;/highlight&gt;
+</highlight>
+<highlight lang="javascript" scroll="true">console.log("Ceci est du javascript en surbrillante grâce à la librairie javascript Highlight.js qui supporte une tonne de langages différents.");</highlight>
+
 <warning>Le rendu de cette composante est effectué par le pré-processeur.</warning>
 <doclink href="https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md ">Languages supportés</doclink>
 
@@ -223,7 +251,8 @@ Utilisez la proprité <incode>transform</incode>.<br>
 <grostitre>Liste à cocher</grostitre>
 
 <h3>checklist</h3>
-<highlight lang="html">&lt;checklist&gt;
+<highlight lang="html" scroll="true">
+<checklist>
     Bacon ipsum dolor amet pork loin shankle leberkas beef capicola porchetta ground round kevin meatball bresaola andouille.
     Andouille ham bresaola landjaeger meatloaf shoulder t-bone kielbasa salami corned beef porchetta ball tip.
     Brisket sirloin short loin beef shank swine ham hock hamburger spare ribs cupim.
@@ -231,7 +260,8 @@ Utilisez la proprité <incode>transform</incode>.<br>
     Cow picanha fatback pastrami meatloaf biltong tongue shankle pork drumstick pork chop ribeye.
     Spare ribs shank hamburger shankle.
     Fatback sausage andouille, tenderloin ribeye ham short loin swine burgdoggen kielbasa capicola chuck spare ribs.
-&lt;/checklist&gt;</highlight>
+</checklist>
+</highlight>
 <checklist>
     Bacon ipsum dolor amet pork loin shankle leberkas beef capicola porchetta ground round kevin meatball bresaola andouille.
     Andouille ham bresaola landjaeger meatloaf shoulder t-bone kielbasa salami corned beef porchetta ball tip.
@@ -428,9 +458,11 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
 <grostitre>Codepen</grostitre>
 
-<h3>codepen</h3>
-<highlight lang="html"><codepen id="gOEwrvG" tab="result" height="500"></codepen></highlight>
-<codepen id="gOEwrvG" tab="result" height="500"></codepen>
+<p>Par défaut, si l'attribut <incode>tab</incode> n'est pas spécifié, les tabs HTML et Result sont affichés.</p>
+
+<h3>Exemples:</h3>
+<highlight lang="html"><codepen id="gOEwrvG" tab="result"></codepen></highlight>
+<codepen id="gOEwrvG" tab="result"></codepen>
 
 <highlight lang="html"><codepen id="gOEwrvG" tab="css,result" height="500"></codepen></highlight>
 <codepen id="gOEwrvG" tab="css,result" height="500"></codepen>
@@ -453,7 +485,7 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
 <p>Il est possible de créer un simulateur de correction avec les balises <incode>correction</incode> et <incode>criteria</incode>.</p>
 
-<h3>correction & criteria</h3>
+<h3>Exemple:</h3>
 <highlight lang="html">
 <correction scale="Excellent, Bon, Moyen, Médiocre, Absent" value="10">
     <criteria value="20">Album</criteria>

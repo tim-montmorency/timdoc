@@ -122,12 +122,13 @@ const cyrb53 = (str, seed = 0) => {
     const hh = (a,b,c,d,x,s,t) => {return cm(b^c^d,a,b,x,s,t);}
     const ii = (a,b,c,d,x,s,t) => {return cm(c^(b|(~d)),a,b,x,s,t);}
     const sb = (x) => {
-        let i;let nblk=((x.length+8)>>6)+1;let blks=new Array(nblk*16);for(i=0;i<nblk*16;i++) blks[i]=0;
-        for(i=0;i<x.length;i++) blks[i>>2]|=x.charCodeAt(i)<<((i%4)*8);
-        blks[i>>2]|=0x80<<((i%4)*8);blks[nblk*16-2]=x.length*8;return blks;
+        let i; let nblk = ((x.length + 8) >> 6) + 1; let blks = new Array(nblk * 16); for (i = 0; i < nblk * 16; i++) blks[i] = 0;
+        for (i = 0; i < x.length; i++) blks[i >> 2] |= x.charCodeAt(i) << ((i % 4) * 8);
+        blks[i >> 2] |= 0x80 << ((i % 4) * 8); blks[nblk * 16 - 2] = x.length * 8; return blks;
     }
-    let i,x=sb(""+inputString),a=1732584193,b=-271733879,c=-1732584194,d=271733878,olda,oldb,oldc,oldd;
-    for(i=0;i<x.length;i+=16) {olda=a;oldb=b;oldc=c;oldd=d;
+     let i, x = sb("" + inputString), a = 1732584193, b = -271733879, c = -1732584194, d = 271733878, olda, oldb, oldc, oldd;
+     for (i = 0; i < x.length; i += 16) {
+        olda = a; oldb = b; oldc = c; oldd = d;
         a=ff(a,b,c,d,x[i+ 0], 7, -680876936);d=ff(d,a,b,c,x[i+ 1],12, -389564586);c=ff(c,d,a,b,x[i+ 2],17,  606105819);
         b=ff(b,c,d,a,x[i+ 3],22,-1044525330);a=ff(a,b,c,d,x[i+ 4], 7, -176418897);d=ff(d,a,b,c,x[i+ 5],12, 1200080426);
         c=ff(c,d,a,b,x[i+ 6],17,-1473231341);b=ff(b,c,d,a,x[i+ 7],22,  -45705983);a=ff(a,b,c,d,x[i+ 8], 7, 1770035416);
@@ -177,7 +178,7 @@ const invertColor = (hex, bw) => {
     if (hex.indexOf('#') === 0) hex = hex.slice(1);
     if (hex.length === 3) hex = hex[0] + hex[0] + hex[1] + hex[1] + hex[2] + hex[2];
     if (hex.length !== 6) return false;
-    var r = parseInt(hex.slice(0, 2), 16), g = parseInt(hex.slice(2, 4), 16), b = parseInt(hex.slice(4, 6), 16);
+    let r = parseInt(hex.slice(0, 2), 16), g = parseInt(hex.slice(2, 4), 16), b = parseInt(hex.slice(4, 6), 16);
     if (bw) return (r * 0.299 + g * 0.587 + b * 0.114) > 186 ? '#000000' : '#FFFFFF';
     r = (255 - r).toString(16);
     g = (255 - g).toString(16);
@@ -191,7 +192,7 @@ const invertColor = (hex, bw) => {
  ******************************************************/
 const pad = (num, size) => {
     size = size || 2;
-    var s = "000000000" + num;
+    let s = "000000000" + num;
     return s.substr(s.length - size);
 }
 
@@ -455,7 +456,7 @@ app.component('tabledesmatieres', {
     template:
         `<div id="contents_table" v-if="this.list != ''">` +
             `<div class="contents_table__table">` +
-                `<a href="#top" @click="this.goToTop" class="no-underline"><strong>Table des matières</strong></a>` +
+                `<a href="#top" @click="this.goToTop($event)" class="no-underline"><strong>Table des matières</strong></a>` +
                 `<ul v-html="list"></ul>` +
             `</div>` +
         `</div>`
@@ -477,7 +478,7 @@ app.component('grostitre', {
     },
     methods: {
         click(event) {
-            var link = window.location.origin + window.location.pathname + '#' + this.id;
+            let link = window.location.origin + window.location.pathname + '#' + this.id;
             navigator.clipboard.writeText(link);
             let target = event.currentTarget;
             target.classList.add('copied');
@@ -550,6 +551,7 @@ app.component('incode', {
 app.component('mediafile', {
     props: ['src', 'spacer', 'addr'],
     data() {
+        let addr = (typeof this.addr != 'undefined' && this.addr == 'false') ? false : true;
         let space = this.spacer == 'true' ? ' spacerr' : '';
         try { var url = new URL(this.src); }
         catch (e) { var url = new URL(this.src, document.baseURI); }
@@ -562,10 +564,6 @@ app.component('mediafile', {
             case 'mp3': var icon = 'type-audio.webp'; break;
             default: var icon = 'type-file.webp';
         }
-
-        let addr = true;
-        if (typeof this.addr != 'undefined' && this.addr == 'false') addr = false;
-
         return {
             isaddr: addr,
             space: space,
@@ -598,13 +596,12 @@ app.component('mediafile', {
         `<div :class="'mediafile' + this.space">` +
             `<div class="mediafile__icon" :style="'background-image: url(\\'' + this.icon + '\\')'">&nbsp;</div>` +
             `<div class="mediafile__text"><slot/></div>` +
-            `<div class="mediafile__download" @click="download($event)"><svg fill="currentColor" viewBox="0 0 538 538"><path d="M463 466H75c-12 0-22 10-22 22v28c0 12 10 22 22 22h388c12 0 21-10 21-22v-28c1-12-9-22-21-22zm-209-38c4 4 10 6 15 6 6 0 11-2 15-6l147-147c9-9 9-22 0-31l-20-20c-8-9-22-9-31 0l-75 75V21c0-11-10-21-22-21h-28c-12 0-22 10-22 21v285l-75-76c-9-8-22-8-31 0l-20 20c-9 9-9 22 0 31l147 147z"/></svg></div>` +
-            `<div class="mediafile__chain" @click="click($event)"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path></svg></div>` +
+            `<div class="mediafile__download" title="Télécharger" @click="download($event)"><svg fill="currentColor" viewBox="0 0 538 538"><path d="M463 466H75c-12 0-22 10-22 22v28c0 12 10 22 22 22h388c12 0 21-10 21-22v-28c1-12-9-22-21-22zm-209-38c4 4 10 6 15 6 6 0 11-2 15-6l147-147c9-9 9-22 0-31l-20-20c-8-9-22-9-31 0l-75 75V21c0-11-10-21-22-21h-28c-12 0-22 10-22 21v285l-75-76c-9-8-22-8-31 0l-20 20c-9 9-9 22 0 31l147 147z"/></svg></div>` +
+            `<div class="mediafile__chain" title="Copier" @click="click($event)"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path></svg></div>` +
             `<div class="mediafile__linkcopied">Lien copié &#x2713;</div>` +
         `</div>` +
         `<div v-if="this.isaddr" :class="'mediafile__link' + this.space"><input readonly type="text" class="mediafile__link-text" :value="this.link" @focus="focus($event)"></div>` +
-        `<div class="mediafile__spacer"></div>`
-
+        `<div v-if="this.isaddr" class="mediafile__spacer"></div>`
 });
 
 
@@ -612,14 +609,12 @@ app.component('mediafile', {
  *                 Composante Codepen                 *
  ******************************************************/
 app.component('codepen', {
-    props: ['id', 'title', 'tab', 'height'],
+    props: ['id', 'title', 'tab', 'height', 'patate'],
+    setup(props) {
+        if(!props.tab) props.tab = 'html,result';
+        if(!props.height) props.height = 400;
+    },
     data() {
-        var defaulttab = 'html,result';
-        var height = 400;
-        if (typeof this.tab != 'undefined') defaulttab = this.tab;
-        if (typeof this.height != 'undefined') height = this.height;
-
-        defaulttab = encodeURIComponent(defaulttab);
         let remark = '';
         if (typeof this.$slots.default != 'undefined') {
             remark = this.$slots.default()[0].children;
@@ -629,9 +624,9 @@ app.component('codepen', {
         return {
             user: 'tim-momo',
             theme: theme,
-            bheight: height,
-            cheight: parseInt(height) + 2,
-            defaulttab: defaulttab,
+            bheight: this.height,
+            cheight: parseInt(this.height) + 2,
+            defaulttab: encodeURIComponent(this.tab),
             remark: remark
         }
     },
@@ -732,8 +727,7 @@ app.component('knowmore', {
  ******************************************************/
 app.component('doclink', {
     props: ['href', 'spacer'],
-    data() {
-        let site = '';
+    setup() {
         const domains = {
             "www.w3schools.com":                 "w3schools",
             "developer.mozilla.org":             "mozilla",
@@ -779,12 +773,15 @@ app.component('doclink', {
             "vimeo.com":                         "vimeo",
             "web.dev":                           "webdev",
         };
+        return { domains }
+    },
+    data() {
+        let site = '';
         try {
             let url = new URL(this.href, document.baseURI);
-            if(domains[url.hostname] !== undefined) site = domains[url.hostname];
+            if(this.domains[url.hostname] !== undefined) site = this.domains[url.hostname];
         } catch (e) {
             if (this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
-            else site = '';
         }
         if (this.spacer == 'true') site += ' spacer';
         return { class: site }
@@ -856,7 +853,7 @@ app.component('color', {
 app.component('clip', {
     props: ['src', 'title'],
     data() {
-        var url = new URL(this.src, document.baseURI);
+        let url = new URL(this.src, document.baseURI);
         let name = url.pathname.split('.').shift();
         let id = name.split('/').pop();
         let details = syncjson(name + '.json');
@@ -1014,8 +1011,8 @@ app.component('vimeo', {
  ******************************************************/
 //https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md
 app.component('highlight', {
-    props: ['lang'],
-    template: `<pre class="highlight"><code :class="'language-' + this.lang"><slot /></code></pre>`
+    props: ['lang', 'scroll'],
+    template: `<pre class="highlight"><code :class="'language-' + this.lang + (this.scroll == 'true' ? ' scroll' : '')"><slot /></code></pre>`
 });
 
 
@@ -1172,15 +1169,10 @@ app.component('checklist', {
             return cyrb53(window.location.pathname + str);
         },
         click(event, i) {
-            if(window.getSelection().toString().length !== 0) return;
-            let target = event.currentTarget;
-            if (this.checks[i]) {
-                this.checks[i] = 0;
-                target.classList.remove('checked');
-            } else {
-                this.checks[i] = 1;
-                target.classList.add('checked');
-            }
+            if (window.getSelection().toString().length !== 0) return;
+            this.checks[i] = this.checks[i] ? 0 : 1;
+            if (this.checks[i]) event.currentTarget.classList.add('checked');
+            else event.currentTarget.classList.remove('checked');
             this.updateProgressBar();
             localStorage.setItem('checklist-' + this.hash, this.checks.join(','));
         },
@@ -1271,9 +1263,6 @@ app.component('checklist', {
  ******************************************************/
 app.component('quote', {
     props: ['author', 'title', 'photo'],
-    data() {
-        return {}
-    },
     template:
         `<div class="quote">` +
             `<blockquote><slot/></blockquote>` +
@@ -1296,12 +1285,11 @@ app.component('quote', {
 app.component('wiki', {
     data() {
         let url = new URL(document.location);
-        let hash = cyrb53(url.host + url.pathname);
         return {
             list: '',
-            hash: hash,
             active: null,
-            pages: new Array()
+            pages: new Array(),
+            hash: cyrb53(url.host + url.pathname),
         }
     },
     created() {

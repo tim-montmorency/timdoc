@@ -175,13 +175,24 @@
 <grostitre>Liens médias</grostitre>
 
 <h3>mediafile</h3>
-<highlight lang="html">&lt;mediafile src=&quot;images/icon.png&quot;&gt;Ic&ocirc;ne&lt;/mediafile&gt;</highlight>
-<mediafile src="images/icon.png">Icône</mediafile>
+<p>Lier un fichier média afin de le copier ou de le télécharger.</p>
+<highlight lang="html">&lt;mediafile src=&quot;images/icon.webp&quot;&gt;Ic&ocirc;ne&lt;/mediafile&gt;
+&lt;mediafile src=&quot;images/gandalf.svg&quot;&gt;Gandalf&lt;/mediafile&gt;</highlight>
+<mediafile src="images/icon.webp">Icône</mediafile>
+<mediafile src="images/gandalf.svg">Gandalf</mediafile>
+<br>
+<p>Si vous n'avez pas besoin de la boîte d'adresse.</p>
+<highlight lang="html">&lt;mediafile src=&quot;images/icon.webp&quot; addr=&quot;false&quot;&gt;Ic&ocirc;ne&lt;/mediafile&gt;
+&lt;mediafile src=&quot;images/gandalf.svg&quot; addr=&quot;false&quot;&gt;Gandalf&lt;/mediafile&gt;</highlight>
+<mediafile src="images/icon.webp" addr="false">Icône</mediafile>
+<mediafile src="images/gandalf.svg" addr="false">Gandalf</mediafile>
 <br>
 
 <h3>doclink</h3>
-<highlight lang="html">&lt;doclink href=&quot;https://www.w3schools.com/cssref/css3_pr_flex-direction.php&quot;&gt;flex-direction&lt;/doclink&gt;
+<highlight lang="html" scroll="true">&lt;doclink href=&quot;https://css-tricks.com/almanac/properties/f/flex-direction/&quot;&gt;flex-direction&lt;/doclink&gt;
+&lt;doclink href=&quot;https://www.w3schools.com/cssref/css3_pr_flex-direction.php&quot;&gt;flex-direction&lt;/doclink&gt;
 &lt;doclink href=&quot;https://developer.mozilla.org/fr/docs/Web/CSS/flex-direction&quot;&gt;flex-direction&lt;/doclink&gt;</highlight>
+<doclink href="https://css-tricks.com/almanac/properties/f/flex-direction/">flex-direction</doclink>
 <doclink href="https://www.w3schools.com/cssref/css3_pr_flex-direction.php">flex-direction</doclink>
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/flex-direction">flex-direction</doclink>
 <br><br>
@@ -268,8 +279,17 @@ Utilisez la proprité <span class="inline-code">transform</span>.<br>
 <br><br>
 
 <h3>highlight</h3>
-<highlight lang="html">&lt;highlight lang=&quot;javascript&quot;&gt;console.log(&quot;Ceci est du javascript&quot;);&lt;/highlight&gt;</highlight>
-<highlight lang="javascript">console.log(&quot;Ceci est du javascript&quot;);</highlight>
+<highlight lang="html">&lt;highlight lang=&quot;javascript&quot;&gt;
+    console.log(&quot;Ceci est du javascript en surbrillante gr&acirc;ce &agrave; la librairie javascript Highlight.js qui supporte une tonne de langages diff&eacute;rents.&quot;);
+&lt;/highlight&gt;</highlight>
+<highlight lang="javascript">console.log(&quot;Ceci est du javascript en surbrillante gr&acirc;ce &agrave; la librairie javascript Highlight.js qui supporte une tonne de langages diff&eacute;rents.&quot;);</highlight>
+
+<p>Si votre texte est trop long vous pouvez toujours utiliser la propriété <span class="inline-code">scroll=&quot;true&quot;</span> pour activer la barre de défilement horizontale.</p>
+<highlight lang="html" scroll="true">&lt;highlight lang=&quot;javascript&quot; scroll=&quot;true&quot;&gt;
+    console.log(&quot;Ceci est du javascript en surbrillante gr&acirc;ce &agrave; la librairie javascript Highlight.js qui supporte une tonne de langages diff&eacute;rents.&quot;);
+&lt;/highlight&gt;</highlight>
+<highlight lang="javascript" scroll="true">console.log(&quot;Ceci est du javascript en surbrillante gr&acirc;ce &agrave; la librairie javascript Highlight.js qui supporte une tonne de langages diff&eacute;rents.&quot;);</highlight>
+
 <warning>Le rendu de cette composante est effectué par le pré-processeur.</warning>
 <doclink href="https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md ">Languages supportés</doclink>
 
@@ -291,7 +311,7 @@ Utilisez la proprité <span class="inline-code">transform</span>.<br>
 <grostitre>Liste à cocher</grostitre>
 
 <h3>checklist</h3>
-<highlight lang="html">&lt;checklist&gt;
+<highlight lang="html" scroll="true">&lt;checklist&gt;
     Bacon ipsum dolor amet pork loin shankle leberkas beef capicola porchetta ground round kevin meatball bresaola andouille.
     Andouille ham bresaola landjaeger meatloaf shoulder t-bone kielbasa salami corned beef porchetta ball tip.
     Brisket sirloin short loin beef shank swine ham hock hamburger spare ribs cupim.
@@ -492,9 +512,11 @@ Utilisez la proprité <span class="inline-code">transform</span>.<br>
 
 <grostitre>Codepen</grostitre>
 
-<h3>codepen</h3>
-<highlight lang="html">&lt;codepen id=&quot;gOEwrvG&quot; tab=&quot;result&quot; height=&quot;500&quot;&gt;&lt;/codepen&gt;</highlight>
-<codepen id="gOEwrvG" tab="result" height="500"></codepen>
+<p>Par défaut, si l'attribut <span class="inline-code">tab</span> n'est pas spécifié, les tabs HTML et Result sont affichés.</p>
+
+<h3>Exemples:</h3>
+<highlight lang="html">&lt;codepen id=&quot;gOEwrvG&quot; tab=&quot;result&quot;&gt;&lt;/codepen&gt;</highlight>
+<codepen id="gOEwrvG" tab="result"></codepen>
 
 <highlight lang="html">&lt;codepen id=&quot;gOEwrvG&quot; tab=&quot;css,result&quot; height=&quot;500&quot;&gt;&lt;/codepen&gt;</highlight>
 <codepen id="gOEwrvG" tab="css,result" height="500"></codepen>
@@ -517,7 +539,7 @@ Utilisez la proprité <span class="inline-code">transform</span>.<br>
 
 <p>Il est possible de créer un simulateur de correction avec les balises <span class="inline-code">correction</span> et <span class="inline-code">criteria</span>.</p>
 
-<h3>correction & criteria</h3>
+<h3>Exemple:</h3>
 <highlight lang="html">&lt;correction scale=&quot;Excellent, Bon, Moyen, M&eacute;diocre, Absent&quot; value=&quot;10&quot;&gt;
     &lt;criteria value=&quot;20&quot;&gt;Album&lt;/criteria&gt;
     &lt;criteria value=&quot;20&quot;&gt;Textes&lt;/criteria&gt;
