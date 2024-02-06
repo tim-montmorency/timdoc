@@ -1169,6 +1169,7 @@ app.component('checklist', {
             return cyrb53(window.location.pathname + str);
         },
         click(event, i) {
+            if(window.getSelection().toString().length !== 0) return;
             let target = event.currentTarget;
             if (this.checks[i]) {
                 this.checks[i] = 0;
