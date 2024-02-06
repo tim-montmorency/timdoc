@@ -1618,11 +1618,11 @@ iframe[src*="sharepoint.com"] {
   font-weight: bold;
   text-align: right;
   white-space: nowrap;
-  line-height: 26px;
+  line-height: 32px;
 }
 .correction tfoot td:nth-child(2) button {
   color: black;
-  padding: 2px;
+  padding: 4px;
   margin-left: 8px;
   font-size: 0.8em;
   font-weight: bold;
@@ -1630,8 +1630,8 @@ iframe[src*="sharepoint.com"] {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  width: 26px;
-  height: 26px;
+  width: 32px;
+  height: 32px;
   vertical-align: middle;
   -webkit-appearance: none;
   border: 0;
