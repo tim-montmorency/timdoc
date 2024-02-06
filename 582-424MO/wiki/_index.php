@@ -17,6 +17,22 @@
   <p><a href="https://tim-montmorency.com/timdoc/582-424MO/" target="_blank" rel="noopener noreferrer">Timdoc du cours Optimisation Web 582-424MO</a></p>
   <p><a href="https://cmontmorency365.sharepoint.com/:w:/r/sites/TIM-TTP/_layouts/15/Doc.aspx?sourcedoc=%7B48119BB7-5AEC-438C-BB23-C7DA3EE1061D%7D&file=guide_etudiants.docx&action=default&mobileredirect=true" target="_blank" rel="noopener noreferrer">Guide étudiant TIM</a></p>
 
+
+  <h2>Claviers Mac</h2>
+  <p>Révision: <a href="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EU8BbNt04S9Cvg-S0xaohBUBO5t81bAj3mo1SYgSvODPWA?e=1kEacK" target="_blank" rel="noopener noreferrer">Gestion des claviers du labo Mac (Apple et Macally)</a></p>
+
+  <h2>Tutorat</h2>
+  <ul>
+    <li>Chaque mardi de 11h50 à 14h20 au centre d'aide au C-1602.</li>
+    <li>Groupe d'étude le mardi 14 mai (11h50 à 14h2) avant l'examan final. En présence au C-1639.</li>
+    <li>Tutorat en ligne, sur rendez-vous (<a href="https://teams.microsoft.com/l/channel/19%3aa8d3c53a199d48f0bc3d727af399b147%40thread.tacv2/Tutorat%2520(sur%2520rendez-vous)?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d" target="_blank" rel="noopener noreferrer">prendez-rendez-vous via le canal associé sur Teams : TIM - Programme TIM)</a></li>
+    <li>Tutorat en ligne, tous les samedis soirs à partir de 18h00 à 19h40 (<a href="https://teams.microsoft.com/l/channel/19%3aa5c1ef4c4cba41eb9f492adbcc9eb7a5%40thread.tacv2/Tutorat%2520(en%2520ligne)?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d" target="_blank" rel="noopener noreferrer">joindre la vidéo-conférence via canal associé sur Teams, : TIM - Programme TIM</a>)</li>
+    <li>Tutorat en ligne, tous les dimanches soirs à partir de 19h30 à 21:10 (<a href="https://teams.microsoft.com/l/channel/19%3aa5c1ef4c4cba41eb9f492adbcc9eb7a5%40thread.tacv2/Tutorat%2520(en%2520ligne)?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d" target="_blank" rel="noopener noreferrer">joindre la vidéo-conférence via canal associé sur Teams, : TIM - Programme TIM</a>)</li>
+
+    <li>Groupe d'étude avant examen final pour ce cours-ci: mardi le 14 mai de 11h50 à 14h20 au C-1639 (labo PC).</li>
+  </ul>
+    
+
   <h2>Banques de ressources</h2>
   <ul>
     <li><a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZQlsKA3n41Bndvr4nAec5kBNTxUckgFa3C6wO9ZocnauA?e=WEsxyI" target="_blank" rel="noopener noreferrer">Banques d'images libre de droit</a></li>
@@ -163,84 +179,77 @@
    </p>
  
 <dots></dots>
-    <grostitre>Annonces</grostitre>
-    <p><strong>Tutorat</strong></p>
-    <ul>
-      <li>Chaque mardi de 11h50 à 14h20 au centre d'aide au C-1602.</li>
-      <li>Groupe d'étude le mardi (11h50 à 14h2) avant l'examan final. En présence au C-1639.</li>
-      <li>Tutorat en ligne, sur rendez-vous (voir le canal associé sur Teams, : TIM - Programme TIM)</li>
-      <li>Tutorat en ligne, tous les samedis soirs à partir de 18h00 à 19h40  (voir le canal associé sur Teams, : TIM - Programme TIM)</li>
-      <li>Tutorat en ligne, tous les dimanches soirs à partir de 19h30 à 21:10  (voir le canal associé sur Teams, : TIM - Programme TIM)</li>
-    </ul>
-    .
+  <grostitre>Annonces</grostitre>
+  <p><strong>Tutorat</strong></p>
+  <ul>
+    <li>Chaque mardi de 11h50 à 14h20 au centre d'aide au C-1602.</li>
+    <li>Groupe d'étude le mardi 14 mai (11h50 à 14h2) avant l'examan final. En présence au C-1639.</li>
+    <li>Tutorat en ligne, sur rendez-vous (<a href="https://teams.microsoft.com/l/channel/19%3aa8d3c53a199d48f0bc3d727af399b147%40thread.tacv2/Tutorat%2520(sur%2520rendez-vous)?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d" target="_blank" rel="noopener noreferrer">prendez-rendez-vous via le canal associé sur Teams : TIM - Programme TIM)</a></li>
+    <li>Tutorat en ligne, tous les samedis soirs à partir de 18h00 à 19h40 (<a href="https://teams.microsoft.com/l/channel/19%3aa5c1ef4c4cba41eb9f492adbcc9eb7a5%40thread.tacv2/Tutorat%2520(en%2520ligne)?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d" target="_blank" rel="noopener noreferrer">joindre la vidéo-conférence via canal associé sur Teams, : TIM - Programme TIM</a>)</li>
+    <li>Tutorat en ligne, tous les dimanches soirs à partir de 19h30 à 21:10 (<a href="https://teams.microsoft.com/l/channel/19%3aa5c1ef4c4cba41eb9f492adbcc9eb7a5%40thread.tacv2/Tutorat%2520(en%2520ligne)?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d" target="_blank" rel="noopener noreferrer">joindre la vidéo-conférence via canal associé sur Teams, : TIM - Programme TIM</a>)</li>
+
+    <li>Groupe d'étude avant examen final pour ce cours-ci: mardi le 14 mai de 11h50 à 14h20 au C-1639 (labo PC).</li>
+  </ul>
+    
 
 
-    <dots></dots>
-    <grostitre>Révision</grostitre>
-    <intlink href="../bootstrap/exercices/bootstrap-puzzle-colore/">Le puzzle coloré (grille Bootstrap)</intlink>
+  <dots></dots>
+  <grostitre>Révision</grostitre>
+  <intlink href="../bootstrap/exercices/bootstrap-puzzle-colore/">Le puzzle coloré (grille Bootstrap)</intlink>
 
 
-    <dots></dots>
-    <grostitre>Bootstrap - Cartes</grostitre>
-    <intlink href="../bootstrap/cartes/">La composante carte de Bootstrap</intlink>
+  <dots></dots>
+  <grostitre>Bootstrap - Cartes</grostitre>
+  <intlink href="../bootstrap/cartes/">La composante carte de Bootstrap</intlink>
 
-    <dots></dots>
-    <grostitre>Exercice</grostitre>
-    <intlink href="../bootstrap/exercices/bootstrap-nav-card/">NavBar et cartes</intlink>
-
-
-    <dots></dots>
-    <grostitre>Bootstrap - Les classes utilitaires </grostitre>
-    <intlink href="../bootstrap/utilitaires/"></intlink>
-
-    <dots></dots>
-    <grostitre>ScrollSpy</grostitre>
-    <p>Liens de la navigation qui mènent à des sections de page et qui ajoutent la classe <em>.active</em> lorsque la section est visible dans le cadre de la fenêtre.</p>
-    <doclink href='https://getbootstrap.com/docs/5.3/components/scrollspy/'>ScrollSpy</doclink>
+  <dots></dots>
+  <grostitre>Exercice</grostitre>
+  <intlink href="../bootstrap/exercices/bootstrap-nav-card/">NavBar et cartes</intlink>
 
 
+  <dots></dots>
+  <grostitre>Bootstrap - Les classes utilitaires </grostitre>
+  <intlink href="../bootstrap/utilitaires/"></intlink>
 
-    <dots></dots>
-    <grostitre>Icônes Bootstrap</grostitre>
-    <info>
-    Le format "icon font" est le suivant: <incode>&lt;i class=&quot;bi-alarm&quot;&gt;&lt;/i&gt;</incode>.<br>Voir la <a href="https://icons.getbootstrap.com/#install" target="_blank" >documentation sur les icônes Bootstrap</a> pour en savoir plus.
-    </info>
-    <doclink href='https://icons.getbootstrap.com/#install '>Icônes Bootstrap</doclink>
+  <dots></dots>
+  <grostitre>ScrollSpy</grostitre>
+  <p>Liens de la navigation qui mènent à des sections de page et qui ajoutent la classe <em>.active</em> lorsque la section est visible dans le cadre de la fenêtre.</p>
+  <doclink href='https://getbootstrap.com/docs/5.3/components/scrollspy/'>ScrollSpy</doclink>
 
-    <dots></dots>
-    <grostitre>Collaboration Git</grostitre>
-    <doclink href='https://cmontmorency365-my.sharepoint.com/:b:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Optimisation%20Web/02_contenu_de_cours/live_share_vs_code.pdf?csf=1&web=1&e=FfQawK'>Live Share sur Visual Studio Code</doclink><br>
-    <doclink href='https://smnarnold.com/cours/git/introduction '>Retour sur git</doclink> - Surtout à propos des branches
-    <intlink href="../git/collaboration/">Git Collaboration au sein d’une équipe </intlink>
-    <p>Techniques CSS pour travailler en équipe (sélecteurs avec ancêtres) pour éviter d'écraser les styles de la page de votre coéquipier:</p>
-    <intlink href="../../582-215MO/css/anatomie/#selecteur"></intlink>
 
-    <dots></dots>
+
+  <dots></dots>
+  <grostitre>Icônes Bootstrap</grostitre>
+  <info>
+  Le format "icon font" est le suivant: <incode>&lt;i class=&quot;bi-alarm&quot;&gt;&lt;/i&gt;</incode>.<br>Voir la <a href="https://icons.getbootstrap.com/#install" target="_blank" >documentation sur les icônes Bootstrap</a> pour en savoir plus.
+  </info>
+  <doclink href='https://icons.getbootstrap.com/#install '>Icônes Bootstrap</doclink>
+
+  <dots></dots>
+  <grostitre>Collaboration Git</grostitre>
+  <doclink href='https://cmontmorency365-my.sharepoint.com/:b:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Optimisation%20Web/02_contenu_de_cours/live_share_vs_code.pdf?csf=1&web=1&e=FfQawK'>Live Share sur Visual Studio Code</doclink><br>
+  <doclink href='https://smnarnold.com/cours/git/introduction '>Retour sur git</doclink> - Surtout à propos des branches
+  <intlink href="../git/collaboration/">Git Collaboration au sein d’une équipe </intlink>
+  <p>Techniques CSS pour travailler en équipe (sélecteurs avec ancêtres) pour éviter d'écraser les styles de la page de votre coéquipier:</p>
+  <intlink href="../../582-215MO/css/anatomie/#selecteur"></intlink>
+
+  <dots></dots>
   <grostitre>Devoirs</grostitre>
-    <h3>Terminer P1.2a</h3>
-    <intlink href="../projet-app-festival-art-numerique/p1-2a/"></intlink>
+  <h3>Terminer P1.2a</h3>
+  <intlink href="../projet-app-festival-art-numerique/p1-2a/"></intlink>
   <br>
-    <h3>Faire le P1.2b</h3>
-    <p>En équipe :</p>
-    <intlink href="../projet-app-festival-art-numerique/p1-2b/"></intlink>
-    <br>
-    <p>Pour la personne en charge de l'interface de la landing page <em>LP</em> :</p>
-    <intlink href="../projet-app-festival-art-numerique/p1-2b-lp/"></intlink>
-    <br>
-    <p>Pour la personne en charge de l'interface de l'application mobile <em>APP</em> :</p>
-    <intlink href="../projet-app-festival-art-numerique/p1-2b-app/"></intlink>
-<br>
-    <h3>Remise de P1.2a et P1.2b au prochain cours (10%)</h3>
+  <h3>Faire le P1.2b</h3>
+  <p>En équipe :</p>
+  <intlink href="../projet-app-festival-art-numerique/p1-2b/"></intlink>
+  <br>
+  <p>Pour la personne en charge de l'interface de la landing page <em>LP</em> :</p>
+  <intlink href="../projet-app-festival-art-numerique/p1-2b-lp/"></intlink>
+  <br>
+  <p>Pour la personne en charge de l'interface de l'application mobile <em>APP</em> :</p>
+  <intlink href="../projet-app-festival-art-numerique/p1-2b-app/"></intlink>
+  <br>
+  <h3>Remise de P1.2a et P1.2b au prochain cours (10%)</h3>
 
-
-  
- 
-
-
-
-
- 
- 
 
 </wiki-page>
 
@@ -257,10 +266,20 @@
 ----------------->
 
 <wiki-page name="Cours 04" date="2024-02-28">
-    <h2>Révision et évaluation formative (quiz)</h2>
+  <h2>Révision et évaluation formative (quiz)</h2>
 
-    <h2>Annonces</h2>
-    <p>Tutorat</p>
+  <h2>Annonces</h2>
+  <grostitre>Annonces</grostitre>
+  <p><strong>Tutorat</strong></p>
+  <ul>
+    <li>Chaque mardi de 11h50 à 14h20 au centre d'aide au C-1602.</li>
+    <li>Groupe d'étude le mardi 14 mai (11h50 à 14h2) avant l'examan final. En présence au C-1639.</li>
+    <li>Tutorat en ligne, sur rendez-vous (<a href="https://teams.microsoft.com/l/channel/19%3aa8d3c53a199d48f0bc3d727af399b147%40thread.tacv2/Tutorat%2520(sur%2520rendez-vous)?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d" target="_blank" rel="noopener noreferrer">prendez-rendez-vous via le canal associé sur Teams : TIM - Programme TIM)</a></li>
+    <li>Tutorat en ligne, tous les samedis soirs à partir de 18h00 à 19h40 (<a href="https://teams.microsoft.com/l/channel/19%3aa5c1ef4c4cba41eb9f492adbcc9eb7a5%40thread.tacv2/Tutorat%2520(en%2520ligne)?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d" target="_blank" rel="noopener noreferrer">joindre la vidéo-conférence via canal associé sur Teams, : TIM - Programme TIM</a>)</li>
+    <li>Tutorat en ligne, tous les dimanches soirs à partir de 19h30 à 21:10 (<a href="https://teams.microsoft.com/l/channel/19%3aa5c1ef4c4cba41eb9f492adbcc9eb7a5%40thread.tacv2/Tutorat%2520(en%2520ligne)?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d" target="_blank" rel="noopener noreferrer">joindre la vidéo-conférence via canal associé sur Teams, : TIM - Programme TIM</a>)</li>
+
+    <li>Groupe d'étude avant examen final pour ce cours-ci: mardi le 14 mai de 11h50 à 14h20 au C-1639 (labo PC).</li>
+  </ul>
 </wiki-page>
 
 
