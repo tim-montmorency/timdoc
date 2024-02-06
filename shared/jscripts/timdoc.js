@@ -734,53 +734,54 @@ app.component('doclink', {
     props: ['href', 'spacer'],
     data() {
         let site = '';
+        const domains = {
+            "www.w3schools.com":                 "w3schools",
+            "developer.mozilla.org":             "mozilla",
+            "codepen.io":                        "codepen",
+            "css-tricks.com":                    "csstricks",
+            "getbootstrap.com":                  "bootstrap",
+            "icons.getbootstrap.com":            "bootstrap",
+            "fonts.google.com":                  "googlefonts",
+            "fr.wikipedia.org":                  "wikipedia",
+            "en.wikipedia.org":                  "wikipedia",
+            "ogp.me":                            "ogp",
+            "developers.facebook.com":           "facebook",
+            "greensock.com":                     "greensock",
+            "smnarnold.com":                     "smnarnold",
+            "trello.com":                        "trello",
+            "sass-lang.com":                     "sass",
+            "developer.vuforia.com":             "vuforia",
+            "cmontmorency365-my.sharepoint.com": "momo",
+            "cmontmorency365.sharepoint.com":    "momo",
+            "www.cmontmorency.qc.ca":            "momo",
+            "teams.microsoft.com":               "momo",
+            "ccti.cmontmorency.qc.ca":           "momo",
+            "github.com":                        "github",
+            "developers.google.com":             "google",
+            "youtu.be":                          "youtube",
+            "youtube.com":                       "youtube",
+            "www.youtube.com":                   "youtube",
+            "www.unity.com":                     "unity",
+            "learn.unity.com":                   "unity",
+            "id.unity.com":                      "unity",
+            "assetstore.unity.com":              "unity",
+            "unity.com":                         "unity",
+            "vuejs.org":                         "vuejs",
+            "v3.vuejs.org":                      "vuejs",
+            "developer.wordpress.org":           "wordpress",
+            "fr-ca.wordpress.org":               "wordpress",
+            "fr.wordpress.org":                  "wordpress",
+            "wordpress.org":                     "wordpress",
+            "wordpress.com":                     "wordpress",
+            "www.advancedcustomfields.com":      "wordpress",
+            "npmjs.com":                         "npm",
+            "docs.npmjs.com":                    "npm",
+            "vimeo.com":                         "vimeo",
+            "web.dev":                           "webdev",
+        };
         try {
-            let url = new URL(this.href);
-            switch (url.hostname) {
-                case 'www.w3schools.com': site = 'w3schools'; break;
-                case 'developer.mozilla.org': site = 'mozilla'; break;
-                case 'codepen.io': site = 'codepen'; break;
-                case 'css-tricks.com': site = 'csstricks'; break;
-                case 'getbootstrap.com': site = 'bootstrap'; break;
-                case 'icons.getbootstrap.com': site = 'bootstrap'; break;
-                case 'fonts.google.com': site = 'googlefonts'; break;
-                case 'fr.wikipedia.org': site = 'wikipedia'; break;
-                case 'en.wikipedia.org': site = 'wikipedia'; break;
-                case 'ogp.me': site = 'ogp'; break;
-                case 'developers.facebook.com': site = 'facebook'; break;
-                case 'greensock.com': site = 'greensock'; break;
-                case 'smnarnold.com': site = 'smnarnold'; break;
-                case 'trello.com': site = 'trello'; break;
-                case 'sass-lang.com': site = 'sass'; break;
-                case 'developer.vuforia.com': site = 'vuforia'; break;
-                case 'cmontmorency365-my.sharepoint.com': site = 'momo'; break;
-                case 'cmontmorency365.sharepoint.com': site = 'momo'; break;
-                case 'www.cmontmorency.qc.ca': site = 'momo'; break;
-                case 'teams.microsoft.com': site = 'momo'; break;
-                case 'ccti.cmontmorency.qc.ca': site = 'momo'; break;
-                case 'github.com': site = 'github'; break;
-                case 'developers.google.com': site = 'google'; break;
-                case 'youtu.be': site = 'youtube'; break;
-                case 'youtube.com': site = 'youtube'; break;
-                case 'www.youtube.com': site = 'youtube'; break;
-                case 'www.unity.com': site = 'unity'; break;
-                case 'learn.unity.com': site = 'unity'; break;
-                case 'id.unity.com': site = 'unity'; break;
-                case 'assetstore.unity.com': site = 'unity'; break;
-                case 'unity.com': site = 'unity'; break;
-                case 'vuejs.org': site = 'vuejs'; break;
-                case 'v3.vuejs.org': site = 'vuejs'; break;
-                case 'developer.wordpress.org': site = 'wordpress'; break;
-                case 'fr-ca.wordpress.org': site = 'wordpress'; break;
-                case 'fr.wordpress.org': site = 'wordpress'; break;
-                case 'wordpress.org': site = 'wordpress'; break;
-                case 'wordpress.com': site = 'wordpress'; break;
-                case 'www.advancedcustomfields.com': site = 'wordpress'; break;
-                case 'npmjs.com': site = 'npm'; break;
-                case 'docs.npmjs.com': site = 'npm'; break;
-                case 'vimeo.com': site = 'vimeo'; break;
-                case 'web.dev': site = 'webdev'; break;
-            }
+            let url = new URL(this.href, document.baseURI);
+            if(domains[url.hostname] !== undefined) site = domains[url.hostname];
         } catch (e) {
             if (this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
             else site = '';
@@ -789,7 +790,7 @@ app.component('doclink', {
         return { class: site }
     },
     template:
-        `<a :class="'doclink ' + this.class" target="_blank" :href="this.href">` +
+        `<a :class="'doclink ' + this.class" target="_blank" rel="noopener noreferrer" :href="this.href">` +
             `<div class="doclink-container">` +
                 `<div class="doclink-icon"></div>` +
                 `<span class="doclink-title"><slot /></span>` +
