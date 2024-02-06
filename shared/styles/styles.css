@@ -804,6 +804,7 @@ a.doclink::before {
   opacity: 0.4;
   background-color: #ff003a;
   border-radius: 24px;
+  transition-duration: 100ms;
 }
 a.doclink:hover {
   color: white;
@@ -1016,6 +1017,13 @@ a.doclink .doclink-icon {
 }
 .doclink.vimeo::before {
   background-color: #1ab7ea;
+}
+
+.doclink.webdev .doclink-icon {
+  background-image: url("../images/icons/webdev-icon.webp");
+}
+.doclink.webdev::before {
+  background-color: #0166ff;
 }
 
 a.exercice {

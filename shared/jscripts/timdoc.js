@@ -779,6 +779,7 @@ app.component('doclink', {
                 case 'npmjs.com': site = 'npm'; break;
                 case 'docs.npmjs.com': site = 'npm'; break;
                 case 'vimeo.com': site = 'vimeo'; break;
+                case 'web.dev': site = 'webdev'; break;
             }
         } catch (e) {
             if (this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
