@@ -11,7 +11,7 @@ pre.highlight {
         font-size: 12px;
     }
     // code {
-    //     // white-space: nowrap;
+    //     white-space: nowrap;
     //     overflow-x: auto;
     // }
 }
@@ -29,4 +29,10 @@ pre code.hljs {
     overflow-x: auto;
     white-space: pre-wrap;
     word-break: break-word;
+    &.scroll {
+        // white-space: nowrap;
+        white-space: pre;
+        overflow-x: auto;
+        // background-color: red;
+    }
 }

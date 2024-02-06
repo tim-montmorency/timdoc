@@ -804,6 +804,7 @@ a.doclink::before {
   opacity: 0.4;
   background-color: #ff003a;
   border-radius: 24px;
+  transition-duration: 100ms;
 }
 a.doclink:hover {
   color: white;
@@ -827,7 +828,9 @@ a.doclink .doclink-title {
 }
 a.doclink .doclink-icon {
   background-image: url("../images/icons/doclink-icon.webp");
-  background-size: 24px 24px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   display: inline-block;
   position: relative;
   top: 4px;
@@ -1007,6 +1010,20 @@ a.doclink .doclink-icon {
 }
 .doclink.npm::before {
   background-color: #c93737;
+}
+
+.doclink.vimeo .doclink-icon {
+  background-image: url("../images/icons/vimeo-icon.webp");
+}
+.doclink.vimeo::before {
+  background-color: #1ab7ea;
+}
+
+.doclink.webdev .doclink-icon {
+  background-image: url("../images/icons/webdev-icon.webp");
+}
+.doclink.webdev::before {
+  background-color: #0166ff;
 }
 
 a.exercice {
@@ -1231,6 +1248,10 @@ pre code.hljs {
   overflow-x: auto;
   white-space: pre-wrap;
   word-break: break-word;
+}
+pre code.hljs.scroll {
+  white-space: pre;
+  overflow-x: auto;
 }
 
 div.checklist {
@@ -1540,6 +1561,7 @@ div.quote__title {
   max-width: 770px;
   margin-left: -25px;
   margin-right: -25px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
   background-size: cover;
   background-position: center center;
 }
@@ -1598,11 +1620,11 @@ iframe[src*="sharepoint.com"] {
   height: auto;
   aspect-ratio: 16/9 !important;
   margin: 0 -25px 25px -25px;
-  border: 1px solid #777777;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
-body.dark .correction tfoot td:nth-child(2) button {
-  color: white;
+body.dark iframe[src*="sharepoint.com"], body.dark .oembed-wrapper {
+  box-shadow: 0px 5px 20px rgba(255, 255, 255, 0.1);
 }
 
 .correction {
@@ -1613,6 +1635,9 @@ body.dark .correction tfoot td:nth-child(2) button {
   text-align: center;
   font-size: 1.1em;
 }
+.correction tfoot {
+  background-color: rgba(255, 0, 60, 0.062745098);
+}
 .correction tfoot td:nth-child(1) {
   font-size: 1.4em;
   font-weight: bold;
@@ -1622,11 +1647,11 @@ body.dark .correction tfoot td:nth-child(2) button {
   font-weight: bold;
   text-align: right;
   white-space: nowrap;
-  line-height: 26px;
+  line-height: 32px;
 }
 .correction tfoot td:nth-child(2) button {
   color: black;
-  padding: 2px;
+  padding: 4px;
   margin-left: 8px;
   font-size: 0.8em;
   font-weight: bold;
@@ -1634,12 +1659,17 @@ body.dark .correction tfoot td:nth-child(2) button {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  width: 26px;
-  height: 26px;
+  width: 32px;
+  height: 32px;
   vertical-align: middle;
   -webkit-appearance: none;
-  border: 1px solid rgb(128, 128, 128);
-  border-radius: 2;
+  border: 0;
+  background-color: rgba(255, 0, 58, 0.2666666667);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.correction tfoot td:nth-child(2) button:hover {
+  background-color: var(--main-color);
 }
 .correction tfoot td:nth-child(2) button svg {
   width: 100%;
@@ -1728,6 +1758,10 @@ body.dark .correction tfoot td:nth-child(2) button {
   font-size: 1em;
   padding: 4px;
   font-family: Rubik;
+}
+
+body.dark .correction tfoot td:nth-child(2) button {
+  color: white;
 }
 
 body.dark .correction-modal {
@@ -2207,7 +2241,7 @@ table.table-couleurs .color {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  padding: 25px 25px;
+  padding: 25px 25px 25px 25px;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -2221,10 +2255,10 @@ table.table-couleurs .color {
   line-height: 18px;
 }
 #wiki__list ul li a + span {
-  display: none;
+  visibility: hidden;
 }
 #wiki__list ul li a.active + span {
-  display: inline-block;
+  visibility: visible;
 }
 #wiki__pages {
   width: 100%;
@@ -2294,4 +2328,8 @@ q.on-hover[cite]::after {
 q.on-hover[cite]:hover::after {
   content: " » (source: " attr(cite) ") ";
   color: var(--main-color);
+}
+
+.number {
+  margin: 0 6px 0 0;
 }

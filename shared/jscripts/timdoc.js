@@ -112,9 +112,9 @@ const cyrb53 = (str, seed = 0) => {
  *                     MD5 Hashing                    *
  ******************************************************/
  const md5 = (inputString) => {
-    var hc="0123456789abcdef";
-    const rh = (n) => {var j,s="";for(j=0;j<=3;j++) s+=hc.charAt((n>>(j*8+4))&0x0F)+hc.charAt((n>>(j*8))&0x0F);return s;}
-    const ad = (x,y) => {var l=(x&0xFFFF)+(y&0xFFFF);var m=(x>>16)+(y>>16)+(l>>16);return (m<<16)|(l&0xFFFF);}
+    const hc = "0123456789abcdef";
+    const rh = (n) => {let j,s="";for(j=0;j<=3;j++) s+=hc.charAt((n>>(j*8+4))&0x0F)+hc.charAt((n>>(j*8))&0x0F);return s;}
+    const ad = (x,y) => {let l=(x&0xFFFF)+(y&0xFFFF);let m=(x>>16)+(y>>16)+(l>>16);return (m<<16)|(l&0xFFFF);}
     const rl = (n,c) => {return (n<<c)|(n>>>(32-c));}
     const cm = (q,a,b,x,s,t) => {return ad(rl(ad(ad(a,q),ad(x,t)),s),b);}
     const ff = (a,b,c,d,x,s,t) => {return cm((b&c)|((~b)&d),a,b,x,s,t);}
@@ -122,12 +122,13 @@ const cyrb53 = (str, seed = 0) => {
     const hh = (a,b,c,d,x,s,t) => {return cm(b^c^d,a,b,x,s,t);}
     const ii = (a,b,c,d,x,s,t) => {return cm(c^(b|(~d)),a,b,x,s,t);}
     const sb = (x) => {
-        var i;var nblk=((x.length+8)>>6)+1;var blks=new Array(nblk*16);for(i=0;i<nblk*16;i++) blks[i]=0;
-        for(i=0;i<x.length;i++) blks[i>>2]|=x.charCodeAt(i)<<((i%4)*8);
-        blks[i>>2]|=0x80<<((i%4)*8);blks[nblk*16-2]=x.length*8;return blks;
+        let i; let nblk = ((x.length + 8) >> 6) + 1; let blks = new Array(nblk * 16); for (i = 0; i < nblk * 16; i++) blks[i] = 0;
+        for (i = 0; i < x.length; i++) blks[i >> 2] |= x.charCodeAt(i) << ((i % 4) * 8);
+        blks[i >> 2] |= 0x80 << ((i % 4) * 8); blks[nblk * 16 - 2] = x.length * 8; return blks;
     }
-    var i,x=sb(""+inputString),a=1732584193,b=-271733879,c=-1732584194,d=271733878,olda,oldb,oldc,oldd;
-    for(i=0;i<x.length;i+=16) {olda=a;oldb=b;oldc=c;oldd=d;
+     let i, x = sb("" + inputString), a = 1732584193, b = -271733879, c = -1732584194, d = 271733878, olda, oldb, oldc, oldd;
+     for (i = 0; i < x.length; i += 16) {
+        olda = a; oldb = b; oldc = c; oldd = d;
         a=ff(a,b,c,d,x[i+ 0], 7, -680876936);d=ff(d,a,b,c,x[i+ 1],12, -389564586);c=ff(c,d,a,b,x[i+ 2],17,  606105819);
         b=ff(b,c,d,a,x[i+ 3],22,-1044525330);a=ff(a,b,c,d,x[i+ 4], 7, -176418897);d=ff(d,a,b,c,x[i+ 5],12, 1200080426);
         c=ff(c,d,a,b,x[i+ 6],17,-1473231341);b=ff(b,c,d,a,x[i+ 7],22,  -45705983);a=ff(a,b,c,d,x[i+ 8], 7, 1770035416);
@@ -177,7 +178,7 @@ const invertColor = (hex, bw) => {
     if (hex.indexOf('#') === 0) hex = hex.slice(1);
     if (hex.length === 3) hex = hex[0] + hex[0] + hex[1] + hex[1] + hex[2] + hex[2];
     if (hex.length !== 6) return false;
-    var r = parseInt(hex.slice(0, 2), 16), g = parseInt(hex.slice(2, 4), 16), b = parseInt(hex.slice(4, 6), 16);
+    let r = parseInt(hex.slice(0, 2), 16), g = parseInt(hex.slice(2, 4), 16), b = parseInt(hex.slice(4, 6), 16);
     if (bw) return (r * 0.299 + g * 0.587 + b * 0.114) > 186 ? '#000000' : '#FFFFFF';
     r = (255 - r).toString(16);
     g = (255 - g).toString(16);
@@ -191,7 +192,7 @@ const invertColor = (hex, bw) => {
  ******************************************************/
 const pad = (num, size) => {
     size = size || 2;
-    var s = "000000000" + num;
+    let s = "000000000" + num;
     return s.substr(s.length - size);
 }
 
@@ -455,7 +456,7 @@ app.component('tabledesmatieres', {
     template:
         `<div id="contents_table" v-if="this.list != ''">` +
             `<div class="contents_table__table">` +
-                `<a href="#top" @click="this.goToTop" class="no-underline"><strong>Table des matières</strong></a>` +
+                `<a href="#top" @click="this.goToTop($event)" class="no-underline"><strong>Table des matières</strong></a>` +
                 `<ul v-html="list"></ul>` +
             `</div>` +
         `</div>`
@@ -477,7 +478,7 @@ app.component('grostitre', {
     },
     methods: {
         click(event) {
-            var link = window.location.origin + window.location.pathname + '#' + this.id;
+            let link = window.location.origin + window.location.pathname + '#' + this.id;
             navigator.clipboard.writeText(link);
             let target = event.currentTarget;
             target.classList.add('copied');
@@ -493,6 +494,91 @@ app.component('grostitre', {
             `<div class="grostitre__chain" @click="click($event)"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path></svg></div>` +
             `<div class="grostitre__linkcopied">Lien copié &#x2713;</div>` +
         `</div>`
+});
+
+
+/******************************************************
+ *                      Numbers                       *
+ ******************************************************/
+ app.component('zero', {
+    props: ['size', 'color'],
+    setup(props) {
+        if(!props.size) props.size = 24;
+        if(!props.color) props.color = 'currentColor';
+    },
+    template: `<svg xmlns="http://www.w3.org/2000/svg" :fill="this.color" class="number" :height="this.size" viewBox="0 0 16 16"><path d="M8 5C7 5 6.4 6 6.4 7.8v.4C6.4 10 7 11 8 11s1.6-1 1.6-3v-.3C9.6 6 9 5 8 5"/><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8 4.2c1.8 0 3-1.6 3-4v-.4c0-2.4-1.1-4-3-4s-3 1.6-3 4v.4c0 2.4 1.1 4 3 4"/></svg>`
+});
+app.component('one', {
+    props: ['size', 'color'],
+    setup(props) {
+        if(!props.size) props.size = 24;
+        if(!props.color) props.color = 'currentColor';
+    },
+    template: `<svg xmlns="http://www.w3.org/2000/svg" :fill="this.color" class="number" :height="this.size" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.3 4H8L6 5.4v1.3l2-1.4V12h1.3z"/></svg>`
+});
+app.component('two', {
+    props: ['size', 'color'],
+    setup(props) {
+        if(!props.size) props.size = 24;
+        if(!props.color) props.color = 'currentColor';
+    },
+    template: `<svg xmlns="http://www.w3.org/2000/svg" :fill="this.color" class="number" :height="this.size" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.65 6.24c0-.7.49-1.3 1.33-1.3.76 0 1.32.49 1.32 1.23 0 .7-.47 1.23-.9 1.7l-2.98 3.3V12h5.35v-1.1h-3.5v-.08L9.24 8.6l.1-.11c.69-.76 1.28-1.43 1.28-2.43 0-1.27-1.03-2.22-2.6-2.22-1.77 0-2.64 1.2-2.64 2.4v.07h1.27v-.07Z"/></svg>`
+});
+app.component('three', {
+    props: ['size', 'color'],
+    setup(props) {
+        if(!props.size) props.size = 24;
+        if(!props.color) props.color = 'currentColor';
+    },
+    template: `<svg xmlns="http://www.w3.org/2000/svg" :fill="this.color" class="number" :height="this.size" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8.08.41c.92 0 1.53.54 1.54 1.32.01.8-.62 1.36-1.59 1.36-.86-.01-1.48-.47-1.54-1.07H5.1c.05 1.18 1.05 2.14 2.76 2.14 1.65 0 2.95-.93 2.93-2.4a1.92 1.92 0 0 0-1.74-1.9v-.08c.6-.1 1.5-.74 1.49-1.87-.03-1.18-1.05-2.08-2.64-2.07-1.68.01-2.6.99-2.63 2.12h1.25c.04-.55.56-1.05 1.35-1.05.78 0 1.35.49 1.35 1.2s-.57 1.23-1.34 1.23h-.84v1.07h.88Z"/></svg>`
+});
+app.component('four', {
+    props: ['size', 'color'],
+    setup(props) {
+        if(!props.size) props.size = 24;
+        if(!props.color) props.color = 'currentColor';
+    },
+    template: `<svg xmlns="http://www.w3.org/2000/svg" :fill="this.color" class="number" :height="this.size" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M7.52 5.06a78.84 78.84 0 0 0-2.54 4.26v1.12h3.87V12h1.26v-1.56h1v-1.1h-1V4H8.18zm-1.3 4.22v.05h2.63V5.06h-.07a66.05 66.05 0 0 0-2.55 4.22"/></svg>`
+});
+app.component('five', {
+    props: ['size', 'color'],
+    setup(props) {
+        if(!props.size) props.size = 24;
+        if(!props.color) props.color = 'currentColor';
+    },
+    template: `<svg xmlns="http://www.w3.org/2000/svg" :fill="this.color" class="number" :height="this.size" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8 4.16c1.73 0 2.92-1.12 2.92-2.8a2.46 2.46 0 0 0-2.56-2.6c-.9 0-1.44.43-1.61.69h-.07l.2-2.35h3.62V4H5.8l-.35 4.63h1.14c.2-.36.67-.8 1.44-.8.85 0 1.58.6 1.58 1.56 0 1.09-.78 1.68-1.57 1.68-.7 0-1.39-.3-1.53-1.03H5.28c.06 1.22 1.14 2.12 2.72 2.12Z"/></svg>`
+});
+app.component('six', {
+    props: ['size', 'color'],
+    setup(props) {
+        if(!props.size) props.size = 24;
+        if(!props.color) props.color = 'currentColor';
+    },
+    template: `<svg xmlns="http://www.w3.org/2000/svg" :fill="this.color" class="number" :height="this.size" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.21 3.86c-1.87 0-3.12 1.39-3.12 4.4 0 1.19.23 2.04.6 2.64a2.67 2.67 0 0 0 2.41 1.26c1.63 0 2.85-1.02 2.85-2.79a2.45 2.45 0 0 0-2.51-2.55c-1.13 0-1.75.61-1.98 1.16h-.08c-.02-1.95.72-3.04 1.8-3.04.8 0 1.22.46 1.31.81h1.3c-.07-.9-.97-1.9-2.58-1.9Zm-.1 4a1.5 1.5 0 0 0-1.56 1.58c0 1.03.7 1.63 1.56 1.63.86 0 1.55-.53 1.55-1.63a1.5 1.5 0 0 0-1.55-1.58"/></svg>`
+});
+app.component('seven', {
+    props: ['size', 'color'],
+    setup(props) {
+        if(!props.size) props.size = 24;
+        if(!props.color) props.color = 'currentColor';
+    },
+    template: `<svg xmlns="http://www.w3.org/2000/svg" :fill="this.color" class="number" :height="this.size" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.37 5.11h3.97v.07L6.03 12h1.39l3.26-6.85V4H5.37v1.1Z"/></svg>`
+});
+app.component('eight', {
+    props: ['size', 'color'],
+    setup(props) {
+        if(!props.size) props.size = 24;
+        if(!props.color) props.color = 'currentColor';
+    },
+    template: `<svg xmlns="http://www.w3.org/2000/svg" :fill="this.color" class="number" :height="this.size" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-5.03 1.8a2 2 0 0 0-1.65-1.99v-.06c.6-.2 1.34-.72 1.34-1.78 0-1.23-1.08-2.13-2.65-2.13s-2.66.9-2.66 2.12c0 1.05.7 1.6 1.33 1.79v.06c-.7.15-1.65.73-1.65 2 0 1.4 1.19 2.35 2.95 2.35 1.77 0 3-.96 3-2.36ZM6.62 6.1c0 .73.59 1.25 1.39 1.25s1.37-.52 1.37-1.26c0-.73-.58-1.23-1.37-1.23s-1.39.5-1.39 1.23Zm-.28 3.64c0 .84.72 1.41 1.67 1.41.94 0 1.65-.57 1.65-1.41S8.95 8.3 8.01 8.3c-.95 0-1.67.58-1.67 1.43"/></svg>`
+});
+app.component('nine', {
+    props: ['size', 'color'],
+    setup(props) {
+        if(!props.size) props.size = 24;
+        if(!props.color) props.color = 'currentColor';
+    },
+    template: `<svg xmlns="http://www.w3.org/2000/svg" :fill="this.color" class="number" :height="this.size" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8.22 4.15c2.1 0 3.12-1.47 3.12-4.3 0-3.15-1.46-4.02-2.97-4.02-1.63 0-2.87 1.02-2.87 2.73 0 1.7 1.17 2.67 2.56 2.67 1.06 0 1.7-.56 1.94-1.18h.07c.05 1.67-.47 3.02-1.83 3.02-.7 0-1.15-.36-1.25-.72h-1.3c.1.9.93 1.8 2.53 1.8Zm.11-3.98c.81 0 1.54-.52 1.54-1.59S8.76 4.9 7.87 4.9c-.84 0-1.52.62-1.52 1.66 0 1.08.71 1.61 1.54 1.61Z"/></svg>`
 });
 
 
@@ -550,6 +636,7 @@ app.component('incode', {
 app.component('mediafile', {
     props: ['src', 'spacer', 'addr'],
     data() {
+        let addr = (typeof this.addr != 'undefined' && this.addr == 'false') ? false : true;
         let space = this.spacer == 'true' ? ' spacerr' : '';
         try { var url = new URL(this.src); }
         catch (e) { var url = new URL(this.src, document.baseURI); }
@@ -562,10 +649,6 @@ app.component('mediafile', {
             case 'mp3': var icon = 'type-audio.webp'; break;
             default: var icon = 'type-file.webp';
         }
-
-        let addr = true;
-        if (typeof this.addr != 'undefined' && this.addr == 'false') addr = false;
-
         return {
             isaddr: addr,
             space: space,
@@ -598,13 +681,12 @@ app.component('mediafile', {
         `<div :class="'mediafile' + this.space">` +
             `<div class="mediafile__icon" :style="'background-image: url(\\'' + this.icon + '\\')'">&nbsp;</div>` +
             `<div class="mediafile__text"><slot/></div>` +
-            `<div class="mediafile__download" @click="download($event)"><svg fill="currentColor" viewBox="0 0 538 538"><path d="M463 466H75c-12 0-22 10-22 22v28c0 12 10 22 22 22h388c12 0 21-10 21-22v-28c1-12-9-22-21-22zm-209-38c4 4 10 6 15 6 6 0 11-2 15-6l147-147c9-9 9-22 0-31l-20-20c-8-9-22-9-31 0l-75 75V21c0-11-10-21-22-21h-28c-12 0-22 10-22 21v285l-75-76c-9-8-22-8-31 0l-20 20c-9 9-9 22 0 31l147 147z"/></svg></div>` +
-            `<div class="mediafile__chain" @click="click($event)"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path></svg></div>` +
+            `<div class="mediafile__download" title="Télécharger" @click="download($event)"><svg fill="currentColor" viewBox="0 0 538 538"><path d="M463 466H75c-12 0-22 10-22 22v28c0 12 10 22 22 22h388c12 0 21-10 21-22v-28c1-12-9-22-21-22zm-209-38c4 4 10 6 15 6 6 0 11-2 15-6l147-147c9-9 9-22 0-31l-20-20c-8-9-22-9-31 0l-75 75V21c0-11-10-21-22-21h-28c-12 0-22 10-22 21v285l-75-76c-9-8-22-8-31 0l-20 20c-9 9-9 22 0 31l147 147z"/></svg></div>` +
+            `<div class="mediafile__chain" title="Copier" @click="click($event)"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path></svg></div>` +
             `<div class="mediafile__linkcopied">Lien copié &#x2713;</div>` +
         `</div>` +
         `<div v-if="this.isaddr" :class="'mediafile__link' + this.space"><input readonly type="text" class="mediafile__link-text" :value="this.link" @focus="focus($event)"></div>` +
-        `<div class="mediafile__spacer"></div>`
-
+        `<div v-if="this.isaddr" class="mediafile__spacer"></div>`
 });
 
 
@@ -612,14 +694,12 @@ app.component('mediafile', {
  *                 Composante Codepen                 *
  ******************************************************/
 app.component('codepen', {
-    props: ['id', 'title', 'tab', 'height'],
+    props: ['id', 'title', 'tab', 'height', 'patate'],
+    setup(props) {
+        if(!props.tab) props.tab = 'html,result';
+        if(!props.height) props.height = 400;
+    },
     data() {
-        var defaulttab = 'html,result';
-        var height = 400;
-        if (typeof this.tab != 'undefined') defaulttab = this.tab;
-        if (typeof this.height != 'undefined') height = this.height;
-
-        defaulttab = encodeURIComponent(defaulttab);
         let remark = '';
         if (typeof this.$slots.default != 'undefined') {
             remark = this.$slots.default()[0].children;
@@ -629,9 +709,9 @@ app.component('codepen', {
         return {
             user: 'tim-momo',
             theme: theme,
-            bheight: height,
-            cheight: parseInt(height) + 2,
-            defaulttab: defaulttab,
+            bheight: this.height,
+            cheight: parseInt(this.height) + 2,
+            defaulttab: encodeURIComponent(this.tab),
             remark: remark
         }
     },
@@ -732,62 +812,67 @@ app.component('knowmore', {
  ******************************************************/
 app.component('doclink', {
     props: ['href', 'spacer'],
+    setup() {
+        const domains = {
+            "www.w3schools.com":                 "w3schools",
+            "developer.mozilla.org":             "mozilla",
+            "codepen.io":                        "codepen",
+            "css-tricks.com":                    "csstricks",
+            "getbootstrap.com":                  "bootstrap",
+            "icons.getbootstrap.com":            "bootstrap",
+            "fonts.google.com":                  "googlefonts",
+            "fr.wikipedia.org":                  "wikipedia",
+            "en.wikipedia.org":                  "wikipedia",
+            "ogp.me":                            "ogp",
+            "developers.facebook.com":           "facebook",
+            "greensock.com":                     "greensock",
+            "smnarnold.com":                     "smnarnold",
+            "trello.com":                        "trello",
+            "sass-lang.com":                     "sass",
+            "developer.vuforia.com":             "vuforia",
+            "cmontmorency365-my.sharepoint.com": "momo",
+            "cmontmorency365.sharepoint.com":    "momo",
+            "www.cmontmorency.qc.ca":            "momo",
+            "teams.microsoft.com":               "momo",
+            "ccti.cmontmorency.qc.ca":           "momo",
+            "github.com":                        "github",
+            "developers.google.com":             "google",
+            "youtu.be":                          "youtube",
+            "youtube.com":                       "youtube",
+            "www.youtube.com":                   "youtube",
+            "www.unity.com":                     "unity",
+            "learn.unity.com":                   "unity",
+            "id.unity.com":                      "unity",
+            "assetstore.unity.com":              "unity",
+            "unity.com":                         "unity",
+            "vuejs.org":                         "vuejs",
+            "v3.vuejs.org":                      "vuejs",
+            "developer.wordpress.org":           "wordpress",
+            "fr-ca.wordpress.org":               "wordpress",
+            "fr.wordpress.org":                  "wordpress",
+            "wordpress.org":                     "wordpress",
+            "wordpress.com":                     "wordpress",
+            "www.advancedcustomfields.com":      "wordpress",
+            "npmjs.com":                         "npm",
+            "docs.npmjs.com":                    "npm",
+            "vimeo.com":                         "vimeo",
+            "web.dev":                           "webdev",
+        };
+        return { domains }
+    },
     data() {
         let site = '';
         try {
-            let url = new URL(this.href);
-            switch (url.hostname) {
-                case 'www.w3schools.com': site = 'w3schools'; break;
-                case 'developer.mozilla.org': site = 'mozilla'; break;
-                case 'codepen.io': site = 'codepen'; break;
-                case 'css-tricks.com': site = 'csstricks'; break;
-                case 'getbootstrap.com': site = 'bootstrap'; break;
-                case 'icons.getbootstrap.com': site = 'bootstrap'; break;
-                case 'fonts.google.com': site = 'googlefonts'; break;
-                case 'fr.wikipedia.org': site = 'wikipedia'; break;
-                case 'en.wikipedia.org': site = 'wikipedia'; break;
-                case 'ogp.me': site = 'ogp'; break;
-                case 'developers.facebook.com': site = 'facebook'; break;
-                case 'greensock.com': site = 'greensock'; break;
-                case 'smnarnold.com': site = 'smnarnold'; break;
-                case 'trello.com': site = 'trello'; break;
-                case 'sass-lang.com': site = 'sass'; break;
-                case 'developer.vuforia.com': site = 'vuforia'; break;
-                case 'cmontmorency365-my.sharepoint.com': site = 'momo'; break;
-                case 'cmontmorency365.sharepoint.com': site = 'momo'; break;
-                case 'www.cmontmorency.qc.ca': site = 'momo'; break;
-                case 'teams.microsoft.com': site = 'momo'; break;
-                case 'ccti.cmontmorency.qc.ca': site = 'momo'; break;
-                case 'github.com': site = 'github'; break;
-                case 'developers.google.com': site = 'google'; break;
-                case 'youtu.be': site = 'youtube'; break;
-                case 'youtube.com': site = 'youtube'; break;
-                case 'www.youtube.com': site = 'youtube'; break;
-                case 'www.unity.com': site = 'unity'; break;
-                case 'learn.unity.com': site = 'unity'; break;
-                case 'id.unity.com': site = 'unity'; break;
-                case 'assetstore.unity.com': site = 'unity'; break;
-                case 'unity.com': site = 'unity'; break;
-                case 'vuejs.org': site = 'vuejs'; break;
-                case 'v3.vuejs.org': site = 'vuejs'; break;
-                case 'developer.wordpress.org': site = 'wordpress'; break;
-                case 'fr-ca.wordpress.org': site = 'wordpress'; break;
-                case 'fr.wordpress.org': site = 'wordpress'; break;
-                case 'wordpress.org': site = 'wordpress'; break;
-                case 'wordpress.com': site = 'wordpress'; break;
-                case 'www.advancedcustomfields.com': site = 'wordpress'; break;
-                case 'npmjs.com': site = 'npm'; break;
-                case 'docs.npmjs.com': site = 'npm'; break;
-            }
+            let url = new URL(this.href, document.baseURI);
+            if(this.domains[url.hostname] !== undefined) site = this.domains[url.hostname];
         } catch (e) {
             if (this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
-            else site = '';
         }
         if (this.spacer == 'true') site += ' spacer';
         return { class: site }
     },
     template:
-        `<a :class="'doclink ' + this.class" target="_blank" :href="this.href">` +
+        `<a :class="'doclink ' + this.class" target="_blank" rel="noopener noreferrer" :href="this.href">` +
             `<div class="doclink-container">` +
                 `<div class="doclink-icon"></div>` +
                 `<span class="doclink-title"><slot /></span>` +
@@ -853,7 +938,7 @@ app.component('color', {
 app.component('clip', {
     props: ['src', 'title'],
     data() {
-        var url = new URL(this.src, document.baseURI);
+        let url = new URL(this.src, document.baseURI);
         let name = url.pathname.split('.').shift();
         let id = name.split('/').pop();
         let details = syncjson(name + '.json');
@@ -1011,8 +1096,8 @@ app.component('vimeo', {
  ******************************************************/
 //https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md
 app.component('highlight', {
-    props: ['lang'],
-    template: `<pre class="highlight"><code :class="'language-' + this.lang"><slot /></code></pre>`
+    props: ['lang', 'scroll'],
+    template: `<pre class="highlight"><code :class="'language-' + this.lang + (this.scroll == 'true' ? ' scroll' : '')"><slot /></code></pre>`
 });
 
 
@@ -1169,14 +1254,10 @@ app.component('checklist', {
             return cyrb53(window.location.pathname + str);
         },
         click(event, i) {
-            let target = event.currentTarget;
-            if (this.checks[i]) {
-                this.checks[i] = 0;
-                target.classList.remove('checked');
-            } else {
-                this.checks[i] = 1;
-                target.classList.add('checked');
-            }
+            if (window.getSelection().toString().length !== 0) return;
+            this.checks[i] = this.checks[i] ? 0 : 1;
+            if (this.checks[i]) event.currentTarget.classList.add('checked');
+            else event.currentTarget.classList.remove('checked');
             this.updateProgressBar();
             localStorage.setItem('checklist-' + this.hash, this.checks.join(','));
         },
@@ -1267,9 +1348,6 @@ app.component('checklist', {
  ******************************************************/
 app.component('quote', {
     props: ['author', 'title', 'photo'],
-    data() {
-        return {}
-    },
     template:
         `<div class="quote">` +
             `<blockquote><slot/></blockquote>` +
@@ -1292,12 +1370,11 @@ app.component('quote', {
 app.component('wiki', {
     data() {
         let url = new URL(document.location);
-        let hash = cyrb53(url.host + url.pathname);
         return {
             list: '',
-            hash: hash,
             active: null,
-            pages: new Array()
+            pages: new Array(),
+            hash: cyrb53(url.host + url.pathname),
         }
     },
     created() {

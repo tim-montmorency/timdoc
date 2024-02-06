@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  * @index    9
  * @type     article
@@ -14,13 +14,13 @@
 <dots></dots>
 
 
-<!-- 
-  _____ _ _                  _                      _   _             
- |_   _(_) |_ _ __ ___    __| | ___   ___  ___  ___| |_(_) ___  _ __  
-   | | | | __| '__/ _ \  / _` |/ _ \ / __|/ _ \/ __| __| |/ _ \| '_ \ 
+<!--
+  _____ _ _                  _                      _   _
+ |_   _(_) |_ _ __ ___    __| | ___   ___  ___  ___| |_(_) ___  _ __
+   | | | | __| '__/ _ \  / _` |/ _ \ / __|/ _ \/ __| __| |/ _ \| '_ \
    | | | | |_| | |  __/ | (_| |  __/ \__ \  __/ (__| |_| | (_) | | | |
-   |_| |_|\__|_|  \___|  \__,_|\___| |___/\___|\___|\__|_|\___/|_| |_|                                                                                                                                                                                               
- 
+   |_| |_|\__|_|  \___|  \__,_|\___| |___/\___|\___|\__|_|\___/|_| |_|
+
 -->
 <grostitre>Titre de section</grostitre>
 
@@ -40,13 +40,13 @@
 
 
 
-<!-- 
-  _   _             _             _   _             
- | \ | | __ ___   _(_) __ _  __ _| |_(_) ___  _ __  
- |  \| |/ _` \ \ / / |/ _` |/ _` | __| |/ _ \| '_ \ 
+<!--
+  _   _             _             _   _
+ | \ | | __ ___   _(_) __ _  __ _| |_(_) ___  _ __
+ |  \| |/ _` \ \ / / |/ _` |/ _` | __| |/ _ \| '_ \
  | |\  | (_| |\ V /| | (_| | (_| | |_| | (_) | | | |
  |_| \_|\__,_| \_/ |_|\__, |\__,_|\__|_|\___/|_| |_|
-                      |___/                         
+                      |___/
  -->
 
 <grostitre>Navigation</grostitre>
@@ -74,13 +74,13 @@
 <dots></dots>
 
 
-<!-- 
-  ____        _ _                 _ _ _        __                            _   _                 
- | __ ) _   _| | | ___  ___    __| ( |_)_ __  / _| ___  _ __ _ __ ___   __ _| |_(_) ___  _ __  ___ 
+<!--
+  ____        _ _                 _ _ _        __                            _   _
+ | __ ) _   _| | | ___  ___    __| ( |_)_ __  / _| ___  _ __ _ __ ___   __ _| |_(_) ___  _ __  ___
  |  _ \| | | | | |/ _ \/ __|  / _` |/| | '_ \| |_ / _ \| '__| '_ ` _ \ / _` | __| |/ _ \| '_ \/ __|
  | |_) | |_| | | |  __/\__ \ | (_| | | | | | |  _| (_) | |  | | | | | | (_| | |_| | (_) | | | \__ \
  |____/ \__,_|_|_|\___||___/  \__,_| |_|_| |_|_|  \___/|_|  |_| |_| |_|\__,_|\__|_|\___/|_| |_|___/
- 
+
 -->
 
 <grostitre>Bulles d'informations</grostitre>
@@ -113,29 +113,81 @@
 
 
 
+<!--
+  ____                            _             _     _  __  __
+ |  _ \ _   _  ___ ___  ___    __| | ___    ___| |__ (_)/ _|/ _|_ __ ___
+ | |_) | | | |/ __/ _ \/ __|  / _` |/ _ \  / __| '_ \| | |_| |_| '__/ _ \
+ |  __/| |_| | (_|  __/\__ \ | (_| |  __/ | (__| | | | |  _|  _| | |  __/
+ |_|    \__,_|\___\___||___/  \__,_|\___|  \___|_| |_|_|_| |_| |_|  \___|
 
-<!-- 
-  _     _                              __     _ _           
- | |   (_) ___ _ __  ___   _ __ ___   /_/  __| (_) __ _ ___ 
+ -->
+
+<grostitre>Puces de chiffre</grostitre>
+<p>Par défaut, la grosseur d'une puce de chiffre est de <em>24px</em>.</p>
+
+<highlight lang="html">
+<zero></zero>
+<one size="29" color="#00ff00"></one>
+<two size="34" color="skyblue"></two>
+<three size="39" color="tomato"></three>
+<four size="44"></four>
+<five size="49"></five>
+<six size="54"></six>
+<seven size="59"></seven>
+<eight size="64"></eight>
+<nine size="69"></nine>
+</highlight>
+
+<zero></zero>
+<one size="29" color="#00ff00"></one>
+<two size="34" color="skyblue"></two>
+<three size="39" color="tomato"></three>
+<four size="44"></four>
+<five size="49"></five>
+<six size="54"></six>
+<seven size="59"></seven>
+<eight size="64"></eight>
+<nine size="69"></nine>
+
+<dots></dots>
+
+<!--
+  _     _                              __     _ _
+ | |   (_) ___ _ __  ___   _ __ ___   /_/  __| (_) __ _ ___
  | |   | |/ _ \ '_ \/ __| | '_ ` _ \ / _ \/ _` | |/ _` / __|
  | |___| |  __/ | | \__ \ | | | | | |  __/ (_| | | (_| \__ \
  |_____|_|\___|_| |_|___/ |_| |_| |_|\___|\__,_|_|\__,_|___/
- 
+
 -->
 
 
 <grostitre>Liens médias</grostitre>
 
 <h3>mediafile</h3>
-<highlight lang="html"><mediafile src="images/icon.png">Icône</mediafile></highlight>
-<mediafile src="images/icon.png">Icône</mediafile>
+<p>Lier un fichier média afin de le copier ou de le télécharger.</p>
+<highlight lang="html">
+<mediafile src="images/icon.webp">Icône</mediafile>
+<mediafile src="images/gandalf.svg">Gandalf</mediafile>
+</highlight>
+<mediafile src="images/icon.webp">Icône</mediafile>
+<mediafile src="images/gandalf.svg">Gandalf</mediafile>
+<br>
+<p>Si vous n'avez pas besoin de la boîte d'adresse.</p>
+<highlight lang="html">
+<mediafile src="images/icon.webp" addr="false">Icône</mediafile>
+<mediafile src="images/gandalf.svg" addr="false">Gandalf</mediafile>
+</highlight>
+<mediafile src="images/icon.webp" addr="false">Icône</mediafile>
+<mediafile src="images/gandalf.svg" addr="false">Gandalf</mediafile>
 <br>
 
 <h3>doclink</h3>
-<highlight lang="html">
+<highlight lang="html" scroll="true">
+<doclink href="https://css-tricks.com/almanac/properties/f/flex-direction/">flex-direction</doclink>
 <doclink href="https://www.w3schools.com/cssref/css3_pr_flex-direction.php">flex-direction</doclink>
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/flex-direction">flex-direction</doclink>
 </highlight>
+<doclink href="https://css-tricks.com/almanac/properties/f/flex-direction/">flex-direction</doclink>
 <doclink href="https://www.w3schools.com/cssref/css3_pr_flex-direction.php">flex-direction</doclink>
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/flex-direction">flex-direction</doclink>
 <br><br>
@@ -182,9 +234,9 @@
 
 
 
-<!-- 
-  ____             _          _ _ _                      
- / ___| _   _ _ __| |__  _ __(_) | | __ _ _ __   ___ ___ 
+<!--
+  ____             _          _ _ _
+ / ___| _   _ _ __| |__  _ __(_) | | __ _ _ __   ___ ___
  \___ \| | | | '__| '_ \| '__| | | |/ _` | '_ \ / __/ _ \
   ___) | |_| | |  | |_) | |  | | | | (_| | | | | (_|  __/
  |____/ \__,_|_|  |_.__/|_|  |_|_|_|\__,_|_| |_|\___\___|
@@ -200,8 +252,21 @@ Utilisez la proprité <incode>transform</incode>.<br>
 <br><br>
 
 <h3>highlight</h3>
-<highlight lang="html">&lt;highlight lang="javascript"&gt;console.log("Ceci est du javascript");&lt;/highlight&gt;</highlight>
-<highlight lang="javascript">console.log("Ceci est du javascript");</highlight>
+<highlight lang="html">
+&lt;highlight lang="javascript"&gt;
+    console.log("Ceci est du javascript en surbrillante grâce à la librairie javascript Highlight.js qui supporte une tonne de langages différents.");
+&lt;/highlight&gt;
+</highlight>
+<highlight lang="javascript">console.log("Ceci est du javascript en surbrillante grâce à la librairie javascript Highlight.js qui supporte une tonne de langages différents.");</highlight>
+
+<p>Si votre texte est trop long vous pouvez toujours utiliser la propriété <incode>scroll="true"</incode> pour activer la barre de défilement horizontale.</p>
+<highlight lang="html" scroll="true">
+&lt;highlight lang="javascript" scroll="true"&gt;
+    console.log("Ceci est du javascript en surbrillante grâce à la librairie javascript Highlight.js qui supporte une tonne de langages différents.");
+&lt;/highlight&gt;
+</highlight>
+<highlight lang="javascript" scroll="true">console.log("Ceci est du javascript en surbrillante grâce à la librairie javascript Highlight.js qui supporte une tonne de langages différents.");</highlight>
+
 <warning>Le rendu de cette composante est effectué par le pré-processeur.</warning>
 <doclink href="https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md ">Languages supportés</doclink>
 
@@ -211,19 +276,20 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
 
 
-<!-- 
-  _     _     _          __                    _               
- | |   (_)___| |_ ___    \_\_    ___ ___   ___| |__   ___ _ __ 
+<!--
+  _     _     _          __                    _
+ | |   (_)___| |_ ___    \_\_    ___ ___   ___| |__   ___ _ __
  | |   | / __| __/ _ \  / _` |  / __/ _ \ / __| '_ \ / _ \ '__|
- | |___| \__ \ ||  __/ | (_| | | (_| (_) | (__| | | |  __/ |   
- |_____|_|___/\__\___|  \__,_|  \___\___/ \___|_| |_|\___|_|   
- 
+ | |___| \__ \ ||  __/ | (_| | | (_| (_) | (__| | | |  __/ |
+ |_____|_|___/\__\___|  \__,_|  \___\___/ \___|_| |_|\___|_|
+
 -->
 
 <grostitre>Liste à cocher</grostitre>
 
 <h3>checklist</h3>
-<highlight lang="html">&lt;checklist&gt;
+<highlight lang="html" scroll="true">
+<checklist>
     Bacon ipsum dolor amet pork loin shankle leberkas beef capicola porchetta ground round kevin meatball bresaola andouille.
     Andouille ham bresaola landjaeger meatloaf shoulder t-bone kielbasa salami corned beef porchetta ball tip.
     Brisket sirloin short loin beef shank swine ham hock hamburger spare ribs cupim.
@@ -231,7 +297,8 @@ Utilisez la proprité <incode>transform</incode>.<br>
     Cow picanha fatback pastrami meatloaf biltong tongue shankle pork drumstick pork chop ribeye.
     Spare ribs shank hamburger shankle.
     Fatback sausage andouille, tenderloin ribeye ham short loin swine burgdoggen kielbasa capicola chuck spare ribs.
-&lt;/checklist&gt;</highlight>
+</checklist>
+</highlight>
 <checklist>
     Bacon ipsum dolor amet pork loin shankle leberkas beef capicola porchetta ground round kevin meatball bresaola andouille.
     Andouille ham bresaola landjaeger meatloaf shoulder t-bone kielbasa salami corned beef porchetta ball tip.
@@ -246,10 +313,10 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
 
 
-<!-- 
-   ____ _ _        _   _             
-  / ___(_) |_ __ _| |_(_) ___  _ __  
- | |   | | __/ _` | __| |/ _ \| '_ \ 
+<!--
+   ____ _ _        _   _
+  / ___(_) |_ __ _| |_(_) ___  _ __
+ | |   | | __/ _` | __| |/ _ \| '_ \
  | |___| | || (_| | |_| | (_) | | | |
   \____|_|\__\__,_|\__|_|\___/|_| |_|
 
@@ -276,9 +343,9 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
 
 
-<!-- 
-   ____            _                     
-  / ___|___  _   _| | ___ _   _ _ __ ___ 
+<!--
+   ____            _
+  / ___|___  _   _| | ___ _   _ _ __ ___
  | |   / _ \| | | | |/ _ \ | | | '__/ __|
  | |__| (_) | |_| | |  __/ |_| | |  \__ \
   \____\___/ \__,_|_|\___|\__,_|_|  |___/
@@ -306,13 +373,13 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
 
 
-<!-- 
-  ___                                 
- |_ _|_ __ ___   __ _  __ _  ___  ___ 
+<!--
+  ___
+ |_ _|_ __ ___   __ _  __ _  ___  ___
   | || '_ ` _ \ / _` |/ _` |/ _ \/ __|
   | || | | | | | (_| | (_| |  __/\__ \
  |___|_| |_| |_|\__,_|\__, |\___||___/
-                      |___/           
+                      |___/
  -->
 
 <grostitre>Images</grostitre>
@@ -360,13 +427,13 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
 
 
-<!-- 
- __     ___     _   __           
- \ \   / (_) __| | /_/  ___  ___ 
+<!--
+ __     ___     _   __
+ \ \   / (_) __| | /_/  ___  ___
   \ \ / /| |/ _` |/ _ \/ _ \/ __|
    \ V / | | (_| |  __/ (_) \__ \
     \_/  |_|\__,_|\___|\___/|___/
-                                 
+
  -->
 
 <grostitre>Vidéos</grostitre>
@@ -398,13 +465,13 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
 
 
-<!-- 
-     _             _ _           
-    / \  _   _  __| (_) ___  ___ 
+<!--
+     _             _ _
+    / \  _   _  __| (_) ___  ___
    / _ \| | | |/ _` | |/ _ \/ __|
   / ___ \ |_| | (_| | | (_) \__ \
  /_/   \_\__,_|\__,_|_|\___/|___/
-                                 
+
  -->
 
 <grostitre>Audios</grostitre>
@@ -417,20 +484,22 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
 
 
-<!-- 
-   ____          _                       
-  / ___|___   __| | ___ _ __   ___ _ __  
- | |   / _ \ / _` |/ _ \ '_ \ / _ \ '_ \ 
+<!--
+   ____          _
+  / ___|___   __| | ___ _ __   ___ _ __
+ | |   / _ \ / _` |/ _ \ '_ \ / _ \ '_ \
  | |__| (_) | (_| |  __/ |_) |  __/ | | |
   \____\___/ \__,_|\___| .__/ \___|_| |_|
-                       |_|               
+                       |_|
  -->
 
 <grostitre>Codepen</grostitre>
 
-<h3>codepen</h3>
-<highlight lang="html"><codepen id="gOEwrvG" tab="result" height="500"></codepen></highlight>
-<codepen id="gOEwrvG" tab="result" height="500"></codepen>
+<p>Par défaut, si l'attribut <incode>tab</incode> n'est pas spécifié, les tabs HTML et Result sont affichés.</p>
+
+<h3>Exemples:</h3>
+<highlight lang="html"><codepen id="gOEwrvG" tab="result"></codepen></highlight>
+<codepen id="gOEwrvG" tab="result"></codepen>
 
 <highlight lang="html"><codepen id="gOEwrvG" tab="css,result" height="500"></codepen></highlight>
 <codepen id="gOEwrvG" tab="css,result" height="500"></codepen>
@@ -440,20 +509,20 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
 
 
-<!-- 
-   ____                         _   _             
-  / ___|___  _ __ _ __ ___  ___| |_(_) ___  _ __  
- | |   / _ \| '__| '__/ _ \/ __| __| |/ _ \| '_ \ 
+<!--
+   ____                         _   _
+  / ___|___  _ __ _ __ ___  ___| |_(_) ___  _ __
+ | |   / _ \| '__| '__/ _ \/ __| __| |/ _ \| '_ \
  | |__| (_) | |  | | |  __/ (__| |_| | (_) | | | |
   \____\___/|_|  |_|  \___|\___|\__|_|\___/|_| |_|
-                                                  
+
  -->
 
 <grostitre>Correction</grostitre>
 
 <p>Il est possible de créer un simulateur de correction avec les balises <incode>correction</incode> et <incode>criteria</incode>.</p>
 
-<h3>correction & criteria</h3>
+<h3>Exemple:</h3>
 <highlight lang="html">
 <correction scale="Excellent, Bon, Moyen, Médiocre, Absent" value="10">
     <criteria value="20">Album</criteria>
@@ -483,13 +552,13 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
 
 
-<!-- 
- __        ___ _    _ 
+<!--
+ __        ___ _    _
  \ \      / (_) | _(_)
   \ \ /\ / /| | |/ / |
    \ V  V / | |   <| |
     \_/\_/  |_|_|\_\_|
-                      
+
  -->
 
 <grostitre>Wiki</grostitre>
@@ -506,7 +575,7 @@ https://tim-montmorency.com/timdoc/582-215MO/wiki/?dark
 <p>La balise <incode><wiki-page></incode> ne doit être utilisée que dans une page de type <incode>wiki</incode>.</p>
 
 <highlight lang="html">
-&lt;?php 
+&lt;?php
 /**
  * @type     wiki
  * @title    Wiki - Intégration Web

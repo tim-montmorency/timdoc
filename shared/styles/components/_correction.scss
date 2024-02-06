@@ -1,8 +1,3 @@
-body.dark .correction tfoot td:nth-child(2) button {
-    color: white;
- 
-}
-
 .correction {
     
     margin-left: -25px;
@@ -13,9 +8,13 @@ body.dark .correction tfoot td:nth-child(2) button {
         font-size: 1.1em;
     }
 
-    & tfoot td:nth-child(1) {
-        font-size: 1.4em;
-        font-weight: bold;
+    & tfoot {
+        background-color: #ff003c10;
+        
+        td:nth-child(1) {
+            font-size: 1.4em;
+            font-weight: bold;
+        }
     }
 
     & tfoot td:nth-child(2) {
@@ -23,28 +22,30 @@ body.dark .correction tfoot td:nth-child(2) button {
         font-weight: bold;
         text-align: right;
         white-space: nowrap;
-        line-height: 26px;
-        // vertical-align: middle;
+        line-height: 32px;
 
         button {
             color: black;
-            padding: 2px;
+            padding: 4px;
             margin-left: 8px;
             font-size: 0.8em;
             font-weight: bold;
             user-select: none;
-            width: 26px;
-            height: 26px;
+            width: 32px;
+            height: 32px;
             vertical-align: middle;
             -webkit-appearance: none;
-            // appearance: button;
-            border: 1px solid rgb(128, 128, 128);
-            
-            border-radius: 2;
+            border: 0;
+            background-color: #ff003a44;
+            border-radius: 4px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: var(--main-color);
+            }
             svg {
                 width: 100%;
                 height: 100%;
-                // background-color: red;
             }
         }
 
@@ -145,6 +146,10 @@ body.dark .correction tfoot td:nth-child(2) button {
         padding: 4px;
         font-family: Rubik;
     }
+}
+
+body.dark .correction tfoot td:nth-child(2) button {
+    color: white;
 }
 
 body.dark .correction-modal {
