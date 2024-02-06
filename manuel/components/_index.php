@@ -127,9 +127,9 @@
 
 <highlight lang="html">
 <zero></zero>
-<one size="29"></one>
-<two size="34"></two>
-<three size="39"></three>
+<one size="29" color="#00ff00"></one>
+<two size="34" color="skyblue"></two>
+<three size="39" color="tomato"></three>
 <four size="44"></four>
 <five size="49"></five>
 <six size="54"></six>
@@ -137,10 +137,11 @@
 <eight size="64"></eight>
 <nine size="69"></nine>
 </highlight>
+
 <zero></zero>
-<one size="29"></one>
-<two size="34"></two>
-<three size="39"></three>
+<one size="29" color="#00ff00"></one>
+<two size="34" color="skyblue"></two>
+<three size="39" color="tomato"></three>
 <four size="44"></four>
 <five size="49"></five>
 <six size="54"></six>
