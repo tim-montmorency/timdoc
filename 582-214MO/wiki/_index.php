@@ -283,9 +283,6 @@
 Terminer le travail 1 partie 1
 <p><intlink href="../exercices/travail1"></intlink></p>
 
-<h3>Test</h3>
-<iframe src="https://cmontmorency365-my.sharepoint.com/personal/lora_boisvert_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=7b05cd88-de48-4566-a331-4e9bc39b9dcc&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="01_caractere.mp4"></iframe>
-
 </wiki-page>
 
 <wiki-page name="Cours 04">
@@ -316,7 +313,9 @@ Terminer le travail 1 partie 1
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EURUyP_qmFhMo5Uhn-M21ScBS4RXvbQiuv0yjmReJQoMWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nk5z8z">Orientation automatique</a></li>
 </ul>
 
-<intlink href="../exercices_ae/02_orientation_auto"></intlink></p>
+
+<exercice href="../exercices_ae/01_avion"></exercice>
+<exercice href="../exercices_ae/01_voiture"></exercice>
 
 <p><h3>Notions</h3>
 <ul>
