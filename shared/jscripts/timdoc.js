@@ -307,6 +307,47 @@ const selectElementText = (elm) => {
 
 
 /******************************************************
+ *                    Modal Message                   *
+ ******************************************************/
+ const MessageModal = {
+
+    _modal: null,
+
+    get modal() {
+        if(!this._modal) {
+            this._modal = new Modal();
+            bind(this._modal.cont, 'mousedown', (evt) => { this._modal.hide(); });
+            bind(document, 'keydown', (evt) => { if(this._modal.opened && (evt.key === 'Escape' && !(evt.ctrlKey || evt.altKey || evt.shiftKey))) { this._modal.hide(); } });
+        }
+        return this._modal;
+    },
+    setMessage(type, msg) {
+        this.modal.cont.innerHTML = `<div class="modal-message"><div class="infobubble ${type}"><div class="infobubble__bubble"></div>${msg}</div></div>`;
+        this.modal.show();
+    },
+    info(msg) {
+        this.setMessage('info', msg);
+    },
+    warning(msg) {
+        this.setMessage('warning', msg);
+    },
+    alert(msg) {
+        this.setMessage('alert', msg);
+    },
+    bravo(msg) {
+        this.setMessage('bravo', msg);
+    },
+    thumbsup(msg) {
+        this.setMessage('thumbsup', msg);
+    } 
+
+}
+
+
+
+
+
+/******************************************************
  *                   Modal Password                   *
  ******************************************************/
 class PasswordModal extends Modal {
@@ -1510,6 +1551,13 @@ app.component('correction', {
         registerCriteria(criteria) {
             this.criterias.push(criteria);
         },
+        getId() {
+            let url = new URL(location.href, document.baseURI);
+            let data = url.pathname;
+            data += JSON.stringify(this.scales);
+            this.criterias.forEach((v,k) => { data += v.getLabel(); });
+            return cyrb53(data);
+        },
         updateScore() {
             let score = 0, total = 0;
             this.criterias.forEach((criteria) => {
@@ -1529,12 +1577,11 @@ app.component('correction', {
         },
         download(evt) {
             if (evt.shiftKey) {
-                openJsonFile((data) => {
-                    console.log(data);
-                });
+                this.loadData();
             } else {
                 this.modal.show((data) => {
                     let obj = {
+                        id: this.getId(),
                         hash: '',
                         date: now(),
                         name: data.name,
@@ -1544,8 +1591,10 @@ app.component('correction', {
                         total: 0,
                         points: 0,
                         scale: +this.value,
-                        criterias: []
+                        criterias: [],
+                        scales: []
                     };
+                    for(i = this.scales.length-1; i >= 0; i--) obj.scales.push(this.scales[i]);
                     this.criterias.forEach((v,k) => {
                         obj.total += parseFloat(v.value);
                         obj.score += parseFloat(v.getValue());
@@ -1554,6 +1603,7 @@ app.component('correction', {
                             label: this.scales[this.scales.length-1-v._value],
                             value: v.getValue(),
                             scale: +v.value,
+                            idx: v._value,
                         });
                     });
                     obj.points = +(obj.score / obj.total * this.value).toFixed(2);
@@ -1563,6 +1613,17 @@ app.component('correction', {
                     // console.log(JSON.stringify(obj, null, "\t"));
                 });
             }
+        },
+        loadData() {
+            openJsonFile((data) => {
+                if(data.id == this.getId()) {
+                    
+                } else {
+                    MessageModal.alert("La correction fournie ne correspond pas aux baramèmes.");
+                }
+                
+                
+            });
         }
     },
     template:
@@ -1625,6 +1686,9 @@ app.component('criteria', {
         },
         getValue() {
             return this._value / (this.$parent.scales.length - 1) * this.value;
+        },
+        getLabel() {
+            return this.$refs.name.innerText;
         },
         clear() {
             this._value = 0;

@@ -121,6 +121,18 @@ body.dark .modal::before {
   background-color: #000000;
 }
 
+.modal-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  width: calc(100vw - 50px);
+  max-width: 640px;
+}
+.modal-message .infobubble {
+  box-shadow: 0px 0px 60px rgb(0, 0, 0);
+}
+
 .password-modal {
   position: absolute;
   top: 50%;
