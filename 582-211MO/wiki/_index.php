@@ -42,8 +42,6 @@
     <intlink href="../css/pseudo-classes-avancees/exercices/css-diner/"></intlink>
     <intlink href="../css/unites-de-mesure-avancees/"></intlink>
     <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
-    <intlink href="../css/specificite/"></intlink>
-    <intlink href="../css/specificite/exercices/specificite-css/"></intlink>
     <intlink href="../css/overflow/"></intlink>
     <intlink href="../css/overflow/exercices/eclipses/"></intlink>
     <intlink href="../css/exercices/moby-i-like-to-score/"></intlink>
@@ -62,6 +60,8 @@
     <intlink href="../css/media-queries/"></intlink>
     <intlink href="../css/media-queries/exercices/modok/"></intlink>
     <intlink href="../css/media-queries/exercices/ou-est-charlie/"></intlink>
+    <intlink href="../css/specificite/"></intlink>
+    <intlink href="../css/specificite/exercices/specificite-css/"></intlink>
     <intlink href="../html/svg/"></intlink>
     <intlink href="../html/svg/exercices/hollywood-boulevard/"></intlink>
     <intlink href="../css/variables/"></intlink>
