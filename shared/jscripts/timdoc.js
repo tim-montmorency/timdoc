@@ -254,7 +254,7 @@ const download = async (url) => {
  ******************************************************/
 const downloadJsonObject = (obj, filename) => {
     const a = document.createElement("a");
-    a.href = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(obj, null, "\t"));
+    a.href = "data:application/json;charset=utf-8," + encodeURIComponent(JSON.stringify(obj, null, "\t"));
     a.download = filename;
     document.body.appendChild(a);
     a.click();
@@ -466,7 +466,7 @@ const app = Vue.createApp({
             const referer = new URL(document.referrer, document.baseURI);
             if (index && /\/index\//g.test(referer.pathname)) {
                 document.location.href = index;
-            } else if(path) {
+            } else if (path) {
                 document.location.href = path;
             } else {
                 window.scrollTo(0, 0);
@@ -1596,8 +1596,8 @@ app.component('correction', {
                     total: 0,
                     points: 0,
                     scale: +this.value,
-                    criterias: [],
-                    scales: []
+                    scales: [],
+                    criterias: []
                 };
                 for(i = this.scales.length-1; i >= 0; i--) obj.scales.push(this.scales[i]);
                 this.criterias.forEach((v,k) => {
