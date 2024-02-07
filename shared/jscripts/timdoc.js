@@ -66,6 +66,36 @@ const syncjson = (url) => {
 
 
 /******************************************************
+ *                     Browse File                    *
+ ******************************************************/
+const browse = (accept, clb=null) => {
+    let inputElement = document.createElement("input");
+    inputElement.type = "file";
+    inputElement.accept = accept;
+    if(clb) inputElement.addEventListener("change", clb)
+    inputElement.dispatchEvent(new MouseEvent("click")); 
+}
+
+
+/******************************************************
+ *                   Open JSON File                   *
+ ******************************************************/
+const openJsonFile = (clb=null) => {
+    browse('application/json', (evt) => {
+        let file = evt.target.files[0];
+        if(file) {
+            let reader = new FileReader();
+            reader.readAsText(file, "UTF-8");
+            reader.onload = (event) => {
+                let data = JSON.parse(event.target.result);
+                if(clb) clb(data);
+            }
+        }
+    });
+}
+
+
+/******************************************************
  *           Convert decimal to hex string            *
  ******************************************************/
 const decimalToHexString = (number) => {
@@ -503,80 +533,80 @@ app.component('grostitre', {
  app.component('zero', {
     props: ['size', 'color'],
     setup(props) {
-        if(!props.size) props.size = 24;
-        if(!props.color) props.color = 'currentColor';
+        props.size || (props.size = 24);
+        props.color || (props.color = 'currentColor');
     },
     template: `<svg xmlns="http://www.w3.org/2000/svg" :fill="this.color" class="number" :height="this.size" viewBox="0 0 16 16"><path d="M8 5C7 5 6.4 6 6.4 7.8v.4C6.4 10 7 11 8 11s1.6-1 1.6-3v-.3C9.6 6 9 5 8 5"/><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8 4.2c1.8 0 3-1.6 3-4v-.4c0-2.4-1.1-4-3-4s-3 1.6-3 4v.4c0 2.4 1.1 4 3 4"/></svg>`
 });
 app.component('one', {
     props: ['size', 'color'],
     setup(props) {
-        if(!props.size) props.size = 24;
-        if(!props.color) props.color = 'currentColor';
+        props.size || (props.size = 24);
+        props.color || (props.color = 'currentColor');
     },
     template: `<svg xmlns="http://www.w3.org/2000/svg" :fill="this.color" class="number" :height="this.size" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.3 4H8L6 5.4v1.3l2-1.4V12h1.3z"/></svg>`
 });
 app.component('two', {
     props: ['size', 'color'],
     setup(props) {
-        if(!props.size) props.size = 24;
-        if(!props.color) props.color = 'currentColor';
+        props.size || (props.size = 24);
+        props.color || (props.color = 'currentColor');
     },
     template: `<svg xmlns="http://www.w3.org/2000/svg" :fill="this.color" class="number" :height="this.size" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.65 6.24c0-.7.49-1.3 1.33-1.3.76 0 1.32.49 1.32 1.23 0 .7-.47 1.23-.9 1.7l-2.98 3.3V12h5.35v-1.1h-3.5v-.08L9.24 8.6l.1-.11c.69-.76 1.28-1.43 1.28-2.43 0-1.27-1.03-2.22-2.6-2.22-1.77 0-2.64 1.2-2.64 2.4v.07h1.27v-.07Z"/></svg>`
 });
 app.component('three', {
     props: ['size', 'color'],
     setup(props) {
-        if(!props.size) props.size = 24;
-        if(!props.color) props.color = 'currentColor';
+        props.size || (props.size = 24);
+        props.color || (props.color = 'currentColor');
     },
     template: `<svg xmlns="http://www.w3.org/2000/svg" :fill="this.color" class="number" :height="this.size" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8.08.41c.92 0 1.53.54 1.54 1.32.01.8-.62 1.36-1.59 1.36-.86-.01-1.48-.47-1.54-1.07H5.1c.05 1.18 1.05 2.14 2.76 2.14 1.65 0 2.95-.93 2.93-2.4a1.92 1.92 0 0 0-1.74-1.9v-.08c.6-.1 1.5-.74 1.49-1.87-.03-1.18-1.05-2.08-2.64-2.07-1.68.01-2.6.99-2.63 2.12h1.25c.04-.55.56-1.05 1.35-1.05.78 0 1.35.49 1.35 1.2s-.57 1.23-1.34 1.23h-.84v1.07h.88Z"/></svg>`
 });
 app.component('four', {
     props: ['size', 'color'],
     setup(props) {
-        if(!props.size) props.size = 24;
-        if(!props.color) props.color = 'currentColor';
+        props.size || (props.size = 24);
+        props.color || (props.color = 'currentColor');
     },
     template: `<svg xmlns="http://www.w3.org/2000/svg" :fill="this.color" class="number" :height="this.size" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M7.52 5.06a78.84 78.84 0 0 0-2.54 4.26v1.12h3.87V12h1.26v-1.56h1v-1.1h-1V4H8.18zm-1.3 4.22v.05h2.63V5.06h-.07a66.05 66.05 0 0 0-2.55 4.22"/></svg>`
 });
 app.component('five', {
     props: ['size', 'color'],
     setup(props) {
-        if(!props.size) props.size = 24;
-        if(!props.color) props.color = 'currentColor';
+        props.size || (props.size = 24);
+        props.color || (props.color = 'currentColor');
     },
     template: `<svg xmlns="http://www.w3.org/2000/svg" :fill="this.color" class="number" :height="this.size" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8 4.16c1.73 0 2.92-1.12 2.92-2.8a2.46 2.46 0 0 0-2.56-2.6c-.9 0-1.44.43-1.61.69h-.07l.2-2.35h3.62V4H5.8l-.35 4.63h1.14c.2-.36.67-.8 1.44-.8.85 0 1.58.6 1.58 1.56 0 1.09-.78 1.68-1.57 1.68-.7 0-1.39-.3-1.53-1.03H5.28c.06 1.22 1.14 2.12 2.72 2.12Z"/></svg>`
 });
 app.component('six', {
     props: ['size', 'color'],
     setup(props) {
-        if(!props.size) props.size = 24;
-        if(!props.color) props.color = 'currentColor';
+        props.size || (props.size = 24);
+        props.color || (props.color = 'currentColor');
     },
     template: `<svg xmlns="http://www.w3.org/2000/svg" :fill="this.color" class="number" :height="this.size" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.21 3.86c-1.87 0-3.12 1.39-3.12 4.4 0 1.19.23 2.04.6 2.64a2.67 2.67 0 0 0 2.41 1.26c1.63 0 2.85-1.02 2.85-2.79a2.45 2.45 0 0 0-2.51-2.55c-1.13 0-1.75.61-1.98 1.16h-.08c-.02-1.95.72-3.04 1.8-3.04.8 0 1.22.46 1.31.81h1.3c-.07-.9-.97-1.9-2.58-1.9Zm-.1 4a1.5 1.5 0 0 0-1.56 1.58c0 1.03.7 1.63 1.56 1.63.86 0 1.55-.53 1.55-1.63a1.5 1.5 0 0 0-1.55-1.58"/></svg>`
 });
 app.component('seven', {
     props: ['size', 'color'],
     setup(props) {
-        if(!props.size) props.size = 24;
-        if(!props.color) props.color = 'currentColor';
+        props.size || (props.size = 24);
+        props.color || (props.color = 'currentColor');
     },
     template: `<svg xmlns="http://www.w3.org/2000/svg" :fill="this.color" class="number" :height="this.size" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.37 5.11h3.97v.07L6.03 12h1.39l3.26-6.85V4H5.37v1.1Z"/></svg>`
 });
 app.component('eight', {
     props: ['size', 'color'],
     setup(props) {
-        if(!props.size) props.size = 24;
-        if(!props.color) props.color = 'currentColor';
+        props.size || (props.size = 24);
+        props.color || (props.color = 'currentColor');
     },
     template: `<svg xmlns="http://www.w3.org/2000/svg" :fill="this.color" class="number" :height="this.size" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-5.03 1.8a2 2 0 0 0-1.65-1.99v-.06c.6-.2 1.34-.72 1.34-1.78 0-1.23-1.08-2.13-2.65-2.13s-2.66.9-2.66 2.12c0 1.05.7 1.6 1.33 1.79v.06c-.7.15-1.65.73-1.65 2 0 1.4 1.19 2.35 2.95 2.35 1.77 0 3-.96 3-2.36ZM6.62 6.1c0 .73.59 1.25 1.39 1.25s1.37-.52 1.37-1.26c0-.73-.58-1.23-1.37-1.23s-1.39.5-1.39 1.23Zm-.28 3.64c0 .84.72 1.41 1.67 1.41.94 0 1.65-.57 1.65-1.41S8.95 8.3 8.01 8.3c-.95 0-1.67.58-1.67 1.43"/></svg>`
 });
 app.component('nine', {
     props: ['size', 'color'],
     setup(props) {
-        if(!props.size) props.size = 24;
-        if(!props.color) props.color = 'currentColor';
+        props.size || (props.size = 24);
+        props.color || (props.color = 'currentColor');
     },
     template: `<svg xmlns="http://www.w3.org/2000/svg" :fill="this.color" class="number" :height="this.size" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8.22 4.15c2.1 0 3.12-1.47 3.12-4.3 0-3.15-1.46-4.02-2.97-4.02-1.63 0-2.87 1.02-2.87 2.73 0 1.7 1.17 2.67 2.56 2.67 1.06 0 1.7-.56 1.94-1.18h.07c.05 1.67-.47 3.02-1.83 3.02-.7 0-1.15-.36-1.25-.72h-1.3c.1.9.93 1.8 2.53 1.8Zm.11-3.98c.81 0 1.54-.52 1.54-1.59S8.76 4.9 7.87 4.9c-.84 0-1.52.62-1.52 1.66 0 1.08.71 1.61 1.54 1.61Z"/></svg>`
 });
@@ -863,7 +893,7 @@ app.component('doclink', {
     data() {
         let site = '';
         try {
-            let url = new URL(this.href, document.baseURI);
+            let url = new URL(this.href);
             if(this.domains[url.hostname] !== undefined) site = this.domains[url.hostname];
         } catch (e) {
             if (this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
@@ -1466,7 +1496,7 @@ app.component('correction', {
         return {
             modal: modal,
             scales: scales,
-            criterias: new Array(),
+            criterias: [],
             score: 0,
             score_txt: ''
         }
@@ -1497,37 +1527,42 @@ app.component('correction', {
         copy() {
             navigator.clipboard.writeText(this.score);
         },
-        download() {
-            this.modal.show((data) => {
-                let obj = {
-                    hash: '',
-                    date: now(),
-                    name: data.name,
-                    comment: data.comment,
-                    pourcentage: 0,
-                    score: 0,
-                    total: 0,
-                    points: 0,
-                    scale: +this.value,
-                    criterias: []
-                };
-                this.criterias.forEach((v,k) => {
-                    obj.total += parseFloat(v.value);
-                    obj.score += parseFloat(v.getValue());
-                    obj.criterias.push({
-                        name: v.$refs.name.innerText,
-                        label: this.scales[this.scales.length-1-v._value],
-                        value: v.getValue(),
-                        scale: +v.value,
-                    });
+        download(evt) {
+            if (evt.shiftKey) {
+                openJsonFile((data) => {
+                    console.log(data);
                 });
-                obj.points = +(obj.score / obj.total * this.value).toFixed(2);
-                obj.pourcentage = +(obj.points / obj.scale * 100).toFixed(2);
-                obj.hash = cyrb53(obj.name+obj.date+obj.pourcentage);
-                downloadJsonObject(obj, lowslug(obj.name) + ".json");
-                // console.log(JSON.stringify(obj, null, "\t"));
-            });
-
+            } else {
+                this.modal.show((data) => {
+                    let obj = {
+                        hash: '',
+                        date: now(),
+                        name: data.name,
+                        comment: data.comment,
+                        pourcentage: 0,
+                        score: 0,
+                        total: 0,
+                        points: 0,
+                        scale: +this.value,
+                        criterias: []
+                    };
+                    this.criterias.forEach((v,k) => {
+                        obj.total += parseFloat(v.value);
+                        obj.score += parseFloat(v.getValue());
+                        obj.criterias.push({
+                            name: v.$refs.name.innerText,
+                            label: this.scales[this.scales.length-1-v._value],
+                            value: v.getValue(),
+                            scale: +v.value,
+                        });
+                    });
+                    obj.points = +(obj.score / obj.total * this.value).toFixed(2);
+                    obj.pourcentage = +(obj.points / obj.scale * 100).toFixed(2);
+                    obj.hash = cyrb53(obj.name+obj.date+obj.pourcentage);
+                    downloadJsonObject(obj, lowslug(obj.name) + ".json");
+                    // console.log(JSON.stringify(obj, null, "\t"));
+                });
+            }
         }
     },
     template:
@@ -1557,7 +1592,7 @@ app.component('correction', {
                                     `<path d="m899 870-53-306h18c14 0 26-12 26-26V346c0-14-12-26-26-26H618V138c0-14-12-26-26-26H432c-14 0-26 12-26 26v182H160c-14 0-26 12-26 26v192c0 14 12 26 26 26h18l-53 306v4c0 14 11 26 26 26h727c14-3 24-16 21-30zM204 390h272V182h72v208h272v104H204V390zm468 440V674c0-4-4-8-8-8h-48c-4 0-8 4-8 8v156H416V674c0-4-4-8-8-8h-48c-4 0-8 4-8 8v156H203l45-260h528l45 260H672z"/>` +
                                 `</svg>` +
                             `</button>` +
-                            `<button class="btn__download" @click="this.download();" title="Télécharger">` +
+                            `<button class="btn__download" @click="this.download($event);" title="Télécharger">` +
                                 `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">` +
                                     `<path d="M21 14a1 1 0 0 0-1 1v4a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-4a1 1 0 0 0-2 0v4a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-4a1 1 0 0 0-1-1Zm-9.7 1.7a1 1 0 0 0 .3.2 1 1 0 0 0 .8 0 1 1 0 0 0 .3-.2l4-4a1 1 0 0 0-1.4-1.4L13 12.6V3a1 1 0 0 0-2 0v9.6l-2.3-2.3a1 1 0 1 0-1.4 1.4Z"/>` +
                                 `</svg>` +
@@ -1650,25 +1685,15 @@ class ModalCorrection extends Modal {
         this.comment = this.form.querySelector('textarea[name="comment"]');
         this.form.querySelector('input[name="cancel"]').addEventListener('click', () => { this.hide(); });
         bind(this.form, 'submit', (evt) => { evt.preventDefault(); this.save(); });
-        bind(this.cont, 'mousedown', (evt) => {
-            if(this.opened && evt.target.classList.contains('modal')) {
-                this.hide();
-            }
-        });
-        bind(document, 'keydown', (evt) => {
-            if(this.opened && (evt.key === 'Escape' && !(evt.ctrlKey || evt.altKey || evt.shiftKey))) {
-                this.hide();
-            }
-        });
+        bind(this.cont, 'mousedown', (evt) => { if(this.opened && evt.target.classList.contains('modal')) { this.hide(); } });
+        bind(document, 'keydown', (evt) => { if(this.opened && (evt.key === 'Escape' && !(evt.ctrlKey || evt.altKey || evt.shiftKey))) { this.hide(); } });
     }
     show(clb=null) {
         this.clb = clb;
         this.name.value = '';
         this.comment.value = '';
         super.show();
-        setTimeout(() => {
-            this.name.focus();
-        }, 200);
+        setTimeout(() => { this.name.focus(); }, 200);
     }
     save() {
         this.hide();
