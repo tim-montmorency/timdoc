@@ -1,0 +1,77 @@
+{
+	"id": "1FCD59F27D5FBE",
+	"hash": "43A36B1BFCD66",
+	"date": "2024-02-07T12:38:50.950Z",
+	"name": "Maximus Primus",
+	"comment": "Bla Bla\nBla Bla\nBla Bla",
+	"pourcentage": 57.6,
+	"score": 57.5,
+	"total": 100,
+	"points": 2.88,
+	"scale": 5,
+	"criterias": [
+		{
+			"name": "Album",
+			"label": "Excellent",
+			"value": 20,
+			"scale": 20,
+			"idx": 4
+		},
+		{
+			"name": "Textes",
+			"label": "Bon",
+			"value": 15,
+			"scale": 20,
+			"idx": 3
+		},
+		{
+			"name": "Mains",
+			"label": "Moyen",
+			"value": 10,
+			"scale": 20,
+			"idx": 2
+		},
+		{
+			"name": "Transitions",
+			"label": "Médiocre",
+			"value": 5,
+			"scale": 20,
+			"idx": 1
+		},
+		{
+			"name": "Débrouillardise",
+			"label": "Absent",
+			"value": 0,
+			"scale": 5,
+			"idx": 0
+		},
+		{
+			"name": "Clareté du code",
+			"label": "Médiocre",
+			"value": 1.25,
+			"scale": 5,
+			"idx": 1
+		},
+		{
+			"name": "Suivi des consignes",
+			"label": "Moyen",
+			"value": 2.5,
+			"scale": 5,
+			"idx": 2
+		},
+		{
+			"name": "Remise",
+			"label": "Bon",
+			"value": 3.75,
+			"scale": 5,
+			"idx": 3
+		}
+	],
+	"scales": [
+		"Absent",
+		"Médiocre",
+		"Moyen",
+		"Bon",
+		"Excellent"
+	]
+}

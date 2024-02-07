@@ -310,9 +310,7 @@ const selectElementText = (elm) => {
  *                    Modal Message                   *
  ******************************************************/
  const MessageModal = {
-
     _modal: null,
-
     get modal() {
         if(!this._modal) {
             this._modal = new Modal();
@@ -340,11 +338,7 @@ const selectElementText = (elm) => {
     thumbsup(msg) {
         this.setMessage('thumbsup', msg);
     } 
-
 }
-
-
-
 
 
 /******************************************************
@@ -765,10 +759,10 @@ app.component('mediafile', {
  *                 Composante Codepen                 *
  ******************************************************/
 app.component('codepen', {
-    props: ['id', 'title', 'tab', 'height', 'patate'],
+    props: ['id', 'title', 'tab', 'height'],
     setup(props) {
-        if(!props.tab) props.tab = 'html,result';
-        if(!props.height) props.height = 400;
+        props.tab || (props.tab = 'html,result');
+        props.height || (props.height = 400);
     },
     data() {
         let remark = '';
@@ -1570,61 +1564,60 @@ app.component('correction', {
         },
         clear() {
             this.criterias.forEach((criteria) => { criteria.clear(); });
+            this.$refs.comment.classList.remove('show');
             this.updateScore();
         },
         copy() {
             navigator.clipboard.writeText(this.score);
         },
-        download(evt) {
-            if (evt.shiftKey) {
-                this.loadData();
-            } else {
-                this.modal.show((data) => {
-                    let obj = {
-                        id: this.getId(),
-                        hash: '',
-                        date: now(),
-                        name: data.name,
-                        comment: data.comment,
-                        pourcentage: 0,
-                        score: 0,
-                        total: 0,
-                        points: 0,
-                        scale: +this.value,
-                        criterias: [],
-                        scales: []
-                    };
-                    for(i = this.scales.length-1; i >= 0; i--) obj.scales.push(this.scales[i]);
-                    this.criterias.forEach((v,k) => {
-                        obj.total += parseFloat(v.value);
-                        obj.score += parseFloat(v.getValue());
-                        obj.criterias.push({
-                            name: v.$refs.name.innerText,
-                            label: this.scales[this.scales.length-1-v._value],
-                            value: v.getValue(),
-                            scale: +v.value,
-                            idx: v._value,
-                        });
-                    });
-                    obj.points = +(obj.score / obj.total * this.value).toFixed(2);
-                    obj.pourcentage = +(obj.points / obj.scale * 100).toFixed(2);
-                    obj.hash = cyrb53(obj.name+obj.date+obj.pourcentage);
-                    downloadJsonObject(obj, lowslug(obj.name) + ".json");
-                    // console.log(JSON.stringify(obj, null, "\t"));
-                });
-            }
-        },
-        loadData() {
+        open() {
             openJsonFile((data) => {
+                this.clear();
                 if(data.id == this.getId()) {
-                    
+                    data.criterias.forEach((v, i) => { this.criterias[i].setValue(v.idx); });
+                    this.$refs.commentContent.innerText = data.comment;
+                    this.$refs.comment.classList.add('show');
+                    this.updateScore();
                 } else {
                     MessageModal.alert("La correction fournie ne correspond pas aux baramèmes.");
                 }
-                
-                
             });
-        }
+        },
+        download(evt) {
+            this.modal.show((data) => {
+                let obj = {
+                    id: this.getId(),
+                    hash: '',
+                    date: now(),
+                    name: data.name,
+                    comment: data.comment,
+                    pourcentage: 0,
+                    score: 0,
+                    total: 0,
+                    points: 0,
+                    scale: +this.value,
+                    criterias: [],
+                    scales: []
+                };
+                for(i = this.scales.length-1; i >= 0; i--) obj.scales.push(this.scales[i]);
+                this.criterias.forEach((v,k) => {
+                    obj.total += parseFloat(v.value);
+                    obj.score += parseFloat(v.getValue());
+                    obj.criterias.push({
+                        name: v.$refs.name.innerText,
+                        label: this.scales[this.scales.length-1-v._value],
+                        value: v.getValue(),
+                        scale: +v.value,
+                        idx: v._value,
+                    });
+                });
+                obj.points = +(obj.score / obj.total * this.value).toFixed(2);
+                obj.pourcentage = +(obj.points / obj.scale * 100).toFixed(2);
+                obj.hash = cyrb53(obj.name+obj.date+obj.pourcentage);
+                downloadJsonObject(obj, lowslug(obj.name) + ".json");
+                // console.log(JSON.stringify(obj, null, "\t"));
+            });
+        },
     },
     template:
         `<div class="correction" ref="container">` +
@@ -1637,6 +1630,10 @@ app.component('correction', {
                 `</thead>` +
                 `<tbody>` +
                     `<slot></slot>` +
+                    `<tr ref="comment" class="correction__comment">
+                        <td>Commentaires</td>
+                        <td ref="commentContent">la bla bla bla</td>
+                    </tr>` +
                 `</tbody>` +
                 `<tfoot>` +
                     `<tr>` +
@@ -1651,6 +1648,11 @@ app.component('correction', {
                             `<button class="btn__clear" @click="this.clear();" title="Effacer">` +
                                 `<svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 1024 1024" fill="currentColor">` +
                                     `<path d="m899 870-53-306h18c14 0 26-12 26-26V346c0-14-12-26-26-26H618V138c0-14-12-26-26-26H432c-14 0-26 12-26 26v182H160c-14 0-26 12-26 26v192c0 14 12 26 26 26h18l-53 306v4c0 14 11 26 26 26h727c14-3 24-16 21-30zM204 390h272V182h72v208h272v104H204V390zm468 440V674c0-4-4-8-8-8h-48c-4 0-8 4-8 8v156H416V674c0-4-4-8-8-8h-48c-4 0-8 4-8 8v156H203l45-260h528l45 260H672z"/>` +
+                                `</svg>` +
+                            `</button>` +
+                            `<button class="btn__open" @click="this.open();" title="Ouvrir">` +
+                                `<svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 -256 1950 1950">` +
+                                    `<path fill="currentColor" d="M1811 838q0-35-53-35H670q-40 0-85 22-46 21-72 52l-294 363q-18 24-18 40 0 35 53 35h1088q40 0 86-22t71-53l294-363q18-22 18-39zM670 675h768V515q0-40-28-68t-68-28H766q-40 0-68-28t-28-68v-64q0-40-28-68t-68-28H254q-40 0-68 28t-28 68v853l256-315q44-53 116-87 72-35 140-35zm1269 163q0 62-46 120l-295 363q-43 53-116 88-73 34-140 34H254q-92 0-158-66t-66-158V259q0-92 66-158t158-66h320q92 0 158 66t66 158v32h544q92 0 158 66t66 158v160h192q54 0 99 25 45 24 67 70 15 32 15 68z"/>` +
                                 `</svg>` +
                             `</button>` +
                             `<button class="btn__download" @click="this.download($event);" title="Télécharger">` +
@@ -1677,6 +1679,12 @@ app.component('criteria', {
         this.$parent.registerCriteria(this);
     },
     methods: {
+        setValue(i) {
+            if (this._target) this._target.classList.remove('checked');
+            this._target =  this.$refs.scales[this.$refs.scales.length - 1 - i];
+            this._target.classList.add('checked');
+            this._value = i;
+        },
         click(event, i) {
             if (this._target) this._target.classList.remove('checked');
             event.currentTarget.classList.add('checked');
@@ -1702,7 +1710,7 @@ app.component('criteria', {
         `<tr class="correction__criteria">` +
             `<td ref="name"><slot/></td>` +
             `<td>` +
-                `<span class="correction__criteria__scale" v-for="(scale, i) in this.$parent.scales" v-html="scale" @click="click($event, this.$parent.scales.length - 1 - i)"></span>` +
+                `<span ref="scales" class="correction__criteria__scale" v-for="(scale, i) in this.$parent.scales" v-html="scale" @click="click($event, this.$parent.scales.length - 1 - i)"></span>` +
             `</td>` +
         `</tr>`
 });

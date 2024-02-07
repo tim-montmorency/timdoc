@@ -1687,6 +1687,24 @@ body.dark iframe[src*="sharepoint.com"], body.dark .oembed-wrapper {
   width: 100%;
   height: 100%;
 }
+.correction__comment {
+  display: none;
+}
+.correction__comment.show {
+  display: table-row;
+}
+.correction__comment td:nth-child(1) {
+  width: 1%;
+  white-space: nowrap;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding-right: 10px;
+}
+.correction__comment td:nth-child(2) {
+  padding-left: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+}
 .correction__criteria td:nth-child(1) {
   width: 1%;
   white-space: nowrap;
