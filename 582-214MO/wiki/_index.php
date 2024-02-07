@@ -322,17 +322,20 @@ Terminer le travail 1 partie 1
 <li><a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ek7P7WxNDiZOvaIhMw8lO98BoXHiBJTE6nlYfus6W5YViQ?e=fdyagQ">Lissage (Démonstration)</a></li>
 </ul></p>
 
-<intlink href="../exercices_ae/03_lissage"></intlink></p>
+<exercice href="../exercices_ae/03_lissage"></exercice></p>
 
 <p><h3>Notions</h3>
 <ul>
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ea6JW0d8YY9KilVu0k9HFfABxpdubaBGTysBx4ArKzOEDA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bGitTT">Masque</a></li>
 </ul></p>
 
-<intlink href="../exercices_ae/04_masque"></intlink></p>
+<exercice href="../exercices_ae/04_cinema"></exercice></p>
+<exercice href="../exercices_ae/04_masque"></exercice></p>
 
 <p><h3>Devoir</h3>
-<intlink href="../exercices_ae/devoir_c4"></intlink>
+<p>Faire les exercices suivants en devoir:</p>
+<exercice href="../exercices_ae/devoir_balle"></exercice></p>
+<exercice href="../exercices_ae/devoir_c4"></exercice>
 
 
 </wiki-page>
