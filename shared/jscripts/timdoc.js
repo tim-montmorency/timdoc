@@ -1630,10 +1630,10 @@ app.component('correction', {
                 `</thead>` +
                 `<tbody>` +
                     `<slot></slot>` +
-                    `<tr ref="comment" class="correction__comment">
-                        <td>Commentaires</td>
-                        <td ref="commentContent">la bla bla bla</td>
-                    </tr>` +
+                    `<tr ref="comment" class="correction__comment">` +
+                        `<td>Commentaires</td>` +
+                        `<td ref="commentContent"></td>` +
+                    `</tr>` +
                 `</tbody>` +
                 `<tfoot>` +
                     `<tr>` +
