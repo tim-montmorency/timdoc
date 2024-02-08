@@ -22,12 +22,12 @@
 <p></p>
 <checklist>
 Créez une composition en important le fichier illustrator hommes et plantes ci-haut. 
-Par-dessus, créer un calque solide de la couleur de votre choix. Mettre son opacité à 90%.  
-Dans les calques illustrator, aller chercher la loupe et la glisser par-dessus le calque solide. Ajuster l’échelle de la loupe à la taille désirée.  
-Glisser une nouvelle composition homme et plantes sous la loupe (Donc on a deux fois cette composition).  
-Sélectionner la composition homme et plante (celle juste sous la loupe), puis prendre l’outil ellipse, on dessine ensuite un masque. On fait un cercle dans le cercle de la loupe.  
-Ensuite, animer la position de la loupe pour qu’elle se déplace.  
-Aller dans le masque et animer le tracé du masque pour qu’il suive la loupe.  </checklist>
+Par-dessus, créez un calque solide de la couleur de votre choix. Mettre son opacité à 90%.  
+Dans les calques Illustrator, allez chercher la loupe et la glisser par-dessus le calque solide. Ajustez l’échelle de la loupe à la taille désirée.  
+Glissez une nouvelle composition homme et plantes sous la loupe (Donc on a deux fois cette composition).  
+Sélectionnez la composition homme et plante (celle juste sous la loupe), puis prendre l’outil ellipse, on dessine ensuite un masque. On fait un cercle dans le cercle de la loupe.  
+Ensuite, animez la position de la loupe pour qu’elle se déplace.  
+Allez dans le masque et animer le tracé du masque pour qu’il suive la loupe.  </checklist>
 
 
 <dots></dots>

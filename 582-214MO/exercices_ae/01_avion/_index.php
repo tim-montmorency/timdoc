@@ -20,7 +20,7 @@
 
 <grostitre>Étapes</grostitre>
 <checklist>
-Ouvrir la position de votre avion, enregistrer une image clé à votre première position 
+Ouvrir la position (p) de votre avion, enregistrer une image clé à votre première position 
 Créer plusieurs images clés pour que votre avion avance et fasse un tour sur lui-même.  
 Appliquer des lissages pour que l’avion monte plus lentement et qu’elle redescende plus rapidement.  
 Une fois le tracé fait, aller dans calque, géométrie, orientation automatique.  

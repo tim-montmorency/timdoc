@@ -19,16 +19,18 @@
 
 <grostitre>Étapes</grostitre>
 <checklist>
+Téléchargez le dossier contenant un projet After Effect ainsi que des images.      
 Ouvrir le projet after effects. 
 Sélectionnez le calque background. 
 Utilisez l’outil plume pour tracer la route de la voiture. (Maximum de 4 points)  
-Ensuite, sélectionnez à nouveau le calque background, puis appuyer sur M pour faire apparaître tracé du masque ou mask path. 
+Ensuite, sélectionnez à nouveau le calque background, puis appuyer sur M pour faire apparaître le paramètre tracé du masque ou mask path. 
 Appuyer sur cet élément, puis copier.  
-Ensuite, appuyer sur le calque red car, ouvrir le paramètre de position (en appuyant sur p) 
+Ensuite, appuyer sur le calque red car, ouvrir le paramètre de position (en appuyant sur p). 
 Appuyez sur le paramètre de position, puis coller ce que vous venez de copier.  
 Appuyer sur le calque red car et aller dans le menu calque, géométrie, orientation automatique.  
 Ajuster la rotation de base de votre voiture 
 Voilà! La voiture suit la route. 
+Refaites la même procédure pour la seconde voiture.
 </checklist>
 
 
