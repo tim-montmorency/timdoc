@@ -1295,7 +1295,6 @@ app.component('checklist', {
             hash: hash,
             list: lines,
             checks: checks,
-            progressbar: null,
             progress: 0
         }
     },
@@ -1310,7 +1309,6 @@ app.component('checklist', {
                 }
                 elm.addEventListener('click', (evt) => { evt.stopPropagation(); });
             });
-            this.progressbar = document.getElementById(this.hash + '-progressbar');
             this.updateProgressBar();
         });
     },
@@ -1323,8 +1321,9 @@ app.component('checklist', {
             this.checks[i] = this.checks[i] ? 0 : 1;
             if (this.checks[i]) event.currentTarget.classList.add('checked');
             else event.currentTarget.classList.remove('checked');
-            this.updateProgressBar();
             localStorage.setItem('checklist-' + this.hash, this.checks.join(','));
+            this.updateProgressBar();
+            
         },
         updateProgressBar() {
             let total = 0;
@@ -1334,8 +1333,8 @@ app.component('checklist', {
     },
     template:
         `<div ref="checklist" class="checklist">` +
-            `<div class="pourcentage">{{ progress }}%</div>` +
-            `<div :id="this.hash + '-progressbar'" class="progressbar" :style="'background-size: ' + this.progress + '% 100%;'"></div>` +
+            `<div class="checklist__pourcentage">{{ progress }}%</div>` +
+            `<div class="checklist__progressbar" :style="'background-size: ' + this.progress + '% 100%;'"></div>` +
             `<ol>` +
                 `<li v-for="(line, i) in this.list" :class="this.checks[i]?'checked':''" @click="click($event,i)" v-html="line"></li>` +
             `</ol>` +
