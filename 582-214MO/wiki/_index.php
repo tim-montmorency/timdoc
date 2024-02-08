@@ -286,10 +286,14 @@ Terminer le travail 1 partie 1
 </wiki-page>
 
 <wiki-page name="Cours 04">
-<p><h3>Correction en groupe des illustrations</h3></p>
+<p><h1>Remise du travail 1 partie 1 avant le cours</h1></p>    
+<p><h3>Correction en groupe de ce travail</h3></p>
 
 <p><h1>After Effects</h1></p>
 <alert>Rappel: TOUJOURS TRAVAILLER SUR LA PARTITION MAC DE VOTRE SSD pour éviter la perte de votre projet ou sa corruption.</alert>
+
+<p><h3>Retour</h3>
+<intlink href="../exercices_ae/01_animation_base"></intlink></p>
 
 <p><h3>Notions</h3>
 <h4>Gestion des calques:</h4>
