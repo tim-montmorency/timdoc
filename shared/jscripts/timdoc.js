@@ -295,8 +295,15 @@ const selectElementText = (elm) => {
         else this.cont.append(obj);
         document.body.append(this.cont);
     }
-    show() {
+    show(data=null) {
         this.opened = true;
+        if(data) {
+            if(typeof data == 'string') this.cont.innerHTML = data;
+            else {
+                while (this.cont.firstChild) this.cont.removeChild(this.cont.lastChild);
+                this.cont.append(data);
+            }
+        }
         setTimeout(() => { this.cont.classList.add('show'); }, 1);
     }
     hide() {
@@ -319,25 +326,12 @@ const selectElementText = (elm) => {
         }
         return this._modal;
     },
-    setMessage(type, msg) {
-        this.modal.cont.innerHTML = `<div class="modal-message"><div class="infobubble ${type}"><div class="infobubble__bubble"></div>${msg}</div></div>`;
-        this.modal.show();
-    },
-    info(msg) {
-        this.setMessage('info', msg);
-    },
-    warning(msg) {
-        this.setMessage('warning', msg);
-    },
-    alert(msg) {
-        this.setMessage('alert', msg);
-    },
-    bravo(msg) {
-        this.setMessage('bravo', msg);
-    },
-    thumbsup(msg) {
-        this.setMessage('thumbsup', msg);
-    } 
+    setMessage(type, msg) { this.modal.show(`<div class="modal-message"><div class="infobubble ${type}"><div class="infobubble__bubble"></div>${msg}</div></div>`); },
+    info(msg) { this.setMessage('info', msg); },
+    warning(msg) { this.setMessage('warning', msg); },
+    alert(msg) { this.setMessage('alert', msg); },
+    bravo(msg) { this.setMessage('bravo', msg); },
+    thumbsup(msg) { this.setMessage('thumbsup', msg); } 
 }
 
 
@@ -503,26 +497,13 @@ const app = Vue.createApp({
  *           Composante Table des matières            *
  ******************************************************/
 app.component('tabledesmatieres', {
-    data() { return { list: '' } },
-    created() {
-        this.$nextTick(() => {
-            let lis = '';
-            this.$root.tableOfContents.forEach(el => { lis += '<li><a href="#' + el.id + '">' + el.name + '</a></li>'; });
-            this.list = lis;
-        });
-    },
-    methods: {
-        goToTop(evt) {
-            evt.preventDefault();
-            window.scrollTo(0, 0);
-            location.hash = '';
-        }
-    },
     template:
-        `<div id="contents_table" v-if="this.list != ''">` +
+        `<div id="contents_table" v-if="this.$root.tableOfContents.length > 0">` +
             `<div class="contents_table__table">` +
-                `<a href="#top" @click="this.goToTop($event)" class="no-underline"><strong>Table des matières</strong></a>` +
-                `<ul v-html="list"></ul>` +
+                `<a href="#" class="no-underline"><strong>Table des matières</strong></a>` +
+                `<ul>` +
+                    `<li v-for="elm in this.$root.tableOfContents"><a :href="'#'+elm.id">{{ elm.name }}</a></li>` +
+                `</ul>` +
             `</div>` +
         `</div>`
 });
@@ -556,7 +537,11 @@ app.component('grostitre', {
         `<div class="grostitre">` +
             `<a :id="this.id"></a>` +
             `<h2><slot /></h2>` +
-            `<div class="grostitre__chain" @click="click($event)"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path></svg></div>` +
+            `<div class="grostitre__chain" @click="click($event)">` +
+                `<svg fill="currentColor" viewBox="0 0 24 24">` +
+                    `<path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path>` +
+                `</svg>` +
+            `</div>` +
             `<div class="grostitre__linkcopied">Lien copié &#x2713;</div>` +
         `</div>`
 });

@@ -332,10 +332,7 @@ body.dark a.exercice div.exercice-container div.exercice-abstract em {
 body.dark div.checklist ol li:hover {
   background-color: #1c1d21;
 }
-body.dark div.checklist div.progressbar {
-  background-color: #1c1d21;
-}
-body.dark div.checklist code {
+body.dark div.checklist__progressbar {
   background-color: #1c1d21;
 }
 body.dark .audioplayer {
