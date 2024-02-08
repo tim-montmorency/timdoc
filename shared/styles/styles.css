@@ -1312,11 +1312,11 @@ div.checklist ol li a, div.checklist ol li em, div.checklist ol li span {
   -webkit-text-decoration-color: var(--main-color);
           text-decoration-color: var(--main-color);
 }
-div.checklist div.pourcentage {
+div.checklist__pourcentage {
   font-size: 10px;
   width: 25px;
 }
-div.checklist div.progressbar {
+div.checklist__progressbar {
   width: calc(100% - 25px);
   height: 4px;
   margin-top: 3px;
