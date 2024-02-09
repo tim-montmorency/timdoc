@@ -36,6 +36,6 @@
         <title><?php echo strip_tags($PAGE->title); ?></title>
     </head>
     <body style="padding-bottom: 0;">
-        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
         <wiki>
             <!-- WIKI HEADER EOF -->

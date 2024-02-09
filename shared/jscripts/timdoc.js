@@ -374,7 +374,7 @@ class PasswordModal extends Modal {
         this.clb = clb;
         document.body.style.overflow = 'hidden';
         super.show();
-        setTimeout(() => { this.input.focus(); }, 100);
+        setTimeout(() => { this.input.focus(); }, 500);
     }
     hide() {
         document.body.style.overflow = 'auto';
@@ -421,6 +421,11 @@ if (urlParams.get('light') !== null) localStorage.setItem('darkmode', 'false');
  *                     Main App                       *
  ******************************************************/
 const app = Vue.createApp({
+    setup() {
+        const meta = document.querySelector('meta[itemprop="digest"]');
+        const digest = meta ? meta.content : null;
+        return { digest }
+    },
     data() {
         return {
             lightSwitches: [],
@@ -439,6 +444,13 @@ const app = Vue.createApp({
             if (event.matches) this.setDarkMode();
             else this.setLightMode();
         });
+        if(this.digest && sessionStorage.getItem('digest-'+cyrb53(this.digest)) !== 'true') {
+            document.body.classList.add('digest');
+            (new PasswordModal(this.digest)).show(() => {
+                sessionStorage.setItem('digest-'+cyrb53(this.digest), 'true');
+                document.body.classList.remove('digest');
+            });
+        }
         this.$nextTick(() => {
             document.querySelectorAll('span.inline-code').forEach((elm) => {
                 elm.addEventListener('click', (evt) => {
@@ -447,12 +459,6 @@ const app = Vue.createApp({
                     evt.stopPropagation();
                 });
             });
-            const digest = document.querySelector('meta[itemprop="digest"]');
-            if(digest && digest.content && sessionStorage.getItem('digest-'+cyrb53(digest.content)) !== 'true') {
-                (new PasswordModal(digest.content)).show(() => {
-                    sessionStorage.setItem('digest-'+cyrb53(digest.content), 'true');
-                });
-            }
         });
     },
     methods: {
@@ -475,7 +481,8 @@ const app = Vue.createApp({
         },
         setDarkMode() {
             this.theme = 'dark';
-            document.body.className = 'dark';
+            document.body.classList.add('dark');
+            document.body.classList.remove('light');
             localStorage.setItem('darkmode', 'true');
             if (this.$refs.lightswitch != undefined)
                 this.$refs.lightswitch.className = 'lightswitch--off';
@@ -483,7 +490,8 @@ const app = Vue.createApp({
         },
         setLightMode() {
             this.theme = 'light';
-            document.body.className = 'light';
+            document.body.classList.add('light');
+            document.body.classList.remove('dark');
             localStorage.setItem('darkmode', 'false');
             if (this.$refs.lightswitch != undefined)
                 this.$refs.lightswitch.className = 'lightswitch--on';

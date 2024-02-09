@@ -177,6 +177,13 @@ body.dark .password-modal textarea:invalid, body.dark .password-modal input[type
   border-color: var(--main-color);
 }
 
+body.digest article {
+  visibility: hidden;
+}
+body.digest #wiki {
+  display: none;
+}
+
 :root:has(body.dark) {
   color-scheme: dark;
 }

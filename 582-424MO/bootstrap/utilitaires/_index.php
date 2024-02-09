@@ -60,7 +60,7 @@ height: auto;</highlight>
         <incode>d-block</incode>&nbsp;pour display block.
     </li>
     <li>
-        code>d-inline</code>&nbsp;pour display inline.
+        <incode>d-inline</incode>&nbsp;pour display inline.
     </li>
     <li>
         <incode>d-inline-block</incode>&nbsp;pour display inline-block.
