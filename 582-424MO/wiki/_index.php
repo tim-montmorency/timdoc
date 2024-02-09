@@ -2,7 +2,7 @@
 /**
  * @type     wiki
  * @title    Wiki - Optimisation Web
- * @icon     images/icon.png
+ * @icon     ../images/icon.webp
  * @abstract Contenu du cours - Hiver 2024
  */
 ?>

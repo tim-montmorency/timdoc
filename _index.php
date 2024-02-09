@@ -2,7 +2,7 @@
 /**
  * @type     article
  * @title    TIMdoc
- * @icon     shared/images/icon.png
+ * @icon     shared/images/icon.webp
  * @abstract Documentation Web
  */
 ?>

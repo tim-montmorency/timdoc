@@ -532,9 +532,9 @@ app.component('grostitre', {
     },
     methods: {
         click(event) {
+            let target = event.currentTarget;
             let link = window.location.origin + window.location.pathname + '#' + this.id;
             navigator.clipboard.writeText(link);
-            let target = event.currentTarget;
             target.classList.add('copied');
             setTimeout(() => {
                 target.classList.remove('copied');
@@ -752,40 +752,33 @@ app.component('mediafile', {
  *                 Composante Codepen                 *
  ******************************************************/
 app.component('codepen', {
-    props: ['id', 'title', 'tab', 'height'],
+    props: ['id', 'tab', 'height'],
     setup(props) {
-        props.tab || (props.tab = 'html,result');
+        const dark = 43847;
+        const light = 44431;
+        const user = 'tim-momo';
         props.height || (props.height = 400);
+        props.tab || (props.tab = 'html,result');
+        props.tab = encodeURIComponent(props.tab);
+        return { dark, light, user }
     },
     data() {
-        let remark = '';
-        if (typeof this.$slots.default != 'undefined') {
-            remark = this.$slots.default()[0].children;
-        }
         this.$root.registerLightSwitch(this);
-        let theme = this.$root.theme == 'dark' ? '43847' : '44431';
         return {
-            user: 'tim-momo',
-            theme: theme,
-            bheight: this.height,
-            cheight: parseInt(this.height) + 2,
-            defaulttab: encodeURIComponent(this.tab),
-            remark: remark
+            theme: this.$root.theme == 'dark' ? this.dark : this.light,
         }
     },
     methods: {
         lightSwitchOn() {
-            this.theme = '44431';
+            this.theme = this.light;
         },
         lightSwitchOff() {
-
-            this.theme = '43847';
+            this.theme = this.dark;
         },
     },
     template:
-    `<div class="codepen-container" :style="'height: ' + cheight + 'px'">` +
-        `<iframe :src="'https://codepen.io/' + user + '/embed/' + id + '?default-tab=' + defaulttab + '&theme-id=' + theme" class="codepen" scrolling="no" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" :style="'height: ' + bheight + 'px;'"></iframe>` +
-        // `<span class="codepen-remark" v-if="this.remark != ''">{{ remark }}</span>` +
+    `<div class="codepen-container" :style="'height: ' + (+this.height + 2) + 'px'">` +
+        `<iframe :src="'https://codepen.io/' + this.user + '/embed/' + id + '?default-tab=' + this.tab + '&theme-id=' + theme" class="codepen" scrolling="no" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" :style="'height: ' + this.height + 'px;'"></iframe>` +
     `</div>`
 });
 
