@@ -976,10 +976,7 @@ app.component('color', {
             }, 2000);
         }
     },
-    template:
-        `<span :class="'color' + this.space + this.clicked" :style="'color: ' + this.invert + '; background-color: ' + this.color + ';'" @click="click()">` +
-            `{{ text }}` +
-        `</span>`
+    template: `<span :class="'color' + this.space + this.clicked" :style="'color: ' + this.invert + '; background-color: ' + this.color + ';'" @click="click()">{{ text }}</span>`
 });
 
 

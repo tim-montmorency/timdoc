@@ -1364,22 +1364,28 @@ div.checklist__progressbar {
   padding-right: 25px;
   margin-right: 10px;
   margin-bottom: 25px;
+  transition-duration: 100ms;
   text-align: center;
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 .color.spacer {
   margin-left: 25px;
 }
 .color:hover {
-  box-shadow: 0px 0px 5px;
+  transform: scale(1.08);
 }
 .color.clicked {
   filter: hue-rotate(360deg);
   transition-duration: 1s;
+}
+
+body.dark .color {
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3);
 }
 
 body.dark .swiper.swiper-main .swiper-slide {
