@@ -26,8 +26,6 @@
         <meta itemprop="digest" content="<?php echo ($PAGE->password ? md5($PAGE->password) : ''); ?>">
         <link rel="icon" type="image/x-icon" href="<?php echo $PAGE->shared; ?>images/favicon.ico">
         <link rel="stylesheet" href="<?php echo $PAGE->shared; ?>styles/styles.min.css">
-        <link rel="stylesheet" href="<?php echo $PAGE->shared; ?>styles/highlight.min.css">
-        <link rel="stylesheet" href="<?php echo $PAGE->shared; ?>styles/swiper-bundle.min.css">
         <script src="<?php echo $PAGE->shared; ?>jscripts/highlight.min.js"></script>
         <script src="<?php echo $PAGE->shared; ?>jscripts/swiper-bundle.min.js"></script>
         <script src="<?php echo $PAGE->shared; ?>jscripts/vue.global.prod.js"></script>

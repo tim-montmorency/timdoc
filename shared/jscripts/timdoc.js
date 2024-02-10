@@ -398,7 +398,6 @@ class PasswordModal extends Modal {
 function timdocMount() {
     app.config.compilerOptions.whitespace = 'preserve';
     app.mount('body');
-    hljs.highlightAll();
 }
 
 
@@ -1143,7 +1142,12 @@ app.component('vimeo', {
 //https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md
 app.component('highlight', {
     props: ['lang', 'scroll'],
-    template: `<pre class="highlight"><code :class="'language-' + this.lang + (this.scroll == 'true' ? ' scroll' : '')"><slot /></code></pre>`
+    created() {
+        this.$nextTick(() => {
+            hljs.highlightElement(this.$refs.code);
+        });
+    },
+    template: `<pre class="highlight"><code ref="code" :class="'language-' + this.lang + (this.scroll == 'true' ? ' scroll' : '')"><slot /></code></pre>`
 });
 
 
