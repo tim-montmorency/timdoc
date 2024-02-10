@@ -954,7 +954,7 @@ app.component('dots', {
 app.component('color', {
     props: ['spacer'],
     data() {
-        let color = this.$slots.default()[0].children;
+        let color = this.$slots.default()[0].children.toLowerCase().trim();
         let invert = invertColor(color, true);
         let space = this.spacer == 'true' ? ' spacer' : '';
         return {
@@ -1046,28 +1046,19 @@ app.component('clipasset', {
  ******************************************************/
 app.component('youtube', {
     props: ['src'],
+    setup(props) {
+        const defaultId = 'o-YBDTqX_ZU';
+        props.src || (props.src = defaultId);
+        /^[\w\-_]{10,12}$/.test(props.src) || (props.src = defaultId); 
+        return { defaultId }
+    },
     data() {
-        let details = null;
-        let defaultId = 'o-YBDTqX_ZU';
-        if (/^[\w\-_]{10,12}$/.test(this.src)) {
-            if (!(details = localStorage.getItem('youtube_' + this.src))) {
-                if (!(details = this.getInfo(this.src))) {
-                    details = this.getInfo(defaultId);
-                } else {
-                    localStorage.setItem('youtube_' + this.src, JSON.stringify(details));
-                }
-            } else {
-                details = JSON.parse(details);
-            }
-        } else {
-            details = syncjson(this.src);
-        }
+        let details = this.getInfo(this.src);
+        if(!details) details = this.getInfo(this.defaultId);
         let denominator = hcd(details.width, details.height);
         return {
             id: /\/embed\/([^\/]+)\?/g.exec(details.html)[1],
             title: details.title,
-            width: details.width,
-            height: details.height,
             aspect: (details.width / denominator) + '/' + (details.height / denominator),
             thumbnail_url: details.thumbnail_url,
             playbtn: 'block',
@@ -1076,7 +1067,14 @@ app.component('youtube', {
     },
     methods: {
         getInfo(id) {
-            return syncjson('https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=' + id + '&format=json')
+            let details = localStorage.getItem('youtube_' + id);
+            if(!details) {
+                details = syncjson('https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=' + id + '&format=json');
+                localStorage.setItem('youtube_' + id, JSON.stringify(details));
+            } else {
+                details = JSON.parse(details);
+            }
+            return details;
         },
         play() {
             this.player = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + this.id + '?feature=oembed&autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
