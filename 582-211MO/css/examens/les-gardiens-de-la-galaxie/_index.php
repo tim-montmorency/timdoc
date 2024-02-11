@@ -41,8 +41,8 @@
 
 <checklist>
   Le couleur de fond de la page doit être blanc cassé ⚪️
-  L'affiche <em>(poster)</em>, doit mesurer 400x590px, être brune 🟤, avoir une bordure blanche ⚪️ de 10px de tous les côtés et être parfaitement centrée horizontalement ↔️.
-  L'affiche doit avoir une ombre de 20px, égale de tous les côtés. Cette ombre doit être noire ⚫️, mais ce noir doit avoir une opacité de 50%.
+  L'affiche (<incode>.poster</incode>), doit mesurer <em>400px</em> par <em>590px</em>, être <em>brune</em> 🟤, avoir une bordure <em>blanche</em> ⚪️ de <em>10px</em> de tous les côtés et être parfaitement centrée horizontalement ↔️.
+  L'affiche doit avoir une ombre de <em>20px</em>, égale de tous les côtés. Cette ombre doit être <em>noire</em> ⚫️, mais ce noir doit avoir une opacité de <em>50%</em>.
 </checklist>
 
 <!-- <dots></dots> -->
@@ -51,8 +51,8 @@
 <grostitre>Bandes de couleur</grostitre>
 
 <checklist>
-  Chaque bande <em>(stripe)</em> doit avoir une hauteur totale de 40px.
-  Le texte doit-être en 12px, être centré horizontalement ↔️ et être de couleur brune.
+  Chaque bande (<incode>.stripe</incode>) doit avoir une hauteur totale de <em>40px</em>.
+  Le texte doit-être en <em>12px</em>, être centré horizontalement ↔️ et être de couleur <em>brune</em>.
 </checklist>
 
 <!-- <dots></dots> -->
@@ -61,9 +61,9 @@
 <h3>1ière bande</h3>
 
 <checklist>
-  La bande doit être de couleur orange brulé et se situer à 20px du haut de l'affiche.
-  Le texte doit utiliser la police Helvetica, si cette dernière n'est pas disponible, le navigateur devra utiliser Arial comme police de substitution <em>(ces polices sont natives sur Mac et Windows)</em>.
-  Utilisez la propriété CSS permettant de transformer le texte en majuscules.
+  La bande doit être de couleur <em>orange brulé</em> et se situer à <em>20px</em> du haut de l'affiche.
+  Le texte doit utiliser la police <incode>Helvetica</incode>, si cette dernière n'est pas disponible, le navigateur devra utiliser <incode>Arial</incode> comme police de substitution <em>(ces polices sont natives sur Mac et Windows)</em>.
+  Utilisez la propriété CSS permettant de transformer le texte en <em>majuscules</em>.
   Centrez verticalement le texte dans la bande ↕️.
 </checklist>
 
@@ -73,11 +73,11 @@
 <h3>2ième bande</h3>
 
 <checklist>
-  La bande doit être de couleur orange.
-  Le texte doit-être utiliser la police <em>guardians.woff2</em> se trouvant dans le dossier <em>polices</em> du dossier de départ.
+  La bande doit être de couleur <em>orange</em>.
+  Le texte doit-être utiliser la police <incode>guardians.woff2</incode> se trouvant dans le dossier <incode>./polices</incode> du dossier de départ.
 </checklist>
 
-<warning>La police doit absolument rester dans le dossier polices.</warning>
+<warning>La police doit <strong><u>absolument</u></strong> rester dans le dossier <incode>./polices</incode>.</warning>
 
 <!-- <dots></dots> -->
 
@@ -85,7 +85,7 @@
 <h3>3ième bande</h3>
 
 <checklist>
-  La bande doit être de couleur jaune.
+  La bande doit être de couleur <em>jaune</em>.
 </checklist>
 
 <!-- <dots></dots> -->
@@ -94,10 +94,10 @@
 <grostitre>Cassette</grostitre>
 
 <checklist>
-  La zone de la cassette <em>(tape)</em> doit prendre toute la largeur de l'affiche et mesurer 130px de haut.
-  L'image <em>tape.webp</em> doit-être utilisé comme image d'arrière-plan. Elle doit prendre un maximum d'espace tout en étant entièrement visible <em>(ne pas être coupée)</em> et être positionnée horizontalement dans l'espace.<br><br><img src="images/guardians-tape.png">
-  La fenêtre <em>(window)</em> doit être rouge, mesurer 180x50px, avoir des coins arrondis de 5px, être centrée horizontalement et alignée verticalement avec la première ligne rouge de la cassette.<br><br><img src="images/guardians-window.png">
-  Les bobines <em>(reel)</em> sont déjà de la bonne dimension. Il suffit de les positionner dans la fenêtre afin qu'elles soient partiellement tronquées comme sur la référence visuelle.<br><br><img src="images/guardians-reels.png">
+  La zone de la cassette (<incode>.tape</incode>) doit prendre toute la largeur de l'affiche et mesurer <em>130px</em> de haut.
+  L'image <incode>tape.webp</incode> doit-être utilisé comme image d'arrière-plan. Elle doit prendre un maximum d'espace tout en étant entièrement visible <em>(ne pas être coupée)</em> et être positionnée horizontalement dans l'espace.<br><br><img src="images/guardians-tape.png">
+  La fenêtre (<incode>.window</incode>) doit être rouge, mesurer <em>180px</em> par <em>50px</em>, avoir des coins arrondis de <em>5px</em>, être centrée horizontalement et alignée verticalement avec la première ligne rouge de la cassette.<br><br><img src="images/guardians-window.png">
+  Les bobines (<incode>.reel</incode>) sont déjà de la bonne dimension. Il suffit de les positionner dans la fenêtre afin qu'elles soient partiellement tronquées comme sur la référence visuelle.<br><br><img src="images/guardians-reels.png">
 </checklist>
 
 <!-- <dots></dots> -->
@@ -106,7 +106,7 @@
 <grostitre>Gardiens</grostitre>
 
 <checklist>
-  Positionnez les gardiens dans le bon ordre au bas de la page. Faites attention à ce qu'ils soient précisément alignés avec le début de la bordure blanche.
+  Positionnez les gardiens dans le bon ordre au bas de la page. Faites attention à ce qu'ils soient précisément alignés avec le début de la bordure <em>blanche</em>.
   Faites attention à l'arme de Gamora qui doit passer par-dessus les jambes de Groot.
 </checklist>
 
