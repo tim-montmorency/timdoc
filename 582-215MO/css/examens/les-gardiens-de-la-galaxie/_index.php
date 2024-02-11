@@ -40,7 +40,7 @@
 <grostitre>Requis de base</grostitre>
 
 <checklist>
-  Le couleur de fond de la page doit être blanc cassé ⚪️
+  Le couleur de fond de la page doit être <em>blanc cassé</em> ⚪️
   L'affiche (<incode>.poster</incode>), doit mesurer <em>400px</em> par <em>590px</em>, être <em>brune</em> 🟤, avoir une bordure <em>blanche</em> ⚪️ de <em>10px</em> de tous les côtés et être parfaitement centrée horizontalement ↔️.
   L'affiche doit avoir une ombre de <em>20px</em>, égale de tous les côtés. Cette ombre doit être <em>noire</em> ⚫️, mais ce noir doit avoir une opacité de <em>50%</em>.
 </checklist>
