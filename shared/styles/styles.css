@@ -709,7 +709,7 @@ body.dark .tune__button {
   font-size: 16px;
   padding: 8px;
   border: 0px;
-  font-family: monospace;
+  font-family: "Consolas";
   outline: none;
 }
 .mediafile__linkcopied {
@@ -841,7 +841,7 @@ a.doclink .doclink-title {
   margin-left: 8px;
   margin-right: 10px;
   line-height: 24px;
-  font-family: monospace;
+  font-family: "Consolas";
   font-size: 10px;
 }
 @media (min-width: 576px) {
@@ -2287,7 +2287,7 @@ body.dark .swiper.swiper-main .swiper-slide {
 }
 .swiper.swiper-main .swiper-pagination {
   color: white;
-  font-family: monospace;
+  font-family: "Consolas";
   filter: drop-shadow(0px 0px 2px black);
   -webkit-user-select: none;
      -moz-user-select: none;
