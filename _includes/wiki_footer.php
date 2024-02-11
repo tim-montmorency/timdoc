@@ -1,6 +1,6 @@
                 <!-- WIKI FOOTER SOF -->
 
             </wiki>
-            <script>timdocMount();</script>
+            <script>app.mount('body');</script>
     </body>
 </html>

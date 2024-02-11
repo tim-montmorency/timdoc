@@ -393,15 +393,6 @@ class PasswordModal extends Modal {
 
 
 /******************************************************
- *                     Mount App                      *
- ******************************************************/
-function timdocMount() {
-    app.config.compilerOptions.whitespace = 'preserve';
-    app.mount('body');
-}
-
-
-/******************************************************
  *                 Load Forced Theme                  *
  ******************************************************/
 const darkmode_cache = 'darkmode_cache_1';
@@ -498,7 +489,7 @@ const app = Vue.createApp({
         }
     }
 });
-
+app.config.compilerOptions.whitespace = 'preserve';
 
 /******************************************************
  *           Composante Table des matières            *
