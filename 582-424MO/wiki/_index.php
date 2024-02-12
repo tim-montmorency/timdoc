@@ -265,14 +265,14 @@
                                      
 ----------------->
 
-<wiki-page name="Cours 04" date="2024-02-28">
+<wiki-page name="Cours 04" date="2024-02-11">
 
 
 
 
   <grostitre>Annonces</grostitre>
   <p><strong>Remise de P1.2</strong></p>
-  <p>Remise lien github (ne pas oublier de faire remise sur branche <em>P1-2</em>, la poublier, la pousser sur githut et ensuite vous reposition sur la branche <em>main</em> sur GitHub Desktop</p>
+  <p>Remise lien github. Ne pas oublier de faire la remise sur branche <em>P1-2</em>, la publier, la pousser sur github et ensuit,e vous vous repositinnez sur la branche <em>main</em> dans GitHub Desktop pour continuer votre travail.</p>
 
 
 
