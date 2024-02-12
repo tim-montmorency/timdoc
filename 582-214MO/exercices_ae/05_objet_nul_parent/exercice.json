@@ -1,0 +1,6 @@
+{
+    "type": "exercice",
+    "title": "Les oiseaux",
+    "icon": "images\/thumb.jpg",
+    "abstract": "Cet exercice vous permettra d'animer des oiseaux en explorant les concepts d'objet nul, de parent et d'enfant."
+}

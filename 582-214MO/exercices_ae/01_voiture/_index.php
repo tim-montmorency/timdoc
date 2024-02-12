@@ -3,12 +3,10 @@
  * @type     exercice
  * @title    La voiture
  * @icon     images/thumb.jpg
- * @abstract Dans cet exercice, vous animerez une voiture pour qu'elle circule en suivant la route.
+ * @abstract Dans cet exercice, vous animerez une voiture avec l'orientation automatique pour qu'elle circule en suivant la route.
  */
 ?>
 
-<p class="spacer"> L'objectif de l'exercice est de faire bouger la voiture rouge en suivant la route.</p>
-<dots></dots>
 
 
 <grostitre>Matériel</grostitre>

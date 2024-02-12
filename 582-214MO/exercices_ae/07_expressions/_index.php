@@ -1,41 +1,16 @@
 <?php
 /**
- * @type     article
- * @title    Exercice 07_Expressions
- * @icon     images/icon.png
- * @abstract Wiggle et loop out
+ * @type     exercice
+ * @title    Wiggle
+ * @icon     images/thumb.jpg
+ * @abstract Cet exercice vous montrera comment faire bouger un élément de façon aléatoire. 
  */
 ?>
 
-
-
-<p class="spacer"> Cet exercice comporte deux parties, le loop out et le wiggle. </p>
+<grostitre>Matériel</grostitre>
+Créez une nouvelle composition avec un cercle dedans. 
 <dots></dots>
 
-<grostitre>Le loop Out</grostitre>
-
-<grostitre>Étapes</grostitre>
-<p>Le but de l’exercice est d'expérimenter les expressions pour créer une animation en boucle d’un cercle qui monte et descend.  </p>
-<checklist>
-Créer une nouvelle composition 
-Créer un cercle en bas à gauche de la composition.  
-Créer une image clé avec la position du cercle. Placer votre curseur à trois seconde, déplacer le cercle en bas à droite de l’écran et créer une deuxième image clé.  
-Sélectionner les deux images clés, faire un clic droit, puis sélectionner Interpolation d’images clés. Dans la boîte interpolation spatiale, choisir Bézier, puis faire ok.  
-Bouger les poignées pour que le cercle monte, puis redescende dans un arc.  
-Pour répéter l’animation plusieurs fois, enfoncer alt puis cliquer sur le chronomètre du paramètre position.  
-Dans la zone expression, inscrire loopOut(). Regardez le résultat. 
-Ensuite, changer le texte pour le suivant : loopOut(‘’pingpong’’). 
-</checklist>
-
-
-<dots></dots>
-
-
-<grostitre>Notes de cours 📚</grostitre>
-<p><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ed5kOzFSJEdJn9rUp9h5L7EBg0ddVSLLF2N9RinwAjRhlQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NxTFYe">Loop Out</a></p>
-<dots></dots>
-
-<grostitre>Wiggle</grostitre>
 
 <grostitre>Étapes dans les deux axes</grostitre>
 <p>Le but de l’exercice est d'utiliser l’expression Wiggle pour faire bouger un cercle de façon aléatoire. </p>
@@ -61,7 +36,6 @@ Ce cercle bouge seulement à l’horizontale. On pourrait le faire sur Y pour qu
 <dots></dots>
 
 
-<grostitre>Notes de cours 📚</grostitre>
-<p><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ET7XALE-9OxOkTgWVtxjKWwBF3jdqLzs_VvNU80lY869IA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QiQvDZ">Wiggle</a></p>
-<dots></dots>
-
+<grostitre>Tutoriel 📚</grostitre>
+<p><doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ET7XALE-9OxOkTgWVtxjKWwBF3jdqLzs_VvNU80lY869IA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QiQvDZ">Wiggle</doclink></p>
+<iframe src="https://cmontmorency365-my.sharepoint.com/personal/lora_boisvert_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=b100d73e-f43e-4eec-9138-1656dc63296c&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="03_wiggle.mp4"></iframe>

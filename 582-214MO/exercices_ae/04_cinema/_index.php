@@ -3,7 +3,7 @@
  * @type     exercice
  * @title    Le cinéma
  * @icon     images/thumb.jpg
- * @abstract Dans cet exercice, vous ferez jouer une vidéo sur un écran de cinéma. 
+ * @abstract Dans cet exercice, vous ferez jouer une vidéo sur un écran de cinéma grâce à un masque. 
  */
 ?>
 
@@ -36,3 +36,7 @@ Repositionnez et réajustez l’échelle du film Babouins afin qu’il soit comp
 
 <grostitre>Notes de cours 📚</grostitre>
 <p><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ea6JW0d8YY9KilVu0k9HFfABxpdubaBGTysBx4ArKzOEDA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=M2fPAs">Masque</a></p>
+
+<dots></dots>
+<grostitre>Exercice suivant</grostitre>
+<exercice href="../04_masque"></exercice></p>

@@ -1,18 +1,14 @@
 <?php
 /**
- * @type     article
- * @title    Exercice 05_objet_nul_parent
- * @icon     images/icon.png
- * @abstract Objet nul, parent et enfant 
+ * @type     exercice
+ * @title    Les oiseaux
+ * @icon     images/thumb.jpg
+ * @abstract Cet exercice vous permettra d'animer des oiseaux en explorant les concepts d'objet nul, de parent et d'enfant.
  */
 ?>
 
 
-
-<p class="spacer"> Cet exercice vous permettra d'animer des oiseaux en explorant les concepts d'objet nul, de parent et d'enfant. </p>
-<dots></dots>
-
-<grostitre>Document de départ</grostitre>
+<grostitre>Matériel</grostitre>
 
 <p>Importez le fichier suivant dans un nouveau projet After Effects:</p>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EeEmnhWCTzFJjz1Ped5_0YQBHpTY3FXYHjr9A2JzkQo-AQ?e=WBhIR3">Oiseaux</doclink>
@@ -34,6 +30,8 @@ Ensuite, animez les oiseaux pour qu’ils se déplacent de haut en bas pendant q
 <dots></dots>
 
 
-<grostitre>Notes de cours 📚</grostitre>
-<p><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EZLL5y7pWOJBgIpNVGz8JmcBxBD5mlcgvjymRtaujAf-JQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eckDwg">Objet nul</a></p>
-<p><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ES3WmSrhq1RCuxMr8aMjHBUBH8wCK_YGQdCCtN8uas5OKA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Xf8w7f">Parent enfant</a></p>
+<grostitre>Tutoriel 📚</grostitre>
+<p><doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EZLL5y7pWOJBgIpNVGz8JmcBxBD5mlcgvjymRtaujAf-JQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eckDwg">Objet nul</doclink></p>
+<iframe src="https://cmontmorency365-my.sharepoint.com/personal/lora_boisvert_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=2ee7cb92-58e9-41e2-808a-4d546cfc2667&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="01_objet_nul.mp4"></iframe>
+<p><doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ES3WmSrhq1RCuxMr8aMjHBUBH8wCK_YGQdCCtN8uas5OKA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Xf8w7f">Parent enfant</doclink></p>
+<iframe src="https://cmontmorency365-my.sharepoint.com/personal/lora_boisvert_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=2a99d62d-abe1-4254-bb13-2bf1a3231c15&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="01_parents_enfants.mp4"></iframe>
