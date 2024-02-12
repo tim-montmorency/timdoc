@@ -56,7 +56,7 @@ $theme-colors: (
 <!--
 
 
-Anciennement #5 dans els requis
+Anciennement #5 dans les requis
 
 Dans Vs Code / Préférences / Paramètres, dans la section Extentsion cliquez sur Live Sass Compiler, ensuite sur Modifier dans settings.json, et ajoutez au json la valeur suivante (voir le bloc de code ci-bas après la checklist), à la suite des autres valeurs, à l’intérieur des {} jaunes. 
 
