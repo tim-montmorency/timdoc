@@ -322,6 +322,8 @@
 
   <dots></dots>
   <grostitre>En classe et devoirs</grostitre>
+  <p>- En équipe :</p>
+  <intlink href="../projet-app-festival-art-numerique/p1-3a-couleurs/"></intlink><br><br>
   <p>- Pour la personne en charge de l'interface de la landing page <em>LP</em> :</p>
   <intlink href="../projet-app-festival-art-numerique/p1-3a-lp/"></intlink>
  <small>Texte pour LP, section Fonctionnnalités: <a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdrcN4gudsFIg0NX5lHP3zUBgBy3hxvus5p7ZftITr2OLQ?e=hPyRcK" target="_blank" rel="noopener noreferrer">cliquez ici</a></small> <br><br><br><br>
