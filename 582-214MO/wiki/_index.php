@@ -286,14 +286,18 @@ Terminer le travail 1 partie 1
 </wiki-page>
 
 <wiki-page name="Cours 04">
-<p><h1>Remise du travail 1 partie 1 avant le cours</h1></p>    
+<p><h1>Remise du travail 1 partie 1 avant le cours</h1></p>  
+
 <p><h3>Correction en groupe de ce travail</h3></p>
 
+<dots></dots>
 <p><h1>After Effects</h1></p>
 <alert>Rappel: TOUJOURS TRAVAILLER SUR LA PARTITION MAC DE VOTRE SSD pour éviter la perte de votre projet ou sa corruption.</alert>
 
 <p><h3>Retour</h3>
-<intlink href="../exercices_ae/01_animation_base"></intlink></p>
+<exercice href="../exercices_ae/00_plante"></exercice></p>
+<exercice href="../exercices_ae/00_monstre"></exercice></p>
+<dots></dots>
 
 <p><h3>Notions</h3>
 <h4>Gestion des calques:</h4>
@@ -320,6 +324,7 @@ Terminer le travail 1 partie 1
 
 <exercice href="../exercices_ae/01_avion"></exercice>
 <exercice href="../exercices_ae/01_voiture"></exercice>
+<dots></dots>
 
 <p><h3>Notions</h3>
 <ul>
@@ -327,7 +332,7 @@ Terminer le travail 1 partie 1
 </ul></p>
 
 <exercice href="../exercices_ae/03_lissage"></exercice></p>
-
+<dots></dots>
 <p><h3>Notions</h3>
 <ul>
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ea6JW0d8YY9KilVu0k9HFfABxpdubaBGTysBx4ArKzOEDA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bGitTT">Masque</a></li>
@@ -335,7 +340,7 @@ Terminer le travail 1 partie 1
 
 <exercice href="../exercices_ae/04_cinema"></exercice></p>
 <exercice href="../exercices_ae/04_masque"></exercice></p>
-
+<dots></dots>
 <p><h3>Devoir</h3>
 <p>Faire les exercices suivants en devoir:</p>
 <exercice href="../exercices_ae/devoir_balle"></exercice></p>
@@ -352,8 +357,8 @@ Terminer le travail 1 partie 1
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ES3WmSrhq1RCuxMr8aMjHBUBH8wCK_YGQdCCtN8uas5OKA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MicLoC">Parent/enfant</a></li>
 </ul>
 
-<intlink href="../exercices_ae/05_objet_nul_parent"></intlink></p>
-
+<exercice href="../exercices_ae/05_objet_nul_parent"></exercice></p>
+<dots></dots>
 <h3>Marionnette:</h3>
 <ul>
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EdHh1-BjulVAnc3OGmdLYx8BtQDp1qIwhPcnBf8AStgy-A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1YSRUW">Marionnette</a></li>
@@ -362,29 +367,31 @@ Terminer le travail 1 partie 1
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfAPRPEfHkpKhmi0ww7FdtMBoWn_2jvRWR0qFUpTIo8XHw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jjElAB">Mouvement continu</a></li>
 </ul>
 
-<intlink href="../exercices_ae/06_marionnette"></intlink></p>
-
+<exercice href="../exercices_ae/06_meduse"></exercice></p>
+<exercice href="../exercices_ae/06_homme"></exercice></p>
+<dots></dots>
 <h3>Expressions:</h3>
 <ul>
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfgYXy4kV4FDhqpXeLFY5HABXiSRCqRL-yy-1hEb52qRkg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=x3V8sf">La base</a></li>
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ed5kOzFSJEdJn9rUp9h5L7EBg0ddVSLLF2N9RinwAjRhlQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VWc8oz">Loop Out</a></li>
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ET7XALE-9OxOkTgWVtxjKWwBF3jdqLzs_VvNU80lY869IA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=npk6Qp">Wiggle</a></li>
 </ul>
+<exercice href="../exercices_ae/07_loopOut"></exercice></p>
+<exercice href="../exercices_ae/07_expressions"></exercice></p>
 
-<intlink href="../exercices_ae/07_expressions"></intlink></p>
-
+<dots></dots>
 <h3>Effets:</h3> 
 <ul>
 <li><a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ekka6MZAvuFBuuLPkDovqtoBxQP1W3wc6UfU-ySuHT2Org?e=a9ne8B">Onde progressive</a></li>
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EeKWTIm30fFEpMaDd6H-vYIBsEfqLN6LBg33ne71jRAvOQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bcIAos">Bend it</a></li>
 </ul>
-
-<h3>Exercice, faire la section onde progressive et bend it:</h3>
-<?php intlink("../exercices_ae/08_effets"); ?></p>
-
+<exercice href="../exercices_ae/08_ondeProgressive"></exercice></p>
+<exercice href="../exercices_ae/08_bendIt"></exercice></p>
+<dots></dots>
 <h3>Les 12 principes de l'animation</h3>
 <p><doclink href=" https://vimeo.com/93206523">Vidéo explicative</doclink></p>
-
+<vimeo src="93206523"></vimeo>
+<dots></dots>
 <h3>Travail 1 partie 2</h3>
 <intlink href="../exercices_ae/travail1"></intlink></p>
 </wiki-page>
@@ -410,10 +417,10 @@ Terminer le travail 1 partie 1
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EdA-bTeQUQ1Ap8Wwr10hSt4BfXD4eJSNfWVy1LNkYE1ueQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oMfYca">Expression</a></li>
 </ul>
 
-<h3>Exercice, faire la section pluie:</h3>
-<?php intlink("../exercices_ae/08_effets"); ?></p>
+<exercice href="../exercices_ae/08_effets"></exercice></p>
 
-<h3>Continuer travail 1 partie 2</h3>
+<dots></dots>
+<h3>Continuer le travail 1 partie 2</h3>
 <intlink href="../exercices_ae/travail1"></intlink></p>
 
 </wiki-page>
@@ -427,6 +434,9 @@ Terminer le travail 1 partie 1
 
 
 <wiki-page name="Cours 07">
+<p><h1>Remise du travail 1 partie 2 avant le cours</h1></p>  
+
+<p><h3>Correction en groupe de ce travail</h3></p>
 
 </wiki-page>
 

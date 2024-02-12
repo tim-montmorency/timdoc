@@ -2,5 +2,5 @@
     "type": "exercice",
     "title": "L'avion",
     "icon": "images\/thumb.jpg",
-    "abstract": "Dans cet exercice, vous utiliserez les animations de base pour faire voler l'avion."
+    "abstract": "Dans cet exercice, vous utiliserez les animations de base et l'orientation automatique pour faire voler l'avion."
 }

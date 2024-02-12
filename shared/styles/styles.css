@@ -3127,6 +3127,7 @@ table.table-couleurs .color {
 #wiki {
   display: flex;
   min-height: 100%;
+  padding-right: 25px;
 }
 #wiki__burger {
   display: none;
@@ -3175,6 +3176,9 @@ table.table-couleurs .color {
 }
 
 @media (max-width: 576px) {
+  #wiki {
+    padding-right: 0px;
+  }
   #wiki__burger {
     display: block;
     position: absolute;

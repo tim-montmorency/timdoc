@@ -755,17 +755,11 @@ app.component('codepen', {
     },
     data() {
         this.$root.registerLightSwitch(this);
-        return {
-            theme: this.$root.theme == 'dark' ? this.dark : this.light,
-        }
+        return { theme: this.$root.theme == 'dark' ? this.dark : this.light }
     },
     methods: {
-        lightSwitchOn() {
-            this.theme = this.light;
-        },
-        lightSwitchOff() {
-            this.theme = this.dark;
-        },
+        lightSwitchOn() { this.theme = this.light; },
+        lightSwitchOff() { this.theme = this.dark; },
     },
     template:
     `<div class="codepen-container" :style="'height: ' + (+this.height + 2) + 'px'">` +
@@ -1765,12 +1759,8 @@ app.component('timg', {
         return { source: this.src.replace(/\$t/g, this.$root.theme) }
     },
     methods: {
-        lightSwitchOff() {
-            this.source = this.src.replace(/\$t/g, this.$root.theme);
-        },
-        lightSwitchOn() {
-            this.source = this.src.replace(/\$t/g, this.$root.theme);
-        }
+        lightSwitchOff() { this.source = this.src.replace(/\$t/g, this.$root.theme); },
+        lightSwitchOn() { this.source = this.src.replace(/\$t/g, this.$root.theme); }
     },
     template: `<img :src="this.source" :alt="this.alt" :class="this.class">`
 });

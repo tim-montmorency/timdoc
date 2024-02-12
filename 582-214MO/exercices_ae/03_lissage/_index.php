@@ -3,7 +3,7 @@
  * @type     exercice
  * @title    Le lissage
  * @icon     images/thumb.jpg
- * @abstract Dans cet exercice, vous découvrirez les animations explode in et out. 
+ * @abstract Dans cet exercice, vous découvrirez le lissage explode in et out. 
  */
 ?>
 

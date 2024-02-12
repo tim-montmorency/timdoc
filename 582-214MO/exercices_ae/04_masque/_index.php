@@ -3,7 +3,7 @@
  * @type     exercice
  * @title    La loupe
  * @icon     images/thumb.jpg
- * @abstract Cet exercice te permettra d'animer une loupe.
+ * @abstract Cet exercice te permettra d'animer une loupe avec un masque.
  */
 ?>
 
