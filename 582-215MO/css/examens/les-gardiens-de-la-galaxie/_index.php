@@ -123,6 +123,12 @@
 
 <dots></dots>
 
-<img src="images/galaxy-2.gif">
+<grostitre>Notes de cours 📚</grostitre>
+
+<doclink href="../../../../582-215MO/">Timdoc / 582-215MO</doclink>
+
+<dots></dots>
+
+<img src="images/galaxy-2.gif" class="full">
 
 <dots></dots>
