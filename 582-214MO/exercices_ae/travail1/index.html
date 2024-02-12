@@ -26,8 +26,6 @@
         <meta itemprop="digest" content="">
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
         <script src="../../../shared/jscripts/vue.global.prod.js"></script>
@@ -36,7 +34,7 @@
         <title>Travail 1 partie 2</title>
     </head>
     <body>
-        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
         <a id="top"></a>
         <header>
             <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
@@ -63,7 +61,21 @@
 <p class="spacer">Voici les consignes pour la partie 2 du travail 1. </p>
 
 <dots></dots>
+<grostitre>Références</grostitre>
+Voici la <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EbSIG69C4x9LkNqt7dYB2ycBgA7ebFpVStyzEWZ2pbTG0Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=erjDYU">vidéo de référence</a> pour la composition de travail.
 
+<dots></dots>
+
+<grostitre>Configuration de votre projet</grostitre>
+<checklist>
+    Assurez-vous de corriger votre fichier Illustrator pour pouvoir le transférer dans After Effects correctement. 
+    Corrigez la nomenclature externe de vos dossiers. 
+    Créez un nouveau projet After Effects, assurez-vous de bien le configurer et d'utiliser le modèle de base.
+    Importez votre fichier Illustrator.
+    Créez une composition.
+</checklist>
+
+<dots></dots>
 
 <grostitre>Composition de travail</grostitre>
 <checklist>
@@ -73,20 +85,7 @@ Durée: 28 secondes
 </checklist>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Edj2HQa-WuVKvVZbtr-cSe8B0yjMWwi_UPPc-Ka0aiWm_A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fTzIe5">Capsule vidéo référence</doclink>
 
-<dots></dots>
-<grostitre>Références</grostitre>
-Voici la <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EbSIG69C4x9LkNqt7dYB2ycBgA7ebFpVStyzEWZ2pbTG0Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=erjDYU">vidéo de référence</a> pour la composition de travail.
 
-
-<dots></dots>
-<grostitre>Configuration de votre projet</grostitre>
-<checklist>
-    Assurez-vous de corriger votre fichier Illustrator pour pouvoir le transférer dans After Effects correctement. 
-    Corrigez la nomenclature externe de vos dossiers. 
-    Créez un nouveau projet After Effects, assurez-vous de bien le configurer et d'utiliser le modèle de base.
-    Importez votre fichier Illustrator.
-    Créez une composition.
-</checklist>
 
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EbzaClFNxa1Fp3dJJ0Ef5jgBab16Ih50gqCSkVjAOgNZCQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lxcaR3">Tutoriel explicatif</doclink>
 <warning>Il est important d'écouter la vidéo ci-haut. Elle vous permettra d'avoir un projet bien configuré et avec la bonne nomenclature.</warning>
@@ -313,6 +312,6 @@ Niveau de qualité d'exécution générale.
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script>timdocMount();</script>
+        <script>app.mount('body');</script>
     </body>
 </html>

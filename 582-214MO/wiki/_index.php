@@ -283,16 +283,17 @@
 Terminer le travail 1 partie 1
 <p><intlink href="../exercices/travail1"></intlink></p>
 
-<h3>Test</h3>
-<iframe src="https://cmontmorency365-my.sharepoint.com/personal/lora_boisvert_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=7b05cd88-de48-4566-a331-4e9bc39b9dcc&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="01_caractere.mp4"></iframe>
-
 </wiki-page>
 
 <wiki-page name="Cours 04">
-<p><h3>Correction en groupe des illustrations</h3></p>
+<p><h1>Remise du travail 1 partie 1 avant le cours</h1></p>    
+<p><h3>Correction en groupe de ce travail</h3></p>
 
 <p><h1>After Effects</h1></p>
 <alert>Rappel: TOUJOURS TRAVAILLER SUR LA PARTITION MAC DE VOTRE SSD pour éviter la perte de votre projet ou sa corruption.</alert>
+
+<p><h3>Retour</h3>
+<intlink href="../exercices_ae/01_animation_base"></intlink></p>
 
 <p><h3>Notions</h3>
 <h4>Gestion des calques:</h4>
@@ -316,24 +317,29 @@ Terminer le travail 1 partie 1
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EURUyP_qmFhMo5Uhn-M21ScBS4RXvbQiuv0yjmReJQoMWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nk5z8z">Orientation automatique</a></li>
 </ul>
 
-<intlink href="../exercices_ae/02_orientation_auto"></intlink></p>
+
+<exercice href="../exercices_ae/01_avion"></exercice>
+<exercice href="../exercices_ae/01_voiture"></exercice>
 
 <p><h3>Notions</h3>
 <ul>
 <li><a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ek7P7WxNDiZOvaIhMw8lO98BoXHiBJTE6nlYfus6W5YViQ?e=fdyagQ">Lissage (Démonstration)</a></li>
 </ul></p>
 
-<intlink href="../exercices_ae/03_lissage"></intlink></p>
+<exercice href="../exercices_ae/03_lissage"></exercice></p>
 
 <p><h3>Notions</h3>
 <ul>
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ea6JW0d8YY9KilVu0k9HFfABxpdubaBGTysBx4ArKzOEDA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bGitTT">Masque</a></li>
 </ul></p>
 
-<intlink href="../exercices_ae/04_masque"></intlink></p>
+<exercice href="../exercices_ae/04_cinema"></exercice></p>
+<exercice href="../exercices_ae/04_masque"></exercice></p>
 
 <p><h3>Devoir</h3>
-<intlink href="../exercices_ae/devoir_c4"></intlink>
+<p>Faire les exercices suivants en devoir:</p>
+<exercice href="../exercices_ae/devoir_balle"></exercice></p>
+<exercice href="../exercices_ae/devoir_c4"></exercice>
 
 
 </wiki-page>

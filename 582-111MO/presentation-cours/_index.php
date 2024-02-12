@@ -90,7 +90,7 @@
 
 <grostitre>Microsoft 365</grostitre>
 
-<youtube src="./videos/microsoft-365.json"></youtube>
+<youtube src="Fa9hCEg0tuM"></youtube>
 
 <img src="images/365.webp">
 
@@ -111,7 +111,7 @@
 
 <grostitre>Microsoft TEAMS</grostitre>
 
-<youtube src="./videos/teams.json"></youtube>
+<youtube src="yT12quWr01g"></youtube>
 
 <p style="color:#f4754d">Rejoindre les équipes:</p>
 

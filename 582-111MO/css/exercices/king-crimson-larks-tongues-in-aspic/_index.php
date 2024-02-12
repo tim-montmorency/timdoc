@@ -88,7 +88,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<youtube src="./videos/king-cCrimson-larks-tongues-in-aspic-part-2.json"></youtube>
+<youtube src="JrwXnhAUtnk"></youtube>
 
 <dots></dots>
 

@@ -26,8 +26,6 @@
         <meta itemprop="digest" content="">
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
         <script src="../../../shared/jscripts/vue.global.prod.js"></script>
@@ -36,7 +34,7 @@
         <title>Exercice 01_animation_base</title>
     </head>
     <body>
-        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
         <a id="top"></a>
         <header>
             <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
@@ -115,6 +113,9 @@ Amusez-vous !
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ESRQupk7ortOkkvmZCnm4FsBs_OdW9H6PRI3nykudnVQIQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HvOB61">Capsule d'aide</doclink>
 
 
+<h3>Test</h3>
+<iframe src="https://cmontmorency365-my.sharepoint.com/personal/lora_boisvert_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=7b05cd88-de48-4566-a331-4e9bc39b9dcc&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="01_caractere.mp4"></iframe>
+
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>
@@ -123,6 +124,6 @@ Amusez-vous !
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script>timdocMount();</script>
+        <script>app.mount('body');</script>
     </body>
 </html>

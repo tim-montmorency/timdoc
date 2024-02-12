@@ -26,8 +26,6 @@
         <meta itemprop="digest" content="<?php echo ($PAGE->password ? md5($PAGE->password) : ''); ?>">
         <link rel="icon" type="image/x-icon" href="<?php echo $PAGE->shared; ?>images/favicon.ico">
         <link rel="stylesheet" href="<?php echo $PAGE->shared; ?>styles/styles.min.css">
-        <link rel="stylesheet" href="<?php echo $PAGE->shared; ?>styles/highlight.min.css">
-        <link rel="stylesheet" href="<?php echo $PAGE->shared; ?>styles/swiper-bundle.min.css">
         <script src="<?php echo $PAGE->shared; ?>jscripts/highlight.min.js"></script>
         <script src="<?php echo $PAGE->shared; ?>jscripts/swiper-bundle.min.js"></script>
         <script src="<?php echo $PAGE->shared; ?>jscripts/vue.global.prod.js"></script>
@@ -36,7 +34,7 @@
         <title><?php echo strip_tags($PAGE->title); ?></title>
     </head>
     <body>
-        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
         <a id="top"></a>
         <header>
             <div id="logo" @click="goToTop('<?php echo getRootCours(); ?>', '<?php echo getIndexPath(); ?>')" title="Retour à l'accueil">

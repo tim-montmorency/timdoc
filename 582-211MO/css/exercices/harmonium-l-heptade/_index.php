@@ -86,7 +86,6 @@
 
 <grostitre>Ambiance</grostitre>
 
-<!-- <youtube src="./videos/harmonium-comme-un-fou.json"></youtube> -->
 <youtube src="8lT14QPL8Bw"></youtube>
 
 <dots></dots>

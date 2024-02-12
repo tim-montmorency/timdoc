@@ -62,3 +62,6 @@ Amusez-vous !
 
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ESRQupk7ortOkkvmZCnm4FsBs_OdW9H6PRI3nykudnVQIQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HvOB61">Capsule d'aide</doclink>
 
+
+<h3>Test</h3>
+<iframe src="https://cmontmorency365-my.sharepoint.com/personal/lora_boisvert_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=7b05cd88-de48-4566-a331-4e9bc39b9dcc&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="01_caractere.mp4"></iframe>

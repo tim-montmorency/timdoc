@@ -51,6 +51,27 @@
 
     }
 
+    &__comment {
+        display: none;
+
+        &.show {
+            display: table-row;
+        }
+
+        & td:nth-child(1) {
+            width: 1%;
+            white-space: nowrap;
+            font-size: 1.1em;
+            font-weight: bold;
+            padding-right: 10px;
+        }
+        & td:nth-child(2) {
+            padding-left: 10px;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+    }
+
     &__criteria {
 
         & td:nth-child(1) {

@@ -51,8 +51,7 @@
 
 <grostitre>Ambiance</grostitre>
 
-<!-- <clip src="videos/death-from-above-1979-virgins.mp4"></clip> -->
-<youtube src="./videos/death-from-above-1979-virgins.json"></youtube>
+<youtube src="rJz0rq1gVLk"></youtube>
 
 <dots></dots>
 

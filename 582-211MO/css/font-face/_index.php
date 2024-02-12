@@ -26,7 +26,7 @@
 
 <p>La propriété <incode>src</incode> dans cet exemple indique au navigateur que la police se nomme <incode>bebas.woff2</incode> et se trouve dans un dossier intitulé <incode>polices</incode>.</p>
 
-<warning>Si votre nom contient des espaces, il faudra obligatoirement utiliser des guillemets autour de celui-ci.</warning>
+<warning>Si votre nom contient des espaces, il faudra obligatoirement utiliser des guillemets autour de celui-ci. Les guillemets entourent le nom de la police pour assurer une interprétation correcte par le navigateur.</warning>
 
 <dots></dots>
 

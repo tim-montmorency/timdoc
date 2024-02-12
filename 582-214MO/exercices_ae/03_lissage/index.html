@@ -26,17 +26,15 @@
         <meta itemprop="digest" content="">
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
         <script src="../../../shared/jscripts/vue.global.prod.js"></script>
         <script src="../../../shared/jscripts/timdoc.min.js"></script>
         <script>const shared = '../../../shared/';</script>
-        <title>Exercice 03_Lissage</title>
+        <title>Le lissage</title>
     </head>
     <body>
-        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
         <a id="top"></a>
         <header>
             <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
@@ -49,53 +47,41 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <div id="breadcrumb">
-                    <div id="breadcrumb_normal"></div>
-                    <div id="breadcrumb_index"></div>
-                </div>
-                <h1 id="title"><img src="images/icon.png">&nbsp;Exercice 03_Lissage</h1>
+                <h1 id="title">Le lissage</h1>
             </div>
             <article>
                 <div id="contents">
-                    <!-- ARTICLE HEADER EOF -->
-
+                    <!-- EXERCICE HEADER EOF -->
 
 
 <p class="spacer"> Cet exercice porte sur le lissage. </p>
 <dots></dots>
 
-<grostitre>Lissage</grostitre>
-<grostitre>Document de départ</grostitre>
-
-<p>Téléchargez le fichier After effects suivant, puis ouvrez-le.</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EYrCXt7_WKpLv79QqxJWy6kBwvTbClV1kbKj3iLikbdZ8w?e=oZbzqV">Dossier de départ</doclink>
-
-
-
-<dots></dots>
-
 
 <grostitre>Étapes</grostitre>
 <checklist>
-Reproduire l'animation Explode out de la capsule. 
-Faire l'animation Into the wall.
+Tracez deux carrés.
+Reproduire l'animation Explode out du début de la capsule avec le premier carré. 
+Faire l'animation Into the wall à la fin de la capsule pour le second carré.
 </checklist>
 
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ee5GEu2EciNLo9SL2Pm6qK0BJd4MkyXD5lRTTvYC80Pz8w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4TGomn">Capsule de référence</doclink>
+<iframe src="https://cmontmorency365-my.sharepoint.com/personal/lora_boisvert_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=ed1246ee-7284-4b23-a3d4-8bd8f9baa8ad&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="06_explode_out_ET_into_the_wall.mov"></iframe>
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
 <p><a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ek7P7WxNDiZOvaIhMw8lO98BoXHiBJTE6nlYfus6W5YViQ?e=KI49lp">Lissage</a></p>
 
 
-                    <!-- ARTICLE FOOTER SOF -->
+                    <!-- EXERCICE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>
-            </article>        <!-- MAIN FOOTER SOF -->
+            </article>
+        <!-- MAIN FOOTER SOF -->
         </main>
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script>timdocMount();</script>
+        <script>app.mount('body');</script>
     </body>
 </html>

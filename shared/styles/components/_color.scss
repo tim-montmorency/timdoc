@@ -9,21 +9,23 @@
     padding-right: 25px;
     margin-right: 10px;
     margin-bottom: 25px;
-    
+    transition-duration: 100ms;    
     text-align: center;
     cursor: pointer;
     user-select: none;
-
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
     &.spacer {
         margin-left: 25px;
     }
-
-    &:hover{
-        box-shadow: 0px 0px 5px;
+    &:hover {
+        transform: scale(1.08);
     }
-
     &.clicked {
         filter: hue-rotate(360deg);
         transition-duration: 1s;
     }
+}
+
+body.dark .color {
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3);
 }
