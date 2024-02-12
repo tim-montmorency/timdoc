@@ -26,17 +26,15 @@
         <meta itemprop="digest" content="">
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
         <script src="../../../shared/jscripts/vue.global.prod.js"></script>
         <script src="../../../shared/jscripts/timdoc.min.js"></script>
         <script>const shared = '../../../shared/';</script>
-        <title>P1.3b Équipe - Couleurs</title>
+        <title>P1.3a Équipe - Couleurs</title>
     </head>
     <body>
-        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
         <a id="top"></a>
         <header>
             <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
@@ -53,7 +51,7 @@
                     <div id="breadcrumb_normal"><a href="../../">Optimisation Web</a> > <a href="../">Projet: App festival art</a> ></div>
                     <div id="breadcrumb_index"></div>
                 </div>
-                <h1 id="title"><img src="images/icon.svg">&nbsp;P1.3b Équipe - Couleurs</h1>
+                <h1 id="title"><img src="images/icon.svg">&nbsp;P1.3a Équipe - Couleurs</h1>
             </div>
             <article>
                 <div id="contents">
@@ -68,18 +66,49 @@ Descendez en bas de la page et copier le code SCSS.
 </checklist>
 <dots></dots>
 <grostitre>Créez votre SCSS pour ré-écrire la valeur de couleurs des variables Bootstrap.</grostitre>
+<warning>Ajoutetz le dossiers <em>vendors/</em> à votre fichier <em>.gitignore</em></warning>
 <checklist>
-Si les dossiers sont disparus car git efface les dossier vides, recréez à la racine de votre projet, un dossier vendors et un dossier scss.
-Téléchargez les fichiers source de Bootstrap pour avoir accès aux fichiers SASS :<a href="https://getbootstrap.com/docs/5.2/getting-started/download/#source-files" target="_blank" onclick="event.stopPropagation()">Fichiers sources Bootstrap</a>.
-Veuillez le télécharger directement dans le dossier vendors de votre projet. Le dézipper.
-Installer l’extension de VS Code Live SASS compiler de l’auteur "Glenn Marks"
-Dans Vs Code / Préférences / Paramètres, dans la section Extentsion cliquez sur Live Sass Compiler, ensuite sur Modifier dans settings.json, et ajoutez au json la valeur suivante (voir le bloc de code ci-bas après la checklist), à la suite des autres valeurs, à l’intérieur des {} jaunes. 
-Cliquez sur “Watch Sass” dans le bas de votre fenêtre pour déparer le compilateur de live Sass Compiler 
-Créez-vous un fichier custom_bootstrap.scss dans le dossier scss. Dans ce fichier, vous allez importer le fichier /scss/bootstrap.scss qui se trouve dans le dossier bootstrap que vous avez téléchargé précédemment. 
-Avant la ligne d'importation, vous pouvez ré-écrire les variable Bootstrap comme bon vous semble. (Vous pouvez simplement coller le SCSS que vous aviez copié dans HueMint).
-Dans vos 2 fichiers HTML vous allez changer le lien vers le CSS de Bootstrap que vous aviez préalablement créé via le CDN et vous allez maintenant pointer vers le fichier css/custom_bootstrap.css nouvellement généré. Le JS lui demeure inchangé.
+Si les dossiers sont disparus car git efface les dossier vides, recréez à la racine de votre projet, un dossier <em>vendors</em> et un dossier <em>scss</em>.
+Téléchargez les fichiers source de Bootstrap pour avoir accès aux fichiers SASS : <a href="https://getbootstrap.com/docs/5.3/getting-started/download/#source-files" target="_blank" onclick="event.stopPropagation()">Fichiers sources Bootstrap</a>.
+Veuillez le télécharger directement dans le dossier <em>vendors</em> de votre projet. Le dézipper.
+Installer l’extension de VS Code nommée <em>Live SASS Compiler</em> de l’auteur "Glenn Marks"
+Cliquez sur <em>Watch Sass</em> dans le bas de votre fenêtre pour déparer le compilateur de <em>Live Sass Compiler</em> 
+Créez-vous un fichier <em>custom_bootstrap.scss</em> dans le dossier <em>scss</em>. Dans ce fichier, vous allez importer le fichier <em>scss/bootstrap.scss</em> qui se trouve dans le dossier <em>bootstrap</em> que vous avez téléchargé précédemment. 
+Avant la ligne d'importation, vous pouvez ré-écrire les variables Bootstrap comme bon vous semble. (Vous pouvez copier le SCSS que vous aviez généré dans HueMint). Par contre, veuillez l'écrire dans les deux formats comme montré ci-après les requis.
+Dans vos 3 fichiers HTML, vous allez changer le lien vers le CSS de Bootstrap que vous aviez préalablement créé via le CDN et vous allez maintenant pointer vers le fichier <em>scss/custom_bootstrap.css</em>  nouvellement généré. Le JS lui demeure inchangé.
 </checklist>
 
+<highlight lang="scss">dans ce format: 
+$light:        #bfe5df,
+$dark:         #201d40,
+$primary:      #f36b62
+$secondary:    #5f5f71
+$info:         #20b4a8,
+$success :     #63af0e,
+$warning :     #ffc377,
+$danger :      #f60568,
+
+et dans ce format:
+$theme-colors: (
+    &quot;light&quot;:      #bfe5df,
+    &quot;dark&quot;:       #201d40,
+    &quot;primary&quot;:    #f36b62,
+    &quot;secondary&quot;:  #5f5f71,
+    &quot;info&quot;:       #20b4a8,
+    &quot;success&quot;:    #63af0e,
+    &quot;warning&quot;:    #ffc377,
+    &quot;danger&quot;:     #f60568,
+);</highlight>
+
+<!--
+
+
+Anciennement #5 dans els requis
+
+Dans Vs Code / Préférences / Paramètres, dans la section Extentsion cliquez sur Live Sass Compiler, ensuite sur Modifier dans settings.json, et ajoutez au json la valeur suivante (voir le bloc de code ci-bas après la checklist), à la suite des autres valeurs, à l’intérieur des {} jaunes. 
+
+
+------
 <h3>Code pour le #5</h3>
 <p>Où savePath = le chemin d'accès vers votre dossier où sont vos feuilles de styles du projet</p>
 <highlight lang="json">&quot;liveSassCompile.settings.formats&quot;: [ 
@@ -88,7 +117,9 @@ Dans vos 2 fichiers HTML vous allez changer le lien vers le CSS de Bootstrap que
     &quot;extensionName&quot;: &quot;.css&quot;, 
     &quot;savePath&quot;: &quot;/css&quot;, 
   } 
-],</highlight>
+],</highlight> -->
+
+
 
 
 <h3>Notes de cours 📚</h3>
@@ -109,6 +140,6 @@ Dans vos 2 fichiers HTML vous allez changer le lien vers le CSS de Bootstrap que
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script>timdocMount();</script>
+        <script>app.mount('body');</script>
     </body>
 </html>

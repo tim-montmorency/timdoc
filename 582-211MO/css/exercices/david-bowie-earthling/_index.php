@@ -99,7 +99,6 @@
 
 <grostitre>Ambiance</grostitre>
 
-<!-- <youtube src="./videos/david-bowie-im-afraid-of-americans.json"></youtube> -->
 <youtube src="LT3cERVRoQo"></youtube>
 <span class="remark" style="padding-top: 5px;">Ce vidéoclip est un hommage au film <a target="_blank" href="https://www.imdb.com/title/tt0075314/">Taxi Driver</a> de <a target="_blank" href="https://en.wikipedia.org/wiki/Martin_Scorsese">Martin Scorsese</a>.</span>
 

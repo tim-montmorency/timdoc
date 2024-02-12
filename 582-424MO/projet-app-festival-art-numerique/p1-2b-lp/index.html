@@ -26,8 +26,6 @@
         <meta itemprop="digest" content="">
         <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
         <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="../../../shared/styles/swiper-bundle.min.css">
         <script src="../../../shared/jscripts/highlight.min.js"></script>
         <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
         <script src="../../../shared/jscripts/vue.global.prod.js"></script>
@@ -36,7 +34,7 @@
         <title>P1.2b - LP</title>
     </head>
     <body>
-        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
         <a id="top"></a>
         <header>
             <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
@@ -107,7 +105,7 @@ Bien que l'url du répertoire git soit un lien, ce texte ne doit pas être souli
             <div class="intlink__item__icon" style="background-image: url(../../bootstrap/images/icon.webp);"></div>
             <div class="intlink__item__description">
                 <span class="intlink__item__title"><a target="_blank" href="../../bootstrap/grille/">Grille</a></span>
-                <span class="intlink__item__abstract">Système de grille Bootstrap pour un mise en page facile et réactive</span>
+                <span class="intlink__item__abstract">Système de grille Bootstrap pour une mise en page facile et réactive</span>
             </div>
         </div> 
 
@@ -132,7 +130,7 @@ Ajoutez dans le <em>div</em> qui fait office de cadre de téléphone, un <em>ifr
             <div class="intlink__item__icon" style="background-image: url(../../bootstrap/images/icon.webp);"></div>
             <div class="intlink__item__description">
                 <span class="intlink__item__title"><a target="_blank" href="../../bootstrap/grille/">Grille</a></span>
-                <span class="intlink__item__abstract">Système de grille Bootstrap pour un mise en page facile et réactive</span>
+                <span class="intlink__item__abstract">Système de grille Bootstrap pour une mise en page facile et réactive</span>
             </div>
         </div> 
 
@@ -148,6 +146,6 @@ Ajoutez dans le <em>div</em> qui fait office de cadre de téléphone, un <em>ifr
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script>timdocMount();</script>
+        <script>app.mount('body');</script>
     </body>
 </html>

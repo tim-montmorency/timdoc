@@ -5,6 +5,7 @@
  * @title    Couleurs et personnalisation
  * @icon     ../images/icon.webp
  * @abstract Personnalisation des couleurs de base de Bootstrap
+ * @index 730
  * @ref      web/cadriciels/bootstrap
  */
 ?>
@@ -13,7 +14,7 @@
 <grostitre>Intro</grostitre>
 
 
-<doclink href="https://getbootstrap.com/docs/5.2/customize/color/">Colors</doclink>
+<doclink href="https://getbootstrap.com/docs/5.3/customize/color/">Colors</doclink>
 
 <dots></dots>
 
@@ -26,22 +27,55 @@
 <codepen id="BaOzyrm" tab="html,result" height="570"></codepen>
 
 <br>
-<doclink href="https://getbootstrap.com/docs/5.2/customize/color/">Colors</doclink>
+<doclink href="https://getbootstrap.com/docs/5.3/customize/color/">Colors</doclink>
 
-<p> Pour les variables CSS, il vous suffit d'utiliser les noms de variables existantes. Ceci vous permettra de sauver beaucoup de temps à styliser dans un fichier CSS personnalisé.</p>
+<grostitre>Variable CSS</grostitre>
+<p>Rapelons-nous comment utiliser des variables CSS:</p>
+<highlight lang='css'>:root{
+  --bs-nomdevariable: #000000;
+}
+navbar{
+  background: var(--bs-nomdevariable);
+}
+</highlight>
+
+
+
+<p>Donc les variables de couleur Bootstrop en CSS, il vous suffit d'utiliser les noms de variables existantes. Ceci vous permettra de sauver beaucoup de temps à styliser dans un fichier CSS personnalisé.</p>
 <p>Voici une liste de plusieurs variables que vous pouvez utiliser (couleurs et plus encore):</p>
-
 <codepen id="zYJBGYG" tab="css" height="570"></codepen>
-
 <br>
-<doclink href="https://getbootstrap.com/docs/5.2/customize/css-variables/">CSS Variables</doclink>
+<doclink href="https://getbootstrap.com/docs/5.3/customize/css-variables/">CSS Variables</doclink>
 
 
 
 <dots></dots>
 <grostitre>🤔 Mais si je veux personnaliser ces couleurs?</grostitre>
-<p>Il est possible de faire réécrire automatiquement tout le CSS de Bootstrap à partir de quelques personnalisations. Par exemple, si on veut changer la couleur <span style="color: #0d6efd;">primary</span> et la couleur  <span style="color: #6c757d;">secondary</span> qui sont utilisées et appliquées sur de multiples composantes de base de Bootstrap, comme les boutons, les liens, les éléments de formulaires, les accordéons etc.</p>
 
+<p>Il est possible réutiliser les variables de couleurs Bootstrap et même de les personnaliser pour les éléments de votre feuilles de style.</p>
+
+<p>Dans votre fichier .css personnel redéfinir la valeur des principales variables de couleurs Bootstrap:</p>
+
+<highlight lang="css">
+:root{
+  --bs-primary: #ff0000;
+  --bs-primary: #00ff00;
+}
+.navbar{
+  background: var(--bs-primary);
+}
+.btn-primary{
+  background-color: var(--bs-primary);
+}
+.btn-secondary{
+  background-color: var(--bs-secondary);
+}
+</highlight>
+
+<p>Ceci étant dit, ça n'aura aucun effet sur les composantes Bootstrap donc les styles ont été définis dans la feuille de style de Bootstrap et que vous n'avez restylisé à nouveau dans votre feuille de styles personnalisée.</p>
+
+
+<!--
 <p>Comment? Bien vous pouvez, dans votre fichier .css personnel réécrire par exemple:</p>
 
 <highlight lang="css">.btn-primary{
@@ -53,8 +87,14 @@
 }</highlight>
 
 <p>...mais l'utilisation du <incode>!important</incode> un peu partout n'est vraiment pas optimal et vous devez réécrire les styles pour chaque élément qui utilise la couleur primary ou secondary, c'est super fastidieux comme technique.</p>
+-->
 
-<h3>Utilisation de <em>SASS (Syntactically Awesome Style Sheets)</em> à des fin de personnalisation de Bootstrap</h3>
+
+<grostitre>Alors comment personnaliser les couleurs des composantes Bootstrap</grostitre>
+<p>Il est possible de faire réécrire automatiquement tout le CSS de Bootstrap à partir de quelques personnalisations. Par exemple, si on veut changer la couleur <span style="color: #0d6efd;">primary</span> et la couleur  <span style="color: #6c757d;">secondary</span> qui sont utilisées et appliquées sur de multiples composantes de base de Bootstrap, comme les boutons, les liens, les éléments de formulaires, les accordéons etc.</p>
+
+
+<h3>Comment? Par l'utilisation de <em>SASS (Syntactically Awesome Style Sheets)</em> à des fin de personnalisation de Bootstrap</h3>
 
 <p>Vous pourriez simplement réécrire la valeur de certaines variables Bootstrap en format <em>SASS</em> et ensuite recompiler le <em>SASS</em> complet de Bootstrap dans le format CSS. Ainsi, cela vous donne la possibilité de personnaliser plusieurs aspects dont les couleurs. Par la suite vous continuez simplement d'utiliser les mêmes classes ou les même variables CSS que Bootstrap utilise et dorénavant tout sera changé avec votre palette de couleurs personnalisée!</p>
 
@@ -62,9 +102,9 @@
 
 <h3>Les étapes</h3>
 <ol>
-  <li>Télécharger les <a href="https://getbootstrap.com/docs/5.2/getting-started/download/#source-files">fichiers sources</a> de Bootstrap pour avoir accès aux fichiers <em>Sass</em>. Ajoutez le dossier des fichiers source de Bootstrap dans votre dossier de projet (je vous propose de le déposer dans un dossier nommé <em>vendors</em>)
+  <li>Télécharger les <a href="https://getbootstrap.com/docs/5.3/getting-started/download/#source-files">fichiers sources</a> de Bootstrap pour avoir accès aux fichiers <em>Sass</em>. Ajoutez le dossier des fichiers source de Bootstrap dans votre dossier de projet (je vous propose de le déposer dans un dossier nommé <em>vendors</em>)
 </li>
-  <li>Créer un fichier .scss dans lequel vous allez réécrivez la valeur de certaines variables Bootstrap existantes.
+  <li id="format-couleurs-bs-scss">Créer un fichier .scss dans lequel vous allez réécrivez la valeur de certaines variables Bootstrap existantes.
     <highlight lang="scss">
 $light:        #bfe5df,
 $dark:         #201d40,
@@ -98,6 +138,7 @@ $theme-colors: (
   <li>Changez le lien <link> du Bootstrap.css dans vos fichier HTML pour pointer dorénavant vers votre nouveau fichier .css (celui qui vient d'être compilé à l'aide du fichier scss.</li>
 </ol>
 
+<!--
 <warning>Si vous utilisez une extension VS Code pour compiler le <em>SCSS</em> en CSS, il est possible que vous ayez à modifier les paramètres de l'extension pour lui mentionner l'endroit où vous souhaitez sauvegarder le fichier .css compilé (son "savePath"), pour ce faire il suffit d'aller modifier les paramètres de l'extension en éditant le settings.json, en ajoutant le code suivant, ou la valeur de savePath sera le chemin d'accès absolu ou vous souhaitez enregistrer le fichier css compilé.
 </warning>
 <highlight lang="json">"liveSassCompile.settings.formats": [ 
@@ -106,7 +147,7 @@ $theme-colors: (
     "savePath": "/css"
   } 
 ]</highlight>
-
+-->
 
 
 <h3>Outil sympathique pour générer une palette de couleur sur les variables de bases de Bootstrap</h3>

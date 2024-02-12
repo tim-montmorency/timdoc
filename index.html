@@ -26,8 +26,6 @@
         <meta itemprop="digest" content="">
         <link rel="icon" type="image/x-icon" href="shared/images/favicon.ico">
         <link rel="stylesheet" href="shared/styles/styles.min.css">
-        <link rel="stylesheet" href="shared/styles/highlight.min.css">
-        <link rel="stylesheet" href="shared/styles/swiper-bundle.min.css">
         <script src="shared/jscripts/highlight.min.js"></script>
         <script src="shared/jscripts/swiper-bundle.min.js"></script>
         <script src="shared/jscripts/vue.global.prod.js"></script>
@@ -36,7 +34,7 @@
         <title>TIMdoc</title>
     </head>
     <body>
-        <script>document.body.className = localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light';</script>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
         <a id="top"></a>
         <header>
             <div id="logo" @click="goToTop('./', '')" title="Retour à l'accueil">
@@ -53,12 +51,11 @@
                     <div id="breadcrumb_normal"></div>
                     <div id="breadcrumb_index"></div>
                 </div>
-                <h1 id="title"><img src="shared/images/icon.png">&nbsp;TIMdoc</h1>
+                <h1 id="title"><img src="shared/images/icon.webp">&nbsp;TIMdoc</h1>
             </div>
             <article>
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
-
  
 <p class="spacer">TIMdoc est un système de documentation en ligne conçu spécifiquement pour la technique d'intégration multimédia du Collège Montmorency. Il permet de créer facilement et rapidement des exercices et notes de cours interactives grâce à une collection de composantes faites sur mesure et prêtes à être utiliser.</p>
 
@@ -95,7 +92,7 @@
             </div>
         </div>
         <div class="intlink__item">
-            <div class="intlink__item__icon" style="background-image: url(./582-424MO/images/icon.png);"></div>
+            <div class="intlink__item__icon" style="background-image: url(./582-424MO/images/icon.webp);"></div>
             <div class="intlink__item__description">
                 <span class="intlink__item__title"><a target="_blank" href="./582-424MO/">Optimisation Web</a></span>
                 <span class="intlink__item__abstract">582-424MO</span>
@@ -109,7 +106,7 @@
             </div>
         </div>
         <div class="intlink__item">
-            <div class="intlink__item__icon" style="background-image: url(./582-518MO/images/icon.png);"></div>
+            <div class="intlink__item__icon" style="background-image: url(./582-518MO/images/icon.webp);"></div>
             <div class="intlink__item__description">
                 <span class="intlink__item__title"><a target="_blank" href="./582-518MO/">Projet Web</a></span>
                 <span class="intlink__item__abstract">582-518MO</span>
@@ -171,6 +168,6 @@
         <footer>
             <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
         </footer>
-        <script>timdocMount();</script>
+        <script>app.mount('body');</script>
     </body>
 </html>

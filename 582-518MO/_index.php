@@ -2,7 +2,7 @@
 /**
  * @type     list
  * @title    Projet Web
- * @icon     images/icon.png
+ * @icon     images/icon.webp
  * @abstract 582-518MO
  * @index 5
  */
