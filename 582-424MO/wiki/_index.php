@@ -289,8 +289,8 @@
 
   <dots></dots>
   <grostitre>Quiz (évaluation formative)</grostitre>
-  <p>Groupe AM :  <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap: </a> <br>
-  Groupe PM :  <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap: </a>
+  <p>Groupe AM :  <a href="https://app.wooclap.com/ZMEAEQ" target="_blank" rel="noopener noreferrer">Code Wooclap: ZMEAEQ</a> <br>
+  Groupe PM :  <a href="https://app.wooclap.com/OYTLIF" target="_blank" rel="noopener noreferrer">Code Wooclap: OYTLIF</a>
   </p>
 
 
