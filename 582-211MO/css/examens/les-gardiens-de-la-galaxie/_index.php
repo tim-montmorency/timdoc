@@ -11,7 +11,7 @@
 
 <p>Aperçu du résultat 👇</p>
 
-<img src="images/les-gardiens-de-la-galaxie.png">
+<img src="images/les-gardiens-de-la-galaxie.webp">
 
 <dots></dots>
 
