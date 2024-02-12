@@ -106,14 +106,14 @@ navbar{
 </li>
   <li id="format-couleurs-bs-scss">Créer un fichier .scss dans lequel vous allez réécrivez la valeur de certaines variables Bootstrap existantes.
     <highlight lang="scss">
-$light:        #bfe5df,
-$dark:         #201d40,
-$primary:      #f36b62
-$secondary:    #5f5f71
-$info:         #20b4a8,
-$success :     #63af0e,
-$warning :     #ffc377,
-$danger :      #f60568,
+$light:        #bfe5df;
+$dark:         #201d40;
+$primary:      #f36b62;
+$secondary:    #5f5f71;
+$info:         #20b4a8;
+$success :     #63af0e;
+$warning :     #ffc377;
+$danger :      #f60568;
 
 et dans ce format:
   
