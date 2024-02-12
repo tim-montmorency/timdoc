@@ -5,6 +5,7 @@
  * @title    Cartes
  * @icon     ../images/icon.webp
  * @abstract Permettent de générer rapidement et facilement des cartes
+ * @index 800   
  * @ref      web/cadriciels/bootstrap
  */
 ?>

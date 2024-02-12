@@ -5,6 +5,7 @@
  * @title    NavBar
  * @icon     ../images/icon.webp
  * @abstract La barre de navigation Bootstrap
+ * @index 820
  * @ref      web/cadriciels/bootstrap
  */
 ?>

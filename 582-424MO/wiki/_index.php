@@ -173,12 +173,12 @@
                                           
 ----------------------->
 <wiki-page name="Cours 03" date="2024-02-04">
-    <grostitre>Révision et évaluation formative (quiz)</grostitre>
-    <p>Groupe AM :  <a href="https://app.wooclap.com/ALJITP" target="_blank" rel="noopener noreferrer">Code Wooclap: ALJITP</a> <br>
-    Groupe PM :  <a href="https://app.wooclap.com/HNHBLI" target="_blank" rel="noopener noreferrer">Code Wooclap: HNHBLI</a>
-   </p>
- 
-<dots></dots>
+  <grostitre>Révision et évaluation formative (quiz)</grostitre>
+  <p>Groupe AM :  <a href="https://app.wooclap.com/ALJITP" target="_blank" rel="noopener noreferrer">Code Wooclap: ALJITP</a> <br>
+  Groupe PM :  <a href="https://app.wooclap.com/HNHBLI" target="_blank" rel="noopener noreferrer">Code Wooclap: HNHBLI</a>
+  </p>
+
+  <dots></dots>
   <grostitre>Annonces</grostitre>
   <p><strong>Tutorat</strong></p>
   <ul>
@@ -266,10 +266,16 @@
 ----------------->
 
 <wiki-page name="Cours 04" date="2024-02-28">
-  <h2>Révision et évaluation formative (quiz)</h2>
 
-  <h2>Annonces</h2>
+
+
+
   <grostitre>Annonces</grostitre>
+  <p><strong>Remise de P1.2</strong></p>
+  <p>Remise lien github (ne pas oublier de faire remise sur branche <em>P1-2</em>, la poublier, la pousser sur githut et ensuite vous reposition sur la branche <em>main</em> sur GitHub Desktop</p>
+
+
+
   <p><strong>Tutorat</strong></p>
   <ul>
     <li>Chaque mardi de 11h50 à 14h20 au centre d'aide au C-1602.</li>
@@ -280,6 +286,55 @@
 
     <li>Groupe d'étude avant examen final pour ce cours-ci: mardi le 14 mai de 11h50 à 14h20 au C-1639 (labo PC).</li>
   </ul>
+
+  <dots></dots>
+  <grostitre>Quiz (évaluation formative)</grostitre>
+  <p>Groupe AM :  <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap: </a> <br>
+  Groupe PM :  <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap: </a>
+  </p>
+
+
+
+
+
+  <dots></dots>
+  <grostitre>Révision exercices</grostitre>
+  <intlink href="../bootstrap/exercices/bootstrap-nav-card/"></intlink>
+  <p>Ouvrez vos exercices sur CodePen, je vais passer les voir un à un.</p>
+  <p>Révision en classe.</p>
+
+  <dots></dots>
+  <grostitre>Bootstrap - Personnalisation des couleurs</grostitre>
+  <intlink href="../bootstrap/personnalisation-couleurs/"></intlink>
+
+  <dots></dots>
+  <grostitre>Bootstrap - Fenêtre modale</grostitre>
+  <intlink href="../bootstrap/modale/"></intlink>
+
+  <dots></dots>
+  <grostitre>Bootstrap - Accordéon</grostitre>
+  <doclink href='https://getbootstrap.com/docs/5.3/components/accordion/'>Accordéon (accordion)</doclink>
+
+  <dots></dots>
+  <grostitre>Bootstrap - Les goutières dans la grille</grostitre>
+  <doclink href='https://getbootstrap.com/docs/5.3/layout/gutters/'>Goutières (gutters)</doclink>
+
+
+  <dots></dots>
+  <grostitre>En classe et devoirs</grostitre>
+  <p>- Pour la personne en charge de l'interface de la landing page <em>LP</em> :</p>
+  <intlink href="../projet-app-festival-art-numerique/p1-3a-lp/"></intlink>
+ <small>Texte pour LP, section Fonctionnnalités: <a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdrcN4gudsFIg0NX5lHP3zUBgBy3hxvus5p7ZftITr2OLQ?e=hPyRcK" target="_blank" rel="noopener noreferrer">cliquez ici</a></small> <br><br><br><br>
+
+<p>- Pour la personne en charge de l'interface de l'application mobile <em>APP</em> :</p>
+  
+  <intlink href="../projet-app-festival-art-numerique/p1-3a-app/"></intlink>
+
+
+
+
+
+
 </wiki-page>
 
 

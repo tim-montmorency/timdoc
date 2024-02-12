@@ -4,7 +4,7 @@
  * @type     article
  * @title    Grille
  * @icon     ../images/icon.webp
- * @abstract Système de grille Bootstrap pour un mise en page facile et réactive
+ * @abstract Système de grille Bootstrap pour une mise en page facile et réactive
  * @index    930
  * @ref      web/cadriciels/bootstrap
  */
