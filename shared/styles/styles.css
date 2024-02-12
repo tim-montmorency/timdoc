@@ -2951,7 +2951,8 @@ footer #copyright {
   max-width: 100%;
 }
 #contents img.full, #wiki__pages img.full {
-  width: calc(100% + 50px);
+  min-width: calc(100% + 50px);
+  max-width: calc(100% + 50px);
   margin-left: -25px;
   margin-right: -25px;
 }
