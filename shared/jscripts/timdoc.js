@@ -197,6 +197,8 @@ const lowslug = (str) => {
         .toLowerCase()
         .replace(/[^a-z0-9\s\-]/g, "")
         .replace(/[\s\t]+/g, "-")
+        .replace(/-*$/g, '')
+        .replace(/^-*/g, '')
         ;
 }
 
@@ -454,13 +456,9 @@ const app = Vue.createApp({
     methods: {
         goToTop(path = null, index = null) {
             const referer = new URL(document.referrer, document.baseURI);
-            if (index && /\/index\//g.test(referer.pathname)) {
-                document.location.href = index;
-            } else if (path) {
-                document.location.href = path;
-            } else {
-                window.scrollTo(0, 0);
-            }
+            if (index && /\/index\//g.test(referer.pathname)) document.location.href = index;
+            else if (path) document.location.href = path;
+            else window.scrollTo(0, 0);
         },
         registerLightSwitch(elm) {
             this.lightSwitches.push(elm);
@@ -637,35 +635,15 @@ app.component('nine', {
 app.component('info', {
     template: `<div class="infobubble info"><div class="infobubble__bubble"></div><slot/></div>`
 });
-
-
-/******************************************************
- *                 Composante Warning                 *
- ******************************************************/
 app.component('warning', {
     template: `<div class="infobubble warning"><div class="infobubble__bubble"></div><slot/></div>`
 });
-
-
-/******************************************************
- *                  Composante Alert                  *
- ******************************************************/
 app.component('alert', {
     template: `<div class="infobubble alert"><div class="infobubble__bubble"></div><slot/></div>`
 });
-
-
-/******************************************************
- *                  Composante Bravo                  *
- ******************************************************/
 app.component('bravo', {
     template: `<div class="infobubble bravo"><div class="infobubble__bubble"></div><slot/></div>`
 });
-
-
-/******************************************************
- *                 Composante Thumbs Up               *
- ******************************************************/
 app.component('thumbsup', {
     template: `<div class="infobubble thumbsup"><div class="infobubble__bubble"></div><slot/></div>`
 });
