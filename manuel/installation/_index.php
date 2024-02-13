@@ -30,6 +30,9 @@
 
 <highlight lang="json">
 {
+    "terminal.integrated.env.windows": {
+        "PATH": "${env:PATH};${workspaceFolder}"
+    },
     "emeraldwalk.runonsave": {
         "autoClearConsole": true,
         "commands": [
