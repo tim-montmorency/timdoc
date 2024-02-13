@@ -37,7 +37,7 @@
         "autoClearConsole": true,
         "commands": [
             {
-                "match": ".*\\.php$",
+                "match": "_.*\\.php$",
                 "cmd": "pxpros \"${file}\""
             }
         ]
