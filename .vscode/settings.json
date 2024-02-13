@@ -1,9 +1,9 @@
 {
     "terminal.integrated.env.windows": {
-        "PATH": "${workspaceFolder}\\_bin;${env:PATH};${workspaceFolder}"
+        "PATH": "${env:PATH};${workspaceFolder}"
     },
     "terminal.integrated.env.osx": {
-        "PATH": "${workspaceFolder}/_bin:${env:PATH}:${workspaceFolder}"
+        "PATH": "${env:PATH}:${workspaceFolder}"
     },
     "emeraldwalk.runonsave": {
         "autoClearConsole": true,
