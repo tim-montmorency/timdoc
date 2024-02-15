@@ -8,7 +8,7 @@
 ?>
 
 
-<p class="spacer">Voici les consignes pour le travail 2. </p>
+<p class="spacer">Créer un sixtyque où l’on retrouve six vidéos qui sont présentées sous forme de mosaïque (3 vidéos – 3 animations). Dans le cadre du cours d’animation 2D, vous devez réaliser les 3 vidéos d’animations vectorielles et un générique d’animation. Le stop motion et les animations doivent se répondre mutuellement au sein d’une même unité visuelle.    </p>
 <dots></dots>
 <grostitre>Références</grostitre>
 <p>Voici un moodboard de références visuelles pour l'esthétique Bauhaus que vous devez respecter dans votre projet.</p>
@@ -134,26 +134,26 @@ Séparer les éléments animables inviduellement sur leur propre calque.
 <p>Voici le contenu du livrable:</p>
 <checklist>
 Les animations 2D complétées. 
+Votre mosaïque doit être d'une durée de 60 à 120 secondes.  
 N'oubliez pas de travailler et de bien classer vos fichiers dans la nomenclature interne (bref, travailler avec le template tel que je vous l'ai montré en classe). 
 Vous pouvez personnellement avoir plusieurs courtes animations isolées qui serviront au montage final avec le stop-motion.  Vous pouvez personnellement travailler toutes vos animations dans le même projet .aep (fichier After Effects) en isolant chaque animation dans sa propre composition. 
 Lorsque toutes vos animations personnelles sont terminées, exportez vos compositions finales en 2 formats, suivre la capsule vidéo qui explique le tout. : 01_exportation.mp4.  
+Format Web: H264 - Vimeo 1080p HD
+Format haute résolution: DNX HD HQ 1080p 24 ou PRO RES 4444 1080p 24  
 Attention. L’exportation prend beaucoup de temps alors prévoyez quelques heures pour cette étape avant la remise. 
 Dans le dossier 03_exportation, créez un dossier au nom de chaque co-équipier. Chaque personne doit remettre ses exportations dans le dossier à son nom.  
 Déposez votre dossier de projet NON-COMPRESSÉ sur un de votre espace OneDrive et partagez le lien dans Devoir (une seule remise par équipe). 
- 
 </checklist>
 
 <p>Au besoin consulter les tutoriels suivants:</p>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EedvtSQ7x3xHgRrIQXiIGkIBCjrjPWY2oNKqzG18LyZCMQ?e=vWbgIb">01_Exportation</doclink>
-<dots></dots>
-<grostitre>Méthode de travail</grostitre>
-<p>Vous serez en équipe pour la préproduction, l'illustration et l'animation de votre projet. Cependant, vos génériques devront être réalisés individuellement.</p>
 
 <dots></dots>
 <grostitre>Les génériques (INDIVIDUEL)</grostitre>
 <p>Voici le contenu du livrable:</p>
 <checklist>
 Votre générique animé individuellement (évaluation individuelle, chacun doit faire son propre générique). 
+Votre générique doit être d'une durée de 15 à 45 secondes. 
 N'oubliez pas de travailler et de bien classer vos fichiers dans la nomenclature interne (bref, travailler avec le template tel que je vous l'ai montré en classe). 
 Lorsque votre générique est terminé, exportez-le en format H.264 - Vimeo 1080p Full HD, suivre la capsule vidéo qui explique le tout. : 01_exportation.mp4.  
 Attention. L’exportation prend beaucoup de temps alors prévoyez quelques heures pour cette étape avant la remise. 
@@ -180,35 +180,9 @@ Déposez votre dossier de projet NON-COMPRESSÉ sur un de votre espace OneDrive 
 <grostitre>Méthode de travail</grostitre>
 <p>Vous serez en équipe pour la préproduction, l'illustration et l'animation de votre projet. Cependant, vos génériques devront être réalisés individuellement.</p>
 
-<dots></dots>
-<grostitre>Durées</grostitre>
-<checklist>
-    Votre mosaïque doit être d'une durée de 60 à 120 secondes. 
-    Votre générique doit être d'une durée de 15 à 45 secondes. 
-</checklist>
-
-<dots></dots>
-
-<grostitre>Rendu</grostitre>
-<p>Vous devez créer deux rendus pour le projet final:</p>
-<checklist>
-    Pour le Web: H264 - Vimeo 1080p HD
-    Haute résolution: DNX HD HQ 1080p 24 ou PRO RES 4444 1080p 24  
-</checklist>
-<p>Pour le générique individuel, vous pouvez exporter seulement ce format:</p>
-<checklist>
-    Pour le Web: H264 - Vimeo 1080p HD
-</checklist>
-
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ESNxCkebBzZGsCqDvWbjucgBMjIkzr13KSstx0TQEp8W7Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=U4XtJy">Capsule vidéo référence</doclink>
-<alert>Prévoyez du temps pour cette étape! L'exportation ne se fait pas en cinq minutes!</alert>
-
-<dots></dots>
 
 
-<grostitre>Remise</grostitre>
-<checklist>
-   Remettre un fichier .zip de votre travail dans le dossier indiqué.   
-</checklist>
+
+
 
 
