@@ -31,14 +31,14 @@ Dans vos 3 fichiers HTML, vous allez changer le lien vers le CSS de Bootstrap qu
 
 <highlight lang="scss">
 dans ce format: 
-$light:        #bfe5df,
-$dark:         #201d40,
-$primary:      #f36b62
-$secondary:    #5f5f71
-$info:         #20b4a8,
-$success :     #63af0e,
-$warning :     #ffc377,
-$danger :      #f60568,
+$light:        #bfe5df;
+$dark:         #201d40;
+$primary:      #f36b62;
+$secondary:    #5f5f71;
+$info:         #20b4a8;
+$success :     #63af0e;
+$warning :     #ffc377;
+$danger :      #f60568;
 
 et dans ce format:
 $theme-colors: (
@@ -56,7 +56,7 @@ $theme-colors: (
 <!--
 
 
-Anciennement #5 dans els requis
+Anciennement #5 dans les requis
 
 Dans Vs Code / Préférences / Paramètres, dans la section Extentsion cliquez sur Live Sass Compiler, ensuite sur Modifier dans settings.json, et ajoutez au json la valeur suivante (voir le bloc de code ci-bas après la checklist), à la suite des autres valeurs, à l’intérieur des {} jaunes. 
 

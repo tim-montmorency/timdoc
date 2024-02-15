@@ -1,0 +1,1 @@
+@php "%~dp0mac\pxpros.php" %1

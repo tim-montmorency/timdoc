@@ -561,7 +561,7 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
  -->
 
-<grostitre>Wiki</grostitre>
+<grostitre>Wiki Teams</grostitre>
 
 <p>Comme le wiki suit le thème de Timdoc, il sera affiché par défaut en thème <incode>light</incode> dans Teams. Il est possible de forcer le thème en l'ajoutant à l'adresse url.</p>
 

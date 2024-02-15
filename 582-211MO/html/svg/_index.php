@@ -191,6 +191,7 @@
 <dots></dots>
 
 <tool href="tools/glyphs-fyi/"></tool>
+<tool href="tools/svgtrace/"></tool>
 <tool href="tools/svgator/"></tool>
 <exercice href="exercices/hollywood-boulevard/"></exercice>
 

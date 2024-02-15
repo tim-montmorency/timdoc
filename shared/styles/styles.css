@@ -150,6 +150,14 @@ body.dark .modal::before {
   background-color: white;
   border: 1px solid black;
 }
+.password-modal .bad-password {
+  color: red;
+  display: none;
+  font-weight: bold;
+}
+.password-modal .bad-password.show {
+  display: table-row;
+}
 .password-modal table {
   margin: 0;
 }
@@ -3127,6 +3135,7 @@ table.table-couleurs .color {
 #wiki {
   display: flex;
   min-height: 100%;
+  padding-right: 25px;
 }
 #wiki__burger {
   display: none;
@@ -3175,6 +3184,9 @@ table.table-couleurs .color {
 }
 
 @media (max-width: 576px) {
+  #wiki {
+    padding-right: 0px;
+  }
   #wiki__burger {
     display: block;
     position: absolute;

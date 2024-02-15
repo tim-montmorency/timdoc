@@ -559,6 +559,7 @@ table{
 #wiki {
     display: flex;
     min-height: 100%;
+    padding-right: 25px;
     
     &__burger {
         display: none;
@@ -622,6 +623,7 @@ table{
 
 @media (max-width: 576px)  {
     #wiki {
+        padding-right: 0px;
         &__burger {
             display: block;
             position: absolute;
