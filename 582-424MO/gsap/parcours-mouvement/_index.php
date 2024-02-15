@@ -15,19 +15,8 @@
     un&nbsp;tracé.</p>
 <p>Voici par exemple une animation de&nbsp;<a href="https://codepen.io/cdyer" target="_blank">Chris Dyer</a>&nbsp;utilisant MotionPath
     afin de déplacer l'hélicoptère 🚁 de façon&nbsp;réaliste.</p>
-<div class="codepen codepen--chromeless" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(56% + 36px);"></span>
 
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="500px" width="100%" name="cp_embed_1" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/xxGVbVj?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=xxGVbVj&amp;default-tab=result&amp;name=cp_embed_1"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_xxGVbVj"></iframe></div>
-    </div>
-
-
-</div>
+<codepen id="WNmPwXM" tab="result" height="500"></codepen>
 
 <dots></dots>
 <grostitre>Précédente version</grostitre>
@@ -80,19 +69,8 @@
     sélecteur correspondant au tracé&nbsp;désiré.</p>
 <p>Par exemple, le path&nbsp;<incode>#courbe</incode>:</p>
 
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(39% + 36px);"></span>
+<codepen id="eYXxZyx" tab="js,result" height="500"></codepen>
 
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="500px" width="100%" name="cp_embed_2" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/94b89f59512457a287411ac4a2890446?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=94b89f59512457a287411ac4a2890446&amp;default-tab=js%2Cresult&amp;name=cp_embed_2"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_94b89f59512457a287411ac4a2890446"></iframe></div>
-    </div>
-
-
-</div>
 <p>GSAP applique une transformation CSS équivalente aux positions inscrites dans le tracé passé en&nbsp;référence.</p>
 <p>Dans notre exemple, le carré bleu 🟦 se déplace sur le tracé, car les deux éléments sont superposés dans le coin
     supérieur gauche de la fenêtre. Cependant, même si le SVG était positionné différemment, l'animation serait restée
@@ -101,24 +79,9 @@
 <p>Par exemple, revoici la même animation, mais avec le SVG positionné à droite. Remarquez comment le parcours du carré
     bleu 🟦 reste&nbsp;inchangé.</p>
 
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(39% + 36px);"></span>
-
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="500px" width="100%" name="cp_embed_3" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/8e02f5e0328e4d487bfa6ebd29c6e441?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=8e02f5e0328e4d487bfa6ebd29c6e441&amp;default-tab=js%2Cresult&amp;name=cp_embed_3"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_8e02f5e0328e4d487bfa6ebd29c6e441"></iframe></div>
-    </div>
-
-
-</div>
-
+<codepen id="ZEPwWrV" tab="js,result" height="500"></codepen>
 
 <alert>Malheureusement, les animations réalisées avec MotionPath ne sont pas&nbsp;responsives!</alert>
-
-
 
 <dots></dots>
 <grostitre>Utilisation d'un objet</grostitre>
@@ -128,24 +91,12 @@
     JavaScript pouvant contenir plusieurs propriétés et valeurs plutôt qu'une valeur texte comme dans les
     exemples&nbsp;précédents.</p>
 <p>Par exemple, convertissons la valeur textuelle de l'exemple en&nbsp;objet.</p>
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(39% + 36px);"></span>
-
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="500px" width="100%" name="cp_embed_4" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/2bc2debd5ae30c3e34ccfe6cf934babf?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=2bc2debd5ae30c3e34ccfe6cf934babf&amp;default-tab=js%2Cresult&amp;name=cp_embed_4"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_2bc2debd5ae30c3e34ccfe6cf934babf"></iframe></div>
-    </div>
 
 
-</div>
+<codepen id="poYGyLO" tab="js,result" height="500"></codepen>
+
 <p>On remarque que la propriété permettant de définir le tracé est maintenant spécifiée et
     s'appelle&nbsp;<incode>path</incode>.</p>
-
-
-
     
 <dots></dots>
 <grostitre>Align</grostitre>
@@ -156,54 +107,21 @@
     remédier à ce problème via la propriété&nbsp;<incode>align</incode>&nbsp;qui permet de spécifier un élément de base sur
     lequel notre élément animé doit&nbsp;s'aligner.</p>
 <p>Par exemple:</p>
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(39% + 36px);"></span>
 
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="500px" width="100%" name="cp_embed_5" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/7dbb787be6846206dcd0f71c09be99e0?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=7dbb787be6846206dcd0f71c09be99e0&amp;default-tab=js%2Cresult&amp;name=cp_embed_5"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_7dbb787be6846206dcd0f71c09be99e0"></iframe></div>
-    </div>
+<codepen id="QWoYNrr" tab="js,result" height="500"></codepen>
 
-
-</div>
 <h3 class="heading heading--h3" id="Start et End">Start et End</h3>
 
 <p>Les propriétés&nbsp;<incode>start</incode>&nbsp;et&nbsp;<incode>end</incode>&nbsp;de l'objet MotionPath permettent de
     spécifier la position de départ et de fin de l'animation sur le tracé.&nbsp;<incode>0</incode>&nbsp;correspondant au
     début et&nbsp;<incode>1</incode>&nbsp;à la&nbsp;fin.</p>
 <p>Il est donc possible de débuter une animation à mi-chemin par exemple en utilisant&nbsp;<incode>start: 0.5</incode>:</p>
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(39% + 36px);"></span>
 
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="500px" width="100%" name="cp_embed_6" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/15fe03355a0d5d1b554edd5f90acfda5?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=15fe03355a0d5d1b554edd5f90acfda5&amp;default-tab=js%2Cresult&amp;name=cp_embed_6"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_15fe03355a0d5d1b554edd5f90acfda5"></iframe></div>
-    </div>
+<codepen id="wvONGXp" tab="js,result" height="500"></codepen>
 
-
-</div>
 <p>Ou encore de jouer une animation dans la direction&nbsp;opposée:</p>
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(39% + 36px);"></span>
 
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="500px" width="100%" name="cp_embed_7" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/85d126f696003b43fa42cde5c55401a4?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=85d126f696003b43fa42cde5c55401a4&amp;default-tab=js%2Cresult&amp;name=cp_embed_7"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_85d126f696003b43fa42cde5c55401a4"></iframe></div>
-    </div>
-
-
-</div>
-
-
+<codepen id="zYbeqaV" tab="js,result" height="500"></codepen>
 
 <dots></dots>
 <grostitre>Animation par coordonnées</grostitre>
@@ -213,19 +131,9 @@
     il est possible de lui passer des coordonnées sous forme d'un tableau et de le laisser calculer des courbes entre
     les différents&nbsp;points.</p>
 <p>Par exemple:</p>
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(39% + 36px);"></span>
 
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="500px" width="100%" name="cp_embed_8" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/f4d7fbcbc126dbafc9cda1bef68d8529?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=f4d7fbcbc126dbafc9cda1bef68d8529&amp;default-tab=js%2Cresult&amp;name=cp_embed_8"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_f4d7fbcbc126dbafc9cda1bef68d8529"></iframe></div>
-    </div>
+<codepen id="wvONWzE" tab="js,result" height="500"></codepen>
 
-
-</div>
 <p>L'élément part de son point d'origine et se dirige vers les premières coordonnées inscrites dans la tableau. Il peut
     y avoir autant de coordonnées que&nbsp;désiré.</p>
 <h3 class="heading heading--h3" id="&nbsp;Curviness">&nbsp;Curviness</h3>
@@ -235,33 +143,12 @@
     la courbe dans l'exemple&nbsp;précédent.</p>
 <p>Cependant, il serait possible de retirer l'aspect courbe en entier en attribuant la
     valeur&nbsp;<incode>curviness: 0</incode>&nbsp;à notre&nbsp;animation:</p>
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(39% + 36px);"></span>
 
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="500px" width="100%" name="cp_embed_9" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/13dbb25c39674ba539b307c183a80234?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=13dbb25c39674ba539b307c183a80234&amp;default-tab=js%2Cresult&amp;name=cp_embed_9"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_13dbb25c39674ba539b307c183a80234"></iframe></div>
-    </div>
+<codepen id="yLwZJVm" tab="js,result" height="500"></codepen>
 
-
-</div>
 <p>ou encore de rendre la courbe plus prononcée en augmentant sa&nbsp;valeur:</p>
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(39% + 36px);"></span>
 
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="500px" width="100%" name="cp_embed_10" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/1f9e14cb6b56022b557006494750005c?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=1f9e14cb6b56022b557006494750005c&amp;default-tab=js%2Cresult&amp;name=cp_embed_10"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_1f9e14cb6b56022b557006494750005c"></iframe></div>
-    </div>
-
-
-</div>
+<codepen id="gOEqMgz" tab="js,result" height="500"></codepen>
 
 <dots></dots>
 <grostitre>AutoRotate</grostitre>
@@ -270,20 +157,9 @@
     correspondant au tracé lors de son animation. Par défaut, la valeur de cette propriété est
     à&nbsp;<incode>false</incode>.</p>
 <p>Pour l'activer, il faut lui donner la valeur&nbsp;<incode>true</incode>, comme dans l'exemple&nbsp;suivant:</p>
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(40% + 36px);"></span>
-
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="500px" width="100%" name="cp_embed_11" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/cde687ce395afc78bb3346c09a1a2e78?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=cde687ce395afc78bb3346c09a1a2e78&amp;default-tab=js%2Cresult&amp;name=cp_embed_11"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_cde687ce395afc78bb3346c09a1a2e78"></iframe></div>
-    </div>
 
 
-</div>
-
+<codepen id="mdovEWX" tab="js,result" height="500"></codepen>
 
 <alert><strong>Erreur fréquente</strong><br>Lorsqu’<incode>autoRotate</incode> ne fonctionne pas, il s’agit généralement d’un oubli de la
             majuscule&nbsp;auto<strong>R</strong>otate!</alert>
@@ -303,19 +179,8 @@
 
 
 <p>Par exemple:</p>
-<div class="codepen" data-module="CodePen">
-    <div class="codepen__wrapper">
-        <span class="codepen__forced-height" style="padding-bottom: calc(39% + 36px);"></span>
 
-        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
-                class="cp_embed_iframe " frameborder="0" height="500px" width="100%" name="cp_embed_12" scrolling="no"
-                src="https://codepen.io/smnarnold/embed/41def42d5a52d1bfd609e05088cc495a?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=41def42d5a52d1bfd609e05088cc495a&amp;default-tab=js%2Cresult&amp;name=cp_embed_12"
-                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
-                id="cp_embed_41def42d5a52d1bfd609e05088cc495a"></iframe></div>
-    </div>
-
-
-</div>
+<codepen id="JjzxKNE" tab="js,result" height="500"></codepen>
 
 <doclink href="https://greensock.com/docs/v3/Plugins/MotionPathPlugin">MotionPath</doclink>
 <dots></dots>

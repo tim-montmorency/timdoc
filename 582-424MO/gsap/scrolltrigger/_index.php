@@ -17,41 +17,16 @@
 
 <h3>Exemples d'utilisation</h3>
 
-<p class="codepen" data-height="500" data-theme-id="44168" data-default-tab="result" data-slug-hash="abRzZvy"
-    data-user="tim-momo"
-    style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/abRzZvy">
-            DEMO ScrollTrigger Downhill Ski</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-        on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+<codepen id="abRzZvy" notab="true" height="500"></codepen>
 Credit: GSAP
 <dots></dots>
 
-
-<p class="codepen" data-height="500" data-theme-id="44168" data-default-tab="result" data-slug-hash="zYmxoJB"
-    data-user="tim-momo"
-    style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/zYmxoJB">
-            DEMO Welcome to the jungle - ScrollTrigger credits: Louis Hoebregts Follow</a> by TIM Montmorency (<a
-            href="https://codepen.io/tim-momo">@tim-momo</a>)
-        on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+<codepen id="zYmxoJB" notab="true" height="500"></codepen>
 Credits: Louis Hoebregts
-
 <dots></dots>
 
-<p class="codepen" data-height="500" data-theme-id="44168" data-default-tab="result" data-slug-hash="XWxJNBd"
-    data-user="tim-momo"
-    style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XWxJNBd">
-            DEMO Weird Fishes - credits: Michelle Barker</a> by TIM Montmorency (<a
-            href="https://codepen.io/tim-momo">@tim-momo</a>)
-        on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+<codepen id="XWxJNBd" notab="true" height="500"></codepen>
 Credits: Michelle Barker
-
-
-
 <dots></dots>
 
 <grostitre>Installation</grostitre>
@@ -118,20 +93,10 @@ Credits: Michelle Barker
 <p>Heureusement, l'utilisation de ScrollTrigger permet de retarder le déclenchement de l'animation au moment où la
     partie supérieure du carré devient&nbsp;visible.</p>
 
-<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="oNagLXq"
-    data-user="tim-momo"
-    style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/oNagLXq">
-            GSAP - Timeline - Defaults</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-        on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
-
-
-
-
+<codepen id="oNagLXq" tab="js,result" height="400"></codepen>
 
 <dots></dots>
+
 
 <grostitre>Utilisation d'un objet {}</grostitre>
 
@@ -140,23 +105,13 @@ Credits: Michelle Barker
     l'exemple&nbsp;précédent.</p>
 <p>Par exemple, convertissons la valeur textuelle de l'exemple en&nbsp;objet.</p>
 
-<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="MWPYbxw"
-    data-user="tim-momo"
-    style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/MWPYbxw">
-            GSAP - ScrollTrigger Basic</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-        on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
-
+<codepen id="MWPYbxw" tab="js,result" height="400"></codepen>
 
 <p>On remarque que la propriété permettant de déclencher l'animation est maintenant spécifiée et
     s'appelle&nbsp;<incode>trigger</incode>.</p>
 
-
-
-
 <dots></dots>
+
 
 <grostitre>Markers</grostitre>
 
@@ -165,16 +120,7 @@ Credits: Michelle Barker
     à&nbsp;<incode>false</incode>.</p>
 <p>Pour l'activer, il faut lui donner la valeur&nbsp;<incode>true</incode>, comme dans l'exemple&nbsp;suivant:</p>
 
-
-<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="XWxJNQj"
-    data-user="tim-momo"
-    style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XWxJNQj">
-            GSAP - ScrollTrigger Object</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-        on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
-
+<codepen id="XWxJNQj" tab="js,result" height="400"></codepen>
 
 <p><incode>scroller-start</incode>&nbsp;et&nbsp;<incode>scroller-end</incode>&nbsp;sont des marqueurs positionnés en lien avec
     la fenêtre, tandis que&nbsp;<incode>start</incode>&nbsp;et&nbsp;<incode>end</incode>&nbsp;sont des marqueurs positionnés en
@@ -238,18 +184,7 @@ Credits: Michelle Barker
 
 <p> En voici l'exemple:</p>
 
-
-
-<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="BaqyQEM"
-    data-user="tim-momo"
-    style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/BaqyQEM">
-            GSAP - ScrollTrigger Markers</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-        on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
-
-<br>
+<codepen id="BaqyQEM" tab="js,result" height="400"></codepen>
 <doclink href="https://greensock.com/docs/v3/Plugins/ScrollTrigger/start">start</doclink>
 
 <dots></dots>
@@ -383,15 +318,7 @@ Credits: Michelle Barker
 <p>il faudra changer la valeur de <incode>toggleActions</incode> pour<br><incode>"restart complete reverse reset"</incode></p>
 <p>En voici l'exemple: </p>
 
-
-
-<p class="codepen" data-height="600" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="rNqajBM" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/rNqajBM">
-  GSAP -  ScrollTrigger - Start</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
-
+<codepen id="rNqajBM" tab="js,result" height="600"></codepen>
 
 <dots></dots>
 <p>Pour bien visualiser et comprendre chaque moment et chaque action disponible, je vous suggère de regarder cette démo.
@@ -412,18 +339,10 @@ Credits: Michelle Barker
 
 <p>Par exemple:</p>
 
-<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="WNabRbe" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/WNabRbe">
-  GSAP -  ScrollTrigger - Timeline</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
 
-
-
+<codepen id="WNabRbe" tab="js,result" height="400"></codepen>
 
 <doclink href="https://greensock.com/docs/v3/Plugins/ScrollTrigger">ScrollTrigger</doclink>
 
 <dots></dots>
 <exercice href="../exercices/scrolltrigger-historique-zelda"></exercice>
-
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

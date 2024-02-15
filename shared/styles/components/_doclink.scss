@@ -297,3 +297,21 @@ a.doclink {
         background-color: #0166ff;
     }
 }
+
+.doclink.swiper {
+    .doclink-icon {
+        background-image: url('../images/icons/swiper-icon.webp');
+    }
+    &::before {
+        background-color: #0080ff;
+    }
+}
+
+.doclink.medium {
+    .doclink-icon {
+        background-image: url('../images/icons/medium-icon.webp');
+    }
+    &::before {
+        background-color: #ffc017;
+    }
+}

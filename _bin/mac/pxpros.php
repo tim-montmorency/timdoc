@@ -27,6 +27,7 @@ const S  = "/";
 const RN = "\n";
 $PAGE = null;
 
+date_default_timezone_set('America/Toronto');
 
 /**
  * PXPros Class

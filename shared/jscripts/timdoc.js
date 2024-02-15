@@ -358,10 +358,10 @@ class PasswordModal extends Modal {
                 `</thead>` +
                 `<tbody>` +
                     `<tr>` +
-                        `<td><input style="width: 100%;" type="password" name="password" autocomplete="off" required></td>` +
+                        `<td><input type="password" name="password" autocomplete="off" required></td>` +
                     `</tr>` +
                     `<tr class="bad-password">` +
-                        `<td>Mauvais mot de passe</td>` +
+                        `<td>Mot de passe invalide</td>` +
                     `</tr>` +
                 `</tbody>` +
                 `<tfoot>` +
@@ -380,7 +380,6 @@ class PasswordModal extends Modal {
     }
     show(clb=null) {
         this.clb = clb;
-        document.body.style.overflow = 'hidden';
         super.show();
         setTimeout(() => { this.input.focus(); }, 500);
     }
@@ -731,23 +730,24 @@ app.component('mediafile', {
  *                 Composante Codepen                 *
  ******************************************************/
 app.component('codepen', {
-    props: ['id', 'tab', 'height'],
+    props: ['id', 'tab', 'height', 'notab'],
     setup(props) {
         const dark = 43847;
         const light = 44431;
+        const clean = 44168;
         const user = 'tim-momo';
         props.height || (props.height = 400);
-        props.tab || (props.tab = 'html,result');
+        props.tab ||  (props.tab = props.notab == 'true' ? 'result' : 'html,result');
         props.tab = encodeURIComponent(props.tab);
-        return { dark, light, user }
+        return { dark, light, clean, user }
     },
     data() {
         this.$root.registerLightSwitch(this);
-        return { theme: this.$root.theme == 'dark' ? this.dark : this.light }
+        return { theme:  (this.notab == 'true' ? this.clean : (this.$root.theme == 'dark' ? this.dark : this.light)) }
     },
     methods: {
-        lightSwitchOn() { this.theme = this.light; },
-        lightSwitchOff() { this.theme = this.dark; },
+        lightSwitchOn() { if(this.notab != 'true') this.theme = this.light; },
+        lightSwitchOff() { if(this.notab != 'true') this.theme = this.dark; },
     },
     template:
     `<div class="codepen-container" :style="'height: ' + (+this.height + 2) + 'px'">` +
@@ -881,6 +881,8 @@ app.component('doclink', {
             "docs.npmjs.com":                    "npm",
             "vimeo.com":                         "vimeo",
             "web.dev":                           "webdev",
+            "swiperjs.com":                      "swiper",
+            "medium.com":                        "medium"
         };
         return { domains }
     },
