@@ -150,6 +150,14 @@ body.dark .modal::before {
   background-color: white;
   border: 1px solid black;
 }
+.password-modal .bad-password {
+  color: red;
+  display: none;
+  font-weight: bold;
+}
+.password-modal .bad-password.show {
+  display: table-row;
+}
 .password-modal table {
   margin: 0;
 }

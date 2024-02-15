@@ -343,6 +343,8 @@ const selectElementText = (elm) => {
 class PasswordModal extends Modal {
     password = null;
     input = null;
+    bad = null;
+    badcounter = 0;
     clb = null;
 
     constructor(password) {
@@ -358,6 +360,9 @@ class PasswordModal extends Modal {
                     `<tr>` +
                         `<td><input style="width: 100%;" type="password" name="password" autocomplete="off" required></td>` +
                     `</tr>` +
+                    `<tr class="bad-password">` +
+                        `<td>Mauvais mot de passe</td>` +
+                    `</tr>` +
                 `</tbody>` +
                 `<tfoot>` +
                     `<tr>` +
@@ -370,6 +375,7 @@ class PasswordModal extends Modal {
         super(form);
         this.password = password;
         this.input = form.querySelector('input[name="password"]');
+        this.bad = form.querySelector(".bad-password");
         bind(form, 'submit', (evt) => { evt.preventDefault(); this.save(); });
     }
     show(clb=null) {
@@ -387,8 +393,12 @@ class PasswordModal extends Modal {
             this.hide();
             if(this.clb) this.clb();
         } else {
+            this.bad.classList.add('show');
             this.input.value = '';
             this.input.focus();
+            if(++this.badcounter >= 3) {
+                document.location.href = 'https://passepartout.telequebec.tv/';
+            }
         }
     }
 }
