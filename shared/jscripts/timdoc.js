@@ -882,7 +882,9 @@ app.component('doclink', {
             "vimeo.com":                         "vimeo",
             "web.dev":                           "webdev",
             "swiperjs.com":                      "swiper",
-            "medium.com":                        "medium"
+            "medium.com":                        "medium",
+            "pin.it":                            "pinterest",
+            "www.pinterest.ca":                  "pinterest"
         };
         return { domains }
     },
@@ -1121,6 +1123,7 @@ app.component('highlight', {
     created() {
         this.$nextTick(() => {
             hljs.highlightElement(this.$refs.code);
+            // hljs.lineNumbersBlock(this.$refs.code);
         });
     },
     template: `<pre class="highlight"><code ref="code" :class="'language-' + this.lang + (this.scroll == 'true' ? ' scroll' : '')"><slot /></code></pre>`
