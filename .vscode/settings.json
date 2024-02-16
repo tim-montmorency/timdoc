@@ -10,7 +10,7 @@
         "commands": [
             {
                 "match": "_.*\\.php$",
-                "cmd": "pxpros \"${file}\""
+                "cmd": "php \"${workspaceFolder}/_bin/mac/pxpros.php\" \"${file}\""
             }
         ]
     },
