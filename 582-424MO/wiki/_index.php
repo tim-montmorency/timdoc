@@ -373,6 +373,8 @@
   <dots></dots>
   <grostitre>Révision Object-fit</grostitre>
   <intlink href="../../582-215MO/css/object-fit/"></intlink>
+
+  <codepen id="YzgMzrN" tab="css,result"></codepen>
   <intlink href="../..//582-215MO/css/object-fit/exercices/mcdonalds/"></intlink>
 
   <dots></dots>
