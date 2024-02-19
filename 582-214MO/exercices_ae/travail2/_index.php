@@ -46,6 +46,19 @@
 <doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ekka6MZAvuFBuuLPkDovqtoBxQP1W3wc6UfU-ySuHT2Org?e=NY96jP">Onde progressive</doclink>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/ElntTFtiu6lMiXa4wgRlMLIBGN9DHD-B9oRYNLhRloOPVQ?e=QMtL8K">Formes concentriques</doclink>
 
+<gallery>
+images/05_ae_masque_02.gif
+images/05_ae_masque_02_1.gif
+images/05_ae_masque_02_2.gif
+images/05_ae_masque_02_3.gif
+images/fusion.gif
+images/larme.gif
+images/vague.gif
+    images/Onde3.gif
+    images/Onde02.gif
+    images/Formes.gif
+</gallery>
+
 <dots></dots>
 <grostitre>Contraintes visuelles de l'animation 2D - générique</grostitre>
 <checklist>
