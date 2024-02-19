@@ -53,12 +53,7 @@
 
 <grostitre>Le principe de base</grostitre>
 
-<p class="codepen" data-height="480" data-theme-id="44168" data-default-tab="result" data-slug-hash="ExdmrwY" data-user="tim-momo" style="height: 480px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/ExdmrwY">
-  GSAP DrawSVG - Démo de base</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
+<codepen id="ExdmrwY" notab="true" height="480"></codepen>
 
 <p><incode>drawSVG:</incode> peut contenir 1 ou 2 valeurs. </p>
 
@@ -83,19 +78,11 @@
 <p>Si on souhaite voir un tracé se dessiner du début à la fin, on définit <avec la méthode code>set()</code> les propriétés initiales.</p>
 <p>Ensuite, sur le clique du bouton par exemple, on active l'animation avec la méthode <incode>to()</incode>, conjointement avec la propriété <incode>drawSVG</incode>.</p>
 
-<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="OJBmKjy" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJBmKjy">
-  GSAP DrawSVG - Démo 1 - set</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+<codepen id="OJBmKjy" tab="js,result" height="440"></codepen>
 
 <p>On peut aussi simplement utiliser un <incode>fromTo()</incode> </p>
-<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="XWxRGjK" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XWxRGjK">
-  GSAP DrawSVG - Démo 1</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
 
+<codepen id="XWxRGjK" tab="js,result" height="440"></codepen>
 
 <dots></dots>
 
@@ -105,26 +92,19 @@
 <p>L'avantage d'avoir <em>DrawSVGPlugin</em> intégré à GSAP est que vous pouvez l'utiliser pour créer rapidement des effets complexes et avoir un contrôle total sur l'animation (<incode>pause</incode>, <incode>resume</incode>, <incode>reverse</incode>, <incode>seek</incode> etc.)</p>
 <p>Supposons que vous ayez 20 éléments SVG auxquels la classe <incode>.dessine-moi</incode> a été appliquée et que vous souhaitiez les dessiner de manière décalée, vous pourriez le faire :</p>
 
-<highlight lang="JavaScript">//Dessinera tous les éléments qui ont la classe "dessine-moi" avec un décalage de début de 0.1 seconde.
+<highlight lang="JavaScript">
+//Dessinera tous les éléments qui ont la classe "dessine-moi" avec un décalage de début de 0.1 seconde.
 gsap.from(".dessine-moi", {
     duration:1, 
     stagger: 0.1, 
     drawSVG: 0
-});</highlight>
+});
+</highlight>
 
 <p>De même vous pourriez faire une timeline en animant le dessin de plusieurs lignes (paths) une après l'autre.  Et pourquoi pas...  finir avec un remplissage?</p>
 
-<p class="codepen" data-height="600" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="mdzwbEO" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/mdzwbEO">
-  GSAP DrawSVG - Démo 1 - set() et to()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
-
+<codepen id="mdzwbEO" tab="js,result" height="600"></codepen>
 
 <dots></dots>
 
 <doclink href="https://greensock.com/docs/v3/Plugins/DrawSVGPlugin">Plugiciel drawSVG</doclink>
-
-
- <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

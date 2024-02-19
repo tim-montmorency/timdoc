@@ -388,10 +388,7 @@ Terminer le travail 1 partie 1
 <exercice href="../exercices_ae/08_ondeProgressive"></exercice></p>
 <exercice href="../exercices_ae/08_bendIt"></exercice></p>
 <dots></dots>
-<h3>Les 12 principes de l'animation</h3>
-<p><doclink href=" https://vimeo.com/93206523">Vidéo explicative</doclink></p>
-<vimeo src="93206523"></vimeo>
-<dots></dots>
+
 <h3>Travail 1 partie 2</h3>
 <intlink href="../exercices_ae/travail1"></intlink></p>
 </wiki-page>
@@ -435,21 +432,36 @@ Terminer le travail 1 partie 1
 
 <wiki-page name="Cours 07">
 <p><h1>Remise du travail 1 partie 2 avant le cours</h1></p>  
-
 <p><h3>Correction en groupe de ce travail</h3></p>
 
+<dots></dots>
+
+<h3>Typographie kinétique</h3>
+Exercices de typo.
+<dots></dots>
+<h3>Les 12 principes de l'animation</h3>
+<p><doclink href=" https://vimeo.com/93206523">Vidéo explicative</doclink></p>
+<vimeo src="93206523"></vimeo>
+
+<dots></dots>
+<p><h3>Présentation du travail 2 et de ses effets</h3></p>
+<intlink href="../exercices_ae/travail2"></intlink></p>
 </wiki-page>
 
 
 
 <wiki-page name="Cours 08">
 
+<p><h3>La préproduction et les illustrations du travail 2</h3></p>
+<intlink href="../exercices_ae/travail2"></intlink></p>
+
+<dots></dots>
 
 </wiki-page>
 
 
 <wiki-page name="Cours 09">
-
+<h3>Mini-Kino avec les illustrations du cours 8</h3>
 
 </wiki-page>
 
@@ -462,7 +474,10 @@ Terminer le travail 1 partie 1
 
 
 <wiki-page name="Cours 10">
+<p><h1>Remise et présentation de la préproduction du travail 2</h1></p>  
+<p><h1>Remise de la partie 1 du travail 2 (Illustrations)</h1></p>  
 
+<info>Cours conjoint avec vidéo</info>
 
 </wiki-page>
 
@@ -472,18 +487,38 @@ Terminer le travail 1 partie 1
 </wiki-page>
 
 <wiki-page name="Cours 12">
-
+<p><h1>Remise des animations du travail 2</h1></p>  
+<p><ul>
+<li>Pré-évaluation des animations du travail 2</li>
+<li>Travail sur les génériques individuels</li>
+<li>Correction des animations du travail 2</li>
+</ul></p>
 </wiki-page>
 
 <wiki-page name="Cours 13">
-
+<p><h1>Évaluation des animations du travail 2</h1></p>  
+<p><ul>
+<li>Évaluation du travail 2</li>
+<li>Travail sur les génériques individuels</li>
+<li>Correction des animations du travail 2</li>
+</ul></p>
+<info>Cours conjoint avec vidéo</info>
 </wiki-page>
 
 <wiki-page name="Cours 14">
+<p><h1>Remise et évaluation des génériques du travail 2</h1></p>  
+<p><ul><li>Évaluation des génériques</li>
+<li>Choix du générique final de chaque équipe</li>
+<li>Correction des animations du travail 2</li>
+</ul></p>
+<info>Cours conjoint avec vidéo</info>
    
 
 </wiki-page>
 
 <wiki-page name="Cours 15">
+<p><h1>Remise finale du travail 2</h1></p>  
+<p><h1>Présentation des projets finaux au grand studio</h1></p>  
+<info>Cours conjoint avec vidéo | Horaire: Mardi 14 mai au trou à l'horaire </info>
 
 </wiki-page>

@@ -13,6 +13,15 @@ pre code.hljs {
         // background-color: red;
     }
 
+    table.hljs-ln {
+        font-size: unset;
+        margin: unset;
+
+        td.hljs-ln-code {
+            padding-left: 8px;
+        }
+    }
+
 }
 
 code.hljs {
@@ -151,4 +160,27 @@ pre.highlight:has(+ small) {
 pre.highlight + small {
     display: block;
     margin-bottom: 25px;
+}
+
+
+.hljs-ln-numbers {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    text-align: center;
+    color: #ccc;
+    border-right: 1px solid #CCC;
+    vertical-align: top;
+    padding-right: 5px;
+
+    /* your custom style here */
+}
+
+/* for block of code */
+.hljs-ln-code {
+    padding-left: 10px;
 }

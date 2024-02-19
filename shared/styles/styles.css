@@ -150,6 +150,14 @@ body.dark .modal::before {
   background-color: white;
   border: 1px solid black;
 }
+.password-modal .bad-password {
+  color: red;
+  display: none;
+  font-weight: bold;
+}
+.password-modal .bad-password.show {
+  display: table-row;
+}
 .password-modal table {
   margin: 0;
 }
@@ -166,7 +174,7 @@ body.dark .modal::before {
   padding: 4px;
   text-align: center;
 }
-.password-modal input[type=text] {
+.password-modal input[type=password] {
   width: 100%;
 }
 .password-modal input[type=button], .password-modal input[type=submit] {
@@ -184,6 +192,9 @@ body.dark .password-modal textarea:invalid, body.dark .password-modal input[type
   border-color: var(--main-color);
 }
 
+body.digest {
+  overflow: hidden;
+}
 body.digest article {
   visibility: hidden;
 }
@@ -805,7 +816,7 @@ span.codepen-remark {
 }
 
 body.dark .codepen-container {
-  border: 1px solid #38373d;
+  border: 1px solid rgba(56, 55, 61, 0.5137254902);
   box-shadow: 0px 5px 20px rgba(255, 255, 255, 0.1);
 }
 
@@ -1049,6 +1060,27 @@ a.doclink .doclink-icon {
   background-color: #0166ff;
 }
 
+.doclink.swiper .doclink-icon {
+  background-image: url("../images/icons/swiper-icon.webp");
+}
+.doclink.swiper::before {
+  background-color: #0080ff;
+}
+
+.doclink.medium .doclink-icon {
+  background-image: url("../images/icons/medium-icon.webp");
+}
+.doclink.medium::before {
+  background-color: #ffc017;
+}
+
+.doclink.pinterest .doclink-icon {
+  background-image: url("../images/icons/pinterest-icon.webp");
+}
+.doclink.pinterest::before {
+  background-color: #bd081c;
+}
+
 a.exercice {
   display: block;
   background-image: linear-gradient(0deg, #87ceeb, 20%, #f0f8fc);
@@ -1256,6 +1288,13 @@ pre code.hljs.scroll {
   white-space: pre;
   overflow-x: auto;
 }
+pre code.hljs table.hljs-ln {
+  font-size: unset;
+  margin: unset;
+}
+pre code.hljs table.hljs-ln td.hljs-ln-code {
+  padding-left: 8px;
+}
 
 code.hljs {
   padding: 3px 5px;
@@ -1391,6 +1430,25 @@ pre.highlight:has(+ small) {
 pre.highlight + small {
   display: block;
   margin-bottom: 25px;
+}
+
+.hljs-ln-numbers {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  color: #ccc;
+  border-right: 1px solid #CCC;
+  vertical-align: top;
+  padding-right: 5px;
+  /* your custom style here */
+}
+
+/* for block of code */
+.hljs-ln-code {
+  padding-left: 10px;
 }
 
 div.checklist {

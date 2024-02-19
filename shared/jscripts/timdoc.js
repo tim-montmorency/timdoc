@@ -197,6 +197,8 @@ const lowslug = (str) => {
         .toLowerCase()
         .replace(/[^a-z0-9\s\-]/g, "")
         .replace(/[\s\t]+/g, "-")
+        .replace(/-*$/g, '')
+        .replace(/^-*/g, '')
         ;
 }
 
@@ -341,6 +343,8 @@ const selectElementText = (elm) => {
 class PasswordModal extends Modal {
     password = null;
     input = null;
+    bad = null;
+    badcounter = 0;
     clb = null;
 
     constructor(password) {
@@ -354,7 +358,10 @@ class PasswordModal extends Modal {
                 `</thead>` +
                 `<tbody>` +
                     `<tr>` +
-                        `<td><input style="width: 100%;" type="password" name="password" autocomplete="off" required></td>` +
+                        `<td><input type="password" name="password" autocomplete="off" required></td>` +
+                    `</tr>` +
+                    `<tr class="bad-password">` +
+                        `<td>Mot de passe invalide</td>` +
                     `</tr>` +
                 `</tbody>` +
                 `<tfoot>` +
@@ -368,11 +375,11 @@ class PasswordModal extends Modal {
         super(form);
         this.password = password;
         this.input = form.querySelector('input[name="password"]');
+        this.bad = form.querySelector(".bad-password");
         bind(form, 'submit', (evt) => { evt.preventDefault(); this.save(); });
     }
     show(clb=null) {
         this.clb = clb;
-        document.body.style.overflow = 'hidden';
         super.show();
         setTimeout(() => { this.input.focus(); }, 500);
     }
@@ -385,8 +392,12 @@ class PasswordModal extends Modal {
             this.hide();
             if(this.clb) this.clb();
         } else {
+            this.bad.classList.add('show');
             this.input.value = '';
             this.input.focus();
+            if(++this.badcounter >= 3) {
+                document.location.href = 'https://passepartout.telequebec.tv/';
+            }
         }
     }
 }
@@ -454,13 +465,9 @@ const app = Vue.createApp({
     methods: {
         goToTop(path = null, index = null) {
             const referer = new URL(document.referrer, document.baseURI);
-            if (index && /\/index\//g.test(referer.pathname)) {
-                document.location.href = index;
-            } else if (path) {
-                document.location.href = path;
-            } else {
-                window.scrollTo(0, 0);
-            }
+            if (index && /\/index\//g.test(referer.pathname)) document.location.href = index;
+            else if (path) document.location.href = path;
+            else window.scrollTo(0, 0);
         },
         registerLightSwitch(elm) {
             this.lightSwitches.push(elm);
@@ -637,35 +644,15 @@ app.component('nine', {
 app.component('info', {
     template: `<div class="infobubble info"><div class="infobubble__bubble"></div><slot/></div>`
 });
-
-
-/******************************************************
- *                 Composante Warning                 *
- ******************************************************/
 app.component('warning', {
     template: `<div class="infobubble warning"><div class="infobubble__bubble"></div><slot/></div>`
 });
-
-
-/******************************************************
- *                  Composante Alert                  *
- ******************************************************/
 app.component('alert', {
     template: `<div class="infobubble alert"><div class="infobubble__bubble"></div><slot/></div>`
 });
-
-
-/******************************************************
- *                  Composante Bravo                  *
- ******************************************************/
 app.component('bravo', {
     template: `<div class="infobubble bravo"><div class="infobubble__bubble"></div><slot/></div>`
 });
-
-
-/******************************************************
- *                 Composante Thumbs Up               *
- ******************************************************/
 app.component('thumbsup', {
     template: `<div class="infobubble thumbsup"><div class="infobubble__bubble"></div><slot/></div>`
 });
@@ -743,23 +730,24 @@ app.component('mediafile', {
  *                 Composante Codepen                 *
  ******************************************************/
 app.component('codepen', {
-    props: ['id', 'tab', 'height'],
+    props: ['id', 'tab', 'height', 'notab'],
     setup(props) {
         const dark = 43847;
         const light = 44431;
+        const clean = 44168;
         const user = 'tim-momo';
         props.height || (props.height = 400);
-        props.tab || (props.tab = 'html,result');
+        props.tab ||  (props.tab = props.notab == 'true' ? 'result' : 'html,result');
         props.tab = encodeURIComponent(props.tab);
-        return { dark, light, user }
+        return { dark, light, clean, user }
     },
     data() {
         this.$root.registerLightSwitch(this);
-        return { theme: this.$root.theme == 'dark' ? this.dark : this.light }
+        return { theme:  (this.notab == 'true' ? this.clean : (this.$root.theme == 'dark' ? this.dark : this.light)) }
     },
     methods: {
-        lightSwitchOn() { this.theme = this.light; },
-        lightSwitchOff() { this.theme = this.dark; },
+        lightSwitchOn() { if(this.notab != 'true') this.theme = this.light; },
+        lightSwitchOff() { if(this.notab != 'true') this.theme = this.dark; },
     },
     template:
     `<div class="codepen-container" :style="'height: ' + (+this.height + 2) + 'px'">` +
@@ -893,6 +881,10 @@ app.component('doclink', {
             "docs.npmjs.com":                    "npm",
             "vimeo.com":                         "vimeo",
             "web.dev":                           "webdev",
+            "swiperjs.com":                      "swiper",
+            "medium.com":                        "medium",
+            "pin.it":                            "pinterest",
+            "www.pinterest.ca":                  "pinterest"
         };
         return { domains }
     },
@@ -1131,6 +1123,7 @@ app.component('highlight', {
     created() {
         this.$nextTick(() => {
             hljs.highlightElement(this.$refs.code);
+            // hljs.lineNumbersBlock(this.$refs.code);
         });
     },
     template: `<pre class="highlight"><code ref="code" :class="'language-' + this.lang + (this.scroll == 'true' ? ' scroll' : '')"><slot /></code></pre>`

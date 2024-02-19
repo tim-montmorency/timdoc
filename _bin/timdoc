@@ -1,0 +1,1 @@
+php "${0%/*}/mac/pxpros.php" $1

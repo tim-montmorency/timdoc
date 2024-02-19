@@ -16,15 +16,7 @@
 
 <p>Par&nbsp;exemple:</p>
 
-<p class="codepen" data-height="300" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="rNZgdVP" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/rNZgdVP">
-  GSAP -  TimeScale</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
-
-
-
+<codepen id="rNZgdVP" tab="js,result" height="300"></codepen>
 
 <info>Afin de faciliter la lecture de l’animation, il est conseillé de séparer chaque étape sur une ligne&nbsp;différente.</info>
 
@@ -63,16 +55,13 @@
 
 <p>Par exemple, si le 2<sup>e</sup> 🟦 devait commencer après cinq secondes&nbsp;<em>(créant ainsi un délai)</em>, il serait possible d'utiliser&nbsp;<incode>5</incode> comme troisième paramètre.</p>
 
-<p class="codepen" data-height="300" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="LYJodBR" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/LYJodBR">
-  GSAP - Timeline basic chaining</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
+<codepen id="LYJodBR" tab="js,result" height="300"></codepen>
 
 <info>Remarquez comment le 3e carré 🟥 reste synchronisé avec l’animation précédente même si elle à un paramètre de position&nbsp;absolue.</info>
 
 <dots></dots>
+
+
 <h3 id="position-relative">Position relative</h3>
 
 <h4>Délai (+=) ou en avance (-=)</h4><br>
@@ -82,31 +71,17 @@
 <p>Par exemple, pour ajouter un délai d'une seconde avant de déclencher la prochaine animation, il est possible de spécifier&nbsp;<incode>"+=1"</incode>. </p>
 <p>Pour qu'une animation commence une seconde plus tôt, le code serait <incode>"-=1"</incode>, comme dans l'exemple&nbsp;suivant, où le 2<sup>e</sup>&nbsp;carré 🟦 débute au milieu de la course du 1<sup>er</sup> carré plutôt qu'à la fin de celle-ci.</p>
 
-<p class="codepen" data-height="330" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="bGxyMEz" data-user="tim-momo" style="height: 330px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/bGxyMEz">
-  GSAP -  Timeline - Relative position parameter</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<br><br>
+<codepen id="bGxyMEz" tab="js,result" height="330"></codepen>
+
+
 <h4>En même temps (<)</h4><br>
-
-
-
-
-
 
 <p>Cependant, si l'objectif est de démarrer l'animation en même temps que la précédente, il existe une position efficace pouvant se synchroniser avec le début de l'animation précédente, et ce même si la durée de celle-ci venait à&nbsp;changer.</p>
 
 <p>Pour ce faire, il faut utiliser&nbsp;<incode>"&lt;"</incode>&nbsp;comme&nbsp;ceci:</p>
 
 
-
-<p class="codepen" data-height="300" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="poOmVPv" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/poOmVPv">
-  GSAP -  Timeline position sync</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
+<codepen id="poOmVPv" tab="js,result" height="300"></codepen>
 
 <info>Il est même possible d’ajouter une valeur après le symbole <incode>"&lt;"</incode> si sa position doit être basée sur le début de l’animation précédente, mais être légèrement différente. Par exemple&nbsp;<incode>"&lt;0.25"</incode>.</info>
 
@@ -122,12 +97,8 @@
 
 <p>Par exemple:</p>
 
-<p class="codepen" data-height="360" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="XWPwqve" data-user="tim-momo" style="height: 360px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XWPwqve">
-  GSAP -  Timeline position sync</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<br>
+
+<codepen id="XWPwqve" tab="js,result" height="360"></codepen>
 
 <p>Un label est défini grâce à&nbsp;<incode>.add('red')</incode>. Il est ensuite possible de sauter directement à cette
     position dans la timeline en appelant&nbsp;<incode>animation.play('red')</incode>.</p>
@@ -148,15 +119,7 @@
     animation&nbsp;spécifiquement.</p>
 <p>Par&nbsp;exemple:</p>
 
-
-
-<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="QWVRxWN" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/QWVRxWN">
-  GSAP -  Timeline - Defaults</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
-
+<codepen id="QWVRxWN" tab="js,result" height="400"></codepen>
 
 <dots></dots>
 
@@ -184,21 +147,12 @@
 </ul>
 <br>
 <small>Pour mieux voir tous les contrôles de GSDevTools cliquez sur "Edit on CODEPEN" en haut à droite.</small>
-<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="bGxyKEE" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/bGxyKEE">
-  GSAP -  Timeline - GSDevTools</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+
+<codepen id="bGxyKEE" tab="js,result" height="400"></codepen>
+<br>
 
 <info>Créer une animation peut se faire rapidement. Cependant, la peaufiner pour que tous les <em>timings</em>
             soient parfaits requiert du temps. Prenez le temps d’observer vos <em>timings</em> et de les&nbsp;ajuster.</info>
 
 <br><br><br><br>
 <exercice href="../exercices/excitebike/"></exercice>
-
-
-
-
-
-
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

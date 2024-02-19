@@ -86,27 +86,17 @@
 <grostitre>Bulles d'informations</grostitre>
 
 <h3>info</h3>
-<highlight lang="html"><info>Ceci est une bulle d'information</info></highlight>
+<highlight lang="html">
 <info>Ceci est une bulle d'information</info>
-<br><br>
-
-<h3>warning</h3>
-<highlight lang="html"><warning>Ceci est une bulle d'avertissement</warning></highlight>
 <warning>Ceci est une bulle d'avertissement</warning>
-<br><br>
-
-<h3>alert</h3>
-<highlight lang="html"><alert>Ceci est une bulle d'alerte</alert></highlight>
 <alert>Ceci est une bulle d'alerte</alert>
-<br><br>
-
-<h3>thumbsup</h3>
-<highlight lang="html"><thumbsup>Ceci est une bulle d'approbation</thumbsup></highlight>
 <thumbsup>Ceci est une bulle d'approbation</thumbsup>
-<br><br>
-
-<h3>bravo</h3>
-<highlight lang="html"><bravo>Ceci est une bulle d'applaudissement</bravo></highlight>
+<bravo>Ceci est une bulle d'applaudissement</bravo>
+</highlight>
+<info>Ceci est une bulle d'information</info>
+<warning>Ceci est une bulle d'avertissement</warning>
+<alert>Ceci est une bulle d'alerte</alert>
+<thumbsup>Ceci est une bulle d'approbation</thumbsup>
 <bravo>Ceci est une bulle d'applaudissement</bravo>
 
 <dots></dots>
@@ -504,6 +494,10 @@ Utilisez la proprité <incode>transform</incode>.<br>
 <highlight lang="html"><codepen id="gOEwrvG" tab="css,result" height="500"></codepen></highlight>
 <codepen id="gOEwrvG" tab="css,result" height="500"></codepen>
 
+<highlight lang="html"><codepen id="gOEwrvG" notab="true" height="400"></codepen></highlight>
+<codepen id="gOEwrvG" notab="true" height="400"></codepen>
+
+
 
 <dots></dots>
 
@@ -561,7 +555,7 @@ Utilisez la proprité <incode>transform</incode>.<br>
 
  -->
 
-<grostitre>Wiki</grostitre>
+<grostitre>Wiki Teams</grostitre>
 
 <p>Comme le wiki suit le thème de Timdoc, il sera affiché par défaut en thème <incode>light</incode> dans Teams. Il est possible de forcer le thème en l'ajoutant à l'adresse url.</p>
 

@@ -1,6 +1,6 @@
 {
     "type": "exercice",
     "title": "GSAP ScrollTrigger - Gotham",
-    "icon": "images\/thumb-gotham.jpg",
+    "icon": "images\/thumb.webp",
     "abstract": "Pour cet exercice, nous allons synchroniser le g\u00e9n\u00e9rique de l\u2019\u00e9mission Gotham avec le d\u00e9filement de la page."
 }

@@ -55,13 +55,8 @@
 <grostitre>Méthode to()</grostitre>
 <p>Dans l'exemple ci-dessous, un carré est positionné en haut à gauche de son parent. En cliquant sur le bouton ▶️, une
     animation GSAP le déplace vers la droite.</p>
-<p class="codepen" data-height="340" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="abaWvmo"
-    data-user="tim-momo"
-    style="height: 340px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/abaWvmo">
-            GSAP - to()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-        on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+
+<codepen id="abaWvmo" tab="js,result" height="340"></codepen>
 
 <warning>Les valeurs sous forme de nombre <em>(qui ne sont pas entre guillemets)</em>, ex: <incode>400</incode>, sont
     interprétées comme étant des px. Les valeurs entre guillemets, ex <incode>'400%'</incode>, peuvent spécifier une unité
@@ -111,14 +106,8 @@
 
 <grostitre>Méthode from()</grostitre>
 
+<codepen id="MWqmaXM" tab="js,result" height="390"></codepen>
 
-<p class="codepen" data-height="390" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="MWqmaXM"
-    data-user="tim-momo"
-    style="height: 390px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/MWqmaXM">
-            GSAP - to()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-        on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
 
 <br>
 <p><strong>Décortiquons une animation avec plus d'une propriété:</strong></p>
@@ -158,14 +147,9 @@
     actuel comme point de départ ou fin. Cette interpolation permet d'avoir un contrôle total sur une animation, en
     particulier lorsqu'elle est enchaînée avec d'autres&nbsp;animations.</p>
 
-<p class="codepen" data-height="395" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="YzOVqby"
-    data-user="tim-momo"
-    style="height: 395px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/YzOVqby">
-            GSAP - from()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-        on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<codepen id="YzOVqby" tab="js,result" height="395"></codepen>
+
 
 <br>
 
@@ -193,15 +177,14 @@
 <grostitre>Méthode set()</grostitre>
 <p><incode>set()</incode> initialise <em>immédiatement</em> les propriétés des éléments HTML ciblés. Il s'agit essentiellement d'une animation de type <incode>to()</incode> qui dure zéro seconde. C'est la même chose mais avec un nom plus un peu plus intuitif : "set" que l'ont peut traduire par "définit immédiatement tel paramètre". Les lignes suivantes produisent donc des résultats identiques :</p>
 
-<highlight lang="JavaScript">gsap.set(".class", {x: 100, y: 50, opacity: 0});
-gsap.to(".class", {duration: 0, x: 100, y: 50, opacity: 0});</highlight>
-
+<highlight lang="JavaScript">
+gsap.set(".class", {x: 100, y: 50, opacity: 0});
+gsap.to(".class", {duration: 0, x: 100, y: 50, opacity: 0});
+</highlight>
 
 
 
 <doclink href="https://greensock.com/docs/v3/GSAP/gsap.set()">Méthode set()</doclink>
-
-
 
 <dots></dots>
 
@@ -215,4 +198,3 @@ gsap.to(".class", {duration: 0, x: 100, y: 50, opacity: 0});</highlight>
 <!-- <p>Si on souhaite appliquer une animation sur plusieurs éléments qui n'ont pas nécessairement tous la même classe, on peut définir un tableau (array []) listant une série d'éléments et passer ce tableau comme premier paramètre à GSAP. Par exemple:</p>
 <hight lang="JavaScript">gsap.to(['.lapin', '.greouille', '.renard'], {x: '10vw', y: '50vh'})</hight>-->
 
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
