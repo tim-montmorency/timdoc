@@ -23,11 +23,11 @@
 
 <p>Aperçu du résultat pour FAQ et Infolettre 👇</p>
 <clipasset src="video/demo_LP_faq_infolettre.mp4"></clipasset>
-
+<p><small>Pour faire <em>pause</em> et <em>play</em> sur la vidéo de la démo, si vous êtes dans Chrome, vous n'avez qu'à faire "clic-droit" au dessus de la démo et cliquer sur "<em>Afficher les commandes</em>".</small></p>
 
   <!--<div style="max-width: 640px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/5361a801-a44d-4100-b5a3-db54ef3f783a?autoplay=false&showinfo=true" allowfullscreen style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>-->
 
-
+<dots></dots>
 
 
 <checklist>
