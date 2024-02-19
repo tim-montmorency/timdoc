@@ -388,9 +388,11 @@
 
   <dots></dots>
   <grostitre>En classe et devoirs</grostitre>
-  <p><strong>LP</strong></p>
+  <p>Terminer les exercices d'aujourd'hui (exercices Swiper)</p>
+
+  <p><strong>Landing Page</strong></p>
   <intlink href="../projet-app-festival-art-numerique/p1-3b-lp/"></intlink>
-  <p><strong>App</strong></p>
+  <p><strong>Appli mobile</strong></p>
   <intlink href="../projet-app-festival-art-numerique/p1-3b-app/"></intlink>
 
 
