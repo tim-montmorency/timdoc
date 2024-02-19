@@ -15,7 +15,7 @@
 
 <grostitre>Définition</grostitre>
 <p>En bref, un accordéon est un élément qui a été réduit de sorte qu'on ne peut voir que son titre et une flèche descendante. Lorsque l'on clique sur le titre, l'élément se développera afin de révéler le corps du contenu. Si l'on clique une deuxième fois sur le titre, l'élément rétrécira au point de re-masquer le corps du contenu. Les accordéons permettent aux visiteurs de parcourir rapidement les titres qui figurent sur la page, ce qui peut être utile dans certains cas comme des listes de foires aux questions (FAQ). </p>
-<doclink href="https://www.uottawa.ca/uoweb/fr/guide-usager/transformer-contenu-accordeon">Source</doclink>
+
 
 <p>L'accordéon est donc utilisé en interface web par soucis de permettre à l'utilisateur de parcourir rapidement le contenu et et aussi, simplement pour sauver de l'espace dans la page et éviter les longs blocs de texte infinis.</p>
 
@@ -24,18 +24,20 @@
 <dots></dots>
 
 <p>Voici la base: </p>
+<p>Cliquez sur les accordéons ci-dessous pour développer/réduire le contenu de l'accordéon.</p>
 
-<highlight lang="html">&lt;div class=&quot;accordion&quot; id=&quot;accordionExample&quot;&gt;
+<highlight lang="html">&lt;div class=&quot;accordion&quot; id=&quot;monAccordeon&quot;&gt;
 
   &lt;div class=&quot;accordion-item&quot;&gt;
 
-    &lt;h2 class=&quot;accordion-header&quot; id=&quot;headingOne&quot;&gt;
-      &lt;button class=&quot;accordion-button&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#collapseOne&quot; aria-expanded=&quot;true&quot; aria-controls=&quot;collapseOne&quot;&gt;
+    &lt;h2 class=&quot;accordion-header&quot; id=&quot;entete1&quot;&gt;
+      &lt;button class=&quot;accordion-button&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#collapse1&quot; aria-expanded=&quot;true&quot; aria-controls=&quot;collapse1&quot;&gt;
       Élément #1 de l'accordéon
       &lt;/button&gt;
     &lt;/h2&gt;
 
-    &lt;div id=&quot;collapseOne&quot; class=&quot;accordion-collapse collapse show&quot; aria-labelledby=&quot;headingOne&quot; data-bs-parent=&quot;#accordionExample&quot;&gt;
+    &lt;div id=&quot;collapse1&quot; class=&quot;accordion-collapse collapse show&quot; 
+    aria-labelledby=&quot;entete1&quot; data-bs-parent=&quot;#monAccordeon&quot;&gt;
       &lt;div class=&quot;accordion-body&quot;&gt;
         Ceci est le premier élément du corps de l&#39;accordéon. Il est affiché par défaut, jusqu&#39;à ce que...
       &lt;/div&gt;
@@ -44,6 +46,10 @@
   &lt;/div&gt;
 
 &lt;/div&gt;</highlight>
+<br>
+<h3>Remarquez le lien entre les IDs des éléments et les atributs <code>data-bs-target</code>, <code>aria-controls</code>, <code>aria-labelledby</code> et <code>data-bs-parent</code></h3>
+<img src="images/accordions_attributes.png" alt="les IDs du code">
+
 
 <dots></dots>
 
