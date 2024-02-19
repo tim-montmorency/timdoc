@@ -353,8 +353,48 @@
                                                           
 ---------------->
 
-<wiki-page name="Cours 05" date="2024-02-28">
-    <h2>Révision et évaluation formative (quiz)</h2>
+<wiki-page name="Cours 05" date="2024-02-18">
+  <grostitre>Évaluation formative (quiz)</grostitre>
+  <p>Groupe AM :  <a href="https://app.wooclap.com/TYPICF" target="_blank" rel="noopener noreferrer">Code Wooclap: TYPICF</a> <br>
+  Groupe PM :  <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap: </a>
+  </p>
+
+
+
+  <dots></dots>
+  <grostitre>Bootstrap - Accordéon</grostitre>
+  <intlink href="../bootstrap/accordeon/"></intlink>
+
+  <dots></dots>
+  <grostitre>Bootstrap - Les goutières dans la grille</grostitre>
+  <doclink href='https://getbootstrap.com/docs/5.3/layout/gutters/'>Goutières (gutters)</doclink>
+
+
+  <dots></dots>
+  <grostitre>Révision Object-fit</grostitre>
+  <intlink href="../../582-215MO/css/object-fit/"></intlink>
+  <intlink href="../..//582-215MO/css/object-fit/exercices/mcdonalds/"></intlink>
+
+  <dots></dots>
+  <grostitre>Librairie Swiper</grostitre>
+  <intlink href="../swiper/librairie-javascript/"></intlink>
+  <intlink href="../swiper/swiper/"></intlink>
+
+  <h3>Exercice</h3>
+  <p>Lien fourni en classe</p>
+
+
+
+
+  <dots></dots>
+  <grostitre>En classe et devoirs</grostitre>
+  <p><strong>LP</strong></p>
+  <intlink href="../projet-app-festival-art-numerique/p1-3b-lp/"></intlink>
+  <p><strong>App</strong></p>
+  <intlink href="../projet-app-festival-art-numerique/p1-3b-app/"></intlink>
+
+
+
 </wiki-page>
 
 

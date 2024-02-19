@@ -43,7 +43,7 @@ Le pied de page doit se démarquer du contenu principal du site en ayant une cou
 Un conteneur Bootstrap doit être utilisé afin de gérer le positionnement des éléments à l'intérieur de celui-ci, ce conteneur doit être celui qui n'a pas de largeur maximum.
 À partir du breakpoint sm, affichez le texte à gauche du logo.
 À partir du breakpoint sm, le texte de gauche doit s'aligner à gauche, et le logo doit maintenant s'aligner à droite.
-Vous pouvez utiliser ce url pour le logo: https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg
+Vous pouvez utiliser ce url pour le logo: <a href="https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg" target="_blank" rel="noopener noreferrer">https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg</a> ou encore <a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EriBsl7VR15OinWQVW1Cf2MBwbObyvthrA_JfUtwbQP3SA?e=SGoxLq" target="_blank" rel="noopener noreferrer">le trouver ici</a>.
 Au besoin, ajoutez des classes d'espacement Bootstrap pour aligner les éléments un peu comme l'aperçu ci-haut.
 </checklist>
 
