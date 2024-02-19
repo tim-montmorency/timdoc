@@ -356,7 +356,7 @@
 <wiki-page name="Cours 05" date="2024-02-18">
   <grostitre>Évaluation formative (quiz)</grostitre>
   <p>Groupe AM :  <a href="https://app.wooclap.com/TYPICF" target="_blank" rel="noopener noreferrer">Code Wooclap: TYPICF</a> <br>
-  Groupe PM :  <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap: </a>
+  Groupe PM :  <a href="https://app.wooclap.com/KYJNPI" target="_blank" rel="noopener noreferrer">Code Wooclap: KYJNPI</a>
   </p>
 
 
