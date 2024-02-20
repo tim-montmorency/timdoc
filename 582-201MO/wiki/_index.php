@@ -268,10 +268,10 @@
         <li>Planche d'inspiration (moodboard) dans Figma - Cadre (Frame) format 1920x1080</li>
         <li>Planche de styles - Cadre (Frame) format format 1920x1080</li>
         <li>Les 2 planches dans le même fichier Figma.</li>
-        <li>Remplir le document <a
+        <li><s>Remplir le document <a
                 href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUWb5_fIM2xGv4XSLMOsAawBAZGjhx9-79qFVjon_EuTTw?e=bYNfZz"
                 rel="noreferrer noopener" target="_blank"
-                title="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/euwb5_fim2xgv4xslmosaawbazgjhx9-79qfvjon_euttw?e=bynfzz">analyse_structure-com.docx</a>
+                title="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/euwb5_fim2xgv4xslmosaawbazgjhx9-79qfvjon_euttw?e=bynfzz">analyse_structure-com.docx</a></s>
         </li>
     </ul>
     <h4>REMISE PHASE CONCEPT</h4>
@@ -290,10 +290,10 @@
                 <li>Un sous-dossier nommé <span><b>typo</b></span> qui contiendra la/les police(s) de caractères
                     utilisés pour votre logo final (vous devez télécharger le fichier de la police, même si la
                     police est nativement intégrée à Figma.</li>
-                <li>Un sous-dossier nommé références qui contiendra bvotre document d'anlayse rempli: <a
+                <li><s>Un sous-dossier nommé références qui contiendra bvotre document d'anlayse rempli: <a
                         href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUWb5_fIM2xGv4XSLMOsAawBAZGjhx9-79qFVjon_EuTTw?e=bYNfZz"
                         rel="noreferrer noopener" target="_blank"
-                        title="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/euwb5_fim2xgv4xslmosaawbazgjhx9-79qfvjon_euttw?e=bynfzz">analyse_structure-com.docx</a>
+                        title="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/euwb5_fim2xgv4xslmosaawbazgjhx9-79qfvjon_euttw?e=bynfzz">analyse_structure-com.docx</a></s>
                 </li>
             </ul>
         </li>
@@ -366,10 +366,10 @@
     <ul>
         <li>Planche d'inspiration</li>
         <li>Planche de styles</li>
-        <li>Document <a
+        <li><s>Document <a
                 href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUWb5_fIM2xGv4XSLMOsAawBAZGjhx9-79qFVjon_EuTTw?e=bYNfZz"
                 rel="noreferrer noopener" target="_blank"
-                title="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/euwb5_fim2xgv4xslmosaawbazgjhx9-79qfvjon_euttw?e=bynfzz">analyse_structure-com.docx</a>
+                title="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/euwb5_fim2xgv4xslmosaawbazgjhx9-79qfvjon_euttw?e=bynfzz">analyse_structure-com.docx</a></s>
         </li>
     </ul>
 

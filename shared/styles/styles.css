@@ -3196,6 +3196,9 @@ table.table-couleurs .color {
 #wiki .wiki__page.active {
   display: block;
 }
+#wiki s {
+  opacity: 0.3;
+}
 
 @media (max-width: 576px) {
   #wiki {
