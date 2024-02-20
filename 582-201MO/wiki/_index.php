@@ -1,0 +1,547 @@
+<?php 
+/**
+ * @type     wiki
+ * @title    Wiki - Design graphique
+ * @icon     ../images/icon.webp
+ * @abstract Contenu du cours - Hiver 2024
+ */
+?>
+<!-- 
+    ASCII GENERATOR 
+    http://www.network-science.de/ascii/
+-->
+
+<wiki-page name="Ressources et infos" date="2024-01-20">
+    <h2>Plans de cours et guide </h2>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Ef5egnlPtz9Im1lJqb1tRcABeeZEMHn5Cp-EYWYHR-IyJQ?e=nrZQRe"
+            target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024</a> <em>(accessible seulement avec
+            votre compte du collège)</em></p>
+
+    <p><a href="https://cmontmorency365.sharepoint.com/:w:/r/sites/TIM-TTP/_layouts/15/Doc.aspx?sourcedoc=%7B48119BB7-5AEC-438C-BB23-C7DA3EE1061D%7D&file=guide_etudiants.docx&action=default&mobileredirect=true"
+            target="_blank" rel="noopener noreferrer">Guide étudiant TIM</a></p>
+
+
+
+
+    <dots></dots>
+    <h2>Claviers Mac</h2>
+    <p>Révision: <a
+            href="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EU8BbNt04S9Cvg-S0xaohBUBO5t81bAj3mo1SYgSvODPWA?e=bz44wd"
+            target="_blank" rel="noopener noreferrer">Gestion des claviers du labo Mac (Apple et Macally)</a></p>
+
+
+
+    <dots></dots>
+    <h2>Tutorat</h2>
+    <ul>
+        <li>Chaque mardi de 11h50 à 14h20 au centre d'aide au C-1602.</li>
+
+        <li>Tutorat en ligne, sur rendez-vous (<a
+                href="https://teams.microsoft.com/l/channel/19%3aa8d3c53a199d48f0bc3d727af399b147%40thread.tacv2/Tutorat%2520(sur%2520rendez-vous)?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d"
+                target="_blank" rel="noopener noreferrer">prendez-rendez-vous via le canal associé sur Teams : TIM -
+                Programme TIM)</a></li>
+        <li>Tutorat en ligne, tous les samedis soirs à partir de 18h00 à 19h40 (<a
+                href="https://teams.microsoft.com/l/channel/19%3aa5c1ef4c4cba41eb9f492adbcc9eb7a5%40thread.tacv2/Tutorat%2520(en%2520ligne)?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d"
+                target="_blank" rel="noopener noreferrer">joindre la vidéo-conférence via canal associé sur Teams, : TIM
+                - Programme TIM</a>)</li>
+        <li>Tutorat en ligne, tous les dimanches soirs à partir de 19h30 à 21:10 (<a
+                href="https://teams.microsoft.com/l/channel/19%3aa5c1ef4c4cba41eb9f492adbcc9eb7a5%40thread.tacv2/Tutorat%2520(en%2520ligne)?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d"
+                target="_blank" rel="noopener noreferrer">joindre la vidéo-conférence via canal associé sur Teams, : TIM
+                - Programme TIM</a>)</li>
+
+    </ul>
+
+    <dots></dots>
+    <h2>Banques de ressources</h2>
+    <ul>
+
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZQlsKA3n41Bndvr4nAec5kBNTxUckgFa3C6wO9ZocnauA?e=WEsxyI"
+                target="_blank" rel="noopener noreferrer">Banques d'images libre de droit</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EcU65VhnOrVInZTVw2tLCZ0BI4TJlrpI-28YoKjRAadGcg?e=lsNghw"
+                target="_blank" rel="noopener noreferrer">Polices de caractère (typo) gratuites</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:f:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/_cours_pour_tous_diverses_references/01_typo_brosses?csf=1&web=1&e=BAYHfD"
+                target="_blank" rel="noopener noreferrer">Banques de typographies et de brosses </a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUdAvWDJKtdJvYEn8-FBNDgBtw_kD8JGQuD9LCMsBjhcQg?e=DgU6Ru"
+                target="_blank" rel="noopener noreferrer">Palettes de couleur </a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:f:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/_cours_pour_tous_diverses_references/03_banque_sonore?csf=1&web=1&e=9fGrW0"
+                target="_blank" rel="noopener noreferrer">Banque sonore #1 </a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:f:/r/personal/timmontmorency_cmontmorency_qc_ca1/Documents/_banque_de_sons?csf=1&web=1&e=JhntZT"
+                target="_blank" rel="noopener noreferrer">Banque sonore #2</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EriBsl7VR15OinWQVW1Cf2MBwbObyvthrA_JfUtwbQP3SA?e=K0kb1g"
+                target="_blank" rel="noopener noreferrer">Logo TIM officiel</a></li>
+
+    </ul>
+
+
+</wiki-page>
+
+
+<!--
+  _____                       __ 
+ / ____|                     /_ |
+| |     ___  _   _ _ __ ___   | |
+| |    / _ \| | | | '__/ __|  | |
+| |___| (_) | |_| | |  \__ \  | |
+ \_____\___/ \__,_|_|  |___/  |_|
+
+-->
+<wiki-page name="Cours 01" date="2024-01-21">
+    <h2>Plans de cours et guide </h2>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Ef5egnlPtz9Im1lJqb1tRcABeeZEMHn5Cp-EYWYHR-IyJQ?e=nrZQRe"
+            target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024</a> <em>(accessible seulement avec
+            votre compte du collège)</em></p>
+
+    <p><a href="https://cmontmorency365.sharepoint.com/:w:/r/sites/TIM-TTP/_layouts/15/Doc.aspx?sourcedoc=%7B48119BB7-5AEC-438C-BB23-C7DA3EE1061D%7D&file=guide_etudiants.docx&action=default&mobileredirect=true"
+            target="_blank" rel="noopener noreferrer">Guide étudiant TIM</a></p>
+</wiki-page>
+
+
+
+<!--
+  _____                       ___  
+ / ____|                     |__ \ 
+| |     ___  _   _ _ __ ___     ) |
+| |    / _ \| | | | '__/ __|   / / 
+| |___| (_) | |_| | |  \__ \  / /_ 
+ \_____\___/ \__,_|_|  |___/ |____|
+                                                                
+-->
+<wiki-page name="Cours 02" date="2024-01-21">
+
+</wiki-page>
+
+
+
+<!--------------------
+  _____                       ____  
+ / ____|                     |___ \ 
+| |     ___  _   _ _ __ ___    __) |
+| |    / _ \| | | | '__/ __|  |__ < 
+| |___| (_) | |_| | |  \__ \  ___) |
+ \_____\___/ \__,_|_|  |___/ |____/ 
+                                          
+----------------------->
+<wiki-page name="Cours 03" date="2024-02-04">
+
+
+</wiki-page>
+
+
+
+<!-------------- 
+  _____                       _  _   
+ / ____|                     | || |  
+| |     ___  _   _ _ __ ___  | || |_ 
+| |    / _ \| | | | '__/ __| |__   _|
+| |___| (_) | |_| | |  \__ \    | |  
+ \_____\___/ \__,_|_|  |___/    |_|                                   
+                                     
+----------------->
+
+<wiki-page name="Cours 04" date="2024-02-11">
+
+    <h2>Annonces</h2>
+
+    <p>Rappel tutorat (voir onglet <em>Ressources et infos</em>)</p>
+
+    <p>Aujourd'hui AVANT le cours, avoir remis votre <strong>T01 - Logo</strong>: un dossier <strong>.ZIP</strong> et
+        un <strong>LIEN</strong> direct dans Teams &gt; Devoirs</p>
+
+    <p>IMPORTANT: ça doit être un LIEN que je peux cliquer directement dans Devoir pour accélérer le processus lors des présentation en avant.</p>
+
+
+
+    <dots></dots>
+    <h2>Remise Travail 1 - Logo</h2>
+    <p><strong>PRÉSENTATION DEVANT LA CLASSE (3 minutes max)</strong></p>
+
+    <ul>
+        <li>Présentez d'abord votre planche d'inspiration.</li>
+        <li>Présentez ensuite le logo.</li>
+        <li>Qu'essayez vous de communiquez avec ce logo? Que représente la techniques d'intégration multimédia
+            pour vous?</li>
+        <li>Expliquez quel est le type de logo (<a
+                href="https://cmontmorency365-my.sharepoint.com/:p:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Design%20graphique/cours-02/com_graph_logos.pptx?d=w4e216f287d834e12bbdd4fc3bacc5944&amp;csf=1&amp;web=1&amp;e=mdZRUe"
+                rel="noreferrer noopener" target="_blank"
+                title="https://cmontmorency365-my.sharepoint.com/:p:/r/personal/mariem_ouellet_cmontmorency_qc_ca/documents/01_cours/cours%20design%20graphique/cours-02/com_graph_logos.pptx?d=w4e216f287d834e12bbdd4fc3bacc5944&amp;csf=1&amp;web=1&amp;e=mdzrue">com_graph_logos.pptx</a>).
+        </li>
+        <li>Expliquez vos choix en fonction des notions de base en design graphique (<a
+                href="https://cmontmorency365-my.sharepoint.com/:p:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Design%20graphique/cours-03/com-graph_03_CRAP.pptx?d=wd6f9761b3a124cb1a50d2a054138ad17&amp;csf=1&amp;web=1&amp;e=szCAYB"
+                rel="noreferrer noopener" target="_blank"
+                title="https://cmontmorency365-my.sharepoint.com/:p:/r/personal/mariem_ouellet_cmontmorency_qc_ca/documents/01_cours/cours%20design%20graphique/cours-03/com-graph_03_crap.pptx?d=wd6f9761b3a124cb1a50d2a054138ad17&amp;csf=1&amp;web=1&amp;e=szcayb">com-graph_03_CRAP.pptx</a>).
+        </li>
+        <li>S'il y a du texte, pourquoi avoir choisi cette police?</li>
+    </ul>
+
+
+
+    <dots></dots>
+    <h2>Design</h2>
+    <h3>Powerpoint</h3>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Ee6pn1kVeC1EoPMmTKHF0t8B8LRF0WN9Kle0RCsK0N8zCw?e=Khb5O8"
+            rel="noreferrer noopener" target="_blank"
+            title="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ee6pn1kvec1eopmmtkhf0t8b8lrf0wn9kle0rcsk0n8zcw?e=khb5o8">com-graph_04_Pub01_h24_new.pptx</a>
+    </p>
+    <p>Démo projet étudiants années précédentes</p>
+
+
+
+
+
+    <dots></dots>
+    <h2>Démo Figma</h2>
+
+    <p>Démo: détourer une photo dan Figma</p>
+    </p>
+
+
+
+
+    <dots></dots>
+    <h2>Exercices</h2>
+    <p><strong>1- Exercice: Bannière publicitaire à recréer dans Figma</strong></p>
+
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EbRv4o4f48ZGmPPzsQqd-WABFTMNcDg3hierw1dngOFx-g?e=RRKfKW"
+            rel="noreferrer noopener" target="_blank"
+            title="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ebrv4o4f48zgmppzsqqd-wabftmncdg3hierw1dngofx-g?e=rrkfkw">Lien
+            vers les éléments visuels dont vous aurez besoin pour recréer cette publicité dans Figma</a></p>
+
+    <small>Notes pour l'exercice: </small>
+    <ul>
+        <li style="margin: 0;"><small>Pour les cercles rosés en arrière-plan des écouteurs, vous allez devoir
+                travailler avez les outils Booléens que vous avez vus au dernier cours pour couper votre rond et qu'ils
+                ne dépassent pas du cadre.</small></li>
+        <li style="margin: 0;"><small>N'oubliez pas l'ombre portée en dehors du cadre.</small></li>
+    </ul>
+
+    <br>
+
+    <p><strong>2- Exercice: Détourer des éléments à partir de photographies</strong></p>
+
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETueWEMEAShMqHuchqXDFKQBq06wRibadhpVRM5ArdME9g?e=Oa9Sew"
+            rel="noreferrer noopener" target="_blank"
+            title="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/etuewemeashmqhuchqxdfkqbq06wribadhpvrm5ardme9g?e=oa9sew">Exercice
+            cours 4 - Détourer un élément dans une photo.fig</a>
+    </p>
+
+
+
+
+    <dots></dots>
+    <h2>T02 - Publicité Web (15%)</h2>
+    <h3>Commande</strong></h3>
+    <p> Design graphique de 2 formats de publicité numérique pour une même campagne marketing :</p>
+
+    <ol>
+        <li>Bannière publicitaire « Annonces Display ». Plus précisément le format de bannière Pop-up.</li>
+        <li>Bannière destinée aux réseaux sociaux, 3 formats à réaliser pour l’affichage sur :
+            <ol>
+                <li>sur le fil d'Instagram</li>
+                <li>sur le fil de Facebook</li>
+                <li>dans les <em>Stories</em></li>
+            </ol>
+        </li>
+    </ol>
+
+    <p>Les formats exacts des bannières vous seront donnés au prochain cours.</p>
+
+
+    <h3>Instructions phase concept</h3>
+    <h4>SUJET</h4>
+
+    <ul>
+        <li>Choisir un produit culturel ou un événement culturel de votre choix afin de le promouvoir via une mini
+            campagne de publicité Web auprès d'une audience que vous pourrez déterminer.</li>
+        <li>ou</li>
+        <li>Choisir une cause qui vous tient à cœur et cherchez à sensibiliser une audience que vous pourrez déterminer.
+        </li>
+    </ul>
+    <p> Lorsque choisi, entrez votre sujet ici:<a
+            href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUz7wCghXxZHtbRCvfvRU7EBF4jxBn1PMaSVKs5vyv4FpA?e=mN9fIE"
+            rel="noreferrer noopener" target="_blank"
+            title="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/euz7wcghxxzhtbrcvfvru7ebf4jxbn1pmasvks5vyv4fpa?e=mn9fie">t02-publicite-sujets-choisis.xlsx</a>
+    </p>
+
+
+    <h4>PLANCHES</h4>
+    <ul>
+        <li>Planche d'inspiration (moodboard) dans Figma - Cadre (Frame) format 1920x1080</li>
+        <li>Planche de styles - Cadre (Frame) format format 1920x1080</li>
+        <li>Les 2 planches dans le même fichier Figma.</li>
+        <li>Remplir le document <a
+                href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUWb5_fIM2xGv4XSLMOsAawBAZGjhx9-79qFVjon_EuTTw?e=bYNfZz"
+                rel="noreferrer noopener" target="_blank"
+                title="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/euwb5_fim2xgv4xslmosaawbazgjhx9-79qfvjon_euttw?e=bynfzz">analyse_structure-com.docx</a>
+        </li>
+    </ul>
+    <h4>REMISE PHASE CONCEPT</h4>
+
+    <ol>
+        <li>Lien direct vers votre fichier Figma en ligne (Paramètres de partage: Anyone with the link can edit)
+        </li>
+        <li><span>Un dossier de remise nommé </span><span><span
+                    style="font-size:var(--fontSizeBase300)"><b>votrenomfamille_votreprenom_T01_582-201MO</b></span></span><span
+                style="font-size:var(--fontSizeBase300)">, ce dossier comprends:</span>
+            <ul>
+                <li>Votre fichier travail Figma, exporté en fichier local en format <span><b>.fig</b></span> (save
+                    local copy - voir image ci-dessous)</li>
+                <li>Un sous dossier nommé <span><b>exportations</b></span> qui contiendra vos 3 cadres (frames)
+                    exportés en format <span><b>.png</b></span></li>
+                <li>Un sous-dossier nommé <span><b>typo</b></span> qui contiendra la/les police(s) de caractères
+                    utilisés pour votre logo final (vous devez télécharger le fichier de la police, même si la
+                    police est nativement intégrée à Figma.</li>
+                <li>Un sous-dossier nommé références qui contiendra bvotre document d'anlayse rempli: <a
+                        href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUWb5_fIM2xGv4XSLMOsAawBAZGjhx9-79qFVjon_EuTTw?e=bYNfZz"
+                        rel="noreferrer noopener" target="_blank"
+                        title="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/euwb5_fim2xgv4xslmosaawbazgjhx9-79qfvjon_euttw?e=bynfzz">analyse_structure-com.docx</a>
+                </li>
+            </ul>
+        </li>
+    </ol>
+
+    <p>Vous devrez ensuite compressé le
+        dossier <strong>votrenomfamille_votreprenom_T02-CONCEPT_582-201MO</strong> en
+        format .zip et le remettre dans devoir avant le prochain cours.</p>
+
+    <h3><strong>Dates importantes </strong>(notez à vos agenda!)</h3>
+
+    <h4>REMISES EN 3 PARTIES</h4>
+
+    <ul>
+        <li>22 février (cours 5): Remise du concept</li>
+        <li>29 février (cours 6): Remise finale (vous devez avoir terminé votre design) - Évaluation formative en classe
+        </li>
+        <li>14 mars (cours 7): Remise finale</li>
+    </ul>
+
+
+    <h3>Critères d'évaluation</h3>
+
+    <h4>PHASE CONCEPT (5%)</h4>
+
+    <ul>
+        <li>Positionnement des éléments adéquats</li>
+        <li>Palette de couleurs harmonieuses</li>
+        <li>Relation entre le langage plastique et le message juste (choix des images versus
+            le sujet choisis)</li>
+        <li>Respect des consignes</li>
+    </ul>
+
+    <h4>PHASE FINALE (10%)</h4>
+
+    <ul>
+        <li>Palette de couleurs harmonieuses</li>
+        <li>Choix typographiques judicieux</li>
+        <li>Respect des critères d’esthétisme en Web design</li>
+        <li>Message, clientèle cible et contexte de présentation judicieux</li>
+        <li>Relation entre le langage plastique et le message juste</li>
+        <li>Respect des consignes</li>
+    </ul>
+
+
+
+
+
+    <dots></dots>
+
+    <h2>Devoirs</h2>
+    <h3>Vote logo</h3>
+
+    <p>Avant le prochain cours: Voter pour votre logo préféré parmi ceux qui ont été présentés aujourd'hui.</p>
+
+    <h3>T02 - Publicité</h3>
+
+    <h4>Phase Évaluation du projet - Commande</h4>
+
+    <p>Choix du contenu de la commande = Choix de votre sujet parmi les deux thème mentionné plus-haut.
+         </p>
+
+    <h4>Phase Concept</h4>
+
+    <p>Remise au prochain cours (22 février)</p>
+
+    <p>Notez que la <strong>Phase concept</strong> vaut pour 5% mais <strong>T02 - Publicité</strong> vaut pour 15% au
+        total </p>
+
+    <ul>
+        <li>Planche d'inspiration</li>
+        <li>Planche de styles</li>
+        <li>Document <a
+                href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUWb5_fIM2xGv4XSLMOsAawBAZGjhx9-79qFVjon_EuTTw?e=bYNfZz"
+                rel="noreferrer noopener" target="_blank"
+                title="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/euwb5_fim2xgv4xslmosaawbazgjhx9-79qfvjon_euttw?e=bynfzz">analyse_structure-com.docx</a>
+        </li>
+    </ul>
+
+
+    <h3>Exercices</h3>
+    <p>Complétez les 2 exercices d'aujourd'hui avant le prochain cours.</p>
+
+</wiki-page>
+
+
+
+
+
+<!-------------- 
+  _____                       _____ 
+ / ____|                     | ____|
+| |     ___  _   _ _ __ ___  | |__  
+| |    / _ \| | | | '__/ __| |___ \ 
+| |___| (_) | |_| | |  \__ \  ___) |
+ \_____\___/ \__,_|_|  |___/ |____/ 
+                                                          
+---------------->
+
+<wiki-page name="Cours 05" date="2024-02-18">
+
+</wiki-page>
+
+
+
+
+
+<!-----------------------------------
+  _____                         __  
+ / ____|                       / /  
+| |     ___  _   _ _ __ ___   / /_  
+| |    / _ \| | | | '__/ __| | '_ \ 
+| |___| (_) | |_| | |  \__ \ | (_) |
+ \_____\___/ \__,_|_|  |___/  \___/ 
+                                    
+----------------------------------->
+
+<wiki-page name="Cours 06" date="2024-02-25">
+
+</wiki-page>
+
+
+
+
+
+<!-----------------------------------
+  _____                       ______ 
+ / ____|                     |____  |
+| |     ___  _   _ _ __ ___      / / 
+| |    / _ \| | | | '__/ __|    / /  
+| |___| (_) | |_| | |  \__ \   / /   
+ \_____\___/ \__,_|_|  |___/  /_/                   
+----------------------------------->
+<wiki-page name="Cours 07" date="2024-03-05">
+
+</wiki-page>
+
+
+<!-----------------------------------
+  _____                        ___  
+ / ____|                      / _ \ 
+| |     ___  _   _ _ __ ___  | (_) |
+| |    / _ \| | | | '__/ __|  > _ < 
+| |___| (_) | |_| | |  \__ \ | (_) |
+ \_____\___/ \__,_|_|  |___/  \___/ 
+----------------------------------->
+<wiki-page name="Cours 08" date="2024-03-05">
+
+</wiki-page>
+
+
+
+<!-----------------------------------
+  _____                        ___  
+ / ____|                      / _ \ 
+| |     ___  _   _ _ __ ___  | (_) |
+| |    / _ \| | | | '__/ __|  \__, |
+| |___| (_) | |_| | |  \__ \    / / 
+ \_____\___/ \__,_|_|  |___/   /_/                 
+----------------------------------->
+<wiki-page name="Cours 09" date="2024-03-05">
+
+</wiki-page>
+
+
+
+<!-----------------------------------
+  _____                       __  ___  
+ / ____|                     /_ |/ _ \ 
+| |     ___  _   _ _ __ ___   | | | | |
+| |    / _ \| | | | '__/ __|  | | | | |
+| |___| (_) | |_| | |  \__ \  | | |_| |
+ \_____\___/ \__,_|_|  |___/  |_|\___/                                     
+----------------------------------->
+<wiki-page name="Cours 10" date="2024-04-30">
+
+</wiki-page>
+
+
+
+<!-----------------------------------
+  _____                       __ __ 
+ / ____|                     /_ /_ |
+| |     ___  _   _ _ __ ___   | || |
+| |    / _ \| | | | '__/ __|  | || |
+| |___| (_) | |_| | |  \__ \  | || |
+ \_____\___/ \__,_|_|  |___/  |_||_|
+ ----------------------------------->
+<wiki-page name="Cours 11" date="2024-04-30">
+
+</wiki-page>
+
+
+
+<!-----------------------------------
+  _____                       __ ___  
+ / ____|                     /_ |__ \ 
+| |     ___  _   _ _ __ ___   | |  ) |
+| |    / _ \| | | | '__/ __|  | | / / 
+| |___| (_) | |_| | |  \__ \  | |/ /_ 
+ \_____\___/ \__,_|_|  |___/  |_|____|
+ ----------------------------------->
+<wiki-page name="Cours 12" date="2024-04-30">
+
+</wiki-page>
+
+
+
+<!-----------------------------------
+  _____                       __ ____  
+ / ____|                     /_ |___ \ 
+| |     ___  _   _ _ __ ___   | | __) |
+| |    / _ \| | | | '__/ __|  | ||__ < 
+| |___| (_) | |_| | |  \__ \  | |___) |
+ \_____\___/ \__,_|_|  |___/  |_|____/       
+                             
+ ----------------------------------->
+<wiki-page name="Cours 13" date="2024-04-30">
+
+</wiki-page>
+
+
+
+<!-----------------------------------
+  _____                       __ _  _   
+ / ____|                     /_ | || |  
+| |     ___  _   _ _ __ ___   | | || |_ 
+| |    / _ \| | | | '__/ __|  | |__   _|
+| |___| (_) | |_| | |  \__ \  | |  | |  
+ \_____\___/ \__,_|_|  |___/  |_|  |_|  
+                      
+ ----------------------------------->
+
+<wiki-page name="Cours 14" date="2024-05-30">
+
+</wiki-page>
+
+
+<!-----------------------------------
+  _____                       __ _____ 
+ / ____|                     /_ | ____|
+| |     ___  _   _ _ __ ___   | | |__  
+| |    / _ \| | | | '__/ __|  | |___ \ 
+| |___| (_) | |_| | |  \__ \  | |___) |
+ \_____\___/ \__,_|_|  |___/  |_|____/ 
+                                                                      
+ ----------------------------------->
+
+<wiki-page name="Cours 15" date="2024-05-30">
+
+</wiki-page>

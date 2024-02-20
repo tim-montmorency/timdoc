@@ -38,6 +38,7 @@
      /* SVP conservez les 2 variables CSS suivantes (et non scss) car je les utilise en démo dans un des mes cours (Marie-Michelle) */
     --main-color: #ff003a;
     --grostitre-size-desktop: 36px;
+    --h1-size-desktop: 48px;
     
 }
 
@@ -312,7 +313,7 @@ footer {
         margin-left: 25px;
         margin-bottom: 25px;
         li {
-            margin-top: 15px;
+            margin-top: 3px;
         }
 
         line-height: 1.4;
@@ -363,7 +364,24 @@ footer {
         }
     }
 
-    h2, h3 {
+    h1{
+        font-size: 8vw;
+        @media (min-width: 576px) {
+            font-size: var(--h1-size-desktop);
+        }
+    }
+
+    
+    h2 {
+        font-size: 7vw !important;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        @media (min-width: 576px) {
+            font-size: var(--grostitre-size-desktop) !important;
+        }
+    }
+
+    h3 {
         margin-bottom: 25px;
         margin-top: 50px;
         font-size: 6vw;
@@ -372,7 +390,8 @@ footer {
         }
     }
 
-    .grostitre + h3
+    .grostitre + h3,
+    h2 + h3
     {
         margin-top: 20px;
     }
@@ -380,7 +399,7 @@ footer {
     // h4, h5, h6{
     h4, h6{
         margin-bottom: 20px;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     
@@ -604,9 +623,7 @@ table{
         max-width: 100%;
         padding: 25px 25px;
     
-        h3 {
-            margin-top: 0;
-        }
+ 
     
     }
 

@@ -11,10 +11,16 @@
 
  <dots></dots>
  <grostitre>Design de l'interface de l'appli</grostitre>
+
+
+ <p>Voir des inspirations de <em>design d'applis</em>: <a href="https://dribbble.com/search/app-design" target="_blank" rel="noopener noreferrer">sur Dribbble</a>.</p>
+
+
  <p>Travail individuel pour la personne qui est fera l'applicaiton mobile <em>APP</em>. Vous devez quand même collaborer avec votre co-équipier pour vous assurer que vos styles s'alignent bien ensemble.</p>
  <br>
  <p>Voici un exemple de ce qui est attendu à peu près, comme design 👇</p>
  <img src="images/projet1_demo_app_entiere.png" alt="aperçu de l'appli" style="max-width: 300px; border:1px solid #eeeeee;"><br>
+
 
  <p>Voici ce que vous devez concevoir l'interface graphique à l'aide de Figma. Suivre les styles Bootstrap notamment pour les cartes et la navbar et personnalisez avez vos styles (typos, couleurs, lignes, ombres, encadrement des cartes, couleurs de textes, d'arrière plana des sections etc.)</p>
 
