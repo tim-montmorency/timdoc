@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @type     article
  * @title    Media queries
@@ -17,10 +18,14 @@
 <p>Dans ce cas j'ai:</p>
 
 <ul>
-    <li>Une déclaration de media query <incode>@media</incode></li>
-    <li>Un type de média screen <incode>screen</incode></li>
-    <li>Un opérateur logique <incode>and</incode></li>
-    <li>Une caractéristique <incode>(min-width: 1000px)</incode></li>
+  <li>Une déclaration de media query <incode>@media</incode>
+  </li>
+  <li>Un type de média screen <incode>screen</incode>
+  </li>
+  <li>Un opérateur logique <incode>and</incode>
+  </li>
+  <li>Une caractéristique <incode>(min-width: 1000px)</incode>
+  </li>
 </ul>
 
 <p>Nous pourrions donc définir la couleur rouge comme couleur de fond de notre page:</p>
@@ -29,9 +34,9 @@
 
 <p>Et si notre media query est respectée, être un écran et avoir une largeur minimale de 1000px, redéfinir cette couleur à bleu:</p>
 
-<highlight lang="css">@media screen and (min-width: 1000px) { 
+<highlight lang="css">@media screen and (min-width: 1000px) {
   body { background: blue; }
-}</highlight>
+  }</highlight>
 
 <clipasset src="videos/media-query.mp4"></clipasset>
 
@@ -43,10 +48,18 @@
 <p>Le type de média est optionnel. Il correspond au contexte utilisé pour consulter à la page.</p>
 
 <ul>
-    <li><incode>all</incode> couvre tous les types de médias de cette liste <em>(par défaut)</em>.</li>
-    <li><incode>screen</incode> Si quelqu'un consulte la page via un écran 📱/💻.</li>
-    <li><incode>print</incode> Si quelqu'un décide d'imprimer la page.</li>
-    <li><incode>speech</incode> Si quelqu'un utilise un outil de synthèse vocale 🔊.</li>
+  <li>
+    <incode>all</incode> couvre tous les types de médias de cette liste <em>(par défaut)</em>.
+  </li>
+  <li>
+    <incode>screen</incode> Si quelqu'un consulte la page via un écran 📱/💻.
+  </li>
+  <li>
+    <incode>print</incode> Si quelqu'un décide d'imprimer la page.
+  </li>
+  <li>
+    <incode>speech</incode> Si quelqu'un utilise un outil de synthèse vocale 🔊.
+  </li>
 </ul>
 
 <warning>Si le type est omis, les règles s’appliqueront à tous les types d’appareils. Autrement dit, <incode>@media all and (min-width: 1000px) { ... }</incode> et <incode>@media (min-width: 1000px) { ... }</incode> sont équivalent.</warning>
@@ -59,12 +72,21 @@
 <p>Les caractéristiques média s'écrivent <u>toujours entre parenthèses</u> et testent si une condition spécifique est respectée.</p>
 
 <ul>
-    <li><strong>min-width/max-width</strong> Basé sur la largeur du viewport <em>(de la fenêtre)</em>.<br>Ex: <incode>(min-width: 1000px)</incode></li>
-    <li><strong>min-height/max-height</strong> Basé sur la hauteur du viewport <em>(de la fenêtre)</em>.<br>Ex: <incode>(max-height: 600px)</incode></li>
-    <li><strong>min-aspect-ratio/max-aspect-ratio</strong> Le rapport largeur/hauteur du viewport <em>(de la fenêtre)</em>. Ex: <incode>(min-aspect-ratio: 16/9)</incode></li>
-    <li><strong>orientation</strong> <incode>portrait</incode> ou <incode>landscape</incode></li>
-    <li><strong>prefers-reduced-motion</strong> <incode>no-preference</incode> ou <incode>reduce</incode>. Certaines personnes sont sensibles aux animations. D'où pourquoi de plus en plus d'appareils laissent indiquer à l'utilisateur si il préfère un niveau d'animation normal ou réduit. Ex: <incode>(prefers-reduced-motion: reduce)</incode></li>
-    <li><strong>prefers-color-scheme</strong> <incode>light</incode> ou <incode>dark</incode> ◻️/◼️. Ex: <incode>(prefers-color-scheme: dark)</incode></li>
+  <li><strong>min-width/max-width</strong> Basé sur la largeur du viewport <em>(de la fenêtre)</em>.<br>Ex: <incode>(min-width: 1000px)</incode>
+  </li>
+  <li><strong>min-height/max-height</strong> Basé sur la hauteur du viewport <em>(de la fenêtre)</em>.<br>Ex: <incode>(max-height: 600px)</incode>
+  </li>
+  <li><strong>min-aspect-ratio/max-aspect-ratio</strong> Le rapport largeur/hauteur du viewport <em>(de la fenêtre)</em>. Ex: <incode>(min-aspect-ratio: 16/9)</incode>
+  </li>
+  <li><strong>orientation</strong>
+    <incode>portrait</incode> ou <incode>landscape</incode>
+  </li>
+  <li><strong>prefers-reduced-motion</strong>
+    <incode>no-preference</incode> ou <incode>reduce</incode>. Certaines personnes sont sensibles aux animations. D'où pourquoi de plus en plus d'appareils laissent indiquer à l'utilisateur s'il préfère un niveau d'animation normal ou réduit. Ex: <incode>(prefers-reduced-motion: reduce)</incode>
+  </li>
+  <li><strong>prefers-color-scheme</strong>
+    <incode>light</incode> ou <incode>dark</incode> ◻️/◼️. Ex: <incode>(prefers-color-scheme: dark)</incode>
+  </li>
 </ul>
 
 <clipasset src="videos/prefer-color-scheme.mp4"></clipasset>
@@ -81,11 +103,17 @@
 
 <p>Permettent d'indiquer le lien entre différentes parties de notre média query.</p>
 
-<p><incode>and</incode> Permet de combiner plusieurs requêtes média en une seule. Pour que la requête soit respectée, il faut que chacune des sous-requêtes soit vraie. ex: <incode>screen and (min-width: 1000px)</incode> s'appliquera sur tous les écrans de minimum 1000px de large.</p>
+<p>
+  <incode>and</incode> Permet de combiner plusieurs requêtes média en une seule. Pour que la requête soit respectée, il faut que chacune des sous-requêtes soit vraie. ex: <incode>screen and (min-width: 1000px)</incode> s'appliquera sur tous les écrans de minimum 1000px de large.
+</p>
 
-<p><incode>not</incode> Retourne le résultat opposé d'une requête média. S'il est utilisé dans une liste de requêtes séparées par des virgules, il ne nie que la requête sur laquelle il est appliqué. ex: <incode>not (orientation: landscape)</incode> s'appliquera sur tous les écrans dont l'orientation est portrait.</p>
+<p>
+  <incode>not</incode> Retourne le résultat opposé d'une requête média. S'il est utilisé dans une liste de requêtes séparées par des virgules, il ne nie que la requête sur laquelle il est appliqué. ex: <incode>not (orientation: landscape)</incode> s'appliquera sur tous les écrans dont l'orientation est portrait.
+</p>
 
-<p><incode>,</incode> <em>(virgule)</em> Permet de combiner plusieurs requêtes. Chaque requête est traitée séparément. Il suffit qu'une seule de ces requêtes soit respectée pour que les styles s'appliquent. ex: <incode>(orientation: landscape), (min-width: 600px)</incode> s'appliquera sur les appareils dont l'orientation est landscape <strong>et/ou</strong> la largeur minimale est de 600px. Donc une tablette en mode portrait serait quand même affectée par les styles même si son orientation ne correspond pas.</p>
+<p>
+  <incode>,</incode> <em>(virgule)</em> Permet de combiner plusieurs requêtes. Chaque requête est traitée séparément. Il suffit qu'une seule de ces requêtes soit respectée pour que les styles s'appliquent. ex: <incode>(orientation: landscape), (min-width: 600px)</incode> s'appliquera sur les appareils dont l'orientation est landscape <strong>et/ou</strong> la largeur minimale est de 600px. Donc une tablette en mode portrait serait quand même affectée par les styles même si son orientation ne correspond pas.
+</p>
 
 <dots></dots>
 
@@ -104,9 +132,9 @@
 
 <p>À pleines lorsque la largeur de l'écran est inférieur à 600px:</p>
 
-<highlight lang="css">@media (max-width: 600px) { 
-  .section { width: 100%; } 
-}</highlight>
+<highlight lang="css">@media (max-width: 600px) {
+  .section { width: 100%; }
+  }</highlight>
 
 <dots></dots>
 
@@ -116,8 +144,8 @@
 <p>Les médias queries peuvent être utilisés à différents endroits:</p>
 
 <ul>
-    <li>Dans les <strong>feuilles de styles</strong>.</li>
-    <li>Directement sur une balise <incode>&lt;link&gt;</incode>. ex: les styles contenu dans le fichier <incode>print.css</incode> ne devraient s'appliquer que lorsque l'utilisateur imprime la page et non lorsque celle-ci est affichée à l'écran:</li>
+  <li>Dans les <strong>feuilles de styles</strong>.</li>
+  <li>Directement sur une balise <incode>&lt;link&gt;</incode>. ex: les styles contenu dans le fichier <incode>print.css</incode> ne devraient s'appliquer que lorsque l'utilisateur imprime la page et non lorsque celle-ci est affichée à l'écran:</li>
 </ul>
 
 <highlight lang="html">&lt;link href="print.css" rel="stylesheet" media="print"&gt;</highlight>
@@ -129,4 +157,3 @@
 <exercice href="exercices/ou-est-charlie/"></exercice>
 
 <dots></dots>
-
