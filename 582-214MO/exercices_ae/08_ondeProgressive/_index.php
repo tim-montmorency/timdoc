@@ -7,7 +7,8 @@
  */
 ?>
 
-
+<p class="spacer"> Le but de l’exercice est d'utiliser l’effet onde progressive pour animer les cheveux de l'homme comme s’ils étaient dans le vent. </p>
+<dots></dots>
 <grostitre>Matériel</grostitre>
 
 <p>Importez le fichier Illustrator suivant dans un nouveau projet After Effects:</p>
@@ -17,7 +18,6 @@
 
 
 <grostitre>Étapes</grostitre>
-<p>Le but de l’exercice est d'utiliser l’effet onde progressive pour animer les cheveux de l'homme comme s’ils étaient dans le vent.  </p>
 <checklist>
 Créer une composition à partir du fichier Illustrator Homme et plante.  
 Pour éviter que le calque soit coupé, faire un clic droit sur celui-ci, ensuite appuyer sur créer, créer des formes à partir du calque vectoriel. 

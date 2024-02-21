@@ -189,6 +189,12 @@
 <grostitre>Répertoires spécialisés pour vous aider dans vos recherches</grostitre>
 <table>
 <tr>
+        <th>Cultive</th>
+        <th>Répertoire d'emplois dans le domaine culturel</th>
+        <th><p><doclink href="https://cultive.ca/emplois/ ">Site web</doclink></p></th>        
+</tr>
+
+<tr>
         <th>Répertoire des membres du ROCAL </th>
         <th>Réseau d'organismes culturels et d'artistes de Laval.</th>
         <th><p><doclink href="https://www.rocal-regroupement.org/membres/repertoire-membres.html ">Site web</doclink></p></th>        

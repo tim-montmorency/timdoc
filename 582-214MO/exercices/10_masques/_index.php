@@ -1,21 +1,20 @@
 <?php
 /**
- * @type     article
- * @title    Exercice 10_Masque
- * @icon     images/icon.png
- * @abstract masque et transparence
+ * @type     exercice
+ * @title    Masque
+ * @icon     images/thumb.jpg
+ * @abstract Dans cet exercice, vous devrez utiliser la fonction masque pour remplir des contenants avec un liquide.
  */
 ?>
 
 
 
-<p class="spacer"> Deux exercices sont présents dans cette section: Masque et transparence.</p>
+<p class="spacer"> Dans cet exercice, vous devrez utiliser la fonction masque pour remplir des contenants avec un liquide.</p>
 
 <dots></dots>
 
-<grostitre>Masque</grostitre>
 
-<grostitre>Document de départ</grostitre>
+<grostitre>Matériel</grostitre>
 <p>Téléchargez le dossier suivant et ouvrez le dans Illustrator.</p>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/ERSSRKu9iPxDiV1ZFULyVtgBfCYfuNU10TS4DIuhV5w3JA?e=YfP40u">Document de départ</doclink>
 <dots></dots>
@@ -30,24 +29,9 @@
 
 
 <dots></dots>
-
-<knowmore href="https://helpx.adobe.com/ca_fr/illustrator/how-to/crop-using-masks.html">
+<grostitre>Tutoriel 📚</grostitre>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ESeXqhhhbhlAqZmeitd55MYB3JZbO31UFuHZTnllUly2NA?e=eV3zuK">Outil masque</doclink>
+<iframe src="https://cmontmorency365-my.sharepoint.com/personal/lora_boisvert_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=18aa9727-6e61-4019-a999-9e8ad779e4c6&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="01_masque_ecretage.mp4"></iframe>
+<p><knowmore href="https://helpx.adobe.com/ca_fr/illustrator/how-to/crop-using-masks.html">
 Si vous avez de la difficulté avec un élément, consultez ce tutoriel. 
-</knowmore>
-
-<grostitre>Transparence</grostitre>
-<grostitre>Document de départ</grostitre>
-<p>Téléchargez la texture suivante pour l'exercice.</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:i:/g/personal/lora_boisvert_cmontmorency_qc_ca/ERQxhcNg3I9EoUr-DRJrJdMB6F_OYSTTA-pm6QqBq1zH3w?e=bQL8ay">Document de départ</doclink>
-<dots></dots>
-<grostitre>Étapes</grostitre>
-
-<checklist>
-    Ouvrez le personnage créé à l'exercice 05_crayon_shaper. 
-    Appliquez la texture téléchargée avec la fonction <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXTcfcFC84xJltFyL_FIR3sBNFKIpMBBdcxbhAEYgab9jA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=japQ2m">transparence</a> comme motif pour le pantalon de votre personnage.  
-</checklist>
-
-<p>Exemple de résultat:</p>
-<img src="images/transparence.jpg">
-
-
+</knowmore></p>
