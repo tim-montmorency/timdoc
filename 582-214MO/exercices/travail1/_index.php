@@ -78,9 +78,11 @@ Vous devez créer un nuancier et utiliser les couleurs suivantes pour votre proj
 
 <dots></dots>
 <grostitre>Typographie</grostitre>
-<p>Typographie utilisée:<b>Filson bold</b>.</p>
+<p>Typographie utilisée: <b>Filson bold</b>.</p>
 <p>Taille de la typo: 1274.97</p>
 <p>Couleur : intérieur : jaune / contour : rouge à 10 pt</p>
+<p>Écrire les lettres A, O, Û, T</p>
+<p>À la même place que les lettres août, écrire les lettres M, A, R, S. Vous pouvez masquer leur calque.</p>
 
 <p>1. <a href ="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EZCFiYjgWCNCpIHrgRNYDQcBXXDxapaKDJVAh2U6uj-vqA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7f589Z">Activer</a>  la typographie via Adobe</p>
 <p>OU</p>

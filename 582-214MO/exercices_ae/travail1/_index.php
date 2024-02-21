@@ -15,7 +15,16 @@
 Voici la <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EbSIG69C4x9LkNqt7dYB2ycBgA7ebFpVStyzEWZ2pbTG0Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=erjDYU">vidéo de référence</a> pour la composition de travail.
 
 <dots></dots>
+<grostitre>Vidéo obligatoire</grostitre>
+<p>La vidéo suivante vous montre comment configurer votre projet. </p>
+    <p>*Note: Lorsque vous importez le fichier illustrator dans After effects, choisissez Composition - Conserver la taille des calques (et non composition seulement).</p>
 
+<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EbzaClFNxa1Fp3dJJ0Ef5jgBab16Ih50gqCSkVjAOgNZCQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lxcaR3">Tutoriel explicatif</doclink>
+<warning>Il est important d'écouter la vidéo ci-haut. Elle vous permettra d'avoir un projet bien configuré et avec la bonne nomenclature.</warning>
+<p>La vidéo fait référence à un modèle de projet, le voici: </p>
+<doclink href ="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EdwoU9uyDHtOlo2NAj-dTl0BWD9yZXXeU3pEbSbamtwg3Q?e=lNAZNd">Template ae</doclink>
+
+<dots></dots>
 <grostitre>Configuration de votre projet</grostitre>
 <checklist>
     Assurez-vous de corriger votre fichier Illustrator pour pouvoir le transférer dans After Effects correctement. 
@@ -36,9 +45,6 @@ Durée: 28 secondes
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Edj2HQa-WuVKvVZbtr-cSe8B0yjMWwi_UPPc-Ka0aiWm_A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fTzIe5">Capsule vidéo référence</doclink>
 
 
-
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EbzaClFNxa1Fp3dJJ0Ef5jgBab16Ih50gqCSkVjAOgNZCQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lxcaR3">Tutoriel explicatif</doclink>
-<warning>Il est important d'écouter la vidéo ci-haut. Elle vous permettra d'avoir un projet bien configuré et avec la bonne nomenclature.</warning>
 
 
 <dots></dots>
@@ -146,15 +152,15 @@ Aspect de la balle
 <grostitre>Typographie</grostitre>
 
 <checklist>
-Dupliquer A et O (calques illustrator) en pour les 12 calques et replacer un à un avec l’expression pour y voir 2 couches visibles. 
+Dupliquer A et O (calques illustrator) pour les 12 calques et replacer un à un avec l’expression pour y voir 2 couches visibles. 
 Écraser le A et le O dans le temps (couche par couche) en séquence. 
 *Préparer le morphing A à M:* 
 Nouveau calque de forme, retracer M d’abord (pensez aussi au trou du A comme 2e forme sur le même calque). 
-Dupliquer le calque que de forme et replacer les points autour du A de façon stratégique. 
+Dupliquer le calque de forme et replacer les points autour du A de façon stratégique. 
 Créer les 4 keyframes sur les 2 tracés des 2 calques. 
 Copier-coller les keyframes du M vers celui du nouveau A, quelques frames plus loin sur la timeline. 
 Répéter pour le O vers A. 
-Dupliquer les calques M et A (calques illustrator) en pour les 12 calques et replacer un à un avec l’expression pour y voir 2 couches visibles. 
+Dupliquer les calques M et A (calques illustrator) pour les 12 calques et replacer un à un avec l’expression pour y voir 2 couches visibles. 
 Dévoiler MA en 3D en séquence. 
 </checklist>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EvhtyIwmJRdHndc_OKtaxwQBoaZekehMNaWE5jGlVJC8uw?e=QyblGN">Tutoriels</doclink>

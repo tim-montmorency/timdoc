@@ -53,7 +53,7 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EVZ3fEbaJS1Cv0YL7uDlIR8BCMuohWMndfR5I5SmYWQUmA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=c7zFEM">Calques</a> </li>
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EVmoKapTOL1Am-kdZ2p9yTYBpBSGgi6B7rUxMS46wNZfLw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=h5nd9q">Naviguer sous les calques</a> </li>
 </p>
-<intlink href="../exercices/00_nouveau_doc"></intlink>
+<exercice href="../exercices/00_nouveau_doc"></exercice>
 
 
 <p><h3>Notions</h3>
@@ -74,7 +74,7 @@
     </ul>
 </li></ul></p>
 
-<intlink href="../exercices/00_transformations"></intlink>
+<exercice href="../exercices/00_transformations"></exercice>
 
 <p><h3>Notions</h3>
 <ul>
@@ -85,8 +85,10 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EeZQaEw76_tHurXeny4QgVcBIdc_WGnyfiliKSjMGZTU5w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mnB1qS">Courbure</a></li>
 
 </ul></p>
+<exercice href="../exercices/01_plume"></exercice>
+<exercice href="../exercices/01_vagues"></exercice>
+<exercice href="../exercices/01_voiture"></exercice>
 
-<intlink href="../exercices/01_plume"></intlink>
 
 <p><h3>Notions</h3>
 <ul>
@@ -277,7 +279,8 @@
 <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EbxIne1zUL1JscVzC0cGXk4BZH9tOinv_qNyltcDdiLHRw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=C1B8cz">Raccourcis</a></li>
 </ul></p>
 
-<intlink href="../exercices_ae/01_animation_base"></intlink></p>
+<exercice href="../exercices_ae/00_plante"></exercice></p>
+<exercice href="../exercices_ae/00_monstre"></exercice></p>
 
 <h2>Devoir</h2>
 Terminer le travail 1 partie 1
