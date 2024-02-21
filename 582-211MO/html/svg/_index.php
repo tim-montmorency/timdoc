@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @type     article
  * @title    SVG
@@ -38,12 +39,24 @@
 <p>Voici les plus courants:</p>
 
 <ul>
-    <li><incode>&lt;rect&gt;</incode> permets de définir des formes rectangulaires.</li>
-    <li><incode>&lt;circle&gt;</incode> permets de définir des cercles.</li>
-    <li><incode>&lt;ellipse&gt;</incode> similaire à circle, mais permet de définir des formes ovales.</li>
-    <li><incode>&lt;polygon&gt;</incode> permets de définir toute forme géométrique constituée uniquement de lignes droites.</li>
-    <li><incode>&lt;path&gt;</incode> élément générique permettant de définir n'importe quelle forme, incluant les celles comportant des lignes courbes.</li>
-    <li><incode>&lt;g&gt;</incode> représente un groupe d'éléments.</li>
+    <li>
+        <incode>&lt;rect&gt;</incode> permets de définir des formes rectangulaires.
+    </li>
+    <li>
+        <incode>&lt;circle&gt;</incode> permets de définir des cercles.
+    </li>
+    <li>
+        <incode>&lt;ellipse&gt;</incode> similaire à circle, mais permet de définir des formes ovales.
+    </li>
+    <li>
+        <incode>&lt;polygon&gt;</incode> permets de définir toute forme géométrique constituée uniquement de lignes droites.
+    </li>
+    <li>
+        <incode>&lt;path&gt;</incode> élément générique permettant de définir n'importe quelle forme, incluant celles comportant des lignes courbes.
+    </li>
+    <li>
+        <incode>&lt;g&gt;</incode> représente un groupe d'éléments.
+    </li>
 </ul>
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/SVG/Element">Éléments SVG</doclink>
@@ -148,7 +161,8 @@
 
 <codepen id="WNKgwML" tab="html,result" height="340"></codepen>
 
-<a name="inline"></a><h3>Inline</h3>
+<a name="inline"></a>
+<h3>Inline</h3>
 
 <p>Coller le code d’un SVG dans une page HTML est la méthode la plus facile d’afficher un SVG tout en gardant ses capacités de manipulation. Cependant, chaque fois que ledit SVG sera modifié, il faudra re-exporter son code et aller le coller dans les pages HTML aux endroits l’affichant.</p>
 
@@ -175,8 +189,12 @@
 <p>Plusieurs propriétés CSS de base sont compatibles avec les formes SVG. Cependant, certaines propriétés leur sont propres:</p>
 
 <ul>
-    <li><incode>fill</incode> contrôlant la couleur de fond <em>(équivalent de <incode>background-color</incode>)</em>.</li>
-    <li><incode>stroke</incode> contrôlant la bordure <em>(équivalent de <incode>border</incode>)</em>.</li>
+    <li>
+        <incode>fill</incode> contrôlant la couleur de fond <em>(équivalent de <incode>background-color</incode>)</em>.
+    </li>
+    <li>
+        <incode>stroke</incode> contrôlant la bordure <em>(équivalent de <incode>border</incode>)</em>.
+    </li>
 </ul>
 
 <p>Par exemple, la propriété <incode>fill</incode> de la forme verte est modifiée lorsque la forme est survolée.</p>
@@ -196,4 +214,3 @@
 <exercice href="exercices/hollywood-boulevard/"></exercice>
 
 <dots></dots>
-
