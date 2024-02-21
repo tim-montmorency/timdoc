@@ -2,5 +2,7 @@
     "type": "exercice",
     "title": "La mise en page",
     "icon": "images\/thumb.jpg",
-    "abstract": "Dans cet exercice, vous devrez mettre un texte en page."
+    "abstract": "Dans cet exercice, vous devrez mettre un texte en page.",
+    "index": 0,
+    "href": "11_mise_page\/"
 }

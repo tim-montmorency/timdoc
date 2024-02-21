@@ -2,5 +2,7 @@
     "type": "exercice",
     "title": "La typographie",
     "icon": "images\/thumb.jpg",
-    "abstract": "Dans cet exercice vous modifierez la typographie \u00e0 l'aide des outils d'alignement."
+    "abstract": "Dans cet exercice vous modifierez la typographie \u00e0 l'aide des outils d'alignement.",
+    "index": 0,
+    "href": "11_typographie\/"
 }

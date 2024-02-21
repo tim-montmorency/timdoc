@@ -497,8 +497,6 @@ Utilisez la proprité <incode>transform</incode>.<br>
 <highlight lang="html"><codepen id="gOEwrvG" notab="true" height="400"></codepen></highlight>
 <codepen id="gOEwrvG" notab="true" height="400"></codepen>
 
-
-
 <dots></dots>
 
 

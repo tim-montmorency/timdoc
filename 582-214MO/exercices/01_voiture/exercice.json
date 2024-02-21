@@ -2,5 +2,7 @@
     "type": "exercice",
     "title": "Les voitures",
     "icon": "images\/thumb.jpg",
-    "abstract": "Vous utiliserez l'outil plume pour retracer deux voitures."
+    "abstract": "Vous utiliserez l'outil plume pour retracer deux voitures.",
+    "index": 0,
+    "href": "01_voiture\/"
 }

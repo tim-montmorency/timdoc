@@ -2,5 +2,7 @@
     "type": "exercice",
     "title": "Le paysage",
     "icon": "images\/thumb.jpg",
-    "abstract": "Vous utiliserez les outils V et A pour am\u00e9liorer un paysage."
+    "abstract": "Vous utiliserez les outils V et A pour am\u00e9liorer un paysage.",
+    "index": 0,
+    "href": "00_transformations\/"
 }
