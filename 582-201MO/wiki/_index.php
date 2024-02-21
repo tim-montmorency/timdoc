@@ -11,7 +11,7 @@
     http://www.network-science.de/ascii/
 -->
 
-<wiki-page name="Ressources et infos" date="2024-01-20">
+<wiki-page name="Ressources" date="2024-01-20">
     <h2>Plans de cours et guide </h2>
     <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Ef5egnlPtz9Im1lJqb1tRcABeeZEMHn5Cp-EYWYHR-IyJQ?e=nrZQRe"
             target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024</a> <em>(accessible seulement avec
@@ -232,8 +232,8 @@
 
     <ul>
         <li>Un cadre qui sera votre <strong>planche d'inspiration.</strong></li>
-        <li>Un un cadre contenant <strong>votre logo final.</strong></li>
-        <li>Un cadre contenant vos<strong> divers essais de création du logo et plusieurs variations.</strong></li>
+        <li>Un un cadre contenant <strong>votre logo final.</strong></li>
+        <li>Un cadre contenant vos <strong>divers essais de création du logo et plusieurs variations.</strong></li>
     </ul>
 
 
@@ -277,14 +277,9 @@
 <wiki-page name="Cours 04" date="2024-02-11">
 
     <h2>Annonces</h2>
-
     <p>Rappel tutorat (voir onglet <em>Ressources et infos</em>)</p>
-
-    <p>Aujourd'hui AVANT le cours, avoir remis votre <strong>T01 - Logo</strong>: un dossier <strong>.ZIP</strong> et
-        un <strong>LIEN</strong> direct dans Teams &gt; Devoirs</p>
-
-    <p>IMPORTANT: ça doit être un LIEN que je peux cliquer directement dans Devoir pour accélérer le processus lors des
-        présentation en avant.</p>
+    <p>Aujourd'hui AVANT le cours, avoir remis votre <strong>T01 - Logo</strong>: un dossier <strong>.ZIP</strong> et un <strong>LIEN</strong> direct dans Teams &gt; Devoirs</p>
+    <p>IMPORTANT: ça doit être un LIEN que je peux cliquer directement dans Devoir pour accélérer le processus lors des présentation en avant.</p>
 
 
 
@@ -299,8 +294,7 @@
             pour vous?</li>
         <li>Expliquez quel est le type de logo (<a
                 href="https://cmontmorency365-my.sharepoint.com/:p:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Design%20graphique/cours-02/com_graph_logos.pptx?d=w4e216f287d834e12bbdd4fc3bacc5944&amp;csf=1&amp;web=1&amp;e=mdZRUe"
-                rel="noreferrer noopener" target="_blank"
-                title="https://cmontmorency365-my.sharepoint.com/:p:/r/personal/mariem_ouellet_cmontmorency_qc_ca/documents/01_cours/cours%20design%20graphique/cours-02/com_graph_logos.pptx?d=w4e216f287d834e12bbdd4fc3bacc5944&amp;csf=1&amp;web=1&amp;e=mdzrue">com_graph_logos.pptx</a>).
+                rel="noreferrer noopener" target="_blank">com_graph_logos.pptx</a>).
         </li>
         <li>Expliquez vos choix en fonction des notions de base en design graphique (<a
                 href="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERt2-dYSOrFMpQ0qBUE4rRcBiIQqsHh3K8MG6b6X8aeAAw?e=TUXqGN"
@@ -346,19 +340,15 @@
 
     <p><a href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EbRv4o4f48ZGmPPzsQqd-WABFTMNcDg3hierw1dngOFx-g?e=bcwowb" rel="noreferrer noopener" target="_blank">Lien
             vers les éléments visuels dont vous aurez besoin pour recréer cette publicité dans Figma</a></p>
-
     <small>Notes pour l'exercice: </small>
     <ul>
         <li><small>Pour les cercles rosés en arrière-plan des écouteurs, vous allez devoir
-                travailler avez les outils Booléens que vous avez vus au dernier cours pour couper votre rond et qu'ils  ne dépassent pas du cadre.</small></li>
+                travailler avez les outils Booléens que vous avez vus au dernier cours pour couper vos cercles en beigne et qu'ils  ne dépassent pas du cadre.</small></li>
         <li><small>N'oubliez pas l'ombre portée en dehors du cadre.</small></li>
     </ul>
-
     <br>
 
     <p><strong>2- Exercice: Détourer des éléments à partir de photographies</strong></p>
-    
-
     <p><a href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETueWEMEAShMqHuchqXDFKQBq06wRibadhpVRM5ArdME9g?e=cJqMlh" rel="noreferrer noopener" target="_blank">Exercice cours 4 - Détourer un élément dans une photo.fig</a>
     </p>
     <p><small>Notes pour l'exercice:  voir la section Figma ci-haut dans le wiki du cours pour un rappel des instrucitons.</small></p>
@@ -381,13 +371,11 @@
             </ol>
         </li>
     </ol>
-
     <p>Les formats exacts des bannières vous seront donnés au prochain cours.</p>
 
 
-    <h3>Instructions phase concept</h3>
+    <h3>Instructions phase concept (remise cours 5)</h3>
     <h4>SUJET</h4>
-
     <ul>
         <li>Choisir un produit culturel ou un événement culturel de votre choix afin de le promouvoir via une mini
             campagne de publicité Web auprès d'une audience que vous pourrez déterminer.</li>
@@ -395,11 +383,9 @@
         <li>Choisir une cause qui vous tient à cœur et cherchez à sensibiliser une audience que vous pourrez déterminer.
         </li>
     </ul>
-    <p> Lorsque choisi, entrez votre sujet ici:<a
-            href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUz7wCghXxZHtbRCvfvRU7EBF4jxBn1PMaSVKs5vyv4FpA?e=mN9fIE"
-            rel="noreferrer noopener" target="_blank"
-            title="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/euz7wcghxxzhtbrcvfvru7ebf4jxbn1pmasvks5vyv4fpa?e=mn9fie">t02-publicite-sujets-choisis.xlsx</a>
+    <p> Lorsque choisi, entrez votre sujet ici: <a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUz7wCghXxZHtbRCvfvRU7EBF4jxBn1PMaSVKs5vyv4FpA?e=mN9fIE" rel="noreferrer noopener" target="_blank">t02-publicite-sujets-choisis.xlsx</a>
     </p>
+
 
 
     <h4>PLANCHES</h4>
@@ -407,10 +393,7 @@
         <li>Planche d'inspiration (moodboard) dans Figma - Cadre (Frame) format 1920x1080</li>
         <li>Planche de styles - Cadre (Frame) format format 1920x1080</li>
         <li>Les 2 planches dans le même fichier Figma.</li>
-        <li><s>Remplir le document <a
-                    href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUWb5_fIM2xGv4XSLMOsAawBAZGjhx9-79qFVjon_EuTTw?e=bYNfZz"
-                    rel="noreferrer noopener" target="_blank"
-                    title="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/euwb5_fim2xgv4xslmosaawbazgjhx9-79qfvjon_euttw?e=bynfzz">analyse_structure-com.docx</a></s>
+        <li><s>Remplir le document <a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUWb5_fIM2xGv4XSLMOsAawBAZGjhx9-79qFVjon_EuTTw?e=bYNfZz" rel="noreferrer noopener" target="_blank">analyse_structure-com.docx</a></s>
         </li>
     </ul>
     <h4>REMISE PHASE CONCEPT</h4>
@@ -418,29 +401,21 @@
     <ol>
         <li>Lien direct vers votre fichier Figma en ligne (Paramètres de partage: Anyone with the link can edit)
         </li>
-        <li><span>Un dossier de remise nommé </span><span><span
-                    style="font-size:var(--fontSizeBase300)"><b>votrenomfamille_votreprenom_T01_582-201MO</b></span></span><span
-                style="font-size:var(--fontSizeBase300)">, ce dossier comprends:</span>
+        <li><span>Un dossier de remise nommé <em>votrenomfamille_votreprenom_T01_582-201MO</em>, ce dossier comprends:</span>
             <ul>
-                <li>Votre fichier travail Figma, exporté en fichier local en format <span><b>.fig</b></span> (save
+                <li>Votre fichier travail Figma, exporté en fichier local en format <em>.fig</em> (save
                     local copy - voir image ci-dessous)</li>
-                <li>Un sous dossier nommé <span><b>exportations</b></span> qui contiendra vos 3 cadres (frames)
-                    exportés en format <span><b>.png</b></span></li>
-                <li>Un sous-dossier nommé <span><b>typo</b></span> qui contiendra la/les police(s) de caractères
-                    utilisés pour votre logo final (vous devez télécharger le fichier de la police, même si la
-                    police est nativement intégrée à Figma.</li>
-                <li><s>Un sous-dossier nommé références qui contiendra bvotre document d'anlayse rempli: <a
-                            href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUWb5_fIM2xGv4XSLMOsAawBAZGjhx9-79qFVjon_EuTTw?e=bYNfZz"
-                            rel="noreferrer noopener" target="_blank"
-                            title="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/euwb5_fim2xgv4xslmosaawbazgjhx9-79qfvjon_euttw?e=bynfzz">analyse_structure-com.docx</a></s>
+                <li>Un sous dossier nommé <em>exportations</em> qui contiendra vos 3 cadres (frames)
+                    exportés en format <em>.png</em></li>
+                <li>Un sous-dossier nommé <em>typo</em> qui contiendra la/les police(s) de caractères
+                    utilisés pour votre logo final (vous devez télécharger le fichier de la police, même si la police est nativement intégrée à Figma).</li>
+                <li><s>Un sous-dossier nommé références qui contiendra bvotre document d'anlayse rempli: <a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUWb5_fIM2xGv4XSLMOsAawBAZGjhx9-79qFVjon_EuTTw?e=bYNfZz" rel="noreferrer noopener" target="_blank">analyse_structure-com.docx</a></s>
                 </li>
             </ul>
         </li>
     </ol>
 
-    <p>Vous devrez ensuite compressé le
-        dossier <strong>votrenomfamille_votreprenom_T02-CONCEPT_582-201MO</strong> en
-        format .zip et le remettre dans devoir avant le prochain cours.</p>
+    <p>Vous devrez ensuite compressé le dossier <br><em>votrenomfamille_votreprenom_T02-CONCEPT_582-201MO</em> en format <em>.zip</em> et le remettre dans devoir avant le prochain cours.</p>
 
     <h3><strong>Dates importantes </strong>(notez à vos agenda!)</h3>
 
@@ -455,9 +430,7 @@
 
 
     <h3>Critères d'évaluation</h3>
-
     <h4>PHASE CONCEPT (5%)</h4>
-
     <ul>
         <li>Positionnement des éléments adéquats</li>
         <li>Palette de couleurs harmonieuses</li>
@@ -486,29 +459,21 @@
     <h2>Devoirs</h2>
     <h3>Vote logo</h3>
 
-    <p>Avant le prochain cours: Voter pour votre logo préféré parmi ceux qui ont été présentés aujourd'hui.</p>
+    <p>Avant le prochain cours: Voter pour votre logo préféré parmi ceux qui ont été présentés aujourd'hui.</p>
 
     <h3>T02 - Publicité</h3>
-
     <h4>Phase Évaluation du projet - Commande</h4>
-
-    <p>Choix du contenu de la commande = Choix de votre sujet parmi les deux thème mentionné plus-haut.
-         </p>
+    <p>Choix du contenu de la commande = Choix de votre sujet parmi les deux thème mentionné plus-haut.</p>
 
     <h4>Phase Concept</h4>
-
     <p>Remise au prochain cours (22 février)</p>
-
-    <p>Notez que la <strong>Phase concept</strong> vaut pour 5% mais <strong>T02 - Publicité</strong> vaut pour 15% au
-        total </p>
+    <p>Notez que la <strong>Phase concept</strong> vaut pour 5% mais <strong>T02 - Publicité</strong> vaut pour 15% au total </p>
 
     <ul>
         <li>Planche d'inspiration</li>
         <li>Planche de styles</li>
-        <li><s>Document <a
-                    href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUWb5_fIM2xGv4XSLMOsAawBAZGjhx9-79qFVjon_EuTTw?e=bYNfZz"
-                    rel="noreferrer noopener" target="_blank"
-                    title="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/euwb5_fim2xgv4xslmosaawbazgjhx9-79qfvjon_euttw?e=bynfzz">analyse_structure-com.docx</a></s>
+        <li><s>Document <a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUWb5_fIM2xGv4XSLMOsAawBAZGjhx9-79qFVjon_EuTTw?e=bYNfZz"
+rel="noreferrer noopener" target="_blank">analyse_structure-com.docx</a></s>
         </li>
     </ul>
 
