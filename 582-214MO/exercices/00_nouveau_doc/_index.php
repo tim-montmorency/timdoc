@@ -1,9 +1,9 @@
 <?php
 /**
- * @type     article
- * @title    Exercice 00_nouveau_document
- * @icon     images/icon.png
- * @abstract Créer un document et personnaliser l'espace de travail
+ * @type     exercice
+ * @title    Nouveau document
+ * @icon     images/thumb.jpg
+ * @abstract Créer un document et personnaliser l'espace de travail. 
  */
 ?>
 
@@ -22,6 +22,7 @@
 <dots></dots>
 
 <grostitre>Modifiez l'espace de travail </grostitre>
+<p>Dans la bare de menu, sélectionnez Fenêtre -> Espace de travail -> Les indispensables classiques pour avoir accès à tous les outils.</p>
 <p>Personnalisez l’espace de travail en bougeant votre panneau de Calques au-dessus du panneau Propriétés (Cliquez, bougez et, avant de relâcher, assurez-vous que la barre bleue est au-dessus du panneau de Propriétés et non tout autour).  En cas d’erreur, vous pouvez réinitialiser Les indispensables classiques. </p> 
 
 <p>Sauvegardez votre espace de travail à votre nom. </p>
