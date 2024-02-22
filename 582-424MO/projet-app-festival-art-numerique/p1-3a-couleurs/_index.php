@@ -10,6 +10,7 @@
 
 
 <grostitre>Générez la palette selon les variables de couleur Bootstrap</grostitre>
+<p><a href="http://colormind.io/bootstrap/" target="_blank" rel="noopener noreferrer">Tester votre palette ici.</a></p>
 <checklist>
 Regénérez vous une palette de couleur: <a href="https://huemint.com/bootstrap-basic/" target="_blank" onclick="event.stopPropagation()">HueMint</a>
 Cliquez sur la 3e pastille ronde en entête et y ajouter le code hexadécimal de votre couleur principale. Ensuite cliquez sur lock. Ensuite générez jusqu'à obtention d'un résultat qui vous inspire. 
