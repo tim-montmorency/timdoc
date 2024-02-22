@@ -772,6 +772,7 @@
     <p>ATTENTION POUR VOS REMISES DU LIEN FIGMA: <br>Pour le projet <em>T01-Logo</em>: plusieurs ne m'ont pas donné les
         droits d'éditions. Assurez-vous, pour le futur, incluant <em>T02-Pub - Le concept</em> à remettre aujourd'hui
         que c'est remis de la bonne façon et que j'ai les droits d'édition.</p>
+        <img src="images/partager_lien_figma_complet.png" alt="Comment partager liens : anyone with the link can edit" style="width: 100%; max-width: 700px; border: 1px solid gray; min-width: 0;">
 
     <p>Rappel tutorat (voir onglet <em>Ressources</em>)</p>
 
