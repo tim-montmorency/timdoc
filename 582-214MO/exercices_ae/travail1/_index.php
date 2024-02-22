@@ -21,10 +21,17 @@ Voici la <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_
 
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EbzaClFNxa1Fp3dJJ0Ef5jgBab16Ih50gqCSkVjAOgNZCQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lxcaR3">Tutoriel explicatif</doclink>
 <warning>Il est important d'écouter la vidéo ci-haut. Elle vous permettra d'avoir un projet bien configuré et avec la bonne nomenclature.</warning>
-<p>La vidéo fait référence à un modèle de projet, le voici: </p>
+<p>La vidéo fait référence à un modèle de projet pour classer vos dossiers dans After effects, le voici: </p>
 <doclink href ="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EdwoU9uyDHtOlo2NAj-dTl0BWD9yZXXeU3pEbSbamtwg3Q?e=lNAZNd">Template ae</doclink>
 
+
 <dots></dots>
+<grostitre>Nomenclature externe</grostitre>
+<p>Vous devez classer vos fichiers dans la structure de dossier suivante. Assurez-vous d'entregistrer vos cache dans le dossier 02_ae/cache.</p>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EksG2oDKsmRKoO2kmaOfTrABvtSbndJmam6s7aMaEpAFXg?e=sqnrTV">Nomenclature externe</doclink>
+
+<dots></dots>
+
 <grostitre>Configuration de votre projet</grostitre>
 <checklist>
     Assurez-vous de corriger votre fichier Illustrator pour pouvoir le transférer dans After Effects correctement. 
@@ -147,6 +154,9 @@ Aspect de la balle
 </checklist>
 
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXLNWcpcKjFDkx21yH31mXUBe3bRrXcz-qXilMcJ0DM86A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ze5LOw">Vidéo de référence</doclink>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Eq4PDFR2zz5Au1RbYO3EqmgBs4lrxDVz_ZhQnY__fsBFdQ?e=CaocFK">Tutoriels balle</doclink>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ek7P7WxNDiZOvaIhMw8lO98BoXHiBJTE6nlYfus6W5YViQ?e=8dM5VO">Tutoriels lissage de vitesse</doclink>
+
 <dots></dots>
 
 <grostitre>Typographie</grostitre>
