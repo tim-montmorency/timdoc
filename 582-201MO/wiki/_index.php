@@ -938,8 +938,20 @@
     <h3>Instructions phase formative de la première bannière (remise cours 6)</h3>
     <p>Remplir le document <a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUWb5_fIM2xGv4XSLMOsAawBAZGjhx9-79qFVjon_EuTTw?e=oRzNeF"  target="_blank" rel="noopener noreferrer">analyse_structure-com.docx</a></p>
 
+    <warning>La bannière doit être EN FRANÇAIS, pas d'anglais.</warning>
+
     <p>À l'aide de Figma, dans le même fichier que vos planches d'inspiration et de styles, en vous basant sur votre analyse du message du document prérempli, réalisez la bannière publicitaire format <em>Pop-up</em> (<em>1200x675</em>) pour promouvoir votre sujet choisi.</p>
     <p>Pour le moment ne pas faire les 3 autres formats pour Facebook et Instagram. Ne faites que le format  <em>Pop-up</em>.</p>
+
+    <h4>Ce qui doit être présent dans votre bannière Pop-Up</h4>
+    <small>Vous référer au conte nu du Powerpoint du cours 5 aujourd'hui pour plus de détails sur le contenu d'une publicité.</small>
+    <ul>
+        <li>Accroche ou slogan (ou les 2) pour capter l'attention</li>
+        <li>Élément visuel</li>
+        <li>Bouton d'appel à l'action (CTA)</li>
+        <li>X pour ferme le Pop-Up</li>
+        <li>Les reste est factultatif, c'est à vous de voir ce qui est pertinent d'ajouter pour votre publicité.</li>
+    </ul>
 
 
 
