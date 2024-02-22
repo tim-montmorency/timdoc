@@ -240,7 +240,8 @@
         <li>Rotation 3d - Isométrique haut</li>
         <li>Distorsion et transformation: Transformation de l'image avec 15 copies et un décalage vertical de 16 pixels.</li>
     </ul>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EQxvVukVdoNNuMUHtJv_lAYBum0tGbmEKgz8wCj0PxISmA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=f1DUOn ">Vectorisation (cactus)</a></li>
+    <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EbIzkAuEm9ZMuiwOJxkuv3UBtoN85cBoKYhEFULx3df9Nw?e=mQzaLZ">Fenêtre aspect pour modifier les effets</a></li>
+    <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EQxvVukVdoNNuMUHtJv_lAYBum0tGbmEKgz8wCj0PxISmA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=f1DUOn ">Vectorisation (cactus)</a></li>
 </ul></p>
 <intlink href="../exercices/travail1"></intlink></p>
 <dots></dots>
