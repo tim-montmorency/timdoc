@@ -2,5 +2,7 @@
     "type": "exercice",
     "title": "Nouveau document",
     "icon": "images\/thumb.jpg",
-    "abstract": "Cr\u00e9er un document et personnaliser l'espace de travail."
+    "abstract": "Cr\u00e9er un document et personnaliser l'espace de travail.",
+    "index": 0,
+    "href": "00_nouveau_doc\/"
 }

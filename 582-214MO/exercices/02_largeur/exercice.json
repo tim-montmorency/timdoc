@@ -1,0 +1,8 @@
+{
+    "type": "exercice",
+    "title": "Le nuage",
+    "icon": "images\/thumb.jpg",
+    "abstract": "Dans cet exercice vous utiliserez les outils plume et largeur pour retracer le nuage.",
+    "index": 0,
+    "href": "02_largeur\/"
+}

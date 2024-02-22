@@ -1,0 +1,8 @@
+{
+    "type": "exercice",
+    "title": "Les couleurs",
+    "icon": "images\/thumb.jpg",
+    "abstract": "Cet exerice consiste \u00e0 la cr\u00e9ation d'un nuancier, puis la modification des couleurs de l'exercice de paysage.",
+    "index": 0,
+    "href": "07_nuancier\/"
+}

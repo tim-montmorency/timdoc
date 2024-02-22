@@ -1,20 +1,19 @@
 <?php
 /**
- * @type     article
- * @title    Exercice 06_pinceau
- * @icon     images/icon.png
- * @abstract Visages et papillon
+ * @type     exercice
+ * @title    Visages calligraphiques
+ * @icon     images/thumb.jpg
+ * @abstract Cet exercice vous permettra de retracer des visages avec le pinceau à partir d'un modèle.
  */
 ?>
 
 
 
-<p class="spacer"> Cet exerice comporte deux parties, les visage et le papillon. </p>
+<p class="spacer"> Cet exercice vous permettra de retracer des visages avec le pinceau à partir d'un modèle.</p>
 <dots></dots>
 
-<grostitre>Les visages</grostitre>
 
-<grostitre>Fichier de départ</grostitre>
+<grostitre>Matériel</grostitre>
 
 <p>Premièrement, importez cette image dans un fichier Illustrator comme modèle pour votre travail.</p>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:i:/g/personal/lora_boisvert_cmontmorency_qc_ca/EVVTJXcJNQlPntspcaB6PbIB9ueNwfQ63Y7Rel5Z4PEGjQ?e=CHzVb3">Document de départ</doclink>
@@ -25,27 +24,13 @@
 
 <checklist>
     Importez l'image des visages calligraphiques en tant que modèle. 
-    Utiliser l’outil <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ea1IXVNIkJNOv_4R57Rd0igBdJtsQUWfg1PIFwlCdEAEew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OQa9OB">pinceau</a> pour retracer les visages.   
+    Utiliser l’outil pinceau pour retracer les visages.   
+    Appliquer des styles sur votre pinceau pour que la brosse ressemble au modèle.
 
 </checklist>
 
 <dots></dots>
 
-<grostitre>Le papillon</grostitre>
-
-<grostitre>Fichier de départ</grostitre>
-
-<p>Premièrement, téléchargez ce fichier Illustrator pour votre travail.</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EdaHmNW57AhDsNyqaGTVm64BU1FgbR_FRHzU4AjZvx-ZVg?e=ZeXNe4">Document de départ</doclink>
-
-<dots></dots>
-<grostitre>Étapes</grostitre>
-<checklist>
-    Utilisez l’outil pinceau et/ou l’outil crayon pour tracer le corps et les antennes du papillon.  
-    Redimensionnez le papillon et positionnez-le près de la fleur.  
-</checklist>
-
-
-<knowmore href="https://helpx.adobe.com/ca_fr/illustrator/how-to/create-edit-artwork-with-paintbrush-pencil-tools.html?playlistPath=/services/playlist.helpx/products:SG_ILLUSTRATOR_1_1/learn-path:key-techniques/set-header:drawing/playlist:topic/fr_CA.json ">
-Si vous avez de la difficulté avec un élément, consultez ce tutoriel. 
-</knowmore>
+<grostitre>Tutoriel 📚</grostitre>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ea1IXVNIkJNOv_4R57Rd0igBdJtsQUWfg1PIFwlCdEAEew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OQa9OB">pinceau</doclink>
+<iframe src="https://cmontmorency365-my.sharepoint.com/personal/lora_boisvert_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=535d48ad-9048-4e93-bffe-11e7b45dd228&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="01_outil_pinceau.mp4"></iframe>
