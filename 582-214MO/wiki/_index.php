@@ -428,6 +428,11 @@ Terminer le travail 1 partie 1
 <exercice href="../exercices_ae/08_effets"></exercice></p>
 
 <dots></dots>
+<h3>Retour sur les exercices suivants:</h3>
+<exercice href="../exercices_ae/devoir_balle"></exercice></p>
+<exercice href="../exercices_ae/devoir_c4"></exercice>
+
+<dots></dots>
 <h3>Continuer le travail 1 partie 2</h3>
 <intlink href="../exercices_ae/travail1"></intlink></p>
 

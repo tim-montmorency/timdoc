@@ -164,12 +164,7 @@ Aspect de la balle
 <checklist>
 Dupliquer A et O (calques illustrator) pour les 12 calques et replacer un à un avec l’expression pour y voir 2 couches visibles. 
 Écraser le A et le O dans le temps (couche par couche) en séquence. 
-*Préparer le morphing A à M:* 
-Nouveau calque de forme, retracer M d’abord (pensez aussi au trou du A comme 2e forme sur le même calque). 
-Dupliquer le calque de forme et replacer les points autour du A de façon stratégique. 
-Créer les 4 keyframes sur les 2 tracés des 2 calques. 
-Copier-coller les keyframes du M vers celui du nouveau A, quelques frames plus loin sur la timeline. 
-Répéter pour le O vers A. 
+Réaliser le morphing de A à M et de O à A à l'aide du tutoriel.
 Dupliquer les calques M et A (calques illustrator) pour les 12 calques et replacer un à un avec l’expression pour y voir 2 couches visibles. 
 Dévoiler MA en 3D en séquence. 
 </checklist>
