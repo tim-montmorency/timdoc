@@ -47,16 +47,16 @@
 <doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/ElntTFtiu6lMiXa4wgRlMLIBGN9DHD-B9oRYNLhRloOPVQ?e=QMtL8K">Formes concentriques</doclink>
 
 <gallery>
-images/05_ae_masque_02.gif
-images/05_ae_masque_02_1.gif
-images/05_ae_masque_02_2.gif
-images/05_ae_masque_02_3.gif
-images/fusion.gif
-images/larme.gif
-images/vague.gif
-    images/Onde3.gif
-    images/Onde02.gif
-    images/Formes.gif
+    images/05_ae_masque_02.webp
+    images/05_ae_masque_02_1.webp
+    images/05_ae_masque_02_2.webp
+    images/05_ae_masque_02_3.webp
+    images/fusion.webp
+    images/larme.webp
+    images/vague.webp
+    images/Onde3.webp
+    images/Onde02.webp
+    images/Formes.webp
 </gallery>
 
 <dots></dots>
