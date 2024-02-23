@@ -916,7 +916,7 @@
 
     <ol>
         <li>Bannière publicitaire « Annonces Display ». Plus précisément le format de bannière <em>Pop-up</em>.<br> Le format du popup est de <em>1200x675</em>.<br>Soyez créatif, vous pouvez arrondir les coins du popup, faire sortir des objets du cadre pour attirer l’attention, etc.)<br>
-        <a href="https://www.figma.com/file/CCR3w43W05VCzC7KxKbsWb/T02-Pub_Gabarit-Popup?type=design&node-id=0%3A1&mode=design&t=djSXj4ygHj9dTV5G-1" target="_blank" rel="noopener noreferrer">Voici un lien vers un gabarit. SÉlectionner le titire du frame, copier le et collez le dans le Figma ou vous avez préparé vos planches d'inspiration et planches de style pour continuer dans le même fichier.</a><br><br><br></li>
+        <a href="https://www.figma.com/file/CCR3w43W05VCzC7KxKbsWb/T02-Pub_Gabarit-Popup?type=design&node-id=0%3A1&mode=design&t=djSXj4ygHj9dTV5G-1" target="_blank" rel="noopener noreferrer">Voici un lien vers un gabarit</a>. Sélectionnez le titre du frame, copiez-le et collez le dans le fichier Figma où vous avez préparé vos planches d'inspiration et planches de style pour continuer dans le même fichier.<br><br><br></li>
 
         <li>Bannière destinée aux réseaux sociaux, 3 formats à réaliser pour l’affichage sur :
             <ol>
@@ -953,6 +953,8 @@
         <li>Les reste est factultatif, c'est à vous de voir ce qui est pertinent d'ajouter pour votre publicité.</li>
     </ul>
 
+    <p><a href="https://www.figma.com/file/CCR3w43W05VCzC7KxKbsWb/T02-Pub_Gabarit-Popup?type=design&node-id=0%3A1&mode=design&t=djSXj4ygHj9dTV5G-1" target="_blank" rel="noopener noreferrer">Voici un lien vers un gabarit</a>. Sélectionnez le titre du frame, copiez-le et collez le dans le fichier Figma où vous avez préparé vos planches d'inspiration et planches de style pour continuer dans le même fichier.</p>
+
 
 
     <h4>Remise</h4>
@@ -972,6 +974,7 @@
     <p>Remplir le document <a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUWb5_fIM2xGv4XSLMOsAawBAZGjhx9-79qFVjon_EuTTw?e=oRzNeF"  target="_blank" rel="noopener noreferrer">analyse_structure-com.docx</a> et le remettre dans Teams/Devoirs.</p>
     
     <p>À l'aide de Figma, dans le même fichier que vos planches d'inspiration et de styles, en vous basant sur votre analyse du message du document prérempli, réalisez la bannière publicitaire format <em>Pop-up</em> (<em>1200x675</em>) pour promouvoir votre sujet choisi.</p>
+    <p> <a href="https://www.figma.com/file/CCR3w43W05VCzC7KxKbsWb/T02-Pub_Gabarit-Popup?type=design&node-id=0%3A1&mode=design&t=djSXj4ygHj9dTV5G-1" target="_blank" rel="noopener noreferrer">Voici un lien vers un gabarit</a>. Sélectionnez le titre du frame, copiez-le et collez le dans le fichier Figma où vous avez préparé vos planches d'inspiration et planches de style pour continuer dans le même fichier.</p>
     <p>Pour le moment ne pas faire les 3 autres formats pour Facebook et Instagram. Ne faites que le format  <em>Pop-up</em>.</p>
     <p>Compléter la bannière version <em>Pop-up</em> (<em>1200x675</em>). Elle doit être finale et prête pour l'évaluation formative en classe au prochain cours.</p>
 
