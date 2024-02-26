@@ -50,14 +50,7 @@
 
 <figure>
 
-    <p class="codepen" data-height="300" data-theme-id="44431" data-default-tab="html,result" data-slug-hash="qBgKjVK" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/qBgKjVK">
-    Vue propriété calculé - Convertisseur de devise</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-    on <a href="https://codepen.io">CodePen</a>.</span>
-    </p>
-    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-
+    <codepen id="qBgKjVK" tab="html,result" height="300"></codepen>
 
     <figcaption class="caption caption--codepen">
        Modifiez le montant de base en CAD🇨🇦 afin de voir le montant en USD🇺🇸 être recalculé automatiquement.
