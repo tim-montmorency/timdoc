@@ -92,6 +92,7 @@
     <intlink href="../css/exercices/nine-inch-nails-broken/"></intlink>
     <intlink href="../css/exercices/alaclair-ensemble-les-maigres-blancs/"></intlink>
     <intlink href="../css/exercices/the-police-synchronicity/"></intlink>
+    <intlink href="../css/exercices/alexisonfire-watch-out/"></intlink>
 </wiki-page>
 
 
@@ -111,7 +112,6 @@
     <intlink href="../css/transition/exercices/fantome-mario/"></intlink>
     <intlink href="../css/exercices/david-bowie-earthling/"></intlink>
     <intlink href="../css/exercices/red-hot-chili-peppers-blood-sugar-sex-magik/"></intlink>
-    <intlink href="../css/exercices/alexisonfire-watch-out/"></intlink>
     <intlink href="../css/exercices/tool-aenima/"></intlink>
     <intlink href="../css/exercices/asian-dub-foundation-rafis-revenge/"></intlink>
     <intlink href="../css/exercices/ttc-3615/"></intlink>
