@@ -57,12 +57,8 @@ app.component('counter', {
 
 <highlight lang="html">&lt;counter&gt;</highlight>
 
-<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="html,result" data-slug-hash="mdvKMNm" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/mdvKMNm">
-  EXERC Vue.js West coast vs East coast</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<codepen id="mdvKMNm" tab="html,result" height="400"></codepen>
 
 <br>
 <doclink href="https://vuejs.org/guide/essentials/component-basics.html">Composante - Les bases</doclink>
@@ -73,14 +69,7 @@ app.component('counter', {
 <grostitre>Réutilisation</grostitre>
 <p>Une composante peut-être réutilisée aussi souvent que désiré.</p>
 
-
-<p class="codepen" data-height="300" data-theme-id="44431" data-default-tab="html,result" data-slug-hash="QWYxqYX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/QWYxqYX">
-  Vue.js Composante - réutilisation</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
-
+<codepen id="QWYxqYX" tab="html,result" height="300"></codepen>
 
 <p>Chaque bouton est entièrement indépendant. Ainsi le compteur de l'un n'a aucune influence sur le compteur d'un autre.</p>
 
@@ -107,15 +96,7 @@ app.component('counter', {
 <highlight lang="html">&lt;counter msg=&quot;A&quot;&gt;
 &lt;counter msg=&quot;B&quot;&gt;</highlight>
 
-
-
-<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="html,result" data-slug-hash="RwvJLOJ" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/RwvJLOJ">
-  Vue.js Composante - réutilisation</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
-
+<codepen id="RwvJLOJ" tab="html,result" height="400"></codepen>
 
 <p>Lorsqu'une <incode>props</incode> est passée à une composante, elle devient l'équivalent d'une donnée dans <incode>data</incode>.</p>
 
@@ -131,22 +112,11 @@ app.component('counter', {
 <p>Par exemple: </p>
 <highlight lang="html">&lt;counter v-for=&quot;btn in btnsArr&quot; :msg=&quot;btn.msg&quot;&gt;&lt;/counter&gt;</highlight>
 
-
-<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="html,result" data-slug-hash="OJdExYr" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJdExYr">
-  Vue.js Composante - props</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+<codepen id="OJdExYr" tab="html,result" height="400"></codepen>
 
 <p>Voici un autre exemple avec une composante de 2 props: <em>pletter</em> et <em>pcolor</em>.</p>
 
-<p class="codepen" data-height="400" data-theme-id="44431" data-default-tab="html,result" data-slug-hash="JjxwowM" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/JjxwowM">
-  Vue.js Composante avec 2 props - boucle</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
-       
+<codepen id="JjxwowM" tab="html,result" height="400"></codepen>
 
 
 <!--

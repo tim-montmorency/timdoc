@@ -92,10 +92,12 @@
     <intlink href="../css/exercices/nine-inch-nails-broken/"></intlink>
     <intlink href="../css/exercices/alaclair-ensemble-les-maigres-blancs/"></intlink>
     <intlink href="../css/exercices/the-police-synchronicity/"></intlink>
+    <intlink href="../css/exercices/alexisonfire-watch-out/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 07" date="2024-03-11">
+    <h2>Animation</h2>
     <intlink href="../css/animation/"></intlink>
     <intlink href="../css/animation/exercices/pong/"></intlink>
     <intlink href="../css/animation/exercices/fantome/"></intlink>
@@ -104,19 +106,22 @@
     <intlink href="../css/animation/"></intlink>
     <intlink href="../css/animation/exercices/billes/"></intlink>
     <intlink href="../css/animation/exercices/new-super-luigi/"></intlink>
+    <h2>Transition</h2>
     <intlink href="../css/transition/"></intlink>
     <intlink href="../css/transition/exercices/spider-man/"></intlink>
     <intlink href="../css/transition/exercices/bojack-horseman/"></intlink>
     <intlink href="../css/transition/exercices/boutons/"></intlink>
     <intlink href="../css/transition/exercices/fantome-mario/"></intlink>
+    <h2>Exercices</h2>
     <intlink href="../css/exercices/david-bowie-earthling/"></intlink>
+    <intlink href="../css/exercices/mr-oizo-all-wet/"></intlink>
+    <intlink href="../css/exercices/godspeed-you-black-emperor-lift-yr/"></intlink>
     <intlink href="../css/exercices/red-hot-chili-peppers-blood-sugar-sex-magik/"></intlink>
-    <intlink href="../css/exercices/alexisonfire-watch-out/"></intlink>
-    <intlink href="../css/exercices/tool-aenima/"></intlink>
-    <intlink href="../css/exercices/asian-dub-foundation-rafis-revenge/"></intlink>
-    <intlink href="../css/exercices/ttc-3615/"></intlink>
-    <intlink href="../css/exercices/nirvana-nevermind/"></intlink>
-    <intlink href="../css/exercices/pink-floyd-the-dark-side-of-the-moon/"></intlink>
+    <intlink href="../css/exercices/eagles-of-death-metal-peace-love-death-metal/"></intlink>
+    <intlink href="../css/exercices/underworld-everything-everything/"></intlink>
+    <intlink href="../css/exercices/the-black-keys-turn-blue/"></intlink>
+    <intlink href="../css/exercices/air-premiers-symptomes/"></intlink>
+
 </wiki-page>
 
 
@@ -126,10 +131,17 @@
     <intlink href="../css/masquage/"></intlink>
     <intlink href="../css/masquage/exercices/barbie-selfie/"></intlink>
     <intlink href="../css/pseudo-classes-avancees/#has"></intlink>
-    <intlink href="../css/exercices/mr-oizo-all-wet/"></intlink>
-    <intlink href="../css/exercices/godspeed-you-black-emperor-lift-yr/"></intlink>
-    <intlink href="../css/exercices/les-simpsons/"></intlink>
+
+
+    <h2>Exercices</h2>
+    <intlink href="../css/exercices/king-crimson-larks-tongues-in-aspic/"></intlink>
+    <intlink href="../css/exercices/lost-highway/"></intlink>
     <intlink href="../css/exercices/trainspotting/"></intlink>
+    <intlink href="../css/exercices/ttc-3615/"></intlink>
+    <intlink href="../css/exercices/asian-dub-foundation-rafis-revenge/"></intlink>
+    <intlink href="../css/exercices/nirvana-nevermind/"></intlink>
+    <intlink href="../css/exercices/pink-floyd-the-dark-side-of-the-moon/"></intlink>
+    <intlink href="../css/exercices/les-simpsons/"></intlink>
     <intlink href="../css/exercices/harmonium-l-heptade/"></intlink>
     <intlink href="../css/exercices/lisa-leblanc-lisa-leblanc/"></intlink>
     <intlink href="../css/exercices/robert-charlebois-la-maudite-tournee/"></intlink>

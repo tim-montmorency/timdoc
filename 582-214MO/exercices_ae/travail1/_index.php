@@ -164,12 +164,7 @@ Aspect de la balle
 <checklist>
 Dupliquer A et O (calques illustrator) pour les 12 calques et replacer un à un avec l’expression pour y voir 2 couches visibles. 
 Écraser le A et le O dans le temps (couche par couche) en séquence. 
-*Préparer le morphing A à M:* 
-Nouveau calque de forme, retracer M d’abord (pensez aussi au trou du A comme 2e forme sur le même calque). 
-Dupliquer le calque de forme et replacer les points autour du A de façon stratégique. 
-Créer les 4 keyframes sur les 2 tracés des 2 calques. 
-Copier-coller les keyframes du M vers celui du nouveau A, quelques frames plus loin sur la timeline. 
-Répéter pour le O vers A. 
+Réaliser le morphing de A à M et de O à A à l'aide du tutoriel.
 Dupliquer les calques M et A (calques illustrator) pour les 12 calques et replacer un à un avec l’expression pour y voir 2 couches visibles. 
 Dévoiler MA en 3D en séquence. 
 </checklist>
@@ -188,6 +183,9 @@ Ajuster le niveau afin que ce ne soit pas trop présent et que le son se marie b
 </checklist>
 
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EUzZL8q_B0lLvc_7yL348bYBkRiia1Oo9WUXPA_B7V7hxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XSIaVP">Vidéo de référence</doclink>
+<p>Vous trouverez ici les fichiers audio à télécharger dans les différents dossiers (02 à 05). Classez-les dans les même dans votre nomenclature.</p>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EgVrHCJPLG1EhN9f-Tqm0PcBYhWk6U6R90CPcTZ5h1vyNw?e=FVPBwe">Fichiers audios</doclink>
+
 <dots></dots>
 
 
