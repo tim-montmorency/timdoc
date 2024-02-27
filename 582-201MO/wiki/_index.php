@@ -938,13 +938,12 @@
     <h3>Instructions phase formative de la première bannière (remise cours 6)</h3>
     <p>Remplir le document <a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUWb5_fIM2xGv4XSLMOsAawBAZGjhx9-79qFVjon_EuTTw?e=oRzNeF"  target="_blank" rel="noopener noreferrer">analyse_structure-com.docx</a></p>
 
-    <warning>La bannière doit être EN FRANÇAIS, pas d'anglais.</warning>
+    <warning>NOTE: La bannière doit être EN FRANÇAIS, pas d'anglais. Que ce soit pour le message (slogan, accroche, texte) et pour l'appel à l'action. Nous sommes dans un collège francophone et les travaux doivent être exécuté en français.</warning>
 
     <p>À l'aide de Figma, dans le même fichier que vos planches d'inspiration et de styles, en vous basant sur votre analyse du message du document prérempli, réalisez la bannière publicitaire format <em>Pop-up</em> (<em>1200x675</em>) pour promouvoir votre sujet choisi.</p>
     <p>Pour le moment ne pas faire les 3 autres formats pour Facebook et Instagram. Ne faites que le format  <em>Pop-up</em>.</p>
 
     <h4>Ce qui doit être présent dans votre bannière Pop-Up</h4>
-    <small>Vous référer au conte nu du Powerpoint du cours 5 aujourd'hui pour plus de détails sur le contenu d'une publicité.</small>
     <ul>
         <li>Accroche ou slogan (ou les 2) pour capter l'attention</li>
         <li>Élément visuel</li>
@@ -952,6 +951,7 @@
         <li>X pour ferme le Pop-Up</li>
         <li>Les reste est factultatif, c'est à vous de voir ce qui est pertinent d'ajouter pour votre publicité.</li>
     </ul>
+    <p>Vous référer au contenu du Powerpoint du cours 5 pour plus de détails sur le contenu d'une publicité.</p>
 
     <p><a href="https://www.figma.com/file/CCR3w43W05VCzC7KxKbsWb/T02-Pub_Gabarit-Popup?type=design&node-id=0%3A1&mode=design&t=djSXj4ygHj9dTV5G-1" target="_blank" rel="noopener noreferrer">Voici un lien vers un gabarit</a>. Sélectionnez le titre du frame, copiez-le et collez le dans le fichier Figma où vous avez préparé vos planches d'inspiration et planches de style pour continuer dans le même fichier.</p>
 
@@ -972,6 +972,8 @@
     <grostitre>Devoirs</grostitre>
     <h3>T02-La publicité Web - Design du Pop-Up complété pour l'évaluation formative</h3>
     <p>Remplir le document <a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUWb5_fIM2xGv4XSLMOsAawBAZGjhx9-79qFVjon_EuTTw?e=oRzNeF"  target="_blank" rel="noopener noreferrer">analyse_structure-com.docx</a> et le remettre dans Teams/Devoirs.</p>
+
+    <warning>NOTE: La bannière doit être EN FRANÇAIS, pas d'anglais. Que ce soit pour le message (slogan, accroche, texte) et pour l'appel à l'action. Nous sommes dans un collège francophone et les travaux doivent être exécuté en français.</warning>
     
     <p>À l'aide de Figma, dans le même fichier que vos planches d'inspiration et de styles, en vous basant sur votre analyse du message du document prérempli, réalisez la bannière publicitaire format <em>Pop-up</em> (<em>1200x675</em>) pour promouvoir votre sujet choisi.</p>
     <p> <a href="https://www.figma.com/file/CCR3w43W05VCzC7KxKbsWb/T02-Pub_Gabarit-Popup?type=design&node-id=0%3A1&mode=design&t=djSXj4ygHj9dTV5G-1" target="_blank" rel="noopener noreferrer">Voici un lien vers un gabarit</a>. Sélectionnez le titre du frame, copiez-le et collez le dans le fichier Figma où vous avez préparé vos planches d'inspiration et planches de style pour continuer dans le même fichier.</p>

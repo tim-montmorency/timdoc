@@ -38,7 +38,7 @@ Requis du swiper : pas de bouton précédent ou suivant, pas de pagination, pas 
 Ajoutez la classe <em>.swiper-filters</em> sur le swiper que vous venez d’ajouter. Cette classe servira à cibler que ce swiper là lors de l’initialisation puisque vous allez en avoir plusieurs sur la page et chaque swiper aura sa propre configuration.
 Supprimez la liste ul>li que vous aviez mais conservez les boutons. 
 Répartissez chaque bouton dans sa propre slide de swiper, il y en a 7 en tout :<br>- Toutes<br>- Installations interactives<br>- Concert<br>- Performances<br>- AR / VR<br>- Projections / Immersion
-Ajoutez du CSS pour vous assurer que la largeur des slides de ce swiper là soit automatique, bref par plus ou moins large que la largeur du bouton. À ce stade, vous devriez voir vos boutons tous collé les uns les autres sur la même ligne.
+Ajoutez du CSS pour vous assurer que la largeur des slides de ce swiper là soit automatique, bref par plus ou moins large que la largeur du bouton. À ce stade, vous devriez voir vos boutons tous collés les uns les autres sur la même ligne.
 Dans votre script.js, initialisez ce Swiper là en le ciblant avec sa classe <em>.swiper-filters</em>.
 Toujours dans l’initialisation de swiper dans votre fichier script.js, ajoutez les quelques paramètres de swiper pour que les boutons s’affichent tous un à côté de l’autre comme sur la démo et qu’il y ait une petite distance entre chaque slide.
 </checklist>
