@@ -58,8 +58,8 @@ register_tag('intlink', function($html, $attrs, $data) {
     $path = rtrim($path,'/\\');
     if(!is_file(($file = realpath(pathinfo($this->file, PATHINFO_DIRNAME).S.$path).S.'_index.php'))) return;
     if(!$info = php_file_info($file)) return;
-    $url = !empty($info->url) ? $info->url : $attrs['href'];
-    $url = rtrim($url, '/').'/';
+    $url = !empty($info->url) ? $info->url : $path;
+    $url = rtrim($url, '/').'/'.(isset($anchor) ? '#'.$anchor : '');
     $thumb = rtrim($path, '/').'/'.$info->icon;
     $thumb = getRelativePath($this->file, realpath(pathinfo($this->file, PATHINFO_DIRNAME).'/'.$thumb));
     return <<<EOD
