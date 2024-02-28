@@ -8,8 +8,17 @@
  * @ref      web/cadriciels/vuejs
  */
 ?>
-<grostitre>Création d'une App</grostitre>
 
+
+<info>
+  <p>Il existe 2 styles d'API pour coder en VUE.js: <em>Options API</em> et <em>Composition API</em>. Donc si vous parcourez la documentation de VUE.js il est possible que vous tombiez sur l'un et l'autre, ne soyez pas intimidé.</p> 
+  <p>Les deux styles d'API sont tout à fait capables de couvrir les cas d'utilisation courants. Il s'agit d'interfaces différentes alimentées par le même système sous-jacent. En fait, l'<em>Options API</em> est mise en œuvre au-dessus de la <em>Composition API</em>! Les concepts fondamentaux sont partagés entre les deux styles et ils sont équivalents.</p>
+  <p>Dans le cadre de ce cours, nous utiliserons le style <em>Options API</em>. <a href="https://vuejs.org/guide/introduction.html#api-styles" target="_blank" rel="noopener noreferrer">Plus d'info ici.</a></p>
+</info>
+
+
+<dots></dots>
+<grostitre>Création d'une App</grostitre>
 
 <p>La première étape consiste à appeler la méthode <em>createApp</em> de l'objet global <em>Vue. </em>Celle-ci permet de créer une nouvelle instance d'une app Vue. Afin de pouvoir accéder à l'app ultérieurement, il est nécessaire de stocker le résultat dans une variable.</p>
 
