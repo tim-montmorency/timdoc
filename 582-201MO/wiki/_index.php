@@ -997,8 +997,8 @@
 
 <wiki-page name="Cours 06" date="2024-02-29">
     <grostitre>Design</grostitre>
-    <h3>La publicité numérique ou publicité Web</h3>
-    <p><a href="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERdcw4yMQ3BHr-jLcfKU8-8BUrRPllY6chR2bG2Lm-cTpA?e=RUro1n" target="_blank" rel="noopener noreferrer">Powerpoint</a></p>
+    <h3>La publicité numérique/publicité Web</h3>
+    <p>Powerpoint : <a href="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERdcw4yMQ3BHr-jLcfKU8-8BUrRPllY6chR2bG2Lm-cTpA?e=RUro1n" target="_blank" rel="noopener noreferrer">com-graph_06_autocorrection_composition_banniere_pub.pptx</a></p>
 
     <dots></dots>
     <grostitre>En savoir plus sur les publicités display et médias sociaux </grostitre>
@@ -1059,7 +1059,7 @@
 
     <p>Format : <em>1200 x 2215</em></p>
     <p><a href="https://www.figma.com/file/5xj3lVgsOZ9pEr1fFJoI6a/gabarit-pub-reseaux-sociaux?type=design&node-id=0%3A1&mode=design&t=BjzG0CsZEAjKz2pX-1" target="_blank" rel="noopener noreferrer">Voici un lien vers les gabarits et instructions</a>. <br><small>Sélectionnez les titres des frames, copiez-les et collez les dans le fichier Figma où vous avez préparé vos planches d'inspiration et planches de style pour continuer dans le même fichier.</small><br>
-Vous aurez aussi besoin de cette police de caractère <em><a href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EYsYqA-myR1KjmazusnDI6IBdctlC41S0eqBojc5-jOAXQ?e=SwxQ81" target="_blank">SF Compact Font Family</a></em> et <em><a href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EV3goqrtz0BNmevLEBhJrjAB8SFAOwmnO4a4Wk76iIu8ZQ?e=khbYM1" target="_blank" rel="noopener noreferrer">SF Pro Display</a></em> pour éditer le texte dans le gabarit.</p>
+    Vous aurez aussi besoin de cette police de caractère <em><a href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EYsYqA-myR1KjmazusnDI6IBdctlC41S0eqBojc5-jOAXQ?e=SwxQ81" target="_blank">SF Compact Font Family</a></em> et <em><a href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EV3goqrtz0BNmevLEBhJrjAB8SFAOwmnO4a4Wk76iIu8ZQ?e=khbYM1" target="_blank" rel="noopener noreferrer">SF Pro Display</a></em> pour éditer le texte dans le gabarit.</p>
 
 
     <dots></dots>
