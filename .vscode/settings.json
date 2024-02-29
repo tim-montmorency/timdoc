@@ -16,6 +16,7 @@
     },
     "liveServer.settings.port": 5501,
     "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.useNewCompiler": true,
     "liveSassCompile.settings.formats": [
         {
             "format": "expanded",
@@ -40,8 +41,9 @@
     "MinifyAll.disableScss": true,
     "MinifyAll.disableTwig": true,
     "MinifyAll.disableXml": true,
-    "MinifyAll.PrefixOfNewMinifiedFiles": ".min",
     "MinifyAll.disableJavascriptReact": false,
+    "MinifyAll.disableJavascript": false,
+    "MinifyAll.PrefixOfNewMinifiedFiles": ".min",
     "MinifyAll.minifyOnSaveToNewFile": true,
     "MinifyAll.openMinifiedDocument": false,
     "MinifyAll.terserMinifyOptions": {
@@ -52,5 +54,5 @@
             "keep_fnames": false,
             "keep_classnames": false
         }
-    },
+    }
 }
