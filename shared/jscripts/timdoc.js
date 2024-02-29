@@ -805,7 +805,7 @@ app.component('tool', {
         }
     },
     template:
-        `<a class="tool" target="_blank" :href="this.url">` +
+        `<a class="tool" target="_blank" :href="this.url" rel="noopener noreferrer">` +
             `<div class="tool-container">` +
                 `<div class="tool-abstract">` +
                     `<em class="tool-label">OUTIL</em>` +

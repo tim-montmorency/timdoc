@@ -77,20 +77,7 @@ fetch("https://ex.smnarnold.com/json/acteurs/ryan-reynolds.json")
 
 <h3 class="heading heading--h3" id="Exemple">Exemple</h3>
 
-<p class="codepen" data-height="700" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="OJrYEop" data-user="tim-momo" style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJrYEop">
-   Grid - grid-template-area</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-
-
-
-
-
-
-
+<codepen id="OJrYEop" tab="js,result" height="700"></codepen>
 
 
 

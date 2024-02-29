@@ -1,0 +1,7 @@
+{
+    "type": "tool",
+    "title": "Yarn",
+    "icon": "images\/thumb.webp",
+    "url": "https:\/\/yarnpkg.com\/",
+    "abstract": "Yarn est l'un des principaux gestionnaires de paquets JavaScript, d\u00e9velopp\u00e9 en 2016 par Facebook pour l'environnement d'ex\u00e9cution JavaScript Node.js."
+}
