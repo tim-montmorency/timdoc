@@ -1007,12 +1007,12 @@
 
     <h3>Publicité sur les réseaux sociaux:  </h3>
     <ul>
-        <li><a href="https://ads.tiktok.com/help/article/image-ads-specification?lang=fr" target="_blank" rel="noopener noreferrer">https://ads.tiktok.com/help/article/image-ads-specification?lang=fr</a></li>
         <li><a href="https://www.facebook.com/business/ads-guide/update/image" target="_blank" rel="noopener noreferrer">https://www.facebook.com/business/ads-guide/update/image</a></li>
         <li><a href="https://instapage.com/blog/facebook-stories-ads/" target="_blank" rel="noopener noreferrer">https://instapage.com/blog/facebook-stories-ads/</a></li>
         <li><a href="https://insense.pro/blog/instagram-stories-ads " target="_blank" rel="noopener noreferrer">https://insense.pro/blog/instagram-stories-ads </a></li>
         <li><a href="https://influencermarketinghub.com/instagram-ad-sizes/" target="_blank" rel="noopener noreferrer">https://influencermarketinghub.com/instagram-ad-sizes/</a></li>
         <li><a href="https://temismarketing.com/blog/social-media-banner-design/" target="_blank" rel="noopener noreferrer">https://temismarketing.com/blog/social-media-banner-design/</a></li>
+        <li><a href="https://ads.tiktok.com/help/article/image-ads-specification?lang=fr" target="_blank" rel="noopener noreferrer">https://ads.tiktok.com/help/article/image-ads-specification?lang=fr</a></li>
     </ul>
    
 
