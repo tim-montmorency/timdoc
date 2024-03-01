@@ -74,9 +74,11 @@
 
 <p>Par exemple, pour obtenir un élément flou en noir et blanc, il est possible de faire:</p>
 
-<highlight lang="css">.element {
+<highlight lang="css">
+.element {
   filter: blur(5px) grayscale(100%);
-  }</highlight>
+}
+</highlight>
 
 <warning>Attention, si un filtre est mal défini, tous les autres filtres appliqués à un élément cesseront de fonctionner.</warning>
 
