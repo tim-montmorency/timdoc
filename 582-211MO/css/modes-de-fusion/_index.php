@@ -110,7 +110,7 @@
 <highlight lang="css">.element {
   background-color: green;
   background-image: url('paysage.jpg');
-  }</highlight>
+}</highlight>
 
 <codepen id="OJwrBGm" tab="result" height="540"></codepen>
 
