@@ -4,7 +4,7 @@
  * @type     exercice
  * @title    Flexbox - Scrabble Potter
  * @icon     images/thumb.jpg
- * @abstract Pour cet exercice, vous devez déplacer les lettres d’un jeu de Scrabble afin d’afficher correctement le nom de cinq des personnages de la ...
+ * @abstract Pour cet exercice, vous devez déplacer les lettres d’un jeu de Scrabble afin d’afficher correctement le nom de cinq des personnages de la...
  */
 ?>
 
@@ -13,3 +13,5 @@
 <p>Aperçu du résultat 👇</p>
 
 <img src="images/scrabble-potter-resultat.webp" alt="">
+
+<grostitre>Matériel</grostitre>
