@@ -228,3 +228,5 @@
 <grostitre>Résumé vidéo</grostitre>
 
 <youtube src="K74l26pE4YA"></youtube>
+
+<dots></dots>
