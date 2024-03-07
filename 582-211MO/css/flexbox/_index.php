@@ -215,11 +215,15 @@
 
 <video playsinline src="videos/flex-inspecteur.mp4" autoplay="true" muted="true" loop="true"></video><br><br><br>
 
+<dots></dots>
+
 <exercice href="exercices/flexbox-scrabble-potter/"></exercice>
 
 <exercice href="exercices/flexbox-Froggy-niveau-1-a-13/"></exercice>
 
-<exercice href="exercices/flexbox-zombie-chapitre-4/"></exercice>
+<exercice href="exercices/flexbox-Defense-niveau-1-a-9/"></exercice>
+
+<dots></dots>
 
 <grostitre>Résumé vidéo</grostitre>
 
