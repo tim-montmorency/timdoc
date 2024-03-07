@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 /**
  * @type     list
  * @title    CSS
