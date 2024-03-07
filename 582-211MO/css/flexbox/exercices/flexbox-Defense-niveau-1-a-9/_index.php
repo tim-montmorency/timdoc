@@ -2,7 +2,7 @@
 
 /**
  * @type     exercice
- * @title    Flexbox Defense
+ * @title    Flexbox Defense Niveau 1 à 9
  * @icon     images/thumb.jpg
  * @url      http://www.flexboxdefense.com/
  * @abstract Complétez les 9 premiers niveaux de Flexbox Defense
