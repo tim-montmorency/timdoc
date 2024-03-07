@@ -219,9 +219,6 @@
 
 <exercice href="exercices/flexbox-scrabble-potter/"></exercice>
 
-<exercice href="exercices/flexbox-froggy-niveau-1-a-13/"></exercice>
-
-<exercice href="exercices/flexbox-defense-niveau-1-a-9/"></exercice>
 
 <dots></dots>
 
