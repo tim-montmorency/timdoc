@@ -15,3 +15,17 @@
 <img src="images/scrabble-potter-resultat.webp" alt="">
 
 <grostitre>Matériel</grostitre>
+
+<doclink href="https://codepen.io/pen?template=xxewjdX">Pen de départ</doclink>
+
+<grostitre>Requis</grostitre>
+
+<checklist>Ajustez les différents groupes de lettres <em>(.group)</em> afin qu'ils affichent de la bonne façon.
+    Ajustez le plateau de jeu <em>(.board)</em> afin que tous les groupes de lettres se déplace au bon endroit.
+</checklist>
+
+<dots></dots>
+
+<grostitre>Notes de cours  📚</grostitre>
+
+<intlink href="../../../flexbox/"></intlink>
