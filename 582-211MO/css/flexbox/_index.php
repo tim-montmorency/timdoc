@@ -213,7 +213,8 @@
 
 <p>Lorsque l'on examine les propriétés CSS appliquées à cet élément on remarque à la droite de la propriété <incode>display</incode> un icône rappelant une grille. Lorsque cliqué, cet icône affiche différentes propriétés en lien avec flexbox, par exemple: <incode>flex-direction</incode>, <incode>justify-content</incode>, <incode>align-items</incode>, etc. Les valeurs disponibles pour ces propriétés sont illustrées avec des icônes permettant d'identifier ou de tester rapidement la valeur souhaitée.</p>
 
-<video playsinline src="videos/flex-inspecteur.mp4" autoplay="true" muted="true" loop="true"></video><br><br><br>
+<!-- <video playsinline src="videos/flex-inspecteur.mp4" autoplay="true" muted="true" loop="true"></video><br><br><br> -->
+<clipasset src="./videos/flex-inspecteur.mp4"></clipasset>
 
 <dots></dots>
 
