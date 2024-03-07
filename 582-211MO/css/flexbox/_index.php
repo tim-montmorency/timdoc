@@ -217,7 +217,7 @@
 
 <exercice href="exercices/flexbox-scrabble-potter/"></exercice>
 
-<exercice href="exercices/flexbox-zombie-chapitre-4/"></exercice>
+<exercice href="exercices/flexbox-Froggy-niveau-1-a-13/"></exercice>
 
 <exercice href="exercices/flexbox-zombie-chapitre-4/"></exercice>
 

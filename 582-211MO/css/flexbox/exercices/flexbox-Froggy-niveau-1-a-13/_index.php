@@ -1,10 +1,13 @@
-<?php 
+<?php
+
 /**
  * @type     exercice
- * @title    Flexbox Zombie - Chapitre 1
- * @icon     images/thumb.jpg
+ * @title    Flexbox Froggy
+ * @icon     images/thumb.webp
  * @url      https://flexboxfroggy.com/#fr
  * @abstract Complétez les 13 premiers niveaux de Flexbox Froggy
  */
 ?>
-<script>location.href = '<?php echo $PAGE->url; ?>';</script>
+<script>
+    location.href = '<?php echo $PAGE->url; ?>';
+</script>

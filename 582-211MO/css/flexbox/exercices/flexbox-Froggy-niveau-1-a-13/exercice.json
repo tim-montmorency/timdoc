@@ -1,7 +1,7 @@
 {
     "type": "exercice",
-    "title": "Flexbox Zombie - Chapitre 1",
-    "icon": "images\/thumb.jpg",
+    "title": "Flexbox Froggy",
+    "icon": "images\/thumb.webp",
     "url": "https:\/\/flexboxfroggy.com\/#fr",
     "abstract": "Compl\u00e9tez les 13 premiers niveaux de Flexbox Froggy"
 }
