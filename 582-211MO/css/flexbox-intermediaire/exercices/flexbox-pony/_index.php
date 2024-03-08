@@ -16,7 +16,7 @@
 
 <grostitre>Matériel</grostitre>
 
-<doclink href="https://codepen.io/pen?template=RwOrQXr">Pen de départ</doclink>
+<doclink href="https://codepen.io/tim-momo/pen/RwOrQXr">Pen de départ</doclink>
 
 <h3>Couleurs 🎨</h3>
 
