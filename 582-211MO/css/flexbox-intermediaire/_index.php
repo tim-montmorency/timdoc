@@ -124,3 +124,5 @@
 
 <exercice href="exercices/flexbox-pony/"></exercice>
 <exercice href="exercices/flexbox-actualite-google/"></exercice>
+<exercice href="exercices/flexbox-froggy-niveaux-14-a-17/"></exercice>
+<exercice href="exercices/flexbox-defense-niveaux-10-a-12/"></exercice>

@@ -61,45 +61,83 @@
 
 <grostitre>Matériel</grostitre>
 
-<doclink href="https://codepen.io/pen?template=RwOrQXr">Pen de départ</doclink>
+<doclink href="https://codepen.io/tim-momo/pen/MWRKVvZ">Pen de départ</doclink>
 
 <h3>Couleurs 🎨</h3>
 
-<color>#b894d2</color>
-<color>#757575</color>
-<color> #fff</color>
-<color> #000</color>
+<color>#dfe1e5</color>
+<color>#70757a</color>
 
-<h3>Médias 🖼️</h3>
 
-<mediafile src="./images/pony.jpeg">Pony</mediafile>
+<warning>Il est interdit d’utiliser les propriétés position et transform.</warning>
 
 <dots></dots>
 
 <grostitre>Requis de base</grostitre>
 
-<timg src="./images/pony-mobile.png"></timg>
+<timg src="./images/actualite-google-mobile.png"></timg>
 
 <checklist>
-    La navigation <em>(.nav)</em> doit avoir un fond blanc, une largeur de 200px et prendre toute la hauteur de la page. Afin de laisser le contenu à l'intérieur respirer, une marge intérieure de 20px doit être présente de tous les côtés.
-    Le logo <em>PONY</em> doit avoir une hauteur de 50px et ne doit pas être déformé.
-    Les liens doivent s'afficher un en dessous de l'autre avec un espace de 20px entre eux. Ils doivent en avoir une taille de 13px, être en majuscules, ne pas avoir de ligne de soulignement et la puce ne doit pas être visible. Ils doivent être gris par défaut et devenir noirs lorsque survolés.
-    Le visage de Pony doit être affiché en arrière-plan de l'élément avec la classe <span class="inline-code">.face</span>. Avoir une dimension de 50px par 50px, être parfaitement rond et être positionné en bas et au centre de la navigation à l'aide de flexbox.
+Faites en sorte que chaque carte affiche une en dessous de l'autre avec une bordure grise pâle de 1px, des coins arrondis de 8px et un espace de 16px entre chacune d'elles.
+L'image <em>(.media)</em> doit avoir une largeur de 112px et afficher à la droite du texte <em>(.text)</em> . Attention l'image ne doit pas être déformée, son centre doit rester visible en tout temps et elle ne doit pas dépasser de la carte.
+La zone de texte doit prendre tout l'espace restant disponible, se garder une marge intérieure de 16px de tous les côtés et afficher les éléments qu'elle contient l'un en dessous de l'autre.
+Le texte <em>(text)</em> ne doit pas être souligné par défaut, mais doit le devenir lorsque la carte est survolée.
+Les sections de l'auteur et de date doivent avoir une taille de texte de 12px et être grises foncées.
+Le logo et l'auteur et son nom doivent être séparés par un espace de 4px et être alignés verticalement un avec l'autre.
 </checklist>
 
 <dots></dots>
 
-<grostitre>Requis tablette et plus</grostitre>
+<grostitre>Requis 700px et +</grostitre>
 
-<p>À partir de 650px et plus, l'affichage de la navigation doit changer afin de tirer profit de l'espace horizontal disponible ↔️.</p>
-
-<timg src="./images/pony-desktop.png"></timg>
+<timg src="./images/actualite-google-desktop.png"></timg>
 
 <checklist>
-    La navigation doit prendre toute la largeur de la page et sa hauteur doit s'ajuster en fonction de son contenu.
-    Les éléments de la navigation <em>(logo, liste de liens et visage)</em> doivent s'afficher le plus loin possible les uns des autres et être centrés verticalement les uns par rapport aux autres.
-    La liste de lien doit prendre tout l'espace disponible entre le logo et le visage et les liens doivent se répartir également dans l'espace restant.
+Les cartes doivent affichées une à côté de l'autre, prendre 1 tiers de l'espace disponible chaque, ne plus avoir d'espace de 16px vers le bas, mais plutôt vers la droite afin de les garder séparés.
+L'image <em>(.media)</em> doit maintenant s'afficher par-dessus le texte <em>(.text)</em>, prendre toute la largeur de la carte et avoir une hauteur de 120px.
+Les dates doivent afficher au bas de leurs cartes respectives.
 </checklist>
+
+<dots></dots>
+
+<grostitre>Notes de cours 📚</grostitre>
+
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../flexbox/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../flexbox/">Flexbox</a></span>
+                <span class="intlink__item__abstract">flex-direction, justify-content, align-items, align-self</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../..//flexbox-intermediaire/">Flexbox intermédiaire</a></span>
+                <span class="intlink__item__abstract">flex-grow, flex-shrink, flex-basis, order</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../border/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../border/">Border</a></span>
+                <span class="intlink__item__abstract">border, border-radius</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../object-fit/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../..//object-fit/">Object-fit</a></span>
+                <span class="intlink__item__abstract">contain, cover, fill</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../media-queries/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../media-queries/">Media queries</a></span>
+                <span class="intlink__item__abstract">Requête @media</span>
+            </div>
+        </div>
+
                     <!-- EXERCICE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>
