@@ -1,0 +1,10 @@
+<?php 
+/**
+ * @type     exercice
+ * @title    Flexbox Zombie - Chapitre 9
+ * @icon     images/thumb.jpg
+ * @url      https://mastery.games/flexboxzombies/chapter/9/level/1
+ * @abstract Tracer sa propre ligne.
+ */
+?>
+<script>location.href = '<?php echo $PAGE->url; ?>';</script>
