@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 /**
  * @type     wiki
  * @title    Wiki - Web 2
@@ -76,7 +77,7 @@
 
 
 <wiki-page name="Cours 06" date="2024-02-26">
-<intlink href="../css/modes-de-fusion/"></intlink>
+    <intlink href="../css/modes-de-fusion/"></intlink>
     <intlink href="../css/modes-de-fusion/exercices/emotion/"></intlink>
     <intlink href="../css/filtres/"></intlink>
     <intlink href="../css/filtres/exercices/anonymat/"></intlink>
@@ -126,7 +127,7 @@
 
 
 <wiki-page name="Cours 08" date="2024-03-18">
-<intlink href="../css/snap-scroll/"></intlink>
+    <intlink href="../css/snap-scroll/"></intlink>
     <intlink href="../css/snap-scroll/exercices/whatisadam/"></intlink>
     <intlink href="../css/masquage/"></intlink>
     <intlink href="../css/masquage/exercices/barbie-selfie/"></intlink>
@@ -152,11 +153,34 @@
 
 
 <wiki-page name="Cours 09" date="2024-03-25">
-<h3>Examen: Birds of Prey</h3>
+    <h3>Examen: Birds of Prey</h3>
     <video playsinline src="./videos/birds-of-prey.mp4" autoplay="true" muted="true" loop="true" style="width: 100%; max-width: 770px;"></video>
 </wiki-page>
 
 
 
 
+<wiki-page name="Cours 10" date="2024-04-01">
+    <intlink href="../css/flexbox/"></intlink>
+</wiki-page>
 
+<wiki-page name="Cours 11" date="2024-04-08">
+    <intlink href="../css/flexbox-intermediaire/"></intlink>
+</wiki-page>
+
+
+<wiki-page name="Cours 12" date="2024-04-15">
+    <intlink href="../css/flexbox-intermediaire/"></intlink>
+</wiki-page>
+
+<wiki-page name="Cours 13" date="2024-04-22">
+    <h3>Travail sur le projet final (partie 1)</h3>
+</wiki-page>
+
+<wiki-page name="Cours 13" date="2024-04-29">
+    <h3>Travail sur le projet final (partie 2)</h3>
+</wiki-page>
+
+<wiki-page name="Cours 13" date="2024-05-06">
+    <h3>Présentation du travail final</h3>
+</wiki-page>
