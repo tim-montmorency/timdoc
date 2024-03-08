@@ -58,6 +58,153 @@
                     <!-- ARTICLE HEADER EOF -->
 
 <grostitre>flex-grow</grostitre>
+
+<p>Propriété pouvant être appliquée à un enfant dont le parent est en <span class="inline-code">display: flex;</span>.</p>
+
+<p>Cette propriété accepte une valeur sans unité <em>(bref, un chiffre)</em> indiquant à l'élément qu'il peut grandir, quitte à dépasser son <span class="inline-code">width</span>, afin de remplir l'espace vacant dans son parent.</p>
+
+<p>Par défaut, cette valeur est à <span class="inline-code">0</span>.</p>
+
+<h3>Sans flex-grow vs flex-grow</h3>
+
+<codepen id="rNbxJxG" tab="result"></codepen>
+
+<span class="remark">
+    <br>À gauche, tous les éléments ont un width de base sans flex-grow.<br>
+    À droite, l’élément #2 a la propriété flex-grow: 1; en plus lui permettant de s’agrandir.<br>
+
+</span><br>
+
+<h3>Multiple flex-grow</h3>
+
+<p>Lorsque plusieurs éléments ont la propriété <span class="inline-code">flex-grow</span>, ils se partagent l'espace restant en fonction de la valeur qui leur est attribuée de façon proportionnelle.</p>
+
+<p>Par exemple, s'ils ont tous la même valeur, ils grandiront tous de façon égale, tandis que si un élément à une valeur trois fois plus grande, il prendra trois fois plus d'espace que les autres.</p>
+
+<codepen id="yLrevJb" tab="result"></codepen>
+
+<span class="remark">
+    <br>À gauche, tous les éléments ont un flex-grow identique,<span class="inline-code">flex-grow: 1;</span><br>
+    À droite, l’élément #3 a un <span class="inline-code">flex-grow: 3;</span> lui permettant de prendre 3x plus d’espace restant.<br>
+</span><br>
+
+<warning>Les unités négatives, ne sont pas permises.</warning><br>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/flex-grow">flex-grow</doclink>
+<doclink href="https://www.w3schools.com/cssref/css3_pr_flex-grow.php">flex-grow</doclink>
+<br><br>
+        <a class="exercice" target="_blank" href="https://mastery.games/flexboxzombies/chapter/5/level/1">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/flexbox-zombie-chapitre-5/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Flexbox Zombie - Chapitre 5</span>
+                    <span class="exercice-description">On étire la sauce/glue.</span>
+                </div>
+            </div>
+        </a>
+
+<dots></dots>
+
+<grostitre>flex-shrink</grostitre>
+
+<p>Propriété pouvant être appliquée à un enfant dont le parent est en <span class="inline-code">display: flex;</span>.</p>
+
+<p>Cette propriété accepte une valeur sans unité <em>(bref, un chiffre)</em> indiquant la proportion avec laquelle l'élément devrait rétrécir en cas de besoin <em>(si l'espace est insuffisant dans le parent). Bref, elle agit à l'inverse de flex-grow;</em></p>
+
+<p>Par défaut, cette valeur est à <span class="inline-code">1</span>.</p>
+
+<h3>Avec flex-shrink vs sans flex-shrink</h3>
+
+<p>Si tous les éléments ont la propriété <span class="inline-code">width: 50%;</span>, l'espace est théoriquement insuffisant afin que tous les éléments affichent sur une-même ligne. Cependant, lorsque des éléments sont enfants d'un parent en <span class="inline-code">display: flex;</span> celui-ci les forces à se compresser afin de rentrer sur une même ligne.</p>
+
+<codepen id="poBgaPP" tab="result"></codepen>
+
+<span class="remark">
+    <br>À gauche, tous les éléments ont un <incoode>flex-shrink: 1;</incoode>, donc rétrécissent de façon uniforme.</incode><br>
+    À droite, l’élément #2 a la propriété <span class="inline-code">flex-shrink: 0;</span> donc refuse de rétrécire et garde son <span class="inline-code">width: 50%;</span>.<br>
+</span><br>
+
+<warning>Les unités négatives, ne sont pas permises.</warning><br>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/flex-shrink">flex-shrink</doclink>
+<doclink href="https://www.w3schools.com/cssref/css3_pr_flex-shrink.php">flex-shrink</doclink>
+<br><br>
+        <a class="exercice" target="_blank" href="https://mastery.games/flexboxzombies/chapter/6/level/1">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/flexbox-zombie-chapitre-6/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Flexbox Zombie - Chapitre 6</span>
+                    <span class="exercice-description">On commence à se sentir à l'étroit.</span>
+                </div>
+            </div>
+        </a>
+
+<dots></dots>
+
+<grostitre>flex-basis</grostitre>
+
+<p>Propriété pouvant être appliquée à un enfant dont le parent est en <span class="inline-code">display: flex;</span>.</p>
+
+<p>Cette propriété accepte n'importe quelle <a href="../unites-de-mesure/">unité de mesure</a> CSS afin d'indiquer la dimension idéale d'un élément. La dimension attribuée constitue un point de départ avant qu'un <span class="inline-code">flex-grow</span>ou un <span class="inline-code">flex-shrink</span> n'intervienne. Dans le contexte d'un parent en <span class="inline-code">flex-direction: row;</span>, c'est en quelque sorte l'équivalent de la propriété <span class="inline-code">width</span>, tandis qu'en <span class="inline-code">flex-direction: column;</span> c'est l'équivalent du <span class="inline-code">height</span>.</p>
+
+<warning>La propriété <span class="inline-code">flex-basis</span>respecte les limites configurées via les propriétés <span class="inline-code">min-width</span>, <span class="inline-code">max-width</span>, <span class="inline-code">min-height</span> et <span class="inline-code">max-height</span>.</warning>
+
+<p>Par défaut, cette valeur est à<span class="inline-code">auto</span>.</p>
+
+<codepen id="JjVGppw" tab="css,result"></codepen>
+
+<warning>Les unités négatives, ne sont pas permises.</warning><br>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/flex-basis">flex-basis</doclink>
+<doclink href="https://www.w3schools.com/cssref/css3_pr_flex-basis.php">flex-basis</doclink>
+<br><br>
+        <a class="exercice" target="_blank" href="https://mastery.games/flexboxzombies/chapter/7/level/1">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/flexbox-zombie-chapitre-7/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Flexbox Zombie - Chapitre 7</span>
+                    <span class="exercice-description">Dans un monde parfait!</span>
+                </div>
+            </div>
+        </a>
+
+<dots></dots>
+
+<grostitre>order</grostitre>
+
+<p>Définis la priorité d'affichage d'un enfant dans un parent ayant la propriété <span class="inline-code">display: flex;</span>.</p>
+
+<p>Par défaut, cette valeur est à <span class="inline-code">0</span>.</p>
+
+<p>Par défaut tous les éléments ont la même valeur d'ordre, ils s'affichent donc en fonction de leur ordre d'apparition dans le code, puisqu'aucun élément n'est jugé plus prioritaire qu'un autre. Cependant, si un élément à un ordre inférieur à 0 🔽, il se positionnera avant tous ceux ayant la valeur par défaut de 0. À l'inverse, si un élément à un ordre est supérieur à 0 🔼, il se positionnera après tous ceux ayant la valeur par défaut de 0.</p>
+
+<codepen id="LYvGQBv" tab="result"></codepen>
+
+<span class="remark">
+    <br>À gauche, l’élément #2 à la propriété <span class="inline-code">order: -1;</span> lui donnant un ordre plus petit que les autres éléments.<br>
+    À droite, l’élément #2 à la propriété <span class="inline-code">order: 1;</span> lui donnant un ordre plus grand que les autres éléments.<br>
+</span><br>
+
+<warning>La propriété <span class="inline-code">order</span> n’affecte aucunement les pseudo-classes telles que<span class="inline-code">:nth-child()</span>.</warning>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/order">order</doclink>
+<doclink href="https://www.w3schools.com/cssref/css3_pr_order.php">order</doclink>
+<br><br>
+        <a class="exercice" target="_blank" href="https://mastery.games/flexboxzombies/chapter/8/level/1">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/flexbox-zombie-chapitre-8/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Flexbox Zombie - Chapitre 8</span>
+                    <span class="exercice-description">Dans le désordre.</span>
+                </div>
+            </div>
+        </a>
+
+<dots></dots>
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>
