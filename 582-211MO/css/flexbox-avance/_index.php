@@ -2,9 +2,9 @@
 
 /**
  * @type     article
- * @title    Flexbox
+ * @title    Flexbox avancé
  * @icon     images/icon.webp
- * @abstract flex-direction, justify-content, align-items, align-self
+ * @abstract flex-wrap, align-content, flex, flex-flow
  */
 
 ?>
