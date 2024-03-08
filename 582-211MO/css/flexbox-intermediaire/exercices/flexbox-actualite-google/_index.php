@@ -2,17 +2,17 @@
 
 /**
  * @type     exercice
- * @title    Flexbox Pony
+ * @title    Flexbox - Actualités Google
  * @icon     images/thumb.webp
- * @abstract Pour cet exercice vous devrez recréer une navigation responsive pour la marque de vêtements montréalaise Pony. Afin de réussir, vous aurez...
+ * @abstract Pour cet exercice vous devez recréer à l’aide de flexbox le module d’actualités affiché sur la page de résultat de Google.
  * */
 ?>
 
-<p>Pour cet exercice vous devrez recréer une navigation responsive pour la<a href="https://www.ponymtl.com/"> marque de vêtements montréalaise Pony</a>. Afin de réussir, vous aurez besoin de créer une mise en page flexbox.</p>
+<p>Pour cet exercice vous devez recréer à l’aide de flexbox le module d’actualités affiché sur la page de résultat de Google.</p>
 
 <p>Aperçu du résultat 👇</p>
 
-<clipasset src="./videos/flexbox-pony-resultat.mp4"></clipasset>
+<clipasset src="./videos/google-actualite-resultat.mp4"></clipasset>
 
 <grostitre>Matériel</grostitre>
 

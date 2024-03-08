@@ -121,3 +121,6 @@
 <exercice href="exercices/flexbox-zombie-chapitre-8/"></exercice>
 
 <dots></dots>
+
+<exercice href="exercices/flexbox-pony/"></exercice>
+<exercice href="exercices/flexbox-actualite-google/"></exercice>
