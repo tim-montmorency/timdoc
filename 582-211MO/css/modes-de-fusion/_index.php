@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @type     article
  * @title    Modes de fusion
@@ -18,21 +19,51 @@
 <grostitre>Modes disponibles</grostitre>
 
 <ul>
-  <li><incode>normal</incode> <em>(normal)</em> par défaut.</li>
-  <li><incode>multiply</incode> <em>(fondu)</em></li>
-  <li><incode>screen</incode> <em>(superposition)</em></li>
-  <li><incode>overlay</incode> <em>(incrustation)</em></li>
-  <li><incode>darken</incode> <em>(obscurcir)</em></li>
-  <li><incode>color-dodge</incode> <em>(densité couleur -)</em></li>
-  <li><incode>color-burn</incode> <em>(densité couleur +)</em></li>
-  <li><incode>hard-light</incode> <em>(lumière crue)</em></li>
-  <li><incode>soft-light</incode> <em>(lumière tamisée)</em></li>
-  <li><incode>difference</incode> <em>(différence)</em></li>
-  <li><incode>exclusion</incode> <em>(exclusion)</em></li>
-  <li><incode>hue</incode> <em>(teinte)</em></li>
-  <li><incode>saturation</incode> <em>(saturation)</em></li>
-  <li><incode>color</incode> <em>(couleur)</em></li>
-  <li><incode>luminosity</incode> <em>(luminosité)</em></li>
+  <li>
+    <incode>normal</incode> <em>(normal)</em> par défaut.
+  </li>
+  <li>
+    <incode>multiply</incode> <em>(fondu)</em>
+  </li>
+  <li>
+    <incode>screen</incode> <em>(superposition)</em>
+  </li>
+  <li>
+    <incode>overlay</incode> <em>(incrustation)</em>
+  </li>
+  <li>
+    <incode>darken</incode> <em>(obscurcir)</em>
+  </li>
+  <li>
+    <incode>color-dodge</incode> <em>(densité couleur -)</em>
+  </li>
+  <li>
+    <incode>color-burn</incode> <em>(densité couleur +)</em>
+  </li>
+  <li>
+    <incode>hard-light</incode> <em>(lumière crue)</em>
+  </li>
+  <li>
+    <incode>soft-light</incode> <em>(lumière tamisée)</em>
+  </li>
+  <li>
+    <incode>difference</incode> <em>(différence)</em>
+  </li>
+  <li>
+    <incode>exclusion</incode> <em>(exclusion)</em>
+  </li>
+  <li>
+    <incode>hue</incode> <em>(teinte)</em>
+  </li>
+  <li>
+    <incode>saturation</incode> <em>(saturation)</em>
+  </li>
+  <li>
+    <incode>color</incode> <em>(couleur)</em>
+  </li>
+  <li>
+    <incode>luminosity</incode> <em>(luminosité)</em>
+  </li>
 </ul>
 
 <info>La documentation concernant les modes de fusion en CSS fut écrite en partenariat avec les ingénieurs d’Adobe. Vous remarquerez donc que les modes disponibles correspondent à ceux dans Photoshop.</info>
@@ -56,7 +87,7 @@
 
 <grostitre>Isolation</grostitre>
 
-<p>La propriété <incode>isolation</incode> permet de créer un nouveau contexte de fusion. Lorsqu'un contexte est créé, les éléments à l'intérieur peuvent continuer de fusionnent entre eux, mais ne peuvent plus fusionner avec les autres éléments sur la page.</p>
+<p>La propriété <incode>isolation</incode> permet de créer un nouveau contexte de fusion. Lorsqu'un contexte est créé, les éléments à l'intérieur peuvent continuer de fusionner entre eux, mais ne peuvent plus fusionner avec les autres éléments sur la page.</p>
 
 <p>Par exemple, si une bande jaune 🟡 est ajoutée à l'exemple précédent et qu'un contexte <em>(.wrapper)</em> incluant les cercles #1 et #2 est créé. Ces cercles continuent de fusionner entre eux, mais ne fusionnent pas avec ladite bande. Tandis que le cercle #3 fusionne avec celle-ci, puisqu'il n'est pas isolé.</p>
 

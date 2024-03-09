@@ -61,16 +61,6 @@
 <br><br>
 <doclink href="https://vuejs.org/guide/essentials/computed.html">Propriétés calculées</doclink>
 
-
 <br><br>
-<aside class="exercice-card">
-    <div class="exercice-card__content">
-      <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-      <a href="../../../exercices/vue-luchador/" target="_blank" class="exercice-card__title">
-        Propriété calculée -&nbsp;Luchador
-      </a>
-      <p class="exercice-card__description">Pour cet exercice, vous allez créer une petite démo permettant de déterminer votre nom de luchador en fonction de votre jour et mois de&nbsp;n...</p>
-    </div>
 
-</aside>
-  
+<exercice href="../../../exercices/vue-luchador/"></exercice>

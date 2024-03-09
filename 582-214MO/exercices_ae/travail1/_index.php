@@ -192,7 +192,9 @@ Ajuster le niveau afin que ce ne soit pas trop présent et que le son se marie b
 
 <grostitre>Composition finale</grostitre>
 <checklist>
-   Créez votre composition finale.  
+   Créez votre composition finale en créant une nouvelle composition nommée Master qui a une taille de 1920 x 1080. 
+   Dans votre nouvelle composition, glissez votre composition de travail. 
+   Regardez la vidéo Référence visuelle du master et assurez-vous d'ajuster l'échelle de votre composition aux bons moments. 
 </checklist>
 
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWcyBhxVf9BCrsDaKxDo6CkBJG3aq9TI7tHYt2Rd1BKoOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YbMR42">Capsule vidéo référence</doclink>
@@ -207,6 +209,7 @@ Ajuster le niveau afin que ce ne soit pas trop présent et que le son se marie b
 </checklist>
 
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ESNxCkebBzZGsCqDvWbjucgBMjIkzr13KSstx0TQEp8W7Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=U4XtJy">Capsule vidéo référence</doclink>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EedvtSQ7x3xHgRrIQXiIGkIBCjrjPWY2oNKqzG18LyZCMQ?e=Y3Lvnd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Tutoriel exportation</doclink>
 <alert>Prévoyez du temps pour cette étape! L'exportation ne se fait pas en cinq minutes!</alert>
 
 <dots></dots>

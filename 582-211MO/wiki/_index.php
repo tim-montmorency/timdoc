@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 /**
  * @type     wiki
  * @title    Wiki - Web 2
@@ -76,7 +77,7 @@
 
 
 <wiki-page name="Cours 06" date="2024-02-26">
-<intlink href="../css/modes-de-fusion/"></intlink>
+    <intlink href="../css/modes-de-fusion/"></intlink>
     <intlink href="../css/modes-de-fusion/exercices/emotion/"></intlink>
     <intlink href="../css/filtres/"></intlink>
     <intlink href="../css/filtres/exercices/anonymat/"></intlink>
@@ -114,19 +115,15 @@
     <intlink href="../css/animation/exercices/new-super-luigi/"></intlink>
     <h2>Exercices</h2>
     <intlink href="../css/exercices/david-bowie-earthling/"></intlink>
-    <intlink href="../css/exercices/mr-oizo-all-wet/"></intlink>
     <intlink href="../css/exercices/godspeed-you-black-emperor-lift-yr/"></intlink>
     <intlink href="../css/exercices/red-hot-chili-peppers-blood-sugar-sex-magik/"></intlink>
     <intlink href="../css/exercices/eagles-of-death-metal-peace-love-death-metal/"></intlink>
-    <intlink href="../css/exercices/underworld-everything-everything/"></intlink>
-    <intlink href="../css/exercices/the-black-keys-turn-blue/"></intlink>
-    <intlink href="../css/exercices/air-premiers-symptomes/"></intlink>
 
 </wiki-page>
 
 
 <wiki-page name="Cours 08" date="2024-03-18">
-<intlink href="../css/snap-scroll/"></intlink>
+    <intlink href="../css/snap-scroll/"></intlink>
     <intlink href="../css/snap-scroll/exercices/whatisadam/"></intlink>
     <intlink href="../css/masquage/"></intlink>
     <intlink href="../css/masquage/exercices/barbie-selfie/"></intlink>
@@ -134,29 +131,60 @@
 
 
     <h2>Exercices</h2>
+    <intlink href="../css/exercices/mr-oizo-all-wet/"></intlink>
     <intlink href="../css/exercices/king-crimson-larks-tongues-in-aspic/"></intlink>
-    <intlink href="../css/exercices/lost-highway/"></intlink>
-    <intlink href="../css/exercices/trainspotting/"></intlink>
     <intlink href="../css/exercices/ttc-3615/"></intlink>
-    <intlink href="../css/exercices/asian-dub-foundation-rafis-revenge/"></intlink>
-    <intlink href="../css/exercices/nirvana-nevermind/"></intlink>
-    <intlink href="../css/exercices/pink-floyd-the-dark-side-of-the-moon/"></intlink>
-    <intlink href="../css/exercices/les-simpsons/"></intlink>
     <intlink href="../css/exercices/harmonium-l-heptade/"></intlink>
     <intlink href="../css/exercices/lisa-leblanc-lisa-leblanc/"></intlink>
     <intlink href="../css/exercices/robert-charlebois-la-maudite-tournee/"></intlink>
     <intlink href="../css/exercices/les-cowboys-fringants-break-syndical/"></intlink>
+    
 </wiki-page>
 
 
 
 
 <wiki-page name="Cours 09" date="2024-03-25">
-<h3>Examen: Birds of Prey</h3>
+    <h3>Examen: Birds of Prey</h3>
     <video playsinline src="./videos/birds-of-prey.mp4" autoplay="true" muted="true" loop="true" style="width: 100%; max-width: 770px;"></video>
 </wiki-page>
 
 
 
 
+<wiki-page name="Cours 10" date="2024-04-01">
+    <intlink href="../css/flexbox/"></intlink>
+    <h2>Exercices</h2>
+    <intlink href="../css/exercices/underworld-everything-everything/"></intlink>
+    <intlink href="../css/exercices/the-black-keys-turn-blue/"></intlink>
+    <intlink href="../css/exercices/air-premiers-symptomes/"></intlink>
+    <intlink href="../css/exercices/lost-highway/"></intlink>
+    <intlink href="../css/exercices/trainspotting/"></intlink>
+    <intlink href="../css/exercices/asian-dub-foundation-rafis-revenge/"></intlink>
+    <intlink href="../css/exercices/nirvana-nevermind/"></intlink>
+    <intlink href="../css/exercices/pink-floyd-the-dark-side-of-the-moon/"></intlink>
+    <intlink href="../css/exercices/les-simpsons/"></intlink>
 
+</wiki-page>
+
+
+<wiki-page name="Cours 11" date="2024-04-08">
+    <intlink href="../css/flexbox-intermediaire/"></intlink>
+</wiki-page>
+
+
+<wiki-page name="Cours 12" date="2024-04-15">
+    <intlink href="../css/flexbox-avance/"></intlink>
+</wiki-page>
+
+<wiki-page name="Cours 13" date="2024-04-22">
+    <h3>Travail sur le projet final (partie 1)</h3>
+</wiki-page>
+
+<wiki-page name="Cours 14" date="2024-04-29">
+    <h3>Travail sur le projet final (partie 2)</h3>
+</wiki-page>
+
+<wiki-page name="Cours 15" date="2024-05-06">
+    <h3>Présentation du travail final</h3>
+</wiki-page>

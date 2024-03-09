@@ -1,0 +1,10 @@
+<?php 
+/**
+ * @type     exercice
+ * @title    Flexbox Zombie - Chapitre 11
+ * @icon     images/thumb.jpg
+ * @url      https://mastery.games/flexboxzombies/chapter/11/level/1
+ * @abstract Un raccourcis vers la victoire.
+ */
+?>
+<script>location.href = '<?php echo $PAGE->url; ?>';</script>

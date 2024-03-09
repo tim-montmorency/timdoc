@@ -1,0 +1,152 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../../shared/styles/styles.min.css">
+        <script src="../../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../../shared/';</script>
+        <title>Flexbox - Actualités Google</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Flexbox - Actualités Google</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p>Pour cet exercice vous devez recréer à l’aide de flexbox le module d’actualités affiché sur la page de résultat de Google.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<clipasset src="./videos/google-actualite-resultat.mp4"></clipasset>
+
+<grostitre>Matériel</grostitre>
+
+<doclink href="https://codepen.io/tim-momo/pen/MWRKVvZ">Pen de départ</doclink>
+
+<h3>Couleurs 🎨</h3>
+
+<color>#dfe1e5</color>
+<color>#70757a</color>
+
+
+<warning>Il est interdit d’utiliser les propriétés position et transform.</warning>
+
+<dots></dots>
+
+<grostitre>Requis de base</grostitre>
+
+<timg src="./images/actualite-google-mobile.png"></timg>
+
+<checklist>
+Faites en sorte que chaque carte affiche une en dessous de l'autre avec une bordure grise pâle de 1px, des coins arrondis de 8px et un espace de 16px entre chacune d'elles.
+L'image <em>(.media)</em> doit avoir une largeur de 112px et afficher à la droite du texte <em>(.text)</em> . Attention l'image ne doit pas être déformée, son centre doit rester visible en tout temps et elle ne doit pas dépasser de la carte.
+La zone de texte doit prendre tout l'espace restant disponible, se garder une marge intérieure de 16px de tous les côtés et afficher les éléments qu'elle contient l'un en dessous de l'autre.
+Le texte <em>(text)</em> ne doit pas être souligné par défaut, mais doit le devenir lorsque la carte est survolée.
+Les sections de l'auteur et de date doivent avoir une taille de texte de 12px et être grises foncées.
+Le logo et l'auteur et son nom doivent être séparés par un espace de 4px et être alignés verticalement un avec l'autre.
+</checklist>
+
+<dots></dots>
+
+<grostitre>Requis 700px et +</grostitre>
+
+<timg src="./images/actualite-google-desktop.png"></timg>
+
+<checklist>
+Les cartes doivent affichées une à côté de l'autre, prendre 1 tiers de l'espace disponible chaque, ne plus avoir d'espace de 16px vers le bas, mais plutôt vers la droite afin de les garder séparés.
+L'image <em>(.media)</em> doit maintenant s'afficher par-dessus le texte <em>(.text)</em>, prendre toute la largeur de la carte et avoir une hauteur de 120px.
+Les dates doivent afficher au bas de leurs cartes respectives.
+</checklist>
+
+<dots></dots>
+
+<grostitre>Notes de cours 📚</grostitre>
+
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../flexbox/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../flexbox/">Flexbox</a></span>
+                <span class="intlink__item__abstract">flex-direction, justify-content, align-items, align-self</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../..//flexbox-intermediaire/">Flexbox intermédiaire</a></span>
+                <span class="intlink__item__abstract">flex-grow, flex-shrink, flex-basis, order</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../border/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../border/">Border</a></span>
+                <span class="intlink__item__abstract">border, border-radius</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../object-fit/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../..//object-fit/">Object-fit</a></span>
+                <span class="intlink__item__abstract">contain, cover, fill</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../media-queries/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../media-queries/">Media queries</a></span>
+                <span class="intlink__item__abstract">Requête @media</span>
+            </div>
+        </div>
+
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

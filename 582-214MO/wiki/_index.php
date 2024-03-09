@@ -455,7 +455,12 @@ Terminer le travail 1 partie 1
 <dots></dots>
 
 <h3>Typographie kinétique</h3>
-<exercice href="../exercices_ae/09_texturing"></exercice></p>
+<exercice href="../exercices_ae/09_experimentation_typo"></exercice>
+<exercice href="../exercices_ae/09_modes_couleur"></exercice>
+<exercice href="../exercices_ae/09_typo_masque"></exercice>
+<exercice href="../exercices_ae/09_texturing"></exercice>
+<exercice href="../exercices_ae/09_3d_lettre"></exercice>
+
 <dots></dots>
 <h3>Les 12 principes de l'animation</h3>
 <p><doclink href=" https://vimeo.com/93206523">Vidéo explicative</doclink></p>
