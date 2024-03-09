@@ -419,7 +419,7 @@
 ----------------------------------->
 
 <wiki-page name="Cours 06" date="2024-02-30">
-    <h2>Révision et évaluation formative (quiz)</h2>
+   <p>Cours annulé, évaluations formatives (commentaires et conseils) ont été faites par capsules vidéo.</p>
 </wiki-page>
 
 
@@ -435,7 +435,61 @@
  \_____\___/ \__,_|_|  |___/  /_/                   
 ----------------------------------->
 <wiki-page name="Cours 07" date="2024-03-05">
-    <h2>Révision et évaluation formative (quiz)</h2>
+  <h2>Annonces</h2>
+  <h3>Projet 1 - Page de promotion d'une appli de festival</h3>
+  <p>Remise reportée au cours 8 et présentation devant la classe annulées.</p>
+  <h3>Éclipse solaire du 8 avril</h3>
+  <p>Groupe de l'après-midi: je vous ai acheté des lunettes et on va sortir aller voir ça.</p>
+
+
+  <dots></dots>
+  <h2>Révision et évaluation formative (quiz)</h2>
+  <p>Groupe AM :  <a href="https://app.wooclap.com/QPKSMO" target="_blank" rel="noopener noreferrer">Code Wooclap: QPKSMO</a> <br>
+  Groupe PM :  <a href="https://app.wooclap.com/KGKHIR" target="_blank" rel="noopener noreferrer">Code Wooclap: KYJNPI</a>
+  </p>
+
+  <dots></dots>
+  <h2>Javascript: Promesses et Fetch API</h2>
+  <intlink href="../javascript/promesses-js"></intlink>
+  <intlink href="../javascript/fetch-api"></intlink>
+
+
+  <dots></dots>
+  <h2>Scrollytelling</h2>
+  <intlink href="../projet-scrollytelling/scrollytelling-presentation/"></intlink>
+
+  <dots></dots>
+  <h2>Projet 2</h2>
+  <intlink href="../projet-scrollytelling/introduction-projet/"></intlink>
+
+  <h3>Demo de projet scrollytelling d'anciens étudiants</h3>
+  <h4>Phase concept - Exemple de storyboards</h4>
+
+  <h4>Projets finis</h4>
+  <ul>
+    <li>Camélie</li>
+    <li>Jacob</li>
+    <li>Nicolas</li>
+    <li>Jeremy</li>
+  </ul>
+
+  <dots></dots>
+  <h2>En classe et devoirs</h2>
+  <h3>Terminer les 2 exercices de Fetct API</h3>
+  <p>-Interface Zoom<br>-Pokemons</p>
+  <h3>Projet 1</h3>
+  <p>Complétez le projet avec mes commentaires T1.2 et la capsule vidéo formative.</p>
+  <p>Remise final au prochain cours (cours 8). Vaut pour 20% de la session.</p>
+
+  <h3>Projet 2</h3>
+  <intlink href="../projet-scrollytelling/p2-1a/"></intlink>
+  <intlink href="../projet-scrollytelling/p2-1b/"></intlink>
+  <p>Remise <em>P2.1 - Conception (synopsis, scénarimage etc.) et création des médias et illustrations</em> au cours 9 le 25 mars. Vaut pour 8% de la session.</p>
+
+
+
+
+    
 </wiki-page>
 
 

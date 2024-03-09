@@ -60,7 +60,7 @@ Le contenu de ces 2 colonnes est par défaut centré.
 Ces 2 colonnes ensemble ne s'affichent pas nécessairement sur tous les 12 séparateurs de la grille Bootstrap. Vous pouvez penser à utiliser des <em>offset</em>.
 La première colonne contient un texte qui présente l'appli du festival. Vous pouvez réutiliser le même texte comme ci-haut ou rédiger votre propre texte. Il faudrait par contre que vous utilisiez le nom de votre festival et non pas "airflight".  Votre texte doit contenir le titre principal de la page ainsi qu'un sous-texte. Utilisez les balises appropriées. Il y aura aussi un bouton d'appel à l'action, utilisez la composante Bootstrap. Stylisez le tout au besoin.
 La 2e colonne contiendra un <em>div</em> qui représente le "cadre du téléphone mobile". Ce <em>div</em> aura une largeur de 100% dans sa propre colonne et un ratio de 5/9 pour que la hauteur s'automatise. Vous pouvez, au besoin, ajouter une largeur maximale. Ajoutez vos styles au besoin pour s'approcher le plus de votre design.
-Ajoutez dans le <em>div</em> qui fait office de cadre de téléphone, un <em>iframe</em> dont la source sera la page HTML qui correspond à l'appli de votre collègue.
+Ajoutez un <em>iframe</em>dans le <em>div</em> qui fait office de cadre de téléphone. La source de ce <em>iframe</em> est la page HTML qui correspond à l'appli de votre collègue. Sa page devrait donc maintenant apparaitre dans votre héros.
 </checklist>
 
 <h4>Notes de cours 📚</h4>

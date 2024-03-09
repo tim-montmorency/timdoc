@@ -1,0 +1,238 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Promesses JavaScript</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Optimisation Web</a> > <a href="../">JavaScript</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/javascript/">JavaScript</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="images/ico-promesse-js.png">&nbsp;Promesses JavaScript</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+<grostitre>La métaphore d'une promesse</grostitre>
+<p>Une promesse (en anglais promise), consiste en un <strong><em>engagement</em></strong> à faire quelque chose. Par exemple, un camarade de classe peut vous promettre de remettre sa partie d’un travail d'équipe d’ici la fin de la&nbsp;semaine.</p>
+
+<p>Le résultat d’une telle promesse n’est pas immédiatement disponible. Il faut se montrer patient et <em>attendre que la promesse soit complétée</em>. Par exemple, attendre que votre camarade remette sa partie, soit: jeudi, vendredi, samedi ou encore&nbsp;dimanche.</p>
+
+<p><em>Une promesse est faite dans le but d’être respectée</em>. Donc si votre camarade promet de remettre sa partie pour une date X, c’est qu’il est confiant de pouvoir respecter son engagement et lorsque ce sera chose faite, vous pourrez alors jumeler vos&nbsp;parties de travail d'équipe.</p>
+
+<p>Dans de <em>rares occasions, une promesse peut être brisée</em>. Un contretemps pourrait par exemple empêcher votre camarade de remettre sa partie. Vous, vous tournerez alors vers un plan&nbsp;B.</p>
+
+
+
+<dots></dots>
+<grostitre>Promesse JavaScript</grostitre>
+
+<p>Les&nbsp;<span class="inline-code">Promises</span>&nbsp;en JavaScript fonctionnent sur le même principe. À défaut de pouvoir répondre immédiatement une fonction peut retourner une promesse. Cette approche est particulièrement utile lorsque la fonction en question contacte un serveur externe, puisque son délai de réponse peut&nbsp;varier.</p><p>Si la promesse est respectée, la méthode&nbsp;<span class="inline-code">.then()</span>&nbsp;est ensuite appelée et la valeur de la réponse lui est passée en&nbsp;paramètre.</p>
+
+
+<p>Si la promesse est brisée et qu’une méthode&nbsp;<span class="inline-code">.catch()</span>&nbsp;est présente, elle est appelée et un message d’erreur lui est&nbsp;envoyé.</p>
+
+<dots></dots>
+<grostitre>Mise-en-contexte pour le cours</grostitre>
+
+<p>Bien qu’il soit possible de : <br><br>
+- <em>faire ou construire une promesse</em> en JavaScript (<span style="color:#000; font-weight: 900; background-color: #5FF6F6;">create</span>)<br>
+- <em>recevoir une promesse</em> en JavaScript (<span style="color:#000; font-weight: 900; background-color: #F97DF8">consume</span>), <br><br>
+il est plus fréquent d’en&nbsp;recevoir (consume).</p>
+<br>
+<p>D'abord, on apprendra comment faire, comment CONSTRUIRE UNE PROMESSE en JavaScript. </p>
+
+<p>Par la suite, on apprendra plutôt à RECEVOIR CETTE PROMESSE. Donc, comprendre la façon dont une promesse est construite vous aidera à gérer la réception d'une telle promesse.</p>
+
+<p>Dans l'exemple de l'image ci-dessous, on simule l'appel chez Uber pour demander un service. Uber fera donc la promesse d'une course en voiture (ride). Après un cerytain temps, on recevra une notification soit: <br>"✅ votre condcuteur est arrivé (driver arrived) ✅"<br>ou :<br>"🚫 votre conducteur a annulé votre requête (driver bailed) 🚫".</p>
+<img src="images/create-consume-promise-js.png" alt="2 fene^tre de code une à coté de l'autre: àa gauche: la création d'une promesse et à droite: la réception de cette promesse.">
+
+
+
+<dots></dots>
+<grostitre>FAIRE (CONSTRUIRE) UNE PROMESSE</grostitre>
+<grostitre>- new Promise</grostitre>
+<p>Le code new Promise() permet de créer une promesse. Cette promesse est en fait un <em>objet&nbsp;JavaScript</em> contenant une fonction acceptant deux&nbsp;paramètres.</p>
+
+
+<ol start="1">
+    <li>Le <em>1er paramètre</em> correspond au nom d'une fonction à appeler lorsque la promesse est&nbsp;<em>respectée</em>.</li>
+
+    <li>Le <em>2e paramètre</em> correspond au nom de la fonction à appeler lorsqu'elle est&nbsp;<em>brisée</em>.</li>
+ </ol>
+ <br>
+ <br>
+
+<p>Par exemple, la promesse suivante 👇 appelle la fonction&nbsp;<span class="inline-code">resolve</span>&nbsp;lorsqu'elle est respectée et&nbsp;<span class="inline-code">reject</span>&nbsp;lorsqu'elle est brisée. <br>
+La valeur du retour dans les deux cas est passée en&nbsp;paramètre.</p>
+
+
+<highlight lang="javascript">const promesse = new Promise((resolve, reject) =&gt; {
+  const respectPromesse = true;
+
+  if (respectPromesse === true) {
+    resolve(&quot;Promesse respect&eacute;e&quot;);
+  } else {
+    reject(&quot;Promesse bris&eacute;e&quot;);
+  }
+});</highlight>
+
+
+<p>Dans le cadre de cette démonstration, la promesse sera toujours&nbsp;respectée.</p><p>Cependant, un exemple plus concret serait le cas d'un service tentant de répondre à une demande d'informations. Si les informations sont trouvées, la fonction assignée au respect de la promesse est appelée. Si le délai imparti avant de trouver la réponse est dépassé, la fonction assignée au bris de promesse est&nbsp;appelée.</p>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</doclink>
+<doclink href="https://www.w3schools.com/js/js_promise.asp">Promise</doclink>
+
+<dots></dots>
+
+
+<p>Pour obtenir le résultat d'une promesse, il est&nbsp;<strong>impossible d'appeler directement la promesse</strong>. </p>
+
+
+Par exemple, le code&nbsp;suivant:
+
+<highlight lang="javascript">console.log(promesse); // [objet Promise] {}</highlight>
+
+<p>retournerait un message indiquant qu'il s'agit d'un objet de type&nbsp;<span class="inline-code">Promise</span>&nbsp;et non la valeur contenu dans la&nbsp;promesse.</p>
+
+
+
+
+
+
+
+
+
+<dots></dots>
+
+<grostitre>RECEVOIR UNE PROMESSE</grostitre>
+
+<grostitre>- then() ✅</grostitre>
+        
+
+<p>Si la promesse est respectée, une méthode&nbsp;<span class="inline-code">.then()</span>&nbsp;est appelée et la valeur lui est passée en&nbsp;paramètre.</p>
+
+Par exemple:
+<highlight lang="javascript">promesse
+  .then(valeur =&gt; console.log(valeur));
+// &quot;Promesse respect&eacute;e&quot;</highlight>
+
+<br><br>
+
+<p>Une méthode&nbsp;<span class="inline-code">.then()</span>&nbsp;retourne elle aussi une promesse. Cette promesse peut donc à son tour avoir un&nbsp;<span class="inline-code">.then()</span>&nbsp;et ainsi enchainer de multiple&nbsp;<span class="inline-code">.then()</span>&nbsp;un à la suite de&nbsp;l'autre.</p>
+
+Par exemple:
+<highlight lang="javascript">promesse
+  .then(value =&gt; `${value}, oh oui!!!`)
+  .then(msg =&gt; console.log(msg)); // &quot;Promesse respect&eacute;e, oh oui!!!&quot;</highlight>
+
+<br>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/then">then()</doclink>
+
+
+<dots></dots>
+<grostitre>- catch() 🚫</grostitre>
+
+<p>Si la promesse est brisée et qu'une méthode&nbsp;<span class="inline-code">.catch()</span>&nbsp;est présente, cette dernière est appelée et la valeur lui est passée en&nbsp;paramètre.</p>
+
+Par exemple:
+<highlight lang="javascript">promesse
+  .catch(error =&gt; console.log(error)); // &quot;Promesse bris&eacute;e&quot;</highlight>
+
+<br>
+  <doclink href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch">catch()</doclink>
+
+
+
+
+  <dots></dots>
+<grostitre>- finally()</grostitre>
+<p>Si une méthode&nbsp;<span class="inline-code">.finally()</span>&nbsp;est présente, celle-ci est appelée dès que la promesse est complétée, peu importe son statut qu'elle soit respectée ou&nbsp;brisée.</p>
+
+
+
+Par exemple:
+<highlight lang="javascript">promesse
+  .finally(() =&gt; console.log(&quot;Promesse compl&eacute;t&eacute;e&quot;));</highlight>
+
+<dots></dots>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally">finally()</doclink>
+
+
+<br><br><br>
+
+Dans un exemple concret, tout mis ensemble donnerait&nbsp;ceci:
+
+<highlight lang="javascript">promesse
+  .then(value =&gt; console.log(value))
+  .catch(error =&gt; console.log(error))
+  .finally(() =&gt; console.log(&quot;Promesse compl&eacute;t&eacute;e&quot;));
+
+// &quot;Promesse respect&eacute;e&quot;, &quot;Promesse compl&eacute;t&eacute;e&quot;</highlight>
+<br><br>
+
+
+
+
+<dots></dots>
+
+<grostitre>Résumé vidéo</grostitre>
+
+<youtube src="RvYYCGs45L4"></youtube>
+
+  
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>
