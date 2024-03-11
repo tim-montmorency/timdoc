@@ -205,7 +205,7 @@ Ajuster le niveau afin que ce ne soit pas trop présent et que le son se marie b
 <p>Vous devez créer deux rendus:</p>
 <checklist>
     Pour le Web: H264 - Vimeo 1080p 
-    Haute résolution: Quicktime – Apple ProRes 4444 (ou si exportation sur PC: 1080p DNxHD HQ 8bits) 
+    Haute résolution: Quicktime – Apple ProRes 422 (ou si exportation sur PC: 1080p DNxHD HQ 8bits) 
 </checklist>
 
 <doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ESNxCkebBzZGsCqDvWbjucgBMjIkzr13KSstx0TQEp8W7Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=U4XtJy">Capsule vidéo référence</doclink>
