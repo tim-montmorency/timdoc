@@ -452,6 +452,8 @@
   <h2>Javascript: Promesses et Fetch API</h2>
   <intlink href="../javascript/promesses-js"></intlink>
   <intlink href="../javascript/fetch-api"></intlink>
+  <h3>Exercice</h3>
+  <intlink href="../exercices/fetch-api-zoom"></intlink>
 
 
   <dots></dots>
@@ -472,8 +474,6 @@
 
 
 
-  
-
   <h3>Demo de projet scrollytelling d'anciens étudiants</h3>
   <h4>Phase concept - Exemple de storyboards</h4>
 
@@ -487,8 +487,8 @@
  
   <dots></dots>
   <h2>En classe et devoirs</h2>
-  <h3>Terminer les 2 exercices de Fetct API</h3>
-  <p>-Interface Zoom<br>-Pokemons</p>
+  <h3>Terminer l'exercice de Fetct API</h3>
+  <intlink href="../exercices/fetch-api-zoom"></intlink>
   <h3>Projet 1</h3>
   <p>Complétez le projet avec mes commentaires T1.2 et la capsule vidéo formative.</p>
   <p>Remise final au prochain cours (cours 8). Vaut pour 20% de la session.</p>
@@ -513,8 +513,59 @@
 | |___| (_) | |_| | |  \__ \ | (_) |
  \_____\___/ \__,_|_|  |___/  \___/ 
 ----------------------------------->
-<wiki-page name="Cours 08" date="2024-03-05">
-    <h2>Révision et évaluation formative (quiz)</h2>
+<wiki-page name="Cours 08" date="2024-03-16">
+    <grostitre>Révision et évaluation formative (quiz)</grostitre>
+    <p>Groupe AM :  <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap: </a> <br>
+  Groupe PM :  <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap: </a></p>
+
+    <dots></dots>
+    <grostitre>Projet <em>Scrollytelling</em></grostitre>
+    <p>Inscrire vos noms par équipe dans le <a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EW-9n-Z4YCVNvQ88AuXbPLEBp750K9CLC_-lojnTIchwOA?e=d3WDdi" target="_blank">fichier Excel ici</a>.</p>
+
+    <dots></dots>
+    <grostitre>Révision</grostitre>
+    <p>Vérification des exercices complétés.</p>
+    <intlink href="../exercices/fetch-api-zoom"></intlink>
+
+    <dots></dots>
+    <grostitre>Javascript: Suite Fetch API</grostitre>
+    <intlink href="../javascript/fetch-api"></intlink>
+
+    <h3>Exercices</h3>
+    <p>Exercice Poké API: lien fourni en classe.</p> 
+    <p><small>
+      Essayez de tout faire sans regarder mes capsules d'aide supplémentaire. Si jamais rien n'y fait lorsque vous tentez de le faire seul(e), alors voici 2 capsules pour des précisions pour le numéro 4 et ensuite pour les numéros 5 et 6. <br><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXOeyRXraItDi96EILAqQP8BY6khe-C4kjjQdt_qv9FDXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8zX3QB" target="_blank" rel="noopener noreferrer">aide_suppl_instruction_4_poke_api.mov</a><br>
+      <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EYM0cd3dTnpBrV6BhUxA7m8BNevgj5IaxvfLuV6D0jDxAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=h753MW" target="_blank" rel="noopener noreferrer">aide_suppl_instruction_5-6_poke_api.mov</a>
+    </small></p>
+
+
+    <dots></dots>
+    <grostitre>GSAP</grostitre>
+    <intlink href="../gsap/introduction/"></intlink>
+    <intlink href="../gsap/objet-et-methodes/"></intlink>
+    <p>2 exercices fournis en classe.</p>
+
+    <h3>Si on a le temps</h3>
+    <intlink href="../gsap/proprietes-speciales/"></intlink>
+    <p>2 autres exercices fournis en classe.</p>
+  
+  
+
+    <dots></dots>
+    <grostitre>En classe et devoirs</grostitre>
+    <h3>Exercices</h3>
+    <ul>
+      <li>Terminer l'exercice de Fetch API Pokemons</li>
+      <li>Terminer les 4 exercices GSAP: voiture jaune, voiture turquoise, dominos, voiture bleue</li>
+    </ul>
+
+
+    <h3>Projet 2</h3>
+    <intlink href="../projet-scrollytelling/p2-1a/"></intlink>
+    <intlink href="../projet-scrollytelling/p2-1b/"></intlink>
+    <p>Remise <em>P2.1 - Conception (synopsis, scénarimage etc.) et création des médias et illustrations</em> au cours 9 le 25 mars. Vaut pour 8% de la session.</p>
+
+
 </wiki-page>
 
 
@@ -527,8 +578,11 @@
 | |___| (_) | |_| | |  \__ \    / / 
  \_____\___/ \__,_|_|  |___/   /_/                 
 ----------------------------------->
-<wiki-page name="Cours 09" date="2024-03-05">
+<wiki-page name="Cours 09" date="2024-03-20">
     <h2>Révision et évaluation formative (quiz)</h2>
+
+
+
 </wiki-page>
 
 
@@ -541,7 +595,7 @@
 | |___| (_) | |_| | |  \__ \  | | |_| |
  \_____\___/ \__,_|_|  |___/  |_|\___/                                     
 ----------------------------------->
-<wiki-page name="Cours 10" date="2024-04-30">
+<wiki-page name="Cours 10" date="2024-03-30">
     <h2>Révision et évaluation formative (quiz)</h2>
 </wiki-page>
 
@@ -555,7 +609,7 @@
 | |___| (_) | |_| | |  \__ \  | || |
  \_____\___/ \__,_|_|  |___/  |_||_|
  ----------------------------------->
-<wiki-page name="Cours 11" date="2024-04-30">
+<wiki-page name="Cours 11" date="2024-04-06">
     <h2>Révision et évaluation formative (quiz)</h2>
 </wiki-page>
 
@@ -569,7 +623,7 @@
 | |___| (_) | |_| | |  \__ \  | |/ /_ 
  \_____\___/ \__,_|_|  |___/  |_|____|
  ----------------------------------->
-<wiki-page name="Cours 12" date="2024-04-30">
+<wiki-page name="Cours 12" date="2024-04-12">
     <h2>Révision et évaluation formative (quiz)</h2>
 </wiki-page>
 
@@ -584,7 +638,7 @@
  \_____\___/ \__,_|_|  |___/  |_|____/       
                              
  ----------------------------------->
-<wiki-page name="Cours 13" date="2024-04-30">
+<wiki-page name="Cours 13" date="2024-04-20">
     <h2>Révision et évaluation formative (quiz)</h2>
 </wiki-page>
 
@@ -600,7 +654,7 @@
                       
  ----------------------------------->
 
-<wiki-page name="Cours 14" date="2024-05-30">
+<wiki-page name="Cours 14" date="2024-04-30">
     <h2>Révision et évaluation formative (quiz)</h2>
 </wiki-page>
 
@@ -615,6 +669,6 @@
                                                                       
  ----------------------------------->
 
-<wiki-page name="Cours 15" date="2024-05-30">
+<wiki-page name="Cours 15" date="2024-05-10">
     <h2>Révision et évaluation formative (quiz)</h2>
 </wiki-page>

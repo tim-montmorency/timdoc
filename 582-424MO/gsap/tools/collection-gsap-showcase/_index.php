@@ -1,0 +1,10 @@
+<?php 
+/**
+ * @type     tool
+ * @title    Showcase d'animations GSAP.
+ * @icon     images/thumb-showcase.jpg
+ * @url      https://gsap.com/showcase/?page=1
+ * @abstract Showcase d'animations GSAP. Inspirez-vous!
+ */
+?>
+<script>location.href = '<?php echo $PAGE->url; ?>';</script>

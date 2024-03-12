@@ -3,7 +3,7 @@
  * @type     exercice
  * @title    Fetch API - Zoom UI
  * @icon     images/fetch-zoom.jpg
- * @abstract ecréer l’interface de l’application de vidéoconférence Zoom en mode galrie.
+ * @abstract Recréer l’interface de l’application de vidéoconférence Zoom en mode galerie.
  */
 ?>
 

@@ -70,26 +70,21 @@
 <dots></dots>
 
 <grostitre>Interpolations de base</grostitre>
-<p>Les interpolations, ou en anglais: <em>tweenings</em>, permettent de créer des animations similaires à celles
-    réalisées en CSS.</p>
+<p>Les interpolations, ou en anglais: <em>tweenings</em>, permettent de créer des animations similaires à celles réalisées en CSS.</p>
 <p>Pour ce faire, il suffit de spécifier:</p>
 <ul>
     <li>Le ou les éléments à animer avec un sélecteur, ex:&nbsp;<span class="inline-code">.element</span></li>
     <li>Un objet indiquant la ou les propriétés à animer et les valeurs souhaitées, <br>ex:
         &nbsp;<span class="inline-code">{ opacity: 0.5 }</span></li>
 </ul>
-<h3>Voir la liste des <a href="https://greensock.com/get-started/#transformShorthand" target="_blank" rel="noopener noreferrer">propriétés animables</a> sur le site de GSAP.</h3>
+<h3>Voir la liste des <a href="https://gsap.com/resources/get-started/#transform-shorthand" target="_blank" rel="noopener noreferrer">propriétés animables</a> sur le site de GSAP.</h3>
 
-<p>Il est possible d'animer la majorité des propriétés CSS. Cependant, il est nécessaire de remplacer les traits
-    d’union <em>"-"</em> par une nomenclature camelCase 🐫. Par exemple, <span class="inline-code">font-size</span>
-    deviendrait&nbsp;<span class="inline-code">fontSize</span>.</p>
+<p>Il est aussi possible d'animer la majorité des propriétés CSS: transforms, colors, padding, border radius, etc. Cependant, il est nécessaire de remplacer les traits d’union <em>"-"</em> par une nomenclature camelCase 🐫. Par exemple, <span class="inline-code">font-size</span> deviendrait&nbsp;<span class="inline-code">fontSize</span>, <span class="inline-code">background-color</span> deviendrait&nbsp;<span class="inline-code">backgroundColor</span>.</p>
 
 
 <warning>
-    <p>Bien qu’il soit possible d’animer presque toutes les propriétés CSS, il est préférable de se concentrer sur
-        <span class="inline-code">transform</span> et <span class="inline-code">opacity</span> lorsque possible, puisque ces propriétés bénéficies
-        d’une&nbsp;accélération&nbsp;matérielle.
-    </p>
+   
+        <p>Bien qu’il soit possible d’animer presque toutes les propriétés CSS, il est préférable de se concentrer sur <span class="inline-code">transform</span> et <span class="inline-code">opacity</span> lorsque possible, puisque ces propriétés bénéficies d’une&nbsp;accélération&nbsp;matérielle de l'ordinateur qui l'exécute.</p>
     
     <ul>
         <li><span class="inline-code">opacity</span></li>
@@ -106,9 +101,7 @@
 
 <codepen id="abaWvmo" tab="js,result" height="340"></codepen>
 
-<warning>Les valeurs sous forme de nombre <em>(qui ne sont pas entre guillemets)</em>, ex: <span class="inline-code">400</span>, sont
-    interprétées comme étant des px. Les valeurs entre guillemets, ex <span class="inline-code">&#039;400%&#039;</span>, peuvent spécifier une unité
-    de mesure différente, comme dans le cas précédent où un pourcentage a été utilisé&nbsp;<em>(%)</em>.</warning>
+<warning>Les valeurs sous forme de nombre <em>(qui ne sont pas entre guillemets)</em>, ex: <span class="inline-code">400</span>, sont interprétées comme étant des px. Les valeurs entre guillemets, ex <span class="inline-code">&#039;400%&#039;</span>, peuvent spécifier une unité de mesure différente, comme dans le cas précédent où un pourcentage a été utilisé&nbsp;<em>(%)</em>.</warning>
 
 <p><strong>Décortiquons l'animation:</strong></p>
 

@@ -22,26 +22,21 @@
 <dots></dots>
 
 <grostitre>Interpolations de base</grostitre>
-<p>Les interpolations, ou en anglais: <em>tweenings</em>, permettent de créer des animations similaires à celles
-    réalisées en CSS.</p>
+<p>Les interpolations, ou en anglais: <em>tweenings</em>, permettent de créer des animations similaires à celles réalisées en CSS.</p>
 <p>Pour ce faire, il suffit de spécifier:</p>
 <ul>
     <li>Le ou les éléments à animer avec un sélecteur, ex:&nbsp;<incode>.element</incode></li>
     <li>Un objet indiquant la ou les propriétés à animer et les valeurs souhaitées, <br>ex:
         &nbsp;<incode>{ opacity: 0.5 }</incode></li>
 </ul>
-<h3>Voir la liste des <a href="https://greensock.com/get-started/#transformShorthand" target="_blank" rel="noopener noreferrer">propriétés animables</a> sur le site de GSAP.</h3>
+<h3>Voir la liste des <a href="https://gsap.com/resources/get-started/#transform-shorthand" target="_blank" rel="noopener noreferrer">propriétés animables</a> sur le site de GSAP.</h3>
 
-<p>Il est possible d'animer la majorité des propriétés CSS. Cependant, il est nécessaire de remplacer les traits
-    d’union <em>"-"</em> par une nomenclature camelCase 🐫. Par exemple, <incode>font-size</incode>
-    deviendrait&nbsp;<incode>fontSize</incode>.</p>
+<p>Il est aussi possible d'animer la majorité des propriétés CSS: transforms, colors, padding, border radius, etc. Cependant, il est nécessaire de remplacer les traits d’union <em>"-"</em> par une nomenclature camelCase 🐫. Par exemple, <incode>font-size</incode> deviendrait&nbsp;<incode>fontSize</incode>, <incode>background-color</incode> deviendrait&nbsp;<incode>backgroundColor</incode>.</p>
 
 
 <warning>
-    <p>Bien qu’il soit possible d’animer presque toutes les propriétés CSS, il est préférable de se concentrer sur
-        <incode>transform</incode> et <incode>opacity</incode> lorsque possible, puisque ces propriétés bénéficies
-        d’une&nbsp;accélération&nbsp;matérielle.
-    </p>
+   
+        <p>Bien qu’il soit possible d’animer presque toutes les propriétés CSS, il est préférable de se concentrer sur <incode>transform</incode> et <incode>opacity</incode> lorsque possible, puisque ces propriétés bénéficies d’une&nbsp;accélération&nbsp;matérielle de l'ordinateur qui l'exécute.</p>
     
     <ul>
         <li><incode>opacity</incode></li>
@@ -58,9 +53,7 @@
 
 <codepen id="abaWvmo" tab="js,result" height="340"></codepen>
 
-<warning>Les valeurs sous forme de nombre <em>(qui ne sont pas entre guillemets)</em>, ex: <incode>400</incode>, sont
-    interprétées comme étant des px. Les valeurs entre guillemets, ex <incode>'400%'</incode>, peuvent spécifier une unité
-    de mesure différente, comme dans le cas précédent où un pourcentage a été utilisé&nbsp;<em>(%)</em>.</warning>
+<warning>Les valeurs sous forme de nombre <em>(qui ne sont pas entre guillemets)</em>, ex: <incode>400</incode>, sont interprétées comme étant des px. Les valeurs entre guillemets, ex <incode>'400%'</incode>, peuvent spécifier une unité de mesure différente, comme dans le cas précédent où un pourcentage a été utilisé&nbsp;<em>(%)</em>.</warning>
 
 <p><strong>Décortiquons l'animation:</strong></p>
 
