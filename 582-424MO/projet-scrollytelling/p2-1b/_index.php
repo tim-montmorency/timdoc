@@ -50,6 +50,11 @@ Vous pouvez en ajouter d’avantage mais cette liste regroupe les requis minimum
 <dots></dots>
 
 
+
+
+
+
+<grostitre>Notes de cours 📚 et outils 🛠️</grostitre>
 <h3>Banques d'illustrations libres de droit et utilisation de générateur d'illustration avec <em>AI</em></h3>
 <ul>
    <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZKUCl9U8-dEpMDbe_xROxEBQ7SbZvO8Wn0wSp4gTJIq0w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vtyGea" target="_blank" rel="noopener noreferrer" target="_blank">Capsule vidéo 01</a></li>
@@ -59,7 +64,6 @@ Vous pouvez en ajouter d’avantage mais cette liste regroupe les requis minimum
 
 
 
-<grostitre>Notes de cours 📚 et outils 🛠️</grostitre>
 <h3>Illustrator + exporter en SVG</h3>
 <p><a href="../../../582-215MO/html/svg/#exportation-illustrator" target="_blank" rel="noopener noreferrer">Exportation SVG à partir d'Illustrator et optimisation SVGOMG</a></p>
 +
