@@ -49,7 +49,8 @@
 
  <ul>
      <li>Toujours mettre index.html à la racine du projet.</li>
-     <li>Dans votre projet, toujours utiliser des liens et chemin d’accès <strong>relatifs</strong> et non absolus.</li>
+     <li>Dans votre projet, toujours utiliser des liens et chemin d’accès <strong>relatifs</strong> et non absolus (un chemin d'accès absolu commence par un /).</li>
+
  </ul>
 
  <dots></dots>
@@ -64,7 +65,7 @@ Liez votre feuille de styles.
 Spécifiez le titre de l’histoire dans la balise <incode>title</incode>.
 Créez et ajoutez un <em>favicon</em> dans le dossier images (64px X 64px). Dans votre fichier HTML, ajoutez le lien favicon vers ce fichier.
 Ajoutez la librairie <em>GSAP</em> et son plugiciel <em>ScrollTrigger</em> à l’endroit le plus pertinent dans votre fichier HTML.
-Ajoutez aussi votre fichier script.js.</checklist>
+Ajoutez aussi votre fichier <em>script.js</em>.</checklist>
 
 
 
@@ -73,26 +74,29 @@ Ajoutez aussi votre fichier script.js.</checklist>
 
 
 <h3>Balise <incode>&lt;header&gt;</incode> (HTML)</h3>
- <p>La balise <incode>&lt;header&gt;</incode> du fichier HTML doit contenir:</p>
+<p>La balise <incode>&lt;header&gt;</incode> du fichier HTML doit contenir:</p>
 
- <checklist>un titre de niveau 1,
+<checklist>un titre de niveau 1,
  un paragraphe descriptif du projet et des auteurs,
  un appel à l’action qui permettra d’inviter le visiteur à défiler la page vers le bas ou vers la droite.
 
  </checklist>
 
  
- <h3>Balise <incode>&lt;main&gt;</incode> (HTML)</h3>
+<h3>Balise <incode>&lt;main&gt;</incode> (HTML)</h3>
 <checklist>La balise <incode>main</incode> du fichier HTML doit contenir plusieurs sections qui correspondent à chaque chapitre. 
-Créez toutes ces section et identifiez chacunes d'elles avec un id pertinent.</checklist>
+Créez toutes ces sections et identifiez chacunes d'elles avec un id pertinent.</checklist>
 
+
+<h3>Balise <incode>&lt;footer&gt;</incode> (HTML)</h3>
+<p>La balise <incode>footer</incode> du fichier HTML devra contenir les crédits du projet :</p>
+<checklist>
+Ajoutez ce texte: <a href="https://tim-montmorency.com/timdoc/582-424MO/projet-scrollytelling/" target="_blank" rel="noopener noreferrer">Projet scrollytelling</a> créé dans le cadre du cours Optimisation Web - Intégration multimédia - Collège Montmorency.<br>© <?php echo date("Y"); ?> - Conception : <em>Votre nom</em> et <em>Nom de votre coéquipier de la phase concept</em> | Développement Web : <em>Votre nom</em>.
+Vous devrez aussi créditer la source de vos images (les artistes et les banques d'images).
+Si applicable, vous devez mentionner ce qui a été généré via l'AI et mentionner quel outil AI a été utilisé.</checklist>
 
 
  <dots></dots>
-
-
-
-
 <grostitre>Requis CSS</grostitre>
 <checklist>Préparez des variables CSS pour toutes les couleurs de votre palette.
 Ajoutez un <incode>overflow-x: hidden</incode> à votre balise <incode>body</incode> pour éviter une barre de défilement horizontale (OU <incode>overflow-y: hidden</incode> si vous prévoyez plutôt une histoire défilable à l’horizontale).
@@ -100,7 +104,7 @@ Ajoutez un <incode>overflow-x: hidden</incode> à votre balise <incode>body</inc
 
 <h3>Balise <incode>&lt;header&gt;</incode> (CSS)</h3>
 
-<checklist>La balise <incode>header</incode> s'afficher sur toute la largeur et la hauteur de la fenêtre.
+<checklist>La balise <incode>header</incode> doit s'afficher sur toute la largeur et la hauteur de la fenêtre.
 La balise <incode>header</incode> doit contenir une image d’arrière-plan de votre choix. (Une image qui représente bien votre histoire. Ne pas utiliser la même image d'arrière plan que le chapitre 1).</checklist>
 
  <h4>Le titre de niveau 1 doit&nbsp;:</h4>
@@ -115,7 +119,7 @@ La balise <incode>header</incode> doit contenir une image d’arrière-plan de v
 
  <h4>Le paragraphe doit&nbsp;:</h4>
 
- <p style="font-size: 67%">«&nbsp;Projet créé dans le cadre du cours Optimisation Web - Intégration multimédia&nbsp;- Collège Montmorency. <br>©&nbsp;2023&nbsp;- Conception : Marie-Michelle Ouellet et Deuxième Nom| Développement Web&nbsp;: Marie-Michelle Ouellet.&nbsp;»</p>
+ <p style="font-size: 67%">«&nbsp;<a href="https://tim-montmorency.com/timdoc/582-424MO/projet-scrollytelling/" target="_blank" rel="noopener noreferrer">Projet scrollytelling</a> créé dans le cadre du cours Optimisation Web - Intégration multimédia - Collège Montmorency.<br>© <?php echo date("Y"); ?> - Conception : <em>Votre nom</em> et <em>Nom de votre coéquipier de la phase concept</em> | Développement Web : <em>Votre nom</em>.&nbsp;»</p>
  
  <checklist>contenir le texte du paragraphe ci-haut,
  s’afficher en petits caractères (10-11px environ dépendant de votre police et de sa lisibilité sur le texte en petit taille),
@@ -152,13 +156,13 @@ La balise <incode>header</incode> doit contenir une image d’arrière-plan de v
 
      <h3>Balise <incode>&lt;main&gt;</incode> (CSS)</h3>
 
-     <p>Stylisez toutes les sections de la balise main.</p>
+     <p>Stylisez toutes les <em>sections</em> de la balise <em>main</em>.</p>
 
-     <checklist>Chaque section doit s'afficher sur toute la largeur et la hauteur de la fenêtre.
-
-     Histoire défilable à la verticale&nbsp;: toutes les sections s’affichent une en dessous de l’autre sans marge.<br>OU<br>Histoire défilable à l’horizontale: toutes les sections doivent s’afficher une à côté de l’autre sans marge.
-     Chacune des sections individuelles doit avoir sa propre image d’arrière-plan qui s’ajuste avec la taille de la fenêtre, peu importe sa dimension, sans être étirée ou écrasée.
-     </checklist>
+    <checklist>Chaque section doit s'afficher sur toute la largeur et la hauteur de la fenêtre.
+        L'histoire sera défilable à la verticale&nbsp; et toutes les sections s’affichent une en dessous de l’autre sans marge.
+        Chacune des <em>sections</em> individuelles doit avoir sa propre image d’arrière-plan qui s’ajuste avec la taille de la fenêtre, peu importe sa dimension, sans être étirée ou écrasée.
+        Ajoutez une bordure rouge temporaire de 1px sur chaque <em>section</em> afin de vous aider dans le développement des animations.
+    </checklist>
 
 
 <dots></dots>
@@ -215,7 +219,7 @@ Lorsque tout fonctionne comme vous le souhaitez, faites le même exercice pour v
      - Inscrivez "Projet scrollytelling: Titre de votre histoire" en tant de titre principal du markdown (heading niveau 1). Évidemment changez "Titre de votre histoire" pour le titre de votre histoire (il n'a pas à être identique à celui de votre co-équipier éphémère de la partie P2.1).
      -Ajoutez un sous-titre "Projet scolaire dans le cadre du cours:" suivi d'un paragraphe contenant le nom de ce cours suivi du nom du projet avec un lien vers la page des instructions, ex: <a href="https://tim-montmorency.com/timdoc/582-424MO/projet-scrollytelling/" target="_blank" onclick="event.stopPropagation()">Optimisation Web - Projet Scrollytelling</a>
      - Ajoutez un sous-titre nommé "Conception", ainsi qu'une liste à puce avec chacun des membres de l'équipe de la partie P2.1 (création des médias).
-     - Ajoutez un sous-titre nommé "Développement Web", ainsi qu'une liste à puce contenant seul votre nom.
+     - Ajoutez un sous-titre nommé "Développement/programmation", ainsi qu'une liste à puce contenant seul votre nom.
      - Ajoutez un sous-titre nommé "Technologies", ainsi qu'une liste à puce contenant HTML, CSS, JavaScript, Librairie d'animation GSAP (ajoutez le lien vers la page principale de GSAP sur le site de Greensock), Plugiciel ScrollTrigger (ajoutez le lien vers la page de scrollTrigger du site de Greensock).
      Faites un <em>commit</em> et poussez vos fichiers sur GitHub.
      Remettez le lien de votre GitHub dans Devoir.

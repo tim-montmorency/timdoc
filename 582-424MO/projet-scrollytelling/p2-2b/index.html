@@ -58,29 +58,27 @@
                     <!-- ARTICLE HEADER EOF -->
  
 
- <grostitre>Instruction 1 - Préparation des médias</grostitre>
+<grostitre>Instruction 1 - Préparation des médias</grostitre>
 
- <checklist>Préparez tous les fichiers images: un fichier image pour chaque élément graphique qui sera animable indépendamment.
-Bien nommer tous vos fichiers images.
-Classez toutes les images dans les dossier img du projet.
+<checklist>Préparez tous les fichiers images: un fichier image pour chaque élément graphique qui sera animable indépendamment.<em>Voir ci-bas pour les instructions en détails.</em>
+Bien nommer tous vos fichiers images. <em>Voir ci-bas pour les instructions en détails.</em>
+Classez toutes les images dans les dossier img du projet. <em>Voir ci-bas pour les instructions en détails.</em>
  </checklist>
 
 
-<h3 style="margin-top: 0;">Spécifications plus précises pour les "Instructions 1"</h3>
+<h3 style="margin-top: 0;">Spécifications détaillées pour les "Instructions 1"</h3>
 
  <ul>
      <li>
          <h4>1- Préparez tous les fichiers images</h4>
          <p>Normalement c’est déjà fait mais assurez-vous d’avoir bien découpé vos images: un fichier image pour chaque
-             élément graphique qui sera animable indépendamment (ou un/ des sprite(s) si vous connaissez la technique,
-             sinon allez-y avec différents fichiers images indépendants.)</p>
+             élément graphique qui sera animable indépendamment (ou un seul sprite si vous connaissez la technique,
+             sinon allez-y avec différents fichiers images indépendants).</p>
          <p>Dans certains cas, vous aurez un même élément graphique séparé en plusieurs fichiers images par exemples:
          </p>
          <ul>
              <li>Un lapin dont les oreilles frémissent, chaque oreille aurait son propre fichier image et le reste du
-                 lapin serait aussi une image distincte. S’il clique des yeux, chaque œil aurait son fichier image ou
-                 chaque œil pourrait avoir individuellement son propre fichier image di ils ne sont pas synchronisés
-                 dans leur mouvement. </li>
+                 lapin serait aussi une image distincte. S’il cligne des yeux, chaque œil aurait son fichier image distinct. </li>
              <li>Pour l’animation suivante: “Quelque chose qui se compose ou se décompose en couche ou en éclats via le
                  défilement de la page.”, chaque couche ou élément de la décomposition devrait être isolé dans son
                  propre fichier image. </li>
@@ -95,7 +93,7 @@ Classez toutes les images dans les dossier img du projet.
              <li>Pas d’accents ou de caractères spéciaux dans les noms de fichiers </li>
              <li>Pas d’espace dans le nom de fichier </li>
              <li>Seulement des images en format web sont admises: <a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types" target="_blank" rel="noopener noreferrer">Formats d'image Web.</a>  </li>
-             <li>Assurez-vous et prévoyez tout de suite de NE PAS agrandir les images plus larges que leur taille de base (ça créerait une perte de qualité évidente à l’écran).  Si certaines images sont trop petites pour le projet, veuillez considérer les remplacer. Vous pourrez contrôler les dimension-maximum de vos éléments graphiques en CSS plus tard dans cette étape du projet.  Vos images d’arrière-plan doivent idéalement bien s’afficher sur un format Full HD en 1920x1080, sinon, considérez ajouter une largeur maximum sur vos balises header et main (si tel est le cas, vous devrez centrer ces 2 balises dans la page en CSS).</li>
+             <li>Assurez-vous et prévoyez tout de suite de NE PAS agrandir les images plus larges que leur taille de base (ça créerait une perte de qualité évidente à l’écran).  Si certaines images sont trop petites pour le projet, veuillez considérer les remplacer. Vous pourrez contrôler les dimensions maximum de vos éléments graphiques en CSS plus tard dans cette étape du projet.  Vos images d’arrière-plan doivent idéalement bien s’afficher sur un format Full HD en 1920x1080, sinon, considérez ajouter une largeur maximum sur vos balises <em>header</em> et <em>main</em> (si tel est le cas, vous devrez centrer ces 2 balises dans la page en CSS).</li>
          </ul>
      </li>
      <li>
@@ -117,22 +115,23 @@ Classez toutes les images dans les dossier img du projet.
 
 
 
- <h3>Requis CSS</h3>
- <checklist>Redimensionnez chaque élément graphique.
-Assurez-vous que la tailles de vos images soit responsive.
-Ajoutez la propriété CSS <span class="inline-code">position: relative</span> à chaque section (chapitre) afin que tous les éléments qu’elle contient soient positionnés RELATIVEMENT à celle-ci et non pas à la page entière.
-Positionnez chaque élément graphique dans son chapitre via <span class="inline-code">position:absolute</span> puis utilisez soit : <span class="inline-code">top bottom left</span> ou <span class="inline-code">right</span>. 
+ <h3>Requis CSS des images</h3>
+ <checklist>Redimensionnez chaque élément graphique. <em>Voir ci-bas pour les instructions en détails.</em>
+Assurez-vous que la tailles de vos images soit responsive. <em>Voir ci-bas pour les instructions en détails.</em>
+Ajoutez la propriété CSS <span class="inline-code">position: relative</span> à chaque <em>section</em> (chapitre) afin que tous les éléments qu’elle contient soient positionnés RELATIVEMENT à celle-ci et non pas à la page entière. <em>Voir ci-bas pour les instructions en détails.</em>
+Positionnez chaque élément graphique dans son chapitre via <span class="inline-code">position:absolute</span> puis utilisez soit : <span class="inline-code">top bottom left</span> ou <span class="inline-code">right</span> pour les placer. <em>Voir ci-bas pour les instructions en détails.</em>
  </checklist>
 
- <h3 style="margin-top: 0;">Spécifications plus précises des "Instructions 2 pour les requis CSS des images":</h3>
+ <h3 style="margin-top: 0;">Instructions détaillées des "Requis CSS des images":</h3>
 
 <ul>
     <li>
         <h4>1- Redimensionnez chaque élément graphique.</h4>
-        <p>Petit truc, étant donné que vous avez des svg et png avec arrière-plan transparent, je vous conseille d’ajouter temporairement une bordure autour de chaque image de votre projet, ça vous permettra de visualiser sa réellement dimension dans l’espace.   </p>
+        <p>Petit truc, étant donné que vous avez des svg et png avec arrière-plan transparent, je vous conseille d’ajouter temporairement une bordure autour de chaque image de votre projet, ça vous permettra de visualiser sa réellement dimension dans l’espace.</p>
+        <span class="inline-code">img { border: 1px solid rgba(218, 0, 0, 0.5); }</span>
     </li>
     <li>
-        <h4>2- Assurez-vous que la tailles de vos images soit responsive.</h4>
+        <h4>2- Assurez-vous que la tailles de vos images soit responsives.</h4>
         <p>Travaillez avec les unités viewport width (vw) pour les largeurs. Pour la hauteur, vous avez 2 choix (le choix peut dépendre de l’élément graphique) : </p>
         <ul>
             <li>Si vous souhaitez que l’image soit entière et non rognées à aucun moment, dépendant du format de l’écran, utilisez aspect-ratio pour conserver le ratio de vos éléments.  Vous pouvez réduire le ratio de votre image avec un réducteur de fraction (https://calculis.net/fraction) en y entrant la largeur en px / la hauteur en px de votre image originale. </li>
@@ -189,8 +188,8 @@ Vous devez diversifier vos animations alors vous devriez avoir au moins 3 types 
 
 <h3>En résumé pour le bloc des "Instructions 4", le requis minimum est:</h3>
 <ul>
-    <li>8 éléments graphique animés </li>
-    <li>2 timelines (ces timeline contient quelques-unes des 8 animations) </li>
+    <li>8 éléments graphiques animés </li>
+    <li>2 timelines (ces timelines contiennent quelques-unes des 8 animations) </li>
     <li>3 types d’animations distinctes (parmi la liste susmentionnée) </li>
 </ul>
 <dots></dots>
