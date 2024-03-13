@@ -1103,8 +1103,22 @@
     <ul>
         <li>Prendre mes commentaires d'aujourd'hui en notes et faires les corrections nécessaires à votre publicité Pop-up.</li>
         <li>Réaliser les déclinaisons de votre publicité pour les 3 formats de publicités sur réseaux sociaux.</li>
-        <li>Préparer votre présentation orale pour le cours 7 (3 minutes).</li>
+        <li>Préparer votre <em>présentation orale</em> pour le cours 7 (3 minutes).
         
+            <ol>
+                <li>Débutez en nous expliquant la structure de votre message (émetteur, audience (récepteur), sujet, message, contexte). Pas besoin de support visuel.</li>
+                <li>Ensuite, présentez votre processus de création en utilisant vos planches d’inspirations et de styles.</li>
+                <li>Présentez ensuite le résultat final de votre design en commençant par le Pop-up.</li>
+                <li>Explication de vos choix en lien avec la matière du cours: 
+                    <ul>
+                        <li>Règles en design (CRAP)</li>
+                        <li>Parcours visuel: ce qu'on veut montrer en premier, en deuxième, en dernier. Quelle technique avez-vous utilisé pour diriger le regard.</li>
+                        <li>Choix de couleurs (harmonie de votre plaette de couleurs: quelle technique avez-vous utilisée, psychologie des couleurs: pourquoi avoir sélectionné ces couleurs).</li>
+                        <li>Choix graphiques en fonction de votre audience.</li>
+                    </ul>
+            </ol>
+        </li>
+                
     </ul>
 
     <h3>T03 - Le site Web Vitrine</h3>
@@ -1139,9 +1153,7 @@
     </ul>
 
     <dots></dots>
-    <grostitre>Présentation de vos projets <em>T02 - Publicité Web</em></grostitre>
-
-
+    <grostitre>Présentation de vos projets <em>T02 - Publicité Web</em> (3min)</grostitre>
     <ol>
         <li>Débutez en nous expliquant la structure de votre message (émetteur, audience (récepteur), sujet, message, contexte). Pas besoin de support visuel.</li>
         <li>Ensuite, présentez votre processus de création en utilisant vos planches d’inspirations et de styles.</li>
