@@ -12,7 +12,7 @@
 <grostitre>Matériel</grostitre>
 
 <p>Importez la vidéo suivante dans un nouveau projet After Effects:</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/ESz1fLdIdnpOmwPS67Hp6tYBaEf4S9LIdNb1Y2zBKnWtNA?e=EvDAtL">Vidéo plage</doclink>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWTHgVNmpgdPu7d-60vggBoBPrZBuTnbC0N4o8inxk3TZg?e=22gKd8">Vidéo plage</doclink>
 <dots></dots>
 
 

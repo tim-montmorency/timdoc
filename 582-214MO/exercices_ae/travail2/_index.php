@@ -14,6 +14,9 @@
 <p>Voici un moodboard de références visuelles pour l'esthétique Bauhaus que vous devez respecter dans votre projet.</p>
 <doclink href="https://pin.it/1ncLa2VPO">Esthétique Bauhaus Françoise </doclink>
 <doclink href="https://pin.it/7mtNlOlJD">Esthétique Bauhaus Lora </doclink>
+
+<p>Vous trouverez ici des références de courtes animations:</p>
+<doclink href="https://9-squares.tumblr.com/">9 squares</doclink>
 <dots></dots>
 
 <grostitre>Gabarit de projet</grostitre>
@@ -85,9 +88,8 @@
 Titre du film 
 Postes:  
 Comédiens (ordre d'apparition) 
-Auteur du poème 
 Animateurs 2D (ordre d'apparition de vos animations) 
-Postes majeurs, à vous de spécifier lesquels et qui les occupent: (ex: réalisateur, directeur artistique, directeur de la photographie, maquilleur, scénariste). Quelques-uns mais pas trop, disons entre 2 et 5 postes. 
+Postes majeurs, à vous de spécifier lesquels et qui les occupent: (ex: réalisateur, directeur artistique, directeur de la photographie, concepteur sonore, maquilleur, scénariste). Quelques-uns mais pas trop, disons entre 2 et 5 postes. 
 Avant-avant dernier carton: Projet encadré par (noms des 2 professeures) 
 Avant-dernier carton: Un merci aux TTP William Racine et Antoine Allard 
 Dernier carton: le logo TIM: logo_tim (animer le logo en style motion design) 
@@ -119,7 +121,7 @@ Note: Le scénarimage doit inclure les informations à savoir qui de l'équipe a
 <checklist>
 Vous devez copier le gabarit de projet (la nomenclature) et mettre votre Powerpoint dans le dossier 00_references. 
 Vous devez aussi ajouter dans le dossier 01_medias/04_typographies toutes les polices de caractères que vous prévoyez utiliser dans le projet (si applicable). 
-Remise du dossier compressé dans Devoir. (Une seule remise par équipe.) 
+Remise du dossier compressé à l'endroit indiqué par votre enseignante. (Une seule remise par équipe.) 
 Vous devez être présent le jour de la remise, c'est comme un examen. Vous serez évalués en classe par Françoise et moi, conjointement (moi pour la partie 2d et Françoise pour la partie vidéo). 
 </checklist>
 
@@ -152,10 +154,10 @@ N'oubliez pas de travailler et de bien classer vos fichiers dans la nomenclature
 Vous pouvez personnellement avoir plusieurs courtes animations isolées qui serviront au montage final avec le stop-motion.  Vous pouvez personnellement travailler toutes vos animations dans le même projet .aep (fichier After Effects) en isolant chaque animation dans sa propre composition. 
 Lorsque toutes vos animations personnelles sont terminées, exportez vos compositions finales en 2 formats, suivre la capsule vidéo qui explique le tout. : 01_exportation.mp4.  
 Format Web: H264 - Vimeo 1080p HD
-Format haute résolution: DNX HD HQ 1080p 24 ou PRO RES 422 1080p 24  
+Format haute résolution: DNX HD HQ 1080p 24 ou PRO RES 4444 1080p 24  
 Attention. L’exportation prend beaucoup de temps alors prévoyez quelques heures pour cette étape avant la remise. 
 Dans le dossier 03_exportation, créez un dossier au nom de chaque co-équipier. Chaque personne doit remettre ses exportations dans le dossier à son nom.  
-Déposez votre dossier de projet NON-COMPRESSÉ sur un de votre espace OneDrive et partagez le lien dans Devoir (une seule remise par équipe). 
+Déposez votre dossier de projet à l'endroit indiqué par votre enseignante (une seule remise par équipe). 
 </checklist>
 
 <p>Au besoin consulter les tutoriels suivants:</p>
@@ -170,7 +172,7 @@ Votre générique doit être d'une durée de 15 à 45 secondes.
 N'oubliez pas de travailler et de bien classer vos fichiers dans la nomenclature interne (bref, travailler avec le template tel que je vous l'ai montré en classe). 
 Lorsque votre générique est terminé, exportez-le en format H.264 - Vimeo 1080p Full HD, suivre la capsule vidéo qui explique le tout. : 01_exportation.mp4.  
 Attention. L’exportation prend beaucoup de temps alors prévoyez quelques heures pour cette étape avant la remise. 
-Ne remettre que le fichier d’exportation vidéo compressé dans Devoir (pas besoin de tout le dossier de projet (remise individuelle). 
+Ne remettre que le fichier d’exportation vidéo compressé à l'endroit indiqué par l'enseignante (pas besoin de tout le dossier de projet (remise individuelle)). 
 Vous devez être présent le jour de la remise de votre montage offline et de vos génériques, c'est comme un examen. Vous serez évalués en classe par Françoise et moi, conjointement (moi pour la partie 2d et Françoise pour la partie vidéo). 
 </checklist>
 
@@ -186,7 +188,7 @@ Vos animations individuelles assemblées en mosaïque avec vos vidéos stop-moti
 Le choix d'un seul générique que vous allez ajouter au projet final. 
 Je m'attends à ce que vous ayez pris mes conseils aux évaluations précédentes et amélioré votre projet. 
 Vous devez être présent le jour de la remise, c'est comme un examen. Vous serez évalués en classe par moi et Françoise, conjointement (moi pour la partie 2d et Françoise pour la partie vidéo). 
-Déposez votre dossier de projet NON-COMPRESSÉ sur un de votre espace OneDrive et partagez le lien dans Devoir (une seule remise par équipe). 
+Déposez votre dossier de projet NON-COMPRESSÉ à l'endroit indiqué par l'enseignante (une seule remise par équipe). 
 </checklist>
 
 <dots></dots>
