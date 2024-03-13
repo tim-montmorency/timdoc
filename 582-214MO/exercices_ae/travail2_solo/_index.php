@@ -1,64 +1,15 @@
-<!-- 
-
-████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
-╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
-   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
-   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
-   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
-   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
-
--->
-<!DOCTYPE html>
-<html lang="fr-ca">
-    <head>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-P2R7T89B4B');
-        </script>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="robots" content="noindex, nofollow" />
-        <meta itemprop="digest" content="">
-        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
-        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
-        <script src="../../../shared/jscripts/highlight.min.js"></script>
-        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
-        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
-        <script src="../../../shared/jscripts/timdoc.min.js"></script>
-        <script>const shared = '../../../shared/';</script>
-        <title>Travail 2</title>
-    </head>
-    <body>
-        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
-        <a id="top"></a>
-        <header>
-            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
-                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
-                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
-                </svg>
-            </div>
-            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
-        </header>
-        <main>
-            <!-- MAIN HEADER EOF -->
-            <div id="subhead">
-                <div id="breadcrumb">
-                    <div id="breadcrumb_normal"></div>
-                    <div id="breadcrumb_index"></div>
-                </div>
-                <h1 id="title"><img src="images/icon.png">&nbsp;Travail 2</h1>
-            </div>
-            <article>
-                <div id="contents">
-                    <!-- ARTICLE HEADER EOF -->
+<?php
+/**
+ * @type     article
+ * @title    Travail 2 - Solo
+ * @icon     images/icon.png
+ * @abstract consignes
+ */
+?>
 
 
-<p class="spacer">Créer un sixtyque où l’on retrouve six vidéos qui sont présentées sous forme de mosaïque (3 vidéos – 3 animations). Dans le cadre du cours d’animation 2D, vous devez réaliser les 3 vidéos d’animations vectorielles et un générique d’animation. Le stop motion et les animations doivent se répondre mutuellement au sein d’une même unité visuelle.    </p>
+<p class="spacer">Pour les étudiants qui ne suivent pas le cours de vidéo, voici les consignes du travail final. </p>
+<p>Vous devez réaliser une animation de style Bauhaus d'une durée de 60 à 120 secondes en format 1920 x 1080. Vous devez animer à partir d'une musique choisie ou de votre propre composition sonore.</p>
 <dots></dots>
 <grostitre>Références</grostitre>
 <p>Voici un moodboard de références visuelles pour l'esthétique Bauhaus que vous devez respecter dans votre projet.</p>
@@ -77,13 +28,13 @@
 
 <grostitre>Contraintes visuelles de l'animation 2D - mosaïque</grostitre>
 <checklist>
-    Vous devez utiliser des couleurs monochromes. 
+    Vous devez utiliser des couleurs monochromes dans la teinte de votre choix. 
     Vous devez respecter l'esthétique Bauhaus donnée dans les références.
     Les éléments animés doivent être abstraits. 
 </checklist>
 <dots></dots>
 <grostitre>Contraintes techniques de l'animation 2D - mosaïque</grostitre>
-<p>Vous devez utiliser au moins 3 techniques d'animation parmis les suivantes:</p>
+<p>Vous devez utiliser au moins 2 techniques d'animation parmis les suivantes:</p>
 <checklist>
     Animation de masque
     Particules 
@@ -135,11 +86,9 @@
 <grostitre>Contraintes de contenu de l'animation 2D - générique</grostitre>
 <p>Le générique doit contenir:</p>
 <checklist>
-Titre du film 
-Postes:  
-Comédiens (ordre d'apparition) 
-Animateurs 2D (ordre d'apparition de vos animations) 
-Postes majeurs, à vous de spécifier lesquels et qui les occupent: (ex: réalisateur, directeur artistique, directeur de la photographie, concepteur sonore, maquilleur, scénariste). Quelques-uns mais pas trop, disons entre 2 et 5 postes. 
+Titre de votre animation 
+Poste: Animateur 2D (Votre nom)
+Crédits pour la musique si nécessaire
 Avant-avant dernier carton: Projet encadré par (noms des 2 professeures) 
 Avant-dernier carton: Un merci aux TTP William Racine et Antoine Allard 
 Dernier carton: le logo TIM: logo_tim (animer le logo en style motion design) 
@@ -158,21 +107,19 @@ Dernier carton: le logo TIM: logo_tim (animer le logo en style motion design)
 <dots></dots>
 
 <grostitre>La préproduction</grostitre>
-<p>Pour la préproduction, vous devez présenter un powerpoint contenant les informations suivantes (En plus de celles demandées en vidéo):
+<p>Pour la préproduction, vous devez présenter un powerpoint contenant les informations suivantes:
 <checklist>
-Un synopsis (le même que celui que vous rédigez pour le cours de vidéo). 
-Un moodboard d'animation (un seul par équipe). 
-Scénarimage complet (pour l’animation et la vidéo). 
-Note: Le scénarimage doit inclure les informations à savoir qui de l'équipe anime quelle case. 
-2-3 de vos propres illustrations finales démontrant votre style graphique. 
+Un moodboard d'animation. 
+Scénarimage complet. 
+2 de vos propres illustrations finales démontrant votre style graphique. 
 </checklist>
 
 <p>En plus de présenter les éléments ci-haut, vous devez les remettre de la façon suivante: </p>
 <checklist>
 Vous devez copier le gabarit de projet (la nomenclature) et mettre votre Powerpoint dans le dossier 00_references. 
 Vous devez aussi ajouter dans le dossier 01_medias/04_typographies toutes les polices de caractères que vous prévoyez utiliser dans le projet (si applicable). 
-Remise du dossier compressé à l'endroit indiqué par votre enseignante. (Une seule remise par équipe.) 
-Vous devez être présent le jour de la remise, c'est comme un examen. Vous serez évalués en classe par Françoise et moi, conjointement (moi pour la partie 2d et Françoise pour la partie vidéo). 
+Remise du dossier compressé à l'endroit indiqué par votre enseignante.
+Vous devez être présent le jour de la remise, c'est comme un examen. Vous serez évalués en classe. 
 </checklist>
 
 
@@ -199,15 +146,15 @@ Séparer les éléments animables inviduellement sur leur propre calque.
 <p>Voici le contenu du livrable:</p>
 <checklist>
 Les animations 2D complétées. 
-Votre mosaïque doit être d'une durée de 60 à 120 secondes.  
+Votre animation doit être d'une durée de 60 à 120 secondes.  
 N'oubliez pas de travailler et de bien classer vos fichiers dans la nomenclature interne (bref, travailler avec le template tel que je vous l'ai montré en classe). 
-Vous pouvez personnellement avoir plusieurs courtes animations isolées qui serviront au montage final avec le stop-motion.  Vous pouvez personnellement travailler toutes vos animations dans le même projet .aep (fichier After Effects) en isolant chaque animation dans sa propre composition. 
-Lorsque toutes vos animations personnelles sont terminées, exportez vos compositions finales en 2 formats, suivre la capsule vidéo qui explique le tout. : 01_exportation.mp4.  
+Vous pouvez personnellement avoir plusieurs courtes animations isolées qui serviront au montage final.  Vous pouvez personnellement travailler toutes vos animations dans le même projet .aep (fichier After Effects) en isolant chaque animation dans sa propre composition. 
+Lorsque toutes vos animations sont terminées, exportez vos compositions finales en 2 formats, suivre la capsule vidéo qui explique le tout. : 01_exportation.mp4.  
 Format Web: H264 - Vimeo 1080p HD
 Format haute résolution: DNX HD HQ 1080p 24 ou PRO RES 4444 1080p 24  
 Attention. L’exportation prend beaucoup de temps alors prévoyez quelques heures pour cette étape avant la remise. 
-Dans le dossier 03_exportation, créez un dossier au nom de chaque co-équipier. Chaque personne doit remettre ses exportations dans le dossier à son nom.  
-Déposez votre dossier de projet à l'endroit indiqué par votre enseignante (une seule remise par équipe). 
+Déposez vos exportations dans le dossier 03_exportation.
+Déposez votre dossier de projet à l'endroit indiqué par votre enseignante. 
 </checklist>
 
 <p>Au besoin consulter les tutoriels suivants:</p>
@@ -217,13 +164,12 @@ Déposez votre dossier de projet à l'endroit indiqué par votre enseignante (un
 <grostitre>Les génériques (INDIVIDUEL)</grostitre>
 <p>Voici le contenu du livrable:</p>
 <checklist>
-Votre générique animé individuellement (évaluation individuelle, chacun doit faire son propre générique). 
 Votre générique doit être d'une durée de 15 à 45 secondes. 
 N'oubliez pas de travailler et de bien classer vos fichiers dans la nomenclature interne (bref, travailler avec le template tel que je vous l'ai montré en classe). 
 Lorsque votre générique est terminé, exportez-le en format H.264 - Vimeo 1080p Full HD, suivre la capsule vidéo qui explique le tout. : 01_exportation.mp4.  
 Attention. L’exportation prend beaucoup de temps alors prévoyez quelques heures pour cette étape avant la remise. 
-Ne remettre que le fichier d’exportation vidéo compressé à l'endroit indiqué par l'enseignante (pas besoin de tout le dossier de projet (remise individuelle)). 
-Vous devez être présent le jour de la remise de votre montage offline et de vos génériques, c'est comme un examen. Vous serez évalués en classe par Françoise et moi, conjointement (moi pour la partie 2d et Françoise pour la partie vidéo). 
+Ne remettre que le fichier d’exportation vidéo compressé à l'endroit indiqué par l'enseignante (pas besoin de tout le dossier de projet). 
+Vous devez être présent le jour de la remise de vos génériques, c'est comme un examen. Vous serez évalués en classe. 
 </checklist>
 
 <p>Au besoin consulter les tutoriels suivants:</p>
@@ -233,33 +179,17 @@ Vous devez être présent le jour de la remise de votre montage offline et de vo
 <grostitre>La remise finale</grostitre>
 <p>Voici le contenu du livrable:</p>
 <checklist>
-Les fichiers sources de votre travail (Illustrator, After Effects, Da Vinci) 
-Vos animations individuelles assemblées en mosaïque avec vos vidéos stop-motion. 
-Le choix d'un seul générique que vous allez ajouter au projet final. 
+Les fichiers sources de votre travail (Illustrator, After Effects) 
+Vos animations individuelles assemblées. 
+Votre générique à la suite de vos animations.
 Je m'attends à ce que vous ayez pris mes conseils aux évaluations précédentes et amélioré votre projet. 
-Vous devez être présent le jour de la remise, c'est comme un examen. Vous serez évalués en classe par moi et Françoise, conjointement (moi pour la partie 2d et Françoise pour la partie vidéo). 
+Vous devez être présent le jour de la remise, c'est comme un examen. Vous serez évalués en classe. 
 Déposez votre dossier de projet NON-COMPRESSÉ à l'endroit indiqué par l'enseignante (une seule remise par équipe). 
 </checklist>
 
-<dots></dots>
-<grostitre>Méthode de travail</grostitre>
-<p>Vous serez en équipe pour la préproduction, l'illustration et l'animation de votre projet. Cependant, vos génériques devront être réalisés individuellement.</p>
 
 
 
 
 
 
-
-
-                    <!-- ARTICLE FOOTER SOF -->
-                </div>
-                <tabledesmatieres></tabledesmatieres>
-            </article>        <!-- MAIN FOOTER SOF -->
-        </main>
-        <footer>
-            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
-        </footer>
-        <script>app.mount('body');</script>
-    </body>
-</html>
