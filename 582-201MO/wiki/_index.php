@@ -1116,9 +1116,9 @@
                         <li>Choix de couleurs (harmonie de votre palette de couleurs: quelle technique avez-vous utilisée, psychologie des couleurs: pourquoi avoir sélectionné ces couleurs).</li>
                         <li>Choix graphiques en fonction de votre audience.</li>
                     </ul>
+                </li>
             </ol>
-        </li>
-                
+        </li>         
     </ul>
 
     <h3>T03 - Le site Web Vitrine</h3>
@@ -1165,6 +1165,7 @@
                 <li>Choix de couleurs (harmonie de votre palette de couleurs: quelle technique avez-vous utilisée, psychologie des couleurs: pourquoi avoir sélectionné ces couleurs).</li>
                 <li>Choix graphiques en fonction de votre audience.</li>
             </ul>
+        </li>
     </ol>
 
 
