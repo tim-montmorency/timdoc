@@ -1112,8 +1112,8 @@
                 <li>Explication de vos choix en lien avec la matière du cours: 
                     <ul>
                         <li>Règles en design (CRAP)</li>
-                        <li>Parcours visuel: ce qu'on veut montrer en premier, en deuxième, en dernier. Quelle technique avez-vous utilisé pour diriger le regard.</li>
-                        <li>Choix de couleurs (harmonie de votre plaette de couleurs: quelle technique avez-vous utilisée, psychologie des couleurs: pourquoi avoir sélectionné ces couleurs).</li>
+                        <li>Parcours visuel: ce qu'on veut montrer en premier, en deuxième, en dernier. Quelle technique avez-vous utilisée pour diriger le regard.</li>
+                        <li>Choix de couleurs (harmonie de votre palette de couleurs: quelle technique avez-vous utilisée, psychologie des couleurs: pourquoi avoir sélectionné ces couleurs).</li>
                         <li>Choix graphiques en fonction de votre audience.</li>
                     </ul>
             </ol>
@@ -1161,8 +1161,8 @@
         <li>Explication de vos choix en lien avec la matière du cours: 
             <ul>
                 <li>Règles en design (CRAP)</li>
-                <li>Parcours visuel: ce qu'on veut montrer en premier, en deuxième, en dernier. Quelle technique avez-vous utilisé pour diriger le regard.</li>
-                <li>Choix de couleurs (harmonie de votre plaette de couleurs: quelle technique avez-vous utilisée, psychologie des couleurs: pourquoi avoir sélectionné ces couleurs).</li>
+                <li>Parcours visuel: ce qu'on veut montrer en premier, en deuxième, en dernier. Quelle technique avez-vous utilisée pour diriger le regard.</li>
+                <li>Choix de couleurs (harmonie de votre palette de couleurs: quelle technique avez-vous utilisée, psychologie des couleurs: pourquoi avoir sélectionné ces couleurs).</li>
                 <li>Choix graphiques en fonction de votre audience.</li>
             </ul>
     </ol>
