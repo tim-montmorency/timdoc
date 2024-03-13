@@ -1139,12 +1139,12 @@
     </ul>
 
     <dots></dots>
-    <grostitre>Présentation de vos projet T02 - Publicité Web</grostitre>
+    <grostitre>Présentation de vos projets <em>T02 - Publicité Web</em></grostitre>
 
 
     <ol>
         <li>Débutez en nous expliquant la structure de votre message (émetteur, audience (récepteur), sujet, message, contexte). Pas besoin de support visuel.</li>
-        <li>Ensuite, présentez votre processus de création en utilisant vos planches d’inspirations et de style.</li>
+        <li>Ensuite, présentez votre processus de création en utilisant vos planches d’inspirations et de styles.</li>
         <li>Présentez ensuite le résultat final de votre design en commençant par le Pop-up.</li>
         <li>Explication de vos choix en lien avec la matière du cours: 
             <ul>
