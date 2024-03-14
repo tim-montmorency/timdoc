@@ -519,7 +519,7 @@
 ----------------------------------->
 <wiki-page name="Cours 08" date="2024-03-16">
     <grostitre>Révision et évaluation formative (quiz)</grostitre>
-    <p>Groupe AM :  <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap: </a> <br>
+    <p>Groupe AM :  <a href="https://app.wooclap.com/OBXHKY" target="_blank" rel="noopener noreferrer">Code Wooclap: OBXHKY</a> <br>
   Groupe PM :  <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap: </a></p>
 
     <dots></dots>
