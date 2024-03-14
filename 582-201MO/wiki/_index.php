@@ -25,8 +25,35 @@
 
     <dots></dots>
     <grostitre>Figma</grostitre>
-    <p>Raccourcis clavier pour Figma : <a href="https://shortcuts.design/tools/toolspage-figma/" target="_blank"
-            rel="noopener noreferrer">https://shortcuts.design/tools/toolspage-figma/</a></p>
+    <p>Raccourcis clavier pour Figma : <a href="https://shortcuts.design/tools/toolspage-figma/" target="_blank" rel="noopener noreferrer">https://shortcuts.design/tools/toolspage-figma/</a></p>
+   
+    <ul>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUYUOyiWCc1NvwMrdzg7IkQBFf8MDBcFxu1FM0BlmJQ2tA?e=ec7f4x"
+                rel="noreferrer noopener" target="_blank">00-Installation du logiciel</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUtywLc-A51MoZG6KU8iPQwBGE33QiCUJeOtGeE7SibqgQ?e=4hDj5A"
+                rel="noreferrer noopener" target="_blank">01-Gestion de fichiers Figma</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eal-DmktxJ9GrBa1Yi4IjYcBOJutIJzJdCpqZ-2Sku0FcA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=raltgt"
+                rel="noreferrer noopener" target="_blank">02-Interface Figma, zoom et déplacement dans le canevas</a>
+        </li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EQN0yYndMOhNkYV6gh9NrqcBH7bxudQCUDsVuklVLH7Uqg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=GKMeoJ"
+                rel="noreferrer noopener" target="_blank">03-Le cadre (frame)</a></li>
+        <li><a
+            href="https://cmontmorency365-my.sharepoint.com/:v:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Design%20graphique/Figma/figma%20capsules%20video/figma_loutil_plume.mov?csf=1&amp;web=1&amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=Oe6NiT"
+            rel="noreferrer noopener" target="_blank">04-L'outil plume (pen)</a></li>
+            <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ESoCqOpYEHxGjsk2fl4kqAYBA743u1idLdAN0KZTOH06bA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Zbr0Mz"
+                rel="noreferrer noopener" target="_blank">05-Dupliquer une planche (frame) d'un fichier .fig à un autre</a>
+        </li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ESq4GIZXxTVAmKhCKbASCdQBOrwEWRtnOg7mzUFtBWPgrw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3Ojumy"
+                rel="noreferrer noopener" target="_blank">06-Alignement de texte</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUYpGAVbbolLvb3nnNHcgP4BKsQxG-3dHF4JW0lG4TAkfg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jYfmTS"
+                rel="noreferrer noopener" target="_blank">07-Alignement</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EebBspmjmUZOqAB1ExEYbJMBUxY0rQHurH3xb6byAMLjvg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=x2UCdW"
+                rel="noreferrer noopener" target="_blank">08-Alignement d'éléments selon une grille ou des colonnes</a>
+        </li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EVd0dWlWEEJLpUMfPhe6s4MBiUIuYALSra4OJRJU5YCwHQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qmH6IA"
+                rel="noreferrer noopener" target="_blank">09-Convertir le texte en forme pour le modifier (et ajouter une
+                image d'arrière plan)</a></li>
+    </ul>
 
 
 
@@ -262,6 +289,7 @@
         </li>
         <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EQN0yYndMOhNkYV6gh9NrqcBH7bxudQCUDsVuklVLH7Uqg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=GKMeoJ"
                 rel="noreferrer noopener" target="_blank">03-Le cadre (frame)</a></li>
+        
     </ul>
 
 
@@ -1121,7 +1149,7 @@
         </li>         
     </ul>
 
-    <h3>T03 - Le site Web Vitrine</h3>
+    <h3>T03 - Le site web vitrine</h3>
     <ul>
         <li>Formation des équipes (2-3)</li>
         <li>Choisir un site Web dont le design serait selon vous À AMÉLIORER. Donc ne choisissez pas un site qui est déjà super bien fait. Le site Web doit traiter d’un sujet en lien avec les <em>arts</em>, la <em>création</em> ou le <em>multimédia</em>. Si vous n'êtes pas certains que votre idée fonctionne selon le thème, svp m'écrire sur Teams.</li>
@@ -1168,15 +1196,57 @@
         </li>
     </ol>
 
+    
+    <dots></dots>
+    <grostitre>Capsules vidéos Figma à regarder</grostitre>
+    <ul>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ESq4GIZXxTVAmKhCKbASCdQBOrwEWRtnOg7mzUFtBWPgrw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3Ojumy"
+                    rel="noreferrer noopener" target="_blank">06-Alignement de texte</a></li>
+            <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUYpGAVbbolLvb3nnNHcgP4BKsQxG-3dHF4JW0lG4TAkfg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jYfmTS"
+                    rel="noreferrer noopener" target="_blank">07-Alignement</a></li>
+            <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EebBspmjmUZOqAB1ExEYbJMBUxY0rQHurH3xb6byAMLjvg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=x2UCdW"
+                    rel="noreferrer noopener" target="_blank">08-Alignement d'éléments selon une grille ou des colonnes</a>
+            </li>
+            <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EVd0dWlWEEJLpUMfPhe6s4MBiUIuYALSra4OJRJU5YCwHQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qmH6IA"
+                    rel="noreferrer noopener" target="_blank">09-Convertir le texte en forme pour le modifier (et ajouter une
+                    image d'arrière plan)</a></li>
+        </ul>
+
+
 
 
     <dots></dots>
     <grostitre>Design site web</grostitre>
-
-
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETvv0o6PLnhCoYwVcnOh-n4B4wC9JQyBDP6Ej_vfNRS_BA?e=ShfIRM" target="_blank" rel="noopener noreferrer">Présentation powerpoint: com-graph_07-design-Web01-2024.pptx </a></p>
     <p>Couleurs site web</p>
-    <p><a href="http://colormind.io/bootstrap/" target="_blank" rel="noopener noreferrer">Tester votre palette ici.</a>
-    </p>
+    <p><a href="http://colormind.io/bootstrap/" target="_blank" rel="noopener noreferrer">Tester votre palette ici.</a></p>
+
+
+    <dots></dots>
+    <grostitre>T03 - Le site web vitrine 30%</grostitre>
+    <ul>
+        <li>Si ce n'est pas fait, ce doit l'être avant la fin du cours : Formation des équipes (2-3)</li>
+        <li>Choisir un site Web dont le design serait selon vous À AMÉLIORER. Donc ne choisissez pas un site qui est déjà super bien fait. Le site Web doit traiter d’un sujet en lien avec les <em>arts</em>, la <em>création</em> ou le <em>multimédia</em>. Si vous n'êtes pas certains que votre idée fonctionne selon le thème, svp m'écrire sur Teams.</li>
+        <li>Remplir la <a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUYJUl0_E4NOlVe09wTu8x4BhZ_v9fdbvFmGxN1jmC30-w?e=BBDUgZ" target="_blank" rel="noopener noreferrer">feuille Excel</a> : attention d’inscrire les infos dans l’onglet de votre groupe classe (voir les onglets en bas à gauche)</li>
+        <li>Pour vous donner des idées de sites à re-designer, j'ai ajouté un onglet d'idées de site web sur l'art. Cet onglet est nommé <em>Idées de sites web</em>. Vous pouvez aller piger là dedans. SVP, assurez-vous que vous êtes les seuls à choisir ce site. Donc si vous en choisissez un dans la liste, prière de noircir la cellule afin de montrer que le site est réservé par votre équipe. N'oubliez pas, évidemment, d'aller écrire vos noms et le site choisi dans l'onglet correspondant à votre groupe.</li>
+    </ul>
+    <h3><a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EV9w_dBLSglLnXDU6pkflwMByKTvF9BMBng2tE9p3aBx0Q?e=ogbF3j" target="_blank" rel="noopener noreferrer">Consignes complètes - T03 Site web vitrine</a></h3>
+
+
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+    <p>Regarder les capsules Figma listées ci-haut dans le cours 7 du wiki.</p>
+    <p>Étape <em>Remise 1 - Concept</em> du <em>T03 - Site web vitrine</em> à remettre au prochain cours (10% en équipe) <br>
+    <a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EV9w_dBLSglLnXDU6pkflwMByKTvF9BMBng2tE9p3aBx0Q?e=ogbF3j" target="_blank" rel="noopener noreferrer">Consignes complètes - T03 Site web vitrine</a></p>
+    <h3>Remise 1 – Concept – Cours 8 (21 mars) : 10% </h3>
+    <ul>
+        <li>2-3 planches d’inspiration (1 par personne)</li>
+        <li>1 planche de styles (choix finaux)</li>
+        <li>1 arborescence contenant vos 3-4 pages</li>
+        <li>Maquettes filaires de toutes les pages en format grand écran ET en format mobile</li>
+    </ul>
+    <p>Exemples de <a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ErtfVl4QmdlLpeKu2udqHVcBym7i3vN_kAz40jxNBJOCMA?e=drrToy" target="_blank" rel="noopener noreferrer">2 réalisations d'équipe du projet T03</a> réalisés en 2022.</p>
+  
 </wiki-page>
 
 
