@@ -13,12 +13,16 @@
 
 <wiki-page name="Ressources" date="2024-01-20">
     <grostitre>Plans de cours et guide </grostitre>
-    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Ef5egnlPtz9Im1lJqb1tRcABeeZEMHn5Cp-EYWYHR-IyJQ?e=nrZQRe"
-            target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024</a> <em>(accessible seulement avec
-            votre compte du collège)</em></p>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Ef5egnlPtz9Im1lJqb1tRcABeeZEMHn5Cp-EYWYHR-IyJQ?e=nrZQRe" target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024</a></p>
 
-    <p><a href="https://cmontmorency365.sharepoint.com/:w:/r/sites/TIM-TTP/_layouts/15/Doc.aspx?sourcedoc=%7B48119BB7-5AEC-438C-BB23-C7DA3EE1061D%7D&file=guide_etudiants.docx&action=default&mobileredirect=true"
-            target="_blank" rel="noopener noreferrer">Guide étudiant TIM</a></p>
+    <p><a href="https://cmontmorency365.sharepoint.com/:w:/r/sites/TIM-TTP/_layouts/15/Doc.aspx?sourcedoc=%7B48119BB7-5AEC-438C-BB23-C7DA3EE1061D%7D&file=guide_etudiants.docx&action=default&mobileredirect=true" target="_blank" rel="noopener noreferrer">Guide étudiant TIM</a></p>
+
+    <dots></dots>
+    <grostitre>Clavier Mac</grostitre><ul>
+        <li><a href="https://support.apple.com/fr-ca/HT201236" target="_blank" rel="noopener noreferrer">Raccourcis clavier généraux pour MacOS</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EU8BbNt04S9Cvg-S0xaohBUBO5t81bAj3mo1SYgSvODPWA?e=rOeYKi" target="_blank" rel="noopener noreferrer">Guide de repérage des caractères spéciaux en salle MAC</a></li>
+    
+    </ul>
 
 
 
@@ -85,6 +89,8 @@
                 - Programme TIM</a>)</li>
 
     </ul>
+
+
 
     <dots></dots>
     <grostitre>Banques de ressources</grostitre>
@@ -172,6 +178,7 @@
 
 
 
+
 </wiki-page>
 
 
@@ -187,11 +194,76 @@
 <wiki-page name="Cours 01" date="2024-01-21">
     <grostitre>Plans de cours et guide </grostitre>
     <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Ef5egnlPtz9Im1lJqb1tRcABeeZEMHn5Cp-EYWYHR-IyJQ?e=nrZQRe"
-            target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024</a> <em>(accessible seulement avec
-            votre compte du collège)</em></p>
+            target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024</a> </p>
 
     <p><a href="https://cmontmorency365.sharepoint.com/:w:/r/sites/TIM-TTP/_layouts/15/Doc.aspx?sourcedoc=%7B48119BB7-5AEC-438C-BB23-C7DA3EE1061D%7D&file=guide_etudiants.docx&action=default&mobileredirect=true"
             target="_blank" rel="noopener noreferrer">Guide étudiant TIM</a></p>
+
+
+   
+    <grostitre>PRÉSENTATION DE L'ENSEIGNANTE</grostitre>
+    <p>Bonjour, je me présente: Marie-Michelle Ouellet</p>
+
+    <dots></dots>
+    <grostitre>PRÉSENTATION POWERPOINT</grostitre>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EbPPRldJaTNPuwY--OFe0PYB8nOPQc1UckBUbkp_LwR-dA?e=ozHroz" target="_blank" rel="noopener noreferrer">com-graph_01-intro_h2024.pptx</a></p>
+    <ul>
+        <li>Qu’est-ce que le design graphique</li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Ef5egnlPtz9Im1lJqb1tRcABeeZEMHn5Cp-EYWYHR-IyJQ?e=nrZQRe"
+            target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024</a></li>
+        <li>Figma vs autres logiciels</li>
+    </ul>
+
+    <grostitre>FIGMA</grostitre>
+    <ul>
+        <li>Création de compte Figma pour l’éducation</li>
+        <li>Importer une image.</li>
+        <li>Redimensionner une image.</li>
+        <li>Aligner une image.</li>
+    </ul>
+
+    <dots></dots>
+    <grostitre>PRÉSENTATION POWERPOINT</grostitre>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EbPPRldJaTNPuwY--OFe0PYB8nOPQc1UckBUbkp_LwR-dA?e=ozHroz" target="_blank" rel="noopener noreferrer">com-graph_01-intro_h2024.pptx</a></p>
+    <ul>
+        <li>Courants et tendances 2023-2024 (présentation des 2 premiers seulement)...</li>
+    </ul>
+
+    <dots></dots>
+    <grostitre>EXERCICES: TENDANCES EN DESIGN GRAPHIQUE</grostitre>
+    <ul>
+        <li>Créez les équipes (on doit compter dans la classe exactement 10 équipes)</li>
+        <li>Je vous attribue une des 10 autres tendances 2023-2024.</li>
+        <li>Lire d’abord sur la tendance. 
+            <ul> 
+                <li><a href=" https://99designs.fr/blog/tendances/tendances-design-graphique/" target="_blank" rel="noopener noreferrer">Article en français</a>​</li>
+                <li><a href=" https://99designs.com/blog/trends/graphic-design-trends-2023/" target="_blank" rel="noopener noreferrer">Article en anglais</a></li>
+            </ul>
+        </li>
+       
+        <li>Choisir 3 images dans l'article qui représente le mieux la tendance</li>
+        <li>Aller ailleurs sur le Web et sélectionner 3 autres images d'autres artistes qui représente aussi cette tendance</li>
+        <li>Ajouter vos 6 images dans la page Figma et aligner les pour que ce soit propre et bien présenté:
+            <ul>
+                <li><a href="https://www.figma.com/file/kMwNteyyNwyvbWhNYJtI8F/Exercice-Cours-1-Tendances-2023-24---Groupe-1?type=design&node-id=40%3A7&mode=design&t=PSv6ndDchDpEtQJs-1" target="_blank" rel="noopener noreferrer">Groupe classe 1</a></li>
+                <li><a href="https://www.figma.com/file/dtWVfexreM563SVXRHPUwX/Exercice-Cours-1-Tendances-2023-2024---Groupe-2?type=design&node-id=2004%3A2&mode=design&t=oyNRcOWHmiO6Hwyh-1" target="_blank" rel="noopener noreferrer">Groupe classe 2</a></li>
+                <li><a href="https://www.figma.com/file/ubcSwuznXMEyvumqp1xUNh/Exercice-Cours-1-Tendances-2023-24---Groupe-3?type=design&node-id=7%3A2&mode=design&t=BcIcfLPxdQaPus9t-1" target="_blank" rel="noopener noreferrer">Groupe classe 3</a></li>
+            </ul>
+        </li>
+        <li>Finalement, en 4 minutes, vous vous présentez (votre nom) et ensuite présentez la tendance devant la classe. Vous l’expliquez et montrez les exemples trouvés.</li>
+    
+    </ul>
+  
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+    <h3>ACTIVITÉ BRISE-GLACE À FAIRE POUR LE PROCHAIN COURS</h3>
+    <ul>
+        <li><a href="https://www.figma.com/file/vbO4DXfWliWkC2hSSAtPhz/Brise-glace-groupe-1?type=design&mode=design&t=zBjPJh1HAB3K3AHR-1" target="_blank" rel="noopener noreferrer">Groupe 1</a></li>
+        <li><a href="https://www.figma.com/file/iGP6hv0Rvd9p83d2uAgiPb/Brise-glace-groupe-2?type=design&node-id=0%3A1&mode=design&t=PSv6ndDchDpEtQJs-1" target="_blank" rel="noopener noreferrer">Groupe 2</a></li>
+        <li><a href="https://www.figma.com/file/Rq2pK2ZyFkpXSjCBELoTAs/Brise-glace-groupe-3?type=design&mode=design&t=PSv6ndDchDpEtQJs-1" target="_blank" rel="noopener noreferrer">Groupe 3</a></li>
+    </ul>
+
+ 
 </wiki-page>
 
 
