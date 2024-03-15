@@ -475,10 +475,13 @@ Terminer le travail 1 partie 1
 
 <wiki-page name="Cours 08">
 
+<p><h3>Pratique Kino</h3></p>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EeYV23Ax665Ek0LViTivNo4BNKKJFkBPswc2JFuGsUXjMA?e=u16OBQ">Fichier Illustrator de départ</doclink>
+<dots></dots>
 <p><h3>La préproduction et les illustrations du travail 2</h3></p>
 <intlink href="../exercices_ae/travail2"></intlink></p>
 
-<dots></dots>
+<p><h3>Rencontres par équipe</h3></p>
 
 </wiki-page>
 
