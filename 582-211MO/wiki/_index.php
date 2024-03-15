@@ -110,7 +110,6 @@
     <intlink href="../css/animation/exercices/fantome/"></intlink>
     <intlink href="../css/animation/exercices/yo-yo/"></intlink>
     <intlink href="../css/animation/exercices/pendule/"></intlink>
-    <intlink href="../css/animation/"></intlink>
     <intlink href="../css/animation/exercices/billes/"></intlink>
     <intlink href="../css/animation/exercices/new-super-luigi/"></intlink>
     <h2>Exercices</h2>
