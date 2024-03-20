@@ -13,7 +13,7 @@
 <grostitre>Références</grostitre>
 <p>Voici un moodboard de références visuelles pour l'esthétique Bauhaus que vous devez respecter dans votre projet.</p>
 <doclink href="https://pin.it/1ncLa2VPO">Esthétique Bauhaus Françoise </doclink>
-<doclink href="https://pin.it/7mtNlOlJD">Esthétique Bauhaus Lora </doclink>
+<doclink href="https://pin.it/2x4UvHcUo">Esthétique Bauhaus Lora </doclink>
 
 <p>Vous trouverez ici des références de courtes animations:</p>
 <doclink href="https://9-squares.tumblr.com/">9 squares</doclink>
@@ -36,24 +36,22 @@
 <p>Vous devez utiliser au moins 3 techniques d'animation parmis les suivantes:</p>
 <checklist>
     Animation de masque
-    Particules 
+    Modes de fusion
     Animations liquides
     Onde progressive
     Animation de formes concentriques
+    Effet de réduction des tracés
 </checklist>
 
 <p>Les tutoriels suivants peuvent vous aider pour les techniques:</p>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/ElH7gdtDEQpPivz-iLmIP8oBEpsBYvlBMKuNi5bk6VO7aw?e=8XQFdf">Masque </doclink>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EgjnDUti1Z5GqJHA0QoIlq8B1naVPleBMsYYIb5fzS3tZg?e=akEuwE">Particules</doclink>
+<p><intlink href="../09_modes_couleur"></intlink></p>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EvkdbDLm4AVJkwVw8cCzIicBfji4xzvhEXBXDDO0GWEPGA?e=tBDwtF">Liquide</doclink>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ekka6MZAvuFBuuLPkDovqtoBxQP1W3wc6UfU-ySuHT2Org?e=NY96jP">Onde progressive</doclink>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/ElntTFtiu6lMiXa4wgRlMLIBGN9DHD-B9oRYNLhRloOPVQ?e=QMtL8K">Formes concentriques</doclink>
-
+<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EhqvNdfAOPNEg3sWm9Oze4ABiQSJjTuzlTSBuKG92PC3Tw?e=lUwHZv">Réduction des tracés</doclink>
 <gallery>
     images/05_ae_masque_02.webp
-    images/05_ae_masque_02_1.webp
-    images/05_ae_masque_02_2.webp
-    images/05_ae_masque_02_3.webp
     images/fusion.webp
     images/larme.webp
     images/vague.webp
@@ -75,12 +73,23 @@
 <grostitre>Contraintes techniques de l'animation 2D - générique</grostitre>
 <p>Vous devez utiliser au moins 2 techniques d'animation parmis les suivantes (différentes de vos techniques pour la mosaïque):</p>
 <checklist>
-    Animation de masque
-    Particules 
+Animation de masque
+    Modes de fusion
     Animations liquides
     Onde progressive
     Animation de formes concentriques
+    Effet de réduction des tracés
 </checklist>
+
+
+<p>Les tutoriels suivants peuvent vous aider pour les techniques:</p>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/ElH7gdtDEQpPivz-iLmIP8oBEpsBYvlBMKuNi5bk6VO7aw?e=8XQFdf">Masque </doclink>
+<p><intlink href="../09_modes_couleur"></intlink></p>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EvkdbDLm4AVJkwVw8cCzIicBfji4xzvhEXBXDDO0GWEPGA?e=tBDwtF">Liquide</doclink>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ekka6MZAvuFBuuLPkDovqtoBxQP1W3wc6UfU-ySuHT2Org?e=NY96jP">Onde progressive</doclink>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/ElntTFtiu6lMiXa4wgRlMLIBGN9DHD-B9oRYNLhRloOPVQ?e=QMtL8K">Formes concentriques</doclink>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EhqvNdfAOPNEg3sWm9Oze4ABiQSJjTuzlTSBuKG92PC3Tw?e=lUwHZv">Réduction des tracés</doclink>
+
 <dots></dots>
 <grostitre>Contraintes de contenu de l'animation 2D - générique</grostitre>
 <p>Le générique doit contenir:</p>
@@ -94,14 +103,6 @@ Avant-avant dernier carton: Projet encadré par (noms des 2 professeures)
 Avant-dernier carton: Un merci aux TTP William Racine et Antoine Allard 
 Dernier carton: le logo TIM: logo_tim (animer le logo en style motion design) 
 </checklist>
-
-<p>Les tutoriels suivants peuvent vous aider pour les techniques:</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/ElH7gdtDEQpPivz-iLmIP8oBEpsBYvlBMKuNi5bk6VO7aw?e=8XQFdf">Masque </doclink>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EgjnDUti1Z5GqJHA0QoIlq8B1naVPleBMsYYIb5fzS3tZg?e=akEuwE">Particules</doclink>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EvkdbDLm4AVJkwVw8cCzIicBfji4xzvhEXBXDDO0GWEPGA?e=tBDwtF">Liquide</doclink>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ekka6MZAvuFBuuLPkDovqtoBxQP1W3wc6UfU-ySuHT2Org?e=NY96jP">Onde progressive</doclink>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/ElntTFtiu6lMiXa4wgRlMLIBGN9DHD-B9oRYNLhRloOPVQ?e=QMtL8K">Formes concentriques</doclink>
-
 
 
 

@@ -488,7 +488,7 @@ Terminer le travail 1 partie 1
 
 <wiki-page name="Cours 09">
 <h3>Mini-Kino avec les illustrations du cours 8</h3>
-
+<intlink href="../exercices_ae/kino"></intlink></p>
 </wiki-page>
 
 <wiki-page name="2 avril">
