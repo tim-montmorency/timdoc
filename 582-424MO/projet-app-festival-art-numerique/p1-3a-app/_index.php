@@ -21,11 +21,11 @@
 <p>Aperçu du résultat pour la section œuvres en vedette👇</p>
 <img src="images/app_featured_vedette.png" alt="Aperçu"  style="box-shadow: 5px 5px 20px rgba(0,0,0,0.1); max-width: 300px;">
 <checklist>
-Dans la balise main, dans le container que vous avez précédemment créé, ajoutez une 3e section (sous les filtres). Cette section fera office de rangée Bootstrap. Ajoutez les classes qui sont de mise. 
+Dans la balise <em>main</em>, dans le .container que vous avez précédemment créé, ajoutez une 3e section (sous les filtres). Cette section fera office de rangée Bootstrap. Ajoutez les classes qui sont de mise. 
 Ajoutez-lui un titre de niveau 2 nommé <em>En vedette</em>. Cette section, vous comprendrez, listera les œuvres mis en vedette par le festival d’art. 
-Sous le titre, créez 3 colonnes de largeur identique qui remplira la rangée. 
-Dans chaque colonne, (vous pouvez commencer par la première et ensuite faire un copier-coller dans les autres colonnes lorsque vous êtes satisfaits), créez-vous une carte Bootstrap. Cette carte sera appliquée non pas sur un div mais sur une balise a afin qu’elle soit complètement cliquable. Ces liens doivent mener vers la future page : <em>artwork.html</em>. 
-La carte contient une image de l’œuvre, tout en haut. Appliquez à l’image une hauteur de height: 20vh; afin que sa dimension soit adaptable avec la dimension de l’écran (vh = view height). Positionnez l’image dans son cadre avec la propriété object-fit et object-position. 
+Sous le titre, créez 3 colonnes de largeur identique qui rempliront la rangée. 
+Dans chaque colonne, (vous pouvez commencer par la première et ensuite faire un copier-coller dans les autres colonnes lorsque vous êtes satisfaits), créez une carte Bootstrap. Cette carte sera appliquée non pas sur un <em>div</em> mais sur une balise <em>a</em> afin qu’elle soit complètement cliquable. Ces liens doivent mener vers la future page : <em>artwork.html</em>. 
+La carte contient une image de l’œuvre, tout en haut. Appliquez à l’image une hauteur de height: 20vh; afin que sa dimension soit adaptable avec la dimension de l’écran (vh = view height). Positionnez l’image dans son cadre avec la propriété <code>object-fit</code> et <code>object-position</code>. 
 Sous l’image, le titre de l’œuvre.  
 Note : n’oubliez pas d’ajouter les balises et classes nécessaires pour formatter une carte Bootstrap comme il se doit. 
 Sur une nouvelle ligne, ajoutez le mot “Par “ et le nom de l’artiste (s’il y en a plusieurs, séparez les noms par une virgule). 

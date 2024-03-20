@@ -78,12 +78,15 @@ Bien que vous ayez préalablement designé votre page, vous devez tout de même 
 Si ce n’est pas le cas, ajoutez votre section <em>hero</em> dans la balise <em>main</em> 
 Sous la section Hero, créez une 2e section, identifiez-la <em>section-features</em>. Ce sera la section qui présente les fonctionnalités de l’appli que vous présentez au public. Il y en a 6. Le texte à utiliser se trouve dans le wiki du cours 4 (groupe H24). Pour créer cette section, utilisez la balise sémantique la plus appropriée. Sachez aussi que cette section fera office de rangée Bootstrap. Ajoutez les classes qui sont de mise. 
 Dans cette section ajoutez un conteneur Bootstrap qui lui-même contiendra 2 rangées. Dans la première rangée, ajoutez un titre de niveau 2 nommé <em>Fonctionnalités</em> suivi d’un paragraphe qui introduit la section (le texte est disponible dans le wiki). 
-Dans la 2e rangée, créez 6 colonnes égales. Par défaut, les colonnes s’affichent sur toute la largeur de la rangée. À partir du breakpoint <em>md</em>, on verra 2 colonnes par rangée, et à partir du breakpoint <em>lg</em>, on verra 3 colonnes par rangée (excepté si vous choisissez d'avoir des cartes horizontales, on gardera alors 2 colonnes par rangée pour le breakpoint <em>lg</em> (je fais référence au style de carte du 2e aperçu ci-haut). 
-Dans chaque colonne, (commencez par la première et vous pourrez dupliquer lorsque complété), créez une carte Bootstrap. Chaque carte Bootstrap devra contenir le titre et la description de la fonctionnalité.  Les cartes ne sont pas cliquables (elles ne mènent pas à une autre page ou autre section elles n’existe que pour présenter le contenu. 
-Va voir la <a href="https://icons.getbootstrap.com/#install" target="_blank" onclick="event.stopPropagation()">documentation sur les icônes Bootstrap</a> et installe le paquet d'icône via CDN, soit avec la balise link ou via @import dans le css, à ta guise. 
-Chaque carte Bootstrap devra accueillir une icône (icone Bootstrap). Utiliser la méthode <em>Icon Font</em> (voir documentation liée au point précédent). Vous n'êtes pas contraints à utiliser les même icônes que les aperçus ci-haut. Allez-y avec votre intuition. 
+Dans la 2e rangée, créez 6 colonnes. Par défaut, les colonnes s’affichent sur toute la largeur de la rangée  (donc une en dessous de l'autre). 
+À partir du breakpoint <em>md</em>, on verra 2 colonnes par rangée.
+À partir du breakpoint <em>lg</em>, on verra 3 colonnes par rangée (excepté si vous choisissez d'avoir des cartes horizontales, pour le breakpoint <em>lg</em> on gardera alors 2 colonnes par rangée). 
+Dans chaque colonne, (commencez par la première et vous pourrez dupliquer lorsque complété), créez une carte Bootstrap. <br>Chaque carte Bootstrap devra contenir le titre et la description de la fonctionnalité.  Les cartes ne sont PAS cliquables (elles ne mènent pas à une autre page ou une autre section, elles ne servent qu'à présenter le contenu tel quel). 
+Allez voir la <a href="https://icons.getbootstrap.com/#install" target="_blank" onclick="event.stopPropagation()">documentation sur les icônes Bootstrap</a> et installez le paquet d'icônes via CDN, soit avec la balise <em>link</em> ou via <em>@import</em> dans le css, à ta guise. 
+Chaque carte Bootstrap devra accueillir une icône (icône Bootstrap). Utilisez la méthode <em>Icon Font</em> (voir documentation liée au point précédent). Vous n'êtes pas contraints à utiliser les même icônes que les aperçus ci-haut. Allez-y avec votre intuition. 
 Appliquez le style qui vous convient selon votre design. Vous avez aussi la possibilité d’explorer autre chose au niveau du style, pas une nécessité de vous coller à votre design. Il faut que les cartes sortent un peu du look classique avec le petit filet gris autour, amusez-vous à explorer les possibilités. Ce peut-être des cartes horizontales (en 2 colonnes) ou verticales (icone, titre, texte, l’une en dessous de l’autre). À vous de voir ! 
-Sur les rangées et les colonnes de la section actuelle, si vous souhaitez ajouter une marge en haut et en bas, ainsi que réduire la largeur les gouttières entre les colonnes, ajoutez les classes Bootstrap en conséquence. 
+Sur les rangées et les colonnes de la section actuelle, ajoutez une marge supplémentaire en haut et en bas avec les classes utilitaires Bootstrap. 
+Au besoin, pour réduire la largeur des gouttières (gutters) entre les colonnes, ajoutez les classes Bootstrap en conséquence. 
 </checklist>
 
 <h4>Notes de cours 📚</h4>
@@ -112,23 +115,23 @@ Sur les rangées et les colonnes de la section actuelle, si vous souhaitez ajout
 <grostitre>Section Témoignages</grostitre>
 
 
-<p>Aperçu du résultat selon 3 grandeur d'écran: par défautl, ensuite à partir du breakpoint sm et ensuite à partir du beakpoint lg 👇</p>
+<p>Aperçu du résultat selon 3 dimensions d'écran: par défaut, ensuite à partir du breakpoint <em>sm</em> et ensuite à partir du beakpoint <em>lg</em> 👇</p>
 <img src="images/temoignages_default.jpg" alt="Défaut" style="max-width: 200px">
 <img src="images/temoignages_sm.jpg" alt="À partir du breakpoint sm" style="max-width: 400px">
 <img src="images/temoignages_lg.jpg" alt="À partir du breakpoint lg">
 <checklist>
-Sous la section <em>section-features</em>, créez une 3e section, identifiez-la <em>section-testimonials</em>. Ce sera la section des témoignages de gens qui sont contents de l’appli.  
+Sous la section <em>section-features</em>, créez une 3e section, identifiez-la <em>section-testimonials</em>. Ce sera la section des témoignages de gens qui sont satisfaits de l’appli.  
 Comme la section fonctionnalités, ajoutez deux rangées, la première contenant un titre <em>Témoignages</em> et un paragraphe qui présente la section. 
 Dans la 2e rangée, créez 6 colonnes de largeur identique. Par défaut, les colonnes s’affichent sur toute la largeur (donc une en dessous de l'autre). 
 À partir du breakpoint <em>sm</em>, on verra 2 colonnes par rangée. 
 À à partir du breakpoint <em>lg</em>, on verra 4 colonnes par rangée. La 2e rangée de cartes témoignage n’en contiendra que 2, trouvez un moyen de les centrer dans leur propre rangée avec les classes utilitaires Bootstrap.
-La carte contient une photographie de la personne qui témoigne. Vous pouvez utiliser ce <a href=" https://unsplash.com" target="_blank" onclick="event.stopPropagation()">site pour aller chercher des portrait photographique d'hommes et de femmes.</a> Choisissez le format "petit" de l'image. Prenez le temps de télécharger les images et les classer dans vos <em>assets</em>. Appliquez à l’image une hauteur à votre guise autour de height: 20vh; afin que sa dimension soit adaptable avec la dimension de l’écran (vh = view height). Positionnez l’image dans son cadre avec la propriété <code>object-fit</code> et <code>object-position</code>. 
+La carte contient une photographie de la personne qui témoigne. Vous pouvez utiliser ce <a href=" https://unsplash.com" target="_blank" onclick="event.stopPropagation()">site pour aller chercher des portrait photographique d'hommes et de femmes.</a> Choisissez le format "petit" de l'image. Prenez le temps de télécharger les images, bien les nommer et les classer dans vos <em>assets</em>. Appliquez à l’image une hauteur à votre guise autour de height: 20vh; afin que sa dimension soit adaptable avec la dimension de l’écran (vh = view height). Positionnez l’image dans son cadre avec la propriété <code>object-fit</code> et <code>object-position</code>.  L'image ne doit pas être écrasée ou étirée. Elle doit garder son ratio initial.
 Sous l’image, le nom de la personne qui témoigne en tant que titre de la carte. 
 Note : n’oubliez pas d’ajouter les balises et classes nécessaires pour formatter une carte Bootstrap comme il se doit. 
 Sous le titre de la carte, ajoutez un témoignage de votre cru. Soyez sympa. 😊  
 Stylisez un peu les cartes. J'ajoute cependant un style obligatoire, vous devez ajouter des icônes “quote” de Bootstrap, soit en arrière-plan, en haut ou au coin de la carte, en filigrane, un peu superposé ou autre idée de placement.  
 Sur toutes les sections de votre page (et il y en aura d’autres à venir), assurez-vous d’avoir un <code>padding</code> en haut et en bas assez large pour laisser respirer le contenu. Assurez-vous aussi que ce <code>padding</code> est constant de section en section. Utilisez les classes utilitaires Boostrap pour générer ce <code>padding</code>. 
-Assurez-vous aussi d’alterner la couleur de fond de chacune de vos sections pour qu’on voit bien la séparation de chacune. 
+Assurez-vous aussi d’alterner la couleur de fond de chacune de vos sections pour de bien distinguer la séparation entre chacune d'elle. 
 </checklist>
 
 <h4>Notes de cours 📚</h4>
