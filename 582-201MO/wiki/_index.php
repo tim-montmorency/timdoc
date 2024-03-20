@@ -1326,7 +1326,7 @@
 
     <h3>Création d'un comité pour l'impression des t-shirt/hoodies</h4>
     <p>Nomination (1 à 2 personnes par classe)</p>
-    <p>Premières instructions et discussions via une équipe Teams dédiée. Ensuite rencontre de 30 minutes la semaine prochaine poru faire un plan et sediviser les tâches.</p>
+    <p>Premières instructions et discussions via une équipe Teams dédiée. Ensuite rencontre de 30 minutes la semaine prochaine pour faire un plan et se diviser les tâches.</p>
    
     <h3>Logo gagnant</h3>
     <p>Bruit de tambour... </p>
