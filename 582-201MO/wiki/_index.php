@@ -192,6 +192,13 @@
 
 -->
 <wiki-page name="Cours 01" date="2024-01-21">
+    <grostitre>Rejoindre l'équipe du cours dans Teams</grostitre>
+    <p>Code: </p>
+    <h3>Activer les notifications du groupe cours</h3>
+    <img src="images/activer-notif-equipe-classe-etape01.jpg" alt="" style="width: 100%; max-width: 600px; display: block; margin: 5px auto;" ><br>
+    <img src="images/activer-notif-equipe-classe-etape02.jpg" alt="" style="width: 100%; max-width: 600px; display: block; margin: 5px auto;">
+
+
     <grostitre>Plans de cours et guide </grostitre>
     <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Ef5egnlPtz9Im1lJqb1tRcABeeZEMHn5Cp-EYWYHR-IyJQ?e=nrZQRe"
             target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024</a> </p>
@@ -1286,41 +1293,15 @@
 
 
 
-
-    <dots></dots>
-    <grostitre>Design site web</grostitre>
-    <h3><a href="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETvv0o6PLnhCoYwVcnOh-n4B4wC9JQyBDP6Ej_vfNRS_BA?e=ShfIRM" target="_blank" rel="noopener noreferrer">com-graph_07-design-Web01-2024.pptx </a></h3>
-    <p>Couleurs site web: <br>De quoi aurait l'air de votre palette de couleur sur une site web? 
-    <a href="http://colormind.io/bootstrap/" target="_blank" rel="noopener noreferrer">Testez votre palette avec cet outil.</a></p>
-
-
-    <dots></dots>
-    <grostitre>T03 - Le site web vitrine 30%</grostitre>
-    <ul>
-        <li>Si ce n'est pas fait, ce doit l'être avant la fin du cours : Formation des équipes (2-3)</li>
-        <li>Choisir un site Web dont le design serait selon vous À AMÉLIORER. Donc ne choisissez pas un site qui est déjà super bien fait. Le site Web doit traiter d’un sujet en lien avec les <em>arts</em>, la <em>création</em> ou le <em>multimédia</em>. Si vous n'êtes pas certains que votre idée fonctionne selon le thème, svp m'écrire sur Teams.</li>
-        <li>Remplir la <a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUYJUl0_E4NOlVe09wTu8x4BhZ_v9fdbvFmGxN1jmC30-w?e=BBDUgZ" target="_blank" rel="noopener noreferrer">feuille Excel</a> : attention d’inscrire les infos dans l’onglet de votre groupe classe (voir les onglets en bas à gauche)</li>
-        <li>Pour vous donner des idées de sites à re-designer, j'ai ajouté un onglet d'idées de site web sur l'art. Cet onglet est nommé <em>Idées de sites web</em>. Vous pouvez aller piger là dedans. SVP, assurez-vous que vous êtes les seuls à choisir ce site. Donc si vous en choisissez un dans la liste, prière de noircir la cellule afin de montrer que le site est réservé par votre équipe. N'oubliez pas, évidemment, d'aller écrire vos noms et le site choisi dans l'onglet correspondant à votre groupe.</li>
-    </ul>
-    <h3><a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EV9w_dBLSglLnXDU6pkflwMByKTvF9BMBng2tE9p3aBx0Q?e=ogbF3j" target="_blank" rel="noopener noreferrer">Consignes complètes - T03 Site web vitrine</a></h3>
-
-
     <dots></dots>
     <grostitre>Devoirs</grostitre>
     <p><strong>Regarder les <em>capsules Figma</em> listées ci-haut dans le cours 7 du wiki. Particulièrement celles-ci:</strong><br>
     - 07-Alignement<br>
     - 08-Alignement d'éléments selon une grille ou des colonnes.</p>
+
+    <warning>Pour le T03, il n'y a pas de remise au prochain cours. Ça a été repoussé au cours 9. Par contre, assurez-vous d'avoir trouvé votre sujet et votre équipe avant le cours 8.</warning>
+
     
-  
-    <p><strong>Remise 1 – Concept – Cours 8 (21 mars) : 10% (en équipe) </strong><br>
-<a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EV9w_dBLSglLnXDU6pkflwMByKTvF9BMBng2tE9p3aBx0Q?e=ogbF3j" target="_blank" rel="noopener noreferrer">Consignes complètes - T03 Site web vitrine</a></p>
-    <ul>
-        <li>2-3 planches d’inspiration (1 par personne)</li>
-        <li>1 planche de styles (choix finaux)</li>
-        <li>1 arborescence contenant vos 3-4 pages</li>
-        <li>Maquettes filaires de toutes les pages en format grand écran ET en format mobile</li>
-    </ul>
-    <p>Exemples de <a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ErtfVl4QmdlLpeKu2udqHVcBym7i3vN_kAz40jxNBJOCMA?e=drrToy" target="_blank" rel="noopener noreferrer">2 réalisations d'équipe du projet T03</a> réalisés en 2022.</p>
   
 </wiki-page>
 
@@ -1334,6 +1315,53 @@
  \_____\___/ \__,_|_|  |___/  \___/ 
 ----------------------------------->
 <wiki-page name="Cours 08" date="2024-03-20">
+    <grostitre>Annonces</grostitre>
+    <h3>Activer les notifications du groupe cours</h3>
+    <img src="images/activer-notif-equipe-classe-etape01.jpg" alt="" style="width: 100%; max-width: 600px; display: block; margin: 5px auto;" ><br>
+    <img src="images/activer-notif-equipe-classe-etape02.jpg" alt="" style="width: 100%; max-width: 600px; display: block; margin: 5px auto;">
+
+    <dots></dots>
+    <grostitre> Logo qui représente votre cohorte 2023/2026</grostitre>
+
+    <h3>Création d'un comité pour l'impression des t-shirt/hoodies</h4>
+    <p>Premièeres instructions et discussions via une équipe Teams dédiée. Ensuite rencontre de 30 minutes la semaine prochaine poru faire un plan et sediviser les tâches.</p>
+   
+    <h3>Logo gagnant</h3>
+    <p>Bruit de tambour... </p>
+
+    <dots></dots>
+    <grostitre>Design site web</grostitre>
+    <h3><a href="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETvv0o6PLnhCoYwVcnOh-n4B4wC9JQyBDP6Ej_vfNRS_BA?e=ShfIRM" target="_blank" rel="noopener noreferrer">com-graph_07-design-Web01-2024.pptx </a></h3>
+    <p>Couleurs site web: <br>De quoi aurait l'air de votre palette de couleur sur une site web? 
+    <a href="http://colormind.io/bootstrap/" target="_blank" rel="noopener noreferrer">Testez votre palette avec cet outil.</a></p>
+
+    <dots></dots>
+    <grostitre>T03 - Le site web vitrine 30%</grostitre>
+    <ul>
+        <li>Si ce n'est pas fait, ce doit l'être avant la fin du cours : Formation des équipes (2-3)</li>
+        <li>Choisir un site Web dont le design serait selon vous À AMÉLIORER. Donc ne choisissez pas un site qui est déjà super bien fait. Le site Web doit traiter d’un sujet en lien avec les <em>arts</em>, la <em>création</em> ou le <em>multimédia</em>. Si vous n'êtes pas certains que votre idée fonctionne selon le thème, svp m'écrire sur Teams.</li>
+        <li>Remplir la <a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUYJUl0_E4NOlVe09wTu8x4BhZ_v9fdbvFmGxN1jmC30-w?e=BBDUgZ" target="_blank" rel="noopener noreferrer">feuille Excel</a> : attention d’inscrire les infos dans l’onglet de votre groupe classe (voir les onglets en bas à gauche)</li>
+        <li>Pour vous donner des idées de sites à re-designer, j'ai ajouté un onglet d'idées de site web sur l'art. Cet onglet est nommé <em>Idées de sites web</em>. Vous pouvez aller piger là dedans. SVP, assurez-vous que vous êtes les seuls à choisir ce site. Donc si vous en choisissez un dans la liste, prière de noircir la cellule afin de montrer que le site est réservé par votre équipe. N'oubliez pas, évidemment, d'aller écrire vos noms et le site choisi dans l'onglet correspondant à votre groupe.</li>
+    </ul>
+    
+    <h3><a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EV9w_dBLSglLnXDU6pkflwMByKTvF9BMBng2tE9p3aBx0Q?e=ogbF3j" target="_blank" rel="noopener noreferrer">Consignes complètes - T03 Site web vitrine</a></h3>
+    <dots></dots>
+
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+    <h3>T03 - Phase concept</h3>
+  
+    <p><strong>Remise 1 – Concept – Cours 9 (28 mars) : 10% (en équipe) </strong><br>
+<a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EV9w_dBLSglLnXDU6pkflwMByKTvF9BMBng2tE9p3aBx0Q?e=ogbF3j" target="_blank" rel="noopener noreferrer">Consignes complètes - T03 Site web vitrine</a></p>
+    <ul>
+        <li>2-3 planches d’inspiration (1 par personne)</li>
+        <li>1 planche de styles (choix finaux)</li>
+        <li>1 arborescence contenant vos 3-4 pages</li>
+        <li>Maquettes filaires de toutes les pages en format grand écran ET en format mobile</li>
+    </ul>
+    <p>Exemples de <a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ErtfVl4QmdlLpeKu2udqHVcBym7i3vN_kAz40jxNBJOCMA?e=drrToy" target="_blank" rel="noopener noreferrer">2 réalisations d'équipe du projet T03</a> réalisés en 2022.</p>
+
+
 
 </wiki-page>
 

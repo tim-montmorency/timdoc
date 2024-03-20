@@ -84,6 +84,10 @@
         <li>PM Test diagnostique de vos connaissances en HTML, CSS et JavaScript: <a href="https://app.wooclap.com/XSDYDQ" target="_blank" rel="noopener noreferrer">Code Wooclap: XSDYDQ</a> </li>
     </ul>
 
+    <h3>Activer les notifications du groupe cours</h3>
+    <img src="images/activer-notif-equipe-classe-etape01.jpg" alt="" style="width: 100%; max-width: 600px; display: block; margin: 5px auto;" ><br>
+    <img src="images/activer-notif-equipe-classe-etape02.jpg" alt="" style="width: 100%; max-width: 600px; display: block; margin: 5px auto;">
+
     <dots></dots>
     <h2>Plans de cours, guide et ressources</h2>
     <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EX-vIbGvbLZMp_gJ8ERyPnkBICdg-6Sjpk1oWcoJSKBZFA?e=Kojadt" target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024</a> <em>(accessible seulement avec votre compte du collège)</em></p>
@@ -572,16 +576,16 @@
 
 
     <h4>Capsules et gabarits</h4>
+    <ul>
+      <li><a href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EX2KbNLrRdRHkMcFk55O1aABpskoCkrNc2HBY4Gvm2IcoQ?e=Ya8Raq" target="_blank" rel="noopener noreferrer">Gabarit Figma pour moodboard</a></li>
+      <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EQGyM0LwhZ1PryI5gmOt25MBGORRTJtFJDxYUmpoVDJitA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jgAZ8m" target="_blank" rel="noopener noreferrer">Capsule pour storyboarder</a></li>
+      <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZKUCl9U8-dEpMDbe_xROxEBQ7SbZvO8Wn0wSp4gTJIq0w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vtyGea" target="_blank" rel="noopener noreferrer">01 - Capsule pour utiliser l'outil de génération d'image vectorielle dans Illustrator</a></li>
+      <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eev3cggCjuZIk_EZgCfglTsBLdqZZx7gqM3S_SVMSFUeGg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oR3dxr" target="_blank" rel="noopener noreferrer">02 - Capsule pour utiliser l'outil de génération d'image vectorielle dans Illustrator</a>
       <ul>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EX2KbNLrRdRHkMcFk55O1aABpskoCkrNc2HBY4Gvm2IcoQ?e=Ya8Raq" target="_blank" rel="noopener noreferrer">Gabarit Figma pour moodboard</a></li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EQGyM0LwhZ1PryI5gmOt25MBGORRTJtFJDxYUmpoVDJitA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jgAZ8m" target="_blank" rel="noopener noreferrer">Capsule pour storyboarder</a></li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZKUCl9U8-dEpMDbe_xROxEBQ7SbZvO8Wn0wSp4gTJIq0w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vtyGea" target="_blank" rel="noopener noreferrer">01 - Capsule pour utiliser l'outil de génération d'image vectorielle dans Illustrator</a></li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eev3cggCjuZIk_EZgCfglTsBLdqZZx7gqM3S_SVMSFUeGg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oR3dxr" target="_blank" rel="noopener noreferrer">02 - Capsule pour utiliser l'outil de génération d'image vectorielle dans Illustrator</a>
-        <ul>
-          <li>  <a href="https://www.adobe.com/ca_fr/products/firefly/discover/ai-art-prompts.html" target="_blank" rel="noopener noreferrer">Apprenez à rédiger des prompts d'IA efficaces pour donner vie à toutes vos idées.</a></li>
-        </ul>
-      </li>
-    </ul>
+        <li>  <a href="https://www.adobe.com/ca_fr/products/firefly/discover/ai-art-prompts.html" target="_blank" rel="noopener noreferrer">Apprenez à rédiger des prompts d'IA efficaces pour donner vie à toutes vos idées.</a></li>
+      </ul>
+    </li>
+  </ul>
 
     
 
@@ -599,7 +603,14 @@
  \_____\___/ \__,_|_|  |___/   /_/                 
 ----------------------------------->
 <wiki-page name="Cours 09" date="2024-03-20">
-    <h2>Révision et évaluation formative (quiz)</h2>
+  <grostitre>Annonces</grostitre>
+  <h3>Activer les notifications du groupe cours</h3>
+  <img src="images/activer-notif-equipe-classe-etape01.jpg" alt="" style="width: 100%; max-width: 600px; display: block; margin: 5px auto;" ><br>
+  <img src="images/activer-notif-equipe-classe-etape02.jpg" alt="" style="width: 100%; max-width: 600px; display: block; margin: 5px auto;">
+
+
+
+  <h2>Révision et évaluation formative (quiz)</h2>
 
 
 

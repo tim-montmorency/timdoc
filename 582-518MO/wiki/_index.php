@@ -21,6 +21,13 @@
 
 -->
 <wiki-page name="Cours 01" date="2023-08-16">
+    <grostitre>Rejoindre l'équipe du cours dans Teams</grostitre>
+    <p>Code: </p>
+    <h3>Activer les notifications du groupe cours</h3>
+    <img src="images/activer-notif-equipe-classe-etape01.jpg" alt="" style="width: 100%; max-width: 600px; display: block; margin: 5px auto;" ><br>
+    <img src="images/activer-notif-equipe-classe-etape02.jpg" alt="" style="width: 100%; max-width: 600px; display: block; margin: 5px auto;">
+
+
     <h2>Plan de cours pour cette session</h2>
     <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EX9xxOfKopxPjznd0BBJTscBnqkhf9dxyelMqTIUbpw2jA?e=f5cDnG"
             target="_blank" rel="noopener noreferrer">Plan de cours pour groupe du LUNDI</a> MAJ 2023-10-02
