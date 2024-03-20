@@ -98,21 +98,20 @@
 
 
 <wiki-page name="Cours 07" date="2024-03-11">
-    <h2>Animation</h2>
-    <intlink href="../css/animation/"></intlink>
-    <intlink href="../css/animation/exercices/pong/"></intlink>
-    <intlink href="../css/animation/exercices/fantome/"></intlink>
-    <intlink href="../css/animation/exercices/yo-yo/"></intlink>
-    <intlink href="../css/animation/exercices/pendule/"></intlink>
-    <intlink href="../css/animation/"></intlink>
-    <intlink href="../css/animation/exercices/billes/"></intlink>
-    <intlink href="../css/animation/exercices/new-super-luigi/"></intlink>
     <h2>Transition</h2>
     <intlink href="../css/transition/"></intlink>
     <intlink href="../css/transition/exercices/spider-man/"></intlink>
     <intlink href="../css/transition/exercices/bojack-horseman/"></intlink>
     <intlink href="../css/transition/exercices/boutons/"></intlink>
     <intlink href="../css/transition/exercices/fantome-mario/"></intlink>
+    <h2>Animation</h2>
+    <intlink href="../css/animation/"></intlink>
+    <intlink href="../css/animation/exercices/pong/"></intlink>
+    <intlink href="../css/animation/exercices/fantome/"></intlink>
+    <intlink href="../css/animation/exercices/yo-yo/"></intlink>
+    <intlink href="../css/animation/exercices/pendule/"></intlink>
+    <intlink href="../css/animation/exercices/billes/"></intlink>
+    <intlink href="../css/animation/exercices/new-super-luigi/"></intlink>
     <h2>Exercices</h2>
     <intlink href="../css/exercices/david-bowie-earthling/"></intlink>
     <intlink href="../css/exercices/godspeed-you-black-emperor-lift-yr/"></intlink>
@@ -127,7 +126,6 @@
     <intlink href="../css/snap-scroll/exercices/whatisadam/"></intlink>
     <intlink href="../css/masquage/"></intlink>
     <intlink href="../css/masquage/exercices/barbie-selfie/"></intlink>
-    <intlink href="../css/pseudo-classes-avancees/#has"></intlink>
 
 
     <h2>Exercices</h2>
