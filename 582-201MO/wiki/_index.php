@@ -13,7 +13,7 @@
 
 <wiki-page name="Ressources" date="2024-01-20">
     <grostitre>Plans de cours et guide </grostitre>
-    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Ef5egnlPtz9Im1lJqb1tRcABeeZEMHn5Cp-EYWYHR-IyJQ?e=nrZQRe" target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024</a></p>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EY_Gnxe-BUxIu9atvUNmOHoBfi6mC1r3EydaMr2fWsvcRA?e=vqrC7U" target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024 - Révisé le 19 mars 2024</a></p>
 
     <p><a href="https://cmontmorency365.sharepoint.com/:w:/r/sites/TIM-TTP/_layouts/15/Doc.aspx?sourcedoc=%7B48119BB7-5AEC-438C-BB23-C7DA3EE1061D%7D&file=guide_etudiants.docx&action=default&mobileredirect=true" target="_blank" rel="noopener noreferrer">Guide étudiant TIM</a></p>
 
@@ -200,8 +200,7 @@
 
 
     <grostitre>Plans de cours et guide </grostitre>
-    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Ef5egnlPtz9Im1lJqb1tRcABeeZEMHn5Cp-EYWYHR-IyJQ?e=nrZQRe"
-            target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024</a> </p>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EY_Gnxe-BUxIu9atvUNmOHoBfi6mC1r3EydaMr2fWsvcRA?e=vqrC7U" target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024 - Révisé le 19 mars 2024</a> </p>
 
     <p><a href="https://cmontmorency365.sharepoint.com/:w:/r/sites/TIM-TTP/_layouts/15/Doc.aspx?sourcedoc=%7B48119BB7-5AEC-438C-BB23-C7DA3EE1061D%7D&file=guide_etudiants.docx&action=default&mobileredirect=true"
             target="_blank" rel="noopener noreferrer">Guide étudiant TIM</a></p>
@@ -216,8 +215,7 @@
     <p><a href="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EbPPRldJaTNPuwY--OFe0PYB8nOPQc1UckBUbkp_LwR-dA?e=ozHroz" target="_blank" rel="noopener noreferrer">com-graph_01-intro_h2024.pptx</a></p>
     <ul>
         <li>Qu’est-ce que le design graphique</li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Ef5egnlPtz9Im1lJqb1tRcABeeZEMHn5Cp-EYWYHR-IyJQ?e=nrZQRe"
-            target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EY_Gnxe-BUxIu9atvUNmOHoBfi6mC1r3EydaMr2fWsvcRA?e=vqrC7U" target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024 - Révisé le 19 mars 2024</a></li>
         <li>Figma vs autres logiciels</li>
     </ul>
 
@@ -1299,7 +1297,7 @@
     - 07-Alignement<br>
     - 08-Alignement d'éléments selon une grille ou des colonnes.</p>
 
-    <warning>Pour le T03, il n'y a pas de remise au prochain cours. Ça a été repoussé au cours 9. Par contre, assurez-vous d'avoir trouvé votre sujet et votre équipe avant le cours 8.</warning>
+    <warning>Pour le T03, il n'y a pas de remise au prochain cours. Ça a été repoussé au cours 9. Par contre, assurez-vous d'avoir trouvé votre sujet et votre équipe avant le cours 8. Remplir dans la <a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUYJUl0_E4NOlVe09wTu8x4BhZ_v9fdbvFmGxN1jmC30-w?e=BBDUgZ" target="_blank" rel="noopener noreferrer">feuille Excel</a>, l'onglet de votre groupe cours.</warning>
 
     
   
@@ -1320,11 +1318,15 @@
     <img src="images/activer-notif-equipe-classe-etape01.jpg" alt="" style="width: 100%; max-width: 600px; display: block; margin: 5px auto;" ><br>
     <img src="images/activer-notif-equipe-classe-etape02.jpg" alt="" style="width: 100%; max-width: 600px; display: block; margin: 5px auto;">
 
+    <h3>Ajustement au plan de cours car report de la remise du <em>T03 - Concept</em> d'une semaine</h3>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EY_Gnxe-BUxIu9atvUNmOHoBfi6mC1r3EydaMr2fWsvcRA?e=vqrC7U" target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024 - Révisé le 19 mars 2024</a></p>
+
     <dots></dots>
     <grostitre> Logo qui représente votre cohorte 2023/2026</grostitre>
 
     <h3>Création d'un comité pour l'impression des t-shirt/hoodies</h4>
-    <p>Premièeres instructions et discussions via une équipe Teams dédiée. Ensuite rencontre de 30 minutes la semaine prochaine poru faire un plan et sediviser les tâches.</p>
+    <p>Nomination (1 à 2 personnes par classe)</p>
+    <p>Premières instructions et discussions via une équipe Teams dédiée. Ensuite rencontre de 30 minutes la semaine prochaine poru faire un plan et sediviser les tâches.</p>
    
     <h3>Logo gagnant</h3>
     <p>Bruit de tambour... </p>
