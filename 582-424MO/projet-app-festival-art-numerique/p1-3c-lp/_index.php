@@ -30,6 +30,8 @@ Les liens du menu principal doivent pointer vers chaque section avec un anchor. 
 <grostitre>Section "voir plus" avec carrousel Swiper</grostitre>
 <p>Aperçu du résultat 👇</p>
 <clipasset src="videos/swiper-screenshot-requis-base.mp4"></clipasset>
+<p><small>Pour faire <em>pause</em> et <em>play</em> sur la vidéo de la démo, si vous êtes dans Chrome, vous n'avez qu'à faire "clic-droit" au dessus de la démo et cliquer sur "<em>Afficher les commandes</em>".</small></p>
+<dots></dots>
 
 <checklist>Créez une nouvelle section Voir plus (view-more) et insérez la juste après la section fonctionnalité et juste avant celle de témoignages. Ajoutez-lui un id. 
 Assurez-vous que le lien « Voir plus » dans la navbar mène vers cette section.
@@ -49,9 +51,10 @@ Si vous voulez aller plus loin, vous pouvez essayer d’ajouter un cadre comme d
 
 <p>Ajouts facultatifs 👇</p>
 <clipasset src="videos/swiper-screenshot-facultatif.mp4"></clipasset>
+<p><small>Pour faire <em>pause</em> et <em>play</em> sur la vidéo de la démo, si vous êtes dans Chrome, vous n'avez qu'à faire "clic-droit" au dessus de la démo et cliquer sur "<em>Afficher les commandes</em>".</small></p>
 
 
-
+<dots></dots>
 <h3>Notes de cours 📚</h3>
 <intlink href="../../swiper/#swiper"></intlink> 
 

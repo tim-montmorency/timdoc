@@ -29,6 +29,8 @@ App : faites en sorte que le bouton like sur la page artwork soit cliquable et q
 <grostitre>Swiper sur les filtres et les oeuvres en vedette</grostitre>
 <p>Aperçu du résultat 👇</p>
 <clipasset src="video/swiper-app.mp4" mobile="true"></clipasset>
+<p><small>Pour faire <em>pause</em> et <em>play</em> sur la vidéo de la démo, si vous êtes dans Chrome, vous n'avez qu'à faire "clic-droit" au dessus de la démo et cliquer sur "<em>Afficher les commandes</em>".</small></p>
+<dots></dots>
 
 <h3>Filtres</h3>
 <checklist>Assurez-vous que votre liste de boutons se trouve seule dans sa section (balise section).
