@@ -10,8 +10,8 @@
 <grostitre>Ajustement de vos couleurs dans vos CSS et vos class HTML</grostitre>
 
 <checklist>
-  Si ce n'est pas déjà fait, maintenant que vous avez personnalisé les classes de couleurs Bootstrap telles que <br> <code>--bs-primary, --bs-secondary, --bs-info, --bs-warning</code> etc., <br>veuillez aller changer partout où c'est possible dans votre CSS, afin d'utiliser ces variables.
-  Vous pouvez aussi utiliser les classes Bootstrap dans certain cas, par exemple sur un bouton avec la classe <code>.btn-primary</code> ou <code>.btn-outline-primary</code> ou encore sur un div, ajuster la couleur du texte avec la classe <code>.text-primary</code> ou l'arrière-plan avec la classe <code>.bg-primary</code>
+  Si ce n'est pas déjà fait, maintenant que vous avez personnalisé les classes de couleurs Bootstrap telles que <br> <incode>--bs-primary, --bs-secondary, --bs-info, --bs-warning</incode> etc., <br>veuillez aller changer partout où c'est possible dans votre CSS, afin d'utiliser ces variables.
+  Vous pouvez aussi utiliser les classes Bootstrap dans certain cas, par exemple sur un bouton avec la classe <incode>.btn-primary</incode> ou <incode>.btn-outline-primary</incode> ou encore sur un div, ajuster la couleur du texte avec la classe <incode>.text-primary</incode> ou l'arrière-plan avec la classe <incode>.bg-primary</incode>
 </checklist>
 
 <dots></dots>
