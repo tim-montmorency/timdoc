@@ -44,7 +44,7 @@ Vous devez remettre votre fichier exporté dans Teams.
 <p>Voici des tutoriels qui peuvent vous aider: </p>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/ElntTFtiu6lMiXa4wgRlMLIBGN9DHD-B9oRYNLhRloOPVQ?e=QMtL8K">Formes concentriques</doclink>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EhqvNdfAOPNEg3sWm9Oze4ABiQSJjTuzlTSBuKG92PC3Tw?e=lUwHZv">Réduction des tracés</doclink>
-<p><intlink href="../09_modes_couleur"></intlink></p>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ea71EUXZ7udLojHUDr_LtgkB_19Ym_WslnziX7XaSC55Wg?e=bssAes">Mode de fusion</doclink>
 
 <dots></dots>
 <grostitre>Carré 3 - Libre</grostitre>
