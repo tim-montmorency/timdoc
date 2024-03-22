@@ -604,6 +604,11 @@
 ----------------------------------->
 <wiki-page name="Cours 09" date="2024-03-20">
 
+
+
+  <grostitre>Annonces</grostitre>
+  <h3>Remise</h3>
+  <p>Remise de la partie de projet 2.1</p>
   <info>
     <h3>La date d'examen final est sortie</h3>
     <p>Mettez ça à vos agenda!</p>
@@ -611,7 +616,10 @@
     <p>LOCAL: C-1639</p>
   </info>
 
-  <grostitre>Annonces</grostitre>
+  <alert>
+   Groupe 2: Est-ce possible pour vous de repousser ça à 9h? Ce serait de 9h à 12h:30.
+  </alert>
+
 
 
   <h3>Activer les notifications du groupe cours</h3>
