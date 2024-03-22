@@ -45,7 +45,7 @@
 
 <p>Les tutoriels suivants peuvent vous aider pour les techniques:</p>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/ElH7gdtDEQpPivz-iLmIP8oBEpsBYvlBMKuNi5bk6VO7aw?e=8XQFdf">Masque </doclink>
-<p><intlink href="../09_modes_couleur"></intlink></p>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ea71EUXZ7udLojHUDr_LtgkB_19Ym_WslnziX7XaSC55Wg?e=bssAes">Mode de fusion</doclink>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EvkdbDLm4AVJkwVw8cCzIicBfji4xzvhEXBXDDO0GWEPGA?e=tBDwtF">Liquide</doclink>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ekka6MZAvuFBuuLPkDovqtoBxQP1W3wc6UfU-ySuHT2Org?e=NY96jP">Onde progressive</doclink>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/ElntTFtiu6lMiXa4wgRlMLIBGN9DHD-B9oRYNLhRloOPVQ?e=QMtL8K">Formes concentriques</doclink>
@@ -84,7 +84,7 @@ Animation de masque
 
 <p>Les tutoriels suivants peuvent vous aider pour les techniques:</p>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/ElH7gdtDEQpPivz-iLmIP8oBEpsBYvlBMKuNi5bk6VO7aw?e=8XQFdf">Masque </doclink>
-<p><intlink href="../09_modes_couleur"></intlink></p>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ea71EUXZ7udLojHUDr_LtgkB_19Ym_WslnziX7XaSC55Wg?e=bssAes">Mode de fusion</doclink>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EvkdbDLm4AVJkwVw8cCzIicBfji4xzvhEXBXDDO0GWEPGA?e=tBDwtF">Liquide</doclink>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ekka6MZAvuFBuuLPkDovqtoBxQP1W3wc6UfU-ySuHT2Org?e=NY96jP">Onde progressive</doclink>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/ElntTFtiu6lMiXa4wgRlMLIBGN9DHD-B9oRYNLhRloOPVQ?e=QMtL8K">Formes concentriques</doclink>

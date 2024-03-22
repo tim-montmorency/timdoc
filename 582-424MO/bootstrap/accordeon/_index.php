@@ -47,7 +47,7 @@
 
 &lt;/div&gt;</highlight>
 <br>
-<h3>Remarquez le lien entre les IDs des éléments et les atributs <code>data-bs-target</code>, <code>aria-controls</code>, <code>aria-labelledby</code> et <code>data-bs-parent</code></h3>
+<h3>Remarquez le lien entre les IDs des éléments et les atributs <incode>data-bs-target</incode>, <incode>aria-controls</incode>, <incode>aria-labelledby</incode> et <incode>data-bs-parent</incode></h3>
 <img src="images/accordions_attributes.png" alt="les IDs du code">
 
 
