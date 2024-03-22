@@ -11,21 +11,11 @@
 
 
 
+<info>À partir de maintenant, vous devez travailler INDIVIDUELLEMENT. Vous devez donc avoir chacun un dossier de projet. Aucun plagiat ne sera toléré. Vous pourrez même décider de personnaliser l’histoire et d’adapter le scénario de votre côté. Je m’attends à voir des différences dans les animations réalisées même si vous travaillez 2 personnes sur la même histoire avec les mêmes éléments graphiques. Le reste du projet, je vous le répète est un projet individuel. Il sera crucial de le faire par vous-même pour atteindre toutes les compétences du cours.</info>
 
 
- <p>À partir de maintenant, vous devez travailler INDIVIDUELLEMENT.
-     Vous devez donc avoir chacun un dossier de projet. Aucun plagiat ne sera toléré.
-     Vous pourrez même décider de personnaliser l’histoire et d’adapter le scénario
-     de votre côté. Je m’attends à voir des différences dans les animations réalisées
-     même si vous travaillez 2 personnes sur la même histoire avec les mêmes
-     éléments graphiques. Le reste du projet, je vous le répète est un projet
-     individuel. Il sera crucial de le faire
-     par vous-même pour atteindre toutes les compétences du cours.</p>
 
  <dots></dots>
-
-
-
 <grostitre>Aperçu du résultat 👇</grostitre>
 <clipasset src="videos/demo_p2-2a.mp4"></clipasset>
 <p><small>Cette démo démontre un exemple d'un écran d'intro et 2 chapitres, vous devrez de votre côté en avoir 6 à 8 en plus de l'écran d'intro. Le tout doit être responsive. Pour le momoment, ignorez l'animation du bonhomme dans le 1er chapitre de cette démo: vous n'avez pas à déplacer ou animer votre "sprite sheet" dans le fichier index.html, vous pouvez animer la "sprite sheet" dans un fichier HTML séparé (bref suivre les instructions ci-bas).</small></p>

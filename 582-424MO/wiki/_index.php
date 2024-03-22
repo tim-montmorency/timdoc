@@ -641,9 +641,10 @@
     <grostitre>Révision et évaluation formative (quiz)</grostitre>
     <p>Groupe AM : <a href="https://app.wooclap.com/OBXHKY" target="_blank" rel="noopener noreferrer">Code Wooclap:
             OBXHKY</a> <br>
-        Groupe PM : <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap: </a></p>
+        Groupe PM : <a href="https://app.wooclap.com/SBTAHX" target="_blank" rel="noopener noreferrer">Code Wooclap: SBTAHX</a></p>
 
     <dots></dots>
+
     <grostitre>Projet <em>Scrollytelling</em></grostitre>
     <p>Inscrire vos noms par équipe dans le <a
             href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EW-9n-Z4YCVNvQ88AuXbPLEBp750K9CLC_-lojnTIchwOA?e=d3WDdi"
@@ -658,40 +659,43 @@
     <grostitre>Javascript: Suite Fetch API</grostitre>
     <intlink href="../javascript/fetch-api"></intlink>
 
-    <h3>Exercices</h3>
-    <p>Exercice Poké API: lien fourni en classe.</p>
-    <p><small>
-            Essayez de tout faire sans regarder mes capsules d'aide supplémentaire. Si jamais rien n'y fait lorsque vous
-            tentez de le faire seul(e), alors voici 2 capsules pour des précisions pour le numéro 4 et ensuite pour les
-            numéros 5 et 6. <br><a
-                href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXOeyRXraItDi96EILAqQP8BY6khe-C4kjjQdt_qv9FDXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8zX3QB"
-                target="_blank" rel="noopener noreferrer">aide_suppl_instruction_4_poke_api.mov</a><br>
-            <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EYM0cd3dTnpBrV6BhUxA7m8BNevgj5IaxvfLuV6D0jDxAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=h753MW"
-                target="_blank" rel="noopener noreferrer">aide_suppl_instruction_5-6_poke_api.mov</a>
-        </small></p>
+    <h3>Exercice Poké API</h3>
+    <p><small>Essayez de tout faire sans regarder mes capsules d'aide supplémentaire. Si jamais rien n'y fait lorsque vous tentez de le faire seul(e), alors voici 2 capsules pour des précisions pour le numéro 4 et ensuite pour les numéros 5 et 6. <br><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXOeyRXraItDi96EILAqQP8BY6khe-C4kjjQdt_qv9FDXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8zX3QB" target="_blank" rel="noopener noreferrer">aide_suppl_instruction_4_poke_api.mov</a><br><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EYM0cd3dTnpBrV6BhUxA7m8BNevgj5IaxvfLuV6D0jDxAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=h753MW" target="_blank" rel="noopener noreferrer">aide_suppl_instruction_5-6_poke_api.mov</a></small></p>
+    <exercice href='../exercices/fetch-api-pokemon-api'></exercice>
 
 
     <dots></dots>
     <grostitre>GSAP</grostitre>
     <intlink href="../gsap/introduction/"></intlink>
     <intlink href="../gsap/objet-et-methodes/"></intlink>
-    <p>2 exercices fournis en classe.</p>
+    <h4>Exercices</h4>
+    <exercice href='../gsap/exercices/voiture-jaune/'></exercice>
+    <exercice href='../gsap/exercices/voiture-turquoise/'></exercice>
+   
+  
 
-    <h3>Si on a le temps</h3>
+    <dots></dots>
     <intlink href="../gsap/proprietes-speciales/"></intlink>
-    <p>2 autres exercices fournis en classe.</p>
+    <h4>Exercices</h4>
+    <exercice href='../gsap/exercices/gsap-stagger-dominos/'></exercice>
+    <exercice href='../gsap/exercices/voiture-bleue/'></exercice>
 
 
 
     <dots></dots>
     <grostitre>En classe et devoirs</grostitre>
     <h3>Exercices</h3>
-    <p>Terminer les exercices</p>
-    <exercice href='../exercices/fetch-api-pokemon-api'></exercice>
-    <exercice href='../gsap/exercices/voiture-jaune/'></exercice>
-    <exercice href='../gsap/exercices/voiture-turquoise/'></exercice>
-    <exercice href='../gsap/exercices/gsap-stagger-dominos/'></exercice>
-    <exercice href='../gsap/exercices/voiture-bleue/'></exercice>
+    <p>Terminer les exercices :</p>
+    <ul>
+        <li><intlink href='../exercices/fetch-api-pokemon-api'></intlink> avancer à 50% minimum</li>
+    </ul>
+    <br>
+    <ul>
+        <li><intlink href='../gsap/exercices/voiture-jaune/'></intlink></li>
+        <li><intlink href='../gsap/exercices/voiture-turquoise/'></intlink></li>
+        <li><intlink href='../gsap/exercices/gsap-stagger-dominos/'></intlink></li>
+        <li><intlink href='../gsap/exercices/voiture-bleue/'></intlink></li>
+    </ul>
 
 
 
@@ -764,21 +768,64 @@
         style="width: 100%; max-width: 600px; display: block; margin: 5px auto;">
 
 
+
+
     <dots></dots>
     <h2>Révision et évaluation formative (quiz)</h2>
+    <p>Groupe AM : <a href="https://app.wooclap.com/QKUZFS" target="_blank" rel="noopener noreferrer">Code Wooclap: QKUZFS</a> <br>
+        Groupe PM : <a href="https://app.wooclap.com/YMCQRY" target="_blank" rel="noopener noreferrer">Code Wooclap: YMCQRY </a></p>
+    
+
+
+
+
+
     <dots></dots>
     <grostitre>Révision exercices</grostitre>
     <p>Vérification des exercices complétés</p>
-    <exercice href='../exercices/fetch-api-pokemon-api'></exercice>
-    <exercice href='../gsap/exercices/voiture-jaune/'></exercice>
-    <exercice href='../gsap/exercices/voiture-turquoise/'></exercice>
-    <exercice href='../gsap/exercices/gsap-stagger-dominos/'></exercice>
-    <exercice href='../gsap/exercices/voiture-bleue/'></exercice>
+    <ul>
+        <li><intlink href='../exercices/fetch-api-pokemon-api'></intlink></li>
+        <li><intlink href='../gsap/exercices/voiture-jaune/'></intlink></li>
+        <li><intlink href='../gsap/exercices/voiture-turquoise/'></intlink></li>
+        <li><intlink href='../gsap/exercices/gsap-stagger-dominos/'></intlink></li>
+        <li><intlink href='../gsap/exercices/voiture-bleue/'></intlink></li>
+    </ul>
+
 
 
     <dots></dots>
-    <grostitre>Contrôle animation </grostitre>
+    <grostitre>GSAP - Contrôle animation </grostitre>
     <intlink href='../gsap/controle-animation/'></intlink>
+    <exercice href='../gsap/exercices/voiture-mauve/'></exercice>
+    <exercice href='../gsap/exercices/voiture-verte/'></exercice>
+    <dots></dots>
+
+    <grostitre>GSAP - Timeline </grostitre>
+    <intlink href='../gsap/timeline/'></intlink>
+    <exercice href='../gsap/exercices/incredible-machine/'></exercice>
+    <exercice href='../gsap/exercices/excitebike/'></exercice>
+
+
+
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+
+    <grostitre>En classe et devoirs</grostitre>
+    <h3>Exercices</h3>
+
+    <ul>
+        <li><intlink href='../gsap/exercices/voiture-mauve/'></intlink></li>
+        <li><intlink href='../gsap/exercices/voiture-verte/'></intlink></li>
+        <li><intlink href='../gsap/exercices/incredible-machine/'></intlink></li>
+        <li><intlink href='../gsap/exercices/excitebike/'></intlink></li>
+    </ul>
+
+
+
+    <h3>Projet 2</h3>
+    <intlink href="../projet-scrollytelling/p2-2a/"></intlink>
+ 
+
 
 
 
