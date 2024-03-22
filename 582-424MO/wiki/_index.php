@@ -755,34 +755,12 @@
     <dots></dots>
     <grostitre>Révision exercices</grostitre>
     <p>Vérification des exercices complétés</p>
+    <intlink href='../exercices/fetch-api-pokemon-api/'></intlink>
+    <intlink href='../gsap/exercices/voiture-jaune/'></intlink>
+    <intlink href='../gsap/exercices/voiture-turquoise/'></intlink>
+    <intlink href='../gsap/exercices/gsap-stagger-dominos/'></intlink>
+    <intlink href='../gsap/exercices/voiture-bleue/'></intlink>
     
-
-
-    <ul>
-        <li>Poke API</li>
-        <li><a href="https://tim-montmorency.com/timdoc/582-424MO/gsap/exercices/voiture-jaune/" target="_blank"
-                rel="noreferrer noopener">
-                Exercice Voiture jaune
-            </a>
-        </li>
-        <li> <a href="https://tim-montmorency.com/timdoc/582-424MO/gsap/exercices/voiture-turquoise/" target="_blank"
-                rel="noreferrer noopener">
-                Exercice Voiture turquoise
-            </a>
-        </li>
-        <li> <a href="https://tim-montmorency.com/timdoc/582-424MO/gsap/exercices/gsap-stagger-dominos/" target="_blank"
-                rel="noreferrer noopener">
-                Exercice Dominos
-            </a>
-        </li>
-        <li> <a href="https://tim-montmorency.com/timdoc/582-424MO/gsap/exercices/voiture-bleue/" target="_blank"
-                rel="noreferrer noopener">
-                Exercice Voiture bleue
-            </a>
-        </li>
-    </ul>
-
-
 
 
 
