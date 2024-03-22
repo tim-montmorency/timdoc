@@ -145,7 +145,7 @@
     <intlink href="../bootstrap/grille/"></intlink>
     <dots></dots>
     <h3>Exercices</h3>
-    <p>Exercice fourni en classe.</p>
+    <exercice href='../bootstrap/exercices/bootstrap-puzzle-colore'></exercice>
 
     <dots></dots>
     <h2>Projet 1</h2>
@@ -196,9 +196,14 @@
             DSIJEF</a>
     </p>
 
+
+
+    <dots></dots>
     <h2>Annonces</h2>
     <p>Info tutorat à venir...</p>
 
+
+    <dots></dots>
     <h2>Claviers Mac</h2>
     <p>Révision: <a
             href="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EU8BbNt04S9Cvg-S0xaohBUBO5t81bAj3mo1SYgSvODPWA?e=1kEacK"
@@ -207,14 +212,20 @@
     <h2>Suite du dernier cours</h2>
     <intlink href="../bootstrap/grille/"></intlink>
 
-    <h2>Exercice</h2>
-    <p>Lien à venir dans le cours</p>
 
+    <dots></dots>
+    <h2>Exercice</h2>
+    <exercice href='../bootstrap/exercices/bootstrap-puzzle-colore'></exercice>
+
+
+    <dots></dots>
     <h2>Boostrap</h2>
     <intlink href="../bootstrap/boutons/"></intlink>
     <intlink href="../bootstrap/navbar/"></intlink>
     <intlink href="../bootstrap/cartes/"></intlink>
 
+
+    <dots></dots>
     <h2>Devoirs</h2>
     <p>Terminer les exercices d'aujourd'hui ("puzzle coloré" et "navbar et cartes")</p>
     <intlink href="../projet-app-festival-art-numerique/p1-2a/"></intlink>
@@ -269,7 +280,8 @@
 
     <dots></dots>
     <grostitre>Révision</grostitre>
-    <intlink href="../bootstrap/exercices/bootstrap-puzzle-colore/">Le puzzle coloré (grille Bootstrap)</intlink>
+
+    <exercice href='../bootstrap/exercices/bootstrap-puzzle-colore'></exercice>
 
 
     <dots></dots>
@@ -278,7 +290,7 @@
 
     <dots></dots>
     <grostitre>Exercice</grostitre>
-    <intlink href="../bootstrap/exercices/bootstrap-nav-card/">NavBar et cartes</intlink>
+    <exercice href='../bootstrap/exercices/bootstrap-nav-card/'></exercice>
 
 
     <dots></dots>
@@ -394,7 +406,9 @@
 
     <dots></dots>
     <grostitre>Révision exercices</grostitre>
-    <intlink href="../bootstrap/exercices/bootstrap-nav-card/"></intlink>
+   
+    <exercice href='../bootstrap/exercices/bootstrap-nav-card/'></exercice>
+
     <p>Ouvrez vos exercices sur CodePen, je vais passer les voir un à un.</p>
     <p>Révision en classe.</p>
 
@@ -474,7 +488,7 @@
     <intlink href="../../582-215MO/css/object-fit/"></intlink>
 
     <codepen id="YzgMzrN" tab="css,result"></codepen>
-    <intlink href="../..//582-215MO/css/object-fit/exercices/mcdonalds/"></intlink>
+    <exercice href='../../582-215MO/css/object-fit/exercices/mcdonalds/'></exercice>
 
     <dots></dots>
     <grostitre>Librairie Swiper</grostitre>
@@ -482,9 +496,7 @@
     <intlink href="../swiper/swiper/"></intlink>
 
     <h3>Exercice</h3>
-    <p>Lien fourni en classe</p>
-
-
+    <exercice href='../swiper/exercices/swiper-carousels/'></exercice>
 
 
     <dots></dots>
@@ -551,7 +563,7 @@
     <intlink href="../javascript/promesses-js"></intlink>
     <intlink href="../javascript/fetch-api"></intlink>
     <h3>Exercice</h3>
-    <intlink href="../exercices/fetch-api-zoom"></intlink>
+    <exercice href='../exercices/fetch-api-zoom'></exercice>
 
 
     <dots></dots>
@@ -598,7 +610,8 @@
     <dots></dots>
     <h2>En classe et devoirs</h2>
     <h3>Terminer l'exercice de Fetct API</h3>
-    <intlink href="../exercices/fetch-api-zoom"></intlink>
+    <exercice href='../exercices/fetch-api-zoom'></exercice>
+
     <h3>Projet 1</h3>
     <p>Complétez le projet avec mes commentaires T1.2 et la capsule vidéo formative.</p>
     <p>Remise final au prochain cours (cours 8). Vaut pour 20% de la session.</p>
@@ -673,10 +686,13 @@
     <dots></dots>
     <grostitre>En classe et devoirs</grostitre>
     <h3>Exercices</h3>
-    <ul>
-        <li>Terminer l'exercice de Fetch API Pokemons</li>
-        <li>Terminer les 4 exercices GSAP: voiture jaune, voiture turquoise, dominos, voiture bleue</li>
-    </ul>
+    <p>Terminer les exercices</p>
+    <exercice href='../exercices/fetch-api-pokemon-api'></exercice>
+    <exercice href='../gsap/exercices/voiture-jaune/'></exercice>
+    <exercice href='../gsap/exercices/voiture-turquoise/'></exercice>
+    <exercice href='../gsap/exercices/gsap-stagger-dominos/'></exercice>
+    <exercice href='../gsap/exercices/voiture-bleue/'></exercice>
+
 
 
     <h3>Projet 2</h3>
@@ -728,19 +744,18 @@
 
     <grostitre>Annonces</grostitre>
     <h3>Remise</h3>
-    <p>Remise de la partie de projet 2.1</p>
+    <p>Remise de la partie de projet 2.1 dans Devoirs.</p>
+
     <info>
-        <h3>La date d'examen final est sortie</h3>
+        <h3 style="margin-top: 0;">La date d'examen final est sortie</h3>
         <p>Mettez ça à vos agenda!</p>
         <p>Groupe 2: 17 mai de 8h à 11:30 <br> Groupe 1: 17 mai de 13h à 16:30</p>
-        <p>LOCAL: C-1639</p>
+        <p style="margin-bottom: 0;">LOCAL: C-1639</p>
     </info>
 
     <alert>
         Groupe 2: Est-ce possible pour vous de repousser ça à 9h? Ce serait de 9h à 12h:30.
     </alert>
-
-
 
     <h3>Activer les notifications du groupe cours</h3>
     <img src="images/activer-notif-equipe-classe-etape01.jpg" alt=""
@@ -749,23 +764,25 @@
         style="width: 100%; max-width: 600px; display: block; margin: 5px auto;">
 
 
-
+    <dots></dots>
     <h2>Révision et évaluation formative (quiz)</h2>
-
     <dots></dots>
     <grostitre>Révision exercices</grostitre>
     <p>Vérification des exercices complétés</p>
-    <intlink href='../exercices/fetch-api-pokemon-api/'></intlink>
-    <intlink href='../gsap/exercices/voiture-jaune/'></intlink>
-    <intlink href='../gsap/exercices/voiture-turquoise/'></intlink>
-    <intlink href='../gsap/exercices/gsap-stagger-dominos/'></intlink>
-    <intlink href='../gsap/exercices/voiture-bleue/'></intlink>
+    <exercice href='../exercices/fetch-api-pokemon-api'></exercice>
+    <exercice href='../gsap/exercices/voiture-jaune/'></exercice>
+    <exercice href='../gsap/exercices/voiture-turquoise/'></exercice>
+    <exercice href='../gsap/exercices/gsap-stagger-dominos/'></exercice>
+    <exercice href='../gsap/exercices/voiture-bleue/'></exercice>
+
+
+    <dots></dots>
+    <grostitre>Contrôle animation </grostitre>
+    <intlink href='../gsap/controle-animation/'></intlink>
+
+
+
     
-
-
-
-
-
 
 </wiki-page>
 
