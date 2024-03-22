@@ -9,7 +9,7 @@ body.dark {
     a { color: white; }
     em { color: #e6af2e; }
     hr { border: 1px dashed #74011b; }
-    span.inline-code { background-color: #1c1d21; color: white; }
+    span.inline-code { background-color: #424651; color: white; }
     footer { /*background: linear-gradient(to top, #3a2d2d, 50%, #000000);*/ border-top: 1px solid rgb(19, 2, 4); }
     #subhead { background-color: rgba(255, 255, 255, 0.1); }
     main::before { background: linear-gradient(to bottom, #3a2d2d, 20%, #000000); }
@@ -197,15 +197,6 @@ body.dark {
     .doclink.codepen::before {
         background-color: #5b5e6b;
     }
-
-    // #contents {
-    //     p code,
-    //     // ul code,
-    //     // code {
-    //     //     background-color: #282a2f;
-    //     // }
-    // }
-
 
     table{
         tr:nth-child(even) td{
