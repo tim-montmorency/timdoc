@@ -12,7 +12,7 @@
 -->
 
 <wiki-page name="Ressources" date="2024-01-20">
-    <h2>Plans de cours et guide </h2>
+    <grostitre>Plans de cours et guide </grostitre>
     <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EX-vIbGvbLZMp_gJ8ERyPnkBICdg-6Sjpk1oWcoJSKBZFA?e=Kojadt"
             target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024</a> <em>(accessible seulement avec
             votre compte du collège)</em></p>
@@ -22,7 +22,8 @@
             target="_blank" rel="noopener noreferrer">Guide étudiant TIM</a></p>
 
 
-    <h2>Claviers Mac</h2>
+    <dots></dots>
+    <grostitre>Claviers Mac</grostitre>
     <p>Révision: <a
             href="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EU8BbNt04S9Cvg-S0xaohBUBO5t81bAj3mo1SYgSvODPWA?e=1kEacK"
             target="_blank" rel="noopener noreferrer">Gestion des claviers du labo Mac (Apple et Macally)</a></p>
@@ -49,13 +50,31 @@
     </ul>
 
 
-    <h2>Banques de ressources</h2>
-    <ul>
-        <li>Inspirations de <em>Landing Pages</em>: <a href="https://dribbble.com/search/landing-page" target="_blank"
-                rel="noopener noreferrer">sur Dribbble</a></li>
+    <dots></dots>
+    <grostitre>Références et guides</grostitre>
 
-        <li>Inspirations de <em>Design d'applis</em>: <a href="https://dribbble.com/search/app-design" target="_blank"
-                rel="noopener noreferrer">sur Dribbble</a>.</li>
+    <ul>
+        <li><a href="https://tim-montmorency.com/timdoc/582-424MO/" target="_blank" rel="noopener noreferrer">Timdoc du
+                cours Optimisation Web 582-424MO</a></li>
+        <li><a href="https://developer.mozilla.org/fr/docs/Web" target="_blank"
+                rel="noopener noreferrer">Developer Mozilla&nbsp;: Documentation en français HTML, CSS et JavaScript</a></li>
+        <li><a href="https://smnarnold.com/cours/javascript" target="_blank" rel="noopener noreferrer">Note de cours JavaScript du smnarnold.com</a></li>
+        <li><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank"
+                rel="noopener noreferrer">Cadriciel Bootstrap</a></li>
+        <li><a href="https://gsap.com/" target="_blank"
+                rel="noopener noreferrer">Librairie d'animation GSAP</a></li>
+        <li><a href="https://stackoverflow.com/" target="_blank"
+                rel="noopener noreferrer">Forum StackOverflow</a></li>
+        <li><a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">W3School</a>
+        </li>
+        <li><a href="https://css-tricks.com/" target="_blank" rel="noopener noreferrer">CSS Tricks</a></li>
+    </ul>
+
+
+    <dots></dots>
+    <grostitre>Banques de ressources</grostitre>
+    <ul>
+      
         <li><a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZQlsKA3n41Bndvr4nAec5kBNTxUckgFa3C6wO9ZocnauA?e=WEsxyI"
                 target="_blank" rel="noopener noreferrer">Banques d'images libre de droit</a></li>
         <li><a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EcU65VhnOrVInZTVw2tLCZ0BI4TJlrpI-28YoKjRAadGcg?e=lsNghw"
@@ -73,26 +92,14 @@
         <li><a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/En34ywXggC9AmBZj1TOBy4MBesGnHmss320qtQjrPY11nQ?e=MNb6tL"
                 target="_blank" rel="noopener noreferrer">Capsules vidéo Illustrator et After Effects</a>
             (principalement pour vos assets du projet 2)</li>
+        <li>Inspirations de <em>Landing Pages</em>: <a href="https://dribbble.com/search/landing-page" target="_blank"
+                rel="noopener noreferrer">sur Dribbble</a></li>
+
+        <li>Inspirations de <em>Design d'applis</em>: <a href="https://dribbble.com/search/app-design" target="_blank"
+                rel="noopener noreferrer">sur Dribbble</a>.</li>
     </ul>
 
-
-    <h2>Références et guides</h2>
-
-    <ul>
-        <li><a href="https://tim-montmorency.com/timdoc/582-424MO/" target="_blank" rel="noopener noreferrer">Timdoc du
-                cours Optimisation Web 582-424MO</a></li>
-        <li><a href="https://developer.mozilla.org/fr/docs/Web" target="_blank"
-                rel="noopener noreferrer">https://developer.mozilla.org/fr/docs/Web</a></li>
-        <li><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank"
-                rel="noopener noreferrer">https://getbootstrap.com/docs/5.3/getting-started/introduction/</a></li>
-        <li><a href="https://greensock.com/gsap/" target="_blank"
-                rel="noopener noreferrer">https://greensock.com/gsap/</a></li>
-        <li><a href="https://stackoverflow.com/" target="_blank"
-                rel="noopener noreferrer">https://stackoverflow.com/</a></li>
-        <li><a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">https://www.w3schools.com</a>
-        </li>
-        <li><a href="https://css-tricks.com/" target="_blank" rel="noopener noreferrer">https://css-tricks.com/</a></li>
-    </ul>
+  
 
 </wiki-page>
 
@@ -781,12 +788,14 @@
     <dots></dots>
     <grostitre>Révision exercices</grostitre>
     <p>Vérification des exercices complétés</p>
-    <intlink href='../exercices/fetch-api-pokemon-api'></intlink><
+    <intlink href='../exercices/fetch-api-pokemon-api'></intlink>
     <intlink href='../gsap/exercices/voiture-jaune/'></intlink>
     <intlink href='../gsap/exercices/voiture-turquoise/'></intlink>
     <intlink href='../gsap/exercices/gsap-stagger-dominos/'></intlink>
 
 
+
+    <dots></dots>
     <grostitre>GSAP</grostitre>
     <h4>Exercices</h4>
     <exercice href='../gsap/exercices/voiture-bleue/'></exercice>
@@ -813,12 +822,11 @@
 
 
     <dots></dots>
-    <grostitre>Devoirs</grostitre>
 
     <grostitre>En classe et devoirs</grostitre>
     <h3>Exercices</h3>
     <intlink href='../gsap/exercices/voiture-bleue/'></intlink>
-    Si dans Chrome le son ne joue pas, vérifiez qu’on autorise les sites à jouer des sons en tapant ceci dans la barre en haut: chrome://settings/content/sound et en ajoutant https://codepen.io  dans la liste des sites autorisés à jouer du son.
+    Si dans Chrome le son ne joue pas, vérifiez qu’on autorise les sites à jouer des sons en tapant ceci dans la barre en haut: chrome://settings/content/sound et en ajoutant https://codepen.io  dans la liste des sites autorisés à jouer du son. <br><br><br><br>
     <intlink href='../gsap/exercices/voiture-mauve/'></intlink>
     <intlink href='../gsap/exercices/voiture-verte/'></intlink>
     <intlink href='../gsap/exercices/incredible-machine/'></intlink>
