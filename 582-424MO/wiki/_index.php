@@ -790,6 +790,7 @@
     <grostitre>GSAP</grostitre>
     <h4>Exercices</h4>
     <exercice href='../gsap/exercices/voiture-bleue/'></exercice>
+    Si dans Chrome le son ne joue pas, vérifiez qu’on autorise les sites à jouer des sons en tapant ceci dans la barre en haut: chrome://settings/content/sound et en ajoutant https://codepen.io  dans la liste des sites autorisés à jouer du son.
 
   
 
@@ -807,7 +808,7 @@
     <intlink href='../gsap/timeline/'></intlink>
     <h4>Exercices</h4>
     <exercice href='../gsap/exercices/incredible-machine/'></exercice>
-    <exercice href='../gsap/exercices/excitebike/'></exercice>
+   <!-- <exercice href='../gsap/exercices/excitebike/'></exercice>-->
 
 
 
@@ -817,10 +818,11 @@
     <grostitre>En classe et devoirs</grostitre>
     <h3>Exercices</h3>
     <intlink href='../gsap/exercices/voiture-bleue/'></intlink>
+    Si dans Chrome le son ne joue pas, vérifiez qu’on autorise les sites à jouer des sons en tapant ceci dans la barre en haut: chrome://settings/content/sound et en ajoutant https://codepen.io  dans la liste des sites autorisés à jouer du son.
     <intlink href='../gsap/exercices/voiture-mauve/'></intlink>
     <intlink href='../gsap/exercices/voiture-verte/'></intlink>
     <intlink href='../gsap/exercices/incredible-machine/'></intlink>
-    <intlink href='../gsap/exercices/excitebike/'></intlink>
+    <!--<intlink href='../gsap/exercices/excitebike/'></intlink>-->
 
 
 
