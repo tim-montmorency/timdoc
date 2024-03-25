@@ -686,16 +686,14 @@
     <grostitre>En classe et devoirs</grostitre>
     <h3>Exercices</h3>
     <p>Terminer les exercices :</p>
-    <ul>
-        <li><intlink href='../exercices/fetch-api-pokemon-api'></intlink> avancer à 50% minimum</li>
-    </ul>
-    <br>
-    <ul>
-        <li><intlink href='../gsap/exercices/voiture-jaune/'></intlink></li>
-        <li><intlink href='../gsap/exercices/voiture-turquoise/'></intlink></li>
-        <li><intlink href='../gsap/exercices/gsap-stagger-dominos/'></intlink></li>
-        <li><intlink href='../gsap/exercices/voiture-bleue/'></intlink></li>
-    </ul>
+ 
+   <intlink href='../exercices/fetch-api-pokemon-api'></intlink> avancer à 50% minimum
+   <br>
+    <intlink href='../gsap/exercices/voiture-jaune/'></intlink>
+    <intlink href='../gsap/exercices/voiture-turquoise/'></intlink>
+    <intlink href='../gsap/exercices/gsap-stagger-dominos/'></intlink>
+
+   
 
 
 
@@ -783,25 +781,31 @@
     <dots></dots>
     <grostitre>Révision exercices</grostitre>
     <p>Vérification des exercices complétés</p>
-    <ul>
-        <li><intlink href='../exercices/fetch-api-pokemon-api'></intlink></li>
-        <li><intlink href='../gsap/exercices/voiture-jaune/'></intlink></li>
-        <li><intlink href='../gsap/exercices/voiture-turquoise/'></intlink></li>
-        <li><intlink href='../gsap/exercices/gsap-stagger-dominos/'></intlink></li>
-        <li><intlink href='../gsap/exercices/voiture-bleue/'></intlink></li>
-    </ul>
+    <intlink href='../exercices/fetch-api-pokemon-api'></intlink><
+    <intlink href='../gsap/exercices/voiture-jaune/'></intlink>
+    <intlink href='../gsap/exercices/voiture-turquoise/'></intlink>
+    <intlink href='../gsap/exercices/gsap-stagger-dominos/'></intlink>
 
+
+    <grostitre>GSAP</grostitre>
+    <h4>Exercices</h4>
+    <exercice href='../gsap/exercices/voiture-bleue/'></exercice>
+
+  
 
 
     <dots></dots>
     <grostitre>GSAP - Contrôle animation </grostitre>
     <intlink href='../gsap/controle-animation/'></intlink>
+    <h4>Exercices</h4>
     <exercice href='../gsap/exercices/voiture-mauve/'></exercice>
     <exercice href='../gsap/exercices/voiture-verte/'></exercice>
     <dots></dots>
 
+
     <grostitre>GSAP - Timeline </grostitre>
     <intlink href='../gsap/timeline/'></intlink>
+    <h4>Exercices</h4>
     <exercice href='../gsap/exercices/incredible-machine/'></exercice>
     <exercice href='../gsap/exercices/excitebike/'></exercice>
 
@@ -812,13 +816,12 @@
 
     <grostitre>En classe et devoirs</grostitre>
     <h3>Exercices</h3>
+    <intlink href='../gsap/exercices/voiture-bleue/'></intlink>
+    <intlink href='../gsap/exercices/voiture-mauve/'></intlink>
+    <intlink href='../gsap/exercices/voiture-verte/'></intlink>
+    <intlink href='../gsap/exercices/incredible-machine/'></intlink>
+    <intlink href='../gsap/exercices/excitebike/'></intlink>
 
-    <ul>
-        <li><intlink href='../gsap/exercices/voiture-mauve/'></intlink></li>
-        <li><intlink href='../gsap/exercices/voiture-verte/'></intlink></li>
-        <li><intlink href='../gsap/exercices/incredible-machine/'></intlink></li>
-        <li><intlink href='../gsap/exercices/excitebike/'></intlink></li>
-    </ul>
 
 
 
