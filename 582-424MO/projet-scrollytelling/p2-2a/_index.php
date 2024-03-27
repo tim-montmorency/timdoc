@@ -68,8 +68,7 @@ Ajoutez aussi votre fichier <em>script.js</em>.</checklist>
 
 <checklist>un titre de niveau 1,
  un paragraphe descriptif du projet et des auteurs,
- un appel à l’action qui permettra d’inviter le visiteur à défiler la page vers le bas ou vers la droite.
-
+ un appel à l’action qui permettra d’inviter le visiteur à défiler la page vers le bas.
  </checklist>
 
  
@@ -89,7 +88,7 @@ Si applicable, vous devez mentionner ce qui a été généré via l'AI et mentio
  <dots></dots>
 <grostitre>Requis CSS</grostitre>
 <checklist>Préparez des variables CSS pour toutes les couleurs de votre palette.
-Ajoutez un <incode>overflow-x: hidden</incode> à votre balise <incode>body</incode> pour éviter une barre de défilement horizontale (OU <incode>overflow-y: hidden</incode> si vous prévoyez plutôt une histoire défilable à l’horizontale).
+Ajoutez un <incode>overflow-x: hidden</incode> à votre balise <incode>body</incode> pour éviter une barre de défilement horizontale.
 </checklist>
 
 <h3>Balise <incode>&lt;header&gt;</incode> (CSS)</h3>
@@ -113,7 +112,7 @@ La balise <incode>header</incode> doit contenir une image d’arrière-plan de v
  
  <checklist>contenir le texte du paragraphe ci-haut,
  s’afficher en petits caractères (10-11px environ dépendant de votre police et de sa lisibilité sur le texte en petit taille),
- se positionner en bas à gauche, au centre ou à droite,
+ se positionner en bas : gauche, au centre ou à droite,
  sa couleur doit permettre une bonne lisibilité au-dessus de l’image d’arrière-plan, peu importe la taille de la fenêtre (vous pouvez ajouter des <em>media-queries</em> au besoin).
  </checklist>
 
@@ -125,6 +124,7 @@ La balise <incode>header</incode> doit contenir une image d’arrière-plan de v
      que je vous ai présentées, elles ont presque toujours un <strong>appel-à-l’action</strong>
      «&nbsp;<em>scroll down</em>&nbsp;», afin de bien identifier à l’utilisateur l’action à porter
      pour consulter la suite.</p>
+     <alert>L'appel-à-l'action, comme tout le reste du contenu de vos travaux, doit être en français et non en anglais. Donc pas de <em>Scroll</em> ou <em>Scroll Down</em>. Utilisez plutôt le terme <em>Défilez</em> ou <em>Descendez</em> ou <em>Dévoilez vers le bas</em>, etc.</alert>
 
 
  <p>Dans votre cas, le CTA sera une icône de votre
@@ -139,8 +139,8 @@ La balise <incode>header</incode> doit contenir une image d’arrière-plan de v
 
 
      <checklist>Créez l'élément qui doit contenir l'icône de l'appel-à-l'action.
-     Animez cette icône en boucle afin d’attirer l’attention sur celle-ci. Vous devez utiliser GSAP pour réaliser cette animation. Inscrivez le code de l'animation GSAP dans votre fichier script.js
-     Positionnez l'appel-à-l'action dans le bas du <incode>header</incode> centré horizontalement OU à droite du <incode>header</incode> centré verticalement.
+     Animez cette icône en boucle afin d’attirer l’attention sur celle-ci. Vous devez utiliser GSAP pour réaliser cette animation. Inscrivez le code de l'animation GSAP dans votre fichier <em>script.js</em>
+     Positionnez l'appel-à-l'action près du bas du <incode>header</incode> centré horizontalement.
      </checklist>
 
 
