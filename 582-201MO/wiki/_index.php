@@ -1875,8 +1875,8 @@
 
         <li><a href="http://colormind.io/" target="_blank" rel="noopener noreferrer">Color mind</a></li>
 
-        <li><a href="" target="_blank" rel="noopener noreferrer">Muzli Colors</a>: Avec cet outil, on voir un kit
-            d'élément UI directement avec votre couleur principale</li>
+        <li><a href="" target="_blank" rel="noopener noreferrer">Muzli Colors</a>: Avec cet outil, vous pouvez visionner un kit
+            d'éléments UI avec votre couleur principale appliquée.</li>
 
         <li>De quoi aurait l'air de votre palette de couleur sur une site web? <a href="http://colormind.io/bootstrap/"
                 target="_blank" rel="noopener noreferrer">Testez votre palette avec cet outil.</a></li>
