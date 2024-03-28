@@ -1588,8 +1588,8 @@
                 https://www.cssdesignawards.com/
             </a>
             <br />
-            <a href="https://dribbble.com/" rel="noreferrer noopener" title="https://dribbble.com/" target="_blank">
-                htts://dribbble.com/
+            <a href="https://dribbble.com/" rel="noreferrer noopener" title="https://dribbble.com/shots/popular/web-design" target="_blank">
+            https://dribbble.com/shots/popular/web-design
             </a>
             <br />
             <a href="https://wow-web.co.uk/" rel="noreferrer noopener" title="https://wow-web.co.uk/" target="_blank">
@@ -1611,11 +1611,7 @@
                 https://butdoesitfloat.com/
             </a>
             <br />
-            <a href="https://www.awwwards.com/" rel="noreferrer noopener" title="https://www.awwwards.com/"
-                target="_blank">
-                https://www.awwwards.com/
-            </a>
-            <br />
+         
             <a href="https://www.makeuseof.com/tag/weird-cool-bizarre-websites/" rel="noreferrer noopener"
                 title="https://www.makeuseof.com/tag/weird-cool-bizarre-websites/" target="_blank">
                 https://www.makeuseof.com/tag/weird-cool-bizarre-websites/
@@ -1674,6 +1670,8 @@
 
         <h3>Références et tendances</h3>
         <p>
+            <a href="https://99designs.fr/blog/tendances/tendances-design-ux/" target="_blank" rel="noopener noreferrer">Les 8 meilleures tendances en UX design de 2023</a>
+            <a href="https://www.linkedin.com/pulse/10-website-design-trends-2024-embrace-boosting-inlwc/" target="_blank" rel="noopener noreferrer">10 Website Design Trends of 2024 to Embrace for Boosting Your Site</a>
             <a href="https://99designs.fr/blog/tendances/tendances-en-design-web/" rel="noreferrer noopener"
                 title="https://99designs.fr/blog/tendances/tendances-en-design-web/" target="_blank">
                 Tendances en design web
@@ -1887,6 +1885,8 @@
 
     <dots></dots>
     <grostitre>Design de site web</grostitre>
+    <p>Importance de prendre en compte l'utilisation (l'expérience utilisateur): <a href="https://userinyerface.com/" target="_blank" rel="noopener noreferrer">Exercice UX</a></p>
+    <p>Démonstration en classe d'exemples de site web de type vitrine.</p>
     <h4>POWERPOINT <a
             href="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ESopylDAd3hBjeGs-gmPDGYBhaM5kRRRtPxAjbqOIYVSEg?e=YzErEi"
             target="_blank" rel="noopener noreferrer">com-graph_09_T03-site-web-vitrine-20244.pptx </a></h4>
@@ -1907,26 +1907,30 @@
         </ul>
 
         <li>Mise en page et principe de l'espacement (multiple de 8px) <br>
-            <strong>Lecture supplémentaires</strong>
+            <strong>Lectures à propos de la règle du 8px</strong>
             <ul>
                 <li><a href="https://www.bgs-associes.com/la-grille-des-8pt/" target="_blank"
                         rel="noopener noreferrer">La grille des 8pt</a></li>
                 <li><a href="https://design.quebec.ca/bases/grille-8px" target="_blank" rel="noopener noreferrer">Grille
                         de 8 px</a></li>
             </ul>
-
+           Gabarit : <a href="https://www.figma.com/file/SaXusM4bfoFouDSFcKUF8X/Blocs-pour-mesurer-les-espace-par-multiple-de-4-ou-8px?type=design&node-id=1%3A143&mode=design&t=G9TAMJtAQgYMpjaD-1" target="_blank" rel="noopener noreferrer">Blocs pour mesurer les espace par multiple de 4 ou 8px</a><br><br>
         </li>
 
-        <li>Mode présentation [▶️] </li>
+        <li>Grille de mise en page (retour rapide)</li>
 
-        <li>Ordre des cadres (frames) dans le panneau de calques (en préparation à votre présentation finale)</li>
-
-        <li>Comment faire une <em>composante</em></li>
         <li>Comment créer des <em>styles généraux</em> à réutiliser dans une composition (site web) de section en
             section et de page en page</li>
+            
+        <li>Comment faire une <em>composante</em></li>
+
+        <li>Mode présentation [▶️] : Importance de l'ordre des cadres (frames) dans le panneau de calques (en préparation à votre présentation finale)</li>
+
+        
+       
     </ul>
 
-    <h4>Capsules vidéos Figma (à titre de rappel)</h4>
+    <h3>Capsules vidéos Figma (à titre de rappel)</h3>
 
     <ul>
         <li>
@@ -1965,6 +1969,15 @@
 
     <dots></dots>
     <grostitre>Devoirs</grostitre>
+
+    <h3>Lectures à propos de la règle du 8px</h3>
+    <ul>
+        <li><a href="https://www.bgs-associes.com/la-grille-des-8pt/" target="_blank"
+                rel="noopener noreferrer">La grille des 8pt</a></li>
+        <li><a href="https://design.quebec.ca/bases/grille-8px" target="_blank" rel="noopener noreferrer">Grille
+                de 8 px</a></li>
+    </ul>
+    <p>Gabarit : <a href="https://www.figma.com/file/SaXusM4bfoFouDSFcKUF8X/Blocs-pour-mesurer-les-espace-par-multiple-de-4-ou-8px?type=design&node-id=1%3A143&mode=design&t=G9TAMJtAQgYMpjaD-1" target="_blank" rel="noopener noreferrer">Blocs pour mesurer les espace par multiple de 4 ou 8px</a></p>
 
 
     <h3>T03 - Maquettes graphiques</h3>
