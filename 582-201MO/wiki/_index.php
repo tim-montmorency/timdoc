@@ -1804,7 +1804,7 @@
     <grostitre>Annonces</grostitre>
     <p>Remise T03 - Concept - AVANT VOTRE COURS - Travail d'équipe - 10%</p>
 
-    <warning>Beaucoup de sites d’inspirations et des ressources ont été mis à votre disposition dans le wiki du cours précédent (cours 8), allez voir ça! </warning>
+    <warning>Plusieurs site d’inspirations, de références et de tendances ont été mis à votre disposition dans le wiki du cours précédent (cours 8), allez voir ça! </warning>
    
 
     <dots></dots>
