@@ -1875,7 +1875,7 @@
 
         <li><a href="http://colormind.io/" target="_blank" rel="noopener noreferrer">Color mind</a></li>
 
-        <li><a href="" target="_blank" rel="noopener noreferrer">Muzli Colors</a>: Avec cet outil, vous pouvez visionner un kit
+        <li><a href="https://colors.muz.li/" target="_blank" rel="noopener noreferrer">Muzli Colors</a>: Avec cet outil, vous pouvez visionner un kit
             d'éléments UI avec votre couleur principale appliquée.</li>
 
         <li>De quoi aurait l'air de votre palette de couleur sur une site web? <a href="http://colormind.io/bootstrap/"
@@ -1901,8 +1901,8 @@
                     rel="noreferrer noopener" target="_blank"
                     title="https://www.figma.com/community/plugin/740272380439725040/material-design-icons">
                     Icônes Material Design</a> (extension à installer)</li>
-            <li>Voir aussi <a href="https://www.figma.com/files/project/71196267" target="_blank"
-                    rel="noopener noreferrer">dossier UI Kit</a> que je vous ai monté dans Figma</li>
+            <li>Voir aussi le dossier <strong>UI Kits</strong> que je vous ai monté dans Figma. Pour y accéder, veuillez rejoindre <a href="https://www.figma.com/team_invite/redeem/q23P8yNAa8gFF7PX94fcb6" target="_blank" rel="noopener noreferrer">cette équipe Figma</a>. Je vous ai donné les droits d'écriture sur les fichiers. NE PAS LES ÉDITER DIRECTEMENT.  Si vous voulez utiliser un ou plusieurs de ces fichiers, veuillez en faire une copie (dupliquer) et les classer dans votre propre équipe Figma personnelle (celle a votre nom).
+                </li>
         </ul>
 
         <li>Mise en page et principe de l'espacement (multiple de 8px) <br>
