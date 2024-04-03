@@ -2014,6 +2014,15 @@
 ----------------------------------->
 <wiki-page name="Cours 10" date="2024-04-03">
 
+
+
+
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+
+    <p>M’envoyer vos notes de notre rencontre, mise au propre (liste à puce, sans faute de français) avant la fin du cours aujourd’hui (exception pour les 2 dernières équipes rencontrées en classe. Au besoin, je vous laisse 4h après la fin du cours pour m’envoyer les notes prises).</p>
+
+
 </wiki-page>
 
 

@@ -857,7 +857,71 @@
  \_____\___/ \__,_|_|  |___/  |_|\___/                                     
 ----------------------------------->
 <wiki-page name="Cours 10" date="2024-03-30">
-    <h2>Révision et évaluation formative (quiz)</h2>
+    <grostitre>Révision et évaluation formative (quiz)</grostitre>
+
+
+
+    <dots></dots>
+    <grostitre>Révisions</grostitre>
+    <p>Vérification des exercices complétés.</p>
+    <intlink href='../gsap/exercices/voiture-bleue/'></intlink>
+    <intlink href='../gsap/exercices/voiture-mauve/'></intlink>
+    <intlink href='../gsap/exercices/voiture-verte/'></intlink>
+    <intlink href='../gsap/exercices/incredible-machine/'></intlink>
+
+
+    <dots></dots>
+    <grostitre>Contenu du jour</grostitre>
+    <h3>Spritesheet - Responsives</h3>
+    <intlink href='../css/anim-sprite-sheet-responsive/'></intlink>
+    <!-- 15 min et CORRECTION DE L'EXERCICE EN CLASS <exercice href='../css/exercices/sprite-sheet-responsive/'></exercice> -->
+
+    <h3>GSAP - Timeline (suite)</h3>
+    <intlink href='../gsap/timeline/'></intlink>
+      <!-- <exercice href='../gsap/exercices/excitebike/'></exercice>-->
+
+    <h3>GSAP - ScrollTrigger - Activé par le défilement de la page</h3>
+    <h4>Partie 1</h4>
+    <intlink href='../gsap/scrolltrigger/'></intlink>
+    <!-- <exercice href='../gsap/exercices/scrolltrigger-historique-zelda/'></exercice> -->
+
+
+
+
+    <dots></dots>
+    <grostitre>Exercices</grostitre>
+    <p>Liens à venir en classe</p>
+
+  
+
+
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+    <h3>Terminez les exercices débutés en classe aujourd'hui</h3>
+   <!-- <intlink href='../css/exercices/sprite-sheet-responsive/'></intlink>
+    <intlink href='../gsap/exercices/excitebike/'></intlink>
+    <intlink href='../gsap/exercices/scrolltrigger-historique-zelda/'></intlink>-->
+
+
+    <h3>Projet 2</h3>
+    <p>Continuez:</p>
+    <intlink href='../projet-scrollytelling/p2-2a/'></intlink>
+    <p>Commencez: </p>
+    <intlink href='../projet-scrollytelling/p2-2b/'></intlink>
+
+    <warning>Remise de P2.2 (2.2a et 2.2b) le 29 avril au cours 13.</warning>
+
+
+
+ 
+ 
+
+    
+
+
+
+
+
 </wiki-page>
 
 
@@ -871,7 +935,7 @@
  \_____\___/ \__,_|_|  |___/  |_||_|
  ----------------------------------->
 <wiki-page name="Cours 11" date="2024-04-06">
-    <h2>Révision et évaluation formative (quiz)</h2>
+        <grostitre>Révision et évaluation formative (quiz)</grostitre>  
 </wiki-page>
 
 
@@ -885,7 +949,7 @@
  \_____\___/ \__,_|_|  |___/  |_|____|
  ----------------------------------->
 <wiki-page name="Cours 12" date="2024-04-12">
-    <h2>Révision et évaluation formative (quiz)</h2>
+        <grostitre>Révision et évaluation formative (quiz)</grostitre>
 </wiki-page>
 
 
@@ -900,7 +964,7 @@
                              
  ----------------------------------->
 <wiki-page name="Cours 13" date="2024-04-20">
-    <h2>Révision et évaluation formative (quiz)</h2>
+        <grostitre>Révision et évaluation formative (quiz)</grostitre>
 </wiki-page>
 
 
@@ -916,7 +980,7 @@
  ----------------------------------->
 
 <wiki-page name="Cours 14" date="2024-04-30">
-    <h2>Révision et évaluation formative (quiz)</h2>
+        <grostitre>Révision et évaluation formative (quiz)</grostitre>
 </wiki-page>
 
 
@@ -937,5 +1001,7 @@
         <p>LOCAL: C-1639</p>
     </info>
 
-    <h2>Révision et évaluation formative (quiz)</h2>
+    <grostitre>Révision et évaluation formative (quiz)</grostitre>
+
+
 </wiki-page>

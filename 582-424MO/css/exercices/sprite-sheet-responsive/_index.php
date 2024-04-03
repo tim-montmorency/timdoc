@@ -2,7 +2,7 @@
 
 /**
  * @type     exercice
- * @title    Monstre qui marche - Responsive
+ * @title    Monstre qui marche - Spritesheet responsive
  * @icon     images/thumb.jpg
  * @abstract Pour cet exercice, vous devez faire ajuster la taille de l'animation de la spritesheet pour qu'elle s'ajuste à 50% de la largeur de la fenêtre.
  */
