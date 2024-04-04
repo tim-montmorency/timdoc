@@ -94,56 +94,13 @@
                 Les composantes
             </a>
         </li>
-        <li>
-            <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdtqIgzd5L5Okg7dyYld9TMBQI_xyIr4VJtjW3axxmA3Nw?e=28M9NB"
-                rel="noreferrer noopener" target="_blank"
-                title="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/edtqigzd5l5okg7dyyld9tmbqi_xyir4vjtjw3axxma3nw?e=28m9nb">
-                Le prototype - Lien simple
-            </a>
-        </li>
-        <li>
-            <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EQbO8TMN2I1Ao9WNtrnTHc0BAPg8yc1o-7M7wmGGJmXv9g?e=REXgTC"
-                rel="noreferrer noopener" target="_blank"
-                title="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/eqbo8tmn2i1ao9wntrnthc0bapg8yc1o-7m7wmggjmxv9g?e=rexgtc">
-                Le prototype - Menu de navigation
-            </a>
-        </li>
-        <li>
-            <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdDfamG9QYlEqsLPART3QwIB4NL7HSL7Ja19lq1Kpg_UkA?e=cE1egv"
-                rel="noreferrer noopener" target="_blank"
-                title="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/eddfamg9qyleqslpart3qwib4nl7hsl7ja19lq1kpg_uka?e=ce1egv">
-                Le prototype - Animation panneau overlay (burger menu)
-            </a>
-        </li>
-        <li>
-            <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERlJhsH1R0FAn-QQss1JKRUBIAYgcWqvXvo5QhrqsXLsyw?e=ruhYnH"
-                rel="noreferrer noopener" target="_blank"
-                title="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/erljhsh1r0fan-qqss1jkrubiaygcwqvxvo5qhrqsxlsyw?e=ruhynh">
-                Le prototype - Animation d'un carrousel
-            </a>
-        </li>
-        <li>
-            <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EeYYWwRt8phNlJUI2gOhiOoBG1jbJnF_nXYY-ZR4TUL-lw?e=IZWgHX"
-                rel="noreferrer noopener" target="_blank"
-                title="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/eeyywwrt8phnljui2gohioobg1jbjnf_nxyy-zr4tul-lw?e=izwghx">
-                Le prototype - Flow principal
-            </a>
-        </li>
-        <li>
-            <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERdRumO-_QdIvinb3gc5bG8BBtxDD1yQL9YRtm5iiuFSJQ?e=AcYJkA"
-                rel="noreferrer noopener" target="_blank"
-                title="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/erdrumo-_qdivinb3gc5bg8bbtxdd1yql9yrtm5iiufsjq?e=acyjka">
-                Le prototype - Effet de survol
-            </a>
-        </li>
-        <li>
-            <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EfvtBgPjj19FqA91ZmdRTmUBpBVXkrgEQqWX5JjBJnfd4Q?e=hgUP0g"
-                rel="noreferrer noopener" target="_blank"
-                title="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/efvtbgpjj19fqa91zmdrtmubpbvxkrgeqqwx5jjbjnfd4q?e=hgup0g">
-                Le prototype - Sticky header (entête ou pied de page collé à la
-                fenêtre du navigateur)
-            </a>
-        </li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EYinQRUOsTxBkVbZ-i1RKVIB9qNgsZnE-vfKuLmbN1xwjA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EELJ7D" target="_blank" rel="noopener noreferrer">Le prototype: à quoi ça sert? - Créer un prototype. - Créer des hyperliens entre les pages. - Présenter votre prototype devant la classe (plein écran et cacher les barres d'interface de FIGMA)</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EQbO8TMN2I1Ao9WNtrnTHc0BAPg8yc1o-7M7wmGGJmXv9g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YDucUj" target="_blank" rel="noopener noreferrer">Prototype: Menu de navigation</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdDfamG9QYlEqsLPART3QwIB4NL7HSL7Ja19lq1Kpg_UkA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bnS35l" target="_blank" rel="noopener noreferrer">Animation d'ouverture d'un panneau <em>overlay</em> (clic sur <em>burger menu</em>)</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERlJhsH1R0FAn-QQss1JKRUBIAYgcWqvXvo5QhrqsXLsyw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=adjaN9" target="_blank" rel="noopener noreferrer">Prototype: Créer un carrousel d'images interactif</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EeYYWwRt8phNlJUI2gOhiOoBG1jbJnF_nXYY-ZR4TUL-lw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=N9Dc7G" target="_blank" rel="noopener noreferrer">Deux flots du prototype: Grand écran et mobile</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERdRumO-_QdIvinb3gc5bG8BBtxDD1yQL9YRtm5iiuFSJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tOB6Oa" target="_blank" rel="noopener noreferrer">Effet de survol</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERhYac8S_cJJr3vk7TF2RfkBflLHxY8TJrWMvtQs-B9Epg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bfMPJW" target="_blank" rel="noopener noreferrer">Menu collé en haut de la fenêtre (aussi appelé <em>sticky header</em>)</a></li>
     </ul>
 
 
@@ -2032,7 +1989,7 @@
         <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERlJhsH1R0FAn-QQss1JKRUBIAYgcWqvXvo5QhrqsXLsyw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=adjaN9" target="_blank" rel="noopener noreferrer">Prototype: Créer un carrousel d'images interactif</a></li>
         <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EeYYWwRt8phNlJUI2gOhiOoBG1jbJnF_nXYY-ZR4TUL-lw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=N9Dc7G" target="_blank" rel="noopener noreferrer">Deux flots du prototype: Grand écran et mobile</a></li>
         <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERdRumO-_QdIvinb3gc5bG8BBtxDD1yQL9YRtm5iiuFSJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tOB6Oa" target="_blank" rel="noopener noreferrer">Effet de survol</a></li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EfvtBgPjj19FqA91ZmdRTmUBpBVXkrgEQqWX5JjBJnfd4Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=volzXm" target="_blank" rel="noopener noreferrer">Menu collé en haut de la fenêtre (aussi appelé <em>sticky header</em>)</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERhYac8S_cJJr3vk7TF2RfkBflLHxY8TJrWMvtQs-B9Epg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bfMPJW" target="_blank" rel="noopener noreferrer">Menu collé en haut de la fenêtre (aussi appelé <em>sticky header</em>)</a></li>
     </ol>
     <h3>Suite à la rencontre avec moi:</h3>
     <ul>
