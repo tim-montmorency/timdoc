@@ -2014,13 +2014,49 @@
 ----------------------------------->
 <wiki-page name="Cours 10" date="2024-04-03">
 
+    <grostitre>Design</grostitre>
+    <h3>Les coins arrondis: la mathématique derrière</h3>
+    <ul>
+        <li><a href="https://webdesign.tutsplus.com/quick-tip-rounded-corners-done-right--webdesign-7127t " target="_blank" rel="noopener noreferrer">Quick Tip: Rounded Corners Done Right</a></li>
+        <li><a href="https://cloudfour.com/thinks/the-math-behind-nesting-rounded-corners/" target="_blank" rel="noopener noreferrer">The Math Behind Nesting Rounded Corners</a></li>
+    </ul>
+
+    <dots></dots>
+    <grostitre>À faire en classe aujourd'hui</grostitre>
+    <h3>Écouter activement les capsules suivantes à propos de la création de propotype.</h3>
+    <ul>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EYinQRUOsTxBkVbZ-i1RKVIB9qNgsZnE-vfKuLmbN1xwjA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EELJ7D" target="_blank" rel="noopener noreferrer">Le prototype: à quoi ça sert? - Créer un prototype. - Créer des hyperliens entre les pages. - Présenter votre prototype devant la classe (plein écran et cacher les barres d'interface de FIGMA)</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EQbO8TMN2I1Ao9WNtrnTHc0BAPg8yc1o-7M7wmGGJmXv9g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YDucUj" target="_blank" rel="noopener noreferrer">Prototype: Menu de navigation</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdDfamG9QYlEqsLPART3QwIB4NL7HSL7Ja19lq1Kpg_UkA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bnS35l" target="_blank" rel="noopener noreferrer">Animation ouverture d'un panneau <em>overlay</em> (clic sur <em>burger menu</em>)</a></li>
+        <li><a href="#" target="_blank" rel="noopener noreferrer">...</a></li>
+    </ul>
+    <h3>Suite à la rencontre avec moi:</h3>
+    <ul>
+        <li>Mettre au propre vos notes et me les remettre (Teams/Devoir).</li>
+        <li>Corriger / améliorer vos maquettes graphiques suite à mes questions et commentaires.</li>
+    </ul>
+
+
+    <dots></dots>
+    <grostitre>Activité de rétroaction de vos maquettes graphiques (formatif)</grostitre>
+    <h3>CONSIGNES </h3>
+    <p>Soyez prêts: </p>
+    <ul>
+        <li>1 ordi avec le Figma ouvert</li>
+        <li>1 ordi à côté pour prendre des notes sur ce que je vais vous dire en personne (Microsoft Word)</li>
+        <li>Noter les conseils mais aussi vos réponses aux différentes questions. Cela va ME guider pour votre évaluation finale en plus de VOUS guider pour les correctifs suivants cette rencontre et pour votre présentation orale la semaine prochaine. </li>
+    </ul>
+    <p>M’envoyer vos notes prises lors de notre rencontre, mises au propre (liste à puce, sans faute de français) avant la fin du cours aujourd’hui. </p>
+    <p>Il y a un <em>Devoir</em> créé spécifiquement pour cette remise dans Teams. Ue seule remise par équipe. Format Word (non compressé).</p>
+
 
 
 
     <dots></dots>
     <grostitre>Devoirs</grostitre>
 
-    <p>M’envoyer vos notes de notre rencontre, mise au propre (liste à puce, sans faute de français) avant la fin du cours aujourd’hui (exception pour les 2 dernières équipes rencontrées en classe. Au besoin, je vous laisse 4h après la fin du cours pour m’envoyer les notes prises).</p>
+    <p>M’envoyer vos notes prises lors de notre rencontre, mises au propre (liste à puce, sans faute de français) avant la fin du cours aujourd’hui (exception pour les 2 dernières équipes rencontrées en classe. Au besoin, je vous laisse 4h après la fin du cours pour m’envoyer les notes prises). </p>
+    <p>Il y a un <em>Devoir</em> créé spécifiquement pour cette remise dans Teams. Ue seule remise par équipe. Format Word (non compressé).</p>
 
 
 </wiki-page>
