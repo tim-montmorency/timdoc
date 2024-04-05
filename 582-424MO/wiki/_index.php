@@ -858,15 +858,9 @@
 ----------------------------------->
 <wiki-page name="Cours 10" date="2024-03-30">
     <grostitre>Révision et évaluation formative (quiz)</grostitre>
-    
-
     <p>Groupe AM : <a href="https://app.wooclap.com/DCYAEO" target="_blank" rel="noopener noreferrer">Code Wooclap: DCYAEO</a> <br>
         Groupe PM : <a href="#" target="_blank" rel="noopener noreferrer">Code Wooclap:  </a></p>
-    
-
-
-
-
+   
 
     <dots></dots>
     <grostitre>Révisions</grostitre>
