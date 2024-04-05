@@ -899,6 +899,7 @@
     <dots></dots>
     <grostitre>Devoirs</grostitre>
     <h3>Terminez les exercices débutés en classe aujourd'hui</h3>
+    <p>3 exercices: spritesheet responsive, excite bike et historique zelda.</p>
    <!-- <intlink href='../css/exercices/sprite-sheet-responsive/'></intlink>
     <intlink href='../gsap/exercices/excitebike/'></intlink>
     <intlink href='../gsap/exercices/scrolltrigger-historique-zelda/'></intlink>-->
