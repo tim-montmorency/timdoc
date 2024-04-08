@@ -26,4 +26,7 @@
 
 <checklist>
   Ajoutez du CSS afin que l'animation s'affiche toujours complètement et que sa taille soit responsive par rapport à la dimension de la fenêtre.
+  Je vous conseille d'abord de faire pause sur la première image.
+  Ajustez le background-size avec 2 valeurs en pourcentage pour n'afficher que la pmière image de la série.
+  Ensuite ajuster dans la définition de l'animation elle même, la background-position final pour qu'il soit aussio en pourcentage. Notez qu'il y a 19 images dans la spritesheet et que chaque image sont de dimension originale de 700px par 700px;
 </checklist>
