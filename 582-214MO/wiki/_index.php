@@ -508,7 +508,7 @@ Terminer le travail 1 partie 1
 </wiki-page>
 
 <wiki-page name="Cours 11">
-
+<p>Réalisation des animations du travail 2</p>
 
 </wiki-page>
 
