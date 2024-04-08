@@ -875,23 +875,17 @@
     <grostitre>Contenu du jour</grostitre>
     <h3>Spritesheet - Responsives</h3>
     <intlink href='../css/anim-sprite-sheet-responsive/'></intlink>
-    <!-- 15 min et CORRECTION DE L'EXERCICE EN CLASS <exercice href='../css/exercices/sprite-sheet-responsive/'></exercice> -->
+   <exercice href='../css/exercices/sprite-sheet-responsive/'></exercice>
 
     <h3>GSAP - Timeline (suite)</h3>
     <intlink href='../gsap/timeline/'></intlink>
-      <!-- <exercice href='../gsap/exercices/excitebike/'></exercice>-->
+     <exercice href='../gsap/exercices/excitebike/'></exercice>
 
     <h3>GSAP - ScrollTrigger - Activé par le défilement de la page</h3>
     <h4>Partie 1</h4>
     <intlink href='../gsap/scrolltrigger/'></intlink>
-    <!-- <exercice href='../gsap/exercices/scrolltrigger-historique-zelda/'></exercice> -->
+    <exercice href='../gsap/exercices/scrolltrigger-historique-zelda/'></exercice>
 
-
-
-
-    <dots></dots>
-    <grostitre>Exercices</grostitre>
-    <p>Liens à venir en classe</p>
 
   
 
@@ -900,9 +894,9 @@
     <grostitre>Devoirs</grostitre>
     <h3>Terminez les exercices débutés en classe aujourd'hui</h3>
     <p>3 exercices: spritesheet responsive, excite bike et historique zelda.</p>
-   <!-- <intlink href='../css/exercices/sprite-sheet-responsive/'></intlink>
+   <intlink href='../css/exercices/sprite-sheet-responsive/'></intlink>
     <intlink href='../gsap/exercices/excitebike/'></intlink>
-    <intlink href='../gsap/exercices/scrolltrigger-historique-zelda/'></intlink>-->
+    <intlink href='../gsap/exercices/scrolltrigger-historique-zelda/'></intlink>
 
 
     <h3>Projet 2</h3>
