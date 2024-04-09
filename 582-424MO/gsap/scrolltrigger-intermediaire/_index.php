@@ -17,10 +17,9 @@
 
 <grostitre>Scrub</grostitre>
 
-<p>La propriété&nbsp;<incode>scrub</incode>&nbsp;permet de synchroniser la progression d'une animation avec le défilement de
-    la page&nbsp;<em>(scroll)</em>. Ainsi, l'animation débutera lorsque le
-    marqueur&nbsp;<u>start</u>&nbsp;croisera&nbsp;<u>scroller-start</u>&nbsp;et <strong>progressera proportionellement</strong> jusqu'à
-    ce que le marqueur&nbsp;<u>end</u>&nbsp;croise&nbsp;<u>scroller-end</u>.</p>
+<p>La propriété&nbsp;<incode>scrub</incode>&nbsp;permet de synchroniser la progression d'une animation avec le défilement de la page&nbsp;<em>(scroll)</em>. Ainsi, l'animation débutera lorsque le
+    marqueur&nbsp;<u style="color: #00c774">start</u>&nbsp;croisera&nbsp;<u style="color: #00c774">scroller-start</u>&nbsp;et <strong>progressera proportionellement</strong> jusqu'à
+    ce que le marqueur&nbsp;<u style="color: #ff003a">end</u>&nbsp;croise&nbsp;<u style="color: #ff003a">scroller-end</u>.</p>
 <p>Par défaut, la valeur de cette propriété est à&nbsp;<incode>false</incode>. Pour l'activer, il faut lui donner la
     valeur&nbsp;<incode>true</incode>, comme dans l'exemple&nbsp;suivant:</p>
 
@@ -87,8 +86,8 @@
 
 <p>Les&nbsp;<incode>callbacks</incode>&nbsp;permettent de déclencher une fonction JavaScript à différents moments clés d'une
     animation synchronisée avec ScrollTrigger et d'obtenir des informations relatives à cette&nbsp;dernière.</p>
-<p>Par exemple, pour déclencher un événement lorsque le marqueur&nbsp;<u>start</u>&nbsp;croise le
-    marqueur&nbsp;<u>scroller-start</u>, il est possible d'utiliser&nbsp;<incode>onEnter</incode>.</p>
+<p>Par exemple, pour déclencher un événement lorsque le marqueur&nbsp;<u style="color: #00c774">start</u>&nbsp;croise le
+    marqueur&nbsp;<u style="color: #00c774">scroller-start</u>, il est possible d'utiliser&nbsp;<incode>onEnter</incode>.</p>
 <p>Pour déclencher des événements tant et aussi longtemps que l'animation est en cours, il est possible
     d'utiliser&nbsp;<incode>onUpdate</incode>, comme dans l'exemple ci-dessous. Dès que l'animation est
     mise-à-jours&nbsp;<em>(update)</em>&nbsp;la valeur de la propriété&nbsp;<incode>direction</incode>&nbsp;<em>(1 ou
@@ -101,19 +100,19 @@
 <ul>
     <li>
         <p><incode>onEnter</incode>&nbsp;déclenché
-            lorsque&nbsp;<u>start</u>&nbsp;dépasse&nbsp;<u>scroller-start</u>&nbsp;en&nbsp;montant ⬆️</p>
+            lorsque&nbsp;<u style="color: #00c774">start</u>&nbsp;dépasse&nbsp;<u style="color: #00c774">scroller-start</u>&nbsp;en&nbsp;montant ⬆️</p>
     </li>
     <li>
         <p><incode>onLeave</incode>déclenché
-            lorsque&nbsp;<u>end</u>&nbsp;dépasse&nbsp;<u>scroller-end</u>&nbsp;en&nbsp;montant ⬆️</p>
+            lorsque&nbsp;<u style="color: #ff003a">end</u>&nbsp;dépasse&nbsp;<u style="color: #ff003a">scroller-end</u>&nbsp;en&nbsp;montant ⬆️</p>
     </li>
     <li>
         <p><incode>onEnterBack</incode>&nbsp;déclenché
-            lorsque&nbsp;<u>end</u>&nbsp;dépasse&nbsp;<u>scroller-end</u>&nbsp;en&nbsp;descendant ⬇️</p>
+            lorsque&nbsp;<u style="color: #ff003a">end</u>&nbsp;dépasse&nbsp;<u style="color: #ff003a">scroller-end</u>&nbsp;en&nbsp;descendant ⬇️</p>
     </li>
     <li>
         <p><incode>onLeaveBack</incode>&nbsp;déclenché
-            lorsque&nbsp;<u>start</u>&nbsp;dépasse&nbsp;<u>scroller-start</u>&nbsp;en&nbsp;descendant ⬇️</p>
+            lorsque&nbsp;<u style="color: #00c774">start</u>&nbsp;dépasse&nbsp;<u style="color: #00c774">scroller-start</u>&nbsp;en&nbsp;descendant ⬇️</p>
     </li>
     <li>
         <p><incode>onUpdate</incode>&nbsp;déclenché à de multiple reprises, tant que l'animation est en cours

@@ -29,7 +29,7 @@
 <br><small>Et si on souhaite la centrer à l'horizontal, on place la position horizontale à 50%, à vous de décider.</small></p>
 
 <highlight lang="css">#section-parallax{
-    background-image: url(chemin/acces/image.jpg);
+    background-image: url("chemin/acces/image.jpg");
     background-size: cover;  /* ou 200% pour augmenter l'effet, si l'image originale est assez grande */
     background-repeat: no-repeat;
     background-attachment: scroll;

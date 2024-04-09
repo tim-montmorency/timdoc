@@ -11,8 +11,8 @@
 
 <grostitre>Introduction</grostitre>
 
-<p>ScrollTrigger est un plugiciel&nbsp;<em>(plugin)</em>&nbsp;développé par&nbsp;<a href="https://greensock.com/"
-        target="_blank">GreenSock</a>&nbsp;permettant de déclencher ou synchroniser une animation avec le défilement de
+<p>ScrollTrigger est un plugiciel&nbsp;<em>(plugin)</em>&nbsp;développé par&nbsp;<a href="https://gsap.com"
+        target="_blank">GSAP</a>&nbsp;permettant de déclencher ou synchroniser une animation avec le défilement de
     la&nbsp;page.</p>
 
 <h3>Exemples d'utilisation</h3>
@@ -33,23 +33,23 @@ Credits: Michelle Barker
 
 
 
-<p>Comme pour tout plugiciel&nbsp;<em>(plugin)</em>&nbsp;GreenSock, afin d'avoir accès à ses fonctionnalités, il est
+<p>Comme pour tout plugiciel&nbsp;<em>(plugin)</em>&nbsp;pour GSAP, afin d'avoir accès à ses fonctionnalités, il est
     nécessaire d'avoir incorporé la librairie GSAP préalablement et d'ajouter ensuite le plugiciel dans le&nbsp;projet.
 </p>
 
 
-<h3>Pour ce faire, il est&nbsp;possible:</h3>
+<h3>Pour ce faire, il est&nbsp;possible d'utiliser une des 3 techniques ci-bas :</h3>
 <ul>
     <li>
-        De le <a href="https://greensock.com/docs/v3/Installation#download" target="_blank">télécharger sur le site de
-            GreenSock</a>, 📥 l'inclure dans votre dossier de projet et ajouter à la fois le fichier
-        <em>gsap-public/minified/gsap-core.min.js</em> si ce n'était pas déjà fait, ainsi que la le plugiciel
+        De le <a href="https://gsap.com/docs/v3/Installation/?tab=cdn&module=esm&method=private+registry&tier=free&club=false&require=false&trial=true#grab-the-files" target="_blank">télécharger sur le site de
+           GSAP (bouton Get GSAP)</a>, 📥 l'inclure dans votre dossier de projet et ajouter à la fois le fichier
+        <em>gsap-public/minified/gsap.min.js</em> si ce n'était pas déjà fait. De plus, vous ajouterez le plugiciel
         scrollTrigger avec <em>gsap-public/minified/ScrollTrigger.min.js</em>.<br><small>Prioriser toujours les versions
             minifiées qui sont plus performantes lors du chargement de la page.</small>
     </li>
     <li>
-        D'utiliser un&nbsp;<a href="https://greensock.com/docs/v3/Installation?checked=core,scrollTrigger#CDN"
-            target="_blank">Content Delivery Network (CDN)</a>, comme vous avez sans doute l'habitude de faire.
+        D'utiliser un&nbsp;<a href="https://gsap.com/docs/v3/Installation/?tab=cdn&module=esm&method=private+registry&tier=free&club=false&require=false&trial=true#install-helper"
+            target="_blank">Content Delivery Network (CDN)</a> (onglet CDN), comme vous avez l'habitude de faire. Vous devez y cocher la boîte à cocher du plugiciel ScrollTrigger, et plus bas, aller copier les 2 balises <span class='inline-code'>script</span> générées (une pour le coeur de gsap et l'autre pour le plugiciel ScrollTrigger) et les coller dans votre/vos page(s) HTML qui contiendront des animations GSAP.
     </li>
     <li>De partir des&nbsp;<a href="https://codepen.io/GreenSock/full/23d3979528b262cb07da37f6a7c7dd76"
             target="_blank">gabarits de base CodePen</a>. Vous devez copier le lien de GSAP Core et celui SrollTrigger
@@ -185,7 +185,7 @@ Credits: Michelle Barker
 <p> En voici l'exemple:</p>
 
 <codepen id="BaqyQEM" tab="js,result" height="400"></codepen>
-<doclink href="https://greensock.com/docs/v3/Plugins/ScrollTrigger/start">start</doclink>
+<doclink href="https://gsap.com/docs/v3/Plugins/ScrollTrigger/start/">start</doclink>
 
 <dots></dots>
 <h3 id="End">End</h3>
@@ -198,7 +198,7 @@ Credits: Michelle Barker
 
 
 
-<doclink href="https://greensock.com/docs/v3/Plugins/ScrollTrigger/end">end</doclink>
+<doclink href="https://gsap.com/docs/v3/Plugins/ScrollTrigger/end/">end</doclink>
 
 
 
@@ -342,7 +342,7 @@ Credits: Michelle Barker
 
 <codepen id="WNabRbe" tab="js,result" height="400"></codepen>
 
-<doclink href="https://greensock.com/docs/v3/Plugins/ScrollTrigger">ScrollTrigger</doclink>
+<doclink href="https://gsap.com/docs/v3/Plugins/ScrollTrigger/">ScrollTrigger</doclink>
 
 <dots></dots>
 <exercice href="../exercices/scrolltrigger-historique-zelda"></exercice>
