@@ -52,12 +52,13 @@
 .intlink__item {
   display: flex;
   height: auto;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 @media (min-width: 576px) {
   .intlink__item {
-    height: 60px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 }
 .intlink__item__icon {

@@ -234,7 +234,7 @@
 
     <dots></dots>
     <h2>Devoirs</h2>
-    <p>Terminer les exercices d'aujourd'hui ("puzzle coloré" et "navbar et cartes")</p>
+   Terminer les exercices d'aujourd'hui ("puzzle coloré" et "navbar et cartes")</p>
     <intlink href="../projet-app-festival-art-numerique/p1-2a/"></intlink>
 
     <!-- <h2>UPDATE</h2>
@@ -328,9 +328,9 @@
         Live Share sur Visual Studio Code</doclink><br>
     <doclink href='https://smnarnold.com/cours/git/introduction '>Retour sur git</doclink> - Surtout à propos des
     branches
-    <intlink href="../git/collaboration/">Git Collaboration au sein d’une équipe </intlink>
-    <p>Techniques CSS pour travailler en équipe (sélecteurs avec ancêtres) pour éviter d'écraser les styles de la page
-        de votre coéquipier:</p>
+    <intlink href="../git/collaboration/">Git Collaboration au sein d’une équipe </intlink><br>
+    Techniques CSS pour travailler en équipe (sélecteurs avec ancêtres) pour éviter d'écraser les styles de la page
+        de votre coéquipier:
     <intlink href="../../582-215MO/css/anatomie/#selecteur"></intlink>
 
     <dots></dots>
@@ -339,13 +339,13 @@
     <intlink href="../projet-app-festival-art-numerique/p1-2a/"></intlink>
     <br>
     <h3>Faire le P1.2b</h3>
-    <p>En équipe :</p>
+    En équipe :
     <intlink href="../projet-app-festival-art-numerique/p1-2b/"></intlink>
     <br>
-    <p>Pour la personne en charge de l'interface de la landing page <em>LP</em> :</p>
+   Pour la personne en charge de l'interface de la landing page <em>LP</em> :
     <intlink href="../projet-app-festival-art-numerique/p1-2b-lp/"></intlink>
     <br>
-    <p>Pour la personne en charge de l'interface de l'application mobile <em>APP</em> :</p>
+    Pour la personne en charge de l'interface de l'application mobile <em>APP</em> :
     <intlink href="../projet-app-festival-art-numerique/p1-2b-app/"></intlink>
     <br>
     <h3>Remise de P1.2a et P1.2b au prochain cours (10%)</h3>
@@ -438,15 +438,15 @@
 
     <dots></dots>
     <grostitre>En classe et devoirs</grostitre>
-    <p>- En équipe :</p>
+    En équipe :
     <intlink href="../projet-app-festival-art-numerique/p1-3a-couleurs/"></intlink><br><br>
-    <p>- Pour la personne en charge de l'interface de la landing page <em>LP</em> :</p>
+    Pour la personne en charge de l'interface de la landing page <em>LP</em> :
     <intlink href="../projet-app-festival-art-numerique/p1-3a-lp/"></intlink>
     <small>Texte pour LP, section Fonctionnnalités: <a
             href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdrcN4gudsFIg0NX5lHP3zUBgBy3hxvus5p7ZftITr2OLQ?e=hPyRcK"
-            target="_blank" rel="noopener noreferrer">cliquez ici</a></small> <br><br><br><br>
+            target="_blank" rel="noopener noreferrer">cliquez ici</a></small> <br><br><br>
 
-    <p>- Pour la personne en charge de l'interface de l'application mobile <em>APP</em> :</p>
+    Pour la personne en charge de l'interface de l'application mobile <em>APP</em> :
 
     <intlink href="../projet-app-festival-art-numerique/p1-3a-app/"></intlink>
 
@@ -510,9 +510,9 @@
     <grostitre>En classe et devoirs</grostitre>
     <p>Terminer les exercices d'aujourd'hui (exercices Swiper)</p>
 
-    <p><strong>Landing Page</strong></p>
-    <intlink href="../projet-app-festival-art-numerique/p1-3b-lp/"></intlink>
-    <p><strong>Appli mobile</strong></p>
+    <strong>Landing Page</strong>
+    <intlink href="../projet-app-festival-art-numerique/p1-3b-lp/"></intlink> <br>
+    <strong>Appli mobile</strong>
     <intlink href="../projet-app-festival-art-numerique/p1-3b-app/"></intlink>
 
 
@@ -694,8 +694,9 @@
     <h3>Exercices</h3>
     <p>Terminer les exercices :</p>
  
-   <intlink href='../exercices/fetch-api-pokemon-api'></intlink> avancer à 50% minimum
-   <br>
+   <intlink href='../exercices/fetch-api-pokemon-api'></intlink> 
+   <small>Avancez à 50% minimum</small>
+        <br> <br>
     <intlink href='../gsap/exercices/voiture-jaune/'></intlink>
     <intlink href='../gsap/exercices/voiture-turquoise/'></intlink>
     <intlink href='../gsap/exercices/gsap-stagger-dominos/'></intlink>
@@ -799,7 +800,7 @@
     <grostitre>GSAP</grostitre>
     <h4>Exercices</h4>
     <exercice href='../gsap/exercices/voiture-bleue/'></exercice>
-    Si dans Chrome le son ne joue pas, vérifiez qu’on autorise les sites à jouer des sons en tapant ceci dans la barre en haut: chrome://settings/content/sound et en ajoutant https://codepen.io  dans la liste des sites autorisés à jouer du son.
+    <small>Si dans Chrome le son ne joue pas, vérifiez qu’on autorise les sites à jouer des sons en tapant ceci dans la barre en haut: chrome://settings/content/sound et en ajoutant <em>https://codepen.io</em>  dans la liste des sites autorisés à jouer du son.</small>
 
   
 
@@ -826,7 +827,7 @@
     <grostitre>En classe et devoirs</grostitre>
     <h3>Exercices</h3>
     <intlink href='../gsap/exercices/voiture-bleue/'></intlink>
-    Si dans Chrome le son ne joue pas, vérifiez qu’on autorise les sites à jouer des sons en tapant ceci dans la barre en haut: chrome://settings/content/sound et en ajoutant https://codepen.io  dans la liste des sites autorisés à jouer du son. <br><br><br><br>
+    <small>Si dans Chrome le son ne joue pas, vérifiez qu’on autorise les sites à jouer des sons en tapant ceci dans la barre en haut: chrome://settings/content/sound et en ajoutant <em>https://codepen.io</em>  dans la liste des sites autorisés à jouer du son.</small> <br><br><br><br>
     <intlink href='../gsap/exercices/voiture-mauve/'></intlink>
     <intlink href='../gsap/exercices/voiture-verte/'></intlink>
     <intlink href='../gsap/exercices/incredible-machine/'></intlink>
@@ -894,15 +895,16 @@
     <grostitre>Devoirs</grostitre>
     <h3>Terminez les exercices débutés en classe aujourd'hui</h3>
     <p>3 exercices: spritesheet responsive, excite bike et historique zelda.</p>
-   <intlink href='../css/exercices/sprite-sheet-responsive/'></intlink>
+    <intlink href='../css/exercices/sprite-sheet-responsive/'></intlink>
+   <small>Au besoin consultez la <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXxxzkpCB2hHixgEXC8gl5cBGwZY5mceWgCW_4kwfvpAmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lPSyyf" target="_blank" rel="noopener noreferrer">Solution pour l'exercice Montre qui marche - Responsive spritesheet</a> (capsule vidéo) : Surtout pour le groupe du matin car on n'a pas pu voir ensemble la solution en classe.</small><br><br>
     <intlink href='../gsap/exercices/excitebike/'></intlink>
     <intlink href='../gsap/exercices/scrolltrigger-historique-zelda/'></intlink>
 
 
     <h3>Projet 2</h3>
-    <p>Continuez:</p>
-    <intlink href='../projet-scrollytelling/p2-2a/'></intlink>
-    <p>Commencez: </p>
+    Continuez:
+    <intlink href='../projet-scrollytelling/p2-2a/'></intlink><br>
+    Commencez:
     <intlink href='../projet-scrollytelling/p2-2b/'></intlink>
 
     <warning>Remise de P2.2 (2.2a et 2.2b) le 29 avril au cours 13.</warning>

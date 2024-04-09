@@ -123,7 +123,7 @@ Si vous prévoyez scinder l’animation du texte en plusieurs parties, veuillez 
  <dots></dots>
  <grostitre>Instruction 4 – Animation de base de quelques images </grostitre>
  
-<info>Veuillez ajouter “P2.2 B - INSTRUCTIONS 4” en commentaire HTML au-dessus des sections dans lesquelles vous avez créé ces animations de base).</info>
+<info>Veuillez ajouter “P2.2 B - INSTRUCTION 4” en commentaire HTML au-dessus des sections dans lesquelles vous avez créé ces animations de base).</info>
 
 <alert>Veuillez noter que les instructions ici prévalent sur ce que vous avez prévu dans votre scénarimage à la phase de concept.  Il est très probable que vous ayez à changer quelques idées pour réaliser les requis minimums. N’hésitez pas à le faire! Il est intéressant de vous approprier l’histoire et le projet individuellement et de faire différent de vos co-équipier éphémères de la phase concept. </alert>
 
@@ -132,13 +132,13 @@ Si vous prévoyez scinder l’animation du texte en plusieurs parties, veuillez 
 <warning>Veuillez noter: La synchronisation des animations avec le scroll, l’effet parallax, le morphing entre 2 formes simples, l’animation qui suit une trajection non linéaire, l’animation de composition /décomposition en couches, la forme qui se dessine et les transitions entre chapitres ne font PAS partie de cette remise. Elles feront partie de P2.3.</warning>
 
 
-<checklist>Avec GSAP, animer l’entrée en scène de minimum 8 éléments graphiques ou personnage. Avec ces 8 animations uniques, créer au moins 2 timelines d’animation GSAP. Par définition, une timeline GSAP est représentés par plusieurs animations qui se succèdent ou qui ont une position relative ou absolue sur une ligne de temps commune. 
+<checklist>Avec GSAP, animer l’entrée en scène de minimum 8 éléments graphiques ou personnage. Avec ces 8 animations uniques, créer au moins 2 timelines d’animation GSAP. Par définition, une timeline GSAP est représentée par plusieurs animations qui se succèdent ou qui ont une position relative ou absolue sur une ligne de temps commune. 
 Ces animations peuvent être réalisées soit avec : <br> - un déplacement de position x, ou y ou les 2<br> - un changement d’échelle (comme pour simuler un zoom in/out)<br> - une distorsion (skew)<br> - une rotation<br> - un fondu enchaîné (opacité)<br> - l'animation de toute autre propriété CSS pertinentes<br> - la combinaison que plusieurs des suggestions sus-mentionnées
 Explorez les possibilités et amusez-vous!
-Vous devez diversifier vos animations alors vous devriez avoir au moins 3 types d’animations distinctes parmi celle mentionnées dans la précédente liste.
+Vous devez diversifier vos animations alors vous devriez avoir au moins 3 types d’animations distinctes parmi celles mentionnées dans la précédente liste.
 </checklist>
 
-<h3>En résumé pour le bloc des "Instructions 4", le requis minimum est:</h3>
+<h3>En résumé pour le bloc des "Instruction 4", le requis minimum est:</h3>
 <ul>
     <li>8 éléments graphiques animés </li>
     <li>2 timelines (ces timelines contiennent quelques-unes des 8 animations) </li>
