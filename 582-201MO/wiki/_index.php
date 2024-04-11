@@ -2117,7 +2117,7 @@
 
     <grostitre>Présentation du prototype final du T03</grostitre>
     <warning>5 minutes par équipe. Tout le monde doit parler.</warning>
-    <alert>Vous devez montrer vos planches en mode présentation (le petit bouton play en haut à droite). <br>Mettre en plein écran.<br>Cacher les panneaux UI de Figma (cmd .)</alert>
+    <alert>Montrez vos différents frames planches et pages web) en mode présentation (le petit bouton play en haut à droite de Figma). <br>Affichez en plein écran.<br>Cachez les panneaux UI de Figma (cmd .)</alert>
     <p>
     </p>
     <h3>En ordre:</h3>
