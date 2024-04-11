@@ -1,58 +1,58 @@
 {
-    "terminal.integrated.env.windows": {
-        "PATH": "${workspaceFolder}\\_bin;${env:PATH};${workspaceFolder}"
+  "terminal.integrated.env.windows": {
+    "PATH": "${workspaceFolder}\\_bin;${env:PATH};${workspaceFolder}"
+  },
+  "terminal.integrated.env.osx": {
+    "PATH": "${workspaceFolder}/_bin:${env:PATH}:${workspaceFolder}"
+  },
+  "emeraldwalk.runonsave": {
+    "autoClearConsole": true,
+    "commands": [
+      {
+        "match": "_.*\\.php$",
+        "cmd": "php \"${workspaceFolder}/_bin/mac/pxpros.php\" \"${file}\""
+      }
+    ]
+  },
+  "liveServer.settings.port": 5502,
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.useNewCompiler": true,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": null,
+      "savePathReplacementPairs": null
     },
-    "terminal.integrated.env.osx": {
-        "PATH": "${workspaceFolder}/_bin:${env:PATH}:${workspaceFolder}"
-    },
-    "emeraldwalk.runonsave": {
-        "autoClearConsole": true,
-        "commands": [
-            {
-                "match": "_.*\\.php$",
-                "cmd": "php \"${workspaceFolder}/_bin/mac/pxpros.php\" \"${file}\""
-            }
-        ]
-    },
-    "liveServer.settings.port": 5501,
-    "liveSassCompile.settings.generateMap": false,
-    "liveSassCompile.settings.useNewCompiler": true,
-    "liveSassCompile.settings.formats": [
-        {
-            "format": "expanded",
-            "extensionName": ".css",
-            "savePath": null,
-            "savePathReplacementPairs": null
-        },
-        {
-            "format": "compressed",
-            "extensionName": ".min.css",
-            "savePath": null,
-            "savePathReplacementPairs": null
-        }
-    ],
-    "MinifyAll.disableCss": true,
-    "MinifyAll.disableHtml": true,
-    "MinifyAll.disableJson": true,
-    "MinifyAll.disableJsonc": true,
-    "MinifyAll.disableLess": true,
-    "MinifyAll.disablePhp": true,
-    "MinifyAll.disableSass": true,
-    "MinifyAll.disableScss": true,
-    "MinifyAll.disableTwig": true,
-    "MinifyAll.disableXml": true,
-    "MinifyAll.disableJavascriptReact": false,
-    "MinifyAll.disableJavascript": false,
-    "MinifyAll.PrefixOfNewMinifiedFiles": ".min",
-    "MinifyAll.minifyOnSaveToNewFile": true,
-    "MinifyAll.openMinifiedDocument": false,
-    "MinifyAll.terserMinifyOptions": {
-        "mangle": true,
-        "compress": {
-            "drop_console": false,
-            "dead_code": true,
-            "keep_fnames": false,
-            "keep_classnames": false
-        }
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": null,
+      "savePathReplacementPairs": null
     }
+  ],
+  "MinifyAll.disableCss": true,
+  "MinifyAll.disableHtml": true,
+  "MinifyAll.disableJson": true,
+  "MinifyAll.disableJsonc": true,
+  "MinifyAll.disableLess": true,
+  "MinifyAll.disablePhp": true,
+  "MinifyAll.disableSass": true,
+  "MinifyAll.disableScss": true,
+  "MinifyAll.disableTwig": true,
+  "MinifyAll.disableXml": true,
+  "MinifyAll.disableJavascriptReact": false,
+  "MinifyAll.disableJavascript": false,
+  "MinifyAll.PrefixOfNewMinifiedFiles": ".min",
+  "MinifyAll.minifyOnSaveToNewFile": true,
+  "MinifyAll.openMinifiedDocument": false,
+  "MinifyAll.terserMinifyOptions": {
+    "mangle": true,
+    "compress": {
+      "drop_console": false,
+      "dead_code": true,
+      "keep_fnames": false,
+      "keep_classnames": false
+    }
+  }
 }

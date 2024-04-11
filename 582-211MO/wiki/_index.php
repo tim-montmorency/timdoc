@@ -152,6 +152,7 @@
 
 <wiki-page name="Cours 10" date="2024-04-01">
     <intlink href="../css/flexbox/"></intlink>
+    <intlink href="../css/flexbox-intermediaire/"></intlink>
     <h2>Exercices</h2>
     <intlink href="../css/exercices/underworld-everything-everything/"></intlink>
     <intlink href="../css/exercices/the-black-keys-turn-blue/"></intlink>
@@ -167,12 +168,14 @@
 
 
 <wiki-page name="Cours 11" date="2024-04-08">
-    <intlink href="../css/flexbox-intermediaire/"></intlink>
+    <intlink href="../css/flexbox-avance/"></intlink>
+    <intlink href="../css/animation-sprite-sheet/"></intlink>
+    <intlink href="../css/animation-sprite-sheet/exercices/sonic-knuckles/"></intlink>
 </wiki-page>
 
 
 <wiki-page name="Cours 12" date="2024-04-15">
-    <intlink href="../css/flexbox-avance/"></intlink>
+<h3>Travail sur le projet final (partie 1)</h3>
 </wiki-page>
 
 <wiki-page name="Cours 13" date="2024-04-22">
@@ -180,7 +183,7 @@
 </wiki-page>
 
 <wiki-page name="Cours 14" date="2024-04-29">
-    <h3>Travail sur le projet final (partie 2)</h3>
+    <h3>Travail sur le projet final (partie 3)</h3>
 </wiki-page>
 
 <wiki-page name="Cours 15" date="2024-05-06">
