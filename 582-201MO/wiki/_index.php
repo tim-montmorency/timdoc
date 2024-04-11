@@ -1644,10 +1644,10 @@
         <h3>Références et tendances</h3>
         <p>
             <a href="https://99designs.fr/blog/tendances/tendances-design-ux/" target="_blank"
-                rel="noopener noreferrer">Les 8 meilleures tendances en UX design de 2023</a>
+                rel="noopener noreferrer">Les 8 meilleures tendances en UX design de 2023</a><br>
             <a href="https://www.linkedin.com/pulse/10-website-design-trends-2024-embrace-boosting-inlwc/"
                 target="_blank" rel="noopener noreferrer">10 Website Design Trends of 2024 to Embrace for Boosting Your
-                Site</a>
+                Site</a><br>
             <a href="https://99designs.fr/blog/tendances/tendances-en-design-web/" rel="noreferrer noopener"
                 title="https://99designs.fr/blog/tendances/tendances-en-design-web/" target="_blank">
                 Tendances en design web
@@ -2117,8 +2117,8 @@
 
     <grostitre>Présentation du prototype final du T03</grostitre>
     <warning>5 minutes par équipe. Tout le monde doit parler.</warning>
-    <alert>Montrez vos différents frames planches et pages web) en mode présentation (le petit bouton play en haut à droite de Figma). <br>Affichez en plein écran.<br>Cachez les panneaux UI de Figma (cmd .)</alert>
-    <p>
+    <alert>Montrez vos différents frames des planches et des pages web en mode présentation (le bouton play ▶️ en haut à droite de Figma). <br>Affichez en plein écran.<br>Cachez les panneaux UI de Figma (cmd .)</alert>
+    <p> 
     </p>
     <h3>En ordre:</h3>
     <ol>
