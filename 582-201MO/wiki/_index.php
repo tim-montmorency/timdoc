@@ -94,13 +94,28 @@
                 Les composantes
             </a>
         </li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EYinQRUOsTxBkVbZ-i1RKVIB9qNgsZnE-vfKuLmbN1xwjA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EELJ7D" target="_blank" rel="noopener noreferrer">Le prototype: à quoi ça sert? - Créer un prototype. - Créer des hyperliens entre les pages. - Présenter votre prototype devant la classe (plein écran et cacher les barres d'interface de FIGMA)</a></li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EQbO8TMN2I1Ao9WNtrnTHc0BAPg8yc1o-7M7wmGGJmXv9g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YDucUj" target="_blank" rel="noopener noreferrer">Prototype: Menu de navigation</a></li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdDfamG9QYlEqsLPART3QwIB4NL7HSL7Ja19lq1Kpg_UkA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bnS35l" target="_blank" rel="noopener noreferrer">Animation d'ouverture d'un panneau <em>overlay</em> (clic sur <em>burger menu</em>)</a></li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERlJhsH1R0FAn-QQss1JKRUBIAYgcWqvXvo5QhrqsXLsyw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=adjaN9" target="_blank" rel="noopener noreferrer">Prototype: Créer un carrousel d'images interactif</a></li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EeYYWwRt8phNlJUI2gOhiOoBG1jbJnF_nXYY-ZR4TUL-lw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=N9Dc7G" target="_blank" rel="noopener noreferrer">Deux flots du prototype: Grand écran et mobile</a></li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERdRumO-_QdIvinb3gc5bG8BBtxDD1yQL9YRtm5iiuFSJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tOB6Oa" target="_blank" rel="noopener noreferrer">Effet de survol</a></li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERhYac8S_cJJr3vk7TF2RfkBflLHxY8TJrWMvtQs-B9Epg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bfMPJW" target="_blank" rel="noopener noreferrer">Menu collé en haut de la fenêtre (aussi appelé <em>sticky header</em>)</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EYinQRUOsTxBkVbZ-i1RKVIB9qNgsZnE-vfKuLmbN1xwjA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EELJ7D"
+                target="_blank" rel="noopener noreferrer">Le prototype: à quoi ça sert? - Créer un prototype. - Créer
+                des hyperliens entre les pages. - Présenter votre prototype devant la classe (plein écran et cacher les
+                barres d'interface de FIGMA)</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EQbO8TMN2I1Ao9WNtrnTHc0BAPg8yc1o-7M7wmGGJmXv9g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YDucUj"
+                target="_blank" rel="noopener noreferrer">Prototype: Menu de navigation</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdDfamG9QYlEqsLPART3QwIB4NL7HSL7Ja19lq1Kpg_UkA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bnS35l"
+                target="_blank" rel="noopener noreferrer">Animation d'ouverture d'un panneau <em>overlay</em> (clic sur
+                <em>burger menu</em>)</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERlJhsH1R0FAn-QQss1JKRUBIAYgcWqvXvo5QhrqsXLsyw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=adjaN9"
+                target="_blank" rel="noopener noreferrer">Prototype: Créer un carrousel d'images interactif</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EeYYWwRt8phNlJUI2gOhiOoBG1jbJnF_nXYY-ZR4TUL-lw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=N9Dc7G"
+                target="_blank" rel="noopener noreferrer">Deux flots du prototype: Grand écran et mobile</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERdRumO-_QdIvinb3gc5bG8BBtxDD1yQL9YRtm5iiuFSJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tOB6Oa"
+                target="_blank" rel="noopener noreferrer">Effet de survol</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERhYac8S_cJJr3vk7TF2RfkBflLHxY8TJrWMvtQs-B9Epg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bfMPJW"
+                target="_blank" rel="noopener noreferrer">Menu collé en haut de la fenêtre (aussi appelé <em>sticky
+                    header</em>)</a></li>
+
+        <li><a href="" target="_blank" rel="noopener noreferrer">01-Animation: Animation automatique et délais</a></li>
+        <li><a href="" target="_blank" rel="noopener noreferrer">02-Animation: Animation en plusieurs étapes</a></li>
+        <li><a href="" target="_blank" rel="noopener noreferrer">03-Animation: Forme en tant que transition</a></li>
     </ul>
 
 
@@ -1545,8 +1560,9 @@
                 https://www.cssdesignawards.com/
             </a>
             <br />
-            <a href="https://dribbble.com/" rel="noreferrer noopener" title="https://dribbble.com/shots/popular/web-design" target="_blank">
-            https://dribbble.com/shots/popular/web-design
+            <a href="https://dribbble.com/" rel="noreferrer noopener"
+                title="https://dribbble.com/shots/popular/web-design" target="_blank">
+                https://dribbble.com/shots/popular/web-design
             </a>
             <br />
             <a href="https://wow-web.co.uk/" rel="noreferrer noopener" title="https://wow-web.co.uk/" target="_blank">
@@ -1568,7 +1584,7 @@
                 https://butdoesitfloat.com/
             </a>
             <br />
-         
+
             <a href="https://www.makeuseof.com/tag/weird-cool-bizarre-websites/" rel="noreferrer noopener"
                 title="https://www.makeuseof.com/tag/weird-cool-bizarre-websites/" target="_blank">
                 https://www.makeuseof.com/tag/weird-cool-bizarre-websites/
@@ -1627,8 +1643,11 @@
 
         <h3>Références et tendances</h3>
         <p>
-            <a href="https://99designs.fr/blog/tendances/tendances-design-ux/" target="_blank" rel="noopener noreferrer">Les 8 meilleures tendances en UX design de 2023</a>
-            <a href="https://www.linkedin.com/pulse/10-website-design-trends-2024-embrace-boosting-inlwc/" target="_blank" rel="noopener noreferrer">10 Website Design Trends of 2024 to Embrace for Boosting Your Site</a>
+            <a href="https://99designs.fr/blog/tendances/tendances-design-ux/" target="_blank"
+                rel="noopener noreferrer">Les 8 meilleures tendances en UX design de 2023</a>
+            <a href="https://www.linkedin.com/pulse/10-website-design-trends-2024-embrace-boosting-inlwc/"
+                target="_blank" rel="noopener noreferrer">10 Website Design Trends of 2024 to Embrace for Boosting Your
+                Site</a>
             <a href="https://99designs.fr/blog/tendances/tendances-en-design-web/" rel="noreferrer noopener"
                 title="https://99designs.fr/blog/tendances/tendances-en-design-web/" target="_blank">
                 Tendances en design web
@@ -1759,8 +1778,9 @@
     <grostitre>Annonces</grostitre>
     <p>Remise T03 - Concept - AVANT VOTRE COURS - Travail d'équipe - 10%</p>
 
-    <warning>Plusieurs site d’inspirations, de références et de tendances ont été mis à votre disposition dans le wiki du cours précédent (cours 8), allez voir ça! </warning>
-   
+    <warning>Plusieurs site d’inspirations, de références et de tendances ont été mis à votre disposition dans le wiki
+        du cours précédent (cours 8), allez voir ça! </warning>
+
 
     <dots></dots>
     <grostitre>Retour sur les polices de caractères</grostitre>
@@ -1817,7 +1837,8 @@
     </info>
 
     <ul>
-        <li><a href="https://www.canva.com/fr_fr/decouvrir/couleurs-qui-vont-ensemble/" target="_blank" rel="noopener noreferrer">100 combinaisons de couleurs inspirantes</a></li>
+        <li><a href="https://www.canva.com/fr_fr/decouvrir/couleurs-qui-vont-ensemble/" target="_blank"
+                rel="noopener noreferrer">100 combinaisons de couleurs inspirantes</a></li>
         <li><a href="https://99designs.com/blog/tips/website-color-schemes/" target="_blank"
                 rel="noopener noreferrer">11 website color schemes to help you find the perfect palette</a></li>
         <li><a href="https://www.canva.com/learn/website-color-schemes/" target="_blank" rel="noopener noreferrer">The
@@ -1832,7 +1853,8 @@
 
         <li><a href="http://colormind.io/" target="_blank" rel="noopener noreferrer">Color mind</a></li>
 
-        <li><a href="https://colors.muz.li/" target="_blank" rel="noopener noreferrer">Muzli Colors</a>: Avec cet outil, vous pouvez visionner un kit
+        <li><a href="https://colors.muz.li/" target="_blank" rel="noopener noreferrer">Muzli Colors</a>: Avec cet outil,
+            vous pouvez visionner un kit
             d'éléments UI avec votre couleur principale appliquée.</li>
 
         <li>De quoi aurait l'air de votre palette de couleur sur une site web? <a href="http://colormind.io/bootstrap/"
@@ -1841,7 +1863,8 @@
 
     <dots></dots>
     <grostitre>Design de site web</grostitre>
-    <p>Importance de prendre en compte l'utilisation (l'expérience utilisateur): <a href="https://userinyerface.com/" target="_blank" rel="noopener noreferrer">Exercice UX</a></p>
+    <p>Importance de prendre en compte l'utilisation (l'expérience utilisateur): <a href="https://userinyerface.com/"
+            target="_blank" rel="noopener noreferrer">Exercice UX</a></p>
     <p>Démonstration en classe d'exemples de site web de type vitrine.</p>
     <h4>POWERPOINT <a
             href="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ESopylDAd3hBjeGs-gmPDGYBhaM5kRRRtPxAjbqOIYVSEg?e=YzErEi"
@@ -1858,8 +1881,13 @@
                     rel="noreferrer noopener" target="_blank"
                     title="https://www.figma.com/community/plugin/740272380439725040/material-design-icons">
                     Icônes Material Design</a> (extension à installer)</li>
-            <li>Voir aussi le dossier <strong>UI Kits</strong> que je vous ai monté dans Figma. Pour y accéder, veuillez rejoindre <a href="https://www.figma.com/team_invite/redeem/q23P8yNAa8gFF7PX94fcb6" target="_blank" rel="noopener noreferrer">cette équipe Figma</a>. Je vous ai donné les droits d'écriture sur les fichiers. NE PAS LES ÉDITER DIRECTEMENT.  Si vous voulez utiliser un ou plusieurs de ces fichiers, veuillez en faire une copie (dupliquer) et les classer dans votre propre équipe Figma personnelle (celle a votre nom).
-                </li>
+            <li>Voir aussi le dossier <strong>UI Kits</strong> que je vous ai monté dans Figma. Pour y accéder, veuillez
+                rejoindre <a href="https://www.figma.com/team_invite/redeem/q23P8yNAa8gFF7PX94fcb6" target="_blank"
+                    rel="noopener noreferrer">cette équipe Figma</a>. Je vous ai donné les droits d'écriture sur les
+                fichiers. NE PAS LES ÉDITER DIRECTEMENT. Si vous voulez utiliser un ou plusieurs de ces fichiers,
+                veuillez en faire une copie (dupliquer) et les classer dans votre propre équipe Figma personnelle (celle
+                a votre nom).
+            </li>
         </ul>
 
         <li>Mise en page et principe de l'espacement (multiple de 8px) <br>
@@ -1870,20 +1898,24 @@
                 <li><a href="https://design.quebec.ca/bases/grille-8px" target="_blank" rel="noopener noreferrer">Grille
                         de 8 px</a></li>
             </ul>
-           Gabarit : <a href="https://www.figma.com/file/SaXusM4bfoFouDSFcKUF8X/Blocs-pour-mesurer-les-espace-par-multiple-de-4-ou-8px?type=design&node-id=1%3A143&mode=design&t=G9TAMJtAQgYMpjaD-1" target="_blank" rel="noopener noreferrer">Blocs pour mesurer les espace par multiple de 4 ou 8px</a><br><br>
+            Gabarit : <a
+                href="https://www.figma.com/file/SaXusM4bfoFouDSFcKUF8X/Blocs-pour-mesurer-les-espace-par-multiple-de-4-ou-8px?type=design&node-id=1%3A143&mode=design&t=G9TAMJtAQgYMpjaD-1"
+                target="_blank" rel="noopener noreferrer">Blocs pour mesurer les espace par multiple de 4 ou
+                8px</a><br><br>
         </li>
 
         <li>Grille de mise en page (retour rapide)</li>
 
         <li>Comment créer des <em>styles généraux</em> à réutiliser dans une composition (site web) de section en
             section et de page en page</li>
-            
+
         <li>Comment faire une <em>composante</em></li>
 
-        <li>Mode présentation [▶️] : Importance de l'ordre des cadres (frames) dans le panneau de calques (en préparation à votre présentation finale)</li>
+        <li>Mode présentation [▶️] : Importance de l'ordre des cadres (frames) dans le panneau de calques (en
+            préparation à votre présentation finale)</li>
 
-        
-       
+
+
     </ul>
 
     <h3>Capsules vidéos Figma (à titre de rappel)</h3>
@@ -1928,27 +1960,31 @@
 
     <h3>Lectures à propos de la règle du 8px</h3>
     <ul>
-        <li><a href="https://www.bgs-associes.com/la-grille-des-8pt/" target="_blank"
-                rel="noopener noreferrer">La grille des 8pt</a></li>
+        <li><a href="https://www.bgs-associes.com/la-grille-des-8pt/" target="_blank" rel="noopener noreferrer">La
+                grille des 8pt</a></li>
         <li><a href="https://design.quebec.ca/bases/grille-8px" target="_blank" rel="noopener noreferrer">Grille
                 de 8 px</a></li>
     </ul>
-    <p>Gabarit : <a href="https://www.figma.com/file/SaXusM4bfoFouDSFcKUF8X/Blocs-pour-mesurer-les-espace-par-multiple-de-4-ou-8px?type=design&node-id=1%3A143&mode=design&t=G9TAMJtAQgYMpjaD-1" target="_blank" rel="noopener noreferrer">Blocs pour mesurer les espace par multiple de 4 ou 8px</a></p>
+    <p>Gabarit : <a
+            href="https://www.figma.com/file/SaXusM4bfoFouDSFcKUF8X/Blocs-pour-mesurer-les-espace-par-multiple-de-4-ou-8px?type=design&node-id=1%3A143&mode=design&t=G9TAMJtAQgYMpjaD-1"
+            target="_blank" rel="noopener noreferrer">Blocs pour mesurer les espace par multiple de 4 ou 8px</a></p>
 
 
     <h3>T03 - Maquettes graphiques</h3>
 
-    <p><strong>Étape des maquettes graphiques – Cours 10 (4 avril): FORMATIF</strong>: rencontre profs-équipe pour recevoir ma rétroaction et mes conseils.<br><br>
+    <p><strong>Étape des maquettes graphiques – Cours 10 (4 avril): FORMATIF</strong>: rencontre profs-équipe pour
+        recevoir ma rétroaction et mes conseils.<br><br>
         <a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EV9w_dBLSglLnXDU6pkflwMByKTvF9BMBng2tE9p3aBx0Q?e=ogbF3j"
             target="_blank" rel="noopener noreferrer">Consignes complètes - T03 Site web vitrine</a>
     </p>
-    
-    <p>Remise 2: Avoir créé et complété le design des maquettes graphiques de toutes les pages version grand écran et version mobile. Remise du lien dans Devoir.</p>
+
+    <p>Remise 2: Avoir créé et complété le design des maquettes graphiques de toutes les pages version grand écran et
+        version mobile. Remise du lien dans Devoir.</p>
     <p><small>
-        Exemples de <a
+            Exemples de <a
                 href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ErtfVl4QmdlLpeKu2udqHVcBym7i3vN_kAz40jxNBJOCMA?e=drrToy"
                 target="_blank" rel="noopener noreferrer">2 réalisations d'équipe du projet T03</a> réalisés en 2022.
-    </small>
+        </small>
     </p>
 
 
@@ -1973,25 +2009,46 @@
 
     <grostitre>Design</grostitre>
     <h3>Les coins arrondis: la mathématique derrière</h3>
-    <info>Pour vous aider avec les articles en anglais, vous pouvez toujours utiliser <a href="https://translate.google.ca/?hl=fr" target="_blank" rel="noopener noreferrer">Google Traduction</a> pour traduire le contenu en français. Vous pouvez aussi installer l'extention du navigateur Chrome nommée <em>Google Traduction</em>, recherchez-la dans le <a href="https://chromewebstore.google.com/?hl=fr" target="_blank" rel="noopener noreferrer">Chrome Web Store</a>.</info>
+    <info>Pour vous aider avec les articles en anglais, vous pouvez toujours utiliser <a
+            href="https://translate.google.ca/?hl=fr" target="_blank" rel="noopener noreferrer">Google Traduction</a>
+        pour traduire le contenu en français. Vous pouvez aussi installer l'extention du navigateur Chrome nommée
+        <em>Google Traduction</em>, recherchez-la dans le <a href="https://chromewebstore.google.com/?hl=fr"
+            target="_blank" rel="noopener noreferrer">Chrome Web Store</a>.
+    </info>
     <p>À lire:</p>
     <ul>
-        <li><a href="https://webdesign.tutsplus.com/quick-tip-rounded-corners-done-right--webdesign-7127t " target="_blank" rel="noopener noreferrer">Quick Tip: Rounded Corners Done Right</a></li>
-        <li><a href="https://cloudfour.com/thinks/the-math-behind-nesting-rounded-corners/" target="_blank" rel="noopener noreferrer">The Math Behind Nesting Rounded Corners</a></li>
+        <li><a href="https://webdesign.tutsplus.com/quick-tip-rounded-corners-done-right--webdesign-7127t "
+                target="_blank" rel="noopener noreferrer">Quick Tip: Rounded Corners Done Right</a></li>
+        <li><a href="https://cloudfour.com/thinks/the-math-behind-nesting-rounded-corners/" target="_blank"
+                rel="noopener noreferrer">The Math Behind Nesting Rounded Corners</a></li>
     </ul>
 
     <dots></dots>
     <grostitre>À faire en classe aujourd'hui</grostitre>
     <h3>Écouter activement les capsules suivantes à propos de la création de propotype.</h3>
-    <warning>Avant d'écouter les capsules sur le prototype, si vous n'avez pas encore vous-même individuellement créé une composante dans Figma, je vous conseille de ré-écouter les capsules vidéo du dernier cours (cours 9), notamment sur <em>comment créer une composante</em>. <br>La capsule sur <em>les styles</em> est aussi toujours pertinente si vous n'en avez pas encore créé ou utilisé vous même.</warning>
+    <warning>Avant d'écouter les capsules sur le prototype, si vous n'avez pas encore vous-même individuellement créé
+        une composante dans Figma, je vous conseille de ré-écouter les capsules vidéo du dernier cours (cours 9),
+        notamment sur <em>comment créer une composante</em>. <br>La capsule sur <em>les styles</em> est aussi toujours
+        pertinente si vous n'en avez pas encore créé ou utilisé vous même.</warning>
     <ol>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EYinQRUOsTxBkVbZ-i1RKVIB9qNgsZnE-vfKuLmbN1xwjA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EELJ7D" target="_blank" rel="noopener noreferrer">Le prototype: à quoi ça sert? - Créer un prototype. - Créer des hyperliens entre les pages. - Présenter votre prototype devant la classe (plein écran et cacher les barres d'interface de FIGMA)</a></li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EQbO8TMN2I1Ao9WNtrnTHc0BAPg8yc1o-7M7wmGGJmXv9g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YDucUj" target="_blank" rel="noopener noreferrer">Prototype: Menu de navigation</a></li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdDfamG9QYlEqsLPART3QwIB4NL7HSL7Ja19lq1Kpg_UkA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bnS35l" target="_blank" rel="noopener noreferrer">Animation d'ouverture d'un panneau <em>overlay</em> (clic sur <em>burger menu</em>)</a></li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERlJhsH1R0FAn-QQss1JKRUBIAYgcWqvXvo5QhrqsXLsyw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=adjaN9" target="_blank" rel="noopener noreferrer">Prototype: Créer un carrousel d'images interactif</a></li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EeYYWwRt8phNlJUI2gOhiOoBG1jbJnF_nXYY-ZR4TUL-lw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=N9Dc7G" target="_blank" rel="noopener noreferrer">Deux flots du prototype: Grand écran et mobile</a></li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERdRumO-_QdIvinb3gc5bG8BBtxDD1yQL9YRtm5iiuFSJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tOB6Oa" target="_blank" rel="noopener noreferrer">Effet de survol</a></li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERhYac8S_cJJr3vk7TF2RfkBflLHxY8TJrWMvtQs-B9Epg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bfMPJW" target="_blank" rel="noopener noreferrer">Menu collé en haut de la fenêtre (aussi appelé <em>sticky header</em>)</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EYinQRUOsTxBkVbZ-i1RKVIB9qNgsZnE-vfKuLmbN1xwjA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EELJ7D"
+                target="_blank" rel="noopener noreferrer">Le prototype: à quoi ça sert? - Créer un prototype. - Créer
+                des hyperliens entre les pages. - Présenter votre prototype devant la classe (plein écran et cacher les
+                barres d'interface de FIGMA)</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EQbO8TMN2I1Ao9WNtrnTHc0BAPg8yc1o-7M7wmGGJmXv9g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YDucUj"
+                target="_blank" rel="noopener noreferrer">Prototype: Menu de navigation</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdDfamG9QYlEqsLPART3QwIB4NL7HSL7Ja19lq1Kpg_UkA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bnS35l"
+                target="_blank" rel="noopener noreferrer">Animation d'ouverture d'un panneau <em>overlay</em> (clic sur
+                <em>burger menu</em>)</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERlJhsH1R0FAn-QQss1JKRUBIAYgcWqvXvo5QhrqsXLsyw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=adjaN9"
+                target="_blank" rel="noopener noreferrer">Prototype: Créer un carrousel d'images interactif</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EeYYWwRt8phNlJUI2gOhiOoBG1jbJnF_nXYY-ZR4TUL-lw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=N9Dc7G"
+                target="_blank" rel="noopener noreferrer">Deux flots du prototype: Grand écran et mobile</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERdRumO-_QdIvinb3gc5bG8BBtxDD1yQL9YRtm5iiuFSJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tOB6Oa"
+                target="_blank" rel="noopener noreferrer">Effet de survol</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERhYac8S_cJJr3vk7TF2RfkBflLHxY8TJrWMvtQs-B9Epg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bfMPJW"
+                target="_blank" rel="noopener noreferrer">Menu collé en haut de la fenêtre (aussi appelé <em>sticky
+                    header</em>)</a></li>
     </ol>
     <h3>Suite à la rencontre avec moi (ou avant):</h3>
     <ul>
@@ -2009,10 +2066,14 @@
     <ul>
         <li>1 ordi avec le Figma ouvert</li>
         <li>1 ordi à côté pour prendre des notes sur ce que je vais vous dire en personne (Microsoft Word)</li>
-        <li>Noter les conseils mais aussi vos réponses aux différentes questions. Cela va ME guider pour votre évaluation finale en plus de VOUS guider pour les correctifs suivants cette rencontre et pour votre présentation orale la semaine prochaine. </li>
+        <li>Noter les conseils mais aussi vos réponses aux différentes questions. Cela va ME guider pour votre
+            évaluation finale en plus de VOUS guider pour les correctifs suivants cette rencontre et pour votre
+            présentation orale la semaine prochaine. </li>
     </ul>
-    <p>M’envoyer vos notes prises lors de notre rencontre, mises au propre (liste à puce, sans faute de français) avant la fin du cours aujourd’hui. </p>
-    <p>Il y a un <em>Devoir</em> créé spécifiquement pour cette remise dans Teams. Une seule remise par équipe. Format Word (non compressé).</p>
+    <p>M’envoyer vos notes prises lors de notre rencontre, mises au propre (liste à puce, sans faute de français) avant
+        la fin du cours aujourd’hui. </p>
+    <p>Il y a un <em>Devoir</em> créé spécifiquement pour cette remise dans Teams. Une seule remise par équipe. Format
+        Word (non compressé).</p>
 
 
 
@@ -2020,15 +2081,20 @@
     <dots></dots>
     <grostitre>Devoirs</grostitre>
     <h3>Notes</h3>
-    <p>M’envoyer vos notes prises lors de notre rencontre, mises au propre (liste à puce, sans faute de français) avant la fin du cours aujourd’hui (exception pour les 2 dernières équipes rencontrées en classe. Au besoin, je vous laisse 4h après la fin du cours pour m’envoyer les notes prises). </p>
-    <p>Il y a un <em>Devoir</em> créé spécifiquement pour cette remise dans Teams. Une seule remise par équipe. Format Word (non compressé).</p>
+    <p>M’envoyer vos notes prises lors de notre rencontre, mises au propre (liste à puce, sans faute de français) avant
+        la fin du cours aujourd’hui (exception pour les 2 dernières équipes rencontrées en classe. Au besoin, je vous
+        laisse 4h après la fin du cours pour m’envoyer les notes prises). </p>
+    <p>Il y a un <em>Devoir</em> créé spécifiquement pour cette remise dans Teams. Une seule remise par équipe. Format
+        Word (non compressé).</p>
 
     <h3>T03 - Le design du site Web</h3>
     <p>Améliorez votre design en fonction des commentaires d'aujourd'hui.</p>
-    <p>Créez un prototype. Pratiquez-vous à présenter le prototype afin que ce soit fluide lors de de votre présenation (afficher plein écran et cacher les barre UI de Figma. Revoir capsules vidéo au besoin.)</p>
+    <p>Créez un prototype. Pratiquez-vous à présenter le prototype afin que ce soit fluide lors de de votre présenation
+        (afficher plein écran et cacher les barre UI de Figma. Revoir capsules vidéo au besoin.)</p>
     <p>Préparer votre présentation orale. Tout le monde doit parler et présenter une partie.</p>
     <p> <a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EV9w_dBLSglLnXDU6pkflwMByKTvF9BMBng2tE9p3aBx0Q?e=ogbF3j"
-            target="_blank" rel="noopener noreferrer">Consignes complètes - T03 Site web vitrine - Voir aussi les consignes de la présentation finale à la fin du document</a></p>
+            target="_blank" rel="noopener noreferrer">Consignes complètes - T03 Site web vitrine - Voir aussi les
+            consignes de la présentation finale à la fin du document</a></p>
     <p><strong>Remise finale et présentation au prochain cours.</strong></p>
 
 
@@ -2048,6 +2114,59 @@
  \_____\___/ \__,_|_|  |___/  |_||_|
  ----------------------------------->
 <wiki-page name="Cours 11" date="2024-04-10">
+
+    <grostitre>Présentation du prototype final du T03</grostitre>
+    <warning>5 minutes par équipe. Tout le monde doit parler.</warning>
+    <alert>Vous devez montrer vos planches en mode présentation (le petit bouton play en haut à droite). <br>Mettre en plein écran.<br>Cacher les panneaux UI de Figma (cmd .)</alert>
+    <p>
+    </p>
+    <h3>En ordre:</h3>
+    <ol>
+        <li>Montrer le site initial que vous avez recréé. Expliquez rapidement ce que c'est.</li>
+        <li>Présentation du processus de création en utilisant les planches d’inspirations et la planche de styles finaux.</li>
+        <li>Présentation du résultat final via le prototype.</li>
+    </ol>
+
+    <h3>Ce qui doit être couvert:</h3>
+  
+    <p>Explications de vos choix en lien avec la matière du cours:</p>
+    <ul>
+        <li>processus pour la création de la palette de couleurs (théorie des couleurs, outils utilisés)</li>
+        <li>choix de couleur (psychologie des couleurs)</li>
+        <li>
+            choix typographiques, agencement des polices</li>
+        <li>
+            règles en design CRAP:
+            <ul>
+                <li>
+                    utilisation des contrastes et pour quelle raison</li>
+                <li>
+                    utilisation de la proximité par le regroupement et pour quelle raison</li>
+                <li>
+                    utilisation de la répétition et pour quelle raison</li>
+                <li>
+                    alignement des éléments selon quelle règle</li>
+            </ul>
+        </li>
+        <li>
+            parcours visuel</li>
+        <li>
+            hiérarchie de contenu</li>
+        <li>
+            structure de votre mise en page</li>
+        <li>
+            section de chaque page web</li>
+        <li>
+            votre grille de mise-en-page (12 colonnes, règles de 8px, etc)</li>
+        <li>
+            adaptation en version mobile vs desktop, ce qui a été enlevé, bougé et pourquoi</li>
+
+    </ul>
+
+    <dots></dots>
+    <grostitre>Présentation du T04 - Le portfolio</grostitre>
+    <p>Powerpoint (lien à venir)</p>
+
 
 </wiki-page>
 
