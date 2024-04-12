@@ -2195,7 +2195,7 @@
         <li><a href="http://le-mugs.com/" target="_blank" rel="noopener noreferrer">Mugs</a>: Site web d'un restaurant, intéressant pour les animations tout le long de la page lorsqu'on <em>scroll</em>.</li>
     </ul>
 
-    <h3>Autres sites où aller s'inpirer (animation, portfolio, tendances)</h3>
+    <h3>Autres sites où aller s'inspirer (animations, portfolios, tendances)</h3>
     <ul>
         <li><a href="https://www.awwwards.com/awwwards/collections/animation/" target="_blank" rel="noopener noreferrer">Awwwards : collections d'animations web</a></li>
         <li><a href="https://gsap.com/showcase" target="_blank" rel="noopener noreferrer">https://gsap.com/showcase</a></li>
