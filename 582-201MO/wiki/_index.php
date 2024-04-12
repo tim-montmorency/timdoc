@@ -2163,9 +2163,7 @@
 
     </ul>
 
-    <dots></dots>
-    <grostitre>Présentation du T04 - Le portfolio</grostitre>
-    <p>Powerpoint (lien à venir)</p>
+  
 
     <dots></dots>
     <grostitre>MISE-À-JOUR: Légères modifications au plan de cours</grostitre>
@@ -2174,6 +2172,24 @@
     <p>La remise à faire d'ici le prochain cours (remise à faire avant le début de votre cours): seulement une planche d'inspiration pour votre portfolio. Comme d'habitude vous pouvez inclure des palettes de couleurs, des typos, des images d'inspiration d'élément de UI, des images d'inspirations de d'autres site web de type portfolio. Vous devrez aussi, cette fois, inclure des inspirations d'animations web. Pour ce faire, vous devez enregistrer votre écran pour en faire une vidéo pour démontrer les animations qui vous inspirent. Dans la planche d'inspiration, je vous demande d'ajouter un "faux bouton play" pour indiquer que c'est une vidéo et non seulement une image statique (voir exemple gabarit).</p>
     <p>Pour la planche de styles (choix finaux), vous n'avez PAS à la faire d'ici le prochain cours puisque je veux prendre le temps de vous présenter le cours sur le portfolio et les sites web créatifs avant que vous fassiez vos choix finaux. Vous aurez du temps en classe au cours 12 (prochain cours) pour faire votre planche de styles et me la remettre avant la fin du cours.</p>
     <p>Finalement, j'ai annulé les présentation orales du T04 prévues au cours 15. Le cours sera dédié à vous permettre d'avancer et finaliser votre portfolio. C'est votre plus gros projet de la session, il vaut pour 35% au total, il est important que je vous donne le temps nécessaire pour le travailler et le peaufiner.  La remise finale a été repoussée à 23h59 le jour du dernier cours le 9 mai.</p>
+
+    <dots></dots>
+    <grostitre>T04 - Design de site web de type portfolio</grostitre>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETYvGZi-3wFOvEstFHLO39gBUkrO-fKISAFLS_WkoJ0suQ?e=9kQmcT" target="_blank" rel="noopener noreferrer">Présentation Powerpoint du cours 11</a></p>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Et6KbExBZeVIlgK8r25Wm9sB5JDkbxvnzQ2LbVOtDt_wuA?e=5ehoPM" target="_blank" rel="noopener noreferrer">Exemple de travaux d'anciens étudiants pour ce projet</a></p>
+
+    <p>Instructions complètes oour T04 (lien à venir)</p>
+
+    <h3>Inspirations d'animations dans des sites web</h3>
+    <ul>
+        <li><a href="http://" target="_blank" rel="noopener noreferrer"></a></li>
+        <li><a href="http://" target="_blank" rel="noopener noreferrer"></a></li>
+        <li><a href="http://" target="_blank" rel="noopener noreferrer"></a></li>
+        <li><a href="http://" target="_blank" rel="noopener noreferrer"></a></li>
+        <li><a href="http://" target="_blank" rel="noopener noreferrer"></a></li>
+        <li><a href="http://" target="_blank" rel="noopener noreferrer"></a></li>
+    </ul>
+
 
     <dots></dots>
     <grostitre>Devoirs</grostitre>
