@@ -13,8 +13,8 @@
 
 <wiki-page name="Ressources" date="2024-01-20">
     <grostitre>Plans de cours et guide </grostitre>
-    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EY_Gnxe-BUxIu9atvUNmOHoBfi6mC1r3EydaMr2fWsvcRA?e=vqrC7U"
-            target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024 - Révisé le 19 mars 2024</a></p>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EQyDKq_FjohEmp_iFr4XYl0B3Vtjnppj3TfkwGd7MHpsAw?e=a5DMZl"
+            target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024 - Révisé le 12 avril 2024</a></p>
 
     <p><a href="https://cmontmorency365.sharepoint.com/:w:/r/sites/TIM-TTP/_layouts/15/Doc.aspx?sourcedoc=%7B48119BB7-5AEC-438C-BB23-C7DA3EE1061D%7D&file=guide_etudiants.docx&action=default&mobileredirect=true"
             target="_blank" rel="noopener noreferrer">Guide étudiant TIM</a></p>
@@ -261,8 +261,8 @@
 
 
     <grostitre>Plans de cours et guide </grostitre>
-    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EY_Gnxe-BUxIu9atvUNmOHoBfi6mC1r3EydaMr2fWsvcRA?e=vqrC7U"
-            target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024 - Révisé le 19 mars 2024</a> </p>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EQyDKq_FjohEmp_iFr4XYl0B3Vtjnppj3TfkwGd7MHpsAw?e=a5DMZl"
+            target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024 - Révisé le 12 avril 2024</a> </p>
 
     <p><a href="https://cmontmorency365.sharepoint.com/:w:/r/sites/TIM-TTP/_layouts/15/Doc.aspx?sourcedoc=%7B48119BB7-5AEC-438C-BB23-C7DA3EE1061D%7D&file=guide_etudiants.docx&action=default&mobileredirect=true"
             target="_blank" rel="noopener noreferrer">Guide étudiant TIM</a></p>
@@ -278,8 +278,8 @@
             target="_blank" rel="noopener noreferrer">com-graph_01-intro_h2024.pptx</a></p>
     <ul>
         <li>Qu’est-ce que le design graphique</li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EY_Gnxe-BUxIu9atvUNmOHoBfi6mC1r3EydaMr2fWsvcRA?e=vqrC7U"
-                target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024 - Révisé le 19 mars 2024</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EQyDKq_FjohEmp_iFr4XYl0B3Vtjnppj3TfkwGd7MHpsAw?e=a5DMZl"
+                target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024 - Révisé le 12 avril</a></li>
         <li>Figma vs autres logiciels</li>
     </ul>
 
@@ -1502,8 +1502,8 @@
         style="width: 100%; max-width: 600px; display: block; margin: 5px auto;">
 
     <h3>Ajustement au plan de cours car report de la remise du <em>T03 - Concept</em> d'une semaine</h3>
-    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EY_Gnxe-BUxIu9atvUNmOHoBfi6mC1r3EydaMr2fWsvcRA?e=vqrC7U"
-            target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024 - Révisé le 19 mars 2024</a></p>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EQyDKq_FjohEmp_iFr4XYl0B3Vtjnppj3TfkwGd7MHpsAw?e=a5DMZl"
+            target="_blank" rel="noopener noreferrer">Plan de cours - Hiver 2024 - Révisé le 12 avril</a></p>
 
     <dots></dots>
     <grostitre> Logo qui représente votre cohorte 2023/2026</grostitre>
@@ -2116,7 +2116,7 @@
 <wiki-page name="Cours 11" date="2024-04-10">
 
     <grostitre>Présentation du prototype final du T03</grostitre>
-    <warning>5 minutes par équipe. Tout le monde doit parler.</warning>
+    <warning>10 minutes par équipe. Tout le monde doit parler.</warning>
     <alert>Montrez vos différents frames des planches et des pages web en mode présentation (le bouton play ▶️ en haut à droite de Figma). <br>Affichez en plein écran.<br>Cachez les panneaux UI de Figma (cmd .)</alert>
     <p> 
     </p>
@@ -2167,6 +2167,17 @@
     <grostitre>Présentation du T04 - Le portfolio</grostitre>
     <p>Powerpoint (lien à venir)</p>
 
+    <dots></dots>
+    <grostitre>MISE-À-JOUR: Légères modifications au plan de cours</grostitre>
+    <alert>Comme on n'a pas eu beaucoup de temps pour le T04 hier, j'ai changé un peu des date et infos des prochaines remises pour le T04.</alert>
+    <p>Comme on n'a pas eu beaucoup de temps pour le T04 hier en classe (surtout le groupe 3!), j'ai changé un peu les dates et infos des prochaines remises pour le T04. J'ai ajusté le <a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EQyDKq_FjohEmp_iFr4XYl0B3Vtjnppj3TfkwGd7MHpsAw?e=a5DMZl" target="_blank" rel="noopener noreferrer">plan de cours</a> en conséquence. Ce qui a été changé est souligné en jaune.</p>
+    <p>La remise à faire d'ici le prochain cours (remise à faire avant le début de votre cours): seulement une planche d'inspiration pour votre portfolio. Comme d'habitude vous pouvez inclure des palettes de couleurs, des typos, des images d'inspiration d'élément de UI, des images d'inspirations de d'autres site web de type portfolio. Vous devrez aussi, cette fois, inclure des inspirations d'animations web. Pour ce faire, vous devez enregistrer votre écran pour en faire une vidéo pour démontrer les animations qui vous inspirent. Dans la planche d'inspiration, je vous demande d'ajouter un "faux bouton play" pour indiquer que c'est une vidéo et non seulement une image statique (voir exemple gabarit).</p>
+    <p>Pour la planche de styles (choix finaux), vous n'avez PAS à la faire d'ici le prochain cours puisque je veux prendre le temps de vous présenter le cours sur le portfolio et les sites web créatifs avant que vous fassiez vos choix finaux. Vous aurez du temps en classe au cours 12 (prochain cours) pour faire votre planche de styles et me la remettre avant la fin du cours.</p>
+    <p>Finalement, j'ai annulé les présentation orales du T04 prévues au cours 15. Le cours sera dédié à vous permettre d'avancer et finaliser votre portfolio. C'est votre plus gros projet de la session, il vaut pour 35% au total, il est important que je vous donne le temps nécessaire pour le travailler et le peaufiner.  La remise finale a été repoussée à 23h59 le jour du dernier cours le 9 mai.</p>
+
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+    <p>Remise au prochain cours : <em>T04-Portfolio : Planche d'inspiration</em>.</p>
 
 </wiki-page>
 
