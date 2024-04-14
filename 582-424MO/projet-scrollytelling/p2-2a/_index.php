@@ -24,19 +24,13 @@
  
  <grostitre>Scaffolding du projet</grostitre>
 
-
-
-
  <p>Créez les dossiers et fichiers selon le modèle traditionnel qu'on a toujours utilisé jusqu'à présent&nbsp;:</p>
 
-
- <img src="images/structure_dossiers_fichiers.png" alt="Structure des fichiers et dossiers du projet"
-     style="max-width: 200px;">
+ <img src="images/structure_dossiers_fichiers.png" alt="Structure des fichiers et dossiers du projet" style="max-width: 200px;">
 
 
 
  <p>NOTEZ BIEN&nbsp;: </p>
-
  <ul>
      <li>Toujours mettre index.html à la racine du projet.</li>
      <li>Dans votre projet, toujours utiliser des liens et chemin d’accès <strong>relatifs</strong> et non absolus (un chemin d'accès absolu commence par un /).</li>
@@ -74,7 +68,25 @@ Ajoutez aussi votre fichier <em>script.js</em>.</checklist>
  
 <h3>Balise <incode>&lt;main&gt;</incode> (HTML)</h3>
 <checklist>La balise <incode>main</incode> du fichier HTML doit contenir plusieurs sections qui correspondent à chaque chapitre. 
-Créez toutes ces sections et identifiez chacunes d'elles avec un id pertinent.</checklist>
+Créez toutes ces sections et identifiez chacunes d'elles avec un id pertinent.
+Bien commentez vos sections dans le HTML, par exemple: </checklist>
+<highlight  lang="html">
+<!-- ---------- Début Écran d'introduction -------- -->
+<header>
+    ...
+</header>
+<!-- ---------- Fin Écran d'introduction ---------- -->
+<main>
+
+<!-- ---------- Début Chapitre 1 ------------------ -->
+...
+<!-- ---------- Fin Chapitre 1 -------------------- -->
+
+<!-- ---------- Début Chapitre 2 ------------------ -->
+...
+<!-- ---------- Fin Chapitre 2 -------------------- -->
+</main>
+</highlight>
 
 
 <h3>Balise <incode>&lt;footer&gt;</incode> (HTML)</h3>
@@ -89,7 +101,30 @@ Si applicable, vous devez mentionner ce qui a été généré via l'AI et mentio
 <grostitre>Requis CSS</grostitre>
 <checklist>Préparez des variables CSS pour toutes les couleurs de votre palette.
 Ajoutez un <incode>overflow-x: hidden</incode> à votre balise <incode>body</incode> pour éviter une barre de défilement horizontale.
+Vous devrez classer vos styles dans le ficheir CSS: ajoutez des commentaires pour séparer les sections des styles comme vous l’avez fait au dernier projet. 
 </checklist>
+Exemple: 
+<highlight  lang="css">/*--------------------------------------------------------- 
+# Styles Généraux 
+---------------------------------------------------------*/ 
+header{
+  ...
+}
+h1{
+  ...
+}
+footer{
+  ...
+}
+
+/*---------------------------------------------------------- 
+# Chapitre 1
+----------------------------------------------------------*/ 
+section.chapitre1{
+  ...
+}
+</highlight>
+
 
 <h3>Balise <incode>&lt;header&gt;</incode> (CSS)</h3>
 

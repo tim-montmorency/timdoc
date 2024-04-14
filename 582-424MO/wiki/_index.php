@@ -910,16 +910,6 @@
     <warning>Remise de P2.2 (2.2a et 2.2b) le 29 avril au cours 13.</warning>
 
 
-
- 
- 
-
-    
-
-
-
-
-
 </wiki-page>
 
 
@@ -932,8 +922,82 @@
 | |___| (_) | |_| | |  \__ \  | || |
  \_____\___/ \__,_|_|  |___/  |_||_|
  ----------------------------------->
-<wiki-page name="Cours 11" date="2024-04-06">
-        <grostitre>Révision et évaluation formative (quiz)</grostitre>  
+<wiki-page name="Cours 11" date="2024-04-14">
+    <grostitre>Annonces (prochaines étapes)</grostitre>
+    <ul>
+        <li>Remise Projet2.2 (a et b) dans 2 semaines le 29 avril. Évaluation individuelle. Valeur de cette remise 12%.</li>
+    </ul>
+    <alert>Le plus gros morceau et celui qui importe le plus dans cette remise (P2.2) sont <a href="http://127.0.0.1:5501/582-424MO/projet-scrollytelling/p2-2b/#instruction-4-animation-de-base-de-quelques-images" target="_blank" rel="noopener noreferrer">Instruction 4 – Animation de base de quelques images</a> dans P2.2b. Veuillez prévoir votre temps pour bien réaliser vos animations de base. C'est le coeur de cette remise, ne faites surtout pas ça à la dernière minute, quelques jours avant la remise du 29 avril. Vous risqueriez gros!</alert>
+    <ul>
+        <li>La prochaine remise par la suite sera Projet 2.3 le 6 mai pour une évaluation formative de type rétroaction en classe (rencontre individuelle).</li>
+        <li>La remise finale du projet sera le 13 mai (dernier cours). Évaluation individuelle. Valeur de cette remise finale du projet2 : 17%.</li>
+        <li>Examen final. Évaluation individuelle. 17 mai 25%</li>
+    </ul>
+    <h3>Modifications à P2.2a et P2.2b</h3>
+    <p>Notez que pour P2.2a j'ai ajouté 2 instructions à propos d'ajout de commentaires dans le HTML et le CSS.</p>
+     <ul>
+        <li> Pour les commentaires HTML, voir instruction 3 de la liste <strong>Balise <incode>&lt;main&gt;</incode> (HTML)</strong> <a href="http://127.0.0.1:5501/582-424MO/projet-scrollytelling/p2-2a/#requis-de-base-indexhtml" target="_blank" rel="noopener noreferrer">à cette section de la page</a>. </li>
+        <li> Pour les commentaires CSS voir instruciton 3 <a href="http://127.0.0.1:5501/582-424MO/projet-scrollytelling/p2-2a/#requis-css" target="_blank" rel="noopener noreferrer"> dans cette section de la page</a>.</li>
+    </ul>
+    <p>Notez que pour les instructions P2.2b, j'ai ajouté <a href="http://127.0.0.1:5501/582-424MO/projet-scrollytelling/p2-2b/#instruction-5-requis-didentification-des-animations" target="_blank" rel="noopener noreferrer">les instructions 5</a>.</p>
+   
+
+
+    <dots></dots>
+    <grostitre>Révision et évaluation formative (quiz)</grostitre>
+    <p>Groupe AM : <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap: </a> <br>
+        Groupe PM : <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Code Wooclap:  </a></p>
+   
+
+    <dots></dots>
+    <grostitre>Révisions</grostitre>
+    <p>Vérification des exercices complétés.</p>
+    <h3>Révision autonome via capsule vidéo: <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXxxzkpCB2hHixgEXC8gl5cBGwZY5mceWgCW_4kwfvpAmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lPSyyf" target="_blank" rel="noopener noreferrer">Solution</a></h3>
+    <intlink href='../css/exercices/sprite-sheet-responsive/'></intlink>
+    
+    <h3>Révision en classe</h3>
+    <intlink href='../gsap/exercices/excitebike/'></intlink>
+    <intlink href='../gsap/exercices/scrolltrigger-historique-zelda/'></intlink>
+
+
+
+    <dots></dots>
+    <grostitre>Contenu du jour</grostitre>
+    <h3>GSAP - ScrollTrigger intermédiaire</h3>
+    <intlink href='../gsap/scrolltrigger-intermediaire//'></intlink>
+    <br>
+    Exercices à venir.
+    <!--<exercice href='../gsap/exercices/gsap-scrub/'></exercice>
+    <exercice href='../gsap/exercices/gsap-pin-marvel/'></exercice>
+    <exercice href='../gsap/exercices/gsap-callback-link/'></exercice>
+    <exercice href='../gsap/exercices/gsap-scrolltrigger-gotham/'></exercice>-->
+
+
+
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+    <h3>Terminez les exercices débutés en classe aujourd'hui</h3>
+    Exercices à venir.
+    <!--<intlink href='../gsap/exercices/gsap-scrub/'></intlink>
+    <intlink href='../gsap/exercices/gsap-pin-marvel/'></intlink>
+    <intlink href='../gsap/exercices/gsap-callback-link/'></intlink>
+    <intlink href='../gsap/exercices/gsap-scrolltrigger-gotham/'></intlink>-->
+   
+
+
+    <h3>Projet 2</h3>
+
+    Continuez et terminez:
+    <intlink href='../projet-scrollytelling/p2-2a/'></intlink><br>
+    <intlink href='../projet-scrollytelling/p2-2b/'></intlink>
+    <alert>Le plus gros morceau et celui qui importe le plus dans cette remise (P2.2) sont <a href="http://127.0.0.1:5501/582-424MO/projet-scrollytelling/p2-2b/#instruction-4-animation-de-base-de-quelques-images" target="_blank" rel="noopener noreferrer">Instruction 4 – Animation de base de quelques images</a> dans P2.2b. Veuillez prévoir votre temps pour bien réaliser vos animations de base. C'est le coeur de cette remise, ne faites surtout pas ça à la dernière minute, quelques jours avant la remise du 29 avril. Vous risqueriez gros!</alert>
+
+    <warning>Remise de P2.2 (2.2a et 2.2b) le 29 avril au cours 13.</warning>
+
+    
+
+
+
 </wiki-page>
 
 
@@ -946,7 +1010,7 @@
 | |___| (_) | |_| | |  \__ \  | |/ /_ 
  \_____\___/ \__,_|_|  |___/  |_|____|
  ----------------------------------->
-<wiki-page name="Cours 12" date="2024-04-12">
+<wiki-page name="Cours 12" date="2024-04-21">
         <grostitre>Révision et évaluation formative (quiz)</grostitre>
 </wiki-page>
 
@@ -961,7 +1025,7 @@
  \_____\___/ \__,_|_|  |___/  |_|____/       
                              
  ----------------------------------->
-<wiki-page name="Cours 13" date="2024-04-20">
+<wiki-page name="Cours 13" date="2024-04-28">
         <grostitre>Révision et évaluation formative (quiz)</grostitre>
 </wiki-page>
 
@@ -977,7 +1041,7 @@
                       
  ----------------------------------->
 
-<wiki-page name="Cours 14" date="2024-04-30">
+<wiki-page name="Cours 14" date="2024-05-03">
         <grostitre>Révision et évaluation formative (quiz)</grostitre>
 </wiki-page>
 

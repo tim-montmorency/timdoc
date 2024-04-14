@@ -65,11 +65,10 @@ Une animation qui s’active dès qu’on atteint le chapitre et qu’ensuite el
 </checklist>
 
 
-
- <dots></dots>
-<grostitre>Requis d’identification des animations </grostitre>
-<checklist>Dans le HTML de chaque chapitre, ajoutez le code HTML qui suit ce bloc d’instructions.  
-Aussi, copiez le code CSS qui suit ce bloc d’instructions et collez le dans votre fichier de styles, dans la section des styles généraux (essayez de classer vos styles un peu, ajoutez des commentaires pour séparer les sections des styles comme vous l’avez fait au dernier projet). 
+<dots></dots>
+<grostitre>Requis d’identification des animations</grostitre>
+<alert>Supposé être fait à P2.2 mais à compléter pour les animations de P2.3.</alert>
+<checklist>Dans le HTML de chaque chapitre, ajoutez le code HTML qui suit ce bloc d’instructions. 
 À chaque chapitre, dans la liste à puce <incode>ul.technique-gsap</incode> , vous devrez identifier les techniques d’animations que vous avez utilisées à l’intérieur de celui-ci. </checklist>
 
 
@@ -87,31 +86,7 @@ Aussi, copiez le code CSS qui suit ce bloc d’instructions et collez le dans vo
     &lt;/li&gt; 
 &lt;/ul&gt; </highlight>
 
- 
-<h3>CSS à copier-coller</h3>
-
-<highlight lang="css">ul.technique-gsap{
-    background: rgba(0,0,0,0.3);
-    color: white;
-    font-size: 10px;
-    font-family: monospace;
-    font-weight: 400;
-    width: auto;
-    display: inline-block;
-    padding: 10px 20px 12px 20px;
-    margin: 0;
-    max-width: 300px;
-    position: absolute;
-    z-index: 1000;
-    top: 0;
-    left: 0;
-}
-
-ul.technique-gsap li{
-    margin: 5px 0;
-}</highlight>
-
-
+<dots></dots>
 
 <grostitre>Remise (après avoir comptété P2.3a, P2.3b et P2.3c)</grostitre>
 <p>Remettez ce devoir sur une nouvelle branche nommée P2-3</p>
