@@ -934,11 +934,10 @@
         <li>Examen final. Évaluation individuelle. 17 mai 25%</li>
     </ul>
     <h3>Modifications à P2.2a et P2.2b</h3>
-    <p>Notez que pour P2.2a j'ai ajouté 2 instructions à propos d'ajout de commentaires dans le HTML et le CSS.</p>
-     <ul>
-        <li> Pour les commentaires HTML, voir instruction 3 de la liste <strong>Balise <incode>&lt;main&gt;</incode> (HTML)</strong> <a href="http://127.0.0.1:5501/582-424MO/projet-scrollytelling/p2-2a/#requis-de-base-indexhtml" target="_blank" rel="noopener noreferrer">à cette section de la page</a>. </li>
-        <li> Pour les commentaires CSS voir instruciton 3 <a href="http://127.0.0.1:5501/582-424MO/projet-scrollytelling/p2-2a/#requis-css" target="_blank" rel="noopener noreferrer"> dans cette section de la page</a>.</li>
-    </ul>
+    <p>Notez que pour P2.2a j'ai ajouté 2 instructions à propos d'ajout de commentaires dans le HTML et le CSS.
+    <br>- Pour les commentaires HTML, voir instruction 3 de la liste <strong>Balise <incode>&lt;main&gt;</incode> (HTML)</strong> <a href="http://127.0.0.1:5501/582-424MO/projet-scrollytelling/p2-2a/#requis-de-base-indexhtml" target="_blank" rel="noopener noreferrer">à cette section de la page</a>. 
+    <br>- Pour les commentaires CSS voir instruciton 3 <a href="http://127.0.0.1:5501/582-424MO/projet-scrollytelling/p2-2a/#requis-css" target="_blank" rel="noopener noreferrer"> dans cette section de la page</a>.</p>
+
     <p>Notez que pour les instructions P2.2b, j'ai ajouté <a href="http://127.0.0.1:5501/582-424MO/projet-scrollytelling/p2-2b/#instruction-5-requis-didentification-des-animations" target="_blank" rel="noopener noreferrer">les instructions 5</a>.</p>
    
 
