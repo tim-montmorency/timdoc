@@ -965,22 +965,21 @@
     <h3>GSAP - ScrollTrigger intermédiaire</h3>
     <intlink href='../gsap/scrolltrigger-intermediaire//'></intlink>
     <br>
-    Exercices à venir.
-    <!--<exercice href='../gsap/exercices/gsap-scrub/'></exercice>
+   
+    <exercice href='../gsap/exercices/gsap-scrub/'></exercice>
     <exercice href='../gsap/exercices/gsap-pin-marvel/'></exercice>
     <exercice href='../gsap/exercices/gsap-callback-link/'></exercice>
-    <exercice href='../gsap/exercices/gsap-scrolltrigger-gotham/'></exercice>-->
-
+    <exercice href='../gsap/exercices/gsap-scrolltrigger-gotham/'></exercice>
 
 
     <dots></dots>
     <grostitre>Devoirs</grostitre>
     <h3>Terminez les exercices débutés en classe aujourd'hui</h3>
-    Exercices à venir.
-    <!--<intlink href='../gsap/exercices/gsap-scrub/'></intlink>
+    
+    <intlink href='../gsap/exercices/gsap-scrub/'></intlink>
     <intlink href='../gsap/exercices/gsap-pin-marvel/'></intlink>
     <intlink href='../gsap/exercices/gsap-callback-link/'></intlink>
-    <intlink href='../gsap/exercices/gsap-scrolltrigger-gotham/'></intlink>-->
+    <intlink href='../gsap/exercices/gsap-scrolltrigger-gotham/'></intlink>
    
 
 
