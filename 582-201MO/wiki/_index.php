@@ -2199,7 +2199,7 @@
 
     <p><strong>Exemples de portfolios</strong>: <a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Et6KbExBZeVIlgK8r25Wm9sB5JDkbxvnzQ2LbVOtDt_wuA?e=5ehoPM" target="_blank" rel="noopener noreferrer">Exemple de travaux d'anciens étudiants pour ce projet</a></p>
 
-    <p><strong>Instructions T04</strong>: Lien vers instructions complètes (lien à venir)</p>
+    <p><strong>Instructions T04</strong>:<a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EU2UzVRmEotDsM49Bl5iRIMBLeu8I7nUUjFm-tRmWkHmfQ?e=uWfkJ0" target="_blank" rel="noopener noreferrer"> Lien vers instructions complètes</a></p>
 
     <p><strong>Gabarit de départ</strong>: <a href="https://www.figma.com/file/eHly9RGDGTbp5AgUooGMhu/T04-portfolio_GABARIT?type=design&node-id=0%3A1&mode=design&t=CNR9MeFL06WCcDlx-1" target="_blank" rel="noopener noreferrer">Gabarit Figma</a> (copiez les <em>frames</em> et collez les dans votre fichier de projet T04. SVP, créez 3 pages dans Figma comme dans le gabarit).</p>
 
@@ -2270,6 +2270,9 @@ T04 - Design de site web de type portfolio</a></p>
 
     </ul>
 
+    <h3>Kits d'animation provenant de Figma Community</h3>
+    <p><a href="https://www.figma.com/files/project/224751884/Kits-d'animations-et-autres-exemples?fuid=1139656376820697736" target="_blank" rel="noopener noreferrer">Accéder aux kits d'animation</a></p>
+
     <h3>Smart animate dans Figma</h3>
     <p>Avec Smart Animate vous pouvez recréer ces différentes transitions animées:</p>
     <ul>
@@ -2291,9 +2294,49 @@ T04 - Design de site web de type portfolio</a></p>
     </ul>
     <p><a href="https://help.figma.com/hc/en-us/articles/360039818874-Create-advanced-animations-with-smart-animate" target="_blank" rel="noopener noreferrer">Créez des animation avancées avec "Smart Animate"</a> (article en anglais)</p>
 
+    <dots></dots>
+    <grostitre>T04 - Design de site web de type portfolio</grostitre>
+
+  
+    <p><strong>Powerpoint présentant le projet T04-Portfolio</strong>: <a href="https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETYvGZi-3wFOvEstFHLO39gBUkrO-fKISAFLS_WkoJ0suQ?e=9kQmcT" target="_blank" rel="noopener noreferrer">Présentation Powerpoint</a></p>
+
+
+    <p><strong>Exemples de portfolios</strong>: <a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Et6KbExBZeVIlgK8r25Wm9sB5JDkbxvnzQ2LbVOtDt_wuA?e=5ehoPM" target="_blank" rel="noopener noreferrer">Exemple de travaux d'anciens étudiants pour ce projet</a></p>
+
+    <p><strong>Instructions T04</strong>:<a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EU2UzVRmEotDsM49Bl5iRIMBLeu8I7nUUjFm-tRmWkHmfQ?e=uWfkJ0" target="_blank" rel="noopener noreferrer"> Lien vers instructions complètes</a></p>
+
+    <p><strong>Gabarit de départ</strong>: <a href="https://www.figma.com/file/eHly9RGDGTbp5AgUooGMhu/T04-portfolio_GABARIT?type=design&node-id=0%3A1&mode=design&t=CNR9MeFL06WCcDlx-1" target="_blank" rel="noopener noreferrer">Gabarit Figma</a> (copiez les <em>frames</em> et collez les dans votre fichier de projet T04. SVP, créez 3 pages dans Figma comme dans le gabarit).</p>
+
+    <h3>Veuillez aller consulter ces 9 sites pour vous inspirer.</h3>
+    <ul>
+        <li><a href="https://www.signesduquotidien.org/projets/" target="_blank" rel="noopener noreferrer">Signes du quotidien</a>: Menu créatif. Veuillez ouvrir le menu de navigation et aller dans la secton <em>Projets</em>. Très orignal comme menu de navigation et comme expérience utilisateur sans toutefois être perdus puisque le menu est indiqué via un libellé et une petite flèche.</li>
+        <li><a href="http://www.7h34.fr/" target="_blank" rel="noopener noreferrer">7h34.fr</a>: Explorez le cadran de l'hologe devant vous. Différents projet présentés via une horloge qui s'anime: une heure spécifique par projet.</li>
+        <li><a href="https://www.niccolomiranda.com/" target="_blank" rel="noopener noreferrer">Portfolio de Niccolo Miranda</a>: Différents projets présentés et animés dans un journal vintage.</li>
+        <li><a href="https://designthat.works" target="_blank" rel="noopener noreferrer">Design that works</a>: Simple animation de transition lorsqu'on choisit un ou l'autre des 2 projets.</li>
+        <li><a href="https://mathieulevesque.com/fr" target="_blank" rel="noopener noreferrer">Portfolio de Mathieu Lévesque: Photographe et réalisateur</a>: Contenu animé lorsqu'on <em>scroll</em> dans la page pour explorer les différents projets présentés.</li>
+        <li><a href="https://kuon-yagi-portfolio.netlify.app" target="_blank" rel="noopener noreferrer">Portfolio de Kuon Yagi</a>: à explorer.</li>
+        <li><a href="https://patrickdavid.com/" target="_blank" rel="noopener noreferrer">Portfolio d Patrick David</a></li>
+        <li><a href="https://juliebonnemoy.com/" target="_blank" rel="noopener noreferrer">Portfolio de Julie Bonnemoy</a>: à explorer.</li>
+        <li><a href="http://le-mugs.com/" target="_blank" rel="noopener noreferrer">Mugs</a>: Site web d'un restaurant, intéressant pour les animations tout le long de la page lorsqu'on <em>scroll</em>.</li>
+    </ul>
+
+    <h3>Autres sites où aller s'inspirer (animations, portfolios, tendances)</h3>
+    <ul>
+        <li><a href="https://www.awwwards.com/awwwards/collections/animation/" target="_blank" rel="noopener noreferrer">Awwwards : collections d'animations web</a></li>
+        <li><a href="https://gsap.com/showcase" target="_blank" rel="noopener noreferrer">https://gsap.com/showcase</a></li>
+        <li><a href="https://www.cssdesignawards.com" target="_blank" rel="noopener noreferrer">https://www.cssdesignawards.com</a></li>
+        <li><a href="https://99designs.fr/blog/tendances/tendances-design-ux" target="_blank" rel="noopener noreferrer">https://99designs.fr/blog/tendances/tendances-design-ux</a></li>
+
+
+    </ul>
+
+
 
     <dots></dots>
     <grostitre>Devoirs</grostitre>
+    <p>Écouter les 10 capsules vidéo sur les animations dans Figma (liens vers les capsules dans wiki cours 12)</p>
+    <p>Compléter l'exercice débuté en classe</p>
+    <p>Travailler sur T04 - Portfolio</p>
 
 </wiki-page>
 
