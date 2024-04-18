@@ -2270,8 +2270,21 @@ T04 - Design de site web de type portfolio</a></p>
 
     </ul>
 
-    <h3>Kits d'animation provenant de Figma Community</h3>
-    <p><a href="https://www.figma.com/files/project/224751884/Kits-d'animations-et-autres-exemples?fuid=1139656376820697736" target="_blank" rel="noopener noreferrer">Accéder aux kits d'animation</a></p>
+    <h3>Types d’animation dans Figma </h3>
+    <p><a href="https://help.figma.com/hc/en-us/articles/360040522373-Prototype-animations " target="_blank" rel="noopener noreferrer">Type d'animations dans Figma</a> (article en anglais)</p>
+    <h4>Instantané - <strong>Instant</strong> </h4>
+    <p>La transition <strong>Instant</strong> affiche immédiatement le cadre de destination lorsque l'on interagit avec le hotspot (en cliquant, en survolant ou en appuyant). </p>
+    <h4>Dissolution  -  <strong>Dissolve</strong></h4>
+    <p>La transition <strong>Dissolve</strong> permet d'insérer en fondu l'image de destination par-dessus l'image d'origine. </p>
+    <h4>Animation intelligente  - <strong>Smart Animate</strong> </h4>
+    <p><strong>Smart animate</strong> recherche les calques correspondants qui existent sur plusieurs images. Pour les calques qui correspondent, nous reconnaissons ce qui a changé et nous appliquons des transitions pour passer de l'un à l'autre de manière transparente.</p>
+    <h4>Déplacer vers l'intérieur / vers l'extérieur  - <strong>Move In / Move Out</strong></h4>
+    <p>La transition <strong>Move</strong> fait glisser le cadre de destination dans ou hors de la vue, au-dessus du cadre d'origine. </p>
+    <h4>Pousser  - <strong>Push </strong> </h4>
+    <p>La transition <strong> Push</strong>  repousse le cadre d'origine au fur et à mesure que le cadre de destination est affiché. C'est la transition idéale pour reproduire un geste de balayage. </p>
+    <h4>Glissement d'entrée / de sortie  - <strong>Slide In / Slide Out</strong> </h4>
+    <p>La fonction <strong>Slide in / out</strong> permet de déplacer l'image de destination vers l'intérieur ou l'extérieur de l'image. Slide décale lentement l'image au fur et à mesure qu'elle se dissout, tandis que la transition Move maintient l'image d'origine immobile. </p>
+
 
     <h3>Smart animate dans Figma</h3>
     <p>Avec Smart Animate vous pouvez recréer ces différentes transitions animées:</p>
@@ -2293,6 +2306,11 @@ T04 - Design de site web de type portfolio</a></p>
         <li>Remplissage (Fill)</li>
     </ul>
     <p><a href="https://help.figma.com/hc/en-us/articles/360039818874-Create-advanced-animations-with-smart-animate" target="_blank" rel="noopener noreferrer">Créez des animation avancées avec "Smart Animate"</a> (article en anglais)</p>
+
+
+    <h3>Kits d'animation provenant de Figma Community</h3>
+    <p><a href="https://www.figma.com/files/project/224751884/Kits-d'animations-et-autres-exemples?fuid=1139656376820697736" target="_blank" rel="noopener noreferrer">Accéder aux kits d'animation</a></p>
+
 
     <dots></dots>
     <grostitre>T04 - Design de site web de type portfolio</grostitre>
