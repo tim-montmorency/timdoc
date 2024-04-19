@@ -1039,9 +1039,15 @@
     <p>Groupe AM : <a href="https://app.wooclap.com/USAGMC" target="_blank" rel="noopener noreferrer">Code Wooclap: USAGMC</a><br>Groupe PM : <a href="https://app.wooclap.com/EJECKK" target="_blank" rel="noopener noreferrer">Code Wooclap: EJECKK</a></p>
 
     <dots></dots>
-    <grostitre>GSAP (suite)</grostitre>
+    <grostitre>Animation GSAP (suite)</grostitre>
     <intlink href='../gsap/parallaxe/'></intlink>
     <intlink href='../gsap/parcours-mouvement/'></intlink>
+    <intlink href='../gsap/morphage-svg/'></intlink>
+    <intlink href='../gsap/dessiner-svg/'></intlink>
+
+    Text plugins
+    https://codepen.io/collection/DmQpRq
+    
     
 
 
