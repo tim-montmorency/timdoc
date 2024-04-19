@@ -930,13 +930,16 @@
 <wiki-page name="Cours 11" date="2024-04-14">
     <grostitre>Annonces (prochaines étapes)</grostitre>
     <ul>
-        <li>Remise Projet2.2 (a et b) dans 2 semaines le 29 avril. Évaluation individuelle. Valeur de cette remise 12%.</li>
+        <li>Remise Projet2.2 (a et b) dans 2 semaines le <em>29 avril</em>. Évaluation individuelle. Valeur de cette remise 12%.</li>
     </ul>
     <alert>Le plus gros morceau et celui qui importe le plus dans cette remise (P2.2) est <a href="http://127.0.0.1:5501/582-424MO/projet-scrollytelling/p2-2b/#instruction-4-animation-de-base-de-quelques-images" target="_blank" rel="noopener noreferrer">Instruction 4 – Animation de base de quelques images</a> dans P2.2b. Veuillez prévoir votre temps pour bien réaliser vos animations de base. C'est le coeur de cette remise, ne faites surtout pas ça à la dernière minute, quelques jours avant la remise du 29 avril. Vous risqueriez gros!</alert>
     <ul>
-        <li>La prochaine remise par la suite sera Projet 2.3 le 6 mai pour une évaluation formative de type rétroaction en classe (rencontre individuelle).</li>
-        <li>La remise finale du projet sera le 13 mai (dernier cours). Évaluation individuelle. Valeur de cette remise finale du projet2 : 17%.</li>
-        <li>Examen final. Évaluation individuelle. 17 mai 25%</li>
+        <li>La prochaine remise par la suite sera Projet 2.3a et 2.3b (pas le 2.3c) le <em>6 mai</em> pour une évaluation formative de type rétroaction en classe (rencontre individuelle).</li>
+    </ul>
+    <alert>Vous n'aurez qu'une seule semaine après la remise de 2.2 pour faire 2.3a et 2.3b: c'est trop peu. Commencez 2.3 dès maintenant!</alert>
+    <ul>
+        <li>La remise finale du projet (incluant 2.3c et les ajustements suite à mes rétroaction du 6 mai) sera le <em>13 mai</em> (dernier cours). Vous devrez faire une présentation orale en classe de votre projet. Évaluation individuelle. Valeur de cette remise finale du projet2 : 17%.</li>
+        <li>Examen final. Évaluation individuelle. <em>17 mai</em> 25%</li>
     </ul>
     <h3>Modifications à P2.2a et P2.2b</h3>
     <p>Notez que pour P2.2a j'ai ajouté 2 instructions à propos d'ajout de commentaires dans le HTML et le CSS.
@@ -1013,8 +1016,45 @@
 | |___| (_) | |_| | |  \__ \  | |/ /_ 
  \_____\___/ \__,_|_|  |___/  |_|____|
  ----------------------------------->
-<wiki-page name="Cours 12" date="2024-04-21">
-        <grostitre>Révision et évaluation formative (quiz)</grostitre>
+<wiki-page name="Cours 12" date="2024-04-19">
+<grostitre>Annonces (prochaines étapes)</grostitre>
+    <ul>
+        <li>Remise Projet2.2 (a et b) dans 2 semaines le <em>29 avril</em>. Évaluation individuelle. Valeur de cette remise 12%.</li>
+    </ul>
+    <alert>Le plus gros morceau et celui qui importe le plus dans cette remise (P2.2) est <a href="http://127.0.0.1:5501/582-424MO/projet-scrollytelling/p2-2b/#instruction-4-animation-de-base-de-quelques-images" target="_blank" rel="noopener noreferrer">Instruction 4 – Animation de base de quelques images</a> dans P2.2b. Veuillez prévoir votre temps pour bien réaliser vos animations de base. C'est le coeur de cette remise, ne faites surtout pas ça à la dernière minute, quelques jours avant la remise du 29 avril. Vous risqueriez gros!</alert>
+    <ul>
+        <li>La prochaine remise par la suite sera Projet 2.3a et 2.3b (pas le 2.3c) le <em>6 mai</em> pour une évaluation formative de type rétroaction en classe (rencontre individuelle).</li>
+    </ul>
+    <alert>Vous n'aurez qu'une seule semaine après la remise de 2.2 pour faire 2.3a et 2.3b: c'est trop peu. Commencez 2.3 dès maintenant, n'attendez pas la semaine prochaine pour commencer 2.3.</alert>
+    <ul>
+        <li>La remise finale du projet (incluant 2.3c et les ajustements suite à mes rétroaction du 6 mai) sera le <em>13 mai</em> (dernier cours). Vous devrez faire une présentation orale en classe de votre projet. Évaluation individuelle. Valeur de cette remise finale du projet2 : 17%.</li>
+        <li>Examen final. Évaluation individuelle. <em>17 mai</em> 25%</li>
+    </ul>
+
+
+
+
+    <dots></dots>
+    <grostitre>Révision et évaluation formative (quiz)</grostitre>
+    <p>Groupe AM : <a href="https://app.wooclap.com/USAGMC" target="_blank" rel="noopener noreferrer">Code Wooclap: USAGMC</a><br>Groupe PM : <a href="https://app.wooclap.com/EJECKK" target="_blank" rel="noopener noreferrer">Code Wooclap: EJECKK</a></p>
+
+    <dots></dots>
+    <grostitre>GSAP (suite)</grostitre>
+    <intlink href='../gsap/parallaxe/'></intlink>
+    <intlink href='../gsap/parcours-mouvement/'></intlink>
+    
+
+
+
+
+    <dots></dots>
+    <grostitre>Révision en classe</grostitre>
+    <intlink href='../gsap/exercices/gsap-scrub/'></intlink>
+    <intlink href='../gsap/exercices/gsap-pin-marvel/'></intlink>
+    <intlink href='../gsap/exercices/gsap-callback-link/'></intlink>
+    <intlink href='../gsap/exercices/gsap-scrolltrigger-gotham/'></intlink>
+   
+
 </wiki-page>
 
 

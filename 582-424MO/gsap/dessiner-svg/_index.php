@@ -1,7 +1,7 @@
 <?php 
 /**
  * @type     article
- * @title    11-Dessiner SVG
+ * @title    12-Dessiner SVG
  * @icon     ../images/icon.webp
  * @abstract DrawSVG: Dessiner un tracé SVG par animation GSAP
  * @index    500

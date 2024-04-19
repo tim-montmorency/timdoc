@@ -1,7 +1,7 @@
 <?php 
 /**
  * @type     article
- * @title    12-Morphage SVG 
+ * @title    13-Morphage SVG 
  * @icon     ../images/icon.webp
  * @abstract MorphSVG: Transition entre 2 formes distinctes
  * @index    300
@@ -15,8 +15,6 @@
 <dots></dots>
 
 <grostitre>Installation de morphSVG</grostitre>
-
-
 
 <p>Comme pour tout plugiciel&nbsp;<em>(plugin)</em>&nbsp;GreenSock, afin d'avoir accès à ses fonctionnalités, il est
     nécessaire d'avoir incorporé la librairie GSAP préalablement et d'ajouter ensuite le plugiciel dans le&nbsp;projet.

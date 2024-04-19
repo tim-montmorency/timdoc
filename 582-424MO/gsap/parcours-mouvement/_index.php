@@ -1,7 +1,7 @@
 <?php 
 /**
  * @type     article
- * @title    10-Animation sur un tracé
+ * @title    11-Animation sur un tracé
  * @icon     ../images/icon.webp
  * @abstract MotionPath: animer un élément  sur un tracé
  * @index    523
