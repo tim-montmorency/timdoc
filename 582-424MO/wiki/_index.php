@@ -1050,7 +1050,6 @@
     <grostitre>Animation GSAP (suite)</grostitre>
     <intlink href='../gsap/text-plugin/'></intlink>
     <intlink href='../gsap/parallaxe/'></intlink>
-    <intlink href='../gsap/dessiner-svg/'></intlink>
     <intlink href='../gsap/parcours-mouvement/'></intlink>
 
     <exercice href='../gsap/exercices/motionpath-voiture-et-vallons/'></exercice>
