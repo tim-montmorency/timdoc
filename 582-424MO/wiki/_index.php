@@ -1016,7 +1016,7 @@
 | |___| (_) | |_| | |  \__ \  | |/ /_ 
  \_____\___/ \__,_|_|  |___/  |_|____|
  ----------------------------------->
-<wiki-page name="Cours 12" date="2024-04-19">
+<wiki-page name="Cours 12" date="2024-04-20">
 <grostitre>Annonces (prochaines étapes)</grostitre>
     <ul>
         <li>Remise Projet2.2 (a et b) dans 2 semaines le <em>29 avril</em>. Évaluation individuelle. Valeur de cette remise 12%.</li>
@@ -1059,9 +1059,15 @@
     <grostitre>Projet 2.3</grostitre>
     <intlink href='../projet-scrollytelling/p2-3a/'></intlink>
     <intlink href='../projet-scrollytelling/p2-3b/'></intlink>
-    <p>Pour les plugiciels payants (drawSVG, morphSVG, GSDevTool), ils ne seront sera utilisables qu’en local sur votre ordi ou sur codePen.</p>
-    <p>Vous pouvez soit utiliser le <a href="https://codepen.io/GreenSock/full/JjPwRob" target="_blank">lien de codePen fourni ici</a> et ensuite COPY URL à côté pour l’ajouter dans une balise <span class='inline-code'>script</span> dans votre page HTML). </p>
-    <p>Ou les télécharger ici: <a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Er8e07HJQH9ApZOlbWNB2JYBy7M9UomVX6yA7u6GpeWvxg?e=tmya72" target="_blank" rel="noopener noreferrer">_fichiers-partage-eleves</a> et les ajouter dans un dossier vendors de votre projet. </p>
+
+    <h3>Note sur les plugins payants (drawSVG, morphSVG, GSDevTool)</h3>
+    <p>Pour les plugiciels payants (drawSVG, morphSVG, GSDevTool), ils ne seront utilisables qu’en local sur votre ordi OU sur codePen.</p>
+    <p>Vous pouvez :</p>
+        <ul>
+            <li>utiliser le <a href="https://codepen.io/GreenSock/full/JjPwRob" target="_blank">lien de codePen fourni ici</a> et ensuite COPY URL à côté pour l’ajouter dans une balise <span class='inline-code'>script</span> dans votre page HTML, </li>
+            <li>ou les télécharger ici: <a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Er8e07HJQH9ApZOlbWNB2JYBy7M9UomVX6yA7u6GpeWvxg?e=tmya72" target="_blank" rel="noopener noreferrer">_fichiers-partage-eleves</a> et les ajouter dans un dossier vendors de votre projet. </li>
+        </ul>
+
     <alert>IMPORTANT:ne pas oublier d'ajouter les dossiers qui contiennent ces plugins payants dans le gitignore afin de ne pas pousser les fichiers illégalement sur git. <br>
     <img src="images/gitignore_vendors_drawSVG_morphSVG.jpg" alt="" style="max-width:500px; margin: 0; "></alert>
 
