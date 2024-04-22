@@ -35,6 +35,7 @@
     background-attachment: scroll;
     background-position: 50% 0%;
 }</highlight>
+<p>Remarquez que le la propriété <span class='inline-code'>background-attachment</span>  est à <span class='inline-code'>scroll</span></p>
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/background-attachment">Background-attachment</doclink>
 
 
@@ -79,7 +80,7 @@
 
 <codepen id="MWPbqQx" tab="result" height="600"></codepen>
 
-<p>Bien sur vous pouvez aussi faire le contraire, c'est à dire styliser la position vertical à 100% par défaut (css) et changer la position avec GSAP à 0%. Le mouvement de l'image sera inversé.</p>
+<p>Bien entendu, vous pouvez aussi faire le contraire, c'est à dire styliser la position vertical à 100% par défaut (css) et changer la position avec GSAP à 0%. Le mouvement de l'image sera inversé.</p>
 
 <dots></dots>
 

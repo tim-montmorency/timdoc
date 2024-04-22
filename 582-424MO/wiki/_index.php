@@ -932,7 +932,7 @@
     <ul>
         <li>Remise Projet2.2 (a et b) dans 2 semaines le <em>29 avril</em>. Évaluation individuelle. Valeur de cette remise 12%.</li>
     </ul>
-    <alert>Le plus gros morceau et celui qui importe le plus dans cette remise (P2.2) est <a href="http://127.0.0.1:5501/582-424MO/projet-scrollytelling/p2-2b/#instruction-4-animation-de-base-de-quelques-images" target="_blank" rel="noopener noreferrer">Instruction 4 – Animation de base de quelques images</a> dans P2.2b. Veuillez prévoir votre temps pour bien réaliser vos animations de base. C'est le coeur de cette remise, ne faites surtout pas ça à la dernière minute, quelques jours avant la remise du 29 avril. Vous risqueriez gros!</alert>
+    <alert>Le plus gros morceau et celui qui importe le plus dans cette remise (P2.2) est <a href="https://tim-montmorency.com/timdoc/582-424MO/projet-scrollytelling/p2-2b/#instruction-4-animation-de-base-de-quelques-images" target="_blank" rel="noopener noreferrer">Instruction 4 – Animation de base de quelques images</a> dans P2.2b. Veuillez prévoir votre temps pour bien réaliser vos animations de base. C'est le coeur de cette remise, ne faites surtout pas ça à la dernière minute, quelques jours avant la remise du 29 avril. Vous risqueriez gros!</alert>
     <ul>
         <li>La prochaine remise par la suite sera Projet 2.3a et 2.3b (pas le 2.3c) le <em>6 mai</em> pour une évaluation formative de type rétroaction en classe (rencontre individuelle).</li>
     </ul>
@@ -943,10 +943,10 @@
     </ul>
     <h3>Modifications à P2.2a et P2.2b</h3>
     <p>Notez que pour P2.2a j'ai ajouté 2 instructions à propos d'ajout de commentaires dans le HTML et le CSS.
-    <br>- Pour les commentaires HTML, voir instruction 3 de la liste <strong>Balise <incode>&lt;main&gt;</incode> (HTML)</strong> <a href="http://127.0.0.1:5501/582-424MO/projet-scrollytelling/p2-2a/#requis-de-base-indexhtml" target="_blank" rel="noopener noreferrer">à cette section de la page</a>. 
-    <br>- Pour les commentaires CSS voir instruciton 3 <a href="http://127.0.0.1:5501/582-424MO/projet-scrollytelling/p2-2a/#requis-css" target="_blank" rel="noopener noreferrer"> dans cette section de la page</a>.</p>
+    <br>- Pour les commentaires HTML, voir instruction 3 de la liste <strong>Balise <incode>&lt;main&gt;</incode> (HTML)</strong> <a href="https://tim-montmorency.com/timdoc/582-424MO/projet-scrollytelling/p2-2a/#requis-de-base-indexhtml" target="_blank" rel="noopener noreferrer">à cette section de la page</a>. 
+    <br>- Pour les commentaires CSS voir instruciton 3 <a href="https://tim-montmorency.com/timdoc/582-424MO/projet-scrollytelling/p2-2a/#requis-css" target="_blank" rel="noopener noreferrer"> dans cette section de la page</a>.</p>
 
-    <p>Notez que pour les instructions P2.2b, j'ai ajouté <a href="http://127.0.0.1:5501/582-424MO/projet-scrollytelling/p2-2b/#instruction-5-requis-didentification-des-animations" target="_blank" rel="noopener noreferrer">les instructions 5</a>.</p>
+    <p>Notez que pour les instructions P2.2b, j'ai ajouté <a href="https://tim-montmorency.com/timdoc/582-424MO/projet-scrollytelling/p2-2b/#instruction-5-requis-didentification-des-animations" target="_blank" rel="noopener noreferrer">les instructions 5</a>.</p>
    
 
 
@@ -971,7 +971,7 @@
     <dots></dots>
     <grostitre>Contenu du jour</grostitre>
     <h3>GSAP - ScrollTrigger intermédiaire</h3>
-    <intlink href='../gsap/scrolltrigger-intermediaire//'></intlink>
+    <intlink href='../gsap/scrolltrigger-intermediaire/'></intlink>
     <br>
    
     <exercice href='../gsap/exercices/gsap-scrub/'></exercice>
@@ -996,7 +996,7 @@
     Continuez et terminez:
     <intlink href='../projet-scrollytelling/p2-2a/'></intlink><br>
     <intlink href='../projet-scrollytelling/p2-2b/'></intlink>
-    <alert>Le plus gros morceau et celui qui importe le plus dans cette remise (P2.2) est <a href="http://127.0.0.1:5501/582-424MO/projet-scrollytelling/p2-2b/#instruction-4-animation-de-base-de-quelques-images" target="_blank" rel="noopener noreferrer">Instruction 4 – Animation de base de quelques images</a> dans P2.2b. Veuillez prévoir votre temps pour bien réaliser vos animations de base. C'est le coeur de cette remise, ne faites surtout pas ça à la dernière minute, quelques jours avant la remise du 29 avril. Vous risqueriez gros!</alert>
+    <alert>Le plus gros morceau et celui qui importe le plus dans cette remise (P2.2) est <a href="https://tim-montmorency.com/timdoc/582-424MO/projet-scrollytelling/p2-2b#instruction-4-animation-de-base-de-quelques-images" target="_blank" rel="noopener noreferrer">Instruction 4 – Animation de base de quelques images</a> dans P2.2b. Veuillez prévoir votre temps pour bien réaliser vos animations de base. C'est le coeur de cette remise, ne faites surtout pas ça à la dernière minute, quelques jours avant la remise du 29 avril. Vous risqueriez gros!</alert>
 
     <warning>Remise de P2.2 (2.2a et 2.2b) le 29 avril au cours 13.</warning>
 
@@ -1021,7 +1021,7 @@
     <ul>
         <li>Remise Projet2.2 (a et b) dans 2 semaines le <em>29 avril</em>. Évaluation individuelle. Valeur de cette remise 12%.</li>
     </ul>
-    <alert>Le plus gros morceau et celui qui importe le plus dans cette remise (P2.2) est <a href="http://127.0.0.1:5501/582-424MO/projet-scrollytelling/p2-2b/#instruction-4-animation-de-base-de-quelques-images" target="_blank" rel="noopener noreferrer">Instruction 4 – Animation de base de quelques images</a> dans P2.2b. Veuillez prévoir votre temps pour bien réaliser vos animations de base. C'est le coeur de cette remise, ne faites surtout pas ça à la dernière minute, quelques jours avant la remise du 29 avril. Vous risqueriez gros!</alert>
+    <alert>Le plus gros morceau et celui qui importe le plus dans cette remise (P2.2) est <a href="https://tim-montmorency.com/timdoc/582-424MO/projet-scrollytelling/p2-2b#instruction-4-animation-de-base-de-quelques-images" target="_blank" rel="noopener noreferrer">Instruction 4 – Animation de base de quelques images</a> dans P2.2b. Veuillez prévoir votre temps pour bien réaliser vos animations de base. C'est le coeur de cette remise, ne faites surtout pas ça à la dernière minute, quelques jours avant la remise du 29 avril. Vous risqueriez gros!</alert>
     <ul>
         <li>La prochaine remise par la suite sera Projet 2.3a et 2.3b (pas le 2.3c) le <em>6 mai</em> pour une évaluation formative de type rétroaction en classe (rencontre individuelle).</li>
     </ul>
@@ -1038,20 +1038,6 @@
     <grostitre>Révision et évaluation formative (quiz)</grostitre>
     <p>Groupe AM : <a href="https://app.wooclap.com/USAGMC" target="_blank" rel="noopener noreferrer">Code Wooclap: USAGMC</a><br>Groupe PM : <a href="https://app.wooclap.com/EJECKK" target="_blank" rel="noopener noreferrer">Code Wooclap: EJECKK</a></p>
 
-    <dots></dots>
-    <grostitre>Animation GSAP (suite)</grostitre>
-    <intlink href='../gsap/parallaxe/'></intlink>
-    <intlink href='../gsap/parcours-mouvement/'></intlink>
-    <intlink href='../gsap/morphage-svg/'></intlink>
-    <intlink href='../gsap/dessiner-svg/'></intlink>
-
-    Text plugins
-    https://codepen.io/collection/DmQpRq
-    
-    
-
-
-
 
     <dots></dots>
     <grostitre>Révision en classe</grostitre>
@@ -1059,6 +1045,50 @@
     <intlink href='../gsap/exercices/gsap-pin-marvel/'></intlink>
     <intlink href='../gsap/exercices/gsap-callback-link/'></intlink>
     <intlink href='../gsap/exercices/gsap-scrolltrigger-gotham/'></intlink>
+
+    <dots></dots>
+    <grostitre>Animation GSAP (suite)</grostitre>
+    <intlink href='../gsap/text-plugin/'></intlink>
+    <intlink href='../gsap/parallaxe/'></intlink>
+    <intlink href='../gsap/dessiner-svg/'></intlink>
+    <intlink href='../gsap/parcours-mouvement/'></intlink>
+
+    <exercice href='../gsap/exercices/motionpath-voiture-et-vallons/'></exercice>
+
+    <dots></dots>
+    <grostitre>Projet 2.3</grostitre>
+    <intlink href='../projet-scrollytelling/p2-3a/'></intlink>
+    <intlink href='../projet-scrollytelling/p2-3b/'></intlink>
+    <p>Pour les plugiciels payants (drawSVG, morphSVG, GSDevTool), ils ne seront sera utilisables qu’en local sur votre ordi ou sur codePen.</p>
+    <p>Vous pouvez soit utiliser le <a href="https://codepen.io/GreenSock/full/JjPwRob" target="_blank">lien de codePen fourni ici</a> et ensuite COPY URL à côté pour l’ajouter dans une balise <span class='inline-code'>script</span> dans votre page HTML). </p>
+    <p>Ou les télécharger ici: <a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Er8e07HJQH9ApZOlbWNB2JYBy7M9UomVX6yA7u6GpeWvxg?e=tmya72" target="_blank" rel="noopener noreferrer">_fichiers-partage-eleves</a> et les ajouter dans un dossier vendors de votre projet. </p>
+    <alert>IMPORTANT:ne pas oublier d'ajouter les dossiers qui contiennent ces plugins payants dans le gitignore afin de ne pas pousser les fichiers illégalement sur git. <br>
+    <img src="images/gitignore_vendors_drawSVG_morphSVG.jpg" alt="" style="max-width:500px; margin: 0; "></alert>
+
+
+   <!-- Text plugins
+    https://codepen.io/collection/DmQpRq -->
+
+
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+    <h3>Complétez P2.2a et P2.2b: remise au prochain cours.</h3>
+    <intlink href='../projet-scrollytelling/p2-2a/'></intlink><br>
+    <intlink href='../projet-scrollytelling/p2-2b/'></intlink>
+
+    <alert>Le plus gros morceau et celui qui importe le plus dans cette remise (P2.2) est <a href="https://tim-montmorency.com/timdoc/582-424MO/projet-scrollytelling/p2-2b#instruction-4-animation-de-base-de-quelques-images" target="_blank" rel="noopener noreferrer">Instruction 4 – Animation de base de quelques images</a> dans P2.2b. Veuillez prévoir votre temps pour bien réaliser vos animations de base. C'est le coeur de cette remise, ne faites surtout pas ça à la dernière minute, quelques jours avant la remise du 29 avril. Vous risqueriez gros!</alert>
+
+    <warning>Remise de P2.2 (2.2a et 2.2b) le 29 avril au cours 13.</warning>
+
+    <br>
+    <h3>Débutez P2.3a et P2.3b.</h3>
+    <intlink href='../projet-scrollytelling/p2-3a/'></intlink>
+    <intlink href='../projet-scrollytelling/p2-3b/'></intlink>
+
+    <warning>Remise de P2.3 (2.3a et 2.3b (excepté 2.3c)) le 6 mai au cours 14.</warning>
+
+
+
    
 
 </wiki-page>
@@ -1075,7 +1105,15 @@
                              
  ----------------------------------->
 <wiki-page name="Cours 13" date="2024-04-28">
-        <grostitre>Révision et évaluation formative (quiz)</grostitre>
+    <grostitre>Révision et évaluation formative (quiz)</grostitre>
+
+
+    <dots></dots>
+    <grostitre>Animation GSAP (suite)</grostitre>
+    <intlink href='../gsap/parallaxe-intermediaire/'></intlink>  
+    <intlink href='../gsap/morphage-svg/'></intlink>
+
+
 </wiki-page>
 
 
@@ -1092,6 +1130,8 @@
 
 <wiki-page name="Cours 14" date="2024-05-03">
         <grostitre>Révision et évaluation formative (quiz)</grostitre>
+
+
 </wiki-page>
 
 

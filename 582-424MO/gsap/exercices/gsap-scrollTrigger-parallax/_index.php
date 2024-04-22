@@ -30,9 +30,12 @@ Faites en sorte que l'animation reviennne en arrière si on remonte, qu'elle soi
 
 
 <grostitre>Notes de cours 📚</grostitre>
-<intlink href="../../parallaxe/"></intlink>
 <intlink href="../../scrolltrigger/"></intlink>
 <intlink href="../../scrolltrigger-intermediaire/"></intlink>
+<intlink href="../../parallaxe/"></intlink>
+<intlink href='../../parallaxe-intermediaire/'></intlink>
+
+
 <br>
 <doclink href="https://smnarnold.com/cours/javascript/gestions-des-attributs#getAttribute()">Récupérer la valeur d'un attribut d'une balise HTML</doclink>
 <doclink href="https://smnarnold.com/cours/css/parallax">Qu'est-ce que le parallaxe</doclink>
