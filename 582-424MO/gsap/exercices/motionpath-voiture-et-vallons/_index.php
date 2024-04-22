@@ -31,7 +31,7 @@ Assurez-vous que la voiture soit toujours alignée avec le tracé du parcours.
 Décommentez la ligne du <incode>eventListener</incode> afin que l'animation s'active à chaque clique dans l'écran.
 Assurez-vous que la tête de la voiture s'oriente toujours sur le parcours (la voiture doit s'incliner dans le sens de la montagne).
 Démarrez le parcours au début du tracé et arrêtez le à 55% de celui-ci (on verra la voiture frêner tout à droite).
-Changez la position du point de référence de la voiture de sorte que le point de rotation ne soit pas en haut à gauche de la voiture mais plutôt près du bas et du centre horizontal (combinez <incode>xPercent</incode>,<incode>yPercent</incode> et <incode>alignOrigin</incode>).
+Changez la position du point de référence de la voiture de sorte que le point de rotation ne soit pas en haut à gauche de la voiture mais plutôt près du bas et du centre horizontal (combinez <incode>align</incode> et <incode>alignOrigin</incode>).
 Dans le HTML, rechangez la valeur de <incode>fill-opacity</incode> du tracé <em>.st1</em> (ligne 5) à 0 pour éliminer l'arrière-plan rouge.
 </checklist>
 

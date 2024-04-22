@@ -173,14 +173,17 @@
     supérieur&nbsp;gauche.</p>
 
     
-<p>Cependant, il est possible de déplacer le point de référence de l'élément en utilisant les
-    propriétés&nbsp;<incode>xPercent</incode>&nbsp;et&nbsp;<incode>yPercent</incode>&nbsp;qui déplacent en pourcentage le point
-    de référence de l'élément&nbsp;animé.</p>
+<p>Cependant, il est possible de déplacer le point de référence de l'élément en utilisant la
+    propriété&nbsp;<incode>alignOrigin</incode> combiné avec la propriété <span class='inline-code'>align</span>. Si on veut déplacer le point de référence au centre du carré bleu, nous devrions écrire :</p>
 
-
-<p>Par exemple:</p>
-
+<highlight lang='js'>align: "#courbe",
+alignOrigin: [0.5, 0.5]
+</highlight>
+  
+<p>Voici 2 exemples:</p>
 <codepen id="JjzxKNE" tab="js,result" height="500"></codepen>
+<codepen id="JjVwrxL" tab="js,result" height="500"></codepen>
+
 
 <doclink href="https://greensock.com/docs/v3/Plugins/MotionPathPlugin">MotionPath</doclink>
 <dots></dots>
