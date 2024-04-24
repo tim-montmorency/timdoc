@@ -15,7 +15,7 @@
 <grostitre>Création des éléments graphiques</grostitre>
 <ul>
    <li>Allez chercher des éléments graphiques déjà existants dans des banques d’image libres de droits ou payante (si vous avez les sous) OU illustrez vous-même vos éléments. <br><small><a href="#notes-de-cours-et-outils">Au bas de cette page</a>, vous trouvez 2 capsules vidéos dans lesquelles je vous présente comment utiliser l'outil de génération d'illustrations <em>AI</em> dans Adobe Illustrator.</small></li>
-   <li>Montez vos scènes dans Illustrator ou Photoshop. Ajustez les couleurs des éléments avec celles de votre palette via le nuancier.</li>
+   <li>Montez vos scènes dans Illustrator ou Photoshop. Ajustez les couleurs des éléments avec celles de votre palette via le nuancier: pour les images vectorielles, si vous les exportez en SVG, vous pouvez les recoloriser avec: <a href="https://color.adobe.com/fr/color-labs/recolor-svg" target="_blank" rel="noopener noreferrer">color.adobe.com/fr/color-labs/recolor-svg</a></li>
    <li>Pensez aux éléments animables mais aussi à l’arrière-plan de chaque scène, de chaque chapitre. </li>
    <li>Idéalement, travaillez avec du vectoriel. Mais vous pouvez aussi travailler avec des éléments photographiques détourés. Vous pouvez même faire du mix média (photo et vectoriel) si ça fonctionne avec votre style.</li>
    <li>Exportez chaque éléments graphiques animables séparément de l’arrière-plan en format <em>svg</em> si c’est vectoriel, <em>png</em> si c’est un élément matriciel avec fond transparent, <em>jpg</em> si c’est une image matricielle rectangulaire sans transparence.</li>
@@ -57,6 +57,7 @@ Vous pouvez en ajouter d’avantage mais cette liste regroupe les requis minimum
 
 
 <grostitre>Notes de cours 📚 et outils 🛠️</grostitre>
+
 <h3>Banques d'illustrations libres de droit et utilisation de générateur d'illustration avec <em>AI</em></h3>
 <ul>
    <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZKUCl9U8-dEpMDbe_xROxEBQ7SbZvO8Wn0wSp4gTJIq0w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vtyGea" target="_blank" rel="noopener noreferrer" target="_blank">Capsule vidéo 01</a></li>
@@ -67,6 +68,7 @@ Vous pouvez en ajouter d’avantage mais cette liste regroupe les requis minimum
          </li>
       </ul>
    </li>
+   <li>Recoloriser un fichier SVG existant avec sa propre palette : <a href="https://color.adobe.com/fr/color-labs/recolor-svg" target="_blank" rel="noopener noreferrer">color.adobe.com/fr/color-labs/recolor-svg</a></li>
 </ul>
 <dots></dots>
 

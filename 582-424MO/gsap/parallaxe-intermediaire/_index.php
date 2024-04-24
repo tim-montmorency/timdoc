@@ -10,6 +10,10 @@
 ?>
 <grostitre>Animation de plusieurs couches</grostitre>
 
+<p>Voici un exemple vraiment intéressant de <em>isladjan</em> pour vous inspirer un peu.</p>
+<codepen id="yLRVEmg" tab="result" height="500"></codepen>
+
+
 <p>Pour animer en parallaxe, vous le savez, les couches les plus près de nous vont bouger plus rapidement que les couches plus loin de nous.</p>
 <p>Si vous positionnez vos éléments en <incode>position: absolute</incode> dans son conteur qui a lui, une <incode>position: relative</incode>, n'oubliez pas de leur accorder un <incode>z-index</incode> en fonction de l'ordre des couches que vous souhaitez établir (plus le z-index est grand, plus l'élément se retrouve au dessus).</p>
 <dots></dots>
