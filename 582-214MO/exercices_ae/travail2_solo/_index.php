@@ -26,6 +26,65 @@
 
 <dots></dots>
 
+
+
+
+<grostitre>1. La préproduction</grostitre>
+<p>Pour la préproduction, vous devez présenter un powerpoint contenant les informations suivantes:
+<checklist>
+Un moodboard d'animation. 
+Scénarimage complet. 
+2 de vos propres illustrations finales démontrant votre style graphique. 
+</checklist>
+
+<p>En plus de présenter les éléments ci-haut, vous devez les remettre de la façon suivante: </p>
+<checklist>
+Vous devez copier le gabarit de projet (la nomenclature) et mettre votre Powerpoint dans le dossier 00_references. 
+Vous devez aussi ajouter dans le dossier 01_medias/04_typographies toutes les polices de caractères que vous prévoyez utiliser dans le projet (si applicable). 
+Remise du dossier compressé à l'endroit indiqué par votre enseignante.
+Vous devez être présent le jour de la remise, c'est comme un examen. Vous serez évalués en classe. 
+</checklist>
+
+
+<dots></dots>
+
+<grostitre>2. Les illustrations</grostitre>
+<p>Voici les critères du livrable:</p>
+<checklist>
+Vos illustrations doivent être dans le gabarit de projet dans le dossier 01_medias/01_image/01_illustrator. 
+Le format du ou des fichiers doit être de 1920 x 1080.
+S'assurer que les illustrations sont créées dans la dimension et la position initiale prévues pour être prête à être animée. 
+Bien nommer tous les calques. 
+Séparer les éléments animables inviduellement sur leur propre calque. 
+</checklist>
+
+<p>Au besoin consulter les tutoriels suivants:</p>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EQRqWpaA_5tOlGmXgrD1h34BgPnwPVblShxbOhJBFMA2CA?e=hS7ynS">Sauvegarde</doclink>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EUA6yhjY7sFEgk5D_S-oCagBo6JeeSMZ_wlL9NIj2glEDQ?e=nPW3eF">Séparer éléments en calques</doclink>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXlGOH27QCdDpjbLFWaPpk8BxnqMVBoikPCGWTUVmEClnQ?e=fpzvEG">Nommer calques avant l'import dans AE</doclink>
+
+<dots></dots>
+
+<grostitre>3. Les animations</grostitre>
+<p>Voici le contenu du livrable:</p>
+<checklist>
+Les animations 2D complétées. 
+Votre animation doit être d'une durée de 60 à 120 secondes.  
+N'oubliez pas de travailler et de bien classer vos fichiers dans la nomenclature interne (bref, travailler avec le template tel que je vous l'ai montré en classe). 
+Vous pouvez personnellement avoir plusieurs courtes animations isolées qui serviront au montage final.  Vous pouvez personnellement travailler toutes vos animations dans le même projet .aep (fichier After Effects) en isolant chaque animation dans sa propre composition. 
+Lorsque toutes vos animations sont terminées, exportez vos compositions finales en 2 formats, suivre la capsule vidéo qui explique le tout. : 01_exportation.mp4.  
+Format Web: H264 - Vimeo 1080p HD
+Format haute résolution: DNX HD HQ 1080p 24 ou PRO RES 4444 1080p 24 (Format: Quicktime, codec: DNxHR/DNxHD, Résolution: 1080p DNxHD HQ 8 bits)  
+Attention. L’exportation prend beaucoup de temps alors prévoyez quelques heures pour cette étape avant la remise. 
+Déposez vos exportations dans le dossier 03_exportation.
+Déposez votre dossier de projet à l'endroit indiqué par votre enseignante. 
+</checklist>
+
+<p>Au besoin consulter les tutoriels suivants:</p>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EedvtSQ7x3xHgRrIQXiIGkIBCjrjPWY2oNKqzG18LyZCMQ?e=vWbgIb">01_Exportation</doclink>
+
+<dots></dots>
+
 <grostitre>Contraintes visuelles de l'animation 2D - mosaïque</grostitre>
 <checklist>
     Vous devez utiliser des couleurs monochromes dans la teinte de votre choix. 
@@ -64,6 +123,21 @@ Animation de masque
 </gallery>
 
 <dots></dots>
+<grostitre>4. Les génériques</grostitre>
+<p>Voici le contenu du livrable:</p>
+<checklist>
+Votre générique doit être d'une durée de 15 à 45 secondes. 
+N'oubliez pas de travailler et de bien classer vos fichiers dans la nomenclature interne (bref, travailler avec le template tel que je vous l'ai montré en classe). 
+Lorsque votre générique est terminé, exportez-le en format H.264 - Vimeo 1080p Full HD, suivre la capsule vidéo qui explique le tout. : 01_exportation.mp4.  
+Attention. L’exportation prend beaucoup de temps alors prévoyez quelques heures pour cette étape avant la remise. 
+Ne remettre que le fichier d’exportation vidéo compressé à l'endroit indiqué par l'enseignante (pas besoin de tout le dossier de projet). 
+Vous devez être présent le jour de la remise de vos génériques, c'est comme un examen. Vous serez évalués en classe. 
+</checklist>
+
+<p>Au besoin consulter les tutoriels suivants:</p>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EedvtSQ7x3xHgRrIQXiIGkIBCjrjPWY2oNKqzG18LyZCMQ?e=vWbgIb">01_Exportation</doclink>
+<dots></dots>
+
 <grostitre>Contraintes visuelles de l'animation 2D - générique</grostitre>
 <checklist>
     Réaliser et animer un générique de type carton et non un générique défilant, c'est à dire un carton (un texte) à la fois.
@@ -100,8 +174,7 @@ Animation de masque
 Titre de votre animation 
 Poste: Animateur 2D (Votre nom)
 Crédits pour la musique si nécessaire
-Avant-avant dernier carton: Projet encadré par (noms des 2 professeures) 
-Avant-dernier carton: Un merci aux TTP William Racine et Antoine Allard 
+Avant dernier carton: Projet encadré par (noms de l'enseignant) 
 Dernier carton: le logo TIM: logo_tim (animer le logo en style motion design) 
 </checklist>
 
@@ -109,77 +182,7 @@ Dernier carton: le logo TIM: logo_tim (animer le logo en style motion design)
 
 <dots></dots>
 
-<grostitre>La préproduction</grostitre>
-<p>Pour la préproduction, vous devez présenter un powerpoint contenant les informations suivantes:
-<checklist>
-Un moodboard d'animation. 
-Scénarimage complet. 
-2 de vos propres illustrations finales démontrant votre style graphique. 
-</checklist>
-
-<p>En plus de présenter les éléments ci-haut, vous devez les remettre de la façon suivante: </p>
-<checklist>
-Vous devez copier le gabarit de projet (la nomenclature) et mettre votre Powerpoint dans le dossier 00_references. 
-Vous devez aussi ajouter dans le dossier 01_medias/04_typographies toutes les polices de caractères que vous prévoyez utiliser dans le projet (si applicable). 
-Remise du dossier compressé à l'endroit indiqué par votre enseignante.
-Vous devez être présent le jour de la remise, c'est comme un examen. Vous serez évalués en classe. 
-</checklist>
-
-
-<dots></dots>
-
-<grostitre>Les illustrations</grostitre>
-<p>Voici les critères du livrable:</p>
-<checklist>
-Vos illustrations doivent être dans le gabarit de projet dans le dossier 01_medias/01_image/01_illustrator. 
-Le format du ou des fichiers doit être de 1920 x 1080.
-S'assurer que les illustrations sont créées dans la dimension et la position initiale prévues pour être prête à être animée. 
-Bien nommer tous les calques. 
-Séparer les éléments animables inviduellement sur leur propre calque. 
-</checklist>
-
-<p>Au besoin consulter les tutoriels suivants:</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EQRqWpaA_5tOlGmXgrD1h34BgPnwPVblShxbOhJBFMA2CA?e=hS7ynS">Sauvegarde</doclink>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EUA6yhjY7sFEgk5D_S-oCagBo6JeeSMZ_wlL9NIj2glEDQ?e=nPW3eF">Séparer éléments en calques</doclink>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXlGOH27QCdDpjbLFWaPpk8BxnqMVBoikPCGWTUVmEClnQ?e=fpzvEG">Nommer calques avant l'import dans AE</doclink>
-
-<dots></dots>
-
-<grostitre>Les animations</grostitre>
-<p>Voici le contenu du livrable:</p>
-<checklist>
-Les animations 2D complétées. 
-Votre animation doit être d'une durée de 60 à 120 secondes.  
-N'oubliez pas de travailler et de bien classer vos fichiers dans la nomenclature interne (bref, travailler avec le template tel que je vous l'ai montré en classe). 
-Vous pouvez personnellement avoir plusieurs courtes animations isolées qui serviront au montage final.  Vous pouvez personnellement travailler toutes vos animations dans le même projet .aep (fichier After Effects) en isolant chaque animation dans sa propre composition. 
-Lorsque toutes vos animations sont terminées, exportez vos compositions finales en 2 formats, suivre la capsule vidéo qui explique le tout. : 01_exportation.mp4.  
-Format Web: H264 - Vimeo 1080p HD
-Format haute résolution: DNX HD HQ 1080p 24 ou PRO RES 4444 1080p 24  
-Attention. L’exportation prend beaucoup de temps alors prévoyez quelques heures pour cette étape avant la remise. 
-Déposez vos exportations dans le dossier 03_exportation.
-Déposez votre dossier de projet à l'endroit indiqué par votre enseignante. 
-</checklist>
-
-<p>Au besoin consulter les tutoriels suivants:</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EedvtSQ7x3xHgRrIQXiIGkIBCjrjPWY2oNKqzG18LyZCMQ?e=vWbgIb">01_Exportation</doclink>
-
-<dots></dots>
-<grostitre>Les génériques (INDIVIDUEL)</grostitre>
-<p>Voici le contenu du livrable:</p>
-<checklist>
-Votre générique doit être d'une durée de 15 à 45 secondes. 
-N'oubliez pas de travailler et de bien classer vos fichiers dans la nomenclature interne (bref, travailler avec le template tel que je vous l'ai montré en classe). 
-Lorsque votre générique est terminé, exportez-le en format H.264 - Vimeo 1080p Full HD, suivre la capsule vidéo qui explique le tout. : 01_exportation.mp4.  
-Attention. L’exportation prend beaucoup de temps alors prévoyez quelques heures pour cette étape avant la remise. 
-Ne remettre que le fichier d’exportation vidéo compressé à l'endroit indiqué par l'enseignante (pas besoin de tout le dossier de projet). 
-Vous devez être présent le jour de la remise de vos génériques, c'est comme un examen. Vous serez évalués en classe. 
-</checklist>
-
-<p>Au besoin consulter les tutoriels suivants:</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EedvtSQ7x3xHgRrIQXiIGkIBCjrjPWY2oNKqzG18LyZCMQ?e=vWbgIb">01_Exportation</doclink>
-<dots></dots>
-
-<grostitre>La remise finale</grostitre>
+<grostitre>5. La remise finale</grostitre>
 <p>Voici le contenu du livrable:</p>
 <checklist>
 Les fichiers sources de votre travail (Illustrator, After Effects) 
