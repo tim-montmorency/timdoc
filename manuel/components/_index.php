@@ -450,6 +450,9 @@ Utilisez la proprité <incode>transform</incode>.<br>
 <highlight lang="console">> ffmpeg -y -i "input.mp4" -an -c:v libx264 -profile:v main -level:v 3.0 -pix_fmt yuv420p -preset veryslow -movflags faststart -crf 22 -vf "scale=770:-1" "output.mp4"</highlight>
 <highlight lang="html"><clipasset src="./videos/king-crimson.mp4"></clipasset></highlight>
 <clipasset src="./videos/king-crimson.mp4"></clipasset>
+<p>Il est possible d'afficher le <incode><clipasset></incode> en format téléphone mobile. Pour ce faire utilisez <span class='inline-code'>mobile: "true"</span></p>
+<highlight lang="html"><clipasset src="anim-figma-appli-mobile.mov" mobile="true"></clipasset></highlight>
+<clipasset src="../../582-201MO/wiki/images/exercice-cours13-appli-mobile.mov" mobile="true"></clipasset>
 
 <dots></dots>
 
