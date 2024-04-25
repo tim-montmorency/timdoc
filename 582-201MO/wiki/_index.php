@@ -2370,6 +2370,49 @@ T04 - Design de site web de type portfolio</a></p>
                              
  ----------------------------------->
 <wiki-page name="Cours 13" date="2024-04-24">
+    <grostitre>Remise du T04 - Portfolio dans deux semaines</grostitre>
+    <alert>Il reste beaucoup à faire pour ce projet, ne tardez pas à débuter le design si ce n'est pas déjà le cas!</alert>
+    <info>La bonne nouvelle: vous avez du temps en classe pour travailler sur votre projet!</info>
+
+    <dots></dots>
+    <grostitre>Démo animation dans Figma</grostitre>
+    <p><a href="https://www.figma.com/file/iv5ZojbSyN01UBgf9JJpIz/9-Smart-Animate-Examples-(Community)?type=design&node-id=0%3A2349&mode=design&t=yfNw2dYHbkYIRQDt-1" target="_blank" rel="noopener noreferrer">9 animations d'interface classique d'appli mobile</a>. (Attention ne pas éditer le fichier, si vous voulez explorer, créez simplement une copie du fichier dans vos dossiers personnels).</p>
+
+    <dots></dots>
+    <grostitre>Exercices d'animation dans Figma</grostitre>
+    <warning>Vous devez avoir écouté toutes les capsules vidéos que vous aviez en devoir la semaine passée avant de vous lancer dans les exercices.</warning>
+
+
+    <h3>Exercice d'animation automatique en boucle d'icônes d'interface</h3>
+    <p>Fichier de départ: <a href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZWsJrshtglEkWBIUAQbjGMBtguz0OMQ5mxbosyXM21O-g?e=3zdzlo" target="_blank" rel="noopener noreferrer">téléchargez et importez dans Figma</a>.</p>
+    <p>Résultat attendu 👇</p>
+   
+    <clipasset src="images/exercice-cours13-anim-icones.mov"></clipasset>
+
+    <h3>Exercice d'animation de transitions d'interface d'appli mobile</h3>
+    <p>Fichier de départ: <a href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ET-NlbIBdY9JsY7ro5mgk_IBHiG2abhNZtfdPZEID3p4pg?e=bbFS1Y" target="_blank" rel="noopener noreferrer">téléchargez et importez dans Figma</a>.</p>
+    <p>Résultat attendu 👇</p>
+    <clipasset src="images/exercice-cours13-appli-mobile.mov" mobile="true"></clipasset>
+ 
+
+
+
+
+    <dots></dots>
+    <grostitre>T04 - Design de site web de type portfolio (rappel)</grostitre>
+    <p><strong>Instructions T04</strong>:<a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EU2UzVRmEotDsM49Bl5iRIMBLeu8I7nUUjFm-tRmWkHmfQ?e=uWfkJ0" target="_blank" rel="noopener noreferrer"> Lien vers instructions complètes</a></p>
+    <alert>Il y a des requis minimum, allez consulter les instructions pour vous assurer que vous couvrez tous les requis minimum.</alert>
+
+
+    <dots></dots>
+    <grostitre>Labo en classe et devoir</grostitre>
+    <p>Terminer les exercices débutés en classe.</p>
+    <p>T04 - Le portfolio: Terminer au moins le design statique de votre partfolio pour débuter les animations la semaine prochaine.</p>
+
+
+
+
+
 
 </wiki-page>
 
