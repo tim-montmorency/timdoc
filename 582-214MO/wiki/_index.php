@@ -489,6 +489,9 @@ Terminer le travail 1 partie 1
 <wiki-page name="Cours 09">
 <h3>Mini-Kino avec les illustrations du cours 8</h3>
 <intlink href="../exercices_ae/kino"></intlink></p>
+
+<p><h3>Avancement du travail 2</h3></p>
+<intlink href="../exercices_ae/travail2"></intlink></p>
 </wiki-page>
 
 <wiki-page name="2 avril">
@@ -502,7 +505,8 @@ Terminer le travail 1 partie 1
 <wiki-page name="Cours 10">
 <p><h1>Remise et présentation de la préproduction du travail 2</h1></p>  
 <p><h1>Remise de la partie 1 du travail 2 (Illustrations)</h1></p>  
-
+<p><h3>Présentation de la préproduction du travail 2</h3></p>
+<intlink href="../exercices_ae/travail2"></intlink></p>
 <info>Cours conjoint avec vidéo</info>
 
 </wiki-page>
@@ -510,6 +514,7 @@ Terminer le travail 1 partie 1
 <wiki-page name="Cours 11">
 <h3>Présentation des scénarimages retravaillés</h3>
 <h3>Réalisation des animations du travail 2</h3>
+<intlink href="../exercices_ae/travail2"></intlink></p>
 <h3>Nouvelle technique dans Illustrator</h3>
 <p><doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtErx2bxUQtNuiilUZ1Ah_wBGE1SsZvFdskIwkogxzTtpQ?e=hduoGh">Tracer des lignes triples dans illustrator</doclink></p>
 
@@ -518,9 +523,9 @@ Terminer le travail 1 partie 1
 
 <wiki-page name="Cours 12">
 <p><h1>Remise des animations du travail 2 à la fin du cours</h1></p>  
-<p><ul>
-<li>Pré-évaluation des animations du travail 2 si déasiré</li>
-<li>Travail sur les génériques individuels</li>
+<p>Pré-évaluation des animations du travail 2 si déasiré</p>
+<h3>Travail sur les génériques individuels</h3>
+<intlink href="../exercices_ae/travail2"></intlink></p>
 </ul></p>
 </wiki-page>
 
@@ -531,6 +536,7 @@ Terminer le travail 1 partie 1
 <li>Travail sur les génériques individuels</li>
 <li>Correction des animations du travail 2</li>
 </ul></p>
+<intlink href="../exercices_ae/travail2"></intlink></p>
 <info>Cours conjoint avec vidéo</info>
 </wiki-page>
 
@@ -540,6 +546,7 @@ Terminer le travail 1 partie 1
 <li>Choix du générique final de chaque équipe</li>
 <li>Correction des animations du travail 2</li>
 </ul></p>
+<intlink href="../exercices_ae/travail2"></intlink></p>
 <info>Cours conjoint avec vidéo</info>
    
 
