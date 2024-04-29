@@ -1062,10 +1062,10 @@
     <h3>Note sur les plugins payants (drawSVG, morphSVG, GSDevTool)</h3>
     <p>Pour les plugiciels payants (drawSVG, morphSVG, GSDevTool), ils ne seront utilisables qu’en local sur votre ordi OU sur codePen.</p>
     <p>Vous pouvez :</p>
-        <ul>
-            <li>utiliser le <a href="https://codepen.io/GreenSock/full/JjPwRob" target="_blank">lien de codePen fourni ici</a> et ensuite COPY URL à côté pour l’ajouter dans une balise <span class='inline-code'>script</span> dans votre page HTML, </li>
-            <li>ou les télécharger ici: <a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Er8e07HJQH9ApZOlbWNB2JYBy7M9UomVX6yA7u6GpeWvxg?e=tmya72" target="_blank" rel="noopener noreferrer">_fichiers-partage-eleves</a> et les ajouter dans un dossier vendors de votre projet. </li>
-        </ul>
+    <ul>
+        <li>utiliser le <a href="https://codepen.io/GreenSock/full/JjPwRob" target="_blank">lien de codePen fourni ici</a> et ensuite COPY URL à côté pour l’ajouter dans une balise <span class='inline-code'>script</span> dans votre page HTML, </li>
+        <li>ou les télécharger ici: <a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Er8e07HJQH9ApZOlbWNB2JYBy7M9UomVX6yA7u6GpeWvxg?e=tmya72" target="_blank" rel="noopener noreferrer">_fichiers-partage-eleves</a> et les ajouter dans un dossier vendors de votre projet. </li>
+    </ul>
 
     <alert>IMPORTANT:ne pas oublier d'ajouter les dossiers qui contiennent ces plugins payants dans le gitignore afin de ne pas pousser les fichiers illégalement sur git. <br>
     <img src="images/gitignore_vendors_drawSVG_morphSVG.jpg" alt="" style="max-width:500px; margin: 0; "></alert>
@@ -1125,6 +1125,17 @@
     <intlink href='../gsap/morphage-svg/'></intlink>
     <intlink href='../gsap/dessiner-svg'></intlink>
 
+    <h3>Note sur les plugins payants (drawSVG, morphSVG, GSDevTool)</h3>
+    <p>Pour les plugiciels payants (drawSVG, morphSVG, GSDevTool), ils ne seront utilisables qu’en local sur votre ordi OU sur codePen.</p>
+    <p>Vous pouvez :</p>
+    <ul>
+        <li>utiliser le <a href="https://codepen.io/GreenSock/full/JjPwRob" target="_blank">lien de codePen fourni ici</a> et ensuite COPY URL à côté pour l’ajouter dans une balise <span class='inline-code'>script</span> dans votre page HTML, </li>
+        <li>ou les télécharger ici: <a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Er8e07HJQH9ApZOlbWNB2JYBy7M9UomVX6yA7u6GpeWvxg?e=tmya72" target="_blank" rel="noopener noreferrer">_fichiers-partage-eleves</a> et les ajouter dans un dossier vendors de votre projet. </li>
+    </ul>
+
+    <alert>IMPORTANT:ne pas oublier d'ajouter les dossiers qui contiennent ces plugins payants dans le gitignore afin de ne pas pousser les fichiers illégalement sur git. <br>
+    <img src="images/gitignore_vendors_drawSVG_morphSVG.jpg" alt="" style="max-width:500px; margin: 0; "></alert>
+
 
     <dots></dots>
     <grostitre>Optimisation Web</grostitre>
@@ -1140,6 +1151,10 @@
     <intlink href='../optimisation/12-commandements-optimisation/'></intlink>
     <intlink href='../optimisation/optimisation-des-medias/'></intlink>
     <intlink href='../optimisation/chargement-images-progressif/'></intlink>
+
+
+
+    
 
 
     <dots></dots>
