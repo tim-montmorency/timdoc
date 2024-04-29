@@ -1143,7 +1143,7 @@
     <intlink href='../optimisation/rapport-de-performance/'></intlink>
     <h3>Outils de mesure de performance</h3>
     <ul>
-        <li><a target="_blank" href="https://pagespeed.web.dev/">Light speed insights</a></li>
+        <li><a target="_blank" href="https://pagespeed.web.dev/">PageSpeed Insights</a></li>
 
         <li><a target="_blank" href="https://developer.chrome.com/docs/lighthouse/overview/">Lighthouse</a></li>
     </ul>
