@@ -10,6 +10,10 @@
 ?>
 <grostitre>Animation de plusieurs couches</grostitre>
 
+<p>Voici un exemple d'un parallax sur l'arrère-plan:</p>
+<codepen id="poxNKPv" tab="result" height="500"></codepen>
+
+<dots></dots>
 <p>Voici un exemple vraiment intéressant de <em>isladjan</em> pour vous inspirer un peu.</p>
 <codepen id="yLRVEmg" tab="result" height="500"></codepen>
 
@@ -24,9 +28,10 @@
 
 <p>Par exemple, si un élément bouge vers la droite de <incode>100px</incode> sur l'axe des x, alors pour le mouvement de l'arrière plan, vous pourriez multiplier ce <incode>100px</incode> par un coéficient moindre, par exemple <incode>0.5</incode>. Ainsi l'arrière-plan bougerait 2x moins vite que l'élément en avant-plan. En fait, comme la vitesse n'est pas en jeu dans le scroll, on peut dire que l'arrière-plan se déplace sur une moins longue distance par rapport à l'élément en avant plan.</p>
 
-<p>Voici un exxemple (allez  voir le javaScript):</p>
-<codepen id="poxNKPv" tab="result" height="500"></codepen>
+<p>Voici un exemple d'utilisation de ce principe de coéficient :</p>
+<codepen id="oNOOVgW" tab="result" height="500"></codepen>
 
+<dots></dots>
 <p>Autre exemple avec plusieurs couches (allez  voir le javaScript) :</p>
 <codepen id="oNOQZGZ" tab="result" height="500"></codepen>
 
