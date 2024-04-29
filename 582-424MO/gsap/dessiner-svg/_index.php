@@ -31,20 +31,20 @@
 
 
 
-<p>Comme pour tout plugiciel&nbsp;<em>(plugin)</em>&nbsp;GreenSock, afin d'avoir accès à ses fonctionnalités, il est
+<p>Comme pour tout plugiciel&nbsp;<em>(plugin)</em>&nbsp;GSAP, afin d'avoir accès à ses fonctionnalités, il est
     nécessaire d'avoir incorporé la librairie GSAP préalablement et d'ajouter ensuite le plugiciel dans le&nbsp;projet.
 </p>
 <p>Pour ce faire, il est&nbsp;possible:</p>
 <ul>
 
     <li>
-        <p>D'utiliser un&nbsp;<a href="https://greensock.com/docs/v3/Installation?checked=core,drawSVG#codepen"  target="_blank">lien hébergé en ligne</a> (comme ce pluciels-ci n'est pas gratuit, allez copier le lien dans l'onglet codePen, vous cliquiez sur le bouton "Copy URL" en bas, à côté de DrawSVGPlugin et l'ajoutez dans une balise <incode>script</incode>). Cependant, il ne sera utilisable qu'en local (sur votre ordi) ou directement sur codePen.</p>
+        <p>D'utiliser un&nbsp;<a href="https://codepen.io/GreenSock/full/JjPwRob"  target="_blank">lien hébergé en ligne</a> (comme ce pluciels-ci n'est pas gratuit, allez copier le lien dans l'onglet codePen, vous cliquiez sur le bouton "Copy URL" en bas, à côté de <em>DrawSVGPlugin</em> et l'ajoutez dans une balise <incode>script</incode>). Cependant, il ne sera utilisable qu'en local (sur votre ordi) ou directement sur codePen.</p>
     </li>
 </ul>
-<p>Une fois chargé, il est conseillé d'indiquer à GSAP que MotionPath est disponible en inscrivant la ligne de
+<p>Une fois chargé, il est conseillé d'indiquer à GSAP que DrawSVG est disponible en inscrivant la ligne de
     code&nbsp;suivante:</p>
 
-    <highlight lang="JavaScript">gsap.registerPlugin(DrawSVGPlugin);</highlight>
+<highlight lang="JavaScript">gsap.registerPlugin(DrawSVGPlugin);</highlight>
 
 <warning>DrawSVG n'est pas gratuit. Pour l'utiliser dans un projet hébergé sur un serveur Web, vous devez être membre du <a href="https://greensock.com/club/" target="_blank" rel="noopener noreferrer">Club GreenSock</a></strong>. Heureusement vous pouvez tout de même l'utiliser en local ou encore sur CodePen en ajoutant les liens des plugiciels GSAP nécessaires <a href="https://codepen.io/GreenSock/full/JjPwRob" target="_blank" rel="noopener noreferrer">fournis ici</a> .</warning>
 
