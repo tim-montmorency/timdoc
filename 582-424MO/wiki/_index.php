@@ -1110,13 +1110,48 @@
                              
  ----------------------------------->
 <wiki-page name="Cours 13" date="2024-04-28">
-    <grostitre>Révision et évaluation formative (quiz)</grostitre>
+    <grostitre>Annonces</grostitre>
+    <p>Remise de P2.2 avant le début du cours d'aujourd'hui.</p>
+    <p>Pas de quiz aujourd'hui: Vous aurez un quiz double la semaine prochaine à réaliser à votre rythme.</p>
+
+    <dots></dots>
+    <grostitre>Révision d'exercice</grostitre>
+    <intlink href='../gsap/exercices/motionpath-voiture-et-vallons'></intlink>
 
 
     <dots></dots>
     <grostitre>Animation GSAP (suite)</grostitre>
     <intlink href='../gsap/parallaxe-intermediaire/'></intlink>  
     <intlink href='../gsap/morphage-svg/'></intlink>
+    <intlink href='../gsap/dessiner-svg'></intlink>
+
+
+    <dots></dots>
+    <grostitre>Optimisation Web</grostitre>
+    <intlink href='../optimisation/introduction/'></intlink>
+    <intlink href='../optimisation/rapport-de-performance/'></intlink>
+    <h3>Outils de mesure de performance</h3>
+    <ul>
+        <li><a target="_blank" href="https://pagespeed.web.dev/">Light speed insights</a></li>
+
+        <li><a target="_blank" href="https://developer.chrome.com/docs/lighthouse/overview/">Lighthouse</a></li>
+    </ul>
+ 
+    <intlink href='../optimisation/12-commandements-optimisation/'></intlink>
+    <intlink href='../optimisation/optimisation-des-medias/'></intlink>
+    <intlink href='../optimisation/chargement-images-progressif/'></intlink>
+
+
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+    <p>Terminer les exercices débutés en classe aujourd'hui</p>
+
+    <p>Faire P2.3a et P2.3b. Remise au prochain cours pour évaluation formative.</p>
+    <intlink href='../projet-scrollytelling/p2-3a'></intlink>
+    <intlink href='../projet-scrollytelling/p2-3b'></intlink>
+
+ 
+
 
 
 </wiki-page>

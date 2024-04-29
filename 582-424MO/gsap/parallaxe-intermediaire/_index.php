@@ -15,10 +15,14 @@
 
 
 <p>Pour animer en parallaxe, vous le savez, les couches les plus près de nous vont bouger plus rapidement que les couches plus loin de nous.</p>
-<p>Si vous positionnez vos éléments en <incode>position: absolute</incode> dans son conteur qui a lui, une <incode>position: relative</incode>, n'oubliez pas de leur accorder un <incode>z-index</incode> en fonction de l'ordre des couches que vous souhaitez établir (plus le z-index est grand, plus l'élément se retrouve au dessus).</p>
+<p>Cependant, lorsqu'on travaille avec une synchonisation du <em>scroll</em>, étant donné que la vitesse d'animation est unique et correspond à la vitesse du défilement de l'utilisateur, les images plus près vont bouger sur une plus grande distance que les images qui sont éloignées.</p>
+<p>Si vous positionnez vos éléments en <incode>position: absolute</incode> dans son conteneur qui a lui, une <incode>position: relative</incode>, n'oubliez pas de leur accorder un <incode>z-index</incode> en fonction de l'ordre des couches que vous souhaitez établir (plus le <incode>z-index</incode> est grand, plus l'élément se retrouve au dessus).</p>
+
+
 <dots></dots>
-<p>Avec GSAP et scrollTrigger, par la suite, il vous suffira d'ajouter un coéficient de vitesse au mouvement désiré. </p>
-<p>Par exemple si un élément bouge vers la droite de 100px sur l'axe des x. Pour le mouvement de l'arrière plan, vous pourriez multiplier ce 100px par un coéficient moindre, par exemple 0.5. Ainsi l'arrière-plan bougerait 2x moins vite que l'élément en avant-plan. </p>
+<p>Après avoir bien positionné vos éléments en css, avec GSAP et scrollTrigger, il vous suffira d'ajouter un coéficient de vitesse au mouvement désiré. </p>
+
+<p>Par exemple, si un élément bouge vers la droite de <incode>100px</incode> sur l'axe des x, alors pour le mouvement de l'arrière plan, vous pourriez multiplier ce <incode>100px</incode> par un coéficient moindre, par exemple <incode>0.5</incode>. Ainsi l'arrière-plan bougerait 2x moins vite que l'élément en avant-plan. En fait, comme la vitesse n'est pas en jeu dans le scroll, on peut dire que l'arrière-plan se déplace sur une moins longue distance par rapport à l'élément en avant plan.</p>
 
 
 <exercice href="../exercices/gsap-scrollTrigger-parallax/"></exercice>     
