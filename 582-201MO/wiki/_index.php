@@ -2432,6 +2432,8 @@ T04 - Design de site web de type portfolio</a></p>
  ----------------------------------->
 
 <wiki-page name="Cours 14" date="2024-05-01">
+    <grostitre>T04-Le portfolio</grostitre>
+    <p>Travail en classe avec support de l'enseignante.</p>
 
 </wiki-page>
 
