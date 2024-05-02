@@ -2438,7 +2438,7 @@ T04 - Design de site web de type portfolio</a></p>
     <p> <a href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZWsJrshtglEkWBIUAQbjGMBtguz0OMQ5mxbosyXM21O-g?e=3zdzlo" target="_blank" rel="noopener noreferrer">Exercice d'animation automatique en boucle d'icônes d'interface</a>. <br> <a href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ET-NlbIBdY9JsY7ro5mgk_IBHiG2abhNZtfdPZEID3p4pg?e=bbFS1Y" target="_blank" rel="noopener noreferrer">Exercice d'animation de transitions d'interface d'appli mobile</a>.</p>
   
   
-<dots></dots>
+    <dots></dots>
 
     <grostitre>T04-Le portfolio</grostitre>
     <p>Travail en classe avec support de l'enseignante.</p>
@@ -2447,6 +2447,20 @@ T04 - Design de site web de type portfolio</a></p>
 
 
     <info>La remise finale a été repoussée à 23h59 le jour du dernier cours le 9 mai.</info>
+
+    <dots></dots>
+    <grostitre>Configurez votre portfolio pour l'afficher dans un ordinateur portable</grostitre>
+    <img src="images/prototype-setting-macbookpro16-01.jpg" alt="Étape 1" style="margin: 10px 0; max-width: 400px; border: 1px solid #ddd;">
+    <img src="images/prototype-setting-macbookpro16-02.jpg" alt="Étape 1" style="margin: 10px 0;max-width: 400px; border: 1px solid #ddd;">
+    <img src="images/prototype-setting-macbookpro16-03.jpg" alt="Étape 1" style="margin: 10px 0;max-width: 400px; border: 1px solid #ddd;">
+    <img src="images/prototype-setting-macbookpro16-04.jpg" alt="Étape 1" style="margin: 10px 0;max-width: 400px; border: 1px solid #ddd;">
+    <img src="images/prototype-setting-macbookpro16-05.jpg" alt="Étape 1" style="margin: 10px 0; max-width: 400px; border: 1px solid #ddd;">
+
+
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+    <p>Terminez votre projet T04-Portfolio: La remise finale sera à 23h59 le jour du dernier cours le 9 mai.</p>
+    
 
 </wiki-page>
 
