@@ -26,14 +26,14 @@ Important de suivre les étapes dans l’ordre. </warning>
 
 
  <h3>Plugiciels GSAP gratuits (Extra Plugins) </h3>
- <p>Suivez le liens ci-dessous et cochez les plugiciels gratuits dont vous avez besoin (colonnes Extra Plugins) et ajoutez les balises script générées dans vos fichiers HTML.  <a href="https://greensock.com/docs/v3/Installation?checked=core,scrollTrigger,motionPath#CDN" target="_blank" rel="noopener noreferrer">https://greensock.com/docs/v3/Installation?checked=core,scrollTrigger,motionPath#CDN</a></p>
+ <p>Suivez le liens ci-dessous et cochez les plugiciels gratuits dont vous avez besoin (onglet CDN) et ajoutez les balises script générées dans vos fichiers HTML. <a href="https://gsap.com/docs/v3/Installation/?checked=core%2CmotionPath&tab=cdn&module=esm&method=private+registry&tier=free&club=false&require=false&trial=true&plugins=ScrollTrigger%2C+MotionPathPlugin%2C+TextPlugin#install-helper" target="_blank" rel="noopener noreferrer">Accédez ici</a></p>
 
 <h3>Plugiciels GSAP payants (Club Plugins) </h3>
  <p>J’ai décidé de ne PAS vous faire inclure les fichiers des plugiciels payant (GSDevTool, DrawSVG et MorphSVG) dans votre projet.  S’ils y sont, supprimez-les.  </p>
- <p>Utilisez plutôt le lien  fourni ici (onglet CodePen), cochez le(s) plugiciel(s) de votre choix du Club Plugins et ensuite le bouton COPY URL à côté en bas pour l’ajouter dans une balise &lt;script&gt; dans votre page HTML.<br> <a href="https://greensock.com/docs/v3/Installation?checked=drawSVG,gsDev,morphSVG#codepen" target="_blank" rel="noopener noreferrer">https://greensock.com/docs/v3/Installation?checked=drawSVG,gsDev,morphSVG#codepen </a> </p>
+ <p>Utilisez plutôt le lien  fourni ici (onglet CodePen), cochez le(s) plugiciel(s) de votre choix du Club Plugins et ensuite le bouton COPY URL à côté en bas pour l’ajouter dans une balise &lt;script&gt; dans votre page HTML.<br> <a href="https://codepen.io/GreenSock/full/JjPwRob" target="_blank" rel="noopener noreferrer">https://codepen.io/GreenSock/full/JjPwRob</a> </p>
 
 
-<p>Notez que ces scripts ne fonctionneront pas sur un site publié en ligne (comme sur GitHubPages) puisque vous ne payez pas pour le Club Greensock. </p>
+<p>Notez que ces scripts ne fonctionneront pas sur un site publié en ligne (comme sur GitHub Pages ou un autre hébergeur comme Host Papa) puisque vous ne payez pas pour le Club GSAP. </p>
 
 <dots></dots>
 
