@@ -1182,7 +1182,26 @@
  ----------------------------------->
 
 <wiki-page name="Cours 14" date="2024-05-03">
-        <grostitre>Révision et évaluation formative (quiz)</grostitre>
+    <grostitre>Révision et évaluation formative (quiz DOUBLE)</grostitre>
+    <p>Lien à venir</p>
+
+
+    <dots></dots>
+    <grostitre>Pratiques d'examen</grostitre>
+    <p>Lien à venir</p>
+
+
+    <dots></dots>
+    <grostitre>Projet 2 - Scrollytelling</grostitre>
+    <intlink href='../projet-scrollytelling/p2-3c/'></intlink>
+  
+
+    <dots></dots>
+    <grostitre>Hébergement web - Déployer votre site sur le serveur</grostitre>
+    <p>Capsule vidéo: <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZd7jM8DNIZHndllts3nA0cBtrrGG2NBLBOuO7svWXVjug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tvSTgt" target="_blank" rel="noopener noreferrer">comment mettre vos site web sur le serveur.</a></p>
+    <alert>Avanet de mettre en ligne, n'oubliez pas de commenter le lien <span class='inline-code'>script</span>  vers drawSVG et morphSVG ainsi que toutes les instructions JavaScript qui y font référence. Testez votre page avant de publier en ligne. N'hésitez pas à regarder dans la console pour vérifier qu'il n'y a pas d'erreurs.</alert>
+
+
 
 
 </wiki-page>
