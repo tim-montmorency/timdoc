@@ -93,11 +93,13 @@ Important de suivre les étapes dans l’ordre. </warning>
 Dans votre fichiers script.js, ajoutez des commentaires toute propriété qui font référence à drawSVG, morphSVG (ex /*drawSVG: "0% 100%"*/ ) afin d’éviter des erreurs JS. 
 </checklist>
 
+<warning>Avant de mettre en ligne, ajoutez un <span class='inline-code'>display: none;</span> à <span class='inline-code'>ul.technique-gsap</span> dans votre css.</warning>
+
 
 
 <dots></dots>
 <grostitre>Publication de votre site sur https://tim-momo.com/</grostitre>
-<p>Voir capsule vidéo pour la mise en ligne.</p>
+<p>Voir capsule vidéo pour la mise en ligne disponible dans le wiki du cours 14.</p>
 <!--
 <h3>Attendre le build – cela peut prendre plusieurs minutes.</h3>
 <info> Pour vérifier si votre dernière modifications ont été publiées en ligne, rendez-vous dans la page du répertoire. Repérez <em>Evironnments</em> dans la colonne de droite et cliquez sur "github Pages" sous le titre <em>Evironnments</em>. Dans cette page, vérifiez que la première ligne de la liste qui a la mention “Deployed” a été publiée il y a 1 minute ou très récemment. Rafraichir la page plusieurs fois jusqu’à ce que vous constatiez que ça a été publié. </info>-->
@@ -106,20 +108,20 @@ Dans votre fichiers script.js, ajoutez des commentaires toute propriété qui fo
 
 <dots></dots>
 <grostitre>Testez votre page web avec PageSpeed Insights</grostitre>
-<p>Avec le URL généré par github Page, générez un rapport PageSpeedInsights via <a href="https://pagespeed.web.dev/" target="_blank" rel="noopener noreferrer">https://pagespeed.web.dev/</a></p>
+<p>Avec le URL de votre site web (https://votreprenom.tim-momo.com), générez un rapport PageSpeedInsights via <a href="https://pagespeed.web.dev/" target="_blank" rel="noopener noreferrer">https://pagespeed.web.dev/</a></p>
 
 <dots></dots>
 <grostitre>Plan et documentation d’optimisation </grostitre>
-<checklist>Créez un document Markdown à la racide de votre projet nommé rapport-optimisation.md  Tout dans le documetn Markdown doit être rédigé en Markdown et non en HTML ou autre langage.  Ajoutez-y:
+<checklist>Créez un document Markdown à la racide de votre projet nommé <em>rapport-optimisation.md</em>.  Tout dans le dans ce document  doit être rédigé en Markdown et non en HTML ou autre langage.  Ajoutez-y:
 Titre niveau 1 :<br>- “Rapport d’optimisation du projet ScrollyTelling” (sans les guillemets)
-Lien : <br>- Dans PageSpeed Insights, cliquez sur Copiez le lien en haut à droite.   <br>- Dans votre fichier Markdown, créez un lien, collez-y le lien copié.<br>- Le texte de ce lien sera : “Page Speed Insights - Rapport du 5 mai 2023, 15:01:06” (la partie “Rapport du 5 mai 2023, 15:01:06” est en fait une copie de la ligne équivalente qui a été générée dans votre rapport). 
+Lien : <br>- Dans votre rapport généré de PageSpeed Insights, cliquez sur <em>Copiez le lien</em> en haut à droite.   <br>- Dans votre fichier Markdown, créez un lien, collez-y le lien de votre rapport PageSpeed Insights.<br>- Le texte de ce lien sera : “Page Speed Insights - Rapport du 6 mai 2024, 15:01:06” (la partie “Rapport du 6 mai 2024, 15:01:06” est en fait une copie de la ligne équivalente qui a été générée dans votre rapport). 
 </checklist>
 
 <checklist>À partir du rapport Page Speed Insight, sélectionnez 3 éléments à corriger qui vont avoir le plus d’impact dans l’optimisation de la performance. 
 Dans le document Markdown,  pour <strong>chacun des 3 éléments</strong>:
 Ajoutez un titre de niveau 2 : <br>- “Problème #1” (ou 2 ou 3) (sans les guillemets).  
 Sous lequel vous allez devoir ajouter deux titres de niveau 3 :<br>- Nom du problème (écrivez le nom du problème et non le texte non du problème) <br>- “Action concrète pour résoudre le problème” (sans les guillemets) 
-Sous le titre "Nom du problème", écrivez, dans vos mots le problème à résoudre (pas de copier-coller de ce que vous voyez à l’écran dans Page Speed).  SI vous ne le comprenez pas bien, allez lire sur le sujet, On vous donne toujours des liens pour en savoir plus sur chaque sujet en question. 
+Sous le titre "Nom du problème", écrivez, dans vos mots le problème à résoudre (pas de copier-coller de ce que vous voyez à l’écran dans Page Speed).  Si vous ne le comprenez pas bien, allez lire sur le sujet. Dans le rapport PageSpeed Insights, vous donne toujours des liens pour en savoir plus sur chaque sujet en question. 
 Sous le titre "Action concrète...", écrivez, dans vos mots la ou les actions concrètes pour régler le problème ou améliorer la situation. Soyez précis, nommez les fichiers que vous allez changer, nommez bien les fichiers ou ressources concernées afin que ce soit super clair pour un tierce partie qui lirait votre documentation. 
 </checklist>
 
@@ -132,14 +134,12 @@ Sous le titre "Action concrète...", écrivez, dans vos mots la ou les actions c
 
 <grostitre>Exécutez votre plan.</grostitre>
 
-<checklist>Sous chaque section Problème #1 etc, ajoutez un troisième titre de niveau 3 “Résultat” et décrivez ce que vous avez fait concrètement et si vous avez réussi ou non à résoudre le problème. </checklist>
-
-
+<checklist>À la fin de chaque section Problème #1 etc, ajoutez un troisième titre de niveau 3 “Résultat” et décrivez ce que vous avez fait concrètement et si vous avez réussi ou non à résoudre le problème. </checklist>
 
 <dots></dots>
 <grostitre>Optimisation des médias </grostitre>
-<checklist>Créez une Actions Photoshop pour optimiser toutes vos images d'arrière-plan de chapitre.
-  Optimisez toutes ces images d'arrière-plan de chapitre via un traitement par lots avec cette Action Photoshop.
+<checklist>Pour vos images en jpg et png, créez une Actions Photoshop pour optimiser le poids et la taille des images de grande dimension telles que vos images d'arrière-plan de chapitre.
+  Optimisez toutes ces images via un traitement par lots avec cette Action Photoshop.
   Faites de même pour d'autres images à optimiser, si vous n'avez pas besoin de changer leur taille, vous pouvez le faire, ne serait-ce que pour réduire leur poids via une compression complémentaire png ou jpg.
 </checklist>
         <div class="intlink__item">
@@ -150,12 +150,40 @@ Sous le titre "Action concrète...", écrivez, dans vos mots la ou les actions c
             </div>
         </div>
 
+<dots></dots>
+<grostitre>Optimisation des spritesheets créées dans After Effects</grostitre>
+<checklist>Certaines spritesheets ont été créées dans After Effect à une cadence de 24 ou même 30 images par seconde. Ce qui en résulte: des fichiers images avec un poids monstrueux! Si tel est le cas, retournez dans AE, diminuez le framerate de votre composition à 12 ou même 6 images/seconde et ré-exportez vos images pour recomposer votre spritesheet.
+Évitez aussi que la taille de la composition ne dépasse les 500px X 500px.
+Si vous changez le framerate et ré-exportez votre spritesheet, vous devrez, évidemment, ajuster le nombre de <span class='inline-code'>steps</span> dans votre css pour le nouveau nombre d'images clé de votre nouvelle spritesheet.
+</checklist>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../p2-1b/images/icon.svg);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../p2-1b/#video-ae-spritesheet">P2.1b Éléments graphiques</a></span>
+                <span class="intlink__item__abstract">Réalisation de vos éléments graphiques</span>
+            </div>
+        </div>
+
+
+<dots></dots>
+<grostitre>Appliquez le chargement différé sur vos images</grostitre>
+<p>Le chargement différé (lazy loading en anglais) est une stratégie d'identification des ressources non critiques (comme des images) afin de ne les charger qu'au moment où elles sont utiles. C'est une façon de réduire le temps de chargemen de la page et de faire en sorte qu'on ne charge pas des images inutilement.</p>
+<p>L'attribut <span class='inline-code'>loading</span> utilisé sur un élément <span class='inline-code'>&lt;img&gt;</span> peut être utilisé pour demander au navigateur de différer le chargement des images  qui se situent en dehors de la zone affichée à l'écran, jusqu'à ce que la personne visitant le site ne les affiche en faisant défiler la page.
+</p>
+<highlight lang="html">&lt;img src=&quot;image.jpg&quot; alt=&quot;...&quot; loading=&quot;lazy&quot;&gt;</highlight>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../optimisation/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../optimisation/chargement-images-progressif/">5-Chargement d'image progressif</a></span>
+                <span class="intlink__item__abstract">Chargement d'image progressif ou lazy laoding</span>
+            </div>
+        </div>
 
 
 <dots></dots>
 <grostitre>Minifiez vos CSS et JavaScript</grostitre>
 <checklist>Avec une extention VS Code ou un outil en ligne, créez une version minifiée de votre fichier styles.css que vous nommerez styles.min.css et une version minifiée de scripts.js que vous nommerez scripts.min.js.  
-N'oubliez pas de changer les liens vers ces style et scripts minifiés dans votre HTML.
+N'oubliez pas de changer les liens vers ces styles et scripts minifiés dans votre HTML.
 </checklist>
         <div class="intlink__item">
             <div class="intlink__item__icon" style="background-image: url(../../optimisation/images/icon.webp);"></div>
@@ -171,12 +199,12 @@ N'oubliez pas de changer les liens vers ces style et scripts minifiés dans votr
 
 <dots></dots>
 <grostitre>Publiez vos changements </grostitre>
-<p>Repoussez vos modification sur le site publié en ligne sur GitHub Pages : simplement faire un push sur la branche qui est publiée sur GitHub Pages. </p>
+<p>Déployez vos modifications sur le serveur tim-momo.com : écrasez simplement l'ancienne version de vos fichiers préalablement publiés). </p>
 
-
+<!--
 <h3>Attendre le build – cela peut prendre plusieurs minutes.</h3> 
 
-<info> Pour vérifier si votre dernière modifications ont été publiées en ligne, rendez-vous dans la page du répertoire. Repérez <em>Evironnments</em> dans la colonne de droite et cliquez sur "github Pages" sous le titre <em>Evironnments</em>. Dans cette page, vérifiez que la première ligne de la liste qui a la mention “Deployed” a été publiée il y a 1 minute ou très récemment. Rafraichir la page plusieurs fois jusqu’à ce que vous constatiez que ça a été publié. </info> 
+<info> Pour vérifier si votre dernière modifications ont été publiées en ligne, rendez-vous dans la page du répertoire. Repérez <em>Evironnments</em> dans la colonne de droite et cliquez sur "github Pages" sous le titre <em>Evironnments</em>. Dans cette page, vérifiez que la première ligne de la liste qui a la mention “Deployed” a été publiée il y a 1 minute ou très récemment. Rafraichir la page plusieurs fois jusqu’à ce que vous constatiez que ça a été publié. </info> -->
 
 <dots></dots>
 
@@ -188,15 +216,23 @@ N'oubliez pas de changer les liens vers ces style et scripts minifiés dans votr
 <dots></dots>
 <grostitre>Pour conclure, dans le fichier MarkDown</grostitre>
 <checklist>Ajoutez un titre de niveau 2 à la toute fin: <br>- “Rapport projet ScrollyTelling après optimisation” 
-Ajoutez le lien :<br>- Dans le nouveau rapport PageSpeed Insights, cliquez sur Copiez le lien en haut à droite.<br>- Dans votre fichier Markdown, créez un lien, collez-y le lien copié.<br>-  Le texte de ce lien sera : “Page Speed Insights - Rapport du 5 mai 2023, 17:50:00” (la partie “Rapport du 5 mai 2023, 17:50:00” est en fait une copie de la ligne équivalente qui a été générée dans votre rapport). 
+Ajoutez le lien :<br>- Dans le nouveau rapport PageSpeed Insights, cliquez sur Copiez le lien en haut à droite.<br>- Dans votre fichier Markdown, créez un lien, collez-y le lien copié.<br>-  Le texte de ce lien sera : “Page Speed Insights - Rapport du 6 mai 2024, 17:50:00” (la partie “Rapport du 6 mai 2024, 17:50:00” est en fait une copie de la ligne équivalente qui a été générée dans votre rapport). 
+</checklist>
+
+<dots></dots>
+<grostitre>Préparation de la remise finale</grostitre>
+<warning>À faire lorsque vous aurez tout complété P2.3a, P2.3b et P2.3c et couvert ce qui a été discuté en rencontre avec moi au cours 14.</warning>
+<checklist>Republiez en ligne (tim-momo.com) vos dernières modifications et optimisations. Dans cette version, vous devez avoir commenté ce qui fait référence à drawSVG et morphSVG. Vous devrez aussi sur cette version avoir caché <span class='inline-code'>ul.technique-gsap</span> à l'aide d'une <span class='inline-code'>display: none;</span>.
+Avec cette version, créez une branche git nommée <em>live</em>. Commitez et pousser vers github.
+Créez ensuite une autre branche git nommée <em>final</em>, décommentez tout ce qui a un lien avec drawSVG et morphSVG. Réaffichez <span class='inline-code'>ul.technique-gsap</span>. Commitez et pousser vers github. Ce sera la version que vous allez présenter en classe au cours 15.
 </checklist>
 
 
 
 <dots></dots>
 <grostitre>Remise (après avoir comptété P2.3a, P2.3b et P2.3c)</grostitre>
-<p>Remettez ce devoir sur une nouvelle branche nommée P2-3</p>
-<p>Dans Teams>Devoir, déposez le lien de votre répertoire git individuel, basé sur la branche P2-3. Vous devez aussi y déposer le URL de votre site publié sur GitHub Pages (vous référer aux instructions de P2.3c pour les détails).</p>
+<p>Dans Teams>Devoir, déposez le lien de votre répertoire git individuel. </p>
+<p> Vous devez aussi y déposer le URL de votre site publié en ligne sur tim-momo.com.</p>
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
 
@@ -226,6 +262,13 @@ Ajoutez le lien :<br>- Dans le nouveau rapport PageSpeed Insights, cliquez sur C
             <div class="intlink__item__description">
                 <span class="intlink__item__title"><a target="_blank" href="../../optimisation/optimisation-des-medias/">4-Optimisation des médias</a></span>
                 <span class="intlink__item__abstract">Optimiser rapport poids/qualité de vos images...</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../optimisation/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../optimisation/chargement-images-progressif/">5-Chargement d'image progressif</a></span>
+                <span class="intlink__item__abstract">Chargement d'image progressif ou lazy laoding</span>
             </div>
         </div>
 

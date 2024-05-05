@@ -1017,7 +1017,7 @@
  \_____\___/ \__,_|_|  |___/  |_|____|
  ----------------------------------->
 <wiki-page name="Cours 12" date="2024-04-20">
-<grostitre>Annonces (prochaines étapes)</grostitre>
+    <grostitre>Annonces (prochaines étapes)</grostitre>
     <ul>
         <li>Remise Projet2.2 (a et b) dans 2 semaines le <em>29 avril</em>. Évaluation individuelle. Valeur de cette remise 12%.</li>
     </ul>
@@ -1182,24 +1182,38 @@
  ----------------------------------->
 
 <wiki-page name="Cours 14" date="2024-05-03">
-    <grostitre>Révision et évaluation formative (quiz DOUBLE)</grostitre>
-    <p>Lien à venir</p>
+
+    <info>
+        <h3>Date d'examen final !</h3>
+        <p>Groupe 2: 17 mai de 9h à 12:30 <br> Groupe 1: 17 mai de 13h à 16:30</p>
+        <p>LOCAL: C-1639</p>
+    </info>
 
 
     <dots></dots>
-    <grostitre>Pratiques d'examen</grostitre>
-    <p>Lien à venir</p>
+    <grostitre>Révision et évaluation formative (quiz)</grostitre>
+    <p><a href="https://app.wooclap.com/OPLBDZ/questionnaires/6638027631e437b7fa80d616" target="_blank" rel="noopener noreferrer">Quiz asyncrone</a></p>
 
 
-    <dots></dots>
-    <grostitre>Projet 2 - Scrollytelling</grostitre>
-    <intlink href='../projet-scrollytelling/p2-3c/'></intlink>
-  
+
+
 
     <dots></dots>
     <grostitre>Hébergement web - Déployer votre site sur le serveur</grostitre>
-    <p>Capsule vidéo: <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZd7jM8DNIZHndllts3nA0cBtrrGG2NBLBOuO7svWXVjug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tvSTgt" target="_blank" rel="noopener noreferrer">comment mettre vos site web sur le serveur.</a></p>
-    <alert>Avanet de mettre en ligne, n'oubliez pas de commenter le lien <span class='inline-code'>script</span>  vers drawSVG et morphSVG ainsi que toutes les instructions JavaScript qui y font référence. Testez votre page avant de publier en ligne. N'hésitez pas à regarder dans la console pour vérifier qu'il n'y a pas d'erreurs.</alert>
+    <p>Capsule vidéo: <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZd7jM8DNIZHndllts3nA0cBtrrGG2NBLBOuO7svWXVjug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tvSTgt" target="_blank" rel="noopener noreferrer">comment mettre en ligne votre site web sur le serveur d'hébergement web.</a></p>
+
+
+    <alert>Avant de mettre en ligne, n'oubliez pas de commenter le lien <span class='inline-code'>script</span> vers drawSVG et morphSVG ainsi que toutes les instructions JavaScript qui y font référence. Testez votre page avant de publier en ligne. N'hésitez pas à regarder dans la console pour vérifier qu'il n'y a pas d'erreurs.</alert>
+
+    <warning>Avant de mettre en ligne, ajoutez un <span class='inline-code'>display: none;</span> à <span class='inline-code'>ul.technique-gsap</span> dans votre css.</warning>
+
+
+    <dots></dots>
+    <grostitre>Projet 2 - Scrollytelling - Optimisation</grostitre>
+    <intlink href='../projet-scrollytelling/p2-3c/'></intlink>
+
+    <info>Rappel: Remise finale au prochain cours et présentation orale de votre projet.</info>
+  
 
 
 
@@ -1220,11 +1234,17 @@
 <wiki-page name="Cours 15" date="2024-05-10">
     <info>
         <h3>Date d'examen final !</h3>
-        <p>Groupe 2: 17 mai de 8h à 11:30 <br> Groupe 1: 17 mai de 13h à 16:30</p>
+        <p>Groupe 2: 17 mai de 9h à 12:30 <br> Groupe 1: 17 mai de 13h à 16:30</p>
         <p>LOCAL: C-1639</p>
     </info>
 
     <grostitre>Révision et évaluation formative (quiz)</grostitre>
+
+    <dots></dots>
+    <grostitre>Pratiques d'examen</grostitre>
+    <p>Lien à venir</p>
+
+
 
 
 </wiki-page>
