@@ -1231,14 +1231,33 @@
                                                                       
  ----------------------------------->
 
-<wiki-page name="Cours 15" date="2024-05-10">
+<wiki-page name="Cours 15" date="2024-05-07">
     <info>
         <h3>Date d'examen final !</h3>
         <p>Groupe 2: 17 mai de 9h à 12:30 <br> Groupe 1: 17 mai de 13h à 16:30</p>
         <p>LOCAL: C-1639</p>
     </info>
 
-    <grostitre>Révision et évaluation formative (quiz)</grostitre>
+
+    <dots></dots>
+    <grostitre>Projet 2 - Scrollytelling - Remise finale</grostitre>
+    <intlink href='../projet-scrollytelling/p2-3c/'></intlink>
+
+    <alert>Votre projet dois être 100% fonctionnel lorsqu'on clique sur <em>index.html</em> (donc sans passer par <em>Live Server</em> de Visual Studio Code).</alert>
+
+    <h3>Présentation du projet - Environ 7 min par personne</h3>
+
+
+    <p>Simplement faire la démo de la version de la branche "final" que j’aurai téléchargé sur le poste du professeur en avant. La branche "final", c'est la version qui inclut drawSVG et morphSVG, tout est fonctionnel et on peut voir en haut à gauche le petit carré "techniques-gsap" visible.</p>
+
+    <p>Donc en 2 temps:</p>
+    <ol>
+        <li>Racontez-nous votre histoire, chapitre par chapitre (lire le texte ou interprétez un sous-texte si vous le souhaitez).</li>
+        <li>Remontez en haut et cette fois, expliquez chapitre par chapitre quelles sont les techniques d'animation GSAP que vous avez utilisées et programmées.</li>
+    </ol>
+
+
+
 
     <dots></dots>
     <grostitre>Pratiques d'examen</grostitre>
