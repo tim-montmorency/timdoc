@@ -16,7 +16,7 @@
 <grostitre>Matériel</grostitre>
 <p>Téléchargez et ouvrez le fichier illustrator suivant:</p>
 
-<doclink href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXAVTDGZTJhPiCFMezI5FC0Bfdaq3mb1pwKDdT0JcUWbuA?e=i7gThc">Document de départ</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/ESYbthj7WYtGv_RxyR4nAA0BNrpXLvswMnxJ1ztSHJ7nww?e=xjat2Z">Document de départ</doclink>
 
 <dots></dots>
 
