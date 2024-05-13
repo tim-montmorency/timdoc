@@ -9,66 +9,67 @@
 
 <wiki-page name="Ressources">
 <h2>Plan de cours</h2>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EdopHf_gqUpMkCooBeQkNbYBvLzdluLFHTZlqvJCbEO0Fw?e=BdcIE0">Plan de cours</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:b:/s/TIM-582214-Animation2d77/EWeZmextzqlJsAGqh4mi7tsBscrwtlhW3QrCd_CzIuInQA?e=sV13NN">Plan de cours</doclink>
 
 <h2>Ressources</h2>
 
 
- <p><doclink href=" https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/ErQS-8KVzY9KldeDKlLTZDEBP1UkfOSBD6vNizrl57Ht1Q?e=1TFDah">Nomenclature</doclink></p>
+ <p><doclink href=" https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EroPEQz5CaZLpvGaQ0BK7foBdPGf2aoAMNaE809KuBt-1Q?e=eJGnRi">Nomenclature</doclink></p>
 
- <p><doclink href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EdwoU9uyDHtOlo2NAj-dTl0BWD9yZXXeU3pEbSbamtwg3Q?e=ykPotb">Template After Effects</doclink></p>
+ <p><doclink href="https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EQB_2AuJ605GsE_vsQJ49aQBtxYRRxM_KdRwQjB1v-eQLQ?e=VHG74j">Template After Effects</doclink></p>
 
- <p><doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Et_EFtQUikhFhZE21nJA9toBfJC1eRCa7Tk2QVzlVwENbA?e=WoCENG">Capsules</doclink></p>
+ <p><doclink href="https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Eh9GFjQFbJVMkcG541SEx8QBmm6lU6TdgnFmsUp5gm2DeA?e=0Vcjyb">Capsules</doclink></p>
 
- <p><doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EoRmAAmEBiRDtijCBsPOkQsBP1UJcIwqGqYH29MzlSjvNw?e=MvXMTk">Exercices</doclink></p>
+ <p><doclink href="https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/ErqzzBFW7jBGq0W-Ldw819cBX6O0G2yYJvK18yTF2MzJ-A?e=jlt81N">Exercices</doclink></p>
 
  <p><doclink href="https://teams.microsoft.com/l/channel/19%3A0df14bbe83b542679a319fb4fa0dcea8%40thread.tacv2/tab%3A%3A9a8e708c-0d50-445f-8661-476b729789eb?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d&allowXTenantAccess=false ">Guide étudiant</doclink></p>
 
- <p><doclink href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXxkcCZZi-1LtFH4yqBITp0B58Ol9iG5NkSAViA2F-yzaQ?e=T26pWd">Banque d'images</doclink></p>
+ <p><doclink href="https://cmontmorency365.sharepoint.com/:w:/s/TIM-582214-Animation2d77/EVmAFEM-bOJJokISLRX6l1IBYIwplaAK67tmsLr6Vnnm3A?e=bXBYbh">Banque d'images</doclink></p>
  
- <p><doclink href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETVYGpLkIbNGq0Med5zFGhwBFv6yPgUV6p1m5imBpPufWQ?e=rSv6lW">Palettes de couleur</doclink></p>
+ <p><doclink href="https://cmontmorency365.sharepoint.com/:w:/s/TIM-582214-Animation2d77/EYE5_CzNcgVCphAm1NvoHN4BMOkA0aJSJm2GKCVeaedcaA?e=rQZR6H">Palettes de couleur</doclink></p>
 
- <p><doclink href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/lora_boisvert_cmontmorency_qc_ca/ESwlh3-qQuFBkeHZaZ0Mi3sBBkcHwpoONTcZOf58WMK5fg?e=6DRq5P">Police de caractère</doclink></p>
+ <p><doclink href="https://cmontmorency365.sharepoint.com/:w:/s/TIM-582214-Animation2d77/EVYXEkURZ01BhDSSzJsr1HYBLaHvaW6ttDpx97LP7ItnOw?e=Hr7ErT">Police de caractère</doclink></p>
 
 </wiki-page>
 
 <wiki-page name="Cours 01">
 <h2>Plan de cours</h2>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EdopHf_gqUpMkCooBeQkNbYBvLzdluLFHTZlqvJCbEO0Fw?e=BdcIE0">Plan de cours</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:b:/s/TIM-582214-Animation2d77/EWeZmextzqlJsAGqh4mi7tsBscrwtlhW3QrCd_CzIuInQA?e=sV13NN">Plan de cours</doclink>
 
-<h2>Introduction à l'animation</h2>
+<h2>Introduction à l'animation - Lora</h2>
 <doclink href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ec_RF5ZJ5A5EksrsMxbaea8BhOe1vZTRc_xzGgMddNq_BQ?e=H6mjL1">Présentation</doclink>
+
 <dots></dots>
 <p><h1>Illustrator</h1></p>
 <p><h3>La base:</h3>
 <li><a href="https://www.apple.com/xf/shop/product/MK293FC/A/magic-keyboard-avec-touch-id-pour-mac-%C3%A0-puce-apple-fran%C3%A7ais">Rappel: le clavier MAC</a> </li>
 <li><a href="https://helpx.adobe.com/ca_fr/illustrator/using/default-keyboard-shortcuts.html">Les raccourcis Illustrator</a></li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EVnQA5cgifFPjKib9jl9EWgBqLvUxXlvbuOQrkKHgrQlpw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uWlU2I">Création de projet</a></li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EaAfO8PV6U5GnZ_YpSCROMcBP1xgdzcNHxydsiLW_epfaQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GdEa3r">Présentation de l'interface</a></li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfkLEPFdMflOkZFo_VFPIowBDS9Uy0eNpR-sRRqhbllHXA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hMiBmu">Espace de travail</a> </li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EbvSPXSwFrRCgPgrHBQMe1EBN5nWTKmFT8Lw24t2QItSOQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NCA1Ta">Navigation dans l'espace</a>  </li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ec_rbMkHyPBBvgFQjclkt9UBpKUccuN-dJ7TEJ8krDsadw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lo2xw0">Panneau de propriété</a> </li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EYQP640Gvk1Io5vcoV_zgqoBA92BIHo2huUGZsQNuaRwHA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=I53OUP">Format du plan de travail</a> </li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXTRSs_fiKxGjNfFjZJ8ljoBcjQuy_50ByhRSvjOanlNmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3anlj5">Règles et repères</a> </li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EVZ3fEbaJS1Cv0YL7uDlIR8BCMuohWMndfR5I5SmYWQUmA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=c7zFEM">Calques</a> </li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EVmoKapTOL1Am-kdZ2p9yTYBpBSGgi6B7rUxMS46wNZfLw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=h5nd9q">Naviguer sous les calques</a> </li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ES5ddJzsh91LrbRnu6N642EBaWL34-pCoxRj9pk49v7VGg?e=kCswfy">Création de projet</a></li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcWxaKyOey9FiYqmafpdPz8B9hVhRJb88p_nxjLAEDctPA?e=FyjWXf">Présentation de l'interface</a></li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EU9vhuwP9-FChhvKBO4eAkYBkOffUVN3oSVgvquohjvP-Q?e=pbtden">Espace de travail</a> </li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdzZLfIhGG9GmDUD2nGWcgMBHbPFCwI8MMfUV5dnha9fEA?e=HNhpXb">Navigation dans l'espace</a>  </li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EW_j7oaAnARLhmrcNtRhtg8BdoRPKLmP0eUcaETmwtS-2w?e=NjbWbt">Panneau de propriété</a> </li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETw2wfv38RlKsRFtHQip1aEB9x3zN4ainpbDqGPK9q-ImQ?e=ta4Dgu">Format du plan de travail</a> </li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVWn5aelFqpOv_9d1i0JF78BymFyM5Ss_7aDn8zNncEsLA?e=RKKLMO">Règles et repères</a> </li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXbsq2fkhm9Ls9JeLlNmDhoBkZR8xBtMFOQl2qPzn7TNkQ?e=WF6FvR">Calques</a> </li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVevKy3jqq5KjV1rBFfBoGkBrFqKDurwihI2ObQDx-kIxw?e=6fCpJ5">Naviguer sous les calques</a> </li>
 </p>
 <exercice href="../exercices/00_nouveau_doc"></exercice>
 <dots></dots>
 
 <p><h3>Notions</h3>
 <ul><li>
-<a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EU0kRhCBMWVPsh8m6keQhlsB8fIFBAK74lXp5vEB5hx6_w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=s7A6Va">Sélection (V)</a>
+<a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EaM75QxzM9pBg9iYuG01uo8BGFVDSQtsSrFA6fXz2j2Jsw?e=xVHOsn">Sélection (V)</a>
     <ul>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EaKP9yYnPTpEoh_yddzpJC4B9ellymRtLUtNJ97TKwNMKw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GY5rDx">Isoler un calque</a></li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ed196b1M9uhEn9dVJvpmJHMBj8tsefsrisNFJtU15GAaPQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wd00CU">Sélection groupe</a></li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EbjElj6niBBHqjix8_4FevMBZUcwYO-Vegs4PGlfIBPRTg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fKv6i9">Raccourci</a></li>
+        <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EaZRkD8yyZxKjHLwzrjosvcBiqekxjsvFSqdn1JwwkwSrA?e=JxSc1w">Isoler un calque</a></li>
+        <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERskOIzx8thBu_Z6Tom8z9EBd4UsYweOJA5eEjBLhsZ-8g?e=qdnQ6D">Sélection groupe</a></li>
+        <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYw6eGTqZcZIkydVYmrKIQcBihC_ALXe1E0nPVuDnDN5fg?e=2peWP9">Raccourci</a></li>
     </ul>
 </li>
 <li>
-    <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EUVj45g17lVCjWCqx8-RVewBLgc5A5gHN6w5g8o_gwe8Qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4zYjA8">Sélection directe (A)</a>
+    <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EQbG5xgPIDlFh8gKp_bCcVcBDbhXN4hySTLMdBt-QKJP4g?e=iSHEmI">Sélection directe (A)</a>
     <ul>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EeRvqyh6kw5HksjUWtraQKABEmY7O5T7EODF0iyMJp_-kg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=c1wR8y">Sélection progressive</a></li>
+        <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ESVH-vYG0LhOvJF1E-1TfNEBBnzLVTHqTm8ULnFC1B_X3w?e=Myy2SJ">Sélection progressive</a></li>
         
         
     </ul>
@@ -78,11 +79,11 @@
 <dots></dots>
 <p><h3>Notions</h3>
 <ul>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EevCtl5GSWFGubF4QfVpe2IBTpMxg1f3jhHTf_peihuLMw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=57t3p2">Baguette magique</a></li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ee8CHJixud1Kq9dR1W2bhxMBkFZy20Y_Swo6roHPu4UQ5A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JMWcEu">Lasso</a></li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EemHfaYX_2JFvrIiHEaHnrgBD8LIWXs7ZQo6kDV4Vb6EHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ClE92P">Importation d'images</a></li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ep8BeVzQLlZDg5BIfvAKrUoBtNe1LXYO1GXyw4a8HTPBMg?e=kRMrBT">Plume (P)</a></li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EeZQaEw76_tHurXeny4QgVcBIdc_WGnyfiliKSjMGZTU5w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mnB1qS">Courbure</a></li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EaDI5ZSDJzhEnBU3VXJ1zt8B47tGZ8ZoJeTMfisebov2BQ?e=328kHA">Baguette magique</a></li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeMB16q9Y2ZFiWqmSSqHNegBE6-OskRpaw1nPyw1g-vFtw?e=lTym2X">Lasso</a></li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EadRHPzIucxFlI28D5gO0RgBIs3IZJ5KfBvqZThd9ODvNQ?e=8N6CPd">Importation d'images</a></li>
+<li><a href="https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Eq8ZhUw3cV1IqNyni40oEZgBdq_dNHTLU51tnAMLyqFmAw?e=lwBTZr">Plume (P)</a></li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdEBCUstOuBDm53ceqGbNVsBIwBWuH7GxkZr7qhPyYix9w?e=Wdug0F">Courbure</a></li>
 
 </ul></p>
 <exercice href="../exercices/01_plume"></exercice>
@@ -92,8 +93,8 @@
 
 <p><h3>Notions</h3>
 <ul>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ERZVOLnKWZ9AnueCKjV1Wl8BmdRWDGXgeqTWKyFirHQ90Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aKaNvx">Largeur (Shift + w)</a></li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Eejk5C1RXQlMjlZrs_AKT0gBOjbYUu05trsiJEeagXJ5kg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YdLbnB">Déformation</a></li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXSERtnu2vROpH40Q_RYJawBqrU7VpFVz6UKNfY2cHf-jg?e=btRNie">Largeur (Shift + w)</a></li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZmlrOHAd7FBtB25jLFiV_0BmUID-i4BWHGGLEprKZshfA?e=pRgl4O">Déformation</a></li>
 
 </ul></p>
 
@@ -102,23 +103,23 @@
 <dots></dots>
 <p><h3>Notions</h3>
 <ul>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EaaItvDVpExOu5BNVS_ZkQsBY2_fx3q0bVrhgEjzG1vbPw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EhTwnB">Rectangle (M)</a></li>
-<li>Cercle</li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXCR5KE4kpdHuxLVILMzPUsBUGV8ACz-0y4P5u0PPow2Mg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4b8184">Étoile</a></li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfsqdezytatClCWMdjbRG78BYPRizbzceaM_zY0-DqzPaQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=to8TiM">Polygone</a></li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Eb-7T42ovvFMkStA36O6dzQBWS7HC3U4pxZLeUJ3Agfnbg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=RhOeEp">Trait</a></li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EYIqxAL6_0tEmnQ7DiuVw2QBMjDHgSc5YdVoxHefU5XVvQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8gA1kx">Arc</a></li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Eea2bozB1bRLlT4weJaAr5MBhv-FPeZNxi6d3qKUd1-pxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1h34BG">Spirale</a></li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ef9XJIbhw6NJrDGliCcXWKkBPgkfAfLwnRLD7uKB643Bog?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=z8F6uX">Spirale Couleur</a></li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EcviPEP47J1Ogf4meoaxu-8B_61xVEBiwBvqUVY45Nrcng?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2PqhC9">Grille</a></li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EQxYAeW4G51FsiXGcDGOIP8B93DnMnndzRLxt_a8R8zBRA?e=h0kTU7">Rectangle (M)</a></li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EQxYAeW4G51FsiXGcDGOIP8B93DnMnndzRLxt_a8R8zBRA?e=h0kTU7">Cercle</a></li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZX2hwnkga5Gs40mBRIsmoQBsl7C88Qf5870TUvM2Gjyeg?e=MF0Bze">Étoile</a></li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERjFIyvRbdxIqUXUJpZVPcUBtV3y_unzAOcQfgW_wkPMuA?e=aTTyb3">Polygone</a></li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXEsMNgXyytBmvfM-W-rAU0BlKyCj0UZ6NrlleE5KkscPA?e=J5oJJS">Trait</a></li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EfarjMb3n4lAmQ9Txg6PEzIBBe1vFkONITW7pvHF-ozADg?e=nDRVjK">Arc</a></li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Edkspx-v4p1PmUDZyI3cL1gBR6oyBkE1JzqiYCe5DbCy1w?e=lascoq">Spirale</a></li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVvP-2-lo8xCpKIDD85Uq7oBptG0p31i7O2kOMlK_Zisuw?e=XXtB9F">Spirale Couleur</a></li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZxC7yf3LLJOoTvcyrN8-goBY7ikG1LdrwOMO_LEQFI55Q?e=3gB2at">Grille</a></li>
 </ul></p>
 
 <exercice href="../exercices/03_formes"></exercice>
 <dots></dots>
 <p><h3>Notions</h3>
 <ul>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ee6RUC1KgXZJvW3xvuQPQLoB83RPFW_S_Uwa4TfmfxgMQg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZTgx4C">Ciseaux</a></li>
-<li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EQRqWpaA_5tOlGmXgrD1h34BgPnwPVblShxbOhJBFMA2CA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VNeELn">Sauvegarde</a></li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbCiUHz89vNHlZJ-rFlhNgwBJBLCcG1O-b1DYVpIU9SLoQ?e=ZVYIng">Ciseaux</a></li>
+<li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ebuc6WA8nGRMsnv43au4gMoBDTC54PbZ3yWDyaoZYMl4Rw?e=M3af7U">Sauvegarde</a></li>
 <dots></dots>
 <p><h3>Devoir</h3>
 </ul></p>
