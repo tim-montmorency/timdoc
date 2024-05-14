@@ -2,7 +2,5 @@
     "type": "exercice",
     "title": "Le papillon",
     "icon": "images\/thumb.jpg",
-    "abstract": "Cet exercice vous permettra d'utiliser le crayon pour tracer un papillon.",
-    "index": 0,
-    "href": "06_papillon\/"
+    "abstract": "Cet exercice vous permettra d'utiliser le crayon pour tracer un papillon."
 }

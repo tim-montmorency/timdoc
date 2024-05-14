@@ -16,7 +16,7 @@
 <grostitre>Matériel</grostitre>
 
 <p>Ouvre ton exercice de paysage du cours 01 ou télécharge le document suivant et ouvre le dans Illustrator:</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXAVTDGZTJhPiCFMezI5FC0Bfdaq3mb1pwKDdT0JcUWbuA?e=i7gThc">Document de départ</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/ESYbthj7WYtGv_RxyR4nAA0BNrpXLvswMnxJ1ztSHJ7nww?e=r6mY0h">Document de départ</doclink>
 
 <dots></dots>
 <grostitre>Palette de couleurs</grostitre>
@@ -43,6 +43,7 @@
 <dots></dots>
 
 <grostitre>Tutoriel 📚</grostitre>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EVqTXnMzCVBGjBKVuyWar1gBYq_WeDsmtjGiztqmUCd4jA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=m9P52L">Nuancier</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ea783BGLQzRBgjwFvcAyOJwBYcbMshlxCp12LoJcARYxSw?e=6QeS24">Nuancier</doclink>
+<iframe src="https://cmontmorency365.sharepoint.com/sites/TIM-582214-Animation2d77/_layouts/15/embed.aspx?UniqueId=11dcfcae-438b-4134-823c-05bdc032389c&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="01_palette_de_couleurs_nuancier.mp4"></iframe>
 
 

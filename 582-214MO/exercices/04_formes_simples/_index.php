@@ -16,7 +16,7 @@
 <grostitre>Matériel</grostitre>
 
 <p>Premièrement, importez cette image dans un fichier Illustrator comme modèle pour votre travail.</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EassnTZGuJBKgbsLFTgzTqMBf9y4rYDgSZxaR-7PKVRpGw?e=6vM8dK">Document de départ</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:b:/s/TIM-582214-Animation2d77/EQNFa_VyhGJOipDJn8fzUZcBp8k2efCOFwU8Mv7JNJOwRA?e=yzquDH">Document de départ</doclink>
 <dots></dots>
 
 <grostitre>Étapes</grostitre>
