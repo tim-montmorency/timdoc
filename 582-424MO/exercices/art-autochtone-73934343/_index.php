@@ -8,6 +8,8 @@
  */
 ?>
 
+<warning>Attention, cet examen comporte 2 parties. Veuillez en tenir compte dans votre gestion du temps. La deuxième partie se trouve <a href="https://tim-montmorency.com/timdoc/582-424MO/exercices/roue-de-fortune-9876501/" target="_blank" rel="noopener noreferrer">sous ce lien</a>.</warning>
+
 <p>Pour cet exercice, nous allons recréer la page d'accueil de ce site sur l'art autochtone. Le contenu textuel et les images sont déjà présents dans index.html et plusieurs styles sont déjà dans styles.css pour vous aider à avancer plus rapidement.</p>
 
 <dots></dots>
@@ -126,6 +128,10 @@ Ajustez les images afin qu'elle s'affichent de façon la plus entière possible 
 </checklist>
 
 
+<warning>Rappel, cet examen comporte 2 parties. Veuillez en tenir compte dans votre gestion du temps. La deuxième partie se trouve <a href="https://tim-montmorency.com/timdoc/582-424MO/exercices/roue-de-fortune-9876501/" target="_blank" rel="noopener noreferrer">sous ce lien</a>.</warning>
+
+
+
 <dots></dots>
 <grostitre>Section présentation</grostitre>
 <checklist>
@@ -136,6 +142,7 @@ Par défaut, chaque colonne s'affiche sur toute la largeur de la page (donc elle
 Dans chaque colonne ajoutez le texte. Les titres seront logés dans une balise <incode>h2</incode> mais avec une classe <incode>.h4</incode> pour leur donner un style plus petit même s'il sont sémantiquement des <incode>h2</incode>. Le texte qui suit, sera un paragraphe.
 Ajoutez des classes utilitaires Bootstrap pour créer l'espacement nécessaire entre chaque élément et section.
 </checklist>
+
 
 
 
@@ -171,7 +178,7 @@ Nul besoin de styliser le texte, il l'est déjà fait.
 Ajoutez des classes utilitaires Bootstrap pour créer l'espacement nécessaire entre chaque élément et section.
 </checklist>
 
-
+<warning>Attention, cet examen comporte 2 parties. Veuillez en tenir compte dans votre gestion du temps. La deuxième partie se trouve <a href="https://tim-montmorency.com/timdoc/582-424MO/exercices/roue-de-fortune-9876501/" target="_blank" rel="noopener noreferrer">sous ce lien</a>.</warning>
 
 
 <grostitre>Remise</grostitre>
