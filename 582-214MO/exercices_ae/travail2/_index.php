@@ -9,7 +9,9 @@
 
 
 <p class="spacer">Créer un sixtyque où l’on retrouve six vidéos qui sont présentées sous forme de mosaïque (3 vidéos – 3 animations). Dans le cadre du cours d’animation 2D, vous devez réaliser les 3 vidéos d’animations vectorielles et un générique d’animation. Le stop motion et les animations doivent se répondre mutuellement au sein d’une même unité visuelle.    </p>
+
 <dots></dots>
+
 <grostitre>Références</grostitre>
 <p>Voici un moodboard de références visuelles pour l'esthétique Bauhaus que vous devez respecter dans votre projet.</p>
 <doclink href="https://pin.it/1ncLa2VPO">Esthétique Bauhaus Françoise </doclink>

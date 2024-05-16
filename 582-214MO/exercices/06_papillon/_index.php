@@ -15,7 +15,7 @@
 <grostitre>Matériel</grostitre>
 
 <p>Premièrement, téléchargez et ouvrez ce fichier Illustrator pour votre travail.</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EdaHmNW57AhDsNyqaGTVm64BU1FgbR_FRHzU4AjZvx-ZVg?e=ZeXNe4">Document de départ</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/ERWJ2rMCjKNGmAHXZypXpvYBZTtmGwQBeIIbfPrL1GzmnQ?e=dpO6KO">Document de départ</doclink>
 
 <dots></dots>
 <grostitre>Étapes</grostitre>

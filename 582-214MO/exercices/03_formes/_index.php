@@ -17,7 +17,7 @@
 
 <grostitre>Matériel de départ</grostitre>
 <p>Téléchargez cette ampoule et importez la comme modèle dans Illustrator:</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:i:/g/personal/lora_boisvert_cmontmorency_qc_ca/EaiBkJ5YsG9EpPBBkb7x0z0B7uae0sAg0whRaOpozHaROQ?e=PruLWo">Ampoule</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:i:/s/TIM-582214-Animation2d77/EWJDOe7GwfdNmE4t6vabQHMBMk61XkA2Fnk7W0Fi0jqGZw?e=6gTmDM">Ampoule</doclink>
 <dots></dots>
 
 
