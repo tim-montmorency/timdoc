@@ -163,6 +163,10 @@ Dans la rangée 3: Ajoutez le texte "Toute l'actualité>>" et ajoutez les classe
 
 
 
+<warning>Rappel, cet examen comporte 2 parties. Veuillez en tenir compte dans votre gestion du temps. La deuxième partie se trouve <a href="https://tim-montmorency.com/timdoc/582-424MO/exercices/roue-de-fortune-9876501/" target="_blank" rel="noopener noreferrer">sous ce lien</a>.</warning>
+
+
+
 <dots></dots>
 <grostitre>Section Emojis - animaux et nature</grostitre>
 <checklist>
@@ -181,11 +185,11 @@ Par défaut les colonnes s'affichent sur toute la largeur de la page (donc elles
 À partir du breakpoint <incode>lg</incode>, elles s'affichent les 3 une à côté de l'autre. 
 Vous pouvez travailler avec le principe de décallage (offset) de Bootstrap pour placer la 2e colonnes qui contient le menu.
 Déposez simplement le contenu textuel qui est prévu pour chaque colonne. 
-Nul besoin de styliser le texte, il l'est déjà fait.
+Nul besoin de styliser le texte, il l'est déjà.
 Ajoutez des classes utilitaires Bootstrap pour créer l'espacement nécessaire entre chaque élément et section.
 </checklist>
 
-<warning>Attention, cet examen comporte 2 parties. Veuillez en tenir compte dans votre gestion du temps. La deuxième partie se trouve <a href="https://tim-montmorency.com/timdoc/582-424MO/exercices/roue-de-fortune-9876501/" target="_blank" rel="noopener noreferrer">sous ce lien</a>.</warning>
+<warning>Rappel, cet examen comporte 2 parties. Veuillez en tenir compte dans votre gestion du temps. La deuxième partie se trouve <a href="https://tim-montmorency.com/timdoc/582-424MO/exercices/roue-de-fortune-9876501/" target="_blank" rel="noopener noreferrer">sous ce lien</a>.</warning>
 
 
 <grostitre>Remise</grostitre>
