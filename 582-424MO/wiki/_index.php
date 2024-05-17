@@ -1272,6 +1272,8 @@
 
 <wiki-page name="Examen" date="2024-05-16">
 
+    <grostitre>Examen final: 25%</grostitre>
+
     <alert>TOUT PLAGIAT EST INTERDIT SOUS PEINE D'ÉCHEC AUTOMATIQUE. La situation est aussi grave chez la personne qui
             copie que la personne qui divulgue.</alert>
     <warning>Chaque groupe classe a sa propre version de l'examen. Ceci étant dit, il est de votre devoir de ne pas communiquer aucune information aux étudiants de l'autres groupe classe en sortant d'ici, c'est du plagiat.</warning>
@@ -1279,6 +1281,6 @@
     <ul>
         <li>Pas de cellulaire, rangez-le!</li>
         <li>Fermez Teams s'il est ouvert. Interdit d'ouvrir Teams. Ni discords. Ni aucun site de clavardage ou de communication.</li>
-        <li>Interdit de consulter des sites avec intelligence artificielle tel que chatGPT.</li>
+        <li>Interdit de consulter des sites d'intelligence artificielle tel que chatGPT.</li>
     </ul>
 </wiki-page>
