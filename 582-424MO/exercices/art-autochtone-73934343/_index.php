@@ -116,7 +116,7 @@ Tous les liens de la navigation doivent mener vers "#".
 <grostitre>Section Hero - Carrousel</grostitre>
 <checklist>
 Ajoutez la librarie SwiperJS au projet (via CDN).
-Ajoutez une balise <incode>main</incode> SOUS la balise <incode>header</incode>. Dans <incode>main</incode>, ajoutez 3 <incode>section</incode>s une en dessous de l'autre, avec les <incode>id</incode>s suivants: hero, presentation, actualite et  emojis-animaux-et-nature (sans accent).
+Ajoutez une balise <incode>main</incode> SOUS la balise <incode>header</incode>. Dans <incode>main</incode>, ajoutez 4 <incode>section</incode>s une en dessous de l'autre, avec les <incode>id</incode>s suivants (sans accent): <br>- hero <br>- presentation <br>- actualite <br>- emojis-animaux-et-nature
 Dans la section <incode>#hero</incode>, ajoutez les balises nécessaires pour faire un carrousel avec Swiper. Il y aura 4 dispositives. Tout le contenu des diapositives est déjà dans la page, vous pouvez le récupérer.
 Stylisez la section <incode>#hero</incode> en CSS et lui attribuant la couleur de la variable <incode>bs-light</incode> en arrière-plan.
 Stylisez le carrousel en CSS pour lui donner une hauteur de 45 pourcent de la hauteur du <em>Viewport Height</em> et une largeur maximum de 1700px.
