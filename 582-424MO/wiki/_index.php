@@ -1276,7 +1276,7 @@
 
     <alert>TOUT PLAGIAT EST INTERDIT SOUS PEINE D'ÉCHEC AUTOMATIQUE. La situation est aussi grave chez la personne qui
             copie que la personne qui divulgue.</alert>
-    <warning>Chaque groupe classe a sa propre version de l'examen. Ceci étant dit, il est de votre devoir de ne pas communiquer aucune information aux étudiants de l'autres groupe classe en sortant d'ici, c'est du plagiat.</warning>
+    <warning>Chaque groupe classe a sa propre version de l'examen. Ceci étant dit, il est de votre devoir de ne pas communiquer aucune information aux étudiants de l'autre groupe classe en sortant d'ici, ce serait considéré comme du plagiat.</warning>
 
     <ul>
         <li>Pas de cellulaire, rangez-le!</li>
