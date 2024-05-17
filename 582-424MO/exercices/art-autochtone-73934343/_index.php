@@ -22,7 +22,7 @@
 <dots></dots>
 
 <grostitre>Matériel</grostitre>
-<doclink href="fichiers/nom_prenom_art-autochtone-base-V2024">Dossier de départ 📁</doclink>
+<doclink href="fichiers/nom_prenom_art-autochtone-base-V2024.zip">Dossier de départ 📁</doclink>
 
 
 <h3 id="Couleurs">Couleurs 🎨</h3>
