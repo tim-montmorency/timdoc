@@ -1,6 +1,6 @@
 <?php
 /**
- * @type     article
+ * @type     exercice
  * @title    Exercice 01_animation_base
  * @icon     images/icon.png
  * @abstract Animations de base
@@ -16,7 +16,7 @@
 <grostitre>Document de départ</grostitre>
 
 <p>Utilisez le fichier importé à l'exercice 00_Importation pour ce projet.</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EYunWc2Q0SVPn7m-owM3EH8B_gYPAwQ54OioCTcwTpVziQ?e=o3H7kB">Fichier Illustrator</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EU6g4HsANVVDkl_lfBlQZqoBul7pI0kfARwDunCfrS9Y8g?e=ncXahl">Fichier Illustrator</doclink>
 
 <dots></dots>
 
@@ -29,7 +29,7 @@ Animer la position de la fleur. De 0 à 2 secondes, elle reste à la même place
 Animer l'opacité de la fleur. De 0 à 3 secondes elle est à 100%, puis de 3 à 4, elle passe à 0%. 
 </checklist>
 
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ee2UUGwh9XBAksMe-m_N2wIBkefosUp85uUncf-Ghnigsg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Itlvnm">Aperçu du résultat final</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZZEYwshlMlOt_2oKMgIxP0Bj7d9u9nktN_eYeGK06ynXw?e=EsGrqB">Aperçu du résultat final</doclink>
 
 <dots></dots>
 

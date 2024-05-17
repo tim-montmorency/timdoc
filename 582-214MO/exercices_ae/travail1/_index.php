@@ -13,23 +13,23 @@
 <dots></dots>
 <grostitre>Références</grostitre>
 <p>Voici la vidéo de référence pour la composition de travail.</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EbSIG69C4x9LkNqt7dYB2ycBgA7ebFpVStyzEWZ2pbTG0Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=erjDYU">Vidéo de référence</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZigptqxGDFLuqCp7ZnqNOABc1tS5Zxa7Dpmn7x8RFDNQw?e=G9oOu8">Vidéo de référence</doclink>
 
 <dots></dots>
 <grostitre>Vidéo obligatoire</grostitre>
 <p>La vidéo suivante vous montre comment configurer votre projet. </p>
     <p>*Note: Lorsque vous importez le fichier illustrator dans After effects, choisissez Composition - Conserver la taille des calques (et non composition seulement).</p>
 
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EbzaClFNxa1Fp3dJJ0Ef5jgBab16Ih50gqCSkVjAOgNZCQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lxcaR3">Tutoriel explicatif</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EV2wGhwKjstFn8bKoaa8oRkBV48akJFPByqmxeXwjBsTPw?e=5QAPKf">Tutoriel explicatif</doclink>
 <warning>Il est important d'écouter la vidéo ci-haut. Elle vous permettra d'avoir un projet bien configuré et avec la bonne nomenclature.</warning>
 <p>La vidéo fait référence à un modèle de projet pour classer vos dossiers dans After effects, le voici: </p>
-<doclink href ="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EdwoU9uyDHtOlo2NAj-dTl0BWD9yZXXeU3pEbSbamtwg3Q?e=lNAZNd">Template ae</doclink>
+<doclink href ="https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EQB_2AuJ605GsE_vsQJ49aQBtxYRRxM_KdRwQjB1v-eQLQ?e=smXun3">Template ae</doclink>
 
 
 <dots></dots>
 <grostitre>Nomenclature externe</grostitre>
 <p>Vous devez classer vos fichiers dans la structure de dossier suivante. Assurez-vous d'entregistrer vos cache dans le dossier 02_ae/cache.</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EksG2oDKsmRKoO2kmaOfTrABvtSbndJmam6s7aMaEpAFXg?e=sqnrTV">Nomenclature externe</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EhzUB0lTSO9Ehv18Q2naNSMBikNXXcw6-kzL57D-53bdPw?e=6641D6">Nomenclature externe</doclink>
 
 <dots></dots>
 
@@ -50,7 +50,7 @@ Taille de la composition de travail: 6000 x 3375 pixels
 Taille de l'exporation: 1920 x 1080 pixels
 Durée: 28 secondes
 </checklist>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Edj2HQa-WuVKvVZbtr-cSe8B0yjMWwi_UPPc-Ka0aiWm_A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fTzIe5">Capsule vidéo référence</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYWL-65wFlJOoaogTLxEL2YBtiKMXBnflO_q3b4K5AazQQ?e=gxITEv">Capsule vidéo référence</doclink>
 
 
 
@@ -61,8 +61,8 @@ Durée: 28 secondes
 Rainfall
 Pluie avec lignes et splash
 </checklist>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ecu8yQp0lpBJukbmWXNqWF8BSmg-9D0w0JfjVytDb6GiqA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rgHhQl">Vidéo référence</doclink>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/ErmLUedVmF5GuYF3omLinQoBQjTAx9sCsYvIPsVYw2shew?e=3Rbl4x">Tutoriel</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbJ6mfvZbBpFo7I7J3KwfjgB9M0DBcp_QiHW4l2Mw3ekWA?e=H7qCey">Vidéo référence</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EpH52uObCLVGt60wn-Zv0VYBlVrZ4LMAFhLgoXXnkW2WUQ?e=hB8Fbs">Tutoriel</doclink>
 <dots></dots>
 
 <grostitre>Vélo</grostitre>
@@ -70,7 +70,7 @@ Pluie avec lignes et splash
     Rotation des roues et des pédales.
     Déplacement du vélo de gauche à droite dans la case 02.
 </checklist>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EeiktBtWkK5Ppmh1Y4hlCO8BPELtAxuyT8sJSF5jxbHf9Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QLYPUd">Vidéo référence</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZ6JY26grlZItuNeCgc9zAoBTxObV0t5HH-oL83IHhHDGg?e=tCPzy5">Vidéo référence</doclink>
 <dots></dots>
 
 <grostitre>Oiseaux</grostitre>
@@ -80,7 +80,7 @@ Les mettre en parent enfant.
 Créer un déplacement du groupe vers le coin supérieur droit. 
 </checklist>
 
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ESjfpCAj3vdAmEU6cmIj7ksBcJ2bA7bM_HxwyyhC8v7V9Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kehbhx">Capsule vidéo référence</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcHS22S74zxIhu60Xs_DVO0BuUxmWyPAC8VusN_Pp1mCWw?e=aNwpoC">Capsule vidéo référence</doclink>
 <dots></dots>
 
 <grostitre>Cactus noir et blanc</grostitre>
@@ -88,7 +88,7 @@ Créer un déplacement du groupe vers le coin supérieur droit.
     Appliquer un effet Bend it. 
 </checklist>
 
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EdabPrr_ZdtKqMYXpZE6m4UBBCfEQBLnR8qTsfFeEZQPkQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=R65X0l">Capsule vidéo référence</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXKnbJ0p8XNDsi3HMnaRxh4Bq5rdtlIZwga5XHdWI-znNA?e=BOA4rq">Capsule vidéo référence</doclink>
 <dots></dots>
 
 <grostitre>Cactus couleur</grostitre>
@@ -98,7 +98,7 @@ Créer un déplacement du groupe vers le coin supérieur droit.
     Il doit y avoir un décalage entre les groupes de cactus.
 </checklist>
 
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EQer-_woN9BBkP-TE-U2dQQBU1OBba2FWOR2MBIavAPEdQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gtRTXW">Capsule vidéo référence</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXokmWe0WGhOtcsj48M4bawBzoZ4ZQxnrBL7WlUa7WrxJQ?e=czLvpS">Capsule vidéo référence</doclink>
 <dots></dots>
 
 <grostitre>Plantes</grostitre>
@@ -108,7 +108,7 @@ Créer un déplacement du groupe vers le coin supérieur droit.
     Vous assurez que les fleurs ont des mouvements différents les unes des autres. 
 </checklist>
 
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ET07w8gZB01FroMDD6YmaxYB6FgmDbkOwvT6NYFJObidxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PdRT2o">Capsule vidéo référence</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETG7FZac5wJHobkgqglNXDMB1dw7TROv7qFNxnBRKuvcYw?e=Z6KXW6">Capsule vidéo référence</doclink>
 <dots></dots>
 
 <grostitre>Femme géante</grostitre>
@@ -121,7 +121,7 @@ Créer un déplacement du groupe vers le coin supérieur droit.
 </checklist>
 
 
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ESqP4W6Ebr5FuCLTD1afe1QBYQ8P5m37N4dftshhQ5oe4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7HDak7">Capsule vidéo référence</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETCSEcuktCNNri1L4lOJrlkB7kvZfQ60U5Kg2IuGcSF4oA?e=3rHzpO">Capsule vidéo référence</doclink>
 <dots></dots>
 
 <grostitre>Femme parapluie</grostitre>
@@ -132,7 +132,7 @@ Créer un déplacement du groupe vers le coin supérieur droit.
 </checklist>
 
 
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EVtZy4eyKXZLl804s1qUQ5cBA1XSqxp68u0Eo7-LBv6rKw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=C7lC81">Capsule vidéo référence</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ee99_M5Xm45FgEBuXO6pCk0BW1-VBOVpBBXXc34IpwZhHQ?e=59TwpN">Capsule vidéo référence</doclink>
 <dots></dots>
 
 
@@ -143,7 +143,7 @@ Déplacer l’oeil au complet: Lissage de vitesse, contrôle de la vitesse.
 Fermer l’oeil 
 </checklist>
 
-<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EoX3ELTB3JBJmy-xyw5wqCsB8zQWJ6Rl5MXBBVIBSWertw?e=U1U2Wb">Tutoriel</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EngXPJOAjptNpzmV8yhebgYBiTtM1Gw_ligcy_MS3LaYIw?e=yX8jqM">Tutoriel</doclink>
 <dots></dots>
 
 <grostitre>Balle</grostitre>
@@ -154,9 +154,9 @@ Hauteur du rebond
 Aspect de la balle 
 </checklist>
 
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXLNWcpcKjFDkx21yH31mXUBe3bRrXcz-qXilMcJ0DM86A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ze5LOw">Vidéo de référence</doclink>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Eq4PDFR2zz5Au1RbYO3EqmgBs4lrxDVz_ZhQnY__fsBFdQ?e=CaocFK">Tutoriels balle</doclink>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ek7P7WxNDiZOvaIhMw8lO98BoXHiBJTE6nlYfus6W5YViQ?e=8dM5VO">Tutoriels lissage de vitesse</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EV71ClsyvLVErIvyBRQAV4UBePbn3jCe3KzoshtZB2eW1Q?e=gXEdwL">Vidéo de référence</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Etz-o1zduz1Gn0my4A7KfswBO6U7skRC3bGNTSMEsB3QTQ?e=gjt1L5">Tutoriels balle</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EuAJDVpPdTNDsK8cu5wm6vkB3ZlSxs0gTjWx2GY7BSxQig?e=zB8BAT">Tutoriels lissage de vitesse</doclink>
 
 <dots></dots>
 
@@ -169,7 +169,7 @@ Réaliser le morphing de A à M et de O à A à l'aide du tutoriel.
 Dupliquer les calques M et A (calques illustrator) pour les 12 calques et replacer un à un avec l’expression pour y voir 2 couches visibles. 
 Dévoiler MA en 3D en séquence. 
 </checklist>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EvhtyIwmJRdHndc_OKtaxwQBoaZekehMNaWE5jGlVJC8uw?e=QyblGN">Tutoriels</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EpXRXNNwZPhAucGglaHk1QcBGTTnEWR1z2bcOW1gxeJ9XQ?e=UvxN7h">Tutoriels</doclink>
 
 <dots></dots>
 
@@ -183,9 +183,9 @@ Ajouter un effet sonore de bang nommé LOW-HIT_Turner_Round.wav au moment où la
 Ajuster le niveau afin que ce ne soit pas trop présent et que le son se marie bien avec le reste. 
 </checklist>
 
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EUzZL8q_B0lLvc_7yL348bYBkRiia1Oo9WUXPA_B7V7hxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XSIaVP">Vidéo de référence</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ES9y7AbPIeNAthUw_g0abnMB2ZQ1zjquqwRvltnByMHtig?e=hjVT0u">Vidéo de référence</doclink>
 <p>Vous trouverez ici les fichiers audio à télécharger dans les différents dossiers (02 à 05). Classez-les dans les même dans votre nomenclature.</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EgVrHCJPLG1EhN9f-Tqm0PcBYhWk6U6R90CPcTZ5h1vyNw?e=FVPBwe">Fichiers audios</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EhZltWv8gDdAid4zwoJxF1sBLJYz_nUtgS1fFxuG5y14Zg?e=WRRSDz">Fichiers audios</doclink>
 
 <dots></dots>
 
@@ -197,8 +197,8 @@ Ajuster le niveau afin que ce ne soit pas trop présent et que le son se marie b
    Regardez la vidéo Référence visuelle du master et assurez-vous d'ajuster l'échelle de votre composition aux bons moments. 
 </checklist>
 
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWcyBhxVf9BCrsDaKxDo6CkBJG3aq9TI7tHYt2Rd1BKoOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YbMR42">Capsule vidéo référence</doclink>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ERueGOlZoSVArLCt1m9m4IUBA5KonlcoUgK600pTtymNPA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4HXyBn">Référence visuelle du master</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ES2W_-EYAd9GutheQBskMh0BKFJf6HDusmwitrLqms94Vw?e=JuL8as">Capsule vidéo référence</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERuc2pqgzRREv84dnkpVMGMBrC65dbHKauhpSuA9X0hotQ?e=xDWj7w">Référence visuelle du master</doclink>
 <dots></dots>
 
 <grostitre>Rendu</grostitre>
@@ -208,8 +208,8 @@ Ajuster le niveau afin que ce ne soit pas trop présent et que le son se marie b
     Haute résolution: Quicktime – Apple ProRes 4444 (ou si exportation sur PC: 1080p DNxHD HQ 8bits) 
 </checklist>
 
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ESNxCkebBzZGsCqDvWbjucgBMjIkzr13KSstx0TQEp8W7Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=U4XtJy">Capsule vidéo référence</doclink>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EedvtSQ7x3xHgRrIQXiIGkIBCjrjPWY2oNKqzG18LyZCMQ?e=Y3Lvnd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Tutoriel exportation</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EUGTzvyLGuZKpR0g3TkfN9MBZ5W_Sw-3Yd5q3-c3HE35tQ?e=6V0diy">Capsule vidéo référence</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeWZd6JaVOhGnr8mxzEdcaEB5Zp3XG9HCr5FkgMZ32SXuA?e=Qgy56O">Tutoriel exportation</doclink>
 <alert>Prévoyez du temps pour cette étape! L'exportation ne se fait pas en cinq minutes!</alert>
 
 <dots></dots>
@@ -221,12 +221,12 @@ Ajuster le niveau afin que ce ne soit pas trop présent et que le son se marie b
    Remettre un fichier .zip de votre travail sur moodle.  
 </checklist>
 
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EY0u_trz8ABGljFQUlF9MgsBBql89TBenFwyq-Hl10MRbg?e=r9Ovrz">Purger le cache</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbLi3fJWfn1No3RxbE2knl0BzVm6miqw-X61FG0bRRBqJA?e=u8su7z">Purger le cache</doclink>
 <dots></dots>
 
 <grostitre>Transférer des fichiers AE 2023 dans un projet 2024</grostitre>
 Pour ceux qui ont After Effects 2024 à la maison et qui ont fait des éléments dans le after effects 2023 à l'école, voici comment les transférer d'un projet à l'autre.
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Eb4WJaeH81NIljIyPAyKBggBucYsMCw5hvqzoAjwHMH0Mw?e=71rq4f">Transfert de 2023 à projet 2024 existant</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcKB0e1_KQBLk3AY3WvXKiMB2js8WJXRiA8pclA8OFWeMA?e=eYC8ll">Transfert de 2023 à projet 2024 existant</doclink>
 <info>Si vous avez un seul projet, vous pouvez simplement l'ouvrir dans After effects 2024 ou encore mieux, installer le 2023 et l'ouvrir dans la même version qu'à l'école. </info>
 
 <dots></dots>

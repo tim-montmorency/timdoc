@@ -12,9 +12,9 @@
 
 <p>Importez le fichier Illustrator du monstre que vous avez créé dans votre devoir 1 dans une composition After Effects.</p>
 <p>Si vous ne l'avez pas, utilisez le fichier suivant:</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EY93NzitBkFBvc5QEKesEKgBbVa5HEn7REM0DIYWH4hXJg?e=xSnGfG">Fichier Illustrator du monstre</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EQoG7ED_QzRPv_RJhrO3fj8BRWjVDYRXHDe0L_y4ekfEmw?e=qzDgTm">Fichier Illustrator du monstre</doclink>
 <p>Téléchargez le dossier de projet suivant:</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EksG2oDKsmRKoO2kmaOfTrABvtSbndJmam6s7aMaEpAFXg?e=y85pED">Dossier de projet</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EhzUB0lTSO9Ehv18Q2naNSMBikNXXcw6-kzL57D-53bdPw?e=6oIxgt">Dossier de projet</doclink>
 
 <dots></dots>
 
@@ -33,5 +33,5 @@ Amusez-vous !
 </checklist>
 
 <grostitre>Tutoriel 📚</grostitre>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ESRQupk7ortOkkvmZCnm4FsBs_OdW9H6PRI3nykudnVQIQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HvOB61">Capsule d'aide</doclink>
-<iframe src="https://cmontmorency365-my.sharepoint.com/personal/lora_boisvert_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=99ba5024-a23b-4ebb-924b-e66429e6e05b&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="cours03_monstre_demo.mov"></iframe>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eb_kyJVYByNIvdjoE0UM1loBeb3hOO6SW_8WpTERvg2YQw?e=IVUL6C">Capsule d'aide</doclink>
+<iframe src="https://cmontmorency365.sharepoint.com/sites/TIM-582214-Animation2d77/_layouts/15/embed.aspx?UniqueId=95c8e4bf-0758-4823-bdd8-e813450cd65a&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="cours03_monstre_demo.mov"></iframe>
