@@ -123,10 +123,10 @@ Fiez-vous à la petite démo ci-haut pour réaliser l'effet.
 <checklist>Créez un dossier nommé [nom de famille]_[prénom]_examen<br>ex: <em>ouellet_mariemichelle_examen</em>
     Déposez-y vos 2 dossiers de projet (art autochtone et roue de fortune)
     Compressez ensuite votre dossier de travail en <a href="https://www.ezyzip.com/" target="_blank"
-        rel="noopener noreferrer">fichier&nbsp;zip 🗜</a>
+        rel="noopener noreferrer">fichier&nbsp;zip 🗜</a>, assurez vous que le fichier .zip ait aussi le même nom [nom de famille]_[prénom]_examen.zip
     Envoyez-moi un <a href="https://teams.microsoft.com/l/chat/0/0?users=mariem.ouellet@cmontmorency.qc.ca"
         target="_blank" rel="noopener noreferrer">message privé sur Teams</a> contenant votre fichier&nbsp;zip.
-    Venez me voir avant de quitter afin que je vérifie votre envoie et que je vous confirme que tout est ok.
+    Venez me voir avant de quitter afin que je vérifie votre envoi et que je vous confirme que tout est ok.
 </checklist>
 
 
