@@ -8,11 +8,19 @@
 ?>
 
 <wiki-page name="Cours 01">
-    <doclink href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXTXyncwrp9BsK6fpfriFQ8BJqTVzwK0fFBBiRxOienJnA?e=dZa1wP ">Plan de cours</doclink>
+
+<h3>Plan de cours</h3>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXTXyncwrp9BsK6fpfriFQ8BJqTVzwK0fFBBiRxOienJnA?e=dZa1wP ">Plan de cours</doclink>
+    
+    <h3>Installation et base de Unity</h3>
     <intlink href="../installation/compte/"></intlink>
     <intlink href="../installation/telechargement/"></intlink>
     <intlink href="../unity/introduction/"></intlink>
-    <intlink href="../unity/introduction/exercices/intro/"></intlink>
+    
+    <dots></dots>
+    <exercice href="../unity/introduction/exercices/intro/"></exercice>
+    <dots></dots>
+    <h3>Sprite, travail 1 et AR</h3>
     <intlink href="../unity/sprite/"></intlink>
     <intlink href="../consignes/travail1/"></intlink>
     <intlink href="../realite-augmentee/introduction/"></intlink>
@@ -21,12 +29,18 @@
 
 
 <wiki-page name="Cours 02">
+<h3>Base de Unity</h3>
 <intlink href="../unity/composantes/"></intlink>
+<h3>Configuration</h3>
 <intlink href="../installation/configuration/"></intlink>
 <intlink href="../installation/unity-remote/"></intlink>
+<h3>Réalité augmentée</h3>
 <intlink href="../realite-augmentee/detection/"></intlink>
+<h3>Calques et animation</h3>
 <intlink href="../unity/sorting_layers/"></intlink>
 <intlink href="../unity/animation/"></intlink>
+<h3>Avancement du travail 1</h3>
+<intlink href="../consignes/travail1/"></intlink>
 
 </wiki-page>
 
