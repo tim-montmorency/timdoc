@@ -8,7 +8,7 @@
  */
 ?>
 
-<h2>PROJET DE SESSION: Procédure de migration des données d'une installation WordPress à un autre.</h2>
+<h2>PROJET DE SESSION: Procédure de migration des données d'une installation WordPress à une autre.</h2>
 <p>Rappel:</p>
 <intlink href="../../wordpress/migration-de-donnees/"></intlink>
 <br>
