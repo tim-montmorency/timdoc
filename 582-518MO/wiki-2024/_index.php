@@ -11,49 +11,95 @@
     http://www.network-science.de/ascii/
 -->
 
+
+<wiki-page name="Ressources" date="2024-08-22">
+    <grostitre>Plans de cours et guides</grostitre>
+
+    <p><a href="#" target="_blank" rel="noopener noreferrer">Plan de cours</a></p>
+  
+    <p><a href="https://cmontmorency365.sharepoint.com/:w:/r/sites/TIM-TTP/_layouts/15/Doc.aspx?sourcedoc=%7B48119BB7-5AEC-438C-BB23-C7DA3EE1061D%7D&file=guide_etudiants.docx&action=default&mobileredirect=true"
+            target="_blank" rel="noopener noreferrer">Guide étudiant TIM</a></p>
+
+
+    <dots></dots>
+    <h2>Tutorat</h2>
+    <p>Info à venir...</p>
+
+
+    <dots></dots>
+    <grostitre>Références et guides</grostitre>
+
+    <ul>
+        <li><a href="https://tim-montmorency.com/timdoc/582-518MO/" target="_blank" rel="noopener noreferrer">Timdoc du cours Projet Web 582-518MO</a></li>
+        <li><a href="https://developer.mozilla.org/fr/docs/Web" target="_blank"
+                rel="noopener noreferrer">Developer Mozilla&nbsp;: Documentation en français HTML, CSS et JavaScript</a></li>
+        <li><a href="https://smnarnold.com/cours/javascript" target="_blank" rel="noopener noreferrer">Note de cours JavaScript du smnarnold.com</a></li>
+        <li><a href="https://stackoverflow.com/" target="_blank"
+                rel="noopener noreferrer">Forum StackOverflow</a></li>
+        <li><a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">W3School</a>
+        </li>
+        <li><a href="https://css-tricks.com/" target="_blank" rel="noopener noreferrer">CSS Tricks</a></li>
+        
+    </ul>
+
+
+    <dots></dots>
+    <grostitre>Banques de ressources</grostitre>
+    <ul>
+      
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZQlsKA3n41Bndvr4nAec5kBNTxUckgFa3C6wO9ZocnauA?e=WEsxyI"
+                target="_blank" rel="noopener noreferrer">Banques d'images libre de droit</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EcU65VhnOrVInZTVw2tLCZ0BI4TJlrpI-28YoKjRAadGcg?e=lsNghw"
+                target="_blank" rel="noopener noreferrer">Polices de caractère (typo) gratuites</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:f:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/_cours_pour_tous_diverses_references/01_typo_brosses?csf=1&web=1&e=BAYHfD"
+                target="_blank" rel="noopener noreferrer">Banques de typographies et de brosses </a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUdAvWDJKtdJvYEn8-FBNDgBtw_kD8JGQuD9LCMsBjhcQg?e=DgU6Ru"
+                target="_blank" rel="noopener noreferrer">Palettes de couleur </a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:f:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/_cours_pour_tous_diverses_references/03_banque_sonore?csf=1&web=1&e=9fGrW0"
+                target="_blank" rel="noopener noreferrer">Banque sonore #1 </a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:f:/r/personal/timmontmorency_cmontmorency_qc_ca1/Documents/_banque_de_sons?csf=1&web=1&e=JhntZT"
+                target="_blank" rel="noopener noreferrer">Banque sonore #2</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EriBsl7VR15OinWQVW1Cf2MBwbObyvthrA_JfUtwbQP3SA?e=K0kb1g"
+                target="_blank" rel="noopener noreferrer">Logo TIM pour pied de page (footer) de projet</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/En34ywXggC9AmBZj1TOBy4MBesGnHmss320qtQjrPY11nQ?e=MNb6tL"
+                target="_blank" rel="noopener noreferrer">Capsules vidéo Illustrator et After Effects</a>
+            (principalement pour vos assets du projet 2)</li>
+        <li>Inspirations de <em>Landing Pages</em>: <a href="https://dribbble.com/search/landing-page" target="_blank"
+                rel="noopener noreferrer">sur Dribbble</a></li>
+
+        <li>Inspirations de <em>Design d'applis</em>: <a href="https://dribbble.com/search/app-design" target="_blank"
+                rel="noopener noreferrer">sur Dribbble</a>.</li>
+    </ul>
+
+  
+
+</wiki-page>
+
 <!--
   _____                       __ 
  / ____|                     /_ |
 | |     ___  _   _ _ __ ___   | |
 | |    / _ \| | | | '__/ __|  | |
-| |___| (_) | |_| | |  \__ \  | |
+| |___| (_) | |_| | |  \__ \  | | 
  \_____\___/ \__,_|_|  |___/  |_|
 
 -->
-<wiki-page name="Cours 01" date="2023-08-16">
+<!---------------------- Cours 1 AAAAAAAAA ----------------------->
+<!---------------------- Cours 1 AAAAAAAAA ----------------------->
+<!---------------------- Cours 1 AAAAAAAAA ----------------------->
+<wiki-page name="Cours 01.A" date="2024-08-22">
     <grostitre>Rejoindre l'équipe du cours dans Teams</grostitre>
-    <p>Code: </p>
+    <p>Code: 7yy1isa</p>
     <h3>Activer les notifications du groupe cours</h3>
-    <img src="images/activer-notif-equipe-classe-etape01.jpg" alt="" style="width: 100%; max-width: 600px; display: block; margin: 5px auto;" ><br>
-    <img src="images/activer-notif-equipe-classe-etape02.jpg" alt="" style="width: 100%; max-width: 600px; display: block; margin: 5px auto;">
+    <img src="images/activer-notif-equipe-classe-etape01.jpg" alt="" style="width: 100%; max-width: 800px; display: block; margin: 5px 0;" ><br>
+    <img src="images/activer-notif-equipe-classe-etape02.jpg" alt="" style="width: 100%; max-width: 800px; display: block; margin: 5px 0;">
 
 
-    <h2>Plan de cours pour cette session</h2>
-    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EX9xxOfKopxPjznd0BBJTscBnqkhf9dxyelMqTIUbpw2jA?e=f5cDnG"
-            target="_blank" rel="noopener noreferrer">Plan de cours pour groupe du LUNDI</a> MAJ 2023-10-02
-        <em>(accessible seulement
-            avec votre compte du collège)</em>
-    </p>
-    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EYmh9s1WFYRFqS3FVBexvwMBWE1uxA5Z0MhUgMFAJ1QyoA?e=DCItXP"
-            target="_blank" rel="noopener noreferrer">Plan de cours pour groupe du VENDREDI</a> MAJ 2023-10-02
-        <em>(accessible
-            seulement avec votre compte du collège)</em>
-    </p>
-    <h2>Sondage</h2>
-    <p>Tutorat - <a href="https://app.wooclap.com/FLBLQP" target="_blank" rel="noopener noreferrer">Code Wooclap :
-            FLBLQP</a>
-        <br>
-    </p>
-    <p> Lundi - <a href="https://app.wooclap.com/JFHDYX" target="_blank" rel="noopener noreferrer">Code Wooclap :
-            JFHDYX</a>
-        <br>
-        Vendredi - <a href="https://app.wooclap.com/ROTODA" target="_blank" rel="noopener noreferrer">Code Wooclap :
-            ROTODA</a>
-    </p>
+    <dots></dots>
+    <grostitre>Plan de cours pour cette session</grostitre>
+    <p><a href="#" target="_blank" rel="noopener noreferrer">Plan de cours</a></p>
 
-
-    <br><br> <br><br>
-    <hr><br>
+    <dots></dots>
 
     <h2>Projet de session (PS)</h2>
 
@@ -72,10 +118,7 @@
     <h2>Exercice: Dérouillage CSS et JS</h2>
     Le lien sera fourni en cours.
 
-
-
-    <br><br> <br><br>
-    <hr><br>
+    <dots></dots>
 
     <h2>Devoirs</h2>
     <p>Compléter les requis émis à la fin de ces 3 pages :</p>
@@ -88,6 +131,17 @@
 </wiki-page>
 
 
+<!---------------------- Cours 1 BBBBBBBB ----------------------->
+<!---------------------- Cours 1 BBBBBBBB ----------------------->
+<!---------------------- Cours 1 BBBBBBBB ----------------------->
+<wiki-page name="Cours 01.B" date="2024-08-26">
+
+</wiki-page>
+
+
+
+
+
 
 <!--
   _____                       ___  
@@ -98,7 +152,7 @@
  \_____\___/ \__,_|_|  |___/ |____|
                                                                 
 -->
-<wiki-page name="Cours 02" date="2023-08-26">
+<wiki-page name="Cours 02" date="2024-08-29">
     <h2>Quiz</h2>
     Lundi - <a href="https://app.wooclap.com/SDQXZU" target="_blank" rel="noopener noreferrer">Code Wooclap : SDQXZU</a>
     <br>
@@ -194,7 +248,7 @@
  \_____\___/ \__,_|_|  |___/ |____/ 
                                           
 ----------------------->
-<wiki-page name="Cours 03" date="2023-09-07">
+<wiki-page name="Cours 03" date="2024-09-07">
 
     <h2>Processus de la présentation des maquettes</h2>
     <ul>
@@ -288,7 +342,7 @@
                                      
 ----------------->
 
-<wiki-page name="Cours 04" date="2023-09-14">
+<wiki-page name="Cours 04" date="2024-09-14">
     <h2>Quiz</h2>
 
     Vendredi - <a href="https://app.wooclap.com/FGOFRE" target="_blank" rel="noopener noreferrer">Code Wooclap : FGOFRE
@@ -354,7 +408,7 @@
                                                           
 ---------------->
 
-<wiki-page name="Cours 05" date="2023-09-21">
+<wiki-page name="Cours 05" date="2024-09-21">
 
     <h2>Annonces</h2>
     <p style="color: var(--main-color);"><strong>> Horaire la semaine prochaine (cours 6)</strong></p>
@@ -448,7 +502,7 @@
 ----------------------------------->
 
 
-<wiki-page name="Cours 06" date="2023-09-28">
+<wiki-page name="Cours 06" date="2024-09-28">
     <h2>Horaire aujourd'hui</h2>
     <ul>
         <li style="padding: 0; margin: 0;">EXAMEN : 9h50 à 12h35</li>
@@ -574,7 +628,7 @@
  \_____\___/ \__,_|_|  |___/  /_/                   
 ----------------------------------->
 
-<wiki-page name="Cours 07" date="2023-10-11">
+<wiki-page name="Cours 07" date="2024-10-11">
 
     <h2>Quiz</h2>
     Lundi - <a href="https://app.wooclap.com/DESTCF" target="_blank" rel="noopener noreferrer">Code Wooclap : DESTCF</a>
@@ -644,7 +698,7 @@
  \_____\___/ \__,_|_|  |___/  \___/ 
 ----------------------------------->
 
-<wiki-page name="Cours 08" date="2023-10-15">
+<wiki-page name="Cours 08" date="2024-10-15">
     <h2>Annonces</h2>
     <p>Présentées en classe.</p>
     <dots></dots>
@@ -686,7 +740,7 @@
  \_____\___/ \__,_|_|  |___/   /_/                 
 ----------------------------------->
 
-<wiki-page name="Cours 09" date="2023-10-23">
+<wiki-page name="Cours 09" date="2024-10-23">
     <!-- 
     NOTE MM NOTE MM NOTE MM 
     Wordpress : intégrer logo, personnaliser le site, intégrer le menu, intégrer Bootsrap, monter l'accueil etc
@@ -768,7 +822,7 @@
  \_____\___/ \__,_|_|  |___/  |_|\___/                                     
 ----------------------------------->
 
-<wiki-page name="Cours 10" date="2023-10-29">
+<wiki-page name="Cours 10" date="2024-10-29">
     <h1 style="font-size:250%; color :orange;">Joyeux Halloween!</h1>
     <br>
     <p style="font-size:200%; line-height: 1.4em;">🦉 ☠️ 👹 👻 👺 💀 🌚 🔮 🕸️ 🌩️ 🕷️ 🍫 🍬 🍭 🎃 ⚰️ 🦇 🗡️ 🕯️ 🧟 🪦
@@ -851,7 +905,7 @@
  \_____\___/ \__,_|_|  |___/  |_||_|
  ----------------------------------->                                   
 
-<wiki-page name="Cours 11" date="2023-11-05">
+<wiki-page name="Cours 11" date="2024-11-05">
     <h2>Annonce: Custum Post Type UI (CPT UI) à supprimer</h2>
 
     <p>Il y a un problème d'import et export avec les contenus provenant de Custom Post Type UI. J'ai donc dû changer un peu la procédure pour que vous puissiez bien travailler et exporter les changements que vous faites sur votre site en ligne (sur tim-momo.com) vers votre version en local.</p>
@@ -901,7 +955,7 @@
 | |___| (_) | |_| | |  \__ \  | |/ /_ 
  \_____\___/ \__,_|_|  |___/  |_|____|
  ----------------------------------->  
-<wiki-page name="Cours 12" date="2023-11-16">
+<wiki-page name="Cours 12" date="2024-11-16">
 
 
     <h2>Groupe du lundi</h2>
@@ -956,7 +1010,7 @@
                              
  ----------------------------------->  
 
- <wiki-page name="Cours 13" date="2023-11-22">
+ <wiki-page name="Cours 13" date="2024-11-22">
  <h2>Quiz</h2>
     Lundi - <a href="https://app.wooclap.com/QGRZDE" target="_blank" rel="noopener noreferrer">Code Wooclap : QGRZDE</a>
     <br>
@@ -1009,7 +1063,7 @@
 
 
 
- <wiki-page name="Cours 14" date="2023-12-02">
+ <wiki-page name="Cours 14" date="2024-12-02">
  <h2>Annonces</h2>
  <p><s>Prochain cours: présentations AM.</s> <br><s>Prochain cours: PM</s> Pratique examen : Sera envoyé sur Teams (aujourd'hui ou demain) et je vous fournirai aussi le corrigé quelques jours plus tard.<br>
 Examen 18 déc à 11h00 pour tout le monde. Pour ceux qui sont concernés, faites vos demandes d'extension de temps au SAA maintenant! UPDATE GRÈVES: Je ne sais plus quand sera l'examen.</p>
@@ -1052,7 +1106,7 @@ Examen 18 déc à 11h00 pour tout le monde. Pour ceux qui sont concernés, faite
                                                                       
  ----------------------------------->  
 
- <wiki-page name="Cours 15" date="2023-12-06">
+ <wiki-page name="Cours 15" date="2024-12-06">
 
     <h2>AM Présentations du projet de session</h2>
 
