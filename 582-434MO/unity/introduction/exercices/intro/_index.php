@@ -14,9 +14,12 @@
 
 <grostitre>Télécharger le projet</grostitre>
 
-<p>Pour débuter, télécharger le projet que vous pouvez trouver via le lien suivant: </p>
+<p>Pour débuter, télécharger le projet vous pouvez trouver via le lien suivant: </p>
 
 <doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EkCzBYoXwONMrTIsORjtMfIB6ilPKiFSz7Su7kiIdV3nbw?e=EZbO3E">Micro-game</doclink>
+
+<p>Téléchargez ensuite cette image, vous en aurez besoin plus tard: </p>
+<mediafile src="images/Chat.png" addr="false">Image</mediafile>
 
 <dots></dots>
 

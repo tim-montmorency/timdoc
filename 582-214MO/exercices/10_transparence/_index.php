@@ -15,10 +15,10 @@
 
 <grostitre>Document de départ</grostitre>
 <p>Téléchargez la texture suivante pour l'exercice.</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:i:/g/personal/lora_boisvert_cmontmorency_qc_ca/ERQxhcNg3I9EoUr-DRJrJdMB6F_OYSTTA-pm6QqBq1zH3w?e=bQL8ay">Document de départ</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:i:/s/TIM-582214-Animation2d77/EV3MGsiPeAhPsvjv1KpaAaEBNnNmHVWBhFe2e47ND-FITQ?e=ytEzX8">Document de départ</doclink>
 
 <p>Ouvrez aussi l'homme créé dans l'exercice l'homme ou téléchargez le document suivant:</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EcOVxf8FeT1Au5r7a-sO4AMBu-JwBLsheOkz4DQJMHCZFQ?e=e1GEbR">Homme</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EU6g4HsANVVDkl_lfBlQZqoBul7pI0kfARwDunCfrS9Y8g?e=3GL4HE">Homme</doclink>
 <p>Assurez-vous de masquer les éléments qui entourent l'homme.</p>
 <dots></dots>
 <grostitre>Étapes</grostitre>
@@ -34,6 +34,5 @@
 <dots></dots>
 
 <grostitre>Tutoriel 📚</grostitre>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXTcfcFC84xJltFyL_FIR3sBNFKIpMBBdcxbhAEYgab9jA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=japQ2m">Outil transparence</doclink>
-<iframe src="https://cmontmorency365-my.sharepoint.com/personal/lora_boisvert_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=c17ddc74-f342-498c-96d1-722ff148477b&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="02_masque_transparence.mp4"></iframe>
-
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXK9TJqqjEFFn0Wc9ZgFZhIBGhOdfNSoxoXmJRJtQPJJkA?e=kk95pH">Outil transparence</doclink>
+<iframe src="https://cmontmorency365.sharepoint.com/sites/TIM-582214-Animation2d77/_layouts/15/embed.aspx?UniqueId=9a4cbd72-8caa-4541-9f45-9cf598056612&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="02_masque_transparence.mp4"></iframe>

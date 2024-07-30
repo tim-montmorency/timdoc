@@ -9,7 +9,7 @@
 
 <grostitre>Matériel</grostitre>
 <p>Importez le fichier illustrator suivant.</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/Eakn3hZRue1JqWuvYT9QrmABjG4N_fqFZryKKU3wfykMxA?e=MEa1ya">Fichier de départ</doclink> 
+<doclink href="https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/ESzWagam7JhDs2D5o7URAL4BctXk-kYhPgvdisH3tiveHA?e=nIO4lT">Fichier de départ</doclink> 
 <dots></dots>
 
 
@@ -39,5 +39,5 @@ N'oubliez pas le flou de mouvement!
 
 
 <grostitre>Tutoriel 📚</grostitre>
-<p><doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/ET7XALE-9OxOkTgWVtxjKWwBF3jdqLzs_VvNU80lY869IA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QiQvDZ">Wiggle</doclink></p>
-<iframe src="https://cmontmorency365-my.sharepoint.com/personal/lora_boisvert_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=b100d73e-f43e-4eec-9138-1656dc63296c&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="03_wiggle.mp4"></iframe>
+<p><doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXPup2WiGjlNqT7tguOtZwsBMcTmzJwpHC-sFfDGUw2dcg?e=9ved45">Wiggle</doclink></p>
+<iframe src="https://cmontmorency365.sharepoint.com/sites/TIM-582214-Animation2d77/_layouts/15/embed.aspx?UniqueId=65a7ee73-1aa2-4d39-a93e-ed82e3ad670b&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="03_wiggle.mp4"></iframe>

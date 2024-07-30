@@ -14,7 +14,7 @@
 
 
 <grostitre>Matériel</grostitre>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EYunWc2Q0SVPn7m-owM3EH8B_gYPAwQ54OioCTcwTpVziQ?e=o3H7kB">Fichier Illustrator à importer</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EePOiuJkHTpCq85Df3b9YDUBf6WSSBiVP6oZ783lUHX52A?e=hBBsqs">Fichier Illustrator à importer</doclink>
 
 
 
@@ -34,6 +34,5 @@ Allez dans le masque et animer le tracé du masque pour qu’il suive la loupe. 
 
 
 <grostitre>Tutoriel 📚</grostitre>
-<p><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ea6JW0d8YY9KilVu0k9HFfABxpdubaBGTysBx4ArKzOEDA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=M2fPAs">Masque</a></p>
-<iframe src="https://cmontmorency365-my.sharepoint.com/personal/lora_boisvert_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=475b89ae-617c-4a8f-8a55-6ed24f4715f0&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="01_masque.mov"></iframe>
-
+<p><doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYyhwkByNIdBlxmqi1SU_WwBWgllOZVpAFtPxtrccaIGsg?e=vsgK6D">Masque</doclink></p>
+<iframe src="https://cmontmorency365.sharepoint.com/sites/TIM-582214-Animation2d77/_layouts/15/embed.aspx?UniqueId=40c2a18c-3472-4187-9719-aa8b5494fd6c&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="01_masque.mov"></iframe>

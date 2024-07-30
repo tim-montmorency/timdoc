@@ -10,7 +10,7 @@
 <grostitre>Matériel</grostitre>
 
 <p>Importez le fichier Illustrator suivant dans un nouveau projet After Effects:</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/ESz1fLdIdnpOmwPS67Hp6tYBaEf4S9LIdNb1Y2zBKnWtNA?e=EvDAtL">Homme et plante</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EePOiuJkHTpCq85Df3b9YDUBf6WSSBiVP6oZ783lUHX52A?e=hBBsqs">Fichier Illustrator à importer</doclink>
 <dots></dots>
 
 
@@ -29,6 +29,5 @@ Animer la rotation du genou pour que le personnage donne un coup de pied.  </che
 
 <grostitre>Tutoriel 📚</grostitre>
 
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EUp6qgsD8spAhLqwJC8LYwcBYV691OGH1KzaTHlhyI691A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pMkAD9">Coin et empoin</doclink>
-<iframe src="https://cmontmorency365-my.sharepoint.com/personal/lora_boisvert_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=0baa7a4a-f203-40ca-84ba-b0242f0b6307&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="02_marionnette_coin_empoi_et_avance.mov"></iframe>
-
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbwIa3V4m5dEpattp9VY7AABBGizbCeEnxvn8iBYMNXc6g?e=gqQtdH">Coin et empoin</doclink>
+<iframe src="https://cmontmorency365.sharepoint.com/sites/TIM-582214-Animation2d77/_layouts/15/embed.aspx?UniqueId=756b08bc-9b78-4497-a5ab-6da7d558ec00&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="02_marionnette_coin_empoi_et_avance.mov"></iframe>

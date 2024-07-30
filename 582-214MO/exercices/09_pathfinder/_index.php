@@ -16,7 +16,7 @@
 <grostitre>Matériel</grostitre>
 
 <p>Importez cette image comme modèle dans votre fichier illustrator:</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:i:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfA5Ui34LA9Al-m4aXhtKA8BvY7EWaQL6K3BrXPtBkaSgw?e=uUXjZ3">Document de référence</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:i:/s/TIM-582214-Animation2d77/EeGYvF1RXRtGhi0lnFyVHxsB_dFNLBCDt8QTwn93lMDvGg?e=aULHmv">Document de référence</doclink>
 <dots></dots>
 
 <grostitre>Étapes</grostitre>
@@ -29,5 +29,5 @@
 
 <dots></dots>
 <grostitre>Tutoriel 📚</grostitre>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfqPNNYrur5IpD7gTuwqDSIBhF8D_XELIEWvGEwByjwVkg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VrE3Xb">pathfinder</doclink> 
-<iframe src="https://cmontmorency365-my.sharepoint.com/personal/lora_boisvert_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=d6348ffa-ba2b-48be-a43e-e04eec2a0d22&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="02_avant_arriere_plan_pathfinder.mp4"></iframe>
+<doclink href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZj0BIRpahBOhBFsRbp5bhsB3Tqi7PdKLrqhN1uFF16M0Q?e=nueZQo">pathfinder</doclink> 
+<iframe src="https://cmontmorency365.sharepoint.com/sites/TIM-582214-Animation2d77/_layouts/15/embed.aspx?UniqueId=8404f498-6a69-4e10-8411-6c45ba796e1b&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="02_avant_arriere_plan_pathfinder.mp4"></iframe>

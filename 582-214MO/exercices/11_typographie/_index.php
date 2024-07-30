@@ -15,10 +15,10 @@
 
 <grostitre>Matériel</grostitre>
 <p>Téléchargez le document suivant et ouvrez le dans Illustrator.</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EZbpNR8a7yZJmbZYqRcfizoB_UApDm8ly0CIYKtanp8JQw?e=wen0ce">Document de départ</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EdSxZoGdHx1LrERsFFMEc7kBt7sCnuxPyd6IwSMiK30Szg?e=zPRkwM">Document de départ</doclink>
 
 <p>Téléchargez la police suivante:</p>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EmBfi8aBWwdJvH1dPQiOmXwBVVlragN0h0SpZi8pNc5C_A?e=igwwOw">Orbitron</doclink>
+<doclink href="https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EkHHY-O-xaZBkyVZbInDtVcB14WGxaENIWhbwvNfdYS5pA?e=LsgDdX">Orbitron</doclink>
 
 <dots></dots>
 
