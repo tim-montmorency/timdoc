@@ -10,7 +10,7 @@
 <wiki-page name="Cours 01">
 
 <grostitre>Plan de cours</grostitre>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXTXyncwrp9BsK6fpfriFQ8BJqTVzwK0fFBBiRxOienJnA?e=dZa1wP ">Plan de cours</doclink>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ERZ4aPOJ0MVJsdBk11RBvTsBJy5ZlweYnxwSI8coJdVs3A?e=oaJdSE">Plan de cours</doclink>
 <dots></dots>
 
 <grostitre>Sprite et travail 1</grostitre>
@@ -116,7 +116,7 @@
 <grostitre>Devoir: Commencer l'idéation du projet final</grostitre>
 </wiki-page>
 
-<wiki-page name="10 octobre">
+<wiki-page name="15 octobre">
 
 <grostitre>Pas de cours</grostitre>
 <p>Journée pédagogique.</p>
@@ -169,9 +169,14 @@
 </wiki-page>
 
 
+<wiki-page name="12 novembre">
 
+<grostitre>Pas de cours</grostitre>
+<p>Journée de rattrapage.</p>
 
-<wiki-page name="Cours 11">
+</wiki-page>
+
+<wiki-page name="Cours 11 - 14 novembre">
 <grostitre>Grimper</grostitre>
 <p><intlink href="../unity/deplacement_vr/"></intlink></p>
 <dots></dots>
@@ -190,12 +195,7 @@
 
 </wiki-page>
 
-<wiki-page name="14 novembre">
 
-<grostitre>Pas de cours</grostitre>
-<p>Journée de rattrapage.</p>
-
-</wiki-page>
 
 
 <wiki-page name="Cours 12">
