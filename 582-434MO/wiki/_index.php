@@ -16,18 +16,33 @@
 <grostitre>Sprite et travail 1</grostitre>
     <intlink href="../unity/sprite/"></intlink>
     <intlink href="../consignes/travail1/"></intlink>
+    <h3>Test d'exemples de travail 1</h3>
+    <p>Projets de: 
+      <li>Quoc Huy Do</li>
+      <li>Felix Testa Radovanovic</li>
+      <li>Jacob Alarie-Brousseau</li>
+      <li>Antoine Haddad</li>
+    </p>
+
+    <h3>Réflexion sur la thématique de votre travail 1</h3>
+    <p>Tempête d'idées</p>
     <dots></dots>
 
     <grostitre>Installation et base de Unity</grostitre>
    <p> <intlink href="../installation/compte/"></intlink>
     <intlink href="../installation/telechargement/"></intlink>
-    <intlink href="../unity/introduction/"></intlink></p>
-  
-    <exercice href="../unity/introduction/exercices/intro/"></exercice>
     <dots></dots>
+
+    <grostitre>Intro à l'éditeur</grostitre> 
+    <exercice href="../unity/introduction/exercices/intro/"></exercice>
+ 
+    <h3>En alternance avec:</h3>
     
     <grostitre>Test d'expériences VR</grostitre>
     <intlink href="../installation/experiences/"></intlink>
+    <dots></dots>
+    <grostitre>Retour en groupe</grostitre> 
+    <intlink href="../unity/introduction/"></intlink></p>
     
 </wiki-page>
 
