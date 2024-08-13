@@ -68,7 +68,7 @@
 <p>Une bonne sémantique permet d'améliorer l'expérience de ses usagers de plusieurs façons.</p>
 
 
-<p>Par exemple, certaines personnes ont recours à un assistant vocal <em>(<a href="https://fr.wikipedia.org/wiki/Siri_(logiciel)">Siri</a>, <a href="href="href="https://fr.wikipedia.org/wiki/Amazon_Alexa">Alexa</a>, <a href="https://fr.wikipedia.org/wiki/Assistant_Google">L'assistant Google</a>, etc.)</em> leur permettant de se faire narrer le contenu des pages sur lesquelles ils naviguent alors qu'ils s'adonnent à d'autres tâches <em>(cuisine, conduite, ménage, etc.)</em>. D'autres, atteints d'une déficience visuelle, utilisent pour leur part un lecteur d'écran (<a href="https://fr.wikipedia.org/wiki/JAWS_(lecteur_d%27%C3%A9cran)">Jaws</a>, <a href="https://fr.wikipedia.org/wiki/VoiceOver">VoiceOver</a>, <a href="https://fr.wikipedia.org/wiki/ESpeak">eSpeak</a>, etc.) afin de leur permettre de naviguer de façon auditive le web 🔊.</p>
+<p>Par exemple, certaines personnes ont recours à un assistant vocal <em>(<a href="https://fr.wikipedia.org/wiki/Siri_(logiciel)">Siri</a>, <a href="href=" href="https://fr.wikipedia.org/wiki/Amazon_Alexa">Alexa</a>, <a href="https://fr.wikipedia.org/wiki/Assistant_Google">L'assistant Google</a>, etc.)</em> leur permettant de se faire narrer le contenu des pages sur lesquelles ils naviguent alors qu'ils s'adonnent à d'autres tâches <em>(cuisine, conduite, ménage, etc.)</em>. D'autres, atteints d'une déficience visuelle, utilisent pour leur part un lecteur d'écran (<a href="https://fr.wikipedia.org/wiki/JAWS_(lecteur_d%27%C3%A9cran)">Jaws</a>, <a href="https://fr.wikipedia.org/wiki/VoiceOver">VoiceOver</a>, <a href="https://fr.wikipedia.org/wiki/ESpeak">eSpeak</a>, etc.) afin de leur permettre de naviguer de façon auditive le web 🔊.</p>
 
 <p>Imaginons un instant que nous sommes l'une de ces personnes et que nous consultons tous les matins <a href="https://www.lapresse.ca/">LaPresse.ca</a> 📰. Heureusement pour nous, les assistants vocaux et lecteurs d'écran reconnaissent les balises <span class="inline-code">&lt;header&gt;</span> et nous offrent de les sauter. Cette option serait impossible si une balise <span class="inline-code">div&gt;</span> était utilisée. Il faudrait donc écouter en entier la narration de l'entête de La Presse à chaque fois que nous consultons un article 😩.</p>
 
@@ -85,15 +85,15 @@
 <p>Par exemple, si une dizaine de balises se ferment une à la suite de l'autre, il peut-être ardu au premier regard de déterminer laquelle correspond à la fin de l'entête d'un site si toutes ces balises sont des <span class="inline-code">&lt;/div&gt;</span>. Cependant, si dans le lot une fermeture de balise <span class="inline-code">&lt;/header&gt;</span> est utilisée, il devient soudainement évident où l'entête se termine.</p>
 
 <figure class="image">
-    <div>
-        <img src="images/semantic.png" width="900" heigth="484">
-    </div>
-    <figcaption>
-        <p style=" text-align:center; font-size: 12px;">À gauche, sans balises sémantiques.
-            <br>
-           À droite, avec balises sémantiques. 
-        </p>
-    </figcaption>
+  <div>
+    <img src="images/semantic.png" width="900" heigth="484">
+  </div>
+  <figcaption>
+    <p style=" text-align:center; font-size: 12px;">À gauche, sans balises sémantiques.
+      <br>
+      À droite, avec balises sémantiques.
+    </p>
+  </figcaption>
 </figure>
 
 <dots></dots>
@@ -108,7 +108,7 @@
   &lt;img src=&quot;logo-du-site.png&quot; alt=&quot;Logo&quot;&gt;
   &lt;h1&gt;Nom du site&lt;/h1&gt;
   ...
-&lt;/header&gt;</highlight>
+  &lt;/header&gt;</highlight>
 
 <p>Elle pourrait aussi être utilisée pour représenter l'entête d'un article incluant le nom de l'article, son auteur, sa date de publication, etc.</p>
 
@@ -129,7 +129,7 @@
   &lt;div class=&quot;contact&quot;&gt;infos@site.com&lt;/div&gt;
   &lt;span class=&quot;copy&quot;&gt;&copy;2021 Nom du site&lt;/span&gt;
   ...
-&lt;/footer&gt;</highlight>
+  &lt;/footer&gt;</highlight>
 
 <p>Elle pourrait aussi être utilisée pour représenter le pied de page d'un article incluant des liens de partage sur les réseaux sociaux, un rappel de l'auteur, etc.</p>
 
@@ -145,19 +145,19 @@
 <p>Comme son nom l'indique, la balise <span class="inline-code">&lt;nav&gt;</span> représente un élément de navigation. Elle contient donc un groupe de liens permettant de naviguer sur le site ou encore sur la page actuelle.</p>
 
 <ul>
-    <li>Un menu</li>
-    <li>Une table des matières</li>
-    <li>Un fil d'Ariane</li>
-    <li>Etc.</li>
+  <li>Un menu</li>
+  <li>Une table des matières</li>
+  <li>Un fil d'Ariane</li>
+  <li>Etc.</li>
 </ul>
 
 <highlight lang="html">&lt;nav&gt;
   &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&quot;./accueil.html&quot;&gt;Accueil&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./produits.html&quot;&gt;Produits&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./contact.html&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./accueil.html&quot;&gt;Accueil&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./produits.html&quot;&gt;Produits&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./contact.html&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
-&lt;/nav&gt;</highlight>
+  &lt;/nav&gt;</highlight>
 
 <p>Il s'agit aussi d'une balise de type bloc, elle se comporte donc exactement comme une balise <span class="inline-code">&lt;div&gt;</span>.</p>
 
@@ -175,18 +175,18 @@
 <highlight lang="html">&lt;header&gt;
   &lt;h1&gt;Nom du site&lt;/h1&gt;
   ...
-&lt;/header&gt;
+  &lt;/header&gt;
 
-&lt;main&gt;
+  &lt;main&gt;
   &lt;h2&gt;Sujet principal du site&lt;/h2&gt;
   &lt;img src=&quot;sujet.png&quot; alt=&quot;Sujet&quot;&gt;
   ...
-&lt;/main&gt;
+  &lt;/main&gt;
 
-&lt;footer&gt;
+  &lt;footer&gt;
   &lt;div class=&quot;contact&quot;&gt;infos@site.com&lt;/div&gt;
   ...
-&lt;/footer&gt;</highlight>
+  &lt;/footer&gt;</highlight>
 
 <p>Puisqu'il s'agit d'une balise de type bloc, elle se comporte exactement comme une balise <span class="inline-code">&lt;div&gt;</span>.</p>
 
@@ -210,14 +210,14 @@
   &lt;a href=&quot;page-1.html&quot;&gt;Qu&eacute;bec se rectifie&lt;/a&gt;
   &lt;a href=&quot;page-2.html&quot;&gt;Deux d&eacute;put&eacute;s sanctionn&eacute;s&lt;/a&gt;
   ...
-&lt;/section&gt;
+  &lt;/section&gt;
 
-&lt;section&gt;
+  &lt;section&gt;
   &lt;h2&gt;Sports&lt;/h2&gt;
   &lt;a href=&quot;page-3.html&quot;&gt;Le Canadien l&#039;emporte&lt;/a&gt;
   &lt;a href=&quot;page-4.html&quot;&gt;Le onze montr&eacute;alais triomphe&lt;/a&gt;
   ...
-&lt;/section&gt;</highlight>
+  &lt;/section&gt;</highlight>
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/section">section</doclink>
 <doclink href="https://www.w3schools.com/tags/tag_section.asp">section</doclink>
@@ -234,10 +234,10 @@
 
 <highlight lang="html">&lt;article&gt;
   &lt;header&gt;
-    &lt;h2&gt;Le Canadien l&#039;emporte&lt;/h2&gt;
+  &lt;h2&gt;Le Canadien l&#039;emporte&lt;/h2&gt;
   &lt;/header&gt;
   &lt;p&gt;Le CH a remport&eacute; une victoire in extr&eacute;mis hier...&lt;/p&gt;
-&lt;/article&gt;</highlight>
+  &lt;/article&gt;</highlight>
 
 <p>Comme les précédentes balises, il s'agit d'une balise de type bloc, elle se comporte donc exactement comme une balise <span class="inline-code">&lt;div&gt;</span>.</p>
 
@@ -248,29 +248,22 @@
 
 <grostitre>Aside</grostitre>
 
-<p>La balise <span class="inline-code">&lt;aside&gt;</span> représente un groupe d'éléments ayant un lien indirect avec le sujet principal de la page.</p>
+<p>La balise <span class="inline-code">&lt;aside&gt;</span> est utilisée pour contenir du contenu qui est lié de manière indirecte au contenu principal de la page. Par exemple, dans un article, le <span class="inline-code">&lt;aside&gt;</span> pourrait contenir des informations supplémentaires, des citations, des publicités, ou des liens vers des articles connexes.</p>
 
+<h2>Exemple simple</h2>
+<p>Dans un article sur les chats, un <span class="inline-code">&lt;aside&gt;</span> pourrait inclure une petite section sur les meilleures marques de nourriture pour chats. Ce n'est pas le sujet principal, mais c'est lié et peut être intéressant pour le lecteur.</p>
+
+<h2>En résumé</h2>
 <ul>
-    <li>Des aperçus d'articles similaires</li>
-    <li>Un bloc de commentaires</li>
-    <li>Des informations supplémentaires</li>
-    <li>Etc.</li>
+  <li><b>Contenu secondaire </b>: Le contenu de <span class="inline-code">&lt;aside&gt;</span> est lié, mais pas essentiel, au contenu principal.</li>
+  <li><b>Exemples d'utilisation</b> : Informations supplémentaires, liens connexes, citations, publicités.</li>
 </ul>
-
-<highlight lang="html">&lt;article&gt;
-  &lt;header&gt;
-    &lt;h2&gt;Le Canadien l&#039;emporte&lt;/h2&gt;
-  &lt;/header&gt;
-  &lt;p&gt;Le CH a remport&eacute; une victoire in extr&eacute;mis hier...&lt;/p&gt;
-  &lt;aside&gt;Le Canadien est une &eacute;quipe fond&eacute;e en 1909.&lt;/aside&gt;
-&lt;/article&gt;</highlight>
 
 <p>Il s'agit aussi d'une balise de type bloc, elle se comporte donc exactement comme une balise <span class="inline-code">&lt;div&gt;</span>.</p>
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/aside">aside</doclink>
 <doclink href="https://www.w3schools.com/tags/tag_aside.asp">aside</doclink>
 
-<knowmore href="https://prof-inter-web.github.io/cmontmorency/index.html">Exemple de balisage sémantique</knowmore>
 
 <dots></dots>
 
