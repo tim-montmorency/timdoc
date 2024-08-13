@@ -128,7 +128,7 @@
 
 <dots></dots>
 
-<grostitre>ooclap</grostitre>
+<grostitre>Wooclap</grostitre>
 
 <img src="images/wooclap.png">
 
