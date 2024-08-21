@@ -2973,6 +2973,17 @@ footer #copyright {
   margin-left: -25px;
   margin-right: -25px;
 }
+#contents iframe[src*="app.wooclap.com"], #wiki__pages iframe[src*="app.wooclap.com"] {
+  margin-left: -25px;
+  margin-right: -25px;
+  min-width: 300px;
+}
+@media (min-width: 576px) {
+  #contents iframe[src*="app.wooclap.com"], #wiki__pages iframe[src*="app.wooclap.com"] {
+    min-width: calc(100% + 50px);
+    max-width: calc(100% + 50px);
+  }
+}
 #contents figure, #wiki__pages figure {
   margin-bottom: 50px;
 }

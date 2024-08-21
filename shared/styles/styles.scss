@@ -361,6 +361,17 @@ footer {
             margin-right: -25px;
         }
     }
+    iframe[src*="app.wooclap.com"]{
+        margin-left: -25px;
+        margin-right: -25px;
+        min-width: 300px;
+        @media (min-width: 576px) {
+            min-width: calc(100% + 50px);
+            max-width: calc(100% + 50px);
+        }
+       
+
+    }
     figure {
         margin-bottom: 50px;
         img{

@@ -84,12 +84,12 @@
  \_____\___/ \__,_|_|  |___/  |_|
 
 -->
-<!---------------------- Cours 1 AAAAAAAAA ----------------------->
-<!---------------------- Cours 1 AAAAAAAAA ----------------------->
-<!---------------------- Cours 1 AAAAAAAAA ----------------------->
-<wiki-page name="Cours 01.A" date="2024-08-22">
+<!---------------------- Cours 1 jeudi ----------------------->
+<!---------------------- Cours 1 jeudi ----------------------->
+<!---------------------- Cours 1 jeudi ----------------------->
+<wiki-page name="Sem01.jeudi" date="2024-08-22">
     <grostitre>Rejoindre l'équipe du cours dans Teams</grostitre>
-    <p>Code: 7yy1isa</p>
+    <p>Code:<span style="font-size: 200%; font-weight: bold; color: #ff003a;">7yy1isa</span></p>
     <h3>Activer les notifications du groupe cours</h3>
     <img src="images/activer-notif-equipe-classe-etape01.jpg" alt="" style="width: 100%; max-width: 800px; display: block; margin: 5px 0;" ><br>
     <img src="images/activer-notif-equipe-classe-etape02.jpg" alt="" style="width: 100%; max-width: 800px; display: block; margin: 5px 0;">
@@ -101,40 +101,42 @@
 
     <dots></dots>
 
-    <h2>Projet de session (PS)</h2>
-
+    <dots></dots>
+    <grostitre>Projet de session (PS)</grostitre>
     <intlink href="../projet/mise-en-contexte/"></intlink>
     <intlink href="../projet/arborescence/"></intlink>
     <intlink href="../projet/requis-client/"></intlink>
 
-    <h2>Gestion de projet</h2>
+    <dots></dots>
+    <grostitre>Gestion de projet</grostitre>
     <intlink href="../gestion-de-projet/kanban/"></intlink>
     <intlink href="../gestion-de-projet/trello/"></intlink>
     <intlink href="../gestion-de-projet/rapport-de-temps/"></intlink>
 
-    <h2>Projet de session (PS)</h2>
+    <dots></dots>
+    <grostitre>Projet de session (PS)</grostitre>
     <intlink href="../projet/melee-scrum/"></intlink>
 
-    <h2>Exercice: Dérouillage CSS et JS</h2>
-    Le lien sera fourni en cours.
+    <dots></dots>
+    <grostitre>Exercice: Dérouillage CSS et JS</grostitre>
+    <p>Le lien sera fourni en cours. <br><small>(Voir le canal de ton Groupe (01 ou 02) dans notre équipe Teams si le lien n'aparait pas ici.)</small></p>
 
     <dots></dots>
-
-    <h2>Devoirs</h2>
+    <grostitre>Devoirs</grostitre>
     <p>Compléter les requis émis à la fin de ces 3 pages :</p>
     <intlink href="../projet/mise-en-contexte/"></intlink>
     <intlink href="../projet/melee-scrum/"></intlink>
     <intlink href="../gestion-de-projet/rapport-de-temps/"></intlink>
     <br>
-    <p>Compléter l'exercice Jeu du 27: Le lien sera fourni en cours.</p>
+    <p>Compléter l'exercice <strong>Jeu du 27</strong>. <p>Le lien sera fourni en cours. <br><small>(Voir le canal de ton Groupe (01 ou 02) dans notre équipe Teams si le lien n'aparait pas ici.)</small></p></p>
 
 </wiki-page>
 
 
-<!---------------------- Cours 1 BBBBBBBB ----------------------->
-<!---------------------- Cours 1 BBBBBBBB ----------------------->
-<!---------------------- Cours 1 BBBBBBBB ----------------------->
-<wiki-page name="Cours 01.B" date="2024-08-26">
+<!---------------------- Cours 1 lundi ----------------------->
+<!---------------------- Cours 1 lundi ----------------------->
+<!---------------------- Cours 1 lundi ----------------------->
+<wiki-page name="Sem01.lundi" date="2024-08-26">
 
 </wiki-page>
 
@@ -152,7 +154,7 @@
  \_____\___/ \__,_|_|  |___/ |____|
                                                                 
 -->
-<wiki-page name="Cours 02" date="2024-08-29">
+<wiki-page name="Sem02.jeudi" date="2024-08-29">
     <h2>Quiz</h2>
     Lundi - <a href="https://app.wooclap.com/SDQXZU" target="_blank" rel="noopener noreferrer">Code Wooclap : SDQXZU</a>
     <br>
