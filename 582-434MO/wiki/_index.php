@@ -10,24 +10,39 @@
 <wiki-page name="Cours 01">
 
 <grostitre>Plan de cours</grostitre>
-<doclink href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXTXyncwrp9BsK6fpfriFQ8BJqTVzwK0fFBBiRxOienJnA?e=dZa1wP ">Plan de cours</doclink>
+<doclink href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EUBSOd1XBz9FtlRAumIpoawBQ0eIzPaiSnY55lTuNJ2AIQ?e=UFp4Qd">Plan de cours</doclink>
 <dots></dots>
 
 <grostitre>Sprite et travail 1</grostitre>
     <intlink href="../unity/sprite/"></intlink>
     <intlink href="../consignes/travail1/"></intlink>
+    <h3>Test d'exemples de travail 1</h3>
+    <p>Projets de: 
+      <li>Quoc Huy Do</li>
+      <li>Felix Testa Radovanovic</li>
+      <li>Jacob Alarie-Brousseau</li>
+      <li>Antoine Haddad</li>
+    </p>
+
+    <h3>Réflexion sur la thématique de votre travail 1</h3>
+    <p>Tempête d'idées</p>
     <dots></dots>
 
     <grostitre>Installation et base de Unity</grostitre>
    <p> <intlink href="../installation/compte/"></intlink>
     <intlink href="../installation/telechargement/"></intlink>
-    <intlink href="../unity/introduction/"></intlink></p>
-  
+    <dots></dots>
+
+    <grostitre>Intro à l'éditeur</grostitre> 
     <exercice href="../unity/introduction/exercices/intro/"></exercice>
+ 
     <dots></dots>
     
-    <grostitre>Test d'expériences VR</grostitre>
-    <intlink href="../installation/experiences/"></intlink>
+    <grostitre>Test d'expériences AR</grostitre>
+    <p>À l'extérieur et dans les livres.</p>
+    <dots></dots>
+    <grostitre>Retour en groupe</grostitre> 
+    <intlink href="../unity/introduction/"></intlink></p>
     
 </wiki-page>
 
@@ -85,7 +100,7 @@
 </wiki-page>
 
 <wiki-page name="Cours 05">
-<grostitre>Vérifier votre projet Unity en vue de l'évaluation sur la nomenclature</grostitre>
+<grostitre>Vérifier votre projet Unity en vue de l'évaluation formative sur la nomenclature</grostitre>
 <p><checklist>
     Classement des fichiers
     Classement des GameObject
@@ -96,6 +111,9 @@
 <dots></dots>
 <grostitre>Débuter l'exercice</grostitre>
 <intlink href="../exercices/scene/"></intlink>
+<dots></dots>
+<grostitre>Test d'expériences VR</grostitre>
+<intlink href="../installation/experiences/"></intlink>
 </wiki-page>
 
 <wiki-page name="Cours 06">
@@ -108,15 +126,13 @@
 </wiki-page>
 
 <wiki-page name="Cours 07">
-<grostitre>Sortie Zéro Latency</grostitre>
-<dots></dots>
 <grostitre>Devoir:Continuer l'exercice 2</grostitre>
 <intlink href="../exercices/scene/"></intlink>
 <dots></dots>
 <grostitre>Devoir: Commencer l'idéation du projet final</grostitre>
 </wiki-page>
 
-<wiki-page name="10 octobre">
+<wiki-page name="15 octobre">
 
 <grostitre>Pas de cours</grostitre>
 <p>Journée pédagogique.</p>
@@ -125,16 +141,13 @@
 
 <wiki-page name="Cours 08">
 
-<grostitre>Pas de cours</grostitre>
-<p>Remplacé par une conférence d'Aleo VR le 24 octobre de 11h40 à 13h + Rendez-vous en ligne pour discuter de vos idées de projet final.</p>
+<grostitre>Idéation du projet final</grostitre>
+<p>Élaborer le plan de projet pour le travail 3.</p>
 
 </wiki-page>
 
 <wiki-page name="Cours 09">
 
-<grostitre>11h40 à 13h</grostitre>
-<p>Conférence Aleo VR</p>
-<dots></dots>
 <grostitre>Présentation des plans de projet</grostitre>
 <dots></dots>
 <grostitre>Prêt des caques oculus</grostitre>
@@ -169,9 +182,14 @@
 </wiki-page>
 
 
+<wiki-page name="12 novembre">
 
+<grostitre>Pas de cours</grostitre>
+<p>Journée de rattrapage.</p>
 
-<wiki-page name="Cours 11">
+</wiki-page>
+
+<wiki-page name="Cours 11 - 14 novembre">
 <grostitre>Grimper</grostitre>
 <p><intlink href="../unity/deplacement_vr/"></intlink></p>
 <dots></dots>
@@ -190,12 +208,7 @@
 
 </wiki-page>
 
-<wiki-page name="14 novembre">
 
-<grostitre>Pas de cours</grostitre>
-<p>Journée de rattrapage.</p>
-
-</wiki-page>
 
 
 <wiki-page name="Cours 12">
@@ -226,7 +239,7 @@
 </wiki-page>
 
 <wiki-page name="Cours 13">
-
+<grostitre>Avancement du projet final</grostitre>
 </wiki-page>
 
 <wiki-page name="Cours 14">

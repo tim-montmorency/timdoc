@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @type     article
  * @title    Les outils
@@ -38,7 +39,7 @@
 
 <list>
     <ol>
-        <li><em>Contenu visuel</em> :  YouTube est une plateforme de partage de vidéos, ce qui signifie qu'elle offre des explications sous forme de vidéos. Les vidéos peuvent fournir des explications visuelles, des démonstrations, des tutoriels pas à pas et bien plus encore.</li>
+        <li><em>Contenu visuel</em> : YouTube est une plateforme de partage de vidéos, ce qui signifie qu'elle offre des explications sous forme de vidéos. Les vidéos peuvent fournir des explications visuelles, des démonstrations, des tutoriels pas à pas et bien plus encore.</li>
 
         <li><em>Variété des créateurs</em> : Des millions de créateurs de contenu du monde entier partagent leurs connaissances et leurs compétences sur YouTube. Cela signifie que vous pouvez trouver des explications dans une grande variété de domaines, du bricolage à la science en passant par la musique et la cuisine.</li>
 
@@ -50,7 +51,8 @@
 
 <warning>Cependant, il est important de noter que, bien que Google et YouTube soient d'excellentes ressources pour trouver des explications, il est toujours conseillé de faire preuve de discernement et de vérifier la crédibilité des sources, surtout pour des sujets complexes ou controversés.</p>
 
-<p> Toujours croiser les informations provenant de différentes sources pour obtenir une vue d'ensemble précise.</p></warning>
+    <p> Toujours croiser les informations provenant de différentes sources pour obtenir une vue d'ensemble précise.</p>
+</warning>
 
 
 <doclink href="https://www.google.ca">Google</doclink>
@@ -71,7 +73,7 @@
 
 <dots></dots>
 
-<grostitre>Virtual Studio Code  (VS code)</grostitre>
+<grostitre>Virtual Studio Code (VS code)</grostitre>
 
 <img src="images/vs-code.webp">
 
@@ -123,5 +125,17 @@
 <p> CodePen est souvent utilisé pour la création de prototypes, la démonstration de concepts, l'apprentissage et la création de petites applications web.</p>
 
 <doclink href="https://codepen.io">Codepen</doclink>
+
+<dots></dots>
+
+<grostitre>Wooclap</grostitre>
+
+<img src="images/wooclap.png">
+
+<p>Créez des expériences d’apprentissage mémorables avec <b>Wooclap</b></p>
+
+<p> Wooclap, l’outil pour interagir, capter l’attention et mesurer la compréhension.</p>
+
+<doclink href="https://www.wooclap.com/fr/">Wooclap</doclink>
 
 <dots></dots>
