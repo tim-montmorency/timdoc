@@ -62,10 +62,10 @@ mais bien d’être la référence au sein de son équipe concernant cet aspect 
     </li>
     <li>Élaborer un plan d'organisation des tâche par libellé.</li>
     <li>
-        À chaque semaine organiser un <em>"Daily Scrum"</em> et s'assurer du bon déroulement de la rencontre.
+     À chaque semaine organiser un <em>"Daily Scrum"</em> et s'assurer du bon déroulement de la rencontre.
     </li>
 </ul>
-<warning>Attention le <em>Daily Scrum</em> ne pourra pas être la journée du cours, ni la journée précédente ou&nbsp;suivante.</warning>
+
 
 <ul>
     <li>
@@ -122,10 +122,7 @@ mais bien d’être la référence au sein de son équipe concernant cet aspect 
         Création du fichier .gitignore.
     </li>
     <li>
-       Dynamisation des pages avec PHP (on va l'apprendre en classe).
-    </li>
-    <li>
-       Écrire des requêtes WP Query (on va l'apprendre en classe).
+       Lead à la dynamisation des pages avec PHP (même si tout le monde doit y travailler).
     </li>
     <li>
         etc.
