@@ -4,10 +4,14 @@
  * @title    Kanban
  * @icon     images/icon-kanban.png
  * @abstract Méthode de gestion du travail
- * @index 200
+ * @index 1000
  */
 ?>
 <p>Kanban est une méthode de gestion du travail créée afin d'aider à visualiser les tâches à accomplir, afin d'optimiser son efficacité et de devenir plus agile. Le but fondamental est de créer plus de valeur pour le client sans pour autant générer davantage de coûts. </p>
+
+<info>Kanban (カンバン, 看板?) est une méthode de gestion des connaissances relatives au travail, qui met l’accent sur une organisation de type juste-à-temps en fournissant l'information ponctuellement aux membres de l'équipe afin de ne pas les surcharger. Dans cette approche, le processus complet, de l'analyse des tâches jusqu’à leur livraison au client, est consultable par tous les participants, chacun prenant ses tâches depuis une file d'attente. <br><br>
+
+Dans le cadre du développement logiciel, kanban peut être un système visuel de gestion des processus qui indique quoi produire, quand le produire et en quelle quantité ; cette approche est directement inspirée du système de production de Toyota et des méthodes lean. <br>Source : <a href="https://fr.wikipedia.org/wiki/Kanban_(d%C3%A9veloppement)" target="_blank" rel="noopener noreferrer">Wikipedia</a></info>
 
 
 <dots></dots>
@@ -24,7 +28,16 @@
 <grostitre>Fonctionnement</grostitre>
 <p>Un projet utilisant la méthodologie Kanban repose sur la présence d'un tableau affichant toutes les tâches à accomplir. Ces tâches sont positionnées dans différentes colonnes du tableau afin de refléter leur statut actuel.</p>
 
+
+<a href="https://www.atlassian.com/fr/agile/kanban/boards" target="_blank" rel="noopener noreferrer"><img src="images/tableu-kanban.png" alt="colonnes kanban" style="margin-bottom: 0"></a>
+
+
+
 <p>Au départ ces tableaux existaient dans un format physique et chaque tâche était représentée par un papillon adhésif <em>(post-it)</em> que l'on déplaçait de colonne en colonne. De nos jours, ces tableaux prennent souvent une forme numérique.</p>
+
+<a href="https://www.atlassian.com/fr/agile/kanban/boards" target="_blank" rel="noopener noreferrer"><img src="images/physical_postit.jpg" alt="post-it" style="margin-bottom: 0"></a>
+
+
 
 <info>Le terme <em>"Kanban"</em> est un mot japonais 🇯🇵 signifiant&nbsp;<em>étiquette</em>.</info>
 
@@ -53,5 +66,8 @@ Il est possible que vous ayez commencé à peinturer un mur et qu’entre deux c
 <ul><li><strong>Prêt à être validé <em>(In QA).</em></strong> <br>Cette colonne s'insère <strong>entre <em>"En cours"</em> et <em>"Terminé"</em></strong>. Ainsi, dès qu'un membre de l'équipe termine une tâche, il la met dans cette colonne et ensuite, la personne chargée de l'assurance qualité sait que cette tâche est prête à être validée. Si tout est conforme, elle déplace donc officiellement la tâche dans la colonne <em>"Terminé"</em>, sinon elle la ramène dans la colonne <em>"À faire"</em> avec ses commentaires expliquant les éléments problématiques.</li><li><strong>En production <em>(In prod)</em></strong><br>Cette colonne s'ajoute <strong>complètement à la fin du tableau</strong>. Celle-ci permet de différencier ce qui est visible en ligne <em>(déployé)</em> de ce qui est visible sur l'environnement de développement. Ainsi lorsque le DevOps effectue un déploiement, il transfère toutes les tâches actuellement dans la colonne <em>"Terminé"</em> vers celle nommée <em>"En production"</em>. Ainsi on évite la confusion chez le client qui peut apercevoir certaines tâches terminées en ligne sur son site et d'autres non.</li></ul>
 
 
+<a href="https://www.atlassian.com/fr/agile/kanban/boards" target="_blank" rel="noopener noreferrer"><img src="images/tableau-trello.png" alt="Tableau Trello" style="margin-bottom: 0"></a>
 
+
+<br>
 <doclink href="https://fr.wikipedia.org/wiki/Kanban_(d%C3%A9veloppement)">Kanban</doclink>

@@ -4,7 +4,7 @@
  * @title    Trello
  * @icon     images/icon.png
  * @abstract Outil de gestion de projets
- * @index 180
+ * @index 950
  */
 ?>
 

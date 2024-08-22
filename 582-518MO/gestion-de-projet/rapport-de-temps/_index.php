@@ -4,7 +4,7 @@
  * @title    Rapport de temps
  * @icon     images/icon.png
  * @abstract Suivre le temps de travail
- * @index 150
+ * @index 900
  */
 ?>
 
@@ -35,7 +35,7 @@
 
 <h3>Alternatives à Toggl</h3>
 <ul>
-
+    
     <li><a href="https://hourstack.com/" target="_blank" rel="noopener noreferrer">HourStack</a></li>
     <li><a href="https://timelyapp.com/" target="_blank" rel="noopener noreferrer">Timely</a></li>
     <li><a href="https://trackingtime.co/" target="_blank" rel="noopener noreferrer">TrackingTime</a></li>

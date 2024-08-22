@@ -15,7 +15,7 @@
 <wiki-page name="Ressources" date="2024-08-22">
     <grostitre>Plans de cours et guides</grostitre>
 
-    <p><a href="#" target="_blank" rel="noopener noreferrer">Plan de cours</a></p>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EbjEGr5Alt5PuZTAxtk_8ZsBXhnOx_OK1d8PmAcq3K9P2w?e=baA46k" target="_blank" rel="noopener noreferrer">Plan de cours</a></p>
   
     <p><a href="https://cmontmorency365.sharepoint.com/:w:/r/sites/TIM-TTP/_layouts/15/Doc.aspx?sourcedoc=%7B48119BB7-5AEC-438C-BB23-C7DA3EE1061D%7D&file=guide_etudiants.docx&action=default&mobileredirect=true"
             target="_blank" rel="noopener noreferrer">Guide étudiant TIM</a></p>
@@ -101,9 +101,8 @@
 
     <dots></dots>
     <grostitre>Plan de cours pour cette session</grostitre>
-    <p><a href="#" target="_blank" rel="noopener noreferrer">Plan de cours</a></p>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EbjEGr5Alt5PuZTAxtk_8ZsBXhnOx_OK1d8PmAcq3K9P2w?e=baA46k" target="_blank" rel="noopener noreferrer">Plan de cours</a></p>
 
-    <dots></dots>
 
     <dots></dots>
     <grostitre>Projet de session (PS)</grostitre>
@@ -115,11 +114,43 @@
     <grostitre>Gestion de projet</grostitre>
     <intlink href="../gestion-de-projet/kanban/"></intlink>
     <intlink href="../gestion-de-projet/trello/"></intlink>
-    <intlink href="../gestion-de-projet/rapport-de-temps/"></intlink>
+
 
     <dots></dots>
     <grostitre>Projet de session (PS)</grostitre>
     <intlink href="../projet/melee-scrum/"></intlink>
+
+    <dots></dots>
+     
+    <grostitre>Exercice: Gestion de projet – Méthode Agile </grostitre>
+    <p>Par équipe, distribuez vous une lecture par personne. Prenez le temps de lire et bien comprendre le sujet qui vous est attitré. </p>
+
+    <p>Revenez ensuite en groupe et participer à une période de discussion où à tour de rôle chacun présente son sujet et l'explique du mieux possible aux autres afin que ses co-équipiers puisse bien comprendre. Faites des liens entre chaque sujet, discutez-en. </p>
+
+    <p>Je choisis une personne au hasard dans la classe qui devra m'expliquer en quelques mots tout le processus Agile avec les sujets qui auront été discutés en équipe. </p>
+
+    <ul>
+        <li>Sujet 1 : <a href="https://blog-gestion-de-projet.com/decouvrir-la-culture-agile/" target="_blank" rel="noopener noreferrer">Découvrir la culture agile</a>  </li>
+
+        <li>Sujet 2 : <a href="https://asana.com/fr/resources/user-stories" target="_blank" rel="noopener noreferrer">Le scénario utilisateur/ récit utilisateur (communément appelé User Story)</a>  </li>
+
+        <li>Sujet 3 :  <a href="https://cmontmorency365-my.sharepoint.com/:b:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Projet%20Web/02_contenu_cours/2020-Scrum-Guide-French.pdf?csf=1&web=1&e=JbKOr1" target="_blank" rel="noopener noreferrer">Scrum et Sprint</a>  </li>
+
+        <li>Sujet 4 :  <a href="https://blog-gestion-de-projet.com/quest-ce-que-le-planning-poker/" target="_blank" rel="noopener noreferrer">Poker Planning</a>  </li>
+    </ul>
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
 
     <dots></dots>
     <grostitre>Exercice: Dérouillage CSS et JS</grostitre>
@@ -127,12 +158,11 @@
 
     <dots></dots>
     <grostitre>Devoirs</grostitre>
-    <p>Compléter les requis émis à la fin de ces 3 pages :</p>
+    <p>Compléter les requis émis à la fin de ces 2 pages :</p>
     <intlink href="../projet/mise-en-contexte/"></intlink>
     <intlink href="../projet/melee-scrum/"></intlink>
-    <intlink href="../gestion-de-projet/rapport-de-temps/"></intlink>
     <br>
-    <p>Compléter l'exercice <strong>Jeu du 27</strong>. <p>Le lien sera fourni en cours. <br><small>(Voir le canal de ton Groupe (01 ou 02) dans notre équipe Teams si le lien n'aparait pas ici.)</small></p></p>
+    <p>Compléter l'exercice <strong>Jeu du 27</strong>. Le lien était fourni en cours. <br><small>(Voir le canal de ton Groupe (01 ou 02) dans notre équipe Teams si le lien n'aparait pas ici.)</small></p>
 
 </wiki-page>
 
@@ -255,6 +285,7 @@
                                           
 ----------------------->
 <wiki-page name="Cours 03" date="2024-09-07">
+<intlink href="../gestion-de-projet/rapport-de-temps/"></intlink>
 
     <h2>Processus de la présentation des maquettes</h2>
     <ul>

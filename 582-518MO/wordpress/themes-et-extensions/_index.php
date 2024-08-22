@@ -30,7 +30,7 @@
 <p>Tout comme les&nbsp;<a rel="noopener noreferrer" href="#themes">thèmes</a>, il suffit dans la barre latérale de l'admin de choisir&nbsp;<em>Extensions</em> (plugins)&nbsp;et de décider si nous souhaitons choisir parmi certaines extensions existantes ou si nous désirons en téléverser&nbsp;une.</p><p>Dans le cadre de ce cours, je vous invite à ajouter deux extensions existantes. Pour ce faire, cliquer dans la barre intitulée&nbsp;<em>Rechercher des&nbsp;extensions</em>:</p>
 
 <ul>
-<li><a href="https://wordpress.org/plugins/custom-post-type-ui/">Custom Post Type UI</a>&nbsp;WebDevStudios</li>
+<li><s><a href="https://wordpress.org/plugins/custom-post-type-ui/">Custom Post Type UI</a>&nbsp;WebDevStudios</s></li>
     <li><a href="https://www.advancedcustomfields.com/">ACF | Advanced Custom Fields</a>&nbsp;d'Elliot Condon</li>
     <li><a href="https://fr.wordpress.org/plugins/wp-multilang/">WP Multilang</a>&nbsp;de Valentyn Riaboshtan</li>
 </ul>

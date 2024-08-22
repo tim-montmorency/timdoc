@@ -136,7 +136,7 @@ mais bien d’être la référence au sein de son équipe concernant cet aspect 
 
 
 
-
+<!--
 <h3 class="heading heading--h3" id="Agent de promotion">Agent de promotion</h3>
 
 <p><em>(Rôle disponible pour les équipes de quatre seulement)</em></p>
@@ -160,7 +160,7 @@ mais bien d’être la référence au sein de son équipe concernant cet aspect 
 
 <p>Le candidat idéal est prêt à travailler dans l’ombre afin de bien faire paraître son équipe, mais comprend qu’il doit-être rigoureux, car l’image de sa compagnie et l’acquisition de nouveaux clients peuvent être directement impactées par son niveau de soucis du détail.</p>
 
-
+-->
 
 <dots></dots>
 <grostitre>Requis</grostitre>

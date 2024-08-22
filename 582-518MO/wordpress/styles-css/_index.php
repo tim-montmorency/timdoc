@@ -1,7 +1,7 @@
 <?php 
 /**
  * @type     article
- * @title    Styles CSS thème WP
+ * @title    Création d'un thème: Styles CSS
  * @icon     ../medias/icon.webp
  * @abstract Styles css dans WP
  * @index    98
