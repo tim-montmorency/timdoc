@@ -78,7 +78,7 @@
 
 
 <ol start="1">
-    <li>Un outil en ligne tel que <a target="_blank" rel="noopener noreferrer" href="https://www.sassmeister.com/">SassMeister</a>, permet de convertir du code de scss vers css. Cependant, cette solution implique de recopier à la main 🖐 son code à chaque fois que l'on souhaite le compiler.
+    <li>Un outil en ligne tel que <a target="_blank" rel="noopener noreferrer" href="https://sass-lang.com/playground/">Sass Playground</a>, permet de convertir du code de scss vers css. Cependant, cette solution implique de recopier à la main 🖐 son code à chaque fois que l'on souhaite le compiler.
     </li>
     <li>
         Avec Visual Studio Code, il y a une panoplie d'extentions que vous pouvez installer pour que votre sass/scss se compile en css. <a href="https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass" target="_blank" rel="noopener noreferrer">Live Sass Compiler</a> est un très bon exemple. 
