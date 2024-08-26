@@ -122,6 +122,54 @@
 
     <dots></dots>
      
+    <grostitre>Exercice: Dérouillage CSS et JS</grostitre>
+    <exercice href='../exercices/cartes-jeu-du-27/'></exercice>
+
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+    <p>Compléter les requis émis à la fin de ces 2 pages :</p>
+    <intlink href="../projet/mise-en-contexte/"></intlink>
+    <intlink href="../projet/melee-scrum/"></intlink>
+    <br>
+    Compléter l'exercice avant le prochain cours lundi. <br>
+    <intlink href="../exercices/cartes-jeu-du-27/"></intlink>
+
+
+</wiki-page>
+
+
+<!---------------------- Cours 1 lundi ----------------------->
+<!---------------------- Cours 1 lundi ----------------------->
+<!---------------------- Cours 1 lundi ----------------------->
+<wiki-page name="Sem01.lundi" date="2024-08-26">
+
+    <grostitre>Annonce et quiz</grostitre>
+    <p>Comité étudiant TIM et finissants TIM.</p>
+    <h3>Quiz</h3>
+    <ul>
+        <li><a href="https://app.wooclap.com/BNJSTN" target="_blank" rel="noopener noreferrer">Groupe 02 (AM)</a></li>
+        <li><a href="https://app.wooclap.com/UBCGPO" target="_blank" rel="noopener noreferrer">Groupe 01 (PM)</a></li>
+    </ul>
+
+
+    <dots></dots>
+    <grostitre>Révision</grostitre>
+    <exercice href='../exercices/cartes-jeu-du-27/'></exercice>
+
+    <dots></dots>
+    <grostitre>Sass</grostitre>
+    <intlink href="../sass/introduction/"></intlink>
+    <intlink href="../sass/imbrication/"></intlink>
+    <intlink href="../sass/variable/"></intlink>
+    <intlink href="../sass/extend/"></intlink>
+    <intlink href="../sass/boucle/"></intlink>
+
+    <dots></dots>
+    <grostitre>Exercices SASS</grostitre>
+    <p>3 exercices, les liens seront fournis en cours.</p>
+
+
+    <dots></dots>
     <grostitre>Exercice: Gestion de projet – Méthode Agile </grostitre>
     <p>Par équipe, distribuez vous une lecture par personne. Prenez le temps de lire et bien comprendre le sujet qui vous est attitré. </p>
 
@@ -134,43 +182,15 @@
 
         <li>Sujet 2 : <a href="https://asana.com/fr/resources/user-stories" target="_blank" rel="noopener noreferrer">Le scénario utilisateur/ récit utilisateur (communément appelé User Story)</a>  </li>
 
-        <li>Sujet 3 :  <a href="https://cmontmorency365-my.sharepoint.com/:b:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Projet%20Web/02_contenu_cours/2020-Scrum-Guide-French.pdf?csf=1&web=1&e=JbKOr1" target="_blank" rel="noopener noreferrer">Scrum et Sprint</a>  </li>
+        <li>Sujet 3 :  <a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EWi5LOM_DuZIgtVcmZtvqNoBT95eB2xbrUSXtQjRlGimTw?e=BH6CjI" target="_blank" rel="noopener noreferrer">Scrum et Sprint</a>  </li>
 
-        <li>Sujet 4 :  <a href="https://blog-gestion-de-projet.com/quest-ce-que-le-planning-poker/" target="_blank" rel="noopener noreferrer">Poker Planning</a>  </li>
+        <li>Sujet 4 :  <a href="https://blog-gestion-de-projet.com/quest-ce-que-le-planning-poker/" target="_blank" rel="noopener noreferrer">Poker Planning</a>  </li>
     </ul>
 
 
- 
-
- 
-
-
-
-
-
-
-
-
-
-    <dots></dots>
-    <grostitre>Exercice: Dérouillage CSS et JS</grostitre>
-    <p>Le lien sera fourni en cours. <br><small>(Voir le canal de ton Groupe (01 ou 02) dans notre équipe Teams si le lien n'aparait pas ici.)</small></p>
-
     <dots></dots>
     <grostitre>Devoirs</grostitre>
-    <p>Compléter les requis émis à la fin de ces 2 pages :</p>
-    <intlink href="../projet/mise-en-contexte/"></intlink>
-    <intlink href="../projet/melee-scrum/"></intlink>
-    <br>
-    <p>Compléter l'exercice <strong>Jeu du 27</strong>. Le lien était fourni en cours. <br><small>(Voir le canal de ton Groupe (01 ou 02) dans notre équipe Teams si le lien n'aparait pas ici.)</small></p>
-
-</wiki-page>
-
-
-<!---------------------- Cours 1 lundi ----------------------->
-<!---------------------- Cours 1 lundi ----------------------->
-<!---------------------- Cours 1 lundi ----------------------->
-<wiki-page name="Sem01.lundi" date="2024-08-26">
+    Compléter les 3 exercices SASS avant le prochain cours jeudi. <br>
 
 </wiki-page>
 
@@ -211,13 +231,7 @@
             Agile avec les sujets qui auront été discutés en équipe.</li>
     </ol>
     -->
-    <h2>Sass</h2>
-    <intlink href="../sass/introduction/"></intlink>
-    <intlink href="../sass/imbrication/"></intlink>
-    <intlink href="../sass/variable/"></intlink>
-    <intlink href="../sass/extend/"></intlink>
-    <intlink href="../sass/boucle/"></intlink>
-    <p>3 exercices, les liens seront fournis en cours.</p>
+ 
     <br><br>
     <hr><br><br><br>
     <intlink href="../sass/mixins/"></intlink>

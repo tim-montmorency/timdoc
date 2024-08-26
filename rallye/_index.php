@@ -32,7 +32,7 @@ Que se trouve-t-il à la porte de la bulle bleue dans le long corridor où il y 
 Il existe, dans le collège, une œuvre constituée de 2 grandes colonnes monumentales faites de tiges de métal, de pierre et de miroirs.  Elle se nomme Monuments aux savoirs. Qui est l'artiste? 
 Il existe des machines distributrices de plats préparés par les étudiants du département de technique diététique, ces machines sont nommées "L'Ambroisie pour emporter". Quel est le nom du local en bleu qui se trouve à la gauche des machines? 
 Il y a 2 salles de spectacle dans le collège, nommez le nom des 2 salles de spectacle et nommez-le métier de ces 2 personnes. 
-Parmi les classes TIM, nommez-le # du local de la classe Mac (cherchez le logo TIM). 
+Parmi les classes TIM, nommez-le # du labo dans lequel les écrans d'ordinateur sont de format classique, c'est-à-dire en format 16:9.
 Excluant l'ordinateur du professeur, combien de postes de travail y a-t-il dans chaque labo TIM (cherchez le logo TIM). 
-Trouvez le local nommé "Bureau TTP" (en fait, c'est le magasin de matériel TIM).  À sa gauche se trouvent les 2 studios réservés à notre technique. Quel est le # du local du "Grand studio"? </checklist>
+Trouvez le local nommé "Bureau TTP" (en fait, c'est le magasin de matériel TIM). À sa gauche se trouvent les 2 studios réservés à notre technique. Quel est le # du local du "Grand studio"? </checklist>
 
