@@ -80,25 +80,28 @@
 a:hover {
   text-decoration: underline;
 }
-
-nav ul {
+header nav ul {
   list-style: none;
   margin: 0;
   padding: 5px;
   background: #665566;
   font-size: 18px;
 }
-nav ul li {
+header nav ul li {
   display: inline-block;
   padding: 0 10px;
   position: relative;
 }
-nav ul li a {
+header nav ul li .link {
   color: coral;
   text-transform: uppercase;
   font-weight: 100;
 }
-nav ul li ul {
+header nav ul li .link--active {
+  text-decoration: underline;
+  color: white;
+}
+header nav ul li ul {
   position: absolute;
   z-index: 100;
   background-color: white;
@@ -106,8 +109,11 @@ nav ul li ul {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
   font-size: 14px;
 }
-nav ul li ul li {
+header nav ul li ul li {
   padding: 5px 0;
+}
+header nav ul li ul li .link {
+  color: #665566;
 }</highlight>
 <warning>Évitez d’abusez des imbrications. Plus de trois niveaux d’imbrication est généralement considéré comme étant une mauvaise pratique et rendra votre code difficile à&nbsp;déboguer.</warning>
 
@@ -119,7 +125,7 @@ nav ul li ul li {
 <dots></dots>
 <grostitre>Sélecteurs avancés</grostitre>
 
-<p>Les imbrications sont compatible avec tous les <a target="_blank" rel="noopener noreferrer"
+<p>Les imbrications sont compatibles avec tous les <a target="_blank" rel="noopener noreferrer"
         href="../../../582-215MO/css/selecteurs-avances/">sélecteurs CSS avancés</a>.</p>
 <p>Par exemple:</p>
 
@@ -148,7 +154,7 @@ nav ul li ul li {
 
 <p>Le sélecteur de parent <incode>&amp;</incode> est un sélecteur spécial inventé par Sass permettant de faire référence au sélecteur parent courant.</p>
 
-<p>Tout sélecteur imbriqué dans un autre se fait convertir par défaut en enfant du premier. </p>
+<p>Avant de démontrer le sélecteur parent, rappelez vous que tout sélecteur imbriqué dans un autre se fait convertir par défaut en enfant du premier. </p>
 
 <p>Autrement dit:</p>
 
@@ -160,11 +166,16 @@ nav ul li ul li {
 
 <highlight lang="css"> .selecteur1 .selecteur2 { ... } </highlight>
 
-<p>Remarquez <strong>l'espace entre les deux sélecteurs</strong> indiquant que <incode>.selecteur2</incode> est enfant de <incode>.sélecteur1</incode>.</p>
+<p>Remarquez <strong>l'espace entre les deux sélecteurs</strong> indiquant que <incode>.selecteur2</incode> est enfant de <incode>.sélecteur1</incode>.  Il sera donc appliqué à des balises imbriquées comme dans le code suivant:</p>
+
+<highlight lang='html'><div class="selecteur1">
+  <div class="selecteur2">...</div> 
+</div></highlight>
+
 
 <dots></dots>
 
-<p>Cependant grâce au sélecteur parent il est possible de contourner ce comportement.</p>
+<p>Revenons au sélecteur parent, grâce à celui-ci <incode>&amp;</incode>, il est possible de contourner ce comportement.</p>
 
 <p>Si on ajoute un <incode>&amp;</incode> devant le .selecteur2</p>
 
@@ -176,7 +187,10 @@ nav ul li ul li {
 
 <highlight lang="css"> .selecteur1.selecteur2 { ... } </highlight>
 
-<p>Remarquez maintenant l'espace inexistant entre .selecteur1 .selecteur2, cela signifie que le sélecteur 2 s'est appliqué au parent dans l'impbricattion Sass. Ce qui en résulte d'un sélecteur css qui vise un élément qui contient les 2 classes.</p>
+<p>Remarquez maintenant l'espace inexistant entre .selecteur1 .selecteur2, cela signifie que le sélecteur 2 s'est appliqué au parent dans l'impbrication Sass. Ce qui en résulte d'un sélecteur css qui vise un élément qui contient les 2 classes comme dans l'exemple html ci-dessous.</p>
+
+<highlight lang='html'>&lt;div class=&quot;selecteur1 selecteur2&quot;&gt; ... &lt;/div&gt;</highlight>
+
 
 
 
@@ -265,5 +279,6 @@ nav ul li ul li {
 <dots></dots>
 
 
-<tool href="../../tools/sassmeister/"></tool>
+<!--<tool href="../../tools/sassmeister/"></tool>-->
+<tool href="../../tools/sass-playground/"></tool>
 <tool href="../../tools/csstoscss/"></tool>

@@ -1,0 +1,7 @@
+{
+    "type": "tool",
+    "title": "Sass Playground",
+    "icon": "images\/thumbnail.jpg",
+    "url": "https:\/\/sass-lang.com\/playground\/#",
+    "abstract": "Terrain de jeu SASS permettant de voir en temps r\u00e9el la compilation CSS que produirait son code."
+}

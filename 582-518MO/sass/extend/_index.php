@@ -17,7 +17,9 @@
 
 
 <highlight lang="css">.msg {
-  border-left: 4px solid blue;
+  border-left-width: 4px;
+  border-style: solid;
+  border-color: blue;
   padding: 20px;
   background-color: lightBlue;
 }</highlight>
@@ -49,9 +51,11 @@
 
 
 
-<p>Ce qui , une fois compilé en css, générerait le code suivant:</p>
+<p>Ce qui, une fois compilé en css, générerait le code suivant:</p>
 <highlight lang="css">.msg, .msg-alert, .msg-warning {
-  border-left: 4px solid blue;
+  border-left-width: 4px;
+  border-style: solid;
+  border-color: blue;
   padding: 20px;
   background-color: lightBlue;
 }
@@ -79,7 +83,7 @@
 <dots></dots>
 
 <grostitre>Placeholder</grostitre>
-<p>Parfois il est pratique de définir des règles qui peuvent être étendues sans pour autant que ces règles existent en soi, d'où l'utilité des <incode>%placeholder</incode>. Ces règles commencent avec un <incode>%</incode> et ne génèrent aucun code à moins d'être étendues.</p>
+<p>Parfois il est pratique de définir des règles qui peuvent être étendues sans pour autant que ces règles existent en soi sur une classe ou un sélecteur quelconque, d'où l'utilité des <incode>%placeholder</incode>. Ces règles commencent avec un <incode>%</incode> et ne génèrent aucun code à moins d'être étendues.</p>
 
 <p>Par exemple, l'exemple précédent pourrait être réécrit avec un placeholder afin d'éviter que la couleur de fond bleue soit écrasée par les variantes de messages:</p>
 

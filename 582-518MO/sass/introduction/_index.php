@@ -84,14 +84,17 @@
         Avec Visual Studio Code, il y a une panoplie d'extentions que vous pouvez installer pour que votre sass/scss se compile en css. <a href="https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass" target="_blank" rel="noopener noreferrer">Live Sass Compiler</a> est un très bon exemple. 
     </li>
     <li>
-        <p>Une solution idéale, mais légèrement plus complexe consiste à utiliser un <em>bundler</em>. Par exemple: <a
+        Une solution idéale, mais légèrement plus complexe consiste à utiliser un <em>module bundler</em>. Par exemple: <a
                 target="_blank" rel="noopener noreferrer" href="https://webpack.js.org/">webpack</a>, <a target="_blank"
                 rel="noopener noreferrer" href="https://rollupjs.org/guide/en/">Rollup</a>, <a target="_blank"
                 rel="noopener noreferrer" href="/cours/autres/vite">Vite</a>, etc. Ces bundlers peuvent être installés
             directement dans un projet, simplifiant et uniformisant ainsi le travail entre les membres d'une
-            équipe.<br><br>Dans le cadre de ce cours, nous utliserons simplement l'extention  de Visual Studio Code nommée <a href="https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass" target="_blank" rel="noopener noreferrer">Live Sass Compiler</a> mais sachez que dans l'industrie, il y a d'autres façon de travailler.
+            équipe.
     </li>
 </ol>
+
+
+<info>Dans le cadre de ce cours, pour la séance d'aujourd'hui, nous utliserons l'extention de Visual Studio Code nommée <a href="https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass" target="_blank" rel="noopener noreferrer">Live Sass Compiler</a>. Plus tard, vous serez introduits à un <em>module bundler</em> et vous l'utiliserez notemment pour compiler votre code SASS en CSS. </info>
 
 
 
