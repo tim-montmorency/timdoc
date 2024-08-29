@@ -17,7 +17,63 @@
 <dots></dots>
 <grostitre>Clients</grostitre>
 
-<p>Vous devrez faire un choix parmi quelques clients que j'aurai pré-sélectionnés et pour lequel vous allez proposer un design et réaliser la refonte de leur site web. Ces différents choix vous serons présentés au prochain cours lundi prochain.</p>
+<p>Vous devez faire un choix parmi quelques clients que j'ai pré-sélectionnés et pour lequel vous devrez proposer un design et réaliser la refonte de leur site web.</p>
+
+<h3>Vivre en ville</h3>
+<p><strong><a rel="noopener" target="_new" href="https://vivreenville.org/">Vivre en Ville</a></strong> est une organisation québécoise qui se consacre à l'aménagement durable des villes et des territoires.</p>
+<p>Par ses actions, Vivre en Ville stimule l'innovation et accompagne les décideurs, les professionnels et les citoyens dans le développement de milieux de vie de qualité, prospères et favorables au bien-être de chacun, dans la recherche de l'intérêt collectif et le respect de la capacité des écosystèmes.</p>
+<!--
+<ul>
+    <li><strong>Design</strong> : Le site pourrait bénéficier d'une interface plus moderne et intuitive.</li>
+
+    <li><strong>Contenu interactif</strong> : L'intégration de contenus multimédias, tels que des vidéos explicatives, des cartes interactives et des simulations, pourrait rendre l'information plus engageante et accessible.</li>
+
+    <li><strong>Navigation</strong> : Le site bénéficierait d'navigation simplifiée pour que les utilisateurs trouvent plus facilement les ressources qu'ils recherchent.</li>
+
+    <li><strong>Autres</strong> :  Vous pouvez évidemment trouver autre améliorations à apporter, celles-ci ne sont qu'un point de départ.</li>
+</ul>
+-->
+
+
+
+<h3>Ligue des droits et libertés</h3>
+<p><strong><a rel="noopener" target="_new" href="https://liguedesdroits.ca/">Ligue des droits et libertés</a></strong> (LDL) est un organisme qui vise à faire connaître, à défendre et à promouvoir l’universalité, l’indivisibilité et l’interdépendance des droits reconnus dans la Charte internationale des droits de l’Homme. La LDL est affiliée à la Fédération internationale pour les droits humains (FIDH).</p>
+
+<p>Depuis sa fondation, ses actions visent l’ensemble de la population de même que certains groupes placés, selon différents contextes, en situation de vulnérabilité: personnes réfugiées et immigrantes, autochtones, femmes, personnes ayant des limitations fonctionnelles, personnes assistées sociales, etc.</p>
+<!--
+<ul>
+    <li><strong>Refonte visuelle complète</strong> : Le design actuel est fonctionnel mais pourrait être plus attrayant avec des couleurs plus vives et une mise en page plus moderne pour attirer un public plus large.</li>
+    <li><strong>Contenu interactif</strong> : L'intégration de contenus interactifs, tels que des graphiques dynamiques, des vidéos éducatives, et des cartes interactives montrant les progrès en matière de droits humains au Québec, pourrait rendre le site plus informatif et engageant.</li>
+    <li><strong>Optimisation pour appareils mobiles</strong> : Une optimisation accrue pour les appareils mobiles pourrait rendre le site plus accessible à une audience plus jeune et plus diversifiée, qui utilise principalement des smartphones pour naviguer sur le web.</li>
+</ul>-->
+
+
+
+<h3>Fédération des locataires d'habitations à loyer modique du Québec (FLHLMQ)</h3>
+<p><strong><a rel="noopener" target="_new" href="http://flhlmq.com/">FLHLMQ</a></strong> : Cet organisme soutient les locataires de HLM au Québec. La mission de la FLHLMQ est :</p>
+<ul>
+    <li>de promouvoir et défendre les intérêts des locataires et travailler à l’amélioration de leur qualité de vie;</li>
+    <li>d’apporter un soutien au travail réalisé localement par les associations de locataires;
+    <li>de favoriser l’implication et la prise en charge des locataires dans les HLM;
+    <li>de représenter les locataires auprès des instances politiques et administratives.</li>
+</ul>
+
+
+
+
+<dots></dots>
+<grostitre>Comment faire une refonte et proposer des améliorations notables pour le site web de votre client?</grostitre>
+<ol>
+    <li><strong>Refonte complète du design graphique</strong> : Moderniser le design avec une palette de couleurs plus actuelle, une typographie plus claire et lisible, et une mise en page aérée qui utilise efficacement les espaces blancs. Des éléments visuels comme des images de haute qualité et des icônes modernes pourraient également rendre le site plus attrayant.</li>
+    <li><strong>Amélioration de la navigation</strong> : Revoir la structure de navigation pour qu’elle soit plus intuitive. Organiser le contenu par grandes thématiques avec des menus déroulants clairs et logiques. Ajouter une barre de recherche efficace en haut de chaque page pour faciliter l'accès à l'information.</li>
+    <li><strong>Optimisation mobile</strong> : Adapter le site pour qu’il soit totalement responsive, c’est-à-dire qu’il s’ajuste parfaitement à la taille de l’écran utilisé. Cela inclut une réorganisation des menus, une taille de police adaptée et des boutons de navigation suffisamment grands pour être facilement cliquables sur un écran tactile.</li>
+    <li><strong>Hiérarchisation du contenu</strong> : Appliquer une hiérarchie visuelle plus forte avec des titres clairement distincts des sous-titres et du corps du texte. Utiliser des tailles de police et des styles différents pour guider l’utilisateur dans la lecture et faciliter la compréhension des informations.</li>
+</ol>
+
+
+
+
+
 
 <!--
 <h3>Architecture sans frontière - Québec</h3>

@@ -4,7 +4,7 @@
  * @title    Mêlée
  * @icon     images/icon.svg
  * @abstract Aussi appelé "Daily scrum"
- * @index 77
+ * @index 98
  */
 ?>
 

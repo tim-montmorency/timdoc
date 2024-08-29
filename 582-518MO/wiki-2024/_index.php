@@ -166,9 +166,12 @@
 
     <dots></dots>
     <grostitre>Exercices SASS</grostitre>
-    <p>3 exercices, les liens seront fournis en cours.</p>
+    <exercice href='../exercices/sass-for-1-a-6/'></exercice>
+    <exercice href='../exercices/sass-for-palette-pink-paradise/'></exercice>
+    <exercice href='../exercices/sass-each-menu-overwatch/'></exercice>
 
 
+<!--
     <dots></dots>
     <grostitre>Exercice: Gestion de projet – Méthode Agile </grostitre>
     <p>Par équipe, distribuez vous une lecture par personne. Prenez le temps de lire et bien comprendre le sujet qui vous est attitré. </p>
@@ -186,11 +189,14 @@
 
         <li>Sujet 4 :  <a href="https://blog-gestion-de-projet.com/quest-ce-que-le-planning-poker/" target="_blank" rel="noopener noreferrer">Poker Planning</a>  </li>
     </ul>
+-->
 
 
     <dots></dots>
     <grostitre>Devoirs</grostitre>
-    Compléter les 3 exercices SASS avant le prochain cours jeudi. <br>
+    <intlink href='../exercices/sass-for-1-a-6/'></intlink>
+    <intlink href='../exercices/sass-for-palette-pink-paradise/'></intlink>
+    <intlink href='../exercices/sass-each-menu-overwatch/'></intlink>
 
 </wiki-page>
 
@@ -208,63 +214,46 @@
  \_____\___/ \__,_|_|  |___/ |____|
                                                                 
 -->
+<!---------------------- Cours 2 jeudi ----------------------->
+<!---------------------- Cours 2 jeudi ----------------------->
+<!---------------------- Cours 2 jeudi ----------------------->
 <wiki-page name="Sem02.jeudi" date="2024-08-29">
-    <h2>Quiz</h2>
-    Lundi - <a href="https://app.wooclap.com/SDQXZU" target="_blank" rel="noopener noreferrer">Code Wooclap : SDQXZU</a>
-    <br>
-    Vendredi - <a href="https://app.wooclap.com/PGDFHY" target="_blank" rel="noopener noreferrer">Code Wooclap : PGDFHY
-    </a><br>
+    <grostitre>Annonces et quiz</grostitre>
 
-
-    <br><br>
-    <hr>
-
-    <!--
-    <h2>Méthode agile - Activité</h2>
-    <ol>
-        <li>Par équipe, distribuez une lecture par personne.</li>
-        <li>Prenez le temps de lire et bien comprendre le sujet qui vous est attitré.</li>
-        <li>Revenez ensuite en groupe et participer à une période de discussion où à tour de rôle chacun présente son
-            sujet et l'explique du mieux possible aux autres afin que ses co-équipiers puisse bien comprendre. Faites
-            des liens entre chaque sujet, discutez-en.</li>
-        <li>Je choisis une personne au hasard dans la classe qui devra m'expliquer en quelques mots tout le processus
-            Agile avec les sujets qui auront été discutés en équipe.</li>
-    </ol>
-    -->
- 
-    <br><br>
-    <hr><br><br><br>
-    <intlink href="../sass/mixins/"></intlink>
-    <p>Exercice, le lien sera fourni en cours</p>
-    <del style="opacity: 0.2;"> <intlink href="../sass/conditions/"></intlink> </del>
-    <del style="opacity: 0.2;"> <intlink href="../sass/fonctions/"></intlink> </del>
-
-    <br><br><br>
-    <hr><br>
-
-    <h2>Devoirs</h2>
-    <p>Compléter les 3 composantes du projet de session suivantes.</p>
-    <intlink href="../projet/moodboard/"></intlink>
-    <intlink href="../projet/guide-de-styles/"></intlink>
-    <intlink href="../projet/maquette-accueil/"></intlink>
-    <br>
-
-    <p>De plus, si ce n'est pas complété en classe, vous devez terminer les exercices du jour.</p>
-    <ul>
-        <li>SASS - Boucles @for - Images 1 à 6</li>
-        <li>SASS - Boucles @for - Palette Pink Paradise</li>
-        <li>SASS - Boucles @each - Menu Overwatch</li>
-        <li>SASS - Mixins - Grille Bootstrap (Korias)</li>
-    </ul>
     <dots></dots>
+    <grostitre>PS: Mise en contexte - Clients</grostitre>
+    <intlink href='../projet/mise-en-contexte/#clients'></intlink>
 
-    <h2>Préparation à la présentation orale de votre design.</h2>
-    <p>Quoi dire lors de la présentation au client (il y aura le client et son comité qui analyseront votre travail,
-        commenteront, questionneront et prendraient une décision) : </p>
+    <dots></dots>
+    <grostitre>PS: Mise en contexte - Refonte d'un site web</grostitre>  
+    <intlink href='../projet/mise-en-contexte/#comment-faire-une-refonte-et-proposer-des-ameliorations-notables-pour-le-site-web-de-votre-client'></intlink>
+
+
+    <dots></dots>
+    <grostitre>PS: Arborescence</grostitre>
+    <intlink href='../projet/arborescence/'></intlink>
+
+
+    <dots></dots>
+    <grostitre>PS: Design</grostitre>
+    <intlink href="../projet/moodboard/"></intlink>
+    <intlink href="../projet/maquette-accueil/"></intlink>
+    <intlink href="../projet/guide-de-styles/"></intlink>
+
+    <h3>Préparation à la présentation orale de votre design.</h3>
+    <info>Votre client et son comité analyseront votre travail, commenteront, questionneront et prendront ensemble une décision par un vote.</info>  
+
+    <p>Quoi présenter lors de la démo de votre design au client jeudi prochain?
+
     <ul>
-        <li>Présentez dans cet ordre : moodboard, guide de styles et ensuite maquette (design) de l'accueil.</li>
-        <li>Expliquez votre démarche.</li>
-        <li>Expliquez :
+        <li>Présentez dans cet ordre : 
+            <ol>
+                <li>vos inspirations via votre moodboard</li>
+                <li>la maquette (design graphique) de l'accueil</li>
+                <li>le guide de styles que vous aurez préparé et qui guidera la mise en page pour les autres pages du site</li>
+            </ol> 
+        </li>
+        <li>Expliquez votre démarche :
             <ul>
                 <li>Votre choix de couleurs (psychologie des couleurs apprises en communication graphique).</li>
                 <li>Votre choix de style graphique en fonction de la clientèle visée par le client.</li>
@@ -273,16 +262,50 @@
                 <li>L’utilisation du CRAP. Contraste, Répétition, Alignement, Proximité.</li>
                 <li>Iconographie (si utilisation d’icônes) </li>
                 <li>La mise en contraste de certains éléments importants. Pourquoi et comment?</li>
-                <li>Vous devez convaincre votre client que votre design c’est le meilleur, si vous n’êtes pas
-                    convainquant, vous perdrez des points. Croyez en votre travail et présentez-le avec fierté, c’est
-                    l’objectif ici&nbsp;! C’est une simulation de la vraie vie en entreprise et c’est ce qui importe à
-                    ce stade-ci. Foncez&nbsp;!</li>
+                <li>L'utilisation judicieuse de l'espace blanc.</li>
+                <li>Vous devez convaincre votre client que votre design, c’est le meilleur. Vous serez évalué sur cet aspect, vous devez apprendre à vendre votre travail. Croyez en votre projet et présentez-le avec fierté, c’est l’objectif ici&nbsp;! C’est une simulation de la vraie vie en entreprise et c’est ce qui importe à ce stade-ci. Foncez&nbsp;!</li>
+                <li>Restez poli envers votre client. Bien qu'il ait actuellement un site au design désuet, ce n'est pas le moment de l'insulter ou de critiquer maladroitement son site, il pourrait décider de vous remercier et de ne plus travailler avec vous.</li>
             </ul>
         </li>
-
     </ul>
+
+
+    <dots></dots>
+
+    <grostitre>Devoirs</grostitre>
+    <h3>Pour jeudi prochain</h3>
+    <intlink href="../projet/moodboard/"></intlink>
+    <intlink href="../projet/maquette-accueil/"></intlink>
+    <intlink href="../projet/guide-de-styles/"></intlink>
+    <p>Préparer votre présentation oral (consignes ci-haut).</p>
+
+
+    <h3>Pour lundi prochain</h3>
+    <p>Si ce n'était pas terminé, vous devez compléter les exercices SASS de lundi.</p> 
+    <intlink href='../exercices/sass-for-1-a-6/'></intlink>
+    <intlink href='../exercices/sass-for-palette-pink-paradise/'></intlink>
+    <intlink href='../exercices/sass-each-menu-overwatch/'></intlink>
+
+   
 </wiki-page>
 
+<!---------------------- Cours 2 lundi ----------------------->
+<!---------------------- Cours 2 lundi ----------------------->
+<!---------------------- Cours 2 lundi ----------------------->
+<wiki-page name="Sem02.jeudi" date="2024-09-02">
+
+
+    <intlink href="../sass/mixins/"></intlink>
+    <p>Exercice, le lien sera fourni en cours</p>
+    <del style="opacity: 0.2;"> <intlink href="../sass/conditions/"></intlink> </del>
+    <del style="opacity: 0.2;"> <intlink href="../sass/fonctions/"></intlink> </del>
+
+    <p>De plus, si ce n'était pas terminé, vous devez compléter les exercices SASS d'aujoud'hui.</p>
+    <ul>
+        <li>SASS - Mixins - Grille Bootstrap (Korias)</li>
+    </ul>
+
+</wiki-page>
 
 
 

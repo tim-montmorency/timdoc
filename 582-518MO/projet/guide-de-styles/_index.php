@@ -1,61 +1,12 @@
-<!-- 
-
-████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
-╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
-   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
-   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
-   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
-   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
-
--->
-<!DOCTYPE html>
-<html lang="fr-ca">
-    <head>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-P2R7T89B4B');
-        </script>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="robots" content="noindex, nofollow" />
-        <meta itemprop="digest" content="">
-        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
-        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
-        <script src="../../../../shared/jscripts/highlight.min.js"></script>
-        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
-        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
-        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
-        <script>const shared = '../../../../shared/';</script>
-        <title>Guide de styles</title>
-    </head>
-    <body>
-        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
-        <a id="top"></a>
-        <header>
-            <div id="logo" @click="goToTop('../../../', '')" title="Retour à l'accueil">
-                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
-                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
-                </svg>
-            </div>
-            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
-        </header>
-        <main>
-            <!-- MAIN HEADER EOF -->
-            <div id="subhead">
-                <div id="breadcrumb">
-                    <div id="breadcrumb_normal"></div>
-                    <div id="breadcrumb_index"></div>
-                </div>
-                <h1 id="title"><img src="images/icon.svg">&nbsp;Guide de styles</h1>
-            </div>
-            <article>
-                <div id="contents">
-                    <!-- ARTICLE HEADER EOF -->
+<?php 
+/**
+ * @type     article
+ * @title    Guide de styles
+ * @icon     images/icon.svg
+ * @abstract Vous servira de référence tout au long de votre projet
+ * @index 70
+ */
+?>
 
 <p>Pour cette étape du projet, vous devrez réaliser un guide de styles qui vous servira de référence tout au long de votre projet, autant afin de concevoir vos maquettes que lors de la réalisation du site web&nbsp;lui-même.</p>
 <p>Chaque membre de l’équipe doit créer son propre guide de&nbsp;styles.</p>
@@ -120,7 +71,7 @@ Affichez le style d'un lien normal ainsi que lors de sont survole. Nommez à cha
 <dots></dots>
 <grostitre>Remise</grostitre>
 <p>Exporter une version PDF de votre guide de styles et l'inclure dans votre remise avec votre fichier original soit: <br>- le fichier XD original ou <br>- un lien vers votre fichier Figma en ligne (avec le paramètre: <em>anyone with the link can edit)</em>.</p>
-<checklist>Renommez votre dossier de travail 📁 au format&nbsp;suivant:<br><span class="inline-code">[nom de famille]_[pr&eacute;nom]_design_582-518MO</span><br>ex: <em>ouellet_marie-michelle_design_582-518MO</em>
+<checklist>Renommez votre dossier de travail 📁 au format&nbsp;suivant:<br><incode>[nom de famille]_[prénom]_design_582-518MO</incode><br>ex: <em>ouellet_marie-michelle_design_582-518MO</em>
 Compressez ensuite votre dossier de travail en <a href="https://www.ezyzip.com/" target="_blank" rel="noopener noreferrer">fichier&nbsp;zip 🗜</a>
 Remettez dans Devoir</checklist>
 
@@ -130,14 +81,3 @@ Remettez dans Devoir</checklist>
 
 
   
-                    <!-- ARTICLE FOOTER SOF -->
-                </div>
-                <tabledesmatieres></tabledesmatieres>
-            </article>        <!-- MAIN FOOTER SOF -->
-        </main>
-        <footer>
-            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
-        </footer>
-        <script>app.mount('body');</script>
-    </body>
-</html>

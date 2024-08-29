@@ -1,63 +1,130 @@
-<!-- 
+<?php 
+/**
+ * @type     article
+ * @title    Arborescence
+ * @icon     images/icon.svg
+ * @abstract Structure du site Web
+ * @index 99
+ */
+?>
 
-████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
-╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
-   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
-   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
-   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
-   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
 
--->
-<!DOCTYPE html>
-<html lang="fr-ca">
-    <head>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-P2R7T89B4B');
-        </script>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="robots" content="noindex, nofollow" />
-        <meta itemprop="digest" content="">
-        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
-        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
-        <script src="../../../../shared/jscripts/highlight.min.js"></script>
-        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
-        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
-        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
-        <script>const shared = '../../../../shared/';</script>
-        <title>Arborescence</title>
-    </head>
-    <body>
-        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
-        <a id="top"></a>
-        <header>
-            <div id="logo" @click="goToTop('../../../', '')" title="Retour à l'accueil">
-                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
-                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
-                </svg>
-            </div>
-            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
-        </header>
-        <main>
-            <!-- MAIN HEADER EOF -->
-            <div id="subhead">
-                <div id="breadcrumb">
-                    <div id="breadcrumb_normal"></div>
-                    <div id="breadcrumb_index"></div>
-                </div>
-                <h1 id="title"><img src="images/icon.svg">&nbsp;Arborescence</h1>
-            </div>
-            <article>
-                <div id="contents">
-                    <!-- ARTICLE HEADER EOF -->
+<?php 
+/**
+ * @type     article
+ * @title    Arborescence
+ * @icon     images/icon.svg
+ * @abstract Structure du site Web
+ * @index 97
+ */
+?>
     
 
+<p>Voici à titre de référence les <strong>dix pages</strong> que les différents clients espèrent voir sur leurs nouveaux sites. Certaines de ces pages portent actuellement un nom différent. Voici donc quelle page fait référence à&nbsp;quoi.</p>
+
+<grostitre>Accueil</grostitre>
+<ul>
+    <li><a href="https://vivreenville.org/" target="_blank" rel="noopener noreferrer">Vivre en ville</a></li>
+    <li><a href="https://liguedesdroits.ca/" target="_blank" rel="noopener noreferrer">Ligue des droits </a></li>
+    <li><a href="https://flhlmq.com/fr" target="_blank" rel="noopener noreferrer">Fédération des locataires d’habitations à loyer modique du Québec (FLHLMQ) </a></li>
+</ul>
+
+<dots></dots>
+<grostitre>Donner ($) ou devenir membre</grostitre>
+<ul>
+    <li><a href="https://activites.vivreenville.org/fr/dons/donate/faire-un-don/2946/" target="_blank" rel="noopener noreferrer">Vivre en ville</a></li>
+    <li><a href="https://portail.liguedesdroits.ca/fr/don" target="_blank" rel="noopener noreferrer">Ligue des droits </a></li>
+    <li>Fédération des locataires d’habitations à loyer modique du Québec (FLHLMQ): Donner (ce sera Devenir membre) qui contiendra <a href="https://flhlmq.com/fr/publication/adhesion-et-abonnement" target="_blank">un texte d’intro pris ici</a> et un formulaire directement dans la page web (et non dans un PDF) avec <a href="https://flhlmq.com/sites/flhlmq.com/files/images-dans-les-textes/Formulaire%20d%27adh%C3%A9sion_1.pdf" target="_blank" rel="noopener noreferrer">les champs suivants</a>.</li>
+</ul>
+
+
+
+<dots></dots>
+<grostitre>Liste des nouvelles / actualité</grostitre>
+<ul>
+    <li><a href="https://vivreenville.org/a-propos/actualites.aspx" target="_blank" rel="noopener noreferrer">Vivre en ville</a></li>
+    <li><a href="https://liguedesdroits.ca/cat/nouvelles/" target="_blank" rel="noopener noreferrer">Ligue des droits </a></li>
+    <li><a href="https://flhlmq.com/fr/actualit%C3%A9" target="_blank" rel="noopener noreferrer">Fédération des locataires d’habitations à loyer modique du Québec (FLHLMQ)</a></li>
+</ul>
+
+<dots></dots>
+<grostitre>Page d'une nouvelle</grostitre>
+<p>Il existe plusieurs pages de détail de nouvelle. <br>Voici une page à titre d'exemple:</p>
+<ul>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Vivre en ville</a></li>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Ligue des droits </a></li>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Fédération des locataires d’habitations à loyer modique du Québec (FLHLMQ)</a></li>
+</ul>
+
+
+<dots></dots>
+<grostitre>Liste des services offerts</grostitre>
+<ul>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Vivre en ville</a></li>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Ligue des droits </a></li>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Fédération des locataires d’habitations à loyer modique du Québec (FLHLMQ)</a></li>
+</ul>
+
+
+<dots></dots>
+<grostitre>Page d'un service</grostitre>
+
+<p>Il existe plusieurs pages de service. <br>Voici une page à titre d'exemple:</p>
+<ul>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Vivre en ville</a></li>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Ligue des droits </a></li>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Fédération des locataires d’habitations à loyer modique du Québec (FLHLMQ)</a></li>
+</ul>
+
+
+<dots></dots>
+<grostitre>Équipe</grostitre>
+<ul>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Vivre en ville</a></li>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Ligue des droits </a></li>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Fédération des locataires d’habitations à loyer modique du Québec (FLHLMQ)</a></li>
+</ul>
+
+
+<dots></dots>
+<grostitre>À propos</grostitre>
+<ul>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Vivre en ville</a></li>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Ligue des droits </a></li>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Fédération des locataires d’habitations à loyer modique du Québec (FLHLMQ)</a></li>
+</ul>
+
+
+<h3>Histoire</h3>
+<p>Ce n'est pas une page, mais une section de la page à propos.</p>
+<ul>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Vivre en ville</a></li>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Ligue des droits </a></li>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Fédération des locataires d’habitations à loyer modique du Québec (FLHLMQ)</a></li>
+</ul>
+
+<dots></dots>
+<grostitre>Foire aux questions (FAQ)</grostitre>
+<ul>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Vivre en ville</a></li>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Ligue des droits </a></li>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Fédération des locataires d’habitations à loyer modique du Québec (FLHLMQ)</a></li>
+</ul>
+
+
+<dots></dots>
+<grostitre>Erreur 404</grostitre>
+<ul>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Vivre en ville</a></li>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Ligue des droits </a></li>
+    <li><a href="" target="_blank" rel="noopener noreferrer">Fédération des locataires d’habitations à loyer modique du Québec (FLHLMQ)</a></li>
+</ul>
+
+
+
+
+    
+<!--
 <p>Voici à titre de référence les <strong>dix pages</strong> que les différents clients espèrent voir sur leurs nouveaux sites. Certaines de ces pages portent actuellement un nom différent. Voici donc quelle page fait référence à&nbsp;quoi.</p>
 
 <grostitre>Accueil</grostitre>
@@ -159,17 +226,7 @@
     <li><a href="https://impatients.ca/patate/" target="_blank" rel="noopener noreferrer">Les impatients</a></li>
 </ul>
 
+-->
 
 
 
-                    <!-- ARTICLE FOOTER SOF -->
-                </div>
-                <tabledesmatieres></tabledesmatieres>
-            </article>        <!-- MAIN FOOTER SOF -->
-        </main>
-        <footer>
-            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
-        </footer>
-        <script>app.mount('body');</script>
-    </body>
-</html>

@@ -24,20 +24,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="noindex, nofollow" />
         <meta itemprop="digest" content="">
-        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
-        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
-        <script src="../../../../shared/jscripts/highlight.min.js"></script>
-        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
-        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
-        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
-        <script>const shared = '../../../../shared/';</script>
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
         <title>Requis client</title>
     </head>
     <body>
         <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop('../../../', '')" title="Retour à l'accueil">
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -48,7 +48,7 @@
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
                 <div id="breadcrumb">
-                    <div id="breadcrumb_normal"></div>
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">Projet de session</a> ></div>
                     <div id="breadcrumb_index"></div>
                 </div>
                 <h1 id="title"><img src="images/icon.svg">&nbsp;Requis client</h1>
@@ -56,10 +56,11 @@
             <article>
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
-
+<!--
 <alert>ATTENTION, cette liste de requis est encore sujette à de <em>très légers</em> changements d'ici le cours 5. Si je change quelque chose à partir de la date d'ajoujourd'hui, je vais l'identifier <s>en rayant ce que j'enlève</s> et <span style="color: green">en affichant en vert ce que j'ajoute</span>.</alert>
 
-<p>Le client a émis une liste de requis qu’il souhaite avoir sur son site. Ses demandes ont étés évaluées par votre équipe à un total de 90 points. Afin que le client accepte le produit qui lui sera livré, vous devrez couvrir un minimum de ses&nbsp;demandes.</p>
+
+<p>Le client a émis une liste de requis qu’il souhaite avoir sur son site. Ses demandes ont étés évaluées par votre équipe à un total de 100 points. Afin que le client accepte le produit qui lui sera livré, vous devrez couvrir un minimum de ses&nbsp;demandes.</p>
 
 <p>Ainsi, les 40 premiers points que vous réaliserez vous permettront de maintenir votre relation d’affaires avec le client. Tout point subséquent vous permettra de mettre la main sur 1% de votre session, jusqu’à concurrence de 40%, soit le total alloué à la réalisation du projet de&nbsp;session.</p>
 
@@ -76,14 +77,17 @@
 <br>Votre client est heureux, vous apprenez plus et vous avez un projet plus intéressant à inclure dans votre portfolio!</p>
 
 <p><em>De combien de points mon équipe à t-elle besoin pour obtenir 60%?</em><br>64 points si vous êtes 3. (80-40)*60%+40<br>72 points si vous êtes 4. (90-45)*60%+45</p>
+-->
+
+<alert>Attention, le pointage que vous voyez <em>en jaune</em> sur chaque requid ci-bas va être révisé d'ici jeudi prochain car je suis en révision de l'évaluation totale du projet. Ceci étant dit, ça vous donne quand même une petite idée du poids de chaque requis sur l'évaluation finale. Le tout vous sera expliqué jeudi prochain.</alert>
 
 <dots></dots>
 <grostitre>Généraux</grostitre>
  
 <checklist>
-Bannière en haut de chaque page du site annonçant que c'est un travail scolaire. Cette bannière devra aussi inclure un bouton liant au vrai site. Cette bannière devra contenir un X pour fermer celle-ci. Si le X est cliqué, cette action devra être stockée en local storage. Au prochain chargement de n'importe quelle page du site, vérifiez le storage afin d'éviter d'afficher cette bannière si elle a déjà été fermée par l'utilisateur. <em>[3pts]</em>
-Commenter tout votre code (HTML, CSS, et JS). <em>[2,5pts]</em>
-Toutes les pages du site doivent-être responsive: <em>375px</em>, <em>768px et 1200px</em>. <em>[5pts]</em>
+Bannière en haut de chaque page du site annonçant que c'est un travail scolaire. Cette bannière devra aussi inclure un bouton menant au vrai site web. Cette bannière devra contenir un X pour fermer celle-ci. Si le X est cliqué, cette action devra être stockée en local storage. Au prochain chargement de n'importe quelle page du site, vérifiez le storage afin d'éviter d'afficher cette bannière si elle a déjà été fermée par l'utilisateur. <em>[3pts]</em>
+Commenter tout votre code (HTML, CSS, et JS). <em>[10pts]</em>
+Toutes les pages du site doivent-être responsive: <em>375px</em>, <em>768px et 1400px</em>. <em>[10pts]</em>
 Les pages du site doivent s'afficher correctement sur les navigateurs: Chrome, Firefox et Edge. <em>[4pts]</em>
 Site bilingue sur toutes les pages. Si un contenu n'est pas disponible en anglais sur le site, traduisez-le via <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="https://translate.google.com/?sl=fr&amp;tl=en&amp;op=translate">Google traduction</a> ou <a href="https://www.deepl.com/translator" target="_blank" onclick="event.stopPropagation()">DeepL Translator</a>. <em>[4pts]</em>
 Permettre de populer les <span class="inline-code">og:title</span>, <span class="inline-code">og:description</span> et <span class="inline-code">og:image</span> de chaque page. <em>[2pts]</em>
@@ -97,7 +101,7 @@ Création d'une composante permettant d'afficher le contenu du champ description
 <grostitre>Entête</grostitre>
 <checklist>
   Le logo du client doit être cliquable et pointer vers l'accueil. <em>[1pts]</em>
-  Navigation vers les 5 pages autres que accueil et 404. <em>[1pts]</em>
+  Navigation vers les 5 pages (nouvelles, services, équipe, à propos, faq). Ordonnez les comme vous le souhaitez et nommez les comme vous le souhaitez, il faut que ce soit pertinent au contenu de votre site. <em>[1pts]</em>
   Possibilité de modifier la navigation à partir de WordPress. <em>[3pts]</em>
   Effet de survol pour chacun des liens dans la navigation. <em>[1pts]</em>
   Inclure un bouton d'appel-à-l'action (CTA) de dons qui se démarque des liens de la navigation et menant vers une page externe de dons. <em>[1pts]</em>
@@ -116,7 +120,7 @@ Bouton de dons menant sur la page externe de dons. <em>[1pts]</em>
 Inclure les liens vers les pages de réseaux sociaux du client. <em>[1pts]</em>
 Informations de contact du client <em>[1pts]</em>:<br>- Téléphone<br>- Courriel<br>- Adresse physique<br>- etc.
 Lorsque cliquée, l'adresse physique du client doit ouvrir Google Map et afficher le bon endroit. <em>[1pts]</em>
-Affichez un symbole de droits d'auteur suivis de l’année <em>(ex: ©2023)</em>, du nom du client et de votre équipe. <em>[1pts]</em>
+Affichez un symbole de droits d'auteur suivis de l’année <em>(ex: ©2024)</em>, du nom du client et de votre équipe. <em>[1pts]</em>
 </checklist> 
 
 
@@ -127,12 +131,12 @@ Affichez un symbole de droits d'auteur suivis de l’année <em>(ex: ©2023)</em
 Création d'un héros contenant un carrousel. <em>[2pts]</em>
 Section affichant un aperçu des <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="../arborescence/#hub-de-services" onclick="event.stopPropagation()">services offerts</a> se populant à partir de ces pages. <em>[2pts]</em>
 Section affichant les 3 plus récentes nouvelles se populant à partir de ces pages. <em>[2pts]</em>
-Bloc affichant un témoignage. <em>[1pts]</em>
+Bloc affichant au moins 3 témoignages. <em>[1pts]</em>
 Bloc de dons contenant une animation GSAP élaborée utilisant une timeline. <em>[2pts]</em>
 </checklist>
 
 <dots></dots>
-<grostitre>Hub de nouvelles</grostitre>
+<grostitre>Liste des nouvelles / actualité</grostitre>
 
 <checklist>
 Utilisez la composante de héros générique. <em>[0,5pts] </em>
@@ -146,7 +150,7 @@ La 1<sup>re</sup> nouvelle doit avoir une apparence différente des autres nouve
 
 
 <dots></dots>
-<grostitre>Détail de nouvelle</grostitre>
+<grostitre>Page d'une nouvelle</grostitre>
 <checklist>
 Créez un héros de nouvelle contenant un titre, une image, une date et une catégorie. Chaque héros de nouvelle doit changer légèrement d'apparence en fonction de sa catégorie.<br><br>Par exemple, avoir un élément changeant de couleur, une icône différente, etc. <em>[2pts]</em>
 Importez le contenu de 13 pages de nouvelles minimum. <em>[2pts]</em>
@@ -156,7 +160,7 @@ Bloc cliquable en fin de page permettant de voir un aperçu de la prochaine nouv
 </checklist>
 
 <dots></dots>
-<grostitre>Hub de services</grostitre>
+<grostitre>Liste des services offerts</grostitre>
 <checklist>
 Utilisez la composante de héros générique. <em>[0,5pts]</em>
 Affichez la composante de description de base. <em>[0,5pts]</em>
@@ -164,13 +168,13 @@ Affichez des cartes d'aperçu des différents services offerts. Ces cartes doive
 </checklist>
 
 <dots></dots>
-<grostitre>Détail de service</grostitre>
+<grostitre>Page d'un service</grostitre>
 
-   <checklist>
+<checklist>
 Utilisez la composante de héros générique. <em>[0,5pts]</em>
 Affichez la composante de description de base. <em>[0,5pts]</em>
 Bloc cliquable en fin de page permettant de voir un aperçu du prochain service. <em>[1pts]</em>
-  </checklist>
+</checklist>
 
 
 
@@ -187,33 +191,33 @@ Chaque membre d'équipe doit-être cliquable afin d'ouvrir un modal contenant pl
 </checklist>
 
 
-  <dots></dots>
-  <grostitre>À propos</grostitre>
-  <checklist>
-  Utilisez la composante de héros générique. <em>[0,5pts]</em>
-  Affichez la composante de description de base. <em>[0,5pts]</em>
-  </checklist>
+<dots></dots>
+<grostitre>À propos</grostitre>
+<checklist>
+Utilisez la composante de héros générique. <em>[0,5pts]</em>
+Affichez la composante de description de base. <em>[0,5pts]</em>
+</checklist>
 
-  <dots></dots>
-  <grostitre>Histoire</grostitre>
-  <checklist>
-  Utilisez la composante de héros générique. <em>[0,5pts]</em>
-  Affichez la composante de description de base. <em>[0,5pts]</em>
-  Créez une ligne du temps verticale et affichez les grands événements de leur histoire. <em>[1pts]</em>
-  La ligne du temps verticale doit se dessiner graduellement en même temps que le défilement de la page. Les grands événements doivent appraitre à mesure qu'on arrive à son point dans le dessin de la ligne du temps. Utilisez GSAP et les extensions nécessaires réaliser cette animation. Ne pas utiliser drawSVG car il est payant. <em>[3pts]</em>
-  </checklist>
-
-
-  <dots></dots>
-  <grostitre>FAQ</grostitre>
-  <checklist>
-  Création et utilisation d'une composante de question/réponse en accordéons (s'ouvre et ferme). Minimum 4 question-réponse. <em>[2pts]</em>
-  </checklist>
+<h3>Histoire</h3>
+<p>Ce n'est pas une page, mais une section de la page à propos.</p>
+<checklist>
+Utilisez la composante de héros générique. <em>[0,5pts]</em>
+Affichez la composante de description de base. <em>[0,5pts]</em>
+Créez une ligne du temps verticale et affichez les grands événements de leur histoire. <em>[1pts]</em>
+La ligne du temps verticale doit se dessiner graduellement en même temps que le défilement de la page. Les grands événements doivent appraitre à mesure qu'on arrive à son point dans le dessin de la ligne du temps. Utilisez GSAP et les extensions nécessaires réaliser cette animation. Ne pas utiliser drawSVG car il est payant. <em>[3pts]</em>
+</checklist>
 
 
-  <dots></dots>
-  <grostitre>Erreur 404</grostitre>
-  <checklist>Affichez le texte <em>“Erreur 404”. [0,5pts]</em>
+<dots></dots>
+<grostitre>FAQ</grostitre>
+<checklist>
+Création et utilisation d'une composante de question/réponse en accordéons (s'ouvre et ferme). Minimum 4 question-réponse. <em>[2pts]</em>
+</checklist>
+
+
+<dots></dots>
+<grostitre>Erreur 404</grostitre>
+<checklist>Affichez le texte <em>“Erreur 404”. [0,5pts]</em>
 Incorporez une animation GSAP élaborée utilisant la timeline soulignant que la page n'a pas été trouvée. <em>[1pts]</em></checklist>
         
 

@@ -73,10 +73,6 @@
 <p>Il existe plusieurs solutions disponibles afin de compiler du code SASS en CSS afin que les navigateurs puissent l'interpréter: </p>
 
 
-
-
-
-
 <ol start="1">
     <li>Un outil en ligne tel que <a target="_blank" rel="noopener noreferrer" href="https://sass-lang.com/playground/">Sass Playground</a>, permet de convertir du code de scss vers css. Cependant, cette solution implique de recopier à la main 🖐 son code à chaque fois que l'on souhaite le compiler.
     </li>
