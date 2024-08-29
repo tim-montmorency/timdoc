@@ -28,7 +28,7 @@
     <li>comment capter l'attention du visiteur et lui donner le goût d'aller plus loin dans le site?</li>
     <li>comment s'assurer que l'information que le visiteur recherche soit facilement trouvable?</li>
 </ul>
-<p> Allez voir d’autres page d’accueil d’autres organismes pour vous inspirer.</p>
+<p> Allez voir d’autres page d’accueil d’autres organismes pour vous inspirer. Voici quelques exemples pour vous inspirer mais je m'attends à ce que vous fassiez vos recherches en dehors de cette liste :</p>
 <ul>
     <li>
         <a href="https://fr.davidsuzuki.org/" target="_blank" rel="noopener noreferrer">Fondation David Suzuki</a>
@@ -75,12 +75,14 @@
 <checklist>La maquette doit être réalisée à partir du logiciel <a href="https://www.figma.com/fr/" target="_blank" rel="noopener noreferrer">Figma</a>.
 La maquette doit respecter <a target="_blank" rel="noopener noreferrer" href="../requis-client/">les requis client</a>. Particulièrement ceux généraux, de l'entête, du pied de page et évidemment de l'accueil.
 La maquette doit présenter la page d'accueil dans 3 résolutions différentes afin de montrer comment elle s'adapte sur:<br>- mobile&nbsp;<em>(375px)</em> <br>- tablette&nbsp;<em>(768px)</em><br>- ordinateur classique <em>(1400px)</em>.
-Remise: <br>- Une version PDF de votre maquette<br>- un lien vers votre fichier Figma en ligne (n'oubliez pas le paramètre: <em>anyone with the link can edit)</em>.
+Remise:  Une version PDF de votre maquette</em>.
 </checklist>
 
 
 <dots></dots>
 <grostitre>Remise</grostitre>
-<checklist>Renommez votre dossier de travail 📁 au format&nbsp;suivant:<br><incode>[nom de famille]_[prénom]_design_582-518MO</incode><br>ex: <em>ouellet_marie-michelle_design_582-518MO</em>
+<checklist>Inclure dans un seul dossier le guide de styles (PDF) et la maquette (PDF).
+    Renommez votre dossier de travail 📁 au format&nbsp;suivant:<br><incode>[nom de famille]_[prénom]_design_582-518MO</incode><br>ex: <em>ouellet_marie-michelle_design_582-518MO</em>
 Compressez ensuite votre dossier de travail en <a href="https://www.ezyzip.com/" target="_blank" rel="noopener noreferrer">fichier&nbsp;zip 🗜</a>
-Remettez dans Devoir</checklist>
+Remettez dans Devoir
+En plus du dossier, remettre lien vers votre fichier Figma en ligne (n'oubliez pas le paramètre: <em>anyone with the link can edit)</em></checklist>

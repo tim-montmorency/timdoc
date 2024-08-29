@@ -235,6 +235,11 @@
 
 
     <dots></dots>
+    <h2>Votre choix de client</h2>
+    <p>Pendant le cours aujourd'hui, dès que vous avez un moment en équipe, envoyez-moi votre choix de client en ordre de préférence. 1, 2 et 3. Je vais vous répondre rapidement pour confirmer le client qui vous sera attitré. </p>
+
+
+    <dots></dots>
     <grostitre>PS: Design</grostitre>
     <intlink href="../projet/moodboard/"></intlink>
     <intlink href="../projet/maquette-accueil/"></intlink>

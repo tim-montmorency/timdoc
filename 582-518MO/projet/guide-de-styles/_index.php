@@ -33,7 +33,7 @@ J'insiste notemment sur <a href="https://www.canva.com/learn/the-ultimate-guide-
   
 
   
-<p>Vous devez produire votre guide de style avec Adobe XD ou Figma. </p>
+<p>Vous devez produire votre guide de style avec Figma. </p>
 
 <p>Pour vous inspirer, vous pouvez regarder les guides de styles en pièce jointe 👆.</p>
 
@@ -70,10 +70,12 @@ Affichez le style d'un lien normal ainsi que lors de sont survole. Nommez à cha
 
 <dots></dots>
 <grostitre>Remise</grostitre>
-<p>Exporter une version PDF de votre guide de styles et l'inclure dans votre remise avec votre fichier original soit: <br>- le fichier XD original ou <br>- un lien vers votre fichier Figma en ligne (avec le paramètre: <em>anyone with the link can edit)</em>.</p>
-<checklist>Renommez votre dossier de travail 📁 au format&nbsp;suivant:<br><incode>[nom de famille]_[prénom]_design_582-518MO</incode><br>ex: <em>ouellet_marie-michelle_design_582-518MO</em>
+Remise: <br>- Une version PDF de votre maquette.
+<checklist>Inclure dans un seul dossier le guide de styles (PDF) et la maquette (PDF).
+  Renommez votre dossier de travail 📁 au format&nbsp;suivant:<br><incode>[nom de famille]_[prénom]_design_582-518MO</incode><br>ex: <em>ouellet_marie-michelle_design_582-518MO</em>
 Compressez ensuite votre dossier de travail en <a href="https://www.ezyzip.com/" target="_blank" rel="noopener noreferrer">fichier&nbsp;zip 🗜</a>
-Remettez dans Devoir</checklist>
+Remettez dans Devoir
+En plus du dossier, remettre lien vers votre fichier Figma en ligne (n'oubliez pas le paramètre: <em>anyone with the link can edit)</em></checklist>
 
 
 
