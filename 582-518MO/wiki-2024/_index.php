@@ -219,6 +219,11 @@
 <!---------------------- Cours 2 jeudi ----------------------->
 <wiki-page name="Sem02.jeudi" date="2024-08-29">
     <grostitre>Annonces et quiz</grostitre>
+    <h3>Annonces</h3>
+    <p>D'autres intéressés par le comité étudiants TIM et particulièrement le comité de finissants?</p>
+    <p>Est-ce que vous aviez appris ceci dans les session antérieures? </p>
+    <intlink href='../git/collaboration/'></intlink>
+    <h3>Quiz</h3>
     <ul>
         <li><a href="https://app.wooclap.com/SRDIBK" target="_blank" rel="noopener noreferrer">Groupe 01 - AM</a></li>
         <li><a href="https://app.wooclap.com/IRUGRK" target="_blank" rel="noopener noreferrer">Groupe 02 - PM</a></li>
@@ -277,8 +282,6 @@
             </ul>
         </li>
     </ul>
-
-
     <dots></dots>
 
     <grostitre>Devoirs</grostitre>

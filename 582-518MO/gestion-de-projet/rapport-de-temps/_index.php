@@ -47,7 +47,7 @@
 
 <grostitre>Remise (projet de session)</grostitre>
 <checklist>Créez votre compte Toggl
-    Créez le projet actuel. Nomenclature suggérée: <em>Projet Web 2023 : OBNL</em>
+    Créez le projet actuel. Nomenclature suggérée: <em>Projet Web 2024 : OBNL</em>
     Ajoutez Toggl dans votre barre de favori, accessible en un clic
     Installez l'extension Toggl sur votre navigateur par défaut (Chrome, Edge, Firefox etc)
     Dès que vous travaillez sur le projet (en classe ou hors classe), activez votre minuteur, n'oubliez pas de le fermer lorsque vous arrêtez.
