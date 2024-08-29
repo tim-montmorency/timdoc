@@ -242,6 +242,10 @@
     <grostitre>PS: Arborescence</grostitre>
     <intlink href='../projet/arborescence/'></intlink>
 
+    <dots></dots>
+    <grostitre>PS: Arborescence</grostitre>
+    <intlink href='../projet/requis-client/'></intlink>
+
 
     <dots></dots>
     <h2>Votre choix de client</h2>

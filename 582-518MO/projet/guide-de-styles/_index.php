@@ -71,7 +71,7 @@ Affichez le style d'un lien normal ainsi que lors de sont survole. Nommez à cha
 <dots></dots>
 <grostitre>Remise</grostitre>
 Remise: <br>- Une version PDF de votre maquette.
-<checklist>Inclure dans un seul dossier le guide de styles (PDF) et la maquette (PDF).
+<checklist>Inclure dans un seul dossier le moodboard (PDF), le guide de styles (PDF) et la maquette (PDF).
   Renommez votre dossier de travail 📁 au format&nbsp;suivant:<br><incode>[nom de famille]_[prénom]_design_582-518MO</incode><br>ex: <em>ouellet_marie-michelle_design_582-518MO</em>
 Compressez ensuite votre dossier de travail en <a href="https://www.ezyzip.com/" target="_blank" rel="noopener noreferrer">fichier&nbsp;zip 🗜</a>
 Remettez dans Devoir
