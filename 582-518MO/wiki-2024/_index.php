@@ -219,6 +219,10 @@
 <!---------------------- Cours 2 jeudi ----------------------->
 <wiki-page name="Sem02.jeudi" date="2024-08-29">
     <grostitre>Annonces et quiz</grostitre>
+    <ul>
+        <li><a href="https://app.wooclap.com/SRDIBK" target="_blank" rel="noopener noreferrer">Groupe 01 - AM</a></li>
+        <li><a href="https://app.wooclap.com/IRUGRK" target="_blank" rel="noopener noreferrer">Groupe 02 - PM</a></li>
+    </ul>
 
     <dots></dots>
     <grostitre>PS: Mise en contexte - Clients</grostitre>
@@ -278,11 +282,18 @@
     <dots></dots>
 
     <grostitre>Devoirs</grostitre>
+    <h3>Avant le fin du cours ou si ce n'est pas fait pendant le cours, avant la fin de la journée.</h3>
+    <h4>Votre choix de client</h4>
+    <p>Envoyez-moi votre choix de client en ordre de préférence. 1, 2 et 3. Je vais vous répondre rapidement pour confirmer le client qui vous sera attitré. </p>
+
+
+
+
     <h3>Pour jeudi prochain</h3>
     <intlink href="../projet/moodboard/"></intlink>
     <intlink href="../projet/maquette-accueil/"></intlink>
     <intlink href="../projet/guide-de-styles/"></intlink>
-    <p>Préparer votre présentation oral (consignes ci-haut).</p>
+    <p>Préparer votre présentation du design au client (consignes ci-haut).</p>
 
 
     <h3>Pour lundi prochain</h3>
