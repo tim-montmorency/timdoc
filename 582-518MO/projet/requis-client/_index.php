@@ -52,7 +52,7 @@ Création d'une composante permettant d'afficher le contenu du champ description
 <grostitre>Entête</grostitre>
 <checklist>
   Le logo du client doit être cliquable et pointer vers l'accueil. <em>[1pts]</em>
-  Navigation vers les 5 pages (nouvelles, services, équipe, à propos, faq). Ordonnez les comme vous le souhaitez et nommez les comme vous le souhaitez, il faut que ce soit pertinent au contenu de votre site. <em>[1pts]</em>
+  Navigation vers les 6 pages (nouvelles, services, équipe, à propos, faq, nous joindre). Ordonnez les comme vous le souhaitez et nommez les comme vous le souhaitez, il faut que ce soit pertinent au contenu de votre site. <em>[1pts]</em>
   Possibilité de modifier la navigation à partir de WordPress. <em>[3pts]</em>
   Effet de survol pour chacun des liens dans la navigation. <em>[1pts]</em>
   Inclure un bouton d'appel-à-l'action (CTA) de dons qui se démarque des liens de la navigation et menant vers une page externe de dons. <em>[1pts]</em>
