@@ -45,7 +45,7 @@ J'insiste notemment sur <a href="https://www.canva.com/learn/the-ultimate-guide-
 
 <dots></dots>
 <grostitre>Logo</grostitre>
-<checklist>Inclure le logo du client. Vous devez utiliser le logo actuel où lui apporter de subtiles modifications ne le dénaturant pas.
+<checklist>Inclure le logo du client. Vous pouvez aussi le refaire si vous décidez de revoir le brand.
 </checklist>
 
 
@@ -62,9 +62,10 @@ Inclure le code hexadécimal de chacune des couleurs.
 
 <dots></dots>
 <grostitre>Typographie</grostitre>
-<checklist>Inclure 3 niveaux de titres et nommer la police, taille, graisse, couleur et caractéristique de chacun.
+<checklist>Pour desktop, inclure 3 niveaux de titres et nommer la police, taille, graisse, couleur et caractéristique de chacun.
 Affichez un exemple de texte régulier sous forme de paragraphe. Afin d'éviter d'être distrait par le texte contenu dans le paragraphe, utilisez du <a target="_blank" rel="noopener noreferrer" href="https://www.lipsum.com/feed/html">Lorem ipsum</a>.  Nommez à nouveau la police, taille, graisse ainsi que la couleur utilisée.
 Affichez le style d'un lien normal ainsi que lors de sont survole. Nommez à chaque fois la police, taille, graisse ainsi que la couleur utilisée afin de voir la différence entre les deux états.
+Répétez les éléments précédents (titres, texte courant et liens textuels) si vous prévoyez changer la taille du texte pour la version mobile en spécifiant la taille de ceux-ci pour la version mobile.
 </checklist>    
 
 
