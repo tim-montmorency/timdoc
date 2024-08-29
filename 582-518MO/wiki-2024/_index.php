@@ -71,6 +71,208 @@
                 rel="noopener noreferrer">sur Dribbble</a>.</li>
     </ul>
 
+
+    <grostitre>Inspirations graphiques / web design</grostitre>
+
+   
+        <p>
+            <a href="https://www.awwwards.com/" rel="noreferrer noopener" title="https://www.awwwards.com/"
+                target="_blank">
+                https://www.awwwards.com/
+            </a>
+            <br />
+            <a href="https://www.cssdesignawards.com/" rel="noreferrer noopener"
+                title="https://www.cssdesignawards.com/" target="_blank">
+                https://www.cssdesignawards.com/
+            </a>
+            <br />
+            <a href="https://dribbble.com/" rel="noreferrer noopener"
+                title="https://dribbble.com/shots/popular/web-design" target="_blank">
+                https://dribbble.com/shots/popular/web-design
+            </a>
+            <br />
+            <a href="https://carbonmade.com/portfolios" target="_blank"
+                rel="noopener noreferrer">https://carbonmade.com/portfolios</a> <br>
+            <a href="https://www.behance.net/galleries" target="_blank"
+                rel="noopener noreferrer">https://www.behance.net/galleries</a> <br>
+            <a href="https://wow-web.co.uk/" rel="noreferrer noopener" title="https://wow-web.co.uk/" target="_blank">
+                https://wow-web.co.uk/
+            </a>
+            <br />
+            <a href="http://www.artofthetitle.com" rel="noreferrer noopener" title="http://www.artofthetitle.com/"
+                target="_blank">
+                http://www.artofthetitle.com
+            </a>
+            <br />
+            <a href="https://www.behance.net/galleries/adobe" rel="noreferrer noopener"
+                title="https://www.behance.net/galleries/adobe" target="_blank">
+                https://www.behance.net/galleries/adobe
+            </a>
+            <br />
+            <a href="https://butdoesitfloat.com/" rel="noreferrer noopener" title="https://butdoesitfloat.com/"
+                target="_blank">
+                https://butdoesitfloat.com/
+            </a>
+            <br />
+
+            <a href="https://www.makeuseof.com/tag/weird-cool-bizarre-websites/" rel="noreferrer noopener"
+                title="https://www.makeuseof.com/tag/weird-cool-bizarre-websites/" target="_blank">
+                https://www.makeuseof.com/tag/weird-cool-bizarre-websites/
+            </a>
+            <br />
+            <a href="https://theuselessweb.com/" rel="noreferrer noopener" title="https://theuselessweb.com/"
+                target="_blank">
+                https://theuselessweb.com/
+            </a>
+            <br />
+            <a href="http://www.notawebsite.com/" rel="noreferrer noopener" title="http://www.notawebsite.com/"
+                target="_blank">
+                http://www.notawebsite.com/
+            </a>
+            <br />
+            <a href="https://www.lifewire.com/weird-blogs-found-on-tumblr-3486368" rel="noreferrer noopener"
+                title="https://www.lifewire.com/weird-blogs-found-on-tumblr-3486368" target="_blank">
+                https://www.lifewire.com/weird-blogs-found-on-tumblr-3486368
+            </a>
+            <br />
+            <a href="https://la-cascade.io/theorie-des-couleurs-1-signification-de-la-couleur" rel="noreferrer noopener"
+                title="https://la-cascade.io/theorie-des-couleurs-1-signification-de-la-couleur" target="_blank">
+                https://la-cascade.io/theorie-des-couleurs-1-signification-de-la-couleur
+            </a>
+            <br />
+            <a href="https://www.vice.com/en_ca/topic/the-creators-project" rel="noreferrer noopener"
+                title="https://www.vice.com/en_ca/topic/the-creators-project" target="_blank">
+                https://www.vice.com/en_ca/topic/the-creators-project
+            </a>
+            <br />
+     
+            <a href="https://publicis.sapient.com/en-us.html" rel="noreferrer noopener"
+                title="https://publicis.sapient.com/en-us.html" target="_blank">
+                https://publicis.sapient.com/en-us.html
+            </a>
+            <br />
+            <a href="https://www.grapheine.com/famous-graphic-designers" rel="noreferrer noopener"
+                title="https://www.grapheine.com/famous-graphic-designers" target="_blank">
+                https://www.grapheine.com/famous-graphic-designers
+            </a>
+            <br />
+            <a href="https://www.logodesignlove.com/" rel="noreferrer noopener" title="https://www.logodesignlove.com/"
+                target="_blank">
+                https://www.logodesignlove.com/
+            </a>
+            <br />
+            <a href="http://www.designishistory.com/" rel="noreferrer noopener" title="http://www.designishistory.com/"
+                target="_blank">
+                http://www.designishistory.com/
+            </a>
+        </p>
+
+        <h3>Références et tendances</h3>
+        <p>
+
+            <a href="https://www.vistaprint.fr/hub/tendances-design-graphique" target="_blank"
+                    rel="noopener noreferrer">10 nouvelles tendances en design graphique de 2024 - 99designs : https://www.vistaprint.fr/hub/tendances-design-graphique   </a><br>
+
+            <a href="https://blog.hubspot.com/marketing/web-design-trends-2017" target="_blank"
+            rel="noopener noreferrer">The 29 Dominating Web Design Trends for 2024 : https://blog.hubspot.com/marketing/web-design-trends-2017 (Ne pas se fier au URL, ce sont bien les tendances 2024) </a><br>
+
+            <a href="https://designmodo.com/web-design-trends-2024/" target="_blank"
+                rel="noopener noreferrer"> <a href="" target="_blank"
+            rel="noopener noreferrer">Top Web Design Trends 2024 : https://designmodo.com/web-design-trends-2024/ </a><br>
+
+            <a href="https://medium.com/@janet.watson/web-design-trends-2024-3c7a2665c45d" target="_blank"
+            rel="noopener noreferrer">Web Design Trent 2024: https://medium.com/@janet.watson/web-design-trends-2024-3c7a2665c45d </a><br>
+
+            <a href="https://99designs.fr/blog/tendances/tendances-design-ux/" target="_blank"
+                rel="noopener noreferrer">Les 8 meilleures tendances en UX design de 2023</a><br>
+            <a href="https://www.linkedin.com/pulse/10-website-design-trends-2024-embrace-boosting-inlwc/"
+                target="_blank" rel="noopener noreferrer">10 Website Design Trends of 2024 to Embrace for Boosting Your
+                Site</a><br>
+            <a href="https://99designs.fr/blog/tendances/tendances-en-design-web/" rel="noreferrer noopener"
+                title="https://99designs.fr/blog/tendances/tendances-en-design-web/" target="_blank">
+                Tendances en design web
+            </a>
+            <a href="https://99designs.fr/blog/tendances/tendances-en-design-web-2022/" rel="noreferrer noopener"
+                title="https://99designs.fr/blog/tendances/tendances-en-design-web-2022/" target="_blank">
+                Tendances en design web 2022
+            </a>
+            <br>
+            <a href="https://99designs.fr/blog/tendances/tendances-design-2019/" rel="noreferrer noopener"
+                title="https://99designs.fr/blog/tendances/tendances-design-2019/" target="_blank">
+                Tendances en design web 2019
+            </a>
+            <br>
+            <a href="https://www.canva.com/fr_fr/decouvrir/couleurs-qui-vont-ensemble/" target="_blank"
+                rel="noopener noreferrer">100 combinaisons de couleurs inspirantes</a>
+            <br>
+            <a href="https://material.io/" rel="noreferrer noopener" title="https://material.io/" target="_blank">
+                https://material.io/
+            </a>
+            <br />
+            <a href="https://deardesignstudent.com/" rel="noreferrer noopener" title="https://deardesignstudent.com/"
+                target="_blank">
+                https://deardesignstudent.com/
+            </a>
+            <br />
+
+            <a href="https://www.canva.com/fr_fr/decouvrir/police-ecriture-moderne-en-ligne-gratuite/"
+                rel="noreferrer noopener"
+                title="https://www.canva.com/fr_fr/decouvrir/police-ecriture-moderne-en-ligne-gratuite/"
+                target="_blank">
+                https://www.canva.com/fr_fr/decouvrir/police-ecriture-moderne-en-ligne-gratuite/
+            </a>
+            <br />
+            <a href="https://99designs.fr/blog/tendances/tendances-typographiques-2019/" rel="noreferrer noopener"
+                title="https://99designs.fr/blog/tendances/tendances-typographiques-2019/" target="_blank">
+                https://99designs.fr/blog/tendances/tendances-typographiques-2019/
+            </a>
+            <br />
+            <a href="http://www.webdesigndev.com/worst-fonts/" rel="noreferrer noopener"
+                title="http://www.webdesigndev.com/worst-fonts/" target="_blank">
+                http://www.webdesigndev.com/worst-fonts/
+            </a>
+            <br />
+            <a href="https://www.creativeboom.com/resources/top-20-fonts-that-will-be-popular-with-designers-in-2019/"
+                rel="noreferrer noopener"
+                title="https://www.creativeboom.com/resources/top-20-fonts-that-will-be-popular-with-designers-in-2019/"
+                target="_blank">
+                https://www.creativeboom.com/resources/top-20-fonts-that-will-be-popular-with-designers-in-2019/
+            </a>
+            <br />
+            <a href="https://www.lafabriquedunet.fr/creation-site-vitrine/articles/regles-ergonomie-web-creer-site/"
+                rel="noreferrer noopener"
+                title="https://www.lafabriquedunet.fr/creation-site-vitrine/articles/regles-ergonomie-web-creer-site/"
+                target="_blank">
+                https://www.lafabriquedunet.fr/creation-site-vitrine/articles/regles-ergonomie-web-creer-site/
+            </a>
+            <br />
+            <a href="http://www.pycolors.com/12-regles-optimiser-ergonomie-site-internet-hierarchie-ranger-objectifs-satisfaire-internaute/637"
+                rel="noreferrer noopener"
+                title="http://www.pycolors.com/12-regles-optimiser-ergonomie-site-internet-hierarchie-ranger-objectifs-satisfaire-internaute/637"
+                target="_blank">
+                http://www.pycolors.com/12-regles-optimiser-ergonomie-site-internet-hierarchie-ranger-objectifs-satisfaire-internaute/637
+            </a>
+            <br />
+            <a href="https://99designs.fr/blog/conseils-design/the-7-principles-of-design/" rel="noreferrer noopener"
+                title="https://99designs.fr/blog/conseils-design/the-7-principles-of-design/" target="_blank">
+                https://99designs.fr/blog/conseils-design/the-7-principles-of-design/
+            </a>
+            <br />
+            <a href="https://fr.wix.com/blog/2018/08/07/regles-design-site-internet/" rel="noreferrer noopener"
+                title="https://fr.wix.com/blog/2018/08/07/regles-design-site-internet/" target="_blank">
+                https://fr.wix.com/blog/2018/08/07/regles-design-site-internet/
+            </a>
+
+            <br>
+            <a href="https://arturth.com/design/graphic-design-trends/#brightvividcolorssection"
+                rel="noreferrer noopener"
+                title="https://arturth.com/design/graphic-design-trends/#brightvividcolorssection" target="_blank">
+                https://arturth.com/design/graphic-design-trends/#brightvividcolorssection
+            </a>
+
+        </p>
+
+
   
 
 </wiki-page>
