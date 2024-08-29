@@ -221,7 +221,7 @@
     <grostitre>Annonces et quiz</grostitre>
     <h3>Annonces</h3>
     <p>D'autres intéressés par le comité étudiants TIM et particulièrement le comité de finissants?</p>
-    <p>Est-ce que vous aviez appris ceci dans les session antérieures? </p>
+    <p>Est-ce que vous aviez appris ceci dans les sessions antérieures? </p>
     <intlink href='../git/collaboration/'></intlink>
     <h3>Quiz</h3>
     <ul>
