@@ -64,8 +64,6 @@
 
 
     <grostitre>Inspirations graphiques / web design</grostitre>
-
-   
         <p>
             <a href="https://www.awwwards.com/" rel="noreferrer noopener" title="https://www.awwwards.com/"
                 target="_blank">
@@ -436,7 +434,8 @@
     <intlink href='../projet/arborescence/'></intlink>
 
     <dots></dots>
-    <grostitre>PS: Arborescence</grostitre>
+    <grostitre>PS: Requis client</grostitre>
+    <p>Voir Généraux, entête, pied de page et accueil pour couvrir les points requis pour le design de l'accueil.</p>
     <intlink href='../projet/requis-client/'></intlink>
 
 
