@@ -61,8 +61,12 @@ Pour chacune de ces captures d'écran, expliquez brièvement l'élément que vou
     Renommez votre dossier de travail 📁 au format&nbsp;suivant:<br><incode>[nom de famille]_[prénom]_design_582-518MO</incode><br>ex: <em>ouellet_marie-michelle_design_582-518MO</em>
 Compressez ensuite votre dossier de travail en <a href="https://www.ezyzip.com/" target="_blank" rel="noopener noreferrer">fichier&nbsp;zip 🗜</a>
 Remettez dans Devoir
-En plus du dossier, remettre lien vers votre fichier Figma en ligne (n'oubliez pas le paramètre: <em>anyone with the link can edit)</em><</p>
-      
+En plus du dossier, remettre lien vers votre fichier Figma en ligne (n'oubliez pas le paramètre: <em>anyone with the link can EDIT)</em>, voir procédure ci-bas:</checklist>
+
+<img src="../images/figma-lien-prof-01.jpg" alt="Étape 01 - Clic sur Share"> 
+<br> <img src="../images/figma-lien-prof-02.jpg" alt="Étape 02 - Clic sur Anyone ou sur can edit pour ouvrir la fenêtre d'édition."> 
+<br> <img src="../images/figma-lien-prof-03.jpg" alt="Étape 03 - Anyone can edit">
+<br> <img src="../images/figma-lien-prof-04.jpg" alt="Étape 04 - Copy Link">
 
 
     

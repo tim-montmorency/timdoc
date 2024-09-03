@@ -24,20 +24,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="noindex, nofollow" />
         <meta itemprop="digest" content="">
-        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
-        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
-        <script src="../../../../shared/jscripts/highlight.min.js"></script>
-        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
-        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
-        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
-        <script>const shared = '../../../../shared/';</script>
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
         <title>Github et hébergement-DevOps</title>
     </head>
     <body>
         <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop('../../../', '')" title="Retour à l'accueil">
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -48,7 +48,7 @@
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
                 <div id="breadcrumb">
-                    <div id="breadcrumb_normal"></div>
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">Projet de session</a> ></div>
                     <div id="breadcrumb_index"></div>
                 </div>
                 <h1 id="title"><img src="images/icon.svg">&nbsp;Github et hébergement-DevOps</h1>
@@ -60,12 +60,17 @@
 
 <p>Cette étape concerne le DevOps de votre équipe. Vous devrez dans celle-ci créer le répertoire <a href="https://github.com/">GitHub</a> qui permettra de sauvegarder et partager le code de votre projet en&nbsp;ligne.</p>
 
+<warning>Avant de commencer, il faut savoir que vous allez partager un lien vers le design Figma gagnant de votre équipe. Comme le repo git va être publique, il faut porter attention à ne pas partager les permissions d'édition comme je demande normalement lors des remises scolaires. Pour le lien du Figma que vous allez mettre dans github, il faut seulement accroder les permissions de visualisaiton. Voici les étapes: 
+    <br> <img src="images/figma-lien-public-01.jpg" alt="Étape 01 - Clic sur Share"> 
+    <br> <img src="images/figma-lien-public-02.jpg" alt="Étape 02 - Clic sur Anyone ou sur can edit pour ouvrir la fenêtre d'édition."> 
+    <br> <img src="images/figma-lien-public-03.jpg" alt="Étape 03 - Anyone can view">
+    <br> <img src="images/figma-lien-public-04.jpg" alt="Étape 04 - Copy Link">
+</warning>
 
-
-<checklist>Créez répertoire <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="https://github.com/">GitHub</a> et nommez le <span class="inline-code">[Nom du client]-[Nom de l&#039;&eacute;quipe]</span>.<br>ex: <em>craque-bitume-les-casseroles-bruyantes</em>
+<checklist>Créez le répertoire <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="https://github.com/">GitHub</a> et nommez le <span class="inline-code">[Nom court du client sans accent]--[Nom de l&#039;&eacute;quipe sans accent]</span>.<br>ex: <em>federation-des-locataires--les-casseroles-bruyantes</em>. <br>Notez que les noms courts des 3 clients 2024 sont : vivre-en-ville, droits-et-libertes et federation-des-locataires.
 Donnez accès au repo aux membres de votre équipe.
-Donnez accès au client via son courriel personnel. Vous retrouverez cette adresse courriel dans notre équipe Teams.
-À la racine du repo, créez un fichier <em>README.md</em> et inscrivez à l'intérieur de celui-ci, en format Markdown :<br>- Le nom de votre client.<br>- Le nom de votre équipe.<br>- Les noms des membres de votre équipe.<br>- Le nom du cours dans lequel ce projet a lieu ainsi qu'un lien vers les requis du projet, soit: <a href="../" onclick="event.stopPropagation()" target="_blank">https://tim-montmorency.com/timdoc/582-518MO/projet/</a><br>- Un lien vers le tableau Trello de votre projet.
+Donnez accès au client (moi) via son compte github: <em>kid-synthetique</em>. 
+À la racine du repo, créez un fichier <em>README.md</em> et inscrivez à l'intérieur de celui-ci, en format Markdown :<br>- Le nom de votre client.<br>- Le nom de votre équipe.<br>- Les noms des membres de votre équipe. À côté de chaque nom, inscrivez: intégrateur, développeur front-end et <a href="https://tim-montmorency.com/timdoc/582-518MO/projet/mise-en-contexte/#roles-dans-lequipe" target="_blank" rel="noopener noreferrer">son rôle secondaire parmi les 3</a>.<br>- Le nom du cours dans lequel ce projet a lieu ainsi qu'un lien vers la page de présentation du projet, soit: <a href="../" onclick="event.stopPropagation()" target="_blank">https://tim-montmorency.com/timdoc/582-518MO/projet/</a><br>- Un lien vers le tableau Trello de votre projet. <br> - Un lien vers le Figma du design de l'accueil du projet (comme le github est publique, protez attention lorsque vous créez le lien, voir procédure au début de cette page).
 À la racine du repo, créez un dossier intitulé <em>"sources"</em>. <br><br>Ce dossier devra contenir pour l'instant <br>- la maquette sélectionnée de la page d'accueil : <em>en PDF + en fichier éditable original (le fichier .XD ou un lien vers votre Figma (qui devra être accessible publiquement - anyone with the link can view)</em>;<br>- le moodboard;<br>- le guide de styles.
 Le dossier <em>sources</em> devra aussi éventuellement contenir le copy deck <em>(format doc)</em> et la maquette de la page de détail de nouvelle <em>(PDF + fichier éditable original)</em>. Ces 2 fichiers devront être déposés sur le git d'ici le cours 5, prenez-en bien note à l'agenda, c'est votre responsabilité d'y penser.
 Créez un fichier <em>index.html</em>. Celui-ci servira de page temporaire à votre site. Ce fichier devra afficher le nom de votre équipe, le nom de votre client ainsi que le lien vers votre répertoire GitHub. <br><br>Pour les équipes de quatre, <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="../page-temporaire">cette page devra être réalisée par l'agent de promotion</a>.
@@ -82,7 +87,13 @@ Ajoutez dans votre fichier README.md sur GitHub, un lien vers votre projet mis-e
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
 <doclink href="https://smnarnold.com/cours/git/github">GitHub</doclink>
-
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../582-424MO/git/collaboration/images/icon.svg);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../582-424MO/git/collaboration/">Collaboration avec Git</a></span>
+                <span class="intlink__item__abstract">Travailler plusieurs ensemble sur les même fichiers</span>
+            </div>
+        </div>
 <doclink href="https://smnarnold.com/cours/git/markdown">Markdown</doclink>
 
 
