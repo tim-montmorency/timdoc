@@ -510,6 +510,8 @@
 <!---------------------- Cours 2 lundi (merc) ----------------------->
 <wiki-page name="Sem02.merc" date="2024-09-04">
     <grostitre>Annonces</grostitre>
+    <h3>Changement de place en classe et ce, pour le reste de la session</h3>
+    <p>Changement de place pour être placé à proximité en équipe.</p>
     <h3>Remise du design demain</h3>
     <p>Pour la remise de demain: tout mettre dans le même fichier Figma. Dans la même page.</p>
     <h3>Tutorat</h3>
@@ -577,29 +579,36 @@
  \_____\___/ \__,_|_|  |___/ |____/ 
                                           
 ----------------------->
-<wiki-page name="Cours 03" date="2024-09-07">
+<!---------------------- Cours 3 jeudi ----------------------->
+<!---------------------- Cours 3 jeudi ----------------------->
+<!---------------------- Cours 3 jeudi ----------------------->
+<wiki-page name="Sem02.jeudi" date="2024-09-05">
+    <grostitre>Annonces</grostitre>
+    <h3>Changement de place en classe et ce, pour le reste de la session</h3>
+    <p>Changement de place pour être placé à proximité en équipe.</p>
 
 
+    
+    <h3>Prise de notes</h3>
+    <p>Chaque équipe doivent désigner une personne qui prendra des notes pendant les présentations des 2 autres. Évidemment, ça prend une 2e personne qui prend des notes lorsque la première est en train de présenter. Ces notes doivent être envoyées dans le canal Teams de votre équipe.</p>
     <h2>Processus de la présentation des maquettes</h2>
     <ul>
         <li>Ordre des équipe au hasard, puis si nécessaire ordre des étudiants dans l'équipe tiré aussi au hasard.</li>
         <li>Chaque personne de l'équipe présente:
             <ul>
-                <li>Présentation du moodboard, guide de styles et maquette.</li>
+                <li>Présentation du moodboard, maquette et guide de styles.</li>
                 <li>Période de commentaires et questions provenant du clients et/ou du board de direction (comité
                     conseil)</li>
             </ul>
         </li>
-        <li>Après les la présentations des 3 ou 4 membres de l'équipe en cours, tous les étudiant font "partie du board
-            de direction" avec moi (le client) et doivent voter pour la meilleure maquette lors d'un vote anonyme en
-            ligne. </li>
+        <li>Après les la présentations des 2 ou 3 membres de l'équipe en cours, tous les étudiant font "partie du board de direction" avec moi (le client) et doivent voter pour la meilleure maquette lors d'un vote anonyme en ligne. </li>
     </ul>
 
     <h2>Présentation orale de votre design.</h2>
     <p>Quoi dire lors de la présentation au client (il y aura le client son comité qui analyseront votre travail,
         commenteront, questionneront et prendraient une décision) : </p>
     <ul>
-        <li>Présentez dans cet ordre : moodboard, guide de styles et ensuite maquette (design) de l'accueil.</li>
+        <li>Présentez dans cet ordre : moodboard, maquette (design) de l'accueil et ensuite guide de styles.</li>
         <li>Expliquez votre démarche.</li>
         <li>Expliquez :
             <ul>
@@ -610,10 +619,7 @@
                 <li>L’utilisation du CRAP. Contraste, Répétition, Alignement, Proximité.</li>
                 <li>Iconographie (si utilisation d’icônes) </li>
                 <li>La mise en contraste de certains éléments importants. Pourquoi et comment?</li>
-                <li>Vous devez convaincre votre client que votre design c’est le meilleur, si vous n’êtes pas
-                    convainquant, vous perdrez des points. Croyez en votre travail et présentez-le avec fierté, c’est
-                    l’objectif ici&nbsp;! C’est une simulation de la vraie vie en entreprise et c’est ce qui importe à
-                    ce stade-ci. Foncez&nbsp;!</li>
+                <li>Vous devez convaincre votre client que votre design c’est le meilleur, si vous n’êtes pas convainquant, vous perdrez des points. Croyez en votre travail et présentez-le avec fierté, c’est l’objectif ici&nbsp;! C’est une simulation de la vraie vie en entreprise et c’est ce qui importe à ce stade-ci. Foncez&nbsp;!</li>
             </ul>
         </li>
     </ul>
