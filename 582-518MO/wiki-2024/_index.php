@@ -540,7 +540,6 @@
     <intlink href="../sass/mixins/"></intlink>
     <p>Exercice 1, le lien sera fourni en cours</p>
 
-    <dots></dots>
     <intlink href="../sass/conditions/"></intlink>
     <intlink href="../sass/fonctions/"></intlink>
 
@@ -582,13 +581,14 @@
 <!---------------------- Cours 3 jeudi ----------------------->
 <!---------------------- Cours 3 jeudi ----------------------->
 <!---------------------- Cours 3 jeudi ----------------------->
-<wiki-page name="Sem02.jeudi" date="2024-09-05">
+<wiki-page name="Sem03.jeudi" date="2024-09-05">
     <grostitre>Annonces</grostitre>
     <h3>Changement de place en classe et ce, pour le reste de la session</h3>
     <p>Changement de place pour être placé à proximité en équipe.</p>
 
 
-    
+    <dots></dots>
+    <grostitre>Présentation des designs</grostitre>
     <h3>Prise de notes</h3>
     <p>Chaque équipe doivent désigner une personne qui prendra des notes pendant les présentations des 2 autres. Évidemment, ça prend une 2e personne qui prend des notes lorsque la première est en train de présenter. Ces notes doivent être envoyées dans le canal Teams de votre équipe.</p>
     <h2>Processus de la présentation des maquettes</h2>
@@ -624,47 +624,65 @@
         </li>
     </ul>
 
-    <h2>Board de direction (comité conseil)</h2>
+
+
+
+    <dots></dots>
+    <grostitre>Board de direction (comité conseil)</grostitre>
     <p>Chaque étudiant DOIT faire un commentaire constructif/pertinent au moins 2 fois dans la journée. C'est important
         que vous appreniez à formuler et à recevoir des critiques comme des professionnels. Je prendrai des notes de qui
         va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisé sur votre présentation, c’est d’ailleurs
         le critère qui vaut le plus de points (allez voir la grille).</p>
 
-    <h2>Groupe du lundi rattrapage</h2>
-    <p>sass boucle @each + exercice overwatch</p>
-
-    <h2>Révision des exercices de la semaine passée</h2>
-    <intlink href="../exercices/sass-each-menu-overwatch/"></intlink>
-    <intlink href="../exercices/sass-mixin-grille-bootstrap/"></intlink>
-
-    <h2>Sass</h2>
-    <intlink href="../sass/conditions/"></intlink>
-    <intlink href="../sass/fonctions/"></intlink>
-    <br><br>
-    <h3>Exercice fonction</h3>
-
-    <p>Lien présenté en classe</p>
 
 
-    <br><br><br>
-    <hr><br>
+    <dots></dots>
+    <grostitre>404 (si on a le temps)</grostitre>
+    <p>Activité 404. Vous avez 10 minutes pour trouver les pages d'erreur 404 les plus originales, en français ou en
+        anglais.</p>
+    <p>Quelques exemples pour démarrer:</p>
+    <ul>
+        <li><a href="https://www.figma.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site
+                figma.com</a></li>
+        <li><a href="https://videotron.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site
+                videotron.com</a></li>
+        <li><a href="https://github.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site
+                github.com</a></li>
+        <li><a href="https://www.readytogosurvival.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du
+                site readytogosurvival.com</a></li>
+    </ul>
 
-    <h2>Devoirs</h2>
+    <p>Après: tour de la classe afin que vous partagiez votre meilleure trouvaille.<br>Sortez des sentiers battus, on ne
+        veut pas avoir de site qui se trouve sur les site de recherche Google "best 404 pages". Soyez rusés et creusez
+        le web!</p>
+
+    <p>Après on vote en groupe qui aura fait la meilleure trouvaille. Que le meilleur gagne!</p>
+
+
+
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
 
     PO <intlink href="../projet/tableau-trello/"></intlink><br>
     DevOp <intlink href="../projet/github-et-hebergement/"></intlink><br>
     Designer <intlink href="../projet/ajustements-design-accueil/"></intlink><br>
-    Agent de promo <intlink href="../projet/page-temporaire/"></intlink><br>
 
     <br> <br>
     <p>De plus, si ce n'est pas complété en classe, vous devez terminer les exercices du jour.</p>
     <ul>
+        <li>SASS - Koriass Grille Bootstrap</li>
         <li>SASS - Fonction Uno</li>
     </ul>
 
 </wiki-page>
 
-
+    
+<!---------------------- Cours 3 lundi ----------------------->
+<!---------------------- Cours 3 lundi ----------------------->
+<!---------------------- Cours 3 lundi ----------------------->
+<wiki-page name="Sem03.lundi" date="2024-09-09"> 
+                rien
+</wiki-page>
 
 
 
@@ -678,7 +696,7 @@
                                      
 ----------------->
 
-<wiki-page name="Cours 04" date="2024-09-14">
+<wiki-page name="sem04.jeudi" date="2024-09-14">
     <h2>Quiz</h2>
 
     Vendredi - <a href="https://app.wooclap.com/FGOFRE" target="_blank" rel="noopener noreferrer">Code Wooclap : FGOFRE
