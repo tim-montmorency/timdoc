@@ -547,7 +547,7 @@
 
     <dots></dots>
     <grostitre>Devoirs</grostitre>
-    <h3>Pour demain</h3>
+    <h3>Pour demain (PS 10%)</h3>
     <intlink href="../projet/moodboard/"></intlink>
     <intlink href="../projet/maquette-accueil/"></intlink>
     <intlink href="../projet/guide-de-styles/"></intlink>
@@ -661,18 +661,19 @@
 
 
     <dots></dots>
-    <grostitre>Devoirs</grostitre>
+    <grostitre>Devoirs </grostitre>
+    <h3>Pour lundi prochain</h3>
+    <p>De plus, si ce n'est pas complété en classe, vous devez terminer les exercices du cours d'hier.</p>
+    <p>Les liens avaient été fournis en classe.</p>
 
-    PO <intlink href="../projet/tableau-trello/"></intlink><br>
+
+    <h3>Pour jeudi prochain (PS 5%)</h3>
+    Product Owner (PO) <intlink href="../projet/tableau-trello/"></intlink><br>
     DevOp <intlink href="../projet/github-et-hebergement/"></intlink><br>
     Designer <intlink href="../projet/ajustements-design-accueil/"></intlink><br>
 
-    <br> <br>
-    <p>De plus, si ce n'est pas complété en classe, vous devez terminer les exercices du jour.</p>
-    <ul>
-        <li>SASS - Koriass Grille Bootstrap</li>
-        <li>SASS - Fonction Uno</li>
-    </ul>
+  
+
 
 </wiki-page>
 
