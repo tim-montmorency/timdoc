@@ -493,6 +493,7 @@
     <intlink href="../projet/maquette-accueil/"></intlink>
     <intlink href="../projet/guide-de-styles/"></intlink>
     <p>Préparer votre présentation du design au client (consignes ci-haut).</p>
+    <p>Pour la remise: tout mettre dans le même fichier Figma. Dans la même page. Ne remettre qu'un seul lien Figma en plus de vos exportations PDF.</p>
 
 
     <h3>Pour lundi prochain</h3>
@@ -504,21 +505,61 @@
    
 </wiki-page>
 
-<!---------------------- Cours 2 lundi ----------------------->
-<!---------------------- Cours 2 lundi ----------------------->
-<!---------------------- Cours 2 lundi ----------------------->
-<wiki-page name="Sem02.lundi" date="2024-09-02">
-
-
-    <intlink href="../sass/mixins/"></intlink>
-    <p>Exercice, le lien sera fourni en cours</p>
-    <del style="opacity: 0.2;"> <intlink href="../sass/conditions/"></intlink> </del>
-    <del style="opacity: 0.2;"> <intlink href="../sass/fonctions/"></intlink> </del>
-
-    <p>De plus, si ce n'était pas terminé, vous devez compléter les exercices SASS d'aujoud'hui.</p>
+<!---------------------- Cours 2 lundi (merc) ----------------------->
+<!---------------------- Cours 2 lundi (merc) ----------------------->
+<!---------------------- Cours 2 lundi (merc) ----------------------->
+<wiki-page name="Sem02.merc" date="2024-09-04">
+    <grostitre>Annonces</grostitre>
+    <h3>Remise du design demain</h3>
+    <p>Pour la remise de demain: tout mettre dans le même fichier Figma. Dans la même page.</p>
+    <h3>Tutorat</h3>
+    <p>Le tutorat commence dès demain. Le calendrier disponible dans l'onglet Tutorat de l'équipe dans Teams / TIM - Prrogramme TIM sera mis à jour très prochainement. Aussi disponible ici sur le site <a href="https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/ " target="_blank" rel="noopener noreferrer">cmontmorency.qc.ca</a>.</p>
     <ul>
-        <li>SASS - Mixins - Grille Bootstrap (Korias)</li>
+        <li>Les mardis au trou à l'horaire au C-1602</li>
+        <li>Les lundis et jeudis soir entre 18h10 et 19h50 en présence au C-1602 et/ou en ligne (allez toujours voir le canal associé dans TIM - Programme TIM)</li>
+        <li>Les dimanches entre 19:30 et 21:10 en ligne (allez toujours voir le canal associé dans TIM - Programme TIM)</li>
+        <li>Il y aura aussi des groupes d'étude le mardi au trou à l'horaire avant vos 2 examens pour ce cours ci.</li>
     </ul>
+
+    <dots></dots>
+    <grostitre>Gestion de projet</grostitre>
+    <intlink href="../gestion-de-projet/rapport-de-temps/"></intlink>
+
+
+    <dots></dots>
+    <grostitre>Révision des exercices</grostitre>
+    <intlink href='../exercices/sass-for-1-a-6/'></intlink>
+    <intlink href='../exercices/sass-for-palette-pink-paradise/'></intlink>
+    <intlink href='../exercices/sass-each-menu-overwatch/'></intlink>
+   
+
+    <dots></dots>
+    <grostitre>SASS</grostitre>
+    <intlink href="../sass/mixins/"></intlink>
+    <p>Exercice 1, le lien sera fourni en cours</p>
+
+    <dots></dots>
+    <intlink href="../sass/conditions/"></intlink>
+    <intlink href="../sass/fonctions/"></intlink>
+
+    <p>Exercice 2, le lien sera fourni en cours</p>
+
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+    <h3>Pour demain</h3>
+    <intlink href="../projet/moodboard/"></intlink>
+    <intlink href="../projet/maquette-accueil/"></intlink>
+    <intlink href="../projet/guide-de-styles/"></intlink>
+    <p>Préparer votre présentation du design au client (consignes ci-haut).</p>
+    <p>Pour la remise: tout mettre dans le même fichier Figma. Dans la même page. Ne remettre qu'un seul lien Figma en plus de vos exportations PDF.</p>
+
+
+    <h3>Pour lundi prochain</h3>
+    <p>Si ce n'était pas terminé, vous devez compléter les exercices SASS d'aujourd'hui</p> 
+    <p>Exercice 1 et 2, les liens ont été fournis en cours</p>
+
+
+
 
 </wiki-page>
 
@@ -537,7 +578,7 @@
                                           
 ----------------------->
 <wiki-page name="Cours 03" date="2024-09-07">
-<intlink href="../gestion-de-projet/rapport-de-temps/"></intlink>
+
 
     <h2>Processus de la présentation des maquettes</h2>
     <ul>
