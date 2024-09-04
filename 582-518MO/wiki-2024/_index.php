@@ -486,6 +486,11 @@
     <p>Envoyez-moi votre choix de client en ordre de préférence. 1, 2 et 3. Je vais vous répondre rapidement pour confirmer le client qui vous sera attitré. </p>
 
 
+    <h3>Pour mercrdi prochain</h3>
+    <p>Si ce n'était pas terminé, vous devez compléter les exercices SASS de lundi.</p> 
+    <intlink href='../exercices/sass-for-1-a-6/'></intlink>
+    <intlink href='../exercices/sass-for-palette-pink-paradise/'></intlink>
+    <intlink href='../exercices/sass-each-menu-overwatch/'></intlink>
 
 
     <h3>Pour jeudi prochain</h3>
@@ -496,12 +501,7 @@
     <p>Pour la remise: tout mettre dans le même fichier Figma. Dans la même page. Ne remettre qu'un seul lien Figma en plus de vos exportations PDF.</p>
 
 
-    <h3>Pour lundi prochain</h3>
-    <p>Si ce n'était pas terminé, vous devez compléter les exercices SASS de lundi.</p> 
-    <intlink href='../exercices/sass-for-1-a-6/'></intlink>
-    <intlink href='../exercices/sass-for-palette-pink-paradise/'></intlink>
-    <intlink href='../exercices/sass-each-menu-overwatch/'></intlink>
-
+    
    
 </wiki-page>
 
