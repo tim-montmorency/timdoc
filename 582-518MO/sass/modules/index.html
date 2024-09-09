@@ -100,8 +100,6 @@
 
 <p>Dans un partial d'une autre composante, <em>hero.scss</em>, il serait possible d'utiliser le mixin <em>small-capitals</em> du fichier<em> _text.scss</em>. Pour ce faire, il faudrait:</p>
 
-
-
 <ol start="1">
   <li>Importer son module via <span class="inline-code">@use</span>.</li>
   <li>Inclure la mixin souhaitée.</li>
@@ -113,15 +111,11 @@
 .hero {
   @include text.small-capitals;
 }</highlight>
+<doclink href='https://sass-lang.com/documentation/at-rules/use/'>@use</doclink>
 
 <dots></dots>
 <h3>Groupement de mixins en partials</h3>
-<p>Il convient grouper dans un même <em>partial</em> des mixins vont bien ensemble, par exemple des styles de modification d'image : <a href="https://www.w3schools.com/css/css3_images.asp" target="_blank" rel="noopener noreferrer">en voici quelques exemples</a>. </p>
-
-
-  <dots></dots>
-
-
+<p>Il convient grouper dans un même <em>partial</em> des mixins vont bien ensemble, par exemple des styles de modification d'image. <a href="https://www.w3schools.com/css/css3_images.asp" target="_blank" rel="noopener noreferrer">Voici quelques exemples</a> de styles de modifications d'une image à partir desquels vous pourriez créer des mixins. </p>
 
 
 

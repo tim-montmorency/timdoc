@@ -685,6 +685,20 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <grostitre>Annonces et quiz</grostitre>
     <p>Groupe AM: Vote pour le design de l'équipe <em>trois mousquetaires</em>: Vincent Abdel et Yavuz </p>
 
+    <h3>Tutorat</h3>
+    Voici l'horaire du tutorat hebdomadaire (excepté les groupes d'études à des dates spécifiques)
+    <ul>
+        <li>Mardi 11:50 à 14:20, EN PRÉSENCE AU C-1602 averc Justine Rousseau (3e année)</li>
+        <li>Lundi 18:10 à 19:50, EN PRÉSENCE AU C-1602 (et DISPONIBILITÉ EN LIGNE au besoin) avec Émeryk Bélisle (2e année)</li>
+        <li>Jeudi 18:10 à 19:50, EN LIGNE avec Émeryk Bélisle (2e année)</li>
+        <li>Dimanche 19:30 à 21:10, EN LIGNE, avec Maïk Hamel (3e année)</li>
+        <li>RENDEZ-VOUS en tout temps (ça peut-être en PRÉSENCE ou EN LIGNE) avec Delphine Grenier (3e année)</li>
+    </ul>
+ 
+    
+    <h3>Prescription pédagogique </h3>
+    <p>Il est possible pendant la session que je vous donne une prescription pédagogique afin que vous visitiez obligatoirement un tuteurs pour un ou des séances données.</p>
+
     <h3>Quiz</h3>
 
     Groupe 01 (am) - <a href="https://app.wooclap.com/MKBIKU" target="_blank" rel="noopener noreferrer">Code Wooclap : MKBIKU
@@ -699,6 +713,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <dots></dots>
     <grostitre>Sass</grostitre>
     <intlink href="../sass/modules/"></intlink>
+    Pour importer une <em>_partial</em> SASS, ne pas utiliser <incode>@import</incode> mais plutôt <doclink href='https://sass-lang.com/documentation/at-rules/use/'>@use</doclink>
+
     <intlink href="../sass/module-de-couleurs/"></intlink>
     <intlink href="../sass/nomenclature-bem/"></intlink>
  
@@ -738,12 +754,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
 
-    <dots></dots>
-    <grostitre>CSS Grid</grostitre>
-    <intlink href="../css/grid/"></intlink>
-    <br><br>
-    <h3>Exercice Grid - Spotify</h3>
-    <p>Lien présenté en classe</p>
+    
 
     <dots></dots>
     <grostitre>Devoirs</grostitre>
@@ -770,8 +781,6 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 ----------------->
 
 <wiki-page name="sem04.jeudi" date="2024-09-14">
-   
-
 
     <h2>Devoirs</h2>
     PO <intlink href="../projet/redaction-copy-deck/"></intlink><br>
@@ -780,7 +789,34 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <br><br>
 </wiki-page>
 
+<wiki-page name="sem04.lundi" date="2024-09-16">
 
+    <h3>Tutorat</h3>
+    <p> Voici l'horaire complète des tuteurs en TIM: <a href="https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/" target="_blank" rel="noopener noreferrer">https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/ </a></p>
+     
+    <p>Tu peux aussi trouver cet horaire dans <em>TIM – Programme TIM</em> > Onglet  Horaire tutorat.</p>
+    
+    <h3>Prescription pédagogique </h3>
+    <p>Il est possible pendant la session que je vous donne une prescription pédagogique afin que vous visitiez obligatoirement un tuteurs pour un ou des séances données.</p>
+
+    <h3>Quiz</h3>
+
+    Groupe 01 (am) - <a href="https://app.wooclap.com/MKBIKU" target="_blank" rel="noopener noreferrer">Code Wooclap : MKBIKU
+    </a><br>
+
+    Groupe 02 (pm) - <a href="https://app.wooclap.com/NTFZYH" target="_blank" rel="noopener noreferrer">Code Wooclap : NTFZYH
+    </a>
+
+   
+
+    <dots></dots>
+    <grostitre>CSS Grid </grostitre>
+    <intlink href="../css/grid/"></intlink>
+    <br><br>
+    <h3>Exercice Grid - Spotify</h3>
+    <p>Lien présenté en classe</p>
+
+</wiki-page>
 
 
 
