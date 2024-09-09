@@ -505,7 +505,7 @@
 <!---------------------- Cours 2 lundi (merc) ----------------------->
 <!---------------------- Cours 2 lundi (merc) ----------------------->
 <!---------------------- Cours 2 lundi (merc) ----------------------->
-<wiki-page name="Sem02.merc" date="2024-09-03">
+<wiki-page name="Sem02.lundi" date="2024-09-03">
     <grostitre>Annonces</grostitre>
     <h3>Changement de place en classe et ce, pour le reste de la session</h3>
     <p>Changement de place pour être placé à proximité en équipe.</p>
@@ -545,7 +545,9 @@
     <intlink href="../sass/conditions/"></intlink>
     <intlink href="../sass/fonctions/"></intlink>
 
-    <p>Exercice 2, le lien sera fourni en cours</p>
+    <exercice href="../exercices/sass-mixin-grille-bootstrap"></exercice>
+    <exercice href="../exercices/sass-function-uno/"></exercice>
+    
 
     <dots></dots>
     <grostitre>Devoirs</grostitre>
@@ -559,7 +561,9 @@
 
     <h3>Pour lundi prochain</h3>
     <p>Si ce n'était pas terminé, vous devez compléter les exercices SASS d'aujourd'hui</p> 
-    <p>Exercice 1 et 2, les liens ont été fournis en cours</p>
+    <intlink href="../exercices/sass-mixin-grille-bootstrap"></intlink>
+    <intlink href="../exercices/sass-function-uno/"></intlink>
+    
 
 
 
@@ -650,8 +654,6 @@
 va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur votre évaluation aujourd'hui, c'est un des critères d'évaluation de pouvoir poser un regard critique sur le travail d'un pair.</p>
 
 
-
-
     <dots></dots>
     <grostitre>Devoirs </grostitre>
     <h3>Pour aujourd'hui, jeudi 5 septembre 2024, à 23h59</h3>
@@ -680,11 +682,40 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 3 lundi ----------------------->
 <!---------------------- Cours 3 lundi ----------------------->
 <wiki-page name="Sem03.lundi" date="2024-09-09"> 
-    <grostitre>Annonces</grostitre>
-    <p>Vote Vincent Abdel et Yavuz </p>
-    
-<dots></dots>
-    <grostitre>404 (si on a le temps)</grostitre>
+    <grostitre>Annonces et quiz</grostitre>
+    <p>Groupe AM: Vote pour le design de l'équipe <em>trois mousquetaires</em>: Vincent Abdel et Yavuz </p>
+
+    <h3>Quiz</h3>
+
+    Groupe 01 (am) - <a href="https://app.wooclap.com/MKBIKU" target="_blank" rel="noopener noreferrer">Code Wooclap : MKBIKU
+    </a><br>
+
+    Groupe 02 (pm) - <a href="https://app.wooclap.com/NTFZYH" target="_blank" rel="noopener noreferrer">Code Wooclap : NTFZYH
+    </a>
+
+
+
+
+    <dots></dots>
+    <grostitre>Sass</grostitre>
+    <intlink href="../sass/modules/"></intlink>
+    <intlink href="../sass/module-de-couleurs/"></intlink>
+    <intlink href="../sass/nomenclature-bem/"></intlink>
+ 
+
+    <dots></dots>
+    <grostitre>Révision des exercices de la semaine passée</grostitre>
+    <intlink href="../exercices/sass-mixin-grille-bootstrap"></intlink>
+    <intlink href="../exercices/sass-function-uno/"></intlink>
+
+    <dots></dots>
+    <grostitre>Sass</grostitre>
+    <h3>Exercice Sass - Films vos meilleurs choix</h3>
+    <p>Lien présenté en classe</p>
+
+
+    <dots></dots>
+    <grostitre>404</grostitre>
     <p>Activité 404. Vous avez 10 minutes pour trouver les pages d'erreur 404 les plus originales, en français ou en
         anglais.</p>
     <p>Quelques exemples pour démarrer:</p>
@@ -706,6 +737,24 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <p>Après on vote en groupe qui aura fait la meilleure trouvaille. Que le meilleur gagne!</p>
 
 
+
+    <dots></dots>
+    <grostitre>CSS Grid</grostitre>
+    <intlink href="../css/grid/"></intlink>
+    <br><br>
+    <h3>Exercice Grid - Spotify</h3>
+    <p>Lien présenté en classe</p>
+
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+    <h3>Pour lundi prochain</h3>
+    <p>Si ce n'était pas terminé, vous devez compléter les exercices d'aujourd'hui.</p> 
+
+
+
+    
+
+
 </wiki-page>
 
 
@@ -721,49 +770,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 ----------------->
 
 <wiki-page name="sem04.jeudi" date="2024-09-14">
-    <h2>Quiz</h2>
+   
 
-    Vendredi - <a href="https://app.wooclap.com/FGOFRE" target="_blank" rel="noopener noreferrer">Code Wooclap : FGOFRE
-    </a><br>
-
-    Lundi - <a href="https://app.wooclap.com/JJOHKD" target="_blank" rel="noopener noreferrer">Code Wooclap : JJOHKD
-    </a>
-
-
-    <br><br>
-    <hr>
-
-
-    <h2>Révision des exercices de la semaine passée</h2>
-    <intlink href="../exercices/sass-function-uno/"></intlink>
-
-    <br><br>
-    <hr>
-
-    <h2>Sass</h2>
-    <intlink href="../sass/modules/"></intlink>
-    <intlink href="../sass/module-de-couleurs/"></intlink>
-    <intlink href="../sass/nomenclature-bem/"></intlink>
-    <br><br>
-    <h3>Exercice Sass - Films vos meilleurs choix</h3>
-
-    <p>Lien présenté en classe</p>
-
-    <br><br>
-    <hr>
-
-    <h2>CSS Grid</h2>
-    <intlink href="../css/grid/"></intlink>
-
-    <br><br>
-    <h3>Exercice Grid - Spotify</h3>
-
-    <p>Lien présenté en classe</p>
-
-
-
-    <br><br><br>
-    <hr><br>
 
     <h2>Devoirs</h2>
     PO <intlink href="../projet/redaction-copy-deck/"></intlink><br>
