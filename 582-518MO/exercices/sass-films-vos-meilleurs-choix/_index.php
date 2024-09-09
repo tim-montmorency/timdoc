@@ -29,6 +29,8 @@ Clonez cette copie sur votre poste à l'aide de GitHub Desktop. (Si Github Deskt
 Ouvrez VS Code et importez le dossier que vous venez de cloner.
 Installez l'extention VS Code <em>Live Sass Compiler</em> de l'auteur Glenn Marks.
 Démarrez <em>Live Sass Compiler</em> en cliquant sur <em>Watch Sass</em> dans le bas de votre fenêtre.
+Ouvrez <em>style.scss</em>, créez une nouvelle ligne (enter) et sauvegardez pour ainsi compiler pour la première fois en format <em>css</em>.
+Ouvrez <em>index.html</em> et ajoutez le lien vers le nouveau fichier créé nommé <em>style.css</em>.
 Avec Live Server, démarrez la page index.html
 </checklist>
 
