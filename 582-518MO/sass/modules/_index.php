@@ -35,6 +35,20 @@
 
 <p>>>> Demo en classe de l'utilisation de partials par Bootstrap et par timdoc.</p>
 
+<dots></dots>
+<h3>Utilisation de données logées dans une partial</h3>
+
+<p>Si vous souhaitez utiliser des données telles que des @mixin, @extend, $variable etc logées dans une partial importée avec <incode>@use</incode>, vous devez préfixer la dite données par le nom de la partial suivi d'un point. Par exemple, si vous définissez un ensemble de variables dans une partials <em>variable.scss</em> et que vous souhaitez réutiliser une de ces variables, <incode>$mainColor</incode> par exemple, dans le ficheir principal de votre scss, vous devriez donc y accéder de cette façon:</p>
+
+
+<highlight lang="scss">@use "variable";
+
+h1 {
+  color: variable.$mainColor;
+}
+</highlight>
+
+
 
 
 
