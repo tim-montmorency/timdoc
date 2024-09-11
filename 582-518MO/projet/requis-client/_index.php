@@ -44,7 +44,7 @@ Site bilingue sur toutes les pages. Si un contenu n'est pas disponible en anglai
 Permettre de populer les <incode>og:title</incode>, <incode>og:description</incode> et <incode>og:image</incode> de chaque page. <em>[2pts]</em>
 Création d’un fichier <em>variables.scss</em> contenant minimalement 5 variables. Chaque variable doit être utilisée au moins 2 fois.<em>[1pts]</em>
 Chaque composante doit avoir son propre fichier SCSS. <br>Minimum de 10 composantes (<a href="../images/composantes-site-web.png" target="_blank" rel="noopener noreferrer">voir des exemples de composantes ici</a>). <em>[2pts]</em>
-Création d'un composante héros contenant au minimum une image et un titre. <em>[0,5pts]</em>
+Création d'un composante héros générique contenant au minimum une image et un titre. <em>[0,5pts]</em>
 Création d'une composante qui affiche le contenu du champ description d'une page (contenu textuel principalement). <em>[0,5pts] </em>
 </checklist>
 
@@ -72,7 +72,7 @@ Bouton de dons menant sur la page externe de dons. <em>[1pts]</em>
 Inclure les liens vers les pages de réseaux sociaux du client. <em>[1pts]</em>
 Informations de contact du client <em>[1pts]</em>:<br>- Téléphone<br>- Courriel<br>- Adresse physique<br>- etc.
 Lorsque cliquée, l'adresse physique du client doit ouvrir Google Map et afficher le bon endroit. <em>[1pts]</em>
-Affichez un symbole de droits d'auteur suivis de l’année <em>(ex: ©2024)</em>, du nom du client et de votre équipe. <em>[1pts]</em>
+Affichez un symbole de droits d'auteur suivi de l’année <em>(ex: ©2024)</em>, du nom du client et de votre équipe. <em>[1pts]</em>
 </checklist> 
 
 
@@ -80,7 +80,7 @@ Affichez un symbole de droits d'auteur suivis de l’année <em>(ex: ©2024)</em
 <dots></dots>
 <grostitre>Accueil</grostitre>
 <checklist>
-Création d'un héros contenant un carrousel. <em>[2pts]</em>
+Création d'un héros contenant un carrousel. Présenter l'information principale en première diapositive, celle qui présente l'organisme, ses objectifs, ses luttes de façon imagée et quelques mots. Ne pas y déposer les dernières nouvelles qui font office d'information secondaire et donc destinées à être présentées dans une section plus bas. <em>[2pts]</em>
 Section affichant un aperçu des services offerts se populant à partir du <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="../arborescence/#liste-des-services-offerts" onclick="event.stopPropagation()">contenu de ces pages</a>. <em>[2pts]</em>
 Section affichant les 3 plus récentes nouvelles se populant à partir du <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="../arborescence/#liste-des-nouvelles-actualite" onclick="event.stopPropagation()">contenu de ces pages</a>. <em>[2pts]</em>
 Section affichant au moins 3 témoignages. <em>[1pts]</em>
@@ -90,10 +90,9 @@ Section de dons contenant une animation GSAP élaborée utilisant une timeline. 
 
 <dots></dots>
 <grostitre>Liste des nouvelles / actualité</grostitre>
-
 <checklist>
 Utilisez la composante de héros générique. <em>[0,5pts] </em>
-Affichez 6 cartes d'aperçu des nouvelles les plus récentes à l'aide d'un fetch au REST API de WordPress. Ces cartes doivent-êtres cliquables et pointer ver la page de nouvelle en question. <em>[3pts]</em>
+Affichez 6 cartes d'aperçu des nouvelles les plus récentes à l'aide d'un fetch au REST API de WordPress. Ces cartes doivent-êtres cliquables et pointer vers la page de nouvelle en question. <em>[3pts]</em>
 Ajoutez un effet de survol aux cartes. <em>[1pts]</em>
 Permettre de choisir l'ordre d'affichage des nouvelles <em>(des + récentes aux + anciennes et vice-versa) </em>via un menu déroulant. <em>[2pts]</em>
 Bouton <em>"Voir plus de nouvelles"</em> permettant d'aller chercher les 6 nouvelles suivantes. Ce bouton doit disparaitre lorsqu'il ne reste plus de nouvelle à aller chercher. <em>[2pts]</em>

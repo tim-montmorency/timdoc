@@ -438,9 +438,18 @@
     <p>Voir Généraux, entête, pied de page et accueil pour couvrir les points requis pour le design de l'accueil.</p>
     <intlink href='../projet/requis-client/'></intlink>
 
+    <dots></dots>
+    <grostitre>PS: Exemples de 2 projet de session</grostitre>
+    <p>Voici 2 démos vidéos d'excellent travaux d'étudiants pour le même projet sur lequel vous planchez, si ça peut vous inspirer et donner des idées:</p>
+    <ul>
+        <li><a href="https://timmontmorency.myportfolio.com/web-refonte-fictive-dequiterre-2021" target="_blank" rel="noopener noreferrer">Refonte fictive du site d'Équiterre</a></li>
+        <li><a href="https://timmontmorency.myportfolio.com/web-refonte-fictive-de-clowns-sans-frontieres-2021" target="_blank" rel="noopener noreferrer">Refonte fictive du site  de Clowns sans frontière</a></li>
+    </ul>
+    
+
 
     <dots></dots>
-    <h2>Votre choix de client</h2>
+    <h2>PS: Votre choix de client</h2>
     <p>Pendant le cours aujourd'hui, dès que vous avez un moment en équipe, envoyez-moi votre choix de client en ordre de préférence. 1, 2 et 3. Je vais vous répondre rapidement pour confirmer le client qui vous sera attitré. </p>
 
 
@@ -773,13 +782,29 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 4 jeudi ----------------------->
 <!---------------------- Cours 4 jeudi ----------------------->
 <!---------------------- Cours 4 jeudi ----------------------->
-<wiki-page name="sem04.jeudi" date="2024-09-14">
+<wiki-page name="sem04.jeudi" date="2024-09-12">
 
-    <h2>Devoirs</h2>
+    <grostitre>Annonces et quiz</grostitre>
+
+    <dots></dots>
+    <grostitre>Projet de Session</grostitre>
+    <h3>2 exemples de projet de session</h3>
+    <p>Voici 2 démos vidéos d'excellent travaux d'étudiants pour le même projet sur lequel vous planchez, si ça peut vous inspirer et donner des idées:</p>
+    <ul>
+        <li><a href="https://timmontmorency.myportfolio.com/web-refonte-fictive-dequiterre-2021" target="_blank" rel="noopener noreferrer">Refonte fictive du site d'Équiterre</a></li>
+        <li><a href="https://timmontmorency.myportfolio.com/web-refonte-fictive-de-clowns-sans-frontieres-2021" target="_blank" rel="noopener noreferrer">Refonte fictive du site  de Clowns sans frontière</a></li>
+    </ul>
+    
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+    <h3>Pour lundi prochain</h3>
+    <p>Si ce n'était pas terminé, vous devez compléter les exercices de lundi et d'aujourd'hui.</p> 
+
+    <h3>Pour jeudi prochain</h3>
     PO <intlink href="../projet/redaction-copy-deck/"></intlink><br>
     Designer <intlink href="../projet/maquette-detail-de-nouvelle/"></intlink><br><br>
-    Notez que le développer back end ainsi que l'agent de promo auront un devoir équivalent un peu plus tard.
-    <br><br>
+    Notez que le développer back end aura un devoir équivalent un peu plus tard.
+    
 </wiki-page>
 
 

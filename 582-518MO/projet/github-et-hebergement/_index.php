@@ -3,7 +3,7 @@
  * @type     article
  * @title    Github et hébergement-DevOps
  * @icon     images/icon.svg
- * @abstract Créer le répertoire GitHub et déployer une page temporaire en ligne.
+ * @abstract Répo GitHub et déployer page sur serveur
  * @index 64
  */
 ?>
