@@ -43,9 +43,9 @@ Les pages du site doivent s'afficher correctement sur les navigateurs: Chrome, F
 Site bilingue sur toutes les pages. Si un contenu n'est pas disponible en anglais sur le site, traduisez-le via <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="https://translate.google.com/?sl=fr&amp;tl=en&amp;op=translate">Google traduction</a> ou <a href="https://www.deepl.com/translator" target="_blank" onclick="event.stopPropagation()">DeepL Translator</a>. <em>[4pts]</em>
 Permettre de populer les <incode>og:title</incode>, <incode>og:description</incode> et <incode>og:image</incode> de chaque page. <em>[2pts]</em>
 Création d’un fichier <em>variables.scss</em> contenant minimalement 5 variables. Chaque variable doit être utilisée au moins 2 fois.<em>[1pts]</em>
-Chaque composante doit avoir son propre fichier SCSS. <br>Minimum de 10 composantes. <em>[2pts]</em>
-Création d'un héros générique contenant une image et un titre. <em>[0,5pts]</em>
-Création d'une composante permettant d'afficher le contenu du champ description. <em>[0,5pts] </em>
+Chaque composante doit avoir son propre fichier SCSS. <br>Minimum de 10 composantes (<a href="../images/composantes-site-web.png" target="_blank" rel="noopener noreferrer">voir des exemples de composantes ici</a>). <em>[2pts]</em>
+Création d'un composante héros contenant au minimum une image et un titre. <em>[0,5pts]</em>
+Création d'une composante qui affiche le contenu du champ description d'une page (contenu textuel principalement). <em>[0,5pts] </em>
 </checklist>
 
 <dots></dots>
@@ -66,7 +66,8 @@ Création d'une composante permettant d'afficher le contenu du champ description
 <grostitre>Pied de page</grostitre>
 <checklist>
 Le logo du client doit être cliquable et pointer vers l'accueil. <em>[1pts]</em>
-Logo des partenaires. <em>[1pts]</em>Contrôler les logos des partenaires via WordPress et permettre l'ajout de lien sur chacun d'eux. <em>[2pts]</em>
+Logo des partenaires. <em>[1pts]</em> 
+Pouvoir contrôler les logos des partenaires via WordPress et permettre l'ajout de lien sur chacun d'eux. <em>[2pts]</em>
 Bouton de dons menant sur la page externe de dons. <em>[1pts]</em>
 Inclure les liens vers les pages de réseaux sociaux du client. <em>[1pts]</em>
 Informations de contact du client <em>[1pts]</em>:<br>- Téléphone<br>- Courriel<br>- Adresse physique<br>- etc.
@@ -80,10 +81,11 @@ Affichez un symbole de droits d'auteur suivis de l’année <em>(ex: ©2024)</em
 <grostitre>Accueil</grostitre>
 <checklist>
 Création d'un héros contenant un carrousel. <em>[2pts]</em>
-Section affichant un aperçu des <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="../arborescence/#hub-de-services" onclick="event.stopPropagation()">services offerts</a> se populant à partir de ces pages. <em>[2pts]</em>
-Section affichant les 3 plus récentes nouvelles se populant à partir de ces pages. <em>[2pts]</em>
-Bloc affichant au moins 3 témoignages. <em>[1pts]</em>
-Bloc de dons contenant une animation GSAP élaborée utilisant une timeline. <em>[2pts]</em>
+Section affichant un aperçu des services offerts se populant à partir du <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="../arborescence/#liste-des-services-offerts" onclick="event.stopPropagation()">contenu de ces pages</a>. <em>[2pts]</em>
+Section affichant les 3 plus récentes nouvelles se populant à partir du <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="../arborescence/#liste-des-nouvelles-actualite" onclick="event.stopPropagation()">contenu de ces pages</a>. <em>[2pts]</em>
+Section affichant au moins 3 témoignages. <em>[1pts]</em>
+Section de dons contenant une animation GSAP élaborée utilisant une timeline. <em>[2pts]</em>
+&nbsp;<span class="red-label">NOUVEAU</span> : Ajout d'un minimum de 1 effet parallax au défilement de la page (GSAP et ScrollTrigger). Cet effet peut-être réutilisé sur plusieurs sections et dans différentes pages pour uniformiser l'aspect du site. Mais il doit être minimalement visible sur l'accueil du site.
 </checklist>
 
 <dots></dots>

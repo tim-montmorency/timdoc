@@ -593,12 +593,9 @@
     <h3>Projet de session - Devoir pour jeudi prochain (5%)</h3>
     <p>Cette semaine, vous avez un devoir spécifique par rôle (PO, devOp et designer) à faire pour le projet de session, l'échéance est jeudi prochain. N'oubliez pas d'informer les autres membres de votre équipe de votre tâche pour la semaine là dessus lorsque vous vous rencontrerez au SCRUM, très possible que vous ayez beaucoup à vous communiquer!</p>
 
-
     Product Owner (PO) <intlink href="../projet/tableau-trello/"></intlink><br>
     DevOp <intlink href="../projet/github-et-hebergement/"></intlink><br>
     Designer <intlink href="../projet/ajustements-design-accueil/"></intlink><br>
-
-
 
     <dots></dots>
     <grostitre>Présentation des designs</grostitre>
@@ -647,12 +644,9 @@
         </li>
     </ul>
 
-
-
     <h3>Board de direction (comité conseil)</h3>
     <p>Chaque étudiant DOIT faire un commentaire constructif/pertinent au moins 2 fois pendant la période. C'est important que vous appreniez à formuler et à recevoir des critiques comme des professionnels. Je prendrai des notes de qui
 va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur votre évaluation aujourd'hui, c'est un des critères d'évaluation de pouvoir poser un regard critique sur le travail d'un pair.</p>
-
 
     <dots></dots>
     <grostitre>Devoirs </grostitre>
@@ -661,11 +655,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
         <li>Dans votre canal d'équipe dans Teams, remettre les notes prises pour les commentaires sur chacun de vos designs. Restez professionel et corrigez vos fautes, s'il y en a.</li>
     </ul>
 
-
     <h3>Pour lundi prochain</h3>
     <p>De plus, si ce n'est pas complété en classe, vous devez terminer les exercices du cours d'hier (grille Bootstrap et Uno).</p>
-
-
 
     <h3>Pour jeudi prochain (PS 5%)</h3>
     Product Owner (PO) <intlink href="../projet/tableau-trello/"></intlink><br>
@@ -688,7 +679,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <h3>Tutorat</h3>
     Voici l'horaire du tutorat hebdomadaire (excepté les groupes d'études à des dates spécifiques)
     <ul>
-        <li>Mardi 11:50 à 14:20, EN PRÉSENCE AU C-1602 averc Justine Rousseau (3e année)</li>
+        <li>Mardi 11:50 à 14:20, EN PRÉSENCE AU C-1602 avec Justine Rousseau (3e année)</li>
         <li>Lundi 18:10 à 19:50, EN PRÉSENCE AU C-1602 (et DISPONIBILITÉ EN LIGNE au besoin) avec Émeryk Bélisle (2e année)</li>
         <li>Jeudi 18:10 à 19:50, EN LIGNE avec Émeryk Bélisle (2e année)</li>
         <li>Dimanche 19:30 à 21:10, EN LIGNE, avec Maïk Hamel (3e année)</li>
@@ -779,7 +770,9 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
  \_____\___/ \__,_|_|  |___/    |_|                                   
                                      
 ----------------->
-
+<!---------------------- Cours 4 jeudi ----------------------->
+<!---------------------- Cours 4 jeudi ----------------------->
+<!---------------------- Cours 4 jeudi ----------------------->
 <wiki-page name="sem04.jeudi" date="2024-09-14">
 
     <h2>Devoirs</h2>
@@ -789,6 +782,13 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <br><br>
 </wiki-page>
 
+
+
+
+
+<!---------------------- Cours 4 lundi ----------------------->
+<!---------------------- Cours 4 lundi ----------------------->
+<!---------------------- Cours 4 lundi ----------------------->
 <wiki-page name="sem04.lundi" date="2024-09-16">
 
     <h3>Tutorat</h3>
@@ -806,8 +806,6 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     Groupe 02 (pm) - <a href="https://app.wooclap.com/NTFZYH" target="_blank" rel="noopener noreferrer">Code Wooclap : NTFZYH
     </a>
-
-   
 
     <dots></dots>
     <grostitre>CSS Grid </grostitre>
@@ -829,7 +827,9 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
  \_____\___/ \__,_|_|  |___/ |____/ 
                                                           
 ---------------->
-
+<!---------------------- Cours 5 jeudi ----------------------->
+<!---------------------- Cours 5 jeudi ----------------------->
+<!---------------------- Cours 5 jeudi ----------------------->
 <wiki-page name="Cours 05" date="2024-09-21">
 
     <h2>Annonces</h2>
