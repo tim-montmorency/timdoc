@@ -17,7 +17,7 @@
 <checklist>Suite à la réception des commentaires client, créez une nouvelle carte dans votre tableau Trello intitulé <em>"Ajustements maquette accueil"</em>.
 Ajoutez chacunes des demandes dans une checklist à l'intérieur de cette carte.
 Associez cette carte à vous même.
-Si ce n'est pas déjà le cas, pour la maquette gagante de votre équipe, rassemblez dans le même fichier Figma dans une même page nommé <em>Accueil - Version 1</em>: <br>- les 3 frames de la maquette d'accueil (mobile, talbette et desktop) <br>- le frame du moodboard<br>- le frame du guide de styles.
+Si ce n'est pas déjà le cas, pour la maquette gagnante de votre équipe, rassemblez dans le même fichier Figma dans une même page nommé <em>Accueil - Version 1</em>: <br>- les 3 frames de la maquette d'accueil (mobile, talbette et desktop) <br>- le frame du moodboard<br>- le frame du guide de styles.
 Dans le même fichier Figma, créez une page nommée <em>Accueil - Version 2</em>.
 Dans la page <em>Accueil - Version 2</em>, recréez un nouveau moodboard à partir des moodboards présentés par votre équipe en ne gardant que les éléments pertinents suite au commentaires clients. <br><br>Par exemple, si vous aviez une capture d'écran démontrant un type de menu ayant été rejeté par le client, il faudra éviter d'inclure cette capture dans votre nouvelle itération.
 Faites une copie du guide de styles initial dans la page <em>Accueil - Version 2</em>. Ajustez le guide de styles de sorte qu'il respecte les commentaires client. Autrement dit, présenter les bonnes couleurs, polices, etc.
