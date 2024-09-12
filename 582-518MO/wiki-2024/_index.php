@@ -865,9 +865,10 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <dots></dots>
     <grostitre>Devoirs</grostitre>
     <h3>Pour lundi prochain</h3>
-    <p>Si ce n'était pas terminé, vous devez compléter les exercices de lundi et d'aujourd'hui.</p> 
+    <p>Si ce n'était pas terminé, vous devez compléter l'exercice de lundi.</p> 
 
     <h3>Pour jeudi prochain</h3>
+    <p>Si ce n'était pas terminé, vous devez compléter l'exercice d'aujourd'hui (site Wordpress).</p> 
     PO <intlink href="../projet/redaction-copy-deck/"></intlink><br>
     Designer <intlink href="../projet/maquettes-autres-pages/"></intlink><br>
     Notez que le développer back end aura un devoir équivalent un peu plus tard.
