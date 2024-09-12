@@ -794,6 +794,50 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
         <li><a href="https://timmontmorency.myportfolio.com/web-refonte-fictive-dequiterre-2021" target="_blank" rel="noopener noreferrer">Refonte fictive du site d'Équiterre</a></li>
         <li><a href="https://timmontmorency.myportfolio.com/web-refonte-fictive-de-clowns-sans-frontieres-2021" target="_blank" rel="noopener noreferrer">Refonte fictive du site  de Clowns sans frontière</a></li>
     </ul>
+
+
+    <dots></dots>
+    <grostitre>Serveur local et WordPress</grostitre>
+    <intlink href="../wordpress/mamp/"></intlink>
+    <intlink href="../wordpress/installation-en-local/"></intlink>
+    <alert>ATTENTION NE PAS POUSSER AUCUNE INSTALLATION LOCALE SUR VOTRE GIT POUR LE MOMENT. Il faut gérer le gitignore.
+    </alert>
+
+
+    <h3>.gitignore pour exclure les fichiers de base de wp </h3>
+    <intlink href="../git/gitignore/"></intlink>
+
+
+    <h3>EXERCICE</h3>
+    <p>Installer WordPress en local, installer un thème existant, créez quelques pages, créez un menu de navigation. Vous devrez me montrer votre réalisation jeudi prochain.</p>
+
+
+    <dots></dots>
+    <grostitre>Création d'un thème WordPress de A À Z </grostitre>
+  
+
+    <intlink href="../wordpress/themes-et-extensions/"></intlink>
+
+
+
+
+
+
+
+    <intlink href="../wordpress/styles-css/"></intlink>
+
+
+
+
+
+
+    <intlink href="..//wordpress/modeles/"></intlink>
+
+
+    <intlink href="../wordpress/partiels/"></intlink>
+
+
+
     
     <dots></dots>
     <grostitre>Devoirs</grostitre>
@@ -802,7 +846,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <h3>Pour jeudi prochain</h3>
     PO <intlink href="../projet/redaction-copy-deck/"></intlink><br>
-    Designer <intlink href="../projet/maquette-detail-de-nouvelle/"></intlink><br><br>
+    Designer <intlink href="../projet/maquettes-autres-pages/"></intlink><br><br>
     Notez que le développer back end aura un devoir équivalent un peu plus tard.
     
 </wiki-page>
@@ -983,44 +1027,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <br><br>
     <hr><br>
-    <h2>Serveur local et WordPress</h2>
-    <intlink href="../wordpress/mamp/"></intlink>
-    <intlink href="../wordpress/installation-en-local/"></intlink>
-    <alert>ATTENTION NE PAS POUSSER AUCUNE INSTALLATION LOCAL SUR VOTRE GIT POUR LE MOMENT. Il faut gérer le gitignore.
-    </alert>
-
-
-    <h3>.gitignore pour exclure les fichiers de base de wp </h3>
-    <intlink href="../git/gitignore/"></intlink>
-
-    <p style="color: var(--main-color);"><strong>> Exercice: </strong><br>Installer WordPress en local, installer un
-        thème existant, explorez.</p>
-    <br><br>
-    <hr><br>
-
-    <h2>Thèmes et extensions </h2>
-
-    <intlink href="../wordpress/themes-et-extensions/"></intlink>
-
-
-
-
-
-    <h2>Styles CSS </h2>
-
-    <intlink href="../wordpress/styles-css/"></intlink>
-
-
-
-
-
-    <h2>Modèles </h2>
-    <intlink href="..//wordpress/modeles/"></intlink>
-
-    <h2>Partiels </h2>
-    <intlink href="../wordpress/partiels/"></intlink>
-
-
+   
     <br><br>
     <hr><br>
 
