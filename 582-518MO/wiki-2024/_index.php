@@ -787,7 +787,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <grostitre>Annonces et quiz</grostitre>
 
     <dots></dots>
-    <grostitre>Projet de Session</grostitre>
+    <grostitre>Projet de session</grostitre>
     <h3>2 exemples de projet de session</h3>
     <p>Voici 2 démos vidéos d'excellent travaux d'étudiants pour le même projet sur lequel vous planchez, si ça peut vous inspirer et donner des idées:</p>
     <ul>
@@ -822,31 +822,14 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
     <dots></dots>
-    <grostitre>Création d'un thème WordPress de A À Z </grostitre>
+    <grostitre>Création d'un thème WordPress de A à Z </grostitre>
   
     <intlink href="../wordpress/themes-et-extensions/"></intlink>
-
-
-
-
-
-
-
     <intlink href="../wordpress/styles-css/"></intlink>
-
-
-
-
-
-
     <intlink href="..//wordpress/modeles/"></intlink>
-
-
     <intlink href="../wordpress/partiels/"></intlink>
 
 
-
-    
     <dots></dots>
     <grostitre>Devoirs</grostitre>
     <h3>Pour lundi prochain</h3>
@@ -854,7 +837,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <h3>Pour jeudi prochain</h3>
     PO <intlink href="../projet/redaction-copy-deck/"></intlink><br>
-    Designer <intlink href="../projet/maquettes-autres-pages/"></intlink><br><br>
+    Designer <intlink href="../projet/maquettes-autres-pages/"></intlink><br>
     Notez que le développer back end aura un devoir équivalent un peu plus tard.
     
 </wiki-page>
