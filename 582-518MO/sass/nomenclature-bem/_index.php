@@ -8,6 +8,7 @@
  * @ref      web/sass
  */
 ?>
+<!-- Todo ajouter inpsiraiton tirées de https://sparkbox.com/foundry/bem_by_example -->
 <grostitre>Introduction</grostitre>
 <p>Le choix d'une nomenclature est un aspect important d'un projet. Il permet d'écrire un CSS de qualité et d'anticiper comment les autres membres de son équipe écriront leurs classes CSS. Ceci résulte en un code uniforme, facilement maintenable plutôt qu'une agglomération de différents styles de codes écrits par différents développeurs.</p>
 
@@ -158,7 +159,10 @@
 <p>Par exemple, le fichier <em>hero.scss</em> ne contiendrait qu'un seul bloc, soit <incode>.hero</incode>. Le fichier <em>site-header.scss</em> ne contiendrait que le bloc <incode>.site-header</incode> et ainsi de suite.</p>
 
 
-
+<dots></dots>
+<h2>Plusieurs exemples</h2>
+<p><a href="https://bem-cheat-sheet.9elements.com/" target="_blank" rel="noopener noreferrer">BEM cheatsheet</a> avec un visualisateur: allez voir ça, c'est vraiment bien présenté!</p>
+<p>Consulter <a href="https://sparkbox.com/foundry/bem_by_example" target="_blank" rel="noopener noreferrer">cet article</a> pour voir plus d'exemples.</p>
 
 
 <dots></dots>
