@@ -740,30 +740,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <p>Lien présenté en classe</p>
 
 
-    <dots></dots>
-    <grostitre>404</grostitre>
-    <p>Activité 404. Vous avez 10 minutes pour trouver les pages d'erreur 404 les plus originales, en français ou en
-        anglais.</p>
-    <p>Quelques exemples pour démarrer:</p>
-    <ul>
-        <li><a href="https://www.figma.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site
-                figma.com</a></li>
-        <li><a href="https://videotron.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site
-                videotron.com</a></li>
-        <li><a href="https://github.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site
-                github.com</a></li>
-        <li><a href="https://www.readytogosurvival.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du
-                site readytogosurvival.com</a></li>
-    </ul>
-
-    <p>Après: tour de la classe afin que vous partagiez votre meilleure trouvaille.<br>Sortez des sentiers battus, on ne
-        veut pas avoir de site qui se trouve sur les site de recherche Google "best 404 pages". Soyez rusés et creusez
-        le web!</p>
-
-    <p>Après on vote en groupe qui aura fait la meilleure trouvaille. Que le meilleur gagne!</p>
-
-
-
+    
     
 
     <dots></dots>
@@ -896,23 +873,57 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
         <li>Groupe 2 (AM) - 33% plus de temps : Arrivez à 9h30 plutôt que 9h50 et vous aurez jusqu'à 14h15. <br> Si cela ne vous convient pas (car vous n'aurez pas de temps de diner), venez me voir tout de suite, je vais vous organiser pour que vous puissiez commencer plus tôt encore mais au SAA.</li>
         <li>Groupe 1 (PM) - 33% plus de temps : Vous devez arriver à 13h15 en classe pour bénéficier de votre temps supplémentaire. Malheureusement il n'y a pas d'autre option, car le SAA ferme à 17h et je n'ai pas l'assouplissement de vous faire continuer après 18h.  Prévoyez un lunch qui se mange en quelques bouchées entre vos 2 cours.</li>
         <li>Groupe 1 (PM) - 50% plus de temps : Arrivez en classe à 12h45 jusqu'à 18h.</li>
-    
     </ul>
 
-    <h3>Quiz</h3>
-
-    Groupe 01 (am) - <a href="https://app.wooclap.com/MKBIKU" target="_blank" rel="noopener noreferrer">Code Wooclap : MKBIKU
-    </a><br>
-
-    Groupe 02 (pm) - <a href="https://app.wooclap.com/NTFZYH" target="_blank" rel="noopener noreferrer">Code Wooclap : NTFZYH
-    </a>
 
     <dots></dots>
-    <grostitre>CSS Grid </grostitre>
-    <intlink href="../css/grid/"></intlink>
-    <br><br>
-    <h3>Exercice Grid - Spotify</h3>
-    <p>Lien présenté en classe</p>
+    <grostitre>Nomenclature BEM (suite)</grostitre>
+    <intlink href="../sass/nomenclature-bem/"></intlink>
+    <h3>Exercices</h3>
+    <intlink href="../exercices/bem-accordeon/"></intlink>
+    <intlink href="../exercices/bem-navbar/"></intlink>
+
+
+
+    <dots></dots>
+    <grostitre>NPM et Vite</grostitre>
+    <intlink href="../javascript/npm/"></intlink>
+    <intlink href="../javascript/vite/"></intlink>
+
+    <p>Exercice NPM et Vite à venir</p>
+
+
+
+
+    <dots></dots>
+    <grostitre>404</grostitre>
+    <p>Activité 404. Vous avez 10 minutes pour trouver les pages d'erreur 404 les plus originales, en français ou en
+        anglais.</p>
+    <p>Quelques exemples pour démarrer:</p>
+    <ul>
+        <li><a href="https://www.figma.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site
+                figma.com</a></li>
+        <li><a href="https://videotron.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site
+                videotron.com</a></li>
+        <li><a href="https://github.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du site
+                github.com</a></li>
+        <li><a href="https://www.readytogosurvival.com/patate" target="_blank" rel="noopener noreferrer">Page 404 du
+                site readytogosurvival.com</a></li>
+    </ul>
+
+    <p>Après: tour de la classe afin que vous partagiez votre meilleure trouvaille.<br>Sortez des sentiers battus, on ne
+        veut pas avoir de site qui se trouve sur les site de recherche Google "best 404 pages". Soyez rusés et creusez
+        le web!</p>
+
+    <p>Après on vote en groupe qui aura fait la meilleure trouvaille. Que le meilleur gagne!</p>
+
+
+
+    
+
+
+
+
 
 </wiki-page>
 
@@ -931,6 +942,18 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 5 jeudi ----------------------->
 <!---------------------- Cours 5 jeudi ----------------------->
 <wiki-page name="Cours 05" date="2024-09-21">
+
+
+
+<dots></dots>
+    <grostitre>CSS Grid </grostitre>
+    <intlink href="../css/grid/"></intlink>
+    <br><br>
+    <h3>Exercice Grid - Spotify</h3>
+    <p>Lien présenté en classe</p>
+
+
+
 
     <h2>Annonces</h2>
     <p style="color: var(--main-color);"><strong>> Horaire la semaine prochaine (cours 6)</strong></p>
