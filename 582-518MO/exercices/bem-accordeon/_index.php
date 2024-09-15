@@ -22,7 +22,7 @@
 <dots></dots>
 <grostitre>Requis</grostitre>
 
-<checklist>bleh
+<checklist>abc
 
 </checklist>
 

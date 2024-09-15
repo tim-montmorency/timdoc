@@ -889,8 +889,15 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
      
     <p>Tu peux aussi trouver cet horaire dans <em>TIM – Programme TIM</em> > Onglet  Horaire tutorat.</p>
     
-    <h3>Prescription pédagogique </h3>
-    <p>Il est possible pendant la session que je vous donne une prescription pédagogique afin que vous visitiez obligatoirement un tuteurs pour un ou des séances données.</p>
+    <h3>Examen</h3>
+    <p>Examen 1 dans 2 semaines (lundi le 30 septembre) <br> Sujet: SASS, nomenclature BEM, NPM & Vite et CSS Grid <br> Groupe d’étude avec Maïk mardi le 24 septembre au trou à l’horaire de 11h50 à 14h20 au C-1639.</p>
+    Ceux qui ont droit à des mesures d'assouplissement:
+    <ul>
+        <li>Groupe 2 (AM) - 33% plus de temps : Arrivez à 9h30 plutôt que 9h50 et vous aurez jusqu'à 14h15. <br> Si cela ne vous convient pas (car vous n'aurez pas de temps de diner), venez me voir tout de suite, je vais vous organiser pour que vous puissiez commencer plus tôt encore mais au SAA.</li>
+        <li>Groupe 1 (PM) - 33% plus de temps : Vous devez arriver à 13h15 en classe pour bénéficier de votre temps supplémentaire. Malheureusement il n'y a pas d'autre option, car le SAA ferme à 17h et je n'ai pas l'assouplissement de vous faire continuer après 18h.  Prévoyez un lunch qui se mange en quelques bouchées entre vos 2 cours.</li>
+        <li>Groupe 1 (PM) - 50% plus de temps : Arrivez en classe à 12h45 jusqu'à 18h.</li>
+    
+    </ul>
 
     <h3>Quiz</h3>
 
