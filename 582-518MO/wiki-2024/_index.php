@@ -890,7 +890,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href="../javascript/npm/"></intlink>
     <intlink href="../javascript/vite/"></intlink>
 
-    <p>Exercice NPM et Vite à venir</p>
+    <p>Exercice NPM et Vite à venir (semaine prochaine)</p>
 
 
 
