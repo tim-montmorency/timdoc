@@ -22,9 +22,10 @@
   <li><p>Choisissez le dossier où vous désirez créer votre projet. Vous avez maintenant trois options:</p>
   <ul>
     <li><p>À partir de ce dossier, effectuez un clic droit en tenant la touche <incode>Shift</incode> enfoncée. Le menu contextuel devrait afficher l'option <em>"Open Windows Terminal Here"</em>.</p></li>
+    
     <li><p>Ouvrir directement le terminal, inscrire <incode>cd</incode> pour <em>Change directory</em>, y glisser-déposer votre dossier et appuyer sur la touche <incode>↵</incode>.</p></li>
 
-    <li><p>Ouvrir votre dossier de votre projet dans Visual Studio Code et ensuite ouvrir le Terminal de Visual studio Code.</p></li>
+    <li><p>Ouvrir le dossier ou vous souhaitez créer votre projet dans Visual Studio Code et ensuite ouvrir le Terminal de Visual studio Code.</p></li>
   </ul>
   </li>
   <li><p>Maintenant que votre terminal se trouve dans votre dossier, vous pouvez lancer l'installation de Vite via la commande suivante:</p></li>
