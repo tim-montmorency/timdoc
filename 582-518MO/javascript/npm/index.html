@@ -235,7 +235,7 @@
 
 <p>Dans le cadre d'un travail d'équipe, il est courant de partager un fichier <em>package.json</em> sur son répertoire GitHub. Cependant, le dossier <em>"node_modules"</em> n'est normalement pas inclus sur celui-ci afin d'éviter de ralentir Git et de créer des conflits inutiles.</p>
 
-<info>Le fichier <span class="inline-code">.gitignore</span> à la racine du projet se charge d’éviter que des fichiers se retrouvent sur son répertoire Git. Le dossier <em>"node_modules"</em> est systématiquement listé dans ce&nbsp;fichier.</info>
+<info>Le <a href="../../git/gitignore/" target="_blank" rel="noopener noreferrer">fichier .gitignore </a>à la racine du projet se charge d’éviter que des fichiers se retrouvent sur son répertoire Git. Le dossier <em>"node_modules"</em> est systématiquement listé dans ce&nbsp;fichier.</info>
 
 <h3>Si un coéquipier ajoute un paquet?</h3>
 <p>Votre fichier <em>package.json</em> se mettra à jour dès que vous ferez un pull. Malheureusement, les fichiers du paquet n'apparaitront pas magiquement dans votre dossier <em>"node_modules". </em>Pour les ajouter, il faudra alors rouler la commande <span class="inline-code">npm i</span>.</p>

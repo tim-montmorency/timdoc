@@ -19,7 +19,7 @@
 </warning>
 
 <ol start="1">
-  <li><p>Choisissez le dossier où vous désirez créer votre projet. Vous avez maintenant deux options:</p>
+  <li><p>Choisissez le dossier où vous désirez créer votre projet. Vous avez maintenant trois options:</p>
   <ul>
     <li><p>À partir de ce dossier, effectuez un clic droit en tenant la touche <incode>Shift</incode> enfoncée. Le menu contextuel devrait afficher l'option <em>"Open Windows Terminal Here"</em>.</p></li>
     <li><p>Ouvrir directement le terminal, inscrire <incode>cd</incode> pour <em>Change directory</em>, y glisser-déposer votre dossier et appuyer sur la touche <incode>↵</incode>.</p></li>
