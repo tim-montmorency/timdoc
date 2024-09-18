@@ -61,13 +61,17 @@
 
 <img src="images/flexbox-compared-css-grid.png" alt="flexbox sur une dimension à la fois. grid sur 2 dimensions (x et y)">
 
-<p><q cite="https://css-tricks.com/" class="on-hover">Pour commencer, vous devez définir un élément conteneur comme une grille avec <span class="inline-code">display : grid</span>, définir la taille des colonnes et des lignes avec <span class="inline-code">grid-template-columns</span> et <span class="inline-code">grid-template-rows</span>, puis placer ses éléments enfants dans la grille avec <span class="inline-code">grid-column</span> et <span class="inline-code">grid-row</span>. <br><br>Comme dans le cas de flexbox, l'ordre source des éléments de la grille n'a pas d'importance. Votre CSS peut les placer dans n'importe quel ordre, ce qui facilite grandement la réorganisation de votre grille à l'aide de requêtes média. Imaginez que vous définissiez la disposition de votre page entière, puis que vous la réorganisiez complètement pour l'adapter à une largeur d'écran différente, le tout avec seulement quelques lignes de CSS. La grille est l'un des modules CSS les plus puissants jamais introduits.</q></p>
+<p><q cite="https://css-tricks.com/" class="on-hover">Pour commencer, vous devez définir un élément conteneur comme une grille avec <br><span class="inline-code">display : grid</span>,<br> <br>définir la taille des colonnes et des lignes avec  <br> <span class="inline-code">grid-template-columns</span> et <span class="inline-code">grid-template-rows</span>, 
+<br><br>puis placer ses éléments enfants dans la grille avec  <br><span class="inline-code">grid-column</span> et <span class="inline-code">grid-row</span>.
+
+<br><br>
+Comme dans le cas de flexbox, l'ordre source des éléments de la grille n'a pas d'importance. Votre CSS peut les placer dans n'importe quel ordre, ce qui facilite grandement la réorganisation de votre grille à l'aide de requêtes média. Imaginez que vous définissiez la disposition de votre page entière, puis que vous la réorganisiez complètement pour l'adapter à une largeur d'écran différente, le tout avec seulement quelques lignes de CSS. La grille est l'un des modules CSS les plus puissants jamais introduits.</q></p>
 
 
 
 <dots></dots>
 <grostitre>grid-template-columns</grostitre>
-<p>Permet de définir indépendamment la taille de chaque colonne d'une grille. Le nombre de colonnes correspond au nombre de valeurs spécifiées.</p><p>Par exemple, trois valeurs produisent trois colonnes:</p>
+<p>Permet de définir la taille de chaque colonne d'une grille. Le nombre de colonnes correspond au nombre de valeurs spécifiées.</p><p>Par exemple, trois valeurs produisent trois colonnes:</p>
 
 <p class="codepen" data-height="300" data-theme-id="44168" data-default-tab="result" data-slug-hash="wvRexmm" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/wvRexmm">
@@ -93,7 +97,7 @@
 <dots></dots>
 <grostitre>grid-template-rows</grostitre>
 
-<p>Permets de définir indépendamment la taille de chaque rangée d'une grille. Le nombre de rangées correspond au nombre de valeurs spécifiées.</p>
+<p>Permet de définir la taille de chaque rangée d'une grille. Le nombre de rangées correspond au nombre de valeurs spécifiées.</p>
 <p>Par exemple, deux valeurs produisent deux rangées:</p>
 
 <p class="codepen" data-height="300" data-theme-id="44168" data-default-tab="result" data-slug-hash="VwqWBdm" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -188,7 +192,7 @@
 
 
 <h3 class="heading heading--h3" id="Combinaison avec gap">Combinaison avec gap</h3>
-<p>À priori, cette unité peut sembler similaire aux pourcentages <em>(%)</em>. Cependant, puisque les fractions basent leurs calculs sur l'espace disponible et non l'espace total de leur parent, ils peuvent-être utiliser avantageusement avec les propriétés de type <span class="inline-code">gap</span>.</p><p>Par exemple, si un <span class="inline-code">column-gap: 5px</span> est présent sur des éléments en pourcentages à gauche versus en fractions à droite.</p>
+<p>À priori, cette unité peut sembler similaire aux pourcentages <em>(%)</em>. Cependant, puisque les fractions <em>(fr)</em> basent leurs calculs sur l'espace disponible et non l'espace total de leur parent, ils peuvent-être utiliser avantageusement avec les propriétés de type <span class="inline-code">gap</span>.</p><p>Par exemple, si un <span class="inline-code">column-gap: 5px</span> est présent sur des éléments en pourcentages à gauche versus en fractions à droite.</p>
 
 <p class="codepen" data-height="340" data-theme-id="44431" data-default-tab="css" data-slug-hash="OJrgwdv" data-user="tim-momo" style="height: 340px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJrgwdv">
@@ -207,8 +211,10 @@
 
 
 
-<h3 class="heading heading--h3" id="Combinaison avec unités tierce">Combinaison avec unités tierce</h3>
-<p>Lorsqu'une unité tierce est introduite, les pourcentages continuent de se baser sur la dimension totale du parent, peu importe la dimension prise par cette unité, contrairement aux fractions qui se séparent l'espace disponible restant après que l'unité tierce est prise son espace.</p><p>Dans les exemples ci-dessous👇, la première colonne à une unité tierce de 50px. À gauche, on remarque que la combinaison avec des pourcentages produit un résultat indésirable, tandis qu'à droite, les fractions séparent également l'espace restant, produisant ainsi un résultat harmonieux.</p>
+<h3 class="heading heading--h3" id="Combinaison avec unités tierce">Combinaison avec unités différentes, telles que px ou vw ou vh etc.</h3>
+<p>Lorsqu'une unité différente est ajoutée en combinaison, les pourcentages <em>(%)</em> continuent de se baser sur la dimension totale du parent, peu importe la dimension prise par cette unité. Contrairement aux fractions <em>(fr)</em> qui se séparent l'espace disponible restant après que l'unité différente ait pris son espace.</p>
+
+<p>Dans les exemples ci-dessous👇, la première colonne a une unité différente <em>(px)</em>, soit de 50px. À gauche, on remarque que la combinaison avec des pourcentages produit un résultat indésirable, tandis qu'à droite, les fractions séparent également l'espace restant, produisant ainsi un résultat harmonieux.</p>
 
 
 <p class="codepen" data-height="340" data-theme-id="44431" data-default-tab="css" data-slug-hash="JjwJBVK" data-user="tim-momo" style="height: 340px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -226,7 +232,7 @@
 
 
 
-
+exercice 01 grid
 
 
 
