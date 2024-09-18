@@ -88,6 +88,16 @@ Section de dons contenant une animation GSAP élaborée utilisant une timeline. 
 &nbsp;<span class="red-label">NOUVEAU</span> : Ajout d'un minimum de 1 effet parallax au défilement de la page (GSAP et ScrollTrigger). Cet effet peut-être réutilisé sur plusieurs sections et dans différentes pages pour uniformiser l'aspect du site. Mais il doit être minimalement visible sur l'accueil du site.
 </checklist>
 
+
+<dots></dots>
+<span class="red-label">NOUVELLE PAGE</span> 
+<grostitre>Donner ($) ou devenir membre</grostitre>
+<checklist>
+&nbsp;<span class="red-label">NOUVEAU</span> :Texte explicatif des apports et bénéfices de donner (ou devenir membre). Voir <a href="../arborescence/#donner-ou-devenir-membre" target="_blank" rel="noopener noreferrer">arborescence pour le contenu</a>.
+&nbsp;<span class="red-label">NOUVEAU</span> :Formulaire web à remplir pour faire un don.
+&nbsp;<span class="red-label">NOUVEAU</span> :Bouton soumettre.
+</checklist>
+
 <dots></dots>
 <grostitre>Liste des nouvelles / actualité</grostitre>
 <checklist>

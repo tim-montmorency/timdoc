@@ -33,7 +33,8 @@
 <grostitre>Donner ($) ou devenir membre</grostitre>
 <ul>
     <li><a href="https://activites.vivreenville.org/fr/dons/donate/faire-un-don/2946/" target="_blank" rel="noopener noreferrer">Vivre en ville</a></li>
-    <li><a href="https://portail.liguedesdroits.ca/fr/don" target="_blank" rel="noopener noreferrer">Ligue des droits </a></li>
+
+    <li>Ligue des droits <a href="https://portail.liguedesdroits.ca/fr/don" target="_blank" rel="noopener noreferrer">Description</a> et <a href="https://portail.liguedesdroits.ca/fr/don-campagne-financement/donate/campagne-de-financement-annuelle/1208/" target="_blank" rel="noopener noreferrer">formulaire</a></li>
     <li>Fédération des locataires d’habitations à loyer modique du Québec (FLHLMQ): Donner (ce sera Devenir membre) qui contiendra <a href="https://flhlmq.com/fr/publication/adhesion-et-abonnement" target="_blank">un texte d’intro pris ici</a> et un formulaire directement dans la page web (et non dans un PDF) avec <a href="https://flhlmq.com/sites/flhlmq.com/files/images-dans-les-textes/Formulaire%20d%27adh%C3%A9sion_1.pdf" target="_blank" rel="noopener noreferrer">les champs suivants</a>.</li>
 </ul>
 
