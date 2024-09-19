@@ -18,6 +18,7 @@
     <br> <img src="images/figma-lien-public-04.jpg" alt="Étape 04 - Copy Link">
 </warning>
 
+<info>Lorsque vous travaillez sur le projet, n'oubliez pas de démarrer Toggl (votre rapport de temps de travail).</info>
 <grostitre>Requis git</grostitre>
 <checklist>Créez le répertoire <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="https://github.com/">GitHub</a> et nommez le <incode>[Nom court du client sans accent]--[Nom de l'équipe sans accent]</incode>.<br>ex: <em>federation-des-locataires--les-casseroles-bruyantes</em>. <br>Notez que les noms courts des 3 clients 2024 sont : vivre-en-ville, droits-et-libertes et federation-des-locataires.
 Donnez accès au repo aux membres de votre équipe.
