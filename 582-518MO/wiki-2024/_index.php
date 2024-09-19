@@ -995,6 +995,9 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <warning>Lorsque vous travaillez sur le projet, n'oubliez pas votre suivi de temps avec Toggl sur <a href="https://track.toggl.com/" target="_blank" rel="noopener noreferrer">track.toggl.com</a> !  À l'évaluation formative la semaine prochaine je vais vous demander de consulter chacune de vos feuilles de temps pour vérifier si tout le monde a travaillé de façon équitable sur cette remise.</warning>
 
+    <h3>Concours page 404</h3>
+    <p>D'ici lundi, trouvez les pages 404 les plus créatives. Un vote sera fait. Un prix à gagner.</p>
+
 </wiki-page>
 
 <!---------------------- Cours 5 lundi ----------------------->
