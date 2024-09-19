@@ -965,7 +965,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <dots></dots>
  
 
-    <p>Je suis présentement à mi-parcours d'une formation en enseignement dans un programme au niveau de la maîtrise universitaire afin d'améliorer mes techniques d'enseignement. Un de mes cours exige de faire un sondage auprès de mes étudiants actuels. <br> Je vous invite à y répondre d'ici le mardi 24 septembre. Votre collaboration sera très appréciée. 🙏 MERCI! <br><br> <a href="https://forms.gle/bd7bSgEi8dbUENRF7" target="_blank" rel="noopener noreferrer" class="btn">Lien vers sondage</a></p>
+    <p>Je suis présentement à mi-parcours d'une formation en enseignement dans un programme au niveau de la maîtrise universitaire afin d'améliorer ma pratique enseignante. Un de mes cours exige de faire un sondage auprès de mes étudiants actuels. <br> Je vous invite à y répondre d'ici le mardi 24 septembre. Votre collaboration sera très appréciée. 🙏 MERCI! <br><br> <a href="https://forms.gle/bd7bSgEi8dbUENRF7" target="_blank" rel="noopener noreferrer" class="btn">Lien vers sondage</a></p>
 
     <dots></dots>
     <grostitre>Vite (groupe 01 seulement)</grostitre>
