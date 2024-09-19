@@ -192,8 +192,16 @@ exercice 01 grid
 
 <dots></dots>
 <grostitre>Unité minmax()</grostitre>
-<p>Comme son nom l'indique, <strong>l'unité</strong> <incode>minmax()</incode> permet de définir une dimension minimale et maximale à une cellule de grille. Cette unité est particulièrement utile afin de créer une mise en page responsive tout en évitant que certains éléments se retrouve trop coincés.</p><p>Par exemple, deux grilles identiques avec toutes les cellule d'une largeur de <incode>1fr</incode> à l'exception de la 2<sup>e</sup> cellule verte ayant une valeur de <incode>minmax(200px, 1fr)</incode>.</p>
+<p>Comme son nom l'indique, <strong>l'unité</strong> <incode>minmax()</incode> permet de définir une dimension minimale et maximale à une cellule de grille. Cette unité est particulièrement utile afin de créer une mise en page responsive tout en évitant que certains éléments se retrouve trop coincés.</p><p>Par exemple, deux grilles identiques avec toutes les cellules d'une largeur de <incode>1fr</incode> à l'exception de la 2<sup>e</sup> cellule verte ayant une valeur de <incode>minmax(400px, 1fr)</incode>.</p>
 <clipasset src="images/grid-minmax.mp4"></clipasset>
+
+
+<p class="codepen" data-height="300" data-theme-id="44431" data-default-tab="html,result" data-slug-hash="MWMNbrb" data-pen-title="Grid - % vs fr" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/MWMNbrb">
+  Grid - % vs fr</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/minmax()">minmax()</doclink>
 
 
