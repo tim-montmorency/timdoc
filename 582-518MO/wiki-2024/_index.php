@@ -975,9 +975,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <dots></dots>
     <grostitre>CSS Grid </grostitre>
     <intlink href="../css/grid/"></intlink>
-    <br><br>
-    <h3>Exercice Grid - Spotify</h3>
-    <p>Lien présenté en classe</p>
+    <h3>2 exercices Grid CSS</h3>
+    <p>Liens présentés en classe</p>
 
 
 
@@ -987,9 +986,12 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <p>Répondre au sondage pour votre enseignante Marie-Michelle Ouellet. <br>
     <a href="https://forms.gle/bd7bSgEi8dbUENRF7" target="_blank" rel="noopener noreferrer" class="btn">Lien vers sondage</a></p>
 
+    <h3>Exercices</h3>
+    <p>Si non terminés, vous devez terminer les exercices Grid CSS pour jeudi prochain.</p>
+
     <h3>PS: Projet de session</h3>
     <intlink href='../projet/echafaudage-projet'></intlink>
-    <p>Jeudi prochain le 26 septembre <br> REMISE F1 - ÉVALUATION FORMATIVE 1 EN CLASSE:  Échafaudage du projet: HTML, SASS, CSS, JS + nav, entête et pied de page.</p>
+    <p>Évaluation formative jeudi prochain le 26 septembre</p>
 
     <warning>Lorsque vous travaillez sur le projet, n'oubliez pas votre suivi de temps avec Toggl sur <a href="https://track.toggl.com/" target="_blank" rel="noopener noreferrer">track.toggl.com</a> !  À l'évaluation formative la semaine prochaine je vais vous demander de consulter chacune de vos feuilles de temps pour vérifier si tout le monde a travaillé de façon équitable sur cette remise.</warning>
 

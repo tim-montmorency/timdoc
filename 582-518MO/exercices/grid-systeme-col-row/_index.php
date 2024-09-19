@@ -24,25 +24,38 @@
 <dots></dots>
 <grostitre>Grille 01</grostitre>
 <h3>Aperçu du résultat 👇</h3>
-<clipasset src="images/"></clipasset>
+<clipasset src="images/css-grid-base-01.mp4"></clipasset>
 <h3>Requis</h3>
 <checklist>
-    Faite un fork du pen de départ.
+    Faites un fork du pen de départ.
     Renommez votre Pen "EXERC - CSS Grid base 01"
-    Recréez la grille de mise en page suivante à l'aide du système css grid. 
+    Recréez la grille de mise en page selon l'aerpçu précédent à l'aide du système css grid. 
 </checklist>
 
 
 <dots></dots>
 <grostitre>Grille 02</grostitre>
 <h3>Aperçu du résultat 👇</h3>
-<clipasset src="images/"></clipasset>
+<clipasset src="images/css-grid-base-02.mp4"></clipasset>
 <h3>Requis</h3>
 <checklist>
-    Faite un fork du pen de départ.
+    Faites un fork du pen de départ.
     Renommez votre Pen "EXERC - CSS Grid base 02"
-    Recréez la grille de mise en page suivante à l'aide du système css grid. 
+    Recréez la grille de mise en page selon l'aerpçu précédent à l'aide du système css grid. 
 </checklist>
+
+
+<dots></dots>
+<grostitre>Grille 03</grostitre>
+<h3>Aperçu du résultat 👇</h3>
+<clipasset src="images/css-grid-base-03.mp4"></clipasset>
+<h3>Requis</h3>
+<checklist>
+    Faites un fork du pen de départ.
+    Renommez votre Pen "EXERC - CSS Grid base 03"
+    Recréez la grille de mise en page selon l'aerpçu précédent à l'aide du système css grid. 
+</checklist>
+
 
 
 
