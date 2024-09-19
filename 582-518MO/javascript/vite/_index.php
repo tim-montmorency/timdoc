@@ -3,7 +3,7 @@
 /**
  * @type     article
  * @title    Vite
- * @icon     images/icon.webp
+ * @icon     images/Vitejs-logo.svg
  * @abstract Outil qui améliore l'expérience de développement front-end.
  * @index    30
  * @ref      web/outils
