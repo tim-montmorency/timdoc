@@ -12,7 +12,7 @@
 <p>Aperçu du résultat 👇</p>
 <small>Pour contrôler la vidéo, clic-droit et "Afficher toute les commandes".</small>
 <clipasset src="medias/color-run-resultat.mp4"></clipasset>
-<small>Pour la portion "clic sur image" (requis #17 et #18), ne vous fiez pas à la démo-ci haut. <br>Imaginez plutôt que le cercle s'agrandit de 10%.</small>
+<small>Pour la portion "clic sur image" (requis #16 et #17), ne vous fiez pas à la démo-ci haut. <br>Imaginez plutôt que le cercle s'agrandit de 10%.</small>
 
 <dots></dots>
 
@@ -30,7 +30,8 @@
 <dots></dots>
 <grostitre>Configurations</grostitre>
 <checklist>
-  Créez un projet <em>Vite</em> et donnez-lui comme nom <em>votreprénom-votrenomdefamille-colorrun</em> tout en minuscules et sans espace. Par exemple: <em>ouellet-mariemichelle-colorrun</em>. Faites aussi en sorte que votre projet supporte SCSS puisque nous l'utiliserons dans les prochaines étapes. 
+  Créez un projet <em>Vite</em> et donnez-lui comme nom <em>votreprénom-votrenomdefamille-colorrun</em> tout en minuscules et sans espace. Par exemple: <em>ouellet-mariemichelle-colorrun</em>. 
+  Faites aussi en sorte que votre projet Vite supporte SCSS puisque nous l'utiliserons dans les prochaines étapes. (Pour cet exercice, ne PAS compiler avec l'extention Live Sass Compiler).
   Collez le code suivant dans votre fichier HTML:</checklist>
 <!-- <br> <br> Si vous êtes incapable de réaliser cette étape, créez vous un dossier de projet dans Visual Studio Code, nommez le correctement, créez un fichier styles.scss et index.html. Utilisez l'extension appropriée pour compiler votre SCSS en CSS. -->
 <highlight lang="html">&lt;div class=&quot;results&quot;&gt;
@@ -61,12 +62,12 @@
 <grostitre>Requis</grostitre>
 <checklist>Téléchargez et déposez le fichier _base.scss (voir section matériel au début de cette page) dans votre projet : créez un dossier nommé de façon pertinente pour ce type de fichier et déposez le fichier dans ce dossier 📁.
 Utilisez la variable&nbsp;<incode>$bg</incode>&nbsp;du fichier&nbsp;<incode>_base.scss</incode> comme couleur de fond de la page. attention, ne pas faire un copier-coller de la variable, vous devez l'importer dans votre fichier 
-Le bloc contenant tous les coureurs sera le conteneur de la grille de mise en page.
-Ce bloc contenant tous les coureurs doit prendre toute la largeur de l'écran, jusqu'à concurrence de 1000px de large, être centré horizontalement dans la page ↔️, avoir une marge intérieure de 20px de tous les côtés et une marge extérieure verticale de 50px.<br><br>Attention de faire en sorte que la dimension totale soit bien de 1000px incluant les marges intérieures.
+Le bloc contenant tous les coureurs sera le conteneur de la grille (grid) de mise en page.
+Ce bloc contenant tous les coureurs doit prendre toute la largeur de l'écran, jusqu'à maximum 1000px de large, être centré horizontalement dans la page ↔️, avoir une marge intérieure de 20px de tous les côtés et une marge extérieure verticale de 50px.<br><br>Attention de faire en sorte que la dimension totale soit bien de 1000px incluant les marges intérieures.
 Appliquez la mixin <em>runner</em> à chacun des coureurs.
-Faites en sorte que l'image de chaque coureur prenne tous l'espace disponible dans son parent et soit parfaitement ronde. <br><br>Attention, vous devez utiliser l'imbrication et la nomenclature BEM pour sélectionner l'image afin de lui attribuer ses styles CSS.
+Faites en sorte que l'image de chaque coureur prenne tout l'espace disponible dans son parent et qu'elle soit parfaitement ronde. <br><br>Attention, vous devez utiliser l'imbrication et la nomenclature BEM pour sélectionner l'image afin de lui attribuer ses styles CSS.
 Créez une boucle <em>for</em> en SCSS afin de sélectionner chacun des coureurs.
-À l'intérieur de cette boucle, faites afficher la position de chacun des coureurs dans une bulle de 1 à 6 en noir sur un fond blanc ⚪️ en haut à droite de ceux-ci. La bulle doit avoir une dimension de 40x40px et le texte à l'intérieur doit-être centré horizontalement ↔️ et verticalement ↕️. 
+À l'intérieur de cette boucle, en utilisant un pseudo-élément css, faites afficher la position de chacun des coureurs dans une bulle de 1 à 6 en noir sur un fond blanc ⚪️ en haut à droite de ceux-ci. La bulle doit avoir une dimension de 40x40px et le texte à l'intérieur doit-être centré horizontalement ↔️ et verticalement ↕️. 
 Vous devez aussi utiliser cette boucle afin d'assigner chacun des coureurs à un espace (une zone) dans la grille. Ces espaces (zones) seront nommés no1, no2, no3… jusqu'à no6. 
 Utilisez les espaces de grille que vous venez de créer afin de positionner, le coureur en 1<sup>re</sup> position seul sur la première ligne. Les 2 suivants sur la 2<sup>e</sup> ligne, les 3 derniers sur la 3<sup>e</sup> ligne et ajoutez un espace de 20px entre chacun d'eux.
 Sur un écran d'une largeur de 375px et plus, faites en sorte que le 2<sup>e</sup> et 3<sup>e</sup> coureur s'affichent à la droite du premier et que les trois derniers s'affichent en dessous d'eux.
@@ -75,29 +76,11 @@ Utilisez maintenant une boucle SCSS à partir de la variable&nbsp;<incode>$color
 À l'intérieur de cette boucle, créez une variable SCSS. Cette variable devra contenir la couleur courante de la boucle, mais son hue devra être augmenté de 50.
 Toujours dans votre boucle SCSS, créez un dégradé de haut en bas à partir de la couleur courante dans la boucle vers celle contenue dans la variable SCSS que vous venez de créer.
 Utilisez l'imbrication SASS afin de créer la classe modificateur&nbsp;<incode>runner--active</incode>. Celle-ci doit faire grossir de 10% le coureur l'ayant.
-Ajoutez un fichier script.js dans votre projet. En JavaScript, faites en sorte que lorsqu'un coureur se fait cliquer dessus, il reçoive la classe&nbsp;<incode>runner--active</incode>. Attention, il ne peut y avoir qu'un seul coureur actif à la fois. Autrement dit, cette classe ne doit jamais être sur deux coureurs en même temps.</checklist>
-
-
-
-
-
+En JavaScript, faites en sorte que lorsqu'un coureur se fait cliquer dessus, il reçoive la classe&nbsp;<incode>runner--active</incode>. Attention, il ne peut y avoir qu'un seul coureur actif à la fois. Autrement dit, cette classe ne doit jamais être sur deux coureurs en même temps.</checklist>
 
 
 
 
 <dots></dots>
 <grostitre>Remise</grostitre>
-<ul>
-    
-    <li>
-        <p>Compressez ensuite votre dossier de travail en <a target="_blank" rel="noopener noreferrer"
-                href="https://www.ezyzip.com/">fichier&nbsp;zip 🗜</a></p>
-    </li>
-    <li>
-        <p>Envoyez-moi un <a target="_blank" rel="noopener noreferrer"
-                href="https://teams.microsoft.com/l/chat/0/0?users=mariem.ouellet@cmontmorency.qc.ca">message privé
-                sur Teams</a> contenant votre fichier&nbsp;zip.</p>
-    </li>
-</ul>
-
-
+<p>Aucune remise n'est nécessaire. Cet exercice vous est fourni comme pratique et révision en vu de l'examen 01.</p>
