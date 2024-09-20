@@ -31,7 +31,7 @@
         <script src="../../../shared/jscripts/vue.global.prod.js"></script>
         <script src="../../../shared/jscripts/timdoc.min.js"></script>
         <script>const shared = '../../../shared/';</script>
-        <title>Migration de données</title>
+        <title>Migration de données des pages</title>
     </head>
     <body>
         <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
@@ -51,18 +51,20 @@
                     <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">WordPress</a> ></div>
                     <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/wordpress/">WordPress</a>&nbsp;>&nbsp;</div>
                 </div>
-                <h1 id="title"><img src="../medias/icon.webp">&nbsp;Migration de données</h1>
+                <h1 id="title"><img src="../medias/icon.webp">&nbsp;Migration de données des pages</h1>
             </div>
             <article>
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
+<alert>Il faut bien comprendre que cet article traite de la façon de migrer les données (content) du CMS, c'est à dire le contenu des pages et des articles. Cette technique ne transférera pas toutes les configurations que vous aurez faites dans l'interface d'adminitration de Wordpress, ni les menus, ni les configurations sur le thème etc.</alert>
 
-<p>WordPress permet nativement de migrer les données d'un site WordPress vers un autre. Cependant, cet outil ne fait que transférer les données stockées dans une base de données vers une autre. </p>
+<p>WordPress permet nativement de migrer les données d'un site WordPress vers un autre. Cependant, cet outil ne fait que transférer les données stockées dans une base de données vers une autre.</p>
 
 <p>Autrement dit, si une extension stocke des informations ailleurs que dans la base de données associée au projet, par exemple dans un fichier JSON, ces informations ne seront pas transférées lors de la migration, donc perdues. </p>
 
 <p>Qui plus est, même si les données sont migrées dans la nouvelle base de données, WordPress nécessitera quand même une structure lui indiquant le lien entre ces données et le site lui-même. Pour ce faire, plusieurs extensions offrent une option d'importation/exportation. Cette option permet de récupérer la structure créée par l'extension et de la copier d'une instance WordPress vers une autre. </p>
+
 
 <p>Avant d'utiliser l'outil de migration de WordPress, il est primordial: </p>
 

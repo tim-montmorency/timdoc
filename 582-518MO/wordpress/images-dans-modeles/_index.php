@@ -4,7 +4,7 @@
  * @title    Affichage des images
  * @icon     ../medias/icon.webp
  * @abstract Contrôler l'affichage des images dans un modèle du thème
- * @index    0
+ * @index    90
  * @ref      web/wordpress
  */
 ?>

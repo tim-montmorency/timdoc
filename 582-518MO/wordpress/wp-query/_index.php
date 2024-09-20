@@ -4,7 +4,7 @@
  * @title    WP-Query
  * @icon     ../medias/icon.webp
  * @abstract Requête pour récupérer le coontenu des posts et pages
- * @index    12
+ * @index    51
  * @ref      web/wordpress
  */
 ?>

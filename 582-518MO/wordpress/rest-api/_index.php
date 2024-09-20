@@ -4,7 +4,7 @@
  * @title    REST API
  * @icon     ../medias/icon.webp
  * @abstract Accéder aux contenus en JavaScript via des JSON
- * @index    10
+ * @index    50
  * @ref      web/wordpress
  */
 ?>

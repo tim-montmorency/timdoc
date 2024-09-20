@@ -1,7 +1,7 @@
 <?php 
 /**
  * @type     article
- * @title    Migration de données
+ * @title    Migration de données des pages
  * @icon     ../medias/icon.webp
  * @abstract Migrer les données d'un site WordPress vers un autre
  * @index    13
@@ -9,12 +9,14 @@
  */
 ?>
 
+<alert>Il faut bien comprendre que cet article traite de la façon de migrer les données (content) du CMS, c'est à dire le contenu des pages et des articles. Cette technique ne transférera pas toutes les configurations que vous aurez faites dans l'interface d'adminitration de Wordpress, ni les menus, ni les configurations sur le thème etc.</alert>
 
-<p>WordPress permet nativement de migrer les données d'un site WordPress vers un autre. Cependant, cet outil ne fait que transférer les données stockées dans une base de données vers une autre. </p>
+<p>WordPress permet nativement de migrer les données d'un site WordPress vers un autre. Cependant, cet outil ne fait que transférer les données stockées dans une base de données vers une autre.</p>
 
 <p>Autrement dit, si une extension stocke des informations ailleurs que dans la base de données associée au projet, par exemple dans un fichier JSON, ces informations ne seront pas transférées lors de la migration, donc perdues. </p>
 
 <p>Qui plus est, même si les données sont migrées dans la nouvelle base de données, WordPress nécessitera quand même une structure lui indiquant le lien entre ces données et le site lui-même. Pour ce faire, plusieurs extensions offrent une option d'importation/exportation. Cette option permet de récupérer la structure créée par l'extension et de la copier d'une instance WordPress vers une autre. </p>
+
 
 <p>Avant d'utiliser l'outil de migration de WordPress, il est primordial: </p>
 
