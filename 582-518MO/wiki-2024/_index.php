@@ -1030,14 +1030,10 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <warning>Chaque groupe classe aura sa version de l'examen.</warning>
   
 
-  
-
-
-    <dots></dots>
-    <grostitre>Quiz</grostitre>
-
+ 
     <dots></dots>
     <grostitre>Vote concours 404</grostitre> 
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXYs1DankYxGhQ1dtBNOmJMBwUvHrNYJgpTlz9jRYOlClw?e=miHiYB" target="_blank" rel="noopener noreferrer">Voici le document</a> listant vos inspirations ainsi que ceux de l'an dernier. Félicitatons aux gagnants de chaque classe: Victor Gileau et Ihab Mouhajer. Étrangement, ils ont tous les 2 gagné avec la même page 404, celle de <a href="https://www.minecraft.net/fr-ca/jyd" target="_blank" rel="noopener noreferrer">MineCraft</a>.</p>
 
 
 
@@ -1060,11 +1056,21 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <grostitre>CSS</grostitre>
     <intlink href="../css/grid-intermediaire/"></intlink>
     <br>
-    <p style="color: var(--main-color);"><strong>> Exercices: Liens présentés en classe</strong></p>
+    <ul>
+        <li>Exercice 1 : <a href="https://smnarnold.com/exercices/css/grid-joker" target="_blank" rel="noopener noreferrer">Batman - The Killing Joke</a></li>
+        <li>Exercice 2 : <a href="https://cssgridgarden.com/#fr" target="_blank" rel="noopener noreferrer">CSS Grid Garden</a></li>
+        <li>Exercice 3 : <a href="https://smnarnold.com/exercices/css/grid-offres-samsung" target="_blank" rel="noopener noreferrer">Les offres Samsung</a></li>
+
+    </ul>
 
     <dots></dots>
+    <grostitre>Pratique d'examen</grostitre>
+    <intlink href="../exercices/color-run-vite//"></intlink>
 
-    <h2>Labo </h2>
+
+
+    <dots></dots>
+    <grostitre>Labo </grostitre>
     <ul>
         <li>N'oubliez pas de démarrer votre minuteur Toggl.</li>
         <li>En équipe, divisez la tâche: réalisez les requis pour le site web.</li>
@@ -1073,13 +1079,23 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
             serez rendus dans WordPress).</li>
         <li>Utilisez JavaScript pour dynamiser la bannière d'avertissement de travail étudiant, animer en GSAP etc.</li>
         <li>Attribuez-vous une tâche à la fois en la glissant dans la colonne "En cours" dans Trello.</li>
-
     </ul>
     
     <dots></dots>
     <grostitre>Devoirs </grostitre>
+    <h3>Étudier (pour lundi prochain)</h3>
     <p>Étudier l'examen: SASS (tout), nomenclature BEM, CSS Grid, NPM & Vite</p>
-    <p>Réserver dans col.net ceux qui ont droit à assouplissements pour examen.</p>
+    <intlink href="../exercices/color-run-vite//"></intlink>
+
+    <h3>Exercices (pour jeudi car on veut réviser avant l'examen de lundi)</h3>
+    <p>Terminer les exercices d'aujourd'hui</p>
+
+    <h3>Projet de session (pour évaluation formative ce jeudi)</h3>
+    <intlink href='../projet/echafaudage-projet/'></intlink>
+
+
+
+
 
 
 </wiki-page>
