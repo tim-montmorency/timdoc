@@ -142,7 +142,7 @@ Modifiez la couleur de votre variable <incode>$primary</incode> et admirez l'imp
 
 <dots></dots>
 <grostitre>Requis Vite</grostitre>
-<checklist>Faites un build du projet afin de compresser le code et générer la dossier de distribution "dist".</checklist>
+<checklist>Faites un <em>build</em> du projet afin de compresser le code et générer la dossier de distribution "dist".</checklist>
 
 
 
