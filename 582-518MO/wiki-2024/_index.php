@@ -740,9 +740,6 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <p>Lien présenté en classe</p>
 
 
-    
-    
-
     <dots></dots>
     <grostitre>Devoirs</grostitre>
     <h3>Pour lundi prochain</h3>
@@ -1052,13 +1049,11 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href="../exercices/grid-spotify/"></intlink>
 
 
-    <dots></dots>
-    <grostitre>SASS</grostitre>
-    <p>Imbrication dans le cas d'un menu de 2 niveaux&nbsp;: démo en classe</p>
-
+ 
     <dots></dots>
     <grostitre>NPM et Vite (et révision partial SASS)</grostitre>
-    <p><a href="https://smnarnold.com/exercices/films-vos-meilleurs-choix" target="_blank" rel="noopener noreferrer">Exercice</a></p>
+    <intlink href="../exercices/projet-vite-et-sass/"></intlink>
+    <!--<p><a href="https://smnarnold.com/exercices/films-vos-meilleurs-choix" target="_blank" rel="noopener noreferrer">Exercice</a></p>-->
 
 
     <dots></dots>
