@@ -26,14 +26,15 @@
 
 <!-- TODO À COMPLÉTER: Ne pas faire cloner le projet mais faire créer l'app vu from scratch comme pour l'exercice color run -->
 
+<alert>Pour cet exercice, ne PAS compiler avec l'extention <em>Live Sass Compiler</em> ni <em>Live Server</em>. Tout est géré via le serveur de développement Vite.</alert>
 
 <checklist>
-  Créez un projet <em>Vite</em> et nommez le <em>exercice-vite-films</em>.
-  Faites aussi en sorte que votre projet Vite supporte SCSS puisque nous l'utiliserons dans les prochaines étapes. (Pour cet exercice, ne PAS compiler avec l'extention Live Sass Compiler).
+  Créez un projet <em>Vite</em> et nommez le <em>exercice-vite-films</em> (suivez les étapes des notes de cours Vite).
+  Faites aussi en sorte que votre projet Vite supporte SCSS puisque nous l'utiliserons dans les prochaines étapes..
   Installez les dépendances NPM du projet dans un terminal grâce à la commande <span class="inline-code">npm i</span>
   Démarrez la compilation du projet via la commande <span class="inline-code">npm run dev</span>. <br> Une page web devrait apparaitre à votre adresse http://localhost:3000 (le port peut-être différent de 3000, utilisez l'adresse qui vous est retournée dans le terminal lorsque vous avez fait la précédente commande.)
   Prenez le dossier "partials" que vous venez de télécharger via le repertoire git ci-haut et placez le dans votre projet "vite".
-  Remplacez le contenu du body de la page html par le code suivant:</checklist>
+  Remplacez le contenu du body de la page html par le code suivant (conservez par contre la référence au script <em>main.js</em>)</checklist>
 <highlight lang='html'>
 <section class="top-picks">
   <div class="top-picks__header">
