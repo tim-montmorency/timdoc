@@ -1065,7 +1065,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <dots></dots>
     <grostitre>Pratique d'examen</grostitre>
-    <p>Non obligatoire, je ne vais pas vérifier qui l'a fait. Libe à vous, mais c'est mis à votre disposition pour vous permettre de réviser.</p>
+    <p>Non obligatoire, je ne vais pas vérifier qui l'a fait. Libre à vous mais c'est mis à votre disposition pour vous permettre de réviser.</p>
     <intlink href="../exercices/color-run-vite//"></intlink>
 
 
@@ -1089,7 +1089,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <a href="https://forms.gle/bd7bSgEi8dbUENRF7" target="_blank" rel="noopener noreferrer" class="btn">Lien vers sondage</a></p>
     <h3>Étudier (pour lundi prochain)</h3>
     <p>Étudier l'examen: SASS (tout), nomenclature BEM, CSS Grid, NPM & Vite</p>
-    <p>La pratique d'examen suivante n'est pas obligatoire, je ne vais pas vérifier qui l'a fait. Libe à vous, mais c'est mis à votre disposition pour vous permettre de réviser.</p>
+    <p>La pratique d'examen suivante n'est pas obligatoire, je ne vais pas vérifier qui l'a fait. Libre à vous mais c'est mis à votre disposition pour vous permettre de réviser.</p>
     <intlink href="../exercices/color-run-vite//"></intlink>
 
     <h3>Exercices (pour jeudi car on veut réviser avant l'examen de lundi)</h3>
