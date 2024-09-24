@@ -1084,13 +1084,23 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     
     <dots></dots>
     <grostitre>Devoirs </grostitre>
+    <h3>Sondage (d'ici mercredi le 25 septembre)</h3>
+    <p>Répondre au sondage pour votre enseignante Marie-Michelle Ouellet. <br>
+    <a href="https://forms.gle/bd7bSgEi8dbUENRF7" target="_blank" rel="noopener noreferrer" class="btn">Lien vers sondage</a></p>
     <h3>Étudier (pour lundi prochain)</h3>
     <p>Étudier l'examen: SASS (tout), nomenclature BEM, CSS Grid, NPM & Vite</p>
     <p>La pratique d'examen suivante n'est pas obligatoire, je ne vais pas vérifier qui l'a fait. Libe à vous, mais c'est mis à votre disposition pour vous permettre de réviser.</p>
     <intlink href="../exercices/color-run-vite//"></intlink>
 
     <h3>Exercices (pour jeudi car on veut réviser avant l'examen de lundi)</h3>
-    <p>Terminer les exercices d'aujourd'hui</p>
+    Terminer les exercices d'aujourd'hui: <br><br>
+    <intlink href="../exercices/projet-vite-et-sass/"></intlink>
+    <ul>
+        <li>Exercice Grid 1 : <a href="https://smnarnold.com/exercices/css/grid-joker" target="_blank" rel="noopener noreferrer">Batman - The Killing Joke</a></li>
+        <li>Exercice Grid 2 : <a href="https://cssgridgarden.com/#fr" target="_blank" rel="noopener noreferrer">CSS Grid Garden</a></li>
+        <li>Exercice Grid 3 : <a href="https://smnarnold.com/exercices/css/grid-offres-samsung" target="_blank" rel="noopener noreferrer">Les offres Samsung</a></li>
+
+    </ul>
 
     <h3>Projet de session (pour évaluation formative ce jeudi)</h3>
     <intlink href='../projet/echafaudage-projet/'></intlink>
