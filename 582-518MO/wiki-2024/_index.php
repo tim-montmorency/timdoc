@@ -1045,7 +1045,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
  
     <dots></dots>
     <grostitre>Vote concours 404</grostitre> 
-    <p><a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXYs1DankYxGhQ1dtBNOmJMBwUvHrNYJgpTlz9jRYOlClw?e=miHiYB" target="_blank" rel="noopener noreferrer">Voici le document</a> listant vos inspirations ainsi que ceux de l'an dernier. Félicitatons aux gagnants de chaque classe: Victor Gileau et Ihab Mouhajer. Étrangement, ils ont tous les 2 gagné avec la même page 404, celle de <a href="https://www.minecraft.net/fr-ca/jyd" target="_blank" rel="noopener noreferrer">MineCraft</a>.</p>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXYs1DankYxGhQ1dtBNOmJMBwUvHrNYJgpTlz9jRYOlClw?e=miHiYB" target="_blank" rel="noopener noreferrer">Voici le document</a> listant vos inspirations ainsi que ceux de l'an dernier. Félicitatons aux gagnants de chaque classe: Victor Gileau et Ihab Mouhajer. C'est un hasard mais ils ont tous les 2 gagné avec la même page 404, celle de <a href="https://www.minecraft.net/fr-ca/jyd" target="_blank" rel="noopener noreferrer">MineCraft</a>.</p>
 
 
 
