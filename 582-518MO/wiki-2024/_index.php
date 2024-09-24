@@ -737,6 +737,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <dots></dots>
     <grostitre>Sass</grostitre>
     <h3>Exercice Sass - Films vos meilleurs choix</h3>
+    <!-- Prochaine fois, idéalement, enseigner NPM et Vite avant et leur donner la version de l'exercice suivant: https://tim-montmorency.com/timdoc/582-518MO/exercices/projet-vite-et-sass/  -->
     <p>Lien présenté en classe</p>
 
 
@@ -886,6 +887,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <grostitre>NPM et Vite</grostitre>
     <intlink href="../javascript/npm/"></intlink>
     <intlink href="../javascript/vite/"></intlink>
+    <small>Si vous souhaitez installer node.js et npm à la maison, vous pouvez suivre <a href="https://github.com/nodists/nodist?tab=readme-ov-file#installation" target="_blank" rel="noopener noreferrer">ces directives d'installation</a>.</small>
+    <br><br>
 
     <p>Exercice NPM et Vite à venir (semaine prochaine)</p>
 
@@ -911,6 +914,12 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <p>Après on vote en groupe qui aura fait la meilleure trouvaille. Que le meilleur gagne!</p>
 
+
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+    <p>Terminer exercices d'aujourd'hui</p>
+    <intlink href="../exercices/bem-accordeon/"></intlink>
+    <intlink href="../exercices/bem-navbar/"></intlink>
 
 </wiki-page>
 
@@ -972,8 +981,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <grostitre>CSS Grid </grostitre>
     <intlink href="../css/grid/"></intlink>
     <h3>2 exercices Grid CSS</h3>
-    <p>Liens présentés en classe</p>
-
+    <intlink href='../exercices/grid-systeme-col-row/'></intlink>
+    <intlink href='../exercices/grid-spotify/'></intlink>
 
 
     <dots></dots>
@@ -984,6 +993,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <h3>Exercices</h3>
     <p>Si non terminés, vous devez terminer les exercices Grid CSS pour jeudi prochain.</p>
+    <intlink href='../exercices/grid-systeme-col-row/'></intlink>
+    <intlink href='../exercices/grid-spotify/'></intlink>
 
     <h3>PS: Projet de session</h3>
     <intlink href='../projet/echafaudage-projet'></intlink>
@@ -993,6 +1004,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <h3>Concours page 404</h3>
     <p>D'ici lundi, trouvez les pages 404 les plus créatives. Un vote sera fait. Un prix à gagner.</p>
+
 
 </wiki-page>
 
@@ -1050,6 +1062,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <grostitre>NPM et Vite (et révision partial SASS)</grostitre>
     <intlink href="../exercices/projet-vite-et-sass/"></intlink>
     <!--<p><a href="https://smnarnold.com/exercices/films-vos-meilleurs-choix" target="_blank" rel="noopener noreferrer">Exercice</a></p>-->
+    <small>Si vous souhaitez installer node.js et npm à la maison, vous pouvez suivre <a href="https://github.com/nodists/nodist?tab=readme-ov-file#installation" target="_blank" rel="noopener noreferrer">ces directives d'installation</a>.</small>
 
 
     <dots></dots>
