@@ -1,6 +1,6 @@
 {
     "type": "exercice",
     "title": "Color Run",
-    "icon": "images\/thumb.png",
+    "icon": "medias\/thumb-colorrun.jpg",
     "abstract": "Recr\u00e9er une composante permettant d\u2019afficher le classement final \u00e0 la Color Run."
 }

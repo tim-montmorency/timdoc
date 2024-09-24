@@ -2,7 +2,7 @@
 /**
  * @type     exercice
  * @title    Color Run
- * @icon     images/thumb.png
+ * @icon     medias/thumb-colorrun.jpg
  * @abstract Recréer une composante permettant d’afficher le classement final à la Color Run.
  */
 ?>
