@@ -19,6 +19,8 @@
 
 <mediafile src="medias/bg.jpg">Arrière-plan</mediafile>
 <mediafile src="https://t.smnarnold.com/animal-crossing/_helpers.scss">_helpers.scss</mediafile>
+<small>Si vous n'arrivez pas à le télécharger, copiez l'url ci-dessus, ouvrez un nouvel onglet et collez l'url dans la barre d'url du navigateur + ENTER. Copiez ensuite le contenu de la page, ouvrez un nouveau fichier dans Visual Studio Code, collez le contenu. Enregistrer le fichier sous ce nom : <em>_base.scss</em>.</small>
+
 
 <grostitre>Configurations</grostitre>
 <checklist>Créez et nommez un dossier de projet 📁 suivant la nomenclature suivante [nom_prenom_exa285] par exemple <em>ouellet_marie-michelle_exa285</em>.

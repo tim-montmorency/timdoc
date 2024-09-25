@@ -25,7 +25,7 @@
 <dots></dots>
 <grostitre>Requis</grostitre>
 <checklist>
-    Préparez votre répertoire de base avec un fichier index.html, main.js, etstyle.scss (et lorsque compilé créera un fichier style.css). Tous ces fichiers seront à la racine du répertoire git.
+    Préparez votre répertoire de base avec un fichier index.html, main.js, et style.scss (et lorsque compilé créera un fichier style.css). Tous ces fichiers seront à la racine du répertoire git.
     Ajoutez un dossier partials-scss
     Créez les fichiers partials scss que vous pensez avoir besoin (un partial par composante et possiblement un autre pour les mixins et un pour les variables)
     En SCSS, créez les styles de base pour représenter tout ce qu'il y a dans votre guide de styles (texte et couleur appliqués sur les balises appropriées). Vous pouvez aussi créer des variables en conséquence. 
