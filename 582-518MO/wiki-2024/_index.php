@@ -1181,6 +1181,10 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <dots></dots>
     <grostitre>Partie 1 : Travail en classe et rencontre client (équipe par équipe).</grostitre>
     <p>AM: 10h15 à 12h00 | PM: 14h45 à 16h30</p>
+    <h3>Rencontre client</h3>
+    <p>Préparez vous à l'avance: Ouvrez vos rapport Toggl. Soyez prêts à me dire personnellement qu'avez-vous réalisé pendant cette étape. Montrez aussi votre répertoire git avec la liste des commits. Ayez un fichier ou une feuille pour prendre des notes de mes commentaires.</p>
+
+    <h3>Travail pendant les rencontres client</h3>
     <intlink href="../projet/integration-accueil/"></intlink> 
     <ul>
         <li>N'oubliez pas de démarrer votre minuteur Toggl.</li>
@@ -1206,7 +1210,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
     <dots></dots>
-    <h3><span class="red-label">SI LE TEMPS LE PERMET</span></h3>
+    <span class="red-label">SI LE TEMPS LE PERMET</span>
     <grostitre>Création d'un thème Wordpress</grostitre>
     <intlink href='../wordpress/styles-css/'></intlink>
     <intlink href='../wordpress/modeles/'></intlink>
@@ -1219,9 +1223,10 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <dots></dots>
     <grostitre>Devoirs</grostitre>
+    Pour jeudi le 3 octobre
     <intlink href="../projet/integration-accueil/"></intlink> <br>
 
-    DevOp seulement: 
+    DevOp seulement, pour lundi le 7 octobre
     <intlink href="../projet/configuration-wordpress/"></intlink> <br>
 
 </wiki-page>
