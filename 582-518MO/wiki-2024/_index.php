@@ -1083,17 +1083,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
 
-    <dots></dots>
-    <grostitre>Labo </grostitre>
-    <ul>
-        <li>N'oubliez pas de démarrer votre minuteur Toggl.</li>
-        <li>En équipe, divisez la tâche: réalisez les requis pour le site web.</li>
-        <li>Montez vos pages HTML, CSS (ne montez qu'une seule page d'un même type: par exemple, sur les 13 pages de
-            détail de nouvelle, n'en monter qu'une seule, ce sera votre modèele (template) pour les autres lorsque vous
-            serez rendus dans WordPress).</li>
-        <li>Utilisez JavaScript pour dynamiser la bannière d'avertissement de travail étudiant, animer en GSAP etc.</li>
-        <li>Attribuez-vous une tâche à la fois en la glissant dans la colonne "En cours" dans Trello.</li>
-    </ul>
+   
     
     <dots></dots>
     <grostitre>Devoirs </grostitre>
@@ -1112,7 +1102,6 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
         <li>Exercice Grid 1 : <a href="https://smnarnold.com/exercices/css/grid-joker" target="_blank" rel="noopener noreferrer">Batman - The Killing Joke</a></li>
         <li>Exercice Grid 2 : <a href="https://cssgridgarden.com/#fr" target="_blank" rel="noopener noreferrer">CSS Grid Garden</a></li>
         <li>Exercice Grid 3 : <a href="https://smnarnold.com/exercices/css/grid-offres-samsung" target="_blank" rel="noopener noreferrer">Les offres Samsung</a></li>
-
     </ul>
 
     <h3>Projet de session (pour évaluation formative ce jeudi)</h3>
@@ -1141,6 +1130,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 6 jeudi ----------------------->
 <!---------------------- Cours 6 jeudi ----------------------->
 <wiki-page name="Sem06.jeudi" date="2024-09-26">
+
 
     <!-- 
     PS ÉVALUATION (FORMATIF) - ÉCHAFAUDAGE PREP SASS DE BASE (GUIDE DE STYLES ET COULEURS). MISE EN PAGE DE LA NAV, L'ENTÊTE ET PIED DE PAGE COMMUNS À CH. PAGE (tout le monde doit faire au moins une section et m'expliquer ce qu'il a fait). Vérification des feuilles de temps Toggl.
@@ -1171,36 +1161,69 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     * Donner instruction au DevOp pour la remise de lundi dans une sem et demi
     -->
 
-    <br><br>
-    <hr>
+    <grostitre>Annonces et quiz</grostitre>
+    <p>Rappel examen lundi. <br>Ceux qui ont des mesures d'assouplissement (+ de temps), voir Wiki - Sem 5 pour l'horaire de l'examen.</p>
 
-    <h2>Annonces</h2>
+    <h3>Tutorat</h3>
+    <p>Consultez l'<a href="https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/" target="_blank" rel="noopener noreferrer">horaire complet ici</a>.</p>
 
-    <h2>Labo </h2>
+    <h3>Sondage</h3>
+    <p><a href="https://app.wooclap.com/TPSCTD" target="_blank" rel="noopener noreferrer">Sondage</a> à propos du temps de travail extérieur au cours (devoir) pour Projet Web</p>
+
+    <h3>Quiz</h3>
+    Groupe 01 (am) - <a href="https://app.wooclap.com/BKYJFB" target="_blank" rel="noopener noreferrer">Code Wooclap : BKYJFB
+    </a><br>
+    Groupe 02 (pm) - <a href="https://app.wooclap.com/LRJQNN" target="_blank" rel="noopener noreferrer">Code Wooclap : LRJQNN
+    </a>
+
+
+
+    <dots></dots>
+    <grostitre>Partie 1 : Travail en classe et rencontre client (équipe par équipe).</grostitre>
+    <p>AM: 10h15 à 12h00 | PM: 14h45 à 16h30</p>
+    <intlink href="../projet/integration-accueil/"></intlink> 
     <ul>
         <li>N'oubliez pas de démarrer votre minuteur Toggl.</li>
         <li>En équipe, divisez la tâche: réalisez les requis pour le site web.</li>
-        <li>Montez vos pages HTML, CSS (ne montez qu'une seule page d'un même type: par exemple, sur les 13 pages de
-            détail de nouvelle, n'en monter qu'une seule, ce sera votre modèele (template) pour les autres lorsque vous
-            serez rendus dans WordPress).</li>
-        <li>Utilisez JavaScript pour dynamiser la bannière d'avertissement de travail étudiant, animer en GSAP etc.</li>
         <li>Attribuez-vous une tâche à la fois en la glissant dans la colonne "En cours" dans Trello.</li>
     </ul>
 
-    <br><br><br>
-    <hr><br>
-    <h2>Devoirs pour tous</h2>
-    <p>Avancer le projet de session. <br> Rappel pondération du cours : <em>1-7-4</em> .
-        <br>Il est donc attendu que vous travailliez 4h par semaine en dehors du cours afin d'avancer votre projet
-        d'équipe.
-    </p>
 
-    <h2>Devoirs pour devOps</h2>
-    <p>Remise modifiées au cours 7 (et 15) (initialement prévue au cours 8 dans plan de cours)</p>
-    DevOps (remise cours 7) <intlink href="../projet/configuration-wordpress/"></intlink> <br><br>
-    Agent de promo (deux remises: cours 7 et cours 15) <intlink href="../projet/portfolio-projet-behance/"></intlink> <br><br>
 
-    <br><br>
+
+    <dots></dots>
+    <grostitre>Partie 2 : Révision exercices</grostitre>
+    <intlink href="../exercices/projet-vite-et-sass/"></intlink>
+    <ul>
+        <li>Exercice Grid 1 : <a href="https://smnarnold.com/exercices/css/grid-joker" target="_blank" rel="noopener noreferrer">Batman - The Killing Joke</a></li>
+        <li>Exercice Grid 2 : <a href="https://cssgridgarden.com/#fr" target="_blank" rel="noopener noreferrer">CSS Grid Garden</a></li>
+        <li>Exercice Grid 3 : <a href="https://smnarnold.com/exercices/css/grid-offres-samsung" target="_blank" rel="noopener noreferrer">Les offres Samsung</a></li>
+    </ul>
+
+    <dots></dots>
+    <grostitre>Partie 3 : Bases Wordpress (suite)</grostitre>
+    <intlink href='../wordpress/types-contenu-de-base-wp/'></intlink>
+
+
+    <dots></dots>
+    <h3><span class="red-label">SI LE TEMPS LE PERMET</span></h3>
+    <grostitre>Création d'un thème Wordpress</grostitre>
+    <intlink href='../wordpress/styles-css/'></intlink>
+    <intlink href='../wordpress/modeles/'></intlink>
+    <intlink href='../wordpress/partiels/'></intlink>
+    + Affichage des images dans un template
+
+ 
+
+ 
+
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+    <intlink href="../projet/integration-accueil/"></intlink> <br>
+
+    DevOp seulement: 
+    <intlink href="../projet/configuration-wordpress/"></intlink> <br>
+
 </wiki-page>
 
 <!---------------------- Cours 6 lundi ----------------------->
@@ -1258,6 +1281,10 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     </a><br>
     <br><br>
     <hr>
+
+    <dots></dots>
+    <grostitre>Hébergement Web chez HostPapa</grostitre>
+    <p>Pour envoyer vos fichiers sur le serveur qui hébergera votre site, vous pouvez consulter cette <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZd7jM8DNIZHndllts3nA0cBtrrGG2NBLBOuO7svWXVjug?e=kT9gnu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank" rel="noopener noreferrer">petite capsule vidéo</a>.</p>
 
 
 
