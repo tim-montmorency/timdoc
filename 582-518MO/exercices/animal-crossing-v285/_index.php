@@ -81,7 +81,7 @@ Dans votre fichier HTML, remplacez le la ligne <em>div id="app"</em> par:</check
 </checklist>
 <highlight lang='css'>$primary: #7D80DA;
 
-$biggerVillersArr : 'bettina', 'leonardo', 'hornsby', 'sylvana';
+$biggerVillagersArr : 'bettina', 'leonardo', 'hornsby', 'sylvana';
 
 @mixin card {
   background-color: $primary;
@@ -136,7 +136,7 @@ Importez <incode>_helpers.scss</incode> dans votre code selon la méthode approp
 Appliquez le mixin card à chacun des villageois.
 Affichez un maximum de villageois par rangée. Ils doivent prendre tout l'espace disponible <em>(ne pas laisser d'espace vide en fin de rangée)</em> et ne jamais devenir plus petit que 200px de large. 
 Les villageois doivent avoir une hauteur de 300px, une gouttière 15px entre eux. Vous devez aussi centrer horizontalement l'image dans la carte de chaque villageois (pour centrer l'image, utiliser la technique de votre choix).
-Utilisez une boucle en SCSS afin de sélectionner chacun des villageois contenu du tableau <incode>$biggerVillersArr</incode> qui provient du fichier <incode>_helpers.scss</incode>. À partir de 1000px et plus, faites en sorte que les villageois de ce tableau prennent deux colonnes de large plutôt qu'une seule comme les autres villageois.
+Utilisez une boucle en SCSS afin de sélectionner chacun des villageois contenu du tableau <incode>$biggerVillagersArr</incode> qui provient du fichier <incode>_helpers.scss</incode>. À partir de 1000px et plus, faites en sorte que les villageois de ce tableau prennent deux colonnes de large plutôt qu'une seule comme les autres villageois.
 Utilisez une boucle <em>for</em> en SCSS afin de sélectionner chacun des villageois. À l'intérieur de cette boucle créez deux variables SCSS qui contiendront des couleurs que nous utiliserons plus tard pour créer des dégradés.
 Votre première variable SCSS doit contenir la couleur de la variable <incode>$primary</incode> du fichier <incode>_helpers.scss</incode>. Cependant, le <em>hue</em> de cette couleur devra être altéré de 25 par itération de boucle. Ainsi le <em>hue</em> de la couleur dans cette variable pour le 1<sup>er</sup> villageois sera de 25, pour le 2<sup>e</sup> de 50, pour le 3<sup>e</sup> de 75, etc. <br> <small>Petit indice ici, pour modifier le hue d'une couleur, vous devez utiliser une fonctionnalité provenant du module de couleur SASS.</small><br><br>Pour tester votre boucle et votre variable, vous pouvez temporairement changer la couleur de fond du villageois par celle-ci. 
 Votre deuxième variable SCSS doit avoir la même valeur de <em>hue</em> que votre première variable SCSS, mais avec un extra <em>hue</em> de 50. Autrement dit le <em>hue</em> de la couleur contenue dans cette variable pour le 1<sup>er</sup> villageois sera de 75, pour le 2<sup>e</sup> de 100, pour le 3<sup>e</sup> de 125, etc.
