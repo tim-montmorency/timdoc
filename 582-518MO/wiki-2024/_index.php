@@ -40,6 +40,7 @@
     <grostitre>Références et guides</grostitre>
 
     <ul>
+        <li><a href="https://tim-montmorency.com/timdoc/582-518MO/wiki-2024/" target="_blank" rel="noopener noreferrer">Wiki du cours</a></li>
         <li><a href="https://tim-montmorency.com/timdoc/582-518MO/" target="_blank" rel="noopener noreferrer">Timdoc du cours Projet Web 582-518MO</a></li>
         <li><a href="https://developer.mozilla.org/fr/docs/Web" target="_blank"
                 rel="noopener noreferrer">Developer Mozilla&nbsp;: Documentation en français HTML, CSS et JavaScript</a></li>
@@ -49,8 +50,11 @@
         <li><a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">W3School</a>
         </li>
         <li><a href="https://css-tricks.com/" target="_blank" rel="noopener noreferrer">CSS Tricks</a></li>
-        
-    </ul>
+        <li><a href="https://sass-lang.com/playground/" target="_blank" rel="noopener noreferrer">Sass Playground</a></li>
+        <li><a href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">Sass: Syntactically Awesome Style Sheets</a></li>
+        <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank" rel="noopener noreferrer">CSS Tricks: CSS Grid Layout Guide</a></li>
+        <li><a href="https://getbem.com/naming/" target="_blank" rel="noopener noreferrer">Get BEM</a></li> 
+     </ul>
 
 
     <dots></dots>
@@ -1192,33 +1196,17 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
         <li>Attribuez-vous une tâche à la fois en la glissant dans la colonne "En cours" dans Trello.</li>
     </ul>
 
-
-
-
-    <dots></dots>
+     <!-- <dots></dots>
     <grostitre>Partie 2 : Révision exercices</grostitre>
     <intlink href="../exercices/projet-vite-et-sass/"></intlink>
     <ul>
         <li>Exercice Grid 1 : <a href="https://smnarnold.com/exercices/css/grid-joker" target="_blank" rel="noopener noreferrer">Batman - The Killing Joke</a></li>
         <li>Exercice Grid 2 : <a href="https://cssgridgarden.com/#fr" target="_blank" rel="noopener noreferrer">CSS Grid Garden</a></li>
         <li>Exercice Grid 3 : <a href="https://smnarnold.com/exercices/css/grid-offres-samsung" target="_blank" rel="noopener noreferrer">Les offres Samsung</a></li>
-    </ul>
-
-    <dots></dots>
-    <grostitre>Partie 3 : Bases Wordpress (suite)</grostitre>
-    <intlink href='../wordpress/types-contenu-de-base-wp/'></intlink>
-
-
-    <dots></dots>
-    <span class="red-label">SI LE TEMPS LE PERMET</span>
-    <grostitre>Création d'un thème Wordpress</grostitre>
-    <intlink href='../wordpress/styles-css/'></intlink>
-    <intlink href='../wordpress/modeles/'></intlink>
-    <intlink href='../wordpress/partiels/'></intlink>
-    + Affichage des images dans un template
+    </ul> -->
+   
 
  
-
  
 
     <dots></dots>
@@ -1237,9 +1225,40 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 <wiki-page name="Sem06.lundi" date="2024-09-29">
    <grostitre>Examen</grostitre>
+   <ul>
+    <li>CSS Grid</li>
+    <li>SASS</li>
+    <li>Nomenclature BEM</li>
+    <li>Projet Vite avec les commandes NPM</li>
+   </ul>
 
-    <alert>TOUT PLAGIAT EST INTERDIT SOUS PEINE D'ÉCHEC AUTOMATIQUE. La situation est aussi sérieuse chez la personne qui va chercher des informations que la personne qui divulgue.</alert>
-    <warning>Chaque groupe classe a sa propre version de l'examen. Ceci étant dit, il est de votre devoir de ne pas communiquer aucune information aux étudiants de l'autres groupe classe en sortant d'ici, c'est du plagiat.</warning>
+
+    <alert>TOUT PLAGIAT EST INTERDIT SOUS PEINE D'ÉCHEC AUTOMATIQUE. La situation est aussi sérieuse chez la personne qui va chercher des informations que la personne qui divulgue. <br><br>Chaque groupe classe a sa propre version de l'examen. Ceci étant dit, il est de votre devoir de ne pas communiquer aucune information aux étudiants de l'autres groupe classe en sortant d'ici, c'est du plagiat.</alert>
+
+    <info>Il vous est permis de consulter vos notes de cours personnelles et celles sur timdoc. De plus, voici une liste de sites qui vous sont permis de consulter: 
+        <ul>
+            <li><a href="https://tim-montmorency.com/timdoc/582-518MO/wiki-2024/" target="_blank" rel="noopener noreferrer">Wiki du cours</a></li>
+            <li><a href="https://tim-montmorency.com/timdoc/582-518MO/" target="_blank" rel="noopener noreferrer">Timdoc du cours Projet Web 582-518MO</a></li>
+            <li><a href="https://developer.mozilla.org/fr/docs/Web" target="_blank"
+                    rel="noopener noreferrer">Developer Mozilla&nbsp;: Documentation en français HTML, CSS et JavaScript</a></li>
+            <li><a href="https://smnarnold.com/cours/javascript" target="_blank" rel="noopener noreferrer">Note de cours JavaScript du smnarnold.com</a></li>
+            <li><a href="https://stackoverflow.com/" target="_blank"
+                    rel="noopener noreferrer">Forum StackOverflow</a></li>
+            <li><a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">W3School</a>
+            </li>
+            <li><a href="https://css-tricks.com/" target="_blank" rel="noopener noreferrer">CSS Tricks</a></li>
+            <li><a href="https://sass-lang.com/playground/" target="_blank" rel="noopener noreferrer">Sass Playground</a></li>
+            <li><a href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">Sass: Syntactically Awesome Style Sheets</a></li>
+            <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank" rel="noopener noreferrer">CSS Tricks: CSS Grid Layout Guide</a></li>
+            <li><a href="https://getbem.com/naming/" target="_blank" rel="noopener noreferrer">Get BEM</a></li> 
+        </ul>
+    </info>
+
+    <alert>Tout usage de d'intelligence articifielle (AI) vous est interdit pour l'examen. <br><br>Il est interdit de consulter des outils/sites de discussion  en ligne, tel que Teams, Discords etc. VOUS DEVEZ FERMER LE LOGICIEL TEAMS.</alert>
+
+
+    <warning> <span class="red-label">IMPORTANT</span> Pour cet examen, vous devrez travailler avec Visual Studio Code. <em>Vous devez désactiver toutes les extensions VS Code</em>. Je vais passer voir chacun de vos postes de travail, vérifier si vous avez tout désactivé. Donc vous comprenez que pour l'examen, vous ne devez PAS compiler le SASS avec l'extention Live Sass Compiler ni utiliser Live Server.</warning>
+
 </wiki-page>
 
 
@@ -1254,7 +1273,26 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 7 jeudi ----------------------->
 <!---------------------- Cours 7 jeudi ----------------------->
 <!---------------------- Cours 7 jeudi ----------------------->
+
+
 <wiki-page name="Sem07.jeudi" date="2024-10-03">
+
+
+    <dots></dots>
+    <grostitre>Partie 3 : Bases Wordpress (suite)</grostitre>
+    <intlink href='../wordpress/types-contenu-de-base-wp/'></intlink>
+
+
+    <dots></dots>
+   
+    <grostitre>Création d'un thème Wordpress</grostitre>
+    <intlink href='../wordpress/styles-css/'></intlink>
+    <intlink href='../wordpress/modeles/'></intlink>
+    <intlink href='../wordpress/partiels/'></intlink>
+    + Affichage des images dans un template
+
+ 
+
 
     <!-- 
 
@@ -1283,13 +1321,16 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     Lundi - <a href="https://app.wooclap.com/DESTCF" target="_blank" rel="noopener noreferrer">Code Wooclap : DESTCF</a>
     <br>
     Vendredi - <a href="https://app.wooclap.com/DRXFUE" target="_blank" rel="noopener noreferrer">Code Wooclap : DRXFUE
-    </a><br>
-    <br><br>
-    <hr>
+    </a>
 
     <dots></dots>
     <grostitre>Hébergement Web chez HostPapa</grostitre>
     <p>Pour envoyer vos fichiers sur le serveur qui hébergera votre site, vous pouvez consulter cette <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZd7jM8DNIZHndllts3nA0cBtrrGG2NBLBOuO7svWXVjug?e=kT9gnu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank" rel="noopener noreferrer">petite capsule vidéo</a>.</p>
+
+
+    <dots></dots>
+    <grostitre>PS: NavBar Bootstrap isolée (ou resque)</grostitre>
+    <p>Démo d'utilisation de la navbar bootstrap isolée du reste des styles des autres composantes (avec ou sans npm).</p>
 
 
 
