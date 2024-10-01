@@ -1239,6 +1239,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
         <ul>
             <li><a href="https://tim-montmorency.com/timdoc/582-518MO/wiki-2024/" target="_blank" rel="noopener noreferrer">Wiki du cours</a></li>
             <li><a href="https://tim-montmorency.com/timdoc/582-518MO/" target="_blank" rel="noopener noreferrer">Timdoc du cours Projet Web 582-518MO</a></li>
+            <li><a href="https://codepen.io" target="_blank"
+            rel="noopener noreferrer">CodePen en général et vos exercices sur CodePen</a></li>
             <li><a href="https://developer.mozilla.org/fr/docs/Web" target="_blank"
                     rel="noopener noreferrer">Developer Mozilla&nbsp;: Documentation en français HTML, CSS et JavaScript</a></li>
             <li><a href="https://smnarnold.com/cours/javascript" target="_blank" rel="noopener noreferrer">Note de cours JavaScript du smnarnold.com</a></li>
