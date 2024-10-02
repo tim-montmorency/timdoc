@@ -1276,8 +1276,10 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 7 jeudi ----------------------->
 <!---------------------- Cours 7 jeudi ----------------------->
 
-
+ 
 <wiki-page name="Sem07.jeudi" date="2024-10-03">
+
+<!-- Exemple de placement de logo propre et bien réalisé : https://www.lescegeps.com/nouvelles/2023-02-05_les_ministres_bernard_drainville_et_pascale_dery_soulignent_la_contribution_essentielle_et_le_travail_indispensable_du_personnel_enseignant_quebecois -->
 
 
     <dots></dots>
