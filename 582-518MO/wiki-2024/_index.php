@@ -1143,21 +1143,6 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     15 min * 7 équipes = 105 min
     Reste 110 (presque 2h) pour cours et contenu
 
-
-    WORDPRESS  (1er 110min)
-    * Types de contenu existants dans WP et leur champs de base. TODO : Contenu à développer
-
-    CRÉATION D'UN THÈME WP DE A À Z
-    * Création d'un thème: styles CSS
-    * Modèle (template) WP
-    * Affichage des images dans un template (et autre type de champs de base)
-
-    PS
-    * Présenter les instructions de la remise pour évaluation formative de jeudi prochain
-
-    ÉVALUATION FORMATIVE
-    * En classe, rencontre en équipe avec prof pour évaluation formative.
-
     PS
     Travail en classe pour évaluation formative de juedi prochain, soit l'accueil intégré en HTML, SASS et JS 
 
@@ -1253,6 +1238,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
             <li><a href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">Sass: Syntactically Awesome Style Sheets</a></li>
             <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank" rel="noopener noreferrer">CSS Tricks: CSS Grid Layout Guide</a></li>
             <li><a href="https://getbem.com/naming/" target="_blank" rel="noopener noreferrer">Get BEM</a></li> 
+            <li><a href="https://codepen.io" target="_blank" rel="noopener noreferrer">Vos exercices sur CodePen</a></li> 
         </ul>
     </info>
 
@@ -1279,11 +1265,20 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
  
 <wiki-page name="Sem07.jeudi" date="2024-10-03">
 
-<!-- Exemple de placement de logo propre et bien réalisé : https://www.lescegeps.com/nouvelles/2023-02-05_les_ministres_bernard_drainville_et_pascale_dery_soulignent_la_contribution_essentielle_et_le_travail_indispensable_du_personnel_enseignant_quebecois -->
+    <grostitre>Annonce</grostitre>
+    <p>Rétroaction pour l'intégration de la page d'accueil demain via capsule vidéo de 15 min par équipe.</p>
+     
+
+    <!-- Exemple de placement de logo propre et bien réalisé : https://www.lescegeps.com/nouvelles/2023-02-05_les_ministres_bernard_drainville_et_pascale_dery_soulignent_la_contribution_essentielle_et_le_travail_indispensable_du_personnel_enseignant_quebecois -->
 
 
     <dots></dots>
-    <grostitre>Partie 3 : Bases Wordpress (suite)</grostitre>
+    <grostitre>PS: NavBar Bootstrap isolée</grostitre>
+    <p>Afin de n'utiliser que les fichier nécessaires pour la navbar, voici une démo d'utilisation de la navbar bootstrap isolée du reste des styles des autres composantes.</p>
+
+
+    <dots></dots>
+    <grostitre>Bases Wordpress (suite)</grostitre>
     <intlink href='../wordpress/types-contenu-de-base-wp/'></intlink>
 
 
@@ -1293,20 +1288,46 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href='../wordpress/styles-css/'></intlink>
     <intlink href='../wordpress/modeles/'></intlink>
     <intlink href='../wordpress/partiels/'></intlink>
-    + Affichage des images dans un template
+    
+    <p>Comment ajouter les contenus de base (post, title, image) dans un modèle (template) WP.</p>
+<!-- 
+    WORDPRESS
+    * Types de contenu existants dans WP et leur champs de base.
 
- 
+    CRÉATION D'UN THÈME WP DE A À Z
+    * Création d'un thème: styles CSS
+    * Modèle (template) WP
+    * Comment ajouter les contenus de base (post, title, image) dans un modèle (template) WP. (et autre type de champs de base) - TODO Contenu à dev.
 
+
+    PS ÉVALUATION (FORMATIF) - MISE EN PAGE FINALE DE L'ACCUEIL (tout le monde doit faire au moins une section et m'expliquer ce qu'il a fait).
+  -->
+
+  <grostitre>Devoirs</grostitre>
+
+  <p>PS: Suite à ma rétroaction sur l'accueil, corrigez/ajustez votre page d'accueil d'ici le prochain cours du jeudi, c'est à dire le 17 octobre. Il convient d'avoir une première page bien montée et robuste au niveau structure HTML et des styles CSS avant d'entamer les autres.</p>
+  
+  <p>Prendre en compte la démo de ps__container ainsi l'importation de la navbar de Bootstrap (seulement) que je vous ai présenté aujourd'hui.</p>
+
+
+  </wiki-page>
+
+<!---------------------- Cours 7 lundi ----------------------->
+<!---------------------- Cours 7 lundi ----------------------->
+<!---------------------- Cours 7 lundi ----------------------->
+
+
+<wiki-page name="Sem07.lundi" date="2024-10-06">
 
     <!-- 
 
-    PS ÉVALUATION (FORMATIF) - MISE EN PAGE FINALE DE L'ACCUEIL (tout le monde doit faire au moins une section et m'expliquer ce qu'il a fait).
-
+    
     * Menus WP
     * Crochet WP: action et filtres
     * Built-in custom field options https://metabox.io/easy-way-to-add-custom-fields-in-wordpress-without-plugins/
     * Type de contenu personnalisé (custom post type)
     * Advanced custom fields
+
     WORDPRESS
     * Éditeur Gutenberg
     * WP-multilang
@@ -1332,17 +1353,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <p>Pour envoyer vos fichiers sur le serveur qui hébergera votre site, vous pouvez consulter cette <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZd7jM8DNIZHndllts3nA0cBtrrGG2NBLBOuO7svWXVjug?e=kT9gnu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank" rel="noopener noreferrer">petite capsule vidéo</a>.</p>
 
 
-    <dots></dots>
-    <grostitre>PS: NavBar Bootstrap isolée (ou resque)</grostitre>
-    <p>Démo d'utilisation de la navbar bootstrap isolée du reste des styles des autres composantes (avec ou sans npm).</p>
+  
 
-
-
-    <br>
-    <hr><br>
-
-    <h2>Révision des exercices de la semaine passée</h2>
-    <intlink href="../../582-111MO/html/microdonnees/exercices/cf-montreal/"></intlink>
 
     <br> <br>
     <hr><br><br>
@@ -1430,16 +1442,10 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     Vendredi - <a href="https://app.wooclap.com/KDZGZN" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;: KDZGZN
     </a><br>
 
-    <dots></dots>
-    <h2>Concours 404 - Retour</h2>
-    <p>Vote le gagnant de ta classe
-        <br>Prix: Des bonbons !
-    </p>
-    Lundi - <a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Votez</a>
-    <br>
-    Vendredi - gagnante : Skayla !
+    <grostitre>Accéder au serveur web</grostitre>
+    <p>Pour accéder au serveur chez l'hébergeur hostpapa et au cPanel , vous pouvez visionner cette <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZd7jM8DNIZHndllts3nA0cBtrrGG2NBLBOuO7svWXVjug?e=ycH8Ui&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank" rel="noopener noreferrer">petite capsule vidéo</a>.</p>
 
-    <dots></dots>
+   
 
     <h2>Projet de session : découpage de type de contenu et de champs personnalisés </h2>
 
