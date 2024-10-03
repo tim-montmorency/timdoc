@@ -1266,7 +1266,9 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <wiki-page name="Sem07.jeudi" date="2024-10-03">
 
     <grostitre>Annonce</grostitre>
-    <p>Rétroaction pour l'intégration de la page d'accueil demain via capsule vidéo de 15 min par équipe.</p>
+    <p>La rétroaction sur l'intégration de la page d'accueil ne sera pas partagée en rencontre individuelle aujourd'hui comme il était prévu. Elle sera plutôt partagée via une capsule vidéo envoyée équipe par équipe d'ici demain (vendredi) en fin de journée.</p>
+    <p>Sortez vos site web WordPress réalisés il y a 2 semaines et réinstallez les sur vos postes du labo. Je vais passer voir vos créations veres la fin du cours. Sinon ce sera lundi.</p>
+    <intlink href='../wordpress/migration-site-bd-wp/'></intlink>
      
 
     <!-- Exemple de placement de logo propre et bien réalisé : https://www.lescegeps.com/nouvelles/2023-02-05_les_ministres_bernard_drainville_et_pascale_dery_soulignent_la_contribution_essentielle_et_le_travail_indispensable_du_personnel_enseignant_quebecois -->
@@ -1274,7 +1276,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <dots></dots>
     <grostitre>PS: NavBar Bootstrap isolée</grostitre>
-    <p>Afin de n'utiliser que les fichier nécessaires pour la navbar, voici une démo d'utilisation de la navbar bootstrap isolée du reste des styles des autres composantes.</p>
+    <p><span class="red-label">POUR LE PROJET DE SESSION</span> Afin de n'utiliser que les fichiers nécessaires pour la navbar et éviter d'utiliser Bootstrap pour un autre contexte, voici une démonstration d'utilisation de la navbar Bootstrap isolée du reste des styles des autres composantes.</p> 
+    <p>Sans lien direct avec la navbar, cette démonstration inclut aussi la gestion de l'alignement des différentes sections de la page web. Les fichiers seront fournis après la démonstration.</p>
 
 
     <dots></dots>
@@ -1283,13 +1286,13 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
     <dots></dots>
-   
     <grostitre>Création d'un thème Wordpress</grostitre>
+    <p><a href="https://tim-montmorency.com/timdoc/582-518MO/wordpress/medias/theme-de-base.zip" target="_blank" rel="noopener noreferrer">Voici des fichiers</a> qui peuvent vous être utiles pour démarrer un thème Wordpress.</p>
     <intlink href='../wordpress/styles-css/'></intlink>
     <intlink href='../wordpress/modeles/'></intlink>
     <intlink href='../wordpress/partiels/'></intlink>
     
-    <p>Comment ajouter les contenus de base (post, title, image) dans un modèle (template) WP.</p>
+    
 <!-- 
     WORDPRESS
     * Types de contenu existants dans WP et leur champs de base.
@@ -1303,10 +1306,10 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     PS ÉVALUATION (FORMATIF) - MISE EN PAGE FINALE DE L'ACCUEIL (tout le monde doit faire au moins une section et m'expliquer ce qu'il a fait).
   -->
 
+  <dots></dots>
   <grostitre>Devoirs</grostitre>
-
   <p>PS: Suite à ma rétroaction sur l'accueil, corrigez/ajustez votre page d'accueil d'ici le prochain cours du jeudi, c'est à dire le 17 octobre. Il convient d'avoir une première page bien montée et robuste au niveau structure HTML et des styles CSS avant d'entamer les autres.</p>
-  
+
   <p>Prendre en compte la démo de ps__container ainsi l'importation de la navbar de Bootstrap (seulement) que je vous ai présenté aujourd'hui.</p>
 
 
@@ -1359,6 +1362,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <br> <br>
     <hr><br><br>
     <h2>WORDPRESS</h2>
+
+    <p>Comment ajouter les contenus de base (post, title, image) dans un modèle (template) WP.</p>
 
     <intlink href="../wordpress/menus/"></intlink>
     <intlink href="../wordpress/wp-crochets-action-filtre/"></intlink>

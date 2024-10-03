@@ -45,7 +45,9 @@
 <dots></dots>
 
 <h3 id="type-posts-supportes">Type de posts supportés</h3>
-<p>Les modèles ne sont disponibles que pour les posts par défaut <em>(pages et articles)</em>. Pour qu'un modèle puisse supporter un autre type de post, il faut lui indiquer à l'aide du commentaire <incode>Template Post Type</incode>.</p>
+
+<p>Les modèles ne sont disponibles que pour les posts par défaut <em>(pages et articles)</em>. Pour qu'un modèle puisse supporter un autre type de post*, il faut lui indiquer à l'aide du commentaire <incode>Template Post Type</incode>.</p>
+<small> (* Pour créer un nouveau type de post on le verra au prochain cours avec advance custom fields ou custom post type.)</small><br><br><br>
 
 
 <p>Par exemple, après avoir créé le type de post <em>product</em> dans le tableau de bord, le menu&nbsp;déroulant de choix de modèle sera absent de tous les posts de ce type, puisque par défaut aucun modèle ne supporte ce type de post. </p><p>Afin d'indiquer que le modèle <em>Produit</em> doit pouvoir être utilisé par les posts de type <em>product</em>, il faut le spécifier à l'intérieur du modèle ainsi:</p>
