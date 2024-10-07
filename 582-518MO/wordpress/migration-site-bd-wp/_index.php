@@ -23,3 +23,40 @@
 <alert>Si l'avant-dernière étape retourne une erreur, c'est que votre configuration MAMP n'est pas identique à celle de l'école. Donc, l'URL est différent. Ainsi, au lieu de <span class='inline-code'>localhost:81/abc</span>, il est souvent possible que votre URL n'affiche que <span class='inline-code'>localhost/abc</span>. Pour remédier à ce problème, vous devez ouvrir phpMyAdmin, accéder à la table <em>wp-options</em> et éditer <em>siteurl</em> avec l'URL de votre installation actuelle. Vous devez aussi faire la même chose pour <em>home</em> (dans la même table).</alert>
 
 <warning>Autre problème possible : votre navigateur vous redirige toujours vers <span class='inline-code'>localhost:81/abc</span> même si vous tapez <span class='inline-code'>localhost/abc</span>. Si tel est le cas, vous devez vider le cache de votre navigateur. Pour développer votre débrouillardise, je vous laisse trouver comment le faire, vous avez les outils pour y parvenir.</warning>
+
+<dots></dots>
+<grostitre>White Page of Death</grostitre>
+<p>Si vous avez fait tout ce qui a été suggéré ci-haut et que lorsque vous accédez à votre site sur localhost, on vous retourne toujours une page blanche, allez à la racine de votre site, renommez le ficheir <em>wp-config.php</em> vers ce nouveau nom <em>wp-config-old.php</em>. Ceci forcera Wordpress à l'ignorer.</p>  
+
+<p>Retournez maitnenant dans localhost/nom-de-votre-site dans votre navigateur web. Vous devriez maintenant avoir une page d'initiation à l'installation Wordpress suivi d'un bouton <em>C'est parti !</em>, cliquez dessus.</p>
+
+<p>Dans le nouvel écran:</p>
+
+
+<ol start="3">
+    <li>
+        <p>Remplissez les informations de connexion à votre base de données.</p>
+
+        <ul>
+            <li><incode>Nom la base de données</incode>&nbsp;correspond à celui que vous avez donné lorsque&nbsp;<a rel="noopener noreferrer" href="#base-de-donnees">vous avez créé votre base de données</a>&nbsp;dans&nbsp;phpMyAdmin.</li>
+            
+            <li><incode>Identifiant</incode>, à moins que vous l'ayez changé, l'identifiant local par défaut est&nbsp;<em>root</em>.</li>
+            
+            <li><incode>Mot de passe</incode>, à moins que vous l'ayez changé, le mot de passe local par défaut est&nbsp;<em>root</em>.</li>
+            
+            <li><incode>Adresse de la base de données</incode>&nbsp;laissez&nbsp;<em>localhost</em>.</li>
+            
+            <li><incode>Préfixe de tables</incode>&nbsp;laissez&nbsp;<em>wp_</em>.</li>
+        </ul>
+
+        <p>Et appuyer sur&nbsp;<em>Envoyer</em></p>
+
+  </li>
+</ol>
+
+<img src="../installation-en-local/images/wp-db-connexion.jpg" alt="">
+
+<p>Suite à quoi, vous devriez voir un message qui ressemble à "Wordpress est déjà installé, voulez vous vous connecter?"</p>
+
+<p>Ensuite connectez-vous <em>et voilà !</em></p>
+
