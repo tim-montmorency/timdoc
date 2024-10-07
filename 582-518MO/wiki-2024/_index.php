@@ -1340,6 +1340,20 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <info>Les Product Owners, vous pouvez donc éditer votre tableau Trello pour supprimer les tâches reliées à ce qui a été retiré ici.</info>
 
+    <alert>Voici la liste des pages à monter :
+        <ol>
+            <li>Accueil : index.html</li>
+            <li>Liste des nouvelles : news-hub.html</li>
+            <li>Article d'une nouvelle : news-article.html</li>
+            <li>Liste des services : services-hub.html</li>
+            <li>Page d'un seul des services : service.html</li>
+            <li>Page de l'équipe : team.html</li>
+            <li>À propos de nous : about.html</li>
+            <li>Nous joindre: contact-us.html</li>
+            <li>Page erreur 404: 404.html</li>
+        </ol>
+    </alert>
+
 
     <dots></dots>
    
