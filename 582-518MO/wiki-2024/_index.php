@@ -1404,7 +1404,18 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
  \_____\___/ \__,_|_|  |___/  \___/ 
 ----------------------------------->
 
-<wiki-page name="Cours 08" date="2024-10-15">
+<wiki-page name="Sem08.jeudi" date="2024-10-17">
+
+    <grostitre>Annonces</grostitre>
+        <p>À propos du dossier <em>sources</em>:
+            <ul>
+                <li>Il devrait se trouver à la racine de votre répertoire git tel que mentionné <a href="https://tim-montmorency.com/timdoc/582-518MO/projet/github-et-hebergement/#requis-git" target="_blank" rel="noopener noreferrer">au #7 des requis git du devOp</a>.</li>
+                <li>Il devrait contenir les <em>maquettes</em>, les <em>copydeck</em> (texte) ainsi que le regroupement des <em>images</em> de base ramassées sur le site courant.</li>
+                <li>Il n'était pas destiné à contenir les <em>images</em> finales de votre site web car vous n'étiez pas attendu à réutiliser toute l'imagerie du site actuel. Si vous avez utilisé le dossier source pour connecter les images dans vos page statique, je vais vous demander de corrier ça. <br> Faites une copie des images réellement utilisées dans vos pages intégrées  et ramenez ces images dans un dossiers à côté de index.html (nommez le dossiers soit images, assets, medias, comme vous voulez) et allez changer vos liens vers ces images pluôt que de pointer vers le contenu du dossier <em>sources</em>.</li>
+            </ul>
+        </p>
+
+        <info><p>Pour rapidement changer les liens vers toutes vos images, vous pouvez simplement ouvrir <incode>index.html</incode>, <incode>style.scss</incode> et toutes vos autres pages intégrées. Pour chaque fichier, faites <strong>Ctrl+F</strong>. Dans la petite boite de recherche, ouvrez le petit chevron à gauche pour afficher le champ <em>Remplacer</em>. Dans le premier champ, inscrivez l'ancien chemin d'accès vers l'ancien dossier qui se trouve dans source, et dans le deuxième champ, le nouveau chemin d'accès (dans passer par le dossier source). Ensuite, par précaution, vous pouvez les remplacer un à un et vérifier si tout fonctionne comme vous le souhaitez.</p></info>
 
          <!-- 
 
