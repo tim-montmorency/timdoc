@@ -1445,9 +1445,18 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <dots></dots>
 
+    <grostitre>Migration</grostitre>
+    <p>Rappel pour transférer vos exercices à la maison et vice-versa.</p>
+    <info>L'idéal avec WordPress est de constamment travailler sur le même ordinateur et ne pas trop se promener. Donc je vous conseille de compléter vos exercices ici dans ce local hors les heures de cours ou au trou à l'horaire. Sinon:
+    </info>
+    <intlink href='../wordpress/migration-site-bd-wp/'></intlink>
+
+
+
+
+    <dots></dots>
     <grostitre>Devoirs</grostitre>
     <p>Terminer les 2 exercices commencés en classe (pour jeudi prochain).</p>
-
     <h4>Projet de session</h4>
     <p>Continuez d'avancer l'intégration des autres pages du projet (SCSS+HTML+JS). Voir votre tableau Trello et les <a href="https://tim-montmorency.com/timdoc/582-518MO/projet/requis-client/" target="_blank" rel="noopener noreferrer">requis client</a> pour le rien oublier. </p>   
 
@@ -1459,7 +1468,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 8 lundi ----------------------->
 <!---------------------- Cours 8 lundi ----------------------->
 
-<wiki-page name="Sem08.jeudi" date="2024-10-17">
+<wiki-page name="Sem08.lundi" date="2024-10-21">
 
 
     <h2>Annonces</h2>

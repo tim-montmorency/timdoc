@@ -8,6 +8,8 @@
  * @ref      web/wordpress
  */
 ?>
+<warning>Cette procédure vous servira individuellement dans les cas où vous souhaitez transférer votre exercice débuté en classe à la maison et vice-versa.  Ne pas utiliser cette procédure pour travailler en équipe excepté si c'est la première migration vers un ordinateur qui ne contient aucune version actuelle projet.</warning>
+
 <grostitre>Depuis l'ordinateur initial</grostitre>
 <ol>
   <li>Depuis l'ordinateur initial : Sauvegardez <em>le dossier contenant les fichiers de votre installation WordPress</em> sur votre outil de sauvegarde habituel (cloud, clé USB, disque dur externe). Le contenu du dossier en question devrait ressembler à ceci : <img src="images/installation-wp.jpg" alt="liste de fichiers de base d'une installation WordPress" style="width: 200px;"></li>
