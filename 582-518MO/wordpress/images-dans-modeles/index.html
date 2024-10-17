@@ -67,6 +67,11 @@
 <info>Notez que pour cela, il faudra que le fichier <em>function.php</em> de votre thème contienne la ligne suivante: <br> <span class="inline-code">add_theme_support( &#039;post-thumbnails&#039; );</span></info>
 <br>
 
+<p>Si vous souhaitez ne pas générer la balise image complète mais seulement afficher l'URL de l'image (dans le cas d'un <span class='inline-code'>background-image</span> par exemple), vous pouvez utiliser:</p>
+<highlight lang="php">&lt;?php the_post_thumbnail_url(); ?&gt;</highlight>
+
+
+
 <doclink href="https://developer.wordpress.org/reference/functions/the_post_thumbnail/">post thumbnail</doclink>
 
 <dots></dots>
