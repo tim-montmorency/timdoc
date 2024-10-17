@@ -1435,7 +1435,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <h3>Afficher les champs de base (title, content, image) dans un modèle WP.</h3>
     <intlink href='../wordpress/contenu-dans-modeles/'></intlink>
     <intlink href='../wordpress/images-dans-modeles/'></intlink>
-    <!--<exercice href='../exercices/wp-voyage/'></exercice>-->
+    <exercice href='../exercices/wp-voyage/'></exercice>
     
     <dots></dots>
     <h3>Et si on veut ajouter d'autres types de contenu et de champs que ceux prévus par le "core" de WordPres?</h3>
