@@ -1384,7 +1384,6 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <dots></dots>
     <grostitre>Devoir</grostitre>
     <ol>
-        
         <li>Corrigez/ajustez l'intégration de votre page d'accueil. Il convient d'avoir une première page bien montée et robuste au niveau de la structure HTML et des styles SCSS/CSS avant d'entamer les autres pages. </li>
         <li>Par la suite, continuez d'avancer l'intégration des autres pages du projet (SCSS+HTML+JS). Voir votre tableau Trello et les <a href="https://tim-montmorency.com/timdoc/582-518MO/projet/requis-client/" target="_blank" rel="noopener noreferrer">requis client</a> pour le rien oublier. </li>
     </ol>   
@@ -1411,7 +1410,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <wiki-page name="Sem08.jeudi" date="2024-10-17">
 
     <grostitre>Annonces</grostitre>
-    <h3>Projet de session: à propos du dossier <em>sources</em>: </h3>
+    <h3>Projet de session: à propos du dossier <em>sources</em>.</h3>
     <ul>
         <li>Il devrait se trouver à la racine de votre répertoire git tel que mentionné <a href="https://tim-montmorency.com/timdoc/582-518MO/projet/github-et-hebergement/#requis-git" target="_blank" rel="noopener noreferrer">au #7 des requis git du devOp</a>.</li>
         <li>Il devrait contenir les <em>maquettes</em>, les <em>copydeck</em> (texte) ainsi que le regroupement des <em>images</em> de base ramassées sur le site courant.</li>
@@ -1425,25 +1424,32 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <dots></dots>
     <grostitre>Hébergement Web chez HostPapa</grostitre>
-    <p>Pour envoyer vos fichiers sur le serveur qui hébergera votre site, vous pouvez consulter cette <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZd7jM8DNIZHndllts3nA0cBtrrGG2NBLBOuO7svWXVjug?e=kT9gnu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank" rel="noopener noreferrer">petite capsule vidéo</a>.</p>
+    <p>À voir pour ceux qui ne sont pas devOp et donc non familier avec cette procédure. Pour envoyer vos fichiers sur le serveur qui hébergera votre site, vous pouvez consulter cette <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZd7jM8DNIZHndllts3nA0cBtrrGG2NBLBOuO7svWXVjug?e=kT9gnu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank" rel="noopener noreferrer">petite capsule vidéo</a>.</p>
 
     <dots></dots>
 
 
     <grostitre>WORDPRESS</grostitre>
-    <p>Rappel du du contenu du cours 07.lundi.</p>
+    <p>Retour sur du contenu du cours 07.lundi</p>
 
-    <p>Comment ajouter les champs de base (title, content, image) dans un modèle (template) WP.</p>
+    <h3>Afficher les champs de base (title, content, image) dans un modèle WP.</h3>
     <intlink href='../wordpress/contenu-dans-modeles/'></intlink>
     <intlink href='../wordpress/images-dans-modeles/'></intlink>
+    <!--<exercice href='../exercices/wp-voyage/'></exercice>-->
     
+    <dots></dots>
+    <h3>Et si on veut enrichir la base?</h3>
     <intlink href="../wordpress/posts-personnalises/"></intlink>
     <intlink href="../wordpress/advanced-custom-fields/"></intlink>
+    <!--<exercice href='../exercices/wp-valet-de-coeur/'></exercice>-->
 
     <dots></dots>
 
     <grostitre>Devoirs</grostitre>
-    <p>Terminer les 2 exercices commencés en classe.</p>
+    <p>Terminer les 2 exercices commencés en classe (pour jeudi prochain).</p>
+
+    <h4>Projet de session</h4>
+    <p>Continuez d'avancer l'intégration des autres pages du projet (SCSS+HTML+JS). Voir votre tableau Trello et les <a href="https://tim-montmorency.com/timdoc/582-518MO/projet/requis-client/" target="_blank" rel="noopener noreferrer">requis client</a> pour le rien oublier. </p>   
 
 </wiki-page>  
 

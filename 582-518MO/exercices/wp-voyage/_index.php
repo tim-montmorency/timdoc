@@ -2,7 +2,7 @@
 /**
  * @type     exercice
  * @title    Wordpress - Voyage
- * @icon     images/catan.jpeg
+ * @icon     images/screenshot.png
  * @abstract Vous devez créer un modèle d'une page de conseil voyage avec les champs de base accessible dans WordPress.
  */
 ?>
@@ -15,13 +15,13 @@
 
 
 <p>Aperçu du résultat 👇</p>
-<clipasset src="images/"></clipasset>
+<img src="images/apercu.jpg">
 
 
 
 <dots></dots>
 <grostitre>Matériel</grostitre>
-<doclink href="">Pen de départ</doclink>
+<doclink href="https://codepen.io/tim-momo/pen/rNXmQjx">Pen de départ</doclink>
 
 
 <h3 class="heading heading--h3" id="Médias 🖼️">Médias 🖼️</h3>
