@@ -837,7 +837,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
   
     <intlink href="../wordpress/themes-et-extensions/"></intlink>
     <intlink href="../wordpress/styles-css/"></intlink>
-    <intlink href="..//wordpress/modeles/"></intlink>
+    <intlink href="../wordpress/modeles/"></intlink>
     <intlink href="../wordpress/partiels/"></intlink>
 
 
