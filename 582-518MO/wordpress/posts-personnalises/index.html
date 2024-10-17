@@ -57,7 +57,7 @@
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
-<p>Par défaut, WordPress offre différentes&nbsp;collections:</p>
+<p>Par défaut, <a href="../types-contenu-de-base-wp/" target="_blank" rel="noopener noreferrer">nous l'avons vu</a>, WordPress offre différents types de post et de contenu :</p>
 
 
 <ul>
@@ -124,14 +124,14 @@ add_action(&#039;init&#039;, &#039;create_post_type&#039;);</highlight>
 
 <dots></dots>
 <grostitre>Utilisation manuelle (affichage du contenu)</grostitre>
-<p>Pour afficher cette collection, il faudra faire une requête à WordPress et stocker son résultat dans une&nbsp;variable.</p>
+<p>Pour afficher cette collection, dans le modèle de votre thème en PHP, il faudra faire une requête à WordPress et stocker son résultat dans une&nbsp;variable.</p>
 
 <p>Par&nbsp;exemple:</p>
 
 <highlight lang="php">$products = new WP_Query(&#039;post_type=produits&#039;);</highlight>
 
 
-<p>Ensuite, il faudra boucler parmi les résultats&nbsp;obtenus et imprimer <span class="inline-code">print</span> ceux-ci dans une page:</p>
+<p>Ensuite, toujours dans le modèe du thème en PHP, il faudra boucler parmi les résultats&nbsp;obtenus et imprimer <span class="inline-code">print</span> ceux-ci dans une page:</p>
 
 <highlight lang="php">while ( $products-&gt;have_posts() ) : $products-&gt;the_post(); 
     print the_title();  // titre du produit
@@ -141,7 +141,7 @@ endwhile;</highlight>
 <!--<highlight lang="php">while ($produits-&gt;have_posts()) : $produits-&gt;the_post();</highlight>-->
 
 
-<p>Les fonctions de base, tel que:&nbsp;<span class="inline-code">the_title()</span>&nbsp;ou&nbsp;<span class="inline-code">the_content()</span>&nbsp;retourneront dans le contexte de cette boucle les informations associées à notre collection de&nbsp;produits.</p>
+<p>Les fonctions de base, tel que:&nbsp;<span class="inline-code">the_title()</span>&nbsp;ou&nbsp;<span class="inline-code">the_excerpt()</span>&nbsp;retourneront dans le contexte de cette boucle les informations associées à notre collection de&nbsp;produits.</p>
 
 <doclink href="https://developer.wordpress.org/reference/functions/register_post_type/">register_post_type</doclink>
 
@@ -152,33 +152,42 @@ endwhile;</highlight>
 
 
 <dots></dots>
-<grostitre>Custom Post Type UI</grostitre>
-<p>Est une extension WordPress facilitant grandement la création de nouveaux types de&nbsp;posts. Dans l'onglet extensions&nbsp;<em>(plugins)</em>&nbsp;du tableau de bord, recherchez&nbsp;<em>Custom Post Type UI</em>&nbsp;et repérez l'extension créée par&nbsp;WebDevStudios.</p>
-
+<!--<h2><s>Custom Post Type UI</s></h2>
+<info>Nous utilisions précédemment une autre extension pour créer des nouveaux types de post. Cette extention s'appelait <em>Custom Post Type UI</em> mais maintenant ACF inclut aussi cette fonctionnalité donc passons à ACF.</info> -->
+<h3 style="margin-bottom:0"><s>Advanced Custom Fields (ACF)</s></h3>
+<grostitre>Secure Custom Fields (SCF)</grostitre>
+<alert>UPDATE du 12 octobre 2024<br>
+<a href="https://wordpress.org/news/2024/10/secure-custom-fields/" target="_blank" rel="noopener noreferrer"><em>Advanced Custom Fields</em> devient <em>Secure Custom Fields</em></a>. </alert>
+<p>SCF (anciennement ACF) est une extension WordPress facilitant grandement la création de nouveaux types de&nbsp;posts. Dans l'onglet extensions&nbsp;<em>(plugins)</em>&nbsp;du tableau de bord, recherchez&nbsp;<em>Advanced Custom Fields</em>. Il est possible que l'extension ne soit pas encore installée, si tel est le cas, recherchez la dans la librairie d'extensions.</p>
 
 <p>Installez et activez&nbsp;là.</p>
-<img src="images/custom-post-type-ui.jpg" alt="Extension Custom Post Type UI">
+<img src="images/secure-custom-fields.jpg" alt="Extension Secure Custom Fields">
+
 
 
 <p></p>
 <h3 class="heading heading--h3" id="nouveaux-types-posts">Création de nouveaux types de posts</h3>
-<p>Une fois l'extension installée, un onglet&nbsp;<em>CPT UI</em>&nbsp;devrait être visible dans la barre latérale servant de&nbsp;menu.</p>
-<p>À partir de cet onglet, il est possible de créer de nouveaux Types de posts en cliquant sur&nbsp;<em>(Add/Edit Post&nbsp;Type)</em>.</p>
+<p>Une fois l'extension installée, un onglet&nbsp;<em>SCF</em>&nbsp;devrait être visible dans la barre latérale servant de&nbsp;menu.</p>
+<p>À partir de cet onglet, il est possible de créer de nouveaux types de posts en en cliquant sur le deuxième onglet du haut nommé <em>Post&nbsp;Types</em> et ensuite sur le bouton <em>Add New</em>.</p>
 
-<p>Remplissez les trois champs de&nbsp;base:</p>
+<img src="images/post-type-add-new.jpg" alt="Add new post type">
+
+
+<p>Remplissez minimalement les trois infos obligatoires (celle indiquées par un <span class="red-label">*</span>)</p>
 
 <ol start="1">
-    <li style="margin:0"><em>Slug</em>&nbsp;nom pour accéder au post dans le&nbsp;code</li>
     <li style="margin:0"><em>Plural Label</em>&nbsp;nom au pluriel des&nbsp;posts</li>
     <li style="margin:0"><em>Singular Label</em>&nbsp;nom au singulier des&nbsp;posts</li>
+    <li style="margin:0"><em>Post Type Key</em>&nbsp;nom pour accéder au post dans le&nbsp;code PHP (donc SANS d'accent, de caractère spécial ou d'espace)</li>
 </ol>
 
 <p>Optionnellement, vous pouvez remplir les différents champs affichés après les trois premiers pour plus de contrôle sur l'affichage de votre nouveau type de&nbsp;post.</p>
 
 
-<info>Une des options les plus populaires est de changer l’icône du nouveau type de post. Pour ce faire, il faut aller presque à la fin des champs supplémentaire et populer un champ nommé Menu&nbsp;Icon.</info>
+<info>Une des options les plus populaires est de changer l’icône du nouveau type de post. Pour ce faire, il faut cliquer sur <em>Advanced Settings</em> et naviguer dans l'onglet <em>Visibility</em></info>
 
-<p>Cliquez sur&nbsp;<em>Populate missing labels based on chosen labels</em>&nbsp;et appuyez sur&nbsp;<em>Add Post&nbsp;Type</em>.</p>
+<p>Lorsque vous avez terminé: cliquez sur le bouton <em>Save Changes</em></p>
+
 
 <p>Un nouveau type de post devrait automatiquement apparaître dans le menu latéral du tableau de bord de&nbsp;WordPress.</p>
 
@@ -189,8 +198,8 @@ endwhile;</highlight>
 
 
 <dots></dots>
-<grostitre>Affichage dans les menus</grostitre>
-<p>Il est possible d'ajouter les nouveaux types de posts dans un menu personnalisé. Cependant, cette option est désactivée par&nbsp;défaut.</p>
+<grostitre>Affichage dans les menus de navigation</grostitre>
+<p>Il est possible d'ajouter les nouveaux types de posts dans le menu de navigation de votre site. Cependant, cette option est désactivée par&nbsp;défaut.</p>
 <p>Pour&nbsp;l'activer:</p>
 
 <ol start="1">
@@ -219,6 +228,12 @@ endwhile;</highlight>
 
  <dots></dots>
  <grostitre>Export</grostitre>
+ <p>Secure Custom Field (SCF) permet d'exporter la structure de ses posts personnalisés afin de pouvoir les importer sur un autre site. Pour suivre la démarche, veuillez vous référer à <a href="../advanced-custom-fields/#export" target="_blank" rel="noopener noreferrer">cette page, section export</a>.</p>
+
+
+
+
+ <!--
 <p>Custom Post Type UI permet d'exporter la structure de ses posts personnalisés afin de pouvoir les importer sur un autre site.</p>
 
 <h3 class="heading heading--h3" id="Exportation">Exportation</h3>
@@ -234,7 +249,7 @@ endwhile;</highlight>
 <warning>Assurez-vous que l’extension Custom Post Type UI soit installée sur le nouveau site avant d’importer une structure de posts&nbsp;personnalisés.</warning>
 
 <doclink href="https://fr.wordpress.org/plugins/custom-post-type-ui/">Custom Post Type UI</doclink>
-
+-->
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>

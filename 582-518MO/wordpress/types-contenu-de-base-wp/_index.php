@@ -31,8 +31,8 @@
 </ul>
 <p>Vous pouvez consulter <a href="https://neliosoftware.com/blog/understanding-wordpress-content-types/" target="_blank" rel="noopener noreferrer">cet article</a> pour les définitions.</p>
 
-<grostitre>Champs de base (article ou page)</grostitre>
-<p>Voici une liste des champs standards dans les sarticle ou les pages de WordPress. Ces champs permettent d'y entrer du contenu relatif à l'article ou la page. Ceux qui vous sont importants à connaitre sont en rouge:</p>
+<grostitre>Champs de base (dans article ou page)</grostitre>
+<p>Voici une liste des champs standards dans les articles ou les pages de WordPress. Ces champs permettent d'y entrer du contenu relatif à l'article ou la page. Ceux qui vous sont importants à connaitre sont en rouge:</p>
 <ul>
     <li><span class="inline-code">ID</span></li>
     <li><span class="inline-code">post_title</span></li>

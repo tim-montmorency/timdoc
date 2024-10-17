@@ -31,7 +31,7 @@
         <script src="../../../shared/jscripts/vue.global.prod.js"></script>
         <script src="../../../shared/jscripts/timdoc.min.js"></script>
         <script>const shared = '../../../shared/';</script>
-        <title>Types de contenu dans WordPress</title>
+        <title>Modèle: Champs de base</title>
     </head>
     <body>
         <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
@@ -51,61 +51,37 @@
                     <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">WordPress</a> ></div>
                     <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/wordpress/">WordPress</a>&nbsp;>&nbsp;</div>
                 </div>
-                <h1 id="title"><img src="../medias/icon.webp">&nbsp;Types de contenu dans WordPress</h1>
+                <h1 id="title"><img src="../medias/icon.webp">&nbsp;Modèle: Champs de base</h1>
             </div>
             <article>
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
-<p>Sans extension ajoutée, Wordpress fontionne sous une struture définie. Cette base vous permet de manipuler différents contenus, les enregistrer dans sa base de données et les afficher dans vos pages web. Voici les types de contenu inclus dans le coeur (core) de WordPress:</p>
+
+<p>Vous vous rappelez des <a href="../types-contenu-de-base-wp/#champs-de-base-dans-article-ou-page" target="_blank" rel="noopener noreferrer">champs de base accessibles dans un post ou une page</a> WordPress ? Mais comment y accède-t-on pour les afficher dans le modèle (template) d'un thème ? Via des fonctions prédéfinies de WordPress que vous pouvez appeler dans le fichier du modèle, là où il vous convient d'afficher le contenu.</p>
+
+<warning>Les fonctions ci-dessous sont des fonctions d'affichage en PHP, donc il ne faut pas oublier de les inclure entre l'ouverture et la fermeture des balises de code PHP. Par exemple : <span class='inline-code'>&lt;?php the_content(); ?&gt; </span> </warning>
 
 
-<grostitre>Types de contenu</grostitre>
-<ul>
-    <li>Utilisateurs (Users)</li>
-    <li>Commentaires (Comments)</li>
-    <li>Type ce contenu (Post Type)</li>
-</ul>
 
-<grostitre>Types de post (post type)</grostitre>
-<ul>
-    <li>Article (Post)</li>
-    <li>Page</li>
-    <li>Images ou fichier ajouté dans une page (Attachment)</li>
-    <li>Révision (Revision)</li>
-    <li>Menu de navigation</li>
-    <li>CSS ajouté (Custom CSS)</li>
-    <li>Révision de l'auto-sauvegarde (Changeset)</li>
-</ul>
-<p>Vous pouvez consulter <a href="https://neliosoftware.com/blog/understanding-wordpress-content-types/" target="_blank" rel="noopener noreferrer">cet article</a> pour les définitions.</p>
+<ol>
+    <li><span class="inline-code">the_title()</span> inscrit le titre post.</li>
+    <li><span class="inline-code">the_permalink()</span> inscrit l'URL du post.</li>
+    <li><span class="inline-code">the_content()</span> inscrit le contenu complet provenant de l'éditeur de la page (le contenu principal, sans le titre)</li>
+    <li><span class="inline-code">the_excerpt()</span> inscrit l'extrait (résumé) du post. Si le champ de l'extrait est vide, les 55 premiers mots du contenu de l'article ainsi que "..." seront affichés.</li>
+    <li><span class="inline-code">the_ID()</span> inscrit le ID du post.</li>
+    <li><span class="inline-code">the_category()</span> inscrit toutes les catégories associées au post.</li>
+    <li><span class="inline-code">the_tags()</span> inscrit toutes les équiquettes associées au post.</li>
+    <li><span class="inline-code">the_date()</span> inscrit la date de publication du post.</li>
+    <li><span class="inline-code">the_time()</span> inscrit le temps de publication du post.</li>
+    <li><span class="inline-code">the_author()</span> inscrit le nom de l'auteur du post.</li>
+    <li><span class="inline-code">the_post_thumbnail()</span> inscrit l'<em>image mise en avant</em>.</li>
+</ol>
 
-<grostitre>Champs de base (dans article ou page)</grostitre>
-<p>Voici une liste des champs standards dans les articles ou les pages de WordPress. Ces champs permettent d'y entrer du contenu relatif à l'article ou la page. Ceux qui vous sont importants à connaitre sont en rouge:</p>
-<ul>
-    <li><span class="inline-code">ID</span></li>
-    <li><span class="inline-code">post_title</span></li>
-    <li><span class="inline-code">post_content</li></span>
-    <li><span class="inline-code">post_content_filtered</li></span>
-    <li><span class="inline-code">post_excerpt</span></li>
-    <li><span class="inline-code">post_author</span> </li>
-    <li><span class="inline-code">post_date</li></span>
-    <li><span class="inline-code">post_date_gmt</li></span>
-    <li><span class="inline-code">comment_status</li></span>
-    <li><span class="inline-code">ping_status</li></span>
-    <li><span class="inline-code">post_password</li></span>
-    <li><span class="inline-code">post_name</li></span>
-    <li><span class="inline-code">to_ping</li></span>
-    <li><span class="inline-code">pinged</li></span>
-    <li><span class="inline-code">post_modified</li></span>
-    <li><span class="inline-code">post_modified_gmt</li></span>
-    <li><span class="inline-code">post_parent</span></li>
-    <li><span class="inline-code">guid</li></span>
-    <li><span class="inline-code">menu_order</li></span>
-    <li><span class="inline-code">post_type</li></span>
-    <li><span class="inline-code">post_mime_type</li></span>
-    <li><span class="inline-code">comment_count</li></span>
-</ul>
-<p>Vous pouvez consulter <a href="https://docs.pods.io/displaying-pods/post-standard-fields-reference/" target="_blank" rel="noopener noreferrer">cet article</a> pour plus d'informations.</p>
+<br>
+<img src="images/contenu-base-editeur-page.jpg" alt="Éditeur de page de WP et quelques zones nommées ci-dessus qui y sont identifiées." style="box-shadow: 0 0 10px rgba(30,30,0,0.2);">
+
+
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>

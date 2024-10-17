@@ -3,34 +3,38 @@
  * @type     article
  * @title    Champs avancés personnalisés
  * @icon     ../medias/icon.webp
- * @abstract ACF - Advanced Custom Fields
+ * @abstract SCF - Secure Custom Fields
  * @index    85
  * @ref      web/wordpress
  */
 ?>
 <p>Les champs&nbsp;<em>Titre</em>&nbsp;et&nbsp;<em>Contenu</em>&nbsp;sont efficaces pour afficher les contenus texte de base d'une page ou d'un article, mais il arrive que certains projets requièrent plus de deux&nbsp;champs pour réaliser certaines mise en&nbsp;page.</p><p>Par exemple, si l'éditeur exige de pouvoir choisir la couleur de fond de chacune de ses pages, comment lui donner cette possibilité? Un nouveau champ dédié à la couleur de la page sera&nbsp;nécessaire.</p>
 
-<p>Souvent abrégé&nbsp;<strong>ACF</strong>,&nbsp;<a href="https://www.advancedcustomfields.com/" target="_blank">Advanced Custom Fields</a>&nbsp;est l'une des extensions les plus utiles aux développeurs&nbsp;WordPress.</p><p>Elle permet d'ajouter plusieurs types de champs et d'en créer autant que&nbsp;désiré. Pour reprendre l'exemple précédent, il serait possible d'ajouter un champs de sélection de couleur&nbsp;<em>(color&nbsp;picker)</em>.</p>
+<p>Souvent abrégé&nbsp;<strong>SCF</strong>,&nbsp;<a href="https://wordpress.org/plugins/advanced-custom-fields/" target="_blank">Secure Custom Fields</a>&nbsp; est un dérivé récent de <em>Advanced Custom Fields (ACF)</em> qui est l'une des extensions les plus utiles aux développeurs&nbsp;WordPress.</p>
+
+<p>Elle permet d'ajouter plusieurs types de champs et d'en créer autant que&nbsp;désiré. Pour reprendre l'exemple précédent, il serait possible d'ajouter un champs de sélection de couleur&nbsp;<em>(color&nbsp;picker)</em>.</p>
 
 
 
 <dots></dots>
 <grostitre>Installation</grostitre>
 
-<p>Dans l'onglet extensions&nbsp;<em>(plugins)</em>&nbsp;du tableau de bord, recherchez&nbsp;<em>Advanced Custom Fields</em>&nbsp;et repérez l'extension créée par Elliot&nbsp;Condon.</p>
+<p>Dans l'onglet extensions&nbsp;<em>(plugins)</em>&nbsp;du tableau de bord, recherchez&nbsp;<em>Secure Custom Fields</em>&nbsp;et repérez l'extension originalement créée par Elliot&nbsp;Condon mais dont l'auteur est maintenant WordPress.org.</p>
 
-<p>Installez et activez&nbsp;là.
-<img src="images/acf-peview.jpg" alt="ACF prévisualisation de l'extension"></p>
+<p>Installez et activez&nbsp;là.</p>
+<img src="../posts-personnalises/images/secure-custom-fields.jpg" alt="Extension Secure Custom Fields">
 
 
 
 <dots></dots>
 <grostitre>Création de champs</grostitre>
 
-<p>Une fois installée, un onglet&nbsp;<incode>ACF</incode>&nbsp;(ou en anglais&nbsp;<em>Custom Fields</em>) devrait être visible dans la barre latérale servant de&nbsp;menu.</p><p>À partir de cet onglet, il est possible de créer des nouveaux&nbsp;<incode>Groupes de champs</incode>&nbsp;<em>(New Field Group)</em>&nbsp;en cliquant sur&nbsp;<incode>Ajouter</incode>&nbsp;<em>(Add&nbsp;New)</em>.</p>
+<p>Une fois installée, un onglet&nbsp;<incode>SCF</incode>&nbsp;(ou en anglais&nbsp;<em>Custom Fields</em>) devrait être visible dans la barre latérale servant de&nbsp;menu.</p>
+
+<p>Cliquez ensuite sur <em>Field Groups</em>. À partir de cet onglet, il est possible de créer des nouveaux&nbsp;<incode>Groupes de champs</incode>&nbsp;<em>(New Field Group)</em>&nbsp;en cliquant sur&nbsp;<incode>Ajouter</incode>&nbsp;<em>(Add&nbsp;New)</em>.</p>
 
 
-<img src="images/acf-menu.jpg" alt="Menu ACF">
+<img src="images/scf-menu.jpg" alt="Menu SCF" style="max-width: 250px;">
 
 <ol start="1">
     <li><p>Nommez votre nouveau groupe de&nbsp;champs.</p></li>
@@ -159,21 +163,20 @@
 
 <dots></dots>
 <grostitre>Export</grostitre>
-<p>Advanced Custom Fields permet d'exporter la structure de ses groupes de champs afin de pouvoir les importer sur un autre site. </p>
+<p>Secure Custom Fields permet d'exporter la structure de ses groupes de champs afin de pouvoir les importer sur un autre site. </p>
 
 
 <h3 class="heading heading--h3" id="Exportation">Exportation</h3>
 
 
-<p>Il faut aller dans l'onglet <incode>ACF</incode> et sélectionner l'option <incode>Outils</incode> <em>(Tools)</em>. À cet endroit dans la colonne de gauche, une liste de boites à cocher permet de choisir les groupes de champs à exporter. Lorsque ce choix est terminé, cliquez sur le bouton <em>Exporter le fichier</em> afin d'obtenir un fichier JSON contenant lesdites structures.</p>
+<p>Il faut aller dans l'onglet <incode>SCF</incode> et sélectionner l'option <incode>Outils</incode> <em>(Tools)</em>. À cet endroit dans la colonne de gauche, une liste de boites à cocher permet de choisir les type de post ainsi que les groupes de champs à exporter. Lorsque ce choix est terminé, cliquez sur le bouton <em>Export As JSON</em> afin d'obtenir un fichier JSON contenant lesdites structures.</p>
 
 
-<warning>Attention, cette exportation <strong>n’inclut pas les valeurs</strong>, uniquement la structure des&nbsp;champs.</warning>
+<warning>Attention, cette exportation <strong>n’inclut pas les valeurs</strong>, uniquement la STRUCTURE des&nbsp;champs.</warning>
 
 <h3 class="heading heading--h3" id="Importation">Importation</h3>
-<p>Pour importer des groupes de champs, il faut aussi aller dans l'onglet <incode>ACF</incode> et sélectionner l'option <incode>Outils</incode> <em>(Tools)</em>. Sur cette page, dans la colonne de droite, se trouve un champs permettant de charger un fichier JSON. Importez le fichier désiré permet de recréer une structure de champs ACF d'un projet à un autre.</p>
+<p>Pour importer des groupes de champs, il faut aussi aller dans l'onglet <incode>SCF</incode> et sélectionner l'option <incode>Outils</incode> <em>(Tools)</em>. Sur cette page, dans la colonne de droite, se trouve un champs permettant de charger un fichier JSON. Importez le fichier désiré permet de recréer une structure de champs SCF d'un projet à un autre.</p>
 
 
-<warning>Assurez-vous que l’extension ACF soit installée sur le nouveau site avant d’importer une structure de groupe de&nbsp;champs.</warning>
+<warning>Assurez-vous que l’extension SCF soit installée sur le nouveau site avant d’importer des type de post et une structure de groupe de&nbsp;champs.</warning>
 
-<alert>Pour n'importer que des groupes de champs, assurez-vous lors de l'importation de ne pas cocher l'option "Import from Custom Post Type UI".</alert>

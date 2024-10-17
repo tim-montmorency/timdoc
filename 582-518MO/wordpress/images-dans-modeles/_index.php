@@ -1,15 +1,16 @@
 <?php 
 /**
  * @type     article
- * @title    Affichage des images
+ * @title    Modèle: Les images
  * @icon     ../medias/icon.webp
- * @abstract Contrôler l'affichage des images dans un modèle du thème
+ * @abstract Contrôler l'affichage des images dans les modèles (template) du thème
  * @index    90
  * @ref      web/wordpress
  */
 ?>
 
-<p>Pour afficher les <em>images mise en avant</em> (image principale du post) dans un modèle (template), il vous suffit, un peu comme <incode>&lt;?php the_title();?&gt;</incode> et  <incode>&lt;?php the_content();?&gt;</incode> d'appeler la fonction suivante:</p>
+
+<p>Pour afficher les <em>images mise en avant</em> (image principale du post) dans un modèle (template), il vous suffit d'appeler la fonction suivante:</p>
 
 <highlight lang="php">&lt;?php the_post_thumbnail(); ?&gt;</highlight>
 
@@ -60,5 +61,14 @@ the_post_thumbnail( 'full' );
 <dots></dots>
 <grostitre>Images non reliées à un post</grostitre>
 <p>Il est possible que vous ayez besoin de différentes images non reliées à un post spécifique pour contruire votre thème. Pour ce faire, vous pouvez les déposer dans un dossiers <em>images</em> dans votre thème.</p>
-<p>Pour générer la balise image en question, il vous suffira d'inscrire: </p>
+<p>Pour générer la balise image du fichier <em>fichier-image.svg</em>, il vous suffira d'inscrire: </p>
 <highlight lang="html">&lt;img src=&quot;&lt;?php bloginfo(&#39;template_url&#39;); ?&gt;/images/fichier-image.svg&quot;&gt;</highlight>
+
+<!--
+Petite parenthèse à propos des images. Il faut faire la distinction entre les <em>images comprises dans le dossier d'un thème WP</em> et <em>les images de contenu</em>. 
+<ul>
+    <li>Les images que vous ajoutez dans le dossier de thème doivent être limitées au design général du thème: le logo du site peut être dans le thème et possiblement des icônes qui font partie de l'imagerie de votre thème.</li>
+
+    <li>Toutes les autres images ne devraient pas être dans le dossier de votre thème. Elles devraient être chargées dans la bibliothèque média de l'interface d'administration de WordPress. On parle ici des images de contenu, les images de la section héro (et ce, même si ce sont des images d'arrière plan), les logos des partenaires etc.</li>
+</ul>
+-->
