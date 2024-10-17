@@ -68,6 +68,7 @@ Pour tester, vous pouvez créer une deuxième page avec des contenu différents 
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
+<intlink href='../wordpress/modeles/'></intlink>
 <intlink href='../../wordpress/contenu-dans-modeles/'></intlink>
 <intlink href='../../wordpress/images-dans-modeles/'></intlink>
 
