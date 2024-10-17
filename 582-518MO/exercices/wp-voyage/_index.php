@@ -26,18 +26,18 @@
 
 <h3 class="heading heading--h3" id="Médias 🖼️">Médias 🖼️</h3>
 <mediafile src="images/paddleboard.webp">Arrière plan du la section héro (image mise en avant)</mediafile>
-<mediafile src="images/voyage.zip">Thème débuté par votre co-équipier fictif</mediafile>
+<mediafile src="images/voyage.zip">Thème débuté par votre collègue fictif</mediafile>
 
  
 <dots></dots>
 <grostitre>Requis</grostitre>
 <checklist>Installez en local une copie en <a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/download/">Français du Canada de WordPress</a> pour votre client.
-Installez le <a target="_blank" rel="noopener noreferrer" href="">thème réalisé par votre collègue</a>. Si vous l'avez installé et vous le cherchez, sachez que c'est le thème qui se nomme "Voyage".
-Créez un modèle nommé <em>voyage</em> pour les pages de ce type (vous pouvez partir d'un autre modèle).
-Faite en sorte que le modèle suive les balises HTML fourni dans le codePen de votre collège.
-Lorsque cela est réglé. Créez une page dans Wordpress et appliquez lui votre nouveau modèle <em>voyage</em>.
+Installez le <a target="_blank" rel="noopener noreferrer" href="images/voyage.zip">thème débuté par votre collègue</a>. Le thème se nomme "voyage". N'oubliez pas de l'activer!
+Dans le thème, créez un modèle nommé <em>voyage</em> pour les pages de ce type (si cela vous aide, vous pouvez partir d'un autre modèle pour le créer).
+Faites en sorte que le modèle suive les balises HTML fourni dans le codePen de votre collègue.
+Lorsque cela est réglé, créez une page dans WordPress et appliquez lui votre nouveau modèle <em>voyage</em>.
 Allez éditer votre modèle pour dymaniser les contenus titre, contenu, image d'avant-plan, auteur, date et heure de publication.
-Pour tester, vous pouvez créer une deuxième page avec d'autres contenu différents en utilisant le même modèle.
+Pour tester, vous pouvez créer une deuxième page avec des contenu différents de la première page, tout en utilisant le même modèle.
 </checklist>
 
 <h3>Contenu</h3>
