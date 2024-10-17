@@ -1438,7 +1438,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <!--<exercice href='../exercices/wp-voyage/'></exercice>-->
     
     <dots></dots>
-    <h3>Et si on veut enrichir la base?</h3>
+    <h3>Et si on veut ajouter d'autres types de contenu et de champs que ceux prévus par le "core" de WordPres?</h3>
     <intlink href="../wordpress/posts-personnalises/"></intlink>
     <intlink href="../wordpress/advanced-custom-fields/"></intlink>
     <!--<exercice href='../exercices/wp-valet-de-coeur/'></exercice>-->
