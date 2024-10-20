@@ -16,7 +16,7 @@
 <dots></dots>
 
 <grostitre>Usage</grostitre>
-<p>Éditeur avec boîte à outils intégré qui vous permet de réaliser une mise-en-page perosnnalisée sans coder ni HTML, ni CSS.</p>
+<p>Éditeur avec boîte à outils intégré qui vous permet de réaliser une mise-en-page personnalisée sans coder ni HTML, ni CSS.</p>
 
 <p>Attention, il ne faut pas confondre un modèle (<em>template</em>) et l'utilisation de la mise en page par l'éditeur Gutenberg. Ce dernier sert essentiellement à la mise-en-page du contenu d'un article sprécifique et le tout se place un peu "à la main". Par exemple si je souhaite inclure une image au milieu d'un article et l'afficher à côté d'un paragraphe, je peux utiliser cet éditeur pour créer deux colonnes et y placer mon contenu, à droite l'image, à gauche mon paragraphe.</p>
 

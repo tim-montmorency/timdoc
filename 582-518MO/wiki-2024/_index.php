@@ -1438,7 +1438,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <exercice href='../exercices/wp-voyage/'></exercice>
     
     <dots></dots>
-    <h3>Et si on veut ajouter d'autres types de contenu et de champs que ceux prévus par le "core" de WordPres?</h3>
+    <h3>Et si on veut ajouter d'autres types de contenu et de champs que ceux prévus par le "core" de WordPress?</h3>
     <intlink href="../wordpress/posts-personnalises/"></intlink>
     <intlink href="../wordpress/advanced-custom-fields/"></intlink>
     <!--<exercice href='../exercices/wp-valet-de-coeur/'></exercice>-->
@@ -1456,7 +1456,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <dots></dots>
     <grostitre>Devoirs</grostitre>
-    <p>Terminer les 2 exercices commencés en classe (pour jeudi prochain).</p>
+    <p>Terminer l'exercice commencé en classe.</p>
     <h4>Projet de session</h4>
     <p>Continuez d'avancer l'intégration des autres pages du projet (SCSS+HTML+JS). Voir votre tableau Trello et les <a href="https://tim-montmorency.com/timdoc/582-518MO/projet/requis-client/" target="_blank" rel="noopener noreferrer">requis client</a> pour le rien oublier. </p>   
 
@@ -1468,64 +1468,73 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 8 lundi ----------------------->
 <!---------------------- Cours 8 lundi ----------------------->
 
-<wiki-page name="Sem08.lundi" date="2024-10-21">
+<wiki-page name="Sem08.lundi" date="2024-10-20">
+    <grostitre>Annonce et rappel</grostitre>
+    <p>Rappel que la <em>PS – REMISE 5 – MISE EN PAGE STATIQUE</em> est dûe pour <em>jeudi le 7 novembre</em>.</p>
+    <p>J'ai encore repoussé la remise de <em>PS – REMISE 4 – PLANIFICATION STRATÉGIQUE DE LA CRÉATION DU THÈME WP</em> afin que vous vous conncentriez sur l'intégration de vos page statiques. La nouvelle date de remise sera le <em>mercredi le 13 novembre</em>. Les instructions viendront prochainement.</p>
 
 
-    <h2>Annonces</h2>
-    <p>Présentées en classe.</p>
-      <!-- 
+    <grostitre>Révision sur la création d'un thème Wordpress</grostitre>
+    <p><a href="https://tim-montmorency.com/timdoc/582-518MO/wordpress/medias/theme-de-base.zip" target="_blank" rel="noopener noreferrer">Voici des fichiers</a> qui peuvent vous être utiles pour démarrer un thème Wordpress.</p>
+    <intlink href='../wordpress/styles-css/'></intlink>
+    <intlink href='../wordpress/modeles/'></intlink>
+    <intlink href='../wordpress/partiels/'></intlink>
 
+    <h3>Afficher les champs de base (title, content, image) dans un modèle WP.</h3>
+    <intlink href='../wordpress/contenu-dans-modeles/'></intlink>
+    <intlink href='../wordpress/images-dans-modeles/'></intlink>
 
-    * Menus WP
-    * Crochet WP: action et filtres
-    * Built-in custom field options https://metabox.io/easy-way-to-add-custom-fields-in-wordpress-without-plugins/
-    * Type de contenu personnalisé (custom post type)
-    * Advanced custom fields
+    <h3>Et si on veut ajouter d'autres types de contenu et de champs que ceux prévus par le "core" de WordPress?</h3>
+    <intlink href="../wordpress/posts-personnalises/"></intlink>
+    <intlink href="../wordpress/advanced-custom-fields/"></intlink>
 
-    WORDPRESS
-    * Éditeur Gutenberg
-    * WP-multilang
-    * Yoast-SEO
-
-    Exercice:
-    * Valet de coeur
-
-
-    * En classe, rencontre en équipe avec prof pour évaluation formative.
-
-    * Présenter les instructions de la remise 4 - Planification stratégique de la création du thème WP 
-    -->
+    
     <dots></dots>
+    <grostitre>Gitignore</grostitre>
+    <h3>.gitignore pour exclure les fichiers de base de wp </h3>
+    <intlink href="../git/gitignore/"></intlink>
+    <alert style="display: flex; align-items: flex-start;">
+        <img src="images/gitignore-all-except-wpcontent.jpg" alt="" style="width: 100%; max-width: 200px; display:block; margin-right: 20px;">
+        <div>
+            <h3>Dans le cas d'un projet WordPress dans un répertoire git.</h3>
+            <p>Le fichier gitignore devra ignorer tous les fichiers et dossiers à l’exception du dossier <em>wp-content</em> et de son contenu.</p>
+            <p><strong>N'oubliez surtout pas d'ignorez aussi le fichier wp-config.php qui contiendra les informations de connexion à la base de données et qui doit absolument rester privé.</strong></p>
+            <p>De la sorte, les fichiers de base de WordPress ne seront pas sauvegardés sur votre répertoire GitHub et donc ne pourront pas générer de conflits dans l’éventualité d’une mise à jour de WordPress.</p>
+        </div>
+    </alert>
+        
 
-    <h2>WORDPRESS</h2>
+    <dots></dots>
+    <grostitre>Quiz</grostitre>
+    <p><a href="https://app.wooclap.com/HPCGSP" target="_blank" rel="noopener noreferrer">Groupe AM</a><br>
+    <a href="https://app.wooclap.com/XTSRQI" target="_blank" rel="noopener noreferrer">Groupe PM</a> </p>
+
+
+    <dots></dots>
+    <grostitre>Révision de l'exercice</grostitre>
+    <intlink href='../exercices/wp-voyage/'></intlink>
+
+
+    <dots></dots>
+    <grostitre>WordPress</grostitre>
     <intlink href="../wordpress/menus/"></intlink>
-    <intlink href="../wordpress/wp-crochets-action-filtre/"></intlink>
-    <intlink href="../wordpress/wp-editeur-gutenberg/"></intlink>
     <intlink href="../wordpress/wp-multilang/"></intlink>
     <intlink href="../wordpress/yoast-seo/"></intlink>
 
-    <h2>Exercice en classe et révision en classe</h2>
-    <intlink href="../exercices/wp-valet-de-coeur/"></intlink>
+
+    <h3>Exercice en classe</h3>
+    <exercice href='../exercices/wp-valet-de-coeur/'></exercice>
+
     <p>+</p>
-    <p>Je passe individuellement pour vérifier votre github et votre installation en local WP de votre projet de
-        session.</p>
+    <p>Je passe individuellement pour vérifier votre github et votre installation en local WP de votre projet de session.</p>
+
+
     <dots></dots>
+    <grostitre>DEVOIRS</grostitre>
+    
+     <p>Terminer l'exercice commencé en classe.</p>
+     <p>Continuez d'avancer l'intégration des autres pages du projet (SCSS+HTML+JS). Voir votre tableau Trello et les <a href="https://tim-montmorency.com/timdoc/582-518MO/projet/requis-client/" target="_blank" rel="noopener noreferrer">requis client</a> pour le rien oublier. REMISE LE 7 NOVEMBRE</p>   
 
-    <h2>JAVASCRIPT</h2>
-    <intlink href="../javascript/promesses-js/"></intlink>
-    <intlink href="../javascript/fetch-api/"></intlink>
-
-
-    <h2>2 exercices Fetch API</h2>
-    <p>Je passe équipe par équipe afin que vous me montriez ou vous en êtes dans votre projet et que je vous recommende où vous devriez en être pour la semaine prochaine.</p>
-
-    <h2>DEVOIRS</h2>
-    <p>Avancez le plus loin possible l'exercice dont le lien a été fourni vers la fin du cours aujourd'hui. Essayez le
-        le compléter d'ici le prochain cours, sinon vous allez devoir le faire PENDANT le prochain cours et vous allez
-        prendre du retard sur le prochain exercice important et celui-ci l'est tout autant!</p>
-   <p>Terminer les exercices commencés en classe.</p>
-   <intlink href="../exercices/fetch-api-zoom/"></intlink>
-   <intlink href="../exercices/fetch-api-pokemon-api/"></intlink>
    
 </wiki-page>
 
@@ -1539,7 +1548,21 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
  \_____\___/ \__,_|_|  |___/   /_/                 
 ----------------------------------->
 
-<wiki-page name="Cours 09" date="2024-10-23">
+<wiki-page name="Cours 09" date="2024-10-24">
+
+    <grostitre>Annonce et rappel</grostitre>
+    <p>Rappel que la <em>PS – REMISE 5 – MISE EN PAGE STATIQUE</em> est dûe pour <em>jeudi le 7 novembre</em>.</p>
+    <p>J'ai encore repoussé la remise de <em>PS – REMISE 4 – PLANIFICATION STRATÉGIQUE DE LA CRÉATION DU THÈME WP</em> afin que vous vous conncentriez sur l'intégration de vos page statiques. La nouvelle date de remise sera le <em>mercredi le 13 novembre</em>.</p>
+
+    <grostitre>Wordpress</grostitre>
+
+    <intlink href="../wordpress/wp-crochets-action-filtre/"></intlink>
+    <!-- TODO: exercice intégration menu bootstrap avec hook -->
+    <intlink href="../wordpress/wp-editeur-gutenberg/"></intlink>
+    <!-- TODO: exercice recréé la mise en page que vous voyez avec l'éditeur gutenberg -->
+
+
+
     <!-- 
     NOTE MM NOTE MM NOTE MM 
     Wordpress : intégrer logo, personnaliser le site, intégrer le menu, intégrer Bootsrap, monter l'accueil etc
