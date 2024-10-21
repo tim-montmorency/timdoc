@@ -1471,7 +1471,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <wiki-page name="Sem08.lundi" date="2024-10-21">
     <grostitre>Annonce et rappel</grostitre>
     <p>Rappel que la <em>PS – REMISE 5 – MISE EN PAGE STATIQUE</em> est dûe pour <em>jeudi le 7 novembre</em>.</p>
-    <p>J'ai encore repoussé la remise de <em>PS – REMISE 4 – PLANIFICATION STRATÉGIQUE DE LA CRÉATION DU THÈME WP</em> afin que vous vous conncentriez sur l'intégration de vos page statiques. La nouvelle date de remise sera le <em>mercredi le 13 novembre</em>. Les instructions viendront prochainement.</p>
+    <p>J'ai encore repoussé la remise de <em>PS – REMISE 4 – PLANIFICATION STRATÉGIQUE DE LA CRÉATION DU THÈME WP</em> afin que vous puissiez vous concentrer sur l'intégration de vos page statiques. La nouvelle date de remise pour la planification stratégique sera le <em>mercredi le 13 novembre</em>.</p>
 
 
     <grostitre>Révision sur la création d'un thème Wordpress</grostitre>
@@ -1485,6 +1485,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href='../wordpress/images-dans-modeles/'></intlink>
 
     <h3>Et si on veut ajouter d'autres types de contenu et de champs que ceux prévus par le "core" de WordPress?</h3>
+    <p>Groupe 1: Nous n'avions pas tout couvert jeudi alors revenons sur le sujet.</p>
     <intlink href="../wordpress/posts-personnalises/"></intlink>
     <intlink href="../wordpress/advanced-custom-fields/"></intlink>
 
@@ -1561,7 +1562,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <grostitre>Annonce et rappel</grostitre>
     <p>Rappel que la <em>PS – REMISE 5 – MISE EN PAGE STATIQUE</em> est dûe pour <em>jeudi le 7 novembre</em>.</p>
-    <p>J'ai encore repoussé la remise de <em>PS – REMISE 4 – PLANIFICATION STRATÉGIQUE DE LA CRÉATION DU THÈME WP</em> afin que vous vous conncentriez sur l'intégration de vos page statiques. La nouvelle date de remise sera le <em>mercredi le 13 novembre</em>.</p>
+    <p>J'ai encore repoussé la remise de <em>PS – REMISE 4 – PLANIFICATION STRATÉGIQUE DE LA CRÉATION DU THÈME WP</em> afin que vous puissiez vous concentrer sur l'intégration de vos page statiques. La nouvelle date de remise pour la planification stratégique sera le <em>mercredi le 13 novembre</em>.</p>
 
     <!-- Je pense leur donner le cours pour travailler sur leur projet -->
 
