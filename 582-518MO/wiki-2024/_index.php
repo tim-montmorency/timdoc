@@ -1468,7 +1468,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 8 lundi ----------------------->
 <!---------------------- Cours 8 lundi ----------------------->
 
-<wiki-page name="Sem08.lundi" date="2024-10-20">
+<wiki-page name="Sem08.lundi" date="2024-10-19">
     <grostitre>Annonce et rappel</grostitre>
     <p>Rappel que la <em>PS – REMISE 5 – MISE EN PAGE STATIQUE</em> est dûe pour <em>jeudi le 7 novembre</em>.</p>
     <p>J'ai encore repoussé la remise de <em>PS – REMISE 4 – PLANIFICATION STRATÉGIQUE DE LA CRÉATION DU THÈME WP</em> afin que vous vous conncentriez sur l'intégration de vos page statiques. La nouvelle date de remise sera le <em>mercredi le 13 novembre</em>. Les instructions viendront prochainement.</p>
@@ -1528,6 +1528,10 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <p>+</p>
     <p>Je passe individuellement pour vérifier votre github et votre installation en local WP de votre projet de session.</p>
 
+    <dots></dots>
+    <grostitre>Reste du cours</grostitre>
+    <p>Travaillez sur votre projet.</p>
+
 
     <dots></dots>
     <grostitre>DEVOIRS</grostitre>
@@ -1548,11 +1552,17 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
  \_____\___/ \__,_|_|  |___/   /_/                 
 ----------------------------------->
 
-<wiki-page name="Cours 09" date="2024-10-24">
+<!---------------------- Cours 9 jeudi ----------------------->
+<!---------------------- Cours 9 jeudi ----------------------->
+<!---------------------- Cours 9 jeudi ----------------------->
+
+<wiki-page name="Sem08.jeudi" date="2024-10-24">
 
     <grostitre>Annonce et rappel</grostitre>
     <p>Rappel que la <em>PS – REMISE 5 – MISE EN PAGE STATIQUE</em> est dûe pour <em>jeudi le 7 novembre</em>.</p>
     <p>J'ai encore repoussé la remise de <em>PS – REMISE 4 – PLANIFICATION STRATÉGIQUE DE LA CRÉATION DU THÈME WP</em> afin que vous vous conncentriez sur l'intégration de vos page statiques. La nouvelle date de remise sera le <em>mercredi le 13 novembre</em>.</p>
+
+    <!-- Je pense leur donner le cours pour travailler sur leur projet -->
 
     <grostitre>Wordpress</grostitre>
 
@@ -1623,10 +1633,23 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
    <intlink href="../exercices/wp-query-les-bagnoles/"></intlink>
    <intlink href="../exercices/wp-rest-api-vice-versa/"></intlink>
 
+</wiki-page>
 
+
+
+<!---------------------- Cours 9 lundi ----------------------->
+<!---------------------- Cours 9 lundi ----------------------->
+<!---------------------- Cours 9 lundi ----------------------->
+<wiki-page name="Cours 10" date="2024-10-28">
 
 
 </wiki-page>
+
+
+
+
+
+
 
 
 <!-----------------------------------
