@@ -1524,8 +1524,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
     <h3>Exercice en classe</h3>
-    <p>Lien à venir</p>
-    <!--<exercice href='../exercices/wp-valet-de-coeur/'></exercice>-->
+
+    <exercice href='../exercices/wp-valet-de-coeur/'></exercice>
 
     <p>+</p>
     <p>Je passe individuellement pour vérifier votre github et votre installation en local WP de votre projet de session.</p>
