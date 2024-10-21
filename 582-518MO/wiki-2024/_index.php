@@ -1468,7 +1468,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 8 lundi ----------------------->
 <!---------------------- Cours 8 lundi ----------------------->
 
-<wiki-page name="Sem08.lundi" date="2024-10-19">
+<wiki-page name="Sem08.lundi" date="2024-10-21">
     <grostitre>Annonce et rappel</grostitre>
     <p>Rappel que la <em>PS – REMISE 5 – MISE EN PAGE STATIQUE</em> est dûe pour <em>jeudi le 7 novembre</em>.</p>
     <p>J'ai encore repoussé la remise de <em>PS – REMISE 4 – PLANIFICATION STRATÉGIQUE DE LA CRÉATION DU THÈME WP</em> afin que vous vous conncentriez sur l'intégration de vos page statiques. La nouvelle date de remise sera le <em>mercredi le 13 novembre</em>. Les instructions viendront prochainement.</p>
