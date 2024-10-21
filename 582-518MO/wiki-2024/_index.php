@@ -1522,17 +1522,22 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href="../wordpress/wp-multilang/"></intlink>
     <intlink href="../wordpress/yoast-seo/"></intlink>
 
+    <dots></dots>
+    <grostitre>Erreurs PHP</grostitre>
+    <p>Comment consulter les erreurs lorsqu'on code en PHP dans les thèmes WordPress?  Activez l'affichage des erreurs en attribuant la valeur <span class='inline-code'>true</span> à <span class='inline-code'>WP_DEBUG</span> dans le fichier <em>wp-config.php</em>.</p>
+    <highlight lang='php'>
+        &lt;?php 
+    define( &#39;WP_DEBUG&#39;, true );
+?&gt;</highlight>
 
-    <h3>Exercice en classe</h3>
+    <dots></dots>
+    <grostitre>Exercice en classe</grostitre>
+    <p>Lien à venir</p>
 
-    <exercice href='../exercices/wp-valet-de-coeur/'></exercice>
+    <!--<exercice href='../exercices/wp-valet-de-coeur/'></exercice>-->
 
     <p>+</p>
     <p>Je passe individuellement pour vérifier votre github et votre installation en local WP de votre projet de session.</p>
-
-    <dots></dots>
-    <grostitre>Reste du cours</grostitre>
-    <p>Travaillez sur votre projet.</p>
 
 
     <dots></dots>
