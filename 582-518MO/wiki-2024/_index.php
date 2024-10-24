@@ -1574,8 +1574,6 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <p>Pour le groupe du matin, je passe individuellement pour vérifier votre github et votre installation en local WP de votre projet de session. Votre DevOp est responsable de vous aider et si ce n'est pas fait, c'est lui qui va être affecté.</p>
 
-
-
     <!-- Je pense leur donner le cours pour travailler sur leur projet -->
     <dots></dots>
     <grostitre>Devoir</grostitre>
