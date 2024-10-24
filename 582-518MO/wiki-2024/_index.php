@@ -1561,13 +1561,40 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 9 jeudi ----------------------->
 <!---------------------- Cours 9 jeudi ----------------------->
 
-<wiki-page name="Sem08.jeudi" date="2024-10-24">
+<wiki-page name="Sem09.jeudi" date="2024-10-24">
 
     <grostitre>Annonce et rappel</grostitre>
     <p>Rappel que la <em>PS – REMISE 5 – MISE EN PAGE STATIQUE</em> est dûe pour <em>jeudi le 7 novembre</em>.</p>
-    <p>J'ai encore repoussé la remise de <em>PS – REMISE 4 – PLANIFICATION STRATÉGIQUE DE LA CRÉATION DU THÈME WP</em> afin que vous puissiez vous concentrer sur l'intégration de vos page statiques. La nouvelle date de remise pour la planification stratégique sera le <em>mercredi le 13 novembre</em>.</p>
+    <p>J'ai encore repoussé la remise de <em>PS – REMISE 4 – PLANIFICATION STRATÉGIQUE DE LA CRÉATION DU THÈME WP</em> afin que vous puissiez vous concentrer sur l'intégration de vos page statiques. La nouvelle date de remise pour la planification stratégique sera le <em>mercredi le 13 novembre</em>. Les instructions viendront bientôt.</p>
+
+    <dots></dots>
+    <grostitre>Aujourd'hui</grostitre>
+
+    <p>Avancement en classe des pages statiques. Ceux qui éprouvent de la difficulté avec leur HTML et SCSS, je veux qu'on se rencontre pendant le cours. Inscrivez vos noms au tableau.</p>
+
+    <p>Pour le groupe du matin, je passe individuellement pour vérifier votre github et votre installation en local WP de votre projet de session. Votre DevOp est responsable de vous aider et si ce n'est pas fait, c'est lui qui va être affecté.</p>
+
+
 
     <!-- Je pense leur donner le cours pour travailler sur leur projet -->
+    <dots></dots>
+    <grostitre>Devoir</grostitre>
+    <h3>Compléter Valet de coeur pour lundi</h3>
+    <intlink href='../exercices/wp-valet-de-coeur/'></intlink>
+
+    <h3>Projet de session</h3>
+    <p>Continuez d'avancer l'intégration des autres pages du projet (SCSS+HTML+JS). Voir votre tableau Trello et les <a href="https://tim-montmorency.com/timdoc/582-518MO/projet/requis-client/" target="_blank" rel="noopener noreferrer">requis client</a> pour le rien oublier. REMISE LE 7 NOVEMBRE</p>   
+
+   
+
+</wiki-page>
+
+
+
+<!---------------------- Cours 9 lundi ----------------------->
+<!---------------------- Cours 9 lundi ----------------------->
+<!---------------------- Cours 9 lundi ----------------------->
+<wiki-page name="Sem09.lundi" date="2024-10-28">
 
     <grostitre>Wordpress</grostitre>
 
@@ -1581,46 +1608,11 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <!-- 
     NOTE MM NOTE MM NOTE MM 
     Wordpress : intégrer logo, personnaliser le site, intégrer le menu, intégrer Bootsrap, monter l'accueil etc
--->
-    <h2>Quiz</h2>
-    Lundi - <a href="https://app.wooclap.com/NYCYUF" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;:
-        NYCYUF</a>
-    <br>
-    Vendredi - <a href="https://app.wooclap.com/KDZGZN" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;: KDZGZN
-    </a><br>
+    -->
 
-    <grostitre>Accéder au serveur web</grostitre>
-    <p>Pour accéder au serveur chez l'hébergeur hostpapa et au cPanel , vous pouvez visionner cette <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZd7jM8DNIZHndllts3nA0cBtrrGG2NBLBOuO7svWXVjug?e=ycH8Ui&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank" rel="noopener noreferrer">petite capsule vidéo</a>.</p>
 
-   
 
-    <h2>Projet de session : découpage de type de contenu et de champs personnalisés </h2>
 
-    <p>
-        En équipe: mindmap (markdown) avec extension VSCode : <em>MarkMap</em>.  <br>
-        Créez un fichier structure-site.md dans votre thème, ensuite ouvrir palette des commandes (ctrl+maj+p) et écrire
-       <em>Open as markmap</em>  + Enter
-    </p>
-    <p>
-    <ul>
-        <li> Listez toutes vos pages (titre niveau 1)</li>
-        <li> Par page vous allez lister :
-            <ul>
-                <li>TYPE DE CONTENU: Quel type de contenu (post-type) principal vous avez besoin (titre niveau 2)</li>
-                <li> MODÈLE: Quel sera le nom du modèle lié à cette page (ou ce type de page)?
-                    Ex: page.php, product.php ?</li>
-                <li> COMPOSANTE: Dans la page elle-même, qu’est-ce que vous évaluez être une composante qui aura son
-                    propre partial. Pour
-                    chaque composante nommée :
-                    <ul>
-                        <li>COMPOSANTE: Comment nommerez-vous le partial de cette composante (theme (php)) (tire niveau 3)</li>
-                        <li>ACF: Quel(s) champs ACF cette composante aura besoin et comment allez-vous les nommer ?</li>
-                    </ul>
-                </li>
-                <li>ACF: Outre les composantes, quels champs ACF avec-vous besoin de créer pour compléter la page en question</li>
-            </ul>
-        </li>
-    </ul>
 
     <dots></dots>
     <h2>WORDPRESS</h2>
@@ -1630,22 +1622,13 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <h2>2 exercices en classe</h2>
     <p>Exerice #1 <br>
-   Exerice #2</p>
-
-   <h2>DEVOIRS</h2>
-   <p>Prochain cours (cours 10): présentation client. Avancez vos pages statiques HTML et CSS (SCSS). Vous devez avoir terminé de monter 6 pages statiques pour la présentation du cours 10 et elles doivent être "responsives" (les animations GSAP ne sont pas obligatoires pour cette étapes mais tant mieux si vous les avez avancées).</p>
-   <p>Terminer les exercices commencés en classe.</p>
-   <intlink href="../exercices/wp-query-les-bagnoles/"></intlink>
-   <intlink href="../exercices/wp-rest-api-vice-versa/"></intlink>
-
-</wiki-page>
+    Exerice #2</p>
 
 
 
-<!---------------------- Cours 9 lundi ----------------------->
-<!---------------------- Cours 9 lundi ----------------------->
-<!---------------------- Cours 9 lundi ----------------------->
-<wiki-page name="Cours 10" date="2024-10-28">
+    <p>Terminer les exercices commencés en classe.</p>
+    <intlink href="../exercices/wp-query-les-bagnoles/"></intlink>
+    <intlink href="../exercices/wp-rest-api-vice-versa/"></intlink>
 
 
 </wiki-page>
