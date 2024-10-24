@@ -1459,6 +1459,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <p>Terminer l'exercice commencé en classe.</p>
     <h4>Projet de session</h4>
     <p>Continuez d'avancer l'intégration des autres pages du projet (SCSS+HTML+JS). Voir votre tableau Trello et les <a href="https://tim-montmorency.com/timdoc/582-518MO/projet/requis-client/" target="_blank" rel="noopener noreferrer">requis client</a> pour le rien oublier. </p>   
+    <intlink href='../projet/integration-pages-statiques/'></intlink>
 
 </wiki-page>  
 
@@ -1542,7 +1543,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <grostitre>DEVOIRS</grostitre>
     
      <p>Terminer l'exercice commencé en classe.</p>
-     <p>Continuez d'avancer l'intégration des autres pages du projet (SCSS+HTML+JS). Voir votre tableau Trello et les <a href="https://tim-montmorency.com/timdoc/582-518MO/projet/requis-client/" target="_blank" rel="noopener noreferrer">requis client</a> pour le rien oublier. REMISE LE 7 NOVEMBRE</p>   
+     <p>Continuez d'avancer l'intégration des autres pages du projet (SCSS+HTML+JS). Voir votre tableau Trello et les <a href="https://tim-montmorency.com/timdoc/582-518MO/projet/requis-client/" target="_blank" rel="noopener noreferrer">requis client</a> pour le rien oublier. REMISE LE 7 NOVEMBRE</p> 
+     <intlink href='../projet/integration-pages-statiques/'></intlink>
 
    
 </wiki-page>
@@ -1582,6 +1584,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <h3>Projet de session</h3>
     <p>Continuez d'avancer l'intégration des autres pages du projet (SCSS+HTML+JS). Voir votre tableau Trello et les <a href="https://tim-montmorency.com/timdoc/582-518MO/projet/requis-client/" target="_blank" rel="noopener noreferrer">requis client</a> pour le rien oublier. REMISE LE 7 NOVEMBRE</p>   
+    <intlink href='../projet/integration-pages-statiques/'></intlink>
 
    
 
