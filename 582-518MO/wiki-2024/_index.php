@@ -1567,6 +1567,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <grostitre>Annonce et rappel</grostitre>
     <p>Rappel que la <em>PS – REMISE 5 – MISE EN PAGE STATIQUE</em> est dûe pour <em>jeudi le 7 novembre</em>.</p>
+    <intlink href='../projet/integration-pages-statiques/'></intlink>
+    <br><br>
     <p>J'ai encore repoussé la remise de <em>PS – REMISE 4 – PLANIFICATION STRATÉGIQUE DE LA CRÉATION DU THÈME WP</em> afin que vous puissiez vous concentrer sur l'intégration de vos page statiques. La nouvelle date de remise pour la planification stratégique sera le <em>mercredi le 13 novembre</em>. Les instructions viendront bientôt.</p>
 
     <dots></dots>
