@@ -110,8 +110,7 @@
 
 <doclink href="https://developer.wordpress.org/reference/classes/wp_query/">WP_Query</doclink>
 
-<br><br>
 
-<exercice href="../../exercices/wp-query-les-bagnoles/"></exercice>
 
-<dots></dots>
+<!--<exercice href="../../exercices/wp-query-les-bagnoles/"></exercice>-->
+

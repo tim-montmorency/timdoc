@@ -56,4 +56,4 @@ Votre...</p>
       </aside>
   -->
 
-<exercice href="../../exercices/wp-query-les-bagnoles/"></exercice>
+<!--<exercice href="../../exercices/wp-query-les-bagnoles/"></exercice>-->
