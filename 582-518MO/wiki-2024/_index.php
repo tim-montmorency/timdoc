@@ -1612,13 +1612,14 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <grostitre>Exercices</grostitre>
     <p>Pendant l'exercice, je passe vérifier si vous avez bien complété l'exercice de lundi dernier "Valet de coeur"</p>
     <p>Lien vers l'exercice fourni en classe.</p>
-    <exercice href="../../exercices/wp-query-les-bagnoles/"></exercice>
+    <exercice href="../exercices/wp-query-les-bagnoles/"></exercice>
 
 
 
     <dots></dots>
     <grostitre>Devoirs</grostitre>
     <p>Terminer les exercices commencés en classe.</p>
+    <intlink href='../exercices/wp-query-les-bagnoles/'></intlink>
 
     <h3>Projet de session</h3>
     <p>Continuez d'avancer l'intégration des autres pages du projet (SCSS+HTML+JS). Voir votre tableau Trello et les <a href="https://tim-montmorency.com/timdoc/582-518MO/projet/requis-client/" target="_blank" rel="noopener noreferrer">requis client</a> pour le rien oublier. REMISE LE 7 NOVEMBRE</p>   
