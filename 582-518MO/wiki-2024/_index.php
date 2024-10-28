@@ -1612,7 +1612,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <grostitre>Exercices</grostitre>
     <p>Pendant l'exercice, je passe vérifier si vous avez bien complété l'exercice de lundi dernier "Valet de coeur"</p>
     <p>Lien vers l'exercice fourni en classe.</p>
-    <!--<exercice href="../../exercices/wp-query-les-bagnoles/"></exercice>-->
+    <exercice href="../../exercices/wp-query-les-bagnoles/"></exercice>
 
 
 
@@ -1761,12 +1761,6 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
  ----------------------------------->                                   
 
 <wiki-page name="Cours 11" date="2024-11-05">
-    <h2>Annonce: Custum Post Type UI (CPT UI) à supprimer</h2>
-
-    <p>Il y a un problème d'import et export avec les contenus provenant de Custom Post Type UI. J'ai donc dû changer un peu la procédure pour que vous puissiez bien travailler et exporter les changements que vous faites sur votre site en ligne (sur tim-momo.com) vers votre version en local.</p>
- 
-    <p>Vous allez devoir <em>supprimer l'extension Custom Post Type UI</em> sur le serveur tim-momo.com et sur votre instance de Wordpress en local.
-  <br> Vous allez dorénavant <em>créer vos post personnalisés avec Advanced Custom Field&nbsp;- ACF</em> (le sous onglet Post Types).</p>
 
     <dots></dots>
     <h2>Révision de l'exercice WP de la semaine passée</h2>
@@ -1871,6 +1865,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <br>
     Vendredi - <a href="https://app.wooclap.com/ZDTZQU" target="_blank" rel="noopener noreferrer">Code Wooclap : ZDTZQU
     </a>
+
+    <!-- voir à utiliser ça comme exercice vue? http://127.0.0.1:5502/582-518MO/exercices/chevalier/index.html -->
 
     <dots></dots>
     <h2>Révision exercices</h2>
