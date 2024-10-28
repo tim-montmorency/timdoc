@@ -9,7 +9,7 @@
  */
 ?>
 
-<p>Parfois, une page doit afficher des informations contenues dans d'autres posts. Par exemple, une page intitulée&nbsp;<em>Projets</em>&nbsp;pourrait contenir un texte de présentation suivi d'onglets cliquables montrant un aperçu des projets&nbsp;réalisés.</p>
+<p>Parfois, une page doit afficher des informations contenues dans d'autres posts. Par exemple, une page intitulée&nbsp;<em>Projets</em>&nbsp;pourrait contenir un texte de présentation suivi d'onglets cliquables montrant un aperçu des projets&nbsp;réalisés. <a href="https://normal.studio/fr/projects/" target="_blank" rel="noopener noreferrer">Voir un exemple ic</a>i.</p>
 
 <p>Idéalement, chaque projet aurait sa propre page avec ses propres informations et lorsqu'un projet serait ajouté ou modifié, celui se mettrait à jours automatiquement sur la page&nbsp;<em>Projets</em>&nbsp;sans qu'il ne soit nécessaire d'effectuer d'autres&nbsp;manipulations.</p>
 

@@ -1598,40 +1598,30 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 9 lundi ----------------------->
 <!---------------------- Cours 9 lundi ----------------------->
 <wiki-page name="Sem09.lundi" date="2024-10-28">
+    <grostitre>Quiz</grostitre>
+    <p><a href="https://app.wooclap.com/GYDJKI" target="_blank" rel="noopener noreferrer">Groupe AM</a><br>
+    <a href="https://app.wooclap.com/LKZFEL" target="_blank" rel="noopener noreferrer">Groupe PM</a> </p>
 
-    <grostitre>Wordpress</grostitre>
-
-    <intlink href="../wordpress/wp-crochets-action-filtre/"></intlink>
-    <!-- TODO: exercice intégration menu bootstrap avec hook -->
-    <intlink href="../wordpress/wp-editeur-gutenberg/"></intlink>
-    <!-- TODO: exercice recréé la mise en page que vous voyez avec l'éditeur gutenberg -->
-
-
-
-    <!-- 
-    NOTE MM NOTE MM NOTE MM 
-    Wordpress : intégrer logo, personnaliser le site, intégrer le menu, intégrer Bootsrap, monter l'accueil etc
-    -->
+    
+    <grostitre>WordPress</grostitre>
+    <intlink href="../wordpress/migration-de-donnees/"></intlink> 
+    <intlink href="../wordpress/wp-query/"></intlink>
 
 
+    <dots></dots>
+    <grostitre>Exercices</grostitre>
+    <p>Pendant l'exercice, je passe vérifier si vous avez bien complété l'exercice de lundi dernier "Valet de coeur"</p>
+    <p>Lien vers l'exercice fourni en classe.</p>
 
 
 
     <dots></dots>
-    <h2>WORDPRESS</h2>
-    <intlink href="../wordpress/migration-de-donnees/"></intlink>
-    <intlink href="../wordpress/wp-query/"></intlink>
-    <intlink href="../wordpress/rest-api/"></intlink>
-
-    <h2>2 exercices en classe</h2>
-    <p>Exerice #1 <br>
-    Exerice #2</p>
-
-
-
+    <grostitre>Devoirs</grostitre>
     <p>Terminer les exercices commencés en classe.</p>
-    <intlink href="../exercices/wp-query-les-bagnoles/"></intlink>
-    <intlink href="../exercices/wp-rest-api-vice-versa/"></intlink>
+
+    <h3>Projet de session</h3>
+    <p>Continuez d'avancer l'intégration des autres pages du projet (SCSS+HTML+JS). Voir votre tableau Trello et les <a href="https://tim-montmorency.com/timdoc/582-518MO/projet/requis-client/" target="_blank" rel="noopener noreferrer">requis client</a> pour le rien oublier. REMISE LE 7 NOVEMBRE</p>   
+    <intlink href='../projet/integration-pages-statiques/'></intlink>
 
 
 </wiki-page>
@@ -1651,8 +1641,11 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 | |___| (_) | |_| | |  \__ \  | | |_| |
  \_____\___/ \__,_|_|  |___/  |_|\___/                                     
 ----------------------------------->
+<!---------------------- Cours 10 jeudi ----------------------->
+<!---------------------- Cours 10 jeudi ----------------------->
+<!---------------------- Cours 10 jeudi ----------------------->
 
-<wiki-page name="Cours 10" date="2024-10-29">
+<wiki-page name="Sem10.jeudi" date="2024-10-31">
     <h1 style="font-size:250%; color :orange;">Joyeux Halloween!</h1>
     <br>
     <p style="font-size:200%; line-height: 1.4em;">🦉 ☠️ 👹 👻 👺 💀 🌚 🔮 🕸️ 🌩️ 🕷️ 🍫 🍬 🍭 🎃 ⚰️ 🦇 🗡️ 🕯️ 🧟 🪦
@@ -1664,31 +1657,57 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     Vendredi - <a href="https://app.wooclap.com/QACHJM" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;: QACHJM
     </a><br>
 
-    <dots></dots>
-    <h2>Concours 404 - Retour</h2>
-    <p>Vote le gagnant de ta classe
-        <br>Prix: Des bonbons !
-    </p>
-    Lundi - <a href="https://app.wooclap.com/UYRJTY" target="_blank" rel="noopener noreferrer">Votez</a>
-    <br>
-    Vendredi - gagnante : Skayla !
 
-    <dots></dots>
-
-    <h2>Live Sass Compiler</h2>
+    <grostitre>Annonces</grostitre>
+    <h3>Live Sass Compiler</h3>
     <p>Problème de compilation, le système va chercher à recompiler tous les scss ou sass contenus dans le dossier de projet dont les fichiers du core de Wordpress. Pour éviter ce problème:</p>
     <p>Dans Visual Studio Code Code, allez dans <em>Préférences/Paramètres/Extensions/Live Sass Compiler</em> et cliquez sur <em>Modifier dans settings.json</em>.</p>
     <p>Ajoutez au json la propriété suivante (ne pas oublier la virgule qui séparer cette propriété des autres propriétés du json déjà en place) :</p>
     
     <highlight lang="json">"liveSassCompile.settings.excludeList": [ 
-    "**/wordpress/wp-admin/**",
-    "**/wordpress/wp-includes/**",
-    "**/wordpress/wp-content/plugins/**"
-],</highlight>
+        "**/wordpress/wp-admin/**",
+        "**/wordpress/wp-includes/**",
+        "**/wordpress/wp-content/plugins/**"
+    ],</highlight>
+
+
+
+    <dots></dots>
+    <grostitre>Wordpress</grostitre>
+    <intlink href="../wordpress/wp-editeur-gutenberg/"></intlink>
+    <!-- TODO: exercice recréer la mise en page que vous voyez avec l'éditeur gutenberg -->
+
 
     <dots></dots>
     <h2>Erreur dans Wordpress, comment debugger </h2> 
     <p>Allez consulter les bogues dans <em>C:/MAMP/logs/</em>, regardez les dates et heures d'enresigtrer des fichiers de journal (logs) si elles correspondent le moment actuel, ouvrez le fichier pour consulter les message d'erreur afin de vous guider vers la source du problème. Lorsque vous travaille dans vos fichier de thème en PHP, les bogues sont souvent à ce niveau donc vous pourrez trouver les messages d'erreur dans <em>php_error.log</em>.</p>
+
+    <dots></dots>
+    <grostitre>Wordpress</grostitre>
+    <h3>Menus et menus Boostrap dans WordPress</h3>
+    <intlink href="../wordpress/menus/"></intlink>
+    <intlink href="../wordpress/wp-crochets-action-filtre/"></intlink>
+    <!-- 
+    demo de htdocs/obnl/wordpress/ 
+    1- activer le theme Montmorency (thème de base), montrer le menu tel qu'il est présenté par défaut
+    en prenant soin de montrer la déclaration dans fonction.php et l'emplacement dans header.php
+    2- activer le thème demo bootrap, montrer le résultat et ensuite montrer la déclaration dans function.p^hp avec les hooks pour ajouter classes sur li et a. ensuite montrer emplacement dans heaerd.php. 
+    -->
+
+    <h2>WORDPRESS</h2>
+    <intlink href="../wordpress/migration-de-donnees/"></intlink>
+    <intlink href="../wordpress/wp-query/"></intlink>
+    <intlink href="../wordpress/rest-api/"></intlink>
+
+    <h2>2 exercices en classe</h2>
+    <p>Exercice menu BS</p>
+    <p>Exercice Gutenberg</p>
+
+
+
+    <p>Terminer les exercices commencés en classe.</p>
+    <intlink href="../exercices/wp-query-les-bagnoles/"></intlink>
+    <intlink href="../exercices/wp-rest-api-vice-versa/"></intlink>
 
     <dots></dots>
     <h2>PROJET DE SESSION</h2>
@@ -1723,7 +1742,12 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 </wiki-page>
 
 
-
+<!---------------------- Cours 11 lundi ----------------------->
+<!---------------------- Cours 11 lundi ----------------------->
+<!---------------------- Cours 11 lundi ----------------------->
+<wiki-page name="Sem10.lundi" date="2024-11-04">
+    <grostitre>Annonces</grostitre>
+</wiki-page>
 
 
 <!-----------------------------------
