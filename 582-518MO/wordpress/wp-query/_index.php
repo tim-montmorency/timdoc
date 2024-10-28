@@ -3,7 +3,7 @@
  * @type     article
  * @title    WP-Query
  * @icon     ../medias/icon.webp
- * @abstract Requête pour récupérer le coontenu des posts et pages
+ * @abstract Requête pour récupérer le contenu des posts et pages
  * @index    51
  * @ref      web/wordpress
  */
