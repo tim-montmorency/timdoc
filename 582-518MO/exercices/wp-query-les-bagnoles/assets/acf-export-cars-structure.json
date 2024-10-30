@@ -4,26 +4,6 @@
         "title": "Voiture",
         "fields": [
             {
-                "key": "field_61743dfc419ca",
-                "label": "Prix",
-                "name": "price",
-                "aria-label": "",
-                "type": "text",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
-            },
-            {
                 "key": "field_61743e12419cb",
                 "label": "Commenditaire",
                 "name": "sponsor",
@@ -69,7 +49,7 @@
         "hide_on_screen": "",
         "active": true,
         "description": "",
-        "show_in_rest": 0
+        "show_in_rest": false
     },
     {
         "key": "post_type_671ef5309016f",

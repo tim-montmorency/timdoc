@@ -1,0 +1,54 @@
+[
+    {
+        "key": "group_61743dd8747b7",
+        "title": "Voiture",
+        "fields": [
+            {
+                "key": "field_61743e12419cb",
+                "label": "Commenditaire",
+                "name": "sponsor",
+                "aria-label": "",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "rusteze": "Rust-eze",
+                    "dinoco": "Dinoco",
+                    "htb": "Hostile Takeover Bank",
+                    "other": "Autre"
+                },
+                "default_value": false,
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "voitures"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "side",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    }
+]

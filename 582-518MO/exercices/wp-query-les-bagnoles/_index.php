@@ -24,12 +24,12 @@
 
 <h3 class="heading heading--h3" id="Médias 🖼️">Médias 🖼️</h3>
 <p>Pour télécharger chaque fichier, aller à l'URL du fichier dans votre navigateur, ensuite faites clic-droit dans la page et "enregistrer sous"</p> 
-<mediafile src="asssets/acf-export-cars-structure.json.zip">acf-export-cars-structure.json.zip</mediafile>
-<mediafile src="asssets/data-cars.xml.zip">data-cars.xml.zip</mediafile>
-<mediafile src="https://ex.smnarnold.com/wordpress/cars/sally-carrera.png">image sally carrera</mediafile>
-<mediafile src="https://ex.smnarnold.com/wordpress/cars/chick-hicks.jpg">image chick hicks</mediafile>
-<mediafile src="https://ex.smnarnold.com/wordpress/cars/strip-weathers.png">image strip wathers</mediafile>
-<mediafile src="https://ex.smnarnold.com/wordpress/cars/flash-mcqueen.png">image flash mcqueena</mediafile>
+<mediafile src="assets/acf-export-cars-structure.json">acf-export-cars-structure.json</mediafile>
+<mediafile src="assets/data-cars.xml">data-cars.xml</mediafile>
+<mediafile src="https://marie-test.tim-momo.com/les-bagnoles/wp-content/uploads/2021/10/sally-carrera.png">image sally carrera</mediafile>
+<mediafile src="https://marie-test.tim-momo.com/les-bagnoles/wp-content/uploads/2021/10/chick-hicks.jpeg">image chick hicks</mediafile>
+<mediafile src="https://marie-test.tim-momo.com/les-bagnoles/wp-content/uploads/2021/10/strip-weathers.png">image strip wathers</mediafile>
+<mediafile src="https://marie-test.tim-momo.com/les-bagnoles/wp-content/uploads/2021/10/flash-McQueen.png">image flash mcqueena</mediafile>
 
 
 <dots></dots>
