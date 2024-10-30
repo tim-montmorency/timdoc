@@ -7,7 +7,7 @@
 </main>
 
 <footer>
-	<p>Développement web - Collège Montmorency - <?php echo date("Y"); ?></p>
+	<p>Cours Projet Web - Collège Montmorency - <?php echo date("Y"); ?></p>
 </footer>
 
 <?php wp_footer(); 
