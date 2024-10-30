@@ -21,16 +21,19 @@
 
 <checklist>
     Créez une nouvelle installation de WordPress.
+    Le nom du site sera <em>Jellycat</em>.
     Installez et activez le <a href="https://tim-montmorency.com/timdoc/582-518MO/wordpress/medias/theme-de-base.zip" target="_blank" rel="noopener noreferrer">thème de base</a>.
     Dans VS Code, intégrez Bootstrap à votre thème via la méthode CDN (Content Delivery Network). Assurez-vous de toujours installer la dernière version de Bootstrap en passant pas le site officiel directement: <em>getbootstrap.com</em>.
     Dans VS Code, dans votre thème, ajouter un dossier <em>assets</em> et ajoutez-y l'image du logo Jellycat.
     Dans le tableau de bord de WP, créez les pages suivantes (simplement leur donner un titre, nul besoin de contenu): <br>- Accueil<br>- Nos collections<br>- Peluches en vedette <br>- À propos<br>- Où trouver près de chez vous?
     Configurez votre site afin que votre page d’accueil affiche la page statique nommée "Accueil" que vous venez de créer. Voir les notes de cours sur les modèles d'un thème WordPress, section accueil, pour vous rappeler comment faire ceci.
     Créez un menu de navigation principal contenant un lien vers chaque page. Conservez le même ordre que la liste des pages que vous venez juste de créer.
-    Dans VS Code, dupliquez <em>about.php</em> et renommez votre nouveau fichier <em>front-page.php</em>. Ce modèle sera automatiquement appliqué sur votre nouvelle page d'accueil statique.
+    Dans VS Code, dupliquez <em>about.php</em> et renommez votre nouveau fichier <em>front-page.php</em>. Ce modèle sera automatiquement appliqué sur votre nouvelle page d'accueil statique. Pour tester si le modèle s'applique automatiquement comme prévu, inscrivez le mot <em>JELLYCATS EN FOLIE !</em> à l'intérieur d'une balise <span class='inline-code'>h1</span> à quelque part dans le contenu principal du fichier du modèle <em>front-page.php</em> et retournez voir votre page d'accueil voir si on y voit bien votre petit message temporaire.
     Assurez vous que votre menu de navigation s'affiche à partir de <em>header.php</em> via la fonction <span class='inline-code'>wp_nav_menu()</span>.
-    Dans <em>header.php</em>, ajoutez maintenant la structure HTML de la <a href="https://getbootstrap.com/docs/5.3/components/navbar/" target="_blank" rel="noopener noreferrer">composante de navbar de Bootstrap</a> autour du menu de navigation généré.
-    Sur l'ancre <span class='inline-code'>.navbar-brand</span>, ajoutez un lien vers votre page d'accueil avec <a href="https://developer.wordpress.org/reference/functions/home_url/" target="_blank" rel="noopener noreferrer">home_url</a>.
+    Dans <em>header.php</em>, ajoutez maintenant la structure HTML de la <a href="https://getbootstrap.com/docs/5.3/components/navbar/#nav" target="_blank" rel="noopener noreferrer">composante de navbar de Bootstrap</a> autour du menu de navigation généré.
+    Ajoutez la classe <span class='inline-code'>.bg-info</span> à la balise <span class='inline-code'>nav</span> pour que l'arrière plan soit turquoise comme l'exemple donné ci-haut.
+    Déplacez dans la navbar le lien et le titre du site que vous voyez présentement dans le <span class='inline-code'>h1</span> au dessus du menu dans <em>header.php</em>. Il devrait être déplacé la où vous voulez afficher le <span class='inline-code'>.navbar-brand</span>, c'est à dire le logo du site. Assurez vous que votre balise <span class='inline-code'>a</span> contient la classe <span class='inline-code'>.navbar-brand</span>. Vous devriez maintenant voir le mot <em>Jellycat</em> dans la navbar, là où sera votre logo. Ce mot est supposé être cliquable et mener vers l'accueil.
+     <span class='inline-code'>.navbar-brand</span>
     À l'intérieur de l'ancre <span class='inline-code'>.navbar-brand</span>, affichez l'image du logo de Jellycat. Référez-vous au note de cours sur les images au besoin.
     Stylisez en css l'image du logo afin de le redimensionner à votre guise.
     En lisant la documentation de la fonction <a href="https://developer.wordpress.org/reference/functions/wp_nav_menu/" target="_blank" rel="noopener noreferrer">wp_nav_menu()</a>, trouvez comment ajouter la classe <span class='inline-code'>.navbar-nav</span> au à la balise <span class='inline-code'>ul</span> du menu généré.
