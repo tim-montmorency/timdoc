@@ -22,11 +22,11 @@
 <checklist>
     Créez une nouvelle installation de WordPress.
     Installez et activez le <a href="https://tim-montmorency.com/timdoc/582-518MO/wordpress/medias/theme-de-base.zip" target="_blank" rel="noopener noreferrer">thème de base</a>.
-    Intégrez Bootstrap à votre thème via la méthode CDN (Content Delivery Network).
-    Ajoutez au thème un dossier <em>assets</em> et ajoutez-y l'image du logo Jellycat.
-    Créez les pages suivantes (simplement leur donner un titre, nul besoin de contenu): <br>- Accueil<br>- Nos collections<br>- À propos<br>- Nous joindre
-    Configurez votre site afin que votre page d’accueil affiche la page statique nommée "Accueil" que vous venez de créer.
-    Créez un menu de navigation principal contenant un lien vers chaque page.
+    Dans VS Code, intégrez Bootstrap à votre thème via la méthode CDN (Content Delivery Network). Assurez-vous de toujours installer la dernière version de Bootstrap en passant pas le site officiel directement: <em>getbootstrap.com</em>.
+    Dans VS Code, dans votre thème, ajouter un dossier <em>assets</em> et ajoutez-y l'image du logo Jellycat.
+    Dans le tableau de bord de WP, créez les pages suivantes (simplement leur donner un titre, nul besoin de contenu): <br>- Accueil<br>- Nos collections<br>- Peluches en vedette <br>- À propos<br>- Où trouver près de chez vous?
+    Configurez votre site afin que votre page d’accueil affiche la page statique nommée "Accueil" que vous venez de créer. Voir les notes de cours sur les modèles d'un thème WordPress, section accueil, pour vous rappeler comment faire ceci.
+    Créez un menu de navigation principal contenant un lien vers chaque page. Conservez le même ordre que la liste des pages que vous venez juste de créer.
     Dans VS Code, dupliquez <em>about.php</em> et renommez votre nouveau fichier <em>front-page.php</em>. Ce modèle sera automatiquement appliqué sur votre nouvelle page d'accueil statique.
     Assurez vous que votre menu de navigation s'affiche à partir de <em>header.php</em> via la fonction <span class='inline-code'>wp_nav_menu()</span>.
     Dans <em>header.php</em>, ajoutez maintenant la structure HTML de la <a href="https://getbootstrap.com/docs/5.3/components/navbar/" target="_blank" rel="noopener noreferrer">composante de navbar de Bootstrap</a> autour du menu de navigation généré.
