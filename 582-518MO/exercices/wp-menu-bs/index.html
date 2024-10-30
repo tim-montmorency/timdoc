@@ -69,10 +69,42 @@
     Créez une nouvelle installation de WordPress.
     Installez et activez le <a href="https://tim-montmorency.com/timdoc/582-518MO/wordpress/medias/theme-de-base.zip" target="_blank" rel="noopener noreferrer">thème de base</a>.
     Intégrez Bootstrap à votre thème via la méthode CDN (Content Delivery Network).
+    Ajoutez au thème un dossier <em>assets</em> et ajoutez-y l'image du logo Jellycat.
     Créez les pages suivantes (simplement leur donner un titre, nul besoin de contenu): <br>- Accueil<br>- Nos collections<br>- À propos<br>- Nous joindre
+    Configurez votre site afin que votre page d’accueil affiche la page statique nommée "Accueil" que vous venez de créer.
     Créez un menu de navigation principal contenant un lien vers chaque page.
-
+    Dans VS Code, dupliquez <em>about.php</em> et renommez votre nouveau fichier <em>front-page.php</em>. Ce modèle sera automatiquement appliqué sur votre nouvelle page d'accueil statique.
+    Assurez vous que votre menu de navigation s'affiche à partir de <em>header.php</em> via la fonction <span class='inline-code'>wp_nav_menu()</span>.
+    Dans <em>header.php</em>, ajoutez maintenant la structure HTML de la <a href="https://getbootstrap.com/docs/5.3/components/navbar/" target="_blank" rel="noopener noreferrer">composante de navbar de Bootstrap</a> autour du menu de navigation généré.
+    Sur l'ancre <span class='inline-code'>.navbar-brand</span>, ajoutez un lien vers votre page d'accueil avec <a href="https://developer.wordpress.org/reference/functions/home_url/" target="_blank" rel="noopener noreferrer">home_url</a>.
+    À l'intérieur de l'ancre <span class='inline-code'>.navbar-brand</span>, affichez l'image du logo de Jellycat. Référez-vous au note de cours sur les images au besoin.
+    Stylisez en css l'image du logo afin de le redimensionner à votre guise.
+    En lisant la documentation de la fonction <a href="https://developer.wordpress.org/reference/functions/wp_nav_menu/" target="_blank" rel="noopener noreferrer">wp_nav_menu()</a>, trouvez comment ajouter la classe <span class='inline-code'>.navbar-nav</span> au à la balise <span class='inline-code'>ul</span> du menu généré.
+    Allez voir de résultat de la page et de sa navigation et via l'inspecteur vérifiez le résultat du HTML généré pour la navbar. Que manque-t-il? 
+    Si tout a bien été, vous devriez constater qu'il ne manque plus que l'ajout de la classe <span class='inline-code'>.nav-item</span> sur les <span class='inline-code'>li</span> de la nav. Il faudra aussi ajouter la classe <span class='inline-code'>.nav-list</span> sur les <span class='inline-code'>a</span> de la nav. Comment? En utilisant les crochets (hook) de type filtre.
+    Dans <em>function.php</em> de votre thème, ajoutez le code ci-bas (voir après le #18).
+    Finalement, revenez dans <em>header.php</em> et à votre fonction d'affichage de menu <span class='inline-code'>wp_nav_menu</span>, ajoutez les 2 filtres que vous avez déclarés soient <br> <span class='inline-code'>'list_item_class' => 'nav-item'</span> et <br> <span class='inline-code'>'link_item_class' => 'nav-link'</span>.
 </checklist>
+
+<p>Code à ajouter dans function.php</p>
+<highlight lang="php">/* --- Pour ajouter classe sur les &lt;li&gt; --- */
+function add_menu_list_item_class($classes, $item, $args) {
+	if (property_exists($args, &#039;list_item_class&#039;)) {
+		$classes[] = $args-&gt;list_item_class;
+	}
+	return $classes;
+  }
+ add_filter(&#039;nav_menu_css_class&#039;, &#039;add_menu_list_item_class&#039;, 1, 3);
+
+
+/* --- Pour ajouter classe sur les &lt;a&gt; --- */
+function add_additional_class_on_a($classes, $item, $args){
+    if (isset($args-&gt;link_item_class)) {
+        $classes[&#039;class&#039;] = $args-&gt;link_item_class;
+    }
+    return $classes;
+}
+add_filter(&#039;nav_menu_link_attributes&#039;, &#039;add_additional_class_on_a&#039;, 1, 3);</highlight>
 
 
 
@@ -84,6 +116,29 @@
             <div class="intlink__item__description">
                 <span class="intlink__item__title"><a target="_blank" href="../../wordpress/installation-en-local/">Installation en local</a></span>
                 <span class="intlink__item__abstract">Installer WordPress pour développement en local</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../wordpress/medias/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../wordpress/menus/">Menus</a></span>
+                <span class="intlink__item__abstract">Menus de navigation</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../wordpress/medias/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../wordpress/wp-crochets-action-filtre/">Crochets WP: action et filtre</a></span>
+                <span class="intlink__item__abstract">Hooks Wordpress : action and filter</span>
+            </div>
+        </div>
+
+Configurer une page d'accueil statique
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../wordpress/medias/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../wordpress/modeles/#hierarchie">Modèles d'un thème WP</a></span>
+                <span class="intlink__item__abstract">Contrôler la structure des pages Wordpress</span>
             </div>
         </div>
 

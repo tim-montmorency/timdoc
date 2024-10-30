@@ -7,7 +7,7 @@
 </main>
 
 <footer>
-	<p>Développement web - Collège Montmorency - 2021</p>
+	<p>Projet Web - Collège Montmorency - 2023</p>
 </footer>
 
 <?php wp_footer(); 

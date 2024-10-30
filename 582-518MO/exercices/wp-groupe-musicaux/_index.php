@@ -49,7 +49,7 @@ Installez l'extension <a target="_blank" rel="noopener noreferrer" href="https:/
 Importez les types de contenus et les champs personnalisés avec le json fourni ci-haut.
 Importez les contenus déjà préparés avec le fichier .xml fourni ci-haut.
 Créez une page qui fera office d'accueil et configurez la via le tableau de bord de WordPress.
-Dans le modèle de l'accueil, faites afficher tous les groupes de musiques avec <em>WP-Query</em> ou <em>REST API</em>, à votre choix. Assurez-vous de vous fier à la stucture HTML du site Web fourni.
+Dans le modèle de l'accueil, faites afficher tous les groupes de musiques avec <em>WP-Query</em>. Assurez-vous de vous fier à la stucture HTML du site Web fourni.
 Construisez ensuite le modèle de la page du groupe de musique. Assurez-vous de vous fier à la stucture HTML du site Web fourni. Notez que vous devez créer le fichier du modèle (template).
 </checklist>
 
@@ -58,6 +58,5 @@ Construisez ensuite le modèle de la page du groupe de musique. Assurez-vous de 
 <intlink href="../../wordpress/migration-de-donnees/"></intlink>
 <intlink href="../../wordpress/modeles/"></intlink>
 <intlink href="../../wordpress/wp-query/"></intlink>
-<intlink href="../../wordpress/rest-api/"></intlink>
 <intlink href="../../wordpress/advanced-custom-fields/"></intlink>
 <intlink href="../../wordpress/images-dans-modeles/"></intlink>

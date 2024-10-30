@@ -23,6 +23,21 @@ register_nav_menus(
 );
 
 
+/* --------------------------------
+Function déclarant la barre latérale principale */
+function add_sidebars() {
+	register_sidebar(array(	
+		/* 
+			1. 'main-sidebar' = Nom dans le code
+			2. 'Barre laterale principale' = Nom dans l'admin
+			3. 'Barre latérale principale du site' = Description dans l'admin */
+		'main-sidebar' => __( 'Barre laterale principale', 'Barre latérale principale du site' ), 
+		/* Dupliquer cette ligne si vous désirez déclarer d'autres sidebars */
+	));
+} 
+/* Appel la fonction déclarant la barre latérale au moment de l'init des widgets */
+add_action('widgets_init', 'add_sidebars');
+
 
 /* -------------------------------- 
 Function ajoutant les styles et scripts */

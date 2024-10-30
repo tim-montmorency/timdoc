@@ -1686,6 +1686,14 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <dots></dots>
     <grostitre>Wordpress</grostitre>
+
+    <h2>WORDPRESS</h2>
+    <h3>Theme - Page d'accueil</h3>
+    <doclink href="https://developer.wordpress.org/themes/functionality/custom-front-page-templates/">Modèle (template)&nbsp;- Page d'accueil</doclink>
+    <br>
+    <doclink href="https://wordpress.com/fr/support/pages/page-accueil/">Définir la page d’accueil dans Wordpress</doclink>
+ 
+        
     <h3>Menus et menus Boostrap dans WordPress</h3>
     <intlink href="../wordpress/menus/"></intlink>
     <intlink href="../wordpress/wp-crochets-action-filtre/"></intlink>
