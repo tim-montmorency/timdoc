@@ -13,6 +13,8 @@
 <p>Aperçu du résultat 👇</p>
 <small>Pour contrôler la vidéo, clic-droit et "Afficher toute les commandes".</small>
 <clipasset src='images/demo-recreer-avec-gutenberg.mp4'></clipasset>
+ou
+<mediafile src="images/demo-jellycat-page-entiere.png">Téléchargez l'image statique de la page entière</mediafile>
 
 <dots></dots>
 <grostitre>Matériel</grostitre>
