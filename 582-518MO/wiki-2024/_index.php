@@ -1702,6 +1702,9 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href="../wordpress/menus/"></intlink>
     <intlink href="../wordpress/wp-crochets-action-filtre/"></intlink>
 
+    <h3>Le mémoire cache</h3>
+   <intlink href="../wordpress/wp-cache/"></intlink>
+
     <h3>Exercice 1 - Menu WordPress + Bootstrap - JELLYCAT</h3>
     <p>Lien à venir</p>
 
