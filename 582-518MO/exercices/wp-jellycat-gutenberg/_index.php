@@ -22,8 +22,8 @@
 <mediafile src="images/peluche2.jpg">Pingouin</mediafile>
 <mediafile src="images/peluche4.jpg">Croissant</mediafile>
 <mediafile src="images/peluche6.jpg">Cactus</mediafile>
-
-
+<br>
+<h3>Voici le contenu textuel:</h3>
 <info>
     <h4>Né à Londres, aimé dans le monde entier.</h4>
     <p>Bienvenue à la maison de la famille Jellycat où notre mission est de partager la joie ! Attendez-vous à l’inattendu. Appréciez notre humour doux. Appréciez les textures exquises et les couleurs inhabituelles… Et si l’un de ces personnages vous fait sourire, faites-le entrer dans votre famille.</p>
