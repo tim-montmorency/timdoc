@@ -1656,7 +1656,10 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <grostitre>QUIZ</grostitre>
         Groupe AM - <a href="https://app.wooclap.com/TBYAZS" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;:
         TBYAZS</a><br>
-  
+
+
+
+
     <dots></dots>
     <grostitre>Annonces</grostitre>
     <p>Rappel que la <em>PS – REMISE 5 – MISE EN PAGE STATIQUE</em> est dûe pour <em>jeudi le 7 novembre</em> donc dans exactement 1 semaine.</p>
@@ -1667,11 +1670,13 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <p>Ajoutez au json la propriété suivante (ne pas oublier la virgule qui séparer cette propriété des autres propriétés du json déjà en place) :</p>
     
     <highlight lang="json">"liveSassCompile.settings.excludeList": [ 
-        "**/wordpress/wp-admin/**",
-        "**/wordpress/wp-includes/**",
-        "**/wordpress/wp-content/plugins/**"
-    ],</highlight>
+    "**/wordpress/wp-admin/**",
+    "**/wordpress/wp-includes/**",
+    "**/wordpress/wp-content/plugins/**"
+],</highlight>
 
+
+    
 
 
     <dots></dots>
