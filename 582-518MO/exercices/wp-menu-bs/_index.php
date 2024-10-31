@@ -2,7 +2,7 @@
 /**
  * @type     exercice
  * @title    Jellycat - Menu WP+Bootstrap
- * @icon     images/thumb.jpg
+ * @icon     images/jellycat.png
  * @abstract Pour cet exercice vous générer un menu modifiable à partir de WordPress en intégrant la structure de la nav de Bootstrap.
  */
 ?>

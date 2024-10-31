@@ -1,6 +1,6 @@
 {
     "type": "exercice",
     "title": "Jellycat - Menu WP+Bootstrap",
-    "icon": "images\/thumb.jpg",
+    "icon": "images\/jellycat.png",
     "abstract": "Pour cet exercice vous g\u00e9n\u00e9rer un menu modifiable \u00e0 partir de WordPress en int\u00e9grant la structure de la nav de Bootstrap."
 }

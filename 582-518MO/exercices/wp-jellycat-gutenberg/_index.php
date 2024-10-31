@@ -2,7 +2,7 @@
 /**
  * @type     exercice
  * @title    Jellycat - Éditeur Guntenberg
- * @icon     images/thumb.jpg
+ * @icon     images/peluche6.jpg
  * @abstract Pour cet exercice vous devez recréer l'exemple présenté avec l'éditeur Gutenberg de WordPress.
  */
 ?>

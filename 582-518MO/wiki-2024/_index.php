@@ -1703,10 +1703,10 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href="../wordpress/wp-crochets-action-filtre/"></intlink>
 
     <h3>La mémoire cache</h3>
-   <intlink href="../wordpress/wp-cache/"></intlink>
+    <intlink href="../wordpress/wp-cache/"></intlink>
 
     <h3>Exercice 1 - Menu WordPress + Bootstrap - JELLYCAT</h3>
-    <p>Lien à venir</p>
+    <exercice href="../exercices/wp-menu-bs/"></exercice>
 
     <dots></dots>
     <grostitre>WordPress (suite)</grostitre>
@@ -1714,8 +1714,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
  
 
     <h3>Exercice 2 - JELLYCAT mise en page avec l'éditeur</h3>
-    <p>Lien à venir</p>
-    <!-- TODO: exercice recréer la mise en page que vous voyez avec l'éditeur gutenberg -->
+    <exercice href="../exercices/wp-jellycat-gutenberg/"></exercice>
+
 
 
 
