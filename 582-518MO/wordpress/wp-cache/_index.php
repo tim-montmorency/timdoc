@@ -42,6 +42,9 @@ wp_enqueue_style('default', get_template_directory_uri() . '/style.css');
 <highlight lang='php'>'?v='.time() </highlight>
 <p>vous devriez avoir quelques chose comme ceci :</p>
 <highlight lang='php'>wp_enqueue_style('default', get_template_directory_uri() . '/style.css?v='.time()); </highlight>
+<br><br>
+<p>Le résultat ressemblera à ceci dans votre HTML généré:</p>
+<highlight lang='html'>&lt;link rel=&quot;stylesheet&quot; id=&quot;default-css&quot; href=&quot;http://localhost:8888/mon-siteweb/wp-content/themes/theme-de-base/style.css?v=1730327653&quot; type=&quot;text/css&quot; media=&quot;all&quot;&gt;</highlight>
 
 <p><strong>Pour le fichier JS : </strong></p>
 <p>Faites de même pour le fichier JS que vous développez et qui est chargé via <em>function.php</em>.</p>

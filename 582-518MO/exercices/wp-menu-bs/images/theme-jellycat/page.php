@@ -10,6 +10,7 @@ if ( have_posts() ) :
 	// Si oui, bouclons au travers les pages (logiquement, il n'y en aura qu'une)
 	while ( have_posts() ) : the_post(); 
 ?>
+	<div class="heros"> ZONE HEROS À UTILISER PLUS TARD ... </div>
 
 	<article>
 		<h2>

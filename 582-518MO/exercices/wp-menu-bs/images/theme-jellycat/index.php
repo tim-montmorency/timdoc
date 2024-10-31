@@ -12,6 +12,7 @@ if ( have_posts() ) :
 	// Si oui, bouclons au travers pour tous les afficher
 	while ( have_posts() ) : the_post(); 
 ?>
+	<div class="heros"> ZONE HEROS À UTILISER PLUS TARD ... </div>
 
 	<article>
 		<?php the_post_thumbnail('large'); // Vignette large du post ?>

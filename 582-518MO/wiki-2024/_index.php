@@ -1648,19 +1648,19 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 10 jeudi ----------------------->
 
 <wiki-page name="Sem10.jeudi" date="2024-10-31">
-    <h1 style="font-size:250%; color :orange;">Joyeux Halloween!</h1>
-    <br>
-    <p style="font-size:200%; line-height: 1.4em;">🦉 ☠️ 👹 👻 👺 💀 🌚 🔮 🕸️ 🌩️ 🕷️ 🍫 🍬 🍭 🎃 ⚰️ 🦇 🗡️ 🕯️ 🧟 🪦
-        🐈‍⬛ ⚱️</p>
-        <h2>QUIZ</h2>
-        Lundi - <a href="https://app.wooclap.com/CYCNBH" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;:
-        CYCNBH</a>
-    <br>
-    Vendredi - <a href="https://app.wooclap.com/QACHJM" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;: QACHJM
-    </a><br>
+    <grostitre>Joyeux Halloween!</grostitre>
+    <p style="font-size:200%; line-height: 1.4em;">🦉 ☠️ 👹 👻 👺 💀 🌚 🔮 🕸️ 🌩️ 🕷️ 🍫 🍬 🍭 🎃 ⚰️ 🦇 🗡️ 🕯️ 🧟 🪦 🐈‍⬛ ⚱️</p>
 
 
+    <dots></dots>
+    <grostitre>QUIZ</grostitre>
+        Groupe AM - <a href="https://app.wooclap.com/TBYAZS" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;:
+        TBYAZS</a><br>
+  
+    <dots></dots>
     <grostitre>Annonces</grostitre>
+    <p>Rappel que la <em>PS – REMISE 5 – MISE EN PAGE STATIQUE</em> est dûe pour <em>jeudi le 7 novembre</em> donc dans exactement 1 semaine.</p>
+
     <h3>Live Sass Compiler</h3>
     <p>Problème de compilation, le système va chercher à recompiler tous les scss ou sass contenus dans le dossier de projet dont les fichiers du core de Wordpress. Pour éviter ce problème:</p>
     <p>Dans Visual Studio Code Code, allez dans <em>Préférences/Paramètres/Extensions/Live Sass Compiler</em> et cliquez sur <em>Modifier dans settings.json</em>.</p>
@@ -1675,49 +1675,77 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
     <dots></dots>
-    <grostitre>Wordpress</grostitre>
-    <intlink href="../wordpress/wp-editeur-gutenberg/"></intlink>
-    <!-- TODO: exercice recréer la mise en page que vous voyez avec l'éditeur gutenberg -->
+    <grostitre>Révision exercices</grostitre>
+    <intlink href='../exercices/wp-valet-de-coeur/'></intlink>
 
 
+
+   
     <dots></dots>
-    <h2>Erreur dans Wordpress, comment debugger </h2> 
-    <p>Allez consulter les bogues dans <em>C:/MAMP/logs/</em>, regardez les dates et heures d'enresigtrer des fichiers de journal (logs) si elles correspondent le moment actuel, ouvrez le fichier pour consulter les message d'erreur afin de vous guider vers la source du problème. Lorsque vous travaille dans vos fichier de thème en PHP, les bogues sont souvent à ce niveau donc vous pourrez trouver les messages d'erreur dans <em>php_error.log</em>.</p>
+    <grostitre>WordPress</grostitre>
 
-    <dots></dots>
-    <grostitre>Wordpress</grostitre>
-
-    <h2>WORDPRESS</h2>
     <h3>Theme - Page d'accueil</h3>
+    <intlink href='../wordpress/modeles/#hierarchie'></intlink> 
     <doclink href="https://developer.wordpress.org/themes/functionality/custom-front-page-templates/">Modèle (template)&nbsp;- Page d'accueil</doclink>
     <br>
     <doclink href="https://wordpress.com/fr/support/pages/page-accueil/">Définir la page d’accueil dans Wordpress</doclink>
  
         
-    <h3>Menus et menus Boostrap dans WordPress</h3>
+    <h3>Menus (navbar) Boostrap dans WordPress</h3>
     <intlink href="../wordpress/menus/"></intlink>
     <intlink href="../wordpress/wp-crochets-action-filtre/"></intlink>
-    <!-- 
-    demo de htdocs/obnl/wordpress/ 
-    1- activer le theme Montmorency (thème de base), montrer le menu tel qu'il est présenté par défaut
-    en prenant soin de montrer la déclaration dans fonction.php et l'emplacement dans header.php
-    2- activer le thème demo bootrap, montrer le résultat et ensuite montrer la déclaration dans function.p^hp avec les hooks pour ajouter classes sur li et a. ensuite montrer emplacement dans heaerd.php. 
-    -->
 
-    <h2>WORDPRESS</h2>
-    <intlink href="../wordpress/migration-de-donnees/"></intlink>
-    <intlink href="../wordpress/wp-query/"></intlink>
-    <intlink href="../wordpress/rest-api/"></intlink>
+    <h3>Exercice 1 - Menu WordPress + Bootstrap - JELLYCAT</h3>
+    <p>Lien à venir</p>
 
-    <h2>2 exercices en classe</h2>
-    <p>Exercice menu BS</p>
-    <p>Exercice Gutenberg</p>
+    <dots></dots>
+    <grostitre>WordPress (suite)</grostitre>
+    <intlink href="../wordpress/wp-editeur-gutenberg/"></intlink>
+ 
+
+    <h3>Exercice 2 - JELLYCAT mise en page avec l'éditeur</h3>
+    <p>Lien à venir</p>
+    <!-- TODO: exercice recréer la mise en page que vous voyez avec l'éditeur gutenberg -->
 
 
 
-    <p>Terminer les exercices commencés en classe.</p>
+
+
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+    <p>Pour lundi, terminer l'exercice commencé en classe lundi passé.</p>
+    <intlink href='../exercices/wp-query-les-bagnoles/'></intlink> <br><br>
+
+    <p>Pour jeudi, terminer les 2 exercices débutés en classe aujourd'hui. <br>> Les 2 exercices Jellycats</p>
+
+    <h3>Projet de session</h3>
+    <p>TERMINEZ l'intégration des autres pages du projet (SCSS+HTML+JS). Voir votre tableau Trello et les <a href="https://tim-montmorency.com/timdoc/582-518MO/projet/requis-client/" target="_blank" rel="noopener noreferrer">requis client</a> pour le rien oublier. REMISE LE 7 NOVEMBRE</p>   
+    <intlink href='../projet/integration-pages-statiques/'></intlink>
+
+
+
+    
+
+
+   
+
+
+</wiki-page>
+
+
+<!---------------------- Cours 11 lundi ----------------------->
+<!---------------------- Cours 11 lundi ----------------------->
+<!---------------------- Cours 11 lundi ----------------------->
+<wiki-page name="Sem10.lundi" date="2024-11-04">
+    <grostitre>Annonces</grostitre>
+
+
+    <p>Révision de les Bagnoles</p>
     <intlink href="../exercices/wp-query-les-bagnoles/"></intlink>
-    <intlink href="../exercices/wp-rest-api-vice-versa/"></intlink>
+
+
+    <grostitre>Vice Versa version WP-Query</grostitre>
+
 
     <dots></dots>
     <h2>PROJET DE SESSION</h2>
@@ -1749,14 +1777,6 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
 
-</wiki-page>
-
-
-<!---------------------- Cours 11 lundi ----------------------->
-<!---------------------- Cours 11 lundi ----------------------->
-<!---------------------- Cours 11 lundi ----------------------->
-<wiki-page name="Sem10.lundi" date="2024-11-04">
-    <grostitre>Annonces</grostitre>
 </wiki-page>
 
 

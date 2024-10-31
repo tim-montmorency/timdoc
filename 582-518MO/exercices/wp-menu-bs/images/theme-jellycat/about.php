@@ -11,6 +11,8 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 	while ( have_posts() ) : the_post(); 
 ?>
 
+	<div class="heros"> ZONE HEROS À UTILISER PLUS TARD ... </div>
+
 	<article>
 		<?php if (!is_front_page()) : // Si nous ne sommes PAS sur la page d'accueil ?>
 			<h2>
