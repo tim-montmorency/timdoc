@@ -3189,6 +3189,8 @@ table.table-couleurs .color {
   display: none;
 }
 #wiki__list {
+  height: 100vh;
+  overflow-y: scroll;
   max-width: 200px;
   min-height: 100%;
   background-image: linear-gradient(to right, rgba(225, 228, 242, 0.1529411765), rgba(225, 228, 242, 0));

@@ -607,8 +607,11 @@ table{
 
 
     &__list {
+        height: 100vh;
+        overflow-y: scroll;
         max-width: 200px;
         min-height: 100%;
+        
         // background-image: linear-gradient(to right, #111111, #000000);
         background-image: linear-gradient(to right, #e1e4f227, #e1e4f200);
         
