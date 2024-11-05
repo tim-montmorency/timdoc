@@ -1735,21 +1735,35 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <p>TERMINEZ l'intégration des autres pages du projet (SCSS+HTML+JS). Voir votre tableau Trello et les <a href="https://tim-montmorency.com/timdoc/582-518MO/projet/requis-client/" target="_blank" rel="noopener noreferrer">requis client</a> pour le rien oublier. REMISE LE 7 NOVEMBRE</p>   
     <intlink href='../projet/integration-pages-statiques/'></intlink>
 
+</wiki-page>
 
+<!---------------------- Cours 10 lundi ----------------------->
+<!---------------------- Cours 10 lundi ----------------------->
+<!---------------------- Cours 10 lundi ----------------------->
 
-    
+<wiki-page name="Sem10.jeudi" date="2024-11-04">
+    <grostitre>Travail en classe sur le projet</grostitre>
 
-
+    <grostitre>Devoirs</grostitre>
+    <h3>Exercices</h3>
+    <p>Pour lundi, terminer l'exercice Les Bagnoles (WP-Query) débuté en classe lundi passé:</p>
    
 
+    <p>Pour jeudi</p>
+    <intlink href='../exercices/wp-query-les-bagnoles/'></intlink> <br><br>
+    <intlink href="../exercices/wp-menu-bs/"></intlink>
+    <intlink href="../exercices/wp-jellycat-gutenberg/"></intlink>
+
+    <h3>Projet de session</h3>
+    <p>TERMINEZ l'intégration des autres pages du projet (SCSS+HTML+JS). Voir votre tableau Trello et les <a href="https://tim-montmorency.com/timdoc/582-518MO/projet/requis-client/" target="_blank" rel="noopener noreferrer">requis client</a> pour le rien oublier. REMISE JEUDI LE 7 NOVEMBRE</p>   
+    <intlink href='../projet/integration-pages-statiques/'></intlink>
 
 </wiki-page>
 
-
 <!---------------------- Cours 11 lundi ----------------------->
 <!---------------------- Cours 11 lundi ----------------------->
 <!---------------------- Cours 11 lundi ----------------------->
-<wiki-page name="Sem10.lundi" date="2024-11-04">
+<wiki-page name="Sem10.lundi" date="2024-11-10">
     <grostitre>Annonces</grostitre>
 
 
