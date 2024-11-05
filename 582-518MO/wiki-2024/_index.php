@@ -1748,7 +1748,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 10 lundi ----------------------->
 <!---------------------- Cours 10 lundi ----------------------->
 
-<wiki-page name="Sem10.jeudi" date="2024-11-04">
+<wiki-page name="Sem10.lundi" date="2024-11-04">
     <grostitre>Travail en classe sur le projet</grostitre>
 
     <grostitre>Devoirs</grostitre>
@@ -1774,15 +1774,17 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
  \_____\___/ \__,_|_|  |___/  |_||_|
  ----------------------------------->       
 
-<!---------------------- Cours 11 merc ----------------------->
-<!---------------------- Cours 11 merc ----------------------->
-<!---------------------- Cours 11 merc ----------------------->
-<wiki-page name="Sem10.lundi" date="2024-11-13">
+<!---------------------- Cours 11 jeudi ----------------------->
+<!---------------------- Cours 11 jeudi ----------------------->
+<!---------------------- Cours 11 jeudi ----------------------->
+<wiki-page name="Sem11.jeudi" date="2024-11-07">
     <grostitre>Annonces</grostitre>
 
 
-    <p>Révision de les Bagnoles</p>
+    <p>Révision des exercices</p>
     <intlink href="../exercices/wp-query-les-bagnoles/"></intlink>
+    <intlink href="../exercices/wp-menu-bs/"></intlink>
+    <intlink href="../exercices/wp-jellycat-gutenberg/"></intlink>
 
 
     <grostitre>Vice Versa version WP-Query</grostitre>
@@ -1791,14 +1793,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <dots></dots>
     <h2>PROJET DE SESSION</h2>
     <p>Procédure de migration des données d'une installation WordPress à un autre.</p>
-
     <intlink href="../projet/migration-donnees-wordpress/"></intlink>
-
-    <dots></dots>
-    <h2>Révision des exercices WP des semaines passées</h2>
-    <intlink href="../exercices/wp-valet-de-coeur/"></intlink>
-    <intlink href="../exercices/wp-query-les-bagnoles/"></intlink>
-    <intlink href="../exercices/wp-rest-api-vice-versa/"></intlink>
 
 
     <dots></dots>
@@ -1817,20 +1812,18 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <p>Intégrez votre site à Wordpress avec les techniques vues dans les derniers cours.</p>
 
 
-
 </wiki-page>
 
 
-<!-----------------------------------
-  _____                       __ __ 
- / ____|                     /_ /_ |
-| |     ___  _   _ _ __ ___   | || |
-| |    / _ \| | | | '__/ __|  | || |
-| |___| (_) | |_| | |  \__ \  | || |
- \_____\___/ \__,_|_|  |___/  |_||_|
- ----------------------------------->                                   
+                             
+<!---------------------- Cours 11 lundi (mercr) ----------------------->
+<!---------------------- Cours 11 lundi (mercr) ----------------------->
+<wiki-page name="Sem11.merc" date="2024-11-13">
 
-<wiki-page name="Cours 11" date="2024-11-05">
+<dots></dots>
+    <h2>Révision des exercices WP des semaines passées</h2>
+
+    <intlink href="../exercices/wp-rest-api-vice-versa/"></intlink>
 
     <dots></dots>
     <h2>Révision de l'exercice WP de la semaine passée</h2>
