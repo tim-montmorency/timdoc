@@ -41,6 +41,8 @@
 
 <p>Pour des raisons de performance et de facilité de traitement, il est généralement préférable de ne charger que les informations qui seront utilisées. Pour ce faire, il est possible d'utiliser ce que l'on appelle des&nbsp;routes.</p>
 
+
+<h3>Pages (pages)</h3>
 <p>Par exemple, si seulement les pages sont requises, il est possible de spécifier la&nbsp;route</p>
 
 <highlight lang="console">https://site.com/wp-json/wp/v2/pages</highlight>
@@ -51,12 +53,17 @@
 
 <p>Dans cet exemple, la partie&nbsp;<incode>https://site.com/wp-json/wp/v2</incode>&nbsp;correspond à l'URL de base de l'API. Tandis que&nbsp;<incode>/pages</incode>&nbsp;est la route spécifiant que seuls les contenus de type&nbsp;<em>page</em>&nbsp;doivent-être&nbsp;retourné.</p>
 
+<dots></dots>
+<h3>Articles (posts)</h3>
 <p>Si un autre type de publication doit être retourné. Par exemple, les articles, ou en anglais&nbsp;<em>posts</em>, il suffit de spécifier une route&nbsp;différente.</p>
 
 <p>Dans cet exemple:&nbsp;<incode>/posts</incode>.</p>
 
 <highlight lang="console">https://site.com/wp-json/wp/v2/posts</highlight>
 
+
+<dots></dots>
+<h3>Type de publication personnalisé (custom post type)</h3>
 <p>Si un autre type de publication (custom post type) doit être retourné. Par exemple, les jeux comme dans l'exercice "Valet de coeur", il suffit de spécifier une route&nbsp;différente.</p>
 
 <p>Dans cet exemple:&nbsp;<incode>/games</incode>.</p>
@@ -64,7 +71,8 @@
 <highlight lang="console">https://site.com/wp-json/wp/v2/games</highlight>
 
 
-<br>
+<dots></dots>
+<h3>Et si on précisait la route vers une page spécifique?</h3>
 <p>Il est possible de spécifier des routes encore plus précises. Notamment en spécifiant l'ID de la publication&nbsp;désirée.</p>
 
 <p>Par exemple, si seulement la page avec le ID 10 est requis, il est possible de spécifier la route&nbsp;<incode>/pages/10</incode>.</p>
