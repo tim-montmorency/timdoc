@@ -1779,9 +1779,11 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 11 jeudi ----------------------->
 <wiki-page name="Sem11.jeudi" date="2024-11-07">
     <grostitre>Annonces</grostitre>
+    <h3>Remise aujourd'hui</h3>
     <p>Si ce n'est pas fait, svp, veuillez faire votre remise <em>PS – REMISE 5 – MISE EN PAGE STATIQUE</em> sur branche nommée <em>pages-statiques</em>. <br>Vous envoyez le lien de votre répertoire github, sur la branche <em>pages-statiques</em> dans <br><a href="https://teams.microsoft.com/l/entity/66aeee93-507d-479a-a3ef-8f494af43945/classroom?context=%7B%22subEntityId%22%3A%22%7B%5C%22version%5C%22%3A%5C%221.0%5C%22%2C%5C%22config%5C%22%3A%7B%5C%22classes%5C%22%3A%5B%7B%5C%22id%5C%22%3A%5C%2248a8003e-e41c-4b76-a891-85726c9f8189%5C%22%2C%5C%22assignmentIds%5C%22%3A%5B%5C%225dc8119a-382a-4193-9db2-e7e015d6044d%5C%22%5D%7D%5D%7D%2C%5C%22action%5C%22%3A%5C%22navigate%5C%22%2C%5C%22view%5C%22%3A%5C%22assignment-viewer%5C%22%2C%5C%22appId%5C%22%3A%5C%225e3ce6c0-2b1f-4285-8d4b-75ee78787346%5C%22%2C%5C%22deeplinkType%5C%22%3A4%7D%22%2C%22channelId%22%3Anull%7D" target="_blank" rel="noopener noreferrer">Teams/Devoirs/PS - ÉVALUATION 5 - MISE EN PAGE STATIQUE - ÉQUIPES</a></p>
     <alert>Aucun nouveau commit sur la branche <em>pages-statiques</em> ne sera accepté après le début du cours aujour'dhui.</alert>
 
+    <h3>Prochaine remise</h3>
     <p>J'ai encore repoussé la remise de <em>PS – REMISE 4 – PLANIFICATION STRATÉGIQUE DE LA CRÉATION DU THÈME WP</em>. La nouvelle date de remise pour la planification stratégique sera le <em>lundi le 18 novembre</em>.</p>
 
 
