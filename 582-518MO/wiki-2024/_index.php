@@ -1792,7 +1792,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
     <dots></dots>
-    <grostitre>En équipe - Planification du thème WP</grostitre>
+    <grostitre>Planification du thème WP</grostitre>
     <intlink href="../projet/planif-strategique-theme-wordpress/"></intlink>
 
 
@@ -1824,7 +1824,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     Remise le lundi le 18 novembre .
 
     <h3>Terminer exercices</h3>
-    <intlink href='../exercices/wp-rest-api-vice-versa/'></intlink>
+    <!--<intlink href='../exercices/wp-rest-api-vice-versa/'></intlink>-->
     À terminer pour lundi le 18 novembre.
 
 
