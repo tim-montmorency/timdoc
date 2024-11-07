@@ -1837,42 +1837,16 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
                              
 <!---------------------- Cours 11 lundi (mercr) ----------------------->
 <!---------------------- Cours 11 lundi (mercr) ----------------------->
+<!---------------------- Cours 11 lundi (mercr) ----------------------->
 <wiki-page name="Sem11.merc" date="2024-11-13">
 
-<dots></dots>
-    <h2>Révision des exercices WP des semaines passées</h2>
-
-    <intlink href="../exercices/wp-rest-api-vice-versa/"></intlink>
-
-    <dots></dots>
-    <h2>Révision de l'exercice WP de la semaine passée</h2>
-    <intlink href="../exercices/wp-rest-api-vice-versa/"></intlink>
-    <dots></dots>
+ 
     
-    <h2>ASSURANCE ET CONTRÔLE DE LA QUALITÉ</h2>
-    <intlink href="../../582-424MO/optimisation/"></intlink>
-    <intlink href="../gestion-de-projet/lazy-loading/"></intlink>
-    <intlink href="../gestion-de-projet/assurance-qualite/"></intlink>
-    <intlink href="../exercices/assurance-qualite-insoapropriate/"></intlink>
- 
-
-    <dots></dots>
-    <h2>WORDPRESS</h2>
-    <intlink href="../wordpress/images-dans-modeles/"></intlink>
-    <doclink href="https://developer.wordpress.org/themes/functionality/custom-front-page-templates/">Modèle (template)&nbsp;- Page d'accueil</doclink>
-    <br>
-    <doclink href="https://wordpress.com/fr/support/pages/page-accueil/">Définir la page d’accueil dans Wordpress</doclink>
- 
         
     <dots></dots>
     <h2>DEVOIRS</h2>
     <p>- Terminer l'exercice commencé en classe (Insoapropriate).</p>
     <p>- Intégrez votre site à Wordpress avec les techniques vues dans les derniers cours. Vous devez avoir au moins 2 types pages de définies d'ici le prochain cours sur tim-momo.com.</p>
-
-
-   
-
-
 </wiki-page>
 
 
@@ -1887,7 +1861,23 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 | |___| (_) | |_| | |  \__ \  | |/ /_ 
  \_____\___/ \__,_|_|  |___/  |_|____|
  ----------------------------------->  
-<wiki-page name="Cours 12" date="2024-11-16">
+ <!---------------------- Cours 12 lundi ----------------------->
+<!---------------------- Cours 12 lundi ----------------------->
+<!---------------------- Cours 12 lundi ----------------------->
+<wiki-page name="Sem12.lundi" date="2024-11-16">
+
+
+    <h2>Révision de l'exercice WP de la semaine passée</h2>
+    <intlink href="../exercices/wp-rest-api-vice-versa/"></intlink>
+    <dots></dots>
+    
+    <h2>ASSURANCE ET CONTRÔLE DE LA QUALITÉ</h2>
+    <intlink href="../../582-424MO/optimisation/"></intlink>
+    <intlink href="../gestion-de-projet/lazy-loading/"></intlink>
+    <intlink href="../gestion-de-projet/assurance-qualite/"></intlink>
+    <intlink href="../exercices/assurance-qualite-insoapropriate/"></intlink>
+ 
+
 
 
     <h2>Groupe du lundi</h2>
@@ -1921,16 +1911,18 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <dots></dots>
 
-<h2>DEVOIRS</h2>
-<p>- Terminez le dernier exercice commencé en classe (Ouest vs Est).</p>
-<p>- Intégrez votre site du projet de session à Wordpress avec les techniques vues dans les derniers cours. <br> Attention, il est bien important que vous ayez au moins le modèle de la page d'accueil et les modèles de 3 types de contenus différents (nouvelles, services, histoire ou autre...) presque terminés ou bien avancés d'ici le prochain cours.</p>
+    <h2>DEVOIRS</h2>
+    <p>- Terminez le dernier exercice commencé en classe (Ouest vs Est).</p>
+    <p>- Intégrez votre site du projet de session à Wordpress avec les techniques vues dans les derniers cours. <br> Attention, il est bien important que vous ayez au moins le modèle de la page d'accueil et les modèles de 3 types de contenus différents (nouvelles, services, histoire ou autre...) presque terminés ou bien avancés d'ici le prochain cours.</p>
 
 </wiki-page>
 
-
-
-
-
+<!---------------------- Cours 12 jeudi ----------------------->
+<!---------------------- Cours 12 jeudi ----------------------->
+<!---------------------- Cours 12 jeudi ----------------------->
+<wiki-page name="Sem12.jeudi" date="2024-11-20">
+...
+</wiki-page>
 
 <!-----------------------------------
   _____                       __ ____  
