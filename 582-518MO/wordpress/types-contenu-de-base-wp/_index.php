@@ -16,18 +16,18 @@
 <ul>
     <li>Utilisateurs (Users)</li>
     <li>Commentaires (Comments)</li>
-    <li>Type ce contenu (Post Type)</li>
+    <li>Type ce publication (Post Type)</li>
 </ul>
 
-<grostitre>Types de post (post type)</grostitre>
+<grostitre>Types de publication (Post Type)</grostitre>
 <ul>
     <li>Article (Post)</li>
     <li>Page</li>
-    <li>Images ou fichier ajouté dans une page (Attachment)</li>
+   <!-- <li>Images ou fichier ajouté dans une page (Attachment)</li>
     <li>Révision (Revision)</li>
     <li>Menu de navigation</li>
     <li>CSS ajouté (Custom CSS)</li>
-    <li>Révision de l'auto-sauvegarde (Changeset)</li>
+    <li>Révision de l'auto-sauvegarde (Changeset)</li>-->
 </ul>
 <p>Vous pouvez consulter <a href="https://neliosoftware.com/blog/understanding-wordpress-content-types/" target="_blank" rel="noopener noreferrer">cet article</a> pour les définitions.</p>
 

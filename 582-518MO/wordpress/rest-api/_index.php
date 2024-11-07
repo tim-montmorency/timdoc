@@ -51,9 +51,17 @@
 
 <p>Dans cet exemple, la partie&nbsp;<incode>https://site.com/wp-json/wp/v2</incode>&nbsp;correspond à l'URL de base de l'API. Tandis que&nbsp;<incode>/pages</incode>&nbsp;est la route spécifiant que seuls les contenus de type&nbsp;<em>page</em>&nbsp;doivent-être&nbsp;retourné.</p>
 
-<p>Si un autre type de publication doit être retourné. Par exemple, les articles, ou en anglais&nbsp;<em>posts</em>, il suffit de spécifier une route&nbsp;différente.</p><p>Par exemple:&nbsp;<incode>/posts</incode>.</p>
+<p>Si un autre type de publication doit être retourné. Par exemple, les articles, ou en anglais&nbsp;<em>posts</em>, il suffit de spécifier une route&nbsp;différente.</p>
+
+<p>Dans cet exemple:&nbsp;<incode>/posts</incode>.</p>
 
 <highlight lang="console">https://site.com/wp-json/wp/v2/posts</highlight>
+
+<p>Si un autre type de publication (custom post type) doit être retourné. Par exemple, les jeux comme dans l'exercice "Valet de coeur", il suffit de spécifier une route&nbsp;différente.</p>
+
+<p>Dans cet exemple:&nbsp;<incode>/games</incode>.</p>
+
+<highlight lang="console">https://site.com/wp-json/wp/v2/games</highlight>
 
 
 <br>
@@ -146,21 +154,13 @@
 
 
 
-
-
-
-
 <dots></dots>
-<grostitre>Compatibilité ACF</grostitre>
+<grostitre>Compatibilité SCF</grostitre>
+<p>Les <em>post types</em> que vous créez avec SCF vont être pris en compte et retournés par le REST&nbsp;API.</p>
 
-<p>Par défaut, les informations stockées dans des champs&nbsp;<a target="_blank" rel="noopener noreferrer" href="/cours/wordpress/advanced-custom-fields">ACF</a>&nbsp;ne sont pas retournées par le Rest&nbsp;API de WordPress. Heureusement, il est possible de les inclure facilement en ajoutant l'extension&nbsp;<em>ACF to REST&nbsp;API</em>&nbsp;de Aires&nbsp;Gonçalves.</p>
+<p>Par compte, les informations stockées dans des champs&nbsp;<a target="_blank" rel="noopener noreferrer" href="/cours/wordpress/advanced-custom-fields">SCF</a>&nbsp;ne sont pas retournées par le Rest&nbsp;API de WordPress. Heureusement, il est possible de les inclure facilement en activant REST API pour le/les groupe(s) de champs concernés. </p>
 
-<img src="images/acf-to-rest-api.jpg" alt="">
-
-<p>Aussi tôt l'extension installée, les champs ACF seront visibles dans le JSON retourné dans une propriété nommée&nbsp;<em>ACF</em>.</p>
-
-
-
+<clipasset src='images/show-in-rest-api.mov'></clipasset>
 
 
 
