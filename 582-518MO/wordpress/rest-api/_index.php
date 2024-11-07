@@ -181,6 +181,22 @@ fetch(&quot;/wp-json/wp/v2/posts/&lt;?php the_ID(); ?&gt;&quot;)
 
 <info><incode>the_ID()</incode> est une fonction de WordPress retournant le id de la page courante, ex:&nbsp;10.</info>
 
+
+
+
+<dots></dots>
+<grostitre>Pour creuser dans un JSON</grostitre>
+<p>Si vous ne vous souvenez pas comment creuser dans un JSON et aller chercher l'info qu'on veut afficher dans la page, retournez voir les contenus de cours de Fetch API. Je vous remonte aussi un CodePen que vous avez déjà vu dans un cours antérieur qui continent des explications (voir les commentaires dans le JS).</p>
+<intlink href='../../../582-424MO/javascript/fetch-api/'></intlink>
+
+<p class="codepen" data-height="600" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="OJrYEop" data-pen-title="DEMO Fetch API | GET - Reddit" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJrYEop">
+  DEMO Fetch API | GET - Reddit</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+
 <br><br>
 <!--<exercice href="../../exercices/wp-rest-api-vice-versa/"></exercice>-->
 
