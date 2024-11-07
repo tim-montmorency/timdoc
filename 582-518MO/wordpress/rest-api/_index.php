@@ -182,7 +182,7 @@ fetch(&quot;/wp-json/wp/v2/posts/&lt;?php the_ID(); ?&gt;&quot;)
 <info><incode>the_ID()</incode> est une fonction de WordPress retournant le id de la page courante, ex:&nbsp;10.</info>
 
 <br><br>
-<exercice href="../../exercices/wp-rest-api-vice-versa/"></exercice>
+<!--<exercice href="../../exercices/wp-rest-api-vice-versa/"></exercice>-->
 
 
 

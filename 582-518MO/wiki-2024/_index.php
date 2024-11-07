@@ -1779,37 +1779,53 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 11 jeudi ----------------------->
 <wiki-page name="Sem11.jeudi" date="2024-11-07">
     <grostitre>Annonces</grostitre>
+    <p>Si ce n'est pas fait, svp, veuillez faire votre remise <em>PS – REMISE 5 – MISE EN PAGE STATIQUE</em> sur branche nommée <em>pages-statiques</em>. <br>Vous envoyez le lien de votre répertoire github, sur la branche <em>pages-statiques</em> dans <br><a href="https://teams.microsoft.com/l/entity/66aeee93-507d-479a-a3ef-8f494af43945/classroom?context=%7B%22subEntityId%22%3A%22%7B%5C%22version%5C%22%3A%5C%221.0%5C%22%2C%5C%22config%5C%22%3A%7B%5C%22classes%5C%22%3A%5B%7B%5C%22id%5C%22%3A%5C%2248a8003e-e41c-4b76-a891-85726c9f8189%5C%22%2C%5C%22assignmentIds%5C%22%3A%5B%5C%225dc8119a-382a-4193-9db2-e7e015d6044d%5C%22%5D%7D%5D%7D%2C%5C%22action%5C%22%3A%5C%22navigate%5C%22%2C%5C%22view%5C%22%3A%5C%22assignment-viewer%5C%22%2C%5C%22appId%5C%22%3A%5C%225e3ce6c0-2b1f-4285-8d4b-75ee78787346%5C%22%2C%5C%22deeplinkType%5C%22%3A4%7D%22%2C%22channelId%22%3Anull%7D" target="_blank" rel="noopener noreferrer">Teams/Devoirs/PS - ÉVALUATION 5 - MISE EN PAGE STATIQUE - ÉQUIPES</a></p>
+    <alert>Aucun nouveau commit sur la branche <em>pages-statiques</em> ne sera accepté après le début du cours aujour'dhui.</alert>
 
 
-    <p>Révision des exercices</p>
+    <dots></dots>
+    <grostitre>Partie individuelle de l'évaluation 5 - Mise en page statique</grostitre>
+    <p>Cet exercice noté, concerne <a href="../projet/integration-pages-statiques/" target="_blank" rel="noopener noreferrer">ce travail</a> que vous verez de remetttre <br>C'est un exercice <strong>INDIVIDUEL</strong> à faire et compléter en classe et à remettre avant la fin du cours. Vous ne pouvez pas vous consulter.<br>
+    Les instructions vous seront données à la projection en classe.</p>
+
+
+    <dots></dots>
+    <grostitre>En équipe - Planification du thème WP</grostitre>
+    <intlink href="../projet/planif-strategique-theme-wordpress/"></intlink>
+
+
+
+
+
+
+    <dots></dots>
+    <grostitre>Révision des exercices</grostitre>
     <intlink href="../exercices/wp-query-les-bagnoles/"></intlink>
     <intlink href="../exercices/wp-menu-bs/"></intlink>
     <intlink href="../exercices/wp-jellycat-gutenberg/"></intlink>
 
 
-    <grostitre>Vice Versa version WP-Query</grostitre>
+    <dots></dots>
+    <grostitre>WordPress</grostitre>
+    <intlink href="../wordpress/rest-api/"></intlink>
+
+    <dots></dots>
+    <grostitre>Exercice</grostitre>
+    <p>Lien fourni en classe.</p>
+    <!--<exercice href="../../exercices/wp-rest-api-vice-versa/"></exercice>-->
 
 
     <dots></dots>
-    <h2>PROJET DE SESSION</h2>
-    <p>Procédure de migration des données d'une installation WordPress à un autre.</p>
-    <intlink href="../projet/migration-donnees-wordpress/"></intlink>
+    <grostitre>Devoirs</grostitre>
+    <h3>Projet de session</h3>
+    <intlink href="../projet/planif-strategique-theme-wordpress/"></intlink>
+    Remise le mercredi le 13 novembre .
+
+    <h3>Terminer exercices</h3>
+    <intlink href='../exercices/wp-rest-api-vice-versa/'></intlink>
+    À terminer pour lundi le 18 novembre.
 
 
-    <dots></dots>
-    <h2>ASSURANCE ET CONTRÔLE DE LA QUALITÉ</h2>
-    <intlink href="../../582-424MO/optimisation/"></intlink>
-    <intlink href="../gestion-de-projet/lazy-loading/"></intlink>
-    <intlink href="../gestion-de-projet/assurance-qualite/"></intlink>
-    <p>Exercice en classe</p>
-        
-    <dots></dots>
-    <h2>PM Présentation client</h2>
-
-    <dots></dots>
-    <h2>DEVOIRS</h2>
-
-    <p>Intégrez votre site à Wordpress avec les techniques vues dans les derniers cours.</p>
 
 
 </wiki-page>
@@ -1829,6 +1845,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <h2>Révision de l'exercice WP de la semaine passée</h2>
     <intlink href="../exercices/wp-rest-api-vice-versa/"></intlink>
     <dots></dots>
+    
     <h2>ASSURANCE ET CONTRÔLE DE LA QUALITÉ</h2>
     <intlink href="../../582-424MO/optimisation/"></intlink>
     <intlink href="../gestion-de-projet/lazy-loading/"></intlink>

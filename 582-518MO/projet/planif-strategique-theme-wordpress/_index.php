@@ -19,7 +19,8 @@
 <checklist>Dans VS Code, installez l'extension <a href="https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode" target="_blank">MarkMap</a>.
 Dans votre thème, créez un fichier <em>structure-site.md</em>.
 Ensuite ouvrir palette des commandes (ctrl+maj+p) et écrire <em>Open as markmap</em> + Enter afin de visualiser votre fichier markdown en fomat carte conceptuelle.
-Listez toutes vos pages (md: titre niveau 1).
+Listez toutes vos pages en markdowm, chaque page sera un titre de niveau 1.
+
 </checklist>
 
 

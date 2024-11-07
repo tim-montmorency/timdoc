@@ -24,20 +24,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="noindex, nofollow" />
         <meta itemprop="digest" content="">
-        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
-        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
-        <script src="../../../shared/jscripts/highlight.min.js"></script>
-        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
-        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
-        <script src="../../../shared/jscripts/timdoc.min.js"></script>
-        <script>const shared = '../../../shared/';</script>
-        <title>Planif création thème WP</title>
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>Pages statiques - Partie individuelle</title>
     </head>
     <body>
         <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
         <a id="top"></a>
         <header>
-            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+            <div id="logo" @click="goToTop('../../../', '')" title="Retour à l'accueil">
                 <svg class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
                 </svg>
@@ -48,52 +48,45 @@
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
                 <div id="breadcrumb">
-                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">Projet de session</a> ></div>
+                    <div id="breadcrumb_normal"></div>
                     <div id="breadcrumb_index"></div>
                 </div>
-                <h1 id="title"><img src="images/icon.svg">&nbsp;Planif création thème WP</h1>
+                <h1 id="title"><img src="images/icon.svg">&nbsp;Pages statiques - Partie individuelle</h1>
             </div>
             <article>
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
-<alert>Cette page est en cours de rédaction, veuillez ignorer son contenu.</alert>
+
 
 
 <dots></dots>
-<grostitre>REMISE 4 – PLANIFICATION DU THÈME WP</grostitre>
+<grostitre>REMISE 5 – MISE EN PAGE STATIQUE</grostitre>
 
-<p>Cette étape se réalise en équipe.</p>
+<p>Cette étape se réalise en INDIVIDUELLEMENT.</p>
 
-<checklist>Dans VS Code, installez l'extension <a href="https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode" target="_blank">MarkMap</a>.
-Dans votre thème, créez un fichier <em>structure-site.md</em>.
-Ensuite ouvrir palette des commandes (ctrl+maj+p) et écrire <em>Open as markmap</em> + Enter afin de visualiser votre fichier markdown en fomat carte conceptuelle.
-Listez toutes vos pages en markdowm, chaque page sera un titre de niveau 1.
+<alert>Vous ne pouvez pas vous consulter.</alert>
 
+
+<grostitre>Requis tâches et résumé de SCRUM</grostitre>
+<checklist>
+    Créez un fichier Word.
+    Veuillez indiquer clairement, qui a fait quoi pour le travail des pages statiques. <br>Ne nommez pas que les pages par personne, allez dans le détails. <br> Qui a fait la structure de base du site, les fichiers partials, qui a fait quelle page, quelle section dans chaque page, y a-t-il du JavaScript, qui a fait le QA s'il y en a eu, de l'aide pour débugger etc. Nommez tout! Il faut donner le plus de détail possible par membre de l'équipe. 
+    Commencez par vous. Nommez tout de que vous avez fait. 
+    Ensuite faites de même pour vos co-équipier.
+    Donnez ensuite une mesure de la quantité de travail que chaque membre a réalisé pour cette remise. Le total du travail devrait être 100%.
+    Finalement, accordez évaluez la qualité du travail de chaque membre de l'équipe. Vous devez aussi vous auto-évaluer. Donnez un note /100. Expliquez chaque note accordée en quelques mots.
+</checklist>
+
+<info>Vous pouvez vous aider en révisant les résumés de vos SCRUMs, en regardant votre Tableau Trello, ce sera plus facile de retourner dans les détails. Allez voir vos liste à cocher dans les cartes Trello.</info>
+
+<dots></dots>
+<grostitre>Requis feuille de temps</grostitre>
+<checklist>
+    Veuillez vous rendre sur votre Toggl et exportez votre rapport de temps. Vous ne devez inclure que le temps de travail sur l'intégration des pages statiques et non pas le temps de travail de vos rôles respectifs des dernières remises (ce que vous avez fait en tant que devOp, PO, designer ne compte pas dans ce rapport).
 </checklist>
 
 
-
-<p>
-<ul>
-    <li> Listez toutes vos pages (titre niveau 1)</li>
-    <li> Par page vous allez lister :
-        <ul>
-            <li>TYPE DE CONTENU: Quel type de contenu (post-type) principal vous avez besoin (titre niveau 2)</li>
-            <li> MODÈLE: Quel sera le nom du modèle lié à cette page (ou ce type de page)?
-                Ex: page.php, product.php ?</li>
-            <li> COMPOSANTE: Dans la page elle-même, qu’est-ce que vous évaluez être une composante qui aura son
-                propre partial. Pour
-                chaque composante nommée :
-                <ul>
-                    <li>COMPOSANTE: Comment nommerez-vous le partial de cette composante (theme (php)) (tire niveau 3)</li>
-                    <li>ACF: Quel(s) champs ACF cette composante aura besoin et comment allez-vous les nommer ?</li>
-                </ul>
-            </li>
-            <li>ACF: Outre les composantes, quels champs ACF avec-vous besoin de créer pour compléter la page en question</li>
-        </ul>
-    </li>
-</ul>
 
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
