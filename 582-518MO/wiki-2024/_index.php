@@ -1811,8 +1811,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <grostitre>WordPress</grostitre>
     <intlink href="../wordpress/rest-api/"></intlink>
 
-    <dots></dots>
-    <grostitre>Exercice</grostitre>
+    <h3>Exercice</h3>
     <p>Lien fourni en classe.</p>
     <!--<exercice href="../../exercices/wp-rest-api-vice-versa/"></exercice>-->
 
