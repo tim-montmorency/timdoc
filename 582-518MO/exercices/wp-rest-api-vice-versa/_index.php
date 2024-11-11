@@ -24,13 +24,15 @@
 
 
 <h3 class="heading heading--h3" id="Médias 🖼️">Médias 🖼️</h3>
-<mediafile src="https://ex.smnarnold.com/wordpress/vice-versa/data-vice-versa.xml">data-vice-versa.xml</mediafile>
+<!--<mediafile src="https://ex.smnarnold.com/wordpress/vice-versa/data-vice-versa.xml">data-vice-versa.xml</mediafile>-->
+<mediafile src="images/data-vice-versa.xml.zip">data-vice-versa.xml.zip</mediafile>
+
 
 
 <dots></dots>
 <grostitre>Installation & migration</grostitre>
 <checklist>Installez en local une copie en&nbsp;<a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/">Français du Canada de WordPress</a>&nbsp;pour votre client.
-Ajoutez l'extension Custom Post Type UI.
+Ajoutez l'extension <em>Secure Custom Fields (SCF)</em>.
 Installez le&nbsp;<a target="_blank" rel="noopener noreferrer" href="https://ex.smnarnold.com/wordpress/vice-versa/vice-versa-theme.zip">thème réalisé par votre collègue</a>.
 Importez la structure du Post Personnalisé intitulé&nbsp;<em>"Émotions"</em>&nbsp;à l'aide de l'extrait de code se trouvant à la fin de ce bloc.
 Importez les données des pages à l'aide du fichier XML en pièce jointe.<</checklist>
