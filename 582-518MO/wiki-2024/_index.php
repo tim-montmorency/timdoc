@@ -1799,23 +1799,16 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
 
-
-
-
     <dots></dots>
     <grostitre>Révision des exercices</grostitre>
     <intlink href="../exercices/wp-query-les-bagnoles/"></intlink>
-    <intlink href="../exercices/wp-menu-bs/"></intlink>
-    <intlink href="../exercices/wp-jellycat-gutenberg/"></intlink>
+
 
 
     <dots></dots>
     <grostitre>WordPress</grostitre>
     <intlink href="../wordpress/rest-api/"></intlink>
 
-    <h3>Exercice</h3>
-    <p>Lien fourni en classe.</p>
-    <!--<exercice href="../../exercices/wp-rest-api-vice-versa/"></exercice>-->
 
 
     <dots></dots>
@@ -1824,9 +1817,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href="../projet/planif-strategique-theme-wordpress/"></intlink>
     Remise le lundi le 18 novembre .
 
-    <h3>Terminer exercices</h3>
-    <!--<intlink href='../exercices/wp-rest-api-vice-versa/'></intlink>-->
-    À terminer pour lundi le 18 novembre.
+  
 
 
 
@@ -1840,13 +1831,37 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 11 lundi (mercr) ----------------------->
 <wiki-page name="Sem11.merc" date="2024-11-13">
 
- 
+    <grostitre>Annonces</grostitre>
+
+
+    <dots></dots>
+    <grostitre>Révision des exercices</grostitre>
+    <intlink href="../exercices/wp-menu-bs/"></intlink>
+    <intlink href="../exercices/wp-jellycat-gutenberg/"></intlink>
+
+
+    <dots></dots>
+    <grostitre>WordPress</grostitre>
+    <intlink href="../wordpress/rest-api/"></intlink>
+
+    <h3>Exercice</h3>
+    <p>Lien fourni en classe.</p>
+    <exercice href="../../exercices/wp-rest-api-vice-versa/"></exercice>
+
     
         
     <dots></dots>
-    <h2>DEVOIRS</h2>
-    <p>- Terminer l'exercice commencé en classe (Insoapropriate).</p>
-    <p>- Intégrez votre site à Wordpress avec les techniques vues dans les derniers cours. Vous devez avoir au moins 2 types pages de définies d'ici le prochain cours sur tim-momo.com.</p>
+    <grostitre>Devoirs</grostitre>
+    <h3>Terminer exercices</h3>
+    <h3>Projet de session</h3>
+    <intlink href="../projet/planif-strategique-theme-wordpress/"></intlink>
+    Remise le lundi le 18 novembre .
+    <intlink href='../exercices/wp-rest-api-vice-versa/'></intlink>
+    À terminer pour lundi le 18 novembre.
+
+
+
+   
 </wiki-page>
 
 
@@ -1910,6 +1925,9 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
     <dots></dots>
+    <h2>DEVOIRS</h2>
+    <p>- Terminer l'exercice commencé en classe (Insoapropriate).</p>
+    <p>- Intégrez votre site à Wordpress avec les techniques vues dans les derniers cours. Vous devez avoir au moins 2 types pages de définies d'ici le prochain cours sur tim-momo.com.</p>
 
     <h2>DEVOIRS</h2>
     <p>- Terminez le dernier exercice commencé en classe (Ouest vs Est).</p>

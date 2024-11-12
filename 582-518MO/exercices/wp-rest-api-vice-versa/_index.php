@@ -116,18 +116,21 @@ Dans le tableau de bord de WordPress, vous devriez maintenant voir les 5 émotio
 
 <dots></dots>
 <grostitre>Affichage</grostitre>
-<checklist>Utilisez le Rest API de WordPress afin de récupérer tous les posts de type&nbsp;<em>"émotions"</em> et ordonner les en ordre alphabétique.
-Pour chacun de ces posts, recréez une carte en vous basant sur le Pen en pièce jointe dans le fichier&nbsp;<em>home.php</em>.</checklist>
+<checklist>Dans la page d'accueil de votre site, via le modèle <em>home.php</em> du thème, utilisez le Rest API de WordPress afin de récupérer tous les posts de type&nbsp;<em>"émotions"</em>.
+Pour chacun de ces posts, recréez une carte en vous basant sur le Pen en pièce jointe.
+Assurez-vous d'afficher les émotions dans le même ordre que le Pen, c'est-à-dire en ordre alphabétique.</checklist>
 
    
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-
-
-
 <intlink href="../../wordpress/posts-personnalises/"></intlink>
+<intlink href="../../wordpress/advanced-custom-fields/#export"></intlink>
 <intlink href="../../wordpress/migration-de-donnees/"></intlink>
 <intlink href="../../wordpress/rest-api/"></intlink>
+<intlink href='../../../582-424MO/javascript/fetch-api/'></intlink> <br>
+<doclink href='https://smnarnold.com/cours/javascript/manipulation-des-contenus'>Manipulation des contenus du DOM en JavaScript</doclink> <br>
+<doclink href='https://smnarnold.com/cours/javascript/json'>JSON</doclink> <br>
+<doclink href='https://smnarnold.com/cours/javascript/litteraux-de-gabarits'>Littéraux de gabarit</doclink>
 
 
 

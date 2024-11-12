@@ -183,7 +183,7 @@ Avec une nouvelle installation WordPress, il est possible qu'il soit situé à c
 <dots></dots>
 <grostitre>Affichage</grostitre>
 <p>Une fois les JSONs désirés identifiés, il ne reste plus qu'à afficher leurs&nbsp;informations!</p>
-<p>Par exemple, dans la page&nbsp;<em>single.php</em>&nbsp;servant à afficher les articles, il serait possible de déclarer une balise&nbsp;<incode>&lt;script&gt;</incode>&nbsp;et d'effectuer un&nbsp;<a target="_blank" rel="noopener noreferrer" href="/cours/javascript/fetch">fetch</a>&nbsp;afin de récupérer les informations de l'article&nbsp;courant:</p>
+<p>Par exemple, dans la page&nbsp;<em>single.php</em>&nbsp;servant à afficher les articles, il serait possible de déclarer une balise&nbsp;<incode>&lt;script&gt;</incode>&nbsp;et d'effectuer un&nbsp;<a target="_blank" rel="noopener noreferrer" href="../../../582-424MO/javascript/fetch-api/">fetch</a>&nbsp;afin de récupérer les informations de l'article&nbsp;courant:</p>
 
 
 
