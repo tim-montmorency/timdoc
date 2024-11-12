@@ -1832,6 +1832,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <wiki-page name="Sem11.merc" date="2024-11-13">
 
     <grostitre>Annonces</grostitre>
+    <h3>Prochaine remise</h3>
+    <p><em>PS – REMISE 4 – PLANIFICATION STRATÉGIQUE DE LA CRÉATION DU THÈME WP</em> lundi le 18 novembre.</p>
 
 
     <dots></dots>
@@ -1845,19 +1847,40 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href="../wordpress/rest-api/"></intlink>
 
     <h3>Exercice</h3>
-    <p>Lien fourni en classe.</p>
-    <exercice href="../../exercices/wp-rest-api-vice-versa/"></exercice>
+    <exercice href="../exercices/wp-rest-api-vice-versa/"></exercice>
+
+
+    <dots></dots>
+    <grostitre>Exercice groupe de musique</grostitre>
+    <h3>Partie 1</h3>
+    <p><a href="https://app.wooclap.com/DDBOUL" target="_blank" rel="noopener noreferrer">Questionnaire analyse - Groupe 01</a> code Wooclap: DDBOUL <br>
+    <a href="https://app.wooclap.com/MGODGR" target="_blank" rel="noopener noreferrer">Questionnaire analyse - Groupe 02</a> code Wooclap: MGODGR <br>
+    </p>
+
+    <h3>Partie 2</h3>
+    <p>Lien à venir</p>
+    <!--<exercice href="../exercices/wp-groupe-musicaux/"></exercice>-->
 
     
         
     <dots></dots>
     <grostitre>Devoirs</grostitre>
-    <h3>Terminer exercices</h3>
+
     <h3>Projet de session</h3>
     <intlink href="../projet/planif-strategique-theme-wordpress/"></intlink>
-    Remise le lundi le 18 novembre .
+    Remise le lundi le 18 novembre.
+
+    <br><br><br><br>
+
+    <h3>Terminer exercices</h3>
     <intlink href='../exercices/wp-rest-api-vice-versa/'></intlink>
-    À terminer pour lundi le 18 novembre.
+    + exercice musique (lien à venir)
+    <!--<intlink href='../exercices/wp-groupe-musicaux/'></intlink>-->
+    <br> <br>
+    À terminer au plus tard pour jeudi le 21 novembre.
+
+
+
 
 
 
@@ -1899,23 +1922,6 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <p><strong>Révision exercice assurance qualité: Insoapropriate</strong></p>
     <intlink href="../exercices/assurance-qualite-insoapropriate/"></intlink>
 
-    <p><strong>Wordpress</strong></p>
-    <intlink href="../wordpress/images-dans-modeles/"></intlink>
-  
-    <dots></dots>
-    <h2>WORDPRESS - suite</h2>
-    <intlink href="../wordpress/modeles/"></intlink>
-    <doclink href="https://developer.wordpress.org/themes/functionality/custom-front-page-templates/">Custom Front Page Templates</doclink>
-
-
-    <dots></dots>
-    <h2>Exercice groupe de musique</h2>
-    <p><strong>Partie 1</strong><br>
-   - <a href="https://app.wooclap.com/LBOOEE" target="_blank" rel="noopener noreferrer">Questionnaire analyse - groupe vendredi</a> code Wooclap: LBOOEE <br> 
-    - <a href="https://app.wooclap.com/NIXSJS" target="_blank" rel="noopener noreferrer">Questionnaire analyse - groupe lundi</a>  code Wooclap: NIXSJS</p>
-
-    <p><strong>Partie 2</strong><br>
-   Lien partagé en classe</p>
 
     <dots></dots>
     <h2>VUE.JS</h2>

@@ -2,7 +2,7 @@
 /**
  * @type     exercice
  * @title    Wordpress - Groupes musicaux
- * @icon     images/
+ * @icon     medias/thumb.jpg
  * @abstract Vous evez créer un microsite permettant de présenter les informations de quelques groupes de musique.
  */
 ?>
@@ -18,7 +18,10 @@
 
 
 <grostitre>Partie 1 de l'exercice</grostitre>
-<p><a href="https://app.wooclap.com/DDBOUL" target="_blank" rel="noopener noreferrer">Questionnaire analyse</a> code Wooclap: DDBOUL <br>
+<p><a href="https://app.wooclap.com/DDBOUL" target="_blank" rel="noopener noreferrer">Questionnaire analyse - Groupe 01</a> code Wooclap: DDBOUL <br>
+<a href="https://app.wooclap.com/MGODGR" target="_blank" rel="noopener noreferrer">Questionnaire analyse - Groupe 02</a> code Wooclap: MGODGR <br>
+</p>
+
 
 
 <h3>Matériel</h3>
@@ -37,8 +40,8 @@
 <doclink href="https://codepen.io/tim-momo/pen/poGbPmV">Code Pen de l'accueil</doclink><br>
 <doclink href="https://codepen.io/tim-momo/pen/VwgKZmg">Code Pen de la page d'un groupe (Muse)</doclink>
 <br>
-<mediafile src="medias/acf_custom_fields_post_types.json">Structure des types de contenu personnalisés et champs personnalisés</mediafile>
-<mediafile src="medias/contenu_wp-musique.xml">Contenu WordPress</mediafile>
+<mediafile src="medias/acf_custom_fields_post_types.json.zip">Structure des types de contenu personnalisés et champs personnalisés</mediafile>
+<mediafile src="medias/contenu_wp-musique.xml.zip">Contenu WordPress</mediafile>
 <mediafile src="medias/theme-groupes-musique.zip">Thème pour démarrer</mediafile>
 
 <br>
@@ -46,10 +49,11 @@
 <checklist>Installez en local une copie en <a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/" onclick="event.stopPropagation()">Français du Canada de WordPress</a> pour votre client.
 Installez le <a target="_blank" href="medias/theme-groupes-musique.zip" onclick="event.stopPropagation()">thème réalisé par votre collègue</a> et activez-le.
 Installez l'extension <a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/plugins/advanced-custom-fields/" onclick="event.stopPropagation()">Secure Custom Fields</a>.
-Importez les types de contenus et les champs personnalisés avec le json fourni ci-haut.
-Importez les contenus déjà préparés avec le fichier .xml fourni ci-haut.
-Créez une page qui fera office d'accueil et configurez la via le tableau de bord de WordPress.
-Dans le modèle de l'accueil, faites afficher tous les groupes de musiques avec <em>WP-Query</em>. Assurez-vous de vous fier à la stucture HTML du site Web fourni.
+Importez les types de publication (post type) et les champs personnalisés (custom fields) avec le JSON fourni ci-haut.
+Importez les contenus déjà préparés avec le fichier XML fourni ci-haut.
+Via le tableau de bord de WP, créez une page  qui fera office d'accueil. 
+Configurez votre site WordPress afin qu'il affiche cette page en accueil du site.
+Dans le modèle de l'accueil correspondant, faites afficher tous les groupes de musiques avec <em>WP-Query</em>. Assurez-vous de vous fier à la stucture HTML du site Web fourni.
 Construisez ensuite le modèle de la page du groupe de musique. Assurez-vous de vous fier à la stucture HTML du site Web fourni. Notez que vous devez créer le fichier du modèle (template).
 </checklist>
 
@@ -59,4 +63,5 @@ Construisez ensuite le modèle de la page du groupe de musique. Assurez-vous de 
 <intlink href="../../wordpress/modeles/"></intlink>
 <intlink href="../../wordpress/wp-query/"></intlink>
 <intlink href="../../wordpress/advanced-custom-fields/"></intlink>
+<intlink href="../../wordpress/modeles/#hierarchie"></intlink>
 <intlink href="../../wordpress/images-dans-modeles/"></intlink>
