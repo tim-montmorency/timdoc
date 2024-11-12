@@ -1,0 +1,42 @@
+/*
+Theme Name: Vice Versa
+Author: Simon Arnold
+Author URI: https://smnarnold.com
+Description: Thème pour pratiquer le Rest API de Wordpress.
+Version: 1.0
+-------------------------------------------------------------- */
+.emotions-preview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  font-family: sans-serif;
+}
+
+.emotion {
+  position: relative;
+}
+
+.emotion__title {
+  padding: 0 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.emotion__content {
+  padding: 0 10px;
+}
+
+.emotion__media {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.main-footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+}

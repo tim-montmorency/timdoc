@@ -79,7 +79,8 @@
 
 <highlight lang="console">https://site.com/wp-json/wp/v2/pages/10</highlight>
 
-
+<doclink href='https://developer.wordpress.org/rest-api/reference/'>Reference REST API</doclink>
+<doclink href='https://capitainewp.io/formations/developper-theme-wordpress/api-rest/'>REST API expliqué par capitaine WP</doclink>
 
 
 

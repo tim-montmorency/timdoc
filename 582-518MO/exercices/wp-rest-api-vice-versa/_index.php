@@ -34,13 +34,14 @@
 <grostitre>Installation & migration</grostitre>
 <checklist>Installez en local une copie en&nbsp;<a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/">Français du Canada de WordPress</a>&nbsp;pour votre client.
 Ajoutez l'extension <em>Secure Custom Fields (SCF)</em>.
-Installez le&nbsp;<a target="_blank" rel="noopener noreferrer" href="https://ex.smnarnold.com/wordpress/vice-versa/vice-versa-theme.zip">thème réalisé par votre collègue</a>.
-Importez la structure du Post Personnalisé intitulé&nbsp;<em>"Émotions"</em>&nbsp;à l'aide de l'extrait de code se trouvant à la fin de ce bloc.
-Importez les données des pages à l'aide du fichier XML en pièce jointe.<</checklist>
+Installez le&nbsp;<a target="_blank" rel="noopener noreferrer" href="images/theme-vice-versa.zip">thème réalisé par votre collègue</a>.
+Importez la <em>STRUCTURE</em> du <strong>Type de publication</strong> (post type) intitulé&nbsp;<em>"Émotions"</em>&nbsp;à l'aide du fichier JSON partagé ci-haut que vous aurez préalablement téléchargé et désarchivé (unzip). 
+Vous devriez maintenant voir la section <em>Émotions</em> de la barre de gauche du tableau de bord WordPress. Vous devriez aussi voir ce type de publication apparraitre dans SCF / Post Types.
+Importez maintenant les <em>DONNÉES</em> des pages à l'aide du fichier XML partagé ci-haut que vous aurez préalablement téléchargé et désarchivé (unzip).
+Dans le tableau de bord de WordPress, vous devriez maintenant voir les 5 émotions apparaitre dans la section <em>Émotions</em> de la barre de gauche.
+</checklist>
 
-
-
-<highlight lang="json">
+<!--
 {
     "emotions": {
         "name": "emotions",
@@ -110,7 +111,7 @@ Importez les données des pages à l'aide du fichier XML en pièce jointe.<</che
         "custom_supports": ""
     }
 }
-</highlight>
+-->
 
 
 <dots></dots>

@@ -80,81 +80,84 @@
 <grostitre>Installation & migration</grostitre>
 <checklist>Installez en local une copie en&nbsp;<a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/">Français du Canada de WordPress</a>&nbsp;pour votre client.
 Ajoutez l'extension <em>Secure Custom Fields (SCF)</em>.
-Installez le&nbsp;<a target="_blank" rel="noopener noreferrer" href="https://ex.smnarnold.com/wordpress/vice-versa/vice-versa-theme.zip">thème réalisé par votre collègue</a>.
-Importez la structure du Post Personnalisé intitulé&nbsp;<em>"Émotions"</em>&nbsp;à l'aide de l'extrait de code se trouvant à la fin de ce bloc.
-Importez les données des pages à l'aide du fichier XML en pièce jointe.<</checklist>
+Installez le&nbsp;<a target="_blank" rel="noopener noreferrer" href="images/theme-vice-versa.zip">thème réalisé par votre collègue</a>.
+Importez la <em>STRUCTURE</em> du <strong>Type de publication</strong> (post type) intitulé&nbsp;<em>"Émotions"</em>&nbsp;à l'aide du fichier JSON partagé ci-haut que vous aurez préalablement téléchargé et désarchivé (unzip). 
+Vous devriez maintenant voir la section <em>Émotions</em> de la barre de gauche du tableau de bord WordPress. Vous devriez aussi voir ce type de publication apparraitre dans SCF / Post Types.
+Importez maintenant les <em>DONNÉES</em> des pages à l'aide du fichier XML partagé ci-haut que vous aurez préalablement téléchargé et désarchivé (unzip).
+Dans le tableau de bord de WordPress, vous devriez maintenant voir les 5 émotions apparaitre dans la section <em>Émotions</em> de la barre de gauche.
+</checklist>
 
-
-
-<highlight lang="json">{
-    &quot;emotions&quot;: {
-        &quot;name&quot;: &quot;emotions&quot;,
-        &quot;label&quot;: &quot;\u00c9motions&quot;,
-        &quot;singular_label&quot;: &quot;\u00c9motion&quot;,
-        &quot;description&quot;: &quot;&quot;,
-        &quot;public&quot;: &quot;true&quot;,
-        &quot;publicly_queryable&quot;: &quot;true&quot;,
-        &quot;show_ui&quot;: &quot;true&quot;,
-        &quot;show_in_nav_menus&quot;: &quot;true&quot;,
-        &quot;delete_with_user&quot;: &quot;false&quot;,
-        &quot;show_in_rest&quot;: &quot;true&quot;,
-        &quot;rest_base&quot;: &quot;&quot;,
-        &quot;rest_controller_class&quot;: &quot;&quot;,
-        &quot;has_archive&quot;: &quot;false&quot;,
-        &quot;has_archive_string&quot;: &quot;&quot;,
-        &quot;exclude_from_search&quot;: &quot;false&quot;,
-        &quot;capability_type&quot;: &quot;post&quot;,
-        &quot;hierarchical&quot;: &quot;false&quot;,
-        &quot;rewrite&quot;: &quot;true&quot;,
-        &quot;rewrite_slug&quot;: &quot;&quot;,
-        &quot;rewrite_withfront&quot;: &quot;true&quot;,
-        &quot;query_var&quot;: &quot;true&quot;,
-        &quot;query_var_slug&quot;: &quot;&quot;,
-        &quot;menu_position&quot;: &quot;&quot;,
-        &quot;show_in_menu&quot;: &quot;true&quot;,
-        &quot;show_in_menu_string&quot;: &quot;&quot;,
-        &quot;menu_icon&quot;: &quot;dashicons-admin-users&quot;,
-        &quot;supports&quot;: [
-            &quot;title&quot;,
-            &quot;editor&quot;,
-            &quot;thumbnail&quot;
+<!--
+{
+    "emotions": {
+        "name": "emotions",
+        "label": "\u00c9motions",
+        "singular_label": "\u00c9motion",
+        "description": "",
+        "public": "true",
+        "publicly_queryable": "true",
+        "show_ui": "true",
+        "show_in_nav_menus": "true",
+        "delete_with_user": "false",
+        "show_in_rest": "true",
+        "rest_base": "",
+        "rest_controller_class": "",
+        "has_archive": "false",
+        "has_archive_string": "",
+        "exclude_from_search": "false",
+        "capability_type": "post",
+        "hierarchical": "false",
+        "rewrite": "true",
+        "rewrite_slug": "",
+        "rewrite_withfront": "true",
+        "query_var": "true",
+        "query_var_slug": "",
+        "menu_position": "",
+        "show_in_menu": "true",
+        "show_in_menu_string": "",
+        "menu_icon": "dashicons-admin-users",
+        "supports": [
+            "title",
+            "editor",
+            "thumbnail"
         ],
-        &quot;taxonomies&quot;: [],
-        &quot;labels&quot;: {
-            &quot;menu_name&quot;: &quot;\u00c9motions&quot;,
-            &quot;all_items&quot;: &quot;Toutes les \u00e9motions&quot;,
-            &quot;add_new&quot;: &quot;Ajouter une nouvelle&quot;,
-            &quot;add_new_item&quot;: &quot;Ajouter une \u00e9motion&quot;,
-            &quot;edit_item&quot;: &quot;Modifier une \u00e9motion&quot;,
-            &quot;new_item&quot;: &quot;Nouvelle \u00e9motion&quot;,
-            &quot;view_item&quot;: &quot;Voir l&#039;\u00e9motion&quot;,
-            &quot;view_items&quot;: &quot;Voir les \u00e9motions&quot;,
-            &quot;search_items&quot;: &quot;Rechercher dans les \u00e9motions&quot;,
-            &quot;not_found&quot;: &quot;Aucune \u00e9motion trouv\u00e9e&quot;,
-            &quot;not_found_in_trash&quot;: &quot;Aucune \u00e9motion dans la corbeille&quot;,
-            &quot;parent&quot;: &quot;Parent de \u00e9motion:&quot;,
-            &quot;featured_image&quot;: &quot;Image de pr\u00e9sentation de \u00e9motion&quot;,
-            &quot;set_featured_image&quot;: &quot;Configurer image de pr\u00e9sentation de l&#039;\u00e9motion&quot;,
-            &quot;remove_featured_image&quot;: &quot;Enlever l&#039;image de pr\u00e9sentation de \u00e9motion&quot;,
-            &quot;use_featured_image&quot;: &quot;Utiliser comme image de pr\u00e9sentation pour cette \u00e9motion&quot;,
-            &quot;archives&quot;: &quot;Archive d&#039;\u00e9motions&quot;,
-            &quot;insert_into_item&quot;: &quot;Ins\u00e9rer dans les \u00e9motions&quot;,
-            &quot;uploaded_to_this_item&quot;: &quot;T\u00e9l\u00e9verser vers cette \u00e9motion&quot;,
-            &quot;filter_items_list&quot;: &quot;Filtrer la liste des \u00e9motions&quot;,
-            &quot;items_list_navigation&quot;: &quot;\u00c9motions list navigation&quot;,
-            &quot;items_list&quot;: &quot;\u00c9motions list&quot;,
-            &quot;attributes&quot;: &quot;\u00c9motions attributes&quot;,
-            &quot;name_admin_bar&quot;: &quot;\u00c9motion&quot;,
-            &quot;item_published&quot;: &quot;\u00c9motion publi\u00e9e&quot;,
-            &quot;item_published_privately&quot;: &quot;\u00c9motion published privately.&quot;,
-            &quot;item_reverted_to_draft&quot;: &quot;\u00c9motion reverted to draft.&quot;,
-            &quot;item_scheduled&quot;: &quot;\u00c9motion scheduled&quot;,
-            &quot;item_updated&quot;: &quot;\u00c9motion updated.&quot;,
-            &quot;parent_item_colon&quot;: &quot;Parent de \u00e9motion:&quot;
+        "taxonomies": [],
+        "labels": {
+            "menu_name": "\u00c9motions",
+            "all_items": "Toutes les \u00e9motions",
+            "add_new": "Ajouter une nouvelle",
+            "add_new_item": "Ajouter une \u00e9motion",
+            "edit_item": "Modifier une \u00e9motion",
+            "new_item": "Nouvelle \u00e9motion",
+            "view_item": "Voir l'\u00e9motion",
+            "view_items": "Voir les \u00e9motions",
+            "search_items": "Rechercher dans les \u00e9motions",
+            "not_found": "Aucune \u00e9motion trouv\u00e9e",
+            "not_found_in_trash": "Aucune \u00e9motion dans la corbeille",
+            "parent": "Parent de \u00e9motion:",
+            "featured_image": "Image de pr\u00e9sentation de \u00e9motion",
+            "set_featured_image": "Configurer image de pr\u00e9sentation de l'\u00e9motion",
+            "remove_featured_image": "Enlever l'image de pr\u00e9sentation de \u00e9motion",
+            "use_featured_image": "Utiliser comme image de pr\u00e9sentation pour cette \u00e9motion",
+            "archives": "Archive d'\u00e9motions",
+            "insert_into_item": "Ins\u00e9rer dans les \u00e9motions",
+            "uploaded_to_this_item": "T\u00e9l\u00e9verser vers cette \u00e9motion",
+            "filter_items_list": "Filtrer la liste des \u00e9motions",
+            "items_list_navigation": "\u00c9motions list navigation",
+            "items_list": "\u00c9motions list",
+            "attributes": "\u00c9motions attributes",
+            "name_admin_bar": "\u00c9motion",
+            "item_published": "\u00c9motion publi\u00e9e",
+            "item_published_privately": "\u00c9motion published privately.",
+            "item_reverted_to_draft": "\u00c9motion reverted to draft.",
+            "item_scheduled": "\u00c9motion scheduled",
+            "item_updated": "\u00c9motion updated.",
+            "parent_item_colon": "Parent de \u00e9motion:"
         },
-        &quot;custom_supports&quot;: &quot;&quot;
+        "custom_supports": ""
     }
-}</highlight>
+}
+-->
 
 
 <dots></dots>
