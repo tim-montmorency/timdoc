@@ -1829,11 +1829,12 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 11 lundi (mercr) ----------------------->
 <!---------------------- Cours 11 lundi (mercr) ----------------------->
 <!---------------------- Cours 11 lundi (mercr) ----------------------->
-<wiki-page name="Sem11.merc" date="2024-11-13">
+<wiki-page name="Sem11.merc" date="2024-11-12">
 
     <grostitre>Annonces</grostitre>
     <h3>Prochaine remise</h3>
     <p><em>PS – REMISE 4 – PLANIFICATION STRATÉGIQUE DE LA CRÉATION DU THÈME WP</em> lundi le 18 novembre.</p>
+    <intlink href="../projet/planif-strategique-theme-wordpress/"></intlink>
 
 
     <dots></dots>
@@ -1841,17 +1842,25 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href="../exercices/wp-menu-bs/"></intlink>
     <intlink href="../exercices/wp-jellycat-gutenberg/"></intlink>
 
+ 
 
     <dots></dots>
     <grostitre>WordPress</grostitre>
     <intlink href="../wordpress/rest-api/"></intlink>
 
     <h3>Exercice</h3>
+    <warning>Cet exercice se réalise individuellement.</warning>
     <exercice href="../exercices/wp-rest-api-vice-versa/"></exercice>
+
+    <dots></dots>
+    <grostitre>Rencontre d'équipes + prof</grostitre>
+    <p>Rencontre d'équipe avec enseignante pour présenter votre plan stratégique de la création du thème WP.</p>
+    <intlink href="../projet/planif-strategique-theme-wordpress/"></intlink>
 
 
     <dots></dots>
     <grostitre>Exercice groupe de musique</grostitre>
+    <warning>Cet exercice se réalise en équipe (votre équipe du projet de session)</warning>
     <h3>Partie 1</h3>
     <p><a href="https://app.wooclap.com/DDBOUL" target="_blank" rel="noopener noreferrer">Questionnaire analyse - Groupe 01</a> code Wooclap: DDBOUL <br>
     <a href="https://app.wooclap.com/MGODGR" target="_blank" rel="noopener noreferrer">Questionnaire analyse - Groupe 02</a> code Wooclap: MGODGR <br>
