@@ -75,10 +75,14 @@
 <p>La page retournée ressemble probablement à un mur de texte illisible. Il s'agit en fait d'un fichier JSON minifié contenant tous les contenus du site, affichés sur une seule&nbsp;ligne.</p>
 
 
-<alert><strong>Erreur fréquente</strong><br>Si le Rest API de votre site ne répond pas à cette URL, il est probable que votre hébergeur ait modifié son emplacement. Pour le trouver, ouvrez le code source de votre page d’accueil et cherchez&nbsp;<em>"wp-json/"</em>.</alert>
+<alert><strong>Erreur fréquente</strong><br>Si le Rest API de votre site ne répond pas à cette URL, il est probable que votre hébergeur ait modifié son emplacement. Pour le trouver, ouvrez le code source de votre page d’accueil et cherchez&nbsp;<em>"wp-json/"</em>. <br><br>
+
+Avec une nouvelle installation WordPress, il est possible qu'il soit situé à cette adresse: <span class='inline-code'>https://site.com/index.php/wp-json/wp/v2/</span> </alert>
 <br><br>
 
-
+<dots></dots>
+<grostitre>Visualiser les données reçues</grostitre>
+<h3>À l'aide d'une extention à ajouter à votrwe navigateur web préféré</h3>
         <a class="tool" target="_blank" href="https://jsonview.com/">
             <div class="tool-container">
                 <div class="tool-abstract">
@@ -89,8 +93,9 @@
                 <div class="tool-thumb" style="background-image: url(../../tools/jsonview/images/thumb.webp)"></div>
             </div>
         </a>
-
-
+<h3>Avec Firefox</h3>
+<p>Avec Firefox, vous n'avez pas besoin d'extention supplémentaire pour visualiser le JSON de manière propre et ordonnée. </p>
+<clipasset src='images/firefox-json.mp4'></clipasset>
 
 
  <dots></dots>
@@ -268,7 +273,7 @@
 
 
 <br><br>
-<!--        <a class="exercice" target="_blank" href="../../exercices/wp-rest-api-vice-versa/">
+        <a class="exercice" target="_blank" href="../../exercices/wp-rest-api-vice-versa/">
             <div class="exercice-container">
                 <div class="exercice-thumb" style="background-image: url(../../exercices/wp-rest-api-vice-versa/images/thumb.webp)"></div>
                 <div class="exercice-abstract">
@@ -277,7 +282,7 @@
                     <span class="exercice-description">Créer un microsite permettant de présenter les protagonistes du film Vice Versa</span>
                 </div>
             </div>
-        </a>-->
+        </a>
 
 
 

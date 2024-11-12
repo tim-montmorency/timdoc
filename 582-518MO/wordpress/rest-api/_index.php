@@ -27,13 +27,18 @@
 <p>La page retournée ressemble probablement à un mur de texte illisible. Il s'agit en fait d'un fichier JSON minifié contenant tous les contenus du site, affichés sur une seule&nbsp;ligne.</p>
 
 
-<alert><strong>Erreur fréquente</strong><br>Si le Rest API de votre site ne répond pas à cette URL, il est probable que votre hébergeur ait modifié son emplacement. Pour le trouver, ouvrez le code source de votre page d’accueil et cherchez&nbsp;<em>"wp-json/"</em>.</alert>
+<alert><strong>Erreur fréquente</strong><br>Si le Rest API de votre site ne répond pas à cette URL, il est probable que votre hébergeur ait modifié son emplacement. Pour le trouver, ouvrez le code source de votre page d’accueil et cherchez&nbsp;<em>"wp-json/"</em>. <br><br>
+
+Avec une nouvelle installation WordPress, il est possible qu'il soit situé à cette adresse: <span class='inline-code'>https://site.com/index.php/wp-json/wp/v2/</span> </alert>
 <br><br>
 
-
+<dots></dots>
+<grostitre>Visualiser les données reçues</grostitre>
+<h3>À l'aide d'une extention à ajouter à votrwe navigateur web préféré</h3>
 <tool href="../../tools/jsonview/"></tool>
-
-
+<h3>Avec Firefox</h3>
+<p>Avec Firefox, vous n'avez pas besoin d'extention supplémentaire pour visualiser le JSON de manière propre et ordonnée. </p>
+<clipasset src='images/firefox-json.mp4'></clipasset>
 
 
  <dots></dots>
@@ -207,7 +212,7 @@ fetch(&quot;/wp-json/wp/v2/posts/&lt;?php the_ID(); ?&gt;&quot;)
 
 
 <br><br>
-<!--<exercice href="../../exercices/wp-rest-api-vice-versa/"></exercice>-->
+<exercice href="../../exercices/wp-rest-api-vice-versa/"></exercice>
 
 
 

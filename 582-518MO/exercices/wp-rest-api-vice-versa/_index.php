@@ -25,7 +25,7 @@
 
 <h3 class="heading heading--h3" id="Médias 🖼️">Médias 🖼️</h3>
 <!--<mediafile src="https://ex.smnarnold.com/wordpress/vice-versa/data-vice-versa.xml">data-vice-versa.xml</mediafile>-->
-<mediafile src="images/data-vice-versa.xml.zip">data-vice-versa.xml.zip</mediafile>
+<mediafile src="images/data-vice-versa-mm.xml.zip">data-vice-versa-mm.xml.zip</mediafile>
 <mediafile src="images/scf-structure-emotions-post-type.json.zip">scf-structure-emotions-post-type.json.zip</mediafile>
 
 
