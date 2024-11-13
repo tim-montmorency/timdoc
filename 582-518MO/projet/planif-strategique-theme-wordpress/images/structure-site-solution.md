@@ -1,0 +1,156 @@
+# Accueil
+## TYPE DE CONTENU
+### page
+
+## MODÈLE (TEMPLATE)
+### front-page.php
+
+## COMPOSANTES
+### NOM DU PARTIAL DU THÈME
+#### hero.php
+### CHAMPS PERSONNALISÉS
+#### hero-titre
+#### hero-desc
+#### hero-img
+
+## AUTRES CHAMPS PERSONNALISÉS
+
+
+
+
+# Hub de nouvelles
+## TYPE DE CONTENU
+### page
+
+## MODÈLE (TEMPLATE)
+### front-page.php
+
+## COMPOSANTES
+### NOM DU PARTIAL DU THÈME
+### CHAMPS PERSONNALISÉS
+
+## AUTRES CHAMPS PERSONNALISÉS
+
+
+
+
+
+# Nouvelle
+## TYPE DE CONTENU
+### page
+
+## MODÈLE (TEMPLATE)
+### front-page.php
+
+## COMPOSANTES
+### NOM DU PARTIAL DU THÈME
+### CHAMPS PERSONNALISÉS
+
+## AUTRES CHAMPS PERSONNALISÉS
+
+
+
+
+
+# Hub de services
+## TYPE DE CONTENU
+### page
+
+## MODÈLE (TEMPLATE)
+### front-page.php
+
+## COMPOSANTES
+### NOM DU PARTIAL DU THÈME
+### CHAMPS PERSONNALISÉS
+
+## AUTRES CHAMPS PERSONNALISÉS
+
+
+
+
+
+
+# Service
+## TYPE DE CONTENU
+### page
+
+## MODÈLE (TEMPLATE)
+### front-page.php
+
+## COMPOSANTES
+### NOM DU PARTIAL DU THÈME
+### CHAMPS PERSONNALISÉS
+
+## AUTRES CHAMPS PERSONNALISÉS
+
+
+
+
+
+
+# Équipe
+## TYPE DE CONTENU
+### page
+
+## MODÈLE (TEMPLATE)
+### front-page.php
+
+## COMPOSANTES
+### NOM DU PARTIAL DU THÈME
+### CHAMPS PERSONNALISÉS
+
+## AUTRES CHAMPS PERSONNALISÉS
+
+
+
+
+
+
+# À propos
+## TYPE DE CONTENU
+### page
+
+## MODÈLE (TEMPLATE)
+### front-page.php
+
+## COMPOSANTES
+### NOM DU PARTIAL DU THÈME
+### CHAMPS PERSONNALISÉS
+
+## AUTRES CHAMPS PERSONNALISÉS
+
+
+
+
+
+# Nous joindre
+## TYPE DE CONTENU
+### page
+
+## MODÈLE (TEMPLATE)
+### front-page.php
+
+## COMPOSANTES
+### NOM DU PARTIAL DU THÈME
+### CHAMPS PERSONNALISÉS
+
+## AUTRES CHAMPS PERSONNALISÉS
+
+
+
+
+
+# 404
+## TYPE DE CONTENU
+### page
+
+## MODÈLE (TEMPLATE)
+### front-page.php
+
+## COMPOSANTES
+### NOM DU PARTIAL DU THÈME
+### CHAMPS PERSONNALISÉS
+
+## AUTRES CHAMPS PERSONNALISÉS
+
+

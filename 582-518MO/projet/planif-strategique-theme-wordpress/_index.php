@@ -30,12 +30,11 @@ Vous trouverez les instructions pour chaque catégories juste en bas ici. ⬇️
 
 ## MODÈLE (TEMPLATE)
 
-## COMPOSANTE DE LA PAGES
-### NOM DU PARTIAL DU THÈME WP POUR CETTE COMPOSTANTE
+## COMPOSANTES
+### NOM DU PARTIAL
+### CHAMPS PERSONNALISÉS
 
-### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
-
-## AUTRES CHAMPS PERSONNALISÉS (CUSTOM FIELDS) SANS LIEN AVEC UNE COMPOSANTE
+## AUTRES CHAMPS PERSONNALISÉS
 </highlight>
 
 <h3>Instructions pour chaque catégorie</h3>
@@ -55,16 +54,19 @@ Vous trouverez les instructions pour chaque catégories juste en bas ici. ⬇️
             Comment nommerez-vous le partial de cette composante php?
             </li>
             <li>### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE <br>
-            Quel(s) champs SCF que cette composante aura besoin et comment allez-vous les nommer 
+            Quel(s) champs SCF que cette composante aura besoin et comment allez-vous les nommer. Vous devez donc écrire <br> <em>le-nom: le type de champs</em>.
             </li>
         </ul>
     </li>
     <li>## AUTRES CHAMPS PERSONNALISÉS (CUSTOM FIELDS) SANS LIEN AVEC UNE COMPOSANTE <br>
-    Outre les composantes, quels champs SCF avec-vous besoin de créer pour compléter la page en question.
+    Outre les composantes, quels champs SCF avec-vous besoin de créer pour compléter la page en question. <br> <em>le-nom: le type de champs</em>
     </li>
 </ul>
 
+Pour les type de champs personnalisés, allez consulter <a href="https://www.advancedcustomfields.com/resources/" target="_blank" rel="noopener noreferrer">les options de Secure Custom Fields</a>.
+
 <alert>Essayez de minimiser le nombre de type de contenu (post type), de modèles et de champs personnalisés à créer. Rappelez-vous qu'il y a des types de contenu (page et article) ainsi que des champs de base déjà existants dans Wordpress que vous pouvez utilsier avant d'en créer des supplémentaires.</alert>
+
 
 
 <dots></dots>
@@ -74,8 +76,8 @@ Vous trouverez les instructions pour chaque catégories juste en bas ici. ⬇️
 
 <dots></dots>
 <grostitre>Remise</grostitre>
-<p>Ajoutez ce fichier <em>structure-site.md</em> dans votre thème Wordpress.</p>
-<p>Remettez ce fichier <em>structure-site.md</em> dans Teams/Devoir d'ici le prochain cours.</p>
+<p>Ajoutez vos fichiers individuels ainsi que le fichier d'équipe final  <em>structure-site.md</em> dans votre thème Wordpress.</p>
+<p>Remettez ces 3 ou 4 fichiers <em>structure-site.md</em> dans Teams/Devoir d'ici lundi.</p>
 
 
 
