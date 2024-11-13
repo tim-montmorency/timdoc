@@ -1911,25 +1911,31 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
  <!---------------------- Cours 12 lundi ----------------------->
 <!---------------------- Cours 12 lundi ----------------------->
 <!---------------------- Cours 12 lundi ----------------------->
-<wiki-page name="Sem12.lundi" date="2024-11-16">
+<wiki-page name="Sem12.lundi" date="2024-11-18">
+
+    <grostitre>Annonces</grostitre>
+    <p>Ajourd'hui, dès le début du cours<em>PS – REMISE 4 – PLANIFICATION STRATÉGIQUE DE LA CRÉATION DU THÈME WP</em> lundi le 18 novembre.</p>
+    <intlink href="../projet/planif-strategique-theme-wordpress/"></intlink>
 
 
-    <h2>Révision de l'exercice WP de la semaine passée</h2>
-    <intlink href="../exercices/wp-rest-api-vice-versa/"></intlink>
-    <dots></dots>
-    
+    Quiz cours 12 2024
+   AM  https://app.wooclap.com/SHJIYH
+   PM https://app.wooclap.com/NHDMCP
+
+
+
+<!--
+
     <h2>ASSURANCE ET CONTRÔLE DE LA QUALITÉ</h2>
     <intlink href="../../582-424MO/optimisation/"></intlink>
     <intlink href="../gestion-de-projet/lazy-loading/"></intlink>
     <intlink href="../gestion-de-projet/assurance-qualite/"></intlink>
     <intlink href="../exercices/assurance-qualite-insoapropriate/"></intlink>
  
-
-
-
     <h2>Groupe du lundi</h2>
     <p><strong>Révision exercice assurance qualité: Insoapropriate</strong></p>
     <intlink href="../exercices/assurance-qualite-insoapropriate/"></intlink>
+-->
 
 
     <dots></dots>
@@ -1954,6 +1960,13 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 12 jeudi ----------------------->
 <!---------------------- Cours 12 jeudi ----------------------->
 <wiki-page name="Sem12.jeudi" date="2024-11-20">
+
+<grostitre>Révision de l'exercice WP de la semaine passée</grostitre>
+    <intlink href="../exercices/wp-rest-api-vice-versa/"></intlink>
+    <intlink href="../exercices/wp-groupe-musicaux//"></intlink>
+
+    <dots></dots>
+    
 ...
 </wiki-page>
 
