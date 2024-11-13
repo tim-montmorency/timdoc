@@ -9,27 +9,35 @@
 ### NOM DU PARTIAL DU THÈME
 #### hero.php
 ### CHAMPS PERSONNALISÉS
-#### hero-titre
-#### hero-desc
-#### hero-img
+#### carousel-slide:group
+##### slide-title:text
+##### slide-desc:text
+##### slide-img:image
+##### slide-cta-text:txt
+##### slide-cta-link:link
+
 
 ## AUTRES CHAMPS PERSONNALISÉS
-
+### ............
+#### testimonial:group
+##### testimonial-name:text
+##### testimonial-quote:text
+##### testimonial-photo:image
 
 
 
 # Hub de nouvelles
 ## TYPE DE CONTENU
-### page
+### news-hub
 
 ## MODÈLE (TEMPLATE)
-### front-page.php
-
-## COMPOSANTES
-### NOM DU PARTIAL DU THÈME
-### CHAMPS PERSONNALISÉS
+### news-hub.php
 
 ## AUTRES CHAMPS PERSONNALISÉS
+
+#### dropdown-newer-first-label:text
+#### dropdown-older-first-label:text
+#### button-more-news-label:text
 
 
 
@@ -37,16 +45,13 @@
 
 # Nouvelle
 ## TYPE DE CONTENU
-### page
+### news-article
 
 ## MODÈLE (TEMPLATE)
-### front-page.php
-
-## COMPOSANTES
-### NOM DU PARTIAL DU THÈME
-### CHAMPS PERSONNALISÉS
+### news-article.php
 
 ## AUTRES CHAMPS PERSONNALISÉS
+#### news-category:select
 
 
 
@@ -57,31 +62,41 @@
 ### page
 
 ## MODÈLE (TEMPLATE)
-### front-page.php
+### services-hub.php
 
 ## COMPOSANTES
-### NOM DU PARTIAL DU THÈME
-### CHAMPS PERSONNALISÉS
+### NOM DU PARTIAL DU THÈME 
+#### hero.php (même que page Services)
+##### CHAMPS PERSONNALISÉS
+###### hero-title:text
+###### hero-img:image
+###### hero-desc:text
 
-## AUTRES CHAMPS PERSONNALISÉS
-
-
+#### description.php (même que page Services)
+##### CHAMPS PERSONNALISÉS
+###### description-base:text 
 
 
 
 
 # Service
 ## TYPE DE CONTENU
-### page
+### service
 
 ## MODÈLE (TEMPLATE)
-### front-page.php
+### service.php
 
 ## COMPOSANTES
-### NOM DU PARTIAL DU THÈME
-### CHAMPS PERSONNALISÉS
+### NOM DU PARTIAL DU THÈME 
+#### hero.php (même que page Services)
+##### CHAMPS PERSONNALISÉS
+###### hero-title:text
+###### hero-img:image
+###### hero-desc:text
 
-## AUTRES CHAMPS PERSONNALISÉS
+#### description.php (même que page Services)
+##### CHAMPS PERSONNALISÉS
+###### description-base:text 
 
 
 
@@ -91,17 +106,26 @@
 # Équipe
 ## TYPE DE CONTENU
 ### page
+### membre
 
 ## MODÈLE (TEMPLATE)
-### front-page.php
+### team.php
 
 ## COMPOSANTES
-### NOM DU PARTIAL DU THÈME
-### CHAMPS PERSONNALISÉS
+### NOM DU PARTIAL DU THÈME 
+#### hero.php (même que page Services)
+##### CHAMPS PERSONNALISÉS
+###### hero-title:text
+###### hero-img:image
+###### hero-desc:text
 
-## AUTRES CHAMPS PERSONNALISÉS
+#### description.php (même que page Services)
+##### CHAMPS PERSONNALISÉS
+###### description-base:text 
 
 
+## AUTRES CHAMPS PERSONNALISÉS POUR MEMBRE
+#### job-position:text
 
 
 
@@ -111,13 +135,19 @@
 ### page
 
 ## MODÈLE (TEMPLATE)
-### front-page.php
+### about.php
 
 ## COMPOSANTES
-### NOM DU PARTIAL DU THÈME
-### CHAMPS PERSONNALISÉS
+### NOM DU PARTIAL DU THÈME 
+#### hero.php (même que page Services)
+##### CHAMPS PERSONNALISÉS
+###### hero-title:text
+###### hero-img:image
+###### hero-desc:text
 
-## AUTRES CHAMPS PERSONNALISÉS
+#### description.php (même que page Services)
+##### CHAMPS PERSONNALISÉS
+###### description-base:text 
 
 
 
@@ -128,13 +158,8 @@
 ### page
 
 ## MODÈLE (TEMPLATE)
-### front-page.php
+### contact-us.php
 
-## COMPOSANTES
-### NOM DU PARTIAL DU THÈME
-### CHAMPS PERSONNALISÉS
-
-## AUTRES CHAMPS PERSONNALISÉS
 
 
 
@@ -145,12 +170,5 @@
 ### page
 
 ## MODÈLE (TEMPLATE)
-### front-page.php
-
-## COMPOSANTES
-### NOM DU PARTIAL DU THÈME
-### CHAMPS PERSONNALISÉS
-
-## AUTRES CHAMPS PERSONNALISÉS
-
+### 404.php
 
