@@ -1858,18 +1858,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href="../projet/planif-strategique-theme-wordpress/"></intlink>
 
 
-    <dots></dots>
-    <grostitre>Exercice groupe de musique</grostitre>
-    <warning>Cet exercice se réalise en équipe (votre équipe du projet de session)</warning>
-    <h3>Partie 1</h3>
-    <p><a href="https://app.wooclap.com/DDBOUL" target="_blank" rel="noopener noreferrer">Questionnaire analyse - Groupe 01</a> code Wooclap: DDBOUL <br>
-    <a href="https://app.wooclap.com/MGODGR" target="_blank" rel="noopener noreferrer">Questionnaire analyse - Groupe 02</a> code Wooclap: MGODGR <br>
-    </p>
-
-    <h3>Partie 2</h3>
-    <p>Lien à venir</p>
-    <!--<exercice href="../exercices/wp-groupe-musicaux/"></exercice>-->
-
+    
     
         
     <dots></dots>
@@ -1883,9 +1872,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <h3>Terminer exercices</h3>
     <intlink href='../exercices/wp-rest-api-vice-versa/'></intlink>
-    + exercice musique (lien à venir)
-    <!--<intlink href='../exercices/wp-groupe-musicaux/'></intlink>-->
-    <br> <br>
+    
     À terminer au plus tard pour jeudi le 21 novembre.
 
 
@@ -1911,16 +1898,41 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
  <!---------------------- Cours 12 lundi ----------------------->
 <!---------------------- Cours 12 lundi ----------------------->
 <!---------------------- Cours 12 lundi ----------------------->
-<wiki-page name="Sem12.lundi" date="2024-11-18">
+<wiki-page name="Sem12.lundi" date="2024-11-14">
 
     <grostitre>Annonces</grostitre>
     <p>Ajourd'hui, dès le début du cours<em>PS – REMISE 4 – PLANIFICATION STRATÉGIQUE DE LA CRÉATION DU THÈME WP</em> lundi le 18 novembre.</p>
     <intlink href="../projet/planif-strategique-theme-wordpress/"></intlink>
 
 
-    Quiz cours 12 2024
-   AM  https://app.wooclap.com/SHJIYH
-   PM https://app.wooclap.com/NHDMCP
+
+    <dots></dots>
+    <grostitre>Quiz</grostitre>
+        <p>Groupe AM - <a href="https://app.wooclap.com/SHJIYH" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;: SHJIYH</a><br>
+        Groupe AM - <a href="https://app.wooclap.com/NHDMCP" target="_blank" rel="noopener noreferrer">Code Wooclap&nbsp;: NHDMCP</a></p>
+
+
+
+    <dots></dots>
+    <grostitre>Projet de session</grostitre>
+    <p>Ce qu'il reste à faire: intégrer votre projet à WordPress en créant la structure du thème et en ajoutant le contenu. Comme vous avez 4 installations WordPress qui sont indépendantes, voici comment je vous propose de fonctionner:</p>
+    <intlink href='../projet/migration-donnees-wordpress/'></intlink>
+
+
+
+
+    <dots></dots>
+    <grostitre>Exercice facultatif pour pratiquer WordPress</grostitre>
+    <h3>Groupes de musique</h3>
+    <warning>Cet exercice se réalise en équipe (votre équipe du projet de session)</warning>
+    <h4>Partie 1 (Quiz en classe)</h4>
+    <p><a href="https://app.wooclap.com/DDBOUL" target="_blank" rel="noopener noreferrer">Questionnaire analyse - Groupe 01</a> code Wooclap: DDBOUL <br>
+    <a href="https://app.wooclap.com/MGODGR" target="_blank" rel="noopener noreferrer">Questionnaire analyse - Groupe 02</a> code Wooclap: MGODGR <br>
+    </p>
+
+    <h4>Partie 2 - Exercice facultatif</h4>
+    <p>Si vous avez besoin de pratiquer encore avant de vous lancer dans la création de votre thème pour le projet de session.</p>
+    <exercice href="../exercices/wp-groupe-musicaux/"></exercice>
 
 
 
@@ -1939,20 +1951,31 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
     <dots></dots>
-    <h2>VUE.JS</h2>
+    <grostitre>VUE JS</grostitre>
     <intlink href="../javascript/vue-js/introduction"></intlink>
     <intlink href="../javascript/vue-js/creation-app-bases"></intlink>
     <p>Exercices partagés en classe</p>
 
 
     <dots></dots>
-    <h2>DEVOIRS</h2>
-    <p>- Terminer l'exercice commencé en classe (Insoapropriate).</p>
-    <p>- Intégrez votre site à Wordpress avec les techniques vues dans les derniers cours. Vous devez avoir au moins 2 types pages de définies d'ici le prochain cours sur tim-momo.com.</p>
+    <grostitre>Devoirs</grostitre>
+    <h3>Terminer exercices WordPress</h3>
+    <intlink href='../exercices/wp-rest-api-vice-versa/'></intlink>
+    À terminer au plus tard pour jeudi le 21 novembre.
 
-    <h2>DEVOIRS</h2>
-    <p>- Terminez le dernier exercice commencé en classe (Ouest vs Est).</p>
-    <p>- Intégrez votre site du projet de session à Wordpress avec les techniques vues dans les derniers cours. <br> Attention, il est bien important que vous ayez au moins le modèle de la page d'accueil et les modèles de 3 types de contenus différents (nouvelles, services, histoire ou autre...) presque terminés ou bien avancés d'ici le prochain cours.</p>
+ <dots></dots>
+    <h3>Projet de session</h3>
+    <checklist>Renommez le <em>theme-de-base</em> selon le nom de votre client. Vous devez renommer à la fois le dossier du thème et le nom et les informations dans <em>style.css</em>.
+    N'oubliez pas de faire une copie de <em>style.scss</em> dans le dossier du thème, ainsi qu'une copie des fichiers JavaScript (<em>main.js</em> et possiblement le dossier qui contient Bootstrap si applicable) ainsi qu'une copie du dossier des partials SCSS. 
+    Comme <em>style.css</em> est généré à partir de <em>style.scss</em>, n'oubliez pas d'ajouter les infos du thème (en commentaire) dans <em>style.scss</em> sinon ils seront écrasées la prochaine fois que vous allez faire un <strong>Watch Sass</strong>.
+    Pour le prochain cours, en équipe, essayez de créer minimalement le modèle et la structure WordPress (post type et champs personnalisés si applicables) de 2 pages afin de vous permettre d'avoir une vélocité pour ne pas tout faire à la dernière minute. NE PAS COMMENCER PAR L'ACCUEIL. Rappelez vous qu'il faut commencer par faire la structure sur tim-momo.com.
+    </checklist>
+    <intlink href='../projet/migration-donnees-wordpress/'></intlink>
+
+    <dots></dots>
+    <h3>Terminer exercices Vue JS</h3>
+    <p>- Terminez le dernier exercice commencé en classe (Ouest vs Est). Lien partagé en classe.</p> 
+    À terminer au plus tard pour lundi le 25 novembre.
 
 </wiki-page>
 
