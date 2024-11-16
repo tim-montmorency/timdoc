@@ -3,7 +3,7 @@
  * @type     article
  * @title    Méthodes et événements v-on
  * @icon     ../images/icon.webp
- * @abstract La propriété methods dans une app Vue est un objet contenant différentes méthodes pouvant être appelées. 
+ * @abstract Les méthodes Vue sont des fonctions qui appartiennent à l'instance Vue sous la propriété "methods".
  * @index    88
  * @ref      web/cadriciels/vuejs
  */
