@@ -233,7 +233,7 @@ class ItemEpicerieEpice extends ItemEpicerie {
 <codepen id="WNVWGwj" tab="js,result" height="500"></codepen>
 
 
-
+<exercice href='../../exercices/classe-space-invaders/'></exercice>
 
 <aside class="exercice-card">
     <div class="exercice-card__content">

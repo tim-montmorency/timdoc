@@ -31,7 +31,7 @@
         <script src="../../../shared/jscripts/vue.global.prod.js"></script>
         <script src="../../../shared/jscripts/timdoc.min.js"></script>
         <script>const shared = '../../../shared/';</script>
-        <title>Classe: Chats</title>
+        <title>Classe: Space Invaders</title>
     </head>
     <body>
         <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
@@ -47,67 +47,50 @@
         <main>
             <!-- MAIN HEADER EOF -->
             <div id="subhead">
-                <h1 id="title">Classe: Chats</h1>
+                <h1 id="title">Classe: Space Invaders</h1>
             </div>
             <article>
                 <div id="contents">
                     <!-- EXERCICE HEADER EOF -->
-<p>Pour cet exercice vous nous allons utiliser les classes JavaScript afin de créer un générateur de chats à 9&nbsp;vies 😸.</p>
 
 
 
 
+<p>Pour cet exercice nous allons créer un générateur d’extra-terrestres inspiré d’un des jeux les plus célèbres et influents de l’histoire, l’archétype du <em>shoot them up</em>: <a href="https://www.youtube.com/watch?v=Jbn8IRmSq8M">Space&nbsp;Invaders 👾</a>.</p>
+
+thumb
 <grostitre>Aperçu du résultat 👇</grostitre>
 <clipasset src='images/apercu.mp4'></clipasset>
 
-<div class="image image--exercice-result">
-    
-  <div class="image__wrapper image__wrapper--landscape">
-          <video src="/assets/exercices/classe-js-chats.mp4" autoplay="" muted="" loop="" class="image__gifv"></video>
-      </div>
-  
-</div>
+
+
 
 <dots></dots>
 <grostitre>Matériel</grostitre>
-<doclink href="https://codepen.io/tim-momo/pen/OJKGRZm">Pen de départ</doclink>
+<doclink href="https://codepen.io/tim-momo/pen/qBewaLE">Pen de départ</doclink>
 
-    
 
 <dots></dots>
-<grostitre>Médias 🖼️</grostitre>
+<p>Le but de cet exercice est de créer des&nbsp;<em>invaders</em>&nbsp;qui partageront les mêmes caractéristiques de base, mais qui auront de légères variations&nbsp;<em>(forme et couleur)</em>&nbsp;en fonction de l'objet JavaScript qui leur sera&nbsp;passé.</p>
 
-
-
-<h3 class="heading heading--h3" id="Médias 🖼️">Médias 🖼️</h3>
-
-
-<mediafile src="https://ex.smnarnold.com/class-js/chats/meow.mp3">Meow</mediafile>
-
-
-<warning>Vous n’avez qu’à écrire du JavaScript <em>(Nul besoin de modifier le HTML ou le&nbsp;CSS)</em>.</warning>
-    
+<warning>Vous n’avez qu’à écrire du JavaScript <em>(nul besoin de modifier le HTML ou le&nbsp;CSS)</em>.</warning>
 
 
 <dots></dots>
 <grostitre>Requis</grostitre>
-<checklist>
-  Écoutez le clic sur le bouton&nbsp;<em>"Créer&nbsp;un 😺"</em>.
-Chaque clic sur ce bouton doit appeler une classe JS insérant un nouvel élément contenant le texte&nbsp;<em>"🐈"</em>&nbsp;et la classe&nbsp;<code>.chat</code>.
-Chaque chat doit avoir une opacité de 100%. Cependant, chaque clic doit réduire son opacité de 10%. Autrement dit, si un chat a été cliqué 3x, il devrait avoir une opacité de&nbsp;70%.
-Si un chat atteint une opacité de 0%&nbsp;<em>(ou moins  🤷‍♂️)</em>, le chat doit être retiré de la&nbsp;page.</checklist>
-
-
-
-
-
-<dots></dots>
-<grostitre>Bonus</grostitre>
-<checklist>Lorsqu'un chat est cliqué, déclenchez le son&nbsp;en pièce jointe <em>Meow</em>.</checklist>
+<checklist>Créez-vous une nouvelle classe JavaScript intitulée&nbsp;<em>Invader</em>.
+Écoutez le clic sur les boutons. Au clic, créez une nouvelle instance de la classe&nbsp;<em>Invader</em>&nbsp;et passez au constructeur l'objet correspondant dans le array&nbsp;<span class="inline-code">invadersList</span>. Par exemple, le premier bouton devrait passer le premier objet, le deuxième bouton, le deuxième objet et ainsi de&nbsp;suite.
+Dans votre constructeur, sauvegardez dans une propriété l'objet reçu en paramètre afin de pouvoir y accéder plus&nbsp;tard.
+Pigez une couleur parmi les couleurs fournies dans l'objet et sauvegardez-la.
+Créez un div et attribuez-lui les classes&nbsp;<span class="inline-code">.invader</span>&nbsp;pour lui attribuer les styles communs à tous les invaders, ainsi que la classe&nbsp;<span class="inline-code">.invader-X</span>&nbsp;où&nbsp;<span class="inline-code">X</span>&nbsp;correspond au type dans l'objet&nbsp;reçu.
+Ajoutez la couleur sauvegardée comme couleur de fond du div, ainsi l'espace transparent dans l'image prendra la couleur en&nbsp;question.
+Faites en sorte d'ajouter la classe&nbsp;<span class="inline-code">.exploded</span>&nbsp;aux invaders lorsqu'ils se font cliquer dessus. Ceci déclenchera une animation d'explosion déjà réalisée pour vous en&nbsp;CSS.
+</checklist>
 
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
+
 
         <div class="intlink__item">
             <div class="intlink__item__icon" style="background-image: url(../../javascript/classe/images/classe-js3.png);"></div>
@@ -117,7 +100,12 @@ Si un chat atteint une opacité de 0%&nbsp;<em>(ou moins  🤷‍♂️)</em>,
             </div>
         </div>
 <doclink href='https://smnarnold.com/cours/javascript/queryselector'>querySelector()</doclink> <br>
-<doclink href='https://smnarnold.com/cours/javascript/addeventlistener'>addEventListener()</doclink> 
+<doclink href='https://smnarnold.com/cours/javascript/addeventlistener'>addEventListener()</doclink>  <br>
+<doclink href='https://smnarnold.com/cours/javascript/classlist'>ClassList</doclink> <br>
+<doclink href='https://smnarnold.com/cours/javascript/objet-math'>Objet Math</doclink> <br>
+<doclink href='https://smnarnold.com/cours/javascript/manipulation-des-contenus'>Manipulation de contenu du DOM en JS</doclink> <br>
+
+
 
                     <!-- EXERCICE FOOTER SOF -->
                 </div>

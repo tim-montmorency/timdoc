@@ -14,14 +14,6 @@
 <grostitre>Aperçu du résultat 👇</grostitre>
 <clipasset src='images/apercu.mp4'></clipasset>
 
-<div class="image image--exercice-result">
-    
-  <div class="image__wrapper image__wrapper--landscape">
-          <video src="/assets/exercices/classe-js-chats.mp4" autoplay="" muted="" loop="" class="image__gifv"></video>
-      </div>
-  
-</div>
-
 <dots></dots>
 <grostitre>Matériel</grostitre>
 <doclink href="https://codepen.io/tim-momo/pen/OJKGRZm">Pen de départ</doclink>
