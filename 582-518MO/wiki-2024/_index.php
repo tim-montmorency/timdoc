@@ -1915,7 +1915,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <dots></dots>
     <grostitre>Projet de session</grostitre>
-    <p>Ce qu'il reste à faire: intégrer votre projet à WordPress en créant la structure du thème et en ajoutant le contenu. Comme vous avez 4 installations WordPress qui sont indépendantes, voici comment je vous propose de fonctionner:</p>
+    <p>Ce qu'il reste à faire: intégrer votre projet à WordPress en créant la structure du thème et en ajoutant le contenu. Comme vous avez 4 installations WordPress qui sont indépendantes, voici un solution possible pour travailler :</p>
     <intlink href='../projet/migration-donnees-wordpress/'></intlink>
 
 
@@ -1951,19 +1951,22 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
     <dots></dots>
-    <grostitre>VUE JS</grostitre>
-    <intlink href="../javascript/vue-js/introduction"></intlink>
-    <intlink href="../javascript/vue-js/creation-app-bases"></intlink>
-    <p>Exercices partagés en classe</p>
+    <grostitre>Les classes JavaScript</grostitre>
+    <intlink href='../javascript/classe/'></intlink>
 
+    <h3>Exercices</h3>
+    <p>Plusieurs exercices. Les liens seront fournis en classe.</p>
+   
 
     <dots></dots>
     <grostitre>Devoirs</grostitre>
     <h3>Terminer exercices WordPress</h3>
     <intlink href='../exercices/wp-rest-api-vice-versa/'></intlink>
     À terminer au plus tard pour jeudi le 21 novembre.
+    <br>    <br>    <br>
+    Les autres exercices Vue.JS d'aujourd'hui sont à terminer d'ici une semaine MAIS on va ajouter une couche supplémentaire au sujet au prochain cours donc il serait préférable pour vous que vous ayez terminé les exercices avant qu'on se revoit.
 
- <dots></dots>
+
     <h3>Projet de session</h3>
     <checklist>Renommez le <em>theme-de-base</em> selon le nom de votre client. Vous devez renommer à la fois le dossier du thème et le nom et les informations dans <em>style.css</em>.
     N'oubliez pas de faire une copie de <em>style.scss</em> dans le dossier du thème, ainsi qu'une copie des fichiers JavaScript (<em>main.js</em> et possiblement le dossier qui contient Bootstrap si applicable) ainsi qu'une copie du dossier des partials SCSS. 
@@ -1972,19 +1975,15 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     </checklist>
     <intlink href='../projet/migration-donnees-wordpress/'></intlink>
 
-    <dots></dots>
-    <h3>Terminer exercices Vue JS</h3>
-    <p>- Terminez le dernier exercice commencé en classe (Ouest vs Est). Lien partagé en classe.</p> 
-    À terminer au plus tard pour lundi le 25 novembre.
-
 </wiki-page>
 
 <!---------------------- Cours 12 jeudi ----------------------->
 <!---------------------- Cours 12 jeudi ----------------------->
 <!---------------------- Cours 12 jeudi ----------------------->
 <wiki-page name="Sem12.jeudi" date="2024-11-20">
+    <!--<p>ici soit j'avance les classe js avec duck hunt ou je leur laisse le labo pour travailler sur l'intégration de leur projet dans WP</p>-->
 
-<grostitre>Révision de l'exercice WP de la semaine passée</grostitre>
+    <grostitre>Révision de l'exercice WP de la semaine passée</grostitre>
     <intlink href="../exercices/wp-rest-api-vice-versa/"></intlink>
     <intlink href="../exercices/wp-groupe-musicaux//"></intlink>
 
@@ -2003,31 +2002,29 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
                              
  ----------------------------------->  
 
- <wiki-page name="Cours 13" date="2024-11-22">
+ <wiki-page name="Sem13.lundi" date="2024-11-28">
  <h2>Quiz</h2>
     Lundi - <a href="https://app.wooclap.com/QGRZDE" target="_blank" rel="noopener noreferrer">Code Wooclap : QGRZDE</a>
     <br>
     Vendredi - <a href="https://app.wooclap.com/ZDTZQU" target="_blank" rel="noopener noreferrer">Code Wooclap : ZDTZQU
     </a>
 
-    <!-- voir à utiliser ça comme exercice vue? http://127.0.0.1:5502/582-518MO/exercices/chevalier/index.html -->
-
-    <dots></dots>
-    <h2>Révision exercices</h2>
-    <intlink href="../exercices/vue-tableau-nba/"></intlink>
-    <intlink href="../exercices/vue-cheese-kanye-says/"></intlink>
-    <intlink href="../exercices/vue-ouest-vs-est/"></intlink>
-
-
-    <dots></dots>
-    <h2>VUE.JS</h2>
+    <grostitre>Introduction Vue.JS</grostitre>
     <p><a href="https://vuejsexamples.com/" target="_blank" rel="noopener noreferrer">Démos sur vuejsexamples.com</a>  <br>
     <a href="https://codepen.io/collection/kNQdop" target="_blank" rel="noopener noreferrer">Collections de CodePens utilisant VUE</a></p>
- 
-    <intlink href="../javascript/vue-js/elements-de-formulaire"></intlink>
-    <intlink href="../javascript/vue-js/proprietes-calculees"></intlink>
-    <intlink href="../javascript/vue-js/composantes"></intlink>
-    <p>2 exercices partagés en classe</p>
+
+
+    <intlink href="../javascript/vue-js/introduction"></intlink>
+    <intlink href="../javascript/vue-js/creation-app/"></intlink>
+    <intlink href="../javascript/vue-js/donnees/"></intlink>
+    <intlink href="../javascript/vue-js/methodes-et-evenements/"></intlink>
+    <intlink href="../javascript/vue-js/classes-css-dynamiques/"></intlink>
+    <intlink href="../javascript/vue-js/condition-v-if/"></intlink>
+    <p>Exercices partagés en classe</p>
+
+
+    <!-- voir à utiliser ça comme exercice vue? http://127.0.0.1:5502/582-518MO/exercices/chevalier/index.html -->
+
 
 
     <h2>DEVOIRS</h2>
@@ -2038,9 +2035,36 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <p>Groupe vendredi&nbsp;: 15 décembre</p>
     <p>Groupe lundi&nbsp;: 11 décembre</p>
 
+
+    <dots></dots>
+    <h3>Terminer exercices Vue JS</h3>
+    <p>- Terminez le dernier exercice commencé en classe (Ouest vs Est). Lien partagé en classe.</p> 
+    À terminer au plus tard pour lundi le 25 novembre.
+
+
  </wiki-page>
 
+<!---------------------- Cours 13 jeudi ----------------------->
+<!---------------------- Cours 13 jeudi ----------------------->
+<!---------------------- Cours 13 jeudi ----------------------->
+<wiki-page name="Sem13.jeudi" date="2024-12-01">
 
+    <h2>Révision exercices</h2>
+    <intlink href="../exercices/vue-tableau-nba/"></intlink>
+    <intlink href="../exercices/vue-cheese-kanye-says/"></intlink>
+    <intlink href="../exercices/vue-ouest-vs-est/"></intlink>
+
+
+    <dots></dots>
+    <h2>VUE.JS</h2>
+
+ 
+    <intlink href="../javascript/vue-js/elements-de-formulaire"></intlink>
+    <intlink href="../javascript/vue-js/proprietes-calculees"></intlink>
+    <intlink href="../javascript/vue-js/composantes"></intlink>
+    <p>2 exercices partagés en classe</p>
+
+</wiki-page>
 
 
 
@@ -2058,7 +2082,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
 
- <wiki-page name="Cours 14" date="2024-12-02">
+ <wiki-page name="Sem14.lundi" date="2024-12-02">
  <h2>Annonces</h2>
  <p><s>Prochain cours: présentations AM.</s> <br><s>Prochain cours: PM</s> Pratique examen : Sera envoyé sur Teams (aujourd'hui ou demain) et je vous fournirai aussi le corrigé quelques jours plus tard.<br>
 Examen 18 déc à 11h00 pour tout le monde. Pour ceux qui sont concernés, faites vos demandes d'extension de temps au SAA maintenant! UPDATE GRÈVES: Je ne sais plus quand sera l'examen.</p>
@@ -2089,6 +2113,27 @@ Examen 18 déc à 11h00 pour tout le monde. Pour ceux qui sont concernés, faite
 
 
 
+<!---------------------- Cours 14 jeudi ----------------------->
+<!---------------------- Cours 14 jeudi ----------------------->
+<!---------------------- Cours 14 jeudi ----------------------->
+<wiki-page name="Sem14.jeudi" date="2024-12-10">
+
+    <h2>Révision exercices</h2>
+    <intlink href="../exercices/vue-tableau-nba/"></intlink>
+    <intlink href="../exercices/vue-cheese-kanye-says/"></intlink>
+    <intlink href="../exercices/vue-ouest-vs-est/"></intlink>
+
+
+    <dots></dots>
+    <h2>VUE.JS</h2>
+
+ 
+    <intlink href="../javascript/vue-js/elements-de-formulaire"></intlink>
+    <intlink href="../javascript/vue-js/proprietes-calculees"></intlink>
+    <intlink href="../javascript/vue-js/composantes"></intlink>
+    <p>2 exercices partagés en classe</p>
+
+</wiki-page>
 
 
  <!-----------------------------------
@@ -2101,12 +2146,19 @@ Examen 18 déc à 11h00 pour tout le monde. Pour ceux qui sont concernés, faite
                                                                       
  ----------------------------------->  
 
- <wiki-page name="Cours 15" date="2024-12-06">
+ <wiki-page name="Sem15.lundi" date="2024-12-12">
+
+Examen
+ </wiki-page>
+
+ <!---------------------- Cours 15 jeudi ----------------------->
+  <!---------------------- Cours 15 jeudi ----------------------->
+   <!---------------------- Cours 15 jeudi ----------------------->
+<wiki-page name="Sem15.jeudi" date="2024-12-10">
 
     <h2>AM Présentations du projet de session</h2>
 
     <dots></dots>
     <h2>PM Pratique d'examen</h2>
 
-
- </wiki-page>
+</wiki-page>
