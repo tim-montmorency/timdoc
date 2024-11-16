@@ -272,11 +272,18 @@ tacos.creerHTML();</highlight>
 <dots></dots>
 <grostitre>Sous-classe</grostitre>
 
-<p>Une sous-classe est en quelque sorte un remix d’une autre classe. On part d’une classe existante et on lui apporte des&nbsp;modifications. 🎛️</p><p>Par exemple, il est possible de partir de la classe&nbsp;<incode>ItemEpicerie</incode>&nbsp;pour créer la classe&nbsp;<incode>ItemEpicerieEpice</incode>&nbsp;en utilisant le mot réservé&nbsp;<incode>extends</incode>&nbsp;comme&nbsp;suit:</p><pre><code class="hljs javascript"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ItemEpicerieEpice</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ItemEpicerie</span> </span>{
-  <span class="hljs-function"><span class="hljs-title">constructor</span>(<span class="hljs-params">nom</span>)</span> {
-    <span class="hljs-built_in">super</span>(<span class="hljs-string">`🌶️ 🔥 <span class="hljs-subst">${nom}</span>`</span>);
+<p>Une sous-classe est en quelque sorte un remix d’une autre classe. On part d’une classe existante et on lui apporte des&nbsp;modifications. 🎛️</p><p>Par exemple, il est possible de partir de la classe&nbsp;<incode>ItemEpicerie</incode>&nbsp;pour créer la classe&nbsp;<incode>ItemEpicerieEpice</incode>&nbsp;en utilisant le mot réservé&nbsp;<incode>extends</incode>&nbsp;comme&nbsp;suit:</p>
+
+
+
+<highlight lang='js'>
+class ItemEpicerieEpice extends ItemEpicerie {
+  constructor(nom) {
+    super(`🌶️ 🔥 ${nom}`);
   }
-}</incode></pre>
+}
+
+</highlight>
 
 
 <p><incode>super('🌶️ 🔥 ${nom}')</incode>&nbsp;indique de créer l’objet à partir de la classe originale. L’objet possède donc toutes les mêmes propriétés et méthodes qu’un objet créé avec&nbsp;<incode>ItemEpicerie</incode>, mais peut être bonifié, comme dans cet exemple où le nom est préfixé par des émojis indiquant que la nourriture est&nbsp;épicé.</p>
