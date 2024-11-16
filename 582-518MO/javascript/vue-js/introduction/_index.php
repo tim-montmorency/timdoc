@@ -72,9 +72,19 @@
     </li>
     <li>
        D'utiliser la <a target="_blank" rel="noopener noreferrer"
-                href="https://vuejs.org/guide/quick-start.html#creating-a-vue-application">commande NPM</a> pour l'installer dans votre projet<br><incode>npm create vue@latest</incode>
+                href="../../npm/">commande NPM</a> pour l'installer dans votre projet<br><incode>npm create vue@latest</incode>
     </li>
 </ul>
 
-
 <doclink href="https://vuejs.org/guide/quick-start.html">Installation</doclink>
+
+
+
+<dots></dots>
+<grostitre>Alternatives à VueJS</grostitre>
+
+<tool href="./outils/react/"></tool>
+<tool href="./outils/svelte/"></tool>
+<tool href="./outils/angular/"></tool>
+<tool href="./outils/backbone/"></tool>
+

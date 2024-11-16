@@ -1,0 +1,191 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>Données {{ }}</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../', '../../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../../">Projet Web</a> > <a href="../../">JavaScript</a> > <a href="../">Vue.js</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../../index/web/cadriciels/">Cadriciels</a>&nbsp;>&nbsp;<a href="../../../../index/web/cadriciels/vuejs/">Vue.js</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="../images/icon.webp">&nbsp;Données {{ }}</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+
+<grostitre>Données { { } }</grostitre>
+
+
+<p>Afin de définir le comportement de l'app, un objet contenant diverses propriétés doit lui être passé en paramètre. Parmi ces propriétés se trouve <span class="inline-code">data</span>: une fonction retournant les données susceptibles de changer dans l'application.</p>
+
+
+
+<p>Par exemple, pour définir une valeur de nom, il est possible d'écrire:</p>
+
+<highlight lang="javascript">const app = Vue.createApp({
+  data: function() {
+    return {
+      firstName: &quot;Willy&quot;,
+      lastName: &quot;Wonka&quot;,
+      picture: &quot;willy-wonka.jpg&quot;
+    }
+  }
+});</highlight>
+
+
+<p>Pour des raisons de lisibilité, il est cependant suggéré d'utiliser la nouvelle syntaxe ES6, soit:</p>
+
+<highlight lang="javascript">const app = Vue.createApp({
+  data() {
+    return {
+      firstName: &quot;Willy&quot;,
+      lastName: &quot;Wonka&quot;,
+      picture: &quot;willy-wonka.jpg&quot;
+    }
+  }
+});</highlight>
+
+
+
+<p><span class="inline-code">data</span> est donc une fonction retournant un objet constitué dans ce cas-ci des propriétés: <span class="inline-code">firstName</span>, <span class="inline-code">lastName</span> et <span class="inline-code">picture</span>.</p>
+
+<doclink href="https://v3.vuejs.org/guide/data-methods.html#data-properties">Data</doclink>
+
+
+
+
+<dots></dots>
+<grostitre>Interpolation des données {{ }}</grostitre>
+
+<p>Une fois, les données définies, il est possible d'y faire référence à l'aide de moustaches {<span class="inline-code">{ ... }</span>} <em>(doubles accolades)</em>. Leurs contenus, incluant les moustaches elles-mêmes, seront remplacés par la donnée qui lui est associée. Qui plus est, si la valeur de cette donnée vient à changer, celle-ci se mettra automatiquement à jour dans le HTML.</p>
+
+Par exemple, le code suivant:
+<highlight lang="html">&lt;div id=&quot;app&quot;&gt;
+  Salut { { firstName } }
+&lt;/div&gt;</highlight>
+
+<small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
+
+
+<br><br>
+Affichera en fait:
+
+<highlight lang="html">&lt;div id=&quot;app&quot;&gt;
+  Salut Willy
+&lt;/div&gt;</highlight>
+<doclink href="https://v3.vuejs.org/guide/template-syntax.html#interpolations">Interpolations</doclink>
+
+<alert><strong>Erreur fréquente</strong><br>les moustaches ne sont fonctionnelles qu’à l’intérieur de la balise HTML assignée à&nbsp;l’app.</alert>
+
+
+
+<dots></dots>
+<p>Voici une petite démo d'un minuteur automatique.</p>
+<codepen id="bGXJeOp" tab="js,result" height="600"></codepen>
+
+
+
+
+
+
+
+
+<dots></dots>
+<grostitre>Attributs des balises HTML via v-bind:&nbsp;ou&nbsp;:</grostitre>
+
+<p>Les données peuvent aussi être insérées dynamiquement dans un attribut HTML <em>(class, src, alt, style, etc.)</em>. Cependant, les moustaches ne sont pas fonctionnelles dans ce contexte ❌. Il faut donc plutôt utiliser une directive <span class="inline-code">v-bind</span> en début d'attribut afin que son contenu se popule avec une donnée présente dans l'objet data.
+</p>
+
+<p>Par exemple, pour afficher l'image contenue dans la propriété <span class="inline-code">picture</span>:</p>
+<highlight lang="html">&lt;div id=&quot;app&quot;&gt;
+  &lt;img v-bind:src=&quot;picture&quot;&gt;
+&lt;/div&gt;</highlight>
+
+
+
+<p>ou encore la syntaxe courte avec <span class="inline-code">:</span>:</p>
+
+
+<highlight lang="html">&lt;div id=&quot;app&quot;&gt;
+  &lt;img :src=&quot;picture&quot;&gt;
+&lt;/div&gt;</highlight>
+
+
+
+<p>Si plusieurs données doivent être combinées dans le cadre d'un attribut, il est nécessaire d'utiliser un <a target="_blank" rel="noopener noreferrer" href="https://smnarnold.com/cours/javascript/litteraux-de-gabarits">littéraux de gabarit</a> afin de gérer la combinaison. </p>
+
+<p>Par exemple, pour inscrire le prénom et le nom dans le <span class="inline-code">alt</span> d'une image:</p>
+
+<highlight lang="html">&lt;div id=&quot;app&quot;&gt;
+  &lt;img :src=&quot;picture&quot; :alt=&quot;`${firstName} ${lastName}`&quot;&gt;
+&lt;/div&gt;</highlight>
+
+
+<br><br>
+
+<codepen id="oNJKqxv" tab="html,result" height="360"></codepen>
+
+<warning>Si un attribut est associé à une donnée dont la valeur équivaut à <span class="inline-code">null</span> ou <span class="inline-code">undefined</span>, l’attribut ne sera pas&nbsp;créé.</warning>
+
+<doclink href="https://v3.vuejs.org/guide/template-syntax.html#attributes">Attributs</doclink>
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

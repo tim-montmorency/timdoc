@@ -1,0 +1,130 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>Classes CSS dynamiques</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../', '../../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../../">Projet Web</a> > <a href="../../">JavaScript</a> > <a href="../">Vue.js</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../../index/web/cadriciels/">Cadriciels</a>&nbsp;>&nbsp;<a href="../../../../index/web/cadriciels/vuejs/">Vue.js</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="../images/icon.webp">&nbsp;Classes CSS dynamiques</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+
+<grostitre>Classes dynamiques :class</grostitre>
+<p>Il est fréquent qu'une classe doit-être ajoutée ou retirée à un élément afin de refléter une action commise par un usager. Pour ce faire, Vue permet de passer un objet à un attribut. Cet objet doit contenir une propriété correspondant au nom de la classe souhaitée et comme valeur une donnée ou encore une expression. Ainsi, si cette valeur est évaluée à <span class="inline-code">true</span>, la classe est ajoutée et à l'opposée si elle est évaluée à <span class="inline-code">false</span> elle est retirée.</p>
+
+<p>Par exemple, pour ajouter la classe <em>orange</em> lorsque la donnée <em>isOrange</em> est équivalente à <span class="inline-code">true</span>:</p>
+<highlight lang="html">&lt;img :src=&quot;picture&quot; :class=&quot;{orange: isOrange}&quot;&gt;</highlight>
+
+
+<br>
+<codepen id="mdaNLbB" tab="html,result" height="500"></codepen>
+
+<br>
+<p>Si une classe contenant des caractères spéciaux doit être ajoutée, il sera nécessaire de l'entourer de guillemets.</p>
+
+<p>Par exemple, une classe avec un trait d'union:</p>
+<highlight lang="html">&lt;img :src=&quot;picture&quot; :class=&quot;{&#039;is-orange&#039;: isOrange}&quot;&gt;</highlight>
+
+
+<info>En cas de doute, il est possible de toujours utiliser des guillemets, même si aucun caractère spécial n’est&nbsp;présent.</info>
+
+
+
+<dots></dots>
+<grostitre>Multiple classes dynamiques</grostitre>
+<p>Puisqu'un objet est utilisé, il est possible d'ajouter plusieurs classes dynamiques simplement en les séparant par une virgule.</p>
+<p>Par exemple:</p>
+
+<highlight lang="html">&lt;img :src=&quot;picture&quot; :class=&quot;{orange: isOrange, big: isBig}&quot;&gt;</highlight>
+
+
+
+
+<dots></dots>
+<grostitre>Combinaison avec des classes statiques</grostitre>
+
+<p>Si certaines classes doivent être statiques <em>(ne jamais changer)</em>, alors que certaines doivent être dynamiques <em>(pouvoir changer)</em>, il est nécessaire d'utiliser deux attributs <span class="inline-code">class</span>. Un 1<sup>er</sup> sans <span class="inline-code">v-bind</span> ou <span class="inline-code">:</span> pour les classes statiques et un 2<sup>e</sup> avec pour les classes dynamiques. Ces deux attributs seront ensuite combinés par Vue.</p>
+
+<p>Par exemple:</p>
+<highlight lang="html">&lt;img :src=&quot;picture&quot; class=&quot;media&quot; :class=&quot;{orange: isOrange}&quot;&gt;</highlight>
+
+
+<p>Produira le code suivant si la valeur de <em>isOrange</em> est <span class="inline-code">true</span>:</p>
+<highlight lang="html">&lt;img src=&quot;willy-wonka-square.jpg&quot; class=&quot;media orange&quot;&gt;</highlight>
+
+<br><br>
+<doclink href="https://v3.vuejs.org/guide/class-and-style.html#class-and-style-bindings">Class &amp; Style Bindings</doclink>
+
+<dots></dots>
+<h3>Exercice - Gestion d'inventaire de film</h3>
+<!--
+<img src="images/idee-exerc-gestion-inventaire-film01.jpg" alt="">
+<img src="images/idee-exerc-gestion-inventaire-film02.jpg" alt="">
+ -->
+
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

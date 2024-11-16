@@ -1,0 +1,10 @@
+<?php 
+/**
+ * @type     tool
+ * @title    React
+ * @icon     images/thumb.webp
+ * @url      https://react.dev/
+ * @abstract React is a free and open-source front-end JavaScript library for building user interfaces based on components.
+ */
+?>
+<script>location.href = '<?php echo $PAGE->url; ?>';</script>
