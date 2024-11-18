@@ -22,7 +22,7 @@
 
 
     <dots></dots>
-    <h2>Tutorat</h2>
+    <grostitre>Tutorat</grostitre>
 
     <p>Consultez l'<a href="https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/" target="_blank" rel="noopener noreferrer">horaire complet ici</a>.</p>
  
@@ -463,7 +463,7 @@
 
 
     <dots></dots>
-    <h2>PS: Votre choix de client</h2>
+    <grostitre>PS: Votre choix de client</grostitre>
     <p>Pendant le cours aujourd'hui, dès que vous avez un moment en équipe, envoyez-moi votre choix de client en ordre de préférence. 1, 2 et 3. Je vais vous répondre rapidement pour confirmer le client qui vous sera attitré. </p>
 
 
@@ -869,7 +869,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <p>Tu peux aussi trouver cet horaire dans <em>TIM – Programme TIM</em> > Onglet  Horaire tutorat.</p>
     
     <h3>Examen</h3>
-    <p>Examen 1 dans 2 semaines (lundi le 30 septembre) <br> Sujet: SASS, nomenclature BEM, NPM & Vite et CSS Grid <br> Groupe d’étude avec Maïk mardi le 24 septembre au trou à l’horaire de 11h50 à 14h20 au C-1639.</p>
+    <p>Examen 1 dans 2 semaines (lundi le 30 septembre) <br> Sujet: SASS, nomenclature BEM, NPM & Vite et CSS Grid <br> Groupe d’étude avec Maïk mardi le 24 septembre au trou à l’horaire de 11h50 à 14grostitre0 au C-1639.</p>
     Ceux qui ont droit à des mesures d'assouplissement:
     <ul>
         <li>Groupe 2 (AM) - 33% plus de temps : Arrivez à 9h30 plutôt que 9h50 et vous aurez jusqu'à 14h15. <br> Si cela ne vous convient pas (car vous n'aurez pas de temps de diner), venez me voir tout de suite, je vais vous organiser pour que vous puissiez commencer plus tôt encore mais au SAA.</li>
@@ -1033,7 +1033,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <p>Pendant l'examen aurez droit à votre notes de cours. Vous n'aurez pas le droit d'accéder à Teams ni à aucune plateforme de communication.</p>
 
     <p style="color: var(--main-color);"><strong>Tutorat</strong></p>
-    <p>Demain mardi au trou à l'horaire, groupe d’étude avec Maïk de 11h50 à 14h20 au C-1639. <a href="https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/?" target="_blank" rel="noopener noreferrer">Calendrier tutorat</a>.</p>
+    <p>Demain mardi au trou à l'horaire, groupe d’étude avec Maïk de 11h50 à 14grostitre0 au C-1639. <a href="https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/?" target="_blank" rel="noopener noreferrer">Calendrier tutorat</a>.</p>
 
     <p style="color: var(--main-color);"><strong>Ceux qui ont droit à des mesures d'assouplissement:</strong></p>
     <ul>
@@ -1922,7 +1922,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
     <dots></dots>
-    <grostitre>Exercice facultatif pour pratiquer WordPress</grostitre>
+    <grostitre>Exercice pour pratiquer WordPress (last call)</grostitre>
     <h3>Groupes de musique</h3>
     <warning>Cet exercice se réalise en équipe (votre équipe du projet de session)</warning>
     <h4>Partie 1 (Quiz en classe)</h4>
@@ -1938,13 +1938,13 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 <!--
 
-    <h2>ASSURANCE ET CONTRÔLE DE LA QUALITÉ</h2>
+    <grostitre>ASSURANCE ET CONTRÔLE DE LA QUALITÉ</grostitre>
     <intlink href="../../582-424MO/optimisation/"></intlink>
     <intlink href="../gestion-de-projet/lazy-loading/"></intlink>
     <intlink href="../gestion-de-projet/assurance-qualite/"></intlink>
     <intlink href="../exercices/assurance-qualite-insoapropriate/"></intlink>
  
-    <h2>Groupe du lundi</h2>
+    <grostitre>Groupe du lundi</grostitre>
     <p><strong>Révision exercice assurance qualité: Insoapropriate</strong></p>
     <intlink href="../exercices/assurance-qualite-insoapropriate/"></intlink>
 -->
@@ -1988,8 +1988,14 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href="../exercices/wp-groupe-musicaux//"></intlink>
 
     <dots></dots>
-    
-...
+    <grostitre>Classes JavaScript</grostitre>
+
+    <h3>Exercice</h3>
+    <p><a href="https://smnarnold.com/projets/duck-hunt/introduction" target="_blank" rel="noopener noreferrer">Duck Hunt</a></p>
+
+    <dots></dots>
+    <grostitre>Travailler sur projet de session</grostitre>
+
 </wiki-page>
 
 <!-----------------------------------
@@ -2003,7 +2009,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
  ----------------------------------->  
 
  <wiki-page name="Sem13.lundi" date="2024-11-28">
- <h2>Quiz</h2>
+    <grostitre>Quiz</grostitre>
     Lundi - <a href="https://app.wooclap.com/QGRZDE" target="_blank" rel="noopener noreferrer">Code Wooclap : QGRZDE</a>
     <br>
     Vendredi - <a href="https://app.wooclap.com/ZDTZQU" target="_blank" rel="noopener noreferrer">Code Wooclap : ZDTZQU
@@ -2027,13 +2033,15 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
 
-    <h2>DEVOIRS</h2>
-    <p>- Terminez les exercices vue.js commencés en classe.</p>
-    <p>- Terminez d'intégrer votre site du projet de session à Wordpress avec les techniques vues en classe. Pensez à faire votre QA au fur et à mesure.</p>
+    <grostitre>DEVOIRS</grostitre>
+    
+    <h3>Exercices à terminer</h3>
+    <p>Terminez les exercices vue.js commencés en classe d'ici lundi prochain.
 
-    <h2>REMISE FINALE DU PROJET</h2>
-    <p>Groupe vendredi&nbsp;: 15 décembre</p>
-    <p>Groupe lundi&nbsp;: 11 décembre</p>
+
+    <h3>Projet de session</h3>
+    <p>Terminez d'intégrer votre site du projet de session à Wordpress avec les techniques vues en classe. Pensez à faire votre QA (assurance qualité) au fur et à mesure. Finalisez le projet pour la remise finale jeudi dans 2 semaines (dernier cours de la session).</p>
+
 
 
     <dots></dots>
@@ -2049,20 +2057,20 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 13 jeudi ----------------------->
 <wiki-page name="Sem13.jeudi" date="2024-12-01">
 
-    <h2>Révision exercices</h2>
+    <grostitre>Révision exercices</grostitre>
     <intlink href="../exercices/vue-tableau-nba/"></intlink>
     <intlink href="../exercices/vue-cheese-kanye-says/"></intlink>
     <intlink href="../exercices/vue-ouest-vs-est/"></intlink>
 
 
     <dots></dots>
-    <h2>VUE.JS</h2>
+    <grostitre>VUE.JS</grostitre>
 
  
     <intlink href="../javascript/vue-js/elements-de-formulaire"></intlink>
     <intlink href="../javascript/vue-js/proprietes-calculees"></intlink>
     <intlink href="../javascript/vue-js/composantes"></intlink>
-    <p>2 exercices partagés en classe</p>
+    <p>3 exercices partagés en classe</p>
 
 </wiki-page>
 
@@ -2083,28 +2091,28 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
  <wiki-page name="Sem14.lundi" date="2024-12-02">
- <h2>Annonces</h2>
- <p><s>Prochain cours: présentations AM.</s> <br><s>Prochain cours: PM</s> Pratique examen : Sera envoyé sur Teams (aujourd'hui ou demain) et je vous fournirai aussi le corrigé quelques jours plus tard.<br>
-Examen 18 déc à 11h00 pour tout le monde. Pour ceux qui sont concernés, faites vos demandes d'extension de temps au SAA maintenant! UPDATE GRÈVES: Je ne sais plus quand sera l'examen.</p>
+    <grostitre>Annonces</grostitre>
+    <p>Pratique examen : Sera envoyé sur Teams et je vous fournirai aussi le corrigé quelques jours plus tard.<br>
+    Examen 18 déc à 11h00 pour tout le monde. Pour ceux qui sont concernés, faites vos demandes d'extension de temps au SAA maintenant! UPDATE GRÈVES: Je ne sais plus quand sera l'examen.</p>
 
- <h2>Quiz</h2>
+    <grostitre>Quiz</grostitre>
     Lundi - <a href="https://app.wooclap.com/FDIZOX" target="_blank" rel="noopener noreferrer">Code Wooclap : FDIZOX</a>
     <br>
     Vendredi - <a href="#" target="_blank" rel="noopener noreferrer">Code Wooclap : 
     </a>
 
     <dots></dots>
-    <h2>Révision exercices</h2>
+    <grostitre>Révision exercices</grostitre>
     <intlink href="../exercices/vue-composante-cartes/"></intlink>
 
 
     <dots></dots>
-    <h2>Pratique pour l'examen (du moins, couvrant la notion de vue.js) </h2>
+    <grostitre>Pratique pour l'examen (du moins, couvrant la notion de vue.js) </grostitre>
     <p>Prendre en note que les notions de fetch api et un peu wordpress seront inclus dans l'examen mais il portera quand même principalement sur vus.js.</p>
     <intlink href="../exercices/vue-sushis/"></intlink>
 
     <dots></dots>
-    <h2>Reste du cours</h2>
+    <grostitre>Reste du cours</grostitre>
     <p>Aide en classe pour terminer le projet</p>
 
 
@@ -2117,21 +2125,11 @@ Examen 18 déc à 11h00 pour tout le monde. Pour ceux qui sont concernés, faite
 <!---------------------- Cours 14 jeudi ----------------------->
 <!---------------------- Cours 14 jeudi ----------------------->
 <wiki-page name="Sem14.jeudi" date="2024-12-10">
+    <p>Révision sushi en classe ou partage du fichier</p>
 
-    <h2>Révision exercices</h2>
-    <intlink href="../exercices/vue-tableau-nba/"></intlink>
-    <intlink href="../exercices/vue-cheese-kanye-says/"></intlink>
-    <intlink href="../exercices/vue-ouest-vs-est/"></intlink>
+    <grostitre>Projet de session</grostitre>
+    <p>Travail sur projet de session.</p>
 
-
-    <dots></dots>
-    <h2>VUE.JS</h2>
-
- 
-    <intlink href="../javascript/vue-js/elements-de-formulaire"></intlink>
-    <intlink href="../javascript/vue-js/proprietes-calculees"></intlink>
-    <intlink href="../javascript/vue-js/composantes"></intlink>
-    <p>2 exercices partagés en classe</p>
 
 </wiki-page>
 
@@ -2147,18 +2145,17 @@ Examen 18 déc à 11h00 pour tout le monde. Pour ceux qui sont concernés, faite
  ----------------------------------->  
 
  <wiki-page name="Sem15.lundi" date="2024-12-12">
+    <grostitre>Examen</grostitre>
+    <p>Les classes JavaScript et Vue.js</p>
 
-Examen
+
  </wiki-page>
 
- <!---------------------- Cours 15 jeudi ----------------------->
-  <!---------------------- Cours 15 jeudi ----------------------->
-   <!---------------------- Cours 15 jeudi ----------------------->
+<!---------------------- Cours 15 jeudi ----------------------->
+<!---------------------- Cours 15 jeudi ----------------------->
+<!---------------------- Cours 15 jeudi ----------------------->
 <wiki-page name="Sem15.jeudi" date="2024-12-10">
 
-    <h2>AM Présentations du projet de session</h2>
-
-    <dots></dots>
-    <h2>PM Pratique d'examen</h2>
+    <grostitre> Présentations du projet de session</grostitre>
 
 </wiki-page>

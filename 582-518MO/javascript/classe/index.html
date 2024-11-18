@@ -60,7 +60,7 @@
 <p>La programmation orientée objet, ou en anglais&nbsp;<em>Object-oriented programming (OOP)</em>, est une structure de code dans laquelle chaque élément est un objet. Chaque donnée est une propriété et chaque action est une méthode sur l’objet correspondant à son&nbsp;élément.</p>
 
 
-<p>Cette approche peut sembler intimidante de prime abord, mais en fait, elle s’apparente à la façon dont l’être humain pense 🧠</p>
+<!--<p>Cette approche peut sembler intimidante de prime abord, mais en fait, elle s’apparente à la façon dont l’être humain pense 🧠</p> -->
 
 
 <p>Par exemple, chaque item sur une liste d’épicerie pourrait être un objet avec différentes propriétés, telles&nbsp;que:</p>
@@ -68,6 +68,7 @@
 
 <ul>
     <li>Un nom</li>
+    <li>Une catégorie d'aliment (fruit, légume, viande, légumineuse...)</li>
     <li>Un statut indiquant si l'item est dans le panier ou&nbsp;non</li>
     <li>Etc.</li>
 </ul>
@@ -281,7 +282,7 @@ tacos.creerHTML();</highlight>
 
 <highlight lang="js">class ItemEpicerieEpice extends ItemEpicerie {
   constructor(nom) {
-    super(`🌶️ 🔥 ${nom}`);
+    super(`🌶️ 🔥 ${nom}`, categorie);
   }
 }</highlight>
 
@@ -303,25 +304,6 @@ tacos.creerHTML();</highlight>
                 </div>
             </div>
         </a>
-
-<aside class="exercice-card">
-    <div class="exercice-card__content">
-      <em class="exercice-card__tagline">Exercice</em><br class="exercice-card__break">
-      <a href="/exercices/javascript/classe-space-invaders" target="_blank" class="exercice-card__title">
-        Classe - Space&nbsp;Invaders
-      </a>
-
-            <p class="exercice-card__description">Pour cet exercice nous allons créer un générateur d’extra-terrestres inspiré d’un des jeux les plus célèbres et influents de l’histoire,&nbsp;...</p>
-          </div>
-
-        <picture class="exercice-card__preview">
-      <source srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvY2xhc3NlLXNwYWNlLWludmFkZXJzLnBuZw==?w=620&amp;s=cbfccf30d0a05415d39ee9a1d1ae75b3" media="(max-width: 575px) and (min-resolution: 2dppx)">
-      <source srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvY2xhc3NlLXNwYWNlLWludmFkZXJzLnBuZw==?w=310&amp;s=11e35fd25f533df678b52d0c4fbb5955" media="(max-width: 575px)">
-      <source srcset="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvY2xhc3NlLXNwYWNlLWludmFkZXJzLnBuZw==?w=370&amp;s=f4444f3e28ec5093580cffed047fa71f" media="(min-resolution: 2dppx)">
-      <img src="/img/asset/YXNzZXRzL3BhZ2UtcHJldmlld3MvY2xhc3NlLXNwYWNlLWludmFkZXJzLnBuZw==?w=185&amp;s=40afb385c4371f81edaf7bbfc226e8fe" width="" height="" loading="lazy" class="exercice-card__image" style="object-position: 50% 50%;">
-    </picture>
-</aside>
-  
 
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
