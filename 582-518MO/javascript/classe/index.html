@@ -79,12 +79,13 @@
 
 <highlight lang="js">const tacos = {
   nom: &ldquo;🌮&rdquo;,
-  categorie: &quot;cereale&quot;
+  categorie: &quot;cereale&quot;,
   dansLePanier: false,
 } 
  
 const tomate = {
   nom: &ldquo;🍅&rdquo;,
+  categorie: &quot;legume&quot;,
   dansLePanier: false,
 }</highlight>
 
@@ -120,8 +121,9 @@ const tomate = {
 <p>Par exemple, si une classe devait permettre de créer des items dans une liste d’épicerie, elle ressemblerait probablement à quelque chose comme&nbsp;ceci:</p>
 
 <highlight lang="javascript">class ItemEpicerie {
-  constructor(nom) {
+  constructor(nom, categorie) {
     this.nom = nom;
+    this.categorie = categorie;
     this.dansLePanier = false;
   }
 }</highlight>
@@ -130,9 +132,10 @@ const tomate = {
 
 
 <ul>
-    <li>La classe à un nom représentatif du type d’objet qu’elle crée&nbsp;<span class="inline-code">ItemEpicerie</span>.</li>
-    <li>Le constructeur s’attend à recevoir en paramètre un élément intitulé&nbsp;<span class="inline-code">nom</span>.</li>
-    <li>Le constructeur définit que le nom de l’objet créé&nbsp;<span class="inline-code">this.nom</span>&nbsp;doit correspondre à l’élément&nbsp;<span class="inline-code">nom</span>&nbsp;reçu en&nbsp;paramètre.</li>
+    <li>La <strong>classe</strong> à un nom représentatif du type d’objet qu’elle crée&nbsp;<span class="inline-code">ItemEpicerie</span>.</li>
+    <li>Le <strong>constructeur</strong> s’attend à recevoir en paramètre un élément intitulé&nbsp;<span class="inline-code">nom</span>.</li>
+    <li>La <strong>propriété</strong> <span class="inline-code">this.nom</span>&nbsp;doit correspondre à l’élément&nbsp;<span class="inline-code">nom</span>&nbsp;reçu en&nbsp;paramètre.</li>
+    <li>La <strong>propriété</strong> <span class="inline-code">this.categorie</span>&nbsp;doit correspondre à l’élément&nbsp;<span class="inline-code">categorie</span>&nbsp;reçu en&nbsp;paramètre.</li>
     <li>Finalement, la propriété&nbsp;<span class="inline-code">dansLePanier</span>&nbsp;est initialisée avec la valeur par défaut&nbsp;<span class="inline-code">false</span>.</li>
 </ul>
 <doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/class'>Classe JavaScript</doclink>
@@ -158,6 +161,7 @@ const tomate = {
 
 <highlight lang="javaScript">{
   nom: &ldquo;🌮&rdquo;,
+  categorie: &quot;careale&quot;,
   dansLePanier: false,
 }</highlight>
 
@@ -182,7 +186,7 @@ const tomate = {
 <highlight lang="js">class ItemEpicerie {
   constructor(nom, categorie) {
     this.nom = nom;
-    this.categorie
+    this.categorie = categorie;
     this.dansLePanier = false;
   }
   

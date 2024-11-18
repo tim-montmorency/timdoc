@@ -32,12 +32,13 @@
 <highlight lang='js'>
 const tacos = {
   nom: “🌮”,
-  categorie: "cereale"
+  categorie: "cereale",
   dansLePanier: false,
 } 
  
 const tomate = {
   nom: “🍅”,
+  categorie: "legume",
   dansLePanier: false,
 }
 </highlight>
@@ -76,8 +77,9 @@ class NomDeMaClasse {
 <p>Par exemple, si une classe devait permettre de créer des items dans une liste d’épicerie, elle ressemblerait probablement à quelque chose comme&nbsp;ceci:</p>
 
 <highlight lang='javascript'>class ItemEpicerie {
-  constructor(nom) {
+  constructor(nom, categorie) {
     this.nom = nom;
+    this.categorie = categorie;
     this.dansLePanier = false;
   }
 }</highlight>
@@ -86,9 +88,10 @@ class NomDeMaClasse {
 
 
 <ul>
-    <li>La classe à un nom représentatif du type d’objet qu’elle crée&nbsp;<incode>ItemEpicerie</incode>.</li>
-    <li>Le constructeur s’attend à recevoir en paramètre un élément intitulé&nbsp;<incode>nom</incode>.</li>
-    <li>Le constructeur définit que le nom de l’objet créé&nbsp;<incode>this.nom</incode>&nbsp;doit correspondre à l’élément&nbsp;<incode>nom</incode>&nbsp;reçu en&nbsp;paramètre.</li>
+    <li>La <strong>classe</strong> à un nom représentatif du type d’objet qu’elle crée&nbsp;<incode>ItemEpicerie</incode>.</li>
+    <li>Le <strong>constructeur</strong> s’attend à recevoir en paramètre un élément intitulé&nbsp;<incode>nom</incode>.</li>
+    <li>La <strong>propriété</strong> <incode>this.nom</incode>&nbsp;doit correspondre à l’élément&nbsp;<incode>nom</incode>&nbsp;reçu en&nbsp;paramètre.</li>
+    <li>La <strong>propriété</strong> <incode>this.categorie</incode>&nbsp;doit correspondre à l’élément&nbsp;<incode>categorie</incode>&nbsp;reçu en&nbsp;paramètre.</li>
     <li>Finalement, la propriété&nbsp;<incode>dansLePanier</incode>&nbsp;est initialisée avec la valeur par défaut&nbsp;<incode>false</incode>.</li>
 </ul>
 <doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/class'>Classe JavaScript</doclink>
@@ -114,6 +117,7 @@ class NomDeMaClasse {
 
 <highlight lang='javaScript'>{
   nom: “🌮”,
+  categorie: "careale",
   dansLePanier: false,
 }</highlight>
 
@@ -138,7 +142,7 @@ class NomDeMaClasse {
 <highlight lang='js'>class ItemEpicerie {
   constructor(nom, categorie) {
     this.nom = nom;
-    this.categorie
+    this.categorie = categorie;
     this.dansLePanier = false;
   }
   
