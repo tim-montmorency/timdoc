@@ -104,7 +104,7 @@ class NomDeMaClasse {
 <p>Pour créer un objet à partir d’une classe, il faut l’instancier. </p>
 
 <p>La déclaration <span class='inline-code'>class Nomdeclasse</span> de la classe sert à indiquer au système la structure de la classe mais ça ne crée rien officiellement.</p>
-<p>La création d'une instance  <span class='inline-code'>new Nomdeclasse</span> crée un première version concrète d'une instance de la classe.  Il peut exister plusieurs instances de la classe. Chaque instance peut avoir ses propres valeurs selon les propriété déterminées par le modèe de la classe.</p>
+<p>La création d'une instance  <span class='inline-code'>new Nomdeclasse</span> crée un première version concrète d'une instance de la classe.  Il peut exister plusieurs instances de la classe. Chaque instance peut avoir ses propres valeurs selon les propriétés déterminées par le modèe de la classe.</p>
   
 
 
