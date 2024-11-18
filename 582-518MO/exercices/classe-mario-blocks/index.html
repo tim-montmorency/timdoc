@@ -83,11 +83,15 @@
 <dots></dots>
 <grostitre>Requis</grostitre>
 <checklist>
-Créez une classe JavaScript intitulée&nbsp;<em>"Block"</em>. Pour l'instant, n'instancier qu'un seul élément à partir de cette&nbsp;classe.
-  Lorsque la classe est appelée, pigez un numéro de 0 à 5 et sauvegardez-le dans l'instance de votre nouvel objet. Ce numéro correspond à la texture attribuée à votre bloc&nbsp;<em>(brique, boite&nbsp;?, pièce de monnaie,&nbsp;etc.)</em>.
+  Créez une classe JavaScript intitulée&nbsp;<em>"Block"</em>. Pour l'instant, n'instancier qu'un seul élément à partir de cette&nbsp;classe.
+  Lorsque la classe est appelée, pigez un numéro de 0 à 5 et sauvegardez-le dans l'instance de votre nouvel objet. Ce numéro correspond à la texture attribuée à votre bloc&nbsp;<em>(bloc ciel, bloc brique, bloc&nbsp;?, pièce de monnaie)</em>.
   Créez-vous un div et ajoutez-lui les classes&nbsp;<em>"block"</em>&nbsp;et&nbsp;<em>"noX"</em>&nbsp;<em>(X équivaut au numéro de texture que vous avez pigé précédemment, ex: no3)</em>. L'apparence du div sera gérée en CSS en fonction de ces&nbsp;classes.
-  Insérez-le div que vous venez de créer dans l'élément avec la classe&nbsp;<em>.level</em>.<
-  Lorsque les étapes précédentes fonctionnent comme désiré&nbsp;<em>(un bloc devrait être visible)</em>, créez-vous une boucle de 0 à 100 créant une nouvelle instance de votre classe à chaque&nbsp;itération.
+  Insérez-le div que vous venez de créer dans l'élément avec la classe&nbsp;<em>.level</em>.
+  Lorsque les étapes précédentes fonctionnent comme désiré&nbsp;<em>(un bloc devrait être visible)</em>. 
+  À l'extérieur de la définition de la classe, ajoutez un écouteur de l'événement clique sur le document entier.
+  À l'intérieur de cet écouteur d'événement, videz le contenu de <span class='inline-code'>div.level</span>
+  Créez ensuite une boucle de 0 à 100 créant une nouvelle instance de votre classe à chaque&nbsp;itération.
+  Ainsi, lorsque vous cliquerez sur le document, une nouvelle configuration de 100 bloc Mario Bros sera affichée, remplaçant la précédente..
 
 
 </checklist>

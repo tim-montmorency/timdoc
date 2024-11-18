@@ -1932,6 +1932,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <h4>Partie 2 - Exercice facultatif</h4>
     <p>Si vous avez besoin de pratiquer encore avant de vous lancer dans la création de votre thème pour le projet de session.</p>
+    FACULTATIF . FACULTATIF . FACULTATIF . FACULTATIF FACULTATIF . FACULTATIF . FACULTATIF . FACULTATIF 
     <exercice href="../exercices/wp-groupe-musicaux/"></exercice>
 
 
@@ -1955,7 +1956,9 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href='../javascript/classe/'></intlink>
 
     <h3>Exercices</h3>
-    <p>Plusieurs exercices. Les liens seront fournis en classe.</p>
+    <exercice href='../exercices/classe-mario-blocks'></exercice>
+    <exercice href='../exercices/classe-chats'></exercice>
+    <exercice href='../exercices/classe-space-invaders'></exercice>
    
 
     <dots></dots>
@@ -1964,7 +1967,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href='../exercices/wp-rest-api-vice-versa/'></intlink>
     À terminer au plus tard pour jeudi le 21 novembre.
     <br>    <br>    <br>
-    Les autres exercices Vue.JS d'aujourd'hui sont à terminer d'ici une semaine MAIS on va ajouter une couche supplémentaire au sujet au prochain cours donc il serait préférable pour vous que vous ayez terminé les exercices avant qu'on se revoit.
+    Les 3 exercices de classe JS sont à terminer d'ici une semaine MAIS on va ajouter une couche supplémentaire au sujet au prochain cours donc il serait préférable pour vous que vous ayez terminé les exercices avant qu'on se revoit.
 
 
     <h3>Projet de session</h3>
@@ -1985,7 +1988,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <grostitre>Révision de l'exercice WP de la semaine passée</grostitre>
     <intlink href="../exercices/wp-rest-api-vice-versa/"></intlink>
-    <intlink href="../exercices/wp-groupe-musicaux//"></intlink>
+    FACULTATIF <intlink href="../exercices/wp-groupe-musicaux//"></intlink>
 
     <dots></dots>
     <grostitre>Classes JavaScript</grostitre>
