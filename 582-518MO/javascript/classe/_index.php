@@ -88,7 +88,7 @@ class NomDeMaClasse {
 
 
 <ul>
-    <li>La <strong>classe</strong> à un nom représentatif du type d’objet qu’elle crée&nbsp;<incode>ItemEpicerie</incode>.</li>
+    <li>La <strong>classe</strong> a un nom représentatif du type d’objet qu’elle crée&nbsp;<incode>ItemEpicerie</incode>.</li>
     <li>Le <strong>constructeur</strong> s’attend à recevoir en paramètre un élément intitulé&nbsp;<incode>nom</incode>.</li>
     <li>La <strong>propriété</strong> <incode>this.nom</incode>&nbsp;doit correspondre à l’élément&nbsp;<incode>nom</incode>&nbsp;reçu en&nbsp;paramètre.</li>
     <li>La <strong>propriété</strong> <incode>this.categorie</incode>&nbsp;doit correspondre à l’élément&nbsp;<incode>categorie</incode>&nbsp;reçu en&nbsp;paramètre.</li>
