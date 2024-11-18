@@ -32,7 +32,7 @@
 <highlight lang='js'>
 const tacos = {
   nom: “🌮”,
-  categorie: "cereale",
+  categorie: "céréale",
   dansLePanier: false,
 } 
  
@@ -101,11 +101,18 @@ class NomDeMaClasse {
 <dots></dots>
 <grostitre>Instanciation</grostitre>
 
-<p>Pour créer un objet à partir d’une classe, il faut l’instancier. Autrement dit, il faut utiliser le mot réservé&nbsp;<incode>new</incode>&nbsp;pour annoncer qu’un nouvel élément s’apprête à être déclaré. Il faut ensuite spécifier le nom de la classe à utiliser pour créer l’élément et optionnellement, lui fournir des paramètres à&nbsp;utiliser.</p>
+<p>Pour créer un objet à partir d’une classe, il faut l’instancier. </p>
+
+<p>La déclaration <span class='inline-code'>class Nomdeclasse</span> de la classe sert à indiquer au système la structure de la classe mais ça ne crée rien officiellement.</p>
+<p>La création d'une instance  <span class='inline-code'>new Nomdeclasse</span> crée un première version concrète d'une instance de la classe.  Il peut exister plusieurs instances de la classe. Chaque instance peut avoir ses propres valeurs selon les propriété déterminées par le modèe de la classe.</p>
+  
+
+
+<p>Il faut utiliser le mot réservé&nbsp;<incode>new</incode>&nbsp;pour créer une nouvelle instance. Il faut ensuite spécifier le nom de la classe à utiliser pour créer l’élément et optionnellement, lui fournir des paramètres à&nbsp;utiliser.</p>
 
 <p>Par exemple, il est possible de recréer l’élément tacos&nbsp;ainsi:</p>
 
-<highlight lang='js'>new ItemEpicerie(“🌮”);</highlight>
+<highlight lang='js'>new ItemEpicerie(“🌮”, "céréale");</highlight>
 
 
 <info>Remarquez comment le nom “🌮” est passé en paramètre. Si un ou des paramètres sont définis lors de l’instanciation d’un objet, ils sont automatiquement passés au&nbsp;constructeur.</info>
@@ -117,7 +124,7 @@ class NomDeMaClasse {
 
 <highlight lang='javaScript'>{
   nom: “🌮”,
-  categorie: "careale",
+  categorie: "céréale",
   dansLePanier: false,
 }</highlight>
 
