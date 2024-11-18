@@ -79,6 +79,7 @@
 
 <highlight lang="js">const tacos = {
   nom: &ldquo;🌮&rdquo;,
+  categorie: &quot;cereale&quot;
   dansLePanier: false,
 } 
  
@@ -88,7 +89,7 @@ const tomate = {
 }</highlight>
 
 
-<p>Chaque objet partage les mêmes propriétés&nbsp;<em>(nom et dansLePanier)</em>, mais a des valeurs différentes. Ainsi, il est possible d’interroger chaque élément afin de savoir s’il est&nbsp;<span class="inline-code">dansLePanier</span>&nbsp;ou&nbsp;non.</p>
+<p>Chaque objet partage les mêmes propriétés&nbsp;<em>(nom, categorie et dansLePanier)</em>, mais a des valeurs différentes. Ainsi, il est possible d’interroger chaque élément afin de savoir s’il est&nbsp;<span class="inline-code">dansLePanier</span>&nbsp;ou&nbsp;non.</p>
 
 
 
@@ -134,6 +135,7 @@ const tomate = {
     <li>Le constructeur définit que le nom de l’objet créé&nbsp;<span class="inline-code">this.nom</span>&nbsp;doit correspondre à l’élément&nbsp;<span class="inline-code">nom</span>&nbsp;reçu en&nbsp;paramètre.</li>
     <li>Finalement, la propriété&nbsp;<span class="inline-code">dansLePanier</span>&nbsp;est initialisée avec la valeur par défaut&nbsp;<span class="inline-code">false</span>.</li>
 </ul>
+<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/class'>Classe JavaScript</doclink>
 
 
 
@@ -178,14 +180,15 @@ const tomate = {
 <p>Pour ajouter une action à un objet, on définit ce que l’on appel une une méthode. Les méthodes sont des fonctions au même titre que le constructeur. Cependant, contrairement au constructeur, elles ne sont pas appelés automatiquement. Il faut donc les appeler manuellement au moment&nbsp;désiré.</p><p>Par exemple, pour créer un élément HTML correspondant notre l’item d’épicerie, il serait possible de créer une&nbsp;méthode.</p>
 
 <highlight lang="js">class ItemEpicerie {
-  constructor(nom) {
+  constructor(nom, categorie) {
     this.nom = nom;
+    this.categorie
     this.dansLePanier = false;
   }
   
   creerHTML() {
     this.el = document.createElement(&#039;div&#039;);
-    this.el.innerText = this.nom;
+    this.el.innerText = this.nom + &quot;(&quot; this categorie + &quot;)&quot;;
     document.body.appendChild(this.el);
   }
 }</highlight>
@@ -203,11 +206,11 @@ const tomate = {
 
 
 <p>Par elle-même, cette méthode ne fait rien, puisqu’elle n’est pas appelée. Il faut donc définir un appel. Cet appel pourrait être fait à différents&nbsp;endroits.</p>
-
+<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Functions/Method_definitions'>Méthode d'une classe JavaScript</doclink>
 
 
 <br><br>
-<h3 class="heading heading--h3" id="À l’extérieur de la classe">À l’extérieur de la classe</h3>
+<h3 id="À l’extérieur de la classe">À l’extérieur de la classe</h3>
 
 <highlight lang="js">const tacos = new ItemEpicerie(&ldquo;🌮&rdquo;);
 tacos.creerHTML();</highlight>
@@ -281,7 +284,7 @@ tacos.creerHTML();</highlight>
 
 
 <highlight lang="js">class ItemEpicerieEpice extends ItemEpicerie {
-  constructor(nom) {
+  constructor(nom, categorie) {
     super(`🌶️ 🔥 ${nom}`, categorie);
   }
 }</highlight>
@@ -292,7 +295,8 @@ tacos.creerHTML();</highlight>
 
 
 <codepen id="WNVWGwj" tab="js,result" height="500"></codepen>
-
+<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Classes/extends'>Extends class</doclink>
+<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/super'>super()</doclink>
 
         <a class="exercice" target="_blank" href="../../exercices/classe-space-invaders/">
             <div class="exercice-container">
@@ -304,6 +308,7 @@ tacos.creerHTML();</highlight>
                 </div>
             </div>
         </a>
+
 
                     <!-- ARTICLE FOOTER SOF -->
                 </div>

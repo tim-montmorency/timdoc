@@ -32,6 +32,7 @@
 <highlight lang='js'>
 const tacos = {
   nom: “🌮”,
+  categorie: "cereale"
   dansLePanier: false,
 } 
  
@@ -42,7 +43,7 @@ const tomate = {
 </highlight>
 
 
-<p>Chaque objet partage les mêmes propriétés&nbsp;<em>(nom et dansLePanier)</em>, mais a des valeurs différentes. Ainsi, il est possible d’interroger chaque élément afin de savoir s’il est&nbsp;<incode>dansLePanier</incode>&nbsp;ou&nbsp;non.</p>
+<p>Chaque objet partage les mêmes propriétés&nbsp;<em>(nom, categorie et dansLePanier)</em>, mais a des valeurs différentes. Ainsi, il est possible d’interroger chaque élément afin de savoir s’il est&nbsp;<incode>dansLePanier</incode>&nbsp;ou&nbsp;non.</p>
 
 
 
@@ -90,6 +91,7 @@ class NomDeMaClasse {
     <li>Le constructeur définit que le nom de l’objet créé&nbsp;<incode>this.nom</incode>&nbsp;doit correspondre à l’élément&nbsp;<incode>nom</incode>&nbsp;reçu en&nbsp;paramètre.</li>
     <li>Finalement, la propriété&nbsp;<incode>dansLePanier</incode>&nbsp;est initialisée avec la valeur par défaut&nbsp;<incode>false</incode>.</li>
 </ul>
+<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/class'>Classe JavaScript</doclink>
 
 
 
@@ -134,14 +136,15 @@ class NomDeMaClasse {
 <p>Pour ajouter une action à un objet, on définit ce que l’on appel une une méthode. Les méthodes sont des fonctions au même titre que le constructeur. Cependant, contrairement au constructeur, elles ne sont pas appelés automatiquement. Il faut donc les appeler manuellement au moment&nbsp;désiré.</p><p>Par exemple, pour créer un élément HTML correspondant notre l’item d’épicerie, il serait possible de créer une&nbsp;méthode.</p>
 
 <highlight lang='js'>class ItemEpicerie {
-  constructor(nom) {
+  constructor(nom, categorie) {
     this.nom = nom;
+    this.categorie
     this.dansLePanier = false;
   }
   
   creerHTML() {
     this.el = document.createElement('div');
-    this.el.innerText = this.nom;
+    this.el.innerText = this.nom + "(" this categorie + ")";
     document.body.appendChild(this.el);
   }
 }</highlight>
@@ -159,11 +162,11 @@ class NomDeMaClasse {
 
 
 <p>Par elle-même, cette méthode ne fait rien, puisqu’elle n’est pas appelée. Il faut donc définir un appel. Cet appel pourrait être fait à différents&nbsp;endroits.</p>
-
+<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Functions/Method_definitions'>Méthode d'une classe JavaScript</doclink>
 
 
 <br><br>
-<h3 class="heading heading--h3" id="À l’extérieur de la classe">À l’extérieur de la classe</h3>
+<h3 id="À l’extérieur de la classe">À l’extérieur de la classe</h3>
 
 <highlight lang='js'>const tacos = new ItemEpicerie(“🌮”);
 tacos.creerHTML();</highlight>
@@ -220,7 +223,7 @@ tacos.creerHTML();</highlight>
 
 <highlight lang='js'>
 class ItemEpicerieEpice extends ItemEpicerie {
-  constructor(nom) {
+  constructor(nom, categorie) {
     super(`🌶️ 🔥 ${nom}`, categorie);
   }
 }
@@ -232,6 +235,8 @@ class ItemEpicerieEpice extends ItemEpicerie {
 
 
 <codepen id="WNVWGwj" tab="js,result" height="500"></codepen>
-
+<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Classes/extends'>Extends class</doclink>
+<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/super'>super()</doclink>
 
 <exercice href='../../exercices/classe-space-invaders/'></exercice>
+
