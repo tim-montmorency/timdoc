@@ -1994,14 +1994,18 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
     <dots></dots>
-    <grostitre>Vue.JS</grostitre>
+    <grostitre>Vue.js</grostitre>
     <h3>Quelques exemples</h3>
     <ul>
         <li>   
            <a href="https://vuejsexamples.com/" target="_blank" rel="noopener noreferrer">Démos sur vuejsexamples.com</a> <br><br>
             Mes préférés:
             <ul>
-                <li><a href="https://vuejsexamples.com/a-pokemon-game-built-with-vue-and-tailwind-css/" target="_blank" rel="noopener noreferrer">Un Pokémons construit avec Vue JS et Tailwind CSS</a></li>
+                <li><a href="https://vuejsexamples.com/a-pokemon-game-built-with-vue-and-tailwind-css/" target="_blank" rel="noopener noreferrer">Un jeu de Pokémons construit avec Vue.js et Tailwind CSS</a></li>
+                <li><a href="https://vuejsexamples.com/a-vue-js-component-that-displays-a-list-of-rick-and-morty-characters/" target="_blank" rel="noopener noreferrer">Une composante Vue.js qui affiche une list des personnages de Rick and Morty.</a></li>
+                <!-- <li><a href="" target="_blank" rel="noopener noreferrer"></a></li>
+                <li><a href="" target="_blank" rel="noopener noreferrer"></a></li>
+                <li><a href="" target="_blank" rel="noopener noreferrer"></a></li>-->
             </ul>
         </li>
         <li> 
@@ -2009,7 +2013,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
         </li>
     </ul>
 
-    <h3>Intro Vue.JS</h3>
+    <h3>Intro Vue.js</h3>
 
     <intlink href="../javascript/vue-js/introduction"></intlink>
     <intlink href="../javascript/vue-js/creation-app/"></intlink>
@@ -2017,9 +2021,33 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href="../javascript/vue-js/methodes-et-evenements/"></intlink>
 
 
+
+
     <h3>Exercices</h3>
     <p>Exercices partagés en classe</p>
+
+   <!-- <exercice href="../exercices/vue-tableau-nba/"></exercice>
+    <exercice href="../exercices/vue-cheese-kanye-says/"></exercice>-->
     <!-- voir à utiliser ça comme exercice vue? http://127.0.0.1:5502/582-518MO/exercices/chevalier/index.html -->
+
+
+
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+    <h3>Terminer les 2 exercices Vue d'aujourd'hui</h3>
+   <!-- <intlink href="../exercices/vue-tableau-nba/"></intlink>
+    <intlink href="../exercices/vue-cheese-kanye-says/"></intlink>-->
+    À terminer au plus tard pour jeudi le 28 novembre.
+
+
+    <h3>Projet de session</h3>
+    <p>Rappel de lundi passé si ce n'est pas encore fait:</p>
+    <checklist>Renommez le <em>theme-de-base</em> selon le nom de votre client. Vous devez renommer à la fois le dossier du thème et le nom et les informations dans <em>style.css</em>.
+    N'oubliez pas de faire une copie de <em>style.scss</em> dans le dossier du thème, ainsi qu'une copie des fichiers JavaScript (<em>main.js</em> et possiblement le dossier qui contient Bootstrap si applicable) ainsi qu'une copie du dossier des partials SCSS. 
+    Comme <em>style.css</em> est généré à partir de <em>style.scss</em>, n'oubliez pas d'ajouter les infos du thème (en commentaire) dans <em>style.scss</em> sinon ils seront écrasées la prochaine fois que vous allez faire un <strong>Watch Sass</strong>.
+    Pour le prochain cours, en équipe, essayez de créer minimalement le modèle et la structure WordPress (post type et champs personnalisés si applicables) de 2 pages afin de vous permettre d'avoir une vélocité pour ne pas tout faire à la dernière minute. NE PAS COMMENCER PAR L'ACCUEIL. Rappelez vous qu'il faut commencer par faire la structure sur tim-momo.com.
+    </checklist>
+    <intlink href='../projet/migration-donnees-wordpress/'></intlink>
 
 </wiki-page>
 
@@ -2044,18 +2072,26 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     Vendredi - <a href="https://app.wooclap.com/ZDTZQU" target="_blank" rel="noopener noreferrer">Code Wooclap : ZDTZQU
     </a>
 
+
     <dots></dots>
     <grostitre>Révision exercices sur les classes JavaScript</grostitre>
-
-    <!--<h3>Exercice</h3>
-    <p><a href="https://smnarnold.com/projets/duck-hunt/introduction" target="_blank" rel="noopener noreferrer">Duck Hunt</a></p>-->
+    <intlink href='../exercices/classe-mario-blocks'></intlink>
+    <intlink href='../exercices/classe-chats'></intlink>
+    <intlink href='../exercices/classe-space-invaders'></intlink>
+   
 
     <dots></dots>
-    <grostitre>Travailler sur projet de session</grostitre>
+    <grostitre>Projet de session</grostitre>
+    En équipe, avancez votre projet de session. Création des modèles du thème. Intégration du contenu.
+    <alert>N'oubliez pas que le WordPress sur tim-momo.com est le modèle maître.</alert>
+    <intlink href='../projet/migration-donnees-wordpress/'></intlink>
 
-    
 
-    <grostitre>DEVOIRS</grostitre>
+
+
+    <dots></dots>   
+
+    <grostitre>Devoirs</grostitre>
     
     <h3>Exercices à terminer</h3>
     <p>Terminez les exercices vue.js commencés en classe d'ici lundi prochain.
@@ -2082,7 +2118,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <grostitre>Révision exercices</grostitre>
     <intlink href="../exercices/vue-tableau-nba/"></intlink>
     <intlink href="../exercices/vue-cheese-kanye-says/"></intlink>
-    <intlink href="../exercices/vue-ouest-vs-est/"></intlink>
+
 
 
 
@@ -2097,11 +2133,23 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <intlink href="../javascript/vue-js/classes-css-dynamiques/"></intlink>
     <intlink href="../javascript/vue-js/condition-v-if/"></intlink>
-    <intlink href="../javascript/vue-js/boucle/"></intlink>
+    <intlink href="../javascript/vue-js/boucle/"></intlink> 
+
+    <h3>Exercice</h3>
+    <intlink href="../exercices/vue-ouest-vs-est/"></intlink>
+    <!-- TODO Prep instruction Exercice - Gestion d'inventaire de film pour https://tim-montmorency.com/timdoc/582-518MO/javascript/vue-js/classes-css-dynamiques/ L'idée est tiré du tutoriel fr épisode ... sur https://www.youtube.com/watch?v=JUSjju1Y1Ds&list=PLjwdMgw5TTLVQgowwmhNCpXfHMfM9Jove&index=4 --> 
+
+
+    <dots></dots>
     <intlink href="../javascript/vue-js/elements-de-formulaire"></intlink>
+    <!-- TODO prep exercice simple pour formulaire -->
+
     <intlink href="../javascript/vue-js/proprietes-calculees"></intlink>
 
-    <p>3 exercices partagés en classe</p>
+    <h3>Exercice</h3>
+    <intlink href="../exercices/vue-luchador/"></intlink>
+
+
 
 </wiki-page>
 
@@ -2156,11 +2204,20 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
     <dots></dots>
-    <grostitre>Pratique pour l'examen (du moins, couvrant la notion de vue.js) </grostitre>
-    <p>Prendre en note que les notions de classe JavaScript sont incluses dans l'examen mais il portera quand même principalement sur vus.js.</p>
+    <grostitre>Pratiques pour l'examen</grostitre>
+
     <p>Demain mardi, au trou à l'horaire, il y aura un groupe d'étude pour se préparer à l'examen. Un tuteur (Maïk Hamel) sera sur place. Possiblement que Justine Rousseau aussi puisqu'elle fait déjà du tutorat au l'horaire.</p>
-    <p>Cette pratique d'examen est facultative, vous faite l'exercice si vous croyez que cela peut vous aider à réviser. Au prochain cours ce jeudi, je pourrai réviser la solution avec vous et répondre à vos questions sur le sujet.</p>
+
+    <p>Ces pratique d'examen sont facultatives, vous faite les exercices si vous croyez que cela peut vous aider à réviser. Au prochain cours ce jeudi, je pourrai réviser celui de Vue.js (sushi) avec vous et répondre à vos questions sur le sujet. Celui des classe JS (Duck Hunt) ne sera pas révisé en classe.</p>
+
+    <h3>Exercice couvrant la notion de Vue.js</h3>
+    <span class="red-label">Facultatif mais fortement recommandé</span>
     <intlink href="../exercices/vue-sushis/"></intlink>
+
+    <h3>Exercice couvrant la notion de classe JS</h3>
+    <span class="red-label">Si les classes JavaScript vous semblaient du nouveau contenu cette session, il serait intéressant que vous plongiez dans cet exercice.</span> <br> <br>
+    <doclink href='https://smnarnold.com/projets/duck-hunt/introduction'>Classe JavaScript - Duck Hunt</doclink>
+
 
     <dots></dots>
     <grostitre>Reste du cours</grostitre>

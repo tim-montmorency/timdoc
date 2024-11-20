@@ -20,7 +20,6 @@
  
 
 
-
 <dots></dots>
 <grostitre>Requis</grostitre>
 <checklist>Créez-vous une méthode Vue intitulée <em>"getQuote"</em>. Au clic du bouton <em>"Nouvelle citation fromagée"</em>, appelez cette méthode.
@@ -33,5 +32,7 @@ Lorsque l'étape précédente est complétée, effacez le changement de texte da
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
 <intlink href="../../javascript/vue-js/introduction/"></intlink>
-<intlink href="../../javascript/vue-js/creation-app-bases/"></intlink>
-<intlink href="../../javascript/fetch-api/"></intlink>
+<intlink href="../../javascript/vue-js/creation-app/"></intlink>
+<intlink href="../../javascript/vue-js/donnees/"></intlink>
+<intlink href="../../javascript/vue-js/methodes-et-evenements/"></intlink>
+<intlink href="../../../582-424MO/javascript/fetch-api/"></intlink>
