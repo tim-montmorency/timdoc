@@ -1983,23 +1983,47 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 12 jeudi ----------------------->
 <!---------------------- Cours 12 jeudi ----------------------->
 <!---------------------- Cours 12 jeudi ----------------------->
-<wiki-page name="Sem12.jeudi" date="2024-11-20">
-    <!--<p>ici soit j'avance les classe js avec duck hunt ou je leur laisse le labo pour travailler sur l'intégration de leur projet dans WP</p>-->
+<wiki-page name="Sem12.jeudi" date="2024-11-21">
 
-    <grostitre>Révision de l'exercice WP de la semaine passée</grostitre>
+    <grostitre>Révision des derniers exercice WordPress</grostitre>
+    <em>REST-API</em>
     <intlink href="../exercices/wp-rest-api-vice-versa/"></intlink>
-    FACULTATIF <intlink href="../exercices/wp-groupe-musicaux//"></intlink>
+    <br>
+    Révision rapide de cet excercie dont la 2e partie était facultative. Cette révision comporte une démonstration de la <em>documentation de Secure Custom Field</em>, à savoir comment afficher le contenu des différents types de champs personnalisés de SCF. Vous en aurez possiblment besoin pour votre projet de session.
+    <intlink href="../exercices/wp-groupe-musicaux/"></intlink>
+
 
     <dots></dots>
-    <grostitre>Classes JavaScript</grostitre>
+    <grostitre>Vue.JS</grostitre>
+    <h3>Quelques exemples</h3>
+    <ul>
+        <li>   
+           <a href="https://vuejsexamples.com/" target="_blank" rel="noopener noreferrer">Démos sur vuejsexamples.com</a> <br><br>
+            Mes préférés:
+            <ul>
+                <li><a href="https://vuejsexamples.com/a-pokemon-game-built-with-vue-and-tailwind-css/" target="_blank" rel="noopener noreferrer">Un Pokémons construit avec Vue JS et Tailwind CSS</a></li>
+            </ul>
+        </li>
+        <li> 
+           <a href="https://codepen.io/collection/kNQdop" target="_blank" rel="noopener noreferrer">Collections de CodePens utilisant VUE</a>
+        </li>
+    </ul>
 
-    <h3>Exercice</h3>
-    <p><a href="https://smnarnold.com/projets/duck-hunt/introduction" target="_blank" rel="noopener noreferrer">Duck Hunt</a></p>
+    <h3>Intro Vue.JS</h3>
 
-    <dots></dots>
-    <grostitre>Travailler sur projet de session</grostitre>
+    <intlink href="../javascript/vue-js/introduction"></intlink>
+    <intlink href="../javascript/vue-js/creation-app/"></intlink>
+    <intlink href="../javascript/vue-js/donnees/"></intlink>
+    <intlink href="../javascript/vue-js/methodes-et-evenements/"></intlink>
+
+
+    <h3>Exercices</h3>
+    <p>Exercices partagés en classe</p>
+    <!-- voir à utiliser ça comme exercice vue? http://127.0.0.1:5502/582-518MO/exercices/chevalier/index.html -->
 
 </wiki-page>
+
+
 
 <!-----------------------------------
   _____                       __ ____  
@@ -2010,31 +2034,26 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
  \_____\___/ \__,_|_|  |___/  |_|____/       
                              
  ----------------------------------->  
-
- <wiki-page name="Sem13.lundi" date="2024-11-28">
+<!---------------------- Cours 13 lundi ----------------------->
+<!---------------------- Cours 13 lundi ----------------------->
+<!---------------------- Cours 13 lundi ----------------------->
+ <wiki-page name="Sem13.lundi" date="2024-11-25">
     <grostitre>Quiz</grostitre>
     Lundi - <a href="https://app.wooclap.com/QGRZDE" target="_blank" rel="noopener noreferrer">Code Wooclap : QGRZDE</a>
     <br>
     Vendredi - <a href="https://app.wooclap.com/ZDTZQU" target="_blank" rel="noopener noreferrer">Code Wooclap : ZDTZQU
     </a>
 
-    <grostitre>Introduction Vue.JS</grostitre>
-    <p><a href="https://vuejsexamples.com/" target="_blank" rel="noopener noreferrer">Démos sur vuejsexamples.com</a>  <br>
-    <a href="https://codepen.io/collection/kNQdop" target="_blank" rel="noopener noreferrer">Collections de CodePens utilisant VUE</a></p>
+    <dots></dots>
+    <grostitre>Révision exercices sur les classes JavaScript</grostitre>
 
+    <!--<h3>Exercice</h3>
+    <p><a href="https://smnarnold.com/projets/duck-hunt/introduction" target="_blank" rel="noopener noreferrer">Duck Hunt</a></p>-->
 
-    <intlink href="../javascript/vue-js/introduction"></intlink>
-    <intlink href="../javascript/vue-js/creation-app/"></intlink>
-    <intlink href="../javascript/vue-js/donnees/"></intlink>
-    <intlink href="../javascript/vue-js/methodes-et-evenements/"></intlink>
-    <intlink href="../javascript/vue-js/classes-css-dynamiques/"></intlink>
-    <intlink href="../javascript/vue-js/condition-v-if/"></intlink>
-    <p>Exercices partagés en classe</p>
+    <dots></dots>
+    <grostitre>Travailler sur projet de session</grostitre>
 
-
-    <!-- voir à utiliser ça comme exercice vue? http://127.0.0.1:5502/582-518MO/exercices/chevalier/index.html -->
-
-
+    
 
     <grostitre>DEVOIRS</grostitre>
     
@@ -2058,7 +2077,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 13 jeudi ----------------------->
 <!---------------------- Cours 13 jeudi ----------------------->
 <!---------------------- Cours 13 jeudi ----------------------->
-<wiki-page name="Sem13.jeudi" date="2024-12-01">
+<wiki-page name="Sem13.jeudi" date="2024-11-28">
 
     <grostitre>Révision exercices</grostitre>
     <intlink href="../exercices/vue-tableau-nba/"></intlink>
@@ -2066,13 +2085,22 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href="../exercices/vue-ouest-vs-est/"></intlink>
 
 
+
+  
+
+    <!-- voir à utiliser ça comme exercice vue? http://127.0.0.1:5502/582-518MO/exercices/chevalier/index.html -->
+
+
+
     <dots></dots>
     <grostitre>VUE.JS</grostitre>
 
- 
+    <intlink href="../javascript/vue-js/classes-css-dynamiques/"></intlink>
+    <intlink href="../javascript/vue-js/condition-v-if/"></intlink>
+    <intlink href="../javascript/vue-js/boucle/"></intlink>
     <intlink href="../javascript/vue-js/elements-de-formulaire"></intlink>
     <intlink href="../javascript/vue-js/proprietes-calculees"></intlink>
-    <intlink href="../javascript/vue-js/composantes"></intlink>
+
     <p>3 exercices partagés en classe</p>
 
 </wiki-page>
@@ -2105,13 +2133,33 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     </a>
 
     <dots></dots>
+    <grostitre>VUE.JS</grostitre>
+
+
+    <intlink href="../javascript/vue-js/composantes"></intlink>
+    <!-- développer plus d'exemples et un exercice juste sur le principe -->
+
+
+    
+    <intlink href="../javascript/vue-js/sfc/"></intlink>
+    <intlink href='../../../compendium/582-511%E2%80%93web5/vue/installation.html'></intlink>
+    <doclink href='https://tim-montmorency.com/compendium/582-511%E2%80%93web5/vue/installation.html'>Installation de Vue via NPM et Vite qui contient un compilateur automatique de SFC.</doclink>
+
+    <p>Exercices partagés en classe</p>
+
+
+
+
+    <dots></dots>
     <grostitre>Révision exercices</grostitre>
     <intlink href="../exercices/vue-composante-cartes/"></intlink>
 
 
     <dots></dots>
     <grostitre>Pratique pour l'examen (du moins, couvrant la notion de vue.js) </grostitre>
-    <p>Prendre en note que les notions de fetch api et un peu wordpress seront inclus dans l'examen mais il portera quand même principalement sur vus.js.</p>
+    <p>Prendre en note que les notions de classe JavaScript sont incluses dans l'examen mais il portera quand même principalement sur vus.js.</p>
+    <p>Demain mardi, au trou à l'horaire, il y aura un groupe d'étude pour se préparer à l'examen. Un tuteur (Maïk Hamel) sera sur place. Possiblement que Justine Rousseau aussi puisqu'elle fait déjà du tutorat au l'horaire.</p>
+    <p>Cette pratique d'examen est facultative, vous faite l'exercice si vous croyez que cela peut vous aider à réviser. Au prochain cours ce jeudi, je pourrai réviser la solution avec vous et répondre à vos questions sur le sujet.</p>
     <intlink href="../exercices/vue-sushis/"></intlink>
 
     <dots></dots>
@@ -2127,7 +2175,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 14 jeudi ----------------------->
 <!---------------------- Cours 14 jeudi ----------------------->
 <!---------------------- Cours 14 jeudi ----------------------->
-<wiki-page name="Sem14.jeudi" date="2024-12-10">
+<wiki-page name="Sem14.jeudi" date="2024-12-5">
     <p>Révision sushi en classe ou partage du fichier</p>
 
     <grostitre>Projet de session</grostitre>
@@ -2147,9 +2195,9 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
                                                                       
  ----------------------------------->  
 
- <wiki-page name="Sem15.lundi" date="2024-12-12">
+ <wiki-page name="Sem15.lundi" date="2024-12-09">
     <grostitre>Examen</grostitre>
-    <p>Les classes JavaScript et Vue.js</p>
+    <p>Sujet: Les classes JavaScript et Vue.js</p>
 
 
  </wiki-page>
@@ -2157,7 +2205,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 15 jeudi ----------------------->
 <!---------------------- Cours 15 jeudi ----------------------->
 <!---------------------- Cours 15 jeudi ----------------------->
-<wiki-page name="Sem15.jeudi" date="2024-12-10">
+<wiki-page name="Sem15.jeudi" date="2024-12-12">
 
     <grostitre> Présentations du projet de session</grostitre>
 

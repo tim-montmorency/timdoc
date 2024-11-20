@@ -93,8 +93,8 @@ export default {
 <p>Une composante SFC peut aussi avoir plus d'une balise <incode>&lt;style&gt;</incode>. Notamment lorsque des styles devraient être globaux et que d'autres devraient être limités à la composante uniquement.</p><p>Par exemple:</p>
 
 <highlight lang="html">
-/* Styles appliqués à tout le site */
-<style scoped>
+/* Styles appliqués à tout le site, donc sans l'attribut scoped */
+<style>
 * {
   box-sizing: border-box;
 }

@@ -134,8 +134,8 @@ export default {
 
 <p>Une composante SFC peut aussi avoir plus d'une balise <span class="inline-code">&lt;style&gt;</span>. Notamment lorsque des styles devraient être globaux et que d'autres devraient être limités à la composante uniquement.</p><p>Par exemple:</p>
 
-<highlight lang="html">/* Styles appliqu&eacute;s &agrave; tout le site */
-&lt;style scoped&gt;
+<highlight lang="html">/* Styles appliqu&eacute;s &agrave; tout le site, donc sans l&#039;attribut scoped */
+&lt;style&gt;
 * {
   box-sizing: border-box;
 }
