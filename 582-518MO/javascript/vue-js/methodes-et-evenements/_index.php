@@ -79,7 +79,7 @@ COMPLET https://codepen.io/tim-momo/pen/qBezxBw?editors=1011
 
 <dots></dots>
 <grostitre>Exercices</grostitre>
-<!--<exercice href="../../../exercices/vue-tableau-nba/"></exercice>
-<exercice href="../../../exercices/vue-cheese-kanye-says/"></exercice>-->
+<exercice href="../../../exercices/vue-tableau-nba/"></exercice>
+<exercice href="../../../exercices/vue-cheese-kanye-says/"></exercice>
 
 <dots></dots>
