@@ -2035,10 +2035,21 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <dots></dots>
     <grostitre>Devoirs</grostitre>
+
+
+    <h3>Terminer les 3 exercices de Classe JavaScript</h3>
+    À terminer au plus tard pour lundi le 25 novembre.
+    <intlink href='../exercices/classe-mario-blocks'></intlink>
+    <intlink href='../exercices/classe-chats'></intlink>
+    <intlink href='../exercices/classe-space-invaders'></intlink>
+    
+    
+
     <h3>Terminer les 2 exercices Vue d'aujourd'hui</h3>
+    À terminer au plus tard pour jeudi le 28 novembre.
     <intlink href="../exercices/vue-tableau-nba/"></intlink>
     <intlink href="../exercices/vue-cheese-kanye-says/"></intlink>
-    À terminer au plus tard pour jeudi le 28 novembre.
+   
 
 
     <h3>Projet de session</h3>
