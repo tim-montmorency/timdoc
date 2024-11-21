@@ -2027,8 +2027,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <h3>Exercices</h3>
     <p>Exercices partagés en classe</p>
 
-   <!-- <exercice href="../exercices/vue-tableau-nba/"></exercice>
-    <exercice href="../exercices/vue-cheese-kanye-says/"></exercice>-->
+    <exercice href="../exercices/vue-tableau-nba/"></exercice>
+    <exercice href="../exercices/vue-cheese-kanye-says/"></exercice>
     <!-- voir à utiliser ça comme exercice vue? http://127.0.0.1:5502/582-518MO/exercices/chevalier/index.html -->
 
 
@@ -2036,8 +2036,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <dots></dots>
     <grostitre>Devoirs</grostitre>
     <h3>Terminer les 2 exercices Vue d'aujourd'hui</h3>
-   <!-- <intlink href="../exercices/vue-tableau-nba/"></intlink>
-    <intlink href="../exercices/vue-cheese-kanye-says/"></intlink>-->
+    <intlink href="../exercices/vue-tableau-nba/"></intlink>
+    <intlink href="../exercices/vue-cheese-kanye-says/"></intlink>
     À terminer au plus tard pour jeudi le 28 novembre.
 
 
