@@ -57,11 +57,21 @@
 <warning>Il ne faut<a href="https://vuejs.org/style-guide/rules-essential.html#avoid-v-if-with-v-for" target="_blank"> jamais utiliser <incode>v-if</incode> sur un élément ayant&nbsp;<incode>v-for</incode></a>.</warning>
 <br>
 
-<exercice href="../../../exercices/vue-ouest-vs-est/"></exercice>
-
-<br><br>
 
 <doclink href="https://v3.vuejs.org/guide/list.html">Rendu de liste</doclink>
+
+
+<dots></dots>
+<grostitre>Récapitulatif de ce que on a <em>Vue.js</em> jusqu'à maintenant</grostitre>
+<p>Analysons ensemble cet exemple de brassage de carte réalisé par le développeur Torontois <a href="https://codepen.io/itslit" target="_blank" rel="noopener noreferrer">Hassan Dj (@itslit</a>)</p>
+
+<codepen id="gOVNoby" tab="result" height="1000"></codepen>
+
+<dots></dots>
+<exercice href="../../../exercices/vue-ouest-vs-est/"></exercice>
+
+
+
 
 
 

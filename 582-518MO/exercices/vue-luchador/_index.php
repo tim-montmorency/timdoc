@@ -35,6 +35,12 @@ Créez une propriété calculée intitulée <incode>name</incode>. La valeur de 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
 <intlink href="../../javascript/vue-js/introduction"></intlink>
-<intlink href="../../javascript/vue-js/creation-app-bases"></intlink>
+
+<intlink href="../../javascript/vue-js/creation-app/"></intlink>
+<intlink href="../../javascript/vue-js/donnees/"></intlink>
+<intlink href="../../javascript/vue-js/methodes-et-evenements/"></intlink>
+<intlink href="../../javascript/vue-js/condition-v-if/"></intlink>
+<intlink href="../../javascript/vue-js/boucle/"></intlink>
+
 <intlink href="../../javascript/vue-js/elements-de-formulaire"></intlink>
 <intlink href="../../javascript/vue-js/proprietes-calculees"></intlink>
