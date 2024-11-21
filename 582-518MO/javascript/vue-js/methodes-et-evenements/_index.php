@@ -68,7 +68,6 @@ Salut { { firstName } }
 <doclink href="https://v3.vuejs.org/guide/events.html#listening-to-events">Event Handling</doclink>
 <dots></dots>
 
-
 <!--<exercice href="../../../exercices/vue-tableau-nba/"></exercice>
 <exercice href="../../../exercices/vue-cheese-kanye-says/"></exercice>-->
 <br>
