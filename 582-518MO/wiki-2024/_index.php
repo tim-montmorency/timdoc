@@ -1999,17 +1999,18 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <ul>
         <li>   
            <a href="https://vuejsexamples.com/" target="_blank" rel="noopener noreferrer">Démos sur vuejsexamples.com</a> <br><br>
-            Mes préférés:
+            Quelques exemples parmi mes préférés: 
             <ul>
                 <li><a href="https://vuejsexamples.com/a-pokemon-game-built-with-vue-and-tailwind-css/" target="_blank" rel="noopener noreferrer">Un jeu de Pokémons construit avec Vue.js et Tailwind CSS</a></li>
                 <li><a href="https://vuejsexamples.com/a-vue-js-component-that-displays-a-list-of-rick-and-morty-characters/" target="_blank" rel="noopener noreferrer">Une composante Vue.js qui affiche une list des personnages de Rick and Morty.</a></li>
-                <!-- <li><a href="" target="_blank" rel="noopener noreferrer"></a></li>
-                <li><a href="" target="_blank" rel="noopener noreferrer"></a></li>
-                <li><a href="" target="_blank" rel="noopener noreferrer"></a></li>-->
+                <li><a href="https://vuejsexamples.com/a-color-wheel-picker-for-vue/" target="_blank" rel="noopener noreferrer">Une composante Vue.js qui est sélecteur de couleur de type roue chromatique</a></li>
+                <li><a href="https://vuejsexamples.com/palette-pilot-a-vue-app-that-helps-you-extract-the-most-relevant-colors-from-an-image/" target="_blank" rel="noopener noreferrer">Une app Vue.js qui vous permet d'extraire les couleurs dominantes d'une image.</a></li>
+                <li><a href="https://vuejsexamples.com/palette-pilot-a-vue-app-that-helps-you-extract-the-most-relevant-colors-from-an-image/" target="_blank" rel="noopener noreferrer">Une composante Vue.js qui génère un calendrier personalisable et interactif.</a></li>
             </ul>
         </li>
         <li> 
-           <a href="https://codepen.io/collection/kNQdop" target="_blank" rel="noopener noreferrer">Collections de CodePens utilisant VUE</a>
+           <a href="https://codepen.io/collection/kNQdop" target="_blank" rel="noopener noreferrer">J'ai commencé à regrouper quelques exemples de projet vue sur CodePen via une collection CodePen.</a> <br>
+          
         </li>
     </ul>
 
@@ -2041,6 +2042,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
     <h3>Projet de session</h3>
+    <p class="red-label">REMISE FINALE ET PRÉSENTATION DU PROJET DE SESSION JEUDI LE 12 DÉC.</p>
     <p>Rappel de lundi passé si ce n'est pas encore fait:</p>
     <checklist>Renommez le <em>theme-de-base</em> selon le nom de votre client. Vous devez renommer à la fois le dossier du thème et le nom et les informations dans <em>style.css</em>.
     N'oubliez pas de faire une copie de <em>style.scss</em> dans le dossier du thème, ainsi qu'une copie des fichiers JavaScript (<em>main.js</em> et possiblement le dossier qui contient Bootstrap si applicable) ainsi qu'une copie du dossier des partials SCSS. 
@@ -2090,22 +2092,11 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
     <dots></dots>   
-
     <grostitre>Devoirs</grostitre>
-    
-    <h3>Exercices à terminer</h3>
-    <p>Terminez les exercices vue.js commencés en classe d'ici lundi prochain.
-
 
     <h3>Projet de session</h3>
+    <p class="red-label">REMISE FINALE ET PRÉSENTATION DU PROJET DE SESSION JEUDI LE 12 DÉC.</p>
     <p>Terminez d'intégrer votre site du projet de session à Wordpress avec les techniques vues en classe. Pensez à faire votre QA (assurance qualité) au fur et à mesure. Finalisez le projet pour la remise finale jeudi dans 2 semaines (dernier cours de la session).</p>
-
-
-
-    <dots></dots>
-    <h3>Terminer exercices Vue JS</h3>
-    <p>- Terminez le dernier exercice commencé en classe (Ouest vs Est). Lien partagé en classe.</p> 
-    À terminer au plus tard pour lundi le 25 novembre.
 
 
  </wiki-page>
@@ -2120,12 +2111,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href="../exercices/vue-cheese-kanye-says/"></intlink>
 
 
-
-
-  
-
     <!-- voir à utiliser ça comme exercice vue? http://127.0.0.1:5502/582-518MO/exercices/chevalier/index.html -->
-
 
 
     <dots></dots>
@@ -2148,6 +2134,18 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <h3>Exercice</h3>
     <intlink href="../exercices/vue-luchador/"></intlink>
+
+
+    <dots></dots>   
+    <grostitre>Devoirs</grostitre>
+
+    <h3>Projet de session</h3>
+    <p class="red-label">REMISE FINALE ET PRÉSENTATION DU PROJET DE SESSION JEUDI LE 12 DÉC.</p>
+    <p>Terminez d'intégrer votre site du projet de session à Wordpress avec les techniques vues en classe. Pensez à faire votre QA (assurance qualité) au fur et à mesure. Finalisez le projet pour la remise finale jeudi dans 2 semaines (dernier cours de la session).</p>
+
+    <h3>Exercices Vue.js</h3>
+    <p>Terminez les exercices débutés en classe.</p>
+
 
 
 
@@ -2219,10 +2217,16 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <doclink href='https://smnarnold.com/projets/duck-hunt/introduction'>Classe JavaScript - Duck Hunt</doclink>
 
 
-    <dots></dots>
-    <grostitre>Reste du cours</grostitre>
-    <p>Aide en classe pour terminer le projet</p>
 
+    <dots></dots>   
+    <grostitre>Devoirs</grostitre>
+
+    <h3>Projet de session</h3>
+    <p class="red-label">REMISE FINALE ET PRÉSENTATION DU PROJET DE SESSION JEUDI LE 12 DÉC.</p>
+    <p>Terminez d'intégrer votre site du projet de session à Wordpress avec les techniques vues en classe. Pensez à faire votre QA (assurance qualité) au fur et à mesure. Finalisez le projet pour la remise finale jeudi dans 2 semaines (dernier cours de la session).</p>
+
+    <h3>Pratiques d'examen</h3>
+    <p>Facultatifs. Sushis pour Vue.js et Duck Hunt pour les classes JavaScript</p>
 
 
  </wiki-page>
@@ -2236,7 +2240,14 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <p>Révision sushi en classe ou partage du fichier</p>
 
     <grostitre>Projet de session</grostitre>
-    <p>Travail sur projet de session.</p>
+    <p>Travail sur projet de session + aide en classe pour vous aider à compléter le projet.</p>
+
+    <dots></dots>   
+    <grostitre>Devoirs</grostitre>
+
+    <h3>Projet de session</h3>
+    <p class="red-label">REMISE FINALE ET PRÉSENTATION DU PROJET DE SESSION JEUDI LE 12 DÉC.</p>
+    <p>Terminez d'intégrer votre site du projet de session à Wordpress avec les techniques vues en classe. Pensez à faire votre QA (assurance qualité) au fur et à mesure. Finalisez le projet pour la remise finale jeudi dans 2 semaines (dernier cours de la session).</p>
 
 
 </wiki-page>
