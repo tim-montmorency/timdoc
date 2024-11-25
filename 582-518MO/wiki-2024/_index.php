@@ -2080,12 +2080,12 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 13 lundi ----------------------->
  <wiki-page name="Sem13.lundi" date="2024-11-25">
     <grostitre>Quiz</grostitre>
-    Lundi - <a href="https://app.wooclap.com/QGRZDE" target="_blank" rel="noopener noreferrer">Code Wooclap : QGRZDE</a>
+    Groupe AM - <a href="https://app.wooclap.com/YPOYGS" target="_blank" rel="noopener noreferrer">Code Wooclap : YPOYGS</a>
     <br>
-    Vendredi - <a href="https://app.wooclap.com/ZDTZQU" target="_blank" rel="noopener noreferrer">Code Wooclap : ZDTZQU
+    Groupe PM - <a href="https://app.wooclap.com/RLQLNP" target="_blank" rel="noopener noreferrer">Code Wooclap : RLQLNP
     </a>
 
-
+  
     <dots></dots>
     <grostitre>Révision exercices sur les classes JavaScript</grostitre>
     <intlink href='../exercices/classe-mario-blocks'></intlink>
@@ -2104,6 +2104,12 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <dots></dots>   
     <grostitre>Devoirs</grostitre>
+    <h3>Terminer les 2 exercices Vue.js</h3>
+    À terminer au plus tard pour jeudi le 28 novembre.
+    <intlink href="../exercices/vue-tableau-nba/"></intlink>
+    <intlink href="../exercices/vue-cheese-kanye-says/"></intlink>
+   
+
 
     <h3>Projet de session</h3>
     <p class="red-label">REMISE FINALE ET PRÉSENTATION DU PROJET DE SESSION JEUDI LE 12 DÉC.</p>
@@ -2116,6 +2122,14 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 13 jeudi ----------------------->
 <!---------------------- Cours 13 jeudi ----------------------->
 <wiki-page name="Sem13.jeudi" date="2024-11-28">
+
+<grostitre>Quiz</grostitre>
+    Lundi - <a href="https://app.wooclap.com/QGRZDE" target="_blank" rel="noopener noreferrer">Code Wooclap : QGRZDE</a>
+    <br>
+    Vendredi - <a href="https://app.wooclap.com/ZDTZQU" target="_blank" rel="noopener noreferrer">Code Wooclap : ZDTZQU
+    </a>
+
+
 
     <grostitre>Révision exercices</grostitre>
     <intlink href="../exercices/vue-tableau-nba/"></intlink>
