@@ -2078,14 +2078,13 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 13 lundi ----------------------->
 <!---------------------- Cours 13 lundi ----------------------->
 <!---------------------- Cours 13 lundi ----------------------->
- <wiki-page name="Sem13.lundi" date="2024-11-25">
+ <wiki-page name="Sem13.lundi" date="2024-11-24">
     <grostitre>Quiz</grostitre>
     Groupe AM - <a href="https://app.wooclap.com/YPOYGS" target="_blank" rel="noopener noreferrer">Code Wooclap : YPOYGS</a>
     <br>
     Groupe PM - <a href="https://app.wooclap.com/RLQLNP" target="_blank" rel="noopener noreferrer">Code Wooclap : RLQLNP
     </a>
 
-  
     <dots></dots>
     <grostitre>Révision exercices sur les classes JavaScript</grostitre>
     <intlink href='../exercices/classe-mario-blocks'></intlink>
