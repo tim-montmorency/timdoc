@@ -2127,8 +2127,6 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
 
-
-
     <grostitre>Quiz Vue.js</grostitre>
     Groupe AM - <a href="https://app.wooclap.com/FAKOFM" target="_blank" rel="noopener noreferrer">Code Wooclap : FAKOFM</a>
     <br>
@@ -2141,14 +2139,14 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href="../exercices/vue-tableau-nba/"></intlink>
     <intlink href="../exercices/vue-cheese-kanye-says/"></intlink>
 
-    <dots></dots>
-    <grostitre>VUE.JS</grostitre>
 
+    <dots></dots>
+    <grostitre>Vue.js</grostitre>
     <intlink href="../javascript/vue-js/classes-css-dynamiques/"></intlink>
     <intlink href="../javascript/vue-js/condition-v-if/"></intlink>
     <intlink href="../javascript/vue-js/boucle/"></intlink> 
 
-
+    <alert>Les exercices d'aujourd'hui sont courts. Il est possible de les compléter en classe, à condition de rester concentré sur le cours, ce qui vous évitera des devoirs supplémentaires. Ces exercices vous permettront d'intégrer la matière sur Vue.js et, ultimement, de vous préparer pour l'examen dans deux semaines.</alert>
 
 
     <h3>Exercices 1 et 2</h3>
@@ -2161,7 +2159,10 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
     <dots></dots>
+    <grostitre>Vue.js (suite)</grostitre>
     <intlink href="../javascript/vue-js/elements-de-formulaire"></intlink>
+
+    <alert>Les exercices d'aujourd'hui sont courts. Il est possible de les compléter en classe, à condition de rester concentré sur le cours, ce qui vous évitera des devoirs supplémentaires. Ces exercices vous permettront d'intégrer la matière sur Vue.js et, ultimement, de vous préparer pour l'examen dans deux semaines.</alert>
 
     <!-- 3 <intlink href="../javascript/vue-js/proprietes-calculees"></intlink> -->
     <!-- TODO prep exercice simple pour formulaire -->
@@ -2222,16 +2223,20 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <p>Pratique examen : Sera envoyé sur Teams et je vous fournirai aussi le corrigé quelques jours plus tard.<br>
     Examen 18 déc à 11h00 pour tout le monde. Pour ceux qui sont concernés, faites vos demandes d'extension de temps au SAA maintenant! UPDATE GRÈVES: Je ne sais plus quand sera l'examen.</p>
 
+
+
+    <dots></dots>
     <grostitre>Quiz</grostitre>
     Lundi - <a href="https://app.wooclap.com/FDIZOX" target="_blank" rel="noopener noreferrer">Code Wooclap : FDIZOX</a>
     <br>
     Vendredi - <a href="#" target="_blank" rel="noopener noreferrer">Code Wooclap : 
     </a>
 
+
+
+
     <dots></dots>
-    <grostitre>VUE.JS</grostitre>
-
-
+    <grostitre>Vue.js (suite)</grostitre>
     <intlink href="../javascript/vue-js/composantes"></intlink>
     <!-- développer plus d'exemples et un exercice juste sur le principe -->
 
@@ -2249,6 +2254,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <dots></dots>
     <grostitre>Révision exercices</grostitre>
     <intlink href="../exercices/vue-composante-cartes/"></intlink>
+
+    
 
 
     <dots></dots>
