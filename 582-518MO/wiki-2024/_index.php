@@ -2029,8 +2029,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <exercice href="../exercices/vue-tableau-nba/"></exercice>
     <exercice href="../exercices/vue-cheese-kanye-says/"></exercice>
-    <!-- voir à utiliser ça comme exercice vue? http://127.0.0.1:5502/582-518MO/exercices/chevalier/index.html -->
-
+    
 
 
     <dots></dots>
@@ -2101,21 +2100,25 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
 
-    <dots></dots>   
+    <dots></dots>
     <grostitre>Devoirs</grostitre>
-    <h3>Terminer les 2 exercices Vue.js</h3>
-    À terminer au plus tard pour jeudi le 28 novembre.
-    <intlink href="../exercices/vue-tableau-nba/"></intlink>
-    <intlink href="../exercices/vue-cheese-kanye-says/"></intlink>
    
-
 
     <h3>Projet de session</h3>
     <p class="red-label">REMISE FINALE ET PRÉSENTATION DU PROJET DE SESSION JEUDI LE 12 DÉC.</p>
     <p>Terminez d'intégrer votre site du projet de session à Wordpress avec les techniques vues en classe. Pensez à faire votre QA (assurance qualité) au fur et à mesure. Finalisez le projet pour la remise finale jeudi dans 2 semaines (dernier cours de la session).</p>
 
-
  </wiki-page>
+
+
+
+
+
+
+
+
+
+
 
 <!---------------------- Cours 13 jeudi ----------------------->
 <!---------------------- Cours 13 jeudi ----------------------->
@@ -2129,14 +2132,10 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     </a>
 
 
-
+    <dots></dots>
     <grostitre>Révision exercices</grostitre>
     <intlink href="../exercices/vue-tableau-nba/"></intlink>
     <intlink href="../exercices/vue-cheese-kanye-says/"></intlink>
-
-
-    <!-- voir à utiliser ça comme exercice vue? http://127.0.0.1:5502/582-518MO/exercices/chevalier/index.html -->
-
 
     <dots></dots>
     <grostitre>VUE.JS</grostitre>
@@ -2145,33 +2144,56 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href="../javascript/vue-js/condition-v-if/"></intlink>
     <intlink href="../javascript/vue-js/boucle/"></intlink> 
 
-    <h3>Exercice</h3>
-    <intlink href="../exercices/vue-ouest-vs-est/"></intlink>
-    <!-- TODO Prep instruction Exercice - Gestion d'inventaire de film pour https://tim-montmorency.com/timdoc/582-518MO/javascript/vue-js/classes-css-dynamiques/ L'idée est tiré du tutoriel fr épisode ... sur https://www.youtube.com/watch?v=JUSjju1Y1Ds&list=PLjwdMgw5TTLVQgowwmhNCpXfHMfM9Jove&index=4 --> 
+
+
+
+    <h3>Exercices 1 et 2</h3>
+    <p>Liens fournis en classe</p>
+    <!-- 1 <intlink href="../exercices/vue-ouest-vs-est/"></intlink>-->
+
+    <!-- 2 <intlink href="../exercices/inventaire-films/"></intlink> -->
+    <!-- TODO Prep instruction Exercice - Gestion d'inventaire de film pour les classes dynamiques. L'idée est tiré du tutoriel épisode sur https://www.youtube.com/watch?v=JUSjju1Y1Ds&list=PLjwdMgw5TTLVQgowwmhNCpXfHMfM9Jove&index=4 --> 
+
 
 
     <dots></dots>
     <intlink href="../javascript/vue-js/elements-de-formulaire"></intlink>
+
+    <!-- 3 <intlink href="../javascript/vue-js/proprietes-calculees"></intlink> -->
     <!-- TODO prep exercice simple pour formulaire -->
 
-    <intlink href="../javascript/vue-js/proprietes-calculees"></intlink>
+    <h3>Exercice 3 et 4</h3>
+    <p>Lien fourni en classe</p>
+    <!-- 4 <intlink href="../exercices/vue-luchador/"></intlink>-->
 
-    <h3>Exercice</h3>
-    <intlink href="../exercices/vue-luchador/"></intlink>
+
+
+
 
 
     <dots></dots>   
     <grostitre>Devoirs</grostitre>
 
+    <h3>Terminer les 4 minis exercices Vue d'aujourd'hui</h3>
+    <p>À terminer au plus tard pour lundi le 2 décembre.</p>
+    <p>Liens fournis en classe.</p>
+   <!-- <intlink href="../exercices/vue-ouest-vs-est/"></intlink>
+
+
+    Inventaire films !!
+    <intlink href="../exercices/inventaire-films/"></intlink>
+
+
+    Exercice formulaire films !!
+    <intlink href="../exercices/form/"></intlink>
+
+
+    <intlink href="../exercices/vue-luchador/"></intlink> -->
+
+
     <h3>Projet de session</h3>
     <p class="red-label">REMISE FINALE ET PRÉSENTATION DU PROJET DE SESSION JEUDI LE 12 DÉC.</p>
     <p>Terminez d'intégrer votre site du projet de session à Wordpress avec les techniques vues en classe. Pensez à faire votre QA (assurance qualité) au fur et à mesure. Finalisez le projet pour la remise finale jeudi dans 2 semaines (dernier cours de la session).</p>
-
-    <h3>Exercices Vue.js</h3>
-    <p>Terminez les exercices débutés en classe.</p>
-
-
-
 
 </wiki-page>
 
