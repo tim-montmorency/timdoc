@@ -10,18 +10,40 @@
 ?>
 
 
-<grostitre>Classes dynamiques :class</grostitre>
-<p>Il est fréquent qu'une classe doit-être ajoutée ou retirée à un élément afin de refléter une action commise par un usager. Pour ce faire, Vue permet de passer un objet à un attribut. Cet objet doit contenir une propriété correspondant au nom de la classe souhaitée et comme valeur une donnée ou encore une expression. Ainsi, si cette valeur est évaluée à <incode>true</incode>, la classe est ajoutée et à l'opposée si elle est évaluée à <incode>false</incode> elle est retirée.</p>
+<grostitre>Classes CSS dynamiques :class</grostitre>
 
-<p>Par exemple, pour ajouter la classe <em>orange</em> lorsque la donnée <em>isOrange</em> est équivalente à <incode>true</incode>:</p>
+<p>Il est fréquent qu'une classe css doit-être ajoutée ou retirée à un élément HTML afin de changer son apparence pour refléter une action commise par un usager.<p>
+
+<p> Pour ce faire, Vue permet de passer un <em>objet JavaScript</em> <incode>{}</incode> à un <em>l'attribut dynamique</em> <span class='inline-code' style="white-space: nowrap;">v-bind:class</span>  ou <span class='inline-code'>:class</span> sur la balise. <br> Cet objet doit contenir une <em>propriété</em> correspondant au nom de la classe souhaitée et comme <em>valeur</em> une donnée ou encore une expression. Ainsi, si cette valeur est évaluée à <incode>true</incode>, la classe est ajoutée et à l'opposée si elle est évaluée à <incode>false</incode> elle est retirée.</p>
+
+<dots></dots>
+<p>Voici un exemple où est ajouté la classe <span class='inline-code'>.disabled</span> au bouton que lorsque la donnée <incode>isDisabled</incode> est équivalente à <incode>true</incode>: </p>
+<highlight lang='html'>
+    <button :class="{ disabled : isDisabled }"></button>
+</highlight>
+
+<highlight lang='css'>
+button {
+    background-color: var(--primary-color);
+}
+button.disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+</highlight>
+
+
+<dots></dots>
+<p>Autre exemple, pour ajouter la classe <incode>.orange</incode> lorsque la donnée <incode>isOrange</incode> est équivalente à <incode>true</incode>:</p>
 <highlight lang="html">&lt;img :src=&quot;picture&quot; :class=&quot;{orange: isOrange}&quot;&gt;</highlight>
 
 
 <br>
 <codepen id="mdaNLbB" tab="html,result" height="500"></codepen>
 
-<br>
-<p>Si une classe contenant des caractères spéciaux doit être ajoutée, il sera nécessaire de l'entourer de guillemets.</p>
+
+<h3>Nom de classe contenant des caractères spéciaux</h3>
+<p>Si un nom de classe CSS contient des caractères spéciaux, il sera nécessaire de l'entourer de guillemets.</p>
 
 <p>Par exemple, une classe avec un trait d'union:</p>
 <highlight lang="html">&lt;img :src=&quot;picture&quot; :class=&quot;{&#39;is-orange&#39;: isOrange}&quot;&gt;</highlight>
@@ -33,7 +55,7 @@
 
 <dots></dots>
 <grostitre>Multiple classes dynamiques</grostitre>
-<p>Puisqu'un objet est utilisé, il est possible d'ajouter plusieurs classes dynamiques simplement en les séparant par une virgule.</p>
+<p>Puisqu'un <em>objet JavaScript</em> <incode>{}</incode> est utilisé, il est possible d'ajouter plusieurs classes CSS dynamiques simplement en les séparant par une virgule.</p>
 <p>Par exemple:</p>
 
 <highlight lang="html">&lt;img :src=&quot;picture&quot; :class=&quot;{orange: isOrange, big: isBig}&quot;&gt;</highlight>
@@ -44,14 +66,18 @@
 <dots></dots>
 <grostitre>Combinaison avec des classes statiques</grostitre>
 
-<p>Si certaines classes doivent être statiques <em>(ne jamais changer)</em>, alors que certaines doivent être dynamiques <em>(pouvoir changer)</em>, il est nécessaire d'utiliser deux attributs <incode>class</incode>. Un 1<sup>er</sup> sans <incode>v-bind</incode> ou <incode>:</incode> pour les classes statiques et un 2<sup>e</sup> avec pour les classes dynamiques. Ces deux attributs seront ensuite combinés par Vue.</p>
+<p>Si certaines classes doivent être statiques <em>(ne jamais changer)</em>, alors que certaines doivent être dynamiques <em>(pouvoir changer)</em>, il est nécessaire d'utiliser deux attributs <incode>class</incode>. <br> Un 1<sup>er</sup> nommé simplement <span class='inline-code'>class=""</span> pour les classes statiques et un 2<sup>e</sup> avec sans <span class='inline-code' style="white-space: nowrap;">v-bind:class=""</span> ou <incode>:class=""</incode> pour les classes dynamiques. Ces deux attributs seront ensuite combinés par Vue.</p>
 
 <p>Par exemple:</p>
 <highlight lang="html">&lt;img :src=&quot;picture&quot; class=&quot;media&quot; :class=&quot;{orange: isOrange}&quot;&gt;</highlight>
 
 
-<p>Produira le code suivant si la valeur de <em>isOrange</em> est <incode>true</incode>:</p>
+<p>produira le code suivant si la valeur de <em>isOrange</em> est <incode>true</incode>:</p>
 <highlight lang="html">&lt;img src=&quot;willy-wonka-square.jpg&quot; class=&quot;media orange&quot;&gt;</highlight>
+
+<p>pu produira le code suivant si la valeur de <em>isOrange</em> est <incode>false</incode>:</p>
+<highlight lang="html">&lt;img src=&quot;willy-wonka-square.jpg&quot; class=&quot;media&quot;&gt;</highlight>
+
 
 <br><br>
 <doclink href="https://v3.vuejs.org/guide/class-and-style.html#class-and-style-bindings">Class &amp; Style Bindings</doclink>

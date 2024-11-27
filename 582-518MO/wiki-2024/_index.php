@@ -2009,7 +2009,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
             </ul>
         </li>
         <li> 
-           <a href="https://codepen.io/collection/kNQdop" target="_blank" rel="noopener noreferrer">J'ai commencé à regrouper quelques exemples de projet vue sur CodePen via une collection CodePen.</a> <br>
+           <a href="https://codepen.io/collection/kNQdop" target="_blank" rel="noopener noreferrer">Quelques exemples de projets Vue.js regroupés sur une collection CodePen.</a> <br>
           
         </li>
     </ul>
@@ -2091,12 +2091,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     Groupe PM - <a href="https://app.wooclap.com/RLQLNP" target="_blank" rel="noopener noreferrer">Code Wooclap : RLQLNP
     </a>
 
-    <dots></dots>
-    <grostitre>Révision exercices sur les classes JavaScript</grostitre>
-    <intlink href='../exercices/classe-mario-blocks'></intlink>
-    <intlink href='../exercices/classe-chats'></intlink>
-    <intlink href='../exercices/classe-space-invaders'></intlink>
-   
+  
 
     <dots></dots>
     <grostitre>Projet de session</grostitre>
@@ -2147,12 +2142,32 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     Groupe PM - <a href="https://app.wooclap.com/OTXGDT" target="_blank" rel="noopener noreferrer">Code Wooclap : OTXGDT
     </a>
 
+    <dots></dots>
+    <grostitre>Révision exercices sur les classes JavaScript</grostitre>
+    <intlink href='../exercices/classe-mario-blocks'></intlink>
+    <intlink href='../exercices/classe-chats'></intlink>
+    <intlink href='../exercices/classe-space-invaders'></intlink>
+   
+
 
     <dots></dots>
-    <grostitre>Révision exercices</grostitre>
+    <grostitre>Révision exercices Vue.js</grostitre>
     <intlink href="../exercices/vue-tableau-nba/"></intlink>
     <intlink href="../exercices/vue-cheese-kanye-says/"></intlink>
 
+
+    <dots></dots>
+    <grostitre>Showcase Vue.js</grostitre>
+    <ul>
+        <li><span class="red-label">AJOUT: </span> <a href="https://madewithvuejs.com/" target="_blank" rel="noopener noreferrer">Made with Vue.js</a></li>
+        <li>   
+           <a href="https://vuejsexamples.com/" target="_blank" rel="noopener noreferrer">Démos sur vuejsexamples.com</a>
+        </li>
+        <li> 
+           <a href="https://codepen.io/collection/kNQdop" target="_blank" rel="noopener noreferrer">Quelques exemples de projets Vue.js regroupés sur une collection CodePen.</a> <br>
+          
+        </li>
+    </ul>
 
     <dots></dots>
     <grostitre>Vue.js</grostitre>
