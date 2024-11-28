@@ -2141,7 +2141,6 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
     <dots></dots>
-
     <grostitre>Quiz Vue.js</grostitre>
     Groupe AM - <a href="https://app.wooclap.com/FAKOFM" target="_blank" rel="noopener noreferrer">Code Wooclap : FAKOFM</a>
     <br>

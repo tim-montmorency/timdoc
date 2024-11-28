@@ -14,10 +14,28 @@
 
 <p>Il est fréquent qu'une classe css doit-être ajoutée ou retirée à un élément HTML afin de changer son apparence pour refléter une action commise par un usager.<p>
 
-<p> Pour ce faire, Vue permet de passer un <em>objet JavaScript</em> <incode>{}</incode> à un <em>l'attribut dynamique</em> <span class='inline-code' style="white-space: nowrap;">v-bind:class</span>  ou <span class='inline-code'>:class</span> sur la balise. <br> Cet objet doit contenir une <em>propriété</em> correspondant au nom de la classe souhaitée et comme <em>valeur</em> une donnée ou encore une expression. Ainsi, si cette valeur est évaluée à <incode>true</incode>, la classe est ajoutée et à l'opposée si elle est évaluée à <incode>false</incode> elle est retirée.</p>
+<p> Pour ce faire, Vue permet de passer un <em>objet JavaScript</em> <incode>{}</incode> à un <em>l'attribut dynamique</em> <span class='inline-code' style="white-space: nowrap;">v-bind:class</span>  ou <span class='inline-code'>:class</span> sur la balise. <br> Cet objet doit contenir une <em>propriété</em> correspondant au nom de la classe souhaitée et comme <em>valeur</em> une donnée ou encore une expression. Ainsi si la condition suivie des <span class='inline-code'>:</span> retourne <incode>true</incode>, la classe est ajoutée.  Et à l'opposé, si elle est évaluée à <incode>false</incode> elle est retirée.</p>
 
 <dots></dots>
-<p>Voici un exemple où est ajouté la classe <span class='inline-code'>.disabled</span> au bouton que lorsque la donnée <incode>isDisabled</incode> est équivalente à <incode>true</incode>: </p>
+<p>Voici un exemple où est ajoutée la classe <span class='inline-code'>.majority</span> à une carte d'une personne lorsque la donnée <incode>age</incode> est plus grande ou égale à <incode>18</incode>: </p>
+<highlight lang='html'>
+    <img :class="{ majority : age >= 18 }" src="url-vers-image-del-a-personne.png">
+</highlight>
+
+<highlight lang='css'>
+img{
+    border: 1px solid gray;
+}
+img.majority{
+    border: 3px solid purple;
+}
+</highlight>
+
+
+<dots></dots>
+
+
+<p>Voici un exemple où est ajoutée la classe <span class='inline-code'>.disabled</span> au bouton que lorsque la donnée <incode>isDisabled</incode> est équivalente à <incode>true</incode>: </p>
 <highlight lang='html'>
     <button :class="{ disabled : isDisabled }"></button>
 </highlight>
@@ -39,6 +57,7 @@ button.disabled {
 
 
 <br>
+<small>Veuillez inspecter à la fois le HMTL et le JS dans le CodePen pour mieux comprendre la dynamique.</small>
 <codepen id="mdaNLbB" tab="html,result" height="500"></codepen>
 
 
@@ -83,10 +102,8 @@ button.disabled {
 <doclink href="https://v3.vuejs.org/guide/class-and-style.html#class-and-style-bindings">Class &amp; Style Bindings</doclink>
 
 <dots></dots>
-<h3>Exercice - Gestion d'inventaire de film</h3>
-<!--
-<img src="images/idee-exerc-gestion-inventaire-film01.jpg" alt="">
-<img src="images/idee-exerc-gestion-inventaire-film02.jpg" alt="">
- -->
+<h3>Exercice</h3>
+<exercice href="../../../exercices/vue-collection-films-1/"></exercice>
+
 
 
