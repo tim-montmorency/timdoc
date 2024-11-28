@@ -2170,35 +2170,48 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     </ul>
 
     <dots></dots>
-    <grostitre>Vue.js</grostitre>
+    <grostitre>Vue.js: Classes CSS dynamiques</grostitre>
     <intlink href="../javascript/vue-js/classes-css-dynamiques/"></intlink>
-    <intlink href="../javascript/vue-js/condition-v-if/"></intlink>
-    <intlink href="../javascript/vue-js/boucle/"></intlink> 
 
-    <alert>Les exercices d'aujourd'hui sont courts. Il est possible de les compléter en classe, à condition de rester concentré sur le cours, ce qui vous évitera des devoirs supplémentaires. Ces exercices vous permettront d'intégrer la matière sur Vue.js et, ultimement, de vous préparer pour l'examen dans deux semaines.</alert>
+    <h3>Exercice 1</h3>
+    <p>Lien fourni en classe</p>
+    <!-- Exercice 1 -->
+    <exercice href="../exercices/vue-collection-films-1/"></exercice>
 
+    <!--  Exercice film qui sera en plusieurs parties
+    L'idée est tiré du tutoriel épisode sur https://www.youtube.com/watch?v=JUSjju1Y1Ds&list=PLjwdMgw5TTLVQgowwmhNCpXfHMfM9Jove&index=4 
+       et 
+       https://vueschool.io/lessons/dynamic-css-classes-with-vue-3
+    -->
 
-    <h3>Exercices 1 et 2</h3>
-    <p>Liens fournis en classe</p>
-    <!-- 1 <intlink href="../exercices/vue-ouest-vs-est/"></intlink>-->
-
-    <!-- 2 <intlink href="../exercices/inventaire-films/"></intlink> -->
-    <!-- TODO Prep instruction Exercice - Gestion d'inventaire de film pour les classes dynamiques. L'idée est tiré du tutoriel épisode sur https://www.youtube.com/watch?v=JUSjju1Y1Ds&list=PLjwdMgw5TTLVQgowwmhNCpXfHMfM9Jove&index=4 --> 
 
 
 
     <dots></dots>
-    <grostitre>Vue.js (suite)</grostitre>
+    <grostitre>Vue.js: conditions (v-if) et boucle (v-for)</grostitre>
+    <intlink href="../javascript/vue-js/condition-v-if/"></intlink>
+    <intlink href="../javascript/vue-js/boucle/"></intlink> 
+
+    <h3>Exercice 2</h3>
+    <p>Lien fourni en classe</p>
+    <!-- Exercice 2 -->
+    <exercice href="../exercices/vue-ouest-vs-est/"></exercice>
+
+
+
+
+
+    <dots></dots>
+    <grostitre>Vue.js: éléments de formulaire et propriété calculée</grostitre>
     <intlink href="../javascript/vue-js/elements-de-formulaire"></intlink>
 
-    <alert>Les exercices d'aujourd'hui sont courts. Il est possible de les compléter en classe, à condition de rester concentré sur le cours, ce qui vous évitera des devoirs supplémentaires. Ces exercices vous permettront d'intégrer la matière sur Vue.js et, ultimement, de vous préparer pour l'examen dans deux semaines.</alert>
+    <intlink href="../javascript/vue-js/proprietes-calculees"></intlink>
+  
 
-    <!-- 3 <intlink href="../javascript/vue-js/proprietes-calculees"></intlink> -->
-    <!-- TODO prep exercice simple pour formulaire -->
-
-    <h3>Exercice 3 et 4</h3>
+    <h3>Exercice 3</h3>
     <p>Lien fourni en classe</p>
-    <!-- 4 <intlink href="../exercices/vue-luchador/"></intlink>-->
+    <!-- Exercice 3 -->
+    <exercice href="../exercices/vue-luchador/"></exercice>
 
 
 
@@ -2208,20 +2221,12 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <dots></dots>   
     <grostitre>Devoirs</grostitre>
 
-    <h3>Terminer les 4 minis exercices Vue d'aujourd'hui</h3>
+    <h3>Terminer les 3 petits exercices Vue d'aujourd'hui</h3>
     <p>À terminer au plus tard pour lundi le 2 décembre.</p>
-    <p>Liens fournis en classe.</p>
-   <!-- <intlink href="../exercices/vue-ouest-vs-est/"></intlink>
-
-
-    Inventaire films !!
-    <intlink href="../exercices/inventaire-films/"></intlink>
-
-
-    Exercice formulaire films !!
-    <intlink href="../exercices/form/"></intlink>
-
-
+    <p>Les 3 liens sont fournis en classe.</p>
+   <!-- 
+    <intlink href="../exercices/exercices/vue-collection-films-1/"></intlink>
+    <intlink href="../exercices/vue-ouest-vs-est/"></intlink>
     <intlink href="../exercices/vue-luchador/"></intlink> -->
 
 
