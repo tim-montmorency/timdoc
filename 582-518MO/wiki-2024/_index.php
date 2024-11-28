@@ -2216,7 +2216,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <h3>Exercice 3</h3>
     <p>Lien fourni en classe</p>
     <!-- Exercice 3 -->
-    <exercice href="../exercices/vue-luchador/"></exercice>
+    <!--  <exercice href="../exercices/vue-luchador/"></exercice> -->
 
 
 
@@ -2225,13 +2225,12 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <dots></dots>   
     <grostitre>Devoirs</grostitre>
 
-    <h3>Terminer les 3 petits exercices Vue d'aujourd'hui</h3>
+    <h3>Terminer les 2 petits exercices Vue d'aujourd'hui</h3>
     <p>À terminer au plus tard pour lundi le 2 décembre.</p>
-    <p>Les 3 liens sont fournis en classe.</p>
  
-    <intlink href="../exercices/exercices/vue-collection-films-1/"></intlink>
+    <intlink href="../exercices/vue-collection-films-1/"></intlink>
     <intlink href="../exercices/vue-ouest-vs-est/"></intlink>
-    <intlink href="../exercices/vue-luchador/"></intlink> 
+   <!-- <intlink href="../exercices/vue-luchador/"></intlink> -->
 
 
     <h3>Projet de session</h3>
