@@ -33,11 +33,15 @@
 
 <grostitre>Requis classes dynamiques</grostitre>
 <checklist>
-    Créez une autre donnée Vue <span class='inline-code'>currentYear</span> qui stockera l'année courante. Recherchez sur le web pour savoir comment récupérer la donnée de l'année en cours.
-    Créez une donnée booléenne <span class='inline-code'>isCurrentYear</span> initialisée à <span class='inline-code'>false</span> puisque l'année de départ <span class='inline-code'>2022</span> n'est pas égale à l'année courante <span class='inline-code'>currentYear</span> qui est <?php echo date('Y'); ?>.
-    Finalement, à l'aide de classe dynamique sur les <span class='inline-code'>li</span>, ajoutez ou supprimez la classe <span class='inline-code'>.selectedYear</span> en fonction de l'année présentée dans la section <em>Quelle&nbsp;année&nbsp;de&nbsp;sortie?</em>
+    À l'aide de classe dynamique sur les <span class='inline-code'>li</span>, ajoutez ou supprimez la classe <span class='inline-code'>.selectedYear</span> en fonction de l'année présentée dans la section <em>Quelle&nbsp;année&nbsp;de&nbsp;sortie?</em>
     Faites attention de conserver la <span class='inline-code'>.classe-static</span> qui s'y trouve déjà.
-    
+</checklist>
+
+<grostitre>Requis pour limiter le bouton [+] à l'année courante</grostitre>
+<checklist>Créez une autre donnée Vue <span class='inline-code'>currentYear</span> qui stockera l'année courante. Recherchez sur le web pour savoir comment récupérer la donnée de l'année en cours.
+Créez une donnée booléenne <span class='inline-code'>isCurrentYear</span> initialisée à <span class='inline-code'>false</span> puisque l'année de départ <span class='inline-code'>2022</span> n'est pas égale à l'année courante <span class='inline-code'>currentYear</span> qui est <?php echo date('Y'); ?>.
+À chaque clic du bouton [+], vérifiez si l'année montrée dans la section <em>Quelle&nbsp;année&nbsp;de&nbsp;sortie?</em> est égale à l'année courante, si tel est le cas, changez la valeur de isCurrentYear à true.
+Ajoutez la classe <span class='inline-code'>.disabled</span> au bouton [+] lorsque <span class='inline-code'>isCurrentYear</span> est à <span class='inline-code'>true</span>.
 </checklist>
 
 
