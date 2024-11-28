@@ -2130,7 +2130,13 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <p>Examen final (classes JavaScript et Vue.js), lundi le 9 décembre.</p>
     <p>Remise et présentation finale du Projet de session (PS) le jeudi 12 décembre.</p>
 
-    <alert>Pour l'examen, ceux qui ont besoinde faire une demande au SAA, lundi est la date limite!</alert>
+    <warning><br>
+        Pour l'examen du lundi 9 décembre, ceux ont un assouplissement au niveau du temps, si vous êtes dans le cours de Guillaume le lundi, il m'a laissé savoir que vous n'avez pas de cours fixe mais du temps pour travailler en classe donc cette flexibilité vous permet :
+        <ul>
+            <li>pour le groupe du lundi AM: de quitter plus tard après 13h25 pour compléter votre examen selon ce qui vous est accordé comme assouplissement</li>
+            <li>pour le groupe du lundi PM: d'arriver en classe plus tôt pour débuter votre examen en avance (veuillez cependant gérer votre temps pour vous assurer de dîner plus tôt et pour arriver en classe bien nourri).</li>
+        </ul>
+    </warning>
 
 
 
@@ -2139,7 +2145,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <grostitre>Quiz Vue.js</grostitre>
     Groupe AM - <a href="https://app.wooclap.com/FAKOFM" target="_blank" rel="noopener noreferrer">Code Wooclap : FAKOFM</a>
     <br>
-    Groupe PM - <a href="https://app.wooclap.com/BOHOMB" target="_blank" rel="noopener noreferrer">Code Wooclap : BOHOMB
+    Groupe PM - <a href="https://app.wooclap.com/ICJMFT" target="_blank" rel="noopener noreferrer">Code Wooclap : ICJMFT
     </a>
 
     <dots></dots>
@@ -2258,7 +2264,15 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <p>Examen final (classes JavaScript et Vue.js), lundi le 9 décembre.</p>
     <p>Remise et présentation finale du Projet de session (PS) le jeudi 12 décembre.</p>
 
-    <alert>Pour l'examen, ceux qui ont besoinde faire une demande au SAA, aujourd'hui est la date limite!</alert>
+
+    <warning><br>
+        Pour l'examen du lundi 9 décembre, ceux ont un assouplissement au niveau du temps, si vous êtes dans le cours de Guillaume le lundi, il m'a laissé savoir que vous n'avez pas de cours fixe mais du temps pour travailler en classe donc cette flexibilité vous permet :
+        <ul>
+            <li>pour le groupe du lundi AM: de quitter plus tard après 13h25 pour compléter votre examen selon ce qui vous est accordé comme assouplissement</li>
+            <li>pour le groupe du lundi PM: d'arriver en classe plus tôt pour débuter votre examen en avance (veuillez cependant gérer votre temps pour vous assurer de dîner plus tôt et pour arriver en classe bien nourri).</li>
+        </ul>
+    </warning>
+
 
     <dots></dots>
     <grostitre>Quiz</grostitre>
@@ -2333,6 +2347,16 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <grostitre>Rappel</grostitre>
     <p>Examen final (classes JavaScript et Vue.js), lundi le 9 décembre.</p>
     <p>Remise et présentation finale du Projet de session (PS) le jeudi 12 décembre.</p>
+
+
+    <warning><br>
+        Pour l'examen du lundi 9 décembre, ceux ont un assouplissement au niveau du temps, si vous êtes dans le cours de Guillaume le lundi, il m'a laissé savoir que vous n'avez pas de cours fixe mais du temps pour travailler en classe donc cette flexibilité vous permet :
+        <ul>
+            <li>pour le groupe du lundi AM: de quitter plus tard après 13h25 pour compléter votre examen selon ce qui vous est accordé comme assouplissement</li>
+            <li>pour le groupe du lundi PM: d'arriver en classe plus tôt pour débuter votre examen en avance (veuillez cependant gérer votre temps pour vous assurer de dîner plus tôt et pour arriver en classe bien nourri).</li>
+        </ul>
+    </warning>
+
 
 
     <dots></dots>
