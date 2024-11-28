@@ -2176,7 +2176,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <h3>Exercice 1</h3>
     <p>Lien fourni en classe</p>
     <!-- Exercice 1 -->
-    <exercice href="../exercices/vue-collection-films-1/"></exercice>
+     <!-- <exercice href="../exercices/vue-collection-films-1/"></exercice>-->
 
     <!--  Exercice film qui sera en plusieurs parties
     L'idée est tiré du tutoriel épisode sur https://www.youtube.com/watch?v=JUSjju1Y1Ds&list=PLjwdMgw5TTLVQgowwmhNCpXfHMfM9Jove&index=4 
@@ -2195,7 +2195,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <h3>Exercice 2</h3>
     <p>Lien fourni en classe</p>
     <!-- Exercice 2 -->
-    <exercice href="../exercices/vue-ouest-vs-est/"></exercice>
+    <!--  <exercice href="../exercices/vue-ouest-vs-est/"></exercice>-->
 
 
 
@@ -2211,7 +2211,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <h3>Exercice 3</h3>
     <p>Lien fourni en classe</p>
     <!-- Exercice 3 -->
-    <exercice href="../exercices/vue-luchador/"></exercice>
+     <!-- <exercice href="../exercices/vue-luchador/"></exercice>-->
 
 
 
@@ -2298,15 +2298,15 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <p>Demain mardi, au trou à l'horaire, il y aura un groupe d'étude pour se préparer à l'examen. Un tuteur (Maïk Hamel) sera sur place. Possiblement que Justine Rousseau aussi puisqu'elle fait déjà du tutorat au l'horaire.</p>
 
-    <p>Ces pratique d'examen sont facultatives, vous faite les exercices si vous croyez que cela peut vous aider à réviser. Au prochain cours ce jeudi, je pourrai réviser celui de Vue.js (sushi) avec vous et répondre à vos questions sur le sujet. Celui des classe JS (Duck Hunt) ne sera pas révisé en classe.</p>
+    <p>Cette pratique d'examen est facultative, vous le faites si vous croyez que cela peut vous aider à réviser. Au prochain cours ce jeudi, je pourrai le réviser avec vous et répondre à vos questions sur le sujet. </p>
 
     <h3>Exercice couvrant la notion de Vue.js</h3>
     <span class="red-label">Facultatif mais fortement recommandé</span>
-    <intlink href="../exercices/vue-sushis/"></intlink>
+    <!--À ajouter... -->
 
-    <h3>Exercice couvrant la notion de classe JS</h3>
+   <!-- <h3>Exercice couvrant la notion de classe JS</h3>
     <span class="red-label">Si les classes JavaScript vous semblaient du nouveau contenu cette session, il serait intéressant que vous plongiez dans cet exercice.</span> <br> <br>
-    <doclink href='https://smnarnold.com/projets/duck-hunt/introduction'>Classe JavaScript - Duck Hunt</doclink>
+    <doclink href='https://smnarnold.com/projets/duck-hunt/introduction'>Classe JavaScript - Duck Hunt</doclink>-->
 
 
 
@@ -2318,7 +2318,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <p>Terminez d'intégrer votre site du projet de session à Wordpress avec les techniques vues en classe. Pensez à faire votre QA (assurance qualité) au fur et à mesure. Finalisez le projet pour la remise finale jeudi dans 2 semaines (dernier cours de la session).</p>
 
     <h3>Pratiques d'examen</h3>
-    <p>Facultatifs. Sushis pour Vue.js et Duck Hunt pour les classes JavaScript</p>
+    <p>Facultatifs. Pratique VUs (à confirmer) et Duck Hunt pour les classes JavaScript</p>
 
 
  </wiki-page>
@@ -2337,7 +2337,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <dots></dots>
     <grostitre>Révision</grostitre>
-    <p>Révision sushi en classe ou partage du fichier</p>
+    <p>Révision pratique d'examen en classe ou partage du fichier</p>
 
 
     <dots></dots>
