@@ -92,6 +92,34 @@
 <mediafile src="https://ex.smnarnold.com/vue/chevalier/cuissard.png">cuissard</mediafile>
 
 
+<highlight lang="javascript">/*** D&Eacute;BUT requis JAVASCRIPT G&Eacute;N&Eacute;RAL #1 ***/ 
+console.log(&#039;Bienvenue JavaScript&#039;);
+/**** FIN requis JAVASCRIPT G&Eacute;N&Eacute;RAL #1 ****/</highlight>
+
+       
+<dots></dots>
+<grostitre>Requis Vue</grostitre>
+
+<alert>Dans votre code, vous devez obligatoirement ajouter une ligne de commentaire de début et de fin pour définir à quelle étape des requis le bloc de code correspond. Voici un exemple:</alert>
+
+<highlight lang="javascript">/*** D&Eacute;BUT requis VUE.JS #1 ***/ 
+console.log(&#039;Bienvenue VUE.js&#039;);
+/**** FIN requis VUE.JS #1 ****/</highlight>
+
+<checklist>Importez le cadriciel Vue via CDN dans le projet et connectez votre app Vue au HTML. Attention de bien importer la version 3.
+Générer l'aperçu de chaque pièce d'armure <em>(casque, plastron et cuissard)</em> via une boucle Vue se basant sur les informations disponibles dans les données fournies. 
+Lorsque cliqué, l'aperçu d'une pièce d'armure doit se faire ajouter la classe <em>"is-active"</em> changeant ainsi son apparence <em>(voir les requis CSS)</em>. Ceci devra être syncronisé avec la propriété booléenne <em>wearing</em> déjà existante.
+Utilisez des propriétés calculées afin d'afficher en temps réel le nombre de points de défense ainsi que le poids total des pièces d'armure lorsqu'elles sont ajoutées/retirées. Attention, seules les pièces ajoutées permettent d'obtenir des points de défense et compte dans le poids total.
+Utilisez une propriété calculée se basant sur le nombre de points de défense du joueur afin d'afficher l'image du chevalier appropriée. <br><br>Par exemple, lorsque le joueur à 0 point de défense, l'image <span class="inline-code">https://ex.smnarnold.com/vue/chevalier/0.png</span>, où le chevalier n'a aucune pièce d'armure, devrait être affiché. <br><br>À l'opposée, si le chevalier à 7 points de défense, l'image avec l'armure complète <span class="inline-code">https://ex.smnarnold.com/vue/chevalier/7.png</span> devrait être affichée.
+Faites en sorte que le nom inséré dans le champ texte se synchronise avec la donnée <em>name</em> et s'affiche sous la mention <em>chevalier</em>.</checklist>
+
+<warning>Des noms longs pourraient briser l’affichage. C’est normal. Tenez-vous en a des noms courts, tel que: Steve, Paul, Karl&nbsp;etc.</warning>
+
+
+
+
+
+
 <dots></dots>
 <grostitre>Requis CSS</grostitre>
 
@@ -115,48 +143,6 @@ Affichez les textes <em>"Defense"</em>, <em>"Poids"</em> et <em>"Chevalier"</em>
 Ajoutez l'image 0 du personnage et faites en sorte que celle-ci soit centrée et prenne 3 colonnes de large.
 À l'intérieur des 3 avant-dernières cellules, affichez les images du casque, du plastron et du cuissard. Lorsque ces images reçoivent la classe <em>"is-active"</em>, leur opacité doit diminuer de moitié et leur taille doit réduire à un équivalent de 80%.
 Finalement, la dernière rangée contiendra un div avec la classe .fox. Ce div devra prendre une largeur équivalente à 3 colonnes. Ajouter une hauteur maximal de 200px sur ce div et faite en sorte que s'il y a du contenu qui dépasse du div, il soit caché.</checklist>
-
-<dots></dots>
-<grostitre>Requis JavaScript général</grostitre>
-
-<alert>Dans votre code, vous devez obligatoirement ajouter une ligne de commentaire de début et de fin pour définir à quelle étape des requis le bloc de code correspond. Voici un exemple:</alert>
-
-<highlight lang="javascript">/*** D&Eacute;BUT requis JAVASCRIPT G&Eacute;N&Eacute;RAL #1 ***/ 
-console.log(&#039;Bienvenue JavaScript&#039;);
-/**** FIN requis JAVASCRIPT G&Eacute;N&Eacute;RAL #1 ****/</highlight>
-
-<checklist>Au chargement de la page, faites un fetch sur l'API <em>RandomFox</em> au url suivant: <em>https://randomfox.ca/floof/</em>.
-Lorsque vous recevez une réponse, analysez l'objet et affchez l'image reçu dans le <em>div.fox</em>.
-</checklist>
-<!-- ATTENTION, S'IL FONT FETCH API JE DOIS ENVOYER LE URL DU FETCH AU SAA POUR LES ÉTUDIANTS -->
-
-<!-- https://medium.com/codex/15-fun-and-interesting-apis-to-use-for-your-next-coding-project-in-2022-86a4ff3a2742 
-https://www.twilio.com/blog/cool-apis
-
-https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/
-
--->
-
-       
-<dots></dots>
-<grostitre>Requis Vue</grostitre>
-
-<alert>Dans votre code, vous devez obligatoirement ajouter une ligne de commentaire de début et de fin pour définir à quelle étape des requis le bloc de code correspond. Voici un exemple:</alert>
-
-<highlight lang="javascript">/*** D&Eacute;BUT requis VUE.JS #1 ***/ 
-console.log(&#039;Bienvenue VUE.js&#039;);
-/**** FIN requis VUE.JS #1 ****/</highlight>
-
-<checklist>Importez le cadriciel Vue via CDN dans le projet et connectez votre app Vue au HTML. Attention de bien importer la version 3.
-Générer l'aperçu de chaque pièce d'armure <em>(casque, plastron et cuissard)</em> via une boucle Vue se basant sur les informations disponibles dans les données fournies. 
-Lorsque cliqué, l'aperçu d'une pièce d'armure doit se faire ajouter la classe <em>"is-active"</em> changeant ainsi son apparence <em>(voir les requis CSS)</em>. Ceci devra être syncronisé avec la propriété booléenne <em>wearing</em> déjà existante.
-Utilisez des propriétés calculées afin d'afficher en temps réel le nombre de points de défense ainsi que le poids total des pièces d'armure lorsqu'elles sont ajoutées/retirées. Attention, seules les pièces ajoutées permettent d'obtenir des points de défense et compte dans le poids total.
-Utilisez une propriété calculée se basant sur le nombre de points de défense du joueur afin d'afficher l'image du chevalier appropriée. <br><br>Par exemple, lorsque le joueur à 0 point de défense, l'image <span class="inline-code">https://ex.smnarnold.com/vue/chevalier/0.png</span>, où le chevalier n'a aucune pièce d'armure, devrait être affiché. <br><br>À l'opposée, si le chevalier à 7 points de défense, l'image avec l'armure complète <span class="inline-code">https://ex.smnarnold.com/vue/chevalier/7.png</span> devrait être affichée.
-Faites en sorte que le nom inséré dans le champ texte se synchronise avec la donnée <em>name</em> et s'affiche sous la mention <em>chevalier</em>.</checklist>
-
-<warning>Des noms longs pourraient briser l’affichage. C’est normal. Tenez-vous en a des noms courts, tel que: Steve, Paul, Karl&nbsp;etc.</warning>
-
-
 
 
 
