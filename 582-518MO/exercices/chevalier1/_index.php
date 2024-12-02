@@ -46,9 +46,9 @@
 <mediafile src="https://ex.smnarnold.com/vue/chevalier/cuissard.png">cuissard</mediafile>
 
 
-<highlight lang="javascript">/*** DÉBUT requis JAVASCRIPT GÉNÉRAL #1 ***/ 
+<highlight lang="javascript">/*** DÉBUT requis Vue ***/ 
 console.log('Bienvenue JavaScript');
-/**** FIN requis JAVASCRIPT GÉNÉRAL #1 ****/</highlight>
+/**** FIN requis Vue ****/</highlight>
 
        
 <dots></dots>
@@ -61,7 +61,7 @@ console.log('Bienvenue VUE.js');
 /**** FIN requis VUE.JS #1 ****/</highlight>
 
 <checklist>Importez le cadriciel Vue via CDN dans le projet et connectez votre app Vue au HTML. Attention de bien importer la version 3.
-Générer l'aperçu de chaque pièce d'armure <em>(casque, plastron et cuissard)</em> via une boucle Vue se basant sur les informations disponibles dans les données fournies. 
+Générez l'aperçu de chaque pièce d'armure <em>(casque, plastron et cuissard)</em> via une boucle Vue se basant sur les informations disponibles dans les données fournies. 
 Lorsque cliqué, l'aperçu d'une pièce d'armure doit se faire ajouter la classe <em>"is-active"</em> changeant ainsi son apparence <em>(voir les requis CSS)</em>. Ceci devra être syncronisé avec la propriété booléenne <em>wearing</em> déjà existante.
 Utilisez des propriétés calculées afin d'afficher en temps réel le nombre de points de défense ainsi que le poids total des pièces d'armure lorsqu'elles sont ajoutées/retirées. Attention, seules les pièces ajoutées permettent d'obtenir des points de défense et compte dans le poids total.
 Utilisez une propriété calculée se basant sur le nombre de points de défense du joueur afin d'afficher l'image du chevalier appropriée. <br><br>Par exemple, lorsque le joueur à 0 point de défense, l'image <incode>https://ex.smnarnold.com/vue/chevalier/0.png</incode>, où le chevalier n'a aucune pièce d'armure, devrait être affiché. <br><br>À l'opposée, si le chevalier à 7 points de défense, l'image avec l'armure complète <incode>https://ex.smnarnold.com/vue/chevalier/7.png</incode> devrait être affichée.
