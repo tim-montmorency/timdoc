@@ -9,7 +9,7 @@
  */
 ?>
 
-<p>Les composantes sont une partie importante de Vue. Ils permettent de créer des sites complexes à l’aide de composantes autonomes pouvant être réutilisables.</p>
+<p>Les composantes sont une partie importante de Vue. Ils permettent de créer des sites complexes ou ,ême des applications web à l’aide de composantes autonomes pouvant être réutilisables.</p>
 
 <grostitre>Définir une composante</grostitre>
 

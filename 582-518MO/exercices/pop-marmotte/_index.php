@@ -16,4 +16,4 @@
 
 <dots></dots>
 <grostitre>Requis</grostitre>
-<checklist>x</checklist>         
+<checklist>Créez une app vue.</checklist>         

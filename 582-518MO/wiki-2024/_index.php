@@ -2285,6 +2285,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <grostitre>Vue.js (suite)</grostitre>
     <intlink href="../javascript/vue-js/composantes"></intlink>
     <!-- développer plus d'exemples et un exercice juste sur le principe -->
+    <exercice href="../exercices/vue-composante-cartes/"></exercice>
 
 
     
