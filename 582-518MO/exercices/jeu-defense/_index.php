@@ -49,9 +49,6 @@
 <mediafile src="images/plastron.png">plastron</mediafile>
 <mediafile src="images/cuissard.png">cuissard</mediafile>
 
-
-
-       
 <dots></dots>
 <grostitre>Requis Vue</grostitre>
 
@@ -107,3 +104,4 @@ Ajoutez l'image 0 du personnage et faites en sorte que celle-ci soit centrée et
 <checklist>Renommez votre dossier de travail 📁 au format&nbsp;suivant:<br><incode>[nom de famille]_[prénom]-exa47</incode><br>ex: <em>mariemichelle-ouellet</em>
 Compressez ensuite votre dossier de travail en <a href="https://www.ezyzip.com/" target="_blank" rel="noopener noreferrer">fichier&nbsp;zip 🗜</a>
 Remettez votre fichier .zip dans le "Devoir" correspndant sur Teams.</checklist>
+.
