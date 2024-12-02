@@ -2273,9 +2273,9 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <dots></dots>
     <grostitre>Quiz</grostitre>
-    Lundi - <a href="https://app.wooclap.com/FDIZOX" target="_blank" rel="noopener noreferrer">Code Wooclap : FDIZOX</a>
+    Lundi - <a href="https://app.wooclap.com/XPFOCZ?" target="_blank" rel="noopener noreferrer">Code Wooclap : XPFOCZ</a>
     <br>
-    Vendredi - <a href="#" target="_blank" rel="noopener noreferrer">Code Wooclap : 
+    Vendredi - <a href="https://app.wooclap.com/RFSOST" target="_blank" rel="noopener noreferrer">Code Wooclap : RFSOST
     </a>
 
 
