@@ -2255,7 +2255,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 
 
- <wiki-page name="Sem14.lundi" date="2024-12-02">
+ <wiki-page name="Sem14.lundi" date="2024-12-01">
 
     <grostitre>Rappel</grostitre>
     <p>Examen final (classes JavaScript et Vue.js), lundi le 9 décembre.</p>
@@ -2339,7 +2339,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 14 jeudi ----------------------->
 <!---------------------- Cours 14 jeudi ----------------------->
 <!---------------------- Cours 14 jeudi ----------------------->
-<wiki-page name="Sem14.jeudi" date="2024-12-5">
+<wiki-page name="Sem14.jeudi" date="2024-12-03">
 
     <grostitre>Rappel</grostitre>
     <p>Examen final (classes JavaScript et Vue.js), lundi le 9 décembre.</p>
@@ -2385,8 +2385,10 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
  \_____\___/ \__,_|_|  |___/  |_|____/ 
                                                                       
  ----------------------------------->  
-
- <wiki-page name="Sem15.lundi" date="2024-12-09">
+<!---------------------- Cours 15 lundi ----------------------->
+<!---------------------- Cours 15 lundi ----------------------->
+<!---------------------- Cours 15 lundi ----------------------->
+ <wiki-page name="Sem15.lundi" date="2024-12-03">
     <grostitre>Examen</grostitre>
     <p>Sujet: Les classes JavaScript et Vue.js</p>
 
@@ -2396,7 +2398,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 15 jeudi ----------------------->
 <!---------------------- Cours 15 jeudi ----------------------->
 <!---------------------- Cours 15 jeudi ----------------------->
-<wiki-page name="Sem15.jeudi" date="2024-12-12">
+<wiki-page name="Sem15.jeudi" date="2024-12-03">
 
     <grostitre> Présentations du projet de session</grostitre>
 
