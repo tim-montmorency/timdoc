@@ -2179,7 +2179,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href="../javascript/vue-js/classes-css-dynamiques/"></intlink>
 
     <h3>Exercice 1</h3>
-    <p>Lien fourni en classe</p>
+  
     <!-- Exercice 1 -->
      <exercice href="../exercices/vue-collection-films-1/"></exercice>
 
@@ -2198,25 +2198,12 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href="../javascript/vue-js/boucle/"></intlink> 
 
     <h3>Exercice 2</h3>
-    <p>Lien fourni en classe</p>
+  
     <!-- Exercice 2 -->
     <exercice href="../exercices/vue-ouest-vs-est/"></exercice>
 
 
 
-
-
-    <dots></dots>
-    <grostitre>Vue.js: éléments de formulaire et propriété calculée</grostitre>
-    <intlink href="../javascript/vue-js/elements-de-formulaire"></intlink>
-
-    <intlink href="../javascript/vue-js/proprietes-calculees"></intlink>
-  
-
-    <h3>Exercice 3</h3>
-    <p>Lien fourni en classe</p>
-    <!-- Exercice 3 -->
-    <!--  <exercice href="../exercices/vue-luchador/"></exercice> -->
 
 
 
@@ -2279,28 +2266,44 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     </a>
 
 
+    <dots></dots>
+    <grostitre>Vue.js: éléments de formulaire et propriété calculée</grostitre>
+    <intlink href="../javascript/vue-js/elements-de-formulaire"></intlink>
+
+    <intlink href="../javascript/vue-js/proprietes-calculees"></intlink>
+  
+
+    <h3>Exercice 1</h3>
+    <p>Lien fourni en classe</p>
+    <!-- Exercice 1 -->
+    <!--  <exercice href="../exercices/vue-luchador/"></exercice> -->
+
+
+
+
 
 
     <dots></dots>
-    <grostitre>Vue.js (suite)</grostitre>
+    <grostitre>Vue.js - Composante et SFC</grostitre>
     <intlink href="../javascript/vue-js/composantes"></intlink>
-    <!-- développer plus d'exemples et un exercice juste sur le principe -->
-    <exercice href="../exercices/vue-composante-cartes/"></exercice>
-
 
     
     <intlink href="../javascript/vue-js/sfc/"></intlink>
-    <intlink href='../../../compendium/582-511%E2%80%93web5/vue/installation.html'></intlink>
+
+    <h3>Exercice 2</h3>
+    <p>Lien partagé en classe</p>
+    <!--<exercice href="../exercices/vue-composante-cartes/"></exercice>-->
+
+    <!-- développer plus d'exemples et un exercice juste sur le principe -->
+   <!-- <intlink href='../../../compendium/582-511%E2%80%93web5/vue/installation.html'></intlink>-->
+
+
+
     <!--
-    <doclink href='https://tim-montmorency.com/compendium/582-511%E2%80%93web5/vue/installation.html'>Installation de Vue via NPM et Vite qui contient un compilateur automatique de SFC.</doclink>
-
-    <p>Exercices partagés en classe</p>-->
+    <doclink href='https://tim-montmorency.com/compendium/582-511%E2%80%93web5/vue/installation.html'>Installation de Vue via NPM et Vite qui contient un compilateur automatique de SFC.</doclink>-->
 
 
 
-    <dots></dots>
-    <grostitre>Révision exercices</grostitre>
-    <intlink href="../exercices/vue-composante-cartes/"></intlink>
 
     
 
@@ -2312,8 +2315,8 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <p>Cette pratique d'examen est facultative, vous le faites si vous croyez que cela peut vous aider à réviser. Au prochain cours ce jeudi, je pourrai le réviser avec vous et répondre à vos questions sur le sujet. </p>
 
-    <h3>Exercice couvrant la notion de Vue.js</h3>
-    <span class="red-label">Facultatif mais vous aidera à réviser.</span>
+    <p>Lien partagé en classe</p>
+
     <!--À ajouter... -->
 
    <!-- <h3>Exercice couvrant la notion de classe JS</h3>
@@ -2358,6 +2361,10 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <dots></dots>
     <grostitre>Révision</grostitre>
+    <intlink href="../exercices/vue-luchador/"></intlink> 
+
+    <intlink href="../exercices/vue-composante-cartes/"></intlink>
+
     <p>Révision pratique d'examen en classe ou partage du fichier</p>
 
 
