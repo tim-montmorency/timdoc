@@ -69,7 +69,7 @@
 <checklist>Faites en sorte que l'image de brique se répète en arrière-plan de votre page 🧱.
 Ajoutez la police <a target="_blank" rel="noopener noreferrer" href="https://fonts.google.com/specimen/Press+Start+2P">Press Start 2P</a>, seulement de graisse "régulière", à votre page. Utilisez la comme police par défaut pour tous vos textes. Au passage faites en sorte qu'ils soient tous centrés, aille une taille de 10px et qu'ils soient blanc par défaut.
 Créez la zone principale de votre interface. Celle-ci devra être centrée horizontalement ↔️ et verticalement ↕️, avoir un fond noir, une marge intérieure de 25px, une bordure de 15px brune et une largeur de 450px <em>(incluant la marge intérieure et la bordure)</em>.
-La zone principale de votre interface doit être une grille CSS de 3 colonnes de large par 5 rangées de haut, ayant un espace vide de 20px verticalement ↕️ entre chaque rangée.
+La zone principale de votre interface doit être une grille CSS de 3 colonnes de large par 4 rangées de haut, ayant un espace vide de 20px verticalement ↕️ entre chaque rangée.
 Ajoutez un champ texte. Celui-ci devra prendre une largeur équivalente à 3 colonnes.
 Affichez les textes <em>"Defense"</em>, <em>"Poids"</em> et <em>"Chevalier"</em> dans les 3 prochaines cellules de votre grille et attribuez la taille 20px à leurs valeurs affichées sous ceux-ci.
 Ajoutez l'image 0 du personnage et faites en sorte que celle-ci soit centrée et prenne 3 colonnes de large.

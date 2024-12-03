@@ -100,6 +100,8 @@ app.component('counter', {
 
 <p>Lorsqu'une <incode>props</incode> est passée à une composante, elle devient l'équivalent d'une donnée dans <incode>data</incode>.</p>
 
+<alert>Pour nommer vos props, si vous utilisez du camelCase (mélange de minuscules et majuscules), vous devrez utiliser le kebab-case du côté HTML dans les noms d'attributs de votre composante. Mais au stade où on en est, pour le moment, je vous conseille simplement de n'utiliser que des minuscules dans les noms de vos props. Ça va vous simplifier la vie.</alert>
+
 <doclink href="https://vuejs.org/guide/components/props.html#prop-types">Props</doclink>
 
 
