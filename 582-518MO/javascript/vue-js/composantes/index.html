@@ -128,6 +128,8 @@ app.component(&#039;counter&#039;, {
 
 <dots></dots>
 <grostitre>Props</grostitre>
+
+
 <p>Les props sont des données passées à une composante. Pour en définir, il faut spécifier le nom des props attendus dans un tableau.</p>
 
 <p>Par exemple, si seulement la props <span class="inline-code">msg</span> est attendu: </p>
@@ -148,7 +150,9 @@ app.component(&#039;counter&#039;, {
 
 <p>Lorsqu'une <span class="inline-code">props</span> est passée à une composante, elle devient l'équivalent d'une donnée dans <span class="inline-code">data</span>.</p>
 
-<alert>Pour nommer vos props, si vous utilisez du camelCase (mélange de minuscules et majuscules), vous devrez utiliser le kebab-case du côté HTML dans les noms d'attributs de votre composante. Mais au stade où on en est, pour le moment, je vous conseille simplement de n'utiliser que des minuscules dans les noms de vos props. Ça va vous simplifier la vie.</alert>
+<alert>Les props sont des données passées aux composantes mais ne peuvent pas changer de valeur.</alert>
+
+<warning>Pour nommer vos props, si vous utilisez du camelCase (mélange de minuscules et majuscules), vous devrez utiliser le kebab-case du côté HTML dans les noms d'attributs de votre composante. Mais au stade où on en est, pour le moment, je vous conseille simplement de n'utiliser que des minuscules dans les noms de vos props. Ça va vous simplifier la vie.</warning>
 
 <doclink href="https://vuejs.org/guide/components/props.html#prop-types">Props</doclink>
 
