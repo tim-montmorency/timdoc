@@ -2274,9 +2274,9 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
   
 
     <h3>Exercice 1</h3>
-    <p>Lien fourni en classe</p>
+
     <!-- Exercice 1 -->
-    <!--  <exercice href="../exercices/vue-luchador/"></exercice> -->
+    <exercice href="../exercices/vue-luchador/"></exercice> 
 
 
 
@@ -2287,12 +2287,13 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <grostitre>Vue.js - Composante et SFC</grostitre>
     <intlink href="../javascript/vue-js/composantes"></intlink>
 
-    
+
+    <!-- <intlink href='../../../compendium/582-511%E2%80%93web5/vue/installation.html'></intlink>-->
     <intlink href="../javascript/vue-js/sfc/"></intlink>
 
+
     <h3>Exercice 2</h3>
-    <p>Lien partagé en classe</p>
-    <!--<exercice href="../exercices/vue-composante-cartes/"></exercice>-->
+    <exercice href="../exercices/vue-composante-cartes/"></exercice>
 
     <!-- développer plus d'exemples et un exercice juste sur le principe -->
    <!-- <intlink href='../../../compendium/582-511%E2%80%93web5/vue/installation.html'></intlink>-->
@@ -2315,15 +2316,13 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <p>Cette pratique d'examen est facultative, vous le faites si vous croyez que cela peut vous aider à réviser. Au prochain cours ce jeudi, je pourrai le réviser avec vous et répondre à vos questions sur le sujet. </p>
 
-    <p>Lien partagé en classe</p>
+    <exercice href="../exercices/sushis/"></exercice>
 
     <!--À ajouter... -->
 
    <!-- <h3>Exercice couvrant la notion de classe JS</h3>
     <span class="red-label">Si les classes JavaScript vous semblaient du nouveau contenu cette session, il serait intéressant que vous plongiez dans cet exercice.</span> <br> <br>
     <doclink href='https://smnarnold.com/projets/duck-hunt/introduction'>Classe JavaScript - Duck Hunt</doclink>-->
-
-
 
     <dots></dots>   
     <grostitre>Devoirs</grostitre>
@@ -2332,8 +2331,13 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <p class="red-label">REMISE FINALE ET PRÉSENTATION DU PROJET DE SESSION JEUDI LE 12 DÉC.</p>
     <p>Terminez d'intégrer votre site du projet de session à Wordpress avec les techniques vues en classe.  </p>
 
+    <h3>Exercices débutés en classe</h3>
+    <intlink href='../exercices/vue-luchador/'></intlink>
+    <intlink href="../exercices/vue-composante-cartes/"></intlink>
+
     <h3>Pratiques d'examen</h3>
-    <p>    <span class="red-label">Facultatif mais vous aidera à réviser.</span></p>
+    <p><span class="red-label">Facultatif mais vous aidera à réviser.</span></p>
+    <intlink href='../exercices/sushis/'></intlink>
 
  </wiki-page>
 
@@ -2357,12 +2361,17 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
         </ul>
     </warning>
 
+    <dots></dots>
+    <grostitre>Quiz</grostitre>
+    Lundi - <a href="https://app.wooclap.com/XPFOCZ?" target="_blank" rel="noopener noreferrer">Code Wooclap : XPFOCZ</a>
+    <br>
+    Vendredi - <a href="https://app.wooclap.com/RFSOST" target="_blank" rel="noopener noreferrer">Code Wooclap : RFSOST
+    </a>
+
 
 
     <dots></dots>
     <grostitre>Révision</grostitre>
-    <intlink href="../exercices/vue-luchador/"></intlink> 
-
     <intlink href="../exercices/vue-composante-cartes/"></intlink>
 
     <p>Révision pratique d'examen en classe ou partage du fichier</p>
