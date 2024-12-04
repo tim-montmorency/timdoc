@@ -47,9 +47,9 @@
 
 
 <dots></dots>
-<grostitre>Requis CSS Grid</grostitre>
+<grostitre>Requis CSS GRID</grostitre>
 
-<checklist>Centrez horizontalement ↔️ et verticalement ↕️ les items du menu.
+<checklist>Centrez horizontalement ↔️ et verticalement ↕️ les items du menu (pour cette étape seulement, il est possible d'utiliser flexbox à la place de grid).
 Chaque item du menu doit avoir une largeur de 150px et un espace de 15px entre eux. Autant d'items que possible doivent s'afficher sur une seule ligne.
 Les boutons ➖ et ➕ doivent avoir une dimension de 40x40px, être bleu sombre par défaut et bleu charbon au survol.
 La bulle de total doit avoir une dimension de 150x150px, être bleu poudre et le prix à l'intérieur doit avoir une taille de police de 40px.</checklist>
