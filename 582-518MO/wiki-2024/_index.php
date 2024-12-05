@@ -2351,30 +2351,45 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <grostitre>Rappel</grostitre>
     <p>Examen final (classes JavaScript et Vue.js), lundi le 9 décembre.</p>
     <p>Remise et présentation finale du Projet de session (PS) le jeudi 12 décembre.</p>
-
+    <p>Les instructions pour la présentation finale de votre projet jeudi prochain seront affichées dans le wiki du cours Sem15.lundi.</p>
 
     <warning><br>
         Pour l'examen du lundi 9 décembre, ceux ont un assouplissement au niveau du temps, si vous êtes dans le cours de Guillaume le lundi, il m'a laissé savoir que vous n'avez pas de cours fixe mais du temps pour travailler en classe donc cette flexibilité vous permet :
         <ul>
-            <li>pour le groupe du lundi AM: de quitter plus tard après 13h25 pour compléter votre examen selon ce qui vous est accordé comme assouplissement</li>
-            <li>pour le groupe du lundi PM: d'arriver en classe plus tôt pour débuter votre examen en avance (veuillez cependant gérer votre temps pour vous assurer de dîner plus tôt et pour arriver en classe bien nourri).</li>
+            <li>pour le groupe 2 du lundi AM  
+                <ul>
+                    <li>- 33% plus de temps : Commencez à 9h50 comme d'habitude mais vous pourrez quitter à 14h35.</li>
+                </ul>
+            </li>
+            <li>pour le groupe 1 du lundi PM: 
+                <ul>
+                    <li>- 33% plus de temps : Vous devrez arriver à 13h15 en classe pour bénéficier de votre temps supplémentaire et terminer à 18h00 (veuillez cependant gérer votre temps pour vous assurer de dîner plus tôt et pour arriver en classe bien nourri).</li>
+                    <li>- 50% plus de temps : Arrivez en classe à 12h45 jusqu'à 18h.</li>
+                </ul> 
+            </li>
         </ul>
+
+
+    </ul>
     </warning>
 
     <dots></dots>
     <grostitre>Quiz</grostitre>
-    Lundi - <a href="https://app.wooclap.com/XPFOCZ?" target="_blank" rel="noopener noreferrer">Code Wooclap : XPFOCZ</a>
+    Groupe AM - <a href="https://app.wooclap.com/XPFOCZ?" target="_blank" rel="noopener noreferrer">Code Wooclap : XPFOCZ</a>
     <br>
-    Vendredi - <a href="https://app.wooclap.com/RFSOST" target="_blank" rel="noopener noreferrer">Code Wooclap : RFSOST
+    Groupe PM - <a href="https://app.wooclap.com/RFSOST" target="_blank" rel="noopener noreferrer">Code Wooclap : RFSOST
     </a>
 
 
 
     <dots></dots>
     <grostitre>Révision</grostitre>
+    <h3>Composante Vue de carte de produits à vendre</h3>
     <intlink href="../exercices/vue-composante-cartes/"></intlink>
 
-    <p>Révision pratique d'examen en classe ou partage du fichier</p>
+    <h3>Révision pratique d'examen: sushis</h3>
+    <p>Groupe AM vers 12h45 et groupe PM vers 17h15</p>
+    <intlink href='../exercices/sushis/'></intlink>
 
 
     <dots></dots>
@@ -2386,6 +2401,13 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <grostitre>Devoirs</grostitre>
     <h3>Projet de session</h3>
     <p class="red-label">REMISE FINALE ET PRÉSENTATION DU PROJET DE SESSION JEUDI LE 12 DÉC.</p>
+
+
+
+    <p>Les instructions pour la présentation finale de votre projet jeudi prochain seront affichées dans le wiki du cours Sem15.lundi.</p>
+
+
+
     <p>Terminez d'intégrer votre site du projet de session à Wordpress avec les techniques vues en classe. Pensez à faire votre QA (assurance qualité) au fur et à mesure. Finalisez le projet pour la remise finale jeudi dans 2 semaines (dernier cours de la session).</p>
 
 
@@ -2407,6 +2429,10 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
  <wiki-page name="Sem15.lundi" date="2024-12-03">
     <grostitre>Examen</grostitre>
     <p>Sujet: Les classes JavaScript et Vue.js</p>
+
+    <dots></dots>
+    <grostitre>Instructions pour la présentation finale de votre projet</grostitre>
+
 
 
  </wiki-page>
