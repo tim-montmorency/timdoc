@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900");
+
+:root {
+  --deep-turquoise: #1a535c;
+  --turquoise: #4ecdc4;
+  --light-lime: #f7fff7;
+  --fun-orange: #ff6b6b;
+  --sunny-yellow: #ffe66d;
+}
+body {
+  background: linear-gradient(var(--fun-orange), var(--sunny-yellow));
+  height: 100vh;
+  width: 100vw;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.counter {
+  font-size: 0.8rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#movies-collection {
+  background: var(--light-lime);
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  width: 95%;
+  max-width: 900px;
+}
+
+h1 {
+  color: var(--deep-turquoise); /* #3d4852; */
+  margin: 0;
+}
+h2 {
+  color: var(--deep-turquoise);
+}
+
+.year {
+  font-size: 1.2em;
+}
+
+a {
+  color: var(--turquoise);
+  color: hsl(176, 56, 55); /* c'est le turquoise en valeur hsl) */
+  font-size: 1.1rem;
+  transition: all 0.1s ease-in;
+  margin-top: 0.5rem;
+  display: block;
+}
+
+a:hover {
+  color: hsl(176, 56, 40);
+}
+
+#movies-collection > input,
+#movies-collection > select {
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid #f1f5f8;
+  color: var(--deep-turquoise);
+  color: hsl(188, 56, 23); /* c'est le deep turquoise en valeur hsl) */
+  padding: 0.5rem 0.75rem;
+  box-sizing: border-box;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  margin: 0.5rem 0;
+}
+
+.add-item-form,
+.header {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+}
+.add-item-form{
+  padding-top: 30px;
+  border-top: 1px solid #ddd;
+  margin-top: 30px;
+  }
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  height: 0px;
+  margin: 30px 0 30px 0;
+}
+
+.add-item-form input,
+.add-item-form select{
+  width: 70%;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid #f1f5f8;
+  color: var(--deep-turquoise);
+  color: hsl(188, 56, 23); /* c'est le deep turquoise en valeur hsl) */
+  padding: 0.5rem 0.75rem;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+input.shorter,
+select.shorter
+ {
+  max-width:120px;
+}
+
+.error{
+  font-size: 80%;
+  width: 100%;
+  flex-basis: 100%;
+}
+
+.btn {
+  border: none;
+  border-radius: 3px;
+  margin: auto 0;
+  padding: 0.5rem 0.75rem;
+  flex-shrink: 0;
+  cursor: pointer;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  transition: all 0.1s ease-in;
+}
+/*
+.btn[disabled] {
+  background: #8795a1;
+}
+
+.btn[disabled]:hover {
+  background: #606f7b;
+}
+*/
+
+.disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: var(--turquoise);
+  background: hsl(176, 56, 55); /* c'est le turquoise en valeur hsl) */
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: hsl(176, 56%, 45%);
+}
+
+.btn-cancel {
+  background: var(--fun-orange); /*#e87ca5;*/
+  background: hsl(0, 100, 71); /* c'est le fun-orange en valeur hsl) */
+  color: #fff;
+}
+
+.btn-cancel:hover {
+  background: hsl(0, 100%, 60%);
+  color: #fff;
+}
+
+.viewed {
+  text-decoration: line-through;
+  color: #a7ccc9;
+}
+
+.viewed:hover {
+  color: #8dadab;
+}
+
+.favorite,
+.selectedYear {
+  color: var(--fun-orange);
+}
+
+.favorite:hover,
+.selectedYear:hover {
+  color: hsl(0, 100%, 65%);
+}
+.viewed.favorite {
+  color: var(--sunny-yellow);
+  color: hsl(50, 100%, 63%); /* c'est le deep sunny-yellow en valeur hsl) */
+}
+
+.viewed.favorite:hover {
+  color: hsl(50, 100%, 50%);
+}
+
+input[type="checkbox"] {
+  display: inline !important;
+  box-shadow: none;
+  width: 32px;
+  height: 32px;
+  margin: 0 5px 0 0;
+}
+
+label.label-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem;
+  font-size: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  padding-top: 30px;
+  border-top: 1px solid #ddd;
+  margin-top: 30px;
+}
+
+
+li,
+p,
+.characters {
+  /*display: flex;*/
+  align-items: center;
+  line-height: 1.75;
+  letter-spacing: 0.5px;
+  color: var(--deep-turquoise);
+  color: hsl(188, 56, 23); /* c'est le deep turquoise en valeur hsl) */
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+
+li:hover {
+  color: hsl(188, 56%, 35%);
+}
+
+li input {
+  margin: 0 0.5rem 0;
+}
+
+li.flag {
+  padding-left: 24px;
+  min-height: 28px;
+  position: relative;
+  background-size: 16px auto;
+  background-repeat: no-repeat;
+  background-position: 3px 10px;
+}
+
+li.flag::after {
+  /* content: "";
+ position: absolute;
+  width: 1.5vmin;
+  height: 1.5vmin;
+  top: 50%;
+  left: -0.05vmin;
+  transform: translateY(-10px);
+  background: var(--sunny-yellow);
+  border-radius: 100%;*/
+}
+
+
+li.flag::after {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 50%;
+  left: -0.05vmin;
+  transform: translateY(-10px);
+  background: var(--sunny-yellow);
+  opacity: 0.3;
+  border-radius: 100%;
+}
+
+
+
+/* https://flagsworld.org/img/cflags/ */
+/*
+li.usa::after {
+  
+  background-image: url("https://assets.codepen.io/9367036/usa.svg");
+}
+
+li.qc::after {
+  background-image: url("https://assets.codepen.io/9367036/qc.svg");
+}
+
+li.korea::after {
+  background-image: url("https://assets.codepen.io/9367036/korea.svg");
+}
+  */
+.footer{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.characters{
+  padding-top: 30px;
+  border-top: 1px solid #ddd;
+  margin-top: 30px;
+}
+.characters h2{
+  margin-top: 0;
+  font-size: 17px;
+}

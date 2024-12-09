@@ -1711,7 +1711,11 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <dots></dots>
     <grostitre>WordPress (suite)</grostitre>
     <intlink href="../wordpress/wp-editeur-gutenberg/"></intlink>
+
+    <doclink href='https://fr.wordpress.org/support/article/wordpress-editor/'>L'éditeur de blocs WordPress</doclink>
  
+
+    
 
     <h3>Exercice 2 - JELLYCAT mise en page avec l'éditeur</h3>
     <exercice href="../exercices/wp-jellycat-gutenberg/"></exercice>
@@ -2430,8 +2434,48 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <grostitre>Examen</grostitre>
     <p>Sujet: Les classes JavaScript et Vue.js</p>
 
+
+
+    <alert>TOUT PLAGIAT EST INTERDIT SOUS PEINE D'ÉCHEC AUTOMATIQUE. La situation est aussi sérieuse chez la personne qui va chercher des informations que la personne qui divulgue. <br><br>Chaque groupe classe a sa propre version de l'examen. Ceci étant dit, il est de votre devoir de ne pas communiquer aucune information aux étudiants de l'autres groupe classe en sortant d'ici, c'est du plagiat.</alert>
+
+    <info>Il vous est permis de consulter vos notes de cours personnelles et celles sur timdoc. De plus, voici une liste de sites qui vous sont permis de consulter: 
+        <ul>
+            <li><a href="https://tim-montmorency.com/timdoc/582-518MO/wiki-2024/" target="_blank" rel="noopener noreferrer">Wiki du cours</a></li>
+
+            <li><a href="https://tim-montmorency.com/timdoc/582-518MO/" target="_blank" rel="noopener noreferrer">Timdoc du cours Projet Web 582-518MO</a></li>
+
+            <li><a href="https://codepen.io" target="_blank"
+            rel="noopener noreferrer">CodePen en général et vos exercices sur CodePen</a></li>
+
+            <li><a href="https://developer.mozilla.org/fr/docs/Web" target="_blank"
+                    rel="noopener noreferrer">Developer Mozilla&nbsp;: Documentation en français HTML, CSS et JavaScript</a></li>
+
+            <li><a href="https://smnarnold.com/cours/javascript" target="_blank" rel="noopener noreferrer">Note de cours JavaScript du smnarnold.com</a></li>
+
+            <li><a href="https://stackoverflow.com/" target="_blank"
+                    rel="noopener noreferrer">Forum StackOverflow</a></li>
+
+            <li><a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">W3School</a>
+            </li>
+
+            <li><a href="https://css-tricks.com/" target="_blank" rel="noopener noreferrer">CSS Tricks</a></li>
+
+            <li><a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">Le site de Vue.js</a>. N'oubliez pas que c'est la version Vue 3. </li>
+
+
+           
+        </ul>
+    </info>
+
+    <alert>Tout usage de d'intelligence articifielle (AI) vous est interdit pour l'examen. <br><br>Il est interdit de consulter des outils/sites de discussion  en ligne, tel que Teams, Discords etc. VOUS DEVEZ FERMER LE LOGICIEL TEAMS.</alert>
+
+    <warning> <span class="red-label">IMPORTANT</span> Pour cet examen, vous devrez travailler avec Visual Studio Code. <em>Vous devez désactiver toutes les extensions VS Code</em> excepté Live Server si vous avez envie de l'utiliser. Je vais passer voir chacun de vos postes de travail, vérifier si vous avez tout désactivé.</warning>
+
+
     <dots></dots>
     <grostitre>Instructions pour la présentation finale de votre projet</grostitre>
+    <p>Les instructions pour les présentation de jeudi seront présentées ici plus tard aujourd'hui.</p>
+    
 
 
 

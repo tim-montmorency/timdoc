@@ -1,0 +1,6 @@
+{
+    "type": "exercice",
+    "title": "Collection de films",
+    "icon": "images\/thumb.jpg",
+    "abstract": "Vous devez cr\u00e9er une app vue qui vous permettra de cr\u00e9er et g\u00e9rer une collections de films."
+}
