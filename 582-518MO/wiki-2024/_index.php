@@ -2487,7 +2487,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <li>D’abord veuillez présenter le site, page par page, section par section, à votre client (prof) et ses conseillers (reste de la classe). Vous devez expliquer vos propositions et en quoi à quoi elles seront bénéfiques pour le client et son audience. Restez convainquants. [7&nbsp;min]</li>
     <li>Par la suite (pas en même temps que la présentation du site mais vous pouvez revenir sur les pages en démo)&nbsp;: présentez individuellement qui a fait quoi. <br> Et, toujours individuellement: <br>- quel a été votre plus gros défi<br>- quelle a été votre plus grande fierté  [4&nbsp;min]</li>
     <li>On aura ensuite une période de questions, commentaires et critiques constructives du client (prof) et des conseillers (reste de la classe).  [3&nbsp;min]</li>
-    <li>Finalement, le client aura une demande de modification à faire en temps réel via le tableau de bord de WordPress. Cette demande de modification sera pigée au hasard. [5&nbsp;min]</li>
+    <li>Finalement, le client aura une demande de modification à faire en temps réel via le tableau de bord de WordPress. Cette demande de modification sera pigée au hasard. [max 5&nbsp;min]</li>
 </ol>
 
 <dots></dots>
@@ -2524,7 +2524,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <li>D’abord veuillez présenter le site, page par page, section par section, à votre client (prof) et ses conseillers (reste de la classe). Vous devez expliquer vos propositions et en quoi à quoi elles seront bénéfiques pour le client et son audience. Restez convainquants. [7&nbsp;min]</li>
     <li>Par la suite (pas en même temps que la présentation du site mais vous pouvez revenir sur les pages en démo)&nbsp;: présentez individuellement qui a fait quoi. <br> Et, toujours individuellement: <br>- quel a été votre plus gros défi<br>- quelle a été votre plus grande fierté  [4&nbsp;min]</li>
     <li>On aura ensuite une période de questions, commentaires et critiques constructives du client (prof) et des conseillers (reste de la classe).  [3&nbsp;min]</li>
-    <li>Finalement, le client aura une demande de modification à faire en temps réel via le tableau de bord de WordPress. Cette demande de modification sera pigée au hasard. [5&nbsp;min]</li>
+    <li>Finalement, le client aura une demande de modification à faire en temps réel via le tableau de bord de WordPress. Cette demande de modification sera pigée au hasard. [max: 5&nbsp;min]</li>
 </ol>
 
 
