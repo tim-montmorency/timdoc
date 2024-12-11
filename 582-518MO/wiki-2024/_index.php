@@ -2492,7 +2492,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 <dots></dots>
 <grostitre>Devoir final</grostitre>
-<p>Remplir le formulaire d'auto-évaluation et évaluation par les pairs. Le lien vous sera envoyé sous peu. Date limite: 18 décembre.</p>
+<p>Remplir le formulaire d'auto-évaluation et évaluation par les pairs. Le lien vous sera envoyé sous peu via Devoir sur Teams. Date limite: 18 décembre.</p>
 
     
 
@@ -2530,7 +2530,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
 <dots></dots>
 <grostitre>Devoir final</grostitre>
-<p>Remplir le formulaire d'auto-évaluation et évaluation par les pairs. Le lien vous sera envoyé sous peu. Date limite: 18 décembre.</p>
+<p>Remplir le formulaire d'auto-évaluation et évaluation par les pairs. Le lien vous sera envoyé sous peu via Devoir sur Teams. Date limite: 18 décembre.</p>
 
 
 </wiki-page>
