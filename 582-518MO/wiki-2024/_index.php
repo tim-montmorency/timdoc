@@ -2474,8 +2474,30 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 
     <dots></dots>
     <grostitre>Instructions pour la présentation finale de votre projet</grostitre>
-    <p>Les instructions pour les présentation de jeudi seront présentées ici plus tard aujourd'hui.</p>
+
+
+
+    <p><strong>Temps par équipe : 20 minutes.</strong></p>
+
+    <p>Voici comment ça va se dérouler et ce que vous devez préparer.</p>
+    <p>Le tout se fera via une présentation via tim-momo.com sur l'ordinateur du prof. Les autres ordinateurs de la classe diffuseront la présentation en mode plein écran.</p>
+    <dots></dots>
+<ol>
+    <li>Demandez au client (prof) de s’authentifier avec son compte que vous lui avez créé en début de session. [1 min]</li>
+    <li>D’abord veuillez présenter chaque page du site à votre client (prof) et ses conseillers (reste de la classe). Vous devez un peu expliquer au client les sections, à quoi elles servent pour son audience. Restez convainquant. [7&nbsp;min]</li>
+    <li>Par la suite (pas en même temps que la présentation du site mais vous pouvez revenir sur les pages en démo)&nbsp;: présentez individuellement qui a fait quoi. <br> Et, toujours individuellement: <br>- quel a été votre plus gros défi<br>- votre plus grande fierté  [4&nbsp;min]</li>
+    <li>On aura ensuite une période de questions, commentaires et critiques constructives du client (prof) et des conseillers (reste de la classe).  [3&nbsp;min]</li>
+    <li>Finalement, le client aura une demande de modification à faire en temps réel via le tableau de bord de WordPress. Cette demande de modification sera pigée au hasard. [5&nbsp;min]</li>
+</ol>
+
     
+
+
+
+
+
+    
+ 
 
 
 
@@ -2486,6 +2508,19 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
 <!---------------------- Cours 15 jeudi ----------------------->
 <wiki-page name="Sem15.jeudi" date="2024-12-03">
 
-    <grostitre> Présentations du projet de session</grostitre>
+
+    <grostitre>Instructions pour la présentation finale de votre projet</grostitre>
+    <p><strong>Temps par équipe : 20 minutes.</strong></p>
+
+    <p>Voici comment ça va se dérouler et ce que vous devez préparer.</p>
+    <p>Le tout se fera via une présentation via tim-momo.com sur l'ordinateur du prof. Les autres ordinateurs de la classe diffuseront la présentation en mode plein écran.</p>
+    <dots></dots>
+<ol>
+    <li>Demandez au client (prof) de s’authentifier avec son compte que vous lui avez créé en début de session. [1 min]</li>
+    <li>D’abord veuillez présenter chaque page du site à votre client (prof) et ses conseillers (reste de la classe). Vous devez un peu expliquer au client les sections, à quoi elles servent pour son audience. Restez convainquant. [7&nbsp;min]</li>
+    <li>Par la suite (pas en même temps que la présentation du site mais vous pouvez revenir sur les pages en démo)&nbsp;: présentez individuellement qui a fait quoi. <br> Et, toujours individuellement: <br>- quel a été votre plus gros défi<br>- votre plus grande fierté  [4&nbsp;min]</li>
+    <li>On aura ensuite une période de questions, commentaires et critiques constructives du client (prof) et des conseillers (reste de la classe).  [3&nbsp;min]</li>
+    <li>Finalement, le client aura une demande de modification à faire en temps réel via le tableau de bord de WordPress. Cette demande de modification sera pigée au hasard. [5&nbsp;min]</li>
+</ol>
 
 </wiki-page>
