@@ -469,34 +469,34 @@
     <dots></dots>
     <grostitre>Exercices</grostitre>
     <h3>01 Reproduction des formes : </h3>
+    <ul>
+        <li> <a href="https://cmontmorency365-my.sharepoint.com/:u:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Design%20graphique/Design%20graphique%202024/_exercices/Exercice%20cours%202%20-%20Pratique%20formes.fig?csf=1&web=1&e=sgjCzq" target="_blank" rel="noopener noreferrer">Télécharger fichier de base ici</a></li>
+        <li>Importer le fichier dans Figma : Allez dans l'équipe Figma à votre nom, dans le projet nommé Exercices et cliquez sur "Import file", allez sélectionner le fichier <em>Exercice - Pratique formes.fig</em></li>
+    </ul>
 
 
-    • Télécharger fichier de base ici<br>
-    • Importer le fichier dans Figma : Allez dans l'équipe Figma à votre nom, dans le projet nommé Exercices et cliquez
-    sur "Import file", allez sélectionner le fichier "Exercice - Pratique formes.fig"
+   <br>
+    • 
 
     <h3>02 Interface d'une application de musique à reproduire</h3>
 
-    • Télécharger le fichier de base ici<br>
-    • Importer le fichier dans Figma : Allez dans l'équipe Figma à votre nom, dans le projet nommé Exercices et cliquez
-    sur "Import file", allez sélectionner le fichier "Exercice - Recrée l'interface d'une app de musique.fig"
+    <ul>
+        <li> <a href="https://cmontmorency365-my.sharepoint.com/:u:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Design%20graphique/Design%20graphique%202024/_exercices/Exercice%20cours%202%20-%20Recr%C3%A9e%20l%27interface%20d%27une%20app%20de%20musique.fig?csf=1&web=1&e=I6CuGz" target="_blank" rel="noopener noreferrer">Télécharger fichier de base ici</a></li>
+        <li>Importer le fichier dans Figma : Allez dans l'équipe Figma à votre nom, dans le projet nommé Exercices et cliquez sur "Import file", allez sélectionner le fichier <em>Exercice - Recrée l'interface d'une app de musique.fig</em></li>
+    </ul>
 
 
 
     <dots></dots>
     <grostitre>Révision des cartes des autres élèves de l'activité brise-glace</grostitre>
-
-
-
-    Groupe 1 (8h55) :
-    https://www.figma.com/file/vbO4DXfWliWkC2hSSAtPhz/Brise-glace-groupe-1?type޳ign&mode޳ign&t=jPJh1HAB3K3AHR-1<br>
-
-    Groupe 2 (12h35) :
-    https://www.figma.com/file/iGP6hv0Rvd9p83d2uAgiPb/Brise-glace-groupe-2?type޳ign&node-id=3A1&mode޳ign&t=v6ndDchDpEtQJs-1<br>
-
-    Groupe 3 (15h20) :
-    https://www.figma.com/file/Rq2pK2ZyFkpXSjCBELoTAs/Brise-glace-groupe-3?type޳ign&mode޳ign&t=v6ndDchDpEtQJs-1<br>
-
+    <ul>
+        <li><a href="https://www.figma.com/file/vbO4DXfWliWkC2hSSAtPhz/Brise-glace-groupe-1?type=design&mode=design&t=zBjPJh1HAB3K3AHR-1"
+                target="_blank" rel="noopener noreferrer">Groupe 1</a></li>
+        <li><a href="https://www.figma.com/file/iGP6hv0Rvd9p83d2uAgiPb/Brise-glace-groupe-2?type=design&node-id=0%3A1&mode=design&t=PSv6ndDchDpEtQJs-1"
+                target="_blank" rel="noopener noreferrer">Groupe 2</a></li>
+        <li><a href="https://www.figma.com/file/Rq2pK2ZyFkpXSjCBELoTAs/Brise-glace-groupe-3?type=design&mode=design&t=PSv6ndDchDpEtQJs-1"
+                target="_blank" rel="noopener noreferrer">Groupe 3</a></li>
+    </ul>
 
 
     <dots></dots>
@@ -1913,7 +1913,7 @@
         <li>Mise en page et principe de l'espacement (multiple de 8px) <br>
             <strong>Lectures à propos de la règle du 8px</strong>
             <ul>
-                <li><a href="https://www.bgs-associes.com/la-grille-des-8pt/" target="_blank"
+                <li><a href="https://www.beryldesign.fr/post/lequilibre-parfait-explorer-la-puissance-de-lespacement-avec-le-8pt-grid" target="_blank"
                         rel="noopener noreferrer">La grille des 8pt</a></li>
                 <li><a href="https://design.quebec.ca/bases/grille-8px" target="_blank" rel="noopener noreferrer">Grille
                         de 8 px</a></li>
