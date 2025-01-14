@@ -3180,6 +3180,15 @@ table.table-couleurs .color {
   margin-right: -25px;
 }
 
+.video-tag {
+  width: auto;
+  min-width: 360px;
+  border: 1px solid #ddd;
+  display: block;
+  margin: 10px auto 30px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 #wiki {
   display: flex;
   min-height: 100%;
