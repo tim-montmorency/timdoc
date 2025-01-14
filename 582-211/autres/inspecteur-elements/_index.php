@@ -38,7 +38,7 @@
 
 <p>Lorsque vous êtes dans le <em>DOM Tree</em>, vous pouvez utiliser les flèches sur votre clavier ⬇️ ⬆️ pour inspecter l'élément précédent ou suivant ou tout simplement votre souris pour cliquer sur un élément en particulier. Vous remarquerez que dès que vous sélectionnez un nouvel élément, celui-ci se surligne dans le <em>DOM Tree</em> <strong>ET</strong> dans la page simultanément.</p>
 
-<clipasset src="videos/dom-tree-sync.mp4"></clipasset>
+<video controls src="videos/dom-tree-sync.mp4" autoplay loop class="video-tag"></video>
 
 
 <p>Au bas de la fenêtre du <em>DOM Tree</em>, toutes les balises englobant l'élément sélectionné sont listées. Allant de l'élément lui-même jusqu'à la balise <incode>html</incode>. Il est possible de cliquer sur chacune de ces balises pour les inspecter directement si désirées.</p>
@@ -55,8 +55,7 @@
 </ul>
 
 <p>L'élément recherché peut être du texte, une balise, une classe, un sélecteur CSS, etc.</p>
-
-<clipasset src="videos/dom-tree-search.mp4"></clipasset>
+<video controls src="videos/dom-tree-search.mp4" autoplay loop class="video-tag"></video>
 
 <h3>Modification du DOM</h3>
 
@@ -65,20 +64,20 @@
 <p>L'élément devrait alors se surligner pour indiquer que vous pouvez le modifier. Lorsque vous avez terminé votre modification, vous pouvez appuyer sur la touche ↵ pour confirmer votre changement ou simplement cliquer à l'extérieur du dit élément.</p>
 
 <p>Par exemple, pour modifier un texte:</p>
+<video controls src="videos/dom-tree-modification.mp4" autoplay loop class="video-tag"></video>
 
-<clipasset src="videos/dom-tree-modification.mp4"></clipasset>
 
 <p>Ou encore, modifiez une classe:</p>
+<video controls src="videos/dom-tree-modification-class.mp4" autoplay loop class="video-tag"></video>
 
-<clipasset src="videos/dom-tree-modification-class.mp4"></clipasset>
 
 <p>Vous pouvez aussi déplacer un élément dans le dom. Pour ce faire, il suffit de faire un glisser-déposer de votre élément <em>(Drag and drop)</em> ↕️</p>
+<video controls src="videos/dom-tree-move-element.mp4" autoplay loop class="video-tag"></video>
 
-<clipasset src="videos/dom-tree-move-element.mp4"></clipasset>
 
 <p>Vous pouvez même supprimer un élément en cliquant simplement sur la touche <incode>delete</incode></p>
+<video controls src="videos/dom-tree-delete.mp4" autoplay loop class="video-tag"></video>
 
-<clipasset src="videos/dom-tree-delete.mp4"></clipasset>
 
 <info>Tout comme dans un éditeur, il est possible de revenir en arrière si une modification ne donne pas les résultats escomptés en utilisant le raccourci clavier <incode>ctrl</incode>+<incode>z</incode> sur Windows ou <incode>command</incode>+<incode>z</incode> sur Mac.</info>
 
@@ -124,8 +123,8 @@
 <p>Heureusement, il est possible d'utiliser le champ Filter afin de <em>filtrer</em> les propriétés affichées.</p>
 
 <p>Par exemple, si je ne désire voir que les propriétés affectant le <incode>font-size</incode>:</p>
+<video controls src="videos/styles-filter.mp4" autoplay loop class="video-tag"></video>
 
-<clipasset src="videos/styles-filter.mp4"></clipasset>
 
 <h3>Voir les pseudo-classes (:hover, :focus, etc.)</h3>
 
@@ -135,7 +134,8 @@
 
 <p>Par exemple, si j'examine un lien sur cette page, je remarquerai qu'il a un <incode>background-size: 100% 40%;</incode> par défaut, mais qu'il est remplacé par un <incode>background-size: 100% 100%;</incode> lorsque survolé.</p>
 
-<clipasset src="videos/styles-hov.mp4"></clipasset>
+<video controls src="videos/styles-hov.mp4" autoplay loop class="video-tag"></video>
+
 
 <info>Remarquez comment la règle de style <incode>.wysiwyg a:hover</incode> est prioritaire sur la règle <incode>.wysiwyg a</incode>. La propriété <incode>background-size</incode> et sa valeur par défaut sont donc raturés puisqu’ils sont remplacés par une nouvelle définition dans <incode>.wysiwyg a:hover</incode>.</info>
 
@@ -143,7 +143,8 @@
 
 <p>Il est possible de tester rapidement des styles sur un élément en lui ajoutant des propriétés. Pour ce faire, il suffit de cliquer dans la zone <incode>element.style</incode> situé dans le haut de l'onglet Styles et de définir notre propriété.</p>
 
-<clipasset src="videos/styles-add.mp4"></clipasset>
+<video controls src="videos/styles-add.mp4" autoplay loop class="video-tag"></video>
+
 
 <thumbsup>Lorsqu’une propriété ou valeur apparait en suggestion semi-transparente, vous pouvez appuyer sur la touche <incode>tab</incode> pour qu’elle se complète automatiquement.</thumbsup>
 
@@ -151,7 +152,8 @@
 
 <p>Lorsqu'une règle de style est survolée, les boites à cochée de chacune des propriétés deviennent visibles vous permettant de désactiver/réactiver chaque propriété à votre guise.</p>
 
-<clipasset src="videos/styles-toggle.mp4"></clipasset>
+<video controls src="videos/styles-toggle.mp4" autoplay loop class="video-tag"></video>
+
 
 <h3>Modification d'une valeur</h3>
 
@@ -159,11 +161,13 @@
 
 <p>Par exemple, si je désire voir comment réagirait mon élément en <incode>display: block;</incode> plutôt qu'en <incode>inline-block</incode>:</p>
 
-<clipasset src="videos/styles-modification.mp4"></clipasset>
+<video controls src="videos/styles-modification.mp4" autoplay loop class="video-tag"></video>
+
 
 <p>Dans le cadre d'une valeur numérique, il est même possible d'augmenter/diminuer une valeur simplement positionnant le curseur sur la valeur en question et en utilisant les flèches ⬆️ et ⬇️ du clavier.</p>
 
-<clipasset src="videos/styles-modify-number.mp4"></clipasset>
+<video controls src="videos/styles-modify-number.mp4" autoplay loop class="video-tag"></video>
+
 
 <p>Lors de la modification d'une valeur numérique avec les flèches du clavier, la valeur fluctue de 1 unité par défaut. Cependant, il est possible en tenant la touche alt enfoncée de modifier la valeur de 0.1 pour plus de précision ou encore de 10 avec la touche de shift ↑ pour aller plus rapidement à une valeur éloignée.</p>
 
@@ -171,7 +175,11 @@
 
 <dots></dots>
 
+<p>Pour en savoir plus: </p>
+<doclink href='https://developer.chrome.com/docs/devtools/css?hl=fr'>Documentation de la partie CSS de l'inspectuer de Chrome</doclink> <br>
+<doclink href='https://developer.chrome.com/docs/devtools#panneaux'>Tous les autres onglets de l'inpecteur de Chrome</doclink>
 
+<dots></dots>
 <exercice href="exercices/unlock/"></exercice>
 <exercice href="exercices/urbania/"></exercice>
 
