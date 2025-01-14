@@ -7,7 +7,7 @@
  * @abstract Web 2
  */
 ?>
-<wiki-page name="Ressources" date="2025-01-22">
+<wiki-page name="Ressources" date="2025-01-14">
     <grostitre>Plans de cours et guides</grostitre>
 
     <p><a href="#" target="_blank" rel="noopener noreferrer">Plan du cours Web 2</a></p>
