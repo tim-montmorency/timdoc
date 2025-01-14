@@ -1,0 +1,177 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Anatomie d'une règle</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 2</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.webp">&nbsp;Anatomie d'une règle</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+
+<p class="spacer">Le but du CSS est d'indiquer au navigateur comment afficher différents éléments sur une page <em>(couleur, dimension, position, etc.)</em>. Pour ce faire, des règles CSS indiquant quels éléments devraient avoir quelle apparence sont utilisées.</p>
+
+<p>Cet aspect peut paraitre simple, mais une règle CSS se découpe en divers sous-éléments. Afin d'éviter toute confusion et d'avoir des bases solide en CSS, il est préférable de connaitre la terminologie associée à ces sous-éléments.</p>
+
+<dots></dots>
+
+
+<grostitre>Règle CSS</grostitre>
+
+<p>Une règle CSS est constituée d'un sélecteur CSS, d'accolades {…} et de tout ce qui se trouve entre elles.</p>
+
+<p>Par exemple, voici une règle CSS simple:</p>
+
+<highlight lang="css">p {
+  font-size: 16px;
+  font-family: Arial;
+}</highlight>
+
+<dots></dots>
+
+
+<grostitre>Sélecteur</grostitre>
+
+<p>Le sélecteur est ce qui se trouve avant l'accolade ouvrante. Il permet d'identifier quels éléments dans la page devraient être affectés par les styles se trouvant à l'intérieur desdites accolades.</p>
+
+<p>Dans l'exemple précédent, <span class="inline-code">p</span> est le sélecteur indiquant que tous les paragraphes de la page devraient avoir une taille de police de 16px et utiliser la police Arial.</p>
+
+<h3>Groupe de sélecteurs</h3>
+
+<p>Un groupe de sélecteurs est le nom donné lorsque plusieurs sélecteurs sont présents avant une accolade.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="css">.article p {
+  font-size: 16px;
+  font-family: Arial;
+}</highlight>
+
+<p>Le groupe de sélecteurs dans l'exemple ci-dessus ☝️ est <span class="inline-code">.article p</span> indiquant que tous les paragraphes se trouvant à l'intérieur d'une balise ayant la classe <span class="inline-code">.article</span> doivent utiliser les styles entres définis entre accolades.</p>
+
+<info>Dans un groupe de sélecteurs, les sélecteurs sont lus de droite à gauche ⬅️.<br><br>Autrement dit, dans l’exemple précédent, le navigateur sélectionnerait en premier temps tous les paragraphes de la page. Ensuite, il ne garderait que ceux ayant un ancêtre possédant la classe <span class="inline-code">.article</span>.</info>
+<br>
+<h3>Ancêtre</h3>
+
+<p>Le ou les ancêtres sont les sélecteurs séparés par un espace se trouvant à gauche du dernier sélecteur.</p>
+
+<p>Dans l'exemple précédent, il n'y a qu'un ancêtre, soit: <span class="inline-code">.article</span>. Autrement dit, seuls les paragraphes se trouvant à l'intérieur d'un élément HTML possédant cette classe seront ciblés par la règle CSS.</p>
+
+<p>Un ancêtre est considéré comme étant un <strong>parent</strong> si le paragraphe est <strong>directement enfant</strong> de celui-ci.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="html">&lt;div class=&quot;article&quot;&gt;
+    &lt;p&gt;Lorem ipsum&lt;/p&gt;
+&lt;/div&gt;</highlight>
+
+<p>Dans la même lignée, un ancêtre peut être <strong>grands-parents si un seul élément les sépares</strong>.</p>
+
+<p>Par exemple, la classe <span class="inline-code">.intro</span> est le parent et la classe <span class="inline-code">.article</span> est le grands-parents du paragraphe. Cependant <span class="inline-code">.intro</span> et .<span class="inline-code">article</span> sont tous deux des ancêtres du paragraphe.</p>
+
+<highlight lang="html">&lt;div class=&quot;article&quot;&gt;
+    &lt;div class=&quot;intro&quot;&gt;
+        &lt;p&gt;Lorem ipsum&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</highlight>
+
+<p>Un sélecteur peut aussi être un <strong>arrière-grands-parents</strong> si <strong>deux éléments HTML les séparent</strong> et ainsi de suite.</p>
+
+
+<info>
+    Puisque les règles CSS sont lues de droite à gauche ⬅️, il n’est pas nécessaire de nommer tous les sélecteurs disponibles dans une règle CSS.
+    <br><br>
+    <span class="inline-code">.article p { ... }</span>
+    sélectionenra tous les paragraphes à l’intérieur de l’élément avec la classe <span class="inline-code">.article</span>, même si <span class="inline-code">.intro</span> est omis.
+</info>
+
+<dots></dots>
+
+
+<grostitre>Déclaration</grostitre>
+
+<p>À l'intérieur des accolades se trouvent les instructions concernant l'apparence des éléments référencés par le sélecteur. Ces instructions portent le nom de <em>déclarations</em>.</p>
+
+<p>Par exemple, le code suivant est une déclaration:</p>
+
+<highlight lang="css">font-size: 16px;</highlight>
+
+<p>L'ensemble des déclarations dans une règle CSS est quant à elle appelé un <strong>bloc de déclaration</strong>.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="css">font-size: 16px;
+font-family: Arial;</highlight>
+
+<dots></dots>
+
+<grostitre>Propriété & Valeur</grostitre>
+
+<p>Chaque <a href="#declaration">déclaration</a> est constituée d'une propriété et d'une valeur. La propriété étant le texte se trouvant avant les deux points <span class="inline-code">:</span> et indiquant l'aspect de l'élément devant être stylé.</p>
+
+
+<p>Par exemple <span class="inline-code">font-size</span>, indiquant que la taille de la police des paragraphes doit-être altéré.</p>
+
+<p>De l'autre côté du <span class="inline-code">:</span> se trouve la valeur. Par exemple, <span class="inline-code">16px</span> indiquant la taille à donner.</p>
+
+<dots></dots>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

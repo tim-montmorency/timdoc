@@ -1,0 +1,235 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../../shared/styles/styles.min.css">
+        <script src="../../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../../shared/';</script>
+        <title>Masquage - Barbie Selfie</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Masquage - Barbie Selfie</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p class="spacer">Pour cet exercice, vous devez écrire du CSS afin de recréer l'effet généré par le site web promotionel <a target="_blank" href="https://www.barbieselfie.ai/intl/">Barbie Selfie Generator</a>.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<clipasset src="./videos/apercu.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>Matériel</grostitre>
+
+<doclink href="./barbie-selfie.zip">Dossier de départ</doclink>
+
+<h3>Font</h3>
+
+<doclink href="./barbie-font.zip">Barbie</doclink>
+
+<h3>Couleurs 🎨</h3>
+
+<color>#42c5fd</color>
+<color>#b9eefe</color>
+<br>
+<color>#e240a3</color>
+<color>#ffffff</color>
+
+<h3>Médias</h3>
+
+<mediafile src="./images/barbie.webp">Barbie</mediafile>
+<mediafile src="./images/patch.svg">Patch</mediafile>
+
+<br>
+
+<thumbsup>Prenez le temps d'analyser le fichier HTML.</thumbsup>
+<alert>Il est <strong>INTERDIT</strong> de modifier le HTML.</alert>
+
+<dots></dots>
+
+
+<grostitre>Requis de base</grostitre>
+
+<checklist>
+  Téléchargez les images et placez-les dans un dossier <span class="inline-code">images</span>.
+  Téléchargez la police d'écriture et placez-la dans un dossier <span class="inline-code">fonts</span>.
+  Créez une variable pour chacune des couleurs pour utilisation ultérieure.
+  Le fond de la page doit être un dégradé allant du <em>bleu ciel</em> au <em>bleu clair</em>.
+</checklist>
+
+<grostitre>Requis selfie</grostitre>
+
+<checklist>
+  Le <em>selfie</em> doit être un carré d'une dimension de <em>80%</em> du plus petit côté de la fenêtre, être centré tant horizontalement que verticalement et être de couleur <em>rose</em>.
+  Afin de lui donner une texture de fond, utilisez le pseudo-élément <span class="inline-code">::before</span> en position absolue couvrant l'entièreté du selfie.
+  Ajoutez au pseudo-élément le filtre <em>SVG</em> <span class="inline-code">url(#grain)</span>, un grayscale de <em>100%</em>, une luminosité de <em>50%</em>, un contraste de <em>200%</em> et un flou de <em>2px</em>.
+  Fusionnez le pseudo-élément en mode <span class="inline-code">color-dodge</span>.
+  L'élément <span class="inline-code">.photo</span> doit être positionné de manière absolue et prendre tout l'espace disponible à l'intérieur du selfie.
+  La photo doit avoir comme arrière-plan l'image <span class="inline-code">barbie.webp</span> ayant une largeur automatique, une hauteur de <em>90%</em> et être placé en bas au centre.
+  Appliquez le masque <span class="inline-code">patch.svg</span> à l'élément <span class="inline-code">.selfie</span>.
+</checklist>
+
+<grostitre>Requis texte</grostitre>
+
+<checklist>
+  À l'aide de <span class="inline-code">@font-face</span>, importez la police d'écriture <span class="inline-code">barbie.ttf</span> et appliquez la au <span class="inline-code">h1</span>. N'oubliez pas le format.
+  Le nom <em>Barbie</em> doit avoir une grosseur de police d'écriture de <em>14%</em> du plus petit côté de la fenêtre, être centré horizontalement, être positionné verticalement à <em>70%</em> de son parent et être de couleur <em>blanche</em>.
+  Appliquez-lui une rotation négative de <em>12deg</em>.
+  Afin de créer un effet de contour intérieur, utilisons le pseudo-élément <span class="inline-code">::before</span> en position absolue. Attribuez lui le contenu <span class="inline-code">content: attr(data-text);</span>.
+  Le pseudo-élément doit être de couleur <em>rose</em> et avoir le filtre <em>SVG</em> <span class="inline-code">url(#dilate)</span>.
+  Faites-en sorte qu'il soit affiché derrière son élément parent.
+</checklist>
+
+<grostitre>Requis animation</grostitre>
+
+<checklist>
+  Créez une animation nommée <span class="inline-code">shine</span> appliquant un filtre <a onclick="event.stopPropagation();" target="_blank" href="https://developer.mozilla.org/fr/docs/Web/CSS/filter-function/drop-shadow">drop-shadow</a> <em>blanc</em> égal de tous les côtés et d'une grosseur allant de <em>1vmin</em> à <em>6vmin</em>.
+  Appliquez cette animation d'une durée de <em>1 seconde</em> à l'élément <span class="inline-code">.photo</span>, de manière alternée, infinie et commençant lentement.
+</checklist>
+
+<dots></dots>
+
+
+<grostitre>Bande-annonce</grostitre>
+
+<youtube src="GRyt3Ov4zz0"></youtube>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../background/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../background/">Background</a></span>
+                <span class="intlink__item__abstract">color, image, gradient</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../linear-gradient/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../linear-gradient/">Linear-gradient</a></span>
+                <span class="intlink__item__abstract">Générer un dégradé.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../modes-de-fusion/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../modes-de-fusion/">Modes de fusion</a></span>
+                <span class="intlink__item__abstract">multiply, screen, overlay, etc.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../position/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../position/">Position</a></span>
+                <span class="intlink__item__abstract">static, relative, absolute, fixed, sticky</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../unites-de-mesure-avancees/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../unites-de-mesure-avancees/">Unités de mesure avancées</a></span>
+                <span class="intlink__item__abstract">vw, vh, vmin, vmax, calc, min, max, clamp</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../pseudo-classes-avancees/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../pseudo-classes-avancees/">Pseudo-classes avancées</a></span>
+                <span class="intlink__item__abstract">:first-of-type, :only-of-type, :empty, :not, :has</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../pseudo-elements/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../pseudo-elements/">Pseudo-éléments</a></span>
+                <span class="intlink__item__abstract">::before, ::after</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../transformation/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../transformation/">Transformation</a></span>
+                <span class="intlink__item__abstract">translate, rotate, scale, skew, origin</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../animation/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../animation/">Animation</a></span>
+                <span class="intlink__item__abstract">@keyframes, animation-name, animation-duration, etc.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../font-face/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../font-face/">@font-face</a></span>
+                <span class="intlink__item__abstract">Importer des polices d'écritures</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../filtres/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../filtres/">Filtres</a></span>
+                <span class="intlink__item__abstract">blur, contrast, grayscale, sepia, etc.</span>
+            </div>
+        </div>
+
+<dots></dots>
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

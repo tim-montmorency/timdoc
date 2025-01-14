@@ -1,0 +1,112 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>Révision - South Park</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Révision - South Park</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p class="spacer">Pour cet exercice, nous allons recréer une affiche animée de la populaire série d’animation <a target="blank" href="https://www.imdb.com/title/tt0121955/">South Park</a>.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<clipasset src="videos/south-park-preview.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>Matériel</grostitre>
+
+<h3>Couleurs 🎨</h3>
+
+<color>#FFFFE8</color>
+
+<h3>Médias</h3>
+
+<mediafile src="images/ciel.png">Ciel</mediafile>
+<mediafile src="images/ville-et-montagnes.png">Ville et montagnes</mediafile>
+<mediafile src="images/logo.png">Logo</mediafile>
+<mediafile src="images/kenny.png">Kenny</mediafile>
+<mediafile src="images/kyle.png">Kyle</mediafile>
+<mediafile src="images/stan.png">Stan</mediafile>
+<mediafile src="images/cartman.png">Cartman</mediafile>
+<mediafile src="images/nuage.png">Nuage</mediafile>
+
+<warning>Aucun dossier de départ ne vous est fourni pour cet exercice. Vous devrez donc créer vos fichiers HTML et CSS et les lier ensemble.</warning>
+
+<dots></dots>
+
+
+<grostitre>Requis</grostitre>
+
+<checklist>
+  La page doit avoir un fond beige.
+  L'affiche doit avoir une dimension de 500x500px, un fond blanc et être parfaitement centrée horizontalement et verticalement dans la page.
+  Affichez l'image de ciel en plein centre de votre affiche et faites-la tourner sur elle-même dans le sens des aiguilles d'une montre en l'espace de 20 secondes à vitesse constante et à l'infini. Les parties du ciel dépassant de l'affiche devront être tronquées.
+  Ajoutez un div positionné au bas de l'affiche prenant toute la largeur et une demi-hauteur de celle-ci. Ajoutez-lui un fond blanc afin de simuler un sol enneigé cachant une partie de votre ciel ❄️.
+  Positionnez l'image de la ville et des montagnes fournie par-dessus le ciel et le sol enneigé de façon à ce qu'elle soit parfaitement centrée verticalement au centre de l'affiche 🌆.
+  Le logo de South Park doit être affiché en bas complètement de l'affiche et être parfaitement centré horizontalement ↔️.
+  Positionnez les personnages de la série en fonction de l'image de référence. Assurez-vous d'effectuer une rotation de -10° à Kenny et de 10° à Cartman. Chaque personnage doit monter de 10px en l'espace d'une demi-seconde lorsque survolé. Attention de garder l'angle de Kenny et Cartman lorsqu'ils sont survolés.
+  Affichez l'image du nuage à 50px du haut de l'affiche. Ce dernier devra partir à l'extérieur de l'affiche et la traverser complètement horizontalement ↔️ en l'espace de 10 secondes, à vitesse constante et à l'infini.
+</checklist>
+
+<dots></dots>
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

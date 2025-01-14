@@ -1,0 +1,155 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../../shared/styles/styles.min.css">
+        <script src="../../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../../shared/';</script>
+        <title>Formulaire - Among Us</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Formulaire - Among Us</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p class="spacer">Pour cet exercice nous allons créer un formulaire permettant de générer un personnage du célèbre jeu <a target="_blank" href="https://store.steampowered.com/app/945360/Among_Us/">Among Us</a>.</p>
+
+<p>Aucun fichier de départ ne vous est fourni. Vous allez devoir créer votre propre fichier HTML.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<img src="images/formulaire-among-us.jpg">
+
+<dots></dots>
+
+
+<grostitre>Matériel</grostitre>
+
+<h3>Fonts</h3>
+
+<doclink href="https://fonts.google.com/specimen/VT323">VT323</doclink>
+
+<h3>Couleurs 🎨</h3>
+
+<color>#75DBF4</color>
+<color>#F21717</color>
+
+<h3>Médias</h3>
+
+<mediafile src="images/sky.jpg">Arrière-plan</mediafile>
+
+<dots></dots>
+
+
+<grostitre>Requis fonctionnels</grostitre>
+
+<checklist>
+    La page de résultat s'attend à recevoir les informations suivantes: <span class="inline-code">name</span>, <span class="inline-code">color</span>, <span class="inline-code">hat</span> et <span class="inline-code">impostor</span>. Il faudra donc nommer vos champs de formulaire en conséquence.
+    Créez un champ de texte permettant d'entrer un nom de personnage. Ce champ doit être obligatoire et limiter l'utilisateur à un nom entre 2 et 20 caractères.<br><br>À titre indicatif, affichez le texte <em>"Red"</em> en attendant que l'usager insère le nom de son choix.
+    Créez ensuite un champ permettant de choisir la couleur du personnage 🎨.
+    À l'aide de boutons radio, offrez une sélection de chapeaux 🎩. Notez la valeur à passer lorsque cette option est sélectionnée, suivie du texte à afficher à l'écran:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <span class="inline-code">none</span> | Aucun<br>&nbsp;&nbsp;&nbsp;&nbsp;• <span class="inline-code">banana</span> | Banane<br>&nbsp;&nbsp;&nbsp;&nbsp;• <span class="inline-code">egg</span> | Oeuf<br>&nbsp;&nbsp;&nbsp;&nbsp;• <span class="inline-code">toilet</span> | Papier de toilette<br><br>Par défaut, l'option <em>"Aucun"</em> doit-être sélectionné.
+    Ajoutez une boite à cocher avec la mention <em>"Imposteur 🗡"</em> permettant de sélectionner si le personnage est un imposteur ou non ✅.
+    Ajoutez finalement un bouton avec la mention <em>"Créer mon personnage"</em> permettant de soumettre le formulaire et d'envoyer ses informations via une méthode <span class="inline-code">get</span> à l'adresse suivante:
+</checklist>
+
+<highlight lang="text">https://tim-montmorency.com/timdoc/582-215MO/html/formulaire-avance/exercices/among-us/submit/</highlight>
+
+<p>Vous devriez maintenant être capable de créer des personnages similaires à ceux-ci en soumettant votre formulaire:</p>
+
+<clipasset src="videos/formulaire-among-us.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>Requis visuels</grostitre>
+
+<checklist>
+    Faites en sorte que l'image d'arrière-plan étoilé soit afficher comme fond d'écran ✨, que tous les textes utilisent la police Google <em>VT323</em> et aient une taille de 20px.
+    Le formulaire doit avoir une largeur de 400px, un fond noir ⚫️, une bordure blanche de 2px ⚪️, des coins arrondis de 15px et se garder une marge intérieure de 20px de tous les côtés afin que son contenu ne touche jamais à ses extrémités.
+    Le formulaire doit être centré horizontalement ↔️ et être affiché à 50px du haut de la page.
+    Affichez le titre <em>"Among Us"</em> en 40px. Ce titre ne doit pas avoir de graisse ni de marge vers le haut. Uniquement une marge de 20px vers le bas.
+    Le champ de nom doit prendre toute la largeur du formulaire, se garder une marge intérieure de 10px de tous les côtés, avoir des coins arrondis de 10px, une bordure bleue 🔵 de 2px lorsque son contenu est valide et rouge lorsqu'invalide 🔴.
+    Le bouton <em>"Créer mon personnage"</em> doit prendre toute la largeur du formulaire, avoir un fond bleu, des coins arrondis de 10px et une taille de texte de 20px.
+</checklist>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../formulaire/images/icon.png);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../formulaire/">Formulaire</a></span>
+                <span class="intlink__item__abstract">text, label, form, submit</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../formulaire-intermediaire/images/icon.png);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../formulaire-intermediaire/">Formulaire intermédiaire</a></span>
+                <span class="intlink__item__abstract">radio, checkbox, select, textarea</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../images/icon.png);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../formulaire-avance/">Formulaire avancé</a></span>
+                <span class="intlink__item__abstract">number, password, email, tel, date, etc.</span>
+            </div>
+        </div>
+
+<dots></dots>
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

@@ -1,0 +1,375 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../shared/styles/styles.min.css">
+        <script src="../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../shared/';</script>
+        <title>CSS</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../">Web 2</a> ></div>
+                <div id="title"><img src="images/icon.webp">&nbsp;CSS</div>
+            </div>
+            <article>
+                <div id="listing">
+                    <div class="list-grid">
+                        <!-- LIST HEADER EOF -->
+
+                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(anatomie/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="anatomie/">Anatomie d'une règle</a></span>
+                                <span class="list-grid__item__abstract">Structure, ancêtre, déclaration</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(animation/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="animation/">Animation</a></span>
+                                <span class="list-grid__item__abstract">@keyframes, animation-name, animation-duration, etc.</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(animation-sprite-sheet/images/icon.png);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="animation-sprite-sheet/">Animation Sprite Sheet</a></span>
+                                <span class="list-grid__item__abstract">animation image par image</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(aspect-ratio/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="aspect-ratio/">Aspect-ratio</a></span>
+                                <span class="list-grid__item__abstract">Créer un élément dont la dimension reste proportionnelle.</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(background/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="background/">Background</a></span>
+                                <span class="list-grid__item__abstract">color, image, gradient</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(border/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="border/">Border</a></span>
+                                <span class="list-grid__item__abstract">border, border-radius</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(box-model/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="box-model/">Box-model</a></span>
+                                <span class="list-grid__item__abstract">Chaque élément d'une page est une boîte rectangulaire</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(box-shadow/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="box-shadow/">Box-shadow</a></span>
+                                <span class="list-grid__item__abstract">Ombrage d'un élément.</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(box-sizing/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="box-sizing/">Box-sizing</a></span>
+                                <span class="list-grid__item__abstract">border-box, content-box</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(display/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="display/">Display</a></span>
+                                <span class="list-grid__item__abstract">block, inline, inline-block, none</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(filtres/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="filtres/">Filtres</a></span>
+                                <span class="list-grid__item__abstract">blur, contrast, grayscale, sepia, etc.</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(flexbox/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="flexbox/">Flexbox</a></span>
+                                <span class="list-grid__item__abstract">flex-direction, justify-content, align-items, align-self</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(flexbox-avance/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="flexbox-avance/">Flexbox avancé</a></span>
+                                <span class="list-grid__item__abstract">flex-wrap, align-content, flex, flex-flow</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(flexbox-intermediaire/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="flexbox-intermediaire/">Flexbox intermédiaire</a></span>
+                                <span class="list-grid__item__abstract">flex-grow, flex-shrink, flex-basis, order</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(float/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="float/">Float</a></span>
+                                <span class="list-grid__item__abstract">Permet à un élément de flotter à gauche ou à droite</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(flux/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="flux/">Flux</a></span>
+                                <span class="list-grid__item__abstract">L’affichage de base des éléments dans une page</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(font-face/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="font-face/">@font-face</a></span>
+                                <span class="list-grid__item__abstract">Importer des polices d'écritures</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(fonte/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="fonte/">Font</a></span>
+                                <span class="list-grid__item__abstract">color, family, weight, size, style, line-height</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(google-fonts/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="google-fonts/">Google fonts</a></span>
+                                <span class="list-grid__item__abstract">+ de 850 polices gratuites</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(linear-gradient/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="linear-gradient/">Linear-gradient</a></span>
+                                <span class="list-grid__item__abstract">Générer un dégradé.</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(margin/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="margin/">Margin</a></span>
+                                <span class="list-grid__item__abstract">marge extérieur</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(masquage/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="masquage/">Masquage</a></span>
+                                <span class="list-grid__item__abstract">clip-path, mask-image</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(media-queries/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="media-queries/">Media queries</a></span>
+                                <span class="list-grid__item__abstract">Requête @media</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(modes-de-fusion/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="modes-de-fusion/">Modes de fusion</a></span>
+                                <span class="list-grid__item__abstract">multiply, screen, overlay, etc.</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(nommage-et-formatage/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="nommage-et-formatage/">Nommage et formatage</a></span>
+                                <span class="list-grid__item__abstract">À priori, nommer des éléments peut sembler facile.</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(object-fit/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="object-fit/">Object-fit</a></span>
+                                <span class="list-grid__item__abstract">contain, cover, fill</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(opacite/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="opacite/">Opacity</a></span>
+                                <span class="list-grid__item__abstract">Gérer l'opacité d'un élément.</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(outline/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="outline/">Outline</a></span>
+                                <span class="list-grid__item__abstract">border, width, style, color</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(overflow/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="overflow/">Overflow</a></span>
+                                <span class="list-grid__item__abstract">visible, hidden, auto, scroll</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(padding/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="padding/">Padding</a></span>
+                                <span class="list-grid__item__abstract">marge intérieur</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(position/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="position/">Position</a></span>
+                                <span class="list-grid__item__abstract">static, relative, absolute, fixed, sticky</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(pseudo-classes/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="pseudo-classes/">Pseudo-classes</a></span>
+                                <span class="list-grid__item__abstract">hover, active, visited, focus</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(pseudo-classes-avancees/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="pseudo-classes-avancees/">Pseudo-classes avancées</a></span>
+                                <span class="list-grid__item__abstract">:first-of-type, :only-of-type, :empty, :not, :has</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(pseudo-classes-intermediaires/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="pseudo-classes-intermediaires/">Pseudo-classes intermédiaires</a></span>
+                                <span class="list-grid__item__abstract">first-child, last-child, only-child, nth</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(pseudo-elements/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="pseudo-elements/">Pseudo-éléments</a></span>
+                                <span class="list-grid__item__abstract">::before, ::after</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(responsive/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="responsive/">Responsive</a></span>
+                                <span class="list-grid__item__abstract">Adaptation aux différents écrans</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(resume-css/images/icon.png);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="resume-css/">Résumé CSS</a></span>
+                                <span class="list-grid__item__abstract">Notions CSS</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(selecteurs/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="selecteurs/">Sélecteurs</a></span>
+                                <span class="list-grid__item__abstract">balise, #, ., combinaison, descendant</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(selecteurs-avances/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="selecteurs-avances/">Sélecteurs avancés</a></span>
+                                <span class="list-grid__item__abstract">groupes, *, >, ~, +, [attr]</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(snap-scroll/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="snap-scroll/">Scroll-snap</a></span>
+                                <span class="list-grid__item__abstract">scroll-snap-type, scroll-snap-align, scroll-padding</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(specificite/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="specificite/">Spécificité</a></span>
+                                <span class="list-grid__item__abstract">Chaque sélecteur en CSS se voit attribuer un pointage.</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(text/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="text/">Text</a></span>
+                                <span class="list-grid__item__abstract">align, decoration, transform, stroke, shadow</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(transformation/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="transformation/">Transformation</a></span>
+                                <span class="list-grid__item__abstract">translate, rotate, scale, skew, origin</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(transition/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="transition/">Transition</a></span>
+                                <span class="list-grid__item__abstract">passer d'un état A à un état B</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(unites-de-couleur/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="unites-de-couleur/">Unités de couleur</a></span>
+                                <span class="list-grid__item__abstract">hex, rgb, hsl, etc.</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(unites-de-mesure/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="unites-de-mesure/">Unités de mesure</a></span>
+                                <span class="list-grid__item__abstract">vw, vh, vmin, vmax, calc, min, max, clamp</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(unites-de-mesure-avancees/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="unites-de-mesure-avancees/">Unités de mesure avancées</a></span>
+                                <span class="list-grid__item__abstract">vw, vh, vmin, vmax, calc, min, max, clamp</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(variables/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="variables/">Variables</a></span>
+                                <span class="list-grid__item__abstract">::root, var(--varname)</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(vertical-align/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="vertical-align/">Vertical-align</a></span>
+                                <span class="list-grid__item__abstract">baseline, top, middle, bottom, super, sub</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(width-height/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="width-height/">Width & Height</a></span>
+                                <span class="list-grid__item__abstract">min-width/height, max-width/height</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(z-index/images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="z-index/">Z-index</a></span>
+                                <span class="list-grid__item__abstract">Order d'apparition des éléments dans le flux</span>
+                            </div>
+                        </div>
+                        <!-- LIST FOOTER SOF -->
+                    </div>
+                </div>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

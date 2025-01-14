@@ -1,0 +1,214 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Métadonnées</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 2</a> > <a href="../">HTML</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.png">&nbsp;Métadonnées</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Il existe plusieurs types de balises <span class="inline-code">&lt;meta&gt;</span>. Certaines servent à définir le comportement d'une page, tandis que d'autres permettent de bonifier la page avec certaines informations.</p>
+
+<p>Voyons quelques-unes des balises <span class="inline-code">&lt;meta&gt;</span> les plus communes.</p>
+
+<dots></dots>
+
+
+<grostitre>Charset</grostitre>
+
+<p>Cette balise définit l'encodage des caractères du document. Autrement dit, les caractères supportés sur une page. De nos jours, la valeur <span class="inline-code">UTF-8</span> est pratiquement toujours attribuée à cet élément puisqu'elle offre un jeu de caractères universels, incluant la majorité des caractères spéciaux des différentes langues <em>(accents, cédille, etc.)</em>.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="html">&lt;meta charset=&quot;utf-8&quot;&gt;</highlight>
+
+<p>Si un plus ancien encodage ne supportant pas les accents était utilisé, comme le <span class="inline-code">ASCII</span>, les mots accentués, tel que: <em>"Québec"</em>, afficheraient alors ainsi:</p>
+
+<highlight lang="text">Qu&Atilde;&copy;bec</highlight>
+
+<info>ASCII a été inventé en 1968 par des anglophones. UTF-8 est arrivé en 1996, soit 28 ans plus tard.</info>
+
+<warning>Cette balise doit être placée au tout début de la balise <span class="inline-code">&lt;head&gt;</span> afin de spécifier l’encodage des caractères avant l’apparition d’une première valeur textuelle <em>(title, description, etc.)</em></warning>
+
+<dots></dots>
+
+
+<grostitre>Viewport</grostitre>
+
+<p>Cette balise spécifie la dimension de référence de la fenêtre <em>(viewport)</em> sur les appareils mobiles 📱. Par défaut, cette balise est généralement initialisée avec les valeurs suivantes:</p>
+
+<highlight lang="html">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;</highlight>
+
+<h3>Width</h3>
+
+<p>Dans ce code, la partie <span class="inline-code">width=device-width</span> indique que la largeur de la fenêtre doit correspondre à la largeur de la fenêtre de l'appareil lui-même.</p>
+
+<p>Sans cette valeur, l'appareil mobile tentera de déterminer la largeur du site par lui-même afin de le rendre entièrement visible dans la page, quite à effectuer un zoom arrière ou avant.</p>
+
+<p>Par exemple, voici site contenant une image de 450px de large et un <span class="inline-code">max-width: 100%</span> suivis d'un texte sans largeur de défini. Ce même site est affiché sur desktop à gauche, sur mobile sans viewport au centre et avec un viewport à droite.</p>
+
+<img src="images/meta-viewport.png">
+
+<p>L'image étant plus large que le cadre des appareils mobiles <em>(375px)</em> et le texte n'ayant pas de largeur spécifiée, l'affichage variera en fonction de l'absence ou la présence du meta viewport.</p>
+
+<p>Au centre, le navigateur tente de déterminer par lui-même la largeur de fenêtre <em>(viewport)</em> optimale et donc effectue un zoom arrière. Tandis qu'à gauche, la largeur de la fenêtre <em>(viewport)</em> est configurée afin de correspondre à la largeur du cadre de l'appareil. L'image respecte donc sa propriété <span class="inline-code">max-width: 100%</span> afin de prendre une largeur de 375px.</p>
+
+<h3>Initial-scale</h3>
+
+<p>La partie <span class="inline-code">initial-scale=1</span> contenu dans la valeur de cette balise indique que la page ne doit pas être agrandie ou réduite au chargement initial de la page. Si désiré, il serait possible d'effectuer un zoom avant grâce à <span class="inline-code">initial-scale=2</span> ou encore un zoom arrière à l'aide de <span class="inline-code">initial-scale=0.5</span>.</p>
+
+<h3>Minimum-scale & maximum-scale</h3>
+
+<p>Ces parties permettent de définir le zoom minimal ou maximal permis sur une page.</p>
+
+<h3>User-scalable</h3>
+
+<p>Lorsque cette partie est présente et qu'elle est définie à <span class="inline-code">no</span>, par exemple <span class="inline-code">user-scalable: no</span>, il est impossible pour l'usager d'agrandir ou de rapetisser la page en utilisant les fonctionnalités de zoom.</p>
+
+<warning>L’utilisation du <span class="inline-code">user-scalable=no</span> est déconseillé puisqu’elle peut causer des problèmes d’accessibilité.</warning>
+
+<dots></dots>
+
+
+<grostitre>Description</grostitre>
+
+<p>La balise <span class="inline-code">&lt;meta name=&quot;description&quot;&gt;</span> permet de fournir une brève description d'approximativement 155 caractères qui sera affichée sur les moteurs de recherche et qui sera utilisée par les navigateurs au moment de la création d'un favoris.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="html">&lt;meta name=&quot;description&quot; content=&quot;Programme de Techniques d&#039;int&eacute;gration multim&eacute;dia du Coll&egrave;ge Montmorency situ&eacute; &agrave; Laval, Qu&eacute;bec.&quot;&gt;</highlight>
+
+<p>Génèrera l'aperçu suivant sur Google:</p>
+
+<img src="images/google-tim-montmorency.png">
+
+<dots></dots>
+
+
+<grostitre>Keywords</grostitre>
+
+<p>La balise <span class="inline-code">&lt;meta name=&quot;keywords&quot;&gt;</span> permet de définir des mots-clés associés à la page courante.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="html">&lt;meta property=&quot;keywords&quot; content=&quot;Audio, Vid&eacute;o, Animation, Programmation, 3D&quot;&gt;</highlight>
+
+<info>Jadis très important, les keywords ont perdu beaucoup de leur influence ces dernières années.</info>
+
+<dots></dots>
+
+
+<grostitre>Langage</grostitre>
+
+<p>la balise <span class="inline-code">&lt;meta name=&quot;langage&quot;&gt;</span> permet de spécifier la langue de la page affichée sous un <a target="_blank" href="https://fr.wikipedia.org/wiki/Liste_des_codes_ISO_639-1">format ISO 639-1</a> <em>(2 caractères)</em>.</p>
+
+<p>Par exemple pour un site en français:</p>
+
+<highlight lang="html">&lt;meta name=&quot;langage&quot; content=&quot;FR&quot;&gt;</highlight>
+
+<info>De plus en plus ce meta est abandonné et la langue est spécifiée sur la balise <span class="inline-code">&lt;html&gt;</span> elle-même grâce à l’attribut lang. Par exemple, <span class="inline-code">&lt;html lang=&quot;fr&quot;&gt;</span>.</info>
+
+<dots></dots>
+
+
+<grostitre>Copyright</grostitre>
+
+<p>Comme son nom l'indique, la balise <span class="inline-code">&lt;meta name=&quot;copyright&quot;&gt;</span> permet de spécifier que les médias et textes contenus sur une page appartiennent à une personne ou une entité.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="html">&lt;meta name=&quot;copyright&quot; content=&quot;Coll&egrave;ge Montmorency&quot;&gt;</highlight>
+
+<dots></dots>
+
+
+<grostitre>Author</grostitre>
+
+<p>La balise <span class="inline-code">&lt;meta name=&quot;author&quot;&gt;</span> permet de donner le crédit à la personne ou la compagnie aillant réaliser une page web.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="html">&lt;meta name=&quot;author&quot; content=&quot;Elmon Musk&quot;&gt;</highlight>
+
+<dots></dots>
+
+
+<grostitre>Robots</grostitre>
+
+<p>La balise <span class="inline-code">&lt;meta name=&quot;robots&quot;&gt;</span> permet d'indiquer aux robots d'exploration des moteurs de recherche <em>(Google, Bing, Yahoo)</em> comment une page devrait être indexée.</p>
+
+<p>Voici quelques-unes des valeurs possibles:</p>
+
+<ul>
+  <li><span class="inline-code">index</span> indexer la page <em>(par défaut, autrement dit, même si ce meta est omis, la page sera indexée)</em>.</li>
+  <li><span class="inline-code">noindex</span> ne pas indexer la page.</li>
+  <li><span class="inline-code">nofollow</span> na pas indexer aucun lien.</li>
+  <li><span class="inline-code">noimageindex</span> ne pas indexer les images.</li>
+</ul>
+
+<p>Par exemple:</p>
+
+<highlight lang="html">&lt;meta name=&quot;robots&quot; content=&quot;noindex&quot;&gt;</highlight>
+
+<dots></dots>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

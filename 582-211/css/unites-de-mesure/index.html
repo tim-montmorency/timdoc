@@ -1,0 +1,172 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Unités de mesure</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 2</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.webp">&nbsp;Unités de mesure</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">L'unité CSS permet de dire au navigateur l'échelle à utiliser pour une valeur de taille donnée.</p>
+
+<p>Par exemple, si je souhaite donner une marge à mes paragraphes, je pourrais utiliser le code suivant:</p>
+
+<highlight lang="css">p { margin: 20px; }</highlight>
+
+<p>Dans ce cas, j'ai:</p>
+
+<ul>
+    <li>Un sélecteur: <span class="inline-code">p</span></li>
+    <li>Une propriété: <span class="inline-code">margin</span></li>
+    <li>Une valeur: <span class="inline-code">20px</span></li>
+</ul>
+
+<p>Cette valeur est à son tour composé de deux éléments: une taille <span class="inline-code">20</span> et une unité CSS <span class="inline-code">px</span>. Combiné, ce code permet de dire au navigateur d'appliquer une marge de 20px à tous mes paragraphes. Bien que l'unité <span class="inline-code">px</span> soit la plus fréquente, elle n'est pas toujours la mieux adaptée à toutes les situations.</p>
+
+<p>Voyons voir pourquoi ✨</p>
+
+<dots></dots>
+
+<grostitre>Absolues</grostitre>
+
+<p>Les unités absolues gardent leurs dimensions, peu importe leur contexte. Ces unités sont pratiques pour des éléments que l'on souhaite immuables.</p>
+
+<warning>Les unités absolues peuvent causer des enjeux lorsque l’on souhaite créer des sites responsives.</warning>
+
+<p>Les pixels <em>(px)</em> sont l'unité absolue la plus répandue, ce qui fait du sens puisque la majorité des codes CSS sont écrits pour gérer l'affichage sur un écran. Néanmoins, il existe plusieurs autres valeurs absolues:</p>
+
+<ul>
+    <li><span class="inline-code">cm</span> - Centimètres</li>
+    <li><span class="inline-code">mm</span> - Millimètres</li>
+    <li><span class="inline-code">in</span> - Pouces</li>
+</ul>
+
+<dots></dots>
+
+
+<grostitre>Relatives</grostitre>
+
+<p>Contrairement aux unités absolues, les unités relatives se basent sur la dimension d'un parent pour déterminer leur dimension, ce qui les rend particulièrement utiles pour créer un site web responsive.</p>
+
+<p>Ces unités peuvent paraîtres plus complexes de prime abord, mais leur utilisation permet souvent d'éviter de redéfinir des valeurs en fonctions des multiples résolutions d'écrans supportées.</p>
+
+<ul>
+    <li><span class="inline-code">%</span> - Relatif au parent</li>
+    <li><span class="inline-code">em</span> - Relatif à la taille fonte courante</li>
+    <li><span class="inline-code">rem</span> - Relatif à la taille à la racine du document <span class="inline-code">&lt;html&gt;</span></li>
+</ul>
+
+<h3>Relatives vs Absolues</h3>
+
+<clipasset src="videos/relatives-vs-absolues.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>Quand utiliser quelle unité?</grostitre>
+
+<p>Voici quelques exemples où une unité est préférable à une autre.</p>
+
+<h3>%</h3>
+
+<p>Pour qu'un élément prenne la moitié de la largeur de son parent, peu importe la largeur du parent en question.</p>
+
+<highlight lang="css">.element { width: 50%; }</highlight>
+
+<h3>em</h3>
+
+<p>Pour qu'un texte ayant la classe <span class="inline-code">.small</span> ait une taille équivalente à la moitié du texte courant, peu importe la taille du texte courant.</p>
+
+<highlight lang="css">.small { font-size: 0.5em; }</highlight>
+
+<h3>rem</h3>
+
+<p>Pour que nos éléments de titre affichent toujours de la même taille, soit 2x celle de notre texte de base, peu importe la taille du texte courant.</p>
+
+<highlight lang="css">.title { font-size: 2rem; }</highlight>
+
+<dots></dots>
+
+
+<grostitre>En résumé</grostitre>
+
+<p>Pour choisir la bonne unité CSS vous devrez vous poser les questions suivantes:</p>
+
+<ul>
+    <li>Est-ce que cet élément devrait toujours avoir une taille fixe?</li>
+    <li>Si non, quel élément devrait le faire varier? La dimension de son parent, la taille de la fonte courante ou celle à la base du document, etc.</li>
+</ul>
+
+<info>0, peu importe l’unité de mesure, reste 0. Il n’est donc pas nécessaire de spécifier l’unité de mesure: 0px, 0em, 0% = 0.</info>
+
+<knowmore href="https://www.digitalocean.com/community/tutorials/css-css-units-explained">CSS Units Explained</knowmore>
+
+<dots></dots>
+
+
+
+
+
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

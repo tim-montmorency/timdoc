@@ -1,0 +1,165 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../shared/styles/styles.min.css">
+        <script src="../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../shared/';</script>
+        <title>HTML</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"><a href="../">Web 2</a> ></div>
+                <div id="title"><img src="images/icon.png">&nbsp;HTML</div>
+            </div>
+            <article>
+                <div id="listing">
+                    <div class="list-grid">
+                        <!-- LIST HEADER EOF -->
+
+                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(citation/images/icon.png);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="citation/">Citation</a></span>
+                                <span class="list-grid__item__abstract">q, blockquote, cite</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(details-et-summary/images/icon.png);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="details-et-summary/">Details & Summary</a></span>
+                                <span class="list-grid__item__abstract">Les balises &lt;details&gt; et &lt;summary&gt;</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(emmet/images/icon.png);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="emmet/">Emmet</a></span>
+                                <span class="list-grid__item__abstract">Accélérateur de code</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(favicon/images/icon.png);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="favicon/">Favicon</a></span>
+                                <span class="list-grid__item__abstract">icônes de navigateur</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(figure/images/icon.png);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="figure/">Figure</a></span>
+                                <span class="list-grid__item__abstract">Légende de média</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(formulaire/images/icon.png);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="formulaire/">Formulaire</a></span>
+                                <span class="list-grid__item__abstract">text, label, form, submit</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(formulaire-avance/images/icon.png);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="formulaire-avance/">Formulaire avancé</a></span>
+                                <span class="list-grid__item__abstract">number, password, email, tel, date, etc.</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(formulaire-intermediaire/images/icon.png);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="formulaire-intermediaire/">Formulaire intermédiaire</a></span>
+                                <span class="list-grid__item__abstract">radio, checkbox, select, textarea</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(iframe/images/icon.png);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="iframe/">iFrame</a></span>
+                                <span class="list-grid__item__abstract">youtube, vimeo, google map, etc.</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(image/images/icon.png);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="image/">Image</a></span>
+                                <span class="list-grid__item__abstract">La balise &lt;img&gt; permet d'afficher une image</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(metadonnees/images/icon.png);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="metadonnees/">Métadonnées</a></span>
+                                <span class="list-grid__item__abstract">type, title, description, image, url, etc.</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(microdonnees/images/icon.png);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="microdonnees/">Microdonnées</a></span>
+                                <span class="list-grid__item__abstract">itemscope, itemtype, itemprop</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(open-graph-protocol/images/icon.png);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="open-graph-protocol/">Open Graph Protocol</a></span>
+                                <span class="list-grid__item__abstract">type, title, description, image, url, etc.</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(picture/images/icon.png);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="picture/">Picture</a></span>
+                                <span class="list-grid__item__abstract">Définir plusieurs sources à une image</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(resume/images/icon.png);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="resume/">Résumé</a></span>
+                                <span class="list-grid__item__abstract">Résumé du HTML 5</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(svg/images/icon.png);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="svg/">SVG</a></span>
+                                <span class="list-grid__item__abstract">Scalable Vector Graphics</span>
+                            </div>
+                        </div>
+                        <!-- LIST FOOTER SOF -->
+                    </div>
+                </div>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

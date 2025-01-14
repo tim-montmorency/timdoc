@@ -1,0 +1,172 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>Examen - Birds of Prey</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Examen - Birds of Prey</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p class="spacer">Pour cet examen, nous allons recréer une affiche animée du film <a target="_blank" href="https://www.imdb.com/title/tt7713068/">Birds of Prey</a>.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<clipasset src="./videos/apercu.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>Matériel</grostitre>
+
+<doclink href="./birds-of-prey.zip">Dossier de départ</doclink>
+
+<h3>Couleurs 🎨</h3>
+
+<color>#33c1a7</color>
+<color>#6ffeac</color>
+<br>
+<color>#f7e700</color>
+<color>#333333</color>
+
+<br>
+
+<warning>Pour une meilleure exécution de l'examen, la plupart des éléments HTML ont été cachés par défaut dans le fichier CSS. Rendez-les visible au fur et à mesure que vous avancez dans l'examen.</warning>
+<thumbsup>Prenez le temps de bien analyser le fichier HTML.</thumbsup>
+
+<dots></dots>
+
+
+<grostitre>Requis de base</grostitre>
+
+<checklist>
+  Créez une variable pour chacune des couleurs pour utilisation ultérieure.
+  L'arrière-plan de la page doit être de couleur grise.
+  Ajoutez-lui un gradient de <em>bleu</em> à <em>jaune</em> partant du coin supérieur gauche pour aller au coin inférieur droit.
+  Fusionnez les fonds en mode <span class="inline-code">screen</span> afin de donner un effet délavé.
+</checklist>
+
+<grostitre>Requis affiche</grostitre>
+
+<checklist>
+  L'affiche (<span class="inline-code">.poster</span>) doit avoir une largeur équivalente à <em>80%</em> du plus petit côté de la fenêtre, avoir une hauteur de <em>3/4</em> de sa largeur et être centré dans la page tant horizontalement que verticalement.
+  Elle doit avoir un dégradé allant du <em>vert</em> au <em>bleu</em> en partant du coin supérieur gauche pour aller au coin inférieur droit.
+  Ajoutez-lui un ombrage de <em>100px</em> égal de tout les côtés de couleur <em>noire</em> semi-transparente.
+  Lorsque hauteur de la fenêtre devient plus grande ou égale à la largeur, l'affiche doit devenir carré.
+</checklist>
+
+<grostitre>Requis arrière-plan</grostitre>
+
+<checklist>
+  Placez l'arrière-plan de l'affiche (<span class="inline-code">.bg</span>) en position absolue prenant tout l'espace disponible tant en largeur qu'en hauteur.
+  À l'aide de la propriété <span class="inline-code">object-fit</span> faites-en sorte que l'exédentaire soit rogné et que le focus soit mit sur le coin inférieur gauche de sorte que cette portion de l'image ne soit jamais rognée.
+  Fusionnez l'arrière-plan de sorte qu'il agisse comme filtre de luminosité avec l'affiche.
+  Faites-en sorte que l'élément <span class="inline-code">.bg</span> soit complètement transparent par défaut et que lorsque l'on survole l'affiche, il devienne complètement opaque en l'espace de <em>0.5 seconde</em>.
+</checklist>
+
+<grostitre>Requis logo</grostitre>
+
+<checklist>
+  Le logo (<span class="inline-code">.logo</span>) doit être positionné de manière absolue et prendre un maximum de <em>100%</em> de la largeur de l'affiche.
+  Appliquez-lui un filtre <span class="inline-code">drop-shadow()</span> de <em>20px</em> égal de tous les côtés de couleur <em>noire</em> semi-transparente.
+  Modifiez la balise <span class="inline-code">picture</span> du fichier HTML de sorte que la source de l'image change pour le logo vertical lorsque la hauteur de la fenêtre devient égale ou plus grande à sa largeur.
+  Toujours dans la balise <span class="inline-code">picture</span>, faites-en sorte que la source de l'image change pour le petit logo lorsque la largeur devient plus petite ou égale à <em>600px</em>.
+</checklist>
+
+<grostitre>Requis Harley Quinn</grostitre>
+
+<checklist>
+  Harley Quinn (<span class="inline-code">.harley</span>) doit être positionnée de manière absolue dans le bas de l'affiche à <em>-10%</em> de la droite et mesurer <em>110%</em> en hauteur de sorte qu'elle dépasse en haut et à droite.
+  Lorsque la hauteur de la fenêtre devient plus grande ou égale à la largeur, faites-en sorte que Harley passe par dessus le logo.
+</checklist>
+
+<grostitre>Requis crédits</grostitre>
+
+<checklist>
+  À l'aide de <span class="inline-code">@font-face</span>, importez la police d'écriture <span class="inline-code">DcFandom-orr4.ttf</span> et nommez la <em>DcFandom</em>. N'oubliez pas le format.
+  L'élément <span class="inline-code">.credits</span> doit être positionné de manière absolue à <em>10px</em> du bas, <em>150px</em> de la gauche et avoir une largeur de <em>50px</em>.
+  À l'aide du pseudo-élément <span class="inline-code">::before</span>, ajoutez le texte "Presented by" à <em>-140px</em> de la gauche et centrez le verticalement.
+  Il doit avoir une grosseur de police d'écriture de <em>16px</em>, avoir la police d'écriture <em>DcFandom</em> et être de couleur <em>jaune</em>.
+  L'élément SVG <span class="inline-code">.dc</span> doit être aussi de couleur <em>jaune</em>.
+</checklist>
+
+<grostitre>Requis plume</grostitre>
+
+<checklist>
+  La plume (<span class="inline-code">.feather</span>) doit être positionnée de manière absolue à <em>25%</em> de la largeur de la fenêtre à gauche et avoir une hauteur correspondant à <em>10%</em> de la hauteur de la fenêtre.
+  Créez une animation nommée <em>feather</em> faisant descendre la plume de <em>-100%</em> à <em>100vh</em> en <em>5 secondes</em> de manière linéaire et infinie.
+</checklist>
+
+<grostitre>Remise</grostitre>
+
+<checklist>
+  Renommez votre dossier <em>"birds_[nom]_[prenom]"</em>.
+  Zippez votre dossier <em>"birds_[nom]_[prenom]"</em>.
+  Joignez votre fichier <em>.zip</em> au devoir <em>"EX02: Birds of Prey"</em>.
+</checklist>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+<doclink href="../../../../582-215MO/">Timdoc / 582-215MO</doclink>
+
+<dots></dots>
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

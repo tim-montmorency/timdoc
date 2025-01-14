@@ -1,0 +1,276 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>Nirvana - Nevermind</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Nirvana - Nevermind</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p class="spacer">Pour cet exercice, vous devez écrire du CSS afin de recréer la pochette de l’album <a target="blank" href="https://open.spotify.com/album/2guirTSEqLizK7j9i1MTTZ">"Nevermind"</a> du mythique groupe grunge <a target="_blank" href="https://fr.wikipedia.org/wiki/Nirvana_(groupe)">Nirvana</a>.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<clipasset src="./videos/apercu.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>Matériel</grostitre>
+
+<doclink href="./nirvana-nevermind.zip">Dossier de départ</doclink>
+
+<h3>Fonts</h3>
+
+<doclink href="./BodoniPosterCompressed.zip">Bodoni Poster Compressed</doclink>
+<br>
+<doclink href="./FranklinGothicHeavy.zip">Franklin Gothic Heavy</doclink>
+
+<h3>Couleurs 🎨</h3>
+
+<color>#0083e4</color>
+<color>#00c5ff</color>
+<br>
+<color>#1a1a1d</color>
+<color>#555555</color>
+<color>#ffffff</color>
+
+<h3>Médias</h3>
+
+<mediafile src="./images/pool.webp">Piscine</mediafile>
+<mediafile src="./images/baby.webp">Bébé</mediafile>
+<mediafile src="./images/dollar.webp">Dollar</mediafile>
+
+<br>
+
+<thumbsup>Prenez le temps d'analyser le fichier HTML.</thumbsup>
+<alert>Il est <strong>INTERDIT</strong> de modifier le HTML.</alert>
+
+<dots></dots>
+
+
+<grostitre>Requis de base</grostitre>
+
+<checklist>
+  Téléchargez les images et placez-les dans un dossier <span class="inline-code">images</span>.
+  Téléchargez les fonts et placez-les dans un dossier <span class="inline-code">fonts</span>.
+  Créez une variable pour chacune des couleurs pour utilisation ultérieure.
+  La couleur de fond de la page doit être de couleur <em>grise pâle</em> et avoir un dégradé vertical allant du <em>bleu foncé</em> au <em>bleu pâle</em>.
+  Fusionnez les deux fonds en mode <span class="inline-code">screen</span> afin de donner au gradient un effet délavé.
+  L'album doit avoir une dimension verticale et horizontale de <em>80%</em> du plus petit côté de la fenêtre, avoir un dégradé allant du <em>bleu pâle</em> au <em>bleu foncé</em> et avoir un ombrage de <em>100px</em> égal de tous les côtés de couleur <em>noire</em> semi-transparente.
+  Utilisez <span class="inline-code">transform</span> afin de positionner l'album au centre de la fenêtre.
+  Ajoutez l'image <span class="inline-code">pool.webp</span> à l'arrière-plan de sorte qu'il prenne tout l'espace disponible.
+  Fusionnez les deux fonds en mode <span class="inline-code">luminosity</span>.
+  Assurez-vous que rien ne dépasse de l'album.
+</checklist>
+
+<grostitre>Requis bébé</grostitre>
+
+<checklist>
+  Le bébé (<span class="inline-code">.baby</span>) doit avoir comme arrière-plan l'image <span class="inline-code">baby.webp</span> et doit prendre toute l'espace disponible.
+  Il doit avoir une largeur de <em>91.5%</em>, une hauteur de <em>60%</em> et être positionné à <em>3%</em> de la gauche et <em>12%</em> du haut.
+  Créez une animation permettant au bébé de flotter verticalement de <em>-3%</em> à <em>3%</em> de sa grosseur en <em>2 secondes</em>.
+  L'animation doit commencer lentement et ralentis en fin de parcours.
+</checklist>
+
+<grostitre>Requis dollar</grostitre>
+
+<checklist>
+  Le dollar (<span class="inline-code">.dollar</span>) doit avoir comme arrière-plan l'image <span class="inline-code">dollar.webp</span>, prendre toute l'espace disponible et être positionné dans le coin haut droit de l'élément.
+  Il doit mesurer <em>24.5%</em> en largeur, <em>45.5</em> en hauteur et être positionné en haut à <em>10%</em> de la droite.
+  Ajoutez-lui un filtre <a onclick="event.stopPropagation()" target="blank" href="https://developer.mozilla.org/fr/docs/Web/CSS/filter-function/drop-shadow">drop-shadow</a> <em>noir semi-transparent</em> de <em>0.7vmin</em> de grosseur et disposé à <em>-0.7vmin</em> de la gauche et <em>0.7vmin</em> du haut.
+  Vous aurez remarqué dans le HTML qu'il y a un filtre SVG nommé <em>water</em>. Appliquez-le au dollar en ajoutant le filtre <span class="inline-code">url(#water)</span>.
+  Afin de corriger la distortion du filtre <em>water</em>, ajouté lui une marge extérieur haut de <em>-5px</em>.
+  Lors du survol du dollar, il doit grossir d'un facteur de <em>1.1</em> en l'espace de <em>0.2 secondes</em>.
+  À l'aide de la pseudo-classe <span class="inline-code">:has()</span> faites en sorte de mettre sur <em>pause</em> l'animation du bébé lors du survol du dollar.
+</checklist>
+
+<grostitre>Requis logo</grostitre>
+
+<checklist>
+  Importez la police d'écriture <span class="inline-code">BodoniPosterCompressed.otf</span>, nommez la <em>Bodoni</em> et appliquez-la au <span class="inline-code">h1</span>.
+  Importez la police d'écriture <span class="inline-code">FranklinGothicHeavy.otf</span>, et nommez la <em>Franklin</em> et appliquez-la au <span class="inline-code">h2</span>.
+  L'élément <span class="inline-code">.logo</span> doit etre positionné à <em>4%</em> de la gauche et <em>4%</em> du bas.
+  L'élément <span class="inline-code">.stripe</span> doit mesurer <em>0.4vmin</em> et être de couleur <em>charcoal</em>.
+  Les textes doivent être centrés horizontalement et être de couleur <em>charcoal</em>.
+  Le nom du groupe doit avoir une grosseur de police d'écriture de <em>10vmin</em> et une hauteur de ligne de <em>8.5vmin</em>.
+  Le titre de l'album doit avoir une grosseur de police d'écriture de <em>4.5vmin</em>, une hauteur de ligne de <em>4.5vmin</em> et un espacement de lettres de <em>-0.05em</em>.
+  Pour lui donner un effet d'eau, ajoutez-lui le filtre <span class="inline-code">url(#water)</span>.
+  Afin de corriger la distorsion causé par le filtre, appliquez lui une marge exterieur haut et gauche de <em>-8px</em>.
+</checklist>
+
+<grostitre>Requis bulle</grostitre>
+
+<checklist>
+  L'élément <span class="inline-code">.bubble-wrapper</span> doit avoir une dimension de <em>2vmin</em> par <em>2vmin</em> et être positionné à <em>51%</em> de la gauche et <em>27%</em> du haut.
+  L'élément <span class="inline-code">.bubble</span> doit prendre tout l'espace disponible à l'intérieur de son parent, être de forme ronde et avoir une opacité de <em>50%</em>.
+  Ajoutez-lui un ombrage intérieur <em>blanc</em> égal de tous les côtés d'une dimension de <em>1vmin</em> avec une étendue de <em>0.5vmin</em>.
+  Afin de créer un effet de réflexion, utilisez le pseudo-élément <span class="inline-code">::after</span>.
+  Ce nouvel élément doit avoir une dimension de <em>50%</em> par <em>50%</em>, être positionné à <em>10%</em> du haut et <em>20%</em> de la droite, être de forme ronde, avoir une rotation de <em>30deg</em>, une déformation verticale de <em>0.7</em>, avoir un flou de <em>0.1vmin</em> et être de couleur <em>blanche</em>.
+  Avant d'animer la bulle, initialisez sa grosseur en ajoutant un scale à <em>0</em> à l'élément <span class="inline-code">.bubble-wrapper</span>.
+  Créez une animation nommée <span class="inline-code">bubble-rise</span> permettant de s'échapper de la bouche du bébé. L'animation doit s'exécuter ainsi:<br>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;<strong>0%</strong>: Un scale de <em>0</em> et une translation verticale de <em>0</em><br>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;<strong>20%</strong>: Un scale de <em>1</em> et une translation verticale de <em>-1vmin</em><br>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;<strong>100%</strong>: Un scale de <em>1</em> et une translation verticale de <em>-30vmin</em>
+  À l'aide de la pseudo-classe <span class="inline-code">:has()</span>, ajoutez cette animation à l'élément <span class="inline-code">.bubble-wrapper</span> lors du sorvol du dollar.
+  L'animation doit durer <em>3 secondes</em>, commencer lentement, jouer de façon infinie et garder son apparence à la fin de l'animation.
+  Créez une animation nommée <span class="inline-code">bubble</span> permettant à la bulle d'avoir un mouvement latéral. Elle doit se déplacer horizontalement de <em>-40%</em> à <em>40%</em>.
+  À l'aide de la pseudo-classe <span class="inline-code">:has()</span>, ajoutez cette animation à l'élément <span class="inline-code">.bubble</span> lors du sorvol du dollar.
+  L'animation doit durer <em>0.5 seconde</em>, faire des aller-retours, jouer de façon infinie, commencer lentement et ralentir en fin de parcours.
+</checklist>
+
+<dots></dots>
+
+
+<grostitre>Ambiance</grostitre>
+
+<youtube src="pkcJEvMcnEg"></youtube>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../background/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../background/">Background</a></span>
+                <span class="intlink__item__abstract">color, image, gradient</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../linear-gradient/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../linear-gradient/">Linear-gradient</a></span>
+                <span class="intlink__item__abstract">Générer un dégradé.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../modes-de-fusion/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../modes-de-fusion/">Modes de fusion</a></span>
+                <span class="intlink__item__abstract">multiply, screen, overlay, etc.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../box-shadow/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../box-shadow/">Box-shadow</a></span>
+                <span class="intlink__item__abstract">Ombrage d'un élément.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../unites-de-mesure-avancees/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../unites-de-mesure-avancees/">Unités de mesure avancées</a></span>
+                <span class="intlink__item__abstract">vw, vh, vmin, vmax, calc, min, max, clamp</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../transformation/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../transformation/">Transformation</a></span>
+                <span class="intlink__item__abstract">translate, rotate, scale, skew, origin</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../transition/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../transition/">Transition</a></span>
+                <span class="intlink__item__abstract">passer d'un état A à un état B</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../animation/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../animation/">Animation</a></span>
+                <span class="intlink__item__abstract">@keyframes, animation-name, animation-duration, etc.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../font-face/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../font-face/">@font-face</a></span>
+                <span class="intlink__item__abstract">Importer des polices d'écritures</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../opacite/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../opacite/">Opacity</a></span>
+                <span class="intlink__item__abstract">Gérer l'opacité d'un élément.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../filtres/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../filtres/">Filtres</a></span>
+                <span class="intlink__item__abstract">blur, contrast, grayscale, sepia, etc.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../pseudo-classes-avancees/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../pseudo-classes-avancees/#has">Pseudo-classes avancées</a></span>
+                <span class="intlink__item__abstract">:first-of-type, :only-of-type, :empty, :not, :has</span>
+            </div>
+        </div>
+
+<dots></dots>
+
+
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

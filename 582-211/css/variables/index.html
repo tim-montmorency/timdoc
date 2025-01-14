@@ -1,0 +1,211 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Variables</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 2</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/css/">CSS</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="images/icon.webp">&nbsp;Variables</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">L'arrivée des variables CSS a été une grande avancée permettant d'éviter des répétitions inutiles, de faciliter la lisibilité du code et d'ajouter une couche de flexibilité au CSS.</p>
+
+<p>Voici un exemple de répétitions <em>(red)</em></p>
+
+<highlight lang="css">.spider-man .head { background-color: red; }
+.spider-man .eye { background-color: white; }
+.spider-man .body { background-color: red; }
+.spider-man .leg { background-color: red; }</highlight>
+
+<p>Ce code fonctionne. Cependant, si pour X raisons il est décidé de passer de la version Spider-man Peter Parker vers celle Miles Morales, il faudra modifier chacune des valeurs <span class="inline-code">red</span> pour les mettre à <span class="inline-code">blue</span>. Ce qui requiert du temps et représentera un risque d'erreurs.</p>
+
+<img src="./images/var-css-spider-man.png">
+
+<dots></dots>
+
+
+<grostitre>Définition</grostitre>
+
+<p>Pour définir une variable globale à la racine du document <em>(ou en anglais root)</em>, il suffit d'écrire:</p>
+
+<highlight lang="css">:root {
+  --nom-de-la-variable: valeur;
+}</highlight>
+
+<p>Puisque les variables sont héritées, tous les éléments de la page y ont accès, puisqu'ils sont tous enfants de la racine du document.</p>
+
+<warning>Remarquez-le <span class="inline-code">:</span> avant le mot-clé root, ainsi que les <span class="inline-code">--</span> avant le nom de la variable.</warning>
+
+<p>Pour accéder à une variable, on écrit:</p>
+
+<highlight lang="css">var(--nom-de-la-variable)</highlight>
+
+<p>Pour reprendre l'exemple de Spider-man, il serait possible d'écrire:</p>
+
+<highlight lang="css">:root { --costume: red; }
+
+.spider-man .head { background-color: var(--costume); }
+.spider-man .eye { background-color: white; }
+.spider-man .body { background-color: var(--costume); }
+.spider-man .leg { background-color: var(--costume); }</highlight>
+
+<p>Ainsi, simplement en changeant la valeur de la variable <span class="inline-code">--costume</span> de <span class="inline-code">:root { --costume: red; }</span> à <span class="inline-code">:root { --costume: blue; }</span> il serait possible de changer la couleur de Spider-man en entier rapidement et sans risque d'erreur.</p>
+
+<p>Notez qu'il est possible de définir plusieurs variables CSS dans le même élément <span class="inline-code">:root { ... }</span>.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="css">:root {
+  --costume: red;
+  --yeux: white;
+}</highlight>
+
+<info>En fait, un seul <span class="inline-code">:root{ ... }</span> est normalement défini.</info>
+
+<dots></dots>
+
+
+<grostitre>Contexte (scope)</grostitre>
+
+<p>Dans l'exemple précédent, notre variable CSS était définie au <span class="inline-code">root</span> du document. Cependant, il est possible de définir une variable à l'intérieur d'un sélecteur CSS, de sorte que cette variable ne soit disponible uniquement qu'à l'intérieur du sélecteur et de ses enfants.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="css">.spider-man { --costume: red; }
+
+.spider-man .head { background-color: var(--costume); }
+.spider-man .eye { background-color: white; }
+.spider-man .body { background-color: var(--costume); }
+.spider-man .leg { background-color: var(--costume); }</highlight>
+
+<p>Ainsi, la variable <span class="inline-code">--costume</span> n'existe que dans le contexte du sélecteur <span class="inline-code">.spider-man</span>. Si elle était utilisée dans un autre sélecteur, par exemple: <span class="inline-code">.green-goblin</span>, elle ne retournerait aucune valeur et donc serait ignorée par le navigateur.</p>
+
+<h3>Écraser une variable</h3>
+
+<p>En donnant un contexte plus spécifique, il est possible d'écraser la valeur d'une variable.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="css">:root { --costume: red; }
+
+.spider-man .head { background-color: var(--costume); }
+.spider-man .eye { background-color: white; }
+.spider-man .body { background-color: var(--costume); }
+.spider-man .leg { background-color: var(--costume); }
+
+.green-goblin { --costume: green; }
+.green-goblin .head { background-color: var(--costume); }
+.green-goblin .eye { background-color: white; }
+.green-goblin .body { background-color: var(--costume); }
+.green-goblin .leg { background-color: var(--costume); }</highlight>
+
+<p>Dans cet exemple, la variable <span class="inline-code">--costume</span> à la valeur <span class="inline-code">red</span> dans le contexte globale des styles. Ainsi, si un personnage n'écrase pas cette variable, son costume sera automatiquement rouge. Tandis que le sélecteur <span class="inline-code">.green-goblin</span> redéfinit la valeur de cette variable dans son propre contexte à <span class="inline-code">green</span>.</p>
+
+<warning>Même si un personnage est défini après <span class="inline-code">.green-goblin</span>, s’il utilise la variable <span class="inline-code">--costume</span>, celle-ci retournera <span class="inline-code">red</span>, car la valeur <span class="inline-code">green</span> n’est retournée qu’à l’intérieur du contexte du sélecteur <span class="inline-code">.green-goblin</span>.</warning>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/Using_CSS_custom_properties">var()</doclink>
+<doclink href="https://www.w3schools.com/css/css3_variables.asp">var()</doclink>
+
+<img src="./images/css-var-green-goblin.jpg">
+
+<dots></dots>
+
+
+<grostitre>Résumé vidéo</grostitre>
+
+<youtube src="NtRmIp4eMjs"></youtube>
+
+<dots></dots>
+
+        <a class="exercice" target="_blank" href="exercices/jidddf/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/jidddf/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Variables - Journée Internationale des Droits des Femmes</span>
+                    <span class="exercice-description">Pour cet exercice, vous devrez incorporer des variables CSS dans un projet sur la Journée Internationale des Droits des Femmes.</span>
+                </div>
+            </div>
+        </a>
+        <a class="exercice" target="_blank" href="exercices/canadiens/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/canadiens/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Variables - Canadiens</span>
+                    <span class="exercice-description">Pour cet exercice, vous devrez incorporer des variables CSS dans un projet reproduisant en CSS le logo du club de hockey des Canadiens de Montréal.</span>
+                </div>
+            </div>
+        </a>
+        <a class="exercice" target="_blank" href="exercices/lakers/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/lakers/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Variables - Lakers</span>
+                    <span class="exercice-description">Pour cet exercice, vous devrez incorporer des variables CSS dans un projet tentant de reproduire de façon minimaliste en CSS l’uniforme des Lakers de Los Angeles, la célèbre équipe de basketball 🏀.</span>
+                </div>
+            </div>
+        </a>
+
+<dots></dots>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

@@ -1,0 +1,229 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>Harmonium - L'Heptade</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Harmonium - L'Heptade</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p class="spacer">Pour cet exercice, vous devez écrire du CSS afin de recréer la pochette de l’album <a target="_blank" href="https://open.spotify.com/album/5d9pJ6C7Ri0PUsXvAT8ghk">"L'Heptade"</a> du mythique groupe québécois <a target="_blank" href="https://fr.wikipedia.org/wiki/Harmonium_(groupe)">Harmonium</a>.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<clipasset src="./videos/apercu.mp4"></clipasset>
+
+<dots></dots>
+
+
+<grostitre>Matériel</grostitre>
+
+<doclink href="./harmonium-l-heptade.zip">Dossier de départ</doclink>
+
+<h3>Polices d'écriture 🚓</h3>
+
+<doclink href="./Revival565Italic.zip">Revival 565 Italic</doclink>
+
+<h3>Couleurs 🎨</h3>
+
+<color>#333333</color>
+<color>#0a0e11</color>
+<color>#a53324</color>
+<color>#d1b997</color>
+
+<h3>Médias 📷</h3>
+
+<mediafile src="./images/cloud-top.webp">Nuage haut</mediafile>
+<mediafile src="./images/cloud-middle.webp">Nuage centre</mediafile>
+<mediafile src="./images/cloud-bottom.webp">Nuage bas</mediafile>
+
+<br>
+
+<warning>Pour une meilleure exécution de l'exercice, certains des éléments HTML ont été cachés par défaut dans le fichier CSS. Rendez-les visible au fur et à mesure que vous avancez dans l'exercice.</warning>
+<thumbsup>Prenez le temps d'analyser le fichier HTML.</thumbsup>
+<alert>Il est <strong>INTERDIT</strong> de modifier le fichier HTML.</alert>
+
+<dots></dots>
+
+
+<grostitre>Requis de base</grostitre>
+
+<checklist>
+    Téléchargez les images et placez-les dans un dossier <span class="inline-code">images</span>.
+    Téléchargez police d'écriture et placez-la dans un dossier <span class="inline-code">fonts</span>.
+    Créez une variable pour chacune des couleurs pour utilisation ultérieure.
+    Le fond de la page doit être de couleur <em>grise</em> et avoir un dégradé vertical allant du <em>charcoal</em> au <em>rouge</em> partant du coin haut gauche pour aller au coin bas droit.
+    Fusionnez les deux fonds en mode <span class="inline-code">screen</span> afin de donner au gradient un effet délavé.
+    L'album doit avoir une largeur de <em>80%</em> du plus petit côté de la fenêtre, être de forme carré, être centré tant horizontalement que verticalement, être de couleur <em>charcoal</em> et avoir un ombrage de <em>10vmin</em> égal de tous les côtés de couleur <em>noire</em> semi-transparente.
+    Assurez-vous que rien ne dépasse de l'album.
+</checklist>
+
+<grostitre>Requis textes</grostitre>
+
+<checklist>
+    À l'aide de <span class="inline-code">@font-face</span>, importez la police d'écriture <span class="inline-code">Revival565Italic.otf</span>, nommez-la <em>Revival</em> et appliquez-la aux textes. N'oubliez pas de spécifier le format.
+    Les textes doivent être positionnés de manière absolue, prendre tout l'espace disponible en largeur, avoir un alignement de texte centré, une grosseur de police d'écriture de <em>3.5vmin</em> et être de couleur <em>beige</em>.
+    Le nom du groupe (<span class="inline-code">h1</span>) doit être positionné à <em>15%</em> du haut et le titre de l'album (<span class="inline-code">h2</span>) à <em>91%</em> du haut.
+</checklist>
+
+<grostitre>Requis nuages</grostitre>
+
+<checklist>
+    La toile (<span class="inline-code">.canva</span>) doit être positionnée de manière absolue à <em>33.5%</em> du haut, être centré horizontalement grâce aux marges extérieur, avoir une largeur de <em>75%</em> et une hauteur de <em>54%</em> et avoir une <u>bordure intérieur</u> de <em>1.5vmin</em> solide de couleur <em>beige</em>.
+    Le conteneur de nuages (<span class="inline-code">.cloud-wrapper</span>) doit être positionné de manière absolue au centre de son parent, avoir une largeur de <em>70vmin</em>, une hauteur de <em>60vmin</em> et avoir une rotation de <em>25deg</em>. Utilisez le <span class="inline-code">background-color</span> pour bien visualiser cette étape.
+    Les nuages (<span class="inline-code">.cloud</span>) doivent être positionnés de manière absolue et prendre tout l'espace disponible en largeur.
+    Placez verticalement le nuage du haut à <em>-10%</em>, celui du milieu à <em>25%</em> et celui du bas à <em>60%</em>.
+    Afin de donner une teinte rouge aux nuages, vous devrez utiliser une série de filtres qui va comme suit: <span class="inline-code">invert(48%) sepia(13%) saturate(3207%) hue-rotate(320deg) brightness(80%) contrast(120%) blur(0.2vmin)</span>.
+    Assurez-vous que rien ne dépasse de la toile (<span class="inline-code">.canva</span>).
+</checklist>
+
+<grostitre>Requis animation</grostitre>
+
+<checklist>
+    Créez une animation nommée <span class="inline-code">cloud</span> appliquant une translation horizontale partant de <em>-100%</em> à <em>70vmin</em> et appliquez la aux nuages de façon linéaire et infinie.
+    La durée de l'animation du nuage du haut doit être de <em>24 secondes</em>, celui du milieu de <em>16 secondes</em> et celui du bas de <em>10 secondes</em>.
+</checklist>
+
+<grostitre>Ambiance</grostitre>
+
+<youtube src="8lT14QPL8Bw"></youtube>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../position/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../position/">Position</a></span>
+                <span class="intlink__item__abstract">static, relative, absolute, fixed, sticky</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../linear-gradient/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../linear-gradient/">Linear-gradient</a></span>
+                <span class="intlink__item__abstract">Générer un dégradé.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../background/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../background/">Background</a></span>
+                <span class="intlink__item__abstract">color, image, gradient</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../overflow/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../overflow/">Overflow</a></span>
+                <span class="intlink__item__abstract">visible, hidden, auto, scroll</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../opacite/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../opacite/">Opacity</a></span>
+                <span class="intlink__item__abstract">Gérer l'opacité d'un élément.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../font-face/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../font-face/">@font-face</a></span>
+                <span class="intlink__item__abstract">Importer des polices d'écritures</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../box-shadow/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../box-shadow/">Box-shadow</a></span>
+                <span class="intlink__item__abstract">Ombrage d'un élément.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../animation/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../animation/">Animation</a></span>
+                <span class="intlink__item__abstract">@keyframes, animation-name, animation-duration, etc.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../transformation/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../transformation/">Transformation</a></span>
+                <span class="intlink__item__abstract">translate, rotate, scale, skew, origin</span>
+            </div>
+        </div>
+
+<dots></dots>
+
+
+
+
+
+
+
+
+
+
+
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

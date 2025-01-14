@@ -1,0 +1,134 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../../shared/styles/styles.min.css">
+        <script src="../../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../../shared/';</script>
+        <title>Formulaire - Carte de crédit</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Formulaire - Carte de crédit</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p class="spacer">Pour cet exercice vous devrez compléter un formulaire de carte de crédit déjà entamé.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<clipasset src="videos/formulaire-carte-de-credit.mp4"></clipasset>
+
+
+<grostitre>Matériel</grostitre>
+
+<doclink href="https://codepen.io/tim-momo/pen/vYaoppO?editors=1100">Pen de départ</doclink>
+
+<h3>Couleurs 🎨</h3>
+
+<color>#eb001b</color>
+<color>#0000ff</color>
+
+<h3>Champs</h3>
+
+<p>Lorsque le formulaire est soumis, ses informations doivent-être envoyés en utilisant la méthode <span class="inline-code">get</span> à l'adresse suivante:</p>
+
+<highlight lang="text">https://tim-montmorency.com/timdoc/582-215MO/html/formulaire/exercices/carte-de-credit/submit/</highlight>
+
+<p>La page de résultat s'attend à recevoir les informations suivantes: <span class="inline-code">credit-card-number</span>, <span class="inline-code">expiry-date</span>, et <span class="inline-code">security-code</span>.</p>
+
+<dots></dots>
+
+
+<grostitre>Requis</grostitre>
+
+<checklist>
+    Créez 3 champs de texte. Chacun de ces champs sera requis afin de pouvoir soumettre le formulaire:<br>&nbsp;&nbsp;• Un pour le numéro de carte de crédit<br>&nbsp;&nbsp;• Un pour la date d'expiration<br>&nbsp;&nbsp;• Un pour le code de sécurité de la carte<br>
+    Tous les champs doivent avoir une marge intérieure équivalente à une demi-lettre et une bordure grise de 2px par défaut.
+    Chaque champ doit avoir un libellé cliquable attribuant le focus au champ qui lui est associé.<br>&nbsp;&nbsp;• <em>Numéro de carte</em><br>&nbsp;&nbsp;• <em>Expiration</em><br>&nbsp;&nbsp;• <em>Sécurité</em>
+    Le champ de carte de crédit doit prendre toute la largeur du formulaire, avoir des coins arrondis de 6px et affichez le texte indicatif <em>"4242 4242 4242 4242"</em> tant qu'aucune valeur ne lui est assignée.
+    Les champs de date d'expiration et de code de sécurité doivent prendre la moitié de la largeur du formulaire, s'afficher côte à côte, avoir à leurs extrémités extérieures des coins arrondis de 6px et affichez les textes indicatifs <em>"10/24"</em> et <em>"123"</em>.
+    Le code de sécurité doit avoir une longueur de 3 caractères. Ni plus ni moins.
+    Ajustez les espacements entre les éléments de votre formulaire afin de ressembler au résultat ci-dessus ☝️
+    Lorsque les champs sont valides, ceux-ci doivent avoir une bordure bleue 🔵. Dans le cas contraire, une bordure rouge 🔴.
+    Un bouton bleu 🔵 prenant toute la largeur du formulaire, avec des coins arrondis de 6px et affichant la mention <em>"Acheter maintenant"</em> doit permettre de soumettre le formulaire lorsque cliqué.
+</checklist>
+
+<info>Si votre formulaire est bien réalisé, vous devriez être en mesure de voir un message de confirmation s’afficher lorsque vous le soumettez.</info>
+
+<dots></dots>
+
+
+<grostitre>Bonus</grostitre>
+
+<checklist>
+    Assurez-vous que le numéro de carte de crédit est 19 caractères, ni plus ni moins.
+    Assurez-vous qu'un minimum de 4 caractères soit entré dans le champ <em>"date d'expiration"</em> et qu'un maximum de 5 soit permis. Ainsi, les dates d'expiration avec ou sans le <em>"/"</em> seront acceptées.
+</checklist>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../images/icon.png);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../formulaire/">Formulaire</a></span>
+                <span class="intlink__item__abstract">text, label, form, submit</span>
+            </div>
+        </div>
+
+<dots></dots>
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

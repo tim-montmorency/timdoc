@@ -1,0 +1,135 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../../shared/styles/styles.min.css">
+        <script src="../../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../../shared/';</script>
+        <title>Width/Height - Prévert</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Width/Height - Prévert</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+
+<p class="spacer">Pour cet exercice vous devrez en CSS compléter l’affichage du célèbre poème: Le cancre, du français <a target="_blank" href="https://fr.wikipedia.org/wiki/Jacques_Pr%C3%A9vert">Jacques Prévert</a>.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<img src="images/width-height-prevert-resultat.png">
+
+<dots></dots>
+
+
+<grostitre>Matériel</grostitre>
+
+<doclink href="https://codepen.io/tim-momo/pen/abjKVaQ?editors=1100">Pen de départ</doclink>
+
+<h3>Couleurs</h3>
+
+<color>#d6c3c9</color>
+<color>#fff</color>
+
+<dots></dots>
+
+
+<grostitre>Requis</grostitre>
+
+<checklist>
+  Attribuez la couleur de fond rose à la page et blanc au poème.
+  La taille de police pour le document doit-être de 10px par défaut. Cette taille est choisie afin de nous simplifier différents calculs.
+  Faites en sorte que le poème prenne la moitié de la largeur de la fenêtre, mais qu'il ne devienne jamais plus petit que 290px lorsque la fenêtre est étroite ou encore plus large que 500px lorsqu'elle est très large.
+  Attribuez au poème une taille de texte correspondant au double de la taille de police attribuée au document. Ainsi, le texte de base devrait avoir une taille de 20px <em>(2x10)</em> plutôt que 10px.
+  Afin de laisser respirer le poème, ajoutez-lui une marge intérieure correspondant à 4x la taille de police par défaut de tous les côtés.
+  Le titre du poème <em>(Le cancre)</em>, devrait avoir une taille de police équivalente à 6x celle de la police de base. Par défaut, tous les titres ont des marges verticales. Cependant, celles-ci sont indésirables dans ce contexte de mise en page. Veuillez donc les retirer.
+  Dans le but de faire ressortir le nom de l'auteur <em>(Jacques Prévert)</em>, attribuez-lui une taille de police de 2.5x la taille de base.
+  Afin de laisser respirer le contenu du poème, ajustez sa marge verticale extérieur ↕️. Par défaut, la balise paragraphe applique une marge verticale équivalente à une lettre. Dans ce cas, la marge souhaitée sera de 2 lettres.
+  Ajustez la taille de police des crédits afin que celle-ci corresponde à 1.5x la taille de police de base.
+  Attribuez des coins ronds au portrait de Prévert 🌄 de sorte que l'image semble circulaire et positionnez-là à 10px du bas et de la droite du poème ↘️.<br><br>Si tout fonctionne, vous devriez être en mesure de modifier la taille de police de base et de voir tous les textes s'ajuster proportionnellement en fonction de cette nouvelle taille, sans avoir à modifier quoi que ce soit d'autre.
+</checklist>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours</grostitre>
+
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../unites-de-mesure/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../unites-de-mesure/">Unités de mesure</a></span>
+                <span class="intlink__item__abstract">vw, vh, vmin, vmax, calc, min, max, clamp</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../width-height/">Width & Height</a></span>
+                <span class="intlink__item__abstract">min-width/height, max-width/height</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../position/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../position/">Position</a></span>
+                <span class="intlink__item__abstract">static, relative, absolute, fixed, sticky</span>
+            </div>
+        </div>
+
+<dots></dots>
+
+
+
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

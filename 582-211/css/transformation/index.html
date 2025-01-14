@@ -1,0 +1,243 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Transformation</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 2</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/css/">CSS</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="images/icon.webp">&nbsp;Transformation</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">La propriété CSS <span class="inline-code">transform</span> permet d'effectuer des transformations géométriques sur un élément. Contrairement aux propriétés traditionnelles, elle accepte plusieurs valeurs. Il est même possible d'effectuer des combinaisons afin d'accomplir des transformations complexes.</p>
+
+<p>Comparativement aux autres propriétés, par exemple: <span class="inline-code">top</span> ou <span class="inline-code">left</span>, la propriété <span class="inline-code">transform</span> n'a aucun impact sur le positionnement des éléments adjacents.</p>
+
+<dots></dots>
+
+
+<grostitre>translate ↔️</grostitre>
+
+<p>Par défaut, cette valeur accepte un ou deux arguments entre parenthèses. Le 1er correspond à une translation sur les X ↔️ et le 2e, <em>(si présent)</em>, sur les Y ↕️. Les arguments peuvent-être n'importe quelle <a href="../unites-de-mesure/">unité de mesure CSS</a> <em>(px, em, %, etc.)</em></p>
+
+<p>Un translate avec un seul argument déplace l'élément sur les X ↔️.</p>
+
+<highlight lang="css">transform: translate(100%);</highlight>
+
+<p>Tandis qu'avec deux arguments séparés par une virgule l'élément se déplace sur les X et Y ↘️.</p>
+
+<highlight lang="css">transform: translate(100%, 100%);</highlight>
+
+<p>Voir l'exemple ci-dessous:</p>
+
+<codepen id="RwBdpLQ" tab="result" height="340"></codepen>
+
+<span class="remark">À gauche, transform: translate(100%, 0);<br>À droite, transform: translate(100%, 100%);</span>
+
+<p>Dans le cadre d'une translation, les % sont relatifs à la dimension de l'élément en question.</p>
+
+<ul>
+  <li>100% sur les X = Une largeur de l'élément.</li>
+  <li>100% sur les Y = Une hauteur de l'élément.</li>
+</ul>
+
+<p>Il est possible d'effectuer une translation sur un seul axe en spécifiant cet axe dans la nom de la valeur. Par exemple:</p>
+
+<ul>
+  <li><span class="inline-code">translateX(...)</span> uniquement sur les X <em>(équivaut à <span class="inline-code">translate(...)</span> )</em></li>
+  <li><span class="inline-code">translateY(...)</span> uniquement sur les Y</li>
+  <li><span class="inline-code">translateZ(...)</span> uniquement sur les Z</li>
+</ul>
+
+<warning>Pour qu’une translation sur l’axe des Z soit perceptible, il est nécessaire qu’une perspective soit donnée à l’élément ou à l’un de ses parents.</warning>
+
+<p>Il est également possible de combiner les 3 axes dans une valeur en utilisant <span class="inline-code">translate3d(...)</span>.</p>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/transform-function/translate()">transform: translate()</doclink>
+
+<dots></dots>
+
+
+<grostitre>rotate</grostitre>
+
+<p>Cette valeur accepte comme argument les unités de type:</p>
+
+<ul>
+  <li><span class="inline-code">deg</span> degrés | 360 degrés dans un cercle/li>
+  <li><span class="inline-code">turn</span> turns | 1 turn/tour dans un cercle</li>
+</ul>
+
+<p>Qui plus est, cette valeur peut-être:</p>
+
+<ul>
+  <li>Positive pour aller dans le sens horaire des aiguilles d'une montre</li>
+  <li>Négative pour aller dans le sens inverse</li>
+</ul>
+
+<p>Par exemple, une rotation de 45° dans le sens horaire:</p>
+
+<codepen id="VwBRWqK" tab="css,result" height="340"></codepen>
+
+<info>Remarquez dans l’exemple précédent comment il est possible de combiner deux valeurs de transformation en les séparant avec un espace.</info>
+
+<p>Il est possible d'effectuer une rotation sur un seul axe en spécifiant cet axe dans la nom de la valeur. Par exemple:</p>
+
+<ul>
+  <li><span class="inline-code">rotateZ(...)</span> uniquement sur les Z <em>(équivaut à <span class="inline-code">rotate(...)</span> )</em></li>
+  <li><span class="inline-code">rotateX(...)</span> uniquement sur les X</li>
+  <li><span class="inline-code">rotateY(...)</span> uniquement sur les Y</li>
+</ul>
+
+<p>Par exemple: RotationX vs RotationY</p>
+
+<codepen id="oNMVwVx" tab="result" height="340"></codepen>
+
+<span class="remark">À gauche, transform: rotateX(60deg).<br>À droite, transform: rotateY(60deg).</span>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/transform-function/rotate()">transform: rotate()</doclink>
+
+<dots></dots>
+
+
+<grostitre>scale</grostitre>
+
+<p>Par défaut, cette valeur accepte un ou deux arguments entre parenthèses. Si un seul argument est passé, il correspond à un facteur d'agrandissement/réduction. Si un 2e argument est ajouté, le premier correspond à un facteur d'agrandissement/réduction sur les X et le deuxième sur les Y. Il est donc possible de déformer un élément.</p>
+
+<p>Voir l'exemple ci-dessous. Le 1er est agrandi de façon proportionnel de 150% <em>(1.5)</em> et le 2e de 150% <em>(1.5)</em> sur les X et 300% <em>(3)</em> sur les Y.</p>
+
+<codepen id="KKBEqjr" tab="result" height="340"></codepen>
+
+<span class="remark">À gauche, transform: scale(1.5).<br>À droite, transform: scale(1.5, 3).</span>
+
+<p>Il est possible d'effectuer un scale sur un seul axe en spécifiant cet axe dans la nom de la valeur. Par exemple:</p>
+
+<ul>
+  <li><span class="inline-code">scaleX(...)</span> uniquement sur les X</li>
+  <li><span class="inline-code">scaleY(...)</span> uniquement sur les Y</li>
+</ul>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/transform-function/scale()">transform: scale()</doclink>
+
+<dots></dots>
+
+
+<grostitre>skew</grostitre>
+
+<p>Par défaut, cette valeur accepte un ou deux arguments entre parenthèses. Si un seul argument est passé, il correspond à une distorsion sur les X. Si un 2e argument est ajouté, le premier correspond à une distorsion sur les X et le deuxième sur les Y.</p>
+
+<p>Cette valeur accepte comme comme argument les unités de type:</p>
+
+<ul>
+  <li><span class="inline-code">deg</span> degrés | 360 degrés dans un cercle</li>
+  <li><span class="inline-code">turn</span> tour | 1 tour dans un cercle</li>
+</ul>
+
+<p>Par exemple, une distorsion de 45° sur les X:</p>
+
+<codepen id="mdjoMyB" tab="css,result" height="340"></codepen>
+
+<p>Il est possible d'effectuer un skew sur un seul axe en spécifiant cet axe dans la nom de la valeur. Par exemple:</p>
+
+<ul>
+  <li><span class="inline-code">skewX(...)</span> uniquement sur les X <em>(équivaut à <span class="inline-code">skew(...)</span> )</em></li>
+  <li><span class="inline-code">skewY(...)</span> uniquement sur les Y</li>
+</ul>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/transform-function/skew()">transform: skew()</doclink>
+
+<dots></dots>
+
+
+<grostitre>transform-origin</grostitre>
+
+<p>Toutes les transformations des exemples précédents sont effectuées à partir d'un point d'origine se situant au centre de chaque élément. Soit l'équivalent de <span class="inline-code">transform-origin: 50% 50%;</span></p>
+
+<p>Cependant, il est possible de modifier cette valeur avec n'importe quelle <a href="../unites-de-mesure/">unité CSS</a>.</p>
+
+<p>Par exemple, voici la même rotation de 45°:</p>
+
+<ul>
+  <li>À gauche avec un point de rotation central <em>(50% 50%)</em></li>
+  <li>À droite avec un point de rotation en haut à gauche <em>(0 0)</em>.</li>
+</ul>
+
+<codepen id="poZYrjY" tab="result" height="340"></codepen>
+
+<span class="remark">À gauche, transform-origin: 50% 50%.<br>À droite, transform-origin: 0 0;</span>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/transform-origin">transform-origin</doclink>
+<doclink href="https://www.w3schools.com/cssref/css3_pr_transform-origin.asp">transform-origin</doclink>
+
+<dots></dots>
+
+        <a class="exercice" target="_blank" href="exercices/formes/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/formes/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Transformation - Formes</span>
+                    <span class="exercice-description">Pour cet exercice, vous allez devoir recréer des motifs pointillés en déplaçant des blocs de couleurs à l’aide de transformations CSS.</span>
+                </div>
+            </div>
+        </a>
+
+<dots></dots>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

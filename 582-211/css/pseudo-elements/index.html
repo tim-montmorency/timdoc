@@ -1,0 +1,151 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Pseudo-éléments</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 2</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/css/">CSS</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="images/icon.webp">&nbsp;Pseudo-éléments</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p class="spacer">Les pseudo-éléments sont utilisés pour ajouter du contenu ou des styles à un sélecteur de façon uniforme.</p>
+
+<p>Par exemple, un client pourrait demander d'ajouter l'emoji 🔗 à tous les liens sur son site. Bien qu'il serait possible de manuellement copier/coller l'émoji partout, ceci consommerait du temps, comporterait un risque d'erreur et si de nouveaux liens étaient ajoutés par la suite, rien ne garantirait que la personne penserait à copier ledit émoji.</p>
+
+<p>Heureusement, les pseudo-éléments peuvent aider!</p>
+
+<dots></dots>
+
+
+<grostitre>Before & After</grostitre>
+
+<p>Les pseudo-éléments <span class="inline-code">::before</span> et <span class="inline-code">::after</span> permettent d'ajouter du contenu à l'intérieur d'un élément via la propriété <span class="inline-code">content</span>.</p>
+
+<p>Comme leurs noms l'indiquent:</p>
+
+<ul>
+    <li><span class="inline-code">::before</span> ajoute un contenu au début ⬅️</li>
+    <li><span class="inline-code">::after</span> ajoute un contenu à la fin ➡️</li>
+</ul>
+
+<codepen id="BaPvvPX" tab="result" height="340"></codepen>
+
+<span class="remark">À gauche, ::before.<br>À droite, ::after.</span>
+
+<p>Remarquez comment le double deux points <span class="inline-code">::</span> sert à séparer le sélecteur de base de son pseudo‑élément.</p>
+
+<p>Anciennement, il était possible d'écrire ses pseudo-éléments avec un seul <span class="inline-code">:</span>, comme les <a href="../pseudo-classes/">pseudo-classes</a>. Cependant, depuis l'arrivée de CSS3, cette pratique est désuète.</p>
+
+<p><span class="inline-code">::before</span> et <span class="inline-code">::after</span> acceptent les mêmes propriétés CSS qu'un sélecteur normal. Il est donc courant de les voir utilisés pour jouer un rôle similaire à celui d'un tag HTML normal.</p>
+
+<p>Par exemple, il est possible d'afficher une image personnalisée via la propriété background-image plutôt qu'un texte/emoji.</p>
+
+<codepen id="jOpXXeq" tab="css,result" height="340"></codepen>
+
+<alert>
+    <h5>ERREUR FRÉQUENTE</h5>
+    Lorsqu’un pseudo-element <em>(<span class="inline-code">::before</span> ou <span class="inline-code">::after</span>)</em> n’apparait pas, il s’agit généralement de la propriété <span class="inline-code">content</span> qui a été omise. Même si elle ne contient rien, sa présence est obligatoire pour qu’un pseudo-element affiche.
+</alert>
+
+<p>Ils sont aussi souvent utilisés en combinaisons avec les <a href="../pseudo-classes/">pseudo-classes</a> et les <a href="#">transitions</a> afin de créer des effets de survole.</p>
+
+<codepen id="bGjOOON" tab="css,result" height="340"></codepen>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/::before">::before</doclink>
+<doclink href="https://www.w3schools.com/cssref/sel_before.asp">::before</doclink>
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/::after">::after</doclink>
+<doclink href="https://www.w3schools.com/cssref/sel_after.asp">::after</doclink>
+
+<dots></dots>
+
+
+<grostitre>Autres pseudo-éléments</grostitre>
+
+<p>Il existe évidemment d'autres pseudo-éléments. Cependant puisque leur usage est moins répandu. Nous ne nous attarderons pas.</p>
+
+<knowmore href="https://developer.mozilla.org/fr/docs/Web/CSS/Pseudo-elements#Liste_des_pseudo-%C3%A9l%C3%A9ments">Article MDN à propos des pseudo-elements.</knowmore>
+
+<bravo>Tous les icônes/émojis dans les boites de texte de ce site, comme la tête de dragon de MDN dans le bloc précédent, sont ajoutés avec des <span class="inline-code">::before</span>.</bravo>
+
+<dots></dots>
+
+
+<grostitre>Résumé vidéo</grostitre>
+
+<clip src="videos/css-pseudo-elements-in-100-seconds.mp4"></clip>
+
+<dots></dots>
+
+        <a class="exercice" target="_blank" href="exercices/zab-cafe/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/zab-cafe/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Pseudo-éléments - Zab Café</span>
+                    <span class="exercice-description">Pour cet exercice, vous devez compléter une page de blog du torréfacteur montréalais Zab Café ☕️ en la bonifiant avec des styles de liens riches.</span>
+                </div>
+            </div>
+        </a>
+
+<dots></dots>
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>
