@@ -9,11 +9,10 @@
 ?>
 <wiki-page name="Ressources" date="2025-01-14">
     <grostitre>Plans de cours et guides</grostitre>
-
-    <p><a href="#" target="_blank" rel="noopener noreferrer">Plan du cours Web 2</a></p>
-
-    <p><a href="https://cmontmorency365.sharepoint.com/:w:/r/sites/TIM-TTP/_layouts/15/Doc.aspx?sourcedoc=%7B48119BB7-5AEC-438C-BB23-C7DA3EE1061D%7D&file=guide_etudiants.docx&action=default&mobileredirect=true" target="_blank" rel="noopener noreferrer">Guide étudiant TIM</a></p>
-
+    <ul>
+        <li><a href="#" target="_blank" rel="noopener noreferrer">Plan du cours Web 2</a></li>
+        <li><a href="https://cmontmorency365.sharepoint.com/:w:/r/sites/TIM-TTP/_layouts/15/Doc.aspx?sourcedoc=%7B48119BB7-5AEC-438C-BB23-C7DA3EE1061D%7D&file=guide_etudiants.docx&action=default&mobileredirect=true" target="_blank" rel="noopener noreferrer">Guide étudiant TIM</a></li>
+    </ul>
 
     <dots></dots>
     <grostitre>Tutorat</grostitre>
@@ -22,32 +21,21 @@
 
     <dots></dots>
     <grostitre>Références et guides</grostitre>
-
     <ul>
         <li><a href="https://tim-montmorency.com/timdoc/582-211/wiki/" target="_blank" rel="noopener noreferrer">Wiki du cours</a></li>
-
         <li><a href="https://tim-montmorency.com/timdoc/582-211/" target="_blank" rel="noopener noreferrer">Contenu du cours Web 2 - 582-211</a></li>
-
-        <li><a href="https://developer.mozilla.org/fr/docs/Web" target="_blank" rel="noopener noreferrer">Developer Mozilla&nbsp;: Excellente documentation en français de des langages HTML, CSS et bien plus</a></li>
-
+        <li><a href="https://developer.mozilla.org/fr/docs/Web" target="_blank" rel="noopener noreferrer">Developer Mozilla&nbsp;: Excellente documentation en français des langages HTML, CSS et bien plus</a></li>
         <li><a href="https://www.w3.org/" target="_blank" rel="noopener noreferrer">World Wide Web Consortium (W3C)</a></li>
-
         <li><a href="https://developer.chrome.com/docs/lighthouse?hl=fr" target="_blank" rel="noopener noreferrer">Phare (lighthouse)</a>: audit de performance et accessibilité</li>
-
         <li><a href="https://stackoverflow.com/" target="_blank" rel="noopener noreferrer">Forum StackOverflow</a></li>
-
-        <li><a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">W3School</a>
-        </li>
-
+        <li><a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">W3School</a></li>
         <li><a href="https://css-tricks.com/" target="_blank" rel="noopener noreferrer">CSS Tricks</a></li>
-
     </ul>
 
 
     <dots></dots>
     <grostitre>Banques de ressources</grostitre>
     <ul>
-    
         <li><a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZQlsKA3n41Bndvr4nAec5kBNTxUckgFa3C6wO9ZocnauA?e=WEsxyI"
                 target="_blank" rel="noopener noreferrer">Banques d'images libre de droit</a></li>
         <li><a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EcU65VhnOrVInZTVw2tLCZ0BI4TJlrpI-28YoKjRAadGcg?e=lsNghw"
@@ -64,10 +52,8 @@
     </ul>
 
 
-
-    <h3>Références et tendances</h3>
-    <p>
-
+    <dots></dots>
+    <grostitre>Références et tendances</grostitre>
     <ul>
         <li> <a href="https://material.io/" rel="noreferrer noopener" title="https://material.io/" target="_blank">
           Material design: le système de design de Google
@@ -76,7 +62,7 @@
             rel="noreferrer noopener"
             title="https://www.lafabriquedunet.fr/creation-site-vitrine/articles/regles-ergonomie-web-creer-site/"
             target="_blank">
-           regles-ergonomie-web-creer-site
+           Regles-ergonomie-web-creer-site
         </a></li>
         <li><a href="http://www.pycolors.com/12-regles-optimiser-ergonomie-site-internet-hierarchie-ranger-objectifs-satisfaire-internaute/637"
             rel="noreferrer noopener"
@@ -84,60 +70,72 @@
             target="_blank">
             12-regles-optimiser-ergonomie-site-internet-hierarchie-ranger-objectifs-satisfaire-internaute
         </a></li>
-        <li>        <a href="https://99designs.fr/blog/conseils-design/the-7-principles-of-design/" rel="noreferrer noopener"
+        <li><a href="https://99designs.fr/blog/conseils-design/the-7-principles-of-design/" rel="noreferrer noopener"
             title="https://99designs.fr/blog/conseils-design/the-7-principles-of-design/" target="_blank">
-            the-7-principles-of-design/
-        </a></li>
+            The-7-principles-of-design</a></li>
         <li> <a href="https://fr.wix.com/blog/2018/08/07/regles-design-site-internet/" rel="noreferrer noopener"
-            title="https://fr.wix.com/blog/2018/08/07/regles-design-site-internet/" target="_blank">
-            regles-design-site-internet/
-        </a>
+            title="https://fr.wix.com/blog/2018/08/07/regles-design-site-internet/" target="_blank">Regles-design-site-internet</a>
         </li>
-
     </ul>
-
-
 </wiki-page>
 
 
+
+<!--
+  _____                       __ 
+ / ____|                     /_ |
+| |     ___  _   _ _ __ ___   | |
+| |    / _ \| | | | '__/ __|  | |
+| |___| (_) | |_| | |  \__ \  | | 
+ \_____\___/ \__,_|_|  |___/  |_|
+
+-->
 <wiki-page name="Cours 01" date="2025-01-22">
     <grostitre>Introduction</grostitre>
     <ul>
-        <li>Intro prof </li>
-        <li><a href="#" target="_blank" rel="noopener noreferrer">Activité brise-glace</a></li>
-        <li><a href="#" target="_blank" rel="noopener noreferrer">Plan de cours</a> et positionnement du cours dans le programme.</li>
+        <li>Introduction de votre prof</li>
+        <li><a href="#" target="_blank" rel="noopener norefrrer">Activité brise-glace</a></li>
+        <li><a href="#" target="_blank" rel="noopener noreferrer">Plan de cours</a> et positionnement du cours dans le programme et pour votre avenir.</li>
         <li>Texte à lire: <a href="https://css-tricks.com/the-importance-of-investing-in-soft-skills-in-the-age-of-ai/">L’importance d’investir dans les compétences générales à l’ère de l’IA</a></li>
     </ul>
    
-    <grostitre>Résumé de web 1</grostitre>
-    Diagnostique CSS et HTML
-    <ul>
-        <li><a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">groupe 1 mercredi AM</a></li>
-        <li><a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">groupe 2 mercredi PM</a></li>
-        <li><a href="https://app.wooclap.com/RGKHHC" target="_blank" rel="noopener noreferrer">groupe 3 jeudi AM</a></li>
-    </ul>
-   
+    <grostitre>Révision de Web 1</grostitre>
+    Très brièvement, mais vous pourrez consulter les ressources suivantes pour réviser :
     <intlink href="../html/resume/"></intlink>
     <intlink href="../css/resume-css/"></intlink>
 
+    Quiz CSS et HTML
+    <ul>
+        <li><a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Groupe 1 mercredi AM</a></li>
+        <li><a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Groupe 2 mercredi PM</a></li>
+        <li><a href="https://app.wooclap.com/RGKHHC" target="_blank" rel="noopener noreferrer">Groupe 3 jeudi AM</a></li>
+    </ul>
 
-
-
-</wiki-page>
-
-
-<wiki-page name="Cours 02" date="2025-01-29">
-<grostitre>Contenu du jours</grostitre>
     <intlink href="../html/emmet/"></intlink>
     <intlink href="../autres/inspecteur/"></intlink>
     <intlink href="../autres/inspecteur-elements/"></intlink>
     <!-- Exercices -->
     <!--<intlink href="../autres/inspecteur-elements/exercices/unlock/"></intlink>
     <intlink href="../autres/inspecteur-elements/exercices/urbania/"></intlink>-->
+   
+</wiki-page>
 
 
 
 
+
+<!--
+  _____                       ___  
+ / ____|                     |__ \ 
+| |     ___  _   _ _ __ ___     ) |
+| |    / _ \| | | | '__/ __|   / / 
+| |___| (_) | |_| | |  \__ \  / /_ 
+ \_____\___/ \__,_|_|  |___/ |____|
+                                                                
+-->
+<wiki-page name="Cours 02" date="2025-01-29">
+<grostitre>Contenu du jour</grostitre>
+   
     <intlink href="../css/pseudo-classes/"></intlink>
     <!-- Exercices -->
     <intlink href="../css/pseudo-classes/exercices/cercles/"></intlink>
@@ -175,6 +173,17 @@
 </wiki-page>
 
 
+
+
+<!--------------------
+  _____                       ____  
+ / ____|                     |___ \ 
+| |     ___  _   _ _ __ ___    __) |
+| |    / _ \| | | | '__/ __|  |__ < 
+| |___| (_) | |_| | |  \__ \  ___) |
+ \_____\___/ \__,_|_|  |___/ |____/ 
+                                          
+----------------------->
 <wiki-page name="Cours 03" date="2025-02-05">
     <h3>Révision: Weezer - Blue Album</h3>
     <intlink href="../css/google-fonts/"></intlink>
@@ -195,10 +204,22 @@
     <intlink href="../css/exercices/band-de-garage-corpo-trash-vidange/"></intlink>
 </wiki-page>
 
+
+
+<!-------------- 
+  _____                       _  _   
+ / ____|                     | || |  
+| |     ___  _   _ _ __ ___  | || |_ 
+| |    / _ \| | | | '__/ __| |__   _|
+| |___| (_) | |_| | |  \__ \    | |  
+ \_____\___/ \__,_|_|  |___/    |_|                                   
+                                     
+----------------->
 <wiki-page name="Cours 04" date="2025-02-12">
     <h3>Examen: Les Guardiens de la Galaxie</h3>
     <video playsinline src="videos/baby-groot-dancing.mp4" autoplay="true" muted="true" loop="true"></video>
 </wiki-page>
+
 
 <wiki-page name="Cours 05" date="2025-02-19">
     <intlink href="../css/responsive/"></intlink>
