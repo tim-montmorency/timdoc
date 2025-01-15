@@ -112,9 +112,9 @@
     <grostitre>Résumé de web 1</grostitre>
     Diagnostique CSS et HTML
     <ul>
-        <li><a href="wooclap.com" target="_blank" rel="noopener noreferrer">groupe 1 mercredi AM</a></li>
-        <li><a href="wooclap.com" target="_blank" rel="noopener noreferrer">groupe 2 mercredi PM</a></li>
-        <li><a href="wooclap.com" target="_blank" rel="noopener noreferrer">groupe 3 jeudi AM</a></li>
+        <li><a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">groupe 1 mercredi AM</a></li>
+        <li><a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">groupe 2 mercredi PM</a></li>
+        <li><a href="https://app.wooclap.com/RGKHHC" target="_blank" rel="noopener noreferrer">groupe 3 jeudi AM</a></li>
     </ul>
    
     <intlink href="../html/resume/"></intlink>
