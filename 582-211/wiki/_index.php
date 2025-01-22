@@ -21,8 +21,14 @@
     <grostitre>Introduction</grostitre>
     <ul>
         <li>Introduction de votre prof</li>
-        <li><a href="#" target="_blank" rel="noopener norefrrer">Activité brise-glace</a></li>
-        <li><a href="#" target="_blank" rel="noopener noreferrer">Plan de cours</a> et positionnement du cours dans le programme et pour votre avenir.</li>
+        <li>Activité brise-glace
+        <ol>
+            <li><a href="https://app.wooclap.com/BUDSEU" target="_blank" rel="noopener noreferrer">Groupe 1 - merc. am</a></li>
+            <li><a href="https://app.wooclap.com/ZUGMLA" target="_blank" rel="noopener noreferrer">Groupe 2 - merc. pm</a></li>
+            <li><a href="https://app.wooclap.com/LLJENC" target="_blank" rel="noopener noreferrer">Groupe 3 - jeudi pm</a></li>
+        </ol>
+    </li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EX_-E_dns8ZIinsxd23pkVsBbZOFWdDBB19Ss2nB_7KuRQ?e=mDDmea" target="_blank" rel="noopener noreferrer">Plan de cours</a> et positionnement du cours dans le programme et pour votre avenir.</li>
         <li>Texte à lire: <a href="https://css-tricks.com/the-importance-of-investing-in-soft-skills-in-the-age-of-ai/">L’importance d’investir dans les compétences générales à l’ère de l’IA</a></li>
     </ul>
    
@@ -52,6 +58,7 @@
    <intlink href="../css/flux/"></intlink>
    <doclink href='https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Styling_basics/Box_model'>Le box-model</doclink>
    <intlink href='../css/exercices/flux/'></intlink>
+   <intlink href='../css/flux/exercice/'></intlink>
 
     <dots></dots>
 
@@ -59,10 +66,11 @@
     <intlink href="../css/specificite/"></intlink>
     <intlink href="../css/imbrication-css-intro/"></intlink>
 
+    
     <intlink href="../css/specificite/exercices/specificite-css/"></intlink>
 
 
-
+    <dots></dots>
 
     
     <intlink href="../html/emmet/"></intlink>

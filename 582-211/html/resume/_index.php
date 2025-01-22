@@ -1,9 +1,9 @@
 <?php
 /**
  * @type     article
- * @title    Résumé
+ * @title    Résumé HTML
  * @icon     images/icon.png
- * @abstract Résumé du HTML 5
+ * @abstract Résumé du HTML 5 vu en Web 1.
  * @ref      web/html
  */
 ?>
