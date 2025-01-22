@@ -1,0 +1,6 @@
+{
+    "type": "exercice",
+    "title": "Exercice Emmet",
+    "icon": "images\/emmet.png",
+    "abstract": "Pour cet exercice vous allez utiliser Emmet dans VS Code pour faire un autocompl\u00e9tion de code HTML."
+}
