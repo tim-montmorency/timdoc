@@ -39,7 +39,7 @@
 
 <dots></dots>
 
-<grostitre>h3>ure de base HTML</grostitre>
+<grostitre>Structure de base HTML</grostitre>
 
 <highlight lang="html">
 &lt;!DOCTYPE html&gt;
