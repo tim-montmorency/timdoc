@@ -1,0 +1,268 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>Exercice flux</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Exercice flux</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+
+    <p>Voici quelques idées pour pratiquer le <strong>flot</strong> (flux) en HTML/CSS de manière interactive. Ces
+        exercices sont conçus pour vous aider à observer et manipuler le comportement des éléments en ligne, de bloc, et
+        des propriétés qui modifient le flot.</p>
+
+    <alert>Veuillez ne faire que les 2 premiers exercices. NE PAS FAIRE LES #3 ET #4.</alert>
+    
+        
+    <dots></dots>
+    <grostitre>Exercice 1 : Inline vs Block</grostitre>
+    <h3>Objectif</h3>
+    <p>Comprendre la différence entre les éléments <strong>inline</strong> et <strong>block</strong>.</p>
+    <h3>Étapes</h3>
+    <ol>
+        <li>Créez une page HTML avec le contenu suivant :</li>
+    </ol>
+
+    <highlight lang="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;fr&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Exercice 1&lt;/title&gt;
+    &lt;style&gt;
+        .block {
+            background-color: lightblue;
+            margin: 10px;
+        }
+        .inline {
+            background-color: lightcoral;
+            margin: 10px;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h2&gt;Exemple d&#039;&eacute;l&eacute;ments de bloc&lt;/h2&gt;
+    &lt;div class=&quot;block&quot;&gt;Bloc 1&lt;/div&gt;
+    &lt;div class=&quot;block&quot;&gt;Bloc 2&lt;/div&gt;
+    &lt;div class=&quot;block&quot;&gt;Bloc 3&lt;/div&gt;
+
+    &lt;h2&gt;Exemple d&#039;&eacute;l&eacute;ments en ligne&lt;/h2&gt;
+    &lt;span class=&quot;inline&quot;&gt;Inline 1&lt;/span&gt;
+    &lt;span class=&quot;inline&quot;&gt;Inline 2&lt;/span&gt;
+    &lt;span class=&quot;inline&quot;&gt;Inline 3&lt;/span&gt;
+&lt;/body&gt;
+&lt;/html&gt;</highlight>
+
+    <ol start="2">
+        <li>Ouvrez la page dans votre navigateur.</li>
+        <li>Essayez de changer les styles des classes <span class="inline-code">.block</span> et <span class="inline-code">.inline</span> :<ul>
+                <li>Ajoutez une largeur fixe (<span class="inline-code">width: 100px;</span>).</li>
+                <li>Ajoutez une hauteur (<span class="inline-code">height: 50px;</span>).</li>
+                <li>Que remarquez-vous ?</li>
+            </ul>
+        </li>
+    </ol>
+
+    <dots></dots>
+
+    <grostitre>Exercice 2 : Float</grostitre>
+    <h3>Objectif</h3>
+    <p>Utiliser la propriété <span class="inline-code">float</span> pour placer des images et du texte.</p>
+    <h3>Étapes</h3>
+    <ol>
+        <li>Créez ce fichier HTML :</li>
+    </ol>
+
+    <highlight lang="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;fr&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Exercice 2&lt;/title&gt;
+    &lt;style&gt;
+        img {
+            float: left;
+            margin: 10px;
+            width: 150px;
+        }
+        p {
+            text-align: justify;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h2&gt;Exemple avec Float&lt;/h2&gt;
+    &lt;img src=&quot;https://via.placeholder.com/150&quot; alt=&quot;Exemple d&#039;image&quot;&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec justo id mauris faucibus aliquet.  Integer vitae congue enim. Cras eu dui nec felis tincidunt tempus. Nullam ultrices, magna ut tempor luctus, justo lacus efficitur tortor, et volutpat magna justo non nulla.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</highlight>
+
+    <alert>Veuillez ne faire que les 2 premiers exercices. NE PAS FAIRE LES #3 ET #4.</alert>
+
+
+    <dots></dots>
+    <grostitre>Exercice 3 : Flexbox</strong></grostitre>
+    <h3>Objectif</h3>
+    <p>Découvrir comment Flexbox peut remplacer le flot normal.</p>
+    <h3>Étapes</h3>
+    <ol>
+        <li>Créez une page HTML avec le contenu suivant :</li>
+    </ol>
+
+    <highlight lang="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;fr&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Exercice 3&lt;/title&gt;
+    &lt;style&gt;
+        .container {
+            display: flex;
+            gap: 10px;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        .item {
+            background-color: lightgreen;
+            padding: 20px;
+            text-align: center;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h2&gt;Exemple avec Flexbox&lt;/h2&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;item&quot;&gt;1&lt;/div&gt;
+        &lt;div class=&quot;item&quot;&gt;2&lt;/div&gt;
+        &lt;div class=&quot;item&quot;&gt;3&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</highlight>
+
+    <ol start="2">
+        <li>Expérimentez :<ul>
+                <li>Ajoutez <span class="inline-code">flex-direction: column;</span> pour empiler les éléments.</li>
+                <li>Ajoutez <span class="inline-code">justify-content: center;</span> ou <span class="inline-code">space-between;</span> pour ajuster
+                    l'espacement.</li>
+                <li>Changez les dimensions des <span class="inline-code">.item</span> pour observer leur comportement.</li>
+            </ul>
+        </li>
+    </ol>
+
+
+
+    <dots></dots>
+    <grostitre>Exercice 4 : Grid</strong></grostitre>
+    <h3>Objectif</h3>
+    <p>Créer une grille simple pour organiser les éléments.</p>
+    <h3>Étapes</h3>
+    <ol>
+        <li>Essayez ce code :</li>
+    </ol>
+
+    <highlight lang="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;fr&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Exercice 4&lt;/title&gt;
+    &lt;style&gt;
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .grid-item {
+            background-color: lightyellow;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid black;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h2&gt;Exemple avec Grid&lt;/h2&gt;
+    &lt;div class=&quot;grid-container&quot;&gt;
+        &lt;div class=&quot;grid-item&quot;&gt;1&lt;/div&gt;
+        &lt;div class=&quot;grid-item&quot;&gt;2&lt;/div&gt;
+        &lt;div class=&quot;grid-item&quot;&gt;3&lt;/div&gt;
+        &lt;div class=&quot;grid-item&quot;&gt;4&lt;/div&gt;
+        &lt;div class=&quot;grid-item&quot;&gt;5&lt;/div&gt;
+        &lt;div class=&quot;grid-item&quot;&gt;6&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</highlight>
+
+    
+    <ol start="2">
+        <li>Expérimentez :<ul>
+                <li>Modifiez <span class="inline-code">grid-template-columns</span> pour ajouter ou supprimer des colonnes.</li>
+                <li>Utilisez <span class="inline-code">grid-template-rows</span> pour définir la hauteur des lignes.</li>
+                <li>Ajoutez un élément qui occupe plusieurs colonnes avec <span class="inline-code">grid-column: span 2;</span>.</li>
+            </ul>
+        </li>
+    </ol>
+
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>
