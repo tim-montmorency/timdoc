@@ -92,12 +92,17 @@
     </style>
 </head>
 <body>
-    <h2>Exemple avec Float</h2>
-    <img src="https://via.placeholder.com/150" alt="Exemple d'image">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec justo id mauris faucibus aliquet.  Integer vitae congue enim. Cras eu dui nec felis tincidunt tempus. Nullam ultrices, magna ut tempor luctus, justo lacus efficitur tortor, et volutpat magna justo non nulla.</p>
+
+<h2>Exemple avec Float</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec justo id mauris faucibus aliquet. Integer vitae congue enim. Cras eu dui nec felis tincidunt tempus. Nullam ultrices, magna ut tempor luctus, justo lacus efficitur tortor, et volutpat magna justo non nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec justo id mauris faucibus aliquet. <img src="https://www.cats.org.uk/media/13136/220325case013.jpg?width=500&height=333.49609375" alt="Exemple d'image">Integer vitae congue enim. Cras eu dui nec felis tincidunt tempus. Nullam ultrices, magna ut tempor luctus, justo lacus efficitur tortor, et volutpat magna justo non nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec justo id mauris faucibus aliquet. Integer vitae congue enim. Cras eu dui nec felis tincidunt tempus. Nullam ultrices, magna ut tempor luctus, justo lacus efficitur tortor, et volutpat magna justo non nulla. Lorem ipsum dolor sit amet, consectetur. </p>
+
 </body>
 </html>
     </highlight>
+
+
+    <p>Explorez, changez la position de l'image dans le texte. Changez le valeurs de float en css, Ajoutez des marge. Retirez le float. Que remarquez-vous ?</p>
 
     <alert>Veuillez ne faire que les 2 premiers exercices. NE PAS FAIRE LES #3 ET #4.</alert>
 
