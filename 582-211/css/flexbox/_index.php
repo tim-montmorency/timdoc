@@ -85,7 +85,8 @@
     </li>
 </ul>
 
-<h3>justify-content: flex-start vs flex-end</h3>
+
+<h3><incode>justify-content: flex-start</incode> vs <incode>justify-content: flex-end</incode></h3>
 
 <codepen id="ZEZbxEw" tab="result"></codepen>
 
@@ -94,7 +95,7 @@
     À droite, justify-content: flex-end;<br>
 </span><br>
 
-<h3>justify-content: center vs space-between</h3>
+<h3><incode>justify-content: center</incode> vs <incode>justify-content: space-between</incode></h3>
 
 <codepen id="JjVYLWG" tab="result"></codepen>
 
@@ -103,7 +104,7 @@
     À droite, justify-content: space-between;<br>
 </span><br>
 
-<h3>justify-content: space-around vs space-evenly</h3>
+<h3><incode>justify-content: space-around</incode> vs <incode>justify-content: space-evenly</incode> </h3>
 
 <codepen id="ExJVEma" tab="result"></codepen>
 
