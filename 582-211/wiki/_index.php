@@ -67,8 +67,6 @@
     <intlink href="../css/specificite/exercices/specificite-css/"></intlink>
 
 
-
-
 </wiki-page>
 
 
@@ -84,7 +82,7 @@
  \_____\___/ \__,_|_|  |___/ |____|
                                                                 
 -->
-<wiki-page name="Cours 02" date="2025-01-29">
+<wiki-page name="Cours 02" date="2025-01-28">
 
 
     <grostitre>Contenu du jour</grostitre>
