@@ -1,0 +1,210 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Imbrication CSS (intro)</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 2</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/thumb.png">&nbsp;Imbrication CSS (intro)</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+
+
+<grostitre>Qu'est-ce que l'imbrication CSS (CSS Nesting) ?</grostitre>
+
+<p>L'imbrication CSS permet d'écrire des règles imbriquées, un peu comme les balises HTML (concept parent-enfant). Elle simplifie la gestion des styles pour des éléments qui partagent une structure hiérarchique, en rendant le code plus lisible et plus maintenable.</p>
+
+
+<h4>Exemple de base sans imbrication CSS :</h4>
+
+<highlight lang="css">nav {
+    background-color: #f8f8f8;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}</highlight>
+
+<h4>Avec l'imbrication CSS> :</h4>
+
+<highlight lang="css">nav {
+    background-color: #f8f8f8;
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+    }
+}</highlight>
+
+
+
+
+
+<dots></dots>
+<grostitre>Autre exemple pratique</grostitre>
+<h4>HTML :</h4>
+<highlight lang="css">&lt;div class=&quot;card&quot;&gt;
+    &lt;h2&gt;Article&lt;/h2&gt;
+    &lt;p&gt;Contenu de l&#039;article&lt;/p&gt;
+    &lt;a href=&quot;#&quot;&gt;Lire la suite&lt;/a&gt;
+&lt;/div&gt;</highlight>
+
+<h4>CSS avec imbrication :</h4>
+
+<highlight lang="css">.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+
+    h2 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #666;
+    }
+
+    a {
+        color: blue;
+
+        &amp;:hover {
+            color: darkblue;
+            text-decoration: underline;
+        }
+    }
+}</highlight>
+
+
+
+
+<h4>Résultat sans imbrication (transpilé ou manuel) :</h4>
+<highlight lang="css">.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.card h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+}
+
+.card a {
+    color: blue;
+}
+
+.card a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}</highlight>
+
+
+
+
+<dots></dots>
+<grostitre>Avantages de l'imbrication CSS</grostitre>
+<ol>
+    <li><strong>Lisibilité accrue :</strong> Le style reflète la structure HTML sous-jacente.</li>
+    <li><strong>Code plus concis :</strong> Réduit la répétition des sélecteurs parents.</li>
+    <li><strong>Facilité de maintenance :</strong> Les styles hiérarchiques sont groupés.</li>
+</ol>
+<dots></dots>
+
+<grostitre>Limitations et précautions</grostitre>
+<ol>
+    <li><strong>Profondeur d'imbrication :</strong> Évitez de trop imbriquer vos styles (recommandation :
+        <strong>pas plus de 3 niveaux</strong>). Une structure complexe peut être difficile à lire et entraîner des
+        problèmes de performance.
+    </li>
+    <li><strong>Complexité accrue :</strong> Des règles trop imbriquées peuvent devenir difficiles à comprendre si
+        elles ne sont pas bien documentées.</li>
+    <li><strong>Performance :</strong> Bien que l'imbrication elle-même soit performante, l'utilisation abusive de
+        sélecteurs complexes peut ralentir le rendu.</li>
+</ol>
+<alert>
+    <p>En date d'aujourd'hui, est-ce qu'il est risqué que l'imbrication CSS ne soit pas supporté par certains
+        navigateurs et appareils?</p>
+
+    <p><a href="https://caniuse.com/css-nesting" target="_blank">Can I use "CSS nesting" ?</a></p>
+</alert>
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

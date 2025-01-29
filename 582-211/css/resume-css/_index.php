@@ -3,7 +3,7 @@
  * @type     article
  * @title    Résumé CSS
  * @icon     images/icon.png
- * @abstract Notions CSS
+ * @abstract Notions CSS vues en Web 1.
  */
 ?>
 

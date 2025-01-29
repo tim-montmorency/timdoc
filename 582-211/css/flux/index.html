@@ -57,9 +57,338 @@
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
+<grostitre>Le flux natif de la page HTML</grostitre>
+
+<p>Le flot (ou flux ou "flow" en anglais) en HTML/CSS est la manière naturelle dont les éléments d'une page web
+    s'organisent et se positionnent les uns par rapport aux autres lorsqu'ils sont affichés dans le navigateur.
+    Comprendre ce concept est essentiel pour concevoir des mises en page claires et harmonieuses.</p>
+
+
+<p>Le <strong>flot</strong> (ou flux, "flow" en anglais) en HTML/CSS est la manière naturelle dont les éléments d'une
+    page web s'organisent et se positionnent les uns par rapport aux autres lorsqu'ils sont affichés dans le navigateur.
+    Comprendre ce concept est essentiel pour concevoir des mises en page claires et harmonieuses.</p>
+
+
+
+<dots></dots>
+<grostitre>1. Le flot normal (normal flow)</grostitre>
+
+<p>Par défaut, tous les éléments HTML suivent un flot normal, ce qui signifie qu'ils s'alignent de manière automatique
+    en fonction de leur type :</p>
+<h3>a) <strong>Éléments en ligne (inline)</strong></h3>
+<ul>
+    <li>Les éléments comme <span class="inline-code">&lt;span&gt;</span>, <span class="inline-code">&lt;a&gt;</span>, <span class="inline-code">&lt;strong&gt;</span>, ou
+        <span class="inline-code">&lt;em&gt;</span> s'alignent <strong>horizontalement</strong>, côte à côte, jusqu'à ce qu'ils atteignent
+        la fin de la ligne.</li>
+    <li>S'il n'y a plus d'espace sur la ligne, ils passent automatiquement à la ligne suivante (retour à la ligne).</li>
+    <li>Ils occupent uniquement la largeur nécessaire à leur contenu.</li>
+</ul>
+<p><strong>Exemple :</strong></p>
+<highlight lang="html">&lt;p&gt;Bonjour &lt;strong&gt;monde&lt;/strong&gt; !&lt;/p&gt;</highlight>
+<p>Le texte "Bonjour monde !" sera sur une seule ligne, sauf si la largeur de la fenêtre est trop petite.</p>
+
+
+<dots></dots>
+<h3>b) <strong>Éléments de bloc (block)</strong></h3>
+<ul>
+    <li>Les éléments comme <span class="inline-code">&lt;div&gt;</span>, <span class="inline-code">&lt;p&gt;</span>, <span class="inline-code">&lt;h1&gt;</span> et
+        <span class="inline-code">&lt;ul&gt;</span> s'alignent <strong>verticalement</strong>.</li>
+    <li>Chaque élément de bloc commence sur une nouvelle ligne et occupe toute la largeur disponible (par défaut).</li>
+    <li>Les blocs poussent ceux qui suivent vers le bas.</li>
+</ul>
+
+
+<p><strong>Exemple :</strong></p>
+<highlight lang="html">&lt;div&gt;Bloc 1&lt;/div&gt;
+&lt;div&gt;Bloc 2&lt;/div&gt;</highlight>
+<p>"Bloc 1" sera au-dessus de "Bloc 2", chaque bloc occupant toute la largeur.</p>
+
+
+
+
+
+<dots></dots>
+<grostitre>2.Le rôle des marges et du box model</grostitre>
+<p>Les <strong>marges</strong> (margins), les <strong>bordures</strong> (borders), et les <strong>paddings</strong>
+    (espaces internes) influencent également le flot. Par exemple :</p>
+<ul>
+    <li>Les marges peuvent créer des espaces entre les blocs ou les éléments en ligne.</li>
+    <li>Cela peut provoquer un "effet de flottement", où deux blocs semblent se repousser.</li>
+</ul>
+
+
+<dots></dots>
+<grostitre>3. Interruption du flot normal</grostitre>
+<p>CSS permet de sortir des règles du flot normal pour créer des mises en page plus complexes.</p>
+<h3>a) <strong>Flotter (float)</strong></h3>
+<ul>
+    <li>Avec la propriété <span class="inline-code">float</span>, un élément peut être "sorti" du flot normal et placé à gauche ou à droite,
+        avec le texte ou d'autres éléments s'enroulant autour.</li>
+    <li>Exemple typique : afficher une image à gauche avec du texte à droite.</li>
+</ul>
+<highlight lang="html">&lt;img src=&quot;image.jpg&quot; style=&quot;float: left; margin-right: 10px;&quot;&gt;
+&lt;p&gt;Texte &agrave; c&ocirc;t&eacute; de l&#039;image.&lt;/p&gt;</highlight>
+<h3>b) <strong>Positionnement (position)</strong></h3>
+<ul>
+    <li>La propriété <span class="inline-code">position</span> permet de placer des éléments à des emplacements précis. Par exemple, avec <span class="inline-code">absolute</span>, un élément est positionné indépendamment du flot normal.</li>
+</ul>
+<h3>c) <strong>Flexbox et Grid</strong></h3>
+<ul>
+    <li><strong>Flexbox</strong> (<span class="inline-code">display: flex;</span>) et <strong>Grid</strong> (<span class="inline-code">display: grid;</span>)
+        sont des outils modernes pour organiser les éléments en dehors du flot normal tout en conservant un contrôle précis sur leur disposition.</li>
+</ul>
+
+
+
+<dots></dots>
+<grostitre>4. Quand faut-il travailler avec le flot ?</grostitre>
+<p>Le flot naturel est pratique pour les pages simples et les documents linéaires (comme des articles de blog). Pour des mises en page plus complexes, comme un site web avec une barre latérale ou un pied de page, on modifie ce flot avec des propriétés comme <span class="inline-code">float</span>, <span class="inline-code">flexbox</span> ou <span class="inline-code">grid</span>.</p>
+
+<warning>
+    <h3>Être ou ne pas être dans le flux</h3>
+    Lire cet article à propos du flux natif de la page <a href="https://developer.mozilla.org/fr/docs/Web/CSS/CSS_flow_layout/In_flow_and_out_of_flow" target="_blank" rel="noopener noreferrer">Être ou ne pas être dans le flux</a>
+</warning>
+
+<info>Cette session, nous allons apprendre les propriétés CSS du concept <strong>Flexbox</strong>.</info>
+
+
+
+
+
+<dots></dots>
+<grostitre>Résumé visuel</grostitre>
+<ul>
+    <li><strong>Inline</strong> : Les éléments se suivent <strong>horizontalement</strong>.</li>
+    <li><strong>Block</strong> : Les éléments se placent <strong>verticalement</strong>.</li>
+    <li>Vous pouvez perturber ce flot pour créer des dispositions spécifiques.</li>
+</ul>
+
+<knowmore href="https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Flow_Layout">Article MDN à propos du flux</knowmore>
+
+
+<dots></dots>
+
+Veuillez faire les 2 premiers exercices de la page suivante et non les 4.
+
+
+<!--
+
+<h3>Affichage d'un élément de type bloc (block)</h3>
+<p>Sauf s'ils sont stylisés autrement, nativement, les éléments de type <em>bloc</em> tels que les balises <span class="inline-code">&lt;div&gt;</span>, <span class="inline-code">&lt;p&gt;</span>, <span class="inline-code">&lt;ul&gt;</span>, <span class="inline-code">&lt;li&gt;</span>, <span class="inline-code">&lt;article&gt;</span>, <span class="inline-code">&lt;section&gt;</span>, <span class="inline-code">&lt;header&gt;</span> etc., s'affichent un en dessous de l'autre dans la balise parent qui les contiennent.</p>
+<info>
+    Autrement dit:
+    <blockquote>
+        <p>« Les éléments de type bloc sont <em>disposés l'un après l'autre, verticalement</em>, en débutant tout en
+            haut de l'élément parent qui les contiennent. La distance verticale entre deux blocs voisins est déterminée
+            par leur marges.</p>
+
+        <p>Chaque élément de type bloc s'affiche sur toute la largeur du parent qui le contient. »</p>
+    </blockquote>
+
+</info>
+<dots></dots>
+
+<h3>Affichage d'un élément de type en ligne (inline)</h3>
+<p>
+<p>Sauf s'ils sont stylisés autrement, nativement, les éléments de type <em>en ligne</em> tels que les balises <span class="inline-code">&lt;span&gt;</span>, <span class="inline-code">&lt;em&gt;</span>, <span class="inline-code">&lt;strong&gt;</span>, <span class="inline-code">&lt;i&gt;</span> etc., s'affichent sur la
+    même ligne que l'élément précédent ou suivant dans un flot horizontal.</p>
+
+
+
+<dots></dots>
+<grostitre>Display</grostitre>
+
+<p>Chaque élément possède une propriété display qui dicte son affichage.</p>
+
+<p>Par exemple, les balises <span class="inline-code">&lt;div&gt;</span>, <span class="inline-code">&lt;p&gt;</span> ou
+    <span class="inline-code">&lt;ul&gt;</span> prennent toute la largeur disponible et s'affichent l'une au-dessus de
+    l'autre, car par défaut, leur propriété display est à block.</p>
+
+<p>Tandis que les balises <span class="inline-code">&lt;span&gt;</span>, <span class="inline-code">&lt;img&gt;</span> ou
+    <span class="inline-code">&lt;a&gt;</span> s'affichent l'une à la suite de l'autre, comme une suite de mots, car
+    leur propriété display est à inline par défaut.</p>
+
+<codepen id="OJwvBZJ" tab="result,css" height="340">À gauche, display: block;. À droite, display: inline;</codepen>
+
+<dots></dots>
+
+
+<h3>block</h3>
+<p>Les éléments <span class="inline-code">display: block;</span> en bref:</p>
+<ul>
+    <li>Prennent toute la largeur disponible.</li>
+    <li>S'affichent sur une nouvelle ligne.<br><em>(Logique puisqu'ils prennent toute la largeur)</em></li>
+    <li>Acceptent les propriétés <span class="inline-code">width</span> et <span class="inline-code">height</span> afin
+        de définir la largeur et hauteur de l'élément.</li>
+    <li>Peuvent contenir n'importe quel autre type d'éléments <em>(block, inline, etc.)</em>.</li>
+</ul>
+
+<dots></dots>
+
+
+<h3>inline</h3>
+
+<p>Les éléments <span class="inline-code">display: inline;</span> en bref:</p>
+
+<ul>
+    <li>Prennent la largeur de ce qu'ils contiennent, sans plus.</li>
+    <li>S'affichent un à côté de l'autre, comme des mots dans une phrase, tant qu'il y a de l'espace et change de ligne
+        au besoin.</li>
+    <li><strong>N'acceptent pas</strong> les propriétés <span class="inline-code">width</span>, <span
+            class="inline-code">height</span>, <span class="inline-code">margin-top</span> et <span
+            class="inline-code">margin-bottom</span>.</li>
+    <li>Peuvent contenir d'autres éléments inline, mais <strong>pas block</strong>.</li>
+</ul>
+
+<dots></dots>
+
+
+<h3>inline-block</h3>
+
+<p>Les éléments en <span class="inline-code">display: inline-block;</span> sont en quelque sorte des hybrides entre <a
+        href="#inline">inline</a> et <a href="#block">block</a>.</p>
+
+<p>Par exemple, les balises <span class="inline-code">&lt;button&gt;</span>, <span
+        class="inline-code">&lt;select&gt;</span> ou <span class="inline-code">&lt;input&gt;</span> s'affichent l'une à
+    la suite de l'autre, mais peuvent avoir une largeur et une hauteur <em>(width/height)</em> de définies, car leur
+    propriété display est à inline-block par défaut.</p>
+
+<ul>
+    <li>Ne prennent que la largeur de ce qu'ils contiennent par défaut, mais acceptent les propriétés <span
+            class="inline-code">width</span>, <span class="inline-code">height</span>, <span
+            class="inline-code">margin-top</span> et <span class="inline-code">margin-bottom</span>.</li>
+    <li>S'affichent un à côté de l'autre.<br><em>(Logique puisqu'ils prennent uniquement la largeur de leur
+            contenu)</em></li>
+</ul>
+
+<warning>Deux éléments inline-block peuvent s’afficher un à côté de l’autre. Cependant, dès qu’un espace ou un retour de
+    ligne les séparent dans le code, un espace vide s’affiche entre les deux dans le rendu du navigateur.</warning>
+
+<dots></dots>
+
+<h3>none</h3>
+
+<p>Parfois il est préférable de ne pas afficher un élément.</p>
+
+<p>Par exemple, un <em>"popup"</em> ne devrait pas être affiché tant qu'un utilisateur n'a pas déclenché un évènement.
+    D'où l'utilité de la propriété <span class="inline-code">display: none;</span> indiquant au navigateur de faire
+    abstraction d'un élément.</p>
+
+<highlight lang="css">.fear {
+    display: none;
+    }</highlight>
+
+
+
+<dots></dots>
+<grostitre>Vertical align</grostitre>
+<p>Deux éléments affichés côte à côte</p>
+<p>Deux éléments <span class="inline-code">inline</span> ou <span class="inline-code">inline-block</span></p>
+<p>Utiliser la propriété CSS <span class="inline-code">vertical-align</span> afin de spécifier comment ces éléments
+    doivent s’afficher l’un par rapport à l’autre.</p>
+
+<h3>Valeurs disponibles:</h3>
+
+<ul>
+    <li><span class="inline-code">baseline</span> aligne avec la ligne de base</li>
+    <li><span class="inline-code">top</span> ⬆️ aligne en haut</li>
+    <li><span class="inline-code">middle</span> aligne au centre</li>
+    <li><span class="inline-code">bottom</span> ⬇️ aligne vers le bas</li>
+    <li><span class="inline-code">super</span> équivalent d'un exposant</li>
+    <li><span class="inline-code">sub</span> équivalent d'un indice</li>
+</ul>
+
+<codepen id="abjYQNP" tab="result,css" height="340"></codepen>
+
+<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/vertical-align">vertical-align</doclink>
+<doclink href="https://www.w3schools.com/cssref/pr_pos_vertical-align.asp">vertical-align</doclink>
+
+<dots></dots>
+
+<grostitre>Position</grostitre>
+
+<p>Comme il est mentionné à la rubrique <a href="#le-flux-natif-de-la-page-html">Le flux natif de la page HTML</a>, le
+    flux normal aussi appelé <em>“flow”</em> en anglais, est la façon dont les éléments sont affichés dans une page web
+    lorsqu’aucun style ne leur est appliqué.</p>
+
+<p>Dans le flux normal, les éléments block <em>(div, p, section, etc.)</em> sont positionnés un à la suite de l’autre.
+</p>
+
+<p>Les éléments inline <em>(span, strong, em, etc.)</em>, sont positionnés un à côté de l’autre en fonction de leur
+    ordre d’apparition dans le code HTML.</p>
+
+<codepen id="PoBRxKb" height="340" tab="result,css"></codepen>
+
+<alert>
+    <h3>Être ou ne pas être dans le flux</h3>
+    Lire cet article à propos du flux natif de la page <a
+        href="https://developer.mozilla.org/fr/docs/Web/CSS/CSS_flow_layout/In_flow_and_out_of_flow" target="_blank"
+        rel="noopener noreferrer">Être ou ne pas être dans le flux</a>
+</alert>
+
+<dots></dots>
+
+<h3>Position: static</h3>
+
+<p>Par défaut, le navigateur attribue la position <span class="inline-code">static</span> à tous les éléments.
+
+    <dots></dots>
+
+
+<h3>Position: relative</h3>
+
+<p>Les éléments en <span class="inline-code">position: relative;</span> se positionnent d'abord en fonction du flux
+    normal de la page. Ils sont ensuite déplacés relativement à cet emplacement, d'où leur nom <span
+        class="inline-code">position: relative;</span>.</p>
+
+<codepen id="qByoQVe" height="340" tab="result,css"></codepen>
+
+<dots></dots>
+
+
+<h3>Position: absolute</h3>
+
+<p>Les éléments en <span class="inline-code">position: absolute;</span> ignorent complètement le flux de la page et se
+    positionnent en fonction du parent le plus près aillant une position autre que static.</p>
+
+<codepen id="wvxmQye" height="340" tab="result,css"></codepen>
+
+<dots></dots>
+
+
+<h3>Position: fixed</h3>
+
+<p>Les éléments en <span class="inline-code">position: fixed;</span> ressemblent aux éléments en <a
+        href="#absolute">position absolute</a>. Tout comme eux, ils ignorent le flux de la page. Cependant, plutôt que
+    de se positionner en fonction d'un parent, ils se positionnent en fonction de la fenêtre <em>(viewport)</em>.</p>
+
+<codepen id="JjBLeLg" height="340" tab="result"></codepen>
+
+<dots></dots>
+
+
+<h3>Position: sticky</h3>
+
+<p>Les éléments en <span class="inline-code">position: sticky;</span> ressemblent aux éléments en <a
+        href="#static">position static</a>. Tout comme eux, ils se positionnent d'abord en fonction du flux normal de la
+    page. Cependant, lorsqu'une de leurs propriétés <span class="inline-code">top</span>, <span
+        class="inline-code">right</span>, <span class="inline-code">bottom</span> ou <span
+        class="inline-code">left</span> correspond au défilement de la page, l'élément devient fixe.</p>
+
+<codepen id="xxJWQzv" height="340" tab="result"></codepen>
+-->
+
+
+
+
+
+
+
+
+<!-- 
 <p class="spacer">Le flux ou encore ce que les anglophones appellent le <em>“flow”</em> consiste en l’affichage de base des éléments dans une page avant que des styles ne leur soient appliqués. Par défaut, les éléments sont <em>“respectueux”</em> les uns des autres. C'est-à-dire qu’ils s’affichent les uns à côté ou un en dessous des autres sans jamais se superposer, gardant ainsi l’ensemble du contenu visible, peu importe la dimension dudit contenu ou encore de la page.</p>
 
-<p>Bref, le flux d’une page web est conçu afin de générer une mise en page sur une colonne responsive.</p>
+<p>Bref, le flux d’une page web est conçu afin de générer une mise en page sur une seule colonne qui s'ajuste à la largeur de la fnêtre qui affiche le site web.</p>
 
 <dots></dots>
 
@@ -81,18 +410,19 @@
 
 <p>Par exemple:</p>
 
-<codepen id="QWBmZqy" height="340"></codepen>
+<codepen id="QWBmZqy" height="340"></codepen> -->
 
-<knowmore href="https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Flow_Layout">Article MDN à propos du flux</knowmore>
-
-<dots></dots>
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>
             </article>        <!-- MAIN FOOTER SOF -->
         </main>
         <footer>
-            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
         </footer>
         <script>app.mount('body');</script>
     </body>
