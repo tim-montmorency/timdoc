@@ -130,8 +130,9 @@
     <intlink href="../css/pseudo-classes/"></intlink>
 
     <!-- Exercices -->
-    <intlink href="../css/pseudo-classes/exercices/cercles/"></intlink>
     <intlink href="../css/pseudo-classes/exercices/bouton/"></intlink>
+    <intlink href="../css/pseudo-classes/exercices/cercles/"></intlink>
+   
 
 
 
@@ -149,9 +150,16 @@
     -->
 
 
-
+    <dots></dots>
     <grostitre>Devoir</grostitre>
-    <p>Si non terminés en classe, vous devez compléter les exerices</p>
+    <p>Si non terminés en classe, vous devez compléter les exercices obligatoires. Soient: <br>
+        - flexblox zombies 1 à 4, <br>
+        - les 2 exercices de cartes, <br>
+        - le scrabble Harry Potter, <br>
+        -  exercice pseudo-classe : bouton <br>
+       -  exercice pseudo-classe : cercle <br>
+       
+    </p>
 
 </wiki-page>
 
@@ -168,6 +176,10 @@
                                           
 ----------------------->
 <wiki-page name="Cours 03" date="2025-02-05">
+
+<intlink href='../css/flexbox/exercices/flexbox-nav-et-cols/'></intlink>
+
+
 
     <!-- DÉBUT À placer à quelques part (pas nécessairement àa ce cours ci) -->
     <intlink href="../html/emmet/"></intlink>

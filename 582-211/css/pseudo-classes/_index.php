@@ -71,8 +71,9 @@
 
 
 <dots></dots>
-<exercice href="exercices/cercles/"></exercice>
 <exercice href="exercices/bouton/"></exercice>
+<exercice href="exercices/cercles/"></exercice>
+
 
 
 
