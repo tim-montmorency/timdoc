@@ -1,8 +1,8 @@
 <?php
 /**
  * @type     exercice
- * @title    Exercice flexbox cartes 02
- * @icon     images/demo.jpg
+ * @title    Exercice flexbox cartes 01
+ * @icon     images/thumb.jpg
  * @abstract Pour cet exercice, vous devez utiliser les propriétés de base apprises en classe aujourd'hui afin de recréer des cartes.
  */
 ?>
@@ -11,13 +11,13 @@
 
 <p>Aperçu du résultat 👇</p>
 
-<img src="images/demo.jpg" alt="demo">
+<img src="images/thumb.jpg" alt="demo">
 
 <dots></dots>
 
 
 <grostitre>Matériel</grostitre>
-<doclink href='https://codepen.io/tim-momo/pen/MYgLpaw'>Pen de départ</doclink>
+<doclink href='https://codepen.io/tim-momo/pen/OPLdpJa'>Pen de départ</doclink>
 
 
 <dots></dots>
@@ -26,7 +26,6 @@
 
 <checklist>
   Utilisez les propriétés flexbropriétés flexbox vues en classe aujourd'hui pour placer les éléments à l'intérieur de la carte. Remarquez bien la position de chacun des éléments dans la carte.
-  Faites en sorte que la première carte ayant la classe <span class='inline-code'>.large</span> soit affiché sur l'horizontal tel que démontré dans l'aperçu. Évidemment, utilisez les propriétés flexbox pour y arriver.
   Lorsque vous avez réussi, utilisez les propriétés flexbox vues en classe aujourd'hui pour placer les 2 cartes côte à côte et centrées ensemble verticalement et horizontalement dans la page.
 </checklist>
 

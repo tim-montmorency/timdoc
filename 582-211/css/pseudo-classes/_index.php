@@ -1,9 +1,9 @@
 <?php
 /**
  * @type     article
- * @title    Pseudo-classes
+ * @title    Pseudo-classes d'état
  * @icon     images/icon.webp
- * @abstract hover, active, visited, focus
+ * @abstract :hover, :active, :visited, :focus
  * @ref      web/css
  */
 ?>

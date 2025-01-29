@@ -11,8 +11,14 @@
 
 <grostitre style="display: none">Introduction</grostitre>
 
-<p>Contrairement aux autres valeurs de <a href="../display/">display</a> qui influencent uniquement l'affichage des éléments par rapport aux autres dans la page, la propriété <incode>display: flex;</incode> ou <incode>display: inline-flex;</incode> influence aussi l'affichage de ses enfants en les positionnant dans un corridor sur l'axe des X ou Y, en modifiant leur dimension, leur ordre, etc. afin de remplir l'espace disponible le plus adéquatement possible.</p>
+<p>Contrairement aux autres valeurs de <a href="../display/">display</a> (<incode>display: inline</incode>, <incode>display: none</incode>, <incode>display: bloc</incode>) qui influencent uniquement l'affichage des éléments par rapport aux autres dans la page, la propriété <incode>display: flex;</incode> ou <incode>display: inline-flex;</incode> influence l'affichage de ses enfants en les positionnant dans un corridor sur l'axe des X ou Y, en modifiant leur dimension, leur ordre, etc. afin de remplir l'espace disponible le plus adéquatement possible.</p>
 
+<warning>La clé à retenir ici est que ce sont <em>les balises enfants</em> de l'élément ayant la propriété <incode>display: flex</incode> <em>qui s'organisent à l'intérieur de celui-ci</em>, en suivant les règles définies par Flexbox sur le parent.</warning>
+
+<grostitre>display: flex</grostitre>
+<p>Il faut d'abord déclarer la propriété <incode>display: flex;</incode> sur l'élément parent pour que les enfants soient affectés par les propriétés de Flexbox.</p>
+
+<dots></dots>
 <grostitre>flex-direction</grostitre>
 
 <p>Comme son nom l'indique, la valeur de cette propriété définit la direction qu'auront ses enfants.</p>
@@ -58,6 +64,10 @@
 
 <exercice href="exercices/flexbox-zombie-chapitre-1/"></exercice>
 
+
+
+
+<dots></dots>
 <grostitre>justify-content</grostitre>
 
 <p>Un peu comme Word ou Google Doc, flexbox vous permet de justifier votre contenu horizontalement ↔️ afin atteindre l'affichage désiré.</p>
@@ -123,6 +133,12 @@
 
 <exercice href="exercices/flexbox-zombie-chapitre-2/"></exercice>
 
+
+
+
+
+
+<dots></dots>
 <grostitre>align-items</grostitre>
 
 <p>Dans la même lignée que <a href="#justify-content">justify-content</a>, mais cette fois à la verticale ↕️.</p>
@@ -147,7 +163,7 @@
     </li>
 </ul>
 
-<h3>align-items: stretch vs center</h3>
+<h3><incode>align-items: stretch</incode> vs <incode>align-items: center</incode></h3>
 
 <codepen id="ZEZbxoz" tab="result"></codepen>
 
@@ -156,7 +172,7 @@
     À droite, align-items: center;<br>
 </span><br>
 
-<h3>align-items: flex-start vs flex-end</h3>
+<h3><incode>align-items: flex-start</incode> vs <incode>align-items: flex-end</incode></h3>
 
 <codepen id="LYvpdrx" tab="result"></codepen>
 
@@ -208,19 +224,9 @@
 
 <exercice href="exercices/flexbox-zombie-chapitre-4/"></exercice>
 
-<grostitre>Inspecteur 🕵️‍♂️</grostitre>
 
-<p>L'inspecteur est d'une aide précieuse lorsque l'on manipule les éléments flexbox. Dans le DOM tree, les éléments en <incode>display: flex;</incode> ou <incode>display: inline-flex;</incode> sont mis en évidence grâce à un badge contenant le mot <em>"flex"</em>. Lorsque cliqué, ce badge met en évidence la zone prise dans la page par le flexbox en question.</p>
-
-<p>Lorsque l'on examine les propriétés CSS appliquées à cet élément on remarque à la droite de la propriété <incode>display</incode> un icône rappelant une grille. Lorsque cliqué, cet icône affiche différentes propriétés en lien avec flexbox, par exemple: <incode>flex-direction</incode>, <incode>justify-content</incode>, <incode>align-items</incode>, etc. Les valeurs disponibles pour ces propriétés sont illustrées avec des icônes permettant d'identifier ou de tester rapidement la valeur souhaitée.</p>
-
-<!-- <video playsinline src="videos/flex-inspecteur.mp4" autoplay="true" muted="true" loop="true"></video><br><br><br> -->
-<clipasset src="./videos/flex-inspecteur.mp4"></clipasset>
 
 <dots></dots>
-
-
-
 <grostitre>Centrer un élément dans le body</grostitre>
 <warning>
     <h3>Centrer un ou des éléments dans le <incode>body</incode>.</h3>
@@ -244,8 +250,23 @@ ou encore
 
 <dots></dots>
 
+<grostitre>Inspecteur 🕵️‍♂️</grostitre>
+
+<p>L'inspecteur est d'une aide précieuse lorsque l'on manipule les éléments flexbox. Dans le DOM tree, les éléments en <incode>display: flex;</incode> ou <incode>display: inline-flex;</incode> sont mis en évidence grâce à un badge contenant le mot <em>"flex"</em>. Lorsque cliqué, ce badge met en évidence la zone prise dans la page par le flexbox en question.</p>
+
+<p>Lorsque l'on examine les propriétés CSS appliquées à cet élément on remarque à la droite de la propriété <incode>display</incode> un icône rappelant une grille. Lorsque cliqué, cet icône affiche différentes propriétés en lien avec flexbox, par exemple: <incode>flex-direction</incode>, <incode>justify-content</incode>, <incode>align-items</incode>, etc. Les valeurs disponibles pour ces propriétés sont illustrées avec des icônes permettant d'identifier ou de tester rapidement la valeur souhaitée.</p>
+
+<!-- <video playsinline src="videos/flex-inspecteur.mp4" autoplay="true" muted="true" loop="true"></video><br><br><br> -->
+<clipasset src="./videos/flex-inspecteur.mp4"></clipasset>
+
+<dots></dots>
+
+<exercice href='exercices/flexbox-cartes-01/'></exercice>
+<exercice href='exercices/flexbox-cartes-02/'></exercice>
 
 <exercice href="exercices/flexbox-scrabble-potter/"></exercice>
+
+<dots></dots>
 
 <exercice href="exercices/flexbox-froggy-niveau-1-a-13/"></exercice>
 

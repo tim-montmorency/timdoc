@@ -64,17 +64,8 @@
 
 
     <intlink href="../css/specificite/"></intlink>
-    <intlink href="../css/imbrication-css-intro/"></intlink>
-
-    
     <intlink href="../css/specificite/exercices/specificite-css/"></intlink>
 
-
-    <dots></dots>
-
-    
-    <intlink href="../html/emmet/"></intlink>
-    <intlink href="../html/emmet/exercices/page-web-emmet/"></intlink>
 
 
 
@@ -96,46 +87,74 @@
 <wiki-page name="Cours 02" date="2025-01-29">
 
 
+    <grostitre>Contenu du jour</grostitre>
+    <ul>
+        <li><strong>Flexbox</strong> débutant : Le placement et la mise en page avec les propriétés de base du concept flexbox.</li>
+        <li>Les <strong>pseudo-classes d'état</strong></li>
+        <li>Les <strong>pseudo-classes de descendance</strong> (child) <em>si on a le temps.</em></li>
+    </ul>
+
+    <dots></dots>
+
+    <grostitre>Flexbox</grostitre>
+    <intlink href="../css/flexbox/"></intlink>
+
+    <h3>Flexbox Zombies : de 1 à 4</h3>
+    <ul>
+        <li><a href="https://mastery.games/flexboxzombies/chapter/1/level/1" target="_blank" rel="noopener noreferrer">Flexbox Zombies - Chapter 1 Level 1</a></li>
+        <li><a href="https://mastery.games/flexboxzombies/chapter/2/level/1" target="_blank" rel="noopener noreferrer">Flexbox Zombies - Chapter 2 Level 1</a></li>
+        <li><a href="https://mastery.games/flexboxzombies/chapter/3/level/1" target="_blank" rel="noopener noreferrer">Flexbox Zombies - Chapter 3 Level 1</a></li>
+        <li><a href="https://mastery.games/flexboxzombies/chapter/4/level/1" target="_blank" rel="noopener noreferrer">Flexbox Zombies - Chapter 4 Level 1</a></li>
+    </ul>
+
+    <h3>Reproduire une mise-en-page simple avec flexbox:</h3>
+    <intlink href='../css/flexbox/exercices/flexbox-cartes-01/'></intlink>
+    <intlink href='../css/flexbox/exercices/flexbox-cartes-02/'></intlink>
+
+
+    <h3>Scrabble Harry-Potter avec flexbox</h3>
+
+    <ul>
+        <li><a href="https://smnarnold.com/exercices/css/flexbox-scrabble-potter" target="_blank" rel="noopener noreferrer">Scrabble Harry-Potter</a></li>
+    </ul>
+
+    <h3>Si vous avez terminé les exercices flexbox précédents</h3>
+    <ul>
+        <li><a href="https://flexboxfroggy.com/#fr" target="_blank" rel="noopener noreferrer">Flexbox Froggy </a> niveaux 1 à 13.</li>
+        <li><a href="http://www.flexboxdefense.com" target="_blank" rel="noopener noreferrer">Flexbox Defense</a> niveaux 1 à 9</li>
+    </ul>
 
 
 
 
-<grostitre>Contenu du jour</grostitre>
-   
+    <dots></dots>
+    <grostitre>Les pseudo-classes CSS</grostitre>
     <intlink href="../css/pseudo-classes/"></intlink>
+
     <!-- Exercices -->
     <intlink href="../css/pseudo-classes/exercices/cercles/"></intlink>
     <intlink href="../css/pseudo-classes/exercices/bouton/"></intlink>
 
-    <dots></dots>
-    <intlink href="../css/selecteurs-avances/"></intlink>
-    <intlink href="../css/pseudo-classes-intermediaires/"></intlink>
-
-    <!-- Exercices -->
-    <p><small>Pour les 2 prochains exercices nommés <em>CSS Diner</em>, notez bien que les balises utilisées dans ce jeu sont fictives. Ne croyez pas que <incode><plate></incode>,  <incode><bento></incode>, <incode><pickle></incode> ou  <incode><apple></incode> </small></p>
-    <intlink href="../css/selecteurs-avances/exercices/css-diner/"></intlink>
-    <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
-
-    <dots></dots>
-    <!-- Exercices -->
-    <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
 
 
-    <dots></dots>
-    <h3>Révision des exercices précédents</h3>
+    <!--
+        <dots></dots>
+        <intlink href="../css/pseudo-classes-intermediaires/"></intlink>
+
+    
+        <br>
+        <small>Pour les 2 prochains exercices nommés <em>CSS Diner</em>, notez bien que les balises utilisées dans ce jeu sont fictives. Ne croyez pas que <incode><plate></incode>,  <incode><bento></incode>, <incode><pickle></incode> ou  <incode><apple></incode> </small>
+        <intlink href="../css/selecteurs-avances/exercices/css-diner/"></intlink>
+        <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
+
+        <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
+    -->
 
 
-    <dots></dots>
-    <!-- Exercices -->
-    <intlink href="../css/exercices/weezer-album-bleu/"></intlink>
-    <intlink href="../css/exercices/queen-hot-space/"></intlink>
 
+    <grostitre>Devoir</grostitre>
+    <p>Si non terminés en classe, vous devez compléter les exerices</p>
 
-    <dots></dots>
-    <grostitre>Devoir hors classe</grostitre>
-    <p>Si non terminés en classe, vous devez compléter les exerices:</p>
-    <!--<intlink href="../css/exercices/weezer-album-bleu/"></intlink>
-    <intlink href="../css/exercices/queen-hot-space/"></intlink>-->
 </wiki-page>
 
 
@@ -151,16 +170,36 @@
                                           
 ----------------------->
 <wiki-page name="Cours 03" date="2025-02-05">
-<intlink href="../autres/inspecteur/"></intlink>
+
+    <!-- DÉBUT À placer à quelques part (pas nécessairement àa ce cours ci) -->
+    <intlink href="../html/emmet/"></intlink>
+    <intlink href="../html/emmet/exercices/page-web-emmet/"></intlink>
+
+    <intlink href="../css/imbrication-css-intro/"></intlink>
+    <intlink href="../css/imbrication-css/"></intlink>
+    <!-- ^quelles est la diff entre les 2? -->
+
+    <intlink href="../autres/inspecteur/"></intlink>
     <intlink href="../autres/inspecteur-elements/"></intlink>
     <!-- Exercices -->
     <!--<intlink href="../autres/inspecteur-elements/exercices/unlock/"></intlink>
     <intlink href="../autres/inspecteur-elements/exercices/urbania/"></intlink>-->
 
+    <!-- FIN À placer à quelques part (pas nécessairement àa ce cours ci) -->
+
+
+    <dots></dots>
+    <intlink href="../css/selecteurs-avances/"></intlink>
+    <dots></dots>
+    <grostitre>Devoir hors classe</grostitre>
+    <p>Si non terminés en classe, vous devez compléter les exerices:</p>
+    <intlink href="../css/exercices/weezer-album-bleu/"></intlink>
+    <intlink href="../css/exercices/queen-hot-space/"></intlink>
 
 
 
-    <intlink href="../css/imbrication-css/"></intlink>
+
+    
 
 
 
