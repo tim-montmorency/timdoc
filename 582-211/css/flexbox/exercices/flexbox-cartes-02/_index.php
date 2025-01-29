@@ -7,10 +7,9 @@
  */
 ?>
 
-<p ></p>
 
-<p>Aperçu du résultat 👇</p>
 
+<grostitre>Aperçu du résultat 👇</grostitre>
 <img src="images/demo.jpg" alt="demo">
 
 
@@ -22,7 +21,6 @@
 
 
 <dots></dots>
-
 <grostitre>Requis de base</grostitre>
 
 <checklist>
@@ -34,4 +32,4 @@
 
 
 <grostitre>Notes de cours 📚</grostitre>
-<intlink href='../../flexbox/'></intlink>
+<intlink href='../../'></intlink>

@@ -7,9 +7,8 @@
  */
 ?>
 
-<p ></p>
 
-<p>Aperçu du résultat 👇</p>
+<grostitre>Aperçu du résultat 👇</grostitre>
 
 <img src="images/thumb.jpg" alt="demo">
 
@@ -32,4 +31,4 @@
 
 
 <grostitre>Notes de cours 📚</grostitre>
-<intlink href='../../flexbox/'></intlink>
+<intlink href='../../'></intlink>
