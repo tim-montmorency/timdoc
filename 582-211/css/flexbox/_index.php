@@ -218,6 +218,32 @@
 
 <dots></dots>
 
+
+
+<grostitre>Centrer un élément dans le body</grostitre>
+<warning>
+    <h3>Centrer un ou des éléments dans le <incode>body</incode>.</h3>
+    <p>Pour centrer un élément <em>verticalement</em> dans le <incode>body</incode>, vous devez utilisez un de ces deux procédés afin de forcer le <incode>body</incode> à occuper toute la hauteur et ainsi pouvoir centrer l'élément dans la hauteur totale de la fenêtre.</p>
+    <highlight lang='css'>html, body{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}</highlight>
+ou encore
+<highlight lang='css'>body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+}</highlight>
+</warning>
+
+<dots></dots>
+
+
 <exercice href="exercices/flexbox-scrabble-potter/"></exercice>
 
 <exercice href="exercices/flexbox-froggy-niveau-1-a-13/"></exercice>
