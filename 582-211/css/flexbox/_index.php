@@ -232,20 +232,14 @@
     <h3>Centrer un ou des éléments dans le <incode>body</incode>.</h3>
     <p>Pour centrer un élément <em>verticalement</em> dans le <incode>body</incode>, vous devez utilisez un de ces deux procédés afin de forcer le <incode>body</incode> à occuper toute la hauteur et ainsi pouvoir centrer l'élément dans la hauteur totale de la fenêtre.</p>
     <highlight lang='css'>html, body{
-    width: 100%;
     height: 100%;
-
-    display: flex;
-    align-items: center;
 }</highlight>
 ou encore
 <highlight lang='css'>body{
-    width: 100vw;
     height: 100vh;
-
-    display: flex;
-    align-items: center;
 }</highlight>
+<br>
+<p>Et si vous vouslez center verticalement les éléments dans <incode>div</incode> à l'intérieur du <incode>body</incode> et que ce <incode>div</incode>qui ne prend pas toute la hauteur du body, il vous faudra aussi forcer sa hauteur.</p>
 </warning>
 
 <dots></dots>

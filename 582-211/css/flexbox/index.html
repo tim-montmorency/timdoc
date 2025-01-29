@@ -316,20 +316,14 @@
     <h3>Centrer un ou des éléments dans le <span class="inline-code">body</span>.</h3>
     <p>Pour centrer un élément <em>verticalement</em> dans le <span class="inline-code">body</span>, vous devez utilisez un de ces deux procédés afin de forcer le <span class="inline-code">body</span> à occuper toute la hauteur et ainsi pouvoir centrer l'élément dans la hauteur totale de la fenêtre.</p>
     <highlight lang="css">html, body{
-    width: 100%;
     height: 100%;
-
-    display: flex;
-    align-items: center;
 }</highlight>
 ou encore
 <highlight lang="css">body{
-    width: 100vw;
     height: 100vh;
-
-    display: flex;
-    align-items: center;
 }</highlight>
+<br>
+<p>Et si vous vouslez center verticalement les éléments dans <span class="inline-code">div</span> à l'intérieur du <span class="inline-code">body</span> et que ce <span class="inline-code">div</span>qui ne prend pas toute la hauteur du body, il vous faudra aussi forcer sa hauteur.</p>
 </warning>
 
 <dots></dots>

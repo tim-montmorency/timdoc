@@ -24,7 +24,7 @@
 <grostitre>Requis de base</grostitre>
 
 <checklist>
-  Utilisez les propriétés flexbropriétés flexbox vues en classe aujourd'hui pour placer les éléments à l'intérieur de la carte. Remarquez bien la position de chacun des éléments dans la carte.
+  Utilisez les propriétés flexbox vues en classe aujourd'hui pour placer les éléments à l'intérieur de la carte. Remarquez bien la position de chacun des éléments dans la carte.
   Lorsque vous avez réussi, utilisez les propriétés flexbox vues en classe aujourd'hui pour placer les 2 cartes côte à côte et centrées ensemble verticalement et horizontalement dans la page.
 </checklist>
 
