@@ -96,7 +96,7 @@
 </span><br>
 
 <h3><incode>justify-content: center</incode> vs <incode>justify-content: space-between</incode></h3>
-
+.
 <codepen id="JjVYLWG" tab="result"></codepen>
 
 <span class="remark">
