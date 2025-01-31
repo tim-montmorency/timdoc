@@ -1,9 +1,9 @@
 <?php
 /**
  * @type     article
- * @title    Pseudo-classes
+ * @title    Pseudo-classes d'état
  * @icon     images/icon.webp
- * @abstract hover, active, visited, focus
+ * @abstract :hover, :active, :visited, :focus
  * @ref      web/css
  */
 ?>
@@ -17,7 +17,6 @@
 <codepen id="rNrKbRX" tab="css,result" height="340"></codepen>
 
 <info>Remarquez comment les deux points <incode>:</incode> servent à séparer le sélecteur de base de la pseudo-classe.</info>
-
 <dots></dots>
 
 
@@ -25,44 +24,58 @@
 
 <p>Les pseudo-classes sont particulièrement utiles pour gérer l'apparence des liens en fonction de leur état.</p>
 
-<p>Par exemple, voici les états d'un lien sur <a target="_blank" href="https://fr.wikipedia.org/wiki/(274301)_Wikip%C3%A9dia">Wikipedia</a></p>
+<codepen id="gbYqWwp" tab="css,result" height="340"></codepen>
 
-<h3>:link</h3>
 
-<p>Lorsque le lien n'a pas encore été visité.</p>
 
-<img src="images/pseudo-link.png">
 
-<h3>:hover</h3>
-
-<p>Lorsqu'il est survolé.</p>
-
-<img src="images/pseudo-hover.png">
-
-<h3>:active</h3>
-
-<p>Lorsque le bouton de la souris est enfoncé.</p>
-
-<img src="images/pseudo-active.png">
-
-<h3>:visited</h3>
-
-<p>Lorsqu'il a déjà été visité.</p>
-
-<img src="images/pseudo-visited.png">
-
-<h3>:focus</h3>
-
-<p>Lorsque le lien reçoit le focus.</p>
-
-<img src="images/pseudo-focus.png">
 
 <dots></dots>
+<h3>Autre exemple le site <a target="_blank" href="https://fr.wikipedia.org/wiki/(274301)_Wikip%C3%A9dia">Wikipedia</a>, voici les états d'un lien sur ce site web. </h3>
 
-<exercice href="exercices/cercles/"></exercice>
+<info><small>Vous pouvez tester par vous même sur le site Wikipedia. Survolez, appuyez sur tabulation ⇥ pour tester le changement de focus, cliquez sur le lien, revenez à la page précédente, constatez les différents états.</small></info>
+
+
+<h4>:link</h4>
+
+<p>Lorsque le lien n'a pas encore été visité: <img src="images/pseudo-link.png"></p>
+
+
+
+<h4>:hover</h4>
+
+<p>Lorsqu'il est survolé: <img src="images/pseudo-hover.png"></p>
+
+
+
+<h4>:active</h4>
+
+<p>Lorsque le bouton de la souris est enfoncé: <img src="images/pseudo-active.png"></p>
+
+
+
+<h4>:visited</h4>
+
+<p>Lorsqu'il a déjà été visité: <img src="images/pseudo-visited.png"></p>
+
+
+
+<h4>:focus</h4>
+
+<p>Lorsque le lien reçoit le focus (appuyez sur tabulation ⇥ pour tester le changement de focus): <img src="images/pseudo-focus.png"></p>
+
+
+
+
+<doclink href='https://developer.mozilla.org/fr/docs/Web/CSS/Pseudo-classes'>Les pseudo-classes: en savoir plus sur le site MDN.</doclink>
+
+
+<dots></dots>
 <exercice href="exercices/bouton/"></exercice>
+<exercice href="exercices/cercles/"></exercice>
 
-<dots></dots>
+
+
 
 
 

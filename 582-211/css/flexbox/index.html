@@ -57,10 +57,19 @@
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
+
+
 <grostitre style="display: none">Introduction</grostitre>
 
-<p>Contrairement aux autres valeurs de <a href="../display/">display</a> qui influencent uniquement l'affichage des éléments par rapport aux autres dans la page, la propriété <span class="inline-code">display: flex;</span> ou <span class="inline-code">display: inline-flex;</span> influence aussi l'affichage de ses enfants en les positionnant dans un corridor sur l'axe des X ou Y, en modifiant leur dimension, leur ordre, etc. afin de remplir l'espace disponible le plus adéquatement possible.</p>
 
+<p>Contrairement aux autres valeurs de <a href="../display/">display</a> (<span class="inline-code">display: inline</span>, <span class="inline-code">display: none</span>, <span class="inline-code">display: bloc</span>) qui influencent uniquement l'affichage des éléments par rapport aux autres dans la page, la propriété <span class="inline-code">display: flex;</span> ou <span class="inline-code">display: inline-flex;</span> influence l'affichage de ses enfants en les positionnant dans un corridor sur l'axe des X ou Y, en modifiant leur dimension, leur ordre, etc. afin de remplir l'espace disponible le plus adéquatement possible.</p>
+
+<warning>La clé à retenir ici est que ce sont <em>les balises enfants</em> de l'élément ayant la propriété <span class="inline-code">display: flex</span> <em>qui s'organisent à l'intérieur de celui-ci</em>, en suivant les règles définies par Flexbox sur le parent.</warning>
+
+<grostitre>display: flex</grostitre>
+<p>Il faut d'abord déclarer la propriété <span class="inline-code">display: flex;</span> sur l'élément parent pour que les enfants soient affectés par les propriétés de Flexbox.</p>
+
+<dots></dots>
 <grostitre>flex-direction</grostitre>
 
 <p>Comme son nom l'indique, la valeur de cette propriété définit la direction qu'auront ses enfants.</p>
@@ -115,6 +124,10 @@
             </div>
         </a>
 
+
+
+
+<dots></dots>
 <grostitre>justify-content</grostitre>
 
 <p>Un peu comme Word ou Google Doc, flexbox vous permet de justifier votre contenu horizontalement ↔️ afin atteindre l'affichage désiré.</p>
@@ -143,7 +156,8 @@
 </ul>
 
 
-<h3><span class="inline-code">justify-content: flex-start</span> vs <span class="inline-code">justify-content: flex-end</span></h3>
+
+<h3><span class="inline-code"><span class="inline-code">justify-content: flex-start</span></span> vs <span class="inline-code">justify-content: <span class="inline-code">justify-content: flex-end</span></span></h3>
 
 <codepen id="ZEZbxEw" tab="result"></codepen>
 
@@ -189,6 +203,12 @@
             </div>
         </a>
 
+
+
+
+
+
+<dots></dots>
 <grostitre>align-items</grostitre>
 
 <p>Dans la même lignée que <a href="#justify-content">justify-content</a>, mais cette fois à la verticale ↕️.</p>
@@ -213,7 +233,7 @@
     </li>
 </ul>
 
-<h3>align-items: stretch vs center</h3>
+<h3><span class="inline-code">align-items: stretch</span> vs <span class="inline-code">align-items: center</span></h3>
 
 <codepen id="ZEZbxoz" tab="result"></codepen>
 
@@ -222,7 +242,7 @@
     À droite, align-items: center;<br>
 </span><br>
 
-<h3>align-items: flex-start vs flex-end</h3>
+<h3><span class="inline-code">align-items: flex-start</span> vs <span class="inline-code">align-items: flex-end</span></h3>
 
 <codepen id="LYvpdrx" tab="result"></codepen>
 
@@ -292,6 +312,26 @@
             </div>
         </a>
 
+
+
+<dots></dots>
+<grostitre>Centrer un élément dans le body</grostitre>
+<warning>
+    <h3>Centrer un ou des éléments dans le <span class="inline-code">body</span>.</h3>
+    <p>Pour centrer un élément <em>verticalement</em> dans le <span class="inline-code">body</span>, vous devez utilisez un de ces deux procédés afin de forcer le <span class="inline-code">body</span> à occuper toute la hauteur et ainsi pouvoir centrer l'élément dans la hauteur totale de la fenêtre.</p>
+    <highlight lang="css">html, body{
+    height: 100%;
+}</highlight>
+ou encore
+<highlight lang="css">body{
+    height: 100vh;
+}</highlight>
+<br>
+<p>Et si vous vouslez center verticalement les éléments dans <span class="inline-code">div</span> à l'intérieur du <span class="inline-code">body</span> et que ce <span class="inline-code">div</span>qui ne prend pas toute la hauteur du body, il vous faudra aussi forcer sa hauteur.</p>
+</warning>
+
+<dots></dots>
+
 <grostitre>Inspecteur 🕵️‍♂️</grostitre>
 
 <p>L'inspecteur est d'une aide précieuse lorsque l'on manipule les éléments flexbox. Dans le DOM tree, les éléments en <span class="inline-code">display: flex;</span> ou <span class="inline-code">display: inline-flex;</span> sont mis en évidence grâce à un badge contenant le mot <em>"flex"</em>. Lorsque cliqué, ce badge met en évidence la zone prise dans la page par le flexbox en question.</p>
@@ -303,6 +343,27 @@
 
 <dots></dots>
 
+        <a class="exercice" target="_blank" href="exercices/flexbox-cartes-01/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/flexbox-cartes-01/images/thumb.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Exercice flexbox cartes 01</span>
+                    <span class="exercice-description">Pour cet exercice, vous devez utiliser les propriétés de base apprises en classe aujourd'hui afin de recréer des cartes.</span>
+                </div>
+            </div>
+        </a>
+        <a class="exercice" target="_blank" href="exercices/flexbox-cartes-02/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(exercices/flexbox-cartes-02/images/demo.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Exercice flexbox cartes 02</span>
+                    <span class="exercice-description">Pour cet exercice, vous devez utiliser les propriétés de base apprises en classe aujourd'hui afin de recréer des cartes.</span>
+                </div>
+            </div>
+        </a>
+
         <a class="exercice" target="_blank" href="exercices/flexbox-scrabble-potter/">
             <div class="exercice-container">
                 <div class="exercice-thumb" style="background-image: url(exercices/flexbox-scrabble-potter/images/thumb.jpg)"></div>
@@ -313,6 +374,8 @@
                 </div>
             </div>
         </a>
+
+<dots></dots>
 
         <a class="exercice" target="_blank" href="https://flexboxfroggy.com/#fr">
             <div class="exercice-container">

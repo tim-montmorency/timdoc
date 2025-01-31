@@ -1,9 +1,9 @@
 <?php
 /**
  * @type     article
- * @title    Pseudo-classes intermédiaires
+ * @title    Pseudo-classes de descendance (child)
  * @icon     images/icon.webp
- * @abstract first-child, last-child, only-child, nth
+ * @abstract f:irst-child, :last-child, :only-child, :nth-child
  * @ref      web/css
  */
 ?>
