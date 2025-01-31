@@ -9,7 +9,10 @@
 
 ?>
 
+
+
 <grostitre style="display: none">Introduction</grostitre>
+
 
 <p>Contrairement aux autres valeurs de <a href="../display/">display</a> (<incode>display: inline</incode>, <incode>display: none</incode>, <incode>display: bloc</incode>) qui influencent uniquement l'affichage des éléments par rapport aux autres dans la page, la propriété <incode>display: flex;</incode> ou <incode>display: inline-flex;</incode> influence l'affichage de ses enfants en les positionnant dans un corridor sur l'axe des X ou Y, en modifiant leur dimension, leur ordre, etc. afin de remplir l'espace disponible le plus adéquatement possible.</p>
 
