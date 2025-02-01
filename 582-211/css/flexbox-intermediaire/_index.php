@@ -4,11 +4,17 @@
  * @type     article
  * @title    Flexbox intermédiaire
  * @icon     images/icon.webp
- * @abstract flex-grow, flex-shrink, flex-basis, order
+ * @abstract figma dev mode et flexbox, flex-grow, flex-shrink, flex-basis, order
  */
 
 ?>
 
+
+<grostitre>Comprendre Flexbox via le <em>Dev&nbsp;mode</em> dans Figma</grostitre>
+<youtube src="Pi6MipIG5iI"></youtube>
+<small>En anglais mais vous pouvez ajouter les sous-titres français.</small>
+
+<dots></dots>
 <grostitre>flex-grow</grostitre>
 
 <p>Propriété pouvant être appliquée à un enfant dont le parent est en <incode>display: flex;</incode>.</p>
@@ -44,8 +50,10 @@
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/flex-grow">flex-grow</doclink>
 <doclink href="https://www.w3schools.com/cssref/css3_pr_flex-grow.php">flex-grow</doclink>
-<br><br>
+
 <exercice href="exercices/flexbox-zombie-chapitre-5/"></exercice>
+
+<exercice href="exercices/flexbox-poesie-hiver/"></exercice>
 
 <dots></dots>
 
