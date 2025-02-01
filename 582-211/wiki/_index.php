@@ -176,8 +176,8 @@
                                           
 ----------------------->
 <wiki-page name="Cours 03" date="2025-02-05">
-
-<intlink href='../css/flexbox/exercices/flexbox-nav-et-cols/'></intlink>
+    <intlink href="../css/flexbox-intermediaire/"></intlink> 
+    <intlink href='../css/flexbox-intermediaire/exercices/flexbox-poesie-hiver/'></intlink>
 
 
 
@@ -185,9 +185,6 @@
     <intlink href="../html/emmet/"></intlink>
     <intlink href="../html/emmet/exercices/page-web-emmet/"></intlink>
 
-    <intlink href="../css/imbrication-css-intro/"></intlink>
-    <intlink href="../css/imbrication-css/"></intlink>
-    <!-- ^quelles est la diff entre les 2? -->
 
     <intlink href="../autres/inspecteur/"></intlink>
     <intlink href="../autres/inspecteur-elements/"></intlink>
@@ -245,6 +242,15 @@
                                      
 ----------------->
 <wiki-page name="Cours 04" date="2025-02-12">
+
+    
+    <intlink href="../css/imbrication-css-intro/"></intlink>
+    <intlink href="../css/imbrication-css/"></intlink>
+    <!-- ^quelles est la diff entre les 2? -->
+
+
+
+
     <h3>Examen: Les Guardiens de la Galaxie</h3>
     <video playsinline src="videos/baby-groot-dancing.mp4" autoplay="true" muted="true" loop="true"></video>
 </wiki-page>

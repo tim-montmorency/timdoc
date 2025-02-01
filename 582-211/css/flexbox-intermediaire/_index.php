@@ -10,11 +10,7 @@
 ?>
 
 
-<grostitre>Comprendre Flexbox via le <em>Dev&nbsp;mode</em> dans Figma</grostitre>
-<youtube src="Pi6MipIG5iI"></youtube>
-<small>En anglais mais vous pouvez ajouter les sous-titres français.</small>
 
-<dots></dots>
 <grostitre>flex-grow</grostitre>
 
 <p>Propriété pouvant être appliquée à un enfant dont le parent est en <incode>display: flex;</incode>.</p>
@@ -132,5 +128,7 @@
 
 <exercice href="exercices/flexbox-pony/"></exercice>
 <exercice href="exercices/flexbox-actualite-google/"></exercice>
+
+<dots></dots> 
 <exercice href="exercices/flexbox-froggy-niveaux-14-a-17/"></exercice>
 <exercice href="exercices/flexbox-defense-niveaux-10-a-12/"></exercice>
