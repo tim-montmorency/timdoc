@@ -57,8 +57,8 @@ Les dates doivent afficher au bas de leurs cartes respectives.
 
 <grostitre>Notes de cours 📚</grostitre>
 
-<intlink href="../../../flexbox/"></intlink>
-<intlink href="../../..//flexbox-intermediaire/"></intlink>
-<intlink href="../../../border/"></intlink>
-<intlink href="../../..//object-fit/"></intlink>
-<intlink href="../../../media-queries/"></intlink>
+<intlink href="../../flexbox/"></intlink>
+<intlink href="../../flexbox-intermediaire/"></intlink>
+<intlink href="../../border/"></intlink>
+<intlink href="../../object-fit/"></intlink>
+<intlink href="../../media-queries/"></intlink>

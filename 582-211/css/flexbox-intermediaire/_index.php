@@ -125,9 +125,10 @@
 <exercice href="exercices/flexbox-zombie-chapitre-8/"></exercice>
 
 <dots></dots>
-
 <exercice href="../exercices/flexbox-pony/"></exercice>
-<exercice href="../exercices/flexbox-actualite-google/"></exercice>
+
+<!-- Trop rapide car on demande media queries 
+<exercice href="../exercices/flexbox-actualite-google/"></exercice>-->
 
 <dots></dots> 
 <exercice href="exercices/flexbox-froggy-niveaux-14-a-17/"></exercice>

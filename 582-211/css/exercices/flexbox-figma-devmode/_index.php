@@ -1,22 +1,28 @@
 <?php
 /**
  * @type     exercice
- * @title    Exercice flexbox cartes 01
+ * @title    Exercice Figma DevMode Flexbox
  * @icon     images/thumb.jpg
- * @abstract Pour cet exercice, vous devez utiliser les propriétés de base apprises en classe aujourd'hui afin de recréer des cartes.
+ * @abstract Pour cet exercice, vous devrez réorganiser le fichier Figma avec auto-layout, exporter en devmode et travailler dans Figma for VS Code pour recréer l'interface en HTML+CSS
  */
 ?>
 
+<!-- Je leur fourni un Figma sans auto-layout, ils doivent réorganiser le fichier avec les composantes qui ont l’auto-layout. Ensuite ils intègrent ce design dans Figma pour Visual Studio Code. Je leur demande de me remettre ce fichier de base et ensuite je leur demande d’apporter des changements directement dans VS Code et ils doivent ensuite remettre le fichier modifié. Je peux penser à faire une évaluation par les pairs pour cet exercice. 
+
+ 
+
+Figma n’écrit pas de html mais seulement du css. 
+Il y a des extension qui le font mais selon le tuto que je suis, le gars préfère écrire le html pas lui-même.  -->
 
 <grostitre>Aperçu du résultat 👇</grostitre>
 
-<img src="images/thumb.jpg" alt="demo">
+
 
 <dots></dots>
 
 
 <grostitre>Matériel</grostitre>
-<doclink href='https://codepen.io/tim-momo/pen/OPLdpJa'>Pen de départ</doclink>
+
 
 
 <dots></dots>
@@ -24,8 +30,7 @@
 <grostitre>Requis de base</grostitre>
 
 <checklist>
-  Utilisez les propriétés flexbox vues en classe aujourd'hui pour placer les éléments à l'intérieur de la carte. Remarquez bien la position de chacun des éléments dans la carte.
-  Lorsque vous avez réussi, utilisez les propriétés flexbox vues en classe aujourd'hui pour placer les 2 cartes côte à côte et centrées ensemble verticalement et horizontalement dans la page.
+ Figma
 </checklist>
 
 

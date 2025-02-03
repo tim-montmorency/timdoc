@@ -31,4 +31,4 @@
 
 
 <grostitre>Notes de cours 📚</grostitre>
-<intlink href='../../'></intlink>
+<intlink href='../../flexbox/'></intlink>

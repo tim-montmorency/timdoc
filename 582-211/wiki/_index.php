@@ -135,21 +135,6 @@
    
 
 
-
-    <!--
-        <dots></dots>
-        <intlink href="../css/pseudo-classes-intermediaires/"></intlink>
-
-    
-        <br>
-        <small>Pour les 2 prochains exercices nommés <em>CSS Diner</em>, notez bien que les balises utilisées dans ce jeu sont fictives. Ne croyez pas que <incode><plate></incode>,  <incode><bento></incode>, <incode><pickle></incode> ou  <incode><apple></incode> </small>
-        <intlink href="../css/selecteurs-avances/exercices/css-diner/"></intlink>
-        <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
-
-        <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
-    -->
-
-
     <dots></dots>
     <grostitre>Devoir</grostitre>
     <p>Si non terminés en classe, vous devez compléter les exercices obligatoires.</p>
@@ -191,19 +176,25 @@
     </warning>
 
     <dots></dots>
-    <grostitre>Révision</grostitre>
-    <h3>Révision exercices du dernier cours (et en devoir)</h3>
-
-
-    <dots></dots>
     <grostitre>Contenu du jour</grostitre>
 
     <ul>
         <li>L’outil <em>inspecteur</em> du navigateur web.</li>
         <li>Le placement et la mise en page avec les <em>propriétés intermédiaires du concept flexbox</em>.</li>
         <li>Les pseudo-classes de descendance</li>
-        <li>Les pseudo-classes avancées qui introduisent des nuances dans la sélection d'éléments en fonction de critères spécifiques.</li>
+
     </ul>
+
+    <dots></dots>
+    <grostitre>Révision</grostitre>
+    <h3>Révision exercices du dernier cours (et en devoir)</h3>
+    <intlink href='../css/exercices/flexbox-cartes-01/'></intlink>
+    <intlink href='../css/exercices/flexbox-cartes-02/'></intlink>
+    <intlink href='../css/flexbox/exercices/flexbox-scrabble-potter/'></intlink>
+    <intlink href="../css/pseudo-classes/exercices/bouton/"></intlink>
+    <intlink href="../css/pseudo-classes/exercices/cercles/"></intlink>
+
+
 
     <dots></dots>
     <grostitre>L'outil inspecteur</grostitre>
@@ -211,25 +202,51 @@
     <intlink href="../autres/inspecteur/"></intlink>
     <intlink href="../autres/inspecteur-elements/"></intlink>
     <!-- Exercices -->
-    <intlink href="../autres/inspecteur-elements/exercices/unlock/"></intlink>
     <intlink href="../autres/inspecteur-elements/exercices/urbania/"></intlink>
+    <intlink href="../autres/inspecteur-elements/exercices/unlock/"></intlink>
+    <!-- video win https://i.giphy.com/media/xncwX5CAXArucuH85E/giphy.mp4  --> 
+   
 
 
     <dots></dots>
     <grostitre>Flexbox intermédiaire</grostitre>
     <intlink href="../css/flexbox-intermediaire/"></intlink> 
-    <intlink href="exercices/flexbox-zombie-chapitre-5/"></intlink>
-    <intlink href='../css/flexbox-intermediaire/exercices/flexbox-poesie-hiver/'></intlink>¸
-    <intlink href="exercices/flexbox-zombie-chapitre-6/"></intlink>
-    <intlink href="exercices/flexbox-zombie-chapitre-7/"></intlink>
-    <intlink href="exercices/flexbox-zombie-chapitre-8/"></intlink>
-    
-    <intlink href="../exercices/flexbox-pony/"></intlink>
-    <intlink href="../exercices/flexbox-actualite-google/"></intlink>
-
+    <h3>Exercices</h3>
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-5/"></intlink>
+    <br>
+    <intlink href='../css/exercices/flexbox-poesie-hiver/'></intlink>
+    <br>
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-6/"></intlink>
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-7/"></intlink>
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-8/"></intlink>
+    <br>
+    <intlink href="../css/exercices/flexbox-pony/"></intlink>
+    <!-- Trop rapide car on demande media queries -->
+    <!--<intlink href="../css/exercices/flexbox-actualite-google/"></intlink>-->
+    <br>
     <h3>Facultatif</h3>
-    <intlink href="exercices/flexbox-froggy-niveaux-14-a-17/"></intlink>
-    <intlink href="exercices/flexbox-defense-niveaux-10-a-12/"></intlink>
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-froggy-niveaux-14-a-17/"></intlink>
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-defense-niveaux-10-a-12/"></intlink>
+
+
+
+
+    <dots></dots>
+    <grostitre>Pseudo-classes de descendance (child)</grostitre>
+    <intlink href="../css/pseudo-classes-intermediaires/"></intlink>
+    <h3>Exercices</h3>
+
+    <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
+  
+
+
+    <br>
+    <small>Pour les 2 prochains exercices nommés <em>CSS Diner</em>, notez bien que les balises utilisées dans ce jeu <incode><plate></incode>,  <incode><bento></incode>, <incode><pickle></incode> ou  <incode><apple></incode> sont des balises <em>FICTIVES</em> .  Elles sont créées dans le jeu pour le côté ludique de l'exercice.</small>
+    <intlink href="../css/selecteurs-avances/exercices/css-diner/"></intlink>
+    <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
+
+    
+
     
 
 
