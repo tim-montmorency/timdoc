@@ -34,6 +34,8 @@ Il y a des extension qui le font mais selon le tuto que je suis, le gars préfè
 </checklist>
 
 
-
 <grostitre>Notes de cours 📚</grostitre>
-<intlink href='../../'></intlink>
+<intlink href='../../flexbox/'></intlink>
+<intlink href='../../flexbox-intermediaire/'></intlink>
+<intlink href='../../flexbox-avance/'></intlink>
+

@@ -55,3 +55,7 @@
     Les éléments de la navigation <em>(logo, liste de liens et visage)</em> doivent s'afficher le plus loin possible les uns des autres et être centrés verticalement les uns par rapport aux autres.
     La liste de lien doit prendre tout l'espace disponible entre le logo et le visage et les liens doivent se répartir également dans l'espace restant.
 </checklist>
+
+<grostitre>Notes de cours 📚</grostitre>
+<intlink href='../../flexbox/'></intlink>
+<intlink href='../../flexbox-intermediaire/'></intlink>

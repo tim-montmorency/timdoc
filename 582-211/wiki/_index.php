@@ -271,6 +271,15 @@
 ----------------->
 <wiki-page name="Cours 04" date="2025-02-12">
 
+
+
+
+<grostitre>Flexbox avancé</grostitre>
+<p>figma for vs code + figma dev mode</p>
+<intlink href='../css/flexbox-avance/'></intlink>
+<h3>Exercices</h3>
+<intlink href='../css/exercices/flexbox-figma-devmode/'></intlink>
+
 <dots></dots>
 <intlink href="../css/selecteurs-avances/"></intlink>
 
@@ -313,12 +322,6 @@
     <intlink href="../html/emmet/"></intlink>
     <intlink href="../html/emmet/exercices/page-web-emmet/"></intlink>
 
-
-
-
-
-    <h3>Examen: Les Guardiens de la Galaxie</h3>
-    <video playsinline src="videos/baby-groot-dancing.mp4" autoplay="true" muted="true" loop="true"></video>
 </wiki-page>
 
 
