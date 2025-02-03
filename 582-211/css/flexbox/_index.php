@@ -256,8 +256,8 @@ ou encore
 
 <dots></dots>
 
-<exercice href='exercices/flexbox-cartes-01/'></exercice>
-<exercice href='exercices/flexbox-cartes-02/'></exercice>
+<exercice href='../exercices/flexbox-cartes-01/'></exercice>
+<exercice href='../exercices/flexbox-cartes-02/'></exercice>
 
 <exercice href="exercices/flexbox-scrabble-potter/"></exercice>
 

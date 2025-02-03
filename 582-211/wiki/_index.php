@@ -176,6 +176,23 @@
                                           
 ----------------------->
 <wiki-page name="Cours 03" date="2025-02-05">
+
+    <warning>Si ce n’est pas déjà fait, création obligatoire des  comptes: 
+        <ul>
+            <li><a href="https://codepen.io/accounts/signup/user/free" target="_blank" rel="noopener noreferrer">CodePen</a>,</li>
+            <li><a href="https://codepen.io/accounts/signup/user/free" target="_blank" rel="noopener noreferrer">Figma pour l'éducation</a> et</li>
+            <li> <a href="https://github.com/signup" target="_blank" rel="noopener noreferrer">GitHub</a>. </li>
+        </ul>
+    </warning>
+
+    <dots></dots>
+    <grostitre>Contenu du jour</grostitre>
+
+    <ul>
+        <li>L’outil inspecteur du navigateur web.</li>
+        <li>Le placement et la mise en page avec les propriétés intermédiaires du concept flexbox.</li>
+        <li>Les pseudo-classes avancées qui introduisent des nuances dans la sélection d'éléments en fonction de critères spécifiques.</li>
+    </ul>
     <intlink href="../css/flexbox-intermediaire/"></intlink> 
     <intlink href='../css/flexbox-intermediaire/exercices/flexbox-poesie-hiver/'></intlink>
 

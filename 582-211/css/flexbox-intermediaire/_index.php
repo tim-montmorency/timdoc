@@ -49,7 +49,7 @@
 
 <exercice href="exercices/flexbox-zombie-chapitre-5/"></exercice>
 
-<exercice href="exercices/flexbox-poesie-hiver/"></exercice>
+<exercice href="../exercices/flexbox-poesie-hiver/"></exercice>
 
 <dots></dots>
 
@@ -126,8 +126,8 @@
 
 <dots></dots>
 
-<exercice href="exercices/flexbox-pony/"></exercice>
-<exercice href="exercices/flexbox-actualite-google/"></exercice>
+<exercice href="../exercices/flexbox-pony/"></exercice>
+<exercice href="../exercices/flexbox-actualite-google/"></exercice>
 
 <dots></dots> 
 <exercice href="exercices/flexbox-froggy-niveaux-14-a-17/"></exercice>

@@ -2,5 +2,7 @@
     "type": "exercice",
     "title": "La marionnette",
     "icon": "images\/thumb.jpg",
-    "abstract": "Cet exercice vous permettra d'utiliser l'outil marionnette sur le dessin r\u00e9alis\u00e9 dans l'exercice l'homme."
+    "abstract": "Cet exercice vous permettra d'utiliser l'outil marionnette sur le dessin r\u00e9alis\u00e9 dans l'exercice l'homme.",
+    "index": 0,
+    "href": "08_marionnette\/"
 }

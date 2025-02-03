@@ -2,5 +2,7 @@
     "type": "exercice",
     "title": "Pathfinder",
     "icon": "images\/thumb.jpg",
-    "abstract": "Dans cet exercice, vous utiliserez le pathfinder pour reproduire les formes du mod\u00e8le."
+    "abstract": "Dans cet exercice, vous utiliserez le pathfinder pour reproduire les formes du mod\u00e8le.",
+    "index": 0,
+    "href": "09_pathfinder\/"
 }
