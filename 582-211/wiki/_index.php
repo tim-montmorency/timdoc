@@ -281,11 +281,8 @@
     <grostitre>Pseudo-classes de descendance (child)</grostitre>
     <intlink href="../css/pseudo-classes-intermediaires/"></intlink>
     <h3>Exercices</h3>
-
     <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
   
-
-
     <br>
     <small>Pour les 2 prochains exercices nommés <em>CSS Diner</em>, notez bien que les balises utilisées dans ce jeu <incode><plate></incode>,  <incode><bento></incode>, <incode><pickle></incode> ou  <incode><apple></incode> sont des balises <em>FICTIVES</em> .  Elles sont créées dans le jeu pour le côté ludique de l'exercice.</small>
     <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
