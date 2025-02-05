@@ -3,7 +3,7 @@
  * @type     article
  * @title    Inspecteur - Éléments
  * @icon     images/icon.png
- * @abstract Un préceux outil (suite)
+ * @abstract  Un précieux outil pour explorer l'arrière plan d'une interface web (HTML et CSS).
  */
 ?>
 

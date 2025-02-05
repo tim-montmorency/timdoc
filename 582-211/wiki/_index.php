@@ -186,6 +186,16 @@
     </ul>
 
     <dots></dots>
+    <grostitre>Quiz</grostitre>
+    <ol>
+        <li><a href="https://app.wooclap.com/AFEUNQ" target="_blank" rel="noopener noreferrer">Groupe 1 - merc. am</a> Code:&nbsp;AFEUNQ</li>
+        <li><a href="https://app.wooclap.com/KLOQYK" target="_blank" rel="noopener noreferrer">Groupe 2 - merc. pm</a> Code:&nbsp;KLOQYK</li>
+        <li><a href="https://app.wooclap.com/UOEUZT" target="_blank" rel="noopener noreferrer">Groupe 3 - jeudi pm</a> Code:&nbsp;UOEUZT</li>
+    </ol>
+
+
+
+    <dots></dots>
     <grostitre>Révision</grostitre>
     <h3>Révision exercices du dernier cours (et en devoir)</h3>
     <intlink href='../css/exercices/flexbox-cartes-01/'></intlink>

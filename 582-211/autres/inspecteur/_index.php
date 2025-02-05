@@ -3,7 +3,7 @@
  * @type     article
  * @title    Inspecteur
  * @icon     images/icon.png
- * @abstract Un préceux outil
+ * @abstract Un précieux outil pour explorer l'arrière plan d'une interface web.
  */
 ?>
 
