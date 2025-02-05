@@ -252,19 +252,34 @@
 
     <br>
     <small>Pour les 2 prochains exercices nommés <em>CSS Diner</em>, notez bien que les balises utilisées dans ce jeu <incode><plate></incode>,  <incode><bento></incode>, <incode><pickle></incode> ou  <incode><apple></incode> sont des balises <em>FICTIVES</em> .  Elles sont créées dans le jeu pour le côté ludique de l'exercice.</small>
-    <intlink href="../css/selecteurs-avances/exercices/css-diner/"></intlink>
     <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
 
-    
-
-    
 
 
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+    <p>Si non terminés en classe, vous devez compléter les exercices obligatoires.</p>
+
+    <intlink href="../autres/inspecteur-elements/exercices/urbania/"></intlink>
+    <intlink href="../autres/inspecteur-elements/exercices/unlock/"></intlink>
+
+    .
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-5/"></intlink>
+  .
+    <intlink href='../css/exercices/flexbox-poesie-hiver/'></intlink>
+.
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-6/"></intlink>
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-7/"></intlink>
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-8/"></intlink>
+.
+    <intlink href="../css/exercices/flexbox-pony/"></intlink>
+
+.
+    <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
+    <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
 
 
- 
 
-  
  
 </wiki-page>
 
