@@ -92,7 +92,6 @@
     <ul>
         <li><strong>Flexbox</strong> débutant : Le placement et la mise en page avec les propriétés de base du concept flexbox.</li>
         <li>Les <strong>pseudo-classes d'état</strong></li>
-        <li>Les <strong>pseudo-classes de descendance</strong> (child) <em>si on a le temps.</em></li>
     </ul>
 
     <dots></dots>
@@ -118,7 +117,7 @@
 
 
 
-    <h4>Si vous avez terminé les exercices flexbox précédents</h4>
+    <h4>Si vous avez terminé les exercices flexbox précédents (facultatif)</h4>
     <intlink href='../css/flexbox/exercices/flexbox-froggy-niveau-1-a-13/'></intlink>
     <intlink href='../css/flexbox/exercices/flexbox-defense-niveau-1-a-9/'></intlink>
 
@@ -129,7 +128,7 @@
     <grostitre>Les pseudo-classes CSS</grostitre>
     <intlink href="../css/pseudo-classes/"></intlink>
 
-    <h3>Exercices</h3>
+    <h3>Exercices obligatoires</h3>
     <intlink href="../css/pseudo-classes/exercices/bouton/"></intlink>
     <intlink href="../css/pseudo-classes/exercices/cercles/"></intlink>
    
@@ -181,7 +180,7 @@
     <ul>
         <li>L’outil <em>inspecteur</em> du navigateur web.</li>
         <li>Le placement et la mise en page avec les <em>propriétés intermédiaires du concept flexbox</em>.</li>
-        <li>Les pseudo-classes de descendance</li>
+        <li><s>Les pseudo-classes de descendance</s></li>
     </ul>
 
     <dots></dots>
@@ -219,7 +218,7 @@
     <dots></dots>
     <grostitre>Flexbox intermédiaire</grostitre>
     <intlink href="../css/flexbox-intermediaire/"></intlink> 
-    <h3>Exercices</h3>
+    <h3>Exercices obligatoires</h3>
     <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-5/"></intlink>
     <br>
     <intlink href='../css/exercices/flexbox-poesie-hiver/'></intlink>
@@ -238,19 +237,6 @@
 
 
 
-
-    <dots></dots>
-    <grostitre>Pseudo-classes de descendance (child)</grostitre>
-    <intlink href="../css/pseudo-classes-intermediaires/"></intlink>
-    <h3>Exercices</h3>
-
-    <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
-  
-
-
-    <br>
-    <small>Pour les 2 prochains exercices nommés <em>CSS Diner</em>, notez bien que les balises utilisées dans ce jeu <incode><plate></incode>,  <incode><bento></incode>, <incode><pickle></incode> ou  <incode><apple></incode> sont des balises <em>FICTIVES</em> .  Elles sont créées dans le jeu pour le côté ludique de l'exercice.</small>
-    <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
 
 
 
@@ -272,10 +258,6 @@
 .
     <intlink href="../css/exercices/flexbox-pony/"></intlink>
 
-.
-    <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
-    <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
-
 
 
  
@@ -294,6 +276,19 @@
 ----------------->
 <wiki-page name="Cours 04" date="2025-02-12">
 
+
+<dots></dots>
+    <grostitre>Pseudo-classes de descendance (child)</grostitre>
+    <intlink href="../css/pseudo-classes-intermediaires/"></intlink>
+    <h3>Exercices</h3>
+
+    <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
+  
+
+
+    <br>
+    <small>Pour les 2 prochains exercices nommés <em>CSS Diner</em>, notez bien que les balises utilisées dans ce jeu <incode><plate></incode>,  <incode><bento></incode>, <incode><pickle></incode> ou  <incode><apple></incode> sont des balises <em>FICTIVES</em> .  Elles sont créées dans le jeu pour le côté ludique de l'exercice.</small>
+    <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
 
 
 
