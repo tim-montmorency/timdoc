@@ -16,7 +16,7 @@
 
 <dots></dots>
 <grostitre>Matériel</grostitre>
-<doclink href='https://codepen.io/tim-momo/pen/JoPxwJy'>Pen de départ</doclink>
+<doclink href='https://codepen.io/tim-momo/pen/JoPxwJy/'>Pen de départ</doclink>
 
 
 
