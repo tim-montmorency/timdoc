@@ -3,7 +3,7 @@
  * @type     article
  * @title    Pseudo-classes de descendance (child)
  * @icon     images/icon.webp
- * @abstract f:irst-child, :last-child, :only-child, :nth-child
+ * @abstract :first-child, :last-child, :only-child, :nth-child
  * @ref      web/css
  */
 ?>

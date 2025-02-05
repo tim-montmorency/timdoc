@@ -4,10 +4,12 @@
  * @type     article
  * @title    Flexbox intermédiaire
  * @icon     images/icon.webp
- * @abstract flex-grow, flex-shrink, flex-basis, order
+ * @abstract figma dev mode et flexbox, flex-grow, flex-shrink, flex-basis, order
  */
 
 ?>
+
+
 
 <grostitre>flex-grow</grostitre>
 
@@ -44,8 +46,10 @@
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/flex-grow">flex-grow</doclink>
 <doclink href="https://www.w3schools.com/cssref/css3_pr_flex-grow.php">flex-grow</doclink>
-<br><br>
+
 <exercice href="exercices/flexbox-zombie-chapitre-5/"></exercice>
+
+<exercice href="../exercices/flexbox-poesie-hiver/"></exercice>
 
 <dots></dots>
 
@@ -121,8 +125,11 @@
 <exercice href="exercices/flexbox-zombie-chapitre-8/"></exercice>
 
 <dots></dots>
+<exercice href="../exercices/flexbox-pony/"></exercice>
 
-<exercice href="exercices/flexbox-pony/"></exercice>
-<exercice href="exercices/flexbox-actualite-google/"></exercice>
+<!-- Trop rapide car on demande media queries 
+<exercice href="../exercices/flexbox-actualite-google/"></exercice>-->
+
+<dots></dots> 
 <exercice href="exercices/flexbox-froggy-niveaux-14-a-17/"></exercice>
 <exercice href="exercices/flexbox-defense-niveaux-10-a-12/"></exercice>

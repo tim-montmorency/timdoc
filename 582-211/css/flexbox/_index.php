@@ -8,6 +8,7 @@
  */
 
 ?>
+.
 
 <grostitre style="display: none">Introduction</grostitre>
 
@@ -106,7 +107,7 @@
 </span><br>
 
 <h3><incode>justify-content: center</incode> vs <incode>justify-content: space-between</incode></h3>
-
+.
 <codepen id="JjVYLWG" tab="result"></codepen>
 
 <span class="remark">
@@ -255,8 +256,8 @@ ou encore
 
 <dots></dots>
 
-<exercice href='exercices/flexbox-cartes-01/'></exercice>
-<exercice href='exercices/flexbox-cartes-02/'></exercice>
+<exercice href='../exercices/flexbox-cartes-01/'></exercice>
+<exercice href='../exercices/flexbox-cartes-02/'></exercice>
 
 <exercice href="exercices/flexbox-scrabble-potter/"></exercice>
 

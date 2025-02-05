@@ -55,14 +55,17 @@
         <li>Moteur d’autocomplétions permettant d’augmenter votre vitesse de travail (emmet)</li>
     </ol>
 
-   <intlink href="../css/flux/"></intlink>
-   <doclink href='https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Styling_basics/Box_model'>Le box-model</doclink>
-   <intlink href='../css/exercices/flux/'></intlink>
-   <intlink href='../css/flux/exercice/'></intlink>
 
     <dots></dots>
+    <grostitre>Le flux de la page HTML</grostitre>
+    <intlink href="../css/flux/"></intlink>
+    <doclink href='https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Styling_basics/Box_model'>Le box-model</doclink>
+    <intlink href='../css/exercices/flux/'></intlink>
+    <intlink href='../css/flux/exercice/'></intlink>
 
 
+    <dots></dots>
+    <grostitre>Spécificité CSS</grostitre>
     <intlink href="../css/specificite/"></intlink>
     <intlink href="../css/specificite/exercices/specificite-css/"></intlink>
 
@@ -97,30 +100,27 @@
     <grostitre>Flexbox</grostitre>
     <intlink href="../css/flexbox/"></intlink>
 
-    <h3>Flexbox Zombies : de 1 à 4</h3>
-    <ul>
-        <li><a href="https://mastery.games/flexboxzombies/chapter/1/level/1" target="_blank" rel="noopener noreferrer">Flexbox Zombies - Chapter 1 Level 1</a></li>
-        <li><a href="https://mastery.games/flexboxzombies/chapter/2/level/1" target="_blank" rel="noopener noreferrer">Flexbox Zombies - Chapter 2 Level 1</a></li>
-        <li><a href="https://mastery.games/flexboxzombies/chapter/3/level/1" target="_blank" rel="noopener noreferrer">Flexbox Zombies - Chapter 3 Level 1</a></li>
-        <li><a href="https://mastery.games/flexboxzombies/chapter/4/level/1" target="_blank" rel="noopener noreferrer">Flexbox Zombies - Chapter 4 Level 1</a></li>
-    </ul>
+    <h3>Exercices</h3>
+    <h4>Flexbox zombies</h4>
 
-    <h3>Reproduire une mise-en-page simple avec flexbox:</h3>
-    <intlink href='../css/flexbox/exercices/flexbox-cartes-01/'></intlink>
-    <intlink href='../css/flexbox/exercices/flexbox-cartes-02/'></intlink>
+    <intlink href='../css/flexbox/exercices/flexbox-zombie-chapitre-1/'></intlink>
+    <intlink href='../css/flexbox/exercices/flexbox-zombie-chapitre-2/'></intlink>
+    <intlink href='../css/flexbox/exercices/flexbox-zombie-chapitre-3/'></intlink>
+    <intlink href='../css/flexbox/exercices/flexbox-zombie-chapitre-4/'></intlink>
+
+    <h4>Cartes à créer et placer</h4>
+    <intlink href='../css/exercices/flexbox-cartes-01/'></intlink>
+    <intlink href='../css/exercices/flexbox-cartes-02/'></intlink>
 
 
-    <h3>Scrabble Harry-Potter avec flexbox</h3>
+    <h4>Scrabble Harry-Potter avec flexbox</h4>
+    <intlink href='../css/flexbox/exercices/flexbox-scrabble-potter/'></intlink>
 
-    <ul>
-        <li><a href="https://smnarnold.com/exercices/css/flexbox-scrabble-potter" target="_blank" rel="noopener noreferrer">Scrabble Harry-Potter</a></li>
-    </ul>
 
-    <h3>Si vous avez terminé les exercices flexbox précédents</h3>
-    <ul>
-        <li><a href="https://flexboxfroggy.com/#fr" target="_blank" rel="noopener noreferrer">Flexbox Froggy </a> niveaux 1 à 13.</li>
-        <li><a href="http://www.flexboxdefense.com" target="_blank" rel="noopener noreferrer">Flexbox Defense</a> niveaux 1 à 9</li>
-    </ul>
+
+    <h4>Si vous avez terminé les exercices flexbox précédents</h4>
+    <intlink href='../css/flexbox/exercices/flexbox-froggy-niveau-1-a-13/'></intlink>
+    <intlink href='../css/flexbox/exercices/flexbox-defense-niveau-1-a-9/'></intlink>
 
 
 
@@ -129,37 +129,27 @@
     <grostitre>Les pseudo-classes CSS</grostitre>
     <intlink href="../css/pseudo-classes/"></intlink>
 
-    <!-- Exercices -->
+    <h3>Exercices</h3>
     <intlink href="../css/pseudo-classes/exercices/bouton/"></intlink>
     <intlink href="../css/pseudo-classes/exercices/cercles/"></intlink>
    
 
 
-
-    <!--
-        <dots></dots>
-        <intlink href="../css/pseudo-classes-intermediaires/"></intlink>
-
-    
-        <br>
-        <small>Pour les 2 prochains exercices nommés <em>CSS Diner</em>, notez bien que les balises utilisées dans ce jeu sont fictives. Ne croyez pas que <incode><plate></incode>,  <incode><bento></incode>, <incode><pickle></incode> ou  <incode><apple></incode> </small>
-        <intlink href="../css/selecteurs-avances/exercices/css-diner/"></intlink>
-        <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
-
-        <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
-    -->
-
-
     <dots></dots>
     <grostitre>Devoir</grostitre>
-    <p>Si non terminés en classe, vous devez compléter les exercices obligatoires. Soient: <br>
-        - flexblox zombies 1 à 4, <br>
-        - les 2 exercices de cartes, <br>
-        - le scrabble Harry Potter, <br>
-        -  exercice pseudo-classe : bouton <br>
-       -  exercice pseudo-classe : cercle <br>
-       
-    </p>
+    <p>Si non terminés en classe, vous devez compléter les exercices obligatoires.</p>
+
+    
+    <intlink href='../css/flexbox/exercices/flexbox-zombie-chapitre-1/'></intlink>
+    <intlink href='../css/flexbox/exercices/flexbox-zombie-chapitre-2/'></intlink>
+    <intlink href='../css/flexbox/exercices/flexbox-zombie-chapitre-3/'></intlink>
+    <intlink href='../css/flexbox/exercices/flexbox-zombie-chapitre-4/'></intlink>
+    <intlink href='../css/exercices/flexbox-cartes-01/'></intlink>
+    <intlink href='../css/exercices/flexbox-cartes-02/'></intlink>
+    <intlink href='../css/flexbox/exercices/flexbox-scrabble-potter/'></intlink>
+    <intlink href="../css/pseudo-classes/exercices/bouton/"></intlink>
+    <intlink href="../css/pseudo-classes/exercices/cercles/"></intlink>
+   
 
 </wiki-page>
 
@@ -176,58 +166,148 @@
                                           
 ----------------------->
 <wiki-page name="Cours 03" date="2025-02-05">
-    <h3>Révision des exercices du cours 3</h3>
-
-
-    <h3>Exercice d'intro</h3>
-    <intlink href='../css/flexbox/exercices/flexbox-nav-et-cols/'></intlink>
-    <intlink href="../css/flexbox-intermediaire/"></intlink>
-
     
-    <h3>Exercices</h3>
-    <intlink href="../css/exercices/underworld-everything-everything/"></intlink>
-    <intlink href="../css/exercices/the-black-keys-turn-blue/"></intlink>
-    <intlink href="../css/exercices/air-premiers-symptomes/"></intlink>
-    <intlink href="../css/exercices/lost-highway/"></intlink>
-    <intlink href="../css/exercices/trainspotting/"></intlink>
-    <intlink href="../css/exercices/asian-dub-foundation-rafis-revenge/"></intlink>
-    <intlink href="../css/exercices/nirvana-nevermind/"></intlink>
-    <intlink href="../css/exercices/pink-floyd-the-dark-side-of-the-moon/"></intlink>
-    <intlink href="../css/exercices/les-simpsons/"></intlink>
+    <warning>Si ce n’est pas déjà fait, création obligatoire des  comptes: 
+        <ul>
+            <li><a href="https://codepen.io/accounts/signup/user/free" target="_blank" rel="noopener noreferrer">CodePen</a>,</li>
+            <li><a href="https://codepen.io/accounts/signup/user/free" target="_blank" rel="noopener noreferrer">Figma pour l'éducation</a> et</li>
+            <li> <a href="https://github.com/signup" target="_blank" rel="noopener noreferrer">GitHub</a>. </li>
+        </ul>
+    </warning>
+
+
+    <dots></dots>
+    <grostitre>Contenu du jour</grostitre>
+    <ul>
+        <li>L’outil <em>inspecteur</em> du navigateur web.</li>
+        <li>Le placement et la mise en page avec les <em>propriétés intermédiaires du concept flexbox</em>.</li>
+        <li>Les pseudo-classes de descendance</li>
+    </ul>
+
+    <dots></dots>
+    <grostitre>Quiz</grostitre>
+    <ol>
+        <li><a href="https://app.wooclap.com/AFEUNQ" target="_blank" rel="noopener noreferrer">Groupe 1 - merc. am</a> Code:&nbsp;AFEUNQ</li>
+        <li><a href="https://app.wooclap.com/KLOQYK" target="_blank" rel="noopener noreferrer">Groupe 2 - merc. pm</a> Code:&nbsp;KLOQYK</li>
+        <li><a href="https://app.wooclap.com/UOEUZT" target="_blank" rel="noopener noreferrer">Groupe 3 - jeudi pm</a> Code:&nbsp;UOEUZT</li>
+    </ol>
 
 
 
-    <!-- DÉBUT À placer à quelques part (pas nécessairement àa ce cours ci) -->
-    <intlink href="../html/emmet/"></intlink>
-    <intlink href="../html/emmet/exercices/page-web-emmet/"></intlink>
+    <dots></dots>
+    <grostitre>Révision</grostitre>
+    <h3>Révision exercices du dernier cours (et en devoir)</h3>
+    <intlink href='../css/exercices/flexbox-cartes-01/'></intlink>
+    <intlink href='../css/exercices/flexbox-cartes-02/'></intlink>
+    <intlink href='../css/flexbox/exercices/flexbox-scrabble-potter/'></intlink>
+    <intlink href="../css/pseudo-classes/exercices/bouton/"></intlink>
+    <intlink href="../css/pseudo-classes/exercices/cercles/"></intlink>
 
-    <intlink href="../css/imbrication-css-intro/"></intlink>
-    <intlink href="../css/imbrication-css/"></intlink>
-    <!-- ^quelles est la diff entre les 2? -->
+
+
+    <dots></dots>
+    <grostitre>L'outil inspecteur</grostitre>
 
     <intlink href="../autres/inspecteur/"></intlink>
     <intlink href="../autres/inspecteur-elements/"></intlink>
     <!-- Exercices -->
-    <!--<intlink href="../autres/inspecteur-elements/exercices/unlock/"></intlink>
-    <intlink href="../autres/inspecteur-elements/exercices/urbania/"></intlink>-->
+    <intlink href="../autres/inspecteur-elements/exercices/urbania/"></intlink>
+    <intlink href="../autres/inspecteur-elements/exercices/unlock/"></intlink>
+    <!-- video win https://i.giphy.com/media/xncwX5CAXArucuH85E/giphy.mp4  --> 
+   
 
-    <!-- FIN À placer à quelques part (pas nécessairement àa ce cours ci) -->
+    <dots></dots>
+    <grostitre>Flexbox intermédiaire</grostitre>
+    <intlink href="../css/flexbox-intermediaire/"></intlink> 
+    <h3>Exercices</h3>
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-5/"></intlink>
+    <br>
+    <intlink href='../css/exercices/flexbox-poesie-hiver/'></intlink>
+    <br>
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-6/"></intlink>
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-7/"></intlink>
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-8/"></intlink>
+    <br>
+    <intlink href="../css/exercices/flexbox-pony/"></intlink>
+    <!-- Trop rapide car on demande media queries -->
+    <!--<intlink href="../css/exercices/flexbox-actualite-google/"></intlink>-->
+    <br>
+    <h3>Facultatif</h3>
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-froggy-niveaux-14-a-17/"></intlink>
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-defense-niveaux-10-a-12/"></intlink>
+
+
 
 
     <dots></dots>
-    <intlink href="../css/selecteurs-avances/"></intlink>
+    <grostitre>Pseudo-classes de descendance (child)</grostitre>
+    <intlink href="../css/pseudo-classes-intermediaires/"></intlink>
+    <h3>Exercices</h3>
+
+    <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
+  
+
+
+    <br>
+    <small>Pour les 2 prochains exercices nommés <em>CSS Diner</em>, notez bien que les balises utilisées dans ce jeu <incode><plate></incode>,  <incode><bento></incode>, <incode><pickle></incode> ou  <incode><apple></incode> sont des balises <em>FICTIVES</em> .  Elles sont créées dans le jeu pour le côté ludique de l'exercice.</small>
+    <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
+
+
+
     <dots></dots>
-    <grostitre>Devoir hors classe</grostitre>
-    <p>Si non terminés en classe, vous devez compléter les exerices:</p>
+    <grostitre>Devoirs</grostitre>
+    <p>Si non terminés en classe, vous devez compléter les exercices obligatoires.</p>
+
+    <intlink href="../autres/inspecteur-elements/exercices/urbania/"></intlink>
+    <intlink href="../autres/inspecteur-elements/exercices/unlock/"></intlink>
+
+    .
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-5/"></intlink>
+  .
+    <intlink href='../css/exercices/flexbox-poesie-hiver/'></intlink>
+.
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-6/"></intlink>
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-7/"></intlink>
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-8/"></intlink>
+.
+    <intlink href="../css/exercices/flexbox-pony/"></intlink>
+
+.
+    <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
+    <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
+
+
+
+ 
+</wiki-page>
+
+
+
+<!-------------- 
+  _____                       _  _   
+ / ____|                     | || |  
+| |     ___  _   _ _ __ ___  | || |_ 
+| |    / _ \| | | | '__/ __| |__   _|
+| |___| (_) | |_| | |  \__ \    | |  
+ \_____\___/ \__,_|_|  |___/    |_|                                   
+                                     
+----------------->
+<wiki-page name="Cours 04" date="2025-02-12">
+
+
+
+
+<grostitre>Flexbox avancé</grostitre>
+<p>figma for vs code + figma dev mode</p>
+<intlink href='../css/flexbox-avance/'></intlink>
+<h3>Exercices</h3>
+<intlink href='../css/exercices/flexbox-figma-devmode/'></intlink>
+
+<dots></dots>
+<intlink href="../css/selecteurs-avances/"></intlink>
+
     <intlink href="../css/exercices/weezer-album-bleu/"></intlink>
     <intlink href="../css/exercices/queen-hot-space/"></intlink>
-
-
-
-
-    
-
-
 
 
     <h3>Révision: Weezer - Blue Album</h3>
@@ -247,22 +327,24 @@
     <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink>
     <intlink href="../css/exercices/little-richard-here-s-little-richard/"></intlink>
     <intlink href="../css/exercices/band-de-garage-corpo-trash-vidange/"></intlink>
-</wiki-page>
 
+<grostitre>Contenu du jour</grostitre>
 
+    <ul>
 
-<!-------------- 
-  _____                       _  _   
- / ____|                     | || |  
-| |     ___  _   _ _ __ ___  | || |_ 
-| |    / _ \| | | | '__/ __| |__   _|
-| |___| (_) | |_| | |  \__ \    | |  
- \_____\___/ \__,_|_|  |___/    |_|                                   
-                                     
------------------>
-<wiki-page name="Cours 04" date="2025-02-12">
-    <h3>Examen: Les Guardiens de la Galaxie</h3>
-    <video playsinline src="videos/baby-groot-dancing.mp4" autoplay="true" muted="true" loop="true"></video>
+        <li>Les pseudo-classes avancées qui introduisent des nuances dans la sélection d'éléments en fonction de critères spécifiques.</li>
+    </ul>
+
+    
+    <intlink href="../css/imbrication-css-intro/"></intlink>
+    <intlink href="../css/imbrication-css/"></intlink>
+    <!-- ^quelles est la diff entre les 2? -->
+
+    
+    <!-- DÉBUT À placer à quelques part (pas nécessairement àa ce cours ci) -->
+    <intlink href="../html/emmet/"></intlink>
+    <intlink href="../html/emmet/exercices/page-web-emmet/"></intlink>
+
 </wiki-page>
 
 
@@ -414,7 +496,24 @@
 
     <dots></dots>
     <grostitre>Tutorat</grostitre>
-    <p>L'<a href="https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/" target="_blank" rel="noopener noreferrer">horaire</a> du tutorat de cette session sera mis en ligne sous peu.</p>
+    <p>L'<a href="https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/" target="_blank" rel="noopener noreferrer">horaire</a> du tutorat de cette session.</p>
+    <ul>
+        <li>Lundi de 19h30 à 21h10 | EN LIGNE | Tuteur : Elie Daher (peut aider les étudiants de 1ère et 2e année)</li>
+        <li>Mardi de 11h50 à 14h20 | EN PRÉSENCE AU C1602 | Tuteur : Émeryk Bélisle (peut aider les étudiants de 1ère et 2e année)</li>
+        <li>Mercredi de 19h30 à 21h10 | EN LIGNE | Tutrice : Justine Rousseau (peut aider les étudiants de 1ère, 2e et 3e année)</li>
+        <li>Lundi de 19h30 à 21h10 | EN PRÉSENCE AU C1602 | Tutrice : Sarah Muller François (peut aider les étudiants de 1ère et 2e année)</li>
+        <li>Dimanche de 19h30 à 21h10 | EN LIGNE | Tuteur : Maïk Hamel  (peut aider les étudiants de 1ère, 2e et 3e année)</li>
+    
+    </ul>
+
+    <h3>TUTORAT EN LIGNE SELON L’HORAIRE</h3>
+    <p>Une tutrice ou un tuteur sera disponible en ligne pour répondre dans le canal «&nbsp;<a href="https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d" target="_blank" rel="noopener noreferrer">TIM - Programme TIM > Tutorat</a>&nbsp;» de Teams selon les périodes indiquées dans le calendrier du centre d’aide TIM. Connectez vous pour poser vos questions!</p>
+    
+    <h3>TUTORAT EN LIGNE SUR RENDEZ-VOUS</h3>
+    <p>S’il n’y a pas de tutorat de prévu à l’horaire, vous pouvez toujours faire une demande de rendez-vous en ligne dans le canal «&nbsp;<a href="https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d" target="_blank" rel="noopener noreferrer">TIM - Programme TIM > Tutorat</a>&nbsp;» de Teams en adressant votre message à @tuteur. Si une tutrice ou un tuteur est disponible pour répondre à vos questions vous recevrez un message.</p>
+    
+    <h3>TUTORAT EN PRÉSENCE SELON L’HORAIRE</h3>
+    <p>Aux heures indiquées dans le calendrier TIM du centre d’aide, une tutrice ou un tuteur sera présente ou présent dans le local indiqué pour répondre à vos questions.</p>
 
 
     <dots></dots>

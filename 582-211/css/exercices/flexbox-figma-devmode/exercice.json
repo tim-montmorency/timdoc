@@ -1,0 +1,6 @@
+{
+    "type": "exercice",
+    "title": "Exercice Figma DevMode Flexbox",
+    "icon": "images\/thumb.jpg",
+    "abstract": "Pour cet exercice, vous devrez r\u00e9organiser le fichier Figma avec auto-layout, exporter en devmode et travailler dans Figma for VS Code pour recr\u00e9er l'interface en HTML+CSS"
+}

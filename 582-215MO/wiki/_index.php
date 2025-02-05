@@ -2,7 +2,7 @@
 /**
  * @type     wiki
  * @title    Wiki - Intégration Web
- * @icon     images/icon.png
+ * @icon     images/2c_small.png
  * @abstract Intégration Web
  */
 ?>

@@ -3,7 +3,7 @@
  * @type     article
  * @title    Inspecteur - Éléments
  * @icon     images/icon.png
- * @abstract Un préceux outil (suite)
+ * @abstract  Un précieux outil pour explorer l'arrière plan d'une interface web (HTML et CSS).
  */
 ?>
 
@@ -17,7 +17,7 @@
 
 <ul>
     <li>L'élément est surligné en bleu 🟦</li>
-    <li>Son <incode>padding</incode> en jaune 🟨</li>
+    <li>Son <incode>padding</incode> en vert 🟩</li>
     <li>Son <incode>margin</incode> en orange 🟧</li>
 </ul>
 
@@ -36,7 +36,9 @@
 
 <grostitre>DOM Tree</grostitre>
 
-<p>Lorsque vous êtes dans le <em>DOM Tree</em>, vous pouvez utiliser les flèches sur votre clavier ⬇️ ⬆️ pour inspecter l'élément précédent ou suivant ou tout simplement votre souris pour cliquer sur un élément en particulier. Vous remarquerez que dès que vous sélectionnez un nouvel élément, celui-ci se surligne dans le <em>DOM Tree</em> <strong>ET</strong> dans la page simultanément.</p>
+<info>Le <em>DOM</em> signifie <em>Document Object Model</em>. Il représente la structure du document HTML et donc la structure des balises HTML de la page.</info>
+
+<p>Lorsque vous êtes dans le <em>DOM Tree</em> de l'inspecteur, vous pouvez utiliser les flèches sur votre clavier ⬇️ ⬆️ pour inspecter l'élément précédent ou suivant ou tout simplement votre souris pour cliquer sur un élément en particulier. Vous remarquerez que dès que vous sélectionnez un nouvel élément, celui-ci se surligne dans le <em>DOM Tree</em> <strong>ET</strong> dans la page simultanément.</p>
 
 <video controls src="videos/dom-tree-sync.mp4" autoplay loop class="video-tag"></video>
 
@@ -90,7 +92,7 @@
 
 <h3>Ordre d'affichage des règles</h3>
 
-<p>L'ordre d'affichage des règles dépend de la priorité de chacune d'entre elles. Plus une règle est spécifique, plus elle apparaitra tôt dans cette liste. Moins elle l'est, par exemple les règles de bases définies par le navigateur <em>(user agent stylesheet)</em>, plus elle sera basse.</p>
+<p>L'ordre d'affichage des règles dépend de la priorité (<a href="../../css/specificite/" target="_blank" rel="noopener noreferrer">spécificité selon le pointage</a>) de chacune d'entre elles. Plus une règle est <a href="../../css/specificite/" target="_blank" rel="noopener noreferrer">spécifique</a>, plus elle apparaitra tôt dans cette liste. Moins elle l'est, par exemple les règles de bases définies par le navigateur <em>(user agent stylesheet)</em>, plus elle sera basse.</p>
 
 <p>Par exemple:</p>
 
@@ -116,11 +118,11 @@
 
 <img src="images/styles-invalid.jpg">
 
-<h3>Filtrer les propriétés</h3>
+<h3>Filtrer les propriétés / rechercher une propriété CSS</h3>
 
 <p>Il arrive parfois que plusieurs règles affectent un élément ou que plusieurs propriétés soient définies, rendant ainsi la recherche d'une propriété en particulier ardue.</p>
 
-<p>Heureusement, il est possible d'utiliser le champ Filter afin de <em>filtrer</em> les propriétés affichées.</p>
+<p>Heureusement, il est possible d'utiliser le champ Filter afin de <em>filtrer</em> les propriétés affichées, c'est à dire rechercher une ou des propriétés selon leur nom.</p>
 
 <p>Par exemple, si je ne désire voir que les propriétés affectant le <incode>font-size</incode>:</p>
 <video controls src="videos/styles-filter.mp4" autoplay loop class="video-tag"></video>
@@ -176,11 +178,13 @@
 <dots></dots>
 
 <p>Pour en savoir plus: </p>
-<doclink href='https://developer.chrome.com/docs/devtools/css?hl=fr'>Documentation de la partie CSS de l'inspectuer de Chrome</doclink> <br>
-<doclink href='https://developer.chrome.com/docs/devtools#panneaux'>Tous les autres onglets de l'inpecteur de Chrome</doclink>
+<doclink href='https://developer.chrome.com/docs/devtools/css?hl=fr'>Documentation de la partie CSS de l'inspecteur de Chrome</doclink> <br>
+<doclink href='https://developer.chrome.com/docs/devtools#panneaux'>Tous les autres onglets de l'inspecteur de Chrome</doclink>
 
 <dots></dots>
-<exercice href="exercices/unlock/"></exercice>
 <exercice href="exercices/urbania/"></exercice>
+<exercice href="exercices/unlock/"></exercice>
+<!-- video win https://i.giphy.com/media/xncwX5CAXArucuH85E/giphy.mp4  --> 
+
 
 <dots></dots>
