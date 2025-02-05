@@ -176,8 +176,24 @@
                                           
 ----------------------->
 <wiki-page name="Cours 03" date="2025-02-05">
+    <h3>Révision des exercices du cours 3</h3>
 
-<intlink href='../css/flexbox/exercices/flexbox-nav-et-cols/'></intlink>
+
+    <h3>Exercice d'intro</h3>
+    <intlink href='../css/flexbox/exercices/flexbox-nav-et-cols/'></intlink>
+    <intlink href="../css/flexbox-intermediaire/"></intlink>
+
+    
+    <h3>Exercices</h3>
+    <intlink href="../css/exercices/underworld-everything-everything/"></intlink>
+    <intlink href="../css/exercices/the-black-keys-turn-blue/"></intlink>
+    <intlink href="../css/exercices/air-premiers-symptomes/"></intlink>
+    <intlink href="../css/exercices/lost-highway/"></intlink>
+    <intlink href="../css/exercices/trainspotting/"></intlink>
+    <intlink href="../css/exercices/asian-dub-foundation-rafis-revenge/"></intlink>
+    <intlink href="../css/exercices/nirvana-nevermind/"></intlink>
+    <intlink href="../css/exercices/pink-floyd-the-dark-side-of-the-moon/"></intlink>
+    <intlink href="../css/exercices/les-simpsons/"></intlink>
 
 
 
