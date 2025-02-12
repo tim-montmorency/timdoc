@@ -1,0 +1,326 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Typographie avancée</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Web 2 (h2025)</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.webp">&nbsp;Typographie avancée</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+
+<grostitre>1.
+    Hiérarchie visuelle et choix des polices</grostitre>
+<h3 data-start="160" data-end="189"><strong data-start="164" data-end="187">Hiérarchie
+        visuelle</strong></h3>
+<p data-start="190" data-end="344">La hiérarchie visuelle est essentielle pour
+    guider l'utilisateur à travers une page web et améliorer la lisibilité. Elle
+    repose sur plusieurs éléments :</p>
+<h3 data-start="346" data-end="380"><strong data-start="350" data-end="378">a) La
+        taille des polices</strong></h3>
+<ul data-start="381" data-end="657">
+    <li data-start="381" data-end="482">Utiliser des tailles de texte différentes
+        pour distinguer les titres, sous-titres et paragraphes.</li>
+    <li data-start="483" data-end="657">Exemples de tailles courantes
+        (approximatives) :
+
+        <highlight lang="css">h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+p { font-size: 1rem; }</highlight>
+
+    </li>
+</ul>
+
+
+<h3 data-start="659" data-end="709"><strong data-start="663" data-end="707">b) Le
+        poids de la police (<span class="inline-code">font-weight</span>)</strong></h3>
+<ul data-start="710" data-end="912">
+    <li data-start="710" data-end="778">Mettre en valeur certains éléments avec une
+        police plus épaisse.</li>
+    <li data-start="779" data-end="912">Valeurs possibles : <span class="inline-code">100</span> (extra
+        light) → <span class="inline-code">900</span> (extra bold).
+
+
+        <highlight lang="css">h1 { font-weight: 700; }
+p { font-weight: 400; }</highlight>
+
+    </li>
+</ul>
+
+
+<h3 data-start="914" data-end="953"><strong data-start="918" data-end="951">c) La
+        couleur et le contraste</strong></h3>
+<ul data-start="954" data-end="1229">
+    <li data-start="954" data-end="1039">Une couleur trop faible nuit à la
+        lisibilité. Utiliser des contrastes suffisants.</li>
+    <li data-start="1040" data-end="1229">Exemples de bonnes pratiques :
+        <highlight lang="css">p { color: #333; } /* Gris fonc&eacute; pour un bon contraste */
+a { color: #007bff; text-decoration: none; } /* Lien en bleu, bien visible */</highlight>
+
+    </li>
+</ul>
+
+
+<h3 data-start="1231" data-end="1258"><strong data-start="1235" data-end="1256">Choix
+        des polices</strong></h3>
+<p data-start="1259" data-end="1308">Il existe trois grandes catégories de polices :
+</p>
+<ul data-start="1309" data-end="1588">
+    <li data-start="1309" data-end="1400"><strong data-start="1311" data-end="1320">Serif</strong> (ex. : Times New
+        Roman, Georgia) →
+        utilisées pour des styles plus classiques.</li>
+    <li data-start="1401" data-end="1491"><strong data-start="1403" data-end="1417">Sans-serif</strong> (ex. : Arial,
+        Helvetica, Roboto) →
+        plus modernes et lisibles à l’écran.</li>
+    <li data-start="1492" data-end="1588"><strong data-start="1494" data-end="1507">Monospace</strong> (ex. : Courier,
+        Consolas) → utilisées pour du code ou des styles particuliers.</li>
+</ul>
+
+
+
+
+
+
+<h3 data-start="1590" data-end="1642"><strong data-start="1594" data-end="1640">Bonnes
+        pratiques pour intégrer des polices</strong></h3>
+
+<ul data-start="1643" data-end="2084">
+    <li data-start="1643" data-end="1819">Utilisation de <code data-start="1660" data-end="1673">font-family</code> en
+        cascade pour assurer une alternative si une police n’est pas disponible.
+
+
+        <highlight lang="css">body { font-family: &#039;Roboto&#039;, Arial, sans-serif; }</highlight>
+
+    </li>
+    <li data-start="1820" data-end="2084">Utilisation de <strong data-start="1837" data-end="1853">Google Fonts</strong>
+        :
+        <highlight lang="html">&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;</highlight>
+
+        Puis dans le CSS :
+        <highlight lang="css">h1 { font-family: &#039;Roboto&#039;, sans-serif; font-weight: 700; }</highlight>
+
+    </li>
+</ul>
+
+
+
+
+<dots></dots>
+
+<grostitre>2. Utilisation des unités fluides <span class="inline-code">clamp()</span>, <span class="inline-code">em</span>, <span class="inline-code">rem</span>, <span class="inline-code">vw</span>, <span class="inline-code">vh</span></grostitre>
+
+
+<h3>a)
+        Différences entre <span class="inline-code">px</span>, <span class="inline-code">em</span>, <span class="inline-code">rem</span></h3>
+
+<ul data-start="2211" data-end="2751">
+    <li data-start="2211" data-end="2317"><strong data-start="2213" data-end="2236"><code data-start="2215"
+                data-end="2219">px</code>
+            (pixels fixes)</strong> : taille absolue, ne s’adapte pas au zoom ou aux
+        préférences de l’utilisateur.</li>
+    <li data-start="2318" data-end="2516"><strong data-start="2320" data-end="2349"><code data-start="2322"
+                data-end="2326">em</code>
+            (relative au parent)</strong> :<ul data-start="2356" data-end="2516">
+            <li data-start="2356" data-end="2398"><code data-start="2358" data-end="2363">1em</code> = taille de la
+                police du parent.</li>
+            <li data-start="2401" data-end="2516">Exemple :
+                
+<highlight lang="css">div { font-size: 20px; }  
+p { font-size: 1.5em; } /* 1.5 &times; 20px = 30px */</highlight>
+
+             
+            </li>
+        </ul>
+    </li>
+    <li data-start="2517" data-end="2751"><strong data-start="2519" data-end="2548"><code data-start="2521"
+                data-end="2526">rem</code>
+            (relative à <code data-start="2539" data-end="2545">html</code>)</strong> :
+        <ul data-start="2555" data-end="2751">
+            <li data-start="2555" data-end="2636"><code data-start="2557" data-end="2563">1rem</code> = taille de la
+                police définie dans
+                <code data-start="2599" data-end="2607">&lt;html&gt;</code> (souvent
+                16px par défaut).
+            </li>
+            <li data-start="2639" data-end="2751">Exemple :
+<highlight lang="css">html { font-size: 16px; }
+h1 { font-size: 2rem; } /* 2 &times; 16px = 32px */</highlight>
+               
+            </li>
+        </ul>
+    </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+<h3>b) <span class="inline-code">vw</span> et <span class="inline-code">vh</span> : Tailles relatives à la fenêtre</h3>
+<p><strong><span class="inline-code">vw</span> (Viewport Width)</strong> : 1vw = 1% de la largeur de l’écran.</p>
+Exemple:
+<highlight lang="css">h1 {
+  font-size: 10vw; /* La taille du texte sera 10% de la largeur de la fen&ecirc;tre */
+}</highlight>
+<small>➡ <strong>Effet
+visuel :</strong> Le texte grandit si on agrandit la fenêtre et rétrécit si on la réduit.</small>
+
+
+<p><strong><span class="inline-code">vw</span> (Viewport Height)</strong> : 1vh = 1% de la hauteur de l’écran.</p>
+Exemple:
+<highlight lang="css">div {
+  height: 50vh; /* Hauteur &eacute;quivalente &agrave; 50% de la hauteur de la fen&ecirc;tre */
+}</highlight>
+<small>➡ <strong>Effet
+visuel :</strong> L’élément occupera toujours la moitié de l’écran en hauteur.</small>
+
+
+
+
+
+<br>
+<h3>c) Utilisation de <span class="inline-code">clamp()</span> pour des tailles fluides</h3>
+
+<p data-start="2816" data-end="2958">La fonction <code data-start="2828" data-end="2850">clamp(min, val, max)</code>
+    permet de définir une taille de
+    texte qui s’ajuste automatiquement entre une valeur minimale et maximale.</p>
+<highlight lang="css">h1 {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+}</highlight>
+
+<p data-start="3016" data-end="3044">➡ Ici, la taille du <code data-start="3036" data-end="3040">h1</code> :</p>
+<ul data-start="3045" data-end="3202">
+    <li data-start="3045" data-end="3091">Ne descendra pas en dessous de <strong data-start="3078"
+            data-end="3088">1.5rem</strong>.</li>
+    <li data-start="3092" data-end="3171">S’adaptera à la largeur de l’écran
+        (<strong data-start="3130" data-end="3137">5vw</strong> = 5% de la largeur
+        de l’écran).</li>
+    <li data-start="3172" data-end="3202">Ne dépassera pas <strong data-start="3191" data-end="3199">3rem</strong>.</li>
+</ul>
+
+
+
+<dots></dots>
+
+<grostitre>3.
+        Effets stylisés <span class="inline-code">text-shadow</span>,
+        <span class="inline-code">gradient text</span>, transitions au
+        survol
+</grostitre>
+<h3 data-start="3294" data-end="3342"><strong data-start="3298" data-end="3340">a)
+        <span class="inline-code">text-shadow</span> : Ombres sur le
+        texte</strong></h3>
+<p data-start="3343" data-end="3397">Ajoute une ombre au texte pour lui donner du
+    relief.</p>
+<highlight lang="css">h1 {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}</highlight>
+
+<p data-start="3463" data-end="3490">Explication des valeurs :</p>
+<ul data-start="3491" data-end="3644">
+    <li data-start="3491" data-end="3526"><code data-start="3493" data-end="3498">2px</code> → Déplacement horizontal.
+    </li>
+    <li data-start="3527" data-end="3560"><code data-start="3529" data-end="3534">2px</code> → Déplacement vertical.
+    </li>
+    <li data-start="3561" data-end="3578"><code data-start="3563" data-end="3568">5px</code> → Flou.</li>
+    <li data-start="3579" data-end="3644"><code data-start="3581" data-end="3601">rgba(0, 0, 0, 0.3)</code> → Couleur de
+        l’ombre (noir
+        transparent).</li>
+</ul>
+<h3>b)
+        Texte en dégradé (<span class="inline-code">background-clip: text</span>)</h3>
+<p data-start="3702" data-end="3733">Applique un dégradé au texte.</p>
+<highlight lang="css">h1 {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}</highlight>
+
+<small>➡ <strong data-start="3886" data-end="3904">Effet
+        visuel :</strong> Un texte avec un dégradé de
+    couleurs.</small>
+<h3>c)
+        Effets au survol avec <span class="inline-code">transition</span></h3>
+<p data-start="3994" data-end="4062">Permet d’animer des changements de couleur ou
+    de taille au survol.</p>
+<highlight lang="css">a {
+  color: #007bff;
+  transition: color 0.3s ease-in-out;
+}
+a:hover {
+  color: #ff4500;
+}</highlight>
+
+<small>➡ <strong>Effet
+        visuel :</strong> Lorsque l’utilisateur passe la
+    souris sur un lien, la couleur change avec une transition fluide.</small>
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

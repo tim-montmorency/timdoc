@@ -193,16 +193,7 @@
 
 
 
-    <dots></dots>
-    <grostitre>Révision</grostitre>
-    <h3>Révision exercices du dernier cours (et en devoir)</h3>
-    <intlink href='../css/exercices/flexbox-cartes-01/'></intlink>
-    <intlink href='../css/exercices/flexbox-cartes-02/'></intlink>
-    <intlink href='../css/flexbox/exercices/flexbox-scrabble-potter/'></intlink>
-    <intlink href="../css/pseudo-classes/exercices/bouton/"></intlink>
-    <intlink href="../css/pseudo-classes/exercices/cercles/"></intlink>
-
-
+  
 
     <dots></dots>
     <grostitre>L'outil inspecteur</grostitre>
@@ -274,39 +265,81 @@
  \_____\___/ \__,_|_|  |___/    |_|                                   
                                      
 ----------------->
-<wiki-page name="Cours 04" date="2025-02-12">
+<wiki-page name="Cours 04" date="2025-02-11">
 
 
-<dots></dots>
+    <grostitre>Révision</grostitre>
+    <h3>Révision exercices obligatoires des cours 2 et 3</h3>
+    <p><em>Flexbox zombies</em>, <em>froggy</em>, <em>defense</em> ainsi que les <em>exercices de l'inspecteur</em> de la semaine dernière ne vous permettent pas d'avancer avant que vous ayez la bonne solution. Dans ce cas, je considère que vous apprenez à mesure de vos erreurs dans ce contexte, il n'est donc pas nécessaire qu'on révise ensemble. Pour les autres, afin de s'assurer qu'on est tous alignés, il est important de réviser ensemble. Je vous demande d'ouvrir tous ces exercices complétés dans différents onglets.</p>
+    <h4>Cours 2</h4>
+    <intlink href='../css/exercices/flexbox-cartes-01/'></intlink>
+    <intlink href='../css/exercices/flexbox-cartes-02/'></intlink>
+    <intlink href='../css/flexbox/exercices/flexbox-scrabble-potter/'></intlink>
+    <intlink href="../css/pseudo-classes/exercices/bouton/"></intlink>
+    <intlink href="../css/pseudo-classes/exercices/cercles/"></intlink>
+    <h4>Cours 3</h4>
+    <intlink href='../css/exercices/flexbox-poesie-hiver/'></intlink>
+    <intlink href="../css/exercices/flexbox-pony/"></intlink>
+
+
+
+
+    <dots></dots>
+    <grostitre>Sélecteurs CSS avancés</grostitre>
+    
+    <intlink href="../css/selecteurs-avances/"></intlink>
+
+    <h3>Exercices</h3>
+    <small>Pour le prochain exercice <em>CSS Diner</em>, notez bien que les balises utilisées dans ce jeu <incode><plate></incode>,  <incode><bento></incode>, <incode><pickle></incode> ou  <incode><apple></incode> sont des balises <em>FICTIVES</em> .  Elles sont créées dans le jeu pour le côté ludique de l'exercice.</small>
+    <intlink href="../css/selecteurs-avances/exercices/css-diner/"></intlink>
+    
+
+    <dots></dots>
     <grostitre>Pseudo-classes de descendance (child)</grostitre>
     <intlink href="../css/pseudo-classes-intermediaires/"></intlink>
     <h3>Exercices</h3>
     <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
+
   
-    <br>
-    <small>Pour les 2 prochains exercices nommés <em>CSS Diner</em>, notez bien que les balises utilisées dans ce jeu <incode><plate></incode>,  <incode><bento></incode>, <incode><pickle></incode> ou  <incode><apple></incode> sont des balises <em>FICTIVES</em> .  Elles sont créées dans le jeu pour le côté ludique de l'exercice.</small>
+    <small>Pour le prochain exercice <em>CSS Diner</em>, notez bien que les balises utilisées dans ce jeu <incode><plate></incode>,  <incode><bento></incode>, <incode><pickle></incode> ou  <incode><apple></incode> sont des balises <em>FICTIVES</em> .  Elles sont créées dans le jeu pour le côté ludique de l'exercice.</small>
     <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
 
-
-
-<grostitre>Flexbox avancé</grostitre>
-<p>figma for vs code + figma dev mode</p>
-<intlink href='../css/flexbox-avance/'></intlink>
-<h3>Exercices</h3>
-<intlink href='../css/exercices/flexbox-figma-devmode/'></intlink>
-
-<dots></dots>
-<intlink href="../css/selecteurs-avances/"></intlink>
-
-    <intlink href="../css/exercices/weezer-album-bleu/"></intlink>
-    <intlink href="../css/exercices/queen-hot-space/"></intlink>
-
-
-    <h3>Révision: Weezer - Blue Album</h3>
+    <dots></dots>
+    <grostitre>Typographie avancée</grostitre>
+    <intlink href="../css/text-typo-avance/"></intlink>
+    <intlink href="../css/text/"></intlink>
     <intlink href="../css/google-fonts/"></intlink>
-    <intlink href="../css/google-fonts/exercices/bart/"></intlink>
     <intlink href="../css/font-face/"></intlink>
+
+    <h3>Exercices</h3>
+    <intlink href="../css/google-fonts/exercices/bart/"></intlink>
     <intlink href="../css/font-face/exercices/la-guerre-la-guerre/"></intlink>
+
+    .
+    <!-- Exercices -->
+    <intlink href="../css/exercices/moby-i-like-to-score/"></intlink> <!-- Pseudo classe de descendance -->
+    <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink> <!-- text, typo fontface etc -->
+    <intlink href="../css/exercices/little-richard-here-s-little-richard/"></intlink> <!-- google font, text etc -->
+    <intlink href="../css/exercices/band-de-garage-corpo-trash-vidange/"></intlink> <!-- google font, text etc -->
+
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+    <p>Si non terminés en classe, voici les exercices à terminer obligatoirement pour le prochain cours:</p>
+    liste à venir...
+
+</wiki-page>
+
+
+<wiki-page name="Cours 05" date="2025-02-19">
+    <grostitre>Contenu du jour</grostitre>
+
+    <grostitre>Flexbox avancé</grostitre>
+    <p>figma for vs code + figma dev mode</p>
+    <intlink href='../css/flexbox-avance/'></intlink>
+    <h3>Exercices</h3>
+    <intlink href='../css/exercices/flexbox-figma-devmode/'></intlink>
+
+
     <intlink href="../css/pseudo-classes-avancees/"></intlink>
     <intlink href="../css/pseudo-classes-avancees/exercices/css-diner/"></intlink>
     <intlink href="../css/unites-de-mesure-avancees/"></intlink>
@@ -314,33 +347,24 @@
     <intlink href="../css/overflow/"></intlink>
     <intlink href="../css/overflow/exercices/eclipses/"></intlink>
 
-    <!-- Exercices -->
-    <intlink href="../css/exercices/moby-i-like-to-score/"></intlink>
-    <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink>
-    <intlink href="../css/exercices/little-richard-here-s-little-richard/"></intlink>
-    <intlink href="../css/exercices/band-de-garage-corpo-trash-vidange/"></intlink>
-
-<grostitre>Contenu du jour</grostitre>
-
     <ul>
 
         <li>Les pseudo-classes avancées qui introduisent des nuances dans la sélection d'éléments en fonction de critères spécifiques.</li>
     </ul>
 
-    
+
     <intlink href="../css/imbrication-css-intro/"></intlink>
     <intlink href="../css/imbrication-css/"></intlink>
     <!-- ^quelles est la diff entre les 2? -->
 
-    
+
     <!-- DÉBUT À placer à quelques part (pas nécessairement àa ce cours ci) -->
     <intlink href="../html/emmet/"></intlink>
     <intlink href="../html/emmet/exercices/page-web-emmet/"></intlink>
 
-</wiki-page>
 
 
-<wiki-page name="Cours 05" date="2025-02-19">
+
     <intlink href="../css/responsive/"></intlink>
     <intlink href="../css/media-queries/"></intlink>
     <intlink href="../css/media-queries/exercices/modok/"></intlink>
