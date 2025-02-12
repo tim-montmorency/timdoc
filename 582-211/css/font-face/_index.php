@@ -13,7 +13,7 @@
 <p>La règle <incode>@font-face</incode> permet d'importer une police sur une page en spécifiant où la police est située et sous quel nom y faire référence.</p>
 
 <highlight lang="css">@font-face {
-  src: url("/polices/bebas.woff2") format("woff2");
+  src: url("./assets/polices/bebas.woff2") format("woff2");
   font-family: "Bebas";
 }</highlight>
 
@@ -82,7 +82,7 @@
 <p>Par exemple <em>"Super police"</em>:</p>
 
 <highlight lang="css">@font-face {
-  src: url("/polices/bebas.woff2") format("woff2");
+  src: url("./assets/polices/bebas.woff2") format("woff2");
   font-family: "Super Police";
 }</highlight>
 
@@ -96,7 +96,7 @@
 <p>Par exemple:</p>
 
 <highlight lang="css">@font-face {
-  src: url("/polices/bebas.woff2") format("woff2");
+  src: url("./assets/polices/bebas.woff2") format("woff2");
   font-family: "Bebas";
 }
 
@@ -119,8 +119,8 @@
 
 <highlight lang="css">@font-face {
   font-family: "Ma police";
-  src: url("/polices/bebas.woff2") format("woff2"),
-       url("/polices/bebas.otf") format("opentype");
+  src: url("./assets/polices/bebas.woff2") format("woff2"),
+       url("./assets/polices/bebas.otf") format("opentype");
 }</highlight>
 
 <dots></dots>
@@ -135,12 +135,12 @@
 <p>Par exemple:</p>
 
 <highlight lang="css">@font-face {
-  src: url("/polices/bebas-400.woff2") format("woff2");
+  src: url("./assets/polices/bebas-400.woff2") format("woff2");
   font-family: "Bebas";
 }
 
 @font-face {
-  src: url("/polices/bebas-700.woff2") format("woff2");
+  src: url("./assets/polices/bebas-700.woff2") format("woff2");
   font-family: "Bebas";
   font-weight: bold; /* 👈 Variation spécifiée */
 }</highlight>
