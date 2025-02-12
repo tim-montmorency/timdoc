@@ -317,13 +317,24 @@
     <!-- Exercices -->
     <intlink href="../css/exercices/moby-i-like-to-score/"></intlink> <!-- Pseudo classe de descendance -->
     <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink> <!-- text, typo fontface etc -->
+
+    <h4>Si vous avez fini les autres, continuez sur ceux-ci</h4>
     <intlink href="../css/exercices/little-richard-here-s-little-richard/"></intlink> <!-- google font, text etc -->
     <intlink href="../css/exercices/band-de-garage-corpo-trash-vidange/"></intlink> <!-- google font, text etc -->
 
     <dots></dots>
     <grostitre>Devoirs</grostitre>
     <p>Si non terminés en classe, voici les exercices à terminer obligatoirement pour le prochain cours:</p>
-    liste à venir...
+    <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
+    <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
+.
+    <intlink href="../css/google-fonts/exercices/bart/"></intlink>
+    <intlink href="../css/font-face/exercices/la-guerre-la-guerre/"></intlink>
+    .
+    <!-- Exercices -->
+    <intlink href="../css/exercices/moby-i-like-to-score/"></intlink> <!-- Pseudo classe de descendance -->
+    <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink> <!-- text, typo fontface etc -->
+
 
 </wiki-page>
 
