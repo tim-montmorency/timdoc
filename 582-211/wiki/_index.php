@@ -137,8 +137,6 @@
     <dots></dots>
     <grostitre>Devoir</grostitre>
     <p>Si non terminés en classe, vous devez compléter les exercices obligatoires.</p>
-
-    
     <intlink href='../css/flexbox/exercices/flexbox-zombie-chapitre-1/'></intlink>
     <intlink href='../css/flexbox/exercices/flexbox-zombie-chapitre-2/'></intlink>
     <intlink href='../css/flexbox/exercices/flexbox-zombie-chapitre-3/'></intlink>
@@ -227,9 +225,6 @@
 
 
 
-
-
-
     <dots></dots>
     <grostitre>Devoirs</grostitre>
     <p>Si non terminés en classe, vous devez compléter les exercices obligatoires.</p>
@@ -290,12 +285,9 @@
 
 
 
-
     <dots></dots>
     <grostitre>Sélecteurs CSS avancés</grostitre>
-    
     <intlink href="../css/selecteurs-avances/"></intlink>
-
     <h3>Exercices</h3>
     <small>Pour le prochain exercice <em>CSS Diner</em>, notez bien que les balises utilisées dans ce jeu <incode><plate></incode>,  <incode><bento></incode>, <incode><pickle></incode> ou  <incode><apple></incode> sont des balises <em>FICTIVES</em> .  Elles sont créées dans le jeu pour le côté ludique de l'exercice.</small>
     <intlink href="../css/selecteurs-avances/exercices/css-diner/"></intlink>
@@ -306,10 +298,9 @@
     <intlink href="../css/pseudo-classes-intermediaires/"></intlink>
     <h3>Exercices</h3>
     <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
-
-  
     <small>Pour le prochain exercice <em>CSS Diner</em>, notez bien que les balises utilisées dans ce jeu <incode><plate></incode>,  <incode><bento></incode>, <incode><pickle></incode> ou  <incode><apple></incode> sont des balises <em>FICTIVES</em> .  Elles sont créées dans le jeu pour le côté ludique de l'exercice.</small>
     <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
+
 
     <dots></dots>
     <grostitre>Typographie avancée</grostitre>
