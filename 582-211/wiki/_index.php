@@ -194,17 +194,6 @@
 
 
     <dots></dots>
-    <grostitre>Révision</grostitre>
-    <h3>Révision exercices du dernier cours (et en devoir)</h3>
-    <intlink href='../css/exercices/flexbox-cartes-01/'></intlink>
-    <intlink href='../css/exercices/flexbox-cartes-02/'></intlink>
-    <intlink href='../css/flexbox/exercices/flexbox-scrabble-potter/'></intlink>
-    <intlink href="../css/pseudo-classes/exercices/bouton/"></intlink>
-    <intlink href="../css/pseudo-classes/exercices/cercles/"></intlink>
-
-
-
-    <dots></dots>
     <grostitre>L'outil inspecteur</grostitre>
 
     <intlink href="../autres/inspecteur/"></intlink>
@@ -275,6 +264,23 @@
                                      
 ----------------->
 <wiki-page name="Cours 04" date="2025-02-12">
+<!-- Pour vrai révision de tous les exwercices des corus 2 et 3 surtout (les cartes, harry potter, les 2 de pseudo-code d'état, poésie d'hiver, pony (je peux laisser faire ceux de l'inspecteur)) -->
+
+
+<dots></dots>
+    <grostitre>Révision</grostitre>
+    <h3>Révision exercices précédents</h3>
+    <h4>Ceux du cours 2</h4>
+    <intlink href='../css/exercices/flexbox-cartes-01/'></intlink>
+    <intlink href='../css/exercices/flexbox-cartes-02/'></intlink>
+    <intlink href='../css/flexbox/exercices/flexbox-scrabble-potter/'></intlink>
+    <intlink href="../css/pseudo-classes/exercices/bouton/"></intlink>
+    <intlink href="../css/pseudo-classes/exercices/cercles/"></intlink>
+
+    <h4>Ceux du cours 3</h4>
+    <intlink href='../css/exercices/flexbox-poesie-hiver/'></intlink>
+    <intlink href="../css/exercices/flexbox-pony/"></intlink>
+
 
 
 <dots></dots>
