@@ -7,6 +7,9 @@
  */
 ?>
 
+<!-- COURS: https://chatgpt.com/share/67aebd86-b458-8004-9029-a521f4518f31  -->
+
+
 <!-- Je leur fourni un Figma sans auto-layout, ils doivent réorganiser le fichier avec les composantes qui ont l’auto-layout. Ensuite ils intègrent ce design dans Figma pour Visual Studio Code. Je leur demande de me remettre ce fichier de base et ensuite je leur demande d’apporter des changements directement dans VS Code et ils doivent ensuite remettre le fichier modifié. Je peux penser à faire une évaluation par les pairs pour cet exercice. 
 
  

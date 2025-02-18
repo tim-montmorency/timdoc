@@ -338,17 +338,59 @@
 </wiki-page>
 
 
+
+
+
+
+<!-------------- 
+  _____                       _____ 
+ / ____|                     | ____|
+| |     ___  _   _ _ __ ___  | |__  
+| |    / _ \| | | | '__/ __| |___ \ 
+| |___| (_) | |_| | |  \__ \  ___) |
+ \_____\___/ \__,_|_|  |___/ |____/ 
+                                                          
+---------------->
 <wiki-page name="Cours 05" date="2025-02-19">
     <grostitre>Contenu du jour</grostitre>
 
+    <!-- COURS: https://chatgpt.com/share/67aebd86-b458-8004-9029-a521f4518f31  -->
+
+
+
     <grostitre>Flexbox avancé</grostitre>
+
+    <intlink href="../css/flexbox-figma-auto-layout"></intlink>
     <p>figma for vs code + figma dev mode</p>
     <intlink href='../css/flexbox-avance/'></intlink>
     <h3>Exercices</h3>
     <intlink href='../css/exercices/flexbox-figma-devmode/'></intlink>
 
 
-    <intlink href="../css/pseudo-classes-avancees/"></intlink>
+
+    <!-- DÉBUT À placer à quelques part (pas nécessairement àa ce cours ci) -->
+    <intlink href="../html/emmet/"></intlink>
+    <intlink href="../html/emmet/exercices/page-web-emmet/"></intlink>
+
+
+</wiki-page>
+
+
+
+
+<!-----------------------------------
+  _____                         __  
+ / ____|                       / /  
+| |     ___  _   _ _ __ ___   / /_  
+| |    / _ \| | | | '__/ __| | '_ \ 
+| |___| (_) | |_| | |  \__ \ | (_) |
+ \_____\___/ \__,_|_|  |___/  \___/ 
+                                    
+----------------------------------->
+<wiki-page name="Cours 06" date="2025-02-26">
+    
+
+<intlink href="../css/pseudo-classes-avancees/"></intlink>
     <intlink href="../css/pseudo-classes-avancees/exercices/css-diner/"></intlink>
     <intlink href="../css/unites-de-mesure-avancees/"></intlink>
     <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
@@ -366,13 +408,6 @@
     <!-- ^quelles est la diff entre les 2? -->
 
 
-    <!-- DÉBUT À placer à quelques part (pas nécessairement àa ce cours ci) -->
-    <intlink href="../html/emmet/"></intlink>
-    <intlink href="../html/emmet/exercices/page-web-emmet/"></intlink>
-
-
-
-
     <intlink href="../css/responsive/"></intlink>
     <intlink href="../css/media-queries/"></intlink>
     <intlink href="../css/media-queries/exercices/modok/"></intlink>
@@ -388,10 +423,25 @@
     <intlink href="../css/exercices/the-planet-smashers-unstoppable/"></intlink>
     <intlink href="../css/exercices/rage-against-the-machine-renegades/"></intlink>
     <intlink href="../css/exercices/malajube-trompe-l-oeil/"></intlink>
-</wiki-page>
 
 
-<wiki-page name="Cours 06" date="2025-02-26">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <intlink href="../css/modes-de-fusion/"></intlink>
     <intlink href="../css/modes-de-fusion/exercices/emotion/"></intlink>
     <intlink href="../css/filtres/"></intlink>
@@ -412,6 +462,16 @@
 </wiki-page>
 
 
+
+
+<!-----------------------------------
+  _____                       ______ 
+ / ____|                     |____  |
+| |     ___  _   _ _ __ ___      / / 
+| |    / _ \| | | | '__/ __|    / /  
+| |___| (_) | |_| | |  \__ \   / /   
+ \_____\___/ \__,_|_|  |___/  /_/                   
+----------------------------------->
 <wiki-page name="Cours 07" date="2025-03-11">
     <h2>Transition</h2>
     <intlink href="../css/transition/"></intlink>
@@ -436,6 +496,17 @@
 </wiki-page>
 
 
+
+
+
+<!-----------------------------------
+  _____                        ___  
+ / ____|                      / _ \ 
+| |     ___  _   _ _ __ ___  | (_) |
+| |    / _ \| | | | '__/ __|  > _ < 
+| |___| (_) | |_| | |  \__ \ | (_) |
+ \_____\___/ \__,_|_|  |___/  \___/ 
+----------------------------------->
 <wiki-page name="Cours 08" date="2025-03-18">
     <intlink href="../css/snap-scroll/"></intlink>
     <intlink href="../css/snap-scroll/exercices/whatisadam/"></intlink>
@@ -456,7 +527,14 @@
 
 
 
-
+<!-----------------------------------
+  _____                        ___  
+ / ____|                      / _ \ 
+| |     ___  _   _ _ __ ___  | (_) |
+| |    / _ \| | | | '__/ __|  \__, |
+| |___| (_) | |_| | |  \__ \    / / 
+ \_____\___/ \__,_|_|  |___/   /_/                 
+----------------------------------->
 <wiki-page name="Cours 09" date="2025-03-25">
     <h3>Examen: Birds of Prey</h3>
     <video playsinline src="./videos/birds-of-prey.mp4" autoplay="true" muted="true" loop="true" style="width: 100%; max-width: 770px;"></video>
@@ -465,6 +543,14 @@
 
 
 
+<!-----------------------------------
+  _____                       __  ___  
+ / ____|                     /_ |/ _ \ 
+| |     ___  _   _ _ __ ___   | | | | |
+| |    / _ \| | | | '__/ __|  | | | | |
+| |___| (_) | |_| | |  \__ \  | | |_| |
+ \_____\___/ \__,_|_|  |___/  |_|\___/                                     
+----------------------------------->
 <wiki-page name="Cours 10" date="2025-04-01">
     <intlink href="../css/flexbox/"></intlink>
     <intlink href="../css/flexbox-intermediaire/"></intlink>
@@ -482,6 +568,16 @@
 </wiki-page>
 
 
+
+
+<!-----------------------------------
+  _____                       __ __ 
+ / ____|                     /_ /_ |
+| |     ___  _   _ _ __ ___   | || |
+| |    / _ \| | | | '__/ __|  | || |
+| |___| (_) | |_| | |  \__ \  | || |
+ \_____\___/ \__,_|_|  |___/  |_||_|
+ ----------------------------------->      
 <wiki-page name="Cours 11" date="2025-04-08">
     <intlink href="../css/flexbox-avance/"></intlink>
     <intlink href="../css/animation-sprite-sheet/"></intlink>
@@ -489,18 +585,66 @@
 </wiki-page>
 
 
+
+
+
+<!-----------------------------------
+  _____                       __ ___  
+ / ____|                     /_ |__ \ 
+| |     ___  _   _ _ __ ___   | |  ) |
+| |    / _ \| | | | '__/ __|  | | / / 
+| |___| (_) | |_| | |  \__ \  | |/ /_ 
+ \_____\___/ \__,_|_|  |___/  |_|____|
+ ----------------------------------->  
 <wiki-page name="Cours 12" date="2025-04-15">
 <h3>Travail sur le projet final (partie 1)</h3>
 </wiki-page>
 
+
+
+
+<!-----------------------------------
+  _____                       __ ____  
+ / ____|                     /_ |___ \ 
+| |     ___  _   _ _ __ ___   | | __) |
+| |    / _ \| | | | '__/ __|  | ||__ < 
+| |___| (_) | |_| | |  \__ \  | |___) |
+ \_____\___/ \__,_|_|  |___/  |_|____/       
+                             
+ ----------------------------------->  
 <wiki-page name="Cours 13" date="2025-04-22">
     <h3>Travail sur le projet final (partie 1)</h3>
 </wiki-page>
 
+
+
+
+
+<!-----------------------------------
+  _____                       __ _  _   
+ / ____|                     /_ | || |  
+| |     ___  _   _ _ __ ___   | | || |_ 
+| |    / _ \| | | | '__/ __|  | |__   _|
+| |___| (_) | |_| | |  \__ \  | |  | |  
+ \_____\___/ \__,_|_|  |___/  |_|  |_|  
+                      
+ ----------------------------------->  
 <wiki-page name="Cours 14" date="2025-04-29">
     <h3>Travail sur le projet final (partie 3)</h3>
 </wiki-page>
 
+
+
+
+ <!-----------------------------------
+  _____                       __ _____ 
+ / ____|                     /_ | ____|
+| |     ___  _   _ _ __ ___   | | |__  
+| |    / _ \| | | | '__/ __|  | |___ \ 
+| |___| (_) | |_| | |  \__ \  | |___) |
+ \_____\___/ \__,_|_|  |___/  |_|____/ 
+                                                                      
+ ----------------------------------->  
 <wiki-page name="Cours 15" date="2025-05-06">
     <h3>Présentation du travail final</h3>
 </wiki-page>

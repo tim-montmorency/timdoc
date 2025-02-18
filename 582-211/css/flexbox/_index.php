@@ -2,7 +2,7 @@
 
 /**
  * @type     article
- * @title    Flexbox
+ * @title    Flexbox introduction
  * @icon     images/icon.webp
  * @abstract flex-direction, justify-content, align-items, align-self
  */
