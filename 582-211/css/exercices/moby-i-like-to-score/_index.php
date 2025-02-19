@@ -33,6 +33,8 @@
 
 <grostitre>Requis</grostitre>
 
+<warning>Cet exercice n'est pas un exercice flexbox. Vous pouvez appliquer <br><incode>display:inline-block;</incode> sur les éléments <incode>.circle</incode> pour les placer les uns à côté des autres.</warning>
+
 <checklist>
   L'album doit prendre toute la largeur disponible, jusqu'à un maximum de 500px et avoir une hauteur minimale de 500px.
   L'album doit être centré horizontalement dans la page, avoir un fond blanc ⚪️ et une marge intérieure de 30px de tous les côtés n'affectant pas la dimension totale de l'album.
@@ -45,7 +47,7 @@
 
 <dots></dots>
 
-
+<!--
 <grostitre>Remise</grostitre>
 
 <checklist>
@@ -73,7 +75,7 @@
 </correction>
 
 <dots></dots>
-
+-->
 
 <grostitre>Ambiance</grostitre>
 

@@ -407,6 +407,8 @@
     <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
     <intlink href="../css/google-fonts/exercices/bart/"></intlink>
     <intlink href="../css/font-face/exercices/la-guerre-la-guerre/"></intlink>
+    <intlink href="../css/exercices/moby-i-like-to-score/"></intlink> 
+    <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink> 
 
 
     <dots></dots>
@@ -433,7 +435,8 @@
     <grostitre>Pseudo-classes avancées</grostitre>
     <intlink href='../css/pseudo-classes-avancees/'></intlink>
 
-    <h3>Exercices</h3>
+    <h3>Exercice de pseudo-classes facultatif pour le moment.</h3>
+
     <intlink href='../css/pseudo-classes-avancees/exercices/css-diner/'></intlink>
  
 
@@ -441,17 +444,22 @@
 
     <dots></dots>
     <grostitre>Devoirs</grostitre>
-    <p>Complétez les exercices du cours 5 non complétés en classe.</p>
+    <p>Complétez les exercices du cours 4 et 5 non complétés en classe, ces exercices sont obligatoires et doivent être complété avant le cours 6.</p>
+    <p class="red-label">Exercices du cours 4</p>
+    <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
+    <intlink href="../css/google-fonts/exercices/bart/"></intlink>
+    <intlink href="../css/font-face/exercices/la-guerre-la-guerre/"></intlink>
+    <intlink href="../css/exercices/moby-i-like-to-score/"></intlink> 
+    <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink> 
+<br>
+    <p class="red-label">Exercices du cours 5</p>
     <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-9/'></intlink>
     <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-10/'></intlink>
     <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-11/'></intlink>
-.
-
     <intlink href='../css/variables/exercices/canadiens/'></intlink>
     <intlink href='../css/variables/exercices/lakers/'></intlink>
 .
-    <intlink href='../css/pseudo-classes-avancees/exercices/css-diner/'></intlink>
- 
+  
 
 
 </wiki-page>
