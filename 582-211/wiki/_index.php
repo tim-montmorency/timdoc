@@ -424,7 +424,7 @@
     <intlink href='../css/variables/'></intlink>
 
     <h3>Exercices</h3>
-    <intlink href='../css/variables/exercices/jidddf/'></intlink>
+   
     <intlink href='../css/variables/exercices/canadiens/'></intlink>
     <intlink href='../css/variables/exercices/lakers/'></intlink>
 
@@ -446,7 +446,7 @@
     <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-10/'></intlink>
     <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-11/'></intlink>
 .
-    <intlink href='../css/variables/exercices/jidddf/'></intlink>
+
     <intlink href='../css/variables/exercices/canadiens/'></intlink>
     <intlink href='../css/variables/exercices/lakers/'></intlink>
 .
@@ -532,7 +532,7 @@
 
 
 
-
+    <intlink href='../css/variables/exercices/jidddf/'></intlink> <!-- unité avancé, svg et madia queries, variables -->
 
 
     <intlink href="../css/modes-de-fusion/"></intlink>

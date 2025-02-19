@@ -117,7 +117,8 @@
 
 <dots></dots>
 
-<exercice href="exercices/jidddf/"></exercice>
+<!-- tout n'a pas été vus notemment media queries, svg et unité avancées 
+ <exercice href="exercices/jidddf/"></exercice> -->
 <exercice href="exercices/canadiens/"></exercice>
 <exercice href="exercices/lakers/"></exercice>
 
