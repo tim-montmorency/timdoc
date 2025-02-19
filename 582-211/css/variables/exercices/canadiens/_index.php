@@ -47,6 +47,9 @@
 <grostitre>Notes de cours 📚</grostitre>
 
 <intlink href="../../../variables/"></intlink>
+et
+<intlink href="../../../pseudo-classes-avancees/#has"></intlink>
+ou
 <intlink href="../../../selecteurs-avances/#voisins"></intlink>
 
 <dots></dots>
