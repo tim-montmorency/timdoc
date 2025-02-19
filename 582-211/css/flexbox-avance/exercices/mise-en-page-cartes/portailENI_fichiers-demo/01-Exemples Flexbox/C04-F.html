@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ma page web</title>
+		<style>
+			#conteneur-liste {
+				display: flex;
+				flex-flow: row nowrap;
+				width: 400px;
+				border: 1px solid #000;
+				background-color: #eee;
+				padding: 10px;
+			}
+			#conteneur-liste li {
+				list-style: none;
+				border: 1px solid #000;
+				flex-basis: 100px;
+				padding: 5px;
+				background-color: white;
+			}
+			#conteneur-liste li.un {
+				flex-grow: 1;
+				background-color: antiquewhite;
+			}
+			#conteneur-liste li.trois {
+				flex-shrink: 4;
+				background-color: antiquewhite;
+			}
+		</style>
+	</head>
+	<body>
+		<ul id="conteneur-liste">
+			<li class="un">Un</li>
+			<li>Deux</li>
+			<li class="trois">Trois</li>
+			<li>Quatre</li>
+			<li>Cinq</li>
+		</ul>
+	</body>
+</html>

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Ma page web</title>
+		<style>
+			/* Mise en page Mobile First */
+			#conteneur {
+				/* Grille de mise en page */
+				display: grid;
+				grid-template-areas:
+					"en-tete"
+					"section"
+					"article"
+					"sidebar"
+					"pied-page";
+				gap: 10px;
+				/* Mise en forme */
+				width: 95%;
+				margin: auto;
+			}
+			header {
+				grid-area: en-tete;
+			}
+			section {
+				grid-area: section;
+			}
+			article {
+				grid-area: article;
+			}
+			aside {
+				grid-area: sidebar;
+			}
+			footer {
+				grid-area: pied-page;
+			}
+			
+			/* Mise en forme commune */
+			body {
+				margin: 0;
+				padding: 5px;
+			}
+			header, footer {
+				background-color: #eee;
+				text-align: center;
+			}
+			section, aside {
+				background-color: #bbb;
+				color: #fff;
+			}
+			article {
+				border: 1px solid #000;
+			}
+			h2, h3, p {
+				padding: 10px;
+			}
+			
+			/* Media Query écran tablette */
+			@media only screen and (min-width: 768px)  {
+				#conteneur {
+        			grid-template-columns: 200px 1fr;
+        			grid-template-areas:
+    					"en-tete en-tete"
+        				"section article"
+						"sidebar sidebar"
+        				"pied-page pied-page";
+					width: 90%;
+    			}
+    		}
+			/* Media Query grand écran */
+			@media only screen and (min-width: 1024px)  {
+				#conteneur {
+        			grid-template-columns: 250px 1fr 250px;
+        			grid-template-areas:
+    					"en-tete en-tete en-tete"
+        				"section article sidebar"
+        				"pied-page pied-page pied-page";
+					width: 80%;
+    			}
+    		}
+		</style>
+	</head>
+	<body>
+		<div id="conteneur">
+			<header>
+				<h1>Justo Mollis Ornare Pellentesque Inceptos</h1>
+			</header>
+			<section>
+				<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			</section>
+			<article>
+				<h2>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</h2>
+				<p>Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p>Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+			</article>
+			<aside>
+				<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+			</aside>
+			<footer>
+				<p>Amet Tellus Vulputate Ligula Fusce</p>
+			</footer>
+		</div>
+	</body>
+</html>

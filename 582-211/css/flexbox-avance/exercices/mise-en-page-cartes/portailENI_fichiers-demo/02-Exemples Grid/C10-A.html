@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Ma page web</title>
+		<style>
+			body {
+				padding: 50px;
+			}
+			#conteneur {
+				/* Grille de mise en page */
+				display: grid;
+				grid-template-columns: repeat(3,300px);
+				gap: 10px;
+				/* Mise en forme */
+				width: 920px;
+				padding: 10px;
+				border: 1px solid #000;
+			}
+			#deux {
+				order: -1;
+				background-color: #eee;
+			}
+			#trois {
+				order: 2;
+				background-color: #eee;
+			}
+			#six {
+				order: 1;
+				background-color: #eee;
+			}
+			p {
+				margin: 0;
+				border: 1px solid #000;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="conteneur">
+			<p><b>Un</b>. Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo. Pellentesque sem vehicula parturient ullamcorper.</p>
+			<p id="deux"><b>Deux</b>. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			<p id="trois"><b>Trois</b>. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+			<p><b>Quatre</b>. Nulla vitae elit libero, a pharetra augue. Adipiscing venenatis mattis vehicula sem. quam ommodo lit.</p>
+			<p><b>Cinq</b>. Cras Parturient Dolor Magna. Vestibulum id ligula porta felis euismod semper. Parturient Pellentesque Porta Euismod.</p>
+			<p id="six"><b>Six</b>. Vestibulum id ligula porta felis euismod semper. Curabitur blandit tempus porttitor. Vestibulum Ornare Consectetur.</p>
+			<p><b>Sept</b>. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+			<p><b>Huit</b>. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+			<p><b>Neuf</b>. Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ma page web</title>
+		<style>
+			.champs {
+				display: flex;
+				width: 600px;
+				border: 1px solid #aaa;
+				padding: 10px;
+				background-color: #eee;
+			}
+			#le-texte {
+				flex: 1 1 auto;
+				border: none;
+			}
+			#texte, #chercher {
+				margin: 0;
+				padding: 5px;
+				background-color: #aaa;
+			}
+			.champs * {
+				font-family: helvetica;
+				font-size: 1em;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="conteneur">
+			<form>
+				<div class="champs">
+					<label id="texte" for="le-texte">Texte&nbsp;:&nbsp;</label>
+					<input type="text" id="le-texte">
+					<input type="submit" id="chercher" value="Chercher">
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

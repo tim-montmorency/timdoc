@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Ma page web</title>
+		<style>
+			/* Conception de la grille */
+			#conteneur { 
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+				grid-gap: 20px;
+			}
+			#conteneur > article:first-child,
+			#conteneur > article:nth-last-child(2) {
+				grid-column: span 2;
+			}
+			/* Mise en forme des cartes */
+			article {
+				display: flex;
+				flex-direction: column;
+			}
+			.texte {
+				flex: 1;
+			}
+			/* Mise en forme */
+			#conteneur > article {
+				border: 1px solid #ccc;
+				box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+			}
+			#conteneur > article img {
+				max-width: 100%;
+			}
+			.texte {
+				padding: 0 20px 20px;
+			}
+			button {
+				background: #aaa;
+				border: 0;
+				color: white;
+				padding: 5px;
+			}
+			</style>
+	</head>
+	<body>
+		<div id="conteneur">
+			<article>
+				<img src="images/venise-01.jpg" alt="Venise">
+				<div class="texte">
+					<h3>Consectetur Mattis</h3>
+					<p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
+				</div>
+				<button>Lorem Ipsum</button>
+			</article>
+			<article>
+				<img src="images/venise-02.jpg" alt="Venise">
+				<div class="texte">
+					<h3>Etiam Fringilla</h3>
+					<p>Dramatically engage seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.</p>
+				</div>
+				<button>Lorem Ipsum</button>
+			</article>
+			<article>
+				<img src="images/venise-03.jpg" alt="Venise">
+				<div class="texte">
+					<h3>Dapibus Fermentum</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+				</div>
+				<button>Lorem Ipsum</button>
+			</article>
+			<article>
+				<img src="images/venise-04.jpg" alt="Venise">
+				<div class="texte">
+					<h3>Ridiculus Condimen</h3>
+					<p>Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+				</div>
+				<button>Lorem Ipsum</button>
+			</article>
+			<article>
+				<img src="images/venise-05.jpg" alt="Venise">
+				<div class="texte">
+					<h3>Fermentum Vulputate</h3>
+					<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+				</div>
+				<button>Lorem Ipsum</button>
+			</article>
+			<article>
+				<img src="images/venise-06.jpg" alt="Venise">
+				<div class="texte">
+					<h3>Condimentum Lorem</h3>
+					<p>Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+				</div>
+				<button>Lorem Ipsum</button>
+			</article>
+			<article>
+				<img src="images/venise-07.jpg" alt="Venise">
+				<div class="texte">
+					<h3>Aenean Lacinia</h3>
+					<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+				</div>
+				<button>Lorem Ipsum</button>
+			</article>
+		</div>
+	</body>
+</html>

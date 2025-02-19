@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ma page web</title>
+		<style>
+			#conteneur {
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: space-around;
+				align-items: flex-start;
+				width: 80%;
+				border: 1px solid #000;
+				background-color: #eee;
+				padding: 10px;
+			}
+			#conteneur p {
+				flex: 1 0 10em;
+				border: 1px solid #000;
+				padding: 5px;
+				background-color: white;
+			}
+			#conteneur p.trois {
+				flex: 2 0 15em;
+				background-color: antiquewhite;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="conteneur">
+			<p>Un. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+			<p>Deux. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
+			<p class="trois">Trois. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Donec sed odio dui. Sed posuere consectetur est at lobortis. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+			<p>Quatre. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+			<p>Cinq. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+		</div>
+	</body>
+</html>

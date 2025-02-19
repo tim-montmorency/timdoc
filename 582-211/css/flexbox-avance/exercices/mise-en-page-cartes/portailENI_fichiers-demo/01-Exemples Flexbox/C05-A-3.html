@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ma page web</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<style>
+			#nav-bar {
+				display: flex;
+				flex-wrap: wrap;
+				background-color: #ccc;
+			}
+			#nav-bar a {
+				flex: 1 0 auto;
+				padding: 10px;
+				text-decoration: none;
+				color: #000;
+				/* Elément flexible */
+				display: flex;
+			}
+			#nav-bar a:hover {
+				background-color: #000;
+				color: #FFF;
+			}
+			.icone {
+				font-size: 1.2em;
+				align-self: flex-start;
+			}
+			.texte {
+				margin: 0 10px;
+			}
+			.texte span {
+				display: block;
+				font-size: 0.7em;
+			}
+		</style>
+	</head>
+	<body>
+		<nav id="nav-bar">
+			<a href="#">
+				<div class="icone">
+					<i class="fas fa-home"></i>
+				</div>
+				<div class="texte">
+					À l'accueil
+					<span>Page d'accueil du site</span>
+				</div>
+			</a>
+			<a href="#">
+				<div class="icone">
+					<i class="fas fa-project-diagram"></i>
+				</div>
+				<div class="texte">
+					Projets
+					<span>Nos projets à venir</span>
+				</div>
+			</a>
+			<a href="#">
+				<div class="icone">
+					<i class="fas fa-brush"></i>
+				</div>
+				<div class="texte">
+					Réalisations
+					<span>Toutes nos réalisations</span>
+				</div>
+			</a>
+			<a href="#">
+				<div class="icone">
+					<i class="fas fa-users"></i>
+				</div>
+				<div class="texte">
+					Équipe
+					<span>Une équipe efficace</span>
+				</div>
+			</a>
+			<a href="#">
+				<div class="icone">
+					<i class="fas fa-id-card"></i>
+				</div>
+				<div class="texte">
+					Contact
+					<span>Contactez-nous !</span>
+				</div>
+			</a>
+		</nav>
+	</body>
+</html>

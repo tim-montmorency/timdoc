@@ -1,0 +1,684 @@
+<?php 
+/**
+ * @type     exercice
+ * @title    Mise ne page cartes
+ * @icon     images/thumb.jpg
+ * @abstract Pour cet exercice, 
+ */
+?>
+
+<!--  -->
+
+<!--<img src="images/source.png" alt="">-->
+
+
+<h1 class="title">Créer une mise en page avec des cartes</h1>
+<p class="defaut">Le fichier d’exemple à télécharger
+    se nomme : <b>01-Exemples Flexbox/C06-C.html</b>.</p>
+<div class="sect2" id="refTitle0">
+    <h2 class="title">1. Les affichages de la page</h2>
+    <p class="defaut">Nous allons créer une page proposant
+        un affichage avec des cartes (<span class="italic">cards layout</span> en
+        anglais). Ce type de présentation est très classique
+        dans les sites d’e-commerce, dans les portfolios et tous les sites
+        qui ont besoin d’afficher des informations succinctes en pavés
+        ou en mosaïque. Les solutions précédentes à l’avènement
+        du module Flexbox étaient lourdes à mettre en
+        place et généraient beaucoup de problèmes.
+        Avec Flexbox, cette mise en forme est très rapide, particulièrement
+        efficace et responsive.</p>
+    <p class="defaut">Voici la page que nous allons construire,
+        affichée sur un grand écran&nbsp;:</p>
+    <div class="image">
+        <div class="mediaobject"><img class="imagedata picturebox" alt="images/C06-023.png" title="images/C06-023.png"
+                src="images/C06-023.png"></div>
+    </div>
+    <p class="defaut">Nous avons une mise en page avec une carte
+        pour chaque présentation. La hauteur de chaque carte est
+        strictement identique et l’ensemble des cartes s’affichent dans
+        une grille de trois colonnes.</p>
+    <p class="defaut">Voici l’affichage obtenu avec une largeur
+        moyenne d’écran, comme celle que nous pourrions avoir sur
+        une tablette, avec deux colonnes&nbsp;:</p>
+    <div class="image">
+        <div class="mediaobject"><img class="imagedata picturebox" alt="images/C06-024.png" title="images/C06-024.png"
+                src="images/C06-024.png"></div>
+    </div>
+    <p class="defaut">Pour terminer, voici une partie de l’affichage
+        obtenu sur un petit écran, de type smartphone, avec une
+        seule colonne&nbsp;:</p>
+    <div class="image">
+        <div class="mediaobject"><img class="imagedata picturebox" alt="images/C06-025.png" title="images/C06-025.png"
+                src="images/C06-025.png"></div>
+    </div>
+</div>
+<div class="sect2" id="refTitle1">
+    <h2 class="title">2. La structure de la page</h2>
+    <p class="defaut">Voici le schéma de la structure HTML
+        de la page qui est placée dans l’élément
+        &lt;body&gt;&nbsp;:</p>
+    <div class="image">
+        <div class="mediaobject"><img class="imagedata picturebox" alt="images/C06-026.png" title="images/C06-026.png"
+                src="images/C06-026.png?id=AAEAAAD%2f%2f%2f%2f%2fAQAAAAAAAAAMAgAAAE1FbmkuRWRpdGlvbnMuTWVkaWFwbHVzLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAJ0VuaS5FZGl0aW9ucy5NZWRpYXBsdXMuQ29tbW9uLldhdGVybWFyawIAAAAHcGlzVGV4dAlwaWR0ZURhdGUBAA0CAAAABgMAAAA9T3VlbGxldCBNYXJpZS1NaWNoZWxsZSAtIDhlOWE1YzVjLWI1MTMtNGQxMy1hODU3LTFjNDA3MDQ2MDVhOamN4X%2bnUN2ICw%3d%3d">
+        </div>
+    </div>
+    <p class="defaut">L’élément <span class="courier11">&lt;header&gt;</span> affiche l’en-tête
+        de la page et contient un élément <span class="courier11">&lt;h1&gt;</span> pour afficher le titre.</p>
+    <div class="image">
+        <div class="mediaobject"><img class="imagedata picturebox" alt="images/C06-027.png" title="images/C06-027.png"
+                src="images/C06-027.png?id=AAEAAAD%2f%2f%2f%2f%2fAQAAAAAAAAAMAgAAAE1FbmkuRWRpdGlvbnMuTWVkaWFwbHVzLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAJ0VuaS5FZGl0aW9ucy5NZWRpYXBsdXMuQ29tbW9uLldhdGVybWFyawIAAAAHcGlzVGV4dAlwaWR0ZURhdGUBAA0CAAAABgMAAAA9T3VlbGxldCBNYXJpZS1NaWNoZWxsZSAtIDhlOWE1YzVjLWI1MTMtNGQxMy1hODU3LTFjNDA3MDQ2MDVhOamN4X%2bnUN2ICw%3d%3d">
+        </div>
+    </div>
+    <p class="defaut">Ensuite, toute la structure en grille est
+        placée dans l’élément <span class="courier11">&lt;main class="centre cartes"&gt;</span>.
+        Dans cet élément, chaque carte est un élément <span class="courier11">&lt;article class="carte"&gt;</span>.</p>
+    <div class="image">
+        <div class="mediaobject"><img class="imagedata picturebox" alt="images/C06-028.png" title="images/C06-028.png"
+                src="images/C06-028.png?id=AAEAAAD%2f%2f%2f%2f%2fAQAAAAAAAAAMAgAAAE1FbmkuRWRpdGlvbnMuTWVkaWFwbHVzLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAJ0VuaS5FZGl0aW9ucy5NZWRpYXBsdXMuQ29tbW9uLldhdGVybWFyawIAAAAHcGlzVGV4dAlwaWR0ZURhdGUBAA0CAAAABgMAAAA9T3VlbGxldCBNYXJpZS1NaWNoZWxsZSAtIDhlOWE1YzVjLWI1MTMtNGQxMy1hODU3LTFjNDA3MDQ2MDVhOamN4X%2bnUN2ICw%3d%3d">
+        </div>
+    </div>
+    <p class="defaut">L’élément <span class="courier11">&lt;a&gt;</span> permet d’avoir un lien sur
+        tout l’article. Chaque lien <span class="courier11">&lt;a&gt;</span> contient
+        un élément <span class="courier11">&lt;figure&gt;</span> pour
+        afficher la photo avec l’élément <span class="courier11">&lt;img&gt;</span> et la légende de
+        la photo avec l’élément <span class="courier11">&lt;figcaption&gt;</span>.</p>
+    <p class="defaut">La photo :</p>
+    <div class="image">
+        <div class="mediaobject"><img class="imagedata picturebox" alt="images/C06-029.png" title="images/C06-029.png"
+                src="images/C06-029.png?id=AAEAAAD%2f%2f%2f%2f%2fAQAAAAAAAAAMAgAAAE1FbmkuRWRpdGlvbnMuTWVkaWFwbHVzLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAJ0VuaS5FZGl0aW9ucy5NZWRpYXBsdXMuQ29tbW9uLldhdGVybWFyawIAAAAHcGlzVGV4dAlwaWR0ZURhdGUBAA0CAAAABgMAAAA9T3VlbGxldCBNYXJpZS1NaWNoZWxsZSAtIDhlOWE1YzVjLWI1MTMtNGQxMy1hODU3LTFjNDA3MDQ2MDVhOamN4X%2bnUN2ICw%3d%3d">
+        </div>
+    </div>
+    <p class="defaut">Et sa légende :</p>
+    <div class="image">
+        <div class="mediaobject"><img class="imagedata picturebox" alt="images/C06-030.png" title="images/C06-030.png"
+                src="images/C06-030.png?id=AAEAAAD%2f%2f%2f%2f%2fAQAAAAAAAAAMAgAAAE1FbmkuRWRpdGlvbnMuTWVkaWFwbHVzLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAJ0VuaS5FZGl0aW9ucy5NZWRpYXBsdXMuQ29tbW9uLldhdGVybWFyawIAAAAHcGlzVGV4dAlwaWR0ZURhdGUBAA0CAAAABgMAAAA9T3VlbGxldCBNYXJpZS1NaWNoZWxsZSAtIDhlOWE1YzVjLWI1MTMtNGQxMy1hODU3LTFjNDA3MDQ2MDVhOamN4X%2bnUN2ICw%3d%3d">
+        </div>
+    </div>
+    <p class="defaut">Ensuite, nous avons la boîte <span class="courier11">&lt;div class="contenu"&gt;</span> permettant
+        l’affichage du contenu, avec un titre <span class="courier11">&lt;h2&gt;</span> et
+        un paragraphe <span class="courier11">&lt;p&gt;</span>.</p>
+    <p class="defaut">Le titre :</p>
+    <div class="image">
+        <div class="mediaobject"><img class="imagedata picturebox" alt="images/C06-031.png" title="images/C06-031.png"
+                src="images/C06-031.png?id=AAEAAAD%2f%2f%2f%2f%2fAQAAAAAAAAAMAgAAAE1FbmkuRWRpdGlvbnMuTWVkaWFwbHVzLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAJ0VuaS5FZGl0aW9ucy5NZWRpYXBsdXMuQ29tbW9uLldhdGVybWFyawIAAAAHcGlzVGV4dAlwaWR0ZURhdGUBAA0CAAAABgMAAAA9T3VlbGxldCBNYXJpZS1NaWNoZWxsZSAtIDhlOWE1YzVjLWI1MTMtNGQxMy1hODU3LTFjNDA3MDQ2MDVhOamN4X%2bnUN2ICw%3d%3d">
+        </div>
+    </div>
+    <p class="defaut">Le texte :</p>
+    <div class="image">
+        <div class="mediaobject"><img class="imagedata picturebox" alt="images/C06-032.png" title="images/C06-032.png"
+                src="images/C06-032.png?id=AAEAAAD%2f%2f%2f%2f%2fAQAAAAAAAAAMAgAAAE1FbmkuRWRpdGlvbnMuTWVkaWFwbHVzLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAJ0VuaS5FZGl0aW9ucy5NZWRpYXBsdXMuQ29tbW9uLldhdGVybWFyawIAAAAHcGlzVGV4dAlwaWR0ZURhdGUBAA0CAAAABgMAAAA9T3VlbGxldCBNYXJpZS1NaWNoZWxsZSAtIDhlOWE1YzVjLWI1MTMtNGQxMy1hODU3LTFjNDA3MDQ2MDVhOamN4X%2bnUN2ICw%3d%3d">
+        </div>
+    </div>
+    <p class="defaut">Tous les articles sont structurés
+        de manière identique.</p>
+</div>
+<div class="sect2" id="refTitle2">
+    <h2 class="title">3. Les règles CSS générales</h2>
+    <p class="defaut">Voici les règles CSS pour l’affichage
+        général de la page&nbsp;:</p>
+    <highlight lang='css'>body {
+        background-color: #eee;
+        }
+        .centre {
+        width: 75%;
+        margin: 0 auto;
+        } </highlight>
+
+
+
+
+    <p class="defaut">Avec le sélecteur <span class="courier11">&lt;body&gt;</span>, nous appliquons un arrière-plan à
+        la
+        page de couleur gris clair, avec <span class="courier11">background-color: #eee</span>.</p>
+    <p class="defaut">Le sélecteur <span class="courier11">.centre</span> est
+        utilisé par les éléments <span class="courier11">&lt;header&gt;</span> et <span
+            class="courier11">&lt;main&gt;</span>.
+        Il permet d’avoir une largeur d’affichage égale à 75&nbsp;% de
+        la largeur de la fenêtre du navigateur, avec <span class="courier11">width: 75%</span>. Bien sûr,
+        cette valeur est purement arbitraire, vous indiquez celle que vous
+        souhaitez. L’ensemble est centré horizontalement dans la
+        fenêtre du navigateur, avec <span class="courier11">margin:
+            0 auto</span>.</p>
+    <p class="defaut">Voici les règles CSS pour la mise
+        en forme de l’en-tête&nbsp;:</p>
+    <highlight lang='css'>header {
+        background-color: #000;
+        text-align: center;
+        color: #FFF;
+        }
+        h1 {
+        padding: 10px;
+        } </highlight>
+
+
+
+
+
+    <p class="defaut">L’en-tête <span class="courier11">&lt;header&gt;</span> possède
+        un arrière-plan noir, <span class="courier11">background-color: #000</span>.
+        Le texte est centré, <span class="courier11">text-align:
+            center</span>, et est de couleur blanche, <span class="courier11">color: #FFF</span>.</p>
+    <p class="defaut">Le titre <span class="courier11">&lt;h1&gt;</span> possède
+        un remplissage de 10 pixels, <span class="courier11">padding: 10px</span>.</p>
+    <p class="defaut">Voyons maintenant la mise en forme des articles&nbsp;:</p>
+    <highlight lang='css'>article {
+        background-color: #FFF;
+        margin-bottom: 10px;
+        }
+        a {
+        text-decoration: none;
+        color: #000;
+        }
+        figure {
+        margin: 0;
+        }
+        img {
+        max-width: 100%;
+        }
+        figcaption {
+        text-align: center;
+        font-style: italic;
+        }
+        h2{
+        margin-top: 5px;
+        padding: 5px;
+        text-align: center;
+        font-size: 1em;
+        background-color: #ccc;
+        }
+        p {
+        padding: 10px;
+        background-color: #FFF;
+        } </highlight>
+
+
+
+
+
+
+    <p class="defaut">Les articles, éléments <span class="courier11">&lt;article&gt;</span>, possèdent un
+        arrière-plan blanc, background-color: #FFF et une
+        marge inférieure de 10 pixels, <span class="courier11">margin-bottom:
+            10px</span>, afin d’avoir un espace avec les cartes des lignes suivantes.</p>
+    <p class="defaut">Les liens <span class="courier11">&lt;a&gt;</span> ne
+        sont pas soulignés, <span class="courier11">text-decoration:
+            none</span> et sont de couleur noire <span class="courier11">color:&nbsp;#000</span>.</p>
+    <p class="defaut">L’élément <span class="courier11">&lt;figure&gt;</span> permet d’afficher la photo
+        et sa légende. Pour être parfaitement placé en haut
+        de l’élément <span class="courier11">&lt;article&gt;</span>,
+        sans espace, les marges sont supprimées, <span class="courier11">margin: 0</span>.</p>
+    <p class="defaut">Il faut que les photos placées dans
+        l’élément <span class="courier11">&lt;img&gt;</span> puissent être
+        redimensionnées proportionnellement par rapport à l’espace
+        disponible. C’est pour cela que nous utilisons la propriété <span class="courier11">max-width: 100%</span>.</p>
+    <p class="defaut">C’est l’élément <span class="courier11">&lt;figcaption&gt;</span> qui permet l’affichage
+        des légendes des photos. Leur mise en forme est simple&nbsp;:
+        un texte centré, <span class="courier11">text-align: center</span>,
+        et écrit en italique, <span class="courier11">font-style: italic</span>.</p>
+    <p class="defaut">Les titres des articles sont des éléments <span class="courier11">&lt;h2&gt;</span>, avec une
+        marge haute de 5
+        pixels (<span class="courier11">margin-top: 5px</span>), un remplissage
+        interne de 5 pixels (<span class="courier11">padding: 5px</span>),
+        un texte centré (<span class="courier11">text-align: center</span>),
+        une taille de caractère un peu plus petite (<span class="courier11">font-size: 1em</span>) et un arrière-plan
+        gris clair (<span class="courier11">background-color: #ccc</span>).</p>
+    <p class="defaut">Pour terminer, les textes sont placés
+        dans des éléments <span class="courier11">&lt;p&gt;</span>,
+        avec un remplissage interne de 10&nbsp;pixels (<span class="courier11">padding: 10px</span>) et un arrière-plan
+        blanc (<span class="courier11">background-color: #FFF</span>).</p>
+</div>
+<div class="sect2" id="refTitle3">
+    <h2 class="title">4. La mise en page flexible et responsive</h2>
+    <p class="defaut">Abordons maintenant la mise en page flexible
+        et responsive. Nous allons gérer trois largeurs d’écran&nbsp;:
+        inférieure à 600 pixels pour les petits écrans,
+        de 600 à 1200 pixels pour les largeurs moyennes comme les
+        tablettes, et supérieure à 1200 pixels pour les écrans
+        d’ordinateur. Bien sûr, ces valeurs sont arbitraires, à vous
+        de les adapter à vos besoins.</p>
+    <p class="defaut">Nous avons donc deux requêtes de
+        média&nbsp;:</p>
+    <highlight lang='css'>@media screen and (min-width: 600px){ /* Taille d'écran moyenne */
+        ...
+        }
+        @media screen and (min-width: 1200px){ /* Taille d'écran grande */
+        ...
+        } </highlight>
+
+
+
+
+    <p class="defaut">Commençons par la première
+        requête de média. Voilà les règles
+        CSS que nous y plaçons&nbsp;:</p>
+    <highlight lang='css'>@media screen and (min-width: 600px){ /* Taille d'écran moyenne */
+        .cartes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+        .carte {
+        flex: 0 0 48%;
+        }
+        } </highlight>
+
+
+
+
+    <p class="defaut">Détaillons la première règle <span class="courier11">.cartes</span> qui s’applique à l’élément
+        parent de tous les articles, l’élément <span class="courier11">&lt;main class="centre cartes"&gt;</span>.</p>
+    <div class="divliste1">
+        <ul class="liste1">
+            <li class="liste1">
+                <p class="liste1"><span class="courier11">display:
+                        flex</span> : nous choisissons bien sûr un affichage flexible,
+                    avec la propriété <span class="courier11">flex-direction:
+                        row</span> par défaut. Cela permet un affichage sur l’axe
+                    principal horizontal.</p>
+            </li>
+            <li class="liste1">
+                <p class="liste1"><span class="courier11">flex-wrap:
+                        wrap</span> : autorise le passage à la ligne des articles,
+                    si l’espace disponible le permet.</p>
+            </li>
+            <li class="liste1">
+                <p class="liste1"><span class="courier11">justify-content:
+                        space-between</span> : permet à l’espace supplémentaire
+                    d’être uniformément réparti entre les éléments <span class="courier11">&lt;article&gt;</span>
+                    enfants.</p>
+            </li>
+        </ul>
+    </div>
+    <p class="defaut">La deuxième règle, <span class="courier11">.carte</span>, s’applique à chacun
+        des éléments <span class="courier11">&lt;article
+            class="carte"&gt;</span> enfants.</p>
+    <div class="divliste1">
+        <ul class="liste1">
+            <li class="liste1">
+                <p class="liste1"><span class="courier11">flex:
+                        0 0 48%</span> est la syntaxe courte des trois propriétés <span
+                        class="courier11">flex-grow</span>, <span class="courier11">flex-shrink</span> et <span
+                        class="courier11">flex-basis</span>. Nous n’autorisons pas
+                    les enfants à s’agrandir, <span class="courier11">0</span>,
+                    ni à se réduire, <span class="courier11">0</span>,
+                    et la largeur initiale souhaitée est de <span class="courier11">48%</span>.</p>
+            </li>
+        </ul>
+    </div>
+    <p class="defaut">Cela implique que nous aurons deux colonnes
+        et que chaque article occupera un peu moins de la moitié de
+        la largeur disponible par rapport à l’élément
+        parent <span class="courier11">&lt;main&gt;</span>. Ainsi, nous réservons un
+        espace de 4&nbsp;% entre les colonnes&nbsp;: 48+48+4=100. À nouveau,
+        libre à vous de choisir les valeurs que vous souhaitez,
+        sans oublier que vous pouvez même utiliser si besoin est,
+        des calculs avec la propriété <span class="courier11">calc()</span> (<a class="url"
+            href="https://www.w3.org/TR/css-values-4/#calc-notation"
+            target="_blank">https://www.w3.org/TR/css-values-4/#calc-notation</a>).</p>
+    <p class="defaut">Étant donné que nous utilisons
+        des unités relatives en pourcentage, cela implique que
+        les articles auront des largeurs variables et proportionnelles en
+        fonction de la largeur de la fenêtre du navigateur.</p>
+    <p class="defaut">Voici une largeur maximale :</p>
+    <div class="image">
+        <div class="mediaobject"><img class="imagedata picturebox" alt="images/C06-033.png" title="images/C06-033.png"
+                src="images/C06-033.png?id=AAEAAAD%2f%2f%2f%2f%2fAQAAAAAAAAAMAgAAAE1FbmkuRWRpdGlvbnMuTWVkaWFwbHVzLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAJ0VuaS5FZGl0aW9ucy5NZWRpYXBsdXMuQ29tbW9uLldhdGVybWFyawIAAAAHcGlzVGV4dAlwaWR0ZURhdGUBAA0CAAAABgMAAAA9T3VlbGxldCBNYXJpZS1NaWNoZWxsZSAtIDhlOWE1YzVjLWI1MTMtNGQxMy1hODU3LTFjNDA3MDQ2MDVhOamN4X%2bnUN2ICw%3d%3d">
+        </div>
+    </div>
+    <p class="defaut">Et voici une largeur minimale :</p>
+    <div class="image">
+        <div class="mediaobject"><img class="imagedata picturebox" alt="images/C06-034.png" title="images/C06-034.png"
+                src="images/C06-034.png?id=AAEAAAD%2f%2f%2f%2f%2fAQAAAAAAAAAMAgAAAE1FbmkuRWRpdGlvbnMuTWVkaWFwbHVzLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAJ0VuaS5FZGl0aW9ucy5NZWRpYXBsdXMuQ29tbW9uLldhdGVybWFyawIAAAAHcGlzVGV4dAlwaWR0ZURhdGUBAA0CAAAABgMAAAA9T3VlbGxldCBNYXJpZS1NaWNoZWxsZSAtIDhlOWE1YzVjLWI1MTMtNGQxMy1hODU3LTFjNDA3MDQ2MDVhOamN4X%2bnUN2ICw%3d%3d">
+        </div>
+    </div>
+    <p class="defaut">Pour les tailles d’écran les plus
+        grandes, nous n’avons qu’à modifier la valeur d’affichage
+        des articles&nbsp;:</p>
+    <highlight lang='css'>@media screen and (min-width: 1200px){ /* Taille d'écran grande */
+        .carte {
+        flex: 0 0 32%;
+        }
+        } </highlight>
+
+
+    <p class="defaut">Tout d’abord, précisons qu’il n’est
+        ni nécessaire ni utile d’indiquer à nouveau que
+        nous voulons un affichage flexible. C’est déjà précisé dans
+        la requête précédente.</p>
+    <p class="defaut">Dans la propriété <span class="courier11">flex</span>, nous n’autorisons toujours pas
+        l’agrandissement et la réduction des tailles. Par contre,
+        nous indiquons une largeur initiale souhaitée à <span class="courier11">32%</span>. Avec les mêmes
+        principes que précédemment, nous avons trois colonnes
+        et des espaces de 4&nbsp;% entre chaque colonne.</p>
+    <p class="defaut">Voici une largeur maximale&nbsp;:</p>
+    <div class="image">
+        <div class="mediaobject"><img class="imagedata picturebox" alt="images/C06-035.png" title="images/C06-035.png"
+                src="images/C06-035.png?id=AAEAAAD%2f%2f%2f%2f%2fAQAAAAAAAAAMAgAAAE1FbmkuRWRpdGlvbnMuTWVkaWFwbHVzLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAJ0VuaS5FZGl0aW9ucy5NZWRpYXBsdXMuQ29tbW9uLldhdGVybWFyawIAAAAHcGlzVGV4dAlwaWR0ZURhdGUBAA0CAAAABgMAAAA9T3VlbGxldCBNYXJpZS1NaWNoZWxsZSAtIDhlOWE1YzVjLWI1MTMtNGQxMy1hODU3LTFjNDA3MDQ2MDVhOamN4X%2bnUN2ICw%3d%3d">
+        </div>
+    </div>
+    <p class="defaut">Et voici une largeur minimale :</p>
+    <div class="image">
+        <div class="mediaobject"><img class="imagedata picturebox" alt="images/C06-036.png" title="images/C06-036.png"
+                src="images/C06-036.png?id=AAEAAAD%2f%2f%2f%2f%2fAQAAAAAAAAAMAgAAAE1FbmkuRWRpdGlvbnMuTWVkaWFwbHVzLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAJ0VuaS5FZGl0aW9ucy5NZWRpYXBsdXMuQ29tbW9uLldhdGVybWFyawIAAAAHcGlzVGV4dAlwaWR0ZURhdGUBAA0CAAAABgMAAAA9T3VlbGxldCBNYXJpZS1NaWNoZWxsZSAtIDhlOWE1YzVjLWI1MTMtNGQxMy1hODU3LTFjNDA3MDQ2MDVhOamN4X%2bnUN2ICw%3d%3d">
+        </div>
+    </div>
+    <p class="defaut">Pour les tailles d’écran les plus
+        petites, comme sur les smartphones, la mise en page s’adapte automatiquement
+        sur une seule colonne.</p>
+</div>
+<div class="sect2" id="refTitle4">
+    <h2 class="title">5. La gestion des liens</h2>
+    <p class="defaut">Il nous faut maintenant résoudre
+        un problème d’expérience utilisateur dans l’utilisation
+        des liens <span class="courier11">&lt;a&gt;</span> présents
+        dans la structure des articles. Pour rappel, voici la structure
+        que nous avons&nbsp;:</p>
+    <highlight lang='html'>
+        <article class="carte">
+            <a href="#">
+                <figure>
+                    ...
+                </figure>
+                <div class="contenu">
+                    <h2>Nullam Sollicitudin Tortor</h2>
+                    <p>Cum sociis natoque...</p>
+                </div>
+            </a>
+        </article>
+    </highlight>
+
+
+
+
+
+    <p class="defaut">L’élément <span class="courier11">&lt;a&gt;</span> contient tous les autres éléments
+        constitutifs des articles. Donc le lien doit s’utiliser sur l’ensemble
+        de ces éléments. Mais les liens ne fonctionnent
+        que sur des contenus, que ce soit des images ou du texte. Par contre
+        s’il n’y a pas de texte, mais une surface vide, le lien ne peut fonctionner.</p>
+    <p class="defaut">Le pointeur de lien apparaît bien
+        au survol des photos&nbsp;:</p>
+    <div class="image">
+        <div class="mediaobject"><img class="imagedata picturebox" alt="images/C06-037.png" title="images/C06-037.png"
+                src="images/C06-037.png?id=AAEAAAD%2f%2f%2f%2f%2fAQAAAAAAAAAMAgAAAE1FbmkuRWRpdGlvbnMuTWVkaWFwbHVzLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAJ0VuaS5FZGl0aW9ucy5NZWRpYXBsdXMuQ29tbW9uLldhdGVybWFyawIAAAAHcGlzVGV4dAlwaWR0ZURhdGUBAA0CAAAABgMAAAA9T3VlbGxldCBNYXJpZS1NaWNoZWxsZSAtIDhlOWE1YzVjLWI1MTMtNGQxMy1hODU3LTFjNDA3MDQ2MDVhOamN4X%2bnUN2ICw%3d%3d">
+        </div>
+    </div>
+    <p class="defaut">Et aussi au niveau du texte :</p>
+    <div class="image">
+        <div class="mediaobject"><img class="imagedata picturebox" alt="images/C06-038.png" title="images/C06-038.png"
+                src="images/C06-038.png?id=AAEAAAD%2f%2f%2f%2f%2fAQAAAAAAAAAMAgAAAE1FbmkuRWRpdGlvbnMuTWVkaWFwbHVzLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAJ0VuaS5FZGl0aW9ucy5NZWRpYXBsdXMuQ29tbW9uLldhdGVybWFyawIAAAAHcGlzVGV4dAlwaWR0ZURhdGUBAA0CAAAABgMAAAA9T3VlbGxldCBNYXJpZS1NaWNoZWxsZSAtIDhlOWE1YzVjLWI1MTMtNGQxMy1hODU3LTFjNDA3MDQ2MDVhOamN4X%2bnUN2ICw%3d%3d">
+        </div>
+    </div>
+    <p class="defaut">Par contre au-dessus d’une surface vide, nous
+        n’avons pas de lien actif&nbsp;:</p>
+    <div class="image">
+        <div class="mediaobject"><img class="imagedata picturebox" alt="images/C06-039.png" title="images/C06-039.png"
+                src="images/C06-039.png?id=AAEAAAD%2f%2f%2f%2f%2fAQAAAAAAAAAMAgAAAE1FbmkuRWRpdGlvbnMuTWVkaWFwbHVzLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAJ0VuaS5FZGl0aW9ucy5NZWRpYXBsdXMuQ29tbW9uLldhdGVybWFyawIAAAAHcGlzVGV4dAlwaWR0ZURhdGUBAA0CAAAABgMAAAA9T3VlbGxldCBNYXJpZS1NaWNoZWxsZSAtIDhlOWE1YzVjLWI1MTMtNGQxMy1hODU3LTFjNDA3MDQ2MDVhOamN4X%2bnUN2ICw%3d%3d">
+        </div>
+    </div>
+    <p class="defaut">Pour résoudre ce problème,
+        nous allons appliquer un affichage flexible à nos articles, <span class="courier11">&lt;article
+            class="carte"&gt;</span>.
+        Ainsi les éléments enfants de ce conteneur, le
+        seul élément <span class="courier11">&lt;a&gt;</span> dans
+        cette structure, auront automatiquement un comportement flexible.
+        Et par défaut toute la surface des éléments
+        enfants flexibles est utilisée. Donc par conséquent,
+        toute la surface de l’élément <span class="courier11">&lt;a&gt;</span> sera
+        active pour l’utilisation des liens.</p>
+    <p class="defaut">Donc ajoutons cette propriété à la
+        règle <span class="courier11">.carte</span>&nbsp;:</p>
+    <highlight lang='css'>.carte {
+        flex: 0 0 48%;
+        display: flex;
+        } </highlight>
+
+
+
+    <p class="defaut">Maintenant, toute la surface des articles
+        est utilisable pour les liens&nbsp;:</p>
+    <div class="image">
+        <div class="mediaobject"><img class="imagedata picturebox" alt="images/C06-040.png" title="images/C06-040.png"
+                src="images/C06-040.png?id=AAEAAAD%2f%2f%2f%2f%2fAQAAAAAAAAAMAgAAAE1FbmkuRWRpdGlvbnMuTWVkaWFwbHVzLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAJ0VuaS5FZGl0aW9ucy5NZWRpYXBsdXMuQ29tbW9uLldhdGVybWFyawIAAAAHcGlzVGV4dAlwaWR0ZURhdGUBAA0CAAAABgMAAAA9T3VlbGxldCBNYXJpZS1NaWNoZWxsZSAtIDhlOWE1YzVjLWI1MTMtNGQxMy1hODU3LTFjNDA3MDQ2MDVhOamN4X%2bnUN2ICw%3d%3d">
+        </div>
+    </div>
+    <p class="defaut">Pour ajouter une petite interaction au survol
+        des liens, nous pouvons ajouter cette règle CSS dans les
+        règles communes&nbsp;:</p>
+    <highlight lang='css'>.carte:hover {
+        box-sizing: border-box;
+        border: 2px solid #aaa;
+        } </highlight>
+
+
+
+
+
+    <p class="defaut">Nous ajoutons une bordure pleine de 2 pixels
+        d’épaisseur et de couleur grise, <span class="courier11">border:
+            2px solid #aaa</span>. Pour éviter le décalage
+        engendré par cette bordure, il faut changer le mode d’affichage
+        et de calcul des dimensions des boîtes avec <span class="courier11">box-sizing: border-box</span>.</p>
+    <p class="defaut">Voici l’affichage obtenu :</p>
+    <div class="image">
+        <div class="mediaobject"><img class="imagedata picturebox" alt="images/C06-041.png" title="images/C06-041.png"
+                src="images/C06-041.png?id=AAEAAAD%2f%2f%2f%2f%2fAQAAAAAAAAAMAgAAAE1FbmkuRWRpdGlvbnMuTWVkaWFwbHVzLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAJ0VuaS5FZGl0aW9ucy5NZWRpYXBsdXMuQ29tbW9uLldhdGVybWFyawIAAAAHcGlzVGV4dAlwaWR0ZURhdGUBAA0CAAAABgMAAAA9T3VlbGxldCBNYXJpZS1NaWNoZWxsZSAtIDhlOWE1YzVjLWI1MTMtNGQxMy1hODU3LTFjNDA3MDQ2MDVhOamN4X%2bnUN2ICw%3d%3d">
+        </div>
+    </div>
+</div>
+<div class="sect2" id="refTitle5">
+    <h2 class="title">6. Le code complet de cet exemple</h2>
+    <p class="defaut">Voici le code complet de cet exemple :</p>
+
+    <highlight lang='html'>
+        <!doctype html>
+        <html lang="fr">
+
+        <head>
+            <meta charset="UTF-8">
+            <title>Ma page web</title>
+            <style>
+            /* Mise en page générale */
+            body {
+                background-color: #eee;
+            }
+
+            .centre {
+                width: 75%;
+                margin: 0 auto;
+            }
+
+            /* Mise en page de l'en-tête */
+            header {
+                background-color: #000;
+                text-align: center;
+                color: #FFF;
+            }
+
+            h1 {
+                padding: 10px;
+            }
+
+            /* Mise en forme des pavés */
+            article {
+                background-color: #FFF;
+                margin-bottom: 10px;
+            }
+
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+
+            .carte:hover {
+                box-sizing: border-box;
+                border: 2px solid #aaa;
+            }
+
+            figure {
+                margin: 0;
+            }
+
+            img {
+                max-width: 100%;
+            }
+
+            figcaption {
+                text-align: center;
+                font-style: italic;
+            }
+
+            h2 {
+                margin-top: 5px;
+                padding: 5px;
+                text-align: center;
+                font-size: 1em;
+                background-color: #ccc;
+            }
+
+            p {
+                padding: 10px;
+                background-color: #FFF;
+            }
+
+            /* Mise en page flexible et responsive */
+            @media screen and (min-width: 600px) {
+
+                /* Taille d'écran moyenne */
+                .cartes {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                }
+
+                .carte {
+                    flex: 0 0 48%;
+                    display: flex;
+                }
+            }
+
+            @media screen and (min-width: 1200px) {
+
+                /* Taille d'écran grande */
+                .carte {
+                    flex: 0 0 32%;
+                }
+            }
+            </style>
+        </head>
+
+        <body>
+            <header class="centre">
+                <h1>Des photos de Venise</h1>
+            </header>
+            <main class="centre cartes">
+                <article class="carte">
+                    <a href="#">
+                        <figure>
+                            <img src="images/venise-01.jpg" alt="Venise">
+                            <figcaption>La pointe de Dosoduro</figcaption>
+                        </figure>
+                        <div class="contenu">
+                            <h2>Nullam Sollicitudin Tortor</h2>
+                            <p>Cum sociis natoque penatibus...</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="carte">
+                    <a href="#">
+                        <figure>
+                            <img src="images/venise-02.jpg" alt="Venise">
+                            <figcaption>Les canaux</figcaption>
+                        </figure>
+                        <div class="contenu">
+                            <h2>Egestas Tortor Amet Ullamcorper</h2>
+                            <p>Aenean lacinia bibendum...</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="carte">
+                    <a href="#">
+                        <figure>
+                            <img src="images/venise-03.jpg" alt="Venise">
+                            <figcaption>Les canaux</figcaption>
+                        </figure>
+                        <div class="contenu">
+                            <h2>Justo Euismod Fringilla Amet Cursus</h2>
+                            <p>Maecenas sed diam eget risus...</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="carte">
+                    <a href="#">
+                        <figure>
+                            <img src="images/venise-04.jpg" alt="Venise">
+                            <figcaption>Des palais sur le Grand Canal
+                            </figcaption>
+                        </figure>
+                        <div class="contenu">
+                            <h2>Vehicula Consectetur Sit Justo</h2>
+                            <p>Lorem ipsum dolor sit amet...</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="carte">
+                    <a href="#">
+                        <figure>
+                            <img src="images/venise-05.jpg" alt="Venise">
+                            <figcaption>Le Palais des Doges</figcaption>
+                        </figure>
+                        <div class="contenu">
+                            <h2>Sem Venenatis Nullam Sollicitudin</h2>
+                            <p>Duis mollis, est non commodo...</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="carte">
+                    <a href="#">
+                        <figure>
+                            <img src="images/venise-06.jpg" alt="Venise">
+                            <figcaption>Des palais sur le Grand Canal
+                            </figcaption>
+                        </figure>
+                        <div class="contenu">
+                            <h2>Nullam Fermentum Ridiculus Cursus</h2>
+                            <p>Vestibulum id ligula porta...</p>
+                        </div>
+                    </a>
+                </article>
+            </main>
+        </body>
+
+        </html>
+
+
+    </highlight>
+
+
+</div>
+
+
+
+
+<p>Aperçu du résultat 👇</p>
+
+
+<dots></dots>
+
+
+<grostitre>Matériel</grostitre>
+
+
+<grostitre>Requis </grostitre>
+
+<checklist>
+    c
+</checklist>
+
+<dots></dots>
+
+
+<grostitre>Notes de cours 📚</grostitre>
+
+
+<dots></dots>

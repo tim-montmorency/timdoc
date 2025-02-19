@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ma page web</title>
+		<style>
+			#nav-bar {
+				display: flex;
+				flex-flow: row nowrap;
+				justify-content: flex-start;
+				width: 600px;
+				background-color: #ccc;
+			}
+			#nav-bar a {
+				margin-right: 10px;
+				padding: 10px;
+				text-decoration: none;
+				color: #000;
+			}
+			#nav-bar a:hover {
+				background-color: #000;
+				color: #FFF;
+			}
+			#nav-bar a.perso {
+				margin-left: auto;
+				margin-right: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<nav id="nav-bar">
+			<a href="#">Accueil</a>
+			<a href="#">Projets</a>
+			<a href="#">Réalisations</a>
+			<a href="#">Equipe</a>
+			<a href="#" class="perso">Espace personnel</a>
+		</nav>
+	</body>
+</html>

@@ -9,7 +9,13 @@
 
 ?>
 
+<grostitre>Allons d'abord un peu dans Figma...</grostitre>
+<p>Demo en classe</p>
+<!-- https://www.figma.com/design/34nTCDdlsWcFr8GDjVDQXk/CSS-Flexbox---Demo-Figma?node-id=0-1&p=f&t=qdcS4kdkpY0HKK1N-0 
+ -->
 
+
+<dots></dots>
 <grostitre>flex-wrap</grostitre>
 
 <p>Par défaut, flex essaie de tout afficher sur une même ligne.</p>
@@ -180,7 +186,13 @@
 <exercice href="./exercices/flexbox-zombie-chapitre-11/"></exercice><br>
 
 
+
+<dots></dots>
 <tool href="./tools/css-tricks-guide-flexbox/"></tool>
 
+<doclink href='https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/'>Autre guide intéressant de flexbox</doclink>
+
+
+<dots></dots>
 <exercice href="./exercices/flexbox-froggy-niveau-18-a-24/"></exercice><br>
 <exercice href="./exercices/flexbox-zombie-chapitre-12/"></exercice><br>

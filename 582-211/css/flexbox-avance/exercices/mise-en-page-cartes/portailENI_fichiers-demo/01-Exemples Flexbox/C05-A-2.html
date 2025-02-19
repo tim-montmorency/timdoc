@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ma page web</title>
+		<style>
+			/* Propriétés communes pour tous les écrans */
+			/* et pour les smartphones */
+			#nav-bar {
+				display: flex;
+				flex-direction: column;
+				background-color: #ccc;
+			}
+			#nav-bar a {
+				padding: 10px;
+				text-decoration: none;
+				color: #000;
+			}
+			#nav-bar a:hover {
+				background-color: #000;
+				color: #FFF;
+			}
+			/* Propriétés pour les grands écrans */
+			@media screen and (min-width: 350px) {
+				#nav-bar {
+					flex-flow: row wrap;
+				}
+				#nav-bar a {
+					flex: 1 0 auto;
+					text-align: center;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<nav id="nav-bar">
+			<a href="#">Accueil</a>
+			<a href="#">Projets</a>
+			<a href="#">Réalisations</a>
+			<a href="#">Equipe</a>
+			<a href="#">Contactez-nous</a>
+			<a href="#">Rejoignez-nous</a>
+			<a href="#">Espace personnel</a>
+		</nav>
+	</body>
+</html>

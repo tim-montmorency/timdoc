@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ma page web</title>
+		<style>
+			/* Structure */
+			body {
+				display: flex;
+				min-height: 100vh;
+			}
+			nav {
+				flex: 1;
+			}
+			nav, aside {
+				width: 50em;
+			}
+			#contenu {
+				flex: 6;
+				display: flex;
+				flex-direction: column;
+			}
+			header, footer {
+				min-height: 20vh;
+			}
+			main {
+				display: flex;
+			}
+			article {
+				flex: 3;
+				min-height: 60vh;
+			}
+			aside {
+				flex: 1;
+			}
+			/* Mise en forme */
+			body {
+				margin: 0;
+			}
+			nav {
+				background-color: lightblue;
+			}
+			nav ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+			nav a {
+				text-decoration: none;
+				color: black;
+			}
+			nav, aside, article {
+				padding: 10px;
+			}
+			header, footer {
+				background-color: aquamarine;
+			}
+			header h1, footer p {
+				text-align: center;
+			}
+			aside {
+				background-color: bisque;
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<h3>Tellus Dolor Nullam</h3>
+			<ul>
+				<li><a href="#">Nullam</a></li>
+				<li><a href="#">Curabitur</a></li>
+				<li><a href="#">Aenean</a></li>
+				<li><a href="#">Donec</a></li>
+				<li><a href="#">Lorem</a></li>
+				<li><a href="#">Cras</a></li>
+			</ul>
+		</nav>
+		<div id="contenu">
+			<header>
+				<h1>Sit Magna Fusce Parturient</h1>
+			</header>
+			<main>
+				<article>
+					<h2>Inceptos Egestas Fringilla Fermentum</h2>
+					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+					<h3>Fringilla Justo Nullam</h3>
+					<p>Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum.</p>
+					<h3>Consectetur Amet Mollis Dapibus</h3>
+					<p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</article>
+				<aside>
+					<h3>Venenatis Tristique Adipiscing</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+				</aside>
+			</main>
+			<footer>
+				<p>Aenean lacinia bibendum nulla sed consectetur.</p>
+			</footer>
+		</div>
+	</body>
+</html>

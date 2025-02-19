@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Ma page web</title>
+		<style>
+			body {
+				padding: 50px;
+			}
+			#conteneur {
+				/* Grille de mise en page */
+				display: grid;
+				grid-template-columns: repeat(3,100px);
+				grid-template-rows: repeat(3, 100px);
+				gap: 10px;
+				place-items: center;
+				/* Mise en forme */
+				width: 320px;
+				padding: 10px;
+				border: 1px solid #000;
+				background-color: #eee;
+			}
+			p {
+				margin: 0;
+				padding: 5px;
+				border: 1px solid #000;
+				background-color: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="conteneur">
+			<p><b>Un</b></p>
+			<p><b>Deux</b></p>
+			<p><b>Trois</b></p>
+			<p><b>Quatre</b></p>
+			<p><b>Cinq</b></p>
+			<p><b>Six</b></p>
+			<p><b>Sept</b></p>
+			<p><b>Huit</b></p>
+			<p><b>Neuf</b></p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Ma page web</title>
+		<style>
+			/* Mise en page */
+			#conteneur {
+				display: grid;
+				grid-template-columns: repeat(4, 1fr);
+				grid-template-rows: repeat(6, 1fr);
+				grid-gap: 10px;
+				width: 90%;
+				margin: auto;
+			}
+			header, footer {
+				grid-column: span 4;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			nav {
+				grid-row: span 4;
+				display: flex;
+				flex-direction: column;
+			}
+			div#b1, div#b4 {
+				grid-column: span 2;
+			}
+			div#b8 {
+				grid-column: span 3;
+			}
+			/* Mise en forme */
+			#conteneur > * {
+				margin: 0;
+				padding: 5px;
+				background-color: #eee;
+			}
+			#conteneur a {
+				text-decoration: none;
+				color: #000;
+				margin-bottom: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<main id="conteneur">
+			<header>
+				<h1>Parturient Consectetur Tellus Sit</h1>
+			</header>
+			<nav>
+				<a href="#">Parturient</a>
+				<a href="#">Consectetur</a>
+				<a href="#">Tellus</a>
+				<a href="#">Inceptos</a>
+				<a href="#">Vehicula</a>
+			</nav>
+			<div id="b1">1. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</div>
+			<div id="b2">2. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</div>
+			<div id="b3">3. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod.</div>
+			<div id="b4">4. Donec sed odio dui. Curabitur blandit tempus porttitor.</div>
+			<div id="b5">5. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis.</div>
+			<div id="b6">6. Curabitur blandit tempus porttitor. Donec sed odio dui.</div>
+			<div id="b7">7. Nullam quis risus eget urna mollis ornare vel eu leo.</div>
+			<div id="b8">8. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</div>
+			<footer>
+				<h3>Parturient Consectetur Tellus Sit</h3>
+			</footer>
+		</main>
+	</body>
+</html>

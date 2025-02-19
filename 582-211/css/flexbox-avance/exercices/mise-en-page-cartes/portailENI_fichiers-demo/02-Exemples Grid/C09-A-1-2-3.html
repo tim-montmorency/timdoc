@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Ma page web</title>
+		<style>
+			body {
+				padding: 50px;
+			}
+			#conteneur {
+				/* Grille de mise en page */
+				display: grid;
+				grid-template-columns: repeat(3,100px);
+				grid-auto-flow: column;
+				grid-auto-columns: 100px;
+				/* Mise en forme */
+				width: 450px;
+				border: 1px solid #000;
+			}
+			p {
+				margin: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="conteneur">
+			<p>Un</p>
+			<p>Deux</p>
+			<p>Trois</p>
+			<p>Quatre</p>
+			<p>Cinq</p>
+			<p>Six</p>
+			<p>Sept</p>
+			<p>Huit</p>
+			<p>Neuf</p>
+			<p>Dix</p>
+		</div>
+	</body>
+</html>

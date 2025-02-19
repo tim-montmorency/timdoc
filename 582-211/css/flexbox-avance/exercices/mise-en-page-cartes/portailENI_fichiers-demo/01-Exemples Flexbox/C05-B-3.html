@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ma page web</title>
+		<style>
+			.conteneur {
+				display: flex;
+				justify-content: space-around;
+				width: 600px;
+				height: 300px;
+			}
+			.billet { 
+				display: flex;
+				flex-direction: column;
+				width: 250px;
+				border: 1px solid #000;
+				border-radius: 10px;
+				background-color: #eee;
+			}
+			.contenu {
+				flex: 1;
+				margin: 0;
+				padding: 10px;
+				background-color: #fff;
+			}
+			.en-tete, .pied-page {
+				padding: 5px;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="conteneur">
+			<article class="billet">
+				<header class="en-tete">Premier en-tête</header>
+				<p class="contenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum.</p>
+				<footer class="pied-page">Premier pied de page</footer>
+			</article>
+			<article class="billet">
+				<header class="en-tete">Deuxième en-tête</header>
+				<p class="contenu">Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+				<footer class="pied-page">Deuxième pied de page</footer>
+			</article>
+		</div>
+	</body>
+</html>

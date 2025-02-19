@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Ma page web</title>
+		<style>
+			body {
+				padding: 20px;
+				font-size: 16px;
+			}
+			#conteneur {
+				display: grid;
+				grid-template-columns: repeat (7, 1fr);
+				grid-template-rows: repeat(6, 14vh);
+				gap: 10px;
+				width: 80%;
+				margin: auto;
+			}
+			#conteneur :nth-child(1){
+				grid-column: 1/3;
+				grid-row: 1/3;
+			}
+			#conteneur :nth-child(2){
+				grid-column: 3/5;
+				grid-row: 1/3;
+			}
+			#conteneur :nth-child(3){
+				grid-column: 5/8;
+				grid-row: 1/5;
+			}
+			#conteneur :nth-child(4){
+				grid-column: 1/5;
+				grid-row: 3/5;
+			}
+			#conteneur :nth-child(5){
+				grid-column: 1/8;
+				grid-row: 5/7;
+			}
+			figure {
+				margin: 0;
+				position: relative;
+			}
+			.image {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				box-sizing: border-box;
+				border: 10px solid #000;
+			}
+			figcaption {
+				position: absolute;
+				bottom: 10px;
+				left: 10px;
+				padding: 3px 10px 0 10px;
+				font-size: calc(.3rem + 0.8vw);
+				color: #fff;
+				background-color: rgba(255, 255, 255, .5);
+			}
+		</style>
+	</head>
+	<body>
+		<div id="conteneur">
+			<figure>
+				<img src="images/venise-1.jpg" alt="Venise" class="image">
+				<figcaption>Commodo Condimentum Pharetra</figcaption>
+			</figure>
+			<figure>
+				<img src="images/venise-2.jpg" alt="Venise" class="image">
+				<figcaption>Ligula Cras Vulputate</figcaption>
+			</figure>
+			<figure>
+				<img src="images/venise-3.jpg" alt="Venise" class="image">
+				<figcaption>Fermentum Ligula Parturient</figcaption>
+			</figure>
+			<figure>
+				<img src="images/venise-4.jpg" alt="Venise" class="image">
+				<figcaption>Consectetur Sem Aenean</figcaption>
+			</figure>
+			<figure>
+				<img src="images/venise-5.jpg" alt="Venise" class="image">
+				<figcaption>Mattis Commodo Risus</figcaption>
+			</figure>
+		</div>
+	</body>
+</html>

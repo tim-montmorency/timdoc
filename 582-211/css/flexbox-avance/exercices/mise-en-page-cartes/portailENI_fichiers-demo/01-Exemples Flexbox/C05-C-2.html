@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ma page web</title>
+		<style>
+			.conteneur {
+				list-style-type: none;
+				padding: 0;
+				border: 1px solid #aaa;
+				border-radius: 5px;
+				background-color: #eee;
+			}
+			.champs * {
+				font-family: helvetica;
+				font-size: 1em;
+			}
+			.champs {
+				display: flex;
+				justify-content: flex-end;
+				padding: 10px;
+			}
+			.champs > label {
+				flex: 1;
+			}
+			.champs > input {
+				flex: 2;
+			}
+			.champs > * {
+				padding: 5px;
+			}
+			#envoyer, #annuler {
+				flex: 0 0 100px;
+				background-color: #777;
+				color: #fff;
+				border: none;
+				border-radius: 3px;
+				margin-left: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<ul class="conteneur">
+				<li class="champs">
+					<label for="nom">Nom :</label>
+					<input type="text" id="nom">
+				</li>
+				<li class="champs">
+					<label for="prenom">Prénom :</label>
+					<input type="text" id="prenom">
+				</li>
+				<li class="champs">
+					<label for="email">Addresse mail :</label>
+					<input type="email" id="email">
+				</li>
+				<li class="champs">
+					<input type="submit" id="envoyer" value="Envoyer">
+					<input type="reset" id="annuler" value="Annuler">
+				</li>
+			</ul>
+		</form>
+	</body>
+</html>
