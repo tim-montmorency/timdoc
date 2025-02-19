@@ -9,15 +9,6 @@
 
 ?>
 
-<grostitre>Comprendre Flexbox via le <em>Dev&nbsp;mode</em> dans Figma</grostitre>
-<youtube src="Pi6MipIG5iI"></youtube>
-<small>En anglais mais vous pouvez ajouter les sous-titres français.</small>
-
-<dots></dots>
-<h3>Extention à installer maintenant sur vos Visual Studio Code</h3>
-<tool href="tools/figma-for-vscode/"></tool>
-
-<dots></dots>
 
 <grostitre>flex-wrap</grostitre>
 

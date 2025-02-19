@@ -322,6 +322,11 @@
     <intlink href="../css/exercices/little-richard-here-s-little-richard/"></intlink> <!-- google font, text etc -->
     <intlink href="../css/exercices/band-de-garage-corpo-trash-vidange/"></intlink> <!-- google font, text etc -->
 
+
+
+
+
+
     <dots></dots>
     <grostitre>Devoirs</grostitre>
     <p>Si non terminés en classe, voici les exercices à terminer obligatoirement pour le prochain cours:</p>
@@ -352,26 +357,94 @@
  \_____\___/ \__,_|_|  |___/ |____/ 
                                                           
 ---------------->
-<wiki-page name="Cours 05" date="2025-02-19">
+<wiki-page name="Cours 05" date="2025-02-18">
+
+    <warning>
+        <h3>Tempête de neige et changement au calendrier</h3>
+        <div class="red-label">Ce qui était prévu dans le plan de cours</div>
+        <ul>
+            <li><s>COURS 5: 19-20 février</s></li>
+            <li><s>EXAMEN 1 : 26-27 février</s> <br><small>En raison de la tempête de neige, le cours 4 du groupe du jeudi a été reporté à ce jeudi 20 février. Comme nous devons couvrir le contenu du cours 1 à 5 pour TOUS les groupes avant l'examen, et que je veux m'assurer que tous passent l'examen la même semaine, voici les changements au calendrier:</small>
+            </li>
+        </ul>
+        <div class="red-label">Nouvelles dates</div>
+        <ul>
+            <li>Groupe du jeudi | cours 4 : jeudi 20 février</li>
+            <li>Groupe du jeudi | cours 5 : jeudi 27 février</li>
+            <li>Groupe du mercredi | cours 5 : merc. 19 février</li>
+            <li>Groupe du mercredi | cours 6 : merc. 26 février</li>
+            <li>EXAMEN 1 : 12 et 13 mars
+                <br> <small>Notez que l'examen ne couvrira que le cours 1 à 5 même si le groupe du mercredi auront eu le cours 6 d'ici là.</small>
+            </li>
+        </ul>
+    </warning>
+
+
+
+    <dots></dots>
     <grostitre>Contenu du jour</grostitre>
+    <ul>
+        <li>Flexbox avancé: flex-wrap, align-content, flex, flex-flow</li>
+        <li>Les variables CSS</li>
+        <li>Les pseudo-classes avancées qui introduisent des nuances dans la sélection d'éléments en fonction de critères spécifiques.</li>
+    </ul>
 
-    <!-- COURS: https://chatgpt.com/share/67aebd86-b458-8004-9029-a521f4518f31  -->
+    
+    <dots></dots>
+    <grostitre>Quiz</grostitre>
 
 
 
+    <dots></dots>
+    <grostitre>Révision exercices du cours 4 (dernier cours)</grostitre>
+    <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
+    <intlink href="../css/google-fonts/exercices/bart/"></intlink>
+    <intlink href="../css/font-face/exercices/la-guerre-la-guerre/"></intlink>
+
+
+    <dots></dots>
     <grostitre>Flexbox avancé</grostitre>
-
-    <intlink href="../css/flexbox-figma-auto-layout"></intlink>
-    <p>figma for vs code + figma dev mode</p>
     <intlink href='../css/flexbox-avance/'></intlink>
+
     <h3>Exercices</h3>
-    <intlink href='../css/exercices/flexbox-figma-devmode/'></intlink>
+    <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-9/'></intlink>
+    <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-10/'></intlink>
+    <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-11/'></intlink>
 
 
+    <dots></dots>
+    <grostitre>Variables CSS</grostitre>
+    <intlink href='../css/variables/'></intlink>
 
-    <!-- DÉBUT À placer à quelques part (pas nécessairement àa ce cours ci) -->
-    <intlink href="../html/emmet/"></intlink>
-    <intlink href="../html/emmet/exercices/page-web-emmet/"></intlink>
+    <h3>Exercices</h3>
+    <intlink href='../css/variables/exercices/jidddf/'></intlink>
+    <intlink href='../css/variables/exercices/canadiens/'></intlink>
+    <intlink href='../css/variables/exercices/lakers/'></intlink>
+
+
+    <dots></dots>
+    <grostitre>Pseudo-classes avancées</grostitre>
+    <intlink href='../css/pseudo-classes-avancees/'></intlink>
+
+    <h3>Exercices</h3>
+    <intlink href='../css/pseudo-classes-avancees/exercices/css-diner/'></intlink>
+ 
+
+    
+
+    <dots></dots>
+    <grostitre>Devoirs</grostitre>
+    <p>Complétez les exercices du cours 5 non complétés en classe.</p>
+    <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-9/'></intlink>
+    <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-10/'></intlink>
+    <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-11/'></intlink>
+.
+    <intlink href='../css/variables/exercices/jidddf/'></intlink>
+    <intlink href='../css/variables/exercices/canadiens/'></intlink>
+    <intlink href='../css/variables/exercices/lakers/'></intlink>
+.
+    <intlink href='../css/pseudo-classes-avancees/exercices/css-diner/'></intlink>
+ 
 
 
 </wiki-page>
@@ -389,6 +462,23 @@
                                     
 ----------------------------------->
 <wiki-page name="Cours 06" date="2025-02-26">
+
+
+<grostitre>Emmet</grostitre>
+
+    <!-- DÉBUT À placer à quelques part (pas nécessairement àa ce cours ci) -->
+    <intlink href="../html/emmet/"></intlink>
+    <intlink href="../html/emmet/exercices/page-web-emmet/"></intlink>
+
+
+
+ <!-- COURS: https://chatgpt.com/share/67aebd86-b458-8004-9029-a521f4518f31  -->
+    
+    <grostitre>Flexbox avancé avec Figma et devmode</grostitre>
+    L’outil Dev Mode dans Figma.  L’outil Figma for VS Code. 
+    <intlink href="../css/flexbox-figma-auto-layout"></intlink>
+    <p>figma for vs code + figma dev mode</p>
+
     
 
 <intlink href="../css/pseudo-classes-avancees/"></intlink>
@@ -397,11 +487,6 @@
     <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
     <intlink href="../css/overflow/"></intlink>
     <intlink href="../css/overflow/exercices/eclipses/"></intlink>
-
-    <ul>
-
-        <li>Les pseudo-classes avancées qui introduisent des nuances dans la sélection d'éléments en fonction de critères spécifiques.</li>
-    </ul>
 
 
     <intlink href="../css/imbrication-css-intro/"></intlink>
@@ -665,14 +750,21 @@
 
     <dots></dots>
     <grostitre>Tutorat</grostitre>
+    <p>En plus des périodes hebdomadaires, 2 groupes d'études pré-examens sont prévus spécifiquement pour le cours Web2, chapeauté par un tuteur de 2e année: Elie Daher. Dates:</p>
+    <ul>
+        <li>Groupe pour examen 1 - <span class="red-label">Mardi 11 mars entre 11h50 à 14h20.</span> L'examen sera le merc. 12 et jeudi 13 mars.</li>
+        <li>Groupe pour examen 2 - <span class="red-label">Mardi 8 mars entre 11h50 à 14h20.</span> L'examen sera le merc. 9 et jeudi 10 avril.</li>
+    </ul>
+
+
+    
     <p>L'<a href="https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/" target="_blank" rel="noopener noreferrer">horaire</a> du tutorat de cette session.</p>
     <ul>
         <li>Lundi de 19h30 à 21h10 | EN LIGNE | Tuteur : Elie Daher (peut aider les étudiants de 1ère et 2e année)</li>
         <li>Mardi de 11h50 à 14h20 | EN PRÉSENCE AU C1602 | Tuteur : Émeryk Bélisle (peut aider les étudiants de 1ère et 2e année)</li>
         <li>Mercredi de 19h30 à 21h10 | EN LIGNE | Tutrice : Justine Rousseau (peut aider les étudiants de 1ère, 2e et 3e année)</li>
-        <li>Lundi de 19h30 à 21h10 | EN PRÉSENCE AU C1602 | Tutrice : Sarah Muller François (peut aider les étudiants de 1ère et 2e année)</li>
+        <li>Jeudi de 19h30 à 21h10 | EN PRÉSENCE AU C1602 | Tutrice : Sarah Muller François (peut aider les étudiants de 1ère et 2e année)</li>
         <li>Dimanche de 19h30 à 21h10 | EN LIGNE | Tuteur : Maïk Hamel  (peut aider les étudiants de 1ère, 2e et 3e année)</li>
-    
     </ul>
 
     <h3>TUTORAT EN LIGNE SELON L’HORAIRE</h3>
