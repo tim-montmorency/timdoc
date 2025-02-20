@@ -260,6 +260,28 @@
                                      
 ----------------->
 <wiki-page name="Cours 04" date="2025-02-11">
+
+    <warning>
+        <h3>Tempête de neige et changement au calendrier</h3>
+        <div class="red-label">Ce qui était prévu dans le plan de cours</div>
+        <ul>
+            <li><s>COURS 5: 19-20 février</s></li>
+            <li><s>EXAMEN 1 : 26-27 février</s> <br><small>En raison de la tempête de neige, le cours 4 du groupe du jeudi a été reporté à ce jeudi 20 février. Comme nous devons couvrir le contenu du cours 1 à 5 pour TOUS les groupes avant l'examen, et que je veux m'assurer que tous passent l'examen la même semaine, voici les changements au calendrier:</small>
+            </li>
+        </ul>
+        <div class="red-label">Nouvelles dates</div>
+        <ul>
+            <li>Groupe du jeudi | cours 4 : jeudi 20 février</li>
+            <li>Groupe du jeudi | cours 5 : jeudi 27 février</li>
+            <li>Groupe du mercredi | cours 5 : merc. 19 février</li>
+            <li>Groupe du mercredi | cours 6 : merc. 26 février</li>
+            <li>EXAMEN 1 : 12 et 13 mars
+                <br> <small>Notez que l'examen ne couvrira que le cours 1 à 5 même si le groupe du mercredi auront eu le cours 6 d'ici là.</small>
+            </li>
+        </ul>
+    </warning>
+
+
     <grostitre>Contenu du jour</grostitre>
     <ul>
         <li>Sélecteurs CSS avancés</li>
@@ -330,6 +352,7 @@
     <dots></dots>
     <grostitre>Devoirs</grostitre>
     <p>Si non terminés en classe, voici les exercices à terminer obligatoirement pour le prochain cours:</p>
+    <intlink href="../css/selecteurs-avances/exercices/css-diner/"></intlink>
     <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
     <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
 .
