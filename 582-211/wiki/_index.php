@@ -282,6 +282,8 @@
     </warning>
 
 
+
+
     <grostitre>Contenu du jour</grostitre>
     <ul>
         <li>Sélecteurs CSS avancés</li>
@@ -290,8 +292,7 @@
     </ul>
 
 
-
-    <dots></dots>
+<!--    <dots></dots>
     <grostitre>Révision</grostitre>
     <h3>Révision exercices obligatoires des cours 2 et 3</h3>
     <p><small><em>Flexbox zombies</em>, <em>froggy</em>, <em>defense</em> ainsi que les <em>exercices de l'inspecteur</em> de la semaine dernière ne vous permettent pas d'avancer avant que vous ayez la bonne solution. Dans ce cas, je considère que vous apprenez à mesure de vos erreurs dans ce contexte, il n'est donc pas nécessaire qu'on révise ensemble. Pour les autres, afin de s'assurer qu'on est tous alignés, il est important de réviser ensemble. Je vous demande d'ouvrir tous ces exercices complétés dans différents onglets.</small></p>
@@ -304,7 +305,8 @@
     <h4>Cours 3</h4>
     <intlink href='../css/exercices/flexbox-poesie-hiver/'></intlink>
     <intlink href="../css/exercices/flexbox-pony/"></intlink>
-
+ -->
+  
 
 
     <dots></dots>
@@ -339,10 +341,6 @@
     <!-- Exercices -->
     <intlink href="../css/exercices/moby-i-like-to-score/"></intlink> <!-- Pseudo classe de descendance -->
     <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink> <!-- text, typo fontface etc -->
-
-    <h4>Si vous avez fini les autres, continuez sur ceux-ci</h4>
-    <intlink href="../css/exercices/little-richard-here-s-little-richard/"></intlink> <!-- google font, text etc -->
-    <intlink href="../css/exercices/band-de-garage-corpo-trash-vidange/"></intlink> <!-- google font, text etc -->
 
 
 
@@ -422,15 +420,12 @@
     </ol>
     
     
-
-
-
     <dots></dots>
     <grostitre>Révision exercices du cours 4 (dernier cours)</grostitre>
-    <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
-    <intlink href="../css/google-fonts/exercices/bart/"></intlink>
+    <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>  <!-- Groupe 1 et 2 ça a été révisé -->
+    <intlink href="../css/google-fonts/exercices/bart/"></intlink> <!-- Groupe 2 ça a été révisé -->
     <intlink href="../css/font-face/exercices/la-guerre-la-guerre/"></intlink>
-    <intlink href="../css/exercices/moby-i-like-to-score/"></intlink> 
+    <intlink href="../css/exercices/moby-i-like-to-score/"></intlink>  <!-- Groupe 2 ça a été révisé -->
     <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink> 
 
 
@@ -516,6 +511,12 @@
     L’outil Dev Mode dans Figma.  L’outil Figma for VS Code. 
     <intlink href="../css/flexbox-figma-auto-layout"></intlink>
     <p>figma for vs code + figma dev mode</p>
+
+
+    <h4>Si vous avez fini les autres, continuez sur ceux-ci</h4>
+    <intlink href="../css/exercices/little-richard-here-s-little-richard/"></intlink> <!-- google font, text etc -->
+    <intlink href="../css/exercices/band-de-garage-corpo-trash-vidange/"></intlink> <!-- google font, text etc -->
+
 
     
 
