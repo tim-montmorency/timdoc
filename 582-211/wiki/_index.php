@@ -525,10 +525,10 @@
     <h4>GROUPE 1 (merc AM)</h4>
     <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
     <intlink href="../css/google-fonts/exercices/bart/"></intlink>
+    <intlink href="../css/exercices/moby-i-like-to-score/"></intlink> 
 
     <h4>GROUPE 1 et 2 (merc AM et PM)</h4>
     <intlink href="../css/font-face/exercices/la-guerre-la-guerre/"></intlink>
-    <intlink href="../css/exercices/moby-i-like-to-score/"></intlink> 
     <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink> 
     <intlink href='../css/variables/exercices/canadiens/'></intlink>
     <intlink href='../css/variables/exercices/lakers/'></intlink>

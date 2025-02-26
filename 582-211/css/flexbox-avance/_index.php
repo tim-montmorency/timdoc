@@ -134,8 +134,8 @@
 <p>Par exemple, si un élément à les propriétés:</p>
 
 <highlight lang="css">flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 25%;</highlight>
+flex-shrink: 0;
+flex-basis: 25%;</highlight>
 
 <p>Il est possible de faire l'équivalent simplement via:</p>
 
@@ -164,7 +164,7 @@
 <p>Par exemple:</p>
 
 <highlight lang="css">flex-direction: row-reverse;
-    flex-wrap: wrap;</highlight>
+flex-wrap: wrap;</highlight>
 
 <p>est équivalent à</p>
 

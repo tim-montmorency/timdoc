@@ -60,7 +60,7 @@
   Le fond de la page doit avoir un dégradé allant de <em>mauve foncé</em> à <em>mauve pâle</em>.
   Le <span class="inline-code">.wrapper</span> doit avoir une largeur de 900px.
   Les images des personnages doivent avoir une hauteur de 350px.
-  Faites en sorte que la souris flotte à gauche et le chien à droite.
+  Faites en sorte que la souris se positionne à gauche et le chien à droite (order de flexbox).
 </checklist>
 
 <dots></dots>
@@ -70,6 +70,6 @@
 
 <intlink href="../../../media-queries/"></intlink>
 <intlink href="../../../linear-gradient/"></intlink>
-<intlink href="../../../float/"></intlink>
+<intlink href="../../../flexbox-avance/"></intlink>
 
 <dots></dots>
