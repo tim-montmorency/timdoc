@@ -530,6 +530,8 @@
     <dots></dots>
     <grostitre>Responsive design et media queries </grostitre>
     <intlink href="../css/responsive/"></intlink>
+
+    <doclink href='https://blog.froont.com/9-basic-principles-of-responsive-web-design/'>Lecture obligatoire: 9 principes de base de la conception Web réactive</doclink> <br>
     <intlink href="../css/media-queries/"></intlink>
     <intlink href="../css/unites-de-mesure-avancees/"></intlink>
     <intlink href="../css/overflow/"></intlink>
@@ -538,8 +540,9 @@
     <h3>Exercices responsive et media queries</h3>
     <intlink href="../css/media-queries/exercices/modok/"></intlink>
     <intlink href="../css/media-queries/exercices/ou-est-charlie/"></intlink>
-    <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
     <intlink href="../css/overflow/exercices/eclipses/"></intlink>
+    <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
+    
 
 
     <dots></dots>
@@ -558,7 +561,8 @@
     <grostitre>Devoir et études pour l'examen</grostitre>
 
     <h3>Pour l'examen du 12-13 mars</h3>
-    <p>Pour ceux qui ont pris du retard, tous les exercices précédents devront être complétés d'ici l'examen, incluant:</p>
+    <p>Pour ceux qui ont pris du retard, tous les exercices des cours 1 à 5 devront être complétés d'ici l'examen. <br>Tous les exercices qu'on a révisé en classe ensemble en plus de:</p>
+    <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
     <intlink href="../css/pseudo-classes-avancees/exercices/css-diner/"></intlink>
     <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-6/"></intlink>
     <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-7/"></intlink>
