@@ -192,14 +192,66 @@
 <p>Les médias queries peuvent être utilisés à différents endroits:</p>
 
 <ul>
-  <li>Dans les <strong>feuilles de styles</strong>.</li>
-  <li>Directement sur une balise <span class="inline-code">&lt;link&gt;</span>. ex: les styles contenu dans le fichier <span class="inline-code">print.css</span> ne devraient s'appliquer que lorsque l'utilisateur imprime la page et non lorsque celle-ci est affichée à l'écran:</li>
+  <li>Le plus souvent, directement dans les <strong>feuilles de styles</strong> css.</li>
+  <li>Parfois aussi, sur une balise <span class="inline-code">&lt;link&gt;</span>. ex: les styles contenu dans le fichier <span class="inline-code">print.css</span> ne devraient s'appliquer que lorsque l'utilisateur imprime la page et non lorsque celle-ci est affichée à l'écran:</li>
 </ul>
 
 <highlight lang="html">&lt;link href=&quot;print.css&quot; rel=&quot;stylesheet&quot; media=&quot;print&quot;&gt;</highlight>
 
-<dots></dots>
 
+<dots></dots>
+<grostitre>Développement mobile-first</grostitre>
+<p>Comment appliquer les <em>media queries</em> lorsqu'on développe en <em>mobile-first</em>&nbsp;? C'est tout simple&nbsp;! </p>
+
+<p>1 - D'abors, vous codez dans votre feuille de style, sans <em>media queries</em>, le placement de vos élément sur petits écrans (téléphone mobile par exemple). </p>
+
+<p>2 - Par la suite, vous appliquez des exeptions pour les écrans plus larges à l'aide de <em>media queries</em>. Par exemple: à partir de 768px pour les tablettes et à partir de 1000pxpour les écrans de type desktop.</p>
+<highlight lang="html">&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;col&quot;&gt;Contenu 1&lt;/div&gt;
+  &lt;div class=&quot;col&quot;&gt;Contenu 2&lt;/div&gt;
+  &lt;div class=&quot;col&quot;&gt;Contenu 3&lt;/div&gt;
+  &lt;div class=&quot;col&quot;&gt;Contenu 4&lt;/div&gt;
+  &lt;div class=&quot;col&quot;&gt;Contenu 5&lt;/div&gt;
+  &lt;div class=&quot;col&quot;&gt;Contenu 6&lt;/div&gt;
+&lt;/div&gt;</highlight>
+
+
+<highlight lang="css">div.container{
+  display:block;
+}
+
+/* 1 colonne sur petits &eacute;crans, pla&ccedil;ant chaque contenu un en dessous de l&#039;autre */
+div.col{
+  width: 100%;
+}
+
+@media screen and (min-width: 768px){
+  div.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  /* 2 colonnes sur &eacute;crans moyens */
+  div.col{
+    width: 49%;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  div.container{
+    /* nul besoin d&#039;appliquer flexbox ici puisque ceux de 768px et plus sont d&eacute;j&agrave; pris en compte. */
+  }
+
+  /* 3 colonnes sur grand &eacute;crans */
+  div.col{
+    width: 30%;
+  }
+}</highlight>
+
+
+
+<dots></dots>
         <a class="exercice" target="_blank" href="exercices/modok/">
             <div class="exercice-container">
                 <div class="exercice-thumb" style="background-image: url(exercices/modok/images/thumb.jpg)"></div>
@@ -231,7 +283,7 @@
             </div>
         </a>
 
-<dots></dots>
+
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>

@@ -144,16 +144,70 @@
 <p>Les médias queries peuvent être utilisés à différents endroits:</p>
 
 <ul>
-  <li>Dans les <strong>feuilles de styles</strong>.</li>
-  <li>Directement sur une balise <incode>&lt;link&gt;</incode>. ex: les styles contenu dans le fichier <incode>print.css</incode> ne devraient s'appliquer que lorsque l'utilisateur imprime la page et non lorsque celle-ci est affichée à l'écran:</li>
+  <li>Le plus souvent, directement dans les <strong>feuilles de styles</strong> css.</li>
+  <li>Parfois aussi, sur une balise <incode>&lt;link&gt;</incode>. ex: les styles contenu dans le fichier <incode>print.css</incode> ne devraient s'appliquer que lorsque l'utilisateur imprime la page et non lorsque celle-ci est affichée à l'écran:</li>
 </ul>
 
 <highlight lang="html">&lt;link href="print.css" rel="stylesheet" media="print"&gt;</highlight>
 
-<dots></dots>
 
+<dots></dots>
+<grostitre>Développement mobile-first</grostitre>
+<p>Comment appliquer les <em>media queries</em> lorsqu'on développe en <em>mobile-first</em>&nbsp;? C'est tout simple&nbsp;! </p>
+
+<p>1 - D'abors, vous codez dans votre feuille de style, sans <em>media queries</em>, le placement de vos élément sur petits écrans (téléphone mobile par exemple). </p>
+
+<p>2 - Par la suite, vous appliquez des exeptions pour les écrans plus larges à l'aide de <em>media queries</em>. Par exemple: à partir de 768px pour les tablettes et à partir de 1000pxpour les écrans de type desktop.</p>
+<highlight lang='html'>
+<div class="container">
+  <div class="col">Contenu 1</div>
+  <div class="col">Contenu 2</div>
+  <div class="col">Contenu 3</div>
+  <div class="col">Contenu 4</div>
+  <div class="col">Contenu 5</div>
+  <div class="col">Contenu 6</div>
+</div>
+</highlight>
+
+
+<highlight lang='css'>div.container{
+  display:block;
+}
+
+/* 1 colonne sur petits écrans, plaçant chaque contenu un en dessous de l'autre */
+div.col{
+  width: 100%;
+}
+
+@media screen and (min-width: 768px){
+  div.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  /* 2 colonnes sur écrans moyens */
+  div.col{
+    width: 49%;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  div.container{
+    /* nul besoin d'appliquer flexbox ici puisque ceux de 768px et plus sont déjà pris en compte. */
+  }
+
+  /* 3 colonnes sur grand écrans */
+  div.col{
+    width: 30%;
+  }
+}
+</highlight>
+
+
+
+<dots></dots>
 <exercice href="exercices/modok/"></exercice>
 <!-- <exercice href="exercices/minions/"></exercice> -->
 <exercice href="exercices/ou-est-charlie/"></exercice>
 
-<dots></dots>

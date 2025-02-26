@@ -411,16 +411,15 @@
 
     
     <dots></dots>
-    <grostitre>Quiz</grostitre>
+    <grostitre>Quiz et révision</grostitre>
     <ol>
         <li><a href="https://app.wooclap.com/NFTXHY" target="_blank" rel="noopener noreferrer">Groupe 1 - merc. am</a> Code:&nbsp;NFTXHY</li>
         <li><a href="https://app.wooclap.com/EATSBR" target="_blank" rel="noopener noreferrer">Groupe 2 - merc. pm</a> Code:&nbsp;EATSBR</li>
         <li><a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Groupe 3 - jeudi pm</a> Code:&nbsp;</li>
     </ol>
     
-    
-    <dots></dots>
-    <grostitre>Révision exercices du cours 4 (dernier cours)</grostitre>
+
+    <h3>Révision exercices du cours 4 (dernier cours)</h3>
     <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>  <!-- Groupe 1 et 2 ça a été révisé -->
     <intlink href="../css/google-fonts/exercices/bart/"></intlink> <!-- Groupe 2 ça a été révisé -->
     <intlink href="../css/font-face/exercices/la-guerre-la-guerre/"></intlink>

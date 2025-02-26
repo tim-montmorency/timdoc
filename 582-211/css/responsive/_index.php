@@ -27,13 +27,12 @@
 
 <grostitre>Adaptive</grostitre>
 
-<p>L'approche adaptive utilise plusieurs mises en page prédéfinies <em>(ex: mobile, tablette, grand écran, etc.)</em> En fonction de la dimension du navigateur, la mise en page la mieux adaptée est affichée.</p>
+<p>L'approche adaptive utilise plusieurs mises en page prédéfinies <em>(ex: mobile, tablette, grand écran, etc.)</em>. En fonction de la dimension du navigateur, la mise en page la mieux adaptée est affichée.</p>
 
 <dots></dots>
 
 
 <grostitre>Responsive</grostitre>
-
 <p>Le contenu est fluide et donc s'ajuste parfaitement à la dimension de l'écran, peu importe cette dernière.</p>
 
 <quote author="Bruce Lee" title="Brute des arts martiaux" photo="images/bruce-lee.jpg">
@@ -55,4 +54,27 @@
 
 <knowmore href="https://blog.froont.com/9-basic-principles-of-responsive-web-design/">9 basic principles of responsive web design</knowmore>
 
+
+
 <dots></dots>
+<grostitre>Développement mobile-first</grostitre>
+
+<quote author="Go-Globe" title="Screen Time Wars Mobile vs Desktop Usage Trends Across the Globe" photo="images/goglobe-logo.png">
+    À l’heure actuelle, le plus gros du trafic du Web est réalisé via des appareils mobiles ! Plus de 60 % du volume de visites est effectué en surfant sur la toile via un téléphone mobile ou une tablette.
+</quote>
+<dots></dots>
+
+<figure>
+    <img src="images/Responsive-design-1.jpg" alt="">
+    <figcaption>Source: <a href="https://webalia.fr/mobile-first-et-responsive-design/" target="_blank" rel="noopener noreferrer">webalia</a></figcaption>
+</figure>
+
+<dots></dots>
+<p>La définition de l’approche <em>mobile-first</em> : stratégie de conception pour la réalisation des sites web en commençant par les versions mobiles afin d’optimiser au mieux le développement.</p>
+
+<p>L’idée fondamentale dans cette conception de site web est de se focaliser sur l’essentiel pour la version mobile, puis tendre vers une version tablette et desktop plus avancée, en ajoutant des interactions, des effets plus complexes, etc. </p>
+
+<figure>
+    <img src="images/Responsive-design-2.jpg" alt="">
+    <figcaption>Source: <a href="https://webalia.fr/mobile-first-et-responsive-design/" target="_blank" rel="noopener noreferrer">webalia</a></figcaption>
+</figure>
