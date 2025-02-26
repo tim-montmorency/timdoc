@@ -510,7 +510,6 @@
         <li>Techniques pour rendre une mise en page adaptative</li>
         <li>Unités de mesure fluide </li>
         <li>Overflow</li>
-        <li>SVG (si le temps le permet)</li>
     </ul>
 
 
@@ -552,17 +551,6 @@
     
 
 
-    <dots></dots>
-    <grostitre>SVG (si le temps le permet)</grostitre>
-    <intlink href="../html/svg/"></intlink>
-    <h3>Exercices SVG (si le temps le permet)</h3>
-    <intlink href="../html/svg/exercices/hollywood-boulevard/"></intlink>
-    <intlink href="../css/variables/exercices/jidddf/"></intlink><!-- exercice sur les variables mais aussi sur svg -->
-
-
-
-
-
 
     <dots></dots>
     <grostitre>Devoir et études pour l'examen</grostitre>
@@ -594,6 +582,22 @@
  \_____\___/ \__,_|_|  |___/  /_/                   
 ----------------------------------->
 <wiki-page name="Cours 07" date="2025-03-11">
+
+
+
+<dots></dots>
+    <grostitre>SVG (si le temps le permet)</grostitre>
+    <intlink href="../html/svg/"></intlink>
+    <h3>Exercices SVG (si le temps le permet)</h3>
+    <intlink href="../html/svg/exercices/hollywood-boulevard/"></intlink>
+    <intlink href="../css/variables/exercices/jidddf/"></intlink><!-- exercice sur les variables mais aussi sur svg -->
+
+
+
+
+
+
+
     <!-- DÉBUT À placer à quelques part (pas nécessairement àa ce cours ci) -->
     <grostitre>Emmet</grostitre>
     <intlink href="../html/emmet/"></intlink>
