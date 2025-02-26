@@ -260,6 +260,29 @@
                                      
 ----------------->
 <wiki-page name="Cours 04" date="2025-02-11">
+    <warning>
+        <h3>Tempête de neige et changement au calendrier</h3>
+        <div class="red-label">Ce qui était prévu dans le plan de cours</div>
+        <ul>
+            <li><s>COURS 5: 19-20 février</s></li>
+            <li><s>EXAMEN 1 : 26-27 février</s> <br><small>En raison de la tempête de neige, le cours 4 du groupe du jeudi a été reporté à ce jeudi 20 février. Comme nous devons couvrir le contenu du cours 1 à 5 pour TOUS les groupes avant l'examen, et que je veux m'assurer que tous passent l'examen la même semaine, voici les changements au calendrier:</small>
+            </li>
+        </ul>
+        <div class="red-label">Nouvelles dates</div>
+        <ul>
+            <li>Groupe du jeudi | cours 4 : jeudi 20 février</li>
+            <li>Groupe du jeudi | cours 5 : jeudi 27 février</li>
+            <li>Groupe du mercredi | cours 5 : merc. 19 février</li>
+            <li>Groupe du mercredi | cours 6 : merc. 26 février</li>
+            <li>EXAMEN 1 : 12 et 13 mars
+                <br> <small>Notez que l'examen ne couvrira que le cours 1 à 5 même si le groupe du mercredi auront eu le cours 6 d'ici là.</small>
+            </li>
+        </ul>
+    </warning>
+
+
+
+
     <grostitre>Contenu du jour</grostitre>
     <ul>
         <li>Sélecteurs CSS avancés</li>
@@ -478,12 +501,102 @@
 ----------------------------------->
 <wiki-page name="Cours 06" date="2025-02-26">
 
+    <warning>
+       
+        <div class="red-label">EXAMEN 1 : merc. 12 et jeudi 13 mars</div> <br>
+        <small>Notez que l'examen ne couvrira que le cours 1 à 5 donc la matière du cours 6 ne sera pas évaluée tout de suite.</small>
+         
+    </warning>
 
-<grostitre>Emmet</grostitre>
 
+    <grostitre>Contenu du jour</grostitre>
+    <p>Responsive design et media queries:</p>
+    <ul>
+        <li>Mobile-first vs desktop first </li>
+        <li>Media queries par résolution, densité de pixels, orientation  </li>
+        <li>Techniques pour rendre une mise en page adaptative</li>
+        <li>Unités de mesure fluide </li>
+        <li>Overflow</li>
+        <li>SVG (si le temps le permet)</li>
+    </ul>
+
+    <dots></dots>
+    <h3>Révisions d'exercices</h3>
+    <h4>GROUPE 1 (merc AM)</h4>
+    <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
+    <intlink href="../css/google-fonts/exercices/bart/"></intlink>
+
+    <h4>GROUPE 1 et 2 (merc AM et PM)</h4>
+    <intlink href="../css/font-face/exercices/la-guerre-la-guerre/"></intlink>
+    <intlink href="../css/exercices/moby-i-like-to-score/"></intlink> 
+    <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink> 
+    <intlink href='../css/variables/exercices/canadiens/'></intlink>
+    <intlink href='../css/variables/exercices/lakers/'></intlink>
+
+
+    <dots></dots>
+    <grostitre>Responsive design et media queries </grostitre>
+    <intlink href="../css/responsive/"></intlink>
+    <intlink href="../css/media-queries/"></intlink>
+    <intlink href="../css/unites-de-mesure-avancees/"></intlink>
+    <intlink href="../css/overflow/"></intlink>
+    
+
+    <h3>Exercices responsive et media queries</h3>
+    <intlink href="../css/media-queries/exercices/modok/"></intlink>
+    <intlink href="../css/media-queries/exercices/ou-est-charlie/"></intlink>
+    <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
+    <intlink href="../css/overflow/exercices/eclipses/"></intlink>
+
+
+    <dots></dots>
+    <grostitre>SVG (si le temps le permet)</grostitre>
+    <intlink href="../html/svg/"></intlink>
+    <h3>Exercices SVG (si le temps le permet)</h3>
+    <intlink href="../html/svg/exercices/hollywood-boulevard/"></intlink>
+    <intlink href="../css/variables/exercices/jidddf/"></intlink><!-- exercice sur les variables mais aussi sur svg -->
+
+
+
+
+
+
+    <dots></dots>
+    <grostitre>Devoir et études pour l'examen</grostitre>
+
+    <h3>Pour l'examen du 12-13 mars</h3>
+    <p>Pour ceux qui ont pris du retard, tous les exercices précédents devront être complétés d'ici l'examen, incluant:</p>
+    <intlink href="../css/pseudo-classes-avancees/exercices/css-diner/"></intlink>
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-6/"></intlink>
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-7/"></intlink>
+    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-8/"></intlink>
+    <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-9/'></intlink>
+    <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-10/'></intlink>
+    <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-11/'></intlink>
+
+    <h3>Pour le cours suivant l'examen</h3>
+    <p>Terminer les exercices débutés en classes aujourd'hui.</p>
+</wiki-page>
+
+
+
+
+<!-----------------------------------
+  _____                       ______ 
+ / ____|                     |____  |
+| |     ___  _   _ _ __ ___      / / 
+| |    / _ \| | | | '__/ __|    / /  
+| |___| (_) | |_| | |  \__ \   / /   
+ \_____\___/ \__,_|_|  |___/  /_/                   
+----------------------------------->
+<wiki-page name="Cours 07" date="2025-03-11">
     <!-- DÉBUT À placer à quelques part (pas nécessairement àa ce cours ci) -->
+    <grostitre>Emmet</grostitre>
     <intlink href="../html/emmet/"></intlink>
     <intlink href="../html/emmet/exercices/page-web-emmet/"></intlink>
+
+
+    <intlink href="../css/imbrication-css/"></intlink>
 
 
 
@@ -494,55 +607,15 @@
     <intlink href="../css/flexbox-figma-auto-layout"></intlink>
     <p>figma for vs code + figma dev mode</p>
 
+
     
-
-<intlink href="../css/pseudo-classes-avancees/"></intlink>
-    <intlink href="../css/pseudo-classes-avancees/exercices/css-diner/"></intlink>
-    <intlink href="../css/unites-de-mesure-avancees/"></intlink>
-    <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
-    <intlink href="../css/overflow/"></intlink>
-    <intlink href="../css/overflow/exercices/eclipses/"></intlink>
-
-
-    <intlink href="../css/imbrication-css-intro/"></intlink>
-    <intlink href="../css/imbrication-css/"></intlink>
-    <!-- ^quelles est la diff entre les 2? -->
-
-
-    <intlink href="../css/responsive/"></intlink>
-    <intlink href="../css/media-queries/"></intlink>
-    <intlink href="../css/media-queries/exercices/modok/"></intlink>
-    <intlink href="../css/media-queries/exercices/ou-est-charlie/"></intlink>
-
-    <intlink href="../html/svg/"></intlink>
-    <intlink href="../html/svg/exercices/hollywood-boulevard/"></intlink>
-    <intlink href="../css/variables/"></intlink>
-    <intlink href="../css/variables/exercices/canadiens/"></intlink>
-    <intlink href="../css/variables/exercices/jidddf/"></intlink>
     <intlink href="../autres/actions-photoshop/"></intlink>
     <intlink href="../autres/actions-photoshop/exercices/kirby/"></intlink>
     <intlink href="../css/exercices/the-planet-smashers-unstoppable/"></intlink>
     <intlink href="../css/exercices/rage-against-the-machine-renegades/"></intlink>
     <intlink href="../css/exercices/malajube-trompe-l-oeil/"></intlink>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <intlink href='../css/variables/exercices/jidddf/'></intlink> <!-- unité avancé, svg et madia queries, variables -->
-
-
+    
     <intlink href="../css/modes-de-fusion/"></intlink>
     <intlink href="../css/modes-de-fusion/exercices/emotion/"></intlink>
     <intlink href="../css/filtres/"></intlink>
@@ -560,20 +633,9 @@
     <intlink href="../css/exercices/alaclair-ensemble-les-maigres-blancs/"></intlink>
     <intlink href="../css/exercices/the-police-synchronicity/"></intlink>
     <intlink href="../css/exercices/alexisonfire-watch-out/"></intlink>
-</wiki-page>
 
 
 
-
-<!-----------------------------------
-  _____                       ______ 
- / ____|                     |____  |
-| |     ___  _   _ _ __ ___      / / 
-| |    / _ \| | | | '__/ __|    / /  
-| |___| (_) | |_| | |  \__ \   / /   
- \_____\___/ \__,_|_|  |___/  /_/                   
------------------------------------>
-<wiki-page name="Cours 07" date="2025-03-11">
     <h2>Transition</h2>
     <intlink href="../css/transition/"></intlink>
     <intlink href="../css/transition/exercices/spider-man/"></intlink>

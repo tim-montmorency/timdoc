@@ -15,6 +15,7 @@
 <ul>
     <li>🚫 Canvas prédéterminé</li>
     <li>🚫 Unités de mesure absolues</li>
+    <li>🚫 Positionnement en absolu et en <incode>px</incode> toujours par rapport au <incode>body</incode></li>
 </ul>
 
 <p>Ça peut paraître compliqué à première vue, mais si on prend le temps d'analyser le tout calmement, nous verrons que ce n'est pas sorcier!</p>

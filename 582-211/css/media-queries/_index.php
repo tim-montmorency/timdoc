@@ -9,7 +9,7 @@
  */
 ?>
 
-<p class="spacer">Les médias queries permettent d'adapter le contenu d'une page aux caractéristiques de l'appareil de l'utilisateur.</p>
+<p>Les <em>medias queries</em> permettent d'adapter le contenu d'une page aux caractéristiques de l'appareil de l'utilisateur.</p>
 
 <p>Par exemple, pour distinguer l'écran d'un cellulaire versus l'écran plus large d'un ordinateur, on pourrait utiliser la media query suivante:</p>
 
@@ -36,7 +36,7 @@
 
 <highlight lang="css">@media screen and (min-width: 1000px) {
   body { background: blue; }
-  }</highlight>
+}</highlight>
 
 <clipasset src="videos/media-query.mp4"></clipasset>
 
@@ -134,7 +134,7 @@
 
 <highlight lang="css">@media (max-width: 600px) {
   .section { width: 100%; }
-  }</highlight>
+}</highlight>
 
 <dots></dots>
 

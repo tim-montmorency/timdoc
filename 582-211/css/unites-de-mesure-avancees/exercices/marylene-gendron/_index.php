@@ -35,7 +35,7 @@
 
 <dots></dots>
 
-
+<alert>L'exercice porte sur les unités de mesure <incode>vw</incode> et  <incode>vh</incode>. Ne pas utiliser <incode>%</incode>.</alert>
 <grostitre>Requis</grostitre>
 
 <checklist>
