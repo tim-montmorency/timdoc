@@ -186,7 +186,7 @@
     <ol>
         <li><a href="https://app.wooclap.com/AFEUNQ" target="_blank" rel="noopener noreferrer">Groupe 1 - merc. am</a> Code:&nbsp;AFEUNQ</li>
         <li><a href="https://app.wooclap.com/KLOQYK" target="_blank" rel="noopener noreferrer">Groupe 2 - merc. pm</a> Code:&nbsp;KLOQYK</li>
-        <li><a href="https://app.wooclap.com/UOEUZT" target="_blank" rel="noopener noreferrer">Groupe 3 - jeudi pm</a> Code:&nbsp;UOEUZT</li>
+        <li><a href="https://app.wooclap.com/UOEUZT" target="_blank" rel="noopener noreferrer">Groupe 3 - jeudi am</a> Code:&nbsp;UOEUZT</li>
     </ol>
 
 
@@ -415,7 +415,7 @@
     <ol>
         <li><a href="https://app.wooclap.com/NFTXHY" target="_blank" rel="noopener noreferrer">Groupe 1 - merc. am</a> Code:&nbsp;NFTXHY</li>
         <li><a href="https://app.wooclap.com/EATSBR" target="_blank" rel="noopener noreferrer">Groupe 2 - merc. pm</a> Code:&nbsp;EATSBR</li>
-        <li><a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Groupe 3 - jeudi pm</a> Code:&nbsp;</li>
+        <li><a href="https://app.wooclap.com/CAFIAC" target="_blank" rel="noopener noreferrer">Groupe 3 - jeudi am</a> Code:&nbsp;CAFIAC</li>
     </ol>
     
 
@@ -513,7 +513,14 @@
         <li>SVG (si le temps le permet)</li>
     </ul>
 
+
     <dots></dots>
+    <grostitre>Quiz et révision</grostitre>
+    <ol>
+        <li><a href="https://app.wooclap.com/KUUNFO" target="_blank" rel="noopener noreferrer">Groupe 1 - merc. am</a> Code:&nbsp;KUUNFO</li>
+        <li><a href="https://app.wooclap.com/EZHHIO" target="_blank" rel="noopener noreferrer">Groupe 2 - merc. pm</a> Code:&nbsp;EZHHIO</li>
+        <li><a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Groupe 3 - jeudi am</a> Code:&nbsp;</li>
+    </ol>
     <h3>Révisions d'exercices</h3>
     <h4>GROUPE 1 (merc AM)</h4>
     <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
