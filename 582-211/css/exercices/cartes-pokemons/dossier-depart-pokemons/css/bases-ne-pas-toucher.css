@@ -1,0 +1,131 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+html, body{
+    height: 100%;
+}
+
+h2, p{
+    margin: 0;
+}
+
+/* Style de base */
+body {
+    background: #1e1e2e;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+body{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+header{
+    background-color: rgba(214, 226, 244, 0.1);
+}
+
+
+
+
+header {
+    padding: 50px;
+}
+
+.logo{
+    width: 150px;
+}
+
+
+h1, h2, h3, h4{
+    font-family: "Lemon", serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px 20px 20px 20px;
+    font-size: 3rem;
+}
+
+
+/* Conteneur Flexbox */
+.trainer-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Style des cartes */
+.trainer-card {
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease;
+    border: 3px solid #1e1e2e;
+}
+.trainer-card:first-child {
+    height: 332px;
+}
+
+/* Image du Pokémon */
+.picture{
+    width: 100%;
+    background-color: #d6e2f4;
+    border-radius: 6px 6px 0 0 ;
+    width: 230px;
+}
+.trainer-card:first-child .picture{
+    border-radius: 6px;
+    height: 100%;
+    width: 50%;
+}
+
+
+/* Images des dresseurs */
+.trainer-img {
+    max-width: 100%;
+    width :auto;
+    height: 150px;
+    object-fit: contain;
+    object-position: 50% 50%;
+}
+
+.trainer-card:first-child .trainer-img{
+    height: 100%;
+}
+
+/* Nom du dresseur */
+.trainer-name {
+    font-size: 1.5em;
+}
+
+
+/* Texte des badges */
+.trainer-badge {
+    font-size: 1em;
+    margin-bottom: 7px;
+}
+/* Bouton */
+.challenge-btn {
+    background: white;
+    border: none;
+    padding: 8px 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.trainer-card:first-child .challenge-btn{
+   padding: 16px 24px;
+   width: 46%;
+}

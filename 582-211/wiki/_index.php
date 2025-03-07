@@ -98,26 +98,24 @@
 
     <grostitre>Flexbox</grostitre>
     <intlink href="../css/flexbox/"></intlink>
-
-    <h3>Exercices</h3>
-    <h4>Flexbox zombies</h4>
+    <h4>Exercice: Flexbox zombies</h4>
 
     <intlink href='../css/flexbox/exercices/flexbox-zombie-chapitre-1/'></intlink>
     <intlink href='../css/flexbox/exercices/flexbox-zombie-chapitre-2/'></intlink>
     <intlink href='../css/flexbox/exercices/flexbox-zombie-chapitre-3/'></intlink>
     <intlink href='../css/flexbox/exercices/flexbox-zombie-chapitre-4/'></intlink>
 
-    <h4>Cartes à créer et placer</h4>
+    <h4>Exercice: Cartes à créer et placer</h4>
     <intlink href='../css/exercices/flexbox-cartes-01/'></intlink>
     <intlink href='../css/exercices/flexbox-cartes-02/'></intlink>
 
 
-    <h4>Scrabble Harry-Potter avec flexbox</h4>
+    <h4>Exercice: Scrabble Harry-Potter avec flexbox</h4>
     <intlink href='../css/flexbox/exercices/flexbox-scrabble-potter/'></intlink>
 
 
 
-    <h4>Si vous avez terminé les exercices flexbox précédents (facultatif)</h4>
+    <h4>Exercice: Si vous avez terminé les exercices flexbox précédents (facultatif)</h4>
     <intlink href='../css/flexbox/exercices/flexbox-froggy-niveau-1-a-13/'></intlink>
     <intlink href='../css/flexbox/exercices/flexbox-defense-niveau-1-a-9/'></intlink>
 
@@ -128,13 +126,12 @@
     <grostitre>Les pseudo-classes CSS</grostitre>
     <intlink href="../css/pseudo-classes/"></intlink>
 
-    <h3>Exercices obligatoires</h3>
+    <h4>Exercices obligatoires</h4>
     <intlink href="../css/pseudo-classes/exercices/bouton/"></intlink>
     <intlink href="../css/pseudo-classes/exercices/cercles/"></intlink>
    
 
-
-    <dots></dots>
+<!--   <dots></dots>
     <grostitre>Devoir</grostitre>
     <p>Si non terminés en classe, vous devez compléter les exercices obligatoires.</p>
     <intlink href='../css/flexbox/exercices/flexbox-zombie-chapitre-1/'></intlink>
@@ -145,7 +142,8 @@
     <intlink href='../css/exercices/flexbox-cartes-02/'></intlink>
     <intlink href='../css/flexbox/exercices/flexbox-scrabble-potter/'></intlink>
     <intlink href="../css/pseudo-classes/exercices/bouton/"></intlink>
-    <intlink href="../css/pseudo-classes/exercices/cercles/"></intlink>
+    <intlink href="../css/pseudo-classes/exercices/cercles/"></intlink>  -->
+ 
    
 
 </wiki-page>
@@ -181,7 +179,7 @@
         <li><s>Les pseudo-classes de descendance</s></li>
     </ul>
 
-    <dots></dots>
+    <!--    <dots></dots>
     <grostitre>Quiz</grostitre>
     <ol>
         <li><a href="https://app.wooclap.com/AFEUNQ" target="_blank" rel="noopener noreferrer">Groupe 1 - merc. am</a> Code:&nbsp;AFEUNQ</li>
@@ -189,7 +187,8 @@
         <li><a href="https://app.wooclap.com/UOEUZT" target="_blank" rel="noopener noreferrer">Groupe 3 - jeudi am</a> Code:&nbsp;UOEUZT</li>
     </ol>
 
-
+ -->
+ 
 
 
     <dots></dots>
@@ -206,7 +205,7 @@
     <dots></dots>
     <grostitre>Flexbox intermédiaire</grostitre>
     <intlink href="../css/flexbox-intermediaire/"></intlink> 
-    <h3>Exercices obligatoires</h3>
+    <h4>Exercices obligatoires</h4>
     <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-5/"></intlink>
     <br>
     <intlink href='../css/exercices/flexbox-poesie-hiver/'></intlink>
@@ -219,13 +218,12 @@
     <!-- Trop rapide car on demande media queries -->
     <!--<intlink href="../css/exercices/flexbox-actualite-google/"></intlink>-->
     <br>
-    <h3>Facultatif</h3>
+    <h4>Facultatif</h4>
     <intlink href="../css/flexbox-intermediaire/exercices/flexbox-froggy-niveaux-14-a-17/"></intlink>
     <intlink href="../css/flexbox-intermediaire/exercices/flexbox-defense-niveaux-10-a-12/"></intlink>
 
 
-
-    <dots></dots>
+<!--     <dots></dots>
     <grostitre>Devoirs</grostitre>
     <p>Si non terminés en classe, vous devez compléter les exercices obligatoires.</p>
 
@@ -242,6 +240,7 @@
     <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-8/"></intlink>
 .
     <intlink href="../css/exercices/flexbox-pony/"></intlink>
+ -->
 
 
 
@@ -260,29 +259,7 @@
                                      
 ----------------->
 <wiki-page name="Cours 04" date="2025-02-11">
-    <warning>
-        <h3>Tempête de neige et changement au calendrier</h3>
-        <div class="red-label">Ce qui était prévu dans le plan de cours</div>
-        <ul>
-            <li><s>COURS 5: 19-20 février</s></li>
-            <li><s>EXAMEN 1 : 26-27 février</s> <br><small>En raison de la tempête de neige, le cours 4 du groupe du jeudi a été reporté à ce jeudi 20 février. Comme nous devons couvrir le contenu du cours 1 à 5 pour TOUS les groupes avant l'examen, et que je veux m'assurer que tous passent l'examen la même semaine, voici les changements au calendrier:</small>
-            </li>
-        </ul>
-        <div class="red-label">Nouvelles dates</div>
-        <ul>
-            <li>Groupe du jeudi | cours 4 : jeudi 20 février</li>
-            <li>Groupe du jeudi | cours 5 : jeudi 27 février</li>
-            <li>Groupe du mercredi | cours 5 : merc. 19 février</li>
-            <li>Groupe du mercredi | cours 6 : merc. 26 février</li>
-            <li>EXAMEN 1 : 12 et 13 mars
-                <br> <small>Notez que l'examen ne couvrira que le cours 1 à 5 même si le groupe du mercredi auront eu le cours 6 d'ici là.</small>
-            </li>
-        </ul>
-    </warning>
-
-
-
-
+    
     <grostitre>Contenu du jour</grostitre>
     <ul>
         <li>Sélecteurs CSS avancés</li>
@@ -311,7 +288,7 @@
     <dots></dots>
     <grostitre>Sélecteurs CSS avancés</grostitre>
     <intlink href="../css/selecteurs-avances/"></intlink>
-    <h3>Exercices</h3>
+    <h4>Exercices</h4>
     <small>Pour le prochain exercice <em>CSS Diner</em>, notez bien que les balises utilisées dans ce jeu <incode><plate></incode>,  <incode><bento></incode>, <incode><pickle></incode> ou  <incode><apple></incode> sont des balises <em>FICTIVES</em> .  Elles sont créées dans le jeu pour le côté ludique de l'exercice.</small>
     <intlink href="../css/selecteurs-avances/exercices/css-diner/"></intlink>
     
@@ -319,7 +296,7 @@
     <dots></dots>
     <grostitre>Pseudo-classes de descendance (child)</grostitre>
     <intlink href="../css/pseudo-classes-intermediaires/"></intlink>
-    <h3>Exercices</h3>
+    <h4>Exercices</h4>
     <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
     <small>Pour le prochain exercice <em>CSS Diner</em>, notez bien que les balises utilisées dans ce jeu <incode><plate></incode>,  <incode><bento></incode>, <incode><pickle></incode> ou  <incode><apple></incode> sont des balises <em>FICTIVES</em> .  Elles sont créées dans le jeu pour le côté ludique de l'exercice.</small>
     <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
@@ -332,7 +309,7 @@
     <intlink href="../css/google-fonts/"></intlink>
     <intlink href="../css/font-face/"></intlink>
 
-    <h3>Exercices</h3>
+    <h4>Exercices</h4>
     <intlink href="../css/google-fonts/exercices/bart/"></intlink>
     <intlink href="../css/font-face/exercices/la-guerre-la-guerre/"></intlink>
 
@@ -345,8 +322,7 @@
 
 
 
-
-    <dots></dots>
+<!--     <dots></dots>
     <grostitre>Devoirs</grostitre>
     <p>Si non terminés en classe, voici les exercices à terminer obligatoirement pour le prochain cours:</p>
     <intlink href="../css/selecteurs-avances/exercices/css-diner/"></intlink>
@@ -356,9 +332,10 @@
     <intlink href="../css/google-fonts/exercices/bart/"></intlink>
     <intlink href="../css/font-face/exercices/la-guerre-la-guerre/"></intlink>
     .
-    <!-- Exercices -->
-    <intlink href="../css/exercices/moby-i-like-to-score/"></intlink> <!-- Pseudo classe de descendance -->
-    <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink> <!-- text, typo fontface etc -->
+
+    <intlink href="../css/exercices/moby-i-like-to-score/"></intlink> 
+    <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink>  -->
+
 
 
 </wiki-page>
@@ -378,8 +355,7 @@
                                                           
 ---------------->
 <wiki-page name="Cours 05" date="2025-02-18">
-
-    <warning>
+<!-- <warning>
         <h3>Tempête de neige et changement au calendrier</h3>
         <div class="red-label">Ce qui était prévu dans le plan de cours</div>
         <ul>
@@ -397,11 +373,8 @@
                 <br> <small>Notez que l'examen ne couvrira que le cours 1 à 5 même si le groupe du mercredi auront eu le cours 6 d'ici là.</small>
             </li>
         </ul>
-    </warning>
+    </warning> -->
 
-
-
-    <dots></dots>
     <grostitre>Contenu du jour</grostitre>
     <ul>
         <li>Flexbox avancé: flex-wrap, align-content, flex, flex-flow</li>
@@ -409,7 +382,7 @@
         <li>Les pseudo-classes avancées qui introduisent des nuances dans la sélection d'éléments en fonction de critères spécifiques.</li>
     </ul>
 
-    
+    <!-- 
     <dots></dots>
     <grostitre>Quiz et révision</grostitre>
     <ol>
@@ -418,20 +391,20 @@
         <li><a href="https://app.wooclap.com/CAFIAC" target="_blank" rel="noopener noreferrer">Groupe 3 - jeudi am</a> Code:&nbsp;CAFIAC</li>
     </ol>
     
-
-    <h3>Révision exercices du cours 4 (dernier cours)</h3>
-    <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>  <!-- Groupe 1 et 2 ça a été révisé -->
-    <intlink href="../css/google-fonts/exercices/bart/"></intlink> <!-- Groupe 2 ça a été révisé -->
+   <h3>Révision exercices du cours 4 (dernier cours)</h3>
+    <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink> 
+    <intlink href="../css/google-fonts/exercices/bart/"></intlink> 
     <intlink href="../css/font-face/exercices/la-guerre-la-guerre/"></intlink>
-    <intlink href="../css/exercices/moby-i-like-to-score/"></intlink>  <!-- Groupe 2 ça a été révisé -->
-    <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink> 
+    <intlink href="../css/exercices/moby-i-like-to-score/"></intlink> 
+    <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink>  -->
+
 
 
     <dots></dots>
     <grostitre>Flexbox avancé</grostitre>
     <intlink href='../css/flexbox-avance/'></intlink>
 
-    <h3>Exercices</h3>
+    <h4>Exercices</h4>
     <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-9/'></intlink>
     <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-10/'></intlink>
     <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-11/'></intlink>
@@ -441,7 +414,7 @@
     <grostitre>Variables CSS</grostitre>
     <intlink href='../css/variables/'></intlink>
 
-    <h3>Exercices</h3>
+    <h4>Exercices</h4>
    
     <intlink href='../css/variables/exercices/canadiens/'></intlink>
     <intlink href='../css/variables/exercices/lakers/'></intlink>
@@ -451,7 +424,7 @@
     <grostitre>Pseudo-classes avancées</grostitre>
     <intlink href='../css/pseudo-classes-avancees/'></intlink>
 
-    <h3>Exercice de pseudo-classes facultatif pour le moment.</h3>
+    <h4>Exercice de pseudo-classes</h4>
 
     <intlink href='../css/pseudo-classes-avancees/exercices/css-diner/'></intlink>
  
@@ -461,14 +434,14 @@
     <dots></dots>
     <grostitre>Devoirs</grostitre>
     <p>Complétez les exercices du cours 4 et 5 non complétés en classe, ces exercices sont obligatoires et doivent être complété avant le cours 6.</p>
-    <p class="red-label">Exercices du cours 4</p>
+    <h4>Exercices du cours 4</h4>
     <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
     <intlink href="../css/google-fonts/exercices/bart/"></intlink>
     <intlink href="../css/font-face/exercices/la-guerre-la-guerre/"></intlink>
     <intlink href="../css/exercices/moby-i-like-to-score/"></intlink> 
     <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink> 
 <br>
-    <p class="red-label">Exercices du cours 5</p>
+    <h4>Exercices du cours 5</h4>
     <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-9/'></intlink>
     <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-10/'></intlink>
     <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-11/'></intlink>

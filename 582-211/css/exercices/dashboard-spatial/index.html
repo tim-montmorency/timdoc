@@ -1,0 +1,189 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>Dashboard spatial</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Dashboard spatial</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+
+
+<alert>NOTE IMPORTANTE: Aucun outil de AI n'est permis pendant l'examen, en appli ou en ligne. Tout non-respect de cette règle ser traitée comme du plagiat. Vous devez aussi désactiver toutes les extensions dans Visual Studio Code. <br> <img src="../../../images/desactiver-extentions-vscode.png" alt="Extensions / ... / Désactiver toutes les extensions installées."></alert>
+
+<p>Pour cet exercice vous allez compléter la mise en page d'un centre de commandes spatial en utilisant les propriétés
+    CSS vues en classe cette session du cours 1 à 5.</p>
+
+<dots></dots>
+<grostitre>Aperçu du résultat 👇</grostitre>
+<small>Pour contrôler la vidéo, clic-droit et "Afficher toute les commandes".</small>
+<clipasset src='images/demo2.mp4'></clipasset>
+
+<p>ou <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EbS0Aotf2W1PtpFruQxHdpUBvE9lRt4J9oFi-bgFmCnXgw?e=agsXPX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank" rel="noopener noreferrer">Lien vers la vidéo à afficher plein écran.</a></p>
+
+
+<h3>Fichiers</h3>
+<doclink href="/">Dossier de départ</doclink>
+
+<h3>Couleurs 🎨</h3>
+<table class="table-couleurs">
+    <tr>
+        <td>Turquoise</td>
+        <td>
+            <color>#64ffda</color>
+        </td>
+    </tr>
+    <tr>
+        <td>Bleu bébé</td>
+        <td>
+            <color>#64ddff</color>
+        </td>
+    </tr>
+    <tr>
+        <td>Fushia</td>
+        <td>
+            <color>#ff00fb</color>
+        </td>
+    </tr>
+</table>
+
+
+<!-- <color>#ccd6f6</color> -->
+<dots></dots>
+
+
+
+<info>Veuillez minimiser le plus possible le nombre de lignes CSS à écrire. Par exemple si vous avez à appliquer un
+    style sur plusieurs éléments, vous pouvez regrouper les sélecteurs dans une même règle CSS.</info>
+
+
+<warning>
+    <p>Dans votre code CSS, vous devez situer le <em># du requis</em> et vous devez commenter <em>ce que vous faites</em>&nbsp;: expliquez ce que vous ciblez et ce que vous appliquez comme styles. Allez-y brièvement dans vos mots (bref ne pas copier-coller la consigne, vous devez démontrer que vous comprenenz ce que vous faites). Exemple: Voici un exemple:</p>
+
+<highlight lang="css">/* Requis desktop #1 */  
+/* Pseudo-classe de type xyz pour cibler abc et lui appliquer la couleur mauve et une bordure bleue. */  
+.timeline:pseudoxyz{
+  color: purple;
+  border: 1px solid blue;
+}</highlight>
+
+</warning>
+
+<alert>Vous ne pouvez PAS modifier le HTML (excepté pour y inscrire votre nom). Vous devez n'écrire que dans la feuille de styles nommée: <strong>a-vous-de-jouer.css</strong></alert>
+
+<thumbsup>Allez consulter les <a href="#criteres-devaluation-30">critères d'évaluation</a> en bas de page pour vous assurer de bien gérer vos effots et votre temps. Le requis #4 de la partie <strong>Desktop</strong> est probablement la partie sur laquelle vous allez mettre le plus de temps.</thumbsup>
+
+<dots></dots>
+
+<grostitre>Requis pour la version grand écran (desktop)</grostitre>
+
+<checklist>
+    Dans la balise <span class="inline-code">title</span> de la page HTML changez le texte <em>PRÉNOM NOM</em> par le votre.  Faites de même pour le pied de page: changez <em>Sarah Laliberté</em> pour le votre et ajustez le mot <em>Commandante</em> pour refléter votre genre.
+    Importez la famille de police <em>Raleway</em> hébergée sur les services <em>Google Fonts</em> et appliquez la à toute la page.
+    Importez la police de caractères <em>Orbitron</em> incluse dans le dossier polices du projet. Utilisez la méthode appropriée. Appliquez cette police à tous les niveaux de titres <span class="inline-code">h1</span>, <span class="inline-code">h2</span> etc. ainsi que sur les boutons de la page (<span class="inline-code">button</span>).
+    <span class="red-label">L'instruction la + importante au niveau du travail à accomplir et de l'évaluation</span> <br> À l'aide de flexbox, placez les éléments de la page tel que démontré dans l'aperçu grand écran ( <em>DESKTOP</em>).
+    Prenez le temps de constater la façon dont les éléments se replacent les uns par rapport aux autres: lorsque vous redimensionnez votre fenêtre en largeur et en hauteur, le résulat final doit se placer tel que démontré dans l'aperçu DESKTOP.
+    Certains boutons du <span class="inline-code">.control-panel</span> ont une couleur d'arrière-plan différente, soit <span class="inline-code">#64ddff</span>. Veuillez utiliser une des techniques de sélecteur qu'on a veut cette session pour changer leur couleur. Vous ne devez utiliser un seul sélecteur. 
+    Assurez-vous que la couleur d'arrière-plan du bouton au survol reste la même pour tous les boutons, soit <span class="inline-code">#ff00fb</span> (vous pouvez utilisez un autre sélecteur pour cela).
+    Toujours au survol des ces boutons, la couleur de bordure et de l'ombre portée de la balise parent <span class="inline-code">.dashboard</span> revient rose <span class="inline-code">#ff00fb</span> pour la bordure et <span class="inline-code">rgba(255, 0, 251, 0.5)</span> pour l'ombre. Vous devez utiliser un sélecteur de pseudo-classe avancé approprié pour appliquer ces styles.
+    La taille de texte du <span class="inline-code">h1</span> doit être relié à la largeur de la fenêtre du navigateur. Cependant, vous devez vous assurer de lui appliquer une taille minimum de <span class="inline-code">1.4rem</span> et maximum de <span class="inline-code">2.2rem</span> afin que le texte reste lisible et ne prenne pas toute la place.
+    Faite de même pour le <span class="inline-code">h2</span> qui se trouve dans la section <span class="inline-code">.main-display</span> avec un minimum de <span class="inline-code">1.3rem</span> et un maximum de <span class="inline-code">1.6rem</span>.
+</checklist>
+
+
+
+<grostitre>Requis pour la version mobile</grostitre>
+<checklist>
+  Recherchez le <span class="inline-code">@media</span> dans le fichier <em>a-vous-de-jouer.css</em>, pour les requis mobile, vous devez écrire les exceptions  pour petits écrans à l'intérieur des accoladdes de ce média query.
+  À l'aide de flexbox, placez les éléments de la page tel que démontré dans l'aperçu MOBILE.
+  Prenez le temps de constater la façon dont les éléments se replacent les uns par rapport aux autres: lorsque vous redimensionnez votre fenêtre en largeur et en hauteur, le résulat final doit se placer tel que démontré dans l'aperçu MOBILE.
+
+</checklist>
+
+
+
+<dots></dots>
+<grostitre>Critères d'évaluation (30%)</grostitre>
+
+
+  <ul>
+
+    <li>[8%] Sur grand écran (desktop), en mode statique (c'est-à-dire sans bouger la dimension de la fenêtre), chaque élément à positionner est identique à l'aperçu DESKTOP initial. La technique flexbox a été bien utilisée partout.</li>
+    <li>[3.25%] Sur grand écran (desktop), en changeant la dimension de la fenêtre horizontalement ou verticalement, les éléments suivent ce qui est prévu initialement via l'aperçu DESKTOP. La technique flexbox a été bien utilisée partout.</li>
+    <li>[4%] Sur écran mobile, chaque élément à positionner est identique à l'aperçu MOBILE initial. La technique flexbox a été bien utilisée partout.</li>
+    <li>[4%] Les 2 polices de caratères sont bien importées et appliquées selon les consignes respectives pour chacune.</li>
+    <li>[4%] Les boutons du <span class="inline-code">.control-panel</span> ont la bonne couleur d'arrière-plan et elle est appliquée en suivant les requis. Même chose pour l'effet sur le <span class="inline-code">.dashboard</span> au survol de ces boutons.</li>
+    <li>[3.25%] Les tailles de texte du <span class="inline-code">h1</span> et du <span class="inline-code">h2</span> situé dans <span class="inline-code">.main-display</span> sont bien reliées à la largeur de la fenêtre en incluant la technique vue en classe pour appliquer une minimum et un maximum.</li>
+    <li>[3.5%] <ul>
+      <li>L'étudiant n'a pas fait de détour et a écrit, le plus possible, le code minimum pour arriver au résultat.</li>
+      <li>Code CSS bien commenté, l'étudiant sait démontrer qu'il comprend ce qu'il fait via ses commentaires.</li>
+      <li>Code bien indenté (alignement des propriétés CSS à l'intérieur des <span class="inline-code">{ }</span>).</li>
+      <li>L'étudiant a utilisé des chemin d'accès relatifs et non absolus (qui débutent par /).</li>
+    </ul>
+
+  </ul>
+
+
+
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

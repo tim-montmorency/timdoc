@@ -1,0 +1,157 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>Cartes dompteurs de Pokemons</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Cartes dompteurs de Pokemons</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+
+<p>Pour cet exercice vous allez reproduire des cartes de domppteurs de Pokemons</p>
+
+<dots></dots>
+<grostitre>Aperçu du résultat 👇</grostitre>
+<small>Pour contrôler la vidéo, clic-droit et "Afficher toute les commandes".</small>
+<clipasset src='images/demo.mp4'></clipasset>
+
+
+<h3>Fichiers</h3>
+<doclink href="./dossier-depart-pokemons.zip">Dossier de départ</doclink>
+
+<h3>Couleurs 🎨</h3>
+
+<table class="table-couleurs">
+    <tr>
+        <td>Arrière plan des cartes</td>
+        <td>
+            <color>#323243</color>
+        </td>
+    </tr>
+    <tr>
+        <td>Couleur du texte</td>
+        <td>
+            <color>#d6e2f4</color>
+        </td>
+    </tr>
+    <tr>
+        <td>Couleur de surbrillance</td>
+        <td>
+            <color>#ffcc00</color>
+        </td>
+    </tr>
+    <tr>
+        <td>Couleur funky</td>
+        <td>
+            <color>#e63946</color>
+        </td>
+    </tr>
+    <tr>
+        <td>Couleur du bouton</td>
+        <td>
+            <color>#00D4FF</color>
+        </td>
+    </tr>
+    <tr>
+        <td>Couleur du survol du bouton</td>
+        <td>
+            <color>#0095b3</color>
+        </td>
+    </tr>
+</table>
+
+
+<dots></dots>
+
+<warning>Ajouter commentaires au dessus de chaque sélecteur: vous devez expliquer ce que vous ciblez et ce que vous appliquez comme styles. Brièvement dans vos mots (bref ne pas copier-coller la consigne, vous devez démontrer que vous comprenenz ce que vous faites). Exemple:
+    <highlight lang="css">/* Pseudo-classe pour cibler la premi&egrave;re section et lui appliquer la couleur rouge */</highlight>
+</warning>
+
+<alert>Vous ne pouvez PAS changer le HTML. Vous devez écrire que dans la fichier <em>styles.css</em> qui est actuellement vide.</alert>
+
+
+<grostitre>Requis</grostitre>
+
+<checklist>
+    Créez des variables pour les 6 couleurs de la palette fournie dans la matériel ci-haut. Nommez-les bien pour ce qu'elles représentent.
+    Créez un autre variable pour le niveau de coin arrondi, donnez lui la valeur de 10px.
+    Appliquez les variables là où elles sont pertinentes.
+    Avec flexbox, placez la cartes tel que démontré dans l'aperçu. 
+    Lorsque vous réduisez la dimension de votre fenêtre de navigateur, assurez vous que le placement respecte l'aperçu.
+    Appliquez un effet de suvrol sur le bouton des cartes et sur le cadre des cartes mais seulement lorsque le bouton lui même est survolé (et non pas la carte en entier).
+    Avec flexbox, placez le contenu à l'intérieur de la carte tel que démontré dans l'aperçu.
+    Sélectionnez la première carte (Sasha (Ash)) et avec flexbox appliquez les styles afin que cette carte s'affiche tel que démontré dans l'aperçu.
+    Avec flexbox, placez les éléments d'entête au bon endroit (logo et lien <em>Devenez dompteur</em>).
+    Sélectionnez la carte de Pierre (Brock), puisqu'il est le champion 🥇, appliquez lui la couleur or 💛 <span class="inline-code">gold</span> sur son contour.
+    Sélectionnez la carte de Silver, puisqu'il a la 2e place 🥈, appliquez lui la couleur argent 🩶 <span class="inline-code">silver</span> sur son contour.
+    Sélectionnez la carte de Cynthia, puisqu'elle a la 3e place 🥉, appliquez lui la couleur bronze 🤎 <span class="inline-code">#895929</span> sur son contour.
+
+</checklist>
+
+<dots></dots>
+<grostitre>Notes de cours 📚</grostitre>
+<p>Tout le contenu est couvert par notre <a href="../../../wiki/" target="_blank" rel="noopener noreferrer">Wiki cours 1 à 5.</a>.</p>
+
+
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>
