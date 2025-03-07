@@ -63,7 +63,7 @@
 
 <dots></dots>
 
-<warning>Ajouter commentaires au dessus de chaque sélecteur: vous devez expliquer ce que vous ciblez et ce que vous appliquez comme styles. Brièvement dans vos mots (bref ne pas copier-coller la consigne, vous devez démontrer que vous comprenenz ce que vous faites). Exemple:
+<warning>Ajouter des commentaires au dessus de chaque sélecteur: vous devez expliquer ce que vous ciblez et ce que vous appliquez comme styles. Brièvement dans vos mots (bref ne pas copier-coller la consigne, vous devez démontrer que vous comprenenz ce que vous faites). Exemple:
     <highlight lang='css'>/* Pseudo-classe pour cibler la première section et lui appliquer la couleur rouge */</highlight>
 </warning>
 
@@ -73,19 +73,18 @@
 <grostitre>Requis</grostitre>
 
 <checklist>
-    Créez des variables pour les 6 couleurs de la palette fournie dans la matériel ci-haut. Nommez-les bien pour ce qu'elles représentent.
-    Créez un autre variable pour le niveau de coin arrondi, donnez lui la valeur de 10px.
-    Appliquez les variables là où elles sont pertinentes.
-    Avec flexbox, placez la cartes tel que démontré dans l'aperçu. 
-    Lorsque vous réduisez la dimension de votre fenêtre de navigateur, assurez vous que le placement respecte l'aperçu.
-    Appliquez un effet de suvrol sur le bouton des cartes et sur le cadre des cartes mais seulement lorsque le bouton lui même est survolé (et non pas la carte en entier).
-    Avec flexbox, placez le contenu à l'intérieur de la carte tel que démontré dans l'aperçu.
-    Sélectionnez la première carte (Sasha (Ash)) et avec flexbox appliquez les styles afin que cette carte s'affiche tel que démontré dans l'aperçu.
-    Avec flexbox, placez les éléments d'entête au bon endroit (logo et lien <em>Devenez dompteur</em>).
-    Sélectionnez la carte de Pierre (Brock), puisqu'il est le champion 🥇, appliquez lui la couleur or 💛 <incode>gold</incode> sur son contour.
-    Sélectionnez la carte de Silver, puisqu'il a la 2e place 🥈, appliquez lui la couleur argent 🩶 <incode>silver</incode> sur son contour.
-    Sélectionnez la carte de Cynthia, puisqu'elle a la 3e place 🥉, appliquez lui la couleur bronze 🤎 <incode>#895929</incode> sur son contour.
-
+Créez des variables pour les six couleurs de la palette fournie dans le matériel ci-dessus. Nommez-les en fonction de ce qu'elles représentent.
+Créez une autre variable pour le niveau de coins arrondis et donnez-lui la valeur de 10px.
+Appliquez les variables là où elles sont pertinentes.
+Avec Flexbox, placez les cartes tel que démontré dans l'aperçu.
+Lorsque vous réduisez la dimension de votre fenêtre de navigateur, assurez-vous que le placement respecte l'aperçu.
+Appliquez un effet de survol sur le bouton des cartes et sur le cadre des cartes, mais seulement lorsque le bouton lui-même est survolé (et non pas la carte en entier).
+Avec Flexbox, placez le contenu à l'intérieur de la carte tel que démontré dans l'aperçu.
+Sélectionnez la première carte (Sacha (Ash)) et, avec Flexbox, appliquez les styles afin que cette carte s'affiche tel que démontré dans l'aperçu.
+Avec Flexbox, placez les éléments d'en-tête au bon endroit (logo et lien "Devenez dompteur").
+Sélectionnez la carte de Pierre (Brock) : puisqu'il est le champion 🥇, appliquez-lui la couleur or 💛 (gold) sur son contour.
+Sélectionnez la carte de Silver : puisqu'il a la deuxième place 🥈, appliquez-lui la couleur argent 🩶 (silver) sur son contour.
+Sélectionnez la carte de Cynthia : puisqu'elle a la troisième place 🥉, appliquez-lui la couleur bronze 🤎 (#895929) sur son contour.
 </checklist>
 
 <dots></dots>
