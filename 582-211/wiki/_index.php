@@ -318,6 +318,11 @@
     <intlink href="../css/exercices/moby-i-like-to-score/"></intlink> <!-- Pseudo classe de descendance -->
     <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink> <!-- text, typo fontface etc -->
 
+    <h4>Si vous avez fini les autres, continuez sur ceux-ci</h4>
+    <intlink href="../css/exercices/little-richard-here-s-little-richard/"></intlink> <!-- google font, text etc -->
+    <intlink href="../css/exercices/band-de-garage-corpo-trash-vidange/"></intlink> <!-- google font, text etc -->
+
+
 
 
 
@@ -465,14 +470,28 @@
  \_____\___/ \__,_|_|  |___/  \___/ 
                                     
 ----------------------------------->
-<wiki-page name="Cours 06" date="2025-02-25">
+<wiki-page name="Cours 06" date="2025-03-12">
 
-    <warning>
-       
-        <div class="red-label">EXAMEN 1 : merc. 12 et jeudi 13 mars</div> <br>
-        <small>Notez que l'examen ne couvrira que le cours 1 à 5 donc la matière du cours 6 ne sera pas évaluée tout de suite.</small>
-         
-    </warning>
+EXAMEN 1 (30%)
+</wiki-page>
+
+
+
+
+<!-----------------------------------
+  _____                       ______ 
+ / ____|                     |____  |
+| |     ___  _   _ _ __ ___      / / 
+| |    / _ \| | | | '__/ __|    / /  
+| |___| (_) | |_| | |  \__ \   / /   
+ \_____\___/ \__,_|_|  |___/  /_/                   
+----------------------------------->
+
+
+<wiki-page name="Cours 07" date="2025-02-26">
+
+    <!-- GROUPE 1 et 2 l'ont eu le 26 février, le groupe 3 l'aura le 20 mars -->
+
 
 
     <grostitre>Contenu du jour</grostitre>
@@ -540,63 +559,46 @@
     <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-11/'></intlink>
 
     <h3>Pour le cours suivant l'examen</h3>
-    <p>Terminer les exercices débutés en classes aujourd'hui.</p>
+    <intlink href="../css/media-queries/exercices/modok/"></intlink>
+    <intlink href="../css/media-queries/exercices/ou-est-charlie/"></intlink>
+    <intlink href="../css/overflow/exercices/eclipses/"></intlink>
+    <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
+    
+
 </wiki-page>
 
 
 
 
+
+<!-- À placer à quelques part (pas nécessairement à ce cours ci) -->
+<!--  <grostitre>Emmet</grostitre>
+<intlink href="../html/emmet/"></intlink>
+<intlink href="../html/emmet/exercices/page-web-emmet/"></intlink>
+<intlink href="../css/imbrication-css/"></intlink> -->
+
+
+
+
 <!-----------------------------------
-  _____                       ______ 
- / ____|                     |____  |
-| |     ___  _   _ _ __ ___      / / 
-| |    / _ \| | | | '__/ __|    / /  
-| |___| (_) | |_| | |  \__ \   / /   
- \_____\___/ \__,_|_|  |___/  /_/                   
+  _____                        ___  
+ / ____|                      / _ \ 
+| |     ___  _   _ _ __ ___  | (_) |
+| |    / _ \| | | | '__/ __|  > _ < 
+| |___| (_) | |_| | |  \__ \ | (_) |
+ \_____\___/ \__,_|_|  |___/  \___/ 
 ----------------------------------->
-<wiki-page name="Cours 07" date="2025-03-19">
+<wiki-page name="Cours 08" date="2025-03-19">
+    <!-- GROUPE 1 et 2 19 mars, le groupe 3 27 mars -->
 
 
-
-<dots></dots>
-    <grostitre>SVG (si le temps le permet)</grostitre>
+    <grostitre>SVG</grostitre>
     <intlink href="../html/svg/"></intlink>
-    <h3>Exercices SVG (si le temps le permet)</h3>
+    <h3>Exercices SVG </h3>
     <intlink href="../html/svg/exercices/hollywood-boulevard/"></intlink>
     <intlink href="../css/variables/exercices/jidddf/"></intlink><!-- exercice sur les variables mais aussi sur svg -->
 
 
-
-
-
-
-
-    <!-- DÉBUT À placer à quelques part (pas nécessairement àa ce cours ci) -->
-    <grostitre>Emmet</grostitre>
-    <intlink href="../html/emmet/"></intlink>
-    <intlink href="../html/emmet/exercices/page-web-emmet/"></intlink>
-
-
-    <intlink href="../css/imbrication-css/"></intlink>
-
-
-
- <!-- COURS: https://chatgpt.com/share/67aebd86-b458-8004-9029-a521f4518f31  -->
-    
-    <grostitre>Flexbox avancé avec Figma et devmode</grostitre>
-    L’outil Dev Mode dans Figma.  L’outil Figma for VS Code. 
-    <intlink href="../css/flexbox-figma-auto-layout"></intlink>
-    <p>figma for vs code + figma dev mode</p>
-
-
-    <h4>Si vous avez fini les autres, continuez sur ceux-ci</h4>
-    <intlink href="../css/exercices/little-richard-here-s-little-richard/"></intlink> <!-- google font, text etc -->
-    <intlink href="../css/exercices/band-de-garage-corpo-trash-vidange/"></intlink> <!-- google font, text etc -->
-
-
-    
-    <intlink href="../autres/actions-photoshop/"></intlink>
-    <intlink href="../autres/actions-photoshop/exercices/kirby/"></intlink>
     <intlink href="../css/exercices/the-planet-smashers-unstoppable/"></intlink>
     <intlink href="../css/exercices/rage-against-the-machine-renegades/"></intlink>
     <intlink href="../css/exercices/malajube-trompe-l-oeil/"></intlink>
@@ -652,11 +654,23 @@
   _____                        ___  
  / ____|                      / _ \ 
 | |     ___  _   _ _ __ ___  | (_) |
-| |    / _ \| | | | '__/ __|  > _ < 
-| |___| (_) | |_| | |  \__ \ | (_) |
- \_____\___/ \__,_|_|  |___/  \___/ 
+| |    / _ \| | | | '__/ __|  \__, |
+| |___| (_) | |_| | |  \__ \    / / 
+ \_____\___/ \__,_|_|  |___/   /_/                 
 ----------------------------------->
-<wiki-page name="Cours 08" date="2025-03-18">
+<wiki-page name="Cours 09" date="2025-03-26">
+
+
+    <!-- COURS: https://chatgpt.com/share/67aebd86-b458-8004-9029-a521f4518f31  -->
+    
+    <grostitre>Flexbox avancé avec Figma et devmode</grostitre>
+    L’outil Dev Mode dans Figma.  L’outil Figma for VS Code. 
+    <intlink href="../css/flexbox-figma-auto-layout"></intlink>
+    <p>figma for vs code + figma dev mode</p>
+
+
+
+  <!-- GROUPE 1 et 2: 26 mars, le groupe 3 : 3 avril -->
     <intlink href="../css/snap-scroll/"></intlink>
     <intlink href="../css/snap-scroll/exercices/whatisadam/"></intlink>
     <intlink href="../css/masquage/"></intlink>
@@ -676,19 +690,6 @@
 
 
 
-<!-----------------------------------
-  _____                        ___  
- / ____|                      / _ \ 
-| |     ___  _   _ _ __ ___  | (_) |
-| |    / _ \| | | | '__/ __|  \__, |
-| |___| (_) | |_| | |  \__ \    / / 
- \_____\___/ \__,_|_|  |___/   /_/                 
------------------------------------>
-<wiki-page name="Cours 09" date="2025-03-25">
-    <h3>Examen: Birds of Prey</h3>
-    <video playsinline src="./videos/birds-of-prey.mp4" autoplay="true" muted="true" loop="true" style="width: 100%; max-width: 770px;"></video>
-</wiki-page>
-
 
 
 
@@ -701,6 +702,8 @@
  \_____\___/ \__,_|_|  |___/  |_|\___/                                     
 ----------------------------------->
 <wiki-page name="Cours 10" date="2025-04-01">
+
+    <!-- GROUPE 1 et 2: 2 avril, le groupe 3 : 10 avril -->
     <intlink href="../css/flexbox/"></intlink>
     <intlink href="../css/flexbox-intermediaire/"></intlink>
     <h2>Exercices</h2>
@@ -728,6 +731,10 @@
  \_____\___/ \__,_|_|  |___/  |_||_|
  ----------------------------------->      
 <wiki-page name="Cours 11" date="2025-04-08">
+    <!-- GROUPE 1 et 2: 9 avril, le groupe 3 : 24 avril -->
+
+
+
     <intlink href="../css/flexbox-avance/"></intlink>
     <intlink href="../css/animation-sprite-sheet/"></intlink>
     <intlink href="../css/animation-sprite-sheet/exercices/sonic-knuckles/"></intlink>
@@ -746,6 +753,7 @@
  \_____\___/ \__,_|_|  |___/  |_|____|
  ----------------------------------->  
 <wiki-page name="Cours 12" date="2025-04-15">
+     <!-- GROUPE 1 et 2: 16 avril, le groupe 3 : 1 mai -->
 <h3>Travail sur le projet final (partie 1)</h3>
 </wiki-page>
 
@@ -762,6 +770,7 @@
                              
  ----------------------------------->  
 <wiki-page name="Cours 13" date="2025-04-22">
+    <!-- GROUPE 1 et 2: 30 avril, le groupe 3 : 8 mai -->
     <h3>Travail sur le projet final (partie 1)</h3>
 </wiki-page>
 
@@ -779,6 +788,7 @@
                       
  ----------------------------------->  
 <wiki-page name="Cours 14" date="2025-04-29">
+    <!-- GROUPE 1 et 2: 7 mai, le groupe 3 : 15 mai -->
     <h3>Travail sur le projet final (partie 3)</h3>
 </wiki-page>
 
@@ -795,7 +805,8 @@
                                                                       
  ----------------------------------->  
 <wiki-page name="Cours 15" date="2025-05-06">
-    <h3>Présentation du travail final</h3>
+    <!-- GROUPE 1 et 2: 16 mai, le groupe 3 : 21 mai -->
+    <h3>Présentation du travail final: non c'est annulé, aps de présentation finalement car déjà présenté dans le cours de design.</h3>
 </wiki-page>
 
 
