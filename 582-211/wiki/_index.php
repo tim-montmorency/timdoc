@@ -604,8 +604,9 @@ EXAMEN 1 (30%)
     <h3>Révision des exercices du cours 7 : responsive et media queries</h3>
     <intlink href="../css/media-queries/exercices/modok/"></intlink>
     <intlink href="../css/media-queries/exercices/ou-est-charlie/"></intlink>
-    <intlink href="../css/overflow/exercices/eclipses/"></intlink>
-    <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
+    <!--<intlink href="../css/overflow/exercices/eclipses/"></intlink>-->
+
+     <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
 
 
     <h3>Nouveau exercices Media Queries </h3>
