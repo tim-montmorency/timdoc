@@ -494,6 +494,8 @@ EXAMEN 1 (30%)
 
     <!-- GROUPE 1 et 2 l'ont eu le 26 février, le groupe 3 l'aura le 20 mars -->
 
+    <warning>Plusieurs m'ont demandé de faire un retour sur l'examen. Ça me fera un plaisir de le faire, dès que j'ai terminé les corrections, donc probablement au prochain cours.</warning>
+
     <grostitre>Contenu du jour</grostitre>
     <p>Responsive design et media queries:</p>
     <ul>
@@ -591,17 +593,21 @@ EXAMEN 1 (30%)
 ----------------------------------->
 <wiki-page name="Cours 08" date="2025-03-18">
     <!-- GROUPE 1 et 2 19 mars, le groupe 3 27 mars -->
+     <warning>Plusieurs m'ont demandé de faire un retour sur l'examen. Ça me fera un plaisir de le faire, dès que j'ai terminé les corrections, donc probablement au prochain cours.</warning>
 
-    <grostitre>Révision</grostitre>
+
+    <grostitre>Retour sur media-queries</grostitre>
+    <h3>Vu au dernier cours (avant l'examen)</h3>
+    <intlink href="../css/media-queries/"></intlink>
+
+
     <h3>Révision des exercices du cours 7 : responsive et media queries</h3>
     <intlink href="../css/media-queries/exercices/modok/"></intlink>
     <intlink href="../css/media-queries/exercices/ou-est-charlie/"></intlink>
     <intlink href="../css/overflow/exercices/eclipses/"></intlink>
     <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
 
-    <dots></dots>
-    <grostitre>Retour sur media-queries vu au dernier cours (avant l'examen)</grostitre>
-    <intlink href="../css/media-queries/"></intlink>
+
     <h3>Nouveau exercices Media Queries </h3>
     <intlink href="../css/exercices/the-planet-smashers-unstoppable/"></intlink>
     <intlink href="../css/exercices/rage-against-the-machine-renegades/"></intlink>
