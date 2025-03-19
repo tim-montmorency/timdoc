@@ -380,6 +380,16 @@
         </ul>
     </warning> -->
 
+    
+    <grostitre>Exposition des finissants TIM: Résonance</grostitre>
+    <p>Du lundi 17 mars au vendredi 21 mars aux studios TIM !</p>
+    <video autoplay="" loop="" muted="" playsinline="">
+        <source src="https://tim-montmorency.com/2025/medias/resonanceBanner.mp4" type="video/mp4">
+        <figure><img src="https://tim-montmorency.com/2025/medias/resonanceBannerBackup.png" alt="Bannière de l'exposition Résonance" style="display: block; margin: 0px auto;"><figcaption style="text-align: center; font-style: italic;">Bannière de l'exposition Résonance</figcaption></figure>
+    </video>
+
+    <dots></dots>
+
     <grostitre>Contenu du jour</grostitre>
     <ul>
         <li>Flexbox avancé: flex-wrap, align-content, flex, flex-flow</li>
