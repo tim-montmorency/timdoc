@@ -380,15 +380,7 @@
         </ul>
     </warning> -->
 
-    
-    <grostitre>Exposition des finissants TIM: Résonance</grostitre>
-    <p>Du lundi 17 mars au vendredi 21 mars aux studios TIM !</p>
-    <video autoplay="" loop="" muted="" playsinline="">
-        <source src="https://tim-montmorency.com/2025/medias/resonanceBanner.mp4" type="video/mp4">
-        <figure><img src="https://tim-montmorency.com/2025/medias/resonanceBannerBackup.png" alt="Bannière de l'exposition Résonance" style="display: block; margin: 0px auto;"><figcaption style="text-align: center; font-style: italic;">Bannière de l'exposition Résonance</figcaption></figure>
-    </video>
-
-    <dots></dots>
+ 
 
     <grostitre>Contenu du jour</grostitre>
     <ul>
@@ -502,8 +494,6 @@ EXAMEN 1 (30%)
 
     <!-- GROUPE 1 et 2 l'ont eu le 26 février, le groupe 3 l'aura le 20 mars -->
 
-
-
     <grostitre>Contenu du jour</grostitre>
     <p>Responsive design et media queries:</p>
     <ul>
@@ -522,7 +512,7 @@ EXAMEN 1 (30%)
         <li><a href="https://app.wooclap.com/EZHHIO" target="_blank" rel="noopener noreferrer">Groupe 2 - merc. pm</a> Code:&nbsp;EZHHIO</li>
         <li><a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Groupe 3 - jeudi am</a> Code:&nbsp;</li>
     </ol>
-    <h3>Révisions d'exercices</h3>
+    <!--   <h3>Révisions d'exercices</h3>
     <h4>GROUPE 1 (merc AM)</h4>
     <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
     <intlink href="../css/google-fonts/exercices/bart/"></intlink>
@@ -532,7 +522,8 @@ EXAMEN 1 (30%)
     <intlink href="../css/font-face/exercices/la-guerre-la-guerre/"></intlink>
     <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink> 
     <intlink href='../css/variables/exercices/canadiens/'></intlink>
-    <intlink href='../css/variables/exercices/lakers/'></intlink>
+    <intlink href='../css/variables/exercices/lakers/'></intlink> -->
+  
 
 
     <dots></dots>
@@ -598,39 +589,94 @@ EXAMEN 1 (30%)
 | |___| (_) | |_| | |  \__ \ | (_) |
  \_____\___/ \__,_|_|  |___/  \___/ 
 ----------------------------------->
-<wiki-page name="Cours 08" date="2025-03-19">
+<wiki-page name="Cours 08" date="2025-03-18">
     <!-- GROUPE 1 et 2 19 mars, le groupe 3 27 mars -->
 
+    <grostitre>Révision</grostitre>
+    <h3>Révision des exercices du cours 7 : responsive et media queries</h3>
+    <intlink href="../css/media-queries/exercices/modok/"></intlink>
+    <intlink href="../css/media-queries/exercices/ou-est-charlie/"></intlink>
+    <intlink href="../css/overflow/exercices/eclipses/"></intlink>
+    <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
 
+    <dots></dots>
+    <grostitre>Retour sur media-queries vu au dernier cours (avant l'examen)</grostitre>
+    <intlink href="../css/media-queries/"></intlink>
+    <h3>Nouveau exercices Media Queries </h3>
+    <intlink href="../css/exercices/the-planet-smashers-unstoppable/"></intlink>
+    <intlink href="../css/exercices/rage-against-the-machine-renegades/"></intlink>
+    <intlink href="../css/exercices/malajube-trompe-l-oeil/"></intlink>
+    
+
+    <dots></dots> 
     <grostitre>SVG</grostitre>
     <intlink href="../html/svg/"></intlink>
     <h3>Exercices SVG </h3>
     <intlink href="../html/svg/exercices/hollywood-boulevard/"></intlink>
     <intlink href="../css/variables/exercices/jidddf/"></intlink><!-- exercice sur les variables mais aussi sur svg -->
 
-
-    <intlink href="../css/exercices/the-planet-smashers-unstoppable/"></intlink>
-    <intlink href="../css/exercices/rage-against-the-machine-renegades/"></intlink>
-    <intlink href="../css/exercices/malajube-trompe-l-oeil/"></intlink>
-
-    
+    <dots></dots>
+    <grostitre>Les images</grostitre>
     <intlink href="../css/modes-de-fusion/"></intlink>
-    <intlink href="../css/modes-de-fusion/exercices/emotion/"></intlink>
     <intlink href="../css/filtres/"></intlink>
+    <intlink href="../css/object-fit/"></intlink>
+    <intlink href="../css/aspect-ratio/"></intlink>
+
+    <dots></dots>
+    <grostitre>Pseudo-éléments</grostitre>
+    <intlink href="../css/pseudo-elements/"></intlink>
+
+    <dots></dots>
+    <h3>Exercices images (fusion, filtres, object-fit, aspect-ratio) et pseudo-éléments</h3>
+    <intlink href="../css/modes-de-fusion/exercices/emotion/"></intlink>
     <intlink href="../css/filtres/exercices/anonymat/"></intlink>
     <intlink href="../css/filtres/exercices/instagram/"></intlink>
-    <intlink href="../css/pseudo-elements/"></intlink>
-    <intlink href="../css/pseudo-elements/exercices/zab-cafe/"></intlink>
-    <intlink href="../css/object-fit/"></intlink>
-    <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
-    <intlink href="../css/aspect-ratio/"></intlink>
     <intlink href="../css/aspect-ratio/exercices/the-boys/"></intlink>
-    <intlink href="../css/transformation/"></intlink>
-    <intlink href="../css/transformation/exercices/formes/"></intlink>
+    <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
+    <intlink href="../css/pseudo-elements/exercices/zab-cafe/"></intlink>
+
+    <h3>Exercices qui combinent plusieurs aspects vus préalablement</h3>
     <intlink href="../css/exercices/nine-inch-nails-broken/"></intlink>
     <intlink href="../css/exercices/alaclair-ensemble-les-maigres-blancs/"></intlink>
     <intlink href="../css/exercices/the-police-synchronicity/"></intlink>
+
+
+</wiki-page>
+
+
+
+
+
+<!-----------------------------------
+  _____                        ___  
+ / ____|                      / _ \ 
+| |     ___  _   _ _ __ ___  | (_) |
+| |    / _ \| | | | '__/ __|  \__, |
+| |___| (_) | |_| | |  \__ \    / / 
+ \_____\___/ \__,_|_|  |___/   /_/                 
+----------------------------------->
+<wiki-page name="Cours 09" date="2025-03-26">
+
+  <!-- GROUPE 1 et 2: 26 mars, le groupe 3 : 3 avril -->
+
+
+    <!-- COURS: https://chatgpt.com/share/67aebd86-b458-8004-9029-a521f4518f31  -->
+    
+    <grostitre>Flexbox avancé avec Figma et devmode</grostitre>
+    L’outil Dev Mode dans Figma.  L’outil Figma for VS Code. 
+    <intlink href="../css/flexbox-figma-auto-layout"></intlink>
+    <p>figma for vs code + figma dev mode</p>
+
+
+
+
+
+
+    <intlink href="../css/transformation/"></intlink>
+    <intlink href="../css/transformation/exercices/formes/"></intlink>
     <intlink href="../css/exercices/alexisonfire-watch-out/"></intlink>
+
+
 
 
 
@@ -654,33 +700,9 @@ EXAMEN 1 (30%)
     <intlink href="../css/exercices/red-hot-chili-peppers-blood-sugar-sex-magik/"></intlink>
     <intlink href="../css/exercices/eagles-of-death-metal-peace-love-death-metal/"></intlink>
 
-</wiki-page>
 
 
 
-
-
-<!-----------------------------------
-  _____                        ___  
- / ____|                      / _ \ 
-| |     ___  _   _ _ __ ___  | (_) |
-| |    / _ \| | | | '__/ __|  \__, |
-| |___| (_) | |_| | |  \__ \    / / 
- \_____\___/ \__,_|_|  |___/   /_/                 
------------------------------------>
-<wiki-page name="Cours 09" date="2025-03-26">
-
-
-    <!-- COURS: https://chatgpt.com/share/67aebd86-b458-8004-9029-a521f4518f31  -->
-    
-    <grostitre>Flexbox avancé avec Figma et devmode</grostitre>
-    L’outil Dev Mode dans Figma.  L’outil Figma for VS Code. 
-    <intlink href="../css/flexbox-figma-auto-layout"></intlink>
-    <p>figma for vs code + figma dev mode</p>
-
-
-
-  <!-- GROUPE 1 et 2: 26 mars, le groupe 3 : 3 avril -->
     <intlink href="../css/snap-scroll/"></intlink>
     <intlink href="../css/snap-scroll/exercices/whatisadam/"></intlink>
     <intlink href="../css/masquage/"></intlink>
