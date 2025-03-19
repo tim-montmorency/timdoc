@@ -618,9 +618,7 @@ EXAMEN 1 (30%)
     <dots></dots> 
     <grostitre>SVG</grostitre>
     <intlink href="../html/svg/"></intlink>
-    <h3>Exercices SVG </h3>
-    <intlink href="../html/svg/exercices/hollywood-boulevard/"></intlink>
-    <intlink href="../css/variables/exercices/jidddf/"></intlink><!-- exercice sur les variables mais aussi sur svg -->
+   
 
     <dots></dots>
     <grostitre>Les images</grostitre>
@@ -635,11 +633,18 @@ EXAMEN 1 (30%)
 
     <dots></dots>
     <h3>Exercices images (fusion, filtres, object-fit, aspect-ratio) et pseudo-éléments</h3>
+    <intlink href="../html/svg/exercices/hollywood-boulevard/"></intlink>
+    <intlink href="../css/variables/exercices/jidddf/"></intlink><!-- exercice sur les variables mais aussi sur svg -->
+
     <intlink href="../css/modes-de-fusion/exercices/emotion/"></intlink>
+
     <intlink href="../css/filtres/exercices/anonymat/"></intlink>
     <intlink href="../css/filtres/exercices/instagram/"></intlink>
+
     <intlink href="../css/aspect-ratio/exercices/the-boys/"></intlink>
+
     <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
+    
     <intlink href="../css/pseudo-elements/exercices/zab-cafe/"></intlink>
 
     <h3>Exercices qui combinent plusieurs aspects vus préalablement</h3>
