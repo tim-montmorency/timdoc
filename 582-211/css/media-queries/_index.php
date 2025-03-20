@@ -67,7 +67,7 @@
 <dots></dots>
 
 
-<grostitre>Caractéristiques de média</grostitre>
+<grostitre>Caractéristiques de média (conditions)</grostitre>
 
 <p>Les caractéristiques média s'écrivent <u>toujours entre parenthèses</u> et testent si une condition spécifique est respectée.</p>
 
@@ -115,9 +115,17 @@
   <incode>,</incode> <em>(virgule)</em> Permet de combiner plusieurs requêtes. Chaque requête est traitée séparément. Il suffit qu'une seule de ces requêtes soit respectée pour que les styles s'appliquent. ex: <incode>(orientation: landscape), (min-width: 600px)</incode> s'appliquera sur les appareils dont l'orientation est landscape <strong>et/ou</strong> la largeur minimale est de 600px. Donc une tablette en mode portrait serait quand même affectée par les styles même si son orientation ne correspond pas.
 </p>
 
+<warning>
+  <h3>Combinaison des requêtes média <incode>min-width</incode> et <incode>max-width</incode> </h3>
+  <p>Les requêtes média  <incode>min-width</incode> et <incode>max-width</incode> peuvent être utilisées conjointement pour cibler une plage spécifique de tailles de fenêtre. Voici un exemple d'utilisation de la largeur minimale et maximale dans une requête média:</p>
+  <highlight lang='css'>@media only screen and (max-width: 600px) and (min-width: 400px) {
+  ...
+}</highlight>
+<p>Remarquer le <incode>only</incode> qui suit le <incode>@media</incode>, c'est ce terme qui fait en sorte que les 2 conditions doivent être remplies pour entrer dans ce bloc de media query.</p>
+</warning>
+
+
 <dots></dots>
-
-
 <grostitre>Breakpoints</grostitre>
 
 <p>Même si notre site est parfaitement responsive, il est parfois souhaitable de faire un changement d'affichage dans certains contextes, afin d'éviter que la dimension de certains éléments devienne un enjeu.</p>
