@@ -548,9 +548,9 @@ EXAMEN 1 (30%)
 
 
     <dots></dots>
-    <grostitre>Devoir et études pour l'examen</grostitre>
+    <grostitre>Devoir pour prochain cours</grostitre>
 
-    <h3>Pour le cours suivant l'examen</h3>
+    <h3>Terminer les exercices débutés en classe</h3>
     <intlink href="../css/media-queries/exercices/modok/"></intlink>
     <intlink href="../css/media-queries/exercices/ou-est-charlie/"></intlink>
 
