@@ -642,6 +642,24 @@ EXAMEN 1 (30%)
     <intlink href="../css/exercices/the-police-synchronicity/"></intlink>
 
 
+    <dots></dots>
+    <grostitre>Devoir pour prochain cours</grostitre>
+
+    <intlink href="../html/svg/exercices/hollywood-boulevard/"></intlink>
+    <intlink href="../css/variables/exercices/jidddf/"></intlink><!-- exercice sur les variables mais aussi sur svg -->
+
+    <intlink href="../css/modes-de-fusion/exercices/emotion/"></intlink>
+
+    <intlink href="../css/filtres/exercices/anonymat/"></intlink>
+    <intlink href="../css/filtres/exercices/instagram/"></intlink>
+
+    <intlink href="../css/aspect-ratio/exercices/the-boys/"></intlink>
+<!--    <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
+    
+    <intlink href="../css/pseudo-elements/exercices/zab-cafe/"></intlink> -->
+ 
+
+
 </wiki-page>
 
 
