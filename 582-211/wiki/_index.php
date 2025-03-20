@@ -541,7 +541,7 @@ EXAMEN 1 (30%)
     <h3>Exercices responsive et media queries</h3>
     <intlink href="../css/media-queries/exercices/modok/"></intlink>
     <intlink href="../css/media-queries/exercices/ou-est-charlie/"></intlink>
-    <intlink href="../css/overflow/exercices/eclipses/"></intlink>
+    <!--<intlink href="../css/overflow/exercices/eclipses/"></intlink>-->
     <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
     
 
