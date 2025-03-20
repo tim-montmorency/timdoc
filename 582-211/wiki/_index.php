@@ -550,21 +550,10 @@ EXAMEN 1 (30%)
     <dots></dots>
     <grostitre>Devoir et études pour l'examen</grostitre>
 
-    <h3>Pour l'examen du 12-13 mars</h3>
-    <p>Pour ceux qui ont pris du retard, tous les exercices des cours 1 à 5 devront être complétés d'ici l'examen. <br>Tous les exercices qu'on a révisé en classe ensemble en plus de:</p>
-    <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
-    <intlink href="../css/pseudo-classes-avancees/exercices/css-diner/"></intlink>
-    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-6/"></intlink>
-    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-7/"></intlink>
-    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-8/"></intlink>
-    <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-9/'></intlink>
-    <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-10/'></intlink>
-    <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-11/'></intlink>
-
     <h3>Pour le cours suivant l'examen</h3>
     <intlink href="../css/media-queries/exercices/modok/"></intlink>
     <intlink href="../css/media-queries/exercices/ou-est-charlie/"></intlink>
-    <intlink href="../css/overflow/exercices/eclipses/"></intlink>
+
     <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
     
 
