@@ -28,7 +28,7 @@
             <li><a href="https://app.wooclap.com/LLJENC" target="_blank" rel="noopener noreferrer">Groupe 3 - jeudi pm</a></li>
         </ol>
     </li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EX_-E_dns8ZIinsxd23pkVsBbZOFWdDBB19Ss2nB_7KuRQ?e=mDDmea" target="_blank" rel="noopener noreferrer">Plan de cours</a> et positionnement du cours dans le programme et pour votre avenir.</li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUvUhN4tNxxFnyrchwy_QtoBwt3Sq-CZXolIei49ImZirw?e=0kMKk3" target="_blank" rel="noopener noreferrer">Plan de cours (MÀJ 24 mars 2025 contenant les modifications de dates)</a> et positionnement du cours dans le programme et pour votre avenir.</li>
         <li>Texte à lire: <a href="https://css-tricks.com/the-importance-of-investing-in-soft-skills-in-the-age-of-ai/">L’importance d’investir dans les compétences générales à l’ère de l’IA</a></li>
     </ul>
    
@@ -318,6 +318,11 @@
     <intlink href="../css/exercices/moby-i-like-to-score/"></intlink> <!-- Pseudo classe de descendance -->
     <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink> <!-- text, typo fontface etc -->
 
+    <h4>Si vous avez fini les autres, continuez sur ceux-ci</h4>
+    <intlink href="../css/exercices/little-richard-here-s-little-richard/"></intlink> <!-- google font, text etc -->
+    <intlink href="../css/exercices/band-de-garage-corpo-trash-vidange/"></intlink> <!-- google font, text etc -->
+
+
 
 
 
@@ -375,15 +380,7 @@
         </ul>
     </warning> -->
 
-    
-    <grostitre>Exposition des finissants TIM: Résonance</grostitre>
-    <p>Du lundi 17 mars au vendredi 21 mars aux studios TIM !</p>
-    <video autoplay="" loop="" muted="" playsinline="">
-        <source src="https://tim-montmorency.com/2025/medias/resonanceBanner.mp4" type="video/mp4">
-        <figure><img src="https://tim-montmorency.com/2025/medias/resonanceBannerBackup.png" alt="Bannière de l'exposition Résonance" style="display: block; margin: 0px auto;"><figcaption style="text-align: center; font-style: italic;">Bannière de l'exposition Résonance</figcaption></figure>
-    </video>
-
-    <dots></dots>
+ 
 
     <grostitre>Contenu du jour</grostitre>
     <ul>
@@ -475,18 +472,29 @@
  \_____\___/ \__,_|_|  |___/  \___/ 
                                     
 ----------------------------------->
-<wiki-page name="Cours 06" date="2025-02-25">
+<wiki-page name="Cours 06" date="2025-03-12">
 
-    <grostitre>Exposition des finissants TIM: Résonance</grostitre>
-    <p>Du lundi 17 mars au vendredi 21 mars aux studios TIM !</p>
-    <video autoplay="" loop="" muted="" playsinline="">
-        <source src="https://tim-montmorency.com/2025/medias/resonanceBanner.mp4" type="video/mp4">
-        <figure><img src="https://tim-montmorency.com/2025/medias/resonanceBannerBackup.png" alt="Bannière de l'exposition Résonance" style="display: block; margin: 0px auto;"><figcaption style="text-align: center; font-style: italic;">Bannière de l'exposition Résonance</figcaption></figure>
-    </video>
-
-    <dots></dots>
+EXAMEN 1 (30%)
+</wiki-page>
 
 
+
+
+<!-----------------------------------
+  _____                       ______ 
+ / ____|                     |____  |
+| |     ___  _   _ _ __ ___      / / 
+| |    / _ \| | | | '__/ __|    / /  
+| |___| (_) | |_| | |  \__ \   / /   
+ \_____\___/ \__,_|_|  |___/  /_/                   
+----------------------------------->
+
+
+<wiki-page name="Cours 07" date="2025-02-26">
+
+    <!-- GROUPE 1 et 2 l'ont eu le 26 février, le groupe 3 l'aura le 20 mars -->
+
+    <warning>Plusieurs m'ont demandé de faire un retour sur l'examen. Ça me fera un plaisir de le faire, dès que j'ai terminé les corrections, donc probablement au prochain cours.</warning>
 
     <grostitre>Contenu du jour</grostitre>
     <p>Responsive design et media queries:</p>
@@ -506,7 +514,7 @@
         <li><a href="https://app.wooclap.com/EZHHIO" target="_blank" rel="noopener noreferrer">Groupe 2 - merc. pm</a> Code:&nbsp;EZHHIO</li>
         <li><a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Groupe 3 - jeudi am</a> Code:&nbsp;</li>
     </ol>
-    <h3>Révisions d'exercices</h3>
+    <!--   <h3>Révisions d'exercices</h3>
     <h4>GROUPE 1 (merc AM)</h4>
     <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
     <intlink href="../css/google-fonts/exercices/bart/"></intlink>
@@ -516,7 +524,8 @@
     <intlink href="../css/font-face/exercices/la-guerre-la-guerre/"></intlink>
     <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink> 
     <intlink href='../css/variables/exercices/canadiens/'></intlink>
-    <intlink href='../css/variables/exercices/lakers/'></intlink>
+    <intlink href='../css/variables/exercices/lakers/'></intlink> -->
+  
 
 
     <dots></dots>
@@ -532,79 +541,145 @@
     <h3>Exercices responsive et media queries</h3>
     <intlink href="../css/media-queries/exercices/modok/"></intlink>
     <intlink href="../css/media-queries/exercices/ou-est-charlie/"></intlink>
-    <intlink href="../css/overflow/exercices/eclipses/"></intlink>
+    <!--<intlink href="../css/overflow/exercices/eclipses/"></intlink>-->
     <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
     
 
 
 
     <dots></dots>
-    <grostitre>Devoir et études pour l'examen</grostitre>
+    <grostitre>Devoir pour prochain cours</grostitre>
 
-    <h3>Pour l'examen du 12-13 mars</h3>
-    <p>Pour ceux qui ont pris du retard, tous les exercices des cours 1 à 5 devront être complétés d'ici l'examen. <br>Tous les exercices qu'on a révisé en classe ensemble en plus de:</p>
-    <intlink href="../css/pseudo-classes-intermediaires/exercices/css-diner/"></intlink>
-    <intlink href="../css/pseudo-classes-avancees/exercices/css-diner/"></intlink>
-    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-6/"></intlink>
-    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-7/"></intlink>
-    <intlink href="../css/flexbox-intermediaire/exercices/flexbox-zombie-chapitre-8/"></intlink>
-    <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-9/'></intlink>
-    <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-10/'></intlink>
-    <intlink href='../css/flexbox-avance/exercices/flexbox-zombie-chapitre-11/'></intlink>
+    <h3>Terminer les exercices débutés en classe</h3>
+    <intlink href="../css/media-queries/exercices/modok/"></intlink>
+    <intlink href="../css/media-queries/exercices/ou-est-charlie/"></intlink>
 
-    <h3>Pour le cours suivant l'examen</h3>
-    <p>Terminer les exercices débutés en classes aujourd'hui.</p>
+    <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
+    
+
 </wiki-page>
 
 
 
 
+
+<!-- À placer à quelques part (pas nécessairement à ce cours ci) -->
+<!--  <grostitre>Emmet</grostitre>
+<intlink href="../html/emmet/"></intlink>
+<intlink href="../html/emmet/exercices/page-web-emmet/"></intlink>
+<intlink href="../css/imbrication-css/"></intlink> -->
+
+
+
+
 <!-----------------------------------
-  _____                       ______ 
- / ____|                     |____  |
-| |     ___  _   _ _ __ ___      / / 
-| |    / _ \| | | | '__/ __|    / /  
-| |___| (_) | |_| | |  \__ \   / /   
- \_____\___/ \__,_|_|  |___/  /_/                   
+  _____                        ___  
+ / ____|                      / _ \ 
+| |     ___  _   _ _ __ ___  | (_) |
+| |    / _ \| | | | '__/ __|  > _ < 
+| |___| (_) | |_| | |  \__ \ | (_) |
+ \_____\___/ \__,_|_|  |___/  \___/ 
 ----------------------------------->
-<wiki-page name="Cours 07" date="2025-03-19">
-
-    <grostitre>Exposition des finissants TIM: Résonance</grostitre>
-    <p>Du lundi 17 mars au vendredi 21 mars aux studios TIM !</p>
-    <video autoplay="" loop="" muted="" playsinline="">
-        <source src="https://tim-montmorency.com/2025/medias/resonanceBanner.mp4" type="video/mp4">
-        <figure><img src="https://tim-montmorency.com/2025/medias/resonanceBannerBackup.png" alt="Bannière de l'exposition Résonance" style="display: block; margin: 0px auto;"><figcaption style="text-align: center; font-style: italic;">Bannière de l'exposition Résonance</figcaption></figure>
-    </video>
-
-    <dots></dots>
+<wiki-page name="Cours 08" date="2025-03-18">
+    <!-- GROUPE 1 et 2 19 mars, le groupe 3 27 mars -->
+     <warning>Plusieurs m'ont demandé de faire un retour sur l'examen. Ça me fera un plaisir de le faire, dès que j'ai terminé les corrections, donc probablement au prochain cours.</warning>
 
 
+    <grostitre>Retour sur media-queries</grostitre>
+    <h3>Vu au dernier cours (avant l'examen)</h3>
+    <intlink href="../css/media-queries/"></intlink>
 
 
-    <dots></dots>
-    <grostitre>SVG (si le temps le permet)</grostitre>
+    <h3>Révision des exercices du cours 7 : responsive et media queries</h3>
+    <intlink href="../css/media-queries/exercices/modok/"></intlink>
+    <intlink href="../css/media-queries/exercices/ou-est-charlie/"></intlink>
+    <!--<intlink href="../css/overflow/exercices/eclipses/"></intlink>-->
+
+     <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
+
+
+    <h3>Nouveau exercices Media Queries </h3>
+    <intlink href="../css/exercices/the-planet-smashers-unstoppable/"></intlink>
+    <intlink href="../css/exercices/rage-against-the-machine-renegades/"></intlink>
+    <intlink href="../css/exercices/malajube-trompe-l-oeil/"></intlink>
+    
+
+    <dots></dots> 
+    <grostitre>SVG</grostitre>
     <intlink href="../html/svg/"></intlink>
-    <h3>Exercices SVG (si le temps le permet)</h3>
+   
+
+    <dots></dots>
+    <grostitre>Les images</grostitre>
+    <intlink href="../css/modes-de-fusion/"></intlink>
+    <intlink href="../css/filtres/"></intlink>
+    <intlink href="../css/object-fit/"></intlink>
+    <intlink href="../css/aspect-ratio/"></intlink>
+
+    <dots></dots>
+    <grostitre>Pseudo-éléments</grostitre>
+    <intlink href="../css/pseudo-elements/"></intlink>
+
+    <dots></dots>
+    <h3>Exercices images (fusion, filtres, object-fit, aspect-ratio) et pseudo-éléments</h3>
     <intlink href="../html/svg/exercices/hollywood-boulevard/"></intlink>
     <intlink href="../css/variables/exercices/jidddf/"></intlink><!-- exercice sur les variables mais aussi sur svg -->
 
+    <intlink href="../css/modes-de-fusion/exercices/emotion/"></intlink>
+
+    <intlink href="../css/filtres/exercices/anonymat/"></intlink>
+    <intlink href="../css/filtres/exercices/instagram/"></intlink>
+
+    <intlink href="../css/aspect-ratio/exercices/the-boys/"></intlink>
+
+    <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
+    
+    <intlink href="../css/pseudo-elements/exercices/zab-cafe/"></intlink>
+
+    <h3>Exercices qui combinent plusieurs aspects vus préalablement</h3>
+    <intlink href="../css/exercices/nine-inch-nails-broken/"></intlink>
+    <intlink href="../css/exercices/alaclair-ensemble-les-maigres-blancs/"></intlink>
+    <intlink href="../css/exercices/the-police-synchronicity/"></intlink>
+
+
+    <dots></dots>
+    <grostitre>Devoir pour prochain cours</grostitre>
+
+    <intlink href="../html/svg/exercices/hollywood-boulevard/"></intlink>
+    <intlink href="../css/variables/exercices/jidddf/"></intlink><!-- exercice sur les variables mais aussi sur svg -->
+
+    <intlink href="../css/modes-de-fusion/exercices/emotion/"></intlink>
+
+    <intlink href="../css/filtres/exercices/anonymat/"></intlink>
+    <intlink href="../css/filtres/exercices/instagram/"></intlink>
+
+    <intlink href="../css/aspect-ratio/exercices/the-boys/"></intlink>
+<!--    <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
+    
+    <intlink href="../css/pseudo-elements/exercices/zab-cafe/"></intlink> -->
+ 
+
+
+</wiki-page>
 
 
 
 
 
+<!-----------------------------------
+  _____                        ___  
+ / ____|                      / _ \ 
+| |     ___  _   _ _ __ ___  | (_) |
+| |    / _ \| | | | '__/ __|  \__, |
+| |___| (_) | |_| | |  \__ \    / / 
+ \_____\___/ \__,_|_|  |___/   /_/                 
+----------------------------------->
+<wiki-page name="Cours 09" date="2025-03-26">
 
-    <!-- DÉBUT À placer à quelques part (pas nécessairement àa ce cours ci) -->
-    <grostitre>Emmet</grostitre>
-    <intlink href="../html/emmet/"></intlink>
-    <intlink href="../html/emmet/exercices/page-web-emmet/"></intlink>
+  <!-- GROUPE 1 et 2: 26 mars, le groupe 3 : 3 avril -->
 
 
-    <intlink href="../css/imbrication-css/"></intlink>
-
-
-
- <!-- COURS: https://chatgpt.com/share/67aebd86-b458-8004-9029-a521f4518f31  -->
+    <!-- COURS: https://chatgpt.com/share/67aebd86-b458-8004-9029-a521f4518f31  -->
     
     <grostitre>Flexbox avancé avec Figma et devmode</grostitre>
     L’outil Dev Mode dans Figma.  L’outil Figma for VS Code. 
@@ -612,36 +687,15 @@
     <p>figma for vs code + figma dev mode</p>
 
 
-    <h4>Si vous avez fini les autres, continuez sur ceux-ci</h4>
-    <intlink href="../css/exercices/little-richard-here-s-little-richard/"></intlink> <!-- google font, text etc -->
-    <intlink href="../css/exercices/band-de-garage-corpo-trash-vidange/"></intlink> <!-- google font, text etc -->
 
 
-    
-    <intlink href="../autres/actions-photoshop/"></intlink>
-    <intlink href="../autres/actions-photoshop/exercices/kirby/"></intlink>
-    <intlink href="../css/exercices/the-planet-smashers-unstoppable/"></intlink>
-    <intlink href="../css/exercices/rage-against-the-machine-renegades/"></intlink>
-    <intlink href="../css/exercices/malajube-trompe-l-oeil/"></intlink>
 
-    
-    <intlink href="../css/modes-de-fusion/"></intlink>
-    <intlink href="../css/modes-de-fusion/exercices/emotion/"></intlink>
-    <intlink href="../css/filtres/"></intlink>
-    <intlink href="../css/filtres/exercices/anonymat/"></intlink>
-    <intlink href="../css/filtres/exercices/instagram/"></intlink>
-    <intlink href="../css/pseudo-elements/"></intlink>
-    <intlink href="../css/pseudo-elements/exercices/zab-cafe/"></intlink>
-    <intlink href="../css/object-fit/"></intlink>
-    <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
-    <intlink href="../css/aspect-ratio/"></intlink>
-    <intlink href="../css/aspect-ratio/exercices/the-boys/"></intlink>
+
     <intlink href="../css/transformation/"></intlink>
     <intlink href="../css/transformation/exercices/formes/"></intlink>
-    <intlink href="../css/exercices/nine-inch-nails-broken/"></intlink>
-    <intlink href="../css/exercices/alaclair-ensemble-les-maigres-blancs/"></intlink>
-    <intlink href="../css/exercices/the-police-synchronicity/"></intlink>
     <intlink href="../css/exercices/alexisonfire-watch-out/"></intlink>
+
+
 
 
 
@@ -665,21 +719,9 @@
     <intlink href="../css/exercices/red-hot-chili-peppers-blood-sugar-sex-magik/"></intlink>
     <intlink href="../css/exercices/eagles-of-death-metal-peace-love-death-metal/"></intlink>
 
-</wiki-page>
 
 
 
-
-
-<!-----------------------------------
-  _____                        ___  
- / ____|                      / _ \ 
-| |     ___  _   _ _ __ ___  | (_) |
-| |    / _ \| | | | '__/ __|  > _ < 
-| |___| (_) | |_| | |  \__ \ | (_) |
- \_____\___/ \__,_|_|  |___/  \___/ 
------------------------------------>
-<wiki-page name="Cours 08" date="2025-03-18">
     <intlink href="../css/snap-scroll/"></intlink>
     <intlink href="../css/snap-scroll/exercices/whatisadam/"></intlink>
     <intlink href="../css/masquage/"></intlink>
@@ -723,6 +765,8 @@
  \_____\___/ \__,_|_|  |___/  |_|\___/                                     
 ----------------------------------->
 <wiki-page name="Cours 10" date="2025-04-01">
+
+    <!-- GROUPE 1 et 2: 2 avril, le groupe 3 : 10 avril -->
     <intlink href="../css/flexbox/"></intlink>
     <intlink href="../css/flexbox-intermediaire/"></intlink>
     <h2>Exercices</h2>
@@ -750,6 +794,10 @@
  \_____\___/ \__,_|_|  |___/  |_||_|
  ----------------------------------->      
 <wiki-page name="Cours 11" date="2025-04-08">
+    <!-- GROUPE 1 et 2: 9 avril, le groupe 3 : 24 avril -->
+
+
+
     <intlink href="../css/flexbox-avance/"></intlink>
     <intlink href="../css/animation-sprite-sheet/"></intlink>
     <intlink href="../css/animation-sprite-sheet/exercices/sonic-knuckles/"></intlink>
@@ -768,6 +816,7 @@
  \_____\___/ \__,_|_|  |___/  |_|____|
  ----------------------------------->  
 <wiki-page name="Cours 12" date="2025-04-15">
+     <!-- GROUPE 1 et 2: 16 avril, le groupe 3 : 1 mai -->
 <h3>Travail sur le projet final (partie 1)</h3>
 </wiki-page>
 
@@ -784,6 +833,7 @@
                              
  ----------------------------------->  
 <wiki-page name="Cours 13" date="2025-04-22">
+    <!-- GROUPE 1 et 2: 30 avril, le groupe 3 : 8 mai -->
     <h3>Travail sur le projet final (partie 1)</h3>
 </wiki-page>
 
@@ -801,6 +851,7 @@
                       
  ----------------------------------->  
 <wiki-page name="Cours 14" date="2025-04-29">
+    <!-- GROUPE 1 et 2: 7 mai, le groupe 3 : 15 mai -->
     <h3>Travail sur le projet final (partie 3)</h3>
 </wiki-page>
 
@@ -817,7 +868,8 @@
                                                                       
  ----------------------------------->  
 <wiki-page name="Cours 15" date="2025-05-06">
-    <h3>Présentation du travail final</h3>
+    <!-- GROUPE 1 et 2: 16 mai, le groupe 3 : 21 mai -->
+    <h3>Présentation du travail final: non c'est annulé, aps de présentation finalement car déjà présenté dans le cours de design.</h3>
 </wiki-page>
 
 
@@ -829,7 +881,7 @@
 <wiki-page name="Ressources" date="2025-01-14">
     <grostitre>Plans de cours et guides</grostitre>
     <ul>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EX_-E_dns8ZIinsxd23pkVsBbZOFWdDBB19Ss2nB_7KuRQ?e=AFo3Vh" target="_blank" rel="noopener noreferrer">Plan du cours Web 2</a></li>
+        <li><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUvUhN4tNxxFnyrchwy_QtoBwt3Sq-CZXolIei49ImZirw?e=0kMKk3" target="_blank" rel="noopener noreferrer">Plan de cours Web 2 (MÀJ 24 mars 2025 contenant les modifications de dates)</a></li>
         <li><a href="https://cmontmorency365.sharepoint.com/:w:/r/sites/TIM-TTP/_layouts/15/Doc.aspx?sourcedoc=%7B48119BB7-5AEC-438C-BB23-C7DA3EE1061D%7D&file=guide_etudiants.docx&action=default&mobileredirect=true" target="_blank" rel="noopener noreferrer">Guide étudiant TIM</a></li>
     </ul>
 
