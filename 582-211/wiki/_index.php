@@ -600,14 +600,8 @@ EXAMEN 1 (30%)
     </warning>
 
     <grostitre>Retour sur l'examen (groupe 3)</grostitre>
+    <p>Présentation par l'enseignante.</p>
     <dots></dots>
-
-
-
-
-    <grostitre>Retour sur media-queries</grostitre>
-    <h3>Vu au dernier cours (avant l'examen)</h3>
-    <intlink href="../css/media-queries/"></intlink>
 
 
     <h3>Révision des exercices du cours 7 : responsive et media queries</h3>

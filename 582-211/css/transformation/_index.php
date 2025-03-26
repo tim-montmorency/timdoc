@@ -52,6 +52,14 @@
 
 <p>Il est également possible de combiner les 3 axes dans une valeur en utilisant <incode>translate3d(...)</incode>.</p>
 
+
+<info>
+  <h3>Centrer un élément en <incode>position:absolute;</incode> </h3>
+  <p>Il est possible de centrer un élément en utilisant la propriété <incode>transform</incode> combinée à <incode>position:absolute;</incode> et <incode>top</incode> et <incode>left</incode> à 50%.</p>
+
+  <codepen id="VYwGYQy" tab="result" height="500"></codepen>
+</info>
+
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/transform-function/translate()">transform: translate()</doclink>
 
 <dots></dots>
