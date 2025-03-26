@@ -767,7 +767,7 @@ EXAMEN 1 (30%)
 
 
     <dots></dots>
-    <grostitre>Devoirs obligatoire pour la semaine prochaine</grostitre>
+    <grostitre>Devoirs obligatoires pour la semaine prochaine</grostitre>
     <p>Terminer les exercices non terminés en classe:</p>
 
     <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
