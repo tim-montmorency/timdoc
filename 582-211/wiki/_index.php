@@ -582,7 +582,27 @@ EXAMEN 1 (30%)
 ----------------------------------->
 <wiki-page name="Cours 08" date="2025-03-18">
     <!-- GROUPE 1 et 2 19 mars, le groupe 3 27 mars -->
-     <warning>Plusieurs m'ont demandé de faire un retour sur l'examen. Ça me fera un plaisir de le faire, dès que j'ai terminé les corrections, donc probablement au prochain cours.</warning>
+
+
+
+    <warning>
+        <h3>Changement de dates</h3>
+        <p>Changements de dates au <a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUvUhN4tNxxFnyrchwy_QtoBwt3Sq-CZXolIei49ImZirw?e=0kMKk3" target="_blank" rel="noopener noreferrer">Plan de cours Web 2 (MÀJ 24 mars 2025 contenant les modifications de dates)</a>. Cela affecte surtout le groupe du jeudi mais j'ai du rebougé la date de l'examen 2 et de la remise du projet final.</p>
+        <ul>
+            <li>Examen 2 : mercredi le 30 avril / jeudi le 1<sup>er</sup> mai</li>
+            <li>Projet final: annulation de la présentation en classe au cours 15. Un peu après votre dernier cours soit:
+                <ul>
+                    <li>Groupe 1 et 2: remise dimanche le 18 mai avant 23h59 <!--(55h-60h après la fin du cours 15)-->.</li>
+                    <li>Groupe 3: remise jeudi le 22 mai avant 13h30 <!--(24h après la fin du cours 15)-->.</li>
+                </ul>
+            </li>
+        </ul>
+    </warning>
+
+    <grostitre>Retour sur l'examen (groupe 3)</grostitre>
+    <dots></dots>
+
+
 
 
     <grostitre>Retour sur media-queries</grostitre>
@@ -678,6 +698,132 @@ EXAMEN 1 (30%)
 
   <!-- GROUPE 1 et 2: 26 mars, le groupe 3 : 3 avril -->
 
+    <warning>
+        <h3>Changement de dates</h3>
+        <p>Changements de dates au <a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUvUhN4tNxxFnyrchwy_QtoBwt3Sq-CZXolIei49ImZirw?e=0kMKk3" target="_blank" rel="noopener noreferrer">Plan de cours Web 2 (MÀJ 24 mars 2025 contenant les modifications de dates)</a>. Cela affecte surtout le groupe du jeudi mais j'ai du rebougé la date de l'examen 2 et de la remise du projet final.</p>
+        <ul>
+            <li>Examen 2 : mercredi le 30 avril / jeudi le 1<sup>er</sup> mai</li>
+            <li>Projet final: annulation de la présentation en classe au cours 15. Un peu après votre dernier cours soit:
+                <ul>
+                    <li>Groupe 1 et 2: remise dimanche le 18 mai avant 23h59 <!--(55h-60h après la fin du cours 15)-->.</li>
+                    <li>Groupe 3: remise jeudi le 22 mai avant 13h30 <!--(24h après la fin du cours 15)-->.</li>
+                </ul>
+            </li>
+        </ul>
+    </warning>
+
+    <grostitre>Retour sur l'examen (groupes 1 et 2)</grostitre>
+    <p>Présentation des détails.</p>
+    <dots></dots>
+ 
+
+
+    <!-- 
+    Dernier cours (cours 8) - note to self
+    groupe 1 
+    Ils ont passé presque tout le cours à faire MODOK, Où est Chalie et Marylène Gendron.
+    Ensuite j'ai présenté SVG, Mode fusion, filtres, object-fit, aspect-ratio et pseudo-element.
+    Finalement qq un ont débuté SVG hollywood et d'autres emotion et anonymat puis ils ont quitté.
+
+    groupe 2
+    Ils ont passé un partue du cours à faire MODOK, Où est Chalie et Marylène Gendron.
+    Ensuite j'ai présenté SVG, Mode fusion, filtres, object-fit, aspect-ratio et pseudo-element.
+    Finalement ils ont tous quitté plus tôt le cours, me mentionnant qu'ils vont faire les exercices à la maison... oh well.
+    -->
+   <grostitre>Révision exercices obligatoires (à terminer en devoir)</grostitre>
+   <h3>Cours 7</h3>
+   <intlink href="../css/media-queries/exercices/modok/"></intlink>
+   <intlink href="../css/media-queries/exercices/ou-est-charlie/"></intlink>
+   <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
+
+
+    <h3>Cours 8</h3>
+    <intlink href="../html/svg/exercices/hollywood-boulevard/"></intlink>
+    <intlink href="../css/variables/exercices/jidddf/"></intlink>
+
+    <intlink href="../css/modes-de-fusion/exercices/emotion/"></intlink>
+
+    <intlink href="../css/filtres/exercices/anonymat/"></intlink>
+    <intlink href="../css/filtres/exercices/instagram/"></intlink>
+
+    <intlink href="../css/aspect-ratio/exercices/the-boys/"></intlink>
+
+
+    <dots></dots>
+    <grostitre>Suite de la semaine dernière...</grostitre>
+    <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
+    <intlink href="../css/pseudo-elements/exercices/zab-cafe/"></intlink>
+
+    <dots></dots>
+    
+    <grostitre><span class="red-label">Nouveau contenu:</span> Transformation CSS</grostitre>
+
+    
+
+
+    <intlink href="../css/transformation/"></intlink>
+    <intlink href="../css/exercices/alexisonfire-watch-out/"></intlink>
+    <intlink href="../css/transformation/exercices/formes/"></intlink>
+
+
+    <dots></dots>
+    <grostitre>Devoirs obligatoire pour la semaine prochaine</grostitre>
+    <p>Terminer les exercices non terminés en classe:</p>
+
+    <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
+    <intlink href="../css/pseudo-elements/exercices/zab-cafe/"></intlink>
+.
+    <intlink href="../css/exercices/alexisonfire-watch-out/"></intlink>
+    <intlink href="../css/transformation/exercices/formes/"></intlink>
+
+
+
+
+
+
+    
+
+
+
+
+</wiki-page>
+
+
+
+<!-----------------------------------
+  _____                       __  ___  
+ / ____|                     /_ |/ _ \ 
+| |     ___  _   _ _ __ ___   | | | | |
+| |    / _ \| | | | '__/ __|  | | | | |
+| |___| (_) | |_| | |  \__ \  | | |_| |
+ \_____\___/ \__,_|_|  |___/  |_|\___/                                     
+----------------------------------->
+<wiki-page name="Cours 10" date="2025-04-01">
+ 
+
+
+
+    <!-- GROUPE 1 et 2: 2 avril, le groupe 3 : 10 avril -->
+
+    <info>
+        <h3>Projet final (conjoint avec Design Graphique)</h3>
+        <p>Nous en reparlerons plus tard mais je tiens déjà à vous le mentionner, ce projet est conjoint avec votre projet actuel de refonte de site web en design graphique. Vous devrez intégrer votre design (idéalement le votre mais il est possible que vous ayez à changer pour un autre). Pour la partie du cours de <strong><em>Web 2</em></strong> ce sera équipe de deux par deux. Vous devrez former vos équipes. Chaque équipe doit avoir <strong><em>au moins une personne qui fait aussi le cours de design graphique cette session</em></strong>. Vous n'êtes pas contraints à garder la même équipe de celle de design graphique mais si vous bougez, il se peut que vous ayez à intégrer le design de quelqu'un d'autres, vous devrez accepter cela.</p>
+    </info>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
     <!-- COURS: https://chatgpt.com/share/67aebd86-b458-8004-9029-a521f4518f31  -->
     
@@ -685,15 +831,6 @@ EXAMEN 1 (30%)
     L’outil Dev Mode dans Figma.  L’outil Figma for VS Code. 
     <intlink href="../css/flexbox-figma-auto-layout"></intlink>
     <p>figma for vs code + figma dev mode</p>
-
-
-
-
-
-
-    <intlink href="../css/transformation/"></intlink>
-    <intlink href="../css/transformation/exercices/formes/"></intlink>
-    <intlink href="../css/exercices/alexisonfire-watch-out/"></intlink>
 
 
 
@@ -722,12 +859,6 @@ EXAMEN 1 (30%)
 
 
 
-    <intlink href="../css/snap-scroll/"></intlink>
-    <intlink href="../css/snap-scroll/exercices/whatisadam/"></intlink>
-    <intlink href="../css/masquage/"></intlink>
-    <intlink href="../css/masquage/exercices/barbie-selfie/"></intlink>
-
-
     <h2>Exercices</h2>
     <intlink href="../css/exercices/mr-oizo-all-wet/"></intlink>
     <intlink href="../css/exercices/king-crimson-larks-tongues-in-aspic/"></intlink>
@@ -737,38 +868,21 @@ EXAMEN 1 (30%)
     <intlink href="../css/exercices/robert-charlebois-la-maudite-tournee/"></intlink>
     <intlink href="../css/exercices/les-cowboys-fringants-break-syndical/"></intlink>
 
-</wiki-page>
 
 
-
-<!-----------------------------------
-  _____                        ___  
- / ____|                      / _ \ 
-| |     ___  _   _ _ __ ___  | (_) |
-| |    / _ \| | | | '__/ __|  \__, |
-| |___| (_) | |_| | |  \__ \    / / 
- \_____\___/ \__,_|_|  |___/   /_/                 
------------------------------------>
-<wiki-page name="Cours 09" date="2025-03-26">
-   
-</wiki-page>
+    -----
 
 
 
 
-<!-----------------------------------
-  _____                       __  ___  
- / ____|                     /_ |/ _ \ 
-| |     ___  _   _ _ __ ___   | | | | |
-| |    / _ \| | | | '__/ __|  | | | | |
-| |___| (_) | |_| | |  \__ \  | | |_| |
- \_____\___/ \__,_|_|  |___/  |_|\___/                                     
------------------------------------>
-<wiki-page name="Cours 10" date="2025-04-01">
 
-    <!-- GROUPE 1 et 2: 2 avril, le groupe 3 : 10 avril -->
-    <intlink href="../css/flexbox/"></intlink>
-    <intlink href="../css/flexbox-intermediaire/"></intlink>
+
+
+
+
+
+
+
     <h2>Exercices</h2>
     <intlink href="../css/exercices/underworld-everything-everything/"></intlink>
     <intlink href="../css/exercices/the-black-keys-turn-blue/"></intlink>
@@ -796,9 +910,44 @@ EXAMEN 1 (30%)
 <wiki-page name="Cours 11" date="2025-04-08">
     <!-- GROUPE 1 et 2: 9 avril, le groupe 3 : 24 avril -->
 
+    <grostitre>Projet final</grostitre>
+    <p>Présentation des consignes du projet final...</p>
+    <!--  (les étudiants pourront débuter dès qu’ils ont remis les maquettes en design graphique mercredi le 23 avril). -->
 
 
-    <intlink href="../css/flexbox-avance/"></intlink>
+    
+    <dots></dots>
+    <grostitre>Contenu aujourd'hui</grostitre>
+    <ul>
+        <li> Intégration et optimisation des médias
+            <ul>
+                <li>Formats modernes : WebP, AVIF, gestion des fallback.</li>
+                <li>Images adaptatives : <incode><picture></incode>  et <incode>srcset</incode>.</li>
+                <li>Optimisation des vidéos pour le web (compression, sous-titres). </li>
+            </ul>
+        </li>
+        <li>Accessibilité et bonnes pratiques CSS
+            <ul>
+                <li>Importance de l’accessibilité, contrastes, pseudoclasses
+                liées à ce concept.</li>
+                <li>Techniques pour un CSS performant : organisation du code,
+                réduction du nombre de sélecteurs, minification du code.</li>
+            </ul>
+
+        </li>
+    </ul>
+    <br>
+
+
+
+
+    <intlink href="../css/snap-scroll/"></intlink>
+    <intlink href="../css/snap-scroll/exercices/whatisadam/"></intlink>
+    <intlink href="../css/masquage/"></intlink>
+    <intlink href="../css/masquage/exercices/barbie-selfie/"></intlink>
+
+
+
     <intlink href="../css/animation-sprite-sheet/"></intlink>
     <intlink href="../css/animation-sprite-sheet/exercices/sonic-knuckles/"></intlink>
 </wiki-page>
@@ -816,8 +965,9 @@ EXAMEN 1 (30%)
  \_____\___/ \__,_|_|  |___/  |_|____|
  ----------------------------------->  
 <wiki-page name="Cours 12" date="2025-04-15">
-     <!-- GROUPE 1 et 2: 16 avril, le groupe 3 : 1 mai -->
-<h3>Travail sur le projet final (partie 1)</h3>
+    <!-- GROUPE 1 et 2: 16 avril, le groupe 3 : 8 mai -->
+    <h3>Groupe 1 et 2 : rattrapge ou pratique examen</h3>
+    <h3>Groupe 3 (ce cours sera apr`s examen donc) : Travail sur le projet final (partie 1)</h3>
 </wiki-page>
 
 
@@ -833,8 +983,8 @@ EXAMEN 1 (30%)
                              
  ----------------------------------->  
 <wiki-page name="Cours 13" date="2025-04-22">
-    <!-- GROUPE 1 et 2: 30 avril, le groupe 3 : 8 mai -->
-    <h3>Travail sur le projet final (partie 1)</h3>
+    <!-- Merc. 30  avril / Jeu. 1 mai -->
+ Examen 2
 </wiki-page>
 
 

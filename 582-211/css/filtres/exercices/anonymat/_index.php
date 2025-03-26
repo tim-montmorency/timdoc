@@ -40,7 +40,7 @@
     Créez-vous un pen et attribuez-y un fond noir.
     La photographie de personne doit avoir une largeur de 400px et être centrée horizontalement dans la page ↔️.
     Transformez ensuite la photographie de sorte qu'elle soit en noir et blanc et que ses tons soient accentués au point au son chandail devienne noir pur.
-    Ajoutez un cercle jaune 🟡 de 250x250px par-dessus le visage de ladite personne afin de masquer son identité. Floutez ensuite ce cercle.
+    Avec un pseudo-element en css sur <incode><body></incode>, créez un cercle jaune 🟡 de 250x250px par-dessus le visage de ladite personne afin de masquer son identité. Floutez ensuite ce cercle.
 </checklist>
 
 <warning>Le cercle doit rester en tout temps par-dessus le visage, même lorsque la page est redimensionnée.</warning>
@@ -51,6 +51,7 @@
 <grostitre>Notes de cours 📚</grostitre>
 
 <intlink href="../../../filtres/"></intlink>
+<intlink href="../../../pseudo-elements/"></intlink>
 
 <dots></dots>
 
