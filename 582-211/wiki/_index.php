@@ -774,14 +774,6 @@ EXAMEN 1 (30%)
 
 
 
-
-
-
-    
-
-
-
-
 </wiki-page>
 
 
@@ -794,7 +786,7 @@ EXAMEN 1 (30%)
 | |___| (_) | |_| | |  \__ \  | | |_| |
  \_____\___/ \__,_|_|  |___/  |_|\___/                                     
 ----------------------------------->
-<wiki-page name="Cours 10" date="2025-04-01">
+<wiki-page name="Cours 10" date="2025-04-02">
  
 
 
@@ -803,7 +795,7 @@ EXAMEN 1 (30%)
 
     <info>
         <h3>Projet final (conjoint avec Design Graphique)</h3>
-        <p>Nous en reparlerons plus tard mais je tiens déjà à vous le mentionner, ce projet est conjoint avec votre projet actuel de refonte de site web en design graphique. Vous devrez intégrer votre design (idéalement le votre mais il est possible que vous ayez à changer pour un autre). Pour la partie du cours de <strong><em>Web 2</em></strong> ce sera équipe de deux par deux. Vous devrez former vos équipes. Chaque équipe doit avoir <strong><em>au moins une personne qui fait aussi le cours de design graphique cette session</em></strong>. Vous n'êtes pas contraints à garder la même équipe de celle de design graphique mais si vous bougez, il se peut que vous ayez à intégrer le design de quelqu'un d'autres, vous devrez accepter cela.</p>
+        <p>Nous en reparlerons plus tard mais je tiens déjà à vous le mentionner, ce projet est conjoint avec votre projet actuel de refonte de site web en design graphique. Vous devrez intégrer votre design (idéalement le votre mais il est possible que vous ayez à changer pour un autre). Pour la partie du cours de <strong><em>Web 2</em></strong> ce sera des équipes de 2. Vous devrez former vos équipes. Chaque équipe doit avoir <strong><em>au moins une personne qui fait aussi le cours de design graphique cette session</em></strong>. Vous n'êtes pas contraints à garder la même équipe de celle de design graphique, surtout que les classes ne sont pas les même mais si vous bougez, il se peut que vous ayez à intégrer le design de quelqu'un d'autres.</p>
     </info>
 
 
@@ -817,16 +809,6 @@ EXAMEN 1 (30%)
 
 
 
-
-
-    
-
-    <!-- COURS: https://chatgpt.com/share/67aebd86-b458-8004-9029-a521f4518f31  -->
-    
-    <grostitre>Flexbox avancé avec Figma et devmode</grostitre>
-    L’outil Dev Mode dans Figma.  L’outil Figma for VS Code. 
-    <intlink href="../css/flexbox-figma-auto-layout"></intlink>
-    <p>figma for vs code + figma dev mode</p>
 
 
 
@@ -909,6 +891,18 @@ EXAMEN 1 (30%)
     <grostitre>Projet final</grostitre>
     <p>Présentation des consignes du projet final...</p>
     <!--  (les étudiants pourront débuter dès qu’ils ont remis les maquettes en design graphique mercredi le 23 avril). -->
+
+    
+    
+
+    <!-- COURS: https://chatgpt.com/share/67aebd86-b458-8004-9029-a521f4518f31  -->
+    
+    <grostitre>Flexbox avancé avec Figma et devmode</grostitre>
+    L’outil Dev Mode dans Figma.  L’outil Figma for VS Code. 
+    <intlink href="../css/flexbox-figma-auto-layout"></intlink>
+    <p>figma for vs code + figma dev mode</p>
+
+
 
 
     
