@@ -786,10 +786,12 @@ EXAMEN 1 (30%)
 <wiki-page name="Cours 10" date="2025-04-02">
  
     <!-- GROUPE 1 et 2: 2 avril, le groupe 3 : 10 avril -->
-    <info>
-        <h3>Projet final (conjoint avec Design Graphique)</h3>
-        <p>Nous en reparlerons plus tard mais je tiens déjà à vous le mentionner, ce projet est conjoint avec votre projet actuel de refonte de site web en design graphique. Vous devrez intégrer votre design (idéalement le votre mais il est possible que vous ayez à changer pour un autre). Pour la partie du cours de <strong><em>Web 2</em></strong> ce sera des équipes de 2. Vous devrez former vos équipes. Chaque équipe doit avoir <strong><em>au moins une personne qui fait aussi le cours de design graphique cette session</em></strong>. Vous n'êtes pas contraints à garder la même équipe de celle de design graphique, surtout que les classes ne sont pas les même mais si vous bougez, il se peut que vous ayez à intégrer le design de quelqu'un d'autres.</p>
-    </info>
+    <thumbsup>
+        <h3>Projet final (conjoint avec Design Graphique): FORMATION DES ÉQUIPES</h3>
+        <p>Ce projet est conjoint avec votre projet actuel de refonte de site web en design graphique. Vous devrez intégrer votre design (idéalement le votre mais il est possible que vous ayez à changer pour un autre). Pour la partie du cours de <strong>Web 2</strong> ce sera des équipes de 2. Vous devrez former vos équipes. Chaque équipe doit avoir <strong>au moins une personne qui fait aussi le cours de design graphique cette session</strong>. Vous n'êtes pas contraints à garder la même équipe de celle de design graphique, surtout que les classes ne sont pas les même mais si vous bougez, il se peut que vous ayez à intégrer le design de quelqu'un d'autres.</p>
+       <p>Veuillez en discuter ensemble pendant le cours aujourd'hui et inscrire votre équipe <a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETQTI_JDyl5JjuUQxMafVhQBbCnzKR8PD_T2CnwUD3EQgA?e=WjFYgD" target="_blank" rel="noopener noreferrer">dans le document Excel ci-compte</a> avant la fin du cours.</p>
+       <p>Je vais devoir vérifier que tout est ok et approuver ou non votre équipe. Vous pourrez revenir dans le document pour vérifié si c'est approuvé, sinon je communiquerais avec vous.</p>
+    </thumbsup>
 
     <grostitre>Révision des exercices du cours 9</grostitre>
     <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
