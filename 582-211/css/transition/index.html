@@ -57,7 +57,7 @@
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
-<p class="spacer">Les transitions permettent de passer d'un état A à un état B d'une façon élégante.</p>
+<p>Les transitions permettent de passer d'un état A à un état B d'une façon élégante.</p>
 
 <dots></dots>
 
@@ -66,19 +66,20 @@
 
 <p>Définis la ou les propriété(s) affectées par une transition.</p>
 
-<p>Il est possible, d'indiquer que toutes les propriétés capables de transitionner doivent transitionner en utilisant la valeur <span class="inline-code">all</span>.</p>
+<p>On peut utiliser la valeur <span class="inline-code">all</span> pour appliquer une transition à toutes les propriétés compatibles avec l'effet de transition.</p>
 
-<warning>Utiliser la valeur all avec parcimonie afin d’éviter d’impacter négativement les performances de votre transition.</warning>
+<warning>Utiliser la valeur <span class="inline-code">all</span> avec parcimonie afin d’éviter d’impacter négativement les performances de votre transition.</warning>
 
 <p>Il est aussi possible de spécifier un certain nombre de propriétés en les séparant par une virgule.</p>
 
 <p>Par exemple:</p>
 
-<highlight lang="css">transition-property: background-color, transform;</highlight>
+<highlight lang="css">transition-property: background-color, width, margin-top;</highlight>
 
 <alert>
     <h5>ERREUR FRÉQUENTE</h5>
-    Ce ne sont pas toutes les propriétés qui peuvent effectuer une transition. Par exemple, <span class="inline-code">display</span> ou <span class="inline-code">background-image</span> ne peut pas effectuer de transition. Voir la <a target="_blank" href="https://developer.mozilla.org/fr/docs/Web/CSS/CSS_animated_properties">liste MDN des propriétés capable d’effectuer une transition</a>.
+   <p> Ce ne sont pas toutes les propriétés qui sont compatibles avec l'effet de transition. Par exemple, <span class="inline-code">display</span> ou <span class="inline-code">background-image</span> ne peut pas effectuer de transition. Voir la <a target="_blank" href="https://developer.mozilla.org/fr/docs/Web/CSS/CSS_animated_properties">liste MDN des propriétés capable d’effectuer une transition</a>.</p>
+   <p>Essentiellement, toute propriété acceptant des valeurs <em>numériques</em> ou de <em>couleur</em> peut faire l'objet d'une transition.</p>
 </alert>
 
 <doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/transition-property">transition-property</doclink>

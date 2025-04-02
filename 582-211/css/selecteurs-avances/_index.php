@@ -101,7 +101,18 @@
 
 <codepen id="NWBzZEd" tab="css,result" height="220"></codepen>
 
-<p>Pour sélectionner tous les éléments aillant un attribut title, il aurait été possible de faire simplement <incode>[title]</incode>, sans spécifier de valeur.</p>
+<info>
+    <p>Vous pouvez vérifier si l'attribut contient une valeur en utilisant <incode>*=</incode>.</p>
+
+    <p>Par exemple, la règle suivante:</p>
+
+    <highlight lang="css">[title*="demo"] { ... }</highlight>
+
+    <p>Sélectionne tous les éléments ayant un attribut <incode>title</incode> contenant la chaîne de caractères <em>"demo"</em>, peu importe où elle se trouve dans la valeur de l'attribut. Donc si vous avez une balise <incode><input title="demonstration"></incode>, comme l'attribut <incode>title</incode> contient <em>"demo"</em>, elle sera donc sélectionnée. </p>
+</info>
+
+<dots></dots>
+<p>Pour sélectionner tous les éléments aillant un attribut <incode>title</incode>, il aurait été possible de faire simplement <incode>[title]</incode>, sans spécifier de valeur.</p>
 
 <dots></dots>
 

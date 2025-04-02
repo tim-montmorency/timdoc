@@ -752,9 +752,6 @@ EXAMEN 1 (30%)
     
     <grostitre><span class="red-label">Nouveau contenu:</span> Transformation CSS</grostitre>
 
-    
-
-
     <intlink href="../css/transformation/"></intlink>
     <intlink href="../css/transformation/exercices/formes/"></intlink>
     <intlink href="../css/exercices/alexisonfire-watch-out/"></intlink>
@@ -788,17 +785,18 @@ EXAMEN 1 (30%)
 ----------------------------------->
 <wiki-page name="Cours 10" date="2025-04-02">
  
-
-
-
     <!-- GROUPE 1 et 2: 2 avril, le groupe 3 : 10 avril -->
-
     <info>
         <h3>Projet final (conjoint avec Design Graphique)</h3>
         <p>Nous en reparlerons plus tard mais je tiens déjà à vous le mentionner, ce projet est conjoint avec votre projet actuel de refonte de site web en design graphique. Vous devrez intégrer votre design (idéalement le votre mais il est possible que vous ayez à changer pour un autre). Pour la partie du cours de <strong><em>Web 2</em></strong> ce sera des équipes de 2. Vous devrez former vos équipes. Chaque équipe doit avoir <strong><em>au moins une personne qui fait aussi le cours de design graphique cette session</em></strong>. Vous n'êtes pas contraints à garder la même équipe de celle de design graphique, surtout que les classes ne sont pas les même mais si vous bougez, il se peut que vous ayez à intégrer le design de quelqu'un d'autres.</p>
     </info>
 
 
+    <grostitre>Révision des exercices du cours 9</grostitre>
+    <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
+    <intlink href="../css/pseudo-elements/exercices/zab-cafe/"></intlink>
+    <intlink href="../css/transformation/exercices/formes/"></intlink>
+    <intlink href="../css/exercices/alexisonfire-watch-out/"></intlink>
 
 
 
@@ -814,13 +812,16 @@ EXAMEN 1 (30%)
 
 
 
-    <h2>Transition</h2>
+<dots></dots>
+    <grostitre>Transition</grostitre>
     <intlink href="../css/transition/"></intlink>
     <intlink href="../css/transition/exercices/spider-man/"></intlink>
     <intlink href="../css/transition/exercices/bojack-horseman/"></intlink>
     <intlink href="../css/transition/exercices/boutons/"></intlink>
     <intlink href="../css/transition/exercices/fantome-mario/"></intlink>
-    <h2>Animation</h2>
+    
+<dots></dots>
+    <grostitre>Animation</grostitre>
     <intlink href="../css/animation/"></intlink>
     <intlink href="../css/animation/exercices/pong/"></intlink>
     <intlink href="../css/animation/exercices/fantome/"></intlink>
@@ -828,6 +829,7 @@ EXAMEN 1 (30%)
     <intlink href="../css/animation/exercices/pendule/"></intlink>
     <intlink href="../css/animation/exercices/billes/"></intlink>
     <intlink href="../css/animation/exercices/new-super-luigi/"></intlink>
+
     <h2>Exercices</h2>
     <intlink href="../css/exercices/david-bowie-earthling/"></intlink>
     <intlink href="../css/exercices/godspeed-you-black-emperor-lift-yr/"></intlink>
@@ -836,8 +838,7 @@ EXAMEN 1 (30%)
 
 
 
-
-    <h2>Exercices</h2>
+.
     <intlink href="../css/exercices/mr-oizo-all-wet/"></intlink>
     <intlink href="../css/exercices/king-crimson-larks-tongues-in-aspic/"></intlink>
     <intlink href="../css/exercices/ttc-3615/"></intlink>
