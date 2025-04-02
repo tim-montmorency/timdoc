@@ -789,7 +789,7 @@ EXAMEN 1 (30%)
     <thumbsup>
         <h3>Projet final (conjoint avec Design Graphique): FORMATION DES ÉQUIPES</h3>
         <p>Ce projet est conjoint avec votre projet actuel de refonte de site web en design graphique. Vous devrez intégrer votre design (idéalement le votre mais il est possible que vous ayez à changer pour un autre). Pour la partie du cours de <strong>Web 2</strong> ce sera des équipes de 2. Vous devrez former vos équipes. Chaque équipe doit avoir <strong>au moins une personne qui fait aussi le cours de design graphique cette session</strong>. Vous n'êtes pas contraints à garder la même équipe de celle de design graphique, surtout que les classes ne sont pas les même mais si vous bougez, il se peut que vous ayez à intégrer le design de quelqu'un d'autres.</p>
-       <p>Veuillez en discuter ensemble pendant le cours aujourd'hui et inscrire votre équipe <a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETQTI_JDyl5JjuUQxMafVhQBbCnzKR8PD_T2CnwUD3EQgA?e=WjFYgD" target="_blank" rel="noopener noreferrer">dans le document Excel ci-compte</a> avant la fin du cours.</p>
+       <p>Veuillez en discuter ensemble pendant le cours aujourd'hui et inscrire votre équipe <a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETQTI_JDyl5JjuUQxMafVhQBtIO3CRK3_p6J_S6EiNuZEw?e=PmJk0m" target="_blank" rel="noopener noreferrer">dans le document Excel ci-compte</a> avant la fin du cours.</p>
        <p>Je vais devoir vérifier que tout est ok et approuver ou non votre équipe. Vous pourrez revenir dans le document pour vérifié si c'est approuvé, sinon je communiquerais avec vous.</p>
     </thumbsup>
 
@@ -806,7 +806,7 @@ EXAMEN 1 (30%)
     <intlink href="../css/transition/exercices/bojack-horseman/"></intlink>
     <intlink href="../css/transition/exercices/boutons/"></intlink>
     <intlink href="../css/transition/exercices/fantome-mario/"></intlink>
-    
+
     <dots></dots>
     <grostitre>Animation</grostitre>
     <intlink href="../css/animation/"></intlink>
@@ -819,7 +819,11 @@ EXAMEN 1 (30%)
 
     <dots></dots>
     <grostitre>Devoirs obligatoire</grostitre>
-    <p>Terminer tous les exercices du cours d'aujoud'hui</p>
+    <p>Terminer tous les exercices de <em>transition</em> du cours d'aujoud'hui</p>
+    <intlink href="../css/transition/exercices/spider-man/"></intlink>
+    <intlink href="../css/transition/exercices/bojack-horseman/"></intlink>
+    <intlink href="../css/transition/exercices/boutons/"></intlink>
+    <intlink href="../css/transition/exercices/fantome-mario/"></intlink>
 
 </wiki-page>
 
