@@ -43,7 +43,7 @@
 
 <p>Permet d'attribuer une animation à partir de son nom de référence en indiquant quel <a href="#keyframes">@keyframes</a> appliquer à quel élément.</p>
 
-<p>Par exemple, pour que l'élément avec la classe <incode>.element</incode> ait l'animation intitulée <incode>anim</incode>, il est possible de faire:</p>
+<p>Par exemple, pour appliquer l'animation nommée <incode>anim</incode> à l'élément ayant la classe <incode>.element</incode>, on peut écrire : </p>
 
 <highlight lang="css">.element {
   animation-name: anim;
@@ -57,7 +57,7 @@
 
 <grostitre>animation-duration</grostitre>
 
-<p>Définis la durée d'une animation. Ce nombre peut-être en seconde ou en milliseconde. <incode>1s</incode> = <incode>1000ms</incode>.</p>
+<p>Définit la durée d'une animation. Ce nombre peut-être en seconde ou en milliseconde. <incode>1s</incode> = <incode>1000ms</incode>.</p>
 
 <p>Par exemple, nous avons trois fois la même animation <incode>animation-name: left-to-right</incode>, mais à des durées différentes:</p>
 
@@ -226,3 +226,49 @@
 <exercice href="exercices/new-super-luigi/"></exercice>
 
 <dots></dots>
+<grostitre>Différence entre transition et animation</grostitre>
+<table>
+  <thead>
+    <tr>
+      <th>TRANSITIONS CSS</th>
+      <th>ANIMATIONS CSS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td> 
+        <ul>
+          <li>Ne peut passer que de l'état initial à l'état final - pas d'étapes intermédiaires</li>
+          <li>Ne peut être exécuté qu'une seule fois</li>
+          <li>Nécessite un déclencheur pour être exécuté (comme le survol de la souris)</li>
+          <li>S'exécute en avant lorsqu'il est déclenché et en arrière lorsqu'il est supprimé</li>
+          <li>Plus facile à utiliser avec JavaScript</li>
+          <li>Meilleur pour créer un changement simple d'un état à un autre</li>
+        </ul>
+      </td>
+
+      <td>
+        <ul>
+          <li>Peut passer de l'état initial à l'état final, avec des étapes intermédiaires</li>
+          <li>Peut tourner en boucle à l'infini grâce à la propriété animation-iteration-count</li>
+          <li>Peut être déclenché mais peut aussi s'exécuter automatiquement</li>
+          <li>Peut s'exécuter en avant, en arrière ou dans des directions différentes</li>
+          <li>Plus difficile à utiliser avec JavaScript</li>
+          <li>Idéal pour créer une série complexe de mouvements</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+ 
+</table>
+<figure>
+  <img src="./images/CSS-transition-animation.webp" alt="Figure illustrant une simple transition vs une animation en 4 étapes.">
+  <figcaption>Source <a href="https://blog.hubspot.com/website/css-transition-vs-animation" target="_blank" rel="noopener noreferrer">Hubspot</a></figcaption>
+</figure>
+
+
+

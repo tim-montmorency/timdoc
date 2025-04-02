@@ -791,28 +791,13 @@ EXAMEN 1 (30%)
         <p>Nous en reparlerons plus tard mais je tiens déjà à vous le mentionner, ce projet est conjoint avec votre projet actuel de refonte de site web en design graphique. Vous devrez intégrer votre design (idéalement le votre mais il est possible que vous ayez à changer pour un autre). Pour la partie du cours de <strong><em>Web 2</em></strong> ce sera des équipes de 2. Vous devrez former vos équipes. Chaque équipe doit avoir <strong><em>au moins une personne qui fait aussi le cours de design graphique cette session</em></strong>. Vous n'êtes pas contraints à garder la même équipe de celle de design graphique, surtout que les classes ne sont pas les même mais si vous bougez, il se peut que vous ayez à intégrer le design de quelqu'un d'autres.</p>
     </info>
 
-
     <grostitre>Révision des exercices du cours 9</grostitre>
     <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
     <intlink href="../css/pseudo-elements/exercices/zab-cafe/"></intlink>
     <intlink href="../css/transformation/exercices/formes/"></intlink>
     <intlink href="../css/exercices/alexisonfire-watch-out/"></intlink>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<dots></dots>
+    <dots></dots>
     <grostitre>Transition</grostitre>
     <intlink href="../css/transition/"></intlink>
     <intlink href="../css/transition/exercices/spider-man/"></intlink>
@@ -820,7 +805,7 @@ EXAMEN 1 (30%)
     <intlink href="../css/transition/exercices/boutons/"></intlink>
     <intlink href="../css/transition/exercices/fantome-mario/"></intlink>
     
-<dots></dots>
+    <dots></dots>
     <grostitre>Animation</grostitre>
     <intlink href="../css/animation/"></intlink>
     <intlink href="../css/animation/exercices/pong/"></intlink>
@@ -830,48 +815,9 @@ EXAMEN 1 (30%)
     <intlink href="../css/animation/exercices/billes/"></intlink>
     <intlink href="../css/animation/exercices/new-super-luigi/"></intlink>
 
-    <h2>Exercices</h2>
-    <intlink href="../css/exercices/david-bowie-earthling/"></intlink>
-    <intlink href="../css/exercices/godspeed-you-black-emperor-lift-yr/"></intlink>
-    <intlink href="../css/exercices/red-hot-chili-peppers-blood-sugar-sex-magik/"></intlink>
-    <intlink href="../css/exercices/eagles-of-death-metal-peace-love-death-metal/"></intlink>
-
-
-
-.
-    <intlink href="../css/exercices/mr-oizo-all-wet/"></intlink>
-    <intlink href="../css/exercices/king-crimson-larks-tongues-in-aspic/"></intlink>
-    <intlink href="../css/exercices/ttc-3615/"></intlink>
-    <intlink href="../css/exercices/harmonium-l-heptade/"></intlink>
-    <intlink href="../css/exercices/lisa-leblanc-lisa-leblanc/"></intlink>
-    <intlink href="../css/exercices/robert-charlebois-la-maudite-tournee/"></intlink>
-    <intlink href="../css/exercices/les-cowboys-fringants-break-syndical/"></intlink>
-
-
-
-    -----
-
-
-
-
-
-
-
-
-
-
-
-
-    <h2>Exercices</h2>
-    <intlink href="../css/exercices/underworld-everything-everything/"></intlink>
-    <intlink href="../css/exercices/the-black-keys-turn-blue/"></intlink>
-    <intlink href="../css/exercices/air-premiers-symptomes/"></intlink>
-    <intlink href="../css/exercices/lost-highway/"></intlink>
-    <intlink href="../css/exercices/trainspotting/"></intlink>
-    <intlink href="../css/exercices/asian-dub-foundation-rafis-revenge/"></intlink>
-    <intlink href="../css/exercices/nirvana-nevermind/"></intlink>
-    <intlink href="../css/exercices/pink-floyd-the-dark-side-of-the-moon/"></intlink>
-    <intlink href="../css/exercices/les-simpsons/"></intlink>
+    <dots></dots>
+    <grostitre>Devoirs obligatoire</grostitre>
+    <p>Terminer tous les exercices du cours d'aujoud'hui</p>
 
 </wiki-page>
 
@@ -941,6 +887,43 @@ EXAMEN 1 (30%)
 
     <intlink href="../css/animation-sprite-sheet/"></intlink>
     <intlink href="../css/animation-sprite-sheet/exercices/sonic-knuckles/"></intlink>
+
+
+
+    <dots></dots>
+    <dots></dots>
+    
+    <h2>Exercices</h2>
+    <intlink href="../css/exercices/david-bowie-earthling/"></intlink>
+    <intlink href="../css/exercices/godspeed-you-black-emperor-lift-yr/"></intlink>
+    <intlink href="../css/exercices/red-hot-chili-peppers-blood-sugar-sex-magik/"></intlink>
+    <intlink href="../css/exercices/eagles-of-death-metal-peace-love-death-metal/"></intlink>
+
+
+
+ -----    
+ <intlink href="../css/exercices/mr-oizo-all-wet/"></intlink>
+    <intlink href="../css/exercices/king-crimson-larks-tongues-in-aspic/"></intlink>
+    <intlink href="../css/exercices/ttc-3615/"></intlink>
+    <intlink href="../css/exercices/harmonium-l-heptade/"></intlink>
+    <intlink href="../css/exercices/lisa-leblanc-lisa-leblanc/"></intlink>
+    <intlink href="../css/exercices/robert-charlebois-la-maudite-tournee/"></intlink>
+    <intlink href="../css/exercices/les-cowboys-fringants-break-syndical/"></intlink>
+
+
+
+    -----
+
+    <h2>Exercices</h2>
+    <intlink href="../css/exercices/underworld-everything-everything/"></intlink>
+    <intlink href="../css/exercices/the-black-keys-turn-blue/"></intlink>
+    <intlink href="../css/exercices/air-premiers-symptomes/"></intlink>
+    <intlink href="../css/exercices/lost-highway/"></intlink>
+    <intlink href="../css/exercices/trainspotting/"></intlink>
+    <intlink href="../css/exercices/asian-dub-foundation-rafis-revenge/"></intlink>
+    <intlink href="../css/exercices/nirvana-nevermind/"></intlink>
+    <intlink href="../css/exercices/pink-floyd-the-dark-side-of-the-moon/"></intlink>
+    <intlink href="../css/exercices/les-simpsons/"></intlink>
 </wiki-page>
 
 

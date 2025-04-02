@@ -45,7 +45,7 @@
 
 <p>Définis la durée de la transition. Ce nombre peut-être en seconde ou en milliseconde. <incode>1s</incode> = <incode>1000ms</incode>.</p>
 
-<p>Par exemple, au survole nous avons trois fois la même transition, mais avec des durées différentes:</p>
+<p>Par exemple, au survol nous avons trois fois la même transition, mais avec des durées différentes:</p>
 
 <ol>
     <li>0.5 seconde</li>
@@ -67,7 +67,7 @@
 
 <p>Dicte le rythme de la transition. Par exemple, dans la transition précédente on remarque que chaque carré accélère progressivement avant de ralentir ensuite. Ce rythme est appelé ease et est celui par défaut des transitions.</p>
 
-<p>L'exemple suivant contient six fois la même transition au survole, mais avec des rythmes différents.</p>
+<p>L'exemple suivant contient six fois la même transition au survol, mais avec des rythmes différents.</p>
 
 <ol>
     <li><incode>linear</incode> n'accélère ou ne ralentis jamais ↗️</li>
@@ -90,9 +90,9 @@
 
 <grostitre>transition-delay</grostitre>
 
-<p>Définis le délais d'attente avant de démarrer une transition. Par défaut, cette propriété est à 0s. Si une valeur négative est attribuée, la transition débutera déjà commencée, comme-ci l'équivalent de la valeur s'était déjà écoulée.</p>
+<p>La propriété <incode>transition-delay</incode> définit le temps d'attente avant le début d'une transition. Par défaut, sa valeur est <incode>0s</incode>, ce qui signifie que la transition démarre immédiatement. Si une valeur négative est spécifiée, la transition commencera comme si ce laps de temps s'était déjà écoulé. L'animation démarera donc à quelque part au milieu de sa course.</p>
 
-<p>Par exemple au survole:</p>
+<p>Par exemple au survol:</p>
 
 <ol>
     <li>Aucun délai</li>
@@ -141,7 +141,7 @@ transition-duration: 1s;</highlight>
 
 <grostitre>Où définir sa transition</grostitre>
 
-<p>Si les propriétés d'une transition sont définies sur un état en particulier, par exemple <incode>:hover</incode>, et non à sa base, cette propriété ne s'appliquera que lorsque cet état sera activé. Par exemple, à gauche la durée de la transition est appliquée sur l'élément de base. Le navigateur applique donc le <incode>transition-duration</incode> en tout temps sur l'élément, qu'il soit survolé ou non. Tandis qu'à droite, le <incode>transition-duration</incode> est défini sur le <incode>:hover</incode> uniquement, donc la transition ne s'effectue qu'au survole. Dès que l'élément n'est plus survolé, il retourne abruptement à sa position de départ.</p>
+<p>Si les propriétés d'une transition sont définies sur un état en particulier, par exemple <incode>:hover</incode>, et non à sa base, cette propriété ne s'appliquera que lorsque cet état sera activé. Par exemple, à gauche la durée de la transition est appliquée sur l'élément de base. Le navigateur applique donc le <incode>transition-duration</incode> en tout temps sur l'élément, qu'il soit survolé ou non. Tandis qu'à droite, le <incode>transition-duration</incode> est défini sur le <incode>:hover</incode> uniquement, donc la transition ne s'effectue qu'au survol. Dès que l'élément n'est plus survolé, il retourne abruptement à sa position de départ.</p>
 
 <codepen id="WNKmPLG" tab="result" height="340"></codepen>
 
