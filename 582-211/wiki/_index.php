@@ -785,13 +785,7 @@ EXAMEN 1 (30%)
 ----------------------------------->
 <wiki-page name="Cours 10" date="2025-04-02">
  
-    <!-- GROUPE 1 et 2: 2 avril, le groupe 3 : 10 avril -->
-    <thumbsup>
-        <h3>Projet final (conjoint avec Design Graphique): FORMATION DES ÉQUIPES</h3>
-        <p>Ce projet est conjoint avec votre projet actuel de refonte de site web en design graphique. Vous devrez intégrer votre design (idéalement le votre mais il est possible que vous ayez à changer pour un autre). Pour la partie du cours de <strong>Web 2</strong> ce sera des équipes de 2. Vous devrez former vos équipes. Chaque équipe doit avoir <strong>au moins une personne qui fait aussi le cours de design graphique cette session</strong>. Vous n'êtes pas contraints à garder la même équipe de celle de design graphique, surtout que les classes ne sont pas les même mais si vous bougez, il se peut que vous ayez à intégrer le design de quelqu'un d'autres.</p>
-       <p>Veuillez en discuter ensemble pendant le cours aujourd'hui et inscrire votre équipe <a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETQTI_JDyl5JjuUQxMafVhQBtIO3CRK3_p6J_S6EiNuZEw?e=PmJk0m" target="_blank" rel="noopener noreferrer">dans le document Excel ci-compte</a> avant la fin du cours.</p>
-       <p>Je vais devoir vérifier que tout est ok et approuver ou non votre équipe. Vous pourrez revenir dans le document pour vérifié si c'est approuvé, sinon je communiquerais avec vous.</p>
-    </thumbsup>
+    <!-- GROUPE 1 et 2: 2 avril, le groupe 3 : 24 avril -->
 
     <grostitre>Révision des exercices du cours 9</grostitre>
     <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
@@ -807,15 +801,6 @@ EXAMEN 1 (30%)
     <intlink href="../css/transition/exercices/boutons/"></intlink>
     <intlink href="../css/transition/exercices/fantome-mario/"></intlink>
 
-    <dots></dots>
-    <grostitre>Animation</grostitre>
-    <intlink href="../css/animation/"></intlink>
-    <intlink href="../css/animation/exercices/pong/"></intlink>
-    <intlink href="../css/animation/exercices/fantome/"></intlink>
-    <intlink href="../css/animation/exercices/yo-yo/"></intlink>
-    <intlink href="../css/animation/exercices/pendule/"></intlink>
-    <intlink href="../css/animation/exercices/billes/"></intlink>
-    <intlink href="../css/animation/exercices/new-super-luigi/"></intlink>
 
     <dots></dots>
     <grostitre>Devoirs obligatoire</grostitre>
@@ -838,8 +823,16 @@ EXAMEN 1 (30%)
 | |___| (_) | |_| | |  \__ \  | || |
  \_____\___/ \__,_|_|  |___/  |_||_|
  ----------------------------------->      
-<wiki-page name="Cours 11" date="2025-04-08">
-    <!-- GROUPE 1 et 2: 9 avril, le groupe 3 : 24 avril -->
+<wiki-page name="Cours 11" date="2025-04-09">
+    <!-- GROUPE 1 et 2: 9 avril, le groupe 3 : 10 avril -->
+
+    <thumbsup>
+        <h3>Projet final (conjoint avec Design Graphique): FORMATION DES ÉQUIPES</h3>
+        <p>Ce projet est conjoint avec votre projet actuel de refonte de site web en design graphique. Vous devrez intégrer votre design (idéalement le votre mais il est possible que vous ayez à changer pour un autre). Pour la partie du cours de <strong>Web 2</strong> ce sera des équipes de 2. Vous devrez former vos équipes. Chaque équipe doit avoir <strong>au moins une personne qui fait aussi le cours de design graphique cette session</strong>. Vous n'êtes pas contraints à garder la même équipe de celle de design graphique, surtout que les classes ne sont pas les même mais si vous bougez, il se peut que vous ayez à intégrer le design de quelqu'un d'autres.</p>
+       <p>Veuillez en discuter ensemble pendant le cours aujourd'hui et inscrire votre équipe <a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETQTI_JDyl5JjuUQxMafVhQBtIO3CRK3_p6J_S6EiNuZEw?e=PmJk0m" target="_blank" rel="noopener noreferrer">dans le document Excel ci-compte</a> avant la fin du cours.</p>
+       <p>Je vais devoir vérifier que tout est ok et approuver ou non votre équipe. Vous pourrez revenir dans le document pour vérifié si c'est approuvé, sinon je communiquerais avec vous.</p>                  
+    </thumbsup>
+
 
     <grostitre>Projet final</grostitre>
     <p>Présentation des consignes du projet final...</p>
@@ -858,8 +851,46 @@ EXAMEN 1 (30%)
 
 
 
-    
+</wiki-page>
+
+
+
+
+
+<!-----------------------------------
+  _____                       __ ___  
+ / ____|                     /_ |__ \ 
+| |     ___  _   _ _ __ ___   | |  ) |
+| |    / _ \| | | | '__/ __|  | | / / 
+| |___| (_) | |_| | |  \__ \  | |/ /_ 
+ \_____\___/ \__,_|_|  |___/  |_|____|
+ ----------------------------------->  
+<wiki-page name="Cours 12" date="2025-04-15">
+    <!-- GROUPE 1 et 2: 16 avril, le groupe 3 : 8 mai -->
+    <h3>Groupe 1 et 2 : rattrapge ou pratique examen</h3>
+    <h3>Groupe 3 (ce cours sera apr`s examen donc) : Travail sur le projet final (partie 1)</h3>
+
+
     <dots></dots>
+    <grostitre>Animation</grostitre>
+    <intlink href="../css/animation/"></intlink>
+    <intlink href="../css/animation/exercices/pong/"></intlink>
+    <intlink href="../css/animation/exercices/fantome/"></intlink>
+    <intlink href="../css/animation/exercices/yo-yo/"></intlink>
+    <intlink href="../css/animation/exercices/pendule/"></intlink>
+    <intlink href="../css/animation/exercices/billes/"></intlink>
+    <intlink href="../css/animation/exercices/new-super-luigi/"></intlink>
+
+
+
+
+
+
+   <!-- SURPLUS À PLACER?  -->
+
+   
+    
+   <dots></dots>
     <grostitre>Contenu aujourd'hui</grostitre>
     <ul>
         <li> Intégration et optimisation des médias
@@ -930,24 +961,7 @@ EXAMEN 1 (30%)
     <intlink href="../css/exercices/nirvana-nevermind/"></intlink>
     <intlink href="../css/exercices/pink-floyd-the-dark-side-of-the-moon/"></intlink>
     <intlink href="../css/exercices/les-simpsons/"></intlink>
-</wiki-page>
 
-
-
-
-
-<!-----------------------------------
-  _____                       __ ___  
- / ____|                     /_ |__ \ 
-| |     ___  _   _ _ __ ___   | |  ) |
-| |    / _ \| | | | '__/ __|  | | / / 
-| |___| (_) | |_| | |  \__ \  | |/ /_ 
- \_____\___/ \__,_|_|  |___/  |_|____|
- ----------------------------------->  
-<wiki-page name="Cours 12" date="2025-04-15">
-    <!-- GROUPE 1 et 2: 16 avril, le groupe 3 : 8 mai -->
-    <h3>Groupe 1 et 2 : rattrapge ou pratique examen</h3>
-    <h3>Groupe 3 (ce cours sera apr`s examen donc) : Travail sur le projet final (partie 1)</h3>
 </wiki-page>
 
 
