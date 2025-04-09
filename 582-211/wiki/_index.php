@@ -494,8 +494,6 @@ EXAMEN 1 (30%)
 
     <!-- GROUPE 1 et 2 l'ont eu le 26 février, le groupe 3 l'aura le 20 mars -->
 
-    <warning>Plusieurs m'ont demandé de faire un retour sur l'examen. Ça me fera un plaisir de le faire, dès que j'ai terminé les corrections, donc probablement au prochain cours.</warning>
-
     <grostitre>Contenu du jour</grostitre>
     <p>Responsive design et media queries:</p>
     <ul>
@@ -582,22 +580,6 @@ EXAMEN 1 (30%)
 ----------------------------------->
 <wiki-page name="Cours 08" date="2025-03-18">
     <!-- GROUPE 1 et 2 19 mars, le groupe 3 27 mars -->
-
-
-
-    <warning>
-        <h3>Changement de dates</h3>
-        <p>Changements de dates au <a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUvUhN4tNxxFnyrchwy_QtoBwt3Sq-CZXolIei49ImZirw?e=0kMKk3" target="_blank" rel="noopener noreferrer">Plan de cours Web 2 (MÀJ 24 mars 2025 contenant les modifications de dates)</a>. Cela affecte surtout le groupe du jeudi mais j'ai du rebougé la date de l'examen 2 et de la remise du projet final.</p>
-        <ul>
-            <li>Examen 2 : mercredi le 30 avril / jeudi le 1<sup>er</sup> mai</li>
-            <li>Projet final: annulation de la présentation en classe au cours 15. Un peu après votre dernier cours soit:
-                <ul>
-                    <li>Groupe 1 et 2: remise dimanche le 18 mai avant 23h59 <!--(55h-60h après la fin du cours 15)-->.</li>
-                    <li>Groupe 3: remise jeudi le 22 mai avant 13h30 <!--(24h après la fin du cours 15)-->.</li>
-                </ul>
-            </li>
-        </ul>
-    </warning>
 
     <grostitre>Retour sur l'examen (groupe 3)</grostitre>
     <p>Présentation par l'enseignante.</p>
@@ -692,20 +674,6 @@ EXAMEN 1 (30%)
 
   <!-- GROUPE 1 et 2: 26 mars, le groupe 3 : 3 avril -->
 
-    <warning>
-        <h3>Changement de dates</h3>
-        <p>Changements de dates au <a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUvUhN4tNxxFnyrchwy_QtoBwt3Sq-CZXolIei49ImZirw?e=0kMKk3" target="_blank" rel="noopener noreferrer">Plan de cours Web 2 (MÀJ 24 mars 2025 contenant les modifications de dates)</a>. Cela affecte surtout le groupe du jeudi mais j'ai du rebougé la date de l'examen 2 et de la remise du projet final.</p>
-        <ul>
-            <li>Examen 2 : mercredi le 30 avril / jeudi le 1<sup>er</sup> mai</li>
-            <li>Projet final: annulation de la présentation en classe au cours 15. Un peu après votre dernier cours soit:
-                <ul>
-                    <li>Groupe 1 et 2: remise dimanche le 18 mai avant 23h59 <!--(55h-60h après la fin du cours 15)-->.</li>
-                    <li>Groupe 3: remise jeudi le 22 mai avant 13h30 <!--(24h après la fin du cours 15)-->.</li>
-                </ul>
-            </li>
-        </ul>
-    </warning>
-
     <grostitre>Retour sur l'examen (groupes 1 et 2)</grostitre>
     <p>Présentation des détails.</p>
     <dots></dots>
@@ -799,6 +767,7 @@ EXAMEN 1 (30%)
     <intlink href="../css/transition/exercices/spider-man/"></intlink>
     <intlink href="../css/transition/exercices/bojack-horseman/"></intlink>
     <intlink href="../css/transition/exercices/boutons/"></intlink>
+    Ne pas animer fantôme mais seulement Mario:
     <intlink href="../css/transition/exercices/fantome-mario/"></intlink>
 
 
@@ -833,20 +802,49 @@ EXAMEN 1 (30%)
        <p>Je vais devoir vérifier que tout est ok et approuver ou non votre équipe. Vous pourrez revenir dans le document pour vérifié si c'est approuvé, sinon je communiquerais avec vous.</p>                  
     </thumbsup>
 
-
+    <dots></dots>
     <grostitre>Projet final</grostitre>
-    <p>Présentation des consignes du projet final...</p>
+    <p>La date de remise du design final est le 23 avril (ça ne concwernent que ceux qui prennent le cours de design). Par la suite, vous pourrez débuter la partie intégration HTML+CSS. <em>N'attendez pas à ce qu'on se revoit en classe pour commencer</em> car avec le changement de calendrier autour de Pâques, vous allez perdre des jours précieux. </p>
+    <p>Les consignes finales pour la partie intégration HTML+CSS pour le cours Web2 vont vous être envoyées via Teams/Devoir d'ici lundi le 14 avril.</p>
     <!--  (les étudiants pourront débuter dès qu’ils ont remis les maquettes en design graphique mercredi le 23 avril). -->
 
-    
-    
+    <dots></dots>
+    <grostitre>Révision exercices cours précédent</grostitre>
+    <h3>Groupes 1 et 2</h3>
+    <intlink href="../css/transformation/exercices/formes/"></intlink>
+    <intlink href="../css/transition/exercices/spider-man/"></intlink>
+    <intlink href="../css/transition/exercices/bojack-horseman/"></intlink>
+    Possiblement: 
+    <intlink href="../css/transition/exercices/boutons/"></intlink>
+    <intlink href="../css/transition/exercices/fantome-mario/"></intlink>
 
-    <!-- COURS: https://chatgpt.com/share/67aebd86-b458-8004-9029-a521f4518f31  -->
+
+    <h3>Groupe 3</h3>
+    <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
+    <intlink href="../css/pseudo-elements/exercices/zab-cafe/"></intlink>
+    <intlink href="../css/transformation/exercices/formes/"></intlink>
+   
     
+    <dots></dots>
     <grostitre>Flexbox avancé avec Figma et devmode</grostitre>
-    L’outil Dev Mode dans Figma.  L’outil Figma for VS Code. 
     <intlink href="../css/flexbox-figma-auto-layout"></intlink>
-    <p>figma for vs code + figma dev mode</p>
+    <p>Exercice <a href="../css/flexbox-figma-auto-layout/#5-exercice" target="_blank" rel="noopener noreferrer">Auto-layout + devmode + flexbox</a></p>
+
+
+    <dots></dots>
+    <grostitre>Si on a le temps</grostitre>
+    <h3>Groupes 1 et 2</h3>
+    <intlink href="../css/animation/"></intlink>
+    <intlink href="../css/animation/exercices/pong/"></intlink>
+    <intlink href="../css/animation/exercices/fantome/"></intlink>
+
+    <h3>Groupe 3</h3>
+    <intlink href="../css/transition/"></intlink>
+    <intlink href="../css/transition/exercices/spider-man/"></intlink>
+    <intlink href="../css/transition/exercices/bojack-horseman/"></intlink>
+
+
+   
 
 
 

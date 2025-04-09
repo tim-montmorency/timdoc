@@ -60,7 +60,7 @@
 
 <h3><strong>Séance : De Figma à Visual Studio Code – Auto-Layout et Flexbox</strong></h3>
 <hr>
-<p style="margin-bottom: 0;">⏳ <strong>Durée :</strong> 1h30 (théorie) + 1h30 (pratique)<br>🎯 <strong>Objectifs
+<!-- <p style="margin-bottom: 0;">⏳ <strong>Durée :</strong> 1h30 (théorie) + 1h30 (pratique)<br> --> 🎯 <strong>Objectifs
         :</strong></p>
 <ul style="margin-top: 0;">
     <li>Comprendre et utiliser l'auto-layout dans Figma.</li>
@@ -70,42 +70,10 @@
 </ul>
 <hr>
 
-<dots></dots>
-
-
-<grostitre>L'auto-layout dans Figma</grostitre>
-<youtube src="3XIQZrrhx-I"></youtube>
-<small>En anglais mais vous pouvez ajouter les sous-titres français.</small> <br> <br>
-+ <a href="https://www.figma.com/community/file/1419019707467348375" target="_blank" rel="noopener noreferrer">Fichier
-    de travail pour suivre l'atelier</a> <br>
-
 
 
 <dots></dots>
-<grostitre>Flexbox via l'auto-layout et le Dev&nbsp;mode dans Figma</grostitre>
-<youtube src="Pi6MipIG5iI"></youtube>
-<small>En anglais mais vous pouvez ajouter les sous-titres français.</small>
-
-<dots></dots>
-<h3>Extention à installer maintenant sur vos Visual&nbsp;Studio&nbsp;Code</h3>
-        <a class="tool" target="_blank" href="https://marketplace.visualstudio.com/items?itemName=figma.figma-vscode-extension">
-            <div class="tool-container">
-                <div class="tool-abstract">
-                    <em class="tool-label">OUTIL</em>
-                    <span class="tool-title">Figma for VS Code</span>
-                    <span class="tool-description">Extension pour Visual Studio Code qui permet d'importer des designs Figma et de les convertir en code CSS.</span>
-                </div>
-                <div class="tool-thumb" style="background-image: url(./tools/figma-for-vscode/images/figma-vscode.png)"></div>
-            </div>
-        </a>
-<doclink href='https://help.figma.com/hc/fr/articles/15023121296151-Figma-pour-VS-Code'>Apprendre à utiliser l'extension
-    <strong>Figma pour VS Code</strong> (en français)</doclink>
-<dots></dots>
-
-
-
-
-<h3><strong>1. Introduction à l’Auto-Layout dans Figma (30 min)</strong></h3>
+<grostitre>1. Auto-Layout dans Figma</grostitre>
 <p>📌 <strong>Pourquoi utiliser l’auto-layout ?</strong></p>
 <ul>
     <li>Facilite la gestion des espacements, alignements et tailles des éléments.</li>
@@ -115,13 +83,10 @@
 </ul>
 
 <dots></dots>
-<p><a href="https://www.figma.com/design/iUiwmQrCE7wneBx6k1OpZO/flexbox-demo" target="_blank"
-        rel="noopener noreferrer">FICHIER DE DEMO</a></p>
+<p><a href="https://www.figma.com/design/iUiwmQrCE7wneBx6k1OpZO/flexbox-demo?node-id=0-1&t=RERhHjRJq8BIaJdV-1" target="_blank" rel="noopener noreferrer">FICHIER DE DEMO</a></p>
 
 <info>
-    <p>
-        Pour mieux comprendre l'auto-layout et son lien avec le principle de flexbox, veuille <strong>afficher les
-            libellés dans les panneau de configuration de Figma</strong></p>
+    <p>Pour mieux comprendre l'auto-layout et son lien avec le principle de flexbox, veuille <strong>afficher les libellés dans les panneau de configuration de Figma</strong></p>
     <p><img src="images/menu-logo-figma.png" class="img-inline" alt=""> / View / Property labels</p>
     <clipasset src='images/figma-display-property-label.mp4'></clipasset>
 </info>
@@ -129,7 +94,7 @@
 
 
 
-<h3>🛠️ Démonstration 1: cadre de texte dynamique et bouton en <em>auto-layout</em></h3>
+<h3>🛠️ Démonstration : cadre de texte dynamique et bouton en <em>auto-layout</em></h3>
 <checklist>
     Créer un cadre (frame) et y insérer 3 paragraphes <em>Lorem ipsum</em>.
     Sélectionner la boîte de texte. Dans la panneau <em>layout</em> à droite, ajuster la redimension automatique de la boite de texte sur (1) la largeur (auto-width) ou sur (2) la hauteur (auto-height): <br><img src="./images/ajuster-boite-au-texte.png" alt=""> Celle-ci s'ajustera automatiquement à la taille du texte, qu'on ajoute ou qu'on enlève un paragraphe. Sa dimension est maintenant dynamique.
@@ -142,13 +107,10 @@
     Changer maintenant le texte du bouton pour un texte plus long, observer ce qui se passe. La dimension du bouton s'ajuste maintenant à la largeur de son contenu.
 </checklist>
 
-<!-- Réduire encore largeur du bouton plus petit que le texte et observer comment le texte s'ajuste à la taille du bouton. S'ajuste-t-il? Non. 
-    Pensez flexbox. S'il n'y a pas assez de place en largeur <span class="inline-code">flex-direction: row;</span>, que devriez-vous ajouter afin que le texte excédentaire continue suer une 2e ligne en dessous? Réponse: <span class="inline-code">flex-wrap: wrap;</span>
-    Comment activer ce comportement dans l'outil auto-layout de Figma? Ici:  -->
 
 <dots></dots>
 
-<grostitre>Le panneau auto-layout dans Figma</grostitre>
+<h3>Le panneau auto-layout dans Figma</h3>
 <img src="images/panneau-auto-layout.png" alt="Panneau auto-layout est ses options" style="box-shadow: 0 0 10px rgba(0,0,0,0.05);">
 <ul>
     <li><a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdN3tKSngKhGpd_MhVJH9MUBWpKQkDPAcCvk2aSyEl8Z7Q?e=pH06Yt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank" rel="noopener noreferrer">Capsule vidéo partie 1:</a>
@@ -171,10 +133,16 @@
     </li>
 </ul>
 
-
-
-
 <dots></dots>
+<h3>Suite de la démo</h3>
+<p><a href="https://www.figma.com/design/iUiwmQrCE7wneBx6k1OpZO/flexbox-demo?node-id=0-1&t=RERhHjRJq8BIaJdV-1" target="_blank" rel="noopener noreferrer">FICHIER DE DEMO</a></p>
+<p>Flexbox sur parent: Autres exemples de placements en explorant le panneau d'<em>auto-layout</em></p>
+<img src="images/demo-flexbox-autolayout-suite2.png" alt="">
+<p>Explorons aussi les propriétés auto-layout (flexbox) sur les éléments enfants, tels que <span class="inline-code">flex-grow</span>, <span class="inline-code">flex-shrink</span>, <span class="inline-code">flex-basis</span> (et <span class="inline-code">flex</span> qui est le raccourcis des 3 propriétés).</p>
+<img src="images/demo-flexbox-autolayout-suite3.png" alt="">
+
+
+<!--<dots></dots>
 
 <h3>🛠️ <strong>Démonstration 2 :</strong></h3>
 <ol>
@@ -191,50 +159,76 @@
     <li>Appliquer l’auto-layout à un composant plus complexe (ex. une carte de produit).</li>
 </ol>
 <p>💡 <strong>Discussion :</strong> Comment cela se traduit en CSS ? (Évocation rapide de Flexbox)</p>
+ -->
+
 
 <dots></dots>
-<h3><strong>2. Passage en Dev Mode et Extraction du Code CSS (30 min)</strong></h3>
+<grostitre>2. Passage en Dev Mode et extraction du code CSS</grostitre>
 <p>🔍 <strong>Présentation du Dev Mode</strong></p>
 <ul>
     <li>Activer le mode développeur dans Figma.</li>
     <li>Explorer les propriétés CSS générées.</li>
     <li>Comprendre comment Figma traduit l’auto-layout en <code>display: flex</code>.</li>
 </ul>
+<clipasset src='images/activer-devmode.mp4'></clipasset>
 <p>🛠️ <strong>Démonstration :</strong></p>
 <ol>
     <li>Sélectionner un élément et voir son code CSS généré.</li>
+    <li>Analyser quelques exemples.</li>
     <li>Comparer avec le code qu’on écrirait soi-même.</li>
-    <li>Copier le code et l’analyser dans Visual Studio Code.</li>
 </ol>
+<!-- 
 <p>💬 <strong>Discussion :</strong></p>
 <ul>
     <li>Forces et limites du code généré.</li>
     <li>Pourquoi l’industrie ne copie-colle pas ce code tel quel ?</li>
-</ul>
+</ul> -->
+
 
 <dots></dots>
-<h3><strong>3. Intégration dans Visual Studio Code (30 min)</strong></h3>
-<p>📌 <strong>Objectif : Recréer l’interface avec un code propre.</strong><br>🛠️ <strong>Démonstration :</strong></p>
+<grostitre>3. Intégration dans VS Code</grostitre>
+<p>📌 <strong>Objectif : Recréer l’interface avec un code propre.</strong></p>
+
+<p>🛠️ <strong>Démonstration :</strong></p>
 <ol>
     <li>Créer un fichier <code>index.html</code> et <code>style.css</code>.</li>
     <li>Structurer l’HTML (sections, divs, classes).</li>
     <li>Appliquer les styles avec Flexbox en s’inspirant du code généré par Figma.</li>
     <li>Ajuster les styles pour améliorer la propreté et la maintenabilité du code.</li>
 </ol>
+
+<!-- 
 <p>💡 <strong>Analyse :</strong></p>
 <ul>
     <li>Comparaison entre le code généré et celui écrit manuellement.</li>
     <li>Importance des bonnes pratiques (nomenclature, optimisation CSS).</li>
-</ul>
+</ul> -->
 
 <dots></dots>
-<h3><strong>4. Comment l’Industrie Utilise Figma en Développement Web ? (30 min)</strong></h3>
+<h3>Extention à installer maintenant sur vos Visual&nbsp;Studio&nbsp;Code</h3>
+        <a class="tool" target="_blank" href="https://marketplace.visualstudio.com/items?itemName=figma.figma-vscode-extension">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">Figma for VS Code</span>
+                    <span class="tool-description">Extension pour Visual Studio Code qui permet d'importer des designs Figma et de les convertir en code CSS.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(./tools/figma-for-vscode/images/figma-vscode.png)"></div>
+            </div>
+        </a>
+<doclink href='https://help.figma.com/hc/fr/articles/15023121296151-Figma-pour-VS-Code'>Apprendre à utiliser l'extension
+    <strong>Figma pour VS Code</strong> (en français)</doclink>
+
+
+<dots></dots>
+<grostitre>4. Comment l’industrie utilise Figma en développement Web ?</grostitre>
 <p>🛠️ <strong>Workflow en entreprise :</strong></p>
 <ol>
     <li><strong>Designer</strong> → Création des maquettes dans Figma avec Auto-Layout.</li>
     <li><strong>Développeur</strong> → Exploration en Dev Mode pour récupérer les propriétés.</li>
     <li><strong>Intégration</strong> → Transposition dans HTML/CSS en adaptant le code généré.</li>
 </ol>
+<br><br>
 <p>📌 <strong>Bonnes pratiques :</strong></p>
 <ul>
     <li>Nommer et organiser ses calques proprement.</li>
@@ -243,15 +237,23 @@
 </ul>
 
 <dots></dots>
-<h3><strong>5. Atelier Pratique (1h30)</strong></h3>
-<p>🎯 <strong>Exercice : Créer une carte de produit à partir d’un design Figma.</strong></p>
-<ol>
-    <li>Ouvrir un fichier Figma préparé avec une carte de produit (auto-layout activé).</li>
-    <li>Extraire le code via Dev Mode.</li>
-    <li>Reproduire cette carte en HTML/CSS en s’inspirant du code généré, mais en l’optimisant.</li>
-    <li>Tester l’adaptabilité avec quelques modifications (ex. ajustement du flex-grow, ajout d’un breakpoint).</li>
-</ol>
-<p>💡 <strong>Débriefing :</strong></p>
+<grostitre>5. Exercice</grostitre>
+
+<h3>🎯Exercice : Créer une carte de produit à partir d’un design Figma.</h3>
+
+<p><a href="https://www.figma.com/design/7Rzzo8tlV6FEfXH88Ut5fT/Exercice-auto-layout-carte-conference?node-id=0-1&t=3kI6keJV9zCLwN6s-1" target="_blank" rel="noopener noreferrer">Fichier de départ</a> (copiez ou dupliquez le dans votre Figma personnel pour démarrer).</p>
+
+<h4>Aperçu du résultat dans Figma (lorqu'en HTML/CSS, le comportement responsive devrait aussi être le même)</h4>
+<clipasset src='images/demo-exercice-autolayout-carte.mp4'></clipasset>
+<checklist>Ouvrir le fichier Figma et copier ou dupliquer la carte de la salle de conférence pour démarrer un fichier dans votre compte Figma personnel.
+    Préparer des auto-layouts: sur la carte et sur les groupes d'éléments pour faire en sorte qu'elle s'adapte en fonction de la démo ci-haut, lorsque redimensionnée. <br> <em>Votre tâche est facilitée puisque que la plupart des éléments sont déjà groupés ensemble. Vous n'aurez qu'à activer l'auto-layout principal et les sous auto-layouts et ajuster les paramètres pour chacun.</em> 
+    Extraire le code via Dev Mode.
+    Dans VS Code, reproduire cette carte en HTML/CSS en s’inspirant du code généré, mais en l’optimisant.
+    Tester l’adaptabilité avec quelques modifications (ex. ajustement du flex-grow, ajout d’un breakpoint).
+</checklist>
+
+
+<!-- <p>💡 <strong>Débriefing :</strong></p>
 <ul>
     <li>Quels défis avez-vous rencontrés ?</li>
     <li>Comment améliorer le workflow entre Figma et le code ?</li>
@@ -263,6 +265,27 @@
     <li>Références : Documentation Figma Dev Mode, CSS Tricks Flexbox Guide.</li>
     <li>Pour aller plus loin : Utilisation conjointe de Figma et Tailwind CSS, intégration avec React/Vue.js.</li>
 </ul>
+ -->
+
+
+
+<dots></dots>
+<grostitre>Pour en savoir plus</grostitre>
+
+
+<h3>L'auto-layout dans Figma</h3>
+<youtube src="3XIQZrrhx-I"></youtube>
+<small>En anglais mais vous pouvez ajouter les sous-titres français.</small> <br> <br>
++ <a href="https://www.figma.com/community/file/1419019707467348375" target="_blank" rel="noopener noreferrer">Fichier
+    de travail pour suivre l'atelier</a> <br>
+
+
+
+<dots></dots>
+<h3>Flexbox via l'auto-layout et le Dev&nbsp;mode dans Figma</h3>
+<youtube src="Pi6MipIG5iI"></youtube>
+<small>En anglais mais vous pouvez ajouter les sous-titres français.</small>
+
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>
