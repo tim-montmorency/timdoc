@@ -1,0 +1,6 @@
+{
+    "type": "exercice",
+    "title": "Carte auto-layout et convertie en HTML\/CSS",
+    "icon": "images\/thumb.png",
+    "abstract": "Vous devrez configurer la carte est ses \u00e9l\u00e9ments en auto-layout dans Figma, explorer le code Flexbox g\u00e9n\u00e9r\u00e9 via le DevMode et int\u00e9grer le tout en HTML+CSS dans VS Code."
+}

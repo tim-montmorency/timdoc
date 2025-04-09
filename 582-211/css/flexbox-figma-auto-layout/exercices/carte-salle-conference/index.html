@@ -1,0 +1,108 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../../shared/styles/styles.min.css">
+        <script src="../../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../../shared/';</script>
+        <title>Carte auto-layout et convertie en HTML/CSS</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Carte auto-layout et convertie en HTML/CSS</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<grostitre>🎯Exercice : Créer une carte de produit à partir d’un design Figma.</grostitre>
+
+
+<grostitre>Matériel</grostitre>
+<p><a href="https://www.figma.com/design/7Rzzo8tlV6FEfXH88Ut5fT/Exercice-auto-layout-carte-conference?node-id=0-1&t=3kI6keJV9zCLwN6s-1" target="_blank" rel="noopener noreferrer">Fichier de départ</a> (copiez ou dupliquez le dans votre Figma personnel pour démarrer).</p>
+
+<mediafile src="./images/exercice-carte-conference.jpg">Photo de la salle de conférence</mediafile>
+
+
+<dots></dots>
+<grostitre>Aperçu du résultat 👇</grostitre>
+<small>(lorqu'en HTML/CSS, le comportement responsive devrait aussi être le même)</small>
+<clipasset src='images/demo-exercice-autolayout-carte.mp4'></clipasset>
+
+<dots></dots>
+<grostitre>Requis</grostitre>
+<checklist>
+  Ouvrir le fichier Figma et copier ou dupliquer la carte de la salle de conférence pour démarrer un nouveau fichier dans votre compte Figma personnel.
+ <strong>Préparer des auto-layouts</strong>: sur la carte et sur les groupes d'éléments pour faire en sorte qu'elle s'adapte en fonction de la démo ci-haut, lorsque redimensionnée. <br> <em>Votre tâche est facilitée puisque que la plupart des éléments sont déjà groupés ensemble. Vous n'aurez qu'à activer l'auto-layout principal et les sous auto-layouts et ajuster les paramètres pour chacun.</em> 
+ N'oubliez pas de travailler la mise en place de l'image elle aussi responsive (et pssss🤫, ceci  génèrera sans doute des propriétés <span class="inline-code">object-fit</span>  et <span class="inline-code">object-position</span>), vous vous reconnaissez?🕵️‍♀️ 
+ <strong>Extraire le code via Dev Mode</strong>.
+  Dans VS Code, reproduire le HTML de cette carte et de tous les sous-groupes qu'elle contient. Utilisez le CSS généré par Dev&nbsp;Mode pour vous guider, mais en l’optimisant.
+  Tester l’adaptabilité avec quelques modifications (ex. ajustement du flex-grow, ajout d’un breakpoint au besoin etc).
+</checklist>
+
+<dots></dots>
+<grostitre>Notes de cours 📚</grostitre>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../">Flexbox - Figma Auto Layout</a></span>
+                <span class="intlink__item__abstract">Devmode dans Figma, Auto Layout et Flexbox</span>
+            </div>
+        </div>
+
+
+
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

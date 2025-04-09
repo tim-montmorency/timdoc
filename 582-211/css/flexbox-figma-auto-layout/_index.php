@@ -127,6 +127,9 @@
     <li>Analyser quelques exemples.</li>
     <li>Comparer avec le code qu’on écrirait soi-même.</li>
 </ol>
+
+<warning>Vous ne pouvez effectuer aucune modification tant que le <em>Dev Mode</em> reste activé. Il ne sert qu'à consulter le code généré. Il rend votre fichier en mode "read only". Pour modifier votre fichier, veuillez désactiver ce fameux <em>Dev Mode</em> en bas de l'écran.</warning>
+
 <!-- 
 <p>💬 <strong>Discussion :</strong></p>
 <ul>
@@ -180,19 +183,7 @@
 <dots></dots>
 <grostitre>5. Exercice</grostitre>
 
-<h3>🎯Exercice : Créer une carte de produit à partir d’un design Figma.</h3>
-
-<p><a href="https://www.figma.com/design/7Rzzo8tlV6FEfXH88Ut5fT/Exercice-auto-layout-carte-conference?node-id=0-1&t=3kI6keJV9zCLwN6s-1" target="_blank" rel="noopener noreferrer">Fichier de départ</a> (copiez ou dupliquez le dans votre Figma personnel pour démarrer).</p>
-
-<h4>Aperçu du résultat dans Figma (lorqu'en HTML/CSS, le comportement responsive devrait aussi être le même)</h4>
-<clipasset src='images/demo-exercice-autolayout-carte.mp4'></clipasset>
-<checklist>Ouvrir le fichier Figma et copier ou dupliquer la carte de la salle de conférence pour démarrer un fichier dans votre compte Figma personnel.
-    Préparer des auto-layouts: sur la carte et sur les groupes d'éléments pour faire en sorte qu'elle s'adapte en fonction de la démo ci-haut, lorsque redimensionnée. <br> <em>Votre tâche est facilitée puisque que la plupart des éléments sont déjà groupés ensemble. Vous n'aurez qu'à activer l'auto-layout principal et les sous auto-layouts et ajuster les paramètres pour chacun.</em> 
-    Extraire le code via Dev Mode.
-    Dans VS Code, reproduire cette carte en HTML/CSS en s’inspirant du code généré, mais en l’optimisant.
-    Tester l’adaptabilité avec quelques modifications (ex. ajustement du flex-grow, ajout d’un breakpoint).
-</checklist>
-
+<exercice href='./exercices/carte-salle-conference/'></exercice>
 
 <!-- <p>💡 <strong>Débriefing :</strong></p>
 <ul>
