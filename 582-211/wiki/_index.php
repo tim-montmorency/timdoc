@@ -863,7 +863,7 @@ EXAMEN 1 (30%)
 | |___| (_) | |_| | |  \__ \  | |/ /_ 
  \_____\___/ \__,_|_|  |___/  |_|____|
  ----------------------------------->  
-<wiki-page name="Cours 12" date="2025-04-15">
+<wiki-page name="Cours 12" date="2025-04-16">
     <!-- GROUPE 1 et 2: 16 avril, le groupe 3 : 8 mai -->
     <h3>Groupe 1 et 2 : rattrapge ou pratique examen</h3>
     <h3>Groupe 3 (ce cours sera apr`s examen donc) : Travail sur le projet final (partie 1)</h3>
