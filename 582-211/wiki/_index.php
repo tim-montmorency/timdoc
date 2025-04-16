@@ -877,12 +877,12 @@ EXAMEN 1 (30%)
     <intlink href='../css/flexbox-figma-auto-layout/exercices/collection-pixels/'></intlink>
 
     <dots></dots>
+    <grostitre>Projet final</grostitre>
     <info>
         <h4>Projet final (conjoint avec Design Graphique): FORMATION DES ÉQUIPES de 2</h4>
         Groupe mercredi am: il reste 3 personnes sans équipe: <a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETQTI_JDyl5JjuUQxMafVhQBtIO3CRK3_p6J_S6EiNuZEw?e=PmJk0m" target="_blank" rel="noopener noreferrer">dans le document Excel ci-compte</a> avant la fin du cours.</p>
     </info>
 
-    <grostitre>Projet final</grostitre>
     <p>La date de remise du design final est le 23 avril (cette date ne concernent que ceux qui prennent le cours de design).  </p>
     <p>Dès le 23 avril, vous pourrez débuter la partie intégration HTML+CSS. <strong>N'attendez pas à ce qu'on se revoit en classe pour commencer</strong> car avec le changement de calendrier autour de Pâques, vous allez perdre des jours précieux. </p>
     
@@ -891,12 +891,12 @@ EXAMEN 1 (30%)
     <intlink href='../projets/refonte-siteweb/'></intlink>
 
     <dots></dots>
-    <grostitre>Test de live share dan VS Code</grostitre>
+    <grostitre>Test de <em>Live Share</em> dans VS Code</grostitre>
     <p><a href="https://docs.google.com/presentation/d/14TRk-8ykuT7yRakUvIh36GiIq9b9-9GS9Hi9Gk3JbTE/edit?usp=sharing">Présentation</a></p>
     <p>Tester en équipe: Chaque équipe doit me démontrer sa capacité à utiliser Live Share de façon autonome.</p>
 
     <dots></dots>
-    <grostitre>Révision exercice</grostitre>
+    <grostitre>Révision exercice semaine passée</grostitre>
     <intlink href='../css/flexbox-figma-auto-layout/exercices/carte-salle-conference/'></intlink>
 
     <dots></dots>
