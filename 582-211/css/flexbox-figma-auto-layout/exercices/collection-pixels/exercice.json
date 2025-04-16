@@ -2,5 +2,5 @@
     "type": "exercice",
     "title": "Collections Pixels",
     "icon": "images\/thumb.jpg",
-    "abstract": "Pour cet exercice..."
+    "abstract": "Vous devrez, dans Figma d'abord, regrouper les \u00e9l\u00e9ments, configurer des auto-layouts dans Figma, explorer le code Flexbox g\u00e9n\u00e9r\u00e9 via le DevMode et int\u00e9grer le tout en HTML+CSS dans VS Code."
 }

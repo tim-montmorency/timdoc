@@ -873,7 +873,10 @@ EXAMEN 1 (30%)
     <!-- GROUPE 1 et 2: 16 avril, le groupe 3 : 8 mai -->
    <!-- <h3>Groupe 1 et 2 : rattrapge ou pratique examen</h3>
     <h3>Groupe 3 (ce cours sera apr`s examen donc) : Travail sur le projet final (partie 1)</h3> --> 
+    <grostitre>On commence par un exercice Figma Auto-Layout, Dev Mode, Flexbox</grostitre>
+    <intlink href='../css/flexbox-figma-auto-layout/exercices/collection-pixels/'></intlink>
 
+    <dots></dots>
     <info>
         <h4>Projet final (conjoint avec Design Graphique): FORMATION DES ÉQUIPES de 2</h4>
         Groupe mercredi am: il reste 3 personnes sans équipe: <a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETQTI_JDyl5JjuUQxMafVhQBtIO3CRK3_p6J_S6EiNuZEw?e=PmJk0m" target="_blank" rel="noopener noreferrer">dans le document Excel ci-compte</a> avant la fin du cours.</p>
