@@ -64,21 +64,20 @@ section.hero{
  <h3>Requis échafaudage (à faire en équipe)</h3>
 
  <checklist>
-  Créez un dossier de projet commun (ce dossier sera poussé sur github au prochain cours).
-  Ajoutez un sous-dossier nommé <em>app</em>.
-  À la racine du dossier de projet, ajoutez le fichier <em>index.html</em> qui correspond à la <em>landing page</em>.
-  Dans le sous-dossier <em>app</em>, ajoutez le fichier <em>index.html</em> qui correspond à l'<em>appli</em>.
-   Créez à la racine du dossier de votre projet les sous-dossiers suivant 📁: <em>assets</em>, <em>css</em>, <em>js</em>, <em>scss</em>, <em>vendors</em>
-   À l'intérieur de votre dossier <em>css</em>, ajoutez un fichier nommé <em>main.css</em>. Importez cette feuille de style sur chacune des pages HTML, après celle de Bootstrap.
-   À l'intérieur de votre dossier <em>js</em>, ajoutez un fichier nommé <em>script.js</em>. Importez ce fichier JavaScript sur chacune des pages HTML, après celle de Bootstrap.
-   À l'intérieur de votre dossier <em>assets</em>, créez un sous-dossier <em>artists</em> et un autre nommé <em>artworks</em>. Ces sous-dossiers contiendront les photos des artistes et les photos des œuvres de votre site web. Toutes les autres images seront logées directement dans assets. C'est une bonne pratique de classer les images par catégorie lorsqu'on fait un site web et qu'on a des centaines d'images à gérer.
-   Ouvrez votre fichier <em>main.css</em>, ce sera le fichier qui contiendra tous les styles communs au 2 pages (landing page et app).
-   Créez des variables css qui représentent chacune des couleurs de votre palette.
-   Liez vos fichiers de polices de caractère (fontes) via la balise link dans le head du fichier HTML ou via @import dans le fichier CSS.
-   Créez des variables pour le nom de vos différentes fontes.
-   Stylisez vos 6 niveaux de titre (headings) en utilisant le sélecteur de la balise et en créant aussi une classe avec le nom de la balise, par exemple : <br><span class="inline-code">h1, .h1{ font-size: 40px; font-weight: 900; color: var(--ma-couleur-primaire); }</span><br><span class="inline-code">h2, .h2{ font-size: 34px; font-weight: 700; color: var(--ma-couleur-primaire); }</span>
-   Préparez des groupes de commentaires CSS qui vont séparer les sections de vos styles. Par exemple, tous les styles généraux vont se trouver sous le commentaire <br><span class="inline-code">/*----- Styles Généraux -----*/</span><br> et les styles de la section Hero, se retrouveront sous le commentaire <br><span class="inline-code">/*----- Section Hero -----*/</span>
-   Copiez-collez le fichier <em>main.css</em> 2 fois et renommez ces nouveaux fichiers <em>styles-app.css</em> et <em>styles-lp.css</em>. Ces fichiers contiendront les styles spécifiques à chacune des pages. Allez enlever tous les styles déjà écrits dans ces deux nouvelles feuilles de style pour partir de zéro (vous pouvez conserver les bloc de commentaires, ils vous serviront). Importez ces feuilles de styles dans les pages HTML respectives, après <em>main.css</em>.
+  Créez un dossier de projet commun (ce dossier sera poussé sur github à la prochaine étape)..
+  À la racine du dossier de projet, ajoutez le fichier <em>index.html</em> qui correspond à la <em>page d'accueil</em> du site.
+  Ajoutez les 3 autres pages, en les nommant de façon appropriée (sans espace, sans accent et avec l'extension de fichier .html).
+  Créez à la racine du dossier de votre projet les sous-dossiers suivant 📁: <em>assets</em>, <em>css</em>, <em>js</em>.
+  À l'intérieur de votre dossier <em>css</em>, ajoutez un fichier nommé <em>main.css</em>. Liez cette feuille de style sur chacune des pages HTML.
+  À l'intérieur de votre dossier <em>assets</em>, créez ces sous-dossiers: <em>images</em>, <em>videos</em>, <em>videos</em>. Ces sous-dossiers contiendront les fichiers images, vidéos et polices de caractères (si applicable) de votre site web. 
+  Ouvrez votre fichier <em>main.css</em>, ce sera le fichier qui contiendra tous les styles communs aux 4 pages (les styles pour l'entête et le pied de page notamment).
+  Créez des variables css qui représentent chacune des couleurs de votre palette de couleur.
+  Ajoutez vos polices de caractères avec la techniques appropriées (dépendemment si c'est sur une police Google Font ou un fichier à ajouter dans vos assets avec @font-face).
+  Créez des variables pour le nom de vos différentes polices de caractères.
+  Stylisez vos 2 à 6 niveaux de titre (headings).
+  Préparez des groupes de commentaires CSS qui vont séparer les sections de vos styles. Par exemple, tous les styles généraux vont se trouver sous le commentaire <br><span class="inline-code">/*----- Styles Généraux -----*/</span><br> et les styles de la section Hero, se retrouveront sous le commentaire <br><span class="inline-code">/*----- Section Hero -----*/</span>
+  Copiez-collez le fichier <em>main.css</em> 2 fois et renommez ces nouveaux fichiers <em>styles-initialesEtudiant1.css</em> et <em>styles-initialesEtudiant2.css</em> (changez <em>initialesEtudiant</em> pour vos initiales). Ces fichiers contiendront les styles spécifiques à chacune des pages qui vous sont attribué (2 chacunes). Allez enlever tous les styles déjà écrits dans ces deux nouvelles feuilles de style pour partir de zéro (vous pouvez conserver les bloc de commentaires, ils vous serviront). Importez ces feuilles de styles dans les pages HTML respectives, après <em>main.css</em>.
+  N'oubliez pas de lier les 2 nouvelles feuilles de styles aux pages HTML appropriées.
 </checklist>
 
 
@@ -95,4 +94,15 @@ section.hero{
     Faites un commit (bien nommé) et push vers GitHub.
     Le 2e coéquipier, devra à son tour faire un clone du répertoire git sur son ordinateur.
     Vous êtes maintenant prêts à faire un pull à nouveau, chacun de votre côté et vous assurer que vous partez tous du même pied.
+</checklist>
+
+<dots></dots>
+<grostitre>5-Requis CSS+HTML entête et pied de page</grostitre>
+<warning>N'oubliez pas de styliser <em>mobile first</em> et d'ajouter les styles pour plus grands écrans via des @media queries.</warning>
+<h3>En équipe</h3>
+<checklist>
+  Dans le fichier de l'accueil <em>index.html</em>, ajoutez les balises de base d,une page HTML et n'oubliez pas d'inscrire le nom du site dans la balise <incode>title</incode> et de changer la langue pour <em>fr</em>.
+  Ajoutez les balises pour l'entête <incode>header</incode>. L'entête contient probablement le logo, la navigation principale, etcetera, selon votre design.
+  Dans le même fichier, ajoutez les balises pour le pied de page <incode>footer</incode>.
+  Dans le fichier css <em>main.css</em>, ajoutez les styles pour l'entête et le pied de page afin de les rendre conformes au design de votre site.
 </checklist>

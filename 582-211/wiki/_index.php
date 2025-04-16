@@ -885,7 +885,12 @@ EXAMEN 1 (30%)
     
     <p>Les consignes finales pour le projet final Web2 vous seront fournies ici et sur Teams d'ici le 17 avril fin de journée.</p>
     <!--  (les étudiants pourront débuter dès qu’ils ont remis les maquettes en design graphique mercredi le 23 avril). -->
-      <intlink href='../projets/refonte-siteweb/'></intlink>
+    <intlink href='../projets/refonte-siteweb/'></intlink>
+
+    <dots></dots>
+    <grostitre>Test de live share dan VS Code</grostitre>
+    <p><a href="https://docs.google.com/presentation/d/14TRk-8ykuT7yRakUvIh36GiIq9b9-9GS9Hi9Gk3JbTE/edit?usp=sharing">Présentation</a></p>
+    <p>Tester en équipe: Chaque équipe doit me démontrer sa capacité à utiliser Live Share de façon autonome.</p>
 
     <dots></dots>
     <grostitre>Révision exercice</grostitre>
@@ -927,8 +932,6 @@ EXAMEN 1 (30%)
     <intlink href="../css/exercices/trainspotting/"></intlink>
     <intlink href="../css/exercices/asian-dub-foundation-rafis-revenge/"></intlink>
     <intlink href="../css/exercices/nirvana-nevermind/"></intlink>
-
-
 
 
     <dots></dots>
