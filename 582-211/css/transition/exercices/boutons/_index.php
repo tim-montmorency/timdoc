@@ -3,11 +3,11 @@
  * @type     exercice
  * @title    Transition - Boutons
  * @icon     images/thumb.jpg
- * @abstract Pour cet exercice nous allons indiquer quel bouton a le focus à l’aide de l’émoji ☝️.
+ * @abstract Pour cet exercice nous allons indiquer quel bouton est survolé à l’aide de l’émoji ☝️.
  */
 ?>
 
-<p class="spacer">Pour cet exercice nous allons indiquer quel bouton a le focus à l’aide de l’émoji ☝️.</p>
+<p class="spacer">Pour cet exercice nous allons indiquer quel bouton est survolé à l’aide de l’émoji ☝️.</p>
 
 <p>Aperçu du résultat 👇</p>
 
@@ -31,7 +31,7 @@
     Utilisez un pseudo-élément afin d'ajouter l'émoji ☝️ dans chaque bouton.
     Déplacez ensuite cet émoji en plein centre sous chaque bouton.
     Chaque émoji doit-être invisible par défaut.
-    Lorsqu'un bouton reçoit le focus, son émoji doit apparaitre en fondu en l'espace d'une demi-seconde ⏱.
+    Lorsqu'un bouton est survolé, son émoji doit apparaitre en fondu en l'espace d'une demi-seconde ⏱.
 </checklist>
 
 <dots></dots>
@@ -41,7 +41,6 @@
 
 <checklist>
     Ajoutez une animation CSS faisant rebondir de haut en bas les émojis du quart de leur hauteur afin d'attirer l'attention de l'usager.
-    Retirez le outline ajouté par défaut aux boutons par le navigateur, puisque les émojis permettent maintenant d'indiquer lequel parmi ceux-ci a le focus.
 </checklist>
 
 <clipasset src="videos/transition-boutons-partie-2.mp4"></clipasset>

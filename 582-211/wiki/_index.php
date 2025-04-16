@@ -767,18 +767,30 @@ EXAMEN 1 (30%)
     <intlink href="../css/transition/exercices/spider-man/"></intlink>
     <intlink href="../css/transition/exercices/bojack-horseman/"></intlink>
     <intlink href="../css/transition/exercices/boutons/"></intlink>
-    Ne pas animer fantôme mais seulement Mario:
-    <intlink href="../css/transition/exercices/fantome-mario/"></intlink>
+
 
 
     <dots></dots>
-    <grostitre>Devoirs obligatoire</grostitre>
-    <p>Terminer tous les exercices de <em>transition</em> du cours d'aujoud'hui</p>
-    <intlink href="../css/transition/exercices/spider-man/"></intlink>
-    <intlink href="../css/transition/exercices/bojack-horseman/"></intlink>
-    <intlink href="../css/transition/exercices/boutons/"></intlink>
+    <grostitre>Animation</grostitre>
+    <intlink href="../css/animation/"></intlink>
+    <intlink href="../css/animation/exercices/pong/"></intlink>
+    <intlink href="../css/animation/exercices/fantome/"></intlink>
+    <intlink href="../css/animation/exercices/yo-yo/"></intlink>
+    <intlink href="../css/animation/exercices/pendule/"></intlink>
+    <intlink href="../css/animation/exercices/billes/"></intlink>
+    <intlink href="../css/animation/exercices/new-super-luigi/"></intlink>
+.
     <intlink href="../css/transition/exercices/fantome-mario/"></intlink>
 
+
+
+    <dots></dots>
+
+    <grostitre>Devoir</grostitre>
+    <p>Terminer les exercices débutés en classe aujourd'hui sur les transitions et animations.</p>
+    <p>Débuter le projet final.</p>
+    <p>Étudier pour l'examen du prochain cours: 30 avril / 1<sup>er</sup> mai: une pratique d'examen vous sera envoyée sur Teams au cours de la semaine prochaine.</p>
+ 
 </wiki-page>
 
 
@@ -804,8 +816,7 @@ EXAMEN 1 (30%)
     <dots></dots>
     <grostitre>Projet final</grostitre>
     <p>La date de remise du design final est le 23 avril (cette date ne concernent que ceux qui prennent le cours de design).  </p>
-   <p class="red-label">Dès le 23 avril, vous pourrez débuter la partie intégration HTML+CSS. <strong>N'attendez pas à ce qu'on se revoit en classe pour commencer</strong> car avec le changement de calendrier autour de Pâques, vous allez perdre des jours précieux. </p>
-    <p>Les consignes finales pour l'intégration HTML+CSS du cours Web2 seront présentées en classe pour les groupes 1 et 2 le mercredi 16 avril. Pour le groupe 3, absent la semaine prochaine, elles seront également envoyées via Teams/Devoir le même jour. N'hésitez pas à me contacter pour toute question, je serai disponible pendant les jours ouvrables.</p>
+    <p class="red-label">Dès le 23 avril, vous pourrez débuter la partie intégration HTML+CSS. <strong>N'attendez pas à ce qu'on se revoit en classe pour commencer</strong> car avec le changement de calendrier autour de Pâques, vous allez perdre des jours précieux. </p>
     <!--  (les étudiants pourront débuter dès qu’ils ont remis les maquettes en design graphique mercredi le 23 avril). -->
 
     <dots></dots>
@@ -828,7 +839,8 @@ EXAMEN 1 (30%)
     <dots></dots>
     <grostitre>Flexbox avancé avec Figma et devmode</grostitre>
     <intlink href="../css/flexbox-figma-auto-layout"></intlink>
-    <p>Exercice <a href="../css/flexbox-figma-auto-layout/#5-exercice" target="_blank" rel="noopener noreferrer">Auto-layout + devmode + flexbox</a></p>
+    <intlink href='../css/flexbox-figma-auto-layout/exercices/carte-salle-conference/'></intlink>
+
 
 
     <dots></dots>
@@ -842,12 +854,6 @@ EXAMEN 1 (30%)
     <intlink href="../css/transition/"></intlink>
     <intlink href="../css/transition/exercices/spider-man/"></intlink>
     <intlink href="../css/transition/exercices/bojack-horseman/"></intlink>
-
-
-   
-
-
-
 
 </wiki-page>
 
@@ -865,8 +871,31 @@ EXAMEN 1 (30%)
  ----------------------------------->  
 <wiki-page name="Cours 12" date="2025-04-16">
     <!-- GROUPE 1 et 2: 16 avril, le groupe 3 : 8 mai -->
-    <h3>Groupe 1 et 2 : rattrapge ou pratique examen</h3>
-    <h3>Groupe 3 (ce cours sera apr`s examen donc) : Travail sur le projet final (partie 1)</h3>
+   <!-- <h3>Groupe 1 et 2 : rattrapge ou pratique examen</h3>
+    <h3>Groupe 3 (ce cours sera apr`s examen donc) : Travail sur le projet final (partie 1)</h3> --> 
+
+    <info>
+        <h4>Projet final (conjoint avec Design Graphique): FORMATION DES ÉQUIPES de 2</h4>
+        Groupe mercredi am: il reste 3 personnes sans équipe: <a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETQTI_JDyl5JjuUQxMafVhQBtIO3CRK3_p6J_S6EiNuZEw?e=PmJk0m" target="_blank" rel="noopener noreferrer">dans le document Excel ci-compte</a> avant la fin du cours.</p>
+    </info>
+
+    <grostitre>Projet final</grostitre>
+    <p>La date de remise du design final est le 23 avril (cette date ne concernent que ceux qui prennent le cours de design).  </p>
+    <p>Dès le 23 avril, vous pourrez débuter la partie intégration HTML+CSS. <strong>N'attendez pas à ce qu'on se revoit en classe pour commencer</strong> car avec le changement de calendrier autour de Pâques, vous allez perdre des jours précieux. </p>
+    
+    <p>Les consignes finales pour le projet final Web2 vous seront fournies ici et sur Teams d'ici le 17 avril fin de journée.</p>
+    <!--  (les étudiants pourront débuter dès qu’ils ont remis les maquettes en design graphique mercredi le 23 avril). -->
+      <intlink href='../projets/refonte-siteweb/'></intlink>
+
+    <dots></dots>
+    <grostitre>Révision exercice</grostitre>
+    <intlink href='../css/flexbox-figma-auto-layout/exercices/carte-salle-conference/'></intlink>
+
+    <dots></dots>
+    <grostitre>Git</grostitre>
+    <doclink href='https://smnarnold.com/cours/git/introduction'>Introduction à git</doclink> <br>
+    <doclink href='https://smnarnold.com/cours/git/github'>GitHub</doclink> <br>
+    <doclink href='https://smnarnold.com/cours/git/github-desktop'>Le logiciel GitHub Desktop</doclink> <br>
 
 
     <dots></dots>
@@ -880,13 +909,43 @@ EXAMEN 1 (30%)
     <intlink href="../css/animation/exercices/new-super-luigi/"></intlink>
 
 
+    <dots></dots>
+    <grostitre>Exercices de pratiques avant examen</grostitre>
+    <p>Voici une série d'exercices de pratique avant l'examen. Vous n'êtes pas obligés de les faire, mais ils vous aideront à vous préparer pour l'examen.</p>
+    <alert>Il manque un exercice qui intègre Flexbox avec d'autres notions, je vais l'ajouter ici d'ici le 23 avril.</alert>
+    <intlink href="../css/exercices/mr-oizo-all-wet/"></intlink>
+    <intlink href="../css/exercices/king-crimson-larks-tongues-in-aspic/"></intlink>
+    <intlink href="../css/exercices/ttc-3615/"></intlink>
+    <intlink href="../css/exercices/harmonium-l-heptade/"></intlink>
+    <intlink href="../css/exercices/lisa-leblanc-lisa-leblanc/"></intlink>
+    <intlink href="../css/exercices/robert-charlebois-la-maudite-tournee/"></intlink>
+    <intlink href="../css/exercices/les-cowboys-fringants-break-syndical/"></intlink>
+    <intlink href="../css/exercices/underworld-everything-everything/"></intlink>
+    <intlink href="../css/exercices/the-black-keys-turn-blue/"></intlink>
+    <intlink href="../css/exercices/air-premiers-symptomes/"></intlink>
+    <intlink href="../css/exercices/lost-highway/"></intlink>
+    <intlink href="../css/exercices/trainspotting/"></intlink>
+    <intlink href="../css/exercices/asian-dub-foundation-rafis-revenge/"></intlink>
+    <intlink href="../css/exercices/nirvana-nevermind/"></intlink>
 
 
 
 
-   <!-- SURPLUS À PLACER?  -->
+    <dots></dots>
+    <grostitre>Devoir</grostitre>
+    <p>Terminer les exercices d'animation css.</p>
+    <p>Débuter le projet final.</p>
+    <p>Étudier pour l'examen du prochain cours: 30 avril / 1<sup>er</sup> mai.</p>
 
-   
+
+</wiki-page>
+
+
+
+
+<!--  
+
+   SURPLUS
     
    <dots></dots>
     <grostitre>Contenu aujourd'hui</grostitre>
@@ -958,9 +1017,12 @@ EXAMEN 1 (30%)
     <intlink href="../css/exercices/asian-dub-foundation-rafis-revenge/"></intlink>
     <intlink href="../css/exercices/nirvana-nevermind/"></intlink>
     <intlink href="../css/exercices/pink-floyd-the-dark-side-of-the-moon/"></intlink>
-    <intlink href="../css/exercices/les-simpsons/"></intlink>
+    <intlink href="../css/exercices/les-simpsons/"></intlink> -->
 
-</wiki-page>
+
+
+
+
 
 
 
@@ -977,6 +1039,10 @@ EXAMEN 1 (30%)
 <wiki-page name="Cours 13" date="2025-04-22">
     <!-- Merc. 30  avril / Jeu. 1 mai -->
  Examen 2
+
+
+
+
 </wiki-page>
 
 
