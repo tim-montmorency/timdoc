@@ -1,7 +1,7 @@
 <?php
 /**
  * @type     article
- * @title    Projet final: Étape 1.
+ * @title    Projet final-Étape 1: 2 mai 23h59
  * @icon     images/icon-web.jpg
  * @abstract Choix de design, préparation et partage du fichier Figma, scafolding du projet, création du répertoire git.
  */

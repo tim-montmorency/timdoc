@@ -755,11 +755,19 @@ EXAMEN 1 (30%)
  
     <!-- GROUPE 1 et 2: 2 avril, le groupe 3 : 24 avril -->
 
+    <grostitre>Projet final</grostitre>
+    <p>La date de remise du design final est le 23 avril (cette date ne concernent que ceux qui prennent le cours de design).  </p>
+    <p>Dès le 23 avril, vous pourrez débuter la partie intégration HTML+CSS. La première étape est dûe pour le 2 mai à 23h59. Après aujourd'hui on ne se revoit qu'à l'examen le 1e mai donc je vous conseille de commencer tout de suite.</p>
+    
+    <intlink href='../projets/refonte-siteweb/'></intlink>
+    <intlink href='../projets/refonte-siteweb/etape1/'></intlink>
+
+
+    <dots></dots>
     <grostitre>Révision des exercices du cours 9</grostitre>
     <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
     <intlink href="../css/pseudo-elements/exercices/zab-cafe/"></intlink>
     <intlink href="../css/transformation/exercices/formes/"></intlink>
-    <intlink href="../css/exercices/alexisonfire-watch-out/"></intlink>
 
     <dots></dots>
     <grostitre>Transition</grostitre>
@@ -878,26 +886,23 @@ EXAMEN 1 (30%)
 
     <dots></dots>
     <grostitre>Projet final</grostitre>
-    <info>
-        <h4>Projet final (conjoint avec Design Graphique): FORMATION DES ÉQUIPES de 2</h4>
-        Groupe mercredi am: il reste 3 personnes sans équipe: <a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETQTI_JDyl5JjuUQxMafVhQBtIO3CRK3_p6J_S6EiNuZEw?e=PmJk0m" target="_blank" rel="noopener noreferrer">dans le document Excel ci-compte</a> avant la fin du cours.</p>
-    </info>
-
     <p>La date de remise du design final est le 23 avril (cette date ne concernent que ceux qui prennent le cours de design).  </p>
-    <p>Dès le 23 avril, vous pourrez débuter la partie intégration HTML+CSS. <strong>N'attendez pas à ce qu'on se revoit en classe pour commencer</strong> car avec le changement de calendrier autour de Pâques, vous allez perdre des jours précieux. </p>
+    <p>Dès le 23 avril, vous pourrez débuter la partie intégration HTML+CSS. La première étape est dûe pour le 2 mai à 23h59. Après aujourd'hui on ne se revoit qu'à l'examen le 30 avril donc je vous conseille de commencer tout de suite.</p>
     
-    <p>Les consignes finales pour le projet final Web2 vous seront fournies ici et sur Teams d'ici le 17 avril fin de journée.</p>
-    <!--  (les étudiants pourront débuter dès qu’ils ont remis les maquettes en design graphique mercredi le 23 avril). -->
     <intlink href='../projets/refonte-siteweb/'></intlink>
+    <intlink href='../projets/refonte-siteweb/etape1/'></intlink>
 
-    <dots></dots>
+
+<!--     <dots></dots>
     <grostitre>Test de <em>Live Share</em> dans VS Code</grostitre>
     <p><a href="https://docs.google.com/presentation/d/14TRk-8ykuT7yRakUvIh36GiIq9b9-9GS9Hi9Gk3JbTE/edit?usp=sharing">Présentation</a></p>
     <p>Tester en équipe: Chaque équipe doit me démontrer sa capacité à utiliser Live Share de façon autonome.</p>
+ -->
 
     <dots></dots>
     <grostitre>Révision exercice semaine passée</grostitre>
     <intlink href='../css/flexbox-figma-auto-layout/exercices/carte-salle-conference/'></intlink>
+
 
     <dots></dots>
     <grostitre>Git</grostitre>
