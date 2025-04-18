@@ -757,7 +757,11 @@ EXAMEN 1 (30%)
 
     <grostitre>Projet final</grostitre>
     <p>La date de remise du design final est le 23 avril (cette date ne concernent que ceux qui prennent le cours de design).  </p>
-    <p>Dès le 23 avril, vous pourrez débuter la partie intégration HTML+CSS. La première étape est dûe pour le 2 mai à 23h59. Après aujourd'hui on ne se revoit qu'à l'examen le 1e mai donc je vous conseille de commencer tout de suite.</p>
+    <p>Dès le 23 avril, vous pourrez débuter la partie intégration HTML+CSS. </p>
+    <p><strong>Date de remise de l'étape 1:</strong> <br>
+    Groupe 1 et 2 avant le 2 mai 23h59. <br>
+    Groupe 3 avant le 5 mai à 23h59</p>
+    <p>Après aujourd'hui on ne se revoit qu'à l'examen le 1er mai donc je vous conseille de débuter tout de suite.</p>
     
     <intlink href='../projets/refonte-siteweb/'></intlink>
     <intlink href='../projets/refonte-siteweb/etape1/'></intlink>
@@ -887,7 +891,11 @@ EXAMEN 1 (30%)
     <dots></dots>
     <grostitre>Projet final</grostitre>
     <p>La date de remise du design final est le 23 avril (cette date ne concernent que ceux qui prennent le cours de design).  </p>
-    <p>Dès le 23 avril, vous pourrez débuter la partie intégration HTML+CSS. La première étape est dûe pour le 2 mai à 23h59. Après aujourd'hui on ne se revoit qu'à l'examen le 30 avril donc je vous conseille de commencer tout de suite.</p>
+    <p>Dès le 23 avril, vous pourrez débuter la partie intégration HTML+CSS. </p>
+    <p><strong>Date de remise de l'étape 1:</strong> <br>
+    Groupe 1 et 2 avant le 2 mai 23h59. <br>
+    Groupe 3 avant le 5 mai à 23h59</p>
+    <p>Après aujourd'hui on ne se revoit qu'à l'examen le 30 avril donc je vous conseille de débuter tout de suite.</p>
     
     <intlink href='../projets/refonte-siteweb/'></intlink>
     <intlink href='../projets/refonte-siteweb/etape1/'></intlink>

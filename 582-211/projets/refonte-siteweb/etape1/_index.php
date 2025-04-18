@@ -1,13 +1,15 @@
 <?php
 /**
  * @type     article
- * @title    Projet final-Étape 1: 2 mai 23h59
+ * @title    Projet final-Étape 1: gr1+2: 2mai | gr3: 5mai 
  * @icon     images/icon-web.jpg
  * @abstract Choix de design, préparation et partage du fichier Figma, scafolding du projet, création du répertoire git.
  */
 ?>
 <grostitre>Étape 1</grostitre>
-<p>À compléter et remettre dans Teams/Devoirs avant le 2 mai 23h59.</p>
+<p>À compléter et remettre dans Teams/Devoirs. <br>
+Groupe 1 et 2 avant le 2 mai 23h59. <br>
+Groupe 3 avant le 5 mai à 23h59</p>
 
 <dots></dots>
 <grostitre>1-Choix</grostitre>
@@ -186,7 +188,10 @@ en premier (mobile first).
 
 <dots></dots>
 <grostitre>Remise: étape 1</grostitre>
-<p>D'ici le 2 mai à 23h59, vous devez déposer ceci dans Teams/Devoirs:</p>
+<p>Date de remise de l'étape 1: <br>
+Groupe 1 et 2 avant le 2 mai 23h59. <br>
+Groupe 3 avant le 5 mai à 23h59</p>
+<p>Vous devez déposer ceci dans Teams/Devoirs:</p>
 <ul>
   <li>Le lien vers votre Figma (je dois avoir les droits d'éditions).</li>
   <li>Le lien vers votre répertoire publique sur gitHub (tous les fichiers complétés devront y être poussés).</li>
