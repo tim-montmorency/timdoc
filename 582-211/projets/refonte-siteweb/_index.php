@@ -15,8 +15,7 @@
 <dots></dots>
 <grostitre>Étape 1</grostitre>
 <p>À compléter et remettre dans Teams/Devoirs avant le <em>2 mai 23h59</em>.</p>
-<p>Lien de l'étape 1 à venir d'ici le 17 avril.</p>
-<!-- <intlink href='etape1/'></intlink> -->
+<intlink href='./etape1/'></intlink>
 
 <dots></dots>
 <grostitre>Autre étapes à venir...</grostitre>
