@@ -692,6 +692,7 @@ EXAMEN 1 (30%)
     <!-- GROUPE 1 et 2: 2 avril, le groupe 3 : 24 avril -->
 
     <grostitre>Projet final</grostitre>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETQTI_JDyl5JjuUQxMafVhQBtIO3CRK3_p6J_S6EiNuZEw?e=PmJk0m" target="_blank" rel="noopener noreferrer">Inscription des équipes </a>.</p>
     <p>La date de remise du design final est le 23 avril (cette date ne concernent que ceux qui prennent le cours de design).  </p>
     <p>Même avant le 23 avril, vous pouvez déjà débuter l'étape 1 (échaffaudage, git et début d'intégration HTML+CSS).</p>
     <p><strong>Date de remise de l'étape 1:</strong> <br>
@@ -772,14 +773,15 @@ EXAMEN 1 (30%)
 <wiki-page name="Cours 11" date="2025-04-09">
     <!-- GROUPE 1 et 2: 9 avril, le groupe 3 : 10 avril -->
 
-    <info>
+   <!-- <info>
         <h4>Projet final (conjoint avec Design Graphique): FORMATION DES ÉQUIPES de 2</h4>
         Chaque équipe doit avoir <strong>au moins une personne qui fait aussi le cours de design graphique cette session</strong>. Vous n'êtes pas contraints à garder la même équipe de celle de design graphique, surtout que les classes ne sont pas les même... SI vous devez bougez, il se peut que vous ayez à intégrer le design de quelqu'un d'autres.</p>
        <p>Veuillez en discuter ensemble pendant le cours aujourd'hui et inscrire votre équipe <a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETQTI_JDyl5JjuUQxMafVhQBtIO3CRK3_p6J_S6EiNuZEw?e=PmJk0m" target="_blank" rel="noopener noreferrer">dans le document Excel ci-compte</a> avant la fin du cours.</p>
     </info>
+ --> 
 
-    <dots></dots>
     <grostitre>Projet final</grostitre>
+    <p><a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETQTI_JDyl5JjuUQxMafVhQBtIO3CRK3_p6J_S6EiNuZEw?e=PmJk0m" target="_blank" rel="noopener noreferrer">Inscription des équipes </a>.</p>
     <p>La date de remise du design final est le 23 avril (cette date ne concernent que ceux qui prennent le cours de design).  </p>
     <p>Même avant le 23 avril, vous pouvez déjà débuter l'étape 1 (échaffaudage, git et début d'intégration HTML+CSS).</p>
     <p><strong>Date de remise de l'étape 1:</strong> <br>
@@ -836,6 +838,7 @@ EXAMEN 1 (30%)
 
     <dots></dots>
     <grostitre>Projet final</grostitre>
+
     <p>La date de remise du design final est le 23 avril (cette date ne concernent que ceux qui prennent le cours de design).  </p>
     <p>Même avant le 23 avril, vous pouvez déjà débuter l'étape 1 (échaffaudage, git et début d'intégration HTML+CSS).</p>
     <p><strong>Date de remise de l'étape 1:</strong> <br>
