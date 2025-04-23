@@ -494,18 +494,6 @@ EXAMEN 1 (30%)
 
     <!-- GROUPE 1 et 2 l'ont eu le 26 février, le groupe 3 l'aura le 20 mars -->
 
-    <grostitre>Contenu du jour</grostitre>
-    <p>Responsive design et media queries:</p>
-    <ul>
-        <li>Mobile-first vs desktop first </li>
-        <li>Media queries par résolution, densité de pixels, orientation  </li>
-        <li>Techniques pour rendre une mise en page adaptative</li>
-        <li>Unités de mesure fluide </li>
-        <li>Overflow</li>
-    </ul>
-
-
-    <dots></dots>
     <grostitre>Quiz</grostitre>
     <ol>
         <li><a href="https://app.wooclap.com/KUUNFO" target="_blank" rel="noopener noreferrer">Groupe 1 - merc. am</a> Code:&nbsp;KUUNFO</li>
@@ -698,8 +686,7 @@ EXAMEN 1 (30%)
     <p><strong>Date de remise de l'étape 1:</strong> <br>
     Groupe 1 et 2: avant le 2 mai 23h59. <br>
     Groupe 3: avant le 5 mai à 23h59</p>
-    <p>Après aujourd'hui on ne se revoit qu'à l'examen le 1er mai donc je vous conseille de débuter tout de suite.</p>
-    
+
     <intlink href='../projets/refonte-siteweb/'></intlink>
     <intlink href='../projets/refonte-siteweb/etape1/'></intlink>
 
@@ -707,6 +694,8 @@ EXAMEN 1 (30%)
     <dots></dots>
     <grostitre>Révision exercices précédents (l'a-t-on révisé déjà?)</grostitre>
     <intlink href="../css/transformation/exercices/formes/"></intlink>
+
+    
 
     <dots></dots>
     <grostitre>Transition</grostitre>
@@ -732,6 +721,11 @@ EXAMEN 1 (30%)
 
 
     <dots></dots>
+    <grostitre>Git</grostitre>
+    <doclink href='https://smnarnold.com/cours/git/introduction'>Introduction à git</doclink> <br>
+    <doclink href='https://smnarnold.com/cours/git/github'>GitHub</doclink> <br>
+    <doclink href='https://smnarnold.com/cours/git/github-desktop'>Le logiciel GitHub Desktop</doclink> <br>
+
 
     <dots></dots>
     <grostitre>Exercices de pratiques avant examen</grostitre>
@@ -788,6 +782,9 @@ EXAMEN 1 (30%)
     Groupe 1 et 2: avant le 2 mai 23h59. <br>
     Groupe 3: avant le 5 mai à 23h59</p>
 
+    <intlink href='../projets/refonte-siteweb/'></intlink>
+    <intlink href='../projets/refonte-siteweb/etape1/'></intlink>
+
 
 
     
@@ -833,10 +830,7 @@ EXAMEN 1 (30%)
     <!-- GROUPE 1 et 2: 16 avril, le groupe 3 : 8 mai -->
    <!-- <h3>Groupe 1 et 2 : rattrapge ou pratique examen</h3>
     <h3>Groupe 3 (ce cours sera apr`s examen donc) : Travail sur le projet final (partie 1)</h3> --> 
-    <grostitre>On commence par un exercice Figma Auto-Layout, Dev Mode, Flexbox</grostitre>
-    <intlink href='../css/flexbox-figma-auto-layout/exercices/collection-pixels/'></intlink>
 
-    <dots></dots>
     <grostitre>Projet final</grostitre>
 
     <p>La date de remise du design final est le 23 avril (cette date ne concernent que ceux qui prennent le cours de design).  </p>
@@ -845,8 +839,6 @@ EXAMEN 1 (30%)
     Groupe 1 et 2: avant le 2 mai 23h59. <br>
     Groupe 3: avant le 5 mai à 23h59</p>
 
-    <p>Après aujourd'hui on ne se revoit qu'à l'examen le 30 avril donc je vous conseille de débuter tout de suite.</p>
-    
     <intlink href='../projets/refonte-siteweb/'></intlink>
     <intlink href='../projets/refonte-siteweb/etape1/'></intlink>
 
@@ -860,6 +852,10 @@ EXAMEN 1 (30%)
     <dots></dots>
     <grostitre>Révision exercice semaine passée</grostitre>
     <intlink href='../css/flexbox-figma-auto-layout/exercices/carte-salle-conference/'></intlink>
+
+    <grostitre>Exercice Figma Auto-Layout, Dev Mode, Flexbox</grostitre>
+    <intlink href='../css/flexbox-figma-auto-layout/exercices/collection-pixels/'></intlink>
+
 
 
     <dots></dots>
