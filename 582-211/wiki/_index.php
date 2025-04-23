@@ -506,24 +506,13 @@ EXAMEN 1 (30%)
 
 
     <dots></dots>
-    <grostitre>Quiz et révision</grostitre>
+    <grostitre>Quiz</grostitre>
     <ol>
         <li><a href="https://app.wooclap.com/KUUNFO" target="_blank" rel="noopener noreferrer">Groupe 1 - merc. am</a> Code:&nbsp;KUUNFO</li>
         <li><a href="https://app.wooclap.com/EZHHIO" target="_blank" rel="noopener noreferrer">Groupe 2 - merc. pm</a> Code:&nbsp;EZHHIO</li>
         <li><a href="https://app.wooclap.com/" target="_blank" rel="noopener noreferrer">Groupe 3 - jeudi am</a> Code:&nbsp;</li>
     </ol>
-    <!--   <h3>Révisions d'exercices</h3>
-    <h4>GROUPE 1 (merc AM)</h4>
-    <intlink href="../css/pseudo-classes-intermediaires/exercices/grille/"></intlink>
-    <intlink href="../css/google-fonts/exercices/bart/"></intlink>
-    <intlink href="../css/exercices/moby-i-like-to-score/"></intlink> 
 
-    <h4>GROUPE 1 et 2 (merc AM et PM)</h4>
-    <intlink href="../css/font-face/exercices/la-guerre-la-guerre/"></intlink>
-    <intlink href="../css/exercices/mindless-self-indulgence-fgwsss/"></intlink> 
-    <intlink href='../css/variables/exercices/canadiens/'></intlink>
-    <intlink href='../css/variables/exercices/lakers/'></intlink> -->
-  
 
 
     <dots></dots>
@@ -581,26 +570,7 @@ EXAMEN 1 (30%)
 <wiki-page name="Cours 08" date="2025-03-18">
     <!-- GROUPE 1 et 2 19 mars, le groupe 3 27 mars -->
 
-    <grostitre>Retour sur l'examen (groupe 3)</grostitre>
-    <p>Présentation par l'enseignante.</p>
-    <dots></dots>
 
-
-    <h3>Révision des exercices du cours 7 : responsive et media queries</h3>
-    <intlink href="../css/media-queries/exercices/modok/"></intlink>
-    <intlink href="../css/media-queries/exercices/ou-est-charlie/"></intlink>
-    <!--<intlink href="../css/overflow/exercices/eclipses/"></intlink>-->
-
-     <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
-
-
-    <h3>Nouveau exercices Media Queries </h3>
-    <intlink href="../css/exercices/the-planet-smashers-unstoppable/"></intlink>
-    <intlink href="../css/exercices/rage-against-the-machine-renegades/"></intlink>
-    <intlink href="../css/exercices/malajube-trompe-l-oeil/"></intlink>
-    
-
-    <dots></dots> 
     <grostitre>SVG</grostitre>
     <intlink href="../html/svg/"></intlink>
    
@@ -650,10 +620,6 @@ EXAMEN 1 (30%)
     <intlink href="../css/filtres/exercices/instagram/"></intlink>
 
     <intlink href="../css/aspect-ratio/exercices/the-boys/"></intlink>
-<!--    <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
-    
-    <intlink href="../css/pseudo-elements/exercices/zab-cafe/"></intlink> -->
- 
 
 
 </wiki-page>
@@ -674,12 +640,6 @@ EXAMEN 1 (30%)
 
   <!-- GROUPE 1 et 2: 26 mars, le groupe 3 : 3 avril -->
 
-    <grostitre>Retour sur l'examen (groupes 1 et 2)</grostitre>
-    <p>Présentation des détails.</p>
-    <dots></dots>
- 
-
-
     <!-- 
     Dernier cours (cours 8) - note to self
     groupe 1 
@@ -692,33 +652,9 @@ EXAMEN 1 (30%)
     Ensuite j'ai présenté SVG, Mode fusion, filtres, object-fit, aspect-ratio et pseudo-element.
     Finalement ils ont tous quitté plus tôt le cours, me mentionnant qu'ils vont faire les exercices à la maison... oh well.
     -->
-   <grostitre>Révision exercices obligatoires (à terminer en devoir)</grostitre>
-   <h3>Cours 7</h3>
-   <intlink href="../css/media-queries/exercices/modok/"></intlink>
-   <intlink href="../css/media-queries/exercices/ou-est-charlie/"></intlink>
-   <intlink href="../css/unites-de-mesure-avancees/exercices/marylene-gendron/"></intlink>
 
-
-    <h3>Cours 8</h3>
-    <intlink href="../html/svg/exercices/hollywood-boulevard/"></intlink>
-    <intlink href="../css/variables/exercices/jidddf/"></intlink>
-
-    <intlink href="../css/modes-de-fusion/exercices/emotion/"></intlink>
-
-    <intlink href="../css/filtres/exercices/anonymat/"></intlink>
-    <intlink href="../css/filtres/exercices/instagram/"></intlink>
-
-    <intlink href="../css/aspect-ratio/exercices/the-boys/"></intlink>
-
-
-    <dots></dots>
-    <grostitre>Suite de la semaine dernière...</grostitre>
-    <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
-    <intlink href="../css/pseudo-elements/exercices/zab-cafe/"></intlink>
-
-    <dots></dots>
     
-    <grostitre><span class="red-label">Nouveau contenu:</span> Transformation CSS</grostitre>
+    <grostitre>Transformation CSS</grostitre>
 
     <intlink href="../css/transformation/"></intlink>
     <intlink href="../css/transformation/exercices/formes/"></intlink>
@@ -768,9 +704,7 @@ EXAMEN 1 (30%)
 
 
     <dots></dots>
-    <grostitre>Révision des exercices du cours 9</grostitre>
-    <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
-    <intlink href="../css/pseudo-elements/exercices/zab-cafe/"></intlink>
+    <grostitre>Révision exercices précédents (l'a-t-on révisé déjà?)</grostitre>
     <intlink href="../css/transformation/exercices/formes/"></intlink>
 
     <dots></dots>
@@ -785,23 +719,42 @@ EXAMEN 1 (30%)
     <dots></dots>
     <grostitre>Animation</grostitre>
     <intlink href="../css/animation/"></intlink>
+    <intlink href="../css/transition/exercices/fantome-mario/"></intlink>
     <intlink href="../css/animation/exercices/pong/"></intlink>
     <intlink href="../css/animation/exercices/fantome/"></intlink>
     <intlink href="../css/animation/exercices/yo-yo/"></intlink>
     <intlink href="../css/animation/exercices/pendule/"></intlink>
     <intlink href="../css/animation/exercices/billes/"></intlink>
     <intlink href="../css/animation/exercices/new-super-luigi/"></intlink>
-.
-    <intlink href="../css/transition/exercices/fantome-mario/"></intlink>
+
 
 
 
     <dots></dots>
 
+    <dots></dots>
+    <grostitre>Exercices de pratiques avant examen</grostitre>
+    <p>Voici une série d'exercices de pratique avant l'examen. Vous n'êtes pas obligés de les faire, mais ils vous aideront à vous préparer pour l'examen.</p>
+    <alert>Il manque un exercice qui intègre Flexbox avec d'autres notions, je vais l'ajouter ici d'ici le 23 avril.</alert>
+    <intlink href="../css/exercices/mr-oizo-all-wet/"></intlink>
+    <intlink href="../css/exercices/king-crimson-larks-tongues-in-aspic/"></intlink>
+    <intlink href="../css/exercices/ttc-3615/"></intlink>
+    <intlink href="../css/exercices/harmonium-l-heptade/"></intlink>
+    <intlink href="../css/exercices/lisa-leblanc-lisa-leblanc/"></intlink>
+    <intlink href="../css/exercices/robert-charlebois-la-maudite-tournee/"></intlink>
+    <intlink href="../css/exercices/les-cowboys-fringants-break-syndical/"></intlink>
+    <intlink href="../css/exercices/underworld-everything-everything/"></intlink>
+    <intlink href="../css/exercices/the-black-keys-turn-blue/"></intlink>
+    <intlink href="../css/exercices/air-premiers-symptomes/"></intlink>
+    <intlink href="../css/exercices/lost-highway/"></intlink>
+    <intlink href="../css/exercices/trainspotting/"></intlink>
+    <intlink href="../css/exercices/asian-dub-foundation-rafis-revenge/"></intlink>
+    <intlink href="../css/exercices/nirvana-nevermind/"></intlink>
+
+    <dots></dots>
     <grostitre>Devoir</grostitre>
-    <p>Terminer les exercices débutés en classe aujourd'hui sur les transitions et animations.</p>
-    <p>Débuter le projet final.</p>
-    <p>Étudier pour l'examen du prochain cours: 30 avril / 1<sup>er</sup> mai: une pratique d'examen vous sera envoyée sur Teams au cours de la semaine prochaine.</p>
+    <p>Projet final étape 1.</p>
+    <p>Étudier pour l'examen du prochain cours: 30 avril / 1<sup>er</sup> mai.</p>
  
 </wiki-page>
 
@@ -831,22 +784,7 @@ EXAMEN 1 (30%)
     <p>Dès le 23 avril, vous pourrez débuter la partie intégration HTML+CSS. <strong>N'attendez pas à ce qu'on se revoit en classe pour commencer</strong> car avec le changement de calendrier autour de Pâques, vous allez perdre des jours précieux. </p>
     <!--  (les étudiants pourront débuter dès qu’ils ont remis les maquettes en design graphique mercredi le 23 avril). -->
 
-    <dots></dots>
-    <grostitre>Révision exercices cours précédent</grostitre>
-    <h3>Groupes 1 et 2</h3>
-    <intlink href="../css/transformation/exercices/formes/"></intlink>
-    <intlink href="../css/transition/exercices/spider-man/"></intlink>
-    <intlink href="../css/transition/exercices/bojack-horseman/"></intlink>
-    Possiblement: 
-    <intlink href="../css/transition/exercices/boutons/"></intlink>
-    <intlink href="../css/transition/exercices/fantome-mario/"></intlink>
 
-
-    <h3>Groupe 3</h3>
-    <intlink href="../css/object-fit/exercices/mcdonalds/"></intlink>
-    <intlink href="../css/pseudo-elements/exercices/zab-cafe/"></intlink>
-    <intlink href="../css/transformation/exercices/formes/"></intlink>
-   
     
     <dots></dots>
     <grostitre>Flexbox avancé avec Figma et devmode</grostitre>
@@ -866,6 +804,11 @@ EXAMEN 1 (30%)
     <intlink href="../css/transition/"></intlink>
     <intlink href="../css/transition/exercices/spider-man/"></intlink>
     <intlink href="../css/transition/exercices/bojack-horseman/"></intlink>
+
+    <dots></dots>
+    <grostitre>Devoir</grostitre>
+    <p>Projet final étape 1.</p>
+    <p>Étudier pour l'examen du prochain cours: 30 avril / 1<sup>er</sup> mai.</p>
 
 </wiki-page>
 
@@ -952,8 +895,7 @@ EXAMEN 1 (30%)
 
     <dots></dots>
     <grostitre>Devoir</grostitre>
-    <p>Terminer les exercices d'animation css.</p>
-    <p>Débuter le projet final.</p>
+    <p>Projet final étape 1.</p>
     <p>Étudier pour l'examen du prochain cours: 30 avril / 1<sup>er</sup> mai.</p>
 
 
