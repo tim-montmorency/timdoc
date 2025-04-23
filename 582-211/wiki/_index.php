@@ -659,7 +659,7 @@ EXAMEN 1 (30%)
 .
     
     <intlink href="../css/transformation/exercices/formes/"></intlink>
-    <intlink href="../css/exercices/alexisonfire-watch-out/"></intlink>
+
 
 
 
@@ -794,8 +794,7 @@ EXAMEN 1 (30%)
     <intlink href='../css/flexbox-figma-auto-layout/exercices/carte-salle-conference/'></intlink>
 
 
-
-    <dots></dots>
+<!--   <dots></dots>
     <grostitre>Si on a le temps</grostitre>
     <h3>Groupes 1 et 2</h3>
     <intlink href="../css/animation/"></intlink>
@@ -806,7 +805,8 @@ EXAMEN 1 (30%)
     <intlink href="../css/transition/"></intlink>
     <intlink href="../css/transition/exercices/spider-man/"></intlink>
     <intlink href="../css/transition/exercices/bojack-horseman/"></intlink>
-
+ -->
+  
     <dots></dots>
     <grostitre>Devoir</grostitre>
     <p>Projet final étape 1.</p>
