@@ -841,7 +841,7 @@ EXAMEN 1 (30%)
  -->
 
     <dots></dots>
-    <grostitre>Révision exercice semaine passée</grostitre>
+    <h3>Révision exercice semaine passée</h3>
     <intlink href='../css/flexbox-figma-auto-layout/exercices/carte-salle-conference/'></intlink>
 
     <grostitre>Exercice Figma Auto-Layout, Dev Mode, Flexbox</grostitre>
