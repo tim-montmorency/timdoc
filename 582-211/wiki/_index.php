@@ -724,7 +724,7 @@ EXAMEN 1 (30%)
     <dots></dots>
     <grostitre>Exercices de pratiques avant examen</grostitre>
     <p>Voici une série d'exercices de pratique avant l'examen. Vous n'êtes pas obligés de les faire, mais ils vous aideront à vous préparer pour l'examen.</p>
-    <alert>Le corrigé de certains exercices pourront être fournis à la demande. Je ne partagerai pas les corrigés de tous les exercices par défaut. Vous devez me demander si vous en avez besoin. Vous devez faire l’exercice avant de me demander le corriger en m’écrivant et en me fournissant une preuve. .</alert>
+    <alert>Le corrigé de certains exercices pourront être fournis à la demande. Je ne partagerai pas les corrigés de tous les exercices par défaut. Vous devez me demander si vous en avez besoin. Vous devez faire l’exercice avant de me demander le corriger en m’écrivant et en me fournissant une preuve.</alert>
     <intlink href="../css/exercices/mr-oizo-all-wet/"></intlink>
     <intlink href="../css/exercices/king-crimson-larks-tongues-in-aspic/"></intlink>
     <intlink href="../css/exercices/ttc-3615/"></intlink>
