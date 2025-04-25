@@ -681,8 +681,7 @@ EXAMEN 1 (30%)
 
     <grostitre>Projet final</grostitre>
     <p><a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETQTI_JDyl5JjuUQxMafVhQBtIO3CRK3_p6J_S6EiNuZEw?e=PmJk0m" target="_blank" rel="noopener noreferrer">Inscription des équipes </a>.</p>
-    <p>La date de remise du design final est le 23 avril (cette date ne concernent que ceux qui prennent le cours de design).  </p>
-    <p>Même avant le 23 avril, vous pouvez déjà débuter l'étape 1 (échaffaudage, git et début d'intégration HTML+CSS).</p>
+
     <p><strong>Date de remise de l'étape 1:</strong> <br>
     Groupe 1 et 2: avant le 2 mai 23h59. <br>
     Groupe 3: avant le 5 mai à 23h59</p>
@@ -771,8 +770,7 @@ EXAMEN 1 (30%)
 
     <grostitre>Projet final</grostitre>
     <p><a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETQTI_JDyl5JjuUQxMafVhQBtIO3CRK3_p6J_S6EiNuZEw?e=PmJk0m" target="_blank" rel="noopener noreferrer">Inscription des équipes </a>.</p>
-    <p>La date de remise du design final est le 23 avril (cette date ne concernent que ceux qui prennent le cours de design).  </p>
-    <p>Même avant le 23 avril, vous pouvez déjà débuter l'étape 1 (échaffaudage, git et début d'intégration HTML+CSS).</p>
+
     <p><strong>Date de remise de l'étape 1:</strong> <br>
     Groupe 1 et 2: avant le 2 mai 23h59. <br>
     Groupe 3: avant le 5 mai à 23h59</p>
@@ -828,8 +826,6 @@ EXAMEN 1 (30%)
 
     <grostitre>Projet final</grostitre>
 
-    <p>La date de remise du design final est le 23 avril (cette date ne concernent que ceux qui prennent le cours de design).  </p>
-    <p>Même avant le 23 avril, vous pouvez déjà débuter l'étape 1 (échaffaudage, git et début d'intégration HTML+CSS).</p>
     <p><strong>Date de remise de l'étape 1:</strong> <br>
     Groupe 1 et 2: avant le 2 mai 23h59. <br>
     Groupe 3: avant le 5 mai à 23h59</p>
