@@ -730,7 +730,7 @@ EXAMEN 1 (30%)
     <dots></dots>
     <grostitre>Exercices de pratiques avant examen</grostitre>
     <p>Voici une série d'exercices de pratique avant l'examen. Vous n'êtes pas obligés de les faire, mais ils vous aideront à vous préparer pour l'examen.</p>
-    <alert>Il manque un exercice qui intègre Flexbox avec d'autres notions, je vais l'ajouter ici d'ici le 23 avril.</alert>
+    <alert>Le corrigé de certains exercices pourront être fournis à la demande. Je ne partagerai pas les corrigés de tous les exercices par défaut. Vous devez me demander si vous en avez besoin. Vous devez faire l’exercice avant de me demander le corriger en m’écrivant et en me fournissant une preuve. .</alert>
     <intlink href="../css/exercices/mr-oizo-all-wet/"></intlink>
     <intlink href="../css/exercices/king-crimson-larks-tongues-in-aspic/"></intlink>
     <intlink href="../css/exercices/ttc-3615/"></intlink>
@@ -879,7 +879,9 @@ EXAMEN 1 (30%)
     <dots></dots>
     <grostitre>Exercices de pratiques avant examen</grostitre>
     <p>Voici une série d'exercices de pratique avant l'examen. Vous n'êtes pas obligés de les faire, mais ils vous aideront à vous préparer pour l'examen.</p>
-    <alert>Il manque un exercice qui intègre Flexbox avec d'autres notions, je vais l'ajouter ici d'ici le 23 avril.</alert>
+    
+    <alert>Le corrigé de certains exercices pourront être fournis à la demande. Je ne partagerai pas les corrigés de tous les exercices par défaut. Vous devez me demander si vous en avez besoin. Vous devez faire l’exercice avant de me demander le corriger en m’écrivant et en me fournissant une preuve. </alert>
+
     <intlink href="../css/exercices/mr-oizo-all-wet/"></intlink>
     <intlink href="../css/exercices/king-crimson-larks-tongues-in-aspic/"></intlink>
     <intlink href="../css/exercices/ttc-3615/"></intlink>
@@ -1024,7 +1026,7 @@ EXAMEN 1 (30%)
  ----------------------------------->  
 <wiki-page name="Cours 14" date="2025-04-29">
     <!-- GROUPE 1 et 2: 7 mai, le groupe 3 : 15 mai -->
-    <h3>Travail sur le projet final (partie 3)</h3>
+    <h3>Travail sur le projet final</h3>
 </wiki-page>
 
 
@@ -1041,7 +1043,8 @@ EXAMEN 1 (30%)
  ----------------------------------->  
 <wiki-page name="Cours 15" date="2025-05-06">
     <!-- GROUPE 1 et 2: 16 mai, le groupe 3 : 21 mai -->
-    <h3>Présentation du travail final: non c'est annulé, aps de présentation finalement car déjà présenté dans le cours de design.</h3>
+    <!-- <h3>Présentation du travail final: non c'est annulé, pas de présentation finalement car déjà présenté dans le cours de design.</h3> -->
+    
 </wiki-page>
 
 
