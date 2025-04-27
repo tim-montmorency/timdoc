@@ -703,11 +703,11 @@ EXAMEN 1 (30%)
     <dots></dots>
     <grostitre>Animation</grostitre>
     <intlink href="../css/animation/"></intlink>
-    <intlink href="../css/transition/exercices/fantome-mario/"></intlink>
-    <intlink href="../css/animation/exercices/pong/"></intlink>
-    <intlink href="../css/animation/exercices/fantome/"></intlink>
-    <intlink href="../css/animation/exercices/yo-yo/"></intlink>
     <intlink href="../css/animation/exercices/pendule/"></intlink>
+    <intlink href="../css/animation/exercices/fantome/"></intlink>
+    <intlink href="../css/transition/exercices/fantome-mario/"></intlink>
+    <intlink href="../css/animation/exercices/yo-yo/"></intlink>
+    <intlink href="../css/animation/exercices/pong/"></intlink>
     <intlink href="../css/animation/exercices/billes/"></intlink>
     <intlink href="../css/animation/exercices/new-super-luigi/"></intlink>
 
@@ -856,11 +856,11 @@ EXAMEN 1 (30%)
 
     <dots></dots>
     <grostitre>Animation</grostitre>
-    <intlink href="../css/animation/"></intlink>
-    <intlink href="../css/animation/exercices/pong/"></intlink>
-    <intlink href="../css/animation/exercices/fantome/"></intlink>
-    <intlink href="../css/animation/exercices/yo-yo/"></intlink>
     <intlink href="../css/animation/exercices/pendule/"></intlink>
+    <intlink href="../css/animation/exercices/fantome/"></intlink>
+    <intlink href="../css/transition/exercices/fantome-mario/"></intlink>
+    <intlink href="../css/animation/exercices/yo-yo/"></intlink>
+    <intlink href="../css/animation/exercices/pong/"></intlink>
     <intlink href="../css/animation/exercices/billes/"></intlink>
     <intlink href="../css/animation/exercices/new-super-luigi/"></intlink>
 
