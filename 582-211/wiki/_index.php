@@ -728,10 +728,8 @@ EXAMEN 1 (30%)
     <intlink href="../css/exercices/mr-oizo-all-wet/"></intlink>
     <intlink href="../css/exercices/king-crimson-larks-tongues-in-aspic/"></intlink>
     <intlink href="../css/exercices/ttc-3615/"></intlink>
-    <intlink href="../css/exercices/harmonium-l-heptade/"></intlink>
-    <intlink href="../css/exercices/lisa-leblanc-lisa-leblanc/"></intlink>
     <intlink href="../css/exercices/robert-charlebois-la-maudite-tournee/"></intlink>
-    <intlink href="../css/exercices/les-cowboys-fringants-break-syndical/"></intlink>
+   
     <intlink href="../css/exercices/underworld-everything-everything/"></intlink>
     <intlink href="../css/exercices/the-black-keys-turn-blue/"></intlink>
     <intlink href="../css/exercices/air-premiers-symptomes/"></intlink>
@@ -876,10 +874,14 @@ EXAMEN 1 (30%)
     <intlink href="../css/exercices/mr-oizo-all-wet/"></intlink>
     <intlink href="../css/exercices/king-crimson-larks-tongues-in-aspic/"></intlink>
     <intlink href="../css/exercices/ttc-3615/"></intlink>
+    <!-- 
+    Je ne trouve pas les corrigés et je n'ai pas le temps de les faires, je dois me concentrrer sur autres chose pour le moment. De toute façon, ils en ont en masse...
     <intlink href="../css/exercices/harmonium-l-heptade/"></intlink>
-    <intlink href="../css/exercices/lisa-leblanc-lisa-leblanc/"></intlink>
-    <intlink href="../css/exercices/robert-charlebois-la-maudite-tournee/"></intlink>
+    <intlink href="../css/exercices/lisa-leblanc-lisa-leblanc/"></intlink> 
     <intlink href="../css/exercices/les-cowboys-fringants-break-syndical/"></intlink>
+     --> 
+    
+    <intlink href="../css/exercices/robert-charlebois-la-maudite-tournee/"></intlink>
     <intlink href="../css/exercices/underworld-everything-everything/"></intlink>
     <intlink href="../css/exercices/the-black-keys-turn-blue/"></intlink>
     <intlink href="../css/exercices/air-premiers-symptomes/"></intlink>
@@ -993,12 +995,20 @@ EXAMEN 1 (30%)
  \_____\___/ \__,_|_|  |___/  |_|____/       
                              
  ----------------------------------->  
-<wiki-page name="Cours 13" date="2025-04-22">
+<wiki-page name="Cours 13" date="2025-04-30">
     <!-- Merc. 30  avril / Jeu. 1 mai -->
- Examen 2
+    Examen 2
 
+    <!-- 
+    Projet final - étape 1 
+    (mise en place du projet, échaffaudage, variable et styles css généraux, création du git, entête et pied de page en html et css)
+    Remise groupe 1 et 2 avant le 2 mai 23h59.
+    Remise g 3 avant le 5 mai à 23h59
 
-
+    Projet final - remise finale
+    Groupe 1 et 2: dimanche le 18 mai avant 23h59
+    Groupe 3: vendredi le 23 mai avant 13h30 
+    -->
 
 </wiki-page>
 
@@ -1015,9 +1025,16 @@ EXAMEN 1 (30%)
  \_____\___/ \__,_|_|  |___/  |_|  |_|  
                       
  ----------------------------------->  
-<wiki-page name="Cours 14" date="2025-04-29">
+<wiki-page name="Cours 14" date="2025-05-07">
     <!-- GROUPE 1 et 2: 7 mai, le groupe 3 : 15 mai -->
     <h3>Travail sur le projet final</h3>
+    <p>Rencontre équipe par équipe pour statuer de technique d'intégration (découpage des images, etc)</p>
+
+    <!-- 
+    Projet final - remise finale
+    Groupe 1 et 2: dimanche le 18 mai avant 23h59
+    Groupe 3: vendredi le 23 mai avant 13h30 
+    -->
 </wiki-page>
 
 
@@ -1034,7 +1051,14 @@ EXAMEN 1 (30%)
  ----------------------------------->  
 <wiki-page name="Cours 15" date="2025-05-06">
     <!-- GROUPE 1 et 2: 16 mai, le groupe 3 : 21 mai -->
+
     <!-- <h3>Présentation du travail final: non c'est annulé, pas de présentation finalement car déjà présenté dans le cours de design.</h3> -->
+
+    <!-- 
+    Remise finale du projet
+    Groupe 1 et 2: dimanche le 18 mai avant 23h59
+    Groupe 3: vendredi le 23 mai avant 13h30 
+    -->
     
 </wiki-page>
 
