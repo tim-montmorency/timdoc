@@ -17,7 +17,7 @@
 <br> Démo du survol:
 <clipasset mobile src='./videos/demo-survol.mp4'></clipasset> <br><br>  
 <br> Démo animation complète de la plume qui tombe:
-<clipasset mobile src='./videos/plume-animation-complete.mp4'></clipasset> <br><br>  
+<clipasset src='./videos/plume-animation-complete.mp4'></clipasset> <br><br>  
 Mobile:
 <img src="./images/apercu-bop-mobile.png" alt="mobile" style="max-width: 100px;"> <br>
 Tablette:
