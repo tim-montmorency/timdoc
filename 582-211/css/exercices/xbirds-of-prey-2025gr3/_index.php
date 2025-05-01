@@ -1,57 +1,11 @@
-<!-- 
-
-████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
-╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
-   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
-   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
-   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
-   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
-
--->
-<!DOCTYPE html>
-<html lang="fr-ca">
-    <head>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-P2R7T89B4B');
-        </script>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="robots" content="noindex, nofollow" />
-        <meta itemprop="digest" content="">
-        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
-        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
-        <script src="../../../../shared/jscripts/highlight.min.js"></script>
-        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
-        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
-        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
-        <script>const shared = '../../../../shared/';</script>
-        <title>Examen - Birds of Prey</title>
-    </head>
-    <body>
-        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
-        <a id="top"></a>
-        <header>
-            <div id="logo" @click="goToTop('../../../', '')" title="Retour à l'accueil">
-                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
-                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
-                </svg>
-            </div>
-            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
-        </header>
-        <main>
-            <!-- MAIN HEADER EOF -->
-            <div id="subhead">
-                <h1 id="title">Examen - Birds of Prey</h1>
-            </div>
-            <article>
-                <div id="contents">
-                    <!-- EXERCICE HEADER EOF -->
+<?php 
+/**
+ * @type     exercice
+ * @title    Examen - Birds of Prey
+ * @icon     images/thumb.jpg
+ * @abstract Pour cet exercice, nous allons recréer une affiche animée du film Birds of Prey.
+ */
+?>
 
 <p class="spacer">Pour cet exercice, nous allons recréer une affiche animée du film <a target="_blank" href="https://www.imdb.com/title/tt7713068/">Birds of Prey</a>.</p>
 
@@ -118,7 +72,8 @@ Desktop:
   <p> Vous DEVEZ <strong>commenter l’ensemble de votre code CSS</strong> afin de démontrer votre compréhension.</p>
 
   <p>Exemple de commentaires CSS auquel je m'attends: </p> 
-  <highlight lang="css">/* Conteneur en flex permettant d&#039;aligner le contenu sur une ligne (row) et donc l&#039;espace restant sera divis&eacute; entre chaque &eacute;l&eacute;ment enfant du .container */
+  <highlight  lang="css">
+/* Conteneur en flex permettant d'aligner le contenu sur une ligne (row) et donc l'espace restant sera divisé entre chaque élément enfant du .container */
 .container {
   display: flex;
   justify-content: space-between;
@@ -128,13 +83,15 @@ h1 {
   font-size: 1.3rem;
 }
 
-/* Styles d&#039;exception pour les &eacute;crans d&#039;une largeur de minimum 778px et plus */
+/* Styles d'exception pour les écrans d'une largeur de minimum 778px et plus */
 @media screen and (min-width: 778px) {
-  /* Adapter la taille fixe du titre principal qui &eacute;tait de 1.3rem et le changer pour 4vw qui &eacute;quivaut &agrave; 4% de la largeur du viewport (de la fen&ecirc;tre) . */
+  /* Adapter la taille fixe du titre principal qui était de 1.3rem et le changer pour 4vw qui équivaut à 4% de la largeur du viewport (de la fenêtre) . */
   h1{
     font-size: 4vw;
   }
-}</highlight>
+}
+
+  </highlight>
 </warning>
 
 
@@ -149,7 +106,7 @@ h1 {
 <dots></dots>
 <grostitre>Requis de base</grostitre>
 <checklist>
-  Dans la balise <span class="inline-code">title</span> de la page HTML, changez le texte <em>PRÉNOM+NOM</em> par le vôtre.
+  Dans la balise <incode>title</incode> de la page HTML, changez le texte <em>PRÉNOM+NOM</em> par le vôtre.
   Créez une variable pour chacune des couleurs pour utilisation ultérieure.
   La page web doit s'étendre sur toute la largeur et la hauteur de la fenêtre du navigateur.
   L'arrière-plan de la page doit être de couleur <em>gris profond</em>.
@@ -165,7 +122,7 @@ h1 {
 <grostitre>Requis pour l'affiche</grostitre>
 <checklist>
   L'affiche doit avoir une largeur équivalente à <em>80%</em> du plus petit côté de la fenêtre du navigateur.
-  Par défaut, l'affiche est carrée <em>1/1</em>. Il est interdit d'utiliser la propriété <span class="inline-code">height</span>. Utilisez la propriété CSS la plus appropriée pour ce requis. 
+  Par défaut, l'affiche est carrée <em>1/1</em>. Il est interdit d'utiliser la propriété <incode>height</incode>. Utilisez la propriété CSS la plus appropriée pour ce requis. 
   L'affiche doit être centrée dans la page tant horizontalement que verticalement, vous devez utiliser la technique <em>flexblox</em> pour ce faire.
   L'arrière-plan de l'affiche doit présenter un dégradé allant du <em>tuquoise léger</em> au <em>turquoise profond</em> en partant du coin supérieur gauche pour terminer au coin inférieur droit.
   Ajoutez à l'affiche un ombrage de <em>100px</em> égal de tout les côtés de couleur <em>noire</em> semi-transparente.
@@ -214,7 +171,7 @@ h1 {
 <img src="./images/images-affiche-BoP/logo-small.webp" alt="" style="display: inline-block; width: 50px; margin-bottom: 0; margin-right: 30px;"> <img src="./images/images-affiche-BoP/logo-vertical.webp" alt="" style="display: inline-block; width: 50px; margin-bottom: 0; margin-right: 30px;"> <img src="./images/images-affiche-BoP/logo-horizontal.webp" alt="" style="display: inline-block; width: 100px; margin-bottom: 0;"> 
 <checklist>
   <!-- Placer logo à coté de Harley via flexbox ? à essayer... -->
-  Appliquez aux images des 3 logos "BOP/Birds of Prey" une largeur <span class="inline-code">auto</span> et une largeur maximale <em>100%</em>.
+  Appliquez aux images des 3 logos "BOP/Birds of Prey" une largeur <incode>auto</incode> et une largeur maximale <em>100%</em>.
   Appliquez aux images des logos "BOP/Birds of Prey" une ombre portée de <em>20px</em> égal de tous les côtés de couleur <em>noire</em> semi-transparente. Attention, cette ombre doit entourer les lettre du logo et non pas la boite de l'image. Il existe une technique CSS pour ce faire, nous l'avons vu dans les dernières semaines.
   Le seul logo "BOP/Birds of Prey" visible par défaut (mobile first) est le petit logo (small).
   Si la fenêtre devient plus grande ou égale à <em>600px</em>, le logo "BOP/Birds of Prey" doit être remplacé par le logo horizontal.
@@ -290,6 +247,7 @@ h1 {
 </ul>
 
 
+
 <dots></dots>
 <grostitre>Remise</grostitre>
 <checklist>
@@ -306,20 +264,3 @@ h1 {
 <grostitre>Notes de cours 📚</grostitre>
 <doclink href="../../../../582-211/">Timdoc / 582-211</doclink>
 
-
-                    <!-- EXERCICE FOOTER SOF -->
-                </div>
-                <tabledesmatieres></tabledesmatieres>
-            </article>
-        <!-- MAIN FOOTER SOF -->
-        </main>
-        <footer>
-           
-            <div id="copyright"> 
-            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
-            Collège Montmorency | Techniques d'intégration multimédia
-            </div>
-        </footer>
-        <script>app.mount('body');</script>
-    </body>
-</html>
