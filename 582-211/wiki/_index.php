@@ -691,8 +691,8 @@ EXAMEN 1 (30%)
     <p><a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETQTI_JDyl5JjuUQxMafVhQBtIO3CRK3_p6J_S6EiNuZEw?e=PmJk0m" target="_blank" rel="noopener noreferrer">Inscription des équipes </a>.</p>
 
     <p><strong>Date de remise de l'étape 1:</strong> <br>
-    Groupe 1 et 2: avant le 2 mai 23h59. <br>
-    Groupe 3: avant le 5 mai à 23h59</p>
+    Groupe 1 et 2 avant le <span style="color: #bbb;"><s>2</s></span> <strong>3 mai 23h59</strong>. <br>
+    Groupe 3 avant le <span style="color: #bbb;"><s>5</s></span> <strong>6 mai à 23h59</strong></p>
 
     <intlink href='../projets/refonte-siteweb/'></intlink>
     <intlink href='../projets/refonte-siteweb/etape1/'></intlink>
@@ -775,8 +775,8 @@ EXAMEN 1 (30%)
     <p><a href="https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETQTI_JDyl5JjuUQxMafVhQBtIO3CRK3_p6J_S6EiNuZEw?e=PmJk0m" target="_blank" rel="noopener noreferrer">Inscription des équipes </a>.</p>
 
     <p><strong>Date de remise de l'étape 1:</strong> <br>
-    Groupe 1 et 2: avant le 2 mai 23h59. <br>
-    Groupe 3: avant le 5 mai à 23h59</p>
+    Groupe 1 et 2 avant le <span style="color: #bbb;"><s>2</s></span> <strong>3 mai 23h59</strong>. <br>
+    Groupe 3 avant le <span style="color: #bbb;"><s>5</s></span> <strong>6 mai à 23h59</strong></p>
 
     <intlink href='../projets/refonte-siteweb/'></intlink>
     <intlink href='../projets/refonte-siteweb/etape1/'></intlink>
@@ -830,8 +830,8 @@ EXAMEN 1 (30%)
     <grostitre>Projet final</grostitre>
 
     <p><strong>Date de remise de l'étape 1:</strong> <br>
-    Groupe 1 et 2: avant le 2 mai 23h59. <br>
-    Groupe 3: avant le 5 mai à 23h59</p>
+    Groupe 1 et 2 avant le <span style="color: #bbb;"><s>2</s></span> <strong>3 mai 23h59</strong>. <br>
+    Groupe 3 avant le <span style="color: #bbb;"><s>5</s></span> <strong>6 mai à 23h59</strong></p>
 
     <intlink href='../projets/refonte-siteweb/'></intlink>
     <intlink href='../projets/refonte-siteweb/etape1/'></intlink>
@@ -1050,8 +1050,9 @@ EXAMEN 1 (30%)
     <!-- 
     Projet final - étape 1 
     (mise en place du projet, échaffaudage, variable et styles css généraux, création du git, entête et pied de page en html et css)
-    Remise groupe 1 et 2 avant le 2 mai 23h59.
-    Remise g 3 avant le 5 mai à 23h59
+    Date de remise de l'étape 1:
+    Groupe 1 et 2 avant le <span style="color: #bbb;"><s>2</s></span> <strong>3 mai 23h59</strong>. <br>
+    Groupe 3 avant le <span style="color: #bbb;"><s>5</s></span> <strong>6 mai à 23h59</strong>
 
     Projet final - remise finale
     Groupe 1 et 2: dimanche le 18 mai avant 23h59
