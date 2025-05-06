@@ -1074,7 +1074,7 @@ EXAMEN 1 (30%)
  \_____\___/ \__,_|_|  |___/  |_|  |_|  
                       
  ----------------------------------->  
-<wiki-page name="Cours 14" date="2025-05-07">
+<wiki-page name="Cours 14" date="2025-05-06">
     <!-- GROUPE 1 et 2: 7 mai, le groupe 3 : 15 mai -->
     <grostitre>Travail sur le projet final</grostitre>
     <p>Rencontre équipe par équipe pour statuer de technique d'intégration (découpage des images, etc)</p>
