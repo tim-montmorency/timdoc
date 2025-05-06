@@ -2498,8 +2498,52 @@ EXAMEN 1 (30%)
  ----------------------------------->  
 <wiki-page name="Cours 14" date="2025-05-07">
     <!-- GROUPE 1 et 2: 7 mai, le groupe 3 : 15 mai -->
-    <h3>Travail sur le projet final</h3>
+    <grostitre>Travail sur le projet final</grostitre>
     <p>Rencontre équipe par équipe pour statuer de technique d'intégration (découpage des images, etc)</p>
+
+    <dots></dots>
+    <grostitre>Conseils pour tous</grostitre>
+    <ol>
+        <li>Largeur maximale du contenu de la page</li>
+        <li>Exporter les images de contenu de votre Figm.</li>
+        <li>Menu burger sur mobile (mobile first)</li>
+        <li>Noms fichiers et dossiers du projet</li>
+        <li>Chemin d’accès: absolus vs relatifs</li>
+    </ol>
+
+    <h3>1- Bases de mise en page et largeur maximale du contenu</h3>
+            <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../css/bases-mise-en-page/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../css/bases-mise-en-page/">Mise en page</a></span>
+                <span class="intlink__item__abstract">Bases de la mise en page CSS</span>
+            </div>
+        </div>
+
+    <h3>2- Exporter les images de contenu de votre Figma </h3>
+    <ul>
+        <li><a href="https://help.figma.com/hc/en-us/articles/360040028114-Export-from-Figma-Design" target="_blank" rel="noopener noreferrer">Exporter les images à partir d'un design dans Figma.</a> (en anglais)</li>
+        <li><a href="https://help.figma.com/hc/en-us/articles/13402894554519-Export-formats-and-settings" target="_blank" rel="noopener noreferrer">Paramètre et formats d'exportations des images.</a> (en anglais)</li>
+    </ul>
+    
+    
+    <h3>3- Menu burger sur mobile (mobile first) </h3>
+    <ul>
+        <li>Le bouton [☰] doit être visible par défaut (mobile) et caché sur grand écran avec media queries.</li>
+        <li>Le panneau qui contient la navigation principale du site devra être caché par défaut (mobile) et affiché complètement sur grand écran.</li>
+        <li>Le bouton [☰] devra servir à ouvrir et fermer le panneau qui contient la navigation principale (sur mobile).</li>
+    </ul>
+    Exemple de code qui utilise une checkbox pour afficher/masquer le menu burger, vous pouvez vous en inspirer:
+     <codepen id="Qwwxvxo" tab="css,result" height="600"></codepen>
+
+    <h3>4- Noms fichiers et dossiers du projet</h3>
+    <p>Tous vos fichiers (image, polices de caractères, fichiers css, html etc.) ne doivent contenir aucun caractère spécial (* & ? / + etc), ni de caractère accentué (é è ô etc), ni d'espace. Veuillez les renommer en conséquence (vous pouvez utiliser les tiret <em>-</em> ou le souligné <em>_</em>).</p>
+
+    <h3>5- Chemin d’accès: absolus vs relatifs </h3>
+    <p>Les chemins d’accès qui débutent par une barre oblique <span class="inline-code">/</span> est de type <em>absolu</em>. Dans vos projet, il faut que vous n'utilisiez que des chemins d'accès <em>relatif</em>.
+    <p>C’est mieux d’utiliser un <em>chemin relatif</em> parce qu’il fonctionne peu importe où se trouve ton projet, tant que les fichiers restent ensemble. Un <em>chemin absolu</em> pointe vers un endroit fixe sur ton ordi ou le web, donc il risque de ne plus marcher si tu déplaces ton projet ou le partages.</p>
+    </p>
+    
 
     <!-- 
     Projet final - remise finale
