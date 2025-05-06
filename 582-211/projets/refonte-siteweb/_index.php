@@ -16,7 +16,8 @@ Groupe 3 avant le <span style="color: #bbb;"><s>5</s></span> <strong>6 mai à 23
 <intlink href='./etape1/'></intlink>
 
 <dots></dots>
-<grostitre>Autre étapes à venir...</grostitre>
+<grostitre>Étape finale</grostitre>
+<intlink href='./etape-finale/'></intlink>
 
 <dots></dots>
 <grostitre>Remise finale</grostitre>

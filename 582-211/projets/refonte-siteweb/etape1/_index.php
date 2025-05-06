@@ -1,7 +1,7 @@
 <?php
 /**
  * @type     article
- * @title    Projet final-Étape 1: gr1+2: 2mai | gr3: 5mai 
+ * @title    Projet final-Étape 1
  * @icon     images/icon-web.jpg
  * @abstract Choix de design, préparation et partage du fichier Figma, scafolding du projet, création du répertoire git.
  */

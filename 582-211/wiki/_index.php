@@ -1077,7 +1077,15 @@ EXAMEN 1 (30%)
 <wiki-page name="Cours 14" date="2025-05-06">
     <!-- GROUPE 1 et 2: 7 mai, le groupe 3 : 15 mai -->
     <grostitre>Travail sur le projet final</grostitre>
-    <p>Rencontre équipe par équipe pour statuer de technique d'intégration (découpage des images, etc)</p>
+    <p>Rencontre équipe par équipe pour évaluer (formatif) où vous en êtes. Vous donner des conseils pour la suite. Répondre à vos questions.</p>
+
+
+    <h3>Étape finale</h3>
+    <ul>
+        <li>Groupe 1 et 2: dimanche le <strong>18 mai avant 23h59</strong> </li>
+        <li>Groupe 3: vendredi le <strong>23 mai avant 13h30</strong></li>
+    </ul>
+    <intlink href='../projets/refonte-siteweb/etape-finale/'></intlink>
 
     <dots></dots>
     <grostitre>Conseils pour tous</grostitre>
