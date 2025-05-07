@@ -105,20 +105,23 @@ en premier (mobile first).
 
 
 <dots></dots>
-<grostitre>Critères</grostitre>
+<grostitre>Critères d'évaluation</grostitre>
+INDIVIDUEL
 <ul>
-  <li>Respects des consignes et échéanciers à toutes les étapes du projet.</li>
-  <li>Le site respecte la maquette Figma, à l’exception de certaines améliorations que vous avez choisies d’apporter. Celles-ci doivent être clairement commentées et expliquées dans le code.</li>
-  <li>Des améliorations et des corrections ont été apportées à la suite de nos rencontres en classe lors des cours 14 et 15. Vous devez aussi avoir consulté le wiki cours 14 et 15 pour ajuster et corriger votre travail en fonction des <strong>Conseils pour tous</strong>.</li>
-  <li>Les <em>commits</em> Git sont fréquents et bien nommés. Les deux étudiants font des <em>commits</em> individuellement et c'est visibile sur l'historique de Github.</li>
-  <li>Unité visuelle et structurelle : les quatre pages suivent une même logique de mise en page, assurant une navigation fluide et une apparence uniforme.</li>
-  <li>Le site est <em>responsive</em>. Il s’adapte à tous les formats d’écran : mobile et bureau (desktop).</li>
-  <li>Le site est entièrement fonctionnel et permet une navigation fluide d’une page à l’autre.</li>
-  <li>L’animation est bien réalisée, comportant au minimum quatre étapes. Elle s’intègre harmonieusement au design, sans détourner l’attention de l’utilisateur. Elle fonctionne aussi bien sur mobile que sur ordinateur (desktop).</li>
-  <li>Les effets de survol des éléments interactifs (liens, boutons, etc.) incluent une transition CSS fluide, aussi bien à l’entrée qu’à la sortie du survol.</li>
-  <li>Le code est bien commenté (HTML et CSS) mais, en particulier le CSS, conformément aux consignes. Les commentaires démontrent la compréhension des techniques utilisées et sont rédigés par l’étudiant lui-même, sans l’aide d’un outil d’intelligence artificielle tiers.</li>
-
-
+  <li>L'étudiant a contribué  <strong>de manière active et équitable</strong> à l'ensemble du <strong>projet d'équipe</strong>. Les <em>commits</em> Git en témoignent, et une évaluation par les pairs viendra également appuyer cette participation.</li>
+</ul>
+D'ÉQUIPE
+<ul>
+  <li>Respects des <strong>consignes et échéanciers</strong> à toutes les étapes du projet.</li>
+  <li>Le site <strong>respecte la maquette</strong> Figma, à l’exception de certaines améliorations que vous avez choisies d’apporter. Celles-ci doivent être clairement commentées et expliquées dans le code.</li>
+  <li>Des <strong>améliorations et des corrections</strong> ont été apportées <strong>à la suite de nos rencontres</strong> en classe lors des cours 14 et 15. Vous devez aussi avoir consulté le wiki cours 14 et 15 pour ajuster et corriger votre travail en fonction des <strong>Conseils pour tous</strong>.</li>
+  <li>Les <strong><em>commits</em> Git</strong> sont fréquents et bien nommés. Les deux étudiants font des <em>commits</em> individuellement et c'est visibile sur l'historique de Github.</li>
+  <li><strong>Unité visuelle et structurelle</strong> : les quatre pages suivent une même logique de mise en page, assurant une navigation fluide et une apparence uniforme.</li>
+  <li>Le site est <strong><em>responsive</em></strong>. Il s’adapte à tous les formats d’écran : mobile et bureau (desktop).</li>
+  <li>Le site est <strong>entièrement fonctionnel</strong> et permet une <strong>navigation fluide</strong> d’une page à l’autre.</li>
+  <li><strong>L’animation est bien réalisée</strong>, comportant au minimum quatre étapes. Elle s’intègre harmonieusement au design, sans détourner l’attention de l’utilisateur. Elle fonctionne aussi bien sur mobile que sur ordinateur (desktop).</li>
+  <li>Les <strong>effets de survol</strong> des éléments interactifs (liens, boutons, etc.) incluent une <strong>transition CSS fluide</strong>, aussi bien à l’entrée qu’à la sortie du survol.</li>
+  <li>Le code est bien commenté (HTML et CSS) mais, en particulier le CSS, conformément aux consignes. Les <strong>commentaires démontrent la compréhension des techniques utilisées</strong> et sont rédigés par l’étudiant lui-même, sans l’aide d’un outil d’intelligence artificielle tiers.</li>
 </ul>
 
 
@@ -128,4 +131,6 @@ en premier (mobile first).
   <li>Groupe 1 et 2: dimanche le <strong>18 mai avant 23h59</strong> </li>
   <li>Groupe 3: vendredi le <strong>23 mai avant 13h30</strong></li>
 </ul>
+
+<p>Remplir l'évaluation par les pairs: lien à venir.</p>
 <p>Détails de la remise finale à venir.</p>

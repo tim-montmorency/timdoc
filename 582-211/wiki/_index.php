@@ -1076,6 +1076,13 @@ EXAMEN 1 (30%)
  ----------------------------------->  
 <wiki-page name="Cours 14" date="2025-05-06">
     <!-- GROUPE 1 et 2: 7 mai, le groupe 3 : 15 mai -->
+
+    <grostitre>Annonce</grostitre>
+    <p>Groupe 1 et 2 (mercredi) : prochain et dernier cours sera vendredi le 16 mai (on ne se voit pas mercredi le 14).</p>
+    <p>Groupe 3 (jeudi) : on se voit aujourd'hui comme si c'était votre cours 13, et on se voit aussi jeudi le 15 et mercredi le 21. Tous les cours sont consacrés au travail final.</p>
+
+
+    <dots></dots>
     <grostitre>Travail sur le projet final</grostitre>
     <p>Rencontre équipe par équipe pour évaluer (formatif) où vous en êtes. Vous donner des conseils pour la suite. Répondre à vos questions.</p>
 
@@ -1144,16 +1151,27 @@ EXAMEN 1 (30%)
  \_____\___/ \__,_|_|  |___/  |_|____/ 
                                                                       
  ----------------------------------->  
-<wiki-page name="Cours 15" date="2025-05-06">
+<wiki-page name="Cours 15" date="2025-05-16">
     <!-- GROUPE 1 et 2: 16 mai, le groupe 3 : 21 mai -->
 
-    <!-- <h3>Présentation du travail final: non c'est annulé, pas de présentation finalement car déjà présenté dans le cours de design.</h3> -->
 
     <!-- 
     Remise finale du projet
     Groupe 1 et 2: dimanche le 18 mai avant 23h59
     Groupe 3: vendredi le 23 mai avant 13h30 
     -->
+    <grostitre>Projet final</grostitre>
+
+    <h3>Évaluation par les pairs</h3>
+    <p>Remplir l'évaluation par les pairs: lien à venir.</p>
+
+    <h3>Rencontres</h3>
+    <p>Rencontre équipe par équipe pour évaluer (formatif) où vous en êtes. Vous donner des conseils pour la suite. Répondre à vos questions.</p>
+
+    <h3>Conseils à tous</h3>
+    <p>Ne pas oublier les "Conseils à tous" du Wiki Cours 14. En voici des nouveaux:</p>
+
+
     
 </wiki-page>
 
