@@ -1107,6 +1107,7 @@ EXAMEN 1 (30%)
     <h3>1- Bases de mise en page et largeur maximale du contenu</h3>
     <intlink href='../css/bases-mise-en-page/'></intlink>
 
+    
     <h3>2- Exporter les images de contenu de votre Figma </h3>
     <ul>
         <li><a href="https://help.figma.com/hc/en-us/articles/360040028114-Export-from-Figma-Design" target="_blank" rel="noopener noreferrer">Exporter les images à partir d'un design dans Figma.</a> (en anglais)</li>
@@ -1120,8 +1121,10 @@ EXAMEN 1 (30%)
         <li>Le panneau qui contient la navigation principale du site devra être caché par défaut (mobile) et affiché complètement sur grand écran.</li>
         <li>Le bouton [☰] devra servir à ouvrir et fermer le panneau qui contient la navigation principale (sur mobile).</li>
     </ul>
-    Exemple de code qui utilise une checkbox pour afficher/masquer le menu burger, vous pouvez vous en inspirer:
-     <codepen id="Qwwxvxo" tab="css,result" height="600"></codepen>
+    <p>Petit tuturiel de Raphael Beeaudet: <a href="https://www.raphaelbeaudet.com/creer-un-menu-responsive-uniquement-en-html-css" target="_blank" rel="noopener noreferrer">Créer un menu responsive uniquement en HTML / CSS</a></p>
+    <p>Dans la même lignée, voici un autre exemple code qui utilise la méthode <incode>checkbox</incode> pour afficher/masquer le menu burger. Vous pouvez vous en inspirer:</p>
+    <codepen id="Qwwxvxo" tab="css,result" height="600"></codepen>
+
 
     <h3>4- Noms fichiers et dossiers du projet</h3>
     <p>Tous vos fichiers (image, polices de caractères, fichiers css, html etc.) ne doivent contenir aucun caractère spécial (* & ? / + etc), ni de caractère accentué (é è ô etc), ni d'espace. Veuillez les renommer en conséquence (vous pouvez utiliser les tiret <em>-</em> ou le souligné <em>_</em>).</p>
