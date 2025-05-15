@@ -1089,7 +1089,7 @@ EXAMEN 1 (30%)
 
     <h3>Étape finale</h3>
     <ul>
-        <li>Groupe 1 et 2: dimanche le <strong>18 mai avant 23h59</strong> </li>
+        <li>Groupe 1 et 2: dimanche le <span style="color: #bbb;"><s>18</s></span> <strong>19 mai avant 23h59</strong> </li>
         <li>Groupe 3: vendredi le <strong>23 mai avant 13h30</strong></li>
     </ul>
     <intlink href='../projets/refonte-siteweb/etape-finale/'></intlink>
@@ -1137,7 +1137,7 @@ EXAMEN 1 (30%)
 
     <!-- 
     Projet final - remise finale
-    Groupe 1 et 2: dimanche le 18 mai avant 23h59
+    Groupe 1 et 2: dimanche le 19 mai avant 23h59
     Groupe 3: vendredi le 23 mai avant 13h30 
     -->
 </wiki-page>
@@ -1160,7 +1160,7 @@ EXAMEN 1 (30%)
 
     <!-- 
     Remise finale du projet
-    Groupe 1 et 2: dimanche le 18 mai avant 23h59
+    Groupe 1 et 2: dimanche le 19 mai avant 23h59
     Groupe 3: vendredi le 23 mai avant 13h30 
     -->
     <grostitre>Projet final</grostitre>
@@ -1172,7 +1172,7 @@ EXAMEN 1 (30%)
     <p>Rencontre équipe par équipe pour évaluer (formatif) où vous en êtes. Vous donner des conseils pour la suite. Répondre à vos questions.</p>
 
     <h3>Conseils à tous</h3>
-    <p>Ne pas oublier les "Conseils à tous" du Wiki Cours 14. En voici des nouveaux:</p>
+    <p>Ne pas oublier les "5 Conseils à tous" du Wiki Cours 14.</p>
 
 
     
