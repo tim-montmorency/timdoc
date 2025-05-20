@@ -131,6 +131,9 @@ D'ÉQUIPE
   <li>Groupe 1 et 2: dimanche le <span style="color: #bbb;"><s>18</s></span> <strong>19 mai avant 23h59</strong> </li>
   <li>Groupe 3: vendredi le <strong>23 mai avant 13h30</strong></li>
 </ul>
-
-<p>Remplir l'évaluation par les pairs: <a href="https://forms.office.com/r/Xw6QX5b6CY" target="_blank" rel="noopener noreferrer">Remplir le formulaire ici</a></p>
-<p>Faire un dernier commit et push git. Compresser et remettre le dossier du projet ici dans Devoir.</p>
+<h3>Instructions de remise</h3>
+<ol>
+  <li>Remplir l'évaluation par les pairs: <a href="https://forms.office.com/r/Xw6QX5b6CY" target="_blank" rel="noopener noreferrer">Remplir le formulaire ici</a></li>
+  <li>Faire un dernier <em>commit</em> et <em>push</em> git.</li>
+  <li>Compresser (.zip) et remettre le dossier du projet  dans Teams/Devoir.</li>
+</ol>
