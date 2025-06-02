@@ -1,7 +1,7 @@
 <?php 
 /**
  * @type     exercice
- * @title    Mr. Oizo - Démontre ton expertise
+ * @title    Mr. Oizo - Démontre ton expertise en CSS
  * @icon     images/thumb.jpg
  * @abstract Démontre ton expertise en CSS.
  */
@@ -16,7 +16,7 @@
 
 <grostitre>Matériel</grostitre>
 <doclink href="https://codepen.io/tim-momo/pen/XJJYaoG?">Pen de départ</doclink> <br>
-<span class="red-label">IMPORTANT POUR LE PEN</span> : AVANT de commencer à coder, faites un <em>Fork</em> du Pen. Écrire le code du Pen sur une feuille de papier que vous me remettez AVANT de commencer à coder. Le code du pen se trouve après <incode>/pen/</incode> dans le URL de la page.
+<span class="red-label">IMPORTANT POUR LE PEN</span> : AVANT de commencer à coder, faites un <em>Fork</em> du Pen. Copiez ensuite le URL de votre CodePen (suite au fork) et me l'envoyer en message privé sur Teams AVANT de commencer à coder.
 
 
 <dots></dots>
@@ -29,6 +29,12 @@
   Fusionnez les deux fonds en mode <span class="inline-code">multiply</span> afin de donner au gradient un effet délavé et plus foncé.
   L'album doit avoir une dimension verticale et horizontale de <em>65%</em> du plus petit côté de la fenêtre.
   Utilisez <span class="inline-code">transform</span> afin de positionner l'album au centre de la fenêtre (donc pour cette consignes, ne pas utiliser flexbox).
+</checklist>
+
+
+<grostitre>Requis position des 2 yeux</grostitre>
+<checklist>
+  À l'aide de flexbox, positionnez les deux yeux de façon à ce qu'ils soient alignés horizontalement et placés comme dans l'aperçu.
 </checklist>
 
 
