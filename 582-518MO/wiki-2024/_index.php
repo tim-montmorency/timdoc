@@ -2289,7 +2289,7 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <intlink href="../javascript/vue-js/composantes"></intlink>
 
 
-    <!-- <intlink href='../../../compendium/582-511%E2%80%93web5/vue/installation.html'></intlink>-->
+    <!-- <intlink href='../../../compendium/582-511-web5/vue/creation-projet.html'></intlink>-->
     <intlink href="../javascript/vue-js/sfc/"></intlink>
 
 
@@ -2297,12 +2297,12 @@ va le faire ou pas. Si vous ne le faites pas, vous allez être pénalisés sur v
     <exercice href="../exercices/vue-composante-cartes/"></exercice>
 
     <!-- développer plus d'exemples et un exercice juste sur le principe -->
-   <!-- <intlink href='../../../compendium/582-511%E2%80%93web5/vue/installation.html'></intlink>-->
+   <!-- <intlink href='../../../compendium/582-511-web5/vue/creation-projet.html'></intlink>-->
 
 
 
     <!--
-    <doclink href='https://tim-montmorency.com/compendium/582-511%E2%80%93web5/vue/installation.html'>Installation de Vue via NPM et Vite qui contient un compilateur automatique de SFC.</doclink>-->
+    <doclink href='https://tim-montmorency.com/compendium/582-511-web5/vue/creation-projet.html'>Installation de Vue via NPM et Vite qui contient un compilateur automatique de SFC.</doclink>-->
 
 
 
