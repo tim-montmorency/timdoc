@@ -5,6 +5,7 @@
  * @title    Git ignore
  * @icon     images/icon.svg
  * @abstract Indiquer à Git d'ignorer les fichiers qui n'appartiennt pas au projet
+ * @index 30
  */
 ?>
 

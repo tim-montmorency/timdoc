@@ -5,6 +5,7 @@
  * @title    Collaboration avec Git
  * @icon     images/icon.svg
  * @abstract Travailler plusieurs ensemble sur les même fichiers
+ * @index 30
  */
 ?>
 
