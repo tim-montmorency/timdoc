@@ -43,8 +43,12 @@
 <br><br>
 
 <grostitre>v-on: ou @</grostitre>
+<?php 
+/* Ajouter comment on call la method via l'interpolation source : https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463140#overview à 3:46 */
 
-<!-- Ajouter comment on call la method via l'interpolation source : https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463140#overview à 3:46 -->
+?>
+
+
 <p>Pour appeler une méthode, il faut soit utiliser l'interpolation <incode>{ { showActor() } }</incode> OU ajouter un événement sur une balise dans l'app. </p>
 <p>Par exemple, pour qu'un bouton appelle la méthode <incode>showActor()</incode>:</p>
 
@@ -72,12 +76,12 @@ Salut { { firstName } }
 <dots></dots>
 <grostitre>Event handling</grostitre>
 <p>...</p>
-<!--
- https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463170#overview à 2:40 
+
+<?php /* https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463170#overview à 2:40 
   v-on:input="setName" et on passe event en paramètre et ensuite event.target.value ou v-on:input="setName($event, "autre-parametre")"
   
-  On va parler de v-model (pour les inputs) seulement lorsqu'on parle de two-ways binding https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463180#overview
--->
+  On va parler de v-model (pour les inputs) seulement lorsqu'on parle de two-ways binding https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463180#overview  */ ?>
+
 
 
 <dots></dots>

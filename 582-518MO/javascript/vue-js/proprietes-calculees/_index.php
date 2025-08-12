@@ -9,8 +9,9 @@
  */
 ?>
 
-<warning>Pour modifier une valeur, pour des raison de <em>performances</em>, il convient d'utiliser des propriétés calculées (computed properties) plutôt que des méthodes.
-<!-- https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463196#overview --></warning>
+<warning>Pour modifier une valeur dynamiquement, pour des raison de <em>performances</em>, il convient d'utiliser des propriétés calculées (computed properties) plutôt que des méthodes.</warning>
+
+<?php /* https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463196#overview */  ?>
 
 
 <dots></dots>

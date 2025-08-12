@@ -142,6 +142,6 @@ app.mount('#app');</highlight>
 
 <p>Ce qui va générer ce résultat:</p>
 
-<highlight lang='html'><div v-html="monTitre">
+<highlight lang='html'><div>
   <h2>Vue.js est formidable!</h2>
 </div></highlight>
