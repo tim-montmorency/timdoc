@@ -70,6 +70,17 @@ Salut { { firstName } }
 
 
 <dots></dots>
+<grostitre>Event handling</grostitre>
+<p>...</p>
+<!--
+ https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463170#overview à 2:40 
+  v-on:input="setName" et on passe event en paramètre et ensuite event.target.value ou v-on:input="setName($event, "autre-parametre")"
+  
+  On va parler de v-model (pour les inputs) seulement lorsqu'on parle de two-ways binding https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463180#overview
+-->
+
+
+<dots></dots>
 <grostitre>Démo - Poésie de décembre</grostitre>
 <p>Démo en classe</p>
 <!--

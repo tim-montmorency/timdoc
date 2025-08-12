@@ -180,7 +180,9 @@ Affichera en fait:
 <p>Si vous souhaitez envoyer une donnée en HTML, plutôt que d'utiliser les moustaches, vous devrez utiliser l'attribut <span class="inline-code">v-html</span> sur la balise qui contiendra votre donnée.</p>
 <highlight lang="javascript">const app = Vue.createApp({
   data() {
-    monTitre: &#039;&lt;h2&gt;Vue.js est formidable!&lt;/h2&gt;&#039;
+    return{
+      monTitre: &#039;&lt;h2&gt;Vue.js est formidable!&lt;/h2&gt;&#039;
+    }
   }
 });
 app.mount(&#039;#app&#039;);</highlight>

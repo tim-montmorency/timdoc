@@ -8,6 +8,13 @@
  * @ref      web/cadriciels/vuejs
  */
 ?>
+
+<warning>Pour modifier une valeur, pour des raison de <em>performances</em>, il convient d'utiliser des propriétés calculées (computed properties) plutôt que des méthodes.
+<!-- https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463196#overview --></warning>
+
+
+<dots></dots>
+
 <p>Il est possible de faire des expressions de base dans un template Vue.&nbsp;</p><p>Par exemple, afin de convertir une devise en une autre 💵:</p>
 
 
