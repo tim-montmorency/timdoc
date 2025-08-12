@@ -44,7 +44,8 @@
 
 <grostitre>v-on: ou @</grostitre>
 
-<p>Pour appeler une méthode, il faut ajouter un événement sur une balise dans l'app. </p>
+<!-- Ajouter comment on call la method via l'interpolation source : https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463140#overview à 3:46 -->
+<p>Pour appeler une méthode, il faut soit utiliser l'interpolation <incode>{ { showActor() } }</incode> OU ajouter un événement sur une balise dans l'app. </p>
 <p>Par exemple, pour qu'un bouton appelle la méthode <incode>showActor()</incode>:</p>
 
 <highlight lang="html">&lt;div id=&quot;app&quot;&gt;
