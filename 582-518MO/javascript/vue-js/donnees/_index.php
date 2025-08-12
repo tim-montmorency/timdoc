@@ -125,3 +125,21 @@ Affichera en fait:
 <warning>Si un attribut est associé à une donnée dont la valeur équivaut à <incode>null</incode> ou <incode>undefined</incode>, l’attribut ne sera pas&nbsp;créé.</warning>
 
 <doclink href="https://v3.vuejs.org/guide/template-syntax.html#attributes">Attributs</doclink>
+
+
+<dots></dots>
+<grostitre>Données en format HTML</grostitre>
+<p>Si vous souhaitez envoyer une donnée en HTML, plutôt que d'utiliser les moustaches, vous devrez utiliser l'attribut <incode>v-html</incode> sur la balise qui contiendra votre donnée.</p>
+<highlight lang='javascript'>const app = Vue.createApp({
+  data() {
+    monTitre: '<h2>Vue.js est formidable!</h2>'
+  }
+});
+app.mount('#app');</highlight>
+<highlight lang='html'><div v-html="monTitre"></div></highlight>
+
+<p>Ce qui va générer ce résultat:</p>
+
+<highlight lang='html'><div v-html="monTitre">
+  <h2>Vue.js est formidable!</h2>
+</div></highlight>

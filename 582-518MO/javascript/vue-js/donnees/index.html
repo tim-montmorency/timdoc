@@ -174,6 +174,23 @@ Affichera en fait:
 
 <doclink href="https://v3.vuejs.org/guide/template-syntax.html#attributes">Attributs</doclink>
 
+
+<dots></dots>
+<grostitre>Données en format HTML</grostitre>
+<p>Si vous souhaitez envoyer une donnée en HTML, plutôt que d'utiliser les moustaches, vous devrez utiliser l'attribut <span class="inline-code">v-html</span> sur la balise qui contiendra votre donnée.</p>
+<highlight lang="javascript">const app = Vue.createApp({
+  data() {
+    monTitre: &#039;&lt;h2&gt;Vue.js est formidable!&lt;/h2&gt;&#039;
+  }
+});
+app.mount(&#039;#app&#039;);</highlight>
+<highlight lang="html">&lt;div v-html=&quot;monTitre&quot;&gt;&lt;/div&gt;</highlight>
+
+<p>Ce qui va générer ce résultat:</p>
+
+<highlight lang="html">&lt;div v-html=&quot;monTitre&quot;&gt;
+  &lt;h2&gt;Vue.js est formidable!&lt;/h2&gt;
+&lt;/div&gt;</highlight>
                     <!-- ARTICLE FOOTER SOF -->
                 </div>
                 <tabledesmatieres></tabledesmatieres>
