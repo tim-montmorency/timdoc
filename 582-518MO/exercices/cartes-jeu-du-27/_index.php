@@ -72,6 +72,16 @@ Si le joueur et le casino ne dépassent pas, <strong>comparer leurs pointages</s
 <dots> </dots>
 
 <grostitre>Notes de cours 📚</grostitre>
+
+<intlink href='../../javascript/querySelector/'></intlink>
+<intlink href='../../javascript/querySelectorAll/'></intlink>
+<intlink href='../../javascript/classList/'></intlink>
+<intlink href='../../javascript/manipulation-contenus-DOM/'></intlink>
+<intlink href='../../javascript/boucle-foreach/'></intlink>
+<intlink href='../../javascript/addEventListener/'></intlink>
+<intlink href='../../javascript/objet-array/'></intlink>
+
+<!-- 
 <doclink href="https://smnarnold.com/cours/javascript/queryselectorall">QuerySelectorAll</doclink>
 <doclink href="https://smnarnold.com/cours/javascript/boucle-foreach">Boucle forEach()</doclink>
 <doclink href="https://smnarnold.com/cours/javascript/classlist">ClassList</doclink>
@@ -81,3 +91,4 @@ Si le joueur et le casino ne dépassent pas, <strong>comparer leurs pointages</s
 <doclink href="https://smnarnold.com/cours/javascript/manipulation-des-contenus">Manipulation des contenus</doclink>
 
     
+-->
