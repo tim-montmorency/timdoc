@@ -45,10 +45,10 @@
 <grostitre>Requis CSS</grostitre>
 
 <checklist>Le fond du site doit être gris pâle.
-Le jeu <em>(game)</em> doit-être centré verticalement ↕️ et horizontalement ↔️ dans la page. 
+Le jeu <em>(game)</em> doit-être centré verticalement ↕️ et horizontalement ↔️ dans la page (via la technique flexbox).
 Le titre <em>"Jeu du 27"</em> doit avoir une taille de 36px, être en gras, en majuscule, être centré et utiliser la couleur cuivrée.
-Les règles <em>(rules)</em> doivent-être de couleur cuivré, avoir une marge intérieure de 5px verticalement et de 10px horizontalement, en plus d'avoir un espace uniforme (égale) entre elles.
-Le bouton <em>"Commencez"</em> doit-être centré horizontalement ↔️, avoir une couleur de fond noir fumée, une couleur de texte cuivrée, une taille de 16px, être en majuscule, ne pas avoir de bordure, avoir des coins arrondis de 8px et une marge intérieure de 6px verticalement et 8px horizontalement.
+Les règles <em>(rules)</em> doivent-être de couleur cuivré, avoir une marge intérieure de 5px verticalement et de 10px horizontalement, en plus d'avoir un espace uniforme (égale) entre elles (flexbox).
+Le bouton <em>"Commencez"</em> doit-être centré horizontalement ↔️ (via flexbox), avoir une couleur de fond noir fumée, une couleur de texte cuivrée, une taille de 16px, être en majuscule, ne pas avoir de bordure, avoir des coins arrondis de 8px et une marge intérieure de 6px verticalement et 8px horizontalement.
 Au survol, la couleur de fond du bouton <em>"Commencez"</em> devrait devenir complètement noir.</checklist>
 
 
