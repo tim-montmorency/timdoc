@@ -12,30 +12,35 @@
 
 <p>Il arrive qu'il soit nécessaire d'insérer ou de modifier le contenu d'un élément dans une page ou plus précisément dans le DOM. Heureusement, JavaScript offre plusieurs fonctions permettant d'y&nbsp;arriver.</p>
 
-<p>Afin de démontrer les différentes options, un élément avec la classe&nbsp;<code>.element</code>&nbsp;et le texte&nbsp;<code>1</code>&nbsp;sera utilisé dans l'ensemble des exemples&nbsp;suivants.</p>
+<p>Afin de démontrer les différentes options, un élément avec la classe&nbsp;<incode>.element</incode>&nbsp;et le texte&nbsp;<incode>1</incode>&nbsp;sera utilisé dans l'ensemble des exemples&nbsp;suivants.</p>
 
 
-<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"element"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+<pre>
+  <code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"element"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code>
+</pre>
 
 
 
 <dots></dots>
 <grostitre>InnerText</grostitre>
 
-<p>La fonction&nbsp;<code>innerText</code>&nbsp;permet de récupérer ou de définir le&nbsp;<strong>contenu texte</strong>&nbsp;d'un&nbsp;élément.</p>
+<p>La fonction&nbsp;<incode>innerText</incode>&nbsp;permet de récupérer ou de définir le&nbsp;<strong>contenu texte</strong>&nbsp;d'un&nbsp;élément.</p>
 <h3 class="heading heading--h3" id="Récupérer">Récupérer</h3>
 
-<p>Par exemple, pour récupérer le contenu texte de l'élément&nbsp;<code>.element</code>, il est possible de&nbsp;faire:</p><pre><code class="hljs javascript"><span class="hljs-built_in">console</span>.log(element.innerText); <span class="hljs-comment">// 1</span></code></pre>
+<p>Par exemple, pour récupérer le contenu texte de l'élément&nbsp;<incode>.element</incode>, il est possible de&nbsp;faire:</p>
+
+<pre><code class="hljs javascript"><span class="hljs-built_in">console</span>.log(element.innerText); <span class="hljs-comment">// 1</span></code></pre>
+
 <h3 class="heading heading--h3" id="Définir">Définir</h3>
 
-<p>Si une valeur lui est attribuée, le texte existant est&nbsp;remplacé.</p><p>Par exemple, dans le code ci-dessous 👇 le contenu texte&nbsp;<code>1</code>&nbsp;est remplacé par le chiffre&nbsp;<code>2</code>;</p>
+<p>Si une valeur lui est attribuée, le texte existant est&nbsp;remplacé.</p><p>Par exemple, dans le code ci-dessous 👇 le contenu texte&nbsp;<incode>1</incode>&nbsp;est remplacé par le chiffre&nbsp;<incode>2</incode>;</p>
 
 
 <div class="codepen" data-module="CodePen">
   <div class="codepen__wrapper">
     <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
 
-    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_1" scrolling="no" src="https://web.archive.org/web/20231209041924/https://codepen.io/smnarnold/embed/1d0047f24af69225380c1e95ab1b5a55?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=1d0047f24af69225380c1e95ab1b5a55&amp;default-tab=js%2Cresult&amp;name=cp_embed_1" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_1d0047f24af69225380c1e95ab1b5a55"></iframe></div>
+    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="400px" width="100%" name="cp_embed_1" scrolling="no" src="https://codepen.io/smnarnold/embed/1d0047f24af69225380c1e95ab1b5a55?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=1d0047f24af69225380c1e95ab1b5a55&amp;default-tab=js%2Cresult&amp;name=cp_embed_1" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_1d0047f24af69225380c1e95ab1b5a55"></iframe></div>
   </div>  
 
   
@@ -43,7 +48,7 @@
 
 
 <warning>  
-    <p>Si du code HTML était attribué comme nouvelle valeur via <code>innerText</code>, les balises afficheraient textuellement dans la&nbsp;page.</p>
+    <p>Si du code HTML était attribué comme nouvelle valeur via <incode>innerText</incode>, les balises afficheraient textuellement dans la&nbsp;page.</p>
 </warning>
 
 
@@ -58,26 +63,28 @@
 
        
 
-<p>Similaire à innerText, la fonction&nbsp;<code>innerHTML</code>&nbsp;permet de récupérer ou de définir le&nbsp;<strong>contenu HTML</strong>&nbsp;d'un&nbsp;élément.</p>
+<p>Similaire à innerText, la fonction&nbsp;<incode>innerHTML</incode>&nbsp;permet de récupérer ou de définir le&nbsp;<strong>contenu HTML</strong>&nbsp;d'un&nbsp;élément.</p>
 
 
 <h3 class="heading heading--h3" id="Récupérer">Récupérer</h3>
 
-<p>Par exemple, pour récupérer le contenu HTML de&nbsp;<code>.element</code>, il est possible de faire:</p>
+<p>Par exemple, pour récupérer le contenu HTML de&nbsp;<incode>.element</incode>, il est possible de faire:</p>
 
-<pre><code class="hljs javascript"><span class="hljs-built_in">console</span>.log(element.innerHTML); <span class="hljs-comment">// 1</span></code></pre><p>Si une balise HTML avait été présente à l'intérieur de&nbsp;<code>.element</code>, par exemple une balise span enrobant le chiffre&nbsp;<code>1</code>, la fonction retournerait plutôt&nbsp;<code>&lt;span&gt;1&lt;/span&gt;</code>.</p>
+<pre><code class="hljs javascript"><span class="hljs-built_in">console</span>.log(element.innerHTML); <span class="hljs-comment">// 1</span></code></pre>
+
+<p>Si une balise HTML avait été présente à l'intérieur de&nbsp;<incode>.element</incode>, par exemple une balise span enrobant le chiffre&nbsp;<incode>1</incode>, la fonction retournerait plutôt&nbsp;<incode>&lt;span&gt;1&lt;/span&gt;</incode>.</p>
 
 
 <h3 class="heading heading--h3" id="Définir">Définir</h3>
 
-<p>Si contenu HTML est attribué à&nbsp;<code>innerHTML</code>, le contenu HTML existant est remplacé par le&nbsp;nouveau.</p><p>Par exemple, dans le code ci-dessous 👇 le contenu texte&nbsp;<code>1</code>&nbsp;est remplacé par&nbsp;<code>&lt;em&gt;2&lt;/em&gt;</code>, ce qui nous donne le chiffre&nbsp;<code>2</code>&nbsp;en&nbsp;italique.</p>
+<p>Si contenu HTML est attribué à&nbsp;<incode>innerHTML</incode>, le contenu HTML existant est remplacé par le&nbsp;nouveau.</p><p>Par exemple, dans le code ci-dessous 👇 le contenu texte&nbsp;<incode>1</incode>&nbsp;est remplacé par&nbsp;<incode>&lt;em&gt;2&lt;/em&gt;</incode>, ce qui nous donne le chiffre&nbsp;<incode>2</incode>&nbsp;en&nbsp;italique.</p>
 
 
 <div class="codepen" data-module="CodePen">
   <div class="codepen__wrapper">
     <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
 
-    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_2" scrolling="no" src="https://web.archive.org/web/20231209041924/https://codepen.io/smnarnold/embed/5f5b65e0cef134ce05ae696f36bc8723?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=5f5b65e0cef134ce05ae696f36bc8723&amp;default-tab=js%2Cresult&amp;name=cp_embed_2" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_5f5b65e0cef134ce05ae696f36bc8723"></iframe></div>
+    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="400px" width="100%" name="cp_embed_2" scrolling="no" src="https://codepen.io/smnarnold/embed/5f5b65e0cef134ce05ae696f36bc8723?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=5f5b65e0cef134ce05ae696f36bc8723&amp;default-tab=js%2Cresult&amp;name=cp_embed_2" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_5f5b65e0cef134ce05ae696f36bc8723"></iframe></div>
   </div>  
 
   
@@ -113,11 +120,16 @@
 <dots></dots>
 <grostitre>insertAdjacentText()</grostitre>
 
-<p>Contrairement à&nbsp;<a rel="noopener noreferrer" href="#innertext">innerText</a>, la fonction&nbsp;<code>insertAdjacentText</code>&nbsp;permet d'insérer un contenu texte à une position précise dans un&nbsp;élément, sans effacé le contenu&nbsp;original.</p>
+<p>Contrairement à&nbsp;<a rel="noopener noreferrer" href="#innertext">innerText</a>, la fonction&nbsp;<incode>insertAdjacentText</incode>&nbsp;permet d'insérer un contenu texte à une position précise dans un&nbsp;élément, sans effacé le contenu&nbsp;original.</p>
 
 <p>Soit:</p>
 
-<ul><li><p><code>beforebegin</code>&nbsp;avant l'élément</p></li><li><p><code>afterbegin</code>&nbsp;au début de l'élément</p></li><li><p><code>beforeend</code>&nbsp;à la fin de l'élément</p></li><li><p><code>afterend</code>&nbsp;après l'élément</p></li></ul>
+<ul>
+  <li><p><incode>beforebegin</incode>&nbsp;avant l'élément</p></li>
+  <li><p><incode>afterbegin</incode>&nbsp;au début de l'élément</p></li>
+  <li><p><incode>beforeend</incode>&nbsp;à la fin de l'élément</p></li>
+  <li><p><incode>afterend</incode>&nbsp;après l'élément</p></li>
+</ul>
 
 <h3 class="heading heading--h3" id="beforebegin">beforebegin</h3>
 
@@ -125,7 +137,7 @@
   <div class="codepen__wrapper">
     <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
 
-    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_3" scrolling="no" src="https://web.archive.org/web/20231209041924/https://codepen.io/smnarnold/embed/b7c59aa68c1b2231559bb02e417e154c?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=b7c59aa68c1b2231559bb02e417e154c&amp;default-tab=js%2Cresult&amp;name=cp_embed_3" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_b7c59aa68c1b2231559bb02e417e154c"></iframe></div>
+    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="400px" width="100%" name="cp_embed_3" scrolling="no" src="https://codepen.io/smnarnold/embed/b7c59aa68c1b2231559bb02e417e154c?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=b7c59aa68c1b2231559bb02e417e154c&amp;default-tab=js%2Cresult&amp;name=cp_embed_3" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_b7c59aa68c1b2231559bb02e417e154c"></iframe></div>
   </div>  
 </div>
           
@@ -133,11 +145,11 @@
 
 <h3 class="heading heading--h3" id="afterbegin">afterbegin</h3>
 
-          <div class="codepen" data-module="CodePen">
+<div class="codepen" data-module="CodePen">
   <div class="codepen__wrapper">
     <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
 
-    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_4" scrolling="no" src="https://web.archive.org/web/20231209041924/https://codepen.io/smnarnold/embed/ffa61aa279cc0718d8266bd65cc2f6ea?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=ffa61aa279cc0718d8266bd65cc2f6ea&amp;default-tab=js%2Cresult&amp;name=cp_embed_4" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_ffa61aa279cc0718d8266bd65cc2f6ea"></iframe></div>
+    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="400px" width="100%" name="cp_embed_4" scrolling="no" src="https://codepen.io/smnarnold/embed/ffa61aa279cc0718d8266bd65cc2f6ea?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=ffa61aa279cc0718d8266bd65cc2f6ea&amp;default-tab=js%2Cresult&amp;name=cp_embed_4" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_ffa61aa279cc0718d8266bd65cc2f6ea"></iframe></div>
   </div>  
 
   
@@ -157,18 +169,23 @@
 <dots></dots>
 <grostitre>insertAdjacentHTML()</grostitre>
 
-<p>Similaire à&nbsp;<a rel="noopener noreferrer" href="#insertadjacenttext">insertAdjacentText</a>, la fonction&nbsp;<code>insertAdjacentHTML</code> permet d'insérer un contenu HTML à une position précise dans un élément, sans effacé son contenu&nbsp;original.</p><p>Soit:</p>
+<p>Similaire à&nbsp;<a rel="noopener noreferrer" href="#insertadjacenttext">insertAdjacentText</a>, la fonction&nbsp;<incode>insertAdjacentHTML</incode> permet d'insérer un contenu HTML à une position précise dans un élément, sans effacé son contenu&nbsp;original.</p><p>Soit:</p>
 
-<ul><li><p><code>beforebegin</code>&nbsp;avant l'élément</p></li><li><p><code>afterbegin</code>&nbsp;au début de l'élément</p></li><li><p><code>beforeend</code>&nbsp;à la fin de l'élément</p></li><li><p><code>afterend</code>&nbsp;après l'élément</p></li></ul>
+<ul>
+  <li><p><incode>beforebegin</incode>&nbsp;avant l'élément</p></li>
+  <li><p><incode>afterbegin</incode>&nbsp;au début de l'élément</p></li>
+  <li><p><incode>beforeend</incode>&nbsp;à la fin de l'élément</p></li>
+  <li><p><incode>afterend</incode>&nbsp;après l'élément</p></li>
+</ul>
 
 
 <h3 class="heading heading--h3" id="beforeend">beforeend</h3>
 
-          <div class="codepen" data-module="CodePen">
+<div class="codepen" data-module="CodePen">
   <div class="codepen__wrapper">
     <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
 
-    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_5" scrolling="no" src="https://web.archive.org/web/20231209041924/https://codepen.io/smnarnold/embed/e5dd9f0ff0e468a47f992d82e08e3550?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=e5dd9f0ff0e468a47f992d82e08e3550&amp;default-tab=js%2Cresult&amp;name=cp_embed_5" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_e5dd9f0ff0e468a47f992d82e08e3550"></iframe></div>
+    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="400px" width="100%" name="cp_embed_5" scrolling="no" src="https://codepen.io/smnarnold/embed/e5dd9f0ff0e468a47f992d82e08e3550?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=e5dd9f0ff0e468a47f992d82e08e3550&amp;default-tab=js%2Cresult&amp;name=cp_embed_5" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_e5dd9f0ff0e468a47f992d82e08e3550"></iframe></div>
   </div>  
 
   
@@ -177,14 +194,13 @@
 
 <h3 class="heading heading--h3" id="afterend">afterend</h3>
 
-          <div class="codepen" data-module="CodePen">
+<div class="codepen" data-module="CodePen">
   <div class="codepen__wrapper">
     <span class="codepen__forced-height" style="padding-bottom: calc(34% + 36px);"></span>
 
-    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_6" scrolling="no" src="https://web.archive.org/web/20231209041924/https://codepen.io/smnarnold/embed/dcd4c1005769b628f46e39ac30abad91?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=dcd4c1005769b628f46e39ac30abad91&amp;default-tab=js%2Cresult&amp;name=cp_embed_6" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_dcd4c1005769b628f46e39ac30abad91"></iframe></div>
+    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="400px" width="100%" name="cp_embed_6" scrolling="no" src="https://codepen.io/smnarnold/embed/dcd4c1005769b628f46e39ac30abad91?height=100%25&amp;theme-id=39618&amp;user=smnarnold&amp;slug-hash=dcd4c1005769b628f46e39ac30abad91&amp;default-tab=js%2Cresult&amp;name=cp_embed_6" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_dcd4c1005769b628f46e39ac30abad91"></iframe></div>
   </div>  
 
-  
 </div>
 
 <doclink href='https://developer.mozilla.org/fr/docs/Web/API/Element/insertAdjacentHTML'>insertAdjacentHTML()</doclink>
