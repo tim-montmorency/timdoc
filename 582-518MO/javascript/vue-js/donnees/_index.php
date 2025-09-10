@@ -24,7 +24,7 @@
     return {
       firstName: "Willy",
       lastName: "Wonka",
-      picture: "willy-wonka.jpg"
+      picture: "willy-wonka.jpg
     }
   }
 });</highlight>
