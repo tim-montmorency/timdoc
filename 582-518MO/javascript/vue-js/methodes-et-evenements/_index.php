@@ -72,24 +72,26 @@ Salut { { firstName } }
 <br>
 <doclink href="https://v3.vuejs.org/guide/events.html#listening-to-events">Event Handling</doclink>
 
-
+<?php /*
 <dots></dots>
 <grostitre>Event handling</grostitre>
 <p>...</p>
 
-<?php /* https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463170#overview à 2:40 
+ https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463170#overview à 2:40 
   v-on:input="setName" et on passe event en paramètre et ensuite event.target.value ou v-on:input="setName($event, "autre-parametre")"
   
-  On va parler de v-model (pour les inputs) seulement lorsqu'on parle de two-ways binding https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463180#overview  */ ?>
+  On va parler de v-model (pour les inputs) seulement lorsqu'on parle de two-ways binding https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463180#overview  
+  // */ 
+  // ?>
 
 
 
 <dots></dots>
 <grostitre>Démo - Poésie de décembre</grostitre>
-<p>Démo en classe</p>
+<p>Démo en classe via <a href="https://codepen.io/tim-momo/pen/MWNMQmq">CodePen</a></p>
 <!--
 VIDE : https://codepen.io/tim-momo/pen/MWNMQmq
-COMPLET https://codepen.io/tim-momo/pen/qBezxBw?editors=1011
+COMPLET https://codepen.io/tim-momo/pen/qBezxBw
 -->
 
 

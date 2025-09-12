@@ -57,16 +57,18 @@
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
 
-<warning>Pour modifier une valeur dynamiquement, pour des raison de <em>performances</em>, il convient d'utiliser des propriétés calculées (computed properties) plutôt que des méthodes.</warning>
+<p>Pour modifier une valeur dynamiquement, pour des raison de <em>performances</em>, il convient d'utiliser des <em>propriétés calculées</em> (<em>computed properties</em>) plutôt que des méthodes.</p>
+
+<p>C'est à dire que si une valeur doit être recalculée en fonction d'une ou plusieurs autres valeurs, il est préférable d'utiliser une <em>propriété calculée</em> plutôt qu'une méthode.</p>
 
 
 
 <dots></dots>
 
-<p>Il est possible de faire des expressions de base dans un template Vue.&nbsp;</p><p>Par exemple, afin de convertir une devise en une autre 💵:</p>
-
+<p>Par exemple, si on voudrait convertir une devise en une autre 💵. Par exemple, convertir un montant en dollars canadiens 🇨🇦 en dollars américains 🇺🇸:</p>
 
 <highlight lang="html">{ { amount * 0.8 } }</highlight>
+
 <small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
 
 
