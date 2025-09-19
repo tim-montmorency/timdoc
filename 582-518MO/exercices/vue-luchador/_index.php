@@ -27,10 +27,10 @@
 <dots></dots>
 <grostitre>Requis</grostitre>
 
-<checklist>À l'intérieur de l'élément <incode>.menu</incode>, créez un menu déroulant permettant de choisir la journée de sa naissance allant de 1 à 31. Ce menu doit se populer à partir du tableau <incode>daysArr</incode> en utilisant une boucle.
-Toujours à l'intérieur de l'élément <incode>.menu</incode>, créez cette fois un nouveau menu déroulant permettant de choisir son mois de naissance. Ce menu doit se populer à partir du tableau <incode>monthsArr</incode> en utilisant aussi une boucle.
-Lorsque les menus déroulants changent, les données day et month doivent se mettre à jour.
-Créez une propriété calculée intitulée <incode>name</incode>. La valeur de cette propriété devra être le résultat de la concaténation de la valeur associée au mois et au jour sélectionnés.</checklist>
+<checklist>À l'intérieur de l'élément <incode>.menu</incode>, créez un menu déroulant permettant de choisir la *journée de sa naissance* allant de 1 à 31. Ce menu doit se populer à partir du tableau <incode>daysArr</incode> en utilisant une boucle.
+Toujours à l'intérieur de l'élément <incode>.menu</incode>, créez un nouveau menu déroulant permettant de choisir son *mois de naissance*. Ce menu doit se populer à partir du tableau <incode>monthsArr</incode> en utilisant aussi une boucle.
+Lorsque les menus déroulants changent, les données <incode>day</incode> et <incode>month</incode> doivent se mettre à jour.
+Créez une *propriété calculée* intitulée <incode>name</incode>. La valeur de cette propriété devra être le résultat de la concaténation de la valeur associée au mois et au jour sélectionnés.</checklist>
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
