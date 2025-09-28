@@ -46,8 +46,10 @@ Basez-vous sur les classes CSS déjà présentes afin de déterminer la structur
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<intlink href="../../javascript/fetch-api/"></intlink>
-<doclink href="https://smnarnold.com/cours/javascript/boucle-foreach">Boucle forEach()</doclink><br>
-<doclink href="https://smnarnold.com/cours/javascript/manipulation-des-contenus">Manipulation des contenus</doclink>
+<intlink  href="../../../582-424MO/javascript/promesses-js/"></intlink>
+<intlink href="../../../582-424MO/javascript/fetch-api/"></intlink>
+<intlink href="../../javascript/boucle-foreach/"></intlink>
+<intlink href="../../javascript/manipulation-contenus-DOM/"></intlink>
+<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/Property_accessors'>Accéder au propriété d'un objet JS</doclink>
 
 

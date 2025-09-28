@@ -57,8 +57,13 @@ Ajoutez un troisième menu déroulant supplémentaire permettant le choix entre 
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
-<intlink href="../../javascript/fetch-api/"></intlink>
-<doclink href="https://smnarnold.com/cours/javascript/addeventlistener-intermediaire">AddEventListener() intermédiaire</doclink><br>
-<doclink href="https://smnarnold.com/cours/javascript/classlist">ClassList</doclink><br>
-<doclink href="https://smnarnold.com/cours/javascript/manipulation-des-contenus">Manipulation des contenus du DOM (éléments HTML)</doclink><br>
-<doclink href="https://smnarnold.com/cours/javascript/objet-math">L'objet Math</doclink>Permet de faire une pige aléatoire
+<intlink  href="../../../582-424MO/javascript/promesses-js/"></intlink>
+<intlink href="../../../582-424MO/javascript/fetch-api/"></intlink>
+<intlink href="../../javascript/boucle-foreach/"></intlink>
+<intlink href="../../javascript/addEventListener/"></intlink>
+<intlink href="../../javascript/classList/"></intlink>
+<intlink href="../../javascript/manipulation-contenus-DOM/"></intlink>
+<doclink href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random'>Math.random</doclink>
+<br>
+<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/Property_accessors'>Accéder au propriété d'un objet JS</doclink>
+
