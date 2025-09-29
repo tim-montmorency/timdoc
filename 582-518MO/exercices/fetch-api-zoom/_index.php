@@ -23,6 +23,16 @@
 <warning>Vous n’avez qu’à écrire du JavaScript <em>(nul besoin de modifier le HTML ou le&nbsp;CSS)</em>.</warning>
 
 
+<h3>La structure HTML de chaque vignette est la suivante:</h3>
+
+<highlight lang='html'><div class="preview">
+    <div class="media">
+        <img src="urlimg.jpg" alt="Prénom Nom">
+    </div>
+    <div class="name">Prénom Nom</div>
+</div>
+</highlight>
+
 
 
 <dots></dots>
@@ -33,7 +43,9 @@ Faites un&nbsp;<incode>console.log()</incode>&nbsp;du JSON obtenu afin de voir c
 Bouclez sur toutes les personnes dans le JSON afin de générer leur aperçu HTML dans l'élément&nbsp;<incode>.zoom</incode>.
 Affichez l'image large, le prénom et le nom de chaque&nbsp;personne.
 Basez-vous sur les classes CSS déjà présentes afin de déterminer la structure HTML à&nbsp;reproduire.
-</checklist>  
+</checklist> 
+
+
 
 
 
