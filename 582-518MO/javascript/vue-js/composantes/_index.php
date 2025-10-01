@@ -61,7 +61,7 @@ app.component('counter', {
 <codepen id="mdvKMNm" tab="html,result" height="400"></codepen>
 
 <br>
-<doclink href="https://vuejs.org/guide/essentials/component-basics.html">Composante - Les bases</doclink>
+<doclink href="https://fr.vuejs.org/guide/essentials/component-basics">Composante - Les bases</doclink>
 
 
 
@@ -73,7 +73,7 @@ app.component('counter', {
 
 <p>Chaque bouton est entièrement indépendant. Ainsi le compteur de l'un n'a aucune influence sur le compteur d'un autre.</p>
 
-<doclink href="https://vuejs.org/guide/essentials/component-basics.html#using-a-component">Utilisation / Réutilisation</doclink>
+<doclink href="https://fr.vuejs.org/guide/essentials/component-basics#using-a-component">Utilisation / réutilisation d'une composante</doclink>
 
 
 
@@ -106,7 +106,7 @@ app.component('counter', {
 
 <warning>Pour nommer vos props, si vous utilisez du camelCase (mélange de minuscules et majuscules), vous devrez utiliser le kebab-case du côté HTML dans les noms d'attributs de votre composante. Mais au stade où on en est, pour le moment, je vous conseille simplement de n'utiliser que des minuscules dans les noms de vos props. Ça va vous simplifier la vie.</warning>
 
-<doclink href="https://vuejs.org/guide/components/props.html#prop-types">Props</doclink>
+<doclink href="https://fr.vuejs.org/guide/components/props">Props</doclink>
 
 
 
