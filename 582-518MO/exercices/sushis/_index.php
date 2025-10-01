@@ -89,9 +89,7 @@
 
 <grostitre>Requis Vue - Composante</grostitre>
 
-<warning>La section <em>Requis Vue - Composante</em> est à faire seulement si on a couvert les <a
-        href="../../javascript/vue-js/composantes">composantes Vue</a> jusqu'à maintenant. Sinon, ne pas faire la partie
-    qui suit, nous y reviendrons plus tard.</warning>
+<warning>La section <em>Requis Vue - Composante</em> est à faire seulement si on a couvert les <a href="../../javascript/vue-js/composantes">composantes Vue</a> jusqu'à maintenant. Sinon, ne pas faire la partie qui suit, nous y reviendrons plus tard.</warning>
 
 <p>Maintenant, essayons de faire la même chose que l'étape précédente mais en transformant un sushi du menu en une
     composante réutilisable pour générer tous les autres.</p>
@@ -131,6 +129,8 @@
 
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
+<h4 class="heading heading--h4" id="CSS-Grid">Notes de cours Vue JS</h4>
+
 <intlink href="../../javascript/vue-js/creation-app/"></intlink>
 <intlink href="../../javascript/vue-js/donnees/"></intlink>
 <intlink href="../../javascript/vue-js/methodes-et-evenements/"></intlink>
@@ -140,40 +140,41 @@
 <intlink href="../../javascript/vue-js/proprietes-calculees"></intlink>
 <intlink href="../../javascript/vue-js/composantes"></intlink>
 
+<h4 class="heading heading--h4" id="CSS-Grid">Notes de cours CSS Grid</h4>
 <ul>
     <li>
-        <a href="https://tim-montmorency.com/compendium/582-511-web5/css/grid/intro.html">
+        <a href="https://tim-montmorency.com/compendium/582-511-web5/css/grid/intro.html" target="_blank" rel="noopener noreferrer">
                 CSS Grid - Intro
         </a>
     </li>
     <li>
-        <a href="https://tim-montmorency.com/compendium/582-511-web5/css/grid/grid-template-cols-rows.html">
+        <a href="https://tim-montmorency.com/compendium/582-511-web5/css/grid/grid-template-cols-rows.html" target="_blank" rel="noopener noreferrer">
                 Conteneur template
         </a>
     </li>
     <li>
-        <a href="https://tim-montmorency.com/compendium/582-511-web5/css/grid/gap.html">
+        <a href="https://tim-montmorency.com/compendium/582-511-web5/css/grid/gap.html" target="_blank" rel="noopener noreferrer    ">
                 Espacement
         </a>
     </li>
 
     <li>
-        <a href="https://tim-montmorency.com/compendium/582-511-web5/css/grid/unites.html">
+        <a href="https://tim-montmorency.com/compendium/582-511-web5/css/grid/unites.html" target="_blank" rel="noopener noreferrer">
                 Unités
         </a>
     </li>
     <li>
-        <a href="https://tim-montmorency.com/compendium/582-511-web5/css/grid/grid-col-row.html">
+        <a href="https://tim-montmorency.com/compendium/582-511-web5/css/grid/grid-col-row.html" target="_blank" rel="noopener noreferrer">
                 Placement col row
         </a>
     </li>
     <li>
-        <a href="https://tim-montmorency.com/compendium/582-511-web5/css/grid/grid-area.html">
+        <a href="https://tim-montmorency.com/compendium/582-511-web5/css/grid/grid-area.html" target="_blank" rel="noopener noreferrer">
                 Placement area
         </a>
     </li>
     <li>
-        <a href="https://tim-montmorency.com/compendium/582-511-web5/css/grid/grid-template-areas.html">
+        <a href="https://tim-montmorency.com/compendium/582-511-web5/css/grid/grid-template-areas.html" target="_blank" rel="noopener noreferrer    ">
                 Nommer espaces areas
         </a>
     </li>
