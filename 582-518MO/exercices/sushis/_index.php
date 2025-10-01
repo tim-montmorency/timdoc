@@ -120,11 +120,9 @@
 </info>
 
 <checklist>
-    Marquez un sushi « vedette » (ex. le premier) et faites-le occuper <em>2 colonnes</em> × <em>2 rangées</em> dans la
-    grille.
-    À partir de <em>900 px</em> de largeur de fenêtre, positionnez la <em>bulle de total</em> en bas à droite de la
-    grille, en lui faisant occuper <em>2 rangées</em>.
-    Ajustez l’image du vedette pour qu’elle couvre son espace (<incode>object-fit: cover</incode>).
+    Marquez un sushi *vedette* (ex. le premier) et faites-le occuper <em>2 colonnes</em> × <em>2 rangées</em> dans la grille.
+    À partir de <em>900 px</em> de largeur de fenêtre, positionnez la <em>bulle de total</em> en bas à droite de la grille, en lui faisant occuper <em>2 rangées</em>.
+    Ajustez l’image du sushi vedette pour qu’elle couvre son espace (<incode>object-fit</incode>).
 </checklist>
 
 <dots></dots>
