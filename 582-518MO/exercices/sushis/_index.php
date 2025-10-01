@@ -84,7 +84,10 @@ Utilisez des propriétés calculées afin d'afficher en temps réel le nombre de
   Dans index-composante.html, changez le lien de main.js pour <em>main-composante.js</em>
   Dans ces 2 nouveaux fichiers, modifiez l'app Vue que vous avez précédemment créée. Créez une composante intitulée <em>sushi</em>. Cette composante devra être utilisée pour générer l'aperçu de chaque item sur le menu via une boucle Vue.
 </checklist>
-<alert>Pour cette étape, il n'est pas nécessaire de faire le calcul du prix total comme vous avez fait au #8 des "Requis - Vue" puisqu'on n'a pas couvert la méthode intégrée <incode>$emit</incode> qui permet de faire le lien entre une app et ses composantes.</alert>
+
+<alert>
+    Pour cette étape, il n'est pas nécessaire de faire le calcul du prix total comme vous avez fait au #8 des "Requis - Vue" puisqu'on n'a pas couvert la <a href="https://www.w3schools.com/vue/vue_emit.php">méthode intégrée <incode>$emit</incode></a>  qui permet de faire le lien entre une app et ses composantes.
+</alert>
 
 
 
