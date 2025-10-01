@@ -71,15 +71,20 @@ Utilisez des propriétés calculées afin d'afficher en temps réel le nombre de
 
 
 <dots></dots>
+
 <grostitre>Requis Vue  - Composante</grostitre>
+
+<warning>Ce qui suit est à faire seulement si on a couvert les <a href="../../javascript/vue-js/composantes">composantes Vue</a> jusqu'à maintenant. Sinon, ne pas faire la partie qui suit, nous y reviendrons plus tard.</warning>
+
+
 <p>Maintenant, essayons de faire la même chose que l'étape précédente mais en transformant un sushi du menu en une composante réutilisable pour générer tous les autres.</p>
 <checklist>
-  Copiez votre fichier complété de l'étape précédente index.html et nommez le <em>index-composante.html</em>
+  Copiez votre fichier complété de l'étape précédente <em>index.html</em> et nommez le <em>index-composante.html</em>
   Copiez votre fichier complété de l'étape précédente main.js et nommez le <em>main-composante.js</em>
   Dans index-composante.html, changez le lien de main.js pour <em>main-composante.js</em>
   Dans ces 2 nouveaux fichiers, modifiez l'app Vue que vous avez précédemment créée. Créez une composante intitulée <em>sushi</em>. Cette composante devra être utilisée pour générer l'aperçu de chaque item sur le menu via une boucle Vue.
 </checklist>
-<alert>  Pour cette étape, il n'est pas nécessaire de faire le calcul du prix total comme vous avez fait au #8 des "Requis - Vue" puisqu'on n'a pas couvert références entre une app et les composantes.</alert>
+<alert>  Pour cette étape, il n'est pas nécessaire de faire le calcul du prix total comme vous avez fait au #8 des "Requis - Vue" puisqu'on n'a pas couvert les <em>références</em> entre une app et les composantes.</alert>
 
 
 
