@@ -11,6 +11,13 @@
 
 <p>Les composantes sont une partie importante de Vue. Ils permettent de créer des sites complexes ou ,ême des applications web à l’aide de composantes autonomes pouvant être réutilisables.</p>
 
+
+<p>Les composants nous permettent de fractionner l'UI en morceaux indépendants et réutilisables, sur lesquels nous pouvons réfléchir de manière isolée. Il est courant pour une application d'être organisée en un arbre de composants imbriqués.</p>
+
+<img src="./images/composante-pageweb.png" alt="Arbre de composants">
+
+<dots></dots>
+
 <grostitre>Définir une composante</grostitre>
 
 
@@ -80,6 +87,8 @@ app.component('counter', {
 
 <dots></dots>
 <grostitre>Props</grostitre>
+
+<p>Si nous construisons un blog, il est probable que nous ayons besoin d'un composant pour représenter un article du blog. Nous voulons que tous les articles partagent la même mise en page, mais avec un contenu différent. Un tel composant ne sera utile que si vous pouvez lui passer des données, comme le titre et le contenu d'un article spécifique que l'on voudrait afficher. C'est là que les props entrent en jeu.</p>
 
 
 <p>Les props sont des données passées à une composante. Pour en définir, il faut spécifier le nom des props attendus dans un tableau.</p>
