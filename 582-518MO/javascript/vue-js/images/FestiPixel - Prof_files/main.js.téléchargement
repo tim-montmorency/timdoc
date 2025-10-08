@@ -1,0 +1,85 @@
+const app = Vue.createApp({
+  data() {
+    return {
+      state: 'init',
+      raw: [],
+      q: '',
+      stage: '',
+      sortBy: 'time',
+      layout: 'featured'
+    };
+  },
+  computed: {
+    // Liste des scènes disponibles (dérivée des données)
+    stages() {
+      return [...new Set(this.raw.map(a => a.stage))].sort();
+    },
+    // Classe du grid selon le layout choisi
+    gridClass() {
+      return {
+        'grid--uniform': this.layout === 'uniform',
+        'grid--featured': this.layout === 'featured'
+       /* 'grid--stagger': this.layout === 'stagger'*/
+      };
+    },
+    // Pipeline d'affichage: vedette → filtre → recherche → tri
+    visibleArtists() {
+      // (1) On copie + tri préliminaire: vedette(s) d'abord, sans muter this.raw
+      let arr = [...this.raw].sort((a,b) => Number(b.featured) - Number(a.featured));
+
+      // (2) Filtre par scène
+      if (this.stage) arr = arr.filter(a => a.stage === this.stage);
+
+      // (3) Recherche par nom (case-insensitive)
+      if (this.q) {
+        const n = this.q.toLowerCase();
+        arr = arr.filter(a => a.name.toLowerCase().includes(n));
+      }
+
+      // (4) Tri final selon select
+      const toMin = t => { const [h,m] = t.split(':').map(Number); return h*60 + m; };
+      if (this.sortBy === 'time') arr.sort((a,b)=> toMin(a.start) - toMin(b.start));
+      else if (this.sortBy === 'pop') arr.sort((a,b)=> b.popularity - a.popularity);
+      else arr.sort((a,b)=> a.name.localeCompare(b.name,'fr'));
+
+      return arr;
+    }
+  },
+  methods: {
+    // Chargement de la programmation (fetch)
+    loadSchedule(){
+      this.state = 'loading';
+      fetch('./data.json')
+        .then(res => {
+          if (!res.ok) throw new Error('HTTP '+res.status);
+          return res.json();
+        })
+        .then(data => {
+          this.raw = data;
+          this.state = 'loaded';
+        })
+        .catch(e => {
+          console.error(e);
+          this.state = 'error';
+        });
+    },
+    // Remet l'UI dans l'état de base
+    reset(){ this.q=''; this.stage=''; this.sortBy='time'; this.layout='featured'; },
+
+
+    // Classes de carte conditionnelles pour layouts complexes
+    cardClasses(a, index){
+      const cls = {
+        'is-featured': a.featured, // a une ombre portée si "en vedette"
+        [`is-stage-${a.stage}`]: true // bordure colorée par scène
+      };
+      // Layout "stagger": cartes élargies/étirées pour combler
+    /*  if (this.layout === 'stagger'){
+        if (index % 5 === 0 && index !== 0) cls['is-wide'] = true;   // 2 colonnes
+        if (index % 7 === 0 && index !== 0) cls['is-tall'] = true;   // 2 rangées
+      }*/
+      return cls;
+    }
+  }
+});
+app.mount('#app');
