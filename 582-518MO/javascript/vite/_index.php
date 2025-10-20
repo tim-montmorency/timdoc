@@ -58,7 +58,7 @@
 </figure>
 
 
-<info>Dans l’explorateur de fichiers, le dossier du projet devrait maintenant être visible et contenir quleques fichiers notamment <em>index.html</em>, <em>main.js</em> et&nbsp;<em>style.css</em>.</info>
+<info>Dans l’explorateur de fichiers, le dossier du projet devrait maintenant être visible et contenir quleques fichiers notamment <em>index.html</em>, <em>main.js</em> et&nbsp;<em>style.css</em>, <em>package.json</em> et même le dossier <em>node_modules</em>.</info>
 
 <ol start="4">
   <li><p>Vite nous propose de nous déplacer dans notre nouveau dossier avec <incode>cd [nom de votre projet]</incode> et d'installer les dépendances NPM via <incode>npm install</incode>. En effectuant ces commandes, un nouveau dossier <em>node_modules</em> devrait apparaitre dans votre projet qui est maintenant prêt à l'utilisation.</p></li></ol>
@@ -71,10 +71,10 @@ Si vous utilisez <em>git</em> et que vous avez un dossier <em>node_modules</em>,
 
 <dots></dots>
 <grostitre>Développement</grostitre>
-<p>Pour commencer à développer, vous devez dans votre terminal vous déplacer dans le dossier de votre projet. À partir de cet endroit, lancer la commande suivante:</p>
+<p>Pour commencer à développer (bref <em>entrer dans le mode développement</em>), vous devez dans votre terminal vous déplacer dans le dossier de votre projet. À partir de cet endroit, lancer la commande suivante:</p>
 
 
-<highlight lang='js'>npm run dev</highlight>
+<highlight lang='bash'>npm run dev</highlight>
 
 
 
@@ -84,7 +84,20 @@ Si vous utilisez <em>git</em> et que vous avez un dossier <em>node_modules</em>,
 
 <p>Ça y est, si vous changez quoi que ce soit dans vos fichiers, les changements apparaitront directement dans le navigateur!</p>
 
+<img src="images/hello-vite.png" alt="">
+
 <warning>Pour sortir du mode de développement, simplement tapper <span class='inline-code'>q</span> dans votre terminal et ensuite appuyer sur la touche <incode>↵</incode>.</warning>
+
+
+<h3>Bref (pour le mode de développement)</h3>
+
+Pour entrer dans ce mode:
+<highlight lang='bash'>npm run dev</highlight>
+Pour sortir de ce mode :
+<highlight lang='bash'>
+  q
+  ↵
+</highlight> Bref <incode>q</incode> suivi de <incode>↵</incode> Enter
 
 
 
@@ -107,7 +120,7 @@ Si vous utilisez <em>git</em> et que vous avez un dossier <em>node_modules</em>,
 
 
 <dots></dots>
-<grostitre>SASS</grostitre>
+<grostitre>SASS (ne pas en prendre compte pour Web 5)</grostitre>
 
 
 <p>Par défaut, Vite ne supporte pas la syntaxe SASS. Si le fichier <em>style.css</em> est renommé <em>style.sass</em> ou <em>style.scss</em> une erreur sera retournée:</p>
