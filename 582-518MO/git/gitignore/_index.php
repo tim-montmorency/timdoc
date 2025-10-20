@@ -61,11 +61,34 @@
 node_modules/
 </highlight>
 
+<dots></dots>
+<grostitre>Exemple de .gitignore d'un projet classique</grostitre>
+
+<highlight lang='bash'>
+# Dépendances npm
+node_modules/
+
+# macOS (pour les utilisateurs Apple)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Vscode
+.vscode
+coverage/
+</highlight>
 
 
-<br>
-<br>
+Les slash ont une importance. Voici les différents cas de figure : 
+<ul>
+    <li><incode>/node_modules</incode> : seulement à la racine.</li>
+    <li><incode>node_modules/</incode> : tous les dossiers node_modules (partout) ✅ (souvent la meilleure pratique).</li>
+    <li><incode>node_modules</incode> : tous les fichiers ET dossiers appelés node_modules (un peu trop permissif, mais fonctionne aussi). Exemple, node_modules.txt serait aussi ignoré.</li>
+</ul>
 
+
+
+<dots></dots>
 
 <doclink href='https://github.com/github/gitignore'><strong>Une collection de&nbsp;.gitignore</strong> Collection de fichiers .gitignore sur GitHub en fonction des langages et logiciels&nbsp;utilisés.</doclink>
 

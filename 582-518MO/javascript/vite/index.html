@@ -72,13 +72,15 @@
 </warning>
 
 <ol start="1">
-  <li><p>Choisissez le dossier où vous désirez créer votre projet. Vous avez maintenant trois options:</p>
+  <li>Choisissez le dossier où vous désirez créer votre projet. <br> <br> 
+  
+  Vous avez maintenant trois options:
   <ul>
-    <li><p>À partir de ce dossier, effectuez un clic droit en tenant la touche <span class="inline-code">Shift</span> enfoncée. Le menu contextuel devrait afficher l'option <em>"Open Windows Terminal Here"</em>.</p></li>
+    <li><p>Sur le dossier du projet, effectuez un clic droit en tenant la touche <span class="inline-code">Shift</span> enfoncée. Le menu contextuel devrait afficher l'option <em>"Open Windows Terminal Here"</em>.</p></li>
     
     <li><p>Ouvrir directement le terminal, inscrire <span class="inline-code">cd</span> pour <em>Change directory</em>, y glisser-déposer votre dossier et appuyer sur la touche <span class="inline-code">&crarr;</span>.</p></li>
 
-    <li><p>Ouvrir le dossier ou vous souhaitez créer votre projet dans Visual Studio Code et ensuite ouvrir le Terminal de Visual studio Code.</p></li>
+    <li><p><strong><em>RECOMMANDÉ:</em></strong> Ouvrir le dossier ou vous souhaitez créer votre projet dans Visual Studio Code et ensuite ouvrir le Terminal de Visual studio Code.</p></li>
   </ul>
   </li>
   <li><p>Maintenant que votre terminal se trouve dans votre dossier, vous pouvez lancer l'installation de Vite via la commande suivante:</p></li>
@@ -90,8 +92,8 @@
   <li><p>Vite vous demandera alors quelques questions de configuration afin de s'adapter à votre projet:</p>
       
     <ol start="1">
-      <li><p>Installer le nécessaire: <span class="inline-code">y</span></p></li>
-      <li><p>Nom donné au projet <span class="inline-code">Demo</span></p></li>
+      <li><p>Installer le nécessaire: <span class="inline-code">y</span> pour yes.</p></li>
+      <li><p>Nom donné au projet <span class="inline-code">Demo</span> ou tout autre nom pertinent (sans accent, ni espace, vous pouvez utiliser les tirets -.</p></li>
       <li><p>Nom du fichier package <span class="inline-code">demo</span> <em>(généralement similaire au projet, d'où pourquoi j'accepte la suggestion dans la vidéo)</em></p></li>
       <li><p>Si on compte utiliser un cadriciel JavaScript <em>(Vue, React, Svelte, etc.)</em> ou <em>Vanilla</em> si ce n'est pas le cas.</p></li
       ><li><p>Si Vanilla a été choisi, Vanilla pur ou Vanilla avec TypeScript?</p></li>
@@ -109,9 +111,15 @@
 </figure>
 
 
-<info>Dans l’explorateur de fichiers, le dossier du projet devrait maintenant être visible et contenir notamment des fichiers <em>index.html</em>, <em>main.js</em> et&nbsp;<em>style.css</em>.</info>
+<info>Dans l’explorateur de fichiers, le dossier du projet devrait maintenant être visible et contenir quleques fichiers notamment <em>index.html</em>, <em>main.js</em> et&nbsp;<em>style.css</em>.</info>
 
-<ol start="4"><li><p>Vite nous propose de nous déplacer dans notre nouveau dossier avec <span class="inline-code">cd [nom de votre projet]</span> et d'installer les dépendances NPM via <span class="inline-code">npm install</span>. En effectuant ces commandes, un nouveau dossier <em>node_modules</em> devrait apparaitre dans votre projet qui est maintenant prêt à l'utilisation.</p></li></ol>
+<ol start="4">
+  <li><p>Vite nous propose de nous déplacer dans notre nouveau dossier avec <span class="inline-code">cd [nom de votre projet]</span> et d'installer les dépendances NPM via <span class="inline-code">npm install</span>. En effectuant ces commandes, un nouveau dossier <em>node_modules</em> devrait apparaitre dans votre projet qui est maintenant prêt à l'utilisation.</p></li></ol>
+
+<alert>
+Si vous utilisez <em>git</em> et que vous avez un dossier <em>node_modules</em>, il sera impératif que vous ne le poussiez pas dans votre répertoire git public. Il faudra alors ajouter <em>node_modules</em> à <a href="../../git/gitignore/index.html#ignorer-un-dossier">votre fichier <em>.gitignore</em></a>
+
+</alert>
 
 
 <dots></dots>

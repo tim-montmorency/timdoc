@@ -67,7 +67,7 @@
 
 <dots></dots>
 <grostitre>Package.json</grostitre>
-<p>Pour utiliser npm, il faut premièrement créer un fichier <em>package.json</em> à la racine dudit projet. Ce fichier permet de stocker des informations relatives au projet. Notamment: son nom, son auteur, son numéro de version, etc. mais surtout les dépendances JavaScript nécessaires à son fonctionnement.</p>
+<p>Pour utiliser npm, il faut premièrement créer un fichier <em>package.json</em> à la racine dudit projet. Ce fichier permet de stocker des informations relatives au projet. Notamment: son <em>nom de projet</em>, son <em>auteur</em>, son <em>numéro de version</em>, etc. mais surtout les <em>dépendances d'autres paquets JavaScript</em> nécessaires à son fonctionnement.</p>
 <p>Pour créer ce fichier, il faut ouvrir le dossier du projet dans un terminal.</p>
 
 <info>La façon la plus simple d’ouvrir un terminal à même le dossier d’un projet est d’ouvrir le dossier du projet dans Visual Studio Code et d’ouvrir un terminal à partir de VsCode. Le terminal sera alors ouvert par défaut dans le dossier du&nbsp;projet.</info>
@@ -106,6 +106,8 @@
   <li>Sa date de mise à jour</li>
   <li>etc.</li>
 </ol>
+
+<img src="./images/npm-lodash.png" alt="Impression écran de ce qu'on voit sur NPM dans une page de paquet commme lodash">
 
 
 
@@ -185,14 +187,14 @@
 <info>Le <a href="../../git/gitignore/" target="_blank" rel="noopener noreferrer">fichier .gitignore </a>à la racine du projet se charge d’éviter que des fichiers se retrouvent sur son répertoire Git. Le dossier <em>"node_modules"</em> est systématiquement listé dans ce&nbsp;fichier.</info>
 
 <h3>Si un coéquipier ajoute un paquet?</h3>
-<p>Votre fichier <em>package.json</em> se mettra à jour dès que vous ferez un pull. Malheureusement, les fichiers du paquet n'apparaitront pas magiquement dans votre dossier <em>"node_modules". </em>Pour les ajouter, il faudra alors rouler la commande <incode>npm i</incode>.</p>
-<p>Normalement, le membre de l'équipe ayant ajouté un ou des paquets le fait savoir à ses coéquipiers en inscrivant en majuscules dans son commit la commande à rouler <em>"NPM I"</em> et averti ses coéquipiers.</p>
+<p>Votre fichier <em>package.json</em> se mettra à jour dès que vous ferez un <em>pull</em>. Malheureusement, les fichiers du paquet n'apparaitront pas magiquement dans votre dossier <em>"node_modules"</em>. Pour les ajouter, il faudra alors rouler la commande <incode>npm i</incode>.</p>
+<p>Normalement, le membre de l'équipe ayant ajouté un ou des paquets le fait savoir à ses coéquipiers en inscrivant en majuscules dans son commit la commande à rouler <incode>npm i</incode> et averti ses coéquipiers.</p>
 
 
 <h3>Si un coéquipier retire un paquet?</h3>
 
-<p>Encore une fois, votre fichier <em>package.json</em> se mettra à jour dès que vous ferez un pull. Cependant les fichiers resteront dans votre dossier <em>"node_modules". </em>Heureusement, npm à prévue la commande prune qui permet de comparer les paquets listés dans le fichier <em>package.json</em> et ceux dans le dossier <em>"node_modules" </em>et tout paquet non présent dans le fichier <em>package.json</em> est alors retiré.</p>
-<p>Normalement, le membre d'équipe ayant retiré un ou des paquets le fait savoir à ses coéquipiers en inscrivant en majuscules dans son commit la commande à rouler <em>"NPM PRUNE"</em> et averti ses coéquipiers.</p>
+<p>Encore une fois, votre fichier <em>package.json</em> se mettra à jour dès que vous ferez un <em>pull</em>. Cependant les fichiers resteront dans votre dossier <em>"node_modules". </em>Heureusement, npm à prévue la commande prune qui permet de comparer les paquets listés dans le fichier <em>package.json</em> et ceux dans le dossier <em>"node_modules" </em>et tout paquet non présent dans le fichier <em>package.json</em> est alors retiré.</p>
+<p>Normalement, le membre d'équipe ayant retiré un ou des paquets le fait savoir à ses coéquipiers en inscrivant en majuscules dans son commit la commande à rouler <br><incode>npm prune</incode> et averti ses coéquipiers.</p>
 
 <doclink href="https://docs.npmjs.com/cli/v7/commands/npm-prune">Prune packages</doclink>
 
@@ -200,7 +202,7 @@
 <h3>Si un coéquipier met un paquet à jour?</h3>
 
 <p>Votre fichier <em>package.json</em> se mettra à jour dès que vous ferez un pull. Cependant, la copie téléchargée dans votre dossier <em>"node_modules"</em> restera la même, puisque ce dossier est ignoré par Git. Il faut donc lancer la commande de mise à jour <incode>npm update</incode>.</p>
-<p>Normalement, le membre d'équipe ayant mis à jour un ou des paquets le fait savoir à ses coéquipiers en inscrivant en majuscules dans son commit la commande à rouler <em>"NPM UPDATE"</em> et averti ses coéquipiers.</p>
+<p>Normalement, le membre d'équipe ayant mis à jour un ou des paquets le fait savoir à ses coéquipiers en inscrivant en majuscules dans son commit la commande à rouler <incode>npm update</incode> et averti ses coéquipiers.</p>
 
 <dots></dots>
 
