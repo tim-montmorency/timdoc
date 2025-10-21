@@ -190,6 +190,3 @@ N’oubliez pas le <incode>/</incode> à la fin de l’URL, sinon la page par d�
   <li>etc.</li>
 </ul>
     
-
-
-<p>Source des notes de cours: <doclink href='https://smnarnold.com/cours/autres/vite'>smnarnold: Vite</doclink></p>
