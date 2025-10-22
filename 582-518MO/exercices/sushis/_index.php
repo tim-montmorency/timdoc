@@ -18,7 +18,7 @@
 
 <dots></dots>
 <grostitre>Matériel</grostitre>
-<a href="images/prenom-nom-sushis.zip" target="_blank" rel="noopener noreferrer" download=""
+<a href="images/sushis-dossier-depart.zip" target="_blank" rel="noopener noreferrer" download=""
     class="starting-files">Dossier de départ 📁</a>
 
 
