@@ -55,7 +55,7 @@
 
 <p>Pour vérifier son installation sur un poste ou simplement pour voir son numéro de version, il est possible de taper dans un terminal la commande:</p>
 
-<highlight lang="console">> npm -v</highlight>
+<highlight lang="console">npm -v</highlight>
 
 <p>
   <incode>-v</incode> comme dans <em>"version"</em>.
@@ -73,13 +73,13 @@
 <info>La façon la plus simple d’ouvrir un terminal à même le dossier d’un projet est d’ouvrir le dossier du projet dans Visual Studio Code et d’ouvrir un terminal à partir de VsCode. Le terminal sera alors ouvert par défaut dans le dossier du&nbsp;projet.</info>
 
 <p>Lancer ensuite la commande:</p>
-<highlight lang="console">> npm init</highlight>
+<highlight lang="console">npm init</highlight>
 
 <p>Et répondez aux diverses questions posées.</p>
 
 <p>Si vous n’êtes pas certains des réponses à offrir ou désirez accélérer ce processus, il est possible de créer un fichier <em>package.json</em> avec les valeurs par défaut en utilisant la commande:</p>
 
-<highlight lang="console">> npm init -y</highlight>
+<highlight lang="console">npm init -y</highlight>
 
 <info>Il sera toujours possible de modifier ces valeurs plus tard directement dans le fichier&nbsp;<em>package.json</em>.</info>
 
@@ -117,7 +117,7 @@
 <p>Pour ajouter un paquet dans un projet, il suffit de lancer la commande <incode>npm i</incode>, suivie du nom du paquet désiré.</p>
 <p>Par exemple, afin d'installer lodash dans un projet, il suffit de taper la commande:</p>
 
-<highlight lang="console">> npm i lodash</highlight>
+<highlight lang="console">npm i lodash</highlight>
 <p>
   <incode>i</incode> comme dans <em>"install"</em>.
 </p>
@@ -136,7 +136,7 @@
 
 <p>Par exemple, afin de désinstaller lodash dans un projet, la commande à lancer est:</p>
 
-<highlight lang="console">> npm r lodash</highlight>
+<highlight lang="console">npm r lodash</highlight>
 
 <p>
   <incode>r</incode> comme dans <em>"remove"</em>.
@@ -151,7 +151,7 @@
 
 <p>Afin de voir quels paquets sont installés dans un projet, il est possible d'aller jeter un coup d'oeil 👁 dans le fichier <em>package.json</em> ou encore de lancer la commande:</p>
 
-<highlight lang="console">> npm ls</highlight>
+<highlight lang="console">npm ls</highlight>
 
 <p>
   <incode>ls</incode> comme dans <em>"list"</em>.
@@ -167,13 +167,13 @@
 
 <p>Pour mettre à jour tous les paquets d'un projet, la commande à effectuer est:</p>
 
-<highlight lang="console">> npm update</highlight>
+<highlight lang="console">npm update</highlight>
 
 <p>Pour mettre à jour un paquet spécifiquement, il faut simplement ajouter le nom de ce paquet à notre commande.</p>
 
 <p>Par exemple, pour mettre à jour lodash:</p>
 
-<highlight lang="console">> npm update lodash</highlight>
+<highlight lang="console">npm update lodash</highlight>
 
 <doclink href="https://docs.npmjs.com/cli/v7/commands/npm-update">Update packages</doclink>
 
