@@ -10,8 +10,20 @@
  */
 ?>
 
-<p><a target="_blank" rel="noopener noreferrer" href="https://vitejs.dev/">Vite</a> est un outil qui améliore l'expérience de développement front-end. Il permet de configurer un environnement avec un serveur de développement, un "<em>builder"</em> et un "<em>hot-reload"</em>.  Autrement dit, le navigateur se rafraîchit dès que vous modifiez votre code, de façon similaire à ce que CodePen fait.</p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://vitejs.dev/">Vite</a> est un outil qui améliore l'expérience de développement front-end. Il permet de configurer un environnement avec un serveur de développement, un <em>"builder"</em> et un "<em>hot-reload"</em>. </p>
 
+<p>"Vite" (prononcé "veet") fait référence à un outil de développement web rapide créé par <a target="_blank" rel="noopener noreferrer" href="https://evanyou.me/">Evan You</a>, le créateur de Vue.js. Il est utilisé pour accélérer la construction des applications modernes grâce à un serveur de développement basé sur des <em>modules ES natifs</em> qui permet un rafraîchissement quasi instantané des pages (<em>Hot Module Reloading</em>) et une commande de <em>build</em> optimisée pour la production qui utilise <em>Rollup</em>. Il prend en charge nativement des technologies comme le <em>TypeScript</em> et est devenu l'outil de développement par défaut pour de nombreux projets, y compris Vue.js et React. </p>
+
+<dots></dots>
+<grostitre>Caractéristiques principales</grostitre>
+
+<ul>
+  <li><em>Vitesse de développement</em> : Vite sert le code à la demande en utilisant les modules ES natifs, ce qui réduit considérablement les temps de démarrage et de rafraîchissement des pages pendant le développement.</li>
+  <li><em>Hot Module Replacement (HMR)</em> : Il met à jour les modules modifiés sans nécessiter un rechargement complet de la page, rendant le processus quasi instantané grâce au protocole WebSocket.</li>
+  <li><em>Build de production optimisé</em> : Pour la production, Vite utilise un bundler optimisé (Rollup) pour créer des fichiers statiques hautement optimisés.</li>
+  <li><em>Prise en charge native</em> : Il prend en charge nativement des fonctionnalités comme le TypeScript et JSX, et peut être étendu via un système de plugins.</li>
+  <li><em>Facilité d'utilisation</em> : Vite est conçu pour être simple et offre une expérience de développement fluide, avec une configuration de base qui est souvent quasi vide.</li>
+</ul>
 
 <dots></dots>
 <grostitre>Installation</grostitre>
