@@ -125,10 +125,24 @@
     Ajustez l’image du sushi vedette pour qu’elle couvre son espace (<incode>object-fit</incode>).
 </checklist>
 
+
+
+
+<dots></dots>
+<grostitre>Requis Vue - Composante + Prix total</grostitre>
+<checklist>
+    Avec ce qu'on a vu aujourd'hui en classe (cours 9.1), modifiez votre composante <em>sushi</em> pour qu'elle puisse émettre un événement à chaque fois qu'un sushi est ajouté ou retiré.
+    Cet événement devra être capté par l'app Vue principale afin de recalculer le prix total.
+</checklist>
+
+
+
+
+
 <dots></dots>
 <grostitre>Notes de cours 📚</grostitre>
 <h4 class="heading heading--h4" id="CSS-Grid">Notes de cours Vue JS</h4>
-
+<!--
 <intlink href="../../javascript/vue-js/creation-app/"></intlink>
 <intlink href="../../javascript/vue-js/donnees/"></intlink>
 <intlink href="../../javascript/vue-js/methodes-et-evenements/"></intlink>
@@ -137,6 +151,56 @@
 <intlink href="../../javascript/vue-js/elements-de-formulaire"></intlink>
 <intlink href="../../javascript/vue-js/proprietes-calculees"></intlink>
 <intlink href="../../javascript/vue-js/composantes"></intlink>
+-->
+<ul>
+    <li>
+        <a href="https://tim-montmorency.com/compendium/582-511-web5/vue/creation-app.html" target="_blank" rel="noopener noreferrer">
+                Vue - Création d'applications
+        </a>
+    </li>
+    <li>
+        <a href="https://tim-montmorency.com/compendium/582-511-web5/vue/interpolation.html" target="_blank" rel="noopener noreferrer">
+                Vue - Données et interpolation
+        </a>
+    </li>
+    <li>
+        <a href="https://tim-montmorency.com/compendium/582-511-web5/vue/methodes-evenements.html" target="_blank" rel="noopener noreferrer">
+                Vue - Méthodes et événements
+        </a>    
+    </li>
+    <li>
+        <a href="https://tim-montmorency.com/compendium/582-511-web5/vue/condition.html" target="_blank" rel="noopener noreferrer">
+                Vue - Condition v-if
+        </a>
+    </li>
+    <li>
+        <a href="https://tim-montmorency.com/compendium/582-511-web5/vue/boucle.html" target="_blank" rel="noopener noreferrer">
+                Vue - Boucle
+        </a>
+    </li>
+    <li>
+        <a href="https://tim-montmorency.com/compendium/582-511-web5/vue/propriete-calculee.html" target="_blank" rel="noopener noreferrer">
+                Vue - Propriétés calculées
+        </a>
+    </li>
+      <li>
+        <a href="https://tim-montmorency.com/compendium/582-511-web5/vue/composante.html" target="_blank" rel="noopener noreferrer">
+                Vue - Composantes
+        </a>
+    </li>
+    <li>
+        <a href="https://tim-montmorency.com/compendium/582-511-web5/vue/props.html" target="_blank" rel="noopener noreferrer">
+                Vue - Props
+        </a>
+    </li>
+    <li></li>
+        <a href="https://tim-montmorency.com/compendium/582-511-web5/vue/emit.html" target="_blank" rel="noopener noreferrer">
+                Vue - Émettre des événements
+        </a>
+    </li>
+</ul>
+
+
 
 <h4 class="heading heading--h4" id="CSS-Grid">Notes de cours CSS Grid</h4>
 <ul>
