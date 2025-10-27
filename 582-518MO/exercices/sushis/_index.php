@@ -70,18 +70,12 @@
 <!-- no 5 version composante Créez une composante intitulée <em>sushi</em>. Cette composante devra être utilisée pour générer l'aperçu de chaque item sur le menu en bouclant sur le array <em>sushisArr</em> de l'app Vue.-->
 <checklist>Importez le cadriciel Vue 3 via CDN.
     Créez une app Vue.
-    Dans votre app, la fonction <incode>data()</incode> retournera une propriété <incode>sushisArr</incode> qui
-    contiendra un tableau (array) listant différents objets&nbsp;: un pour chaque sushi.
-    Analysez la démo ci-haut. Quelles informations uniques à chaque sushi devraient être transformées en propriétés
-    contenues dans les objets listés dans <incode>sushisArr</incode>? Créez-les et populez-les avec les données de
-    l'exemple ci-haut.
+    Dans votre app, la fonction <incode>data()</incode> retournera une propriété <incode>sushisArr</incode> qui contiendra un tableau (array) listant différents objets&nbsp;: un pour chaque sushi.
+    Analysez la démo ci-haut. Quelles informations uniques à chaque sushi devraient être transformées en propriétés contenues dans les objets listés dans <incode>sushisArr</incode>? Créez ce tableau <incode>sushisArr</incode> qui liste des objets pour chaque sushi et populez-les avec les données de l'exemple ci-haut.
     Dans le fichier <em>index.html</em>, créez une boucle sur chacun des sushis listés dans <incode>sushisArr</incode>.
-    Dans cette boucle, construisez le contenu HTML de chaque sushi en récupérant la valeur des propriétés des objets que
-    vous avez créés à l'étape 4.
-    Les boutons ➖ et ➕ doivent permettre de diminuer/augmenter le nombre de sushis de chaque sorte respective.
-    Attention, un nombre de sushis ne peut jamais être négatif.
-    Utilisez des <em>propriétés calculées</em> afin d'afficher en temps réel le nombre de morceaux ainsi que le <em>prix
-        total</em> lorsque des sushis sont ajoutés/retirés.
+    Dans cette boucle, construisez le contenu HTML de chaque sushi en récupérant la valeur des propriétés des objets que vous avez créés à l'étape 4.
+    Les boutons ➖ et ➕ doivent permettre de diminuer/augmenter le nombre de sushis de chaque sorte respective. <br>Attention, un nombre de sushis ne peut jamais être négatif.
+    Utilisez des <em>propriétés calculées</em> afin d'afficher en temps réel le nombre de morceaux ainsi que le <em>prix total</em> lorsque des sushis sont ajoutés/retirés.
 </checklist>
 
 
@@ -89,18 +83,16 @@
 
 <grostitre>Requis Vue - Composante</grostitre>
 
-<warning>La section <em>Requis Vue - Composante</em> est à faire seulement si on a couvert les <a href="../../javascript/vue-js/composantes">composantes Vue</a> jusqu'à maintenant. Sinon, ne pas faire la partie qui suit, nous y reviendrons plus tard.</warning>
+<warning>La section <em>Requis Vue - Composante</em> est à faire seulement si on a couvert les <a href="https://tim-montmorency.com/compendium/582-511-web5/vue/composante.html" target="_blank">composantes Vue</a> jusqu'à maintenant. Sinon, ne pas faire la partie qui suit, nous y reviendrons plus tard.</warning>
 
-<p>Maintenant, essayons de faire la même chose que l'étape précédente mais en transformant un sushi du menu en une
-    composante réutilisable pour générer tous les autres.</p>
+<p>Maintenant, essayons de faire la même chose que l'étape précédente mais en transformant un sushi du menu en une composante réutilisable pour générer tous les autres.</p>
 
 <checklist>
     Copiez votre fichier complété de l'étape précédente <em>index.html</em> et nommez le <em>index-composante.html</em>
     Copiez votre fichier complété de l'étape précédente main.js et nommez le <em>main-composante.js</em>
-    Dans index-composante.html, changez le lien de main.js pour <em>main-composante.js</em>
-    Dans ces 2 nouveaux fichiers, modifiez l'app Vue que vous avez précédemment créée. Créez une composante intitulée
-    <em>sushi</em>. Cette composante devra être utilisée pour générer l'aperçu de chaque item sur le menu via une boucle
-    Vue.
+    Dans <em>index-composante.html</em>, changez le lien de main.js pour <em>main-composante.js</em>
+    Dans ces 2 nouveaux fichiers, modifiez l'app Vue que vous avez précédemment créée. Créez une composante intitulée <em>sushi</em>.
+    Cette composante devra être utilisée pour générer l'aperçu de chaque item sur le menu via une boucle Vue.
 </checklist>
 
 <alert>
@@ -131,8 +123,9 @@
 <dots></dots>
 <grostitre>Requis Vue - Composante + Prix total</grostitre>
 <checklist>
+    Faites évoluer vos fichiers précédents <em>index-composante.html</em> et  <em>main-composante.js</em>.
     Avec ce qu'on a vu aujourd'hui en classe (cours 9.1), modifiez votre composante <em>sushi</em> pour qu'elle puisse émettre un événement à chaque fois qu'un sushi est ajouté ou retiré.
-    Cet événement devra être capté par l'app Vue principale afin de recalculer le prix total.
+    Cet événement devra être capté par l'app Vue principale afin de recalculer le prix total et le nombre total de morceaux.
 </checklist>
 
 
