@@ -193,7 +193,7 @@
                 Vue - Props
         </a>
     </li>
-    <li></li>
+    <li>
         <a href="https://tim-montmorency.com/compendium/582-511-web5/vue/emit.html" target="_blank" rel="noopener noreferrer">
                 Vue - Émettre des événements
         </a>
