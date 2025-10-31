@@ -117,6 +117,8 @@
     Ajustez l’image du sushi vedette pour qu’elle couvre son espace (<incode>object-fit</incode>).
 </checklist>
 
+-->
+
 
 
 
@@ -124,12 +126,12 @@
 <grostitre>Requis Vue - Composante + Prix total</grostitre>
 <checklist>
     Faites évoluer vos fichiers précédents <em>index-composante.html</em> et  <em>main-composante.js</em>.
-    Avec ce qu'on a vu aujourd'hui en classe (cours 9.1), modifiez votre composante <em>sushi</em> pour qu'elle puisse émettre un événement à chaque fois qu'un sushi est ajouté ou retiré.
+    Avec ce qu'on a vu aujourd'hui en classe (cours 10.1), modifiez votre composante <em>sushi</em> pour qu'elle puisse émettre un événement à chaque fois qu'un sushi est ajouté ou retiré.
     Cet événement devra être capté par l'app Vue principale afin de recalculer le prix total et le nombre total de morceaux.
 </checklist>
 
 
--->
+
 
 
 <dots></dots>
