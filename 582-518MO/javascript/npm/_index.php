@@ -61,7 +61,10 @@
   <incode>-v</incode> comme dans <em>"version"</em>.
 </p>
 
-<doclink href="https://docs.npmjs.com/cli/v7/commands/npm-version">Version NPM</doclink>
+<doclink href="https://docs.npmjs.com/cli/v7/commands/npm-version">Vérification de la version NPM</doclink>
+ <br>
+<doclink href="https://nodejs.org/en/download">Installation de Node et NPM si non installés</doclink>
+
 
 
 
@@ -145,6 +148,8 @@
 
 <doclink href="https://docs.npmjs.com/cli/v7/commands/npm-uninstall">Uninstall packages</doclink>
 
+
+
 <dots></dots>
 
 <grostitre>Voir les paquets installés</grostitre>
@@ -158,6 +163,8 @@
 </p>
 
 <doclink href="https://docs.npmjs.com/cli/v7/commands/npm-ls">List packages</doclink>
+
+
 
 <dots></dots>
 
@@ -176,6 +183,8 @@
 <highlight lang="console">npm update lodash</highlight>
 
 <doclink href="https://docs.npmjs.com/cli/v7/commands/npm-update">Update packages</doclink>
+
+
 
 <dots></dots>
 
@@ -202,10 +211,12 @@
 <h3>Si un coéquipier met un paquet à jour?</h3>
 
 <p>Votre fichier <em>package.json</em> se mettra à jour dès que vous ferez un pull. Cependant, la copie téléchargée dans votre dossier <em>"node_modules"</em> restera la même, puisque ce dossier est ignoré par Git. Il faut donc lancer la commande de mise à jour <incode>npm update</incode>.</p>
+
 <p>Normalement, le membre d'équipe ayant mis à jour un ou des paquets le fait savoir à ses coéquipiers en inscrivant en majuscules dans son commit la commande à rouler <incode>npm update</incode> et averti ses coéquipiers.</p>
 
-<dots></dots>
 
+
+<dots></dots>
 
 <grostitre>Alternatives</grostitre>
 
