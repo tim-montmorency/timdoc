@@ -1,0 +1,10 @@
+<?php 
+/**
+ * @type     tool
+ * @title    Vite
+ * @icon     images/thumb.webp
+ * @url      https://vitejs.dev/
+ * @abstract Vite is a local development server written by Evan You, the creator of Vue.js, and used by default by Vue and for React project templates.
+ */
+?>
+<script>location.href = '<?php echo $PAGE->url; ?>';</script>

@@ -1,0 +1,52 @@
+/*
+Theme Name: Jellycat
+Author: Marie-Michelle Ouellet
+Author URI: https://tim-montmorency.com/timdoc/
+Description: Thème pour l'exercice Jellycat
+-------------------------------------------------------------- */
+/*
+C'est le moment d'effacer ce commentaire et d'écrire du vrai
+  ___  ____  ____ 
+ / __)/ ___)/ ___)
+( (__ \___ \\___ \
+ \___)(____/(____/
+ 
+ */
+
+ *{
+  box-sizing: border-box;
+}
+
+body, html{
+  width: 100%;
+  height: 100%;
+  background-color:#14bfd6;
+}
+
+ .navbar-brand img{
+    max-width: 200px;
+ }
+
+main{
+  width: 100%;
+}
+
+article,
+footer{
+  width: 80vw;
+  min-width: 400px;
+  padding: 20px;
+  margin: 0 auto
+}
+
+article{
+  min-height: 50vh;
+  background-color: white;
+}
+
+.heros{
+  width: 100vw;
+  height: 40vh;
+  background: black;
+  color: white;
+}

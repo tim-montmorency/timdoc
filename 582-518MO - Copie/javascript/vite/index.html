@@ -1,0 +1,270 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Vite</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">JavaScript</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/outils/">Outils</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="images/Vitejs-logo.svg">&nbsp;Vite</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p><a target="_blank" rel="noopener noreferrer" href="https://vitejs.dev/">Vite</a> est un outil qui améliore l'expérience de développement front-end. Il permet de configurer un environnement avec un serveur de développement, un <em>"builder"</em> et un "<em>hot-reload"</em>. </p>
+
+<p>"Vite" (prononcé "veet") fait référence à un outil de développement web rapide créé par <a target="_blank" rel="noopener noreferrer" href="https://evanyou.me/">Evan You</a>, le créateur de Vue.js. Il est utilisé pour accélérer la construction des applications modernes grâce à un serveur de développement basé sur des <em>modules ES natifs</em> qui permet un rafraîchissement quasi instantané des pages (<em>Hot Module Reloading</em>) et une commande de <em>build</em> optimisée pour la production qui utilise <em>Rollup</em>. Il prend en charge nativement des technologies comme le <em>TypeScript</em> et est devenu l'outil de développement par défaut pour de nombreux projets, y compris Vue.js et React. </p>
+
+<dots></dots>
+<grostitre>Caractéristiques principales</grostitre>
+
+<ul>
+  <li><em>Vitesse de développement</em> : Vite sert le code à la demande en utilisant les modules ES natifs, ce qui réduit considérablement les temps de démarrage et de rafraîchissement des pages pendant le développement.</li>
+  <li><em>Hot Module Replacement (HMR)</em> : Il met à jour les modules modifiés sans nécessiter un rechargement complet de la page, rendant le processus quasi instantané grâce au protocole WebSocket.</li>
+  <li><em>Build de production optimisé</em> : Pour la production, Vite utilise un bundler optimisé (Rollup) pour créer des fichiers statiques hautement optimisés.</li>
+  <li><em>Prise en charge native</em> : Il prend en charge nativement des fonctionnalités comme le TypeScript et JSX, et peut être étendu via un système de plugins.</li>
+  <li><em>Facilité d'utilisation</em> : Vite est conçu pour être simple et offre une expérience de développement fluide, avec une configuration de base qui est souvent quasi vide.</li>
+</ul>
+
+<dots></dots>
+<grostitre>Installation</grostitre>
+<warning>Node et NPM sont nécessaire à l’installation de&nbsp;Vite.         <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../npm/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../npm/">NPM</a></span>
+                <span class="intlink__item__abstract">Gestionnaire de paquets JS</span>
+            </div>
+        </div>
+</warning>
+
+<ol start="1">
+  <li>Choisissez le dossier où vous désirez créer votre projet. <br> <br> 
+  
+  Vous avez maintenant trois options:
+  <ul>
+    <li><p>Sur le dossier du projet, effectuez un clic droit en tenant la touche <span class="inline-code">Shift</span> enfoncée. Le menu contextuel devrait afficher l'option <em>"Open Windows Terminal Here"</em>.</p></li>
+    
+    <li><p>Ouvrir directement le terminal, inscrire <span class="inline-code">cd</span> pour <em>Change directory</em>, y glisser-déposer votre dossier et appuyer sur la touche <span class="inline-code">&crarr;</span>.</p></li>
+
+    <li><p><strong><em>RECOMMANDÉ:</em></strong> Ouvrir le dossier ou vous souhaitez créer votre projet dans Visual Studio Code et ensuite ouvrir le Terminal de Visual studio Code.</p></li>
+  </ul>
+  </li>
+  <li><p>Maintenant que votre terminal se trouve dans votre dossier, vous pouvez lancer l'installation de Vite via la commande suivante:</p></li>
+</ol>
+<highlight lang="js">npm init vite</highlight>
+
+
+<ol start="3">
+  <li><p>Vite vous demandera alors quelques questions de configuration afin de s'adapter à votre projet:</p>
+      
+    <ol start="1">
+      <li><p>Installer le nécessaire: <span class="inline-code">y</span> pour yes.</p></li>
+      <li><p>Nom donné au projet <span class="inline-code">Demo</span> ou tout autre nom pertinent (sans accent, ni espace, vous pouvez utiliser les tirets -.</p></li>
+      <li><p>Nom du fichier package <span class="inline-code">demo</span> <em>(généralement similaire au projet, d'où pourquoi j'accepte la suggestion dans la vidéo)</em></p></li>
+      <li><p>Si on compte utiliser un cadriciel JavaScript <em>(Vue, React, Svelte, etc.)</em> ou <em>Vanilla</em> si ce n'est pas le cas.</p></li
+      ><li><p>Si Vanilla a été choisi, Vanilla pur ou Vanilla avec TypeScript?</p></li>
+      <li><p>Vite télécharge et génère les fichiers de base à partir de nos réponses.</p></li>
+    </ol>
+  </li>
+</ol>
+
+<figure>
+  <video src="images/vite-terminal-installation.mp4" autoplay="" muted="" loop="" style="display: block; margin: 0 auto;"></video>
+
+  <figcaption class="caption caption--image">
+    <p>Le terminal est généralement noir et blanc sur Windows et blanc et noir sur Mac, mais vous pouvez lui donner un thème de votre choix comme dans cet exemple.</p>
+  </figcaption> 
+</figure>
+
+
+<info>Dans l’explorateur de fichiers, le dossier du projet devrait maintenant être visible et contenir quleques fichiers notamment <em>index.html</em>, <em>main.js</em> et&nbsp;<em>style.css</em>, <em>package.json</em> et même le dossier <em>node_modules</em>.</info>
+
+<ol start="4">
+  <li><p>Vite nous propose de nous déplacer dans notre nouveau dossier avec <span class="inline-code">cd [nom de votre projet]</span> et d'installer les dépendances NPM via <span class="inline-code">npm install</span>. En effectuant ces commandes, un nouveau dossier <em>node_modules</em> devrait apparaitre dans votre projet qui est maintenant prêt à l'utilisation.</p></li></ol>
+
+<alert>
+Si vous utilisez <em>git</em> et que vous avez un dossier <em>node_modules</em>, il sera impératif que vous ne le poussiez pas dans votre répertoire git public. Il faudra alors ajouter <em>node_modules</em> à <a href="../../git/gitignore/index.html#ignorer-un-dossier">votre fichier <em>.gitignore</em></a>
+
+</alert>
+
+
+<dots></dots>
+<grostitre>Développement</grostitre>
+<p>Pour commencer à développer (bref <em>entrer dans le mode développement</em>), vous devez dans votre terminal vous déplacer dans le dossier de votre projet. À partir de cet endroit, lancer la commande suivante:</p>
+
+
+<highlight lang="bash">npm run dev</highlight>
+
+
+
+<p>Cette commande vous retournera l'adresse de votre site en développement. </p>
+
+<p>Par exemple: <span class="inline-code">http://localhost:3000/</span></p>
+
+<p>Ça y est, si vous changez quoi que ce soit dans vos fichiers, les changements apparaitront directement dans le navigateur!</p>
+
+<img src="images/hello-vite.png" alt="">
+
+<warning>Pour sortir du mode de développement, simplement tapper <span class='inline-code'>q</span> dans votre terminal et ensuite appuyer sur la touche <span class="inline-code">&crarr;</span>.</warning>
+
+
+<h3>Bref (pour le mode de développement)</h3>
+
+Pour entrer dans ce mode:
+<highlight lang="bash">npm run dev</highlight>
+Pour sortir de ce mode :
+<highlight lang="bash">q
+  &crarr;</highlight> Bref <span class="inline-code">q</span> suivi de <span class="inline-code">&crarr;</span> Enter
+
+
+
+
+<dots></dots>
+<grostitre>Build</grostitre>
+<p>La commande build de Vite permet de générer des fichiers optimisés dans le but d'accroitre leurs performances lorsque vous êtes prêt à déployer en production. Autrement dit, tous les éléments inutiles à un ordinateur <em>(sauts de ligne, espaces, etc.)</em> sont retirés, réduisant ainsi le poids de ces fichiers et donc leur vitesse de chargement.</p>
+
+<p>Ces fichiers sont ensuite déposés dans un dossier <em>dist</em> à l'intérieur de votre projet que vous pouvez ensuite déposer sur votre serveur.</p>
+
+<p>Pour exécuter cette commande, il suffit d'inscrire la commande suivante dans le terminal:</p>
+
+<highlight lang="js">npm run build</highlight>
+
+
+<p>Les fichiers créés ont une clé ajoutée à leur nom dans le but d'éviter que les navigateurs de vos internautes leur servent une ancienne version de votre fichier se trouvant dans leur cache.</p>
+
+<p>Ces noms sont automatiquement ajustés pour vous dans votre fichier <em>index.html</em>.</p>
+
+
+
+<dots></dots>
+<grostitre>SASS (ne pas en prendre compte pour Web 5)</grostitre>
+
+
+<p>Par défaut, Vite ne supporte pas la syntaxe SASS. Si le fichier <em>style.css</em> est renommé <em>style.sass</em> ou <em>style.scss</em> une erreur sera retournée:</p>
+
+
+<highlight lang="javascript">Preprocessor dependancy &quot;sass&quot; not found. Did you install it?</highlight>
+
+
+<p>Heureusement, il suffit d'installer la dépendance demandée via la commande suivante pour régler le problème:</p>
+
+
+<highlight lang="js">npm i sass --save-dev</highlight>
+
+<p>Puisque le fichier <em>main.js</em> fait référence au fichier <em>style.css</em>, il faut changer dans celui-ci le nom.</p>
+
+
+<highlight lang="js">import &#039;./style.css&#039;</highlight>
+<p>par</p>
+<highlight lang="js">import &#039;./style.scss&#039;</highlight>
+
+<p>Dès que ce changement est effectué et que l'installation est complétée, il est possible de relancer le développement <span class="inline-code">npm run dev</span>. Vite supportera maintenant les fichiers <em>.sass</em> et <em>.scss</em>.</p>
+
+<doclink href='https://vitejs.dev/guide/#scaffolding-your-first-vite-project'>Vite scaffolding</doclink>
+
+
+
+<dots></dots>
+<grostitre>Multipage</grostitre>
+<p>Par défaut, Vite est prévu pour de ne supporter qu'une seule page <em>(index.html)</em>. Afin d'obtenir un site multipage, il faut créez à la racine de son projet un fichier de configurations <em>vite.config.js</em> définissant de nouveaux points d'entrée.</p>
+
+<p>Par exemple, afin d'obtenir une 2e page intitulée <em>"about"</em>, il faut créer un dossier nommé <em>"about"</em>, y insérer une page <em>"index.html" </em>et finalement spécifier une nouvelle configuration à Vite lui indiquant l'existence de cette nouvelle page:</p>
+
+
+<highlight lang="js">const { resolve } = require(&#039;path&#039;)
+const { defineConfig } = require(&#039;vite&#039;)
+
+module.exports = defineConfig({
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, &#039;index.html&#039;),
+        about: resolve(__dirname, &#039;about/index.html&#039;)
+      }
+    }
+  }
+})</highlight>
+
+
+<p>Pour accéder à cette nouvelle page, il suffit de spécifier le nom du dossier dans l'URL. Par exemple: <span class="inline-code">http://localhost:3000/about/</span></p>
+
+
+<alert> <em>Erreur fréquente</em> <br>
+N’oubliez pas le <span class="inline-code">/</span> à la fin de l’URL, sinon la page par défaut&nbsp;affichera.</alert>
+
+
+<doclink href='https://vitejs.dev/guide/build.html#multi-page-app'>Multipage</doclink>
+
+
+
+<dots></dots>
+<grostitre>Alternatives</grostitre>
+<ul>
+  <li><a target="_blank" rel="noopener noreferrer" href="https://www.snowpack.dev/">Snowpack</a></li>
+  <li><a target="_blank" rel="noopener noreferrer" href="https://webpack.js.org/">Webpack</a></li>
+  <li><a target="_blank" rel="noopener noreferrer" href="https://gulpjs.com/">Gulp</a></li>
+  <li><a target="_blank" rel="noopener noreferrer" href="https://rollupjs.org/guide/en/">Rollup</a></li>
+  <li>etc.</li>
+</ul>
+    
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

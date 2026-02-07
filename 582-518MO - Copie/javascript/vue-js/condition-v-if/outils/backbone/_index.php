@@ -1,0 +1,10 @@
+<?php 
+/**
+ * @type     tool
+ * @title    Backbone.js
+ * @icon     images/thumb.webp
+ * @url      https://backbonejs.org/
+ * @abstract Backbone.js is a JavaScript rich-client web app framework based on the model–view–controller design paradigm, intended to connect to an API over a RESTful JSON interface.
+ */
+?>
+<script>location.href = '<?php echo $PAGE->url; ?>';</script>

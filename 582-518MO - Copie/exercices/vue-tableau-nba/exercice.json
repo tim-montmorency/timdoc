@@ -1,0 +1,6 @@
+{
+    "type": "exercice",
+    "title": "Vue - Tableau NBA",
+    "icon": "images\/thumb.webp",
+    "abstract": "Vous devrez rendre dynamique \u00e0 l\u2019aide de Vue le tableau indicateur d\u2019un match de la NBA"
+}

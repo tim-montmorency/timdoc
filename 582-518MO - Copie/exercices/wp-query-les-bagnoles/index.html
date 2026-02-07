@@ -1,0 +1,153 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>WP Query - Les Bagnoles</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">WP Query - Les Bagnoles</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p>Pour cet exercice vous et votre coéquipier devez créer un microsite permettant de présenter les protagonistes du <a href="https://fr.wikipedia.org/wiki/Cars_(film)" target="_blank">film les&nbsp;Bagnoles</a>.</p>
+
+
+<p>Votre coéquipier a conçu un mockup HTML sur CodePen, ainsi que le thème WordPress du site. Il compte maintenant sur vous pour le rendre dynamique dans&nbsp;WordPress.</p>
+
+<p>Aperçu du résultat 👇</p>
+
+<img src="images/wp-query-les-bagnoles-apercu.png" alt="">
+
+<dots></dots>
+<grostitre>Matériel</grostitre>
+
+<doclink href="https://codepen.io/tim-momo/pen/ExrYmam">Pen de départ</doclink>
+
+
+<h3 class="heading heading--h3" id="Médias 🖼️">Médias 🖼️</h3>
+<p>Pour télécharger chaque fichier, aller à l'URL du fichier dans votre navigateur, ensuite faites clic-droit dans la page et "enregistrer sous"</p> 
+<mediafile src="assets/acf-export-cars-structure.json">acf-export-cars-structure.json</mediafile>
+<mediafile src="assets/data-cars.xml">data-cars.xml</mediafile>
+<mediafile src="https://marie-test.tim-momo.com/les-bagnoles/wp-content/uploads/2021/10/sally-carrera.png">image sally carrera</mediafile>
+<mediafile src="https://marie-test.tim-momo.com/les-bagnoles/wp-content/uploads/2021/10/chick-hicks.jpeg">image chick hicks</mediafile>
+<mediafile src="https://marie-test.tim-momo.com/les-bagnoles/wp-content/uploads/2021/10/strip-weathers.png">image strip wathers</mediafile>
+<mediafile src="https://marie-test.tim-momo.com/les-bagnoles/wp-content/uploads/2021/10/flash-McQueen.png">image flash mcqueena</mediafile>
+
+
+<dots></dots>
+<grostitre>Installation</grostitre>
+        
+<checklist>
+Installez en local une copie en&nbsp;<a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/download/#download-install" onclick="event.stopPropagation()">"Français du Canada de WordPress"</a>&nbsp;pour votre client.
+Ajoutez les extensions WP Multilang et Secure Custom Fields.
+Installez le&nbsp;<a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="https://ex.smnarnold.com/wordpress/cars/cars-theme.zip">thème réalisé par votre collègue</a>.
+Importez la structure du Post Personnalisé intitulé <em>"Voiture"</em> ainsi que la structure ACF du groupe de champs Voiture à l'aide du JSON en pièce jointe.
+Importez les données des pages à l'aide du fichier XML en pièce jointe.
+</checklist>
+ 
+
+
+<dots></dots>
+<grostitre>Affichage</grostitre>
+<checklist>Ajustez le menu afin qu'il affiche une option de changement de langue sous forme d'un drapeau.
+Utilisez la fonctionnalité WP Query afin de récupérer tous les posts de type <em>"voitures"</em>.
+Pour chacun de ces posts, recréez une carte en vous basant sur le Pen en pièce jointe dans le fichier <em>home.php</em>.
+</checklist>
+
+
+   
+<dots></dots>
+<grostitre>Notes de cours 📚</grostitre>
+
+
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../wordpress/medias/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../wordpress/advanced-custom-fields/">Champs avancés personnalisés</a></span>
+                <span class="intlink__item__abstract">SCF - Secure Custom Fields</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../wordpress/medias/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../wordpress/posts-personnalises/">Posts personnalisés</a></span>
+                <span class="intlink__item__abstract">Collections de types de publications</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../wordpress/medias/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../wordpress/migration-de-donnees/">Migration de données des pages</a></span>
+                <span class="intlink__item__abstract">Migrer les données d'un site WordPress vers un autre</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../wordpress/medias/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../wordpress/wp-query/">WP-Query</a></span>
+                <span class="intlink__item__abstract">Requête pour récupérer le contenu des posts et pages</span>
+            </div>
+        </div>
+
+
+
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

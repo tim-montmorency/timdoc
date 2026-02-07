@@ -113,13 +113,10 @@
     <li>Vous pouvez perturber ce flot pour créer des dispositions spécifiques.</li>
 </ul>
 
-<knowmore href="https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Flow_Layout">Article MDN à propos du flux</knowmore>
-
-
 <dots></dots>
 
-Veuillez faire les 2 premiers exercices de la page suivante et non les 4.
-<exercice href='../exercices/flux/'></exercice>
+<doclink href='https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Display/Flow_layout'>CSS Flow Layout (disposition en flux)</doclink>
+
 
 <!--
 

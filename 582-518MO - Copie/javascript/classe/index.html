@@ -1,0 +1,338 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Classes JavaScript</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">JavaScript</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/javascript/">JavaScript</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="images/classe-js3.png">&nbsp;Classes JavaScript</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p>La programmation orientée objet, ou en anglais&nbsp;<em>Object-oriented programming (OOP)</em>, est une structure de code dans laquelle chaque élément est un objet. Chaque donnée est une propriété et chaque action est une méthode sur l’objet correspondant à son&nbsp;élément.</p>
+
+
+<!--<p>Cette approche peut sembler intimidante de prime abord, mais en fait, elle s’apparente à la façon dont l’être humain pense 🧠</p> -->
+
+
+<p>Par exemple, chaque item sur une liste d’épicerie pourrait être un objet avec différentes propriétés, telles&nbsp;que:</p>
+
+
+<ul>
+    <li>Un nom</li>
+    <li>Une catégorie d'aliment (fruit, légume, viande, légumineuse...)</li>
+    <li>Un statut indiquant si l'item est dans le panier ou&nbsp;non</li>
+    <li>etc.</li>
+</ul>
+
+
+<dots></dots>
+<p>La liste d’épicerie pourrait contenir plusieurs éléments, mais ils partageraient tous les mêmes propriétés de&nbsp;base.</p><p>Par exemple:</p>
+
+<highlight lang="js">const tacos = {
+  nom: &ldquo;🌮&rdquo;,
+  categorie: &quot;c&eacute;r&eacute;ale&quot;,
+  dansLePanier: false,
+} 
+ 
+const tomate = {
+  nom: &ldquo;🍅&rdquo;,
+  categorie: &quot;legume&quot;,
+  dansLePanier: false,
+}</highlight>
+
+
+<p>Chaque objet partage les mêmes propriétés&nbsp;<em>(nom, categorie et dansLePanier)</em>, mais a des valeurs différentes. Ainsi, il est possible d’interroger chaque élément afin de savoir s’il est&nbsp;<span class="inline-code">dansLePanier</span>&nbsp;ou&nbsp;non.</p>
+
+
+
+<dots></dots>
+<p>À l’heure actuelle, la meilleure façon de programmer en orienté objet est d’utiliser des classes. Chaque classe permet de créer un certain type d’objet. Tous les objets créés à partir d’une même classe partagent les mêmes propriétés et méthodes, ce qui assure une cohérence entre chacun de ces&nbsp;objets.</p><p>Une classe de base ressemble à&nbsp;ceci:</p>
+<highlight lang="js">class NomDeMaClasse {
+  constructor() {
+  }
+}</highlight>
+
+<ul>
+    <li>Le mot&nbsp;<span class="inline-code">class</span>&nbsp;indique qu'une classe s'apprête à être&nbsp;définie.</li>
+    <li><span class="inline-code">NomDeMaClasse</span>&nbsp;correspond au nom donné à la&nbsp;classe.</li>
+    <li><span class="inline-code">constructor</span>&nbsp;est une méthode spéciale appelée automatiquement lorsqu'un nouvel objet est créé à partir de la classe. Il permets de définir les propriétés de base du nouvel&nbsp;objet.</li>
+</ul>
+
+
+
+<aside class="note note--info">
+  <div class="note__wrapper">
+        <p>Remarquez comment par convention un <strong>nom de classes commence toujours par une&nbsp;majuscule</strong>.</p>
+
+  </div>
+</aside>
+
+
+
+<p>Par exemple, si une classe devait permettre de créer des items dans une liste d’épicerie, elle ressemblerait probablement à quelque chose comme&nbsp;ceci:</p>
+
+<highlight lang="javascript">class ItemEpicerie {
+  constructor(nom, categorie) {
+    this.nom = nom;
+    this.categorie = categorie;
+    this.dansLePanier = false;
+  }
+}</highlight>
+
+
+
+
+<ul>
+    <li>La <strong>classe</strong> a un nom représentatif du type d’objet qu’elle crée&nbsp;<span class="inline-code">ItemEpicerie</span>.</li>
+    <li>Le <strong>constructeur</strong> s’attend à recevoir en paramètre un élément intitulé&nbsp;<span class="inline-code">nom</span>.</li>
+    <li>La <strong>propriété</strong> <span class="inline-code">this.nom</span>&nbsp;doit correspondre à l’élément&nbsp;<span class="inline-code">nom</span>&nbsp;reçu en&nbsp;paramètre.</li>
+    <li>La <strong>propriété</strong> <span class="inline-code">this.categorie</span>&nbsp;doit correspondre à l’élément&nbsp;<span class="inline-code">categorie</span>&nbsp;reçu en&nbsp;paramètre.</li>
+    <li>Finalement, la propriété&nbsp;<span class="inline-code">dansLePanier</span>&nbsp;est initialisée avec la valeur par défaut&nbsp;<span class="inline-code">false</span>.</li>
+</ul>
+<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/class'>Classe JavaScript</doclink>
+
+
+
+<dots></dots>
+<grostitre>Instanciation</grostitre>
+
+<p>Pour créer un objet à partir d’une classe, il faut l’instancier. </p>
+
+<p>La déclaration <span class='inline-code'>class Nomdeclasse</span> de la classe sert à indiquer au système la structure de la classe mais ça ne crée rien officiellement.</p>
+<p>La création d'une instance  <span class='inline-code'>new Nomdeclasse</span> crée un première version concrète d'une instance de la classe.  Il peut exister plusieurs instances de la classe. Chaque instance peut avoir ses propres valeurs selon les propriétés déterminées par le modèe de la classe.</p>
+  
+
+
+<p>Il faut utiliser le mot réservé&nbsp;<span class="inline-code">new</span>&nbsp;pour créer une nouvelle instance. Il faut ensuite spécifier le nom de la classe à utiliser pour créer l’élément et optionnellement, lui fournir des paramètres à&nbsp;utiliser.</p>
+
+<p>Par exemple, il est possible de recréer l’élément tacos&nbsp;ainsi:</p>
+
+<highlight lang="js">new ItemEpicerie(&ldquo;🌮&rdquo;, &quot;c&eacute;r&eacute;ale&quot;);</highlight>
+
+
+<info>Remarquez comment le nom “🌮” est passé en paramètre. Si un ou des paramètres sont définis lors de l’instanciation d’un objet, ils sont automatiquement passés au&nbsp;constructeur.</info>
+
+
+
+
+<p>Cette instanciation retournera l’objet suivant 👇.</p>
+
+<highlight lang="javaScript">{
+  nom: &ldquo;🌮&rdquo;,
+  categorie: &quot;c&eacute;r&eacute;ale&quot;,
+  dansLePanier: false,
+}</highlight>
+
+<p>Si l’objet doit être accessible après sa création, il est nécessaire de le stocker dans une variable. Par&nbsp;exemple:</p>
+
+<highlight lang="js">const tacos = new ItemEpicerie(&ldquo;🌮&rdquo;);</highlight>
+
+
+
+<p>Ainsi, il est possible d'accéder au statut l’objet comme&nbsp;suit:</p>
+
+
+<highlight lang="js">console.log(tacos.dansLePanier); // false</highlight>
+
+
+
+
+<dots></dots>
+<grostitre>Méthodes</grostitre>
+<p>Pour ajouter une action à un objet, on définit ce que l’on appel une une méthode. Les méthodes sont des fonctions au même titre que le constructeur. Cependant, contrairement au constructeur, elles ne sont pas appelés automatiquement. Il faut donc les appeler manuellement au moment&nbsp;désiré.</p><p>Par exemple, pour créer un élément HTML correspondant notre l’item d’épicerie, il serait possible de créer une&nbsp;méthode.</p>
+
+<highlight lang="js">class ItemEpicerie {
+  constructor(nom, categorie) {
+    this.nom = nom;
+    this.categorie = categorie;
+    this.dansLePanier = false;
+  }
+  
+  creerHTML() {
+    this.el = document.createElement(&#039;div&#039;);
+    this.el.innerText = this.nom + &quot;(&quot; this categorie + &quot;)&quot;;
+    document.body.appendChild(this.el);
+  }
+}</highlight>
+
+
+
+<p>Cette méthode se créée premièrement une propriété el qui contiendra un div.<br>Le div, via sa référence&nbsp;<span class="inline-code">this.el</span>, se fait ensuite insérer un texte. Ce texte correspond au nom de l’élément. Par exemple:&nbsp;“🌮”.</p>
+          <aside class="note note--warn">
+  <div class="note__wrapper">
+        <p>Les classes ne requièrent pas de , pour séparer leurs&nbsp;méthodes.</p>
+
+  </div>
+</aside>
+
+
+
+<p>Par elle-même, cette méthode ne fait rien, puisqu’elle n’est pas appelée. Il faut donc définir un appel. Cet appel pourrait être fait à différents&nbsp;endroits.</p>
+<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Functions/Method_definitions'>Méthode d'une classe JavaScript</doclink>
+
+
+<br><br>
+<h3 id="À l’extérieur de la classe">À l’extérieur de la classe</h3>
+
+<highlight lang="js">const tacos = new ItemEpicerie(&ldquo;🌮&rdquo;);
+tacos.creerHTML();</highlight>
+
+<codepen id="GRVLjJJ" tab="js,result" height="500"></codepen>
+
+
+
+
+<br><br>
+<h3 class="heading heading--h3" id="À l’intérieur de la classe">À l’intérieur de la classe</h3>
+
+<p>Par exemple, dans le constructeur si l’on souhaite que cette méthode soit appelée à chaque fois qu’un élément est&nbsp;créé.</p>
+
+<codepen id="qBewadg" tab="js,result" height="500"></codepen>
+
+
+<br><br>
+
+<h3 class="heading heading--h3" id="À partir d’un événement défini dans la classe">À partir d’un événement défini dans la classe</h3>
+
+<p>Par exemple, lorsque l’élément&nbsp;<span class="inline-code">el</span>&nbsp;est cliqué, appeler une méthode permettant de faire alterner la valeur de la propriété&nbsp;<span class="inline-code">dansLePanier</span>&nbsp;de&nbsp;<span class="inline-code">true</span>&nbsp;à&nbsp;<span class="inline-code">false</span>&nbsp;et vice-versa.</p>
+
+<info>Afin de rendre le changement perceptible, ajoutons ou retirons la classe <span class="inline-code">.barre</span> sur l’élément en fonction de la valeur&nbsp;<span class="inline-code">dansLePanier</span>.</info>
+
+<codepen id="PoMgGPZ" tab="js,result" height="500"></codepen>
+
+        <a class="exercice" target="_blank" href="../../exercices/classe-mario-blocks/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(../../exercices/classe-mario-blocks/images/demo-mario.png)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Classe: Mario Blocks</span>
+                    <span class="exercice-description">Pour cet exercice nous allons créer une “map” de blocs basée sur le premier jeu Super Mario Bros du Nintendo qui popularisa plusieurs principes majeurs du jeux vidéo, tel que le défilement horizontal, les boss et les raccourcis secrets.</span>
+                </div>
+            </div>
+        </a>
+
+
+
+
+  
+<dots></dots>
+<grostitre>Multiples instances</grostitre>
+<p>Concevoir son code en orienté objet offre la flexibilité de créer rapidement et facilement plusieurs objets&nbsp;similaires.</p><p>Par exemple, il serait possible de créer plusieurs éléments d'une liste d’épicerie à partir d’un champ texte et d’un bouton, en créant un nouvel item à partir de la valeur dans le champ texte lorsque le bouton est&nbsp;appuyé.</p>
+
+
+
+<codepen id="VwoNKeo" tab="js,result" height="500"></codepen>
+
+        <a class="exercice" target="_blank" href="../../exercices/classe-chats/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(../../exercices/classe-chats/images/thumb.png)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Classe: Chats</span>
+                    <span class="exercice-description">Pour cet exercice vous nous allons utiliser les classes JavaScript afin de créer un générateur de chats à 9 vies</span>
+                </div>
+            </div>
+        </a>
+
+  
+
+
+
+<dots></dots>
+<grostitre>Sous-classe</grostitre>
+
+<p>Une sous-classe est en quelque sorte un remix d’une autre classe. On part d’une classe existante et on lui apporte des&nbsp;modifications. 🎛️</p><p>Par exemple, il est possible de partir de la classe&nbsp;<span class="inline-code">ItemEpicerie</span>&nbsp;pour créer la classe&nbsp;<span class="inline-code">ItemEpicerieEpice</span>&nbsp;en utilisant le mot réservé&nbsp;<span class="inline-code">extends</span>&nbsp;comme&nbsp;suit:</p>
+
+
+
+<highlight lang="js">class ItemEpicerieEpice extends ItemEpicerie {
+  constructor(nom, categorie) {
+    super(`🌶️ 🔥 ${nom}`, categorie);
+  }
+}</highlight>
+
+
+<p><span class="inline-code">super(&#039;🌶️ 🔥 ${nom}&#039;)</span>&nbsp;indique de créer l’objet à partir de la classe originale. L’objet possède donc toutes les mêmes propriétés et méthodes qu’un objet créé avec&nbsp;<span class="inline-code">ItemEpicerie</span>, mais peut être bonifié, comme dans cet exemple où le nom est préfixé par des émojis indiquant que la nourriture est&nbsp;épicé.</p>
+
+
+
+<codepen id="WNVWGwj" tab="js,result" height="500"></codepen>
+<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Classes/extends'>Extends class</doclink>
+<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/super'>super()</doclink>
+
+        <a class="exercice" target="_blank" href="../../exercices/classe-space-invaders/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(../../exercices/classe-space-invaders/images/thumb.png)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Classe: Space Invaders</span>
+                    <span class="exercice-description">créer un générateur d’extra-terrestres inspiré d’un des jeux les plus célèbres et influents de l’histoire: Space Invaders</span>
+                </div>
+            </div>
+        </a>
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

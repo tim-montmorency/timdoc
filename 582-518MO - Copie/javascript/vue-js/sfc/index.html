@@ -1,0 +1,207 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>SFC</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../', '../../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../../">Projet Web</a> > <a href="../../">JavaScript</a> > <a href="../">Vue.js</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../../index/web/cadriciels/">Cadriciels</a>&nbsp;>&nbsp;<a href="../../../../index/web/cadriciels/vuejs/">Vue.js</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="../images/icon.webp">&nbsp;SFC</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+<p>Les SFC <em>(Single File Components)</em>, ou composantes monofichiers en français, sont des fichiers permettant de regrouper à la fois un template HTML, la logique JavaScript et les styles CSS d’une composante à l’intérieur d’un seul et même fichier. Ce fichier est par la suite converti par un <a rel="noopener noreferrer" href="#compilateurs-sfc">compilateur SFC</a> en JavaScript et CSS standards pouvant être interprétés par les navigateurs.</p>
+
+<p>Cette approche permet de découper un site complexe en composantes indépendantes et plus simples.</p>
+
+
+<highlight lang="html">&lt;template&gt;
+  &lt;div class=&quot;menu&quot;&gt;&lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+export default {
+  data() {
+    return {
+      msg: &#039;Bonjour!&#039;
+    }
+  }
+}
+&lt;/script&gt;
+
+&lt;style&gt;
+.menu {
+  background: blue;
+}
+&lt;/style&gt;</highlight>
+
+
+<info>Ces fichiers utilisent l’extension&nbsp;<span class="inline-code">*.vue</span>.</info>
+<doclink href="https://vuejs.org/api/sfc-spec.html">SFC</doclink>
+
+<dots></dots>
+<grostitre>Importation</grostitre>
+<p>Les composantes SFC peuvent être importées dans un projet comme tout module JavaScript importé via <a target="_blank" rel="noopener noreferrer" href="../../npm/">NPM</a>.</p>
+
+
+
+<highlight lang="javascript">import Menu from &#039;./components/Menu.vue&#039;</highlight>
+
+<warning>La norme veut que les noms de modules commencent par une&nbsp;majuscule.</warning>
+
+
+
+<dots></dots>
+<grostitre>Style scoped</grostitre>
+<p>Dans le cadre d’un fichier SFC, la balise style peut se voir avoir l’attribut <span class="inline-code">scoped</span>. Cet attribut indique que les styles en question ne peuvent s’appliquer qu’aux éléments à l’intérieur de cette composante uniquement.</p>
+
+
+<p>Pour ce faire, une clé est attribuée aux éléments HTML sous forme d'un attribut <span class="inline-code">data-v-xxxxxxx</span>. Toutes les règles de styles associées à cette composante se basent alors sur cette clé, limitant ainsi leur portée à cette composante uniquement.</p><p>Par exemple:</p>
+
+
+<highlight lang="html">&lt;template&gt;
+  &lt;div class=&quot;menu&quot;&gt;...&lt;/div&gt;
+&lt;/template&gt;
+
+&lt;style scoped&gt;
+.menu {
+  background: blue;
+}
+&lt;/style&gt;</highlight>
+
+<br>
+
+<p>Sera converti en:</p>
+
+<highlight lang="html">&lt;template&gt;
+  &lt;div class=&quot;menu&quot; data-v-f3f3eg9&gt;...&lt;/div&gt;
+&lt;/template&gt;
+
+&lt;style&gt;
+.menu[data-v-f3f3eg9] {
+  background: blue;
+}
+&lt;/style&gt;</highlight>
+
+
+<br>
+
+<p>Une composante SFC peut aussi avoir plus d'une balise <span class="inline-code">&lt;style&gt;</span>. Notamment lorsque des styles devraient être globaux et que d'autres devraient être limités à la composante uniquement.</p><p>Par exemple:</p>
+
+<highlight lang="html">/* Styles appliqu&eacute;s &agrave; tout le site, donc sans l&#039;attribut scoped */
+&lt;style&gt;
+* {
+  box-sizing: border-box;
+}
+&lt;/style&gt;
+
+/* Styles appliqu&eacute;s &agrave; cette composante uniquement */
+&lt;style scoped&gt;
+.menu {
+  background: blue;
+}
+&lt;/style&gt;</highlight>
+
+<br>
+<doclink href="https://vuejs.org/api/sfc-css-features.html">Styles css scope</doclink>
+        
+
+
+<dots></dots>
+<grostitre>Compilateurs SFC</grostitre>
+
+        <a class="tool" target="_blank" href="https://vitejs.dev/">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">Vite</span>
+                    <span class="tool-description">Vite is a local development server written by Evan You, the creator of Vue.js, and used by default by Vue and for React project templates.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(./outils/vite/images/thumb.webp)"></div>
+            </div>
+        </a>
+        <a class="tool" target="_blank" href="https://cli.vuejs.org/">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">VueCLI</span>
+                    <span class="tool-description">Standard Tooling for Vue.js Development.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(./outils/vuecli/images/thumb.webp)"></div>
+            </div>
+        </a>
+        <a class="tool" target="_blank" href="https://webpack.js.org/">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">Webpack</span>
+                    <span class="tool-description">Webpack is a free and open-source module bundler for JavaScript.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(./outils/webpack/images/thumb.webp)"></div>
+            </div>
+        </a>
+
+
+    
+  
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

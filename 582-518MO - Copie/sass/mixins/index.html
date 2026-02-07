@@ -1,0 +1,191 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Mixins</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">Sass</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/sass/">Sass</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="../images/icon.webp">&nbsp;Mixins</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+<p>Les mixins permettent de créer des extraits de CSS pouvant être réutilisés à différents endroits grâce à <span class="inline-code">@include</span>.</p>
+
+<p>Par exemple, il est possible de se créer une mixin rendant une image responsive.</p>
+
+<highlight lang="scss">@mixin responsive-img {
+  display: block; 
+  width: 100%;
+  height: auto;
+}</highlight>
+
+<p>Plutôt que de répéter ces trois lignes de code CSS à chaque fois à chaque image doit être responsive, il serait possible d'appelez simplement cette mixin.</p>
+
+<p>Par exemple:</p>
+<highlight lang="scss">.article-img {
+  @include responsive-img;
+}</highlight>
+
+<doclink href="https://sass-lang.com/documentation/at-rules/mixin">mixin</doclink>
+
+
+
+
+
+
+<dots></dots>
+<grostitre>Arguments</grostitre>
+<p>Les mixins acceptent de recevoir des arguments. Ces derniers sont ensuite disponibles dans le corps de la mixin, rendant ainsi leur usage plus flexible.</p>
+<p>Par exemple, afin d'ajoutez un <span class="inline-code">max-width</span> variant selon différents scénarios, il n'est pas nécessaire de créer plusieurs mixins. L'ajout d'un argument permettra de réutiliser la même.</p>
+
+<highlight lang="scss">@mixin responsive-img($max) {
+  display: block; 
+  width: 100%;
+  height: auto;
+  max-width: $max; // 600px
+}
+
+.article-img {
+  @include responsive-img(600px);
+}</highlight>
+
+
+
+<warning>Si un argument sensé être fournis à un mixin est omis, une erreur se produira au moment de la compilation du code&nbsp;CSS.</warning>
+
+
+<h3 class="heading heading--h3" id="Valeur par défaut">Valeur par défaut</h3>
+
+<p>Afin d'éviter une erreur lorsqu'un argument est omis, il est possible de fournir une valeur par défaut. </p>
+
+<p>Par exemple:</p>
+
+<highlight lang="scss">@mixin responsive-img($max: 100%) {
+  display: block; 
+  width: 100%;
+  height: auto;
+  max-width: $max; // 100%
+}
+
+.article-img {
+  @include responsive-img;
+}</highlight>
+
+<h3 class="heading heading--h3" id="Spécifier l'argument">Spécifier l'argument</h3>
+
+<p>Les arguments sont généralement passés à une mixin selon l'ordre dans lequel ils ont été déclarés dans celle-ci. Cependant, il est possible de spécifier à quel argument une valeur est passée. Ceci permet, d'omettre certains arguments ou simplement de les écrire dans un ordre différent.</p><p>Par exemple:</p>
+
+<highlight lang="scss">@mixin responsive-img($display: block, $max: 100%) {
+  display: $display; 
+  width: 100%;
+  height: auto;
+  max-width: $max; // 300px
+}
+
+.article-img {
+  @include responsive-img($max: 300px);
+}</highlight>
+
+
+
+
+<p>Ainsi, le fait de nommé <span class="inline-code">$max</span> dans l'appel de la mixin permet de spécifier que la valeur 300px n'est pas pour <span class="inline-code">$display</span>, mais bien <span class="inline-code">$max</span>, même si ce dernier est le 2<sup>e</sup> argument.</p>
+
+<doclink href="https://sass-lang.com/documentation/at-rules/mixin#arguments">Arguments</doclink>
+
+
+<dots></dots>
+<grostitre>Quelques mixins à découvrir</grostitre>
+<ul>
+  <li><a href="https://dev.to/alemesa/10-awesome-sass-scss-mixins-5ci2" target="_blank" rel="noopener noreferrer">10 Awesome SASS (SCSS) Mixins</a></li>
+  <li><a href="https://www.developerdrive.com/10-best-sass-mixins-for-web-developers/" target="_blank" rel="noopener noreferrer">10 BEST SASS MIXINS FOR WEB DEVELOPERS</a></li>
+  <li><a href="https://www.barrage.net/blog/technology/top-8-sass-mixins" target="_blank" rel="noopener noreferrer">Top 8 SASS mixins to speed up your frontend development process</a></li>
+
+ 
+</ul>
+<dots></dots>
+
+<h3>Exercice en classe</h3>
+
+<checklist>15 min: Recherchez des <em>mixins</em> pertinents, autres que ceux nommés ci-haut, qui pourraient accélérer votre processus de production CSS.  À vous la recherche! Notez ce que vous trouvez pertinent. Ce n'est pas le nombre qui compte c'est la valeur du petit bijou que vous trouvez.
+15 min: Tour de table : partage tes trouvailles avec le reste de la classe.
+</checklist>
+
+
+
+
+<dots></dots>
+<h3>Exercice de <em>mixin</em> pour générer la "grille Bootstrap"</h3>
+        <a class="exercice" target="_blank" href="../../exercices/sass-mixin-grille-bootstrap/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(../../exercices/sass-mixin-grille-bootstrap/images/thumb-mixin.jpg)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">@mixin - Grille Bootstrap</span>
+                    <span class="exercice-description">Comment Bootstrap utilise les mixin de CSS pour générer leur système de grille</span>
+                </div>
+            </div>
+        </a>
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

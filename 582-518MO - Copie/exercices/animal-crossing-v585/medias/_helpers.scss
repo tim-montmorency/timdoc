@@ -1,0 +1,9 @@
+$primary: #7D80DA;
+
+$villagersArr: 'rowan','aurora','bettina','leonardo','marina','blaire','sprocket','hornsby','mira','claude','cube','sylvana';
+
+@mixin card {
+  background-color: $primary;
+  border-radius: 10px;
+  transition: transform 0.5s cubic-bezier(.14,1.41,.78,1.17);
+}

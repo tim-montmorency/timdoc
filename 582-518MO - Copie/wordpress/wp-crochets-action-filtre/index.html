@@ -1,0 +1,108 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Crochets WP: action et filtre</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">WordPress</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/wordpress/">WordPress</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="../medias/icon.webp">&nbsp;Crochets WP: action et filtre</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p>Les crochets (<em>hooks</em>) vous permettent d’interagir et de modifier le code à des endroits spécifiques sans modifier le cœur du CMS WordPress.</p>
+
+<p>Ils vous permettent d'ajouter des fonctions personnalisées à des endroits spécifiques ou pendant des événements opportuns dans le chargement du site ou dans le processus de navigation d'un utilisateur du site.</p>
+
+<dots></dots>
+<grostitre>Catégories de hooks</grostitre>
+
+<p>Les crochets (<em>hooks</em>) sont divisés en deux catégories :</p>
+<ul>
+    <li><strong>Action</strong> – permet aux utilisateurs d’ajouter des données ou de modifier le fonctionnement de leur site web. Un hook d’action s’exécutera à un moment précis lorsque le noyau de WordPress, les extensions (<em>plugins</em>) et les thèmes sont en cours d’exécution.</li>
+    <li><strong>Filtre</strong> – peut modifier des données pendant l’exécution du noyau, des extensions (<em>plugins</em>) et des thèmes de WordPress.</li>
+</ul>
+
+
+<dots></dots>
+<grostitre>Utilisation</grostitre>
+<p>Pour utiliser l’un de ces cochets (<em>hooks</em>), l’utilisateur doit écrire une fonction personnalisée appelée <em>Callback</em> et l’enregistrer avec un crochet (<em>hook</em>) WordPress pour une action ou un filtre spécifique. Exemple:</p>
+
+
+<highlight lang="php">function lancerAlerte() {
+
+  echo &quot;&lt;script type=&#039;text/javascript&#039;&gt;
+  alert(&#039;Wow! Voici une alerte JS lanc&eacute;e &agrave; l initialisation de WordPress via un crochet de type action!&#039;);&lt;/script&gt;&quot;;
+
+}
+
+add_action(&#039;init&#039;, &#039;lancerAlerte&#039;);</highlight>
+
+
+
+<dots></dots>
+<grostitre>En savoir plus</grostitre>
+<p>Veuillez lire <!--<a href="https://www.hostinger.fr/tutoriels/hooks-wordpress" target="_blank">cet article</a> et--> <a href="https://kinsta.com/fr/blog/hooks-wordpress/" target="_blank">cet article</a> pour mieux comprendre les crochets WordPress.</p>
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

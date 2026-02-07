@@ -1,0 +1,134 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Migration complète d'une installation WP</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">WordPress</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/wordpress/">WordPress</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="../medias/icon.webp">&nbsp;Migration complète d'une installation WP</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+<warning>Cette procédure vous servira individuellement dans les cas où vous souhaitez transférer votre exercice débuté en classe à la maison et vice-versa.  Ne pas utiliser cette procédure pour travailler en équipe excepté si c'est la première migration vers un ordinateur qui ne contient aucune version actuelle projet.</warning>
+
+<grostitre>Depuis l'ordinateur initial</grostitre>
+<ol>
+  <li>Depuis l'ordinateur initial : Sauvegardez <em>le dossier contenant les fichiers de votre installation WordPress</em> sur votre outil de sauvegarde habituel (cloud, clé USB, disque dur externe). Le contenu du dossier en question devrait ressembler à ceci : <img src="images/installation-wp.jpg" alt="liste de fichiers de base d'une installation WordPress" style="width: 200px;"></li>
+  <li>Depuis l'ordinateur initial : Exportez votre base de données via phpMyAdmin. Vous pouvez enregistrer le fichier d'export .sql à côté de votre dossier de projet que vous avez précédemment enregistré. <img src="images/export-phpmyadmin.webp" alt="export bd"></li>
+</ol>
+
+<dots></dots>
+<grostitre>Depuis l'ordinateur vers lequel vous migrez WP</grostitre>
+<ol start="3">
+  <li>Sur le nouvel ordinateur : Installez MAMP (si ce n'est pas déjà fait).</li>
+  <li>Dans htdocs, dupliquez <em>le dossier contenant les fichiers de votre installation WordPress</em>.</li>
+  <li>Depuis votre dossier de projet, supprimez votre fichier <em>wp-config.php</em>.</li>
+  <li>Sur le nouvel ordinateur : Allez dans phpMyAdmin et créez une nouvelle base de données toute fraîche, idéalement avec le même nom que votre base de données initiale.</li>
+  <li>Toujours dans phpMyAdmin, positionné sur votre nouvelle base de données fraîchement créée, importez votre fichier d'export (le fichier .sql).</li>
+  <li>Rendez-vous sur localhost/LeCheminDAccesPourSeRendreAuDossierDeProjet</li>
+  <li>Suivez les instructions (nom de BD, root, root, localhost, wp-).</li>
+</ol>
+
+<alert>Si l'avant-dernière étape retourne une erreur, c'est que votre configuration MAMP n'est pas identique à celle de l'école. Donc, l'URL est différent. Ainsi, au lieu de <span class='inline-code'>localhost:81/abc</span>, il est souvent possible que votre URL n'affiche que <span class='inline-code'>localhost/abc</span>. Pour remédier à ce problème, vous devez ouvrir phpMyAdmin, accéder à la table <em>wp-options</em> et éditer <em>siteurl</em> avec l'URL de votre installation actuelle. Vous devez aussi faire la même chose pour <em>home</em> (dans la même table).</alert>
+
+<warning>Si le problème persiste, il est possible que votre navigateur vous redirige toujours vers <span class='inline-code'>localhost:81/abc</span> même si vous tapez <span class='inline-code'>localhost/abc</span>. Si tel est le cas, vous devez vider le cache de votre navigateur. Pour développer votre débrouillardise, je vous laisse trouver comment le faire, vous avez les outils pour y parvenir.</warning>
+
+<dots></dots>
+<grostitre>White Page of Death</grostitre>
+<p>Si vous avez fait tout ce qui a été suggéré ci-haut et que lorsque vous accédez à votre site sur localhost, on vous retourne toujours une page blanche, allez à la racine de votre site, renommez le ficheir <em>wp-config.php</em> vers ce nouveau nom <em>wp-config-old.php</em>. Ceci forcera Wordpress à l'ignorer.</p>  
+
+<p>Retournez maitnenant dans localhost/nom-de-votre-site dans votre navigateur web. Vous devriez maintenant avoir une page d'initiation à l'installation Wordpress suivi d'un bouton <em>C'est parti !</em>, cliquez dessus.</p>
+
+<p>Dans le nouvel écran:</p>
+
+
+<ol start="3">
+    <li>
+        <p>Remplissez les informations de connexion à votre base de données.</p>
+
+        <ul>
+            <li><span class="inline-code">Nom la base de donn&eacute;es</span>&nbsp;correspond à celui que vous avez donné lorsque&nbsp;<a rel="noopener noreferrer" href="#base-de-donnees">vous avez créé votre base de données</a>&nbsp;dans&nbsp;phpMyAdmin.</li>
+            
+            <li><span class="inline-code">Identifiant</span>, à moins que vous l'ayez changé, l'identifiant local par défaut est&nbsp;<em>root</em>.</li>
+            
+            <li><span class="inline-code">Mot de passe</span>, à moins que vous l'ayez changé, le mot de passe local par défaut est&nbsp;<em>root</em>.</li>
+            
+            <li><span class="inline-code">Adresse de la base de donn&eacute;es</span>&nbsp;laissez&nbsp;<em>localhost</em>.</li>
+            
+            <li><span class="inline-code">Pr&eacute;fixe de tables</span>&nbsp;laissez&nbsp;<em>wp_</em>.</li>
+        </ul>
+
+        <p>Et appuyer sur&nbsp;<em>Envoyer</em></p>
+
+  </li>
+</ol>
+
+<img src="../installation-en-local/images/wp-db-connexion.jpg" alt="">
+
+<p>Suite à quoi, vous devriez voir un message qui ressemble à "Wordpress est déjà installé, voulez vous vous connecter?"</p>
+
+<p>Ensuite connectez-vous <em>et voilà !</em></p>
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

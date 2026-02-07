@@ -1,0 +1,159 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>MAMP</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">WordPress</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/outils/">Outils</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="images/icon.webp">&nbsp;MAMP</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+<p>MAMP est un environnement de serveur local gratuit fournissant le nécessaire afin d'exécuter WordPress à des fins de développement. Son acronyme provient des mots:<br>
+
+<em>Macintosh, Apache,  MySQL et [PHP, Pearl ou Python]</em></p>
+
+<p>Bien que ce logiciel est initialement été conçu pour macOS, il est maintenant disponible en version Windows depuis plusieurs années.</p>
+
+<p>MAMP n'est pas intimement lié à Wordpress, le CMS que nous allons explorer aujourd'hui. MAMP correspond à un ensemble d'outils qui contient notamment un serveur virtuel, afin de nous permettre d'exécuter du code serveur tel que du PHP et de faire des requêtes à une base de données. Il vous permet donc d'avoir un environnement serveur simulé localement, sur vos postes de travail.</p>
+
+<dots></dots>
+<grostitre>Téléchargement</grostitre>
+<p><a href="https://www.mamp.info/en/mamp/" target="_blank">https://www.mamp.info/en/mamp/</a></p>
+<p>Le site de MAMP devrait reconnaitre automatiquement votre système d'exploitation et vous rediriger vers la page relative à votre OS. En cas contraire, sélectionnez votre système d'exploitation dans la liste déroulante de <em>Free Download</em> en cliquant sur la petite flèche à droite du bouton. Lorsque votre système d'exploitaion est bien sélectionné, cliquez sur le bouton <em>Free Download</em>.</p>
+
+<alert>Il est possible qu'une affiche popup "NANO DNS App", si tel est le cas, vous devez simplement ignorer ce popup, ce n'est pas ce qu'on veux installer aujourd'hui. </alert>
+
+<p>Une seconde plus tard, une fenêtre de votre système d'expoitation devrait apparaitre afin de sélectionner l'endroit où sauvegarder l'installeur MAMP.</p>
+
+
+<dots></dots>
+<grostitre>Démarrage</grostitre>
+<p>Pour commencer, ouvrir le logiciel nommé MAMP (et non la version MAMP PRO même si les deux sont installés).</p>
+<p>Pour démarrer le système, il suffit de cliquer sur le bouton <em>"Start"</em>. Les indicateurs <em>“Apache Server”</em> et <em>“MySQL Server”</em> devraient tourner au vert 🟢 afin d’indiquer que les serveurs locaux sont actifs. La page d’accueil de MAMP devrait aussi s’ouvrir dans votre navigateur.&nbsp;</p>
+
+<img src="images/mamp-start.jpg" alt="Start en haut à droite">
+
+
+
+
+
+<dots></dots>
+<grostitre>Création d'un projet</grostitre>
+<p>Les projets utilisant MAMP doivent se trouver à l'intérieur du dossier <em>"htdocs"</em> 📁 de MAMP afin de bénéficier des serveurs de MAMP. Sous Windows, ce dossier ce trouve généralement à cet emplacement <em>“C:\MAMP\htdocs”</em> et sous Mac dans <em>“/Applications/MAMP/htdocs”</em>. Je vous conseille de créer un raccourci vers <em>"htdocs"</em> dans votre navigateur de fichiers.</p>
+
+<clipasset src="images/htdocs-raccourci.mp4"></clipasset>
+
+
+
+
+
+
+<dots></dots>
+<grostitre>Trouver ses projets</grostitre>
+<p>Pour trouver ses projets, il suffit d'aller sur la page d’accueil de MAMP. Si cette dernière ne s’ouvre pas automatiquement au démarrage de MAMP ou si vous l’avez fermé par erreur, vous pouvez l’ouvrir manuellement via le bouton <em>“Open WebStart page”</em> de l’interface MAMP.</p>
+
+
+<p>À partir de cette page, repérer l’option <em>“My Website”</em> du menu principal. Ce lien vous mènera vers la liste des projets MAMP sur votre poste.</p>
+
+<h3 class="heading heading--h3" id="L'onglet My Website est non disponible">L'onglet My Website est non disponible</h3>
+<p>Si l'option <em>"My Website"</em> n'est pas disponible dans votre version de MAMP, vous pouvez toujours accéder manuellement à l'URL d'un projet. Pour ce faire, il faut connaitre le nom du dossier du projet en question 📁 et allez voir dans les préférences de MAMP le port utilisé <em>(généralement 80 ou 8888)</em>. Tapez ensuite dans la barre d'URL de votre navigateur une adresse au format suivant:</p>
+
+<highlight lang="html">http://localhost:[num&eacute;ro du port]/[nom du dossier du projet]</highlight>
+
+
+
+<p>Par exemple, pour un projet contenu dans un dossier nommé <em>"demo" </em>et utilisant le port 80:</p>
+
+
+<highlight lang="html">http://localhost:80/demo</highlight>
+
+
+<img src="images/chemin-vers-mamp-site.jpg" alt="">
+
+
+
+<dots></dots>
+<grostitre>MySQL refuse de s'allumer</grostitre>
+<p>Ce problème provient d'une configuration propre au collège<em> (vous ne devriez pas rencontrer ce problème chez vous)</em>. Pour le contourner, il faut supprimer le fichier <span class="inline-code">mysql-bin.index</span> dans le dossier <span class="inline-code">MAMP &gt; db &gt; mysql</span>.</p>
+<br>
+
+<img src="images/mamp-mysql.png" alt="">
+
+
+
+
+<dots></dots>
+<grostitre>Alternatives</grostitre>
+
+
+  <ul>
+      <li><a target="_blank" rel="noopener noreferrer" href="https://www.wampserver.com/">WampServer</a></li>
+      <li><a target="_blank" rel="noopener noreferrer" href="https://www.apachefriends.org/fr/index.html">XAMPP</a></li>
+      <li><a target="_blank" rel="noopener noreferrer" href="https://laragon.org/">Laragon</a></li>
+      <li>Etc.</li>
+  </ul>
+
+ 
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

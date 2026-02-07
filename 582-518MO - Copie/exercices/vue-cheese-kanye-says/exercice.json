@@ -1,0 +1,6 @@
+{
+    "type": "exercice",
+    "title": "Vue - Cheese Kanye says",
+    "icon": "images\/thumb.webp",
+    "abstract": "Vous devrez mettre \u00e0 jour la citation de Kanye West via vue.js et un API"
+}

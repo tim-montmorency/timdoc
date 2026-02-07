@@ -1,0 +1,125 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Classe: Space Invaders</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Classe: Space Invaders</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+
+
+
+<p>Pour cet exercice nous allons créer un générateur d’extra-terrestres inspiré d’un des jeux les plus célèbres et influents de l’histoire, l’archétype du <em>shoot them up</em>: <a href="https://www.youtube.com/watch?v=Jbn8IRmSq8M">Space&nbsp;Invaders 👾</a>.</p>
+
+thumb
+<grostitre>Aperçu du résultat 👇</grostitre>
+<clipasset src='images/apercu.mp4'></clipasset>
+
+
+
+
+<dots></dots>
+<grostitre>Matériel</grostitre>
+<doclink href="https://codepen.io/tim-momo/pen/qBewaLE">Pen de départ</doclink>
+
+
+<dots></dots>
+<p>Le but de cet exercice est de créer des&nbsp;<em>invaders</em>&nbsp;qui partageront les mêmes caractéristiques de base, mais qui auront de légères variations&nbsp;<em>(forme et couleur)</em>&nbsp;en fonction de l'objet JavaScript qui leur sera&nbsp;passé.</p>
+
+<warning>Vous n’avez qu’à écrire du JavaScript <em>(nul besoin de modifier le HTML ou le&nbsp;CSS)</em>.</warning>
+
+
+<dots></dots>
+<grostitre>Requis</grostitre>
+<checklist>Créez-vous une nouvelle classe JavaScript intitulée&nbsp;<em>Invader</em>.
+Écoutez le clic sur les boutons. Au clic, créez une nouvelle instance de la classe&nbsp;<em>Invader</em>&nbsp;et passez au constructeur l'objet correspondant dans le array&nbsp;<span class="inline-code">invadersList</span>. Par exemple, le premier bouton devrait passer le premier objet, le deuxième bouton, le deuxième objet et ainsi de&nbsp;suite.
+Dans votre constructeur, sauvegardez dans une propriété l'objet reçu en paramètre afin de pouvoir y accéder plus&nbsp;tard.
+Pigez une couleur parmi les couleurs fournies dans l'objet et sauvegardez-la.
+Créez un div et attribuez-lui les classes&nbsp;<span class="inline-code">.invader</span>&nbsp;pour lui attribuer les styles communs à tous les invaders, ainsi que la classe&nbsp;<span class="inline-code">.invader-X</span>&nbsp;où&nbsp;<span class="inline-code">X</span>&nbsp;correspond au type dans l'objet&nbsp;reçu.
+Ajoutez la couleur sauvegardée comme couleur de fond du div, ainsi l'espace transparent dans l'image prendra la couleur en&nbsp;question.
+Faites en sorte d'ajouter la classe&nbsp;<span class="inline-code">.exploded</span>&nbsp;aux invaders lorsqu'ils se font cliquer dessus. Ceci déclenchera une animation d'explosion déjà réalisée pour vous en&nbsp;CSS.
+</checklist>
+
+
+<dots></dots>
+<grostitre>Notes de cours 📚</grostitre>
+
+
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../javascript/classe/images/classe-js3.png);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../javascript/classe/">Classes JavaScript</a></span>
+                <span class="intlink__item__abstract">Les classes JS sont des modèles pour des objets JS</span>
+            </div>
+        </div>
+<doclink href='https://smnarnold.com/cours/javascript/queryselector'>querySelector()</doclink> <br>
+<doclink href='https://smnarnold.com/cours/javascript/addeventlistener'>addEventListener()</doclink>  <br>
+<doclink href='https://smnarnold.com/cours/javascript/classlist'>ClassList</doclink> <br>
+<doclink href='https://smnarnold.com/cours/javascript/objet-math'>Objet Math</doclink> <br>
+<doclink href='https://smnarnold.com/cours/javascript/manipulation-des-contenus'>Manipulation de contenu du DOM en JS</doclink> <br>
+
+
+
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

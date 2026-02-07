@@ -1,0 +1,207 @@
+<?php 
+/**
+ * @type     article
+ * @title    Requis client
+ * @icon     images/icon.svg
+ * @abstract Liste de requis souhaités
+ * @index 88
+ */
+?>
+<!--
+<alert>ATTENTION, cette liste de requis est encore sujette à de <em>très légers</em> changements d'ici le cours 5. Si je change quelque chose à partir de la date d'ajoujourd'hui, je vais l'identifier <s>en rayant ce que j'enlève</s> et <span style="color: green">en affichant en vert ce que j'ajoute</span>.</alert>
+
+
+<p>Le client a émis une liste de requis qu’il souhaite avoir sur son site. Ses demandes ont étés évaluées par votre équipe à un total de 100 points. Afin que le client accepte le produit qui lui sera livré, vous devrez couvrir un minimum de ses&nbsp;demandes.</p>
+
+<p>Ainsi, les 40 premiers points que vous réaliserez vous permettront de maintenir votre relation d’affaires avec le client. Tout point subséquent vous permettra de mettre la main sur 1% de votre session, jusqu’à concurrence de 40%, soit le total alloué à la réalisation du projet de&nbsp;session.</p>
+
+<p>Par principe d’équité, ce calcul est légèrement différent pour les équipes de quatre. 45 points de base devront être fait. Les 45 points suivants seront ensuite ramenés sur 40 via une règle de trois afin de déterminer la note allouée sur&nbsp;40%.</p>
+
+<dots></dots>
+<grostitre>Math rapides</grostitre>
+
+<p><em>Donc pour obtenir 100% mon équipe n'a pas besoin de réaliser 90 points, mais seulement 80?</em>
+<br>Exact, seulement 80 si vous êtes 3 <br>mais 90 si vous êtes 4.</p>
+
+<p><em>Que se passe-t-il si nous dépassons 80 points?</em>
+<br>Ces points sont soustraits de votre total… je plaisante 🤡. 
+<br>Votre client est heureux, vous apprenez plus et vous avez un projet plus intéressant à inclure dans votre portfolio!</p>
+
+<p><em>De combien de points mon équipe à t-elle besoin pour obtenir 60%?</em><br>64 points si vous êtes 3. (80-40)*60%+40<br>72 points si vous êtes 4. (90-45)*60%+45</p>
+-->
+
+<alert>Attention, le pointage que vous voyez <em>en jaune</em> sur chaque requis ci-bas va être révisé. Ne pas en tenir compte.</alert>
+
+<alert>Voici la nouvelles liste des pages à monter suite au retrait de quelques éléments le 7 octobre :
+    <ol>
+        <li>Accueil : index.html</li>
+        <li>Liste des nouvelles : news-hub.html</li>
+        <li>Article d'une nouvelle : news-article.html</li>
+        <li>Liste des services : services-hub.html</li>
+        <li>Page d'un seul des services : service.html</li>
+        <li>Page de l'équipe : team.html</li>
+        <li>À propos de nous : about.html</li>
+        <li>Nous joindre: contact-us.html</li>
+        <li>Page erreur 404: 404.html</li>
+    </ol>
+</alert>
+
+<dots></dots>
+<grostitre>Généraux</grostitre>
+ 
+<checklist>
+Bannière en haut de chaque page du site annonçant que c'est un travail scolaire. Cette bannière devra aussi inclure un bouton menant au vrai site web. Cette bannière devra contenir un X pour fermer celle-ci. Si le X est cliqué, cette action devra être stockée en local storage. Au prochain chargement de n'importe quelle page du site, vérifiez le storage afin d'éviter d'afficher cette bannière si elle a déjà été fermée par l'utilisateur. <em>[3pts]</em>
+Commenter tout votre code (HTML, CSS, et JS). <em>[10pts]</em>
+Toutes les pages du site doivent-être responsive: <em>375px</em>, <em>768px et 1400px</em>. <em>[10pts]</em>
+Les pages du site doivent s'afficher correctement sur les navigateurs: Chrome, Firefox et Edge. <em>[4pts]</em>
+Site bilingue sur toutes les pages. Si un contenu n'est pas disponible en anglais sur le site, traduisez-le via <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="https://translate.google.com/?sl=fr&amp;tl=en&amp;op=translate">Google traduction</a> ou <a href="https://www.deepl.com/translator" target="_blank" onclick="event.stopPropagation()">DeepL Translator</a>. <em>[4pts]</em>
+Permettre de populer les <incode>og:title</incode>, <incode>og:description</incode> et <incode>og:image</incode> de chaque page. <em>[2pts]</em>
+Création d’un fichier <em>variables.scss</em> contenant minimalement 5 variables. Chaque variable doit être utilisée au moins 2 fois.<em>[1pts]</em>
+Chaque composante doit avoir son propre fichier SCSS. <br>Minimum de 10 composantes (<a href="../images/composantes-site-web.png" target="_blank" rel="noopener noreferrer">voir des exemples de composantes ici</a>). <em>[2pts]</em>
+Création d'un composante héros générique contenant au minimum une image et un titre. <em>[0,5pts]</em>
+Création d'une composante qui affiche le contenu du champ description d'une page (contenu textuel principalement). <em>[0,5pts] </em>
+</checklist>
+
+<dots></dots>
+<grostitre>Entête</grostitre>
+<checklist>
+  Le logo du client doit être cliquable et pointer vers l'accueil. <em>[1pts]</em>
+  Navigation vers les 6 pages (nouvelles, services, équipe, à propos, faq, nous joindre). Ordonnez les comme vous le souhaitez et nommez les comme vous le souhaitez, il faut que ce soit pertinent au contenu de votre site. <em>[1pts]</em>
+  Possibilité de modifier la navigation à partir de WordPress. <em>[3pts]</em>
+  Effet de survol pour chacun des liens dans la navigation. <em>[1pts]</em>
+  Inclure un bouton d'appel-à-l'action (CTA) de dons qui se démarque des liens de la navigation et menant vers une page externe de dons. <em>[1pts]</em>
+  Tous les liens de la navigation doivent être masqués dans un menu de type hamburger 🍔 par défaut et devenir visibles en tout temps à partir de la résolution tablette ou ordinateur classique <em>(à votre discrétion)</em>.<em> [3pts]</em>
+  Avoir un bouton de changement de langue fonctionnel. <em>[1pts]</em>
+  Animer le menu hamburger au survol avec GSAP. <em>[1pts]</em>   
+</checklist> 
+  
+  
+<dots></dots>
+<grostitre>Pied de page</grostitre>
+<checklist>
+Le logo du client doit être cliquable et pointer vers l'accueil. <em>[1pts]</em>
+Logo des partenaires. <em>[1pts]</em> 
+Pouvoir contrôler les logos des partenaires via WordPress et permettre l'ajout de lien sur chacun d'eux. <em>[2pts]</em>
+Bouton de dons menant sur la page externe de dons. <em>[1pts]</em>
+Inclure les liens vers les pages de réseaux sociaux du client. <em>[1pts]</em>
+Informations de contact du client <em>[1pts]</em>:<br>- Téléphone<br>- Courriel<br>- Adresse physique<br>- etc.
+Lorsque cliquée, l'adresse physique du client doit ouvrir Google Map et afficher le bon endroit. <em>[1pts]</em>
+Affichez un symbole de droits d'auteur suivi de l’année <em>(ex: ©2024)</em>, du nom du client et de votre équipe. <em>[1pts]</em>
+</checklist> 
+
+
+
+<dots></dots>
+<grostitre>Accueil</grostitre>
+<checklist>
+Création d'un héros contenant un carrousel. Présenter l'information principale en première diapositive, celle qui présente l'organisme, ses objectifs, ses luttes de façon imagée et quelques mots. Ne pas y déposer les dernières nouvelles qui font office d'information secondaire et donc destinées à être présentées dans une section plus bas. <em>[2pts]</em>
+Section affichant un aperçu des services offerts se populant à partir du <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="../arborescence/#liste-des-services-offerts" onclick="event.stopPropagation()">contenu de ces pages</a>. <em>[2pts]</em>
+Section affichant les 3 plus récentes nouvelles se populant à partir du <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="../arborescence/#liste-des-nouvelles-actualite" onclick="event.stopPropagation()">contenu de ces pages</a>. <em>[2pts]</em>
+Section affichant au moins 3 témoignages. <em>[1pts]</em>
+Animation GSAP 1 (faire un seul choix parmi les 3) - Section de dons contenant une animation GSAP élaborée utilisant une timeline. 
+Animation GSAP 2 (faire seul un choix parmi les 3) - Ajout d'un minimum de 1 effet parallax au défilement de la page (GSAP et ScrollTrigger). Cet effet peut-être réutilisé sur plusieurs sections et dans différentes pages pour uniformiser l'aspect du site. Mais il doit être minimalement visible sur l'accueil du site. <em>[2pts]</em>
+</checklist>
+
+
+<dots></dots>
+<grostitre><s>Donner ($) ou devenir membre</s></grostitre>
+<checklist>
+<s>Texte explicatif des apports et bénéfices de donner (ou devenir membre). Voir arborescence pour le contenu.</s>
+<s>Formulaire web à remplir pour faire un don.</s>
+<s>Bouton soumettre.</s>
+</checklist>
+
+<dots></dots>
+<grostitre>Liste des nouvelles / actualité</grostitre>
+<checklist>
+Utilisez la composante de héros générique. <em>[0,5pts] </em>
+Affichez 4 cartes d'aperçu des nouvelles les plus récentes à l'aide d'un fetch au REST API de WordPress. Ces cartes doivent-êtres cliquables et pointer vers la page de nouvelle en question. <em>[3pts]</em>
+Ajoutez un effet de survol aux cartes. <em>[1pts]</em>
+Permettre de choisir l'ordre d'affichage des nouvelles <em>(des + récentes aux + anciennes et vice-versa) </em>via un menu déroulant. <em>[2pts]</em>
+Bouton <em>"Voir plus de nouvelles"</em> permettant d'aller chercher les 6 nouvelles suivantes. Ce bouton doit disparaitre lorsqu'il ne reste plus de nouvelle à aller chercher. <em>[2pts]</em>
+La 1<sup>re</sup> nouvelle doit avoir une apparence différente des autres nouvelles afin de la faire ressortir du lot. <em>[1pts]</em>
+</checklist>
+
+
+
+<dots></dots>
+<grostitre>Page d'une nouvelle</grostitre>
+<checklist>
+Créez un héros de nouvelle contenant un titre, une image, une date et une catégorie. Chaque héros de nouvelle doit changer légèrement d'apparence en fonction de sa catégorie.<br><br>Par exemple, avoir un élément changeant de couleur, une icône différente, etc. <em>[2pts]</em>
+Importez le contenu de 13 pages de nouvelles minimum. <em>[2pts]</em>
+Affichez la composante de description de base. <em>[0,5pts]</em>
+Incorporez au moins 6 <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="https://tim-montmorency.com/timdoc/582-111MO/html/microdonnees/">microdonnées</a> de nouvelle. <em>[1pts]</em>
+Bloc en fin de page permettant de voir un aperçu de la prochaine nouvelle. <em>[1pts]</em>
+</checklist>
+
+<dots></dots>
+<grostitre>Liste des services offerts</grostitre>
+<checklist>
+Utilisez la composante de héros générique. <em>[0,5pts]</em>
+Affichez la composante de description de base. <em>[0,5pts]</em>
+Affichez des cartes d'aperçu des différents services offerts. Ces cartes doivent-êtres cliquables et mener vers la page de service en question. <em>[2pts]</em>
+</checklist>
+
+<dots></dots>
+<grostitre>Page d'un service</grostitre>
+
+<checklist>
+Utilisez la composante de héros générique. <em>[0,5pts]</em>
+Affichez la composante de description de base. <em>[0,5pts]</em>
+Bloc cliquable en fin de page permettant de voir un aperçu du prochain service. <em>[1pts]</em>
+</checklist>
+
+
+
+<dots></dots>
+<grostitre>Équipe</grostitre>
+<p>Pour cette étape, limitez vous à la création de 6 membres de l'équipe.</p>
+<checklist>
+Utilisez la composante de héros générique. <em>[0,5pts]</em>
+Affichez la composante de description de base. <em>[0,5pts]</em>
+Chaque membre d'équipe doit avoir un post séparé dans WordPress <em>[1pts]</em>
+Affichez tous les membres d'équipe: <em>[1pts]</em><br>- Nom<br>- Poste<br>- Portrait photo (si absent, utilisez une photo de <a href="https://thispersondoesnotexist.com/" target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" >ThisPersonDoesNotExist.com</a>)
+Chaque membre d'équipe doit-être cliquable afin d'ouvrir un modal contenant plus d'information sur cette personne. Par exemple, une biographie. Si aucune information supplémentaire n'est disponible, affichez un paragraphe de <a target="_blank" onclick="event.stopPropagation()" rel="noopener noreferrer" href="https://www.lipsum.com/feed/html">Lorem Ipsum</a>. <em>[2pts]</em>
+</checklist>
+
+
+<dots></dots>
+<grostitre>À propos</grostitre>
+<checklist>
+Utilisez la composante de héros générique. <em>[0,5pts]</em>
+Affichez la composante de description de base. <em>[0,5pts]</em>
+</checklist>
+
+<h3><s>Histoire</s></h3>
+<p><s>Ce n'est pas une page, mais une section de la page à propos</s>.</p>
+<checklist>
+<s>Affichez la composante de description de base.</s> <em>[0,5pts]</em>
+<s>Créez une ligne du temps verticale et affichez les grands événements de leur histoire</s>. <em>[1pts]</em>
+<s>La ligne du temps verticale doit se dessiner graduellement en même temps que le défilement de la page. Les grands événements doivent appraitre à mesure qu'on arrive à son point dans le dessin de la ligne du temps. Utilisez GSAP et les extensions nécessaires réaliser cette animation. Ne pas utiliser drawSVG car il est payant.</s> <em>[3pts]</em>
+</checklist>
+
+<dots></dots>
+<grostitre>Nous joindre</grostitre>
+<checklist>
+Addresse physique
+Courriel
+Formulaire de contact Nom, Courriel, Message, Bouton Envoyer (submit)
+</checklist>
+
+
+
+<dots></dots>
+<grostitre><s>FAQ</s></grostitre>
+<checklist>
+<s>Création et utilisation d'une composante de question/réponse en accordéon (s'ouvre et ferme). Minimum 4 question-réponse.</s> <em>[2pts]</em>
+</checklist>
+
+
+<dots></dots>
+<grostitre>Erreur 404</grostitre>
+<checklist>Affichez le texte <em>“Erreur 404”. [0,5pts]</em>
+La page 404 doit présenter un clin d'oeil drôle/sympatique en lien avec le sujet du site.
+Animation GSAP 3 (faire un seul choix parmi les 3) - Incorporez une animation GSAP élaborée utilisant la timeline soulignant que la page n'a pas été trouvée.  <em>[1pts]</em></checklist>
+        
+
+  

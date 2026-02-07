@@ -1,0 +1,7 @@
+{
+    "type": "tool",
+    "title": "CSS to SCSS",
+    "icon": "images\/thumb.webp",
+    "url": "https:\/\/codebeautify.org\/css-to-scss-converter",
+    "abstract": "Permet de convertir la structure d\u2019un code CSS en imbrication SCSS."
+}

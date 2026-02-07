@@ -1,0 +1,375 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Imbrication</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">Sass</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/sass/">Sass</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="../images/icon.webp">&nbsp;Imbrication</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p>Par défaut le langage CSS ne permet pas de faire d'imbrications, communément appelé <em>"nesting"</em> en anglais. Il
+    est donc parfois nécessaire de répéter un sélecteur plusieurs fois dans son code CSS.</p>
+<p>Heureusement, Sass apporte cette fonctionnalité à CSS, ce qui permet d'accélérer l'écriture de feuilles de styles et
+    de simplifier leur lecture.</p>
+
+
+
+<dots></dots>
+<grostitre>Imbrications de base</grostitre>
+
+
+<p>Afin d'éviter de répéter le sélecteur <span class="inline-code">.list</span> à plusieurs reprises, il est possible d'écrire en SCSS:</p>
+
+<highlight lang="scss">.list {
+  position: relative;
+  
+  .item { display: inline-block; }
+  
+  .link { color: blue; }
+}</highlight>
+
+<p>Ce qui générera le code CSS suivant ⏬</p>
+
+<highlight lang="css">.list { position: relative; }
+
+.list .item { display: inline-block; } 
+
+.list .link { color: blue; }</highlight>
+
+
+<h3 class="heading heading--h3" id="Niveaux d'imbrications">Niveaux d'imbrications</h3>
+
+<p>Vous pouvez imbriquer des éléments ainsi à l'infini. Dans l'exemple précédent, nous avions un seul niveau d'imbrication.</p>
+
+
+
+<p>Voici maintenant un exemple contenant deux niveaux d'imbrications:</p>
+<highlight lang="scss">.list {
+  position: relative;
+  
+  .item { 
+    display: inline-block; 
+    
+    .link { color: blue; }
+  }
+}</highlight>
+<p>Ce qui générera le code CSS suivant ⏬</p>
+<highlight lang="css">.list { position: relative; }
+
+.list .item { display: inline-block; } 
+
+.list .item .link { color: blue; } // 👈 ici</highlight>
+
+
+
+
+<dots></dots>
+<p>Voici un autre exemple d'utilisation.</p><!-- Remarquez les ancres du menu de navigation ne seront pas stylisé de la même façon que ceux du reste de la page.</p>
+<p>De plus, les éléments de liste du menu et ceux du sous-menu sont un peu différents l'un de l'autre.</p>-->
+
+<codepen id="qBLZwem" tab="css,result" height="850"></codepen>
+
+<p>Dans l'exemple précédent, lorsqu'on compile le SCSS en CSS, ça donnera le code suivant:</p>
+
+<highlight lang="css">a {
+  color: purple;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  background: #665566;
+  font-size: 18px;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 0 10px;
+  position: relative;
+}
+header nav ul li .link {
+  color: coral;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+header nav ul li .link--active {
+  text-decoration: underline;
+  color: white;
+}
+header nav ul li ul {
+  position: absolute;
+  z-index: 100;
+  background-color: white;
+  width: auto;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+}
+header nav ul li ul li {
+  padding: 5px 0;
+}
+header nav ul li ul li .link {
+  color: #665566;
+}</highlight>
+<warning>Évitez d’abusez des imbrications. Plus de trois niveaux d’imbrication est généralement considéré comme étant une mauvaise pratique et rendra votre code difficile à&nbsp;déboguer.</warning>
+
+<doclink href="https://sass-lang.com/documentation/style-rules/declarations#nesting">Nesting (imbrication)</doclink>
+
+
+
+
+<dots></dots>
+<grostitre>Sélecteurs avancés</grostitre>
+
+<p>Les imbrications sont compatibles avec tous les <a target="_blank" rel="noopener noreferrer"
+        href="../../../582-215MO/css/selecteurs-avances/">sélecteurs CSS avancés</a>.</p>
+<p>Par exemple:</p>
+
+<highlight lang="scss">.list {
+  &gt; .item { display: inline-block; }
+  
+  + .logo { display: none; }
+}</highlight>
+
+<p>Générera le code CSS suivant ⏬</p>
+<highlight lang="css">.list &gt; .item { display: inline-block; }
+
+.list + .logo { display: none; }</highlight>
+
+<doclink href="https://sass-lang.com/documentation/style-rules#selector-combinators">selector combinator</doclink>
+
+
+
+
+
+
+
+<dots></dots>
+<grostitre>Sélecteur de parent</grostitre>
+
+
+<p>Le sélecteur de parent <span class="inline-code">&amp;</span> est un sélecteur spécial inventé par Sass permettant de faire référence au sélecteur parent courant.</p>
+
+<p>Avant de démontrer le sélecteur parent, rappelez vous que tout sélecteur imbriqué dans un autre se fait convertir par défaut en enfant du premier. </p>
+
+<p>Autrement dit:</p>
+
+<highlight lang="scss">.selecteur1 {
+  .selecteur2 { ... }
+}</highlight>
+
+<p>Générera le code CSS suivant ⏬</p>
+
+<highlight lang="css">.selecteur1 .selecteur2 { ... }</highlight>
+
+<p>Remarquez <strong>l'espace entre les deux sélecteurs</strong> indiquant que <span class="inline-code">.selecteur2</span> est enfant de <span class="inline-code">.s&eacute;lecteur1</span>.  Il sera donc appliqué à des balises imbriquées comme dans le code suivant:</p>
+
+<highlight lang="html">&lt;div class=&quot;selecteur1&quot;&gt;
+  &lt;div class=&quot;selecteur2&quot;&gt;...&lt;/div&gt; 
+&lt;/div&gt;</highlight>
+
+
+<dots></dots>
+
+<p>Revenons au sélecteur parent, grâce à celui-ci <span class="inline-code">&amp;</span>, il est possible de contourner ce comportement.</p>
+
+<p>Si on ajoute un <span class="inline-code">&amp;</span> devant le .selecteur2</p>
+
+<highlight lang="scss">.selecteur1 {
+  &amp;.selecteur2 { ... }
+}</highlight>
+
+<p>Générera le code CSS suivant ⏬</p>
+
+<highlight lang="css">.selecteur1.selecteur2 { ... }</highlight>
+
+<p>Remarquez maintenant l'espace inexistant entre .selecteur1 .selecteur2, cela signifie que le sélecteur 2 s'est appliqué au parent dans l'impbrication Sass. Ce qui en résulte d'un sélecteur css qui vise un élément qui contient les 2 classes comme dans l'exemple html ci-dessous.</p>
+
+<highlight lang="html">&lt;div class=&quot;selecteur1 selecteur2&quot;&gt; ... &lt;/div&gt;</highlight>
+
+
+
+
+<dots></dots>
+<h3 class="heading heading--h3" id="Pseudo-classes">Pseudo-classes</h3>
+
+<p>Les imbrications Sass sont compatibles avec les <a target="_blank" rel="noopener noreferrer" href="../../../582-215MO/css/pseudo-classes/">pseudo-classes</a> lorsqu'un sélecteur parent est utilisé.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="scss">.btn {
+  background: blue;
+  
+  &amp;:hover { background: lightblue; }
+}</highlight>
+
+<p>Générera le code CSS suivant ⏬</p>
+
+<highlight lang="css">.btn { background: blue; }
+
+.btn:hover { background: lightblue; }</highlight>
+<dots></dots>
+<p>Autre exemple de pseudo-classe:</p>
+
+<highlight lang="scss">.section {
+  background: white;
+  
+  &amp;:nth-child(3) { background: gray; }
+}</highlight>
+
+<p>Générera le code CSS suivant ⏬</p>
+
+<highlight lang="css">.section { background: white; }
+
+.section:nth-child(3) { background: gray; }</highlight>
+
+
+
+
+<p>Remarquez l'utilisation du sélecteur parent <span class="inline-code">&amp;</span>. Celui-ci permet de faire une référence au sélecteur
+    courant, en l'occurence <span class="inline-code">.btn</span><em> </em>et de lui rabouter directement, <strong>sans espace</strong>, la
+    pseudo-classe <span class="inline-code">:hover</span>.</p>
+
+
+
+
+<dots></dots>
+<h3 class="heading heading--h3" id="Pseudo-éléments">Pseudo-éléments</h3>
+
+<p>Les imbrications Sass sont compatibles avec les <a target="_blank" rel="noopener noreferrer"
+        href="../../../582-215MO/css/pseudo-elements/">pseudo-éléments</a> lorsqu'un sélecteur parent est utilisé.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="scss">.btn {
+  background: blue;
+  
+  &amp;::before { content: &quot;🔘&quot;; }
+}</highlight>
+
+<p>Générera le code CSS suivant ⏬</p>
+
+<highlight lang="css">.btn { background: blue; }
+
+.btn::before { content: &quot;🔘&quot;; }</highlight>
+
+<h3 class="heading heading--h3" id="Renversé">Renversé</h3>
+
+<p>Parfois, il souhaitable de spécifier que notre élément devrait avoir une apparence différente dans un certain
+    contexte.</p>
+<p>Par exemple, lorsqu'un bouton est affiché dans un menu, sa couleur de fond pourrait devoir être grise plutôt que
+    bleue. Le sélecteur parent permet de couvrir ce cas de figure sans avoir à quitter le contexte du sélecteur du
+    bouton en utilisant ce sélecteur comme suffix.</p>
+
+
+<highlight lang="scss">.btn {
+  .menu &amp; { background: grey; }
+}</highlight>
+
+<p>Générera le code CSS suivant ⏬</p>
+
+<highlight lang="css">.menu .btn { background: grey; }</highlight>
+
+<doclink href="https://sass-lang.com/documentation/style-rules/parent-selector">Parent selector</doclink>
+
+<dots></dots>
+
+
+<!--        <a class="tool" target="_blank" href="https://www.sassmeister.com/">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">SassMeister</span>
+                    <span class="tool-description">Terrain de jeu SASS permettant de voir en temps réel la compilation CSS que produirait son code.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(../../tools/sassmeister/images/thumb.webp)"></div>
+            </div>
+        </a>-->
+        <a class="tool" target="_blank" href="https://sass-lang.com/playground/#">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">Sass Playground</span>
+                    <span class="tool-description">Terrain de jeu SASS permettant de voir en temps réel la compilation CSS que produirait son code.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(../../tools/sass-playground/images/thumbnail.jpg)"></div>
+            </div>
+        </a>
+        <a class="tool" target="_blank" href="https://codebeautify.org/css-to-scss-converter">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">CSS to SCSS</span>
+                    <span class="tool-description">Permet de convertir la structure d’un code CSS en imbrication SCSS.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(../../tools/csstoscss/images/thumb.webp)"></div>
+            </div>
+        </a>
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

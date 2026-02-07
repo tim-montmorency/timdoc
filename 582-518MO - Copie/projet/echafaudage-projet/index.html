@@ -1,0 +1,106 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Échafaudage du projet</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">Projet de session</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.svg">&nbsp;Échafaudage du projet</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+<p>Cette étape concerne tous les membres de l'équipe.</p>
+
+<p>Jeudi prochain (jeudi semaine 6) est la date de remise pour cette étape. Le client vous rencontrera, équipe par équipe pour une période de 15 min. afin de vérifier l'avancement du projet. Vous devrez aussi montrer votre rapport de temps sur Toggl individuellement.</p>
+
+<p>Chaque membre de l'équipe doit participer et démontrer au client ce qu'il a accompli pour cette étape.</p>
+
+
+<warning>Cette étape du projet ne concerne pas encore WordPress. Vous devez monter vos pages-clé (template) de façon statique, c'est à dire en HTML, SASS et JavaScript. Pour l'instant il n'y a pas de page complète à livrer mais ce qu'il y a dans les requis ci-dessous.</warning>
+
+<alert>Travaillez chacun de votre côté en faisant des commit et des pull/push git très souvent. Le client aura un oeil sur l'historique de votre git.</alert>
+
+<info>Lorsque vous travaillez sur le projet, n'oubliez pas de démarrer Toggl (votre rapport de temps de travail).</info>
+
+<warning>Notez bien ceci: Je vous permets d'utiliser Bootstrap mais QUE POUR LA NAVBAR. Pour le reste du site, il sera interdit d'utiliser toute classe provenant de Bootstrap, il faut que vous appreniez à faire de la mise en page HTML/CSS par vous même, notamment avec CSS Grid mais il est possible d'utiliser aussi CSS Flexbox.</warning>
+
+<dots></dots>
+<grostitre>Requis</grostitre>
+<checklist>
+    Préparez votre répertoire de base avec un fichier index.html, main.js, et style.scss (et lorsque compilé créera un fichier style.css). Tous ces fichiers seront à la racine du répertoire git.
+    Ajoutez un dossier partials-scss
+    Créez les fichiers partials scss que vous pensez avoir besoin (un partial par composante et possiblement un autre pour les mixins et un pour les variables)
+    En SCSS, créez les styles de base pour représenter tout ce qu'il y a dans votre guide de styles (texte et couleur appliqués sur les balises appropriées). Vous pouvez aussi créer des variables en conséquence. 
+    Développez "mobile first", c'est à dire que vous codez pour mobile d'abord et faites des <em>media queries</em> pour plus grand.
+    Intégrez (en html, css et possiblement js) l'entête de votre site web, y compris la navbar. Notez bien ceci: Je vous permets d'utiliser Bootstrap mais QUE POUR LA NAVBAR.
+    Intégrez (en HTML, SCSS) le pied de page de votre site web.
+    Tout doit être adaptable en desktop, tablette et mobile. 
+    Pour la navbar, pensez aux burger menu dans la version mobile.
+</checklist>
+
+<dots></dots>
+<grostitre>Remise</grostitre>
+<p>Avant le prochain cours du jeudi, ayez fait vos derniers "commit & push" et gestion de conflits git au besoin. Vous devrez être prêts, votre rapport Toggl complété. Pendant la séance de cours, vous devrez présenter au client votre livrable complété et lui expliquer qui a fait quoi. Ayez en main une façon de prendre des notes des commentaires du client.</p>
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

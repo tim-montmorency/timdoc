@@ -1,0 +1,99 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Modèle: Champs de base</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">WordPress</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/wordpress/">WordPress</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="../medias/icon.webp">&nbsp;Modèle: Champs de base</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+
+<p>Vous vous rappelez des <a href="../types-contenu-de-base-wp/#champs-de-base-dans-article-ou-page" target="_blank" rel="noopener noreferrer">champs de base accessibles dans un post ou une page</a> WordPress ? Mais comment y accède-t-on pour les afficher dans le modèle (template) d'un thème ? Via des fonctions prédéfinies de WordPress que vous pouvez appeler dans le fichier du modèle, là où il vous convient d'afficher le contenu.</p>
+
+<warning>Les fonctions ci-dessous sont des fonctions d'affichage en PHP, donc il ne faut pas oublier de les inclure entre l'ouverture et la fermeture des balises de code PHP. Par exemple : <span class='inline-code'>&lt;?php the_content(); ?&gt; </span> </warning>
+
+
+
+<ol>
+    <li><span class="inline-code">the_title()</span> inscrit le titre post.</li>
+    <li><span class="inline-code">the_permalink()</span> inscrit l'URL du post.</li>
+    <li><span class="inline-code">the_content()</span> inscrit le contenu complet provenant de l'éditeur de la page (le contenu principal, sans le titre)</li>
+    <li><span class="inline-code">the_excerpt()</span> inscrit l'extrait (résumé) du post. Si le champ de l'extrait est vide, les 55 premiers mots du contenu de l'article ainsi que "..." seront affichés.</li>
+    <li><span class="inline-code">the_ID()</span> inscrit le ID du post.</li>
+    <li><span class="inline-code">the_category()</span> inscrit toutes les catégories associées au post.</li>
+    <li><span class="inline-code">the_tags()</span> inscrit toutes les équiquettes associées au post.</li>
+    <li><span class="inline-code">the_date()</span> inscrit la date de publication du post.</li>
+    <li><span class="inline-code">the_time()</span> inscrit le temps de publication du post.</li>
+    <li><span class="inline-code">the_author()</span> inscrit le nom de l'auteur du post.</li>
+    <li><span class="inline-code">the_post_thumbnail()</span> inscrit l'<em>image mise en avant</em>.</li>
+</ol>
+
+<br>
+<img src="images/contenu-base-editeur-page.jpg" alt="Éditeur de page de WP et quelques zones nommées ci-dessus qui y sont identifiées." style="box-shadow: 0 0 10px rgba(30,30,0,0.2);">
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

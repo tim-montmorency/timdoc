@@ -54,7 +54,9 @@ Pas au cours 1 évidemment mais à quelque part dans la session
             <li><a href="https://app.wooclap.com/LLJENC" target="_blank" rel="noopener noreferrer">Groupe 3 - jeudi pm</a></li>
         </ol>
     </li>
-        <li><a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUvUhN4tNxxFnyrchwy_QtoBwt3Sq-CZXolIei49ImZirw?e=0kMKk3" target="_blank" rel="noopener noreferrer">Plan de cours (MÀJ 24 mars 2025 contenant les modifications de dates)</a> et positionnement du cours dans le programme et pour votre avenir.</li>
+    <li>
+        <a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUvUhN4tNxxFnyrchwy_QtoBwt3Sq-CZXolIei49ImZirw?e=0kMKk3" target="_blank" rel="noopener noreferrer">Plan de cours (MÀJ 24 mars 2025 contenant les modifications de dates)</a> et positionnement du cours dans le programme et pour votre avenir.</li>
+        
         <li>Texte à lire: <a href="https://css-tricks.com/the-importance-of-investing-in-soft-skills-in-the-age-of-ai/">L’importance d’investir dans les compétences générales à l’ère de l’IA</a></li>
     </ul>
    
@@ -72,8 +74,6 @@ Pas au cours 1 évidemment mais à quelque part dans la session
 
     <dots></dots>
     <grostitre>Contenu du cours d'aujourd'hui</grostitre>
-
-
     <ol>
         <li>Le flux et le box-model</li>
         <li>Le concept de spécificité dans les règles CSS</li>
@@ -97,9 +97,6 @@ Pas au cours 1 évidemment mais à quelque part dans la session
 
 
 </wiki-page>
-
-
-
 
 
 <!--

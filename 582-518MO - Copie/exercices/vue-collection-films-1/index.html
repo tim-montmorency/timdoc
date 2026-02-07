@@ -1,0 +1,142 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Vue - Collection de films:Part 1</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Vue - Collection de films:Part 1</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p>Dans le cadre de cet exercice,  vous devez créer une petite application web vous permettant de classer votre collection de films, à voir ou déjà vu. Dans cette partie particulière de l'exercice, vous devez créer des méthodes Vue.js et utiliser les classes CSS dynamiques de Vue.js.</p>
+
+<dots></dots>
+<p>Aperçu du résultat 👇</p>
+<clipasset src="images/apercu-part1.mov"></clipasset>
+
+
+
+<dots></dots>
+<grostitre>Matériel</grostitre>
+<p>Faites toujours un fork du Pen de départ</p>
+<doclink href="https://codepen.io/tim-momo/pen/wBwvOMg">Pen de départ</doclink>
+ 
+
+
+<dots></dots>
+<grostitre>Requis de base et des boutons [-] et [+]</grostitre>
+<checklist>
+    Créez une app Vue.js
+    Créez une donnée Vue <span class='inline-code'>year</span> qui sera initialisée à l'année 2022.
+    Cette donnée devra être affichée entre les deux boutons [-] et [+] dans la section <em>Quelle&nbsp;année&nbsp;de&nbsp;sortie?</em>
+    Créez des méthodes pour incrémenter et décrémenter l'année dans la section <em>Quelle&nbsp;année&nbsp;de&nbsp;sortie?</em> afin de changer cette données dynamiquement en cliquant sur les boutons [+] ou [-] correspondants.
+</checklist>
+
+<grostitre>Requis classes dynamiques</grostitre>
+<checklist>
+    À l'aide de classe dynamique sur les <span class='inline-code'>li</span>, ajoutez ou supprimez la classe <span class='inline-code'>.selectedYear</span> en fonction de l'année présentée dans la section <em>Quelle&nbsp;année&nbsp;de&nbsp;sortie?</em>
+    Faites attention de conserver la <span class='inline-code'>.classe-static</span> qui s'y trouve déjà.
+</checklist>
+
+<grostitre>Requis pour limiter le bouton [+] à l'année courante</grostitre>
+<checklist>Créez une autre donnée Vue <span class='inline-code'>currentYear</span> qui stockera l'année courante. Recherchez sur le web pour savoir comment récupérer la donnée de l'année en cours.
+Créez une donnée booléenne <span class='inline-code'>isCurrentYear</span> initialisée à <span class='inline-code'>false</span> puisque l'année de départ <span class='inline-code'>2022</span> n'est pas égale à l'année courante <span class='inline-code'>currentYear</span> qui est 2025.
+À chaque clic du bouton [+], vérifiez si l'année montrée dans la section <em>Quelle&nbsp;année&nbsp;de&nbsp;sortie?</em> est égale à l'année courante, si tel est le cas, changez la valeur de isCurrentYear à true. Profitez-en pour empêcher l'incrémentation de l'année affichée dans la section <em>Quelle&nbsp;année&nbsp;de&nbsp;sortie?</em> afin qu'elle ne continue pas à monter au delà de l'année courante.
+Finalement, ajoutez la classe <span class='inline-code'>.disabled</span> au bouton [+] lorsque <span class='inline-code'>isCurrentYear</span> est à <span class='inline-code'>true</span>.
+</checklist>
+
+
+
+
+<dots></dots>
+<grostitre>Notes de cours 📚</grostitre>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../javascript/vue-js/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../javascript/vue-js/creation-app/">Création d'une app VueJS</a></span>
+                <span class="intlink__item__abstract">Comment créer en JS la base de l'app Vue</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../javascript/vue-js/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../javascript/vue-js/donnees/">Données {{ }}</a></span>
+                <span class="intlink__item__abstract">Les données via les moustache et les attributs des balises via v-bind</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../javascript/vue-js/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../javascript/vue-js/methodes-et-evenements/">Méthodes et événements v-on</a></span>
+                <span class="intlink__item__abstract">Les méthodes Vue sont des fonctions qui appartiennent à l'instance Vue sous la propriété "methods".</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../javascript/vue-js/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../javascript/vue-js/classes-css-dynamiques/">Classes CSS dynamiques</a></span>
+                <span class="intlink__item__abstract">Une classe CSS peut-être dynamiquement ajoutée et retirée d'une élément HTML à tout moment.</span>
+            </div>
+        </div>
+
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

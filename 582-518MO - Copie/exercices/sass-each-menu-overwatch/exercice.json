@@ -1,0 +1,6 @@
+{
+    "type": "exercice",
+    "title": "Menu Overwatch",
+    "icon": "images\/thumb-overwatch.jpg",
+    "abstract": "Utiliser @each du langage Sass pour recr\u00e9er un menu permettant de choisir parmi certains personnages du jeu Overwatch."
+}

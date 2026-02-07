@@ -1,0 +1,229 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>WP Rest API - Vice Versa</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">WP Rest API - Vice Versa</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p>Pour cet exercice vous et votre coéquipier devez créer un microsite permettant de présenter les protagonistes du film <a target="_blank" href="https://www.pixar.com/feature-films/inside-out">Vice Versa</a> de&nbsp;Pixar.</p>
+
+<p>Votre coéquipier a conçu un mockup HTML sur CodePen, ainsi que le thème WordPress du site. Il compte maintenant sur vous pour le rendre dynamique dans WordPress via son Rest&nbsp;API.</p>
+
+
+
+<p>Aperçu du résultat 👇</p>
+
+<img src="images/vice-versa-resultat.png" alt="VIce Versa" style="box-shadow: 5px 5px 20px rgba(0,0,0,0.3)">
+
+<dots></dots>
+<grostitre>Matériel</grostitre>
+
+<doclink href="https://codepen.io/tim-momo/pen/bGXOmeP">Pen de départ</doclink>
+
+
+<h3 class="heading heading--h3" id="Médias 🖼️">Médias 🖼️</h3>
+<!--<mediafile src="https://ex.smnarnold.com/wordpress/vice-versa/data-vice-versa.xml">data-vice-versa.xml</mediafile>-->
+<mediafile src="images/data-vice-versa-mm.xml.zip">data-vice-versa-mm.xml.zip</mediafile>
+<mediafile src="images/scf-structure-emotions-post-type.json.zip">scf-structure-emotions-post-type.json.zip</mediafile>
+
+
+
+<dots></dots>
+<grostitre>Installation & migration</grostitre>
+<checklist>Installez en local une copie en&nbsp;<a target="_blank" rel="noopener noreferrer" href="https://fr-ca.wordpress.org/">Français du Canada de WordPress</a>&nbsp;pour votre client.
+Ajoutez l'extension <em>Secure Custom Fields (SCF)</em>.
+Installez le&nbsp;<a target="_blank" rel="noopener noreferrer" href="images/theme-vice-versa.zip">thème réalisé par votre collègue</a>.
+Importez la <em>STRUCTURE</em> du <strong>Type de publication</strong> (post type) intitulé&nbsp;<em>"Émotions"</em>&nbsp;à l'aide du fichier JSON partagé ci-haut que vous aurez préalablement téléchargé et désarchivé (unzip). 
+Vous devriez maintenant voir la section <em>Émotions</em> de la barre de gauche du tableau de bord WordPress. Vous devriez aussi voir ce type de publication apparraitre dans SCF / Post Types.
+Importez maintenant les <em>DONNÉES</em> des pages à l'aide du fichier XML partagé ci-haut que vous aurez préalablement téléchargé et désarchivé (unzip).
+Dans le tableau de bord de WordPress, vous devriez maintenant voir les 5 émotions apparaitre dans la section <em>Émotions</em> de la barre de gauche.
+</checklist>
+
+<!--
+{
+    "emotions": {
+        "name": "emotions",
+        "label": "\u00c9motions",
+        "singular_label": "\u00c9motion",
+        "description": "",
+        "public": "true",
+        "publicly_queryable": "true",
+        "show_ui": "true",
+        "show_in_nav_menus": "true",
+        "delete_with_user": "false",
+        "show_in_rest": "true",
+        "rest_base": "",
+        "rest_controller_class": "",
+        "has_archive": "false",
+        "has_archive_string": "",
+        "exclude_from_search": "false",
+        "capability_type": "post",
+        "hierarchical": "false",
+        "rewrite": "true",
+        "rewrite_slug": "",
+        "rewrite_withfront": "true",
+        "query_var": "true",
+        "query_var_slug": "",
+        "menu_position": "",
+        "show_in_menu": "true",
+        "show_in_menu_string": "",
+        "menu_icon": "dashicons-admin-users",
+        "supports": [
+            "title",
+            "editor",
+            "thumbnail"
+        ],
+        "taxonomies": [],
+        "labels": {
+            "menu_name": "\u00c9motions",
+            "all_items": "Toutes les \u00e9motions",
+            "add_new": "Ajouter une nouvelle",
+            "add_new_item": "Ajouter une \u00e9motion",
+            "edit_item": "Modifier une \u00e9motion",
+            "new_item": "Nouvelle \u00e9motion",
+            "view_item": "Voir l'\u00e9motion",
+            "view_items": "Voir les \u00e9motions",
+            "search_items": "Rechercher dans les \u00e9motions",
+            "not_found": "Aucune \u00e9motion trouv\u00e9e",
+            "not_found_in_trash": "Aucune \u00e9motion dans la corbeille",
+            "parent": "Parent de \u00e9motion:",
+            "featured_image": "Image de pr\u00e9sentation de \u00e9motion",
+            "set_featured_image": "Configurer image de pr\u00e9sentation de l'\u00e9motion",
+            "remove_featured_image": "Enlever l'image de pr\u00e9sentation de \u00e9motion",
+            "use_featured_image": "Utiliser comme image de pr\u00e9sentation pour cette \u00e9motion",
+            "archives": "Archive d'\u00e9motions",
+            "insert_into_item": "Ins\u00e9rer dans les \u00e9motions",
+            "uploaded_to_this_item": "T\u00e9l\u00e9verser vers cette \u00e9motion",
+            "filter_items_list": "Filtrer la liste des \u00e9motions",
+            "items_list_navigation": "\u00c9motions list navigation",
+            "items_list": "\u00c9motions list",
+            "attributes": "\u00c9motions attributes",
+            "name_admin_bar": "\u00c9motion",
+            "item_published": "\u00c9motion publi\u00e9e",
+            "item_published_privately": "\u00c9motion published privately.",
+            "item_reverted_to_draft": "\u00c9motion reverted to draft.",
+            "item_scheduled": "\u00c9motion scheduled",
+            "item_updated": "\u00c9motion updated.",
+            "parent_item_colon": "Parent de \u00e9motion:"
+        },
+        "custom_supports": ""
+    }
+}
+-->
+
+
+<dots></dots>
+<grostitre>Affichage</grostitre>
+<checklist>Dans la page d'accueil de votre site, via le modèle <em>home.php</em> du thème, utilisez le Rest API de WordPress afin de récupérer tous les posts de type&nbsp;<em>"émotions"</em>.
+Pour chacun de ces posts, recréez une carte en vous basant sur le Pen en pièce jointe.
+Assurez-vous d'afficher les émotions dans le même ordre que le Pen, c'est-à-dire en ordre alphabétique.</checklist>
+
+   
+<dots></dots>
+<grostitre>Notes de cours 📚</grostitre>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../wordpress/medias/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../wordpress/posts-personnalises/">Posts personnalisés</a></span>
+                <span class="intlink__item__abstract">Collections de types de publications</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../wordpress/medias/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../wordpress/advanced-custom-fields/#export">Champs avancés personnalisés</a></span>
+                <span class="intlink__item__abstract">SCF - Secure Custom Fields</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../wordpress/medias/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../wordpress/migration-de-donnees/">Migration de données des pages</a></span>
+                <span class="intlink__item__abstract">Migrer les données d'un site WordPress vers un autre</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../wordpress/medias/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../wordpress/rest-api/">REST API</a></span>
+                <span class="intlink__item__abstract">Accéder aux contenus en JavaScript via des JSON</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../582-424MO/javascript/fetch-api/images/ico-fetch.png);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../582-424MO/javascript/fetch-api/">Fetch API</a></span>
+                <span class="intlink__item__abstract">L'API Fetch: interface pour récupération de ressources à travers le réseau</span>
+            </div>
+        </div> <br>
+<doclink href='https://smnarnold.com/cours/javascript/manipulation-des-contenus'>Manipulation des contenus du DOM en JavaScript</doclink> <br>
+<doclink href='https://smnarnold.com/cours/javascript/json'>JSON</doclink> <br>
+<doclink href='https://smnarnold.com/cours/javascript/litteraux-de-gabarits'>Littéraux de gabarit</doclink>
+
+
+
+
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

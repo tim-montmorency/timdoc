@@ -1,0 +1,151 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Centrer un div</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">CSS</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/css/">CSS</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="images/centrer-div.png">&nbsp;Centrer un div</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+
+<h2>Comment centrer un div avec CSS ?</h2>
+
+<p>Pour centrer un div à l'aide de CSS, vous pouvez utiliser les propriétés d'alignement de boîte CSS sur le conteneur parent. Toutefois, ces propriétés d'alignement ne sont pas prises en charge par les navigateurs pour la mise en page en bloc et en ligne. Par conséquent, vous devez faire en sorte que le conteneur parent soit un conteneur <em>flex</em> ou <em>grid</em> pour permettre l'utilisation de l'alignement.</p>
+
+<grostitre>Flexbox</grostitre>
+
+<p>Voici un exemple de centrage vertical d'un div à l'aide de flexbox :</p>
+
+
+<highlight lang="html">&lt;div class=&quot;parent&quot;&gt;
+  &lt;div class=&quot;centered-div&quot;&gt;
+    Cet &eacute;l&eacute;ment est centr&eacute;.
+  &lt;/div&gt;
+&lt;/div&gt;</highlight>
+
+<highlight lang="css">.parent {
+  display : flex ;
+  align-items : center ;
+  justify-content : center ;
+}
+
+.centered-div {
+  /* Styles suppl&eacute;mentaires pour le div centr&eacute; */
+}</highlight>
+
+<p>Dans l'exemple ci-dessus, la propriété <span class="inline-code">display</span> du conteneur <em>.parent</em> est définie sur flex, ce qui le transforme en conteneur flex. La propriété <span class="inline-code">align-items</span> est définie sur <span class="inline-code">center</span>, ce qui aligne verticalement les éléments enfants. La propriété <span class="inline-code">justify-content</span> est également définie sur <span class="inline-code">center</span>, ce qui aligne horizontalement les éléments enfants.</p>
+
+<p>Notez que cette technique peut être utilisée pour centrer n'importe quel type d'élément à l'intérieur d'un autre. Vous pouvez essayer de modifier les valeurs des propriétés d'alignement pour obtenir différents alignements.</p>
+
+<dots></dots>
+<grostitre>Grid</grostitre>
+
+
+<p>Si vous préférez utiliser la mise en page en grille (<span class="inline-code">grid</span> ), vous pouvez également centrer un div en utilisant les propriétés <span class="inline-code">align-self</span> et <span class="inline-code">justify-self</span> à l'intérieur d'une zone de grille. Voici un exemple&nbsp;:</p>
+
+
+
+
+<highlight lang="html">&lt;div class=&quot;parent&quot;&gt;
+  &lt;div class=&quot;item1&quot;&gt;
+    Article 1
+  &lt;/div&gt;
+&lt;/div&gt;</highlight>
+
+
+<highlight lang="css">.parent {
+  display : grid ;
+}
+
+.item1 {
+  align-self : center ;
+  justify-self : center ;
+  /* Styles suppl&eacute;mentaires pour le div centr&eacute; */
+}</highlight>
+
+
+<p>Dans cet exemple, le div enveloppant <em>.parent</em> est un conteneur de grille. Le div <span class="inline-code">.item1</span> est placé dans la seule cellule de la grille et est centré verticalement et horizontalement à l'aide des propriétés <span class="inline-code">align-self</span> et <span class="inline-code">justify-self</span>.</p>
+
+<dots></dots>
+<grostitre>Plus d'infos et autres techniques</grostitre>
+
+<ul>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/Center_an_item" target="_blank" rel="noopener noreferrer">Comment centrer un élément (EN)</a></li>
+  <li><a href="https://developer.mozilla.org/fr/docs/Web/CSS/margin#centrer_horizontalement" target="_blank" rel="noopener noreferrer">Center avec marges</a></li>
+  <li><a href="https://developer.mozilla.org/fr/docs/Web/CSS/CSS_grid_layout/Box_alignment_in_grid_layout" target="_blank" rel="noopener noreferrer">Alignement des boîtes dans une grille</a></li>
+  <li><a href="https://developer.mozilla.org/fr/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context_example_1" target="_blank" rel="noopener noreferrer">Exemple de contexte d'empilement 1</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

@@ -1,0 +1,158 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>Boucles v-for</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../', '../../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../../">Projet Web</a> > <a href="../../">JavaScript</a> > <a href="../">Vue.js</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../../index/web/cadriciels/">Cadriciels</a>&nbsp;>&nbsp;<a href="../../../../index/web/cadriciels/vuejs/">Vue.js</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="../images/icon.webp">&nbsp;Boucles v-for</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+
+<grostitre>Boucle</grostitre>
+<p>Vue permet de boucler sur un tableau d'objets grâce à la directive <span class="inline-code">v-for</span>. Pour ce faire, il faut spécifier le nom temporaire que l'on souhaite attribuer à chaque objet dans le tableau et spécifier le tableau dans lequel ce trouve ces objets.</p>
+
+<p>Par exemple, il est possible d'accéder à chaque rôle se trouvant dans le tableau <span class="inline-code">rolesArray</span>:</p>
+
+<highlight lang="html">&lt;div v-for=&quot;role in rolesArr&quot;&gt;
+  &lt;img :src=&quot;role.picture&quot;&gt;
+&lt;/div&gt;</highlight>
+
+
+<p>Par la suite, il faut spécifier si la propriété désirée est enfant du parent <span class="inline-code">data</span> ou enfant du rôle courant dans la boucle en la préfixant par <span class="inline-code">role</span>.</p>
+
+<codepen id="abPeGqp" tab="html,result" height="800"></codepen>
+
+
+
+<dots></dots>
+<grostitre>Index</grostitre>
+
+
+<p>Afin d'obtenir l'index courant dans une boucle <span class="inline-code">v-for</span>, il est suffit d'ajouter un 2e paramètre dans la directive. Puisque deux paramètres sont présents, il est nécessaire de les grouper dans entre parenthèses.</p>
+
+
+<p>Par exemple:</p>
+<highlight lang="html">&lt;div v-for=&quot;(role, index) in rolesArr&quot;&gt;
+  &lt;img :src=&quot;role.picture&quot;&gt;
+&lt;/div&gt;</highlight>
+
+<br>
+
+<codepen id="GRPVGPg" tab="html,result" height="500"></codepen>
+
+
+
+
+<dots></dots>
+<grostitre>Combinaison d'une boucle avec des événements</grostitre>
+
+
+<p>Il est possible de combiner une boucle avec des <a rel="noopener noreferrer" href="../methodes-et-evenements">événements</a> sans problème, simplement en spécifiant en paramètre à la méthode appelée l'objet devant être altéré.</p>
+<br>
+
+<codepen id="oNJKyOO" tab="html,result" height="500"></codepen>
+
+<warning>Il ne faut<a href="https://vuejs.org/style-guide/rules-essential.html#avoid-v-if-with-v-for" target="_blank"> jamais utiliser <span class="inline-code">v-if</span> sur un élément ayant&nbsp;<span class="inline-code">v-for</span></a>.</warning>
+<br>
+
+
+<doclink href="https://v3.vuejs.org/guide/list.html">Rendu de liste</doclink>
+
+
+<dots></dots>
+<grostitre>Récapitulatif de ce que on a <em>Vue.js</em> jusqu'à maintenant</grostitre>
+<p>Analysons ensemble cet exemple de brassage de carte réalisé par le développeur Torontois <a href="https://codepen.io/itslit" target="_blank" rel="noopener noreferrer">Hassan Dj (@itslit</a>)</p>
+
+<codepen id="gOVNoby" tab="result" height="1000"></codepen>
+
+<dots></dots>
+        <a class="exercice" target="_blank" href="../../../exercices/vue-ouest-vs-est/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(../../../exercices/vue-ouest-vs-est/images/thumb.webp)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Vue - Ouest VS Est</span>
+                    <span class="exercice-description">Afin d’afficher quel rappeur appartenait à quel camp est ou ouest, vous devrez compléter une app Vue.</span>
+                </div>
+            </div>
+        </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

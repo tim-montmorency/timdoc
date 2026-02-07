@@ -1,0 +1,148 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>Propriétés calculées</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../', '../../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../../">Projet Web</a> > <a href="../../">JavaScript</a> > <a href="../">Vue.js</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../../index/web/cadriciels/">Cadriciels</a>&nbsp;>&nbsp;<a href="../../../../index/web/cadriciels/vuejs/">Vue.js</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="../images/icon.webp">&nbsp;Propriétés calculées</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p>Pour modifier une valeur dynamiquement, pour des raison de <em>performances</em>, il convient d'utiliser des <em>propriétés calculées</em> (<em>computed properties</em>) plutôt que des méthodes.</p>
+
+<p>C'est à dire que si une valeur doit être recalculée en fonction d'une ou plusieurs autres valeurs, il est préférable d'utiliser une <em>propriété calculée</em> plutôt qu'une méthode.</p>
+
+
+
+<dots></dots>
+
+<p>Par exemple, si on voudrait convertir une devise en une autre 💵. Par exemple, convertir un montant en dollars canadiens 🇨🇦 en dollars américains 🇺🇸:</p>
+
+<highlight lang="html">{ { amount * 0.8 } }</highlight>
+
+<small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
+
+
+
+<br>
+<p>Bien que ces expressions soient pratiques, elles ne sont destinées qu'aux opérations simples, car elles peuvent rapidement porter à confusion: </p>
+
+
+<ul>
+    <li>Pourquoi ce montant est-il multiplié par 0.8? </li>
+    <li>Quelle devise tente-t-on d'afficher?</li>
+</ul>
+
+<p>Heureusement, les propriétés calculées permettent d'éviter de complexifier inutilement les templates HTML en permettant de retirer toute expression logique de ceux-ci. </p>
+
+<p>Par exemple, la donnée suivante 👇 exprime clairement que l'information affichée correspond à un montant converti en dollars américains 🇺🇸. Aucune expression mathématique ne vient polluer le template:</p>
+
+<highlight lang="html">{ { amountToUSD } }</highlight>
+<small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
+
+
+
+<p><br>Pour obtenir une donnée propre comme celle-ci, sans expression, il faut ajouter un objet intitulé <span class="inline-code">computed</span> à l'app Vue. Cet objet contient à son tour différentes propriétés. Chacune de ces propriétés se base sur une ou plusieurs données se trouvant dans <span class="inline-code">data</span> et leur appliquent un traitement quelconque. </p>
+
+<p>Par exemple, multiplier une donnée par 0.8. </p>
+
+<highlight lang="javascript">computed: {
+  amountToUSD() {
+    return this.amount * 0.8;
+  }
+}</highlight>
+
+
+
+<p>La grande force des propriétés calculées est qu'elles <strong>surveillent en permanence les données sur lesquelles elles se basent</strong>. Ainsi, si l'une de ces données vient à changer, par exemple le montant, le résultat de la propriété calculé se mettra automatiquement à jour en se basant sur la valeur de celle-ci.</p><p>Par exemple, la valeur en dollars américains se met automatiquement à jour lorsque le montant en dollars canadien change, puisqu'il s'agit d'une propriété calculée.</p>
+
+<figure>
+
+    <codepen id="qBgKjVK" tab="html,result" height="300"></codepen>
+
+    <figcaption class="caption caption--codepen">
+       Modifiez le montant de base en CAD🇨🇦 afin de voir le montant en USD🇺🇸 être recalculé automatiquement.
+
+    </figcaption> 
+</figure>
+
+<br><br>
+<doclink href="https://vuejs.org/guide/essentials/computed.html">Propriétés calculées</doclink>
+
+<br><br>
+
+        <a class="exercice" target="_blank" href="../../../exercices/vue-luchador/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(../../../exercices/vue-luchador/images/thumb.webp)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">Vue - Luchador</span>
+                    <span class="exercice-description">Vous devrez rendre dynamique à l’aide de Vue le tableau indicateur d’un match de la NBA</span>
+                </div>
+            </div>
+        </a>
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

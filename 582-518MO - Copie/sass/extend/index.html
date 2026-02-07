@@ -1,0 +1,244 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Extend</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">Sass</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/sass/">Sass</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="../images/icon.webp">&nbsp;Extend</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p>La règle <span class="inline-code">@extend</span> permet de définir une classe ayant les mêmes règles de style qu'une autre classe spécifiquement.</p>
+
+<p>Par exemple, une classe de message pourrait ressembler à ceci:</p>
+
+
+
+
+<highlight lang="css">.msg {
+  border-left-width: 4px;
+  border-style: solid;
+  border-color: blue;
+  padding: 20px;
+  background-color: lightBlue;
+}</highlight>
+
+<info>Ça donnerait un peu comme l'exemple ci-compte pour un bloc avec la classe .msg</info>
+<br>
+<p>Si d'autres types de messages doivent ensuite être créés et qu'ils doivent partager les mêmes styles de bases que <span class="inline-code">.msg</span>, il serait possible d'étendre (extend) cette classe plutôt que de réécrire à chaque fois le même code.</p>
+
+<p>Par exemple:</p>
+<highlight lang="scss">.msg-alert {
+  @extend .msg;
+  border-color: red;
+  background-color: lightPink;
+}
+
+.msg-warning {
+  @extend .msg;
+  border-color: yellow;
+  background-color: lightYellow;
+}</highlight>
+
+<alert>.msg-alert</alert>
+<warning>.msg-warning</warning>
+
+
+
+
+
+
+
+
+<p>Ce qui, une fois compilé en css, générerait le code suivant:</p>
+<highlight lang="css">.msg, .msg-alert, .msg-warning {
+  border-left-width: 4px;
+  border-style: solid;
+  border-color: blue;
+  padding: 20px;
+  background-color: lightBlue;
+}
+
+.msg-alert {
+  border-color: red;
+  background-color: lightPink;
+}
+
+.msg-warning {
+  border-color: yellow;
+  background-color: lightYellow;
+}</highlight>
+
+
+
+<p>Les trois messages partageraient donc le même <span class="inline-code">border-width</span>, le même <span class="inline-code">border-style</span> et le même <span class="inline-code">padding</span> tandis que la couleur de fond et la couleur de bordure serait écrasées pour chaque variation.</p>
+
+<doclink href="https://sass-lang.com/documentation/at-rules/extend">@extend</doclink>
+
+
+
+
+
+<dots></dots>
+
+<grostitre>Placeholder</grostitre>
+<p>Parfois il est pratique de définir des règles qui peuvent être étendues sans pour autant que ces règles existent en soi sur une classe ou un sélecteur quelconque, d'où l'utilité des <span class="inline-code">%placeholder</span>. Ces règles commencent avec un <span class="inline-code">%</span> et ne génèrent aucun code à moins d'être étendues.</p>
+
+<p>Par exemple, l'exemple précédent pourrait être réécrit avec un placeholder afin d'éviter que la couleur de fond bleue soit écrasée par les variantes de messages:</p>
+
+<highlight lang="scss">%msg {
+  border-left-width: 4px;
+  border-left-style: solid;
+  padding: 20px;
+}
+
+.msg {
+  @extend %msg;
+  border-left-color: blue;
+  background-color: lightBlue;
+}
+
+.msg-alert {
+  @extend %msg;
+  border-left-color: red;
+  background-color: lightPink;
+ 
+}
+
+.msg-warning {
+  @extend %msg;
+  border-left-color: yellow;
+  background-color: lightYellow;
+}</highlight>
+
+<p>Ce qui générerait le code suivant:</p>
+
+<highlight lang="css">.msg, .msg-alert, .msg-warning {
+  border-left-width: 4px;
+  border-left-style: solid;
+  padding: 20px;
+}
+
+.msg { 
+  border-left-color: blue;
+  background-color: lightBlue;
+}
+
+.msg-alert { 
+  border-left-color: red;
+  background-color: lightPink;
+}
+
+.msg-warning { 
+  border-left-color: yellow;
+  background-color: lightYellow;
+}</highlight>
+
+<dots></dots>
+
+<p>Les placeholders sont particulièrement utiles en ce qui à trait aux règles de styles que nous utilisons régulièrement.</p>
+
+<p>Par exemple, je sais que je centre régulièrement des éléments via <span class="inline-code">transform</span>. Plutôt que de tapper à chaque fois:</p>
+
+<highlight lang="css">.element {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}</highlight>
+
+
+
+
+<p>Je me créé donc régulièrement un placeholder similaire à ceci:</p>
+
+<highlight lang="scss">%centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}</highlight>
+
+
+<p>Et je l'utilise sur mes éléments que je désire centrer ainsi:</p>
+<highlight lang="scss">.element {
+  @extend %centered;
+}</highlight>
+
+
+<doclink href="https://sass-lang.com/documentation/style-rules/placeholder-selectors">Placeholder</doclink>
+
+
+
+
+
+<dots></dots>
+<grostitre>Limitations</grostitre>
+<p>Une règle de style ne peut être étendue (extend) QUE si elle se trouve dans le même contexte que sa définition. </p>
+
+<p>Autrement dit, une règle de style définie à la base d'un fichier ne peut pas être étendue à l'intérieur d'une media query à moins d'être définie à nouveau dans ce contexte (à l'intérieur de accolade de la media query).</p>
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

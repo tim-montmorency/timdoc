@@ -1,0 +1,216 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Conditions</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">Sass</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/sass/">Sass</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="../images/icon.webp">&nbsp;Conditions</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p>SASS permet d'inclure des conditions <a rel="noopener noreferrer" href="#if">@if</a>, <a rel="noopener noreferrer" href="#else">@else</a> et <a target="_blank" rel="noopener noreferrer" href="#else-if">@else if</a> similaire aux conditions en JavaScript. Cette fonctionnalité permet d'écrire du code plus complexe plus facilement.</p>
+
+
+<dots></dots>
+<grostitre>@if</grostitre>
+<p>La règle <span class="inline-code">@if</span> permet de contrôler l'exécution d'un bloc de style en fonction d'une condition.</p>
+
+<p>Par exemple, une mixin qui permettrait de générer un avatar carré ou circulaire en fonction de la valeur du paramètre <span class="inline-code">rounded</span> <em>(true ou false)</em>:</p>
+<highlight lang="scss">@mixin avatar($size: 100px, $rounded: false) {
+  width: $size;
+  height: $size;
+  background-size: cover;
+  background-position: 50% 50%;
+  
+  @if $rounded {
+    border-radius: 50%;
+  }
+}</highlight>
+
+<br>
+<p>Pour obtenir un avatar carré de 100px, il serait possible d'écrire:</p>
+<highlight lang="scss">.avatar-facebook {
+  @include avatar; // Aucun param&egrave;tre. Tout par d&eacute;faut
+  background-image: url(&#039;facebook-logo.png&#039;);
+}</highlight>
+
+<br>
+<p>Tandis que pour obtenir un avatar rond de 200px:</p>
+<highlight lang="scss">.avatar-twitter {
+  @include avatar(200px, true);
+  background-image: url(&#039;twitter-logo.png&#039;);
+}</highlight>
+
+
+
+
+<br>
+<p>Ce qui produirait les codes suivant:</p>
+
+<highlight lang="css">.avatar-facebook {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url(&#039;facebook-logo.png&#039;);
+}
+
+.avatar-twitter {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 50%;
+  background-image: url(&#039;twitter-logo.png&#039;);
+}</highlight>
+
+<doclink href="https://sass-lang.com/documentation/at-rules/control/if">@if</doclink>
+
+
+<dots></dots>
+<grostitre>@else</grostitre>
+
+<p>La règle <span class="inline-code">@else</span> permet de déclencher l'exécution d'un bloc de style lorsqu'une condition <a rel="noopener noreferrer" href="#if">@if</a> n'est pas respectée.</p>
+
+<p>Par exemple, une mixin de choix de thème de couleur:</p>
+
+<highlight lang="scss">@mixin dark-theme($dark: true) {
+  @if $dark {
+    background: black;
+    color: white;
+  } @else {
+    background: white;
+    color: black;
+  }
+}</highlight>
+
+<br><br>
+<p>Pour obtenir un menu blanc ⚪️ avec texte noir ⚫️ , il serait possible d'écrire:</p>
+
+<highlight lang="scss">.menu {
+  @include dark-theme(false);
+}</highlight>
+
+<br><br>
+
+
+
+<p>Ce qui générerait le code suivant:</p>
+
+<highlight lang="css">.menu {
+  background: white;
+  color: black;
+}</highlight>
+
+
+<doclink href="https://sass-lang.com/documentation/at-rules/control/if#else">@else</doclink>
+
+
+
+
+
+
+
+<dots></dots>
+<grostitre>@else if</grostitre>
+<p>Par exemple, si pour créer une mixin permettant de gérer les breakpoints CSS d'un site à partir de mots-clés plutôt que de chiffres qui sont parfois difficiles à retenir, il serait possible de faire:</p>
+
+
+<highlight lang="scss">@mixin breakpoint($size: sm) {
+  @if $size == sm {
+    @media (min-width: 576px) { @content; }
+  } @else if $size == md {
+    @media (min-width: 768px) { @content; }
+  } @else if $size == lg {
+    @media (min-width: 992px) { @content; }
+  } @else if $size == xl {
+    @media (min-width: 1200px) { @content; }
+  }
+}</highlight>
+<br><br>
+
+<p>Remarquez <span class="inline-code">@content</span> qui permet de récupérer tout ce qui se trouve à l'intérieur du <span class="inline-code">@include</span> de la mixin. </p><p>Par exemple:</p>
+
+
+<highlight lang="scss">@include breakpoint(md) {
+  body { font-size: 18px; }
+}</highlight>
+
+<br><br>
+
+
+
+<p>Générera le code suivant:</p>
+<highlight lang="css">@media (min-width: 768px) {
+  body { font-size: 18px; }
+}</highlight>
+
+<p>Cependant, vous n'avez pas à retenir le chiffre 768px. Mieux, si votre équipe décide de changer la valeur de <em>md</em> à 780px, elle peut simplement la changer dans la mixin et la valeur ce mettra à jours partout sans que personne n'aille à appliquer de modification à son code.</p>
+
+<doclink href="https://sass-lang.com/documentation/at-rules/control/if#else-if">@else-if</doclink>
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

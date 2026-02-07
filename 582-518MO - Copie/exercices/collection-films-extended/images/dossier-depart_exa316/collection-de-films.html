@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TON PRÉNOM ET NOM - Collection de films</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- La VIEW Vue en HTML (et données dynamique liées au MODEL Vue) -->
+    <div id="movies-collection">
+        <div class="header">
+            <h1>Appli d'une collection de films</h1>
+        </div>
+
+        <div class="add-item-form">
+            <!-- Champ texte : Titre du film -->
+            <input type="text" placeholder="Titre du film (année)">
+
+            <!-- Champ de chiffre : Année de sortie du film -->
+            <input placeholder="Année de sortie" class="shorter" type="number" min="1888" max="2040" max-length="4" />
+
+
+
+            <!-- Liste de sélection (liste déroulante) du pays d'origine -->
+            <select name="country" id="country" class="shorter">
+                <option required value="Pays" disabled selected>Pays</option>
+                <option value="https://flagsworld.org/img/cflags/south-korea-flag.png">Corée du Sud</option>
+                <option value="https://flagsworld.org/img/cflags/USA-flag.png">États-Unis</option>
+                <option value="https://flagsworld.org/img/cflags/spain-flag.png">Espagne</option>
+                <option value="https://flagsworld.org/img/cflags/France-flag.png">France</option>
+                <option value="https://flagsworld.org/img/cflags/Haiti-flag.png">Haïti</option>
+                <option value="https://flagsworld.org/img/cflags/india-flag.png">Inde</option>
+                <option value="https://flagsworld.org/img/cflags/japan-flag.png">Japon</option>
+                <option value="https://assets.codepen.io/9367036/qc.svg">Québec (Canada)</option>
+                <option value="https://flagsworld.org/img/cflags/uk-flag.png">Royaume Uni</option>
+                <option value="https://flagsworld.org/img/cflags/Ukraine-flag.png">Ukraine</option>
+            </select>
+
+            <!-- Boîte à cocher: film parmi vos favoris ? -->
+            <label class="label-checkbox">
+                <input type="checkbox">
+                Film préféré?
+            </label>
+
+            <!-- Bouton pour ajouter le film à la liste -->
+            <button class="btn btn-primary">
+                Ajouter à la liste
+            </button>
+        </div>
+        <!-- Étape C
+        Ce paragraphe ne s'affiche que lorsque tous les films ont été vus (donc cochés via l'interface) 
+        -->
+        <p id="tout-vus">Excellent! Tu as maintenant visionné tous tes films. Quel cinéphile!</p>
+
+
+        <!-- 
+        Étape A
+        Liste des films à ajouter ici. Cette liste doit être généré dynamiquement en se basant sur le contenu du tableau moviesArr).
+         -->
+        <ul>
+
+        </ul>
+        <!-- 
+        Étape C
+        - certains seront classés favoris, 
+        - certains seront classés comme ayant déjà été vus, 
+        - certains ont un drapeau du pays d'origine du film via l'attribut style en ajoutant un background-image
+        - certains ont une année de sortie présentée entre parenthèses mais certains n'ont pas d'année mentionnée (donc pas de parenthèses vide dans ces cas là)) 
+        -->
+
+       
+        
+
+
+        <!-- 
+        Étape des classes JaVaScript: 
+        Affichez ici le résultat de la partie du les personnages de film.
+        -->
+        <div class="characters">  
+        </div>
+    </div>
+
+
+    <!-- Le MODEL VUE en JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>

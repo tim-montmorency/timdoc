@@ -1,0 +1,247 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Projet Vite</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Projet Vite</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+<p>Pour cet exercice, vous allez créer une composante de de carte des meilleurs choix de films.</p>
+
+
+<p>Aperçu du résultat 👇</p>
+<img src="images/apercu.jpeg" alt="Aperçcu du réseultat final">
+
+<grostitre>Matériel</grostitre>
+<doclink href="https://github.com/kid-synthetique/exercice-vite">Repo de départ </doclink>
+
+
+
+
+<dots></dots>
+<grostitre>Installation</grostitre>
+
+
+
+<!-- TODO À COMPLÉTER: Ne pas faire cloner le projet mais faire créer l'app vu from scratch comme pour l'exercice color run -->
+
+<alert>Pour cet exercice, ne PAS compiler avec l'extention <em>Live Sass Compiler</em> ni utiliser le <em> hot relead</em> de l'extension <em>Live Server</em> (Go Live). Tout sera géré via le serveur de développement Vite.</alert>
+
+<checklist>
+  Créez un projet <em>Vite</em> et nommez le <em>exercice-vite-films</em> (suivez les étapes des notes de cours Vite).
+  Faites aussi en sorte que votre projet Vite supporte SCSS puisque nous l'utiliserons dans les prochaines étapes..
+  Installez les dépendances NPM du projet dans un terminal grâce à la commande <span class="inline-code">npm i</span>
+  Démarrez la compilation du projet via la commande <span class="inline-code">npm run dev</span>. <br> Une page web devrait apparaitre à votre adresse http://localhost:3000 (le port peut-être différent de 3000, utilisez l'adresse qui vous est retournée dans le terminal lorsque vous avez fait la précédente commande.)
+  Prenez le dossier "partials" que vous venez de télécharger via le repertoire git ci-haut et placez le dans votre projet "vite".
+  Remplacez le contenu du body de la page html par le code suivant (conservez par contre la référence au script <em>main.js</em>)</checklist>
+<highlight lang="html">&lt;section class=&quot;top-picks&quot;&gt;
+  &lt;div class=&quot;top-picks__header&quot;&gt;
+    &lt;h1 class=&quot;top-picks__title&quot;&gt;Vos meilleurs choix&lt;/h1&gt;
+    &lt;p class=&quot;top-picks__desc&quot;&gt;Des s&eacute;ries t&eacute;l&eacute; et films juste pour vous!&lt;/p&gt;
+  &lt;/div&gt;
+  
+  &lt;div class=&quot;top-picks__wrapper&quot;&gt;
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;div class=&quot;card__media&quot;&gt;
+        &lt;img src=&quot;https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_QL75_UX140_CR0,1,140,207_.jpg&quot; class=&quot;card__image&quot;&gt;
+        &lt;div class=&quot;card__mask&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;button class=&quot;card__btn&quot;&gt;
+        Ajouter &agrave; ma liste
+      &lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;div class=&quot;card__media&quot;&gt;
+        &lt;img src=&quot;https://m.media-amazon.com/images/M/MV5BNDJkYzY3MzMtMGFhYi00MmQ4LWJkNTgtZGNiZWZmMTMxNzdlXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_QL75_UX140_CR0,0,140,207_.jpg&quot; class=&quot;card__image&quot;&gt;
+        &lt;div class=&quot;card__mask&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;button class=&quot;card__btn&quot;&gt;
+        Ajouter &agrave; ma liste
+      &lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;div class=&quot;card__media&quot;&gt;
+        &lt;img src=&quot;https://m.media-amazon.com/images/M/MV5BZjRkZWI5MDYtNWViNC00OWQ5LThkYzktZDU2NTQ4Zjk4NDMwXkEyXkFqcGdeQXVyNDIzMTQwODY@._V1_QL75_UX140_CR0,4,140,207_.jpg&quot; class=&quot;card__image&quot;&gt;
+        &lt;div class=&quot;card__mask&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;button class=&quot;card__btn&quot;&gt;
+        Ajouter &agrave; ma liste
+      &lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;div class=&quot;card__media&quot;&gt;
+        &lt;img src=&quot;https://m.media-amazon.com/images/M/MV5BZmU5NTcwNjktODIwMi00ZmZkLTk4ZWUtYzVjZWQ5ZTZjN2RlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UX140_CR0,2,140,207_.jpg&quot; class=&quot;card__image&quot;&gt;
+        &lt;div class=&quot;card__mask&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;button class=&quot;card__btn&quot;&gt;
+        Ajouter &agrave; ma liste
+      &lt;/button&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;div class=&quot;card__media&quot;&gt;
+        &lt;img src=&quot;https://m.media-amazon.com/images/M/MV5BNzVkYWY4NzYtMWFlZi00YzkwLThhZDItZjcxYTU4ZTMzMDZmXkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_QL75_UX140_CR0,0,140,207_.jpg&quot; class=&quot;card__image&quot;&gt;
+        &lt;div class=&quot;card__mask&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;button class=&quot;card__btn&quot;&gt;
+        Ajouter &agrave; ma liste
+      &lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;div class=&quot;card__media&quot;&gt;
+        &lt;img src=&quot;https://m.media-amazon.com/images/M/MV5BNTkwOTE1ZDYtODQ3Yy00YTYwLTg0YWQtYmVkNmFjNGZlYmRiXkEyXkFqcGdeQXVyNTc4MjczMTM@._V1_QL75_UX140_CR0,0,140,207_.jpg&quot; class=&quot;card__image&quot;&gt;
+        &lt;div class=&quot;card__mask&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;button class=&quot;card__btn&quot;&gt;
+        Ajouter &agrave; ma liste
+      &lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;</highlight>
+
+
+
+
+
+
+<dots></dots>
+<grostitre>Requis de cartes</grostitre>
+
+ <checklist>Créez-vous une partial ayant pour but de gérer les styles des cartes de séries télé &amp; films du projet. N'oubliez pas d'indiquer que votre fichier <span class="inline-code">style.scss</span> utilise cette partial, sinon aucune de vos modifications ne sera visible.
+Ajoutez une couleur de fond  correspondant à votre couleur primaire <em>(primary)</em> se trouvant dans votre partial <span class="inline-code">_variables.scss</span>.
+Ajoutez une marge intérieure et extérieure de 5px à chaque carte.
+Le bouton de la carte doit prendre toute la largeur de la carte, avoir une marge intérieure verticale de 5px ↕️ et ne pas avoir de bordure.
+Utilisez le module de couleur de SASS afin de donner une couleur de fond 15% plus pâle que votre couleur primaire à votre bouton.
+Au survol de votre bouton, faite en sorte que sa couleur de fond soit 25% plus pâle que votre couleur primaire.
+Complétez le bouton en changeant sa couleur de texte de sorte qu'elle soit de la couleur complémentaire à la couleur primaire.
+Utilisez la mixin <em>"small-cap"</em> se trouvant de le fichier <span class="inline-code">_text.scss</span> afin de faire afficher en petites majuscules le texte du bouton.
+</checklist>
+
+
+
+
+  <dots></dots>
+  <grostitre>Requis top-picks</grostitre>
+<checklist>Changez la couleur de fond de cette section de sorte à ce qu'elle soit 5% plus pâle que votre couleur primaire.
+    Changez la couleur de texte dans l'entête de cette section afin qu'elle devienne blanche <em>(vous n'avez pas à utiliser de variables pour cette partie)</em>.
+Utilisez la mixin <em>"small-cap"</em> se trouvant de le fichier <span class="inline-code">_text.scss</span> afin de faire afficher en petites majuscules le texte de la description de cette section.
+Modifiez la couleur de votre variable <span class="inline-code">$primary</span> et admirez l'impact sur votre page.</checklist>
+
+<dots></dots>
+<grostitre>Requis Vite</grostitre>
+<checklist>Faites un <em>build</em> du projet afin de compresser le code et générer la dossier de distribution "dist".</checklist>
+
+
+
+<dots></dots>
+<grostitre>Notes de cours 📚</grostitre>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../sass/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../sass/modules/">Modules</a></span>
+                <span class="intlink__item__abstract">Modulariser chaque composante en fichiers individuels</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../sass/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../sass/module-de-couleurs/">Module de couleurs</a></span>
+                <span class="intlink__item__abstract">Sass offre des modules built-in dont le module de couleurs</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../sass/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../sass/nomenclature-bem/">Nomenclature BEM</a></span>
+                <span class="intlink__item__abstract">Nomenclature CSS: Block, Element, and Modifier</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../javascript/vite/images/Vitejs-logo.svg);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../javascript/vite/">Vite</a></span>
+                <span class="intlink__item__abstract">Outil qui améliore l'expérience de développement front-end.</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../javascript/npm/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../javascript/npm/">NPM</a></span>
+                <span class="intlink__item__abstract">Gestionnaire de paquets JS</span>
+            </div>
+        </div>
+
+
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

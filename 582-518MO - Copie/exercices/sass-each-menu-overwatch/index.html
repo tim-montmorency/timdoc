@@ -1,0 +1,118 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Menu Overwatch</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Menu Overwatch</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+<p>Pour cet exercice vous devez recréer un menu permettant de choisir parmi certains personnages du jeu <a href="https://playoverwatch.com/fr-fr/">Overwatch</a>. Afin d’éviter de vous répéter, vous devrez tirer profit de la boucle <span class="inline-code">@each</span> de&nbsp;Scss.</p>
+
+    
+    
+<p>Aperçu du résultat 👇</p>
+<clipasset src="images/each-menu-overwatch-resultat.mp4"></clipasset>
+<grostitre>Matériel</grostitre>
+
+<doclink href="https://codepen.io/tim-momo/pen/oNJjzYo">Pen de départ</doclink>
+
+<h3 class="heading heading--h3" id="Médias 🖼️">Médias 🖼️</h3>
+
+<mediafile src="images/bg.jpeg">Arrière plan</mediafile>
+<mediafile src="https://tim-montmorency.com/timdoc/582-518MO/exercices/sass-each-menu-overwatch/images/[nom du personnage].jpg">Images des personnages (remplacer la partie entre [] avant le .jpg)</mediafile>
+
+<checklist>Ajoutez l'image d'arrière-plan en fond de page. Celle-ci doit couvrir entièrement la page, être centrée et ne doit afficher qu'une seule fois.
+Faites-en sorte que l'élément avec la classe <span class="inline-code">.overwatch</span> soit centré verticalement ↕️ dans la page.
+Les personnages <em>(.characters)</em> doivent être centrés horizontalement ↔️, doivent pouvoir s'afficher sur plusieurs lignes, mais tenter de s'afficher autant que possible sur une même ligne si l'espace le permet.
+Utilisez une boucle <span class="inline-code">@each</span> afin de générer des noms de classes ciblant chacun des personnages suivants: <br><em>echo, genji, hanzo, junkrat, lucio, mccree, mercy, moira, orisa, pharah, reaper, reinhardt</em>
+Pour chacun de ces personnages, ajouter une image d'arrière-plan dont le chemin de fichier correspond à: <br><span class="inline-code">https://tim-montmorency.com/timdoc/582-518MO/exercices/sass-each-menu-overwatch/images/[nom du personnage].jpg</span> <br>et assurez que cette image soit entièrement visible <em>(les noms des personnages ne devraient pas être tronqués)</em>.
+Profitez du nesting de Scss afin de créer un effet de survole sur les personnages. Ceux-ci doivent grandir de 10% en l'espace d'un tiers de seconde, lorsque survolé par la souris.
+</checklist>
+
+<dots></dots>
+<grostitre>Notes de cours 📚</grostitre>
+
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../sass/images/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../sass/boucle/">Boucle SASS</a></span>
+                <span class="intlink__item__abstract">Plusieurs classes CSS similaires avec une légère variation</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../582-215MO/css/transformation/images/icon.png);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../582-215MO/css/transformation/">Transformation</a></span>
+                <span class="intlink__item__abstract">translate, rotate, scale, skew, origin</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../582-215MO/css/transition/images/icon.png);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../582-215MO/css/transition/">Transition</a></span>
+                <span class="intlink__item__abstract">passer d'un état A à un état B</span>
+            </div>
+        </div>
+<doclink href="https://smnarnold.com/cours/css/flexbox">Flexbox</doclink>
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

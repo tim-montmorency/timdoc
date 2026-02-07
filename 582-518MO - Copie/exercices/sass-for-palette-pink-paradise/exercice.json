@@ -1,0 +1,6 @@
+{
+    "type": "exercice",
+    "title": "Palette Pink Paradise",
+    "icon": "images\/pink-palette-resultat.png",
+    "abstract": "Utiliser @for du langage Sass pour recr\u00e9er la palette de couleur Pink Paradise."
+}

@@ -1,0 +1,172 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../../shared/styles/styles.min.css">
+        <script src="../../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../../shared/';</script>
+        <title>Éléments de formulaire</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../../', '../../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../../">Projet Web</a> > <a href="../../">JavaScript</a> > <a href="../">Vue.js</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../../index/web/cadriciels/">Cadriciels</a>&nbsp;>&nbsp;<a href="../../../../index/web/cadriciels/vuejs/">Vue.js</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="../images/icon.webp">&nbsp;Éléments de formulaire</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p><span class="inline-code">v-model</span> permet de créer une relation bidirectionnelle entre une donnée et un élément de formulaire <em>(input, select, textarea, etc.)</em>.</p>
+
+<warning><span class="inline-code">v-model</span> ignore la valeur initiale attribuée à un élément de formulaire. La synchronisation entre l’élément et la donnée ne débute que lors de la première modification de&nbsp;l’élément.</warning>
+
+<p><span class="inline-code">v-model</span> se base sur différentes propriétés afin d’attribuer une valeur à une donnée.</p>
+
+<ul>
+    <li><strong>Champ texte</strong>: l’attribut <span class="inline-code">value</span> du champs</li>
+    <li><strong>Boîtes à cocher et boutons radio:</strong> l’attribut <span class="inline-code">checked</span></li>
+    <li><strong>Menu déroulant: </strong>l’attribut <span class="inline-code">value</span> de l’option sélectionnée</li>
+</ul>
+
+<dots></dots>
+<grostitre>Champ texte</grostitre>
+<p>Les champs textes synchronisent la valeur contenue dans l'attribut <span class="inline-code">value</span> avec la donnée qui lui est associée dans l'app.</p>
+<p>Par exemple, la donnée <span class="inline-code">msg</span> change de valeur en fonction du changement de value dans le champ suivant.
+</p>
+
+<highlight lang="html">&lt;input type=&quot;text&quot; v-model=&quot;msg&quot; /&gt;
+&lt;h1&gt;{ { msg } }&lt;/h1&gt;</highlight>
+<small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
+
+<br><br>
+<figure>
+    <codepen id="vYbpNBN" tab="html,result" height="400"></codepen>
+    <figcaption class="caption caption--codepen">
+        Modifier la valeur dans le champ texte mettra à jour le titre sans besoin d’aucune fonction JavaScript.
+    </figcaption>
+</figure>
+
+
+
+<br>
+<doclink href="https://vuejs.org/guide/essentials/forms.html#text">Champs texte</doclink>
+
+
+
+
+
+
+
+<dots></dots>
+<grostitre>Boite à cocher</grostitre>
+<p>Les boites à cocher synchronisent l’attribut <span class="inline-code">checked</span> avec la donnée qui leur est associée.</p>
+
+<highlight lang="html">&lt;input type=&quot;checkbox&quot; v-model=&quot;msg&quot; /&gt;
+&lt;h1&gt;Afficher le meme: { { msg } }&lt;/h1&gt;</highlight>
+
+<small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
+    <br><br>
+
+<codepen id="GRzyOaO" tab="html,result" height="500"></codepen>
+
+<p>Leur usage est tout indiqué entre autres pour déterminer si un élément devrait être affiché ou masqué à l'aide d'un
+    <span class="inline-code">v-if</span>.</p>
+<doclink href="https://vuejs.org/guide/essentials/forms.html#checkbox">Boite à cocher</doclink>
+
+
+<dots></dots>
+<grostitre>Boutons radio</grostitre>
+
+
+<p>Les boutons radio synchronisent l’attribut <span class="inline-code">value</span> du bouton qui est coché avec la donnée qui leur est associée.</p>
+
+<highlight lang="html">&lt;input type=&quot;radio&quot; id=&quot;option&quot; v-model=&quot;msg&quot; value=&quot;Texte 1&quot; /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;option&quot; v-model=&quot;msg&quot; value=&quot;Texte 2&quot; /&gt;
+&lt;h1&gt;{ { msg } }&lt;/h1&gt;</highlight>
+<small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
+
+
+    <br><br>
+
+<codepen id="JjxZJor" tab="html,result" height="500"></codepen>
+
+<br>
+<doclink href="https://vuejs.org/guide/essentials/forms.html#radio">Boutons radio</doclink>
+
+
+
+
+
+<dots></dots>
+<grostitre>Menu déroulant</grostitre>
+
+<p>Les menus déroulants synchronisent l’attribut <span class="inline-code">value</span> de l'option sélectionnée avec la donnée qui leur est associée.</p>
+
+<highlight lang="html">&lt;select v-model=&quot;msg&quot;&gt;
+  &lt;option value=&quot;Texte 1&quot;&gt;&Eacute;couteurs&lt;/option&gt;
+  &lt;option value=&quot;Texte 2&quot;&gt;Squid Game&lt;/option&gt;
+&lt;/select&gt;
+&lt;h1&gt;{ { msg } }&lt;/h1&gt;</highlight>
+<small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
+<br>
+
+<codepen id="OJdEgmK" tab="html,result" height="500"></codepen>
+
+<doclink href="https://vuejs.org/guide/essentials/forms.html#select">Menu déroulant</doclink>
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

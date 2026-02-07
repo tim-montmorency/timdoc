@@ -1,0 +1,153 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Fetch API - Zoom UI</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <h1 id="title">Fetch API - Zoom UI</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- EXERCICE HEADER EOF -->
+
+
+<p>Pour cet exercice, nous allons recréer l’interface de l’application de vidéoconférence <a href="https://zoom.us/" target="_blank>">Zoom</a>. Cette interface sera en mode "galerie", c'est-à-dire qu'on y verra les vignettes des différents participants à la rencontre Zoom.</p>
+
+<p>Aperçu du résultat 👇</p>
+<img src="images/fetch-zoom.jpg" alt="aperçu du résultat attendu.">
+
+
+<dots></dots>
+<grostitre>Matériel</grostitre>
+<doclink href="https://codepen.io/tim-momo/pen/GRPKBpX">Pen de départ</doclink>
+<br>
+
+<info>Les personnes affichées seront différentes dans votre exercice puisqu’elles sont&nbsp;aléatoires.</info>
+<warning>Vous n’avez qu’à écrire du JavaScript <em>(nul besoin de modifier le HTML ou le&nbsp;CSS)</em>.</warning>
+
+
+<h3>La structure HTML de chaque vignette est la suivante:</h3>
+
+<highlight lang="html">&lt;div class=&quot;preview&quot;&gt;
+    &lt;div class=&quot;media&quot;&gt;
+        &lt;img src=&quot;urlimg.jpg&quot; alt=&quot;Pr&eacute;nom Nom&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;name&quot;&gt;Pr&eacute;nom Nom&lt;/div&gt;
+&lt;/div&gt;</highlight>
+
+
+
+<dots></dots>
+<grostitre>Requis</grostitre>
+<checklist>Il faut préalablement récupérer les informations des personnes participant à la réunion. Pour ce faire, il faut utiliser&nbsp;<span class="inline-code">fetch</span>&nbsp;afin d'accéder à l'API de&nbsp;<a href="https://randomuser.me/" target="_blank">randomuser.me</a>&nbsp;à l'adresse&nbsp;suivante: <a href="https://randomuser.me/api?results=9" target="_blank">https://randomuser.me/api?results=9</a>
+Une fois le résultat reçu, convertissez-le en&nbsp;JSON.
+Faites un&nbsp;<span class="inline-code">console.log()</span>&nbsp;du JSON obtenu afin de voir ce qu'il contient&nbsp;exactement.
+Bouclez sur toutes les personnes dans le JSON afin de générer leur aperçu HTML dans l'élément&nbsp;<span class="inline-code">.zoom</span>.
+Affichez l'image large, le prénom et le nom de chaque&nbsp;personne.
+Basez-vous sur les classes CSS déjà présentes afin de déterminer la structure HTML à&nbsp;reproduire.
+</checklist> 
+
+
+
+
+
+
+
+
+
+
+
+
+<dots></dots>
+<grostitre>Notes de cours 📚</grostitre>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../582-424MO/javascript/promesses-js/images/ico-promesse-js.png);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../582-424MO/javascript/promesses-js/">Promesses JavaScript</a></span>
+                <span class="intlink__item__abstract">Représentant complétion ou échec d'une opération asyncrone</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../582-424MO/javascript/fetch-api/images/ico-fetch.png);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../582-424MO/javascript/fetch-api/">Fetch API</a></span>
+                <span class="intlink__item__abstract">L'API Fetch: interface pour récupération de ressources à travers le réseau</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../javascript/boucle-foreach/images/icon.svg);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../javascript/boucle-foreach/">boucle forEach()</a></span>
+                <span class="intlink__item__abstract">Facilite l'analyse ou le traitement des éléments d'un tableau/NodeList</span>
+            </div>
+        </div>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../javascript/manipulation-contenus-DOM/images/icon.svg);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../javascript/manipulation-contenus-DOM/">manipulation DOM</a></span>
+                <span class="intlink__item__abstract">Permet de manipuler le contenu et la structure du DOM.</span>
+            </div>
+        </div>
+<doclink href='https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/Property_accessors'>Accéder au propriété d'un objet JS</doclink>
+
+
+
+                    <!-- EXERCICE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

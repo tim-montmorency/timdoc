@@ -1,0 +1,155 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Planif création thème WP</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">Projet de session</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.svg">&nbsp;Planif création thème WP</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<dots></dots>
+<grostitre>REMISE 4 – PLANIFICATION DU THÈME WP</grostitre>
+
+<dots></dots>
+<grostitre>Étape individuelle</grostitre>
+<p>Cette étape se réalise d'abord individuellement et ensuite il y aura un retour en équipe.</p>
+
+<checklist>Dans VS Code, installez l'extension <a href="https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode" target="_blank">MarkMap</a>.
+Dans votre thème, créez un fichier <em>structure-site-VOSINITIALES.md</em> (changez VOSINITIALES pour vos propres initiales, par exemple pour moi, mon fichier serait <em>structure-site-mmo.md</em>).
+Ensuite ouvrez palette des commandes (ctrl+maj+p) et inscrivez <em>Open as markmap</em> + Enter afin de visualiser votre fichier markdown en fomat carte conceptuelle.
+Listez toutes les pages du site, chaque page sera un titre de niveau 1 (en markdown). Pour les pages qui se répètent (les 13 nouvelles ou les quelques services), veuillez les considérer comme une seule page.
+Sous chaque page, copiez-collez le code ci-bas. ⬇️ 
+Pour chaque catégorie ci-bas, veuillez lister en titre niveau 3 ou 4 (selon le contexte) ce que vous prévoyez avoir à créer pour chaque catégorie. 
+Vous trouverez les instructions pour chaque catégories juste en bas ici. ⬇️ ⬇️ 
+</checklist>
+
+<h3>Catégories par page</h3>
+<highlight lang="md">## TYPE DE CONTENU (POST TYPE)
+
+## MOD&Egrave;LE (TEMPLATE)
+
+## COMPOSANTES
+### NOM DU PARTIAL
+### CHAMPS PERSONNALIS&Eacute;S
+
+## AUTRES CHAMPS PERSONNALIS&Eacute;S</highlight>
+
+<h3>Instructions pour chaque catégorie</h3>
+<ul>
+    <li>## TYPE DE CONTENU (POST TYPE) <br>
+    Quel type de contenu (post-type) principal vous avez besoin? <br> Comment allez vous nommer ce post type (sans majuscule, ni accent, ni espace)? Ce sera le nom que vous allez utiliser pour le créer dans WP et l'utiliser dans le code PHP du thème.<br> <br>
+
+</li>
+    <li>## MODÈLE (TEMPLATE) <br>
+    Quel sera le nom du modèle lié à cette page (ou ce type de page)? <br>Par examples: page.php, product.php. <br>Vous n'avez pas nécessairement besoin de créer un modèle unique pour chaque page. Si la page ne comporte qu'un titre et un contenu textuel, comme ces champs sont natifs de WordPress, vous n'avez pas besoin de faire un modèle spécial pour cette page, ni de champs personnalisés. À vous de voir. <br> <br>
+    </li>
+    <li>## COMPOSANTE DE LA PAGE <br>
+    Dans la page elle-même, qu’est-ce que vous évaluez être une composante qui aura son propre partial PHP dans le thème. Pour chaque composante nommée :
+    
+        <ul>
+            <li>### NOM DU PARTIAL DU THÈME WP POUR CETTE COMPOSTANTE <br>
+            Comment nommerez-vous le partial de cette composante php?
+            </li>
+            <li>### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE <br>
+            Quel(s) champs SCF que cette composante aura besoin et comment allez-vous les nommer. Vous devez donc écrire <br> <em>le-nom: le type de champs</em>.
+            </li>
+        </ul>
+    </li>
+    <li>## AUTRES CHAMPS PERSONNALISÉS (CUSTOM FIELDS) SANS LIEN AVEC UNE COMPOSANTE <br>
+    Outre les composantes, quels champs SCF avec-vous besoin de créer pour compléter la page en question. <br> <em>le-nom: le type de champs</em>
+    </li>
+</ul>
+
+Pour les type de champs personnalisés, allez consulter <a href="https://www.advancedcustomfields.com/resources/" target="_blank" rel="noopener noreferrer">les options de Secure Custom Fields</a>.
+
+<alert>Essayez de minimiser le nombre de type de contenu (post type), de modèles et de champs personnalisés à créer. Rappelez-vous qu'il y a des types de contenu (page et article) ainsi que des champs de base déjà existants dans Wordpress que vous pouvez utilsier avant d'en créer des supplémentaires.</alert>
+
+
+
+<dots></dots>
+<grostitre>Étape en équipe</grostitre>
+<p>Lorsque l'étape individuelle est complétée, retrouvez-vous en équipe et comparez vos planifications. Discutez et trouvez un accord pour faire un plan final d'équipe. Faites votre markdown/mindmap final ensemble. Les noms de modèles, de types de contenu et de champs personalisés devront être finaux. Vous devrez vous fier à ces noms exacts pour réaliser votre thème WordPress.</p>
+
+
+<dots></dots>
+<grostitre>Remise</grostitre>
+<p>Ajoutez vos fichiers individuels ainsi que le fichier d'équipe final  <em>structure-site.md</em> dans votre thème Wordpress.</p>
+<p>Remettez ces 3 ou 4 fichiers <em>structure-site.md</em> dans Teams/Devoir d'ici lundi.</p>
+
+
+
+
+<dots></dots>
+<grostitre>Notes de cours</grostitre>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../wordpress/medias/icon.webp);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../wordpress/">WordPress</a></span>
+                <span class="intlink__item__abstract">Système de gestion de contenu</span>
+            </div>
+        </div>
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+{
+    "type": "exercice",
+    "title": "Imbrication SASS",
+    "icon": "images\/",
+    "abstract": "Vous devez utiliser la technique d'imbrication SCSS pour g\u00e9n\u00e9rer le code CSS suivant."
+}

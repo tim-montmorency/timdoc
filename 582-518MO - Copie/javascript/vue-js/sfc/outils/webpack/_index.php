@@ -1,0 +1,10 @@
+<?php 
+/**
+ * @type     tool
+ * @title    Webpack
+ * @icon     images/thumb.webp
+ * @url      https://webpack.js.org/
+ * @abstract Webpack is a free and open-source module bundler for JavaScript.
+ */
+?>
+<script>location.href = '<?php echo $PAGE->url; ?>';</script>

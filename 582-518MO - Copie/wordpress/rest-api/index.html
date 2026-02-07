@@ -1,0 +1,306 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>REST API</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '../../../index/')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">WordPress</a> ></div>
+                    <div id="breadcrumb_index"><a href="../../../index/">Index des connaissances</a>&nbsp;>&nbsp;<a href="../../../index/web/">Web</a>&nbsp;>&nbsp;<a href="../../../index/web/wordpress/">WordPress</a>&nbsp;>&nbsp;</div>
+                </div>
+                <h1 id="title"><img src="../medias/icon.webp">&nbsp;REST API</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p>Le Rest API de WordPress est la fonctionnalité préférée des développeurs WordPress n'affectionnant pas particulièrement&nbsp;WordPress 🖤.</p>
+
+<p>Elle permet aux éditeurs de continuer d'entrer/modifier du contenu dans le tableau de bord de WordPress, comme dans tout site WordPress classique. Tout en permettant aux développeurs d'accéder aux contenus en JavaScript via des JSON plutôt que d'avoir à utiliser les templates PHP de&nbsp;WordPress.</p>
+
+
+<dots></dots>
+<grostitre>Utilisation de base</grostitre>
+      
+<p>Par défaut, le Rest API est déjà présent sur tout site WordPress. Pour y avoir accès, il suffit d'ajouter&nbsp;<span class="inline-code">/wp-json/wp/v2/</span>&nbsp;à la fin de l'url du site en&nbsp;question.</p>
+
+<p>Par exemple:</p>
+
+<highlight lang="console">https://site.com/wp-json/wp/v2/</highlight>
+
+<br>
+<p>La page retournée ressemble probablement à un mur de texte illisible. Il s'agit en fait d'un fichier JSON minifié contenant tous les contenus du site, affichés sur une seule&nbsp;ligne.</p>
+
+
+<alert><strong>Erreur fréquente</strong><br>Si le Rest API de votre site ne répond pas à cette URL, il est probable que votre hébergeur ait modifié son emplacement. Pour le trouver, ouvrez le code source de votre page d’accueil et cherchez&nbsp;<em>"wp-json/"</em>. <br><br>
+
+Avec une nouvelle installation WordPress, il est possible qu'il soit situé à cette adresse: <span class='inline-code'>https://site.com/index.php/wp-json/wp/v2/</span> </alert>
+<br><br>
+
+<dots></dots>
+<grostitre>Visualiser les données reçues</grostitre>
+<h3>À l'aide d'une extention à ajouter à votrwe navigateur web préféré</h3>
+        <a class="tool" target="_blank" href="https://jsonview.com/">
+            <div class="tool-container">
+                <div class="tool-abstract">
+                    <em class="tool-label">OUTIL</em>
+                    <span class="tool-title">JSONView</span>
+                    <span class="tool-description">Permet d’afficher un fichier JSON en format standard dans un navigateur plutôt qu’en une longue chaine de caractères.</span>
+                </div>
+                <div class="tool-thumb" style="background-image: url(../../tools/jsonview/images/thumb.webp)"></div>
+            </div>
+        </a>
+<h3>Avec Firefox</h3>
+<p>Avec Firefox, vous n'avez pas besoin d'extention supplémentaire pour visualiser le JSON de manière propre et ordonnée. </p>
+<clipasset src='images/firefox-json.mp4'></clipasset>
+
+
+ <dots></dots>
+ <grostitre>Routes</grostitre>
+
+<p>Pour des raisons de performance et de facilité de traitement, il est généralement préférable de ne charger que les informations qui seront utilisées. Pour ce faire, il est possible d'utiliser ce que l'on appelle des&nbsp;routes.</p>
+
+
+<h3>Pages (pages)</h3>
+<p>Par exemple, si seulement les pages sont requises, il est possible de spécifier la&nbsp;route</p>
+
+<highlight lang="console">https://site.com/wp-json/wp/v2/pages</highlight>
+
+<br>
+
+<p>Qui retournera un JSON ne contenant que les pages&nbsp;publiées.</p>
+
+<p>Dans cet exemple, la partie&nbsp;<span class="inline-code">https://site.com/wp-json/wp/v2</span>&nbsp;correspond à l'URL de base de l'API. Tandis que&nbsp;<span class="inline-code">/pages</span>&nbsp;est la route spécifiant que seuls les contenus de type&nbsp;<em>page</em>&nbsp;doivent-être&nbsp;retourné.</p>
+
+<dots></dots>
+<h3>Articles (posts)</h3>
+<p>Si un autre type de publication doit être retourné. Par exemple, les articles, ou en anglais&nbsp;<em>posts</em>, il suffit de spécifier une route&nbsp;différente.</p>
+
+<p>Dans cet exemple:&nbsp;<span class="inline-code">/posts</span>.</p>
+
+<highlight lang="console">https://site.com/wp-json/wp/v2/posts</highlight>
+
+
+<dots></dots>
+<h3>Type de publication personnalisé (custom post type)</h3>
+<p>Si un autre type de publication (custom post type) doit être retourné. Par exemple, les jeux comme dans l'exercice "Valet de coeur", il suffit de spécifier une route&nbsp;différente.</p>
+
+<p>Dans cet exemple:&nbsp;<span class="inline-code">/games</span>.</p>
+
+<highlight lang="console">https://site.com/wp-json/wp/v2/games</highlight>
+
+
+<dots></dots>
+<h3>Et si on précisait la route vers une page spécifique?</h3>
+<p>Il est possible de spécifier des routes encore plus précises. Notamment en spécifiant l'ID de la publication&nbsp;désirée.</p>
+
+<p>Par exemple, si seulement la page avec le ID 10 est requis, il est possible de spécifier la route&nbsp;<span class="inline-code">/pages/10</span>.</p>
+
+<highlight lang="console">https://site.com/wp-json/wp/v2/pages/10</highlight>
+
+<doclink href='https://developer.wordpress.org/rest-api/reference/'>Reference REST API</doclink>
+<doclink href='https://capitainewp.io/formations/developper-theme-wordpress/api-rest/'>REST API expliqué par capitaine WP</doclink>
+
+
+
+
+
+<dots></dots>
+<grostitre>Tri des résultats</grostitre>
+
+
+<h3 class="heading heading--h3" id="orderby">orderby</h3>
+
+<p>Pour trier les résultats d’une requête, il faut ajouter des paramètres à l’URL fournie à la requête fetch. Un premier <span class="inline-code">orderby</span> permet d'indiquer le critère devant être utilisé afin de trier les résultats. Il est entre autres possible de trier par:</p>
+
+<ul>
+    <li><p>Titre <span class="inline-code">title</span></p></li>
+    <li><p>Identifiant <span class="inline-code">id</span></p></li>
+    <li><p>Date de publication <span class="inline-code">date</span></p></li>
+    <li><p>Etc.</p></li>
+</ul>
+    
+<p>Par exemple, par titres:</p>
+
+<highlight lang="console">https://site.com/wp-json/wp/v2/posts?orderby=title</highlight>
+
+
+<h3 class="heading heading--h3" id="order">order</h3>
+
+<p>Il est aussi de spécifier l’ordre dans lequel les posts devraient être triés via le paramètre <span class="inline-code">order</span>permettant de spécifier si les résultats doivent être triés par:</p>
+<ul>
+    <li><p>ordre croissant asc </p></li>
+    <li><p>ordre décroissant desc</p></li>
+</ul>
+
+
+<p>Par exemple, par titres décroissants:</p>
+
+
+<highlight lang="console">https://site.com/wp-json/wp/v2/posts?orderby=title&amp;order=desc</highlight>
+
+
+<br>
+<doclink href="https://developer.wordpress.org/rest-api/reference/posts/#arguments">Arguments</doclink>
+
+
+<info>Le premier paramètre est séparé de l’URL grâce à un point d’interrogation <em>(?)</em>. Tous les paramètres suivants sont séparés entre eux par une perluète&nbsp;<em>(&amp;)</em>.</info>
+
+
+
+
+
+
+<dots></dots>
+<grostitre>Featured Image</grostitre>
+
+<p>Par défaut, un objet correspondant à un post dans le JSON ne contient que le id du featured image lui étant associé. Pour obtenir plus d’informations concernant ce featured image, il faut le spécifier dans l’URL fournie à fetch en lui ajoutant le paramètre <span class="inline-code">_embed</span>. </p>
+
+
+<p>Par exemple: </p>
+
+<highlight lang="console">https://site.com/wp-json/wp/v2/posts?_embed</highlight>
+
+
+<br><br>
+
+<p>Chaque post sera alors bonifié d’une propriété nommée <span class="inline-code">_embedded</span> contenant une sous-propriété intitulée <span class="inline-code">wp:featuredmedia</span>. Celle-ci est un tableau contenant des objets correspondant à chaque featured image associée au post. </p>
+
+
+<info>Certaines extensions permettent d’ajouter plus d’une featured image, d’où pourquoi un tableau est&nbsp;retourné.</info>
+
+<p>Il est donc possible d’accéder à toutes les propriétés associées à cette image telles que: sa date de création, son alt et surtout son URL. </p>
+
+<p>Par exemple, afin d’obtenir l’URL de la 1<sup>re</sup> featured image:</p>
+
+<highlight lang="javascript">referencAuPost._embedded[&#039;wp:featuredmedia&#039;][0].source_url</highlight>
+
+<br><br>
+<doclink href="https://developer.wordpress.org/rest-api/using-the-rest-api/global-parameters/#_embed">_embed</doclink>
+
+
+
+
+
+<dots></dots>
+<grostitre>Compatibilité SCF</grostitre>
+<p>Les <em>post types</em> que vous créez avec SCF vont être pris en compte et retournés par le REST&nbsp;API.</p>
+
+<p>Par compte, les informations stockées dans des champs&nbsp;<a target="_blank" rel="noopener noreferrer" href="/cours/wordpress/advanced-custom-fields">SCF</a>&nbsp;ne sont pas retournées par le Rest&nbsp;API de WordPress. Heureusement, il est possible de les inclure facilement en activant REST API pour le/les groupe(s) de champs concernés. </p>
+
+<clipasset src='images/show-in-rest-api.mov'></clipasset>
+
+
+
+
+
+<dots></dots>
+<grostitre>Affichage</grostitre>
+<p>Une fois les JSONs désirés identifiés, il ne reste plus qu'à afficher leurs&nbsp;informations!</p>
+<p>Par exemple, dans la page&nbsp;<em>single.php</em>&nbsp;servant à afficher les articles, il serait possible de déclarer une balise&nbsp;<span class="inline-code">&lt;script&gt;</span>&nbsp;et d'effectuer un&nbsp;<a target="_blank" rel="noopener noreferrer" href="../../../582-424MO/javascript/fetch-api/">fetch</a>&nbsp;afin de récupérer les informations de l'article&nbsp;courant:</p>
+
+
+
+<highlight lang="javascript">fetch(&quot;/wp-json/wp/v2/posts/&lt;?php the_ID(); ?&gt;&quot;)
+  .then(response =&gt; response.json())
+  .then(data =&gt; console.log(data));</highlight>
+
+<info><span class="inline-code">the_ID()</span> est une fonction de WordPress retournant le id de la page courante, ex:&nbsp;10.</info>
+
+
+
+
+<dots></dots>
+<grostitre>Pour creuser dans un JSON</grostitre>
+<p>Si vous ne vous souvenez pas comment creuser dans un JSON et aller chercher l'info qu'on veut afficher dans la page, retournez voir les contenus de cours de Fetch API. Je vous remonte aussi un CodePen que vous avez déjà vu dans un cours antérieur qui continent des explications (voir les commentaires dans le JS).</p>
+        <div class="intlink__item">
+            <div class="intlink__item__icon" style="background-image: url(../../../582-424MO/javascript/fetch-api/images/ico-fetch.png);"></div>
+            <div class="intlink__item__description">
+                <span class="intlink__item__title"><a target="_blank" href="../../../582-424MO/javascript/fetch-api/">Fetch API</a></span>
+                <span class="intlink__item__abstract">L'API Fetch: interface pour récupération de ressources à travers le réseau</span>
+            </div>
+        </div>
+
+<p class="codepen" data-height="600" data-theme-id="44431" data-default-tab="js,result" data-slug-hash="OJrYEop" data-pen-title="DEMO Fetch API | GET - Reddit" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJrYEop">
+  DEMO Fetch API | GET - Reddit</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+
+<br><br>
+        <a class="exercice" target="_blank" href="../../exercices/wp-rest-api-vice-versa/">
+            <div class="exercice-container">
+                <div class="exercice-thumb" style="background-image: url(../../exercices/wp-rest-api-vice-versa/images/thumb.webp)"></div>
+                <div class="exercice-abstract">
+                    <em class="exercice-label">EXERCICE</em>
+                    <span class="exercice-title">WP Rest API - Vice Versa</span>
+                    <span class="exercice-description">Créer un microsite permettant de présenter les protagonistes du film Vice Versa</span>
+                </div>
+            </div>
+        </a>
+
+
+
+<br> <br>
+<doclink href="https://developer.wordpress.org/rest-api/using-the-rest-api/global-parameters/">REST API</doclink>
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

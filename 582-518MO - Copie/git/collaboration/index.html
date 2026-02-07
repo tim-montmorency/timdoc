@@ -1,0 +1,132 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../../shared/styles/styles.min.css">
+        <script src="../../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../../shared/';</script>
+        <title>Collaboration avec Git</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"><a href="../../">Projet Web</a> > <a href="../">Git</a> ></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="images/icon.svg">&nbsp;Collaboration avec Git</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+
+<p>Git permet de travailler à plusieurs simultanément sur un même projet. Pour ce faire, chaque développeur possède une copie du même&nbsp;<em>repo</em>&nbsp;sur son ordinateur et partage un&nbsp;<em>repo commun</em>&nbsp;en ligne, généralement sur <a target="_blank" rel="noopener noreferrer" href="../github/">GitHub</a>, afin de pousser leurs&nbsp;<span class="inline-code">commits</span>.</p
+
+><p>Ainsi, à chaque fois qu'un développeur 👩 effectue un&nbsp;<span class="inline-code">commit</span>&nbsp;et le&nbsp;<span class="inline-code">push</span>&nbsp;en ligne, son collègue 👨 reçoit une notification sur son logiciel de suivi GIT, par exemple <a target="_blank" rel="noopener noreferrer" href="../github-desktop/">GitHub Desktop</a>, l'avertissant que de nouveaux changements sont disponibles et l'invite à effectuer un&nbsp;<span class="inline-code">pull</span>.</p>
+
+<p>Ce dit collègue 👨 peut attendre avant de récupérer les changements et continuer à travailler /&nbsp;<span class="inline-code">commiter</span>&nbsp;à sa guise. Cependant, <strong>Git bloquera toute tentative de&nbsp;</strong><span class="inline-code">push</span><strong>&nbsp;tant qu'il n'aura pas&nbsp;</strong><span class="inline-code">pull&eacute;</span>&nbsp;les changements disponibles en&nbsp;ligne.</p>
+
+          <iframe src="./iframe/" width="100%" height="400px"></iframe>
+
+<dots></dots>
+<grostitre>Partage d'un repo</grostitre>
+
+<p>Bien qu'un&nbsp;<em>repo</em>&nbsp;soit public et que tous puissent le&nbsp;<a target="_blank" rel="noopener noreferrer" href="../github/#clone">cloner</a>, il est impossible pour quiconque de modifier la version sur GitHub, à moins d'en être l'auteur ou d'en avoir obtenu la permission préalablement.</p>
+
+<p>Évidemment, dans le cadre d'un projet d'équipe, il est primordial de pouvoir donner la permission de modifier le <em>repo</em> à ses collègues. Pour ce faire, il suffit d'aller sur la page <a target="_blank" rel="noopener noreferrer" href="https://github.com/">GitHub</a> du repo que l'on désire partager et de cliquer sur ⚙️ <em>Settings</em>. Ensuite dans l'onglet&nbsp;<em>Manage access</em>, il est possible de cliquer sur&nbsp;<em>Invite a collaborator</em>&nbsp;et de rechercher le ou les collègues désirés par:</p>
+
+            <ul>
+                <li>Nom d'usager GitHub</li>
+                <li>Nom complet</li>
+                <li>Courriel</li>
+            </ul>
+
+<dots></dots>
+<grostitre>Conflits 🤼‍♂️  </grostitre>
+
+ <p>À moins de toujours travailler en solo, aucun développeur n'échappe à la problématique d'avoir modifié le même fichier que l'un de ses&nbsp;collègues.</p><p>Sans GIT, il n'était pas rare qu'un développeur remplace le fichiers d'un de ses collègues sans réaliser qu'il effaçait du même coups les progrès de celui-ci. Même en portant attention et en tentant de combiner manuellement chaque ligne de code des deux fichier, il était fréquent que des erreurs ou oublies se produisent.</p>
+ 
+ <p>Heureusement GIT peut s'occuper de cette tâche pour nous! Puisque GIT surveille chaque changement dans un projet, il est en mesure de constater si un même fichier a été modifié par une autre personne depuis que nous avons commencer à le modifier. Le cas échéant, GIT sera même en mesure de dire si les lignes modifiées dans ce fichiers sont les mêmes.</p>
+ 
+ <p>Autrement dit, si une autre personne a travaillé dans le même fichier depuis la dernière fois que nous l'avons tiré, mais que cette personne a travaillé sur des lignes différentes, GIT combinera les deux fichiers automatiquement sans que personne ne perde aucun progrès ✨.</p>
+ 
+ <p>Si les lignes de code modifiées sont les mêmes, GIT créera alors ce que nous appelons un <em>"Conflit"</em>.</p>
+
+          <dots></dots>
+
+<h3>Résolution de conflit 👩‍❤️‍👨</h3>
+
+          <p>Un conflit se produit lorsque nous tentons de pousser des nouveaux changements, alors que d'autres changements ont déjà étés effectués au même endroit sur le repo en lignes depuis la dernière fois que nous avons tiré.</p><p>Autrement dit, GIT nous informe qu'il sera impossible pour lui de garder le progrès de tout le monde, qu'une décision devra être prise et nous laisse le soin de faire ce choix.</p><p>GIT indiquera quel fichier est touché par le conflit et ajoute des commentaires dans celui-ci pour nous aider à les identifier.</p><p>Par exemple:</p>
+
+
+<highlight lang="html">&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+Code &eacute;crit par le premier d&eacute;veloppeur 👩
+=======
+Code &eacute;crit par le deuxi&egrave;me d&eacute;veloppeur 👨
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;</highlight>
+          
+<p>Il est donc possible de choisir le code le plus pertinent et d'effacer l'autre ainsi que les commentaires.</p>
+
+
+<br>
+<info>Dans le but d’éviter autant que possible les conflits, ou du moins de les simplifier, il est conseillé de commiter et pousser régulièrement. <strong>Minimalement 1x par&nbsp;jour.</strong>
+</info>
+
+<bravo>
+  <h3>Bon commits</h3>
+  <p>👏 <a href="https://medium.com/@hritik.jaiswal/how-to-write-a-good-commit-message-9d2d533b9052" target="_blank">Comment écrire de bons messages de commit (illustré avec des memes)</a></p>
+</bravo>
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+           
+            <div id="copyright"> 
+            Ce contenu a été tiré en grande partie du site web de <a href="https://smnarnold.com/" target="_blank" rel="noopener noreferrer">Simon Arnold</a>.<br>
+            Collège Montmorency | Techniques d'intégration multimédia
+            </div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>
